@@ -81,7 +81,7 @@ def parse_header(text):
 EVENT_PATTERNS = [
     # Generic patterns that cover any event name format (Spanish + Catalan)
     # Track events: 60m, 100m, 300m, 600m, 1.000m, 3.000m, etc. (with or without space)
-    r'(?:\d{1,3}(?:\.\d{3})?\s*m|\d+\s*m)\s*(?:\(.*?\))?\s*(?:tanques\s+)?(?:Marcha\s+)?(?:Hombres|Mujeres|Mixto|masculins|femenins|masculina|femenina|masculino|femenino)',
+    r'(?:\d{1,3}(?:\.\d{3})?\s*m|\d+\s*m)\s*(?:tanques\s+)?(?:vallas\s+)?(?:\(.*?\))?\s*(?:Obst\.?\s+)?(?:Marcha\s+)?(?:Hombres|Mujeres|Mixto|masculins|femenins|masculina|femenina|masculino|femenino)',
     # Field/jump/height events (Spanish + Catalan)
     r'(?:Altura|Alçada|Pértiga|Pertiga|Perxa|Longitud|Llargada|Triple\s+Salto|Triple\s+salt|Disco|Martillo|Peso|Jabalina|Dard)\s*(?:\(.*?\))?\s*(?:Hombres|Mujeres|Mixto|masculins|femenins|masculina|femenina|masculino|femenino)',
     # Relay events: 4x100m, 4x400m, 4x300m, Relleu 4x300
@@ -89,7 +89,7 @@ EVENT_PATTERNS = [
     # Age category events
     r'(?:Longitud|Llargada|Altura|Alçada|Peso|Jabalina|Dard|Disco|Martillo|Triple\s+Salto|Triple\s+salt)\s+(?:Hombres|Mujeres|masculins|femenins)\s+U\d+[MF]',
     r'\d+\s*m\s*(?:Hombres|Mujeres|masculins|femenins)\s+U\d+[MF]',
-    r'\d+\s*m\s*(?:tanques\s+)?(?:Hombres|Mujeres|masculins|femenins)\s+U\d+[MF]',
+    r'\d+\s*m\s*(?:tanques\s+)?(?:vallas\s+)?(?:Obst\.?\s+)?(?:Hombres|Mujeres|masculins|femenins)\s+U\d+[MF]',
     # Weighted events
     r'Peso\s+\(\d+k?\)\s*(?:Hombres|Mujeres)',
     r'Jabalina\s+\(\d+g\)\s*(?:Hombres|Mujeres)',
@@ -97,8 +97,8 @@ EVENT_PATTERNS = [
 ]
 
 TRACK_PATTERNS = [
-    r'(?:^|[\s(])\d{1,3}(?:\.\d{3})?\s*m\s*(?:\(.*?\))?\s*(?:Hombres|Mujeres|Mixto|masculins|femenins|masculina|femenina)',
-    r'\d{1,3}\s*m\s+(?:tanques|vallas)\s+(?:Hombres|Mujeres|masculins|femenins)',
+    r'(?:^|[\s(])\d{1,3}(?:\.\d{3})?\s*m\s*(?:tanques|vallas)?\s*(?:Obst\.?)?\s*(?:\(.*?\))?\s*(?:Hombres|Mujeres|Mixto|masculins|femenins|masculina|femenina)',
+    r'\d{1,3}\s*m\s+(?:tanques|vallas|Obst\.?)\s+(?:Hombres|Mujeres|masculins|femenins)',
     r'\d{1,3}\s*m\s+(?:Hombres|Mujeres|masculins|femenins)',
 ]
 

@@ -6,6 +6,9 @@ on:
     - cron: '0 0 * * 3'
   workflow_dispatch: # Permet executar manualment
 
+permissions:
+  contents: write
+
 jobs:
   process:
     runs-on: ubuntu-latest

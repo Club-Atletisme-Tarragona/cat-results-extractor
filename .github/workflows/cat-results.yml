@@ -1,0 +1,44 @@
+name: Processar PDFs CATT
+
+on:
+  schedule:
+    # Cada dimecres a les 00:00 UTC
+    - cron: '0 0 * * 3'
+  workflow_dispatch: # Permet executar manualment
+
+jobs:
+  process:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repositori
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Instal·lar dependències del sistema
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y poppler-utils curl
+
+      - name: Instal·lar dependències Python
+        run: |
+          pip install --break-system-packages xlrd
+
+      - name: Executar process_all.py
+        run: |
+          python3 process_all.py
+
+      - name: Configurar git i fer commit/push
+        if: success()
+        run: |
+          git config user.name "cat-results-bot"
+          git config user.email "bot@cat-results.local"
+          git add json/
+          git diff --cached --quiet || git commit -m "Processar PDFs CATT - $(date '+%Y-%m-%d %H:%M')"
+          git push

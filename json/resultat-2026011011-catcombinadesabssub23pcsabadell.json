@@ -1,15 +1,23 @@
 {
-  "event_name": " - Pista coberta de Atletisme de Catalunya - Carme Valero",
+  "event_name": "Campionat de Catalunya de proves combinades Absolut i Sub23 en ST - Pista coberta de Atletisme de Catalunya - Carme Valero",
   "event_date": "10/01/2026",
   "event_location": "Sabadell (i)",
-  "total_results": 4,
+  "total_results": 5,
   "results": [
     {
       "athlete_name": "CLAUDIA MIR CASELLAS",
       "athlete_dob": "2/8/2003",
+      "athlete_id": "",
+      "performance": "3048",
+      "discipline": "Pentathlon Mujeres PC",
+      "wind": null
+    },
+    {
+      "athlete_name": "CLAUDIA MIR CASELLAS",
+      "athlete_dob": "2/8/2003",
       "athlete_id": "CT152",
-      "performance": "",
-      "discipline": "1.000m Masculino Heptathlón",
+      "performance": "9.41",
+      "discipline": "60m vallas Mujeres Pentatlón",
       "wind": null
     },
     {
@@ -24,7 +32,7 @@
       "athlete_name": "CLAUDIA MIR CASELLAS",
       "athlete_dob": "2/8/2003",
       "athlete_id": "CT152",
-      "performance": "",
+      "performance": "7.33",
       "discipline": "Peso Mujeres Pentatlón",
       "wind": null
     },

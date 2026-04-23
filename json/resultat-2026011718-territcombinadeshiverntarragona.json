@@ -1,7 +1,56 @@
 {
-  "event_name": " - Pista de Atletismo de Camp Clar",
+  "event_name": "Campionat Territorial de Proves Combinades d'Hivern - Tarragona - Pista de Atletismo de Camp Clar",
   "event_date": "17/01/2026",
   "event_location": "Tarragona",
-  "total_results": 0,
-  "results": []
+  "total_results": 6,
+  "results": [
+    {
+      "athlete_name": "NORA MONTOLIO AMARO",
+      "athlete_dob": "5/2/2010",
+      "athlete_id": "",
+      "performance": "9.91",
+      "discipline": "60m vallas (0,762) S18 Mujeres JUV/CAD AL",
+      "wind": "+1.4"
+    },
+    {
+      "athlete_name": "NORA MONTOLIO AMARO",
+      "athlete_dob": "5/2/2010",
+      "athlete_id": "CAT-3895023-A",
+      "performance": "1.39",
+      "discipline": "Altura S18 Mujeres AL",
+      "wind": null
+    },
+    {
+      "athlete_name": "NORA MONTOLIO AMARO",
+      "athlete_dob": "5/2/2010",
+      "athlete_id": "CAT-3895023",
+      "performance": "6.97",
+      "discipline": "Peso (3kg) S18 Mujeres AL",
+      "wind": null
+    },
+    {
+      "athlete_name": "NORA MONTOLIO AMARO",
+      "athlete_dob": "5/2/2010",
+      "athlete_id": "CAT-3895023",
+      "performance": "4.89",
+      "discipline": "Longitud S18 Mujeres AL",
+      "wind": null
+    },
+    {
+      "athlete_name": "NORA MONTOLIO AMARO",
+      "athlete_dob": "5/2/2010",
+      "athlete_id": "CAT-3895023",
+      "performance": "",
+      "discipline": "800m S18 Mujeres AL",
+      "wind": null
+    },
+    {
+      "athlete_name": "NORA MONTOLIO AMARO",
+      "athlete_dob": "5/2/2010",
+      "athlete_id": "",
+      "performance": "2657",
+      "discipline": "Pentathlon JUVMujeres PC-aire libre",
+      "wind": null
+    }
+  ]
 }

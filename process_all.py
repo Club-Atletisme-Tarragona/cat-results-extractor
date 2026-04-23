@@ -98,8 +98,9 @@ def has_catt_in_pdf(pdf_path):
 
 def process_pdf(pdf_path, json_path):
     """Executa extract_catt.py sobre un PDF i retorna True si ha generat JSON."""
+    extract_script = os.path.join(os.path.dirname(os.path.abspath(__file__)), "extract_catt.py")
     result = subprocess.run(
-        [sys.executable, "extract_catt.py", pdf_path],
+        [sys.executable, extract_script, pdf_path],
         capture_output=True, text=True, timeout=120
     )
     if result.returncode != 0:

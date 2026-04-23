@@ -38,9 +38,14 @@ def parse_header(text):
     lines = text.split('\n')
 
     # Generic competition name: any line containing "Jornada" and "Campionat"
+    # Also accept lines with just "Campionat" or "Campionatu" (without "Jornada")
     for i, line in enumerate(lines[:20]):
         stripped = line.strip()
         if 'Jornada' in stripped and 'Campionat' in stripped:
+            competicio = stripped
+            break
+        if 'Campionat' in stripped and 'Campionatu' not in stripped and 'Jornada' not in stripped and not competicio:
+            # Fallback: use first line with Campionat if no Jornada+Campionat found
             competicio = stripped
             break
 
@@ -79,27 +84,47 @@ def parse_header(text):
 # ============================================================================
 
 EVENT_PATTERNS = [
+    # Combined events (pentathlon/heptathlon/tetrathlon/hexathlon) - must be before other patterns
+    # Master categories: "Pentathlon PC Master M60", "Pentathlón VET.Mujeres. PC Master F55"
+    r'(?:Pentathlón|Pentatlón|Pentathlon|Heptathlón|Heptatlón|Heptathlon|Tetrathlón|Tetrathlon|Hexathlón|Hexathlon)\s+(?:VET\.?|Vet\.?\s+)?(?:Hombres\.?|Mujeres\.?|Masculí|Femení|masculins|femenins|masculina|femenina|masculino|femenino)\s+(?:PC\s+)?(?:Master\s+)?(?:M\d+|F\d+|U\d+)',
+    # Youth/age category combined: "Pentathlon S16 CAD.Mujeres PC-Aire libre", "Heptathlon JUV Hombres PC-AL"
+    r'(?:Pentathlón|Pentatlón|Pentathlon|Heptathlón|Heptatlón|Heptathlon|Tetrathlón|Tetrathlon|Hexathlón|Hexathlon)\s*(?:S\d+\s+)?(?:JUV\.?|CAD\.?|INF\.?\s*)?\s*(?:Hombres|Mujeres|Masculí|Femení|masculins|femenins|masculina|femenina|masculino|femenino)\s*(?:PC\s*[-.]?\s*(?:Aire\s+libre|AL|aire\s+libre))?',
+    # Tetrathlón Cataluña infantil
+    r'(?:Tetrathlón|Tetrathlon)\s+Cataluña\s+infantil',
     # Generic patterns that cover any event name format (Spanish + Catalan)
     # Track events: 60m, 100m, 300m, 600m, 1.000m, 3.000m, etc. (with or without space)
-    r'(?:\d{1,3}(?:\.\d{3})?\s*m|\d+\s*m)\s*(?:tanques\s+)?(?:vallas\s+)?(?:\(.*?\))?\s*(?:Obst\.?\s+)?(?:Marcha\s+)?(?:Hombres|Mujeres|Mixto|masculins|femenins|masculina|femenina|masculino|femenino)',
+    r'(?:\d{1,3}(?:\.\d{3})?\s*m|\d+\s*m)\s*(?:tanques\s+)?(?:vallas\s+)?(?:\(.*?\))?\s*(?:Obst\.?\s+)?(?:Marcha\s+)?(?:Marxa\s+)?(?:Hombres|Mujeres|Mixto|Masculí|Femení|masculins|femenins|masculina|femenina|masculino|femenino)',
     # Field/jump/height events (Spanish + Catalan)
-    r'(?:Altura|Alçada|Pértiga|Pertiga|Perxa|Longitud|Llargada|Triple\s+Salto|Triple\s+salt|Disco|Martillo|Peso|Jabalina|Dard)\s*(?:\(.*?\))?\s*(?:Hombres|Mujeres|Mixto|masculins|femenins|masculina|femenina|masculino|femenino)',
+    r'(?:Altura|Alçada|Pértiga|Pertiga|Perxa|Longitud|Llargada|Triple\s+Salto|Triple\s+salt|Disco|Martillo|Peso|Jabalina|Dard)\s*(?:\(.*?\))?\s*(?:Hombres|Mujeres|Mixto|Masculí|Femení|masculins|femenins|masculina|femenina|masculino|femenino)',
     # Relay events: 4x100m, 4x400m, 4x300m, Relleu 4x300
     r'(?:4x\d+\s*m|Relleu\s+4x\d+)',
     # Age category events
-    r'(?:Longitud|Llargada|Altura|Alçada|Peso|Jabalina|Dard|Disco|Martillo|Triple\s+Salto|Triple\s+salt)\s+(?:Hombres|Mujeres|masculins|femenins)\s+U\d+[MF]',
-    r'\d+\s*m\s*(?:Hombres|Mujeres|masculins|femenins)\s+U\d+[MF]',
-    r'\d+\s*m\s*(?:tanques\s+)?(?:vallas\s+)?(?:Obst\.?\s+)?(?:Hombres|Mujeres|masculins|femenins)\s+U\d+[MF]',
+    r'(?:Longitud|Llargada|Altura|Alçada|Peso|Jabalina|Dard|Disco|Martillo|Triple\s+Salto|Triple\s+salt)\s+(?:Hombres|Mujeres|Masculí|Femení|masculins|femenins)\s+U\d+[MF]',
+    r'\d+\s*m\s*(?:Hombres|Mujeres|Masculí|Femení|masculins|femenins)\s+U\d+[MF]',
+    r'\d+\s*m\s*(?:tanques\s+)?(?:vallas\s+)?(?:Obst\.?\s+)?(?:Hombres|Mujeres|Masculí|Femení|masculins|femenins)\s+U\d+[MF]',
     # Weighted events
     r'Peso\s+\(\d+k?\)\s*(?:Hombres|Mujeres)',
     r'Jabalina\s+\(\d+g\)\s*(?:Hombres|Mujeres)',
     r'Dard\s+\(\d+g\)\s*(?:Hombres|Mujeres)',
+    # Youth/age category events: "60m S12 Mujeres AL", "60m vallas (0,762) S14 INF. Mujeres AL"
+    # Format: event_name + S\d+ or JUV/CAD/INF + gender + optional AL/aire libre
+    r'(?:\d{1,3}(?:\.\d{3})?\s*m|\d+\s*m)\s*(?:tanques\s+)?(?:vallas\s+)?(?:\(.*?\))?\s*(?:S\d+\s+)?(?:JUV\.?|CAD\.?|INF\.?\s*)?\s*(?:Hombres|Mujeres|Masculí|Femení|masculins|femenins)\s+(?:S\d+|JUV\.?|CAD\.?|INF\.?)\s*(?:AL|aire\s+libre)?',
+    # Field/jump/height with age category: "Peso (4kg) S16 Hombres AL", "Altura S14 Mujeres AL"
+    r'(?:Altura|Alçada|Pértiga|Pertiga|Perxa|Longitud|Llargada|Triple\s+Salto|Triple\s+salt|Disco|Martillo|Peso|Jabalina|Dard)\s*(?:\(.*?\))?\s*(?:S\d+\s+)?(?:JUV\.?|CAD\.?|INF\.?\s*)?\s*(?:Hombres|Mujeres|Masculí|Femení|masculins|femenins)\s+(?:S\d+|JUV\.?|CAD\.?|INF\.?)\s*(?:AL|aire\s+libre)?',
+    # Simple age category: "60m S18 Hombres AL", "Altura S14 Mujeres AL" (S## between event and gender)
+    r'(?:\d{1,3}(?:\.\d{3})?\s*m|\d+\s*m)\s*(?:tanques\s+)?(?:vallas\s+)?(?:\(.*?\))?\s*(?:S\d+)\s*(?:Hombres|Mujeres|Masculí|Femení|masculins|femenins)\s*(?:AL|aire\s+libre)?',
+    r'(?:Altura|Alçada|Pértiga|Pertiga|Perxa|Longitud|Llargada|Triple\s+Salto|Triple\s+salt|Disco|Martillo|Peso|Jabalina|Dard)\s*(?:\(.*?\))?\s*(?:S\d+)\s*(?:Hombres|Mujeres|Masculí|Femení|masculins|femenins)\s*(?:AL|aire\s+libre)?',
+    r'Peso\s+\(\d+k?\)\s*(?:S\d+)\s*(?:Hombres|Mujeres|Masculí|Femení)\s*(?:AL|aire\s+libre)?',
+    r'Jabalina\s+\(\d+g\)\s*(?:S\d+)\s*(?:Hombres|Mujeres|Masculí|Femení)\s*(?:AL|aire\s+libre)?',
+    r'Dard\s+\(\d+g\)\s*(?:S\d+)\s*(?:Hombres|Mujeres|Masculí|Femení)\s*(?:AL|aire\s+libre)?',
+    # Vallas with height spec and age category: "60m vallas (0,762) S14 INF. Mujeres AL"
+    r'(?:\d{1,3}\s*m\s+vallas\s+\(.*?\)\s+S\d+\s+(?:JUV\.?|CAD\.?|INF\.?\s*)?\s*(?:Hombres|Mujeres|Masculí|Femení|masculins|femenins))',
 ]
 
 TRACK_PATTERNS = [
-    r'(?:^|[\s(])\d{1,3}(?:\.\d{3})?\s*m\s*(?:tanques|vallas)?\s*(?:Obst\.?)?\s*(?:\(.*?\))?\s*(?:Hombres|Mujeres|Mixto|masculins|femenins|masculina|femenina)',
-    r'\d{1,3}\s*m\s+(?:tanques|vallas|Obst\.?)\s+(?:Hombres|Mujeres|masculins|femenins)',
-    r'\d{1,3}\s*m\s+(?:Hombres|Mujeres|masculins|femenins)',
+    r'(?:^|[\s(])\d{1,3}(?:\.\d{3})?\s*m\s*(?:tanques|vallas)?\s*(?:Obst\.?)?\s*(?:\(.*?\))?\s*(?:Marxa\s+)?(?:Hombres|Mujeres|Mixto|Masculí|Femení|masculins|femenins|masculina|femenina)',
+    r'\d{1,3}\s*m\s+(?:tanques|vallas|Marxa|Obst\.?)\s+(?:Hombres|Mujeres|Masculí|Femení|masculins|femenins)',
+    r'\d{1,3}\s*m\s+(?:Marxa\s+)?(?:Hombres|Mujeres|Masculí|Femení|masculins|femenins)',
 ]
 
 MARCHA_PATTERNS = [
@@ -129,9 +154,23 @@ RELAY_PATTERNS = [
 ]
 
 
+COMBINED_PATTERNS = [
+    # Combined events: "Pentathlon PC Master M60" or "Pentathlón VET.Mujeres. PC Master F55"
+    # Must start with Pentathlon/Pentathlón, NOT be a sub-event like "60m vallas Hombres Pentatlón Master M60"
+    r'^(?:Pentathlón|Pentatlón|Pentathlon|Heptathlón|Heptatlón|Heptathlon|Tetrathlón|Tetrathlon|Hexathlón|Hexathlon)\s+(?:VET\.?|Vet\.?\s+)?(?:Hombres\.?|Mujeres\.?|Masculí|Femení|masculins|femenins|masculina|femenina|masculino|femenino)\s+(?:PC\s+)?(?:Master\s+)?(?:M\d+|F\d+|U\d+)',
+    # Youth/age category combined: "Pentathlon S16 CAD.Mujeres PC-Aire libre", "Heptathlon JUV Hombres PC-AL"
+    r'^(?:Pentathlón|Pentatlón|Pentathlon|Heptathlón|Heptatlón|Heptathlon|Tetrathlón|Tetrathlon|Hexathlón|Hexathlon)\s*(?:S\d+\s+)?(?:JUV\.?|CAD\.?|INF\.?\s*)?\s*(?:Hombres|Mujeres|Masculí|Femení|masculins|femenins|masculina|femenina|masculino|femenino)\s*(?:PC\s*[-.]?\s*(?:Aire\s+libre|AL|aire\s+libre))?',
+    # Tetrathlón Cataluña infantil
+    r'^(?:Tetrathlón|Tetrathlon)\s+Cataluña\s+infantil',
+]
+
 def classify_event(event_name):
     if not event_name:
         return "unknown"
+    # Check combined events first (before other patterns that might match parts)
+    for p in COMBINED_PATTERNS:
+        if re.search(p, event_name, re.IGNORECASE):
+            return "combined"
     # Check relay first (most specific pattern)
     for p in RELAY_PATTERNS:
         if re.search(p, event_name, re.IGNORECASE):
@@ -202,6 +241,10 @@ def extract_name_from_line(line):
     line = re.sub(r'\s+MMT\s*$', '', line)
     line = re.sub(r'\s+MMP\s*$', '', line)
     line = re.sub(r'\s+\d+\s*$', '', line)
+    # Remove percentage values (e.g., "70,41%", "71,69%") that appear next to names in combined events
+    line = re.sub(r'\s+\d+[,\.]\d+%\s*', ' ', line)
+    # Remove truncated time results (e.g., "3:07.…") that don't match full time pattern
+    line = re.sub(r'\s+\d{1,2}:\d{2}[.\u2026]+\s*', ' ', line)
     cleaned = ' '.join(line.split())
     return cleaned
 
@@ -344,8 +387,8 @@ def extract_field_result(lines, catt_idx, sec_end):
         if not fwd_line:
             continue
         skip_labels = ['Puesto', 'Dorsal', 'Club', 'Nombre', 'Fecha', 'Licencia',
-                       'RESULT', 'Calle', 'Hora', 'Leyenda', 'Resultado', 'Serie',
-                       'Gestion', 'Pagina', 'SUMARIO', 'Rank']
+                        'RESULT', 'Calle', 'Hora', 'Leyenda', 'Resultado', 'Serie',
+                        'Gestion', 'Pagina', 'SUMARIO', 'Rank']
         if any(label in fwd_line for label in skip_labels):
             continue
 
@@ -353,7 +396,7 @@ def extract_field_result(lines, catt_idx, sec_end):
         if nums:
             for num in reversed(nums):
                 val = float(num)
-                if val >= 8.0 and val <= 80.0:
+                if val >= 3.0 and val <= 80.0:
                     return num
 
     return ""
@@ -480,7 +523,7 @@ def extract_result_from_name_line(lines, name_line_idx, sec_end, event_type):
             if nums:
                 for num in reversed(nums):
                     val = float(num)
-                    if val >= 8.0 and val <= 80.0:
+                    if val >= 3.0 and val <= 80.0:
                         return num
 
     return ""
@@ -1125,12 +1168,12 @@ def extract_field_result_new(lines, athlete_block, sec_end):
     
     combined = ' '.join(all_texts)
     
-    # Find all numeric values in range 8.0-80.0
+    # Find all numeric values in range 3.0-80.0
     nums = re.findall(r'(\d+\.\d{2})', combined)
     if nums:
         for num in reversed(nums):
             val = float(num)
-            if val >= 8.0 and val <= 80.0:
+            if val >= 3.0 and val <= 80.0:
                 return num
     
     return ""
@@ -1271,7 +1314,7 @@ def parse_catt_athlete(lines, athlete_block, sec_start, sec_end, event_name, win
                     if nums:
                         for num in reversed(nums):
                             val = float(num)
-                            if val >= 8.0 and val <= 80.0:
+                            if val >= 3.0 and val <= 80.0:
                                 marca = num
                                 break
                     if marca:
@@ -1290,6 +1333,169 @@ def parse_catt_athlete(lines, athlete_block, sec_start, sec_end, event_name, win
         "marca": marca,
         "vent": wind,
     }
+
+
+def parse_combined_section(lines, sec_start, sec_end, event_name, competicio, data_comp):
+    """Parse a combined events section (pentathlon/heptathlon).
+    
+    Format:
+      Puesto Dorsal Nombre  Club   60m va... 1.000m... Altura...  Puntos  P.Líder
+    
+      1   479   ANTONI CREUS MELGOSA        9.94   3:41.07   1.45   10.54   4.48   3458
+              20/11/1964      JASB
+              JA Sabadell                  818,0... 650,0(1) 696,0(1) 662,0(1) 632,0(1)
+    
+    The name line contains: position, dorsal, name, individual event results, total points
+    The DOB line contains: DOB, club code (CATT, JASB, etc.)
+    The club line contains: club name, points per event
+    
+    We extract: name, birth_date, position, total points as performance, event name
+    """
+    results = []
+    
+    i = sec_start
+    while i < min(sec_end, len(lines)):
+        line = lines[i].strip()
+        
+        # Skip empty lines and headers
+        if not line:
+            i += 1
+            continue
+        
+        # Skip header table labels
+        if 'Puesto' in line and 'Dorsal' in line and 'Nombre' in line:
+            i += 1
+            continue
+        
+        # Skip "Resultados" or similar
+        if line in ('RESULTADOS', 'Resultados'):
+            i += 1
+            continue
+        
+        # Look for athlete name lines with results + points
+        # Two formats:
+        #   With puesto: "  1   479   NAME  results  points" (small puesto + large dorsal)
+        #   Without puesto: "      392   NAME  results  points" (only large dorsal)
+        # Also handle DNS lines: "      371   ADA TELLO HIDALGO            10.09       DNS        DNS        DNS        DNS"
+        
+        # First try to match with puesto: small number (1-2 digits) + large number (3+ digits) + name
+        pos_match = re.match(r'^\s*(\d{1,2})\s+(\d{3,})\s+(.+)$', line)
+        if pos_match:
+            pos = int(pos_match.group(1))
+            rest = pos_match.group(3).strip()
+        else:
+            # No puesto, just dorsal + name
+            no_pos_match = re.match(r'^\s+(\d{3,})\s+(.+)$', line)
+            if not no_pos_match:
+                i += 1
+                continue
+            pos = 0
+            rest = no_pos_match.group(2).strip()
+        
+        # Check if this is a DNS-only line (no actual results, all DNS/0)
+        # DNS lines have repeated DNS or all zeros
+        if re.search(r'\bDNS\b', rest, re.IGNORECASE):
+            # Check if there are any actual numeric results (not just DNS)
+            # If the line only has DNS and no real results, skip
+            non_dns = re.sub(r'\bDNS\b', '', rest, flags=re.IGNORECASE)
+            non_dns = re.sub(r'\s+', '', non_dns)
+            if not non_dns or non_dns == '':
+                i += 1
+                continue
+        
+        # The name must contain letters (not just numbers - skip cumulative points lines)
+        if not re.search(r'[A-ZÀ-ÖØ-öø-ÿ]', rest, re.IGNORECASE):
+            i += 1
+            continue
+        
+        # Check if CATT/CA Tarragona is on this line or the immediately next non-empty line
+        is_catt = 'CATT' in line or 'CA Tarragona' in line
+        if not is_catt:
+            for j in range(i + 1, min(i + 2, sec_end)):
+                next_line = lines[j].strip()
+                if next_line and ('CATT' in next_line or 'CA Tarragona' in next_line):
+                    is_catt = True
+                    break
+        
+        if not is_catt:
+            i += 1
+            continue
+        
+        # Extract name from rest - remove any numeric results
+        # The name line format: NAME result1 result2 ... total_points
+        # Results can be: 11.96, 3:46.17, 1.33, 7.96, 4.18
+        
+        # Try to extract total points from end of line (3-4 digit number)
+        points_match = re.search(r'\s+(\d{3,4})\s*$', rest)
+        total_points = ""
+        if points_match:
+            total_points = points_match.group(1)
+            rest = rest[:points_match.start()].strip()
+        
+        # Remove time format results (e.g., 3:46.17)
+        rest = re.sub(r'\s+\d{1,2}:\d{2}\.\d{2}', '', rest).strip()
+        # Remove truncated time results (e.g., 3:07.… with ellipsis)
+        rest = re.sub(r'\s+\d{1,2}:\d{2}[.\u2026]+\s*', ' ', rest).strip()
+        # Remove decimal number results (e.g., 11.96, 1.33, 7.96, 4.18)
+        rest = re.sub(r'\s+\d+\.\d{2,3}', '', rest).strip()
+        # Remove percentage values (e.g., 70,41%)
+        rest = re.sub(r'\s+\d+[,\.]\d+%\s*', ' ', rest).strip()
+        # Remove any remaining numbers
+        rest = re.sub(r'\s+\d+\s*$', '', rest).strip()
+        
+        name = ' '.join(rest.split())
+        
+        if not name or len(name) < 3:
+            i += 1
+            continue
+        
+        # Extract birth date and license from DOB line
+        birth_date = ""
+        license = ""
+        
+        for j in range(i + 1, min(i + 3, sec_end)):
+            next_line = lines[j].strip()
+            if not next_line:
+                continue
+            bd_match = re.search(r'(\d{1,2}/\d{1,2}/\d{4})', next_line)
+            if bd_match:
+                birth_date = bd_match.group(1)
+                # Try to extract license from this line
+                lic_match = re.search(r'\b(CL\d+|CT[\d\-]+|CAT\-\d+[A\-\.]*|IB\-\d+[A\-\.]*)\b', next_line)
+                if lic_match:
+                    license = lic_match.group(1).strip()
+                    license = re.sub(r'[\.\-]+\s*$', '', license)
+                break
+        
+        # Try to extract license from club line too
+        if not license:
+            for j in range(i + 2, min(i + 5, sec_end)):
+                next_line = lines[j].strip()
+                if not next_line:
+                    continue
+                if re.search(r'\d{1,2}/\d{1,2}/\d{4}', next_line):
+                    continue
+                lic_match = re.search(r'\b(CL\d+|CT[\d\-]+|CAT\-\d+[A\-\.]*|IB\-\d+[A\-\.]*)\b', next_line)
+                if lic_match:
+                    license = lic_match.group(1).strip()
+                    license = re.sub(r'[\.\-]+\s*$', '', license)
+                break
+        
+        results.append({
+            "lloc": pos,
+            "prova": event_name,
+            "competicio": competicio,
+            "data": data_comp,
+            "atleta_nom": name,
+            "atleta_naixement": birth_date,
+            "atleta_licencia": license,
+            "marca": total_points,
+            "vent": None,
+        })
+        
+        i += 1
+    
+    return results
 
 
 def parse_relay_section(lines, sec_start, sec_end, event_name, competicio, data_comp):
@@ -1413,6 +1619,12 @@ def parse_with_section_aware(text, competicio, data_comp):
             results.extend(relay_results)
             continue
 
+        # Handle combined events differently
+        if event_type == "combined":
+            combined_results = parse_combined_section(lines, sec_start, sec_end, sec_name.strip(), competicio, data_comp)
+            results.extend(combined_results)
+            continue
+
         # Find CATT athletes in this section
         catt_athletes = find_catt_athletes_in_section(lines, sec_start, sec_end)
         if not catt_athletes:
@@ -1528,8 +1740,7 @@ def deduplicate_results(results):
                     best = with_result[0]
             best["atleta_nom"] = re.sub(r'\s+RT\s*$', '', best["atleta_nom"]).strip()
             unique.append(best)
-
-        if without_result:
+        elif without_result:
             with_wind = [e for e in without_result if e["vent"] is not None]
             if with_wind:
                 best = with_wind[0]

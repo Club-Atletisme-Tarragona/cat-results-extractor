@@ -1,0 +1,61 @@
+name: Extract Remote PDF
+
+on:
+  workflow_dispatch:
+    inputs:
+      url:
+        description: "URL del PDF de resultats"
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repositori
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Configurar Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+
+      - name: Instal·lar dependències del sistema
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y poppler-utils curl
+
+      - name: Descarregar PDF
+        run: |
+          TMPDIR=$(mktemp -d)
+          PDF=$$TMPDIR/$(basename ${{ github.event.inputs.url }})
+          curl -sL "${{ github.event.inputs.url }}" -o "$$PDF"
+          echo "PDF_PATH=$$PDF" >> $GITHUB_ENV
+
+      - name: Executar extract_catt.py
+        run: |
+          python3 extract_catt.py "$PDF_PATH"
+          JSON=$(echo "$PDF_PATH" | sed 's/\.pdf$/.json/')
+          if [ -f "$$JSON" ]; then
+            mv "$$JSON" json/$(basename "$$JSON")
+            echo "JSON_GENERATED=true" >> $GITHUB_ENV
+            echo "JSON_FILE=json/$(basename "$$JSON")" >> $GITHUB_ENV
+          else
+            echo "No JSON generated (no CATT athletes found or extraction error)"
+            echo "JSON_GENERATED=false" >> $GITHUB_ENV
+          fi
+
+      - name: Configurar git i fer commit/push
+        if: env.JSON_GENERATED == 'true'
+        run: |
+          git config user.name "cat-results-bot"
+          git config user.email "bot@cat-results.local"
+          git add json/
+          git diff --cached --quiet || git commit -m "Extract PDF: ${{ github.event.inputs.url }}"
+          git push

@@ -2,6 +2,39 @@
   "event_name": " - Pista coberta de Atletisme de Catalunya - Carme Valero",
   "event_date": "30/01/2026",
   "event_location": "Sabadell (i)",
-  "total_results": 0,
-  "results": []
+  "total_results": 4,
+  "results": [
+    {
+      "athlete_name": "HUGO JULES SAIZ SANTOLARIA",
+      "athlete_dob": "31/1/2005",
+      "athlete_id": "CAT-3742956",
+      "performance": "7.34",
+      "discipline": "60m Masculí",
+      "wind": null
+    },
+    {
+      "athlete_name": "DIDAC COMERMA GUASCH",
+      "athlete_dob": "4/7/2000",
+      "athlete_id": "CAT-3713961",
+      "performance": "7.72",
+      "discipline": "60m Masculí",
+      "wind": null
+    },
+    {
+      "athlete_name": "ISMAEL VALLES FERNANDEZ",
+      "athlete_dob": "8/2/2004",
+      "athlete_id": "CL15301",
+      "performance": "23.09",
+      "discipline": "200m Masculí PC",
+      "wind": null
+    },
+    {
+      "athlete_name": "HUGO JULES SAIZ SANTOLARIA",
+      "athlete_dob": "31/1/2005",
+      "athlete_id": "CAT-3742956",
+      "performance": "23.37",
+      "discipline": "200m Masculí PC",
+      "wind": null
+    }
+  ]
 }

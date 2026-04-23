@@ -1,7 +1,64 @@
 {
-  "event_name": " - Pista coberta de Atletisme de Catalunya - Carme Valero",
+  "event_name": "Campionat de Catalunya Sub23 ST - Pista coberta de Atletisme de Catalunya - Carme Valero",
   "event_date": "25/01/2026",
   "event_location": "Sabadell",
-  "total_results": 0,
-  "results": []
+  "total_results": 7,
+  "results": [
+    {
+      "athlete_name": "HUGO JULES SAIZ SANTOLARIA",
+      "athlete_dob": "31/1/2005",
+      "athlete_id": "CAT-3742956",
+      "performance": "7.54",
+      "discipline": "60m Masculí",
+      "wind": null
+    },
+    {
+      "athlete_name": "ISMAEL VALLES FERNANDEZ",
+      "athlete_dob": "8/2/2004",
+      "athlete_id": "CL15301",
+      "performance": "22.74",
+      "discipline": "200m Masculí PC",
+      "wind": null
+    },
+    {
+      "athlete_name": "HUGO JULES SAIZ SANTOLARIA",
+      "athlete_dob": "31/1/2005",
+      "athlete_id": "CAT-3742956",
+      "performance": "23.42",
+      "discipline": "200m Masculí PC",
+      "wind": null
+    },
+    {
+      "athlete_name": "ALFONSO PAJARES CHAVARRI",
+      "athlete_dob": "28/6/2004",
+      "athlete_id": "CT509",
+      "performance": "1:59.50",
+      "discipline": "800m Masculí",
+      "wind": null
+    },
+    {
+      "athlete_name": "MARIA ANTONIETTA SALAZAR",
+      "athlete_dob": "3/1/2006",
+      "athlete_id": "CT2176",
+      "performance": "26.83",
+      "discipline": "200m Femení PC",
+      "wind": null
+    },
+    {
+      "athlete_name": "LUCIA MAYOLAS MARTINEZ",
+      "athlete_dob": "4/10/2004",
+      "athlete_id": "CAT-3892679",
+      "performance": "5:04.44",
+      "discipline": "1.500m Femení",
+      "wind": null
+    },
+    {
+      "athlete_name": "NATALIA SANCHEZ ALVAREZ",
+      "athlete_dob": "28/5/2005",
+      "athlete_id": "CAT-3754208",
+      "performance": "5.34",
+      "discipline": "Llargada Femení PC",
+      "wind": null
+    }
+  ]
 }

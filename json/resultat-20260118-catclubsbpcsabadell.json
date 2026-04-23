@@ -2,7 +2,7 @@
   "event_name": "Campionat de Catalunya de Clubs \"B\" - Pista coberta de Atletisme de Catalunya - Carme Valero",
   "event_date": "18/01/2026",
   "event_location": "Sabadell (i)",
-  "total_results": 12,
+  "total_results": 16,
   "results": [
     {
       "athlete_name": "LUCAS BUJ FUERTES",
@@ -80,7 +80,7 @@
       "athlete_name": "BERNAT VERDU GOMEZ",
       "athlete_dob": "2/1/2002",
       "athlete_id": "CAT-3823996",
-      "performance": "11.84",
+      "performance": "12.45",
       "discipline": "Triple Salt Masculí",
       "wind": null
     },
@@ -98,6 +98,38 @@
       "athlete_id": "CAT-3889630",
       "performance": "6.76",
       "discipline": "Perxa Masculí",
+      "wind": null
+    },
+    {
+      "athlete_name": "Unai OLAYA MINGUEZ",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "3:27.04",
+      "discipline": "4x400m Masculí PC",
+      "wind": null
+    },
+    {
+      "athlete_name": "Joan MARTORELL ESCOBAR",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "3:27.04",
+      "discipline": "4x400m Masculí PC",
+      "wind": null
+    },
+    {
+      "athlete_name": "Lucas BUJ FUERTES",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "3:27.04",
+      "discipline": "4x400m Masculí PC",
+      "wind": null
+    },
+    {
+      "athlete_name": "Pol AIXALA GUIU",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "3:27.04",
+      "discipline": "4x400m Masculí PC",
       "wind": null
     }
   ]

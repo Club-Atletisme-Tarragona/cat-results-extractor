@@ -5,6 +5,14 @@
   "total_results": 7,
   "results": [
     {
+      "athlete_name": "JULIA DIEZ BERTRAN",
+      "athlete_dob": "3/2/2014",
+      "athlete_id": "CAT-3790507",
+      "performance": "11.42",
+      "discipline": "2.000m Femení AL",
+      "wind": null
+    },
+    {
       "athlete_name": "ARLET SOLANA VILA",
       "athlete_dob": "13/3/2012",
       "athlete_id": "",
@@ -39,7 +47,7 @@
     {
       "athlete_name": "MARIA FERRAN JIMENEZ",
       "athlete_dob": "5/4/2011",
-      "athlete_id": "CL94384",
+      "athlete_id": "",
       "performance": "45.56",
       "discipline": "300m Femení",
       "wind": null
@@ -47,17 +55,9 @@
     {
       "athlete_name": "CLAUDIA BOTANCH RIUS",
       "athlete_dob": "2/1/2011",
-      "athlete_id": "CAT-3812320",
+      "athlete_id": "",
       "performance": "46.21",
       "discipline": "300m Femení",
-      "wind": null
-    },
-    {
-      "athlete_name": "JULIA DIEZ BERTRAN",
-      "athlete_dob": "3/2/2014",
-      "athlete_id": "CAT-3790507",
-      "performance": "11.42",
-      "discipline": "2.000m Femení AL",
       "wind": null
     }
   ]

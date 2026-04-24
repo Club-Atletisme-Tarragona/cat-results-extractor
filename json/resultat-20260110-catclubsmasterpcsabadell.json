@@ -5,38 +5,6 @@
   "total_results": 22,
   "results": [
     {
-      "athlete_name": "JOSEP RAMON ARGILAGA SALVADO",
-      "athlete_dob": "23/10/1963",
-      "athlete_id": "CAT-3742971",
-      "performance": "8.10",
-      "discipline": "60m Hombres",
-      "wind": null
-    },
-    {
-      "athlete_name": "JOSEP MARIA PUIG LARA",
-      "athlete_dob": "30/11/1951",
-      "athlete_id": "CT27228",
-      "performance": "36.39",
-      "discipline": "200m Hombres PC",
-      "wind": null
-    },
-    {
-      "athlete_name": "JOSEP MARIA MATEO SANZ",
-      "athlete_dob": "17/11/1964",
-      "athlete_id": "CT19378",
-      "performance": "1:07.34",
-      "discipline": "400m Hombres",
-      "wind": null
-    },
-    {
-      "athlete_name": "JOSE FRANCISCO GARCIA NAVARRETE",
-      "athlete_dob": "24/9/1967",
-      "athlete_id": "CL3972",
-      "performance": "2:55.96",
-      "discipline": "800m Hombres",
-      "wind": null
-    },
-    {
       "athlete_name": "JULIO LEON CID",
       "athlete_dob": "12/10/1974",
       "athlete_id": "CT4",
@@ -74,38 +42,6 @@
       "athlete_id": "CL12544",
       "performance": "5.19",
       "discipline": "Longitud Hombres PC",
-      "wind": null
-    },
-    {
-      "athlete_name": "GEMMA SOLE BORONAT",
-      "athlete_dob": "1/11/1967",
-      "athlete_id": "CT29376",
-      "performance": "9.69",
-      "discipline": "60m Mujeres PC",
-      "wind": null
-    },
-    {
-      "athlete_name": "MARISA PRADILLO GUTIERREZ",
-      "athlete_dob": "29/7/1961",
-      "athlete_id": "CT21513",
-      "performance": "37.64",
-      "discipline": "200m Mujeres PC",
-      "wind": null
-    },
-    {
-      "athlete_name": "PILAR FERNANDEZ CARRANZA",
-      "athlete_dob": "15/2/1967",
-      "athlete_id": "CAT-3790267",
-      "performance": "1:23.05",
-      "discipline": "400m Mujeres",
-      "wind": null
-    },
-    {
-      "athlete_name": "ESTER CERVELLO PUJADES",
-      "athlete_dob": "11/11/1978",
-      "athlete_id": "CAT-3803319",
-      "performance": "2:53.27",
-      "discipline": "800m Mujeres",
       "wind": null
     },
     {
@@ -178,6 +114,70 @@
       "athlete_id": "",
       "performance": "2:19.25",
       "discipline": "4x200m Mujeres PC",
+      "wind": null
+    },
+    {
+      "athlete_name": "JOSEP RAMON ARGILAGA SALVADO",
+      "athlete_dob": "23/10/1963",
+      "athlete_id": "CAT-3742971-A",
+      "performance": "8.10",
+      "discipline": "60m Hombres",
+      "wind": null
+    },
+    {
+      "athlete_name": "JOSEP MARIA PUIG LARA",
+      "athlete_dob": "30/11/1951",
+      "athlete_id": "CT27228",
+      "performance": "36.39",
+      "discipline": "200m Hombres PC",
+      "wind": null
+    },
+    {
+      "athlete_name": "JOSEP MARIA MATEO SANZ",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "1:07.34",
+      "discipline": "400m Hombres",
+      "wind": null
+    },
+    {
+      "athlete_name": "JOSE FRANCISCO GARCIA NAVARRETE",
+      "athlete_dob": "24/9/1967",
+      "athlete_id": "CL3972",
+      "performance": "2:55.96",
+      "discipline": "800m Hombres",
+      "wind": null
+    },
+    {
+      "athlete_name": "GEMMA SOLE BORONAT",
+      "athlete_dob": "1/11/1967",
+      "athlete_id": "CT29376",
+      "performance": "9.69",
+      "discipline": "60m Mujeres PC",
+      "wind": null
+    },
+    {
+      "athlete_name": "MARISA PRADILLO GUTIERREZ",
+      "athlete_dob": "29/7/1961",
+      "athlete_id": "CT21513",
+      "performance": "37.64",
+      "discipline": "200m Mujeres PC",
+      "wind": null
+    },
+    {
+      "athlete_name": "PILAR FERNANDEZ CARRANZA",
+      "athlete_dob": "15/2/1967",
+      "athlete_id": "CAT-3790267-A",
+      "performance": "1:23.05",
+      "discipline": "400m Mujeres",
+      "wind": null
+    },
+    {
+      "athlete_name": "ESTER CERVELLO PUJADES",
+      "athlete_dob": "11/11/1978",
+      "athlete_id": "CAT-3803319-A",
+      "performance": "2:53.27",
+      "discipline": "800m Mujeres",
       "wind": null
     }
   ]

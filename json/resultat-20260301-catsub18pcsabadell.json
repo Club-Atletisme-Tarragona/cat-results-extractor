@@ -2,7 +2,7 @@
   "event_name": "41è Campionat de Catalunya Sub18 ST - Pista coberta de Atletisme de Catalunya - Carme Valero",
   "event_date": "01/03/2026",
   "event_location": "Sabadell (i)",
-  "total_results": 23,
+  "total_results": 22,
   "results": [
     {
       "athlete_name": "JOAN RICH SALAS",
@@ -34,14 +34,6 @@
       "athlete_id": "CL11323",
       "performance": "7.72",
       "discipline": "60m Masculí",
-      "wind": null
-    },
-    {
-      "athlete_name": "UNAI OLAYA MINGUEZ",
-      "athlete_dob": "27/7/2009",
-      "athlete_id": "CAT-3895024",
-      "performance": "54.05",
-      "discipline": "400m Masculí",
       "wind": null
     },
     {
@@ -117,46 +109,6 @@
       "wind": null
     },
     {
-      "athlete_name": "NOA ANTON PATERNA",
-      "athlete_dob": "20/1/2010",
-      "athlete_id": "CAT-3742994-A",
-      "performance": "25.02",
-      "discipline": "200m Femení PC",
-      "wind": null
-    },
-    {
-      "athlete_name": "NOA ANTON PATERNA",
-      "athlete_dob": "20/1/2010",
-      "athlete_id": "CAT-3742994-A",
-      "performance": "25.33",
-      "discipline": "200m Femení PC",
-      "wind": null
-    },
-    {
-      "athlete_name": "NORA MONTOLIO AMARO",
-      "athlete_dob": "5/2/2010",
-      "athlete_id": "CAT-3895023",
-      "performance": "1:01.42",
-      "discipline": "400m Femení",
-      "wind": null
-    },
-    {
-      "athlete_name": "CLARA ORTIZ DE LANDAZURI ONTO…",
-      "athlete_dob": "4/12/2009",
-      "athlete_id": "CAT-3742953-A",
-      "performance": "2:25.46",
-      "discipline": "800m Femení",
-      "wind": null
-    },
-    {
-      "athlete_name": "CLARA ORTIZ DE LANDAZURI ONTOSO",
-      "athlete_dob": "4/12/2009",
-      "athlete_id": "CAT-3742953",
-      "performance": "2:25.46",
-      "discipline": "800m Femení",
-      "wind": null
-    },
-    {
       "athlete_name": "ALBA GUIJARRO ROM",
       "athlete_dob": "8/7/2010",
       "athlete_id": "CAT-3895015-A",
@@ -186,6 +138,46 @@
       "athlete_id": "CAT-3742996",
       "performance": "10.23",
       "discipline": "Pes (3kg) Femení PC",
+      "wind": null
+    },
+    {
+      "athlete_name": "UNAI OLAYA MINGUEZ",
+      "athlete_dob": "27/7/2009",
+      "athlete_id": "",
+      "performance": "54.05",
+      "discipline": "400m Masculí",
+      "wind": null
+    },
+    {
+      "athlete_name": "NOA ANTON PATERNA",
+      "athlete_dob": "20/1/2010",
+      "athlete_id": "",
+      "performance": "25.02",
+      "discipline": "200m Femení PC",
+      "wind": null
+    },
+    {
+      "athlete_name": "NOA ANTON PATERNA",
+      "athlete_dob": "20/1/2010",
+      "athlete_id": "",
+      "performance": "25.33",
+      "discipline": "200m Femení PC",
+      "wind": null
+    },
+    {
+      "athlete_name": "NORA MONTOLIO AMARO",
+      "athlete_dob": "5/2/2010",
+      "athlete_id": "",
+      "performance": "1:01.42",
+      "discipline": "400m Femení",
+      "wind": null
+    },
+    {
+      "athlete_name": "CLARA ORTIZ DE LANDAZURI ONTO…",
+      "athlete_dob": "4/12/2009",
+      "athlete_id": "",
+      "performance": "2:25.46",
+      "discipline": "800m Femení",
       "wind": null
     }
   ]

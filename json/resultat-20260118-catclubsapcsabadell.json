@@ -2,7 +2,7 @@
   "event_name": "Campionat de Catalunya de Clubs \"A\" - Pista coberta de Atletisme de Catalunya - Carme Valero",
   "event_date": "18/01/2026",
   "event_location": "Sabadell (i)",
-  "total_results": 18,
+  "total_results": 16,
   "results": [
     {
       "athlete_name": "SILVIA VICENTE NAVARRETE",
@@ -10,38 +10,6 @@
       "athlete_id": "CT1468",
       "performance": "8.01",
       "discipline": "60m Femení PC",
-      "wind": null
-    },
-    {
-      "athlete_name": "NOA ANTON PATERNA",
-      "athlete_dob": "20/1/2010",
-      "athlete_id": "CAT-3742994-A",
-      "performance": "25.17",
-      "discipline": "200m Femení PC",
-      "wind": null
-    },
-    {
-      "athlete_name": "CLAUDIA MIR CASELLAS",
-      "athlete_dob": "2/8/2003",
-      "athlete_id": "CT152",
-      "performance": "1:01.43",
-      "discipline": "400m Femení",
-      "wind": null
-    },
-    {
-      "athlete_name": "CLAUDIA MIR CASELLAS",
-      "athlete_dob": "2/8/2003",
-      "athlete_id": "CT152",
-      "performance": "1:03.86",
-      "discipline": "400m Femení",
-      "wind": null
-    },
-    {
-      "athlete_name": "CLAUDIA MIR CASELLAS",
-      "athlete_dob": "2/8/2003",
-      "athlete_id": "",
-      "performance": "58.33",
-      "discipline": "400m Femení",
       "wind": null
     },
     {
@@ -146,6 +114,22 @@
       "athlete_id": "",
       "performance": "4:07.31",
       "discipline": "4x400m Femení PC",
+      "wind": null
+    },
+    {
+      "athlete_name": "NOA ANTON PATERNA",
+      "athlete_dob": "20/1/2010",
+      "athlete_id": "",
+      "performance": "25.17",
+      "discipline": "200m Femení PC",
+      "wind": null
+    },
+    {
+      "athlete_name": "CLAUDIA MIR CASELLAS",
+      "athlete_dob": "2/8/2003",
+      "athlete_id": "",
+      "performance": "58.33",
+      "discipline": "400m Femení",
       "wind": null
     }
   ]

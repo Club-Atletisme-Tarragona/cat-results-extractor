@@ -817,7 +817,7 @@ def find_sumario_sections(lines):
                     continue
                 # Skip lines that are just sub-event labels (Ronda 1, Semifinal, Final, etc.)
                 # These are short lines that don't match any EVENT_PATTERN
-                if len(prev) < 40 and not re.search(r'\d', prev):
+                if len(prev) < 10 and not re.search(r'\d', prev):
                     continue
                 # Skip pure sub-event label lines
                 is_sub_label = False
@@ -863,6 +863,9 @@ def parse_sumario_section(lines, sumario_idx, event_name, sec_end, competicio, d
     
     if is_relay:
         # Relay SUMARIO format: team line followed by athlete names
+        # Two possible formats:
+        # 1. Single line: "pos dorsal CA Tarragona CATT result"
+        # 2. Multi-line: "CA Tarragona DOB" / "pos dorsal CA Tarragona" / "CATT result"
         i = sumario_idx + 1
         while i < min(sec_end, len(lines)):
             line = lines[i].strip()
@@ -871,7 +874,7 @@ def parse_sumario_section(lines, sumario_idx, event_name, sec_end, competicio, d
                 i += 1
                 continue
             
-            # Check for a team line: pos + dorsal + CA Tarragona + CATT + result
+            # Check for single-line team format: pos + dorsal + CA Tarragona + CATT
             team_match = re.match(r'^\s*(\d+)\s+(\d+)\s+CA\s+Tarragona\s+CATT', line)
             if team_match:
                 pos = int(team_match.group(1))
@@ -932,6 +935,74 @@ def parse_sumario_section(lines, sumario_idx, event_name, sec_end, competicio, d
                 
                 i += len(athletes) + 2
                 continue
+            
+            # Check for multi-line relay format:
+            # Line N: "CA Tarragona DOB" (club name with DOB)
+            # Line N+1: "pos dorsal CA Tarragona"
+            # Line N+2: "CATT result"
+            club_match = re.match(r'^(?:\s*CA\s+Tarragona)\s+(\d{1,2}/\d{1,2}/\d{4})', line)
+            if club_match:
+                # Next line should be pos + dorsal + CA Tarragona
+                next_line = lines[i + 1].strip() if i + 1 < len(lines) else ""
+                pos_match = re.match(r'^\s*(\d+)\s+(\d+)\s+CA\s+Tarragona\s*$', next_line)
+                if pos_match:
+                    pos = int(pos_match.group(1))
+                    dorsal = pos_match.group(2)
+                    
+                    # Line after that should be CATT + result
+                    result_line = lines[i + 2].strip() if i + 2 < len(lines) else ""
+                    catt_match = re.match(r'^\s*CATT\s+', result_line)
+                    if catt_match:
+                        # Extract team result (time)
+                        result_match = re.search(r'(\d{1,2}:\d{2}\.\d{2})', result_line)
+                        if not result_match:
+                            result_match = re.search(r'(\d+\.\d{2})', result_line)
+                        
+                        marca = result_match.group(1) if result_match else ""
+                        wind = None
+                        wind_match = re.search(r'([+-]\d+\.\d)', result_line)
+                        if wind_match:
+                            wind = wind_match.group(1)
+                        
+                        # Collect athlete names following the result line
+                        athletes = []
+                        for j in range(i + 3, min(sec_end, len(lines))):
+                            athlete_line = lines[j].strip()
+                            if not athlete_line:
+                                continue
+                            # Stop at next team block (club name with DOB pattern)
+                            if re.match(r'^(?:\s*CA\s+Tarragona)\s+\d{1,2}/\d{1,2}/\d{4}', athlete_line):
+                                break
+                            # Stop at next team block: pos dorsal CA Tarragona
+                            if re.match(r'^\s*\d+\s+\d+\s+CA\s+Tarragona\s*$', athlete_line):
+                                break
+                            # Stop at section end markers
+                            if athlete_line in ('Leyenda:', 'Leyenda'):
+                                break
+                            # Match athlete name lines: "dorsal NAME Gender" or "NAME Gender"
+                            athlete_match = re.search(r'(?:\d+\s+)?(.+?)\s+(?:Hombre|Mujer)\s*$', athlete_line)
+                            if athlete_match:
+                                athlete_name = athlete_match.group(1).strip()
+                                athlete_name = re.sub(r'\s+', ' ', athlete_name).strip()
+                                if athlete_name and len(athlete_name) > 3:
+                                    athletes.append(athlete_name)
+                        
+                        # Create one result per athlete (no license for relay multi-line format)
+                        for athlete_name in athletes:
+                            results.append({
+                                "lloc": pos,
+                                "prova": event_name,
+                                "competicio": competicio,
+                                "data": data_comp,
+                                "atleta_nom": athlete_name,
+                                "atleta_naixement": "",
+                                "atleta_licencia": "",
+                                "marca": marca,
+                                "vent": wind,
+                            })
+                        
+                        i += len(athletes) + 4
+                        continue
             
             i += 1
         
@@ -1030,9 +1101,14 @@ def parse_sumario_section(lines, sumario_idx, event_name, sec_end, competicio, d
                                 licencia = lic_match.group(1)
                                 break
                     if not licencia:
-                        lic_match = re.search(r'\b(CL\d+|CT[\d\-]+|CAT\-\d+[A\-\.]*|IB\-\d+[A\-\.]*)\b', lines[block_start + 1] if block_start + 1 < len(lines) else "")
-                        licencia = lic_match.group(1) if lic_match else ""
-                        licencia = re.sub(r'[\.\-]+\s*$', '', licencia)
+                        # Look in the line after the rank line, and subsequent lines
+                        for j in range(block_start + 1, min(block_start + 4, sec_end)):
+                            lic_match = re.search(r'\b(CL\d+|CT[\d\-]+|CAT\-\d+[A\-\.]*|IB\-\d+[A\-\.]*)\b', lines[j])
+                            if lic_match:
+                                licencia = lic_match.group(1)
+                                break
+                        if licencia:
+                            licencia = re.sub(r'[\.\-]+\s*$', '', licencia)
                     
                     results.append({
                         "lloc": rank,
@@ -2481,15 +2557,7 @@ def deduplicate_results(results):
                 unique.append(best)
             
             # Don't add DNS/DQ entries when we already have a valid result
-        elif without_result:
-            with_wind = [e for e in without_result if e["vent"] is not None]
-            if with_wind:
-                best = with_wind[0]
-                best["atleta_nom"] = re.sub(r'\s+RT\s*$', '', best["atleta_nom"]).strip()
-                unique.append(best)
-            else:
-                without_result[0]["atleta_nom"] = re.sub(r'\s+RT\s*$', '', without_result[0]["atleta_nom"]).strip()
-                unique.append(without_result[0])
+        # Skip DNS/DQ entries entirely - they don't represent actual results
 
     return unique
 
@@ -2556,7 +2624,8 @@ def main():
         event_type = classify_event(r.get("prova", ""))
         marca = r.get("marca", "")
         if not marca or marca in ("DQ", "DNS", "DNF"):
-            valid_results.append(r)
+            # Skip DNS/DQ/DNF entries - they don't represent actual results
+            print(f"  Skipping DNS/DQ/DNF: {r.get('atleta_nom', '???')} - {r.get('prova', '???')} ({marca or 'empty'})", file=sys.stderr)
             continue
         
         # Parse the mark value for validation

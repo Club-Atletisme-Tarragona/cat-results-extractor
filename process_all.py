@@ -284,7 +284,7 @@ def main():
 
             # Processar amb extract_catt.py
             json_path = os.path.splitext(pdf_path)[0] + ".json"
-            
+
             # Always try extract_catt.py first (it handles marcha PDFs too)
             if process_pdf(pdf_path, json_path):
                 # Check if extract_catt.py actually found results
@@ -351,7 +351,7 @@ def main():
     print(f"  Nous JSONs:         {len(new_jsons)}")
 
     # Commit i push
-    #commit_and_push(new_jsons)
+    commit_and_push(new_jsons)
 
     print("\nDone!")
 

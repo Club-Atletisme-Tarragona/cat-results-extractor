@@ -2,7 +2,7 @@
   "event_name": "41è Campionat de Catalunya Sub18 ST - Pista coberta de Atletisme de Catalunya - Carme Valero",
   "event_date": "01/03/2026",
   "event_location": "Sabadell (i)",
-  "total_results": 20,
+  "total_results": 23,
   "results": [
     {
       "athlete_name": "JOAN RICH SALAS",
@@ -48,8 +48,16 @@
       "athlete_name": "JERONI FLORES PIÑAS",
       "athlete_dob": "4/1/2009",
       "athlete_id": "CT2935",
+      "performance": "8.40",
+      "discipline": "60m tanques (0,91) Sub18 Masculí PC",
+      "wind": null
+    },
+    {
+      "athlete_name": "JERONI FLORES PIÑAS",
+      "athlete_dob": "4/1/2009",
+      "athlete_id": "CT2935",
       "performance": "8.49",
-      "discipline": "3.000m Masculí PC",
+      "discipline": "60m tanques (0,91) Sub18 Masculí PC",
       "wind": null
     },
     {
@@ -57,7 +65,7 @@
       "athlete_dob": "1/2/2010",
       "athlete_id": "CL90024",
       "performance": "9.17",
-      "discipline": "3.000m Masculí PC",
+      "discipline": "60m tanques (0,91) Sub18 Masculí PC",
       "wind": null
     },
     {
@@ -72,7 +80,7 @@
       "athlete_name": "JERONI FLORES PIÑAS",
       "athlete_dob": "4/1/2009",
       "athlete_id": "CT2935",
-      "performance": "",
+      "performance": "1.69",
       "discipline": "Alçada Masculí PC",
       "wind": null
     },
@@ -82,6 +90,14 @@
       "athlete_id": "CL90024",
       "performance": "3.70",
       "discipline": "Perxa Masculí",
+      "wind": null
+    },
+    {
+      "athlete_name": "NOA ANTON PATERNA",
+      "athlete_dob": "20/1/2010",
+      "athlete_id": "CAT-3742994",
+      "performance": "7.68",
+      "discipline": "60m Femení PC",
       "wind": null
     },
     {
@@ -105,6 +121,14 @@
       "athlete_dob": "20/1/2010",
       "athlete_id": "CAT-3742994-A",
       "performance": "25.02",
+      "discipline": "200m Femení PC",
+      "wind": null
+    },
+    {
+      "athlete_name": "NOA ANTON PATERNA",
+      "athlete_dob": "20/1/2010",
+      "athlete_id": "CAT-3742994-A",
+      "performance": "25.33",
       "discipline": "200m Femení PC",
       "wind": null
     },
@@ -136,7 +160,7 @@
       "athlete_name": "ALBA GUIJARRO ROM",
       "athlete_dob": "8/7/2010",
       "athlete_id": "CAT-3895015-A",
-      "performance": "",
+      "performance": "1.39",
       "discipline": "Alçada Femení",
       "wind": null
     },
@@ -160,8 +184,8 @@
       "athlete_name": "NOA NIN NAVAS",
       "athlete_dob": "28/8/2009",
       "athlete_id": "CAT-3742996",
-      "performance": "",
-      "discipline": "Perxa Femení PC",
+      "performance": "10.23",
+      "discipline": "Pes (3kg) Femení PC",
       "wind": null
     }
   ]

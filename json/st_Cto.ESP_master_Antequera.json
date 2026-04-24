@@ -1,7 +1,72 @@
 {
-  "event_name": " - Pista indoor Antequera",
+  "event_name": "Campeonato de España de Short Track Master - Pista indoor Antequera",
   "event_date": "06/03/2026",
   "event_location": "Antequera (i)",
-  "total_results": 0,
-  "results": []
+  "total_results": 8,
+  "results": [
+    {
+      "athlete_name": "JOSEP MARIA MATEO SANZ",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "1.36",
+      "discipline": "Altura M60",
+      "wind": null
+    },
+    {
+      "athlete_name": "JOSEP MARIA MATEO SANZ",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "3.00",
+      "discipline": "Pértiga M60",
+      "wind": null
+    },
+    {
+      "athlete_name": "JOSEP MARIA MATEO SANZ",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "4.55",
+      "discipline": "Longitud M60",
+      "wind": null
+    },
+    {
+      "athlete_name": "GEMMA SOLE BORONAT",
+      "athlete_dob": "1/11/1967",
+      "athlete_id": "CT29376",
+      "performance": "10.87",
+      "discipline": "Longitud Pentatlón F65",
+      "wind": null
+    },
+    {
+      "athlete_name": "GEMMA SOLE BORONAT",
+      "athlete_dob": "1/11/1967",
+      "athlete_id": "CT29376",
+      "performance": "1.21",
+      "discipline": "Altura Pentatlón F55",
+      "wind": null
+    },
+    {
+      "athlete_name": "GEMMA SOLE BORONAT",
+      "athlete_dob": "1/11/1967",
+      "athlete_id": "CT29376",
+      "performance": "7.97",
+      "discipline": "Peso Pentatlón F55",
+      "wind": null
+    },
+    {
+      "athlete_name": "GEMMA SOLE BORONAT",
+      "athlete_dob": "1/11/1967",
+      "athlete_id": "CT29376",
+      "performance": "3.39",
+      "discipline": "Longitud Pentatlón F55",
+      "wind": null
+    },
+    {
+      "athlete_name": "ANTONIA ROYO FABREGAT",
+      "athlete_dob": "9/9/1964",
+      "athlete_id": "CT27087",
+      "performance": "42.16",
+      "discipline": "Peso Pentatlón F65",
+      "wind": null
+    }
+  ]
 }

@@ -39,7 +39,7 @@
     {
       "athlete_name": "FERRAN SANJUAN FLORES",
       "athlete_dob": "9/2/2015",
-      "athlete_id": "CAT-3816505",
+      "athlete_id": "CAT-3816505-A",
       "performance": "7:06.52",
       "discipline": "2.000m masculins",
       "wind": null
@@ -65,7 +65,7 @@
       "athlete_dob": "9/2/2015",
       "athlete_id": "CAT-3816505",
       "performance": "5.78",
-      "discipline": "Llargada masculina",
+      "discipline": "Pes masculí",
       "wind": null
     },
     {
@@ -77,18 +77,18 @@
       "wind": null
     },
     {
-      "athlete_name": "SOFIA VEGA MARTINEZ",
-      "athlete_dob": "9/8/2016",
-      "athlete_id": "CL14893",
-      "performance": "9.74",
-      "discipline": "60m femenins",
-      "wind": null
-    },
-    {
       "athlete_name": "XENIA GRACIA MARTI",
       "athlete_dob": "23/8/2016",
       "athlete_id": "CAT-3842738",
       "performance": "9.51",
+      "discipline": "60m femenins",
+      "wind": null
+    },
+    {
+      "athlete_name": "SOFIA VEGA MARTINEZ",
+      "athlete_dob": "9/8/2016",
+      "athlete_id": "CL14893",
+      "performance": "9.74",
       "discipline": "60m femenins",
       "wind": null
     },
@@ -109,9 +109,9 @@
       "wind": null
     },
     {
-      "athlete_name": "ÈLIA BAYÓN FERNÁNDEZ Q",
+      "athlete_name": "ÈLIA BAYÓN FERNÁNDEZ",
       "athlete_dob": "18/5/2015",
-      "athlete_id": "CAT-3889577",
+      "athlete_id": "CAT-3889577-A",
       "performance": "1:57.61",
       "discipline": "600m femenins",
       "wind": null
@@ -121,6 +121,14 @@
       "athlete_dob": "25/3/2015",
       "athlete_id": "CAT-3889578",
       "performance": "2:01.98",
+      "discipline": "600m femenins",
+      "wind": null
+    },
+    {
+      "athlete_name": "ÈLIA BAYÓN FERNÁNDEZ Q",
+      "athlete_dob": "18/5/2015",
+      "athlete_id": "CAT-3889577",
+      "performance": "1:57.61",
       "discipline": "600m femenins",
       "wind": null
     },
@@ -201,7 +209,7 @@
       "athlete_dob": "27/2/2015",
       "athlete_id": "CL10462",
       "performance": "7.02",
-      "discipline": "Llargada femenina",
+      "discipline": "Pes femení",
       "wind": null
     },
     {
@@ -209,7 +217,7 @@
       "athlete_dob": "27/1/2015",
       "athlete_id": "CL11596",
       "performance": "6.75",
-      "discipline": "Llargada femenina",
+      "discipline": "Pes femení",
       "wind": null
     },
     {
@@ -217,7 +225,7 @@
       "athlete_dob": "30/9/2015",
       "athlete_id": "CL14892",
       "performance": "4.88",
-      "discipline": "Llargada femenina",
+      "discipline": "Pes femení",
       "wind": null
     },
     {
@@ -225,15 +233,7 @@
       "athlete_dob": "24/3/2016",
       "athlete_id": "CAT-3789541",
       "performance": "4.41",
-      "discipline": "Llargada femenina",
-      "wind": null
-    },
-    {
-      "athlete_name": "ÈLIA BAYÓN FERNÁNDEZ",
-      "athlete_dob": "18/5/2015",
-      "athlete_id": "",
-      "performance": "1:57.61",
-      "discipline": "600m femenins",
+      "discipline": "Pes femení",
       "wind": null
     }
   ]

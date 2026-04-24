@@ -11,6 +11,7 @@ Flux:
    - Si no, descarrega el PDF temporalment
    - Comprova si conté "CATT" o "CA Tarragona"
    - Si sí, executa extract_catt.py
+   - Si extract_catt.py no troba cap resultat, executa extract_marcha.py
    - Mou el JSON generat a json/
    - Borra el PDF temporal
 4. Fa commit i push dels nous fitxers JSON
@@ -39,7 +40,7 @@ def download_xls():
         capture_output=True, text=True
     )
     if result.returncode != 0:
-        print(f"Error descarregant XLS: {result.stderr}", file=sys.stderr)
+        print(f"Error descarregant XLS: {result.stderr[:200]}", file=sys.stderr)
         sys.exit(1)
     print("  XLS descarregat correctament.")
 
@@ -96,6 +97,16 @@ def has_catt_in_pdf(pdf_path):
     return False
 
 
+def count_results(json_path):
+    """Compta els resultats en un JSON generat."""
+    try:
+        with open(json_path, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+        return data.get("total_results", len(data.get("results", [])))
+    except (json.JSONDecodeError, KeyError, FileNotFoundError):
+        return 0
+
+
 def process_pdf(pdf_path, json_path):
     """Executa extract_catt.py sobre un PDF i retorna True si ha generat JSON."""
     extract_script = os.path.join(os.path.dirname(os.path.abspath(__file__)), "extract_catt.py")
@@ -109,6 +120,32 @@ def process_pdf(pdf_path, json_path):
     if not os.path.exists(json_path):
         return False
     return True
+
+
+def is_marcha_pdf(pdf_url):
+    """Check if a PDF URL/filename indicates a marcha (race walk) event."""
+    filename = pdf_url.lower()
+    return any(kw in filename for kw in ['marx', 'marxa', 'marcha'])
+
+
+def process_marcha(pdf_path, json_path):
+    """Executa extract_marcha.py sobre un PDF i retorna True si ha generat JSON amb resultats."""
+    extract_script = os.path.join(os.path.dirname(os.path.abspath(__file__)), "extract_marcha.py")
+    result = subprocess.run(
+        [sys.executable, extract_script, pdf_path],
+        capture_output=True, text=True, timeout=120
+    )
+    if result.returncode != 0:
+        print(f"    Error processant PDF amb extract_marcha: {result.stderr[:200]}")
+        return False
+    # extract_marcha.py outputs to json/<basename>.json, check there
+    base = os.path.splitext(os.path.basename(pdf_path))[0]
+    marcha_json = os.path.join(os.path.dirname(pdf_path), 'json', base + ".json")
+    if os.path.exists(marcha_json):
+        # Copy to expected json_path so move_json works
+        shutil.copy2(marcha_json, json_path)
+        return True
+    return False
 
 
 def move_json(pdf_path, json_path):
@@ -200,6 +237,7 @@ def main():
     skipped_already = 0
     skipped_no_catt = 0
     skipped_error = 0
+    used_marcha = 0
     new_jsons = []
 
     with tempfile.TemporaryDirectory() as temp_dir:
@@ -212,9 +250,20 @@ def main():
             url_base = os.path.splitext(os.path.basename(url))[0]
 
             if url_base in existing_jsons:
-                print(f"  Saltat (JSON ja existeix)")
-                skipped_already += 1
-                continue
+                # Check if existing JSON has 0 results - if so, re-process
+                json_file = os.path.join(JSON_DIR, url_base + ".json")
+                if os.path.exists(json_file):
+                    existing_count = count_results(json_file)
+                    if existing_count == 0:
+                        print(f"  JSON existent amb 0 resultats, re-processant...")
+                    else:
+                        print(f"  Saltat (JSON ja existeix amb {existing_count} resultats)")
+                        skipped_already += 1
+                        continue
+                else:
+                    print(f"  Saltat (JSON ja existeix)")
+                    skipped_already += 1
+                    continue
 
             # Descarregar PDF
             pdf_path = download_pdf(url, temp_dir)
@@ -235,19 +284,54 @@ def main():
 
             # Processar amb extract_catt.py
             json_path = os.path.splitext(pdf_path)[0] + ".json"
+            
+            # Always try extract_catt.py first (it handles marcha PDFs too)
             if process_pdf(pdf_path, json_path):
-                # Moure el JSON a json/
-                dest = move_json(pdf_path, json_path)
-                if dest:
-                    new_jsons.append(dest)
-                    print(f"  Processat: {dest}")
-                    processed += 1
+                # Check if extract_catt.py actually found results
+                catt_result_count = count_results(json_path)
+                if catt_result_count > 0:
+                    dest = move_json(pdf_path, json_path)
+                    if dest:
+                        new_jsons.append(dest)
+                        print(f"  Processat: {dest}")
+                        processed += 1
+                    else:
+                        print(f"  JSON ja existia al dir json/")
+                        processed += 1
                 else:
-                    print(f"  JSON ja existia al dir json/")
-                    processed += 1
+                    # extract_catt.py ran but found no results - try extract_marcha.py as fallback
+                    print(f"  extract_catt.py no ha trobat resultats. Provant extract_marcha.py...")
+                    if process_marcha(pdf_path, json_path):
+                        dest = move_json(pdf_path, json_path)
+                        if dest:
+                            new_jsons.append(dest)
+                            print(f"  Processat amb extract_marcha: {dest}")
+                            processed += 1
+                            used_marcha += 1
+                        else:
+                            print(f"  JSON ja existia al dir json/")
+                            processed += 1
+                            used_marcha += 1
+                    else:
+                        print(f"  Error processant PDF amb extract_catt.py i extract_marcha.py")
+                        skipped_error += 1
             else:
-                print(f"  Error processant PDF amb extract_catt.py")
-                skipped_error += 1
+                # extract_catt.py failed completely - try extract_marcha.py as fallback
+                print(f"  extract_catt.py ha fallat. Provant extract_marcha.py...")
+                if process_marcha(pdf_path, json_path):
+                    dest = move_json(pdf_path, json_path)
+                    if dest:
+                        new_jsons.append(dest)
+                        print(f"  Processat amb extract_marcha: {dest}")
+                        processed += 1
+                        used_marcha += 1
+                    else:
+                        print(f"  JSON ja existia al dir json/")
+                        processed += 1
+                        used_marcha += 1
+                else:
+                    print(f"  Error processant PDF amb extract_catt.py i extract_marcha.py")
+                    skipped_error += 1
 
             # Netejar PDF temporal
             if os.path.exists(pdf_path):
@@ -259,11 +343,12 @@ def main():
     print("\n" + "=" * 60)
     print("RESUM")
     print("=" * 60)
-    print(f"  Processats:      {processed}")
-    print(f"  Saltats (ja fets): {skipped_already}")
+    print(f"  Processats:         {processed}")
+    print(f"  Saltats (ja fets):  {skipped_already}")
     print(f"  Saltats (sense CATT): {skipped_no_catt}")
-    print(f"  Errors:          {skipped_error}")
-    print(f"  Nous JSONs:      {len(new_jsons)}")
+    print(f"  Errors:             {skipped_error}")
+    print(f"  Processats (marcha): {used_marcha}")
+    print(f"  Nous JSONs:         {len(new_jsons)}")
 
     # Commit i push
     #commit_and_push(new_jsons)

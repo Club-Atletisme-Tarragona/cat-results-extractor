@@ -2,7 +2,7 @@
   "event_name": "Campionat de Catalunya Sub23 ST - Pista coberta de Atletisme de Catalunya - Carme Valero",
   "event_date": "25/01/2026",
   "event_location": "Sabadell",
-  "total_results": 7,
+  "total_results": 10,
   "results": [
     {
       "athlete_name": "HUGO JULES SAIZ SANTOLARIA",
@@ -10,6 +10,14 @@
       "athlete_id": "CAT-3742956",
       "performance": "7.54",
       "discipline": "60m Masculí",
+      "wind": null
+    },
+    {
+      "athlete_name": "ISMAEL VALLES FERNANDEZ",
+      "athlete_dob": "8/2/2004",
+      "athlete_id": "CL15301",
+      "performance": "22.76",
+      "discipline": "200m Masculí PC",
       "wind": null
     },
     {
@@ -40,6 +48,14 @@
       "athlete_name": "MARIA ANTONIETTA SALAZAR",
       "athlete_dob": "3/1/2006",
       "athlete_id": "CT2176",
+      "performance": "26.88",
+      "discipline": "200m Femení PC",
+      "wind": null
+    },
+    {
+      "athlete_name": "MARIA ANTONIETTA SALAZAR",
+      "athlete_dob": "3/1/2006",
+      "athlete_id": "CT2176",
       "performance": "26.83",
       "discipline": "200m Femení PC",
       "wind": null
@@ -50,6 +66,14 @@
       "athlete_id": "CAT-3892679",
       "performance": "5:04.44",
       "discipline": "1.500m Femení",
+      "wind": null
+    },
+    {
+      "athlete_name": "LAURA SANTOS MARTINEZ",
+      "athlete_dob": "14/9/2005",
+      "athlete_id": "CL71751",
+      "performance": "1.49",
+      "discipline": "Alçada Femení",
       "wind": null
     },
     {

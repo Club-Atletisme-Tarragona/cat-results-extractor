@@ -2,7 +2,7 @@
   "event_name": "Campionat de Catalunya Universitari 2026 - Pista de Atletismo de Camp Clar",
   "event_date": "14/03/2026",
   "event_location": "Tarragona",
-  "total_results": 52,
+  "total_results": 55,
   "results": [
     {
       "athlete_name": "HUGO JULES SAIZ SANTOLARIA",
@@ -37,12 +37,12 @@
       "wind": null
     },
     {
-      "athlete_name": "UNAI ORTIZ DE LANDAZURI ONTOSO",
-      "athlete_dob": "28/6/2007",
-      "athlete_id": "",
-      "performance": "23.93",
-      "discipline": "200m Hombres",
-      "wind": "+0.6"
+      "athlete_name": "UNAI OLAYA MINGUEZ",
+      "athlete_dob": "27/7/2009",
+      "athlete_id": "CAT-3895024-A",
+      "performance": "DNS",
+      "discipline": "100m Hombres",
+      "wind": null
     },
     {
       "athlete_name": "HUGO JULES SAIZ SANTOLARIA",
@@ -51,6 +51,14 @@
       "performance": "23.78",
       "discipline": "200m Hombres",
       "wind": "+1.4"
+    },
+    {
+      "athlete_name": "UNAI ORTIZ DE LANDAZURI ONTOSO",
+      "athlete_dob": "28/6/2007",
+      "athlete_id": "",
+      "performance": "23.93",
+      "discipline": "200m Hombres",
+      "wind": "+0.6"
     },
     {
       "athlete_name": "POL AIXALA GUIU",
@@ -89,6 +97,14 @@
       "athlete_dob": "27/6/2010",
       "athlete_id": "CL4161",
       "performance": "2:40.54",
+      "discipline": "800m Hombres",
+      "wind": null
+    },
+    {
+      "athlete_name": "JULIO LEON CID",
+      "athlete_dob": "12/10/1974",
+      "athlete_id": "CT4",
+      "performance": "DNS",
       "discipline": "800m Hombres",
       "wind": null
     },
@@ -197,14 +213,6 @@
       "wind": "-0.6"
     },
     {
-      "athlete_name": "CARLA BORRAS VERGES-TAPIRO",
-      "athlete_dob": "19/11/2008",
-      "athlete_id": "",
-      "performance": "13.47",
-      "discipline": "100m Mujeres",
-      "wind": "-1.9"
-    },
-    {
       "athlete_name": "ALDARA LINARES ANTELO",
       "athlete_dob": "7/7/2010",
       "athlete_id": "",
@@ -213,20 +221,12 @@
       "wind": "+0.4"
     },
     {
-      "athlete_name": "CRISTINA REVILLA DE CASTRO",
-      "athlete_dob": "28/1/2008",
+      "athlete_name": "CARLA BORRAS VERGES-TAPIRO",
+      "athlete_dob": "19/11/2008",
       "athlete_id": "",
-      "performance": "13.69",
+      "performance": "13.47",
       "discipline": "100m Mujeres",
-      "wind": "+0.4"
-    },
-    {
-      "athlete_name": "ARIADNA NICOLE FLORIMON CEBALLOS",
-      "athlete_dob": "9/11/2010",
-      "athlete_id": "CAT-3891136",
-      "performance": "14.67",
-      "discipline": "100m Mujeres",
-      "wind": null
+      "wind": "-1.9"
     },
     {
       "athlete_name": "OLIVIA RUIZ BARBERA",
@@ -237,12 +237,36 @@
       "wind": "+1.9"
     },
     {
+      "athlete_name": "CRISTINA REVILLA DE CASTRO",
+      "athlete_dob": "28/1/2008",
+      "athlete_id": "",
+      "performance": "13.69",
+      "discipline": "100m Mujeres",
+      "wind": "+0.4"
+    },
+    {
+      "athlete_name": "ARIADNA NICOLE FLORIMON CEBAL…",
+      "athlete_dob": "9/11/2010",
+      "athlete_id": "CAT-3891136-A",
+      "performance": "14.67",
+      "discipline": "100m Mujeres",
+      "wind": null
+    },
+    {
       "athlete_name": "ESTER CERVELLO PUJADES",
       "athlete_dob": "11/11/1978",
       "athlete_id": "",
       "performance": "15.05",
       "discipline": "100m Mujeres",
       "wind": "+1.9"
+    },
+    {
+      "athlete_name": "ARIADNA NICOLE FLORIMON CEBALLOS",
+      "athlete_dob": "9/11/2010",
+      "athlete_id": "CAT-3891136",
+      "performance": "14.67",
+      "discipline": "100m Mujeres",
+      "wind": null
     },
     {
       "athlete_name": "MARIA ANTONIETTA SALAZAR",
@@ -253,9 +277,17 @@
       "wind": "-0.6"
     },
     {
-      "athlete_name": "CLARA ORTIZ DE LANDAZURI ONTOSO",
+      "athlete_name": "ESTER CERVELLO PUJADES",
+      "athlete_dob": "11/11/1978",
+      "athlete_id": "CAT-3803319-A",
+      "performance": "DNS",
+      "discipline": "200m Mujeres",
+      "wind": null
+    },
+    {
+      "athlete_name": "CLARA ORTIZ DE LANDAZURI ONTO…",
       "athlete_dob": "4/12/2009",
-      "athlete_id": "CAT-3742953",
+      "athlete_id": "CAT-3742953-A",
       "performance": "1:03.53",
       "discipline": "400m Mujeres",
       "wind": null
@@ -265,6 +297,14 @@
       "athlete_dob": "11/11/1978",
       "athlete_id": "CAT-3803319",
       "performance": "1:11.85",
+      "discipline": "400m Mujeres",
+      "wind": null
+    },
+    {
+      "athlete_name": "CLARA ORTIZ DE LANDAZURI ONTOSO",
+      "athlete_dob": "4/12/2009",
+      "athlete_id": "CAT-3742953",
+      "performance": "1:03.53",
       "discipline": "400m Mujeres",
       "wind": null
     },
@@ -315,14 +355,6 @@
       "performance": "15.34",
       "discipline": "100m vallas Mujeres",
       "wind": "+0.6"
-    },
-    {
-      "athlete_name": "CARLA GONZALEZ CARRILLO",
-      "athlete_dob": "5/6/2003",
-      "athlete_id": "CAT-39",
-      "performance": "11:52.45",
-      "discipline": "400m vallas Mujeres",
-      "wind": null
     },
     {
       "athlete_name": "LAURA SANTOS MARTINEZ",
@@ -410,14 +442,6 @@
       "athlete_id": "CAT-3789999",
       "performance": "46.26",
       "discipline": "Martillo Mujeres",
-      "wind": null
-    },
-    {
-      "athlete_name": "CLARA ORTIZ DE LANDAZURI ONTO…",
-      "athlete_dob": "4/12/2009",
-      "athlete_id": "",
-      "performance": "1:03.53",
-      "discipline": "400m Mujeres",
       "wind": null
     }
   ]

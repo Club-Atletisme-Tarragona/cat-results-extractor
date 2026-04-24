@@ -2,7 +2,7 @@
   "event_name": "Campionat de Catalunya de Clubs Màster en PC - Pista coberta de Atletisme de Catalunya - Carme Valero",
   "event_date": "10/01/2026",
   "event_location": "Sabadell (i)",
-  "total_results": 20,
+  "total_results": 22,
   "results": [
     {
       "athlete_name": "JOSEP RAMON ARGILAGA SALVADO",
@@ -34,6 +34,14 @@
       "athlete_id": "CL3972",
       "performance": "2:55.96",
       "discipline": "800m Hombres",
+      "wind": null
+    },
+    {
+      "athlete_name": "JULIO LEON CID",
+      "athlete_dob": "12/10/1974",
+      "athlete_id": "CT4",
+      "performance": "DNS",
+      "discipline": "1.500m Hombres",
       "wind": null
     },
     {
@@ -69,14 +77,6 @@
       "wind": null
     },
     {
-      "athlete_name": "JOSEP MARIA MATEO SANZ",
-      "athlete_dob": "17/11/1964",
-      "athlete_id": "CT19378",
-      "performance": "2.60",
-      "discipline": "PértigaHombresULINA",
-      "wind": null
-    },
-    {
       "athlete_name": "GEMMA SOLE BORONAT",
       "athlete_dob": "1/11/1967",
       "athlete_id": "CT29376",
@@ -106,6 +106,22 @@
       "athlete_id": "CAT-3803319",
       "performance": "2:53.27",
       "discipline": "800m Mujeres",
+      "wind": null
+    },
+    {
+      "athlete_name": "PATRICIA AMADOR PERIS",
+      "athlete_dob": "18/2/1980",
+      "athlete_id": "CT28190",
+      "performance": "DNS",
+      "discipline": "1.500m Mujeres",
+      "wind": null
+    },
+    {
+      "athlete_name": "PATRICIA AMADOR PERIS",
+      "athlete_dob": "18/2/1980",
+      "athlete_id": "CT28190",
+      "performance": "DNS",
+      "discipline": "3.000m Mujeres",
       "wind": null
     },
     {

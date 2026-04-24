@@ -2,7 +2,7 @@
   "event_name": "Campionat de Catalunya de Clubs sub20 ST - Pista coberta de Atletisme de Catalunya - Carme Valero",
   "event_date": "31/01/2026",
   "event_location": "Sabadell (i)",
-  "total_results": 10,
+  "total_results": 18,
   "results": [
     {
       "athlete_name": "JERONI FLORES PIÑAS",
@@ -13,11 +13,35 @@
       "wind": null
     },
     {
+      "athlete_name": "SAMUEL MARCOS PEREZ",
+      "athlete_dob": "1/2/2010",
+      "athlete_id": "CL90024",
+      "performance": "5.89",
+      "discipline": "Llargada Homes PC",
+      "wind": null
+    },
+    {
+      "athlete_name": "DAVID FERNANDEZ PINEDA",
+      "athlete_dob": "18/6/2010",
+      "athlete_id": "CL11323",
+      "performance": "11.55",
+      "discipline": "Triple Salt Homes PC",
+      "wind": null
+    },
+    {
       "athlete_name": "LLUC SUBIROS BRASERO",
       "athlete_dob": "6/1/2007",
       "athlete_id": "CT1186",
       "performance": "4.05",
-      "discipline": "Altura Hombres PC",
+      "discipline": "Perxa Homes PC",
+      "wind": null
+    },
+    {
+      "athlete_name": "PAU ESTEVE HOSTALOT",
+      "athlete_dob": "27/8/2010",
+      "athlete_id": "CL94383",
+      "performance": "7.74",
+      "discipline": "Pes (6kg) Homes PC",
       "wind": null
     },
     {
@@ -50,6 +74,46 @@
       "athlete_id": "",
       "performance": "3:49.25",
       "discipline": "4x400m Homes PC",
+      "wind": null
+    },
+    {
+      "athlete_name": "AINOA RODRIGUEZ MURILLO",
+      "athlete_dob": "17/1/2008",
+      "athlete_id": "CAT-3742948-A",
+      "performance": "1.35",
+      "discipline": "Alçada Dones PC",
+      "wind": null
+    },
+    {
+      "athlete_name": "ONA SANSA GARCIA",
+      "athlete_dob": "31/5/2010",
+      "athlete_id": "CAT-3743010-A",
+      "performance": "3.25",
+      "discipline": "Perxa Dones PC",
+      "wind": null
+    },
+    {
+      "athlete_name": "NORA MONTOLIO AMARO",
+      "athlete_dob": "5/2/2010",
+      "athlete_id": "CAT-3895023",
+      "performance": "5.15",
+      "discipline": "Llargada Dones PC",
+      "wind": null
+    },
+    {
+      "athlete_name": "CLAUDIA BOTANCH RIUS",
+      "athlete_dob": "2/1/2011",
+      "athlete_id": "CAT-3812320",
+      "performance": "10.13",
+      "discipline": "Triple Salt Dones PC",
+      "wind": null
+    },
+    {
+      "athlete_name": "NOA NIN NAVAS",
+      "athlete_dob": "28/8/2009",
+      "athlete_id": "CAT-3742996",
+      "performance": "8.07",
+      "discipline": "Pes (4kg) Dones PC",
       "wind": null
     },
     {

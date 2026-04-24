@@ -1,5 +1,13 @@
 # Rules & Policies for extract_catt.py
 
+## Extraction Pipeline Order
+
+Always try `extract_catt.py` first for all PDFs, regardless of type. Only use `extract_marcha.py` as a fallback when `extract_catt.py` finds no results (0 entries). Do not skip `extract_catt.py` based on URL patterns or filename detection.
+
+## Marcha Extraction
+
+`extract_marcha.py` may be needed as a fallback for certain marcha PDFs that `extract_catt.py` cannot parse. After `deduplicate_results(results)` in extract_marcha.py, filter out entries with `marca` in ("DQ", "DNS", "DNF") before the validation step to exclude invalid entries from the final JSON output.
+
 ## Name Cleaning
 
 When extracting athlete names from PDF lines, always strip trailing noise:

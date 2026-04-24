@@ -2,8 +2,16 @@
   "event_name": "50è Campionat de Catalunya Absolut ST - Pista coberta de Atletisme de Catalunya - Carme Valero",
   "event_date": "15/02/2026",
   "event_location": "Sabadell (i)",
-  "total_results": 5,
+  "total_results": 6,
   "results": [
+    {
+      "athlete_name": "BERNAT VERDU GOMEZ",
+      "athlete_dob": "2/1/2002",
+      "athlete_id": "CAT-3823996",
+      "performance": "8.33",
+      "discipline": "60m tanques (1,067) Masculí PC",
+      "wind": null
+    },
     {
       "athlete_name": "BERNAT VERDU GOMEZ",
       "athlete_dob": "2/1/2002",
@@ -41,7 +49,7 @@
       "athlete_dob": "6/8/1995",
       "athlete_id": "CAT-3742985",
       "performance": "11.00",
-      "discipline": "Triple Salt Femení",
+      "discipline": "Pes (4kg) Femení PC",
       "wind": null
     }
   ]

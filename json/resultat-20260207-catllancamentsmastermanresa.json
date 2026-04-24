@@ -2,6 +2,23 @@
   "event_name": "Campionat de Catalunya de llançaments llargs màster - Estadio Municipal El Congost",
   "event_date": "07/02/2026",
   "event_location": "Manresa",
-  "total_results": 0,
-  "results": []
+  "total_results": 2,
+  "results": [
+    {
+      "athlete_name": "JAVIER FERNANDEZ FREIXAS",
+      "athlete_dob": "21/2/1974",
+      "athlete_id": "CAT-3892003",
+      "performance": "30.26",
+      "discipline": "Jabalina Vet. Hombres. Master M50",
+      "wind": null
+    },
+    {
+      "athlete_name": "BARBARA PINTADO DUCH",
+      "athlete_dob": "29/4/1985",
+      "athlete_id": "CT13219",
+      "performance": "35.51",
+      "discipline": "Disco VET.Mujeres. Master F40",
+      "wind": null
+    }
+  ]
 }

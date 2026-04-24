@@ -2,7 +2,7 @@
   "event_name": "Campionat Territorial de Proves Combinades d'Hivern sub12 i sub14- Tarragona - Pista de Atletismo de Camp Clar",
   "event_date": "07/02/2026",
   "event_location": "Tarragona",
-  "total_results": 157,
+  "total_results": 173,
   "results": [
     {
       "athlete_name": "BLAI LLIGADAS TURON",
@@ -61,9 +61,33 @@
       "wind": null
     },
     {
+      "athlete_name": "SERGI AGUZA PIQUERAS",
+      "athlete_dob": "21/4/2016",
+      "athlete_id": "CL15055",
+      "performance": "DNS",
+      "discipline": "60m S12M",
+      "wind": null
+    },
+    {
+      "athlete_name": "TEO POU FONTS",
+      "athlete_dob": "9/1/2015",
+      "athlete_id": "CL14903",
+      "performance": "DNS",
+      "discipline": "60m S12M",
+      "wind": null
+    },
+    {
+      "athlete_name": "OLIVIER CASAS MUIÑO",
+      "athlete_dob": "10/8/2015",
+      "athlete_id": "CL11597",
+      "performance": "DNS",
+      "discipline": "60m S12M",
+      "wind": null
+    },
+    {
       "athlete_name": "NIL TORRES PRATS",
       "athlete_dob": "5/10/2014",
-      "athlete_id": "CL7611",
+      "athlete_id": "",
       "performance": "9.09",
       "discipline": "60m S14M",
       "wind": "+3.1"
@@ -71,7 +95,7 @@
     {
       "athlete_name": "DANIEL LINARES ANTELO",
       "athlete_dob": "10/7/2014",
-      "athlete_id": "CAT-3723389-A",
+      "athlete_id": "",
       "performance": "9.14",
       "discipline": "60m S14M",
       "wind": "+1.6"
@@ -79,7 +103,7 @@
     {
       "athlete_name": "POL DIAZ CRISTINO",
       "athlete_dob": "3/2/2014",
-      "athlete_id": "CT2082",
+      "athlete_id": "",
       "performance": "9.28",
       "discipline": "60m S14M",
       "wind": "+3.1"
@@ -87,7 +111,7 @@
     {
       "athlete_name": "KILIAN PEDROL ESPINOSA",
       "athlete_dob": "24/2/2013",
-      "athlete_id": "CL7676",
+      "athlete_id": "",
       "performance": "9.28",
       "discipline": "60m S14M",
       "wind": "+1.8"
@@ -95,7 +119,7 @@
     {
       "athlete_name": "ANTONIO BALAZOTE",
       "athlete_dob": "1/5/2014",
-      "athlete_id": "CL11067",
+      "athlete_id": "",
       "performance": "9.39",
       "discipline": "60m S14M",
       "wind": "+1.6"
@@ -189,6 +213,30 @@
       "wind": null
     },
     {
+      "athlete_name": "ARITZ GUZMAN SANTAMARIA",
+      "athlete_dob": "3/12/2015",
+      "athlete_id": "CL16902",
+      "performance": "2.64",
+      "discipline": "Longitud S12M",
+      "wind": null
+    },
+    {
+      "athlete_name": "MARTI MATEU MONTULL",
+      "athlete_dob": "13/8/2016",
+      "athlete_id": "CL14916",
+      "performance": "2.59",
+      "discipline": "Longitud S12M",
+      "wind": null
+    },
+    {
+      "athlete_name": "SAMUEL RODRIGUEZ BARRIOS",
+      "athlete_dob": "29/10/2016",
+      "athlete_id": "CL14914",
+      "performance": "2.04",
+      "discipline": "Longitud S12M",
+      "wind": null
+    },
+    {
       "athlete_name": "KILIAN PEDROL ESPINOSA",
       "athlete_dob": "24/2/2013",
       "athlete_id": "CL7676",
@@ -225,6 +273,22 @@
       "athlete_dob": "1/5/2014",
       "athlete_id": "CL11067",
       "performance": "3.26",
+      "discipline": "Longitud S14M",
+      "wind": null
+    },
+    {
+      "athlete_name": "ERNEST GELLIDA BARRIO",
+      "athlete_dob": "26/8/2014",
+      "athlete_id": "CL7613",
+      "performance": "2.98",
+      "discipline": "Longitud S14M",
+      "wind": null
+    },
+    {
+      "athlete_name": "Diego Fernández Minguijon",
+      "athlete_dob": "20/5/2014",
+      "athlete_id": "CAT-3713968",
+      "performance": "2.61",
       "discipline": "Longitud S14M",
       "wind": null
     },
@@ -495,7 +559,7 @@
     {
       "athlete_name": "ÈLIA BAYÓN FERNÁNDEZ",
       "athlete_dob": "18/5/2015",
-      "athlete_id": "CAT-3889577",
+      "athlete_id": "CAT-3889577-A",
       "performance": "9.24",
       "discipline": "60m S12F",
       "wind": null
@@ -631,7 +695,7 @@
     {
       "athlete_name": "MARTINA GÓMEZ ROJALS",
       "athlete_dob": "28/8/2013",
-      "athlete_id": "CAT-3910530-A",
+      "athlete_id": "",
       "performance": "11.28",
       "discipline": "60m vallas (0,762) S14F",
       "wind": "+2.7"
@@ -639,7 +703,7 @@
     {
       "athlete_name": "AMELI TORRES ARBONES",
       "athlete_dob": "27/1/2014",
-      "athlete_id": "CL15270",
+      "athlete_id": "",
       "performance": "11.44",
       "discipline": "60m vallas (0,762) S14F",
       "wind": "+2.6"
@@ -647,7 +711,7 @@
     {
       "athlete_name": "ALBA ESTEVE HOSTALOT",
       "athlete_dob": "10/11/2013",
-      "athlete_id": "CL4396",
+      "athlete_id": "",
       "performance": "11.85",
       "discipline": "60m vallas (0,762) S14F",
       "wind": "+0.7"
@@ -671,7 +735,7 @@
     {
       "athlete_name": "ERIKA MARGALLO DEL VALLE",
       "athlete_dob": "27/11/2014",
-      "athlete_id": "CL15267",
+      "athlete_id": "",
       "performance": "12.62",
       "discipline": "60m vallas (0,762) S14F",
       "wind": "+0.7"
@@ -679,7 +743,7 @@
     {
       "athlete_name": "AITANA CASAS MUIÑO",
       "athlete_dob": "28/10/2013",
-      "athlete_id": "CL11660",
+      "athlete_id": "",
       "performance": "13.43",
       "discipline": "60m vallas (0,762) S14F",
       "wind": "+2.6"
@@ -687,7 +751,7 @@
     {
       "athlete_name": "INDIA MARTIN CUADRADO",
       "athlete_dob": "4/4/2014",
-      "athlete_id": "CL7608",
+      "athlete_id": "",
       "performance": "14.94",
       "discipline": "60m vallas (0,762) S14F",
       "wind": "+2.6"
@@ -817,6 +881,70 @@
       "athlete_dob": "23/8/2016",
       "athlete_id": "CAT-3842738",
       "performance": "3.04",
+      "discipline": "Longitud S12F",
+      "wind": null
+    },
+    {
+      "athlete_name": "SOFIA VEGA MARTINEZ",
+      "athlete_dob": "9/8/2016",
+      "athlete_id": "CL14893",
+      "performance": "2.98",
+      "discipline": "Longitud S12F",
+      "wind": null
+    },
+    {
+      "athlete_name": "BERTA GARCIA DOMINGUEZ",
+      "athlete_dob": "24/6/2016",
+      "athlete_id": "CL15061",
+      "performance": "2.97",
+      "discipline": "Longitud S12F",
+      "wind": null
+    },
+    {
+      "athlete_name": "NAIA GUINART TRABALON",
+      "athlete_dob": "25/3/2015",
+      "athlete_id": "CAT-3889578",
+      "performance": "2.96",
+      "discipline": "Longitud S12F",
+      "wind": null
+    },
+    {
+      "athlete_name": "GINESTA MARRUGAT CANADELL",
+      "athlete_dob": "10/12/2016",
+      "athlete_id": "CAT-3789549",
+      "performance": "2.91",
+      "discipline": "Longitud S12F",
+      "wind": null
+    },
+    {
+      "athlete_name": "ISONA MASIP SALA",
+      "athlete_dob": "22/9/2016",
+      "athlete_id": "CL15059",
+      "performance": "2.85",
+      "discipline": "Longitud S12F",
+      "wind": null
+    },
+    {
+      "athlete_name": "CARLOTA FRUTOS MATURANA",
+      "athlete_dob": "18/7/2015",
+      "athlete_id": "CAT-3723407",
+      "performance": "2.81",
+      "discipline": "Longitud S12F",
+      "wind": null
+    },
+    {
+      "athlete_name": "ADA FELIU LORCA",
+      "athlete_dob": "7/5/2016",
+      "athlete_id": "CL15054",
+      "performance": "2.79",
+      "discipline": "Longitud S12F",
+      "wind": null
+    },
+    {
+      "athlete_name": "ELENA ALUSTIZA BUENO",
+      "athlete_dob": "29/1/2015",
+      "athlete_id": "CAT-3722106",
+      "performance": "2.38",
       "discipline": "Longitud S12F",
       "wind": null
     },

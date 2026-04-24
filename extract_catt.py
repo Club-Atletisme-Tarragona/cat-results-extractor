@@ -114,11 +114,11 @@ EVENT_PATTERNS = [
     # Track events: 60m, 100m, 300m, 600m, 1.000m, 3.000m, etc. (with or without space)
     r'(?:\d{1,3}(?:\.\d{3})?\s*m|\d+\s*m)\s*(?:tanques\s+)?(?:vallas\s+)?(?:\(.*?\))?\s*(?:Sub\d+\s+)?(?:Obst\.?\s+)?(?:Marcha\s+)?(?:Marxa\s+)?(?:Hombres|Mujeres|Mixto|Masculí|Femení|masculins|Mascuins|femenins|masculina|femenina|masculino|femenino)',
     # Field/jump/height events (Spanish + Catalan)
-    r'(?:Altura|Alçada|Pértiga|Pertiga|Perxa|Longitud|Llargada|Triple\s+Salto|Triple\s+salt|Disco|Disc|Martello|Martell|Martillo|Martell|(?:Peso|Pes)|Jabalina|Javelina|Dard)\s*(?:\(.*?\))?\s*(?:Sub\d+(?:-\d+)?\s+)?(?:Hombres|Mujeres|Mixto|Masculí|Femení|masculins|Mascuins|femenins|masculina|femenina|masculino|femenino|M|F)',
-    # Relay events: 4x100m, 4x400m, 4x300m, Relleu 4x300
-    r'(?:4x\d+\s*m|Relleu\s+4x\d+)',
+    r'(?:\bAltura\b|\bAlçada\b|Pértiga|Pertiga|Perxa|Longitud|Llargada|Triple\s+Salto|Triple\s+salt|Disco|Disc|Martello|Martell|Martillo|Martell|\b(?:Peso|Pes)\b|Jabalina|Javelina|Dard)\s*(?:\(.*?\))?\s*(?:Sub\d+(?:-\d+)?\s+)?(?:Hombres|Mujeres|Mixto|Masculí|Femení|masculins|Mascuins|femenins|masculina|femenina|masculino|femenino|M|F)',
+    # Relay events: 4x100m, 4x400m, 4x300m, Relleu 4x300, Relleus 4x200
+    r'(?:4x\d+\s*m|Relleu[s]?\s+4x\d+)',
     # Age category events
-    r'(?:Longitud|Llargada|Altura|Alçada|Peso|Jabalina|Dard|Disco|Martillo|Triple\s+Salto|Triple\s+salt)\s+(?:Hombres|Mujeres|Masculí|Femení|masculins|Mascuins|femenins)\s+U\d+[MF]',
+    r'(?:\bLongitud\b|\bLlargada\b|\bAltura\b|\bAlçada\b|\bPeso\b|Jabalina|Dard|Disco|Martillo|Triple\s+Salto|Triple\s+salt)\s+(?:Hombres|Mujeres|Masculí|Femení|masculins|Mascuins|femenins)\s+U\d+[MF]',
     r'\d+\s*m\s*(?:Hombres|Mujeres|Masculí|Femení|masculins|Mascuins|femenins)\s+U\d+[MF]',
     r'\d+\s*m\s*(?:tanques\s+)?(?:vallas\s+)?(?:Obst\.?\s+)?(?:Hombres|Mujeres|Masculí|Femení|masculins|Mascuins|femenins)\s+U\d+[MF]',
     # Weighted events
@@ -129,17 +129,17 @@ EVENT_PATTERNS = [
     # Format: event_name + S\d+ or JUV/CAD/INF + gender + optional AL/aire libre
     r'(?:\d{1,3}(?:\.\d{3})?\s*m|\d+\s*m)\s*(?:tanques\s+)?(?:vallas\s+)?(?:\(.*?\))?\s*(?:S\d+\s+)?(?:JUV\.?|CAD\.?|INF\.?\s*)?\s*(?:Hombres|Mujeres|Masculí|Femení|masculins|Mascuins|femenins)\s+(?:S\d+|JUV\.?|CAD\.?|INF\.?)\s*(?:AL|aire\s+libre)?',
     # Field/jump/height with age category: "Peso (4kg) S16 Hombres AL", "Altura S14 Mujeres AL"
-    r'(?:Altura|Alçada|Pértiga|Pertiga|Perxa|Longitud|Llargada|Triple\s+Salto|Triple\s+salt|Disco|Martillo|Peso|Jabalina|Dard)\s*(?:\(.*?\))?\s*(?:S\d+\s+)?(?:JUV\.?|CAD\.?|INF\.?\s*)?\s*(?:Hombres|Mujeres|Masculí|Femení|masculins|Mascuins|femenins)\s+(?:S\d+|JUV\.?|CAD\.?|INF\.?)\s*(?:AL|aire\s+libre)?',
+    r'(?:\bAltura\b|\bAlçada\b|Pértiga|Pertiga|Perxa|Longitud|Llargada|Triple\s+Salto|Triple\s+salt|Disco|Martillo|\bPeso\b|Jabalina|Dard)\s*(?:\(.*?\))?\s*(?:S\d+\s+)?(?:JUV\.?|CAD\.?|INF\.?\s*)?\s*(?:Hombres|Mujeres|Masculí|Femení|masculins|Mascuins|femenins)\s+(?:S\d+|JUV\.?|CAD\.?|INF\.?)\s*(?:AL|aire\s+libre)?',
     # Simple age category: "60m S18 Hombres AL", "Altura S14 Mujeres AL" (S## between event and gender)
     r'(?:\d{1,3}(?:\.\d{3})?\s*m|\d+\s*m)\s*(?:tanques\s+)?(?:vallas\s+)?(?:\(.*?\))?\s*(?:S\d+)\s*(?:Hombres|Mujeres|Masculí|Femení|masculins|Mascuins|femenins)\s*(?:AL|aire\s+libre)?',
-    r'(?:Altura|Alçada|Pértiga|Pertiga|Perxa|Longitud|Llargada|Triple\s+Salto|Triple\s+salt|Disco|Martillo|Peso|Jabalina|Dard)\s*(?:\(.*?\))?\s*(?:S\d+)\s*(?:Hombres|Mujeres|Masculí|Femení|masculins|Mascuins|femenins)\s*(?:AL|aire\s+libre)?',
+    r'(?:\bAltura\b|\bAlçada\b|Pértiga|Pertiga|Perxa|Longitud|Llargada|Triple\s+Salto|Triple\s+salt|Disco|Martillo|\bPeso\b|Jabalina|Dard)\s*(?:\(.*?\))?\s*(?:S\d+)\s*(?:Hombres|Mujeres|Masculí|Femení|masculins|Mascuins|femenins)\s*(?:AL|aire\s+libre)?',
     r'(?:Peso|Pes)\s+\(\d+k?\)\s*(?:S\d+)\s*(?:Hombres|Mujeres|Masculí|Femení)\s*(?:AL|aire\s+libre)?',
     r'Jabalina\s+\(\d+g\)\s*(?:S\d+)\s*(?:Hombres|Mujeres|Masculí|Femení)\s*(?:AL|aire\s+libre)?',
     r'Dard\s+\(\d+g\)\s*(?:S\d+)\s*(?:Hombres|Mujeres|Masculí|Femení)\s*(?:AL|aire\s+libre)?',
     # Vallas with height spec and age category: "60m vallas (0,762) S14 INF. Mujeres AL"
     r'(?:\d{1,3}\s*m\s+vallas\s+\(.*?\)\s+S\d+\s+(?:JUV\.?|CAD\.?|INF\.?\s*)?\s*(?:Hombres|Mujeres|Masculí|Femení|masculins|Mascuins|femenins))',
     # Master events: "Peso VET.Mujeres. PC Master F60", "Peso Vet. Hombres. PC Master M40"
-    r'(?:Altura|Alçada|Pértiga|Pertiga|Perxa|Longitud|Llargada|Triple\s+Salto|Triple\s+salt|Disco|Martillo|(?:Peso|Pes)|Jabalina|Dard)\s+VET\.?\s*(?:Mujeres\.?|Hombres\.?)\s*PC\s+Master\s+(?:M\d+|F\d+)',
+    r'(?:\bAltura\b|\bAlçada\b|Pértiga|Pertiga|Perxa|Longitud|Llargada|Triple\s+Salto|Triple\s+salt|Disco|Martillo|\b(?:Peso|Pes)\b|Jabalina|Dard)\s+VET\.?\s*(?:Mujeres\.?|Hombres\.?)\s*PC\s+Master\s+(?:M\d+|F\d+)',
     # Marcha events with km: "5 km Marcha sub-16 Hombres", "10 km Marcha sub-20 Mujeres"
     r'\d+\s+km\s+(?:Marcha|Marxa)\s+(?:sub-\d+\s+)?(?:Hombres|Mujeres|Masculí|Femení|masculins|Mascuins|femenins|masculina|femenina|masculino|femenino)',
     # Maratón Marcha: "Maratón Marcha Hombres", "Maratón Marcha Mujeres Master"
@@ -149,7 +149,10 @@ EVENT_PATTERNS = [
     r'Marat[óo]n\s+Master\s+(?:Hombres|Mujeres|Masculí)\s+(?:Clubes|M\d+|F\d+)',
     # U16/U18 category events with plural gender: "60m U18 Masculins PC", "Llargada U18 Masculins PC", "Alçada U16-U18 Femenins PC"
     r'(?:\d{1,3}(?:\.\d{3})?\s*m|\d+\s*m)\s*(?:tanques\s+)?(?:vallas\s+)?(?:\(.*?\))?\s*(?:U\d+(?:-U\d+)?)\s*(?:Hombres|Mujeres|Masculins|Mascuins|Femenins|masculins|femenins)',
-    r'(?:Altura|Alçada|Pértiga|Pertiga|Perxa|Longitud|Llargada|Triple\s+Salto|Triple\s+salt|Disco|Martillo|(?:Peso|Pes)|Jabalina|Dard)\s*(?:\(.*?\))?\s*(?:U\d+(?:-U\d+)?)\s*(?:Hombres|Mujeres|Masculins|Mascuins|Femenins|masculins|femenins)',
+    r'(?:\bAltura\b|\bAlçada\b|Pértiga|Pertiga|Perxa|Longitud|Llargada|Triple\s+Salto|Triple\s+salt|Disco|Martillo|\b(?:Peso|Pes)\b|Jabalina|Dard)\s*(?:\(.*?\))?\s*(?:U\d+(?:-U\d+)?)\s*(?:Hombres|Mujeres|Masculins|Mascuins|Femenins|masculins|femenins)',
+    # U-category events with single letter gender: "400m U10M", "1.000m U14M", "Altura U10F"
+    r'(?:\d{1,3}(?:\.\d{3})?\s*m|\d+\s*m)\s*(?:tanques\s+)?(?:vallas\s+)?(?:\(.*?\))?\s*(?:U\d+(?:-\d+)?)\s*[MF]',
+    r'(?:\bAltura\b|\bAlçada\b|Pértiga|Pertiga|Perxa|Longitud|Llargada|Triple\s+Salto|Triple\s+salt|Disco|Martillo|\b(?:Peso|Pes)\b|Jabalina|Dard)\s*(?:\(.*?\))?\s*(?:U\d+(?:-\d+)?)\s*[MF]',
 ]
 
 TRACK_PATTERNS = [
@@ -158,6 +161,8 @@ TRACK_PATTERNS = [
     r'\d{1,3}\s*m\s+(?:Marxa\s+)?(?:Hombres|Mujeres|Masculí|Femení|masculins|Mascuins|femenins)',
     # Abbreviated gender: "100m Abs M", "200m Abs F", "400m tanques Abs M", "600m Sub14-16 M"
     r'\d{1,3}(?:\.\d{3})?\s*m\s*(?:tanques|vallas)?\s+(?:Abs|Sub\d+[-\d]*)\s+[MFHM]',
+    # Speed control style: "60m S10M", "400m S10F", "200m AbsF", "300m S16M"
+    r'\d{1,3}(?:\.\d{3})?\s*m\s*(?:tanques|vallas)?\s*(?:Abs(?:M|F|Mascuins|Femenins)?|S\d+[MFHM])',
     # Popular/road events: "5.000m Popular"
     r'\d{1,3}(?:\.\d{3})?\s*m\s+(?:Popular|Populars?)\s*(?:Hombres|Mujeres|Masculí|Femení)?',
     # km events: "10km", "21.1km"
@@ -172,25 +177,25 @@ MARCHA_PATTERNS = [
 
 JUMP_PATTERNS = [
     r'Triple\s+(?:Salto|salt)',
-    r'(?:Longitud|Llargada)',
+    r'\b(?:Longitud|Llargada)\b',
 ]
 
 HEIGHT_PATTERNS = [
-    r'(?:Altura|Alçada)',
-    r'(?:Pértiga|Pertiga|Perxa)',
+    r'\b(?:Altura|Alçada)\b',
+    r'\b(?:Pértiga|Pertiga|Perxa)\b',
 ]
 
 FIELD_PATTERNS = [
-    r'Disco|Disc',
-    r'(?:Martillo|Martell)',
-    r'(?:Peso|Pes)',
-    r'(?:Jabalina|Javelina|Dard)',
+    r'\bDisco\b|\bDisc\b',
+    r'\b(?:Martillo|Martell)\b',
+    r'\b(?:Peso|Pes)\b',
+    r'\b(?:Jabalina|Javelina|Dard)\b',
 ]
 
 RELAY_PATTERNS = [
     r'4x\d+\s*m',
     r'4x\d+\s+(?:Hombres|Mujeres|Masculí|Femení|masculins|Mascuins|femenins|masculina|femenina|masculino|femenino)',
-    r'Relleu\s+4x\d+',
+    r'Relleu[s]?\s+4x\d+',
 ]
 
 MARATHON_PATTERNS = [
@@ -602,7 +607,7 @@ def extract_result_from_name_line(lines, name_line_idx, sec_end, event_type):
                 best_val = 0
                 for num in nums:
                     val = float(num)
-                    if val >= 3.0 and val <= 20.0 and val > best_val:
+                    if val >= 1.5 and val <= 20.0 and val > best_val:
                         best_val = val
                         best = num
                 if best:
@@ -614,7 +619,7 @@ def extract_result_from_name_line(lines, name_line_idx, sec_end, event_type):
                 best_val = 0
                 for num in nums:
                     val = float(num)
-                    if val >= 3.0 and val <= 80.0 and val > best_val:
+                    if val >= 1.5 and val <= 80.0 and val > best_val:
                         best_val = val
                         best = num
                 if best:
@@ -649,6 +654,11 @@ def find_section_boundaries(lines):
         
         # Skip lines that are just "Final" or "HORARIO" etc
         if stripped in ('Final', 'HORARIO', 'Hora', 'Prueba', 'Ronda', 'SESIO', 'SESION'):
+            continue
+        
+        # Skip preliminary result lines (RCAT, RCAM, etc.) that have event dates at the end
+        # These lines have format: "RCAT  J.CASTELLA-N.CAVERO 2:33.39  Sabadell  13/02/2022"
+        if re.match(r'^\s*RC[A-Z]+\s', stripped):
             continue
         
         event_name = ""
@@ -727,21 +737,44 @@ def find_section_boundaries(lines):
                         break
             
             if not is_event:
-                continue
+                # Additional check: for age-category events like "60m S10M", "400m S10F",
+                # the pattern might not match the main EVENT_PATTERNS. Check with a more
+                # permissive pattern for speed control events.
+                if not re.search(r'\d+\s*m\s+S\d+[MF]', stripped, re.IGNORECASE):
+                    continue
             
             # Must be preceded by a date line (page header event start)
             # Look back up to 10 lines for a date
             is_page_header_event = False
             for j in range(i - 1, max(i - 10, 0), -1):
                 prev = lines[j].strip()
-                if re.search(r'\d{2}/\d{2}/\d{4}', prev):
+                if re.search(r'\d{1,2}/\d{1,2}/\d{2,4}', prev):
                     is_page_header_event = True
                     break
                 if 'Página' in prev or 'Gestión' in prev:
                     break  # Hit page footer, not a page header
                 # If we hit a non-empty line that's not a date, stop looking
-                if prev and not re.match(r'^\d{2}:\d{2}', prev):
+                if prev and not re.match(r'^\d{1,2}:\d{2}', prev):
                     break
+            
+            # Fallback: if no date found, check if this is a known event pattern
+            # that appears after a blank line (page break) - common in speed control PDFs
+            if not is_page_header_event:
+                # Look for blank line followed by event name pattern (page break indicator)
+                for j in range(i - 1, max(i - 5, 0), -1):
+                    prev = lines[j].strip()
+                    if prev == '':
+                        # Check if the line before the blank is a page footer or separator
+                        for k in range(j - 1, max(j - 4, 0), -1):
+                            footer_line = lines[k].strip()
+                            if 'Página' in footer_line or 'Gestión' in footer_line or '---' in footer_line or '===' in footer_line:
+                                is_page_header_event = True
+                                break
+                            if footer_line and '---' not in footer_line and '===' not in footer_line:
+                                break
+                        break
+                    if 'Página' in prev or 'Gestión' in prev:
+                        break
             
             if not is_page_header_event:
                 continue
@@ -906,7 +939,8 @@ def parse_sumario_section(lines, sumario_idx, event_name, sec_end, competicio, d
     
     # Original individual event parsing
     # Find all CATT athletes in this sumario
-    # Each athlete block is 3 lines: name, club_name, results
+    # Each athlete block is: name line (with DOB), then rank/dorsal/club line, then results line
+    # Must verify all 3 lines belong to the same athlete block
     i = sumario_idx + 1
     while i < min(sec_end, len(lines)):
         line = lines[i].strip()
@@ -921,80 +955,105 @@ def parse_sumario_section(lines, sumario_idx, event_name, sec_end, competicio, d
             name_line = line
             name_line_idx = i
             
-            # Next line should be club name with rank/dorsal
-            if i + 1 >= len(lines):
-                i += 1
-                continue
-            
-            club_line = lines[i + 1].strip()
-            # Check if this has a rank + dorsal + club
-            rank_match = re.match(r'^\s*(\d+)\s+(\d+)\s+(.+)$', club_line)
-            if not rank_match:
-                i += 1
-                continue
-            
-            rank = int(rank_match.group(1))
-            dorsal = rank_match.group(2)
-            club_name = rank_match.group(3).strip()
-            
-            # Check if this is CATT
-            if 'CA Tarragona' not in club_name and 'CATT' not in club_name:
-                i += 3
-                continue
-            
-            # Next line has results
-            if i + 2 >= len(lines):
-                i += 1
-                continue
-            
-            result_line = lines[i + 2].strip()
-            
-            # Extract time from result line
-            time_match = re.search(r'(\d{1,2}:\d{2}\.\d{2})', result_line)
-            if time_match:
-                marca = time_match.group(1)
-            else:
-                # Try short time format (sprints)
-                for num_match in re.finditer(r'(?<![\d.:])(\d+\.\d{2})(?![\d.])', result_line):
-                    val = float(num_match.group(1))
-                    if val > 5.0 and val < 60.0:
-                        marca = num_match.group(1)
-                        break
-                else:
-                    i += 3
-                    continue
-            
-            # Extract wind
-            wind = None
-            wind_match = re.search(r'([+-]\d+\.\d)', result_line)
-            if wind_match:
-                wind = wind_match.group(1)
-            
-            # Extract name
+            # Extract DOB and name from this line
             bd_match = re.search(r'(\d{1,2}/\d{1,2}/\d{4})', name_line)
             name = re.sub(r'\d{1,2}/\d{1,2}/\d{4}', '', name_line).strip()
             name = ' '.join(name.split())
             
-            # Extract license from result line and next line (license is often on the line below)
-            lic_match = re.search(r'\b(CL\d+|CT[\d\-]+|CAT\-\d+[A\-\.]*|IB\-\d+[A\-\.]*)\b', result_line)
-            licencia = lic_match.group(1) if lic_match else ""
-            licencia = re.sub(r'[\.\-]+\s*$', '', licencia)
-            if not licencia:
-                lic_match = re.search(r'\b(CL\d+|CT[\d\-]+|CAT\-\d+[A\-\.]*|IB\-\d+[A\-\.]*)\b', lines[i + 3] if i + 3 < len(lines) else "")
-                licencia = lic_match.group(1) if lic_match else ""
-                licencia = re.sub(r'[\.\-]+\s*$', '', licencia)
+            if not name or len(name) < 3:
+                i += 1
+                continue
             
-            results.append({
-                "lloc": rank,
-                "prova": event_name,
-                "competicio": competicio,
-                "data": data_comp,
-                "atleta_nom": name,
-                "atleta_naixement": bd_match.group(1) if bd_match else "",
-                "atleta_licencia": licencia,
-                "marca": marca,
-                "vent": wind,
-            })
+            # Look ahead up to 5 lines for the complete athlete block:
+            # The block should have: name -> (optional blank/license) -> rank+dorsal+club -> results
+            # We need to find a rank+dorsal+club line that contains CATT/CA Tarragona
+            # AND a results line with a valid time/mark that belongs to the same block
+            
+            found_block = False
+            for block_start in range(i + 1, min(i + 6, len(lines))):
+                block_line = lines[block_start].strip()
+                
+                # Look for rank + dorsal + club line
+                rank_match = re.match(r'^\s*(\d+)\s+(\d+)\s+(.+)$', block_line)
+                if rank_match:
+                    rank = int(rank_match.group(1))
+                    dorsal = rank_match.group(2)
+                    club_name = rank_match.group(3).strip()
+                    
+                    # Check if this is CATT
+                    if 'CA Tarragona' not in club_name and 'CATT' not in club_name:
+                        continue
+                    
+                    # The results should be on the next non-empty line
+                    result_line = ""
+                    for j in range(block_start + 1, min(block_start + 3, len(lines))):
+                        candidate = lines[j].strip()
+                        if candidate:
+                            result_line = candidate
+                            break
+                    
+                    if not result_line:
+                        continue
+                    
+                    # Extract time from result line
+                    marca = ""
+                    time_match = re.search(r'(\d{1,2}:\d{2}\.\d{2})', result_line)
+                    if time_match:
+                        marca = time_match.group(1)
+                    else:
+                        # Try short time format (sprints)
+                        for num_match in re.finditer(r'(?<![\d.:])(\d+\.\d{2})(?![\d.])', result_line):
+                            val = float(num_match.group(1))
+                            if val > 5.0 and val < 60.0:
+                                marca = num_match.group(1)
+                                break
+                    
+                    if not marca:
+                        continue
+                    
+                    # Extract wind
+                    wind = None
+                    wind_match = re.search(r'([+-]\d+\.\d)', result_line)
+                    if wind_match:
+                        wind = wind_match.group(1)
+                    
+                    # Extract license from result line or lines between name and rank
+                    licencia = ""
+                    lic_match = re.search(r'\b(CL\d+|CT[\d\-]+|CAT\-\d+[A\-\.]*|IB\-\d+[A\-\.]*)\b', result_line)
+                    licencia = lic_match.group(1) if lic_match else ""
+                    licencia = re.sub(r'[\.\-]+\s*$', '', licencia)
+                    if not licencia:
+                        # Look in lines between name and rank line
+                        for j in range(i + 1, block_start):
+                            lic_match = re.search(r'\b(CL\d+|CT[\d\-]+|CAT\-\d+[A\-\.]*|IB\-\d+[A\-\.]*)\b', lines[j])
+                            if lic_match:
+                                licencia = lic_match.group(1)
+                                break
+                    if not licencia:
+                        lic_match = re.search(r'\b(CL\d+|CT[\d\-]+|CAT\-\d+[A\-\.]*|IB\-\d+[A\-\.]*)\b', lines[block_start + 1] if block_start + 1 < len(lines) else "")
+                        licencia = lic_match.group(1) if lic_match else ""
+                        licencia = re.sub(r'[\.\-]+\s*$', '', licencia)
+                    
+                    results.append({
+                        "lloc": rank,
+                        "prova": event_name,
+                        "competicio": competicio,
+                        "data": data_comp,
+                        "atleta_nom": name,
+                        "atleta_naixement": bd_match.group(1) if bd_match else "",
+                        "atleta_licencia": licencia,
+                        "marca": marca,
+                        "vent": wind,
+                    })
+                    
+                    # Advance past this entire block
+                    i = block_start + 2
+                    found_block = True
+                    break
+            
+            if not found_block:
+                i += 1
+            continue
         
         i += 1
     
@@ -2268,6 +2327,16 @@ def parse_with_section_aware(text, competicio, data_comp):
             results.extend(combined_results)
             continue
 
+        # Check if this section starts with SUMARIO - if so, skip regular parsing
+        # (SUMARIO sections are handled separately by parse_sumario_section)
+        is_sumario = False
+        for j in range(sec_start, min(sec_start + 20, sec_end)):
+            if 'SUMARIO' in lines[j].upper():
+                is_sumario = True
+                break
+        if is_sumario:
+            continue
+
         # Find CATT athletes in this section
         catt_athletes = find_catt_athletes_in_section(lines, sec_start, sec_end)
         if not catt_athletes:
@@ -2480,6 +2549,72 @@ def main():
 
     results = valid_results
     print(f"\nAfter validation: {len(results)} valid results")
+
+    # Validate results against event type - filter impossible times/marks
+    valid_results = []
+    for r in results:
+        event_type = classify_event(r.get("prova", ""))
+        marca = r.get("marca", "")
+        if not marca or marca in ("DQ", "DNS", "DNF"):
+            valid_results.append(r)
+            continue
+        
+        # Parse the mark value for validation
+        try:
+            if ':' in marca:
+                # HH:MM.ss or MM:SS.ss format
+                parts = marca.split(':')
+                if len(parts) == 2:
+                    seconds = float(parts[0]) * 60 + float(parts[1])
+                elif len(parts) == 3:
+                    seconds = float(parts[0]) * 3600 + float(parts[1]) * 60 + float(parts[2])
+                else:
+                    seconds = None
+            else:
+                seconds = float(marca)
+        except (ValueError, IndexError):
+            seconds = None
+        
+        # Validate based on event type
+        invalid = False
+        if event_type == "track" and seconds is not None:
+            # 60m sprints should be under 15 seconds, middle distance under 300 seconds
+            # If time > 60 seconds, it's likely a wrong event assignment for a sprint
+            event_lower = r.get("prova", "").lower()
+            if '60m' in event_lower and seconds > 15:
+                print(f"  WARNING: Discarding {r['atleta_nom']} {marca} for {r['prova']} - impossible time for 60m", file=sys.stderr)
+                invalid = True
+            elif '100m' in event_lower and seconds > 20:
+                print(f"  WARNING: Discarding {r['atleta_nom']} {marca} for {r['prova']} - impossible time for 100m", file=sys.stderr)
+                invalid = True
+            elif '200m' in event_lower and seconds > 40:
+                print(f"  WARNING: Discarding {r['atleta_nom']} {marca} for {r['prova']} - impossible time for 200m", file=sys.stderr)
+                invalid = True
+            elif '400m' in event_lower and seconds > 120:
+                print(f"  WARNING: Discarding {r['atleta_nom']} {marca} for {r['prova']} - impossible time for 400m", file=sys.stderr)
+                invalid = True
+            elif '800m' in event_lower and seconds > 250:
+                invalid = True
+            elif '1500m' in event_lower or '1.500m' in event_lower and seconds > 500:
+                invalid = True
+        elif event_type == "jump" and seconds is not None:
+            # Jump distances should be reasonable (young athletes can jump very short distances)
+            if seconds < 1.5 or seconds > 20:
+                invalid = True
+        elif event_type == "height" and seconds is not None:
+            # Heights should be 1-7m
+            if seconds < 1 or seconds > 7:
+                invalid = True
+        elif event_type == "field" and seconds is not None:
+            # Field distances should be 3-80m
+            if seconds < 3 or seconds > 80:
+                invalid = True
+        
+        if not invalid:
+            valid_results.append(r)
+    
+    results = valid_results
+    print(f"After event-type validation: {len(results)} valid results")
 
     output = {
         "event_name": full_competicio,

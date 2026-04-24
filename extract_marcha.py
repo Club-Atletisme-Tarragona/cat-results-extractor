@@ -267,12 +267,36 @@ def parse_marcha_line(line):
         result['name'] = re.sub(r'\s+', ' ', name_part).strip()
         result['club'] = club_found
     else:
-        # No known club found - name is the entire before_license
-        result['name'] = re.sub(r'\s+', ' ', before_license).strip()
+        # RFEA format: club may be AFTER the license (Name  Country  DOB  License  Club  Marca)
+        # Search for known club names in after_license
+        club_found_after = None
+        club_pattern_match_after = None
+        for club in known_clubs:
+            cm = re.search(club, after_license, re.IGNORECASE)
+            if cm:
+                club_found_after = cm.group(0)
+                club_pattern_match_after = cm
+                break
+        
+        if club_found_after:
+            # Name is everything before the license (clean up country codes and DOBs)
+            name_part = before_license
+            # Strip DOB first (it comes after country code), then country code
+            name_part = re.sub(r'\s+\d{1,2}/\d{1,2}/\d{2,4}\s*$', '', name_part).strip()
+            name_part = re.sub(r'\s+(ESP|GBR|USA|TUN|FRA|ITA|DEU|PRT|BEL|NLD|IRL|NOR|SWE|DNK|FIN|POL|CZE|HUN|AUT|CHE|GRC|TUR|ISR|MLT|CYP|LUX|SVK|SVN|HRV|BGR|ROU|EST|LVA|LTU|MCO|AND)\s*$', '', name_part).strip()
+            result['name'] = re.sub(r'\s+', ' ', name_part).strip()
+            result['club'] = club_found_after
+        else:
+            # No known club found - name is the entire before_license
+            name_part = before_license
+            # Strip DOB first, then country code
+            name_part = re.sub(r'\s+\d{1,2}/\d{1,2}/\d{2,4}\s*$', '', name_part).strip()
+            name_part = re.sub(r'\s+(ESP|GBR|USA|TUN|FRA|ITA|DEU|PRT|BEL|NLD|IRL|NOR|SWE|DNK|FIN|POL|CZE|HUN|AUT|CHE|GRC|TUR|ISR|MLT|CYP|LUX|SVK|SVN|HRV|BGR|ROU|EST|LVA|LTU|MCO|AND)\s*$', '', name_part).strip()
+            result['name'] = re.sub(r'\s+', ' ', name_part).strip()
 
-    # After license: Time  Pace
+    # After license: Club  Time  (RFEA format: Club before time)
     # Time pattern: MM:SS or HH:MM:SS
-    time_match = re.match(r'(\d+:\d{2}(?::\d{2})?)', after_license)
+    time_match = re.search(r'(\d+:\d{2}(?::\d{2})?)', after_license)
     if time_match:
         result['marca'] = time_match.group(1)
     else:
@@ -476,6 +500,10 @@ def main():
 
     results = deduplicate_results(results)
     print(f"\nAfter deduplication: {len(results)} unique results")
+
+    # Filter out DNS/DQ/DNF entries from final output
+    results = [r for r in results if r.get("marca", "") and r["marca"] not in ("DQ", "DNS", "DNF")]
+    print(f"After filtering DNS/DQ/DNF: {len(results)} valid results")
 
     # Validate results
     valid_results = []

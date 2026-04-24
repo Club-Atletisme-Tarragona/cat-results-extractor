@@ -1,8 +1,8 @@
 {
-  "event_name": " - Pista de Atletismo de El Vendrell",
+  "event_name": "Control Territorial d'Hivern (Tarragona i Terres de l'Ebre) - Pista de Atletismo de El Vendrell",
   "event_date": "21/02/2026",
   "event_location": "El Vendrell",
-  "total_results": 86,
+  "total_results": 123,
   "results": [
     {
       "athlete_name": "JOAN RICH SALAS",
@@ -45,6 +45,14 @@
       "wind": null
     },
     {
+      "athlete_name": "ORIOL GAYA VALLES",
+      "athlete_dob": "26/2/2015",
+      "athlete_id": "CL14915",
+      "performance": "9.60",
+      "discipline": "60m Hombres U12M",
+      "wind": null
+    },
+    {
       "athlete_name": "OLIVIER CASAS MUIÑO",
       "athlete_dob": "10/8/2015",
       "athlete_id": "CL11597",
@@ -61,10 +69,26 @@
       "wind": null
     },
     {
+      "athlete_name": "FABRICIO LEANDRO DEL VALLE SAN…",
+      "athlete_dob": "3/7/2016",
+      "athlete_id": "CAT-3789599",
+      "performance": "DNS",
+      "discipline": "60m Hombres U12M",
+      "wind": null
+    },
+    {
       "athlete_name": "DANIEL LINARES ANTELO",
       "athlete_dob": "10/7/2014",
       "athlete_id": "",
       "performance": "9.08",
+      "discipline": "60m Hombres U14M",
+      "wind": "+0.0"
+    },
+    {
+      "athlete_name": "ERNEST GELLIDA BARRIO",
+      "athlete_dob": "26/8/2014",
+      "athlete_id": "",
+      "performance": "10.29",
       "discipline": "60m Hombres U14M",
       "wind": "+0.0"
     },
@@ -93,6 +117,22 @@
       "wind": null
     },
     {
+      "athlete_name": "PABLO PALACIN ARNAL",
+      "athlete_dob": "17/10/2017",
+      "athlete_id": "CAT-3845335",
+      "performance": "11.20",
+      "discipline": "60m Hombres U8M, U10M",
+      "wind": null
+    },
+    {
+      "athlete_name": "MARCOS BARBERO RUBIO",
+      "athlete_dob": "8/3/2018",
+      "athlete_id": "CAT-3842729",
+      "performance": "11.22",
+      "discipline": "60m Hombres U8M, U10M",
+      "wind": null
+    },
+    {
       "athlete_name": "LUCAS GOMEZ ARTIGAS",
       "athlete_dob": "10/11/2018",
       "athlete_id": "CAT-3843580",
@@ -109,7 +149,7 @@
       "wind": null
     },
     {
-      "athlete_name": "WASIM ABDEL AS SAMAD BOUCHIBANE MOKHTARI",
+      "athlete_name": "WASIM ABDEL AS SAMAD BOUCHIB…",
       "athlete_dob": "12/8/2017",
       "athlete_id": "CAT-3958644",
       "performance": "11.62",
@@ -125,10 +165,10 @@
       "wind": null
     },
     {
-      "athlete_name": "MARCOS BARBERO RUBIO",
-      "athlete_dob": "8/3/2018",
-      "athlete_id": "CAT-3842729",
-      "performance": "11.22",
+      "athlete_name": "MARTIN FECED CAMPO",
+      "athlete_dob": "12/4/2018",
+      "athlete_id": "CAT-3958600",
+      "performance": "11.75",
       "discipline": "60m Hombres U8M, U10M",
       "wind": null
     },
@@ -141,10 +181,26 @@
       "wind": null
     },
     {
+      "athlete_name": "IBAI GARCIA BONET",
+      "athlete_dob": "19/4/2018",
+      "athlete_id": "CAT-3842725",
+      "performance": "12.20",
+      "discipline": "60m Hombres U8M, U10M",
+      "wind": null
+    },
+    {
       "athlete_name": "DAVID BELTRAN GRAU",
       "athlete_dob": "17/11/2018",
       "athlete_id": "CAT-3843750",
       "performance": "13.04",
+      "discipline": "60m Hombres U8M, U10M",
+      "wind": null
+    },
+    {
+      "athlete_name": "WASIM ABDEL AS SAMAD BOUCHIBANE MOKHTARI",
+      "athlete_dob": "12/8/2017",
+      "athlete_id": "CAT-3958644",
+      "performance": "11.62",
       "discipline": "60m Hombres U8M, U10M",
       "wind": null
     },
@@ -165,6 +221,22 @@
       "wind": null
     },
     {
+      "athlete_name": "GERARD BARBER GONZALEZ",
+      "athlete_dob": "24/10/2017",
+      "athlete_id": "CAT-3789597",
+      "performance": "1:18.36",
+      "discipline": "400m Hombres U8M, U10M",
+      "wind": null
+    },
+    {
+      "athlete_name": "SERGI LOPEZ BESSO",
+      "athlete_dob": "26/9/2017",
+      "athlete_id": "CAT-3789593",
+      "performance": "1:23.15",
+      "discipline": "400m Hombres U8M, U10M",
+      "wind": null
+    },
+    {
       "athlete_name": "MARCOS BARBERO RUBIO",
       "athlete_dob": "8/3/2018",
       "athlete_id": "CAT-3842729",
@@ -173,19 +245,83 @@
       "wind": null
     },
     {
+      "athlete_name": "KILIAN PASAMONTES DUARTE",
+      "athlete_dob": "26/6/2018",
+      "athlete_id": "CAT-3879736",
+      "performance": "1:31.60",
+      "discipline": "400m Hombres U8M, U10M",
+      "wind": null
+    },
+    {
+      "athlete_name": "AXEL URPI FONTS",
+      "athlete_dob": "25/4/2018",
+      "athlete_id": "CAT-3847416",
+      "performance": "1:34.09",
+      "discipline": "400m Hombres U8M, U10M",
+      "wind": null
+    },
+    {
+      "athlete_name": "PABLO PALACIN ARNAL",
+      "athlete_dob": "17/10/2017",
+      "athlete_id": "CAT-3845335",
+      "performance": "1:34.62",
+      "discipline": "400m Hombres U8M, U10M",
+      "wind": null
+    },
+    {
+      "athlete_name": "IBAI GARCIA BONET",
+      "athlete_dob": "19/4/2018",
+      "athlete_id": "CAT-3842725",
+      "performance": "1:36.87",
+      "discipline": "400m Hombres U8M, U10M",
+      "wind": null
+    },
+    {
+      "athlete_name": "WASIM ABDEL AS SAMAD BOUCHIB…",
+      "athlete_dob": "12/8/2017",
+      "athlete_id": "CAT-3958644",
+      "performance": "1:41.86",
+      "discipline": "400m Hombres U8M, U10M",
+      "wind": null
+    },
+    {
+      "athlete_name": "LUCAS GOMEZ ARTIGAS",
+      "athlete_dob": "10/11/2018",
+      "athlete_id": "CAT-3843580",
+      "performance": "1:42.46",
+      "discipline": "400m Hombres U8M, U10M",
+      "wind": null
+    },
+    {
+      "athlete_name": "DAVID BELTRAN GRAU",
+      "athlete_dob": "17/11/2018",
+      "athlete_id": "CAT-3843750",
+      "performance": "1:56.39",
+      "discipline": "400m Hombres U8M, U10M",
+      "wind": null
+    },
+    {
+      "athlete_name": "WASIM ABDEL AS SAMAD BOUCHIBANE MOKHTARI",
+      "athlete_dob": "12/8/2017",
+      "athlete_id": "CAT-3958644",
+      "performance": "DNS",
+      "discipline": "400m Hombres U8M, U10M",
+      "wind": null
+    },
+    {
       "athlete_name": "DIDAC MANYE PUJOL",
       "athlete_dob": "6/10/2011",
       "athlete_id": "CL906",
-      "performance": "3:54.53",
-      "discipline": "400m Hombres U8M, U10M",
+      "performance": "54.53",
+      "discipline": "1.000m U16M",
       "wind": null
     },
     {
       "athlete_name": "OLIVIER CASAS MUIÑO",
       "athlete_dob": "10/8/2015",
       "athlete_id": "CL11597",
-      "performance": "7:22.39",
-      "discipline": "400m Hombres U8M, U10M",
+      "performance": "22.39",
+      "discipline": "2.000m U12M",
       "wind": null
     },
     {
@@ -193,7 +329,7 @@
       "athlete_dob": "11/3/2015",
       "athlete_id": "CL11069",
       "performance": "10.91",
-      "discipline": "400m Hombres U8M, U10M",
+      "discipline": "60m vallas (0,50) U12M",
       "wind": null
     },
     {
@@ -201,7 +337,7 @@
       "athlete_dob": "21/4/2016",
       "athlete_id": "CL15055",
       "performance": "12.86",
-      "discipline": "400m Hombres U8M, U10M",
+      "discipline": "60m vallas (0,50) U12M",
       "wind": null
     },
     {
@@ -209,31 +345,135 @@
       "athlete_dob": "10/7/2014",
       "athlete_id": "CAT-3723389",
       "performance": "12.35",
-      "discipline": "400m Hombres U8M, U10M",
-      "wind": null
+      "discipline": "60m vallas (0,84) U14M",
+      "wind": "-2.1"
     },
     {
       "athlete_name": "ERNEST GELLIDA BARRIO",
       "athlete_dob": "26/8/2014",
       "athlete_id": "CL7613",
       "performance": "14.42",
-      "discipline": "400m Hombres U8M, U10M",
-      "wind": null
+      "discipline": "60m vallas (0,84) U14M",
+      "wind": "-2.1"
     },
     {
       "athlete_name": "OSCAR IBAÑEZ RIZO",
       "athlete_dob": "8/12/2011",
       "athlete_id": "CL4160",
       "performance": "11.39",
-      "discipline": "400m Hombres U8M, U10M",
+      "discipline": "60m vallas (0,84) U14M",
+      "wind": "-2.1"
+    },
+    {
+      "athlete_name": "BLAI LLIGADAS TURON",
+      "athlete_dob": "11/3/2015",
+      "athlete_id": "CL11069",
+      "performance": "1.23",
+      "discipline": "Altura U12M",
       "wind": null
     },
     {
       "athlete_name": "ORIOL GAYA VALLES",
       "athlete_dob": "26/2/2015",
       "athlete_id": "CL14915",
-      "performance": "",
-      "discipline": "400m Hombres U8M, U10M",
+      "performance": "1.17",
+      "discipline": "Altura U12M",
+      "wind": null
+    },
+    {
+      "athlete_name": "GERARD BARBER GONZALEZ",
+      "athlete_dob": "24/10/2017",
+      "athlete_id": "CAT-3789597",
+      "performance": "3.20",
+      "discipline": "Longitud U10M",
+      "wind": null
+    },
+    {
+      "athlete_name": "NIL PASCUAL PRATS",
+      "athlete_dob": "16/3/2017",
+      "athlete_id": "CAT-3789538",
+      "performance": "3.17",
+      "discipline": "Longitud U10M",
+      "wind": null
+    },
+    {
+      "athlete_name": "POL VILANOVA ANGLES",
+      "athlete_dob": "1/3/2017",
+      "athlete_id": "CAT-3789595",
+      "performance": "3.03",
+      "discipline": "Longitud U10M",
+      "wind": null
+    },
+    {
+      "athlete_name": "PABLO PALACIN ARNAL",
+      "athlete_dob": "17/10/2017",
+      "athlete_id": "CAT-3845335",
+      "performance": "2.35",
+      "discipline": "Longitud U10M",
+      "wind": null
+    },
+    {
+      "athlete_name": "LUCAS GOMEZ ARTIGAS",
+      "athlete_dob": "10/11/2018",
+      "athlete_id": "CAT-3843580",
+      "performance": "2.34",
+      "discipline": "Longitud U10M",
+      "wind": null
+    },
+    {
+      "athlete_name": "AXEL URPI FONTS",
+      "athlete_dob": "25/4/2018",
+      "athlete_id": "CAT-3847416",
+      "performance": "2.15",
+      "discipline": "Longitud U10M",
+      "wind": null
+    },
+    {
+      "athlete_name": "SERGI LOPEZ BESSO",
+      "athlete_dob": "26/9/2017",
+      "athlete_id": "CAT-3789593",
+      "performance": "2.14",
+      "discipline": "Longitud U10M",
+      "wind": null
+    },
+    {
+      "athlete_name": "MARCOS BARBERO RUBIO",
+      "athlete_dob": "8/3/2018",
+      "athlete_id": "CAT-3842729",
+      "performance": "2.11",
+      "discipline": "Longitud U10M",
+      "wind": null
+    },
+    {
+      "athlete_name": "WASIM ABDEL AS SAMAD BOUCHIBANE MOKHTARI",
+      "athlete_dob": "12/8/2017",
+      "athlete_id": "CAT-3958644",
+      "performance": "2.10",
+      "discipline": "Longitud U10M",
+      "wind": null
+    },
+    {
+      "athlete_name": "IBAI GARCIA BONET",
+      "athlete_dob": "19/4/2018",
+      "athlete_id": "CAT-3842725",
+      "performance": "1.68",
+      "discipline": "Longitud U10M",
+      "wind": null
+    },
+    {
+      "athlete_name": "KILIAN PASAMONTES DUARTE",
+      "athlete_dob": "26/6/2018",
+      "athlete_id": "CAT-3879736",
+      "performance": "1.67",
+      "discipline": "Longitud U10M",
+      "wind": null
+    },
+    {
+      "athlete_name": "BERTA GOMIS BARBERA",
+      "athlete_dob": "2/1/2018",
+      "athlete_id": "CAT-3842708",
+      "performance": "10.74",
+      "discipline": "60m Mujeres U8F, U10F",
       "wind": null
     },
     {
@@ -245,11 +485,27 @@
       "wind": null
     },
     {
+      "athlete_name": "ROCIO TALAVERA CUADRADO",
+      "athlete_dob": "12/12/2017",
+      "athlete_id": "CAT-3843579",
+      "performance": "12.43",
+      "discipline": "60m Mujeres U8F, U10F",
+      "wind": null
+    },
+    {
       "athlete_name": "ELISABETH MASIA URZUA",
       "athlete_dob": "25/12/2018",
       "athlete_id": "CAT-3950520",
       "performance": "12.60",
       "discipline": "60m Mujeres U8F, U10F",
+      "wind": null
+    },
+    {
+      "athlete_name": "ÈLIA BAYÓN FERNÁNDEZ",
+      "athlete_dob": "18/5/2015",
+      "athlete_id": "CAT-3889577",
+      "performance": "9.23",
+      "discipline": "60m Mujeres U12F",
       "wind": null
     },
     {
@@ -277,6 +533,22 @@
       "wind": null
     },
     {
+      "athlete_name": "XENIA GRACIA MARTI",
+      "athlete_dob": "23/8/2016",
+      "athlete_id": "CAT-3842738",
+      "performance": "9.92",
+      "discipline": "60m Mujeres U12F",
+      "wind": null
+    },
+    {
+      "athlete_name": "NOA PASCUAL PRATS",
+      "athlete_dob": "27/2/2015",
+      "athlete_id": "CL10462",
+      "performance": "10.00",
+      "discipline": "60m Mujeres U12F",
+      "wind": null
+    },
+    {
       "athlete_name": "BERTA GARCIA DOMINGUEZ",
       "athlete_dob": "24/6/2016",
       "athlete_id": "CL15061",
@@ -293,26 +565,42 @@
       "wind": null
     },
     {
+      "athlete_name": "CARLOTA FRUTOS MATURANA",
+      "athlete_dob": "18/7/2015",
+      "athlete_id": "CAT-3723407",
+      "performance": "10.58",
+      "discipline": "60m Mujeres U12F",
+      "wind": null
+    },
+    {
+      "athlete_name": "ELENA ALUSTIZA BUENO",
+      "athlete_dob": "29/1/2015",
+      "athlete_id": "CAT-3722106",
+      "performance": "10.61",
+      "discipline": "60m Mujeres U12F",
+      "wind": null
+    },
+    {
+      "athlete_name": "ISONA MASIP SALA",
+      "athlete_dob": "22/9/2016",
+      "athlete_id": "CL15059",
+      "performance": "10.90",
+      "discipline": "60m Mujeres U12F",
+      "wind": null
+    },
+    {
+      "athlete_name": "JULIA MUSTE SANTIAGO",
+      "athlete_dob": "30/9/2015",
+      "athlete_id": "CL14892",
+      "performance": "10.94",
+      "discipline": "60m Mujeres U12F",
+      "wind": null
+    },
+    {
       "athlete_name": "AITANA CASAS MUIÑO",
       "athlete_dob": "28/10/2013",
       "athlete_id": "",
       "performance": "9.33",
-      "discipline": "60m Mujeres U14F",
-      "wind": "+0.6"
-    },
-    {
-      "athlete_name": "AMELI TORRES ARBONES",
-      "athlete_dob": "27/1/2014",
-      "athlete_id": "",
-      "performance": "9.39",
-      "discipline": "60m Mujeres U14F",
-      "wind": "+0.6"
-    },
-    {
-      "athlete_name": "ALBA ESTEVE HOSTALOT",
-      "athlete_dob": "10/11/2013",
-      "athlete_id": "",
-      "performance": "9.47",
       "discipline": "60m Mujeres U14F",
       "wind": "+0.6"
     },
@@ -325,6 +613,14 @@
       "wind": "-0.7"
     },
     {
+      "athlete_name": "AMELI TORRES ARBONES",
+      "athlete_dob": "27/1/2014",
+      "athlete_id": "",
+      "performance": "9.39",
+      "discipline": "60m Mujeres U14F",
+      "wind": "+0.6"
+    },
+    {
       "athlete_name": "CELIA VEGA MARTINEZ",
       "athlete_dob": "3/1/2013",
       "athlete_id": "",
@@ -333,340 +629,12 @@
       "wind": "-0.7"
     },
     {
-      "athlete_name": "ALDARA LINARES ANTELO",
-      "athlete_dob": "7/7/2010",
-      "athlete_id": "",
-      "performance": "8.44",
-      "discipline": "60m Mujeres ABSF",
-      "wind": "+1.4"
-    },
-    {
-      "athlete_name": "STELLA PEREIRA CONTRERAS",
-      "athlete_dob": "11/12/2011",
-      "athlete_id": "",
-      "performance": "8.85",
-      "discipline": "60m Mujeres ABSF",
-      "wind": "+1.4"
-    },
-    {
-      "athlete_name": "ARLET SALDAÑA DURAN",
-      "athlete_dob": "26/10/2012",
-      "athlete_id": "",
-      "performance": "9.98",
-      "discipline": "60m Mujeres ABSF",
-      "wind": "+1.0"
-    },
-    {
-      "athlete_name": "PAULA BLAZQUEZ BENSENY",
-      "athlete_dob": "11/6/2015",
-      "athlete_id": "CAT-3843630",
-      "performance": "8:19.46",
-      "discipline": "60m Mujeres ABSF",
-      "wind": null
-    },
-    {
-      "athlete_name": "ADA FELIU LORCA",
-      "athlete_dob": "7/5/2016",
-      "athlete_id": "CL15054",
-      "performance": "11.93",
-      "discipline": "60m Mujeres ABSF",
-      "wind": null
-    },
-    {
-      "athlete_name": "BERTA GARCIA DOMINGUEZ",
-      "athlete_dob": "24/6/2016",
-      "athlete_id": "CL15061",
-      "performance": "12.46",
-      "discipline": "60m Mujeres ABSF",
-      "wind": null
-    },
-    {
-      "athlete_name": "CARLOTA FRUTOS MATURANA",
-      "athlete_dob": "18/7/2015",
-      "athlete_id": "CAT-3723407",
-      "performance": "12.63",
-      "discipline": "60m Mujeres ABSF",
-      "wind": null
-    },
-    {
-      "athlete_name": "ELENA ALUSTIZA BUENO",
-      "athlete_dob": "29/1/2015",
-      "athlete_id": "CAT-3722106",
-      "performance": "13.90",
-      "discipline": "60m Mujeres ABSF",
-      "wind": null
-    },
-    {
-      "athlete_name": "ISONA MASIP SALA",
-      "athlete_dob": "22/9/2016",
-      "athlete_id": "CL15059",
-      "performance": "13.94",
-      "discipline": "60m Mujeres ABSF",
-      "wind": null
-    },
-    {
-      "athlete_name": "SARA LOPEZ GARCIA",
-      "athlete_dob": "19/1/2015",
-      "athlete_id": "CL11066",
-      "performance": "12.56",
-      "discipline": "60m Mujeres ABSF",
-      "wind": null
-    },
-    {
-      "athlete_name": "JULIA DIEZ BERTRAN",
-      "athlete_dob": "3/2/2014",
-      "athlete_id": "CAT-3790507",
-      "performance": "11.82",
-      "discipline": "60m Mujeres ABSF",
-      "wind": null
-    },
-    {
-      "athlete_name": "CELIA VEGA MARTINEZ",
-      "athlete_dob": "3/1/2013",
-      "athlete_id": "CL7621",
-      "performance": "12.21",
-      "discipline": "60m Mujeres ABSF",
-      "wind": null
-    },
-    {
       "athlete_name": "ALBA ESTEVE HOSTALOT",
       "athlete_dob": "10/11/2013",
-      "athlete_id": "CL4396",
-      "performance": "12.53",
-      "discipline": "60m Mujeres ABSF",
-      "wind": null
-    },
-    {
-      "athlete_name": "BLANCA FRUTOS MATURANA",
-      "athlete_dob": "13/6/2013",
-      "athlete_id": "CAT-3724257",
-      "performance": "13.22",
-      "discipline": "60m Mujeres ABSF",
-      "wind": null
-    },
-    {
-      "athlete_name": "AGUSTINA RAMOS RUSSO",
-      "athlete_dob": "6/1/2012",
       "athlete_id": "",
-      "performance": "8.82",
-      "discipline": "60m Mujeres ABSF",
-      "wind": "+1.0"
-    },
-    {
-      "athlete_name": "ÈLIA BAYÓN FERNÁNDEZ",
-      "athlete_dob": "18/5/2015",
-      "athlete_id": "CAT-3889577-A",
-      "performance": "",
-      "discipline": "60m Mujeres ABSF",
-      "wind": null
-    },
-    {
-      "athlete_name": "JULIA MUSTE SANTIAGO",
-      "athlete_dob": "30/9/2015",
-      "athlete_id": "CL14892",
-      "performance": "",
-      "discipline": "60m Mujeres ABSF",
-      "wind": null
-    },
-    {
-      "athlete_name": "ORIOL GAYA VALLES",
-      "athlete_dob": "26/2/2015",
-      "athlete_id": "",
-      "performance": "9.60",
-      "discipline": "60m Hombres U12M",
-      "wind": null
-    },
-    {
-      "athlete_name": "ERNEST GELLIDA BARRIO",
-      "athlete_dob": "26/8/2014",
-      "athlete_id": "",
-      "performance": "10.29",
-      "discipline": "60m Hombres U14M",
-      "wind": "+0.0"
-    },
-    {
-      "athlete_name": "PABLO PALACIN ARNAL",
-      "athlete_dob": "17/10/2017",
-      "athlete_id": "",
-      "performance": "11.20",
-      "discipline": "60m Hombres U8M, U10M",
-      "wind": null
-    },
-    {
-      "athlete_name": "WASIM ABDEL AS SAMAD BOUCHIB…",
-      "athlete_dob": "12/8/2017",
-      "athlete_id": "",
-      "performance": "11.62",
-      "discipline": "60m Hombres U8M, U10M",
-      "wind": null
-    },
-    {
-      "athlete_name": "MARTIN FECED CAMPO",
-      "athlete_dob": "12/4/2018",
-      "athlete_id": "",
-      "performance": "11.75",
-      "discipline": "60m Hombres U8M, U10M",
-      "wind": null
-    },
-    {
-      "athlete_name": "IBAI GARCIA BONET",
-      "athlete_dob": "19/4/2018",
-      "athlete_id": "",
-      "performance": "12.20",
-      "discipline": "60m Hombres U8M, U10M",
-      "wind": null
-    },
-    {
-      "athlete_name": "GERARD BARBER GONZALEZ",
-      "athlete_dob": "24/10/2017",
-      "athlete_id": "",
-      "performance": "1:18.36",
-      "discipline": "400m Hombres U8M, U10M",
-      "wind": null
-    },
-    {
-      "athlete_name": "SERGI LOPEZ BESSO",
-      "athlete_dob": "26/9/2017",
-      "athlete_id": "",
-      "performance": "1:23.15",
-      "discipline": "400m Hombres U8M, U10M",
-      "wind": null
-    },
-    {
-      "athlete_name": "KILIAN PASAMONTES DUARTE",
-      "athlete_dob": "26/6/2018",
-      "athlete_id": "",
-      "performance": "1:31.60",
-      "discipline": "400m Hombres U8M, U10M",
-      "wind": null
-    },
-    {
-      "athlete_name": "AXEL URPI FONTS",
-      "athlete_dob": "25/4/2018",
-      "athlete_id": "",
-      "performance": "1:34.09",
-      "discipline": "400m Hombres U8M, U10M",
-      "wind": null
-    },
-    {
-      "athlete_name": "PABLO PALACIN ARNAL",
-      "athlete_dob": "17/10/2017",
-      "athlete_id": "",
-      "performance": "1:34.62",
-      "discipline": "400m Hombres U8M, U10M",
-      "wind": null
-    },
-    {
-      "athlete_name": "IBAI GARCIA BONET",
-      "athlete_dob": "19/4/2018",
-      "athlete_id": "",
-      "performance": "1:36.87",
-      "discipline": "400m Hombres U8M, U10M",
-      "wind": null
-    },
-    {
-      "athlete_name": "WASIM ABDEL AS SAMAD BOUCHIB…",
-      "athlete_dob": "12/8/2017",
-      "athlete_id": "",
-      "performance": "1:41.86",
-      "discipline": "400m Hombres U8M, U10M",
-      "wind": null
-    },
-    {
-      "athlete_name": "LUCAS GOMEZ ARTIGAS",
-      "athlete_dob": "10/11/2018",
-      "athlete_id": "",
-      "performance": "1:42.46",
-      "discipline": "400m Hombres U8M, U10M",
-      "wind": null
-    },
-    {
-      "athlete_name": "DAVID BELTRAN GRAU",
-      "athlete_dob": "17/11/2018",
-      "athlete_id": "",
-      "performance": "1:56.39",
-      "discipline": "400m Hombres U8M, U10M",
-      "wind": null
-    },
-    {
-      "athlete_name": "MARTIN FECED CAMPO",
-      "athlete_dob": "12/4/2018",
-      "athlete_id": "",
-      "performance": "2:00.28",
-      "discipline": "400m Hombres U8M, U10M",
-      "wind": null
-    },
-    {
-      "athlete_name": "BERTA GOMIS BARBERA",
-      "athlete_dob": "2/1/2018",
-      "athlete_id": "",
-      "performance": "10.74",
-      "discipline": "60m Mujeres U8F, U10F",
-      "wind": null
-    },
-    {
-      "athlete_name": "ROCIO TALAVERA CUADRADO",
-      "athlete_dob": "12/12/2017",
-      "athlete_id": "",
-      "performance": "12.43",
-      "discipline": "60m Mujeres U8F, U10F",
-      "wind": null
-    },
-    {
-      "athlete_name": "ÈLIA BAYÓN FERNÁNDEZ",
-      "athlete_dob": "18/5/2015",
-      "athlete_id": "",
-      "performance": "9.23",
-      "discipline": "60m Mujeres U12F",
-      "wind": null
-    },
-    {
-      "athlete_name": "XENIA GRACIA MARTI",
-      "athlete_dob": "23/8/2016",
-      "athlete_id": "",
-      "performance": "9.92",
-      "discipline": "60m Mujeres U12F",
-      "wind": null
-    },
-    {
-      "athlete_name": "NOA PASCUAL PRATS",
-      "athlete_dob": "27/2/2015",
-      "athlete_id": "",
-      "performance": "10.00",
-      "discipline": "60m Mujeres U12F",
-      "wind": null
-    },
-    {
-      "athlete_name": "CARLOTA FRUTOS MATURANA",
-      "athlete_dob": "18/7/2015",
-      "athlete_id": "",
-      "performance": "10.58",
-      "discipline": "60m Mujeres U12F",
-      "wind": null
-    },
-    {
-      "athlete_name": "ELENA ALUSTIZA BUENO",
-      "athlete_dob": "29/1/2015",
-      "athlete_id": "",
-      "performance": "10.61",
-      "discipline": "60m Mujeres U12F",
-      "wind": null
-    },
-    {
-      "athlete_name": "ISONA MASIP SALA",
-      "athlete_dob": "22/9/2016",
-      "athlete_id": "",
-      "performance": "10.90",
-      "discipline": "60m Mujeres U12F",
-      "wind": null
-    },
-    {
-      "athlete_name": "JULIA MUSTE SANTIAGO",
-      "athlete_dob": "30/9/2015",
-      "athlete_id": "",
-      "performance": "10.94",
-      "discipline": "60m Mujeres U12F",
-      "wind": null
+      "performance": "9.47",
+      "discipline": "60m Mujeres U14F",
+      "wind": "+0.6"
     },
     {
       "athlete_name": "ERIKA MARGALLO DEL VALLE",
@@ -691,6 +659,334 @@
       "performance": "8.42",
       "discipline": "60m Mujeres ABSF",
       "wind": "+1.4"
+    },
+    {
+      "athlete_name": "ALDARA LINARES ANTELO",
+      "athlete_dob": "7/7/2010",
+      "athlete_id": "",
+      "performance": "8.44",
+      "discipline": "60m Mujeres ABSF",
+      "wind": "+1.4"
+    },
+    {
+      "athlete_name": "AGUSTINA RAMOS RUSSO",
+      "athlete_dob": "6/1/2012",
+      "athlete_id": "",
+      "performance": "8.82",
+      "discipline": "60m Mujeres ABSF",
+      "wind": "+1.0"
+    },
+    {
+      "athlete_name": "STELLA PEREIRA CONTRERAS",
+      "athlete_dob": "11/12/2011",
+      "athlete_id": "",
+      "performance": "8.85",
+      "discipline": "60m Mujeres ABSF",
+      "wind": "+1.4"
+    },
+    {
+      "athlete_name": "ARLET SALDAÑA DURAN",
+      "athlete_dob": "26/10/2012",
+      "athlete_id": "",
+      "performance": "9.98",
+      "discipline": "60m Mujeres ABSF",
+      "wind": "+1.0"
+    },
+    {
+      "athlete_name": "EVA JACOB GARCIA",
+      "athlete_dob": "30/6/2012",
+      "athlete_id": "CL7254",
+      "performance": "DNS",
+      "discipline": "60m Mujeres ABSF",
+      "wind": null
+    },
+    {
+      "athlete_name": "ADA NIN NAVAS",
+      "athlete_dob": "24/10/2012",
+      "athlete_id": "CL1495",
+      "performance": "DNS",
+      "discipline": "60m Mujeres ABSF",
+      "wind": null
+    },
+    {
+      "athlete_name": "BERTA GOMIS BARBERA",
+      "athlete_dob": "2/1/2018",
+      "athlete_id": "",
+      "performance": "1:26.95",
+      "discipline": "400m U8F, U10F",
+      "wind": null
+    },
+    {
+      "athlete_name": "ALBA MESEGUE SANCHEZ",
+      "athlete_dob": "7/3/2017",
+      "athlete_id": "CAT-3842695",
+      "performance": "31.27",
+      "discipline": "400m U8F, U10F",
+      "wind": null
+    },
+    {
+      "athlete_name": "ALBA MESEGUE SANCHEZ",
+      "athlete_dob": "7/3/2017",
+      "athlete_id": "",
+      "performance": "1:30.99",
+      "discipline": "400m U8F, U10F",
+      "wind": null
+    },
+    {
+      "athlete_name": "ELISABETH MASIA URZUA",
+      "athlete_dob": "25/12/2018",
+      "athlete_id": "",
+      "performance": "1:45.46",
+      "discipline": "400m U8F, U10F",
+      "wind": null
+    },
+    {
+      "athlete_name": "ROCIO TALAVERA CUADRADO",
+      "athlete_dob": "12/12/2017",
+      "athlete_id": "",
+      "performance": "1:52.16",
+      "discipline": "400m U8F, U10F",
+      "wind": null
+    },
+    {
+      "athlete_name": "PAULA BLAZQUEZ BENSENY",
+      "athlete_dob": "11/6/2015",
+      "athlete_id": "CAT-3843630",
+      "performance": "19.46",
+      "discipline": "2.000m U12F",
+      "wind": null
+    },
+    {
+      "athlete_name": "ÈLIA BAYÓN FERNÁNDEZ",
+      "athlete_dob": "18/5/2015",
+      "athlete_id": "",
+      "performance": "10.82",
+      "discipline": "60m vallas (0,50) U12F",
+      "wind": null
+    },
+    {
+      "athlete_name": "MONTSERRAT MARQUES CRUZ",
+      "athlete_dob": "27/1/2015",
+      "athlete_id": "",
+      "performance": "11.03",
+      "discipline": "60m vallas (0,50) U12F",
+      "wind": null
+    },
+    {
+      "athlete_name": "ADA FELIU LORCA",
+      "athlete_dob": "7/5/2016",
+      "athlete_id": "CL15054",
+      "performance": "11.93",
+      "discipline": "60m vallas (0,50) U12F",
+      "wind": null
+    },
+    {
+      "athlete_name": "BERTA GARCIA DOMINGUEZ",
+      "athlete_dob": "24/6/2016",
+      "athlete_id": "CL15061",
+      "performance": "12.46",
+      "discipline": "60m vallas (0,50) U12F",
+      "wind": null
+    },
+    {
+      "athlete_name": "SARA LOPEZ GARCIA",
+      "athlete_dob": "19/1/2015",
+      "athlete_id": "CL11066",
+      "performance": "12.56",
+      "discipline": "60m vallas (0,50) U12F",
+      "wind": null
+    },
+    {
+      "athlete_name": "CARLOTA FRUTOS MATURANA",
+      "athlete_dob": "18/7/2015",
+      "athlete_id": "CAT-3723407",
+      "performance": "12.63",
+      "discipline": "60m vallas (0,50) U12F",
+      "wind": null
+    },
+    {
+      "athlete_name": "PAULA BLAZQUEZ BENSENY",
+      "athlete_dob": "11/6/2015",
+      "athlete_id": "CAT-3843630",
+      "performance": "12.69",
+      "discipline": "60m vallas (0,50) U12F",
+      "wind": null
+    },
+    {
+      "athlete_name": "ELENA ALUSTIZA BUENO",
+      "athlete_dob": "29/1/2015",
+      "athlete_id": "CAT-3722106",
+      "performance": "13.90",
+      "discipline": "60m vallas (0,50) U12F",
+      "wind": null
+    },
+    {
+      "athlete_name": "ISONA MASIP SALA",
+      "athlete_dob": "22/9/2016",
+      "athlete_id": "CL15059",
+      "performance": "13.94",
+      "discipline": "60m vallas (0,50) U12F",
+      "wind": null
+    },
+    {
+      "athlete_name": "AMELI TORRES ARBONES",
+      "athlete_dob": "27/1/2014",
+      "athlete_id": "",
+      "performance": "11.64",
+      "discipline": "60m vallas (0,762)U14F",
+      "wind": "-1.6"
+    },
+    {
+      "athlete_name": "JULIA DIEZ BERTRAN",
+      "athlete_dob": "3/2/2014",
+      "athlete_id": "",
+      "performance": "11.82",
+      "discipline": "60m vallas (0,762)U14F",
+      "wind": "-2.1"
+    },
+    {
+      "athlete_name": "CELIA VEGA MARTINEZ",
+      "athlete_dob": "3/1/2013",
+      "athlete_id": "",
+      "performance": "12.21",
+      "discipline": "60m vallas (0,762)U14F",
+      "wind": "-2.1"
+    },
+    {
+      "athlete_name": "ALBA ESTEVE HOSTALOT",
+      "athlete_dob": "10/11/2013",
+      "athlete_id": "",
+      "performance": "12.53",
+      "discipline": "60m vallas (0,762)U14F",
+      "wind": "-2.1"
+    },
+    {
+      "athlete_name": "ERIKA MARGALLO DEL VALLE",
+      "athlete_dob": "27/11/2014",
+      "athlete_id": "",
+      "performance": "13.17",
+      "discipline": "60m vallas (0,762)U14F",
+      "wind": "-2.1"
+    },
+    {
+      "athlete_name": "BLANCA FRUTOS MATURANA",
+      "athlete_dob": "13/6/2013",
+      "athlete_id": "",
+      "performance": "13.22",
+      "discipline": "60m vallas (0,762)U14F",
+      "wind": "-1.6"
+    },
+    {
+      "athlete_name": "AGUSTINA RAMOS RUSSO",
+      "athlete_dob": "6/1/2012",
+      "athlete_id": "CL1088",
+      "performance": "12.76",
+      "discipline": "60m vallas (0,762) U16F U18F",
+      "wind": "-1.4"
+    },
+    {
+      "athlete_name": "ARLET SALDAÑA DURAN",
+      "athlete_dob": "26/10/2012",
+      "athlete_id": "CAT-3843668",
+      "performance": "13.46",
+      "discipline": "60m vallas (0,762) U16F U18F",
+      "wind": "-1.4"
+    },
+    {
+      "athlete_name": "SARA LOPEZ GARCIA",
+      "athlete_dob": "19/1/2015",
+      "athlete_id": "CL11066",
+      "performance": "1.12",
+      "discipline": "Altura U12F",
+      "wind": null
+    },
+    {
+      "athlete_name": "PAULA BLAZQUEZ BENSENY",
+      "athlete_dob": "11/6/2015",
+      "athlete_id": "CAT-3843630-A",
+      "performance": "1.07",
+      "discipline": "Altura U12F",
+      "wind": null
+    },
+    {
+      "athlete_name": "ÈLIA BAYÓN FERNÁNDEZ",
+      "athlete_dob": "18/5/2015",
+      "athlete_id": "CAT-3889577-A",
+      "performance": "1.02",
+      "discipline": "Altura U12F",
+      "wind": null
+    },
+    {
+      "athlete_name": "JULIA MUSTE SANTIAGO",
+      "athlete_dob": "30/9/2015",
+      "athlete_id": "CL14892",
+      "performance": "1.02",
+      "discipline": "Altura U12F",
+      "wind": null
+    },
+    {
+      "athlete_name": "BERTA GOMIS BARBERA",
+      "athlete_dob": "2/1/2018",
+      "athlete_id": "CAT-3842708",
+      "performance": "2.42",
+      "discipline": "Longitud U10F",
+      "wind": null
+    },
+    {
+      "athlete_name": "ALBA MESEGUE SANCHEZ",
+      "athlete_dob": "7/3/2017",
+      "athlete_id": "CAT-3842695",
+      "performance": "2.22",
+      "discipline": "Longitud U10F",
+      "wind": null
+    },
+    {
+      "athlete_name": "ROCIO TALAVERA CUADRADO",
+      "athlete_dob": "12/12/2017",
+      "athlete_id": "CAT-3843579",
+      "performance": "2.19",
+      "discipline": "Longitud U10F",
+      "wind": null
+    },
+    {
+      "athlete_name": "ELISABETH MASIA URZUA",
+      "athlete_dob": "25/12/2018",
+      "athlete_id": "CAT-3950520",
+      "performance": "1.79",
+      "discipline": "Longitud U10F",
+      "wind": null
+    },
+    {
+      "athlete_name": "JULIA DIEZ BERTRAN",
+      "athlete_dob": "3/2/2014",
+      "athlete_id": "CAT-3790507",
+      "performance": "8.28",
+      "discipline": "Triple Salto U14F",
+      "wind": "-2.5"
+    },
+    {
+      "athlete_name": "ERIKA MARGALLO DEL VALLE",
+      "athlete_dob": "27/11/2014",
+      "athlete_id": "CL15267",
+      "performance": "8.09",
+      "discipline": "Triple Salto U14F",
+      "wind": "-0.2"
+    },
+    {
+      "athlete_name": "ALBA ESTEVE HOSTALOT",
+      "athlete_dob": "10/11/2013",
+      "athlete_id": "CL4396",
+      "performance": "7.88",
+      "discipline": "Triple Salto U14F",
+      "wind": "-1.8"
+    },
+    {
+      "athlete_name": "CELIA VEGA MARTINEZ",
+      "athlete_dob": "3/1/2013",
+      "athlete_id": "CL7621",
+      "performance": "7.73",
+      "discipline": "Triple Salto U14F",
+      "wind": "-1.9"
     }
   ]
 }

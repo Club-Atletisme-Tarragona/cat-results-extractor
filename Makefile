@@ -6,7 +6,7 @@ help:
 	@echo "Targets:"
 	@echo "  make process/all              Process all PDFs from federació XLS"
 	@echo "  make extract/remote URL=<>     Download and extract a remote PDF"
-	@echo "  make extract file=<>           Extract from a local PDF"
+	@echo "  make extract FILE=<>           Extract from a local PDF"
 
 process/all:
 	python3 process_all.py
@@ -30,7 +30,7 @@ endif
 
 extract:
 ifndef FILE
-	$(error Usage: make extract file=<local_pdf_path>)
+	$(error Usage: make extract FILE=<local_pdf_path>)
 endif
 	python3 extract_catt.py "$(FILE)" && \
 	JSON=$$(echo "$(FILE)" | sed 's/\.pdf$$/.json/') && \

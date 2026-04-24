@@ -55,7 +55,7 @@ Use `pdftotext -layout` to extract text from PDFs, preserving the visual layout.
 
 The competition header is parsed from the first 30 lines of the PDF:
 
-- **Competicio**: First line containing both "Jornada" and "Campionat", or first line with just "Campionat" (fallback for PDFs without "Jornada")
+- **Competicio**: First line containing both "Jornada" and "Campionat"/"Campeonato", or first line with just "Campionat"/"Campeonato" (fallback for PDFs without "Jornada")
 - **Ubicacio**: First line containing "Estadi", "Pista", "Pabellon", or "Pabellón"
 - **Localitat**: Non-empty line between the competition name/venue and the date (DD/MM/YYYY), excluding competition name and venue lines
 - **Data**: First `DD/MM/YYYY` pattern found in the first 30 lines
@@ -222,6 +222,20 @@ The JSON output has this structure:
   ]
 }
 ```
+
+## Output Validation
+
+Every result entry in the JSON output MUST have all three required fields populated (non-empty strings):
+
+1. **athlete_name**: The athlete's name (non-empty)
+2. **performance**: The result value (time, distance, points - non-empty)
+3. **discipline**: The event name (non-empty)
+
+Before writing the JSON output, validate each entry. If any of these fields is empty or missing:
+- **Do NOT include** the entry in the output JSON
+- **Print a warning** to stderr identifying the problematic entry
+
+This prevents exporting incomplete/broken results. Warnings help identify extraction issues that need fixing in the parsing logic.
 
 ## Skip Labels
 

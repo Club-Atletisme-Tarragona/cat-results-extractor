@@ -1,7 +1,24 @@
 {
-  "event_name": " - Estadio Joan Serrahima",
+  "event_name": "3ª Jornada Llançaments Llargs d'Hivern Sub14-16 - Estadio Joan Serrahima",
   "event_date": "25/01/2026",
   "event_location": "Barcelona-SE",
-  "total_results": 0,
-  "results": []
+  "total_results": 2,
+  "results": [
+    {
+      "athlete_name": "ADA NIN NAVAS",
+      "athlete_dob": "24/10/2012",
+      "athlete_id": "CL1495",
+      "performance": "21.00",
+      "discipline": "Disc (800g) SUB16 F",
+      "wind": null
+    },
+    {
+      "athlete_name": "ADA NIN NAVAS",
+      "athlete_dob": "24/10/2012",
+      "athlete_id": "CL1495",
+      "performance": "16.73",
+      "discipline": "Javelina (500g) SUB16 F",
+      "wind": null
+    }
+  ]
 }

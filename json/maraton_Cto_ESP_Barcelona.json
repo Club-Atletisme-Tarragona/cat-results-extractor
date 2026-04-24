@@ -1,7 +1,40 @@
 {
-  "event_name": "",
+  "event_name": "Campeonato de España de Maratón Absoluto y Master",
   "event_date": "15/03/2026",
   "event_location": "BARCELONA",
-  "total_results": 0,
-  "results": []
+  "total_results": 4,
+  "results": [
+    {
+      "athlete_name": "JESUS GELLIDA ALBIOL",
+      "athlete_dob": "21/6/1980",
+      "athlete_id": "CL3135",
+      "performance": "2:47:53",
+      "discipline": "Maratón Hombres M45",
+      "wind": null
+    },
+    {
+      "athlete_name": "JESUS GELLIDA ALBIOL",
+      "athlete_dob": "21/6/1980",
+      "athlete_id": "CL3135",
+      "performance": "2:47:53",
+      "discipline": "Maratón Master Hombres Clubes",
+      "wind": null
+    },
+    {
+      "athlete_name": "MARIA BERTRAN SASTRE",
+      "athlete_dob": "29/11/1987",
+      "athlete_id": "CAT-3892415",
+      "performance": "DNS",
+      "discipline": "Maratón Mujeres F35",
+      "wind": null
+    },
+    {
+      "athlete_name": "MARIA BERTRAN SASTRE",
+      "athlete_dob": "29/11/1987",
+      "athlete_id": "CAT-3892415",
+      "performance": "DNS",
+      "discipline": "Maratón Master Mujeres Clubes",
+      "wind": null
+    }
+  ]
 }

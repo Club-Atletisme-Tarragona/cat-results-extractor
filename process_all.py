@@ -266,7 +266,7 @@ def main():
     print(f"  Nous JSONs:      {len(new_jsons)}")
 
     # Commit i push
-    commit_and_push(new_jsons)
+    #commit_and_push(new_jsons)
 
     print("\nDone!")
 

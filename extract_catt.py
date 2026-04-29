@@ -2568,6 +2568,7 @@ def main():
         sys.exit(1)
 
     pdf_path = sys.argv[1]
+    source_url = sys.argv[2] if len(sys.argv) > 2 else ""
     base = os.path.splitext(pdf_path)[0]
     output_path = base + ".json"
 
@@ -2685,11 +2686,16 @@ def main():
     results = valid_results
     print(f"After event-type validation: {len(results)} valid results")
 
+    if not results:
+        print("No results found for CATT athletes. Skipping JSON export.")
+        return
+
     output = {
         "event_name": full_competicio,
         "event_date": data,
         "event_location": localitat,
         "total_results": len(results),
+        "event_src": source_url if source_url else os.path.abspath(pdf_path),
         "results": []
     }
 

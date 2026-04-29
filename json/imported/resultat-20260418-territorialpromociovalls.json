@@ -2,7 +2,8 @@
   "event_name": "2ª Jornada Campionat Territorial Promoció Tarragona i Terres de l'Ebre - Pista de atletisme Marta Galimany",
   "event_date": "18/04/2026",
   "event_location": "Valls",
-  "total_results": 145,
+  "total_results": 134,
+  "event_src": "/tmp/tmpgd9nz2vb/resultat-20260418-territorialpromociovalls.pdf",
   "results": [
     {
       "athlete_name": "POL AIXALA GUIU",
@@ -25,14 +26,6 @@
       "athlete_dob": "10/4/2011",
       "athlete_id": "CL94395",
       "performance": "12.10",
-      "discipline": "100m Hombres",
-      "wind": "-3.6"
-    },
-    {
-      "athlete_name": "UNAI OLAYA MINGUEZ",
-      "athlete_dob": "27/7/2009",
-      "athlete_id": "CAT-3895024-A",
-      "performance": "DNS",
       "discipline": "100m Hombres",
       "wind": "-3.6"
     },
@@ -241,22 +234,6 @@
       "athlete_dob": "17/11/2018",
       "athlete_id": "CAT-3843750",
       "performance": "1:48.55",
-      "discipline": "400m Hombres",
-      "wind": null
-    },
-    {
-      "athlete_name": "MARCOS BARBERO RUBIO",
-      "athlete_dob": "8/3/2018",
-      "athlete_id": "CAT-3842729-A",
-      "performance": "DNS",
-      "discipline": "400m Hombres",
-      "wind": null
-    },
-    {
-      "athlete_name": "MARTI PALLARES RAMIREZ",
-      "athlete_dob": "19/10/2018",
-      "athlete_id": "CAT-3843583-A",
-      "performance": "DNS",
       "discipline": "400m Hombres",
       "wind": null
     },
@@ -541,38 +518,6 @@
       "wind": "-3.9"
     },
     {
-      "athlete_name": "AGUSTINA RAMOS RUSSO",
-      "athlete_dob": "6/1/2012",
-      "athlete_id": "CL1088",
-      "performance": "DNS",
-      "discipline": "100m Mujeres",
-      "wind": "-3.9"
-    },
-    {
-      "athlete_name": "ARLET SOLANA VILA",
-      "athlete_dob": "13/3/2012",
-      "athlete_id": "CL11154",
-      "performance": "DNS",
-      "discipline": "100m Mujeres",
-      "wind": "-3.9"
-    },
-    {
-      "athlete_name": "CRISTINA REVILLA DE CASTRO",
-      "athlete_dob": "28/1/2008",
-      "athlete_id": "CAT-3927662-A",
-      "performance": "DNS",
-      "discipline": "100m Mujeres",
-      "wind": "-3.9"
-    },
-    {
-      "athlete_name": "MARIA MARTIN CUADRADO",
-      "athlete_dob": "1/5/2012",
-      "athlete_id": "CL1089",
-      "performance": "DNS",
-      "discipline": "100m Mujeres",
-      "wind": "-3.9"
-    },
-    {
       "athlete_name": "MONTSERRAT MARQUES CRUZ",
       "athlete_dob": "27/1/2015",
       "athlete_id": "CL11596",
@@ -749,14 +694,6 @@
       "wind": null
     },
     {
-      "athlete_name": "INDIA MARTIN CUADRADO",
-      "athlete_dob": "4/4/2014",
-      "athlete_id": "CL7608",
-      "performance": "DNS",
-      "discipline": "150mMujeres AL",
-      "wind": null
-    },
-    {
       "athlete_name": "ARLET SOLANA VILA",
       "athlete_dob": "13/3/2012",
       "athlete_id": "CL11154",
@@ -769,14 +706,6 @@
       "athlete_dob": "6/1/2012",
       "athlete_id": "CL1088",
       "performance": "46.77",
-      "discipline": "300m Mujeres",
-      "wind": null
-    },
-    {
-      "athlete_name": "CAROLINA PEÑA MORALES",
-      "athlete_dob": "30/1/2012",
-      "athlete_id": "CAT-3790117-A",
-      "performance": "DNS",
       "discipline": "300m Mujeres",
       "wind": null
     },
@@ -817,22 +746,6 @@
       "athlete_dob": "12/12/2017",
       "athlete_id": "CAT-3843579",
       "performance": "1:40.12",
-      "discipline": "400m Mujeres",
-      "wind": null
-    },
-    {
-      "athlete_name": "IRINA ZUBKOVA",
-      "athlete_dob": "13/12/2018",
-      "athlete_id": "CAT-3864978-A",
-      "performance": "DNS",
-      "discipline": "400m Mujeres",
-      "wind": null
-    },
-    {
-      "athlete_name": "BLAU GALCERA SOCIAS",
-      "athlete_dob": "24/3/2018",
-      "athlete_id": "CAT-3864979-A",
-      "performance": "DNS",
       "discipline": "400m Mujeres",
       "wind": null
     },

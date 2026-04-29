@@ -658,6 +658,10 @@ def main():
     results = valid_results
     print(f"\nAfter validation: {len(results)} valid results")
 
+    if not results:
+        print("No results found. Skipping JSON export.")
+        return
+
     # Build output JSON
     output = {
         "event_name": full_competicio,

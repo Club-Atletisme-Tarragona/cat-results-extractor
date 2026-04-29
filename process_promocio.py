@@ -30,7 +30,28 @@ PAGES = [
 PDF_DIR = "pdfs/promocio_2008_2009"
 JSON_DIR_2008 = "json/promocio/2008"
 JSON_DIR_2009 = "json/promocio/2009"
-TRACKING_FILE = "json/promocio/_tracking.json"
+TRACKING_FILE = "track-promocio.json"
+
+
+def load_tracking():
+    """Load tracking file and return set of already processed URLs."""
+    processed = set()
+    if os.path.exists(TRACKING_FILE):
+        try:
+            with open(TRACKING_FILE, "r") as f:
+                data = json.load(f)
+            for url in data.get("success", []):
+                if url:
+                    processed.add(url)
+        except (json.JSONDecodeError, KeyError):
+            pass
+    return processed
+
+
+def save_tracking(tracking):
+    """Save tracking file."""
+    with open(TRACKING_FILE, "w") as f:
+        json.dump(tracking, f, indent=2, ensure_ascii=False)
 
 
 def fetch_url(url):
@@ -134,6 +155,10 @@ def main():
     os.makedirs(JSON_DIR_2008, exist_ok=True)
     os.makedirs(JSON_DIR_2009, exist_ok=True)
     
+    # Load tracking
+    loaded = load_tracking()
+    print(f"\nTracking carregat: {len(loaded)} URLs processades")
+    
     # Collect all PDF URLs from all pages
     all_pdf_urls = set()
     
@@ -154,12 +179,28 @@ def main():
     
     # Process each PDF
     tracking = {"success": [], "fail": [], "no_cat_results": []}
+    # Retain already processed URLs from existing tracking file
+    if os.path.exists(TRACKING_FILE):
+        try:
+            with open(TRACKING_FILE, "r") as f:
+                old_tracking = json.load(f)
+            tracking["success"] = list(old_tracking.get("success", []))
+            tracking["fail"] = list(old_tracking.get("fail", []))
+            tracking["no_cat_results"] = list(old_tracking.get("no_cat_results", []))
+        except (json.JSONDecodeError, KeyError):
+            pass
+    
     stats = {"total": 0, "downloaded": 0, "processed": 0, "with_results": 0, "errors": 0}
     results_by_year = {}
     
     for i, pdf_url in enumerate(sorted(all_pdf_urls), 1):
         print(f"\n[{i}/{len(all_pdf_urls)}] {pdf_url}")
         stats["total"] += 1
+        
+        # Check if already processed (from tracking)
+        if pdf_url in loaded:
+            print(f"  Saltat (ja processat - tracking)")
+            continue
         
         # Determine year from URL
         year = extract_date_from_url(pdf_url)
@@ -189,6 +230,8 @@ def main():
             results_by_year[year] = results_by_year.get(year, 0) + num_results
             print(f"  Found {num_results} CATT results!")
             tracking["success"].append(pdf_url)
+            # Add to loaded so we don't re-check
+            loaded.add(pdf_url)
         else:
             print(f"  No CATT athletes found")
             tracking["no_cat_results"].append(pdf_url)
@@ -203,9 +246,7 @@ def main():
         "total_results": sum(results_by_year.values()) if results_by_year else 0,
     }
     
-    os.makedirs(os.path.dirname(TRACKING_FILE), exist_ok=True)
-    with open(TRACKING_FILE, 'w') as f:
-        json.dump(tracking, f, indent=2, ensure_ascii=False)
+    save_tracking(tracking)
     
     # Summary
     print("\n" + "=" * 60)

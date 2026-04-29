@@ -2,7 +2,8 @@
   "event_name": "1a Jornada Campionat Catalunya Clubs 2026 grup \"B\" - Estadi Muncipal Josep Molins",
   "event_date": "11/04/2026",
   "event_location": "Sabadell",
-  "total_results": 51,
+  "total_results": 50,
+  "event_src": "/tmp/tmpgd9nz2vb/resultat-20260411-catclubsalbsabadell.pdf",
   "results": [
     {
       "athlete_name": "ISMAEL VALLES FERNANDEZ",
@@ -73,14 +74,6 @@
       "athlete_dob": "23/10/1998",
       "athlete_id": "CAT-3791853",
       "performance": "15.18",
-      "discipline": "110m vallas Hombres",
-      "wind": "-1.9"
-    },
-    {
-      "athlete_name": "PAU ESTEVE HOSTALOT",
-      "athlete_dob": "27/8/2010",
-      "athlete_id": "CL94383",
-      "performance": "DNS",
       "discipline": "110m vallas Hombres",
       "wind": "-1.9"
     },
@@ -255,7 +248,7 @@
     {
       "athlete_name": "CLAUDIA MIR CASELLAS",
       "athlete_dob": "2/8/2003",
-      "athlete_id": "",
+      "athlete_id": "CT152",
       "performance": "59.79",
       "discipline": "400m Mujeres",
       "wind": null

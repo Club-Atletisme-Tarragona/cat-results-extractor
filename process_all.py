@@ -26,6 +26,12 @@ import sys
 import tempfile
 from datetime import datetime
 
+
+def log(msg):
+    """Print a log message with timestamp [YYYY-MM-DD HH:ii]."""
+    ts = datetime.now().strftime("[%Y-%m-%d %H:%M]")
+    print(f"{ts} {msg}")
+
 XLS_URL = "https://fcatletisme.cat/export/Competicions.xls"
 JSON_DIR = "json"
 TRACKING_FILE = "track-catt.json"
@@ -66,23 +72,29 @@ def load_tracking():
 
 
 def save_tracking(tracking):
-    """Save tracking file."""
+    """Save tracking file, removing duplicates."""
+    deduped = {
+        "success": list(dict.fromkeys(tracking.get("success", []))),
+        "fail": list(dict.fromkeys(tracking.get("fail", []))),
+        "no_cat_results": list(dict.fromkeys(tracking.get("no_cat_results", []))),
+    }
     with open(TRACKING_FILE, "w") as f:
-        json.dump(tracking, f, indent=2, ensure_ascii=False)
+        json.dump(deduped, f, indent=2, ensure_ascii=False)
 
 
 def download_xls():
     """Descarrega l'XLS de competicions."""
-    print("Descarregant XLS de competicions...")
+    log("Descarregant XLS de competicions...")
+    log(f"  URL: {XLS_URL}")
     result = subprocess.run(
         ["curl", "-sL", XLS_URL, "-o", "Competicions.xls"],
         capture_output=True,
         text=True,
     )
     if result.returncode != 0:
-        print(f"Error descarregant XLS: {result.stderr[:200]}", file=sys.stderr)
+        log(f"Error descarregant XLS: {result.stderr[:200]}")
         sys.exit(1)
-    print("  XLS descarregat correctament.")
+    log("  XLS descarregat correctament.")
 
 
 def read_xls_results():
@@ -90,10 +102,7 @@ def read_xls_results():
     try:
         import xlrd
     except ImportError:
-        print(
-            "Error: xlrd no està instal·lat. Instal·la'l amb: pip install xlrd",
-            file=sys.stderr,
-        )
+        log("Error: xlrd no està instal·lat. Instal·la'l amb: pip install xlrd")
         sys.exit(1)
 
     wb = xlrd.open_workbook("Competicions.xls")
@@ -106,7 +115,7 @@ def read_xls_results():
         if url:
             results.append((url, titol))
 
-    print(f"  Trobades {len(results)} competicions amb resultats.")
+    log(f"  Trobades {len(results)} competicions amb resultats.")
     return results
 
 
@@ -163,7 +172,7 @@ def process_pdf(pdf_path, json_path, source_url=""):
         timeout=120,
     )
     if result.returncode != 0:
-        print(f"    Error processant PDF: {result.stderr[:200]}")
+        log(f"    Error processant PDF: {result.stderr[:200]}")
         return False
     if not os.path.exists(json_path):
         return False
@@ -191,7 +200,7 @@ def process_marcha(pdf_path, json_path, source_url=""):
         timeout=120,
     )
     if result.returncode != 0:
-        print(f"    Error processant PDF amb extract_marcha: {result.stderr[:200]}")
+        log(f"    Error processant PDF amb extract_marcha: {result.stderr[:200]}")
         return False
     # extract_marcha.py outputs to json/<basename>.json, check there
     base = os.path.splitext(os.path.basename(pdf_path))[0]
@@ -223,7 +232,7 @@ def move_to_imported(json_name):
     dest = os.path.join(dest_dir, json_name + ".json")
     if os.path.exists(src):
         shutil.move(src, dest)
-        print(f"    Moure a imported: {json_name}")
+        log(f"    Moure a imported: {json_name}")
         return True
     return False
 
@@ -231,10 +240,10 @@ def move_to_imported(json_name):
 def commit_and_push(new_jsons):
     """Fa commit i push dels fitxers JSON nous."""
     if not new_jsons:
-        print("\nNo hi ha fitxers nous per commit.")
+        log("\nNo hi ha fitxers nous per commit.")
         return
 
-    print(f"\nFent commit de {len(new_jsons)} fitxers nous...")
+    log(f"\nFent commit de {len(new_jsons)} fitxers nous...")
 
     # Configurar git user (necessari per al commit de GitHub Actions)
     subprocess.run(
@@ -253,7 +262,7 @@ def commit_and_push(new_jsons):
         ["git", "status", "--porcelain"], capture_output=True, text=True
     )
     if not status.stdout.strip():
-        print("No hi ha canvis per commit.")
+        log("No hi ha canvis per commit.")
         return
 
     # Commit
@@ -263,24 +272,24 @@ def commit_and_push(new_jsons):
     # Push
     result = subprocess.run(["git", "push"], capture_output=True, text=True, timeout=60)
     if result.returncode == 0:
-        print(f"  Push completat correctament.")
+        log("  Push completat correctament.")
     else:
-        print(f"  Error fent push: {result.stderr[:200]}", file=sys.stderr)
+        log(f"  Error fent push: {result.stderr[:200]}")
         # No sortim amb error - potser no hi ha remote configurat
 
 
 def main():
-    print("=" * 60)
-    print("Cat Results Extractor - Processador Automàtic")
-    print("=" * 60)
+    log("=" * 60)
+    log("Cat Results Extractor - Processador Automàtic")
+    log("=" * 60)
 
     # Assegurar que el directori json/ existeix
     os.makedirs(JSON_DIR, exist_ok=True)
 
     # Carregar tracking i fitxers importats
     loaded = load_tracking()
-    print(f"\nTracking carregat: {len(loaded)} URLs processades")
-    print(f"Fitxers importats: {len(imported_files)}")
+    log(f"\nTracking carregat: {len(loaded)} URLs processades")
+    log(f"Fitxers importats: {len(imported_files)}")
 
     # Descarregar i llegir XLS
     download_xls()
@@ -296,6 +305,7 @@ def main():
             tracking["success"] = list(old_tracking.get("success", []))
             tracking["fail"] = list(old_tracking.get("fail", []))
             tracking["no_cat_results"] = list(old_tracking.get("no_cat_results", []))
+            log(f"Tracking antic carregat: {len(tracking['success'])} success, {len(tracking['fail'])} fail, {len(tracking['no_cat_results'])} no_cat_results")
         except (json.JSONDecodeError, KeyError):
             pass
 
@@ -308,14 +318,16 @@ def main():
 
     with tempfile.TemporaryDirectory() as temp_dir:
         for i, (url, titol) in enumerate(competitions):
-            print(f"\n[{i + 1}/{len(competitions)}] {titol}")
-            print(f"  URL: {url[:100]}...")
+            log(f"[{i + 1}/{len(competitions)}] {titol}")
+            log(f"  URL: {url[:100]}...")
 
             # Check if already processed (from tracking)
             if url in loaded:
-                print(f"  Saltat (ja processat - tracking)")
+                log(f"  Saltat (ja processat - tracking)")
                 skipped_already += 1
                 continue
+
+            log("  Processant per primera vegada...")
 
             # Check if already exists as JSON (with results > 0)
             url_base = os.path.splitext(os.path.basename(url))[0]
@@ -323,39 +335,47 @@ def main():
             if os.path.exists(json_file):
                 existing_count = count_results(json_file)
                 if existing_count > 0:
-                    print(f"  Saltat (JSON ja existeix amb {existing_count} resultats)")
+                    log(f"  Saltat (JSON ja existeix amb {existing_count} resultats)")
                     skipped_already += 1
                     # Add to tracking so we don't re-check next time
                     tracking["success"].append(url)
+                    log(f"  Afegit a success: {url[:80]}...")
                     continue
                 else:
-                    print(f"  JSON existent amb 0 resultats, re-processant...")
+                    log("  JSON existent amb 0 resultats, re-processant...")
+            else:
+                log("  Cap JSON previ trobat a json/")
 
             # Also check if already in imported
             if url_base in imported_files:
-                print(f"  Saltat (ja importat)")
+                log(f"  Saltat (ja importat a json/imported/)")
                 skipped_already += 1
                 tracking["success"].append(url)
+                log(f"  Afegit a success (importat): {url[:80]}...")
                 continue
 
             # Descarregar PDF
             pdf_path = download_pdf(url, temp_dir)
             if not pdf_path:
-                print(f"  Error descarregant PDF")
+                log(f"  Error descarregant PDF (HTTP o fitxer no creat)")
                 skipped_error += 1
                 tracking["fail"].append(url)
+                log(f"  Afegit a fail (download): {url[:80]}...")
                 continue
+            else:
+                log(f"  PDF descarregat ({os.path.getsize(pdf_path)} bytes)")
 
             # Comprovar si conté CATT
-            print(f"  Comprovant si conté CATT...")
+            log("  Comprovant si conté CATT...")
             if not has_catt_in_pdf(pdf_path):
-                print(f"  Saltat (no conté CATT)")
+                log(f"  Saltat (no conté CATT - anirà a no_cat_results)")
                 skipped_no_catt += 1
                 tracking["no_cat_results"].append(url)
+                log(f"  Afegit a no_cat_results: {url[:80]}...")
                 os.remove(pdf_path)
                 continue
 
-            print(f"  Conté CATT! Processant...")
+            log("  Conté CATT! Processant amb extract_catt.py...")
 
             # Processar amb extract_catt.py
             json_path = os.path.splitext(pdf_path)[0] + ".json"
@@ -368,53 +388,61 @@ def main():
                     dest = move_json(pdf_path, json_path)
                     if dest:
                         new_jsons.append(dest)
-                        print(f"  Processat: {dest}")
+                        log(f"  OK - {catt_result_count} resultat(s) extrets -> {dest}")
                         processed += 1
                         tracking["success"].append(url)
+                        log(f"  Afegit a success (resultats): {url[:80]}...")
                     else:
-                        print(f"  JSON ja existia al dir json/")
+                        log(f"  OK - {catt_result_count} resultat(s) extrets (JSON ja existia a json/)")
                         processed += 1
                         tracking["success"].append(url)
+                        log(f"  Afegit a success (resultats, JSON existent): {url[:80]}...")
                 else:
                     # extract_catt.py ran but found no results - try extract_marcha.py as fallback
-                    print(f"  extract_catt.py no ha trobat resultats. Provant extract_marcha.py...")
+                    log("  extract_catt.py ha finalitzat però 0 resultats. Provant extract_marcha.py com a fallback...")
                     if process_marcha(pdf_path, json_path, url):
                         dest = move_json(pdf_path, json_path)
                         if dest:
                             new_jsons.append(dest)
-                            print(f"  Processat amb extract_marcha: {dest}")
+                            log(f"  OK (marcha) - resultats extrets amb extract_marcha.py -> {dest}")
                             processed += 1
                             used_marcha += 1
                             tracking["success"].append(url)
+                            log(f"  Afegit a success (marcha): {url[:80]}...")
                         else:
-                            print(f"  JSON ja existia al dir json/")
+                            log(f"  OK (marcha) - resultats extrets amb extract_marcha.py (JSON ja existia)")
                             processed += 1
                             used_marcha += 1
                             tracking["success"].append(url)
+                            log(f"  Afegit a success (marcha, JSON existent): {url[:80]}...")
                     else:
-                        print(f"  extract_marcha.py tampoc ha trobat resultats")
+                        log("  FAIL - extract_marcha.py tampoc ha trobat resultats -> anirà a fail")
                         skipped_error += 1
                         tracking["fail"].append(url)
+                        log(f"  Afegit a fail (marcha 0 resultats): {url[:80]}...")
             else:
                 # extract_catt.py failed completely - try extract_marcha.py as fallback
-                print(f"  extract_catt.py ha fallat. Provant extract_marcha.py...")
+                log("  FAIL - extract_catt.py ha fallat (error d'execució). Provant extract_marcha.py...")
                 if process_marcha(pdf_path, json_path, url):
                     dest = move_json(pdf_path, json_path)
                     if dest:
                         new_jsons.append(dest)
-                        print(f"  Processat amb extract_marcha: {dest}")
+                        log(f"  OK (marcha fallback) - resultats extrets amb extract_marcha.py -> {dest}")
                         processed += 1
                         used_marcha += 1
                         tracking["success"].append(url)
+                        log(f"  Afegit a success (marcha fallback): {url[:80]}...")
                     else:
-                        print(f"  JSON ja existia al dir json/")
+                        log(f"  OK (marcha fallback) - resultats extrets amb extract_marcha.py (JSON ja existia)")
                         processed += 1
                         used_marcha += 1
                         tracking["success"].append(url)
+                        log(f"  Afegit a success (marcha fallback, JSON existent): {url[:80]}...")
                 else:
-                    print(f"  Error processant PDF amb extract_catt.py i extract_marcha.py")
+                    log("  FAIL - extract_marcha.py tampoc ha funcionat -> anirà a fail")
                     skipped_error += 1
                     tracking["fail"].append(url)
+                    log(f"  Afegit a fail (extract fallit): {url[:80]}...")
 
             # Netejar PDF temporal
             if os.path.exists(pdf_path):
@@ -425,24 +453,38 @@ def main():
                 os.remove(json_path)
 
     # Resum
-    print("\n" + "=" * 60)
-    print("RESUM")
-    print("=" * 60)
-    print(f"  Processats:         {processed}")
-    print(f"  Saltats (ja fets):  {skipped_already}")
-    print(f"  Saltats (sense CATT): {skipped_no_catt}")
-    print(f"  Errors:             {skipped_error}")
-    print(f"  Processats (marcha): {used_marcha}")
-    print(f"  Nous JSONs:         {len(new_jsons)}")
+    log("=" * 60)
+    log("RESUM")
+    log("=" * 60)
+    log(f"  Processats:         {processed}")
+    log(f"  Saltats (ja fets):  {skipped_already}")
+    log(f"  Saltats (sense CATT): {skipped_no_catt}")
+    log(f"  Errors:             {skipped_error}")
+    log(f"  Processats (marcha): {used_marcha}")
+    log(f"  Nous JSONs:         {len(new_jsons)}")
+
+    if new_jsons:
+        log("Nous fitxers JSON:")
+        for jf in new_jsons:
+            try:
+                with open(jf, "r", encoding="utf-8") as jf2:
+                    jdata = json.load(jf2)
+                nres = jdata.get("total_results", len(jdata.get("results", [])))
+            except:
+                nres = "?"
+            log(f"  - {os.path.basename(jf)} ({nres} resultats)")
 
     # Save tracking
     save_tracking(tracking)
-    print(f"\nTracking actualitzat: {TRACKING_FILE}")
+    log(f"\nTracking actualitzat: {TRACKING_FILE}")
+    log(f"  success: {len(tracking['success'])} URLs")
+    log(f"  fail: {len(tracking['fail'])} URLs")
+    log(f"  no_cat_results: {len(tracking['no_cat_results'])} URLs")
 
     # Commit i push
     # commit_and_push(new_jsons)
 
-    print("\nDone!")
+    log("\nDone!")
 
 
 if __name__ == "__main__":

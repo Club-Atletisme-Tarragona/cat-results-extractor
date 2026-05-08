@@ -43,6 +43,6 @@ jobs:
         run: |
           git config user.name "cat-results-bot"
           git config user.email "bot@cat-results.local"
-          git add json/
+          git add json/ track-catt.json
           git diff --cached --quiet || git commit -m "Processar PDFs CATT - $(date '+%Y-%m-%d %H:%M')"
           git push

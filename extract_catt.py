@@ -110,9 +110,11 @@ EVENT_PATTERNS = [
     # Generic patterns that cover any event name format (Spanish + Catalan)
     # Track events with abbreviated gender: "60m S10M", "200m AbsF", "300m S16M", "400m S10F"
     # Format: distance + (S##|Abs) + M/F (Masculí/Femení abbreviated)
-    r'(?:\d{1,3}(?:\.\d{3})?\s*m|\d+\s*m)\s*(?:tanques\s+)?(?:vallas\s+)?(?:\(.*?\))?\s*(?:S\d+|Abs)\s*[MF]\s*(?:AL|aire\s+libre)?',
-    # Track events: 60m, 100m, 300m, 600m, 1.000m, 3.000m, etc. (with or without space)
-    r'(?:\d{1,3}(?:\.\d{3})?\s*m|\d+\s*m)\s*(?:tanques\s+)?(?:vallas\s+)?(?:\(.*?\))?\s*(?:Sub\d+\s+)?(?:Obst\.?\s+)?(?:Marcha\s+)?(?:Marxa\s+)?(?:Hombres|Mujeres|Mixto|Masculí|Femení|masculins|Mascuins|femenins|masculina|femenina|masculino|femenino)',
+    r'(?:\d{1,3}(?:\.\d{3})?\s*m(t)?|\d+\s*m(t)?)\s*(?:tanques\s+)?(?:vallas\s+)?(?:\(.*?\))?\s*(?:S\d+|Abs)\s*[MF]\s*(?:AL|aire\s+libre)?',
+    # Track events: 60m, 100m, 300m, 600m, 1.000m, 3.000m, etc. (with or without space, with optional altaveu "mt")
+    r'(?:\d{1,3}(?:\.\d{3})?\s*m(t)?|\d+\s*m(t)?)\s*(?:tanques\s+)?(?:vallas\s+)?(?:\(.*?\))?\s*(?:Sub\d+\s+)?(?:Obst\.?\s+)?(?:Marcha\s+)?(?:Marxa\s+)?(?:Hombres|Mujeres|Mixto|Masculí|Femení|masculins|Mascuins|femenins|masculina|femenina|masculino|femenino)',
+    # Simple track with abbreviated gender: "100m M", "200m F", "400m M", "800m F"
+    r'(?:\d{1,3}(?:\.\d{3})?\s*m(t)?|\d+\s*m(t)?)\s*(?:tanques\s+)?(?:vallas\s+)?(?:\(.*?\))?\s*(?:Sub\d+\s+)?(?:Hombres|Mujeres|Masculí|Femení|masculins|Mascuins|femenins|masculina|femenina|masculino|femenino)?\s+\b[MFM]\b',
     # Field/jump/height events (Spanish + Catalan)
     r'(?:\bAltura\b|\bAlçada\b|Pértiga|Pertiga|Perxa|Longitud|Llargada|Triple\s+Salto|Triple\s+salt|Disco|Disc|Martello|Martell|Martillo|Martell|\b(?:Peso|Pes)\b|Jabalina|Javelina|Dard)\s*(?:\(.*?\))?\s*(?:Sub\d+(?:-\d+)?\s+)?(?:Hombres|Mujeres|Mixto|Masculí|Femení|masculins|Mascuins|femenins|masculina|femenina|masculino|femenino|M|F)',
     # Relay events: 4x100m, 4x400m, 4x300m, Relleu 4x300, Relleus 4x200
@@ -127,7 +129,7 @@ EVENT_PATTERNS = [
     r'Dard\s+\(\d+g\)\s*(?:Hombres|Mujeres)',
     # Youth/age category events: "60m S12 Mujeres AL", "60m vallas (0,762) S14 INF. Mujeres AL"
     # Format: event_name + S\d+ or JUV/CAD/INF + gender + optional AL/aire libre
-    r'(?:\d{1,3}(?:\.\d{3})?\s*m|\d+\s*m)\s*(?:tanques\s+)?(?:vallas\s+)?(?:\(.*?\))?\s*(?:S\d+\s+)?(?:JUV\.?|CAD\.?|INF\.?\s*)?\s*(?:Hombres|Mujeres|Masculí|Femení|masculins|Mascuins|femenins)\s+(?:S\d+|JUV\.?|CAD\.?|INF\.?)\s*(?:AL|aire\s+libre)?',
+    r'(?:\d{1,3}(?:\.\d{3})?\s*m(t)?|\d+\s*m(t)?)\s*(?:tanques\s+)?(?:vallas\s+)?(?:\(.*?\))?\s*(?:S\d+\s+)?(?:JUV\.?|CAD\.?|INF\.?\s*)?\s*(?:Hombres|Mujeres|Masculí|Femení|masculins|Mascuins|femenins)\s+(?:S\d+|JUV\.?|CAD\.?|INF\.?)\s*(?:AL|aire\s+libre)?',
     # Field/jump/height with age category: "Peso (4kg) S16 Hombres AL", "Altura S14 Mujeres AL"
     r'(?:\bAltura\b|\bAlçada\b|Pértiga|Pertiga|Perxa|Longitud|Llargada|Triple\s+Salto|Triple\s+salt|Disco|Martillo|\bPeso\b|Jabalina|Dard)\s*(?:\(.*?\))?\s*(?:S\d+\s+)?(?:JUV\.?|CAD\.?|INF\.?\s*)?\s*(?:Hombres|Mujeres|Masculí|Femení|masculins|Mascuins|femenins)\s+(?:S\d+|JUV\.?|CAD\.?|INF\.?)\s*(?:AL|aire\s+libre)?',
     # Simple age category: "60m S18 Hombres AL", "Altura S14 Mujeres AL" (S## between event and gender)
@@ -156,15 +158,15 @@ EVENT_PATTERNS = [
 ]
 
 TRACK_PATTERNS = [
-    r'(?:^|[\s(])\d{1,3}(?:\.\d{3})?\s*m\s*(?:tanques|vallas)?\s*(?:Obst\.?)?\s*(?:\(.*?\))?\s*(?:Marxa\s+)?(?:Hombres|Mujeres|Mixto|Masculí|Femení|masculins|Mascuins|femenins|masculina|femenina)',
-    r'\d{1,3}\s*m\s+(?:tanques|vallas|Marxa|Obst\.?)\s+(?:Hombres|Mujeres|Masculí|Femení|masculins|Mascuins|femenins)',
-    r'\d{1,3}\s*m\s+(?:Marxa\s+)?(?:Hombres|Mujeres|Masculí|Femení|masculins|Mascuins|femenins)',
+    r'(?:^|[\s(])\d{1,3}(?:\.\d{3})?\s*m(t)?\s*(?:tanques|vallas)?\s*(?:Obst\.?)?\s*(?:\(.*?\))?\s*(?:Marxa\s+)?(?:Hombres|Mujeres|Mixto|Masculí|Femení|masculins|Mascuins|femenins|masculina|femenina)',
+    r'\d{1,3}\s*m(t)?\s+(?:tanques|vallas|Marxa|Obst\.?)\s+(?:Hombres|Mujeres|Masculí|Femení|masculins|Mascuins|femenins)',
+    r'\d{1,3}\s*m(t)?\s+(?:Marxa\s+)?(?:Hombres|Mujeres|Masculí|Femení|masculins|Mascuins|femenins)',
     # Abbreviated gender: "100m Abs M", "200m Abs F", "400m tanques Abs M", "600m Sub14-16 M"
-    r'\d{1,3}(?:\.\d{3})?\s*m\s*(?:tanques|vallas)?\s+(?:Abs|Sub\d+[-\d]*)\s+[MFHM]',
+    r'\d{1,3}(?:\.\d{3})?\s*m(t)?\s*(?:tanques|vallas)?\s+(?:Abs|Sub\d+[-\d]*)\s+[MFHM]',
     # Speed control style: "60m S10M", "400m S10F", "200m AbsF", "300m S16M"
-    r'\d{1,3}(?:\.\d{3})?\s*m\s*(?:tanques|vallas)?\s*(?:Abs(?:M|F|Mascuins|Femenins)?|S\d+[MFHM])',
+    r'\d{1,3}(?:\.\d{3})?\s*m(t)?\s*(?:tanques|vallas)?\s*(?:Abs(?:M|F|Mascuins|Femenins)?|S\d+[MFHM])',
     # Popular/road events: "5.000m Popular"
-    r'\d{1,3}(?:\.\d{3})?\s*m\s+(?:Popular|Populars?)\s*(?:Hombres|Mujeres|Masculí|Femení)?',
+    r'\d{1,3}(?:\.\d{3})?\s*m(t)?\s+(?:Popular|Populars?)\s*(?:Hombres|Mujeres|Masculí|Femení)?',
     # km events: "10km", "21.1km"
     r'\d+\.?\d*\s*km\s*(?:Hombres|Mujeres|Masculí|Femení|Abs|M|F)?',
 ]

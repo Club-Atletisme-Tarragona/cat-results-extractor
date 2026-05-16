@@ -106,6 +106,20 @@ El JSON inclou:
 
 El JSON generat es pot utilitzar per importar les marques directament a l'importador de marques de la web del Club Atletisme Tarragona.
 
+## Workflow de processament
+
+El procés de processament de resultats segueix aquests passos:
+
+1. **Extracció**: Executar `python3 extract_catt.py <fitxer.pdf>` per generar el JSON a `json/`
+2. **Verificació**: Revisar el fitxer `status.html` per veure l'estat de tots els resultats
+3. **Importació**: Un cop importats al sistema del CATT, moure el JSON a `json/imported/`
+4. **Actualització**: Actualitzar `status.html` — canviar la ruta a `json/imported/`, marcar com `✅ Si` i assignar la persona que ho ha fet
+
+L'status.html és el punt de referència visual per saber:
+- Quins fitxers s'han processat i quins encara són pendents
+- Qui ha processat cada fitxer (Dídac, Peio, etc.)
+- Quins ja s'han importat al sistema (estàn a `json/imported/`)
+
 ## .gitignore
 
-Els fitxers `.json` i `.pdf` generats es ignoren per Git per defecte. Només es versiona el codi font `extract_catt.py`.
+Els fitxers `.pdf` originals es ignoren per Git. Els fitxers `.json` a `json/` i `json/imported/` **sí que es versionen** perquè són la sortida del procés d'extracció i necessiten ser accessibles per a importació.

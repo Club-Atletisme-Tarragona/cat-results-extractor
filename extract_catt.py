@@ -1697,6 +1697,12 @@ def _find_catt_new_format(lines, sec_start, sec_end, is_in_sumario=None):
                 break
             data_lines.append((j, lines[j]))
         
+        # If data_lines is empty, the results may be embedded in the position line itself
+        # (common in field events where results are on the same line as pos/club/CATT)
+        if not data_lines and has_catt_on_pos:
+            # Include the position line which may contain results
+            data_lines = [(pos_line_idx, pos_line)]
+        
         # Skip athletes found in SUMARIO sub-sections
         if is_in_sumario and is_in_sumario(name_idx):
             continue

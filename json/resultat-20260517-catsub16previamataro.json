@@ -2,9 +2,25 @@
   "event_name": "Jornada Prèvia - Campionat de Catalunya Sub16 - Estadio Municipal de Mataró",
   "event_date": "17/05/2026",
   "event_location": "Mataró",
-  "total_results": 22,
-  "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/05/resultat-20260517-catsub16previamataro.pdf",
+  "total_results": 20,
+  "event_src": "/tmp/cat-results-extractor/pdfs/resultat-20260517-catsub16previamataro.pdf",
   "results": [
+    {
+      "athlete_name": "CESSAR AINA PRECIADO FOREMAN",
+      "athlete_dob": "29/6/2011",
+      "athlete_id": "CL15333",
+      "performance": "41.66",
+      "discipline": "300 metres tanques masculins",
+      "wind": null
+    },
+    {
+      "athlete_name": "MARC MARTI FERNANDEZ",
+      "athlete_dob": "10/4/2011",
+      "athlete_id": "CL94395",
+      "performance": "11.79",
+      "discipline": "100 metres llisos mascuins",
+      "wind": "-2.4"
+    },
     {
       "athlete_name": "FERRAN MASCARO NAVARRO",
       "athlete_dob": "2/6/2012",
@@ -58,23 +74,7 @@
       "athlete_dob": "5/4/2011",
       "athlete_id": "CL94384",
       "performance": "52.59",
-      "discipline": "Llançament de javelina masculí",
-      "wind": null
-    },
-    {
-      "athlete_name": "MARIA FERRAN JIMENEZ",
-      "athlete_dob": "5/4/2011",
-      "athlete_id": "CL94384",
-      "performance": "47.32",
-      "discipline": "Llançament de javelina masculí",
-      "wind": null
-    },
-    {
-      "athlete_name": "MARIA FERRAN JIMENEZ",
-      "athlete_dob": "5/4/2011",
-      "athlete_id": "CL94384",
-      "performance": "47.60",
-      "discipline": "Llançament de javelina masculí",
+      "discipline": "300 metres tanques femenins",
       "wind": null
     },
     {
@@ -82,31 +82,23 @@
       "athlete_dob": "22/3/2011",
       "athlete_id": "CL6108",
       "performance": "13.30",
-      "discipline": "Llançament de javelina masculí",
-      "wind": null
+      "discipline": "100 metres llisos femenins",
+      "wind": "+0.7"
     },
     {
-      "athlete_name": "VICTORIA CHIAMAKA ONYEMAEKW…",
-      "athlete_dob": "22/3/2011",
-      "athlete_id": "CL6108",
-      "performance": "13.30",
-      "discipline": "Llançament de javelina masculí",
-      "wind": null
-    },
-    {
-      "athlete_name": "LARA GARCIA MUR",
-      "athlete_dob": "23/10/2011",
-      "athlete_id": "CL94385",
-      "performance": "26.41",
-      "discipline": "Llançament de javelina masculí",
+      "athlete_name": "MARIA FERRAN JIMENEZ",
+      "athlete_dob": "5/4/2011",
+      "athlete_id": "CL94384",
+      "performance": "47.32",
+      "discipline": "300 metres llisos femenins",
       "wind": null
     },
     {
       "athlete_name": "LARA GARCIA MUR",
       "athlete_dob": "23/10/2011",
       "athlete_id": "CL94385",
-      "performance": "26.76",
-      "discipline": "Llançament de javelina masculí",
+      "performance": "11:26.41",
+      "discipline": "3000 metres llisos femenins",
       "wind": null
     },
     {
@@ -114,24 +106,16 @@
       "athlete_dob": "13/3/2012",
       "athlete_id": "CL11154",
       "performance": "19.07",
-      "discipline": "Llançament de javelina masculí",
-      "wind": null
-    },
-    {
-      "athlete_name": "ARLET SOLANA VILA",
-      "athlete_dob": "13/3/2012",
-      "athlete_id": "CL11154",
-      "performance": "19.16",
-      "discipline": "Llançament de javelina masculí",
-      "wind": null
+      "discipline": "100 metres tanques femenins",
+      "wind": "-1.1"
     },
     {
       "athlete_name": "MARIA MARTIN CUADRADO",
       "athlete_dob": "1/5/2012",
       "athlete_id": "CL1089",
       "performance": "20.23",
-      "discipline": "Llançament de javelina masculí",
-      "wind": null
+      "discipline": "100 metres tanques femenins",
+      "wind": "-1.1"
     },
     {
       "athlete_name": "VICTORIA CHIAMAKA ONYEMAEKWU AHANOTU",
@@ -177,8 +161,8 @@
       "athlete_name": "STELLA PEREIRA CONTRERAS",
       "athlete_dob": "11/12/2011",
       "athlete_id": "CL7607",
-      "performance": "11.94",
-      "discipline": "Llançament de javelina femení",
+      "performance": "17:11.94",
+      "discipline": "3000 metres marxa femenins",
       "wind": null
     }
   ]

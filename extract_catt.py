@@ -153,11 +153,20 @@ EVENT_PATTERNS = [
     r'(?:\d{1,3}(?:\.\d{3})?\s*m|\d+\s*m)\s*(?:tanques\s+)?(?:vallas\s+)?(?:\(.*?\))?\s*(?:U\d+(?:-U\d+)?)\s*(?:Hombres|Mujeres|Masculins|Mascuins|Femenins|masculins|femenins)',
     r'(?:\bAltura\b|\bAlçada\b|Pértiga|Pertiga|Perxa|Longitud|Llargada|Triple\s+Salto|Triple\s+salt|Disco|Martillo|\b(?:Peso|Pes)\b|Jabalina|Dard)\s*(?:\(.*?\))?\s*(?:U\d+(?:-U\d+)?)\s*(?:Hombres|Mujeres|Masculins|Mascuins|Femenins|masculins|femenins)',
     # U-category events with single letter gender: "400m U10M", "1.000m U14M", "Altura U10F"
-    r'(?:\d{1,3}(?:\.\d{3})?\s*m|\d+\s*m)\s*(?:tanques\s+)?(?:vallas\s+)?(?:\(.*?\))?\s*(?:U\d+(?:-\d+)?)\s*[MF]',
+    r'(?:\d{1,3}(?:\.\d{3})?\s*m|\d+\s*m)\s*(?:tanques\s+)?(?:vallas\s+)?\(.*?\)?\s*(?:U\d+(?:-\d+)?)\s*[MF]',
     r'(?:\bAltura\b|\bAlçada\b|Pértiga|Pertiga|Perxa|Longitud|Llargada|Triple\s+Salto|Triple\s+salt|Disco|Martillo|\b(?:Peso|Pes)\b|Jabalina|Dard)\s*(?:\(.*?\))?\s*(?:U\d+(?:-\d+)?)\s*[MF]',
+    # Full word "metres" track events: "100 metres llisos mascuins", "300 metres tanques masculins",
+    # "3000 metres llisos femenins", "1500 metres obstacles femenins", "60 metres llisos femenins"
+    # These use "metres" instead of "m" and include "llisos", "tanques", "obstacles", "marxa", "marxa"
+    r'\d{1,3}(?:\.\d{3})?\s*metres\s+(?:llisos|tanques|vallas|obstacles|marxa|marxa)\s+(?:masculins|Mascuins|femenins|femenina|masculina|Hombres|Mujeres|Masculí|Femení)',
+    r'\d{1,3}(?:\.\d{3})?\s*metres\s+(?:llisos|tanques|vallas|obstacles|marxa|marxa)\s+(?:Sub\d+\s+)?(?:masculins|Mascuins|femenins|femenina|masculina|Hombres|Mujeres|Masculí|Femení)',
 ]
 
 TRACK_PATTERNS = [
+    # Full word "metres" variants (new PDF format)
+    r'\d{1,3}(?:\.\d{3})?\s*metres\s+(?:llisos|tanques|vallas|obstacles)\s+(?:masculins|Mascuins|femenins|femeni|masculi)',
+    r'\d{1,3}(?:\.\d{3})?\s*metres\s+(?:llisos|tanques|vallas|obstacles)\s+(?:masculins|Mascuins|femenins|femeni|masculi)',
+    # Abbreviated "m" variants (legacy PDF format)
     r'(?:^|[\s(])\d{1,3}(?:\.\d{3})?\s*m(t)?\s*(?:tanques|vallas)?\s*(?:Obst\.?)?\s*(?:\(.*?\))?\s*(?:Marxa\s+)?(?:Hombres|Mujeres|Mixto|Masculí|Femení|masculins|Mascuins|femenins|masculina|femenina)',
     r'\d{1,3}\s*m(t)?\s+(?:tanques|vallas|Marxa|Obst\.?)\s+(?:Hombres|Mujeres|Masculí|Femení|masculins|Mascuins|femenins)',
     r'\d{1,3}\s*m(t)?\s+(?:Marxa\s+)?(?:Hombres|Mujeres|Masculí|Femení|masculins|Mascuins|femenins)',
@@ -172,7 +181,7 @@ TRACK_PATTERNS = [
 ]
 
 MARCHA_PATTERNS = [
-    r'\d+\.?\d*m\s+(?:Marcha|Marxa)',
+    r'\d+\.?\d*\s*(?:m|metres)\s+(?:Marcha|Marxa)',
     r'\d+\s+km\s+(?:Marcha|Marxa)',
     r'Marat[óo]n\s+(?:Marcha|Marxa)',
 ]
@@ -1143,72 +1152,61 @@ def is_new_format_section(lines, sec_start, sec_end):
     
     New format characteristics:
     - Name line, then pos+dorsal on next line, then club name, then club code
-    - Track events have separate result lines with T.Reacción/Resultado columns
+    - Track events have separate result lines with T.Reacci\\xf3n/Resultado columns
     - No inline "CATT  results" pattern on same line as position
     
     Returns True if new format detected.
+    
+    IMPORTANT: We only return True if we find at least one CATT athlete block
+    in the new format. This prevents false positives from sections that don't
+    contain any CATT athletes (which was causing misassignment of athletes
+    to wrong events like javelina).
     """
-    # Look for the pattern: name line followed by pos+dorsal (without CATT on same line)
+    # First pass: check if ANY CATT block exists in new format
+    # This is the key fix - only detect new format if there's actual CATT data
+    catt_count = 0
     for i in range(sec_start, min(sec_end, len(lines))):
         line = lines[i].strip()
         if not line or not is_name_line(line):
             continue
-        # Next line should be pos+dorsal (numbers only, no CATT)
-        if i + 1 >= sec_end:
-            continue
-        next_line = lines[i + 1].strip()
-        if re.match(r'^\s*\d+\s+\d+\s*$', next_line):
-            # Check that this line does NOT contain CATT
-            if 'CATT' not in next_line and 'CA Tarragona' not in next_line:
-                return True
-        # Also check: name line followed by a line with "CA Tarragona" but no results
-        # This catches the new format where the pos line has "pos  dorsal  CA Tarragona"
-        elif re.match(r'^\s*\d+\s+\d+\s+CA\s+Tarragona\s*$', next_line):
-            # Check that the next-next line does NOT have results inline
-            if i + 2 < sec_end:
-                next_next = lines[i + 2].strip()
-                # If next-next is just "CATT" or a club code, it's new format
-                if re.match(r'^\s*CATT\s*$', next_next) or re.match(r'^\s*[A-Z]{2,8}\s*$', next_next):
-                    return True
-        # Also check: name line followed by "pos  CA Tarragona" (height events format)
-        elif re.match(r'^\s*\d+\s+CA\s+Tarragona\s*$', next_line):
-            if i + 2 < sec_end:
-                next_next = lines[i + 2].strip()
-                if re.match(r'^\s*CATT\s*$', next_next) or re.match(r'^\s*[A-Z]{2,8}\s*$', next_next):
-                    return True
-        # Also check: name line followed by just "CA Tarragona" (DNS case, no position)
-        elif next_line == 'CA Tarragona':
-            if i + 2 < sec_end:
-                next_next = lines[i + 2].strip()
-                if re.match(r'^\s*CATT\s*$', next_next) or re.match(r'^\s*[A-Z]{2,8}\s*$', next_next):
-                    return True
-        # Also check: name line followed by "pos  dorsal  CATT" (marathon format)
-        elif re.match(r'^\s*\d+\s+\d+\s+CATT\s*$', next_line):
-            return True
-        # Also check: name line followed by "pos  CATT  ordinal  DNS" (DNS marathon format)
-        elif re.match(r'^\s*\d+\s+CATT\s+\d+\s+DNS\s*$', next_line):
-            return True
-        # Also check: name line followed by "pos  dorsal  CATT" with club code (marathon format)
-        elif re.match(r'^\s*\d+\s+\d+\s+[A-Z]{2,8}\s*$', next_line):
-            # Check that the next line is also a club code or license
-            if i + 2 < sec_end:
-                next_next = lines[i + 2].strip()
-                if re.match(r'^\s*[A-Z]{2,8}\s*$', next_next) or re.match(r'^\s*(CL\d+|CT[\d\-]+|CAT\-\d+)', next_next):
-                    return True
-        # e.g., "    5                              CATT"
-        # May have a wind value or blank line between CATT and CA Tarragona
-        elif re.match(r'^\s*\d+\s+CATT\s*$', next_line):
-            if i + 4 < sec_end:
-                # Look for CA Tarragona in the next few lines (may skip blank/wind lines)
-                for k in range(i + 2, min(i + 5, sec_end)):
-                    check_line = lines[k].strip()
-                    if check_line:
-                        if re.search(r'\bCA\s+Tarragona\b', check_line):
-                            return True
-                        # Stop at non-blank non-CA Tarragona lines that aren't wind values
-                        if not re.match(r'^[+-]?\d+\.\d+$', check_line):
-                            break
-    return False
+        
+        # Look ahead for the multi-line block and verify it's CATT
+        for j in range(i + 1, min(i + 6, sec_end)):
+            fwd = lines[j].strip()
+            if fwd and 'CA Tarragona' in fwd:
+                # Check subsequent lines for CATT
+                for k in range(j + 1, min(j + 4, sec_end)):
+                    next_fwd = lines[k].strip()
+                    if next_fwd and 'CATT' in next_fwd:
+                        catt_count += 1
+                        break
+                    if next_fwd and not re.match(r'^[A-Z]{2,8}$', next_fwd) and not re.match(r'^CL\d+$', next_fwd):
+                        break
+                break
+            elif fwd and re.match(r'^\s*\d+\s+\d+\s*$', fwd):
+                # pos+dorsal line, check next lines for CA Tarragona
+                for k in range(j + 1, min(j + 4, sec_end)):
+                    next_fwd = lines[k].strip()
+                    if next_fwd and 'CA Tarragona' in next_fwd:
+                        for m in range(k + 1, min(k + 4, sec_end)):
+                            m_fwd = lines[m].strip()
+                            if m_fwd and 'CATT' in m_fwd:
+                                catt_count += 1
+                                break
+                            if m_fwd and not re.match(r'^[A-Z]{2,8}$', m_fwd) and not re.match(r'^CL\d+$', m_fwd):
+                                break
+                        break
+                    if next_fwd and not re.match(r'^\s*\d+\s+\d+$', next_fwd):
+                        break
+            elif fwd and 'CATT' in fwd and re.match(r'^\s*\d+\s+CATT', fwd):
+                # "pos  CATT" format - check for CA Tarragona nearby
+                for k in range(i + 1, min(i + 6, sec_end)):
+                    if 'CA Tarragona' in lines[k]:
+                        catt_count += 1
+                        break
+    
+    # Only treat as new format if we found CATT athletes in it
+    return catt_count > 0
 
 
 def find_catt_athletes_in_section(lines, sec_start, sec_end):
@@ -1217,28 +1215,47 @@ def find_catt_athletes_in_section(lines, sec_start, sec_end):
     Handles both old format (position+CATT on same line) and new format
     (multi-line blocks: name, pos+dorsal, club name, club code/license, results).
     
-    Each block is a dict with:
-    - 'anchor_idx': index of the anchor line (position + club line)
-    - 'anchor_line': the anchor line text
-    - 'position': the position/rank number
-    - 'name_line_idx': index of the name+birthdate line
-    - 'name_line': the name line text
-    - 'data_lines': list of (idx, line) for additional data lines (results, wind, etc.)
+    IMPORTANT: Skips SUMARIO sub-sections within the section to avoid duplicate
+    entries. SUMARIO sections aggregate results from all heats/rounds and are
+    just a summary — the individual round results are the authoritative source.
     """
     athletes = []
+    
+    # Detect SUMARIO sub-sections within this section
+    # A SUMARIO starts with "SUMARIO" header and ends at the next event header or section end
+    sumario_ranges = []
+    for i in range(sec_start, min(sec_end, len(lines))):
+        if 'SUMARIO' in lines[i].upper():
+            # Find the end of this SUMARIO: next event header or section end
+            sumario_end = sec_end
+            for j in range(i + 1, min(sec_end, len(lines))):
+                stripped = lines[j].strip()
+                # SUMARIO ends when we hit another event header (date line + event name)
+                if re.search(r'\d{1,2}/\d{1,2}/\d{2,4}', stripped) and any(
+                    re.search(p, stripped, re.IGNORECASE) for p in EVENT_PATTERNS
+                ):
+                    sumario_end = j
+                    break
+            sumario_ranges.append((i, sumario_end))
+    
+    def is_in_sumario(idx):
+        for s_start, s_end in sumario_ranges:
+            if s_start <= idx < s_end:
+                return True
+        return False
     
     # Detect format
     new_format = is_new_format_section(lines, sec_start, sec_end)
     
     if new_format:
-        athletes = _find_catt_new_format(lines, sec_start, sec_end)
+        athletes = _find_catt_new_format(lines, sec_start, sec_end, is_in_sumario)
     else:
-        athletes = _find_catt_old_format(lines, sec_start, sec_end)
+        athletes = _find_catt_old_format(lines, sec_start, sec_end, is_in_sumario)
     
     return athletes
 
 
-def _find_catt_old_format(lines, sec_start, sec_end):
+def _find_catt_old_format(lines, sec_start, sec_end, is_in_sumario=None):
     """Find CATT athletes in old format (position + CATT on same line)."""
     athletes = []
     
@@ -1336,6 +1353,10 @@ def _find_catt_old_format(lines, sec_start, sec_end):
                 continue
             data_lines.append((j, lines[j]))
         
+        # Skip athletes found in SUMARIO sub-sections
+        if is_in_sumario and is_in_sumario(anchor_idx):
+            continue
+        
         athletes.append({
             'position_line_idx': anchor_idx,
             'position_line': anchor_line,
@@ -1349,7 +1370,7 @@ def _find_catt_old_format(lines, sec_start, sec_end):
     return athletes
 
 
-def _find_catt_new_format(lines, sec_start, sec_end):
+def _find_catt_new_format(lines, sec_start, sec_end, is_in_sumario=None):
     """Find CATT athletes in new multi-line format.
     
     New format athlete block (track events):
@@ -1675,6 +1696,10 @@ def _find_catt_new_format(lines, sec_start, sec_end):
             if re.match(r'^\s*\d+\s+\d+\s*$', fwd):
                 break
             data_lines.append((j, lines[j]))
+        
+        # Skip athletes found in SUMARIO sub-sections
+        if is_in_sumario and is_in_sumario(name_idx):
+            continue
         
         athletes.append({
             'position_line_idx': club_name_line_idx,

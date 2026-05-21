@@ -43,6 +43,22 @@ Patterns must include Catalan variants with accents: `Masculí`, `Femení`, `Al�
 
 Combined event patterns must start with the event name (Pentathlon, Heptathlon, etc.), NOT with a sub-event name (60m, Longitud, etc.).
 
+**CRITICAL: PDFs use two formats for distance units:**
+- **Abbreviated** (older PDFs): `100m`, `300m tanques`, `1500m obstacles` — matched by `\d+\s*m(t)?`
+- **Full word** (newer PDFs, e.g., May 2026+): `100 metres llisos`, `300 metres tanques`, `3000 metres marxa` — matched by `\d+\s*metres\s+...`
+
+Both `EVENT_PATTERNS` and `TRACK_PATTERNS` MUST include patterns for both formats. The `metres` format is required for all track events:
+```python
+r'\d{1,3}(?:\.\d{3})?\s*metres\s+(?:llisos|tanques|vallas|obstacles)\s+(?:masculins|Mascuins|femenins|femeni|masculi)'
+```
+
+MARCHA_PATTERNS must also handle the `metres` format:
+```python
+r'\d+\.?\d*\s*(?:m|metres)\s+(?:Marcha|Marxa)'  # Note: \s* between number and unit
+```
+
+The `\s*` (not `\s+`) is critical — it allows matching both "3000m marxa" and "3000 metres marxa".
+
 ## Section Detection
 
 Event sections are identified by page headers (preceded by a date line `DD/MM/YYYY`), NOT by schedule lines (starting with `HH:MM`).
@@ -85,7 +101,7 @@ Events are classified in this **strict order** (first match wins):
 
 Each event type validates extracted numeric values within specific ranges:
 
-| Event Type | Field | Min | Max |
+|| Event Type | Field | Min | Max |
 |------------|-------|-----|-----|
 | Track | Time | 5.0 | 60.0 |
 | Marcha | Time | 5.0 | 60.0 |
@@ -94,6 +110,15 @@ Each event type validates extracted numeric values within specific ranges:
 | Field | Distance (m) | 3.0 | 80.0 |
 
 Values outside these ranges are discarded. For track events, prefer `HH:MM.ss` format over decimal seconds.
+
+**CRITICAL: Time extraction priority in `extract_track_result_new()` and `extract_marcha_result_new()`:**
+1. Try `HH:MM:SS` format first (for very long events)
+2. Try `HH:MM.ss` format (for events like 3000m: `11:26.41`, `17:11.94`)
+3. Fall back to decimal seconds (for short events: `11.79`, `41.66`)
+
+The `HH:MM.ss` pattern must be checked BEFORE decimal seconds, otherwise `11:26.41` gets parsed as `26.41` (the decimal part after the colon). This is a common bug when the event is misclassified (e.g., as "unknown" instead of "track" or "marcha").
+
+**Always verify event classification** — if an event like "3000 metres marxa femenins" is classified as "unknown" instead of "marcha", the wrong extraction function is used and times like `17:11.94` get truncated to `11.94`.
 
 ## Format Detection
 
@@ -113,6 +138,19 @@ results
 ```
 
 Detection: If a name line is followed by a line containing only `pos dorsal` (no CATT), it's new format.
+
+**IMPORTANT**: `is_new_format_section()` must only return True when CATT athletes are actually found in the section. Returning True for sections without CATT athletes causes false positives where the parser grabs athletes from adjacent sections (e.g., javelina results being misassigned to track events).
+
+### New Format Detection Pitfalls
+
+The new format parser must handle multiple club designation patterns:
+
+1. `pos dorsal CATT` — CATT on position line (works)
+2. `pos dorsal CA Tarragona` + `CATT` on next line — club name then club code (must work)
+3. `pos dorsal` (no club) + `CA Tarragona` on next line + `CATT` on next — three-line pattern (must work)
+4. `pos CATT` (no dorsal) + `CA Tarragona` on next line — used in some field events (must work)
+
+All patterns must verify the full chain: name → pos → club_name → club_code → license → results.
 
 ## New Format Athlete Block Parsing
 
@@ -140,11 +178,16 @@ Data lines are collected between the anchor and the next anchor (or section end)
 
 ## SUMARIO Sections
 
-SUMARIO sections contain results for track events with series (heats, semifinals, finals).
+SUMARIO sections contain aggregated results from all heats/rounds/semifinals for track events. They appear **within** larger event sections (not as separate sections), between the individual round results.
 
-Detection: Look for lines containing "SUMARIO", then look backwards up to 20 lines for the event name. Skip sub-event labels (Ronda, Serie, Semifinal, Final, Eliminatoria, Heats, Heat, Final A/B/1/2/3).
+**CRITICAL: Always skip SUMARIO sub-sections within event sections.** SUMARIO is just a summary that aggregates results already present in the individual rounds. Extracting from SUMARIO creates duplicate entries and can produce incorrect times (e.g., `11:26.41` from SUMARIO vs `26.41` from the main section when the time extraction regex fails to find the full time).
 
-Format per athlete (3 lines):
+SUMARIO detection within sections:
+1. Find lines containing "SUMARIO"
+2. The SUMARIO block extends from that line to the next event header (date line + event name) or section end
+3. When finding CATT athletes in a section, skip any athletes whose name line index falls within a SUMARIO range
+
+SUMARIO format per athlete (3 lines):
 ```
 [athlete name] [DOB]
 [rank] [dorsal] [club name]

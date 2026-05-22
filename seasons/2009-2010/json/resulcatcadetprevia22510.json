@@ -2,25 +2,14 @@
   "event_name": "FASE PR VIA DEL CAMPIONAT DE CATALUNYA CADE",
   "event_date": "05/06/05",
   "event_location": "Terrassa",
-  "total_results": 2,
+  "total_results": 1,
+  "event_src": "https://old.fcatletisme.cat/Promocio/promocio2010/resulcatcadetprevia22510.pdf",
   "results": [
     {
       "athlete_name": "MARIA MONTAÑES ARBO",
-      "athlete_dob": "11/05/1995",
-      "athlete_license": "",
       "performance": "10.06",
-      "discipline": "LLAN AMENT DE PES CADET FEMEN",
-      "wind": null,
-      "place": 3
-    },
-    {
-      "athlete_name": "MARIA MONTAÑES ARBO",
-      "athlete_dob": "11/05/1995",
-      "athlete_license": "",
-      "performance": "24.59",
-      "discipline": "5 CL51415 PESSARRODONA SILVESTRE, LAURA 28/03/1995 CA VIC 15,04 26,34 22,50 25,40 X X 26,34 F",
-      "wind": null,
-      "place": 6
+      "discipline": "LLANÇAMENT DE PES CADET FEMENI",
+      "wind": null
     }
   ]
 }

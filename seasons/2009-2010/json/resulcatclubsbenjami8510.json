@@ -2,52 +2,32 @@
   "event_name": "CAMPIONAT DE CATALUNYA DE CLUBS 2010",
   "event_date": "21/01/2001",
   "event_location": "El Prat",
-  "total_results": 5,
+  "total_results": 4,
+  "event_src": "https://old.fcatletisme.cat/Promocio/promocio2010/resulcatclubsbenjami8510.pdf",
   "results": [
     {
       "athlete_name": "CARLA BERENGUEL TORRES",
-      "athlete_dob": "22/02/2002",
-      "athlete_license": "",
       "performance": "10.2",
-      "discipline": "60 METRES LLISOS BENJAM FEMEN",
-      "wind": null,
-      "place": 3
+      "discipline": "60 METRES LLISOS BENJAM FEMENI",
+      "wind": null
     },
     {
       "athlete_name": "MAR VAZQUEZ DOMINGO",
-      "athlete_dob": "17/03/2002",
-      "athlete_license": "",
       "performance": "4.09",
-      "discipline": "1000 METRES LLISOS BENJAM FEMEN",
-      "wind": null,
-      "place": 10
+      "discipline": "1000 METRES LLISOS BENJAM FEMENI",
+      "wind": null
     },
     {
       "athlete_name": "LAURA MASCARELL JULIAN",
-      "athlete_dob": "14/06/2002",
-      "athlete_license": "",
       "performance": "6.37",
-      "discipline": "1000 METRES MARXA BENJAM FEMEN",
-      "wind": null,
-      "place": 6
-    },
-    {
-      "athlete_name": "MARIA MONTAÑES ARBO",
-      "athlete_dob": "22/02/2001",
-      "athlete_license": "",
-      "performance": "",
-      "discipline": "SALT D'AL ADA BENJAM FEMEN",
-      "wind": null,
-      "place": 4
+      "discipline": "1000 METRES MARXA BENJAM FEMENI",
+      "wind": null
     },
     {
       "athlete_name": "JULIA CASAS CARPENA",
-      "athlete_dob": "12/06/2002",
-      "athlete_license": "",
       "performance": "2.08",
-      "discipline": "SALT DE LLARGADA BENJAM FEMEN",
-      "wind": null,
-      "place": 17
+      "discipline": "SALT DE LLARGADA BENJAM FEMENI",
+      "wind": null
     }
   ]
 }

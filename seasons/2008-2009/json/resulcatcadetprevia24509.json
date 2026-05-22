@@ -2,43 +2,26 @@
   "event_name": "FASE PR VIA DEL CAMPIONAT DE CATALUNYA CADET",
   "event_date": "05/06/05",
   "event_location": "Badalona",
-  "total_results": 4,
+  "total_results": 3,
+  "event_src": "https://old.fcatletisme.cat/Promocio/promocio2009/resulcatcadetprevia24509.pdf",
   "results": [
     {
       "athlete_name": "NURIA TORREDEME PASCUAL",
-      "athlete_dob": "22/10/1994",
-      "athlete_license": "",
       "performance": "14.06",
-      "discipline": "100 METRES LLISOS CADET FEMEN",
-      "wind": null,
-      "place": 19
+      "discipline": "100 METRES LLISOS CADET FEMENI",
+      "wind": null
     },
     {
       "athlete_name": "MONTSERRAT GUINOVART PEDESCOLL",
-      "athlete_dob": "24/03/1994",
-      "athlete_license": "",
-      "performance": "",
-      "discipline": "SALT D'AL ADA CADET FEMEN",
-      "wind": null,
-      "place": null
-    },
-    {
-      "athlete_name": "MONTSERRAT GUINOVART PEDESCOLL",
-      "athlete_dob": "24/03/1994",
-      "athlete_license": "",
       "performance": "4.64",
-      "discipline": "SALT DE LLARGADA CADET FEMEN",
-      "wind": null,
-      "place": 2
+      "discipline": "SALT DE LLARGADA CADET FEMENI",
+      "wind": null
     },
     {
       "athlete_name": "NURIA TORREDEME PASCUAL",
-      "athlete_dob": "22/10/1994",
-      "athlete_license": "",
       "performance": "4.02",
-      "discipline": "SALT DE LLARGADA CADET FEMEN",
-      "wind": null,
-      "place": 16
+      "discipline": "SALT DE LLARGADA CADET FEMENI",
+      "wind": null
     }
   ]
 }

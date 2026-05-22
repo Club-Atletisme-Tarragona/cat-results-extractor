@@ -498,13 +498,76 @@ def parse_pdf(pdf_path):
     return header, all_results
 
 
+def clean_event_name_raw(name):
+    """Clean event name from PDF artifacts and insert word boundaries.
+    
+    Handles:
+    1. Split words: "LLAN AMENT" -> "LLANÇAMENT", "SALT D'AL ADA" -> "SALT D'ALÇADA"
+    2. Concatenated words: "60METRESLLISOSCADETFEMENI" -> "60 METRES LLISOS CADET FEMENI"
+    3. Noise removal: duplicated parts, trailing FEMEN/MASC
+    """
+    # Step 1: Fix split words BEFORE removing spaces
+    name = re.sub(r'LLAN\s+(A\w*)', r'LLANÇ\1', name)
+    name = re.sub(r'AL\s+(A\w*)', r'ALÇ\1', name)
+    name = re.sub(r'PI\s+STA', 'PISTA', name)
+    name = re.sub(r'CO\s+BERTA', 'COBERTA', name)
+    name = re.sub(r'CADET\s+JUV\s+ENI', 'CADET-JUVENIL', name)
+    
+    # Step 2: Remove all remaining spaces to normalize
+    name = re.sub(r'\s+', '', name)
+    
+    # Step 3: Insert word boundaries using known keywords
+    keywords = [
+        'LLANÇAMENT', 'LLANAMENT', 'PESSARRODONA', 'SEMIFINAL',
+        'INFANTIL', 'JUVENIL', 'CAMPIONAT', 'CAMPION',
+        'OBSTACLES', 'TANQUES', 'MARXA', 'MARCHA', 'RELLEUS',
+        'MASCUL', 'FEMENI', 'FEMEN', 'MASC',
+        'BENJAM', 'ALEV', 'CADET', 'JUV', 'SUB20', 'SUB18',
+        'LLARGADA', 'DELLARGADA', 'ALTADA', 'ALÇADA', 'DALTADA',
+        'PERTIGA', 'PERXA', 'JABALINA', 'JAVELINA',
+        'METRES', 'METRE', 'LLISOS', 'VALLS', 'DISC', 'PES', 'MART',
+        'DARD', 'TRIPLE', 'RELLEU', 'PENALT', 'PENAL',
+        'CONTROL', 'JORNADA', 'TROFEU', 'TROF',
+        'PISTA', 'COBERTA', 'INTERIOR', 'EXTERIOR',
+        'PREVIA', 'FINAL', '1000', '1500', '3000', '5000',
+        '60', '100', '200', '300', '400', '800',
+        'SALT',
+    ]
+    short_keywords = ['LLANÇAMENT', 'LLANAMENT', 'DE', 'D', 'M', 'F']
+    keywords.sort(key=len, reverse=True)
+    
+    result = name
+    for kw in keywords:
+        pattern = r'([A-Za-z0-9])(' + re.escape(kw) + r')'
+        result = re.sub(pattern, r'\1 \2', result, flags=re.IGNORECASE)
+    
+    # Step 4: Handle short keywords at word boundaries
+    for kw in short_keywords:
+        result = re.sub(r'^(' + re.escape(kw) + r')', r'\1 ', result, flags=re.IGNORECASE)
+        result = re.sub(r' (' + re.escape(kw) + r')\b', r' \1', result, flags=re.IGNORECASE)
+    
+    # Step 5: Normalize whitespace
+    cleaned = re.sub(r'\s+', ' ', result).strip()
+    
+    # Step 6: Remove trailing duplicated parts
+    cleaned = re.sub(r'(.+?)\s+-\s+\1', r'\1', cleaned)
+    
+    # Step 7: Fix trailing abbreviations
+    cleaned = re.sub(r'FEMEN\s*$', 'FEMENI', cleaned)
+    cleaned = re.sub(r'MASC\s*$', 'MASCULI', cleaned)
+    
+    return cleaned
+
+
+
 def main():
     if len(sys.argv) < 2:
-        print("Usage: python3 extract_promocio.py <pdf_file> [output_dir]")
+        print("Usage: python3 extract_promocio.py <pdf_file> [output_dir] [pdf_url]")
         sys.exit(1)
     
     pdf_path = sys.argv[1]
     output_dir = sys.argv[2] if len(sys.argv) > 2 else "json"
+    pdf_url = sys.argv[3] if len(sys.argv) > 3 else ""
     os.makedirs(output_dir, exist_ok=True)
     
     print(f"Extracting from: {pdf_path}")
@@ -516,49 +579,62 @@ def main():
         print("\nNo results found. Skipping JSON export.")
         return
     
-    # Validate
+    # Validate: keep only entries with non-empty performance
     valid_results = []
     for r in results:
         name = r.get("atleta_nom", "").strip()
         performance = r.get("marca", "").strip()
         discipline = r.get("prova", "").strip()
-        # Allow DNS/DNF/Ret entries (empty performance is valid for these)
-        if not name or not discipline:
-            missing = []
-            if not name: missing.append("athlete_name")
-            if not performance: missing.append("performance")
-            if not discipline: missing.append("discipline")
-            print(f"WARNING: Skipping entry missing {', '.join(missing)}", file=sys.stderr)
+        
+        # Must have a name and a non-empty performance
+        if not name:
+            print(f"WARNING: Skipping entry with empty name", file=sys.stderr)
             continue
-        # Reject entries where name looks like a license number (all digits + CL pattern)
+        if not performance:
+            print(f"WARNING: Skipping entry with empty performance: {name} - {discipline}", file=sys.stderr)
+            continue
+        if not discipline:
+            print(f"WARNING: Skipping entry with empty discipline: {name}", file=sys.stderr)
+            continue
+        # Reject entries where name looks like a license number
         if re.match(r'^\d+\s+CL', name):
             print(f"WARNING: Skipping entry with license-like name: '{name}'", file=sys.stderr)
             continue
-        valid_results.append(r)
+        
+        # Clean discipline name
+        discipline = clean_event_name_raw(discipline)
+        
+        # Reject entries where discipline looks like a license/athlete block line
+        # (contains "CL", "PESSARRODONA", "CA VIC", etc. — these are data from adjacent lines merged)
+        if any(skip in discipline.upper() for skip in ['CL', 'PESSARRODONA', 'CA VIC', 'CA BARCELONA', 'CA TARRAGONA', 'CLUB']):
+            print(f"WARNING: Skipping entry with license-like discipline: {name} - {discipline}", file=sys.stderr)
+            continue
+        
+        valid_results.append({
+            "athlete_name": name,
+            "performance": performance,
+            "discipline": discipline,
+            "wind": r.get("vent"),
+        })
     
     results = valid_results
     print(f"\nAfter validation: {len(results)} valid results")
     
+    for r in results:
+        print(f"    {r['athlete_name']:40s} | {r['discipline']:30s} | {r['performance']:12s}")
+    
     full_competicio = f"{header['competicio']} - {header['ubicacio']}" if header['ubicacio'] else header['competicio']
+    # Clean event name: just remove extra spaces, don't apply word boundary logic
+    full_competicio = re.sub(r'\s+', ' ', full_competicio).strip()
     
     output = {
         "event_name": full_competicio,
         "event_date": header['data'],
         "event_location": header['localitat'],
         "total_results": len(results),
-        "results": []
+        "event_src": pdf_url,
+        "results": results
     }
-    
-    for r in results:
-        output["results"].append({
-            "athlete_name": r["atleta_nom"],
-            "athlete_dob": r["atleta_naixement"],
-            "athlete_license": "",
-            "performance": r["marca"],
-            "discipline": r["prova"],
-            "wind": r["vent"],
-            "place": r.get("lloc"),
-        })
     
     base = os.path.basename(pdf_path).replace('.pdf', '')
     output_path = os.path.join(output_dir, f"{base}.json")

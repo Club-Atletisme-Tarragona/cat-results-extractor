@@ -1,15 +1,19 @@
 {
-  "event_name": "FASE PR VIA DEL CAMPIONAT DE CATALUNYA INFANTI",
-  "event_date": "08/10/95",
+  "event_name": "FASE PRÈVIA DEL CAMPIONAT DE CATALUNYA INFANTI",
+  "event_date": "23/05/2010",
   "event_location": "Calella",
-  "total_results": 1,
   "event_src": "https://old.fcatletisme.cat/Promocio/promocio2010/resulcatinfantilprevia23510.pdf",
+  "total_results": 2,
   "results": [
     {
       "athlete_name": "ADOLF MILLA GUASH",
-      "performance": "4.01",
-      "discipline": "SALT DE LLARGADA INFANTIL MASCUL",
-      "wind": null
+      "discipline": "80 METRES LLISOS INFANTIL MASCULÍ",
+      "performance": "11,79"
+    },
+    {
+      "athlete_name": "ADOLF MILLA GUASH",
+      "discipline": "SALT DE LLARGADA INFANTIL MASCULÍ",
+      "performance": "4.01"
     }
   ]
 }

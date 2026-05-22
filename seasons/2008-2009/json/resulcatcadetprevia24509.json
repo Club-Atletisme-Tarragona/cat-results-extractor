@@ -1,27 +1,29 @@
 {
-  "event_name": "FASE PR VIA DEL CAMPIONAT DE CATALUNYA CADET",
-  "event_date": "05/06/05",
-  "event_location": "Badalona",
-  "total_results": 3,
+  "event_name": "FASE PRÈVIA DEL CAMPIONAT DE CATALUNYA CADET ",
+  "event_date": "24/05/2009",
+  "event_location": "",
   "event_src": "https://old.fcatletisme.cat/Promocio/promocio2009/resulcatcadetprevia24509.pdf",
+  "total_results": 4,
   "results": [
     {
       "athlete_name": "NURIA TORREDEME PASCUAL",
-      "performance": "14.06",
-      "discipline": "100 METRES LLISOS CADET FEMENI",
-      "wind": null
-    },
-    {
-      "athlete_name": "MONTSERRAT GUINOVART PEDESCOLL",
-      "performance": "4.64",
-      "discipline": "SALT DE LLARGADA CADET FEMENI",
-      "wind": null
+      "discipline": "100 METRES LLISOS CADET FEMEN",
+      "performance": "14,06"
     },
     {
       "athlete_name": "NURIA TORREDEME PASCUAL",
-      "performance": "4.02",
-      "discipline": "SALT DE LLARGADA CADET FEMENI",
-      "wind": null
+      "discipline": "100 METRES LLISOS CADET FEMENÍ",
+      "performance": "14,06"
+    },
+    {
+      "athlete_name": "MONTSERRAT GUINOVART PEDESCOLL",
+      "discipline": "SALT DE LLARGADA CADET FEMENÍ",
+      "performance": "4.64"
+    },
+    {
+      "athlete_name": "NURIA TORREDEME PASCUAL",
+      "discipline": "SALT DE LLARGADA CADET FEMENÍ",
+      "performance": "4.02"
     }
   ]
 }

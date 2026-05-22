@@ -1,15 +1,29 @@
 {
-  "event_name": "FASE PR VIA DEL CAMPIONAT DE CATALUNYA CADE",
-  "event_date": "05/06/05",
+  "event_name": "FASE PRÈVIA DEL CAMPIONAT DE CATALUNYA CADE",
+  "event_date": "22/05/2010",
   "event_location": "Terrassa",
-  "total_results": 1,
   "event_src": "https://old.fcatletisme.cat/Promocio/promocio2010/resulcatcadetprevia22510.pdf",
+  "total_results": 4,
   "results": [
     {
+      "athlete_name": "ARNAU MIRO COCH",
+      "discipline": "SALT D'ALÇADA CADET MASCULÍ",
+      "performance": "1.43"
+    },
+    {
+      "athlete_name": "MARIA ÁLVAREZ AUÑÓS",
+      "discipline": "SALT D'ALÇADA CADET FEMENÍ",
+      "performance": "1.45"
+    },
+    {
       "athlete_name": "MARIA MONTAÑES ARBO",
-      "performance": "10.06",
-      "discipline": "LLANÇAMENT DE PES CADET FEMENI",
-      "wind": null
+      "discipline": "LLANÇAMENT DE PES CADET FEMENÍ",
+      "performance": "10.06"
+    },
+    {
+      "athlete_name": "MARIA MONTAÑES ARBO",
+      "discipline": "LLANÇAMENT DE DISC CADET FEMEN",
+      "performance": "25.50"
     }
   ]
 }

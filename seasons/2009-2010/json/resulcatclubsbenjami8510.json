@@ -1,33 +1,29 @@
 {
   "event_name": "CAMPIONAT DE CATALUNYA DE CLUBS 2010",
-  "event_date": "21/01/2001",
-  "event_location": "El Prat",
-  "total_results": 4,
+  "event_date": "08/05/2010",
+  "event_location": "El Prat de Llobregat",
   "event_src": "https://old.fcatletisme.cat/Promocio/promocio2010/resulcatclubsbenjami8510.pdf",
+  "total_results": 4,
   "results": [
     {
       "athlete_name": "CARLA BERENGUEL TORRES",
-      "performance": "10.2",
-      "discipline": "60 METRES LLISOS BENJAM FEMENI",
-      "wind": null
-    },
-    {
-      "athlete_name": "MAR VAZQUEZ DOMINGO",
-      "performance": "4.09",
-      "discipline": "1000 METRES LLISOS BENJAM FEMENI",
-      "wind": null
+      "discipline": "60 METRES LLISOS BENJAMÍ FEMEN",
+      "performance": "10,2"
     },
     {
       "athlete_name": "LAURA MASCARELL JULIAN",
-      "performance": "6.37",
-      "discipline": "1000 METRES MARXA BENJAM FEMENI",
-      "wind": null
+      "discipline": "1000 METRES MARXA BENJAMÍ FEMENÍ",
+      "performance": "6,37"
     },
     {
       "athlete_name": "JULIA CASAS CARPENA",
-      "performance": "2.08",
-      "discipline": "SALT DE LLARGADA BENJAM FEMENI",
-      "wind": null
+      "discipline": "SALT DE LLARGADA BENJAMÍ FEMENÍ",
+      "performance": "2.08"
+    },
+    {
+      "athlete_name": "MARIA FERNANDEZ DIEZ",
+      "discipline": "LLANÇAMENT DE PILOTA BENJAMÍ FEMENÍ",
+      "performance": "12.75"
     }
   ]
 }

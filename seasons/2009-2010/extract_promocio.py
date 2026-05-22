@@ -1,17 +1,16 @@
 #!/usr/bin/env python3
 """
-Extract CATT results from old FCAT Promoció PDFs (2008-2009 era).
+Extract CATT results from old FCAT Promoció PDFs (2009-2010 era).
 
-These PDFs store text in PostScript content streams. This script decompresses
-FlateDecode streams, extracts text from PostScript operators (TJ and Tj),
-and parses CATT athlete results.
+Uses the CA Tarragona needle-in-haystack approach: decompress FlateDecode
+streams, search for "CA TARRAGONA" in every TJ block, extract name and marks.
 
-Key insight: The PDFs use TWO types of text operators:
-- TJ: [(text1)spacing(text2)...]TJ — used for athlete result rows (multiple fields)
-- Tj: (text)Tj — used for event headers, competition titles, wind info
-
-Each TJ block is a complete data row. Each Tj is a supplementary text element.
-We extract both, track Y positions per-stream, and parse independently per-stream.
+Mark parsing follows extract_catt.py conventions:
+- Marcha: HH:MM:SS > HH:MM.ss > HH:MM > min,seg[,centesimes] > min'seg''cent
+- Curses: HH:MM:SS > HH:MM.ss > HH:MM > min'seg''cent > decimal seconds (5-60s)
+- Height: best of valid attempts (1.0-7.0m), dot decimal separator
+- Jump: best of valid attempts (1.5-20.0m), dot decimal separator
+- Field: best of valid attempts (3.0-80.0m), dot decimal separator
 """
 
 import sys
@@ -38,610 +37,330 @@ def decompress_streams(pdf_path):
     return streams
 
 
-def extract_all_text_elements(streams):
-    """Extract ALL text elements from all streams with Y position tracking.
+# ── Mark parsing (inspired by extract_catt.py conventions) ──────────────────
+
+def parse_performance(event, raw_marks):
+    """Parse marks from legacy PDF TJ blocks following extract_catt.py patterns.
     
-    Returns list of dicts: {stream_idx, y, text, is_row}
-    TJ blocks are joined into a single line per block. Tj operators individually.
-    Y positions tracked per-stream by processing operators in document order.
+    Priority order for races (from AGENTS.md):
+    1. HH:MM:SS (e.g. 2:47:53 for marathon)
+    2. HH:MM.ss (e.g. 11:26.41 for 3000m)
+    3. HH:MM (e.g. 26:29)
+    4. min'seg''cent (e.g. 10'06''1)
+    5. Decimal seconds (e.g. 11.79 or 11,79)
+    
+    For jumps/throws: best valid attempt with dot decimal separator.
     """
-    all_elements = []
-    default_leading = 12.0
-    
-    for stream_idx, stream in enumerate(streams):
-        current_y: float = 0
-        current_x: float = 0
-        
-        # Find ALL operators with offsets, process in order
-        ops = []
-        for m in re.finditer(r'(\d+\.?\d*)\s+(\d+\.?\d*)\s+Tm', stream):
-            ops.append((m.start(), 'Tm', m.group(1), m.group(2)))
-        for m in re.finditer(r'(\d+\.?\d*)\s+(\d+\.?\d*)\s+Td(?!\*)', stream):
-            ops.append((m.start(), 'Td', m.group(1), m.group(2)))
-        for m in re.finditer(r'(\d+\.?\d*)\s+(\d+\.?\d*)\s+TD', stream):
-            ops.append((m.start(), 'TD', m.group(1), m.group(2)))
-        for m in re.finditer(r'T\*', stream):
-            ops.append((m.start(), 'T*', None, None))
-        for m in re.finditer(r'\[(.*?)\]\s*TJ', stream, re.DOTALL):
-            ops.append((m.start(), 'TJ', m.group(1), None))
-        for m in re.finditer(r'\(([^)]*)\)\s*Tj', stream):
-            ops.append((m.start(), 'Tj', m.group(1), None))
-        
-        ops.sort(key=lambda x: x[0])
-        
-        for _, op_type, val1, val2 in ops:
-            if op_type == 'Tm':
-                current_x = float(val1)
-                current_y = float(val2)
-            elif op_type in ('Td', 'TD'):
-                current_y += float(val2)
-            elif op_type == 'T*':
-                current_y -= default_leading
-            elif op_type == 'TJ':
-                parts = re.findall(r'\(([^)]*)\)', val1)
-                line_text = ' '.join(p for p in parts)
-                if line_text.strip():
-                    all_elements.append({
-                        'stream_idx': stream_idx, 'y': current_y,
-                        'text': line_text.strip(), 'is_row': True,
-                    })
-            elif op_type == 'Tj':
-                printable = ''.join(c if 32 <= ord(c) < 127 else ' ' for c in val1)
-                stripped = printable.strip()
-                if stripped:
-                    all_elements.append({
-                        'stream_idx': stream_idx, 'y': current_y,
-                        'text': stripped, 'is_row': False,
-                    })
-    
-    return all_elements
+    if not raw_marks:
+        return ''
+
+    valid_marks = [m for m in raw_marks if m not in ('O', 'X', 'XO', 'XXX', 'dq.', 'DQ', 'DNS', 'DNF', '')]
+    if not valid_marks:
+        return ''
+
+    event_upper = event.upper()
+
+    # --- MARXA (race walk) ---
+    if 'MARXA' in event_upper:
+        for m in valid_marks:
+            m_match = re.search(r'(\d{1,2}:\d{2}\.\d{2})', m)
+            if m_match:
+                return m_match.group(1)
+            m_match = re.search(r'(\d{1,2}:\d{2})(?!:\d)', m)
+            if m_match:
+                return m_match.group(1)
+            parts = m.split(',')
+            if len(parts) >= 2:
+                try:
+                    first = int(parts[0])
+                    if 1 <= first <= 59:
+                        return f"{parts[0]},{parts[1]}"
+                except ValueError:
+                    pass
+            m_match = re.search(r"(\d{1,2})'(\d{2})''(\d)", m)
+            if m_match:
+                return f"{m_match.group(1)}:{m_match.group(2)}.{m_match.group(3)}"
+        return ''
+
+    # --- CURSES (track events) ---
+    if 'METRES LLISOS' in event_upper or 'METRES TANQUES' in event_upper or 'METRES VALLS' in event_upper:
+        for m in valid_marks:
+            m_match = re.search(r'(\d{1,2}:\d{2}\.\d{2})', m)
+            if m_match:
+                return m_match.group(1)
+            m_match = re.search(r'(\d{1,2}:\d{2})(?!:\d)', m)
+            if m_match:
+                return m_match.group(1)
+            m_match = re.search(r"(\d{1,2})'(\d{2})''(\d)", m)
+            if m_match:
+                return f"{m_match.group(1)}:{m_match.group(2)}.{m_match.group(3)}"
+            parts = m.split(',')
+            if len(parts) == 2:
+                try:
+                    val = float(parts[0]) + float(parts[1]) / 100
+                    if 5.0 <= val <= 60.0:
+                        return f"{parts[0]},{parts[1]}"
+                except ValueError:
+                    pass
+            for num_match in re.finditer(r'(?<![\d.:])(\d+\.\d{2})(?![\d.])', m):
+                val = float(num_match.group(1))
+                if 5.0 <= val <= 60.0:
+                    return num_match.group(1)
+        return ''
+
+    # --- SALT D'ALÇADA (height) ---
+    if "SALT D'ALÇADA" in event_upper or "SALT D'ALTADA" in event_upper or "ALTURA" in event_upper:
+        attempts = []
+        for m in valid_marks:
+            parts = m.split(',')
+            if len(parts) == 2:
+                try:
+                    val = float(parts[0]) + float(parts[1]) / 100
+                    if 0.5 <= val <= 7.0:
+                        attempts.append(val)
+                except ValueError:
+                    pass
+        if attempts:
+            best = max(attempts)
+            return f"{best:.2f}"
+        return ''
+
+    # --- SALT DE LLARGADA / TRIPLE / PÈRTIGA (jump) ---
+    if 'LLARGADA' in event_upper or 'TRIPLE' in event_upper or 'PÈRTIGA' in event_upper or 'PERTIGA' in event_upper or 'PERXA' in event_upper:
+        attempts = []
+        for m in valid_marks:
+            parts = m.split(',')
+            if len(parts) == 2:
+                try:
+                    val = float(parts[0]) + float(parts[1]) / 100
+                    if 1.5 <= val <= 20.0:
+                        attempts.append(val)
+                except ValueError:
+                    pass
+        if attempts:
+            best = max(attempts)
+            return f"{best:.2f}"
+        return ''
+
+    # --- LLANÇAMENT (field events) ---
+    if ('LLANÇAMENT' in event_upper or 'LLANAMENT' in event_upper or
+        'DISC' in event_upper or 'PES' in event_upper or
+        'MART' in event_upper or 'JABALINA' in event_upper or 'DARD' in event_upper):
+        attempts = []
+        for m in valid_marks:
+            parts = m.split(',')
+            if len(parts) == 2:
+                try:
+                    val = float(parts[0]) + float(parts[1]) / 100
+                    if 3.0 <= val <= 80.0:
+                        attempts.append(val)
+                except ValueError:
+                    pass
+        if attempts:
+            best = max(attempts)
+            return f"{best:.2f}"
+        return ''
+
+    # Fallback
+    return ','.join(valid_marks)
 
 
-# Club detection — 2008-2009 season
-# In this era, CATT athletes were listed under "CA TARRAGONA" in the PDFs.
-# CG TARRAGONA = Club Gimnàstic Tarragona (NOT CATT)
-# NÀSTIC/NASTIC = Club Gimnàstic Tarragona athletics (NOT CATT)
-CATT_CLUB_NAMES = {
-    'CA TARRAGONA', 'C. A. TARRAGONA', 'CATT', 'CLUB ATLETISME TARRAGONA',
-    'C.A. TARRAGONA', 'C.A.TARRAGONA',
-    'UDT', 'UNIO DEPORTIVA TARRAGONA',
-}
+# ── Event name extraction ───────────────────────────────────────────────────
 
-
-def is_catt_club(club_name):
-    """Check if a club name matches C. A. Tarragona (any variant)."""
-    club_upper = re.sub(r'\s+', ' ', club_name.strip().upper())
-    if club_upper in CATT_CLUB_NAMES:
-        return True
-    for pattern in [r'C\.\s*A\.\s*TARRAGONA', r'C\.\s*A\.\s*T\.\s*TARRAGONA',
-                    r'CA\s+TARRAGONA', r'CATT',
-                    r'UNIO\s+DEPORTIVA\s+TARRAGONA', r'UDT']:
-        if re.search(pattern, club_upper):
-            return True
-    return False
-
-
-def is_catt_line(line):
-    """Check if a line contains a CATT athlete result."""
-    stripped = line.strip()
-    if not stripped:
-        return False
-    skip_labels = ['Lloc', 'Dorsal', 'Nom', 'Any', 'Club', 'Marca',
-                   'Lugar', 'Puesto', 'Nombre', 'Fecha', 'Licencia',
-                   'RESULT', 'Calle', 'Hora', 'Leyenda', 'Serie',
-                   'Ronda', 'Série', 'Eliminatoria', 'Heats', 'Heat',
-                   'Final', 'Gestion', 'Pagina', 'SUMARIO', 'Rank',
-                   'Viento', 'Pasos', 'RESULTADO', 'Puntos', 'P.Líder',
-                   'CARRER', 'LLIC.']
-    if any(label in stripped for label in skip_labels):
-        return False
-    return is_catt_club(stripped)
-
-
-def is_event_header(line):
-    """Check if a line is an event header."""
-    line = line.strip()
-    if not line or is_catt_club(line):
-        return False
-    skip_labels = ['Lloc', 'Dorsal', 'Nom', 'Any', 'Club', 'Marca',
-                   'Lugar', 'Puesto', 'Nombre', 'Fecha', 'Licencia',
-                   'RESULT', 'Calle', 'Hora', 'Leyenda', 'Serie',
-                   'Ronda', 'Série', 'Eliminatoria', 'Heats', 'Heat',
-                   'Final', 'Gestion', 'Pagina', 'SUMARIO', 'Rank',
-                   'Viento', 'Pasos', 'RESULTADO', 'Puntos', 'P.Líder']
-    line_upper = line.upper()
-    for label in skip_labels:
-        if label in line_upper:
-            return False
-    if re.match(r'^\d+(?:\.\d+)?\s*(?:m|m\.|metres|meters)', line):
-        return True
-    event_names = ['PES', 'DISC', 'MARTELL', 'JAVELINA', 'DARD', 'ALTURA',
-                   'PÈRTIGA', 'PERTIGA', 'LLARGADA', 'TRIPLE', 'SALT',
-                   'RELLEU', 'MARXA', 'MARCHA', 'PENTATHLON', 'HEPTATHLON']
-    for kw in event_names:
-        if kw in line_upper:
-            return True
-    if re.match(r'^(?:60|100|200|400|800|1000|1500|3000)\s+METRES', line_upper):
-        return True
-    if re.match(r'^SALT', line_upper):
-        return True
-    if re.match(r'^LLANÇAMENT', line_upper):
-        return True
-    if re.match(r'^(?:60)\s+METRES\s+TANQUES', line_upper):
-        return True
-    return False
-
-
-def extract_event_name(line):
-    """Extract event name from header, removing sub-event suffixes."""
-    line = line.strip()
-    line = re.sub(r'^\d+[a-zèé]?\.\s*(Sèrie|Serie|Ronda|Final|Eliminatoria)\s*', '', line)
-    return line.strip()
-
-
-def parse_header(lines):
-    """Parse competition header from text lines."""
-    competicio = ubicacio = localitat = data = ""
-    
-    for line in lines[:30]:
-        s = line.strip()
-        if not s:
-            continue
-        su = s.upper()
-        if any(kw in su for kw in ['JORNADA', 'TROBADA', 'TROFEU', 'CONTROL',
-                                    'CAMPIONAT', 'CAMPEONATO', 'LIGA', 'LLIGA',
-                                    'PROMOCIÓ', 'PROMOCIÓN', 'FINAL']):
-            competicio = re.sub(r'\s+\d{2}\s*[-–]\s*\d{2}\s*$', '', s).strip()
-            break
-    
-    for line in lines[:30]:
-        s = line.strip()
-        if any(kw in s for kw in ['Estadi', 'Pista', 'Pabellon', 'Pabellón',
-                                   'Camp', 'pabellon', 'pabellón']):
-            ubicacio = s
-            break
-    
-    for line in lines[:30]:
-        m = re.search(r'(\d{2}\s*/\s*\d{2}\s*/\s*\d{4})', line)
-        if m:
-            data = re.sub(r'\s+', '', m.group(1))
-            break
-        m = re.search(r'(\d{2}\s*/\s*\d{2}\s*/\s*\d{2})', line)
-        if m:
-            data = re.sub(r'\s+', '', m.group(1))
-            break
-    
-    cities = ['Tarragona', 'Manresa', 'Vilafranca', 'Terrassa', 'Badalona',
-              'Mataró', 'Mollet', 'Sant Celoni', 'Girona', 'Lleida', 'Cambrils',
-              'Valls', 'Amposta', 'Reus', 'Olot', 'Figueres', 'Lloret',
-              'Palafrugell', 'Castellar', 'Granollers', 'Calella', 'El Prat',
-              'Barcelona', 'Serrahima', "L'Hospitalet", 'Hospitalet', 'Can Dragó', 'Camp Clar']
-    for line in lines[:30]:
-        s = line.strip()
-        if not s:
-            continue
-        for city in cities:
-            if city.lower() in s.lower() and city not in competicio.lower():
-                localitat = city
-                break
-        if localitat:
-            break
-    
-    return competicio, ubicacio, localitat, data
-
-
-def parse_result_line(line, event_name):
-    """Parse a single result line for a CATT athlete."""
-    stripped = line.strip()
-    club_match = re.search(
-        r'(C\.\s*A\.\s*TARRAGONA|CATT|C\.\s*A\.\s*T\.\s*TARRAGONA|CA\s+TARRAGONA|Club\s+Atletisme\s+Tarragona|C\.A\.\s*TARRAGONA|C\.A\.TARRAGONA|UDT)',
-        stripped, re.IGNORECASE
-    )
-    if not club_match:
-        return None
-    
-    club_pos = club_match.start()
-    before_club = stripped[:club_pos].rstrip()
-    after_club = stripped[club_match.end():].strip()
-    
-    # Try full DOB format first
-    dob_match = re.search(r'(\d{2}/\d{2}/\d{4})\s*$', before_club)
-    if dob_match:
-        dob = dob_match.group(1)
-        before_dob = before_club[:dob_match.start()].rstrip()
-        # Match license number with various formats: "CL 52265", "CL - 52265", "1 CL - 52265", "1 434 CL 189"
-        lic_match = re.search(r'(?:\d+\s+)?(?:CL|CT|CAT|IB|FC|JA|BC|GE)[\s-]*(\d+)\s+(.+)', before_dob)
-        if lic_match:
-            name = clean_athlete_name(lic_match.group(2).strip())
-        else:
-            return None
-        pos_match = re.match(r'(\d+\.?)', before_dob)
-        pos = int(pos_match.group(1).rstrip('.')) if pos_match else None
-    else:
-        year_match = re.search(r'(\d{2})\s*$', before_club)
-        if not year_match:
-            return None
-        year = year_match.group(1)
-        name_and_pos = before_club[:year_match.start()].rstrip()
-        # Try to match: "pos pos_num license_num NAME" or "pos pos_num NAME"
-        pos_match = re.match(r'(\d+\.?)\s+(\d+)\s+(CL[\s-]*\d+\s+)?(.+)', name_and_pos)
-        if not pos_match:
-            # Try simpler: "pos pos_num NAME"
-            pos_match = re.match(r'(\d+\.?)\s+(\d+)\s+(.+)', name_and_pos)
-            if not pos_match:
-                return None
-        pos = int(pos_match.group(1).rstrip('.'))
-        # Group 3 might be license+name or just name
-        if len(pos_match.groups()) >= 4 and pos_match.group(3):
-            # Has license prefix
-            name = clean_athlete_name(pos_match.group(4).strip())
-        else:
-            name = clean_athlete_name(pos_match.group(3).strip())
-        year_int = int(year)
-        dob_year = 2000 + year_int if year_int <= 9 else 1900 + year_int
-        dob = f"1/1/{dob_year}"
-    
-    converted_mark = extract_mark_from_after_club(after_club)
-    wind = extract_wind_from_line(line)
-    clean_event, event_wind = clean_event_name(event_name)
-    if not wind and event_wind:
-        wind = event_wind
-    
-    return {
-        "prova": clean_event, "atleta_nom": name.strip(),
-        "atleta_naixement": dob, "marca": converted_mark,
-        "vent": wind, "lloc": pos,
-    }
-
-
-def extract_mark_from_after_club(after_club):
-    """Extract mark from text after the club name."""
-    after_club = after_club.strip()
-    if not after_club or after_club in ('Ret.', 'Ret', 'AB', 'DNF', 'DNS', 'DQ'):
-        return after_club if after_club else ""
-    
-    time_match = re.match(r'(\d+:\d+\.\d+)', after_club)
-    if time_match:
-        return time_match.group(1)
-    
-    ms = re.match(r"(\d+)['\"](\d+)['\"](\d+)", after_club)
-    if ms:
-        return str(int(ms.group(1)) * 60 + int(ms.group(2)) + int(ms.group(3)) / 10.0)
-    
-    sq = re.match(r"(\d+)['\"](\d+)", after_club)
-    if sq:
-        return f"{sq.group(1)}.{sq.group(2)}"
-    
-    tokens = re.findall(r'(\d+[,\.]\d+|X|x|-|XO|xxo)', after_club)
-    if len(tokens) >= 3:
-        valid_marks = []
-        for token in tokens:
-            if token in ('X', 'x', '-', 'XO', 'xxo'):
-                continue
-            try:
-                val = float(token.replace(',', '.'))
-                if 1.0 <= val <= 20.0:
-                    valid_marks.append(val)
-            except ValueError:
-                continue
-        if valid_marks:
-            return f"{max(valid_marks):.2f}"
-        for token in tokens:
-            try:
-                float(token.replace(',', '.'))
-                return token.replace(',', '.')
-            except ValueError:
-                continue
-    
-    single = re.match(r'(\d+[,\.]\d+)', after_club)
-    if single:
-        return single.group(1).replace(',', '.')
-    return ""
-
-
-def clean_athlete_name(name):
-    """Clean athlete name from PDF artifacts."""
-    # Strip leading license number patterns: "1 CL - 52265", "1 434 CL 189", "5 C T- 15201"
-    cleaned = re.sub(r'^\d+\s+(?:CL[-\s]*\d+|C[-\s]*T[-\s]*\d+)', '', name)
-    # Strip trailing birth year (2 digits): "JOAQUIM MORENO PACHECHO 20"
-    cleaned = re.sub(r'\s+\d{2}\s*$', '', cleaned)
-    # Fix space-inflated names: "M A RI A" -> "MARIA"
-    # This is tricky — only fix if the name looks like it has too many spaces
-    # Heuristic: if a "word" is a single letter and next word starts with a letter, merge
-    parts = cleaned.split()
-    merged = []
-    i = 0
-    while i < len(parts):
-        if len(parts[i]) == 1 and i + 1 < len(parts) and parts[i+1][0].isalpha():
-            # Merge single letter with next word
-            merged.append(parts[i] + parts[i+1])
-            i += 2
-        else:
-            merged.append(parts[i])
-            i += 1
-    cleaned = ' '.join(merged)
-    # Normalize whitespace
-    cleaned = re.sub(r'\s+', ' ', cleaned).strip()
-    # Reformat: LAST, FIRST -> FIRST LAST
-    comma_match = re.match(r'(.+),\s*(.+)', cleaned)
-    if comma_match:
-        cleaned = f"{comma_match.group(2).strip()} {comma_match.group(1).strip()}"
-    return cleaned
-
-
-def clean_event_name(event_name):
-    """Clean event name by removing wind info."""
-    wind = None
-    wind_match = re.search(r'Vent\s+([+-]?\d+[,\.]\d+)', event_name)
-    if wind_match:
-        wind = wind_match.group(1).replace(',', '.')
-        wind = f"+{wind}" if not wind.startswith('-') else wind
-        event_name = re.sub(r'\s*Vent\s+[+-]?\d+[,\.]\d+\s*', '', event_name)
-    return re.sub(r'\s+', ' ', event_name).strip(), wind
-
-
-def extract_wind_from_line(line):
-    """Extract wind value from a line."""
-    m = re.search(r'Vent\s+([+-]?\d+[,\.]\d+)', line)
-    if m:
-        wind = m.group(1).replace(',', '.')
-        return f"+{wind}" if not wind.startswith('-') else wind
+def extract_event_from_stream(text):
+    """Extract the event name from a stream's text."""
+    tjs = re.findall(r'\(([^)]*)\)\s*Tj', text)
+    for t in tjs:
+        t_upper = t.upper()
+        if any(kw in t_upper for kw in ['METRES', 'LLANÇAMENT', 'LLANAMENT', 'SALT', 'DISC', 'MARXA']):
+            return t
+    tj_blocks = re.findall(r'\[(.*?)\]\s*TJ', text, re.DOTALL)
+    for block in tj_blocks[:10]:
+        texts = re.findall(r'\(([^)]*)\)', block)
+        for t in texts:
+            t_upper = t.upper()
+            if any(kw in t_upper for kw in ['METRES', 'LLANÇAMENT', 'LLANAMENT', 'SALT', 'DISC', 'MARXA']):
+                return t
     return None
 
 
-def deduplicate_results(results):
-    """Remove duplicate results for same athlete+event."""
-    key_results = {}
-    for r in results:
-        key = (r["atleta_nom"].upper(), r["prova"].upper())
-        marca = r["marca"].strip()
-        if key not in key_results:
-            key_results[key] = r
-        else:
-            existing = key_results[key]
-            existing_marca = existing["marca"].strip()
-            if marca and marca not in ("DQ", "DNS", "DNF", "Ret.", "AB"):
-                key_results[key] = r
-    return list(key_results.values())
+# ── Header extraction ───────────────────────────────────────────────────────
+
+MONTH_MAP = {
+    'gener': '01', 'febrer': '02', 'març': '03', 'abril': '04',
+    'maig': '05', 'juny': '06', 'juliol': '07', 'agost': '08',
+    'setembre': '09', 'octubre': '10', 'novembre': '11', 'desembre': '12',
+}
 
 
-def _parse_stream_lines(lines):
-    """Parse lines from a single stream, tracking event headers."""
+def extract_header_info(streams):
+    """Extract date, location, and event name from header Tj operators."""
+    header_date = ''
+    header_location = ''
+    header_event = ''
+
+    for stream_data in streams:
+        try:
+            text = zlib.decompress(stream_data).decode('latin-1', errors='replace')
+        except Exception:
+            continue
+
+        tjs = re.findall(r'\(([^)]*)\)\s*Tj', text)
+        for t in tjs:
+            # Date: "23 de maig de 2010"
+            m = re.search(r'(\d{1,2})\s+de\s+(\w+)\s+de\s+(\d{4})', t)
+            if m:
+                day = m.group(1).zfill(2)
+                month = MONTH_MAP.get(m.group(2).lower(), '00')
+                year = m.group(3)
+                header_date = f"{day}/{month}/{year}"
+            # Location: "El Prat de Llobregat, 23 de maig de 2010"
+            m = re.search(r'([A-Za-z\s\.\-]+),\s+\d+\s+de\s+\w+\s+de\s+\d{4}', t)
+            if m:
+                loc = m.group(1).strip()
+                if loc and len(loc) > 3 and not re.match(r'\d', loc):
+                    header_location = loc
+            # Event name
+            if 'CAMPIONAT' in t.upper() or 'FASE' in t.upper():
+                header_event = t
+
+        if header_date and header_event:
+            break
+
+    return header_date, header_location, header_event
+
+
+# ── Name cleaning ───────────────────────────────────────────────────────────
+
+def is_valid_name(name):
+    """Check if name is valid (not broken from PDF parsing)."""
+    if not name or len(name.strip()) < 5:
+        return False
+    words = name.strip().split()
+    if len(words) < 2:
+        return False
+    return True
+
+
+def clean_athlete_name(raw_name):
+    """Reformat: LAST, FIRST -> FIRST LAST. Clean artifacts."""
+    name = raw_name.strip()
+    comma_match = re.match(r'(.+),\s*(.+)', name)
+    if comma_match:
+        name = f"{comma_match.group(2).strip()} {comma_match.group(1).strip()}"
+    return re.sub(r'\s+', ' ', name).strip()
+
+
+# ── Main extraction ─────────────────────────────────────────────────────────
+
+def extract_catt_from_pdf(pdf_path):
+    """Extract CA Tarragona results from a PDF using needle-in-haystack."""
+    with open(pdf_path, 'rb') as f:
+        data = f.read()
+    pattern = rb'/Filter/FlateDecode.*?stream\r?\n(.*?)endstream'
+    streams = re.findall(pattern, data, re.DOTALL)
+
+    header_date, header_location, header_event = extract_header_info(streams)
+
+    seen = set()
     results = []
-    current_event = None
-    current_wind = None
-    
-    for line in lines:
-        stripped = line.strip()
-        if not stripped:
+
+    for stream_data in streams:
+        try:
+            text = zlib.decompress(stream_data).decode('latin-1', errors='replace')
+        except Exception:
             continue
-        
-        # Check for wind in sub-event lines
-        if not current_event or re.match(r'^\d+[a-zèé]?\.\s*(Sèrie|Serie|Ronda|Final|Eliminatoria)', current_event):
-            wind_match = re.search(r'Vent\s+([+-]?\d+[,\.]\d+)', stripped)
-            if wind_match:
-                current_wind = wind_match.group(1).replace(',', '.')
-                current_wind = f"+{current_wind}" if not current_wind.startswith('-') else current_wind
-        
-        # Check if event header
-        if is_event_header(stripped):
-            current_event = extract_event_name(stripped)
-            if current_wind:
-                current_event = f"{current_event} Vent {current_wind.lstrip('+')}"
-            if re.match(r'^\d+[a-zèé]?\.\s*(Sèrie|Serie|Ronda|Final|Eliminatoria)', current_event):
-                current_event = None
+
+        event = extract_event_from_stream(text)
+        if not event:
             continue
-        
-        # Check if CATT result
-        if current_event and is_catt_line(stripped):
-            result = parse_result_line(stripped, current_event)
-            if result:
-                results.append(result)
-    
-    return results
+
+        tj_blocks = re.findall(r'\[(.*?)\]\s*TJ', text, re.DOTALL)
+        for block in tj_blocks:
+            # ONLY CA Tarragona, not CG
+            if not re.search(r'\bCA\s*TARRAGONA\b', block, re.IGNORECASE):
+                continue
+
+            texts = re.findall(r'\(([^)]*)\)', block)
+
+            # Find CA Tarragona position
+            club_idx = None
+            for idx, t in enumerate(texts):
+                if re.match(r'(CA)\s*TARRAGONA', t, re.IGNORECASE):
+                    club_idx = idx
+                    break
+
+            if club_idx is None:
+                continue
+
+            # Name at club_idx - 2
+            name = texts[club_idx - 2] if club_idx >= 2 else ''
+            name = clean_athlete_name(name)
+
+            if not is_valid_name(name):
+                continue
+
+            # Marks after club_idx
+            marks = texts[club_idx + 1:]
+            performance = parse_performance(event, marks)
+            if not performance:
+                continue
+
+            # Deduplicate
+            key = (name.lower(), event.lower(), performance)
+            if key in seen:
+                continue
+            seen.add(key)
+
+            results.append({
+                'athlete_name': name,
+                'discipline': event,
+                'performance': performance,
+            })
+
+    return header_date, header_location, header_event, results
 
 
-def parse_pdf(pdf_path):
-    """Parse a PDF and extract CATT athlete results.
-    
-    Each stream is processed independently to track event headers.
-    """
-    print(f"  Decompressing streams...")
-    streams = decompress_streams(pdf_path)
-    print(f"  Found {len(streams)} compressed streams")
-    
-    print(f"  Extracting text elements (TJ + Tj)...")
-    elements = extract_all_text_elements(streams)
-    print(f"  Found {len(elements)} text elements")
-    
-    # Group by stream
-    by_stream = {}
-    for elem in elements:
-        si = elem['stream_idx']
-        if si not in by_stream:
-            by_stream[si] = []
-        by_stream[si].append(elem)
-    
-    # Parse header from first few streams
-    print(f"  Parsing competition header...")
-    header_lines = []
-    for si in sorted(by_stream.keys())[:5]:
-        for elem in sorted(by_stream[si], key=lambda x: -x['y']):
-            header_lines.append(elem['text'])
-    
-    competicio, ubicacio, localitat, data = parse_header(header_lines)
-    print(f"    Competicio: {competicio or '(no trobat)'}")
-    print(f"    Ubicacio: {ubicacio or '(no trobat)'}")
-    print(f"    Localitat: {localitat or '(no trobat)'}")
-    print(f"    Data: {data or '(no trobat)'}")
-    
-    # Extract CATT results — process each stream independently
-    print(f"  Extracting CATT athlete results...")
-    all_results = []
-    for si in sorted(by_stream.keys()):
-        stream_elements = sorted(by_stream[si], key=lambda x: -x['y'])
-        stream_lines = [elem['text'] for elem in stream_elements]
-        results = _parse_stream_lines(stream_lines)
-        all_results.extend(results)
-    
-    print(f"  Found {len(all_results)} CATT result entries")
-    
-    all_results = deduplicate_results(all_results)
-    print(f"  After deduplication: {len(all_results)} unique results")
-    
-    for r in all_results:
-        status = "OK" if r["marca"] else ("Ret./AB" if r["marca"] in ("Ret.", "AB") else "DQ/DNS")
-        print(f"    [{status}] {r['atleta_nom'] or '???':40s} | {r['prova'] or '???':30s} | {r['marca'] or '???':12s} | Lloc: {r['lloc']}")
-    
-    header = {'competicio': competicio, 'ubicacio': ubicacio,
-              'localitat': localitat, 'data': data}
-    return header, all_results
-
-
-def clean_event_name_raw(name):
-    """Clean event name from PDF artifacts and insert word boundaries.
-    
-    Handles:
-    1. Split words: "LLAN AMENT" -> "LLANÇAMENT", "SALT D'AL ADA" -> "SALT D'ALÇADA"
-    2. Concatenated words: "60METRESLLISOSCADETFEMENI" -> "60 METRES LLISOS CADET FEMENI"
-    3. Noise removal: duplicated parts, trailing FEMEN/MASC
-    """
-    # Step 1: Fix split words BEFORE removing spaces
-    name = re.sub(r'LLAN\s+(A\w*)', r'LLANÇ\1', name)
-    name = re.sub(r'AL\s+(A\w*)', r'ALÇ\1', name)
-    name = re.sub(r'PI\s+STA', 'PISTA', name)
-    name = re.sub(r'CO\s+BERTA', 'COBERTA', name)
-    name = re.sub(r'CADET\s+JUV\s+ENI', 'CADET-JUVENIL', name)
-    
-    # Step 2: Remove all remaining spaces to normalize
-    name = re.sub(r'\s+', '', name)
-    
-    # Step 3: Insert word boundaries using known keywords
-    keywords = [
-        'LLANÇAMENT', 'LLANAMENT', 'PESSARRODONA', 'SEMIFINAL',
-        'INFANTIL', 'JUVENIL', 'CAMPIONAT', 'CAMPION',
-        'OBSTACLES', 'TANQUES', 'MARXA', 'MARCHA', 'RELLEUS',
-        'MASCUL', 'FEMENI', 'FEMEN', 'MASC',
-        'BENJAM', 'ALEV', 'CADET', 'JUV', 'SUB20', 'SUB18',
-        'LLARGADA', 'DELLARGADA', 'ALTADA', 'ALÇADA', 'DALTADA',
-        'PERTIGA', 'PERXA', 'JABALINA', 'JAVELINA',
-        'METRES', 'METRE', 'LLISOS', 'VALLS', 'DISC', 'PES', 'MART',
-        'DARD', 'TRIPLE', 'RELLEU', 'PENALT', 'PENAL',
-        'CONTROL', 'JORNADA', 'TROFEU', 'TROF',
-        'PISTA', 'COBERTA', 'INTERIOR', 'EXTERIOR',
-        'PREVIA', 'FINAL', '1000', '1500', '3000', '5000',
-        '60', '100', '200', '300', '400', '800',
-        'SALT',
-    ]
-    short_keywords = ['LLANÇAMENT', 'LLANAMENT', 'DE', 'D', 'M', 'F']
-    keywords.sort(key=len, reverse=True)
-    
-    result = name
-    for kw in keywords:
-        pattern = r'([A-Za-z0-9])(' + re.escape(kw) + r')'
-        result = re.sub(pattern, r'\1 \2', result, flags=re.IGNORECASE)
-    
-    # Step 4: Handle short keywords at word boundaries
-    for kw in short_keywords:
-        result = re.sub(r'^(' + re.escape(kw) + r')', r'\1 ', result, flags=re.IGNORECASE)
-        result = re.sub(r' (' + re.escape(kw) + r')\b', r' \1', result, flags=re.IGNORECASE)
-    
-    # Step 5: Normalize whitespace
-    cleaned = re.sub(r'\s+', ' ', result).strip()
-    
-    # Step 6: Remove trailing duplicated parts
-    cleaned = re.sub(r'(.+?)\s+-\s+\1', r'\1', cleaned)
-    
-    # Step 7: Fix trailing abbreviations
-    cleaned = re.sub(r'FEMEN\s*$', 'FEMENI', cleaned)
-    cleaned = re.sub(r'MASC\s*$', 'MASCULI', cleaned)
-    
-    return cleaned
-
-
+# ── Entry point ─────────────────────────────────────────────────────────────
 
 def main():
     if len(sys.argv) < 2:
         print("Usage: python3 extract_promocio.py <pdf_file> [output_dir] [pdf_url]")
         sys.exit(1)
-    
+
     pdf_path = sys.argv[1]
     output_dir = sys.argv[2] if len(sys.argv) > 2 else "json"
     pdf_url = sys.argv[3] if len(sys.argv) > 3 else ""
     os.makedirs(output_dir, exist_ok=True)
-    
+
     print(f"Extracting from: {pdf_path}")
     print()
-    
-    header, results = parse_pdf(pdf_path)
-    
+
+    header_date, header_location, header_event, results = extract_catt_from_pdf(pdf_path)
+
     if not results:
-        print("\nNo results found. Skipping JSON export.")
+        print("No CA Tarragona results found. Skipping JSON export.")
         return
-    
-    # Validate: keep only entries with non-empty performance
-    valid_results = []
+
+    print(f"Found {len(results)} CA Tarragona results:")
     for r in results:
-        name = r.get("atleta_nom", "").strip()
-        performance = r.get("marca", "").strip()
-        discipline = r.get("prova", "").strip()
-        
-        # Must have a name and a non-empty performance
-        if not name:
-            print(f"WARNING: Skipping entry with empty name", file=sys.stderr)
-            continue
-        if not performance:
-            print(f"WARNING: Skipping entry with empty performance: {name} - {discipline}", file=sys.stderr)
-            continue
-        if not discipline:
-            print(f"WARNING: Skipping entry with empty discipline: {name}", file=sys.stderr)
-            continue
-        # Reject entries where name looks like a license number
-        if re.match(r'^\d+\s+CL', name):
-            print(f"WARNING: Skipping entry with license-like name: '{name}'", file=sys.stderr)
-            continue
-        
-        # Clean discipline name
-        discipline = clean_event_name_raw(discipline)
-        
-        # Reject entries where discipline looks like a license/athlete block line
-        # (contains "CL", "PESSARRODONA", "CA VIC", etc. — these are data from adjacent lines merged)
-        if any(skip in discipline.upper() for skip in ['CL', 'PESSARRODONA', 'CA VIC', 'CA BARCELONA', 'CA TARRAGONA', 'CLUB']):
-            print(f"WARNING: Skipping entry with license-like discipline: {name} - {discipline}", file=sys.stderr)
-            continue
-        
-        valid_results.append({
-            "athlete_name": name,
-            "performance": performance,
-            "discipline": discipline,
-            "wind": r.get("vent"),
-        })
-    
-    results = valid_results
-    print(f"\nAfter validation: {len(results)} valid results")
-    
-    for r in results:
-        print(f"    {r['athlete_name']:40s} | {r['discipline']:30s} | {r['performance']:12s}")
-    
-    full_competicio = f"{header['competicio']} - {header['ubicacio']}" if header['ubicacio'] else header['competicio']
-    # Clean event name: just remove extra spaces, don't apply word boundary logic
-    full_competicio = re.sub(r'\s+', ' ', full_competicio).strip()
-    
+        print(f"  {r['athlete_name']:35s} | {r['discipline']:50s} | {r['performance']}")
+
     output = {
-        "event_name": full_competicio,
-        "event_date": header['data'],
-        "event_location": header['localitat'],
-        "total_results": len(results),
-        "event_src": pdf_url,
-        "results": results
+        'event_name': header_event if header_event else 'CAMPIONAT DE CATALUNYA',
+        'event_date': header_date,
+        'event_location': header_location,
+        'event_src': pdf_url,
+        'total_results': len(results),
+        'results': results,
     }
-    
+
     base = os.path.basename(pdf_path).replace('.pdf', '')
     output_path = os.path.join(output_dir, f"{base}.json")
-    
+
     with open(output_path, 'w', encoding='utf-8') as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
-    
+
     print(f"\nResults written to: {output_path}")
 
 

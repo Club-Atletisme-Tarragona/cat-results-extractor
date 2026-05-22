@@ -1,75 +1,74 @@
 {
-  "event_name": "FASE PR VIA DEL CAMPIONAT DE CATALUNYA BENJAM",
-  "event_date": "15/05/2001",
+  "event_name": "FASE PRÈVIA DEL CAMPIONAT DE CATALUNYA BENJAMÍ",
+  "event_date": "22/05/2010",
   "event_location": "Terrassa",
-  "total_results": 11,
   "event_src": "https://old.fcatletisme.cat/Promocio/promocio2010/resulcatbenjamiprevia22510.pdf",
+  "total_results": 13,
   "results": [
     {
       "athlete_name": "JUAN GONZALEZ GARCIA",
-      "performance": "2.71",
-      "discipline": "SALT DE LLARGADA BENJAM MASCUL",
-      "wind": null
+      "discipline": "1000 METRES MARXA BENJAMÍ MASCUL",
+      "performance": "6,26"
+    },
+    {
+      "athlete_name": "JUAN GONZALEZ GARCIA",
+      "discipline": "SALT DE LLARGADA BENJAMÍ MASCULÍ",
+      "performance": "2.71"
+    },
+    {
+      "athlete_name": "CARLA BERENGUEL TORRES",
+      "discipline": "60 METRES LLISOS BENJAMÍ FEMENÍ",
+      "performance": "10,55"
     },
     {
       "athlete_name": "MARIA MONTAÑES ARBO",
-      "performance": "10.54",
-      "discipline": "60 METRES LLISOS BENJAM FEMENI",
-      "wind": null
+      "discipline": "60 METRES LLISOS BENJAMÍ FEMENÍ",
+      "performance": "10,54"
     },
     {
       "athlete_name": "MAR VAZQUEZ DOMINGO",
-      "performance": "11.09",
-      "discipline": "60 METRES LLISOS BENJAM FEMENI",
-      "wind": null
-    },
-    {
-      "athlete_name": "CARLA BERENGUEL TORRES",
-      "performance": "10.55",
-      "discipline": "60 METRES LLISOS BENJAM FEMENI",
-      "wind": null
-    },
-    {
-      "athlete_name": "MARIA FALCO CUENCA",
-      "performance": "4.32",
-      "discipline": "1000 METRES LLISOS BENJAM FEMENI",
-      "wind": null
+      "discipline": "60 METRES LLISOS BENJAMÍ FEMENÍ",
+      "performance": "11,09"
     },
     {
       "athlete_name": "MAR VAZQUEZ DOMINGO",
-      "performance": "6.43",
-      "discipline": "1000 METRES MARXA BENJAM FEMENI",
-      "wind": null
+      "discipline": "1000 METRES MARXA BENJAMÍ FEMEN",
+      "performance": "6,43"
     },
     {
       "athlete_name": "LAURA MASCARELL JULIAN",
-      "performance": "6.47",
-      "discipline": "1000 METRES MARXA BENJAM FEMENI",
-      "wind": null
+      "discipline": "1000 METRES MARXA BENJAMÍ FEMEN",
+      "performance": "6,47"
     },
     {
       "athlete_name": "JULIA CASAS CARPENA",
-      "performance": "7.31",
-      "discipline": "1000 METRES MARXA BENJAM FEMENI",
-      "wind": null
+      "discipline": "1000 METRES MARXA BENJAMÍ FEMEN",
+      "performance": "7,31"
     },
     {
       "athlete_name": "BERTA PRADOS GALINDO",
-      "performance": "7.38",
-      "discipline": "1000 METRES MARXA BENJAM FEMENI",
-      "wind": null
+      "discipline": "1000 METRES MARXA BENJAMÍ FEMEN",
+      "performance": "7,38"
+    },
+    {
+      "athlete_name": "MONTSE MONTAÑES ARBO",
+      "discipline": "SALT D'ALÇADA BENJAMÍ FEMEN",
+      "performance": "1.14"
     },
     {
       "athlete_name": "MARIA FALCO CUENCA",
-      "performance": "0.90",
-      "discipline": "SALTD'ALÇADA BENJAM FEMENI",
-      "wind": null
+      "discipline": "SALT D'ALÇADA BENJAMÍ FEMEN",
+      "performance": "0.90"
     },
     {
       "athlete_name": "CARLA BERENGUEL TORRES",
-      "performance": "0.85",
-      "discipline": "SALTD'ALÇADA BENJAM FEMENI",
-      "wind": null
+      "discipline": "SALT D'ALÇADA BENJAMÍ FEMEN",
+      "performance": "0.85"
+    },
+    {
+      "athlete_name": "JULIA CASAS CARPENA",
+      "discipline": "LLANÇAMENT DE PILOTA BENJAMÍ FEMENÍ",
+      "performance": "14.17"
     }
   ]
 }

@@ -184,6 +184,43 @@ def extract_event_from_stream(text):
     return None
 
 
+# ── Wind extraction ─────────────────────────────────────────────────────────
+
+def extract_winds_from_stream(text):
+    """Extract wind values from Tj operators in a stream.
+    
+    Format: "Vent:-1,5" or "Vent: -0,2"
+    Returns list of wind strings like ['-1.5', '-0.2', ...]
+    """
+    tjs = re.findall(r'\(([^)]*)\)\s*Tj', text)
+    winds = []
+    for t in tjs:
+        m = re.search(r'Vent:\s*(-?[\d,]+\.\d+|-?\d+,\d+)', t)
+        if m:
+            winds.append(m.group(1).replace(',', '.'))
+    return winds
+
+
+def extract_wind_from_tj_block(after_club_marks):
+    """Extract wind value from TJ block marks (for jumps/throws).
+    
+    For jumps, wind appears as a separate value after the mark, e.g.:
+    ['4,64', '+0.8'] or ['4,64', '-1.2']
+    
+    Returns wind string or None.
+    """
+    if not after_club_marks:
+        return None
+    
+    for m in after_club_marks:
+        # Wind values: +X.XX or -X.XX (e.g., '+0.8', '-1.2')
+        wind_match = re.match(r'^[+-]\d+\.\d+$', m)
+        if wind_match:
+            return m
+    
+    return None
+
+
 # ── Header extraction ───────────────────────────────────────────────────────
 
 MONTH_MAP = {
@@ -253,8 +290,21 @@ def clean_athlete_name(raw_name):
 
 # ── Main extraction ─────────────────────────────────────────────────────────
 
+def is_race_event(event):
+    """Check if event is a race (has series with wind)."""
+    event_upper = event.upper()
+    return ('METRES LLISOS' in event_upper or 'METRES TANQUES' in event_upper or
+            'METRES VALLS' in event_upper or 'METRES OBSTACLES' in event_upper or
+            'MARXA' in event_upper or '300 TANQUES' in event_upper)
+
+
 def extract_catt_from_pdf(pdf_path):
-    """Extract CA Tarragona results from a PDF using needle-in-haystack."""
+    """Extract CA Tarragona results from a PDF using needle-in-haystack.
+    
+    Wind handling:
+    - Races: winds from Tj operators, assigned by series number (1-indexed)
+    - Jumps/throws: wind from TJ block values after the mark
+    """
     with open(pdf_path, 'rb') as f:
         data = f.read()
     pattern = rb'/Filter/FlateDecode.*?stream\r?\n(.*?)endstream'
@@ -274,6 +324,9 @@ def extract_catt_from_pdf(pdf_path):
         event = extract_event_from_stream(text)
         if not event:
             continue
+
+        # Extract winds from Tj operators for this stream
+        stream_winds = extract_winds_from_stream(text)
 
         tj_blocks = re.findall(r'\[(.*?)\]\s*TJ', text, re.DOTALL)
         for block in tj_blocks:
@@ -301,22 +354,49 @@ def extract_catt_from_pdf(pdf_path):
                 continue
 
             # Marks after club_idx
-            marks = texts[club_idx + 1:]
-            performance = parse_performance(event, marks)
+            raw_marks = texts[club_idx + 1:]
+            performance = parse_performance(event, raw_marks)
             if not performance:
                 continue
 
-            # Deduplicate
-            key = (name.lower(), event.lower(), performance)
+            # Extract wind
+            wind = None
+            
+            # For races: get wind by series number from Tj operators
+            if is_race_event(event):
+                # Series number is at texts[0] for series-format rows
+                series_num = None
+                if len(texts) >= 9:
+                    # Check if first element is a series number (1-99)
+                    try:
+                        sn = int(texts[0])
+                        if 1 <= sn <= 99:
+                            series_num = sn
+                    except ValueError:
+                        pass
+                
+                if series_num and series_num <= len(stream_winds):
+                    wind = stream_winds[series_num - 1]
+            
+            # For jumps/throws: get wind from TJ block values
+            if wind is None and not is_race_event(event):
+                wind = extract_wind_from_tj_block(raw_marks)
+
+            # Deduplicate (include wind in key to avoid cross-wind duplicates)
+            key = (name.lower(), event.lower(), performance, wind or '')
             if key in seen:
                 continue
             seen.add(key)
 
-            results.append({
+            result = {
                 'athlete_name': name,
                 'discipline': event,
                 'performance': performance,
-            })
+            }
+            if wind:
+                result['wind'] = wind
+            
+            results.append(result)
 
     return header_date, header_location, header_event, results
 
@@ -344,7 +424,8 @@ def main():
 
     print(f"Found {len(results)} CA Tarragona results:")
     for r in results:
-        print(f"  {r['athlete_name']:35s} | {r['discipline']:50s} | {r['performance']}")
+        wind_str = f" W:{r['wind']}" if r.get('wind') else ''
+        print(f"  {r['athlete_name']:35s} | {r['discipline']:50s} | {r['performance']}{wind_str}")
 
     output = {
         'event_name': header_event if header_event else 'CAMPIONAT DE CATALUNYA',

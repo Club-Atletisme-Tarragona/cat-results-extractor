@@ -1,475 +1,396 @@
 #!/usr/bin/env python3
 """
-Extract CATT results from old FCAT Promoció PDFs (2009-2010 era).
+Extract CATT results from old FCAT Promoció PDFs.
 
-Uses the CA Tarragona needle-in-haystack approach: decompress FlateDecode
-streams, search for "CA TARRAGONA" in every TJ block, extract name and marks.
-
-Mark parsing follows extract_catt.py conventions:
-- Marcha: HH:MM:SS > HH:MM.ss > HH:MM > min,seg[,centesimes] > min'seg''cent
-- Curses: HH:MM:SS > HH:MM.ss > HH:MM > min'seg''cent > decimal seconds (5-60s)
-- Height: best of valid attempts (1.0-7.0m), dot decimal separator
-- Jump: best of valid attempts (1.5-20.0m), dot decimal separator
-- Field: best of valid attempts (3.0-80.0m), dot decimal separator
+Uses pdfplumber to extract text, then parses it to find CA Tarragona athletes.
+Tries table extraction first, falls back to line-by-line parsing.
 """
-
 import sys
+import os
 import re
 import json
-import os
-import zlib
+import pdfplumber
 
 
-def decompress_streams(pdf_path):
-    """Decompress all content streams from a PDF (both FlateDecode and /Contents).
-    
-    PDFs from 2008-2010 use /Filter/FlateDecode on page-level streams.
-    PDFs from 2010-2011 use /Contents references with compressed objects.
-    This function handles both formats.
-    """
-    with open(pdf_path, 'rb') as f:
-        data = f.read()
-    
-    streams = []
-    
-    # Format 1: /Filter/FlateDecode streams (2008-2010 era)
-    pattern1 = rb'/Filter/FlateDecode.*?stream\r?\n(.*?)endstream'
-    for stream in re.findall(pattern1, data, re.DOTALL):
-        try:
-            decompressed = zlib.decompress(stream)
-            text = decompressed.decode('latin-1', errors='replace')
-            streams.append(text)
-        except Exception:
-            continue
-    
-    # Format 2: /Contents objects (2010-2011 era)
-    # Find all /Contents references: /Contents N N R
-    contents_refs = re.findall(rb'/Contents\s+(\d+)\s+(\d+)\s+R', data)
-    for obj_num, gen_num in contents_refs:
-        # Find the object definition
-        obj_pattern = obj_num + rb'\s+' + gen_num + rb'\s+obj\s+(.*?)endobj'
-        obj_match = re.search(obj_pattern, data, re.DOTALL)
-        if not obj_match:
-            continue
-        obj_content = obj_match.group(1)
-        
-        if b'/Filter/FlateDecode' in obj_content:
-            # Compressed - decompress
-            stream_match = re.search(rb'stream\r?\n(.*?)endstream', obj_content, re.DOTALL)
-            if stream_match:
-                try:
-                    decompressed = zlib.decompress(stream_match.group(1))
-                    text = decompressed.decode('latin-1', errors='replace')
-                    streams.append(text)
-                except Exception:
-                    continue
-        else:
-            # Not compressed - use directly
-            stream_match = re.search(rb'stream\r?\n(.*?)endstream', obj_content, re.DOTALL)
-            if stream_match:
-                text = stream_match.group(1).decode('latin-1', errors='replace')
-                streams.append(text)
-    
-    return streams
+def is_race_event(event):
+    return any(kw in event.upper() for kw in ['METRES LLISOS', 'METRES TANQUES', 'METRES VALLS'])
+
+def is_marcha_event(event):
+    return 'MARXA' in event.upper()
+
+def is_jump_event(event):
+    return any(kw in event.upper() for kw in ['LLARGADA', 'TRIPLE', 'PÈRTIGA', 'PERTIGA', 'PERXA'])
+
+def is_height_event(event):
+    return "SALT D'ALÇADA" in event.upper() or "SALT D'ALTADA" in event.upper() or "ALTURA" in event.upper()
+
+def is_throw_event(event):
+    return any(kw in event.upper() for kw in ['LLANÇAMENT', 'LLANAMENT', 'DISC', 'PES', 'MART', 'JAVELINA', 'DARD'])
 
 
-# ── Mark parsing (inspired by extract_catt.py conventions) ──────────────────
-
-def parse_performance(event, raw_marks):
-    """Parse marks from legacy PDF TJ blocks following extract_catt.py patterns.
-    
-    Priority order for races (from AGENTS.md):
-    1. HH:MM:SS (e.g. 2:47:53 for marathon)
-    2. HH:MM.ss (e.g. 11:26.41 for 3000m)
-    3. HH:MM (e.g. 26:29)
-    4. min'seg''cent (e.g. 10'06''1)
-    5. Decimal seconds (e.g. 11.79 or 11,79)
-    
-    For jumps/throws: best valid attempt with dot decimal separator.
-    """
-    if not raw_marks:
-        return ''
-
-    valid_marks = [m for m in raw_marks if m not in ('O', 'X', 'XO', 'XXX', 'dq.', 'DQ', 'DNS', 'DNF', '')]
-    if not valid_marks:
+def parse_performance(event, mark_str):
+    if not mark_str:
         return ''
 
     event_upper = event.upper()
 
-    # --- MARXA (race walk) ---
-    if 'MARXA' in event_upper:
-        for m in valid_marks:
-            m_match = re.search(r'(\d{1,2}:\d{2}\.\d{2})', m)
-            if m_match:
-                return m_match.group(1)
-            m_match = re.search(r'(\d{1,2}:\d{2})(?!:\d)', m)
-            if m_match:
-                return m_match.group(1)
-            parts = m.split(',')
-            if len(parts) >= 2:
-                try:
-                    first = int(parts[0])
-                    if 1 <= first <= 59:
-                        return f"{parts[0]},{parts[1]}"
-                except ValueError:
-                    pass
-            m_match = re.search(r"(\d{1,2})'(\d{2})''(\d)", m)
-            if m_match:
-                return f"{m_match.group(1)}:{m_match.group(2)}.{m_match.group(3)}"
+    if is_marcha_event(event):
+        m = re.search(r'(\d{1,2}:\d{2}\.\d{2})', mark_str)
+        if m: return m.group(1)
+        m = re.search(r"(\d{1,2})'(\d{2})''(\d)", mark_str)
+        if m: return f"{m.group(1)}:{m.group(2)}.{m.group(3)}"
+        parts = mark_str.split(',')
+        if len(parts) == 3:
+            try:
+                if 1 <= int(parts[0]) <= 59:
+                    return f"{parts[0]}:{parts[1]}.{parts[2]}"
+            except ValueError:
+                pass
         return ''
 
-    # --- CURSES (track events) ---
-    if 'METRES LLISOS' in event_upper or 'METRES TANQUES' in event_upper or 'METRES VALLS' in event_upper:
-        for m in valid_marks:
-            m_match = re.search(r'(\d{1,2}:\d{2}\.\d{2})', m)
-            if m_match:
-                return m_match.group(1)
-            m_match = re.search(r'(\d{1,2}:\d{2})(?!:\d)', m)
-            if m_match:
-                return m_match.group(1)
-            m_match = re.search(r"(\d{1,2})'(\d{2})''(\d)", m)
-            if m_match:
-                return f"{m_match.group(1)}:{m_match.group(2)}.{m_match.group(3)}"
-            parts = m.split(',')
-            if len(parts) == 2:
-                try:
-                    val = float(parts[0]) + float(parts[1]) / 100
-                    if 5.0 <= val <= 60.0:
-                        return f"{parts[0]},{parts[1]}"
-                except ValueError:
-                    pass
-            for num_match in re.finditer(r'(?<![\d.:])(\d+\.\d{2})(?![\d.])', m):
-                val = float(num_match.group(1))
-                if 5.0 <= val <= 60.0:
-                    return num_match.group(1)
+    if is_race_event(event):
+        m = re.search(r'(\d{1,2}:\d{2}\.\d{2})', mark_str)
+        if m: return m.group(1)
+        m = re.search(r"(\d{1,2})'(\d{2})''(\d)", mark_str)
+        if m: return f"{m.group(1)}:{m.group(2)}.{m.group(3)}"
+        parts = mark_str.split(',')
+        if len(parts) == 3:
+            try:
+                if 1 <= int(parts[0]) <= 59:
+                    return f"{parts[0]}:{parts[1]}.{parts[2]}"
+            except ValueError:
+                pass
+        for nm in re.finditer(r'(?<![\d.:])(\d+\.\d{2})(?![\d.])', mark_str):
+            val = float(nm.group(1))
+            if 5.0 <= val <= 60.0:
+                return nm.group(1)
         return ''
 
-    # --- SALT D'ALÇADA (height) ---
-    if "SALT D'ALÇADA" in event_upper or "SALT D'ALTADA" in event_upper or "ALTURA" in event_upper:
-        attempts = []
-        for m in valid_marks:
-            parts = m.split(',')
-            if len(parts) == 2:
-                try:
-                    val = float(parts[0]) + float(parts[1]) / 100
-                    if 0.5 <= val <= 7.0:
-                        attempts.append(val)
-                except ValueError:
-                    pass
-        if attempts:
-            best = max(attempts)
-            return f"{best:.2f}"
+    if is_jump_event(event):
+        # Jumps use comma as decimal: 3,40 or space-separated: 3,40 3,57 3,08
+        for nm in re.finditer(r'(\d+[,.]\d{2})', mark_str):
+            val = float(nm.group(1).replace(',', '.'))
+            if 1.5 <= val <= 20.0:
+                return nm.group(1).replace(',', '.')
         return ''
 
-    # --- SALT DE LLARGADA / TRIPLE / PÈRTIGA (jump) ---
-    if 'LLARGADA' in event_upper or 'TRIPLE' in event_upper or 'PÈRTIGA' in event_upper or 'PERTIGA' in event_upper or 'PERXA' in event_upper:
-        attempts = []
-        for m in valid_marks:
-            parts = m.split(',')
-            if len(parts) == 2:
-                try:
-                    val = float(parts[0]) + float(parts[1]) / 100
-                    if 1.5 <= val <= 20.0:
-                        attempts.append(val)
-                except ValueError:
-                    pass
-        if attempts:
-            best = max(attempts)
-            return f"{best:.2f}"
-        return ''
-
-    # --- LLANÇAMENT (field events) ---
-    if ('LLANÇAMENT' in event_upper or 'LLANAMENT' in event_upper or
-        'DISC' in event_upper or 'PES' in event_upper or
-        'MART' in event_upper or 'JABALINA' in event_upper or 'DARD' in event_upper):
-        attempts = []
-        for m in valid_marks:
-            parts = m.split(',')
-            if len(parts) == 2:
-                try:
-                    val = float(parts[0]) + float(parts[1]) / 100
-                    if 3.0 <= val <= 80.0:
-                        attempts.append(val)
-                except ValueError:
-                    pass
-        if attempts:
-            best = max(attempts)
-            return f"{best:.2f}"
-        return ''
-
-    # Fallback
-    return ','.join(valid_marks)
-
-
-# ── Event name extraction ───────────────────────────────────────────────────
-
-def extract_event_from_stream(text):
-    """Extract the event name from a stream's text."""
-    tjs = re.findall(r'\(([^)]*)\)\s*Tj', text)
-    for t in tjs:
-        t_upper = t.upper()
-        if any(kw in t_upper for kw in ['METRES', 'LLANÇAMENT', 'LLANAMENT', 'SALT', 'DISC', 'MARXA']):
-            return t
-    tj_blocks = re.findall(r'\[(.*?)\]\s*TJ', text, re.DOTALL)
-    for block in tj_blocks[:10]:
-        texts = re.findall(r'\(([^)]*)\)', block)
-        for t in texts:
-            t_upper = t.upper()
-            if any(kw in t_upper for kw in ['METRES', 'LLANÇAMENT', 'LLANAMENT', 'SALT', 'DISC', 'MARXA']):
-                return t
-    return None
-
-
-# ── Wind extraction ─────────────────────────────────────────────────────────
-
-def extract_winds_from_stream(text):
-    """Extract wind values from Tj operators in a stream.
-    
-    Format: "Vent:-1,5" or "Vent: -0,2"
-    Returns list of wind strings like ['-1.5', '-0.2', ...]
-    """
-    tjs = re.findall(r'\(([^)]*)\)\s*Tj', text)
-    winds = []
-    for t in tjs:
-        m = re.search(r'Vent:\s*(-?[\d,]+\.\d+|-?\d+,\d+)', t)
+    if is_height_event(event):
+        # Height uses comma as decimal: 0,90 or 1,06
+        m = re.search(r'(\d+[,.]\d{2})', mark_str)
         if m:
-            winds.append(m.group(1).replace(',', '.'))
-    return winds
+            val = float(m.group(1).replace(',', '.'))
+            if 0.5 <= val <= 7.0:
+                return m.group(1).replace(',', '.')
+        return ''
+
+    if is_throw_event(event):
+        # Throws use space-separated marks: 17,63 17,68 17,43 17,68
+        # Also handle comma-separated: 3,40,60
+        # Extract all X,XX or X.XX values
+        for nm in re.finditer(r'(\d+[,.]\d{2})', mark_str):
+            val = float(nm.group(1).replace(',', '.'))
+            if 3.0 <= val <= 80.0:
+                return nm.group(1).replace(',', '.')
+        return ''
+
+    for nm in re.finditer(r'(?<![\d.])(\d+\.\d{2})(?![\d.])', mark_str):
+        val = float(nm.group(1))
+        if 5.0 <= val <= 60.0:
+            return nm.group(1)
+    return ''
 
 
-def extract_wind_from_tj_block(after_club_marks):
-    """Extract wind value from TJ block marks (for jumps/throws).
-    
-    For jumps, wind appears as a separate value after the mark, e.g.:
-    ['4,64', '+0.8'] or ['4,64', '-1.2']
-    
-    Returns wind string or None.
-    """
-    if not after_club_marks:
-        return None
-    
-    for m in after_club_marks:
-        # Wind values: +X.XX or -X.XX (e.g., '+0.8', '-1.2')
-        wind_match = re.match(r'^[+-]\d+\.\d+$', m)
-        if wind_match:
-            return m
-    
-    return None
+def clean_athlete_name(name):
+    name = name.strip()
+    comma_match = re.match(r'(.+),\s*(.+)', name)
+    if comma_match:
+        last, first = comma_match.groups()
+        name = f"{first} {last}"
+    name = re.sub(r'\s+F\s*$', '', name).strip()
+    return name.strip()
 
-
-# ── Header extraction ───────────────────────────────────────────────────────
-
-MONTH_MAP = {
-    'gener': '01', 'febrer': '02', 'març': '03', 'abril': '04',
-    'maig': '05', 'juny': '06', 'juliol': '07', 'agost': '08',
-    'setembre': '09', 'octubre': '10', 'novembre': '11', 'desembre': '12',
-}
-
-
-def extract_header_info(streams):
-    """Extract date, location, and event name from header Tj operators."""
-    header_date = ''
-    header_location = ''
-    header_event = ''
-
-    for stream_data in streams:
-        try:
-            text = zlib.decompress(stream_data).decode('latin-1', errors='replace')
-        except Exception:
-            continue
-
-        tjs = re.findall(r'\(([^)]*)\)\s*Tj', text)
-        for t in tjs:
-            # Date: "23 de maig de 2010"
-            m = re.search(r'(\d{1,2})\s+de\s+(\w+)\s+de\s+(\d{4})', t)
-            if m:
-                day = m.group(1).zfill(2)
-                month = MONTH_MAP.get(m.group(2).lower(), '00')
-                year = m.group(3)
-                header_date = f"{day}/{month}/{year}"
-            # Location: "El Prat de Llobregat, 23 de maig de 2010"
-            m = re.search(r'([A-Za-z\s\.\-]+),\s+\d+\s+de\s+\w+\s+de\s+\d{4}', t)
-            if m:
-                loc = m.group(1).strip()
-                if loc and len(loc) > 3 and not re.match(r'\d', loc):
-                    header_location = loc
-            # Event name
-            if 'CAMPIONAT' in t.upper() or 'FASE' in t.upper():
-                header_event = t
-
-        if header_date and header_event:
-            break
-
-    return header_date, header_location, header_event
-
-
-# ── Name cleaning ───────────────────────────────────────────────────────────
 
 def is_valid_name(name):
-    """Check if name is valid (not broken from PDF parsing)."""
     if not name or len(name.strip()) < 5:
         return False
     words = name.strip().split()
     if len(words) < 2:
         return False
-    # Filter broken names: too many words suggests PDF name splitting artifact
     if len(words) > 4:
         return False
-    # Known Spanish/Catalan name particles (valid 1-2 letter words)
-    valid_particles = {'DE', 'DEL', 'DA', 'DI', 'DOS', 'DAS', 'Y', 'E', 'VAZ', 'VON', 'VAN', 'DEN', 'DER', 'DER', 'TER', 'LA', 'LE', 'LOS', 'LAS', 'EL', 'AL'}
-    for word in words[1:]:  # Skip first word
+    valid_particles = {'DE', 'DEL', 'DA', 'DI', 'DOS', 'DAS', 'Y', 'E', 'VAZ', 'VON', 'VAN', 'DEN', 'DER', 'TER', 'LA', 'LE', 'LOS', 'LAS', 'EL', 'AL'}
+    for word in words[1:]:
         w = word.upper()
-        # If word is short (<=2 letters) and NOT a valid particle, it's likely a split name
         if len(word) <= 2 and w not in valid_particles:
             return False
     return True
 
 
-def clean_athlete_name(raw_name):
-    """Reformat: LAST, FIRST -> FIRST LAST. Clean artifacts."""
-    name = raw_name.strip()
-    comma_match = re.match(r'(.+),\s*(.+)', name)
-    if comma_match:
-        name = f"{comma_match.group(2).strip()} {comma_match.group(1).strip()}"
-    return re.sub(r'\s+', ' ', name).strip()
+def extract_header_info(text):
+    lines = text.split('\n')
+    header_date = ''
+    header_location = ''
+
+    for line in lines:
+        line = line.strip()
+        date_match = re.search(r'(\d{1,2})\s+de\s+(\w+)\s+de\s+(\d{4})', line)
+        if date_match and not header_date:
+            months = {'gener': '1', 'febrer': '2', 'març': '3', 'abril': '4', 'maig': '5', 'juny': '6',
+                      'juliol': '7', 'agost': '8', 'setembre': '9', 'octubre': '10', 'novembre': '11', 'desembre': '12'}
+            day = date_match.group(1).zfill(2)
+            month = months.get(date_match.group(2).lower(), '01')
+            year = date_match.group(3)
+            header_date = f"{year}-{month}-{day}"
+        if re.search(r'\d{1,2}\s+de\s+\w+\s+de\s+\d{4}', line):
+            header_location = line.replace(',', '').strip()
+
+    return header_date, header_location, ''
 
 
-# ── Main extraction ─────────────────────────────────────────────────────────
+def detect_event(line):
+    """Detect event name from a line of text. Returns event string or None."""
+    line = line.strip()
+    if not line:
+        return None
 
-def is_race_event(event):
-    """Check if event is a race (has series with wind)."""
-    event_upper = event.upper()
-    return ('METRES LLISOS' in event_upper or 'METRES TANQUES' in event_upper or
-            'METRES VALLS' in event_upper or 'METRES OBSTACLES' in event_upper or
-            'MARXA' in event_upper or '300 TANQUES' in event_upper)
+    # METRES LLISOS/TANQUES/VALLS with optional category and gender
+    m = re.search(r'(\d+\s+)?METRES\s+(LLISOS|TANQUES|VALLS)\s+(BENJAMÍ|INFANTIL|JÚNIOR|SÈNIOR)?\s*(MASCULÍ|FEMENÍ)?', line, re.IGNORECASE)
+    if m:
+        # Reconstruct clean event name
+        parts = [m.group(1).strip() if m.group(1) else '', 'METRES', m.group(2)]
+        if m.group(3):
+            parts.append(m.group(3))
+        if m.group(4):
+            parts.append(m.group(4))
+        return ' '.join(p for p in parts if p)
+
+    # LLANÇAMENT DE XXX
+    m = re.search(r'(LLANÇAMENT|LLANAMENT)\s+DE\s+(\w+)', line, re.IGNORECASE)
+    if m:
+        return f"{m.group(1).upper()} DE {m.group(2).upper()}"
+
+    # SALT D'XXX
+    m = re.search(r'SALT\s+D\'(\w+)', line, re.IGNORECASE)
+    if m:
+        return f"SALT D'{m.group(1).upper()}"
+
+    # MARXA
+    if 'MARXA' in line.upper():
+        return line
+
+    return None
 
 
-def extract_catt_from_pdf(pdf_path):
-    """Extract CA Tarragona results from a PDF using needle-in-haystack.
-    
-    Wind handling:
-    - Races: winds from Tj operators, assigned by series number (1-indexed)
-    - Jumps/throws: wind from TJ block values after the mark
-    """
-    with open(pdf_path, 'rb') as f:
-        data = f.read()
-    pattern = rb'/Filter/FlateDecode.*?stream\r?\n(.*?)endstream'
-    streams = re.findall(pattern, data, re.DOTALL)
+def extract_from_tables(pdf_path):
+    """Try to extract results using pdfplumber table extraction."""
+    with pdfplumber.open(pdf_path) as pdf:
+        full_text = ''
+        for page in pdf.pages:
+            text = page.extract_text()
+            if text:
+                full_text += text + '\n'
 
-    header_date, header_location, header_event = extract_header_info(streams)
+    header_date, header_location, header_event = extract_header_info(full_text)
 
     seen = set()
     results = []
 
-    for stream_data in streams:
-        try:
-            text = zlib.decompress(stream_data).decode('latin-1', errors='replace')
-        except Exception:
-            continue
+    with pdfplumber.open(pdf_path) as pdf:
+        for page_num, page in enumerate(pdf.pages):
+            tables = page.extract_tables(table_settings={
+                'vertical_strategy': 'text',
+                'horizontal_strategy': 'text',
+            })
 
-        event = extract_event_from_stream(text)
-        if not event:
-            continue
+            for table in tables:
+                if not table or len(table) < 2:
+                    continue
 
-        # Extract winds from Tj operators for this stream
-        stream_winds = extract_winds_from_stream(text)
+                # Find header row
+                header_row = None
+                for row in table:
+                    if row and any('NOM' in str(cell) for cell in row if cell):
+                        header_row = row
+                        break
 
-        tj_blocks = re.findall(r'\[(.*?)\]\s*TJ', text, re.DOTALL)
-        for block in tj_blocks:
-            # ONLY CA Tarragona, not CG
-            if not re.search(r'\bCA\s*TARRAGONA\b', block, re.IGNORECASE):
-                continue
+                if not header_row:
+                    continue
 
-            texts = re.findall(r'\(([^)]*)\)', block)
+                # Build column index map
+                col_map = {}
+                for i, cell in enumerate(header_row):
+                    if cell:
+                        c = str(cell).strip().upper()
+                        if 'NOM' in c:
+                            col_map['name'] = i
+                        elif 'CLUB' in c:
+                            col_map['club'] = i
+                        elif 'MARCA' in c:
+                            col_map['mark'] = i
 
-            # Find CA Tarragona position
-            club_idx = None
-            for idx, t in enumerate(texts):
-                if re.match(r'(CA)\s*TARRAGONA', t, re.IGNORECASE):
-                    club_idx = idx
-                    break
+                name_col = col_map.get('name')
+                club_col = col_map.get('club')
+                mark_col = col_map.get('mark')
 
-            if club_idx is None:
-                continue
+                if name_col is None or club_col is None or mark_col is None:
+                    continue
 
-            # Find license position (element starting with CL)
-            lic_idx = None
-            for idx, t in enumerate(texts):
-                if t.strip().startswith('CL') or t.strip().startswith('Cl') or t.strip().startswith('cl'):
-                    lic_idx = idx
-                    break
-            
-            # Name is between license and club (exclusive)
-            # This handles split names like "LO" + "PEZ URBANO" + ", MIREIA"
-            # Exclude the birth year (2-4 digit number) which may be between lic and club
-            if lic_idx is not None and lic_idx < club_idx - 1:
-                name_parts = []
-                for part in texts[lic_idx + 1:club_idx]:
-                    p = part.strip()
-                    # Skip birth year (pure digits, 2-4 chars)
-                    if p.isdigit() and len(p) <= 4:
+                # Extract event from page text
+                page_text = page.extract_text() or ''
+                event = ''
+                for line in page_text.split('\n'):
+                    detected = detect_event(line)
+                    if detected:
+                        event = detected
+
+                if not event:
+                    continue
+
+                # Process data rows
+                for row in table[1:]:
+                    if not row:
                         continue
-                    name_parts.append(p)
-                name = ' '.join(name_parts)
-            elif club_idx >= 2:
-                name = texts[club_idx - 2]
-            else:
-                name = ''
-            
-            name = clean_athlete_name(name)
 
-            if not is_valid_name(name):
-                continue
+                    name = str(row[name_col]).strip() if name_col < len(row) else ''
+                    club = str(row[club_col]).strip() if club_col < len(row) else ''
+                    mark = str(row[mark_col]).strip() if mark_col < len(row) else ''
 
-            # Marks after club_idx
-            raw_marks = texts[club_idx + 1:]
-            performance = parse_performance(event, raw_marks)
-            if not performance:
-                continue
+                    if not re.search(r'CA\s*TARRAGONA', club, re.IGNORECASE):
+                        continue
 
-            # Extract wind
-            wind = None
-            
-            # For races: get wind by series number from Tj operators
-            if is_race_event(event):
-                # Series number is at texts[0] for series-format rows
-                series_num = None
-                if len(texts) >= 9:
-                    # Check if first element is a series number (1-99)
-                    try:
-                        sn = int(texts[0])
-                        if 1 <= sn <= 99:
-                            series_num = sn
-                    except ValueError:
-                        pass
-                
-                if series_num and series_num <= len(stream_winds):
-                    wind = stream_winds[series_num - 1]
-            
-            # For jumps/throws: get wind from TJ block values
-            if wind is None and not is_race_event(event):
-                wind = extract_wind_from_tj_block(raw_marks)
+                    name = clean_athlete_name(name)
+                    if not is_valid_name(name):
+                        continue
 
-            # Deduplicate (include wind in key to avoid cross-wind duplicates)
-            key = (name.lower(), event.lower(), performance, wind or '')
-            if key in seen:
-                continue
-            seen.add(key)
+                    performance = parse_performance(event, mark)
+                    if not performance:
+                        continue
 
-            result = {
-                'athlete_name': name,
-                'discipline': event,
-                'performance': performance,
-            }
-            if wind:
-                result['wind'] = wind
-            
-            results.append(result)
+                    key = (name.lower(), event.lower(), performance)
+                    if key in seen:
+                        continue
+                    seen.add(key)
+
+                    results.append({
+                        'athlete_name': name,
+                        'discipline': event,
+                        'performance': performance,
+                    })
 
     return header_date, header_location, header_event, results
 
 
-# ── Entry point ─────────────────────────────────────────────────────────────
+def extract_from_lines(pdf_path):
+    """Fallback: extract results by parsing each line of text."""
+    with pdfplumber.open(pdf_path) as pdf:
+        full_text = ''
+        for page in pdf.pages:
+            text = page.extract_text()
+            if text:
+                full_text += text + '\n'
+
+    header_date, header_location, header_event = extract_header_info(full_text)
+
+    seen = set()
+    results = []
+    current_event = ''
+
+    for line in full_text.split('\n'):
+        line = line.strip()
+        if not line:
+            continue
+
+        # Detect event
+        detected = detect_event(line)
+        if detected:
+            current_event = detected
+            continue
+
+        # Skip header lines
+        if re.search(r'LLOC\s+.*NOM.*CLUB', line, re.IGNORECASE):
+            continue
+
+        # Check for CA Tarragona
+        if not re.search(r'CA\s*TARRAGONA', line, re.IGNORECASE):
+            continue
+
+        if not current_event:
+            continue
+
+        # Extract name and mark
+        ca_match = re.search(r'(CA\s*TARRAGONA)\s+(.+)$', line, re.IGNORECASE)
+        if not ca_match:
+            continue
+
+        before_ca = line[:ca_match.start(1)].strip()
+        mark = ca_match.group(2).strip()
+        # Remove trailing 'F' (final indicator) from mark
+        mark = re.sub(r'\s+F\s*$', '', mark).strip()
+
+        # Extract name from before_ca
+        cl_match = re.search(r'CL\s*(\S+)\s+(.+)', before_ca)
+        if cl_match:
+            name = cl_match.group(2).strip()
+            # Remove birth year (2-4 digit number at end)
+            name = re.sub(r'\s+\d{2,4}\s*$', '', name).strip()
+        else:
+            name_match = re.search(r'CL\s*\S+\s+(.+?)(?:\s+\d{2,4})?\s*$', before_ca)
+            if name_match:
+                name = name_match.group(1).strip()
+                name = re.sub(r'\s+\d{2,4}\s*$', '', name).strip()
+            else:
+                continue
+
+        name = clean_athlete_name(name)
+        if not is_valid_name(name):
+            continue
+
+        performance = parse_performance(current_event, mark)
+        if not performance:
+            continue
+
+        key = (name.lower(), current_event.lower(), performance)
+        if key in seen:
+            continue
+        seen.add(key)
+
+        results.append({
+            'athlete_name': name,
+            'discipline': current_event,
+            'performance': performance,
+        })
+
+    return header_date, header_location, header_event, results
+
+
+def extract_catt_from_pdf(pdf_path):
+    """Extract CA Tarragona results from a PDF.
+    
+    Tries table-based extraction first, falls back to line-based parsing.
+    If table-based finds results with suspiciously short names (likely broken),
+    uses line-based extraction instead.
+    """
+    # Try table-based first
+    header_date, header_location, header_event, table_results = extract_from_tables(pdf_path)
+
+    # If table results have suspiciously short names, use line-based fallback
+    use_line_based = False
+    if table_results:
+        for r in table_results:
+            name = r['athlete_name']
+            words = name.split()
+            valid_particles = {'DE', 'DEL', 'DA', 'DI', 'Y', 'VAZ'}
+            if any(len(w) <= 3 and w.upper() not in valid_particles for w in words):
+                use_line_based = True
+                break
+
+    if use_line_based:
+        header_date, header_location, header_event, results = extract_from_lines(pdf_path)
+    else:
+        results = table_results
+
+    return header_date, header_location, header_event, results
+
 
 def main():
     if len(sys.argv) < 2:
@@ -492,26 +413,23 @@ def main():
 
     print(f"Found {len(results)} CA Tarragona results:")
     for r in results:
-        wind_str = f" W:{r['wind']}" if r.get('wind') else ''
-        print(f"  {r['athlete_name']:35s} | {r['discipline']:50s} | {r['performance']}{wind_str}")
+        print(f"  {r['athlete_name']:35s} | {r['discipline']:50s} | {r['performance']}")
 
     output = {
         'event_name': header_event if header_event else 'CAMPIONAT DE CATALUNYA',
         'event_date': header_date,
         'event_location': header_location,
         'event_src': pdf_url,
-        'total_results': len(results),
         'results': results,
     }
 
-    base = os.path.basename(pdf_path).replace('.pdf', '')
-    output_path = os.path.join(output_dir, f"{base}.json")
-
+    basename = os.path.basename(pdf_path).replace('.pdf', '')
+    output_path = os.path.join(output_dir, f"{basename}.json")
     with open(output_path, 'w', encoding='utf-8') as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
 
     print(f"\nResults written to: {output_path}")
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()

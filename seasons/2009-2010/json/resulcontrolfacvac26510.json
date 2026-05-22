@@ -1,19 +1,28 @@
 {
   "event_name": "CAMPIONAT DE CATALUNYA",
-  "event_date": "",
-  "event_location": "",
-  "event_src": "https://old.fcatletisme.cat/Promocio/promocio2010/resulcontrolfacvac26510.pdf",
-  "total_results": 2,
+  "event_date": "2010-5-26",
+  "event_location": "VALLS 26 de maig de 2010",
+  "event_src": "",
   "results": [
     {
-      "athlete_name": "ORES MONTES",
-      "discipline": "3000 METRES LLISOS FEMENÍ",
+      "athlete_name": "PEDRO ORTEGA RIDAO",
+      "discipline": "3000 METRES LLISOS MASCULÍ",
+      "performance": "9:08.2"
+    },
+    {
+      "athlete_name": "FERNANDO FLORES MONTES",
+      "discipline": "3000 METRES LLISOS MASCULÍ",
       "performance": "10:06.1"
     },
     {
       "athlete_name": "JORDI MIRO PORTA",
-      "discipline": "3000 METRES LLISOS FEMENÍ",
+      "discipline": "3000 METRES LLISOS MASCULÍ",
       "performance": "10:51.5"
+    },
+    {
+      "athlete_name": "EMILI BARBERAN DE MIQUEL",
+      "discipline": "3000 METRES LLISOS MASCULÍ",
+      "performance": "10:59.0"
     }
   ]
 }

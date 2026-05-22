@@ -21,19 +21,55 @@ import zlib
 
 
 def decompress_streams(pdf_path):
-    """Decompress all FlateDecode streams from a PDF."""
+    """Decompress all content streams from a PDF (both FlateDecode and /Contents).
+    
+    PDFs from 2008-2010 use /Filter/FlateDecode on page-level streams.
+    PDFs from 2010-2011 use /Contents references with compressed objects.
+    This function handles both formats.
+    """
     with open(pdf_path, 'rb') as f:
         data = f.read()
-    pattern = rb'/Filter/FlateDecode.*?stream\r?\n(.*?)endstream'
-    matches = re.findall(pattern, data, re.DOTALL)
+    
     streams = []
-    for stream in matches:
+    
+    # Format 1: /Filter/FlateDecode streams (2008-2010 era)
+    pattern1 = rb'/Filter/FlateDecode.*?stream\r?\n(.*?)endstream'
+    for stream in re.findall(pattern1, data, re.DOTALL):
         try:
             decompressed = zlib.decompress(stream)
             text = decompressed.decode('latin-1', errors='replace')
             streams.append(text)
         except Exception:
             continue
+    
+    # Format 2: /Contents objects (2010-2011 era)
+    # Find all /Contents references: /Contents N N R
+    contents_refs = re.findall(rb'/Contents\s+(\d+)\s+(\d+)\s+R', data)
+    for obj_num, gen_num in contents_refs:
+        # Find the object definition
+        obj_pattern = obj_num + rb'\s+' + gen_num + rb'\s+obj\s+(.*?)endobj'
+        obj_match = re.search(obj_pattern, data, re.DOTALL)
+        if not obj_match:
+            continue
+        obj_content = obj_match.group(1)
+        
+        if b'/Filter/FlateDecode' in obj_content:
+            # Compressed - decompress
+            stream_match = re.search(rb'stream\r?\n(.*?)endstream', obj_content, re.DOTALL)
+            if stream_match:
+                try:
+                    decompressed = zlib.decompress(stream_match.group(1))
+                    text = decompressed.decode('latin-1', errors='replace')
+                    streams.append(text)
+                except Exception:
+                    continue
+        else:
+            # Not compressed - use directly
+            stream_match = re.search(rb'stream\r?\n(.*?)endstream', obj_content, re.DOTALL)
+            if stream_match:
+                text = stream_match.group(1).decode('latin-1', errors='replace')
+                streams.append(text)
+    
     return streams
 
 
@@ -276,6 +312,16 @@ def is_valid_name(name):
     words = name.strip().split()
     if len(words) < 2:
         return False
+    # Filter broken names: too many words suggests PDF name splitting artifact
+    if len(words) > 4:
+        return False
+    # Known Spanish/Catalan name particles (valid 1-2 letter words)
+    valid_particles = {'DE', 'DEL', 'DA', 'DI', 'DOS', 'DAS', 'Y', 'E', 'VAZ', 'VON', 'VAN', 'DEN', 'DER', 'DER', 'TER', 'LA', 'LE', 'LOS', 'LAS', 'EL', 'AL'}
+    for word in words[1:]:  # Skip first word
+        w = word.upper()
+        # If word is short (<=2 letters) and NOT a valid particle, it's likely a split name
+        if len(word) <= 2 and w not in valid_particles:
+            return False
     return True
 
 
@@ -346,8 +392,30 @@ def extract_catt_from_pdf(pdf_path):
             if club_idx is None:
                 continue
 
-            # Name at club_idx - 2
-            name = texts[club_idx - 2] if club_idx >= 2 else ''
+            # Find license position (element starting with CL)
+            lic_idx = None
+            for idx, t in enumerate(texts):
+                if t.strip().startswith('CL') or t.strip().startswith('Cl') or t.strip().startswith('cl'):
+                    lic_idx = idx
+                    break
+            
+            # Name is between license and club (exclusive)
+            # This handles split names like "LO" + "PEZ URBANO" + ", MIREIA"
+            # Exclude the birth year (2-4 digit number) which may be between lic and club
+            if lic_idx is not None and lic_idx < club_idx - 1:
+                name_parts = []
+                for part in texts[lic_idx + 1:club_idx]:
+                    p = part.strip()
+                    # Skip birth year (pure digits, 2-4 chars)
+                    if p.isdigit() and len(p) <= 4:
+                        continue
+                    name_parts.append(p)
+                name = ' '.join(name_parts)
+            elif club_idx >= 2:
+                name = texts[club_idx - 2]
+            else:
+                name = ''
+            
             name = clean_athlete_name(name)
 
             if not is_valid_name(name):

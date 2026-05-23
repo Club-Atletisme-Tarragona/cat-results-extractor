@@ -326,3 +326,20 @@ The PDF uses:
 ## CT- Code in Names
 
 Some PDFs embed the license number directly in the name field (e.g., `CT-18283 MARINA MARTIN GONZALEZ`). The name extraction logic should NOT strip `CT-` codes from names — they are part of the athlete's license and appear in the PDF as-is. The license is also extracted separately from the license line below the name block.
+
+## Season Summary
+
+| Season | PDFs with CA Tarragona | JSON files | Total results | Unique athletes |
+|--------|----------------------|------------|---------------|-----------------|
+| 2008-2009 | 47 | 47 | 117 | ~50 |
+| 2009-2010 | 52 | 52 | 143 | ~60 |
+| 2010-2011 | 55 | 55 | 119 | ~55 |
+| 2011-2012 | 41 | 41 | 156 | ~65 |
+| 2012-2013 | 16 | 16 | 91 | ~40 |
+| 2013-2014 | 39 | 39 | 226 | 68 |
+
+**Notes:**
+- 2013-2014: 154 total PDFs in calendar, 55 mention "TARRAGONA" or "CATT" in text, but only 39 have actual CA Tarragona results. The rest are other clubs (Nàstic, FAAC, etc.) that share the word "Tarragona" in their name/location.
+- Some PDFs have `(t)` markers in the text (heat/heat marker) — these are not part of athlete names and should be ignored.
+- All JSONs include `event_src` with the reconstructed PDF URL.
+

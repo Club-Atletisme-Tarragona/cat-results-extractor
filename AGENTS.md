@@ -337,9 +337,11 @@ Some PDFs embed the license number directly in the name field (e.g., `CT-18283 M
 | 2011-2012 | 41 | 41 | 156 | ~65 |
 | 2012-2013 | 16 | 16 | 91 | ~40 |
 | 2013-2014 | 39 | 39 | 226 | 68 |
+| 2014-2015 | 43 | 43 | 406 | 115 |
 
 **Notes:**
 - 2013-2014: 154 total PDFs in calendar, 55 mention "TARRAGONA" or "CATT" in text, but only 39 have actual CA Tarragona results. The rest are other clubs (Nàstic, FAAC, etc.) that share the word "Tarragona" in their name/location.
+- 2014-2015: URL structure changed for Pairelliure and Pcoberta — use `/2015/` instead of `/pairelliure2014/` or `/pcoberta2014/`. The `_CONTEXT_PATTERNS` in extract_promocio.py uses `url_context='20'` to detect this: when `url_context == '20'`, the URL subpath is just the year (e.g., `/Pairelliure/2015/`).
 - Some PDFs have `(t)` markers in the text (heat/heat marker) — these are not part of athlete names and should be ignored.
 - All JSONs include `event_src` with the reconstructed PDF URL.
 

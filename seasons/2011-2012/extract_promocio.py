@@ -91,8 +91,20 @@ def parse_performance(event, mark_str):
                 pass
         return ''
 
-    # Race
-    if any(kw in event_upper for kw in ['METRES LLISOS', 'METRES TANQUES', 'METRES VALLS']):
+    # Race (METRES LLISOS/TANQUES/VALLS or XXXm format)
+    is_race = any(kw in event_upper for kw in ['METRES LLISOS', 'METRES TANQUES', 'METRES VALLS'])
+    # Also check XXXm format: "3.000m FEM. AL", "100m FEM. AL"
+    if not is_race:
+        m = re.search(r'(\d[\d.,]*)m', event_upper, re.IGNORECASE)
+        if m:
+            meters_clean = m.group(1).replace('.', '').replace(',', '')
+            try:
+                val = int(meters_clean)
+                if 60 <= val <= 10000:
+                    is_race = True
+            except ValueError:
+                pass
+    if is_race:
         m = re.search(r"(\d{1,2})'(\d{2})''(\d)", mark_str)
         if m: return f"{m.group(1)}:{m.group(2)}.{m.group(3)}"
         m = re.search(r'(\d{1,2}:\d{2}\.\d{2})', mark_str)
@@ -150,6 +162,21 @@ def detect_event(line):
     if not line:
         return None
 
+    # Skip athlete lines (start with digit + digit pattern)
+    if re.match(r'^\d+\s+\d+\s+', line):
+        return None
+    # Skip club lines (contain CL followed by digits)
+    if re.search(r'CL\d+', line):
+        return None
+    # Skip lines that look like results (contain O/X patterns or multiple numbers)
+    if re.search(r'[OX\-]+/[OX\-]+', line):
+        return None
+    # Skip header/footer lines
+    if re.search(r'Nombre F de Nac|Pto Dor|Club Lic|Calificación|Semifinal|Final\s', line, re.IGNORECASE):
+        return None
+    if line.startswith('RCAT') or line.startswith('T2011'):
+        return None
+
     # METRES LLISOS/TANQUES/VALLS with optional category and gender
     m = re.search(r'(\d+\s+)?METRES\s+(LLISOS|TANQUES|VALLS)\s+(BENJAMÍ|INFANTIL|JÚNIOR|SÈNIOR|ALEVÍ|CADET|JÚNIOR|SÈNIOR)?\s*(MASCULÍ|FEMENÍ|MASCULINA|FEMENINA|MA|FE)?', line, re.IGNORECASE)
     if m:
@@ -157,6 +184,18 @@ def detect_event(line):
         if m.group(3): parts.append(m.group(3))
         if m.group(4): parts.append(m.group(4))
         return ' '.join(p for p in parts if p)
+
+    # RFEA XXXm format: "3.000m FEM. AL", "100m FEM. AL", "600m FEM. AL"
+    m = re.search(r'(\d[\d.,]*)m\s+(\S+)', line, re.IGNORECASE)
+    if m:
+        meters = m.group(1)
+        meters_clean = meters.replace('.', '').replace(',', '')
+        try:
+            val = int(meters_clean)
+            if 60 <= val <= 10000:
+                return line
+        except ValueError:
+            pass
 
     # LLANÇAMENT DE XXX
     m = re.search(r'(LLANÇAMENT|LLANAMENT)\s+DE\s+(\w+)', line, re.IGNORECASE)
@@ -168,20 +207,17 @@ def detect_event(line):
     if m:
         return f"SALT D'{m.group(1).upper()}"
 
-    # MARXA
-    if 'MARXA' in line.upper():
-        return line
-
-    # RFEA-style events: "Alçada FEM. AL", "Llargada FEM. AL", "Triple Salt FEM. AL", "Pértiga FEM. AL"
-    # Pattern: EventName [GENDER] [CATEGORY]
-    rfea_events = ['ALÇADA', 'ALTADA', 'ALTURA', 'LLARGADA', 'TRIPLE SALT', 'PÈRTIGA', 'PERTIGA', 'PERXA',
-                   'DISC', 'PES', 'JAVELINA', 'DARD', 'PILOTA', 'MARXA']
-    for ev in rfea_events:
-        if ev in line.upper():
-            # Return the whole line as event name (it's clean enough)
+    # RFEA-style events: "Alçada FEM. AL", "Llargada MASC. AL", "Pes (2kg) MASC. AL"
+    event_keywords = ['ALÇADA', 'ALTADA', 'ALTURA', 'LLARGADA', 'TRIPLE SALT', 'TRIPLE',
+                      'PÈRTIGA', 'PERTIGA', 'PERXA', 'DISC', 'PES', 'JAVELINA',
+                      'DARD', 'PILOTA', 'MARXA']
+    for kw in event_keywords:
+        if kw in line.upper():
             return line
-
+            break
+    
     return None
+
 
 
 # ── RFEA Format Parser ──────────────────────────────────────────────

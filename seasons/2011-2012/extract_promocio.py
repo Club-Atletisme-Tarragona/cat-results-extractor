@@ -101,14 +101,15 @@ def parse_performance(event, mark_str):
         if m: return f"{m.group(1)}:{m.group(2)}.{m.group(3)}"
         m = re.search(r'(\d{1,2}:\d{2}\.\d{2})', mark_str)
         if m: return m.group(1)
-        parts = mark_str.split(',')
+        # H,MM,SS or H.MM.SS format (e.g., "1,59,08" or "1.59.08" for 600m+)
+        parts = mark_str.replace('.', ',').split(',')
         if len(parts) == 3:
             try:
                 if 1 <= int(parts[0]) <= 59:
                     return f"{parts[0]}:{parts[1]}.{parts[2]}"
             except ValueError:
                 pass
-        for nm in re.finditer(r'(?<![\d.:])(\d+\.\d{2})(?![\d.])', mark_str):
+        for nm in re.finditer(r'(?<![\\d.:])(\d+\.\d{2})(?![\d.])', mark_str):
             val = float(nm.group(1))
             if 5.0 <= val <= 60.0:
                 return nm.group(1)
@@ -250,61 +251,73 @@ def extract_territorial_format(pdf_path):
         if re.search(r'\bCG\s*TARRAGONA\b', line, re.IGNORECASE):
             continue
 
+        # NEW FORMAT: [Sèrie] [Lloc] [Carrer] [Dorsal] [CL/CT/CL] [NUM] NOM DD/MM/YYYY CA TARRAGONA MARCA
+        # e.g.: 6 1 6 366 CL 58462 ESPARZA OLIVAR, ANNA 28/05/1996 CA TARRAGONA 8,64
+        m = re.match(r'(?:\d+\s+)*(?:CL|CT|CL)\s+(\d+)\s+(.+?)\s+(\d{2}/\d{2}/\d{4})\s+(CA\s*TARRAGONA)\s+(.+)$', line, re.IGNORECASE)
+        if m:
+            license_num = m.group(1)
+            name = m.group(2).strip()
+            club = m.group(4).strip()
+            mark = m.group(5).strip()
+            cat = ''
         # Try with category code: CL-XXXX name YEAR CAT CLUB MARK
-        m = re.match(r'(?:\d+\s+)*CL-(\d+)\s+(.+?)\s+(\d{1,2})\s+(BM|BF|AM|AF|ABM|ABF|IF|CF|JN|JF|SN|SF|CM|CB|SM)\s+(CA\s*TARRAGONA)\s+(.+)$', line, re.IGNORECASE)
-        if not m:
-            # Try without category: CL-XXXX name YEAR CLUB MARK
-            m = re.match(r'(?:\d+\s+)*CL-(\d+)\s+(.+?)\s+(\d{1,2})\s+(CA\s*TARRAGONA)\s+(.+)$', line, re.IGNORECASE)
+        elif re.match(r'(?:\d+\s+)*CL-', line, re.IGNORECASE):
+            m = re.match(r'(?:\d+\s+)*CL-(\d+)\s+(.+?)\s+(\d{1,2})\s+(BM|BF|AM|AF|ABM|ABF|IF|CF|JN|JF|SN|SF|CM|CB|SM)\s+(CA\s*TARRAGONA)\s+(.+)$', line, re.IGNORECASE)
             if m:
                 license_num = m.group(1)
                 name = m.group(2).strip()
-                club = m.group(3).strip()
-                mark = m.group(5).strip()  # Group 5 is the mark (after CA TARRAGONA)
-                cat = ''
+                club = m.group(4).strip()
+                mark = m.group(5).strip()
+                cat = m.group(3).strip()
             else:
-                # Try without CL- entirely: [Lloc] [Sèrie] Dors [tram] name YEAR CLUB MARK
-                m = re.match(r'(?:\d+\s+)*\d+\s+(?:tram\s+)?(.+?)\s+(\d{1,2})\s+(CA\s*TARRAGONA)\s+(.+)$', line, re.IGNORECASE)
+                # Try without category: CL-XXXX name YEAR CLUB MARK
+                m = re.match(r'(?:\d+\s+)*CL-(\d+)\s+(.+?)\s+(\d{1,2})\s+(CA\s*TARRAGONA)\s+(.+)$', line, re.IGNORECASE)
                 if m:
-                    name = m.group(1).strip()
+                    license_num = m.group(1)
+                    name = m.group(2).strip()
                     club = m.group(3).strip()
-                    mark = m.group(4).strip()
-                    license_num = ''
+                    mark = m.group(5).strip()
                     cat = ''
                 else:
-                    # Try without CL- but with CAT: [Lloc] [Sèrie] Dors [tram] name YEAR CAT CA TARRAGONA MARK
-                    m = re.match(r'(?:\d+\s+)*\d+\s+(?:tram\s+)?(.+?)\s+(\d{1,2})\s+(BM|BF|AM|AF|ABM|ABF|IF|CF|JN|JF|SN|SF|CM|CB|SM)\s+(CA\s*TARRAGONA)\s+(.+)$', line, re.IGNORECASE)
+                    # Try with CL- but no CAT: [Lloc] [Sèrie] Dors CL-XXXX name YEAR CA TARRAGONA MARK
+                    m = re.match(r'(?:\d+\s+)*CL-(\d+)\s+(.+?)\s+(\d{1,2})\s+(CA\s*TARRAGONA)\s+(.+)$', line, re.IGNORECASE)
                     if m:
-                        name = m.group(1).strip()
+                        name = m.group(2).strip()
+                        club = m.group(3).strip()
+                        mark = m.group(5).strip()
+                        license_num = m.group(1)
+                        cat = ''
+                    else:
+                        continue
+        else:
+            # Try without CL- entirely: [Lloc] [Sèrie] Dors [tram] name YEAR CLUB MARK
+            m = re.match(r'(?:\d+\s+)*\d+\s+(?:tram\s+)?(.+?)\s+(\d{1,2})\s+(CA\s*TARRAGONA)\s+(.+)$', line, re.IGNORECASE)
+            if m:
+                name = m.group(1).strip()
+                club = m.group(3).strip()
+                mark = m.group(4).strip()
+                license_num = ''
+                cat = ''
+            else:
+                # Try without CL- but with CAT: [Lloc] [Sèrie] Dors [tram] name YEAR CAT CA TARRAGONA MARK
+                m = re.match(r'(?:\d+\s+)*\d+\s+(?:tram\s+)?(.+?)\s+(\d{1,2})\s+(BM|BF|AM|AF|ABM|ABF|IF|CF|JN|JF|SN|SF|CM|CB|SM)\s+(CA\s*TARRAGONA)\s+(.+)$', line, re.IGNORECASE)
+                if m:
+                    name = m.group(1).strip()
+                    club = m.group(4).strip()
+                    mark = m.group(5).strip()
+                    license_num = ''
+                    cat = m.group(3).strip()
+                else:
+                    # Try with plain license number (no CL-): [Lloc] [Sèrie] Dors NUM name YEAR CA TARRAGONA MARK
+                    m = re.match(r'(?:\d+\s+)*(\d+)\s+(.+?)\s+(\d{1,2})\s+(CA\s*TARRAGONA)\s+(.+)$', line, re.IGNORECASE)
+                    if m:
+                        name = m.group(2).strip()
                         club = m.group(4).strip()
                         mark = m.group(5).strip()
-                        license_num = ''
-                        cat = m.group(3).strip()
+                        license_num = m.group(1)
+                        cat = ''
                     else:
-                        # Try with CL- but no CAT: [Lloc] [Sèrie] Dors CL-XXXX name YEAR CA TARRAGONA MARK
-                        m = re.match(r'(?:\d+\s+)*CL-(\d+)\s+(.+?)\s+(\d{1,2})\s+(CA\s*TARRAGONA)\s+(.+)$', line, re.IGNORECASE)
-                        if m:
-                            name = m.group(2).strip()
-                            club = m.group(3).strip()
-                            mark = m.group(5).strip()
-                            license_num = m.group(1)
-                            cat = ''
-                        else:
-                            # Try with plain license number (no CL-): [Lloc] [Sèrie] Dors NUM name YEAR CA TARRAGONA MARK
-                            m = re.match(r'(?:\d+\s+)*(\d+)\s+(.+?)\s+(\d{1,2})\s+(CA\s*TARRAGONA)\s+(.+)$', line, re.IGNORECASE)
-                            if m:
-                                name = m.group(2).strip()
-                                club = m.group(4).strip()
-                                mark = m.group(5).strip()
-                                license_num = m.group(1)
-                                cat = ''
-                            else:
-                                continue
-        else:
-            license_num = m.group(1)
-            name = m.group(2).strip()
-            cat = m.group(4).strip()
-            club = m.group(5).strip()
-            mark = m.group(6).strip()
+                        continue
 
         name = clean_athlete_name(name)
         if not is_valid_name(name):
@@ -676,6 +689,11 @@ def extract_from_lines(pdf_path):
         before_ca = line[:ca_match.start(1)].strip()
         mark = ca_match.group(2).strip()
         mark = re.sub(r'\s+F\s*$', '', mark).strip()
+        # Normalize comma decimals (e.g., "8,64" → "8.64") for older PDFs.
+        # Only normalize if there's exactly one comma (simple decimal).
+        # Multi-comma marks like "1,59,08" (H,MM,SS) must be preserved.
+        if mark.count(',') == 1:
+            mark = mark.replace(',', '.')
 
         cl_match = re.search(r'CL\s*(\S+)\s+(.+)', before_ca)
         if cl_match:

@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 """
-Extract CATT results from old FCAT Promoció PDFs.
+Extract CA Tarragona results from old FCAT Promoció PDFs.
 
 Auto-detects PDF format:
-- FCAT inline: "CL 57703 NAME YEAR CA TARRAGONA MARK"
-- RFEA multi-line: "NAME DD/MM/YYYY MARK" + "CA TARRAGONA CLxxxxx"
-- Table-based: pdfplumber extract_tables
+- Territorial Promoció: "RESULTATS XXX" headers, CL-xxxxx with hyphen
+- RFEA multi-line: "NAME DD/MM/YYYY MARK" + "CLUB CLxxxxx"
+- FCAT table-based: pdfplumber extract_tables
+- FCAT line-based: inline "CL xxxx NAME CA TARRAGONA MARK"
 
 Only extracts CA Tarragona (NOT CG Tarragona or other CA XXX).
 """
@@ -20,19 +21,14 @@ import pdfplumber
 
 def clean_athlete_name(name):
     name = name.strip()
-    # Remove trailing noise: dates, percentages, ellipsis, RT/DQ
     name = re.sub(r'\s+\d{2}/\d{2}/\d{4}\s*$', '', name).strip()
     name = re.sub(r'\s+\d+,\d+%?\s*$', '', name).strip()
     name = re.sub(r'\s*[\u2026]+\s*$', '', name).strip()
     name = re.sub(r'\s+(RT|DQ|DNS|DNF)\s*$', '', name, flags=re.IGNORECASE).strip()
-    
-    # Convert "LAST, FIRST" -> "FIRST LAST"
     comma_match = re.match(r'(.+),\s*(.+)', name)
     if comma_match:
         last, first = comma_match.groups()
         name = f"{first.strip()} {last.strip()}"
-    
-    # Remove trailing F (final indicator)
     name = re.sub(r'\s+F\s*$', '', name).strip()
     return name.strip()
 
@@ -41,7 +37,7 @@ def is_valid_name(name):
     if not name or len(name.strip()) < 5:
         return False
     words = name.strip().split()
-    if len(words) < 2 or len(words) > 4:
+    if len(words) < 2 or len(words) > 5:
         return False
     valid_particles = {'DE', 'DEL', 'DA', 'DI', 'DOS', 'DAS', 'Y', 'E',
                        'VAZ', 'VON', 'VAN', 'DEN', 'DER', 'TER', 'LA', 'LE',
@@ -56,14 +52,11 @@ def is_valid_name(name):
 
 
 def is_ca_tarragona(club):
-    """Check if club is CA Tarragona ONLY (not CG Tarragona, not other CA XXX)."""
     club = club.strip()
-    # Must contain "CA Tarragona" but NOT "CG Tarragona"
     if re.search(r'\bCG\s*TARRAGONA\b', club, re.IGNORECASE):
         return False
     if re.search(r'\bCA\s*TARRAGONA\b', club, re.IGNORECASE):
         return True
-    # Also check for "C.A. Tarragona" or "CATT"
     if re.search(r'\bC\.A\.\s*Tarragona\b', club, re.IGNORECASE):
         return True
     if re.search(r'\bCATT\b', club, re.IGNORECASE):
@@ -93,7 +86,6 @@ def parse_performance(event, mark_str):
 
     # Race (METRES LLISOS/TANQUES/VALLS or XXXm format)
     is_race = any(kw in event_upper for kw in ['METRES LLISOS', 'METRES TANQUES', 'METRES VALLS'])
-    # Also check XXXm format: "3.000m FEM. AL", "100m FEM. AL"
     if not is_race:
         m = re.search(r'(\d[\d.,]*)m', event_upper, re.IGNORECASE)
         if m:
@@ -116,7 +108,6 @@ def parse_performance(event, mark_str):
                     return f"{parts[0]}:{parts[1]}.{parts[2]}"
             except ValueError:
                 pass
-        # Decimal seconds: 9.85, 11.79, etc.
         for nm in re.finditer(r'(?<![\d.:])(\d+\.\d{2})(?![\d.])', mark_str):
             val = float(nm.group(1))
             if 5.0 <= val <= 60.0:
@@ -132,7 +123,7 @@ def parse_performance(event, mark_str):
                 return m.group(1).replace(',', '.')
         return ''
 
-    # Jump (largada, triple, pertiga, perxa)
+    # Jump
     if any(kw in event_upper for kw in ['LLARGADA', 'TRIPLE', 'PÈRTIGA', 'PERTIGA', 'PERXA']):
         for nm in re.finditer(r'(\d+[,.]\d{2})', mark_str):
             val = float(nm.group(1).replace(',', '.'))
@@ -140,7 +131,7 @@ def parse_performance(event, mark_str):
                 return nm.group(1).replace(',', '.')
         return ''
 
-    # Throw (disc, pes, mart, javelina, dard, pilota)
+    # Throw
     if any(kw in event_upper for kw in ['LLANÇAMENT', 'LLANAMENT', 'DISC', 'PES', 'MART', 'JAVELINA', 'DARD', 'PILOTA']):
         for nm in re.finditer(r'(\d+[,.]\d{2})', mark_str):
             val = float(nm.group(1).replace(',', '.'))
@@ -148,7 +139,7 @@ def parse_performance(event, mark_str):
                 return nm.group(1).replace(',', '.')
         return ''
 
-    # Fallback: decimal seconds
+    # Fallback
     for nm in re.finditer(r'(?<![\d.:])(\d+\.\d{2})(?![\d.])', mark_str):
         val = float(nm.group(1))
         if 5.0 <= val <= 60.0:
@@ -157,27 +148,21 @@ def parse_performance(event, mark_str):
 
 
 def detect_event(line):
-    """Detect event name from a line of text."""
     line = line.strip()
     if not line:
         return None
 
-    # Skip athlete lines (start with digit + digit pattern)
     if re.match(r'^\d+\s+\d+\s+', line):
         return None
-    # Skip club lines (contain CL followed by digits)
     if re.search(r'CL\d+', line):
         return None
-    # Skip lines that look like results (contain O/X patterns or multiple numbers)
     if re.search(r'[OX\-]+/[OX\-]+', line):
         return None
-    # Skip header/footer lines
     if re.search(r'Nombre F de Nac|Pto Dor|Club Lic|Calificación|Semifinal|Final\s', line, re.IGNORECASE):
         return None
     if line.startswith('RCAT') or line.startswith('T2011'):
         return None
 
-    # METRES LLISOS/TANQUES/VALLS with optional category and gender
     m = re.search(r'(\d+\s+)?METRES\s+(LLISOS|TANQUES|VALLS)\s+(BENJAMÍ|INFANTIL|JÚNIOR|SÈNIOR|ALEVÍ|CADET|JÚNIOR|SÈNIOR)?\s*(MASCULÍ|FEMENÍ|MASCULINA|FEMENINA|MA|FE)?', line, re.IGNORECASE)
     if m:
         parts = [m.group(1).strip() if m.group(1) else '', 'METRES', m.group(2)]
@@ -185,7 +170,6 @@ def detect_event(line):
         if m.group(4): parts.append(m.group(4))
         return ' '.join(p for p in parts if p)
 
-    # RFEA XXXm format: "3.000m FEM. AL", "100m FEM. AL", "600m FEM. AL"
     m = re.search(r'(\d[\d.,]*)m\s+(\S+)', line, re.IGNORECASE)
     if m:
         meters = m.group(1)
@@ -197,17 +181,14 @@ def detect_event(line):
         except ValueError:
             pass
 
-    # LLANÇAMENT DE XXX
     m = re.search(r'(LLANÇAMENT|LLANAMENT)\s+DE\s+(\w+)', line, re.IGNORECASE)
     if m:
         return f"{m.group(1).upper()} DE {m.group(2).upper()}"
 
-    # SALT D'XXX
     m = re.search(r'SALT\s+D\'(\w+)', line, re.IGNORECASE)
     if m:
         return f"SALT D'{m.group(1).upper()}"
 
-    # RFEA-style events: "Alçada FEM. AL", "Llargada MASC. AL", "Pes (2kg) MASC. AL"
     event_keywords = ['ALÇADA', 'ALTADA', 'ALTURA', 'LLARGADA', 'TRIPLE SALT', 'TRIPLE',
                       'PÈRTIGA', 'PERTIGA', 'PERXA', 'DISC', 'PES', 'JAVELINA',
                       'DARD', 'PILOTA', 'MARXA']
@@ -219,18 +200,9 @@ def detect_event(line):
     return None
 
 
+# ── Territorial Promoció Format Parser ──────────────────────────────────────
 
-# ── RFEA Format Parser ──────────────────────────────────────────────
-
-def extract_rfea_format(pdf_path):
-    """
-    Extract results from RFEA-format PDFs.
-    
-    Format:
-    pos dorsal NAME DD/MM/YYYY MARK
-    CLUB CLxxxxx
-    [optional detail lines]
-    """
+def extract_territorial_format(pdf_path):
     with pdfplumber.open(pdf_path) as pdf:
         full_text = ''
         for page in pdf.pages:
@@ -245,7 +217,197 @@ def extract_rfea_format(pdf_path):
     header_date = ''
     header_location = ''
 
-    # Parse header from first 30 lines
+    for line in lines[:10]:
+        line = line.strip()
+        date_match = re.search(r'(\d{2})/(\d{2})/(\d{4})', line)
+        if date_match:
+            header_date = f"{date_match.group(3)}-{date_match.group(2)}-{date_match.group(1)}"
+        if 'TERRITORIAL' in line.upper():
+            header_location = line
+        if re.search(r'\d{2}/\d{2}/\d{4}', line) and 'TARRAGONA' in line.upper():
+            header_location = line
+
+    for line in lines:
+        line = line.strip()
+        if not line:
+            continue
+
+        event_match = re.search(r'RESULTATS\s+(.+)', line, re.IGNORECASE)
+        if event_match:
+            current_event = event_match.group(1).strip()
+            continue
+
+        if 'Sèrie' in line or 'Llic.' in line or 'Nom' in line or 'Naix' in line:
+            continue
+
+        if re.search(r'[OX\-]+/[OX\-]+', line):
+            continue
+        if re.match(r'^\d{2,3}\s+[OX\s]+$', line):
+            continue
+
+        if not re.search(r'\bCA\s*TARRAGONA\b', line, re.IGNORECASE):
+            continue
+        if re.search(r'\bCG\s*TARRAGONA\b', line, re.IGNORECASE):
+            continue
+
+        # Try with category code: CL-XXXX name YEAR CAT CLUB MARK
+        m = re.match(r'(?:\d+\s+)*CL-(\d+)\s+(.+?)\s+(\d{1,2})\s+(BM|BF|AM|AF|ABM|ABF|IF|CF|JN|JF|SN|SF|CM|CB|SM)\s+(CA\s*TARRAGONA)\s+(.+)$', line, re.IGNORECASE)
+        if not m:
+            # Try without category: CL-XXXX name YEAR CLUB MARK
+            m = re.match(r'(?:\d+\s+)*CL-(\d+)\s+(.+?)\s+(\d{1,2})\s+(CA\s*TARRAGONA)\s+(.+)$', line, re.IGNORECASE)
+            if m:
+                license_num = m.group(1)
+                name = m.group(2).strip()
+                club = m.group(3).strip()
+                mark = m.group(5).strip()  # Group 5 is the mark (after CA TARRAGONA)
+                cat = ''
+            else:
+                # Try without CL- entirely: [Lloc] [Sèrie] Dors [tram] name YEAR CLUB MARK
+                m = re.match(r'(?:\d+\s+)*\d+\s+(?:tram\s+)?(.+?)\s+(\d{1,2})\s+(CA\s*TARRAGONA)\s+(.+)$', line, re.IGNORECASE)
+                if m:
+                    name = m.group(1).strip()
+                    club = m.group(3).strip()
+                    mark = m.group(4).strip()
+                    license_num = ''
+                    cat = ''
+                else:
+                    # Try without CL- but with CAT: [Lloc] [Sèrie] Dors [tram] name YEAR CAT CA TARRAGONA MARK
+                    m = re.match(r'(?:\d+\s+)*\d+\s+(?:tram\s+)?(.+?)\s+(\d{1,2})\s+(BM|BF|AM|AF|ABM|ABF|IF|CF|JN|JF|SN|SF|CM|CB|SM)\s+(CA\s*TARRAGONA)\s+(.+)$', line, re.IGNORECASE)
+                    if m:
+                        name = m.group(1).strip()
+                        club = m.group(4).strip()
+                        mark = m.group(5).strip()
+                        license_num = ''
+                        cat = m.group(3).strip()
+                    else:
+                        # Try with CL- but no CAT: [Lloc] [Sèrie] Dors CL-XXXX name YEAR CA TARRAGONA MARK
+                        m = re.match(r'(?:\d+\s+)*CL-(\d+)\s+(.+?)\s+(\d{1,2})\s+(CA\s*TARRAGONA)\s+(.+)$', line, re.IGNORECASE)
+                        if m:
+                            name = m.group(2).strip()
+                            club = m.group(3).strip()
+                            mark = m.group(5).strip()
+                            license_num = m.group(1)
+                            cat = ''
+                        else:
+                            # Try with plain license number (no CL-): [Lloc] [Sèrie] Dors NUM name YEAR CA TARRAGONA MARK
+                            m = re.match(r'(?:\d+\s+)*(\d+)\s+(.+?)\s+(\d{1,2})\s+(CA\s*TARRAGONA)\s+(.+)$', line, re.IGNORECASE)
+                            if m:
+                                name = m.group(2).strip()
+                                club = m.group(4).strip()
+                                mark = m.group(5).strip()
+                                license_num = m.group(1)
+                                cat = ''
+                            else:
+                                continue
+        else:
+            license_num = m.group(1)
+            name = m.group(2).strip()
+            cat = m.group(4).strip()
+            club = m.group(5).strip()
+            mark = m.group(6).strip()
+
+        name = clean_athlete_name(name)
+        if not is_valid_name(name):
+            continue
+
+        performance = parse_territorial_performance(current_event, mark)
+        if not performance:
+            continue
+
+        key = (name.lower(), current_event.lower(), performance)
+        if key in seen:
+            continue
+        seen.add(key)
+
+        results.append({
+            'athlete_name': name,
+            'discipline': current_event,
+            'performance': performance,
+        })
+
+    return header_date, header_location, '', results
+
+
+def parse_territorial_performance(event, mark_str):
+    if not mark_str:
+        return ''
+    mark_str = mark_str.strip()
+    event_upper = event.upper()
+
+    mark_str = re.sub(r'\s*\([^)]*\)\s*$', '', mark_str).strip()
+    mark_str = re.sub(r'\s+[QF]\s*$', '', mark_str).strip()
+
+    # Marxa: 6'24"60
+    if 'MARXA' in event_upper:
+        m = re.search(r"(\d+)'(\d+)\"(\d+)", mark_str)
+        if m:
+            return f"{m.group(1)}:{m.group(2)}.{m.group(3)}"
+        return ''
+
+    # Sprints: 12"65
+    if any(kw in event_upper for kw in ['100', '200', '300', '400', '600', '800', '1000', '1500', '3000', '5000', '60', '80', '110', '220', '3000']):
+        if 'MARXA' not in event_upper:
+            m = re.search(r"(\d+)\"(\d+)", mark_str)
+            if m:
+                sec = int(m.group(1))
+                cent = int(m.group(2))
+                if 5 <= sec <= 600:
+                    return f"{sec}.{cent:02d}"
+            for nm in re.finditer(r'(?<![\d.":])(\d+\.\d{2})(?![\d.])', mark_str):
+                val = float(nm.group(1))
+                if 5.0 <= val <= 60.0:
+                    return nm.group(1)
+            return ''
+
+    # Height jumps
+    if any(kw in event_upper for kw in ["SALT D'ALÇADA", "SALT D'ALTADA", "ALÇADA", "ALTADA"]):
+        m = re.search(r'(\d+[,.]\d{2})', mark_str)
+        if m:
+            val = float(m.group(1).replace(',', '.'))
+            if 0.5 <= val <= 7.0:
+                return m.group(1).replace(',', '.')
+        return ''
+
+    # Long jump, triple jump, pole vault
+    if any(kw in event_upper for kw in ['LLARGADA', 'TRIPLE', 'PÈRTIGA', 'PERTIGA', 'PERXA']):
+        for nm in re.finditer(r'(\d+[,.]\d{2})', mark_str):
+            val = float(nm.group(1).replace(',', '.'))
+            if 1.5 <= val <= 20.0:
+                return nm.group(1).replace(',', '.')
+        return ''
+
+    # Throws
+    if any(kw in event_upper for kw in ['DISC', 'PES', 'MART', 'JAVELINA', 'DARD', 'PILOTA', 'LLANÇAMENT', 'LLANAMENT']):
+        for nm in re.finditer(r'(\d+[,.]\d{2})', mark_str):
+            val = float(nm.group(1).replace(',', '.'))
+            if 3.0 <= val <= 80.0:
+                return nm.group(1).replace(',', '.')
+        return ''
+
+    for nm in re.finditer(r'(?<![\d.":])(\d+\.\d{2})(?![\d.])', mark_str):
+        val = float(nm.group(1))
+        if 5.0 <= val <= 60.0:
+            return nm.group(1)
+    return ''
+
+
+# ── RFEA Format Parser ──────────────────────────────────────────────
+
+def extract_rfea_format(pdf_path):
+    with pdfplumber.open(pdf_path) as pdf:
+        full_text = ''
+        for page in pdf.pages:
+            text = page.extract_text()
+            if text:
+                full_text += text + '\n'
+
+    lines = full_text.split('\n')
+    seen = set()
+    results = []
+    current_event = ''
+    header_date = ''
+    header_location = ''
+
     for i, line in enumerate(lines[:30]):
         line = line.strip()
         date_match = re.search(r'(\d{1,2})\s+de\s+(\w+)\s+de\s+(\d{4})', line)
@@ -258,7 +420,6 @@ def extract_rfea_format(pdf_path):
             header_date = f"{year}-{month}-{day}"
             header_location = line.replace(',', '').strip()
 
-    # Parse athlete blocks
     i = 0
     while i < len(lines):
         line = lines[i].strip()
@@ -266,14 +427,12 @@ def extract_rfea_format(pdf_path):
             i += 1
             continue
 
-        # Detect event lines
         detected = detect_event(line)
         if detected:
             current_event = detected
             i += 1
             continue
 
-        # Skip header lines
         if re.search(r'LLOC\s+.*NOM.*CLUB', line, re.IGNORECASE):
             i += 1
             continue
@@ -284,7 +443,6 @@ def extract_rfea_format(pdf_path):
             i += 1
             continue
 
-        # Try to match athlete line: pos dorsal NAME DD/MM/YYYY MARK
         athlete_match = re.match(r'(\d+)\s+(\d+)\s+(.+?)\s+(\d{2}/\d{2}/\d{4})\s+(.+)$', line)
         if not athlete_match:
             i += 1
@@ -296,15 +454,12 @@ def extract_rfea_format(pdf_path):
         dob = athlete_match.group(4)
         mark = athlete_match.group(5).strip()
 
-        # Next line should be: CLUB CLxxxxx
         club_line = lines[i + 1].strip() if i + 1 < len(lines) else ''
         
-        # Check if this line has CA Tarragona
         if not is_ca_tarragona(club_line):
             i += 1
             continue
 
-        # Extract club name and license from club line
         club_match = re.match(r'(.+?)\s+(CL\d+|CT\d+|CAT-\d+|IB-\d+)', club_line)
         if not club_match:
             i += 1
@@ -313,18 +468,15 @@ def extract_rfea_format(pdf_path):
         club_name = club_match.group(1).strip()
         license_num = club_match.group(2).strip()
 
-        # Verify it's CA Tarragona
         if not is_ca_tarragona(club_name):
             i += 1
             continue
 
-        # Clean name
         name = clean_athlete_name(name)
         if not is_valid_name(name):
             i += 1
             continue
 
-        # Parse performance
         performance = parse_performance(current_event, mark)
         if not performance:
             i += 1
@@ -342,13 +494,11 @@ def extract_rfea_format(pdf_path):
             'performance': performance,
         })
 
-        # Skip detail lines (O/XXX patterns)
         j = i + 2
         while j < len(lines):
             detail = lines[j].strip()
             if detail and ('O/' in detail or detail.startswith('1.03') or detail.startswith('X') or
                           detail.startswith('O') or detail.startswith('-')):
-                # Check if it's a detail line (contains O/ or X patterns)
                 if re.search(r'[OX\-]+/[OX\-]+', detail):
                     j += 1
                     continue
@@ -358,10 +508,9 @@ def extract_rfea_format(pdf_path):
     return header_date, header_location, '', results
 
 
-# ── FCAT Inline Format Parser ───────────────────────────────────────
+# ── FCAT Table + Line Parsers ───────────────────────────────────────
 
 def extract_from_tables(pdf_path):
-    """Try to extract results using pdfplumber table extraction."""
     with pdfplumber.open(pdf_path) as pdf:
         full_text = ''
         for page in pdf.pages:
@@ -474,7 +623,6 @@ def extract_header_info(text):
 
 
 def extract_from_lines(pdf_path):
-    """Fallback: extract results by parsing each line of text (FCAT inline format)."""
     with pdfplumber.open(pdf_path) as pdf:
         full_text = ''
         for page in pdf.pages:
@@ -557,16 +705,31 @@ def extract_catt_from_pdf(pdf_path):
     """Extract CA Tarragona results from a PDF.
     
     Strategy:
-    1. Try RFEA multi-line format first (newer PDFs)
-    2. Try table-based extraction (FCAT with tables)
-    3. Try line-based extraction (FCAT inline)
+    1. Try Territorial Promoció format first (RESULTATS XXX headers)
+    2. Try RFEA multi-line format (NAME DD/MM/YYYY MARK + CLUB CLxxxxx)
+    3. Try table-based extraction (FCAT with tables)
+    4. Try line-based extraction (FCAT inline)
     """
-    # Strategy 1: Try RFEA format
-    rfea_results = []
+    # Strategy 1: Try Territorial format
+    try:
+        header_date, header_location, header_event, territorial_results = extract_territorial_format(pdf_path)
+        if territorial_results:
+            # Verify: Territorial format should have "RESULTATS" in the text
+            with pdfplumber.open(pdf_path) as pdf:
+                full_text = ''
+                for page in pdf.pages:
+                    text = page.extract_text()
+                    if text:
+                        full_text += text + '\n'
+                if 'RESULTATS' in full_text.upper():
+                    return header_date, header_location, header_event, territorial_results
+    except Exception:
+        pass
+
+    # Strategy 2: Try RFEA format
     try:
         header_date, header_location, header_event, rfea_results = extract_rfea_format(pdf_path)
         if rfea_results:
-            # Verify: RFEA format should have DD/MM/YYYY in the text
             with pdfplumber.open(pdf_path) as pdf:
                 full_text = ''
                 for page in pdf.pages:
@@ -578,10 +741,9 @@ def extract_catt_from_pdf(pdf_path):
     except Exception:
         pass
 
-    # Strategy 2: Try table-based
+    # Strategy 3: Try table-based
     header_date, header_location, header_event, table_results = extract_from_tables(pdf_path)
     if table_results:
-        # Check for suspiciously short names (broken table extraction)
         use_lines = False
         for r in table_results:
             name = r['athlete_name']
@@ -593,7 +755,7 @@ def extract_catt_from_pdf(pdf_path):
         if not use_lines:
             return header_date, header_location, header_event, table_results
 
-    # Strategy 3: Line-based fallback
+    # Strategy 4: Line-based fallback
     return extract_from_lines(pdf_path)
 
 

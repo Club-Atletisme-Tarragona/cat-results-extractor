@@ -21,6 +21,8 @@ import pdfplumber
 
 def clean_athlete_name(name):
     name = name.strip()
+    # Remove (t) heat marker from PDF
+    name = re.sub(r'\s*\(\s*t\s*\)\s*', ' ', name).strip()
     name = re.sub(r'\s+\d{2}/\d{2}/\d{4}\s*$', '', name).strip()
     name = re.sub(r'\s+\d+,\d+%?\s*$', '', name).strip()
     name = re.sub(r'\s*[\u2026]+\s*$', '', name).strip()
@@ -792,15 +794,15 @@ def extract_catt_from_pdf(pdf_path):
 # ── URL Reconstruction ──────────────────────────────────────────────
 
 _CONTEXT_PATTERNS = [
-    (r'cadetpc|juvenilpc|cadet.*pc|infantil.*pc|benjami.*pc|control.*pc', 'Pcoberta', 'pcoberta'),
-    (r'airelliure', 'Pairelliure', 'airelliure'),
-    (r'catclub|catcadet|catbenjami|catinfantil|catalevi|catcombi|catcombialeinfcad', 'Pairelliure', 'airelliure'),
+    (r'cadetpc|juvenilpc|cadet.*pc|infantil.*pc|benjami.*pc|control.*pc', 'Pcoberta', '20'),
+    (r'airelliure', 'Pairelliure', '20'),
+    (r'catclub|catcadet|catbenjami|catinfantil|catalevi|catcombi', 'Pairelliure', '20'),
     (r'cros', 'Cros', 'cros'),
     (r'marxa', 'Marxa', 'marxa'),
-    (r'territorial|territcombi|cnatterrit', 'promocio', 'promocio'),
-    (r'controlfcat|fcat', 'Pcoberta', 'pcoberta'),
-    (r'catalevi', 'Pairelliure', 'airelliure'),
-    (r'resul-', 'Pairelliure', 'airelliure'),
+    (r'territorial|territcombi|cnatterrit|control|bai|bages|divirtiendose|jugando|lligueta|portaunamic|social|quadrangular|resultpromo|resultro', 'Promocio', 'promocio'),
+    (r'controlfcat|fcat', 'Pcoberta', '20'),
+    (r'catalevi', 'Pairelliure', '20'),
+    (r'resul-', 'Pairelliure', '20'),
 ]
 
 
@@ -821,7 +823,16 @@ def reconstruct_pdf_url(pdf_basename, year_hint=None):
     
     for pattern, context, url_context in _CONTEXT_PATTERNS:
         if re.search(pattern, pdf_basename, re.IGNORECASE):
-            return f"https://old.fcatletisme.cat/{context}/{url_context}{year}/{pdf_basename}"
+            # url_context can be:
+            # - '20' for Pairelliure/Pcoberta (use just year: /2015/)
+            # - 'promocio' for Promocio (use prefix+year: /promocio2015/)
+            # - 'cros' for Cros (use prefix+year: /cros2015/)
+            # - 'marxa' for Marxa (use prefix+year: /marxa2015/)
+            if url_context == '20':
+                url_sub = year  # Just the year: /2015/
+            else:
+                url_sub = f"{url_context}{year}"  # prefix+year: /promocio2015/
+            return f"https://old.fcatletisme.cat/{context}/{url_sub}/{pdf_basename}"
     
     return None
 

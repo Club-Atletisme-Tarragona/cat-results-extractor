@@ -21,6 +21,8 @@ import pdfplumber
 
 def clean_athlete_name(name):
     name = name.strip()
+    # Remove (t) heat marker from PDF
+    name = re.sub(r'\s*\(\s*t\s*\)\s*', ' ', name).strip()
     name = re.sub(r'\s+\d{2}/\d{2}/\d{4}\s*$', '', name).strip()
     name = re.sub(r'\s+\d+,\d+%?\s*$', '', name).strip()
     name = re.sub(r'\s*[\u2026]+\s*$', '', name).strip()
@@ -101,14 +103,15 @@ def parse_performance(event, mark_str):
         if m: return f"{m.group(1)}:{m.group(2)}.{m.group(3)}"
         m = re.search(r'(\d{1,2}:\d{2}\.\d{2})', mark_str)
         if m: return m.group(1)
-        parts = mark_str.split(',')
+        # H,MM,SS or H.MM.SS format (e.g., "1,59,08" or "1.59.08" for 600m+)
+        parts = mark_str.replace('.', ',').split(',')
         if len(parts) == 3:
             try:
                 if 1 <= int(parts[0]) <= 59:
                     return f"{parts[0]}:{parts[1]}.{parts[2]}"
             except ValueError:
                 pass
-        for nm in re.finditer(r'(?<![\d.:])(\d+\.\d{2})(?![\d.])', mark_str):
+        for nm in re.finditer(r'(?<![\\d.:])(\d+\.\d{2})(?![\d.])', mark_str):
             val = float(nm.group(1))
             if 5.0 <= val <= 60.0:
                 return nm.group(1)
@@ -250,61 +253,73 @@ def extract_territorial_format(pdf_path):
         if re.search(r'\bCG\s*TARRAGONA\b', line, re.IGNORECASE):
             continue
 
+        # NEW FORMAT: [Sèrie] [Lloc] [Carrer] [Dorsal] [CL/CT/CL] [NUM] NOM DD/MM/YYYY CA TARRAGONA MARCA
+        # e.g.: 6 1 6 366 CL 58462 ESPARZA OLIVAR, ANNA 28/05/1996 CA TARRAGONA 8,64
+        m = re.match(r'(?:\d+\s+)*(?:CL|CT|CL)\s+(\d+)\s+(.+?)\s+(\d{2}/\d{2}/\d{4})\s+(CA\s*TARRAGONA)\s+(.+)$', line, re.IGNORECASE)
+        if m:
+            license_num = m.group(1)
+            name = m.group(2).strip()
+            club = m.group(4).strip()
+            mark = m.group(5).strip()
+            cat = ''
         # Try with category code: CL-XXXX name YEAR CAT CLUB MARK
-        m = re.match(r'(?:\d+\s+)*CL-(\d+)\s+(.+?)\s+(\d{1,2})\s+(BM|BF|AM|AF|ABM|ABF|IF|CF|JN|JF|SN|SF|CM|CB|SM)\s+(CA\s*TARRAGONA)\s+(.+)$', line, re.IGNORECASE)
-        if not m:
-            # Try without category: CL-XXXX name YEAR CLUB MARK
-            m = re.match(r'(?:\d+\s+)*CL-(\d+)\s+(.+?)\s+(\d{1,2})\s+(CA\s*TARRAGONA)\s+(.+)$', line, re.IGNORECASE)
+        elif re.match(r'(?:\d+\s+)*CL-', line, re.IGNORECASE):
+            m = re.match(r'(?:\d+\s+)*CL-(\d+)\s+(.+?)\s+(\d{1,2})\s+(BM|BF|AM|AF|ABM|ABF|IF|CF|JN|JF|SN|SF|CM|CB|SM)\s+(CA\s*TARRAGONA)\s+(.+)$', line, re.IGNORECASE)
             if m:
                 license_num = m.group(1)
                 name = m.group(2).strip()
-                club = m.group(3).strip()
-                mark = m.group(5).strip()  # Group 5 is the mark (after CA TARRAGONA)
-                cat = ''
+                club = m.group(4).strip()
+                mark = m.group(5).strip()
+                cat = m.group(3).strip()
             else:
-                # Try without CL- entirely: [Lloc] [Sèrie] Dors [tram] name YEAR CLUB MARK
-                m = re.match(r'(?:\d+\s+)*\d+\s+(?:tram\s+)?(.+?)\s+(\d{1,2})\s+(CA\s*TARRAGONA)\s+(.+)$', line, re.IGNORECASE)
+                # Try without category: CL-XXXX name YEAR CLUB MARK
+                m = re.match(r'(?:\d+\s+)*CL-(\d+)\s+(.+?)\s+(\d{1,2})\s+(CA\s*TARRAGONA)\s+(.+)$', line, re.IGNORECASE)
                 if m:
-                    name = m.group(1).strip()
+                    license_num = m.group(1)
+                    name = m.group(2).strip()
                     club = m.group(3).strip()
-                    mark = m.group(4).strip()
-                    license_num = ''
+                    mark = m.group(5).strip()
                     cat = ''
                 else:
-                    # Try without CL- but with CAT: [Lloc] [Sèrie] Dors [tram] name YEAR CAT CA TARRAGONA MARK
-                    m = re.match(r'(?:\d+\s+)*\d+\s+(?:tram\s+)?(.+?)\s+(\d{1,2})\s+(BM|BF|AM|AF|ABM|ABF|IF|CF|JN|JF|SN|SF|CM|CB|SM)\s+(CA\s*TARRAGONA)\s+(.+)$', line, re.IGNORECASE)
+                    # Try with CL- but no CAT: [Lloc] [Sèrie] Dors CL-XXXX name YEAR CA TARRAGONA MARK
+                    m = re.match(r'(?:\d+\s+)*CL-(\d+)\s+(.+?)\s+(\d{1,2})\s+(CA\s*TARRAGONA)\s+(.+)$', line, re.IGNORECASE)
                     if m:
-                        name = m.group(1).strip()
+                        name = m.group(2).strip()
+                        club = m.group(3).strip()
+                        mark = m.group(5).strip()
+                        license_num = m.group(1)
+                        cat = ''
+                    else:
+                        continue
+        else:
+            # Try without CL- entirely: [Lloc] [Sèrie] Dors [tram] name YEAR CLUB MARK
+            m = re.match(r'(?:\d+\s+)*\d+\s+(?:tram\s+)?(.+?)\s+(\d{1,2})\s+(CA\s*TARRAGONA)\s+(.+)$', line, re.IGNORECASE)
+            if m:
+                name = m.group(1).strip()
+                club = m.group(3).strip()
+                mark = m.group(4).strip()
+                license_num = ''
+                cat = ''
+            else:
+                # Try without CL- but with CAT: [Lloc] [Sèrie] Dors [tram] name YEAR CAT CA TARRAGONA MARK
+                m = re.match(r'(?:\d+\s+)*\d+\s+(?:tram\s+)?(.+?)\s+(\d{1,2})\s+(BM|BF|AM|AF|ABM|ABF|IF|CF|JN|JF|SN|SF|CM|CB|SM)\s+(CA\s*TARRAGONA)\s+(.+)$', line, re.IGNORECASE)
+                if m:
+                    name = m.group(1).strip()
+                    club = m.group(4).strip()
+                    mark = m.group(5).strip()
+                    license_num = ''
+                    cat = m.group(3).strip()
+                else:
+                    # Try with plain license number (no CL-): [Lloc] [Sèrie] Dors NUM name YEAR CA TARRAGONA MARK
+                    m = re.match(r'(?:\d+\s+)*(\d+)\s+(.+?)\s+(\d{1,2})\s+(CA\s*TARRAGONA)\s+(.+)$', line, re.IGNORECASE)
+                    if m:
+                        name = m.group(2).strip()
                         club = m.group(4).strip()
                         mark = m.group(5).strip()
-                        license_num = ''
-                        cat = m.group(3).strip()
+                        license_num = m.group(1)
+                        cat = ''
                     else:
-                        # Try with CL- but no CAT: [Lloc] [Sèrie] Dors CL-XXXX name YEAR CA TARRAGONA MARK
-                        m = re.match(r'(?:\d+\s+)*CL-(\d+)\s+(.+?)\s+(\d{1,2})\s+(CA\s*TARRAGONA)\s+(.+)$', line, re.IGNORECASE)
-                        if m:
-                            name = m.group(2).strip()
-                            club = m.group(3).strip()
-                            mark = m.group(5).strip()
-                            license_num = m.group(1)
-                            cat = ''
-                        else:
-                            # Try with plain license number (no CL-): [Lloc] [Sèrie] Dors NUM name YEAR CA TARRAGONA MARK
-                            m = re.match(r'(?:\d+\s+)*(\d+)\s+(.+?)\s+(\d{1,2})\s+(CA\s*TARRAGONA)\s+(.+)$', line, re.IGNORECASE)
-                            if m:
-                                name = m.group(2).strip()
-                                club = m.group(4).strip()
-                                mark = m.group(5).strip()
-                                license_num = m.group(1)
-                                cat = ''
-                            else:
-                                continue
-        else:
-            license_num = m.group(1)
-            name = m.group(2).strip()
-            cat = m.group(4).strip()
-            club = m.group(5).strip()
-            mark = m.group(6).strip()
+                        continue
 
         name = clean_athlete_name(name)
         if not is_valid_name(name):
@@ -676,6 +691,11 @@ def extract_from_lines(pdf_path):
         before_ca = line[:ca_match.start(1)].strip()
         mark = ca_match.group(2).strip()
         mark = re.sub(r'\s+F\s*$', '', mark).strip()
+        # Normalize comma decimals (e.g., "8,64" → "8.64") for older PDFs.
+        # Only normalize if there's exactly one comma (simple decimal).
+        # Multi-comma marks like "1,59,08" (H,MM,SS) must be preserved.
+        if mark.count(',') == 1:
+            mark = mark.replace(',', '.')
 
         cl_match = re.search(r'CL\s*(\S+)\s+(.+)', before_ca)
         if cl_match:
@@ -771,6 +791,52 @@ def extract_catt_from_pdf(pdf_path):
     return extract_from_lines(pdf_path)
 
 
+# ── URL Reconstruction ──────────────────────────────────────────────
+
+_CONTEXT_PATTERNS = [
+    (r'cadetpc|juvenilpc|cadet.*pc|infantil.*pc|benjami.*pc|control.*pc', 'Pcoberta', '20'),
+    (r'airelliure', 'Pairelliure', '20'),
+    (r'catclub|catcadet|catbenjami|catinfantil|catalevi|catcombi', 'Pairelliure', '20'),
+    (r'cros', 'Cros', 'cros'),
+    (r'marxa', 'Marxa', 'marxa'),
+    (r'territorial|territcombi|cnatterrit|control|bai|bages|divirtiendose|jugando|lligueta|portaunamic|social|quadrangular|resultpromo|resultro', 'Promocio', 'promocio'),
+    (r'controlfcat|fcat', 'Pcoberta', '20'),
+    (r'catalevi', 'Pairelliure', '20'),
+    (r'resul-', 'Pairelliure', '20'),
+]
+
+
+def reconstruct_pdf_url(pdf_basename, year_hint=None):
+    """Reconstruct the FCAT URL from a PDF filename.
+    
+    If year_hint is not provided, extracts YY from the end of the filename.
+    """
+    name = pdf_basename.replace('.pdf', '')
+    if not year_hint:
+        m = re.search(r'(\d{2})$', name)
+        year = f"20{m.group(1)}" if m else None
+    else:
+        year = year_hint
+    
+    if not year:
+        return None
+    
+    for pattern, context, url_context in _CONTEXT_PATTERNS:
+        if re.search(pattern, pdf_basename, re.IGNORECASE):
+            # url_context can be:
+            # - '20' for Pairelliure/Pcoberta (use just year: /2015/)
+            # - 'promocio' for Promocio (use prefix+year: /promocio2015/)
+            # - 'cros' for Cros (use prefix+year: /cros2015/)
+            # - 'marxa' for Marxa (use prefix+year: /marxa2015/)
+            if url_context == '20':
+                url_sub = year  # Just the year: /2015/
+            else:
+                url_sub = f"{url_context}{year}"  # prefix+year: /promocio2015/
+            return f"https://old.fcatletisme.cat/{context}/{url_sub}/{pdf_basename}"
+    
+    return None
+
+
 def main():
     if len(sys.argv) < 2:
         print("Usage: python3 extract_promocio.py <pdf_file> [output_dir] [pdf_url]")
@@ -780,6 +846,11 @@ def main():
     output_dir = sys.argv[2] if len(sys.argv) > 2 else "json"
     pdf_url = sys.argv[3] if len(sys.argv) > 3 else ""
     os.makedirs(output_dir, exist_ok=True)
+    
+    # Auto-reconstruct URL if not provided
+    if not pdf_url:
+        pdf_basename = os.path.basename(pdf_path)
+        pdf_url = reconstruct_pdf_url(pdf_basename) or ""
 
     print(f"Extracting from: {pdf_path}")
     print()

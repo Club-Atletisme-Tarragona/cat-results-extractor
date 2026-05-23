@@ -295,3 +295,34 @@ The following labels are used to skip header/metadata lines in multiple function
 `Puesto`, `Dorsal`, `Club`, `Nombre`, `Fecha`, `Licencia`, `RESULT`, `Calle`, `Hora`, `Leyenda`, `Resultado`, `Serie`, `Gestion`, `Pagina`, `SUMARIO`, `Rank`, `Viento`, `Pasos`, `RESULTADOS`, `Ord`
 
 These are used consistently across `_find_catt_old_format`, `_find_catt_new_format`, `parse_sumario_section`, and `parse_relay_section`.
+
+## Long Race Time Format (1000m, 1500m, 3000m, 5000m)
+
+**CRITICAL: Long-distance races use the `X'YY"ZZ` format** (e.g., `3'53"86` for 3 minutes, 53 seconds, 86 centiseconds).
+
+The PDF uses:
+- `'` (apostrophe) for minutes
+- `"` (double quote) for seconds
+- Two digits for centiseconds
+
+**Regex patterns:**
+- `parse_performance()` (territorial): `r"(\d{1,2})'(\d{2})\"(\d{2})"` for marcha and race events
+- `parse_territorial_performance()`: Same pattern, but **MUST be checked BEFORE sprint logic**
+
+**Bug to avoid:** The old regex `''` (two apostrophes) was wrong — the PDF uses `'` + `"` not `''`. Also centiseconds are always 2 digits (`\d{2}`), not 1 (`\d`).
+
+**Order matters in `parse_territorial_performance()`:**
+1. Check long race events (`['1000', '1500', '3000', '5000']`) FIRST with the `'` + `"` pattern
+2. Then check sprints (`['60', '80', '100', '200', '400', '600', '800']`) with the `"` pattern only
+
+**Never include `1000`, `1500`, `3000`, `5000` in the sprint keyword list** — they use minutes and would be misparsed as seconds if checked first.
+
+**Output format:** Convert `X'YY"ZZ` to `X:YY.ZZ` (e.g., `3'53"86` → `3:53.86`).
+
+## License vs Club Code
+
+`CT-` prefixed codes (e.g., `CT-18283`, `CT18283`) are **license numbers**, NOT club codes. They follow the pattern `CT[\d\-]+`. Club codes are short uppercase strings like `CATT`, `JASB`, `BCNB`, etc. The parser must extract license numbers from license lines (after the club code line) and NOT treat them as club identifiers.
+
+## CT- Code in Names
+
+Some PDFs embed the license number directly in the name field (e.g., `CT-18283 MARINA MARTIN GONZALEZ`). The name extraction logic should NOT strip `CT-` codes from names — they are part of the athlete's license and appear in the PDF as-is. The license is also extracted separately from the license line below the name block.

@@ -344,20 +344,32 @@ def parse_territorial_performance(event, mark_str):
             return f"{m.group(1)}:{m.group(2)}.{m.group(3)}"
         return ''
 
-    # Sprints: 12"65
-    if any(kw in event_upper for kw in ['100', '200', '300', '400', '600', '800', '1000', '1500', '3000', '5000', '60', '80', '110', '220', '3000']):
-        if 'MARXA' not in event_upper:
-            m = re.search(r"(\d+)\"(\d+)", mark_str)
-            if m:
-                sec = int(m.group(1))
-                cent = int(m.group(2))
-                if 5 <= sec <= 600:
-                    return f"{sec}.{cent:02d}"
-            for nm in re.finditer(r'(?<![\d.":])(\d+\.\d{2})(?![\d.])', mark_str):
-                val = float(nm.group(1))
-                if 5.0 <= val <= 60.0:
-                    return nm.group(1)
-            return ''
+    # Long races: X'YY"ZZ (e.g., 3'53"86 for 1000m, 1500m, 3000m, 5000m)
+    # Must check BEFORE sprints — these events use minutes:seconds.centiseconds
+    long_race_events = ['1000', '1500', '3000', '5000']
+    if any(kw in event_upper for kw in long_race_events):
+        m = re.search(r"(\d{1,2})'(\d{2})\"(\d{2})", mark_str)
+        if m:
+            return f"{m.group(1)}:{m.group(2)}.{m.group(3)}"
+        # Fallback: HH:MM.ss format
+        m = re.search(r'(\d{1,2}:\d{2}\.\d{2})', mark_str)
+        if m:
+            return m.group(1)
+        return ''
+
+    # Sprints: 12"65 (60m, 80m, 100m, 200m, 400m, 600m, 800m)
+    if any(kw in event_upper for kw in ['60', '80', '100', '200', '400', '600', '800']):
+        m = re.search(r"(\d+)\"(\d+)", mark_str)
+        if m:
+            sec = int(m.group(1))
+            cent = int(m.group(2))
+            if 5 <= sec <= 600:
+                return f"{sec}.{cent:02d}"
+        for nm in re.finditer(r'(?<![\d.\":])(\d+\.\d{2})(?![\d.])', mark_str):
+            val = float(nm.group(1))
+            if 5.0 <= val <= 60.0:
+                return nm.group(1)
+        return ''
 
     # Height jumps
     if any(kw in event_upper for kw in ["SALT D'ALÇADA", "SALT D'ALTADA", "ALÇADA", "ALTADA"]):

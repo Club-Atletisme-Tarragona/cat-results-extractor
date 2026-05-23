@@ -789,6 +789,43 @@ def extract_catt_from_pdf(pdf_path):
     return extract_from_lines(pdf_path)
 
 
+# ── URL Reconstruction ──────────────────────────────────────────────
+
+_CONTEXT_PATTERNS = [
+    (r'cadetpc|juvenilpc|cadet.*pc|infantil.*pc|benjami.*pc|control.*pc', 'Pcoberta', 'pcoberta'),
+    (r'airelliure', 'Pairelliure', 'airelliure'),
+    (r'catclub|catcadet|catbenjami|catinfantil|catalevi|catcombi|catcombialeinfcad', 'Pairelliure', 'airelliure'),
+    (r'cros', 'Cros', 'cros'),
+    (r'marxa', 'Marxa', 'marxa'),
+    (r'territorial|territcombi|cnatterrit', 'promocio', 'promocio'),
+    (r'controlfcat|fcat', 'Pcoberta', 'pcoberta'),
+    (r'catalevi', 'Pairelliure', 'airelliure'),
+    (r'resul-', 'Pairelliure', 'airelliure'),
+]
+
+
+def reconstruct_pdf_url(pdf_basename, year_hint=None):
+    """Reconstruct the FCAT URL from a PDF filename.
+    
+    If year_hint is not provided, extracts YY from the end of the filename.
+    """
+    name = pdf_basename.replace('.pdf', '')
+    if not year_hint:
+        m = re.search(r'(\d{2})$', name)
+        year = f"20{m.group(1)}" if m else None
+    else:
+        year = year_hint
+    
+    if not year:
+        return None
+    
+    for pattern, context, url_context in _CONTEXT_PATTERNS:
+        if re.search(pattern, pdf_basename, re.IGNORECASE):
+            return f"https://old.fcatletisme.cat/{context}/{url_context}{year}/{pdf_basename}"
+    
+    return None
+
+
 def main():
     if len(sys.argv) < 2:
         print("Usage: python3 extract_promocio.py <pdf_file> [output_dir] [pdf_url]")
@@ -798,6 +835,11 @@ def main():
     output_dir = sys.argv[2] if len(sys.argv) > 2 else "json"
     pdf_url = sys.argv[3] if len(sys.argv) > 3 else ""
     os.makedirs(output_dir, exist_ok=True)
+    
+    # Auto-reconstruct URL if not provided
+    if not pdf_url:
+        pdf_basename = os.path.basename(pdf_path)
+        pdf_url = reconstruct_pdf_url(pdf_basename) or ""
 
     print(f"Extracting from: {pdf_path}")
     print()

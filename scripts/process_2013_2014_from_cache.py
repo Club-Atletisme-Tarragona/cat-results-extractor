@@ -165,6 +165,19 @@ def validate_discipline_perf(discipline, perf):
     
     return True
 
+# Build URL mapping: filename -> original URL
+url_map = {}
+for url_file in ['/tmp/aire_lliure_2013_2014.txt', '/tmp/pista_coberta_2013_2014.txt']:
+    if os.path.exists(url_file):
+        with open(url_file) as f:
+            for line in f:
+                url = line.strip()
+                if url and url.endswith('.pdf'):
+                    fname = url.split('/')[-1]
+                    url_map[fname] = url
+
+print(f"URL mapping: {len(url_map)} PDFs -> URLs")
+
 # Process all cached PDFs
 pdfs = sorted(os.listdir(CACHE))
 total = 0
@@ -305,11 +318,13 @@ for idx, pdf in enumerate(pdfs):
     if not ename:
         ename = pdf.replace('.pdf', '')
     
+    src_url = url_map.get(pdf, "")
+    
     event = {
         "event_name": ename,
         "event_date": edate,
         "event_location": eloc,
-        "event_src": "",
+        "event_src": src_url,
         "results": athletes,
     }
     

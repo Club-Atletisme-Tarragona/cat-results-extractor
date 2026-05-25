@@ -199,6 +199,29 @@ for idx, pdf in enumerate(pdfs):
     athletes = []
     seen = set()
     
+    # Pre-scan: extract wind values per series line
+    # Each series line (Serie X / Semifinal X / Final) has a wind value
+    # We need to associate the correct wind with each athlete based on which series they're in
+    series_winds = {}  # line_number -> wind_value
+    current_series_line = -1
+    for i, line in enumerate(lines):
+        # Detect series headers: "Serie 1", "Semifinal 1", "Final"
+        if re.search(r'(?:Serie|Semifinal|Final)\s+\d*\s+\d{2}/\d{2}/\d{2,4}', line):
+            current_series_line = i
+            wm = re.search(r'Viento:\s*([+-]\d+\.?\d*)', line)
+            if wm:
+                series_winds[i] = wm.group(1)
+    
+    # Build a map: for each line, what's the nearest series line above it
+    def get_wind_for_line(line_idx):
+        best = -1
+        best_wind = None
+        for sl, sw in series_winds.items():
+            if sl < line_idx and sl > best:
+                best = sl
+                best_wind = sw
+        return best_wind
+    
     for i, line in enumerate(lines):
         if re.search(r'CA\s*TARRAGONA\s+(?:CL|CT|CAT)\d+', line, re.IGNORECASE):
             # The athlete data is on the line ABOVE (RFEA format)
@@ -226,6 +249,10 @@ for idx, pdf in enumerate(pdfs):
             if not perf:
                 continue
             
+            # Get wind from series header (pre-scanned)
+            if not wind:
+                wind = get_wind_for_line(i)
+            
             # Get event title (nearest event title above, look up to 20 lines)
             discipline = ""
             best_line = -1
@@ -250,7 +277,9 @@ for idx, pdf in enumerate(pdfs):
                     "discipline": discipline,
                     "performance": perf,
                 }
-                if wind:
+                # Only add wind for track sprints and horizontal jumps (60m, 100m, 200m, 110m tanques, Llargada, Triple Salt)
+                disc_lower = discipline.lower()
+                if wind and any(kw in disc_lower for kw in ['60 metres', '100 metres', '200 metres', '110 tanques', '60m', '100m', '200m', '110m', 'llargada', 'triple']):
                     athlete["wind"] = wind
                 athletes.append(athlete)
     

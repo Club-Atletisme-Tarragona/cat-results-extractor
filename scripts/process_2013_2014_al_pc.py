@@ -49,6 +49,48 @@ def extract(text):
     seen = set()
     lines = text.split('\n')
     i = 0
+    
+    # Pre-scan: build a map of event titles to their line positions
+    # Events appear 5-15 lines before the CA Tarragona club line
+    event_map = {}  # line_idx -> event_title
+    event_patterns = [
+        r'(\d+\s*(?:metres|metres?\s+llisos|metres?\s+tanques?|marxa)\s+\w+)',
+        r'(\d+\s*m\s+\w+)',
+        r'([Ll]lançament\s+\w+)',
+        r'([Ss]alt\s+(?:Al[cç]ada|Llargada|Perxa|Triple\s+Salt))',
+        r'([Pp]rova\s+(?:Decatló|Heptatló))',
+        r'([Aa]ltada)',
+        r'([Pp]es)',
+        r'([Dd]isc)',
+        r'([Jj]avelina)',
+        r'([Mm]artell)',
+        r'([Ll]largada)',
+        r'([Tt]riple\s+Salt)',
+        r'([Pp]erxa)',
+        r'([Mm]arxa)',
+        r'([Tt]anques)',
+        r'([Cc]ombinades)',
+        r'([Cc]lub)',
+    ]
+    
+    for idx, line in enumerate(lines):
+        stripped = line.strip()
+        if not stripped:
+            continue
+        # Skip header-like lines
+        if re.match(r'^\d{1,2}[/\-]\d{1,2}[/\-]', stripped):
+            continue
+        if 'CA Tarragona' in stripped.upper():
+            continue
+        for pat in event_patterns:
+            m = re.search(pat, stripped, re.IGNORECASE)
+            if m:
+                # Filter out lines that are just club standings or data
+                if re.match(r'^\d+\s+C\.?\s*T\.?\s*CA\s*TARRAGONA\s+\d+$', stripped):
+                    continue
+                event_map[idx] = m.group(1).strip()
+                break
+    
     while i < len(lines):
         line = lines[i].strip()
         if re.match(r'^CA Tarragona\s+(?:CL|CT|CAT)\d+', line, re.IGNORECASE):
@@ -62,7 +104,7 @@ def extract(text):
                 if re.match(r'^CL\d+$', p): continue
                 if re.match(r'^(SM|AF|LM|JM|JF|PM|PF|M-\d+|W-\d+|M-4\d|M-5\d|M-3\d)$', p): continue
                 if re.match(r'^\d+$', p): continue
-                nm = re.search(r'(?:\d+\s+)?\(?\w+\)?\s+([A-Z][a-zà-úÀ-Ú]+(?:\s+[A-Z][a-zà-úÀ-Ú]+)*\s+[A-Z][a-zà-úÀ-ú]+)', p)
+                nm = re.search(r'(?:\d+\s+)?\(?\\w+\)?\s+([A-Z][a-zà-úÀ-Ú]+(?:\s+[A-Z][a-zà-úÀ-Ú]+)*\s+[A-Z][a-zà-úÀ-ú]+)', p)
                 if nm:
                     aname = re.sub(r'\s+\d{2}/\d{2}/\d{4}\s*$', '', nm.group(1)); break
             if not aname:
@@ -88,12 +130,67 @@ def extract(text):
             if aname and perf:
                 if re.match(r'^\d$', perf) or re.match(r'^[A-Z]$', perf): i += 1; continue
                 if 'Dor Cat' in aname or aname in ['El Vendrell','CNRP','Nàstic T.']: i += 1; continue
+                
+                # Infer discipline from event_map: find the nearest event title above this line
+                discipline = ""
+                best_event_line = -1
+                for eline, etitle in event_map.items():
+                    if eline < i and eline > best_event_line:
+                        best_event_line = eline
+                        discipline = etitle
+                
+                # If no event title found, try to infer from performance
+                if not discipline:
+                    discipline = infer_discipline_from_perf(perf)
+                
                 key = f"{aname}|{perf}"
                 if key not in seen:
                     seen.add(key)
-                    results.append({"athlete_name": aname, "discipline": "", "performance": perf})
+                    results.append({"athlete_name": aname, "discipline": discipline, "performance": perf})
         i += 1
     return results
+
+
+def infer_discipline_from_perf(perf):
+    """Infer discipline from performance value when no event title is found."""
+    try:
+        val = float(perf.replace(',', '.'))
+    except (ValueError, TypeError):
+        return perf  # Can't infer, keep as-is
+    
+    if val < 12:
+        return "60 METRES LLISOS"
+    elif val < 15:
+        return "100 METRES LLISOS"
+    elif val < 25:
+        return "200 METRES LLISOS"
+    elif val < 55:
+        return "400 METRES LLISOS"
+    elif val < 120:
+        return "800 METRES LLISOS"
+    elif val < 300:
+        return "1500 METRES LLISOS"
+    elif val < 600:
+        return "3000 METRES LLISOS"
+    elif val < 1000:
+        return "5000 METRES LLISOS"
+    elif val < 100:
+        return "110 TANQUES"
+    elif val < 5:
+        return "ALÇADA"
+    elif val < 8:
+        return "LLARGADA"
+    elif val < 20:
+        return "TRIPLE SALT"
+    elif val < 200:
+        return "PES"
+    elif val < 70:
+        return "DISC"
+    elif val < 100:
+        return "JAVELINA"
+    elif val < 10:
+        return "PERXA"
+    return "PROVA"
 
 # Download all
 total = 0

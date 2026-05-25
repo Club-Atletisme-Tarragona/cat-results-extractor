@@ -330,16 +330,48 @@ Some PDFs embed the license number directly in the name field (e.g., `CT-18283 M
 ## Season Summary
 
 || Season | PDFs with CA Tarragona | JSON files | Total results | Unique athletes |
-|--------|----------------------|------------|---------------|-----------------|
-| 2008-2009 | 47 | 47 | 117 | ~50 |
-| 2009-2010 | 52 | 52 | 143 | ~60 |
-| 2010-2011 | 55 | 55 | 119 | ~55 |
-| 2011-2012 | 14 | 14 | 154 | scripts/process_2011_2012.py |
-| 2012-2013 | 82 | 82 | 390 | TBD |
-| 2013-2014 | 39 | 39 | 226 | 68 |
-| 2014-2015 (AL+PC) | 62 | 62 | 255 | TBD |
-| 2014-2015 | 43 | 43 | 406 | 115 |
-| 2015-2016 | 41 | 41 | 409 | 98 |
+||--------|----------------------|------------|---------------|-----------------|
+|| 2008-2009 | 28 | 36 | 142 | ~50 |
+|| 2009-2010 | TBD | TBD | TBD | ~60 |
+|| 2010-2011 | 28 | 20 | 172 | ~55 |
+|| 2011-2012 | 14 | 14 | 154 | scripts/process_2011_2012.py |
+|| 2012-2013 | 82 | 82 | 390 | TBD |
+|| 2013-2014 | 39 | 39 | 226 | 68 |
+|| 2014-2015 (AL+PC) | 62 | 62 | 255 | TBD |
+|| 2014-2015 | 43 | 43 | 406 | 115 |
+|| 2015-2016 | 41 | 41 | 409 | 98 |
+
+## Discipline Detection Rules (CRITICAL)
+
+**Discipline field CANNOT be empty** — every result must have a discipline.
+
+### Detection Strategy (priority order):
+1. **Event title lines** — Look for event titles in the 5-15 lines above the CA Tarragona club line. Match patterns:
+   - `\\d+\\s*m(?:etres)?\\.?\\s+llisos?` (60m, 100m, 200m, etc.)
+   - `Llançament \\w+` (Disc, Javelina, Pes, Martell)
+   - `Salt (Al[cç]ada|Llargada|Perxa|Triple Salt)`
+   - `Tanques`, `Marxa`, `Combinades`
+2. **Infer from performance** (fallback when no event title found):
+   - `< 12`: 60m | `< 15`: 100m | `< 25`: 200m | `< 55`: 400m | `< 120`: 800m | `< 300`: 1500m | `< 600`: 3000m | `< 1000`: 5000m
+   - `< 5`: Alçada | `< 8`: Llargada | `< 20`: Triple Salt | `< 10`: Perxa
+   - `< 200`: Pes | `< 70`: Disc | `< 100`: Javelina | `< 100`: 110 Tanques
+3. **Never leave discipline blank** — always use fallback inference
+
+### Wind Field (Track Events Only)
+
+For **60m, 100m, 200m, 110m tanques, 4x100m relleus**: extract wind when present.
+
+- Wind format: `+1.2`, `-0.8`, `+0.5 m/s`, `v+1.2` (vent), `c+1.2` (carril+vent)
+- Store in JSON as `"wind": "+1.2"` or `"wind": null`
+- **NEVER mix wind with performance** — wind is separate from the time/distance
+- Examples: `10.52 +1.2` → performance=`10.52`, wind=`+1.2` | `7.57 v+1.2` → performance=`7.57`, wind=`+1.2`
+- Indoor 60m: wind usually not applicable but may be present
+- Field events (salts, llançaments): wind NOT applicable → `null`
+- Long-distance (800m+): wind NOT applicable → `null`
+
+**Known parsers missing discipline detection:**
+- `process_2013_2014_al_pc.py` — line 94 has `"discipline": ""` hardcoded. Fixed with event_map pre-scan + `infer_discipline_from_perf()` fallback.
+- All new extractors must implement discipline detection.
 
 **Notes:**
 - 2013-2014: 154 total PDFs in calendar, 55 mention "TARRAGONA" or "CATT" in text, but only 39 have actual CA Tarragona results. The rest are other clubs (Nàstic, FAAC, etc.) that share the word "Tarragona" in their name/location.

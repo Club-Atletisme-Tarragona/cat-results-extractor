@@ -1,43 +1,43 @@
 {
-    "event_name": "CAMPIONAT DE CATALUNYA",
-    "event_date": "",
-    "event_location": "",
-    "event_src": "https://old.fcatletisme.cat/Promocio/2016/resulcatbenjami110616.pdf",
-    "results": [
-        {
-            "athlete_name": "Guillem Ferran Jimenez",
-            "discipline": "",
-            "performance": "9.72"
-        },
-        {
-            "athlete_name": "Joan Sinfreu Niubo",
-            "discipline": "ALÇADA BENJAMI MASCULI",
-            "performance": "1.22"
-        },
-        {
-            "athlete_name": "Unai Ortiz De Landazuri Ontoso",
-            "discipline": "ALÇADA BENJAMI MASCULI",
-            "performance": "1.19"
-        },
-        {
-            "athlete_name": "Lluc Subiros Brasero",
-            "discipline": "PILOTA BENJAMI MASCULI",
-            "performance": "29.79"
-        },
-        {
-            "athlete_name": "Guillem Ferran Jimenez",
-            "discipline": "PILOTA BENJAMI MASCULI",
-            "performance": "24.40"
-        },
-        {
-            "athlete_name": "Silvia Vicente Navarrete",
-            "discipline": "LLARGADA BENJAMI FEMENI",
-            "performance": "2.56"
-        },
-        {
-            "athlete_name": "Luana Izaga Deriu",
-            "discipline": "1000 METRES MARXA BENJAMI FEMENI",
-            "performance": "6:42.96"
-        }
-    ]
+  "event_name": "CAMPIONAT DE CATALUNYA",
+  "event_date": "",
+  "event_location": "",
+  "event_src": "https://old.fcatletisme.cat/Promocio/2016/resulcatbenjami110616.pdf",
+  "results": [
+    {
+      "athlete_name": "Guillem Ferran Jimenez",
+      "discipline": "60 METRES LLISOS",
+      "performance": "9.72"
+    },
+    {
+      "athlete_name": "Joan Sinfreu Niubo",
+      "discipline": "ALÇADA BENJAMI MASCULI",
+      "performance": "1.22"
+    },
+    {
+      "athlete_name": "Unai Ortiz De Landazuri Ontoso",
+      "discipline": "ALÇADA BENJAMI MASCULI",
+      "performance": "1.19"
+    },
+    {
+      "athlete_name": "Lluc Subiros Brasero",
+      "discipline": "PILOTA BENJAMI MASCULI",
+      "performance": "29.79"
+    },
+    {
+      "athlete_name": "Guillem Ferran Jimenez",
+      "discipline": "PILOTA BENJAMI MASCULI",
+      "performance": "24.40"
+    },
+    {
+      "athlete_name": "Silvia Vicente Navarrete",
+      "discipline": "LLARGADA BENJAMI FEMENI",
+      "performance": "2.56"
+    },
+    {
+      "athlete_name": "Luana Izaga Deriu",
+      "discipline": "1000 METRES MARXA BENJAMI FEMENI",
+      "performance": "6:42.96"
+    }
+  ]
 }

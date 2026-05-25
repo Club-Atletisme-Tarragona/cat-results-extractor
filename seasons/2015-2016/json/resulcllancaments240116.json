@@ -1,18 +1,18 @@
 {
-    "event_name": "CAMPIONAT DE CATALUNYA",
-    "event_date": "",
-    "event_location": "",
-    "event_src": "https://old.fcatletisme.cat/Pairelliure/2016/resulcllancaments240116.pdf",
-    "results": [
-        {
-            "athlete_name": "Montserrat Montañes Arbo",
-            "discipline": "",
-            "performance": "42.34"
-        },
-        {
-            "athlete_name": "Alvaro Jose Ferrez Hernandez",
-            "discipline": "Javelina Cadet (600g) MASC.",
-            "performance": "34.02"
-        }
-    ]
+  "event_name": "CAMPIONAT DE CATALUNYA",
+  "event_date": "",
+  "event_location": "",
+  "event_src": "https://old.fcatletisme.cat/Pairelliure/2016/resulcllancaments240116.pdf",
+  "results": [
+    {
+      "athlete_name": "Montserrat Montañes Arbo",
+      "discipline": "400 METRES LLISOS",
+      "performance": "42.34"
+    },
+    {
+      "athlete_name": "Alvaro Jose Ferrez Hernandez",
+      "discipline": "Javelina Cadet (600g) MASC.",
+      "performance": "34.02"
+    }
+  ]
 }

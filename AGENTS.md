@@ -334,7 +334,7 @@ Some PDFs embed the license number directly in the name field (e.g., `CT-18283 M
 | 2008-2009 | 47 | 47 | 117 | ~50 |
 | 2009-2010 | 52 | 52 | 143 | ~60 |
 | 2010-2011 | 55 | 55 | 119 | ~55 |
-| 2011-2012 | 11 | 11 | TBD | TBD |
+| 2011-2012 | 14 | 14 | 154 | scripts/process_2011_2012.py |
 | 2012-2013 | 82 | 82 | 390 | TBD |
 | 2013-2014 | 39 | 39 | 226 | 68 |
 | 2014-2015 (AL+PC) | 62 | 62 | 255 | TBD |
@@ -348,7 +348,7 @@ Some PDFs embed the license number directly in the name field (e.g., `CT-18283 M
 - 2015-2016: Pairelliure calendar has 260 URLs (255 unique PDFs), Pcoberta has 73 URLs (71 unique PDFs). Some URLs point to `fcatletisme.cat/wp-content/uploads/` instead of `old.fcatletisme.cat`. **272 unique FCAT PDFs processed** with pdfplumber fallback (pdftotext broken on this machine due to missing libgpgme.so.11 and libpoppler.so.126). Found **63 events with CA Tarragona, 242 valid results** after filtering false positives (positions misidentified as results). JSON at `seasons/2015-2016/json/aire_lliure_pista_coberta_2015_2016.json`. Quality is lower than pdftotext-based extraction due to layout differences.
 - 2014-2015 (AL+PC): **270 PDFs** from `pairelliure2014/` and `pcoberta2014/` calendars. PDFs use **RFEA format** (club name on separate line after athlete data: `3 379 (t) Adolf Milla Guasch 31/01/1998 LM 4 7.57` / `CA Tarragona CL22279`). Requires RFEA-specific parser (`process_2014_2015_rfea.py`) that looks BACK from club line to find athlete data. Found **62 events with CA Tarragona, 255 valid results**. Each PDF gets its own JSON file in `seasons/2014-2015/json/`.
 - 2012-2013 (AL+PC): **242 PDFs** from `pairelliure2013/` and `pcoberta2013/` calendars. Same RFEA format as 2014-2015. Found **82 events with CA Tarragona, 390 valid results**. Each PDF gets its own JSON file in `seasons/2013-2014/json/`.
-- 2011-2012 (AL+PC): **232 PDFs** from `pairelliure2012/` and `pcoberta2012/` calendars. PDFs use **tabular format** (SÈRIE/LLOC/CARRER/DORSAL/LIC/NOM/ANY/CLUB/MARCA columns), NOT RFEA multi-line format. RFEA parser does NOT work for this season — generated 28 false positive JSONs (positions misidentified as results). Only **11 valid JSONs** from original `extract_catt.py` extraction remain. Needs dedicated tabular parser.
+- 2011-2012 (AL+PC): **232 PDFs** from `pairelliure2012/` and `pcoberta2012/` calendars. PDFs use **tabular format** (SÈRIE/LLOC/CARRER/DORSAL/LIC/NOM/ANY/CLUB/MARCA columns), NOT RFEA multi-line format. RFEA parser generates false positives (dorsal-prefixed names, points-like performances). **14 valid JSONs** with 154 results using `scripts/process_2011_2012.py` (dual format parser).
 - **pdftotext is now functional** on this machine (version 25.03.0). Use `pdftotext -layout` for all new extractions — preserves spatial layout, much better than pdfplumber.
 - Some PDFs have `(t)` markers in the text (heat/heat marker) — these are not part of athlete names and should be ignored.
 - All JSONs include `event_src` with the reconstructed PDF URL.

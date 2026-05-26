@@ -111,6 +111,8 @@ Each event type validates extracted numeric values within specific ranges:
 
 Values outside these ranges are discarded. For track events, prefer `HH:MM.ss` format over decimal seconds.
 
+**Position numbers are NOT performances:** Pure integers ≤ 3 digits (e.g., `1`, `2`, `14`, `100`) are position numbers, not results. Skip them. Valid performances are decimal times/distances or DNS/DNF/N.P./RET./DQ.
+
 **CRITICAL: Time extraction priority in `extract_track_result_new()` and `extract_marcha_result_new()`:**
 1. Try `HH:MM:SS` format first (for very long events)
 2. Try `HH:MM.ss` format (for events like 3000m: `11:26.41`, `17:11.94`)
@@ -345,28 +347,24 @@ Some PDFs embed the license number directly in the name field (e.g., `CT-18283 M
 
 **Discipline field CANNOT be empty** — every result must have a discipline.
 
-### Detection Strategy (priority order):
-1. **Event title lines** — Look for event titles in the 5-15 lines above the CA Tarragona club line. Match patterns:
-   - `\\d+\\s*m(?:etres)?\\.?\\s+llisos?` (60m, 100m, 200m, etc.)
-   - `Llançament \\w+` (Disc, Javelina, Pes, Martell)
+### Detection Strategy:
+1. **Event title lines** — Look for event titles in the 5-15 lines above the CA Tarragona club line on the same page. Match patterns:
+   - `\d+\s*m(?:etres)?\.?\s+llisos?` (60m, 100m, 200m, etc.)
+   - `Llançament \w+` (Disc, Javelina, Pes, Martell)
    - `Salt (Al[cç]ada|Llargada|Perxa|Triple Salt)`
-   - `Tanques`, `Marxa`, `Combinades`
-2. **Infer from performance** (fallback when no event title found):
-   - `< 12`: 60m | `< 15`: 100m | `< 25`: 200m | `< 55`: 400m | `< 120`: 800m | `< 300`: 1500m | `< 600`: 3000m | `< 1000`: 5000m
-   - `< 5`: Alçada | `< 8`: Llargada | `< 20`: Triple Salt | `< 10`: Perxa
-   - `< 200`: Pes | `< 70`: Disc | `< 100`: Javelina | `< 100`: 110 Tanques
-3. **Never leave discipline blank** — always use fallback inference
+   - `Pes`, `Disc`, `Javelina`, `Martell`, `Tanques`, `Marxa`, `Combinades`
+2. **If no event title found:** Do **NOT** infer from performance value. Stop processing, print the PDF URL/source to the user, and wait for manual confirmation before continuing. The discipline field cannot be safely guessed — misclassification leads to wrong extraction functions and truncated results.
 
-### Wind Field (Track Events Only)
+### Wind Field
 
-For **60m, 100m, 200m, 110m tanques, 4x100m relleus**: extract wind when present.
+Extract wind when present for: **60m, 100m, 200m, 60m tanques, 100m tanques, 110m tanques, 4x100m relleus, Llargada, Triple Salto**.
 
 - Wind format: `+1.2`, `-0.8`, `+0.5 m/s`, `v+1.2` (vent), `c+1.2` (carril+vent)
 - Store in JSON as `"wind": "+1.2"` or `"wind": null`
 - **NEVER mix wind with performance** — wind is separate from the time/distance
 - Examples: `10.52 +1.2` → performance=`10.52`, wind=`+1.2` | `7.57 v+1.2` → performance=`7.57`, wind=`+1.2`
-- Indoor 60m: wind usually not applicable but may be present
-- Field events (salts, llançaments): wind NOT applicable → `null`
+- Indoor 60m: wind usually not applicable but may still be present
+- Field events (llançaments): wind NOT applicable → `null`
 - Long-distance (800m+): wind NOT applicable → `null`
 
 **Known parsers missing discipline detection:**
@@ -384,4 +382,83 @@ For **60m, 100m, 200m, 110m tanques, 4x100m relleus**: extract wind when present
 - **pdftotext is now functional** on this machine (version 25.03.0). Use `pdftotext -layout` for all new extractions — preserves spatial layout, much better than pdfplumber.
 - Some PDFs have `(t)` markers in the text (heat/heat marker) — these are not part of athlete names and should be ignored.
 - All JSONs include `event_src` with the reconstructed PDF URL.
+
+---
+
+## Directory Structure
+
+```
+seasons/             # historical data
+  {season}/          # e.g., 2014-2015, 2013-2014
+    json/            # Individual JSON files (one per PDF)
+      resulcatalevi90612.json
+      resulcatcadet150612.json
+      ...
+json/              # events from current season 2025-2026
+  imported/        # files processed with a 3rd party app
+```
+
+## Filtering Rules
+
+- **ONLY** CA Tarragona athletes: club name = "CA Tarragona" or club code = "CATT"
+- Accept either `CA Tarragona` (full name) or `CATT` (abbreviation) — both identify the same club
+- **NEVER** include other clubs (CG Tarragona, CA Gavà, CA Vic, JA Sabadell, etc.)
+- **NEVER** include "Dor Cat" or other non-athlete entries
+- One JSON per PDF (not consolidated)
+- JSON files must have `.json` extension (not `.pdf`)
+
+## Name Format
+
+- Remove trailing whitespace and normalize internal spaces
+- Do NOT add/remove license prefixes from names (keep as they appear in PDF)
+
+## Processing Steps
+
+1. Download calendar HTML pages of a season
+2. Parse frames to extract PDF URLs
+3. For each PDF URL:
+   a. Download PDF to cache
+   b. Extract text with `pdftotext -layout`
+   c. Parse competition header (name, date, location) — if empty, ask user before continuing
+   d. Extract CA Tarragona athletes based on season-specific format
+   e. Validate and deduplicate results
+   f. Write individual JSON file with expected format
+4. Output a summary with the number of JSON files generated
+5. Output sample JSON content and request user confirmation
+
+## Season Format Detection
+
+Each season may use a different PDF format:
+
+- **RFEA multi-line:** Club name on separate line after athlete data (2014-2015, 2013-2014, 2012-2013)
+- **Tabular:** Single line with columns (2011-2012)
+- **Inline:** Position and club code on same line (older formats)
+- **Unknown:** May need custom parser per season
+
+## Key Pitfalls
+
+- **RFEA parser does NOT work for 2011-2012** — uses tabular format
+- **pdfplumber loses spatial layout** — always use `pdftotext -layout`
+- **Position numbers look like results** — validate performance values (skip pure integers ≤ 3 digits)
+- **Club name in location ≠ CA Tarragona athlete** — check club field, not location
+- **Duplicate athletes across sections** — deduplicate by athlete+performance
+- **PDFs may have multiple events** — extract all CA Tarragona athletes across all sections
+- **`(t)` markers are heat indicators** — ignore in athlete names
+- **False positive detection:**
+  - Names starting with numbers = dorsal, NOT athlete names
+  - Performance values like `375` or `8383` = points for combined events (valid performance)
+  - Club codes like `CT-18283` are license numbers, NOT club identifiers
+
+## Quality Checks
+
+Before finalizing output, verify:
+
+- [ ] No results from other clubs (CG Tarragona, CA Gavà, etc.)
+- [ ] Performance values are actual marks (not position numbers)
+- [ ] Athlete names are properly formatted (no dorsal prefix)
+- [ ] No duplicate entries
+- [ ] All JSON files are valid JSON with `.json` extension
+- [ ] Discipline field is not empty
+- [ ] Performance field is not empty
+- [ ] Wind is correctly separated from performance (never mixed)
 

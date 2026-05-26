@@ -236,7 +236,7 @@ These are used to skip non-CATT athletes when searching for name lines and in po
 
 Positions are extracted from lines matching: `pos  dorsal  CLUB_CODE`
 
-Supported club codes: CA Tarragona, UABB, UATB, CAGB, CAVB, GEEG, JASB
+Supported club codes: CA Tarragona, CATT
 
 The position is the first number, followed by the dorsal, followed by the club code abbreviation.
 

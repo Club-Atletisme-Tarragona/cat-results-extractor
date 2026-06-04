@@ -571,10 +571,10 @@ def extract_jump_wind(lines, name_line_idx, sec_end):
         # Look for wind values on club lines
         # Club line pattern: "CA Tarragona  CL11323  -0.5  -0.4"
         if re.search(r'CA\s+Tarragona|Club', fwd, re.IGNORECASE):
-            # Extract wind values (negative or positive decimals)
-            wind_matches = re.findall(r'([+-]\d+\.\d{1,2})', fwd)
+            # Extract wind values (signed like -2.6 or unsigned like 0.3)
+            wind_matches = re.findall(r'([+-]?\d+\.\d{1,2})', fwd)
             if wind_matches:
-                wind_values = [w for w in wind_matches]
+                wind_values = [w for w in wind_matches if abs(float(w)) < 20]
                 break
     
     if not wind_values:
@@ -641,6 +641,95 @@ def extract_result_from_name_line(lines, name_line_idx, sec_end, event_type):
                     return best
 
     return ""
+
+
+def extract_all_attempts_from_name_line(lines, name_line_idx, sec_end, event_type, min_val, max_val):
+    """Extract all valid attempts from the name line for field/jump events.
+    
+    Returns (best_mark, attempts_list) where attempts_list is a list of dicts:
+    [{"attempt": 1, "value": "5.90", "wind": "+0.6"}, ...]
+    
+    Only includes valid numeric values. Skips X, r, -, 0.0, and the Resultado column.
+    """
+    name_line_raw = lines[name_line_idx]  # NOT stripped — we need char positions
+    name_line = name_line_raw.strip()
+    bd_match = re.search(r'\d{1,2}/\d{1,2}/\d{4}', name_line)
+    if not bd_match:
+        return "", []
+    
+    # Find DOB position in the raw line for correct char offset
+    bd_match_raw = re.search(r'\d{1,2}/\d{1,2}/\d{4}', name_line_raw)
+    if not bd_match_raw:
+        return "", []
+    
+    after_birth_str = name_line[bd_match.end():].strip()
+    
+    # Tokenize: find all values and markers, tracking character positions for wind alignment
+    # We use finditer on the original (non-stripped) name line to get char positions
+    attempt_regions = []  # list of (start, end, token) for tokens after DOB
+    for m in re.finditer(r'\S+', name_line_raw):
+        tok = m.group()
+        if m.start() < bd_match_raw.end():
+            continue  # before DOB, skip
+        # Check if this is an attempt value or marker
+        if tok in ('X', 'x', 'r', '-', 'MMT', 'MMP', '=MMT', '=MMP'):
+            attempt_regions.append((m.start(), m.end(), tok))
+        elif re.match(r'^\d+\.\d{2}$', tok):
+            val = float(tok)
+            if min_val <= val <= max_val:
+                attempt_regions.append((m.start(), m.end(), tok))
+    
+    # Build list of valid numeric attempts (excluding Resultado column at end)
+    all_attempt_tokens = [(s, e, t) for s, e, t in attempt_regions]
+    valid_attempt_tokens = [(s, e, t) for s, e, t in attempt_regions if re.match(r'^\d+\.\d{2}$', t)]
+    
+    if not valid_attempt_tokens:
+        return "", []
+    
+    # The last numeric value is usually the "Resultado" (best mark repeated)
+    best_mark = max((t for _, _, t in valid_attempt_tokens), key=lambda x: float(x))
+    if valid_attempt_tokens[-1][2] == best_mark and len(valid_attempt_tokens) > 1:
+        valid_attempt_tokens = valid_attempt_tokens[:-1]
+    
+    if not valid_attempt_tokens:
+        return "", []
+    
+    # Collect wind values from club line below, with character positions
+    wind_positions = []  # list of (start, end, value)
+    for j in range(name_line_idx + 1, min(name_line_idx + 10, sec_end)):
+        fwd_raw = lines[j]  # NOT stripped — we need char positions
+        if not fwd_raw.strip():
+            continue
+        if re.search(r'CA\s+Tarragona|Club', fwd_raw, re.IGNORECASE):
+            for wm in re.finditer(r'([+-]?\d+\.\d{1,2})', fwd_raw):
+                val = wm.group(1)
+                if abs(float(val)) < 20:
+                    wind_positions.append((wm.start(), wm.end(), val))
+            break
+    
+    # Match wind values to attempt tokens by proximity of character positions
+    result_attempts = []
+    for s, e, val in valid_attempt_tokens:
+        wind = None
+        if event_type == "jump" and wind_positions:
+            center = (s + e) / 2
+            closest = None
+            closest_dist = 999
+            for ws, we, wv in wind_positions:
+                wcenter = (ws + we) / 2
+                dist = abs(wcenter - center)
+                if dist < closest_dist and dist < 15:
+                    closest_dist = dist
+                    closest = wv
+            if closest is not None:
+                wind = closest
+        result_attempts.append({
+            "attempt": len(result_attempts) + 1,
+            "value": val,
+            "wind": wind,
+        })
+    
+    return best_mark, result_attempts
 
 
 # ============================================================================
@@ -1921,7 +2010,7 @@ def parse_catt_athlete(lines, athlete_block, sec_start, sec_end, event_name, win
     block_lines = athlete_block.get('block_lines', [])
 
     if not name_line:
-        return None
+        return []
 
     name = extract_name_from_line(name_line)
     bd_match = re.search(r'(\d{1,2}/\d{1,2}/\d{4})', name_line)
@@ -2136,7 +2225,79 @@ def parse_catt_athlete(lines, athlete_block, sec_start, sec_end, event_name, win
 
     marca = re.sub(r'\s+(MMT|MMP|DNS|DQ|RT.*)$', '', marca).strip()
 
-    return {
+    # For jump and field events, extract all valid attempts and create one entry per attempt
+    if event_type in ("jump", "field"):
+        # Determine min/max range based on sub-type
+        if event_type == "jump":
+            min_v, max_v = 3.0, 20.0
+        else:
+            min_v, max_v = 3.0, 80.0
+        
+        best_mark, attempts = extract_all_attempts_from_name_line(
+            lines, athlete_block.get('name_line_idx', sec_start), sec_end, event_type, min_v, max_v
+        )
+        
+        # For field events, attempts might be on the anchor line (not name line)
+        if not attempts and event_type == "field" and not new_format:
+            anchor_text = athlete_block.get('position_line', '')
+            # Find text after CATT/CA Tarragona
+            club_match = re.search(r'(?:CATT|CA\s+Tarragona)\s*', anchor_text)
+            if club_match:
+                after_club = anchor_text[club_match.end():]
+                tokens = after_club.split()
+                field_attempts = []
+                for token in tokens:
+                    token = token.strip()
+                    if token in ('X', 'x', 'r', '-', 'MMT', 'MMP', '=MMT', '=MMP'):
+                        continue
+                    if re.match(r'^\d+\.\d{2}$', token):
+                        val = float(token)
+                        if min_v <= val <= max_v:
+                            field_attempts.append(token)
+                if field_attempts:
+                    # Last value is usually the Resultado (best mark) - skip it
+                    best_val = max(field_attempts, key=float)
+                    if field_attempts[-1] == best_val and len(field_attempts) > 1:
+                        field_attempts = field_attempts[:-1]
+                    if field_attempts:
+                        attempts = []
+                        for i, val in enumerate(field_attempts):
+                            attempts.append({
+                                "attempt": i + 1,
+                                "value": val,
+                                "wind": None,
+                            })
+                        best_mark = best_val
+        
+        if attempts:
+            result_list = []
+            for att in attempts:
+                result_list.append({
+                    "lloc": lloc,
+                    "prova": event_name,
+                    "competicio": competicio,
+                    "data": data_comp,
+                    "atleta_nom": name,
+                    "atleta_naixement": birth_date,
+                    "atleta_licencia": licencia,
+                    "marca": att["value"],
+                    "vent": att["wind"],
+                })
+            return result_list
+        # Fallback: if no attempts extracted, return single entry with best mark
+        return [{
+            "lloc": lloc,
+            "prova": event_name,
+            "competicio": competicio,
+            "data": data_comp,
+            "atleta_nom": name,
+            "atleta_naixement": birth_date,
+            "atleta_licencia": licencia,
+            "marca": best_mark if best_mark else marca,
+            "vent": wind,
+        }]
+    
+    return [{
         "lloc": lloc,
         "prova": event_name,
         "competicio": competicio,
@@ -2146,7 +2307,7 @@ def parse_catt_athlete(lines, athlete_block, sec_start, sec_end, event_name, win
         "atleta_licencia": licencia,
         "marca": marca,
         "vent": wind,
-    }
+    }]
 
 
 def parse_combined_section(lines, sec_start, sec_end, event_name, competicio, data_comp):
@@ -2458,12 +2619,12 @@ def parse_with_section_aware(text, competicio, data_comp):
                     athlete_wind = wind_match.group(1)
                     break
 
-            athlete = parse_catt_athlete(
+            athletes = parse_catt_athlete(
                 lines, athlete_block, sec_start, sec_end, sec_name.strip(), athlete_wind,
                 event_type, competicio, data_comp
             )
-            if athlete:
-                results.append(athlete)
+            if athletes:
+                results.extend(athletes)
 
     # Also process SUMARIO sections (track events with series)
     sumarios = find_sumario_sections(lines)

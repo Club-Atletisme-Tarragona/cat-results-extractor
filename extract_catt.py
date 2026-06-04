@@ -321,6 +321,10 @@ def extract_name_from_line(line):
     line = re.sub(r'\s+\d+[,\.]\d+%\s*', ' ', line)
     # Remove truncated time results (e.g., "3:07.…") that don't match full time pattern
     line = re.sub(r'\s+\d{1,2}:\d{2}[.\u2026]+\s*', ' ', line)
+    # Remove trailing time values with 3 decimal places (e.g., "11.396" from PDF layout)
+    line = re.sub(r'\s+\d+\.\d{3}(?=\s|$)', ' ', line)
+    # Remove parenthetical time splits (e.g., " (.400)", " (.401)")
+    line = re.sub(r'\s+\(\.\d{3}\)\s*', ' ', line)
     cleaned = ' '.join(line.split())
     return cleaned
 
@@ -2416,14 +2420,6 @@ def parse_with_section_aware(text, competicio, data_comp):
 
         event_type = classify_event(sec_name)
 
-        # Get wind from section header
-        wind = None
-        for j in range(sec_start, min(sec_start + 15, len(lines))):
-            wind_match = re.search(r'Viento:\s*([+-]?\d+\.\d)', lines[j])
-            if wind_match:
-                wind = wind_match.group(1)
-                break
-
         # Handle relay events differently
         if event_type == "relay":
             relay_results = parse_relay_section(lines, sec_start, sec_end, sec_name.strip(), competicio, data_comp)
@@ -2452,8 +2448,18 @@ def parse_with_section_aware(text, competicio, data_comp):
             continue
 
         for athlete_block in catt_athletes:
+            # Extract wind closest to this athlete's position line
+            # (handles multiple heats with different wind values)
+            athlete_wind = None
+            pos_line_idx = athlete_block.get('position_line_idx', athlete_block.get('name_line_idx', sec_start))
+            for j in range(pos_line_idx - 1, max(sec_start - 1, 0), -1):
+                wind_match = re.search(r'Viento:\s*([+-]?\d+\.\d)', lines[j])
+                if wind_match:
+                    athlete_wind = wind_match.group(1)
+                    break
+
             athlete = parse_catt_athlete(
-                lines, athlete_block, sec_start, sec_end, sec_name.strip(), wind,
+                lines, athlete_block, sec_start, sec_end, sec_name.strip(), athlete_wind,
                 event_type, competicio, data_comp
             )
             if athlete:

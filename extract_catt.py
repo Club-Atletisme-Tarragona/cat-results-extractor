@@ -2595,13 +2595,39 @@ def deduplicate_results(results):
     return unique
 
 
+def _reconstruct_url(pdf_path: str) -> str:
+    """Try to reconstruct a known URL from the local PDF filename."""
+    filename = os.path.basename(pdf_path)
+    filename_lower = filename.lower()
+    # Known RFEA URL patterns
+    rfea_patterns = [
+        ("2d_hombres", "https://www.rfeacontent.es/resultados/2026/airelibre/clubes/{}"),
+        ("2d_mujeres", "https://www.rfeacontent.es/resultados/2026/airelibre/clubes/{}"),
+        ("2d_hombre", "https://www.rfeacontent.es/resultados/2026/airelibre/clubes/{}"),
+        ("2d_mujer", "https://www.rfeacontent.es/resultados/2026/airelibre/clubes/{}"),
+    ]
+    for pattern_key, url_template in rfea_patterns:
+        if pattern_key in filename_lower:
+            url = url_template.format(filename)
+            # Ensure exactly one .pdf extension
+            if not url.endswith(".pdf"):
+                url += ".pdf"
+            return url
+    return ""
+
+
 def main():
     if len(sys.argv) < 2:
-        print("Usage: python3 extract_catt.py <pdf_file>")
+        print("Usage: python3 extract_catt.py <pdf_file> [source_url]")
         sys.exit(1)
 
     pdf_path = sys.argv[1]
     source_url = sys.argv[2] if len(sys.argv) > 2 else ""
+
+    # If no explicit URL provided, try to reconstruct from known patterns
+    if not source_url:
+        source_url = _reconstruct_url(pdf_path)
+
     base = os.path.splitext(pdf_path)[0]
     output_path = base + ".json"
 

@@ -333,6 +333,7 @@ Some PDFs embed the license number directly in the name field (e.g., `CT-18283 M
 
 || Season | PDFs with CA Tarragona | JSON files | Total results | Unique athletes |
 ||--------|----------------------|------------|---------------|-----------------|
+|| 2005 | 39 | 39 | 193 | 41 |
 || 2008-2009 | 28 | 36 | 142 | ~50 |
 || 2009-2010 | TBD | TBD | TBD | ~60 |
 || 2010-2011 | 28 | 20 | 172 | ~55 |

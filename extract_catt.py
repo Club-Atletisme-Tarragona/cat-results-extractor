@@ -159,6 +159,12 @@ EVENT_PATTERNS = [
     # "3000 metres llisos femenins", "1500 metres obstacles femenins", "60 metres llisos femenins"
     # These use "metres" instead of "m" and include "llisos", "tanques", "obstacles", "marxa", "marxa"
     r'\d{1,3}(?:\.\d{3})?\s*metres\s+(?:llisos|tanques|vallas|obstacles|marxa|marxa)\s+(?:masculins|Mascuins|femenins|femenina|masculina|Hombres|Mujeres|Masculí|Femení)',
+    # RFEA format: "60m MASC. PC", "300m FEM. PC", "Alçada MASC. PC", etc.
+    # MASC = Masculí/Masculino, FEM = Femení/Femenino
+    r'(?:\d{1,3}(?:\.\d{3})?\s*m(t)?|\d+\s*m(t)?)\s+(?:MASC\.?|FEM\.?)\s+PC',
+    r'(?:\d{1,3}(?:\.\d{3})?\s*m(t)?|\d+\s*m(t)?)\s+(?:MASC\.?|FEM\.?)\s+AL',
+    r'(?:Alçada|Altura|Perxa|Pértiga|Llargada|Longitud|Triple\s+Salto|Triple\s+salt|Disco|Martello|Martell|Martillo|Pes|Peso|Dard|Jabalina|Javelina)\s+(?:MASC\.?|FEM\.?)\s+PC',
+    r'(?:Alçada|Altura|Perxa|Pértiga|Llargada|Longitud|Triple\s+Salto|Triple\s+salt|Disco|Martello|Martell|Martillo|Pes|Peso|Dard|Jabalina|Javelina)\s+(?:MASC\.?|FEM\.?)\s+AL',
     r'\d{1,3}(?:\.\d{3})?\s*metres\s+(?:llisos|tanques|vallas|obstacles|marxa|marxa)\s+(?:Sub\d+\s+)?(?:masculins|Mascuins|femenins|femenina|masculina|Hombres|Mujeres|Masculí|Femení)',
 ]
 
@@ -303,6 +309,8 @@ def is_name_line(line):
 
 def extract_name_from_line(line):
     line = line.strip()
+    # Strip leading position + dorsal + optional (t)/(e) prefix (RFEA format)
+    line = re.sub(r'^\s*\d+\s+\d+\s*\(?[te]?\)?\s*', '', line)
     line = re.sub(r'\d{1,2}/\d{1,2}/\d{4}', '', line)
     line = re.sub(r'\s+RT\s+\S+', '', line)
     line = re.sub(r'\s+DQ\s*$', '', line)
@@ -325,6 +333,8 @@ def extract_name_from_line(line):
     line = re.sub(r'\s+\d+\.\d{3}(?=\s|$)', ' ', line)
     # Remove parenthetical time splits (e.g., " (.400)", " (.401)")
     line = re.sub(r'\s+\(\.\d{3}\)\s*', ' ', line)
+    # Remove RFEA category codes at end: CF, CM, SM, JM, AS, AI, AM, SV, JV, AJ, etc.
+    line = re.sub(r'\s+(?:CF|CM|SM|JM|AS|AI|AM|SV|JV|AJ|AM\d+|S\d+|C\d+|I\d+|B\d+|U\d+|PF|PM|PF|MF|MA)\s*$', '', line)
     cleaned = ' '.join(line.split())
     return cleaned
 
@@ -895,6 +905,66 @@ def find_section_boundaries(lines):
         
         section_starts.append((i, event_name))
     
+    # Fallback for RFEA format: sections without date lines before event names
+    # RFEA format has event names like "60m MASC. PC" or "300m FEM. PC" on their own line
+    # without a preceding date line. Check for these throughout the document.
+    # NOTE: In RFEA format, the same event name can appear multiple times (Final A, B, C)
+    # so we DON'T deduplicate here — each occurrence is a separate section.
+    # Only add RFEA sections that weren't already captured by the main detection
+    rfea_added = set()
+    for i in range(0, len(lines)):
+        stripped = lines[i].strip()
+        if not stripped:
+            continue
+        # Check if this is an RFEA event header (e.g., "60m MASC. PC")
+        is_event = False
+        for pattern in EVENT_PATTERNS:
+            if re.search(pattern, stripped, re.IGNORECASE):
+                is_event = True
+                break
+        if not is_event:
+            for pattern in RELAY_PATTERNS:
+                if re.search(pattern, stripped, re.IGNORECASE):
+                    is_event = True
+                    break
+        if not is_event:
+            for pattern in FIELD_PATTERNS:
+                if re.search(pattern, stripped, re.IGNORECASE):
+                    is_event = True
+                    break
+        if not is_event:
+            for pattern in JUMP_PATTERNS:
+                if re.search(pattern, stripped, re.IGNORECASE):
+                    is_event = True
+                    break
+        if not is_event:
+            for pattern in HEIGHT_PATTERNS:
+                if re.search(pattern, stripped, re.IGNORECASE):
+                    is_event = True
+                    break
+        if not is_event:
+            for pattern in MARCHA_PATTERNS:
+                if re.search(pattern, stripped, re.IGNORECASE):
+                    is_event = True
+                    break
+        if not is_event:
+            for pattern in COMBINED_PATTERNS:
+                if re.search(pattern, stripped, re.IGNORECASE):
+                    is_event = True
+                    break
+        
+        if is_event:
+            # Check if this is a header/title line (not an event section)
+            skip_titles = ['ACTA', 'CAMPEONATO', 'Campionat', 'Campeonato',
+                           'Jornada', 'Control', 'Trofeu', 'Festival']
+            is_title = any(t in stripped for t in skip_titles)
+            if not is_title and i not in rfea_added:
+                # Check if this line is already in section_starts
+                already_added = any(idx == i for idx, _ in section_starts)
+                if not already_added:
+                    section_starts.append((i, stripped))
+                    rfea_added.add(i)
+    
     section_starts.append((len(lines), ""))
     return section_starts
 
@@ -1240,6 +1310,191 @@ def parse_sumario_section(lines, sumario_idx, event_name, sec_end, competicio, d
     return results
 
 
+def is_rfea_section(lines, sec_start, sec_end):
+    """Detect if this section uses the RFEA multi-line format.
+    
+    RFEA format characteristics:
+    - Header has column labels: "Pto Dor Nombre F de Nac Cat Calle Marca" + "Club Lic"
+    - Result line: position + dorsal + name + DOB + category + lane + time
+    - Club line: club name + license on the NEXT line (after the result)
+    - Example:
+        Pto  Dor Nombre          F de Nac  Cat  Calle  Marca
+                 Club                    Lic
+        4   71 Mario Sanchez     02/10/2002 CM   1      7.61
+             CA Tarragona          CL74367
+    
+    Returns True if RFEA format detected.
+    """
+    # Look for RFEA header pattern in the first 30 lines of the section
+    for i in range(sec_start, min(sec_start + 30, sec_end)):
+        line = lines[i]
+        # RFEA header: "Pto  Dor Nombre  F de Nac  Cat  Calle  Marca"
+        if 'Pto' in line and 'Dor' in line and 'Nombre' in line and 'F de Nac' in line:
+            # Verify club line header exists
+            for j in range(i + 1, min(i + 5, sec_end)):
+                if 'Club' in lines[j] and 'Lic' in lines[j]:
+                    # Now check if any athlete line has CA Tarragona on the NEXT line
+                    for k in range(i + 5, min(sec_end, i + 200)):
+                        kl = lines[k].strip()
+                        if not kl or not re.search(r'\d{1,2}/\d{1,2}/\d{4}', kl):
+                            continue
+                        # This looks like an athlete line - check next line for club
+                        if k + 1 < sec_end:
+                            next_line = lines[k + 1].strip()
+                            if 'CA Tarragona' in next_line or 'CATT' in next_line:
+                                return True
+                            # Also check if next line is a known club
+                            if next_line and re.match(r'^CA\s+', next_line) and not next_line.startswith('CA Tarragona'):
+                                # Found a non-CATT club - RFEA format confirmed
+                                return True
+    return False
+
+
+def _find_catt_rfea_format(lines, sec_start, sec_end, is_in_sumario=None):
+    """Find CATT athletes in RFEA format.
+    
+    RFEA format:
+    Line N: pos  dorsal  Name  DOB  Cat  Lane  Marca
+    Line N+1: Club  License
+    
+    Returns blocks with the same structure as _find_catt_old_format:
+    name_line, name_line_idx, data_lines, position_line, position_line_idx, position
+    """
+    athletes = []
+    
+    # Find all athlete data lines (lines with DOB pattern)
+    athlete_line_pattern = re.compile(r'^\s*\d+\s+\d+\s*.+\d{1,2}/\d{1,2}/\d{4}')
+    
+    i = sec_start
+    while i < sec_end:
+        line = lines[i]
+        stripped = line.strip()
+        
+        # Skip empty lines and headers
+        if not stripped:
+            i += 1
+            continue
+        
+        # Skip header lines
+        skip_labels = ['Puesto', 'Dorsal', 'Club', 'Nombre', 'Fecha', 'Licencia',
+                       'Pto', 'Dor', 'Result', 'Viento', 'Leyenda', 'Hora', 'RESULT',
+                       'Calle', 'Serie', 'Gestion', 'Pagina', 'SUMARIO', 'Rank',
+                       'Final', 'Categoria', 'Cat']
+        if any(label in stripped for label in skip_labels):
+            i += 1
+            continue
+        
+        # Check if this is an athlete data line
+        if not athlete_line_pattern.match(line):
+            i += 1
+            continue
+        
+        # Check if this athlete has a club line below
+        if i + 1 >= sec_end:
+            i += 1
+            continue
+        
+        club_line = lines[i + 1].strip()
+        
+        # Check if club line contains CA Tarragona or CATT
+        if 'CA Tarragona' not in club_line and 'CATT' not in club_line:
+            i += 1
+            continue
+        
+        # This is a CATT athlete in RFEA format
+        # In RFEA format, the athlete line itself IS the name line
+        name = extract_name_from_line(stripped)
+        if not name:
+            i += 1
+            continue
+        
+        # Extract position from the athlete line
+        pos_match = re.match(r'^\s*(\d+)', stripped)
+        pos = int(pos_match.group(1)) if pos_match else 0
+        
+        # Skip athletes found in SUMARIO sub-sections
+        if is_in_sumario and is_in_sumario(i):
+            i += 2
+            continue
+        
+        # Return block with same structure as old format
+        athletes.append({
+            'name_line': stripped,
+            'name_line_idx': i,
+            'data_lines': [(i, stripped), (i + 1, lines[i + 1])],
+            'position_line': stripped,
+            'position_line_idx': i,
+            'position': pos,
+            'rfea_format': True,
+        })
+        
+        i += 2  # Skip both the athlete line and club line
+    
+    return athletes
+
+
+def extract_result_from_rfea_line(athlete_line, club_line):
+    """Extract the result (marca) from an RFEA athlete line.
+    
+    RFEA line format:
+    pos  dorsal  Name  DOB  Cat  Lane  Marca
+    
+    Examples:
+    "4   71 (t) Mario Sanchez Alvarez  02/10/2002  CM  1  7.61"
+    "41 (t) Eduard Guzman Montagut  15/12/2002  CM  3  NP"
+    "2   151 (t) Sergi Cattaneo Adan  08/03/2003  CM  6  11.33"
+    """
+    stripped = athlete_line.strip()
+    
+    # Remove the DOB first
+    stripped = re.sub(r'\d{1,2}/\d{1,2}/\d{4}', '', stripped)
+    
+    # Remove position and dorsal at the start
+    stripped = re.sub(r'^\s*\d+\s+\d+\s*\(?[te]?\)?\s*', '', stripped)
+    
+    # Remove category (SM, CM, IM, BM, JN, etc.)
+    stripped = re.sub(r'\b(?:SM|CM|IM|BM|JN|AS|AI|AM|SV|JV|AJ|AM\d+|S\d+|C\d+|I\d+|B\d+)\b', '', stripped)
+    
+    # Remove lane number
+    stripped = re.sub(r'\b\d+\b', '', stripped, count=1)
+    
+    # Now we should have just the result (time, distance, DNS, etc.)
+    stripped = stripped.strip()
+    
+    # Skip if it looks like a category or empty
+    if not stripped or re.match(r'^[A-Z]{2,4}$', stripped):
+        return None
+    
+    # Common non-result values
+    if stripped.upper() in ('NP', 'DNF', 'DNS', 'DQ', 'NW', 'RET', 'N.P.'):
+        return stripped
+    
+    # If it's a time or distance, validate it
+    # Try to extract a numeric value
+    time_match = re.search(r'(\d{1,2}:\d{2}\.\d{2}|\d{1,2}:\d{2}|\d+\.\d+)', stripped)
+    if time_match:
+        return time_match.group(1)
+    
+    # Check for quote format: 3'53"86
+    quote_match = re.search(r"(\d+'(\d{2})\"(\d{2}))", stripped)
+    if quote_match:
+        minutes = quote_match.group(1).split("'")[0]
+        seconds = quote_match.group(1).split("'")[1].split('"')[0]
+        cs = quote_match.group(2)
+        return f"{minutes}:{seconds}.{cs}"
+    
+    # Check for comma-separated time: 1.00,08 -> 1:00.08
+    comma_match = re.search(r'(\d+)\.(\d{2}),(\d{2})', stripped)
+    if comma_match:
+        return f"{comma_match.group(1)}:{comma_match.group(2)}.{comma_match.group(3)}"
+    
+    # If nothing matched, return the stripped value if it looks like a result
+    if stripped and len(stripped) > 0:
+        return stripped
+    
+    return None
+
+
 def is_new_format_section(lines, sec_start, sec_end):
     """Detect if this section uses the new multi-line format.
     
@@ -1337,10 +1592,13 @@ def find_catt_athletes_in_section(lines, sec_start, sec_end):
                 return True
         return False
     
-    # Detect format
+    # Detect format: RFEA first (club after result), then new format, then old format
+    rfea_format = is_rfea_section(lines, sec_start, sec_end)
     new_format = is_new_format_section(lines, sec_start, sec_end)
     
-    if new_format:
+    if rfea_format:
+        athletes = _find_catt_rfea_format(lines, sec_start, sec_end, is_in_sumario)
+    elif new_format:
         athletes = _find_catt_new_format(lines, sec_start, sec_end, is_in_sumario)
     else:
         athletes = _find_catt_old_format(lines, sec_start, sec_end, is_in_sumario)
@@ -2790,6 +3048,7 @@ def main():
 
     pdf_path = sys.argv[1]
     source_url = sys.argv[2] if len(sys.argv) > 2 else ""
+    quiet = '--quiet' in sys.argv
 
     # If no explicit URL provided, try to reconstruct from known patterns
     if not source_url:
@@ -2798,28 +3057,35 @@ def main():
     base = os.path.splitext(pdf_path)[0]
     output_path = base + ".json"
 
-    print(f"Extracting text from: {pdf_path}")
+    if not quiet:
+        print(f"Extracting text from: {pdf_path}")
     text = extract_text(pdf_path)
 
-    print("Parsing competition header...")
+    if not quiet:
+        print("Parsing competition header...")
     competicio, ubicacio, localitat, data = parse_header(text)
     full_competicio = f"{competicio} - {ubicacio}" if ubicacio else competicio
-    print(f"  Competicio: {competicio or '(no trobat)'}")
-    print(f"  Ubicacio: {ubicacio or '(no trobat)'}")
-    print(f"  Localitat: {localitat or '(no trobat)'}")
-    print(f"  Data: {data or '(no trobat)'}")
+    if not quiet:
+        print(f"  Competicio: {competicio or '(no trobat)'}")
+        print(f"  Ubicacio: {ubicacio or '(no trobat)'}")
+        print(f"  Localitat: {localitat or '(no trobat)'}")
+        print(f"  Data: {data or '(no trobat)'}")
 
-    print("\nExtracting CATT athlete results...")
+    if not quiet:
+        print("\nExtracting CATT athlete results...")
     results = parse_with_section_aware(text, full_competicio, data)
 
-    print(f"Found {len(results)} result entries for CATT athletes")
+    if not quiet:
+        print(f"Found {len(results)} result entries for CATT athletes")
 
-    for r in results:
-        status = "OK" if r["atleta_nom"] and r["marca"] else ("DQ/DNS" if r["atleta_nom"] and not r["marca"] else "INCOMPLETE")
-        print(f"  [{status}] {r['atleta_nom'] or '???':35s} | {r['prova'] or '???':25s} | {r['marca'] or '???':12s} | Lloc: {r['lloc']} | Vent: {r['vent']} | Lic: {r['atleta_licencia']}")
+    if not quiet:
+        for r in results:
+            status = "OK" if r["atleta_nom"] and r["marca"] else ("DQ/DNS" if r["atleta_nom"] and not r["marca"] else "INCOMPLETE")
+            print(f"  [{status}] {r['atleta_nom'] or '???':35s} | {r['prova'] or '???':25s} | {r['marca'] or '???':12s} | Lloc: {r['lloc']} | Vent: {r['vent']} | Lic: {r['atleta_licencia']}")
 
     results = deduplicate_results(results)
-    print(f"\nAfter deduplication: {len(results)} unique results")
+    if not quiet:
+        print(f"\nAfter deduplication: {len(results)} unique results")
 
     # Validate and filter results - must have athlete_name, performance, and discipline
     valid_results = []
@@ -2843,7 +3109,8 @@ def main():
         valid_results.append(r)
 
     results = valid_results
-    print(f"\nAfter validation: {len(results)} valid results")
+    if not quiet:
+        print(f"\nAfter validation: {len(results)} valid results")
 
     # Validate results against event type - filter impossible times/marks
     valid_results = []
@@ -2852,7 +3119,8 @@ def main():
         marca = r.get("marca", "")
         if not marca or marca in ("DQ", "DNS", "DNF"):
             # Skip DNS/DQ/DNF entries - they don't represent actual results
-            print(f"  Skipping DNS/DQ/DNF: {r.get('atleta_nom', '???')} - {r.get('prova', '???')} ({marca or 'empty'})", file=sys.stderr)
+            if not quiet:
+                print(f"  Skipping DNS/DQ/DNF: {r.get('atleta_nom', '???')} - {r.get('prova', '???')} ({marca or 'empty'})", file=sys.stderr)
             continue
         
         # Parse the mark value for validation
@@ -2878,16 +3146,20 @@ def main():
             # If time > 60 seconds, it's likely a wrong event assignment for a sprint
             event_lower = r.get("prova", "").lower()
             if '60m' in event_lower and seconds > 15:
-                print(f"  WARNING: Discarding {r['atleta_nom']} {marca} for {r['prova']} - impossible time for 60m", file=sys.stderr)
+                if not quiet:
+                    print(f"  WARNING: Discarding {r['atleta_nom']} {marca} for {r['prova']} - impossible time for 60m", file=sys.stderr)
                 invalid = True
             elif '100m' in event_lower and seconds > 20:
-                print(f"  WARNING: Discarding {r['atleta_nom']} {marca} for {r['prova']} - impossible time for 100m", file=sys.stderr)
+                if not quiet:
+                    print(f"  WARNING: Discarding {r['atleta_nom']} {marca} for {r['prova']} - impossible time for 100m", file=sys.stderr)
                 invalid = True
             elif '200m' in event_lower and seconds > 40:
-                print(f"  WARNING: Discarding {r['atleta_nom']} {marca} for {r['prova']} - impossible time for 200m", file=sys.stderr)
+                if not quiet:
+                    print(f"  WARNING: Discarding {r['atleta_nom']} {marca} for {r['prova']} - impossible time for 200m", file=sys.stderr)
                 invalid = True
             elif '400m' in event_lower and seconds > 120:
-                print(f"  WARNING: Discarding {r['atleta_nom']} {marca} for {r['prova']} - impossible time for 400m", file=sys.stderr)
+                if not quiet:
+                    print(f"  WARNING: Discarding {r['atleta_nom']} {marca} for {r['prova']} - impossible time for 400m", file=sys.stderr)
                 invalid = True
             elif '800m' in event_lower and seconds > 250:
                 invalid = True
@@ -2910,10 +3182,12 @@ def main():
             valid_results.append(r)
     
     results = valid_results
-    print(f"After event-type validation: {len(results)} valid results")
+    if not quiet:
+        print(f"After event-type validation: {len(results)} valid results")
 
     if not results:
-        print("No results found for CATT athletes. Skipping JSON export.")
+        if not quiet:
+            print("No results found for CATT athletes. Skipping JSON export.")
         return
 
     output = {
@@ -2939,17 +3213,18 @@ def main():
     with open(output_path, 'w', encoding='utf-8') as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
 
-    print(f"\nResults written to: {output_path}")
+    if not quiet:
+        print(f"\nResults written to: {output_path}")
 
-    events = {}
-    for r in results:
-        if r["prova"] not in events:
-            events[r["prova"]] = []
-        events[r["prova"]].append(r["atleta_nom"])
+        events = {}
+        for r in results:
+            if r["prova"] not in events:
+                events[r["prova"]] = []
+            events[r["prova"]].append(r["atleta_nom"])
 
-    print("\nResum per prova:")
-    for prova, atletes in sorted(events.items()):
-        print(f"  {prova}: {len(atletes)} atletes")
+        print("\nResum per prova:")
+        for prova, atletes in sorted(events.items()):
+            print(f"  {prova}: {len(atletes)} atletes")
 
 
 if __name__ == "__main__":

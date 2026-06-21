@@ -1,0 +1,41 @@
+{
+  "event_name": "Control FCA d'Aire Lliure 2025 - Estadio Municipal El Congost",
+  "event_date": "18/05/2025",
+  "event_location": "Manresa",
+  "total_results": 4,
+  "event_src": "https://fcatletisme.cat/wp-content/uploads/2025/05/resultat-20250518-controlfcamanresa.pdf",
+  "results": [
+    {
+      "athlete_name": "MATIAS HERNANDEZ SANCHEZ",
+      "athlete_dob": "26/12/2008",
+      "athlete_id": "CAT-3742986",
+      "performance": "15.58",
+      "discipline": "110m vallas (0,914) Hombres AL",
+      "wind": "+1.0"
+    },
+    {
+      "athlete_name": "HUGO JULES SAIZ SANTOLARIA",
+      "athlete_dob": "31/1/2005",
+      "athlete_id": "CAT-3742956",
+      "performance": "11.49",
+      "discipline": "100m Hombres",
+      "wind": "+1.1"
+    },
+    {
+      "athlete_name": "HUGO JULES SAIZ SANTOLARIA",
+      "athlete_dob": "31/1/2005",
+      "athlete_id": "CAT-3742956",
+      "performance": "11.54",
+      "discipline": "100m Hombres",
+      "wind": "+3.2"
+    },
+    {
+      "athlete_name": "HUGO JULES SAIZ SANTOLARIA",
+      "athlete_dob": "31/1/2005",
+      "athlete_id": "CAT-3742956",
+      "performance": "23.52",
+      "discipline": "200m Hombres",
+      "wind": "+1.2"
+    }
+  ]
+}

@@ -2,7 +2,7 @@
   "event_name": "3r Control Sub8-10-12 - Pista de Atletismo Vilanova i la Geltrú",
   "event_date": "09/05/2026",
   "event_location": "Vilanova i la Geltrú",
-  "total_results": 21,
+  "total_results": 47,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/05/resultat-20260509-controlsub81012vilanova.pdf",
   "results": [
     {
@@ -25,6 +25,22 @@
       "athlete_name": "SARA LOPEZ GARCIA",
       "athlete_dob": "19/1/2015",
       "athlete_id": "CL11066",
+      "performance": "12.82",
+      "discipline": "Disco (600g) Mujeres",
+      "wind": null
+    },
+    {
+      "athlete_name": "SARA LOPEZ GARCIA",
+      "athlete_dob": "19/1/2015",
+      "athlete_id": "CL11066",
+      "performance": "13.10",
+      "discipline": "Disco (600g) Mujeres",
+      "wind": null
+    },
+    {
+      "athlete_name": "SARA LOPEZ GARCIA",
+      "athlete_dob": "19/1/2015",
+      "athlete_id": "CL11066",
       "performance": "15.42",
       "discipline": "Disco (600g) Mujeres",
       "wind": null
@@ -33,7 +49,23 @@
       "athlete_name": "JULIA MUSTE SANTIAGO",
       "athlete_dob": "30/9/2015",
       "athlete_id": "CL14892",
+      "performance": "9.83",
+      "discipline": "Disco (600g) Mujeres",
+      "wind": null
+    },
+    {
+      "athlete_name": "JULIA MUSTE SANTIAGO",
+      "athlete_dob": "30/9/2015",
+      "athlete_id": "CL14892",
       "performance": "11.30",
+      "discipline": "Disco (600g) Mujeres",
+      "wind": null
+    },
+    {
+      "athlete_name": "MONTSERRAT MARQUES CRUZ",
+      "athlete_dob": "27/1/2015",
+      "athlete_id": "CL11596",
+      "performance": "25.23",
       "discipline": "Disco (600g) Mujeres",
       "wind": null
     },
@@ -65,7 +97,7 @@
       "athlete_name": "ADA FELIU LORCA",
       "athlete_dob": "7/5/2016",
       "athlete_id": "CL15054",
-      "performance": "1.10",
+      "performance": "1.15",
       "discipline": "Altura Mujeres",
       "wind": null
     },
@@ -86,6 +118,14 @@
       "wind": null
     },
     {
+      "athlete_name": "MARCOS BARBERO RUBIO",
+      "athlete_dob": "8/3/2018",
+      "athlete_id": "CAT-3842729",
+      "performance": "41.17",
+      "discipline": "Jabalina Vortex Hombres U8M",
+      "wind": null
+    },
+    {
       "athlete_name": "OLIVIER CASAS MUIÑO",
       "athlete_dob": "10/8/2015",
       "athlete_id": "CL11597",
@@ -96,7 +136,7 @@
     {
       "athlete_name": "FERRAN SANJUAN FLORES",
       "athlete_dob": "9/2/2015",
-      "athlete_id": "CAT-3816505-A",
+      "athlete_id": "CAT-3816505",
       "performance": "1:50.22",
       "discipline": "600 m Hombres",
       "wind": null
@@ -110,19 +150,35 @@
       "wind": null
     },
     {
-      "athlete_name": "PAULA BLAZQUEZ BENSENY",
-      "athlete_dob": "11/6/2015",
-      "athlete_id": "CAT-3843630-A",
-      "performance": "11.02",
-      "discipline": "60m vallas (0,50)Mujeres AL",
+      "athlete_name": "FERRAN SANJUAN FLORES",
+      "athlete_dob": "9/2/2015",
+      "athlete_id": "CAT-3816505",
+      "performance": "3.37",
+      "discipline": "Longitud Hombres",
       "wind": null
     },
     {
-      "athlete_name": "XENIA GRACIA MARTI",
-      "athlete_dob": "23/8/2016",
-      "athlete_id": "CAT-3842738-A",
-      "performance": "12.51",
-      "discipline": "60m vallas (0,50)Mujeres AL",
+      "athlete_name": "FERRAN SANJUAN FLORES",
+      "athlete_dob": "9/2/2015",
+      "athlete_id": "CAT-3816505",
+      "performance": "3.53",
+      "discipline": "Longitud Hombres",
+      "wind": null
+    },
+    {
+      "athlete_name": "SERGI AGUZA PIQUERAS",
+      "athlete_dob": "21/4/2016",
+      "athlete_id": "CL15055",
+      "performance": "3.13",
+      "discipline": "Longitud Hombres",
+      "wind": null
+    },
+    {
+      "athlete_name": "SERGI AGUZA PIQUERAS",
+      "athlete_dob": "21/4/2016",
+      "athlete_id": "CL15055",
+      "performance": "3.01",
+      "discipline": "Longitud Hombres",
       "wind": null
     },
     {
@@ -136,8 +192,24 @@
     {
       "athlete_name": "GINESTA MARRUGAT CANADELL",
       "athlete_dob": "10/12/2016",
-      "athlete_id": "CAT-3789549-A",
+      "athlete_id": "CAT-3789549",
       "performance": "13.87",
+      "discipline": "60m vallas (0,50)Mujeres AL",
+      "wind": null
+    },
+    {
+      "athlete_name": "PAULA BLAZQUEZ BENSENY",
+      "athlete_dob": "11/6/2015",
+      "athlete_id": "CAT-3843630",
+      "performance": "11.02",
+      "discipline": "60m vallas (0,50)Mujeres AL",
+      "wind": null
+    },
+    {
+      "athlete_name": "XENIA GRACIA MARTI",
+      "athlete_dob": "23/8/2016",
+      "athlete_id": "CAT-3842738",
+      "performance": "12.51",
       "discipline": "60m vallas (0,50)Mujeres AL",
       "wind": null
     },
@@ -147,6 +219,110 @@
       "athlete_id": "CL14892",
       "performance": "5.72",
       "discipline": "Peso (2kg)Mujeres AL",
+      "wind": null
+    },
+    {
+      "athlete_name": "JULIA MUSTE SANTIAGO",
+      "athlete_dob": "30/9/2015",
+      "athlete_id": "CL14892",
+      "performance": "5.07",
+      "discipline": "Peso (2kg)Mujeres AL",
+      "wind": null
+    },
+    {
+      "athlete_name": "JULIA MUSTE SANTIAGO",
+      "athlete_dob": "30/9/2015",
+      "athlete_id": "CL14892",
+      "performance": "5.31",
+      "discipline": "Peso (2kg)Mujeres AL",
+      "wind": null
+    },
+    {
+      "athlete_name": "JULIA MUSTE SANTIAGO",
+      "athlete_dob": "30/9/2015",
+      "athlete_id": "CL14892",
+      "performance": "9.83",
+      "discipline": "Peso (2kg)Mujeres AL",
+      "wind": null
+    },
+    {
+      "athlete_name": "JULIA MUSTE SANTIAGO",
+      "athlete_dob": "30/9/2015",
+      "athlete_id": "CL14892",
+      "performance": "11.30",
+      "discipline": "Peso (2kg)Mujeres AL",
+      "wind": null
+    },
+    {
+      "athlete_name": "PAULA PEREIRA CONTRERAS",
+      "athlete_dob": "24/3/2016",
+      "athlete_id": "CAT-3789541",
+      "performance": "4.85",
+      "discipline": "Peso (2kg)Mujeres AL",
+      "wind": null
+    },
+    {
+      "athlete_name": "PAULA PEREIRA CONTRERAS",
+      "athlete_dob": "24/3/2016",
+      "athlete_id": "CAT-3789541",
+      "performance": "4.70",
+      "discipline": "Peso (2kg)Mujeres AL",
+      "wind": null
+    },
+    {
+      "athlete_name": "PAULA PEREIRA CONTRERAS",
+      "athlete_dob": "24/3/2016",
+      "athlete_id": "CAT-3789541",
+      "performance": "4.61",
+      "discipline": "Peso (2kg)Mujeres AL",
+      "wind": null
+    },
+    {
+      "athlete_name": "SARA LOPEZ GARCIA",
+      "athlete_dob": "19/1/2015",
+      "athlete_id": "CL11066",
+      "performance": "12.82",
+      "discipline": "Peso (2kg)Mujeres AL",
+      "wind": null
+    },
+    {
+      "athlete_name": "SARA LOPEZ GARCIA",
+      "athlete_dob": "19/1/2015",
+      "athlete_id": "CL11066",
+      "performance": "13.10",
+      "discipline": "Peso (2kg)Mujeres AL",
+      "wind": null
+    },
+    {
+      "athlete_name": "SARA LOPEZ GARCIA",
+      "athlete_dob": "19/1/2015",
+      "athlete_id": "CL11066",
+      "performance": "15.42",
+      "discipline": "Peso (2kg)Mujeres AL",
+      "wind": null
+    },
+    {
+      "athlete_name": "MARTINA TORRES PRATS",
+      "athlete_dob": "10/4/2018",
+      "athlete_id": "CAT-3844273",
+      "performance": "36.03",
+      "discipline": "Jabalina Vortex Mujeres U8F",
+      "wind": null
+    },
+    {
+      "athlete_name": "ROCIO TALAVERA CUADRADO",
+      "athlete_dob": "12/12/2017",
+      "athlete_id": "CAT-3843579",
+      "performance": "42.67",
+      "discipline": "Jabalina Vortex Mujeres U8F",
+      "wind": null
+    },
+    {
+      "athlete_name": "GINESTA MARRUGAT CANADELL",
+      "athlete_dob": "10/12/2016",
+      "athlete_id": "CAT-3789549",
+      "performance": "21.71",
+      "discipline": "Jabalina Vortex Mujeres U8F",
       "wind": null
     },
     {
@@ -160,7 +336,7 @@
     {
       "athlete_name": "NAIA GUINART TRABALON",
       "athlete_dob": "25/3/2015",
-      "athlete_id": "CAT-3889578-A",
+      "athlete_id": "CAT-3889578",
       "performance": "2:00.07",
       "discipline": "600 m Mujeres",
       "wind": null
@@ -171,6 +347,38 @@
       "athlete_id": "CL15061",
       "performance": "2:07.11",
       "discipline": "600 m Mujeres",
+      "wind": null
+    },
+    {
+      "athlete_name": "NAIA GUINART TRABALON",
+      "athlete_dob": "25/3/2015",
+      "athlete_id": "CAT-3889578",
+      "performance": "3.35",
+      "discipline": "Longitud Mujeres",
+      "wind": null
+    },
+    {
+      "athlete_name": "NAIA GUINART TRABALON",
+      "athlete_dob": "25/3/2015",
+      "athlete_id": "CAT-3889578",
+      "performance": "3.25",
+      "discipline": "Longitud Mujeres",
+      "wind": null
+    },
+    {
+      "athlete_name": "XENIA GRACIA MARTI",
+      "athlete_dob": "23/8/2016",
+      "athlete_id": "CAT-3842738",
+      "performance": "3.24",
+      "discipline": "Longitud Mujeres",
+      "wind": null
+    },
+    {
+      "athlete_name": "ADA FELIU LORCA",
+      "athlete_dob": "7/5/2016",
+      "athlete_id": "CL15054",
+      "performance": "2.98",
+      "discipline": "Longitud Mujeres",
       "wind": null
     }
   ]

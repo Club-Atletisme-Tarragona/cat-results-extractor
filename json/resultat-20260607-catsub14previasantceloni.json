@@ -2,7 +2,7 @@
   "event_name": "Jornada Prèvia - Campionat de Catalunya Sub14 - Pista Municipal de Atletismo Sant Celoni",
   "event_date": "07/06/2026",
   "event_location": "Sant Celoni",
-  "total_results": 16,
+  "total_results": 20,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/06/resultat-20260607-catsub14previasantceloni.pdf",
   "results": [
     {
@@ -58,6 +58,14 @@
       "athlete_dob": "1/5/2014",
       "athlete_id": "CL11067",
       "performance": "23.08",
+      "discipline": "Disc masculí",
+      "wind": null
+    },
+    {
+      "athlete_name": "ANTONIO BALAZOTE",
+      "athlete_dob": "1/5/2014",
+      "athlete_id": "CL11067",
+      "performance": "22.12",
       "discipline": "Disc masculí",
       "wind": null
     },
@@ -131,6 +139,30 @@
       "athlete_id": "CL4396",
       "performance": "16.42",
       "discipline": "Javelina femenina",
+      "wind": null
+    },
+    {
+      "athlete_name": "ALBA ESTEVE HOSTALOT",
+      "athlete_dob": "10/11/2013",
+      "athlete_id": "CL4396",
+      "performance": "17.71",
+      "discipline": "Pes femení",
+      "wind": null
+    },
+    {
+      "athlete_name": "BLANCA FRUTOS MATURANA",
+      "athlete_dob": "13/6/2013",
+      "athlete_id": "CAT-3724257",
+      "performance": "30.74",
+      "discipline": "Disc femení",
+      "wind": null
+    },
+    {
+      "athlete_name": "ALBA ESTEVE HOSTALOT",
+      "athlete_dob": "10/11/2013",
+      "athlete_id": "CL4396",
+      "performance": "16.42",
+      "discipline": "Martell femení",
       "wind": null
     }
   ]

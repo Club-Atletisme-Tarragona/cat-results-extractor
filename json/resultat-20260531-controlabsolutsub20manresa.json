@@ -2,7 +2,7 @@
   "event_name": "3r Control FCA Aire Lliure 2026 - 2n Memorial David Pérez Bruque - Estadio Municipal El Congost",
   "event_date": "31/05/2026",
   "event_location": "Manresa",
-  "total_results": 1,
+  "total_results": 2,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/06/resultat-20260531-controlabsolutsub20manresa.pdf",
   "results": [
     {
@@ -12,6 +12,14 @@
       "performance": "1:05.54",
       "discipline": "400m vallas Mujeres",
       "wind": null
+    },
+    {
+      "athlete_name": "DIDAC COMERMA GUASCH",
+      "athlete_dob": "4/7/2000",
+      "athlete_id": "CAT-3713961",
+      "performance": "12.11",
+      "discipline": "100m Hombres",
+      "wind": "-2.4"
     }
   ]
 }

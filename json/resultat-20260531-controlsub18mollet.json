@@ -2,7 +2,7 @@
   "event_name": "6è Control Sub18",
   "event_date": "31/05/2026",
   "event_location": "a determinar",
-  "total_results": 9,
+  "total_results": 11,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/05/resultat-20260531-controlsub18mollet.pdf",
   "results": [
     {
@@ -42,7 +42,7 @@
       "athlete_dob": "1/2/2010",
       "athlete_id": "CL3853",
       "performance": "18.54",
-      "discipline": "Jabalina (500g) Mujeres",
+      "discipline": "Martillo (3kg) Mujeres",
       "wind": null
     },
     {
@@ -50,7 +50,7 @@
       "athlete_dob": "1/2/2010",
       "athlete_id": "CL3853",
       "performance": "18.64",
-      "discipline": "Jabalina (500g) Mujeres",
+      "discipline": "Martillo (3kg) Mujeres",
       "wind": null
     },
     {
@@ -58,7 +58,7 @@
       "athlete_dob": "1/2/2010",
       "athlete_id": "CL3853",
       "performance": "18.05",
-      "discipline": "Jabalina (500g) Mujeres",
+      "discipline": "Martillo (3kg) Mujeres",
       "wind": null
     },
     {
@@ -66,7 +66,7 @@
       "athlete_dob": "1/2/2010",
       "athlete_id": "CL3853",
       "performance": "17.87",
-      "discipline": "Jabalina (500g) Mujeres",
+      "discipline": "Martillo (3kg) Mujeres",
       "wind": null
     },
     {
@@ -74,8 +74,24 @@
       "athlete_dob": "1/2/2010",
       "athlete_id": "CL3853",
       "performance": "18.24",
-      "discipline": "Jabalina (500g) Mujeres",
+      "discipline": "Martillo (3kg) Mujeres",
       "wind": null
+    },
+    {
+      "athlete_name": "DAVID FERNANDEZ PINEDA",
+      "athlete_dob": "18/6/2010",
+      "athlete_id": "CL11323",
+      "performance": "58.28",
+      "discipline": "400m Hombres",
+      "wind": null
+    },
+    {
+      "athlete_name": "DAVID FERNANDEZ PINEDA",
+      "athlete_dob": "18/6/2010",
+      "athlete_id": "CL11323",
+      "performance": "5.08",
+      "discipline": "110m vallas (0,914) Hombres AL",
+      "wind": "+1.1"
     }
   ]
 }

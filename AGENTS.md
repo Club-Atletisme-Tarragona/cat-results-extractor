@@ -248,10 +248,12 @@ For Longitud and Triple Salto, wind is extracted by matching wind values to atte
 
 1. Parse attempts from the name line (values between 3.0-20.0, plus X/r/- markers)
 2. Find the best valid mark (max of valid attempts)
-3. Look for wind values on the club line below (`CA Tarragona  CL11323  -0.5  -0.4`)
+3. Look for wind values on the line below the athlete's data (NOT the club line)
+   - The wind line is a pure data line with only whitespace + decimal values (e.g., `3,0  3,5  3,1  1,4`)
+   - If the next line contains license patterns (`CT-`, `CL-`) or athlete names, it's NOT a wind line — it's another athlete's data (llançament)
 4. Match wind to best attempt by index position
 
-If wind values aren't found on the club line, look for a single wind value on its own line.
+If wind values aren't found on the next line, look for a single wind value on its own line.
 
 ## Output Structure
 
@@ -333,16 +335,31 @@ Some PDFs embed the license number directly in the name field (e.g., `CT-18283 M
 
 || Season | PDFs with CA Tarragona | JSON files | Total results | Unique athletes |
 ||--------|----------------------|------------|---------------|-----------------|
-|| 2005 | 39 | 39 | 193 | 41 |
-|| 2008-2009 | 28 | 36 | 142 | ~50 |
-|| 2009-2010 | TBD | TBD | TBD | ~60 |
-|| 2010-2011 | 28 | 20 | 172 | ~55 |
-|| 2011-2012 | 14 | 14 | 154 | scripts/process_2011_2012.py |
-|| 2012-2013 | 82 | 82 | 390 | TBD |
-|| 2013-2014 | 39 | 39 | 226 | 68 |
-|| 2014-2015 (AL+PC) | 62 | 62 | 255 | TBD |
-|| 2014-2015 | 43 | 43 | 406 | 115 |
-|| 2015-2016 | 41 | 41 | 409 | 98 |
+|| 2005 | 39 | 39 | 366 | 41 |
+|| 2006 | 42 | 37 | 454 | ~65 |
+|| 2007 | 42 | 36 | 288 | ~50 |
+|| 2008 | 40 | 33 | 308 | ~55 |
+|| 2009 | 55 | 47 | 514 | ~70 |
+|| 2010 | 60 | 48 | 601 | ~75 |
+|| 2011 | 71 | 39 | 734 | ~90 |
+|| 2012 | 66 | 17 | 630 | ~85 |
+|| 2013 | 95 | 22 | 835 | ~100 |
+|| 2014 | 106 | 26 | 904 | ~115 |
+|| 2015 | 121 | 32 | 1461 | ~130 |
+|| 2016 | 118 | 27 | 1643 | ~140 |
+|| 2017 | 301 | 37 | 293 | ~50 |
+|| 2018 | 318 | 58 | 855 | ~100 |
+|| 2019 | 312 | 62 | 1009 | ~120 |
+|| 2020 | 134 | 34 | 734 | ~90 |
+|| 2021 | 281 | 62 | 1296 | ~130 |
+|| 2022 | 316 | 69 | 1005 | ~120 |
+|| 2023 | 329 | 78 | 995 | ~120 |
+|| 2024 | 309 | 74 | 1341 | ~140 |
+|| 2025 | 264 | 102 | 3519 | ~200 |
+
+**2017-2025 source**: Scraped from https://fcatletisme.cat/events/llista/ (R links for results). PDFs hosted on `fcatletisme.cat/wp-content/uploads/`. Format is RFEA multi-line (club on line after result).
+
+**2025 spike**: The large number of results in 2025 (3519) is because the data includes results from the 2024-2025 season which extends into calendar year 2025 (many events in Jan-Mar 2025).
 
 ## Discipline Detection Rules (CRITICAL)
 
@@ -368,6 +385,39 @@ Extract wind when present for: **60m, 100m, 200m, 60m tanques, 100m tanques, 110
 - Field events (llançaments): wind NOT applicable → `null`
 - Long-distance (800m+): wind NOT applicable → `null`
 
+### Wind Field (continued)
+
+**Wind extraction for salts vs llançaments:**
+
+- **Salts** (Llargada, Triple Salt, Alçada, Perxa): Wind values appear on the line below the athlete's data line, aligned under each attempt. Extract wind values from this next-line and match to the best attempt by index.
+- **Llançaments** (Disc, Pes, Martell, Javelina/Dard): NO wind data. The line below the athlete's data is another athlete's data (not wind values). Wind must always be `null`.
+
+**Distinguishing wind lines from athlete data lines:**
+A wind line contains only whitespace + decimal values (e.g., `3,0  3,5  3,1  1,4  3,1  1,9  1,9`). An athlete data line contains position/license/name patterns (e.g., `4  CT-13365  VICTOR FONSECA...`). Check for license patterns (`CT-`, `CL-`, `IB-`, `LZ-`) or time patterns (`1.00,08`) to reject athlete data lines as wind lines.
+
+### Llançament (Field Throw) Extraction
+
+Llançaments (disc, pes, martell, javelina) have multiple attempts per athlete. **Each valid attempt should be a separate result entry:**
+
+1. Parse all attempt values from the athlete's data line
+2. Filter out invalid attempts (`X`, `x`, `-`, `_`, `Nuls`)
+3. Output one JSON entry per valid attempt, all with `wind: null`
+4. Deduplicate by `(athlete_name, discipline, performance)` to remove duplicates from different extraction paths, but keep all unique attempt values
+
+**Example:** Barbara Pintado's disc with attempts `35,13  30,58  32,77  X  31,95  32,44` produces 5 entries (X excluded), each with the same discipline but different performance values.
+
+### CRITICAL: All Salt and Llançament Events — Output All Attempts
+
+**NEVER output only the best result for salt (jump) or llançament (throw) events.** Every valid attempt must be a separate result entry.
+
+- **Salts** (Llargada, Triple Salt, Alçada, Perxa): If an athlete has 6 attempts, output 6 entries (excluding X/r/-). The best mark is NOT enough — all valid attempts are required.
+- **Llançaments** (Disc, Pes, Martell, Javelina/Dard): Same rule — all valid attempts as separate entries, `wind: null`.
+- **Track events** (sprints, middle/long distance, hurdles): Keep only the best result (current behavior).
+
+**Example for salt:** An athlete with attempts `5.20  X  5.45  5.30  X  5.50` produces 4 entries (X excluded): `5.20`, `5.45`, `5.30`, `5.50` — each with the same discipline and athlete name, but different performance values and individual wind (if applicable).
+
+**This is a common bug:** Deduplication by `(athlete_name, discipline)` keeps only the best result. For salts and llançaments, deduplicate by `(athlete_name, discipline, performance)` instead to keep all unique attempts.
+
 **Known parsers missing discipline detection:**
 - `process_2013_2014_al_pc.py` — line 94 has `"discipline": ""` hardcoded. Fixed with event_map pre-scan + `infer_discipline_from_perf()` fallback.
 - All new extractors must implement discipline detection.
@@ -383,6 +433,8 @@ Extract wind when present for: **60m, 100m, 200m, 60m tanques, 100m tanques, 110
 - **pdftotext is now functional** on this machine (version 25.03.0). Use `pdftotext -layout` for all new extractions — preserves spatial layout, much better than pdfplumber.
 - Some PDFs have `(t)` markers in the text (heat/heat marker) — these are not part of athlete names and should be ignored.
 - All JSONs include `event_src` with the reconstructed PDF URL.
+
+- 2005: PDFs use varied tabular formats: standard track, controls, campmany/jjp (fewer columns), llançaments (multiple attempts per athlete), combinades (pentathlon/heptathlon), veterans (category column), 10000m (quote format `32'23"45`). Llançaments output one result per valid attempt (X excluded, wind=null). 39 PDFs, 337 total results, 23 with wind values. Dedicated parser: `scripts/process_2005.py`.
 
 ---
 

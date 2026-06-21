@@ -2,7 +2,7 @@
   "event_name": "Jornada Final - Campionat de Catalunya Sub16 - Pista de Atletismo de El Vendrell",
   "event_date": "24/05/2026",
   "event_location": "El Vendrell",
-  "total_results": 14,
+  "total_results": 26,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/05/resultat-20260524-finalcatsub16elvendrell.pdf",
   "results": [
     {
@@ -11,7 +11,7 @@
       "athlete_id": "CL11325",
       "performance": "14.17",
       "discipline": "100m tanques masculins",
-      "wind": "+2.3"
+      "wind": "+1.5"
     },
     {
       "athlete_name": "CESSAR AINA PRECIADO FOREMAN",
@@ -49,7 +49,23 @@
       "athlete_name": "FERRAN MASCARO NAVARRO",
       "athlete_dob": "2/6/2012",
       "athlete_id": "CL96310",
+      "performance": "9.15",
+      "discipline": "Llançament de pes masculí",
+      "wind": null
+    },
+    {
+      "athlete_name": "FERRAN MASCARO NAVARRO",
+      "athlete_dob": "2/6/2012",
+      "athlete_id": "CL96310",
       "performance": "9.62",
+      "discipline": "Llançament de pes masculí",
+      "wind": null
+    },
+    {
+      "athlete_name": "FERRAN MASCARO NAVARRO",
+      "athlete_dob": "2/6/2012",
+      "athlete_id": "CL96310",
+      "performance": "9.10",
       "discipline": "Llançament de pes masculí",
       "wind": null
     },
@@ -62,12 +78,60 @@
       "wind": null
     },
     {
+      "athlete_name": "HERNAN FERRAN JIMENEZ",
+      "athlete_dob": "28/9/2012",
+      "athlete_id": "CL1093",
+      "performance": "31.48",
+      "discipline": "Llançament de disc masculí",
+      "wind": null
+    },
+    {
+      "athlete_name": "HERNAN FERRAN JIMENEZ",
+      "athlete_dob": "28/9/2012",
+      "athlete_id": "CL1093",
+      "performance": "31.79",
+      "discipline": "Llançament de disc masculí",
+      "wind": null
+    },
+    {
+      "athlete_name": "HERNAN FERRAN JIMENEZ",
+      "athlete_dob": "28/9/2012",
+      "athlete_id": "CL1093",
+      "performance": "25.48",
+      "discipline": "Llançament de disc masculí",
+      "wind": null
+    },
+    {
+      "athlete_name": "HERNAN FERRAN JIMENEZ",
+      "athlete_dob": "28/9/2012",
+      "athlete_id": "CL1093",
+      "performance": "31.01",
+      "discipline": "Llançament de disc masculí",
+      "wind": null
+    },
+    {
+      "athlete_name": "VICTORIA CHIAMAKA ONYEMAEKWU AHANOTU",
+      "athlete_dob": "22/3/2011",
+      "athlete_id": "CL6108",
+      "performance": "4.48",
+      "discipline": "Salt de llargada femení",
+      "wind": "1.4"
+    },
+    {
       "athlete_name": "VICTORIA CHIAMAKA ONYEMAEKWU AHANOTU",
       "athlete_dob": "22/3/2011",
       "athlete_id": "CL6108",
       "performance": "4.87",
       "discipline": "Salt de llargada femení",
-      "wind": null
+      "wind": "2.4"
+    },
+    {
+      "athlete_name": "VICTORIA CHIAMAKA ONYEMAEKWU AHANOTU",
+      "athlete_dob": "22/3/2011",
+      "athlete_id": "CL6108",
+      "performance": "4.39",
+      "discipline": "Salt de llargada femení",
+      "wind": "1.4"
     },
     {
       "athlete_name": "CARLOTA TEJERO CLAU",
@@ -75,6 +139,46 @@
       "athlete_id": "CL7258",
       "performance": "9.18",
       "discipline": "Llançament de pes femení",
+      "wind": null
+    },
+    {
+      "athlete_name": "CARLOTA TEJERO CLAU",
+      "athlete_dob": "6/3/2012",
+      "athlete_id": "CL7258",
+      "performance": "8.61",
+      "discipline": "Llançament de pes femení",
+      "wind": null
+    },
+    {
+      "athlete_name": "CARLOTA TEJERO CLAU",
+      "athlete_dob": "6/3/2012",
+      "athlete_id": "CL7258",
+      "performance": "8.85",
+      "discipline": "Llançament de pes femení",
+      "wind": null
+    },
+    {
+      "athlete_name": "CARLOTA TEJERO CLAU",
+      "athlete_dob": "6/3/2012",
+      "athlete_id": "CL7258",
+      "performance": "8.71",
+      "discipline": "Llançament de pes femení",
+      "wind": null
+    },
+    {
+      "athlete_name": "CARLOTA TEJERO CLAU",
+      "athlete_dob": "6/3/2012",
+      "athlete_id": "CL7258",
+      "performance": "8.70",
+      "discipline": "Llançament de pes femení",
+      "wind": null
+    },
+    {
+      "athlete_name": "CARLOTA TEJERO CLAU",
+      "athlete_dob": "6/3/2012",
+      "athlete_id": "CL7258",
+      "performance": "19.64",
+      "discipline": "Llançament de disc femení",
       "wind": null
     },
     {
@@ -91,14 +195,6 @@
       "athlete_id": "CL1495",
       "performance": "19.36",
       "discipline": "Llançament de disc femení",
-      "wind": null
-    },
-    {
-      "athlete_name": "STELLA PEREIRA CONTRERAS",
-      "athlete_dob": "11/12/2011",
-      "athlete_id": "CL7607",
-      "performance": "16:09.92",
-      "discipline": "3.000m marxa femenins",
       "wind": null
     },
     {

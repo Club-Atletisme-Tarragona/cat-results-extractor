@@ -2,7 +2,7 @@
   "event_name": "5è Control Sub16-18 - Pista de Atletismo Vilanova i la Geltrú",
   "event_date": "09/05/2026",
   "event_location": "Vilanova i la Geltrú",
-  "total_results": 6,
+  "total_results": 7,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/05/resultat-20260509-controlsub1618vilanova.pdf",
   "results": [
     {
@@ -40,9 +40,17 @@
     {
       "athlete_name": "MARTINA GRACIA MOLINA",
       "athlete_dob": "10/4/2010",
-      "athlete_id": "CAT-3906494-A",
+      "athlete_id": "CAT-3906494",
       "performance": "2:58.04",
       "discipline": "800 m Mujeres",
+      "wind": null
+    },
+    {
+      "athlete_name": "LUCIA MARCOS PEREZ",
+      "athlete_dob": "1/2/2010",
+      "athlete_id": "CL3853",
+      "performance": "29.72",
+      "discipline": "Martillo (3 kg) Mujeres U16F",
       "wind": null
     },
     {

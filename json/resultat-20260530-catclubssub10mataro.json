@@ -2,7 +2,7 @@
   "event_name": "Campionat de Catalunya de Clubs Sub10 AL - Estadio Municipal de Mataró",
   "event_date": "30/05/2026",
   "event_location": "Mataró",
-  "total_results": 35,
+  "total_results": 36,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/06/resultat-20260530-catclubssub10mataro.pdf",
   "results": [
     {
@@ -283,6 +283,14 @@
       "athlete_id": "",
       "performance": "42.89",
       "discipline": "4x60 femenins",
+      "wind": null
+    },
+    {
+      "athlete_name": "MARCOS BARBERO RUBIO rt54.7.7",
+      "athlete_dob": "8/3/2018",
+      "athlete_id": "CAT-3842729",
+      "performance": "58.21",
+      "discipline": "Pes masculí",
       "wind": null
     }
   ]

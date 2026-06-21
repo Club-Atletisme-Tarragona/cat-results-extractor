@@ -2,7 +2,7 @@
   "event_name": "1r Control Lleida UA - Pista Mpal. de Atmo. Les Basses",
   "event_date": "09/05/2026",
   "event_location": "Lleida",
-  "total_results": 4,
+  "total_results": 7,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/05/resultat-20260509-controllleidaua.pdf",
   "results": [
     {
@@ -11,7 +11,7 @@
       "athlete_id": "CT2935",
       "performance": "11.92",
       "discipline": "100m Hombres",
-      "wind": "+0.0"
+      "wind": "-0.0"
     },
     {
       "athlete_name": "JERONI FLORES PIÑAS",
@@ -33,9 +33,33 @@
       "athlete_name": "NATALIA SANCHEZ ALVAREZ",
       "athlete_dob": "28/5/2005",
       "athlete_id": "CAT-3754208",
+      "performance": "5.18",
+      "discipline": "Longitud Mujeres U23F",
+      "wind": "-1.3"
+    },
+    {
+      "athlete_name": "NATALIA SANCHEZ ALVAREZ",
+      "athlete_dob": "28/5/2005",
+      "athlete_id": "CAT-3754208",
+      "performance": "5.06",
+      "discipline": "Longitud Mujeres U23F",
+      "wind": "-1.7"
+    },
+    {
+      "athlete_name": "NATALIA SANCHEZ ALVAREZ",
+      "athlete_dob": "28/5/2005",
+      "athlete_id": "CAT-3754208",
       "performance": "5.19",
       "discipline": "Longitud Mujeres U23F",
       "wind": "-1.6"
+    },
+    {
+      "athlete_name": "NATALIA SANCHEZ ALVAREZ",
+      "athlete_dob": "28/5/2005",
+      "athlete_id": "CAT-3754208",
+      "performance": "5.00",
+      "discipline": "Longitud Mujeres U23F",
+      "wind": "-0.5"
     }
   ]
 }

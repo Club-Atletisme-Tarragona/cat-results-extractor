@@ -2,15 +2,39 @@
   "event_name": "4t Control Sub16-18 - Estadi Municipal de Cornellà de Llobregat",
   "event_date": "02/05/2026",
   "event_location": "Cornellà de Llobregat",
-  "total_results": 1,
+  "total_results": 4,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/05/resultat-20260502-controlsub1618cornella.pdf",
   "results": [
     {
       "athlete_name": "ADA NIN NAVAS",
       "athlete_dob": "24/10/2012",
       "athlete_id": "CL1495",
+      "performance": "17.73",
+      "discipline": "Martillo (3kg) Mujeres",
+      "wind": null
+    },
+    {
+      "athlete_name": "ADA NIN NAVAS",
+      "athlete_dob": "24/10/2012",
+      "athlete_id": "CL1495",
+      "performance": "17.29",
+      "discipline": "Martillo (3kg) Mujeres",
+      "wind": null
+    },
+    {
+      "athlete_name": "ADA NIN NAVAS",
+      "athlete_dob": "24/10/2012",
+      "athlete_id": "CL1495",
       "performance": "18.22",
-      "discipline": "Jabalina (500g) Mujeres",
+      "discipline": "Martillo (3kg) Mujeres",
+      "wind": null
+    },
+    {
+      "athlete_name": "ADA NIN NAVAS",
+      "athlete_dob": "24/10/2012",
+      "athlete_id": "CL1495",
+      "performance": "16.05",
+      "discipline": "Martillo (3kg) Mujeres",
       "wind": null
     }
   ]

@@ -167,7 +167,13 @@ def parse_performance(after_ca):
                 attempt_values.append(token_clean.replace(',', '.'))
         elif re.match(r'^(\d+)$', token_clean):
             val = int(token_clean)
-            if 20 <= val <= 9999:
+            # Skip year-of-birth values (1900-2010) — these are NOT performances
+            if 20 <= val <= 89:
+                attempt_values.append(token_clean)
+            elif 1900 <= val <= 2099:
+                # Likely a year of birth, skip
+                pass
+            elif val >= 10000:
                 attempt_values.append(token_clean)
 
     if len(attempt_values) >= 3:
@@ -259,6 +265,9 @@ def detect_event(lines, line_idx):
         return None
     if 'LLOC' in line and 'CARRER' in line and 'DORSAL' in line:
         return None
+    # Skip column header lines (e.g., "LLOC LLIC ATLETA 60m.t. Alçada Pes Llargada TOTAL")
+    if 'LLOC' in line and 'ATLETA' in line:
+        return None
 
     event_patterns = [
         r'\d+(?:\.\d+)?\s*m(?:etres)?\.?\s+llisos?\s+\w+',
@@ -313,21 +322,56 @@ def is_cg_tarragona(before_ca):
     return False  # Handled by not matching "CG TARRAGONA" in the regex
 
 
+def is_wind_line(next_line):
+    """Check if a line is a pure wind/attempts line (no athlete data).
+    
+    Salt wind lines look like:
+        '                      3,0    3,5    3,1     1,4    3,1     1,9     1,9'
+    (whitespace + decimal values, no position/license/name)
+    
+    Llançament next lines are athlete data:
+        ' 4    CT-13365   VICTOR FONSECA DE ASCO               88   AA CATALUNYA.UBAE  ...'
+    """
+    stripped = next_line.strip()
+    if not stripped:
+        return False
+    # Lines with athlete data patterns are NOT wind lines
+    if re.search(r'CT-?\d+|CL-?\d+|IB-?\d+|LZ-?\d+', stripped):
+        return False
+    if re.search(r'\b\d{1,2}\.\d{2}\b', stripped):
+        # Contains a time like "1.00,08" — athlete data
+        return False
+    # Check if line is mostly whitespace + numbers (wind/attempts line)
+    tokens = stripped.split()
+    if not tokens:
+        return False
+    # A wind line should be 80%+ numeric tokens
+    numeric = sum(1 for t in tokens if re.match(r'^[+-]?\d+[.,]\d+$', t))
+    return numeric >= len(tokens) * 0.8
+
+
 def extract_wind_from_next_line(lines, i):
+    """Extract wind values from the next line if it's a pure wind line (salt events only).
+    
+    Returns None for llançaments (disc, pes, etc.) which have no wind data.
+    For salts, returns the wind values from the line below the athlete's data.
+    """
     if i + 1 >= len(lines):
         return None
     next_line = lines[i + 1].strip()
-    # Wind lines look like: "  -0,2   -1,2   2,7    0,4    0,5    -0,1"
-    # Match lines that are only decimals/X/-
-    tokens = next_line.split()
-    if len(tokens) < 2:
+    if not next_line:
         return None
+    # Check if this is a pure wind line (salt) vs athlete data (llançament)
+    if not is_wind_line(next_line):
+        return None
+    # Extract decimal values from the wind line
+    tokens = next_line.split()
     wind_values = []
     for t in tokens:
         m = re.match(r'^([+-]?\d+[.,]\d+)$', t)
         if m:
             wind_values.append(m.group(1).replace(',', '.'))
-    return wind_values
+    return wind_values if wind_values else None
 
 
 def extract_wind(stripped_line):
@@ -344,6 +388,25 @@ def extract_wind(stripped_line):
 
 def clean_mark_suffixes(mark_str):
     return re.sub(r'\s+(?:F|f|MMP|RCAT|F/C|f/c|f MMP)$', '', mark_str).strip()
+
+
+def is_llançament(event):
+    """Check if the event is a field throw (llançament) — no wind, multiple attempts."""
+    if not event:
+        return False
+    event_upper = event.upper()
+    # Llançaments: disc, pes, martell, javelina
+    llançament_keywords = ['LLANÇAMENT', 'LLANCAMENT', 'DISC', 'PES', 'MARTELL', 'JAVELINA', 'DARD']
+    return any(kw in event_upper for kw in llançament_keywords)
+
+
+def is_salt(event):
+    """Check if the event is a salt (jump) — has wind per attempt."""
+    if not event:
+        return False
+    event_upper = event.upper()
+    salt_keywords = ['SALT', 'LLARGADA', 'ALÇADA', 'ALCADA', 'PERXA', 'TRIPLE']
+    return any(kw in event_upper for kw in salt_keywords)
 
 
 def extract_athletes(text):
@@ -395,13 +458,100 @@ def extract_athletes(text):
         if cg_check:
             continue
 
-        # Extract name
         athlete_name = extract_name_from_before(before_ca)
+        
+        # Handle CLASSIFICACIÓ format: club line has "CA TARRAGONA" but before_ca is
+        # just a number (position) or year-of-birth with no after_ca
+        # Format:
+        #   MALLA FERRER, BEATRIU        (name line, 2-3 lines above)
+        #   9       ESC.    10,77  ...  1922    (data line with TOTAL at end)
+        #   90 CA TARRAGONA               (club line - current)
+        is_classificacio = False
+        # Check 1: Standard CLASS area (CA line alone, data above)
+        if (not athlete_name or len(athlete_name) < 4) and not after_ca.strip():
+            # Check lines above for CLASSIFICACIÓ structure
+            for lookback in range(1, 4):
+                if i - lookback < 0:
+                    continue
+                prev_line = lines[i - lookback].strip()
+                # Skip data lines with DNS/DQ/NP/RET markers (not actual CLASS data)
+                if re.search(r'\b(?:N\.P\.|NP|DNS|DNF|RET|DQ|NULS)', prev_line, re.IGNORECASE):
+                    continue
+                # Find 3-4 digit numbers in the line
+                all_nums = re.findall(r'\b(\d{3,4})\b', prev_line)
+                if not all_nums or len(prev_line) <= 30:
+                    continue
+                # Use the LARGEST 3-4 digit number (real total, not points-behind like -722)
+                total_points = str(max(int(x) for x in all_nums))
+                # Extract name from the line before the data line
+                name_line = lines[i - lookback - 1].strip() if i - lookback - 1 >= 0 else ''
+                if name_line and ',' in name_line:
+                    name_parts = name_line.split(',', 1)
+                    athlete_name = f"{name_parts[1].strip()} {name_parts[0].strip()}"
+                else:
+                    athlete_name = name_line
+                if athlete_name and len(athlete_name) >= 4:
+                    performance = total_points
+                    is_classificacio = True
+                    after_clean = total_points
+                    # Find CLASSIFICACIÓ header above to determine combined event name
+                    for hdr_lb in range(lookback + 3, min(lookback + 80, i)):
+                        if i - hdr_lb < 0:
+                            break
+                        hdr_line = lines[i - hdr_lb].strip()
+                        if 'CLASSIFICACI' in hdr_line or 'CLASSIFICACIO' in hdr_line.upper():
+                            current_event = hdr_line
+                            break
+                    if not current_event or ('CLASSIFICACI' not in current_event and 'CLASSIFICACIO' not in current_event.upper()):
+                        current_event = "CLASSIFICACIÓ PROVES COMBINADES"
+                break
+        
+        # Check 2: Multi-line CLASS area (CA line has data fragment, total is below)
+        if not is_classificacio and after_ca.strip() and re.match(r'^\d+[\s\d]*$', after_ca.strip()[:10]):
+            # Check if we're in a CLASSIFICACIÓ section (look for header above)
+            for hdr_lb in range(3, min(80, i)):
+                if i - hdr_lb < 0:
+                    break
+                hdr_line = lines[i - hdr_lb].strip()
+                if 'CLASSIFICACI' in hdr_line or 'CLASSIFICACIO' in hdr_line.upper():
+                    current_event = hdr_line
+                    # Scan forward for the TOTAL within next 15 lines
+                    for fwd in range(1, 15):
+                        if i + fwd >= len(lines):
+                            break
+                        fwd_line = lines[i + fwd].strip()
+                        all_nums = re.findall(r'\b(\d{3,4})\b', fwd_line)
+                        if all_nums and len(fwd_line) > 30:
+                            total_points = all_nums[-1]
+                            performance = total_points
+                            is_classificacio = True
+                            after_clean = total_points
+                            # Extract name from before_ca
+                            if ',' in before_ca:
+                                name_parts = before_ca.split(',', 1)
+                                athlete_name = f"{name_parts[1].strip()} {name_parts[0].strip()}"
+                            athlete_name = re.sub(r'\b\d{2,4}\b', '', athlete_name).strip()
+                            athlete_name = re.sub(r'\s+CL\d+\s*', '', athlete_name).strip()
+                            break
+                    break
+        
         if not athlete_name or len(athlete_name) < 4:
             continue
 
         # Use wind: from athlete's own line if present, else from current series wind
         wind = wind_on_line if wind_on_line is not None else current_wind
+
+        # For CLASSIFICACIÓ entries, skip regular performance parsing
+        if is_classificacio:
+            results.append({
+                'athlete_name': athlete_name,
+                'athlete_dob': '',
+                'athlete_id': '',
+                'discipline': current_event or '',
+                'performance': performance,
+                'wind': wind,
+            })
+            continue
 
         # Remove VENT suffix from after_ca so it doesn't interfere with performance parsing
         after_clean = re.sub(r'\s*VENT:\s*[+-]?\s*\d+[.,]\d+|\s*VENT:\s*[+-]?\s*Nul', '', after_ca, flags=re.IGNORECASE).strip()
@@ -412,8 +562,12 @@ def extract_athletes(text):
         # For field/jump events with attempts, parse performance and get attempt values
         performance, attempt_values = parse_performance(after_clean)
 
-        # For jumps/throws: extract wind from next line (wind values per attempt)
+        # Determine event type for proper handling
+        is_lanca = is_llançament(current_event)
+        is_s = is_salt(current_event)
+
         if attempt_values and performance:
+            # Extract wind from next line (for salts only — llançaments have no wind)
             wind_line_values = extract_wind_from_next_line(lines, i)
             if wind_line_values:
                 # Find the best valid attempt and get its wind
@@ -457,6 +611,20 @@ def extract_athletes(text):
         if not performance:
             continue
 
+        # Llançaments and salts: output one result per valid attempt
+        if (is_lanca or is_s) and attempt_values:
+            for idx, a in enumerate(attempt_values):
+                if re.match(r'^\d+\.?\d*$', a):
+                    results.append({
+                        'athlete_name': athlete_name,
+                        'athlete_dob': '',
+                        'athlete_id': '',
+                        'discipline': current_event or '',
+                        'performance': a,
+                        'wind': None if is_lanca else wind,
+                    })
+            continue
+
         results.append({
             'athlete_name': athlete_name,
             'athlete_dob': '',
@@ -470,8 +638,18 @@ def extract_athletes(text):
 
 
 def deduplicate_results(results):
-    groups = {}
+    # Separate llançament/salt attempts (one per valid attempt, no dedup) from other events
+    multi_results = []
+    other_results = []
     for r in results:
+        if is_llançament(r['discipline']) or is_salt(r['discipline']):
+            multi_results.append(r)
+        else:
+            other_results.append(r)
+
+    # Deduplicate non-llançament results
+    groups = {}
+    for r in other_results:
         key = (r['athlete_name'].upper(), r['discipline'].upper())
         if key not in groups:
             groups[key] = []
@@ -492,6 +670,15 @@ def deduplicate_results(results):
             unique.append(best)
         elif without_result:
             unique.append(without_result[0])
+
+    # For llançaments and salts: deduplicate by (athlete, discipline, performance) to remove
+    # duplicate attempts from different extraction paths, but keep all unique attempt values
+    seen = set()
+    for r in multi_results:
+        dkey = (r['athlete_name'].upper(), r['discipline'].upper(), r['performance'])
+        if dkey not in seen:
+            seen.add(dkey)
+            unique.append(r)
 
     return unique
 
@@ -534,6 +721,11 @@ def process_pdf(pdf_path, json_dir, url):
         valid.append(a)
 
     athletes = valid
+
+    # Don't write JSON if no valid results
+    if not athletes:
+        print(f"SKIPPED: No valid CA Tarragona results", file=sys.stderr)
+        return []
 
     output = {
         'event_name': header['event_name'],

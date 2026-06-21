@@ -2,7 +2,7 @@
   "event_name": "Campionat Catalunya Clubs Sub14 AL - Grup B - Pista de Atletismo Vilanova i la Geltrú",
   "event_date": "23/05/2026",
   "event_location": "Vilanova i la Geltrú",
-  "total_results": 29,
+  "total_results": 43,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/05/resultat-20260523-catclubsbsub14vilanova.pdf",
   "results": [
     {
@@ -81,9 +81,33 @@
       "athlete_name": "BIEL AMORES LLAVERIAS",
       "athlete_dob": "7/10/2013",
       "athlete_id": "CAT-3844274",
+      "performance": "3.68",
+      "discipline": "Llargada masculina",
+      "wind": "-2.1"
+    },
+    {
+      "athlete_name": "BIEL AMORES LLAVERIAS",
+      "athlete_dob": "7/10/2013",
+      "athlete_id": "CAT-3844274",
       "performance": "3.83",
       "discipline": "Llargada masculina",
       "wind": "-0.7"
+    },
+    {
+      "athlete_name": "BIEL AMORES LLAVERIAS",
+      "athlete_dob": "7/10/2013",
+      "athlete_id": "CAT-3844274",
+      "performance": "3.79",
+      "discipline": "Llargada masculina",
+      "wind": "-1.1"
+    },
+    {
+      "athlete_name": "NIL TORRES PRATS",
+      "athlete_dob": "5/10/2014",
+      "athlete_id": "CL7611",
+      "performance": "9.20",
+      "discipline": "Triple salt masculí",
+      "wind": null
     },
     {
       "athlete_name": "NIL TORRES PRATS",
@@ -94,11 +118,43 @@
       "wind": null
     },
     {
+      "athlete_name": "NIL TORRES PRATS",
+      "athlete_dob": "5/10/2014",
+      "athlete_id": "CL7611",
+      "performance": "9.24",
+      "discipline": "Triple salt masculí",
+      "wind": null
+    },
+    {
       "athlete_name": "KILIAN PEDROL ESPINOSA",
       "athlete_dob": "24/2/2013",
       "athlete_id": "CL7676",
       "performance": "8.57",
       "discipline": "Pes masculí",
+      "wind": null
+    },
+    {
+      "athlete_name": "KILIAN PEDROL ESPINOSA",
+      "athlete_dob": "24/2/2013",
+      "athlete_id": "CL7676",
+      "performance": "7.82",
+      "discipline": "Pes masculí",
+      "wind": null
+    },
+    {
+      "athlete_name": "KILIAN PEDROL ESPINOSA",
+      "athlete_dob": "24/2/2013",
+      "athlete_id": "CL7676",
+      "performance": "7.63",
+      "discipline": "Pes masculí",
+      "wind": null
+    },
+    {
+      "athlete_name": "ANTONIO BALAZOTE",
+      "athlete_dob": "1/5/2014",
+      "athlete_id": "CL11067",
+      "performance": "15.91",
+      "discipline": "Martell masculí",
       "wind": null
     },
     {
@@ -123,7 +179,7 @@
       "athlete_id": "CL11660",
       "performance": "12.05",
       "discipline": "80m femenins",
-      "wind": "-1.0"
+      "wind": "-1.8"
     },
     {
       "athlete_name": "BLANCA FRUTOS MATURANA",
@@ -154,6 +210,14 @@
       "athlete_dob": "13/6/2013",
       "athlete_id": "CAT-3724257",
       "performance": "22.41",
+      "discipline": "Martell femení",
+      "wind": null
+    },
+    {
+      "athlete_name": "BLANCA FRUTOS MATURANA",
+      "athlete_dob": "13/6/2013",
+      "athlete_id": "CAT-3724257",
+      "performance": "21.02",
       "discipline": "Martell femení",
       "wind": null
     },
@@ -201,9 +265,25 @@
       "athlete_name": "JULIA DIEZ BERTRAN",
       "athlete_dob": "3/2/2014",
       "athlete_id": "CAT-3790507",
+      "performance": "3.77",
+      "discipline": "Llargada femenina",
+      "wind": "2.2"
+    },
+    {
+      "athlete_name": "JULIA DIEZ BERTRAN",
+      "athlete_dob": "3/2/2014",
+      "athlete_id": "CAT-3790507",
       "performance": "4.15",
       "discipline": "Llargada femenina",
-      "wind": null
+      "wind": "2.0"
+    },
+    {
+      "athlete_name": "JULIA DIEZ BERTRAN",
+      "athlete_dob": "3/2/2014",
+      "athlete_id": "CAT-3790507",
+      "performance": "3.91",
+      "discipline": "Llargada femenina",
+      "wind": "2.4"
     },
     {
       "athlete_name": "LAIA DIAZ AGUILAR",
@@ -211,6 +291,30 @@
       "athlete_id": "CAT-3843749",
       "performance": "8.41",
       "discipline": "Triple salt femení",
+      "wind": "2.6"
+    },
+    {
+      "athlete_name": "LAIA DIAZ AGUILAR",
+      "athlete_dob": "8/10/2013",
+      "athlete_id": "CAT-3843749",
+      "performance": "8.38",
+      "discipline": "Triple salt femení",
+      "wind": "1.7"
+    },
+    {
+      "athlete_name": "LAIA DIAZ AGUILAR",
+      "athlete_dob": "8/10/2013",
+      "athlete_id": "CAT-3843749",
+      "performance": "8.18",
+      "discipline": "Triple salt femení",
+      "wind": "0.5"
+    },
+    {
+      "athlete_name": "ERIKA MARGALLO DEL VALLE",
+      "athlete_dob": "27/11/2014",
+      "athlete_id": "CL15267",
+      "performance": "5.76",
+      "discipline": "Pes femení",
       "wind": null
     },
     {
@@ -222,10 +326,18 @@
       "wind": null
     },
     {
+      "athlete_name": "ERIKA MARGALLO DEL VALLE",
+      "athlete_dob": "27/11/2014",
+      "athlete_id": "CL15267",
+      "performance": "6.32",
+      "discipline": "Pes femení",
+      "wind": null
+    },
+    {
       "athlete_name": "ALBA ESTEVE HOSTALOT",
       "athlete_dob": "10/11/2013",
       "athlete_id": "CL4396",
-      "performance": "19.53",
+      "performance": "13.62",
       "discipline": "Disc femení",
       "wind": null
     },
@@ -233,8 +345,8 @@
       "athlete_name": "ALBA ESTEVE HOSTALOT",
       "athlete_dob": "10/11/2013",
       "athlete_id": "CL4396",
-      "performance": "15.71",
-      "discipline": "Javelina femenina",
+      "performance": "19.53",
+      "discipline": "Disc femení",
       "wind": null
     }
   ]

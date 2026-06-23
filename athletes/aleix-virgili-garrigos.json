@@ -1,0 +1,40 @@
+{
+  "athlete_name": "ALEIX VIRGILI GARRIGOS",
+  "athlete_id": "CL1090",
+  "athlete_dob": "8/2/2012",
+  "total_results": 2,
+  "name_variants_found": [
+    "3 25 (t) Aleix Virgili Garrigos BM",
+    "8 154 (t) Aleix Virgili Garrigos BM"
+  ],
+  "license_variants_found": [
+    "CL1090"
+  ],
+  "source_files_count": 2,
+  "results": [
+    {
+      "event_name": "Campionat Territorial Sub10, Sub12, Sub14 i Sub16",
+      "event_date": "24/04/2021",
+      "event_location": "Club                                                Lic",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210424-cnatterritorialtarragona.pdf",
+      "athlete_name": "8 154 (t) Aleix Virgili Garrigos BM",
+      "athlete_dob": "08/02/2012",
+      "athlete_id": "CL1090",
+      "discipline": "Longitud S10 MASC. AL",
+      "performance": "3.00",
+      "wind": null
+    },
+    {
+      "event_name": "Campionat Catalunya Clubs Sub10 Masculí",
+      "event_date": "23/05/2021",
+      "event_location": "Club                                                Lic",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/05/resultat-20210523-catclubsalsub10.pdf",
+      "athlete_name": "3 25 (t) Aleix Virgili Garrigos BM",
+      "athlete_dob": "08/02/2012",
+      "athlete_id": "CL1090",
+      "discipline": "1.000m Marxa MASC.",
+      "performance": "6:20.37",
+      "wind": null
+    }
+  ]
+}

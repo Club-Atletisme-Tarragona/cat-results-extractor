@@ -1,0 +1,40 @@
+{
+  "athlete_name": "SOFIA FERNANDEZ ORTEGA",
+  "athlete_id": "CL7631",
+  "athlete_dob": "12/7/2010",
+  "total_results": 2,
+  "name_variants_found": [
+    "24 259 (t) Sofia Fernandez Ortega IF",
+    "6 83 (t) Sofia Fernandez Ortega IF"
+  ],
+  "license_variants_found": [
+    "CL7631"
+  ],
+  "source_files_count": 2,
+  "results": [
+    {
+      "event_name": "Control Gener 1",
+      "event_date": "15/01/2022",
+      "event_location": "Club                                                Lic",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2022/01/resultat-20220115-controlgener1cambrils.pdf",
+      "athlete_name": "24 259 (t) Sofia Fernandez Ortega IF",
+      "athlete_dob": "12/07/2010",
+      "athlete_id": "CL7631",
+      "discipline": "Longitud S14 FEM. AL",
+      "performance": "2.84",
+      "wind": null
+    },
+    {
+      "event_name": "Control Gener 3",
+      "event_date": "29/01/2022",
+      "event_location": "Club                                               Lic",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2022/01/resultat-20220129-controlgener3cambrils.pdf",
+      "athlete_name": "6 83 (t) Sofia Fernandez Ortega IF",
+      "athlete_dob": "12/07/2010",
+      "athlete_id": "CL7631",
+      "discipline": "60m S14 FEM. AL",
+      "performance": "10.77",
+      "wind": "+2.1"
+    }
+  ]
+}

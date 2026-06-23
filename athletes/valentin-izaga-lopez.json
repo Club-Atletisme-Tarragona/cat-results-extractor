@@ -1,0 +1,53 @@
+{
+  "athlete_name": "VALENTIN IZAGA LOPEZ",
+  "athlete_id": "CL8922",
+  "athlete_dob": "9/11/1972",
+  "total_results": 3,
+  "name_variants_found": [
+    "2 359 (t) Valentin Izaga Lopez",
+    "4 83 (t) Valentin Izaga Lopez",
+    "8 13 (t) Valentin Izaga Lopez 7"
+  ],
+  "license_variants_found": [
+    "CL8922"
+  ],
+  "source_files_count": 3,
+  "results": [
+    {
+      "event_name": "Campionat de Catalunya de Clubs \"B\" Masculins en Pista Coberta - Campionat de Catalunya de Clubs \"B\" Masculins en Pista Coberta",
+      "event_date": "08/01/2023",
+      "event_location": "60m MASC. PC",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2023/01/resultat-20230108-catclubsbpcsabadell.pdf",
+      "athlete_name": "8 13 (t) Valentin Izaga Lopez 7",
+      "athlete_dob": "09/11/1972",
+      "athlete_id": "CL8922",
+      "discipline": "3.000m MASC. PC",
+      "performance": "53.80",
+      "wind": null
+    },
+    {
+      "event_name": "Control Gener 1 - Pista de Atletismo de Camp Clar, 14 enero 2023",
+      "event_date": "14/01/2023",
+      "event_location": "Club                                           Lic",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2023/01/resultat-20230114-controlgener1tarragona.pdf",
+      "athlete_name": "2 359 (t) Valentin Izaga Lopez",
+      "athlete_dob": "09/11/1972",
+      "athlete_id": "CL8922",
+      "discipline": "1.500m Abs MASC. AL",
+      "performance": "4:35.63",
+      "wind": null
+    },
+    {
+      "event_name": "Campionat de Catalunya Màster Individual i Relleus en Pista Coberta - Campionat de Catalunya Màster Individual i Relleus en Pista Coberta",
+      "event_date": "19/02/2023",
+      "event_location": "Club                                                 Lic",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2023/02/resultat-20230219-catmasterpcsabadell.pdf",
+      "athlete_name": "4 83 (t) Valentin Izaga Lopez",
+      "athlete_dob": "09/11/1972",
+      "athlete_id": "CL8922",
+      "discipline": "800m MASC. PC 50-54",
+      "performance": "17.73",
+      "wind": null
+    }
+  ]
+}

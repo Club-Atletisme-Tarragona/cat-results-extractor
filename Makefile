@@ -1,4 +1,4 @@
-.PHONY: help process/all extract/remote extract
+.PHONY: help process/all extract/remote extract athletes
 
 help:
 	@echo "Cat Results Extractor - Makefile Utilities"
@@ -7,9 +7,13 @@ help:
 	@echo "  make process/all              Process all PDFs from federació XLS"
 	@echo "  make extract/remote URL=<>     Download and extract a remote PDF"
 	@echo "  make extract FILE=<>           Extract from a local PDF"
+	@echo "  make athletes                  Aggregate all athlete results into per-athlete JSONs"
 
 process/all:
 	python3 process_all.py
+
+athletes:
+	python3 scripts/aggregate_athletes.py
 
 extract/remote:
 ifndef URL

@@ -1,0 +1,54 @@
+{
+  "athlete_name": "ALEJANDRO CRUSET BOSCH",
+  "athlete_id": "CT25705",
+  "athlete_dob": "1/1/2001",
+  "total_results": 3,
+  "name_variants_found": [
+    "4 167 (t) Alex Cruset Bosch LM",
+    "6 42 (t) Alex Cruset Bosch LM",
+    "6 5 Alex Cruset Bosch 2"
+  ],
+  "license_variants_found": [
+    "CL25705",
+    "CT25705"
+  ],
+  "source_files_count": 3,
+  "results": [
+    {
+      "event_name": "Control Absolut en Pista Coberta (4a. Jornada) - Control Absolut en Pista Coberta (4a. Jornada)",
+      "event_date": "14/01/2017",
+      "event_location": "Club                                             Lic",
+      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20170114-controlabsolutpc.pdf",
+      "athlete_name": "6 42 (t) Alex Cruset Bosch LM",
+      "athlete_dob": "01/01/2001",
+      "athlete_id": "CL25705",
+      "discipline": "200m MASC. PC",
+      "performance": "25.01",
+      "wind": null
+    },
+    {
+      "event_name": "6a. Jornada Control Absolut Pista Coberta - 6a. Jornada Control Absolut Pista Coberta",
+      "event_date": "22/01/2017",
+      "event_location": "Club                                             Lic",
+      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20170122-controlabsolutpc.pdf",
+      "athlete_name": "4 167 (t) Alex Cruset Bosch LM",
+      "athlete_dob": "01/01/2001",
+      "athlete_id": "CL25705",
+      "discipline": "400m MASC. PC",
+      "performance": "54.15",
+      "wind": null
+    },
+    {
+      "event_name": "",
+      "event_date": "06/05/2018",
+      "event_location": "Club                                              Lic",
+      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20180506-catclubsfinalbsabadell.pdf",
+      "athlete_name": "6 5 Alex Cruset Bosch 2",
+      "athlete_dob": "01/01/2001",
+      "athlete_id": "CT25705",
+      "discipline": "Pes (4kg) FEM. AL",
+      "performance": "51.95",
+      "wind": null
+    }
+  ]
+}

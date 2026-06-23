@@ -14,6 +14,8 @@ PAT_SEASON_DIR = re.compile(r"^20\d{2}$")
 PAT_FILENAME_DATE = re.compile(r"resultat-(\d{4})\d{4}-", re.IGNORECASE)
 PAT_EVENT_DATE = re.compile(r"/(\d{4})$")
 PAT_URL_YEAR = re.compile(r"(20\d{2})")
+PAT_DATE_PARTS = re.compile(r"^(\d{1,2})/(\d{1,2})/(\d{4})$")
+PAT_ISO_DATE = re.compile(r"^(\d{4})-(\d{1,2})-(\d{1,2})$")
 
 MIN_YEAR = 1990
 MAX_YEAR = 2030
@@ -27,8 +29,27 @@ def classify_event(event_name: str) -> str | None:
     return None
 
 
+def normalize_event_date(event_date: str) -> str:
+    value = event_date.strip()
+    if not value:
+        return value
+
+    iso_match = PAT_ISO_DATE.match(value)
+    if iso_match:
+        year, month, day = iso_match.groups()
+        return f"{int(day):02d}/{int(month):02d}/{year}"
+
+    parts_match = PAT_DATE_PARTS.match(value)
+    if parts_match:
+        day, month, year = parts_match.groups()
+        return f"{int(day):02d}/{int(month):02d}/{year}"
+
+    return value
+
+
 def year_from_event_date(event_date: str) -> str | None:
-    match = PAT_EVENT_DATE.search(event_date.strip())
+    normalized = normalize_event_date(event_date)
+    match = PAT_EVENT_DATE.search(normalized)
     if not match:
         return None
     year = int(match.group(1))
@@ -114,7 +135,7 @@ def build_campionats(root: Path, scan_dirs: list[str]) -> tuple[dict, dict]:
             stats["unknown_year_files"].append(str(path))
 
         event_name = data.get("event_name", "")
-        event_date = data.get("event_date", "")
+        event_date = normalize_event_date(data.get("event_date", ""))
         event_src = data.get("event_src", "")
 
         for result in data.get("results", []):

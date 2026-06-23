@@ -1,0 +1,40 @@
+{
+  "athlete_name": "(E) MELISSA NOEMIE GOMIS (F)",
+  "athlete_id": "CT103",
+  "athlete_dob": "19/3/1996",
+  "total_results": 2,
+  "name_variants_found": [
+    "5 209 (e) Mélissa Noemie Gomis (f) SF",
+    "5 486 (e) Mélissa Noemie Gomis"
+  ],
+  "license_variants_found": [
+    "CT103"
+  ],
+  "source_files_count": 2,
+  "results": [
+    {
+      "event_name": "Control Absolut en Pista Coberta (6a. Jornada) - Control Absolut en Pista Coberta (6a. Jornada)",
+      "event_date": "19/01/2020",
+      "event_location": "Club                                            Lic",
+      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20200119-controlabsolutpcsabadell.pdf",
+      "athlete_name": "5 486 (e) Mélissa Noemie Gomis",
+      "athlete_dob": "19/03/1996",
+      "athlete_id": "CT103",
+      "discipline": "1.500m FEM. PC",
+      "performance": "9.38",
+      "wind": null
+    },
+    {
+      "event_name": "44è Campionat de Catalunya Absolut en Pista Coberta (-3.000 m.ll.) - 44è Campionat de Catalunya Absolut en Pista Coberta (-3.000 m.ll.)",
+      "event_date": "09/02/2020",
+      "event_location": "Semifinal",
+      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20200209-catabsolutpcsabadell.pdf",
+      "athlete_name": "5 209 (e) Mélissa Noemie Gomis (f) SF",
+      "athlete_dob": "19/03/1996",
+      "athlete_id": "CT103",
+      "discipline": "1.500m FEM. PC",
+      "performance": "9.44",
+      "wind": null
+    }
+  ]
+}

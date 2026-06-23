@@ -1,0 +1,40 @@
+{
+  "athlete_name": "(E) CAMILA ANTONELLA RETAMAL PLAZA",
+  "athlete_id": "CL11330",
+  "athlete_dob": "25/8/2005",
+  "total_results": 2,
+  "name_variants_found": [
+    "2 128 (e) (t) Camila Antonella Retamal Plaza",
+    "9 237 (e) (t) Camila Antonella Retamal Plaza"
+  ],
+  "license_variants_found": [
+    "CL11330"
+  ],
+  "source_files_count": 2,
+  "results": [
+    {
+      "event_name": "Control Pista Coberta Sub20 - Sub18 - Control Pista Coberta Sub20 - Sub18",
+      "event_date": "20/01/2023",
+      "event_location": "Club                                             Lic",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2023/01/resultat-20230120-controlsub1820pcsabadell.pdf",
+      "athlete_name": "9 237 (e) (t) Camila Antonella Retamal Plaza",
+      "athlete_dob": "25/08/2005",
+      "athlete_id": "CL11330",
+      "discipline": "800m FEM. PC",
+      "performance": "59.11",
+      "wind": null
+    },
+    {
+      "event_name": "Control Primavera - Estadio Joan Serrahima, 2 abril 2023",
+      "event_date": "02/04/2023",
+      "event_location": "Club                                               Lic",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2023/04/resultat-20230402-controlprimaveraserrahima.pdf",
+      "athlete_name": "2 128 (e) (t) Camila Antonella Retamal Plaza",
+      "athlete_dob": "25/08/2005",
+      "athlete_id": "CL11330",
+      "discipline": "Javelina (800g) MASC.",
+      "performance": "52.68",
+      "wind": "-6.7"
+    }
+  ]
+}

@@ -1613,9 +1613,11 @@ def _find_catt_old_format(lines, sec_start, sec_end, is_in_sumario=None):
     # Strategy 1: Find lines with position + CATT/CA Tarragona (formats 1 & 2)
     anchor_pattern = re.compile(r'^\s*(\d+)\s+\d+\s+(?:CATT|CA\s+Tarragona)')
     
-    # Strategy 2: Find SUMARIO format - lines with just club name (not CATT, just club full name)
-    # Also match inline SUMARI format where CATT+results may follow on next line
-    club_name_pattern = re.compile(r'^\s*(\d+)\s+\d+\s+(?:CA\s+Tarragona|CA\s+Granollers|CA\s+Vic|JA\s+Sabadell|GEiE\s+Giron[íaà]|Barcelona\s+At\.|UA\s+Terrassa|UA\s+Barber[àá]|CAVB|CAGB|BCNB|UABB|UATB|GEEG|JASB)(?:\s*$|\s+)')
+    # Strategy 2 REMOVED: Previously matched ALL club names (CA Tarragona, CA Granollers,
+    # CA Vic, JA Sabadell, GEiE Girona, etc.) causing cross-contamination where results for
+    # athletes from those clubs were extracted into CATT athlete files.
+    # Now only Strategy 1 (CATT/CA Tarragona anchor) and Strategy 3 (Conersys) are used.
+    club_name_pattern = None
     
     # Strategy 3: Conersys format - position + CA Tarragona + CATT (no dorsal between pos and club)
     # Pattern: "5          CA Tarragona                        CATT"

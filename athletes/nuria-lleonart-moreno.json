@@ -1,0 +1,40 @@
+{
+  "athlete_name": "NURIA LLEONART MORENO",
+  "athlete_id": "CL3306",
+  "athlete_dob": "17/6/2005",
+  "total_results": 2,
+  "name_variants_found": [
+    "1 119 (t) Nuria Lleonart Moreno LF",
+    "5 238 (t) Nuria Lleonart Moreno LF"
+  ],
+  "license_variants_found": [
+    "CL3306"
+  ],
+  "source_files_count": 2,
+  "results": [
+    {
+      "event_name": "Control Gener",
+      "event_date": "31/01/2021",
+      "event_location": "Club                                                   Lic",
+      "event_src": "http://fcatletisme.cat/wp-content/uploads/2021/02/resultat-20210131-controlgenerreus.pdf",
+      "athlete_name": "1 119 (t) Nuria Lleonart Moreno LF",
+      "athlete_dob": "17/06/2005",
+      "athlete_id": "CL3306",
+      "discipline": "Peso (4kg) MASC. S16 AL",
+      "performance": "9.85",
+      "wind": null
+    },
+    {
+      "event_name": "Control Febrer 1",
+      "event_date": "07/02/2021",
+      "event_location": "Club                                                 Lic",
+      "event_src": "http://fcatletisme.cat/wp-content/uploads/2021/02/resultat-20210207-controlfebrer1reus.pdf",
+      "athlete_name": "5 238 (t) Nuria Lleonart Moreno LF",
+      "athlete_dob": "17/06/2005",
+      "athlete_id": "CL3306",
+      "discipline": "60m Abs FEM. AL",
+      "performance": "9.83",
+      "wind": "-1.9"
+    }
+  ]
+}

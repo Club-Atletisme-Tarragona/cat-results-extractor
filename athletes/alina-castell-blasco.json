@@ -1,0 +1,67 @@
+{
+  "athlete_name": "ALINA CASTELL BLASCO",
+  "athlete_id": "CT466",
+  "athlete_dob": "10/5/2002",
+  "total_results": 4,
+  "name_variants_found": [
+    "1 285 (t) Alina Castell Blasco JF",
+    "1 472 (t) Alina Castell Blasco",
+    "2 285 (t) Alina Castell Blasco JF",
+    "3 226 Alina Castell Blasco JF"
+  ],
+  "license_variants_found": [
+    "CL27317",
+    "CT466"
+  ],
+  "source_files_count": 3,
+  "results": [
+    {
+      "event_name": "Control Febrer 1",
+      "event_date": "01/02/2020",
+      "event_location": "Club                                                  Lic",
+      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20200201-controlfebrertarragona.pdf",
+      "athlete_name": "1 285 (t) Alina Castell Blasco JF",
+      "athlete_dob": "10/05/2002",
+      "athlete_id": "CL27317",
+      "discipline": "60m Abs FEM. AL",
+      "performance": "8.68",
+      "wind": "-1.9"
+    },
+    {
+      "event_name": "Control Febrer 1",
+      "event_date": "01/02/2020",
+      "event_location": "Club                                                  Lic",
+      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20200201-controlfebrertarragona.pdf",
+      "athlete_name": "2 285 (t) Alina Castell Blasco JF",
+      "athlete_dob": "10/05/2002",
+      "athlete_id": "CL27317",
+      "discipline": "200m Abs FEM. AL",
+      "performance": "27.66",
+      "wind": "+0.5"
+    },
+    {
+      "event_name": "Control Absolut en pista coberta (8a Jornada) - Sabadell (Pista Coberta de Catalunya, 22 febrero 2020",
+      "event_date": "22/02/2020",
+      "event_location": "Club                                              Lic",
+      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20200222-controlabsolutpcsabadell.pdf",
+      "athlete_name": "1 472 (t) Alina Castell Blasco",
+      "athlete_dob": "10/05/2002",
+      "athlete_id": "CL27317",
+      "discipline": "400m FEM. PC",
+      "performance": "03.67",
+      "wind": null
+    },
+    {
+      "event_name": "Control Febrer 1",
+      "event_date": "07/02/2021",
+      "event_location": "Club                                                 Lic",
+      "event_src": "http://fcatletisme.cat/wp-content/uploads/2021/02/resultat-20210207-controlfebrer1reus.pdf",
+      "athlete_name": "3 226 Alina Castell Blasco JF",
+      "athlete_dob": "10/05/2002",
+      "athlete_id": "CT466",
+      "discipline": "400m Abs FEM. AL",
+      "performance": "1:06.42",
+      "wind": null
+    }
+  ]
+}

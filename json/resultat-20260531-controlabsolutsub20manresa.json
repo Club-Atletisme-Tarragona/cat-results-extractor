@@ -6,20 +6,22 @@
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/06/resultat-20260531-controlabsolutsub20manresa.pdf",
   "results": [
     {
-      "athlete_name": "NORA MONTOLIO AMARO",
-      "athlete_dob": "5/2/2010",
-      "athlete_id": "CAT-3895023",
-      "performance": "1:05.54",
-      "discipline": "400m vallas Mujeres",
-      "wind": null
-    },
-    {
       "athlete_name": "DIDAC COMERMA GUASCH",
       "athlete_dob": "4/7/2000",
       "athlete_id": "CAT-3713961",
       "performance": "12.11",
       "discipline": "100m Hombres",
-      "wind": "-2.4"
+      "wind": "-2.4",
+      "position": null
+    },
+    {
+      "athlete_name": "NORA MONTOLIO AMARO",
+      "athlete_dob": "5/2/2010",
+      "athlete_id": "CAT-3895023",
+      "performance": "1:05.54",
+      "discipline": "400m vallas Mujeres",
+      "wind": null,
+      "position": null
     }
   ]
 }

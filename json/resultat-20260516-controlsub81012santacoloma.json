@@ -2,7 +2,7 @@
   "event_name": "4t Control Sub8-10-12",
   "event_date": "16/05/2026",
   "event_location": "Santa Coloma de Gramenet",
-  "total_results": 18,
+  "total_results": 23,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/05/resultat-20260516-controlsub81012santacoloma.pdf",
   "results": [
     {
@@ -11,7 +11,35 @@
       "athlete_id": "CAT-3789595",
       "performance": "5.58",
       "discipline": "Peso (2kg) Hombres AL U10M",
-      "wind": null
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "POL VILANOVA ANGLES",
+      "athlete_dob": "1/3/2017",
+      "athlete_id": "CAT-3789595",
+      "performance": "5.49",
+      "discipline": "Peso (2kg) Hombres AL U10M",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "POL VILANOVA ANGLES",
+      "athlete_dob": "1/3/2017",
+      "athlete_id": "CAT-3789595",
+      "performance": "5.47",
+      "discipline": "Peso (2kg) Hombres AL U10M",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "KILIAN PASAMONTES DUARTE",
+      "athlete_dob": "26/6/2018",
+      "athlete_id": "CAT-3879736",
+      "performance": "3.51",
+      "discipline": "Peso (2kg) Hombres AL U10M",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "KILIAN PASAMONTES DUARTE",
@@ -19,7 +47,26 @@
       "athlete_id": "CAT-3879736",
       "performance": "5.47",
       "discipline": "Peso (2kg) Hombres AL U10M",
-      "wind": null
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "GERARD BARBER GONZALEZ",
+      "athlete_dob": "24/10/2017",
+      "athlete_id": "CAT-3789597",
+      "performance": "5.07",
+      "discipline": "Peso (2kg) Hombres AL U10M",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "GERARD BARBER GONZALEZ",
+      "athlete_dob": "24/10/2017",
+      "athlete_id": "CAT-3789597",
+      "performance": "5.09",
+      "discipline": "Peso (2kg) Hombres AL U10M",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "GERARD BARBER GONZALEZ",
@@ -27,7 +74,8 @@
       "athlete_id": "CAT-3789597",
       "performance": "5.40",
       "discipline": "Peso (2kg) Hombres AL U10M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "POL VILANOVA ANGLES",
@@ -35,7 +83,8 @@
       "athlete_id": "CAT-3789595",
       "performance": "1:12.92",
       "discipline": "400 m Hombres U10M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "EDAHI ROIG GUASCH",
@@ -43,7 +92,8 @@
       "athlete_id": "CAT-3789993-A",
       "performance": "1.05",
       "discipline": "Altura Hombres U10M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "GERARD BARBER GONZALEZ",
@@ -51,7 +101,8 @@
       "athlete_id": "CAT-3789597",
       "performance": "3.26",
       "discipline": "Longitud Hombres U10M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "GERARD BARBER GONZALEZ",
@@ -59,7 +110,8 @@
       "athlete_id": "CAT-3789597",
       "performance": "3.30",
       "discipline": "Longitud Hombres U10M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "EDAHI ROIG GUASCH",
@@ -67,7 +119,8 @@
       "athlete_id": "CAT-3789993",
       "performance": "3.10",
       "discipline": "Longitud Hombres U10M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "EDAHI ROIG GUASCH",
@@ -75,7 +128,8 @@
       "athlete_id": "CAT-3789993",
       "performance": "3.07",
       "discipline": "Longitud Hombres U10M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "EDAHI ROIG GUASCH",
@@ -83,7 +137,8 @@
       "athlete_id": "CAT-3789993",
       "performance": "3.04",
       "discipline": "Longitud Hombres U10M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "KILIAN PASAMONTES DUARTE",
@@ -91,55 +146,8 @@
       "athlete_id": "CAT-3879736",
       "performance": "2.15",
       "discipline": "Longitud Hombres U10M",
-      "wind": null
-    },
-    {
-      "athlete_name": "ROCIO TALAVERA CUADRADO",
-      "athlete_dob": "12/12/2017",
-      "athlete_id": "CAT-3843579",
-      "performance": "3.28",
-      "discipline": "Peso (2kg)Mujeres AL U10F",
-      "wind": null
-    },
-    {
-      "athlete_name": "BERTA GOMIS BARBERA",
-      "athlete_dob": "2/1/2018",
-      "athlete_id": "CAT-3842708",
-      "performance": "1:22.18",
-      "discipline": "400 m Mujeres U10F",
-      "wind": null
-    },
-    {
-      "athlete_name": "ARIA ORTA PALLARES",
-      "athlete_dob": "24/2/2017",
-      "athlete_id": "CAT-3789552",
-      "performance": "1:27.55",
-      "discipline": "400 m Mujeres U10F",
-      "wind": null
-    },
-    {
-      "athlete_name": "ROCIO TALAVERA CUADRADO",
-      "athlete_dob": "12/12/2017",
-      "athlete_id": "CAT-3843579",
-      "performance": "1:34.98",
-      "discipline": "400 m Mujeres U10F",
-      "wind": null
-    },
-    {
-      "athlete_name": "ARIA ORTA PALLARES",
-      "athlete_dob": "24/2/2017",
-      "athlete_id": "CAT-3789552",
-      "performance": "3.07",
-      "discipline": "Longitud Mujeres U10F",
-      "wind": null
-    },
-    {
-      "athlete_name": "ALBA MESEGUE SANCHEZ",
-      "athlete_dob": "7/3/2017",
-      "athlete_id": "CAT-3842695",
-      "performance": "3.03",
-      "discipline": "Longitud Mujeres U10F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ALBA MESEGUE SANCHEZ",
@@ -147,7 +155,62 @@
       "athlete_id": "CAT-3842695",
       "performance": "10.52",
       "discipline": "60m Mujeres AL U10F",
-      "wind": null
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "ROCIO TALAVERA CUADRADO",
+      "athlete_dob": "12/12/2017",
+      "athlete_id": "CAT-3843579",
+      "performance": "3.28",
+      "discipline": "Peso (2kg)Mujeres AL U10F",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "BERTA GOMIS BARBERA",
+      "athlete_dob": "2/1/2018",
+      "athlete_id": "CAT-3842708",
+      "performance": "1:22.18",
+      "discipline": "400 m Mujeres U10F",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "ARIA ORTA PALLARES",
+      "athlete_dob": "24/2/2017",
+      "athlete_id": "CAT-3789552",
+      "performance": "1:27.55",
+      "discipline": "400 m Mujeres U10F",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "ROCIO TALAVERA CUADRADO",
+      "athlete_dob": "12/12/2017",
+      "athlete_id": "CAT-3843579",
+      "performance": "1:34.98",
+      "discipline": "400 m Mujeres U10F",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "ARIA ORTA PALLARES",
+      "athlete_dob": "24/2/2017",
+      "athlete_id": "CAT-3789552",
+      "performance": "3.07",
+      "discipline": "Longitud Mujeres U10F",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "ALBA MESEGUE SANCHEZ",
+      "athlete_dob": "7/3/2017",
+      "athlete_id": "CAT-3842695",
+      "performance": "3.03",
+      "discipline": "Longitud Mujeres U10F",
+      "wind": null,
+      "position": null
     }
   ]
 }

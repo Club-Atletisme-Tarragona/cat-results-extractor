@@ -2,7 +2,7 @@
   "event_name": "Control Velocitat Maig - Pista de Atletismo de Camp Clar",
   "event_date": "02/05/2026",
   "event_location": "Tarragona",
-  "total_results": 17,
+  "total_results": 15,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/05/resultat-20260502-controlvelocitatmaigtarragona.pdf",
   "results": [
     {
@@ -11,7 +11,8 @@
       "athlete_id": "CAT-3895024",
       "performance": "11.60",
       "discipline": "100 m Hombres",
-      "wind": "+1.8"
+      "wind": "+1.8",
+      "position": null
     },
     {
       "athlete_name": "HUGO JULES SAIZ SANTOLARIA",
@@ -19,7 +20,8 @@
       "athlete_id": "CAT-3742956",
       "performance": "11.69",
       "discipline": "100 m Hombres",
-      "wind": "+1.8"
+      "wind": "+1.8",
+      "position": null
     },
     {
       "athlete_name": "JOSEP RAMON ARGILAGA SALVADO",
@@ -27,7 +29,8 @@
       "athlete_id": "CAT-3742971",
       "performance": "13.02",
       "discipline": "100 m Hombres",
-      "wind": "+1.2"
+      "wind": "+1.2",
+      "position": null
     },
     {
       "athlete_name": "BIEL LLIGADAS TURON",
@@ -35,7 +38,8 @@
       "athlete_id": "CL4342",
       "performance": "13.73",
       "discipline": "100 m Hombres",
-      "wind": "+2.3"
+      "wind": "+2.3",
+      "position": null
     },
     {
       "athlete_name": "UNAI OLAYA MINGUEZ",
@@ -43,7 +47,8 @@
       "athlete_id": "CAT-3895024",
       "performance": "23.60",
       "discipline": "200 m Hombres",
-      "wind": "+0.0"
+      "wind": "+0.0",
+      "position": null
     },
     {
       "athlete_name": "IKER RODRIGUEZ BARRIOS",
@@ -51,7 +56,8 @@
       "athlete_id": "CL11327",
       "performance": "23.70",
       "discipline": "200 m Hombres",
-      "wind": "+0.0"
+      "wind": "+0.0",
+      "position": null
     },
     {
       "athlete_name": "JOSEP RAMON ARGILAGA SALVADO",
@@ -59,7 +65,8 @@
       "athlete_id": "CAT-3742971",
       "performance": "27.59",
       "discipline": "200 m Hombres",
-      "wind": "+0.0"
+      "wind": "+0.0",
+      "position": null
     },
     {
       "athlete_name": "MARC MARTI FERNANDEZ",
@@ -67,7 +74,8 @@
       "athlete_id": "CL94395",
       "performance": "36.88",
       "discipline": "300 m Hombres",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "BIEL LLIGADAS TURON",
@@ -75,7 +83,8 @@
       "athlete_id": "CL4342",
       "performance": "44.71",
       "discipline": "300 m Hombres",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ALDARA LINARES ANTELO",
@@ -83,7 +92,8 @@
       "athlete_id": "CAT-3724270",
       "performance": "12.95",
       "discipline": "100 m Mujeres",
-      "wind": "+1.8"
+      "wind": "+1.8",
+      "position": null
     },
     {
       "athlete_name": "AGUSTINA RAMOS RUSSO",
@@ -91,7 +101,8 @@
       "athlete_id": "CL1088",
       "performance": "14.02",
       "discipline": "100 m Mujeres",
-      "wind": "-0.3"
+      "wind": "-0.3",
+      "position": null
     },
     {
       "athlete_name": "CARLA BORRAS VERGES-TAPIRO",
@@ -99,7 +110,8 @@
       "athlete_id": "CAT-3742951",
       "performance": "27.43",
       "discipline": "200 m Mujeres",
-      "wind": "+1.7"
+      "wind": "+1.7",
+      "position": null
     },
     {
       "athlete_name": "DIANA GARCÍA MUR",
@@ -107,7 +119,8 @@
       "athlete_id": "CL14508",
       "performance": "29.84",
       "discipline": "200 m Mujeres",
-      "wind": "+0.5"
+      "wind": "+0.5",
+      "position": null
     },
     {
       "athlete_name": "PILAR FERNANDEZ CARRANZA",
@@ -115,23 +128,8 @@
       "athlete_id": "CAT-3790267",
       "performance": "33.72",
       "discipline": "200 m Mujeres",
-      "wind": "+0.5"
-    },
-    {
-      "athlete_name": "UNAI OLAYA MINGUEZ",
-      "athlete_dob": "27/7/2009",
-      "athlete_id": "CAT-3895024",
-      "performance": "11.60",
-      "discipline": "11:50   300 m Hombres                                                              Final",
-      "wind": "+1.8"
-    },
-    {
-      "athlete_name": "HUGO JULES SAIZ SANTOLARIA",
-      "athlete_dob": "31/1/2005",
-      "athlete_id": "CAT-3742956",
-      "performance": "11.69",
-      "discipline": "11:50   300 m Hombres                                                              Final",
-      "wind": "+1.8"
+      "wind": "+0.5",
+      "position": null
     },
     {
       "athlete_name": "AGUSTINA RAMOS RUSSO",
@@ -139,7 +137,8 @@
       "athlete_id": "CL1088",
       "performance": "47.58",
       "discipline": "300 m Mujeres",
-      "wind": null
+      "wind": null,
+      "position": null
     }
   ]
 }

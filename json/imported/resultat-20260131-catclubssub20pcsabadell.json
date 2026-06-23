@@ -2,7 +2,7 @@
   "event_name": "Campionat de Catalunya de Clubs sub20 ST - Pista coberta de Atletisme de Catalunya - Carme Valero",
   "event_date": "31/01/2026",
   "event_location": "Sabadell (i)",
-  "total_results": 18,
+  "total_results": 34,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/02/resultat-20260131-catclubssub20pcsabadell.pdf",
   "results": [
     {
@@ -11,7 +11,8 @@
       "athlete_id": "CT2935",
       "performance": "1.70",
       "discipline": "Altura Hombres PC",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "SAMUEL MARCOS PEREZ",
@@ -19,15 +20,44 @@
       "athlete_id": "CL90024",
       "performance": "5.89",
       "discipline": "Llargada Homes PC",
-      "wind": null
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "SAMUEL MARCOS PEREZ",
+      "athlete_dob": "1/2/2010",
+      "athlete_id": "CL90024",
+      "performance": "5.75",
+      "discipline": "Llargada Homes PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "SAMUEL MARCOS PEREZ",
+      "athlete_dob": "1/2/2010",
+      "athlete_id": "CL90024",
+      "performance": "5.78",
+      "discipline": "Llargada Homes PC",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "DAVID FERNANDEZ PINEDA",
       "athlete_dob": "18/6/2010",
       "athlete_id": "CL11323",
-      "performance": "11.55",
+      "performance": "11.43",
       "discipline": "Triple Salt Homes PC",
-      "wind": null
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "DAVID FERNANDEZ PINEDA",
+      "athlete_dob": "18/6/2010",
+      "athlete_id": "CL11323",
+      "performance": "11.33",
+      "discipline": "Triple Salt Homes PC",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "LLUC SUBIROS BRASERO",
@@ -35,7 +65,26 @@
       "athlete_id": "CT1186",
       "performance": "4.05",
       "discipline": "Perxa Homes PC",
-      "wind": null
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "PAU ESTEVE HOSTALOT",
+      "athlete_dob": "27/8/2010",
+      "athlete_id": "CL94383",
+      "performance": "6.65",
+      "discipline": "Pes (6kg) Homes PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "PAU ESTEVE HOSTALOT",
+      "athlete_dob": "27/8/2010",
+      "athlete_id": "CL94383",
+      "performance": "6.33",
+      "discipline": "Pes (6kg) Homes PC",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "PAU ESTEVE HOSTALOT",
@@ -43,7 +92,8 @@
       "athlete_id": "CL94383",
       "performance": "7.74",
       "discipline": "Pes (6kg) Homes PC",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "Bernat BARDINA ARTIGAU",
@@ -51,7 +101,8 @@
       "athlete_id": "",
       "performance": "3:49.25",
       "discipline": "4x400m Homes PC",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "Lucas BUJ FUERTES",
@@ -59,7 +110,8 @@
       "athlete_id": "",
       "performance": "3:49.25",
       "discipline": "4x400m Homes PC",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "Ivan FERRER VILLA",
@@ -67,7 +119,8 @@
       "athlete_id": "",
       "performance": "3:49.25",
       "discipline": "4x400m Homes PC",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "Samuel MARCOS PEREZ",
@@ -75,7 +128,8 @@
       "athlete_id": "",
       "performance": "3:49.25",
       "discipline": "4x400m Homes PC",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "AINOA RODRIGUEZ MURILLO",
@@ -83,7 +137,8 @@
       "athlete_id": "CAT-3742948-A",
       "performance": "1.35",
       "discipline": "Alçada Dones PC",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ONA SANSA GARCIA",
@@ -91,7 +146,8 @@
       "athlete_id": "CAT-3743010-A",
       "performance": "3.25",
       "discipline": "Perxa Dones PC",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "NORA MONTOLIO AMARO",
@@ -99,7 +155,53 @@
       "athlete_id": "CAT-3895023",
       "performance": "5.15",
       "discipline": "Llargada Dones PC",
-      "wind": null
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "NORA MONTOLIO AMARO",
+      "athlete_dob": "5/2/2010",
+      "athlete_id": "CAT-3895023",
+      "performance": "4.62",
+      "discipline": "Llargada Dones PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "NORA MONTOLIO AMARO",
+      "athlete_dob": "5/2/2010",
+      "athlete_id": "CAT-3895023",
+      "performance": "5.06",
+      "discipline": "Llargada Dones PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "NORA MONTOLIO AMARO",
+      "athlete_dob": "5/2/2010",
+      "athlete_id": "CAT-3895023",
+      "performance": "4.75",
+      "discipline": "Llargada Dones PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "NORA MONTOLIO AMARO",
+      "athlete_dob": "5/2/2010",
+      "athlete_id": "CAT-3895023",
+      "performance": "4.71",
+      "discipline": "Llargada Dones PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "NORA MONTOLIO AMARO",
+      "athlete_dob": "5/2/2010",
+      "athlete_id": "CAT-3895023",
+      "performance": "4.93",
+      "discipline": "Llargada Dones PC",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "CLAUDIA BOTANCH RIUS",
@@ -107,7 +209,62 @@
       "athlete_id": "CAT-3812320",
       "performance": "10.13",
       "discipline": "Triple Salt Dones PC",
-      "wind": null
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "CLAUDIA BOTANCH RIUS",
+      "athlete_dob": "2/1/2011",
+      "athlete_id": "CAT-3812320",
+      "performance": "9.98",
+      "discipline": "Triple Salt Dones PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "NOA NIN NAVAS",
+      "athlete_dob": "28/8/2009",
+      "athlete_id": "CAT-3742996",
+      "performance": "7.74",
+      "discipline": "Pes (4kg) Dones PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "NOA NIN NAVAS",
+      "athlete_dob": "28/8/2009",
+      "athlete_id": "CAT-3742996",
+      "performance": "7.22",
+      "discipline": "Pes (4kg) Dones PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "NOA NIN NAVAS",
+      "athlete_dob": "28/8/2009",
+      "athlete_id": "CAT-3742996",
+      "performance": "7.67",
+      "discipline": "Pes (4kg) Dones PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "NOA NIN NAVAS",
+      "athlete_dob": "28/8/2009",
+      "athlete_id": "CAT-3742996",
+      "performance": "7.81",
+      "discipline": "Pes (4kg) Dones PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "NOA NIN NAVAS",
+      "athlete_dob": "28/8/2009",
+      "athlete_id": "CAT-3742996",
+      "performance": "7.71",
+      "discipline": "Pes (4kg) Dones PC",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "NOA NIN NAVAS",
@@ -115,7 +272,8 @@
       "athlete_id": "CAT-3742996",
       "performance": "8.07",
       "discipline": "Pes (4kg) Dones PC",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "Diana GARCÍA MUR",
@@ -123,7 +281,8 @@
       "athlete_id": "",
       "performance": "4:14.07",
       "discipline": "4x400m Dones PC",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "Ainoa RODRIGUEZ MURILLO",
@@ -131,7 +290,8 @@
       "athlete_id": "",
       "performance": "4:14.07",
       "discipline": "4x400m Dones PC",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "Noa ANTON PATERNA",
@@ -139,7 +299,8 @@
       "athlete_id": "",
       "performance": "4:14.07",
       "discipline": "4x400m Dones PC",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "Nora MONTOLIO AMARO",
@@ -147,7 +308,8 @@
       "athlete_id": "",
       "performance": "4:14.07",
       "discipline": "4x400m Dones PC",
-      "wind": null
+      "wind": null,
+      "position": null
     }
   ]
 }

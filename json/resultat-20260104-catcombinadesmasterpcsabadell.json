@@ -2,7 +2,7 @@
   "event_name": "Campionat de Catalunya Màster de Proves Combinades en PC - Pista coberta de Atletisme de Catalunya - Carme Valero",
   "event_date": "04/01/2026",
   "event_location": "Sabadell (i)",
-  "total_results": 12,
+  "total_results": 15,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/01/resultat-20260104-catcombinadesmasterpcsabadell.pdf",
   "results": [
     {
@@ -11,7 +11,8 @@
       "athlete_id": "",
       "performance": "11.96",
       "discipline": "60m vallas Hombres Pentatlón Master M60",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "JOSEP MARIA MATEO SANZ",
@@ -19,7 +20,8 @@
       "athlete_id": "",
       "performance": "3:46.17",
       "discipline": "1.000m Hombres Pentatlón Master M60",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "JOSEP MARIA MATEO SANZ",
@@ -27,7 +29,26 @@
       "athlete_id": "",
       "performance": "1.33",
       "discipline": "Altura Hombres Pentatlón Master M60",
-      "wind": null
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "JOSEP MARIA MATEO SANZ",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "",
+      "performance": "7.93",
+      "discipline": "Peso Hombres. Pentatlón Master M60",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "JOSEP MARIA MATEO SANZ",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "",
+      "performance": "7.87",
+      "discipline": "Peso Hombres. Pentatlón Master M60",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "JOSEP MARIA MATEO SANZ",
@@ -35,15 +56,17 @@
       "athlete_id": "",
       "performance": "7.96",
       "discipline": "Peso Hombres. Pentatlón Master M60",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "JOSEP MARIA MATEO SANZ",
       "athlete_dob": "17/11/1964",
       "athlete_id": "",
-      "performance": "4.18",
+      "performance": "4.05",
       "discipline": "Longitud Hombres Pentatlón Master M60",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "JOSEP MARIA MATEO SANZ",
@@ -51,7 +74,8 @@
       "athlete_id": "",
       "performance": "2645",
       "discipline": "Pentathlon Vet. Hombres. PC Master M60",
-      "wind": null
+      "wind": null,
+      "position": 2
     },
     {
       "athlete_name": "GEMMA SOLE BORONAT",
@@ -59,7 +83,8 @@
       "athlete_id": "",
       "performance": "3:07.00",
       "discipline": "800m Mujeres PC Master F55",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "GEMMA SOLE BORONAT",
@@ -67,7 +92,8 @@
       "athlete_id": "",
       "performance": "11.56",
       "discipline": "60m vallas (0,84) Mujeres PC Master F55",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "GEMMA SOLE BORONAT",
@@ -75,15 +101,17 @@
       "athlete_id": "",
       "performance": "1.21",
       "discipline": "Altura Mujeres PC Master F55",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "GEMMA SOLE BORONAT",
       "athlete_dob": "1/11/1967",
       "athlete_id": "",
-      "performance": "3.19",
+      "performance": "3.03",
       "discipline": "Longitud Mujeres PC Master F55",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "GEMMA SOLE BORONAT",
@@ -91,7 +119,17 @@
       "athlete_id": "",
       "performance": "7.68",
       "discipline": "Peso (4kg) Mujeres PC Master F55",
-      "wind": null
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "GEMMA SOLE BORONAT",
+      "athlete_dob": "1/11/1967",
+      "athlete_id": "",
+      "performance": "7.57",
+      "discipline": "Peso (4kg) Mujeres PC Master F55",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "GEMMA SOLE BORONAT",
@@ -99,7 +137,8 @@
       "athlete_id": "",
       "performance": "2795",
       "discipline": "Pentathlón VET.Mujeres. PC Master F55",
-      "wind": null
+      "wind": null,
+      "position": 1
     }
   ]
 }

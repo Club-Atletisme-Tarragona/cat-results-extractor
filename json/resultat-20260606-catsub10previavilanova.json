@@ -2,7 +2,7 @@
   "event_name": "Jornada Prèvia - Campionat de Catalunya Sub10 - Pista de Atletismo Vilanova i la Geltrú",
   "event_date": "06/06/2026",
   "event_location": "Vilanova i la Geltrú",
-  "total_results": 21,
+  "total_results": 17,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/06/resultat-20260606-catsub10previavilanova.pdf",
   "results": [
     {
@@ -11,7 +11,8 @@
       "athlete_id": "CAT-3789595",
       "performance": "1:15.15",
       "discipline": "400m masculins",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "NIL PASCUAL PRATS",
@@ -19,7 +20,8 @@
       "athlete_id": "CAT-3789538",
       "performance": "3:33.78",
       "discipline": "1.000m masculins",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "EDAHI ROIG GUASCH",
@@ -27,7 +29,8 @@
       "athlete_id": "CAT-3789993",
       "performance": "3:34.70",
       "discipline": "1.000m masculins",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "GERARD BARBER GONZALEZ",
@@ -35,7 +38,8 @@
       "athlete_id": "CAT-3789597",
       "performance": "3:39.81",
       "discipline": "1.000m masculins",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "POL VILANOVA ANGLES",
@@ -43,7 +47,8 @@
       "athlete_id": "CAT-3789595-A",
       "performance": "1.07",
       "discipline": "Alçada masculina",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "EDAHI ROIG GUASCH",
@@ -51,7 +56,8 @@
       "athlete_id": "CAT-3789993-A",
       "performance": "1.00",
       "discipline": "Alçada masculina",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "GERARD BARBER GONZALEZ",
@@ -59,7 +65,8 @@
       "athlete_id": "CAT-3789597",
       "performance": "3.37",
       "discipline": "Llargada masculina",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "GERARD BARBER GONZALEZ",
@@ -67,7 +74,8 @@
       "athlete_id": "CAT-3789597",
       "performance": "3.54",
       "discipline": "Llargada masculina",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "GERARD BARBER GONZALEZ",
@@ -75,7 +83,8 @@
       "athlete_id": "CAT-3789597",
       "performance": "3.18",
       "discipline": "Llargada masculina",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "NIL PASCUAL PRATS",
@@ -83,7 +92,8 @@
       "athlete_id": "CAT-3789538",
       "performance": "3.16",
       "discipline": "Llargada masculina",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "MARCOS BARBERO RUBIO",
@@ -91,7 +101,8 @@
       "athlete_id": "CAT-3842729",
       "performance": "6:59.95",
       "discipline": "1.000m marxa masculins",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "BERTA GOMIS BARBERA",
@@ -99,7 +110,8 @@
       "athlete_id": "CAT-3842708",
       "performance": "3:54.35",
       "discipline": "1.000m femenins",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ARIA ORTA PALLARES",
@@ -107,7 +119,8 @@
       "athlete_id": "CAT-3789552",
       "performance": "4:06.93",
       "discipline": "1.000m femenins",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ALBA MESEGUE SANCHEZ",
@@ -115,7 +128,8 @@
       "athlete_id": "CAT-3842695",
       "performance": "2.92",
       "discipline": "Llargada femenina",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ARIA ORTA PALLARES",
@@ -123,39 +137,17 @@
       "athlete_id": "CAT-3789552",
       "performance": "2.61",
       "discipline": "Llargada femenina",
-      "wind": null
-    },
-    {
-      "athlete_name": "GERARD BARBER GONZALEZ",
-      "athlete_dob": "24/10/2017",
-      "athlete_id": "CAT-3789597",
-      "performance": "3.18",
-      "discipline": "Alçada masculina",
-      "wind": null
-    },
-    {
-      "athlete_name": "NIL PASCUAL PRATS",
-      "athlete_dob": "16/3/2017",
-      "athlete_id": "CAT-3789538",
-      "performance": "3.16",
-      "discipline": "Alçada masculina",
-      "wind": null
-    },
-    {
-      "athlete_name": "MARCOS BARBERO RUBIO",
-      "athlete_dob": "8/3/2018",
-      "athlete_id": "CAT-3842729",
-      "performance": "59.95",
-      "discipline": "Pes masculí",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ROCIO TALAVERA CUADRADO",
       "athlete_dob": "12/12/2017",
       "athlete_id": "CAT-3843579",
-      "performance": "10.26",
-      "discipline": "Pes femení",
-      "wind": null
+      "performance": "6:10.26",
+      "discipline": "1.000m marxa femenins",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "MARTINA TORRES PRATS",
@@ -163,15 +155,8 @@
       "athlete_id": "CAT-3844273",
       "performance": "6:12.34",
       "discipline": "1.000m marxa femenins",
-      "wind": null
-    },
-    {
-      "athlete_name": "ROCIO TALAVERA CUADRADO",
-      "athlete_dob": "12/12/2017",
-      "athlete_id": "CAT-3843579-A",
-      "performance": "6:10.26",
-      "discipline": "1.000m marxa femenins",
-      "wind": null
+      "wind": null,
+      "position": null
     }
   ]
 }

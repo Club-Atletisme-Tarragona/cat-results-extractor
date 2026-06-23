@@ -2,7 +2,7 @@
   "event_name": "50è Campionat de Catalunya Absolut ST - Pista coberta de Atletisme de Catalunya - Carme Valero",
   "event_date": "15/02/2026",
   "event_location": "Sabadell (i)",
-  "total_results": 6,
+  "total_results": 10,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/02/resultat-20260215-catabsolutpcsabadell.pdf",
   "results": [
     {
@@ -11,7 +11,8 @@
       "athlete_id": "CAT-3823996",
       "performance": "8.33",
       "discipline": "60m tanques (1,067) Masculí PC",
-      "wind": null
+      "wind": null,
+      "position": 7
     },
     {
       "athlete_name": "BERNAT VERDU GOMEZ",
@@ -19,7 +20,8 @@
       "athlete_id": "CAT-3823996",
       "performance": "8.27",
       "discipline": "60m tanques (1,067) Masculí PC",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "NOA ANTON PATERNA",
@@ -27,7 +29,17 @@
       "athlete_id": "CAT-3742994",
       "performance": "7.81",
       "discipline": "60m Femení PC",
-      "wind": null
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "NOA ANTON PATERNA",
+      "athlete_dob": "20/1/2010",
+      "athlete_id": "CAT-3742994",
+      "performance": "25.36",
+      "discipline": "200m Femení PC",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "SILVIA VICENTE NAVARRETE",
@@ -35,7 +47,8 @@
       "athlete_id": "CT1468",
       "performance": "9.35",
       "discipline": "60m tanques (0,84) Femení PC",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "MARINA TIBAU SENDRA",
@@ -43,15 +56,44 @@
       "athlete_id": "CAT-3742985",
       "performance": "11.00",
       "discipline": "Pes (4kg) Femení PC",
-      "wind": null
+      "wind": null,
+      "position": 5
     },
     {
-      "athlete_name": "NOA ANTON PATERNA",
-      "athlete_dob": "20/1/2010",
-      "athlete_id": "CAT-3742994-A",
-      "performance": "25.36",
-      "discipline": "200m Femení PC",
-      "wind": null
+      "athlete_name": "MARINA TIBAU SENDRA",
+      "athlete_dob": "6/8/1995",
+      "athlete_id": "CAT-3742985",
+      "performance": "10.76",
+      "discipline": "Pes (4kg) Femení PC",
+      "wind": null,
+      "position": 5
+    },
+    {
+      "athlete_name": "MARINA TIBAU SENDRA",
+      "athlete_dob": "6/8/1995",
+      "athlete_id": "CAT-3742985",
+      "performance": "10.41",
+      "discipline": "Pes (4kg) Femení PC",
+      "wind": null,
+      "position": 5
+    },
+    {
+      "athlete_name": "MARINA TIBAU SENDRA",
+      "athlete_dob": "6/8/1995",
+      "athlete_id": "CAT-3742985",
+      "performance": "10.54",
+      "discipline": "Pes (4kg) Femení PC",
+      "wind": null,
+      "position": 5
+    },
+    {
+      "athlete_name": "MARINA TIBAU SENDRA",
+      "athlete_dob": "6/8/1995",
+      "athlete_id": "CAT-3742985",
+      "performance": "10.96",
+      "discipline": "Pes (4kg) Femení PC",
+      "wind": null,
+      "position": 5
     }
   ]
 }

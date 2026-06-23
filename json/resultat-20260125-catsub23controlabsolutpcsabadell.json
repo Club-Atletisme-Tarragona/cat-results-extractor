@@ -2,7 +2,7 @@
   "event_name": "Campionat de Catalunya Sub23 ST - Pista coberta de Atletisme de Catalunya - Carme Valero",
   "event_date": "25/01/2026",
   "event_location": "Sabadell",
-  "total_results": 10,
+  "total_results": 12,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/01/resultat-20260125-catsub23controlabsolutpcsabadell.pdf",
   "results": [
     {
@@ -11,31 +11,8 @@
       "athlete_id": "CAT-3742956",
       "performance": "7.54",
       "discipline": "60m Masculí",
-      "wind": null
-    },
-    {
-      "athlete_name": "LUCIA MAYOLAS MARTINEZ",
-      "athlete_dob": "4/10/2004",
-      "athlete_id": "CAT-3892679",
-      "performance": "5:04.44",
-      "discipline": "1.500m Femení",
-      "wind": null
-    },
-    {
-      "athlete_name": "LAURA SANTOS MARTINEZ",
-      "athlete_dob": "14/9/2005",
-      "athlete_id": "CL71751",
-      "performance": "1.49",
-      "discipline": "Alçada Femení",
-      "wind": null
-    },
-    {
-      "athlete_name": "NATALIA SANCHEZ ALVAREZ",
-      "athlete_dob": "28/5/2005",
-      "athlete_id": "CAT-3754208",
-      "performance": "5.34",
-      "discipline": "Llargada Femení PC",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ISMAEL VALLES FERNANDEZ",
@@ -43,7 +20,8 @@
       "athlete_id": "CL15301",
       "performance": "22.76",
       "discipline": "200m Masculí PC",
-      "wind": null
+      "wind": null,
+      "position": 6
     },
     {
       "athlete_name": "ISMAEL VALLES FERNANDEZ",
@@ -51,15 +29,17 @@
       "athlete_id": "CL15301",
       "performance": "22.74",
       "discipline": "200m Masculí PC",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "HUGO JULES SAIZ SANTOLARIA",
       "athlete_dob": "31/1/2005",
-      "athlete_id": "CAT-3742956-A",
+      "athlete_id": "CAT-3742956",
       "performance": "23.42",
       "discipline": "200m Masculí PC",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ALFONSO PAJARES CHAVARRI",
@@ -67,7 +47,8 @@
       "athlete_id": "CT509",
       "performance": "1:59.50",
       "discipline": "800m Masculí",
-      "wind": null
+      "wind": null,
+      "position": 8
     },
     {
       "athlete_name": "MARIA ANTONIETTA SALAZAR",
@@ -75,7 +56,8 @@
       "athlete_id": "CT2176",
       "performance": "26.88",
       "discipline": "200m Femení PC",
-      "wind": null
+      "wind": null,
+      "position": 6
     },
     {
       "athlete_name": "MARIA ANTONIETTA SALAZAR",
@@ -83,7 +65,53 @@
       "athlete_id": "CT2176",
       "performance": "26.83",
       "discipline": "200m Femení PC",
-      "wind": null
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "LUCIA MAYOLAS MARTINEZ",
+      "athlete_dob": "4/10/2004",
+      "athlete_id": "CAT-3892679",
+      "performance": "5:04.44",
+      "discipline": "1.500m Femení",
+      "wind": null,
+      "position": 8
+    },
+    {
+      "athlete_name": "LAURA SANTOS MARTINEZ",
+      "athlete_dob": "14/9/2005",
+      "athlete_id": "CL71751",
+      "performance": "1.49",
+      "discipline": "Alçada Femení",
+      "wind": null,
+      "position": 7
+    },
+    {
+      "athlete_name": "NATALIA SANCHEZ ALVAREZ",
+      "athlete_dob": "28/5/2005",
+      "athlete_id": "CAT-3754208",
+      "performance": "4.40",
+      "discipline": "Llargada Femení PC",
+      "wind": null,
+      "position": 4
+    },
+    {
+      "athlete_name": "NATALIA SANCHEZ ALVAREZ",
+      "athlete_dob": "28/5/2005",
+      "athlete_id": "CAT-3754208",
+      "performance": "5.12",
+      "discipline": "Llargada Femení PC",
+      "wind": null,
+      "position": 4
+    },
+    {
+      "athlete_name": "NATALIA SANCHEZ ALVAREZ",
+      "athlete_dob": "28/5/2005",
+      "athlete_id": "CAT-3754208",
+      "performance": "5.23",
+      "discipline": "Llargada Femení PC",
+      "wind": null,
+      "position": 4
     }
   ]
 }

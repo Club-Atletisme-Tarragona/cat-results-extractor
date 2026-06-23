@@ -2,7 +2,7 @@
   "event_name": " - Trofeu FCA Sub10 de Pista Coberta",
   "event_date": "28/03/2026",
   "event_location": "Sabadell (i)",
-  "total_results": 16,
+  "total_results": 21,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/03/resultat-20260328-trofeusub10pcsabadell.pdf",
   "results": [
     {
@@ -11,7 +11,8 @@
       "athlete_id": "CAT-3789593",
       "performance": "11.17",
       "discipline": "60m masculins",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "POL VILANOVA ANGLES",
@@ -19,7 +20,8 @@
       "athlete_id": "CAT-3789595",
       "performance": "1:12.62",
       "discipline": "400m masculins",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "NIL PASCUAL PRATS",
@@ -27,7 +29,35 @@
       "athlete_id": "CAT-3789538",
       "performance": "3.18",
       "discipline": "Llargada masculina",
-      "wind": null
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "NIL PASCUAL PRATS",
+      "athlete_dob": "16/3/2017",
+      "athlete_id": "CAT-3789538",
+      "performance": "3.09",
+      "discipline": "Llargada masculina",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "GERARD BARBER GONZALEZ",
+      "athlete_dob": "24/10/2017",
+      "athlete_id": "CAT-3789597",
+      "performance": "5.20",
+      "discipline": "Pes masculi",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "GERARD BARBER GONZALEZ",
+      "athlete_dob": "24/10/2017",
+      "athlete_id": "CAT-3789597",
+      "performance": "4.76",
+      "discipline": "Pes masculi",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "GERARD BARBER GONZALEZ",
@@ -35,7 +65,8 @@
       "athlete_id": "CAT-3789597",
       "performance": "5.37",
       "discipline": "Pes masculi",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "Edahi ROIG GUASCH",
@@ -43,7 +74,8 @@
       "athlete_id": "",
       "performance": "2:20.04",
       "discipline": "Relleus 4x200 masculi",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "Gerard BARBER GONZALEZ",
@@ -51,7 +83,8 @@
       "athlete_id": "",
       "performance": "2:20.04",
       "discipline": "Relleus 4x200 masculi",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "Nil PASCUAL PRATS",
@@ -59,7 +92,8 @@
       "athlete_id": "",
       "performance": "2:20.04",
       "discipline": "Relleus 4x200 masculi",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "Pol VILANOVA ANGLES",
@@ -67,7 +101,8 @@
       "athlete_id": "",
       "performance": "2:20.04",
       "discipline": "Relleus 4x200 masculi",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "BERTA GOMIS BARBERA",
@@ -75,7 +110,8 @@
       "athlete_id": "CAT-3842708",
       "performance": "10.74",
       "discipline": "60m femenins",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ARIA ORTA PALLARES",
@@ -83,7 +119,8 @@
       "athlete_id": "CAT-3789552",
       "performance": "1:26.60",
       "discipline": "400m femenins",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ALBA MESEGUE SANCHEZ",
@@ -91,7 +128,26 @@
       "athlete_id": "CAT-3842695",
       "performance": "2.75",
       "discipline": "Llargada femenina",
-      "wind": null
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "ROCIO TALAVERA CUADRADO",
+      "athlete_dob": "12/12/2017",
+      "athlete_id": "CAT-3843579",
+      "performance": "3.30",
+      "discipline": "Pes femeni",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "ROCIO TALAVERA CUADRADO",
+      "athlete_dob": "12/12/2017",
+      "athlete_id": "CAT-3843579",
+      "performance": "3.00",
+      "discipline": "Pes femeni",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ROCIO TALAVERA CUADRADO",
@@ -99,7 +155,8 @@
       "athlete_id": "CAT-3843579",
       "performance": "3.59",
       "discipline": "Pes femeni",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "Alba MESEGUE SANCHEZ",
@@ -107,7 +164,8 @@
       "athlete_id": "",
       "performance": "2:43.19",
       "discipline": "Relleus 4x200 femeni",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "Ana ADAME POZO",
@@ -115,7 +173,8 @@
       "athlete_id": "",
       "performance": "2:43.19",
       "discipline": "Relleus 4x200 femeni",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "Berta GOMIS BARBERA",
@@ -123,7 +182,8 @@
       "athlete_id": "",
       "performance": "2:43.19",
       "discipline": "Relleus 4x200 femeni",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "Rocio TALAVERA CUADRADO",
@@ -131,7 +191,8 @@
       "athlete_id": "",
       "performance": "2:43.19",
       "discipline": "Relleus 4x200 femeni",
-      "wind": null
+      "wind": null,
+      "position": null
     }
   ]
 }

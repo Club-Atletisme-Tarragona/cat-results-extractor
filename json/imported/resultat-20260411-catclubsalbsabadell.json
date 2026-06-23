@@ -2,7 +2,8 @@
   "event_name": "1a Jornada Campionat Catalunya Clubs 2026 grup \"B\" - Estadi Muncipal Josep Molins",
   "event_date": "11/04/2026",
   "event_location": "Sabadell",
-  "total_results": 50,
+  "total_results": 70,
+  "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/04/resultat-20260411-catclubsalbsabadell.pdf",
   "results": [
     {
       "athlete_name": "ISMAEL VALLES FERNANDEZ",
@@ -10,7 +11,8 @@
       "athlete_id": "CL15301",
       "performance": "11.55",
       "discipline": "100m Hombres",
-      "wind": "-0.8"
+      "wind": "-0.8",
+      "position": null
     },
     {
       "athlete_name": "HUGO JULES SAIZ SANTOLARIA",
@@ -18,7 +20,8 @@
       "athlete_id": "CAT-3742956",
       "performance": "11.76",
       "discipline": "100m Hombres",
-      "wind": "-0.8"
+      "wind": "-1.1",
+      "position": null
     },
     {
       "athlete_name": "POL AIXALA GUIU",
@@ -26,7 +29,8 @@
       "athlete_id": "CT438",
       "performance": "48.01",
       "discipline": "400m Hombres",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "LUCAS BUJ FUERTES",
@@ -34,7 +38,8 @@
       "athlete_id": "CAT-3724284",
       "performance": "51.47",
       "discipline": "400m Hombres",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ALFONSO PAJARES CHAVARRI",
@@ -42,7 +47,8 @@
       "athlete_id": "CT509",
       "performance": "4:03.14",
       "discipline": "1.500m Hombres",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "MOHAMMED AISSAOUI EL AISSAOUI",
@@ -50,7 +56,8 @@
       "athlete_id": "CAT-3723426",
       "performance": "4:32.47",
       "discipline": "1.500m Hombres",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "JULIO LEON CID",
@@ -58,7 +65,8 @@
       "athlete_id": "CT4",
       "performance": "9:35.63",
       "discipline": "3.000m Hombres",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "XAVIER ROS BORRELL",
@@ -66,7 +74,8 @@
       "athlete_id": "CAT-3754232",
       "performance": "9:55.16",
       "discipline": "3.000m Hombres",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "JAN SANS RIOLA",
@@ -74,7 +83,8 @@
       "athlete_id": "CAT-3791853",
       "performance": "15.18",
       "discipline": "110m vallas Hombres",
-      "wind": "-1.9"
+      "wind": "-1.9",
+      "position": null
     },
     {
       "athlete_name": "ISAAC AGUILO CARRILO",
@@ -82,7 +92,8 @@
       "athlete_id": "CAT-3742961-A",
       "performance": "1.70",
       "discipline": "Altura Hombres",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "JERONI FLORES PIÑAS",
@@ -90,7 +101,8 @@
       "athlete_id": "CT2935",
       "performance": "1.60",
       "discipline": "Altura Hombres",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "LLUC SUBIROS BRASERO",
@@ -98,7 +110,35 @@
       "athlete_id": "CT1186",
       "performance": "11.77",
       "discipline": "Triple Salto Hombres",
-      "wind": "-1.2"
+      "wind": "-1.2",
+      "position": null
+    },
+    {
+      "athlete_name": "LLUC SUBIROS BRASERO",
+      "athlete_dob": "6/1/2007",
+      "athlete_id": "CT1186",
+      "performance": "11.09",
+      "discipline": "Triple Salto Hombres",
+      "wind": "-1.2",
+      "position": null
+    },
+    {
+      "athlete_name": "DAVID FERNANDEZ PINEDA",
+      "athlete_dob": "18/6/2010",
+      "athlete_id": "CL11323",
+      "performance": "11.25",
+      "discipline": "Triple Salto Hombres",
+      "wind": "-0.5",
+      "position": null
+    },
+    {
+      "athlete_name": "DAVID FERNANDEZ PINEDA",
+      "athlete_dob": "18/6/2010",
+      "athlete_id": "CL11323",
+      "performance": "11.36",
+      "discipline": "Triple Salto Hombres",
+      "wind": "-0.5",
+      "position": null
     },
     {
       "athlete_name": "DAVID FERNANDEZ PINEDA",
@@ -106,7 +146,8 @@
       "athlete_id": "CL11323",
       "performance": "11.56",
       "discipline": "Triple Salto Hombres",
-      "wind": "-0.4"
+      "wind": "-0.4",
+      "position": null
     },
     {
       "athlete_name": "ENRIC RAMON GUIM DOMENECH",
@@ -114,7 +155,8 @@
       "athlete_id": "CT2370",
       "performance": "24.80",
       "discipline": "Disco Hombres",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ALVARO JOSE FERREZ HERNANDEZ",
@@ -122,7 +164,44 @@
       "athlete_id": "CAT-3816314",
       "performance": "24.29",
       "discipline": "Disco Hombres",
-      "wind": null
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "FERRAN SAGRERA PUJOL",
+      "athlete_dob": "19/8/2006",
+      "athlete_id": "CAT-3889630",
+      "performance": "37.97",
+      "discipline": "Martillo Hombres",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "FERRAN SAGRERA PUJOL",
+      "athlete_dob": "19/8/2006",
+      "athlete_id": "CAT-3889630",
+      "performance": "42.00",
+      "discipline": "Martillo Hombres",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "FERRAN SAGRERA PUJOL",
+      "athlete_dob": "19/8/2006",
+      "athlete_id": "CAT-3889630",
+      "performance": "41.82",
+      "discipline": "Martillo Hombres",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "FERRAN SAGRERA PUJOL",
+      "athlete_dob": "19/8/2006",
+      "athlete_id": "CAT-3889630",
+      "performance": "40.00",
+      "discipline": "Martillo Hombres",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "FERRAN SAGRERA PUJOL",
@@ -130,7 +209,44 @@
       "athlete_id": "CAT-3889630",
       "performance": "43.08",
       "discipline": "Martillo Hombres",
-      "wind": null
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "FRANCESC FERRANDO MOLINA",
+      "athlete_dob": "28/5/1987",
+      "athlete_id": "CT2171",
+      "performance": "30.40",
+      "discipline": "Martillo Hombres",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "FRANCESC FERRANDO MOLINA",
+      "athlete_dob": "28/5/1987",
+      "athlete_id": "CT2171",
+      "performance": "26.16",
+      "discipline": "Martillo Hombres",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "FRANCESC FERRANDO MOLINA",
+      "athlete_dob": "28/5/1987",
+      "athlete_id": "CT2171",
+      "performance": "29.02",
+      "discipline": "Martillo Hombres",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "FRANCESC FERRANDO MOLINA",
+      "athlete_dob": "28/5/1987",
+      "athlete_id": "CT2171",
+      "performance": "32.33",
+      "discipline": "Martillo Hombres",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "FRANCESC FERRANDO MOLINA",
@@ -138,7 +254,8 @@
       "athlete_id": "CT2171",
       "performance": "33.33",
       "discipline": "Martillo Hombres",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "FERNANDO FLORES MONTES",
@@ -146,7 +263,8 @@
       "athlete_id": "CL15201",
       "performance": "25:18.64",
       "discipline": "5.000m Marcha Hombres en pista",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ASTON MATE GRAS",
@@ -154,7 +272,8 @@
       "athlete_id": "CL95044",
       "performance": "28:39.39",
       "discipline": "5.000m Marcha Hombres en pista",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "Hugo Jules SAIZ SANTOLARIA",
@@ -162,7 +281,8 @@
       "athlete_id": "",
       "performance": "43.85",
       "discipline": "4x100m Hombres AL",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "Ismael VALLES FERNANDEZ",
@@ -170,7 +290,8 @@
       "athlete_id": "",
       "performance": "43.85",
       "discipline": "4x100m Hombres AL",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "Jan SANS RIOLA",
@@ -178,7 +299,8 @@
       "athlete_id": "",
       "performance": "43.85",
       "discipline": "4x100m Hombres AL",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "Unai ORTIZ DE LANDAZURI ONTOSO",
@@ -186,7 +308,8 @@
       "athlete_id": "",
       "performance": "43.85",
       "discipline": "4x100m Hombres AL",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "Iris GARRIDO GARCIA",
@@ -194,7 +317,8 @@
       "athlete_id": "",
       "performance": "3:44.57",
       "discipline": "4x400m Mixto AL",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "Nayla SENTIS TORAO",
@@ -202,7 +326,8 @@
       "athlete_id": "",
       "performance": "3:44.57",
       "discipline": "4x400m Mixto AL",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "Pol AIXALA GUIU",
@@ -210,7 +335,8 @@
       "athlete_id": "",
       "performance": "3:44.57",
       "discipline": "4x400m Mixto AL",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "Lucas BUJ FUERTES",
@@ -218,7 +344,8 @@
       "athlete_id": "",
       "performance": "3:44.57",
       "discipline": "4x400m Mixto AL",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "NOA ANTON PATERNA",
@@ -226,7 +353,8 @@
       "athlete_id": "CAT-3742994",
       "performance": "12.21",
       "discipline": "100m Mujeres",
-      "wind": "-0.6"
+      "wind": "-0.6",
+      "position": null
     },
     {
       "athlete_name": "SILVIA VICENTE NAVARRETE",
@@ -234,15 +362,8 @@
       "athlete_id": "CT1468",
       "performance": "12.74",
       "discipline": "100m Mujeres",
-      "wind": "-0.6"
-    },
-    {
-      "athlete_name": "CLAUDIA MIR CASELLAS",
-      "athlete_dob": "2/8/2003",
-      "athlete_id": "CT152",
-      "performance": "1:01.04",
-      "discipline": "400m Mujeres",
-      "wind": null
+      "wind": "-1.0",
+      "position": null
     },
     {
       "athlete_name": "CLAUDIA MIR CASELLAS",
@@ -250,7 +371,8 @@
       "athlete_id": "CT152",
       "performance": "59.79",
       "discipline": "400m Mujeres",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "NORA MONTOLIO AMARO",
@@ -258,7 +380,8 @@
       "athlete_id": "CAT-3895023",
       "performance": "1:01.74",
       "discipline": "400m Mujeres",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "CLARA ORTIZ DE LANDAZURI ONTOSO",
@@ -266,7 +389,8 @@
       "athlete_id": "CAT-3742953",
       "performance": "4:56.99",
       "discipline": "1.500m Mujeres",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "NOEMI GONZALEZ CARRILLO",
@@ -274,7 +398,8 @@
       "athlete_id": "CL86462",
       "performance": "5:07.08",
       "discipline": "1.500m Mujeres",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "CARLA GONZALEZ CARRILLO",
@@ -282,7 +407,8 @@
       "athlete_id": "CAT-3906535",
       "performance": "10:50.51",
       "discipline": "3.000m Mujeres AL",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "LUCIA MAYOLAS MARTINEZ",
@@ -290,7 +416,8 @@
       "athlete_id": "CAT-3892679",
       "performance": "11:25.81",
       "discipline": "3.000m Mujeres AL",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "MIREIA LOPEZ URBANO",
@@ -298,7 +425,8 @@
       "athlete_id": "CT23556",
       "performance": "14.88",
       "discipline": "100m vallas Mujeres",
-      "wind": "-1.9"
+      "wind": "-1.9",
+      "position": null
     },
     {
       "athlete_name": "HELENA RIOS MONTSERRAT",
@@ -306,7 +434,8 @@
       "athlete_id": "CAT-3915043",
       "performance": "15.65",
       "discipline": "100m vallas Mujeres",
-      "wind": "-1.9"
+      "wind": "-1.8",
+      "position": null
     },
     {
       "athlete_name": "ONA SANSA GARCIA",
@@ -314,7 +443,8 @@
       "athlete_id": "CAT-3743010-A",
       "performance": "3.20",
       "discipline": "Pértiga Mujeres",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ALICIA VAZQUEZ DOMINGO",
@@ -322,7 +452,8 @@
       "athlete_id": "CAT-3754025-A",
       "performance": "3.10",
       "discipline": "Pértiga Mujeres",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "NATALIA SANCHEZ ALVAREZ",
@@ -330,7 +461,17 @@
       "athlete_id": "CAT-3754208",
       "performance": "4.78",
       "discipline": "Longitud Mujeres",
-      "wind": "-1.9"
+      "wind": "-1.9",
+      "position": null
+    },
+    {
+      "athlete_name": "NAYLA SENTIS TORAO",
+      "athlete_dob": "24/5/2010",
+      "athlete_id": "CAT-3787484",
+      "performance": "4.64",
+      "discipline": "Longitud Mujeres",
+      "wind": "-1.5",
+      "position": null
     },
     {
       "athlete_name": "NAYLA SENTIS TORAO",
@@ -338,7 +479,8 @@
       "athlete_id": "CAT-3787484",
       "performance": "4.70",
       "discipline": "Longitud Mujeres",
-      "wind": "-0.5"
+      "wind": "-0.5",
+      "position": null
     },
     {
       "athlete_name": "BARBARA PINTADO DUCH",
@@ -346,7 +488,35 @@
       "athlete_id": "CT13219",
       "performance": "8.70",
       "discipline": "Peso Mujeres",
-      "wind": null
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "BARBARA PINTADO DUCH",
+      "athlete_dob": "29/4/1985",
+      "athlete_id": "CT13219",
+      "performance": "8.41",
+      "discipline": "Peso Mujeres",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "NOA NIN NAVAS",
+      "athlete_dob": "28/8/2009",
+      "athlete_id": "CAT-3742996",
+      "performance": "8.37",
+      "discipline": "Peso Mujeres",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "NOA NIN NAVAS",
+      "athlete_dob": "28/8/2009",
+      "athlete_id": "CAT-3742996",
+      "performance": "8.21",
+      "discipline": "Peso Mujeres",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "NOA NIN NAVAS",
@@ -354,7 +524,8 @@
       "athlete_id": "CAT-3742996",
       "performance": "8.40",
       "discipline": "Peso Mujeres",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "RAQUEL PLEGUEZUELOS GARCIA",
@@ -362,7 +533,62 @@
       "athlete_id": "CAT-3906529",
       "performance": "35.64",
       "discipline": "Jabalina Mujeres",
-      "wind": null
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "RAQUEL PLEGUEZUELOS GARCIA",
+      "athlete_dob": "11/5/1991",
+      "athlete_id": "CAT-3906529",
+      "performance": "32.79",
+      "discipline": "Jabalina Mujeres",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "RAQUEL PLEGUEZUELOS GARCIA",
+      "athlete_dob": "11/5/1991",
+      "athlete_id": "CAT-3906529",
+      "performance": "35.13",
+      "discipline": "Jabalina Mujeres",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "RAQUEL PLEGUEZUELOS GARCIA",
+      "athlete_dob": "11/5/1991",
+      "athlete_id": "CAT-3906529",
+      "performance": "33.08",
+      "discipline": "Jabalina Mujeres",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "RAQUEL PLEGUEZUELOS GARCIA",
+      "athlete_dob": "11/5/1991",
+      "athlete_id": "CAT-3906529",
+      "performance": "34.51",
+      "discipline": "Jabalina Mujeres",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "RAQUEL PLEGUEZUELOS GARCIA",
+      "athlete_dob": "11/5/1991",
+      "athlete_id": "CAT-3906529",
+      "performance": "32.86",
+      "discipline": "Jabalina Mujeres",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "AINOA RODRIGUEZ MURILLO",
+      "athlete_dob": "17/1/2008",
+      "athlete_id": "CAT-3742948",
+      "performance": "20.04",
+      "discipline": "Jabalina Mujeres",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "AINOA RODRIGUEZ MURILLO",
@@ -370,7 +596,8 @@
       "athlete_id": "CAT-3742948",
       "performance": "20.69",
       "discipline": "Jabalina Mujeres",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "Maria Antonietta SALAZAR",
@@ -378,7 +605,8 @@
       "athlete_id": "",
       "performance": "48.21",
       "discipline": "4x100m Mujeres AL",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "Mireia LOPEZ URBANO",
@@ -386,7 +614,8 @@
       "athlete_id": "",
       "performance": "48.21",
       "discipline": "4x100m Mujeres AL",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "Noa ANTON PATERNA",
@@ -394,7 +623,8 @@
       "athlete_id": "",
       "performance": "48.21",
       "discipline": "4x100m Mujeres AL",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "Silvia VICENTE NAVARRETE",
@@ -402,7 +632,8 @@
       "athlete_id": "",
       "performance": "48.21",
       "discipline": "4x100m Mujeres AL",
-      "wind": null
+      "wind": null,
+      "position": null
     }
   ]
 }

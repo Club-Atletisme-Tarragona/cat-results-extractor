@@ -551,6 +551,7 @@ def main():
             "performance": r["marca"],
             "discipline": r["prova"],
             "wind": r["vent"],
+            "position": r.get("position"),
         }
         output["results"].append(entry)
 

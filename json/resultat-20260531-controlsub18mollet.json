@@ -2,16 +2,26 @@
   "event_name": "6è Control Sub18",
   "event_date": "31/05/2026",
   "event_location": "a determinar",
-  "total_results": 11,
+  "total_results": 10,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/05/resultat-20260531-controlsub18mollet.pdf",
   "results": [
     {
       "athlete_name": "DAVID FERNANDEZ PINEDA",
       "athlete_dob": "18/6/2010",
       "athlete_id": "CL11323",
+      "performance": "58.28",
+      "discipline": "400m Hombres",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "DAVID FERNANDEZ PINEDA",
+      "athlete_dob": "18/6/2010",
+      "athlete_id": "CL11323",
       "performance": "5.16",
       "discipline": "Longitud Hombres",
-      "wind": "0.0"
+      "wind": "0.0",
+      "position": null
     },
     {
       "athlete_name": "DAVID FERNANDEZ PINEDA",
@@ -19,7 +29,8 @@
       "athlete_id": "CL11323",
       "performance": "3.84",
       "discipline": "Longitud Hombres",
-      "wind": "-1.1"
+      "wind": "-1.1",
+      "position": null
     },
     {
       "athlete_name": "LUCIA MARCOS PEREZ",
@@ -27,7 +38,8 @@
       "athlete_id": "CL3853",
       "performance": "18.87",
       "discipline": "Martillo (3kg) Mujeres",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "LUCIA MARCOS PEREZ",
@@ -35,63 +47,53 @@
       "athlete_id": "CL3853",
       "performance": "21.10",
       "discipline": "Martillo (3kg) Mujeres",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "LUCIA MARCOS PEREZ",
       "athlete_dob": "1/2/2010",
       "athlete_id": "CL3853",
       "performance": "18.54",
-      "discipline": "Martillo (3kg) Mujeres",
-      "wind": null
+      "discipline": "Jabalina (500g) Mujeres",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "LUCIA MARCOS PEREZ",
       "athlete_dob": "1/2/2010",
       "athlete_id": "CL3853",
       "performance": "18.64",
-      "discipline": "Martillo (3kg) Mujeres",
-      "wind": null
+      "discipline": "Jabalina (500g) Mujeres",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "LUCIA MARCOS PEREZ",
       "athlete_dob": "1/2/2010",
       "athlete_id": "CL3853",
       "performance": "18.05",
-      "discipline": "Martillo (3kg) Mujeres",
-      "wind": null
+      "discipline": "Jabalina (500g) Mujeres",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "LUCIA MARCOS PEREZ",
       "athlete_dob": "1/2/2010",
       "athlete_id": "CL3853",
       "performance": "17.87",
-      "discipline": "Martillo (3kg) Mujeres",
-      "wind": null
+      "discipline": "Jabalina (500g) Mujeres",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "LUCIA MARCOS PEREZ",
       "athlete_dob": "1/2/2010",
       "athlete_id": "CL3853",
       "performance": "18.24",
-      "discipline": "Martillo (3kg) Mujeres",
-      "wind": null
-    },
-    {
-      "athlete_name": "DAVID FERNANDEZ PINEDA",
-      "athlete_dob": "18/6/2010",
-      "athlete_id": "CL11323",
-      "performance": "58.28",
-      "discipline": "400m Hombres",
-      "wind": null
-    },
-    {
-      "athlete_name": "DAVID FERNANDEZ PINEDA",
-      "athlete_dob": "18/6/2010",
-      "athlete_id": "CL11323",
-      "performance": "5.08",
-      "discipline": "110m vallas (0,914) Hombres AL",
-      "wind": "+1.1"
+      "discipline": "Jabalina (500g) Mujeres",
+      "wind": null,
+      "position": null
     }
   ]
 }

@@ -2,7 +2,7 @@
   "event_name": "Campionat de Catalunya de Clubs ST Sub 14 \"B\" - Pista coberta de Atletisme de Catalunya - Carme Valero",
   "event_date": "29/03/2026",
   "event_location": "Sabadell (i)",
-  "total_results": 26,
+  "total_results": 34,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/03/resultat-20260329-catclubsbsub14pcsabadell.pdf",
   "results": [
     {
@@ -11,7 +11,8 @@
       "athlete_id": "CL7613",
       "performance": "9.66",
       "discipline": "60m Masculí",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "MARTI GONZALEZ CERESUELA",
@@ -19,7 +20,8 @@
       "athlete_id": "CL4347",
       "performance": "29.15",
       "discipline": "200m Masculí PC",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "POL DIAZ CRISTINO",
@@ -27,7 +29,8 @@
       "athlete_id": "CT2082",
       "performance": "1:46.07",
       "discipline": "600m Hombres PC",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "GERARD LOPEZ ROMERO",
@@ -35,7 +38,8 @@
       "athlete_id": "CL7619",
       "performance": "7:46.70",
       "discipline": "2.000m Masculí PC",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "DANIEL LINARES ANTELO",
@@ -43,7 +47,17 @@
       "athlete_id": "CAT-3723389",
       "performance": "11.63",
       "discipline": "60m tanques (0,84) Masculí PC",
-      "wind": null
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "BIEL AMORES LLAVERIAS",
+      "athlete_dob": "7/10/2013",
+      "athlete_id": "CAT-3844274",
+      "performance": "3.56",
+      "discipline": "Llargada Masculí PC",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "BIEL AMORES LLAVERIAS",
@@ -51,7 +65,17 @@
       "athlete_id": "CAT-3844274",
       "performance": "3.67",
       "discipline": "Llargada Masculí PC",
-      "wind": null
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "BIEL AMORES LLAVERIAS",
+      "athlete_dob": "7/10/2013",
+      "athlete_id": "CAT-3844274",
+      "performance": "3.37",
+      "discipline": "Llargada Masculí PC",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "NIL TORRES PRATS",
@@ -59,7 +83,26 @@
       "athlete_id": "CL7611",
       "performance": "1.49",
       "discipline": "Alçada Masculí PC",
-      "wind": null
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "ANTONIO BALAZOTE",
+      "athlete_dob": "1/5/2014",
+      "athlete_id": "CL11067",
+      "performance": "5.96",
+      "discipline": "Pes (3kg) Masculí PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "ANTONIO BALAZOTE",
+      "athlete_dob": "1/5/2014",
+      "athlete_id": "CL11067",
+      "performance": "6.41",
+      "discipline": "Pes (3kg) Masculí PC",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ANTONIO BALAZOTE",
@@ -67,7 +110,8 @@
       "athlete_id": "CL11067",
       "performance": "6.84",
       "discipline": "Pes (3kg) Masculí PC",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "Daniel LINARES ANTELO",
@@ -75,7 +119,8 @@
       "athlete_id": "",
       "performance": "1:56.43",
       "discipline": "4x200m Masculí PC",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "Marti GONZALEZ CERESUELA",
@@ -83,7 +128,8 @@
       "athlete_id": "",
       "performance": "1:56.43",
       "discipline": "4x200m Masculí PC",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "Nil TORRES PRATS",
@@ -91,7 +137,8 @@
       "athlete_id": "",
       "performance": "1:56.43",
       "discipline": "4x200m Masculí PC",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "Pol DIAZ CRISTINO",
@@ -99,7 +146,8 @@
       "athlete_id": "",
       "performance": "1:56.43",
       "discipline": "4x200m Masculí PC",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "AITANA CASAS MUIÑO",
@@ -107,7 +155,8 @@
       "athlete_id": "CL11660",
       "performance": "9.09",
       "discipline": "60m Femení PC",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "BLANCA FRUTOS MATURANA",
@@ -115,7 +164,8 @@
       "athlete_id": "CAT-3724257",
       "performance": "32.06",
       "discipline": "200m Femení PC",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ANNA PEREZ MARTINEZ",
@@ -123,7 +173,8 @@
       "athlete_id": "CL12136",
       "performance": "1:48.53",
       "discipline": "600m Femení PC",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "CELIA VEGA MARTINEZ",
@@ -131,7 +182,8 @@
       "athlete_id": "CL7621",
       "performance": "3:31.93",
       "discipline": "1.000m Femení PC",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "INDIA MARTIN CUADRADO",
@@ -139,7 +191,17 @@
       "athlete_id": "CL7608",
       "performance": "8:48.75",
       "discipline": "2.000m Femení PC",
-      "wind": null
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "AMELI TORRES ARBONES",
+      "athlete_dob": "27/1/2014",
+      "athlete_id": "CL15270",
+      "performance": "11.20",
+      "discipline": "60m tanques (0,762) S14 Femení PC",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "JULIA DIEZ BERTRAN",
@@ -147,23 +209,35 @@
       "athlete_id": "CAT-3790507-A",
       "performance": "1.20",
       "discipline": "Alçada Femení",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "MARTINA GÓMEZ ROJALS",
       "athlete_dob": "28/8/2013",
       "athlete_id": "CAT-3910530",
-      "performance": "4.84",
+      "performance": "4.71",
       "discipline": "Llargada Femení PC",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "LAIA DIAZ AGUILAR",
       "athlete_dob": "8/10/2013",
       "athlete_id": "CAT-3843749",
-      "performance": "8.01",
+      "performance": "7.34",
       "discipline": "Triple Salt Femení",
-      "wind": null
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "LAIA DIAZ AGUILAR",
+      "athlete_dob": "8/10/2013",
+      "athlete_id": "CAT-3843749",
+      "performance": "7.80",
+      "discipline": "Triple Salt Femení",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ERIKA MARGALLO DEL VALLE",
@@ -171,7 +245,17 @@
       "athlete_id": "CL15267",
       "performance": "1.40",
       "discipline": "Perxa Femení PC",
-      "wind": null
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "ALBA ESTEVE HOSTALOT",
+      "athlete_dob": "10/11/2013",
+      "athlete_id": "CL4396",
+      "performance": "5.89",
+      "discipline": "Pes (3kg) Femení PC",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ALBA ESTEVE HOSTALOT",
@@ -179,7 +263,17 @@
       "athlete_id": "CL4396",
       "performance": "6.00",
       "discipline": "Pes (3kg) Femení PC",
-      "wind": null
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "ALBA ESTEVE HOSTALOT",
+      "athlete_dob": "10/11/2013",
+      "athlete_id": "CL4396",
+      "performance": "5.88",
+      "discipline": "Pes (3kg) Femení PC",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "Ameli TORRES ARBONES",
@@ -187,7 +281,8 @@
       "athlete_id": "",
       "performance": "1:57.72",
       "discipline": "4x200m Femení PC",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "Anna PEREZ MARTINEZ",
@@ -195,7 +290,8 @@
       "athlete_id": "",
       "performance": "1:57.72",
       "discipline": "4x200m Femení PC",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "Aitana CASAS MUIÑO",
@@ -203,7 +299,8 @@
       "athlete_id": "",
       "performance": "1:57.72",
       "discipline": "4x200m Femení PC",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "Martina GÓMEZ ROJALS",
@@ -211,7 +308,8 @@
       "athlete_id": "",
       "performance": "1:57.72",
       "discipline": "4x200m Femení PC",
-      "wind": null
+      "wind": null,
+      "position": null
     }
   ]
 }

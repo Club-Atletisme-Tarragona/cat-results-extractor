@@ -2,16 +2,44 @@
   "event_name": "3ª Jornada Llançaments Llargs d'Hivern Sub14-16 - Estadio Joan Serrahima",
   "event_date": "25/01/2026",
   "event_location": "Barcelona-SE",
-  "total_results": 2,
+  "total_results": 6,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/01/resultat-20260125-controlllancamentssub1416serrahima.pdf",
   "results": [
     {
       "athlete_name": "ADA NIN NAVAS",
       "athlete_dob": "24/10/2012",
       "athlete_id": "CL1495",
+      "performance": "19.95",
+      "discipline": "Disc (800g) SUB16 F",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "ADA NIN NAVAS",
+      "athlete_dob": "24/10/2012",
+      "athlete_id": "CL1495",
+      "performance": "18.63",
+      "discipline": "Disc (800g) SUB16 F",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "ADA NIN NAVAS",
+      "athlete_dob": "24/10/2012",
+      "athlete_id": "CL1495",
+      "performance": "19.86",
+      "discipline": "Disc (800g) SUB16 F",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "ADA NIN NAVAS",
+      "athlete_dob": "24/10/2012",
+      "athlete_id": "CL1495",
       "performance": "21.00",
       "discipline": "Disc (800g) SUB16 F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ADA NIN NAVAS",
@@ -19,7 +47,17 @@
       "athlete_id": "CL1495",
       "performance": "16.73",
       "discipline": "Javelina (500g) SUB16 F",
-      "wind": null
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "ADA NIN NAVAS",
+      "athlete_dob": "24/10/2012",
+      "athlete_id": "CL1495",
+      "performance": "15.24",
+      "discipline": "Javelina (500g) SUB16 F",
+      "wind": null,
+      "position": null
     }
   ]
 }

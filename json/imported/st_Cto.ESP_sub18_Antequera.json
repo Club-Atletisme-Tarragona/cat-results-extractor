@@ -1,5 +1,5 @@
 {
-  "event_name": "",
+  "event_name": "Allianz Nacionales Sub-18 Short Track",
   "event_date": "14/03/2026",
   "event_location": "Antequera (i)",
   "total_results": 5,
@@ -11,7 +11,8 @@
       "athlete_id": "CT2935",
       "performance": "8.40",
       "discipline": "60 m vallas Hombres",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "NOA ANTON PATERNA",
@@ -19,7 +20,8 @@
       "athlete_id": "CAT-3742994",
       "performance": "7.64",
       "discipline": "60 m Mujeres",
-      "wind": null
+      "wind": null,
+      "position": 3
     },
     {
       "athlete_name": "NOA ANTON PATERNA",
@@ -27,7 +29,8 @@
       "athlete_id": "CAT-3742994",
       "performance": "7.62",
       "discipline": "60 m Mujeres",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "NOA ANTON PATERNA",
@@ -35,7 +38,8 @@
       "athlete_id": "CAT-3742994",
       "performance": "7.67",
       "discipline": "60 m Mujeres",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ONA SANSA GARCIA",
@@ -43,7 +47,8 @@
       "athlete_id": "CAT-3743010-A",
       "performance": "3.45",
       "discipline": "Salto con Pértiga Mujeres",
-      "wind": null
+      "wind": null,
+      "position": 7
     }
   ]
 }

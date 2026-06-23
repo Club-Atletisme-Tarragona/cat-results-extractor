@@ -2,24 +2,26 @@
   "event_name": "5è Control Sub20 i Absolut - Pista coberta de Atletisme de Catalunya - Carme Valero",
   "event_date": "24/01/2026",
   "event_location": "Sabadell (i)",
-  "total_results": 4,
+  "total_results": 5,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/01/resultat-20260124-controlsub20absolutpcsabadell.pdf",
   "results": [
     {
-      "athlete_name": "SILVIA VICENTE NAVARRETE",
-      "athlete_dob": "31/7/2007",
-      "athlete_id": "CT1468",
-      "performance": "9.52",
-      "discipline": "60m tanques femenins",
-      "wind": null
+      "athlete_name": "DIDAC COMERMA GUASCH",
+      "athlete_dob": "4/7/2000",
+      "athlete_id": "CAT-3713961",
+      "performance": "7.69",
+      "discipline": "60m Masculins",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "MOHAMMED AISSAOUI EL AISSAOUI",
       "athlete_dob": "9/1/2007",
-      "athlete_id": "CAT-3723426-A",
+      "athlete_id": "CAT-3723426",
       "performance": "55.55",
       "discipline": "400m Masculins",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "JULIO LEON CID",
@@ -27,15 +29,26 @@
       "athlete_id": "CT4",
       "performance": "4:29.50",
       "discipline": "1.500m Masculins",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "MOHAMED OUHSSAINE",
       "athlete_dob": "4/1/2007",
-      "athlete_id": "CAT-3937080-A",
+      "athlete_id": "CAT-3937080",
       "performance": "4:38.74",
       "discipline": "1.500m Masculins",
-      "wind": null
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "SILVIA VICENTE NAVARRETE",
+      "athlete_dob": "31/7/2007",
+      "athlete_id": "CT1468",
+      "performance": "9.52",
+      "discipline": "60m tanques femenins",
+      "wind": null,
+      "position": null
     }
   ]
 }

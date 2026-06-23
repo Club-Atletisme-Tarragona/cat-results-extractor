@@ -2,7 +2,7 @@
   "event_name": "Campionat de Catalunya Sub 16 Pista Coberta - Campionat de Catalunya Sub 16 Pista Coberta",
   "event_date": "21/02/2026",
   "event_location": "Sabadell (i)",
-  "total_results": 12,
+  "total_results": 32,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/02/resultat-20260221-catsub16pcsabadell.pdf",
   "results": [
     {
@@ -11,7 +11,8 @@
       "athlete_id": "CL15333",
       "performance": "38.38",
       "discipline": "300m Masculins",
-      "wind": null
+      "wind": null,
+      "position": 1
     },
     {
       "athlete_name": "CESSAR AINA PRECIADO FOREMAN",
@@ -19,7 +20,8 @@
       "athlete_id": "CL15333",
       "performance": "38.70",
       "discipline": "300m Masculins",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "MARC MARTI FERNANDEZ",
@@ -27,7 +29,8 @@
       "athlete_id": "CL94395",
       "performance": "38.57",
       "discipline": "300m Masculins",
-      "wind": null
+      "wind": null,
+      "position": 2
     },
     {
       "athlete_name": "MARC MARTI FERNANDEZ",
@@ -35,7 +38,8 @@
       "athlete_id": "CL94395",
       "performance": "39.12",
       "discipline": "300m Masculins",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "IKER FUENTES PUESTA",
@@ -43,7 +47,8 @@
       "athlete_id": "CL11325",
       "performance": "8.66",
       "discipline": "60m tanques Masculins",
-      "wind": null
+      "wind": null,
+      "position": 2
     },
     {
       "athlete_name": "IKER FUENTES PUESTA",
@@ -51,47 +56,26 @@
       "athlete_id": "CL11325",
       "performance": "8.81",
       "discipline": "60m tanques Masculins",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
-      "athlete_name": "ENZO MATE GRAS",
-      "athlete_dob": "1/2/2011",
-      "athlete_id": "CL94546",
-      "performance": "3.50",
-      "discipline": "Perxa Masculina",
-      "wind": null
+      "athlete_name": "IKER FUENTES PUESTA",
+      "athlete_dob": "18/6/2011",
+      "athlete_id": "CL11325",
+      "performance": "5.43",
+      "discipline": "Llargada Masculina",
+      "wind": null,
+      "position": 2
     },
     {
-      "athlete_name": "VICTORIA C ONYEMAEKWU",
-      "athlete_dob": "22/3/2011",
-      "athlete_id": "CL6108",
-      "performance": "8.26",
-      "discipline": "60m Femenins",
-      "wind": null
-    },
-    {
-      "athlete_name": "LARA GARCIA MUR",
-      "athlete_dob": "23/10/2011",
-      "athlete_id": "CL94385",
-      "performance": "11:41.64",
-      "discipline": "3.000m Femenins",
-      "wind": null
-    },
-    {
-      "athlete_name": "CLAUDIA BOTANCH RIUS",
-      "athlete_dob": "2/1/2011",
-      "athlete_id": "CAT-3812320",
-      "performance": "9.70",
-      "discipline": "Triple Salt Femení",
-      "wind": null
-    },
-    {
-      "athlete_name": "CARLOTA TEJERO CLAU",
-      "athlete_dob": "6/3/2012",
-      "athlete_id": "CL7258",
-      "performance": "9.03",
-      "discipline": "Peso (3kg) Femení",
-      "wind": null
+      "athlete_name": "IKER FUENTES PUESTA",
+      "athlete_dob": "18/6/2011",
+      "athlete_id": "CL11325",
+      "performance": "5.44",
+      "discipline": "Llargada Masculina",
+      "wind": null,
+      "position": 2
     },
     {
       "athlete_name": "IKER FUENTES PUESTA",
@@ -99,7 +83,215 @@
       "athlete_id": "CL11325",
       "performance": "5.88",
       "discipline": "Llargada Masculina",
-      "wind": null
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "ENZO MATE GRAS",
+      "athlete_dob": "1/2/2011",
+      "athlete_id": "CL94546",
+      "performance": "3.50",
+      "discipline": "Perxa Masculina",
+      "wind": null,
+      "position": 4
+    },
+    {
+      "athlete_name": "VICTORIA C ONYEMAEKWU",
+      "athlete_dob": "22/3/2011",
+      "athlete_id": "CL6108",
+      "performance": "8.26",
+      "discipline": "60m Femenins",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "LARA GARCIA MUR",
+      "athlete_dob": "23/10/2011",
+      "athlete_id": "CL94385",
+      "performance": "11:41.64",
+      "discipline": "3.000m Femenins",
+      "wind": null,
+      "position": 8
+    },
+    {
+      "athlete_name": "VICTORIA C ONYEMAEKWU",
+      "athlete_dob": "22/3/2011",
+      "athlete_id": "CL6108",
+      "performance": "4.49",
+      "discipline": "Llargada Femenina",
+      "wind": null,
+      "position": 6
+    },
+    {
+      "athlete_name": "VICTORIA C ONYEMAEKWU",
+      "athlete_dob": "22/3/2011",
+      "athlete_id": "CL6108",
+      "performance": "4.67",
+      "discipline": "Llargada Femenina",
+      "wind": null,
+      "position": 6
+    },
+    {
+      "athlete_name": "VICTORIA C ONYEMAEKWU",
+      "athlete_dob": "22/3/2011",
+      "athlete_id": "CL6108",
+      "performance": "5.00",
+      "discipline": "Llargada Femenina",
+      "wind": null,
+      "position": 6
+    },
+    {
+      "athlete_name": "VICTORIA C ONYEMAEKWU",
+      "athlete_dob": "22/3/2011",
+      "athlete_id": "CL6108",
+      "performance": "4.87",
+      "discipline": "Llargada Femenina",
+      "wind": null,
+      "position": 6
+    },
+    {
+      "athlete_name": "VICTORIA C ONYEMAEKWU",
+      "athlete_dob": "22/3/2011",
+      "athlete_id": "CL6108",
+      "performance": "4.95",
+      "discipline": "Llargada Femenina",
+      "wind": null,
+      "position": 6
+    },
+    {
+      "athlete_name": "CLAUDIA BOTANCH RIUS",
+      "athlete_dob": "2/1/2011",
+      "athlete_id": "CAT-3812320",
+      "performance": "4.89",
+      "discipline": "Llargada Femenina",
+      "wind": null,
+      "position": 1
+    },
+    {
+      "athlete_name": "CLAUDIA BOTANCH RIUS",
+      "athlete_dob": "2/1/2011",
+      "athlete_id": "CAT-3812320",
+      "performance": "4.42",
+      "discipline": "Llargada Femenina",
+      "wind": null,
+      "position": 1
+    },
+    {
+      "athlete_name": "CLAUDIA BOTANCH RIUS",
+      "athlete_dob": "2/1/2011",
+      "athlete_id": "CAT-3812320",
+      "performance": "4.80",
+      "discipline": "Llargada Femenina",
+      "wind": null,
+      "position": 1
+    },
+    {
+      "athlete_name": "KAOUTAR EL HAMDOUNI EL HAMDOUNI",
+      "athlete_dob": "29/3/2011",
+      "athlete_id": "CAT-3778216",
+      "performance": "3.98",
+      "discipline": "Llargada Femenina",
+      "wind": null,
+      "position": 6
+    },
+    {
+      "athlete_name": "KAOUTAR EL HAMDOUNI EL HAMDOUNI",
+      "athlete_dob": "29/3/2011",
+      "athlete_id": "CAT-3778216",
+      "performance": "3.83",
+      "discipline": "Llargada Femenina",
+      "wind": null,
+      "position": 6
+    },
+    {
+      "athlete_name": "KAOUTAR EL HAMDOUNI EL HAMDOUNI",
+      "athlete_dob": "29/3/2011",
+      "athlete_id": "CAT-3778216",
+      "performance": "4.06",
+      "discipline": "Llargada Femenina",
+      "wind": null,
+      "position": 6
+    },
+    {
+      "athlete_name": "KAOUTAR EL HAMDOUNI EL HAMDOUNI",
+      "athlete_dob": "29/3/2011",
+      "athlete_id": "CAT-3778216",
+      "performance": "3.93",
+      "discipline": "Llargada Femenina",
+      "wind": null,
+      "position": 6
+    },
+    {
+      "athlete_name": "KAOUTAR EL HAMDOUNI EL HAMDOUNI",
+      "athlete_dob": "29/3/2011",
+      "athlete_id": "CAT-3778216",
+      "performance": "4.19",
+      "discipline": "Llargada Femenina",
+      "wind": null,
+      "position": 6
+    },
+    {
+      "athlete_name": "ARLET SOLANA VILA",
+      "athlete_dob": "13/3/2012",
+      "athlete_id": "CL11154",
+      "performance": "4.01",
+      "discipline": "Llargada Femenina",
+      "wind": null,
+      "position": 8
+    },
+    {
+      "athlete_name": "ARLET SOLANA VILA",
+      "athlete_dob": "13/3/2012",
+      "athlete_id": "CL11154",
+      "performance": "3.90",
+      "discipline": "Llargada Femenina",
+      "wind": null,
+      "position": 8
+    },
+    {
+      "athlete_name": "ARLET SOLANA VILA",
+      "athlete_dob": "13/3/2012",
+      "athlete_id": "CL11154",
+      "performance": "3.79",
+      "discipline": "Llargada Femenina",
+      "wind": null,
+      "position": 8
+    },
+    {
+      "athlete_name": "CLAUDIA BOTANCH RIUS",
+      "athlete_dob": "2/1/2011",
+      "athlete_id": "CAT-3812320",
+      "performance": "9.48",
+      "discipline": "Triple Salt Femení",
+      "wind": null,
+      "position": 12
+    },
+    {
+      "athlete_name": "CARLOTA TEJERO CLAU",
+      "athlete_dob": "6/3/2012",
+      "athlete_id": "CL7258",
+      "performance": "9.03",
+      "discipline": "Peso (3kg) Femení",
+      "wind": null,
+      "position": 10
+    },
+    {
+      "athlete_name": "CARLOTA TEJERO CLAU",
+      "athlete_dob": "6/3/2012",
+      "athlete_id": "CL7258",
+      "performance": "8.90",
+      "discipline": "Peso (3kg) Femení",
+      "wind": null,
+      "position": 10
+    },
+    {
+      "athlete_name": "CARLOTA TEJERO CLAU",
+      "athlete_dob": "6/3/2012",
+      "athlete_id": "CL7258",
+      "performance": "8.83",
+      "discipline": "Peso (3kg) Femení",
+      "wind": null,
+      "position": 10
     }
   ]
 }

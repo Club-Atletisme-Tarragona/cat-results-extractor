@@ -2,7 +2,7 @@
   "event_name": "Campeonato de España de Short Track Master - Pista indoor Antequera",
   "event_date": "06/03/2026",
   "event_location": "Antequera (i)",
-  "total_results": 8,
+  "total_results": 17,
   "event_src": "https://www.rfeacontent.es/resultados/2026/short_track/st_Cto.ESP_master_Antequera.pdf",
   "results": [
     {
@@ -11,7 +11,8 @@
       "athlete_id": "CT19378",
       "performance": "1.36",
       "discipline": "Altura M60",
-      "wind": null
+      "wind": null,
+      "position": 2
     },
     {
       "athlete_name": "JOSEP MARIA MATEO SANZ",
@@ -19,7 +20,17 @@
       "athlete_id": "CT19378",
       "performance": "3.00",
       "discipline": "Pértiga M60",
-      "wind": null
+      "wind": null,
+      "position": 2
+    },
+    {
+      "athlete_name": "JOSEP MARIA MATEO SANZ",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "4.41",
+      "discipline": "Longitud M60",
+      "wind": null,
+      "position": 2
     },
     {
       "athlete_name": "JOSEP MARIA MATEO SANZ",
@@ -27,7 +38,44 @@
       "athlete_id": "CT19378",
       "performance": "4.55",
       "discipline": "Longitud M60",
-      "wind": null
+      "wind": null,
+      "position": 2
+    },
+    {
+      "athlete_name": "JOSEP MARIA MATEO SANZ",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "4.32",
+      "discipline": "Longitud M60",
+      "wind": null,
+      "position": 2
+    },
+    {
+      "athlete_name": "JOSEP MARIA MATEO SANZ",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "4.51",
+      "discipline": "Longitud M60",
+      "wind": null,
+      "position": 2
+    },
+    {
+      "athlete_name": "JOSEP MARIA MATEO SANZ",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "4.35",
+      "discipline": "Longitud M60",
+      "wind": null,
+      "position": 2
+    },
+    {
+      "athlete_name": "JOSEP MARIA MATEO SANZ",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "4.44",
+      "discipline": "Longitud M60",
+      "wind": null,
+      "position": 2
     },
     {
       "athlete_name": "GEMMA SOLE BORONAT",
@@ -35,7 +83,17 @@
       "athlete_id": "CT29376",
       "performance": "10.87",
       "discipline": "Longitud Pentatlón F65",
-      "wind": null
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "GEMMA SOLE BORONAT",
+      "athlete_dob": "1/11/1967",
+      "athlete_id": "CT29376",
+      "performance": "11.33",
+      "discipline": "Longitud Pentatlón F50",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "GEMMA SOLE BORONAT",
@@ -43,7 +101,26 @@
       "athlete_id": "CT29376",
       "performance": "1.21",
       "discipline": "Altura Pentatlón F55",
-      "wind": null
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "GEMMA SOLE BORONAT",
+      "athlete_dob": "1/11/1967",
+      "athlete_id": "CT29376",
+      "performance": "7.78",
+      "discipline": "Peso Pentatlón F55",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "GEMMA SOLE BORONAT",
+      "athlete_dob": "1/11/1967",
+      "athlete_id": "CT29376",
+      "performance": "7.09",
+      "discipline": "Peso Pentatlón F55",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "GEMMA SOLE BORONAT",
@@ -51,23 +128,35 @@
       "athlete_id": "CT29376",
       "performance": "7.97",
       "discipline": "Peso Pentatlón F55",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "GEMMA SOLE BORONAT",
       "athlete_dob": "1/11/1967",
       "athlete_id": "CT29376",
-      "performance": "3.39",
+      "performance": "3.28",
       "discipline": "Longitud Pentatlón F55",
-      "wind": null
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "GEMMA SOLE BORONAT",
+      "athlete_dob": "1/11/1967",
+      "athlete_id": "CT29376",
+      "performance": "3.15",
+      "discipline": "Longitud Pentatlón F55",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ANTONIA ROYO FABREGAT",
       "athlete_dob": "9/9/1964",
       "athlete_id": "CT27087",
-      "performance": "42.16",
-      "discipline": "Peso Pentatlón F65",
-      "wind": null
+      "performance": "17:42.16",
+      "discipline": "3.000 m Marcha F60",
+      "wind": null,
+      "position": 1
     }
   ]
 }

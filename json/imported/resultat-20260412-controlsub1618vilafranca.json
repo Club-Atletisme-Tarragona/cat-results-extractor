@@ -3,6 +3,7 @@
   "event_date": "12/04/2026",
   "event_location": "Vilafranca del Penedès",
   "total_results": 3,
+  "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/04/resultat-20260412-controlsub1618vilafranca.pdf",
   "results": [
     {
       "athlete_name": "CESSAR AINA PRECIADO FOREMAN",
@@ -10,7 +11,8 @@
       "athlete_id": "CL15333",
       "performance": "42.44",
       "discipline": "300m vallas (0,84) Hombres AL",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "SARAH BUCHHOLZ CHAMORRO",
@@ -18,7 +20,8 @@
       "athlete_id": "CL16217",
       "performance": "14.00",
       "discipline": "100m Mujeres U18F",
-      "wind": "-1.6"
+      "wind": "-1.6",
+      "position": null
     },
     {
       "athlete_name": "MARIA FERRAN JIMENEZ",
@@ -26,7 +29,8 @@
       "athlete_id": "CL94384",
       "performance": "53.60",
       "discipline": "300m vallas (0,762) Mujeres AL",
-      "wind": null
+      "wind": null,
+      "position": null
     }
   ]
 }

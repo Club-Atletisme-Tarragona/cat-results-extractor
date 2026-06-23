@@ -11,7 +11,8 @@
       "athlete_id": "CAT-3742965",
       "performance": "11.39",
       "discipline": "100m Hombres",
-      "wind": "+2.2"
+      "wind": "+2.2",
+      "position": null
     },
     {
       "athlete_name": "JOSEP RAMON ARGILAGA SALVADO",
@@ -19,15 +20,17 @@
       "athlete_id": "CAT-3742971",
       "performance": "12.64",
       "discipline": "100m Hombres",
-      "wind": "+2.2"
+      "wind": "+2.2",
+      "position": null
     },
     {
       "athlete_name": "STELLA PEREIRA CONTRERAS",
       "athlete_dob": "11/12/2011",
       "athlete_id": "CL7607",
       "performance": "29:33.93",
-      "discipline": "21:30   10.000m Marcha Hombres                                                       Final",
-      "wind": "+2.2"
+      "discipline": "5.000m Marcha Mujeres en pista",
+      "wind": null,
+      "position": null
     }
   ]
 }

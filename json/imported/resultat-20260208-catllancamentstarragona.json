@@ -2,7 +2,7 @@
   "event_name": "Campionat de Catalunya Absolut i Sub23 de Llançaments Llargs d'Hivern - Pista de Atletismo de Camp Clar",
   "event_date": "08/02/2026",
   "event_location": "Tarragona",
-  "total_results": 1,
+  "total_results": 2,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/02/resultat-20260208-catllancamentstarragona.pdf",
   "results": [
     {
@@ -11,7 +11,17 @@
       "athlete_id": "CAT-3889630",
       "performance": "38.77",
       "discipline": "Martillo Hombres U23M",
-      "wind": null
+      "wind": null,
+      "position": 3
+    },
+    {
+      "athlete_name": "FERRAN SAGRERA PUJOL",
+      "athlete_dob": "19/8/2006",
+      "athlete_id": "CAT-3889630",
+      "performance": "37.64",
+      "discipline": "Martillo Hombres U23M",
+      "wind": null,
+      "position": 3
     }
   ]
 }

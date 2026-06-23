@@ -2,104 +2,17 @@
   "event_name": "Campionat de Catalunya de Clubs Màster en PC - Pista coberta de Atletisme de Catalunya - Carme Valero",
   "event_date": "10/01/2026",
   "event_location": "Sabadell (i)",
-  "total_results": 19,
+  "total_results": 33,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/01/resultat-20260110-catclubsmasterpcsabadell.pdf",
   "results": [
     {
-      "athlete_name": "JOSE FRANCISCO GARCIA NAVARRETE",
-      "athlete_dob": "24/9/1967",
-      "athlete_id": "CL3972",
-      "performance": "11:58.42",
-      "discipline": "3.000m Hombres PC",
-      "wind": null
-    },
-    {
-      "athlete_name": "JOSE MIGUEL MARTIN ALVAREZ",
-      "athlete_dob": "10/9/1972",
-      "athlete_id": "CL12544",
-      "performance": "1.60",
-      "discipline": "Altura Hombres PC",
-      "wind": null
-    },
-    {
-      "athlete_name": "FRANCESC MOSQUERA PAGES",
-      "athlete_dob": "7/9/1956",
-      "athlete_id": "CT1501",
-      "performance": "9.06",
-      "discipline": "Peso Vet. Hombres. PC Master M65",
-      "wind": null
-    },
-    {
-      "athlete_name": "JOSE MIGUEL MARTIN ALVAREZ",
-      "athlete_dob": "10/9/1972",
-      "athlete_id": "CL12544",
-      "performance": "5.19",
-      "discipline": "Longitud Hombres PC",
-      "wind": null
-    },
-    {
-      "athlete_name": "GEMMA SOLE BORONAT",
-      "athlete_dob": "1/11/1967",
-      "athlete_id": "CT29376",
-      "performance": "1.22",
-      "discipline": "Altura Mujeres",
-      "wind": null
-    },
-    {
-      "athlete_name": "ANA CABELLO RIOJA",
-      "athlete_dob": "16/11/1968",
-      "athlete_id": "CT23242",
-      "performance": "3.39",
-      "discipline": "Longitud Mujeres PC",
-      "wind": null
-    },
-    {
-      "athlete_name": "JOANA PINYOL MARGALEF",
-      "athlete_dob": "15/5/1963",
-      "athlete_id": "CAT-3891856",
-      "performance": "5.71",
-      "discipline": "Peso VET.Mujeres. PC Master F60",
-      "wind": null
-    },
-    {
-      "athlete_name": "Ana CABELLO RIOJA",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "performance": "2:19.25",
-      "discipline": "4x200m Mujeres PC",
-      "wind": null
-    },
-    {
-      "athlete_name": "Ester CERVELLO PUJADES",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "performance": "2:19.25",
-      "discipline": "4x200m Mujeres PC",
-      "wind": null
-    },
-    {
-      "athlete_name": "Marisa PRADILLO GUTIERREZ",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "performance": "2:19.25",
-      "discipline": "4x200m Mujeres PC",
-      "wind": null
-    },
-    {
-      "athlete_name": "Pilar FERNANDEZ CARRANZA",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "performance": "2:19.25",
-      "discipline": "4x200m Mujeres PC",
-      "wind": null
-    },
-    {
       "athlete_name": "JOSEP RAMON ARGILAGA SALVADO",
       "athlete_dob": "23/10/1963",
-      "athlete_id": "CAT-3742971-A",
+      "athlete_id": "CAT-3742971",
       "performance": "8.10",
       "discipline": "60m Hombres",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "JOSEP MARIA PUIG LARA",
@@ -107,7 +20,8 @@
       "athlete_id": "CT27228",
       "performance": "36.39",
       "discipline": "200m Hombres PC",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "JOSEP MARIA MATEO SANZ",
@@ -115,7 +29,8 @@
       "athlete_id": "CT19378",
       "performance": "1:07.34",
       "discipline": "400m Hombres",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "JOSE FRANCISCO GARCIA NAVARRETE",
@@ -123,7 +38,107 @@
       "athlete_id": "CL3972",
       "performance": "2:55.96",
       "discipline": "800m Hombres",
-      "wind": null
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "JOSE FRANCISCO GARCIA NAVARRETE",
+      "athlete_dob": "24/9/1967",
+      "athlete_id": "CL3972",
+      "performance": "11:58.42",
+      "discipline": "3.000m Hombres PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "JOSE MIGUEL MARTIN ALVAREZ",
+      "athlete_dob": "10/9/1972",
+      "athlete_id": "CL12544",
+      "performance": "1.60",
+      "discipline": "Altura Hombres PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "FRANCESC MOSQUERA PAGES",
+      "athlete_dob": "7/9/1956",
+      "athlete_id": "CT1501",
+      "performance": "9.05",
+      "discipline": "Peso Vet. Hombres. PC Master M65",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "FRANCESC MOSQUERA PAGES",
+      "athlete_dob": "7/9/1956",
+      "athlete_id": "CT1501",
+      "performance": "8.59",
+      "discipline": "Peso Vet. Hombres. PC Master M65",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "FRANCESC MOSQUERA PAGES",
+      "athlete_dob": "7/9/1956",
+      "athlete_id": "CT1501",
+      "performance": "8.64",
+      "discipline": "Peso Vet. Hombres. PC Master M65",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "FRANCESC MOSQUERA PAGES",
+      "athlete_dob": "7/9/1956",
+      "athlete_id": "CT1501",
+      "performance": "8.89",
+      "discipline": "Peso Vet. Hombres. PC Master M65",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "FRANCESC MOSQUERA PAGES",
+      "athlete_dob": "7/9/1956",
+      "athlete_id": "CT1501",
+      "performance": "9.06",
+      "discipline": "Peso Vet. Hombres. PC Master M65",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "JOSE MIGUEL MARTIN ALVAREZ",
+      "athlete_dob": "10/9/1972",
+      "athlete_id": "CL12544",
+      "performance": "4.92",
+      "discipline": "Longitud Hombres PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "JOSE MIGUEL MARTIN ALVAREZ",
+      "athlete_dob": "10/9/1972",
+      "athlete_id": "CL12544",
+      "performance": "4.90",
+      "discipline": "Longitud Hombres PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "JOSE MIGUEL MARTIN ALVAREZ",
+      "athlete_dob": "10/9/1972",
+      "athlete_id": "CL12544",
+      "performance": "5.19",
+      "discipline": "Longitud Hombres PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "JOSE MIGUEL MARTIN ALVAREZ",
+      "athlete_dob": "10/9/1972",
+      "athlete_id": "CL12544",
+      "performance": "5.10",
+      "discipline": "Longitud Hombres PC",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "GEMMA SOLE BORONAT",
@@ -131,7 +146,8 @@
       "athlete_id": "CT29376",
       "performance": "9.69",
       "discipline": "60m Mujeres PC",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "MARISA PRADILLO GUTIERREZ",
@@ -139,23 +155,152 @@
       "athlete_id": "CT21513",
       "performance": "37.64",
       "discipline": "200m Mujeres PC",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "PILAR FERNANDEZ CARRANZA",
       "athlete_dob": "15/2/1967",
-      "athlete_id": "CAT-3790267-A",
+      "athlete_id": "CAT-3790267",
       "performance": "1:23.05",
       "discipline": "400m Mujeres",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ESTER CERVELLO PUJADES",
       "athlete_dob": "11/11/1978",
-      "athlete_id": "CAT-3803319-A",
+      "athlete_id": "CAT-3803319",
       "performance": "2:53.27",
       "discipline": "800m Mujeres",
-      "wind": null
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "GEMMA SOLE BORONAT",
+      "athlete_dob": "1/11/1967",
+      "athlete_id": "CT29376",
+      "performance": "1.22",
+      "discipline": "Altura Mujeres",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "ANA CABELLO RIOJA",
+      "athlete_dob": "16/11/1968",
+      "athlete_id": "CT23242",
+      "performance": "3.14",
+      "discipline": "Longitud Mujeres PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "ANA CABELLO RIOJA",
+      "athlete_dob": "16/11/1968",
+      "athlete_id": "CT23242",
+      "performance": "3.09",
+      "discipline": "Longitud Mujeres PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "ANA CABELLO RIOJA",
+      "athlete_dob": "16/11/1968",
+      "athlete_id": "CT23242",
+      "performance": "3.20",
+      "discipline": "Longitud Mujeres PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "JOANA PINYOL MARGALEF",
+      "athlete_dob": "15/5/1963",
+      "athlete_id": "CAT-3891856",
+      "performance": "5.22",
+      "discipline": "Peso VET.Mujeres. PC Master F60",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "JOANA PINYOL MARGALEF",
+      "athlete_dob": "15/5/1963",
+      "athlete_id": "CAT-3891856",
+      "performance": "4.95",
+      "discipline": "Peso VET.Mujeres. PC Master F60",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "JOANA PINYOL MARGALEF",
+      "athlete_dob": "15/5/1963",
+      "athlete_id": "CAT-3891856",
+      "performance": "5.71",
+      "discipline": "Peso VET.Mujeres. PC Master F60",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "JOANA PINYOL MARGALEF",
+      "athlete_dob": "15/5/1963",
+      "athlete_id": "CAT-3891856",
+      "performance": "5.38",
+      "discipline": "Peso VET.Mujeres. PC Master F60",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "JOANA PINYOL MARGALEF",
+      "athlete_dob": "15/5/1963",
+      "athlete_id": "CAT-3891856",
+      "performance": "5.32",
+      "discipline": "Peso VET.Mujeres. PC Master F60",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "JOANA PINYOL MARGALEF",
+      "athlete_dob": "15/5/1963",
+      "athlete_id": "CAT-3891856",
+      "performance": "5.25",
+      "discipline": "Peso VET.Mujeres. PC Master F60",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Ana CABELLO RIOJA",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "2:19.25",
+      "discipline": "4x200m Mujeres PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Ester CERVELLO PUJADES",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "2:19.25",
+      "discipline": "4x200m Mujeres PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Marisa PRADILLO GUTIERREZ",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "2:19.25",
+      "discipline": "4x200m Mujeres PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Pilar FERNANDEZ CARRANZA",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "2:19.25",
+      "discipline": "4x200m Mujeres PC",
+      "wind": null,
+      "position": null
     }
   ]
 }

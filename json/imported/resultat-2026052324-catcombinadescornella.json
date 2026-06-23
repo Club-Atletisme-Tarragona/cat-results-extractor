@@ -2,7 +2,7 @@
   "event_name": "Campionat de Catalunya Proves Combinades Absolut-Sub23-Sub20-Sub18 - Estadi Municipal de Cornellà de Llobregat",
   "event_date": "23/05/2026",
   "event_location": "Cornellà de Llobregat",
-  "total_results": 25,
+  "total_results": 41,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/05/resultat-2026052324-catcombinadescornella.pdf",
   "results": [
     {
@@ -11,7 +11,17 @@
       "athlete_id": "CL90024",
       "performance": "6.04",
       "discipline": "Longitud Hombres AL",
-      "wind": "-0.4"
+      "wind": "0.0",
+      "position": null
+    },
+    {
+      "athlete_name": "SAMUEL MARCOS PEREZ MMP",
+      "athlete_dob": "1/2/2010",
+      "athlete_id": "CL90024",
+      "performance": "5.98",
+      "discipline": "Longitud Hombres AL",
+      "wind": "-0.4",
+      "position": null
     },
     {
       "athlete_name": "SAMUEL MARCOS PEREZ",
@@ -19,7 +29,17 @@
       "athlete_id": "CL90024",
       "performance": "10.44",
       "discipline": "Peso (5kg) Hombres AL",
-      "wind": null
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "SAMUEL MARCOS PEREZ",
+      "athlete_dob": "1/2/2010",
+      "athlete_id": "CL90024",
+      "performance": "9.98",
+      "discipline": "Peso (5kg) Hombres AL",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "SAMUEL MARCOS PEREZ",
@@ -27,7 +47,8 @@
       "athlete_id": "CL90024",
       "performance": "1.63",
       "discipline": "Altura Hombres AL",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "SAMUEL MARCOS PEREZ",
@@ -35,7 +56,8 @@
       "athlete_id": "CL90024",
       "performance": "54.07",
       "discipline": "400m Hombres AL",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "SAMUEL MARCOS PEREZ",
@@ -43,7 +65,26 @@
       "athlete_id": "CL90024",
       "performance": "16.13",
       "discipline": "110m vallas (0,914) Hombres AL",
-      "wind": "-0.5"
+      "wind": "-0.5",
+      "position": null
+    },
+    {
+      "athlete_name": "SAMUEL MARCOS PEREZ",
+      "athlete_dob": "1/2/2010",
+      "athlete_id": "CL90024",
+      "performance": "29.73",
+      "discipline": "Disco (1,5kg) Hombres",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "SAMUEL MARCOS PEREZ",
+      "athlete_dob": "1/2/2010",
+      "athlete_id": "CL90024",
+      "performance": "29.54",
+      "discipline": "Disco (1,5kg) Hombres",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "SAMUEL MARCOS PEREZ",
@@ -51,7 +92,8 @@
       "athlete_id": "CL90024",
       "performance": "31.14",
       "discipline": "Disco (1,5kg) Hombres",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "SAMUEL MARCOS PEREZ",
@@ -59,7 +101,17 @@
       "athlete_id": "CL90024",
       "performance": "3.60",
       "discipline": "Pértiga Hombres AL",
-      "wind": null
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "SAMUEL MARCOS PEREZ",
+      "athlete_dob": "1/2/2010",
+      "athlete_id": "CL90024",
+      "performance": "28.50",
+      "discipline": "Jabalina (700g) Hombres",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "SAMUEL MARCOS PEREZ",
@@ -67,7 +119,17 @@
       "athlete_id": "CL90024",
       "performance": "34.78",
       "discipline": "Jabalina (700g) Hombres",
-      "wind": null
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "SAMUEL MARCOS PEREZ",
+      "athlete_dob": "1/2/2010",
+      "athlete_id": "CL90024",
+      "performance": "28.65",
+      "discipline": "Jabalina (700g) Hombres",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "SAMUEL MARCOS PEREZ",
@@ -75,7 +137,8 @@
       "athlete_id": "CL90024",
       "performance": "4:46.69",
       "discipline": "1.500m Hombres AL",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "HELENA RIOS MONTSERRAT",
@@ -83,7 +146,8 @@
       "athlete_id": "CAT-3915043-A",
       "performance": "1.45",
       "discipline": "ALTURA Mujeres HEPTATLÓN",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "AINOA RODRIGUEZ MURILLO",
@@ -91,7 +155,8 @@
       "athlete_id": "CAT-3742948-A",
       "performance": "1.42",
       "discipline": "ALTURA Mujeres HEPTATLÓN",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "HELENA RIOS MONTSERRAT",
@@ -99,7 +164,8 @@
       "athlete_id": "CAT-3915043-A",
       "performance": "4237",
       "discipline": "Heptatlón Mujeres",
-      "wind": null
+      "wind": null,
+      "position": 6
     },
     {
       "athlete_name": "AINOA RODRIGUEZ MURILLO",
@@ -107,7 +173,8 @@
       "athlete_id": "CAT-3742948-A",
       "performance": "3692",
       "discipline": "Heptatlón Mujeres",
-      "wind": null
+      "wind": null,
+      "position": 10
     },
     {
       "athlete_name": "CATT 3 MMP",
@@ -115,7 +182,8 @@
       "athlete_id": "CT152",
       "performance": "548",
       "discipline": "Heptathlón Mujeres JUV",
-      "wind": null
+      "wind": null,
+      "position": 4
     },
     {
       "athlete_name": "CATT 6 MMT",
@@ -123,7 +191,8 @@
       "athlete_id": "CAT-3864552",
       "performance": "815",
       "discipline": "Heptathlón Mujeres JUV",
-      "wind": null
+      "wind": null,
+      "position": 3
     },
     {
       "athlete_name": "HELENA RIOS MONTSERRAT",
@@ -131,7 +200,35 @@
       "athlete_id": "CAT-3915043",
       "performance": "8.53",
       "discipline": "Peso Mujeres Heptathlon",
-      "wind": null
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "HELENA RIOS MONTSERRAT",
+      "athlete_dob": "13/6/1996",
+      "athlete_id": "CAT-3915043",
+      "performance": "8.25",
+      "discipline": "Peso Mujeres Heptathlon",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "AINOA RODRIGUEZ MURILLO",
+      "athlete_dob": "17/1/2008",
+      "athlete_id": "CAT-3742948",
+      "performance": "7.12",
+      "discipline": "Peso Mujeres Heptathlon",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "AINOA RODRIGUEZ MURILLO",
+      "athlete_dob": "17/1/2008",
+      "athlete_id": "CAT-3742948",
+      "performance": "7.60",
+      "discipline": "Peso Mujeres Heptathlon",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "AINOA RODRIGUEZ MURILLO",
@@ -139,7 +236,8 @@
       "athlete_id": "CAT-3742948",
       "performance": "7.73",
       "discipline": "Peso Mujeres Heptathlon",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "HELENA RIOS MONTSERRAT",
@@ -147,7 +245,8 @@
       "athlete_id": "CAT-3915043",
       "performance": "26.94",
       "discipline": "200m Mujeres Heptathlon",
-      "wind": "+1.4"
+      "wind": "+1.4",
+      "position": null
     },
     {
       "athlete_name": "AINOA RODRIGUEZ MURILLO",
@@ -155,7 +254,17 @@
       "athlete_id": "CAT-3742948",
       "performance": "27.67",
       "discipline": "200m Mujeres Heptathlon",
-      "wind": "+1.4"
+      "wind": "+1.4",
+      "position": null
+    },
+    {
+      "athlete_name": "AINOA RODRIGUEZ MURILLO",
+      "athlete_dob": "17/1/2008",
+      "athlete_id": "CAT-3742948",
+      "performance": "4.72",
+      "discipline": "Longitud Mujeres Heptathlon",
+      "wind": "1.4",
+      "position": null
     },
     {
       "athlete_name": "AINOA RODRIGUEZ MURILLO",
@@ -163,7 +272,17 @@
       "athlete_id": "CAT-3742948",
       "performance": "5.06",
       "discipline": "Longitud Mujeres Heptathlon",
-      "wind": null
+      "wind": "0.0",
+      "position": null
+    },
+    {
+      "athlete_name": "HELENA RIOS MONTSERRAT",
+      "athlete_dob": "13/6/1996",
+      "athlete_id": "CAT-3915043",
+      "performance": "4.57",
+      "discipline": "Longitud Mujeres Heptathlon",
+      "wind": "0.0",
+      "position": null
     },
     {
       "athlete_name": "HELENA RIOS MONTSERRAT",
@@ -171,7 +290,35 @@
       "athlete_id": "CAT-3915043",
       "performance": "4.71",
       "discipline": "Longitud Mujeres Heptathlon",
-      "wind": null
+      "wind": "1.1",
+      "position": null
+    },
+    {
+      "athlete_name": "HELENA RIOS MONTSERRAT",
+      "athlete_dob": "13/6/1996",
+      "athlete_id": "CAT-3915043",
+      "performance": "4.70",
+      "discipline": "Longitud Mujeres Heptathlon",
+      "wind": "0.0",
+      "position": null
+    },
+    {
+      "athlete_name": "HELENA RIOS MONTSERRAT",
+      "athlete_dob": "13/6/1996",
+      "athlete_id": "CAT-3915043",
+      "performance": "27.95",
+      "discipline": "Jabalina Mujeres Heptathlon",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "HELENA RIOS MONTSERRAT",
+      "athlete_dob": "13/6/1996",
+      "athlete_id": "CAT-3915043",
+      "performance": "28.72",
+      "discipline": "Jabalina Mujeres Heptathlon",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "HELENA RIOS MONTSERRAT",
@@ -179,7 +326,17 @@
       "athlete_id": "CAT-3915043",
       "performance": "29.13",
       "discipline": "Jabalina Mujeres Heptathlon",
-      "wind": null
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "AINOA RODRIGUEZ MURILLO",
+      "athlete_dob": "17/1/2008",
+      "athlete_id": "CAT-3742948",
+      "performance": "22.74",
+      "discipline": "Jabalina Mujeres Heptathlon",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "AINOA RODRIGUEZ MURILLO",
@@ -187,7 +344,17 @@
       "athlete_id": "CAT-3742948",
       "performance": "23.55",
       "discipline": "Jabalina Mujeres Heptathlon",
-      "wind": null
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "AINOA RODRIGUEZ MURILLO",
+      "athlete_dob": "17/1/2008",
+      "athlete_id": "CAT-3742948",
+      "performance": "22.09",
+      "discipline": "Jabalina Mujeres Heptathlon",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "HELENA RIOS MONTSERRAT",
@@ -195,7 +362,8 @@
       "athlete_id": "CAT-3915043",
       "performance": "2:24.52",
       "discipline": "800m Mujeres Heptathlon",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "AINOA RODRIGUEZ MURILLO",
@@ -203,7 +371,8 @@
       "athlete_id": "CAT-3742948",
       "performance": "2:34.26",
       "discipline": "800m Mujeres Heptathlon",
-      "wind": null
+      "wind": null,
+      "position": null
     }
   ]
 }

@@ -2,7 +2,7 @@
   "event_name": "Campionat Territorial de Proves Combinades - Tarragona i Terres de l'Ebre - Pista de Atletismo de Camp Clar",
   "event_date": "02/05/2026",
   "event_location": "Tarragona",
-  "total_results": 523,
+  "total_results": 473,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/05/resultat-2026050203-territorialcombinadestarragona.pdf",
   "results": [
     {
@@ -11,7 +11,8 @@
       "athlete_id": "CL94383",
       "performance": "11.83",
       "discipline": "100m S18M",
-      "wind": "+1.9"
+      "wind": "+1.9",
+      "position": null
     },
     {
       "athlete_name": "SAMUEL MARCOS PEREZ",
@@ -19,7 +20,8 @@
       "athlete_id": "CL90024",
       "performance": "12.13",
       "discipline": "100m S18M",
-      "wind": "+1.9"
+      "wind": "+1.9",
+      "position": null
     },
     {
       "athlete_name": "DAVID FERNANDEZ PINEDA",
@@ -27,7 +29,8 @@
       "athlete_id": "CL11323",
       "performance": "12.30",
       "discipline": "100m S18M",
-      "wind": "+1.9"
+      "wind": "+1.9",
+      "position": null
     },
     {
       "athlete_name": "IVAN FERRER VILLA",
@@ -35,7 +38,8 @@
       "athlete_id": "CL86457",
       "performance": "12.70",
       "discipline": "100m S18M",
-      "wind": "+1.9"
+      "wind": "+1.9",
+      "position": null
     },
     {
       "athlete_name": "OSCAR IBAÑEZ RIZO",
@@ -43,7 +47,8 @@
       "athlete_id": "CL4160",
       "performance": "13.33",
       "discipline": "100m S16M",
-      "wind": "+0.9"
+      "wind": "+0.9",
+      "position": null
     },
     {
       "athlete_name": "ERIC GRAU PINENT",
@@ -51,7 +56,8 @@
       "athlete_id": "CL4398",
       "performance": "15.52",
       "discipline": "100m S16M",
-      "wind": "+0.9"
+      "wind": "+0.9",
+      "position": null
     },
     {
       "athlete_name": "IKER FUENTES PUESTA",
@@ -59,7 +65,8 @@
       "athlete_id": "CL11325",
       "performance": "11.71",
       "discipline": "100m S16M",
-      "wind": "+1.4"
+      "wind": "+1.4",
+      "position": null
     },
     {
       "athlete_name": "CESSAR AINA PRECIADO FOREMAN",
@@ -67,7 +74,8 @@
       "athlete_id": "CL15333",
       "performance": "12.25",
       "discipline": "100m S16M",
-      "wind": "+1.4"
+      "wind": "+1.4",
+      "position": null
     },
     {
       "athlete_name": "FERRAN MASCARO NAVARRO",
@@ -75,7 +83,8 @@
       "athlete_id": "CL96310",
       "performance": "12.78",
       "discipline": "100m S16M",
-      "wind": "+1.4"
+      "wind": "+1.4",
+      "position": null
     },
     {
       "athlete_name": "BLAI LLIGADAS TURON",
@@ -83,7 +92,8 @@
       "athlete_id": "CL11069",
       "performance": "8.80",
       "discipline": "60m S12M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ORIOL GAYA VALLES",
@@ -91,7 +101,8 @@
       "athlete_id": "CL14915",
       "performance": "9.39",
       "discipline": "60m S12M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "SERGI AGUZA PIQUERAS",
@@ -99,7 +110,8 @@
       "athlete_id": "CL15055",
       "performance": "10.31",
       "discipline": "60m S12M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "FABRICIO LEANDRO DEL VALLE SANDOVAL",
@@ -107,7 +119,8 @@
       "athlete_id": "CAT-3789599",
       "performance": "10.76",
       "discipline": "60m S12M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "OLIVIER CASAS MUIÑO",
@@ -115,7 +128,8 @@
       "athlete_id": "CL11597",
       "performance": "9.46",
       "discipline": "60m S12M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "THIAGO SILVA ARANDA",
@@ -123,7 +137,8 @@
       "athlete_id": "CL11075",
       "performance": "9.60",
       "discipline": "60m S12M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "KILIAN PEDROL ESPINOSA",
@@ -131,7 +146,8 @@
       "athlete_id": "CL7676",
       "performance": "11.50",
       "discipline": "80m S14M",
-      "wind": "+0.0"
+      "wind": "+0.0",
+      "position": null
     },
     {
       "athlete_name": "KILIAN PEDROL ESPINOSA",
@@ -139,7 +155,8 @@
       "athlete_id": "CL7676",
       "performance": "14.71",
       "discipline": "80m S14M",
-      "wind": "+0.0"
+      "wind": "+0.0",
+      "position": null
     },
     {
       "athlete_name": "NIL TORRES PRATS",
@@ -147,7 +164,8 @@
       "athlete_id": "CL7611",
       "performance": "11.85",
       "discipline": "80m S14M",
-      "wind": "+0.0"
+      "wind": "+0.0",
+      "position": null
     },
     {
       "athlete_name": "NIL TORRES PRATS",
@@ -155,7 +173,8 @@
       "athlete_id": "CL7611",
       "performance": "17.98",
       "discipline": "80m S14M",
-      "wind": "+0.0"
+      "wind": "+0.0",
+      "position": null
     },
     {
       "athlete_name": "ANTONIO BALAZOTE",
@@ -163,7 +182,8 @@
       "athlete_id": "CL11067",
       "performance": "11.44",
       "discipline": "80m S14M",
-      "wind": "+1.9"
+      "wind": "+1.9",
+      "position": null
     },
     {
       "athlete_name": "ANTONIO BALAZOTE",
@@ -171,7 +191,8 @@
       "athlete_id": "CL11067",
       "performance": "16.62",
       "discipline": "80m S14M",
-      "wind": "+0.0"
+      "wind": "+0.0",
+      "position": null
     },
     {
       "athlete_name": "DANIEL LINARES ANTELO",
@@ -179,7 +200,8 @@
       "athlete_id": "CAT-3723389",
       "performance": "11.65",
       "discipline": "80m S14M",
-      "wind": "+1.9"
+      "wind": "+1.9",
+      "position": null
     },
     {
       "athlete_name": "DANIEL LINARES ANTELO",
@@ -187,7 +209,8 @@
       "athlete_id": "CAT-3723389-A",
       "performance": "15.49",
       "discipline": "80m S14M",
-      "wind": "+0.0"
+      "wind": "+0.0",
+      "position": null
     },
     {
       "athlete_name": "MARTI GONZALEZ CERESUELA",
@@ -195,7 +218,8 @@
       "athlete_id": "CL4347",
       "performance": "11.69",
       "discipline": "80m S14M",
-      "wind": "+1.9"
+      "wind": "+1.9",
+      "position": null
     },
     {
       "athlete_name": "MARTI GONZALEZ CERESUELA",
@@ -203,7 +227,8 @@
       "athlete_id": "CL4347",
       "performance": "18.28",
       "discipline": "80m S14M",
-      "wind": "+0.0"
+      "wind": "+0.0",
+      "position": null
     },
     {
       "athlete_name": "KILIAN PEDROL ESPINOSA",
@@ -211,7 +236,8 @@
       "athlete_id": "CL7676",
       "performance": "4.59",
       "discipline": "Llargada S14M",
-      "wind": "-1.8"
+      "wind": "-1.8",
+      "position": null
     },
     {
       "athlete_name": "KILIAN PEDROL ESPINOSA",
@@ -219,7 +245,8 @@
       "athlete_id": "CL7676",
       "performance": "4.55",
       "discipline": "Llargada S14M",
-      "wind": "0.8"
+      "wind": "0.8",
+      "position": null
     },
     {
       "athlete_name": "ANTONIO BALAZOTE",
@@ -227,7 +254,8 @@
       "athlete_id": "CL11067",
       "performance": "4.48",
       "discipline": "Llargada S14M",
-      "wind": "0.0"
+      "wind": "0.0",
+      "position": null
     },
     {
       "athlete_name": "ANTONIO BALAZOTE",
@@ -235,7 +263,8 @@
       "athlete_id": "CL11067",
       "performance": "4.22",
       "discipline": "Llargada S14M",
-      "wind": "-2.7"
+      "wind": "-2.7",
+      "position": null
     },
     {
       "athlete_name": "ANTONIO BALAZOTE",
@@ -243,7 +272,8 @@
       "athlete_id": "CL11067",
       "performance": "4.52",
       "discipline": "Llargada S14M",
-      "wind": "0.0"
+      "wind": "0.0",
+      "position": null
     },
     {
       "athlete_name": "MARTI GONZALEZ CERESUELA",
@@ -251,7 +281,8 @@
       "athlete_id": "CL4347",
       "performance": "4.14",
       "discipline": "Llargada S14M",
-      "wind": "-0.5"
+      "wind": "-0.5",
+      "position": null
     },
     {
       "athlete_name": "MARTI GONZALEZ CERESUELA",
@@ -259,7 +290,8 @@
       "athlete_id": "CL4347",
       "performance": "4.06",
       "discipline": "Llargada S14M",
-      "wind": "0.0"
+      "wind": "0.0",
+      "position": null
     },
     {
       "athlete_name": "NIL TORRES PRATS",
@@ -267,7 +299,8 @@
       "athlete_id": "CL7611",
       "performance": "4.10",
       "discipline": "Llargada S14M",
-      "wind": "-2.3"
+      "wind": "-2.3",
+      "position": null
     },
     {
       "athlete_name": "NIL TORRES PRATS",
@@ -275,7 +308,8 @@
       "athlete_id": "CL7611",
       "performance": "4.13",
       "discipline": "Llargada S14M",
-      "wind": "-2.6"
+      "wind": "-2.6",
+      "position": null
     },
     {
       "athlete_name": "DANIEL LINARES ANTELO",
@@ -283,7 +317,8 @@
       "athlete_id": "CAT-3723389",
       "performance": "3.75",
       "discipline": "Llargada S14M",
-      "wind": "-1.1"
+      "wind": "-1.1",
+      "position": null
     },
     {
       "athlete_name": "DANIEL LINARES ANTELO",
@@ -291,7 +326,8 @@
       "athlete_id": "CAT-3723389",
       "performance": "3.58",
       "discipline": "Llargada S14M",
-      "wind": "-1.5"
+      "wind": "-1.5",
+      "position": null
     },
     {
       "athlete_name": "BLAI LLIGADAS TURON",
@@ -299,7 +335,8 @@
       "athlete_id": "CL11069",
       "performance": "3.69",
       "discipline": "Llargada S12M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "BLAI LLIGADAS TURON",
@@ -307,7 +344,8 @@
       "athlete_id": "CL11069",
       "performance": "3.33",
       "discipline": "Llargada S12M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ORIOL GAYA VALLES",
@@ -315,7 +353,8 @@
       "athlete_id": "CL14915",
       "performance": "3.04",
       "discipline": "Llargada S12M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "OLIVIER CASAS MUIÑO",
@@ -323,7 +362,8 @@
       "athlete_id": "CL11597",
       "performance": "3.62",
       "discipline": "Llargada S12M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "OLIVIER CASAS MUIÑO",
@@ -331,7 +371,8 @@
       "athlete_id": "CL11597",
       "performance": "3.56",
       "discipline": "Llargada S12M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "OLIVIER CASAS MUIÑO",
@@ -339,7 +380,8 @@
       "athlete_id": "CL11597",
       "performance": "3.53",
       "discipline": "Llargada S12M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "THIAGO SILVA ARANDA",
@@ -347,7 +389,8 @@
       "athlete_id": "CL11075",
       "performance": "3.52",
       "discipline": "Llargada S12M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "THIAGO SILVA ARANDA",
@@ -355,7 +398,8 @@
       "athlete_id": "CL11075",
       "performance": "3.54",
       "discipline": "Llargada S12M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "THIAGO SILVA ARANDA",
@@ -363,7 +407,8 @@
       "athlete_id": "CL11075",
       "performance": "3.23",
       "discipline": "Llargada S12M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "SERGI AGUZA PIQUERAS",
@@ -371,7 +416,8 @@
       "athlete_id": "CL15055",
       "performance": "2.82",
       "discipline": "Llargada S12M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "FABRICIO LEANDRO DEL VALLE SANDOVAL",
@@ -379,7 +425,8 @@
       "athlete_id": "CAT-3789599",
       "performance": "1.63",
       "discipline": "Llargada S12M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "SAMUEL MARCOS PEREZ",
@@ -387,7 +434,8 @@
       "athlete_id": "CL90024",
       "performance": "5.88",
       "discipline": "Llargada S18M",
-      "wind": "0.0"
+      "wind": "0.0",
+      "position": null
     },
     {
       "athlete_name": "SAMUEL MARCOS PEREZ",
@@ -395,7 +443,8 @@
       "athlete_id": "CL90024",
       "performance": "5.80",
       "discipline": "Llargada S18M",
-      "wind": "0.0"
+      "wind": "0.0",
+      "position": null
     },
     {
       "athlete_name": "SAMUEL MARCOS PEREZ",
@@ -403,7 +452,8 @@
       "athlete_id": "CL90024",
       "performance": "5.86",
       "discipline": "Llargada S18M",
-      "wind": "0.0"
+      "wind": "0.0",
+      "position": null
     },
     {
       "athlete_name": "PAU ESTEVE HOSTALOT",
@@ -411,7 +461,8 @@
       "athlete_id": "CL94383",
       "performance": "4.70",
       "discipline": "Llargada S18M",
-      "wind": "0.0"
+      "wind": "0.0",
+      "position": null
     },
     {
       "athlete_name": "PAU ESTEVE HOSTALOT",
@@ -419,7 +470,8 @@
       "athlete_id": "CL94383",
       "performance": "5.61",
       "discipline": "Llargada S18M",
-      "wind": "-0.2"
+      "wind": "-0.2",
+      "position": null
     },
     {
       "athlete_name": "DAVID FERNANDEZ PINEDA",
@@ -427,7 +479,8 @@
       "athlete_id": "CL11323",
       "performance": "5.08",
       "discipline": "Llargada S18M",
-      "wind": "1.1"
+      "wind": "1.1",
+      "position": null
     },
     {
       "athlete_name": "DAVID FERNANDEZ PINEDA",
@@ -435,7 +488,8 @@
       "athlete_id": "CL11323",
       "performance": "5.23",
       "discipline": "Llargada S18M",
-      "wind": "0.0"
+      "wind": "0.0",
+      "position": null
     },
     {
       "athlete_name": "DAVID FERNANDEZ PINEDA",
@@ -443,7 +497,8 @@
       "athlete_id": "CL11323",
       "performance": "5.12",
       "discipline": "Llargada S18M",
-      "wind": "-0.2"
+      "wind": "-0.2",
+      "position": null
     },
     {
       "athlete_name": "IVAN FERRER VILLA MMT",
@@ -451,7 +506,8 @@
       "athlete_id": "CL86457",
       "performance": "4.90",
       "discipline": "Llargada S18M",
-      "wind": "0.4"
+      "wind": "0.4",
+      "position": null
     },
     {
       "athlete_name": "IVAN FERRER VILLA MMT",
@@ -459,7 +515,8 @@
       "athlete_id": "CL86457",
       "performance": "4.63",
       "discipline": "Llargada S18M",
-      "wind": "0.0"
+      "wind": "0.0",
+      "position": null
     },
     {
       "athlete_name": "IVAN FERRER VILLA MMT",
@@ -467,7 +524,8 @@
       "athlete_id": "CL86457",
       "performance": "4.89",
       "discipline": "Llargada S18M",
-      "wind": "-0.7"
+      "wind": "-0.7",
+      "position": null
     },
     {
       "athlete_name": "IKER FUENTES PUESTA",
@@ -475,7 +533,8 @@
       "athlete_id": "CL11325",
       "performance": "8.70",
       "discipline": "Pes (4kg) S16M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "IKER FUENTES PUESTA",
@@ -483,7 +542,8 @@
       "athlete_id": "CL11325",
       "performance": "8.19",
       "discipline": "Pes (4kg) S16M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "IKER FUENTES PUESTA",
@@ -491,7 +551,8 @@
       "athlete_id": "CL11325",
       "performance": "9.29",
       "discipline": "Pes (4kg) S16M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "FERRAN MASCARO NAVARRO",
@@ -499,7 +560,8 @@
       "athlete_id": "CL96310",
       "performance": "8.34",
       "discipline": "Pes (4kg) S16M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "FERRAN MASCARO NAVARRO",
@@ -507,7 +569,8 @@
       "athlete_id": "CL96310",
       "performance": "7.82",
       "discipline": "Pes (4kg) S16M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "CESSAR AINA PRECIADO FOREMAN",
@@ -515,7 +578,8 @@
       "athlete_id": "CL15333",
       "performance": "7.21",
       "discipline": "Pes (4kg) S16M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "CESSAR AINA PRECIADO FOREMAN",
@@ -523,7 +587,8 @@
       "athlete_id": "CL15333",
       "performance": "8.27",
       "discipline": "Pes (4kg) S16M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "CESSAR AINA PRECIADO FOREMAN",
@@ -531,7 +596,8 @@
       "athlete_id": "CL15333",
       "performance": "8.03",
       "discipline": "Pes (4kg) S16M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "OSCAR IBAÑEZ RIZO",
@@ -539,7 +605,8 @@
       "athlete_id": "CL4160",
       "performance": "6.78",
       "discipline": "Pes (4kg) S16M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "OSCAR IBAÑEZ RIZO",
@@ -547,7 +614,8 @@
       "athlete_id": "CL4160",
       "performance": "5.69",
       "discipline": "Pes (4kg) S16M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "OSCAR IBAÑEZ RIZO",
@@ -555,7 +623,8 @@
       "athlete_id": "CL4160",
       "performance": "6.06",
       "discipline": "Pes (4kg) S16M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ERIC GRAU PINENT",
@@ -563,7 +632,8 @@
       "athlete_id": "CL4398",
       "performance": "3.52",
       "discipline": "Pes (4kg) S16M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ERIC GRAU PINENT",
@@ -571,7 +641,8 @@
       "athlete_id": "CL4398",
       "performance": "3.92",
       "discipline": "Pes (4kg) S16M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ERIC GRAU PINENT",
@@ -579,7 +650,8 @@
       "athlete_id": "CL4398",
       "performance": "4.26",
       "discipline": "Pes (4kg) S16M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "IKER FUENTES PUESTA",
@@ -587,7 +659,8 @@
       "athlete_id": "CL11325",
       "performance": "1.66",
       "discipline": "Altura S16M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "OSCAR IBAÑEZ RIZO",
@@ -595,7 +668,8 @@
       "athlete_id": "CL4160",
       "performance": "1.51",
       "discipline": "Altura S16M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "FERRAN MASCARO NAVARRO",
@@ -603,7 +677,8 @@
       "athlete_id": "CL96310",
       "performance": "1.51",
       "discipline": "Altura S16M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "CESSAR AINA PRECIADO FOREMAN",
@@ -611,7 +686,8 @@
       "athlete_id": "CL15333",
       "performance": "1.51",
       "discipline": "Altura S16M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "THIAGO SILVA ARANDA",
@@ -619,7 +695,8 @@
       "athlete_id": "CL11075",
       "performance": "8.29",
       "discipline": "Pes (2kg) S12M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "THIAGO SILVA ARANDA",
@@ -627,7 +704,8 @@
       "athlete_id": "CL11075",
       "performance": "8.75",
       "discipline": "Pes (2kg) S12M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "BLAI LLIGADAS TURON",
@@ -635,7 +713,8 @@
       "athlete_id": "CL11069",
       "performance": "6.30",
       "discipline": "Pes (2kg) S12M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "BLAI LLIGADAS TURON",
@@ -643,7 +722,8 @@
       "athlete_id": "CL11069",
       "performance": "6.98",
       "discipline": "Pes (2kg) S12M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "BLAI LLIGADAS TURON",
@@ -651,7 +731,8 @@
       "athlete_id": "CL11069",
       "performance": "7.01",
       "discipline": "Pes (2kg) S12M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "OLIVIER CASAS MUIÑO",
@@ -659,7 +740,8 @@
       "athlete_id": "CL11597",
       "performance": "5.87",
       "discipline": "Pes (2kg) S12M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "OLIVIER CASAS MUIÑO",
@@ -667,7 +749,8 @@
       "athlete_id": "CL11597",
       "performance": "5.00",
       "discipline": "Pes (2kg) S12M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "OLIVIER CASAS MUIÑO",
@@ -675,7 +758,8 @@
       "athlete_id": "CL11597",
       "performance": "4.91",
       "discipline": "Pes (2kg) S12M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ORIOL GAYA VALLES",
@@ -683,7 +767,8 @@
       "athlete_id": "CL14915",
       "performance": "5.38",
       "discipline": "Pes (2kg) S12M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ORIOL GAYA VALLES",
@@ -691,7 +776,8 @@
       "athlete_id": "CL14915",
       "performance": "5.50",
       "discipline": "Pes (2kg) S12M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ORIOL GAYA VALLES",
@@ -699,7 +785,8 @@
       "athlete_id": "CL14915",
       "performance": "5.08",
       "discipline": "Pes (2kg) S12M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "SERGI AGUZA PIQUERAS",
@@ -707,7 +794,8 @@
       "athlete_id": "CL15055",
       "performance": "4.52",
       "discipline": "Pes (2kg) S12M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "FABRICIO LEANDRO DEL VALLE SAND…",
@@ -715,7 +803,8 @@
       "athlete_id": "CAT-3789599",
       "performance": "3.95",
       "discipline": "Pes (2kg) S12M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "KILIAN PEDROL ESPINOSA",
@@ -723,7 +812,8 @@
       "athlete_id": "CL7676",
       "performance": "8.43",
       "discipline": "Pes (3kg) S14M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "KILIAN PEDROL ESPINOSA",
@@ -731,7 +821,8 @@
       "athlete_id": "CL7676",
       "performance": "8.71",
       "discipline": "Pes (3kg) S14M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "KILIAN PEDROL ESPINOSA",
@@ -739,7 +830,8 @@
       "athlete_id": "CL7676",
       "performance": "8.64",
       "discipline": "Pes (3kg) S14M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ANTONIO BALAZOTE",
@@ -747,7 +839,8 @@
       "athlete_id": "CL11067",
       "performance": "6.60",
       "discipline": "Pes (3kg) S14M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ANTONIO BALAZOTE",
@@ -755,7 +848,8 @@
       "athlete_id": "CL11067",
       "performance": "7.35",
       "discipline": "Pes (3kg) S14M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ANTONIO BALAZOTE",
@@ -763,7 +857,8 @@
       "athlete_id": "CL11067",
       "performance": "7.49",
       "discipline": "Pes (3kg) S14M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "MARTI GONZALEZ CERESUELA",
@@ -771,7 +866,8 @@
       "athlete_id": "CL4347",
       "performance": "6.65",
       "discipline": "Pes (3kg) S14M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "MARTI GONZALEZ CERESUELA",
@@ -779,7 +875,8 @@
       "athlete_id": "CL4347",
       "performance": "6.50",
       "discipline": "Pes (3kg) S14M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "MARTI GONZALEZ CERESUELA",
@@ -787,7 +884,8 @@
       "athlete_id": "CL4347",
       "performance": "7.38",
       "discipline": "Pes (3kg) S14M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "NIL TORRES PRATS",
@@ -795,7 +893,8 @@
       "athlete_id": "CL7611",
       "performance": "5.77",
       "discipline": "Pes (3kg) S14M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "NIL TORRES PRATS",
@@ -803,7 +902,8 @@
       "athlete_id": "CL7611",
       "performance": "6.22",
       "discipline": "Pes (3kg) S14M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "NIL TORRES PRATS",
@@ -811,7 +911,8 @@
       "athlete_id": "CL7611",
       "performance": "5.43",
       "discipline": "Pes (3kg) S14M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "DANIEL LINARES ANTELO",
@@ -819,7 +920,8 @@
       "athlete_id": "CAT-3723389",
       "performance": "5.30",
       "discipline": "Pes (3kg) S14M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "DANIEL LINARES ANTELO",
@@ -827,7 +929,8 @@
       "athlete_id": "CAT-3723389",
       "performance": "4.43",
       "discipline": "Pes (3kg) S14M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "DANIEL LINARES ANTELO",
@@ -835,7 +938,8 @@
       "athlete_id": "CAT-3723389",
       "performance": "4.87",
       "discipline": "Pes (3kg) S14M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "SAMUEL MARCOS PEREZ",
@@ -843,7 +947,8 @@
       "athlete_id": "CL90024",
       "performance": "10.37",
       "discipline": "Pes (5kg) S18M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "SAMUEL MARCOS PEREZ",
@@ -851,7 +956,8 @@
       "athlete_id": "CL90024",
       "performance": "10.68",
       "discipline": "Pes (5kg) S18M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "SAMUEL MARCOS PEREZ",
@@ -859,7 +965,8 @@
       "athlete_id": "CL90024",
       "performance": "10.52",
       "discipline": "Pes (5kg) S18M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "IVAN FERRER VILLA",
@@ -867,7 +974,8 @@
       "athlete_id": "CL86457",
       "performance": "8.12",
       "discipline": "Pes (5kg) S18M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "IVAN FERRER VILLA",
@@ -875,7 +983,8 @@
       "athlete_id": "CL86457",
       "performance": "8.48",
       "discipline": "Pes (5kg) S18M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "IVAN FERRER VILLA",
@@ -883,7 +992,8 @@
       "athlete_id": "CL86457",
       "performance": "9.08",
       "discipline": "Pes (5kg) S18M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "DAVID FERNANDEZ PINEDA",
@@ -891,7 +1001,8 @@
       "athlete_id": "CL11323",
       "performance": "7.70",
       "discipline": "Pes (5kg) S18M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "DAVID FERNANDEZ PINEDA",
@@ -899,7 +1010,8 @@
       "athlete_id": "CL11323",
       "performance": "7.94",
       "discipline": "Pes (5kg) S18M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "DAVID FERNANDEZ PINEDA",
@@ -907,7 +1019,8 @@
       "athlete_id": "CL11323",
       "performance": "9.00",
       "discipline": "Pes (5kg) S18M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "PAU ESTEVE HOSTALOT",
@@ -915,7 +1028,8 @@
       "athlete_id": "CL94383",
       "performance": "7.83",
       "discipline": "Pes (5kg) S18M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "PAU ESTEVE HOSTALOT",
@@ -923,7 +1037,8 @@
       "athlete_id": "CL94383",
       "performance": "8.46",
       "discipline": "Pes (5kg) S18M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "PAU ESTEVE HOSTALOT",
@@ -931,7 +1046,8 @@
       "athlete_id": "CL94383",
       "performance": "8.44",
       "discipline": "Pes (5kg) S18M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "DANIEL LINARES ANTELO",
@@ -939,7 +1055,8 @@
       "athlete_id": "CAT-3723389",
       "performance": "15.49",
       "discipline": "80m tanques (0,84) S14M",
-      "wind": "+0.0"
+      "wind": "+0.0",
+      "position": null
     },
     {
       "athlete_name": "MARTI GONZALEZ CERESUELA",
@@ -947,7 +1064,8 @@
       "athlete_id": "CL4347",
       "performance": "18.28",
       "discipline": "80m tanques (0,84) S14M",
-      "wind": "+0.0"
+      "wind": "+0.0",
+      "position": null
     },
     {
       "athlete_name": "KILIAN PEDROL ESPINOSA",
@@ -955,7 +1073,8 @@
       "athlete_id": "CL7676",
       "performance": "14.71",
       "discipline": "80m tanques (0,84) S14M",
-      "wind": "+0.0"
+      "wind": "+0.0",
+      "position": null
     },
     {
       "athlete_name": "ANTONIO BALAZOTE",
@@ -963,7 +1082,8 @@
       "athlete_id": "CL11067",
       "performance": "16.62",
       "discipline": "80m tanques (0,84) S14M",
-      "wind": "+0.0"
+      "wind": "+0.0",
+      "position": null
     },
     {
       "athlete_name": "NIL TORRES PRATS",
@@ -971,7 +1091,8 @@
       "athlete_id": "CL7611",
       "performance": "17.98",
       "discipline": "80m tanques (0,84) S14M",
-      "wind": "+0.0"
+      "wind": "+0.0",
+      "position": null
     },
     {
       "athlete_name": "SAMUEL MARCOS PEREZ",
@@ -979,7 +1100,8 @@
       "athlete_id": "CL90024",
       "performance": "1.63",
       "discipline": "Altura S18M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "PAU ESTEVE HOSTALOT",
@@ -987,7 +1109,8 @@
       "athlete_id": "CL94383",
       "performance": "1.57",
       "discipline": "Altura S18M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "DAVID FERNANDEZ PINEDA",
@@ -995,7 +1118,8 @@
       "athlete_id": "CL11323",
       "performance": "1.51",
       "discipline": "Altura S18M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "IVAN FERRER VILLA",
@@ -1003,7 +1127,8 @@
       "athlete_id": "CL86457",
       "performance": "1.39",
       "discipline": "Altura S18M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "BLAI LLIGADAS TURON",
@@ -1011,7 +1136,8 @@
       "athlete_id": "CL11069",
       "performance": "1.24",
       "discipline": "Altura S12M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ORIOL GAYA VALLES",
@@ -1019,7 +1145,8 @@
       "athlete_id": "CL14915",
       "performance": "1.21",
       "discipline": "Altura S12M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "OLIVIER CASAS MUIÑO",
@@ -1027,7 +1154,8 @@
       "athlete_id": "CL11597",
       "performance": "1.06",
       "discipline": "Altura S12M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "SERGI AGUZA PIQUERAS",
@@ -1035,7 +1163,8 @@
       "athlete_id": "CL15055",
       "performance": "1.00",
       "discipline": "Altura S12M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "IKER FUENTES PUESTA",
@@ -1043,7 +1172,8 @@
       "athlete_id": "CL11325",
       "performance": "26.68",
       "discipline": "Disc (1kg) S16M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "IKER FUENTES PUESTA",
@@ -1051,7 +1181,8 @@
       "athlete_id": "CL11325",
       "performance": "24.52",
       "discipline": "Disc (1kg) S16M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "OSCAR IBAÑEZ RIZO",
@@ -1059,7 +1190,8 @@
       "athlete_id": "CL4160",
       "performance": "21.64",
       "discipline": "Disc (1kg) S16M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "CESSAR AINA PRECIADO FOREMAN",
@@ -1067,7 +1199,8 @@
       "athlete_id": "CL15333",
       "performance": "20.06",
       "discipline": "Disc (1kg) S16M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "FERRAN MASCARO NAVARRO",
@@ -1075,7 +1208,8 @@
       "athlete_id": "CL96310",
       "performance": "19.55",
       "discipline": "Disc (1kg) S16M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "FERRAN MASCARO NAVARRO",
@@ -1083,7 +1217,8 @@
       "athlete_id": "CL96310",
       "performance": "19.87",
       "discipline": "Disc (1kg) S16M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ERIC GRAU PINENT",
@@ -1091,7 +1226,8 @@
       "athlete_id": "CL4398",
       "performance": "13.25",
       "discipline": "Disc (1kg) S16M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ERIC GRAU PINENT",
@@ -1099,7 +1235,8 @@
       "athlete_id": "CL4398",
       "performance": "15.05",
       "discipline": "Disc (1kg) S16M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ERIC GRAU PINENT",
@@ -1107,7 +1244,8 @@
       "athlete_id": "CL4398",
       "performance": "14.65",
       "discipline": "Disc (1kg) S16M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "IKER FUENTES PUESTA",
@@ -1115,7 +1253,8 @@
       "athlete_id": "CL11325",
       "performance": "14.75",
       "discipline": "100m tanques (0,91) S16M",
-      "wind": "+0.4"
+      "wind": "+0.4",
+      "position": null
     },
     {
       "athlete_name": "ERIC GRAU PINENT",
@@ -1123,7 +1262,8 @@
       "athlete_id": "CL4398",
       "performance": "23.25",
       "discipline": "100m tanques (0,91) S16M",
-      "wind": "+0.4"
+      "wind": "+0.4",
+      "position": null
     },
     {
       "athlete_name": "PAU ESTEVE HOSTALOT",
@@ -1131,7 +1271,8 @@
       "athlete_id": "CL94383",
       "performance": "54.42",
       "discipline": "400m S18M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "SAMUEL MARCOS PEREZ",
@@ -1139,7 +1280,8 @@
       "athlete_id": "CL90024",
       "performance": "55.21",
       "discipline": "400m S18M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "IVAN FERRER VILLA",
@@ -1147,7 +1289,8 @@
       "athlete_id": "CL86457",
       "performance": "1:00.58",
       "discipline": "400m S18M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "DAVID FERNANDEZ PINEDA",
@@ -1155,7 +1298,8 @@
       "athlete_id": "CL11323",
       "performance": "1:01.52",
       "discipline": "400m S18M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "KILIAN PEDROL ESPINOSA",
@@ -1163,7 +1307,8 @@
       "athlete_id": "CL7676",
       "performance": "1.56",
       "discipline": "Altura S14M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ANTONIO BALAZOTE",
@@ -1171,7 +1316,8 @@
       "athlete_id": "CL11067",
       "performance": "1.38",
       "discipline": "Altura S14M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "MARTI GONZALEZ CERESUELA",
@@ -1179,7 +1325,8 @@
       "athlete_id": "CL4347",
       "performance": "1.32",
       "discipline": "Altura S14M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "NIL TORRES PRATS",
@@ -1187,7 +1334,8 @@
       "athlete_id": "CL7611",
       "performance": "1.26",
       "discipline": "Altura S14M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "DANIEL LINARES ANTELO",
@@ -1195,7 +1343,8 @@
       "athlete_id": "CAT-3723389-A",
       "performance": "1.11",
       "discipline": "Altura S14M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "SAMUEL MARCOS PEREZ",
@@ -1203,7 +1352,8 @@
       "athlete_id": "CL90024",
       "performance": "16.21",
       "discipline": "110m tanques (0,914) S18M",
-      "wind": "+0.8"
+      "wind": "+0.8",
+      "position": null
     },
     {
       "athlete_name": "PAU ESTEVE HOSTALOT",
@@ -1211,7 +1361,8 @@
       "athlete_id": "CL94383",
       "performance": "16.38",
       "discipline": "110m tanques (0,914) S18M",
-      "wind": "+0.8"
+      "wind": "+0.8",
+      "position": null
     },
     {
       "athlete_name": "IVAN FERRER VILLA",
@@ -1219,7 +1370,8 @@
       "athlete_id": "CL86457",
       "performance": "19.26",
       "discipline": "110m tanques (0,914) S18M",
-      "wind": "+0.8"
+      "wind": "+0.8",
+      "position": null
     },
     {
       "athlete_name": "DAVID FERNANDEZ PINEDA",
@@ -1227,7 +1379,8 @@
       "athlete_id": "CL11323",
       "performance": "20.75",
       "discipline": "110m tanques (0,914) S18M",
-      "wind": "+0.8"
+      "wind": "+0.8",
+      "position": null
     },
     {
       "athlete_name": "IKER FUENTES PUESTA",
@@ -1235,7 +1388,8 @@
       "athlete_id": "CL11325",
       "performance": "2.60",
       "discipline": "Perxa S16M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "SAMUEL MARCOS PEREZ",
@@ -1243,7 +1397,8 @@
       "athlete_id": "CL90024",
       "performance": "32.94",
       "discipline": "Disc (1,5kg) S18M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "SAMUEL MARCOS PEREZ",
@@ -1251,7 +1406,8 @@
       "athlete_id": "CL90024",
       "performance": "31.25",
       "discipline": "Disc (1,5kg) S18M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "SAMUEL MARCOS PEREZ",
@@ -1259,7 +1415,8 @@
       "athlete_id": "CL90024",
       "performance": "33.36",
       "discipline": "Disc (1,5kg) S18M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "DAVID FERNANDEZ PINEDA",
@@ -1267,7 +1424,8 @@
       "athlete_id": "CL11323",
       "performance": "20.69",
       "discipline": "Disc (1,5kg) S18M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "DAVID FERNANDEZ PINEDA",
@@ -1275,7 +1433,8 @@
       "athlete_id": "CL11323",
       "performance": "26.24",
       "discipline": "Disc (1,5kg) S18M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "PAU ESTEVE HOSTALOT",
@@ -1283,7 +1442,8 @@
       "athlete_id": "CL94383",
       "performance": "20.47",
       "discipline": "Disc (1,5kg) S18M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "PAU ESTEVE HOSTALOT",
@@ -1291,7 +1451,8 @@
       "athlete_id": "CL94383",
       "performance": "24.89",
       "discipline": "Disc (1,5kg) S18M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "PAU ESTEVE HOSTALOT",
@@ -1299,7 +1460,8 @@
       "athlete_id": "CL94383",
       "performance": "22.31",
       "discipline": "Disc (1,5kg) S18M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "IVAN FERRER VILLA",
@@ -1307,7 +1469,8 @@
       "athlete_id": "CL86457",
       "performance": "21.14",
       "discipline": "Disc (1,5kg) S18M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "IVAN FERRER VILLA",
@@ -1315,7 +1478,8 @@
       "athlete_id": "CL86457",
       "performance": "17.36",
       "discipline": "Disc (1,5kg) S18M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "IKER FUENTES PUESTA",
@@ -1323,7 +1487,8 @@
       "athlete_id": "CL11325",
       "performance": "32.17",
       "discipline": "Javelina (600g) S16M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "IKER FUENTES PUESTA",
@@ -1331,7 +1496,8 @@
       "athlete_id": "CL11325",
       "performance": "35.81",
       "discipline": "Javelina (600g) S16M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ERIC GRAU PINENT",
@@ -1339,7 +1505,8 @@
       "athlete_id": "CL4398",
       "performance": "14.63",
       "discipline": "Javelina (600g) S16M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ERIC GRAU PINENT",
@@ -1347,7 +1514,8 @@
       "athlete_id": "CL4398",
       "performance": "15.08",
       "discipline": "Javelina (600g) S16M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ERIC GRAU PINENT",
@@ -1355,7 +1523,8 @@
       "athlete_id": "CL4398",
       "performance": "17.63",
       "discipline": "Javelina (600g) S16M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "IKER FUENTES PUESTA",
@@ -1363,7 +1532,8 @@
       "athlete_id": "CL11325",
       "performance": "3:14.77",
       "discipline": "1.000m S16M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ERIC GRAU PINENT",
@@ -1371,7 +1541,8 @@
       "athlete_id": "CL4398",
       "performance": "4:02.42",
       "discipline": "1.000m S16M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "SAMUEL MARCOS PEREZ",
@@ -1379,7 +1550,8 @@
       "athlete_id": "CL90024",
       "performance": "3.70",
       "discipline": "Perxa S18M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "DAVID FERNANDEZ PINEDA",
@@ -1387,7 +1559,8 @@
       "athlete_id": "CL11323",
       "performance": "2.00",
       "discipline": "Perxa S18M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "SAMUEL MARCOS PEREZ",
@@ -1395,7 +1568,8 @@
       "athlete_id": "CL90024",
       "performance": "34.77",
       "discipline": "Javelina (700g) S18M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "SAMUEL MARCOS PEREZ",
@@ -1403,7 +1577,8 @@
       "athlete_id": "CL90024",
       "performance": "31.17",
       "discipline": "Javelina (700g) S18M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "DAVID FERNANDEZ PINEDA",
@@ -1411,7 +1586,8 @@
       "athlete_id": "CL11323",
       "performance": "26.64",
       "discipline": "Javelina (700g) S18M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "DAVID FERNANDEZ PINEDA",
@@ -1419,7 +1595,8 @@
       "athlete_id": "CL11323",
       "performance": "29.96",
       "discipline": "Javelina (700g) S18M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "SAMUEL MARCOS PEREZ",
@@ -1427,7 +1604,8 @@
       "athlete_id": "CL90024",
       "performance": "4:52.90",
       "discipline": "1.500m S18M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "DAVID FERNANDEZ PINEDA",
@@ -1435,7 +1613,8 @@
       "athlete_id": "CL11323",
       "performance": "5:24.93",
       "discipline": "1.500m S18M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "BLAI LLIGADAS TURON",
@@ -1443,7 +1622,8 @@
       "athlete_id": "CL11069",
       "performance": "1035",
       "discipline": "Tetratló S12M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ORIOL GAYA VALLES",
@@ -1451,7 +1631,8 @@
       "athlete_id": "CL14915",
       "performance": "799",
       "discipline": "Tetratló S12M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "THIAGO SILVA ARANDA",
@@ -1459,7 +1640,8 @@
       "athlete_id": "CL11075",
       "performance": "732",
       "discipline": "Tetratló S12M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "OLIVIER CASAS MUIÑO",
@@ -1467,7 +1649,8 @@
       "athlete_id": "CL11597",
       "performance": "709",
       "discipline": "Tetratló S12M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "SERGI AGUZA PIQUERAS",
@@ -1475,7 +1658,8 @@
       "athlete_id": "CL15055",
       "performance": "370",
       "discipline": "Tetratló S12M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "FABRICIO LEANDRO DEL VALLE SANDOVAL",
@@ -1483,7 +1667,8 @@
       "athlete_id": "CAT-3789599-A",
       "performance": "164",
       "discipline": "Tetratló S12M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "KILIAN PEDROL ESPINOSA",
@@ -1491,7 +1676,8 @@
       "athlete_id": "CL7676",
       "performance": "1883",
       "discipline": "Pentatló S14M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ANTONIO BALAZOTE",
@@ -1499,7 +1685,8 @@
       "athlete_id": "CL11067",
       "performance": "1522",
       "discipline": "Pentatló S14M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "MARTI GONZALEZ CERESUELA",
@@ -1507,7 +1694,8 @@
       "athlete_id": "CL4347",
       "performance": "1274",
       "discipline": "Pentatló S14M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "NIL TORRES PRATS",
@@ -1515,7 +1703,8 @@
       "athlete_id": "CL7611",
       "performance": "1157",
       "discipline": "Pentatló S14M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "DANIEL LINARES ANTELO",
@@ -1523,7 +1712,8 @@
       "athlete_id": "CAT-3723389-A",
       "performance": "1154",
       "discipline": "Pentatló S14M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "IKER FUENTES PUESTA",
@@ -1531,7 +1721,8 @@
       "athlete_id": "CL11325",
       "performance": "4117",
       "discipline": "Pentatló S14M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "CESSAR AINA PRECIADO FOREMAN DNS DNS DNS DNS",
@@ -1539,7 +1730,8 @@
       "athlete_id": "CL15333",
       "performance": "1654",
       "discipline": "Pentatló S14M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "FERRAN MASCARO NAVARRO DNS DNS DNS",
@@ -1547,7 +1739,8 @@
       "athlete_id": "CL96310",
       "performance": "1558",
       "discipline": "Pentatló S14M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "OSCAR IBAÑEZ RIZO DNS DNS DNS DNS",
@@ -1555,7 +1748,8 @@
       "athlete_id": "CL4160",
       "performance": "1406",
       "discipline": "Pentatló S14M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ERIC GRAU PINENT",
@@ -1563,7 +1757,8 @@
       "athlete_id": "CL4398",
       "performance": "915",
       "discipline": "Pentatló S14M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "EVA JACOB GARCIA",
@@ -1571,7 +1766,8 @@
       "athlete_id": "CL7254",
       "performance": "18.36",
       "discipline": "100m tanques (0,762) S16F",
-      "wind": "+0.7"
+      "wind": "+0.7",
+      "position": null
     },
     {
       "athlete_name": "VICTORIA CHIAMAKA ONYEMAEKWU AHANOTU",
@@ -1579,7 +1775,8 @@
       "athlete_id": "CL6108",
       "performance": "18.63",
       "discipline": "100m tanques (0,762) S16F",
-      "wind": "+0.7"
+      "wind": "+0.7",
+      "position": null
     },
     {
       "athlete_name": "ARLET SOLANA VILA",
@@ -1587,7 +1784,8 @@
       "athlete_id": "CL11154",
       "performance": "19.37",
       "discipline": "100m tanques (0,762) S16F",
-      "wind": "+1.6"
+      "wind": "+1.6",
+      "position": null
     },
     {
       "athlete_name": "MARIA MARTIN CUADRADO",
@@ -1595,7 +1793,8 @@
       "athlete_id": "CL1089",
       "performance": "20.53",
       "discipline": "100m tanques (0,762) S16F",
-      "wind": "+1.6"
+      "wind": "+1.6",
+      "position": null
     },
     {
       "athlete_name": "STELLA PEREIRA CONTRERAS",
@@ -1603,7 +1802,8 @@
       "athlete_id": "CL7607",
       "performance": "20.91",
       "discipline": "100m tanques (0,762) S16F",
-      "wind": "+1.6"
+      "wind": "+1.6",
+      "position": null
     },
     {
       "athlete_name": "NORA MONTOLIO AMARO",
@@ -1611,7 +1811,8 @@
       "athlete_id": "CAT-3895023",
       "performance": "16.31",
       "discipline": "100m tanques (0,762) S18F",
-      "wind": "+1.6"
+      "wind": "+1.6",
+      "position": null
     },
     {
       "athlete_name": "ALBA GUIJARRO ROM",
@@ -1619,7 +1820,8 @@
       "athlete_id": "CAT-3895015",
       "performance": "21.42",
       "discipline": "100m tanques (0,762) S18F",
-      "wind": "+1.6"
+      "wind": "+1.6",
+      "position": null
     },
     {
       "athlete_name": "ÈLIA BAYÓN FERNÁNDEZ",
@@ -1627,7 +1829,8 @@
       "athlete_id": "CAT-3889577",
       "performance": "10.32",
       "discipline": "60m tanques (0,50) S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "PAULA PEREIRA CONTRERAS",
@@ -1635,7 +1838,8 @@
       "athlete_id": "CAT-3789541",
       "performance": "13.83",
       "discipline": "60m tanques (0,50) S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "MONTSERRAT MARQUES CRUZ",
@@ -1643,7 +1847,8 @@
       "athlete_id": "CL11596",
       "performance": "10.49",
       "discipline": "60m tanques (0,50) S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "MARIA DA ROCHA SANTIBAÑEZ",
@@ -1651,7 +1856,8 @@
       "athlete_id": "CAT-3789539",
       "performance": "12.22",
       "discipline": "60m tanques (0,50) S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ISONA MASIP SALA",
@@ -1659,7 +1865,8 @@
       "athlete_id": "CL15059",
       "performance": "13.11",
       "discipline": "60m tanques (0,50) S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "GINESTA MARRUGAT CANADELL",
@@ -1667,7 +1874,8 @@
       "athlete_id": "CAT-3789549",
       "performance": "13.49",
       "discipline": "60m tanques (0,50) S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "SARA LOPEZ GARCIA",
@@ -1675,7 +1883,8 @@
       "athlete_id": "CL11066",
       "performance": "11.03",
       "discipline": "60m tanques (0,50) S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ADA FELIU LORCA",
@@ -1683,7 +1892,8 @@
       "athlete_id": "CL15054",
       "performance": "11.90",
       "discipline": "60m tanques (0,50) S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "PAULA BLAZQUEZ BENSENY",
@@ -1691,7 +1901,8 @@
       "athlete_id": "CAT-3843630",
       "performance": "10.90",
       "discipline": "60m tanques (0,50) S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "JULIA MUSTE SANTIAGO",
@@ -1699,7 +1910,8 @@
       "athlete_id": "CL14892",
       "performance": "11.66",
       "discipline": "60m tanques (0,50) S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "CARLOTA FRUTOS MATURANA",
@@ -1707,7 +1919,8 @@
       "athlete_id": "CAT-3723407",
       "performance": "12.41",
       "discipline": "60m tanques (0,50) S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ELENA ALUSTIZA BUENO",
@@ -1715,7 +1928,8 @@
       "athlete_id": "CAT-3722106",
       "performance": "14.11",
       "discipline": "60m tanques (0,50) S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "INDIA MARTIN CUADRADO",
@@ -1723,7 +1937,8 @@
       "athlete_id": "CL7608",
       "performance": "17.26",
       "discipline": "80m tanques (0,762) S14F",
-      "wind": "+0.0"
+      "wind": "+0.0",
+      "position": null
     },
     {
       "athlete_name": "INDIA MARTIN CUADRADO",
@@ -1731,7 +1946,8 @@
       "athlete_id": "CL7608",
       "performance": "12.45",
       "discipline": "80m tanques (0,762) S14F",
-      "wind": "+0.0"
+      "wind": "+0.0",
+      "position": null
     },
     {
       "athlete_name": "LAIA DIAZ AGUILAR",
@@ -1739,7 +1955,8 @@
       "athlete_id": "CAT-3843749",
       "performance": "18.19",
       "discipline": "80m tanques (0,762) S14F",
-      "wind": "+0.0"
+      "wind": "+0.0",
+      "position": null
     },
     {
       "athlete_name": "LAIA DIAZ AGUILAR",
@@ -1747,7 +1964,8 @@
       "athlete_id": "CAT-3843749-A",
       "performance": "12.55",
       "discipline": "80m tanques (0,762) S14F",
-      "wind": "+0.0"
+      "wind": "+0.0",
+      "position": null
     },
     {
       "athlete_name": "AMELI TORRES ARBONES",
@@ -1755,7 +1973,8 @@
       "athlete_id": "CL15270",
       "performance": "15.56",
       "discipline": "80m tanques (0,762) S14F",
-      "wind": "+1.4"
+      "wind": "+1.4",
+      "position": null
     },
     {
       "athlete_name": "AMELI TORRES ARBONES",
@@ -1763,7 +1982,8 @@
       "athlete_id": "CL15270",
       "performance": "12.44",
       "discipline": "80m tanques (0,762) S14F",
-      "wind": "-2.4"
+      "wind": "-2.4",
+      "position": null
     },
     {
       "athlete_name": "JULIA DIEZ BERTRAN",
@@ -1771,7 +1991,8 @@
       "athlete_id": "CAT-3790507",
       "performance": "16.89",
       "discipline": "80m tanques (0,762) S14F",
-      "wind": "+1.4"
+      "wind": "+1.4",
+      "position": null
     },
     {
       "athlete_name": "JULIA DIEZ BERTRAN",
@@ -1779,7 +2000,8 @@
       "athlete_id": "CAT-3790507-A",
       "performance": "11.75",
       "discipline": "80m tanques (0,762) S14F",
-      "wind": "-2.4"
+      "wind": "-2.4",
+      "position": null
     },
     {
       "athlete_name": "ERIKA MARGALLO DEL VALLE",
@@ -1787,7 +2009,8 @@
       "athlete_id": "CL15267",
       "performance": "17.95",
       "discipline": "80m tanques (0,762) S14F",
-      "wind": "+1.4"
+      "wind": "+1.4",
+      "position": null
     },
     {
       "athlete_name": "ERIKA MARGALLO DEL VALLE",
@@ -1795,7 +2018,8 @@
       "athlete_id": "CL15267",
       "performance": "12.51",
       "discipline": "80m tanques (0,762) S14F",
-      "wind": "+0.0"
+      "wind": "+0.0",
+      "position": null
     },
     {
       "athlete_name": "MARTINA GÓMEZ ROJALS",
@@ -1803,7 +2027,8 @@
       "athlete_id": "CAT-3910530",
       "performance": "16.28",
       "discipline": "80m tanques (0,762) S14F",
-      "wind": "+1.2"
+      "wind": "+1.2",
+      "position": null
     },
     {
       "athlete_name": "MARTINA GÓMEZ ROJALS",
@@ -1811,7 +2036,8 @@
       "athlete_id": "CAT-3910530-A",
       "performance": "11.01",
       "discipline": "80m tanques (0,762) S14F",
-      "wind": "+0.0"
+      "wind": "+0.0",
+      "position": null
     },
     {
       "athlete_name": "BLANCA FRUTOS MATURANA",
@@ -1819,7 +2045,8 @@
       "athlete_id": "CAT-3724257",
       "performance": "17.52",
       "discipline": "80m tanques (0,762) S14F",
-      "wind": "+1.2"
+      "wind": "+1.2",
+      "position": null
     },
     {
       "athlete_name": "BLANCA FRUTOS MATURANA",
@@ -1827,7 +2054,8 @@
       "athlete_id": "CAT-3724257-A",
       "performance": "12.58",
       "discipline": "80m tanques (0,762) S14F",
-      "wind": "+0.0"
+      "wind": "+0.0",
+      "position": null
     },
     {
       "athlete_name": "AITANA CASAS MUIÑO",
@@ -1835,7 +2063,8 @@
       "athlete_id": "CL11660",
       "performance": "19.52",
       "discipline": "80m tanques (0,762) S14F",
-      "wind": "+1.2"
+      "wind": "+1.2",
+      "position": null
     },
     {
       "athlete_name": "AITANA CASAS MUIÑO",
@@ -1843,7 +2072,8 @@
       "athlete_id": "CL11660",
       "performance": "11.91",
       "discipline": "80m tanques (0,762) S14F",
-      "wind": "+0.5"
+      "wind": "+0.5",
+      "position": null
     },
     {
       "athlete_name": "MARIA MARTIN CUADRADO",
@@ -1851,7 +2081,8 @@
       "athlete_id": "CL1089",
       "performance": "1.21",
       "discipline": "Altura S16F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "EVA JACOB GARCIA",
@@ -1859,7 +2090,8 @@
       "athlete_id": "CL7254",
       "performance": "1.21",
       "discipline": "Altura S16F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "STELLA PEREIRA CONTRERAS",
@@ -1867,7 +2099,8 @@
       "athlete_id": "CL7607",
       "performance": "1.21",
       "discipline": "Altura S16F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "MARTINA GÓMEZ ROJALS",
@@ -1875,7 +2108,8 @@
       "athlete_id": "CAT-3910530-A",
       "performance": "1.40",
       "discipline": "Altura S14F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "AMELI TORRES ARBONES",
@@ -1883,7 +2117,8 @@
       "athlete_id": "CL15270",
       "performance": "1.28",
       "discipline": "Altura S14F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ERIKA MARGALLO DEL VALLE",
@@ -1891,7 +2126,8 @@
       "athlete_id": "CL15267",
       "performance": "1.28",
       "discipline": "Altura S14F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "JULIA DIEZ BERTRAN",
@@ -1899,7 +2135,8 @@
       "athlete_id": "CAT-3790507-A",
       "performance": "1.16",
       "discipline": "Altura S14F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "BLANCA FRUTOS MATURANA",
@@ -1907,7 +2144,8 @@
       "athlete_id": "CAT-3724257-A",
       "performance": "1.16",
       "discipline": "Altura S14F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "AITANA CASAS MUIÑO",
@@ -1915,7 +2153,8 @@
       "athlete_id": "CL11660",
       "performance": "1.10",
       "discipline": "Altura S14F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "NORA MONTOLIO AMARO",
@@ -1923,7 +2162,8 @@
       "athlete_id": "CAT-3895023-A",
       "performance": "1.51",
       "discipline": "Altura S18F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ALBA GUIJARRO ROM",
@@ -1931,7 +2171,8 @@
       "athlete_id": "CAT-3895015-A",
       "performance": "1.30",
       "discipline": "Altura S18F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "MONTSERRAT MARQUES CRUZ",
@@ -1939,7 +2180,8 @@
       "athlete_id": "CL11596",
       "performance": "7.08",
       "discipline": "Peso (2kg) S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "MONTSERRAT MARQUES CRUZ",
@@ -1947,7 +2189,8 @@
       "athlete_id": "CL11596",
       "performance": "7.01",
       "discipline": "Peso (2kg) S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "MONTSERRAT MARQUES CRUZ",
@@ -1955,31 +2198,8 @@
       "athlete_id": "CL11596",
       "performance": "6.42",
       "discipline": "Peso (2kg) S12F",
-      "wind": null
-    },
-    {
-      "athlete_name": "MONTSERRAT MARQUES CRUZ",
-      "athlete_dob": "27/1/2015",
-      "athlete_id": "CL11596",
-      "performance": "3.21",
-      "discipline": "Peso (2kg) S12F",
-      "wind": null
-    },
-    {
-      "athlete_name": "MONTSERRAT MARQUES CRUZ",
-      "athlete_dob": "27/1/2015",
-      "athlete_id": "CL11596",
-      "performance": "3.31",
-      "discipline": "Peso (2kg) S12F",
-      "wind": null
-    },
-    {
-      "athlete_name": "MONTSERRAT MARQUES CRUZ",
-      "athlete_dob": "27/1/2015",
-      "athlete_id": "CL11596",
-      "performance": "3.03",
-      "discipline": "Peso (2kg) S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "JULIA MUSTE SANTIAGO",
@@ -1987,7 +2207,8 @@
       "athlete_id": "CL14892",
       "performance": "5.45",
       "discipline": "Peso (2kg) S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "JULIA MUSTE SANTIAGO",
@@ -1995,7 +2216,8 @@
       "athlete_id": "CL14892",
       "performance": "5.70",
       "discipline": "Peso (2kg) S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "JULIA MUSTE SANTIAGO",
@@ -2003,23 +2225,8 @@
       "athlete_id": "CL14892",
       "performance": "5.95",
       "discipline": "Peso (2kg) S12F",
-      "wind": null
-    },
-    {
-      "athlete_name": "JULIA MUSTE SANTIAGO",
-      "athlete_dob": "30/9/2015",
-      "athlete_id": "CL14892",
-      "performance": "3.03",
-      "discipline": "Peso (2kg) S12F",
-      "wind": null
-    },
-    {
-      "athlete_name": "JULIA MUSTE SANTIAGO",
-      "athlete_dob": "30/9/2015",
-      "athlete_id": "CL14892",
-      "performance": "3.11",
-      "discipline": "Peso (2kg) S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ÈLIA BAYÓN FERNÁNDEZ",
@@ -2027,7 +2234,8 @@
       "athlete_id": "CAT-3889577",
       "performance": "4.66",
       "discipline": "Peso (2kg) S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ÈLIA BAYÓN FERNÁNDEZ",
@@ -2035,7 +2243,8 @@
       "athlete_id": "CAT-3889577",
       "performance": "5.70",
       "discipline": "Peso (2kg) S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ÈLIA BAYÓN FERNÁNDEZ",
@@ -2043,31 +2252,8 @@
       "athlete_id": "CAT-3889577",
       "performance": "4.69",
       "discipline": "Peso (2kg) S12F",
-      "wind": null
-    },
-    {
-      "athlete_name": "ÈLIA BAYÓN FERNÁNDEZ",
-      "athlete_dob": "18/5/2015",
-      "athlete_id": "CAT-3889577",
-      "performance": "3.56",
-      "discipline": "Peso (2kg) S12F",
-      "wind": null
-    },
-    {
-      "athlete_name": "ÈLIA BAYÓN FERNÁNDEZ",
-      "athlete_dob": "18/5/2015",
-      "athlete_id": "CAT-3889577",
-      "performance": "3.39",
-      "discipline": "Peso (2kg) S12F",
-      "wind": null
-    },
-    {
-      "athlete_name": "ÈLIA BAYÓN FERNÁNDEZ",
-      "athlete_dob": "18/5/2015",
-      "athlete_id": "CAT-3889577",
-      "performance": "3.23",
-      "discipline": "Peso (2kg) S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "SARA LOPEZ GARCIA",
@@ -2075,7 +2261,8 @@
       "athlete_id": "CL11066",
       "performance": "5.40",
       "discipline": "Peso (2kg) S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "SARA LOPEZ GARCIA",
@@ -2083,7 +2270,8 @@
       "athlete_id": "CL11066",
       "performance": "5.66",
       "discipline": "Peso (2kg) S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "SARA LOPEZ GARCIA",
@@ -2091,31 +2279,8 @@
       "athlete_id": "CL11066",
       "performance": "5.48",
       "discipline": "Peso (2kg) S12F",
-      "wind": null
-    },
-    {
-      "athlete_name": "SARA LOPEZ GARCIA",
-      "athlete_dob": "19/1/2015",
-      "athlete_id": "CL11066",
-      "performance": "3.54",
-      "discipline": "Peso (2kg) S12F",
-      "wind": null
-    },
-    {
-      "athlete_name": "SARA LOPEZ GARCIA",
-      "athlete_dob": "19/1/2015",
-      "athlete_id": "CL11066",
-      "performance": "3.45",
-      "discipline": "Peso (2kg) S12F",
-      "wind": null
-    },
-    {
-      "athlete_name": "SARA LOPEZ GARCIA",
-      "athlete_dob": "19/1/2015",
-      "athlete_id": "CL11066",
-      "performance": "3.49",
-      "discipline": "Peso (2kg) S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ADA FELIU LORCA",
@@ -2123,7 +2288,8 @@
       "athlete_id": "CL15054",
       "performance": "4.41",
       "discipline": "Peso (2kg) S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ADA FELIU LORCA",
@@ -2131,7 +2297,8 @@
       "athlete_id": "CL15054",
       "performance": "5.00",
       "discipline": "Peso (2kg) S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ADA FELIU LORCA",
@@ -2139,15 +2306,8 @@
       "athlete_id": "CL15054",
       "performance": "4.78",
       "discipline": "Peso (2kg) S12F",
-      "wind": null
-    },
-    {
-      "athlete_name": "ADA FELIU LORCA",
-      "athlete_dob": "7/5/2016",
-      "athlete_id": "CL15054",
-      "performance": "3.11",
-      "discipline": "Peso (2kg) S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "PAULA BLAZQUEZ BENSENY",
@@ -2155,7 +2315,8 @@
       "athlete_id": "CAT-3843630",
       "performance": "4.92",
       "discipline": "Peso (2kg) S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "PAULA BLAZQUEZ BENSENY",
@@ -2163,23 +2324,8 @@
       "athlete_id": "CAT-3843630",
       "performance": "4.78",
       "discipline": "Peso (2kg) S12F",
-      "wind": null
-    },
-    {
-      "athlete_name": "PAULA BLAZQUEZ BENSENY",
-      "athlete_dob": "11/6/2015",
-      "athlete_id": "CAT-3843630",
-      "performance": "3.42",
-      "discipline": "Peso (2kg) S12F",
-      "wind": null
-    },
-    {
-      "athlete_name": "PAULA BLAZQUEZ BENSENY",
-      "athlete_dob": "11/6/2015",
-      "athlete_id": "CAT-3843630",
-      "performance": "3.47",
-      "discipline": "Peso (2kg) S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "PAULA PEREIRA CONTRERAS",
@@ -2187,7 +2333,8 @@
       "athlete_id": "CAT-3789541",
       "performance": "4.44",
       "discipline": "Peso (2kg) S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "PAULA PEREIRA CONTRERAS",
@@ -2195,7 +2342,8 @@
       "athlete_id": "CAT-3789541",
       "performance": "4.00",
       "discipline": "Peso (2kg) S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "PAULA PEREIRA CONTRERAS",
@@ -2203,7 +2351,8 @@
       "athlete_id": "CAT-3789541",
       "performance": "4.38",
       "discipline": "Peso (2kg) S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "CARLOTA FRUTOS MATURANA",
@@ -2211,7 +2360,8 @@
       "athlete_id": "CAT-3723407",
       "performance": "3.91",
       "discipline": "Peso (2kg) S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ISONA MASIP SALA",
@@ -2219,7 +2369,8 @@
       "athlete_id": "CL15059",
       "performance": "3.89",
       "discipline": "Peso (2kg) S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "GINESTA MARRUGAT CANADELL",
@@ -2227,7 +2378,8 @@
       "athlete_id": "CAT-3789549",
       "performance": "3.63",
       "discipline": "Peso (2kg) S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "GINESTA MARRUGAT CANADELL",
@@ -2235,7 +2387,8 @@
       "athlete_id": "CAT-3789549",
       "performance": "3.65",
       "discipline": "Peso (2kg) S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ELENA ALUSTIZA BUENO",
@@ -2243,7 +2396,8 @@
       "athlete_id": "CAT-3722106",
       "performance": "3.56",
       "discipline": "Peso (2kg) S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ELENA ALUSTIZA BUENO",
@@ -2251,7 +2405,8 @@
       "athlete_id": "CAT-3722106",
       "performance": "3.50",
       "discipline": "Peso (2kg) S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ELENA ALUSTIZA BUENO",
@@ -2259,7 +2414,8 @@
       "athlete_id": "CAT-3722106",
       "performance": "3.29",
       "discipline": "Peso (2kg) S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "MARIA DA ROCHA SANTIBAÑEZ",
@@ -2267,31 +2423,8 @@
       "athlete_id": "CAT-3789539",
       "performance": "3.24",
       "discipline": "Peso (2kg) S12F",
-      "wind": null
-    },
-    {
-      "athlete_name": "MARIA DA ROCHA SANTIBAÑEZ",
-      "athlete_dob": "25/5/2016",
-      "athlete_id": "CAT-3789539",
-      "performance": "3.09",
-      "discipline": "Peso (2kg) S12F",
-      "wind": null
-    },
-    {
-      "athlete_name": "MARIA DA ROCHA SANTIBAÑEZ",
-      "athlete_dob": "25/5/2016",
-      "athlete_id": "CAT-3789539",
-      "performance": "3.02",
-      "discipline": "Peso (2kg) S12F",
-      "wind": null
-    },
-    {
-      "athlete_name": "XENIA GRACIA MARTI",
-      "athlete_dob": "23/8/2016",
-      "athlete_id": "CAT-3842738",
-      "performance": "3.35",
-      "discipline": "Peso (2kg) S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ÈLIA BAYÓN FERNÁNDEZ",
@@ -2299,7 +2432,8 @@
       "athlete_id": "CAT-3889577",
       "performance": "3.56",
       "discipline": "Llargada S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ÈLIA BAYÓN FERNÁNDEZ",
@@ -2307,7 +2441,8 @@
       "athlete_id": "CAT-3889577",
       "performance": "3.39",
       "discipline": "Llargada S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ÈLIA BAYÓN FERNÁNDEZ",
@@ -2315,15 +2450,8 @@
       "athlete_id": "CAT-3889577",
       "performance": "3.23",
       "discipline": "Llargada S12F",
-      "wind": null
-    },
-    {
-      "athlete_name": "ÈLIA BAYÓN FERNÁNDEZ",
-      "athlete_dob": "18/5/2015",
-      "athlete_id": "CAT-3889577",
-      "performance": "9.14",
-      "discipline": "Llargada S12F",
-      "wind": "+0.0"
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "SARA LOPEZ GARCIA",
@@ -2331,7 +2459,8 @@
       "athlete_id": "CL11066",
       "performance": "3.54",
       "discipline": "Llargada S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "SARA LOPEZ GARCIA",
@@ -2339,7 +2468,8 @@
       "athlete_id": "CL11066",
       "performance": "3.45",
       "discipline": "Llargada S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "SARA LOPEZ GARCIA",
@@ -2347,7 +2477,8 @@
       "athlete_id": "CL11066",
       "performance": "3.49",
       "discipline": "Llargada S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "PAULA BLAZQUEZ BENSENY",
@@ -2355,7 +2486,8 @@
       "athlete_id": "CAT-3843630",
       "performance": "3.42",
       "discipline": "Llargada S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "PAULA BLAZQUEZ BENSENY",
@@ -2363,7 +2495,8 @@
       "athlete_id": "CAT-3843630",
       "performance": "3.47",
       "discipline": "Llargada S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "MONTSERRAT MARQUES CRUZ",
@@ -2371,7 +2504,8 @@
       "athlete_id": "CL11596",
       "performance": "3.21",
       "discipline": "Llargada S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "MONTSERRAT MARQUES CRUZ",
@@ -2379,7 +2513,8 @@
       "athlete_id": "CL11596",
       "performance": "3.31",
       "discipline": "Llargada S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "MONTSERRAT MARQUES CRUZ",
@@ -2387,7 +2522,8 @@
       "athlete_id": "CL11596",
       "performance": "3.03",
       "discipline": "Llargada S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "JULIA MUSTE SANTIAGO",
@@ -2395,7 +2531,8 @@
       "athlete_id": "CL14892",
       "performance": "3.03",
       "discipline": "Llargada S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "JULIA MUSTE SANTIAGO",
@@ -2403,7 +2540,8 @@
       "athlete_id": "CL14892",
       "performance": "3.11",
       "discipline": "Llargada S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ADA FELIU LORCA",
@@ -2411,7 +2549,8 @@
       "athlete_id": "CL15054",
       "performance": "3.11",
       "discipline": "Llargada S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "MARIA DA ROCHA SANTIBAÑEZ",
@@ -2419,7 +2558,8 @@
       "athlete_id": "CAT-3789539",
       "performance": "3.09",
       "discipline": "Llargada S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "MARIA DA ROCHA SANTIBAÑEZ",
@@ -2427,7 +2567,8 @@
       "athlete_id": "CAT-3789539",
       "performance": "3.02",
       "discipline": "Llargada S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ISONA MASIP SALA",
@@ -2435,7 +2576,8 @@
       "athlete_id": "CL15059",
       "performance": "2.77",
       "discipline": "Llargada S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "GINESTA MARRUGAT CANADELL",
@@ -2443,7 +2585,8 @@
       "athlete_id": "CAT-3789549",
       "performance": "2.72",
       "discipline": "Llargada S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "CARLOTA FRUTOS MATURANA",
@@ -2451,15 +2594,8 @@
       "athlete_id": "CAT-3723407",
       "performance": "2.63",
       "discipline": "Llargada S12F",
-      "wind": null
-    },
-    {
-      "athlete_name": "CARLOTA FRUTOS MATURANA",
-      "athlete_dob": "18/7/2015",
-      "athlete_id": "CAT-3723407",
-      "performance": "10.24",
-      "discipline": "Llargada S12F",
-      "wind": "+0.0"
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ELENA ALUSTIZA BUENO",
@@ -2467,7 +2603,8 @@
       "athlete_id": "CAT-3722106",
       "performance": "2.15",
       "discipline": "Llargada S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "PAULA PEREIRA CONTRERAS",
@@ -2475,7 +2612,8 @@
       "athlete_id": "CAT-3789541",
       "performance": "1.83",
       "discipline": "Llargada S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "MARTINA GÓMEZ ROJALS",
@@ -2483,7 +2621,8 @@
       "athlete_id": "CAT-3910530",
       "performance": "6.70",
       "discipline": "Peso (3 kg) S14F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "MARTINA GÓMEZ ROJALS",
@@ -2491,7 +2630,8 @@
       "athlete_id": "CAT-3910530",
       "performance": "6.98",
       "discipline": "Peso (3 kg) S14F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "MARTINA GÓMEZ ROJALS",
@@ -2499,7 +2639,8 @@
       "athlete_id": "CAT-3910530",
       "performance": "7.06",
       "discipline": "Peso (3 kg) S14F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "JULIA DIEZ BERTRAN",
@@ -2507,7 +2648,8 @@
       "athlete_id": "CAT-3790507",
       "performance": "6.08",
       "discipline": "Peso (3 kg) S14F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "JULIA DIEZ BERTRAN",
@@ -2515,7 +2657,8 @@
       "athlete_id": "CAT-3790507",
       "performance": "6.40",
       "discipline": "Peso (3 kg) S14F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "JULIA DIEZ BERTRAN",
@@ -2523,7 +2666,8 @@
       "athlete_id": "CAT-3790507",
       "performance": "6.36",
       "discipline": "Peso (3 kg) S14F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ERIKA MARGALLO DEL VALLE",
@@ -2531,7 +2675,8 @@
       "athlete_id": "CL15267",
       "performance": "5.66",
       "discipline": "Peso (3 kg) S14F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ERIKA MARGALLO DEL VALLE",
@@ -2539,7 +2684,8 @@
       "athlete_id": "CL15267",
       "performance": "6.03",
       "discipline": "Peso (3 kg) S14F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ERIKA MARGALLO DEL VALLE",
@@ -2547,7 +2693,8 @@
       "athlete_id": "CL15267",
       "performance": "6.38",
       "discipline": "Peso (3 kg) S14F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "AMELI TORRES ARBONES",
@@ -2555,7 +2702,8 @@
       "athlete_id": "CL15270",
       "performance": "5.30",
       "discipline": "Peso (3 kg) S14F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "AMELI TORRES ARBONES",
@@ -2563,7 +2711,8 @@
       "athlete_id": "CL15270",
       "performance": "5.69",
       "discipline": "Peso (3 kg) S14F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "AMELI TORRES ARBONES",
@@ -2571,7 +2720,8 @@
       "athlete_id": "CL15270",
       "performance": "4.65",
       "discipline": "Peso (3 kg) S14F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "BLANCA FRUTOS MATURANA",
@@ -2579,7 +2729,8 @@
       "athlete_id": "CAT-3724257",
       "performance": "5.21",
       "discipline": "Peso (3 kg) S14F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "BLANCA FRUTOS MATURANA",
@@ -2587,7 +2738,8 @@
       "athlete_id": "CAT-3724257",
       "performance": "5.65",
       "discipline": "Peso (3 kg) S14F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "BLANCA FRUTOS MATURANA",
@@ -2595,7 +2747,8 @@
       "athlete_id": "CAT-3724257",
       "performance": "5.51",
       "discipline": "Peso (3 kg) S14F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "AITANA CASAS MUIÑO",
@@ -2603,7 +2756,8 @@
       "athlete_id": "CL11660",
       "performance": "5.25",
       "discipline": "Peso (3 kg) S14F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "AITANA CASAS MUIÑO",
@@ -2611,7 +2765,8 @@
       "athlete_id": "CL11660",
       "performance": "5.24",
       "discipline": "Peso (3 kg) S14F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "AITANA CASAS MUIÑO",
@@ -2619,7 +2774,8 @@
       "athlete_id": "CL11660",
       "performance": "5.06",
       "discipline": "Peso (3 kg) S14F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "LAIA DIAZ AGUILAR",
@@ -2627,7 +2783,8 @@
       "athlete_id": "CAT-3843749",
       "performance": "4.29",
       "discipline": "Peso (3 kg) S14F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "INDIA MARTIN CUADRADO",
@@ -2635,7 +2792,8 @@
       "athlete_id": "CL7608",
       "performance": "3.97",
       "discipline": "Peso (3 kg) S14F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "NORA MONTOLIO AMARO",
@@ -2643,7 +2801,8 @@
       "athlete_id": "CAT-3895023",
       "performance": "7.40",
       "discipline": "Pes (3kg) S18F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "NORA MONTOLIO AMARO",
@@ -2651,7 +2810,8 @@
       "athlete_id": "CAT-3895023",
       "performance": "7.55",
       "discipline": "Pes (3kg) S18F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "NORA MONTOLIO AMARO",
@@ -2659,7 +2819,8 @@
       "athlete_id": "CAT-3895023",
       "performance": "7.13",
       "discipline": "Pes (3kg) S18F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "STELLA PEREIRA CONTRERAS",
@@ -2667,7 +2828,8 @@
       "athlete_id": "CL7607",
       "performance": "7.40",
       "discipline": "Pes (3kg) S16F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "STELLA PEREIRA CONTRERAS",
@@ -2675,7 +2837,8 @@
       "athlete_id": "CL7607",
       "performance": "6.08",
       "discipline": "Pes (3kg) S16F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "STELLA PEREIRA CONTRERAS",
@@ -2683,7 +2846,8 @@
       "athlete_id": "CL7607",
       "performance": "6.40",
       "discipline": "Pes (3kg) S16F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ARLET SOLANA VILA",
@@ -2691,7 +2855,8 @@
       "athlete_id": "CL11154",
       "performance": "5.69",
       "discipline": "Pes (3kg) S16F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ARLET SOLANA VILA",
@@ -2699,7 +2864,8 @@
       "athlete_id": "CL11154",
       "performance": "6.21",
       "discipline": "Pes (3kg) S16F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ARLET SOLANA VILA",
@@ -2707,7 +2873,8 @@
       "athlete_id": "CL11154",
       "performance": "6.47",
       "discipline": "Pes (3kg) S16F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "EVA JACOB GARCIA",
@@ -2715,7 +2882,8 @@
       "athlete_id": "CL7254",
       "performance": "5.05",
       "discipline": "Pes (3kg) S16F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "EVA JACOB GARCIA",
@@ -2723,7 +2891,8 @@
       "athlete_id": "CL7254",
       "performance": "5.45",
       "discipline": "Pes (3kg) S16F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "EVA JACOB GARCIA",
@@ -2731,7 +2900,8 @@
       "athlete_id": "CL7254",
       "performance": "6.26",
       "discipline": "Pes (3kg) S16F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "MARIA MARTIN CUADRADO",
@@ -2739,7 +2909,8 @@
       "athlete_id": "CL1089",
       "performance": "5.98",
       "discipline": "Pes (3kg) S16F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "MARIA MARTIN CUADRADO",
@@ -2747,7 +2918,8 @@
       "athlete_id": "CL1089",
       "performance": "5.37",
       "discipline": "Pes (3kg) S16F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "MARIA MARTIN CUADRADO",
@@ -2755,7 +2927,8 @@
       "athlete_id": "CL1089",
       "performance": "5.90",
       "discipline": "Pes (3kg) S16F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "NORA MONTOLIO AMARO",
@@ -2763,7 +2936,8 @@
       "athlete_id": "CAT-3895023",
       "performance": "27.70",
       "discipline": "200m S18F",
-      "wind": "+0.0"
+      "wind": "+0.0",
+      "position": null
     },
     {
       "athlete_name": "ÈLIA BAYÓN FERNÁNDEZ",
@@ -2771,7 +2945,8 @@
       "athlete_id": "CAT-3889577",
       "performance": "9.14",
       "discipline": "60m S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "CARLOTA FRUTOS MATURANA",
@@ -2779,7 +2954,8 @@
       "athlete_id": "CAT-3723407",
       "performance": "10.24",
       "discipline": "60m S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ISONA MASIP SALA",
@@ -2787,7 +2963,8 @@
       "athlete_id": "CL15059",
       "performance": "10.91",
       "discipline": "60m S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "MONTSERRAT MARQUES CRUZ",
@@ -2795,7 +2972,8 @@
       "athlete_id": "CL11596",
       "performance": "9.29",
       "discipline": "60m S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "GINESTA MARRUGAT CANADELL",
@@ -2803,7 +2981,8 @@
       "athlete_id": "CAT-3789549",
       "performance": "10.81",
       "discipline": "60m S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "PAULA PEREIRA CONTRERAS",
@@ -2811,7 +2990,8 @@
       "athlete_id": "CAT-3789541",
       "performance": "11.32",
       "discipline": "60m S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "PAULA BLAZQUEZ BENSENY",
@@ -2819,7 +2999,8 @@
       "athlete_id": "CAT-3843630",
       "performance": "9.64",
       "discipline": "60m S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "SARA LOPEZ GARCIA",
@@ -2827,7 +3008,8 @@
       "athlete_id": "CL11066",
       "performance": "9.83",
       "discipline": "60m S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "JULIA MUSTE SANTIAGO",
@@ -2835,7 +3017,8 @@
       "athlete_id": "CL14892",
       "performance": "10.37",
       "discipline": "60m S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "MARIA DA ROCHA SANTIBAÑEZ",
@@ -2843,7 +3026,8 @@
       "athlete_id": "CAT-3789539",
       "performance": "10.39",
       "discipline": "60m S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ADA FELIU LORCA",
@@ -2851,7 +3035,8 @@
       "athlete_id": "CL15054",
       "performance": "10.50",
       "discipline": "60m S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ELENA ALUSTIZA BUENO",
@@ -2859,7 +3044,8 @@
       "athlete_id": "CAT-3722106",
       "performance": "10.67",
       "discipline": "60m S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "MARIA MARTIN CUADRADO",
@@ -2867,7 +3053,8 @@
       "athlete_id": "CL1089",
       "performance": "3.76",
       "discipline": "Llargada S16F",
-      "wind": "0.0"
+      "wind": "0.0",
+      "position": null
     },
     {
       "athlete_name": "MARIA MARTIN CUADRADO",
@@ -2875,7 +3062,8 @@
       "athlete_id": "CL1089",
       "performance": "4.06",
       "discipline": "Llargada S16F",
-      "wind": "0.8"
+      "wind": "0.8",
+      "position": null
     },
     {
       "athlete_name": "MARIA MARTIN CUADRADO",
@@ -2883,7 +3071,8 @@
       "athlete_id": "CL1089",
       "performance": "4.22",
       "discipline": "Llargada S16F",
-      "wind": "0.2"
+      "wind": "0.2",
+      "position": null
     },
     {
       "athlete_name": "EVA JACOB GARCIA MMT",
@@ -2891,7 +3080,8 @@
       "athlete_id": "CL7254",
       "performance": "4.11",
       "discipline": "Llargada S16F",
-      "wind": "0.0"
+      "wind": "0.0",
+      "position": null
     },
     {
       "athlete_name": "EVA JACOB GARCIA MMT",
@@ -2899,7 +3089,8 @@
       "athlete_id": "CL7254",
       "performance": "3.76",
       "discipline": "Llargada S16F",
-      "wind": "0.1"
+      "wind": "0.1",
+      "position": null
     },
     {
       "athlete_name": "EVA JACOB GARCIA MMT",
@@ -2907,7 +3098,8 @@
       "athlete_id": "CL7254",
       "performance": "3.94",
       "discipline": "Llargada S16F",
-      "wind": "0.0"
+      "wind": "0.0",
+      "position": null
     },
     {
       "athlete_name": "ARLET SOLANA VILA",
@@ -2915,7 +3107,8 @@
       "athlete_id": "CL11154",
       "performance": "3.99",
       "discipline": "Llargada S16F",
-      "wind": "0.0"
+      "wind": "0.0",
+      "position": null
     },
     {
       "athlete_name": "MARTINA GÓMEZ ROJALS",
@@ -2923,7 +3116,8 @@
       "athlete_id": "CAT-3910530",
       "performance": "4.84",
       "discipline": "Llargada S14F",
-      "wind": "0.0"
+      "wind": "0.0",
+      "position": null
     },
     {
       "athlete_name": "MARTINA GÓMEZ ROJALS",
@@ -2931,7 +3125,8 @@
       "athlete_id": "CAT-3910530",
       "performance": "4.80",
       "discipline": "Llargada S14F",
-      "wind": "0.0"
+      "wind": "0.0",
+      "position": null
     },
     {
       "athlete_name": "MARTINA GÓMEZ ROJALS",
@@ -2939,7 +3134,8 @@
       "athlete_id": "CAT-3910530",
       "performance": "4.89",
       "discipline": "Llargada S14F",
-      "wind": "-1.3"
+      "wind": "-1.3",
+      "position": null
     },
     {
       "athlete_name": "JULIA DIEZ BERTRAN MMT",
@@ -2947,7 +3143,8 @@
       "athlete_id": "CAT-3790507",
       "performance": "3.86",
       "discipline": "Llargada S14F",
-      "wind": "1.1"
+      "wind": "1.1",
+      "position": null
     },
     {
       "athlete_name": "JULIA DIEZ BERTRAN MMT",
@@ -2955,7 +3152,8 @@
       "athlete_id": "CAT-3790507",
       "performance": "3.80",
       "discipline": "Llargada S14F",
-      "wind": "0.0"
+      "wind": "0.0",
+      "position": null
     },
     {
       "athlete_name": "JULIA DIEZ BERTRAN MMT",
@@ -2963,7 +3161,8 @@
       "athlete_id": "CAT-3790507",
       "performance": "3.74",
       "discipline": "Llargada S14F",
-      "wind": "-0.1"
+      "wind": "-0.1",
+      "position": null
     },
     {
       "athlete_name": "AMELI TORRES ARBONES MMT",
@@ -2971,7 +3170,8 @@
       "athlete_id": "CL15270",
       "performance": "3.48",
       "discipline": "Llargada S14F",
-      "wind": "0.0"
+      "wind": "0.0",
+      "position": null
     },
     {
       "athlete_name": "AMELI TORRES ARBONES MMT",
@@ -2979,7 +3179,8 @@
       "athlete_id": "CL15270",
       "performance": "3.54",
       "discipline": "Llargada S14F",
-      "wind": "0.0"
+      "wind": "0.0",
+      "position": null
     },
     {
       "athlete_name": "AMELI TORRES ARBONES MMT",
@@ -2987,7 +3188,8 @@
       "athlete_id": "CL15270",
       "performance": "3.75",
       "discipline": "Llargada S14F",
-      "wind": "-0.4"
+      "wind": "-0.4",
+      "position": null
     },
     {
       "athlete_name": "LAIA DIAZ AGUILAR",
@@ -2995,7 +3197,8 @@
       "athlete_id": "CAT-3843749",
       "performance": "3.68",
       "discipline": "Llargada S14F",
-      "wind": "-1.0"
+      "wind": "-1.0",
+      "position": null
     },
     {
       "athlete_name": "LAIA DIAZ AGUILAR",
@@ -3003,7 +3206,8 @@
       "athlete_id": "CAT-3843749",
       "performance": "3.45",
       "discipline": "Llargada S14F",
-      "wind": "-1.0"
+      "wind": "-1.0",
+      "position": null
     },
     {
       "athlete_name": "LAIA DIAZ AGUILAR",
@@ -3011,7 +3215,8 @@
       "athlete_id": "CAT-3843749",
       "performance": "3.44",
       "discipline": "Llargada S14F",
-      "wind": "0.0"
+      "wind": "0.0",
+      "position": null
     },
     {
       "athlete_name": "ERIKA MARGALLO DEL VALLE",
@@ -3019,7 +3224,8 @@
       "athlete_id": "CL15267",
       "performance": "3.45",
       "discipline": "Llargada S14F",
-      "wind": "2.3"
+      "wind": "2.3",
+      "position": null
     },
     {
       "athlete_name": "ERIKA MARGALLO DEL VALLE",
@@ -3027,7 +3233,8 @@
       "athlete_id": "CL15267",
       "performance": "3.44",
       "discipline": "Llargada S14F",
-      "wind": "2.3"
+      "wind": "2.3",
+      "position": null
     },
     {
       "athlete_name": "ERIKA MARGALLO DEL VALLE",
@@ -3035,7 +3242,8 @@
       "athlete_id": "CL15267",
       "performance": "3.66",
       "discipline": "Llargada S14F",
-      "wind": "-0.8"
+      "wind": "-0.8",
+      "position": null
     },
     {
       "athlete_name": "INDIA MARTIN CUADRADO",
@@ -3043,7 +3251,8 @@
       "athlete_id": "CL7608",
       "performance": "3.60",
       "discipline": "Llargada S14F",
-      "wind": "-0.8"
+      "wind": "-0.8",
+      "position": null
     },
     {
       "athlete_name": "INDIA MARTIN CUADRADO",
@@ -3051,7 +3260,8 @@
       "athlete_id": "CL7608",
       "performance": "3.61",
       "discipline": "Llargada S14F",
-      "wind": "0.0"
+      "wind": "0.0",
+      "position": null
     },
     {
       "athlete_name": "AITANA CASAS MUIÑO",
@@ -3059,7 +3269,8 @@
       "athlete_id": "CL11660",
       "performance": "3.47",
       "discipline": "Llargada S14F",
-      "wind": "-0.1"
+      "wind": "-0.1",
+      "position": null
     },
     {
       "athlete_name": "AITANA CASAS MUIÑO",
@@ -3067,7 +3278,8 @@
       "athlete_id": "CL11660",
       "performance": "3.59",
       "discipline": "Llargada S14F",
-      "wind": "-1.7"
+      "wind": "-1.7",
+      "position": null
     },
     {
       "athlete_name": "BLANCA FRUTOS MATURANA",
@@ -3075,7 +3287,8 @@
       "athlete_id": "CAT-3724257",
       "performance": "3.41",
       "discipline": "Llargada S14F",
-      "wind": "-1.6"
+      "wind": "-1.6",
+      "position": null
     },
     {
       "athlete_name": "BLANCA FRUTOS MATURANA",
@@ -3083,7 +3296,8 @@
       "athlete_id": "CAT-3724257",
       "performance": "3.37",
       "discipline": "Llargada S14F",
-      "wind": "-0.3"
+      "wind": "-0.3",
+      "position": null
     },
     {
       "athlete_name": "BLANCA FRUTOS MATURANA",
@@ -3091,7 +3305,8 @@
       "athlete_id": "CAT-3724257",
       "performance": "3.35",
       "discipline": "Llargada S14F",
-      "wind": "0.0"
+      "wind": "0.0",
+      "position": null
     },
     {
       "athlete_name": "MARTINA GÓMEZ ROJALS",
@@ -3099,7 +3314,8 @@
       "athlete_id": "CAT-3910530",
       "performance": "11.01",
       "discipline": "80m S14F",
-      "wind": "+0.0"
+      "wind": "+0.0",
+      "position": null
     },
     {
       "athlete_name": "INDIA MARTIN CUADRADO",
@@ -3107,7 +3323,8 @@
       "athlete_id": "CL7608",
       "performance": "12.45",
       "discipline": "80m S14F",
-      "wind": "+0.0"
+      "wind": "+0.0",
+      "position": null
     },
     {
       "athlete_name": "ERIKA MARGALLO DEL VALLE",
@@ -3115,7 +3332,8 @@
       "athlete_id": "CL15267",
       "performance": "12.51",
       "discipline": "80m S14F",
-      "wind": "+0.0"
+      "wind": "+0.0",
+      "position": null
     },
     {
       "athlete_name": "LAIA DIAZ AGUILAR",
@@ -3123,7 +3341,8 @@
       "athlete_id": "CAT-3843749",
       "performance": "12.55",
       "discipline": "80m S14F",
-      "wind": "+0.0"
+      "wind": "+0.0",
+      "position": null
     },
     {
       "athlete_name": "BLANCA FRUTOS MATURANA",
@@ -3131,7 +3350,8 @@
       "athlete_id": "CAT-3724257",
       "performance": "12.58",
       "discipline": "80m S14F",
-      "wind": "+0.0"
+      "wind": "+0.0",
+      "position": null
     },
     {
       "athlete_name": "JULIA DIEZ BERTRAN",
@@ -3139,7 +3359,8 @@
       "athlete_id": "CAT-3790507",
       "performance": "11.75",
       "discipline": "80m S14F",
-      "wind": "-2.4"
+      "wind": "-2.4",
+      "position": null
     },
     {
       "athlete_name": "AMELI TORRES ARBONES",
@@ -3147,7 +3368,8 @@
       "athlete_id": "CL15270",
       "performance": "12.44",
       "discipline": "80m S14F",
-      "wind": "-2.4"
+      "wind": "-2.4",
+      "position": null
     },
     {
       "athlete_name": "AITANA CASAS MUIÑO",
@@ -3155,7 +3377,8 @@
       "athlete_id": "CL11660",
       "performance": "11.91",
       "discipline": "80m S14F",
-      "wind": "+0.5"
+      "wind": "+0.5",
+      "position": null
     },
     {
       "athlete_name": "ARLET SOLANA VILA",
@@ -3163,7 +3386,8 @@
       "athlete_id": "CL11154",
       "performance": "8.03",
       "discipline": "Javelina (500g) S16F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ARLET SOLANA VILA",
@@ -3171,7 +3395,8 @@
       "athlete_id": "CL11154",
       "performance": "10.17",
       "discipline": "Javelina (500g) S16F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ARLET SOLANA VILA",
@@ -3179,7 +3404,8 @@
       "athlete_id": "CL11154",
       "performance": "12.86",
       "discipline": "Javelina (500g) S16F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "EVA JACOB GARCIA",
@@ -3187,7 +3413,8 @@
       "athlete_id": "CL7254",
       "performance": "8.82",
       "discipline": "Javelina (500g) S16F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "EVA JACOB GARCIA",
@@ -3195,7 +3422,8 @@
       "athlete_id": "CL7254",
       "performance": "10.09",
       "discipline": "Javelina (500g) S16F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "MARIA MARTIN CUADRADO",
@@ -3203,7 +3431,8 @@
       "athlete_id": "CL1089",
       "performance": "5.71",
       "discipline": "Javelina (500g) S16F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "NORA MONTOLIO AMARO",
@@ -3211,7 +3440,8 @@
       "athlete_id": "CAT-3895023",
       "performance": "4.97",
       "discipline": "Llargada S18F",
-      "wind": "0.7"
+      "wind": "0.7",
+      "position": null
     },
     {
       "athlete_name": "NORA MONTOLIO AMARO",
@@ -3219,7 +3449,8 @@
       "athlete_id": "CAT-3895023",
       "performance": "4.42",
       "discipline": "Llargada S18F",
-      "wind": "0.0"
+      "wind": "0.0",
+      "position": null
     },
     {
       "athlete_name": "NORA MONTOLIO AMARO",
@@ -3227,7 +3458,8 @@
       "athlete_id": "CAT-3895023",
       "performance": "4.82",
       "discipline": "Llargada S18F",
-      "wind": "-0.4"
+      "wind": "-0.4",
+      "position": null
     },
     {
       "athlete_name": "ARLET SOLANA VILA",
@@ -3235,7 +3467,8 @@
       "athlete_id": "CL11154",
       "performance": "2:00.35",
       "discipline": "600m S16F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "EVA JACOB GARCIA",
@@ -3243,7 +3476,8 @@
       "athlete_id": "CL7254",
       "performance": "2:17.91",
       "discipline": "600m S16F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "MARIA MARTIN CUADRADO",
@@ -3251,7 +3485,8 @@
       "athlete_id": "CL1089",
       "performance": "2:22.14",
       "discipline": "600m S16F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "NORA MONTOLIO AMARO",
@@ -3259,7 +3494,8 @@
       "athlete_id": "CAT-3895023",
       "performance": "23.36",
       "discipline": "Javelina (500g) S18F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "NORA MONTOLIO AMARO",
@@ -3267,7 +3503,8 @@
       "athlete_id": "CAT-3895023",
       "performance": "21.96",
       "discipline": "Javelina (500g) S18F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "NORA MONTOLIO AMARO",
@@ -3275,7 +3512,8 @@
       "athlete_id": "CAT-3895023",
       "performance": "19.58",
       "discipline": "Javelina (500g) S18F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "NORA MONTOLIO AMARO",
@@ -3283,7 +3521,8 @@
       "athlete_id": "CAT-3895023",
       "performance": "2:34.29",
       "discipline": "800m S18F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "MARTINA GÓMEZ ROJALS",
@@ -3291,7 +3530,8 @@
       "athlete_id": "CAT-3910530-A",
       "performance": "2271",
       "discipline": "Pentatló S14F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "AMELI TORRES ARBONES",
@@ -3299,7 +3539,8 @@
       "athlete_id": "CL15270",
       "performance": "1579",
       "discipline": "Pentatló S14F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "JULIA DIEZ BERTRAN",
@@ -3307,7 +3548,8 @@
       "athlete_id": "CAT-3790507-A",
       "performance": "1533",
       "discipline": "Pentatló S14F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ERIKA MARGALLO DEL VALLE",
@@ -3315,7 +3557,8 @@
       "athlete_id": "CL15267",
       "performance": "1394",
       "discipline": "Pentatló S14F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "BLANCA FRUTOS MATURANA",
@@ -3323,7 +3566,8 @@
       "athlete_id": "CAT-3724257-A",
       "performance": "1202",
       "discipline": "Pentatló S14F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "AITANA CASAS MUIÑO",
@@ -3331,7 +3575,8 @@
       "athlete_id": "CL11660",
       "performance": "1160",
       "discipline": "Pentatló S14F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "INDIA MARTIN CUADRADO",
@@ -3339,7 +3584,8 @@
       "athlete_id": "CL7608",
       "performance": "901",
       "discipline": "Pentatló S14F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "LAIA DIAZ AGUILAR",
@@ -3347,7 +3593,8 @@
       "athlete_id": "CAT-3843749-A",
       "performance": "859",
       "discipline": "Pentatló S14F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ÈLIA BAYÓN FERNÁNDEZ",
@@ -3355,7 +3602,8 @@
       "athlete_id": "CAT-3889577-A",
       "performance": "1648",
       "discipline": "Tetratló S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "MONTSERRAT MARQUES CRUZ",
@@ -3363,7 +3611,8 @@
       "athlete_id": "CL11596",
       "performance": "1620",
       "discipline": "Tetratló S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "PAULA BLAZQUEZ BENSENY",
@@ -3371,7 +3620,8 @@
       "athlete_id": "CAT-3843630-A",
       "performance": "1363",
       "discipline": "Tetratló S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "SARA LOPEZ GARCIA",
@@ -3379,7 +3629,8 @@
       "athlete_id": "CL11066",
       "performance": "1361",
       "discipline": "Tetratló S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "JULIA MUSTE SANTIAGO",
@@ -3387,7 +3638,8 @@
       "athlete_id": "CL14892",
       "performance": "1119",
       "discipline": "Tetratló S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ADA FELIU LORCA",
@@ -3395,7 +3647,8 @@
       "athlete_id": "CL15054",
       "performance": "978",
       "discipline": "Tetratló S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "MARIA DA ROCHA SANTIBAÑEZ",
@@ -3403,7 +3656,8 @@
       "athlete_id": "CAT-3789539-A",
       "performance": "836",
       "discipline": "Tetratló S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "CARLOTA FRUTOS MATURANA",
@@ -3411,7 +3665,8 @@
       "athlete_id": "CAT-3723407-A",
       "performance": "808",
       "discipline": "Tetratló S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ISONA MASIP SALA",
@@ -3419,7 +3674,8 @@
       "athlete_id": "CL15059",
       "performance": "625",
       "discipline": "Tetratló S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "GINESTA MARRUGAT CANADELL",
@@ -3427,7 +3683,8 @@
       "athlete_id": "CAT-3789549-A",
       "performance": "578",
       "discipline": "Tetratló S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ELENA ALUSTIZA BUENO",
@@ -3435,7 +3692,8 @@
       "athlete_id": "CAT-3722106-A",
       "performance": "473",
       "discipline": "Tetratló S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "PAULA PEREIRA CONTRERAS",
@@ -3443,7 +3701,8 @@
       "athlete_id": "CAT-3789541-A",
       "performance": "456",
       "discipline": "Tetratló S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "EVA JACOB GARCIA",
@@ -3451,7 +3710,8 @@
       "athlete_id": "CL7254",
       "performance": "1846",
       "discipline": "Hexatló S16F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ARLET SOLANA VILA",
@@ -3459,7 +3719,8 @@
       "athlete_id": "CL11154",
       "performance": "1636",
       "discipline": "Hexatló S16F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "MARIA MARTIN CUADRADO",
@@ -3467,7 +3728,8 @@
       "athlete_id": "CL1089",
       "performance": "1548",
       "discipline": "Hexatló S16F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "STELLA PEREIRA CONTRERAS DNS DNS DNS",
@@ -3475,7 +3737,8 @@
       "athlete_id": "CL7607",
       "performance": "913",
       "discipline": "Hexatló S16F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "VICTORIA CHIAMAKA ONYEMAEKWU AHANOTU DNS DNS DNS DNS",
@@ -3483,7 +3746,8 @@
       "athlete_id": "CL6108",
       "performance": "895",
       "discipline": "Hexatló S16F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "AINOA RODRIGUEZ MURILLO",
@@ -3491,7 +3755,8 @@
       "athlete_id": "CAT-3742948",
       "performance": "17.73",
       "discipline": "100m tanques (0,84) S20F/AbsF",
-      "wind": "+0.1"
+      "wind": "+0.1",
+      "position": null
     },
     {
       "athlete_name": "AINOA RODRIGUEZ MURILLO",
@@ -3499,7 +3764,8 @@
       "athlete_id": "CAT-3742948-A",
       "performance": "1.39",
       "discipline": "Altura S20F/AbsF",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "AINOA RODRIGUEZ MURILLO",
@@ -3507,7 +3773,8 @@
       "athlete_id": "CAT-3742948",
       "performance": "6.33",
       "discipline": "Pes S20F/AbsF",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "AINOA RODRIGUEZ MURILLO",
@@ -3515,7 +3782,8 @@
       "athlete_id": "CAT-3742948",
       "performance": "6.95",
       "discipline": "Pes S20F/AbsF",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "AINOA RODRIGUEZ MURILLO",
@@ -3523,7 +3791,8 @@
       "athlete_id": "CAT-3742948",
       "performance": "7.13",
       "discipline": "Pes S20F/AbsF",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "AINOA RODRIGUEZ MURILLO",
@@ -3531,7 +3800,8 @@
       "athlete_id": "CAT-3742948",
       "performance": "28.05",
       "discipline": "200m S20F/AbsF",
-      "wind": "-2.9"
+      "wind": "-2.9",
+      "position": null
     },
     {
       "athlete_name": "AINOA RODRIGUEZ MURILLO",
@@ -3539,7 +3809,8 @@
       "athlete_id": "CAT-3742948",
       "performance": "4.12",
       "discipline": "Llargada S20F/AbsF",
-      "wind": "1.5"
+      "wind": "1.5",
+      "position": null
     },
     {
       "athlete_name": "AINOA RODRIGUEZ MURILLO",
@@ -3547,7 +3818,8 @@
       "athlete_id": "CAT-3742948",
       "performance": "4.50",
       "discipline": "Llargada S20F/AbsF",
-      "wind": "-0.7"
+      "wind": "-0.7",
+      "position": null
     },
     {
       "athlete_name": "AINOA RODRIGUEZ MURILLO",
@@ -3555,7 +3827,8 @@
       "athlete_id": "CAT-3742948",
       "performance": "23.71",
       "discipline": "Javelina S20F/AbsF",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "AINOA RODRIGUEZ MURILLO",
@@ -3563,7 +3836,8 @@
       "athlete_id": "CAT-3742948",
       "performance": "2:38.56",
       "discipline": "800m S20F/AbsF",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "AINOA RODRIGUEZ MURILLO",
@@ -3571,271 +3845,26 @@
       "athlete_id": "CAT-3742948-A",
       "performance": "3364",
       "discipline": "Heptatló S20F/AbsF",
-      "wind": null
-    },
-    {
-      "athlete_name": "PAU ESTEVE HOSTALOT",
-      "athlete_dob": "27/8/2010",
-      "athlete_id": "CL94383",
-      "performance": "11.83",
-      "discipline": "14:00     1.500m AbsM                                                                  Combinadas",
-      "wind": "+1.9"
-    },
-    {
-      "athlete_name": "SAMUEL MARCOS PEREZ",
-      "athlete_dob": "1/2/2010",
-      "athlete_id": "CL90024",
-      "performance": "12.13",
-      "discipline": "14:00     1.500m AbsM                                                                  Combinadas",
-      "wind": "+1.9"
-    },
-    {
-      "athlete_name": "DAVID FERNANDEZ PINEDA",
-      "athlete_dob": "18/6/2010",
-      "athlete_id": "CL11323",
-      "performance": "12.30",
-      "discipline": "14:00     1.500m AbsM                                                                  Combinadas",
-      "wind": "+1.9"
-    },
-    {
-      "athlete_name": "IVAN FERRER VILLA",
-      "athlete_dob": "14/4/2009",
-      "athlete_id": "CL86457",
-      "performance": "12.70",
-      "discipline": "14:00     1.500m AbsM                                                                  Combinadas",
-      "wind": "+1.9"
-    },
-    {
-      "athlete_name": "OSCAR IBAÑEZ RIZO",
-      "athlete_dob": "8/12/2011",
-      "athlete_id": "CL4160",
-      "performance": "13.33",
-      "discipline": "14:00     1.500m AbsM                                                                  Combinadas",
-      "wind": "+0.9"
-    },
-    {
-      "athlete_name": "ERIC GRAU PINENT",
-      "athlete_dob": "11/7/2012",
-      "athlete_id": "CL4398",
-      "performance": "15.52",
-      "discipline": "14:00     1.500m AbsM                                                                  Combinadas",
-      "wind": "+0.9"
-    },
-    {
-      "athlete_name": "KILIAN PEDROL ESPINOSA",
-      "athlete_dob": "24/2/2013",
-      "athlete_id": "CL7676",
-      "performance": "8.71",
-      "discipline": "Pes (2kg) S12M",
-      "wind": null
-    },
-    {
-      "athlete_name": "ANTONIO BALAZOTE",
-      "athlete_dob": "1/5/2014",
-      "athlete_id": "CL11067",
-      "performance": "7.49",
-      "discipline": "Pes (2kg) S12M",
-      "wind": null
-    },
-    {
-      "athlete_name": "MARTI GONZALEZ CERESUELA",
-      "athlete_dob": "18/9/2013",
-      "athlete_id": "CL4347",
-      "performance": "7.38",
-      "discipline": "Pes (2kg) S12M",
-      "wind": null
-    },
-    {
-      "athlete_name": "MARTI GONZALEZ CERESUELA",
-      "athlete_dob": "18/9/2013",
-      "athlete_id": "CL4347",
-      "performance": "18.28",
-      "discipline": "Pes (2kg) S12M",
-      "wind": "+0.0"
-    },
-    {
-      "athlete_name": "NIL TORRES PRATS",
-      "athlete_dob": "5/10/2014",
-      "athlete_id": "CL7611",
-      "performance": "6.22",
-      "discipline": "Pes (2kg) S12M",
-      "wind": null
-    },
-    {
-      "athlete_name": "DANIEL LINARES ANTELO",
-      "athlete_dob": "10/7/2014",
-      "athlete_id": "CAT-3723389",
-      "performance": "5.30",
-      "discipline": "Pes (2kg) S12M",
-      "wind": null
-    },
-    {
-      "athlete_name": "DANIEL LINARES ANTELO",
-      "athlete_dob": "10/7/2014",
-      "athlete_id": "CAT-3723389",
-      "performance": "15.49",
-      "discipline": "Pes (2kg) S12M",
-      "wind": "+0.0"
-    },
-    {
-      "athlete_name": "SAMUEL MARCOS PEREZ",
-      "athlete_dob": "1/2/2010",
-      "athlete_id": "CL90024",
-      "performance": "10.68",
-      "discipline": "Pes (2kg) S12M",
-      "wind": null
-    },
-    {
-      "athlete_name": "IVAN FERRER VILLA",
-      "athlete_dob": "14/4/2009",
-      "athlete_id": "CL86457",
-      "performance": "9.08",
-      "discipline": "Pes (2kg) S12M",
-      "wind": null
-    },
-    {
-      "athlete_name": "DAVID FERNANDEZ PINEDA",
-      "athlete_dob": "18/6/2010",
-      "athlete_id": "CL11323",
-      "performance": "9.00",
-      "discipline": "Pes (2kg) S12M",
-      "wind": null
-    },
-    {
-      "athlete_name": "PAU ESTEVE HOSTALOT",
-      "athlete_dob": "27/8/2010",
-      "athlete_id": "CL94383",
-      "performance": "8.46",
-      "discipline": "Pes (2kg) S12M",
-      "wind": null
-    },
-    {
-      "athlete_name": "MARTINA GÓMEZ ROJALS",
-      "athlete_dob": "28/8/2013",
-      "athlete_id": "CAT-3910530",
-      "performance": "7.06",
-      "discipline": "Llargada S12F",
-      "wind": null
-    },
-    {
-      "athlete_name": "JULIA DIEZ BERTRAN",
-      "athlete_dob": "3/2/2014",
-      "athlete_id": "CAT-3790507",
-      "performance": "6.40",
-      "discipline": "Llargada S12F",
-      "wind": null
-    },
-    {
-      "athlete_name": "ERIKA MARGALLO DEL VALLE",
-      "athlete_dob": "27/11/2014",
-      "athlete_id": "CL15267",
-      "performance": "6.38",
-      "discipline": "Llargada S12F",
-      "wind": null
-    },
-    {
-      "athlete_name": "AMELI TORRES ARBONES",
-      "athlete_dob": "27/1/2014",
-      "athlete_id": "CL15270",
-      "performance": "5.69",
-      "discipline": "Llargada S12F",
-      "wind": null
-    },
-    {
-      "athlete_name": "BLANCA FRUTOS MATURANA",
-      "athlete_dob": "13/6/2013",
-      "athlete_id": "CAT-3724257",
-      "performance": "5.65",
-      "discipline": "Llargada S12F",
-      "wind": null
-    },
-    {
-      "athlete_name": "AITANA CASAS MUIÑO",
-      "athlete_dob": "28/10/2013",
-      "athlete_id": "CL11660",
-      "performance": "5.25",
-      "discipline": "Llargada S12F",
-      "wind": null
-    },
-    {
-      "athlete_name": "LAIA DIAZ AGUILAR",
-      "athlete_dob": "8/10/2013",
-      "athlete_id": "CAT-3843749",
-      "performance": "4.29",
-      "discipline": "Llargada S12F",
-      "wind": null
-    },
-    {
-      "athlete_name": "INDIA MARTIN CUADRADO",
-      "athlete_dob": "4/4/2014",
-      "athlete_id": "CL7608",
-      "performance": "3.97",
-      "discipline": "Llargada S12F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "NORA MONTOLIO AMARO",
       "athlete_dob": "5/2/2010",
-      "athlete_id": "CAT-3895023",
-      "performance": "7.55",
-      "discipline": "Llargada S12F",
-      "wind": null
+      "athlete_id": "CAT-3895023-A",
+      "performance": "3877",
+      "discipline": "Heptatló S18F",
+      "wind": null,
+      "position": null
     },
     {
-      "athlete_name": "STELLA PEREIRA CONTRERAS",
-      "athlete_dob": "11/12/2011",
-      "athlete_id": "CL7607",
-      "performance": "7.40",
-      "discipline": "Llargada S12F",
-      "wind": null
-    },
-    {
-      "athlete_name": "ARLET SOLANA VILA",
-      "athlete_dob": "13/3/2012",
-      "athlete_id": "CL11154",
-      "performance": "6.47",
-      "discipline": "Llargada S12F",
-      "wind": null
-    },
-    {
-      "athlete_name": "EVA JACOB GARCIA",
-      "athlete_dob": "30/6/2012",
-      "athlete_id": "CL7254",
-      "performance": "6.26",
-      "discipline": "Llargada S12F",
-      "wind": null
-    },
-    {
-      "athlete_name": "MARIA MARTIN CUADRADO",
-      "athlete_dob": "1/5/2012",
-      "athlete_id": "CL1089",
-      "performance": "5.98",
-      "discipline": "Llargada S12F",
-      "wind": null
-    },
-    {
-      "athlete_name": "AINOA RODRIGUEZ MURILLO",
-      "athlete_dob": "17/1/2008",
-      "athlete_id": "CAT-3742948-A",
-      "performance": "1.39",
-      "discipline": "PuestoDorsal Nombre                     Club     100m t… Altura F. Peso (3… Longitud Jabalin…            600m                           Puntos   P.Líder",
-      "wind": "+0.1"
-    },
-    {
-      "athlete_name": "AINOA RODRIGUEZ MURILLO",
-      "athlete_dob": "17/1/2008",
-      "athlete_id": "CAT-3742948",
-      "performance": "6.33",
-      "discipline": "PuestoDorsal Nombre                     Club     100m t… Altura F. Peso (3… Longitud Jabalin…            600m                           Puntos   P.Líder",
-      "wind": "+0.1"
-    },
-    {
-      "athlete_name": "AINOA RODRIGUEZ MURILLO",
-      "athlete_dob": "17/1/2008",
-      "athlete_id": "CAT-3742948",
-      "performance": "4.12",
-      "discipline": "PuestoDorsal Nombre                     Club     100m t… Altura F. Peso (3… Longitud Jabalin…            600m                           Puntos   P.Líder",
-      "wind": "-2.9"
+      "athlete_name": "ALBA GUIJARRO ROM DNS DNS DNS DNS DNS",
+      "athlete_dob": "8/7/2010",
+      "athlete_id": "CAT-3895015-A",
+      "performance": "604",
+      "discipline": "Heptatló S18F",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "IKER FUENTES PUESTA",
@@ -3843,7 +3872,8 @@
       "athlete_id": "CL11325",
       "performance": "14.75",
       "discipline": "80m S14M",
-      "wind": "+0.4"
+      "wind": "+0.4",
+      "position": null
     },
     {
       "athlete_name": "ERIC GRAU PINENT",
@@ -3851,7 +3881,8 @@
       "athlete_id": "CL4398",
       "performance": "23.25",
       "discipline": "80m S14M",
-      "wind": "+0.4"
+      "wind": "+0.4",
+      "position": null
     },
     {
       "athlete_name": "EVA JACOB GARCIA",
@@ -3859,7 +3890,8 @@
       "athlete_id": "CL7254",
       "performance": "18.36",
       "discipline": "80m S14M",
-      "wind": "+0.7"
+      "wind": "+0.7",
+      "position": null
     },
     {
       "athlete_name": "VICTORIA CHIAMAKA ONYEMAEKW…",
@@ -3867,7 +3899,8 @@
       "athlete_id": "CL6108",
       "performance": "18.63",
       "discipline": "80m S14M",
-      "wind": "+0.7"
+      "wind": "+0.7",
+      "position": null
     },
     {
       "athlete_name": "ARLET SOLANA VILA",
@@ -3875,7 +3908,8 @@
       "athlete_id": "CL11154",
       "performance": "19.37",
       "discipline": "80m S14M",
-      "wind": "+1.6"
+      "wind": "+1.6",
+      "position": null
     },
     {
       "athlete_name": "MARIA MARTIN CUADRADO",
@@ -3883,7 +3917,8 @@
       "athlete_id": "CL1089",
       "performance": "20.53",
       "discipline": "80m S14M",
-      "wind": "+1.6"
+      "wind": "+1.6",
+      "position": null
     },
     {
       "athlete_name": "ÈLIA BAYÓN FERNÁNDEZ",
@@ -3891,7 +3926,8 @@
       "athlete_id": "CAT-3889577-A",
       "performance": "10.32",
       "discipline": "80m S14M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ÈLIA BAYÓN FERNÁNDEZ",
@@ -3899,7 +3935,8 @@
       "athlete_id": "CAT-3889577-A",
       "performance": "9.14",
       "discipline": "80m S14M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "MONTSERRAT MARQUES CRUZ",
@@ -3907,7 +3944,8 @@
       "athlete_id": "CL11596",
       "performance": "10.49",
       "discipline": "80m S14M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "MONTSERRAT MARQUES CRUZ",
@@ -3915,7 +3953,8 @@
       "athlete_id": "CL11596",
       "performance": "9.29",
       "discipline": "80m S14M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "PAULA BLAZQUEZ BENSENY",
@@ -3923,7 +3962,8 @@
       "athlete_id": "CAT-3843630-A",
       "performance": "10.90",
       "discipline": "80m S14M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "PAULA BLAZQUEZ BENSENY",
@@ -3931,7 +3971,8 @@
       "athlete_id": "CAT-3843630-A",
       "performance": "9.64",
       "discipline": "80m S14M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "SARA LOPEZ GARCIA",
@@ -3939,7 +3980,8 @@
       "athlete_id": "CL11066",
       "performance": "11.03",
       "discipline": "80m S14M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "SARA LOPEZ GARCIA",
@@ -3947,7 +3989,8 @@
       "athlete_id": "CL11066",
       "performance": "9.83",
       "discipline": "80m S14M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "JULIA MUSTE SANTIAGO",
@@ -3955,7 +3998,8 @@
       "athlete_id": "CL14892",
       "performance": "11.66",
       "discipline": "80m S14M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ADA FELIU LORCA",
@@ -3963,7 +4007,8 @@
       "athlete_id": "CL15054",
       "performance": "11.90",
       "discipline": "80m S14M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "MARIA DA ROCHA SANTIBAÑEZ",
@@ -3971,7 +4016,8 @@
       "athlete_id": "CAT-3789539-A",
       "performance": "12.22",
       "discipline": "80m S14M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "CARLOTA FRUTOS MATURANA",
@@ -3979,7 +4025,8 @@
       "athlete_id": "CAT-3723407-A",
       "performance": "12.41",
       "discipline": "80m S14M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "CARLOTA FRUTOS MATURANA",
@@ -3987,7 +4034,8 @@
       "athlete_id": "CAT-3723407-A",
       "performance": "10.24",
       "discipline": "80m S14M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ELENA ALUSTIZA BUENO",
@@ -3995,7 +4043,8 @@
       "athlete_id": "CAT-3722106-A",
       "performance": "14.11",
       "discipline": "80m S14M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "AMELI TORRES ARBONES",
@@ -4003,7 +4052,8 @@
       "athlete_id": "CL15270",
       "performance": "15.56",
       "discipline": "80m S14M",
-      "wind": "+1.4"
+      "wind": "+1.4",
+      "position": null
     },
     {
       "athlete_name": "AMELI TORRES ARBONES",
@@ -4011,7 +4061,8 @@
       "athlete_id": "CL15270",
       "performance": "12.44",
       "discipline": "80m S14M",
-      "wind": "-2.4"
+      "wind": "-2.4",
+      "position": null
     },
     {
       "athlete_name": "MARTINA GÓMEZ ROJALS",
@@ -4019,7 +4070,8 @@
       "athlete_id": "CAT-3910530-A",
       "performance": "16.28",
       "discipline": "80m S14M",
-      "wind": "+1.2"
+      "wind": "+1.2",
+      "position": null
     },
     {
       "athlete_name": "MARTINA GÓMEZ ROJALS",
@@ -4027,7 +4079,8 @@
       "athlete_id": "CAT-3910530-A",
       "performance": "11.01",
       "discipline": "80m S14M",
-      "wind": "+0.0"
+      "wind": "+0.0",
+      "position": null
     },
     {
       "athlete_name": "JULIA DIEZ BERTRAN",
@@ -4035,7 +4088,8 @@
       "athlete_id": "CAT-3790507-A",
       "performance": "16.89",
       "discipline": "80m S14M",
-      "wind": "+1.4"
+      "wind": "+1.4",
+      "position": null
     },
     {
       "athlete_name": "JULIA DIEZ BERTRAN",
@@ -4043,7 +4097,8 @@
       "athlete_id": "CAT-3790507-A",
       "performance": "11.75",
       "discipline": "80m S14M",
-      "wind": "-2.4"
+      "wind": "-2.4",
+      "position": null
     },
     {
       "athlete_name": "INDIA MARTIN CUADRADO",
@@ -4051,7 +4106,8 @@
       "athlete_id": "CL7608",
       "performance": "17.26",
       "discipline": "80m S14M",
-      "wind": "+0.0"
+      "wind": "+0.0",
+      "position": null
     },
     {
       "athlete_name": "INDIA MARTIN CUADRADO",
@@ -4059,7 +4115,8 @@
       "athlete_id": "CL7608",
       "performance": "12.45",
       "discipline": "80m S14M",
-      "wind": "+0.0"
+      "wind": "+0.0",
+      "position": null
     },
     {
       "athlete_name": "BLANCA FRUTOS MATURANA",
@@ -4067,7 +4124,8 @@
       "athlete_id": "CAT-3724257-A",
       "performance": "17.52",
       "discipline": "80m S14M",
-      "wind": "+1.2"
+      "wind": "+1.2",
+      "position": null
     },
     {
       "athlete_name": "BLANCA FRUTOS MATURANA",
@@ -4075,7 +4133,8 @@
       "athlete_id": "CAT-3724257-A",
       "performance": "12.58",
       "discipline": "80m S14M",
-      "wind": "+0.0"
+      "wind": "+0.0",
+      "position": null
     },
     {
       "athlete_name": "ERIKA MARGALLO DEL VALLE",
@@ -4083,7 +4142,8 @@
       "athlete_id": "CL15267",
       "performance": "17.95",
       "discipline": "80m S14M",
-      "wind": "+1.4"
+      "wind": "+1.4",
+      "position": null
     },
     {
       "athlete_name": "ERIKA MARGALLO DEL VALLE",
@@ -4091,7 +4151,8 @@
       "athlete_id": "CL15267",
       "performance": "12.51",
       "discipline": "80m S14M",
-      "wind": "+0.0"
+      "wind": "+0.0",
+      "position": null
     },
     {
       "athlete_name": "LAIA DIAZ AGUILAR",
@@ -4099,7 +4160,8 @@
       "athlete_id": "CAT-3843749-A",
       "performance": "18.19",
       "discipline": "80m S14M",
-      "wind": "+0.0"
+      "wind": "+0.0",
+      "position": null
     },
     {
       "athlete_name": "LAIA DIAZ AGUILAR",
@@ -4107,7 +4169,8 @@
       "athlete_id": "CAT-3843749-A",
       "performance": "12.55",
       "discipline": "80m S14M",
-      "wind": "+0.0"
+      "wind": "+0.0",
+      "position": null
     },
     {
       "athlete_name": "AITANA CASAS MUIÑO",
@@ -4115,7 +4178,8 @@
       "athlete_id": "CL11660",
       "performance": "19.52",
       "discipline": "80m S14M",
-      "wind": "+1.2"
+      "wind": "+1.2",
+      "position": null
     },
     {
       "athlete_name": "AITANA CASAS MUIÑO",
@@ -4123,7 +4187,8 @@
       "athlete_id": "CL11660",
       "performance": "11.91",
       "discipline": "80m S14M",
-      "wind": "+0.5"
+      "wind": "+0.5",
+      "position": null
     },
     {
       "athlete_name": "PAULA PEREIRA CONTRERAS",
@@ -4131,7 +4196,8 @@
       "athlete_id": "CAT-3789541-A",
       "performance": "11.32",
       "discipline": "80m S14M",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "VICTORIA CHIAMAKA ONYEMAEKW…",
@@ -4139,7 +4205,8 @@
       "athlete_id": "CL6108",
       "performance": "18.63",
       "discipline": "100m tanques (0,762) S16F",
-      "wind": "+0.7"
+      "wind": "+0.7",
+      "position": null
     },
     {
       "athlete_name": "ÈLIA BAYÓN FERNÁNDEZ",
@@ -4147,7 +4214,8 @@
       "athlete_id": "CAT-3889577-A",
       "performance": "9.14",
       "discipline": "80m tanques (0,762) S14F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "MONTSERRAT MARQUES CRUZ",
@@ -4155,7 +4223,8 @@
       "athlete_id": "CL11596",
       "performance": "9.29",
       "discipline": "80m tanques (0,762) S14F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "PAULA BLAZQUEZ BENSENY",
@@ -4163,7 +4232,8 @@
       "athlete_id": "CAT-3843630-A",
       "performance": "9.64",
       "discipline": "80m tanques (0,762) S14F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "SARA LOPEZ GARCIA",
@@ -4171,7 +4241,8 @@
       "athlete_id": "CL11066",
       "performance": "9.83",
       "discipline": "80m tanques (0,762) S14F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "CARLOTA FRUTOS MATURANA",
@@ -4179,7 +4250,8 @@
       "athlete_id": "CAT-3723407-A",
       "performance": "10.24",
       "discipline": "80m tanques (0,762) S14F",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "PAULA PEREIRA CONTRERAS",
@@ -4187,7 +4259,8 @@
       "athlete_id": "CAT-3789541-A",
       "performance": "11.32",
       "discipline": "80m tanques (0,762) S14F",
-      "wind": null
+      "wind": null,
+      "position": null
     }
   ]
 }

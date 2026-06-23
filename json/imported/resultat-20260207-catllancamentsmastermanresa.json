@@ -2,16 +2,62 @@
   "event_name": "Campionat de Catalunya de llançaments llargs màster - Estadio Municipal El Congost",
   "event_date": "07/02/2026",
   "event_location": "Manresa",
-  "total_results": 2,
+  "total_results": 9,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/02/resultat-20260207-catllancamentsmastermanresa.pdf",
   "results": [
     {
       "athlete_name": "JAVIER FERNANDEZ FREIXAS",
       "athlete_dob": "21/2/1974",
       "athlete_id": "CAT-3892003",
+      "performance": "29.68",
+      "discipline": "Jabalina Vet. Hombres. Master M50",
+      "wind": null,
+      "position": 3
+    },
+    {
+      "athlete_name": "JAVIER FERNANDEZ FREIXAS",
+      "athlete_dob": "21/2/1974",
+      "athlete_id": "CAT-3892003",
+      "performance": "28.21",
+      "discipline": "Jabalina Vet. Hombres. Master M50",
+      "wind": null,
+      "position": 3
+    },
+    {
+      "athlete_name": "JAVIER FERNANDEZ FREIXAS",
+      "athlete_dob": "21/2/1974",
+      "athlete_id": "CAT-3892003",
       "performance": "30.26",
       "discipline": "Jabalina Vet. Hombres. Master M50",
-      "wind": null
+      "wind": null,
+      "position": 3
+    },
+    {
+      "athlete_name": "JAVIER FERNANDEZ FREIXAS",
+      "athlete_dob": "21/2/1974",
+      "athlete_id": "CAT-3892003",
+      "performance": "27.32",
+      "discipline": "Jabalina Vet. Hombres. Master M50",
+      "wind": null,
+      "position": 3
+    },
+    {
+      "athlete_name": "BARBARA PINTADO DUCH",
+      "athlete_dob": "29/4/1985",
+      "athlete_id": "CT13219",
+      "performance": "28.25",
+      "discipline": "Disco VET.Mujeres. Master F40",
+      "wind": null,
+      "position": 1
+    },
+    {
+      "athlete_name": "BARBARA PINTADO DUCH",
+      "athlete_dob": "29/4/1985",
+      "athlete_id": "CT13219",
+      "performance": "35.23",
+      "discipline": "Disco VET.Mujeres. Master F40",
+      "wind": null,
+      "position": 1
     },
     {
       "athlete_name": "BARBARA PINTADO DUCH",
@@ -19,7 +65,26 @@
       "athlete_id": "CT13219",
       "performance": "35.51",
       "discipline": "Disco VET.Mujeres. Master F40",
-      "wind": null
+      "wind": null,
+      "position": 1
+    },
+    {
+      "athlete_name": "BARBARA PINTADO DUCH",
+      "athlete_dob": "29/4/1985",
+      "athlete_id": "CT13219",
+      "performance": "34.32",
+      "discipline": "Disco VET.Mujeres. Master F40",
+      "wind": null,
+      "position": 1
+    },
+    {
+      "athlete_name": "BARBARA PINTADO DUCH",
+      "athlete_dob": "29/4/1985",
+      "athlete_id": "CT13219",
+      "performance": "31.90",
+      "discipline": "Disco VET.Mujeres. Master F40",
+      "wind": null,
+      "position": 1
     }
   ]
 }

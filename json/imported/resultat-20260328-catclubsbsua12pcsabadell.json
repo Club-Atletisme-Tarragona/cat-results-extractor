@@ -2,7 +2,7 @@
   "event_name": "Campionat de Catalunya de Clubs ST Sub 12 \"A\" - Pista coberta de Atletisme de Catalunya - Carme Valero",
   "event_date": "28/03/2026",
   "event_location": "Sabadell (i)",
-  "total_results": 26,
+  "total_results": 31,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/03/resultat-20260328-catclubsbsua12pcsabadell.pdf",
   "results": [
     {
@@ -11,7 +11,8 @@
       "athlete_id": "CL14914",
       "performance": "10.23",
       "discipline": "60m masculins",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "MARTI MATEU MONTULL",
@@ -19,7 +20,8 @@
       "athlete_id": "CL14916",
       "performance": "33.39",
       "discipline": "200m masculins",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "OLIVIER CASAS MUIÑO",
@@ -27,7 +29,8 @@
       "athlete_id": "CL11597",
       "performance": "1:52.17",
       "discipline": "600m masculins",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "FERRAN SANJUAN FLORES",
@@ -35,7 +38,8 @@
       "athlete_id": "CAT-3816505",
       "performance": "7:03.42",
       "discipline": "2.000m masculins",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "SERGI AGUZA PIQUERAS",
@@ -43,7 +47,8 @@
       "athlete_id": "CL15055",
       "performance": "12.15",
       "discipline": "60m tanques masculins",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ORIOL GAYA VALLES",
@@ -51,15 +56,35 @@
       "athlete_id": "CL14915",
       "performance": "1.13",
       "discipline": "Alçada masculina",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "BLAI LLIGADAS TURON",
       "athlete_dob": "11/3/2015",
       "athlete_id": "CL11069",
-      "performance": "3.73",
+      "performance": "3.52",
       "discipline": "Llargada masculina",
-      "wind": null
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "BLAI LLIGADAS TURON",
+      "athlete_dob": "11/3/2015",
+      "athlete_id": "CL11069",
+      "performance": "3.39",
+      "discipline": "Llargada masculina",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "THIAGO SILVA ARANDA",
+      "athlete_dob": "15/2/2015",
+      "athlete_id": "CL11075",
+      "performance": "8.10",
+      "discipline": "Pes masculí",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "THIAGO SILVA ARANDA",
@@ -67,7 +92,17 @@
       "athlete_id": "CL11075",
       "performance": "8.64",
       "discipline": "Pes masculí",
-      "wind": null
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "THIAGO SILVA ARANDA",
+      "athlete_dob": "15/2/2015",
+      "athlete_id": "CL11075",
+      "performance": "8.49",
+      "discipline": "Pes masculí",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "JOSE ANGEL MASIA URZUA",
@@ -75,7 +110,8 @@
       "athlete_id": "CL15467",
       "performance": "1.70",
       "discipline": "Perxa masculina",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "Blai LLIGADAS TURON",
@@ -83,7 +119,8 @@
       "athlete_id": "",
       "performance": "2:05.09",
       "discipline": "Relleus 4x200 masculins",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "Olivier CASAS MUIÑO",
@@ -91,7 +128,8 @@
       "athlete_id": "",
       "performance": "2:05.09",
       "discipline": "Relleus 4x200 masculins",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "Oriol GAYA VALLES",
@@ -99,7 +137,8 @@
       "athlete_id": "",
       "performance": "2:05.09",
       "discipline": "Relleus 4x200 masculins",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "Thiago SILVA ARANDA",
@@ -107,7 +146,8 @@
       "athlete_id": "",
       "performance": "2:05.09",
       "discipline": "Relleus 4x200 masculins",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "MONTSERRAT MARQUES CRUZ",
@@ -115,7 +155,8 @@
       "athlete_id": "CL11596",
       "performance": "9.24",
       "discipline": "60m femenins",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "SARA LOPEZ GARCIA",
@@ -123,7 +164,8 @@
       "athlete_id": "CL11066",
       "performance": "31.57",
       "discipline": "200m femenins",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "NAIA GUINART TRABALON",
@@ -131,7 +173,8 @@
       "athlete_id": "CAT-3889578",
       "performance": "2:00.93",
       "discipline": "600m femenins",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "JULIA MUSTE SANTIAGO",
@@ -139,7 +182,8 @@
       "athlete_id": "CL14892",
       "performance": "8:01.00",
       "discipline": "2.000m femenins",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ÈLIA BAYÓN FERNÁNDEZ",
@@ -147,7 +191,8 @@
       "athlete_id": "CAT-3889577",
       "performance": "10.04",
       "discipline": "60m tanques femenins",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ADA FELIU LORCA",
@@ -155,7 +200,8 @@
       "athlete_id": "CL15054",
       "performance": "1.03",
       "discipline": "Alçada femenina",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "SOFIA VEGA MARTINEZ",
@@ -163,7 +209,8 @@
       "athlete_id": "CL14893",
       "performance": "1.40",
       "discipline": "Perxa femenina",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "PAULA BLAZQUEZ BENSENY",
@@ -171,7 +218,26 @@
       "athlete_id": "CAT-3843630",
       "performance": "3.44",
       "discipline": "Llargada femenina",
-      "wind": null
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "PAULA BLAZQUEZ BENSENY",
+      "athlete_dob": "11/6/2015",
+      "athlete_id": "CAT-3843630",
+      "performance": "3.30",
+      "discipline": "Llargada femenina",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "PAULA BLAZQUEZ BENSENY",
+      "athlete_dob": "11/6/2015",
+      "athlete_id": "CAT-3843630",
+      "performance": "3.39",
+      "discipline": "Llargada femenina",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "NOA PASCUAL PRATS",
@@ -179,7 +245,8 @@
       "athlete_id": "CL10462",
       "performance": "7.23",
       "discipline": "Pes femení",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "Èlia BAYÓN FERNÁNDEZ",
@@ -187,7 +254,8 @@
       "athlete_id": "",
       "performance": "2:05.27",
       "discipline": "Relleus 4x200 femenins",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "Montserrat MARQUES CRUZ",
@@ -195,7 +263,8 @@
       "athlete_id": "",
       "performance": "2:05.27",
       "discipline": "Relleus 4x200 femenins",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "Paula BLAZQUEZ BENSENY",
@@ -203,7 +272,8 @@
       "athlete_id": "",
       "performance": "2:05.27",
       "discipline": "Relleus 4x200 femenins",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "Sara LOPEZ GARCIA",
@@ -211,7 +281,8 @@
       "athlete_id": "",
       "performance": "2:05.27",
       "discipline": "Relleus 4x200 femenins",
-      "wind": null
+      "wind": null,
+      "position": null
     }
   ]
 }

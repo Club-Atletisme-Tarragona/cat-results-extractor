@@ -2,16 +2,53 @@
   "event_name": "Prèvia Campionat de Catalunya Sub14 Pista Coberta - Prèvia Campionat de Catalunya Sub14 Pista Coberta",
   "event_date": "08/03/2026",
   "event_location": "Sabadell (i)",
-  "total_results": 12,
+  "total_results": 16,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/03/resultat-20260308-catsub14pcpreviasabadell.pdf",
   "results": [
+    {
+      "athlete_name": "DANIEL LINARES ANTELO",
+      "athlete_dob": "10/7/2014",
+      "athlete_id": "CAT-3723389",
+      "performance": "9.03",
+      "discipline": "60m masculins",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "POL DIAZ CRISTINO",
+      "athlete_dob": "3/2/2014",
+      "athlete_id": "CT2082",
+      "performance": "1:51.40",
+      "discipline": "600m masculins",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "NIL TORRES PRATS",
+      "athlete_dob": "5/10/2014",
+      "athlete_id": "CL7611",
+      "performance": "3:22.30",
+      "discipline": "1.000m masculins",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "DANIEL LINARES ANTELO",
+      "athlete_dob": "10/7/2014",
+      "athlete_id": "CAT-3723389",
+      "performance": "11.73",
+      "discipline": "60m tanques masculins",
+      "wind": null,
+      "position": null
+    },
     {
       "athlete_name": "KILIAN PEDROL ESPINOSA",
       "athlete_dob": "24/2/2013",
       "athlete_id": "CL7676",
       "performance": "1.45",
       "discipline": "Alçada masculina",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "NIL TORRES PRATS",
@@ -19,7 +56,8 @@
       "athlete_id": "CL7611",
       "performance": "1.30",
       "discipline": "Alçada masculina",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "KILIAN PEDROL ESPINOSA",
@@ -27,7 +65,8 @@
       "athlete_id": "CL7676",
       "performance": "8.30",
       "discipline": "Pes masculi",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "MARTI GONZALEZ CERESUELA",
@@ -35,55 +74,17 @@
       "athlete_id": "CL4347",
       "performance": "7.30",
       "discipline": "Pes masculi",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
-      "athlete_name": "MARTINA GÓMEZ ROJALS",
-      "athlete_dob": "28/8/2013",
-      "athlete_id": "CAT-3910530-A",
-      "performance": "1.47",
-      "discipline": "Alçada femenina",
-      "wind": null
-    },
-    {
-      "athlete_name": "MARTINA GÓMEZ ROJALS Q",
-      "athlete_dob": "28/8/2013",
-      "athlete_id": "CAT-3910530",
-      "performance": "4.94",
-      "discipline": "Llargada femenina",
-      "wind": null
-    },
-    {
-      "athlete_name": "CELIA VEGA MARTINEZ",
-      "athlete_dob": "3/1/2013",
-      "athlete_id": "CL7621",
-      "performance": "3.63",
-      "discipline": "Llargada femenina",
-      "wind": null
-    },
-    {
-      "athlete_name": "INDIA MARTIN CUADRADO",
-      "athlete_dob": "4/4/2014",
-      "athlete_id": "CL7608",
-      "performance": "3.19",
-      "discipline": "Llargada femenina",
-      "wind": null
-    },
-    {
-      "athlete_name": "DANIEL LINARES ANTELO",
-      "athlete_dob": "10/7/2014",
-      "athlete_id": "CAT-3723389-A",
-      "performance": "9.03",
-      "discipline": "60m masculins",
-      "wind": null
-    },
-    {
-      "athlete_name": "DANIEL LINARES ANTELO",
-      "athlete_dob": "10/7/2014",
-      "athlete_id": "CAT-3723389-A",
-      "performance": "11.73",
-      "discipline": "60m tanques masculins",
-      "wind": null
+      "athlete_name": "ANNA PEREZ MARTINEZ",
+      "athlete_dob": "4/2/2013",
+      "athlete_id": "CL12136",
+      "performance": "29.39",
+      "discipline": "200m femenins",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "CELIA VEGA MARTINEZ",
@@ -91,7 +92,8 @@
       "athlete_id": "CL7621",
       "performance": "3:29.28",
       "discipline": "1.000m femenins",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "AMELI TORRES ARBONES",
@@ -99,7 +101,53 @@
       "athlete_id": "CL15270",
       "performance": "11.17",
       "discipline": "60m tanques femenins",
-      "wind": null
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "ALBA ESTEVE HOSTALOT",
+      "athlete_dob": "10/11/2013",
+      "athlete_id": "CL4396",
+      "performance": "11.46",
+      "discipline": "60m tanques femenins",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "MARTINA GÓMEZ ROJALS",
+      "athlete_dob": "28/8/2013",
+      "athlete_id": "CAT-3910530-A",
+      "performance": "1.47",
+      "discipline": "Alçada femenina",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "MARTINA GÓMEZ ROJALS Q",
+      "athlete_dob": "28/8/2013",
+      "athlete_id": "CAT-3910530",
+      "performance": "4.94",
+      "discipline": "Llargada femenina",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "CELIA VEGA MARTINEZ",
+      "athlete_dob": "3/1/2013",
+      "athlete_id": "CL7621",
+      "performance": "3.63",
+      "discipline": "Llargada femenina",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "INDIA MARTIN CUADRADO",
+      "athlete_dob": "4/4/2014",
+      "athlete_id": "CL7608",
+      "performance": "3.19",
+      "discipline": "Llargada femenina",
+      "wind": null,
+      "position": null
     }
   ]
 }

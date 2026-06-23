@@ -2,7 +2,7 @@
   "event_name": "Campionat de Catalunya de proves combinades Absolut i Sub23 en ST - Pista coberta de Atletisme de Catalunya - Carme Valero",
   "event_date": "10/01/2026",
   "event_location": "Sabadell (i)",
-  "total_results": 5,
+  "total_results": 9,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/01/resultat-2026011011-catcombinadesabssub23pcsabadell.pdf",
   "results": [
     {
@@ -11,23 +11,8 @@
       "athlete_id": "CT152",
       "performance": "3048",
       "discipline": "Pentathlon Mujeres PC",
-      "wind": null
-    },
-    {
-      "athlete_name": "CLAUDIA MIR CASELLAS",
-      "athlete_dob": "2/8/2003",
-      "athlete_id": "CT152",
-      "performance": "1.52",
-      "discipline": "Altura Mujeres Pentatlón",
-      "wind": null
-    },
-    {
-      "athlete_name": "CLAUDIA MIR CASELLAS",
-      "athlete_dob": "2/8/2003",
-      "athlete_id": "CT152",
-      "performance": "7.33",
-      "discipline": "Peso Mujeres Pentatlón",
-      "wind": null
+      "wind": null,
+      "position": 7
     },
     {
       "athlete_name": "CLAUDIA MIR CASELLAS",
@@ -35,7 +20,62 @@
       "athlete_id": "CT152",
       "performance": "9.41",
       "discipline": "60m vallas Mujeres Pentatlón",
-      "wind": null
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "CLAUDIA MIR CASELLAS",
+      "athlete_dob": "2/8/2003",
+      "athlete_id": "CT152",
+      "performance": "1.52",
+      "discipline": "Altura Mujeres Pentatlón",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "CLAUDIA MIR CASELLAS",
+      "athlete_dob": "2/8/2003",
+      "athlete_id": "CT152",
+      "performance": "7.01",
+      "discipline": "Peso Mujeres Pentatlón",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "CLAUDIA MIR CASELLAS",
+      "athlete_dob": "2/8/2003",
+      "athlete_id": "CT152",
+      "performance": "7.33",
+      "discipline": "Peso Mujeres Pentatlón",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "CLAUDIA MIR CASELLAS",
+      "athlete_dob": "2/8/2003",
+      "athlete_id": "CT152",
+      "performance": "6.84",
+      "discipline": "Peso Mujeres Pentatlón",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "CLAUDIA MIR CASELLAS",
+      "athlete_dob": "2/8/2003",
+      "athlete_id": "CT152",
+      "performance": "4.35",
+      "discipline": "Longitud Mujeres Pentathlón",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "CLAUDIA MIR CASELLAS",
+      "athlete_dob": "2/8/2003",
+      "athlete_id": "CT152",
+      "performance": "4.52",
+      "discipline": "Longitud Mujeres Pentathlón",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "CLAUDIA MIR CASELLAS",
@@ -43,7 +83,8 @@
       "athlete_id": "CT152",
       "performance": "2:28.99",
       "discipline": "800m Mujeres Pentathlón",
-      "wind": null
+      "wind": null,
+      "position": null
     }
   ]
 }

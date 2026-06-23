@@ -2,7 +2,7 @@
   "event_name": "Campionat de Catalunya de Clubs \"A\" - Pista coberta de Atletisme de Catalunya - Carme Valero",
   "event_date": "18/01/2026",
   "event_location": "Sabadell (i)",
-  "total_results": 16,
+  "total_results": 26,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/01/resultat-20260118-catclubsapcsabadell.pdf",
   "results": [
     {
@@ -11,119 +11,17 @@
       "athlete_id": "CT1468",
       "performance": "8.01",
       "discipline": "60m Femení PC",
-      "wind": null
-    },
-    {
-      "athlete_name": "CLARA ORTIZ DE LANDAZURI ONTOSO",
-      "athlete_dob": "4/12/2009",
-      "athlete_id": "CAT-3742953",
-      "performance": "2:25.87",
-      "discipline": "800m Femení",
-      "wind": null
-    },
-    {
-      "athlete_name": "LUCIA MAYOLAS MARTINEZ",
-      "athlete_dob": "4/10/2004",
-      "athlete_id": "CAT-3892679",
-      "performance": "5:11.10",
-      "discipline": "1.500m Femení",
-      "wind": null
-    },
-    {
-      "athlete_name": "CARLA GONZALEZ CARRILLO",
-      "athlete_dob": "5/6/2003",
-      "athlete_id": "CAT-3906535",
-      "performance": "10:35.44",
-      "discipline": "3.000m Femení",
-      "wind": null
-    },
-    {
-      "athlete_name": "MIREIA LOPEZ URBANO",
-      "athlete_dob": "7/12/2000",
-      "athlete_id": "CT23556",
-      "performance": "8.75",
-      "discipline": "60m tanques (0,84) Femení PC",
-      "wind": null
-    },
-    {
-      "athlete_name": "ALBA GUIJARRO ROM",
-      "athlete_dob": "8/7/2010",
-      "athlete_id": "CAT-3895015-A",
-      "performance": "1.44",
-      "discipline": "Alçada Femení",
-      "wind": null
-    },
-    {
-      "athlete_name": "ONA SANSA GARCIA",
-      "athlete_dob": "31/5/2010",
-      "athlete_id": "CAT-3743010-A",
-      "performance": "3.35",
-      "discipline": "Perxa Femení PC",
-      "wind": null
-    },
-    {
-      "athlete_name": "NATALIA SANCHEZ ALVAREZ",
-      "athlete_dob": "28/5/2005",
-      "athlete_id": "CAT-3754208",
-      "performance": "5.17",
-      "discipline": "Llargada Femení PC",
-      "wind": null
-    },
-    {
-      "athlete_name": "CLAUDIA BOTANCH RIUS",
-      "athlete_dob": "2/1/2011",
-      "athlete_id": "CAT-3812320",
-      "performance": "10.10",
-      "discipline": "Triple Salt Femení",
-      "wind": null
-    },
-    {
-      "athlete_name": "MARINA TIBAU SENDRA",
-      "athlete_dob": "6/8/1995",
-      "athlete_id": "CAT-3742985",
-      "performance": "10.95",
-      "discipline": "Pes (4kg) Femení PC",
-      "wind": null
-    },
-    {
-      "athlete_name": "Claudia MIR CASELLAS",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "performance": "4:07.31",
-      "discipline": "4x400m Femení PC",
-      "wind": null
-    },
-    {
-      "athlete_name": "Noemi GONZALEZ CARRILLO",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "performance": "4:07.31",
-      "discipline": "4x400m Femení PC",
-      "wind": null
-    },
-    {
-      "athlete_name": "Mireia LOPEZ URBANO",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "performance": "4:07.31",
-      "discipline": "4x400m Femení PC",
-      "wind": null
-    },
-    {
-      "athlete_name": "Maria Antonietta SALAZAR",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "performance": "4:07.31",
-      "discipline": "4x400m Femení PC",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "NOA ANTON PATERNA",
       "athlete_dob": "20/1/2010",
-      "athlete_id": "CAT-3742994-A",
+      "athlete_id": "CAT-3742994",
       "performance": "25.17",
       "discipline": "200m Femení PC",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "CLAUDIA MIR CASELLAS",
@@ -131,7 +29,215 @@
       "athlete_id": "CT152",
       "performance": "58.33",
       "discipline": "400m Femení",
-      "wind": null
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "CLARA ORTIZ DE LANDAZURI ONTOSO",
+      "athlete_dob": "4/12/2009",
+      "athlete_id": "CAT-3742953",
+      "performance": "2:25.87",
+      "discipline": "800m Femení",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "LUCIA MAYOLAS MARTINEZ",
+      "athlete_dob": "4/10/2004",
+      "athlete_id": "CAT-3892679",
+      "performance": "5:11.10",
+      "discipline": "1.500m Femení",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "CARLA GONZALEZ CARRILLO",
+      "athlete_dob": "5/6/2003",
+      "athlete_id": "CAT-3906535",
+      "performance": "10:35.44",
+      "discipline": "3.000m Femení",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "MIREIA LOPEZ URBANO",
+      "athlete_dob": "7/12/2000",
+      "athlete_id": "CT23556",
+      "performance": "8.75",
+      "discipline": "60m tanques (0,84) Femení PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "ALBA GUIJARRO ROM",
+      "athlete_dob": "8/7/2010",
+      "athlete_id": "CAT-3895015-A",
+      "performance": "1.44",
+      "discipline": "Alçada Femení",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "ONA SANSA GARCIA",
+      "athlete_dob": "31/5/2010",
+      "athlete_id": "CAT-3743010-A",
+      "performance": "3.35",
+      "discipline": "Perxa Femení PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "NATALIA SANCHEZ ALVAREZ",
+      "athlete_dob": "28/5/2005",
+      "athlete_id": "CAT-3754208",
+      "performance": "5.03",
+      "discipline": "Llargada Femení PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "NATALIA SANCHEZ ALVAREZ",
+      "athlete_dob": "28/5/2005",
+      "athlete_id": "CAT-3754208",
+      "performance": "5.17",
+      "discipline": "Llargada Femení PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "NATALIA SANCHEZ ALVAREZ",
+      "athlete_dob": "28/5/2005",
+      "athlete_id": "CAT-3754208",
+      "performance": "5.11",
+      "discipline": "Llargada Femení PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "CLAUDIA BOTANCH RIUS",
+      "athlete_dob": "2/1/2011",
+      "athlete_id": "CAT-3812320",
+      "performance": "9.77",
+      "discipline": "Triple Salt Femení",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "CLAUDIA BOTANCH RIUS",
+      "athlete_dob": "2/1/2011",
+      "athlete_id": "CAT-3812320",
+      "performance": "10.10",
+      "discipline": "Triple Salt Femení",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "CLAUDIA BOTANCH RIUS",
+      "athlete_dob": "2/1/2011",
+      "athlete_id": "CAT-3812320",
+      "performance": "10.03",
+      "discipline": "Triple Salt Femení",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "CLAUDIA BOTANCH RIUS",
+      "athlete_dob": "2/1/2011",
+      "athlete_id": "CAT-3812320",
+      "performance": "9.35",
+      "discipline": "Triple Salt Femení",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "MARINA TIBAU SENDRA",
+      "athlete_dob": "6/8/1995",
+      "athlete_id": "CAT-3742985",
+      "performance": "10.28",
+      "discipline": "Pes (4kg) Femení PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "MARINA TIBAU SENDRA",
+      "athlete_dob": "6/8/1995",
+      "athlete_id": "CAT-3742985",
+      "performance": "10.80",
+      "discipline": "Pes (4kg) Femení PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "MARINA TIBAU SENDRA",
+      "athlete_dob": "6/8/1995",
+      "athlete_id": "CAT-3742985",
+      "performance": "10.95",
+      "discipline": "Pes (4kg) Femení PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "MARINA TIBAU SENDRA",
+      "athlete_dob": "6/8/1995",
+      "athlete_id": "CAT-3742985",
+      "performance": "10.69",
+      "discipline": "Pes (4kg) Femení PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "MARINA TIBAU SENDRA",
+      "athlete_dob": "6/8/1995",
+      "athlete_id": "CAT-3742985",
+      "performance": "10.87",
+      "discipline": "Pes (4kg) Femení PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "MARINA TIBAU SENDRA",
+      "athlete_dob": "6/8/1995",
+      "athlete_id": "CAT-3742985",
+      "performance": "10.65",
+      "discipline": "Pes (4kg) Femení PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Claudia MIR CASELLAS",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "4:07.31",
+      "discipline": "4x400m Femení PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Noemi GONZALEZ CARRILLO",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "4:07.31",
+      "discipline": "4x400m Femení PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Mireia LOPEZ URBANO",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "4:07.31",
+      "discipline": "4x400m Femení PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Maria Antonietta SALAZAR",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "4:07.31",
+      "discipline": "4x400m Femení PC",
+      "wind": null,
+      "position": null
     }
   ]
 }

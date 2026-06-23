@@ -64,6 +64,13 @@ def parse_header(text):
             if 'Control' in stripped and 'sesión' not in stripped.lower() and 'sesion' not in stripped.lower():
                 competicio = stripped
                 break
+    # Fallback: RFEA "Nacionales Sub-XX" (e.g., Allianz Nacionales Sub-18 Short Track)
+    if not competicio:
+        for i, line in enumerate(lines[:30]):
+            stripped = line.strip()
+            if re.search(r'Nacionales\s+Sub[-\s]\d+', stripped, re.IGNORECASE):
+                competicio = stripped
+                break
 
     # Generic venue: any line containing "Estadi", "Pista", "Pabellon", "Pabellón"
     for i, line in enumerate(lines[:20]):
@@ -232,6 +239,8 @@ COMBINED_PATTERNS = [
     r'^(?:Pentathlón|Pentatlón|Pentathlon|Pentatló|Heptathlón|Heptatlón|Heptathlon|Heptatló|Tetrathlón|Tetrathlon|Tetratló|Hexathlón|Hexathlon|Hexatló|Triatlon|Triatlón)\s*(?:S\d+\s+)?(?:JUV\.?|CAD\.?|INF\.?\s*)?\s*(?:Sub\d+\s+)?(?:Hombres|Mujeres|Masculí|Femení|masculins|Mascuins|femenins|masculina|femenina|masculino|femenino)\s*(?:PC\s*[-.]?\s*(?:Aire\s+libre|AL|aire\s+libre))?',
     # Youth combined with S-class (e.g., "Triatlon S12M", "Tetrathlón S14F", "Triatlón S12F")
     r'^(?:Pentathlón|Pentatlón|Pentathlon|Pentatló|Heptathlón|Heptatlón|Heptathlon|Heptatló|Tetrathlón|Tetrathlon|Tetratló|Hexathlón|Hexathlon|Hexatló|Triatlon|Triatlón)\s+S\d+[MFHM]',
+    # Sub-age combined: "Triatló Masculina U12M", "Tetrathlón Femenina U14F"
+    r'^(?:Pentathlón|Pentatlón|Pentathlon|Pentatló|Heptathlón|Heptatlón|Heptathlon|Heptatló|Tetrathlón|Tetrathlon|Tetratló|Hexathlón|Hexathlon|Hexatló|Triatlon|Triatlón|Triatló)\s+(?:Masculina?|Femenina?)\s+U\d+',
     # Tetrathlón Cataluña infantil
     r'^(?:Tetrathlón|Tetrathlon)\s+Cataluña\s+infantil',
 ]
@@ -377,6 +386,106 @@ def extract_position(line):
     pos_match8 = re.match(r'\s*(\d+)\s+\d+\s+JASB', line)
     if pos_match8:
         return int(pos_match8.group(1))
+    return None
+
+
+_NON_FINAL_ROUND_RE = re.compile(
+    r'\b(?:Eliminatoria|Semifinal|Combinadas|Ronda\s*\d|Heats?)\b',
+    re.IGNORECASE,
+)
+
+
+def is_individual_championship(competicio, source_url=None):
+    """True for individual Campionat de Catalunya / Campeonato de España events."""
+    comp_lower = competicio.lower()
+    is_cat = (
+        'campionat de catalunya' in comp_lower
+        or 'campionat de cataluña' in comp_lower
+        or re.search(r'campionat\s+catalu[nñ]ya', comp_lower)
+    )
+    is_esp = (
+        'campeonato de españa' in comp_lower
+        or 'campeonato de espana' in comp_lower
+        or re.search(r'nacionales\s+sub[-\s]\d+', comp_lower)
+    )
+    if not (is_cat or is_esp) and source_url:
+        src_lower = source_url.lower()
+        is_esp = bool(re.search(r'cto\.esp', src_lower))
+        if not is_cat and re.search(r'resultat-\d{8}-cat', src_lower):
+            if not re.search(r'catclubs|catrelleus|controlcat', src_lower):
+                is_cat = True
+    if not (is_cat or is_esp):
+        return False
+    exclude = ('clubs', 'clubes', '4x100', '4x400', 'relleus', 'relevos', 'por equipos')
+    return not any(token in comp_lower for token in exclude)
+
+
+def is_final_round_section(lines, sec_start, sec_end):
+    """Detect if a section is a Final (not eliminatoria/semifinal/combinadas)."""
+    for i in range(sec_start, min(sec_start + 20, sec_end)):
+        stripped = lines[i].strip()
+        if not stripped:
+            continue
+        if _NON_FINAL_ROUND_RE.search(stripped):
+            return False
+        if stripped == 'Final' or re.match(r'^Final\s+[A-Z0-9]', stripped):
+            return True
+    return False
+
+
+def is_athlete_in_final_round(lines, athlete_block, sec_start):
+    """Detect if an athlete block belongs to a Final (not eliminatoria/semifinal)."""
+    anchor_idx = athlete_block.get('position_line_idx')
+    if anchor_idx is None:
+        anchor_idx = athlete_block.get('name_line_idx')
+    if anchor_idx is None:
+        return False
+    for i in range(anchor_idx, max(anchor_idx - 120, sec_start), -1):
+        stripped = lines[i].strip()
+        if not stripped:
+            continue
+        if _NON_FINAL_ROUND_RE.search(stripped):
+            return False
+        if stripped == 'Final' or re.match(r'^Final\s+[A-Z0-9]', stripped):
+            return True
+    return False
+
+
+def extract_championship_score(line, performance):
+    """Extract trailing championship points (1-8) from a result line."""
+    stripped = line.strip()
+    if not stripped or not performance or performance not in stripped:
+        return None
+    perf_idx = stripped.rfind(performance)
+    if perf_idx < 0:
+        return None
+    after_perf = stripped[perf_idx + len(performance):]
+    after_perf = re.sub(r'\s*(?:MMP|MMT|=MMP|=MMT|Q|q)\b', ' ', after_perf)
+    after_perf = re.sub(r'[+-]\d+\.\d', '', after_perf)
+    match = re.search(r'\b([1-8])\s*$', after_perf.strip())
+    if match:
+        return int(match.group(1))
+    return None
+
+
+def extract_championship_position(athlete_block, performance):
+    """Final position from scoring column (top 8) or overall Puesto rank."""
+    if not performance or performance in ('DQ', 'DNS', 'DNF'):
+        return None
+    candidate_lines = []
+    for _, line in athlete_block.get('data_lines', []):
+        candidate_lines.append(line)
+    for _, line in athlete_block.get('block_lines', []):
+        candidate_lines.append(line)
+    if athlete_block.get('position_line'):
+        candidate_lines.append(athlete_block['position_line'])
+    for line in candidate_lines:
+        score = extract_championship_score(line, performance)
+        if score is not None:
+            return 9 - score
+    rank = athlete_block.get('position')
+    if rank and rank > 0:
+        return rank
     return None
 
 
@@ -774,6 +883,9 @@ def find_section_boundaries(lines):
         # These lines have format: "RCAT  J.CASTELLA-N.CAVERO 2:33.39  Sabadell  13/02/2022"
         if re.match(r'^\s*RC[A-Z]+\s', stripped):
             continue
+        # Skip combined-event table headers (not event section names)
+        if 'Puesto' in stripped and 'Dorsal' in stripped and 'Nombre' in stripped:
+            continue
         
         event_name = ""
         is_schedule = False
@@ -916,6 +1028,11 @@ def find_section_boundaries(lines):
         stripped = lines[i].strip()
         if not stripped:
             continue
+        # Schedule lines (HORARIO) are not result sections
+        if re.match(r'^\d{2}:\d{2}\s+', stripped):
+            continue
+        if 'Puesto' in stripped and 'Dorsal' in stripped and 'Nombre' in stripped:
+            continue
         # Check if this is an RFEA event header (e.g., "60m MASC. PC")
         is_event = False
         for pattern in EVENT_PATTERNS:
@@ -965,6 +1082,7 @@ def find_section_boundaries(lines):
                     section_starts.append((i, stripped))
                     rfea_added.add(i)
     
+    section_starts.sort(key=lambda x: x[0])
     section_starts.append((len(lines), ""))
     return section_starts
 
@@ -1617,7 +1735,7 @@ def _find_catt_old_format(lines, sec_start, sec_end, is_in_sumario=None):
     # CA Vic, JA Sabadell, GEiE Girona, etc.) causing cross-contamination where results for
     # athletes from those clubs were extracted into CATT athlete files.
     # Now only Strategy 1 (CATT/CA Tarragona anchor) and Strategy 3 (Conersys) are used.
-    club_name_pattern = None
+    club_name_pattern = re.compile(r'^\s*(\d+)\s+\d+\s+CA\s+Tarragona')
     
     # Strategy 3: Conersys format - position + CA Tarragona + CATT (no dorsal between pos and club)
     # Pattern: "5          CA Tarragona                        CATT"
@@ -2261,7 +2379,7 @@ def extract_field_result_new(lines, athlete_block, sec_end):
     return ""
 
 
-def parse_catt_athlete(lines, athlete_block, sec_start, sec_end, event_name, wind, event_type, competicio, data_comp):
+def parse_catt_athlete(lines, athlete_block, sec_start, sec_end, event_name, wind, event_type, competicio, data_comp, is_championship_final=False):
     """Parse a single CATT athlete from a block found by find_catt_athletes_in_section."""
     name_line = athlete_block['name_line']
     anchor_line = athlete_block['position_line']
@@ -2485,6 +2603,13 @@ def parse_catt_athlete(lines, athlete_block, sec_start, sec_end, event_name, win
 
     marca = re.sub(r'\s+(MMT|MMP|DNS|DQ|RT.*)$', '', marca).strip()
 
+    def _championship_position_for(performance):
+        if not is_championship_final or not performance:
+            return None
+        if not is_athlete_in_final_round(lines, athlete_block, sec_start):
+            return None
+        return extract_championship_position(athlete_block, performance)
+
     # For jump and field events, extract all valid attempts and create one entry per attempt
     if event_type in ("jump", "field"):
         # Determine min/max range based on sub-type
@@ -2530,6 +2655,7 @@ def parse_catt_athlete(lines, athlete_block, sec_start, sec_end, event_name, win
                         best_mark = best_val
         
         if attempts:
+            championship_position = _championship_position_for(best_mark or marca)
             result_list = []
             for att in attempts:
                 result_list.append({
@@ -2542,9 +2668,11 @@ def parse_catt_athlete(lines, athlete_block, sec_start, sec_end, event_name, win
                     "atleta_licencia": licencia,
                     "marca": att["value"],
                     "vent": att["wind"],
+                    "position": championship_position,
                 })
             return result_list
         # Fallback: if no attempts extracted, return single entry with best mark
+        fallback_mark = best_mark if best_mark else marca
         return [{
             "lloc": lloc,
             "prova": event_name,
@@ -2553,8 +2681,9 @@ def parse_catt_athlete(lines, athlete_block, sec_start, sec_end, event_name, win
             "atleta_nom": name,
             "atleta_naixement": birth_date,
             "atleta_licencia": licencia,
-            "marca": best_mark if best_mark else marca,
+            "marca": fallback_mark,
             "vent": wind,
+            "position": _championship_position_for(fallback_mark),
         }]
     
     return [{
@@ -2567,10 +2696,11 @@ def parse_catt_athlete(lines, athlete_block, sec_start, sec_end, event_name, win
         "atleta_licencia": licencia,
         "marca": marca,
         "vent": wind,
+        "position": _championship_position_for(marca),
     }]
 
 
-def parse_combined_section(lines, sec_start, sec_end, event_name, competicio, data_comp):
+def parse_combined_section(lines, sec_start, sec_end, event_name, competicio, data_comp, is_championship=False):
     """Parse a combined events section (pentathlon/heptathlon).
     
     Format:
@@ -2587,6 +2717,9 @@ def parse_combined_section(lines, sec_start, sec_end, event_name, competicio, da
     We extract: name, birth_date, position, total points as performance, event name
     """
     results = []
+    is_championship_final = (
+        is_championship and is_final_round_section(lines, sec_start, sec_end)
+    )
     
     i = sec_start
     while i < min(sec_end, len(lines)):
@@ -2726,6 +2859,7 @@ def parse_combined_section(lines, sec_start, sec_end, event_name, competicio, da
             "atleta_licencia": license,
             "marca": total_points,
             "vent": None,
+            "position": pos if is_championship_final and pos > 0 else None,
         })
         
         i += 1
@@ -2826,9 +2960,10 @@ def parse_relay_section(lines, sec_start, sec_end, event_name, competicio, data_
     return results
 
 
-def parse_with_section_aware(text, competicio, data_comp):
+def parse_with_section_aware(text, competicio, data_comp, source_url=None):
     results = []
     lines = text.split('\n')
+    is_championship = is_individual_championship(competicio, source_url)
 
     sections = find_section_boundaries(lines)
 
@@ -2849,7 +2984,9 @@ def parse_with_section_aware(text, competicio, data_comp):
 
         # Handle combined events differently
         if event_type == "combined":
-            combined_results = parse_combined_section(lines, sec_start, sec_end, sec_name.strip(), competicio, data_comp)
+            combined_results = parse_combined_section(
+                lines, sec_start, sec_end, sec_name.strip(), competicio, data_comp, is_championship
+            )
             results.extend(combined_results)
             continue
 
@@ -2862,6 +2999,12 @@ def parse_with_section_aware(text, competicio, data_comp):
                 break
         if is_sumario:
             continue
+
+        is_championship_final = (
+            is_championship
+            and event_type not in ("relay", "combined")
+            and is_final_round_section(lines, sec_start, sec_end)
+        )
 
         # Find CATT athletes in this section
         catt_athletes = find_catt_athletes_in_section(lines, sec_start, sec_end)
@@ -2881,7 +3024,7 @@ def parse_with_section_aware(text, competicio, data_comp):
 
             athletes = parse_catt_athlete(
                 lines, athlete_block, sec_start, sec_end, sec_name.strip(), athlete_wind,
-                event_type, competicio, data_comp
+                event_type, competicio, data_comp, is_championship_final
             )
             if athletes:
                 results.extend(athletes)
@@ -3075,7 +3218,7 @@ def main():
 
     if not quiet:
         print("\nExtracting CATT athlete results...")
-    results = parse_with_section_aware(text, full_competicio, data)
+    results = parse_with_section_aware(text, full_competicio, data, source_url)
 
     if not quiet:
         print(f"Found {len(results)} result entries for CATT athletes")
@@ -3209,6 +3352,7 @@ def main():
             "performance": r["marca"],
             "discipline": r["prova"],
             "wind": r["vent"],
+            "position": r.get("position"),
         }
         output["results"].append(entry)
 

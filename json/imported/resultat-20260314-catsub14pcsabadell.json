@@ -2,7 +2,7 @@
   "event_name": "Jornada Final Campionat de Catalunya Sub14 Pista Coberta - Jornada Final Campionat de Catalunya Sub14 Pista Coberta",
   "event_date": "14/03/2026",
   "event_location": "Sabadell (i)",
-  "total_results": 8,
+  "total_results": 16,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/03/resultat-20260314-catsub14pcsabadell.pdf",
   "results": [
     {
@@ -11,7 +11,8 @@
       "athlete_id": "CAT-3723389",
       "performance": "11.66",
       "discipline": "60m tanques masculins",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "KILIAN PEDROL ESPINOSA",
@@ -19,7 +20,8 @@
       "athlete_id": "CL7676",
       "performance": "1.55",
       "discipline": "Alçada masculina",
-      "wind": null
+      "wind": null,
+      "position": 1
     },
     {
       "athlete_name": "NIL TORRES PRATS",
@@ -27,7 +29,26 @@
       "athlete_id": "CL7611",
       "performance": "1.40",
       "discipline": "Alçada masculina",
-      "wind": null
+      "wind": null,
+      "position": 7
+    },
+    {
+      "athlete_name": "KILIAN PEDROL ESPINOSA",
+      "athlete_dob": "24/2/2013",
+      "athlete_id": "CL7676",
+      "performance": "7.97",
+      "discipline": "Pes masculí",
+      "wind": null,
+      "position": 8
+    },
+    {
+      "athlete_name": "KILIAN PEDROL ESPINOSA",
+      "athlete_dob": "24/2/2013",
+      "athlete_id": "CL7676",
+      "performance": "7.82",
+      "discipline": "Pes masculí",
+      "wind": null,
+      "position": 8
     },
     {
       "athlete_name": "KILIAN PEDROL ESPINOSA",
@@ -35,7 +56,35 @@
       "athlete_id": "CL7676",
       "performance": "8.36",
       "discipline": "Pes masculí",
-      "wind": null
+      "wind": null,
+      "position": 8
+    },
+    {
+      "athlete_name": "KILIAN PEDROL ESPINOSA",
+      "athlete_dob": "24/2/2013",
+      "athlete_id": "CL7676",
+      "performance": "8.00",
+      "discipline": "Pes masculí",
+      "wind": null,
+      "position": 8
+    },
+    {
+      "athlete_name": "KILIAN PEDROL ESPINOSA",
+      "athlete_dob": "24/2/2013",
+      "athlete_id": "CL7676",
+      "performance": "8.27",
+      "discipline": "Pes masculí",
+      "wind": null,
+      "position": 8
+    },
+    {
+      "athlete_name": "KILIAN PEDROL ESPINOSA",
+      "athlete_dob": "24/2/2013",
+      "athlete_id": "CL7676",
+      "performance": "8.01",
+      "discipline": "Pes masculí",
+      "wind": null,
+      "position": 8
     },
     {
       "athlete_name": "CELIA VEGA MARTINEZ",
@@ -43,15 +92,8 @@
       "athlete_id": "CL7621",
       "performance": "3:28.31",
       "discipline": "1.000m femenins",
-      "wind": null
-    },
-    {
-      "athlete_name": "AMELI TORRES ARBONES",
-      "athlete_dob": "27/1/2014",
-      "athlete_id": "CL15270",
-      "performance": "11.22",
-      "discipline": "2.000m femenins",
-      "wind": null
+      "wind": null,
+      "position": 11
     },
     {
       "athlete_name": "MARTINA GÓMEZ ROJALS",
@@ -59,15 +101,53 @@
       "athlete_id": "CAT-3910530-A",
       "performance": "1.43",
       "discipline": "Alçada femenina",
-      "wind": null
+      "wind": null,
+      "position": 4
     },
     {
       "athlete_name": "MARTINA GÓMEZ ROJALS",
       "athlete_dob": "28/8/2013",
       "athlete_id": "CAT-3910530",
-      "performance": "4.89",
+      "performance": "4.53",
       "discipline": "Llargada femenina",
-      "wind": null
+      "wind": null,
+      "position": 2
+    },
+    {
+      "athlete_name": "MARTINA GÓMEZ ROJALS",
+      "athlete_dob": "28/8/2013",
+      "athlete_id": "CAT-3910530",
+      "performance": "4.78",
+      "discipline": "Llargada femenina",
+      "wind": null,
+      "position": 2
+    },
+    {
+      "athlete_name": "MARTINA GÓMEZ ROJALS",
+      "athlete_dob": "28/8/2013",
+      "athlete_id": "CAT-3910530",
+      "performance": "4.73",
+      "discipline": "Llargada femenina",
+      "wind": null,
+      "position": 2
+    },
+    {
+      "athlete_name": "MARTINA GÓMEZ ROJALS",
+      "athlete_dob": "28/8/2013",
+      "athlete_id": "CAT-3910530",
+      "performance": "4.76",
+      "discipline": "Llargada femenina",
+      "wind": null,
+      "position": 2
+    },
+    {
+      "athlete_name": "MARTINA GÓMEZ ROJALS",
+      "athlete_dob": "28/8/2013",
+      "athlete_id": "CAT-3910530",
+      "performance": "4.80",
+      "discipline": "Llargada femenina",
+      "wind": null,
+      "position": 2
     }
   ]
 }

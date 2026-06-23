@@ -2,7 +2,7 @@
   "event_name": "Campionat de Catalunya de Clubs \"B\" - Pista coberta de Atletisme de Catalunya - Carme Valero",
   "event_date": "18/01/2026",
   "event_location": "Sabadell (i)",
-  "total_results": 16,
+  "total_results": 20,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/01/resultat-20260118-catclubsbpcsabadell.pdf",
   "results": [
     {
@@ -11,119 +11,17 @@
       "athlete_id": "CAT-3724284",
       "performance": "7.44",
       "discipline": "60m Masculí",
-      "wind": null
-    },
-    {
-      "athlete_name": "XAVIER ROS BORRELL",
-      "athlete_dob": "19/5/1998",
-      "athlete_id": "CAT-3754232",
-      "performance": "2:05.52",
-      "discipline": "800m Masculí",
-      "wind": null
-    },
-    {
-      "athlete_name": "ALFONSO PAJARES CHAVARRI",
-      "athlete_dob": "28/6/2004",
-      "athlete_id": "CT509",
-      "performance": "4:09.44",
-      "discipline": "1.500m Masculí",
-      "wind": null
-    },
-    {
-      "athlete_name": "XAVIER RODRIGUEZ ESCUDE",
-      "athlete_dob": "28/3/2008",
-      "athlete_id": "CAT-3743015",
-      "performance": "9:27.67",
-      "discipline": "3.000m Masculí PC",
-      "wind": null
-    },
-    {
-      "athlete_name": "JAN SANS RIOLA",
-      "athlete_dob": "23/10/1998",
-      "athlete_id": "CAT-3791853",
-      "performance": "8.39",
-      "discipline": "60m tanques (1,067) Masculí PC",
-      "wind": null
-    },
-    {
-      "athlete_name": "JERONI FLORES PIÑAS",
-      "athlete_dob": "4/1/2009",
-      "athlete_id": "CT2935",
-      "performance": "1.75",
-      "discipline": "Alçada Masculí PC",
-      "wind": null
-    },
-    {
-      "athlete_name": "JAIRO ROMAN PLATA",
-      "athlete_dob": "2/7/2006",
-      "athlete_id": "CL26818",
-      "performance": "6.52",
-      "discipline": "Llargada Masculí PC",
-      "wind": null
-    },
-    {
-      "athlete_name": "BERNAT VERDU GOMEZ",
-      "athlete_dob": "2/1/2002",
-      "athlete_id": "CAT-3823996",
-      "performance": "12.45",
-      "discipline": "Triple Salt Masculí",
-      "wind": null
-    },
-    {
-      "athlete_name": "LLUC SUBIROS BRASERO",
-      "athlete_dob": "6/1/2007",
-      "athlete_id": "CT1186",
-      "performance": "4.10",
-      "discipline": "Perxa Masculí",
-      "wind": null
-    },
-    {
-      "athlete_name": "FERRAN SAGRERA PUJOL",
-      "athlete_dob": "19/8/2006",
-      "athlete_id": "CAT-3889630",
-      "performance": "10.01",
-      "discipline": "Pes Masculí",
-      "wind": null
-    },
-    {
-      "athlete_name": "Unai OLAYA MINGUEZ",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "performance": "3:27.04",
-      "discipline": "4x400m Masculí PC",
-      "wind": null
-    },
-    {
-      "athlete_name": "Joan MARTORELL ESCOBAR",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "performance": "3:27.04",
-      "discipline": "4x400m Masculí PC",
-      "wind": null
-    },
-    {
-      "athlete_name": "Lucas BUJ FUERTES",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "performance": "3:27.04",
-      "discipline": "4x400m Masculí PC",
-      "wind": null
-    },
-    {
-      "athlete_name": "Pol AIXALA GUIU",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "performance": "3:27.04",
-      "discipline": "4x400m Masculí PC",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "HUGO JULES SAIZ SANTOLARIA",
       "athlete_dob": "31/1/2005",
-      "athlete_id": "CAT-3742956-A",
+      "athlete_id": "CAT-3742956",
       "performance": "23.35",
       "discipline": "200m Masculí PC",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "POL AIXALA GUIU",
@@ -131,7 +29,161 @@
       "athlete_id": "CT438",
       "performance": "48.61",
       "discipline": "400m Masculí",
-      "wind": null
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "XAVIER ROS BORRELL",
+      "athlete_dob": "19/5/1998",
+      "athlete_id": "CAT-3754232",
+      "performance": "2:05.52",
+      "discipline": "800m Masculí",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "ALFONSO PAJARES CHAVARRI",
+      "athlete_dob": "28/6/2004",
+      "athlete_id": "CT509",
+      "performance": "4:09.44",
+      "discipline": "1.500m Masculí",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "XAVIER RODRIGUEZ ESCUDE",
+      "athlete_dob": "28/3/2008",
+      "athlete_id": "CAT-3743015",
+      "performance": "9:27.67",
+      "discipline": "3.000m Masculí PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "JAN SANS RIOLA",
+      "athlete_dob": "23/10/1998",
+      "athlete_id": "CAT-3791853",
+      "performance": "8.39",
+      "discipline": "60m tanques (1,067) Masculí PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "JERONI FLORES PIÑAS",
+      "athlete_dob": "4/1/2009",
+      "athlete_id": "CT2935",
+      "performance": "1.75",
+      "discipline": "Alçada Masculí PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "JAIRO ROMAN PLATA",
+      "athlete_dob": "2/7/2006",
+      "athlete_id": "CL26818",
+      "performance": "6.39",
+      "discipline": "Llargada Masculí PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "BERNAT VERDU GOMEZ",
+      "athlete_dob": "2/1/2002",
+      "athlete_id": "CAT-3823996",
+      "performance": "12.45",
+      "discipline": "Triple Salt Masculí",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "BERNAT VERDU GOMEZ",
+      "athlete_dob": "2/1/2002",
+      "athlete_id": "CAT-3823996",
+      "performance": "11.84",
+      "discipline": "Triple Salt Masculí",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "LLUC SUBIROS BRASERO",
+      "athlete_dob": "6/1/2007",
+      "athlete_id": "CT1186",
+      "performance": "4.10",
+      "discipline": "Perxa Masculí",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "FERRAN SAGRERA PUJOL",
+      "athlete_dob": "19/8/2006",
+      "athlete_id": "CAT-3889630",
+      "performance": "9.17",
+      "discipline": "Pes Masculí",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "FERRAN SAGRERA PUJOL",
+      "athlete_dob": "19/8/2006",
+      "athlete_id": "CAT-3889630",
+      "performance": "10.01",
+      "discipline": "Pes Masculí",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "FERRAN SAGRERA PUJOL",
+      "athlete_dob": "19/8/2006",
+      "athlete_id": "CAT-3889630",
+      "performance": "9.53",
+      "discipline": "Pes Masculí",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "FERRAN SAGRERA PUJOL",
+      "athlete_dob": "19/8/2006",
+      "athlete_id": "CAT-3889630",
+      "performance": "9.88",
+      "discipline": "Pes Masculí",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Unai OLAYA MINGUEZ",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "3:27.04",
+      "discipline": "4x400m Masculí PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Joan MARTORELL ESCOBAR",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "3:27.04",
+      "discipline": "4x400m Masculí PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Lucas BUJ FUERTES",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "3:27.04",
+      "discipline": "4x400m Masculí PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Pol AIXALA GUIU",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "3:27.04",
+      "discipline": "4x400m Masculí PC",
+      "wind": null,
+      "position": null
     }
   ]
 }

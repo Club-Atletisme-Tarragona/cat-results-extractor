@@ -3,6 +3,7 @@
   "event_date": "17/04/2026",
   "event_location": "Barcelona-SE",
   "total_results": 1,
+  "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/04/resultat-20260417-circuitaacserrahima.pdf",
   "results": [
     {
       "athlete_name": "DIDAC COMERMA GUASCH",
@@ -10,7 +11,8 @@
       "athlete_id": "CAT-3713961",
       "performance": "12.10",
       "discipline": "100m Abs M",
-      "wind": "+0.2"
+      "wind": "+1.4",
+      "position": null
     }
   ]
 }

@@ -2,16 +2,26 @@
   "event_name": "41è Campionat de Catalunya Sub18 ST - Pista coberta de Atletisme de Catalunya - Carme Valero",
   "event_date": "01/03/2026",
   "event_location": "Sabadell (i)",
-  "total_results": 22,
+  "total_results": 28,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/03/resultat-20260301-catsub18pcsabadell.pdf",
   "results": [
+    {
+      "athlete_name": "IKER RODRIGUEZ BARRIOS",
+      "athlete_dob": "11/8/2010",
+      "athlete_id": "CL11327",
+      "performance": "7.57",
+      "discipline": "60m Masculí",
+      "wind": null,
+      "position": null
+    },
     {
       "athlete_name": "JOAN RICH SALAS",
       "athlete_dob": "8/3/2009",
       "athlete_id": "CAT-3742965",
       "performance": "7.39",
       "discipline": "60m Masculí",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "UNAI OLAYA MINGUEZ",
@@ -19,15 +29,8 @@
       "athlete_id": "CAT-3895024",
       "performance": "7.49",
       "discipline": "60m Masculí",
-      "wind": null
-    },
-    {
-      "athlete_name": "IKER RODRIGUEZ BARRIOS",
-      "athlete_dob": "11/8/2010",
-      "athlete_id": "CL11327",
-      "performance": "7.57",
-      "discipline": "60m Masculí",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "DAVID FERNANDEZ PINEDA",
@@ -35,7 +38,17 @@
       "athlete_id": "CL11323",
       "performance": "7.72",
       "discipline": "60m Masculí",
-      "wind": null
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "UNAI OLAYA MINGUEZ",
+      "athlete_dob": "27/7/2009",
+      "athlete_id": "CAT-3895024",
+      "performance": "54.05",
+      "discipline": "400m Masculí",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "JERONI FLORES PIÑAS",
@@ -43,7 +56,8 @@
       "athlete_id": "CT2935",
       "performance": "8.40",
       "discipline": "60m tanques (0,91) Sub18 Masculí PC",
-      "wind": null
+      "wind": null,
+      "position": 6
     },
     {
       "athlete_name": "JERONI FLORES PIÑAS",
@@ -51,7 +65,8 @@
       "athlete_id": "CT2935",
       "performance": "8.49",
       "discipline": "60m tanques (0,91) Sub18 Masculí PC",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "SAMUEL MARCOS PEREZ",
@@ -59,15 +74,17 @@
       "athlete_id": "CL90024",
       "performance": "9.17",
       "discipline": "60m tanques (0,91) Sub18 Masculí PC",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "DAVID FERNANDEZ PINEDA",
       "athlete_dob": "18/6/2010",
       "athlete_id": "CL11323",
-      "performance": "11.56",
+      "performance": "11.15",
       "discipline": "Triple Salt Masculí",
-      "wind": null
+      "wind": null,
+      "position": 13
     },
     {
       "athlete_name": "JERONI FLORES PIÑAS",
@@ -75,7 +92,8 @@
       "athlete_id": "CT2935",
       "performance": "1.69",
       "discipline": "Alçada Masculí PC",
-      "wind": null
+      "wind": null,
+      "position": 12
     },
     {
       "athlete_name": "SAMUEL MARCOS PEREZ",
@@ -83,7 +101,8 @@
       "athlete_id": "CL90024",
       "performance": "3.70",
       "discipline": "Perxa Masculí",
-      "wind": null
+      "wind": null,
+      "position": 9
     },
     {
       "athlete_name": "NOA ANTON PATERNA",
@@ -91,7 +110,8 @@
       "athlete_id": "CAT-3742994",
       "performance": "7.68",
       "discipline": "60m Femení PC",
-      "wind": null
+      "wind": null,
+      "position": 2
     },
     {
       "athlete_name": "NOA ANTON PATERNA",
@@ -99,7 +119,8 @@
       "athlete_id": "CAT-3742994",
       "performance": "7.89",
       "discipline": "60m Femení PC",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ALDARA LINARES ANTELO",
@@ -107,7 +128,44 @@
       "athlete_id": "CAT-3724270",
       "performance": "8.42",
       "discipline": "60m Femení PC",
-      "wind": null
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "NOA ANTON PATERNA",
+      "athlete_dob": "20/1/2010",
+      "athlete_id": "CAT-3742994",
+      "performance": "25.02",
+      "discipline": "200m Femení PC",
+      "wind": null,
+      "position": 1
+    },
+    {
+      "athlete_name": "NOA ANTON PATERNA",
+      "athlete_dob": "20/1/2010",
+      "athlete_id": "CAT-3742994",
+      "performance": "25.33",
+      "discipline": "200m Femení PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "NORA MONTOLIO AMARO",
+      "athlete_dob": "5/2/2010",
+      "athlete_id": "CAT-3895023",
+      "performance": "1:01.42",
+      "discipline": "400m Femení",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "CLARA ORTIZ DE LANDAZURI ONTOSO",
+      "athlete_dob": "4/12/2009",
+      "athlete_id": "CAT-3742953",
+      "performance": "2:25.46",
+      "discipline": "800m Femení",
+      "wind": null,
+      "position": 6
     },
     {
       "athlete_name": "ALBA GUIJARRO ROM",
@@ -115,7 +173,17 @@
       "athlete_id": "CAT-3895015-A",
       "performance": "1.39",
       "discipline": "Alçada Femení",
-      "wind": null
+      "wind": null,
+      "position": 10
+    },
+    {
+      "athlete_name": "NORA MONTOLIO AMARO",
+      "athlete_dob": "5/2/2010",
+      "athlete_id": "CAT-3895023",
+      "performance": "4.90",
+      "discipline": "Llargada Femení PC",
+      "wind": null,
+      "position": 8
     },
     {
       "athlete_name": "NORA MONTOLIO AMARO",
@@ -123,7 +191,26 @@
       "athlete_id": "CAT-3895023",
       "performance": "5.08",
       "discipline": "Llargada Femení PC",
-      "wind": null
+      "wind": null,
+      "position": 8
+    },
+    {
+      "athlete_name": "NORA MONTOLIO AMARO",
+      "athlete_dob": "5/2/2010",
+      "athlete_id": "CAT-3895023",
+      "performance": "4.93",
+      "discipline": "Llargada Femení PC",
+      "wind": null,
+      "position": 8
+    },
+    {
+      "athlete_name": "NORA MONTOLIO AMARO",
+      "athlete_dob": "5/2/2010",
+      "athlete_id": "CAT-3895023",
+      "performance": "4.96",
+      "discipline": "Llargada Femení PC",
+      "wind": null,
+      "position": 8
     },
     {
       "athlete_name": "ONA SANSA GARCIA",
@@ -131,7 +218,26 @@
       "athlete_id": "CAT-3743010-A",
       "performance": "3.15",
       "discipline": "Perxa Femení PC",
-      "wind": null
+      "wind": null,
+      "position": 6
+    },
+    {
+      "athlete_name": "NOA NIN NAVAS",
+      "athlete_dob": "28/8/2009",
+      "athlete_id": "CAT-3742996",
+      "performance": "9.53",
+      "discipline": "Pes (3kg) Femení PC",
+      "wind": null,
+      "position": 9
+    },
+    {
+      "athlete_name": "NOA NIN NAVAS",
+      "athlete_dob": "28/8/2009",
+      "athlete_id": "CAT-3742996",
+      "performance": "9.52",
+      "discipline": "Pes (3kg) Femení PC",
+      "wind": null,
+      "position": 9
     },
     {
       "athlete_name": "NOA NIN NAVAS",
@@ -139,39 +245,8 @@
       "athlete_id": "CAT-3742996",
       "performance": "10.23",
       "discipline": "Pes (3kg) Femení PC",
-      "wind": null
-    },
-    {
-      "athlete_name": "UNAI OLAYA MINGUEZ",
-      "athlete_dob": "27/7/2009",
-      "athlete_id": "CAT-3895024-A",
-      "performance": "54.05",
-      "discipline": "400m Masculí",
-      "wind": null
-    },
-    {
-      "athlete_name": "NOA ANTON PATERNA",
-      "athlete_dob": "20/1/2010",
-      "athlete_id": "CAT-3742994-A",
-      "performance": "25.02",
-      "discipline": "200m Femení PC",
-      "wind": null
-    },
-    {
-      "athlete_name": "NOA ANTON PATERNA",
-      "athlete_dob": "20/1/2010",
-      "athlete_id": "CAT-3742994-A",
-      "performance": "25.33",
-      "discipline": "200m Femení PC",
-      "wind": null
-    },
-    {
-      "athlete_name": "NORA MONTOLIO AMARO",
-      "athlete_dob": "5/2/2010",
-      "athlete_id": "CAT-3895023-A",
-      "performance": "1:01.42",
-      "discipline": "400m Femení",
-      "wind": null
+      "wind": null,
+      "position": 9
     },
     {
       "athlete_name": "CLARA ORTIZ DE LANDAZURI ONTO…",
@@ -179,7 +254,8 @@
       "athlete_id": "CAT-3742953-A",
       "performance": "2:25.46",
       "discipline": "800m Femení",
-      "wind": null
+      "wind": null,
+      "position": null
     }
   ]
 }

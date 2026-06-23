@@ -2,7 +2,7 @@
   "event_name": "Jornada Prèvia - Campionat de Catalunya Sub16 - Estadio Municipal de Mataró",
   "event_date": "17/05/2026",
   "event_location": "Mataró",
-  "total_results": 20,
+  "total_results": 35,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/05/resultat-20260517-catsub16previamataro.pdf",
   "results": [
     {
@@ -11,7 +11,8 @@
       "athlete_id": "CL15333",
       "performance": "41.66",
       "discipline": "300 metres tanques masculins",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "MARC MARTI FERNANDEZ",
@@ -19,7 +20,8 @@
       "athlete_id": "CL94395",
       "performance": "11.79",
       "discipline": "100 metres llisos mascuins",
-      "wind": "-2.4"
+      "wind": "-2.4",
+      "position": null
     },
     {
       "athlete_name": "FERRAN MASCARO NAVARRO",
@@ -27,7 +29,8 @@
       "athlete_id": "CL96310",
       "performance": "1.58",
       "discipline": "Salt d'alçada masculí",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "OSCAR IBAÑEZ RIZO",
@@ -35,7 +38,8 @@
       "athlete_id": "CL4160",
       "performance": "1.53",
       "discipline": "Salt d'alçada masculí",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ENZO MATE GRAS",
@@ -43,7 +47,8 @@
       "athlete_id": "CL94546",
       "performance": "3.65",
       "discipline": "Salt amb perxa masculí",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "OSCAR IBAÑEZ RIZO",
@@ -51,7 +56,17 @@
       "athlete_id": "CL4160",
       "performance": "10.44",
       "discipline": "Triple salt masculí",
-      "wind": null
+      "wind": "1.5",
+      "position": null
+    },
+    {
+      "athlete_name": "OSCAR IBAÑEZ RIZO",
+      "athlete_dob": "8/12/2011",
+      "athlete_id": "CL4160",
+      "performance": "10.07",
+      "discipline": "Triple salt masculí",
+      "wind": "0.3",
+      "position": null
     },
     {
       "athlete_name": "FERRAN MASCARO NAVARRO",
@@ -59,7 +74,17 @@
       "athlete_id": "CL96310",
       "performance": "9.18",
       "discipline": "Llançament de pes masculí",
-      "wind": null
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "HERNAN FERRAN JIMENEZ",
+      "athlete_dob": "28/9/2012",
+      "athlete_id": "CL1093",
+      "performance": "25.31",
+      "discipline": "Llançament de disc masculí",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "HERNAN FERRAN JIMENEZ",
@@ -67,7 +92,8 @@
       "athlete_id": "CL1093",
       "performance": "28.75",
       "discipline": "Llançament de disc masculí",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "MARIA FERRAN JIMENEZ",
@@ -75,7 +101,8 @@
       "athlete_id": "CL94384",
       "performance": "52.59",
       "discipline": "300 metres tanques femenins",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "VICTORIA CHIAMAKA ONYEMAEKWU AHANOTU",
@@ -83,7 +110,8 @@
       "athlete_id": "CL6108",
       "performance": "13.30",
       "discipline": "100 metres llisos femenins",
-      "wind": "+0.7"
+      "wind": "-0.5",
+      "position": null
     },
     {
       "athlete_name": "MARIA FERRAN JIMENEZ",
@@ -91,7 +119,8 @@
       "athlete_id": "CL94384",
       "performance": "47.32",
       "discipline": "300 metres llisos femenins",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "LARA GARCIA MUR",
@@ -99,7 +128,8 @@
       "athlete_id": "CL94385",
       "performance": "11:26.41",
       "discipline": "3000 metres llisos femenins",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ARLET SOLANA VILA",
@@ -107,7 +137,8 @@
       "athlete_id": "CL11154",
       "performance": "19.07",
       "discipline": "100 metres tanques femenins",
-      "wind": "-1.1"
+      "wind": "+0.2",
+      "position": null
     },
     {
       "athlete_name": "MARIA MARTIN CUADRADO",
@@ -115,7 +146,17 @@
       "athlete_id": "CL1089",
       "performance": "20.23",
       "discipline": "100 metres tanques femenins",
-      "wind": "-1.1"
+      "wind": "-1.6",
+      "position": null
+    },
+    {
+      "athlete_name": "VICTORIA CHIAMAKA ONYEMAEKWU AHANOTU",
+      "athlete_dob": "22/3/2011",
+      "athlete_id": "CL6108",
+      "performance": "4.72",
+      "discipline": "Salt de llargada femení",
+      "wind": "0.0",
+      "position": null
     },
     {
       "athlete_name": "VICTORIA CHIAMAKA ONYEMAEKWU AHANOTU",
@@ -123,7 +164,44 @@
       "athlete_id": "CL6108",
       "performance": "4.86",
       "discipline": "Salt de llargada femení",
-      "wind": null
+      "wind": "1.5",
+      "position": null
+    },
+    {
+      "athlete_name": "VICTORIA CHIAMAKA ONYEMAEKWU AHANOTU",
+      "athlete_dob": "22/3/2011",
+      "athlete_id": "CL6108",
+      "performance": "4.76",
+      "discipline": "Salt de llargada femení",
+      "wind": "0.0",
+      "position": null
+    },
+    {
+      "athlete_name": "CARLOTA TEJERO CLAU",
+      "athlete_dob": "6/3/2012",
+      "athlete_id": "CL7258",
+      "performance": "9.28",
+      "discipline": "Llançament de pes femení",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "CARLOTA TEJERO CLAU",
+      "athlete_dob": "6/3/2012",
+      "athlete_id": "CL7258",
+      "performance": "9.03",
+      "discipline": "Llançament de pes femení",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "CARLOTA TEJERO CLAU",
+      "athlete_dob": "6/3/2012",
+      "athlete_id": "CL7258",
+      "performance": "9.30",
+      "discipline": "Llançament de pes femení",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "CARLOTA TEJERO CLAU",
@@ -131,7 +209,53 @@
       "athlete_id": "CL7258",
       "performance": "9.40",
       "discipline": "Llançament de pes femení",
-      "wind": null
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "CARLOTA TEJERO CLAU",
+      "athlete_dob": "6/3/2012",
+      "athlete_id": "CL7258",
+      "performance": "9.39",
+      "discipline": "Llançament de pes femení",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "CARLOTA TEJERO CLAU",
+      "athlete_dob": "6/3/2012",
+      "athlete_id": "CL7258",
+      "performance": "24.84",
+      "discipline": "Llançament de disc femení",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "CARLOTA TEJERO CLAU",
+      "athlete_dob": "6/3/2012",
+      "athlete_id": "CL7258",
+      "performance": "29.50",
+      "discipline": "Llançament de disc femení",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "CARLOTA TEJERO CLAU",
+      "athlete_dob": "6/3/2012",
+      "athlete_id": "CL7258",
+      "performance": "29.00",
+      "discipline": "Llançament de disc femení",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "CARLOTA TEJERO CLAU",
+      "athlete_dob": "6/3/2012",
+      "athlete_id": "CL7258",
+      "performance": "31.93",
+      "discipline": "Llançament de disc femení",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "CARLOTA TEJERO CLAU",
@@ -139,7 +263,26 @@
       "athlete_id": "CL7258",
       "performance": "32.44",
       "discipline": "Llançament de disc femení",
-      "wind": null
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "CARLOTA TEJERO CLAU",
+      "athlete_dob": "6/3/2012",
+      "athlete_id": "CL7258",
+      "performance": "28.07",
+      "discipline": "Llançament de disc femení",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "ADA NIN NAVAS",
+      "athlete_dob": "24/10/2012",
+      "athlete_id": "CL1495",
+      "performance": "18.44",
+      "discipline": "Llançament de disc femení",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ADA NIN NAVAS",
@@ -147,7 +290,17 @@
       "athlete_id": "CL1495",
       "performance": "23.21",
       "discipline": "Llançament de disc femení",
-      "wind": null
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "ADA NIN NAVAS",
+      "athlete_dob": "24/10/2012",
+      "athlete_id": "CL1495",
+      "performance": "21.47",
+      "discipline": "Llançament de disc femení",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ADA NIN NAVAS",
@@ -155,7 +308,8 @@
       "athlete_id": "CL1495",
       "performance": "21.28",
       "discipline": "Llançament de javelina femení",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "STELLA PEREIRA CONTRERAS",
@@ -163,7 +317,8 @@
       "athlete_id": "CL7607",
       "performance": "17:11.94",
       "discipline": "3000 metres marxa femenins",
-      "wind": null
+      "wind": null,
+      "position": null
     }
   ]
 }

@@ -2,7 +2,7 @@
   "event_name": "Jornada Final Campionat de Catalunya Sub12 Pista Coberta - Jornada Final Campionat de Catalunya Sub12 Pista Coberta",
   "event_date": "14/03/2026",
   "event_location": "Sabadell (i)",
-  "total_results": 12,
+  "total_results": 16,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/03/resultat-20260314-catsub12pcsabadell.pdf",
   "results": [
     {
@@ -11,7 +11,8 @@
       "athlete_id": "CL11069",
       "performance": "8.90",
       "discipline": "60m masculins",
-      "wind": null
+      "wind": null,
+      "position": 5
     },
     {
       "athlete_name": "BLAI LLIGADAS TURON",
@@ -19,7 +20,8 @@
       "athlete_id": "CL11069",
       "performance": "8.97",
       "discipline": "60m masculins",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "FERRAN SANJUAN FLORES",
@@ -27,7 +29,8 @@
       "athlete_id": "CAT-3816505",
       "performance": "7:00.08",
       "discipline": "2.000m masculins",
-      "wind": null
+      "wind": null,
+      "position": 6
     },
     {
       "athlete_name": "JOSE ANGEL MASIA URZUA",
@@ -35,7 +38,8 @@
       "athlete_id": "CL15467",
       "performance": "1.80",
       "discipline": "Perxa masculina",
-      "wind": null
+      "wind": null,
+      "position": 8
     },
     {
       "athlete_name": "MONTSERRAT MARQUES CRUZ",
@@ -43,7 +47,8 @@
       "athlete_id": "CL11596",
       "performance": "9.33",
       "discipline": "60m femenins",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ÈLIA BAYÓN FERNÁNDEZ",
@@ -51,7 +56,8 @@
       "athlete_id": "CAT-3889577",
       "performance": "1:55.26",
       "discipline": "600m femenins",
-      "wind": null
+      "wind": null,
+      "position": 5
     },
     {
       "athlete_name": "ÈLIA BAYÓN FERNÁNDEZ",
@@ -59,15 +65,8 @@
       "athlete_id": "CAT-3889577",
       "performance": "10.18",
       "discipline": "2000m femenins",
-      "wind": null
-    },
-    {
-      "athlete_name": "ÈLIA BAYÓN FERNÁNDEZ",
-      "athlete_dob": "18/5/2015",
-      "athlete_id": "CAT-3889577",
-      "performance": "10.31",
-      "discipline": "2000m femenins",
-      "wind": null
+      "wind": null,
+      "position": 3
     },
     {
       "athlete_name": "ADA FELIU LORCA",
@@ -75,7 +74,8 @@
       "athlete_id": "CL15054",
       "performance": "1.10",
       "discipline": "Alçada femenina",
-      "wind": null
+      "wind": null,
+      "position": 11
     },
     {
       "athlete_name": "SOFIA VEGA MARTINEZ XX-",
@@ -83,7 +83,8 @@
       "athlete_id": "CL14893",
       "performance": "1.45",
       "discipline": "Perxa femenina",
-      "wind": null
+      "wind": null,
+      "position": 10
     },
     {
       "athlete_name": "MONTSERRAT MARQUES CRUZ",
@@ -91,7 +92,53 @@
       "athlete_id": "CL11596",
       "performance": "7.69",
       "discipline": "Pes femení",
-      "wind": null
+      "wind": null,
+      "position": 3
+    },
+    {
+      "athlete_name": "NOA PASCUAL PRATS",
+      "athlete_dob": "27/2/2015",
+      "athlete_id": "CL10462",
+      "performance": "6.98",
+      "discipline": "Pes femení",
+      "wind": null,
+      "position": 6
+    },
+    {
+      "athlete_name": "NOA PASCUAL PRATS",
+      "athlete_dob": "27/2/2015",
+      "athlete_id": "CL10462",
+      "performance": "6.96",
+      "discipline": "Pes femení",
+      "wind": null,
+      "position": 6
+    },
+    {
+      "athlete_name": "NOA PASCUAL PRATS",
+      "athlete_dob": "27/2/2015",
+      "athlete_id": "CL10462",
+      "performance": "7.35",
+      "discipline": "Pes femení",
+      "wind": null,
+      "position": 6
+    },
+    {
+      "athlete_name": "NOA PASCUAL PRATS",
+      "athlete_dob": "27/2/2015",
+      "athlete_id": "CL10462",
+      "performance": "7.04",
+      "discipline": "Pes femení",
+      "wind": null,
+      "position": 6
+    },
+    {
+      "athlete_name": "NOA PASCUAL PRATS",
+      "athlete_dob": "27/2/2015",
+      "athlete_id": "CL10462",
+      "performance": "6.70",
+      "discipline": "Pes femení",
+      "wind": null,
+      "position": 6
     },
     {
       "athlete_name": "NOA PASCUAL PRATS",
@@ -99,7 +146,8 @@
       "athlete_id": "CL10462",
       "performance": "7.50",
       "discipline": "Pes femení",
-      "wind": null
+      "wind": null,
+      "position": 6
     }
   ]
 }

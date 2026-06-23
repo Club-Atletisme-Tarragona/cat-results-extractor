@@ -2,7 +2,7 @@
   "event_name": "7è Control Sub18 - Pista de Atletismo Vilanova i la Geltrú",
   "event_date": "06/06/2026",
   "event_location": "Vilanova i la Geltrú",
-  "total_results": 11,
+  "total_results": 12,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/06/resultat-20260606-controlsub18vilanova.pdf",
   "results": [
     {
@@ -11,7 +11,8 @@
       "athlete_id": "CL4161",
       "performance": "2:30.87",
       "discipline": "800m masculins",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "DAVID FERNANDEZ PINEDA",
@@ -19,7 +20,8 @@
       "athlete_id": "CL11323",
       "performance": "11.29",
       "discipline": "Triple salt masculí",
-      "wind": "1.9"
+      "wind": "1.9",
+      "position": null
     },
     {
       "athlete_name": "DAVID FERNANDEZ PINEDA",
@@ -27,7 +29,8 @@
       "athlete_id": "CL11323",
       "performance": "11.35",
       "discipline": "Triple salt masculí",
-      "wind": "1.6"
+      "wind": "1.6",
+      "position": null
     },
     {
       "athlete_name": "DAVID FERNANDEZ PINEDA",
@@ -35,7 +38,8 @@
       "athlete_id": "CL11323",
       "performance": "11.61",
       "discipline": "Triple salt masculí",
-      "wind": "1.8"
+      "wind": "1.8",
+      "position": null
     },
     {
       "athlete_name": "DAVID FERNANDEZ PINEDA",
@@ -43,7 +47,8 @@
       "athlete_id": "CL11323",
       "performance": "12.00",
       "discipline": "Triple salt masculí",
-      "wind": "1.8"
+      "wind": "1.8",
+      "position": null
     },
     {
       "athlete_name": "DAVID FERNANDEZ PINEDA",
@@ -51,7 +56,8 @@
       "athlete_id": "CL11323",
       "performance": "11.43",
       "discipline": "Triple salt masculí",
-      "wind": "1.4"
+      "wind": "1.4",
+      "position": null
     },
     {
       "athlete_name": "NAYLA SENTIS TORAO",
@@ -59,7 +65,8 @@
       "athlete_id": "CAT-3787484",
       "performance": "25.89",
       "discipline": "200m femenins",
-      "wind": "-0.9"
+      "wind": "-0.9",
+      "position": null
     },
     {
       "athlete_name": "ALDARA LINARES ANTELO",
@@ -67,7 +74,8 @@
       "athlete_id": "CAT-3724270",
       "performance": "27.62",
       "discipline": "200m femenins",
-      "wind": "-0.9"
+      "wind": "-0.9",
+      "position": null
     },
     {
       "athlete_name": "DIANA GARCÍA MUR",
@@ -75,7 +83,8 @@
       "athlete_id": "CL14508",
       "performance": "2:38.81",
       "discipline": "800m femenins",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "NORA MONTOLIO AMARO",
@@ -83,7 +92,8 @@
       "athlete_id": "CAT-3895023",
       "performance": "1:05.29",
       "discipline": "400m tanques femenins",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "NOA NIN NAVAS",
@@ -91,7 +101,17 @@
       "athlete_id": "CAT-3742996",
       "performance": "9.78",
       "discipline": "Pes femení",
-      "wind": null
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "NOA NIN NAVAS",
+      "athlete_dob": "28/8/2009",
+      "athlete_id": "CAT-3742996",
+      "performance": "21.43",
+      "discipline": "Disc femení",
+      "wind": null,
+      "position": null
     }
   ]
 }

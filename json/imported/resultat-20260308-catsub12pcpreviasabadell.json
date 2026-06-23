@@ -2,104 +2,17 @@
   "event_name": "Prèvia Campionat de Catalunya Sub12 Pista Coberta - Prèvia Campionat de Catalunya Sub12 Pista Coberta",
   "event_date": "08/03/2026",
   "event_location": "Sabadell (i)",
-  "total_results": 24,
+  "total_results": 37,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/03/resultat-20260308-catsub12pcpreviasabadell.pdf",
   "results": [
-    {
-      "athlete_name": "JOSE ANGEL MASIA URZUA",
-      "athlete_dob": "25/2/2015",
-      "athlete_id": "CL15467",
-      "performance": "1.70",
-      "discipline": "Perxa masculina",
-      "wind": null
-    },
-    {
-      "athlete_name": "BLAI LLIGADAS TURON",
-      "athlete_dob": "11/3/2015",
-      "athlete_id": "CL11069",
-      "performance": "3.83",
-      "discipline": "Llargada masculina",
-      "wind": null
-    },
-    {
-      "athlete_name": "FERRAN SANJUAN FLORES",
-      "athlete_dob": "9/2/2015",
-      "athlete_id": "CAT-3816505",
-      "performance": "5.78",
-      "discipline": "Pes masculí",
-      "wind": null
-    },
-    {
-      "athlete_name": "ADA FELIU LORCA",
-      "athlete_dob": "7/5/2016",
-      "athlete_id": "CL15054",
-      "performance": "1.10",
-      "discipline": "Alçada femenina",
-      "wind": null
-    },
-    {
-      "athlete_name": "SARA LOPEZ GARCIA",
-      "athlete_dob": "19/1/2015",
-      "athlete_id": "CL11066",
-      "performance": "1.10",
-      "discipline": "Alçada femenina",
-      "wind": null
-    },
-    {
-      "athlete_name": "SOFIA VEGA MARTINEZ",
-      "athlete_dob": "9/8/2016",
-      "athlete_id": "CL14893",
-      "performance": "1.50",
-      "discipline": "Perxa femenina",
-      "wind": null
-    },
-    {
-      "athlete_name": "PAULA BLAZQUEZ BENSENY",
-      "athlete_dob": "11/6/2015",
-      "athlete_id": "CAT-3843630",
-      "performance": "3.44",
-      "discipline": "Llargada femenina",
-      "wind": null
-    },
-    {
-      "athlete_name": "NOA PASCUAL PRATS",
-      "athlete_dob": "27/2/2015",
-      "athlete_id": "CL10462",
-      "performance": "7.02",
-      "discipline": "Pes femení",
-      "wind": null
-    },
-    {
-      "athlete_name": "MONTSERRAT MARQUES CRUZ",
-      "athlete_dob": "27/1/2015",
-      "athlete_id": "CL11596",
-      "performance": "6.75",
-      "discipline": "Pes femení",
-      "wind": null
-    },
-    {
-      "athlete_name": "JULIA MUSTE SANTIAGO",
-      "athlete_dob": "30/9/2015",
-      "athlete_id": "CL14892",
-      "performance": "4.88",
-      "discipline": "Pes femení",
-      "wind": null
-    },
-    {
-      "athlete_name": "PAULA PEREIRA CONTRERAS",
-      "athlete_dob": "24/3/2016",
-      "athlete_id": "CAT-3789541",
-      "performance": "4.41",
-      "discipline": "Pes femení",
-      "wind": null
-    },
     {
       "athlete_name": "BLAI LLIGADAS TURON",
       "athlete_dob": "11/3/2015",
       "athlete_id": "CL11069",
       "performance": "8.92",
       "discipline": "60m masculins",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "OLIVIER CASAS MUIÑO",
@@ -107,7 +20,17 @@
       "athlete_id": "CL11597",
       "performance": "9.35",
       "discipline": "60m masculins",
-      "wind": null
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "JOSE ANGEL MASIA URZUA",
+      "athlete_dob": "25/2/2015",
+      "athlete_id": "CL15467",
+      "performance": "9.93",
+      "discipline": "60m masculins",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "OLIVIER CASAS MUIÑO",
@@ -115,15 +38,62 @@
       "athlete_id": "CL11597",
       "performance": "31.01",
       "discipline": "200m masculins",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "FERRAN SANJUAN FLORES",
       "athlete_dob": "9/2/2015",
-      "athlete_id": "CAT-3816505-A",
+      "athlete_id": "CAT-3816505",
       "performance": "7:06.52",
       "discipline": "2.000m masculins",
-      "wind": null
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "JOSE ANGEL MASIA URZUA",
+      "athlete_dob": "25/2/2015",
+      "athlete_id": "CL15467",
+      "performance": "1.70",
+      "discipline": "Perxa masculina",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "BLAI LLIGADAS TURON",
+      "athlete_dob": "11/3/2015",
+      "athlete_id": "CL11069",
+      "performance": "3.64",
+      "discipline": "Llargada masculina",
+      "wind": null,
+      "position": 14
+    },
+    {
+      "athlete_name": "BLAI LLIGADAS TURON",
+      "athlete_dob": "11/3/2015",
+      "athlete_id": "CL11069",
+      "performance": "3.03",
+      "discipline": "Llargada masculina",
+      "wind": null,
+      "position": 14
+    },
+    {
+      "athlete_name": "FERRAN SANJUAN FLORES",
+      "athlete_dob": "9/2/2015",
+      "athlete_id": "CAT-3816505",
+      "performance": "5.78",
+      "discipline": "Pes masculí",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "FERRAN SANJUAN FLORES",
+      "athlete_dob": "9/2/2015",
+      "athlete_id": "CAT-3816505",
+      "performance": "5.67",
+      "discipline": "Pes masculí",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "MONTSERRAT MARQUES CRUZ",
@@ -131,7 +101,8 @@
       "athlete_id": "CL11596",
       "performance": "9.26",
       "discipline": "60m femenins",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "SOFIA VEGA MARTINEZ",
@@ -139,7 +110,17 @@
       "athlete_id": "CL14893",
       "performance": "9.74",
       "discipline": "60m femenins",
-      "wind": null
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "XENIA GRACIA MARTI",
+      "athlete_dob": "23/8/2016",
+      "athlete_id": "CAT-3842738",
+      "performance": "9.51",
+      "discipline": "60m femenins",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "SARA LOPEZ GARCIA",
@@ -147,47 +128,71 @@
       "athlete_id": "CL11066",
       "performance": "32.63",
       "discipline": "200m femenins",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "PAULA BLAZQUEZ BENSENY",
       "athlete_dob": "11/6/2015",
-      "athlete_id": "CAT-3843630-A",
+      "athlete_id": "CAT-3843630",
       "performance": "32.92",
       "discipline": "200m femenins",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
-      "athlete_name": "ÈLIA BAYÓN FERNÁNDEZ",
+      "athlete_name": "ÈLIA BAYÓN FERNÁNDEZ Q",
       "athlete_dob": "18/5/2015",
-      "athlete_id": "CAT-3889577-A",
+      "athlete_id": "CAT-3889577",
       "performance": "1:57.61",
       "discipline": "600m femenins",
-      "wind": null
+      "wind": null,
+      "position": 7
     },
     {
       "athlete_name": "NAIA GUINART TRABALON",
       "athlete_dob": "25/3/2015",
-      "athlete_id": "CAT-3889578-A",
+      "athlete_id": "CAT-3889578",
       "performance": "2:01.98",
       "discipline": "600m femenins",
-      "wind": null
+      "wind": null,
+      "position": 1
+    },
+    {
+      "athlete_name": "JULIA MUSTE SANTIAGO",
+      "athlete_dob": "30/9/2015",
+      "athlete_id": "CL14892",
+      "performance": "8:14.68",
+      "discipline": "2.000m femenins",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "NOA PASCUAL PRATS",
+      "athlete_dob": "27/2/2015",
+      "athlete_id": "CL10462",
+      "performance": "8:19.41",
+      "discipline": "2.000m femenins",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "MARIA DA ROCHA SANTIBAÑEZ",
       "athlete_dob": "25/5/2016",
-      "athlete_id": "CAT-3789539-A",
+      "athlete_id": "CAT-3789539",
       "performance": "8:43.94",
       "discipline": "2.000m femenins",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ÈLIA BAYÓN FERNÁNDEZ",
       "athlete_dob": "18/5/2015",
-      "athlete_id": "CAT-3889577-A",
+      "athlete_id": "CAT-3889577",
       "performance": "10.54",
       "discipline": "60m tanques femenins",
-      "wind": null
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ADA FELIU LORCA",
@@ -195,7 +200,143 @@
       "athlete_id": "CL15054",
       "performance": "11.92",
       "discipline": "60m tanques femenins",
-      "wind": null
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "ADA FELIU LORCA",
+      "athlete_dob": "7/5/2016",
+      "athlete_id": "CL15054",
+      "performance": "1.10",
+      "discipline": "Alçada femenina",
+      "wind": null,
+      "position": 11
+    },
+    {
+      "athlete_name": "SARA LOPEZ GARCIA",
+      "athlete_dob": "19/1/2015",
+      "athlete_id": "CL11066",
+      "performance": "1.10",
+      "discipline": "Alçada femenina",
+      "wind": null,
+      "position": 13
+    },
+    {
+      "athlete_name": "SOFIA VEGA MARTINEZ",
+      "athlete_dob": "9/8/2016",
+      "athlete_id": "CL14893",
+      "performance": "1.50",
+      "discipline": "Perxa femenina",
+      "wind": null,
+      "position": 10
+    },
+    {
+      "athlete_name": "PAULA BLAZQUEZ BENSENY",
+      "athlete_dob": "11/6/2015",
+      "athlete_id": "CAT-3843630",
+      "performance": "3.44",
+      "discipline": "Llargada femenina",
+      "wind": null,
+      "position": 20
+    },
+    {
+      "athlete_name": "PAULA BLAZQUEZ BENSENY",
+      "athlete_dob": "11/6/2015",
+      "athlete_id": "CAT-3843630",
+      "performance": "3.34",
+      "discipline": "Llargada femenina",
+      "wind": null,
+      "position": 20
+    },
+    {
+      "athlete_name": "NOA PASCUAL PRATS",
+      "athlete_dob": "27/2/2015",
+      "athlete_id": "CL10462",
+      "performance": "7.02",
+      "discipline": "Pes femení",
+      "wind": null,
+      "position": 3
+    },
+    {
+      "athlete_name": "MONTSERRAT MARQUES CRUZ",
+      "athlete_dob": "27/1/2015",
+      "athlete_id": "CL11596",
+      "performance": "6.75",
+      "discipline": "Pes femení",
+      "wind": null,
+      "position": 7
+    },
+    {
+      "athlete_name": "MONTSERRAT MARQUES CRUZ",
+      "athlete_dob": "27/1/2015",
+      "athlete_id": "CL11596",
+      "performance": "6.40",
+      "discipline": "Pes femení",
+      "wind": null,
+      "position": 7
+    },
+    {
+      "athlete_name": "JULIA MUSTE SANTIAGO",
+      "athlete_dob": "30/9/2015",
+      "athlete_id": "CL14892",
+      "performance": "4.51",
+      "discipline": "Pes femení",
+      "wind": null,
+      "position": 25
+    },
+    {
+      "athlete_name": "JULIA MUSTE SANTIAGO",
+      "athlete_dob": "30/9/2015",
+      "athlete_id": "CL14892",
+      "performance": "4.45",
+      "discipline": "Pes femení",
+      "wind": null,
+      "position": 25
+    },
+    {
+      "athlete_name": "JULIA MUSTE SANTIAGO",
+      "athlete_dob": "30/9/2015",
+      "athlete_id": "CL14892",
+      "performance": "4.88",
+      "discipline": "Pes femení",
+      "wind": null,
+      "position": 25
+    },
+    {
+      "athlete_name": "PAULA PEREIRA CONTRERAS",
+      "athlete_dob": "24/3/2016",
+      "athlete_id": "CAT-3789541",
+      "performance": "4.31",
+      "discipline": "Pes femení",
+      "wind": null,
+      "position": 29
+    },
+    {
+      "athlete_name": "PAULA PEREIRA CONTRERAS",
+      "athlete_dob": "24/3/2016",
+      "athlete_id": "CAT-3789541",
+      "performance": "4.00",
+      "discipline": "Pes femení",
+      "wind": null,
+      "position": 29
+    },
+    {
+      "athlete_name": "PAULA PEREIRA CONTRERAS",
+      "athlete_dob": "24/3/2016",
+      "athlete_id": "CAT-3789541",
+      "performance": "4.41",
+      "discipline": "Pes femení",
+      "wind": null,
+      "position": 29
+    },
+    {
+      "athlete_name": "ÈLIA BAYÓN FERNÁNDEZ",
+      "athlete_dob": "18/5/2015",
+      "athlete_id": "CAT-3889577-A",
+      "performance": "1:57.61",
+      "discipline": "600m femenins",
+      "wind": null,
+      "position": null
     }
   ]
 }

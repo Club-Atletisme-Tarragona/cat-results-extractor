@@ -24,6 +24,7 @@ import shutil
 import subprocess
 import sys
 import tempfile
+import time
 from datetime import datetime
 
 
@@ -82,19 +83,76 @@ def save_tracking(tracking):
         json.dump(deduped, f, indent=2, ensure_ascii=False)
 
 
+XLS_PATH = "Competicions.xls"
+XLS_MAGIC = b"\xd0\xcf\x11\xe0\xa1\xb1\x1a\xe1"  # OLE2 / .xls
+XLS_MIN_BYTES = 4096
+XLS_DOWNLOAD_RETRIES = 3
+XLS_RETRY_DELAY_SEC = 15
+
+
+def _is_valid_xls(path):
+    """Comprova que el fitxer descarregat és un XLS real (no HTML d'error)."""
+    try:
+        size = os.path.getsize(path)
+    except OSError:
+        return False, "fitxer no accessible"
+    if size < XLS_MIN_BYTES:
+        return False, f"mida massa petita ({size} bytes)"
+    with open(path, "rb") as f:
+        header = f.read(8)
+    if header != XLS_MAGIC:
+        with open(path, "rb") as f:
+            preview = f.read(120).decode("utf-8", errors="replace").replace("\n", " ")
+        return False, f"capçalera invàlida (no és OLE/XLS): {preview[:80]}..."
+    return True, None
+
+
 def download_xls():
-    """Descarrega l'XLS de competicions."""
+    """Descarrega l'XLS de competicions amb reintents i validació."""
     log("Descarregant XLS de competicions...")
     log(f"  URL: {XLS_URL}")
-    result = subprocess.run(
-        ["curl", "-sL", XLS_URL, "-o", "Competicions.xls"],
-        capture_output=True,
-        text=True,
-    )
-    if result.returncode != 0:
-        log(f"Error descarregant XLS: {result.stderr[:200]}")
-        sys.exit(1)
-    log("  XLS descarregat correctament.")
+
+    curl_cmd = [
+        "curl",
+        "-fsSL",
+        "--retry",
+        "2",
+        "--retry-delay",
+        "5",
+        "--connect-timeout",
+        "30",
+        "--max-time",
+        "120",
+        "-A",
+        "cat-results-extractor/1.0",
+        XLS_URL,
+        "-o",
+        XLS_PATH,
+    ]
+
+    last_error = None
+    for attempt in range(1, XLS_DOWNLOAD_RETRIES + 1):
+        if attempt > 1:
+            log(f"  Reintent {attempt}/{XLS_DOWNLOAD_RETRIES} d'aquí a {XLS_RETRY_DELAY_SEC}s...")
+            time.sleep(XLS_RETRY_DELAY_SEC)
+
+        result = subprocess.run(curl_cmd, capture_output=True, text=True)
+        if result.returncode != 0:
+            last_error = result.stderr.strip() or f"curl exit code {result.returncode}"
+            log(f"  Error descarregant XLS (intent {attempt}): {last_error[:200]}")
+            continue
+
+        ok, reason = _is_valid_xls(XLS_PATH)
+        if ok:
+            size = os.path.getsize(XLS_PATH)
+            log(f"  XLS descarregat correctament ({size} bytes).")
+            return
+
+        last_error = reason
+        log(f"  XLS invàlid (intent {attempt}): {reason}")
+
+    log(f"Error descarregant XLS després de {XLS_DOWNLOAD_RETRIES} intents: {last_error}")
+    sys.exit(1)
 
 
 def read_xls_results():
@@ -105,7 +163,7 @@ def read_xls_results():
         log("Error: xlrd no està instal·lat. Instal·la'l amb: pip install xlrd")
         sys.exit(1)
 
-    wb = xlrd.open_workbook("Competicions.xls")
+    wb = xlrd.open_workbook(XLS_PATH)
     sheet = wb.sheets()[0]
 
     results = []

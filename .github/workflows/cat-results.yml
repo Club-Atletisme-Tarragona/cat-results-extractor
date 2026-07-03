@@ -2,9 +2,14 @@ name: Processar PDFs CATT
 
 on:
   schedule:
-    # Cada dimecres a les 00:00 UTC
-    - cron: '0 0 * * 3'
+    # Dues vegades al dia (08:00 i 20:00 hora peninsular, UTC+2 d'estiu)
+    - cron: '0 6 * * *'
+    - cron: '0 18 * * *'
   workflow_dispatch: # Permet executar manualment
+
+concurrency:
+  group: cat-results-process
+  cancel-in-progress: false
 
 permissions:
   contents: write

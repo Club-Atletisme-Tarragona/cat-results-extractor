@@ -123,8 +123,6 @@ def download_xls():
         "30",
         "--max-time",
         "120",
-        "-A",
-        "cat-results-extractor/1.0",
         XLS_URL,
         "-o",
         XLS_PATH,

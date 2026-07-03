@@ -79,25 +79,48 @@ def parse_header(text):
             ubicacio = stripped
             break
 
-    # Extract localitat and date from the page header block
-    # Pattern: competition name (or venue) → city → date, within first 30 lines
+    # Spanish date in header: "Igualada, 26 junio 2021"
+    month_map = {
+        'enero': '01', 'febrero': '02', 'marzo': '03', 'abril': '04',
+        'mayo': '05', 'junio': '06', 'julio': '07', 'agosto': '08',
+        'septiembre': '09', 'octubre': '10', 'noviembre': '11', 'diciembre': '12',
+    }
     for i, line in enumerate(lines[:30]):
-        date_match = re.search(r'(\d{2}/\d{2}/\d{4})', line)
-        if date_match:
-            data = date_match.group(1)
-            # The localitat is the non-empty line before the date,
-            # within the first 5 lines before the date
-            for j in range(i - 1, max(i - 5, -1), -1):
-                prev = lines[j].strip()
-                if prev and not re.search(r'\d{2}/\d{2}/\d{4}', prev):
-                    # Skip lines that are competition name or venue
-                    if 'Jornada' in prev and 'Campionat' in prev:
-                        continue
-                    if any(kw in prev for kw in ['Estadi', 'Pista', 'Pabellon', 'Pabellón']):
-                        continue
-                    localitat = prev
-                    break
+        spanish_match = re.search(
+            r'([A-Za-zÀ-ÿ\.\s\-]+?),\s*(\d{1,2})\s+(' + '|'.join(month_map) + r')\s+(\d{4})',
+            line.strip(),
+            re.IGNORECASE,
+        )
+        if spanish_match:
+            city = spanish_match.group(1).strip()
+            day = spanish_match.group(2).zfill(2)
+            month = month_map[spanish_match.group(3).lower()]
+            year = spanish_match.group(4)
+            data = f"{day}/{month}/{year}"
+            localitat = city
             break
+
+    # Extract localitat and date from DD/MM/YYYY in page header (skip RCAT/RCAM record lines)
+    if not data:
+        for i, line in enumerate(lines[:30]):
+            stripped = line.strip()
+            if re.search(r'\bRCAT\b|\bRCAM\b', stripped):
+                continue
+            date_match = re.search(r'(\d{2}/\d{2}/\d{4})', stripped)
+            if date_match:
+                data = date_match.group(1)
+                for j in range(i - 1, max(i - 5, -1), -1):
+                    prev = lines[j].strip()
+                    if prev and not re.search(r'\d{2}/\d{2}/\d{4}', prev):
+                        if 'Jornada' in prev and 'Campionat' in prev:
+                            continue
+                        if any(kw in prev for kw in ['Estadi', 'Pista', 'Pabellon', 'Pabellón']):
+                            continue
+                        if re.search(r'\bRCAT\b|\bRCAM\b', prev):
+                            continue
+                        localitat = prev
+                        break
+                break
 
     return competicio, ubicacio, localitat, data
 
@@ -172,6 +195,8 @@ EVENT_PATTERNS = [
     r'(?:\d{1,3}(?:\.\d{3})?\s*m(t)?|\d+\s*m(t)?)\s+(?:MASC\.?|FEM\.?)\s+AL',
     r'(?:Alçada|Altura|Perxa|Pértiga|Llargada|Longitud|Triple\s+Salto|Triple\s+salt|Disco|Martello|Martell|Martillo|Pes|Peso|Dard|Jabalina|Javelina)\s+(?:MASC\.?|FEM\.?)\s+PC',
     r'(?:Alçada|Altura|Perxa|Pértiga|Llargada|Longitud|Triple\s+Salto|Triple\s+salt|Disco|Martello|Martell|Martillo|Pes|Peso|Dard|Jabalina|Javelina)\s+(?:MASC\.?|FEM\.?)\s+AL',
+    # RFEA hurdles: "60m tanques (0,50) FEM AL"
+    r'\d{1,3}(?:\.\d{3})?\s*m(?:t)?\s+tanques\s+(?:\(.*?\)\s+)?(?:MASC\.?|FEM\.?)\s+(?:PC|AL)',
     r'\d{1,3}(?:\.\d{3})?\s*metres\s+(?:llisos|tanques|vallas|obstacles|marxa|marxa)\s+(?:Sub\d+\s+)?(?:masculins|Mascuins|femenins|femenina|masculina|Hombres|Mujeres|Masculí|Femení)',
 ]
 
@@ -191,6 +216,10 @@ TRACK_PATTERNS = [
     r'\d{1,3}(?:\.\d{3})?\s*m(t)?\s+(?:Popular|Populars?)\s*(?:Hombres|Mujeres|Masculí|Femení)?',
     # km events: "10km", "21.1km"
     r'\d+\.?\d*\s*km\s*(?:Hombres|Mujeres|Masculí|Femení|Abs|M|F)?',
+    # RFEA format: "60m MASC. AL", "600m FEM. AL", "2.000m FEM. AL"
+    r'(?:\d{1,3}(?:\.\d{3})?\s*m(?:t)?|\d+\s*m(?:t)?)\s+(?:MASC\.?|FEM\.?)\s+(?:PC|AL)',
+    # RFEA hurdles: "60m tanques (0,50) FEM. AL"
+    r'\d{1,3}(?:\.\d{3})?\s*m(?:t)?\s+tanques\s+(?:\(.*?\)\s+)?(?:MASC\.?|FEM\.?)\s+(?:PC|AL)',
 ]
 
 MARCHA_PATTERNS = [
@@ -1555,61 +1584,47 @@ def extract_result_from_rfea_line(athlete_line, club_line):
     """Extract the result (marca) from an RFEA athlete line.
     
     RFEA line format:
-    pos  dorsal  Name  DOB  Cat  Lane  Marca
-    
-    Examples:
-    "4   71 (t) Mario Sanchez Alvarez  02/10/2002  CM  1  7.61"
-    "41 (t) Eduard Guzman Montagut  15/12/2002  CM  3  NP"
-    "2   151 (t) Sergi Cattaneo Adan  08/03/2003  CM  6  11.33"
+    pos  dorsal  Name  DOB  Cat  Lane  Marca  [points]  [Q/q]
     """
     stripped = athlete_line.strip()
-    
-    # Remove the DOB first
-    stripped = re.sub(r'\d{1,2}/\d{1,2}/\d{4}', '', stripped)
-    
-    # Remove position and dorsal at the start
-    stripped = re.sub(r'^\s*\d+\s+\d+\s*\(?[te]?\)?\s*', '', stripped)
-    
-    # Remove category (SM, CM, IM, BM, JN, etc.)
-    stripped = re.sub(r'\b(?:SM|CM|IM|BM|JN|AS|AI|AM|SV|JV|AJ|AM\d+|S\d+|C\d+|I\d+|B\d+)\b', '', stripped)
-    
-    # Remove lane number
-    stripped = re.sub(r'\b\d+\b', '', stripped, count=1)
-    
-    # Now we should have just the result (time, distance, DNS, etc.)
-    stripped = stripped.strip()
-    
-    # Skip if it looks like a category or empty
-    if not stripped or re.match(r'^[A-Z]{2,4}$', stripped):
+
+    # Take everything after DOB + category code
+    tail_match = re.search(
+        r'\d{1,2}/\d{1,2}/\d{4}\s+'
+        r'(?:CF|CM|SM|JM|AS|AI|AM|AF|SV|JV|AJ|AM\d+|S\d+|C\d+|I\d+|B\d+|PF|PM|MF|MA)\s+'
+        r'(.*)$',
+        stripped,
+    )
+    rest = tail_match.group(1).strip() if tail_match else stripped
+
+    if not rest:
         return None
-    
-    # Common non-result values
-    if stripped.upper() in ('NP', 'DNF', 'DNS', 'DQ', 'NW', 'RET', 'N.P.'):
-        return stripped
-    
-    # If it's a time or distance, validate it
-    # Try to extract a numeric value
-    time_match = re.search(r'(\d{1,2}:\d{2}\.\d{2}|\d{1,2}:\d{2}|\d+\.\d+)', stripped)
-    if time_match:
-        return time_match.group(1)
-    
-    # Check for quote format: 3'53"86
-    quote_match = re.search(r"(\d+'(\d{2})\"(\d{2}))", stripped)
+
+    if rest.upper() in ('NP', 'DNF', 'DNS', 'DQ', 'NW', 'RET', 'N.P.'):
+        return rest
+
+    perf_patterns = [
+        r'^(?:\d+\s+)?(\d{1,2}:\d{2}:\d{2})(?:\s+\d+)?(?:\s+[Qq])?\s*$',
+        r'^(?:\d+\s+)?(\d{1,2}:\d{2}\.\d{2})(?:\s+\d+)?(?:\s+[Qq])?\s*$',
+        r'^(?:\d+\s+)?(\d{1,2}:\d{2})(?:\s+\d+)?(?:\s+[Qq])?\s*$',
+        r'^(?:\d+\s+)?(\d+\.\d{2})(?:\s+\d+)?(?:\s+[Qq])?\s*$',
+    ]
+    for pattern in perf_patterns:
+        perf_match = re.match(pattern, rest)
+        if perf_match:
+            return perf_match.group(1)
+
+    quote_match = re.search(r"(\d+'(\d{2})\"(\d{2}))", rest)
     if quote_match:
         minutes = quote_match.group(1).split("'")[0]
         seconds = quote_match.group(1).split("'")[1].split('"')[0]
         cs = quote_match.group(2)
         return f"{minutes}:{seconds}.{cs}"
-    
-    # Check for comma-separated time: 1.00,08 -> 1:00.08
-    comma_match = re.search(r'(\d+)\.(\d{2}),(\d{2})', stripped)
+
+    comma_match = re.search(r'(\d+)\.(\d{2}),(\d{2})', rest)
     if comma_match:
         return f"{comma_match.group(1)}:{comma_match.group(2)}.{comma_match.group(3)}"
-    
-    # If nothing matched, return the stripped value if it looks like a result
-    if stripped and len(stripped) > 0:
-        return stripped
-    
+
     return None
 
 
@@ -2415,7 +2430,11 @@ def parse_catt_athlete(lines, athlete_block, sec_start, sec_end, event_name, win
 
     # Find result
     marca = ""
-    if event_type == "track" or event_type == "road":
+    if athlete_block.get('rfea_format') and event_type in ("track", "road", "marcha", "height"):
+        athlete_line = athlete_block.get('name_line', '')
+        club_line = athlete_block['data_lines'][1][1] if len(athlete_block.get('data_lines', [])) > 1 else ''
+        marca = extract_result_from_rfea_line(athlete_line, club_line) or ""
+    elif event_type == "track" or event_type == "road":
         if new_format:
             marca = extract_track_result_new(lines, athlete_block, sec_end)
         else:

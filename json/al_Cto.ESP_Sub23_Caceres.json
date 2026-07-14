@@ -1,0 +1,36 @@
+{
+  "event_name": "Campeonato de España sub-23",
+  "event_date": "11/07/2026",
+  "event_location": "Cáceres",
+  "total_results": 3,
+  "event_src": "https://www.rfeacontent.es/resultados/2026/airelibre/al_Cto.ESP_Sub23_Caceres.pdf",
+  "results": [
+    {
+      "athlete_name": "POL AIXALA GUIU",
+      "athlete_dob": "4/12/2004",
+      "athlete_id": "CT438",
+      "performance": "47.02",
+      "discipline": "400 m Hombres",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "LAURINE ELISA MARIMON FERNANDEZ",
+      "athlete_dob": "17/9/2004",
+      "athlete_id": "CT28409",
+      "performance": "12.22",
+      "discipline": "Triple Salto Mujeres",
+      "wind": "1.0",
+      "position": 2
+    },
+    {
+      "athlete_name": "LAURINE ELISA MARIMON FERNANDEZ",
+      "athlete_dob": "17/9/2004",
+      "athlete_id": "CT28409",
+      "performance": "12.87",
+      "discipline": "Triple Salto Mujeres",
+      "wind": "0.2",
+      "position": 2
+    }
+  ]
+}

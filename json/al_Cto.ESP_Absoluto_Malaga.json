@@ -1,0 +1,45 @@
+{
+  "event_name": "Campeonato de España - Estadio Ciudad de Málaga",
+  "event_date": "24/07/2026",
+  "event_location": "Málaga",
+  "total_results": 4,
+  "event_src": "https://www.rfeacontent.es/resultados/2026/airelibre/al_Cto.ESP_Absoluto_Malaga.pdf",
+  "results": [
+    {
+      "athlete_name": "MIREIA LOPEZ URBANO",
+      "athlete_dob": "7/12/2000",
+      "athlete_id": "CT23556",
+      "performance": "14.05",
+      "discipline": "100 m vallas Mujeres",
+      "wind": "-0.5",
+      "position": null
+    },
+    {
+      "athlete_name": "LAURINE ELISA MARIMON FERNANDEZ",
+      "athlete_dob": "17/9/2004",
+      "athlete_id": "CT28409",
+      "performance": "12.48",
+      "discipline": "Triple Salto Mujeres",
+      "wind": "1.5",
+      "position": 8
+    },
+    {
+      "athlete_name": "LAURINE ELISA MARIMON FERNANDEZ",
+      "athlete_dob": "17/9/2004",
+      "athlete_id": "CT28409",
+      "performance": "12.52",
+      "discipline": "Triple Salto Mujeres",
+      "wind": "1.0",
+      "position": 8
+    },
+    {
+      "athlete_name": "LAURINE ELISA MARIMON FERNANDEZ",
+      "athlete_dob": "17/9/2004",
+      "athlete_id": "CT28409",
+      "performance": "12.43",
+      "discipline": "Triple Salto Mujeres",
+      "wind": "2.1",
+      "position": 8
+    }
+  ]
+}

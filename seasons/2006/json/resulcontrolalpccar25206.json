@@ -9,25 +9,31 @@
       "athlete_name": "BERNAT ROCAMORA CHAPARRO",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "60 METRES LLISOS JUVENIL MASCULI",
+      "discipline": "60 metres llisos",
+      "raw_discipline_name": "60 METRES LLISOS JUVENIL MASCULI",
       "performance": "7.46",
-      "wind": "+0.9"
+      "wind": "+0.9",
+      "internal_id": 217
     },
     {
       "athlete_name": "BERNAT ROCAMORA CHAPARRO",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "200 METRES LLISOS JUVENIL MASCULI",
+      "discipline": "200 metres llisos",
+      "raw_discipline_name": "200 METRES LLISOS JUVENIL MASCULI",
       "performance": "23.68",
-      "wind": "+0.5"
+      "wind": "+0.5",
+      "internal_id": 217
     },
     {
       "athlete_name": "IVAN BENITEZ LAZCANO",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "60 METRES TANQUES JUVENIL MASCULI",
+      "discipline": "60 metres tanques (0.91)",
+      "raw_discipline_name": "60 METRES TANQUES JUVENIL MASCULI",
       "performance": "8.47",
-      "wind": "+1.0"
+      "wind": "+1.0",
+      "internal_id": 257
     }
   ]
 }

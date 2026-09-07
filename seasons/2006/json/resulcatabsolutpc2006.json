@@ -9,17 +9,21 @@
       "athlete_name": "ALVARO SAEZ VIVES",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "60 METRES LLISOS MASCULINS",
+      "discipline": "60 metres llisos",
+      "raw_discipline_name": "60 METRES LLISOS MASCULINS",
       "performance": "7.39",
-      "wind": null
+      "wind": null,
+      "internal_id": 187
     },
     {
       "athlete_name": "ESTER ARAGONES VIDAL",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "1500 METRES LLISOS FEMENINS",
+      "discipline": "1500 metres llisos",
+      "raw_discipline_name": "1500 METRES LLISOS FEMENINS",
       "performance": "4:50.11",
-      "wind": null
+      "wind": null,
+      "internal_id": 134
     }
   ]
 }

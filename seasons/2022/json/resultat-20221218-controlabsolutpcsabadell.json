@@ -10,24 +10,30 @@
       "athlete_dob": "03/01/2006",
       "athlete_id": "CL9177",
       "performance": "8.04",
-      "discipline": "60m FEM. PC",
-      "wind": null
+      "discipline": "60 metres llisos",
+      "raw_discipline_name": "60m FEM. PC",
+      "wind": null,
+      "internal_id": 897
     },
     {
       "athlete_name": "12 400 (t) Natalia Sanchez Alvarez",
       "athlete_dob": "28/05/2005",
       "athlete_id": "CT29768",
       "performance": "4.59",
-      "discipline": "Llargada FEM. PC",
-      "wind": null
+      "discipline": "Llargada",
+      "raw_discipline_name": "Llargada FEM. PC",
+      "wind": null,
+      "internal_id": 796
     },
     {
       "athlete_name": "12 400 (t) Natalia Sanchez Alvarez",
       "athlete_dob": "28/05/2005",
       "athlete_id": "CT29768",
       "performance": "4.80",
-      "discipline": "Llargada FEM. PC",
-      "wind": null
+      "discipline": "Llargada",
+      "raw_discipline_name": "Llargada FEM. PC",
+      "wind": null,
+      "internal_id": 796
     }
   ]
 }

@@ -10,56 +10,70 @@
       "athlete_dob": "16/07/2009",
       "athlete_id": "CL827",
       "performance": "18.45",
-      "discipline": "Martell (3kg) MASC.",
-      "wind": null
+      "discipline": "Martell (3 Kg)",
+      "raw_discipline_name": "Martell (3kg) MASC.",
+      "wind": null,
+      "internal_id": null
     },
     {
       "athlete_name": "3 91 (t) Ona Sansa Garcia IF q",
       "athlete_dob": "31/05/2010",
       "athlete_id": "CL90844",
       "performance": "2.55",
-      "discipline": "Perxa FEM. AL",
-      "wind": null
+      "discipline": "Perxa",
+      "raw_discipline_name": "Perxa FEM. AL",
+      "wind": null,
+      "internal_id": 1015
     },
     {
       "athlete_name": "4 88 (t) Noa Nin Navas IF q",
       "athlete_dob": "28/08/2009",
       "athlete_id": "CL94399",
       "performance": "9.76",
-      "discipline": "Pes (2kg) FEM AL",
-      "wind": null
+      "discipline": "Pes (2 Kg)",
+      "raw_discipline_name": "Pes (2kg) FEM AL",
+      "wind": null,
+      "internal_id": 1010
     },
     {
       "athlete_name": "4 88 (t) Noa Nin Navas IF q",
       "athlete_dob": "28/08/2009",
       "athlete_id": "CL94399",
       "performance": "9.70",
-      "discipline": "Pes (2kg) FEM AL",
-      "wind": null
+      "discipline": "Pes (2 Kg)",
+      "raw_discipline_name": "Pes (2kg) FEM AL",
+      "wind": null,
+      "internal_id": 1010
     },
     {
       "athlete_name": "4 88 (t) Noa Nin Navas IF q",
       "athlete_dob": "28/08/2009",
       "athlete_id": "CL94399",
       "performance": "9.44",
-      "discipline": "Pes (2kg) FEM AL",
-      "wind": null
+      "discipline": "Pes (2 Kg)",
+      "raw_discipline_name": "Pes (2kg) FEM AL",
+      "wind": null,
+      "internal_id": 1010
     },
     {
       "athlete_name": "18 88 (t) Noa Nin Navas IF",
       "athlete_dob": "28/08/2009",
       "athlete_id": "CL94399",
       "performance": "15.67",
-      "discipline": "Disc (800g) FEM.",
-      "wind": null
+      "discipline": "Disc (800 g)",
+      "raw_discipline_name": "Disc (800g) FEM.",
+      "wind": null,
+      "internal_id": 1010
     },
     {
       "athlete_name": "18 88 (t) Noa Nin Navas IF",
       "athlete_dob": "28/08/2009",
       "athlete_id": "CL94399",
       "performance": "15.53",
-      "discipline": "Disc (800g) FEM.",
-      "wind": null
+      "discipline": "Disc (800 g)",
+      "raw_discipline_name": "Disc (800g) FEM.",
+      "wind": null,
+      "internal_id": 1010
     }
   ]
 }

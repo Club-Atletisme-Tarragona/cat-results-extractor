@@ -10,40 +10,50 @@
       "athlete_dob": "28/06/2007",
       "athlete_id": "CL77328",
       "performance": "1.60",
-      "discipline": "Alçada MASC. AL",
-      "wind": null
+      "discipline": "Alçada",
+      "raw_discipline_name": "Alçada MASC. AL",
+      "wind": null,
+      "internal_id": 908
     },
     {
       "athlete_name": "9 37 Victor Jimenez Garcia",
       "athlete_dob": "25/05/2008",
       "athlete_id": "CT1465",
       "performance": "10.67",
-      "discipline": "Triple Salt MASC. AL",
-      "wind": "+2.9"
+      "discipline": "Triple",
+      "raw_discipline_name": "Triple Salt MASC. AL",
+      "wind": "+2.9",
+      "internal_id": 958
     },
     {
       "athlete_name": "9 37 Victor Jimenez Garcia",
       "athlete_dob": "25/05/2008",
       "athlete_id": "CT1465",
       "performance": "9.92",
-      "discipline": "Triple Salt MASC. AL",
-      "wind": "+0.4"
+      "discipline": "Triple",
+      "raw_discipline_name": "Triple Salt MASC. AL",
+      "wind": "+0.4",
+      "internal_id": 958
     },
     {
       "athlete_name": "9 37 Victor Jimenez Garcia",
       "athlete_dob": "25/05/2008",
       "athlete_id": "CT1465",
       "performance": "10.85",
-      "discipline": "Triple Salt MASC. AL",
-      "wind": "+3.6"
+      "discipline": "Triple",
+      "raw_discipline_name": "Triple Salt MASC. AL",
+      "wind": "+3.6",
+      "internal_id": 958
     },
     {
       "athlete_name": "7 37 (t) Matias Costa Bakker",
       "athlete_dob": "19/11/2007",
       "athlete_id": "CL90885",
       "performance": "23.70",
-      "discipline": "Martell (4kg) MASC.",
-      "wind": null
+      "discipline": "Martell (4 Kg)",
+      "raw_discipline_name": "Martell (4kg) MASC.",
+      "wind": null,
+      "internal_id": 922
     }
   ]
 }

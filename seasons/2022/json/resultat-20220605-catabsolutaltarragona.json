@@ -10,16 +10,20 @@
       "athlete_dob": "09/10/2001",
       "athlete_id": "CT25812",
       "performance": "1.75",
-      "discipline": "Alçada FEM. AL",
-      "wind": null
+      "discipline": "Alçada",
+      "raw_discipline_name": "Alçada FEM. AL",
+      "wind": null,
+      "internal_id": 753
     },
     {
       "athlete_name": "7 80 Maria Falco Cuenca PF",
       "athlete_dob": "14/06/2002",
       "athlete_id": "CT27273",
       "performance": "1.62",
-      "discipline": "Alçada FEM. AL",
-      "wind": null
+      "discipline": "Alçada",
+      "raw_discipline_name": "Alçada FEM. AL",
+      "wind": null,
+      "internal_id": 664
     }
   ]
 }

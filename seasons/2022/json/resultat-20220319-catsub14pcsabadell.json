@@ -10,48 +10,60 @@
       "athlete_dob": "08/03/2009",
       "athlete_id": "CL94407",
       "performance": "8.15",
-      "discipline": "60m MASC. PC",
-      "wind": null
+      "discipline": "60 metres llisos",
+      "raw_discipline_name": "60m MASC. PC",
+      "wind": null,
+      "internal_id": 1011
     },
     {
       "athlete_name": "3 424 (t) Joan Rich Salas IM 4 6 7.9579",
       "athlete_dob": "08/03/2009",
       "athlete_id": "CL94407",
       "performance": "7.95",
-      "discipline": "60m MASC. PC",
-      "wind": null
+      "discipline": "60 metres llisos",
+      "raw_discipline_name": "60m MASC. PC",
+      "wind": null,
+      "internal_id": 1011
     },
     {
       "athlete_name": "4 448 (t) Marc Suarez Piza IM",
       "athlete_dob": "29/04/2009",
       "athlete_id": "CL3326",
       "performance": "9:39.80",
-      "discipline": "2.000m Marxa MASC. PC",
-      "wind": null
+      "discipline": "2000 metres llisos",
+      "raw_discipline_name": "2.000m Marxa MASC. PC",
+      "wind": null,
+      "internal_id": 1017
     },
     {
       "athlete_name": "3 420 (t) Clara Ortiz De Landazuri Ontoso IF 4",
       "athlete_dob": "04/12/2009",
       "athlete_id": "CL86467",
       "performance": "11.22",
-      "discipline": "1.000m FEM. PC",
-      "wind": null
+      "discipline": "1000 metres llisos",
+      "raw_discipline_name": "1.000m FEM. PC",
+      "wind": null,
+      "internal_id": 1022
     },
     {
       "athlete_name": "12 388 (t) Nora Montolio Amaro IF",
       "athlete_dob": "05/02/2010",
       "athlete_id": "CL90841",
       "performance": "28.78",
-      "discipline": "1.000m FEM. PC",
-      "wind": null
+      "discipline": "1000 metres llisos",
+      "raw_discipline_name": "1.000m FEM. PC",
+      "wind": null,
+      "internal_id": 1089
     },
     {
       "athlete_name": "5 421 (t) Ona Sansa Garcia IF",
       "athlete_dob": "31/05/2010",
       "athlete_id": "CL90844",
       "performance": "2.15",
-      "discipline": "Perxa FEM. PC",
-      "wind": null
+      "discipline": "Perxa",
+      "raw_discipline_name": "Perxa FEM. PC",
+      "wind": null,
+      "internal_id": 1015
     }
   ]
 }

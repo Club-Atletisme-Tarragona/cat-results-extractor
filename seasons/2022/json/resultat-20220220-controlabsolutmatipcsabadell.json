@@ -10,16 +10,20 @@
       "athlete_dob": "02/08/2003",
       "athlete_id": "CT152",
       "performance": "59.73",
-      "discipline": "400m FEM. PC",
-      "wind": null
+      "discipline": "400 metres llisos",
+      "raw_discipline_name": "400m FEM. PC",
+      "wind": null,
+      "internal_id": 699
     },
     {
       "athlete_name": "2 445 Claudia Mir Casellas JF 5 q",
       "athlete_dob": "02/08/2003",
       "athlete_id": "CT152",
       "performance": "9.49",
-      "discipline": "1.500m FEM. PC",
-      "wind": null
+      "discipline": "1500 metres llisos",
+      "raw_discipline_name": "1.500m FEM. PC",
+      "wind": null,
+      "internal_id": 699
     }
   ]
 }

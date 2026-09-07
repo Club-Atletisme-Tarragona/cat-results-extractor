@@ -10,16 +10,20 @@
       "athlete_dob": "19/05/1998",
       "athlete_id": "CT22779",
       "performance": "55.91",
-      "discipline": "400m MASC. AL",
-      "wind": null
+      "discipline": "400 metres llisos",
+      "raw_discipline_name": "400m MASC. AL",
+      "wind": null,
+      "internal_id": 439
     },
     {
       "athlete_name": "Jan Sans Riola",
       "athlete_dob": "23/10/1998",
       "athlete_id": "CT22783",
       "performance": "14.18",
-      "discipline": "1.500m MASC. AL",
-      "wind": "+2.3"
+      "discipline": "1500 metres llisos",
+      "raw_discipline_name": "1.500m MASC. AL",
+      "wind": "+2.3",
+      "internal_id": 435
     }
   ]
 }

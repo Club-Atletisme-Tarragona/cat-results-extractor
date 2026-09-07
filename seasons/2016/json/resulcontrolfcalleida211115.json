@@ -6,13 +6,17 @@
   "results": [
     {
       "athlete_name": "Ruben Paredes Lario",
-      "discipline": "Llargada ALEVI MASCULI",
-      "performance": "4.04"
+      "discipline": "Llargada",
+      "raw_discipline_name": "Llargada ALEVI MASCULI",
+      "performance": "4.04",
+      "internal_id": null
     },
     {
       "athlete_name": "Ruben Paredes Lario",
-      "discipline": "Alçada ALEVI MASCULI",
-      "performance": "1.26"
+      "discipline": "Alçada",
+      "raw_discipline_name": "Alçada ALEVI MASCULI",
+      "performance": "1.26",
+      "internal_id": null
     }
   ]
 }

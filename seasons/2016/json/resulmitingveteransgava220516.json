@@ -10,16 +10,20 @@
       "athlete_dob": "26/03/1966",
       "athlete_id": "CT20403",
       "performance": "2:23.70",
-      "discipline": "800m Masculí Absolut - VETERÀ",
-      "wind": null
+      "discipline": "800 metres llisos",
+      "raw_discipline_name": "800m Masculí Absolut - VETERÀ",
+      "wind": null,
+      "internal_id": 539
     },
     {
       "athlete_name": "Joan Bardina Tomas M-45",
       "athlete_dob": "23/09/1968",
       "athlete_id": "CL3961",
       "performance": "4:45.84",
-      "discipline": "1.500m Masculí Absolut-VETERÀ",
-      "wind": null
+      "discipline": "1500 metres llisos",
+      "raw_discipline_name": "1.500m Masculí Absolut-VETERÀ",
+      "wind": null,
+      "internal_id": 7
     }
   ]
 }

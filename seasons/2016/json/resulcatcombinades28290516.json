@@ -10,8 +10,10 @@
       "athlete_dob": "29/03/2005",
       "athlete_id": "CL71565",
       "performance": "270",
-      "discipline": "Tetratló Masculí Aleví",
-      "wind": null
+      "discipline": "Tetratló",
+      "raw_discipline_name": "Tetratló Masculí Aleví",
+      "wind": null,
+      "internal_id": null
     },
     {
       "athlete_name": "Ruben Paredes Lario",
@@ -19,7 +21,9 @@
       "athlete_id": "CL71732",
       "performance": "3.61",
       "discipline": "Llargada",
-      "wind": null
+      "raw_discipline_name": "Llargada",
+      "wind": null,
+      "internal_id": null
     },
     {
       "athlete_name": "Ruben Paredes Lario",
@@ -27,31 +31,39 @@
       "athlete_id": "CL71732",
       "performance": "3.92",
       "discipline": "Llargada",
-      "wind": null
+      "raw_discipline_name": "Llargada",
+      "wind": null,
+      "internal_id": null
     },
     {
       "athlete_name": "Ruben Paredes Lario",
       "athlete_dob": "10/03/2005",
       "athlete_id": "CL71732",
       "performance": "7.48",
-      "discipline": "Pes (2Kg)",
-      "wind": null
+      "discipline": "Pes (2 Kg)",
+      "raw_discipline_name": "Pes (2Kg)",
+      "wind": null,
+      "internal_id": null
     },
     {
       "athlete_name": "Ruben Paredes Lario",
       "athlete_dob": "10/03/2005",
       "athlete_id": "CL71732",
       "performance": "7.55",
-      "discipline": "Pes (2Kg)",
-      "wind": null
+      "discipline": "Pes (2 Kg)",
+      "raw_discipline_name": "Pes (2Kg)",
+      "wind": null,
+      "internal_id": null
     },
     {
       "athlete_name": "Ruben Paredes Lario",
       "athlete_dob": "10/03/2005",
       "athlete_id": "CL71732",
       "performance": "7.44",
-      "discipline": "Pes (2Kg)",
-      "wind": null
+      "discipline": "Pes (2 Kg)",
+      "raw_discipline_name": "Pes (2Kg)",
+      "wind": null,
+      "internal_id": null
     },
     {
       "athlete_name": "Ruben Paredes Lario",
@@ -59,15 +71,19 @@
       "athlete_id": "CL71732",
       "performance": "1.20",
       "discipline": "Alçada",
-      "wind": null
+      "raw_discipline_name": "Alçada",
+      "wind": null,
+      "internal_id": null
     },
     {
       "athlete_name": "Mireia Lopez Urbano 07/12/2000 LF",
       "athlete_dob": "08/03/1999",
       "athlete_id": "CL23726",
       "performance": "795",
-      "discipline": "Heptatló Femení Juvenil",
-      "wind": null
+      "discipline": "Heptatlo",
+      "raw_discipline_name": "Heptatló Femení Juvenil",
+      "wind": null,
+      "internal_id": 527
     },
     {
       "athlete_name": "Mireia Lopez Urbano LF",
@@ -75,231 +91,289 @@
       "athlete_id": "CT23556",
       "performance": "1.50",
       "discipline": "Alçada",
-      "wind": null
+      "raw_discipline_name": "Alçada",
+      "wind": null,
+      "internal_id": 527
     },
     {
       "athlete_name": "Mireia Lopez Urbano LF",
       "athlete_dob": "07/12/2000",
       "athlete_id": "CT23556",
       "performance": "9.41",
-      "discipline": "Pes (3Kg)",
-      "wind": null
+      "discipline": "Pes (3 Kg)",
+      "raw_discipline_name": "Pes (3Kg)",
+      "wind": null,
+      "internal_id": 527
     },
     {
       "athlete_name": "Mireia Lopez Urbano LF",
       "athlete_dob": "07/12/2000",
       "athlete_id": "CT23556",
       "performance": "9.44",
-      "discipline": "Pes (3Kg)",
-      "wind": null
+      "discipline": "Pes (3 Kg)",
+      "raw_discipline_name": "Pes (3Kg)",
+      "wind": null,
+      "internal_id": 527
     },
     {
       "athlete_name": "Mireia Lopez Urbano LF",
       "athlete_dob": "07/12/2000",
       "athlete_id": "CT23556",
       "performance": "9.68",
-      "discipline": "Pes (3Kg)",
-      "wind": null
+      "discipline": "Pes (3 Kg)",
+      "raw_discipline_name": "Pes (3Kg)",
+      "wind": null,
+      "internal_id": 527
     },
     {
       "athlete_name": "Mireia Lopez Urbano LF 5",
       "athlete_dob": "07/12/2000",
       "athlete_id": "CT23556",
       "performance": "25.93",
-      "discipline": "Pes (3Kg)",
-      "wind": null
+      "discipline": "Pes (3 Kg)",
+      "raw_discipline_name": "Pes (3Kg)",
+      "wind": null,
+      "internal_id": 527
     },
     {
       "athlete_name": "Mireia Lopez Urbano LF",
       "athlete_dob": "07/12/2000",
       "athlete_id": "CT23556",
       "performance": "5.06",
-      "discipline": "Llargada Juvenil Femení",
-      "wind": "-0.5"
+      "discipline": "Llargada",
+      "raw_discipline_name": "Llargada Juvenil Femení",
+      "wind": "-0.5",
+      "internal_id": 527
     },
     {
       "athlete_name": "Mireia Lopez Urbano LF",
       "athlete_dob": "07/12/2000",
       "athlete_id": "CT23556",
       "performance": "5.13",
-      "discipline": "Llargada Juvenil Femení",
-      "wind": "+4.0"
+      "discipline": "Llargada",
+      "raw_discipline_name": "Llargada Juvenil Femení",
+      "wind": "+4.0",
+      "internal_id": 527
     },
     {
       "athlete_name": "Mireia Lopez Urbano LF",
       "athlete_dob": "07/12/2000",
       "athlete_id": "CT23556",
       "performance": "5.23",
-      "discipline": "Llargada Juvenil Femení",
-      "wind": "+3.0"
+      "discipline": "Llargada",
+      "raw_discipline_name": "Llargada Juvenil Femení",
+      "wind": "+3.0",
+      "internal_id": 527
     },
     {
       "athlete_name": "Mireia Lopez Urbano LF",
       "athlete_dob": "07/12/2000",
       "athlete_id": "CT23556",
       "performance": "30.54",
-      "discipline": "Javelina Juvenil Femení (500gr)",
-      "wind": null
+      "discipline": "Javelina (500g)",
+      "raw_discipline_name": "Javelina Juvenil Femení (500gr)",
+      "wind": null,
+      "internal_id": 527
     },
     {
       "athlete_name": "Mireia Lopez Urbano LF 8",
       "athlete_dob": "07/12/2000",
       "athlete_id": "CT23556",
       "performance": "53.25",
-      "discipline": "Javelina Juvenil Femení (500gr)",
-      "wind": null
+      "discipline": "Javelina (500g)",
+      "raw_discipline_name": "Javelina Juvenil Femení (500gr)",
+      "wind": null,
+      "internal_id": 527
     },
     {
       "athlete_name": "(t) Laurineelisa Marimon Fernandez 17/09/2004 IF",
       "athlete_dob": "20/02/2004",
       "athlete_id": "CL70600",
       "performance": "348",
-      "discipline": "Pentatló Femení Infantil",
-      "wind": null
+      "discipline": "Pentatló",
+      "raw_discipline_name": "Pentatló Femení Infantil",
+      "wind": null,
+      "internal_id": 737
     },
     {
       "athlete_name": "(t) Laurineelisa Marimon Fernandez 17/09/2004 IF",
       "athlete_dob": "29/05/2016",
       "athlete_id": "CL73258",
       "performance": "453",
-      "discipline": "Pentatló Femení Infantil",
-      "wind": null
+      "discipline": "Pentatló",
+      "raw_discipline_name": "Pentatló Femení Infantil",
+      "wind": null,
+      "internal_id": 737
     },
     {
       "athlete_name": "Laurineelisa Marimon Fernandez IF",
       "athlete_dob": "17/09/2004",
       "athlete_id": "CL69330",
       "performance": "1.35",
-      "discipline": "Alçada Infantil Femení",
-      "wind": null
+      "discipline": "Alçada",
+      "raw_discipline_name": "Alçada Infantil Femení",
+      "wind": null,
+      "internal_id": 737
     },
     {
       "athlete_name": "Laurineelisa Marimon Fernandez IF",
       "athlete_dob": "17/09/2004",
       "athlete_id": "CL69330",
       "performance": "7.94",
-      "discipline": "Pes Infantil Femení (2Kg)",
-      "wind": null
+      "discipline": "Pes (2 Kg)",
+      "raw_discipline_name": "Pes Infantil Femení (2Kg)",
+      "wind": null,
+      "internal_id": 737
     },
     {
       "athlete_name": "Laurineelisa Marimon Fernandez IF",
       "athlete_dob": "17/09/2004",
       "athlete_id": "CL69330",
       "performance": "8.04",
-      "discipline": "Pes Infantil Femení (2Kg)",
-      "wind": null
+      "discipline": "Pes (2 Kg)",
+      "raw_discipline_name": "Pes Infantil Femení (2Kg)",
+      "wind": null,
+      "internal_id": 737
     },
     {
       "athlete_name": "Laurineelisa Marimon Fernandez IF",
       "athlete_dob": "17/09/2004",
       "athlete_id": "CL69330",
       "performance": "3.64",
-      "discipline": "Llargada Infantil Femení",
-      "wind": null
+      "discipline": "Llargada",
+      "raw_discipline_name": "Llargada Infantil Femení",
+      "wind": null,
+      "internal_id": 737
     },
     {
       "athlete_name": "Laurineelisa Marimon Fernandez IF",
       "athlete_dob": "17/09/2004",
       "athlete_id": "CL69330",
       "performance": "3.25",
-      "discipline": "Llargada Infantil Femení",
-      "wind": null
+      "discipline": "Llargada",
+      "raw_discipline_name": "Llargada Infantil Femení",
+      "wind": null,
+      "internal_id": 737
     },
     {
       "athlete_name": "Laurineelisa Marimon Fernandez IF",
       "athlete_dob": "17/09/2004",
       "athlete_id": "CL69330",
       "performance": "3.89",
-      "discipline": "Llargada Infantil Femení",
-      "wind": null
+      "discipline": "Llargada",
+      "raw_discipline_name": "Llargada Infantil Femení",
+      "wind": null,
+      "internal_id": 737
     },
     {
       "athlete_name": "(t) Natalia Sanchez Alvarez 28/05/2005 AF",
       "athlete_dob": "20/05/2005",
       "athlete_id": "CL78264",
       "performance": "632",
-      "discipline": "Tetratló Femení Aleví",
-      "wind": null
+      "discipline": "Tetratló",
+      "raw_discipline_name": "Tetratló Femení Aleví",
+      "wind": null,
+      "internal_id": 796
     },
     {
       "athlete_name": "(t) Martina Pomes Cabello 02/02/2005 AF",
       "athlete_dob": "30/06/2005",
       "athlete_id": "CL71349",
       "performance": "575",
-      "discipline": "Tetratló Femení Aleví",
-      "wind": null
+      "discipline": "Tetratló",
+      "raw_discipline_name": "Tetratló Femení Aleví",
+      "wind": null,
+      "internal_id": 810
     },
     {
       "athlete_name": "(t) Laia Aldave Mas 29/01/2005 AF",
       "athlete_dob": "",
       "athlete_id": "",
       "performance": "457",
-      "discipline": "Tetratló Femení Aleví",
-      "wind": null
+      "discipline": "Tetratló",
+      "raw_discipline_name": "Tetratló Femení Aleví",
+      "wind": null,
+      "internal_id": 800
     },
     {
       "athlete_name": "Laia Aldave Mas AF",
       "athlete_dob": "29/01/2005",
       "athlete_id": "CL71683",
       "performance": "6.78",
-      "discipline": "Pes (2Kg)",
-      "wind": null
+      "discipline": "Pes (2 Kg)",
+      "raw_discipline_name": "Pes (2Kg)",
+      "wind": null,
+      "internal_id": 800
     },
     {
       "athlete_name": "Laia Aldave Mas AF",
       "athlete_dob": "29/01/2005",
       "athlete_id": "CL71683",
       "performance": "6.61",
-      "discipline": "Pes (2Kg)",
-      "wind": null
+      "discipline": "Pes (2 Kg)",
+      "raw_discipline_name": "Pes (2Kg)",
+      "wind": null,
+      "internal_id": 800
     },
     {
       "athlete_name": "Natalia Sanchez Alvarez AF",
       "athlete_dob": "28/05/2005",
       "athlete_id": "CL71748",
       "performance": "4.95",
-      "discipline": "Pes (2Kg)",
-      "wind": null
+      "discipline": "Pes (2 Kg)",
+      "raw_discipline_name": "Pes (2Kg)",
+      "wind": null,
+      "internal_id": 796
     },
     {
       "athlete_name": "Natalia Sanchez Alvarez AF",
       "athlete_dob": "28/05/2005",
       "athlete_id": "CL71748",
       "performance": "5.21",
-      "discipline": "Pes (2Kg)",
-      "wind": null
+      "discipline": "Pes (2 Kg)",
+      "raw_discipline_name": "Pes (2Kg)",
+      "wind": null,
+      "internal_id": 796
     },
     {
       "athlete_name": "Natalia Sanchez Alvarez AF",
       "athlete_dob": "28/05/2005",
       "athlete_id": "CL71748",
       "performance": "5.41",
-      "discipline": "Pes (2Kg)",
-      "wind": null
+      "discipline": "Pes (2 Kg)",
+      "raw_discipline_name": "Pes (2Kg)",
+      "wind": null,
+      "internal_id": 796
     },
     {
       "athlete_name": "Martina Pomes Cabello AF",
       "athlete_dob": "02/02/2005",
       "athlete_id": "CL71737",
       "performance": "4.80",
-      "discipline": "Pes (2Kg)",
-      "wind": null
+      "discipline": "Pes (2 Kg)",
+      "raw_discipline_name": "Pes (2Kg)",
+      "wind": null,
+      "internal_id": 810
     },
     {
       "athlete_name": "Martina Pomes Cabello AF",
       "athlete_dob": "02/02/2005",
       "athlete_id": "CL71737",
       "performance": "5.16",
-      "discipline": "Pes (2Kg)",
-      "wind": null
+      "discipline": "Pes (2 Kg)",
+      "raw_discipline_name": "Pes (2Kg)",
+      "wind": null,
+      "internal_id": 810
     },
     {
       "athlete_name": "Martina Pomes Cabello AF",
       "athlete_dob": "02/02/2005",
       "athlete_id": "CL71737",
       "performance": "5.24",
-      "discipline": "Pes (2Kg)",
-      "wind": null
+      "discipline": "Pes (2 Kg)",
+      "raw_discipline_name": "Pes (2Kg)",
+      "wind": null,
+      "internal_id": 810
     },
     {
       "athlete_name": "Martina Pomes Cabello AF",
@@ -307,7 +381,9 @@
       "athlete_id": "CL71737",
       "performance": "3.94",
       "discipline": "Llargada",
-      "wind": null
+      "raw_discipline_name": "Llargada",
+      "wind": null,
+      "internal_id": 810
     },
     {
       "athlete_name": "Martina Pomes Cabello AF",
@@ -315,7 +391,9 @@
       "athlete_id": "CL71737",
       "performance": "4.05",
       "discipline": "Llargada",
-      "wind": null
+      "raw_discipline_name": "Llargada",
+      "wind": null,
+      "internal_id": 810
     },
     {
       "athlete_name": "Laia Aldave Mas AF",
@@ -323,7 +401,9 @@
       "athlete_id": "CL71683",
       "performance": "3.52",
       "discipline": "Llargada",
-      "wind": null
+      "raw_discipline_name": "Llargada",
+      "wind": null,
+      "internal_id": 800
     },
     {
       "athlete_name": "Laia Aldave Mas AF",
@@ -331,7 +411,9 @@
       "athlete_id": "CL71683",
       "performance": "3.89",
       "discipline": "Llargada",
-      "wind": null
+      "raw_discipline_name": "Llargada",
+      "wind": null,
+      "internal_id": 800
     },
     {
       "athlete_name": "Natalia Sanchez Alvarez AF",
@@ -339,7 +421,9 @@
       "athlete_id": "CL71748",
       "performance": "3.79",
       "discipline": "Llargada",
-      "wind": null
+      "raw_discipline_name": "Llargada",
+      "wind": null,
+      "internal_id": 796
     },
     {
       "athlete_name": "Natalia Sanchez Alvarez AF",
@@ -347,7 +431,9 @@
       "athlete_id": "CL71748",
       "performance": "3.83",
       "discipline": "Llargada",
-      "wind": null
+      "raw_discipline_name": "Llargada",
+      "wind": null,
+      "internal_id": 796
     },
     {
       "athlete_name": "Natalia Sanchez Alvarez AF",
@@ -355,7 +441,9 @@
       "athlete_id": "CL71748",
       "performance": "3.66",
       "discipline": "Llargada",
-      "wind": null
+      "raw_discipline_name": "Llargada",
+      "wind": null,
+      "internal_id": 796
     },
     {
       "athlete_name": "Martina Pomes Cabello AF 6",
@@ -363,7 +451,9 @@
       "athlete_id": "CL71737",
       "performance": "9.12",
       "discipline": "Llargada",
-      "wind": "1.65"
+      "raw_discipline_name": "Llargada",
+      "wind": "1.65",
+      "internal_id": 810
     },
     {
       "athlete_name": "Natalia Sanchez Alvarez AF 5",
@@ -371,7 +461,9 @@
       "athlete_id": "CL71748",
       "performance": "9.29",
       "discipline": "Llargada",
-      "wind": "1.63"
+      "raw_discipline_name": "Llargada",
+      "wind": "1.63",
+      "internal_id": 796
     },
     {
       "athlete_name": "Laia Aldave Mas AF 3",
@@ -379,7 +471,9 @@
       "athlete_id": "CL71683",
       "performance": "9.62",
       "discipline": "Llargada",
-      "wind": "1.47"
+      "raw_discipline_name": "Llargada",
+      "wind": "1.47",
+      "internal_id": 800
     },
     {
       "athlete_name": "Martina Pomes AF",
@@ -387,7 +481,9 @@
       "athlete_id": "CL71737",
       "performance": "10.77",
       "discipline": "Pto   Dor Nombre                        F de Nac    Cat   60t      Pes Llargada 60m     Marca",
-      "wind": null
+      "raw_discipline_name": "Pto   Dor Nombre                        F de Nac    Cat   60t      Pes Llargada 60m     Marca",
+      "wind": null,
+      "internal_id": 810
     },
     {
       "athlete_name": "Martina Pomes AF",
@@ -395,7 +491,9 @@
       "athlete_id": "CL71737",
       "performance": "5.24",
       "discipline": "Pto   Dor Nombre                        F de Nac    Cat   60t      Pes Llargada 60m     Marca",
-      "wind": null
+      "raw_discipline_name": "Pto   Dor Nombre                        F de Nac    Cat   60t      Pes Llargada 60m     Marca",
+      "wind": null,
+      "internal_id": 810
     },
     {
       "athlete_name": "Martina Pomes AF",
@@ -403,7 +501,9 @@
       "athlete_id": "CL71737",
       "performance": "4.05",
       "discipline": "Pto   Dor Nombre                        F de Nac    Cat   60t      Pes Llargada 60m     Marca",
-      "wind": null
+      "raw_discipline_name": "Pto   Dor Nombre                        F de Nac    Cat   60t      Pes Llargada 60m     Marca",
+      "wind": null,
+      "internal_id": 810
     },
     {
       "athlete_name": "Martina Pomes AF",
@@ -411,7 +511,9 @@
       "athlete_id": "CL71737",
       "performance": "9.12",
       "discipline": "Pto   Dor Nombre                        F de Nac    Cat   60t      Pes Llargada 60m     Marca",
-      "wind": null
+      "raw_discipline_name": "Pto   Dor Nombre                        F de Nac    Cat   60t      Pes Llargada 60m     Marca",
+      "wind": null,
+      "internal_id": 810
     },
     {
       "athlete_name": "Natalia Sanchez AF",
@@ -419,7 +521,9 @@
       "athlete_id": "CL71748",
       "performance": "10.44",
       "discipline": "Pto   Dor Nombre                        F de Nac    Cat   60t      Pes Llargada 60m     Marca",
-      "wind": null
+      "raw_discipline_name": "Pto   Dor Nombre                        F de Nac    Cat   60t      Pes Llargada 60m     Marca",
+      "wind": null,
+      "internal_id": 796
     },
     {
       "athlete_name": "Natalia Sanchez AF",
@@ -427,7 +531,9 @@
       "athlete_id": "CL71748",
       "performance": "5.41",
       "discipline": "Pto   Dor Nombre                        F de Nac    Cat   60t      Pes Llargada 60m     Marca",
-      "wind": null
+      "raw_discipline_name": "Pto   Dor Nombre                        F de Nac    Cat   60t      Pes Llargada 60m     Marca",
+      "wind": null,
+      "internal_id": 796
     },
     {
       "athlete_name": "Natalia Sanchez AF",
@@ -435,7 +541,9 @@
       "athlete_id": "CL71748",
       "performance": "3.83",
       "discipline": "Pto   Dor Nombre                        F de Nac    Cat   60t      Pes Llargada 60m     Marca",
-      "wind": null
+      "raw_discipline_name": "Pto   Dor Nombre                        F de Nac    Cat   60t      Pes Llargada 60m     Marca",
+      "wind": null,
+      "internal_id": 796
     },
     {
       "athlete_name": "Natalia Sanchez AF",
@@ -443,7 +551,9 @@
       "athlete_id": "CL71748",
       "performance": "9.29",
       "discipline": "Pto   Dor Nombre                        F de Nac    Cat   60t      Pes Llargada 60m     Marca",
-      "wind": null
+      "raw_discipline_name": "Pto   Dor Nombre                        F de Nac    Cat   60t      Pes Llargada 60m     Marca",
+      "wind": null,
+      "internal_id": 796
     },
     {
       "athlete_name": "Laia Aldave AF",
@@ -451,7 +561,9 @@
       "athlete_id": "CL71683",
       "performance": "11.50",
       "discipline": "Pto   Dor Nombre                        F de Nac    Cat   60t      Pes Llargada 60m     Marca",
-      "wind": null
+      "raw_discipline_name": "Pto   Dor Nombre                        F de Nac    Cat   60t      Pes Llargada 60m     Marca",
+      "wind": null,
+      "internal_id": 800
     },
     {
       "athlete_name": "Laia Aldave AF",
@@ -459,7 +571,9 @@
       "athlete_id": "CL71683",
       "performance": "6.78",
       "discipline": "Pto   Dor Nombre                        F de Nac    Cat   60t      Pes Llargada 60m     Marca",
-      "wind": null
+      "raw_discipline_name": "Pto   Dor Nombre                        F de Nac    Cat   60t      Pes Llargada 60m     Marca",
+      "wind": null,
+      "internal_id": 800
     },
     {
       "athlete_name": "Laia Aldave AF",
@@ -467,7 +581,9 @@
       "athlete_id": "CL71683",
       "performance": "3.89",
       "discipline": "Pto   Dor Nombre                        F de Nac    Cat   60t      Pes Llargada 60m     Marca",
-      "wind": null
+      "raw_discipline_name": "Pto   Dor Nombre                        F de Nac    Cat   60t      Pes Llargada 60m     Marca",
+      "wind": null,
+      "internal_id": 800
     },
     {
       "athlete_name": "Laia Aldave AF",
@@ -475,7 +591,9 @@
       "athlete_id": "CL71683",
       "performance": "9.62",
       "discipline": "Pto   Dor Nombre                        F de Nac    Cat   60t      Pes Llargada 60m     Marca",
-      "wind": null
+      "raw_discipline_name": "Pto   Dor Nombre                        F de Nac    Cat   60t      Pes Llargada 60m     Marca",
+      "wind": null,
+      "internal_id": 800
     }
   ]
 }

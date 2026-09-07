@@ -6,8 +6,10 @@
   "results": [
     {
       "athlete_name": "Ruben Paredes Lario",
-      "discipline": "Alçada ALEVI MASCULI",
-      "performance": "1.25"
+      "discipline": "Alçada",
+      "raw_discipline_name": "Alçada ALEVI MASCULI",
+      "performance": "1.25",
+      "internal_id": null
     }
   ]
 }

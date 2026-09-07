@@ -10,48 +10,60 @@
       "athlete_dob": "25/03/2007",
       "athlete_id": "CL77329",
       "performance": "1.22",
-      "discipline": "ALÇADA BENJAMI MASCULI",
-      "wind": null
+      "discipline": "Alçada",
+      "raw_discipline_name": "ALÇADA BENJAMI MASCULI",
+      "wind": null,
+      "internal_id": null
     },
     {
       "athlete_name": "Unai Ortiz De Landazuri Ontoso BM",
       "athlete_dob": "28/06/2007",
       "athlete_id": "CL77328",
       "performance": "1.19",
-      "discipline": "ALÇADA BENJAMI MASCULI",
-      "wind": null
+      "discipline": "Alçada",
+      "raw_discipline_name": "ALÇADA BENJAMI MASCULI",
+      "wind": null,
+      "internal_id": 908
     },
     {
       "athlete_name": "Silvia Vicente Navarrete BF 6",
       "athlete_dob": "31/07/2007",
       "athlete_id": "CL77332",
       "performance": "12:40",
-      "discipline": "1000 METRES MARXA BENJAMI MASCULI",
-      "wind": null
+      "discipline": "1000 metres marxa",
+      "raw_discipline_name": "1000 METRES MARXA BENJAMI MASCULI",
+      "wind": null,
+      "internal_id": 905
     },
     {
       "athlete_name": "Silvia Vicente Navarrete BF",
       "athlete_dob": "31/07/2007",
       "athlete_id": "CL77332",
       "performance": "3.17",
-      "discipline": "LLARGADA BENJAMI FEMENI",
-      "wind": null
+      "discipline": "Llargada",
+      "raw_discipline_name": "LLARGADA BENJAMI FEMENI",
+      "wind": null,
+      "internal_id": 905
     },
     {
       "athlete_name": "Silvia Vicente Navarrete BF",
       "athlete_dob": "31/07/2007",
       "athlete_id": "CL77332",
       "performance": "3.18",
-      "discipline": "LLARGADA BENJAMI FEMENI",
-      "wind": null
+      "discipline": "Llargada",
+      "raw_discipline_name": "LLARGADA BENJAMI FEMENI",
+      "wind": null,
+      "internal_id": 905
     },
     {
       "athlete_name": "Luana Izaga Deriu BF",
       "athlete_dob": "13/02/2007",
       "athlete_id": "CL77321",
       "performance": "6:42.96",
-      "discipline": "1000 METRES MARXA BENJAMI FEMENI",
-      "wind": null
+      "discipline": "1000 metres marxa",
+      "raw_discipline_name": "1000 METRES MARXA BENJAMI FEMENI",
+      "wind": null,
+      "internal_id": 928
     }
   ]
 }

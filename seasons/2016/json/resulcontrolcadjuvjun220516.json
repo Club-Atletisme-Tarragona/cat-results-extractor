@@ -10,64 +10,80 @@
       "athlete_dob": "23/10/1998",
       "athlete_id": "CT22783",
       "performance": "10.95",
-      "discipline": "100m MASC. AL",
-      "wind": "+1.1"
+      "discipline": "100 metres llisos",
+      "raw_discipline_name": "100m MASC. AL",
+      "wind": "+1.1",
+      "internal_id": 435
     },
     {
       "athlete_name": "Javier Almale Lerin",
       "athlete_dob": "23/02/2000",
       "athlete_id": "CT24373",
       "performance": "12.03",
-      "discipline": "100m MASC. AL",
-      "wind": "-1.9"
+      "discipline": "100 metres llisos",
+      "raw_discipline_name": "100m MASC. AL",
+      "wind": "-1.9",
+      "internal_id": 510
     },
     {
       "athlete_name": "Aleix Lago Garbajosa",
       "athlete_dob": "26/09/2002",
       "athlete_id": "CL71714",
       "performance": "37.96",
-      "discipline": "600m MASC. AL",
-      "wind": null
+      "discipline": "600 metres llisos",
+      "raw_discipline_name": "600m MASC. AL",
+      "wind": null,
+      "internal_id": 660
     },
     {
       "athlete_name": "Abdelhakim Hamid",
       "athlete_dob": "02/08/1997",
       "athlete_id": "CT22899",
       "performance": "58.93",
-      "discipline": "800m MASC. AL",
-      "wind": null
+      "discipline": "800 metres llisos",
+      "raw_discipline_name": "800m MASC. AL",
+      "wind": null,
+      "internal_id": 538
     },
     {
       "athlete_name": "Gerard Parera Bodi",
       "athlete_dob": "22/01/2000",
       "athlete_id": "CL25156",
       "performance": "57.08",
-      "discipline": "5.000m MASC. AL",
-      "wind": null
+      "discipline": "5000 metres llisos",
+      "raw_discipline_name": "5.000m MASC. AL",
+      "wind": null,
+      "internal_id": 522
     },
     {
       "athlete_name": "Mireia Lopez Urbano",
       "athlete_dob": "07/12/2000",
       "athlete_id": "CT23556",
       "performance": "13.14",
-      "discipline": "100m FEM. AL",
-      "wind": "-4.6"
+      "discipline": "100 metres llisos",
+      "raw_discipline_name": "100m FEM. AL",
+      "wind": "-4.6",
+      "internal_id": 527
     },
     {
       "athlete_name": "Maria Buscail Brianso",
       "athlete_dob": "15/12/2000",
       "athlete_id": "CL25158",
       "performance": "11.13",
-      "discipline": "5.000m FEM. AL",
-      "wind": null
+      "discipline": "5000 metres llisos",
+      "raw_discipline_name": "5.000m FEM. AL",
+      "wind": null,
+      "internal_id": 520
     },
     {
       "athlete_name": "Nerea Lago Garbajosa",
       "athlete_dob": "15/05/2000",
       "athlete_id": "CL25157",
       "performance": "13.02",
-      "discipline": "5.000m FEM. AL",
-      "wind": null
+      "discipline": "5000 metres llisos",
+      "raw_discipline_name": "5.000m FEM. AL",
+      "wind": null,
+      "internal_id": 534
     }
   ]
 }

@@ -10,32 +10,40 @@
       "athlete_dob": "02/08/1997",
       "athlete_id": "CT22899",
       "performance": "58.35",
-      "discipline": "800m MASC. AL",
-      "wind": null
+      "discipline": "800 metres llisos",
+      "raw_discipline_name": "800m MASC. AL",
+      "wind": null,
+      "internal_id": 538
     },
     {
       "athlete_name": "Maria Alvarez Auños",
       "athlete_dob": "14/08/1996",
       "athlete_id": "CT20448",
       "performance": "21.75",
-      "discipline": "Javelina (600g) FEM.",
-      "wind": null
+      "discipline": "Javelina (600 g)",
+      "raw_discipline_name": "Javelina (600g) FEM.",
+      "wind": null,
+      "internal_id": 346
     },
     {
       "athlete_name": "Maria Alvarez Auños",
       "athlete_dob": "14/08/1996",
       "athlete_id": "CT20448",
       "performance": "20.88",
-      "discipline": "Javelina (600g) FEM.",
-      "wind": null
+      "discipline": "Javelina (600 g)",
+      "raw_discipline_name": "Javelina (600g) FEM.",
+      "wind": null,
+      "internal_id": 346
     },
     {
       "athlete_name": "Maria Alvarez Auños",
       "athlete_dob": "14/08/1996",
       "athlete_id": "CT20448",
       "performance": "22.93",
-      "discipline": "Javelina (600g) FEM.",
-      "wind": null
+      "discipline": "Javelina (600 g)",
+      "raw_discipline_name": "Javelina (600g) FEM.",
+      "wind": null,
+      "internal_id": 346
     }
   ]
 }

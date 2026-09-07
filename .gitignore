@@ -7,3 +7,5 @@ bkp
 test_output.json
 test_*.json
 .opencode/
+# Local Pi runtime state
+.atl/

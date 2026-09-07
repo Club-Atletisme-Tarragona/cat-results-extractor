@@ -10,24 +10,30 @@
       "athlete_dob": "31/7/2007",
       "athlete_id": "CT1468",
       "performance": "15.54",
-      "discipline": "100m vallas Mujeres",
-      "wind": "-0.9"
+      "discipline": "100 metres tanques (0.84)",
+      "raw_discipline_name": "100m vallas Mujeres",
+      "wind": "-0.9",
+      "internal_id": 905
     },
     {
       "athlete_name": "SILVIA VICENTE NAVARRETE",
       "athlete_dob": "31/7/2007",
       "athlete_id": "CT1468",
       "performance": "12.74",
-      "discipline": "100m Mujeres",
-      "wind": "-2.0"
+      "discipline": "100 metres llisos",
+      "raw_discipline_name": "100m Mujeres",
+      "wind": "-2.0",
+      "internal_id": 905
     },
     {
       "athlete_name": "OLIVIA RUIZ BARBERA",
       "athlete_dob": "24/4/2009",
       "athlete_id": "CL3439",
       "performance": "27.40",
-      "discipline": "200m Mujeres",
-      "wind": "+1.5"
+      "discipline": "200 metres llisos",
+      "raw_discipline_name": "200m Mujeres",
+      "wind": "+1.5",
+      "internal_id": 1018
     }
   ]
 }

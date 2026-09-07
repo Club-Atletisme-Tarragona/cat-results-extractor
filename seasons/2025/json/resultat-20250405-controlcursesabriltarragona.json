@@ -10,24 +10,30 @@
       "athlete_dob": "23/10/1998",
       "athlete_id": "CAT-3791853",
       "performance": "23.31",
-      "discipline": "200m Hombres",
-      "wind": "-2.4"
+      "discipline": "200 metres llisos",
+      "raw_discipline_name": "200m Hombres",
+      "wind": "-2.4",
+      "internal_id": 435
     },
     {
       "athlete_name": "JAN SANS RIOLA",
       "athlete_dob": "23/10/1998",
       "athlete_id": "CAT-3791853",
       "performance": "23.31",
-      "discipline": "12:15   3.000m Mujeres AL                                                             Final",
-      "wind": "-2.4"
+      "discipline": "3000 metres llisos",
+      "raw_discipline_name": "12:15   3.000m Mujeres AL                                                             Final",
+      "wind": "-2.4",
+      "internal_id": 435
     },
     {
       "athlete_name": "AINOA RODRIGUEZ MURILLO",
       "athlete_dob": "17/1/2008",
       "athlete_id": "CAT-3742948",
       "performance": "28.48",
-      "discipline": "200m Mujeres",
-      "wind": "-2.5"
+      "discipline": "200 metres llisos",
+      "raw_discipline_name": "200m Mujeres",
+      "wind": "-2.5",
+      "internal_id": 965
     }
   ]
 }

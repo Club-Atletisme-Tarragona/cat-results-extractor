@@ -10,48 +10,60 @@
       "athlete_dob": "6/1/2007",
       "athlete_id": "CT1186",
       "performance": "4.31",
-      "discipline": "Pértiga Hombres",
-      "wind": null
+      "discipline": "Perxa",
+      "raw_discipline_name": "Pértiga Hombres",
+      "wind": null,
+      "internal_id": 899
     },
     {
       "athlete_name": "SILVIA VICENTE NAVARRETE",
       "athlete_dob": "31/7/2007",
       "athlete_id": "CT1468",
       "performance": "12.72",
-      "discipline": "100m Mujeres",
-      "wind": "-3.3"
+      "discipline": "100 metres llisos",
+      "raw_discipline_name": "100m Mujeres",
+      "wind": "-3.3",
+      "internal_id": 905
     },
     {
       "athlete_name": "SILVIA VICENTE NAVARRETE",
       "athlete_dob": "31/7/2007",
       "athlete_id": "CT1468",
       "performance": "12.48",
-      "discipline": "100m Mujeres",
-      "wind": "-0.3"
+      "discipline": "100 metres llisos",
+      "raw_discipline_name": "100m Mujeres",
+      "wind": "-0.3",
+      "internal_id": 905
     },
     {
       "athlete_name": "JOAN MARTORELL ESCOBAR",
       "athlete_dob": "22/3/2007",
       "athlete_id": "CT1825",
       "performance": "52.44",
-      "discipline": "400m Hombres",
-      "wind": null
+      "discipline": "400 metres llisos",
+      "raw_discipline_name": "400m Hombres",
+      "wind": null,
+      "internal_id": 914
     },
     {
       "athlete_name": "SILVIA VICENTE NAVARRETE",
       "athlete_dob": "31/7/2007",
       "athlete_id": "CT1468",
       "performance": "12.72",
-      "discipline": "800m Hombres",
-      "wind": "-3.3"
+      "discipline": "800 metres llisos",
+      "raw_discipline_name": "800m Hombres",
+      "wind": "-3.3",
+      "internal_id": 905
     },
     {
       "athlete_name": "SILVIA VICENTE NAVARRETE",
       "athlete_dob": "31/7/2007",
       "athlete_id": "CT1468",
       "performance": "16.78",
-      "discipline": "100m vallas Mujeres",
-      "wind": "-2.7"
+      "discipline": "100 metres tanques (0.84)",
+      "raw_discipline_name": "100m vallas Mujeres",
+      "wind": "-2.7",
+      "internal_id": 905
     }
   ]
 }

@@ -10,16 +10,20 @@
       "athlete_dob": "6/1/2007",
       "athlete_id": "CT1186",
       "performance": "4.20",
-      "discipline": "Pértiga Hombres",
-      "wind": null
+      "discipline": "Perxa",
+      "raw_discipline_name": "Pértiga Hombres",
+      "wind": null,
+      "internal_id": 899
     },
     {
       "athlete_name": "XAVIER ROS BORRELL",
       "athlete_dob": "19/5/1998",
       "athlete_id": "CAT-3754232",
       "performance": "2:00.18",
-      "discipline": "800m Hombres",
-      "wind": null
+      "discipline": "800 metres llisos",
+      "raw_discipline_name": "800m Hombres",
+      "wind": null,
+      "internal_id": 439
     }
   ]
 }

@@ -10,80 +10,100 @@
       "athlete_dob": "7/12/2000",
       "athlete_id": "CT23556",
       "performance": "14.20",
-      "discipline": "100m vallas Mujeres",
-      "wind": "-0.4"
+      "discipline": "100 metres tanques (0.84)",
+      "raw_discipline_name": "100m vallas Mujeres",
+      "wind": "-0.4",
+      "internal_id": 527
     },
     {
       "athlete_name": "VICTOR JIMENEZ GARCIA",
       "athlete_dob": "25/5/2008",
       "athlete_id": "CT1465",
       "performance": "6.82",
-      "discipline": "Longitud Hombres",
-      "wind": "1.7"
+      "discipline": "Llargada",
+      "raw_discipline_name": "Longitud Hombres",
+      "wind": "1.7",
+      "internal_id": 958
     },
     {
       "athlete_name": "VICTOR JIMENEZ GARCIA",
       "athlete_dob": "25/5/2008",
       "athlete_id": "CT1465",
       "performance": "6.83",
-      "discipline": "Longitud Hombres",
-      "wind": "2.2"
+      "discipline": "Llargada",
+      "raw_discipline_name": "Longitud Hombres",
+      "wind": "2.2",
+      "internal_id": 958
     },
     {
       "athlete_name": "VICTOR JIMENEZ GARCIA",
       "athlete_dob": "25/5/2008",
       "athlete_id": "CT1465",
       "performance": "6.80",
-      "discipline": "Longitud Hombres",
-      "wind": "2.1"
+      "discipline": "Llargada",
+      "raw_discipline_name": "Longitud Hombres",
+      "wind": "2.1",
+      "internal_id": 958
     },
     {
       "athlete_name": "CARLA BORRAS VERGES-TAPIRO",
       "athlete_dob": "19/11/2008",
       "athlete_id": "CAT-3742951",
       "performance": "1:01.97",
-      "discipline": "400m Mujeres",
-      "wind": null
+      "discipline": "400 metres llisos",
+      "raw_discipline_name": "400m Mujeres",
+      "wind": null,
+      "internal_id": 951
     },
     {
       "athlete_name": "IRIS GARRIDO GARCIA",
       "athlete_dob": "15/12/2008",
       "athlete_id": "CAT-3742959",
       "performance": "1:08.49",
-      "discipline": "400m vallas Mujeres",
-      "wind": null
+      "discipline": "400 metres tanques (0.762)",
+      "raw_discipline_name": "400m vallas Mujeres",
+      "wind": null,
+      "internal_id": 982
     },
     {
       "athlete_name": "AINOA RODRIGUEZ MURILLO",
       "athlete_dob": "17/1/2008",
       "athlete_id": "CAT-3742948",
       "performance": "1:09.01",
-      "discipline": "400m vallas Mujeres",
-      "wind": null
+      "discipline": "400 metres tanques (0.762)",
+      "raw_discipline_name": "400m vallas Mujeres",
+      "wind": null,
+      "internal_id": 965
     },
     {
       "athlete_name": "LAURINE ELISA MARIMON FERNANDEZ",
       "athlete_dob": "17/9/2004",
       "athlete_id": "CT28409",
       "performance": "12.65",
-      "discipline": "Triple Salto Mujeres",
-      "wind": "2.5"
+      "discipline": "Triple",
+      "raw_discipline_name": "Triple Salto Mujeres",
+      "wind": "2.5",
+      "internal_id": 737
     },
     {
       "athlete_name": "LAURINE ELISA MARIMON FERNANDEZ",
       "athlete_dob": "17/9/2004",
       "athlete_id": "CT28409",
       "performance": "12.86",
-      "discipline": "Triple Salto Mujeres",
-      "wind": "0.6"
+      "discipline": "Triple",
+      "raw_discipline_name": "Triple Salto Mujeres",
+      "wind": "0.6",
+      "internal_id": 737
     },
     {
       "athlete_name": "LAURINE ELISA MARIMON FERNAN…",
       "athlete_dob": "17/9/2004",
       "athlete_id": "CT28409",
       "performance": "12.86",
-      "discipline": "Triple Salto Mujeres",
-      "wind": null
+      "discipline": "Triple",
+      "raw_discipline_name": "Triple Salto Mujeres",
+      "wind": null,
+      "internal_id": 737
     }
   ]
 }

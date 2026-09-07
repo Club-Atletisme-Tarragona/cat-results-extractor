@@ -10,8 +10,10 @@
       "athlete_dob": "6/1/2007",
       "athlete_id": "CT1186",
       "performance": "4.02",
-      "discipline": "Perxa Masculina",
-      "wind": null
+      "discipline": "Perxa",
+      "raw_discipline_name": "Perxa Masculina",
+      "wind": null,
+      "internal_id": 899
     }
   ]
 }

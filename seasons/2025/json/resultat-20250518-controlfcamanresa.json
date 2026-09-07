@@ -10,32 +10,40 @@
       "athlete_dob": "26/12/2008",
       "athlete_id": "CAT-3742986",
       "performance": "15.58",
-      "discipline": "110m vallas (0,914) Hombres AL",
-      "wind": "+1.0"
+      "discipline": "110 metres tanques (0.91)",
+      "raw_discipline_name": "110m vallas (0,914) Hombres AL",
+      "wind": "+1.0",
+      "internal_id": 999
     },
     {
       "athlete_name": "HUGO JULES SAIZ SANTOLARIA",
       "athlete_dob": "31/1/2005",
       "athlete_id": "CAT-3742956",
       "performance": "11.49",
-      "discipline": "100m Hombres",
-      "wind": "+1.1"
+      "discipline": "100 metres llisos",
+      "raw_discipline_name": "100m Hombres",
+      "wind": "+1.1",
+      "internal_id": 808
     },
     {
       "athlete_name": "HUGO JULES SAIZ SANTOLARIA",
       "athlete_dob": "31/1/2005",
       "athlete_id": "CAT-3742956",
       "performance": "11.54",
-      "discipline": "100m Hombres",
-      "wind": "+3.2"
+      "discipline": "100 metres llisos",
+      "raw_discipline_name": "100m Hombres",
+      "wind": "+3.2",
+      "internal_id": 808
     },
     {
       "athlete_name": "HUGO JULES SAIZ SANTOLARIA",
       "athlete_dob": "31/1/2005",
       "athlete_id": "CAT-3742956",
       "performance": "23.52",
-      "discipline": "200m Hombres",
-      "wind": "+1.2"
+      "discipline": "200 metres llisos",
+      "raw_discipline_name": "200m Hombres",
+      "wind": "+1.2",
+      "internal_id": 808
     }
   ]
 }

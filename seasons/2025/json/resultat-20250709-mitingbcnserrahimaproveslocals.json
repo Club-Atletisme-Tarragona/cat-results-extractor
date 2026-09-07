@@ -10,24 +10,30 @@
       "athlete_dob": "4/12/2004",
       "athlete_id": "CT438",
       "performance": "48.29",
-      "discipline": "400m Masculins",
-      "wind": null
+      "discipline": "400 metres llisos",
+      "raw_discipline_name": "400m Masculins",
+      "wind": null,
+      "internal_id": 733
     },
     {
       "athlete_name": "ALEIX LAGO GARBAJOSA",
       "athlete_dob": "26/9/2002",
       "athlete_id": "CT264",
       "performance": "1:50.78",
-      "discipline": "800m Masculins",
-      "wind": null
+      "discipline": "800 metres llisos",
+      "raw_discipline_name": "800m Masculins",
+      "wind": null,
+      "internal_id": 660
     },
     {
       "athlete_name": "Mat DE HAAS",
       "athlete_dob": "8/10/2000",
       "athlete_id": "CT264",
       "performance": "1:50.78",
-      "discipline": "800m Masculins",
-      "wind": null
+      "discipline": "800 metres llisos",
+      "raw_discipline_name": "800m Masculins",
+      "wind": null,
+      "internal_id": null
     }
   ]
 }

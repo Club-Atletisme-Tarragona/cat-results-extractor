@@ -10,16 +10,20 @@
       "athlete_dob": "1/5/2014",
       "athlete_id": "CL11067",
       "performance": "4.05",
-      "discipline": "Llargada SUB12M",
-      "wind": null
+      "discipline": "Llargada",
+      "raw_discipline_name": "Llargada SUB12M",
+      "wind": null,
+      "internal_id": 1370
     },
     {
       "athlete_name": "ANTONIO BALAZOTE",
       "athlete_dob": "1/5/2014",
       "athlete_id": "CL11067",
       "performance": "3.74",
-      "discipline": "Llargada SUB12M",
-      "wind": null
+      "discipline": "Llargada",
+      "raw_discipline_name": "Llargada SUB12M",
+      "wind": null,
+      "internal_id": 1370
     },
     {
       "athlete_name": "ANTONIO BALAZOTE",
@@ -27,7 +31,9 @@
       "athlete_id": "CL11067",
       "performance": "6.87",
       "discipline": "Pes SUB12M",
-      "wind": null
+      "raw_discipline_name": "Pes SUB12M",
+      "wind": null,
+      "internal_id": 1370
     },
     {
       "athlete_name": "ANTONIO BALAZOTE",
@@ -35,7 +41,9 @@
       "athlete_id": "CL11067",
       "performance": "6.89",
       "discipline": "Pes SUB12M",
-      "wind": null
+      "raw_discipline_name": "Pes SUB12M",
+      "wind": null,
+      "internal_id": 1370
     },
     {
       "athlete_name": "ANTONIO BALAZOTE",
@@ -43,47 +51,59 @@
       "athlete_id": "CL11067",
       "performance": "6.69",
       "discipline": "Pes SUB12M",
-      "wind": null
+      "raw_discipline_name": "Pes SUB12M",
+      "wind": null,
+      "internal_id": 1370
     },
     {
       "athlete_name": "ANTONIO BALAZOTE",
       "athlete_dob": "1/5/2014",
       "athlete_id": "CL11067",
       "performance": "1.24",
-      "discipline": "Alçada SUB12M",
-      "wind": null
+      "discipline": "Alçada",
+      "raw_discipline_name": "Alçada SUB12M",
+      "wind": null,
+      "internal_id": 1370
     },
     {
       "athlete_name": "ANTONIO BALAZOTE",
       "athlete_dob": "1/5/2014",
       "athlete_id": "CL11067",
       "performance": "1027",
-      "discipline": "Tetratló SUB12 Masculina",
-      "wind": null
+      "discipline": "Tetratló",
+      "raw_discipline_name": "Tetratló SUB12 Masculina",
+      "wind": null,
+      "internal_id": 1370
     },
     {
       "athlete_name": "CATT",
       "athlete_dob": "15/4/2014",
       "athlete_id": "CL95647",
       "performance": "601",
-      "discipline": "Tetratló SUB12 Masculina",
-      "wind": null
+      "discipline": "Tetratló",
+      "raw_discipline_name": "Tetratló SUB12 Masculina",
+      "wind": null,
+      "internal_id": null
     },
     {
       "athlete_name": "JULIA DIEZ BERTRAN",
       "athlete_dob": "3/2/2014",
       "athlete_id": "CL95647",
       "performance": "5.08",
-      "discipline": "Peso (2kg)Mujeres AL",
-      "wind": null
+      "discipline": "Pes (2 Kg)",
+      "raw_discipline_name": "Peso (2kg)Mujeres AL",
+      "wind": null,
+      "internal_id": 1430
     },
     {
       "athlete_name": "ANTONIO BALAZOTE",
       "athlete_dob": "1/5/2014",
       "athlete_id": "CL11067",
       "performance": "9.07",
-      "discipline": "10:40   Peso (2kg)Mujeres AL                                                       Combinadas",
-      "wind": null
+      "discipline": "Pes (2 Kg)",
+      "raw_discipline_name": "10:40   Peso (2kg)Mujeres AL                                                       Combinadas",
+      "wind": null,
+      "internal_id": 1370
     }
   ]
 }

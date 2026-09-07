@@ -10,32 +10,40 @@
       "athlete_dob": "24/09/1967",
       "athlete_id": "CL3972",
       "performance": "18.84",
-      "discipline": "3.000m MASC. PC 50-54",
-      "wind": null
+      "discipline": "3000 metres llisos",
+      "raw_discipline_name": "3.000m MASC. PC 50-54",
+      "wind": null,
+      "internal_id": 5
     },
     {
       "athlete_name": "2 353 Ana Cabello Rioja",
       "athlete_dob": "16/11/1968",
       "athlete_id": "CT23242",
       "performance": "9.25",
-      "discipline": "60m FEM. PC 50-54",
-      "wind": null
+      "discipline": "60 metres llisos",
+      "raw_discipline_name": "60m FEM. PC 50-54",
+      "wind": null,
+      "internal_id": 449
     },
     {
       "athlete_name": "7 354 (t) Pilar Fernandez Carranza",
       "athlete_dob": "15/02/1967",
       "athlete_id": "CT22384",
       "performance": "10.18",
-      "discipline": "60m FEM. PC 50-54",
-      "wind": null
+      "discipline": "60 metres llisos",
+      "raw_discipline_name": "60m FEM. PC 50-54",
+      "wind": null,
+      "internal_id": 398
     },
     {
       "athlete_name": "2 354 (t) Pilar Fernandez Carranza",
       "athlete_dob": "15/02/1967",
       "athlete_id": "CT22384",
       "performance": "33.43",
-      "discipline": "200m FEM. PC 50-54",
-      "wind": null
+      "discipline": "200 metres llisos",
+      "raw_discipline_name": "200m FEM. PC 50-54",
+      "wind": null,
+      "internal_id": 398
     }
   ]
 }

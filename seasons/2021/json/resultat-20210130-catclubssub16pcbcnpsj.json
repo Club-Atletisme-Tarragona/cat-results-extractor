@@ -10,16 +10,20 @@
       "athlete_dob": "02/02/2007",
       "athlete_id": "CL90889",
       "performance": "1.40",
-      "discipline": "Alçada FEM. PC",
-      "wind": null
+      "discipline": "Alçada",
+      "raw_discipline_name": "Alçada FEM. PC",
+      "wind": null,
+      "internal_id": null
     },
     {
       "athlete_name": "45 (t) Maria Lezcano Rueda CL82491CF",
       "athlete_dob": "16/01/2006",
       "athlete_id": "CL3359",
       "performance": "16.87",
-      "discipline": "Pes (3kg) FEM. PC",
-      "wind": null
+      "discipline": "Pes (3 Kg)",
+      "raw_discipline_name": "Pes (3kg) FEM. PC",
+      "wind": null,
+      "internal_id": null
     }
   ]
 }

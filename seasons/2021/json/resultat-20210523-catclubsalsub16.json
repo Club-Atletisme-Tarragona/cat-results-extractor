@@ -10,104 +10,130 @@
       "athlete_dob": "28/06/2007",
       "athlete_id": "CL77328",
       "performance": "1.60",
-      "discipline": "Alçada MASC. AL",
-      "wind": null
+      "discipline": "Alçada",
+      "raw_discipline_name": "Alçada MASC. AL",
+      "wind": null,
+      "internal_id": 908
     },
     {
       "athlete_name": "16 25 (t) Joan Magrane Serret",
       "athlete_dob": "06/06/2006",
       "athlete_id": "CL3357",
       "performance": "9.40",
-      "discipline": "Triple Salt MASC. AL",
-      "wind": "+2.2"
+      "discipline": "Triple",
+      "raw_discipline_name": "Triple Salt MASC. AL",
+      "wind": "+2.2",
+      "internal_id": 866
     },
     {
       "athlete_name": "16 25 (t) Joan Magrane Serret",
       "athlete_dob": "06/06/2006",
       "athlete_id": "CL3357",
       "performance": "8.98",
-      "discipline": "Triple Salt MASC. AL",
-      "wind": "+2.8"
+      "discipline": "Triple",
+      "raw_discipline_name": "Triple Salt MASC. AL",
+      "wind": "+2.8",
+      "internal_id": 866
     },
     {
       "athlete_name": "16 25 (t) Joan Magrane Serret",
       "athlete_dob": "06/06/2006",
       "athlete_id": "CL3357",
       "performance": "8.97",
-      "discipline": "Triple Salt MASC. AL",
-      "wind": "+2.1"
+      "discipline": "Triple",
+      "raw_discipline_name": "Triple Salt MASC. AL",
+      "wind": "+2.1",
+      "internal_id": 866
     },
     {
       "athlete_name": "8 25 (e) (t) Khalifa Maljuf",
       "athlete_dob": "30/10/2006",
       "athlete_id": "CL1337",
       "performance": "18.68",
-      "discipline": "Javelina (600g) MASC.",
-      "wind": null
+      "discipline": "Javelina (600 g)",
+      "raw_discipline_name": "Javelina (600g) MASC.",
+      "wind": null,
+      "internal_id": null
     },
     {
       "athlete_name": "8 25 (e) (t) Khalifa Maljuf",
       "athlete_dob": "30/10/2006",
       "athlete_id": "CL1337",
       "performance": "19.06",
-      "discipline": "Javelina (600g) MASC.",
-      "wind": null
+      "discipline": "Javelina (600 g)",
+      "raw_discipline_name": "Javelina (600g) MASC.",
+      "wind": null,
+      "internal_id": null
     },
     {
       "athlete_name": "16 25 (t) Ruth Martinez Rosillo",
       "athlete_dob": "19/01/2007",
       "athlete_id": "CL94396",
       "performance": "3.65",
-      "discipline": "Llargada FEM. AL",
-      "wind": "+1.2"
+      "discipline": "Llargada",
+      "raw_discipline_name": "Llargada FEM. AL",
+      "wind": "+1.2",
+      "internal_id": null
     },
     {
       "athlete_name": "16 25 (t) Ruth Martinez Rosillo",
       "athlete_dob": "19/01/2007",
       "athlete_id": "CL94396",
       "performance": "3.67",
-      "discipline": "Llargada FEM. AL",
-      "wind": "+0.7"
+      "discipline": "Llargada",
+      "raw_discipline_name": "Llargada FEM. AL",
+      "wind": "+0.7",
+      "internal_id": null
     },
     {
       "athlete_name": "16 25 (t) Ruth Martinez Rosillo",
       "athlete_dob": "19/01/2007",
       "athlete_id": "CL94396",
       "performance": "3.71",
-      "discipline": "Llargada FEM. AL",
-      "wind": "+0.4"
+      "discipline": "Llargada",
+      "raw_discipline_name": "Llargada FEM. AL",
+      "wind": "+0.4",
+      "internal_id": null
     },
     {
       "athlete_name": "10 25 (t) Marta Lorenzo Valldosera",
       "athlete_dob": "28/06/2007",
       "athlete_id": "CL90513",
       "performance": "8.82",
-      "discipline": "Triple Salt FEM. AL",
-      "wind": "+0.6"
+      "discipline": "Triple",
+      "raw_discipline_name": "Triple Salt FEM. AL",
+      "wind": "+0.6",
+      "internal_id": null
     },
     {
       "athlete_name": "10 25 (t) Marta Lorenzo Valldosera",
       "athlete_dob": "28/06/2007",
       "athlete_id": "CL90513",
       "performance": "8.55",
-      "discipline": "Triple Salt FEM. AL",
-      "wind": "+0.8"
+      "discipline": "Triple",
+      "raw_discipline_name": "Triple Salt FEM. AL",
+      "wind": "+0.8",
+      "internal_id": null
     },
     {
       "athlete_name": "10 25 (t) Marta Lorenzo Valldosera",
       "athlete_dob": "28/06/2007",
       "athlete_id": "CL90513",
       "performance": "8.67",
-      "discipline": "Triple Salt FEM. AL",
-      "wind": "+1.0"
+      "discipline": "Triple",
+      "raw_discipline_name": "Triple Salt FEM. AL",
+      "wind": "+1.0",
+      "internal_id": null
     },
     {
       "athlete_name": "2 25 Julia Suarez Piza",
       "athlete_dob": "05/11/2006",
       "athlete_id": "CT29377",
       "performance": "13:59.13",
-      "discipline": "3.000m Marxa FEM. en pista",
-      "wind": null
+      "discipline": "3000 metres llisos",
+      "raw_discipline_name": "3.000m Marxa FEM. en pista",
+      "wind": null,
+      "internal_id": 839
     }
   ]
 }

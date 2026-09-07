@@ -10,64 +10,80 @@
       "athlete_dob": "09/10/1999",
       "athlete_id": "CT23992",
       "performance": "19:32",
-      "discipline": "10.000m Marxa MASC. en pista",
-      "wind": "-2.1"
+      "discipline": "10000 metres llisos",
+      "raw_discipline_name": "10.000m Marxa MASC. en pista",
+      "wind": "-2.1",
+      "internal_id": 472
     },
     {
       "athlete_name": "2 473 Andrea Trape Perez PF 6",
       "athlete_dob": "01/04/1999",
       "athlete_id": "CT21473",
       "performance": "1:02.41",
-      "discipline": "10.000m Marxa MASC. en pista",
-      "wind": "-2.1"
+      "discipline": "10000 metres llisos",
+      "raw_discipline_name": "10.000m Marxa MASC. en pista",
+      "wind": "-2.1",
+      "internal_id": 726
     },
     {
       "athlete_name": "4 389 (t) Sira Bo Calaf PF 2",
       "athlete_dob": "19/03/2001",
       "athlete_id": "CL26559",
       "performance": "11:51.93",
-      "discipline": "10.000m Marxa MASC. en pista",
-      "wind": "-2.1"
+      "discipline": "10000 metres llisos",
+      "raw_discipline_name": "10.000m Marxa MASC. en pista",
+      "wind": "-2.1",
+      "internal_id": 599
     },
     {
       "athlete_name": "1 391 Nuria Caballero Pacheco PF",
       "athlete_dob": "09/10/2001",
       "athlete_id": "CT25812",
       "performance": "1.66",
-      "discipline": "Alçada FEM. AL",
-      "wind": null
+      "discipline": "Alçada",
+      "raw_discipline_name": "Alçada FEM. AL",
+      "wind": null,
+      "internal_id": 753
     },
     {
       "athlete_name": "6 406 Joana Antonia Domingo Ingles PF",
       "athlete_dob": "17/01/1999",
       "athlete_id": "CL25668",
       "performance": "29.12",
-      "discipline": "Martell (4kg) FEM.",
-      "wind": null
+      "discipline": "Martell (4 Kg)",
+      "raw_discipline_name": "Martell (4kg) FEM.",
+      "wind": null,
+      "internal_id": null
     },
     {
       "athlete_name": "6 406 Joana Antonia Domingo Ingles PF",
       "athlete_dob": "17/01/1999",
       "athlete_id": "CL25668",
       "performance": "32.07",
-      "discipline": "Martell (4kg) FEM.",
-      "wind": null
+      "discipline": "Martell (4 Kg)",
+      "raw_discipline_name": "Martell (4kg) FEM.",
+      "wind": null,
+      "internal_id": null
     },
     {
       "athlete_name": "6 406 Joana Antonia Domingo Ingles PF",
       "athlete_dob": "17/01/1999",
       "athlete_id": "CL25668",
       "performance": "30.47",
-      "discipline": "Martell (4kg) FEM.",
-      "wind": null
+      "discipline": "Martell (4 Kg)",
+      "raw_discipline_name": "Martell (4kg) FEM.",
+      "wind": null,
+      "internal_id": null
     },
     {
       "athlete_name": "6 406 Joana Antonia Domingo Ingles PF",
       "athlete_dob": "17/01/1999",
       "athlete_id": "CL25668",
       "performance": "30.48",
-      "discipline": "Martell (4kg) FEM.",
-      "wind": null
+      "discipline": "Martell (4 Kg)",
+      "raw_discipline_name": "Martell (4kg) FEM.",
+      "wind": null,
+      "internal_id": null
     }
   ]
 }

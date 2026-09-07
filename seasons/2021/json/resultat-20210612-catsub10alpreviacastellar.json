@@ -10,24 +10,30 @@
       "athlete_dob": "25/03/2012",
       "athlete_id": "CL905",
       "performance": "1.09",
-      "discipline": "Alçada MASC. AL",
-      "wind": null
+      "discipline": "Alçada",
+      "raw_discipline_name": "Alçada MASC. AL",
+      "wind": null,
+      "internal_id": null
     },
     {
       "athlete_name": "7 77 (t) Ada Nini Navas BF 2 q",
       "athlete_dob": "24/10/2012",
       "athlete_id": "CL1495",
       "performance": "3:53.48",
-      "discipline": "1.000m Marxa MASC. en pista",
-      "wind": null
+      "discipline": "1000 metres llisos",
+      "raw_discipline_name": "1.000m Marxa MASC. en pista",
+      "wind": null,
+      "internal_id": 1331
     },
     {
       "athlete_name": "4 76 (t) Lucia Martinez Perales BF",
       "athlete_dob": "04/08/2012",
       "athlete_id": "CL4343",
       "performance": "4:09.17",
-      "discipline": "1.000m Marxa MASC. en pista",
-      "wind": null
+      "discipline": "1000 metres llisos",
+      "raw_discipline_name": "1.000m Marxa MASC. en pista",
+      "wind": null,
+      "internal_id": null
     }
   ]
 }

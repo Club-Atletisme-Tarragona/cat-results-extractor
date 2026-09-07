@@ -10,9 +10,11 @@
       "athlete_dob": "17/04/2021",
       "athlete_id": "CL3657",
       "performance": "47.12",
-      "discipline": "3x600m FEM. AL",
+      "discipline": "3x600",
+      "raw_discipline_name": "3x600m FEM. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210417-catrelleuspromociofinalelprat.pdf"
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210417-catrelleuspromociofinalelprat.pdf",
+      "internal_id": null
     }
   ]
 }

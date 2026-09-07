@@ -10,48 +10,60 @@
       "athlete_dob": "23/10/1998",
       "athlete_id": "CT22783",
       "performance": "6.95",
-      "discipline": "60m MASC. PC",
-      "wind": null
+      "discipline": "60 metres llisos",
+      "raw_discipline_name": "60m MASC. PC",
+      "wind": null,
+      "internal_id": 435
     },
     {
       "athlete_name": "4 95 (t) Xavier Ros Borrell",
       "athlete_dob": "19/05/1998",
       "athlete_id": "CL22779",
       "performance": "04.44",
-      "discipline": "1.500m MASC. PC",
-      "wind": null
+      "discipline": "1500 metres llisos",
+      "raw_discipline_name": "1.500m MASC. PC",
+      "wind": null,
+      "internal_id": 439
     },
     {
       "athlete_name": "5 184 Claudia Mir Casellas JF",
       "athlete_dob": "02/08/2003",
       "athlete_id": "CT152",
       "performance": "9.53",
-      "discipline": "3.000m FEM. PC",
-      "wind": null
+      "discipline": "3000 metres llisos",
+      "raw_discipline_name": "3.000m FEM. PC",
+      "wind": null,
+      "internal_id": 699
     },
     {
       "athlete_name": "4 386 Mireia Lopez Urbano PF 2",
       "athlete_dob": "07/12/2000",
       "athlete_id": "CT23556",
       "performance": "8.98",
-      "discipline": "3.000m FEM. PC",
-      "wind": null
+      "discipline": "3000 metres llisos",
+      "raw_discipline_name": "3.000m FEM. PC",
+      "wind": null,
+      "internal_id": 527
     },
     {
       "athlete_name": "2 371 Nuria Caballero Pacheco PF",
       "athlete_dob": "09/10/2001",
       "athlete_id": "CT25812",
       "performance": "1.65",
-      "discipline": "Alçada FEM. PC",
-      "wind": null
+      "discipline": "Alçada",
+      "raw_discipline_name": "Alçada FEM. PC",
+      "wind": null,
+      "internal_id": 753
     },
     {
       "athlete_name": "8 161 Maria Falco Cuenca JF",
       "athlete_dob": "14/06/2002",
       "athlete_id": "CT27273",
       "performance": "1.50",
-      "discipline": "Alçada FEM. PC",
-      "wind": null
+      "discipline": "Alçada",
+      "raw_discipline_name": "Alçada FEM. PC",
+      "wind": null,
+      "internal_id": 664
     }
   ]
 }

@@ -9,97 +9,121 @@
       "athlete_name": "GARCIA NAVARRETE JOSE FRANCISCO",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "800 METRES LLISOS MASCULINS",
+      "discipline": "800 metres llisos",
+      "raw_discipline_name": "800 METRES LLISOS MASCULINS",
       "performance": "2:25.13",
-      "wind": null
+      "wind": null,
+      "internal_id": 5
     },
     {
       "athlete_name": "BARDINA TOMAS JOAN",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "1500 METRES LLISOS MASCULINS",
+      "discipline": "1500 metres llisos",
+      "raw_discipline_name": "1500 METRES LLISOS MASCULINS",
       "performance": "4:30.58",
-      "wind": null
+      "wind": null,
+      "internal_id": 7
     },
     {
       "athlete_name": "IBORRA MARTINEZ FRANCISCO JOSE",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "110 METRES TANQUES                                                                                     VENT:-3,3",
+      "discipline": "110 metres tanques (0.99)",
+      "raw_discipline_name": "110 METRES TANQUES                                                                                     VENT:-3,3",
       "performance": "17.88",
-      "wind": "-2.6"
+      "wind": "-2.6",
+      "internal_id": 1
     },
     {
       "athlete_name": "FLORES MONTES FERNANDO",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "400 METRES TANQUES",
+      "discipline": "400 metres tanques (0.914)",
+      "raw_discipline_name": "400 METRES TANQUES",
       "performance": "1:05.98",
-      "wind": null
+      "wind": null,
+      "internal_id": 4
     },
     {
       "athlete_name": "GARCIA NAVARRETE JOSE FRANCISCO",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "3000 METRES OBSTACLES MASCULINS",
+      "discipline": "3000 metres obstacles",
+      "raw_discipline_name": "3000 METRES OBSTACLES MASCULINS",
       "performance": "11:31.31",
-      "wind": null
+      "wind": null,
+      "internal_id": 5
     },
     {
       "athlete_name": "LOPEZ VILA ALEJANDRO",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "3000 METRES OBSTACLES MASCULINS",
+      "discipline": "3000 metres obstacles",
+      "raw_discipline_name": "3000 METRES OBSTACLES MASCULINS",
       "performance": "12:14.42",
-      "wind": null
+      "wind": null,
+      "internal_id": null
     },
     {
       "athlete_name": "SAEZ PEREZ LUIS",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "SALT DE LLARGADA MASCULÍ",
+      "discipline": "Llargada",
+      "raw_discipline_name": "SALT DE LLARGADA MASCULÍ",
       "performance": "4.11",
-      "wind": null
+      "wind": null,
+      "internal_id": 304
     },
     {
       "athlete_name": "SAEZ PEREZ LUIS",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "LLANÇAMENT DE JAVELINA",
+      "discipline": "Javelina (700 g)",
+      "raw_discipline_name": "LLANÇAMENT DE JAVELINA",
       "performance": "26.24",
-      "wind": null
+      "wind": null,
+      "internal_id": 304
     },
     {
       "athlete_name": "SAEZ PEREZ LUIS",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "LLANÇAMENT DE JAVELINA",
+      "discipline": "Javelina (700 g)",
+      "raw_discipline_name": "LLANÇAMENT DE JAVELINA",
       "performance": "25.93",
-      "wind": null
+      "wind": null,
+      "internal_id": 304
     },
     {
       "athlete_name": "SAEZ PEREZ LUIS",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "LLANÇAMENT DE JAVELINA",
+      "discipline": "Javelina (700 g)",
+      "raw_discipline_name": "LLANÇAMENT DE JAVELINA",
       "performance": "24.94",
-      "wind": null
+      "wind": null,
+      "internal_id": 304
     },
     {
       "athlete_name": "SAEZ PEREZ LUIS",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "LLANÇAMENT DE JAVELINA",
+      "discipline": "Javelina (700 g)",
+      "raw_discipline_name": "LLANÇAMENT DE JAVELINA",
       "performance": "28.38",
-      "wind": null
+      "wind": null,
+      "internal_id": 304
     },
     {
       "athlete_name": "SAEZ PEREZ LUIS",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "LLANÇAMENT DE JAVELINA",
+      "discipline": "Javelina (700 g)",
+      "raw_discipline_name": "LLANÇAMENT DE JAVELINA",
       "performance": "30.47",
-      "wind": null
+      "wind": null,
+      "internal_id": 304
     }
   ]
 }

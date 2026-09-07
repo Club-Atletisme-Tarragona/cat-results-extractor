@@ -9,17 +9,21 @@
       "athlete_name": "BERNAT ROCAMORA CHAPARRO",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "60 METRES LLISOS MASCULINS",
+      "discipline": "60 metres llisos",
+      "raw_discipline_name": "60 METRES LLISOS MASCULINS",
       "performance": "7.55",
-      "wind": null
+      "wind": null,
+      "internal_id": 217
     },
     {
       "athlete_name": "JOSE F. GARCIA NAVARRETE",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "1500 METRES LLISOS MASCULINS",
+      "discipline": "1500 metres llisos",
+      "raw_discipline_name": "1500 METRES LLISOS MASCULINS",
       "performance": "4:42.52",
-      "wind": null
+      "wind": null,
+      "internal_id": 5
     }
   ]
 }

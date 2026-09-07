@@ -9,17 +9,21 @@
       "athlete_name": "MARC JOSE DIAZ",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "60 METRES LLISOS CADET MASCULINS",
+      "discipline": "60 metres llisos",
+      "raw_discipline_name": "60 METRES LLISOS CADET MASCULINS",
       "performance": "7.37",
-      "wind": null
+      "wind": null,
+      "internal_id": 294
     },
     {
       "athlete_name": "MARC JOSE DIAZ",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "60 METRES TANQUES CADET MASCULINS",
+      "discipline": "60 metres tanques (0.91)",
+      "raw_discipline_name": "60 METRES TANQUES CADET MASCULINS",
       "performance": "8.31",
-      "wind": null
+      "wind": null,
+      "internal_id": 294
     }
   ]
 }

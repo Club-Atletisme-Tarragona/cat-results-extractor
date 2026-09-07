@@ -9,33 +9,41 @@
       "athlete_name": "ROCAMORA CHAPARRO BERNAT",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "200 METRES LLISOS MASCULINS",
+      "discipline": "200 metres llisos",
+      "raw_discipline_name": "200 METRES LLISOS MASCULINS",
       "performance": "23.95",
-      "wind": "-2.1"
+      "wind": "-2.1",
+      "internal_id": 217
     },
     {
       "athlete_name": "VERGARA MAGRAZO QUINO",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "800 METRES LLISOS MASCULINS",
+      "discipline": "800 metres llisos",
+      "raw_discipline_name": "800 METRES LLISOS MASCULINS",
       "performance": "1:56.85",
-      "wind": null
+      "wind": null,
+      "internal_id": 275
     },
     {
       "athlete_name": "ORIOL PAISANO AGUSTI",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "110 METRES TANQUES MASCULINS",
+      "discipline": "110 metres tanques (0.99)",
+      "raw_discipline_name": "110 METRES TANQUES MASCULINS",
       "performance": "17.54",
-      "wind": null
+      "wind": null,
+      "internal_id": 216
     },
     {
       "athlete_name": "ORIOL PAISANO AGUSTI",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "SALT DE LLARGADA MASCULÍ",
+      "discipline": "Llargada",
+      "raw_discipline_name": "SALT DE LLARGADA MASCULÍ",
       "performance": "5.66",
-      "wind": null
+      "wind": null,
+      "internal_id": 216
     }
   ]
 }

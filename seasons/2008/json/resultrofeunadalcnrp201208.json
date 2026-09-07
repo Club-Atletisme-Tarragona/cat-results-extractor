@@ -6,13 +6,17 @@
   "results": [
     {
       "athlete_name": "IBORRA ALMEIDA INGRID AF",
-      "discipline": "60 METRES LLISOS",
-      "performance": "10.78"
+      "discipline": "60 metres llisos",
+      "raw_discipline_name": "60 METRES LLISOS",
+      "performance": "10.78",
+      "internal_id": null
     },
     {
       "athlete_name": "LOPEZ URBANO ANDREA AF",
-      "discipline": "60 METRES LLISOS",
-      "performance": "11.23"
+      "discipline": "60 metres llisos",
+      "raw_discipline_name": "60 METRES LLISOS",
+      "performance": "11.23",
+      "internal_id": 437
     }
   ]
 }

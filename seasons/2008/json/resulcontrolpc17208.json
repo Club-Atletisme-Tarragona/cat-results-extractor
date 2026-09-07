@@ -9,17 +9,21 @@
       "athlete_name": "DIDAC RIOS MESEGUER",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "400 METRES LLISOS MASCULINS",
+      "discipline": "400 metres llisos",
+      "raw_discipline_name": "400 METRES LLISOS MASCULINS",
       "performance": "54.47",
-      "wind": null
+      "wind": null,
+      "internal_id": 193
     },
     {
       "athlete_name": "DIDAC RIOS MESEGUER",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "60 METRES TANQUES MASCULINS",
+      "discipline": "60 metres tanques (1.067)",
+      "raw_discipline_name": "60 METRES TANQUES MASCULINS",
       "performance": "9.54",
-      "wind": null
+      "wind": null,
+      "internal_id": 193
     }
   ]
 }

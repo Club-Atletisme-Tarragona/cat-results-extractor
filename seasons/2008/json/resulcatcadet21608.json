@@ -9,49 +9,61 @@
       "athlete_name": "XAVIER JULBE OLLOQUI",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "3000 METRES LLISOS",
+      "discipline": "3000 metres llisos",
+      "raw_discipline_name": "3000 METRES LLISOS",
       "performance": "11:05.49",
-      "wind": null
+      "wind": null,
+      "internal_id": 297
     },
     {
       "athlete_name": "MARC JOSE DIAZ",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "100 METRES TANQUES",
+      "discipline": "100 metres tanques (0.91)",
+      "raw_discipline_name": "100 METRES TANQUES",
       "performance": "15.21",
-      "wind": "-3.6"
+      "wind": "-3.6",
+      "internal_id": 294
     },
     {
       "athlete_name": "BLANCA TORTAJADA PINTO",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "LLANÇAMENT DE MARTELL",
+      "discipline": "Martell (3 Kg)",
+      "raw_discipline_name": "LLANÇAMENT DE MARTELL",
       "performance": "22.19",
-      "wind": null
+      "wind": null,
+      "internal_id": 310
     },
     {
       "athlete_name": "BLANCA TORTAJADA PINTO",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "LLANÇAMENT DE MARTELL",
+      "discipline": "Martell (3 Kg)",
+      "raw_discipline_name": "LLANÇAMENT DE MARTELL",
       "performance": "23.16",
-      "wind": null
+      "wind": null,
+      "internal_id": 310
     },
     {
       "athlete_name": "BLANCA TORTAJADA PINTO",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "LLANÇAMENT DE MARTELL",
+      "discipline": "Martell (3 Kg)",
+      "raw_discipline_name": "LLANÇAMENT DE MARTELL",
       "performance": "26.41",
-      "wind": null
+      "wind": null,
+      "internal_id": 310
     },
     {
       "athlete_name": "BLANCA TORTAJADA PINTO",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "LLANÇAMENT DE MARTELL",
+      "discipline": "Martell (3 Kg)",
+      "raw_discipline_name": "LLANÇAMENT DE MARTELL",
       "performance": "25.37",
-      "wind": null
+      "wind": null,
+      "internal_id": 310
     }
   ]
 }

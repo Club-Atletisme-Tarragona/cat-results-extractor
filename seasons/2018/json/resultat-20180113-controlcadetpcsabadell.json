@@ -10,16 +10,20 @@
       "athlete_dob": "18/08/2004",
       "athlete_id": "CL82676",
       "performance": "47.95",
-      "discipline": "300m FEM. PC",
-      "wind": null
+      "discipline": "300 metres llisos",
+      "raw_discipline_name": "300m FEM. PC",
+      "wind": null,
+      "internal_id": 743
     },
     {
       "athlete_name": "5 75 (t) Pol Aixala Guiu",
       "athlete_dob": "04/12/2004",
       "athlete_id": "CL69309",
       "performance": "11.90",
-      "discipline": "3.000m FEM. PC",
-      "wind": null
+      "discipline": "3000 metres llisos",
+      "raw_discipline_name": "3.000m FEM. PC",
+      "wind": null,
+      "internal_id": 733
     }
   ]
 }

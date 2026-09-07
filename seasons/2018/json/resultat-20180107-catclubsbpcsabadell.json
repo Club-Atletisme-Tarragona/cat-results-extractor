@@ -10,32 +10,40 @@
       "athlete_dob": "09/10/1999",
       "athlete_id": "CT23992",
       "performance": "4.92",
-      "discipline": "Llargada FEM. PC",
-      "wind": null
+      "discipline": "Llargada",
+      "raw_discipline_name": "Llargada FEM. PC",
+      "wind": null,
+      "internal_id": 472
     },
     {
       "athlete_name": "5 21 Alicia Vazquez Domingo JF",
       "athlete_dob": "09/10/1999",
       "athlete_id": "CT23992",
       "performance": "5.10",
-      "discipline": "Llargada FEM. PC",
-      "wind": null
+      "discipline": "Llargada",
+      "raw_discipline_name": "Llargada FEM. PC",
+      "wind": null,
+      "internal_id": 472
     },
     {
       "athlete_name": "2 21 (t) Marina Tibau Sendra SF",
       "athlete_dob": "06/08/1995",
       "athlete_id": "CL20392",
       "performance": "10.22",
-      "discipline": "Pes (4kg) FEM. PC",
-      "wind": null
+      "discipline": "Pes (4 Kg)",
+      "raw_discipline_name": "Pes (4kg) FEM. PC",
+      "wind": null,
+      "internal_id": 359
     },
     {
       "athlete_name": "2 21 (t) Marina Tibau Sendra SF",
       "athlete_dob": "06/08/1995",
       "athlete_id": "CL20392",
       "performance": "10.24",
-      "discipline": "Pes (4kg) FEM. PC",
-      "wind": null
+      "discipline": "Pes (4 Kg)",
+      "raw_discipline_name": "Pes (4kg) FEM. PC",
+      "wind": null,
+      "internal_id": 359
     }
   ]
 }

@@ -10,16 +10,20 @@
       "athlete_dob": "28/08/1997",
       "athlete_id": "CL22880",
       "performance": "24.79",
-      "discipline": "200m MASC. PC",
-      "wind": null
+      "discipline": "200 metres llisos",
+      "raw_discipline_name": "200m MASC. PC",
+      "wind": null,
+      "internal_id": 444
     },
     {
       "athlete_name": "Maria Martin Borras LF",
       "athlete_dob": "31/03/1999",
       "athlete_id": "CT23429",
       "performance": "28.42",
-      "discipline": "200m FEM. PC",
-      "wind": null
+      "discipline": "200 metres llisos",
+      "raw_discipline_name": "200m FEM. PC",
+      "wind": null,
+      "internal_id": 474
     }
   ]
 }

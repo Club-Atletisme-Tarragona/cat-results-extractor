@@ -9,17 +9,21 @@
       "athlete_name": "ROS BORRELL MARTA",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "TRIPLE SALT INFANTIL FEMENÍ",
+      "discipline": "Triple",
+      "raw_discipline_name": "TRIPLE SALT INFANTIL FEMENÍ",
       "performance": "8.64",
-      "wind": null
+      "wind": null,
+      "internal_id": 1052
     },
     {
       "athlete_name": "PAREDES LARIO RUBEN",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "SALT DE LLARGADA ALEVÍ MASCULÍ",
+      "discipline": "Llargada",
+      "raw_discipline_name": "SALT DE LLARGADA ALEVÍ MASCULÍ",
       "performance": "3.43",
-      "wind": null
+      "wind": null,
+      "internal_id": null
     }
   ]
 }

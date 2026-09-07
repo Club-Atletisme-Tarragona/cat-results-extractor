@@ -10,16 +10,20 @@
       "athlete_dob": "12/02/1985",
       "athlete_id": "CL18579",
       "performance": "36.25",
-      "discipline": "Disc Júnior (1,750kg) MASC.",
-      "wind": null
+      "discipline": "Disc (1,750)",
+      "raw_discipline_name": "Disc Júnior (1,750kg) MASC.",
+      "wind": null,
+      "internal_id": 319
     },
     {
       "athlete_name": "Mariona Martin Gonzalez SF",
       "athlete_dob": "12/02/1985",
       "athlete_id": "CL18579",
       "performance": "32.71",
-      "discipline": "Disc Júnior (1,750kg) MASC.",
-      "wind": null
+      "discipline": "Disc (1,750)",
+      "raw_discipline_name": "Disc Júnior (1,750kg) MASC.",
+      "wind": null,
+      "internal_id": 319
     }
   ]
 }

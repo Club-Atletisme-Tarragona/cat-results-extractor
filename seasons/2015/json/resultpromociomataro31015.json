@@ -9,17 +9,21 @@
       "athlete_name": "PAREDES LARIO RUBEN",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "SALT D'ALÇADA ALEVÍ MASCULÍ",
+      "discipline": "Alçada",
+      "raw_discipline_name": "SALT D'ALÇADA ALEVÍ MASCULÍ",
       "performance": "1.20",
-      "wind": null
+      "wind": null,
+      "internal_id": null
     },
     {
       "athlete_name": "PAREDES LARIO RUBEN",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "LLANÇAMENT DE PILOTA ALEVÍ MASCULÍ",
+      "discipline": "Pilota",
+      "raw_discipline_name": "LLANÇAMENT DE PILOTA ALEVÍ MASCULÍ",
       "performance": "24.50",
-      "wind": null
+      "wind": null,
+      "internal_id": null
     }
   ]
 }

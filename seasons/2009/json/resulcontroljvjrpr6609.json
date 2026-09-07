@@ -9,25 +9,31 @@
       "athlete_name": "ROCAMORA CHAPARRO BERNAT",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "200 METRES LLISOS MASCULINS",
+      "discipline": "200 metres llisos",
+      "raw_discipline_name": "200 METRES LLISOS MASCULINS",
       "performance": "23.06",
-      "wind": "+0.0"
+      "wind": "+0.0",
+      "internal_id": 217
     },
     {
       "athlete_name": "JOSE DIAZ MARC",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "110 METRES TANQUES JUVENILS MASCULINS",
+      "discipline": "110 metres tanques (0.91)",
+      "raw_discipline_name": "110 METRES TANQUES JUVENILS MASCULINS",
       "performance": "14.56",
-      "wind": "+0.8"
+      "wind": "+0.8",
+      "internal_id": 294
     },
     {
       "athlete_name": "RIOS MESEGUER DIDAC",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "SALT D'ALÇADA MASCULÍ",
+      "discipline": "Alçada",
+      "raw_discipline_name": "SALT D'ALÇADA MASCULÍ",
       "performance": "1.69",
-      "wind": null
+      "wind": null,
+      "internal_id": 193
     }
   ]
 }

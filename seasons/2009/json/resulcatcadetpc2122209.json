@@ -9,25 +9,31 @@
       "athlete_name": "TORREDEME PASCUAL NURIA",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "60 METRES LLISOS CADET FEMENINS",
+      "discipline": "60 metres llisos",
+      "raw_discipline_name": "60 METRES LLISOS CADET FEMENINS",
       "performance": "8.73",
-      "wind": null
+      "wind": null,
+      "internal_id": 314
     },
     {
       "athlete_name": "TORREDEME PASCUAL NURIA",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "60 METRES TANQUES CADET FEMENINS",
+      "discipline": "60 metres tanques (0.76)",
+      "raw_discipline_name": "60 METRES TANQUES CADET FEMENINS",
       "performance": "10.85",
-      "wind": null
+      "wind": null,
+      "internal_id": 314
     },
     {
       "athlete_name": "GUINOVART PEDESCOLL MONTSERRAT",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "SALT DE LLARGADA CADET FEMENÍ",
+      "discipline": "Llargada",
+      "raw_discipline_name": "SALT DE LLARGADA CADET FEMENÍ",
       "performance": "4.14",
-      "wind": null
+      "wind": null,
+      "internal_id": 313
     }
   ]
 }

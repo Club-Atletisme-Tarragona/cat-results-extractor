@@ -9,17 +9,21 @@
       "athlete_name": "JOSE DIAZ MARC",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "200 METRES LLISOS JUNIOR-JUVENIL MASCULINS",
+      "discipline": "200 metres llisos",
+      "raw_discipline_name": "200 METRES LLISOS JUNIOR-JUVENIL MASCULINS",
       "performance": "23.83",
-      "wind": null
+      "wind": null,
+      "internal_id": 294
     },
     {
       "athlete_name": "JOSE DIAZ MARC",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "60 METRES TANQUES JUNIOR MASCULÍ",
+      "discipline": "60 metres tanques (0.99)",
+      "raw_discipline_name": "60 METRES TANQUES JUNIOR MASCULÍ",
       "performance": "8.33",
-      "wind": null
+      "wind": null,
+      "internal_id": 294
     }
   ]
 }

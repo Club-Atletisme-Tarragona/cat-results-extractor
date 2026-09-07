@@ -10,8 +10,10 @@
       "athlete_dob": "30/01/1965",
       "athlete_id": "CT9121",
       "performance": "1.53",
-      "discipline": "Alçada MASC.",
-      "wind": null
+      "discipline": "Alçada",
+      "raw_discipline_name": "Alçada MASC.",
+      "wind": null,
+      "internal_id": 71
     }
   ]
 }

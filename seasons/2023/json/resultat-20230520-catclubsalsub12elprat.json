@@ -10,72 +10,90 @@
       "athlete_dob": "02/06/2012",
       "athlete_id": "CL96310",
       "performance": "1.35",
-      "discipline": "Perxa MASC. AL",
-      "wind": null
+      "discipline": "Perxa",
+      "raw_discipline_name": "Perxa MASC. AL",
+      "wind": null,
+      "internal_id": 1362
     },
     {
       "athlete_name": "4 43 (t) Hernan Ferran Jimenez",
       "athlete_dob": "28/09/2012",
       "athlete_id": "CL1093",
       "performance": "16.86",
-      "discipline": "Disc (600g) MASC. AL",
-      "wind": null
+      "discipline": "Disc (600 g)",
+      "raw_discipline_name": "Disc (600g) MASC. AL",
+      "wind": null,
+      "internal_id": 1327
     },
     {
       "athlete_name": "6 43 (t) Eric Grau Pinent",
       "athlete_dob": "11/07/2012",
       "athlete_id": "CL4398",
       "performance": "13.50",
-      "discipline": "Javelina (300g) MASC",
-      "wind": null
+      "discipline": "Javelina (300 g)",
+      "raw_discipline_name": "Javelina (300g) MASC",
+      "wind": null,
+      "internal_id": 1345
     },
     {
       "athlete_name": "13 69 (t) Berta Barber Gonzalez 3.5",
       "athlete_dob": "22/01/2013",
       "athlete_id": "CL7610",
       "performance": "1.08",
-      "discipline": "Alçada FEM. AL",
-      "wind": null
+      "discipline": "Alçada",
+      "raw_discipline_name": "Alçada FEM. AL",
+      "wind": null,
+      "internal_id": 1359
     },
     {
       "athlete_name": "10 69 (t) Julia Amoros Muñoz",
       "athlete_dob": "21/05/2012",
       "athlete_id": "CL11143",
       "performance": "1.40",
-      "discipline": "Perxa FEM. AL",
-      "wind": null
+      "discipline": "Perxa",
+      "raw_discipline_name": "Perxa FEM. AL",
+      "wind": null,
+      "internal_id": null
     },
     {
       "athlete_name": "8 69 (t) Lucia Martinez Perales",
       "athlete_dob": "04/08/2012",
       "athlete_id": "CL4343",
       "performance": "8.78",
-      "discipline": "Javelina (300g) FEM",
-      "wind": null
+      "discipline": "Javelina (300 g)",
+      "raw_discipline_name": "Javelina (300g) FEM",
+      "wind": null,
+      "internal_id": null
     },
     {
       "athlete_name": "8 69 (t) Lucia Martinez Perales",
       "athlete_dob": "04/08/2012",
       "athlete_id": "CL4343",
       "performance": "10.67",
-      "discipline": "Javelina (300g) FEM",
-      "wind": null
+      "discipline": "Javelina (300 g)",
+      "raw_discipline_name": "Javelina (300g) FEM",
+      "wind": null,
+      "internal_id": null
     },
     {
       "athlete_name": "8 69 (t) Lucia Martinez Perales",
       "athlete_dob": "04/08/2012",
       "athlete_id": "CL4343",
       "performance": "12.52",
-      "discipline": "Javelina (300g) FEM",
-      "wind": null
+      "discipline": "Javelina (300 g)",
+      "raw_discipline_name": "Javelina (300g) FEM",
+      "wind": null,
+      "internal_id": null
     },
     {
       "athlete_name": "10 69 (t) Agustina Ramos Russo",
       "athlete_dob": "06/01/2012",
       "athlete_id": "CL1088",
       "performance": "14:55.36",
-      "discipline": "2.000m Marxa FEM. en pista",
-      "wind": null
+      "discipline": "2000 metres llisos",
+      "raw_discipline_name": "2.000m Marxa FEM. en pista",
+      "wind": null,
+      "internal_id": 1340
     }
   ]
 }

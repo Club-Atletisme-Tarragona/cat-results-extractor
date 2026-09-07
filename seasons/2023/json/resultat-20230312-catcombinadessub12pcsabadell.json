@@ -10,8 +10,10 @@
       "athlete_dob": "28/09/2012",
       "athlete_id": "CL1093",
       "performance": "9.53",
-      "discipline": "60m MASC. PC",
-      "wind": null
+      "discipline": "60 metres llisos",
+      "raw_discipline_name": "60m MASC. PC",
+      "wind": null,
+      "internal_id": 1327
     },
     {
       "athlete_name": "10 76 (t) Maria Martin",
@@ -19,7 +21,9 @@
       "athlete_id": "CL1089",
       "performance": "9.28",
       "discipline": "Pto    Dor Nombre                       F de Nac    60m Llargada Pes      Marca",
-      "wind": null
+      "raw_discipline_name": "Pto    Dor Nombre                       F de Nac    60m Llargada Pes      Marca",
+      "wind": null,
+      "internal_id": 1330
     },
     {
       "athlete_name": "10 76 (t) Maria Martin",
@@ -27,7 +31,9 @@
       "athlete_id": "CL1089",
       "performance": "3.42",
       "discipline": "Pto    Dor Nombre                       F de Nac    60m Llargada Pes      Marca",
-      "wind": null
+      "raw_discipline_name": "Pto    Dor Nombre                       F de Nac    60m Llargada Pes      Marca",
+      "wind": null,
+      "internal_id": 1330
     },
     {
       "athlete_name": "10 76 (t) Maria Martin",
@@ -35,7 +41,9 @@
       "athlete_id": "CL1089",
       "performance": "4.92",
       "discipline": "Pto    Dor Nombre                       F de Nac    60m Llargada Pes      Marca",
-      "wind": null
+      "raw_discipline_name": "Pto    Dor Nombre                       F de Nac    60m Llargada Pes      Marca",
+      "wind": null,
+      "internal_id": 1330
     }
   ]
 }

@@ -10,88 +10,110 @@
       "athlete_dob": "04/01/2009",
       "athlete_id": "CL86460",
       "performance": "1.51",
-      "discipline": "Alçada MASC. AL",
-      "wind": null
+      "discipline": "Alçada",
+      "raw_discipline_name": "Alçada MASC. AL",
+      "wind": null,
+      "internal_id": 1036
     },
     {
       "athlete_name": "11 59 (t) Jeroni Flores Piñas 5.5",
       "athlete_dob": "04/01/2009",
       "athlete_id": "CL86460",
       "performance": "2.10",
-      "discipline": "Perxa MASC. AL",
-      "wind": null
+      "discipline": "Perxa",
+      "raw_discipline_name": "Perxa MASC. AL",
+      "wind": null,
+      "internal_id": 1036
     },
     {
       "athlete_name": "8 59 (t) Bernat Bardina Artigau",
       "athlete_dob": "12/04/2008",
       "athlete_id": "CL82974",
       "performance": "8.20",
-      "discipline": "Pes (4kg) MASC. AL",
-      "wind": null
+      "discipline": "Pes (4 Kg)",
+      "raw_discipline_name": "Pes (4kg) MASC. AL",
+      "wind": null,
+      "internal_id": 963
     },
     {
       "athlete_name": "8 59 (t) Bernat Bardina Artigau",
       "athlete_dob": "12/04/2008",
       "athlete_id": "CL82974",
       "performance": "7.82",
-      "discipline": "Pes (4kg) MASC. AL",
-      "wind": null
+      "discipline": "Pes (4 Kg)",
+      "raw_discipline_name": "Pes (4kg) MASC. AL",
+      "wind": null,
+      "internal_id": 963
     },
     {
       "athlete_name": "2 59 Pau Crespo Beltran",
       "athlete_dob": "22/10/2008",
       "athlete_id": "CT1650",
       "performance": "31.02",
-      "discipline": "Martell (4kg) MASC.",
-      "wind": null
+      "discipline": "Martell (4 Kg)",
+      "raw_discipline_name": "Martell (4kg) MASC.",
+      "wind": null,
+      "internal_id": 971
     },
     {
       "athlete_name": "14 62 (t) Noemi Gonzalez Carrillo",
       "athlete_dob": "04/04/2009",
       "athlete_id": "CL86462",
       "performance": "1.80",
-      "discipline": "Perxa FEM. AL",
-      "wind": null
+      "discipline": "Perxa",
+      "raw_discipline_name": "Perxa FEM. AL",
+      "wind": null,
+      "internal_id": 1030
     },
     {
       "athlete_name": "15 62 (t) Cristina Revilla De Castro",
       "athlete_dob": "28/01/2008",
       "athlete_id": "CL96895",
       "performance": "8.69",
-      "discipline": "Triple Salt FEM. AL",
-      "wind": "+1.0"
+      "discipline": "Triple",
+      "raw_discipline_name": "Triple Salt FEM. AL",
+      "wind": "+1.0",
+      "internal_id": 1070
     },
     {
       "athlete_name": "15 62 (t) Cristina Revilla De Castro",
       "athlete_dob": "28/01/2008",
       "athlete_id": "CL96895",
       "performance": "8.46",
-      "discipline": "Triple Salt FEM. AL",
-      "wind": "+0.0"
+      "discipline": "Triple",
+      "raw_discipline_name": "Triple Salt FEM. AL",
+      "wind": "+0.0",
+      "internal_id": 1070
     },
     {
       "athlete_name": "15 62 (t) Cristina Revilla De Castro",
       "athlete_dob": "28/01/2008",
       "athlete_id": "CL96895",
       "performance": "8.80",
-      "discipline": "Triple Salt FEM. AL",
-      "wind": "+1.5"
+      "discipline": "Triple",
+      "raw_discipline_name": "Triple Salt FEM. AL",
+      "wind": "+1.5",
+      "internal_id": 1070
     },
     {
       "athlete_name": "15 62 (t) Laia Cabrero Perez",
       "athlete_dob": "10/10/2008",
       "athlete_id": "CL94529",
       "performance": "12.19",
-      "discipline": "Martell (3kg) FEM.",
-      "wind": null
+      "discipline": "Martell (3 Kg)",
+      "raw_discipline_name": "Martell (3kg) FEM.",
+      "wind": null,
+      "internal_id": 954
     },
     {
       "athlete_name": "15 62 (t) Laia Cabrero Perez",
       "athlete_dob": "10/10/2008",
       "athlete_id": "CL94529",
       "performance": "9.19",
-      "discipline": "Martell (3kg) FEM.",
-      "wind": null
+      "discipline": "Martell (3 Kg)",
+      "raw_discipline_name": "Martell (3kg) FEM.",
+      "wind": null,
+      "internal_id": 954
     }
   ]
 }

@@ -10,32 +10,40 @@
       "athlete_dob": "23/07/1969",
       "athlete_id": "CT2055",
       "performance": "30.49",
-      "discipline": "200m MASC. PC 50-54",
-      "wind": null
+      "discipline": "200 metres llisos",
+      "raw_discipline_name": "200m MASC. PC 50-54",
+      "wind": null,
+      "internal_id": 505
     },
     {
       "athlete_name": "4 83 (t) Valentin Izaga Lopez",
       "athlete_dob": "09/11/1972",
       "athlete_id": "CL8922",
       "performance": "17.73",
-      "discipline": "800m MASC. PC 50-54",
-      "wind": null
+      "discipline": "800 metres llisos",
+      "raw_discipline_name": "800m MASC. PC 50-54",
+      "wind": null,
+      "internal_id": 700
     },
     {
       "athlete_name": "9 80 (t) Jose Francisco Garcia Navarrete",
       "athlete_dob": "24/09/1967",
       "athlete_id": "CL3972",
       "performance": "13.31",
-      "discipline": "1.500m MASC. PC 55-59",
-      "wind": null
+      "discipline": "1500 metres llisos",
+      "raw_discipline_name": "1.500m MASC. PC 55-59",
+      "wind": null,
+      "internal_id": 5
     },
     {
       "athlete_name": "2 77 (t) Francisco Javier Baz Vidal",
       "athlete_dob": "02/12/1969",
       "athlete_id": "CL8459",
       "performance": "11.40",
-      "discipline": "3.000m MASC. PC 70-74",
-      "wind": null
+      "discipline": "3000 metres llisos",
+      "raw_discipline_name": "3.000m MASC. PC 70-74",
+      "wind": null,
+      "internal_id": null
     }
   ]
 }

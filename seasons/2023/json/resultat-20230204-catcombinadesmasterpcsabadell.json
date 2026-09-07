@@ -10,8 +10,10 @@
       "athlete_dob": "31/01/1973",
       "athlete_id": "CT25152",
       "performance": "1.51",
-      "discipline": "Alçada MASC. M50",
-      "wind": null
+      "discipline": "Alçada",
+      "raw_discipline_name": "Alçada MASC. M50",
+      "wind": null,
+      "internal_id": 518
     },
     {
       "athlete_name": "3 198 Juan Carlos Herrera",
@@ -19,7 +21,9 @@
       "athlete_id": "CT25152",
       "performance": "10.14",
       "discipline": "Pto       Dor Nombre                       F de Nac 60 mt Llarg. Pes   Alç. 1000m Marca",
-      "wind": null
+      "raw_discipline_name": "Pto       Dor Nombre                       F de Nac 60 mt Llarg. Pes   Alç. 1000m Marca",
+      "wind": null,
+      "internal_id": 518
     },
     {
       "athlete_name": "3 198 Juan Carlos Herrera",
@@ -27,7 +31,9 @@
       "athlete_id": "CT25152",
       "performance": "4.44",
       "discipline": "Pto       Dor Nombre                       F de Nac 60 mt Llarg. Pes   Alç. 1000m Marca",
-      "wind": null
+      "raw_discipline_name": "Pto       Dor Nombre                       F de Nac 60 mt Llarg. Pes   Alç. 1000m Marca",
+      "wind": null,
+      "internal_id": 518
     },
     {
       "athlete_name": "3 198 Juan Carlos Herrera",
@@ -35,7 +41,9 @@
       "athlete_id": "CT25152",
       "performance": "9.55",
       "discipline": "Pto       Dor Nombre                       F de Nac 60 mt Llarg. Pes   Alç. 1000m Marca",
-      "wind": null
+      "raw_discipline_name": "Pto       Dor Nombre                       F de Nac 60 mt Llarg. Pes   Alç. 1000m Marca",
+      "wind": null,
+      "internal_id": 518
     },
     {
       "athlete_name": "1 344 Pere Pardines Gras 5",
@@ -43,7 +51,9 @@
       "athlete_id": "CT9121",
       "performance": "11.23",
       "discipline": "Pto       Dor Nombre                       F de Nac 60 mt Llarg. Pes   Alç. 1000m Marca",
-      "wind": null
+      "raw_discipline_name": "Pto       Dor Nombre                       F de Nac 60 mt Llarg. Pes   Alç. 1000m Marca",
+      "wind": null,
+      "internal_id": 71
     },
     {
       "athlete_name": "4 244 Josep Maria Mateo Sanz 4",
@@ -51,7 +61,9 @@
       "athlete_id": "CT19378",
       "performance": "11.96",
       "discipline": "Pto       Dor Nombre                       F de Nac 60 mt Llarg. Pes   Alç. 1000m Marca",
-      "wind": null
+      "raw_discipline_name": "Pto       Dor Nombre                       F de Nac 60 mt Llarg. Pes   Alç. 1000m Marca",
+      "wind": null,
+      "internal_id": 343
     }
   ]
 }

@@ -9,33 +9,41 @@
       "athlete_name": "JOSE DIAZ MARC",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "60 METRES LLISOS MASCULINS",
+      "discipline": "60 metres llisos",
+      "raw_discipline_name": "60 METRES LLISOS MASCULINS",
       "performance": "7.36",
-      "wind": null
+      "wind": null,
+      "internal_id": 294
     },
     {
       "athlete_name": "RIOS MESEGUER DIDAC",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "400 METRES LLISOS MASCULINS",
+      "discipline": "400 metres llisos",
+      "raw_discipline_name": "400 METRES LLISOS MASCULINS",
       "performance": "54.60",
-      "wind": null
+      "wind": null,
+      "internal_id": 193
     },
     {
       "athlete_name": "RIOS MESEGUER DIDAC",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "60 METRES TANQUES MASCULINS",
+      "discipline": "60 metres tanques (1.067)",
+      "raw_discipline_name": "60 METRES TANQUES MASCULINS",
       "performance": "10.65",
-      "wind": null
+      "wind": null,
+      "internal_id": 193
     },
     {
       "athlete_name": "JOSE DIAZ MARC",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "60 METRES TANQUES JUVENILS MASCULINS",
+      "discipline": "60 metres tanques (0.91)",
+      "raw_discipline_name": "60 METRES TANQUES JUVENILS MASCULINS",
       "performance": "8.02",
-      "wind": null
+      "wind": null,
+      "internal_id": 294
     }
   ]
 }

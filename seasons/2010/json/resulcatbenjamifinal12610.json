@@ -9,57 +9,71 @@
       "athlete_name": "GONZALEZ GARCIA JUAN",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "1000 METRES MARXA BENJAMÍ MASCULÍ",
+      "discipline": "1000 metres marxa",
+      "raw_discipline_name": "1000 METRES MARXA BENJAMÍ MASCULÍ",
       "performance": "6:05.02",
-      "wind": null
+      "wind": null,
+      "internal_id": 1079
     },
     {
       "athlete_name": "MASCARELL JULIAN LAURA",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "1000 METRES MARXA BENJAMÍ FEMENÍ",
+      "discipline": "1000 metres marxa",
+      "raw_discipline_name": "1000 METRES MARXA BENJAMÍ FEMENÍ",
       "performance": "6:03.81",
-      "wind": null
+      "wind": null,
+      "internal_id": 646
     },
     {
       "athlete_name": "VAZQUEZ DOMINGO MAR",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "1000 METRES MARXA BENJAMÍ FEMENÍ",
+      "discipline": "1000 metres marxa",
+      "raw_discipline_name": "1000 METRES MARXA BENJAMÍ FEMENÍ",
       "performance": "6:11.56",
-      "wind": null
+      "wind": null,
+      "internal_id": 642
     },
     {
       "athlete_name": "MONTAÑES ARBO MONTSE",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "SALT D'ALÇADA BENJAMÍ FEMENÍ",
+      "discipline": "Alçada",
+      "raw_discipline_name": "SALT D'ALÇADA BENJAMÍ FEMENÍ",
       "performance": "1.03",
-      "wind": null
+      "wind": null,
+      "internal_id": 497
     },
     {
       "athlete_name": "CASAS CARPENA JULIA",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "LLANÇAMENT DE PILOTA BENJAMÍ FEMENÍ",
+      "discipline": "Pilota",
+      "raw_discipline_name": "LLANÇAMENT DE PILOTA BENJAMÍ FEMENÍ",
       "performance": "12.72",
-      "wind": null
+      "wind": null,
+      "internal_id": null
     },
     {
       "athlete_name": "CASAS CARPENA JULIA",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "LLANÇAMENT DE PILOTA BENJAMÍ FEMENÍ",
+      "discipline": "Pilota",
+      "raw_discipline_name": "LLANÇAMENT DE PILOTA BENJAMÍ FEMENÍ",
       "performance": "13.60",
-      "wind": null
+      "wind": null,
+      "internal_id": null
     },
     {
       "athlete_name": "CASAS CARPENA JULIA",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "LLANÇAMENT DE PILOTA BENJAMÍ FEMENÍ",
+      "discipline": "Pilota",
+      "raw_discipline_name": "LLANÇAMENT DE PILOTA BENJAMÍ FEMENÍ",
       "performance": "13.03",
-      "wind": null
+      "wind": null,
+      "internal_id": null
     }
   ]
 }

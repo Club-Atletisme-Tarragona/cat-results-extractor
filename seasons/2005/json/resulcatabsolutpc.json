@@ -9,25 +9,31 @@
       "athlete_name": "FERRAN TORTOSA PRADILLO",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "60 METRES LLISOS MASCULINS",
+      "discipline": "60 metres llisos",
+      "raw_discipline_name": "60 METRES LLISOS MASCULINS",
       "performance": "7.50",
-      "wind": null
+      "wind": null,
+      "internal_id": 180
     },
     {
       "athlete_name": "ERNESTO NUÑEZ LOPEZ",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "800 METRES LLISOS MASCULINS",
+      "discipline": "800 metres llisos",
+      "raw_discipline_name": "800 METRES LLISOS MASCULINS",
       "performance": "2:06.34",
-      "wind": null
+      "wind": null,
+      "internal_id": 248
     },
     {
       "athlete_name": "ADRIA SERRES PARDINES",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "60 METRES TANQUES MASCULINS",
+      "discipline": "60 metres tanques (1.067)",
+      "raw_discipline_name": "60 METRES TANQUES MASCULINS",
       "performance": "9.60",
-      "wind": null
+      "wind": null,
+      "internal_id": 133
     }
   ]
 }

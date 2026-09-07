@@ -9,33 +9,41 @@
       "athlete_name": "IVAN BENITEZ LAZCANO",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "60 METRES LLISOS MASCULINS",
+      "discipline": "60 metres llisos",
+      "raw_discipline_name": "60 METRES LLISOS MASCULINS",
       "performance": "7.87",
-      "wind": null
+      "wind": null,
+      "internal_id": 257
     },
     {
       "athlete_name": "CARLOS FERRER BARBERAN",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "800 METRES LLISOS MASCULINS",
+      "discipline": "800 metres llisos",
+      "raw_discipline_name": "800 METRES LLISOS MASCULINS",
       "performance": "2:05.00",
-      "wind": null
+      "wind": null,
+      "internal_id": 178
     },
     {
       "athlete_name": "IVAN BENITEZ LAZCANO",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "SALT DE LLARGADA MASCULÍ",
+      "discipline": "Llargada",
+      "raw_discipline_name": "SALT DE LLARGADA MASCULÍ",
       "performance": "5.64",
-      "wind": null
+      "wind": null,
+      "internal_id": 257
     },
     {
       "athlete_name": "IVAN BENITEZ LAZCANO",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "SALT DE LLARGADA MASCULÍ",
+      "discipline": "Llargada",
+      "raw_discipline_name": "SALT DE LLARGADA MASCULÍ",
       "performance": "5.56",
-      "wind": null
+      "wind": null,
+      "internal_id": 257
     }
   ]
 }

@@ -10,128 +10,160 @@
       "athlete_dob": "31/10/2003",
       "athlete_id": "CL71752",
       "performance": "13.76",
-      "discipline": "100 METRES LLISOS FEMENINS",
-      "wind": "-0.4"
+      "discipline": "100 metres llisos",
+      "raw_discipline_name": "100 METRES LLISOS FEMENINS",
+      "wind": "-0.4",
+      "internal_id": 701
     },
     {
       "athlete_name": "2 111 (t) Aleix Lago Garbajosa CM 6 q",
       "athlete_dob": "26/09/2002",
       "athlete_id": "CL71714",
       "performance": "1:31.06",
-      "discipline": "600 METRES LLISOS MASCULINS",
-      "wind": null
+      "discipline": "600 metres llisos",
+      "raw_discipline_name": "600 METRES LLISOS MASCULINS",
+      "wind": null,
+      "internal_id": 660
     },
     {
       "athlete_name": "3 109 (t) Pep Aldave Mas CM 2 q",
       "athlete_dob": "29/08/2002",
       "athlete_id": "CL71684",
       "performance": "17.38",
-      "discipline": "100 METRES TANQUES MASCULINS",
-      "wind": "+1.7"
+      "discipline": "100 metres tanques (0.91)",
+      "raw_discipline_name": "100 METRES TANQUES MASCULINS",
+      "wind": "+1.7",
+      "internal_id": 640
     },
     {
       "athlete_name": "7 126 (t) Claudian. Mir Casellas",
       "athlete_dob": "02/08/2003",
       "athlete_id": "CL69333",
       "performance": "53.72",
-      "discipline": "300 METRES TANQUES FEMENINS",
-      "wind": null
+      "discipline": "300 metres tanques (0.762)",
+      "raw_discipline_name": "300 METRES TANQUES FEMENINS",
+      "wind": null,
+      "internal_id": 699
     },
     {
       "athlete_name": "7 114 Bernat Verdu Gomez CM 5 q",
       "athlete_dob": "02/01/2002",
       "athlete_id": "CT25944",
       "performance": "45.06",
-      "discipline": "300 METRES TANQUES MASCULINS",
-      "wind": null
+      "discipline": "300 metres tanques (0.762)",
+      "raw_discipline_name": "300 METRES TANQUES MASCULINS",
+      "wind": null,
+      "internal_id": 645
     },
     {
       "athlete_name": "3 123 (t) Maria Falco Cuenca CF q",
       "athlete_dob": "14/06/2002",
       "athlete_id": "CL71705",
       "performance": "1.51",
-      "discipline": "SALT D'ALÇADA FEMENÍ",
-      "wind": null
+      "discipline": "Alçada",
+      "raw_discipline_name": "SALT D'ALÇADA FEMENÍ",
+      "wind": null,
+      "internal_id": 664
     },
     {
       "athlete_name": "9 129 (t) Berta Sanchez Ruiz CF q",
       "athlete_dob": "05/08/2002",
       "athlete_id": "CL71750",
       "performance": "2.75",
-      "discipline": "SALT AMB PERXA FEMENÍ",
-      "wind": null
+      "discipline": "Perxa",
+      "raw_discipline_name": "SALT AMB PERXA FEMENÍ",
+      "wind": null,
+      "internal_id": 643
     },
     {
       "athlete_name": "21 109 (t) Pep Aldave Mas",
       "athlete_dob": "29/08/2002",
       "athlete_id": "CL71684",
       "performance": "10.05",
-      "discipline": "TRIPLE SALT MASCULI",
-      "wind": "+3.2"
+      "discipline": "Triple",
+      "raw_discipline_name": "TRIPLE SALT MASCULI",
+      "wind": "+3.2",
+      "internal_id": 640
     },
     {
       "athlete_name": "21 109 (t) Pep Aldave Mas",
       "athlete_dob": "29/08/2002",
       "athlete_id": "CL71684",
       "performance": "9.66",
-      "discipline": "TRIPLE SALT MASCULI",
-      "wind": "+0.8"
+      "discipline": "Triple",
+      "raw_discipline_name": "TRIPLE SALT MASCULI",
+      "wind": "+0.8",
+      "internal_id": 640
     },
     {
       "athlete_name": "21 109 (t) Pep Aldave Mas",
       "athlete_dob": "29/08/2002",
       "athlete_id": "CL71684",
       "performance": "10.17",
-      "discipline": "TRIPLE SALT MASCULI",
-      "wind": "+0.2"
+      "discipline": "Triple",
+      "raw_discipline_name": "TRIPLE SALT MASCULI",
+      "wind": "+0.2",
+      "internal_id": 640
     },
     {
       "athlete_name": "6 122 (t) Ines Delgado Pizzo CF q",
       "athlete_dob": "19/05/2002",
       "athlete_id": "CL71700",
       "performance": "25.23",
-      "discipline": "LLANÇAMENT DE JAVELINA FEMENI",
-      "wind": null
+      "discipline": "Javelina (500g)",
+      "raw_discipline_name": "LLANÇAMENT DE JAVELINA FEMENI",
+      "wind": null,
+      "internal_id": 667
     },
     {
       "athlete_name": "6 122 (t) Ines Delgado Pizzo CF q",
       "athlete_dob": "19/05/2002",
       "athlete_id": "CL71700",
       "performance": "22.93",
-      "discipline": "LLANÇAMENT DE JAVELINA FEMENI",
-      "wind": null
+      "discipline": "Javelina (500g)",
+      "raw_discipline_name": "LLANÇAMENT DE JAVELINA FEMENI",
+      "wind": null,
+      "internal_id": 667
     },
     {
       "athlete_name": "6 122 (t) Ines Delgado Pizzo CF q",
       "athlete_dob": "19/05/2002",
       "athlete_id": "CL71700",
       "performance": "22.10",
-      "discipline": "LLANÇAMENT DE JAVELINA FEMENI",
-      "wind": null
+      "discipline": "Javelina (500g)",
+      "raw_discipline_name": "LLANÇAMENT DE JAVELINA FEMENI",
+      "wind": null,
+      "internal_id": 667
     },
     {
       "athlete_name": "6 122 (t) Ines Delgado Pizzo CF q",
       "athlete_dob": "19/05/2002",
       "athlete_id": "CL71700",
       "performance": "22.37",
-      "discipline": "LLANÇAMENT DE JAVELINA FEMENI",
-      "wind": null
+      "discipline": "Javelina (500g)",
+      "raw_discipline_name": "LLANÇAMENT DE JAVELINA FEMENI",
+      "wind": null,
+      "internal_id": 667
     },
     {
       "athlete_name": "6 122 (t) Ines Delgado Pizzo CF q",
       "athlete_dob": "19/05/2002",
       "athlete_id": "CL71700",
       "performance": "22.79",
-      "discipline": "LLANÇAMENT DE JAVELINA FEMENI",
-      "wind": null
+      "discipline": "Javelina (500g)",
+      "raw_discipline_name": "LLANÇAMENT DE JAVELINA FEMENI",
+      "wind": null,
+      "internal_id": 667
     },
     {
       "athlete_name": "6 122 (t) Ines Delgado Pizzo CF q",
       "athlete_dob": "19/05/2002",
       "athlete_id": "CL71700",
       "performance": "21.33",
-      "discipline": "LLANÇAMENT DE JAVELINA FEMENI",
-      "wind": null
+      "discipline": "Javelina (500g)",
+      "raw_discipline_name": "LLANÇAMENT DE JAVELINA FEMENI",
+      "wind": null,
+      "internal_id": 667
     }
   ]
 }

@@ -10,8 +10,10 @@
       "athlete_dob": "17/09/2004",
       "athlete_id": "CL69330",
       "performance": "1.37",
-      "discipline": "Alçada FEM. PC",
-      "wind": null
+      "discipline": "Alçada",
+      "raw_discipline_name": "Alçada FEM. PC",
+      "wind": null,
+      "internal_id": 737
     },
     {
       "athlete_name": "5 232 (t) Laurineelisa Marimon IF",
@@ -19,7 +21,9 @@
       "athlete_id": "CL69330",
       "performance": "10.56",
       "discipline": "Pto      Dor Nombre                         F de Nac    Cat     60 m.t.   Alç.    Pes     Llarg. Marca",
-      "wind": null
+      "raw_discipline_name": "Pto      Dor Nombre                         F de Nac    Cat     60 m.t.   Alç.    Pes     Llarg. Marca",
+      "wind": null,
+      "internal_id": 737
     },
     {
       "athlete_name": "5 232 (t) Laurineelisa Marimon IF",
@@ -27,7 +31,9 @@
       "athlete_id": "CL69330",
       "performance": "8.58",
       "discipline": "Pto      Dor Nombre                         F de Nac    Cat     60 m.t.   Alç.    Pes     Llarg. Marca",
-      "wind": null
+      "raw_discipline_name": "Pto      Dor Nombre                         F de Nac    Cat     60 m.t.   Alç.    Pes     Llarg. Marca",
+      "wind": null,
+      "internal_id": 737
     },
     {
       "athlete_name": "5 232 (t) Laurineelisa Marimon IF",
@@ -35,7 +41,9 @@
       "athlete_id": "CL69330",
       "performance": "4.49",
       "discipline": "Pto      Dor Nombre                         F de Nac    Cat     60 m.t.   Alç.    Pes     Llarg. Marca",
-      "wind": null
+      "raw_discipline_name": "Pto      Dor Nombre                         F de Nac    Cat     60 m.t.   Alç.    Pes     Llarg. Marca",
+      "wind": null,
+      "internal_id": 737
     }
   ]
 }

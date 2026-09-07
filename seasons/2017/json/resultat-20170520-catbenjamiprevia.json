@@ -10,24 +10,30 @@
       "athlete_dob": "04/04/2009",
       "athlete_id": "CL86462",
       "performance": "7:03.63",
-      "discipline": "1000 METRES MARXA BENJAMI FEMENI",
-      "wind": null
+      "discipline": "1000 metres marxa",
+      "raw_discipline_name": "1000 METRES MARXA BENJAMI FEMENI",
+      "wind": null,
+      "internal_id": 1030
     },
     {
       "athlete_name": "2 95 (t) Quimey Izaga Deriu BM q",
       "athlete_dob": "22/08/2009",
       "athlete_id": "CL86465",
       "performance": "6:00.05",
-      "discipline": "1000 METRES MARXA BENJAMI MASCULI",
-      "wind": null
+      "discipline": "1000 metres marxa",
+      "raw_discipline_name": "1000 METRES MARXA BENJAMI MASCULI",
+      "wind": null,
+      "internal_id": null
     },
     {
       "athlete_name": "7 98 (t) Miguel Reyes Alcantara BM q",
       "athlete_dob": "17/12/2008",
       "athlete_id": "CL82987",
       "performance": "6:35.43",
-      "discipline": "1000 METRES MARXA BENJAMI MASCULI",
-      "wind": null
+      "discipline": "1000 metres marxa",
+      "raw_discipline_name": "1000 METRES MARXA BENJAMI MASCULI",
+      "wind": null,
+      "internal_id": null
     }
   ]
 }

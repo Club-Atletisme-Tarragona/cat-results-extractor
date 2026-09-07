@@ -10,64 +10,80 @@
       "athlete_dob": "20/02/2004",
       "athlete_id": "CL71683",
       "performance": "2:13.12",
-      "discipline": "2.000m Marxa MASC. PC",
-      "wind": null
+      "discipline": "2000 metres llisos",
+      "raw_discipline_name": "2.000m Marxa MASC. PC",
+      "wind": null,
+      "internal_id": null
     },
     {
       "athlete_name": "10 31 (t) Lucia Vega Martinez IF 1",
       "athlete_dob": "29/07/2005",
       "athlete_id": "CL86612",
       "performance": "22.23",
-      "discipline": "2.000m FEM. PC",
-      "wind": null
+      "discipline": "2000 metres llisos",
+      "raw_discipline_name": "2.000m FEM. PC",
+      "wind": null,
+      "internal_id": 805
     },
     {
       "athlete_name": "4 31 (t) Natalia Sanchez Alvarez IF 5",
       "athlete_dob": "28/05/2005",
       "athlete_id": "CL71748",
       "performance": "12.02",
-      "discipline": "2.000m FEM. PC",
-      "wind": null
+      "discipline": "2000 metres llisos",
+      "raw_discipline_name": "2.000m FEM. PC",
+      "wind": null,
+      "internal_id": 796
     },
     {
       "athlete_name": "2 31 (t) Liana De Las Heras Ruiz IF",
       "athlete_dob": "27/02/2004",
       "athlete_id": "CL71697",
       "performance": "4.34",
-      "discipline": "Llargada FEM. PC",
-      "wind": null
+      "discipline": "Llargada",
+      "raw_discipline_name": "Llargada FEM. PC",
+      "wind": null,
+      "internal_id": null
     },
     {
       "athlete_name": "1 31 (t) Laurineelisa Marimon Fernandez IF 12 =RCAM",
       "athlete_dob": "17/09/2004",
       "athlete_id": "CL69330",
       "performance": "9.92",
-      "discipline": "Triple Salt FEM. PC",
-      "wind": null
+      "discipline": "Triple",
+      "raw_discipline_name": "Triple Salt FEM. PC",
+      "wind": null,
+      "internal_id": 737
     },
     {
       "athlete_name": "1 31 (t) Laurineelisa Marimon Fernandez IF 12 =RCAM",
       "athlete_dob": "17/09/2004",
       "athlete_id": "CL69330",
       "performance": "9.80",
-      "discipline": "Triple Salt FEM. PC",
-      "wind": null
+      "discipline": "Triple",
+      "raw_discipline_name": "Triple Salt FEM. PC",
+      "wind": null,
+      "internal_id": 737
     },
     {
       "athlete_name": "10 31 (t) Berta Pelicano Sanchis IF",
       "athlete_dob": "14/04/2005",
       "athlete_id": "CL82417",
       "performance": "5.52",
-      "discipline": "Pes (2kg) FEM. PC",
-      "wind": null
+      "discipline": "Pes (2 Kg)",
+      "raw_discipline_name": "Pes (2kg) FEM. PC",
+      "wind": null,
+      "internal_id": null
     },
     {
       "athlete_name": "10 31 (t) Berta Pelicano Sanchis IF",
       "athlete_dob": "14/04/2005",
       "athlete_id": "CL82417",
       "performance": "5.25",
-      "discipline": "Pes (2kg) FEM. PC",
-      "wind": null
+      "discipline": "Pes (2 Kg)",
+      "raw_discipline_name": "Pes (2kg) FEM. PC",
+      "wind": null,
+      "internal_id": null
     }
   ]
 }

@@ -10,104 +10,130 @@
       "athlete_dob": "21/04/2002",
       "athlete_id": "CL86451",
       "performance": "1.48",
-      "discipline": "SALT D'ALÇADA CADET MASCULI",
-      "wind": null
+      "discipline": "Alçada",
+      "raw_discipline_name": "SALT D'ALÇADA CADET MASCULI",
+      "wind": null,
+      "internal_id": 663
     },
     {
       "athlete_name": "14 58 (t) Pep Aldave Mas",
       "athlete_dob": "29/08/2002",
       "athlete_id": "CL71684",
       "performance": "9.75",
-      "discipline": "TRIPLE SALT CADET MASCULI",
-      "wind": "+0.2"
+      "discipline": "Triple",
+      "raw_discipline_name": "TRIPLE SALT CADET MASCULI",
+      "wind": "+0.2",
+      "internal_id": 640
     },
     {
       "athlete_name": "14 58 (t) Pep Aldave Mas",
       "athlete_dob": "29/08/2002",
       "athlete_id": "CL71684",
       "performance": "10.15",
-      "discipline": "TRIPLE SALT CADET MASCULI",
-      "wind": "+0.7"
+      "discipline": "Triple",
+      "raw_discipline_name": "TRIPLE SALT CADET MASCULI",
+      "wind": "+0.7",
+      "internal_id": 640
     },
     {
       "athlete_name": "14 58 (t) Pep Aldave Mas",
       "athlete_dob": "29/08/2002",
       "athlete_id": "CL71684",
       "performance": "10.42",
-      "discipline": "TRIPLE SALT CADET MASCULI",
-      "wind": "+1.8"
+      "discipline": "Triple",
+      "raw_discipline_name": "TRIPLE SALT CADET MASCULI",
+      "wind": "+1.8",
+      "internal_id": 640
     },
     {
       "athlete_name": "17 58 (t) Didac Safont Balaguer",
       "athlete_dob": "25/02/2002",
       "athlete_id": "CL78446",
       "performance": "15.80",
-      "discipline": "LLANÇAMENT DE DISC CADET MASCULI",
-      "wind": null
+      "discipline": "Disc (1 Kg)",
+      "raw_discipline_name": "LLANÇAMENT DE DISC CADET MASCULI",
+      "wind": null,
+      "internal_id": 651
     },
     {
       "athlete_name": "14 58 (t) Roger Feijoo Massot",
       "athlete_dob": "20/09/2003",
       "athlete_id": "CL82677",
       "performance": "15.97",
-      "discipline": "LLANÇAMENT DE JAVELINA CADET MASCULI",
-      "wind": null
+      "discipline": "Javelina (600 g)",
+      "raw_discipline_name": "LLANÇAMENT DE JAVELINA CADET MASCULI",
+      "wind": null,
+      "internal_id": null
     },
     {
       "athlete_name": "14 58 (t) Roger Feijoo Massot",
       "athlete_dob": "20/09/2003",
       "athlete_id": "CL82677",
       "performance": "20.01",
-      "discipline": "LLANÇAMENT DE JAVELINA CADET MASCULI",
-      "wind": null
+      "discipline": "Javelina (600 g)",
+      "raw_discipline_name": "LLANÇAMENT DE JAVELINA CADET MASCULI",
+      "wind": null,
+      "internal_id": null
     },
     {
       "athlete_name": "5 57 (t) Maria Falco Cuenca",
       "athlete_dob": "14/06/2002",
       "athlete_id": "CL71705",
       "performance": "1.45",
-      "discipline": "SALT D'ALÇADA CADET FEMENI",
-      "wind": null
+      "discipline": "Alçada",
+      "raw_discipline_name": "SALT D'ALÇADA CADET FEMENI",
+      "wind": null,
+      "internal_id": 664
     },
     {
       "athlete_name": "5 57 (t) Mar Vazquez Domingo",
       "athlete_dob": "17/03/2002",
       "athlete_id": "CL71756",
       "performance": "4.65",
-      "discipline": "SALT DE LLARGADA CADET FEMENI",
-      "wind": "+0.9"
+      "discipline": "Llargada",
+      "raw_discipline_name": "SALT DE LLARGADA CADET FEMENI",
+      "wind": "+0.9",
+      "internal_id": 642
     },
     {
       "athlete_name": "5 57 (t) Mar Vazquez Domingo",
       "athlete_dob": "17/03/2002",
       "athlete_id": "CL71756",
       "performance": "4.81",
-      "discipline": "SALT DE LLARGADA CADET FEMENI",
-      "wind": "+2.0"
+      "discipline": "Llargada",
+      "raw_discipline_name": "SALT DE LLARGADA CADET FEMENI",
+      "wind": "+2.0",
+      "internal_id": 642
     },
     {
       "athlete_name": "5 57 (t) Mar Vazquez Domingo",
       "athlete_dob": "17/03/2002",
       "athlete_id": "CL71756",
       "performance": "4.56",
-      "discipline": "SALT DE LLARGADA CADET FEMENI",
-      "wind": "+2.5"
+      "discipline": "Llargada",
+      "raw_discipline_name": "SALT DE LLARGADA CADET FEMENI",
+      "wind": "+2.5",
+      "internal_id": 642
     },
     {
       "athlete_name": "11 57 (t) Alba Carvajal Garcia",
       "athlete_dob": "18/09/2002",
       "athlete_id": "CL86452",
       "performance": "9.87",
-      "discipline": "TRIPLE SALT CADET FEMENI",
-      "wind": "+2.2"
+      "discipline": "Triple",
+      "raw_discipline_name": "TRIPLE SALT CADET FEMENI",
+      "wind": "+2.2",
+      "internal_id": 670
     },
     {
       "athlete_name": "11 57 (t) Alba Carvajal Garcia",
       "athlete_dob": "18/09/2002",
       "athlete_id": "CL86452",
       "performance": "9.53",
-      "discipline": "TRIPLE SALT CADET FEMENI",
-      "wind": "+1.6"
+      "discipline": "Triple",
+      "raw_discipline_name": "TRIPLE SALT CADET FEMENI",
+      "wind": "+1.6",
+      "internal_id": 670
     }
   ]
 }

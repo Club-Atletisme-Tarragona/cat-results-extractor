@@ -10,32 +10,40 @@
       "athlete_dob": "09/06/2003",
       "athlete_id": "CL90501",
       "performance": "42.46",
-      "discipline": "600m MASC. PC",
-      "wind": null
+      "discipline": "600 metres llisos",
+      "raw_discipline_name": "600m MASC. PC",
+      "wind": null,
+      "internal_id": 697
     },
     {
       "athlete_name": "7 84 (t) Lucia Mayolas Martinez",
       "athlete_dob": "04/10/2004",
       "athlete_id": "CL71720",
       "performance": "14.35",
-      "discipline": "600m FEM. PC",
-      "wind": null
+      "discipline": "600 metres llisos",
+      "raw_discipline_name": "600m FEM. PC",
+      "wind": null,
+      "internal_id": 728
     },
     {
       "athlete_name": "13 67 (t) Guifre De Los Rios Blanch",
       "athlete_dob": "09/06/2003",
       "athlete_id": "CL90501",
       "performance": "10.01",
-      "discipline": "Triple Salt 2003 MASC. PC",
-      "wind": null
+      "discipline": "Triple",
+      "raw_discipline_name": "Triple Salt 2003 MASC. PC",
+      "wind": null,
+      "internal_id": 697
     },
     {
       "athlete_name": "13 67 (t) Guifre De Los Rios Blanch",
       "athlete_dob": "09/06/2003",
       "athlete_id": "CL90501",
       "performance": "10.03",
-      "discipline": "Triple Salt 2003 MASC. PC",
-      "wind": null
+      "discipline": "Triple",
+      "raw_discipline_name": "Triple Salt 2003 MASC. PC",
+      "wind": null,
+      "internal_id": 697
     }
   ]
 }

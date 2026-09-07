@@ -10,32 +10,40 @@
       "athlete_dob": "27/10/2002",
       "athlete_id": "CL27853",
       "performance": "8.97",
-      "discipline": "60m FEM. PC",
-      "wind": null
+      "discipline": "60 metres llisos",
+      "raw_discipline_name": "60m FEM. PC",
+      "wind": null,
+      "internal_id": 656
     },
     {
       "athlete_name": "3 417 Gerard Parera Bodi",
       "athlete_dob": "22/01/2000",
       "athlete_id": "CT25156",
       "performance": "52.35",
-      "discipline": "400m MASC. PC",
-      "wind": null
+      "discipline": "400 metres llisos",
+      "raw_discipline_name": "400m MASC. PC",
+      "wind": null,
+      "internal_id": 522
     },
     {
       "athlete_name": "3 134 (t) Aleix Lago Garbajosa LM",
       "athlete_dob": "26/09/2002",
       "athlete_id": "CL27847",
       "performance": "55.50",
-      "discipline": "400m MASC. PC",
-      "wind": null
+      "discipline": "400 metres llisos",
+      "raw_discipline_name": "400m MASC. PC",
+      "wind": null,
+      "internal_id": 660
     },
     {
       "athlete_name": "4 228 (t) Mar Vazquez Domingo LF",
       "athlete_dob": "17/03/2002",
       "athlete_id": "CL27856",
       "performance": "10.74",
-      "discipline": "400m FEM. PC",
-      "wind": null
+      "discipline": "400 metres llisos",
+      "raw_discipline_name": "400m FEM. PC",
+      "wind": null,
+      "internal_id": 642
     }
   ]
 }

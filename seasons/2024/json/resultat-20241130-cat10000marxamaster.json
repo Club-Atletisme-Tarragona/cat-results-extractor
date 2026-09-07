@@ -10,24 +10,30 @@
       "athlete_dob": "17/6/1969",
       "athlete_id": "CL15201",
       "performance": "50:37.00",
-      "discipline": "10.000m Marcha Hombres Master M55",
-      "wind": null
+      "discipline": "10000 metres llisos",
+      "raw_discipline_name": "10.000m Marcha Hombres Master M55",
+      "wind": null,
+      "internal_id": 4
     },
     {
       "athlete_name": "FERNANDO FLORES MONTES",
       "athlete_dob": "17/6/1969",
       "athlete_id": "CL15201",
       "performance": "50:37.00",
-      "discipline": "19:00   10.000m Marcha Hombres Master M60                                           Final",
-      "wind": null
+      "discipline": "10000 metres llisos",
+      "raw_discipline_name": "19:00   10.000m Marcha Hombres Master M60                                           Final",
+      "wind": null,
+      "internal_id": 4
     },
     {
       "athlete_name": "JULIA SUAREZ PIZA",
       "athlete_dob": "5/11/2006",
       "athlete_id": "CT29377",
       "performance": "22:42.00",
-      "discipline": "5.000m Marcha Mujeres en pista",
-      "wind": null
+      "discipline": "5000 metres llisos",
+      "raw_discipline_name": "5.000m Marcha Mujeres en pista",
+      "wind": null,
+      "internal_id": 839
     }
   ]
 }

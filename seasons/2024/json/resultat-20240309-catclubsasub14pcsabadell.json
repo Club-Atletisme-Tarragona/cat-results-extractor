@@ -10,64 +10,80 @@
       "athlete_dob": "07/12/2012",
       "athlete_id": "CL95044",
       "performance": "31.87",
-      "discipline": "1.000m MASC. PC",
-      "wind": null
+      "discipline": "1000 metres llisos",
+      "raw_discipline_name": "1.000m MASC. PC",
+      "wind": null,
+      "internal_id": 1342
     },
     {
       "athlete_name": "2 30 (t) Hugo Diaz Cristino 11",
       "athlete_dob": "04/04/2012",
       "athlete_id": "CL4397",
       "performance": "17.40",
-      "discipline": "1.000m MASC. PC",
-      "wind": null
+      "discipline": "1000 metres llisos",
+      "raw_discipline_name": "1.000m MASC. PC",
+      "wind": null,
+      "internal_id": null
     },
     {
       "athlete_name": "1 30 (t) Cessar Aina Preciado Foreman 4",
       "athlete_dob": "29/06/2011",
       "athlete_id": "CL15333",
       "performance": "10.46",
-      "discipline": "1.000m MASC. PC",
-      "wind": null
+      "discipline": "1000 metres llisos",
+      "raw_discipline_name": "1.000m MASC. PC",
+      "wind": null,
+      "internal_id": 1066
     },
     {
       "athlete_name": "3 51 (t) Arlet Solana Vila 4",
       "athlete_dob": "13/03/2012",
       "athlete_id": "CL11154",
       "performance": "30.34",
-      "discipline": "200m FEM. PC",
-      "wind": null
+      "discipline": "200 metres llisos",
+      "raw_discipline_name": "200m FEM. PC",
+      "wind": null,
+      "internal_id": 1369
     },
     {
       "athlete_name": "4 51 (t) Claudia Botanch Rius",
       "athlete_dob": "02/01/2011",
       "athlete_id": "CL7250",
       "performance": "2.20",
-      "discipline": "Perxa FEM. PC",
-      "wind": null
+      "discipline": "Perxa",
+      "raw_discipline_name": "Perxa FEM. PC",
+      "wind": null,
+      "internal_id": 1358
     },
     {
       "athlete_name": "7 51 (t) Carlota Tejero Clau",
       "athlete_dob": "06/03/2012",
       "athlete_id": "CL7258",
       "performance": "5.83",
-      "discipline": "Pes (3kg) FEM. PC",
-      "wind": null
+      "discipline": "Pes (3 Kg)",
+      "raw_discipline_name": "Pes (3kg) FEM. PC",
+      "wind": null,
+      "internal_id": 1352
     },
     {
       "athlete_name": "7 51 (t) Carlota Tejero Clau",
       "athlete_dob": "06/03/2012",
       "athlete_id": "CL7258",
       "performance": "6.67",
-      "discipline": "Pes (3kg) FEM. PC",
-      "wind": null
+      "discipline": "Pes (3 Kg)",
+      "raw_discipline_name": "Pes (3kg) FEM. PC",
+      "wind": null,
+      "internal_id": 1352
     },
     {
       "athlete_name": "7 51 (t) Carlota Tejero Clau",
       "athlete_dob": "06/03/2012",
       "athlete_id": "CL7258",
       "performance": "6.31",
-      "discipline": "Pes (3kg) FEM. PC",
-      "wind": null
+      "discipline": "Pes (3 Kg)",
+      "raw_discipline_name": "Pes (3kg) FEM. PC",
+      "wind": null,
+      "internal_id": 1352
     }
   ]
 }

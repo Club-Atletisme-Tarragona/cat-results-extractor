@@ -10,48 +10,60 @@
       "athlete_dob": "22/10/2008",
       "athlete_id": "CT1650",
       "performance": "35.38",
-      "discipline": "Disco (1,5kg) Hombres",
-      "wind": null
+      "discipline": "Disc (1,5 Kg)",
+      "raw_discipline_name": "Disco (1,5kg) Hombres",
+      "wind": null,
+      "internal_id": 971
     },
     {
       "athlete_name": "PAU CRESPO BELTRAN",
       "athlete_dob": "22/10/2008",
       "athlete_id": "CT1650",
       "performance": "60.29",
-      "discipline": "Jabalina (700g) Hombres",
-      "wind": null
+      "discipline": "Javelina (700 g)",
+      "raw_discipline_name": "Jabalina (700g) Hombres",
+      "wind": null,
+      "internal_id": 971
     },
     {
       "athlete_name": "NOA NIN NAVAS",
       "athlete_dob": "28/8/2009",
       "athlete_id": "CT2954",
       "performance": "24.69",
-      "discipline": "Disco Mujeres",
-      "wind": null
+      "discipline": "Disc (1 Kg)",
+      "raw_discipline_name": "Disco Mujeres",
+      "wind": null,
+      "internal_id": 1010
     },
     {
       "athlete_name": "PAU CRESPO BELTRAN",
       "athlete_dob": "22/10/2008",
       "athlete_id": "CT1650",
       "performance": "35.38",
-      "discipline": "13:00   Disco Mujeres                                                               Final",
-      "wind": null
+      "discipline": "Disc (1 Kg)",
+      "raw_discipline_name": "13:00   Disco Mujeres                                                               Final",
+      "wind": null,
+      "internal_id": 971
     },
     {
       "athlete_name": "PAU CRESPO BELTRAN",
       "athlete_dob": "22/10/2008",
       "athlete_id": "CT1650",
       "performance": "60.29",
-      "discipline": "13:00   Disco Mujeres                                                               Final",
-      "wind": null
+      "discipline": "Disc (1 Kg)",
+      "raw_discipline_name": "13:00   Disco Mujeres                                                               Final",
+      "wind": null,
+      "internal_id": 971
     },
     {
       "athlete_name": "NOA NIN NAVAS",
       "athlete_dob": "28/8/2009",
       "athlete_id": "CT2954",
       "performance": "24.69",
-      "discipline": "13:00   Disco Mujeres                                                               Final",
-      "wind": null
+      "discipline": "Disc (1 Kg)",
+      "raw_discipline_name": "13:00   Disco Mujeres                                                               Final",
+      "wind": null,
+      "internal_id": 1010
     }
   ]
 }

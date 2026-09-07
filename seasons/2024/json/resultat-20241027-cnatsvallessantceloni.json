@@ -10,24 +10,30 @@
       "athlete_dob": "31/1/1973",
       "athlete_id": "CT25152",
       "performance": "3.00",
-      "discipline": "Pértiga Hombres",
-      "wind": null
+      "discipline": "Perxa",
+      "raw_discipline_name": "Pértiga Hombres",
+      "wind": null,
+      "internal_id": 518
     },
     {
       "athlete_name": "JUAN CARLOS HERRERA ALCAIDE",
       "athlete_dob": "31/1/1973",
       "athlete_id": "CT25152",
       "performance": "13.02",
-      "discipline": "100m Hombres",
-      "wind": "-0.4"
+      "discipline": "100 metres llisos",
+      "raw_discipline_name": "100m Hombres",
+      "wind": "-0.4",
+      "internal_id": 518
     },
     {
       "athlete_name": "JUAN CARLOS HERRERA ALCAIDE",
       "athlete_dob": "31/1/1973",
       "athlete_id": "CT25152",
       "performance": "57.42",
-      "discipline": "400m Hombres",
-      "wind": null
+      "discipline": "400 metres llisos",
+      "raw_discipline_name": "400m Hombres",
+      "wind": null,
+      "internal_id": 518
     }
   ]
 }

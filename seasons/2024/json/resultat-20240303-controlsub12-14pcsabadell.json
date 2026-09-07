@@ -10,16 +10,20 @@
       "athlete_dob": "03/02/2014",
       "athlete_id": "CT2082",
       "performance": "57.82",
-      "discipline": "600m MASC. PC SUB12M",
-      "wind": null
+      "discipline": "600 metres llisos",
+      "raw_discipline_name": "600m MASC. PC SUB12M",
+      "wind": null,
+      "internal_id": 1333
     },
     {
       "athlete_name": "2 82 (t) Nayah Martinez Ferre",
       "athlete_dob": "25/01/2013",
       "athlete_id": "CL4400",
       "performance": "33.06",
-      "discipline": "200m FEM. PC SUB12F",
-      "wind": null
+      "discipline": "200 metres llisos",
+      "raw_discipline_name": "200m FEM. PC SUB12F",
+      "wind": null,
+      "internal_id": null
     }
   ]
 }

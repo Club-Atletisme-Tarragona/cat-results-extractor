@@ -10,24 +10,30 @@
       "athlete_dob": "23/09/1968",
       "athlete_id": "CL3961",
       "performance": "78.46",
-      "discipline": "1.500m MASC. PC",
-      "wind": null
+      "discipline": "1500 metres llisos",
+      "raw_discipline_name": "1.500m MASC. PC",
+      "wind": null,
+      "internal_id": 7
     },
     {
       "athlete_name": "6 2 (t) Pere Pardines Gras M-55",
       "athlete_dob": "30/01/1965",
       "athlete_id": "CL9121",
       "performance": "1.51",
-      "discipline": "Alçada MASC. PC",
-      "wind": null
+      "discipline": "Alçada",
+      "raw_discipline_name": "Alçada MASC. PC",
+      "wind": null,
+      "internal_id": 71
     },
     {
       "athlete_name": "3 33 Gemma Sole Boronat W-50 3",
       "athlete_dob": "01/11/1967",
       "athlete_id": "CT29376",
       "performance": "79.54",
-      "discipline": "400m FEM. PC",
-      "wind": null
+      "discipline": "400 metres llisos",
+      "raw_discipline_name": "400m FEM. PC",
+      "wind": null,
+      "internal_id": 648
     }
   ]
 }

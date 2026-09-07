@@ -10,24 +10,30 @@
       "athlete_dob": "31/01/2005",
       "athlete_id": "CL71743",
       "performance": "40.70",
-      "discipline": "300m MASC. PC",
-      "wind": null
+      "discipline": "300 metres llisos",
+      "raw_discipline_name": "300m MASC. PC",
+      "wind": null,
+      "internal_id": 808
     },
     {
       "athlete_name": "1 68 (t) Mireia Viera Cervello",
       "athlete_dob": "22/09/2006",
       "athlete_id": "CL94415",
       "performance": "46.30",
-      "discipline": "300m FEM. PC",
-      "wind": null
+      "discipline": "300 metres llisos",
+      "raw_discipline_name": "300m FEM. PC",
+      "wind": null,
+      "internal_id": null
     },
     {
       "athlete_name": "7 67 Natalia Sanchez Alvarez",
       "athlete_dob": "28/05/2005",
       "athlete_id": "CT29768",
       "performance": "10.55",
-      "discipline": "1.000m FEM. PC",
-      "wind": null
+      "discipline": "1000 metres llisos",
+      "raw_discipline_name": "1.000m FEM. PC",
+      "wind": null,
+      "internal_id": 796
     }
   ]
 }

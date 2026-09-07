@@ -10,32 +10,40 @@
       "athlete_dob": "31/01/2005",
       "athlete_id": "CL71743",
       "performance": "8.00",
-      "discipline": "60m MASC. PC",
-      "wind": null
+      "discipline": "60 metres llisos",
+      "raw_discipline_name": "60m MASC. PC",
+      "wind": null,
+      "internal_id": 808
     },
     {
       "athlete_name": "5 133 Natalia Sanchez Alvarez",
       "athlete_dob": "28/05/2005",
       "athlete_id": "CT29768",
       "performance": "8.52",
-      "discipline": "60m FEM. PC",
-      "wind": null
+      "discipline": "60 metres llisos",
+      "raw_discipline_name": "60m FEM. PC",
+      "wind": null,
+      "internal_id": 796
     },
     {
       "athlete_name": "7 136 (t) Mireia Viera Cervello",
       "athlete_dob": "22/09/2006",
       "athlete_id": "CL94415",
       "performance": "8.75",
-      "discipline": "60m FEM. PC",
-      "wind": null
+      "discipline": "60 metres llisos",
+      "raw_discipline_name": "60m FEM. PC",
+      "wind": null,
+      "internal_id": null
     },
     {
       "athlete_name": "6 135 (t) Lucia Vega Martinez",
       "athlete_dob": "29/07/2005",
       "athlete_id": "CL86612",
       "performance": "05.09",
-      "discipline": "600m FEM. PC",
-      "wind": null
+      "discipline": "600 metres llisos",
+      "raw_discipline_name": "600m FEM. PC",
+      "wind": null,
+      "internal_id": 805
     }
   ]
 }

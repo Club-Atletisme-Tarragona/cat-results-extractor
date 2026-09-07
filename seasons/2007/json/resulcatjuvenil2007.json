@@ -9,17 +9,21 @@
       "athlete_name": "VERGARA MAGRAZO QUINO",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "800 METRES LLISOS",
+      "discipline": "800 metres llisos",
+      "raw_discipline_name": "800 METRES LLISOS",
       "performance": "1:58.18",
-      "wind": null
+      "wind": null,
+      "internal_id": 275
     },
     {
       "athlete_name": "MALLA FERRER BEATRIU",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "100 METRES TANQUES",
+      "discipline": "100 metres tanques (0.762)",
+      "raw_discipline_name": "100 METRES TANQUES",
       "performance": "17.41",
-      "wind": "+0.3"
+      "wind": "+0.3",
+      "internal_id": 242
     }
   ]
 }

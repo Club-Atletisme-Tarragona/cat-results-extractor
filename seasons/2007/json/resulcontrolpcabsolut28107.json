@@ -9,17 +9,21 @@
       "athlete_name": "GARCIA NAVARRETE JOSE FRANCISCO",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "1500 METRES LLISOS MASCULINS",
+      "discipline": "1500 metres llisos",
+      "raw_discipline_name": "1500 METRES LLISOS MASCULINS",
       "performance": "4:51.20",
-      "wind": null
+      "wind": null,
+      "internal_id": 5
     },
     {
       "athlete_name": "ARAGONES VIDAL ESTER",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "1500 METRES LLISOS FEMENINS",
+      "discipline": "1500 metres llisos",
+      "raw_discipline_name": "1500 METRES LLISOS FEMENINS",
       "performance": "4:52.33",
-      "wind": null
+      "wind": null,
+      "internal_id": 134
     }
   ]
 }

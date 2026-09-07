@@ -9,25 +9,31 @@
       "athlete_name": "JUAN BARDINA TOMAS",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "ALÇADA FEMENINA",
+      "discipline": "Alçada",
+      "raw_discipline_name": "ALÇADA FEMENINA",
       "performance": "2.11",
-      "wind": null
+      "wind": null,
+      "internal_id": 7
     },
     {
       "athlete_name": "PEDRO ORTEGA VIDAL",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "ALÇADA FEMENINA",
+      "discipline": "Alçada",
+      "raw_discipline_name": "ALÇADA FEMENINA",
       "performance": "2.06",
-      "wind": null
+      "wind": null,
+      "internal_id": null
     },
     {
       "athlete_name": "JAVIER RODRIGUEZ CANO",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "ALÇADA FEMENINA",
+      "discipline": "Alçada",
+      "raw_discipline_name": "ALÇADA FEMENINA",
       "performance": "2.06",
-      "wind": null
+      "wind": null,
+      "internal_id": 245
     }
   ]
 }

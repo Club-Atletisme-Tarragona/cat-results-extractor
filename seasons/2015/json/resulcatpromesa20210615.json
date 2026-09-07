@@ -2,19 +2,9 @@
   "event_name": "Campionat de Catalunya Promesa",
   "event_date": "21/06/2015",
   "event_location": "Club                                             Lic",
-  "total_results": 23,
+  "total_results": 20,
   "event_src": "http://old.fcatletisme.cat/Pairelliure/2015/resulcatpromesa20210615.pdf",
   "results": [
-    {
-      "athlete_name": "Marta Font Palomar 1",
-      "athlete_dob": "21/12/1993",
-      "athlete_id": "CL18125",
-      "performance": "17:36",
-      "discipline": "10 km marxa",
-      "raw_discipline_name": "10.000 METRES MARXA PROMESA MASCULÍ",
-      "wind": "-2.2",
-      "internal_id": 285
-    },
     {
       "athlete_name": "Marina Tibau Sendra",
       "athlete_dob": "06/08/1995",
@@ -214,26 +204,6 @@
       "raw_discipline_name": "LLANÇAMENT DE JAVELINA PROMESA FEMENI (600g)",
       "wind": null,
       "internal_id": 359
-    },
-    {
-      "athlete_name": "Mohamed Maman (f)",
-      "athlete_dob": "20/12/1994",
-      "athlete_id": "CT24268",
-      "performance": "17:36",
-      "discipline": "10 km marxa",
-      "raw_discipline_name": "10000 METRES MARXA PROMESA FEMENI",
-      "wind": null,
-      "internal_id": 496
-    },
-    {
-      "athlete_name": "Marta Font Palomar 8",
-      "athlete_dob": "21/12/1993",
-      "athlete_id": "CL18125",
-      "performance": "1:04.99",
-      "discipline": "10 km marxa",
-      "raw_discipline_name": "10000 METRES MARXA PROMESA FEMENI",
-      "wind": null,
-      "internal_id": 285
     }
   ]
 }

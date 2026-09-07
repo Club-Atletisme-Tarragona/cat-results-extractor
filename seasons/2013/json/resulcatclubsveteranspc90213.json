@@ -3,28 +3,8 @@
   "event_date": "09/02/2013",
   "event_location": "",
   "event_src": "http://old.fcatletisme.cat/Pcoberta/pcoberta2013/resulcatclubsveteranspc90213.pdf",
-  "total_results": 40,
+  "total_results": 23,
   "results": [
-    {
-      "athlete_name": "FORNIES CAMER ANTONIO",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60 METRES LLISOS MASCULINS",
-      "performance": "46",
-      "wind": null,
-      "internal_id": 396
-    },
-    {
-      "athlete_name": "MARTIN ALVAREZ JOSE MIGUEL",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "discipline": "200 metres llisos",
-      "raw_discipline_name": "200 METRES LLISOS MASCULINS",
-      "performance": "40",
-      "wind": null,
-      "internal_id": 15
-    },
     {
       "athlete_name": "MATEO SANZ JOSEP MARIA",
       "athlete_dob": "",
@@ -64,56 +44,6 @@
       "performance": "10:27.37",
       "wind": null,
       "internal_id": 5
-    },
-    {
-      "athlete_name": "IBORRA MARTINEZ FRANCISCO JOSE",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "discipline": "60 metres tanques (1.067)",
-      "raw_discipline_name": "60 METRES TANQUES MASCULINS",
-      "performance": "45",
-      "wind": null,
-      "internal_id": 1
-    },
-    {
-      "athlete_name": "FORNIES CAMER ANTONIO",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "discipline": "4x200",
-      "raw_discipline_name": "RELLES 4 X 200 METRES MASCULINS",
-      "performance": "46",
-      "wind": null,
-      "internal_id": 396
-    },
-    {
-      "athlete_name": "IBORRA MARTINEZ FRANCISCO JOSE",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "discipline": "4x200",
-      "raw_discipline_name": "RELLES 4 X 200 METRES MASCULINS",
-      "performance": "45",
-      "wind": null,
-      "internal_id": 1
-    },
-    {
-      "athlete_name": "MATEO SANZ JOSEP MARIA",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "discipline": "4x200",
-      "raw_discipline_name": "RELLES 4 X 200 METRES MASCULINS",
-      "performance": "48",
-      "wind": null,
-      "internal_id": 343
-    },
-    {
-      "athlete_name": "PARDINES GRAS PERE",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "discipline": "4x200",
-      "raw_discipline_name": "RELLES 4 X 200 METRES MASCULINS",
-      "performance": "48",
-      "wind": null,
-      "internal_id": 71
     },
     {
       "athlete_name": "DOMINGO FUSTER MARIA",
@@ -156,72 +86,12 @@
       "internal_id": 375
     },
     {
-      "athlete_name": "GARBAJOSA TORRECILLA MARIAN",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "discipline": "1500 metres llisos",
-      "raw_discipline_name": "1500 METRES LLISOS FEMENINS",
-      "performance": "243.50",
-      "wind": null,
-      "internal_id": 375
-    },
-    {
-      "athlete_name": "GARBAJOSA TORRECILLA MARIAN",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "discipline": "4x200",
-      "raw_discipline_name": "RELLES 4 X 200 METRES FEMENINS",
-      "performance": "68.10",
-      "wind": null,
-      "internal_id": 375
-    },
-    {
-      "athlete_name": "DOMINGO FUSTER MARIA",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "discipline": "4x200",
-      "raw_discipline_name": "RELLES 4 X 200 METRES FEMENINS",
-      "performance": "68.10",
-      "wind": null,
-      "internal_id": 384
-    },
-    {
-      "athlete_name": "GARCIA LLAO ALICIA",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "discipline": "4x200",
-      "raw_discipline_name": "RELLES 4 X 200 METRES FEMENINS",
-      "performance": "68.10",
-      "wind": null,
-      "internal_id": 402
-    },
-    {
-      "athlete_name": "PRADILLO GUTIERREZ MARISA",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "discipline": "4x200",
-      "raw_discipline_name": "RELLES 4 X 200 METRES FEMENINS",
-      "performance": "68.10",
-      "wind": null,
-      "internal_id": 389
-    },
-    {
       "athlete_name": "PARDINES GRAS PERE",
       "athlete_dob": "",
       "athlete_id": "",
       "discipline": "Alçada",
       "raw_discipline_name": "SALT D'ALÇADA MASCULÍ",
       "performance": "1.60",
-      "wind": null,
-      "internal_id": 71
-    },
-    {
-      "athlete_name": "PARDINES GRAS PERE",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "discipline": "Alçada",
-      "raw_discipline_name": "SALT D'ALÇADA MASCULÍ",
-      "performance": "48",
       "wind": null,
       "internal_id": 71
     },
@@ -261,16 +131,6 @@
       "athlete_id": "",
       "discipline": "Llargada",
       "raw_discipline_name": "SALT DE LLARGADA MASCULÍ",
-      "performance": "63",
-      "wind": null,
-      "internal_id": 304
-    },
-    {
-      "athlete_name": "SAEZ PEREZ LUIS",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "discipline": "Llargada",
-      "raw_discipline_name": "SALT DE LLARGADA MASCULÍ",
       "performance": "5.93",
       "wind": null,
       "internal_id": 304
@@ -292,16 +152,6 @@
       "discipline": "Pes (7.260 Kg)",
       "raw_discipline_name": "LLANÇAMENT DE PES MASCULÍ",
       "performance": "8.21",
-      "wind": null,
-      "internal_id": 406
-    },
-    {
-      "athlete_name": "JIMENEZ MENA MANUEL",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "discipline": "Pes (7.260 Kg)",
-      "raw_discipline_name": "LLANÇAMENT DE PES MASCULÍ",
-      "performance": "57",
       "wind": null,
       "internal_id": 406
     },
@@ -341,16 +191,6 @@
       "athlete_id": "",
       "discipline": "Llargada",
       "raw_discipline_name": "SALT DE LLARGADA FEMENÍ",
-      "performance": "51",
-      "wind": null,
-      "internal_id": 389
-    },
-    {
-      "athlete_name": "PRADILLO GUTIERREZ MARISA",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "discipline": "Llargada",
-      "raw_discipline_name": "SALT DE LLARGADA FEMENÍ",
       "performance": "5.90",
       "wind": null,
       "internal_id": 389
@@ -372,16 +212,6 @@
       "discipline": "Pes (4 Kg)",
       "raw_discipline_name": "LLANÇAMENT DE PES FEMENÍ",
       "performance": "6.12",
-      "wind": null,
-      "internal_id": 376
-    },
-    {
-      "athlete_name": "PINYOL MARGALEF JOANA",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "LLANÇAMENT DE PES FEMENÍ",
-      "performance": "49",
       "wind": null,
       "internal_id": 376
     },

@@ -135,8 +135,8 @@ def tanques_name(distance: int, gender: str, cat: str) -> str:
         if gender == "f":
             # women: cadet/juvenil 0.762; junior+ 0.84
             return "100 metres tanques (0.762)" if cat in ("cadet", "juvenil") else "100 metres tanques (0.84)"
-        # men's 100mh exists only for cadet/juvenil (0.914)
-        return "100 metres tanques (0.91)" if cat in ("cadet", "juvenil") else None
+        # men's 100mh: cadet/juvenil (0.914) or absolut (0.91 per FCA Sub23+)
+        return "100 metres tanques (0.91)"
     if d == 110:
         # men only: cadet/juvenil 0.914 -> (0.91); junior 0.991 -> (0.99); promesa/abs 1.067
         if cat in ("cadet", "juvenil"):
@@ -1253,7 +1253,12 @@ FILE_DISCIPLINE_MAP = {
 }
 
 CAT_TOKENS = {"CADET": "cadet", "JUVENIL": "juvenil", "JUNIOR": "junior", "PROMESA": "promesa",
-              "ALEVÍ": "alevi", "INFANTIL": "infantil", "BENJAMÍ": "benjami"}
+              "ALEVÍ": "alevi", "ALEVI": "alevi", "INFANTIL": "infantil", "BENJAMÍ": "benjami",
+              "BENJAMI": "benjami", "PREBENJAMÍ": "prebenjami", "PREBENJAMI": "prebenjami",
+              "S10": "alevi", "S12": "alevi", "S14": "infantil", "S16": "cadet",
+              "S18": "juvenil", "S20": "junior", "S23": "promesa",
+              "SUB12": "alevi", "SUB14": "infantil", "SUB16": "cadet",
+              "SUB18": "juvenil", "SUB20": "junior", "SUB23": "promesa"}
 
 def norm(raw: str) -> str:
     return re.sub(r"\s+", " ", raw.strip().upper())
@@ -1279,7 +1284,7 @@ def athlete_context(filename: str, athlete_name: str):
 def gender_of(raw_upper: str):
     if re.search(r"\bMASCUL[IÍ](N[OAS]|NS|O|A)?\b", raw_upper):
         return "m"
-    if re.search(r"\bFEMEN[IÍ](N[AS]|NS|A)?\b", raw_upper):
+    if re.search(r"\bFEMEN[IÍ](N[AS]|NS|A|SES|SE)?\b", raw_upper):
         return "f"
     # glued abbreviations ("fem.Absolut", "masc.Junior", "Vet. MAS.")
     if re.search(r"\bMASC\b|\bMAS\b|\bMASCUÍ\b", raw_upper):
@@ -1372,7 +1377,7 @@ def map_discipline(raw: str, event_name: str, filename: str, athlete_name: str =
 
     # "X METRES <cat/gender>" without LLISOS (e.g. "3000 METRES MASCULÍ")
     m = re.match(r"^(\d{1,2}(?:\.\d{3})?|\d{3,5})\s+METRES\b", up)
-    if m and not re.search(r"\b(TANQUES|OBSTACLES|MARXA|MARCHA|LLISOS)\b", up):
+    if m and not re.search(r"\b(TANQUES|OBSTACLES|MARXA|MARCHA|LLISOS|MT)\b", up):
         dist = int(m.group(1).replace(".", ""))
         return f"{dist} metres llisos", None
 
@@ -1386,8 +1391,8 @@ def map_discipline(raw: str, event_name: str, filename: str, athlete_name: str =
 
     # Bare-'m' distance names ("1.500 m juvenil a absolut masculí", "60m FEM. AL")
     # But NOT if the raw mentions 'tanques' (e.g. "110m tanques (1,067) S23 MASC. AL")
-    m = re.match(r"^(\d{1,2}(?:\.\d{3})?|\d{3,5})\s*[mM]\b", up)
-    if m and not re.search(r"\bTANQUES\b|\bVALLAS\b|\bMV\b", up):
+    m = re.match(r"^(\d{1,2}(?:\.\d{3})?|\d{3,5})\s*[mM](?=[A-ZÀ-Ú\s]|$)", up)
+    if m and not re.search(r"\bTANQUES\b|\bVALLAS\b|\bMV\b|\dMT\b", up):
         dist = int(m.group(1).replace(".", ""))
         return f"{dist} metres llisos", None
 
@@ -1409,6 +1414,8 @@ def map_discipline(raw: str, event_name: str, filename: str, athlete_name: str =
     # Hurdles (tanques): "X METRES TANQUES" form
     m = re.match(r"^(\d{2,3})\s+METRES TANQUES\b", up)
     # Also match "Xm tanques" and "Xm vallas" forms
+    if not m:
+        m = re.match(r"^(\d{2,3})\s*[mM][tT]\b", up)  # '300mt (0,84)'
     if not m:
         m = re.match(r"^(\d{2,3})\s*[mM]\s+(?:TANQUES|VALLAS)\b", up)
     if m:
@@ -1472,6 +1479,11 @@ def map_discipline(raw: str, event_name: str, filename: str, athlete_name: str =
                 gender = "m" if m50.group(1) == "M" else "f"
                 lo_age = int(m50.group(2))
                 cat = "vet50" if lo_age >= 50 else "absolut"
+            else:
+                # Sub-age suffix: "Pes SUB12M" / "Javelina S10F"
+                sub_g = re.search(r"\b(?:SUB)?(\d+)([MF])\b", up)
+                if sub_g:
+                    gender = sub_g.group(2).lower()
         if gender is None:
             # category-only raw names (e.g. "MARTELL PROMESA") are resolved in FILE_DISCIPLINE_MAP
             return None, f"{implement.lower()} without gender"
@@ -1543,6 +1555,17 @@ def map_discipline(raw: str, event_name: str, filename: str, athlete_name: str =
         if name and name in OFFICIAL_NAMES | APPROVED_PENDING:
             return name, "control combinades default (context lost)"
 
+    # Turbo jav / Vortex javelina (Sub-10/12): 'Jabalina Vortex S10M' → Javelina (300 g)
+    if re.search(r"\bVORTEX\b", up):
+        gender = gender_of(up)
+        if gender is None:
+            gm = re.search(r"\bS10([MF])\b", up)
+            if gm:
+                gender = gm.group(1).lower()
+        if gender is None:
+            gender = "m"
+        return "Javelina (300 g)", "Vortex turbo jav (300g)"
+
     # Bare implement names (e.g. "Disc Femení") + masters age ranges
     m = re.match(r"^(PES|PESO|DISCO?|MAR(?:TELL|TILLO)(?:O)?|JAVELINA|JABALINA|JAVELOT)\b", up)
     if m:
@@ -1563,7 +1586,12 @@ def map_discipline(raw: str, event_name: str, filename: str, athlete_name: str =
                 lo_age = int(m50.group(2))
                 cat = "vet50" if lo_age >= 50 else "absolut"
         if gender is None:
-            return None, f"{implement.lower()} without gender"
+            # Sub-age suffix: "Pes SUB12M" / "Javelina S10F"
+            sub_g = re.search(r"\b(?:SUB)?(\d+)([MF])\b", up)
+            if sub_g:
+                gender = sub_g.group(2).lower()
+            if gender is None:
+                return None, f"{implement.lower()} without gender"
         table = {("pes", "m"): PES_M, ("pes", "f"): PES_F,
                  ("disc", "m"): DISC_M, ("disc", "f"): DISC_F,
                  ("martell", "m"): MARTELL_M, ("martell", "f"): MARTELL_F,
@@ -1644,7 +1672,7 @@ def map_discipline(raw: str, event_name: str, filename: str, athlete_name: str =
     m = re.search(r"(\d)\s*[xX×]\s*(\d{2,3})(?!\d)", up)
     if m:
         rel = f"{m.group(1)}x{int(m.group(2))}"
-        table = {"4x60": "4x60", "4x100": "4x100", "4x200": "4x200", "4x300": "4x300",
+        table = {"4x60": "4x60", "4x80": "4x80", "4x100": "4x100", "4x200": "4x200", "4x300": "4x300",
                  "4x400": "4x400", "3x600": "3x600"}
         return table.get(rel), (None if rel in table else f"unknown relay {rel}")
 

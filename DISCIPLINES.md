@@ -113,5 +113,7 @@ Dump of the `disciplines` database table (generated 2026-09-07 02:08).
 | 115 | 100 metres tanques (0.91) | ASC | ss.cc | ss.cc (w) | 2.0 | 106 | 100m vallas (0,91) |
 | 114 | 60 metres tanques (0.50) | ASC | ss.cc | ss.cc | 2.0 | 107 | 60m vallas (0,50) |
 | 116 | Pes (2 Kg) | DESC | m.cm | m.cm |  | 108 | Peso (2kg) |
+| 117 | 4x80 | ASC | ss.cc | ss.cc (e) |  | 109 | 4x80 |
+| 118 | Javelina (300 g) | DESC | m.cm | m.cm |  | 110 | Jabalina 300g |
 
-Total rows: 109
+Total rows: 112

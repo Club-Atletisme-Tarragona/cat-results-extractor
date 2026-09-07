@@ -10,56 +10,70 @@
       "athlete_dob": "24/07/1989",
       "athlete_id": "CL15436",
       "performance": "23.93",
-      "discipline": "200m MASC. AL",
-      "wind": "-0.1"
+      "discipline": "200 metres llisos",
+      "raw_discipline_name": "200m MASC. AL",
+      "wind": "-0.1",
+      "internal_id": 217
     },
     {
       "athlete_name": "Montse Guinovart Pedescoll JF",
       "athlete_dob": "24/03/1994",
       "athlete_id": "CL18859",
       "performance": "4.76",
-      "discipline": "Llargada FEM. AL",
-      "wind": "-0.3"
+      "discipline": "Llargada",
+      "raw_discipline_name": "Llargada FEM. AL",
+      "wind": "-0.3",
+      "internal_id": 313
     },
     {
       "athlete_name": "Montse Guinovart Pedescoll JF",
       "athlete_dob": "24/03/1994",
       "athlete_id": "CL18859",
       "performance": "4.82",
-      "discipline": "Llargada FEM. AL",
-      "wind": "-1.5"
+      "discipline": "Llargada",
+      "raw_discipline_name": "Llargada FEM. AL",
+      "wind": "-1.5",
+      "internal_id": 313
     },
     {
       "athlete_name": "Montse Guinovart Pedescoll JF",
       "athlete_dob": "24/03/1994",
       "athlete_id": "CL18859",
       "performance": "4.69",
-      "discipline": "Llargada FEM. AL",
-      "wind": "-1.8"
+      "discipline": "Llargada",
+      "raw_discipline_name": "Llargada FEM. AL",
+      "wind": "-1.8",
+      "internal_id": 313
     },
     {
       "athlete_name": "Helena Rios Montserrat LF",
       "athlete_dob": "13/06/1996",
       "athlete_id": "CL21953",
       "performance": "29.07",
-      "discipline": "200m FEM. AL",
-      "wind": "+1.1"
+      "discipline": "200 metres llisos",
+      "raw_discipline_name": "200m FEM. AL",
+      "wind": "+1.1",
+      "internal_id": 409
     },
     {
       "athlete_name": "Mireia Molne Rione LF",
       "athlete_dob": "02/10/1997",
       "athlete_id": "CL21964",
       "performance": "34.27",
-      "discipline": "800m FEM. AL",
-      "wind": null
+      "discipline": "800 metres llisos",
+      "raw_discipline_name": "800m FEM. AL",
+      "wind": null,
+      "internal_id": 357
     },
     {
       "athlete_name": "Julia Olle Gatell SF",
       "athlete_dob": "26/10/1985",
       "athlete_id": "CL18306",
       "performance": "50.94",
-      "discipline": "5.000m FEM. AL",
-      "wind": null
+      "discipline": "5000 metres llisos",
+      "raw_discipline_name": "5.000m FEM. AL",
+      "wind": null,
+      "internal_id": 388
     }
   ]
 }

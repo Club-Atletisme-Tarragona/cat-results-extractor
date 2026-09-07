@@ -6,23 +6,31 @@
   "results": [
     {
       "athlete_name": "Adolf Milla Guasch",
-      "discipline": "60 METRES LLISOS",
-      "performance": "7.71"
+      "discipline": "60 metres llisos",
+      "raw_discipline_name": "60 METRES LLISOS",
+      "performance": "7.71",
+      "internal_id": 434
     },
     {
       "athlete_name": "Adolf Milla Guasch",
-      "discipline": "400 METRES LLISOS",
-      "performance": "40.54"
+      "discipline": "400 metres llisos",
+      "raw_discipline_name": "400 METRES LLISOS",
+      "performance": "40.54",
+      "internal_id": 434
     },
     {
       "athlete_name": "Andrea Lopez Urbano",
       "discipline": "Llargada",
-      "performance": "9.07"
+      "raw_discipline_name": "Llargada",
+      "performance": "9.07",
+      "internal_id": 437
     },
     {
       "athlete_name": "Andrea Lopez Urbano",
-      "discipline": "400 METRES LLISOS",
-      "performance": "51.66"
+      "discipline": "400 metres llisos",
+      "raw_discipline_name": "400 METRES LLISOS",
+      "performance": "51.66",
+      "internal_id": 437
     }
   ]
 }

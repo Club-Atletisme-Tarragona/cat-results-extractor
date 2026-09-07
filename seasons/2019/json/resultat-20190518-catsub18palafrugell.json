@@ -10,48 +10,60 @@
       "athlete_dob": "31/10/2003",
       "athlete_id": "CL29246",
       "performance": "1:02.77",
-      "discipline": "10.000m Marxa MASC.",
-      "wind": "-1.7"
+      "discipline": "10000 metres llisos",
+      "raw_discipline_name": "10.000m Marxa MASC.",
+      "wind": "-1.7",
+      "internal_id": 701
     },
     {
       "athlete_name": "6 86 (t) Carla Gonzalez Carrillo 2",
       "athlete_dob": "05/06/2003",
       "athlete_id": "CL29242",
       "performance": "1:07.07",
-      "discipline": "10.000m Marxa MASC.",
-      "wind": "-1.7"
+      "discipline": "10000 metres llisos",
+      "raw_discipline_name": "10.000m Marxa MASC.",
+      "wind": "-1.7",
+      "internal_id": 698
     },
     {
       "athlete_name": "8 89 (t) Laura Yan Sole Barba 1 642",
       "athlete_dob": "31/10/2003",
       "athlete_id": "CL29246",
       "performance": "1:06.20",
-      "discipline": "10.000m Marxa MASC.",
-      "wind": "-1.7"
+      "discipline": "10000 metres llisos",
+      "raw_discipline_name": "10.000m Marxa MASC.",
+      "wind": "-1.7",
+      "internal_id": 701
     },
     {
       "athlete_name": "4 87 (t) Nerea Lago Garbajosa 3",
       "athlete_dob": "15/05/2000",
       "athlete_id": "CL25157",
       "performance": "1:07.61",
-      "discipline": "10.000m Marxa MASC.",
-      "wind": "-1.7"
+      "discipline": "10000 metres llisos",
+      "raw_discipline_name": "10.000m Marxa MASC.",
+      "wind": "-1.7",
+      "internal_id": 534
     },
     {
       "athlete_name": "6 88 (t) Claudia Mir Casellas",
       "athlete_dob": "02/08/2003",
       "athlete_id": "CL29243",
       "performance": "1:10.21",
-      "discipline": "10.000m Marxa MASC.",
-      "wind": "+0.3"
+      "discipline": "10000 metres llisos",
+      "raw_discipline_name": "10.000m Marxa MASC.",
+      "wind": "+0.3",
+      "internal_id": 699
     },
     {
       "athlete_name": "4 85 Maria Falco Cuenca 735",
       "athlete_dob": "14/06/2002",
       "athlete_id": "CT27273",
       "performance": "1.50",
-      "discipline": "Alçada FEM. AL",
-      "wind": null
+      "discipline": "Alçada",
+      "raw_discipline_name": "Alçada FEM. AL",
+      "wind": null,
+      "internal_id": 664
     }
   ]
 }

@@ -10,48 +10,60 @@
       "athlete_dob": "15/12/2000",
       "athlete_id": "CL25158",
       "performance": "37.99",
-      "discipline": "1.500m FEM. PC",
-      "wind": null
+      "discipline": "1500 metres llisos",
+      "raw_discipline_name": "1.500m FEM. PC",
+      "wind": null,
+      "internal_id": 520
     },
     {
       "athlete_name": "6 55 Maria Falco Cuenca LF",
       "athlete_dob": "14/06/2002",
       "athlete_id": "CT27273",
       "performance": "1.53",
-      "discipline": "Alçada FEM. PC",
-      "wind": null
+      "discipline": "Alçada",
+      "raw_discipline_name": "Alçada FEM. PC",
+      "wind": null,
+      "internal_id": 664
     },
     {
       "athlete_name": "9 55 (t) Berta Sanchez Ruiz LF 3.5",
       "athlete_dob": "05/08/2002",
       "athlete_id": "CL27855",
       "performance": "2.20",
-      "discipline": "Perxa FEM. PC",
-      "wind": null
+      "discipline": "Perxa",
+      "raw_discipline_name": "Perxa FEM. PC",
+      "wind": null,
+      "internal_id": 643
     },
     {
       "athlete_name": "10 55 (t) Nuria Menchon Tevar LF",
       "athlete_dob": "25/06/2002",
       "athlete_id": "CL27849",
       "performance": "6.29",
-      "discipline": "Pes (4kg) FEM. PC",
-      "wind": null
+      "discipline": "Pes (4 Kg)",
+      "raw_discipline_name": "Pes (4kg) FEM. PC",
+      "wind": null,
+      "internal_id": 541
     },
     {
       "athlete_name": "10 55 (t) Nuria Menchon Tevar LF",
       "athlete_dob": "25/06/2002",
       "athlete_id": "CL27849",
       "performance": "6.74",
-      "discipline": "Pes (4kg) FEM. PC",
-      "wind": null
+      "discipline": "Pes (4 Kg)",
+      "raw_discipline_name": "Pes (4kg) FEM. PC",
+      "wind": null,
+      "internal_id": 541
     },
     {
       "athlete_name": "10 55 (t) Nuria Menchon Tevar LF",
       "athlete_dob": "25/06/2002",
       "athlete_id": "CL27849",
       "performance": "6.80",
-      "discipline": "Pes (4kg) FEM. PC",
-      "wind": null
+      "discipline": "Pes (4 Kg)",
+      "raw_discipline_name": "Pes (4kg) FEM. PC",
+      "wind": null,
+      "internal_id": 541
     }
   ]
 }

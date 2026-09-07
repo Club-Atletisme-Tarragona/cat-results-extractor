@@ -10,45 +10,55 @@
       "athlete_dob": "31/10/2003",
       "athlete_id": "CL29246",
       "performance": "12.98",
-      "discipline": "100m FEM. AL ABS",
+      "discipline": "100 metres llisos",
+      "raw_discipline_name": "100m FEM. AL ABS",
       "wind": "+2.5",
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2019072021-controljuliolcambrils.pdf"
+      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2019072021-controljuliolcambrils.pdf",
+      "internal_id": 701
     },
     {
       "athlete_name": "Laura Yan Sole Barba LF",
       "athlete_dob": "31/10/2003",
       "athlete_id": "CL29246",
       "performance": "27.50",
-      "discipline": "200m FEM. AL ABS",
+      "discipline": "200 metres llisos",
+      "raw_discipline_name": "200m FEM. AL ABS",
       "wind": "+1.8",
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2019072021-controljuliolcambrils.pdf"
+      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2019072021-controljuliolcambrils.pdf",
+      "internal_id": 701
     },
     {
       "athlete_name": "Patricia Amador Peris W-35",
       "athlete_dob": "18/02/1980",
       "athlete_id": "CT28190",
       "performance": "23.63",
-      "discipline": "800m FEM. AL ABS",
+      "discipline": "800 metres llisos",
+      "raw_discipline_name": "800m FEM. AL ABS",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2019072021-controljuliolcambrils.pdf"
+      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2019072021-controljuliolcambrils.pdf",
+      "internal_id": 644
     },
     {
       "athlete_name": "Lara Herrera Vallve",
       "athlete_dob": "07/04/2005",
       "athlete_id": "CL82414",
       "performance": "3.86",
-      "discipline": "Longitud FEM. AL ABS",
+      "discipline": "Llargada",
+      "raw_discipline_name": "Longitud FEM. AL ABS",
       "wind": "+2.6",
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2019072021-controljuliolcambrils.pdf"
+      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2019072021-controljuliolcambrils.pdf",
+      "internal_id": 813
     },
     {
       "athlete_name": "Lara Herrera Vallve",
       "athlete_dob": "07/04/2005",
       "athlete_id": "CL82414",
       "performance": "3.94",
-      "discipline": "Longitud FEM. AL ABS",
+      "discipline": "Llargada",
+      "raw_discipline_name": "Longitud FEM. AL ABS",
       "wind": "+1.6",
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2019072021-controljuliolcambrils.pdf"
+      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2019072021-controljuliolcambrils.pdf",
+      "internal_id": 813
     }
   ]
 }

@@ -10,24 +10,30 @@
       "athlete_dob": "27/08/2010",
       "athlete_id": "CL94383",
       "performance": "3.45",
-      "discipline": "Llargada SUB10 MASC. AL",
-      "wind": null
+      "discipline": "Llargada",
+      "raw_discipline_name": "Llargada SUB10 MASC. AL",
+      "wind": null,
+      "internal_id": 1055
     },
     {
       "athlete_name": "7 278 (t) Diana Garcia Mur BF 15",
       "athlete_dob": "23/02/2010",
       "athlete_id": "CL90833",
       "performance": "3:44.17",
-      "discipline": "1.000m Marxa SUB10 MASC. en pista",
-      "wind": null
+      "discipline": "1000 metres llisos",
+      "raw_discipline_name": "1.000m Marxa SUB10 MASC. en pista",
+      "wind": null,
+      "internal_id": 1081
     },
     {
       "athlete_name": "10 279 (t) Nora Montolio Amaro BF",
       "athlete_dob": "05/02/2010",
       "athlete_id": "CL90841",
       "performance": "3:47.38",
-      "discipline": "1.000m Marxa SUB10 MASC. en pista",
-      "wind": null
+      "discipline": "1000 metres llisos",
+      "raw_discipline_name": "1.000m Marxa SUB10 MASC. en pista",
+      "wind": null,
+      "internal_id": 1089
     }
   ]
 }

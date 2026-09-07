@@ -10,64 +10,80 @@
       "athlete_dob": "09/10/1999",
       "athlete_id": "CT23992",
       "performance": "21:10",
-      "discipline": "10.000m Marxa MASC.",
-      "wind": "-2.0"
+      "discipline": "10000 metres llisos",
+      "raw_discipline_name": "10.000m Marxa MASC.",
+      "wind": "-2.0",
+      "internal_id": 472
     },
     {
       "athlete_name": "4 336 Alicia Vazquez Domingo",
       "athlete_dob": "09/10/1999",
       "athlete_id": "CT23992",
       "performance": "5.34",
-      "discipline": "Llargada FEM. AL",
-      "wind": "+1.2"
+      "discipline": "Llargada",
+      "raw_discipline_name": "Llargada FEM. AL",
+      "wind": "+1.2",
+      "internal_id": 472
     },
     {
       "athlete_name": "4 336 Alicia Vazquez Domingo",
       "athlete_dob": "09/10/1999",
       "athlete_id": "CT23992",
       "performance": "5.42",
-      "discipline": "Llargada FEM. AL",
-      "wind": "-0.2"
+      "discipline": "Llargada",
+      "raw_discipline_name": "Llargada FEM. AL",
+      "wind": "-0.2",
+      "internal_id": 472
     },
     {
       "athlete_name": "4 336 Alicia Vazquez Domingo",
       "athlete_dob": "09/10/1999",
       "athlete_id": "CT23992",
       "performance": "5.29",
-      "discipline": "Llargada FEM. AL",
-      "wind": "+1.1"
+      "discipline": "Llargada",
+      "raw_discipline_name": "Llargada FEM. AL",
+      "wind": "+1.1",
+      "internal_id": 472
     },
     {
       "athlete_name": "4 336 Alicia Vazquez Domingo",
       "athlete_dob": "09/10/1999",
       "athlete_id": "CT23992",
       "performance": "5.39",
-      "discipline": "Llargada FEM. AL",
-      "wind": "+0.2"
+      "discipline": "Llargada",
+      "raw_discipline_name": "Llargada FEM. AL",
+      "wind": "+0.2",
+      "internal_id": 472
     },
     {
       "athlete_name": "7 335 (t) Joana Domingo Ingles",
       "athlete_dob": "17/01/1999",
       "athlete_id": "CL25668",
       "performance": "27.55",
-      "discipline": "Disc (1kg) FEM.",
-      "wind": null
+      "discipline": "Disc (1 Kg)",
+      "raw_discipline_name": "Disc (1kg) FEM.",
+      "wind": null,
+      "internal_id": 476
     },
     {
       "athlete_name": "7 335 (t) Joana Domingo Ingles",
       "athlete_dob": "17/01/1999",
       "athlete_id": "CL25668",
       "performance": "26.31",
-      "discipline": "Disc (1kg) FEM.",
-      "wind": null
+      "discipline": "Disc (1 Kg)",
+      "raw_discipline_name": "Disc (1kg) FEM.",
+      "wind": null,
+      "internal_id": 476
     },
     {
       "athlete_name": "7 335 (t) Joana Domingo Ingles",
       "athlete_dob": "17/01/1999",
       "athlete_id": "CL25668",
       "performance": "25.96",
-      "discipline": "Disc (1kg) FEM.",
-      "wind": null
+      "discipline": "Disc (1 Kg)",
+      "raw_discipline_name": "Disc (1kg) FEM.",
+      "wind": null,
+      "internal_id": 476
     }
   ]
 }

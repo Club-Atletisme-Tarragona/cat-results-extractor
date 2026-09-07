@@ -10,40 +10,50 @@
       "athlete_dob": "27/04/2000",
       "athlete_id": "CL62297",
       "performance": "26.52",
-      "discipline": "1.000m FEM. PC",
-      "wind": null
+      "discipline": "1000 metres llisos",
+      "raw_discipline_name": "1.000m FEM. PC",
+      "wind": null,
+      "internal_id": 680
     },
     {
       "athlete_name": "Mireia Lopez Urbano Q",
       "athlete_dob": "07/12/2000",
       "athlete_id": "CL54681",
       "performance": "3.93",
-      "discipline": "Llargada FEM. PC",
-      "wind": null
+      "discipline": "Llargada",
+      "raw_discipline_name": "Llargada FEM. PC",
+      "wind": null,
+      "internal_id": 527
     },
     {
       "athlete_name": "Mireia Lopez Urbano Q",
       "athlete_dob": "07/12/2000",
       "athlete_id": "CL54681",
       "performance": "4.03",
-      "discipline": "Llargada FEM. PC",
-      "wind": null
+      "discipline": "Llargada",
+      "raw_discipline_name": "Llargada FEM. PC",
+      "wind": null,
+      "internal_id": 527
     },
     {
       "athlete_name": "Alicia Vazquez Domingo",
       "athlete_dob": "09/10/1999",
       "athlete_id": "CL57690",
       "performance": "8.62",
-      "discipline": "Triple Salt FEM. PC",
-      "wind": null
+      "discipline": "Triple",
+      "raw_discipline_name": "Triple Salt FEM. PC",
+      "wind": null,
+      "internal_id": 472
     },
     {
       "athlete_name": "Alicia Vazquez Domingo",
       "athlete_dob": "09/10/1999",
       "athlete_id": "CL57690",
       "performance": "8.30",
-      "discipline": "Triple Salt FEM. PC",
-      "wind": null
+      "discipline": "Triple",
+      "raw_discipline_name": "Triple Salt FEM. PC",
+      "wind": null,
+      "internal_id": 472
     }
   ]
 }

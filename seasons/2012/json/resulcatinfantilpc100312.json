@@ -10,32 +10,40 @@
       "athlete_dob": "27/04/2000",
       "athlete_id": "CL62297",
       "performance": "15.36",
-      "discipline": "Pes MASC.",
-      "wind": null
+      "discipline": "Pes (7.260 Kg)",
+      "raw_discipline_name": "Pes MASC.",
+      "wind": null,
+      "internal_id": 680
     },
     {
       "athlete_name": "Mireia Lopez Urbano",
       "athlete_dob": "07/12/2000",
       "athlete_id": "CL54681",
       "performance": "4.09",
-      "discipline": "Llargada FEM.",
-      "wind": null
+      "discipline": "Llargada",
+      "raw_discipline_name": "Llargada FEM.",
+      "wind": null,
+      "internal_id": 527
     },
     {
       "athlete_name": "Mireia Lopez Urbano",
       "athlete_dob": "07/12/2000",
       "athlete_id": "CL54681",
       "performance": "3.69",
-      "discipline": "Llargada FEM.",
-      "wind": null
+      "discipline": "Llargada",
+      "raw_discipline_name": "Llargada FEM.",
+      "wind": null,
+      "internal_id": 527
     },
     {
       "athlete_name": "Mireia Lopez Urbano",
       "athlete_dob": "07/12/2000",
       "athlete_id": "CL54681",
       "performance": "3.79",
-      "discipline": "Llargada FEM.",
-      "wind": null
+      "discipline": "Llargada",
+      "raw_discipline_name": "Llargada FEM.",
+      "wind": null,
+      "internal_id": 527
     }
   ]
 }

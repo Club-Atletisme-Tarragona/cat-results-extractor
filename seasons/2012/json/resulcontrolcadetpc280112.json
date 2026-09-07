@@ -10,40 +10,50 @@
       "athlete_dob": "19/05/1998",
       "athlete_id": "CL56809",
       "performance": "9.07",
-      "discipline": "60m MASC. PC",
-      "wind": null
+      "discipline": "60 metres llisos",
+      "raw_discipline_name": "60m MASC. PC",
+      "wind": null,
+      "internal_id": 439
     },
     {
       "athlete_name": "Andreu Aluja olesti",
       "athlete_dob": "01/02/1998",
       "athlete_id": "CL62267",
       "performance": "8.60",
-      "discipline": "60m MASC. PC",
-      "wind": null
+      "discipline": "60 metres llisos",
+      "raw_discipline_name": "60m MASC. PC",
+      "wind": null,
+      "internal_id": null
     },
     {
       "athlete_name": "Andreu Aluja olesti",
       "athlete_dob": "01/02/1998",
       "athlete_id": "CL62267",
       "performance": "45.96",
-      "discipline": "300m MASC. PC",
-      "wind": null
+      "discipline": "300 metres llisos",
+      "raw_discipline_name": "300m MASC. PC",
+      "wind": null,
+      "internal_id": null
     },
     {
       "athlete_name": "Xavier Ros Borrell",
       "athlete_dob": "19/05/1998",
       "athlete_id": "CL56809",
       "performance": "51.96",
-      "discipline": "600m MASC. PC",
-      "wind": null
+      "discipline": "600 metres llisos",
+      "raw_discipline_name": "600m MASC. PC",
+      "wind": null,
+      "internal_id": 439
     },
     {
       "athlete_name": "Mireia Molne Rione",
       "athlete_dob": "02/10/1997",
       "athlete_id": "CL59452",
       "performance": "34.00",
-      "discipline": "1.000m FEM. PC",
-      "wind": null
+      "discipline": "1000 metres llisos",
+      "raw_discipline_name": "1.000m FEM. PC",
+      "wind": null,
+      "internal_id": 357
     }
   ]
 }

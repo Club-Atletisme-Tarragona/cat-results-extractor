@@ -1,0 +1,39 @@
+{
+  "athlete_name": "LOPEZ BUENO VICTOR",
+  "athlete_id": "",
+  "athlete_dob": "",
+  "total_results": 2,
+  "name_variants_found": [
+    "LOPEZ BUENO VICTOR"
+  ],
+  "license_variants_found": [],
+  "source_files_count": 2,
+  "results": [
+    {
+      "event_name": "CAMPIONAT DE CATALUNYA",
+      "event_date": "27/6/2010",
+      "event_location": "Llobregat",
+      "event_src": "http://old.fcatletisme.cat/Veterans/veterans2010/resulcatveterans27610.pdf",
+      "athlete_name": "LOPEZ BUENO VICTOR",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "5000 metres llisos",
+      "performance": "19:47.79",
+      "wind": null,
+      "internal_id": 322
+    },
+    {
+      "event_name": "Control Absolut en Pista Coberta",
+      "event_date": "24/11/2010",
+      "event_location": "Penedès",
+      "event_src": "http://old.fcatletisme.cat/Pcoberta/pcoberta2010/resulcontrolpc24110.pdf",
+      "athlete_name": "LOPEZ BUENO VICTOR",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "3000 metres llisos",
+      "performance": "11:41.82",
+      "wind": null,
+      "internal_id": 322
+    }
+  ]
+}

@@ -5,8 +5,8 @@ Heights/weights follow the FCA *Proves autoritzades* tables (stable for the 2005
 combined events resolved per athlete from the PDF birth-year column.
 
 - files: 50
-- results: 613
-- mapped: 613
+- results: 611
+- mapped: 611
 - review (left unchanged): 0
 
 | count | raw discipline | official discipline |
@@ -16,9 +16,9 @@ combined events resolved per athlete from the PDF birth-year column.
 | 27 | `LLANÇAMENT DE PES MASCULÍ` | `Pes (7.260 Kg)` |
 | 27 | `SALT DE LLARGADA MASCULÍ` | `Llargada` |
 | 23 | `60 METRES LLISOS MASCULINS` | `60 metres llisos` |
-| 23 | `Salt d'alçada M` | `Alçada` |
 | 22 | `LLANÇAMENT DE MARTELL FEMENÍ` | `Martell (4 Kg)` |
 | 19 | `LLANÇAMENT DE PES` | `Pes (7.260 Kg)` |
+| 18 | `Salt d'alçada M` | `Alçada` |
 | 16 | `60 METRES TANQUES MASCULINS` | `60 metres tanques (1.067)` |
 | 13 | `LLANÇAMENT DE PES` | `Pes (2 Kg)` |
 | 12 | `LLARGADA Aleví Femení` | `Llargada` |
@@ -67,6 +67,7 @@ combined events resolved per athlete from the PDF birth-year column.
 | 3 | `400 METRES LLISOS MASCULINS` | `400 metres llisos` |
 | 3 | `60 METRES LLISOS BENJAMÍ FEMENÍ` | `60 metres llisos` |
 | 3 | `60 METRES TANQUES JUVENIL FEMENÍ` | `60 metres tanques (0.76)` |
+| 3 | `DISC MASCULÍ` | `Disc (2 Kg)` |
 | 3 | `LLANÇAMENT DE DISC` | `Disc (1,5 Kg)` |
 | 3 | `LLANÇAMENT DE JAVELINA` | `Javelina (700 g)` |
 | 3 | `LLANÇAMENT DE JAVELINA MASCULÍ` | `Javelina (800 g)` |

@@ -577,6 +577,8 @@ NICKNAMES = {
     "MARIA": ["MARÍA", "MA", "CARM"],
     "MIGUEL": ["MIQUEL"],
     "MIQUEL": ["MIGUEL"],
+    "JOAN": ["JUAN"],
+    "JUAN": ["JOAN"],
     "LUIS": ["LLOÏS"],
     "ALBERT": ["ALBERTO"],
     "ALBERTO": ["ALBERT"],

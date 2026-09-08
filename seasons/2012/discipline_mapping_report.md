@@ -5,13 +5,13 @@ Heights/weights follow the FCA *Proves autoritzades* tables (stable for the 2005
 combined events resolved per athlete from the PDF birth-year column.
 
 - files: 30
-- results: 759
-- mapped: 759
+- results: 729
+- mapped: 729
 - review (left unchanged): 0
 
 | count | raw discipline | official discipline |
 |---:|---|---|
-| 56 | `LLANÇAMENT DE PES` | `Pes (2 Kg)` |
+| 51 | `LLANÇAMENT DE PES` | `Pes (2 Kg)` |
 | 49 | `Javelina Cadet Femení                        500 gr.` | `Javelina (500g)` |
 | 23 | `LLANÇAMENT DE PES` | `Pes (7.260 Kg)` |
 | 21 | `LLANÇAMENT DE PES` | `Pes (3 Kg)` |
@@ -24,15 +24,14 @@ combined events resolved per athlete from the PDF birth-year column.
 | 14 | `Llargada FEM. AL` | `Llargada` |
 | 13 | `Javelina Infantil Femení                     400 gr.` | `Javelina (400 g)` |
 | 12 | `PES Absolut Femení                      4 kg` | `Pes (4 Kg)` |
-| 12 | `SALT DE LLARGADA MASCULÍ` | `Llargada` |
 | 11 | `LLARGADA Benjamí Masculí` | `Llargada` |
 | 11 | `Pes Absolut                                  7,260 kg` | `Pes (7.260 Kg)` |
-| 11 | `SALT D'ALÇADA MASCULÍ` | `Alçada` |
+| 11 | `SALT DE LLARGADA MASCULÍ` | `Llargada` |
 | 10 | `60 METRES TANQUES` | `60 metres tanques (0.50)` |
 | 10 | `LLARGADA Cadet Femení` | `Llargada` |
+| 10 | `SALT D'ALÇADA MASCULÍ` | `Alçada` |
 | 10 | `SALT DE LLARGADA MASCULÍ (M-45 / M-50 / M-60 / M-65 / M-75 / M-90)` | `Llargada` |
 | 9 | `Disc Absolut                                 2 kg` | `Disc (2 Kg)` |
-| 9 | `LLANÇAMENT DE PES MASCULÍ` | `Pes (7.260 Kg)` |
 | 8 | `LLANÇAMENT DE DISC FEMENÍ` | `Disc (1 Kg)` |
 | 7 | `ALÇADA Absolut Femení` | `Alçada` |
 | 7 | `Javelina Absolut                           800 g` | `Javelina (800 g)` |
@@ -45,12 +44,12 @@ combined events resolved per athlete from the PDF birth-year column.
 | 6 | `LLANÇAMENT DE PES (3 KG.) FEMENÍ` | `Pes (4 Kg)` |
 | 6 | `LLANÇAMENT DE PES FEMENÍ (3 KG)` | `Pes (4 Kg)` |
 | 6 | `LLANÇAMENT DE PES FEMENÍ (4 KG)` | `Pes (4 Kg)` |
+| 6 | `LLANÇAMENT DE PES MASCULÍ` | `Pes (7.260 Kg)` |
 | 6 | `Pes FEM AL` | `Pes (4 Kg)` |
 | 6 | `SALT DE LLARGADA BENJAMÍ MASCULÍ` | `Llargada` |
 | 5 | `1.000m FEM. AL` | `1000 metres llisos` |
 | 5 | `100 METRES LLISOS` | `100 metres llisos` |
 | 5 | `400 METRES LLISOS` | `400 metres llisos` |
-| 5 | `80 METRES TANQUES` | `80 metres tanques (0.84)` |
 | 5 | `LLANÇAMENT DE JAVELINA FEMENÍ (600 g.)` | `Javelina (600 g)` |
 | 5 | `LLANÇAMENT DE JAVELINA MASCULÍ (600 g.)` | `Javelina (800 g)` |
 | 5 | `LLANÇAMENT DE PES (4 KG.) FEMENÍ` | `Pes (4 Kg)` |
@@ -64,12 +63,9 @@ combined events resolved per athlete from the PDF birth-year column.
 | 4 | `Pes Júnior                                   6 kg` | `Pes (6 Kg)` |
 | 4 | `Pes fem.Absolut` | `Pes (4 Kg)` |
 | 4 | `Pes fem.Junior` | `Pes (4 Kg)` |
-| 4 | `RELLES 4 X 200 METRES MASCULINS` | `4x200` |
 | 4 | `TRIPLE SALT MASCULÍ` | `Triple` |
 | 3 | `200 METRES LLISOS` | `200 metres llisos` |
 | 3 | `60 METRES TANQUES` | `60 metres tanques (1.067)` |
-| 3 | `60 METRES TANQUES` | `60 metres tanques (0.76)` |
-| 3 | `60 METRES TANQUES MASCULINS` | `60 metres tanques (1.067)` |
 | 3 | `800 METRES LLISOS` | `800 metres llisos` |
 | 3 | `Disc FEM.` | `Disc (1 Kg)` |
 | 3 | `Disc FEM. AL` | `Disc (1 Kg)` |
@@ -97,14 +93,12 @@ combined events resolved per athlete from the PDF birth-year column.
 | 3 | `Pes FEM. AL` | `Pes (4 Kg)` |
 | 3 | `Triple Salt FEM. AL` | `Triple` |
 | 2 | `1.000m FEM. PC` | `1000 metres llisos` |
-| 2 | `100 METRES TANQUES` | `100 metres tanques (0.762)` |
 | 2 | `1000 METRES LLISOS MASCULINS` | `1000 metres llisos` |
 | 2 | `110 METRES TANQUES` | `110 metres tanques (0.99)` |
 | 2 | `1500 METRES LLISOS MASCULINS` | `1500 metres llisos` |
-| 2 | `200 METRES LLISOS MASCULINS` | `200 metres llisos` |
 | 2 | `3000 METRES LLISOS MASCULINS` | `3000 metres llisos` |
 | 2 | `60 METRES LLISOS BENJAMÍ FEMENÍ` | `60 metres llisos` |
-| 2 | `60 METRES LLISOS MASCULINS` | `60 metres llisos` |
+| 2 | `60 METRES TANQUES MASCULINS` | `60 metres tanques (1.067)` |
 | 2 | `60m MASC. PC` | `60 metres llisos` |
 | 2 | `80 METRES LLISOS INFANTIL FEMENÍ` | `80 metres llisos` |
 | 2 | `ALÇADA Infantil Masculí` | `Alçada` |
@@ -125,7 +119,6 @@ combined events resolved per athlete from the PDF birth-year column.
 | 1 | `10        70 (t) Victor Peso Keyer                          08/05/2001 16:46.09 11` | `2000 metres llisos` |
 | 1 | `10        70 (t) Victor Peso Keyer                          08/05/2001 16:46.09 11` | `60 metres tanques (0.50)` |
 | 1 | `100 METRES LLISOS MASCULINS` | `100 metres llisos` |
-| 1 | `100 METRES TANQUES` | `100 metres tanques (0.84)` |
 | 1 | `1000 METRES LLISOS BENJAMÍ FEMENÍ` | `1000 metres llisos` |
 | 1 | `1000 METRES LLISOS INFANTIL FEMENÍ` | `1000 metres llisos` |
 | 1 | `110 METRES TANQUES` | `110 metres tanques (1.067)` |
@@ -134,6 +127,7 @@ combined events resolved per athlete from the PDF birth-year column.
 | 1 | `2.000m FEM. AL` | `2000 metres llisos` |
 | 1 | `2.000m Marxa MASC.` | `2000 metres llisos` |
 | 1 | `2.000m marxa FEM.` | `2000 metres llisos` |
+| 1 | `200 METRES LLISOS MASCULINS` | `200 metres llisos` |
 | 1 | `2000 METRES LLISOS ALEVÍ FEMENÍ` | `2000 metres llisos` |
 | 1 | `2000 METRES LLISOS ALEVÍ MASCULÍ` | `2000 metres llisos` |
 | 1 | `2000 METRES MARXA ALEVÍ FEMENÍ` | `2000 metres marxa` |
@@ -142,11 +136,10 @@ combined events resolved per athlete from the PDF birth-year column.
 | 1 | `300m FEM. PC` | `300 metres llisos` |
 | 1 | `300m MASC. PC` | `300 metres llisos` |
 | 1 | `3x600m FEM. AL` | `3x600` |
-| 1 | `400 METRES LLISOS MASCULINS` | `400 metres llisos` |
 | 1 | `5.000m Marxa MASC.` | `5000 metres llisos` |
 | 1 | `60 METRES LLISOS ALEVÍ FEMENÍ` | `60 metres llisos` |
 | 1 | `60 METRES LLISOS ALEVÍ MASCULÍ` | `60 metres llisos` |
-| 1 | `60 METRES TANQUES` | `60 metres tanques (0.84)` |
+| 1 | `60 METRES LLISOS MASCULINS` | `60 metres llisos` |
 | 1 | `60 METRES TANQUES ALEVÍ FEMENÍ` | `60 metres tanques (0.50)` |
 | 1 | `600m FEM. AL` | `600 metres llisos` |
 | 1 | `600m FEM. PC` | `600 metres llisos` |

@@ -2,7 +2,7 @@
   "athlete_name": "ARLET SALDANA DURAN",
   "athlete_id": "CAT-3843668",
   "athlete_dob": "26/10/2012",
-  "total_results": 8,
+  "total_results": 11,
   "name_variants_found": [
     "ARLET SALDAÑA DURAN",
     "Arlet SALDAÑA DURAN"
@@ -10,7 +10,7 @@
   "license_variants_found": [
     "CAT-3843668"
   ],
-  "source_files_count": 4,
+  "source_files_count": 6,
   "results": [
     {
       "event_name": "Jornada Prèvia Campionat Territorial Promoció - Tarragona - Pista de Atletismo de Camp Clar",
@@ -20,10 +20,9 @@
       "athlete_name": "ARLET SALDAÑA DURAN",
       "athlete_dob": "26/10/2012",
       "athlete_id": "CAT-3843668-A",
-      "discipline": "Altura Mujeres",
+      "discipline": "Alçada",
       "performance": "1.10",
-      "wind": null,
-      "internal_id": null
+      "wind": null
     },
     {
       "event_name": "Jornada Prèvia Campionat Territorial Promoció - Tarragona - Pista de Atletismo de Camp Clar",
@@ -33,23 +32,9 @@
       "athlete_name": "ARLET SALDAÑA DURAN",
       "athlete_dob": "26/10/2012",
       "athlete_id": "CAT-3843668",
-      "discipline": "300m Mujeres",
+      "discipline": "300 metres llisos",
       "performance": "57.40",
-      "wind": null,
-      "internal_id": null
-    },
-    {
-      "event_name": "Control Territorial d'Hivern (Tarragona i Terres de l'Ebre) - Pista de Atletismo de El Vendrell",
-      "event_date": "21/02/2026",
-      "event_location": "El Vendrell",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/02/resultat-20260221-controlterritorialhivernelvendrell.pdf",
-      "athlete_name": "ARLET SALDAÑA DURAN",
-      "athlete_dob": "26/10/2012",
-      "athlete_id": "CAT-3843668",
-      "discipline": "60m vallas (0,762) U16F U18F",
-      "performance": "13.46",
-      "wind": "-1.4",
-      "internal_id": null
+      "wind": null
     },
     {
       "event_name": "Control Territorial d'Hivern (Tarragona i Terres de l'Ebre) - Pista de Atletismo de El Vendrell",
@@ -61,21 +46,19 @@
       "athlete_id": "CAT-3843668",
       "discipline": "60m Mujeres ABSF",
       "performance": "9.98",
-      "wind": "+1.0",
-      "internal_id": null
+      "wind": "+1.0"
     },
     {
       "event_name": "Control Territorial d'Hivern (Tarragona i Terres de l'Ebre) - Pista de Atletismo de El Vendrell",
-      "event_date": "28/02/2026",
+      "event_date": "21/02/2026",
       "event_location": "El Vendrell",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/03/resultat-20260228-controlterritorialelvendrell.pdf",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/02/resultat-20260221-controlterritorialhivernelvendrell.pdf",
       "athlete_name": "ARLET SALDAÑA DURAN",
       "athlete_dob": "26/10/2012",
       "athlete_id": "CAT-3843668",
-      "discipline": "Longitud U16F",
-      "performance": "3.71",
-      "wind": null,
-      "internal_id": null
+      "discipline": "60m vallas (0,762) U16F U18F",
+      "performance": "13.46",
+      "wind": "-1.4"
     },
     {
       "event_name": "Control Territorial d'Hivern (Tarragona i Terres de l'Ebre) - Pista de Atletismo de El Vendrell",
@@ -87,8 +70,19 @@
       "athlete_id": "CAT-3843668",
       "discipline": "60m ABS F",
       "performance": "9.97",
-      "wind": "+0.0",
-      "internal_id": null
+      "wind": "+0.0"
+    },
+    {
+      "event_name": "Control Territorial d'Hivern (Tarragona i Terres de l'Ebre) - Pista de Atletismo de El Vendrell",
+      "event_date": "28/02/2026",
+      "event_location": "El Vendrell",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/03/resultat-20260228-controlterritorialelvendrell.pdf",
+      "athlete_name": "ARLET SALDAÑA DURAN",
+      "athlete_dob": "26/10/2012",
+      "athlete_id": "CAT-3843668",
+      "discipline": "Longitud U16F",
+      "performance": "3.71",
+      "wind": "0.0"
     },
     {
       "event_name": "Campionat de Catalunya de Clubs ST Sub 16 \"B\" - Pista coberta de Atletisme de Catalunya - Carme Valero",
@@ -100,8 +94,7 @@
       "athlete_id": "CAT-3843668-A",
       "discipline": "Alçada femenina",
       "performance": "1.25",
-      "wind": null,
-      "internal_id": null
+      "wind": null
     },
     {
       "event_name": "Campionat de Catalunya de Clubs ST Sub 16 \"B\" - Pista coberta de Atletisme de Catalunya - Carme Valero",
@@ -113,8 +106,43 @@
       "athlete_id": "",
       "discipline": "Relleu 4x300 femení",
       "performance": "3:04.27",
-      "wind": null,
-      "internal_id": null
+      "wind": null
+    },
+    {
+      "event_name": "Campionat de Catalunya de Clubs Sub16 B - Pista Municipal Atmo. Castellar Vallés",
+      "event_date": "20/06/2026",
+      "event_location": "Castellar del Vallès",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/06/resultat-20260620-catclubsbsub16castellar.pdf",
+      "athlete_name": "ARLET SALDAÑA DURAN",
+      "athlete_dob": "26/10/2012",
+      "athlete_id": "CAT-3843668",
+      "discipline": "300m tanques femenins",
+      "performance": "1:09.40",
+      "wind": null
+    },
+    {
+      "event_name": "Campionat de Catalunya de Clubs Sub16 B - Pista Municipal Atmo. Castellar Vallés",
+      "event_date": "20/06/2026",
+      "event_location": "Castellar del Vallès",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/06/resultat-20260620-catclubsbsub16castellar.pdf",
+      "athlete_name": "ARLET SALDAÑA DURAN",
+      "athlete_dob": "26/10/2012",
+      "athlete_id": "CAT-3843668-A",
+      "discipline": "Alçada femenina",
+      "performance": "1.15",
+      "wind": null
+    },
+    {
+      "event_name": "Campionat Catalunya Clubs Sub20 AL - Pista Mpal. de Atmo. Les Basses",
+      "event_date": "12/07/2026",
+      "event_location": "Lleida",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/07/resultat-20260712-catclubssub20lleida.pdf",
+      "athlete_name": "Arlet SALDAÑA DURAN",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "4x100m FEM. AL",
+      "performance": "57.60",
+      "wind": null
     }
   ]
 }

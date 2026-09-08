@@ -52,11 +52,11 @@ combined events resolved per athlete from the PDF birth-year column.
 | 4 | `800 METRES LLISOS MASCULINS` | `800 metres llisos` |
 | 4 | `DISC                   2                   0` | `100 metres llisos` |
 | 4 | `DISC MASCULÍ` | `Disc (2 Kg)` |
-| 4 | `JAVELINA MASCULÍ` | `Javelina (800 g)` |
+| 4 | `JAVELINA MASCULÍ` | `Javelina (700 g)` |
 | 4 | `LLANÇAMENT DE DISC` | `Disc (1,5 Kg)` |
-| 4 | `LLANÇAMENT DE MARTELL PESAT MASCULÍ` | `Martell (7.260 Kg)` |
 | 4 | `LLARGADA Juvenil Masculí` | `Llargada` |
 | 4 | `RELLEUS 4 X 200 MASCULINS` | `4x200` |
+| 4 | `RELLEUS 4X100 MASCULINS` | `4x100` |
 | 3 | `1.500 METRES LLISOS` | `1500 metres llisos` |
 | 3 | `1000 METRES LLISOS MASCULINS` | `1000 metres llisos` |
 | 3 | `110 METRES TANQUES JUNIOR MASCULÍ` | `110 metres tanques (0.99)` |

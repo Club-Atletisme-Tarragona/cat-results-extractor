@@ -344,9 +344,14 @@ FILE_ATHLETE_CONTEXT = {
         "DIAZ": ("m", "juvenil"),
         "TORTAJADA": ("f", "juvenil"),
     },
-    # Clubs veterans (2009): Domingo M40 disc 2kg
+    # Clubs veterans Lleida (2009-06): SERRES M55 javelina 700g;
+    # IBORRA M41 / DOMINGO M43 / others M35-M45 = absolut-equivalent implements
     "resulcatclubs7609.json": {
+        "IBORRA": ("m", "absolut"),
+        "PARDINES GRAS": ("m", "absolut"),
+        "SAEZ PEREZ": ("m", "absolut"),
         "DOMINGO": ("m", "absolut"),
+        "SRRES CASMITJANA": ("m", "vet50"),
     },
     # Veterans meeting (2009-05): Ros M40 disc 2kg
     "resulmeetingcat23509.json": {

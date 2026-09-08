@@ -2,15 +2,27 @@
   "athlete_name": "DIDAC COMERMA GUASCH",
   "athlete_id": "CAT-3713961",
   "athlete_dob": "4/7/2000",
-  "total_results": 6,
+  "total_results": 9,
   "name_variants_found": [
     "DIDAC COMERMA GUASCH"
   ],
   "license_variants_found": [
     "CAT-3713961"
   ],
-  "source_files_count": 5,
+  "source_files_count": 8,
   "results": [
+    {
+      "event_name": "5è Control Sub20 i Absolut - Pista coberta de Atletisme de Catalunya - Carme Valero",
+      "event_date": "24/01/2026",
+      "event_location": "Sabadell (i)",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/01/resultat-20260124-controlsub20absolutpcsabadell.pdf",
+      "athlete_name": "DIDAC COMERMA GUASCH",
+      "athlete_dob": "4/7/2000",
+      "athlete_id": "CAT-3713961",
+      "discipline": "60m Masculins",
+      "performance": "7.69",
+      "wind": null
+    },
     {
       "event_name": "6è Control Absolut - Pista coberta de Atletisme de Catalunya - Carme Valero",
       "event_date": "30/01/2026",
@@ -18,11 +30,10 @@
       "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/01/resultat-20260130-controlabsolutpcsabadell.pdf",
       "athlete_name": "DIDAC COMERMA GUASCH",
       "athlete_dob": "4/7/2000",
-      "athlete_id": "CAT-3713961-A",
+      "athlete_id": "CAT-3713961",
       "discipline": "60m Masculí",
       "performance": "7.72",
-      "wind": null,
-      "internal_id": null
+      "wind": null
     },
     {
       "event_name": "Control Velocitat Febrer - Pista de Atletismo de Camp Clar",
@@ -31,11 +42,10 @@
       "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/02/resultat-20260207-controlvelocitattarragona.pdf",
       "athlete_name": "DIDAC COMERMA GUASCH",
       "athlete_dob": "4/7/2000",
-      "athlete_id": "CAT-3713961-A",
+      "athlete_id": "CAT-3713961",
       "discipline": "60m AbsM",
       "performance": "7.96",
-      "wind": "+1.5",
-      "internal_id": null
+      "wind": "+1.5"
     },
     {
       "event_name": "Control Velocitat Febrer - Pista de Atletismo de Camp Clar",
@@ -44,24 +54,22 @@
       "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/02/resultat-20260207-controlvelocitattarragona.pdf",
       "athlete_name": "DIDAC COMERMA GUASCH",
       "athlete_dob": "4/7/2000",
-      "athlete_id": "CAT-3713961-A",
+      "athlete_id": "CAT-3713961",
       "discipline": "200m AbsM",
       "performance": "24.97",
-      "wind": "+3.2",
-      "internal_id": null
+      "wind": "+3.2"
     },
     {
       "event_name": "1ª Jornada Circuit Serrahima - AAC - Estadio Joan Serrahima",
       "event_date": "17/04/2026",
       "event_location": "Barcelona-SE",
-      "event_src": "",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/04/resultat-20260417-circuitaacserrahima.pdf",
       "athlete_name": "DIDAC COMERMA GUASCH",
       "athlete_dob": "4/7/2000",
       "athlete_id": "CAT-3713961",
       "discipline": "100m Abs M",
       "performance": "12.10",
-      "wind": "+0.2",
-      "internal_id": null
+      "wind": "+1.4"
     },
     {
       "event_name": " - Estadi Municipal “La Bóbila”",
@@ -73,8 +81,7 @@
       "athlete_id": "CAT-3713961",
       "discipline": "100 m Hombres",
       "performance": "11.90",
-      "wind": "+0.0",
-      "internal_id": null
+      "wind": "+0.0"
     },
     {
       "event_name": "3r Control FCA Aire Lliure 2026 - 2n Memorial David Pérez Bruque - Estadio Municipal El Congost",
@@ -86,8 +93,31 @@
       "athlete_id": "CAT-3713961",
       "discipline": "100m Hombres",
       "performance": "12.11",
-      "wind": "-2.4",
-      "internal_id": null
+      "wind": "-2.4"
+    },
+    {
+      "event_name": "5è Control FCA Aire Lliure 2026 - Estadi Municipal “La Bóbila”",
+      "event_date": "21/06/2026",
+      "event_location": "Gavà",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/06/resultat-20260621-controlabsolutsub20gava.pdf",
+      "athlete_name": "DIDAC COMERMA GUASCH",
+      "athlete_dob": "4/7/2000",
+      "athlete_id": "CAT-3713961",
+      "discipline": "100 m Hombres",
+      "performance": "11.72",
+      "wind": "+0.6"
+    },
+    {
+      "event_name": " - Estadi Municipal “La Bóbila”",
+      "event_date": "01/07/2026",
+      "event_location": "Gavà",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/07/resultat-20260701-memorialbernatpesogava.pdf",
+      "athlete_name": "DIDAC COMERMA GUASCH",
+      "athlete_dob": "4/7/2000",
+      "athlete_id": "CAT-3713961",
+      "discipline": "100 m Hombres",
+      "performance": "11.81",
+      "wind": "+0.2"
     }
   ]
 }

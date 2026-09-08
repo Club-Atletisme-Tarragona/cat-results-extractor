@@ -2,7 +2,7 @@
   "athlete_name": "FLORES PINAS MARINA",
   "athlete_id": "",
   "athlete_dob": "",
-  "total_results": 3,
+  "total_results": 4,
   "name_variants_found": [
     "FLORES PIÑAS MARINA",
     "MARINA FLORES"
@@ -18,10 +18,9 @@
       "athlete_name": "FLORES PIÑAS MARINA",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "60 METRES LLISOS FEMENINS",
+      "discipline": "60 metres llisos",
       "performance": "NP",
-      "wind": null,
-      "internal_id": null
+      "wind": null
     },
     {
       "event_name": "",
@@ -31,23 +30,33 @@
       "athlete_name": "FLORES PIÑAS MARINA",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "SALT DE LLARGADA FEMENÍ",
+      "discipline": "Llargada",
       "performance": "NP",
-      "wind": null,
-      "internal_id": null
+      "wind": null
     },
     {
       "event_name": "3a Jornada TROFEU PROMOCIÓ",
       "event_date": "27/9/2008",
-      "event_location": "",
+      "event_location": "Tarragona",
       "event_src": "http://old.fcatletisme.cat/Promocio/promocio2008/resultrofeupromocio27908.pdf",
       "athlete_name": "MARINA FLORES",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "Llargada Benjamí Femení",
+      "discipline": "Llargada",
       "performance": "2.47",
-      "wind": null,
-      "internal_id": null
+      "wind": null
+    },
+    {
+      "event_name": "3a Jornada TROFEU PROMOCIÓ",
+      "event_date": "27/9/2008",
+      "event_location": "Tarragona",
+      "event_src": "http://old.fcatletisme.cat/Promocio/promocio2008/resultrofeupromocio27908.pdf",
+      "athlete_name": "MARINA FLORES",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "60 metres llisos",
+      "performance": "12.1",
+      "wind": null
     }
   ]
 }

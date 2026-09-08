@@ -2,7 +2,7 @@
   "athlete_name": "NAIA GUINART TRABALON",
   "athlete_id": "CAT-3889578",
   "athlete_dob": "25/3/2015",
-  "total_results": 17,
+  "total_results": 20,
   "name_variants_found": [
     "NAIA GUINART TRABALON",
     "NAIA GUINART TRABALON DNS",
@@ -21,10 +21,21 @@
       "athlete_name": "NAIA GUINART TRABALON",
       "athlete_dob": "25/3/2015",
       "athlete_id": "CAT-3889578",
+      "discipline": "60m S12F",
+      "performance": "9.93",
+      "wind": null
+    },
+    {
+      "event_name": "Campionat Territorial de Proves Combinades d'Hivern sub12 i sub14- Tarragona - Pista de Atletismo de Camp Clar",
+      "event_date": "07/02/2026",
+      "event_location": "Tarragona",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/02/resultat-20260207-territorialcombinadessub1214tarragona.pdf",
+      "athlete_name": "NAIA GUINART TRABALON",
+      "athlete_dob": "25/3/2015",
+      "athlete_id": "CAT-3889578",
       "discipline": "Longitud S12F",
       "performance": "2.96",
-      "wind": null,
-      "internal_id": null
+      "wind": null
     },
     {
       "event_name": "Campionat Territorial de Proves Combinades d'Hivern sub12 i sub14- Tarragona - Pista de Atletismo de Camp Clar",
@@ -36,8 +47,19 @@
       "athlete_id": "CAT-3889578-A",
       "discipline": "Triatlón S12F",
       "performance": "450",
-      "wind": null,
-      "internal_id": null
+      "wind": null
+    },
+    {
+      "event_name": "Control Territorial d'Hivern (Tarragona i Terres de l'Ebre) - Pista de Atletismo de El Vendrell",
+      "event_date": "28/02/2026",
+      "event_location": "El Vendrell",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/03/resultat-20260228-controlterritorialelvendrell.pdf",
+      "athlete_name": "NAIA GUINART TRABALON",
+      "athlete_dob": "25/3/2015",
+      "athlete_id": "CAT-3889578",
+      "discipline": "Peso (2kg) U12F",
+      "performance": "4.09",
+      "wind": null
     },
     {
       "event_name": "Control Territorial d'Hivern (Tarragona i Terres de l'Ebre) - Pista de Atletismo de El Vendrell",
@@ -49,8 +71,7 @@
       "athlete_id": "CAT-3889578",
       "discipline": "Peso (2kg) U12F",
       "performance": "4.26",
-      "wind": null,
-      "internal_id": null
+      "wind": null
     },
     {
       "event_name": "Control Territorial d'Hivern (Tarragona i Terres de l'Ebre) - Pista de Atletismo de El Vendrell",
@@ -60,23 +81,9 @@
       "athlete_name": "NAIA GUINART TRABALON",
       "athlete_dob": "25/3/2015",
       "athlete_id": "CAT-3889578",
-      "discipline": "200m U12F",
-      "performance": "33.56",
-      "wind": null,
-      "internal_id": null
-    },
-    {
-      "event_name": "Control Territorial d'Hivern (Tarragona i Terres de l'Ebre) - Pista de Atletismo de El Vendrell",
-      "event_date": "28/02/2026",
-      "event_location": "El Vendrell",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/03/resultat-20260228-controlterritorialelvendrell.pdf",
-      "athlete_name": "NAIA GUINART TRABALON",
-      "athlete_dob": "25/3/2015",
-      "athlete_id": "CAT-3889578",
-      "discipline": "600m U12F",
-      "performance": "2:10.56",
-      "wind": null,
-      "internal_id": null
+      "discipline": "Peso (2kg) U12F",
+      "performance": "4.16",
+      "wind": null
     },
     {
       "event_name": "Prèvia Campionat de Catalunya Sub12 Pista Coberta - Prèvia Campionat de Catalunya Sub12 Pista Coberta",
@@ -85,11 +92,10 @@
       "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/03/resultat-20260308-catsub12pcpreviasabadell.pdf",
       "athlete_name": "NAIA GUINART TRABALON",
       "athlete_dob": "25/3/2015",
-      "athlete_id": "CAT-3889578-A",
+      "athlete_id": "CAT-3889578",
       "discipline": "600m femenins",
       "performance": "2:01.98",
-      "wind": null,
-      "internal_id": null
+      "wind": null
     },
     {
       "event_name": "Campionat de Catalunya de Clubs ST Sub 12 \"A\" - Pista coberta de Atletisme de Catalunya - Carme Valero",
@@ -101,34 +107,55 @@
       "athlete_id": "CAT-3889578",
       "discipline": "600m femenins",
       "performance": "2:00.93",
-      "wind": null,
-      "internal_id": null
+      "wind": null
     },
     {
       "event_name": "2ª Jornada Campionat Territorial Promoció Tarragona i Terres de l'Ebre - Pista de atletisme Marta Galimany",
       "event_date": "18/04/2026",
       "event_location": "Valls",
-      "event_src": "",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/04/resultat-20260418-territorialpromociovalls.pdf",
       "athlete_name": "NAIA GUINART TRABALON",
       "athlete_dob": "25/3/2015",
       "athlete_id": "CAT-3889578",
       "discipline": "120m Mujeres AL",
       "performance": "19.51",
-      "wind": null,
-      "internal_id": null
+      "wind": null
     },
     {
       "event_name": "2ª Jornada Campionat Territorial Promoció Tarragona i Terres de l'Ebre - Pista de atletisme Marta Galimany",
       "event_date": "18/04/2026",
       "event_location": "Valls",
-      "event_src": "",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/04/resultat-20260418-territorialpromociovalls.pdf",
+      "athlete_name": "NAIA GUINART TRABALON",
+      "athlete_dob": "25/3/2015",
+      "athlete_id": "CAT-3889578",
+      "discipline": "Peso (2kg)Mujeres AL",
+      "performance": "4.19",
+      "wind": null
+    },
+    {
+      "event_name": "2ª Jornada Campionat Territorial Promoció Tarragona i Terres de l'Ebre - Pista de atletisme Marta Galimany",
+      "event_date": "18/04/2026",
+      "event_location": "Valls",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/04/resultat-20260418-territorialpromociovalls.pdf",
+      "athlete_name": "NAIA GUINART TRABALON",
+      "athlete_dob": "25/3/2015",
+      "athlete_id": "CAT-3889578",
+      "discipline": "Peso (2kg)Mujeres AL",
+      "performance": "3.90",
+      "wind": null
+    },
+    {
+      "event_name": "2ª Jornada Campionat Territorial Promoció Tarragona i Terres de l'Ebre - Pista de atletisme Marta Galimany",
+      "event_date": "18/04/2026",
+      "event_location": "Valls",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/04/resultat-20260418-territorialpromociovalls.pdf",
       "athlete_name": "NAIA GUINART TRABALON",
       "athlete_dob": "25/3/2015",
       "athlete_id": "CAT-3889578",
       "discipline": "Peso (2kg)Mujeres AL",
       "performance": "4.65",
-      "wind": null,
-      "internal_id": null
+      "wind": null
     },
     {
       "event_name": "3ª Jornada Campionat Territorial Promoció Tarragona i Terres de l'Ebre - Pista de Atletismo CN Reus Ploms",
@@ -140,8 +167,7 @@
       "athlete_id": "CAT-3889578",
       "discipline": "Llargada S12F",
       "performance": "3.08",
-      "wind": null,
-      "internal_id": null
+      "wind": null
     },
     {
       "event_name": "3r Control Sub8-10-12 - Pista de Atletismo Vilanova i la Geltrú",
@@ -153,8 +179,7 @@
       "athlete_id": "CAT-3889578",
       "discipline": "600 m Mujeres",
       "performance": "2:00.07",
-      "wind": null,
-      "internal_id": null
+      "wind": null
     },
     {
       "event_name": "3r Control Sub8-10-12 - Pista de Atletismo Vilanova i la Geltrú",
@@ -166,8 +191,7 @@
       "athlete_id": "CAT-3889578",
       "discipline": "Longitud Mujeres",
       "performance": "3.35",
-      "wind": null,
-      "internal_id": null
+      "wind": null
     },
     {
       "event_name": "3r Control Sub8-10-12 - Pista de Atletismo Vilanova i la Geltrú",
@@ -179,8 +203,7 @@
       "athlete_id": "CAT-3889578",
       "discipline": "Longitud Mujeres",
       "performance": "3.25",
-      "wind": null,
-      "internal_id": null
+      "wind": null
     },
     {
       "event_name": "Campionat Catalunya Clubs Sub12 AL - Grup A - Estadio Municipal de Mataró",
@@ -192,8 +215,7 @@
       "athlete_id": "CAT-3889578",
       "discipline": "600m femenins",
       "performance": "2:01.04",
-      "wind": null,
-      "internal_id": null
+      "wind": null
     },
     {
       "event_name": "Campionat Catalunya Clubs Sub12 AL - Grup A - Estadio Municipal de Mataró",
@@ -205,8 +227,7 @@
       "athlete_id": "",
       "discipline": "4x200 femenins",
       "performance": "2:10.39",
-      "wind": null,
-      "internal_id": null
+      "wind": null
     },
     {
       "event_name": "Jornada Prèvia - Campionat de Catalunya Sub12 - Pista de Atletismo Vilanova i la Geltrú",
@@ -218,8 +239,7 @@
       "athlete_id": "CAT-3889578",
       "discipline": "120m femenins",
       "performance": "19.10",
-      "wind": null,
-      "internal_id": null
+      "wind": null
     },
     {
       "event_name": "Jornada Prèvia - Campionat de Catalunya Sub12 - Pista de Atletismo Vilanova i la Geltrú",
@@ -231,8 +251,7 @@
       "athlete_id": "CAT-3889578",
       "discipline": "600m femenins",
       "performance": "2:06.43",
-      "wind": null,
-      "internal_id": null
+      "wind": null
     }
   ]
 }

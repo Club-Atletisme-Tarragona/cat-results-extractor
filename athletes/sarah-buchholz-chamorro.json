@@ -2,27 +2,38 @@
   "athlete_name": "SARAH BUCHHOLZ CHAMORRO",
   "athlete_id": "CL16217",
   "athlete_dob": "17/2/2010",
-  "total_results": 4,
+  "total_results": 5,
   "name_variants_found": [
     "SARAH BUCHHOLZ CHAMORRO"
   ],
   "license_variants_found": [
     "CL16217"
   ],
-  "source_files_count": 4,
+  "source_files_count": 5,
   "results": [
+    {
+      "event_name": "Control Velocitat Febrer - Pista de Atletismo de Camp Clar",
+      "event_date": "07/02/2026",
+      "event_location": "Tarragona",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/02/resultat-20260207-controlvelocitattarragona.pdf",
+      "athlete_name": "SARAH BUCHHOLZ CHAMORRO",
+      "athlete_dob": "17/2/2010",
+      "athlete_id": "CL16217",
+      "discipline": "60m AbsF",
+      "performance": "8.55",
+      "wind": "+1.7"
+    },
     {
       "event_name": "Control Sub 16-18 (1a Jornada) - Pista Atletisme Municipal de Vilafranca del Penedès",
       "event_date": "12/04/2026",
       "event_location": "Vilafranca del Penedès",
-      "event_src": "",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/04/resultat-20260412-controlsub1618vilafranca.pdf",
       "athlete_name": "SARAH BUCHHOLZ CHAMORRO",
       "athlete_dob": "17/2/2010",
       "athlete_id": "CL16217",
       "discipline": "100m Mujeres U18F",
       "performance": "14.00",
-      "wind": "-1.6",
-      "internal_id": null
+      "wind": "-1.6"
     },
     {
       "event_name": "3r Control Sub16-18 - Pista de Atletismo Municipal La Pedra Salvadora",
@@ -34,8 +45,7 @@
       "athlete_id": "CL16217",
       "discipline": "100m Mujeres U18F",
       "performance": "13.51",
-      "wind": "+1.5",
-      "internal_id": null
+      "wind": "+1.5"
     },
     {
       "event_name": "5è Control Sub16-18 - Pista de Atletismo Vilanova i la Geltrú",
@@ -47,8 +57,7 @@
       "athlete_id": "CL16217",
       "discipline": "100 m Mujeres U18F",
       "performance": "13.59",
-      "wind": "-0.7",
-      "internal_id": null
+      "wind": "-0.7"
     },
     {
       "event_name": "3ª Jornada Circuit Serrahima - AAC - Estadio Joan Serrahima",
@@ -60,8 +69,7 @@
       "athlete_id": "CL16217",
       "discipline": "Martell (4 kg) Homes",
       "performance": "13.55",
-      "wind": "+0.3",
-      "internal_id": null
+      "wind": "+0.3"
     }
   ]
 }

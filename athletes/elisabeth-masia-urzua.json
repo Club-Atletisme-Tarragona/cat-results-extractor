@@ -2,7 +2,7 @@
   "athlete_name": "ELISABETH MASIA URZUA",
   "athlete_id": "CAT-3950520",
   "athlete_dob": "25/12/2018",
-  "total_results": 10,
+  "total_results": 12,
   "name_variants_found": [
     "ELISABETH MASIA URZUA"
   ],
@@ -12,17 +12,28 @@
   "source_files_count": 4,
   "results": [
     {
-      "event_name": "Control Territorial d'Hivern (Tarragona i Terres de l'Ebre) - Pista de Atletismo de El Vendrell",
-      "event_date": "21/02/2026",
-      "event_location": "El Vendrell",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/02/resultat-20260221-controlterritorialhivernelvendrell.pdf",
+      "event_name": "Control Velocitat Febrer - Pista de Atletismo de Camp Clar",
+      "event_date": "07/02/2026",
+      "event_location": "Tarragona",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/02/resultat-20260207-controlvelocitattarragona.pdf",
       "athlete_name": "ELISABETH MASIA URZUA",
       "athlete_dob": "25/12/2018",
       "athlete_id": "CAT-3950520",
-      "discipline": "Longitud U10F",
-      "performance": "1.79",
-      "wind": null,
-      "internal_id": null
+      "discipline": "60m S10F",
+      "performance": "12.49",
+      "wind": null
+    },
+    {
+      "event_name": "Control Velocitat Febrer - Pista de Atletismo de Camp Clar",
+      "event_date": "07/02/2026",
+      "event_location": "Tarragona",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/02/resultat-20260207-controlvelocitattarragona.pdf",
+      "athlete_name": "ELISABETH MASIA URZUA",
+      "athlete_dob": "25/12/2018",
+      "athlete_id": "CAT-3950520",
+      "discipline": "400m S10F",
+      "performance": "1:42.29",
+      "wind": null
     },
     {
       "event_name": "Control Territorial d'Hivern (Tarragona i Terres de l'Ebre) - Pista de Atletismo de El Vendrell",
@@ -34,8 +45,7 @@
       "athlete_id": "CAT-3950520",
       "discipline": "60m Mujeres U8F, U10F",
       "performance": "12.60",
-      "wind": null,
-      "internal_id": null
+      "wind": null
     },
     {
       "event_name": "Control Territorial d'Hivern (Tarragona i Terres de l'Ebre) - Pista de Atletismo de El Vendrell",
@@ -45,23 +55,21 @@
       "athlete_name": "ELISABETH MASIA URZUA",
       "athlete_dob": "25/12/2018",
       "athlete_id": "CAT-3950520",
-      "discipline": "400m U8F, U10F",
-      "performance": "1:45.46",
-      "wind": null,
-      "internal_id": null
+      "discipline": "Longitud U10F",
+      "performance": "1.79",
+      "wind": null
     },
     {
-      "event_name": "Control Territorial d'Hivern (Tarragona i Terres de l'Ebre) - Pista de Atletismo de El Vendrell",
-      "event_date": "28/02/2026",
-      "event_location": "El Vendrell",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/03/resultat-20260228-controlterritorialelvendrell.pdf",
+      "event_name": "",
+      "event_date": "22/03/2026",
+      "event_location": "Torredembarra",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/03/resultat-20260322-controltorredembarra.pdf",
       "athlete_name": "ELISABETH MASIA URZUA",
       "athlete_dob": "25/12/2018",
       "athlete_id": "CAT-3950520",
-      "discipline": "60m U10F",
-      "performance": "13.13",
-      "wind": null,
-      "internal_id": null
+      "discipline": "60m Mujeres AL U10F",
+      "performance": "12.50",
+      "wind": null
     },
     {
       "event_name": "",
@@ -73,8 +81,31 @@
       "athlete_id": "CAT-3950520",
       "discipline": "1.000m Mujeres U10F",
       "performance": "04:45.80",
-      "wind": null,
-      "internal_id": null
+      "wind": null
+    },
+    {
+      "event_name": "",
+      "event_date": "22/03/2026",
+      "event_location": "Torredembarra",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/03/resultat-20260322-controltorredembarra.pdf",
+      "athlete_name": "ELISABETH MASIA URZUA",
+      "athlete_dob": "25/12/2018",
+      "athlete_id": "CAT-3950520",
+      "discipline": "Jabalina Vortex Mujeres",
+      "performance": "5.95",
+      "wind": null
+    },
+    {
+      "event_name": "",
+      "event_date": "22/03/2026",
+      "event_location": "Torredembarra",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/03/resultat-20260322-controltorredembarra.pdf",
+      "athlete_name": "ELISABETH MASIA URZUA",
+      "athlete_dob": "25/12/2018",
+      "athlete_id": "CAT-3950520",
+      "discipline": "Jabalina Vortex Mujeres",
+      "performance": "7.57",
+      "wind": null
     },
     {
       "event_name": "",
@@ -86,21 +117,7 @@
       "athlete_id": "CAT-3950520",
       "discipline": "Jabalina Vortex Mujeres",
       "performance": "8.29",
-      "wind": null,
-      "internal_id": null
-    },
-    {
-      "event_name": "",
-      "event_date": "22/03/2026",
-      "event_location": "Torredembarra",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/03/resultat-20260322-controltorredembarra.pdf",
-      "athlete_name": "ELISABETH MASIA URZUA",
-      "athlete_dob": "25/12/2018",
-      "athlete_id": "CAT-3950520-A",
-      "discipline": "60m Mujeres AL U10F",
-      "performance": "12.50",
-      "wind": null,
-      "internal_id": null
+      "wind": null
     },
     {
       "event_name": "Campionat de Catalunya de Clubs Sub10 AL - Estadio Municipal de Mataró",
@@ -112,8 +129,7 @@
       "athlete_id": "CAT-3950520",
       "discipline": "Pes femení",
       "performance": "8.22",
-      "wind": null,
-      "internal_id": null
+      "wind": null
     },
     {
       "event_name": "Campionat de Catalunya de Clubs Sub10 AL - Estadio Municipal de Mataró",
@@ -125,8 +141,7 @@
       "athlete_id": "CAT-3950520",
       "discipline": "Pes femení",
       "performance": "11.12",
-      "wind": null,
-      "internal_id": null
+      "wind": null
     },
     {
       "event_name": "Campionat de Catalunya de Clubs Sub10 AL - Estadio Municipal de Mataró",
@@ -138,8 +153,7 @@
       "athlete_id": "CAT-3950520",
       "discipline": "Pes femení",
       "performance": "11.49",
-      "wind": null,
-      "internal_id": null
+      "wind": null
     }
   ]
 }

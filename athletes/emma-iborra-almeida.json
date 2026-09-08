@@ -2,7 +2,7 @@
   "athlete_name": "EMMA IBORRA ALMEIDA",
   "athlete_id": "CL64563",
   "athlete_dob": "25/9/1999",
-  "total_results": 4,
+  "total_results": 5,
   "name_variants_found": [
     "EMMA IBORRA",
     "Emma Iborra Almeida"
@@ -15,54 +15,62 @@
     {
       "event_name": "3a Jornada TROFEU PROMOCIÓ",
       "event_date": "27/9/2008",
-      "event_location": "",
+      "event_location": "Tarragona",
       "event_src": "http://old.fcatletisme.cat/Promocio/promocio2008/resultrofeupromocio27908.pdf",
       "athlete_name": "EMMA IBORRA",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "Llargada Benjamí Femení",
+      "discipline": "Llargada",
       "performance": "1.97",
-      "wind": null,
-      "internal_id": null
+      "wind": null
+    },
+    {
+      "event_name": "3a Jornada TROFEU PROMOCIÓ",
+      "event_date": "27/9/2008",
+      "event_location": "Tarragona",
+      "event_src": "http://old.fcatletisme.cat/Promocio/promocio2008/resultrofeupromocio27908.pdf",
+      "athlete_name": "EMMA IBORRA",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "60 metres llisos",
+      "performance": "11.8",
+      "wind": null
     },
     {
       "event_name": "",
       "event_date": "12/05/2012",
-      "event_location": "Club                                                  Lic",
+      "event_location": "El Prat de Llobregat",
       "event_src": "https://old.fcatletisme.cat/Pairelliure/airelliure2012/resulcatclubsinfantil120512.pdf",
       "athlete_name": "Emma Iborra Almeida",
       "athlete_dob": "25/09/1999",
       "athlete_id": "CL64563",
-      "discipline": "Disc FEM. AL",
+      "discipline": "Disc (1 Kg)",
       "performance": "9.86",
-      "wind": null,
-      "internal_id": null
+      "wind": null
     },
     {
       "event_name": "",
       "event_date": "12/05/2012",
-      "event_location": "Club                                                  Lic",
+      "event_location": "El Prat de Llobregat",
       "event_src": "https://old.fcatletisme.cat/Pairelliure/airelliure2012/resulcatclubsinfantil120512.pdf",
       "athlete_name": "Emma Iborra Almeida",
       "athlete_dob": "25/09/1999",
       "athlete_id": "CL64563",
-      "discipline": "Disc FEM. AL",
+      "discipline": "Disc (1 Kg)",
       "performance": "9.29",
-      "wind": null,
-      "internal_id": null
+      "wind": null
     },
     {
       "event_name": "",
       "event_date": "12/05/2012",
-      "event_location": "Club                                                  Lic",
+      "event_location": "El Prat de Llobregat",
       "event_src": "https://old.fcatletisme.cat/Pairelliure/airelliure2012/resulcatclubsinfantil120512.pdf",
       "athlete_name": "Emma Iborra Almeida",
       "athlete_dob": "25/09/1999",
       "athlete_id": "CL64563",
-      "discipline": "Disc FEM. AL",
+      "discipline": "Disc (1 Kg)",
       "performance": "10.14",
-      "wind": null,
-      "internal_id": null
+      "wind": null
     }
   ]
 }

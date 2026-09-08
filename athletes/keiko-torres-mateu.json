@@ -2,7 +2,7 @@
   "athlete_name": "KEIKO TORRES MATEU",
   "athlete_id": "CAT-3950534",
   "athlete_dob": "27/6/2018",
-  "total_results": 1,
+  "total_results": 2,
   "name_variants_found": [
     "KEIKO TORRES MATEU"
   ],
@@ -18,11 +18,22 @@
       "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/02/resultat-20260207-controlvelocitattarragona.pdf",
       "athlete_name": "KEIKO TORRES MATEU",
       "athlete_dob": "27/6/2018",
-      "athlete_id": "CAT-3950534-A",
+      "athlete_id": "CAT-3950534",
+      "discipline": "60m S10F",
+      "performance": "11.99",
+      "wind": null
+    },
+    {
+      "event_name": "Control Velocitat Febrer - Pista de Atletismo de Camp Clar",
+      "event_date": "07/02/2026",
+      "event_location": "Tarragona",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/02/resultat-20260207-controlvelocitattarragona.pdf",
+      "athlete_name": "KEIKO TORRES MATEU",
+      "athlete_dob": "27/6/2018",
+      "athlete_id": "CAT-3950534",
       "discipline": "400m S10F",
       "performance": "1:32.30",
-      "wind": null,
-      "internal_id": null
+      "wind": null
     }
   ]
 }

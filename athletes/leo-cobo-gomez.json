@@ -2,7 +2,7 @@
   "athlete_name": "LEO COBO GOMEZ",
   "athlete_id": "",
   "athlete_dob": "10/8/2016",
-  "total_results": 6,
+  "total_results": 5,
   "name_variants_found": [
     "LEO COBO GOMEZ"
   ],
@@ -17,23 +17,9 @@
       "athlete_name": "LEO COBO GOMEZ",
       "athlete_dob": "10/8/2016",
       "athlete_id": "",
-      "discipline": "60m Hombres AL U14M",
+      "discipline": "60 metres llisos",
       "performance": "11.43",
-      "wind": "-0.6",
-      "internal_id": null
-    },
-    {
-      "event_name": "Control de velocitat i tanques Gener",
-      "event_date": "25/01/2025",
-      "event_location": "Tarragona",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2025/01/resultat-20250125-controlveloricattanquestarragona.pdf",
-      "athlete_name": "LEO COBO GOMEZ",
-      "athlete_dob": "10/8/2016",
-      "athlete_id": "",
-      "discipline": "60m Hombres AL U10M",
-      "performance": "11.43",
-      "wind": "-0.6",
-      "internal_id": null
+      "wind": "-0.6"
     },
     {
       "event_name": "Control Febrer Tarragona",
@@ -43,10 +29,9 @@
       "athlete_name": "LEO COBO GOMEZ",
       "athlete_dob": "10/8/2016",
       "athlete_id": "",
-      "discipline": "Jabalina Vortex Hombres",
+      "discipline": "Javelina (300 g)",
       "performance": "8.32",
-      "wind": null,
-      "internal_id": null
+      "wind": null
     },
     {
       "event_name": "Control Febrer Tarragona",
@@ -56,36 +41,33 @@
       "athlete_name": "LEO COBO GOMEZ",
       "athlete_dob": "10/8/2016",
       "athlete_id": "",
-      "discipline": "Jabalina Vortex Hombres",
+      "discipline": "Javelina (300 g)",
       "performance": "9.41",
-      "wind": null,
-      "internal_id": null
+      "wind": null
     },
     {
       "event_name": " - Copa Promoció Sub8-Sub10 Pista Coberta",
       "event_date": "15/03/2025",
-      "event_location": "Sabadell (i)",
+      "event_location": "Sabadell",
       "event_src": "https://fcatletisme.cat/wp-content/uploads/2025/03/resultat-20250315-copapromociosub810pcsabadell.pdf",
       "athlete_name": "LEO COBO GOMEZ",
       "athlete_dob": "10/8/2016",
       "athlete_id": "",
-      "discipline": "60m Masculins Sub10",
+      "discipline": "60 metres llisos",
       "performance": "11.24",
-      "wind": null,
-      "internal_id": null
+      "wind": null
     },
     {
       "event_name": " - Copa Promoció Sub8-Sub10 Pista Coberta",
       "event_date": "15/03/2025",
-      "event_location": "Sabadell (i)",
+      "event_location": "Sabadell",
       "event_src": "https://fcatletisme.cat/wp-content/uploads/2025/03/resultat-20250315-copapromociosub810pcsabadell.pdf",
       "athlete_name": "LEO COBO GOMEZ",
       "athlete_dob": "10/8/2016",
       "athlete_id": "",
-      "discipline": "1000m Masculins Sub10",
+      "discipline": "1000 metres llisos",
       "performance": "4:26.78",
-      "wind": null,
-      "internal_id": null
+      "wind": null
     }
   ]
 }

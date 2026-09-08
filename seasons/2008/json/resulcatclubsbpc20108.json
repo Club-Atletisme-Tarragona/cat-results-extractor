@@ -3,7 +3,7 @@
   "event_date": "20/01/2008",
   "event_location": "Vilafranca del Penedès",
   "event_src": "http://old.fcatletisme.cat/Pcoberta/pcoberta2008/resulcatclubsbpc20108.pdf",
-  "total_results": 6,
+  "total_results": 16,
   "results": [
     {
       "athlete_name": "BERNAT ROCAMORA CHAPARRO",
@@ -64,6 +64,106 @@
       "performance": "9.54",
       "wind": null,
       "internal_id": 193
+    },
+    {
+      "athlete_name": "MARC JOSE DIAZ",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "60 metres llisos",
+      "raw_discipline_name": "60 METRES LLISOS MASCULINS",
+      "performance": "7.43",
+      "wind": null,
+      "internal_id": 276
+    },
+    {
+      "athlete_name": "ADRIA SERRES PARDINES",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "Alçada",
+      "raw_discipline_name": "SALT D'ALÇADA MASCULÍ",
+      "performance": "1.75",
+      "wind": null,
+      "internal_id": 277
+    },
+    {
+      "athlete_name": "AGUSTI ORIOL PASANO",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "Perxa",
+      "raw_discipline_name": "SALT AMB PERXA MASCULÍ",
+      "performance": "2.95",
+      "wind": null,
+      "internal_id": 278
+    },
+    {
+      "athlete_name": "JOSE M. MARTIN ALVAREZ",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "Llargada",
+      "raw_discipline_name": "SALT DE LLARGADA MASCULÍ",
+      "performance": "5.96",
+      "wind": null,
+      "internal_id": 279
+    },
+    {
+      "athlete_name": "FERRAN TORTOSA PRADILLO",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "Triple",
+      "raw_discipline_name": "TRIPLE SALT MASCULÍ",
+      "performance": "12.48",
+      "wind": null,
+      "internal_id": 280
+    },
+    {
+      "athlete_name": "EDUARD ALCAINE LOPEZ",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "Pes (7.260 Kg)",
+      "raw_discipline_name": "LLANÇAMENT DE PES MASCULÍ",
+      "performance": "10.52",
+      "wind": null,
+      "internal_id": 281
+    },
+    {
+      "athlete_name": "DIDAC RIOS MESEGUER",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "4x200",
+      "raw_discipline_name": "RELLEUS 4 X 200 MASCULINS",
+      "performance": "DQ",
+      "wind": null,
+      "internal_id": 282
+    },
+    {
+      "athlete_name": "AGUSTI ORIOL PASANO",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "4x200",
+      "raw_discipline_name": "RELLEUS 4 X 200 MASCULINS",
+      "performance": "DQ",
+      "wind": null,
+      "internal_id": 283
+    },
+    {
+      "athlete_name": "BERNAT ROCAMORA CHAPARRO",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "4x200",
+      "raw_discipline_name": "RELLEUS 4 X 200 MASCULINS",
+      "performance": "DQ",
+      "wind": null,
+      "internal_id": 284
+    },
+    {
+      "athlete_name": "JOSE MIGUEL MARTIN ALVAREZ",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "4x200",
+      "raw_discipline_name": "RELLEUS 4 X 200 MASCULINS",
+      "performance": "DQ",
+      "wind": null,
+      "internal_id": 285
     }
   ]
 }

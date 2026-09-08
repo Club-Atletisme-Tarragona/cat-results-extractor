@@ -40,11 +40,11 @@
       "conflicts": [
         {
           "licenses": [
-            "CL13219",
-            "CT2508",
-            "CAT-3789999",
             "CT2897",
-            "CT13219"
+            "CAT-3789999",
+            "CT13219",
+            "CL13219",
+            "CT2508"
           ],
           "reason": "CL/CT conflict: CL13219 vs CT13219 (same number 13219)"
         }
@@ -118,11 +118,11 @@
       "conflicts": [
         {
           "licenses": [
-            "CAT-3754025",
-            "CT23992",
-            "CL92732",
             "CT21623",
             "CL57690",
+            "CT23992",
+            "CL92732",
+            "CAT-3754025",
             "CL23992"
           ],
           "reason": "CL/CT conflict: CL23992 vs CT23992 (same number 23992)"
@@ -168,11 +168,11 @@
       "conflicts": [
         {
           "licenses": [
+            "CAT-3818228",
             "CT25156",
             "CL71733",
-            "CL25156",
-            "CAT-3818228",
-            "CL62287"
+            "CL62287",
+            "CL25156"
           ],
           "reason": "CL/CT conflict: CL25156 vs CT25156 (same number 25156)"
         }
@@ -197,11 +197,11 @@
       "conflicts": [
         {
           "licenses": [
-            "CT20392",
             "CT20690",
+            "CAT-3742985",
+            "CT20392",
             "CL20392",
-            "CT2272",
-            "CAT-3742985"
+            "CT2272"
           ],
           "reason": "CL/CT conflict: CL20392 vs CT20392 (same number 20392)"
         }
@@ -272,10 +272,10 @@
       "conflicts": [
         {
           "licenses": [
-            "CT1566",
             "CL19336",
             "CT23242",
-            "CL23242"
+            "CL23242",
+            "CT1566"
           ],
           "reason": "CL/CT conflict: CL23242 vs CT23242 (same number 23242)"
         }
@@ -300,8 +300,8 @@
       "conflicts": [
         {
           "licenses": [
-            "CL24158",
-            "CT24158"
+            "CT24158",
+            "CL24158"
           ],
           "reason": "CL/CT conflict: CL24158 vs CT24158 (same number 24158)"
         }
@@ -356,8 +356,8 @@
       "conflicts": [
         {
           "licenses": [
-            "CL27029",
-            "CT27029"
+            "CT27029",
+            "CL27029"
           ],
           "reason": "CL/CT conflict: CL27029 vs CT27029 (same number 27029)"
         }
@@ -397,11 +397,11 @@
       "conflicts": [
         {
           "licenses": [
-            "CAT-3743",
+            "CT91904",
             "CAT-3743012",
-            "CT91904"
+            "CAT-3743"
           ],
-          "reason": "Multiple different licenses: ['CAT-3743', 'CAT-3743012', 'CT91904']"
+          "reason": "Multiple different licenses: ['CT91904', 'CAT-3743012', 'CAT-3743']"
         }
       ],
       "total_results": 8,
@@ -419,10 +419,10 @@
       "conflicts": [
         {
           "licenses": [
-            "CT1461",
-            "CAT-3723257"
+            "CAT-3723257",
+            "CT1461"
           ],
-          "reason": "Multiple different licenses: ['CT1461', 'CAT-3723257']"
+          "reason": "Multiple different licenses: ['CAT-3723257', 'CT1461']"
         }
       ],
       "total_results": 2,
@@ -437,10 +437,10 @@
       "conflicts": [
         {
           "licenses": [
-            "CAT-3844273-A-T",
-            "CAT-3844273"
+            "CAT-3844273",
+            "CAT-3844273-A-T"
           ],
-          "reason": "Multiple different licenses: ['CAT-3844273-A-T', 'CAT-3844273']"
+          "reason": "Multiple different licenses: ['CAT-3844273', 'CAT-3844273-A-T']"
         }
       ],
       "total_results": 10,
@@ -454,8 +454,8 @@
       "conflicts": [
         {
           "licenses": [
-            "CT15201",
-            "CL15201"
+            "CL15201",
+            "CT15201"
           ],
           "reason": "CL/CT conflict: CL15201 vs CT15201 (same number 15201)"
         }

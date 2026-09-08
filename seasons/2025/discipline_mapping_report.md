@@ -5,9 +5,9 @@ Heights/weights follow the FCA *Proves autoritzades* tables (stable for the 2005
 combined events resolved per athlete from the PDF birth-year column.
 
 - files: 102
-- results: 3519
-- mapped: 3465
-- review (left unchanged): 54
+- results: 3428
+- mapped: 3428
+- review (left unchanged): 0
 
 | count | raw discipline | official discipline |
 |---:|---|---|
@@ -20,21 +20,18 @@ combined events resolved per athlete from the PDF birth-year column.
 | 35 | `Longitud Mujeres` | `Llargada` |
 | 35 | `Peso (2kg) Hombres AL` | `Pes (2 Kg)` |
 | 35 | `Peso (2kg)Mujeres AL S12F` | `Pes (2 Kg)` |
-| 34 | `300m Mujeres` | `300 metres llisos` |
 | 33 | `Llargada Masculina` | `Llargada` |
 | 32 | `Disco Mujeres` | `Disc (1 Kg)` |
 | 31 | `Peso (2kg) S12 Mujeres PC` | `Pes (2 Kg)` |
+| 30 | `300m Mujeres` | `300 metres llisos` |
 | 30 | `60m Mujeres AL U10F` | `60 metres llisos` |
 | 30 | `Peso (3kg) S14 Mujeres PC` | `Pes (3 Kg)` |
 | 30 | `Triple Salt Femení` | `Triple` |
-| 29 | `400m Hombres` | `400 metres llisos` |
 | 29 | `Peso (2kg) S12 Hombres PC` | `Pes (2 Kg)` |
 | 28 | `200m Hombres U12M` | `200 metres llisos` |
 | 28 | `60m Hombres AL U14M` | `60 metres llisos` |
 | 27 | `Longitud S12 Mujeres PC` | `Llargada` |
-| 26 | `400m vallas Mujeres` | `400 metres tanques (0.762)` |
 | 26 | `60m Hombres AL U12M` | `60 metres llisos` |
-| 26 | `800m Hombres` | `800 metres llisos` |
 | 25 | `Llargada Femenina` | `Llargada` |
 | 25 | `Triple Salt Masculí` | `Triple` |
 | 25 | `Triple Salto Mujeres` | `Triple` |
@@ -47,7 +44,6 @@ combined events resolved per athlete from the PDF birth-year column.
 | 22 | `Longitud Hombres U10M` | `Llargada` |
 | 22 | `Longitud S12 Hombres PC` | `Llargada` |
 | 22 | `Longitud S14 Hombres AL` | `Llargada` |
-| 20 | `600m Femenins` | `600 metres llisos` |
 | 20 | `60m Mujeres AL U12F` | `60 metres llisos` |
 | 20 | `800m Mujeres` | `800 metres llisos` |
 | 20 | `Altura Hombres S12M` | `Alçada` |
@@ -60,14 +56,16 @@ combined events resolved per athlete from the PDF birth-year column.
 | 20 | `Triple Salto Hombres` | `Triple` |
 | 19 | `100m Mujeres` | `100 metres llisos` |
 | 19 | `200m Mujeres U14F` | `200 metres llisos` |
+| 19 | `400m Hombres` | `400 metres llisos` |
+| 19 | `600m Femenins` | `600 metres llisos` |
 | 19 | `Jabalina (500g) Hombres S14M` | `Javelina (500g)` |
 | 19 | `Peso Mujeres` | `Pes (4 Kg)` |
-| 18 | `60m tanques Masculins` | `60 metres tanques (1.067)` |
 | 18 | `Disco (600g) Hombres AL U12M` | `Disc (600 g)` |
 | 18 | `Longitud Hombres PC` | `Llargada` |
 | 18 | `Peso (2kg) Hombres AL S12M` | `Pes (2 Kg)` |
 | 18 | `Peso (3kg) S14 Hombres AL` | `Pes (3 Kg)` |
 | 17 | `Longitud Mujeres U10F` | `Llargada` |
+| 16 | `800m Hombres` | `800 metres llisos` |
 | 16 | `Altura S14 Mujeres PC` | `Alçada` |
 | 16 | `Jabalina 300gr S12F` | `Javelina (300 g)` |
 | 16 | `Pértiga Hombres` | `Perxa` |
@@ -75,10 +73,8 @@ combined events resolved per athlete from the PDF birth-year column.
 | 15 | `17:30   Disc SUB18 (1,5kg) Homes                                                   Final` | `Disc (2 Kg)` |
 | 15 | `200m Hombres U14M` | `200 metres llisos` |
 | 15 | `300m vallas (0,762) S16F` | `300 metres tanques (0.762)` |
-| 15 | `400m vallas Hombres` | `400 metres tanques (0.914)` |
 | 15 | `600m Masculins` | `600 metres llisos` |
 | 15 | `60m Hombres AL` | `60 metres llisos` |
-| 15 | `60m tanques Femenins` | `60 metres tanques (0.84)` |
 | 15 | `60m vallas (0,50)Mujeres AL` | `60 metres tanques (0.50)` |
 | 14 | `Disco (800g) Mujeres` | `Disc (800 g)` |
 | 14 | `Longitud Hombres U14M` | `Llargada` |
@@ -99,10 +95,9 @@ combined events resolved per athlete from the PDF birth-year column.
 | 12 | `Alçada Femenina` | `Alçada` |
 | 12 | `Alçada Masculina` | `Alçada` |
 | 12 | `Jabalina Hombres` | `Javelina (800 g)` |
+| 12 | `Jabalina Vortex S10M` | `Javelina (800 g)` |
 | 12 | `Javelina Femenina` | `Javelina (600 g)` |
 | 11 | `100m vallas Mujeres` | `100 metres tanques (0.84)` |
-| 11 | `110m vallas Hombres` | `110 metres tanques (1.067)` |
-| 11 | `400m Masculí Master M50` | `400 metres llisos` |
 | 11 | `60m Mujeres AL` | `60 metres llisos` |
 | 11 | `60m Mujeres PC` | `60 metres llisos` |
 | 11 | `Altura Mujeres` | `Alçada` |
@@ -111,8 +106,8 @@ combined events resolved per athlete from the PDF birth-year column.
 | 11 | `Martillo (2kg) S14F` | `Martell (2 Kg)` |
 | 11 | `Martillo Mujeres` | `Martell (4 Kg)` |
 | 11 | `Pes Masculí` | `Pes (7.260 Kg)` |
-| 10 | `1.000m Femenins` | `1000 metres llisos` |
 | 10 | `18:00   Martillo Pesado Hombres 70-79 Master M…                                     Combinadas` | `Martell (7.260 Kg)` |
+| 10 | `400m vallas Mujeres` | `400 metres tanques (0.762)` |
 | 10 | `60m S12 Mujeres PC` | `60 metres llisos` |
 | 10 | `Disc Femení` | `Disc (1 Kg)` |
 | 10 | `Disco (600g) Mujeres` | `Disc (600 g)` |
@@ -120,6 +115,7 @@ combined events resolved per athlete from the PDF birth-year column.
 | 10 | `Jabalina Mujeres` | `Javelina (600 g)` |
 | 10 | `Pes (2kg) Femeni SUB12` | `Pes (2 Kg)` |
 | 9 | `1.000m Hombres` | `1000 metres llisos` |
+| 9 | `110m vallas Hombres` | `110 metres tanques (1.067)` |
 | 9 | `120m Hombres AL U12M` | `120 metres llisos` |
 | 9 | `150m Mujeres AL U14F` | `150 metres llisos` |
 | 9 | `300m Femenins` | `300 metres llisos` |
@@ -135,8 +131,8 @@ combined events resolved per athlete from the PDF birth-year column.
 | 9 | `Perxa Femenina` | `Perxa` |
 | 9 | `Peso (3kg) Hombres` | `Pes (3 Kg)` |
 | 9 | `Peso (3kg) Mujeres AL` | `Pes (3 Kg)` |
+| 8 | `1.000m Femenins` | `1000 metres llisos` |
 | 8 | `1.500m Mujeres` | `1500 metres llisos` |
-| 8 | `300m tanques (0,762) Femenins` | `300 metres tanques (0.762)` |
 | 8 | `4x100m Mujeres AL` | `4x100` |
 | 8 | `4x200m Femenins` | `4x200` |
 | 8 | `4x200m Femenins PC` | `4x200` |
@@ -144,6 +140,7 @@ combined events resolved per athlete from the PDF birth-year column.
 | 8 | `4x300m Masculins` | `4x300` |
 | 8 | `4x400m Hombres AL` | `4x400` |
 | 8 | `60m Hombres` | `60 metres llisos` |
+| 8 | `60m tanques Masculins` | `60 metres tanques (0.91)` |
 | 8 | `60m vallas (0,50) S12F` | `60 metres tanques (0.50)` |
 | 8 | `60m vallas (0,84) Hombres AL` | `60 metres tanques (0.84)` |
 | 8 | `Disc Masculí` | `Disc (2 Kg)` |
@@ -152,28 +149,29 @@ combined events resolved per athlete from the PDF birth-year column.
 | 8 | `Pes Femeni` | `Pes (4 Kg)` |
 | 8 | `Pes Femení` | `Pes (4 Kg)` |
 | 8 | `Relleus 4x200 Masculins` | `4x200` |
-| 7 | `1.000m Masculins` | `1000 metres llisos` |
 | 7 | `1.000m Mujeres` | `1000 metres llisos` |
 | 7 | `2.000m Hombres AL` | `2000 metres llisos` |
 | 7 | `2.000m Masculins` | `2000 metres llisos` |
 | 7 | `200m Masculins` | `200 metres llisos` |
-| 7 | `220m tanques (0,76) Femenins` | `220 metres tanques (0.762)` |
 | 7 | `300m vallas (0,84) S16M` | `300 metres tanques (0.84)` |
 | 7 | `4x60m S12M` | `4x60` |
+| 7 | `60m tanques Femenins` | `60 metres tanques (0.50)` |
 | 7 | `80m Mujeres U14F` | `80 metres llisos` |
 | 7 | `80m vallas (0,762) S14F Mujeres AL` | `80 metres tanques (0.84)` |
 | 7 | `Disc (800g) Masculí` | `Disc (800 g)` |
 | 7 | `Longitud Hombres U12M` | `Llargada` |
+| 6 | `1.000m Masculins` | `1000 metres llisos` |
 | 6 | `1000m Masculins Sub10` | `1000 metres llisos` |
 | 6 | `120m Mujeres AL U12F` | `120 metres llisos` |
 | 6 | `2.000m Femenins` | `2000 metres llisos` |
 | 6 | `2.000m Mujeres AL U12F` | `2000 metres llisos` |
-| 6 | `300m tanques Femenins` | `300 metres tanques (0.84)` |
-| 6 | `300m tanques Masculins` | `300 metres tanques (0.84)` |
-| 6 | `400m Hombres U10M` | `400 metres llisos` |
-| 6 | `5.000m Marcha Mujeres en pista` | `5000 metres llisos` |
+| 6 | `220m tanques (0,76) Femenins` | `220 metres tanques (0.762)` |
+| 6 | `300m tanques (0,762) Femenins` | `300 metres tanques (0.762)` |
+| 6 | `300m tanques Masculins` | `300 metres tanques (0.762)` |
+| 6 | `5.000m Marcha Mujeres en pista` | `5000 metres marxa` |
 | 6 | `60m Mujeres AL SF` | `60 metres llisos` |
 | 6 | `60m S14 Hombres AL` | `60 metres llisos` |
+| 6 | `60m tanques Masculins` | `60 metres tanques (0.50)` |
 | 6 | `Disco (800g) Hombres U14M` | `Disc (800 g)` |
 | 6 | `Jabalina plástico 300gr Hombres` | `Javelina (300 g)` |
 | 6 | `Javelina (400g) Femení` | `Javelina (400 g)` |
@@ -192,9 +190,7 @@ combined events resolved per athlete from the PDF birth-year column.
 | 6 | `Peso Pent. Master M60` | `Pes (6 Kg)` |
 | 6 | `Peso SUB14 (3kg) Mujeres AL` | `Pes (4 Kg)` |
 | 5 | `1.000m Mujeres U14F` | `1000 metres llisos` |
-| 5 | `1.000m Obst. Masculins` | `1000 metres llisos` |
 | 5 | `100m Mujeres S16F/AbsF` | `100 metres llisos` |
-| 5 | `150m Femenins` | `150 metres llisos` |
 | 5 | `18:45   Disco Hombres ABS                                                            Final` | `Disc (2 Kg)` |
 | 5 | `2.000m Masculins SUB12` | `2000 metres llisos` |
 | 5 | `200m Femenins` | `200 metres llisos` |
@@ -203,10 +199,11 @@ combined events resolved per athlete from the PDF birth-year column.
 | 5 | `3.000m Mujeres AL` | `3000 metres llisos` |
 | 5 | `300m Masculins` | `300 metres llisos` |
 | 5 | `300m Mujeres PC` | `300 metres llisos` |
-| 5 | `400m Femení` | `400 metres llisos` |
-| 5 | `400m tanques (0,762) Femení` | `400 metres tanques (0.762)` |
-| 5 | `5.000m Marcha Hombres en pista` | `5000 metres llisos` |
-| 5 | `800m Femenins` | `800 metres llisos` |
+| 5 | `300m tanques Femenins` | `300 metres tanques (0.762)` |
+| 5 | `400m vallas Hombres` | `400 metres tanques (0.914)` |
+| 5 | `5.000m Marcha Hombres en pista` | `5000 metres marxa` |
+| 5 | `60m tanques Femenins` | `60 metres tanques (0.84)` |
+| 5 | `60m tanques Femeninses SUB12` | `60 metres tanques (0.50)` |
 | 5 | `80m Hombres AL S14M` | `80 metres llisos` |
 | 5 | `Altura S14 Hombres AL` | `Alçada` |
 | 5 | `Disc (1kg) Masculí` | `Disc (1 Kg)` |
@@ -236,13 +233,14 @@ combined events resolved per athlete from the PDF birth-year column.
 | 4 | `100m Masculí Master M60` | `100 metres llisos` |
 | 4 | `13:15   Altura Pent. Master M55                                                   Combinadas` | `Alçada` |
 | 4 | `150m Hombres AL U14M` | `150 metres llisos` |
+| 4 | `150mMujeres U14F` | `150 metres llisos` |
 | 4 | `2.000m Hombres AL U12M` | `2000 metres llisos` |
 | 4 | `20:25   4x400m Femenins                                                          Final` | `4x400` |
 | 4 | `220m vallas (0,76) S14F` | `220 metres tanques (0.762)` |
 | 4 | `220m vallas (0,76) S14M` | `220 metres tanques (0.762)` |
 | 4 | `3.000m Hombres` | `3000 metres llisos` |
 | 4 | `300m Hombres U16M` | `300 metres llisos` |
-| 4 | `400m tanques (0,84) Masculí` | `400 metres tanques (0.84)` |
+| 4 | `400m Femení` | `400 metres llisos` |
 | 4 | `4x100m Femenins` | `4x100` |
 | 4 | `4x100m MIXTO AL` | `4x100` |
 | 4 | `4x100m SUB16 Femenins` | `4x100` |
@@ -263,11 +261,16 @@ combined events resolved per athlete from the PDF birth-year column.
 | 4 | `4x60m Masculins` | `4x60` |
 | 4 | `4x60m Mujeres AL` | `4x60` |
 | 4 | `4x60m SUB12 Femenins` | `4x60` |
+| 4 | `4x80m Femenins` | `4x80` |
+| 4 | `4x80m Masculilns` | `4x80` |
+| 4 | `4x80m SUB14 Femenins` | `4x80` |
+| 4 | `4x80m SUB14 Masculins` | `4x80` |
 | 4 | `60m Hombres AL SM` | `60 metres llisos` |
 | 4 | `60m Hombres AL U18M` | `60 metres llisos` |
 | 4 | `60m Masculins Sub10` | `60 metres llisos` |
 | 4 | `60m Mujeres AL U8F` | `60 metres llisos` |
 | 4 | `60m vallas (0,84) Mujeres PC` | `60 metres tanques (0.84)` |
+| 4 | `800m Femenins` | `800 metres llisos` |
 | 4 | `80m Masculins` | `80 metres llisos` |
 | 4 | `80m vallas (0,84) Hombres AL S14M` | `80 metres tanques (0.84)` |
 | 4 | `Altura Hombres PC` | `Alçada` |
@@ -292,22 +295,26 @@ combined events resolved per athlete from the PDF birth-year column.
 | 4 | `Relleus 4x200 Femenins` | `4x200` |
 | 4 | `Relleus 4x200m Masculin` | `4x200` |
 | 3 | `1.000m Masculins SUB10` | `1000 metres llisos` |
-| 3 | `1.000m Obst. Mujeres sin ría U14F` | `1000 metres llisos` |
+| 3 | `1.000m Obst. Mujeres sin ría U14F` | `1000 metres obstacles` |
 | 3 | `1.000m S10M` | `1000 metres llisos` |
 | 3 | `100m Masculins` | `100 metres llisos` |
-| 3 | `11:30   3.000m Marcha M PC M70                                                    Final` | `3000 metres llisos` |
-| 3 | `13:00   800m Mujeres AL                                                             Combinadas` | `800 metres llisos` |
-| 3 | `150m Masculins` | `150 metres llisos` |
+| 3 | `11:30   3.000m Marcha M PC M70                                                    Final` | `3000 metres marxa` |
+| 3 | `150m Femenins` | `150 metres llisos` |
 | 3 | `15:00   Martillo (5kg) Hombres                                                      Final` | `Martell (5 kg)` |
 | 3 | `2.000m Mujeres AL` | `2000 metres llisos` |
 | 3 | `220m tanques Femenins` | `220 metres tanques (0.762)` |
-| 3 | `220m tanques Masculins` | `220 metres tanques (0.762)` |
 | 3 | `3.000m Hombres PC` | `3000 metres llisos` |
 | 3 | `3.000m Mujeres` | `3000 metres llisos` |
-| 3 | `3.000m Obst. Hombres` | `3000 metres llisos` |
+| 3 | `3.000m Obst. Hombres` | `3000 metres obstacles` |
 | 3 | `300m Hombres PC` | `300 metres llisos` |
+| 3 | `300mt (0,84) Masculí` | `300 metres tanques (0.84)` |
+| 3 | `400m Hombres U10M` | `400 metres llisos` |
+| 3 | `400m tanques (0,84) Masculí` | `400 metres tanques (0.84)` |
+| 3 | `4x80m S14M` | `4x80` |
 | 3 | `600m Hombres PC` | `600 metres llisos` |
 | 3 | `600m Mujeres PC` | `600 metres llisos` |
+| 3 | `60m tanques Femenins` | `60 metres tanques (0.76)` |
+| 3 | `60m tanques Masculins` | `60 metres tanques (0.84)` |
 | 3 | `60m vallas (0,762) Mujeres PC` | `60 metres tanques (0.76)` |
 | 3 | `Altura Mujeres U16F` | `Alçada` |
 | 3 | `DISCO (2 KG) Hombres ABS PENTATHLON VET 35-49` | `Disc (2 Kg)` |
@@ -317,10 +324,11 @@ combined events resolved per athlete from the PDF birth-year column.
 | 3 | `Disco SUB14 (800g) Mujeres` | `Disc (1 Kg)` |
 | 3 | `Disco SUB16 (800g) Mujeres` | `Disc (1 Kg)` |
 | 3 | `Jabalina Vortex Mujeres` | `Javelina (600 g)` |
+| 3 | `Jabalina Vortex S10F` | `Javelina (800 g)` |
 | 3 | `Javelina (400g) Femenina` | `Javelina (400 g)` |
 | 3 | `Javelina (500g) Masculí` | `Javelina (500g)` |
 | 3 | `Javelina Femenina SUB12` | `Javelina (600 g)` |
-| 3 | `Llançament de Pes Femení` | `Pes (4 Kg)` |
+| 3 | `Llançament de Pes Femení` | `Pes (2 Kg)` |
 | 3 | `Llargada Femenina SUB12` | `Llargada` |
 | 3 | `Llargada Femení` | `Llargada` |
 | 3 | `Llargada Homes PC` | `Llargada` |
@@ -330,6 +338,7 @@ combined events resolved per athlete from the PDF birth-year column.
 | 3 | `Martell Femení` | `Martell (4 Kg)` |
 | 3 | `Martillo (4kg) Hombres` | `Martell (4 Kg)` |
 | 3 | `Pes (3kg) SUB14 Masculí` | `Pes (3 Kg)` |
+| 3 | `Pes SUB12M` | `Pes (7.260 Kg)` |
 | 3 | `Peso (3kg) Mujeres AL MF55` | `Pes (3 Kg)` |
 | 3 | `Peso (6kg) Hombres AL` | `Pes (6 Kg)` |
 | 3 | `Pértiga Mujeres` | `Perxa` |
@@ -339,20 +348,25 @@ combined events resolved per athlete from the PDF birth-year column.
 | 3 | `Salt de Llargada Femení` | `Llargada` |
 | 3 | `Triple Salt Hombres` | `Triple` |
 | 2 | `1.000m Hombres U16M` | `1000 metres llisos` |
+| 2 | `1.000m Obst. Masculins` | `1000 metres obstacles` |
 | 2 | `100m Hombres S16M/AbsM` | `100 metres llisos` |
+| 2 | `100m tanques Masculins` | `100 metres tanques (0.91)` |
+| 2 | `150m Masculins` | `150 metres llisos` |
 | 2 | `2.000m Femenins SUB12` | `2000 metres llisos` |
-| 2 | `2.000m Obst. Mujeres` | `2000 metres llisos` |
+| 2 | `2.000m Obst. Mujeres` | `2000 m obstacles` |
 | 2 | `200m Hombres PC` | `200 metres llisos` |
 | 2 | `200m Mujeres PC` | `200 metres llisos` |
 | 2 | `3.000m Masculins` | `3000 metres llisos` |
-| 2 | `3.000m marxa Masculins` | `3000 metres llisos` |
+| 2 | `3.000m marxa Masculins` | `3000 metres marxa` |
+| 2 | `300mt (0,762) Femení` | `300 metres tanques (0.762)` |
 | 2 | `400m Masculins` | `400 metres llisos` |
 | 2 | `400m Masculí` | `400 metres llisos` |
-| 2 | `60 metres tanques masculins` | `60 metres tanques (1.067)` |
+| 2 | `400m tanques (0,762) Femení` | `400 metres tanques (0.762)` |
+| 2 | `60 metres tanques masculins` | `60 metres tanques (0.91)` |
 | 2 | `600m Hombres SUB 12` | `600 metres llisos` |
 | 2 | `60m SUB12 Femenins` | `60 metres llisos` |
 | 2 | `60m SUB14 Masculins` | `60 metres llisos` |
-| 2 | `60m tanques Masculins SUB12` | `60 metres tanques (1.067)` |
+| 2 | `60m tanques Masculins SUB12` | `60 metres tanques (0.50)` |
 | 2 | `800m Femení` | `800 metres llisos` |
 | 2 | `800m Masculins` | `800 metres llisos` |
 | 2 | `80m Femenins` | `80 metres llisos` |
@@ -372,25 +386,26 @@ combined events resolved per athlete from the PDF birth-year column.
 | 2 | `Peso (4kg) Hombres AL` | `Pes (4 Kg)` |
 | 2 | `Pértiga S12M` | `Perxa` |
 | 2 | `Tetratló SUB12 Masculina` | `Tetratló` |
-| 1 | `09:00   10.000m Marcha Mujeres Master F55                                           Final` | `10000 metres llisos` |
+| 1 | `09:00   10.000m Marcha Mujeres Master F55                                           Final` | `10 km marxa` |
 | 1 | `1.000m Femenins SUB10` | `1000 metres llisos` |
 | 1 | `1.000m Hombres PC` | `1000 metres llisos` |
 | 1 | `1.000m Hombres U14M` | `1000 metres llisos` |
-| 1 | `1.000m Marcha Hombres en pista` | `1000 metres llisos` |
-| 1 | `1.000m Marxa Masculins` | `1000 metres llisos` |
+| 1 | `1.000m Marcha Hombres en pista` | `1000 metres marxa` |
+| 1 | `1.000m Marxa Masculins` | `1000 metres marxa` |
 | 1 | `1.000m Mujeres PC` | `1000 metres llisos` |
 | 1 | `1.000m Obst Femenins` | `1000 metres llisos` |
-| 1 | `1.000m Obst. Hombres (sin Ría) U14M` | `1000 metres llisos` |
-| 1 | `1.000m marxa Femenins` | `1000 metres llisos` |
-| 1 | `1.000m marxa Femení SUB10` | `1000 metres llisos` |
-| 1 | `1.000m marxa Masculins SUB10` | `1000 metres llisos` |
+| 1 | `1.000m Obst. Hombres (sin Ría) U14M` | `1000 metres obstacles` |
+| 1 | `1.000m marxa Femenins` | `1000 metres marxa` |
+| 1 | `1.000m marxa Femení SUB10` | `1000 metres marxa` |
+| 1 | `1.000m marxa Masculins SUB10` | `1000 metres marxa` |
 | 1 | `1.500m Masculí Master M45` | `1500 metres llisos` |
 | 1 | `1.500m Masculí Master M50` | `1500 metres llisos` |
 | 1 | `1.500m Masculí Master M55` | `1500 metres llisos` |
-| 1 | `1.500m Obst. Femenins` | `1500 metres llisos` |
-| 1 | `1.500m Obst. Masculins` | `1500 metres llisos` |
-| 1 | `10.000m Marcha Mujeres` | `10000 metres llisos` |
-| 1 | `10.000m Marcha Mujeres Master F45` | `10000 metres llisos` |
+| 1 | `1.500m Obst. Femenins` | `1500 metres obstacles` |
+| 1 | `1.500m Obst. Masculins` | `1500 metres obstacles` |
+| 1 | `10.000m Marcha Mujeres` | `10 km marxa` |
+| 1 | `10.000m Marcha Mujeres Master F45` | `10 km marxa` |
+| 1 | `100 metres tanques Masculí Master M55` | `100 metres tanques (0.91)` |
 | 1 | `1000m Femenins` | `1000 metres llisos` |
 | 1 | `1000m Femenins Sub10F` | `1000 metres llisos` |
 | 1 | `1000m Masculins` | `1000 metres llisos` |
@@ -408,31 +423,32 @@ combined events resolved per athlete from the PDF birth-year column.
 | 1 | `120m Femenins` | `120 metres llisos` |
 | 1 | `120m Masculins` | `120 metres llisos` |
 | 1 | `120m Masculins SUB12` | `120 metres llisos` |
-| 1 | `12:15   3.000m Mujeres AL                                                             Final` | `3000 metres llisos` |
-| 1 | `13:15   2.000m Obst. Mujeres                                                       Final` | `2000 metres llisos` |
+| 1 | `13:15   2.000m Obst. Mujeres                                                       Final` | `2000 m obstacles` |
 | 1 | `150m Hombres AL` | `150 metres llisos` |
-| 1 | `2.000m Marcha Hombres en pista` | `2000 metres llisos` |
-| 1 | `2.000m marxa Femenins` | `2000 metres llisos` |
-| 1 | `2.000m marxa Masculins` | `2000 metres llisos` |
+| 1 | `2.000m Marcha Hombres en pista` | `2000 metres marxa` |
+| 1 | `2.000m marxa Femenins` | `2000 metres marxa` |
+| 1 | `2.000m marxa Masculins` | `2000 metres marxa` |
 | 1 | `200m Femení Master F45` | `200 metres llisos` |
 | 1 | `200m Masculí` | `200 metres llisos` |
 | 1 | `200m Mujeres U18F` | `200 metres llisos` |
+| 1 | `220m tanques Masculins` | `220 metres tanques (0.762)` |
 | 1 | `3.000m Femenins` | `3000 metres llisos` |
-| 1 | `3.000m Marxa F PC F45` | `3000 metres llisos` |
-| 1 | `3.000m Marxa Femenins` | `3000 metres llisos` |
-| 1 | `3.000m Marxa M PC M55` | `3000 metres llisos` |
+| 1 | `3.000m Marxa F PC F45` | `3000 metres marxa` |
+| 1 | `3.000m Marxa Femenins` | `3000 metres marxa` |
+| 1 | `3.000m Marxa M PC M55` | `3000 metres marxa` |
 | 1 | `3.000m S16M` | `3000 metres llisos` |
 | 1 | `300m tanques (0,84) Masculins` | `300 metres tanques (0.84)` |
 | 1 | `300m vallas (0,762) Mujeres AL` | `300 metres tanques (0.762)` |
 | 1 | `400m Femenins` | `400 metres llisos` |
 | 1 | `400m Femení Master F45` | `400 metres llisos` |
 | 1 | `400m Masculins SUB10` | `400 metres llisos` |
+| 1 | `400m Masculí Master M50` | `400 metres llisos` |
 | 1 | `400m tanques Femení` | `400 metres tanques (0.762)` |
 | 1 | `400m vallas (0,84) Hombres AL` | `400 metres tanques (0.84)` |
 | 1 | `400m vallas ABS F` | `400 metres tanques (0.762)` |
-| 1 | `5.000m Marcha Femení Master F60` | `5000 metres llisos` |
-| 1 | `5.000m Marxa Masculí Master M55` | `5000 metres llisos` |
-| 1 | `60 metres tanques femenins` | `60 metres tanques (0.84)` |
+| 1 | `5.000m Marcha Femení Master F60` | `5000 metres marxa` |
+| 1 | `5.000m Marxa Masculí Master M55` | `5000 metres marxa` |
+| 1 | `60 metres tanques femenins` | `60 metres tanques (0.76)` |
 | 1 | `600m Femenins SUB12` | `600 metres llisos` |
 | 1 | `600m Hombres U14M` | `600 metres llisos` |
 | 1 | `600m Masculins SUB12` | `600 metres llisos` |
@@ -441,8 +457,9 @@ combined events resolved per athlete from the PDF birth-year column.
 | 1 | `60m Masculins SUB12` | `60 metres llisos` |
 | 1 | `60m Mujeres AL U18F` | `60 metres llisos` |
 | 1 | `60m Tanques Femenins` | `60 metres tanques (0.84)` |
+| 1 | `60m tanques Masculins` | `60 metres tanques (1.067)` |
 | 1 | `60m vallas (0,84) Mujeres SUB20` | `60 metres tanques (0.84)` |
-| 1 | `60m vallas Hombres` | `60 metres tanques (1.067)` |
+| 1 | `60m vallas Hombres` | `60 metres tanques (0.99)` |
 | 1 | `800m Masculí Master M50` | `800 metres llisos` |
 | 1 | `80m Hombres U14M` | `80 metres llisos` |
 | 1 | `80m tanques (0,762) Femenins` | `80 metres tanques (0.84)` |
@@ -513,62 +530,3 @@ combined events resolved per athlete from the PDF birth-year column.
 | 1 | `Salt de Llargada Masculí` | `Llargada` |
 | 1 | `Tetratló Masculina Sub14` | `Tetratló` |
 
-
-## Review (discipline left unchanged)
-
-| file | athlete | raw | reason |
-|---|---|---|---|
-| resultat-20250405-catrelleuspreviaigualada.json | Aston MATE GRAS | `4x80m SUB14 Masculins` | unknown relay 4x80 |
-| resultat-20250405-catrelleuspreviaigualada.json | Ferran MASCARO NAVARRO | `4x80m SUB14 Masculins` | unknown relay 4x80 |
-| resultat-20250405-catrelleuspreviaigualada.json | Hernan FERRAN JIMENEZ | `4x80m SUB14 Masculins` | unknown relay 4x80 |
-| resultat-20250405-catrelleuspreviaigualada.json | Kilian BORREDA CERVELLO | `4x80m SUB14 Masculins` | unknown relay 4x80 |
-| resultat-20250405-catrelleuspreviaigualada.json | Agustina RAMOS RUSSO | `4x80m SUB14 Femenins` | unknown relay 4x80 |
-| resultat-20250405-catrelleuspreviaigualada.json | Alba ESTEVE HOSTALOT | `4x80m SUB14 Femenins` | unknown relay 4x80 |
-| resultat-20250405-catrelleuspreviaigualada.json | Carlota TEJERO CLAU | `4x80m SUB14 Femenins` | unknown relay 4x80 |
-| resultat-20250405-catrelleuspreviaigualada.json | Eva JACOB GARCIA | `4x80m SUB14 Femenins` | unknown relay 4x80 |
-| resultat-20250517-catcombinadessub12manresa.json | ANTONIO BALAZOTE | `Pes SUB12M` | pes without gender |
-| resultat-20250517-catcombinadessub12manresa.json | ANTONIO BALAZOTE | `Pes SUB12M` | pes without gender |
-| resultat-20250517-catcombinadessub12manresa.json | ANTONIO BALAZOTE | `Pes SUB12M` | pes without gender |
-| resultat-20250518-territorialpromocioelvendrell.json | GERARD BARBER GONZALEZ | `Jabalina Vortex S10M` | javelina without gender |
-| resultat-20250518-territorialpromocioelvendrell.json | GERARD BARBER GONZALEZ | `Jabalina Vortex S10M` | javelina without gender |
-| resultat-20250518-territorialpromocioelvendrell.json | GERARD BARBER GONZALEZ | `Jabalina Vortex S10M` | javelina without gender |
-| resultat-20250518-territorialpromocioelvendrell.json | NIL PASCUAL PRATS | `Jabalina Vortex S10M` | javelina without gender |
-| resultat-20250518-territorialpromocioelvendrell.json | NIL PASCUAL PRATS | `Jabalina Vortex S10M` | javelina without gender |
-| resultat-20250518-territorialpromocioelvendrell.json | NIL PASCUAL PRATS | `Jabalina Vortex S10M` | javelina without gender |
-| resultat-20250518-territorialpromocioelvendrell.json | POL VILANOVA ANGLES | `Jabalina Vortex S10M` | javelina without gender |
-| resultat-20250518-territorialpromocioelvendrell.json | POL VILANOVA ANGLES | `Jabalina Vortex S10M` | javelina without gender |
-| resultat-20250518-territorialpromocioelvendrell.json | POL VILANOVA ANGLES | `Jabalina Vortex S10M` | javelina without gender |
-| resultat-20250518-territorialpromocioelvendrell.json | QUIM CAPARROS JARA | `Jabalina Vortex S10M` | javelina without gender |
-| resultat-20250518-territorialpromocioelvendrell.json | QUIM CAPARROS JARA | `Jabalina Vortex S10M` | javelina without gender |
-| resultat-20250518-territorialpromocioelvendrell.json | QUIM CAPARROS JARA | `Jabalina Vortex S10M` | javelina without gender |
-| resultat-20250518-territorialpromocioelvendrell.json | Aston MATE GRAS | `4x80m S14M` | unknown relay 4x80 |
-| resultat-20250518-territorialpromocioelvendrell.json | Ferran MASCARO NAVARRO | `4x80m S14M` | unknown relay 4x80 |
-| resultat-20250518-territorialpromocioelvendrell.json | Biel LLIGADAS TURON | `4x80m S14M` | unknown relay 4x80 |
-| resultat-20250518-territorialpromocioelvendrell.json | GINESTA MARRUGAT CANADELL | `Jabalina Vortex S10F` | javelina without gender |
-| resultat-20250518-territorialpromocioelvendrell.json | GINESTA MARRUGAT CANADELL | `Jabalina Vortex S10F` | javelina without gender |
-| resultat-20250518-territorialpromocioelvendrell.json | GINESTA MARRUGAT CANADELL | `Jabalina Vortex S10F` | javelina without gender |
-| resultat-20250524-catclubsbsub14elprat.json | Eric GRAU PINENT | `4x80m Masculilns` | unknown relay 4x80 |
-| resultat-20250524-catclubsbsub14elprat.json | Gabriel QUEZADA PINEDA | `4x80m Masculilns` | unknown relay 4x80 |
-| resultat-20250524-catclubsbsub14elprat.json | Kilian PEDROL ESPINOSA | `4x80m Masculilns` | unknown relay 4x80 |
-| resultat-20250524-catclubsbsub14elprat.json | Marti GONZALEZ CERESUELA | `4x80m Masculilns` | unknown relay 4x80 |
-| resultat-20250524-catclubsbsub14elprat.json | Agustina RAMOS RUSSO | `4x80m Femenins` | unknown relay 4x80 |
-| resultat-20250524-catclubsbsub14elprat.json | Aitana CASAS MUIÑO | `4x80m Femenins` | unknown relay 4x80 |
-| resultat-20250524-catclubsbsub14elprat.json | Laura RULLO SALAS | `4x80m Femenins` | unknown relay 4x80 |
-| resultat-20250524-catclubsbsub14elprat.json | Maria MARTIN CUADRADO | `4x80m Femenins` | unknown relay 4x80 |
-| resultat-20250531-controltorredembarra.json | CAROLINA PEÑA MORALES | `150mMujeres U14F` | no rule matched |
-| resultat-20250531-controltorredembarra.json | EVA JACOB GARCIA | `150mMujeres U14F` | no rule matched |
-| resultat-20250531-controltorredembarra.json | ARLET SOLANA VILA | `150mMujeres U14F` | no rule matched |
-| resultat-20250531-controltorredembarra.json | MARIA USTRELL ARAGONES | `150mMujeres U14F` | no rule matched |
-| resultat-20250601-controlsub16mataro.json | CESSAR AINA PRECIADO FOREMAN | `300mt (0,84) Masculí` | no rule matched |
-| resultat-20250601-controlsub16mataro.json | DAVID FERNANDEZ PINEDA | `300mt (0,84) Masculí` | no rule matched |
-| resultat-20250601-controlsub16mataro.json | IKER FUENTES PUESTA | `300mt (0,84) Masculí` | no rule matched |
-| resultat-20250601-controlsub16mataro.json | MARIA FERRAN JIMENEZ | `300mt (0,762) Femení` | no rule matched |
-| resultat-20250601-controlsub16mataro.json | VICTORIA C ONYEMAEKWU | `300mt (0,762) Femení` | no rule matched |
-| resultat-20250607-catsub12previavilanova.json | JULIA DIEZ BERTRAN | `60m tanques Femeninses SUB12` | tanques without gender/category |
-| resultat-20250607-catsub12previavilanova.json | MONTSERRAT MARQUES CRUZ | `60m tanques Femeninses SUB12` | tanques without gender/category |
-| resultat-20250607-catsub12previavilanova.json | AMELI TORRES ARBONES | `60m tanques Femeninses SUB12` | tanques without gender/category |
-| resultat-20250607-catsub12previavilanova.json | Elena Alessón Brito | `60m tanques Femeninses SUB12` | tanques without gender/category |
-| resultat-20250607-catsub12previavilanova.json | ERIKA MARGALLO DEL VALLE | `60m tanques Femeninses SUB12` | tanques without gender/category |
-| resultat-20250608-catmasterlleida.json | FRANCISCO JAVIER BAZ VIDAL M | `100 metres tanques Masculí Master M55` | no tanques rule for 100m m absolut |
-| resultat-20250622-catsub16previamataro.json | IKER FUENTES PUESTA | `100m tanques Masculins` | no tanques rule for 100m m absolut |
-| resultat-20250629-catsub16finalsantceloni.json | IKER FUENTES PUESTA | `100m tanques Masculins` | no tanques rule for 100m m absolut |

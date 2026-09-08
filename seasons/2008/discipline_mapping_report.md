@@ -5,8 +5,8 @@ Heights/weights follow the FCA *Proves autoritzades* tables (stable for the 2005
 combined events resolved per athlete from the PDF birth-year column.
 
 - files: 34
-- results: 354
-- mapped: 354
+- results: 353
+- mapped: 353
 - review (left unchanged): 0
 
 | count | raw discipline | official discipline |
@@ -62,7 +62,7 @@ combined events resolved per athlete from the PDF birth-year column.
 | 2 | `200 METRES LLISOS` | `200 metres llisos` |
 | 2 | `200 METRES LLISOS FEMENINS` | `200 metres llisos` |
 | 2 | `300 METRES LLISOS MASCULÍ` | `300 metres llisos` |
-| 2 | `3000 METRES OBSTACLES MASCULINS` | `3000 metres llisos` |
+| 2 | `3000 METRES OBSTACLES MASCULINS` | `3000 metres obstacles` |
 | 2 | `60 METRES TANQUES CADETS MASCULINS` | `60 metres tanques (0.91)` |
 | 2 | `60 METRES TANQUES MASCULINS` | `60 metres tanques (0.99)` |
 | 2 | `60 m ll BF 2a serie` | `60 metres llisos` |
@@ -84,7 +84,6 @@ combined events resolved per athlete from the PDF birth-year column.
 | 1 | `110 METRES TANQUES MASCULINS` | `110 metres tanques (0.99)` |
 | 1 | `3000 METRES LLISOS` | `3000 metres llisos` |
 | 1 | `400 METRES TANQUES` | `400 metres tanques (0.914)` |
-| 1 | `5000 METRES MARXA` | `5000 metres marxa` |
 | 1 | `60 METRES LLISOS CADET MASCULINS` | `60 metres llisos` |
 | 1 | `60 METRES TANQUES 1a. SÈRIE JUNIOR` | `60 metres tanques (0.99)` |
 | 1 | `60 METRES TANQUES 3a. SÈRIE ABSOLUT` | `60 metres tanques (1.067)` |
@@ -104,7 +103,7 @@ combined events resolved per athlete from the PDF birth-year column.
 | 1 | `CLASSIFICACIÓ PROVES COMBINADES` | `Heptatló (S20)` |
 | 1 | `LLANÇAMENT DE JAVELINA` | `4x100` |
 | 1 | `LLANÇAMENT DE JAVELINA` | `4x400` |
-| 1 | `Martell Cadet Femení` | `Martell (3 Kg)` |
+| 1 | `Martell Cadet Femení` | `Martell (4 Kg)` |
 
 ## Suspect entries (re-extraction recommended before DB import)
 

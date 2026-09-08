@@ -2,7 +2,7 @@
   "athlete_name": "NIL PASCUAL PRATS",
   "athlete_id": "CAT-3789538",
   "athlete_dob": "16/3/2017",
-  "total_results": 59,
+  "total_results": 60,
   "name_variants_found": [
     "NIL PASCUAL PRATS",
     "Nil PASCUAL PRATS"
@@ -60,7 +60,7 @@
       "athlete_name": "NIL PASCUAL PRATS",
       "athlete_dob": "16/3/2017",
       "athlete_id": "CL13421",
-      "discipline": "Javelina (300 g)",
+      "discipline": "Javelina (800 g)",
       "performance": "11.44",
       "wind": null,
       "internal_id": 1381
@@ -73,7 +73,7 @@
       "athlete_name": "NIL PASCUAL PRATS",
       "athlete_dob": "16/3/2017",
       "athlete_id": "CL13421",
-      "discipline": "Javelina (300 g)",
+      "discipline": "Javelina (800 g)",
       "performance": "12.47",
       "wind": null,
       "internal_id": 1381
@@ -86,7 +86,7 @@
       "athlete_name": "NIL PASCUAL PRATS",
       "athlete_dob": "16/3/2017",
       "athlete_id": "CL13421",
-      "discipline": "Javelina (300 g)",
+      "discipline": "Javelina (800 g)",
       "performance": "12.58",
       "wind": null,
       "internal_id": 1381
@@ -190,7 +190,7 @@
       "athlete_name": "NIL PASCUAL PRATS",
       "athlete_dob": "16/3/2017",
       "athlete_id": "CAT-3789538",
-      "discipline": "Javelina (300 g)",
+      "discipline": "Javelina (800 g)",
       "performance": "18.83",
       "wind": null,
       "internal_id": 1381
@@ -203,7 +203,7 @@
       "athlete_name": "NIL PASCUAL PRATS",
       "athlete_dob": "16/3/2017",
       "athlete_id": "CAT-3789538",
-      "discipline": "Javelina (300 g)",
+      "discipline": "Javelina (800 g)",
       "performance": "20.93",
       "wind": null,
       "internal_id": 1381
@@ -216,7 +216,7 @@
       "athlete_name": "NIL PASCUAL PRATS",
       "athlete_dob": "16/3/2017",
       "athlete_id": "CAT-3789538",
-      "discipline": "Javelina (300 g)",
+      "discipline": "Javelina (800 g)",
       "performance": "25.12",
       "wind": null,
       "internal_id": 1381
@@ -255,7 +255,7 @@
       "athlete_name": "NIL PASCUAL PRATS",
       "athlete_dob": "16/3/2017",
       "athlete_id": "CAT-3789538",
-      "discipline": "Javelina (300 g)",
+      "discipline": "Javelina (800 g)",
       "performance": "17.52",
       "wind": null,
       "internal_id": 1381
@@ -268,8 +268,21 @@
       "athlete_name": "NIL PASCUAL PRATS",
       "athlete_dob": "16/3/2017",
       "athlete_id": "CAT-3789538",
-      "discipline": "Javelina (300 g)",
+      "discipline": "Javelina (800 g)",
       "performance": "16.76",
+      "wind": null,
+      "internal_id": 1381
+    },
+    {
+      "event_name": "Campionat Territorial Tarragona sub10-12-14-16 - Pista de Atletismo de El Vendrell",
+      "event_date": "18/05/2025",
+      "event_location": "El Vendrell",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2025/05/resultat-20250518-territorialpromocioelvendrell.pdf",
+      "athlete_name": "NIL PASCUAL PRATS",
+      "athlete_dob": "16/3/2017",
+      "athlete_id": "CAT-3789538",
+      "discipline": "Javelina (800 g)",
+      "performance": "20.19",
       "wind": null,
       "internal_id": 1381
     },
@@ -385,7 +398,7 @@
       "athlete_name": "NIL PASCUAL PRATS",
       "athlete_dob": "16/3/2017",
       "athlete_id": "CAT-3789538",
-      "discipline": "60m S10M",
+      "discipline": "60 metres llisos",
       "performance": "10.15",
       "wind": null,
       "internal_id": 1381
@@ -398,7 +411,7 @@
       "athlete_name": "NIL PASCUAL PRATS",
       "athlete_dob": "16/3/2017",
       "athlete_id": "CAT-3789538",
-      "discipline": "400m S10M",
+      "discipline": "400 metres llisos",
       "performance": "1:18.94",
       "wind": null,
       "internal_id": 1381
@@ -411,7 +424,7 @@
       "athlete_name": "NIL PASCUAL PRATS",
       "athlete_dob": "16/3/2017",
       "athlete_id": "CAT-3789538",
-      "discipline": "60m Hombres U8M, U10M",
+      "discipline": "60 metres llisos",
       "performance": "10.40",
       "wind": null,
       "internal_id": 1381
@@ -424,7 +437,7 @@
       "athlete_name": "NIL PASCUAL PRATS",
       "athlete_dob": "16/3/2017",
       "athlete_id": "CAT-3789538",
-      "discipline": "400m Hombres U8M, U10M",
+      "discipline": "400 metres llisos",
       "performance": "1:17.74",
       "wind": null,
       "internal_id": 1381
@@ -437,7 +450,7 @@
       "athlete_name": "NIL PASCUAL PRATS",
       "athlete_dob": "16/3/2017",
       "athlete_id": "CAT-3789538",
-      "discipline": "Longitud U10M",
+      "discipline": "Llargada",
       "performance": "3.06",
       "wind": null,
       "internal_id": 1381
@@ -450,7 +463,7 @@
       "athlete_name": "NIL PASCUAL PRATS",
       "athlete_dob": "16/3/2017",
       "athlete_id": "CAT-3789538",
-      "discipline": "60m Hombres AL U10M",
+      "discipline": "60 metres llisos",
       "performance": "10.60",
       "wind": null,
       "internal_id": 1381
@@ -463,7 +476,7 @@
       "athlete_name": "NIL PASCUAL PRATS",
       "athlete_dob": "16/3/2017",
       "athlete_id": "CAT-3789538",
-      "discipline": "1.000m Hombres U10M",
+      "discipline": "1000 metres llisos",
       "performance": "03:41.10",
       "wind": null,
       "internal_id": 1381
@@ -476,7 +489,7 @@
       "athlete_name": "NIL PASCUAL PRATS",
       "athlete_dob": "16/3/2017",
       "athlete_id": "CAT-3789538",
-      "discipline": "Jabalina Vortex Hombres",
+      "discipline": "Javelina (800 g)",
       "performance": "23.99",
       "wind": null,
       "internal_id": 1381
@@ -489,7 +502,7 @@
       "athlete_name": "NIL PASCUAL PRATS",
       "athlete_dob": "16/3/2017",
       "athlete_id": "CAT-3789538",
-      "discipline": "Jabalina Vortex Hombres",
+      "discipline": "Javelina (800 g)",
       "performance": "21.06",
       "wind": null,
       "internal_id": 1381
@@ -502,7 +515,7 @@
       "athlete_name": "NIL PASCUAL PRATS",
       "athlete_dob": "16/3/2017",
       "athlete_id": "CAT-3789538",
-      "discipline": "Jabalina Vortex Hombres",
+      "discipline": "Javelina (800 g)",
       "performance": "20.71",
       "wind": null,
       "internal_id": 1381
@@ -515,7 +528,7 @@
       "athlete_name": "NIL PASCUAL PRATS",
       "athlete_dob": "16/3/2017",
       "athlete_id": "CAT-3789538",
-      "discipline": "Llargada masculina",
+      "discipline": "Llargada",
       "performance": "3.18",
       "wind": null,
       "internal_id": 1381
@@ -528,7 +541,7 @@
       "athlete_name": "NIL PASCUAL PRATS",
       "athlete_dob": "16/3/2017",
       "athlete_id": "CAT-3789538",
-      "discipline": "Llargada masculina",
+      "discipline": "Llargada",
       "performance": "3.09",
       "wind": null,
       "internal_id": 1381
@@ -541,7 +554,7 @@
       "athlete_name": "Nil PASCUAL PRATS",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "Relleus 4x200 masculi",
+      "discipline": "4x200",
       "performance": "2:20.04",
       "wind": null,
       "internal_id": 1381
@@ -554,7 +567,7 @@
       "athlete_name": "Nil PASCUAL PRATS",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "4x60m Masculí U10M",
+      "discipline": "4x60",
       "performance": "38.94",
       "wind": null,
       "internal_id": 1381
@@ -567,7 +580,7 @@
       "athlete_name": "NIL PASCUAL PRATS",
       "athlete_dob": "16/3/2017",
       "athlete_id": "CAT-3789538",
-      "discipline": "400m Hombres",
+      "discipline": "400 metres llisos",
       "performance": "1:16.33",
       "wind": null,
       "internal_id": 1381
@@ -580,7 +593,7 @@
       "athlete_name": "Nil PASCUAL PRATS",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "4x60m Hombres AL",
+      "discipline": "4x60",
       "performance": "39.01",
       "wind": null,
       "internal_id": 1381
@@ -593,7 +606,7 @@
       "athlete_name": "Nil PASCUAL PRATS",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "4x60m Masculins U10M",
+      "discipline": "4x60",
       "performance": "38.19",
       "wind": null,
       "internal_id": 1381
@@ -606,7 +619,7 @@
       "athlete_name": "Nil PASCUAL PRATS",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "4x60m Masculins U10M",
+      "discipline": "4x60",
       "performance": "38.35",
       "wind": null,
       "internal_id": 1381
@@ -619,7 +632,7 @@
       "athlete_name": "NIL PASCUAL PRATS",
       "athlete_dob": "16/3/2017",
       "athlete_id": "CAT-3789538",
-      "discipline": "60m Hombres AL U10M",
+      "discipline": "60 metres llisos",
       "performance": "10.50",
       "wind": null,
       "internal_id": 1381
@@ -632,7 +645,7 @@
       "athlete_name": "NIL PASCUAL PRATS",
       "athlete_dob": "16/3/2017",
       "athlete_id": "CAT-3789538",
-      "discipline": "400m Hombres",
+      "discipline": "400 metres llisos",
       "performance": "01:16.40",
       "wind": null,
       "internal_id": 1381
@@ -645,7 +658,7 @@
       "athlete_name": "NIL PASCUAL PRATS",
       "athlete_dob": "16/3/2017",
       "athlete_id": "CAT-3789538",
-      "discipline": "Longitud Hombres U10M",
+      "discipline": "Llargada",
       "performance": "2.99",
       "wind": null,
       "internal_id": 1381
@@ -658,7 +671,7 @@
       "athlete_name": "NIL PASCUAL PRATS",
       "athlete_dob": "16/3/2017",
       "athlete_id": "CAT-3789538",
-      "discipline": "60m Hombres AL U10M",
+      "discipline": "60 metres llisos",
       "performance": "10.15",
       "wind": null,
       "internal_id": 1381
@@ -671,7 +684,7 @@
       "athlete_name": "NIL PASCUAL PRATS",
       "athlete_dob": "16/3/2017",
       "athlete_id": "CAT-3789538",
-      "discipline": "Longitud Hombres U10M",
+      "discipline": "Llargada",
       "performance": "3.14",
       "wind": null,
       "internal_id": 1381
@@ -684,7 +697,7 @@
       "athlete_name": "NIL PASCUAL PRATS",
       "athlete_dob": "16/3/2017",
       "athlete_id": "CAT-3789538",
-      "discipline": "Longitud Hombres U10M",
+      "discipline": "Llargada",
       "performance": "3.47",
       "wind": null,
       "internal_id": 1381
@@ -697,7 +710,7 @@
       "athlete_name": "NIL PASCUAL PRATS",
       "athlete_dob": "16/3/2017",
       "athlete_id": "CAT-3789538",
-      "discipline": "Longitud Hombres U10M",
+      "discipline": "Llargada",
       "performance": "3.12",
       "wind": null,
       "internal_id": 1381
@@ -710,7 +723,7 @@
       "athlete_name": "Nil PASCUAL PRATS",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "4x400m Hombres AL U10M",
+      "discipline": "4x400",
       "performance": "5:11.48",
       "wind": null,
       "internal_id": 1381
@@ -723,7 +736,7 @@
       "athlete_name": "NIL PASCUAL PRATS",
       "athlete_dob": "16/3/2017",
       "athlete_id": "CAT-3789538",
-      "discipline": "Llargada masculina",
+      "discipline": "Llargada",
       "performance": "3.36",
       "wind": null,
       "internal_id": 1381
@@ -736,7 +749,7 @@
       "athlete_name": "NIL PASCUAL PRATS",
       "athlete_dob": "16/3/2017",
       "athlete_id": "CAT-3789538",
-      "discipline": "Llargada masculina",
+      "discipline": "Llargada",
       "performance": "3.23",
       "wind": null,
       "internal_id": 1381
@@ -749,7 +762,7 @@
       "athlete_name": "Nil PASCUAL PRATS",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "4x60 masculins",
+      "discipline": "4x60",
       "performance": "38.67",
       "wind": null,
       "internal_id": 1381
@@ -762,7 +775,7 @@
       "athlete_name": "NIL PASCUAL PRATS",
       "athlete_dob": "16/3/2017",
       "athlete_id": "CAT-3789538",
-      "discipline": "1.000m masculins",
+      "discipline": "1000 metres llisos",
       "performance": "3:33.78",
       "wind": null,
       "internal_id": 1381
@@ -775,7 +788,7 @@
       "athlete_name": "NIL PASCUAL PRATS",
       "athlete_dob": "16/3/2017",
       "athlete_id": "CAT-3789538",
-      "discipline": "Llargada masculina",
+      "discipline": "Llargada",
       "performance": "3.16",
       "wind": null,
       "internal_id": 1381

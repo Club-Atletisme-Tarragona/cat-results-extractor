@@ -2,7 +2,7 @@
   "athlete_name": "GERARD BARBER GONZALEZ",
   "athlete_id": "CAT-3789597",
   "athlete_dob": "24/10/2017",
-  "total_results": 66,
+  "total_results": 67,
   "name_variants_found": [
     "GERARD BARBER GONZALEZ",
     "Gerard BARBER GONZALEZ"
@@ -124,7 +124,7 @@
       "athlete_name": "GERARD BARBER GONZALEZ",
       "athlete_dob": "24/10/2017",
       "athlete_id": "CAT-3789597",
-      "discipline": "Javelina (300 g)",
+      "discipline": "Javelina (800 g)",
       "performance": "20.98",
       "wind": null,
       "internal_id": 1359
@@ -137,7 +137,7 @@
       "athlete_name": "GERARD BARBER GONZALEZ",
       "athlete_dob": "24/10/2017",
       "athlete_id": "CAT-3789597",
-      "discipline": "Javelina (300 g)",
+      "discipline": "Javelina (800 g)",
       "performance": "23.19",
       "wind": null,
       "internal_id": 1359
@@ -150,7 +150,7 @@
       "athlete_name": "GERARD BARBER GONZALEZ",
       "athlete_dob": "24/10/2017",
       "athlete_id": "CAT-3789597",
-      "discipline": "Javelina (300 g)",
+      "discipline": "Javelina (800 g)",
       "performance": "20.43",
       "wind": null,
       "internal_id": 1359
@@ -189,7 +189,7 @@
       "athlete_name": "GERARD BARBER GONZALEZ",
       "athlete_dob": "24/10/2017",
       "athlete_id": "CAT-3789597",
-      "discipline": "Javelina (300 g)",
+      "discipline": "Javelina (800 g)",
       "performance": "20.29",
       "wind": null,
       "internal_id": 1359
@@ -202,7 +202,7 @@
       "athlete_name": "GERARD BARBER GONZALEZ",
       "athlete_dob": "24/10/2017",
       "athlete_id": "CAT-3789597",
-      "discipline": "Javelina (300 g)",
+      "discipline": "Javelina (800 g)",
       "performance": "13.82",
       "wind": null,
       "internal_id": 1359
@@ -215,8 +215,21 @@
       "athlete_name": "GERARD BARBER GONZALEZ",
       "athlete_dob": "24/10/2017",
       "athlete_id": "CAT-3789597",
-      "discipline": "Javelina (300 g)",
+      "discipline": "Javelina (800 g)",
       "performance": "17.70",
+      "wind": null,
+      "internal_id": 1359
+    },
+    {
+      "event_name": "Campionat Territorial Tarragona sub10-12-14-16 - Pista de Atletismo de El Vendrell",
+      "event_date": "18/05/2025",
+      "event_location": "El Vendrell",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2025/05/resultat-20250518-territorialpromocioelvendrell.pdf",
+      "athlete_name": "GERARD BARBER GONZALEZ",
+      "athlete_dob": "24/10/2017",
+      "athlete_id": "CAT-3789597",
+      "discipline": "Javelina (300 g)",
+      "performance": "20.29",
       "wind": null,
       "internal_id": 1359
     },
@@ -358,7 +371,7 @@
       "athlete_name": "GERARD BARBER GONZALEZ",
       "athlete_dob": "24/10/2017",
       "athlete_id": "CAT-3789597",
-      "discipline": "60m S10M",
+      "discipline": "60 metres llisos",
       "performance": "10.30",
       "wind": null,
       "internal_id": 1359
@@ -371,7 +384,7 @@
       "athlete_name": "GERARD BARBER GONZALEZ",
       "athlete_dob": "24/10/2017",
       "athlete_id": "CAT-3789597",
-      "discipline": "400m S10M",
+      "discipline": "400 metres llisos",
       "performance": "1:20.76",
       "wind": null,
       "internal_id": 1359
@@ -384,7 +397,7 @@
       "athlete_name": "GERARD BARBER GONZALEZ",
       "athlete_dob": "24/10/2017",
       "athlete_id": "CAT-3789597",
-      "discipline": "60m Hombres U8M, U10M",
+      "discipline": "60 metres llisos",
       "performance": "10.22",
       "wind": null,
       "internal_id": 1359
@@ -397,7 +410,7 @@
       "athlete_name": "GERARD BARBER GONZALEZ",
       "athlete_dob": "24/10/2017",
       "athlete_id": "CAT-3789597",
-      "discipline": "400m Hombres U8M, U10M",
+      "discipline": "400 metres llisos",
       "performance": "1:18.36",
       "wind": null,
       "internal_id": 1359
@@ -410,7 +423,7 @@
       "athlete_name": "GERARD BARBER GONZALEZ",
       "athlete_dob": "24/10/2017",
       "athlete_id": "CAT-3789597",
-      "discipline": "Longitud U10M",
+      "discipline": "Llargada",
       "performance": "3.20",
       "wind": null,
       "internal_id": 1359
@@ -423,7 +436,7 @@
       "athlete_name": "GERARD BARBER GONZALEZ",
       "athlete_dob": "24/10/2017",
       "athlete_id": "CAT-3789597-A",
-      "discipline": "Altura U10M",
+      "discipline": "Alçada",
       "performance": "1.02",
       "wind": null,
       "internal_id": 1359
@@ -436,7 +449,7 @@
       "athlete_name": "GERARD BARBER GONZALEZ",
       "athlete_dob": "24/10/2017",
       "athlete_id": "CAT-3789597",
-      "discipline": "60m Hombres AL U10M",
+      "discipline": "60 metres llisos",
       "performance": "10.30",
       "wind": null,
       "internal_id": 1359
@@ -449,7 +462,7 @@
       "athlete_name": "GERARD BARBER GONZALEZ",
       "athlete_dob": "24/10/2017",
       "athlete_id": "CAT-3789597",
-      "discipline": "1.000m Hombres U10M",
+      "discipline": "1000 metres llisos",
       "performance": "03:45.70",
       "wind": null,
       "internal_id": 1359
@@ -462,7 +475,7 @@
       "athlete_name": "GERARD BARBER GONZALEZ",
       "athlete_dob": "24/10/2017",
       "athlete_id": "CAT-3789597",
-      "discipline": "Jabalina Vortex Hombres",
+      "discipline": "Javelina (800 g)",
       "performance": "24.37",
       "wind": null,
       "internal_id": 1359
@@ -475,7 +488,7 @@
       "athlete_name": "GERARD BARBER GONZALEZ",
       "athlete_dob": "24/10/2017",
       "athlete_id": "CAT-3789597",
-      "discipline": "Jabalina Vortex Hombres",
+      "discipline": "Javelina (800 g)",
       "performance": "19.99",
       "wind": null,
       "internal_id": 1359
@@ -488,7 +501,7 @@
       "athlete_name": "GERARD BARBER GONZALEZ",
       "athlete_dob": "24/10/2017",
       "athlete_id": "CAT-3789597",
-      "discipline": "Jabalina Vortex Hombres",
+      "discipline": "Javelina (800 g)",
       "performance": "19.73",
       "wind": null,
       "internal_id": 1359
@@ -501,7 +514,7 @@
       "athlete_name": "GERARD BARBER GONZALEZ",
       "athlete_dob": "24/10/2017",
       "athlete_id": "CAT-3789597",
-      "discipline": "Pes masculi",
+      "discipline": "Pes (7.260 Kg)",
       "performance": "5.20",
       "wind": null,
       "internal_id": 1359
@@ -514,7 +527,7 @@
       "athlete_name": "GERARD BARBER GONZALEZ",
       "athlete_dob": "24/10/2017",
       "athlete_id": "CAT-3789597",
-      "discipline": "Pes masculi",
+      "discipline": "Pes (7.260 Kg)",
       "performance": "4.76",
       "wind": null,
       "internal_id": 1359
@@ -527,7 +540,7 @@
       "athlete_name": "GERARD BARBER GONZALEZ",
       "athlete_dob": "24/10/2017",
       "athlete_id": "CAT-3789597",
-      "discipline": "Pes masculi",
+      "discipline": "Pes (7.260 Kg)",
       "performance": "5.37",
       "wind": null,
       "internal_id": 1359
@@ -540,7 +553,7 @@
       "athlete_name": "Gerard BARBER GONZALEZ",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "Relleus 4x200 masculi",
+      "discipline": "4x200",
       "performance": "2:20.04",
       "wind": null,
       "internal_id": 1359
@@ -553,7 +566,7 @@
       "athlete_name": "Gerard BARBER GONZALEZ",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "4x60m Masculí U10M",
+      "discipline": "4x60",
       "performance": "38.94",
       "wind": null,
       "internal_id": 1359
@@ -566,7 +579,7 @@
       "athlete_name": "GERARD BARBER GONZALEZ",
       "athlete_dob": "24/10/2017",
       "athlete_id": "CAT-3789597",
-      "discipline": "400m Hombres",
+      "discipline": "400 metres llisos",
       "performance": "1:17.42",
       "wind": null,
       "internal_id": 1359
@@ -579,7 +592,7 @@
       "athlete_name": "Gerard BARBER GONZALEZ",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "4x60m Hombres AL",
+      "discipline": "4x60",
       "performance": "39.01",
       "wind": null,
       "internal_id": 1359
@@ -592,7 +605,7 @@
       "athlete_name": "Gerard BARBER GONZALEZ",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "4x60m Masculins U10M",
+      "discipline": "4x60",
       "performance": "38.19",
       "wind": null,
       "internal_id": 1359
@@ -605,7 +618,7 @@
       "athlete_name": "Gerard BARBER GONZALEZ",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "4x60m Masculins U10M",
+      "discipline": "4x60",
       "performance": "38.35",
       "wind": null,
       "internal_id": 1359
@@ -618,7 +631,7 @@
       "athlete_name": "GERARD BARBER GONZALEZ",
       "athlete_dob": "24/10/2017",
       "athlete_id": "CAT-3789597",
-      "discipline": "Pes S10M",
+      "discipline": "Pes (7.260 Kg)",
       "performance": "5.05",
       "wind": null,
       "internal_id": 1359
@@ -631,7 +644,7 @@
       "athlete_name": "GERARD BARBER GONZALEZ",
       "athlete_dob": "24/10/2017",
       "athlete_id": "CAT-3789597",
-      "discipline": "Pes S10M",
+      "discipline": "Pes (7.260 Kg)",
       "performance": "4.87",
       "wind": null,
       "internal_id": 1359
@@ -644,7 +657,7 @@
       "athlete_name": "GERARD BARBER GONZALEZ",
       "athlete_dob": "24/10/2017",
       "athlete_id": "CAT-3789597",
-      "discipline": "Pes S10M",
+      "discipline": "Pes (7.260 Kg)",
       "performance": "5.10",
       "wind": null,
       "internal_id": 1359
@@ -657,7 +670,7 @@
       "athlete_name": "GERARD BARBER GONZALEZ",
       "athlete_dob": "24/10/2017",
       "athlete_id": "CAT-3789597",
-      "discipline": "60m Hombres AL U10M",
+      "discipline": "60 metres llisos",
       "performance": "10.20",
       "wind": null,
       "internal_id": 1359
@@ -670,7 +683,7 @@
       "athlete_name": "GERARD BARBER GONZALEZ",
       "athlete_dob": "24/10/2017",
       "athlete_id": "CAT-3789597",
-      "discipline": "400m Hombres",
+      "discipline": "400 metres llisos",
       "performance": "01:22.00",
       "wind": null,
       "internal_id": 1359
@@ -683,7 +696,7 @@
       "athlete_name": "GERARD BARBER GONZALEZ",
       "athlete_dob": "24/10/2017",
       "athlete_id": "CAT-3789597",
-      "discipline": "Longitud Hombres U10M",
+      "discipline": "Llargada",
       "performance": "3.01",
       "wind": null,
       "internal_id": 1359
@@ -696,7 +709,7 @@
       "athlete_name": "GERARD BARBER GONZALEZ",
       "athlete_dob": "24/10/2017",
       "athlete_id": "CAT-3789597",
-      "discipline": "60m Hombres AL U10M",
+      "discipline": "60 metres llisos",
       "performance": "10.28",
       "wind": null,
       "internal_id": 1359
@@ -709,7 +722,7 @@
       "athlete_name": "GERARD BARBER GONZALEZ",
       "athlete_dob": "24/10/2017",
       "athlete_id": "CAT-3789597",
-      "discipline": "Longitud Hombres U10M",
+      "discipline": "Llargada",
       "performance": "3.02",
       "wind": null,
       "internal_id": 1359
@@ -722,7 +735,7 @@
       "athlete_name": "Gerard BARBER GONZALEZ",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "4x400m Hombres AL U10M",
+      "discipline": "4x400",
       "performance": "5:11.48",
       "wind": null,
       "internal_id": 1359
@@ -735,7 +748,7 @@
       "athlete_name": "GERARD BARBER GONZALEZ",
       "athlete_dob": "24/10/2017",
       "athlete_id": "CAT-3789597",
-      "discipline": "Peso (2kg) Hombres AL U10M",
+      "discipline": "Pes (2 Kg)",
       "performance": "5.07",
       "wind": null,
       "internal_id": 1359
@@ -748,7 +761,7 @@
       "athlete_name": "GERARD BARBER GONZALEZ",
       "athlete_dob": "24/10/2017",
       "athlete_id": "CAT-3789597",
-      "discipline": "Peso (2kg) Hombres AL U10M",
+      "discipline": "Pes (2 Kg)",
       "performance": "5.09",
       "wind": null,
       "internal_id": 1359
@@ -761,7 +774,7 @@
       "athlete_name": "GERARD BARBER GONZALEZ",
       "athlete_dob": "24/10/2017",
       "athlete_id": "CAT-3789597",
-      "discipline": "Peso (2kg) Hombres AL U10M",
+      "discipline": "Pes (2 Kg)",
       "performance": "5.40",
       "wind": null,
       "internal_id": 1359
@@ -774,7 +787,7 @@
       "athlete_name": "GERARD BARBER GONZALEZ",
       "athlete_dob": "24/10/2017",
       "athlete_id": "CAT-3789597",
-      "discipline": "Longitud Hombres U10M",
+      "discipline": "Llargada",
       "performance": "3.26",
       "wind": null,
       "internal_id": 1359
@@ -787,7 +800,7 @@
       "athlete_name": "GERARD BARBER GONZALEZ",
       "athlete_dob": "24/10/2017",
       "athlete_id": "CAT-3789597",
-      "discipline": "Longitud Hombres U10M",
+      "discipline": "Llargada",
       "performance": "3.30",
       "wind": null,
       "internal_id": 1359
@@ -800,7 +813,7 @@
       "athlete_name": "GERARD BARBER GONZALEZ",
       "athlete_dob": "24/10/2017",
       "athlete_id": "CAT-3789597",
-      "discipline": "Pes masculí",
+      "discipline": "Pes (7.260 Kg)",
       "performance": "5.31",
       "wind": null,
       "internal_id": 1359
@@ -813,7 +826,7 @@
       "athlete_name": "Gerard BARBER GONZALEZ",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "4x60 masculins",
+      "discipline": "4x60",
       "performance": "38.67",
       "wind": null,
       "internal_id": 1359
@@ -826,7 +839,7 @@
       "athlete_name": "GERARD BARBER GONZALEZ",
       "athlete_dob": "24/10/2017",
       "athlete_id": "CAT-3789597",
-      "discipline": "1.000m masculins",
+      "discipline": "1000 metres llisos",
       "performance": "3:39.81",
       "wind": null,
       "internal_id": 1359
@@ -839,7 +852,7 @@
       "athlete_name": "GERARD BARBER GONZALEZ",
       "athlete_dob": "24/10/2017",
       "athlete_id": "CAT-3789597",
-      "discipline": "Llargada masculina",
+      "discipline": "Llargada",
       "performance": "3.37",
       "wind": null,
       "internal_id": 1359
@@ -852,7 +865,7 @@
       "athlete_name": "GERARD BARBER GONZALEZ",
       "athlete_dob": "24/10/2017",
       "athlete_id": "CAT-3789597",
-      "discipline": "Llargada masculina",
+      "discipline": "Llargada",
       "performance": "3.54",
       "wind": null,
       "internal_id": 1359
@@ -865,7 +878,7 @@
       "athlete_name": "GERARD BARBER GONZALEZ",
       "athlete_dob": "24/10/2017",
       "athlete_id": "CAT-3789597",
-      "discipline": "Llargada masculina",
+      "discipline": "Llargada",
       "performance": "3.18",
       "wind": null,
       "internal_id": 1359

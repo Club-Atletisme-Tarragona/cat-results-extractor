@@ -1410,8 +1410,67 @@ def resolve_file_category(event_name: str, filename: str):
 # Mapping rules
 # ---------------------------------------------------------------------------
 
+
+def normalize_2026_raw(raw: str) -> str:
+    """Rewrite 2026-era extractor discipline names (Spanish event words, dotted
+    thousands, category suffixes like U10M/S14F/AL/PC/Master M55) into the
+    engine-friendly Catalan form. Safe for older raws: only rewrites tokens
+    that never appear in pre-2026 raw names."""
+    s = raw.strip()
+    # dotted thousands before 'm': 1.000m -> 1000m
+    s = re.sub(r"(\d)\.(\d{3})\s*m\b", r"\1\2 m", s)
+    # Spanish event words -> Catalan
+    repl = [
+        (r"\bSalto con P[ée]rtiga\b", "Perxa"),
+        (r"\bTriple Salto\b", "Triple"),
+        (r"\bTriple salt\b", "Triple"),
+        (r"\bP[ée]rtiga\b", "Perxa"),
+        (r"\bLongitud\b", "Llargada"),
+        (r"\bAltura\b", "Alçada"),
+        (r"\bMartillo\b", "Martell"),
+        (r"\bJabalina\b", "Javelina"),
+        (r"\bDisco\b", "Disc"),
+        (r"\bPeso\b", "Pes"),
+        (r"\bMarcha\b", "Marxa"),
+        (r"\bvallas\b", "tanques"),
+        (r"\bObst\.", "obstacles"),
+        (r"(\d{3,4})\s*m\s+obst", r"\1 metres obst"),
+        (r"\bRelleu\b", "Relleus"),
+        (r"\bTriatl[oó]n\b|\bTriatlon\b", "Triatló"),
+        (r"\bPentathl[oó]n\b", "Pentatló"),
+        (r"\bTetrathl[oó]n\b", "Tetratló"),
+        (r"\bHeptathl[oó]n\b", "Heptatló"),
+        (r"\bPentathl[oó]n?\b", "Pentatló"),
+        (r"\bFemeninses\b", "Femenins"),
+        (r"\bMascuins\b", "Masculins"),
+        (r"\bMascui\b", "Masculí"),
+        (r"\bfemeni\b", "femení"),
+        (r"\bmasculi\b", "masculí"),
+        (r"\bMujeres\b", "Femení"),
+        (r"\bHombres\b", "Masculí"),
+        (r"\bsin R[ií]a\b", ""),
+        (r"\ben pista\b", ""),
+        (r"\bpista\b", ""),
+        (r"\(C\)", ""),
+        (r"\bJUV/CAD\b|\bJUV-\b|\bCAD\b", ""),
+        (r"\bINF-VET\.?\b", ""),
+        (r"\bVET\.?\b|\bVet\.?\b", ""),
+
+
+
+
+        (r"\bAL\b|\bPC\b|\bCF\b|\bIF\b|\bIM\b|\bCM\b|\bLM\b|\bLF\b|\bSM\b|\bBM\b|\bAF\b|\bAM\b", ""),
+
+
+    ]
+    for pat, rep in repl:
+        s = re.sub(pat, rep, s)
+    s = re.sub(r"\s+", " ", s).strip(" .,-")
+    return s
+
 def map_discipline(raw: str, event_name: str, filename: str, athlete_name: str = None):
     """Return (official_name or None, note or None)."""
+    raw = normalize_2026_raw(raw)
     up = norm(raw)
     ctx_gender, ctx_category = athlete_context(filename, athlete_name)
 
@@ -1457,8 +1516,20 @@ def map_discipline(raw: str, event_name: str, filename: str, athlete_name: str =
         dist = int(m.group(1).replace(".", ""))
         return f"{dist} metres llisos", None
 
+    # Marató / Mitja Marató (running)
+    if re.match(r"^MITJA MARAT[OÓ]\b", up):
+        return "Mitja Marato", None
+    if re.match(r"^MARAT[OÓ]N?\b|^MARATÓ\b", up):
+        return "Marato", None
+
+    # Marató / Mitja Marató race walk
+    if re.search(r"MITJA MARATÓ.*MARXA|MARXA.*MITJA MARATÓ", up):
+        return "Mitja Marató Marxa (Ruta)", None
+    if re.search(r"MARATÓ.*MARXA|MARXA.*MARATÓ", up):
+        return "Marató Marxa (Ruta)", None
+
     # Marxa (race walk) — before the bare-'m' rule ("2.000m Marxa MASC.")
-    m = re.match(r"^(\d{1,2}(?:\.\d{3})?|\d{3,5}(?:\.\d{3})?)\s*(?:m\.?\s*)?(?:METRES\s+)?(?:MARXA|MARCHA)\b", up)
+    m = re.match(r"^(\d{1,2}(?:\.\d{3})?|\d{3,5}(?:\.\d{3})?)\s*(?:M\.?|METRES)?\s*MARXA\b", up)
     if m:
         dist = int(m.group(1).replace(".", ""))
         table = {1000: "1000 metres marxa", 2000: "2000 metres marxa", 3000: "3000 metres marxa",
@@ -1482,7 +1553,7 @@ def map_discipline(raw: str, event_name: str, filename: str, athlete_name: str =
     # Bare-'m' distance names ("1.500 m juvenil a absolut masculí", "60m FEM. AL")
     # But NOT if the raw mentions 'tanques' (e.g. "110m tanques (1,067) S23 MASC. AL")
     m = re.match(r"^(\d{1,2}(?:\.\d{3})?|\d{3,5})\s*[mM](?=[A-ZÀ-Ú\s]|$)", up)
-    if m and not re.search(r"\bTANQUES\b|\bVALLAS\b|\bMV\b|\dMT\b", up):
+    if m and not re.search(r"\bTANQUES\b|\bVALLAS\b|\bMV\b|\dMT\b|\bOBSTACLES\b|\bMARXA\b", up):
         dist = int(m.group(1).replace(".", ""))
         return f"{dist} metres llisos", None
 
@@ -1554,7 +1625,7 @@ def map_discipline(raw: str, event_name: str, filename: str, athlete_name: str =
         return "Llargada", None
     if re.match(r"^SALT (AMB |DE )?PERXA\b", up) or re.match(r"^(PERXA|PÉRTIGA|PERTIGA)\b", up) or re.search(r"\bPERXA\b|\bPÉRTIGA\b|\bPERTIGA\b", up):
         return "Perxa", None
-    if re.match(r"^SALT DE TRIPLE\b|^TRIPLE SALT(O)?\b", up):
+    if re.match(r"^SALT DE TRIPLE\b|^TRIPLE SALT(O)?\b|^TRIPLE\b", up):
         return "Triple", None
 
     # Throws
@@ -1567,14 +1638,14 @@ def map_discipline(raw: str, event_name: str, filename: str, athlete_name: str =
             cat = "absolut"
         if gender is None:
             # masters age range: "MÀSTER M50 (6kg)" / "MÀSTER M50-M55 (7,260kg)"
-            m50 = re.search(r"\b([MW])(\d\d)\b", up)
+            m50 = re.search(r"\b([MWF])(\d\d)\b", up)
             if m50:
                 gender = "m" if m50.group(1) == "M" else "f"
                 lo_age = int(m50.group(2))
                 cat = "vet50" if lo_age >= 50 else "absolut"
             else:
                 # Sub-age suffix: "Pes SUB12M" / "Javelina S10F"
-                sub_g = re.search(r"\b(?:SUB)?(\d+)([MF])\b", up)
+                sub_g = re.search(r"\b(?:S(?:UB)?|U)?(\d+)([MF])\b", up)
                 if sub_g:
                     gender = sub_g.group(2).lower()
         if gender is None:
@@ -1629,7 +1700,8 @@ def map_discipline(raw: str, event_name: str, filename: str, athlete_name: str =
     # category context for combinades meets. Default to absolut for senior
     # athletes in championship-level meets.
     m = re.match(r"^(?:LLANÇAMENT (?:DE|DEL) )?(PES|PESO|DISCO?|MAR(?:TELL|TILLO)(?:O)?|JAVELINA|JABALINA|JAVELOT)\b", up)
-    if m and (filename.startswith("resulcontrolcombinades") or filename.startswith("resulterritcombinades")
+    has_ctx = gender_of(up) or category_from_raw(up)
+    if m and (has_ctx or filename.startswith("resulcontrolcombinades") or filename.startswith("resulterritcombinades")
               or filename.startswith("resulcontrolterrit") or filename.startswith("resulcnatterritcombinades")
               or filename.startswith("resulcatcombinades") or filename.startswith("resulcontrolvalls")
               or filename.startswith("resulmitingveterans")):
@@ -1657,7 +1729,7 @@ def map_discipline(raw: str, event_name: str, filename: str, athlete_name: str =
                 gender = gm.group(1).lower()
         if gender is None:
             gender = "m"
-        return "Javelina (300 g)", "Vortex turbo jav (300g)"
+        return "Javelina Vortex", "Vortex turbo jav"
 
     # Bare implement names (e.g. "Disc Femení") + masters age ranges
     m = re.match(r"^(PES|PESO|DISCO?|MAR(?:TELL|TILLO)(?:O)?|JAVELINA|JABALINA|JAVELOT)\b", up)
@@ -1668,19 +1740,19 @@ def map_discipline(raw: str, event_name: str, filename: str, athlete_name: str =
         if cat == "open":
             cat = "absolut"
         if gender is None:
-            mvm = re.search(r"\b([MW])?(\d\d)[-\u2013]([MW])?(\d\d)\b", up)
+            mvm = re.search(r"\b([MWF])?(\d\d)[-\u2013]([MWF])?(\d\d)\b", up)
             if mvm:
                 gender = "m" if (mvm.group(1) or "M") == "M" else "f"
                 lo_age = int(mvm.group(2))
                 cat = "vet50" if lo_age >= 50 else "absolut"
-            m50 = re.search(r"\b([MW])(\d\d)\b", up)
+            m50 = re.search(r"\b([MWF])(\d\d)\b", up)
             if m50:
                 gender = "m" if m50.group(1) == "M" else "f"
                 lo_age = int(m50.group(2))
                 cat = "vet50" if lo_age >= 50 else "absolut"
         if gender is None:
             # Sub-age suffix: "Pes SUB12M" / "Javelina S10F"
-            sub_g = re.search(r"\b(?:SUB)?(\d+)([MF])\b", up)
+            sub_g = re.search(r"\b(?:S(?:UB)?|U)?(\d+)([MF])\b", up)
             if sub_g:
                 gender = sub_g.group(2).lower()
             if gender is None:
@@ -1874,10 +1946,15 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--season", default="2005")
     ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--json-dir", help="process json/<dir> files instead of seasons/<season>")
     args = ap.parse_args()
 
-    json_dir = REPO_ROOT / "seasons" / args.season / "json"
-    files = sorted(json_dir.glob("*.json"))
+    if args.json_dir:
+        json_dir = REPO_ROOT / args.json_dir
+        files = sorted(json_dir.glob("*.json"))
+    else:
+        json_dir = REPO_ROOT / "seasons" / args.season / "json"
+        files = sorted(json_dir.glob("*.json"))
     if not files:
         sys.exit(f"no JSON files under {json_dir}")
 

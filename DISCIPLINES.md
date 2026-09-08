@@ -115,5 +115,6 @@ Dump of the `disciplines` database table (generated 2026-09-07 02:08).
 | 116 | Pes (2 Kg) | DESC | m.cm | m.cm |  | 108 | Peso (2kg) |
 | 117 | 4x80 | ASC | ss.cc | ss.cc (e) |  | 109 | 4x80 |
 | 118 | Javelina (300 g) | DESC | m.cm | m.cm |  | 110 | Jabalina 300g |
+| 119 | Javelina Vortex | DESC | m.cm | m.cm |  | 111 | Jabalina Vortex |
 
-Total rows: 112
+Total rows: 113

@@ -10,7 +10,8 @@
       "athlete_dob": "9/1/2007",
       "athlete_id": "CAT-3723426",
       "performance": "54.32",
-      "discipline": "400 m Masculí",
+      "discipline": "400 metres llisos",
+      "raw_discipline_name": "400 m Masculí",
       "wind": null,
       "position": 8
     },
@@ -19,7 +20,8 @@
       "athlete_dob": "4/1/2007",
       "athlete_id": "CAT-3937080",
       "performance": "4:21.94",
-      "discipline": "1.500 m Masculí",
+      "discipline": "1500 metres llisos",
+      "raw_discipline_name": "1.500 m Masculí",
       "wind": null,
       "position": 9
     },
@@ -28,7 +30,8 @@
       "athlete_dob": "31/7/2007",
       "athlete_id": "CT1468",
       "performance": "15.22",
-      "discipline": "100 m tanques (0,84) Femení",
+      "discipline": "100 metres tanques (0.84)",
+      "raw_discipline_name": "100 m tanques (0,84) Femení",
       "wind": "-1.6",
       "position": 4
     },
@@ -37,7 +40,8 @@
       "athlete_dob": "31/7/2007",
       "athlete_id": "CT1468",
       "performance": "15.59",
-      "discipline": "100 m tanques (0,84) Femení",
+      "discipline": "100 metres tanques (0.84)",
+      "raw_discipline_name": "100 m tanques (0,84) Femení",
       "wind": "-0.8",
       "position": null
     },
@@ -46,7 +50,8 @@
       "athlete_dob": "15/12/2008",
       "athlete_id": "CAT-3742959",
       "performance": "1:09.33",
-      "discipline": "400 m tanques (0,762) Femení",
+      "discipline": "400 metres tanques (0.762)",
+      "raw_discipline_name": "400 m tanques (0,762) Femení",
       "wind": null,
       "position": 8
     },
@@ -55,7 +60,8 @@
       "athlete_dob": "17/1/2008",
       "athlete_id": "CAT-3742948",
       "performance": "1:10.87",
-      "discipline": "400 m tanques (0,762) Femení",
+      "discipline": "400 metres tanques (0.762)",
+      "raw_discipline_name": "400 m tanques (0,762) Femení",
       "wind": null,
       "position": 4
     },
@@ -64,7 +70,8 @@
       "athlete_dob": "17/1/2008",
       "athlete_id": "CAT-3742948",
       "performance": "4.65",
-      "discipline": "Llargada Femení",
+      "discipline": "Llargada",
+      "raw_discipline_name": "Llargada Femení",
       "wind": "0.0",
       "position": 9
     }

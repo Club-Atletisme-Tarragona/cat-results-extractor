@@ -2,19 +2,9 @@
   "event_name": "Control Pista Coberta Sub20 - Sub18 - Control Pista Coberta Sub20 - Sub18",
   "event_date": "20/01/2023",
   "event_location": "Sabadell",
-  "total_results": 3,
+  "total_results": 1,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2023/01/resultat-20230120-controlsub1820pcsabadell.pdf",
   "results": [
-    {
-      "athlete_name": "6 443 (t) Hugo Rodriguez Martinez",
-      "athlete_dob": "25/02/2004",
-      "athlete_id": "CT27323",
-      "performance": "59.39",
-      "discipline": "800 metres llisos",
-      "raw_discipline_name": "800m MASC. PC",
-      "wind": null,
-      "internal_id": 777
-    },
     {
       "athlete_name": "8 285 Silvia Vicente Navarrete",
       "athlete_dob": "31/07/2007",
@@ -24,16 +14,6 @@
       "raw_discipline_name": "60m FEM. PC",
       "wind": null,
       "internal_id": 905
-    },
-    {
-      "athlete_name": "9 237 (e) (t) Camila Antonella Retamal Plaza",
-      "athlete_dob": "25/08/2005",
-      "athlete_id": "CL11330",
-      "performance": "59.11",
-      "discipline": "800 metres llisos",
-      "raw_discipline_name": "800m FEM. PC",
-      "wind": null,
-      "internal_id": null
     }
   ]
 }

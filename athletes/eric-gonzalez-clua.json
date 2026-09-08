@@ -2,21 +2,19 @@
   "athlete_name": "ERIC GONZALEZ CLUA",
   "athlete_id": "CL94386",
   "athlete_dob": "23/8/2007",
-  "total_results": 23,
+  "total_results": 21,
   "name_variants_found": [
     "12 39 (t) Eric Gonzalez Clua IM",
     "19 67 (t) Eric Gonzalez Clua IM",
     "5 401 (t) Eric Gonzalez Clua IM",
     "5 616 (t) Eric Gonzalez Clua IM",
-    "6 616 (t) Eric Gonzalez Clua IM",
-    "9 128 (t) Eric Gonzalez Clua",
     "Eric Gonzalez Clua IM",
     "Eric Gonzalez Clua IM 3"
   ],
   "license_variants_found": [
     "CL94386"
   ],
-  "source_files_count": 6,
+  "source_files_count": 5,
   "results": [
     {
       "event_name": "Campionat Territorial de proves Combinades d´hivern",
@@ -94,19 +92,6 @@
       "discipline": "80 metres llisos",
       "performance": "13.76",
       "wind": "-3.4",
-      "internal_id": null
-    },
-    {
-      "event_name": "Campionat Territorial Sub10, Sub12, Sub14 i Sub16 1a. jornada",
-      "event_date": "06/04/2019",
-      "event_location": "Tarragona",
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20190406-cnatterritpromociotarragona.pdf",
-      "athlete_name": "6 616 (t) Eric Gonzalez Clua IM",
-      "athlete_dob": "23/08/2007",
-      "athlete_id": "CL94386",
-      "discipline": "1000 metres llisos",
-      "performance": "18.84",
-      "wind": "-2.4",
       "internal_id": null
     },
     {
@@ -301,19 +286,6 @@
       "athlete_id": "CL94386",
       "discipline": "Pes (3 Kg)",
       "performance": "5.03",
-      "wind": null,
-      "internal_id": null
-    },
-    {
-      "event_name": "Campionat Territorial Sub10, Sub12, Sub14 i Sub16",
-      "event_date": "24/04/2021",
-      "event_location": "Tarragona",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210424-cnatterritorialtarragona.pdf",
-      "athlete_name": "9 128 (t) Eric Gonzalez Clua",
-      "athlete_dob": "23/08/2007",
-      "athlete_id": "CL94386",
-      "discipline": "1000 metres llisos",
-      "performance": "30.72",
       "wind": null,
       "internal_id": null
     }

@@ -2,10 +2,9 @@
   "athlete_name": "ASTON MATE GRAS",
   "athlete_id": "CL95044",
   "athlete_dob": "7/12/2012",
-  "total_results": 71,
+  "total_results": 70,
   "name_variants_found": [
     "1 51 (t) Aston Mate Gras IM",
-    "10 30 (t) Aston Mate Gras 7",
     "10 329 (t) Aston Mate Gras IM",
     "10 51 (t) Aston Mate Gras IM",
     "12 408 (t) Aston Mate Gras IM",
@@ -24,7 +23,7 @@
   "license_variants_found": [
     "CL95044"
   ],
-  "source_files_count": 33,
+  "source_files_count": 32,
   "results": [
     {
       "event_name": "Control Gener 1 - Pista de Atletismo de Camp Clar, 14 enero 2023",
@@ -335,19 +334,6 @@
       "athlete_id": "CL95044",
       "discipline": "Alçada",
       "performance": "1.12",
-      "wind": null,
-      "internal_id": 1342
-    },
-    {
-      "event_name": "Campionat de Catalunya de Clubs \"A\" sub14 - Pista Coberta d'Atletisme de Catalunya Carme Valero, 9 marzo 2024",
-      "event_date": "09/03/2024",
-      "event_location": "Sabadell",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2024/03/resultat-20240309-catclubsasub14pcsabadell.pdf",
-      "athlete_name": "10 30 (t) Aston Mate Gras 7",
-      "athlete_dob": "07/12/2012",
-      "athlete_id": "CL95044",
-      "discipline": "1000 metres llisos",
-      "performance": "31.87",
       "wind": null,
       "internal_id": 1342
     },

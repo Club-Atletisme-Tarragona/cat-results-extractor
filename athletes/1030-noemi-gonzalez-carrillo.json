@@ -2,7 +2,7 @@
   "athlete_name": "NOEMI GONZALEZ CARRILLO",
   "athlete_id": "CL86462",
   "athlete_dob": "4/4/2009",
-  "total_results": 54,
+  "total_results": 50,
   "name_variants_found": [
     "1 43 (t) Noemi Gonzalez Carrillo",
     "11 117 (t) Noemi Gonzalez Carrillo IF",
@@ -16,12 +16,8 @@
     "2 117 (t) Noemi Gonzalez Carrillo IF",
     "2 224 (t) Noemi Gonzalez Carrillo",
     "2 281 (t) Noemi Gonzalez Carrillo",
-    "3 87 (t) Noemi Gonzalez Carrillo",
     "4 492 (t) Noemi Gonzalez Carrillo",
-    "4 71 (t) Noemi Gonzalez Carrillo",
-    "5 497 (t) Noemi Gonzalez Carrillo IF",
     "5 56 (t) Noemi Gonzalez Carrillo BF",
-    "6 276 (t) Noemi Gonzalez Carrillo BF",
     "6 308 (t) Noemi Gonzalez Carrillo BF",
     "7 109 (t) Noemi Gonzalez Carrillo 11 q",
     "7 272 (t) Noemi Gonzalez Carrillo AF",
@@ -36,7 +32,7 @@
   "license_variants_found": [
     "CL86462"
   ],
-  "source_files_count": 41,
+  "source_files_count": 37,
   "results": [
     {
       "event_name": "Jornada Prèvia Campionat de Catalunya Benjamí",
@@ -113,19 +109,6 @@
       "athlete_id": "CL86462",
       "discipline": "Alçada",
       "performance": "1.00",
-      "wind": null,
-      "internal_id": 1030
-    },
-    {
-      "event_name": "Jornada Prèvia Camp. Catalunya Sub10",
-      "event_date": "19/05/2018",
-      "event_location": "Ascó",
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20180519-catsub10ascoprevia.pdf",
-      "athlete_name": "6 276 (t) Noemi Gonzalez Carrillo BF",
-      "athlete_dob": "04/04/2009",
-      "athlete_id": "CL86462",
-      "discipline": "1000 metres llisos",
-      "performance": "58.20",
       "wind": null,
       "internal_id": 1030
     },
@@ -364,19 +347,6 @@
       "internal_id": 1030
     },
     {
-      "event_name": "Campionat Territorial Sub10, Sub12, Sub14 i Sub16",
-      "event_date": "04/06/2022",
-      "event_location": "Reus",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2022/06/resultat-20220604-cnatterritorialpromocioreus.pdf",
-      "athlete_name": "5 497 (t) Noemi Gonzalez Carrillo IF",
-      "athlete_dob": "04/04/2009",
-      "athlete_id": "CL86462",
-      "discipline": "600 metres llisos",
-      "performance": "55.31",
-      "wind": null,
-      "internal_id": 1030
-    },
-    {
       "event_name": "Campionat de Catalunya Clubs \"A\" Sub16 Masculí en Pista Coberta - Campionat de Catalunya Clubs \"A\" Sub16 Masculí en Pista Coberta",
       "event_date": "21/01/2023",
       "event_location": "Sabadell",
@@ -439,32 +409,6 @@
       "discipline": "5000 metres llisos",
       "performance": "3:21.22",
       "wind": "+1.4",
-      "internal_id": 1030
-    },
-    {
-      "event_name": "Control Pista Coberta Sub16 - Control Pista Coberta Sub16",
-      "event_date": "23/12/2023",
-      "event_location": "Sabadell",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2023/12/resultat-20231223-controlsub16pcsabadell.pdf",
-      "athlete_name": "3 87 (t) Noemi Gonzalez Carrillo",
-      "athlete_dob": "04/04/2009",
-      "athlete_id": "CL86462",
-      "discipline": "1000 metres llisos",
-      "performance": "34.51",
-      "wind": null,
-      "internal_id": 1030
-    },
-    {
-      "event_name": "Control Pista Coberta Sub16 - Control Pista Coberta Sub16",
-      "event_date": "20/01/2024",
-      "event_location": "Sabadell",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2024/01/resultat-20240120-controlsub16pcsabadell.pdf",
-      "athlete_name": "4 71 (t) Noemi Gonzalez Carrillo",
-      "athlete_dob": "04/04/2009",
-      "athlete_id": "CL86462",
-      "discipline": "1000 metres llisos",
-      "performance": "24.30",
-      "wind": null,
       "internal_id": 1030
     },
     {

@@ -2,13 +2,12 @@
   "athlete_name": "GUILLEM PAMIES MIRO",
   "athlete_id": "CL827",
   "athlete_dob": "16/7/2009",
-  "total_results": 36,
+  "total_results": 34,
   "name_variants_found": [
     "10 103 (t) Guillem Pamies Miro IM",
     "10 237 (t) Guillem Pamies Miro IM",
     "10 389 (t) Guillem Pamies Miro IM",
     "11 65 (t) Guillem Pamies Miro IM q",
-    "11 78 (t) Guillem Pàmies Miró",
     "11 99 (t) Guillem Pamies Miro IM",
     "15 312 (t) Guillem Pamies Miro",
     "16 239 (t) Guillem Pamies Miro IM",
@@ -19,13 +18,12 @@
     "7 25 (t) Guillem Pamies Miro IM",
     "7 315 (t) Guillem Pamies Miro IM",
     "7 353 (t) Guillem Pàmies Miró",
-    "7 50 (t) Guillem Pamies Miro IM",
-    "7 61 (t) Guillem Pamies Miro IM 3"
+    "7 50 (t) Guillem Pamies Miro IM"
   ],
   "license_variants_found": [
     "CL827"
   ],
-  "source_files_count": 15,
+  "source_files_count": 13,
   "results": [
     {
       "event_name": "",
@@ -37,19 +35,6 @@
       "athlete_id": "CL827",
       "discipline": "Llargada",
       "performance": "3.00",
-      "wind": null,
-      "internal_id": null
-    },
-    {
-      "event_name": "Control Febrer 2",
-      "event_date": "08/02/2020",
-      "event_location": "Valls",
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20200208-controlfebrervalls.pdf",
-      "athlete_name": "11 78 (t) Guillem Pàmies Miró",
-      "athlete_dob": "16/07/2009",
-      "athlete_id": "CL827",
-      "discipline": "600 metres llisos",
-      "performance": "18.89",
       "wind": null,
       "internal_id": null
     },
@@ -193,19 +178,6 @@
       "athlete_id": "CL827",
       "discipline": "Alçada",
       "performance": "1.15",
-      "wind": null,
-      "internal_id": null
-    },
-    {
-      "event_name": "Campionat de Catalunya de Clubs Sub14 en Pista Coberta Masculins - Campionat de Catalunya de Clubs Sub14 en Pista Coberta Masculins",
-      "event_date": "21/02/2021",
-      "event_location": "Barcelona",
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/2021/03/resultat-20210221-catclubssub14pcbcnpsj.pdf",
-      "athlete_name": "7 61 (t) Guillem Pamies Miro IM 3",
-      "athlete_dob": "16/07/2009",
-      "athlete_id": "CL827",
-      "discipline": "1000 metres llisos",
-      "performance": "58.69",
       "wind": null,
       "internal_id": null
     },

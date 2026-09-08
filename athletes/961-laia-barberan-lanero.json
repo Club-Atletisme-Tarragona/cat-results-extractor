@@ -2,18 +2,16 @@
   "athlete_name": "LAIA BARBERAN LANERO",
   "athlete_id": "CL94525",
   "athlete_dob": "3/3/2008",
-  "total_results": 24,
+  "total_results": 22,
   "name_variants_found": [
     "1 134 (t) Laia Barbera Lanero",
     "13 356 (t) Laia Barbera Lanero",
-    "15 296 (t) Laia Barbera Lanero IF",
     "19 202 (t) Laia Barbera Lanero",
     "19 65 (t) Laia Barbera Lanero IF",
     "2 202 (t) Laia Barbera Lanero",
     "31 296 (t) Laia Barbera Lanero IF",
     "4 202 (t) Laia Barbera Lanero",
     "4 278 (t) Laia Barbera Lanero IF",
-    "4 78 (t) Laia Barbera Lanero",
     "6 109 (t) Laia Barbera Lanero IF",
     "6 73 (t) Laia Barbera Lanero IF 6",
     "7 70 (t) Laia Barbera Lanero IF",
@@ -24,19 +22,6 @@
   ],
   "source_files_count": 10,
   "results": [
-    {
-      "event_name": "Control Gener 1",
-      "event_date": "11/01/2020",
-      "event_location": "Cambrils",
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20200111-controlgenercambrils.pdf",
-      "athlete_name": "15 296 (t) Laia Barbera Lanero IF",
-      "athlete_dob": "03/03/2008",
-      "athlete_id": "CL94525",
-      "discipline": "600 metres llisos",
-      "performance": "21.56",
-      "wind": null,
-      "internal_id": 961
-    },
     {
       "event_name": "Control Gener 1",
       "event_date": "11/01/2020",
@@ -230,19 +215,6 @@
       "discipline": "Llargada",
       "performance": "3.83",
       "wind": null,
-      "internal_id": 961
-    },
-    {
-      "event_name": "Control Febrer 3",
-      "event_date": "26/02/2022",
-      "event_location": "Cambrils",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2022/02/resultat-20220226-controlfebrer3cambrils.pdf",
-      "athlete_name": "4 78 (t) Laia Barbera Lanero",
-      "athlete_dob": "03/03/2008",
-      "athlete_id": "CL94525",
-      "discipline": "1000 metres llisos",
-      "performance": "11.59",
-      "wind": "-0.9",
       "internal_id": 961
     },
     {

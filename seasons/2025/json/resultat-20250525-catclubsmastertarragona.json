@@ -2,7 +2,7 @@
   "event_name": "Campionat de Catalunya de Clubs Màster - Pista de Atletismo de Camp Clar",
   "event_date": "25/05/2025",
   "event_location": "Tarragona",
-  "total_results": 26,
+  "total_results": 25,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2025/05/resultat-20250525-catclubsmastertarragona.pdf",
   "results": [
     {
@@ -254,16 +254,6 @@
       "raw_discipline_name": "400m Hombres",
       "wind": null,
       "internal_id": null
-    },
-    {
-      "athlete_name": "FRANCESC MOSQUERA PAGES",
-      "athlete_dob": "7/9/1956",
-      "athlete_id": "CT1501",
-      "performance": "9.50",
-      "discipline": "400 metres llisos",
-      "raw_discipline_name": "400m Hombres",
-      "wind": null,
-      "internal_id": 855
     }
   ]
 }

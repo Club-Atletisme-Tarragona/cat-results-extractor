@@ -2,12 +2,10 @@
   "athlete_name": "FERNANDEZ CARRANZA PILAR PILAR",
   "athlete_id": "CAT-3790267",
   "athlete_dob": "29/7/1961",
-  "total_results": 49,
+  "total_results": 44,
   "name_variants_found": [
     "2 354 (t) Pilar Fernandez Carranza",
     "3 237 Pilar Fernandez Carranza SF",
-    "3 339 Pilar Fernandez Carranza 6 BRONZE",
-    "3 56 (t) Pilar Fernandez Carranza W-45 4",
     "3 66 (t) Pilar Fernandez Carranza W-50",
     "5 330 Pilar Fernandez Carranza",
     "6 330 Pilar Fernandez Carranza",
@@ -18,8 +16,6 @@
     "Pilar FERNANDEZ CARRANZA",
     "Pilar Fernandez Carranza",
     "Pilar Fernandez Carranza W-45",
-    "Pilar Fernandez Carranza W-45 2",
-    "Pilar Fernandez Carranza W-45 3",
     "Pilar Fernandez Carranza W-50"
   ],
   "license_variants_found": [
@@ -28,7 +24,7 @@
     "CT21513",
     "CT22384"
   ],
-  "source_files_count": 21,
+  "source_files_count": 17,
   "results": [
     {
       "event_name": "",
@@ -252,32 +248,6 @@
       "internal_id": 398
     },
     {
-      "event_name": " - Sabadell (Pista Coberta de Catalunya), 7 febrero 2015",
-      "event_date": "07/02/2015",
-      "event_location": "Sabadell",
-      "event_src": "http://old.fcatletisme.cat/Veterans/2015/resulcatclubsveteranspc70215.pdf",
-      "athlete_name": "Pilar Fernandez Carranza W-45 2",
-      "athlete_dob": "15/02/1967",
-      "athlete_id": "CL22384",
-      "discipline": "400 metres llisos",
-      "performance": "16.94",
-      "wind": null,
-      "internal_id": 398
-    },
-    {
-      "event_name": " - Sabadell (Pista Coberta de Catalunya), 7 febrero 2016",
-      "event_date": "07/02/2016",
-      "event_location": "Sabadell",
-      "event_src": "http://old.fcatletisme.cat/Veterans/2016/resulcatclubsveteranspc70216.pdf",
-      "athlete_name": "Pilar Fernandez Carranza W-45 3",
-      "athlete_dob": "15/02/1967",
-      "athlete_id": "CL22384",
-      "discipline": "400 metres llisos",
-      "performance": "17.24",
-      "wind": null,
-      "internal_id": 398
-    },
-    {
       "event_name": " - Sabadell (Pista Coberta de Catalunya), 6 marzo 2016",
       "event_date": "06/03/2016",
       "event_location": "Sabadell",
@@ -337,19 +307,6 @@
       "athlete_name": "Pilar Fernandez Carranza",
       "athlete_dob": "15/02/1967",
       "athlete_id": "CL22384",
-      "discipline": "400 metres llisos",
-      "performance": "16.51",
-      "wind": null,
-      "internal_id": 398
-    },
-    {
-      "event_name": " - Sabadell (Pista Coberta de Catalunya), 6 marzo 2016",
-      "event_date": "06/03/2016",
-      "event_location": "Sabadell",
-      "event_src": "http://old.fcatletisme.cat/Veterans/2016/resulcatveteranspc60316.pdf",
-      "athlete_name": "Pilar Fernandez Carranza",
-      "athlete_dob": "15/02/1967",
-      "athlete_id": "CL22384",
       "discipline": "Llargada",
       "performance": "3.43",
       "wind": null,
@@ -391,19 +348,6 @@
       "athlete_id": "CL22384",
       "discipline": "Llargada",
       "performance": "3.14",
-      "wind": null,
-      "internal_id": 398
-    },
-    {
-      "event_name": " - Sabadell (Pista Coberta de Catalunya), 29 enero 2017",
-      "event_date": "29/01/2017",
-      "event_location": "Sabadell",
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20170129-catclubsveteranspc.pdf",
-      "athlete_name": "3 56 (t) Pilar Fernandez Carranza W-45 4",
-      "athlete_dob": "15/02/1967",
-      "athlete_id": "CL22384",
-      "discipline": "400 metres llisos",
-      "performance": "18.42",
       "wind": null,
       "internal_id": 398
     },
@@ -522,19 +466,6 @@
       "discipline": "200 metres llisos",
       "performance": "33.49",
       "wind": "+0.0",
-      "internal_id": 398
-    },
-    {
-      "event_name": "Campionat de Catalunya Màster Individual i Relleus en Pista Coberta - Campionat de Catalunya Màster Individual i Relleus en Pista Coberta",
-      "event_date": "28/01/2024",
-      "event_location": "Sabadell",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2024/01/resultat-20240128-catmasterpcsabadell.pdf",
-      "athlete_name": "3 339 Pilar Fernandez Carranza 6 BRONZE",
-      "athlete_dob": "15/02/1967",
-      "athlete_id": "CT22384",
-      "discipline": "400 metres llisos",
-      "performance": "21.00",
-      "wind": null,
       "internal_id": 398
     },
     {

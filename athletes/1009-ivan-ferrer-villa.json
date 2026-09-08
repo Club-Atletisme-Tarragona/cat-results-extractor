@@ -2,17 +2,14 @@
   "athlete_name": "IVAN FERRER VILLA",
   "athlete_id": "CL86457",
   "athlete_dob": "14/4/2009",
-  "total_results": 40,
+  "total_results": 36,
   "name_variants_found": [
     "11 268 (t) Ivan Ferrer Villa BM",
-    "11 66 (t) Ivan Ferrer Villa IM",
     "14 15 (t) Ivan Ferrer Villa BM",
     "15 481 (t) Ivan Ferrer Villa",
     "25 142 (t) Ivan Ferrer Villa",
-    "3 26 (t) Ivan Ferrer Villa",
     "5 247 (t) Ivan Ferrer Villa",
     "6 20 (t) Ivan Ferrer Villa BM",
-    "6 37 (t) Ivan Ferrer Villa",
     "7 247 (t) Ivan Ferrer Villa",
     "7 332 (t) Ivan Ferrer Villa",
     "IVAN FERRER VILLA",
@@ -23,7 +20,7 @@
   "license_variants_found": [
     "CL86457"
   ],
-  "source_files_count": 18,
+  "source_files_count": 15,
   "results": [
     {
       "event_name": "Campionat Catalunya Clubs Benjamí Masculí",
@@ -104,19 +101,6 @@
       "internal_id": 1009
     },
     {
-      "event_name": "Control Primavera 1a. jornada",
-      "event_date": "28/04/2018",
-      "event_location": "Cambrils",
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018042829-controlprimaveracambrils.pdf",
-      "athlete_name": "Ivan Ferrer Villa BM",
-      "athlete_dob": "14/04/2009",
-      "athlete_id": "CL86457",
-      "discipline": "1000 metres llisos",
-      "performance": "59.82",
-      "wind": null,
-      "internal_id": 1009
-    },
-    {
       "event_name": "Jornada Prèvia Camp. Catalunya Sub10",
       "event_date": "19/05/2018",
       "event_location": "Ascó",
@@ -126,32 +110,6 @@
       "athlete_id": "CL86457",
       "discipline": "1000 metres llisos",
       "performance": "6:50.00",
-      "wind": null,
-      "internal_id": 1009
-    },
-    {
-      "event_name": "Control Hivern",
-      "event_date": "08/12/2018",
-      "event_location": "Cambrils",
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20181208-controlhiverncambrils.pdf",
-      "athlete_name": "3 26 (t) Ivan Ferrer Villa",
-      "athlete_dob": "14/04/2009",
-      "athlete_id": "CL86457",
-      "discipline": "300 metres llisos",
-      "performance": "12.92",
-      "wind": null,
-      "internal_id": 1009
-    },
-    {
-      "event_name": "",
-      "event_date": "09/12/2018",
-      "event_location": "Cambrils",
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20181209-trofeusalcedacastellscambrils.pdf",
-      "athlete_name": "6 37 (t) Ivan Ferrer Villa",
-      "athlete_dob": "14/04/2009",
-      "athlete_id": "CL86457",
-      "discipline": "2000 metres llisos",
-      "performance": "48.76",
       "wind": null,
       "internal_id": 1009
     },
@@ -230,19 +188,6 @@
       "athlete_id": "CL86457",
       "discipline": "Pes (2 Kg)",
       "performance": "4.88",
-      "wind": null,
-      "internal_id": 1009
-    },
-    {
-      "event_name": "Control Febrer 3",
-      "event_date": "26/02/2022",
-      "event_location": "Cambrils",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2022/02/resultat-20220226-controlfebrer3cambrils.pdf",
-      "athlete_name": "11 66 (t) Ivan Ferrer Villa IM",
-      "athlete_dob": "14/04/2009",
-      "athlete_id": "CL86457",
-      "discipline": "1000 metres llisos",
-      "performance": "43.53",
       "wind": null,
       "internal_id": 1009
     },

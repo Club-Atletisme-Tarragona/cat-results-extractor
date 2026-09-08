@@ -2,7 +2,7 @@
   "athlete_name": "FERNANDO FLORES MONTES",
   "athlete_id": "CT15201",
   "athlete_dob": "17/6/1969",
-  "total_results": 57,
+  "total_results": 54,
   "name_variants_found": [
     "1 132 (t) Fernando Flores Montes M-45 9-",
     "1 25 (t) Fernando Flores Montes M-50",
@@ -13,7 +13,6 @@
     "2 5 (t) Fernando Flores Montes M-45",
     "2 65 (t) Fernando Flores Montes M-45",
     "3 14 (t) Fernando Flores Montes",
-    "7 74 (t) Fernando Flores Montes M-45 7",
     "FERNANDO FLORES MONTES",
     "FERNANDO FRORES MONTES",
     "FLORES MONTES FERNANDO",
@@ -24,7 +23,7 @@
     "CL15201",
     "CT15201"
   ],
-  "source_files_count": 46,
+  "source_files_count": 44,
   "results": [
     {
       "event_name": "Campionat de Catalunya de Veterans",
@@ -404,19 +403,6 @@
       "internal_id": 4
     },
     {
-      "event_name": "Campionat de Catalunya de Veterans de 4x200 - Sabadell (Pista Coberta de Catalunya), 22 febrero 2015",
-      "event_date": "22/02/2015",
-      "event_location": "Sabadell",
-      "event_src": "http://old.fcatletisme.cat/Veterans/2015/resulcatveteranspc220215.pdf",
-      "athlete_name": "Fernando Flores Montes",
-      "athlete_dob": "17/06/1969",
-      "athlete_id": "CL15201",
-      "discipline": "3000 metres llisos",
-      "performance": "13.46",
-      "wind": null,
-      "internal_id": 4
-    },
-    {
       "event_name": " - Sabadell (Pista Coberta de Catalunya), 6 marzo 2016",
       "event_date": "06/03/2016",
       "event_location": "Sabadell",
@@ -426,19 +412,6 @@
       "athlete_id": "CT15201",
       "discipline": "3000 metres llisos",
       "performance": "14:32.36",
-      "wind": null,
-      "internal_id": 4
-    },
-    {
-      "event_name": " - Sabadell (Pista Coberta de Catalunya), 6 marzo 2016",
-      "event_date": "06/03/2016",
-      "event_location": "Sabadell",
-      "event_src": "http://old.fcatletisme.cat/Veterans/2016/resulcatveteranspc60316.pdf",
-      "athlete_name": "Fernando Flores Montes",
-      "athlete_dob": "17/06/1969",
-      "athlete_id": "CT15201",
-      "discipline": "1500 metres llisos",
-      "performance": "58.69",
       "wind": null,
       "internal_id": 4
     },
@@ -465,19 +438,6 @@
       "athlete_id": "CT15201",
       "discipline": "5000 metres llisos",
       "performance": "24:41.87",
-      "wind": null,
-      "internal_id": 4
-    },
-    {
-      "event_name": " - Sabadell (Pista Coberta de Catalunya), 29 enero 2017",
-      "event_date": "29/01/2017",
-      "event_location": "Sabadell",
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20170129-catclubsveteranspc.pdf",
-      "athlete_name": "7 74 (t) Fernando Flores Montes M-45 7",
-      "athlete_dob": "17/06/1969",
-      "athlete_id": "CL15201",
-      "discipline": "1500 metres llisos",
-      "performance": "42.38",
       "wind": null,
       "internal_id": 4
     },

@@ -2,7 +2,7 @@
   "event_name": "",
   "event_date": "23/01/2021",
   "event_location": "Vilafranca",
-  "total_results": 11,
+  "total_results": 6,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/2021/01/resultat-20210123-catclubsbpcbcnpsj.pdf",
   "results": [
     {
@@ -14,36 +14,6 @@
       "raw_discipline_name": "60m MASC. PC",
       "wind": null,
       "internal_id": 510
-    },
-    {
-      "athlete_name": "4 23 Aleix Lago Garbajosa",
-      "athlete_dob": "26/09/2002",
-      "athlete_id": "CT264",
-      "performance": "03.07",
-      "discipline": "800 metres llisos",
-      "raw_discipline_name": "800m MASC. PC",
-      "wind": null,
-      "internal_id": 660
-    },
-    {
-      "athlete_name": "3 23 (t) Xavier Ros Borrell SM 7",
-      "athlete_dob": "19/05/1998",
-      "athlete_id": "CL22779",
-      "performance": "24.32",
-      "discipline": "3000 metres llisos",
-      "raw_discipline_name": "3.000m MASC. PC",
-      "wind": null,
-      "internal_id": 439
-    },
-    {
-      "athlete_name": "2 23 Pablo Angel Fernandez JM 8",
-      "athlete_dob": "26/01/2003",
-      "athlete_id": "CT28510",
-      "performance": "8.75",
-      "discipline": "3000 metres llisos",
-      "raw_discipline_name": "3.000m MASC. PC",
-      "wind": null,
-      "internal_id": 704
     },
     {
       "athlete_name": "5 23 (t) Huc Pentinat Llurba",
@@ -94,26 +64,6 @@
       "raw_discipline_name": "Pes (7,260kg) MASC. PC",
       "wind": null,
       "internal_id": 44
-    },
-    {
-      "athlete_name": "7 25 (t) Cristina Iniesta Acera LF 4",
-      "athlete_dob": "27/02/2004",
-      "athlete_id": "CL78440",
-      "performance": "39.79",
-      "discipline": "3000 metres llisos",
-      "raw_discipline_name": "3.000m FEM. PC",
-      "wind": null,
-      "internal_id": 742
-    },
-    {
-      "athlete_name": "1 25 Mireia Lopez Urbano PF 5",
-      "athlete_dob": "07/12/2000",
-      "athlete_id": "CT23556",
-      "performance": "8.82",
-      "discipline": "3000 metres llisos",
-      "raw_discipline_name": "3.000m FEM. PC",
-      "wind": null,
-      "internal_id": 527
     }
   ]
 }

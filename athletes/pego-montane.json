@@ -1,17 +1,14 @@
 {
   "athlete_name": "PEGO MONTANE",
-  "athlete_id": "CL82985",
-  "athlete_dob": "26/2/2008",
-  "total_results": 5,
+  "athlete_id": "",
+  "athlete_dob": "",
+  "total_results": 4,
   "name_variants_found": [
-    "Ot Pego Montane",
     "Ot Pego Montané",
     "PEGO MONTANÉ OT PBM"
   ],
-  "license_variants_found": [
-    "CL82985"
-  ],
-  "source_files_count": 3,
+  "license_variants_found": [],
+  "source_files_count": 2,
   "results": [
     {
       "event_name": "TROFEU PROMOCIÓ NÀSTIC",
@@ -36,19 +33,6 @@
       "athlete_id": "",
       "discipline": "Llargada",
       "performance": "1.88",
-      "wind": null,
-      "internal_id": null
-    },
-    {
-      "event_name": "",
-      "event_date": "30/4/2016",
-      "event_location": "El Prat de Llobregat",
-      "event_src": "https://old.fcatletisme.cat/Promocio/2016/resulcatclubsbenjamial30416.pdf",
-      "athlete_name": "Ot Pego Montane",
-      "athlete_dob": "26/02/2008",
-      "athlete_id": "CL82985",
-      "discipline": "1000 metres llisos",
-      "performance": "05.96",
       "wind": null,
       "internal_id": null
     },

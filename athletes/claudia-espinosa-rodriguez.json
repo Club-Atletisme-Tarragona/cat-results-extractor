@@ -2,7 +2,7 @@
   "athlete_name": "CLAUDIA ESPINOSA RODRIGUEZ",
   "athlete_id": "CL7390",
   "athlete_dob": "5/12/2011",
-  "total_results": 11,
+  "total_results": 10,
   "name_variants_found": [
     "11 230 (t) Clàudia Espinosa Rodríguez",
     "2 133 (t) Clàudia Espinosa Rodríguez IF",
@@ -10,7 +10,6 @@
     "3 93 (t) Clàudia Espinosa Rodríguez IF",
     "32 277 (t) Clàudia Espinosa Rodríguez IF",
     "6 43 (t) Clàudia Espinosa Rodríguez 10",
-    "7 487 (t) Clàudia Espinosa Rodríguez",
     "8 133 (t) Clàudia Espinosa Rodríguez IF",
     "8 230 (t) Clàudia Espinosa Rodríguez",
     "8 93 (t) Clàudia Espinosa Rodríguez IF"
@@ -18,7 +17,7 @@
   "license_variants_found": [
     "CL7390"
   ],
-  "source_files_count": 7,
+  "source_files_count": 6,
   "results": [
     {
       "event_name": "Control Febrer 1 - Pista de Atletismo CN Reus Ploms, 11 febrero 2023",
@@ -82,19 +81,6 @@
       "athlete_id": "CL7390",
       "discipline": "150 metres llisos",
       "performance": "22.79",
-      "wind": null,
-      "internal_id": null
-    },
-    {
-      "event_name": "Campionat Territorial sub10, sub12, sub14 i sub16 - Pista de Atletismo de Camp Clar, 22 abril 2023",
-      "event_date": "22/04/2023",
-      "event_location": "Camp Clar",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2023/04/resultat-20230422-cnatterritpromociotarragona.pdf",
-      "athlete_name": "7 487 (t) Clàudia Espinosa Rodríguez",
-      "athlete_dob": "05/12/2011",
-      "athlete_id": "CL7390",
-      "discipline": "3000 metres llisos",
-      "performance": "48.33",
       "wind": null,
       "internal_id": null
     },

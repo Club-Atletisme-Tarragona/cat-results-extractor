@@ -2,7 +2,7 @@
   "event_name": "CRITÈRIUM CAMPMANY (3a. Jornada) - Barcelona (Estadi Joan Serrahima), 17 junio 2015",
   "event_date": "17/06/2015",
   "event_location": "Joan Serrahima",
-  "total_results": 5,
+  "total_results": 3,
   "event_src": "http://old.fcatletisme.cat/Pairelliure/2015/resulccampmany170615.pdf",
   "results": [
     {
@@ -34,26 +34,6 @@
       "raw_discipline_name": "100m MASC. AL",
       "wind": "+0.4",
       "internal_id": 444
-    },
-    {
-      "athlete_name": "Xavier Ros Borrell LM",
-      "athlete_dob": "19/05/1998",
-      "athlete_id": "CL22779",
-      "performance": "12.56",
-      "discipline": "1500 metres llisos",
-      "raw_discipline_name": "1.500m MASC. AL",
-      "wind": null,
-      "internal_id": 439
-    },
-    {
-      "athlete_name": "Julia Olle Gatell SF",
-      "athlete_dob": "26/10/1985",
-      "athlete_id": "CL18306",
-      "performance": "06.73",
-      "discipline": "1500 metres llisos",
-      "raw_discipline_name": "1.500m FEM. AL",
-      "wind": null,
-      "internal_id": 388
     }
   ]
 }

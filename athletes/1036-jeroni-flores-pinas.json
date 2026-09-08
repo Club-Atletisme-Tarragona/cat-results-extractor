@@ -2,9 +2,8 @@
   "athlete_name": "JERONI FLORES PINAS",
   "athlete_id": "CT2935",
   "athlete_dob": "4/1/2009",
-  "total_results": 115,
+  "total_results": 110,
   "name_variants_found": [
-    "1 100 (t) Jeroni Flores Piñas IM 5 q",
     "1 248 (t) Jeroni Flores Piñas",
     "1 67 (t) Jeroni Flores Piñas IM",
     "10 111 (t) Jeroni Flores Piñas",
@@ -19,11 +18,9 @@
     "11 59 (t) Jeroni Flores Piñas 5.5",
     "14 614 (t) Jeroni Flores Piñas",
     "2 245 (t) Jeroni Flores Piñas",
-    "2 27 (t) Jeroni Flores Piñas",
     "2 300 (t) Jeroni Flores Piñas IM",
     "2 53 (t) Jeroni Flores Piñas BM",
     "2 61 (t) Jeroni Flores Piñas IM",
-    "2 96 (t) Jeroni Flores Piñas IM 6 q",
     "3 21 (t) Jeroni Flores Piñas BM",
     "3 27 (t) Jeroni Flores Piñas",
     "3 400 (t) Jeroni Flores Piñas",
@@ -36,7 +33,6 @@
     "5 614 (t) Jeroni Flores Piñas",
     "6 125 (t) Jeroni Flores Piñas IM",
     "6 248 (t) Jeroni Flores Piñas",
-    "6 57 (t) Jeroni Flores Piñas IM 1",
     "6 71 (t) Jeroni Flores Piñas IM q",
     "7 387 (t) Jeroni Flores Piñas IM",
     "7 408 (t) Jeroni Flores Piñas",
@@ -62,7 +58,7 @@
     "CL86460",
     "CT2935"
   ],
-  "source_files_count": 52,
+  "source_files_count": 50,
   "results": [
     {
       "event_name": "Control Gener 2",
@@ -126,19 +122,6 @@
       "athlete_id": "CL86460",
       "discipline": "60 metres llisos",
       "performance": "10.29",
-      "wind": null,
-      "internal_id": 1036
-    },
-    {
-      "event_name": "Control Primavera 1a. jornada",
-      "event_date": "28/04/2018",
-      "event_location": "Cambrils",
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018042829-controlprimaveracambrils.pdf",
-      "athlete_name": "Jeroni Flores Piñas BM",
-      "athlete_dob": "04/01/2009",
-      "athlete_id": "CL86460",
-      "discipline": "1000 metres llisos",
-      "performance": "22.63",
       "wind": null,
       "internal_id": 1036
     },
@@ -257,19 +240,6 @@
       "discipline": "60 metres llisos",
       "performance": "10.14",
       "wind": "+0.0",
-      "internal_id": 1036
-    },
-    {
-      "event_name": "Control Hivern",
-      "event_date": "08/12/2018",
-      "event_location": "Cambrils",
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20181208-controlhiverncambrils.pdf",
-      "athlete_name": "2 27 (t) Jeroni Flores Piñas",
-      "athlete_dob": "04/01/2009",
-      "athlete_id": "CL86460",
-      "discipline": "300 metres llisos",
-      "performance": "12.54",
-      "wind": null,
       "internal_id": 1036
     },
     {
@@ -793,32 +763,6 @@
       "internal_id": 1036
     },
     {
-      "event_name": "Jornada Prèvia Campionat Catalunya Sub14 en Pista Coberta - Jornada Prèvia Campionat Catalunya Sub14 en Pista Coberta",
-      "event_date": "27/02/2021",
-      "event_location": "Barcelona",
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/2021/03/resultat-20210227-catpreviasub14pcbcnpsj.pdf",
-      "athlete_name": "2 96 (t) Jeroni Flores Piñas IM 6 q",
-      "athlete_dob": "04/01/2009",
-      "athlete_id": "CL86460",
-      "discipline": "1000 metres llisos",
-      "performance": "12.43",
-      "wind": null,
-      "internal_id": 1036
-    },
-    {
-      "event_name": "Jornada Final Campionat de Catalunya Sub14 en Pista Coberta - Jornada Final Campionat de Catalunya Sub14 en Pista Coberta",
-      "event_date": "06/03/2021",
-      "event_location": "Barcelona",
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/2021/03/resultat-20210306-catsub14pcbcnpsj.pdf",
-      "athlete_name": "6 57 (t) Jeroni Flores Piñas IM 1",
-      "athlete_dob": "04/01/2009",
-      "athlete_id": "CL86460",
-      "discipline": "1000 metres llisos",
-      "performance": "11.90",
-      "wind": null,
-      "internal_id": 1036
-    },
-    {
       "event_name": "Campionat Territorial primera jornada",
       "event_date": "11/04/2021",
       "event_location": "Reus",
@@ -1180,19 +1124,6 @@
       "discipline": "60 metres llisos",
       "performance": "9.04",
       "wind": "+0.0",
-      "internal_id": 1036
-    },
-    {
-      "event_name": "Jornada Prèvia Campionat Catalunya Sub14 en Pista Coberta - Jornada Prèvia Campionat Catalunya Sub14 en Pista Coberta",
-      "event_date": "05/03/2022",
-      "event_location": "Sabadell",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2022/03/resultat-20220305-catsub14previapcsabadell.pdf",
-      "athlete_name": "1 100 (t) Jeroni Flores Piñas IM 5 q",
-      "athlete_dob": "04/01/2009",
-      "athlete_id": "CL86460",
-      "discipline": "1000 metres llisos",
-      "performance": "11.16",
-      "wind": null,
       "internal_id": 1036
     },
     {

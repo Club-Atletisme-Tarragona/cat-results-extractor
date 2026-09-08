@@ -2,13 +2,10 @@
   "athlete_name": "ERIC DE LA ROSA FORTUNY",
   "athlete_id": "CL87201",
   "athlete_dob": "17/4/2009",
-  "total_results": 100,
+  "total_results": 90,
   "name_variants_found": [
-    "1 223 (t) Eric De La Rosa Fortuny IM",
-    "1 23 (t) Eric De La Rosa Fortuny",
     "1 343 (t) Eric De La Rosa Fortuny",
     "1 45 (t) Eric De La Rosa Fortuny",
-    "1 63 (t) Eric De La Rosa Fortuny",
     "11 111 (t) Eric De La Rosa Fortuny",
     "12 478 (t) Eric De La Rosa Fortuny",
     "12 81 (t) Eric De La Rosa Fortuny IM",
@@ -16,9 +13,6 @@
     "2 116 (t) Eric De La Rosa Fortuny IM",
     "2 19 (t) Eric De La Rosa Fortuny BM",
     "2 23 (t) Eric De La Rosa Fortuny",
-    "2 328 (t) Eric De La Rosa Fortuny IM",
-    "2 58 (t) Eric De La Rosa Fortuny IM",
-    "2 59 (t) Eric De La Rosa Fortuny IM",
     "21 130 (t) Eric De La Rosa Fortuny",
     "3 223 (t) Eric De La Rosa Fortuny IM",
     "3 294 (t) Eric De La Rosa Fortuny IM",
@@ -29,7 +23,6 @@
     "4 268 (t) Eric De La Rosa Fortuny BM",
     "4 271 (t) Eric De La Rosa Fortuny",
     "4 292 (t) Eric De La Rosa Fortuny IM",
-    "5 98 (t) Eric De La Rosa Fortuny IM 5 q",
     "6 302 (t) Eric De La Rosa Fortuny",
     "7 130 (t) Eric De La Rosa Fortuny",
     "7 144 (t) Eric De La Rosa Fortuny",
@@ -39,7 +32,6 @@
     "7 50 (t) Eric De La Rosa Fortuny",
     "7 58 (t) Eric De La Rosa Fortuny IM",
     "7 88 (t) Eric De La Rosa Fortuny IM",
-    "8 130 (t) Eric De La Rosa Fortuny AM 5 q",
     "8 385 (t) Eric De La Rosa Fortuny IM",
     "8 407 (t) Eric De La Rosa Fortuny",
     "8 81 (t) Eric De La Rosa Fortuny IM",
@@ -50,7 +42,6 @@
     "9 88 (t) Eric De La Rosa Fortuny IM",
     "Eric De La Rosa Fortuny",
     "Eric De La Rosa Fortuny AM 3",
-    "Eric De La Rosa Fortuny BM",
     "Eric De La Rosa Fortuny IM",
     "Eric De La Rosa Fortuny IM 3",
     "Eric De La Rosa Fortuny IM 6"
@@ -58,7 +49,7 @@
   "license_variants_found": [
     "CL87201"
   ],
-  "source_files_count": 35,
+  "source_files_count": 29,
   "results": [
     {
       "event_name": "Control Gener 2",
@@ -126,19 +117,6 @@
       "internal_id": null
     },
     {
-      "event_name": "Control Primavera 1a. jornada",
-      "event_date": "28/04/2018",
-      "event_location": "Cambrils",
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018042829-controlprimaveracambrils.pdf",
-      "athlete_name": "Eric De La Rosa Fortuny BM",
-      "athlete_dob": "17/04/2009",
-      "athlete_id": "CL87201",
-      "discipline": "1000 metres llisos",
-      "performance": "36.76",
-      "wind": null,
-      "internal_id": null
-    },
-    {
       "event_name": "Jornada Prèvia Camp. Catalunya Sub10",
       "event_date": "19/05/2018",
       "event_location": "Ascó",
@@ -188,32 +166,6 @@
       "discipline": "60 metres llisos",
       "performance": "9.81",
       "wind": "+0.0",
-      "internal_id": null
-    },
-    {
-      "event_name": "Control Hivern",
-      "event_date": "08/12/2018",
-      "event_location": "Cambrils",
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20181208-controlhiverncambrils.pdf",
-      "athlete_name": "2 23 (t) Eric De La Rosa Fortuny",
-      "athlete_dob": "17/04/2009",
-      "athlete_id": "CL87201",
-      "discipline": "300 metres llisos",
-      "performance": "11.66",
-      "wind": null,
-      "internal_id": null
-    },
-    {
-      "event_name": "",
-      "event_date": "09/12/2018",
-      "event_location": "Cambrils",
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20181209-trofeusalcedacastellscambrils.pdf",
-      "athlete_name": "1 23 (t) Eric De La Rosa Fortuny",
-      "athlete_dob": "17/04/2009",
-      "athlete_id": "CL87201",
-      "discipline": "2000 metres llisos",
-      "performance": "40.23",
-      "wind": null,
       "internal_id": null
     },
     {
@@ -455,19 +407,6 @@
       "event_date": "08/06/2019",
       "event_location": "Castellar",
       "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20190608-catsub12previacastellar.pdf",
-      "athlete_name": "8 130 (t) Eric De La Rosa Fortuny AM 5 q",
-      "athlete_dob": "17/04/2009",
-      "athlete_id": "CL87201",
-      "discipline": "2000 metres llisos",
-      "performance": "13.43",
-      "wind": null,
-      "internal_id": null
-    },
-    {
-      "event_name": "Jornada Prèvia Campionat de Catalunya Sub12",
-      "event_date": "08/06/2019",
-      "event_location": "Castellar",
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20190608-catsub12previacastellar.pdf",
       "athlete_name": "21 130 (t) Eric De La Rosa Fortuny",
       "athlete_dob": "17/04/2009",
       "athlete_id": "CL87201",
@@ -525,19 +464,6 @@
       "athlete_id": "CL87201",
       "discipline": "Llargada",
       "performance": "3.51",
-      "wind": null,
-      "internal_id": null
-    },
-    {
-      "event_name": "Control Febrer 2",
-      "event_date": "08/02/2020",
-      "event_location": "Valls",
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20200208-controlfebrervalls.pdf",
-      "athlete_name": "1 63 (t) Eric De La Rosa Fortuny",
-      "athlete_dob": "17/04/2009",
-      "athlete_id": "CL87201",
-      "discipline": "600 metres llisos",
-      "performance": "51.96",
       "wind": null,
       "internal_id": null
     },
@@ -1183,19 +1109,6 @@
       "event_date": "15/01/2022",
       "event_location": "Cambrils",
       "event_src": "https://fcatletisme.cat/wp-content/uploads/2022/01/resultat-20220115-controlgener1cambrils.pdf",
-      "athlete_name": "1 223 (t) Eric De La Rosa Fortuny IM",
-      "athlete_dob": "17/04/2009",
-      "athlete_id": "CL87201",
-      "discipline": "600 metres llisos",
-      "performance": "50.09",
-      "wind": null,
-      "internal_id": null
-    },
-    {
-      "event_name": "Control Gener 1",
-      "event_date": "15/01/2022",
-      "event_location": "Cambrils",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2022/01/resultat-20220115-controlgener1cambrils.pdf",
       "athlete_name": "3 223 (t) Eric De La Rosa Fortuny IM",
       "athlete_dob": "17/04/2009",
       "athlete_id": "CL87201",
@@ -1244,19 +1157,6 @@
       "internal_id": null
     },
     {
-      "event_name": "Control Gener 3",
-      "event_date": "29/01/2022",
-      "event_location": "Cambrils",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2022/01/resultat-20220129-controlgener3cambrils.pdf",
-      "athlete_name": "2 59 (t) Eric De La Rosa Fortuny IM",
-      "athlete_dob": "17/04/2009",
-      "athlete_id": "CL87201",
-      "discipline": "1000 metres llisos",
-      "performance": "11.81",
-      "wind": null,
-      "internal_id": null
-    },
-    {
       "event_name": "Control Febrer 3",
       "event_date": "26/02/2022",
       "event_location": "Cambrils",
@@ -1266,32 +1166,6 @@
       "athlete_id": "CL87201",
       "discipline": "60 metres llisos",
       "performance": "9.22",
-      "wind": null,
-      "internal_id": null
-    },
-    {
-      "event_name": "Control Febrer 3",
-      "event_date": "26/02/2022",
-      "event_location": "Cambrils",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2022/02/resultat-20220226-controlfebrer3cambrils.pdf",
-      "athlete_name": "2 58 (t) Eric De La Rosa Fortuny IM",
-      "athlete_dob": "17/04/2009",
-      "athlete_id": "CL87201",
-      "discipline": "1000 metres llisos",
-      "performance": "09.14",
-      "wind": null,
-      "internal_id": null
-    },
-    {
-      "event_name": "Jornada Prèvia Campionat Catalunya Sub14 en Pista Coberta - Jornada Prèvia Campionat Catalunya Sub14 en Pista Coberta",
-      "event_date": "05/03/2022",
-      "event_location": "Sabadell",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2022/03/resultat-20220305-catsub14previapcsabadell.pdf",
-      "athlete_name": "5 98 (t) Eric De La Rosa Fortuny IM 5 q",
-      "athlete_dob": "17/04/2009",
-      "athlete_id": "CL87201",
-      "discipline": "1000 metres llisos",
-      "performance": "09.99",
       "wind": null,
       "internal_id": null
     },
@@ -1344,19 +1218,6 @@
       "athlete_id": "CL87201",
       "discipline": "Javelina (500g)",
       "performance": "17.76",
-      "wind": null,
-      "internal_id": null
-    },
-    {
-      "event_name": "Campionat Territorial Sub10, Sub12, Sub14 i Sub16",
-      "event_date": "07/05/2022",
-      "event_location": "Cambrils",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2022/05/resultat-20220507-cnatterritorialpromociocambrils.pdf",
-      "athlete_name": "2 328 (t) Eric De La Rosa Fortuny IM",
-      "athlete_dob": "17/04/2009",
-      "athlete_id": "CL87201",
-      "discipline": "1000 metres llisos",
-      "performance": "09.77",
       "wind": null,
       "internal_id": null
     }

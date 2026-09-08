@@ -1,7 +1,7 @@
 {
   "summary": {
-    "total_clusters": 748,
-    "total_results_processed": 27518,
+    "total_clusters": 724,
+    "total_results_processed": 26351,
     "files_scanned": 1351,
     "invalid_json_files": 0,
     "skipped_results_empty_fields": 0,
@@ -14,15 +14,14 @@
       "conflicts": [
         {
           "licenses": [
-            "CL9121",
-            "CT9121"
+            "CT9121",
+            "CL9121"
           ],
           "reason": "CL/CT conflict: CL9121 vs CT9121 (same number 9121)"
         }
       ],
-      "total_results": 334,
+      "total_results": 324,
       "name_variants": [
-        "2 204 Pere Pardines Gras",
         "4 74 Pere Pardines Gras M-50",
         "5 68 Pere Pardines Gras M-55",
         "5 74 Pere Pardines Gras M-55",
@@ -31,7 +30,8 @@
         "6 53 Pere Pardines Gras M-55",
         "PARDINES GRAS PERE",
         "PERE PARDINES GRAS",
-        "Pere Pardines Gras"
+        "Pere Pardines Gras",
+        "Pere Pardines Gras M-50"
       ]
     },
     {
@@ -40,16 +40,16 @@
       "conflicts": [
         {
           "licenses": [
-            "CAT-3789999",
-            "CT13219",
             "CL13219",
             "CT2508",
-            "CT2897"
+            "CAT-3789999",
+            "CT2897",
+            "CT13219"
           ],
           "reason": "CL/CT conflict: CL13219 vs CT13219 (same number 13219)"
         }
       ],
-      "total_results": 209,
+      "total_results": 208,
       "name_variants": [
         "1 17 Barbara Pintado Duch SF",
         "1 217 Barbara Pintado Duch",
@@ -69,17 +69,16 @@
       "conflicts": [
         {
           "licenses": [
-            "CAT-3742954",
+            "CT14019",
             "CL14019",
-            "CT14019"
+            "CAT-3742954"
           ],
           "reason": "CL/CT conflict: CL14019 vs CT14019 (same number 14019)"
         }
       ],
-      "total_results": 284,
+      "total_results": 279,
       "name_variants": [
         "10 8 (t) Didac Rios Meseguer",
-        "3 234 Didac Rios Meseguer",
         "9 25 (t) Didac Rios Meseguer M-35",
         "DIDAC RIOS MESEGUER",
         "DIDAC RIOS MESSEGUER",
@@ -96,96 +95,51 @@
       "conflicts": [
         {
           "licenses": [
-            "CL17220",
-            "CT17220"
+            "CT17220",
+            "CL17220"
           ],
           "reason": "CL/CT conflict: CL17220 vs CT17220 (same number 17220)"
         }
       ],
-      "total_results": 142,
+      "total_results": 135,
       "name_variants": [
-        "3 13 Marc Jose Diaz 8",
-        "4 434 (t) Marc Jose Diaz",
         "5 13 (t) Marc Jose Diaz SM 1",
         "5 309 (t) Marc Jose Diaz",
-        "6 121 (t) Marc Jose Diaz",
-        "7 121 (t) Marc Jose Diaz",
         "7 25 (t) Marc Jose Diaz",
-        "7 434 (t) Marc Jose Diaz 5 q",
         "JOSE DIAZ MARC",
-        "MARC JOSE DIAZ"
-      ]
-    },
-    {
-      "canonical_name": "PERE ORTEGA RIDAO",
-      "canonical_license": "CT16079",
-      "conflicts": [
-        {
-          "licenses": [
-            "CL16079",
-            "CT16079"
-          ],
-          "reason": "CL/CT conflict: CL16079 vs CT16079 (same number 16079)"
-        }
-      ],
-      "total_results": 25,
-      "name_variants": [
-        "5 81 (t) Pedro Ortega Ridao",
-        "ORTEGA RIDAO PEDRO",
-        "PEDRO ORTEGA RIDAO",
-        "Pedro Ortega Ridao M-35",
-        "Pedro Ortega Ridao M-35 13"
+        "MARC JOSE DIAZ",
+        "MARC JOSÉ DÍAZ",
+        "MARC JOSÉ DÍAZ JM"
       ]
     },
     {
       "canonical_name": "ALICIA VAZQUEZ DOMINGO",
-      "canonical_license": "CAT-3742985",
+      "canonical_license": "CAT-3754025",
       "conflicts": [
         {
           "licenses": [
-            "CT21623",
-            "CL92732",
-            "CL57690",
-            "CT20392",
-            "CT2272",
-            "CT20690",
-            "CL20392",
             "CAT-3754025",
             "CT23992",
-            "CAT-3742985",
-            "CL23992"
-          ],
-          "reason": "CL/CT conflict: CL20392 vs CT20392 (same number 20392)"
-        },
-        {
-          "licenses": [
-            "CT21623",
             "CL92732",
+            "CT21623",
             "CL57690",
-            "CT20392",
-            "CT2272",
-            "CT20690",
-            "CL20392",
-            "CAT-3754025",
-            "CT23992",
-            "CAT-3742985",
             "CL23992"
           ],
           "reason": "CL/CT conflict: CL23992 vs CT23992 (same number 23992)"
         }
       ],
-      "total_results": 310,
+      "total_results": 293,
       "name_variants": [
         "(t) Alicia Vazquez Domingo 09/10/1999",
-        "1 487 Alicia Vazquez Domingo",
         "1 6 Alicia Vazquez Domingo 4",
-        "2 27 Alicia Vazquez Domingo PF 2",
         "3 17 Alicia Vazquez Domingo",
         "3 463 Alicia Vazquez Domingo PF",
-        "3 463 Alicia Vazquez Domingo PF 3 q",
         "4 336 Alicia Vazquez Domingo",
         "4 336 Alicia Vazquez Domingo 4",
-        "5 21 Alicia Vazquez Domingo JF"
+        "5 21 Alicia Vazquez Domingo JF",
+        "6 345 Alicia Vazquez Domingo",
+        "6 476 Alicia Vazquez Domingo PF 8",
+        "ALICIA VAZQUEZ DOMINGO"
       ]
     },
     {
@@ -194,13 +148,13 @@
       "conflicts": [
         {
           "licenses": [
-            "CAT-3891856",
-            "CT20426"
+            "CT20426",
+            "CAT-3891856"
           ],
-          "reason": "Multiple different licenses: ['CAT-3891856', 'CT20426']"
+          "reason": "Multiple different licenses: ['CT20426', 'CAT-3891856']"
         }
       ],
-      "total_results": 186,
+      "total_results": 185,
       "name_variants": [
         "JOANA PINYOL MARGALEF",
         "Joana Pinyol Margalef",
@@ -214,27 +168,56 @@
       "conflicts": [
         {
           "licenses": [
-            "CAT-3818228",
             "CT25156",
             "CL71733",
             "CL25156",
+            "CAT-3818228",
             "CL62287"
           ],
           "reason": "CL/CT conflict: CL25156 vs CT25156 (same number 25156)"
         }
       ],
-      "total_results": 120,
+      "total_results": 109,
       "name_variants": [
         "1 148 Gerard Parera Bodi LM",
         "10 73 Gerard Parera Bodi",
         "3 417 Gerard Parera Bodi",
         "3 471 (t) Gerard Parera Bodi PM",
-        "7 23 (t) Gerard Parera Bodi PM 2",
         "GERARD PARERA BODI",
         "Gerard Parera Bodi",
         "Gerard Parera Bodi 5",
         "Gerard Parera Bodi 6",
-        "Gerard Parera Bodi 7"
+        "Gerard Parera Bodi 7",
+        "Gerard Parera Bodi JM 4"
+      ]
+    },
+    {
+      "canonical_name": "MARINA TIBAU SENDRA",
+      "canonical_license": "CAT-3742985",
+      "conflicts": [
+        {
+          "licenses": [
+            "CT20392",
+            "CT20690",
+            "CL20392",
+            "CT2272",
+            "CAT-3742985"
+          ],
+          "reason": "CL/CT conflict: CL20392 vs CT20392 (same number 20392)"
+        }
+      ],
+      "total_results": 238,
+      "name_variants": [
+        "1 17 Marina Tibau Sendra",
+        "1 25 (t) Marina Tibau Sendra SF",
+        "1 5 (t) Marina Tibau Sendra SF",
+        "1 6 (t) Marina Tibau Sendra",
+        "2 21 (t) Marina Tibau Sendra SF",
+        "3 20 (t) Marina Tibau Sendra SF",
+        "3 214 Marina Tibau Sendra PF",
+        "3 329 (t) Marina Tibau Sendra SF",
+        "3 343 (t) Marina Tibau Sendra",
+        "5 343 (t) Marina Tibau Sendra"
       ]
     },
     {
@@ -258,26 +241,6 @@
       ]
     },
     {
-      "canonical_name": "ALICIA GARCIA LLAO",
-      "canonical_license": "CT18374",
-      "conflicts": [
-        {
-          "licenses": [
-            "CT18374",
-            "CL18374"
-          ],
-          "reason": "CL/CT conflict: CL18374 vs CT18374 (same number 18374)"
-        }
-      ],
-      "total_results": 6,
-      "name_variants": [
-        "Alicia Garcia Llao",
-        "Alicia Garcia Llao W-40",
-        "Alicia Garcia Llao W-45 2",
-        "GARCIA LLAO ALICIA"
-      ]
-    },
-    {
       "canonical_name": "JAN SANS RIOLA",
       "canonical_license": "CAT-3791853",
       "conflicts": [
@@ -289,18 +252,18 @@
           "reason": "Multiple different licenses: ['CT22783', 'CAT-3791853']"
         }
       ],
-      "total_results": 146,
+      "total_results": 128,
       "name_variants": [
         "1 131 Jan Sans Riola PM 4 Q",
-        "1 185 Jan Sans Riola PM",
-        "1 23 Jan Sans Riola PM 4",
         "1 371 Jan Sans Riola PM 5 8 RCAM",
         "1 398 Jan Sans Riola",
         "1 428 Jan Sans Riola",
         "1 58 Jan Sans Riola JM 3",
         "1 58 Jan Sans Riola JM 6 Q",
-        "2 360 Jan Sans Riola PM 6 Q",
-        "2 6 Jan Sans Riola 4"
+        "2 6 Jan Sans Riola 4",
+        "4 104 Jan Sans Riola SM 4",
+        "6 5 Jan Sans Riola PM",
+        "JAN SANS RIOLA"
       ]
     },
     {
@@ -309,26 +272,26 @@
       "conflicts": [
         {
           "licenses": [
+            "CT1566",
             "CL19336",
             "CT23242",
-            "CT1566",
             "CL23242"
           ],
           "reason": "CL/CT conflict: CL23242 vs CT23242 (same number 23242)"
         }
       ],
-      "total_results": 75,
+      "total_results": 72,
       "name_variants": [
         "1 329 Ana Cabello Rioja",
         "2 289 Ana Cabello Rioja W-50",
         "2 353 Ana Cabello Rioja",
-        "2 380 (t) Ana Cabello Rioja W-45",
         "2 58 Ana Cabello Rioja",
         "2 71 Ana Cabello Rioja W-45 5",
         "3 289 Ana Cabello Rioja W-50",
         "3 329 Ana Cabello Rioja",
         "4 186 Ana Cabello Rioja W-50",
-        "9 298 Ana Cabello Rioja W-50"
+        "9 298 Ana Cabello Rioja W-50",
+        "ANA CABELLO RIOJA"
       ]
     },
     {
@@ -355,18 +318,15 @@
       "conflicts": [
         {
           "licenses": [
-            "CL20403",
-            "CT20403"
+            "CT20403",
+            "CL20403"
           ],
           "reason": "CL/CT conflict: CL20403 vs CT20403 (same number 20403)"
         }
       ],
-      "total_results": 18,
+      "total_results": 12,
       "name_variants": [
-        "4 88 (t) Jose Maria Perez Sierra M-50",
         "5 7 (t) Jose Maria Perez Sierra",
-        "Jose Maria Perez Sierra",
-        "Jose Maria Perez Sierra M-45 5",
         "Jose Maria Perez Sierra M-50",
         "PEREZ SIERRA JOSE MARIA"
       ]
@@ -377,8 +337,8 @@
       "conflicts": [
         {
           "licenses": [
-            "CT25705",
-            "CL25705"
+            "CL25705",
+            "CT25705"
           ],
           "reason": "CL/CT conflict: CL25705 vs CT25705 (same number 25705)"
         }
@@ -402,30 +362,10 @@
           "reason": "CL/CT conflict: CL27029 vs CT27029 (same number 27029)"
         }
       ],
-      "total_results": 4,
-      "name_variants": [
-        "2 89 (t) Jordi Puig Argudo M-40",
-        "4 431 Jordi Puig Argudo M-45",
-        "4 63 Jordi Puig Argudo M-45 4",
-        "Jordi Puig Argudo M-45"
-      ]
-    },
-    {
-      "canonical_name": "CARMEN FERRER GARCIA",
-      "canonical_license": "CT29529",
-      "conflicts": [
-        {
-          "licenses": [
-            "CL29529",
-            "CT29529"
-          ],
-          "reason": "CL/CT conflict: CL29529 vs CT29529 (same number 29529)"
-        }
-      ],
       "total_results": 2,
       "name_variants": [
-        "1 331 Carmen Ferre Garcia",
-        "6 5 (t) Carmen Ferre Garcia W-55 1"
+        "2 89 (t) Jordi Puig Argudo M-40",
+        "Jordi Puig Argudo M-45"
       ]
     },
     {
@@ -440,7 +380,7 @@
           "reason": "Multiple different licenses: ['CT7092', 'CT87092']"
         }
       ],
-      "total_results": 9,
+      "total_results": 8,
       "name_variants": [
         "2 277 Sofia Rubio Reunis",
         "3 464 Sofia Rubio Reunis",
@@ -448,8 +388,7 @@
         "4 480 Sofia Rubio Reunis",
         "5 407 Sofia Rubio Reunis",
         "5 5 Sofia Rubio Reunis",
-        "5 83 Sofia Rubio Reunis SF",
-        "7 441 Sofia Rubio Reunis"
+        "5 83 Sofia Rubio Reunis SF"
       ]
     },
     {
@@ -498,10 +437,10 @@
       "conflicts": [
         {
           "licenses": [
-            "CAT-3844273",
-            "CAT-3844273-A-T"
+            "CAT-3844273-A-T",
+            "CAT-3844273"
           ],
-          "reason": "Multiple different licenses: ['CAT-3844273', 'CAT-3844273-A-T']"
+          "reason": "Multiple different licenses: ['CAT-3844273-A-T', 'CAT-3844273']"
         }
       ],
       "total_results": 10,
@@ -521,7 +460,7 @@
           "reason": "CL/CT conflict: CL15201 vs CT15201 (same number 15201)"
         }
       ],
-      "total_results": 61,
+      "total_results": 58,
       "name_variants": [
         "1 132 (t) Fernando Flores Montes M-45 9-",
         "1 25 (t) Fernando Flores Montes M-50",
@@ -532,7 +471,7 @@
         "2 5 (t) Fernando Flores Montes M-45",
         "2 65 (t) Fernando Flores Montes M-45",
         "3 14 (t) Fernando Flores Montes",
-        "7 74 (t) Fernando Flores Montes M-45 7"
+        "FERNANDO FLORES MONTES"
       ]
     }
   ],
@@ -540,47 +479,47 @@
     {
       "name": "JOSÉ MARÍA MATEO SANZ M",
       "license": "CT19378",
-      "total_results": 444
+      "total_results": 431
     },
     {
       "name": "MIREIA LOPEZ URBANO",
       "license": "CT23556",
-      "total_results": 400
+      "total_results": 367
     },
     {
       "name": "LAURINE ELISA MARIMON FERNANDEZ",
       "license": "CT28409",
-      "total_results": 346
+      "total_results": 331
     },
     {
       "name": "PEDRO PARDINES GRAS",
       "license": "CT9121",
-      "total_results": 334
+      "total_results": 324
     },
     {
       "name": "LLUC SUBIROS BRASERO",
       "license": "CT1186",
-      "total_results": 317
+      "total_results": 302
     },
     {
       "name": "SILVIA VICENTE NAVARRETE",
       "license": "CAT-3742994",
-      "total_results": 313
+      "total_results": 297
     },
     {
       "name": "ALICIA VAZQUEZ DOMINGO",
-      "license": "CAT-3742985",
-      "total_results": 310
+      "license": "CAT-3754025",
+      "total_results": 293
     },
     {
       "name": "PABLO CRESPO BELTRAN",
       "license": "CT1650",
-      "total_results": 293
+      "total_results": 287
     },
     {
       "name": "DIDAC RIOS MESEGUER",
       "license": "CAT-3742954",
-      "total_results": 284
+      "total_results": 279
     },
     {
       "name": "MONSERRAT MONTANES ARBO",
@@ -588,54 +527,54 @@
       "total_results": 269
     },
     {
+      "name": "MARINA TIBAU SENDRA",
+      "license": "CAT-3742985",
+      "total_results": 238
+    },
+    {
       "name": "VICTOR JIMENEZ GARCIA",
       "license": "CT1465",
-      "total_results": 240
+      "total_results": 233
     },
     {
       "name": "ALVAREZ JOSÉ MARTIN MIGUEL",
       "license": "CL12544",
-      "total_results": 235
-    },
-    {
-      "name": "NORA MONTOLIO AMARO",
-      "license": "CAT-3895023",
-      "total_results": 227
+      "total_results": 231
     },
     {
       "name": "BARBARA PINTADO DUCH",
       "license": "CAT-3789999",
-      "total_results": 209
+      "total_results": 208
+    },
+    {
+      "name": "NORA MONTOLIO AMARO",
+      "license": "CAT-3895023",
+      "total_results": 207
     },
     {
       "name": "NOA NIN NAVAS",
       "license": "CAT-3742996",
-      "total_results": 209
+      "total_results": 202
     },
     {
       "name": "LLUIS SAEZ PEREZ",
       "license": "CT17487",
-      "total_results": 204
+      "total_results": 200
     },
     {
       "name": "AGUSTI ORIOL PAISANO",
       "license": "",
-      "total_results": 198
-    },
-    {
-      "name": "CLARA ORTIZ DE LANDAZURI ONTOSO",
-      "license": "CAT-3742953",
-      "total_results": 193
+      "total_results": 196
     },
     {
       "name": "JOANA PINYOL MARGALEF",
       "license": "CAT-3891856",
-      "total_results": 186
+      "total_results": 185
     },
     {
-      "name": "PABLO ESTEVE HOSTALOT",
-      "license": "CL94383",
-      "total_results": 173
+      "name": "CLARA ORTIZ DE LANDAZURI ONTOSO",
+      "license": "CAT-3742953",
+      "total_results": 172
     }
   ]
 }

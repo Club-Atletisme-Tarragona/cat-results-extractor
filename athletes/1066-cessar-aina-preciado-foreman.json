@@ -2,15 +2,12 @@
   "athlete_name": "CESSAR AINA PRECIADO FOREMAN",
   "athlete_id": "CT2333",
   "athlete_dob": "29/6/2011",
-  "total_results": 90,
+  "total_results": 87,
   "name_variants_found": [
     "(t) Cessar Aina Preciado Foreman 29/06/2011",
-    "1 30 (t) Cessar Aina Preciado Foreman 4",
     "2 412 (t) Cessar Aina Preciado Foreman IM",
     "2 480 (t) Cessar Aina Preciado Foreman 4",
     "2 54 (t) Cessar Aina Preciado Foreman IM",
-    "2 62 (t) Cessar Aina Preciado Foreman 4",
-    "2 62 (t) Cessar Aina Preciado Foreman 6 Q",
     "4 412 (t) Cessar Aina Preciado Foreman IM",
     "4 480 (t) Cessar Aina Preciado Foreman",
     "4 62 (t) Cessar Aina Preciado Foreman 4",
@@ -24,7 +21,7 @@
     "CL15333",
     "CT2333"
   ],
-  "source_files_count": 38,
+  "source_files_count": 37,
   "results": [
     {
       "event_name": " - Pista de Atletismo de Camp Clar, 10 febrero 2024",
@@ -92,19 +89,6 @@
       "internal_id": 1066
     },
     {
-      "event_name": "Campionat de Catalunya de Clubs \"A\" sub14 - Pista Coberta d'Atletisme de Catalunya Carme Valero, 9 marzo 2024",
-      "event_date": "09/03/2024",
-      "event_location": "Sabadell",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2024/03/resultat-20240309-catclubsasub14pcsabadell.pdf",
-      "athlete_name": "1 30 (t) Cessar Aina Preciado Foreman 4",
-      "athlete_dob": "29/06/2011",
-      "athlete_id": "CL15333",
-      "discipline": "1000 metres llisos",
-      "performance": "10.46",
-      "wind": null,
-      "internal_id": 1066
-    },
-    {
       "event_name": "Final Campionat de Catalunya Sub14 en Pista Coberta - Final Campionat de Catalunya Sub14 en Pista Coberta",
       "event_date": "24/03/2024",
       "event_location": "Sabadell",
@@ -114,32 +98,6 @@
       "athlete_id": "CL15333",
       "discipline": "200 metres llisos",
       "performance": "26.64",
-      "wind": null,
-      "internal_id": 1066
-    },
-    {
-      "event_name": "Final Campionat de Catalunya Sub14 en Pista Coberta - Final Campionat de Catalunya Sub14 en Pista Coberta",
-      "event_date": "24/03/2024",
-      "event_location": "Sabadell",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2024/03/resultat-20240324-catsub14finalpcsabadell.pdf",
-      "athlete_name": "2 62 (t) Cessar Aina Preciado Foreman 6 Q",
-      "athlete_dob": "29/06/2011",
-      "athlete_id": "CL15333",
-      "discipline": "1000 metres llisos",
-      "performance": "10.05",
-      "wind": null,
-      "internal_id": 1066
-    },
-    {
-      "event_name": "Final Campionat de Catalunya Sub14 en Pista Coberta - Final Campionat de Catalunya Sub14 en Pista Coberta",
-      "event_date": "24/03/2024",
-      "event_location": "Sabadell",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2024/03/resultat-20240324-catsub14finalpcsabadell.pdf",
-      "athlete_name": "2 62 (t) Cessar Aina Preciado Foreman 4",
-      "athlete_dob": "29/06/2011",
-      "athlete_id": "CL15333",
-      "discipline": "1000 metres llisos",
-      "performance": "10.00",
       "wind": null,
       "internal_id": 1066
     },

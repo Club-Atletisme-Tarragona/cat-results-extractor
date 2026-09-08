@@ -2,7 +2,7 @@
   "event_name": "Campionat de Catalunya de Clubs Màster",
   "event_date": "04/01/2025",
   "event_location": "Sabadell",
-  "total_results": 25,
+  "total_results": 23,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2025/01/resultat-20250104-catclubsmasterpcsabadell.pdf",
   "results": [
     {
@@ -234,26 +234,6 @@
       "raw_discipline_name": "800m Hombres",
       "wind": null,
       "internal_id": 252
-    },
-    {
-      "athlete_name": "DIDAC EXPOSITO GARCIA",
-      "athlete_dob": "4/8/1973",
-      "athlete_id": "CT3967",
-      "performance": "11.01",
-      "discipline": "800 metres llisos",
-      "raw_discipline_name": "800m Hombres",
-      "wind": null,
-      "internal_id": 44
-    },
-    {
-      "athlete_name": "FRANCESC MOSQUERA PAGES",
-      "athlete_dob": "7/9/1956",
-      "athlete_id": "CT1501",
-      "performance": "5.80",
-      "discipline": "800 metres llisos",
-      "raw_discipline_name": "800m Hombres",
-      "wind": null,
-      "internal_id": 855
     }
   ]
 }

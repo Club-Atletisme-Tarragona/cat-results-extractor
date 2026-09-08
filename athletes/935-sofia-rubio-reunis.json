@@ -2,7 +2,7 @@
   "athlete_name": "SOFIA RUBIO REUNIS",
   "athlete_id": "CT87092",
   "athlete_dob": "15/2/2007",
-  "total_results": 9,
+  "total_results": 8,
   "name_variants_found": [
     "2 277 Sofia Rubio Reunis",
     "3 464 Sofia Rubio Reunis",
@@ -10,14 +10,13 @@
     "4 480 Sofia Rubio Reunis",
     "5 407 Sofia Rubio Reunis",
     "5 5 Sofia Rubio Reunis",
-    "5 83 Sofia Rubio Reunis SF",
-    "7 441 Sofia Rubio Reunis"
+    "5 83 Sofia Rubio Reunis SF"
   ],
   "license_variants_found": [
     "CT7092",
     "CT87092"
   ],
-  "source_files_count": 9,
+  "source_files_count": 8,
   "results": [
     {
       "event_name": "Campionat de Catalunya de Clubs \"A\" Masculins en Pista Coberta - Campionat de Catalunya de Clubs \"A\" Masculins en Pista Coberta",
@@ -55,19 +54,6 @@
       "athlete_id": "CT87092",
       "discipline": "Alçada",
       "performance": "1.61",
-      "wind": null,
-      "internal_id": 935
-    },
-    {
-      "event_name": "Control Pista Coberta Sub20 - Sub18 - Control Pista Coberta Sub20 - Sub18",
-      "event_date": "11/02/2023",
-      "event_location": "Sabadell",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2023/02/resultat-20230211-controlsub1820pcsabadell.pdf",
-      "athlete_name": "7 441 Sofia Rubio Reunis",
-      "athlete_dob": "15/02/2007",
-      "athlete_id": "CT87092",
-      "discipline": "3000 metres llisos",
-      "performance": "11.11",
       "wind": null,
       "internal_id": 935
     },

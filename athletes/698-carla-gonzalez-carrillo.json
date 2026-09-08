@@ -2,20 +2,15 @@
   "athlete_name": "CARLA GONZALEZ CARRILLO",
   "athlete_id": "CAT-3906535",
   "athlete_dob": "5/6/2003",
-  "total_results": 71,
+  "total_results": 62,
   "name_variants_found": [
-    "1 317 (t) Carla Gonzalez Carrillo LF",
     "11 86 (t) Carla Gonzalez Carrillo JF",
-    "2 88 (t) Carla Gonzalez Carrillo",
     "5 19 (t) Carla Gonzalez Carrillo CF 3",
     "6 86 (t) Carla Gonzalez Carrillo 2",
     "7 307 (t) Carla Gonzalez Carrillo",
-    "7 430 (t) Carla Gonzalez Carrillo JF",
-    "7 5 Carla Gonzalez Carrillo 2",
     "CARLA GONZALEZ CARRILLO",
     "CARLA GONZÁLEZ CARRILLO",
     "Carla Gonzalez Carrillo",
-    "Carla Gonzalez Carrillo 10",
     "Carla Gonzalez Carrillo IF",
     "GONZALEZ CARRILLO CARLA",
     "GONZALEZ CARRILLO CARLA IF"
@@ -27,7 +22,7 @@
     "CL89817",
     "CT27282"
   ],
-  "source_files_count": 26,
+  "source_files_count": 19,
   "results": [
     {
       "event_name": "Control a càrrec del Comité de Jutges de la FCA",
@@ -156,32 +151,6 @@
       "athlete_id": "",
       "discipline": "Pes (2 Kg)",
       "performance": "5.28",
-      "wind": null,
-      "internal_id": 698
-    },
-    {
-      "event_name": "(Jornada prèvia) - Sabadell (Pista Coberta de Catalunya), 27 febrero 2016",
-      "event_date": "27/02/2016",
-      "event_location": "Sabadell",
-      "event_src": "https://old.fcatletisme.cat/Pcoberta/2016/resulcatinfantilpcprevia270216.pdf",
-      "athlete_name": "Carla Gonzalez Carrillo IF",
-      "athlete_dob": "05/06/2003",
-      "athlete_id": "CL82680",
-      "discipline": "600 metres llisos",
-      "performance": "49.04",
-      "wind": null,
-      "internal_id": 698
-    },
-    {
-      "event_name": "",
-      "event_date": "20/4/2016",
-      "event_location": "El Prat de Llobregat",
-      "event_src": "https://old.fcatletisme.cat/Promocio/2016/resulcatclubsinfantilal20416.pdf",
-      "athlete_name": "Carla Gonzalez Carrillo 10",
-      "athlete_dob": "05/06/2003",
-      "athlete_id": "CL82680",
-      "discipline": "1000 metres llisos",
-      "performance": "25.34",
       "wind": null,
       "internal_id": 698
     },
@@ -453,19 +422,6 @@
       "athlete_name": "GONZALEZ CARRILLO CARLA",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "800 metres llisos",
-      "performance": "59.09",
-      "wind": null,
-      "internal_id": 698
-    },
-    {
-      "event_name": "CAMPIONAT TERRITORIAL",
-      "event_date": "14/05/2016",
-      "event_location": "Granollers",
-      "event_src": "http://old.fcatletisme.cat/Promocio/2016/resulterritpromotarragona140516.pdf",
-      "athlete_name": "GONZALEZ CARRILLO CARLA",
-      "athlete_dob": "",
-      "athlete_id": "",
       "discipline": "Llargada",
       "performance": "3.73",
       "wind": "-4.7",
@@ -641,19 +597,6 @@
       "internal_id": 698
     },
     {
-      "event_name": "4rt. Control Cadet en Pista Coberta - 4rt. Control Cadet en Pista Coberta",
-      "event_date": "28/01/2017",
-      "event_location": "Sabadell",
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20170128-controlcadetpc.pdf",
-      "athlete_name": "2 88 (t) Carla Gonzalez Carrillo",
-      "athlete_dob": "05/06/2003",
-      "athlete_id": "CL82680",
-      "discipline": "600 metres llisos",
-      "performance": "48.17",
-      "wind": null,
-      "internal_id": 698
-    },
-    {
       "event_name": "Campionat Territorial Sub10, Sub12, Sub14 i Sub16 3a. jornada",
       "event_date": "14/04/2018",
       "event_location": "Cambrils",
@@ -732,32 +675,6 @@
       "internal_id": 698
     },
     {
-      "event_name": "Control Primavera 1a. jornada",
-      "event_date": "28/04/2018",
-      "event_location": "Cambrils",
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018042829-controlprimaveracambrils.pdf",
-      "athlete_name": "Carla Gonzalez Carrillo",
-      "athlete_dob": "05/06/2003",
-      "athlete_id": "CL89817",
-      "discipline": "1000 metres llisos",
-      "performance": "49.76",
-      "wind": null,
-      "internal_id": 698
-    },
-    {
-      "event_name": "Control Sub20 - Sub18 en pista coberta (4a. Jornada) - Sabadell (Pista Coberta de Catalunya), 3 febrero 2019",
-      "event_date": "03/02/2019",
-      "event_location": "Sabadell",
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20190203-controlsub1820pcsabadell.pdf",
-      "athlete_name": "1 317 (t) Carla Gonzalez Carrillo LF",
-      "athlete_dob": "05/06/2003",
-      "athlete_id": "CL29242",
-      "discipline": "400 metres llisos",
-      "performance": "05.88",
-      "wind": null,
-      "internal_id": 698
-    },
-    {
       "event_name": "Campionat de Catalunya Sub18 - Palafrugell (Estadi Josep Pla Arbonès), 18 mayo 2019",
       "event_date": "18/05/2019",
       "event_location": "Palafrugell",
@@ -784,32 +701,6 @@
       "internal_id": 698
     },
     {
-      "event_name": "Control Absolut en pista coberta",
-      "event_date": "07/02/2021",
-      "event_location": "Barcelona",
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/2021/02/resultat-20210207-controlabsolutbcnpsj.pdf",
-      "athlete_name": "7 430 (t) Carla Gonzalez Carrillo JF",
-      "athlete_dob": "05/06/2003",
-      "athlete_id": "CL29242",
-      "discipline": "800 metres llisos",
-      "performance": "30.16",
-      "wind": null,
-      "internal_id": 698
-    },
-    {
-      "event_name": "Control Maig",
-      "event_date": "15/05/2021",
-      "event_location": "Ascó",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/05/resultat-20210515-controlmaigasco.pdf",
-      "athlete_name": "Carla Gonzalez Carrillo",
-      "athlete_dob": "05/06/2003",
-      "athlete_id": "CL29242",
-      "discipline": "800 metres llisos",
-      "performance": "25.48",
-      "wind": null,
-      "internal_id": 698
-    },
-    {
       "event_name": "Campionat de Catalunya Absolut",
       "event_date": "06/06/2021",
       "event_location": "Serrahima",
@@ -820,19 +711,6 @@
       "discipline": "5000 metres llisos",
       "performance": "12:11.53",
       "wind": "-0.9",
-      "internal_id": 698
-    },
-    {
-      "event_name": "Campionat de Catalunya de Clubs \"A\" Masculins en Pista Coberta - Campionat de Catalunya de Clubs \"A\" Masculins en Pista Coberta",
-      "event_date": "08/01/2023",
-      "event_location": "Vilafranca",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2023/01/resultat-20230108-catclubsapcsabadell.pdf",
-      "athlete_name": "7 5 Carla Gonzalez Carrillo 2",
-      "athlete_dob": "05/06/2003",
-      "athlete_id": "CT27282",
-      "discipline": "3000 metres llisos",
-      "performance": "48.07",
-      "wind": null,
       "internal_id": 698
     },
     {

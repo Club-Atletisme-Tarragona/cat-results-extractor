@@ -2,7 +2,7 @@
   "event_name": "CRITÈRIUM CAMPMANY (5a Jornada)",
   "event_date": "10/07/2013",
   "event_location": "Barcelona",
-  "total_results": 2,
+  "total_results": 1,
   "event_src": "http://old.fcatletisme.cat/Pairelliure/pairelliure2013/resulccampmany100713.pdf",
   "results": [
     {
@@ -14,16 +14,6 @@
       "raw_discipline_name": "100m MASC. AL",
       "wind": "+0.6",
       "internal_id": 416
-    },
-    {
-      "athlete_name": "Julia Olle Gatell SF",
-      "athlete_dob": "26/10/1985",
-      "athlete_id": "CL18306",
-      "performance": "16.13",
-      "discipline": "1500 metres llisos",
-      "raw_discipline_name": "1.500m FEM. AL",
-      "wind": null,
-      "internal_id": 388
     }
   ]
 }

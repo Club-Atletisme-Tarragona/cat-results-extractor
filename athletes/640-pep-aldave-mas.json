@@ -1,8 +1,8 @@
 {
   "athlete_name": "PEP ALDAVE MAS",
-  "athlete_id": "CL71684",
+  "athlete_id": "CL27860",
   "athlete_dob": "29/8/2002",
-  "total_results": 113,
+  "total_results": 109,
   "name_variants_found": [
     "14 58 (t) Pep Aldave Mas",
     "19 129 (t) Pep Aldave Mas LM",
@@ -15,9 +15,6 @@
     "ALDAVE MAS PEP IM",
     "PEP ALDAVE MAS",
     "Pep Aldave Mas",
-    "Pep Aldave Mas 1 q",
-    "Pep Aldave Mas 4",
-    "Pep Aldave Mas 7",
     "Pep Aldave Mas LM",
     "Pep IM Aldave Mas"
   ],
@@ -26,7 +23,7 @@
     "CL64856",
     "CL71684"
   ],
-  "source_files_count": 27,
+  "source_files_count": 25,
   "results": [
     {
       "event_name": "",
@@ -536,32 +533,6 @@
       "internal_id": 640
     },
     {
-      "event_name": " - Sabadell (Pista Coberta de Catalunya), 14 febrero 2015",
-      "event_date": "14/02/2015",
-      "event_location": "Sabadell",
-      "event_src": "http://old.fcatletisme.cat/Pcoberta/2015/resulcatclubsinfantilpc140215.pdf",
-      "athlete_name": "Pep Aldave Mas 7",
-      "athlete_dob": "29/08/2002",
-      "athlete_id": "CL71684",
-      "discipline": "1000 metres llisos",
-      "performance": "11.02",
-      "wind": null,
-      "internal_id": 640
-    },
-    {
-      "event_name": "Jornada prèvia - Sabadell (Pista Coberta de Catalunya), 28 febrero 2015",
-      "event_date": "28/02/2015",
-      "event_location": "Sabadell",
-      "event_src": "http://old.fcatletisme.cat/Pcoberta/2015/resulcatinfantilpreviapc280215.pdf",
-      "athlete_name": "Pep Aldave Mas 1 q",
-      "athlete_dob": "29/08/2002",
-      "athlete_id": "CL71684",
-      "discipline": "1000 metres llisos",
-      "performance": "10.81",
-      "wind": null,
-      "internal_id": 640
-    },
-    {
       "event_name": "Jornada prèvia - Sabadell (Pista Coberta de Catalunya), 28 febrero 2015",
       "event_date": "28/02/2015",
       "event_location": "Sabadell",
@@ -597,19 +568,6 @@
       "athlete_id": "CL71684",
       "discipline": "Llargada",
       "performance": "3.92",
-      "wind": null,
-      "internal_id": 640
-    },
-    {
-      "event_name": "Jornada Final - Sabadell (Pista Coberta de Catalunya), 14 marzo 2015",
-      "event_date": "14/03/2015",
-      "event_location": "Sabadell",
-      "event_src": "http://old.fcatletisme.cat/Pcoberta/2015/resulcatinfantilpc140315.pdf",
-      "athlete_name": "Pep Aldave Mas 4",
-      "athlete_dob": "29/08/2002",
-      "athlete_id": "CL71684",
-      "discipline": "1000 metres llisos",
-      "performance": "10.87",
       "wind": null,
       "internal_id": 640
     },
@@ -805,19 +763,6 @@
       "athlete_id": "CL71684",
       "discipline": "60 metres llisos",
       "performance": "9.06",
-      "wind": null,
-      "internal_id": 640
-    },
-    {
-      "event_name": "Control Cadet en Pista Coberta (1a. Jornada) - Control Cadet en Pista Coberta (1a. Jornada)",
-      "event_date": "12/12/2015",
-      "event_location": "Sabadell",
-      "event_src": "https://old.fcatletisme.cat/Pcoberta/2016/resulcontrolcadetpc121215.pdf",
-      "athlete_name": "Pep Aldave Mas",
-      "athlete_dob": "29/08/2002",
-      "athlete_id": "CL71684",
-      "discipline": "1000 metres llisos",
-      "performance": "11.31",
       "wind": null,
       "internal_id": 640
     },

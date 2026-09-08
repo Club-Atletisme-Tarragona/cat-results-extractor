@@ -2,16 +2,15 @@
   "athlete_name": "POL VILLENA BALAGUER",
   "athlete_id": "CL7636",
   "athlete_dob": "21/5/2009",
-  "total_results": 6,
+  "total_results": 5,
   "name_variants_found": [
-    "12 79 (t) Pol Villena Balaguer IM",
     "15 249 (t) Pol Villena Balaguer IM",
     "4 249 (t) Pol Villena Balaguer IM"
   ],
   "license_variants_found": [
     "CL7636"
   ],
-  "source_files_count": 2,
+  "source_files_count": 1,
   "results": [
     {
       "event_name": "Control Gener 1",
@@ -76,19 +75,6 @@
       "discipline": "Llargada",
       "performance": "3.15",
       "wind": "+1.9",
-      "internal_id": null
-    },
-    {
-      "event_name": "Control Gener 3",
-      "event_date": "29/01/2022",
-      "event_location": "Cambrils",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2022/01/resultat-20220129-controlgener3cambrils.pdf",
-      "athlete_name": "12 79 (t) Pol Villena Balaguer IM",
-      "athlete_dob": "21/05/2009",
-      "athlete_id": "CL7636",
-      "discipline": "1000 metres llisos",
-      "performance": "57.93",
-      "wind": null,
       "internal_id": null
     }
   ]

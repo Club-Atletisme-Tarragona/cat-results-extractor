@@ -53,7 +53,9 @@ def check_perf(disc, perf, formats):
         return None
     elif base == 'mm:ss.cc':
         if re.match(r'^\d{1,3}\.\d{1,3}$', p):
-            return None if float(p) < 60 else 'mm:ss_stored_as_decimal'
+            # decimal-only seconds are never valid for >=600m events
+            # (600m WR ~1:15); they are shifted marks or truncated minutes
+            return 'mm:ss_stored_as_decimal'
         if re.match(r'^\d{1,3}:\d{2}\.\d{1,2}$', p): return None
         if re.match(r'^\d{1,3}:\d{2}$', p): return None
         return 'mm:ss_format_wrong'

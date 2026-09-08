@@ -2,7 +2,7 @@
   "athlete_name": "POL DIAZ CRISTINO",
   "athlete_id": "CT2082",
   "athlete_dob": "1/5/2014",
-  "total_results": 52,
+  "total_results": 49,
   "name_variants_found": [
     "(t) Pol Diaz Cristino 03/02/2014 AM 4 10.0-",
     "11 499 Pol Diaz Cristino BM",
@@ -12,11 +12,8 @@
     "3 49 Pol Diaz Cristino",
     "4 166 Pol Diaz Cristino q",
     "4 443 (t) Pol Diaz Cristino",
-    "4 499 Pol Diaz Cristino BM",
-    "4 77 (t) Pol Diaz Cristino",
     "6 344 Pol Diaz Cristino BM",
     "6 60 (t) Pol Diaz Cristino BM",
-    "7 94 (t) Pol Diaz Cristino 5 q",
     "POL DIAZ CRISTINO",
     "POL DIAZ CRISTINO MMP",
     "Pol DIAZ CRISTINO"
@@ -26,7 +23,7 @@
     "CL7676",
     "CT2082"
   ],
-  "source_files_count": 27,
+  "source_files_count": 25,
   "results": [
     {
       "event_name": "Control Febrer 3",
@@ -77,19 +74,6 @@
       "athlete_id": "CT2082",
       "discipline": "Javelina (800 g)",
       "performance": "11.71",
-      "wind": null,
-      "internal_id": 1333
-    },
-    {
-      "event_name": "Campionat Territorial sub10, sub12, sub14 i sub16 - Pista de Atletismo de Camp Clar, 22 abril 2023",
-      "event_date": "22/04/2023",
-      "event_location": "Camp Clar",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2023/04/resultat-20230422-cnatterritpromociotarragona.pdf",
-      "athlete_name": "4 499 Pol Diaz Cristino BM",
-      "athlete_dob": "03/02/2014",
-      "athlete_id": "CT2082",
-      "discipline": "1000 metres llisos",
-      "performance": "45.11",
       "wind": null,
       "internal_id": 1333
     },
@@ -272,32 +256,6 @@
       "athlete_id": "CT2082",
       "discipline": "Pes (2 Kg)",
       "performance": "4.18",
-      "wind": null,
-      "internal_id": 1333
-    },
-    {
-      "event_name": "Control Pista Coberta sub12 i sub14 - Control Pista Coberta sub12 i sub14",
-      "event_date": "03/03/2024",
-      "event_location": "Sabadell",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2024/03/resultat-20240303-controlsub12-14pcsabadell.pdf",
-      "athlete_name": "4 77 (t) Pol Diaz Cristino",
-      "athlete_dob": "03/02/2014",
-      "athlete_id": "CT2082",
-      "discipline": "600 metres llisos",
-      "performance": "57.82",
-      "wind": null,
-      "internal_id": 1333
-    },
-    {
-      "event_name": "Prèvia Campionat Catalunya sub12 en Pista Coberta - Prèvia Campionat Catalunya sub12 en Pista Coberta",
-      "event_date": "16/03/2024",
-      "event_location": "Sabadell",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2024/03/resultat-20240316-catsub12previapcsabadell.pdf",
-      "athlete_name": "7 94 (t) Pol Diaz Cristino 5 q",
-      "athlete_dob": "03/02/2014",
-      "athlete_id": "CT2082",
-      "discipline": "600 metres llisos",
-      "performance": "56.33",
       "wind": null,
       "internal_id": 1333
     },

@@ -1,0 +1,53 @@
+{
+  "athlete_name": "BLANCO PRIETO JOAN",
+  "athlete_id": "",
+  "athlete_dob": "",
+  "total_results": 3,
+  "name_variants_found": [
+    "BLANCO PRIETO JUAN",
+    "JUAN BLANCO PRIETO"
+  ],
+  "license_variants_found": [],
+  "source_files_count": 3,
+  "results": [
+    {
+      "event_name": "",
+      "event_date": "22/11/2011",
+      "event_location": "Martorell",
+      "event_src": "http://old.fcatletisme.cat/Promocio/promocio2011/resulcontrolcnrp22111.pdf",
+      "athlete_name": "JUAN BLANCO PRIETO",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "400 metres llisos",
+      "performance": "1:05.3",
+      "wind": null,
+      "internal_id": 328
+    },
+    {
+      "event_name": "CAMPIONAT DE CATALUNYA DE CLUBS DE VETERANS EN PISTA COBERTA",
+      "event_date": "09/02/2013",
+      "event_location": "Sabadell",
+      "event_src": "http://old.fcatletisme.cat/Pcoberta/pcoberta2013/resulcatclubsveteranspc90213.pdf",
+      "athlete_name": "BLANCO PRIETO JUAN",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "800 metres llisos",
+      "performance": "2:29.60",
+      "wind": null,
+      "internal_id": 328
+    },
+    {
+      "event_name": "CAMPIONAT DE CATALUNYA DE CLUBS DE VETERANS",
+      "event_date": "25/01/2014",
+      "event_location": "Sabadell",
+      "event_src": "http://old.fcatletisme.cat/Veterans/veterans2014/resulcatclubsveteranspcp250114.pdf",
+      "athlete_name": "BLANCO PRIETO JUAN",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "1500 metres llisos",
+      "performance": "5:01.71",
+      "wind": null,
+      "internal_id": 328
+    }
+  ]
+}

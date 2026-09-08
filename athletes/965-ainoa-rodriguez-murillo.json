@@ -2,23 +2,19 @@
   "athlete_name": "AINOA RODRIGUEZ MURILLO",
   "athlete_id": "CAT-3742948",
   "athlete_dob": "17/1/2008",
-  "total_results": 137,
+  "total_results": 132,
   "name_variants_found": [
     "1 103 (t) Ainoa Rodriguez Murillo",
     "1 128 (t) Ainoa Rodriguez Murillo IF",
     "10 335 (t) Ainoa Rodriguez Murillo",
     "10 92 (t) Ainoa Rodriguez Murillo IF",
     "11 45 Ainoa Rodriguez Murillo",
-    "12 245 (t) Ainoa Rodriguez Murillo IF",
-    "13 195 (t) Ainoa Rodriguez Murillo IF",
     "14 163 (t) Ainoa Rodriguez Murillo",
     "14 208 (t) Ainoa Rodriguez Murillo",
     "14 379 (t) Ainoa Rodriguez Murillo",
     "17 128 (t) Ainoa Rodriguez Murillo IF",
     "2 104 (t) Ainoa Rodriguez Murillo IF",
     "2 260 (t) Ainoa Rodriguez Murillo SF",
-    "2 92 (t) Ainoa Rodriguez Murillo IF",
-    "3 103 (t) Ainoa Rodriguez Murillo",
     "3 340 (t) Ainoa Rodriguez Murillo IF",
     "3 82 (t) Ainoa Rodriguez Murillo SF",
     "4 104 (t) Ainoa Rodriguez Murillo IF",
@@ -30,7 +26,6 @@
     "6 236 (t) Ainoa Rodriguez Murillo",
     "6 618 (t) Ainoa Rodriguez Murillo",
     "7 195 (t) Ainoa Rodriguez Murillo IF",
-    "8 133 (t) Ainoa Rodriguez Murillo IF",
     "8 208 (t) Ainoa Rodriguez Murillo",
     "8 37 (t) Ainoa Rodriguez Murillo",
     "8 394 (t) Ainoa Rodriguez Murillo IF",
@@ -42,7 +37,7 @@
     "CL81622",
     "CT1619"
   ],
-  "source_files_count": 39,
+  "source_files_count": 37,
   "results": [
     {
       "event_name": "Control Gener",
@@ -149,32 +144,6 @@
       "internal_id": 965
     },
     {
-      "event_name": "Control Febrer 1",
-      "event_date": "07/02/2021",
-      "event_location": "Reus",
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/2021/02/resultat-20210207-controlfebrer1reus.pdf",
-      "athlete_name": "12 245 (t) Ainoa Rodriguez Murillo IF",
-      "athlete_dob": "17/01/2008",
-      "athlete_id": "CL81622",
-      "discipline": "1000 metres llisos",
-      "performance": "44.85",
-      "wind": null,
-      "internal_id": 965
-    },
-    {
-      "event_name": "Campionat Territorial primera jornada",
-      "event_date": "11/04/2021",
-      "event_location": "Reus",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210411-cnatterritorialreus.pdf",
-      "athlete_name": "8 133 (t) Ainoa Rodriguez Murillo IF",
-      "athlete_dob": "17/01/2008",
-      "athlete_id": "CL81622",
-      "discipline": "600 metres llisos",
-      "performance": "55.49",
-      "wind": null,
-      "internal_id": 965
-    },
-    {
       "event_name": "Campionat Territorial Sub10, Sub12, Sub14 i Sub16",
       "event_date": "24/04/2021",
       "event_location": "Tarragona",
@@ -185,19 +154,6 @@
       "discipline": "80 metres llisos",
       "performance": "11.70",
       "wind": "-0.2",
-      "internal_id": 965
-    },
-    {
-      "event_name": "Campionat Territorial Sub10, Sub12, Sub14 i Sub16",
-      "event_date": "24/04/2021",
-      "event_location": "Tarragona",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210424-cnatterritorialtarragona.pdf",
-      "athlete_name": "13 195 (t) Ainoa Rodriguez Murillo IF",
-      "athlete_dob": "17/01/2008",
-      "athlete_id": "CL81622",
-      "discipline": "1000 metres llisos",
-      "performance": "37.14",
-      "wind": null,
       "internal_id": 965
     },
     {
@@ -504,19 +460,6 @@
       "event_date": "18/12/2021",
       "event_location": "Reus",
       "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/12/resultat-20211218-trofeunadalcnrp.pdf",
-      "athlete_name": "2 92 (t) Ainoa Rodriguez Murillo IF",
-      "athlete_dob": "17/01/2008",
-      "athlete_id": "CL81622",
-      "discipline": "1000 metres llisos",
-      "performance": "10.46",
-      "wind": "+1.4",
-      "internal_id": 965
-    },
-    {
-      "event_name": "",
-      "event_date": "18/12/2021",
-      "event_location": "Reus",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/12/resultat-20211218-trofeunadalcnrp.pdf",
       "athlete_name": "10 92 (t) Ainoa Rodriguez Murillo IF",
       "athlete_dob": "17/01/2008",
       "athlete_id": "CL81622",
@@ -549,19 +492,6 @@
       "discipline": "60 metres llisos",
       "performance": "8.73",
       "wind": "+1.7",
-      "internal_id": 965
-    },
-    {
-      "event_name": "Control Gener 3",
-      "event_date": "29/01/2022",
-      "event_location": "Cambrils",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2022/01/resultat-20220129-controlgener3cambrils.pdf",
-      "athlete_name": "3 103 (t) Ainoa Rodriguez Murillo",
-      "athlete_dob": "17/01/2008",
-      "athlete_id": "CL81622",
-      "discipline": "1000 metres llisos",
-      "performance": "10.20",
-      "wind": "+1.3",
       "internal_id": 965
     },
     {

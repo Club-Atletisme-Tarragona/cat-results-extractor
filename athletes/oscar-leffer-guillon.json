@@ -1,0 +1,42 @@
+{
+  "athlete_name": "OSCAR LEFFER GUILLON",
+  "athlete_id": "CL96852",
+  "athlete_dob": "19/2/2004",
+  "total_results": 2,
+  "name_variants_found": [
+    "1 34 (t) Oscar Leffer Guillon LM",
+    "3 203 (t) Oscar Leffer Guillon LM"
+  ],
+  "license_variants_found": [
+    "CL96852"
+  ],
+  "source_files_count": 2,
+  "results": [
+    {
+      "event_name": "Control Setembre-1",
+      "event_date": "13/09/2020",
+      "event_location": "Reus",
+      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20200913-controlreus.pdf",
+      "athlete_name": "1 34 (t) Oscar Leffer Guillon LM",
+      "athlete_dob": "19/02/2004",
+      "athlete_id": "CL96852",
+      "discipline": "800 metres llisos",
+      "performance": "2:07.62",
+      "wind": null,
+      "internal_id": null
+    },
+    {
+      "event_name": "Control Febrer 1",
+      "event_date": "07/02/2021",
+      "event_location": "Reus",
+      "event_src": "http://fcatletisme.cat/wp-content/uploads/2021/02/resultat-20210207-controlfebrer1reus.pdf",
+      "athlete_name": "3 203 (t) Oscar Leffer Guillon LM",
+      "athlete_dob": "19/02/2004",
+      "athlete_id": "CL96852",
+      "discipline": "800 metres llisos",
+      "performance": "2:08.27",
+      "wind": null,
+      "internal_id": null
+    }
+  ]
+}

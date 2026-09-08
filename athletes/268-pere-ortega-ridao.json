@@ -1,20 +1,14 @@
 {
   "athlete_name": "PERE ORTEGA RIDAO",
-  "athlete_id": "CT16079",
-  "athlete_dob": "12/10/1977",
-  "total_results": 25,
+  "athlete_id": "",
+  "athlete_dob": "",
+  "total_results": 22,
   "name_variants_found": [
-    "5 81 (t) Pedro Ortega Ridao",
     "ORTEGA RIDAO PEDRO",
-    "PEDRO ORTEGA RIDAO",
-    "Pedro Ortega Ridao M-35",
-    "Pedro Ortega Ridao M-35 13"
+    "PEDRO ORTEGA RIDAO"
   ],
-  "license_variants_found": [
-    "CL16079",
-    "CT16079"
-  ],
-  "source_files_count": 22,
+  "license_variants_found": [],
+  "source_files_count": 19,
   "results": [
     {
       "event_name": "",
@@ -290,19 +284,6 @@
       "internal_id": 268
     },
     {
-      "event_name": "",
-      "event_date": "22/06/2013",
-      "event_location": "Calella",
-      "event_src": "http://old.fcatletisme.cat/Veterans/veterans2013/resulcatveterans220613.pdf",
-      "athlete_name": "Pedro Ortega Ridao M-35",
-      "athlete_dob": "12/10/1977",
-      "athlete_id": "CT16079",
-      "discipline": "5000 metres llisos",
-      "performance": "52.86",
-      "wind": null,
-      "internal_id": 268
-    },
-    {
       "event_name": "CAMPIONAT DE CATALUNYA DE CLUBS DE VETERANS",
       "event_date": "25/01/2014",
       "event_location": "Sabadell",
@@ -312,32 +293,6 @@
       "athlete_id": "",
       "discipline": "3000 metres llisos",
       "performance": "9:30.97",
-      "wind": null,
-      "internal_id": 268
-    },
-    {
-      "event_name": " - Sabadell (Pista Coberta de Catalunya), 7 febrero 2015",
-      "event_date": "07/02/2015",
-      "event_location": "Sabadell",
-      "event_src": "http://old.fcatletisme.cat/Veterans/2015/resulcatclubsveteranspc70215.pdf",
-      "athlete_name": "Pedro Ortega Ridao M-35 13",
-      "athlete_dob": "12/10/1977",
-      "athlete_id": "CL16079",
-      "discipline": "1500 metres llisos",
-      "performance": "22.16",
-      "wind": null,
-      "internal_id": 268
-    },
-    {
-      "event_name": "25è. Campionat de Catalunya Master en Pista Coberta - 25è. Campionat de Catalunya Master en Pista Coberta",
-      "event_date": "23/02/2020",
-      "event_location": "Sabadell",
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20200223-catmasterpcsabadell.pdf",
-      "athlete_name": "5 81 (t) Pedro Ortega Ridao",
-      "athlete_dob": "12/10/1977",
-      "athlete_id": "CT16079",
-      "discipline": "3000 metres llisos",
-      "performance": "24.84",
       "wind": null,
       "internal_id": 268
     }

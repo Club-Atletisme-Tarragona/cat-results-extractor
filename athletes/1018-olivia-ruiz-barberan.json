@@ -2,11 +2,10 @@
   "athlete_name": "OLIVIA RUIZ BARBERAN",
   "athlete_id": "CL3439",
   "athlete_dob": "24/4/2009",
-  "total_results": 32,
+  "total_results": 29,
   "name_variants_found": [
     "1 425 (t) Olivia Ruiz Barbera SF",
     "1 493 (t) Olivia Ruiz Barbera",
-    "15 380 (t) Olivia Ruiz Barbera IF",
     "16 282 (t) Olivia Ruiz Barbera IF",
     "16 303 (t) Olivia Ruiz Barbera IF",
     "2 229 (t) Olivia Ruiz Barbera SF",
@@ -14,11 +13,9 @@
     "3 42 (t) Olivia Ruiz Barbera 3",
     "4 245 (t) Olivia Ruiz Barbera IF",
     "4 245 (t) Olivia Ruiz Barbera IF 3 q",
-    "4 303 (t) Olivia Ruiz Barbera IF",
     "4 65 (t) Olivia Ruiz Barbera IF 5",
     "5 91 (t) Olivia Ruiz Barbera IF",
     "6 229 (t) Olivia Ruiz Barbera SF",
-    "7 234 (t) Olivia Ruiz Barbera IF",
     "7 245 (t) Olivia Ruiz Barbera IF 2",
     "8 95 (t) Olivia Ruiz Barbera",
     "OLIVIA RUIZ BARBERA",
@@ -27,7 +24,7 @@
   "license_variants_found": [
     "CL3439"
   ],
-  "source_files_count": 21,
+  "source_files_count": 19,
   "results": [
     {
       "event_name": "Control Gener 1",
@@ -79,19 +76,6 @@
       "discipline": "60 metres llisos",
       "performance": "9.16",
       "wind": "+2.1",
-      "internal_id": 1018
-    },
-    {
-      "event_name": "Control Febrer 2",
-      "event_date": "20/02/2022",
-      "event_location": "Reus",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2022/02/resultat-20220220-controlfebrer2reus.pdf",
-      "athlete_name": "4 303 (t) Olivia Ruiz Barbera IF",
-      "athlete_dob": "24/04/2009",
-      "athlete_id": "CL3439",
-      "discipline": "600 metres llisos",
-      "performance": "06.99",
-      "wind": null,
       "internal_id": 1018
     },
     {
@@ -156,32 +140,6 @@
       "athlete_id": "CL3439",
       "discipline": "2000 metres llisos",
       "performance": "11:25",
-      "wind": null,
-      "internal_id": 1018
-    },
-    {
-      "event_name": "Campionat Territorial Sub10, Sub12, Sub14 i Sub16",
-      "event_date": "07/05/2022",
-      "event_location": "Cambrils",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2022/05/resultat-20220507-cnatterritorialpromociocambrils.pdf",
-      "athlete_name": "15 380 (t) Olivia Ruiz Barbera IF",
-      "athlete_dob": "24/04/2009",
-      "athlete_id": "CL3439",
-      "discipline": "1000 metres llisos",
-      "performance": "03.33",
-      "wind": null,
-      "internal_id": 1018
-    },
-    {
-      "event_name": "Campionat Territorial Sub10, Sub12, Sub14 i Sub16",
-      "event_date": "04/06/2022",
-      "event_location": "Reus",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2022/06/resultat-20220604-cnatterritorialpromocioreus.pdf",
-      "athlete_name": "7 234 (t) Olivia Ruiz Barbera IF",
-      "athlete_dob": "24/04/2009",
-      "athlete_id": "CL3439",
-      "discipline": "600 metres llisos",
-      "performance": "57.13",
       "wind": null,
       "internal_id": 1018
     },

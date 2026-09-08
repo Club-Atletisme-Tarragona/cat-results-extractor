@@ -2,7 +2,7 @@
   "event_name": " - Sabadell (Pista Coberta de Catalunya), 29 enero 2017",
   "event_date": "29/01/2017",
   "event_location": "Sabadell",
-  "total_results": 4,
+  "total_results": 2,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20170129-catclubsveteranspc.pdf",
   "results": [
     {
@@ -16,16 +16,6 @@
       "internal_id": 405
     },
     {
-      "athlete_name": "7 74 (t) Fernando Flores Montes M-45 7",
-      "athlete_dob": "17/06/1969",
-      "athlete_id": "CL15201",
-      "performance": "42.38",
-      "discipline": "1500 metres llisos",
-      "raw_discipline_name": "1.500m MASC. PC",
-      "wind": null,
-      "internal_id": 4
-    },
-    {
       "athlete_name": "4 74 Pere Pardines Gras M-50",
       "athlete_dob": "30/01/1965",
       "athlete_id": "CT9121",
@@ -34,16 +24,6 @@
       "raw_discipline_name": "Altura MASC. PC",
       "wind": null,
       "internal_id": 71
-    },
-    {
-      "athlete_name": "3 56 (t) Pilar Fernandez Carranza W-45 4",
-      "athlete_dob": "15/02/1967",
-      "athlete_id": "CL22384",
-      "performance": "18.42",
-      "discipline": "400 metres llisos",
-      "raw_discipline_name": "400m FEM. PC",
-      "wind": null,
-      "internal_id": 398
     }
   ]
 }

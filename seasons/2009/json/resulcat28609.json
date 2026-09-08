@@ -3,7 +3,7 @@
   "event_date": "28/6/2009",
   "event_location": "Barcelona",
   "event_src": "http://old.fcatletisme.cat/Veterans/veterans2009/resulcat28609.pdf",
-  "total_results": 32,
+  "total_results": 35,
   "results": [
     {
       "athlete_name": "GARCIA NAVARRETE JOSE FRANCISCO",
@@ -316,14 +316,44 @@
       "internal_id": 304
     },
     {
-      "athlete_name": "MARTIN PARDINES IBORRA FLORES",
+      "athlete_name": "MARTIN ALVAREZ JOSE MIGUEL",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "4x100",
+      "discipline": "Martell (7.260 Kg)",
       "raw_discipline_name": "LLANÇAMENT DE MARTELL PESAT MASCULÍ",
       "performance": "48.61",
       "wind": null,
-      "internal_id": null
+      "internal_id": 305
+    },
+    {
+      "athlete_name": "PARDINES GRAS PERE",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "Martell (7.260 Kg)",
+      "raw_discipline_name": "LLANÇAMENT DE MARTELL PESAT MASCULÍ",
+      "performance": "48.61",
+      "wind": null,
+      "internal_id": 306
+    },
+    {
+      "athlete_name": "IBORRA MARTINEZ FRANCISCO JOSE",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "Martell (7.260 Kg)",
+      "raw_discipline_name": "LLANÇAMENT DE MARTELL PESAT MASCULÍ",
+      "performance": "48.61",
+      "wind": null,
+      "internal_id": 307
+    },
+    {
+      "athlete_name": "FLORES MONTES FERNANDO",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "Martell (7.260 Kg)",
+      "raw_discipline_name": "LLANÇAMENT DE MARTELL PESAT MASCULÍ",
+      "performance": "48.61",
+      "wind": null,
+      "internal_id": 308
     }
   ]
 }

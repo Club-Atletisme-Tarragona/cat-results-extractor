@@ -1,19 +1,79 @@
 {
   "event_name": "CAMPIONAT DE CATALUNYA DE CLUBS VETERANS 2009 - LLEIDA - 7 DE JUNY",
   "event_date": "7/6/2009",
-  "event_location": "Barcelona",
+  "event_location": "Lleida",
   "event_src": "http://old.fcatletisme.cat/Veterans/veterans2009/resulcatclubs7609.pdf",
   "total_results": 30,
   "results": [
     {
-      "athlete_name": "PERE PARDINES GRAS",
+      "athlete_name": "FRANCISCO J. IBORRA MARTINEZ",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "Alçada",
-      "raw_discipline_name": "ALÇADA MASCULÍ",
-      "performance": "2.13",
+      "discipline": "100 metres llisos",
+      "raw_discipline_name": "100 M.LL. MASCULÍ",
+      "performance": "12.49",
       "wind": null,
-      "internal_id": 71
+      "internal_id": 1
+    },
+    {
+      "athlete_name": "JOSE M. MARTIN ALVAREZ",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "200 metres llisos",
+      "raw_discipline_name": "200 M.LL. MASCULÍ",
+      "performance": "23.90",
+      "wind": null,
+      "internal_id": 2
+    },
+    {
+      "athlete_name": "NARCIS ROS CAMPAS",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "400 metres llisos",
+      "raw_discipline_name": "400 M.LL. MASCULÍ",
+      "performance": "1:02.51",
+      "wind": null,
+      "internal_id": 3
+    },
+    {
+      "athlete_name": "JOSE FCO. GARCIA NAVARRETE",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "800 metres llisos",
+      "raw_discipline_name": "800 M.LL. MASCULÍ",
+      "performance": "2:19.68",
+      "wind": null,
+      "internal_id": 4
+    },
+    {
+      "athlete_name": "EMILI BARBERAN DE MIQUEL",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "1500 metres llisos",
+      "raw_discipline_name": "1500 M.LL. MASCULÍ",
+      "performance": "5:19.39",
+      "wind": null,
+      "internal_id": 5
+    },
+    {
+      "athlete_name": "JAUME SANCHIS CUGAT",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "3000 metres llisos",
+      "raw_discipline_name": "3000 M.LL. MASCULÍ",
+      "performance": "12:13.28",
+      "wind": null,
+      "internal_id": 6
+    },
+    {
+      "athlete_name": "FERNANDO FLORES MONTES",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "400 metres tanques (0.914)",
+      "raw_discipline_name": "TANQUES LLARGUES MASCULÍ",
+      "performance": "1:07.98",
+      "wind": null,
+      "internal_id": 7
     },
     {
       "athlete_name": "PERE PARDINES GRAS",
@@ -23,27 +83,7 @@
       "raw_discipline_name": "ALÇADA MASCULÍ",
       "performance": "1.65",
       "wind": null,
-      "internal_id": 71
-    },
-    {
-      "athlete_name": "PERE PARDINES GRAS",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "discipline": "Alçada",
-      "raw_discipline_name": "ALÇADA MASCULÍ",
-      "performance": "77.46",
-      "wind": null,
-      "internal_id": 71
-    },
-    {
-      "athlete_name": "LUIS SAEZ PEREZ",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "discipline": "Llargada",
-      "raw_discipline_name": "LLARGADA MASCULÍ",
-      "performance": "6.21",
-      "wind": null,
-      "internal_id": 304
+      "internal_id": 8
     },
     {
       "athlete_name": "LUIS SAEZ PEREZ",
@@ -53,7 +93,7 @@
       "raw_discipline_name": "LLARGADA MASCULÍ",
       "performance": "4.18",
       "wind": null,
-      "internal_id": 304
+      "internal_id": 9
     },
     {
       "athlete_name": "LUIS SAEZ PEREZ",
@@ -63,7 +103,7 @@
       "raw_discipline_name": "LLARGADA MASCULÍ",
       "performance": "4.40",
       "wind": null,
-      "internal_id": 304
+      "internal_id": 10
     },
     {
       "athlete_name": "LUIS SAEZ PEREZ",
@@ -73,7 +113,7 @@
       "raw_discipline_name": "LLARGADA MASCULÍ",
       "performance": "4.51",
       "wind": null,
-      "internal_id": 304
+      "internal_id": 11
     },
     {
       "athlete_name": "LUIS SAEZ PEREZ",
@@ -83,7 +123,7 @@
       "raw_discipline_name": "LLARGADA MASCULÍ",
       "performance": "4.38",
       "wind": null,
-      "internal_id": 304
+      "internal_id": 12
     },
     {
       "athlete_name": "LUIS SAEZ PEREZ",
@@ -93,7 +133,7 @@
       "raw_discipline_name": "LLARGADA MASCULÍ",
       "performance": "4.48",
       "wind": null,
-      "internal_id": 304
+      "internal_id": 13
     },
     {
       "athlete_name": "LUIS SAEZ PEREZ",
@@ -103,27 +143,7 @@
       "raw_discipline_name": "LLARGADA MASCULÍ",
       "performance": "4.59",
       "wind": null,
-      "internal_id": 304
-    },
-    {
-      "athlete_name": "LUIS SAEZ PEREZ",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "discipline": "Llargada",
-      "raw_discipline_name": "LLARGADA MASCULÍ",
-      "performance": "73.91",
-      "wind": null,
-      "internal_id": 304
-    },
-    {
-      "athlete_name": "JOAN DOMINGO ROMERO",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "discipline": "Disc (2 Kg)",
-      "raw_discipline_name": "DISC MASCULÍ",
-      "performance": "71.97",
-      "wind": null,
-      "internal_id": 6
+      "internal_id": 14
     },
     {
       "athlete_name": "JOAN DOMINGO ROMERO",
@@ -133,7 +153,7 @@
       "raw_discipline_name": "DISC MASCULÍ",
       "performance": "17.27",
       "wind": null,
-      "internal_id": 6
+      "internal_id": 15
     },
     {
       "athlete_name": "JOAN DOMINGO ROMERO",
@@ -143,7 +163,7 @@
       "raw_discipline_name": "DISC MASCULÍ",
       "performance": "17.19",
       "wind": null,
-      "internal_id": 6
+      "internal_id": 16
     },
     {
       "athlete_name": "JOAN DOMINGO ROMERO",
@@ -153,7 +173,7 @@
       "raw_discipline_name": "DISC MASCULÍ",
       "performance": "19.01",
       "wind": null,
-      "internal_id": 6
+      "internal_id": 17
     },
     {
       "athlete_name": "JOAN DOMINGO ROMERO",
@@ -163,27 +183,7 @@
       "raw_discipline_name": "DISC MASCULÍ",
       "performance": "19.89",
       "wind": null,
-      "internal_id": 6
-    },
-    {
-      "athlete_name": "JOAN DOMINGO ROMERO",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "discipline": "Disc (2 Kg)",
-      "raw_discipline_name": "DISC MASCULÍ",
-      "performance": "27.64",
-      "wind": null,
-      "internal_id": 6
-    },
-    {
-      "athlete_name": "AMADEO SRRES CASMITJANA",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "JAVELINA MASCULÍ",
-      "performance": "67.27",
-      "wind": null,
-      "internal_id": 67
+      "internal_id": 18
     },
     {
       "athlete_name": "AMADEO SRRES CASMITJANA",
@@ -193,7 +193,7 @@
       "raw_discipline_name": "JAVELINA MASCULÍ",
       "performance": "23.51",
       "wind": null,
-      "internal_id": 67
+      "internal_id": 19
     },
     {
       "athlete_name": "AMADEO SRRES CASMITJANA",
@@ -203,7 +203,7 @@
       "raw_discipline_name": "JAVELINA MASCULÍ",
       "performance": "18.50",
       "wind": null,
-      "internal_id": 67
+      "internal_id": 20
     },
     {
       "athlete_name": "AMADEO SRRES CASMITJANA",
@@ -213,7 +213,7 @@
       "raw_discipline_name": "JAVELINA MASCULÍ",
       "performance": "18.92",
       "wind": null,
-      "internal_id": 67
+      "internal_id": 21
     },
     {
       "athlete_name": "AMADEO SRRES CASMITJANA",
@@ -223,87 +223,87 @@
       "raw_discipline_name": "JAVELINA MASCULÍ",
       "performance": "19.42",
       "wind": null,
-      "internal_id": 67
+      "internal_id": 22
     },
     {
-      "athlete_name": "AMADEO SRRES CASMITJANA",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "JAVELINA MASCULÍ",
-      "performance": "34.95",
-      "wind": null,
-      "internal_id": 67
-    },
-    {
-      "athlete_name": "IBORRA MARTIN PARDINES FLORES",
+      "athlete_name": "FRANCISCO J. IBORRA MARTINEZ",
       "athlete_dob": "",
       "athlete_id": "",
       "discipline": "4x100",
-      "raw_discipline_name": "JAVELINA MASCULÍ",
-      "performance": "10.26",
-      "wind": null,
-      "internal_id": null
-    },
-    {
-      "athlete_name": "IBORRA MARTIN PARDINES FLORES",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "discipline": "4x100",
-      "raw_discipline_name": "JAVELINA MASCULÍ",
+      "raw_discipline_name": "4x100 MASCULÍ",
       "performance": "48.76",
       "wind": null,
-      "internal_id": null
+      "internal_id": 23
     },
     {
-      "athlete_name": "IBORRA MARTIN PARDINES FLORES",
+      "athlete_name": "JOSE M. MARTIN ALVAREZ",
       "athlete_dob": "",
       "athlete_id": "",
       "discipline": "4x100",
-      "raw_discipline_name": "JAVELINA MASCULÍ",
-      "performance": "12.19",
+      "raw_discipline_name": "4x100 MASCULÍ",
+      "performance": "48.76",
       "wind": null,
-      "internal_id": null
+      "internal_id": 24
     },
     {
-      "athlete_name": "ROS SANCHIS GARCIA DOMINGO",
+      "athlete_name": "PERE PARDINES GRAS",
       "athlete_dob": "",
       "athlete_id": "",
       "discipline": "4x100",
-      "raw_discipline_name": "JAVELINA MASCULÍ",
-      "performance": "48.85",
+      "raw_discipline_name": "4x100 MASCULÍ",
+      "performance": "48.76",
       "wind": null,
-      "internal_id": null
+      "internal_id": 25
     },
     {
-      "athlete_name": "ROS SANCHIS GARCIA DOMINGO",
+      "athlete_name": "FERNANDO FLORES MONTES",
       "athlete_dob": "",
       "athlete_id": "",
       "discipline": "4x100",
-      "raw_discipline_name": "JAVELINA MASCULÍ",
-      "performance": "39.16",
+      "raw_discipline_name": "4x100 MASCULÍ",
+      "performance": "48.76",
       "wind": null,
-      "internal_id": null
+      "internal_id": 26
     },
     {
-      "athlete_name": "ROS SANCHIS GARCIA DOMINGO",
+      "athlete_name": "NARCIS ROS CAMPAS",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "4x100",
-      "raw_discipline_name": "JAVELINA MASCULÍ",
-      "performance": "69.79",
+      "discipline": "4x400",
+      "raw_discipline_name": "4x400 MASCULÍ",
+      "performance": "4:39.16",
       "wind": null,
-      "internal_id": null
+      "internal_id": 27
     },
     {
-      "athlete_name": "ROS SANCHIS GARCIA DOMINGO",
+      "athlete_name": "JAUME SANCHIS CUGAT",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "4x100",
-      "raw_discipline_name": "JAVELINA MASCULÍ",
-      "performance": "70.00",
+      "discipline": "4x400",
+      "raw_discipline_name": "4x400 MASCULÍ",
+      "performance": "4:39.16",
       "wind": null,
-      "internal_id": null
+      "internal_id": 28
+    },
+    {
+      "athlete_name": "JOSE FCO. GARCIA NAVARRETE",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "4x400",
+      "raw_discipline_name": "4x400 MASCULÍ",
+      "performance": "4:39.16",
+      "wind": null,
+      "internal_id": 29
+    },
+    {
+      "athlete_name": "JOAN DOMINGO ROMERO",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "4x400",
+      "raw_discipline_name": "4x400 MASCULÍ",
+      "performance": "4:39.16",
+      "wind": null,
+      "internal_id": 30
     }
   ]
 }

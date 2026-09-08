@@ -5,25 +5,27 @@ Heights/weights follow the FCA *Proves autoritzades* tables (stable for the 2005
 combined events resolved per athlete from the PDF birth-year column.
 
 - files: 34
-- results: 313
-- mapped: 313
+- results: 326
+- mapped: 326
 - review (left unchanged): 0
 
 | count | raw discipline | official discipline |
 |---:|---|---|
-| 33 | `SALT DE LLARGADA MASCULÍ` | `Llargada` |
+| 34 | `SALT DE LLARGADA MASCULÍ` | `Llargada` |
 | 18 | `LLANÇAMENT DE PES` | `Pes (7.260 Kg)` |
 | 13 | `LLANÇAMENT DE JAVELINA` | `Javelina (700 g)` |
 | 12 | `LLARGADA Absolut Masculí` | `Llargada` |
 | 8 | `LLANÇAMENT DE PES` | `Pes (4 Kg)` |
+| 8 | `SALT D'ALÇADA MASCULÍ` | `Alçada` |
 | 7 | `60 METRES LLISOS` | `60 metres llisos` |
+| 7 | `60 METRES LLISOS MASCULINS` | `60 metres llisos` |
+| 7 | `LLANÇAMENT DE PES MASCULÍ` | `Pes (7.260 Kg)` |
 | 7 | `PROVA         JAVELINA M.` | `Javelina (800 g)` |
 | 7 | `Pes Absolut                               7,260 kg` | `Pes (7.260 Kg)` |
 | 7 | `Pes Júnior                                6 kg` | `Pes (6 Kg)` |
 | 7 | `SALT DE LLARGADA FEMENÍ` | `Llargada` |
 | 7 | `SALT DE LLARGADA MASCULI` | `Llargada` |
 | 6 | `100 METRES LLISOS` | `100 metres llisos` |
-| 6 | `60 METRES LLISOS MASCULINS` | `60 metres llisos` |
 | 6 | `60 METRES LLISOS MASCULÍ` | `60 metres llisos` |
 | 6 | `60 METRES TANQUES MASCULINS` | `60 metres tanques (1.067)` |
 | 6 | `800 METRES LLISOS MASCULINS` | `800 metres llisos` |
@@ -31,68 +33,67 @@ combined events resolved per athlete from the PDF birth-year column.
 | 6 | `LLANÇAMENT DE DISC` | `Disc (2 Kg)` |
 | 6 | `LLANÇAMENT DE PES` | `Pes (3 Kg)` |
 | 6 | `LLANÇAMENT DE PES JUNIOR MASCULÍ` | `Pes (6 Kg)` |
-| 6 | `LLANÇAMENT DE PES MASCULÍ` | `Pes (7.260 Kg)` |
 | 6 | `PROVA        Salt de Llargada M` | `Llargada` |
+| 6 | `TRIPLE SALT MASCULÍ` | `Triple` |
 | 5 | `Disc Júnior                                1,750 kg` | `Disc (1,750)` |
-| 5 | `TRIPLE SALT MASCULÍ` | `Triple` |
 | 4 | `1500 METRES LLISOS MASCULINS` | `1500 metres llisos` |
 | 4 | `400 METRES LLISOS MASCULINS` | `400 metres llisos` |
 | 4 | `60 METRES LLISOS FEMENINS` | `60 metres llisos` |
 | 4 | `LLANÇAMENT DE MARTELL` | `Martell (3 Kg)` |
 | 4 | `LLANÇAMENT DE PES` | `Pes (5 Kg)` |
+| 4 | `RELLEUS 4 X 200 MASCULINS` | `4x200` |
+| 4 | `SALT AMB PERXA MASCULÍ` | `Perxa` |
 | 3 | `1000 METRES LLISOS MASCULINS` | `1000 metres llisos` |
 | 3 | `200 METRES LLISOS MASCULINS` | `200 metres llisos` |
 | 3 | `3000 METRES LLISOS MASCULINS` | `3000 metres llisos` |
 | 3 | `60 METRES TANQUES VETERANS MASCULINS (1,00 m.)` | `60 metres tanques (0.99)` |
 | 3 | `Disc Absolut                               2 kg` | `Disc (2 Kg)` |
 | 3 | `Javelina Júnior                          700 g` | `Javelina (700 g)` |
-| 3 | `LLANÇAMENT DE JAVELINA` | `4x400` |
 | 3 | `LLANÇAMENT DE JAVELINA` | `Javelina (600 g)` |
 | 3 | `LLANÇAMENT DE JAVELINA MASCULÍ` | `Javelina (800 g)` |
 | 3 | `LLANÇAMENT DE PES` | `Pes (6 Kg)` |
 | 3 | `Llargada Benjamí Femení` | `Llargada` |
-| 3 | `SALT D'ALÇADA MASCULÍ` | `Alçada` |
 | 2 | `100 METRES TANQUES` | `100 metres tanques (0.91)` |
 | 2 | `200 METRES LLISOS` | `200 metres llisos` |
 | 2 | `200 METRES LLISOS FEMENINS` | `200 metres llisos` |
-| 2 | `2000 metres marxa Aleví Femení` | `2000 metres marxa` |
 | 2 | `300 METRES LLISOS MASCULÍ` | `300 metres llisos` |
-| 2 | `3000 METRES OBSTACLES MASCULINS` | `3000 metres obstacles` |
-| 2 | `400 METRES TANQUES` | `400 metres tanques (0.914)` |
-| 2 | `5000 METRES MARXA` | `5000 metres marxa` |
+| 2 | `3000 METRES OBSTACLES MASCULINS` | `3000 metres llisos` |
 | 2 | `60 METRES TANQUES` | `60 metres tanques (1.067)` |
 | 2 | `60 METRES TANQUES CADETS MASCULINS` | `60 metres tanques (0.91)` |
 | 2 | `60 METRES TANQUES MASCULINS` | `60 metres tanques (0.99)` |
+| 2 | `60 m ll BF 2a serie` | `60 metres llisos` |
 | 2 | `LLANÇAMENT DE DISC JUNIOR MASCULÍ` | `Disc (1,750)` |
 | 2 | `LLANÇAMENT DE PES MASCULÍ` | `Pes (5 Kg)` |
 | 2 | `LLANÇAMENT DE PES MASCULÍ` | `Pes (6 Kg)` |
+| 2 | `Pilota Aleví Femení` | `Pilota` |
 | 1 | `100 METRES LLISOS MASCULINS` | `100 metres llisos` |
-| 1 | `100 METRES TANQUES` | `100 metres tanques (0.84)` |
 | 1 | `100 METRES TANQUES JUNIOR-PROMESA FEMENÍ` | `100 metres tanques (0.84)` |
+| 1 | `100 metres tanques Cadet Masculí` | `100 metres tanques (0.91)` |
 | 1 | `1000 METRES LLISOS JUNIORS MASCULINS` | `1000 metres llisos` |
 | 1 | `1000 metres llisos Benjamí Femení` | `1000 metres llisos` |
 | 1 | `110 METRES TANQUES                                                                                     VENT:-3,3` | `110 metres tanques (0.99)` |
 | 1 | `110 METRES TANQUES JUNIOR MASCULINS` | `110 metres tanques (0.99)` |
 | 1 | `110 METRES TANQUES MASCULINS` | `110 metres tanques (0.99)` |
-| 1 | `1500 METRES LLISOS` | `1500 metres llisos` |
 | 1 | `3000 METRES LLISOS` | `3000 metres llisos` |
-| 1 | `400 METRES LLISOS` | `400 metres llisos` |
+| 1 | `400 METRES TANQUES` | `400 metres tanques (0.914)` |
+| 1 | `5000 METRES MARXA` | `5000 metres marxa` |
 | 1 | `60 METRES LLISOS CADET MASCULINS` | `60 metres llisos` |
 | 1 | `60 METRES TANQUES` | `60 metres tanques (0.99)` |
-| 1 | `60 METRES TANQUES` | `60 metres tanques (0.84)` |
-| 1 | `60 METRES TANQUES` | `60 metres tanques (0.76)` |
 | 1 | `60 METRES TANQUES CADET MASCULINS` | `60 metres tanques (0.91)` |
 | 1 | `60 METRES TANQUES JUNIOR MASCULINS` | `60 metres tanques (0.99)` |
 | 1 | `60 METRES TANQUES MASCULINS` | `60 metres tanques (0.91)` |
+| 1 | `60 m ll AF 2a serie` | `60 metres llisos` |
+| 1 | `60 m ll AF 3a serie` | `60 metres llisos` |
+| 1 | `60 m ll BF 1a serie` | `60 metres llisos` |
+| 1 | `600 m ll Cadet Masculí` | `600 metres llisos` |
 | 1 | `600 metres llisos Aleví Femení                   1ª Serie` | `600 metres llisos` |
 | 1 | `800 metres llisos Masculí                                              1a. SÈRIE` | `800 metres llisos` |
 | 1 | `CLASSIFICACIÓ PROVES COMBINADES` | `Decatló (sub20)` |
 | 1 | `CLASSIFICACIÓ PROVES COMBINADES` | `Heptatlo` |
 | 1 | `CLASSIFICACIÓ PROVES COMBINADES` | `Heptatló (S20)` |
 | 1 | `LLANÇAMENT DE JAVELINA` | `4x100` |
+| 1 | `LLANÇAMENT DE JAVELINA` | `4x400` |
 | 1 | `Martell Cadet Femení` | `Martell (3 Kg)` |
-| 1 | `SALT AMB PERXA MASCULÍ` | `Perxa` |
-| 1 | `Salt de Llargada Aleví Femení` | `Llargada` |
 
 ## Suspect entries (re-extraction recommended before DB import)
 

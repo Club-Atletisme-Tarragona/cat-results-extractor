@@ -3,7 +3,7 @@
   "event_date": "2/2/2008",
   "event_location": "Vilafranca",
   "event_src": "http://old.fcatletisme.cat/Veterans/veterans2008/resulcatveteranscombipc2208.pdf",
-  "total_results": 14,
+  "total_results": 16,
   "results": [
     {
       "athlete_name": "MARTIN ALVAREZ JOSE MIGUEL",
@@ -144,6 +144,26 @@
       "performance": "7.54",
       "wind": null,
       "internal_id": 71
+    },
+    {
+      "athlete_name": "MARTIN ALVAREZ JOSE MIGUEL",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "Alçada",
+      "raw_discipline_name": "SALT D'ALÇADA MASCULÍ",
+      "performance": "1.70",
+      "wind": null,
+      "internal_id": 72
+    },
+    {
+      "athlete_name": "PARDINES GRAS PERE",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "Alçada",
+      "raw_discipline_name": "SALT D'ALÇADA MASCULÍ",
+      "performance": "1.64",
+      "wind": null,
+      "internal_id": 73
     }
   ]
 }

@@ -3,14 +3,14 @@
   "event_date": "27/9/2008",
   "event_location": "Tarragona",
   "event_src": "http://old.fcatletisme.cat/Promocio/promocio2008/resultrofeupromocio27908.pdf",
-  "total_results": 6,
+  "total_results": 13,
   "results": [
     {
       "athlete_name": "INGRID IBORRA",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "2000 metres marxa",
-      "raw_discipline_name": "2000 metres marxa Aleví Femení",
+      "discipline": "Pilota",
+      "raw_discipline_name": "Pilota Aleví Femení",
       "performance": "13.67",
       "wind": null,
       "internal_id": null
@@ -19,8 +19,8 @@
       "athlete_name": "ANDREA LÓPEZ",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "2000 metres marxa",
-      "raw_discipline_name": "2000 metres marxa Aleví Femení",
+      "discipline": "Pilota",
+      "raw_discipline_name": "Pilota Aleví Femení",
       "performance": "9.70",
       "wind": null,
       "internal_id": 437
@@ -64,6 +64,76 @@
       "performance": "28.67",
       "wind": null,
       "internal_id": 310
+    },
+    {
+      "athlete_name": "MIREIA LÓPEZ",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "60 metres llisos",
+      "raw_discipline_name": "60 m ll BF 1a serie",
+      "performance": "10.0",
+      "wind": null,
+      "internal_id": 528
+    },
+    {
+      "athlete_name": "EMMA IBORRA",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "60 metres llisos",
+      "raw_discipline_name": "60 m ll BF 2a serie",
+      "performance": "11.8",
+      "wind": null,
+      "internal_id": 529
+    },
+    {
+      "athlete_name": "MARINA FLORES",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "60 metres llisos",
+      "raw_discipline_name": "60 m ll BF 2a serie",
+      "performance": "12.1",
+      "wind": null,
+      "internal_id": 530
+    },
+    {
+      "athlete_name": "ANDREA LÓPEZ",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "60 metres llisos",
+      "raw_discipline_name": "60 m ll AF 2a serie",
+      "performance": "10.8",
+      "wind": null,
+      "internal_id": 531
+    },
+    {
+      "athlete_name": "INGRID IBORRA",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "60 metres llisos",
+      "raw_discipline_name": "60 m ll AF 3a serie",
+      "performance": "11.0",
+      "wind": null,
+      "internal_id": 532
+    },
+    {
+      "athlete_name": "XAVIER JULBE",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "600 metres llisos",
+      "raw_discipline_name": "600 m ll Cadet Masculí",
+      "performance": "1:38.0",
+      "wind": null,
+      "internal_id": 533
+    },
+    {
+      "athlete_name": "MARC JOSÉ",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "100 metres tanques (0.91)",
+      "raw_discipline_name": "100 metres tanques Cadet Masculí",
+      "performance": "13.6",
+      "wind": "+0.6",
+      "internal_id": 534
     }
   ]
 }

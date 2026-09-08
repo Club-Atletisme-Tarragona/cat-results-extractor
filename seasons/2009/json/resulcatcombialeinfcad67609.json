@@ -3,7 +3,7 @@
   "event_date": "07/06/2009",
   "event_location": "Cornellà",
   "event_src": "http://old.fcatletisme.cat/Promocio/promocio2009/resulcatcombialeinfcad67609.pdf",
-  "total_results": 6,
+  "total_results": 9,
   "results": [
     {
       "athlete_name": "PEDESCOLL MONTSERRAT",
@@ -26,7 +26,7 @@
       "internal_id": 313
     },
     {
-      "athlete_name": "MONTSERR GUINOVART PEDESCOLL",
+      "athlete_name": "MONTSERRAT GUINOVART PEDESCOLL",
       "athlete_dob": "",
       "athlete_id": "",
       "discipline": "Pes (3 Kg)",
@@ -36,7 +36,7 @@
       "internal_id": 313
     },
     {
-      "athlete_name": "MONTSERR GUINOVART PEDESCOLL",
+      "athlete_name": "MONTSERRAT GUINOVART PEDESCOLL",
       "athlete_dob": "",
       "athlete_id": "",
       "discipline": "Pes (3 Kg)",
@@ -64,6 +64,36 @@
       "performance": "18.17",
       "wind": null,
       "internal_id": 313
+    },
+    {
+      "athlete_name": "MONTSERRAT GUINOVART PEDESCOLL",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "100 metres tanques (0.762)",
+      "raw_discipline_name": "100 METRES TANQUES CADET FEMENÍ",
+      "performance": "17.4",
+      "wind": null,
+      "internal_id": 314
+    },
+    {
+      "athlete_name": "MONTSERRAT GUINOVART PEDESCOLL",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "100 metres llisos",
+      "raw_discipline_name": "100 METRES LLISOS CADET FEMENÍ",
+      "performance": "13.4",
+      "wind": null,
+      "internal_id": 315
+    },
+    {
+      "athlete_name": "NURIA TORREDEME PASCUAL",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "100 metres tanques (0.762)",
+      "raw_discipline_name": "100 METRES TANQUES CADET FEMENÍ",
+      "performance": "17.9",
+      "wind": null,
+      "internal_id": 316
     }
   ]
 }

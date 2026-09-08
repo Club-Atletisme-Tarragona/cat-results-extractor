@@ -3,7 +3,7 @@
   "event_date": "18/10/2009",
   "event_location": "Penedès",
   "event_src": "http://old.fcatletisme.cat/Pcoberta/pcoberta2009/resulcatclubsb18109.pdf",
-  "total_results": 20,
+  "total_results": 24,
   "results": [
     {
       "athlete_name": "JOSE DIAZ MARC",
@@ -204,6 +204,46 @@
       "performance": "10.72",
       "wind": null,
       "internal_id": 133
+    },
+    {
+      "athlete_name": "JOSE DIAZ MARC",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "4x200",
+      "raw_discipline_name": "RELLEUS 4 X 200 MASCULINS",
+      "performance": "1:37.34",
+      "wind": null,
+      "internal_id": 295
+    },
+    {
+      "athlete_name": "MARTIN ALVAREZ JOSE MIGUEL",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "4x200",
+      "raw_discipline_name": "RELLEUS 4 X 200 MASCULINS",
+      "performance": "1:37.34",
+      "wind": null,
+      "internal_id": 296
+    },
+    {
+      "athlete_name": "TORTOSA PRADILLO FERRAN",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "4x200",
+      "raw_discipline_name": "RELLEUS 4 X 200 MASCULINS",
+      "performance": "1:37.34",
+      "wind": null,
+      "internal_id": 297
+    },
+    {
+      "athlete_name": "MELLAKHI FAROUK",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "4x200",
+      "raw_discipline_name": "RELLEUS 4 X 200 MASCULINS",
+      "performance": "1:37.34",
+      "wind": null,
+      "internal_id": 298
     }
   ]
 }

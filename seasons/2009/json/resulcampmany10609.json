@@ -3,7 +3,7 @@
   "event_date": "10/6/2009",
   "event_location": "Barcelona",
   "event_src": "http://old.fcatletisme.cat/Pairelliure/pairelliure2009/resulcampmany10609.pdf",
-  "total_results": 5,
+  "total_results": 7,
   "results": [
     {
       "athlete_name": "PARDINES GRAS PERE",
@@ -54,6 +54,26 @@
       "performance": "32.22",
       "wind": null,
       "internal_id": 319
+    },
+    {
+      "athlete_name": "MARC JOSE DIAZ",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "100 metres llisos",
+      "raw_discipline_name": "100 METRES LLISOS MASCULINS",
+      "performance": "11.69",
+      "wind": "+0.6",
+      "internal_id": 320
+    },
+    {
+      "athlete_name": "IBORRA MARTINEZ FRANCISCO JOSE",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "110 metres tanques (0.99)",
+      "raw_discipline_name": "110 METRES TANQUES JUNIORS MASCULINS",
+      "performance": "18.04",
+      "wind": null,
+      "internal_id": 321
     }
   ]
 }

@@ -3,7 +3,7 @@
   "event_date": "01/03/2009",
   "event_location": "Penedès",
   "event_src": "http://old.fcatletisme.cat/Pcoberta/pcoberta2009/resulcatcombijuvenilpc2821309.pdf",
-  "total_results": 8,
+  "total_results": 9,
   "results": [
     {
       "athlete_name": "JOSE DIAZ MARC",
@@ -84,6 +84,16 @@
       "performance": "1.59",
       "wind": null,
       "internal_id": 294
+    },
+    {
+      "athlete_name": "JOSE DIAZ MARC",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "Perxa",
+      "raw_discipline_name": "SALT AMB PERXA JUVENIL MASCULÍ",
+      "performance": "N.P.",
+      "wind": null,
+      "internal_id": 295
     }
   ]
 }

@@ -3,7 +3,7 @@
   "event_date": "13/01/2008",
   "event_location": "Penedès",
   "event_src": "http://old.fcatletisme.cat/Pcoberta/pcoberta2008/resulcatcombinadespc1213108.pdf",
-  "total_results": 18,
+  "total_results": 22,
   "results": [
     {
       "athlete_name": "DIDAC RIOS MESEGUER",
@@ -184,6 +184,46 @@
       "performance": "8.14",
       "wind": null,
       "internal_id": 216
+    },
+    {
+      "athlete_name": "DIDAC RIOS MESEGUER",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "Alçada",
+      "raw_discipline_name": "SALT D'ALÇADA MASCULÍ",
+      "performance": "1.64",
+      "wind": null,
+      "internal_id": 217
+    },
+    {
+      "athlete_name": "AGUSTI ORIOL PASANO",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "Alçada",
+      "raw_discipline_name": "SALT D'ALÇADA MASCULÍ",
+      "performance": "1.58",
+      "wind": null,
+      "internal_id": 218
+    },
+    {
+      "athlete_name": "AGUSTI ORIOL PASANO",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "Perxa",
+      "raw_discipline_name": "SALT AMB PERXA MASCULÍ",
+      "performance": "2.90",
+      "wind": null,
+      "internal_id": 219
+    },
+    {
+      "athlete_name": "DIDAC RIOS MESEGUER",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "Perxa",
+      "raw_discipline_name": "SALT AMB PERXA MASCULÍ",
+      "performance": "2.90",
+      "wind": null,
+      "internal_id": 220
     }
   ]
 }

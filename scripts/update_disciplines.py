@@ -1446,6 +1446,11 @@ def map_discipline(raw: str, event_name: str, filename: str, athlete_name: str =
     if m:
         dist = int(m.group(1).replace(".", ""))
         return f"{dist} metres llisos", None
+    # Abbreviated flat: "100 M.LL. MASCULÍ" (veterans clubs format)
+    m = re.match(r"^(\d{1,2}(?:\.\d{3})?|\d{3,5})\s*M\.?\s*LL\.?\b", up)
+    if m and not re.search(r"\b(TANQU|OBST|MARXA|MARCHA)\b", up):
+        dist = int(m.group(1).replace(".", ""))
+        return f"{dist} metres llisos", None
 
     # Marxa (race walk) — before the bare-'m' rule ("2.000m Marxa MASC.")
     m = re.match(r"^(\d{1,2}(?:\.\d{3})?|\d{3,5}(?:\.\d{3})?)\s*(?:m\.?\s*)?(?:METRES\s+)?(?:MARXA|MARCHA)\b", up)
@@ -1492,6 +1497,9 @@ def map_discipline(raw: str, event_name: str, filename: str, athlete_name: str =
         return f"{dist} metres llisos", "CURSA meeting form"
 
     # Hurdles (tanques): "X METRES TANQUES" form
+    # "TANQUES LLARGUES" = long hurdles (400m); veterans M40 height 0.914
+    if re.match(r"^TANQUES LLARGUES\b", up):
+        return "400 metres tanques (0.914)", None
     m = re.match(r"^(\d{2,3})\s+METRES TANQUES\b", up)
     # Also match "Xm tanques" and "Xm vallas" forms
     if not m:
@@ -1537,7 +1545,7 @@ def map_discipline(raw: str, event_name: str, filename: str, athlete_name: str =
     # Jumps (full names, abbreviations and bare event words)
     if re.match(r"^SALT D'ALÇADA\b", up) or re.match(r"^(?:SALT )?ALÇADA\b", up) or re.match(r"^ALTURA\b", up):
         return "Alçada", None
-    if re.match(r"^SALT (?:DE )?LLARGADA\b", up) or re.match(r"^LLARGADA(FEM)?\b", up) or re.match(r"^LONGITUD\b", up):
+    if re.match(r"^SALT (?:DE )?LLARGADA\b", up) or re.match(r"^SALT DE LARGADA\b", up) or re.match(r"^LLARGADA(FEM)?\b", up) or re.match(r"^LONGITUD\b", up):
         return "Llargada", None
     if re.match(r"^SALT (AMB |DE )?PERXA\b", up) or re.match(r"^(PERXA|PÉRTIGA|PERTIGA)\b", up) or re.search(r"\bPERXA\b|\bPÉRTIGA\b|\bPERTIGA\b", up):
         return "Perxa", None

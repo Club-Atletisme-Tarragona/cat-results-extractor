@@ -2,7 +2,7 @@
   "athlete_name": "UNAI ORTIZ DE LANDAZURI ONTOSO",
   "athlete_id": "CAT-3754208",
   "athlete_dob": "28/5/2005",
-  "total_results": 137,
+  "total_results": 140,
   "name_variants_found": [
     "1 343 (t) Unai Ortiz De Landazuri Ontoso",
     "1 384 (t) Unai Ortiz De Landazuri Ontoso",
@@ -62,7 +62,7 @@
     "CL85057",
     "CT1640"
   ],
-  "source_files_count": 50,
+  "source_files_count": 51,
   "results": [
     {
       "event_name": "Control a càrrec del Comité de Jutges de la FCA.",
@@ -1842,6 +1842,45 @@
       "athlete_id": "",
       "discipline": "4x100m Hombres AL",
       "performance": "43.85",
+      "wind": null,
+      "internal_id": 908
+    },
+    {
+      "event_name": "",
+      "event_date": "",
+      "event_location": "Amposta",
+      "event_src": "http://old.fcatletisme.cat/Pairelliure/2016/resulcontrolterritamposta50316.pdf",
+      "athlete_name": "UNAI ORTIZ DE LANDAZURI ONTOSO",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "Llargada",
+      "performance": "2.41",
+      "wind": null,
+      "internal_id": 908
+    },
+    {
+      "event_name": "",
+      "event_date": "",
+      "event_location": "Amposta",
+      "event_src": "http://old.fcatletisme.cat/Pairelliure/2016/resulcontrolterritamposta50316.pdf",
+      "athlete_name": "UNAI ORTIZ DE LANDAZURI ONTOSO",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "Llargada",
+      "performance": "2.53",
+      "wind": null,
+      "internal_id": 908
+    },
+    {
+      "event_name": "",
+      "event_date": "",
+      "event_location": "Amposta",
+      "event_src": "http://old.fcatletisme.cat/Pairelliure/2016/resulcontrolterritamposta50316.pdf",
+      "athlete_name": "UNAI ORTIZ DE LANDAZURI ONTOSO",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "Llargada",
+      "performance": "2.59",
       "wind": null,
       "internal_id": 908
     }

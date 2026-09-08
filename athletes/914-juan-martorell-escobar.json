@@ -2,7 +2,7 @@
   "athlete_name": "JUAN MARTORELL ESCOBAR",
   "athlete_id": "CAT-3742962",
   "athlete_dob": "22/3/2007",
-  "total_results": 123,
+  "total_results": 125,
   "name_variants_found": [
     "10 137 (t) Joan Martorell Escobar IM",
     "10 283 (t) Joan Martorell Escobar IM",
@@ -53,7 +53,7 @@
     "CT1651",
     "CT1825"
   ],
-  "source_files_count": 45,
+  "source_files_count": 46,
   "results": [
     {
       "event_name": "TROFEU PROMOCIÓ NÀSTIC",
@@ -65,6 +65,32 @@
       "athlete_id": "",
       "discipline": "1000 metres marxa",
       "performance": "11.73",
+      "wind": null,
+      "internal_id": 914
+    },
+    {
+      "event_name": "",
+      "event_date": "30/05/2015",
+      "event_location": "Ascó",
+      "event_src": "http://old.fcatletisme.cat/Promocio/promocio2015/resulcontrolasco300515.pdf",
+      "athlete_name": "JOAN MARTORELL ESCOBAR",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "Llargada",
+      "performance": "2.03",
+      "wind": null,
+      "internal_id": 914
+    },
+    {
+      "event_name": "",
+      "event_date": "30/05/2015",
+      "event_location": "Ascó",
+      "event_src": "http://old.fcatletisme.cat/Promocio/promocio2015/resulcontrolasco300515.pdf",
+      "athlete_name": "JOAN MARTORELL ESCOBAR",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "Llargada",
+      "performance": "1.96",
       "wind": null,
       "internal_id": 914
     },

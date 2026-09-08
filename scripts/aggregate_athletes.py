@@ -538,6 +538,10 @@ TYPO_PREFERRED: dict[frozenset, str] = {
     frozenset({"LAURINEELI", "LAURINE"}): "LAURINE",
     frozenset({"FERNANDEZ", "FERNÁNDEZ", "FERNANDÉZ"}): "FERNANDEZ",
     frozenset({"ESTEBAN", "ESTEBÁN"}): "ESTEBAN",
+    frozenset({"FAROUK", "FRAOUK"}): "FAROUK",
+    frozenset({"RONDELAERE", "RONDELAER"}): "RONDELAERE",
+    frozenset({"SUBIROS", "SUBIRATS"}): "SUBIROS",
+    frozenset({"ONTOSO", "ONTONSO"}): "ONTOSO",
 }
 
 
@@ -579,6 +583,12 @@ NICKNAMES = {
     "MIQUEL": ["MIGUEL"],
     "JOAN": ["JUAN"],
     "JUAN": ["JOAN"],
+    "LUIS": ["LLUIS"],
+    "LLUIS": ["LUIS"],
+    "ANA": ["ANNA"],
+    "DANI": ["DANIEL"],
+    "MONTSERRAT": ["MONTSE", "MONSERRAT", "MONTSERR"],
+    "MONSERRAT": ["MONTSERRAT", "MONTSE"],
     "LUIS": ["LLOÏS"],
     "ALBERT": ["ALBERTO"],
     "ALBERTO": ["ALBERT"],

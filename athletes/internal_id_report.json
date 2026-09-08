@@ -1,47 +1,5 @@
 {
-  "conflicts": [
-    {
-      "athlete_name": "MONTSERRAT MONTANES ARBO",
-      "file": "athletes/montserrat-montanes-arbo.json",
-      "license_variants_found": [
-        "CL57989",
-        "CL58883",
-        "CL71723",
-        "CT19595",
-        "CT24566"
-      ],
-      "ids": {
-        "354": [
-          "MARIA MONTAÑES ARBÓ",
-          "MONTAÑES ARBO MARIA",
-          "maria montañes arbo",
-          "Maria Montañes Arbo",
-          "Montserrat Montañes"
-        ],
-        "497": [
-          "MONTAÑES ARBO MONTSERRAT",
-          "Montserrat Montañes Arbo CF q",
-          "Montserrat Montañes Arbo 1.5",
-          "MONSERRAT MONTAÑÉS ARBÓ",
-          "Montserrat Montañes Arbo Q",
-          "Montserrat Montañes Arbo",
-          "MONTSERRAT MONTAÑES ARBO",
-          "MONTAÑES ARBO",
-          "MONTSERRAT MONTAÑÉS ARBO",
-          "MONTSERRAT MONTAÑES ARBÓ",
-          "MONTAÑES ARBO MONTSE",
-          "MONTSE MONTAÑES ARBÓ AF",
-          "Montserrat Montañes Arbo q",
-          "Montserrat Montañes Arbo AF",
-          "MONTSERRAT MONTAÑÉS ARBÓ",
-          "MONTSE MONTAÑES ARBÓ",
-          "MONTAÑES ARBO MONTSERRAT CF",
-          "MONTSERRAT MONTAÑER ARBO",
-          "MONTSERRAT MONTANES ARBO"
-        ]
-      }
-    }
-  ],
+  "conflicts": [],
   "no_match": [
     {
       "athlete_name": "ABRIL AGUILERA GUILLEN",
@@ -263,15 +221,6 @@
       ]
     },
     {
-      "athlete_name": "ALEXANDRE GRAN BADIA",
-      "file": "athletes/alexandre-gran-badia.json",
-      "license_variants_found": [],
-      "variants_checked": [
-        "ALEXANDRE GRAN BADIA",
-        "GRAN BADIA ALEXANDRE"
-      ]
-    },
-    {
       "athlete_name": "ALFONSO MARTINEZ GUTIERREZ",
       "file": "athletes/alfonso-martinez-gutierrez.json",
       "license_variants_found": [
@@ -304,11 +253,33 @@
       ]
     },
     {
+      "athlete_name": "ANA BARBA MASIP",
+      "file": "athletes/ana-barba-masip.json",
+      "license_variants_found": [],
+      "variants_checked": [
+        "ANA BARBA MASIP",
+        "ANNA BARBA MASIP",
+        "ANNA BARBA MASIP BF"
+      ]
+    },
+    {
       "athlete_name": "ANA DELGADO PIZZO",
       "file": "athletes/ana-delgado-pizzo.json",
       "license_variants_found": [],
       "variants_checked": [
         "ANA DELGADO PIZZO"
+      ]
+    },
+    {
+      "athlete_name": "ANA JOVE PASQUAL",
+      "file": "athletes/ana-jove-pasqual.json",
+      "license_variants_found": [
+        "CL62278"
+      ],
+      "variants_checked": [
+        "ANA JOVE PASQUAL",
+        "ANNA JOVE PASQUAL",
+        "Anna Jove Pasqual 5"
       ]
     },
     {
@@ -398,26 +369,6 @@
       "variants_checked": [
         "ANJA JURADO SANCHEZ",
         "Anja JURADO SÁNCHEZ"
-      ]
-    },
-    {
-      "athlete_name": "ANNA BARBA MASIP",
-      "file": "athletes/anna-barba-masip.json",
-      "license_variants_found": [],
-      "variants_checked": [
-        "ANNA BARBA MASIP",
-        "ANNA BARBA MASIP BF"
-      ]
-    },
-    {
-      "athlete_name": "ANNA JOVE PASQUAL",
-      "file": "athletes/anna-jove-pasqual.json",
-      "license_variants_found": [
-        "CL62278"
-      ],
-      "variants_checked": [
-        "ANNA JOVE PASQUAL",
-        "Anna Jove Pasqual 5"
       ]
     },
     {
@@ -844,10 +795,11 @@
       ]
     },
     {
-      "athlete_name": "DANIEL PIERA MARTINEZ",
-      "file": "athletes/daniel-piera-martinez.json",
+      "athlete_name": "DANI PIERA MARTINEZ",
+      "file": "athletes/dani-piera-martinez.json",
       "license_variants_found": [],
       "variants_checked": [
+        "DANI PIERA MARTINEZ",
         "DANIEL PIERA MARTINEZ"
       ]
     },
@@ -1197,16 +1149,6 @@
       ]
     },
     {
-      "athlete_name": "ERIC GOMEZ SALADO",
-      "file": "athletes/eric-gomez-salado.json",
-      "license_variants_found": [],
-      "variants_checked": [
-        "ERIC GOMEZ SALADO",
-        "Eric Gomez Salado",
-        "GOMEZ SALADO ERIC BM"
-      ]
-    },
-    {
       "athlete_name": "ERIC GONZALEZ CLUA",
       "file": "athletes/eric-gonzalez-clua.json",
       "license_variants_found": [
@@ -1304,6 +1246,16 @@
       "variants_checked": [
         "FERNANDEZ CABELLO PRADILLO PINYOL",
         "FERNÁNDEZ CABELLO PRADILLO PINYOL"
+      ]
+    },
+    {
+      "athlete_name": "FERNANDEZ DIEZ MARÍA",
+      "file": "athletes/fernandez-diez-maria.json",
+      "license_variants_found": [],
+      "variants_checked": [
+        "FERNANDEZ DIEZ MARIA",
+        "FERNANDEZ DIEZ MARÍA",
+        "MARIA FERNANDEZ DIEZ"
       ]
     },
     {
@@ -1504,6 +1456,16 @@
       ]
     },
     {
+      "athlete_name": "GOMEZ SALADO ERIC",
+      "file": "athletes/gomez-salado-eric.json",
+      "license_variants_found": [],
+      "variants_checked": [
+        "Eric Gomez Salado",
+        "GOMEZ SALADO ERIC",
+        "GOMEZ SALADO ERIC BM"
+      ]
+    },
+    {
       "athlete_name": "GONZALO BELLON TIRADO",
       "file": "athletes/gonzalo-bellon-tirado.json",
       "license_variants_found": [
@@ -1512,6 +1474,15 @@
       "variants_checked": [
         "6 47 (t) Gonzalo Bellón Tirado",
         "GONZALO BELLON TIRADO"
+      ]
+    },
+    {
+      "athlete_name": "GRAN BADIA ALEXANDRE",
+      "file": "athletes/gran-badia-alexandre.json",
+      "license_variants_found": [],
+      "variants_checked": [
+        "ALEXANDRE GRAN BADIA",
+        "GRAN BADIA ALEXANDRE"
       ]
     },
     {
@@ -1524,17 +1495,6 @@
         "22 144 (t) Guifre Gonzalez Ceresuela",
         "5 615 (t) Guifre Gonzalez Ceresuela",
         "GUIFRE GONZALEZ CERESUELA"
-      ]
-    },
-    {
-      "athlete_name": "GUIJARRO ESTEBAN UNAISA",
-      "file": "athletes/guijarro-esteban-unaisa.json",
-      "license_variants_found": [],
-      "variants_checked": [
-        "GUIJARRO ESTEBAN UNAISA",
-        "GUIJARRO ESTEBAN UNAISA AF",
-        "UNAISA GUIJARRO ESTEBAN",
-        "Unaisa Guijarro Esteban"
       ]
     },
     {
@@ -1643,16 +1603,6 @@
       ]
     },
     {
-      "athlete_name": "GUTIERREZ GARCIA INIGO",
-      "file": "athletes/gutierrez-garcia-inigo.json",
-      "license_variants_found": [],
-      "variants_checked": [
-        "GUTIERREZ GARCIA INIGO",
-        "GUTIERREZ GARCIA IÑIGO BM",
-        "Iñigo Gutierrez Garcia"
-      ]
-    },
-    {
       "athlete_name": "GUZMAN VIRGILI PEDROL",
       "file": "athletes/guzman-virgili-pedrol.json",
       "license_variants_found": [],
@@ -1746,6 +1696,16 @@
       "variants_checked": [
         "IGNACIO BERZOSA",
         "IGNACIO BERZOSA ENGEMANN"
+      ]
+    },
+    {
+      "athlete_name": "INIGO GUTIERREZ GARCIA",
+      "file": "athletes/inigo-gutierrez-garcia.json",
+      "license_variants_found": [],
+      "variants_checked": [
+        "GUTIERREZ GARCIA IÑIGO BM",
+        "INIGO GUTIERREZ GARCIA",
+        "Iñigo Gutierrez Garcia"
       ]
     },
     {
@@ -1847,6 +1807,16 @@
       "variants_checked": [
         "IRIS GRANDE MUNOZ",
         "Iris GRANDE MUÑOZ"
+      ]
+    },
+    {
+      "athlete_name": "IRIS MARTINEZ GUTIERREZ",
+      "file": "athletes/iris-martinez-gutierrez.json",
+      "license_variants_found": [],
+      "variants_checked": [
+        "IRIS MARTINEZ GUTIERREZ",
+        "IRIS MARTÍNEZ GUTIERREZ",
+        "MARTÍNEZ GUTIERREZ IRIS AF"
       ]
     },
     {
@@ -2245,6 +2215,20 @@
       ]
     },
     {
+      "athlete_name": "JUDIT RODRIGUEZ ARTIGAS",
+      "file": "athletes/judit-rodriguez-artigas.json",
+      "license_variants_found": [
+        "CL82988"
+      ],
+      "variants_checked": [
+        "JUDIT RODRIGUEZ ARTIGAS",
+        "Judit Rodriguez Artigas BF",
+        "Judit Rodríguez Artigas",
+        "RODRIGUEZ ARTIGAS JUDIT",
+        "RODRÍGUEZ ARTIGAS JUDIT PBF"
+      ]
+    },
+    {
       "athlete_name": "JUDIT ROYO MARTINEZ",
       "file": "athletes/judit-royo-martinez.json",
       "license_variants_found": [],
@@ -2568,6 +2552,18 @@
       ]
     },
     {
+      "athlete_name": "MACIAS ALCANIZ NINA",
+      "file": "athletes/macias-alcaniz-nina.json",
+      "license_variants_found": [
+        "CL71716"
+      ],
+      "variants_checked": [
+        "MACIAS ALCANIZ NINA",
+        "MACIAS ALCAÑIZ NINA CF",
+        "Nina Macias Alcañiz"
+      ]
+    },
+    {
       "athlete_name": "MAR CARTANYA CASTANO",
       "file": "athletes/mar-cartanya-castano.json",
       "license_variants_found": [
@@ -2712,16 +2708,6 @@
         "Marcos Herrero Calderon AM 6",
         "Marcos Herrero Calderón",
         "Marcos Herrero Calderón AM 5"
-      ]
-    },
-    {
-      "athlete_name": "MARÍA FERNANDEZ DIEZ",
-      "file": "athletes/maria-fernandez-diez.json",
-      "license_variants_found": [],
-      "variants_checked": [
-        "FERNANDEZ DIEZ MARIA",
-        "MARIA FERNANDEZ DIEZ",
-        "MARÍA FERNANDEZ DIEZ"
       ]
     },
     {
@@ -2934,16 +2920,6 @@
       ]
     },
     {
-      "athlete_name": "MARTINEZ GUTIERREZ IRIS",
-      "file": "athletes/martinez-gutierrez-iris.json",
-      "license_variants_found": [],
-      "variants_checked": [
-        "IRIS MARTÍNEZ GUTIERREZ",
-        "MARTINEZ GUTIERREZ IRIS",
-        "MARTÍNEZ GUTIERREZ IRIS AF"
-      ]
-    },
-    {
       "athlete_name": "MATTEO PECCHIA",
       "file": "athletes/matteo-pecchia.json",
       "license_variants_found": [
@@ -3058,15 +3034,6 @@
       "variants_checked": [
         "MOHAMED OUHSSAINE",
         "Mohamed OUHSSAINE"
-      ]
-    },
-    {
-      "athlete_name": "MONTSE MONTANES",
-      "file": "athletes/montse-montanes.json",
-      "license_variants_found": [],
-      "variants_checked": [
-        "MONTSE MONTANES",
-        "MONTSE MONTAÑÉS"
       ]
     },
     {
@@ -3230,18 +3197,6 @@
         "7 53 (t) Nil Pamies Miro BM",
         "8 79 (t) Nil Pàmies Miró BM",
         "NIL PAMIES MIRO"
-      ]
-    },
-    {
-      "athlete_name": "NINA MACIAS ALCANIZ",
-      "file": "athletes/nina-macias-alcaniz.json",
-      "license_variants_found": [
-        "CL71716"
-      ],
-      "variants_checked": [
-        "MACIAS ALCAÑIZ NINA CF",
-        "NINA MACIAS ALCANIZ",
-        "Nina Macias Alcañiz"
       ]
     },
     {
@@ -3756,19 +3711,6 @@
       ]
     },
     {
-      "athlete_name": "RODRIGUEZ ARTIGAS JUDIT",
-      "file": "athletes/rodriguez-artigas-judit.json",
-      "license_variants_found": [
-        "CL82988"
-      ],
-      "variants_checked": [
-        "Judit Rodriguez Artigas BF",
-        "Judit Rodríguez Artigas",
-        "RODRIGUEZ ARTIGAS JUDIT",
-        "RODRÍGUEZ ARTIGAS JUDIT PBF"
-      ]
-    },
-    {
       "athlete_name": "ROGER FEIJOO MASSOT",
       "file": "athletes/roger-feijoo-massot.json",
       "license_variants_found": [
@@ -3971,6 +3913,17 @@
         "OSCAR AGUIRRE ANGUERA",
         "TRAMIT OSCAR AGUIRRE ANGUERA",
         "TRÀMIT OSCAR AGUIRRE ANGUERA"
+      ]
+    },
+    {
+      "athlete_name": "UNAISA GUIJARRO ESTEBAN",
+      "file": "athletes/unaisa-guijarro-esteban.json",
+      "license_variants_found": [],
+      "variants_checked": [
+        "GUIJARRO ESTEBAN UNAISA",
+        "GUIJARRO ESTEBAN UNAISA AF",
+        "UNAISA GUIJARRO ESTEBAN",
+        "Unaisa Guijarro Esteban"
       ]
     },
     {

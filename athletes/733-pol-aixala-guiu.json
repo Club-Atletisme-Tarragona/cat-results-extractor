@@ -2,7 +2,7 @@
   "athlete_name": "POL AIXALA GUIU",
   "athlete_id": "CT438",
   "athlete_dob": "4/12/2004",
-  "total_results": 109,
+  "total_results": 110,
   "name_variants_found": [
     "2 194 Pol Aixala Guiu LM",
     "2 72 (t) Pol Aixala Guiu",
@@ -31,7 +31,7 @@
     "CL69309",
     "CT438"
   ],
-  "source_files_count": 52,
+  "source_files_count": 53,
   "results": [
     {
       "event_name": "",
@@ -108,6 +108,19 @@
       "athlete_id": "",
       "discipline": "Alçada",
       "performance": "10.98",
+      "wind": null,
+      "internal_id": 733
+    },
+    {
+      "event_name": "CAMPIONAT TERRITORIAL ‐ AMPOSTA 3‐5‐14",
+      "event_date": "30/5/2014",
+      "event_location": "El Vendrell",
+      "event_src": "http://old.fcatletisme.cat/Promocio/promocio2014/resulterritpromoamposta30514.pdf",
+      "athlete_name": "POL AIXALÀ GUIU",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "Pes (2 Kg)",
+      "performance": "5.46",
       "wind": null,
       "internal_id": 733
     },

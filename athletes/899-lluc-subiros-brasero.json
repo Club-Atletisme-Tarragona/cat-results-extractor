@@ -2,7 +2,7 @@
   "athlete_name": "LLUC SUBIROS BRASERO",
   "athlete_id": "CT1186",
   "athlete_dob": "6/1/2007",
-  "total_results": 312,
+  "total_results": 316,
   "name_variants_found": [
     "1 117 (t) Lluc Subiros Brasero IM q",
     "1 15 (t) Lluc Subiros Brasero",
@@ -68,6 +68,7 @@
     "7 626 (t) Lluc Subiros Brasero IM",
     "7 74 (t) Lluc Subiros Brasero",
     "8 39 (t) Lluc Subiros Brasero IM",
+    "LLUC SUBIRATS BRASERO",
     "LLUC SUBIROS BRASERO",
     "LLUC SUBIROS BRASERO X-",
     "LLUC SUBIRÓS BRASERO",
@@ -92,7 +93,7 @@
     "CL77331",
     "CT1186"
   ],
-  "source_files_count": 92,
+  "source_files_count": 93,
   "results": [
     {
       "event_name": "Campionat Catalunya Absolut Proves Combinades - Barcelona (Estadi Joan Serrahima), 27-28 abril 2019",
@@ -216,6 +217,19 @@
       "event_date": "25/04/2015",
       "event_location": "Reus",
       "event_src": "http://old.fcatletisme.cat/Promocio/promocio2015/resulcnatterritamposta250415.pdf",
+      "athlete_name": "LLUC SUBIROS BRASERO",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "1000 metres llisos",
+      "performance": "3.53",
+      "wind": null,
+      "internal_id": 899
+    },
+    {
+      "event_name": "",
+      "event_date": "25/04/2015",
+      "event_location": "Reus",
+      "event_src": "http://old.fcatletisme.cat/Promocio/promocio2015/resulcnatterritamposta250415.pdf",
       "athlete_name": "LLUC SUBIRÓS BRASERO",
       "athlete_dob": "",
       "athlete_id": "",
@@ -299,6 +313,45 @@
       "athlete_id": "",
       "discipline": "Alçada",
       "performance": "1.03",
+      "wind": null,
+      "internal_id": 899
+    },
+    {
+      "event_name": "",
+      "event_date": "30/05/2015",
+      "event_location": "Ascó",
+      "event_src": "http://old.fcatletisme.cat/Promocio/promocio2015/resulcontrolasco300515.pdf",
+      "athlete_name": "LLUC SUBIRATS BRASERO",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "Llargada",
+      "performance": "3.07",
+      "wind": null,
+      "internal_id": 899
+    },
+    {
+      "event_name": "",
+      "event_date": "30/05/2015",
+      "event_location": "Ascó",
+      "event_src": "http://old.fcatletisme.cat/Promocio/promocio2015/resulcontrolasco300515.pdf",
+      "athlete_name": "LLUC SUBIRATS BRASERO",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "Llargada",
+      "performance": "2.80",
+      "wind": null,
+      "internal_id": 899
+    },
+    {
+      "event_name": "",
+      "event_date": "30/05/2015",
+      "event_location": "Ascó",
+      "event_src": "http://old.fcatletisme.cat/Promocio/promocio2015/resulcontrolasco300515.pdf",
+      "athlete_name": "LLUC SUBIRATS BRASERO",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "Llargada",
+      "performance": "2.98",
       "wind": null,
       "internal_id": 899
     },

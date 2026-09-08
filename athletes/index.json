@@ -1,5 +1,5 @@
 {
-  "total_athletes": 760,
+  "total_athletes": 758,
   "athletes": [
     {
       "athlete_id": "CT19378",
@@ -35,19 +35,11 @@
     },
     {
       "athlete_id": "CT9121",
-      "athlete_name": "EX PARDINES GRAS PEDRO",
-      "file": "ex-pardines-gras-pedro.json",
-      "total_results": 328,
+      "athlete_name": "PEDRO PARDINES GRAS",
+      "file": "pedro-pardines-gras.json",
+      "total_results": 333,
       "first_event_date": "23/01/2005",
       "last_event_date": "16/02/2025"
-    },
-    {
-      "athlete_id": "CT17220",
-      "athlete_name": "DIAZ JOSÉ MARCAL",
-      "file": "diaz-jose-marcal.json",
-      "total_results": 314,
-      "first_event_date": "03/06/2006",
-      "last_event_date": "03/05/2026"
     },
     {
       "athlete_id": "CT1186",
@@ -85,7 +77,7 @@
       "athlete_id": "CAT-3742954",
       "athlete_name": "DIDAC RIOS MESEGUER",
       "file": "didac-rios-meseguer.json",
-      "total_results": 271,
+      "total_results": 275,
       "first_event_date": "23/01/2005",
       "last_event_date": "07/06/2025"
     },
@@ -101,7 +93,7 @@
       "athlete_id": "CL12544",
       "athlete_name": "ALVAREZ JOSÉ MARTIN MIGUEL",
       "file": "alvarez-jose-martin-miguel.json",
-      "total_results": 230,
+      "total_results": 235,
       "first_event_date": "02/04/2005",
       "last_event_date": "10/01/2026"
     },
@@ -133,7 +125,7 @@
       "athlete_id": "",
       "athlete_name": "AGUSTI ORIOL PAISANO",
       "file": "agusti-oriol-paisano.json",
-      "total_results": 193,
+      "total_results": 198,
       "first_event_date": "21/05/2005",
       "last_event_date": "17/11/2010"
     },
@@ -160,6 +152,14 @@
       "total_results": 177,
       "first_event_date": "02/02/2008",
       "last_event_date": "05/07/2025"
+    },
+    {
+      "athlete_id": "CL27846",
+      "athlete_name": "EDGAR JOSÉ DIAZ",
+      "file": "edgar-jose-diaz.json",
+      "total_results": 172,
+      "first_event_date": "15/05/2010",
+      "last_event_date": "03/05/2026"
     },
     {
       "athlete_id": "CL94383",
@@ -234,6 +234,14 @@
       "last_event_date": "31/05/2026"
     },
     {
+      "athlete_id": "CT14735",
+      "athlete_name": "ANNA SOLE FERRER",
+      "file": "anna-sole-ferrer.json",
+      "total_results": 145,
+      "first_event_date": "13/02/2005",
+      "last_event_date": "27/01/2013"
+    },
+    {
       "athlete_id": "CT18283",
       "athlete_name": "ROBERT ROMANI SUAREZ",
       "file": "robert-romani-suarez.json",
@@ -250,12 +258,12 @@
       "last_event_date": "13/05/2017"
     },
     {
-      "athlete_id": "CT14735",
-      "athlete_name": "ANNA SOLE FERRER",
-      "file": "anna-sole-ferrer.json",
-      "total_results": 141,
-      "first_event_date": "13/02/2005",
-      "last_event_date": "27/01/2013"
+      "athlete_id": "CT17220",
+      "athlete_name": "MARÇAL JOSÉ DIAZ",
+      "file": "marcal-jose-diaz.json",
+      "total_results": 142,
+      "first_event_date": "03/06/2006",
+      "last_event_date": "08/01/2023"
     },
     {
       "athlete_id": "CL57697",
@@ -522,6 +530,14 @@
       "last_event_date": "13/06/2026"
     },
     {
+      "athlete_id": "",
+      "athlete_name": "BEATRIU MALLA FERER",
+      "file": "beatriu-malla-ferer.json",
+      "total_results": 101,
+      "first_event_date": "13/02/2005",
+      "last_event_date": "21/12/2008"
+    },
+    {
       "athlete_id": "CL96310",
       "athlete_name": "FERRAN MASCARO NAVARRO",
       "file": "ferran-mascaro-navarro.json",
@@ -560,14 +576,6 @@
       "total_results": 98,
       "first_event_date": "14/01/2023",
       "last_event_date": "20/06/2026"
-    },
-    {
-      "athlete_id": "",
-      "athlete_name": "BEATRIU MALLA FERER",
-      "file": "beatriu-malla-ferer.json",
-      "total_results": 97,
-      "first_event_date": "13/02/2005",
-      "last_event_date": "21/12/2008"
     },
     {
       "athlete_id": "CL15267",
@@ -1058,6 +1066,14 @@
       "last_event_date": "04/07/2026"
     },
     {
+      "athlete_id": "CT13212",
+      "athlete_name": "FRANCISCO IBORRA JOSÉ MARTINEZ",
+      "file": "francisco-iborra-jose-martinez.json",
+      "total_results": 55,
+      "first_event_date": "29/01/2005",
+      "last_event_date": "07/07/2018"
+    },
+    {
       "athlete_id": "",
       "athlete_name": "SG FAA FAROUK MELLAKHI",
       "file": "sg-faa-farouk-mellakhi.json",
@@ -1160,14 +1176,6 @@
       "total_results": 48,
       "first_event_date": "10/11/2020",
       "last_event_date": "27/09/2025"
-    },
-    {
-      "athlete_id": "CT13212",
-      "athlete_name": "FRANCISCO IBORRA JOSÉ MARTINEZ",
-      "file": "francisco-iborra-jose-martinez.json",
-      "total_results": 48,
-      "first_event_date": "24/02/2007",
-      "last_event_date": "07/07/2018"
     },
     {
       "athlete_id": "CL27845",
@@ -2002,14 +2010,6 @@
       "last_event_date": "24/11/2010"
     },
     {
-      "athlete_id": "CL24157",
-      "athlete_name": "GEMMA RUIZ SABATE",
-      "file": "gemma-ruiz-sabate.json",
-      "total_results": 22,
-      "first_event_date": "13/12/2014",
-      "last_event_date": "04/06/2016"
-    },
-    {
       "athlete_id": "CAT-3892003",
       "athlete_name": "JAVIER FERNANDEZ FREIXAS",
       "file": "javier-fernandez-freixas.json",
@@ -2040,6 +2040,14 @@
       "total_results": 22,
       "first_event_date": "17/05/2014",
       "last_event_date": "20/12/2015"
+    },
+    {
+      "athlete_id": "CL24157",
+      "athlete_name": "RUIZ SABATE GEMMA",
+      "file": "ruiz-sabate-gemma.json",
+      "total_results": 22,
+      "first_event_date": "13/12/2014",
+      "last_event_date": "04/06/2016"
     },
     {
       "athlete_id": "",
@@ -2267,14 +2275,6 @@
     },
     {
       "athlete_id": "",
-      "athlete_name": "ALEXANDRE GRAN BADIA",
-      "file": "alexandre-gran-badia.json",
-      "total_results": 16,
-      "first_event_date": "20/12/2014",
-      "last_event_date": "07/02/2015"
-    },
-    {
-      "athlete_id": "",
       "athlete_name": "ALONSO DELCAMPO DIDAC",
       "file": "alonso-delcampo-didac.json",
       "total_results": 16,
@@ -2314,20 +2314,20 @@
       "last_event_date": "15/11/2025"
     },
     {
+      "athlete_id": "",
+      "athlete_name": "GRAN BADIA ALEXANDRE",
+      "file": "gran-badia-alexandre.json",
+      "total_results": 16,
+      "first_event_date": "20/12/2014",
+      "last_event_date": "07/02/2015"
+    },
+    {
       "athlete_id": "CL3357",
       "athlete_name": "JOAN MAGRANE SERRET",
       "file": "joan-magrane-serret.json",
       "total_results": 16,
       "first_event_date": "07/02/2021",
       "last_event_date": "12/04/2025"
-    },
-    {
-      "athlete_id": "",
-      "athlete_name": "JOAN VELASCO FERRER",
-      "file": "joan-velasco-ferrer.json",
-      "total_results": 16,
-      "first_event_date": "13/02/2005",
-      "last_event_date": "22/02/2009"
     },
     {
       "athlete_id": "CT2177",
@@ -2352,6 +2352,14 @@
       "total_results": 16,
       "first_event_date": "25/01/2025",
       "last_event_date": "09/05/2026"
+    },
+    {
+      "athlete_id": "",
+      "athlete_name": "VELASCO FERRER JOAN",
+      "file": "velasco-ferrer-joan.json",
+      "total_results": 16,
+      "first_event_date": "13/02/2005",
+      "last_event_date": "22/02/2009"
     },
     {
       "athlete_id": "CL4348",
@@ -2642,6 +2650,14 @@
       "last_event_date": "30/05/2026"
     },
     {
+      "athlete_id": "",
+      "athlete_name": "FERNANDEZ DIEZ MARÍA",
+      "file": "fernandez-diez-maria.json",
+      "total_results": 12,
+      "first_event_date": "08/05/2010",
+      "last_event_date": "28/05/2011"
+    },
+    {
       "athlete_id": "CL19295",
       "athlete_name": "FERNANDO ALVAREZ AUNOS",
       "file": "fernando-alvarez-aunos.json",
@@ -2664,14 +2680,6 @@
       "total_results": 12,
       "first_event_date": "24/04/2021",
       "last_event_date": "15/01/2022"
-    },
-    {
-      "athlete_id": "",
-      "athlete_name": "MARÍA FERNANDEZ DIEZ",
-      "file": "maria-fernandez-diez.json",
-      "total_results": 12,
-      "first_event_date": "08/05/2010",
-      "last_event_date": "28/05/2011"
     },
     {
       "athlete_id": "CL80300",
@@ -2771,14 +2779,6 @@
     },
     {
       "athlete_id": "",
-      "athlete_name": "LUIS VAZQUEZ VILAMAJO",
-      "file": "luis-vazquez-vilamajo.json",
-      "total_results": 11,
-      "first_event_date": "04/06/2011",
-      "last_event_date": "20/07/2013"
-    },
-    {
-      "athlete_id": "",
       "athlete_name": "MATEU SANZ JOSÉ MARÍA",
       "file": "mateu-sanz-jose-maria.json",
       "total_results": 11,
@@ -2824,6 +2824,14 @@
       "total_results": 11,
       "first_event_date": "17/05/2014",
       "last_event_date": "06/02/2016"
+    },
+    {
+      "athlete_id": "",
+      "athlete_name": "VAZQUEZ VILAMAJO LUIS",
+      "file": "vazquez-vilamajo-luis.json",
+      "total_results": 11,
+      "first_event_date": "04/06/2011",
+      "last_event_date": "20/07/2013"
     },
     {
       "athlete_id": "",
@@ -2946,14 +2954,6 @@
       "last_event_date": "02/04/2005"
     },
     {
-      "athlete_id": "CL64862",
-      "athlete_name": "ABRIL DIAZ CASANAS",
-      "file": "abril-diaz-casanas.json",
-      "total_results": 9,
-      "first_event_date": "15/06/2013",
-      "last_event_date": "08/02/2014"
-    },
-    {
       "athlete_id": "CL4345",
       "athlete_name": "ALEIX GOMEZ MIRO",
       "file": "aleix-gomez-miro.json",
@@ -2992,6 +2992,14 @@
       "total_results": 9,
       "first_event_date": "14/04/2018",
       "last_event_date": "18/01/2020"
+    },
+    {
+      "athlete_id": "CL64862",
+      "athlete_name": "DIAZ CASANAS ABRIL",
+      "file": "diaz-casanas-abril.json",
+      "total_results": 9,
+      "first_event_date": "15/06/2013",
+      "last_event_date": "08/02/2014"
     },
     {
       "athlete_id": "CAT-3713961",
@@ -3155,14 +3163,6 @@
     },
     {
       "athlete_id": "",
-      "athlete_name": "DOMINGO ROMERO JOAN",
-      "file": "domingo-romero-joan.json",
-      "total_results": 8,
-      "first_event_date": "07/06/2009",
-      "last_event_date": "04/02/2012"
-    },
-    {
-      "athlete_id": "",
       "athlete_name": "EVA GONZALEZ FABREGAT",
       "file": "eva-gonzalez-fabregat.json",
       "total_results": 8,
@@ -3176,6 +3176,14 @@
       "total_results": 8,
       "first_event_date": "06/02/2016",
       "last_event_date": "14/05/2016"
+    },
+    {
+      "athlete_id": "",
+      "athlete_name": "JOAN DOMINGO ROMERO",
+      "file": "joan-domingo-romero.json",
+      "total_results": 8,
+      "first_event_date": "07/06/2009",
+      "last_event_date": "04/02/2012"
     },
     {
       "athlete_id": "",
@@ -3666,14 +3674,6 @@
       "last_event_date": "21/06/2008"
     },
     {
-      "athlete_id": "CL82988",
-      "athlete_name": "JUDIT RODRIGUEZ ARTIGAS",
-      "file": "judit-rodriguez-artigas.json",
-      "total_results": 5,
-      "first_event_date": "14/05/2016",
-      "last_event_date": "21/05/2016"
-    },
-    {
       "athlete_id": "",
       "athlete_name": "JUDIT ROYO MARTINEZ",
       "file": "judit-royo-martinez.json",
@@ -3768,6 +3768,14 @@
       "total_results": 5,
       "first_event_date": "25/06/2006",
       "last_event_date": "17/11/2010"
+    },
+    {
+      "athlete_id": "CL82988",
+      "athlete_name": "RODRIGUEZ ARTIGAS JUDIT",
+      "file": "rodriguez-artigas-judit.json",
+      "total_results": 5,
+      "first_event_date": "14/05/2016",
+      "last_event_date": "21/05/2016"
     },
     {
       "athlete_id": "CL16217",
@@ -3946,6 +3954,14 @@
       "last_event_date": "07/02/2015"
     },
     {
+      "athlete_id": "",
+      "athlete_name": "JULBE OLLOQUI XAVIER",
+      "file": "julbe-olloqui-xavier.json",
+      "total_results": 4,
+      "first_event_date": "21/06/2008",
+      "last_event_date": "17/10/2009"
+    },
+    {
       "athlete_id": "CL4529",
       "athlete_name": "LUCIA ASENSIO SANCHEZ",
       "file": "lucia-asensio-sanchez.json",
@@ -4082,14 +4098,6 @@
       "last_event_date": "16/11/2010"
     },
     {
-      "athlete_id": "",
-      "athlete_name": "QUICO IBORRA MARTINEZ",
-      "file": "quico-iborra-martinez.json",
-      "total_results": 4,
-      "first_event_date": "23/12/2007",
-      "last_event_date": "23/12/2007"
-    },
-    {
       "athlete_id": "CL90511",
       "athlete_name": "SOFIA LARA GIRBES",
       "file": "sofia-lara-girbes.json",
@@ -4104,14 +4112,6 @@
       "total_results": 4,
       "first_event_date": "14/01/2023",
       "last_event_date": "18/05/2025"
-    },
-    {
-      "athlete_id": "",
-      "athlete_name": "XAVIER JULBE OLLOQUI",
-      "file": "xavier-julbe-olloqui.json",
-      "total_results": 4,
-      "first_event_date": "21/06/2008",
-      "last_event_date": "17/10/2009"
     },
     {
       "athlete_id": "CL86452",
@@ -4240,14 +4240,6 @@
       "total_results": 3,
       "first_event_date": "13/05/2018",
       "last_event_date": "13/05/2018"
-    },
-    {
-      "athlete_id": "",
-      "athlete_name": "JAUME SANCHIS CUGAT",
-      "file": "jaume-sanchis-cugat.json",
-      "total_results": 3,
-      "first_event_date": "09/06/2007",
-      "last_event_date": "07/06/2009"
     },
     {
       "athlete_id": "",
@@ -4403,6 +4395,14 @@
     },
     {
       "athlete_id": "",
+      "athlete_name": "SANCHIS CUGAT JAUME",
+      "file": "sanchis-cugat-jaume.json",
+      "total_results": 3,
+      "first_event_date": "09/06/2007",
+      "last_event_date": "07/06/2009"
+    },
+    {
+      "athlete_id": "",
       "athlete_name": "SANTAOLARIA HUGO JULES",
       "file": "santaolaria-hugo-jules.json",
       "total_results": 3,
@@ -4528,6 +4528,14 @@
       "total_results": 2,
       "first_event_date": "10/05/2015",
       "last_event_date": "10/05/2015"
+    },
+    {
+      "athlete_id": "",
+      "athlete_name": "BUENO UBEDA LEYRE",
+      "file": "bueno-ubeda-leyre.json",
+      "total_results": 2,
+      "first_event_date": "",
+      "last_event_date": ""
     },
     {
       "athlete_id": "",
@@ -4707,14 +4715,6 @@
     },
     {
       "athlete_id": "",
-      "athlete_name": "LEYRE BUENO UBEDA",
-      "file": "leyre-bueno-ubeda.json",
-      "total_results": 2,
-      "first_event_date": "",
-      "last_event_date": ""
-    },
-    {
-      "athlete_id": "",
       "athlete_name": "LINARES GATELL ALICIA",
       "file": "linares-gatell-alicia.json",
       "total_results": 2,
@@ -4736,6 +4736,14 @@
       "total_results": 2,
       "first_event_date": "27/06/2010",
       "last_event_date": "24/11/2010"
+    },
+    {
+      "athlete_id": "CL71716",
+      "athlete_name": "MACIAS ALCANIZ NINA",
+      "file": "macias-alcaniz-nina.json",
+      "total_results": 2,
+      "first_event_date": "17/01/2015",
+      "last_event_date": "23/05/2015"
     },
     {
       "athlete_id": "CAT-3950530",
@@ -4776,14 +4784,6 @@
       "total_results": 2,
       "first_event_date": "29/11/2025",
       "last_event_date": "29/11/2025"
-    },
-    {
-      "athlete_id": "CL71716",
-      "athlete_name": "NINA MACIAS ALCANIZ",
-      "file": "nina-macias-alcaniz.json",
-      "total_results": 2,
-      "first_event_date": "17/01/2015",
-      "last_event_date": "23/05/2015"
     },
     {
       "athlete_id": "CL3306",
@@ -5227,27 +5227,11 @@
     },
     {
       "athlete_id": "",
-      "athlete_name": "F.JOSE IBORRA MARTINEZ",
-      "file": "fjose-iborra-martinez.json",
-      "total_results": 1,
-      "first_event_date": "21/01/2006",
-      "last_event_date": "21/01/2006"
-    },
-    {
-      "athlete_id": "",
       "athlete_name": "FANTA FOUNE JABBI FOFANA",
       "file": "fanta-foune-jabbi-fofana.json",
       "total_results": 1,
       "first_event_date": "11/04/2026",
       "last_event_date": "11/04/2026"
-    },
-    {
-      "athlete_id": "",
-      "athlete_name": "FCO.JOSE IBORRA MARTINEZ",
-      "file": "fcojose-iborra-martinez.json",
-      "total_results": 1,
-      "first_event_date": "29/01/2005",
-      "last_event_date": "29/01/2005"
     },
     {
       "athlete_id": "",

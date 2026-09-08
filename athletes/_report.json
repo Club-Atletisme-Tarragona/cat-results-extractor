@@ -1,13 +1,39 @@
 {
   "summary": {
-    "total_clusters": 765,
-    "total_results_processed": 27495,
+    "total_clusters": 763,
+    "total_results_processed": 27523,
     "files_scanned": 1351,
     "invalid_json_files": 0,
     "skipped_results_empty_fields": 0,
-    "athletes_without_license": 204
+    "athletes_without_license": 201
   },
   "license_conflicts": [
+    {
+      "canonical_name": "PEDRO PARDINES GRAS",
+      "canonical_license": "CT9121",
+      "conflicts": [
+        {
+          "licenses": [
+            "CL9121",
+            "CT9121"
+          ],
+          "reason": "CL/CT conflict: CL9121 vs CT9121 (same number 9121)"
+        }
+      ],
+      "total_results": 334,
+      "name_variants": [
+        "2 204 Pere Pardines Gras",
+        "4 74 Pere Pardines Gras M-50",
+        "5 68 Pere Pardines Gras M-55",
+        "5 74 Pere Pardines Gras M-55",
+        "6 10 Pere Pardines Gras M-50",
+        "6 2 (t) Pere Pardines Gras M-55",
+        "6 53 Pere Pardines Gras M-55",
+        "PARDINES GRAS PERE",
+        "PERE PARDINES GRAS",
+        "Pere Pardines Gras"
+      ]
+    },
     {
       "canonical_name": "BARBARA PINTADO DUCH",
       "canonical_license": "CAT-3789999",
@@ -15,10 +41,10 @@
         {
           "licenses": [
             "CT2508",
-            "CAT-3789999",
-            "CT13219",
             "CT2897",
-            "CL13219"
+            "CT13219",
+            "CL13219",
+            "CAT-3789999"
           ],
           "reason": "CL/CT conflict: CL13219 vs CT13219 (same number 13219)"
         }
@@ -43,14 +69,14 @@
       "conflicts": [
         {
           "licenses": [
-            "CL14019",
             "CT14019",
-            "CAT-3742954"
+            "CAT-3742954",
+            "CL14019"
           ],
           "reason": "CL/CT conflict: CL14019 vs CT14019 (same number 14019)"
         }
       ],
-      "total_results": 280,
+      "total_results": 284,
       "name_variants": [
         "10 8 (t) Didac Rios Meseguer",
         "3 234 Didac Rios Meseguer",
@@ -62,6 +88,32 @@
         "RIOS MESEGUER DIDAC SM",
         "RIOS MESSEGUER DIDAC",
         "RIOS MESSEGUER DÌDAC"
+      ]
+    },
+    {
+      "canonical_name": "MARÇAL JOSÉ DIAZ",
+      "canonical_license": "CT17220",
+      "conflicts": [
+        {
+          "licenses": [
+            "CT17220",
+            "CL17220"
+          ],
+          "reason": "CL/CT conflict: CL17220 vs CT17220 (same number 17220)"
+        }
+      ],
+      "total_results": 142,
+      "name_variants": [
+        "3 13 Marc Jose Diaz 8",
+        "4 434 (t) Marc Jose Diaz",
+        "5 13 (t) Marc Jose Diaz SM 1",
+        "5 309 (t) Marc Jose Diaz",
+        "6 121 (t) Marc Jose Diaz",
+        "7 121 (t) Marc Jose Diaz",
+        "7 25 (t) Marc Jose Diaz",
+        "7 434 (t) Marc Jose Diaz 5 q",
+        "JOSE DIAZ MARC",
+        "MARC JOSE DIAZ"
       ]
     },
     {
@@ -91,33 +143,33 @@
       "conflicts": [
         {
           "licenses": [
-            "CL23992",
+            "CAT-3742985",
+            "CL57690",
+            "CAT-3754025",
             "CT2272",
             "CT23992",
-            "CT21623",
             "CT20690",
-            "CAT-3754025",
-            "CAT-3742985",
+            "CL23992",
+            "CT21623",
+            "CT20392",
             "CL20392",
-            "CL92732",
-            "CL57690",
-            "CT20392"
+            "CL92732"
           ],
           "reason": "CL/CT conflict: CL23992 vs CT23992 (same number 23992)"
         },
         {
           "licenses": [
-            "CL23992",
+            "CAT-3742985",
+            "CL57690",
+            "CAT-3754025",
             "CT2272",
             "CT23992",
-            "CT21623",
             "CT20690",
-            "CAT-3754025",
-            "CAT-3742985",
+            "CL23992",
+            "CT21623",
+            "CT20392",
             "CL20392",
-            "CL92732",
-            "CL57690",
-            "CT20392"
+            "CL92732"
           ],
           "reason": "CL/CT conflict: CL20392 vs CT20392 (same number 20392)"
         }
@@ -162,11 +214,11 @@
       "conflicts": [
         {
           "licenses": [
-            "CAT-3818228",
             "CT25156",
             "CL62287",
             "CL71733",
-            "CL25156"
+            "CL25156",
+            "CAT-3818228"
           ],
           "reason": "CL/CT conflict: CL25156 vs CT25156 (same number 25156)"
         }
@@ -211,8 +263,8 @@
       "conflicts": [
         {
           "licenses": [
-            "CT18374",
-            "CL18374"
+            "CL18374",
+            "CT18374"
           ],
           "reason": "CL/CT conflict: CL18374 vs CT18374 (same number 18374)"
         }
@@ -257,10 +309,10 @@
       "conflicts": [
         {
           "licenses": [
-            "CL23242",
-            "CT23242",
+            "CL19336",
             "CT1566",
-            "CL19336"
+            "CL23242",
+            "CT23242"
           ],
           "reason": "CL/CT conflict: CL23242 vs CT23242 (same number 23242)"
         }
@@ -285,8 +337,8 @@
       "conflicts": [
         {
           "licenses": [
-            "CL24158",
-            "CT24158"
+            "CT24158",
+            "CL24158"
           ],
           "reason": "CL/CT conflict: CL24158 vs CT24158 (same number 24158)"
         }
@@ -303,8 +355,8 @@
       "conflicts": [
         {
           "licenses": [
-            "CL20403",
-            "CT20403"
+            "CT20403",
+            "CL20403"
           ],
           "reason": "CL/CT conflict: CL20403 vs CT20403 (same number 20403)"
         }
@@ -325,8 +377,8 @@
       "conflicts": [
         {
           "licenses": [
-            "CL25705",
-            "CT25705"
+            "CT25705",
+            "CL25705"
           ],
           "reason": "CL/CT conflict: CL25705 vs CT25705 (same number 25705)"
         }
@@ -382,10 +434,10 @@
       "conflicts": [
         {
           "licenses": [
-            "CT87092",
-            "CT7092"
+            "CT7092",
+            "CT87092"
           ],
-          "reason": "Multiple different licenses: ['CT87092', 'CT7092']"
+          "reason": "Multiple different licenses: ['CT7092', 'CT87092']"
         }
       ],
       "total_results": 9,
@@ -406,11 +458,11 @@
       "conflicts": [
         {
           "licenses": [
+            "CAT-3743012",
             "CAT-3743",
-            "CT91904",
-            "CAT-3743012"
+            "CT91904"
           ],
-          "reason": "Multiple different licenses: ['CAT-3743', 'CT91904', 'CAT-3743012']"
+          "reason": "Multiple different licenses: ['CAT-3743012', 'CAT-3743', 'CT91904']"
         }
       ],
       "total_results": 8,
@@ -428,10 +480,10 @@
       "conflicts": [
         {
           "licenses": [
-            "CT1461",
-            "CAT-3723257"
+            "CAT-3723257",
+            "CT1461"
           ],
-          "reason": "Multiple different licenses: ['CT1461', 'CAT-3723257']"
+          "reason": "Multiple different licenses: ['CAT-3723257', 'CT1461']"
         }
       ],
       "total_results": 2,
@@ -446,41 +498,15 @@
       "conflicts": [
         {
           "licenses": [
-            "CAT-3844273",
-            "CAT-3844273-A-T"
+            "CAT-3844273-A-T",
+            "CAT-3844273"
           ],
-          "reason": "Multiple different licenses: ['CAT-3844273', 'CAT-3844273-A-T']"
+          "reason": "Multiple different licenses: ['CAT-3844273-A-T', 'CAT-3844273']"
         }
       ],
       "total_results": 10,
       "name_variants": [
         "MARTINA TORRES PRATS"
-      ]
-    },
-    {
-      "canonical_name": "EX PARDINES GRAS PEDRO",
-      "canonical_license": "CT9121",
-      "conflicts": [
-        {
-          "licenses": [
-            "CT9121",
-            "CL9121"
-          ],
-          "reason": "CL/CT conflict: CL9121 vs CT9121 (same number 9121)"
-        }
-      ],
-      "total_results": 329,
-      "name_variants": [
-        "2 204 Pere Pardines Gras",
-        "4 74 Pere Pardines Gras M-50",
-        "5 68 Pere Pardines Gras M-55",
-        "5 74 Pere Pardines Gras M-55",
-        "6 10 Pere Pardines Gras M-50",
-        "6 2 (t) Pere Pardines Gras M-55",
-        "6 53 Pere Pardines Gras M-55",
-        "EX PARDINES GRAS PERE",
-        "PARDINES GRAS PERE",
-        "PERE PARDINES GRAS"
       ]
     },
     {
@@ -532,14 +558,9 @@
       "total_results": 346
     },
     {
-      "name": "EX PARDINES GRAS PEDRO",
+      "name": "PEDRO PARDINES GRAS",
       "license": "CT9121",
-      "total_results": 329
-    },
-    {
-      "name": "DIAZ JOSÉ MARCAL",
-      "license": "CT17220",
-      "total_results": 314
+      "total_results": 334
     },
     {
       "name": "LLUC SUBIROS BRASERO",
@@ -564,7 +585,7 @@
     {
       "name": "DIDAC RIOS MESEGUER",
       "license": "CAT-3742954",
-      "total_results": 280
+      "total_results": 284
     },
     {
       "name": "VICTOR JIMENEZ GARCIA",
@@ -574,7 +595,7 @@
     {
       "name": "ALVAREZ JOSÉ MARTIN MIGUEL",
       "license": "CL12544",
-      "total_results": 230
+      "total_results": 235
     },
     {
       "name": "NORA MONTOLIO AMARO",
@@ -594,7 +615,7 @@
     {
       "name": "AGUSTI ORIOL PAISANO",
       "license": "",
-      "total_results": 193
+      "total_results": 198
     },
     {
       "name": "CLARA ORTIZ DE LANDAZURI ONTOSO",
@@ -610,6 +631,11 @@
       "name": "LUIS SAEZ PEREZ",
       "license": "CT17487",
       "total_results": 185
+    },
+    {
+      "name": "PABLO ESTEVE HOSTALOT",
+      "license": "CL94383",
+      "total_results": 173
     }
   ]
 }

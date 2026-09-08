@@ -3,7 +3,7 @@
   "event_date": "23/12/2007",
   "event_location": "Cambrils",
   "event_src": "http://old.fcatletisme.cat/Pairelliure/pairelliure2008/resulcombicambrils231207.pdf",
-  "total_results": 35,
+  "total_results": 63,
   "results": [
     {
       "athlete_name": "AGUSTI ORIOL PASANO",
@@ -11,169 +11,29 @@
       "athlete_id": "",
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60 METRES LLISOS",
-      "performance": "5.80",
-      "wind": "0.0",
-      "internal_id": 216
-    },
-    {
-      "athlete_name": "DÍDAC RÍOS MESEGUER",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60 METRES LLISOS",
-      "performance": "5.54",
-      "wind": "0.0",
-      "internal_id": 193
-    },
-    {
-      "athlete_name": "JOSÉ MIGUEL MARTÍN ÁLVAREZ",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60 METRES LLISOS",
-      "performance": "5.41",
-      "wind": "0.0",
-      "internal_id": 15
-    },
-    {
-      "athlete_name": "PERE PARDINES GRAS",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60 METRES LLISOS",
-      "performance": "4.97",
-      "wind": "0.0",
-      "internal_id": 71
-    },
-    {
-      "athlete_name": "QUICO IBORRA MARTÍNEZ",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60 METRES LLISOS",
-      "performance": "4.59",
-      "wind": "0.0",
+      "performance": "7.4",
+      "wind": null,
       "internal_id": 1
     },
     {
       "athlete_name": "AGUSTI ORIOL PASANO",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "60 metres tanques (0.99)",
-      "raw_discipline_name": "60 METRES TANQUES",
-      "performance": "3.10",
+      "discipline": "Llargada",
+      "raw_discipline_name": "SALT DE LLARGADA",
+      "performance": "5.65",
       "wind": null,
-      "internal_id": 216
+      "internal_id": 2
     },
     {
-      "athlete_name": "QUICO IBORRA MARTÍNEZ",
+      "athlete_name": "AGUSTI ORIOL PASANO",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "60 metres tanques (1.067)",
-      "raw_discipline_name": "60 METRES TANQUES",
-      "performance": "2.90",
+      "discipline": "Llargada",
+      "raw_discipline_name": "SALT DE LLARGADA",
+      "performance": "5.80",
       "wind": null,
-      "internal_id": 1
-    },
-    {
-      "athlete_name": "JOSÉ MIGUEL MARTÍN ÁLVAREZ",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "discipline": "60 metres tanques (1.067)",
-      "raw_discipline_name": "60 METRES TANQUES",
-      "performance": "2.00",
-      "wind": null,
-      "internal_id": 15
-    },
-    {
-      "athlete_name": "JOSÉ MIGUEL MARTÍN ÁLVAREZ",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "discipline": "Pes (7.260 Kg)",
-      "raw_discipline_name": "LLANÇAMENT DE PES",
-      "performance": "8.62",
-      "wind": null,
-      "internal_id": 15
-    },
-    {
-      "athlete_name": "JOSÉ MIGUEL MARTÍN ÁLVAREZ",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "discipline": "Pes (7.260 Kg)",
-      "raw_discipline_name": "LLANÇAMENT DE PES",
-      "performance": "8.95",
-      "wind": null,
-      "internal_id": 15
-    },
-    {
-      "athlete_name": "JOSÉ MIGUEL MARTÍN ÁLVAREZ",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "discipline": "Pes (7.260 Kg)",
-      "raw_discipline_name": "LLANÇAMENT DE PES",
-      "performance": "8.66",
-      "wind": null,
-      "internal_id": 15
-    },
-    {
-      "athlete_name": "QUICO IBORRA MARTÍNEZ",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "discipline": "Pes (7.260 Kg)",
-      "raw_discipline_name": "LLANÇAMENT DE PES",
-      "performance": "8.20",
-      "wind": null,
-      "internal_id": 1
-    },
-    {
-      "athlete_name": "DÍDAC RÍOS MESEGUER",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "discipline": "Pes (7.260 Kg)",
-      "raw_discipline_name": "LLANÇAMENT DE PES",
-      "performance": "7.82",
-      "wind": null,
-      "internal_id": 193
-    },
-    {
-      "athlete_name": "DÍDAC RÍOS MESEGUER",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "discipline": "Pes (7.260 Kg)",
-      "raw_discipline_name": "LLANÇAMENT DE PES",
-      "performance": "8.08",
-      "wind": null,
-      "internal_id": 193
-    },
-    {
-      "athlete_name": "PERE PARDINES GRAS",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "discipline": "Pes (7.260 Kg)",
-      "raw_discipline_name": "LLANÇAMENT DE PES",
-      "performance": "7.28",
-      "wind": null,
-      "internal_id": 71
-    },
-    {
-      "athlete_name": "PERE PARDINES GRAS",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "discipline": "Pes (7.260 Kg)",
-      "raw_discipline_name": "LLANÇAMENT DE PES",
-      "performance": "7.53",
-      "wind": null,
-      "internal_id": 71
-    },
-    {
-      "athlete_name": "PERE PARDINES GRAS",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "discipline": "Pes (7.260 Kg)",
-      "raw_discipline_name": "LLANÇAMENT DE PES",
-      "performance": "7.18",
-      "wind": null,
-      "internal_id": 71
+      "internal_id": 3
     },
     {
       "athlete_name": "AGUSTI ORIOL PASANO",
@@ -183,7 +43,7 @@
       "raw_discipline_name": "LLANÇAMENT DE PES",
       "performance": "9.44",
       "wind": null,
-      "internal_id": 216
+      "internal_id": 4
     },
     {
       "athlete_name": "AGUSTI ORIOL PASANO",
@@ -193,17 +53,97 @@
       "raw_discipline_name": "LLANÇAMENT DE PES",
       "performance": "9.12",
       "wind": null,
-      "internal_id": 216
+      "internal_id": 5
     },
     {
       "athlete_name": "AGUSTI ORIOL PASANO",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "Pes (6 Kg)",
-      "raw_discipline_name": "LLANÇAMENT DE PES",
+      "discipline": "Alçada",
+      "raw_discipline_name": "SALT D'ALÇADA",
       "performance": "1.65",
       "wind": null,
-      "internal_id": 216
+      "internal_id": 6
+    },
+    {
+      "athlete_name": "AGUSTI ORIOL PASANO",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "60 metres tanques (0.99)",
+      "raw_discipline_name": "60 METRES TANQUES 1a. SÈRIE JUNIOR",
+      "performance": "8.9",
+      "wind": null,
+      "internal_id": 7
+    },
+    {
+      "athlete_name": "AGUSTI ORIOL PASANO",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "Perxa",
+      "raw_discipline_name": "SALT AMB PERXA",
+      "performance": "3.10",
+      "wind": null,
+      "internal_id": 8
+    },
+    {
+      "athlete_name": "AGUSTI ORIOL PASANO",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "1000 metres llisos",
+      "raw_discipline_name": "1.000 METRES LLISOS",
+      "performance": "3:08.2",
+      "wind": null,
+      "internal_id": 9
+    },
+    {
+      "athlete_name": "AGUSTI ORIOL PASANO",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "Heptatlo",
+      "raw_discipline_name": "HEPTATLÓ - CLASSIFICACIÓ FINAL TOTAL",
+      "performance": "3850",
+      "wind": null,
+      "internal_id": 10
+    },
+    {
+      "athlete_name": "DÍDAC RÍOS MESEGUER",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "60 metres llisos",
+      "raw_discipline_name": "60 METRES LLISOS",
+      "performance": "7.5",
+      "wind": null,
+      "internal_id": 11
+    },
+    {
+      "athlete_name": "DÍDAC RÍOS MESEGUER",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "Llargada",
+      "raw_discipline_name": "SALT DE LLARGADA",
+      "performance": "5.42",
+      "wind": null,
+      "internal_id": 12
+    },
+    {
+      "athlete_name": "DÍDAC RÍOS MESEGUER",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "Llargada",
+      "raw_discipline_name": "SALT DE LLARGADA",
+      "performance": "5.47",
+      "wind": null,
+      "internal_id": 13
+    },
+    {
+      "athlete_name": "DÍDAC RÍOS MESEGUER",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "Llargada",
+      "raw_discipline_name": "SALT DE LLARGADA",
+      "performance": "5.54",
+      "wind": null,
+      "internal_id": 14
     },
     {
       "athlete_name": "DÍDAC RÍOS MESEGUER",
@@ -211,9 +151,79 @@
       "athlete_id": "",
       "discipline": "Pes (7.260 Kg)",
       "raw_discipline_name": "LLANÇAMENT DE PES",
+      "performance": "7.82",
+      "wind": null,
+      "internal_id": 15
+    },
+    {
+      "athlete_name": "DÍDAC RÍOS MESEGUER",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "Pes (7.260 Kg)",
+      "raw_discipline_name": "LLANÇAMENT DE PES",
+      "performance": "8.08",
+      "wind": null,
+      "internal_id": 16
+    },
+    {
+      "athlete_name": "DÍDAC RÍOS MESEGUER",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "Alçada",
+      "raw_discipline_name": "SALT D'ALÇADA",
       "performance": "1.65",
       "wind": null,
-      "internal_id": 193
+      "internal_id": 17
+    },
+    {
+      "athlete_name": "DÍDAC RÍOS MESEGUER",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "60 metres tanques (1.067)",
+      "raw_discipline_name": "60 METRES TANQUES 3a. SÈRIE ABSOLUT",
+      "performance": "10.2",
+      "wind": null,
+      "internal_id": 18
+    },
+    {
+      "athlete_name": "JOSÉ MIGUEL MARTÍN ÁLVAREZ",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "60 metres llisos",
+      "raw_discipline_name": "60 METRES LLISOS",
+      "performance": "7.2",
+      "wind": null,
+      "internal_id": 19
+    },
+    {
+      "athlete_name": "JOSÉ MIGUEL MARTÍN ÁLVAREZ",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "Llargada",
+      "raw_discipline_name": "SALT DE LLARGADA",
+      "performance": "5.41",
+      "wind": null,
+      "internal_id": 20
+    },
+    {
+      "athlete_name": "JOSÉ MIGUEL MARTÍN ÁLVAREZ",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "Llargada",
+      "raw_discipline_name": "SALT DE LLARGADA",
+      "performance": "5.37",
+      "wind": null,
+      "internal_id": 21
+    },
+    {
+      "athlete_name": "JOSÉ MIGUEL MARTÍN ÁLVAREZ",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "Llargada",
+      "raw_discipline_name": "SALT DE LLARGADA",
+      "performance": "5.26",
+      "wind": null,
+      "internal_id": 22
     },
     {
       "athlete_name": "JOSÉ MIGUEL MARTÍN ÁLVAREZ",
@@ -221,9 +231,109 @@
       "athlete_id": "",
       "discipline": "Pes (7.260 Kg)",
       "raw_discipline_name": "LLANÇAMENT DE PES",
+      "performance": "8.62",
+      "wind": null,
+      "internal_id": 23
+    },
+    {
+      "athlete_name": "JOSÉ MIGUEL MARTÍN ÁLVAREZ",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "Pes (7.260 Kg)",
+      "raw_discipline_name": "LLANÇAMENT DE PES",
+      "performance": "8.95",
+      "wind": null,
+      "internal_id": 24
+    },
+    {
+      "athlete_name": "JOSÉ MIGUEL MARTÍN ÁLVAREZ",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "Pes (7.260 Kg)",
+      "raw_discipline_name": "LLANÇAMENT DE PES",
+      "performance": "8.66",
+      "wind": null,
+      "internal_id": 25
+    },
+    {
+      "athlete_name": "JOSÉ MIGUEL MARTÍN ÁLVAREZ",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "Alçada",
+      "raw_discipline_name": "SALT D'ALÇADA",
       "performance": "1.62",
       "wind": null,
-      "internal_id": 15
+      "internal_id": 26
+    },
+    {
+      "athlete_name": "JOSÉ MIGUEL MARTÍN ÁLVAREZ",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "Perxa",
+      "raw_discipline_name": "SALT AMB PERXA",
+      "performance": "2.00",
+      "wind": null,
+      "internal_id": 27
+    },
+    {
+      "athlete_name": "JOSÉ MIGUEL MARTÍN ÁLVAREZ",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "1000 metres llisos",
+      "raw_discipline_name": "1.000 METRES LLISOS",
+      "performance": "3:12.6",
+      "wind": null,
+      "internal_id": 28
+    },
+    {
+      "athlete_name": "JOSÉ MIGUEL MARTÍN ÁLVAREZ",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "Heptatlo",
+      "raw_discipline_name": "HEPTATLÓ - CLASSIFICACIÓ FINAL TOTAL",
+      "performance": "2784",
+      "wind": null,
+      "internal_id": 29
+    },
+    {
+      "athlete_name": "PERE PARDINES GRAS",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "60 metres llisos",
+      "raw_discipline_name": "60 METRES LLISOS",
+      "performance": "8.2",
+      "wind": null,
+      "internal_id": 30
+    },
+    {
+      "athlete_name": "PERE PARDINES GRAS",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "Llargada",
+      "raw_discipline_name": "SALT DE LLARGADA",
+      "performance": "4.85",
+      "wind": null,
+      "internal_id": 31
+    },
+    {
+      "athlete_name": "PERE PARDINES GRAS",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "Llargada",
+      "raw_discipline_name": "SALT DE LLARGADA",
+      "performance": "4.97",
+      "wind": null,
+      "internal_id": 32
+    },
+    {
+      "athlete_name": "PERE PARDINES GRAS",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "Llargada",
+      "raw_discipline_name": "SALT DE LLARGADA",
+      "performance": "4.66",
+      "wind": null,
+      "internal_id": 33
     },
     {
       "athlete_name": "PERE PARDINES GRAS",
@@ -231,129 +341,299 @@
       "athlete_id": "",
       "discipline": "Pes (7.260 Kg)",
       "raw_discipline_name": "LLANÇAMENT DE PES",
-      "performance": "1.59",
+      "performance": "7.28",
       "wind": null,
-      "internal_id": 71
+      "internal_id": 34
     },
     {
-      "athlete_name": "QUICO IBORRA MARTÍNEZ",
+      "athlete_name": "PERE PARDINES GRAS",
       "athlete_dob": "",
       "athlete_id": "",
       "discipline": "Pes (7.260 Kg)",
       "raw_discipline_name": "LLANÇAMENT DE PES",
+      "performance": "7.53",
+      "wind": null,
+      "internal_id": 35
+    },
+    {
+      "athlete_name": "PERE PARDINES GRAS",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "Pes (7.260 Kg)",
+      "raw_discipline_name": "LLANÇAMENT DE PES",
+      "performance": "7.18",
+      "wind": null,
+      "internal_id": 36
+    },
+    {
+      "athlete_name": "PERE PARDINES GRAS",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "Alçada",
+      "raw_discipline_name": "SALT D'ALÇADA",
+      "performance": "1.59",
+      "wind": null,
+      "internal_id": 37
+    },
+    {
+      "athlete_name": "PERE PARDINES GRAS",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "1000 metres llisos",
+      "raw_discipline_name": "1.000 METRES LLISOS",
+      "performance": "3:11.2",
+      "wind": null,
+      "internal_id": 38
+    },
+    {
+      "athlete_name": "PERE PARDINES GRAS",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "Heptatlo",
+      "raw_discipline_name": "HEPTATLÓ - CLASSIFICACIÓ FINAL TOTAL",
+      "performance": "2171",
+      "wind": null,
+      "internal_id": 39
+    },
+    {
+      "athlete_name": "IBORRA MARTINEZ FRANCISCO JOSE",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "60 metres llisos",
+      "raw_discipline_name": "60 METRES LLISOS",
+      "performance": "8.0",
+      "wind": null,
+      "internal_id": 40
+    },
+    {
+      "athlete_name": "IBORRA MARTINEZ FRANCISCO JOSE",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "Llargada",
+      "raw_discipline_name": "SALT DE LLARGADA",
+      "performance": "4.59",
+      "wind": null,
+      "internal_id": 41
+    },
+    {
+      "athlete_name": "IBORRA MARTINEZ FRANCISCO JOSE",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "Pes (7.260 Kg)",
+      "raw_discipline_name": "LLANÇAMENT DE PES",
+      "performance": "8.20",
+      "wind": null,
+      "internal_id": 42
+    },
+    {
+      "athlete_name": "IBORRA MARTINEZ FRANCISCO JOSE",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "Alçada",
+      "raw_discipline_name": "SALT D'ALÇADA",
       "performance": "1.20",
       "wind": null,
-      "internal_id": 1
+      "internal_id": 43
+    },
+    {
+      "athlete_name": "IBORRA MARTINEZ FRANCISCO JOSE",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "Perxa",
+      "raw_discipline_name": "SALT AMB PERXA",
+      "performance": "2.90",
+      "wind": null,
+      "internal_id": 44
+    },
+    {
+      "athlete_name": "ANNA SOLÉ FERRÉ",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "60 metres tanques (0.84)",
+      "raw_discipline_name": "60 METRES TANQUES FEMENÍ",
+      "performance": "10.3",
+      "wind": null,
+      "internal_id": 45
+    },
+    {
+      "athlete_name": "ANNA SOLÉ FERRÉ",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "Alçada",
+      "raw_discipline_name": "SALT D'ALÇADA FEMENÍ",
+      "performance": "1.50",
+      "wind": null,
+      "internal_id": 46
     },
     {
       "athlete_name": "ANNA SOLÉ FERRÉ",
       "athlete_dob": "",
       "athlete_id": "",
       "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "LLANÇAMENT DE PES",
+      "raw_discipline_name": "LLANÇAMENT DE PES FEMENÍ",
       "performance": "7.50",
       "wind": null,
-      "internal_id": 233
+      "internal_id": 47
     },
     {
       "athlete_name": "ANNA SOLÉ FERRÉ",
       "athlete_dob": "",
       "athlete_id": "",
       "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "LLANÇAMENT DE PES",
+      "raw_discipline_name": "LLANÇAMENT DE PES FEMENÍ",
       "performance": "7.28",
       "wind": null,
-      "internal_id": 233
+      "internal_id": 48
     },
     {
       "athlete_name": "ANNA SOLÉ FERRÉ",
       "athlete_dob": "",
       "athlete_id": "",
       "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "LLANÇAMENT DE PES",
+      "raw_discipline_name": "LLANÇAMENT DE PES FEMENÍ",
       "performance": "7.80",
       "wind": null,
-      "internal_id": 233
-    },
-    {
-      "athlete_name": "BEATRIU MALLA FERER",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "discipline": "Pes (3 Kg)",
-      "raw_discipline_name": "LLANÇAMENT DE PES",
-      "performance": "5.05",
-      "wind": null,
-      "internal_id": 242
-    },
-    {
-      "athlete_name": "BEATRIU MALLA FERER",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "discipline": "Pes (3 Kg)",
-      "raw_discipline_name": "LLANÇAMENT DE PES",
-      "performance": "5.50",
-      "wind": null,
-      "internal_id": 242
-    },
-    {
-      "athlete_name": "BEATRIU MALLA FERER",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "discipline": "Pes (3 Kg)",
-      "raw_discipline_name": "LLANÇAMENT DE PES",
-      "performance": "5.57",
-      "wind": null,
-      "internal_id": 242
+      "internal_id": 49
     },
     {
       "athlete_name": "ANNA SOLÉ FERRÉ",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "LLANÇAMENT DE PES",
+      "discipline": "Llargada",
+      "raw_discipline_name": "SALT DE LLARGADA FEMENÍ",
       "performance": "4.95",
       "wind": null,
-      "internal_id": 233
+      "internal_id": 50
     },
     {
       "athlete_name": "ANNA SOLÉ FERRÉ",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "LLANÇAMENT DE PES",
+      "discipline": "Llargada",
+      "raw_discipline_name": "SALT DE LLARGADA FEMENÍ",
       "performance": "4.89",
       "wind": null,
-      "internal_id": 233
+      "internal_id": 51
+    },
+    {
+      "athlete_name": "ANNA SOLÉ FERRÉ",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "800 metres llisos",
+      "raw_discipline_name": "800 METRES LLISOS FEMENÍ",
+      "performance": "2:55.8",
+      "wind": null,
+      "internal_id": 52
+    },
+    {
+      "athlete_name": "ANNA SOLÉ FERRÉ",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "Pentatló",
+      "raw_discipline_name": "PENTATLÓ - CLASSIFICACIÓ FINAL TOTAL",
+      "performance": "2572",
+      "wind": null,
+      "internal_id": 53
+    },
+    {
+      "athlete_name": "BEATRIU MALLA FERER",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "60 metres tanques (0.76)",
+      "raw_discipline_name": "60 METRES TANQUES FEMENÍ",
+      "performance": "10.8",
+      "wind": null,
+      "internal_id": 54
+    },
+    {
+      "athlete_name": "BEATRIU MALLA FERER",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "Alçada",
+      "raw_discipline_name": "SALT D'ALÇADA FEMENÍ",
+      "performance": "1.35",
+      "wind": null,
+      "internal_id": 55
     },
     {
       "athlete_name": "BEATRIU MALLA FERER",
       "athlete_dob": "",
       "athlete_id": "",
       "discipline": "Pes (3 Kg)",
-      "raw_discipline_name": "LLANÇAMENT DE PES",
+      "raw_discipline_name": "LLANÇAMENT DE PES FEMENÍ",
+      "performance": "5.05",
+      "wind": null,
+      "internal_id": 56
+    },
+    {
+      "athlete_name": "BEATRIU MALLA FERER",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "Pes (3 Kg)",
+      "raw_discipline_name": "LLANÇAMENT DE PES FEMENÍ",
+      "performance": "5.50",
+      "wind": null,
+      "internal_id": 57
+    },
+    {
+      "athlete_name": "BEATRIU MALLA FERER",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "Pes (3 Kg)",
+      "raw_discipline_name": "LLANÇAMENT DE PES FEMENÍ",
+      "performance": "5.57",
+      "wind": null,
+      "internal_id": 58
+    },
+    {
+      "athlete_name": "BEATRIU MALLA FERER",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "Llargada",
+      "raw_discipline_name": "SALT DE LLARGADA FEMENÍ",
       "performance": "4.35",
       "wind": null,
-      "internal_id": 242
+      "internal_id": 59
     },
     {
       "athlete_name": "BEATRIU MALLA FERER",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "Pes (3 Kg)",
-      "raw_discipline_name": "LLANÇAMENT DE PES",
+      "discipline": "Llargada",
+      "raw_discipline_name": "SALT DE LLARGADA FEMENÍ",
       "performance": "4.16",
       "wind": null,
-      "internal_id": 242
+      "internal_id": 60
     },
     {
       "athlete_name": "BEATRIU MALLA FERER",
       "athlete_dob": "",
       "athlete_id": "",
-      "discipline": "Pes (3 Kg)",
-      "raw_discipline_name": "LLANÇAMENT DE PES",
+      "discipline": "Llargada",
+      "raw_discipline_name": "SALT DE LLARGADA FEMENÍ",
       "performance": "4.10",
       "wind": null,
-      "internal_id": 242
+      "internal_id": 61
+    },
+    {
+      "athlete_name": "BEATRIU MALLA FERER",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "800 metres llisos",
+      "raw_discipline_name": "800 METRES LLISOS FEMENÍ",
+      "performance": "2:50.9",
+      "wind": null,
+      "internal_id": 62
+    },
+    {
+      "athlete_name": "BEATRIU MALLA FERER",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "Pentatló",
+      "raw_discipline_name": "PENTATLÓ - CLASSIFICACIÓ FINAL TOTAL",
+      "performance": "2079",
+      "wind": null,
+      "internal_id": 63
     }
   ]
 }

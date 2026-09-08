@@ -5,18 +5,18 @@ Heights/weights follow the FCA *Proves autoritzades* tables (stable for the 2005
 combined events resolved per athlete from the PDF birth-year column.
 
 - files: 50
-- results: 618
-- mapped: 618
+- results: 613
+- mapped: 613
 - review (left unchanged): 0
 
 | count | raw discipline | official discipline |
 |---:|---|---|
 | 31 | `PROVA:      LLARGADA CADET-ABS. M` | `Llargada` |
 | 29 | `LLARGADA Benjamí Femení` | `Llargada` |
-| 28 | `LLANÇAMENT DE PES MASCULÍ` | `Pes (7.260 Kg)` |
+| 27 | `LLANÇAMENT DE PES MASCULÍ` | `Pes (7.260 Kg)` |
 | 27 | `SALT DE LLARGADA MASCULÍ` | `Llargada` |
-| 24 | `Salt d'alçada M` | `Alçada` |
 | 23 | `60 METRES LLISOS MASCULINS` | `60 metres llisos` |
+| 23 | `Salt d'alçada M` | `Alçada` |
 | 22 | `LLANÇAMENT DE MARTELL FEMENÍ` | `Martell (4 Kg)` |
 | 19 | `LLANÇAMENT DE PES` | `Pes (7.260 Kg)` |
 | 16 | `60 METRES TANQUES MASCULINS` | `60 metres tanques (1.067)` |
@@ -30,7 +30,7 @@ combined events resolved per athlete from the PDF birth-year column.
 | 10 | `LLARGADA Aleví Masculí` | `Llargada` |
 | 9 | `1500 METRES LLISOS MASCULINS` | `1500 metres llisos` |
 | 9 | `3000 METRES LLISOS MASCULINS` | `3000 metres llisos` |
-| 9 | `60 METRES LLISOS` | `60 metres llisos` |
+| 8 | `60 METRES LLISOS` | `60 metres llisos` |
 | 8 | `Javelina Absolut                        800 g` | `Javelina (800 g)` |
 | 8 | `LLANÇAMENT DE PES` | `Pes (5 Kg)` |
 | 8 | `LLARGADA Infantil Masculí` | `Llargada` |
@@ -96,14 +96,13 @@ combined events resolved per athlete from the PDF birth-year column.
 | 1 | `110 METRES TANQUES JUVENIL MASCULÍ` | `110 metres tanques (0.91)` |
 | 1 | `110 METRES TANQUES MASCULINS` | `110 metres tanques (1.067)` |
 | 1 | `110 METRES TANQUES MÀSTER MASCULÍ` | `110 metres tanques (1.067)` |
-| 1 | `3000 METRES OBSTACLES MASCULINS` | `3000 metres obstacles` |
+| 1 | `3000 METRES OBSTACLES MASCULINS` | `3000 metres llisos` |
 | 1 | `400 metres llisos - Classificació final masculina` | `400 metres llisos` |
 | 1 | `60 METRES LLISOS CADETS FEMENINS` | `60 metres llisos` |
 | 1 | `60 METRES LLISOS FEMENINS` | `60 metres llisos` |
 | 1 | `60 METRES LLISOS JUVENIL FEMENINS` | `60 metres llisos` |
 | 1 | `60 METRES LLISOS JUVENIL MASCULÍ` | `60 metres llisos` |
 | 1 | `60 METRES TANQUES` | `60 metres tanques (0.91)` |
-| 1 | `60 METRES TANQUES` | `60 metres tanques (0.76)` |
 | 1 | `60 METRES TANQUES FEMENINS` | `60 metres tanques (0.76)` |
 | 1 | `60 METRES TANQUES JUVENIL FEMENINS` | `60 metres tanques (0.76)` |
 | 1 | `60 METRES TANQUES JUVENIL MASCULINS` | `60 metres tanques (0.91)` |
@@ -111,7 +110,6 @@ combined events resolved per athlete from the PDF birth-year column.
 | 1 | `800 METRES LLISOS JUVENIL MASCULÍ` | `800 metres llisos` |
 | 1 | `ALÇADA AM` | `Alçada` |
 | 1 | `ALÇADA Infantil Masculí` | `Alçada` |
-| 1 | `ALÇADA MASCULII                                                    1,00` | `Alçada` |
 | 1 | `CLASSIFICACIÓ PROVES COMBINADES` | `Decatló (Abs)` |
 | 1 | `LLANÇAMENT DE MARTELL PESAT MASCULÍ 50+` | `4x400` |
 | 1 | `LLANÇAMENT DE PES MASCULI` | `Pes (7.260 Kg)` |

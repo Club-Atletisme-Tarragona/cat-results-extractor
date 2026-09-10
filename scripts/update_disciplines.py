@@ -1516,17 +1516,25 @@ def map_discipline(raw: str, event_name: str, filename: str, athlete_name: str =
         dist = int(m.group(1).replace(".", ""))
         return f"{dist} metres llisos", None
 
+    # Marató / Mitja Marató race walk — MUST be checked BEFORE the
+    # running-marathon rule below (issue #12): raw names like
+    # "Maratón Marcha Hombres" normalize to "... MARXA ..." and would
+    # otherwise be captured by the bare ^MARAT[OÓ]N? rule as "Marato"
+    # (running marathon) instead of the race-walk (Ruta) rows.
+    # The half distance also carries a Spanish official alias (DISCIPLINES.md id 96
+    # "Medio maratón Marcha"), so MEDIO MARATÓ joins the half rule: "Medio maratón
+    # Marcha Masc" would otherwise fall through to the full-marathon rule below and
+    # map to id 92 (Marató Marxa (Ruta)).
+    if re.search(r"(?:MITJA|MEDIO) MARATÓ.*MARXA|MARXA.*(?:MITJA|MEDIO) MARATÓ", up):
+        return "Mitja Marató Marxa (Ruta)", None
+    if re.search(r"MARATÓ.*MARXA|MARXA.*MARATÓ", up):
+        return "Marató Marxa (Ruta)", None
+
     # Marató / Mitja Marató (running)
     if re.match(r"^MITJA MARAT[OÓ]\b", up):
         return "Mitja Marato", None
     if re.match(r"^MARAT[OÓ]N?\b|^MARATÓ\b", up):
         return "Marato", None
-
-    # Marató / Mitja Marató race walk
-    if re.search(r"MITJA MARATÓ.*MARXA|MARXA.*MITJA MARATÓ", up):
-        return "Mitja Marató Marxa (Ruta)", None
-    if re.search(r"MARATÓ.*MARXA|MARXA.*MARATÓ", up):
-        return "Marató Marxa (Ruta)", None
 
     # Marxa (race walk) — before the bare-'m' rule ("2.000m Marxa MASC.")
     m = re.match(r"^(\d{1,2}(?:\.\d{3})?|\d{3,5}(?:\.\d{3})?)\s*(?:M\.?|METRES)?\s*MARXA\b", up)
@@ -1542,12 +1550,15 @@ def map_discipline(raw: str, event_name: str, filename: str, athlete_name: str =
         dist = int(m.group(1).replace(".", ""))
         return f"{dist} metres llisos", None
 
-    # "2KM Aleví Femení" km-distance form
+    # "2KM Aleví Femení" / "5 km Marcha sub-16 Hombres" km-distance form.
+    # RFEA road-walk championships use the km form: per issue #12 these map
+    # to the (Ruta) rows in DISCIPLINES.md. 1000/2000 km-forms keep the
+    # track names (no ruta rows exist for those distances).
     m = re.match(r"^(\d{1,2})\s*KM\b", up)
     if m:
         dist = int(m.group(1)) * 1000
-        table = {1000: "1000 metres marxa", 2000: "2000 metres marxa", 3000: "3000 metres marxa",
-                 5000: "5000 metres marxa", 10000: "10 km marxa"}
+        table = {1000: "1000 metres marxa", 2000: "2000 metres marxa",
+                 3000: "3 km marxa", 5000: "5K marxa (Ruta)", 10000: "10K marxa (Ruta)"}
         return table.get(dist), (None if dist in table else "unknown km distance")
 
     # Bare-'m' distance names ("1.500 m juvenil a absolut masculí", "60m FEM. AL")
@@ -1908,10 +1919,21 @@ def process_file(path: Path, dry_run: bool):
         path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     return len(results), mapping_counts, review, changed
 
-def write_report(season: str, files: int, total: int, counts: Counter, review: list):
-    out = REPO_ROOT / "seasons" / season / "discipline_mapping_report.md"
+def write_report(season: str, files: int, total: int, counts: Counter, review: list,
+                 out: Path = None, label: str = None):
+    """Write the mapping report.
+
+    season: season key; also selects the season-only suspect table. Pass None for
+            non-season targets, so no season suspect table leaks into their report.
+    label:  report title. Defaults to "season <season>". --json-dir runs pass the
+            real target ("json", "json/imported") so the header cannot claim a
+            season that was never processed.
+    """
+    if out is None:
+        out = REPO_ROOT / "seasons" / season / "discipline_mapping_report.md"
+    title = label if label is not None else f"season {season}"
     lines = [
-        f"# Discipline mapping report — season {season}", "",
+        f"# Discipline mapping report — {title}", "",
         "Original raw values preserved in `raw_discipline_name` (inserted after `discipline`).",
         "Heights/weights follow the FCA *Proves autoritzades* tables (stable for the 2005 era: "
         "cadet=Sub16, juvenil=Sub18, junior=Sub20, promesa=Sub23). Un-suffixed events in open "
@@ -1924,7 +1946,7 @@ def write_report(season: str, files: int, total: int, counts: Counter, review: l
     for (raw, official), cnt in sorted(counts.items(), key=lambda kv: (-kv[1], kv[0][0])):
         lines.append(f"| {cnt} | `{raw}` | `{official}` |")
     lines += [""]
-    suspects = SUSPECT_ENTRIES.get(season, {})
+    suspects = SUSPECT_ENTRIES.get(season, {}) if season else {}
     if suspects:
         lines += ["## Suspect entries (re-extraction recommended before DB import)", "",
                   "Marks stored under a shifted event name, or mangled performances,", 
@@ -1970,7 +1992,8 @@ def main():
             item["file"] = f.name
         all_review.extend(review)
 
-    print(f"season {args.season}: {len(files)} files, {total} results")
+    target_label = args.json_dir if args.json_dir else f"season {args.season}"
+    print(f"{target_label}: {len(files)} files, {total} results")
     print(f"mapped: {mapped}, review: {len(all_review)}")
     print("\n=== mapping (raw -> official) ===")
     for (raw, official), cnt in sorted(all_counts.items(), key=lambda kv: (-kv[1], kv[0][0])):
@@ -1985,7 +2008,13 @@ def main():
     if not args.dry_run and all_review:
         print("\nNOTE: review items were left unchanged; re-run after fixing rules.")
     if not args.dry_run:
-        report = write_report(args.season, len(files), total, all_counts, all_review)
+        report_path = None
+        if args.json_dir:
+            # json/ re-maps get their own report, never the season one
+            report_path = REPO_ROOT / args.json_dir / "discipline_mapping_report.md"
+        report = write_report(None if args.json_dir else args.season,
+                              len(files), total, all_counts, all_review,
+                              out=report_path, label=target_label)
         print(f"\nreport: {report}")
 
 if __name__ == "__main__":

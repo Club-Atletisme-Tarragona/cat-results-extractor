@@ -3050,9 +3050,18 @@ def parse_with_section_aware(text, competicio, data_comp, source_url=None):
 
     # Also process SUMARIO sections (track events with series)
     sumarios = find_sumario_sections(lines)
+    section_start_lines = [s for s, _ in sections]
     for sumario_idx, event_name in sumarios:
-        # Find the end of this sumario section - stop at next event section header
-        # or next SUMARIO, whichever comes first
+        # Find the end of this sumario section. The scan below locates it: next
+        # SUMARIO, page boundary, schedule line or event name after a date header.
+        # sec_end MUST start at len(lines): the loop uses "sec_end != len(lines)"
+        # as its "end found" sentinel, so pre-setting it would break the guards.
+        # Issue #13: the next section start from find_section_boundaries is applied
+        # as an OUTER CLAMP after the loop (see below), so it can only shrink the
+        # window, never widen it. Without the clamp, a sumario whose next SUMARIO
+        # sits beyond the +500-line scan window kept sec_end == len(lines) and the
+        # sumario parser swallowed every following section, attributing other
+        # events' marks to this event (e.g. girls' 80m marks under "80m S14M").
         sec_end = len(lines)
         for j in range(sumario_idx + 1, min(sumario_idx + 500, len(lines))):
             stripped = lines[j].strip()
@@ -3110,6 +3119,13 @@ def parse_with_section_aware(text, competicio, data_comp, source_url=None):
                         sec_end = j
                         break
             if sec_end != len(lines):
+                break
+        
+        # Issue #13 clamp: the heuristic end is an upper bound candidate, the next
+        # detected section start is the outer one. min() only ever tightens sec_end.
+        for s in section_start_lines:
+            if s > sumario_idx:
+                sec_end = min(sec_end, s)
                 break
         
         sumario_results = parse_sumario_section(lines, sumario_idx + 1, event_name, sec_end, competicio, data_comp)

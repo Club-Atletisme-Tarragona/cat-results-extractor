@@ -4,9 +4,9 @@ Original raw values preserved in `raw_discipline_name` (inserted after `discipli
 Heights/weights follow the FCA *Proves autoritzades* tables (stable for the 2005 era: cadet=Sub16, juvenil=Sub18, junior=Sub20, promesa=Sub23). Un-suffixed events in open meets use the absolut spec (verified against the source PDFs). Mixed absolut-junior
 combined events resolved per athlete from the PDF birth-year column.
 
-- files: 103
-- results: 3477
-- mapped: 3477
+- files: 104
+- results: 3482
+- mapped: 3482
 - review (left unchanged): 0
 
 | count | raw discipline | official discipline |
@@ -519,6 +519,7 @@ combined events resolved per athlete from the PDF birth-year column.
 | 1 | `100m tanques Masculins` | `100 metres tanques (0.91)` |
 | 1 | `100m vallas (0,91) Hombres AL U16M` | `100 metres tanques (0.91)` |
 | 1 | `100mt (0,84) Abs F (C)` | `100 metres tanques (0.84)` |
+| 1 | `10km Marcha FEM. RUTA` | `10K marxa (Ruta)` |
 | 1 | `110 m vallas (1,067) Hombres` | `110 metres tanques (1.067)` |
 | 1 | `110 m vallas Hombres` | `110 metres tanques (1.067)` |
 | 1 | `110m vallas (0,914) Hombres AL U18M` | `110 metres tanques (0.91)` |
@@ -538,6 +539,7 @@ combined events resolved per athlete from the PDF birth-year column.
 | 1 | `200m S20F/AbsF` | `200 metres llisos` |
 | 1 | `220m tanques femenins` | `220 metres tanques (0.762)` |
 | 1 | `220m vallas (0,76) Hombres AL` | `220 metres tanques (0.762)` |
+| 1 | `2km Marcha MASC RUTA` | `2000 metres marxa` |
 | 1 | `3.000 m Hombres` | `3000 metres llisos` |
 | 1 | `3.000 m Marcha F60` | `3000 metres marxa` |
 | 1 | `3.000 m Marcha Mujeres pista` | `3000 metres marxa` |
@@ -584,6 +586,8 @@ combined events resolved per athlete from the PDF birth-year column.
 | 1 | `5.000 m Marcha Mujeres pista` | `5000 metres marxa` |
 | 1 | `5.000 m Marxa Dones Master F45` | `5000 metres marxa` |
 | 1 | `5.000m Marcha FEM. en pista` | `5000 metres marxa` |
+| 1 | `5km Marcha FEM RUTA` | `5K marxa (Ruta)` |
+| 1 | `5km Marcha MASC RUTA` | `5K marxa (Ruta)` |
 | 1 | `600m Femení PC` | `600 metres llisos` |
 | 1 | `600m Hombres PC` | `600 metres llisos` |
 | 1 | `600m Masculins U14M` | `600 metres llisos` |
@@ -656,6 +660,7 @@ combined events resolved per athlete from the PDF birth-year column.
 | 1 | `Maratón Marcha Mujeres Master` | `Marató Marxa (Ruta)` |
 | 1 | `Maratón Marcha Mujeres Master F45` | `Marató Marxa (Ruta)` |
 | 1 | `Martillo (6kg) MASC.` | `Martell (6 kg)` |
+| 1 | `Medio maratón Marcha Masc` | `Marató Marxa (Ruta)` |
 | 1 | `Pentathlon JUVMujeres PC-aire libre` | `Pentatló` |
 | 1 | `Pentathlon Mujeres PC` | `Pentatló` |
 | 1 | `Pentathlon Vet. Hombres. PC Master M60` | `Pentatló` |

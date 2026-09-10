@@ -4,9 +4,9 @@ Original raw values preserved in `raw_discipline_name` (inserted after `discipli
 Heights/weights follow the FCA *Proves autoritzades* tables (stable for the 2005 era: cadet=Sub16, juvenil=Sub18, junior=Sub20, promesa=Sub23). Un-suffixed events in open meets use the absolut spec (verified against the source PDFs). Mixed absolut-junior
 combined events resolved per athlete from the PDF birth-year column.
 
-- files: 30
-- results: 406
-- mapped: 406
+- files: 29
+- results: 401
+- mapped: 401
 - review (left unchanged): 0
 
 | count | raw discipline | official discipline |
@@ -94,12 +94,10 @@ combined events resolved per athlete from the PDF birth-year column.
 | 1 | `1000m Sub20 Masculí PC` | `1000 metres llisos` |
 | 1 | `100m Abs M` | `100 metres llisos` |
 | 1 | `100m F` | `100 metres llisos` |
-| 1 | `10km Marcha FEM. RUTA` | `10K marxa (Ruta)` |
 | 1 | `110m vallas (0,914) Hombres AL` | `110 metres tanques (0.91)` |
 | 1 | `110m vallas Hombres` | `110 metres tanques (1.067)` |
 | 1 | `2000m Sub-12 Masculí` | `2000 metres llisos` |
 | 1 | `200m Mujeres PC` | `200 metres llisos` |
-| 1 | `2km Marcha MASC RUTA` | `2000 metres marxa` |
 | 1 | `3.000m Marxa Femení PC Master F45` | `3000 metres marxa` |
 | 1 | `3.000m Marxa Masculí PC Master M55` | `3000 metres marxa` |
 | 1 | `400m Hombres AL` | `400 metres llisos` |
@@ -109,8 +107,6 @@ combined events resolved per athlete from the PDF birth-year column.
 | 1 | `5000m Máster-60W Femení` | `5000 metres llisos` |
 | 1 | `5000m Sub-16 Femení` | `5000 metres llisos` |
 | 1 | `5000m Sub-16 Masculí` | `5000 metres llisos` |
-| 1 | `5km Marcha FEM RUTA` | `5K marxa (Ruta)` |
-| 1 | `5km Marcha MASC RUTA` | `5K marxa (Ruta)` |
 | 1 | `60 m vallas Hombres` | `60 metres tanques (1.067)` |
 | 1 | `60m Sub18 Masculí PC` | `60 metres llisos` |
 | 1 | `60m Sub20 Masculí PC` | `60 metres llisos` |
@@ -134,7 +130,6 @@ combined events resolved per athlete from the PDF birth-year column.
 | 1 | `Maratón Hombres M45` | `Marato` |
 | 1 | `Maratón Master Hombres Clubes` | `Marato` |
 | 1 | `Martillo (5kg) Hombres` | `Martell (5 kg)` |
-| 1 | `Medio maratón Marcha Masc` | `Marató Marxa (Ruta)` |
 | 1 | `Pentatló Sub18 Femení PC` | `Pentatló` |
 | 1 | `Pentatló Sub20 Femení PC` | `Pentatló` |
 | 1 | `Perxa Femení PC` | `Perxa` |

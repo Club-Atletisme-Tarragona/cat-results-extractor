@@ -451,6 +451,8 @@ json/              # events from current season 2025-2026
   imported/        # files processed with a 3rd party app
 ```
 
+**Rule:** files in `json/imported/` processed/modified by our extractors must be moved back to `json/` so the performance results are included in the database import.
+
 ## Filtering Rules
 
 - **ONLY** CA Tarragona athletes: club name = "CA Tarragona" or club code = "CATT"

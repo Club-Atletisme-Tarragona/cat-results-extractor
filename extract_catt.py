@@ -3050,11 +3050,22 @@ def parse_with_section_aware(text, competicio, data_comp, source_url=None):
 
     # Also process SUMARIO sections (track events with series)
     sumarios = find_sumario_sections(lines)
+    section_start_lines = [s for s, _ in sections]
     for sumario_idx, event_name in sumarios:
         # Find the end of this sumario section - stop at next event section header
-        # or next SUMARIO, whichever comes first
+        # or next SUMARIO, whichever comes first.
+        # Issue #13 fix: bound the sumario by the next section start detected by
+        # find_section_boundaries. The previous heuristic scanned only +500 lines
+        # for Spanish-only event patterns; when the next SUMARIO was further away,
+        # sec_end stayed at len(lines) and the sumario parser swallowed every
+        # following section, attributing other events' marks to this event
+        # (e.g. girls' 80m marks under "80m S14M").
         sec_end = len(lines)
-        for j in range(sumario_idx + 1, min(sumario_idx + 500, len(lines))):
+        for s in section_start_lines:
+            if s > sumario_idx + 1:
+                sec_end = s
+                break
+        for j in range(sumario_idx + 1, min(sec_end, len(lines))):
             stripped = lines[j].strip()
             # Stop at next SUMARIO
             if 'SUMARIO' in stripped:

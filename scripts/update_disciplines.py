@@ -1516,17 +1516,21 @@ def map_discipline(raw: str, event_name: str, filename: str, athlete_name: str =
         dist = int(m.group(1).replace(".", ""))
         return f"{dist} metres llisos", None
 
+    # Marató / Mitja Marató race walk — MUST be checked BEFORE the
+    # running-marathon rule below (issue #12): raw names like
+    # "Maratón Marcha Hombres" normalize to "... MARXA ..." and would
+    # otherwise be captured by the bare ^MARAT[OÓ]N? rule as "Marato"
+    # (running marathon) instead of the race-walk (Ruta) rows.
+    if re.search(r"MITJA MARATÓ.*MARXA|MARXA.*MITJA MARATÓ", up):
+        return "Mitja Marató Marxa (Ruta)", None
+    if re.search(r"MARATÓ.*MARXA|MARXA.*MARATÓ", up):
+        return "Marató Marxa (Ruta)", None
+
     # Marató / Mitja Marató (running)
     if re.match(r"^MITJA MARAT[OÓ]\b", up):
         return "Mitja Marato", None
     if re.match(r"^MARAT[OÓ]N?\b|^MARATÓ\b", up):
         return "Marato", None
-
-    # Marató / Mitja Marató race walk
-    if re.search(r"MITJA MARATÓ.*MARXA|MARXA.*MITJA MARATÓ", up):
-        return "Mitja Marató Marxa (Ruta)", None
-    if re.search(r"MARATÓ.*MARXA|MARXA.*MARATÓ", up):
-        return "Marató Marxa (Ruta)", None
 
     # Marxa (race walk) — before the bare-'m' rule ("2.000m Marxa MASC.")
     m = re.match(r"^(\d{1,2}(?:\.\d{3})?|\d{3,5}(?:\.\d{3})?)\s*(?:M\.?|METRES)?\s*MARXA\b", up)
@@ -1542,12 +1546,15 @@ def map_discipline(raw: str, event_name: str, filename: str, athlete_name: str =
         dist = int(m.group(1).replace(".", ""))
         return f"{dist} metres llisos", None
 
-    # "2KM Aleví Femení" km-distance form
+    # "2KM Aleví Femení" / "5 km Marcha sub-16 Hombres" km-distance form.
+    # RFEA road-walk championships use the km form: per issue #12 these map
+    # to the (Ruta) rows in DISCIPLINES.md. 1000/2000 km-forms keep the
+    # track names (no ruta rows exist for those distances).
     m = re.match(r"^(\d{1,2})\s*KM\b", up)
     if m:
         dist = int(m.group(1)) * 1000
-        table = {1000: "1000 metres marxa", 2000: "2000 metres marxa", 3000: "3000 metres marxa",
-                 5000: "5000 metres marxa", 10000: "10 km marxa"}
+        table = {1000: "1000 metres marxa", 2000: "2000 metres marxa",
+                 3000: "3 km marxa", 5000: "5K marxa (Ruta)", 10000: "10K marxa (Ruta)"}
         return table.get(dist), (None if dist in table else "unknown km distance")
 
     # Bare-'m' distance names ("1.500 m juvenil a absolut masculí", "60m FEM. AL")
@@ -1908,8 +1915,10 @@ def process_file(path: Path, dry_run: bool):
         path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     return len(results), mapping_counts, review, changed
 
-def write_report(season: str, files: int, total: int, counts: Counter, review: list):
-    out = REPO_ROOT / "seasons" / season / "discipline_mapping_report.md"
+def write_report(season: str, files: int, total: int, counts: Counter, review: list,
+                 out: Path = None):
+    if out is None:
+        out = REPO_ROOT / "seasons" / season / "discipline_mapping_report.md"
     lines = [
         f"# Discipline mapping report — season {season}", "",
         "Original raw values preserved in `raw_discipline_name` (inserted after `discipline`).",
@@ -1985,7 +1994,12 @@ def main():
     if not args.dry_run and all_review:
         print("\nNOTE: review items were left unchanged; re-run after fixing rules.")
     if not args.dry_run:
-        report = write_report(args.season, len(files), total, all_counts, all_review)
+        report_path = None
+        if args.json_dir:
+            # json/ re-maps get their own report, never the season one
+            report_path = REPO_ROOT / args.json_dir / "discipline_mapping_report.md"
+        report = write_report(args.season, len(files), total, all_counts, all_review,
+                              out=report_path)
         print(f"\nreport: {report}")
 
 if __name__ == "__main__":

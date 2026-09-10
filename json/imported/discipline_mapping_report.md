@@ -1,4 +1,4 @@
-# Discipline mapping report — season 2005
+# Discipline mapping report — json/imported
 
 Original raw values preserved in `raw_discipline_name` (inserted after `discipline`).
 Heights/weights follow the FCA *Proves autoritzades* tables (stable for the 2005 era: cadet=Sub16, juvenil=Sub18, junior=Sub20, promesa=Sub23). Un-suffixed events in open meets use the absolut spec (verified against the source PDFs). Mixed absolut-junior

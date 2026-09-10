@@ -1521,7 +1521,11 @@ def map_discipline(raw: str, event_name: str, filename: str, athlete_name: str =
     # "Maratón Marcha Hombres" normalize to "... MARXA ..." and would
     # otherwise be captured by the bare ^MARAT[OÓ]N? rule as "Marato"
     # (running marathon) instead of the race-walk (Ruta) rows.
-    if re.search(r"MITJA MARATÓ.*MARXA|MARXA.*MITJA MARATÓ", up):
+    # The half distance also carries a Spanish official alias (DISCIPLINES.md id 96
+    # "Medio maratón Marcha"), so MEDIO MARATÓ joins the half rule: "Medio maratón
+    # Marcha Masc" would otherwise fall through to the full-marathon rule below and
+    # map to id 92 (Marató Marxa (Ruta)).
+    if re.search(r"(?:MITJA|MEDIO) MARATÓ.*MARXA|MARXA.*(?:MITJA|MEDIO) MARATÓ", up):
         return "Mitja Marató Marxa (Ruta)", None
     if re.search(r"MARATÓ.*MARXA|MARXA.*MARATÓ", up):
         return "Marató Marxa (Ruta)", None
@@ -1916,11 +1920,20 @@ def process_file(path: Path, dry_run: bool):
     return len(results), mapping_counts, review, changed
 
 def write_report(season: str, files: int, total: int, counts: Counter, review: list,
-                 out: Path = None):
+                 out: Path = None, label: str = None):
+    """Write the mapping report.
+
+    season: season key; also selects the season-only suspect table. Pass None for
+            non-season targets, so no season suspect table leaks into their report.
+    label:  report title. Defaults to "season <season>". --json-dir runs pass the
+            real target ("json", "json/imported") so the header cannot claim a
+            season that was never processed.
+    """
     if out is None:
         out = REPO_ROOT / "seasons" / season / "discipline_mapping_report.md"
+    title = label if label is not None else f"season {season}"
     lines = [
-        f"# Discipline mapping report — season {season}", "",
+        f"# Discipline mapping report — {title}", "",
         "Original raw values preserved in `raw_discipline_name` (inserted after `discipline`).",
         "Heights/weights follow the FCA *Proves autoritzades* tables (stable for the 2005 era: "
         "cadet=Sub16, juvenil=Sub18, junior=Sub20, promesa=Sub23). Un-suffixed events in open "
@@ -1933,7 +1946,7 @@ def write_report(season: str, files: int, total: int, counts: Counter, review: l
     for (raw, official), cnt in sorted(counts.items(), key=lambda kv: (-kv[1], kv[0][0])):
         lines.append(f"| {cnt} | `{raw}` | `{official}` |")
     lines += [""]
-    suspects = SUSPECT_ENTRIES.get(season, {})
+    suspects = SUSPECT_ENTRIES.get(season, {}) if season else {}
     if suspects:
         lines += ["## Suspect entries (re-extraction recommended before DB import)", "",
                   "Marks stored under a shifted event name, or mangled performances,", 
@@ -1979,7 +1992,8 @@ def main():
             item["file"] = f.name
         all_review.extend(review)
 
-    print(f"season {args.season}: {len(files)} files, {total} results")
+    target_label = args.json_dir if args.json_dir else f"season {args.season}"
+    print(f"{target_label}: {len(files)} files, {total} results")
     print(f"mapped: {mapped}, review: {len(all_review)}")
     print("\n=== mapping (raw -> official) ===")
     for (raw, official), cnt in sorted(all_counts.items(), key=lambda kv: (-kv[1], kv[0][0])):
@@ -1998,8 +2012,9 @@ def main():
         if args.json_dir:
             # json/ re-maps get their own report, never the season one
             report_path = REPO_ROOT / args.json_dir / "discipline_mapping_report.md"
-        report = write_report(args.season, len(files), total, all_counts, all_review,
-                              out=report_path)
+        report = write_report(None if args.json_dir else args.season,
+                              len(files), total, all_counts, all_review,
+                              out=report_path, label=target_label)
         print(f"\nreport: {report}")
 
 if __name__ == "__main__":

@@ -1,4 +1,4 @@
-# Discipline mapping report — season 2005
+# Discipline mapping report — json
 
 Original raw values preserved in `raw_discipline_name` (inserted after `discipline`).
 Heights/weights follow the FCA *Proves autoritzades* tables (stable for the 2005 era: cadet=Sub16, juvenil=Sub18, junior=Sub20, promesa=Sub23). Un-suffixed events in open meets use the absolut spec (verified against the source PDFs). Mixed absolut-junior
@@ -660,7 +660,7 @@ combined events resolved per athlete from the PDF birth-year column.
 | 1 | `Maratón Marcha Mujeres Master` | `Marató Marxa (Ruta)` |
 | 1 | `Maratón Marcha Mujeres Master F45` | `Marató Marxa (Ruta)` |
 | 1 | `Martillo (6kg) MASC.` | `Martell (6 kg)` |
-| 1 | `Medio maratón Marcha Masc` | `Marató Marxa (Ruta)` |
+| 1 | `Medio maratón Marcha Masc` | `Mitja Marató Marxa (Ruta)` |
 | 1 | `Pentathlon JUVMujeres PC-aire libre` | `Pentatló` |
 | 1 | `Pentathlon Mujeres PC` | `Pentatló` |
 | 1 | `Pentathlon Vet. Hombres. PC Master M60` | `Pentatló` |

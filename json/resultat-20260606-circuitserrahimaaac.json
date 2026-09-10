@@ -2,7 +2,7 @@
   "event_name": "3ª Jornada Circuit Serrahima - AAC - Estadio Joan Serrahima",
   "event_date": "06/06/2026",
   "event_location": "Barcelona-SE",
-  "total_results": 2,
+  "total_results": 4,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/06/resultat-20260606-circuitserrahimaaac.pdf",
   "results": [
     {
@@ -10,8 +10,8 @@
       "athlete_dob": "17/2/2010",
       "athlete_id": "CL16217",
       "performance": "13.55",
-      "discipline": "Martell (4 Kg)",
-      "raw_discipline_name": "Martell (4 kg) Homes",
+      "discipline": "100 metres llisos",
+      "raw_discipline_name": "100 m Dones",
       "wind": "+0.3",
       "position": null
     },
@@ -20,9 +20,29 @@
       "athlete_dob": "24/3/2009",
       "athlete_id": "CL11317",
       "performance": "13.81",
-      "discipline": "Martell (4 Kg)",
-      "raw_discipline_name": "Martell (4 kg) Homes",
+      "discipline": "100 metres llisos",
+      "raw_discipline_name": "100 m Dones",
       "wind": "+0.3",
+      "position": null
+    },
+    {
+      "athlete_name": "CLÀUDIA PI BUIRA",
+      "athlete_dob": "24/3/2009",
+      "athlete_id": "CL11317",
+      "performance": "28.66",
+      "discipline": "200 metres llisos",
+      "raw_discipline_name": "200 m Dones",
+      "wind": "+0.2",
+      "position": null
+    },
+    {
+      "athlete_name": "IRIS GARRIDO GARCIA",
+      "athlete_dob": "15/12/2008",
+      "athlete_id": "CAT-3742959",
+      "performance": "1:06.55",
+      "discipline": "400 metres tanques (0.762)",
+      "raw_discipline_name": "400 m tanques (0,762) Dones",
+      "wind": null,
       "position": null
     }
   ]

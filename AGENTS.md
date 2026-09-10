@@ -41,6 +41,8 @@ Both should be extracted as separate events/entries.
 
 Patterns must include Catalan variants with accents: `Masculí`, `Femení`, `Alçada`, `Llargada`, `Pértiga`, `tanques`, `vallas`, `Pentathlón`, `Heptathlón`, etc.
 
+Conersys (FCAT 2026) page headers also use **spaced distance + Catalan gender nouns**: `100 m Dones`, `100 m Homes` (note the space between the number and `m`, and the noun forms `Dones`/`Homes` instead of adjectives). The generic track patterns must include `Homes|Dones` and `masculino|femenino` (Spanish -o forms like `3.000m MASCULINO`) in their gender lists — otherwise the section header is missed and athletes get attached to the previous event's section (mislabeled disciplines + leaked wind). Hurdle patterns for `MASC./FEM. AL` must accept both `tanques` and `vallas`: `110m vallas (1,00) MASC. AL`.
+
 Combined event patterns must start with the event name (Pentathlon, Heptathlon, etc.), NOT with a sub-event name (60m, Longitud, etc.).
 
 **CRITICAL: PDFs use two formats for distance units:**
@@ -375,7 +377,9 @@ Some PDFs embed the license number directly in the name field (e.g., `CT-18283 M
 
 ### Wind Field
 
-Extract wind when present for: **60m, 100m, 200m, 60m tanques, 100m tanques, 110m tanques, 4x100m relleus, Llargada, Triple Salto**.
+Extract wind when present for: **60m, 100m, 200m, 60m tanques, 100m tanques, 110m tanques, Llargada, Triple Salto**.
+
+- **Relay events (4x100m, 4x400m, etc.): wind is NEVER applicable** — wind is not officially measured or recorded for relay events. Always output `wind: null` for relay entries, even if a `+X.X`-style value appears on a relay line in the PDF (such values are lane/series markers or artifacts, not wind).
 
 - Wind format: `+1.2`, `-0.8`, `+0.5 m/s`, `v+1.2` (vent), `c+1.2` (carril+vent)
 - Store in JSON as `"wind": "+1.2"` or `"wind": null`

@@ -142,7 +142,7 @@ EVENT_PATTERNS = [
     # Format: distance + (S##|Abs) + M/F (Masculí/Femení abbreviated)
     r'(?:\d{1,3}(?:\.\d{3})?\s*m(t)?|\d+\s*m(t)?)\s*(?:tanques\s+)?(?:vallas\s+)?(?:\(.*?\))?\s*(?:S\d+|Abs)\s*[MF]\s*(?:AL|aire\s+libre)?',
     # Track events: 60m, 100m, 300m, 600m, 1.000m, 3.000m, etc. (with or without space, with optional altaveu "mt")
-    r'(?:\d{1,3}(?:\.\d{3})?\s*m(t)?|\d+\s*m(t)?)\s*(?:tanques\s+)?(?:vallas\s+)?(?:\(.*?\))?\s*(?:Sub\d+\s+)?(?:Obst\.?\s+)?(?:Marcha\s+)?(?:Marxa\s+)?(?:Hombres|Mujeres|Mixto|Masculí|Femení|masculins|Mascuins|femenins|masculina|femenina|masculino|femenino)',
+    r'(?:\d{1,3}(?:\.\d{3})?\s*m(t)?|\d+\s*m(t)?)\s*(?:tanques\s+)?(?:vallas\s+)?(?:\(.*?\))?\s*(?:Sub\d+\s+)?(?:Obst\.?\s+)?(?:Marcha\s+)?(?:Marxa\s+)?(?:Hombres|Mujeres|Mixto|Homes|Dones|Masculí|Femení|masculins|Mascuins|femenins|masculina|femenina|masculino|femenino)',
     # Simple track with abbreviated gender: "100m M", "200m F", "400m M", "800m F"
     r'(?:\d{1,3}(?:\.\d{3})?\s*m(t)?|\d+\s*m(t)?)\s*(?:tanques\s+)?(?:vallas\s+)?(?:\(.*?\))?\s*(?:Sub\d+\s+)?(?:Hombres|Mujeres|Masculí|Femení|masculins|Mascuins|femenins|masculina|femenina|masculino|femenino)?\s+\b[MFM]\b',
     # Field/jump/height events (Spanish + Catalan)
@@ -196,7 +196,7 @@ EVENT_PATTERNS = [
     r'(?:Alçada|Altura|Perxa|Pértiga|Llargada|Longitud|Triple\s+Salto|Triple\s+salt|Disco|Martello|Martell|Martillo|Pes|Peso|Dard|Jabalina|Javelina)\s+(?:MASC\.?|FEM\.?)\s+PC',
     r'(?:Alçada|Altura|Perxa|Pértiga|Llargada|Longitud|Triple\s+Salto|Triple\s+salt|Disco|Martello|Martell|Martillo|Pes|Peso|Dard|Jabalina|Javelina)\s+(?:MASC\.?|FEM\.?)\s+AL',
     # RFEA hurdles: "60m tanques (0,50) FEM AL"
-    r'\d{1,3}(?:\.\d{3})?\s*m(?:t)?\s+tanques\s+(?:\(.*?\)\s+)?(?:MASC\.?|FEM\.?)\s+(?:PC|AL)',
+    r'\d{1,3}(?:\.\d{3})?\s*m(?:t)?\s+(?:tanques|vallas)\s+(?:\(.*?\)\s+)?(?:MASC\.?|FEM\.?)\s+(?:PC|AL)',
     r'\d{1,3}(?:\.\d{3})?\s*metres\s+(?:llisos|tanques|vallas|obstacles|marxa|marxa)\s+(?:Sub\d+\s+)?(?:masculins|Mascuins|femenins|femenina|masculina|Hombres|Mujeres|Masculí|Femení)',
 ]
 
@@ -205,7 +205,7 @@ TRACK_PATTERNS = [
     r'\d{1,3}(?:\.\d{3})?\s*metres\s+(?:llisos|tanques|vallas|obstacles)\s+(?:masculins|Mascuins|femenins|femeni|masculi)',
     r'\d{1,3}(?:\.\d{3})?\s*metres\s+(?:llisos|tanques|vallas|obstacles)\s+(?:masculins|Mascuins|femenins|femeni|masculi)',
     # Abbreviated "m" variants (legacy PDF format)
-    r'(?:^|[\s(])\d{1,3}(?:\.\d{3})?\s*m(t)?\s*(?:tanques|vallas)?\s*(?:Obst\.?)?\s*(?:\(.*?\))?\s*(?:Marxa\s+)?(?:Hombres|Mujeres|Mixto|Masculí|Femení|masculins|Mascuins|femenins|masculina|femenina)',
+    r'(?:^|[\s(])\d{1,3}(?:\.\d{3})?\s*m(t)?\s*(?:tanques|vallas)?\s*(?:Obst\.?)?\s*(?:\(.*?\))?\s*(?:Marxa\s+)?(?:Hombres|Mujeres|Mixto|Homes|Dones|Masculí|Femení|masculins|Mascuins|femenins|masculina|femenina|masculino|femenino)',
     r'\d{1,3}\s*m(t)?\s+(?:tanques|vallas|Marxa|Obst\.?)\s+(?:Hombres|Mujeres|Masculí|Femení|masculins|Mascuins|femenins)',
     r'\d{1,3}\s*m(t)?\s+(?:Marxa\s+)?(?:Hombres|Mujeres|Masculí|Femení|masculins|Mascuins|femenins)',
     # Abbreviated gender: "100m Abs M", "200m Abs F", "400m tanques Abs M", "600m Sub14-16 M"
@@ -219,7 +219,7 @@ TRACK_PATTERNS = [
     # RFEA format: "60m MASC. AL", "600m FEM. AL", "2.000m FEM. AL"
     r'(?:\d{1,3}(?:\.\d{3})?\s*m(?:t)?|\d+\s*m(?:t)?)\s+(?:MASC\.?|FEM\.?)\s+(?:PC|AL)',
     # RFEA hurdles: "60m tanques (0,50) FEM. AL"
-    r'\d{1,3}(?:\.\d{3})?\s*m(?:t)?\s+tanques\s+(?:\(.*?\)\s+)?(?:MASC\.?|FEM\.?)\s+(?:PC|AL)',
+    r'\d{1,3}(?:\.\d{3})?\s*m(?:t)?\s+(?:tanques|vallas)\s+(?:\(.*?\)\s+)?(?:MASC\.?|FEM\.?)\s+(?:PC|AL)',
 ]
 
 MARCHA_PATTERNS = [
@@ -1207,10 +1207,9 @@ def parse_sumario_section(lines, sumario_idx, event_name, sec_end, competicio, d
                     result_match = re.search(r'(\d+\.\d{2})', line)
                 
                 marca = result_match.group(1) if result_match else ""
+                # Relays never have official wind measurement (issue #14):
+                # a +X.X/-X.X value on a relay line is not wind, keep None.
                 wind = None
-                wind_match = re.search(r'([+-]\d+\.\d)', line)
-                if wind_match:
-                    wind = wind_match.group(1)
                 
                 # Extract license from this line or next lines
                 licencia = ""
@@ -1280,10 +1279,9 @@ def parse_sumario_section(lines, sumario_idx, event_name, sec_end, competicio, d
                             result_match = re.search(r'(\d+\.\d{2})', result_line)
                         
                         marca = result_match.group(1) if result_match else ""
+                        # Relays never have official wind measurement (issue #14):
+                        # a +X.X/-X.X value on a relay line is not wind, keep None.
                         wind = None
-                        wind_match = re.search(r'([+-]\d+\.\d)', result_line)
-                        if wind_match:
-                            wind = wind_match.group(1)
                         
                         # Collect athlete names following the result line
                         athletes = []

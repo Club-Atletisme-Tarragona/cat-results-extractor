@@ -25,7 +25,7 @@ combined events resolved per athlete from the PDF birth-year column.
 | 8 | `LLANÇAMENT DE PES` | `Pes (4 Kg)` |
 | 7 | `LLANÇAMENT DE PES` | `Pes (7.260 Kg)` |
 | 6 | `3000 METRES LLISOS` | `3000 metres llisos` |
-| 6 | `LLANÇAMENT DE JAVELINA` | `Javelina (500g)` |
+| 6 | `LLANÇAMENT DE JAVELINA` | `Javelina (500 g)` |
 | 5 | `200 METRES LLISOS MASCULINS` | `200 metres llisos` |
 | 5 | `60 METRES TANQUES MASCULINS` | `60 metres tanques (1.067)` |
 | 5 | `LLANÇAMENT DE PES MASCULÍ` | `Pes (7.260 Kg)` |

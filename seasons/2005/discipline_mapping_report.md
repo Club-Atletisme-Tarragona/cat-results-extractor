@@ -88,6 +88,6 @@ combined events resolved per athlete from the PDF birth-year column.
 | 1 | `800 METRES LLISOS FEMENINS` | `800 metres llisos` |
 | 1 | `800 METRES LLISOS FEMENÍ` | `800 metres llisos` |
 | 1 | `CLASSIFICACIÓ CADET FEMENÍ` | `Tetratló` |
-| 1 | `LLANÇAMENT DE JAVELINA JUVENIL FEMENÍ` | `Javelina (500g)` |
+| 1 | `LLANÇAMENT DE JAVELINA JUVENIL FEMENÍ` | `Javelina (500 g)` |
 | 1 | `SALT D'ALÇADA JUVENIL MASCULÍ` | `Alçada` |
 

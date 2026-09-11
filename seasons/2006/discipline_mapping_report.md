@@ -57,9 +57,9 @@ combined events resolved per athlete from the PDF birth-year column.
 | 3 | `CLASSIFICACIÓ PROVES COMBINADES` | `Heptatlo` |
 | 3 | `LLANÇAMENT DE DISC JUVENIL MASCULÍ` | `Disc (1,5 Kg)` |
 | 3 | `LLANÇAMENT DE DISC MASCULÍ` | `Disc (1,5 Kg)` |
-| 3 | `LLANÇAMENT DE JAVELINA` | `Javelina (500g)` |
+| 3 | `LLANÇAMENT DE JAVELINA` | `Javelina (500 g)` |
 | 3 | `LLANÇAMENT DE JAVELINA FEMENÍ` | `Javelina (600 g)` |
-| 3 | `LLANÇAMENT DE JAVELINA FEMENÍ` | `Javelina (500g)` |
+| 3 | `LLANÇAMENT DE JAVELINA FEMENÍ` | `Javelina (500 g)` |
 | 3 | `LLANÇAMENT DE PES FEMENÍ` | `Pes (3 Kg)` |
 | 3 | `SALT D'ALÇADA JUVENIL MASCULÍ` | `Alçada` |
 | 3 | `SALT D'ALÇADA MASCULÍ` | `Alçada` |

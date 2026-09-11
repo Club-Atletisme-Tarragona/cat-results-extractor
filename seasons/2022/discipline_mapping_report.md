@@ -54,7 +54,7 @@ combined events resolved per athlete from the PDF birth-year column.
 | 9 | `Disc (1kg) MASC.` | `Disc (1 Kg)` |
 | 9 | `Longitud MASC. AL ABS` | `Llargada` |
 | 8 | `60m FEM. PC` | `60 metres llisos` |
-| 8 | `Jabalina (500g) MASC. SUB 14 M` | `Javelina (500g)` |
+| 8 | `Jabalina (500g) MASC. SUB 14 M` | `Javelina (500 g)` |
 | 8 | `Jabalina (600g) SUB16 MASC.` | `Javelina (600 g)` |
 | 7 | `3.000m Marxa MASC. en pista` | `3000 metres llisos` |
 | 7 | `600m S14 FEM. AL` | `600 metres llisos` |
@@ -88,7 +88,7 @@ combined events resolved per athlete from the PDF birth-year column.
 | 4 | `Alçada MASC. AL` | `Alçada` |
 | 4 | `Disco (1,5kg) M55` | `Disc (1,5 Kg)` |
 | 4 | `Disco (1kg) FEM.` | `Disc (1 Kg)` |
-| 4 | `Jabalina (500g) FEM. SUB 16` | `Javelina (500g)` |
+| 4 | `Jabalina (500g) FEM. SUB 16` | `Javelina (500 g)` |
 | 4 | `Jabalina (700g) M55` | `Javelina (700 g)` |
 | 4 | `Perxa MASC. PC` | `Perxa` |
 | 4 | `Pes (3kg) FEM. PC` | `Pes (3 Kg)` |

@@ -12,7 +12,7 @@ combined events resolved per athlete from the PDF birth-year column.
 | count | raw discipline | official discipline |
 |---:|---|---|
 | 117 | `Longitud S14 MASC. AL` | `Llargada` |
-| 65 | `Jabalina (500g) S14 MASC.` | `Javelina (500g)` |
+| 65 | `Jabalina (500g) S14 MASC.` | `Javelina (500 g)` |
 | 41 | `Longitud S12 MASC. AL` | `Llargada` |
 | 38 | `Peso (3kg) S14 MASC. AL` | `Pes (3 Kg)` |
 | 37 | `Longitud S16 FEM. AL` | `Llargada` |
@@ -35,7 +35,7 @@ combined events resolved per athlete from the PDF birth-year column.
 | 18 | `Peso (2kg) FEM S-14 AL` | `Pes (2 Kg)` |
 | 18 | `Peso (3kg) FEM. AL S16F` | `Pes (3 Kg)` |
 | 16 | `1.000m S10 FEM. AL` | `1000 metres llisos` |
-| 16 | `Jabalina (500g) S16 FEM.` | `Javelina (500g)` |
+| 16 | `Jabalina (500g) S16 FEM.` | `Javelina (500 g)` |
 | 16 | `Jabalina (600g) FEM.` | `Javelina (600 g)` |
 | 16 | `Peso (3kg) MASC. AL SUB 14` | `Pes (3 Kg)` |
 | 16 | `Peso (4kg) FEM. AL` | `Pes (4 Kg)` |
@@ -88,7 +88,7 @@ combined events resolved per athlete from the PDF birth-year column.
 | 7 | `60m S10 MASC. AL` | `60 metres llisos` |
 | 7 | `Altura S16 FEM. AL` | `Alçada` |
 | 7 | `Disc (1kg) SUB16 MASC.` | `Disc (1 Kg)` |
-| 7 | `Jabalina (500g) Master 50-54 FEM.` | `Javelina (500g)` |
+| 7 | `Jabalina (500g) Master 50-54 FEM.` | `Javelina (500 g)` |
 | 6 | `100m Abs FEM. AL` | `100 metres llisos` |
 | 6 | `100m vallas (0,762) S16 FEM. AL` | `100 metres llisos` |
 | 6 | `300m FEM. PC` | `300 metres llisos` |
@@ -114,9 +114,9 @@ combined events resolved per athlete from the PDF birth-year column.
 | 5 | `Altura S14 FEM. AL` | `Alçada` |
 | 5 | `Altura S14 MASC. AL` | `Alçada` |
 | 5 | `Alçada FEM. AL` | `Alçada` |
-| 5 | `Jabalina (500g) S16/S18 FEM.` | `Javelina (500g)` |
-| 5 | `Javelina (500g) FEM.` | `Javelina (500g)` |
-| 5 | `Javelina (500g) SUB14 MASC.` | `Javelina (500g)` |
+| 5 | `Jabalina (500g) S16/S18 FEM.` | `Javelina (500 g)` |
+| 5 | `Javelina (500g) FEM.` | `Javelina (500 g)` |
+| 5 | `Javelina (500g) SUB14 MASC.` | `Javelina (500 g)` |
 | 5 | `LONGITUD Abs FEM. HEPTATLÓN` | `Llargada` |
 | 5 | `Llargada FEM. PC` | `Llargada` |
 | 5 | `Llargada SUB23 FEM. PC` | `Llargada` |

@@ -52,9 +52,9 @@ Sorted by `position`. Empty cell = NULL.
 | 20 | Alçada | DESC | m.cm | m.cm |  | 43 | Altura |
 | 21 | Perxa | DESC | m.cm | m.cm |  | 44 | Pértiga |
 | 52 | Pilota | DESC | m.cm | m.cm |  | 45 | Pelota |
-| 164 | Javelina (300g) | DESC | m.cm | m.cm |  | 46 | Jabalina (300g) |
+| 164 | Javelina (300 g) | DESC | m.cm | m.cm |  | 46 | Jabalina (300g) |
 | 99 | Javelina (400 g) | DESC | m.cm | m.cm |  | 47 | Jabalina (400g) |
-| 91 | Javelina (500g) | DESC | m.cm | m.cm |  | 48 | Jabalina |
+| 91 | Javelina (500 g) | DESC | m.cm | m.cm |  | 48 | Jabalina |
 | 39 | Javelina (600 g) | DESC | m.cm | m.cm |  | 49 | Jabalina (600g) |
 | 98 | Javelina (700 g) | DESC | m.cm | m.cm |  | 50 | Jabalina (700g) |
 | 25 | Javelina (800 g) | DESC | m.cm | m.cm |  | 51 | Jabalina (800g) |

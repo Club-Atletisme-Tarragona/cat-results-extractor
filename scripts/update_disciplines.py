@@ -63,17 +63,15 @@ def normalize_weight_units(name: str) -> str:
 # Juvenil/cadet boys ran 100m hurdles (0.914) in this era before switching to 110mh.
 # Note: "Martell (6 kg)" was here when DISCIPLINES.md lacked the row; the official
 # "Martell (6 Kg)" (id 176) now covers it, so it must NOT be re-added lowercase.
+# The Javelina gram-weight entries were dropped once DISCIPLINES.md carried the
+# spaced official names (ids 25/39/91/98/99/164, e.g. "Javelina (500 g)"); the
+# unspaced forms must NOT be re-added here.
 APPROVED_PENDING = {
     "100 metres tanques (0.91)",   # cadet/juvenil boys 100mh (0.914) in this era
     "60 metres tanques (0.50)",    # aleví (Sub-12) 60mh
     "Pes (2 Kg)",                  # aleví (Sub-12) both genders / infantil (Sub-14) women
     "Disc (600 g)",                # aleví (Sub-12) discus
-    "Javelina (700 g)",
-    "Javelina (400 g)",
-    "Javelina (800 g)",
-    "Javelina (600 g)",
     "Martell (2 Kg)",              # aleví (Sub-12) hammer
-    "Javelina (300 g)",            # Sub-12 turbo jav
 }
 
 # ---------------------------------------------------------------------------
@@ -109,14 +107,14 @@ MARTELL_F.update({"alevi": "Martell (2 Kg)"})
 MARTELL_F.update({"infantil": "Martell (3 Kg)"})
 JAVELINA_M = {"cadet": "Javelina (600 g)", "juvenil": "Javelina (700 g)",
               "junior": "Javelina (800 g)", "promesa": "Javelina (800 g)",
-              "absolut": "Javelina (800 g)", "infantil": "Javelina (500g)",
-              "alevi": "Javelina (500g)"}
-JAVELINA_F = {"cadet": "Javelina (500g)", "juvenil": "Javelina (500g)",
+              "absolut": "Javelina (800 g)", "infantil": "Javelina (500 g)",
+              "alevi": "Javelina (500 g)"}
+JAVELINA_F = {"cadet": "Javelina (500 g)", "juvenil": "Javelina (500 g)",
               "junior": "Javelina (600 g)", "promesa": "Javelina (600 g)",
               "absolut": "Javelina (600 g)", "infantil": "Javelina (400 g)",
               "alevi": "Javelina (400 g)"}
 JAVELINA_M.update({"vet50": "Javelina (700 g)"})
-JAVELINA_F.update({"vet50": "Javelina (500g)"})
+JAVELINA_F.update({"vet50": "Javelina (500 g)"})
 
 # Hurdle heights by (distance, gender, category) -> official 60/100/110/400 tanques name
 def tanques_name(distance: int, gender: str, cat: str) -> str:
@@ -1267,7 +1265,7 @@ FILE_ROW_OVERRIDES = {
         ("ADOLF MILLA", "PTO", "10.62", "Pes (4 Kg)"),
         ("ADOLF MILLA", "PTO", "16.80", "100 metres tanques (0.91)"),
         ("ALICIA VAZQUEZ", "PTO", "18.37", "60 metres tanques (0.76)"),
-        ("ALICIA VAZQUEZ", "PTO", "6.44", "Javelina (500g)"),
+        ("ALICIA VAZQUEZ", "PTO", "6.44", "Javelina (500 g)"),
         ("MIREIA LOPEZ", "PTO", "14.08", "80 metres tanques (0.84)"),
         ("MIREIA LOPEZ", "PTO", "8.39", "Pes (2 Kg)"),
         ("MIREIA LOPEZ", "PTO", "4.67", "Llargada"),
@@ -1295,7 +1293,7 @@ FILE_ROW_OVERRIDES = {
         ("PINYOL", "MARTELL PUNTS PES", "14.64", "Martell (3 Kg)"),
         ("PINYOL", "MARTELL PUNTS PES", "6.33", "Pes (3 Kg)"),
         ("PINYOL", "MARTELL PUNTS PES", "11.56", "Disc (1 Kg)"),
-        ("PINYOL", "MARTELL PUNTS PES", "12.91", "Javelina (500g)"),
+        ("PINYOL", "MARTELL PUNTS PES", "12.91", "Javelina (500 g)"),
         ("PINYOL", "MARTELL PUNTS PES", "4.84", "Martell pesat (15.88 Kg)"),
     ],
     "resultrobadaandorra180513.json": [
@@ -1700,7 +1698,7 @@ def map_discipline(raw: str, event_name: str, filename: str, athlete_name: str =
                             "15,88": "Martell pesat (15.88 Kg)", "9,08": "Martell pesat (9.08 Kg)",
                             "7,26": "Martell pesat (7.260 Kg)"},
                 "javelina": {"800": "Javelina (800 g)", "700": "Javelina (700 g)",
-                             "600": "Javelina (600 g)", "500": "Javelina (500g)", "400": "Javelina (400 g)", "300": "Javelina (300 g)"},
+                             "600": "Javelina (600 g)", "500": "Javelina (500 g)", "400": "Javelina (400 g)", "300": "Javelina (300 g)"},
             }[implement]
         if weight not in table and unit == "KG":
             if implement == "pes" and weight == "7":

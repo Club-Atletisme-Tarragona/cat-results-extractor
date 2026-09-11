@@ -48,7 +48,7 @@ combined events resolved per athlete from the PDF birth-year column.
 | 20 | `800m Mujeres` | `800 metres llisos` |
 | 20 | `Altura Hombres S12M` | `Alçada` |
 | 20 | `Jabalina (400g) Mujeres` | `Javelina (400 g)` |
-| 20 | `Jabalina (500g) Hombres` | `Javelina (500g)` |
+| 20 | `Jabalina (500g) Hombres` | `Javelina (500 g)` |
 | 20 | `Jabalina 300gr S12M` | `Javelina (300 g)` |
 | 20 | `Longitud Mujeres PC` | `Llargada` |
 | 20 | `Longitud Mujeres U16F` | `Llargada` |
@@ -58,7 +58,7 @@ combined events resolved per athlete from the PDF birth-year column.
 | 19 | `200m Mujeres U14F` | `200 metres llisos` |
 | 19 | `400m Hombres` | `400 metres llisos` |
 | 19 | `600m Femenins` | `600 metres llisos` |
-| 19 | `Jabalina (500g) Hombres S14M` | `Javelina (500g)` |
+| 19 | `Jabalina (500g) Hombres S14M` | `Javelina (500 g)` |
 | 19 | `Peso Mujeres` | `Pes (4 Kg)` |
 | 18 | `Disco (600g) Hombres AL U12M` | `Disc (600 g)` |
 | 18 | `Longitud Hombres PC` | `Llargada` |
@@ -280,7 +280,7 @@ combined events resolved per athlete from the PDF birth-year column.
 | 4 | `Disco SUB14 (800g) Hombres` | `Disc (2 Kg)` |
 | 4 | `Disco SUB16 (1kg) Hombres` | `Disc (2 Kg)` |
 | 4 | `Disco Vet. Hombres.` | `Disc (2 Kg)` |
-| 4 | `Jabalina (500g) Mujeres MF55` | `Javelina (500g)` |
+| 4 | `Jabalina (500g) Mujeres MF55` | `Javelina (500 g)` |
 | 4 | `Jabalina Vet. Hombres.` | `Javelina (800 g)` |
 | 4 | `Javelina Masculina SUB12` | `Javelina (800 g)` |
 | 4 | `Javelina SUB18 (700g) Homes` | `Javelina (800 g)` |
@@ -326,7 +326,7 @@ combined events resolved per athlete from the PDF birth-year column.
 | 3 | `Jabalina Vortex Mujeres` | `Javelina (600 g)` |
 | 3 | `Jabalina Vortex S10F` | `Javelina (800 g)` |
 | 3 | `Javelina (400g) Femenina` | `Javelina (400 g)` |
-| 3 | `Javelina (500g) Masculí` | `Javelina (500g)` |
+| 3 | `Javelina (500g) Masculí` | `Javelina (500 g)` |
 | 3 | `Javelina Femenina SUB12` | `Javelina (600 g)` |
 | 3 | `Llançament de Pes Femení` | `Pes (2 Kg)` |
 | 3 | `Llargada Femenina SUB12` | `Llargada` |
@@ -375,7 +375,7 @@ combined events resolved per athlete from the PDF birth-year column.
 | 2 | `Alçada Homes PC Master M60` | `Alçada` |
 | 2 | `Disc SUB18 (1,5kg) Homes` | `Disc (2 Kg)` |
 | 2 | `Disco (1,5kg) Hombres` | `Disc (1,5 Kg)` |
-| 2 | `Jabalina (500g) Mujeres S16F/S18F` | `Javelina (500g)` |
+| 2 | `Jabalina (500g) Mujeres S16F/S18F` | `Javelina (500 g)` |
 | 2 | `LONGITUD Hombres PENTATHLON VET 70-79` | `Llargada` |
 | 2 | `Llargada SUB12 Femenina` | `Llargada` |
 | 2 | `Llargada SUB12M` | `Llargada` |
@@ -481,11 +481,11 @@ combined events resolved per athlete from the PDF birth-year column.
 | 1 | `Disco (1kg) Mujeres MF55` | `Disc (1 Kg)` |
 | 1 | `Disco (1kg) Mujeres SF` | `Disc (1 Kg)` |
 | 1 | `Disco (800g) Hombres` | `Disc (800 g)` |
-| 1 | `Jabalina (500g) Hombres Master M75` | `Javelina (500g)` |
+| 1 | `Jabalina (500g) Hombres Master M75` | `Javelina (500 g)` |
 | 1 | `Jabalina (600g) Mujeres MF40` | `Javelina (600 g)` |
 | 1 | `Jabalina (600g) Mujeres SF` | `Javelina (600 g)` |
 | 1 | `Jabalina (700g) Hombres Master M50` | `Javelina (700 g)` |
-| 1 | `Javelina (500g) Femenina` | `Javelina (500g)` |
+| 1 | `Javelina (500g) Femenina` | `Javelina (500 g)` |
 | 1 | `Javelina (600g) Masculina` | `Javelina (600 g)` |
 | 1 | `Javelina (600g) Masculí` | `Javelina (600 g)` |
 | 1 | `Llargada Masculí Master M75` | `Llargada` |

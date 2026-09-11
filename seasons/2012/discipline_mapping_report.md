@@ -12,7 +12,7 @@ combined events resolved per athlete from the PDF birth-year column.
 | count | raw discipline | official discipline |
 |---:|---|---|
 | 51 | `LLANÇAMENT DE PES` | `Pes (2 Kg)` |
-| 49 | `Javelina Cadet Femení                        500 gr.` | `Javelina (500g)` |
+| 49 | `Javelina Cadet Femení                        500 gr.` | `Javelina (500 g)` |
 | 23 | `LLANÇAMENT DE PES` | `Pes (7.260 Kg)` |
 | 21 | `LLANÇAMENT DE PES` | `Pes (3 Kg)` |
 | 19 | `Pes Infantil                               2 kg` | `Pes (2 Kg)` |
@@ -71,7 +71,7 @@ combined events resolved per athlete from the PDF birth-year column.
 | 3 | `Disc FEM. AL` | `Disc (1 Kg)` |
 | 3 | `Disc Júnior                                  1,750 kg` | `Disc (1,750)` |
 | 3 | `Javelina Absolut                         600 g` | `Javelina (600 g)` |
-| 3 | `Javelina Juvenil                         500 g` | `Javelina (500g)` |
+| 3 | `Javelina Juvenil                         500 g` | `Javelina (500 g)` |
 | 3 | `LLANÇAMENT DE DISC` | `Disc (2 Kg)` |
 | 3 | `LLANÇAMENT DE JAVELINA` | `Javelina (800 g)` |
 | 3 | `LLANÇAMENT DE JAVELINA MASCULI ( PENTATLÓ )` | `Javelina (800 g)` |
@@ -158,7 +158,7 @@ combined events resolved per athlete from the PDF birth-year column.
 | 1 | `Alçada fem.Junior` | `Alçada` |
 | 1 | `CLASSIFICACIONS PROVES COMBINADES` | `Heptatlo` |
 | 1 | `Javelina FEM. AL` | `Javelina (600 g)` |
-| 1 | `Javelina Infantil Masculí                    500 gr.` | `Javelina (500g)` |
+| 1 | `Javelina Infantil Masculí                    500 gr.` | `Javelina (500 g)` |
 | 1 | `Javelina masc.Absolut` | `Javelina (800 g)` |
 | 1 | `Javelina masc.Junior` | `Javelina (800 g)` |
 | 1 | `LLARGADA CADET-ABSOLUT             MASCULI` | `Llargada` |

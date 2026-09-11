@@ -38,7 +38,7 @@ combined events resolved per athlete from the PDF birth-year column.
 | 6 | `Jabalina (600g) FEM.` | `Javelina (600 g)` |
 | 6 | `LLANÇAMENT DE DISC ALEVI FEMENI` | `Disc (600 g)` |
 | 6 | `LLANÇAMENT DE DISC INFANTIL FEMENI` | `Disc (800 g)` |
-| 6 | `LLANÇAMENT DE JAVELINA FEMENI` | `Javelina (500g)` |
+| 6 | `LLANÇAMENT DE JAVELINA FEMENI` | `Javelina (500 g)` |
 | 6 | `Longitud FEM. AL S16` | `Llargada` |
 | 6 | `Longitud MASC. AL S14` | `Llargada` |
 | 6 | `Pes (4kg) FEM. AL` | `Pes (4 Kg)` |

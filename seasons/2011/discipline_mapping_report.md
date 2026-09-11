@@ -12,7 +12,7 @@ combined events resolved per athlete from the PDF birth-year column.
 | count | raw discipline | official discipline |
 |---:|---|---|
 | 36 | `SALT DE LLARGADA MASCULÍ` | `Llargada` |
-| 34 | `Javelina Cadet Femení                         500 gr.` | `Javelina (500g)` |
+| 34 | `Javelina Cadet Femení                         500 gr.` | `Javelina (500 g)` |
 | 29 | `Pes Juvenil Masculí                             5 kg` | `Pes (5 Kg)` |
 | 26 | `LLANÇAMENT DE PES` | `Pes (7.260 Kg)` |
 | 24 | `LLANÇAMENT DE PES` | `Pes (3 Kg)` |
@@ -92,7 +92,7 @@ combined events resolved per athlete from the PDF birth-year column.
 | 3 | `Alçada FEM. AL` | `Alçada` |
 | 3 | `DISC Juvenil Femení                                     1 kg` | `Disc (1 Kg)` |
 | 3 | `LLANÇAMENT DE JAVELINA` | `Javelina (600 g)` |
-| 3 | `LLANÇAMENT DE JAVELINA` | `Javelina (500g)` |
+| 3 | `LLANÇAMENT DE JAVELINA` | `Javelina (500 g)` |
 | 3 | `Llargada ALEVÍ FEMENÍ                                   (FINAL TERRITORIAL)` | `Llargada` |
 | 3 | `Llargada BENJAMÍ MASCULÍ                                 (FINAL TERRITORIAL)` | `Llargada` |
 | 3 | `Llargada Infantil Femení` | `Llargada` |
@@ -199,7 +199,7 @@ combined events resolved per athlete from the PDF birth-year column.
 | 1 | `RESULTATS 60 METRES TANQUES                       ALEVI MASCULÍ` | `60 metres tanques (1.067)` |
 | 1 | `RESULTATS 600 METRES LLISOS                     ALEVI FEMENÍ` | `600 metres llisos` |
 | 1 | `RESULTATS DISC                                  JUVENIL FEMENÍ` | `Disc (1 Kg)` |
-| 1 | `RESULTATS JAVELINA                                        CADET FEMENÍ` | `Javelina (500g)` |
+| 1 | `RESULTATS JAVELINA                                        CADET FEMENÍ` | `Javelina (500 g)` |
 | 1 | `RESULTATS MARTELL FEMENÍ ( 4 kg,)` | `Martell (4 Kg)` |
 | 1 | `RESULTATS SALT D'ALÇADA                                                          ALEVI MASCULÍ` | `Alçada` |
 | 1 | `RESULTATS SALT DE LLARGADA ALEVI MASCULÍ` | `Llargada` |

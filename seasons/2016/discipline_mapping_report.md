@@ -26,7 +26,7 @@ combined events resolved per athlete from the PDF birth-year column.
 | 24 | `PROVA       PES ALEVÍ FEMENÍ                                               PES      2 kg` | `Pes (2 Kg)` |
 | 23 | `LLARGADA Infantil Femení` | `Llargada` |
 | 23 | `Pes Infantil Femení                           2 Kg` | `Pes (2 Kg)` |
-| 22 | `Javelina Juvenil Femení                                   500 gr.` | `Javelina (500g)` |
+| 22 | `Javelina Juvenil Femení                                   500 gr.` | `Javelina (500 g)` |
 | 22 | `Pes Infantil Masculí                          3 kg` | `Pes (3 Kg)` |
 | 20 | `60 METRES LLISOS` | `60 metres llisos` |
 | 20 | `Llargada   Punts        Javelina   Punts      200 m.       Punts      Disc     Punts    1.500 m.   Punts` | `Llargada` |
@@ -42,7 +42,7 @@ combined events resolved per athlete from the PDF birth-year column.
 | 16 | `Martell Infantil Masculí` | `Martell (7.260 Kg)` |
 | 15 | `PES Infantil Masculí                               3 kg` | `Pes (3 Kg)` |
 | 14 | `Disc Infantil Masculí` | `Disc (2 Kg)` |
-| 14 | `Javelina Cadet                        500 g` | `Javelina (500g)` |
+| 14 | `Javelina Cadet                        500 g` | `Javelina (500 g)` |
 | 14 | `LLANÇAMENT DE JAVELINA MASCULI ( PENTATLÓ )` | `Javelina (800 g)` |
 | 14 | `Llargada Cadet Femení` | `Llargada` |
 | 14 | `Pes Cadet                                    4 kg` | `Pes (4 Kg)` |
@@ -102,7 +102,7 @@ combined events resolved per athlete from the PDF birth-year column.
 | 6 | `Disc Cadet Femení                           800 gr.` | `Disc (800 g)` |
 | 6 | `Disc VET. Fem. 40-44` | `Disc (1 Kg)` |
 | 6 | `Disco (800g) FEM.` | `Disc (800 g)` |
-| 6 | `Javelina Infantil Masculí                                 500 gr.` | `Javelina (500g)` |
+| 6 | `Javelina Infantil Masculí                                 500 gr.` | `Javelina (500 g)` |
 | 6 | `Javelina Júnior (800g) MASC.` | `Javelina (800 g)` |
 | 6 | `Javelina Vet. MAS. 45-49` | `Javelina (800 g)` |
 | 6 | `LLANÇAMENT DE JAVELINA` | `Javelina (600 g)` |
@@ -247,8 +247,8 @@ combined events resolved per athlete from the PDF birth-year column.
 | 2 | `Disc Absolut                                   2 kg` | `Disc (2 Kg)` |
 | 2 | `Javelina Absolut                            600 g` | `Javelina (600 g)` |
 | 2 | `Javelina CADET FEM.` | `Javelina (600 g)` |
-| 2 | `Javelina Juvenil                            500 g` | `Javelina (500g)` |
-| 2 | `Javelina Juvenil Femení (500gr)` | `Javelina (500g)` |
+| 2 | `Javelina Juvenil                            500 g` | `Javelina (500 g)` |
+| 2 | `Javelina Juvenil Femení (500gr)` | `Javelina (500 g)` |
 | 2 | `LLANÇAMENT DE MARTELL CADET FEMENI` | `Martell (3 Kg)` |
 | 2 | `LLARGADA ALEVÍ MASCULÍ` | `Llargada` |
 | 2 | `LLARGADA Absolut Femení` | `Llargada` |
@@ -319,7 +319,7 @@ combined events resolved per athlete from the PDF birth-year column.
 | 1 | `Martell CADET FEM.` | `Martell (4 Kg)` |
 | 1 | `PERXA ALEVÍ - INFANTIL - CADET MASCULINA` | `Perxa` |
 | 1 | `PERXA CADET FEMENI` | `Perxa` |
-| 1 | `PROVA       JAVELINA CADET F                                       PES             500 g` | `Javelina (500g)` |
+| 1 | `PROVA       JAVELINA CADET F                                       PES             500 g` | `Javelina (500 g)` |
 | 1 | `PROVA     MARTELL ABSOLUT F                                     PES              4 KG` | `Martell (4 Kg)` |
 | 1 | `Perxa FEM. AL` | `Perxa` |
 | 1 | `RESULTATS 3000 METRES LLISOS CADET - JUVENIL MASCULÍ` | `3000 metres llisos` |

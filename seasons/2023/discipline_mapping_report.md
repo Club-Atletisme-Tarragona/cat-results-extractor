@@ -57,8 +57,8 @@ combined events resolved per athlete from the PDF birth-year column.
 | 6 | `100m vallas (0,91) S16 MASC. AL` | `100 metres tanques (0.91)` |
 | 6 | `Disco (1,5kg) MASC. M50` | `Disc (1,5 Kg)` |
 | 6 | `Disco (800g) S14 FEM.` | `Disc (800 g)` |
-| 6 | `Jabalina (500g) S16 FEM.` | `Javelina (500g)` |
-| 6 | `Jabalina (500g) S16, S18 FEM.` | `Javelina (500g)` |
+| 6 | `Jabalina (500g) S16 FEM.` | `Javelina (500 g)` |
+| 6 | `Jabalina (500g) S16, S18 FEM.` | `Javelina (500 g)` |
 | 6 | `Jabalina (600g) FEM.` | `Javelina (600 g)` |
 | 6 | `Longitud FEM. AL` | `Llargada` |
 | 6 | `Pes (3kg) FEM.` | `Pes (3 Kg)` |
@@ -100,7 +100,7 @@ combined events resolved per athlete from the PDF birth-year column.
 | 3 | `Disc (1kg) Masculí sub16` | `Disc (1 Kg)` |
 | 3 | `Disco (1kg) MASC. M70` | `Disc (1 Kg)` |
 | 3 | `Disco (800g) S16 FEM.` | `Disc (800 g)` |
-| 3 | `Jabalina (500g) MASC. M70` | `Javelina (500g)` |
+| 3 | `Jabalina (500g) MASC. M70` | `Javelina (500 g)` |
 | 3 | `Javelina (300g) FEM` | `Javelina (300 g)` |
 | 3 | `Llargada MASC. PC` | `Llargada` |
 | 3 | `Llargada SUB14 FEM. AL` | `Llargada` |

@@ -124,7 +124,7 @@ combined events resolved per athlete from the PDF birth-year column.
 | 1 | `Alçada Sub20 Masculí PC` | `Alçada` |
 | 1 | `Heptatló Sub18 Masculí PC` | `Heptatlo` |
 | 1 | `Heptatló Sub20 Masculí PC` | `Heptatlo` |
-| 1 | `Jabalina (500g) Mujeres U18F` | `Javelina (500g)` |
+| 1 | `Jabalina (500g) Mujeres U18F` | `Javelina (500 g)` |
 | 1 | `Marató Masculí` | `Marato` |
 | 1 | `Marató Masculí M45` | `Marato` |
 | 1 | `Maratón Hombres M45` | `Marato` |

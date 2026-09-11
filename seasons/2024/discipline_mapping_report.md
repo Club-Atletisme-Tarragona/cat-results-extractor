@@ -28,7 +28,7 @@ combined events resolved per athlete from the PDF birth-year column.
 | 20 | `Peso (2kg) MASC. AL S10` | `Pes (2 Kg)` |
 | 19 | `3.000m Marcha MASC. AL S14` | `3000 metres llisos` |
 | 19 | `Jabalina (300g) FEM S12` | `Javelina (300 g)` |
-| 18 | `Jabalina (500g) MASC. S14` | `Javelina (500g)` |
+| 18 | `Jabalina (500g) MASC. S14` | `Javelina (500 g)` |
 | 17 | `Peso (3kg) Hombres PC` | `Pes (3 Kg)` |
 | 16 | `Llargada MASC. PC` | `Llargada` |
 | 15 | `Longitud Hombres` | `Llargada` |
@@ -36,7 +36,7 @@ combined events resolved per athlete from the PDF birth-year column.
 | 14 | `60m Hombres AL U14M` | `60 metres llisos` |
 | 14 | `Disc (600g) SUB12 FEM.` | `Disc (600 g)` |
 | 13 | `60m Hombres AL U12M` | `60 metres llisos` |
-| 12 | `Jabalina (500g) FEM. S16` | `Javelina (500g)` |
+| 12 | `Jabalina (500g) FEM. S16` | `Javelina (500 g)` |
 | 12 | `Pes (5kg) MASC. AL` | `Pes (5 Kg)` |
 | 11 | `300m Mujeres` | `300 metres llisos` |
 | 11 | `Altura S14 MASC. AL` | `Alçada` |
@@ -111,7 +111,7 @@ combined events resolved per athlete from the PDF birth-year column.
 | 3 | `Jabalina (600g) MASC.` | `Javelina (600 g)` |
 | 3 | `Javelina (300g) SUB12 FEM` | `Javelina (300 g)` |
 | 3 | `Javelina (400g) SUB14 FEM.` | `Javelina (400 g)` |
-| 3 | `Javelina (500g) MASC.` | `Javelina (500g)` |
+| 3 | `Javelina (500g) MASC.` | `Javelina (500 g)` |
 | 3 | `Llargada Fem. PC` | `Llargada` |
 | 3 | `Llargada Masculina` | `Llargada` |
 | 3 | `Llargada SUB12 MASC. PC` | `Llargada` |
@@ -191,7 +191,7 @@ combined events resolved per athlete from the PDF birth-year column.
 | 1 | `Disco Mujeres` | `Disc (1 Kg)` |
 | 1 | `Javelina (300g) SUB12 MASC` | `Javelina (300 g)` |
 | 1 | `Javelina (400g) FEM.` | `Javelina (400 g)` |
-| 1 | `Javelina (500g) SUB16 FEM.` | `Javelina (500g)` |
+| 1 | `Javelina (500g) SUB16 FEM.` | `Javelina (500 g)` |
 | 1 | `Llargada FEM. AL` | `Llargada` |
 | 1 | `Llargada Masculins` | `Llargada` |
 | 1 | `Llargada SUB10 FEM. AL` | `Llargada` |

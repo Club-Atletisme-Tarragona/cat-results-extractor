@@ -17,7 +17,7 @@ combined events resolved per athlete from the PDF birth-year column.
 | 18 | `LLANÇAMENT DE PES` | `Pes (3 Kg)` |
 | 17 | `LLANÇAMENT DE PES` | `Pes (7.260 Kg)` |
 | 11 | `SALT D'ALÇADA MASCULÍ` | `Alçada` |
-| 9 | `JAVELINA Cadet Femení                               500 g` | `Javelina (500g)` |
+| 9 | `JAVELINA Cadet Femení                               500 g` | `Javelina (500 g)` |
 | 9 | `SALT DE LLARGADA CADET FEMENÍ` | `Llargada` |
 | 8 | `60 METRES LLISOS` | `60 metres llisos` |
 | 8 | `60 METRES TANQUES MASCULINS` | `60 metres tanques (1.067)` |
@@ -82,7 +82,7 @@ combined events resolved per athlete from the PDF birth-year column.
 | 2 | `110 METRES TANQUES JUNIORS MASCULINS` | `110 metres tanques (0.99)` |
 | 2 | `5000 METRES LLISOS MASCULINS` | `5000 metres llisos` |
 | 2 | `60 METRES TANQUES CADET FEMENÍ` | `60 metres tanques (0.76)` |
-| 2 | `LLANÇAMENT DE JAVELINA` | `Javelina (500g)` |
+| 2 | `LLANÇAMENT DE JAVELINA` | `Javelina (500 g)` |
 | 2 | `LLANÇAMENT DE PES JUVENIL MASCULÍ` | `Pes (5 Kg)` |
 | 2 | `Prova: Alçada F – 17:00h.                 Per percentatge` | `Alçada` |
 | 2 | `SALT D'ALÇADA CADET FEMENÍ` | `Alçada` |
@@ -125,7 +125,7 @@ combined events resolved per athlete from the PDF birth-year column.
 | 1 | `CLASSIFICACIÓ PROVES COMBINADES` | `Decatló (S18)` |
 | 1 | `DISC                   2                   0` | `110 metres tanques (0.91)` |
 | 1 | `DISC Cadet Femení                         800 g` | `4x100` |
-| 1 | `LLANÇAMENT DE JAVELINA CADET FEMENÍ` | `Javelina (500g)` |
+| 1 | `LLANÇAMENT DE JAVELINA CADET FEMENÍ` | `Javelina (500 g)` |
 | 1 | `LLOC   dorsal      LLIC               ATLETA            ANY             EQUIP         100 m.ll.   Llargada   Pes     Alçada   400 mll   110 m.t.   Disc    Perxa   Javelina   1500 mll   TOTAL` | `100 metres llisos` |
 | 1 | `LLOC   dorsal      LLIC               ATLETA            ANY             EQUIP         100 m.ll.   Llargada   Pes     Alçada   400 mll   110 m.t.   Disc    Perxa   Javelina   1500 mll   TOTAL` | `Llargada` |
 | 1 | `LLOC   dorsal      LLIC               ATLETA            ANY             EQUIP         100 m.ll.   Llargada   Pes     Alçada   400 mll   110 m.t.   Disc    Perxa   Javelina   1500 mll   TOTAL` | `Pes (7.260 Kg)` |

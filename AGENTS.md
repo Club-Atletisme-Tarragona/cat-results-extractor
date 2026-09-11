@@ -107,11 +107,17 @@ Each event type validates extracted numeric values within specific ranges:
 |------------|-------|-----|-----|
 | Track | Time | 5.0 | 60.0 |
 | Marcha | Time | 5.0 | 60.0 |
-| Jump | Distance (m) | 3.0 | 20.0 |
+| Jump | Distance (m) | 1.5 | 20.0 |
 | Height | Height (m) | 1.0 | 7.0 |
 | Field | Distance (m) | 3.0 | 80.0 |
 
 Values outside these ranges are discarded. For track events, prefer `HH:MM.ss` format over decimal seconds.
+
+**Jump minimum rationale (issue #16):** Young/beginner athletes legitimately record low
+Llargada (long jump) marks — values from 1.5 m are valid and must NOT be reclassified as
+Alçada based on the value alone (youth athletes can jump 1.xx m in Llargada; beginner
+Perxa vaulters commonly clear 1.40–1.70 m, well within the height range). The extractor's
+code floor for jumps has always been 1.5 m; the old 3.0 m figure here was stale documentation.
 
 **Position numbers are NOT performances:** Pure integers ≤ 3 digits (e.g., `1`, `2`, `14`, `100`) are position numbers, not results. Skip them. Valid performances are decimal times/distances or DNS/DNF/N.P./RET./DQ.
 

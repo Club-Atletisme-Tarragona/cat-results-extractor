@@ -37,24 +37,29 @@ def parse_header(text):
     data = ""
     lines = text.split('\n')
 
-    # Generic competition name: any line containing "Jornada" and "Campionat"/"Campeonato"
-    # Also accept lines with just "Campionat"/"Campeonato" (without "Jornada")
+    # Generic competition name: any line containing "Jornada"/"Jornadas"/"Jornades" and
+    # "Campionat"/"Campeonato". Also accept lines with just "Campionat"/"Campeonato"
+    # (without "Jornada"). Word-boundary match: Catalan plural "Jornades" does NOT
+    # substring-contain "Jornada" (e.g., "IX Jornades Atlètiques Torredembarra").
+    jornada_re = re.compile(r'Jornad(?:a|as|es)\b')
     for i, line in enumerate(lines[:30]):
         stripped = line.strip()
-        if 'Jornada' in stripped and ('Campionat' in stripped or 'Campeonato' in stripped):
+        if jornada_re.search(stripped) and ('Campionat' in stripped or 'Campeonato' in stripped):
             competicio = stripped
             break
     if not competicio:
         for i, line in enumerate(lines[:30]):
             stripped = line.strip()
-            if ('Campionat' in stripped or 'Campeonato' in stripped) and 'Campionatu' not in stripped and 'Jornada' not in stripped:
+            if ('Campionat' in stripped or 'Campeonato' in stripped) and 'Campionatu' not in stripped and not jornada_re.search(stripped):
                 competicio = stripped
                 break
-    # Fallback: accept "Jornada" alone as competition name (e.g., "3ª Jornada Llançaments Llargs d'Hivern Sub14-16")
+    # Fallback: accept "Jornada"/"Jornadas"/"Jornades" alone as competition name
+    # (e.g., "3ª Jornada Llançaments Llargs d'Hivern Sub14-16",
+    #  "IX Jornades Atlètiques Torredembarra")
     if not competicio:
         for i, line in enumerate(lines[:30]):
             stripped = line.strip()
-            if 'Jornada' in stripped and 'sesión' not in stripped.lower() and 'sesion' not in stripped.lower():
+            if jornada_re.search(stripped) and 'sesión' not in stripped.lower() and 'sesion' not in stripped.lower():
                 competicio = stripped
                 break
     # Fallback: accept "Control" as competition name (e.g., "6è Control de Promoció Sub16-18")
@@ -112,7 +117,7 @@ def parse_header(text):
                 for j in range(i - 1, max(i - 5, -1), -1):
                     prev = lines[j].strip()
                     if prev and not re.search(r'\d{2}/\d{2}/\d{4}', prev):
-                        if 'Jornada' in prev and 'Campionat' in prev:
+                        if jornada_re.search(prev) and ('Campionat' in prev or 'Campeonato' in prev):
                             continue
                         if any(kw in prev for kw in ['Estadi', 'Pista', 'Pabellon', 'Pabellón']):
                             continue

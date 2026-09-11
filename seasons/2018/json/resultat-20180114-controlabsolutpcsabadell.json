@@ -1,8 +1,29 @@
 {
   "event_name": "Control Absolut en Pista Coberta (4a. Jornada) - Control Absolut en Pista Coberta (4a. Jornada)",
   "event_date": "14/01/2018",
-  "event_location": "Sabadell",
-  "total_results": 0,
+  "event_location": "Club                                             Lic",
+  "total_results": 2,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20180114-controlabsolutpcsabadell.pdf",
-  "results": []
+  "results": [
+    {
+      "athlete_name": "Javier Almale Lerin",
+      "athlete_dob": "23/02/2000",
+      "athlete_id": "CT24373",
+      "performance": "7.26",
+      "discipline": "60 metres llisos",
+      "raw_discipline_name": "60m MASC. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Bernat Verdu Gomez",
+      "athlete_dob": "02/01/2002",
+      "athlete_id": "CT25944",
+      "performance": "8.58",
+      "discipline": "60 metres tanques (0.91)",
+      "raw_discipline_name": "60m tanques (0,91) S18 MASC. PC",
+      "wind": null,
+      "position": null
+    }
+  ]
 }

@@ -1,8 +1,39 @@
 {
   "event_name": "Campionat de Catalunya de Relleus Sub10",
   "event_date": "10/04/2021",
-  "event_location": "Tarragona",
-  "total_results": 0,
+  "event_location": "Tarragona-CLA",
+  "total_results": 3,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210410-catrelleuspromociopreviatarragona.pdf",
-  "results": []
+  "results": [
+    {
+      "athlete_name": "(t) Yune Sanchez Morata CL3953",
+      "athlete_dob": "01/05/2010",
+      "athlete_id": "CL4161",
+      "performance": "6:54.79",
+      "discipline": "3x600",
+      "raw_discipline_name": "3x600m MASC. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "(t) Aina De Los Reyes Ruiz CL93256AF",
+      "athlete_dob": "17/03/2010",
+      "athlete_id": "CL1602",
+      "performance": "6:50.98",
+      "discipline": "3x600",
+      "raw_discipline_name": "3x600m FEM. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Semifinal 2 11:45",
+      "athlete_dob": "10/04/2021",
+      "athlete_id": "CL3657",
+      "performance": "6:02.36",
+      "discipline": "3x600",
+      "raw_discipline_name": "3x600m FEM. AL",
+      "wind": null,
+      "position": null
+    }
+  ]
 }

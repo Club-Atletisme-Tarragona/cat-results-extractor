@@ -1,8 +1,19 @@
 {
   "event_name": "Controls Pista Coberta Sub20 - Sub18 - Controls Pista Coberta Sub20 - Sub18",
   "event_date": "30/01/2021",
-  "event_location": "Barcelona",
-  "total_results": 0,
+  "event_location": "Barcelona - Palau Sant Jordi",
+  "total_results": 1,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/2021/01/resultat-20210130-controlsub1820pcbcnpsj.pdf",
-  "results": []
+  "results": [
+    {
+      "athlete_name": "Aleix Lago Garbajosa",
+      "athlete_dob": "26/09/2002",
+      "athlete_id": "CT264",
+      "performance": "2:00.80",
+      "discipline": "800 metres llisos",
+      "raw_discipline_name": "800m MASC. PC",
+      "wind": null,
+      "position": null
+    }
+  ]
 }

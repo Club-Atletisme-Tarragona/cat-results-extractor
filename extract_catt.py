@@ -27,7 +27,13 @@ def extract_text(pdf_path):
     if result.returncode != 0:
         print(f"Error executant pdftotext: {result.stderr}", file=sys.stderr)
         sys.exit(1)
-    return result.stdout
+    text = result.stdout
+    # Normalize club-name spelling variants so the downstream
+    # 'CA Tarragona' / 'CATT' checks match consistently. PDFs write the
+    # club as "C.A.Tarragona", "C. A. TARRAGONA", "CA TARRAGONA", etc.
+    # (issue #18: several zero-result files failed only on this).
+    text = re.sub(r'\bC\s*\.?\s*A\s*\.?\s*Tarragona\b', 'CA Tarragona', text, flags=re.IGNORECASE)
+    return text
 
 
 def parse_header(text):

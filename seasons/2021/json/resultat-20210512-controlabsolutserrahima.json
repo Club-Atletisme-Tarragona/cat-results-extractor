@@ -1,8 +1,29 @@
 {
   "event_name": "Control Absolut - Barcelona (Estadi Joan Serrahima), 12 mayo 2021",
   "event_date": "12/05/2021",
-  "event_location": "Joan Serrahima",
-  "total_results": 0,
+  "event_location": "Club                                             Lic",
+  "total_results": 2,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/05/resultat-20210512-controlabsolutserrahima.pdf",
-  "results": []
+  "results": [
+    {
+      "athlete_name": "Aleix Lago Garbajosa",
+      "athlete_dob": "26/09/2002",
+      "athlete_id": "CT264",
+      "performance": "1:55.74",
+      "discipline": "800 metres llisos",
+      "raw_discipline_name": "800m MASC. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Gerard Parera Bodi",
+      "athlete_dob": "22/01/2000",
+      "athlete_id": "CL25156",
+      "performance": "59.97",
+      "discipline": "400 metres tanques (0.914)",
+      "raw_discipline_name": "400m tanques (0,91) MASC. AL",
+      "wind": null,
+      "position": null
+    }
+  ]
 }

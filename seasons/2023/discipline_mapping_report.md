@@ -87,7 +87,7 @@ combined events resolved per athlete from the PDF birth-year column.
 | 4 | `Disc (1kg) MASC.` | `Disc (1 Kg)` |
 | 4 | `Disco (1kg) FEM. SENIOR FEMENINO` | `Disc (1 Kg)` |
 | 4 | `Disco (1kg) S16 MASC.` | `Disc (1 Kg)` |
-| 4 | `Martell (5kg) Masculí sub18` | `Martell (5 kg)` |
+| 4 | `Martell (5kg) Masculí sub18` | `Martell (5 Kg)` |
 | 4 | `Pes (7,260kg) MASC. PC` | `Pes (7.260 Kg)` |
 | 4 | `Peso (3kg) S14, S16 FEM. AL` | `Pes (3 Kg)` |
 | 3 | `1.000m MASC. PC` | `1000 metres llisos` |
@@ -107,8 +107,8 @@ combined events resolved per athlete from the PDF birth-year column.
 | 3 | `Longitud FEM. AL SUB 12` | `Llargada` |
 | 3 | `Martillo (4kg) FEM.` | `Martell (4 Kg)` |
 | 3 | `Martillo (4kg) FEM. SENIOR FEMENINO` | `Martell (4 Kg)` |
-| 3 | `Martillo (5kg) MASC. SUB 18 M` | `Martell (5 kg)` |
-| 3 | `Martillo (6kg) MASC.` | `Martell (6 kg)` |
+| 3 | `Martillo (5kg) MASC. SUB 18 M` | `Martell (5 Kg)` |
+| 3 | `Martillo (6kg) MASC.` | `Martell (6 Kg)` |
 | 3 | `Martillo (7,260kg) MASC.` | `Martell (7.260 Kg)` |
 | 3 | `Perxa MASC. PC` | `Perxa` |
 | 3 | `Pes (2kg) FEM AL` | `Pes (2 Kg)` |
@@ -134,7 +134,7 @@ combined events resolved per athlete from the PDF birth-year column.
 | 2 | `Llargada SUB18 MASC. PC` | `Llargada` |
 | 2 | `Longitud FEM. s10 AL` | `Llargada` |
 | 2 | `Martell (3kg) FEM.` | `Martell (3 Kg)` |
-| 2 | `Martillo (5kg) MASC. SUB 18` | `Martell (5 kg)` |
+| 2 | `Martillo (5kg) MASC. SUB 18` | `Martell (5 Kg)` |
 | 2 | `Perxa FEM. AL` | `Perxa` |
 | 2 | `Perxa MASC. AL` | `Perxa` |
 | 2 | `Pes (4kg) MASC. AL` | `Pes (4 Kg)` |

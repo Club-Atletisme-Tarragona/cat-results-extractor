@@ -64,7 +64,7 @@ combined events resolved per athlete from the PDF birth-year column.
 | 7 | `Disc (1,5kg) MASC.` | `Disc (1,5 Kg)` |
 | 7 | `Jabalina (700g) Hombres` | `Javelina (700 g)` |
 | 6 | `1.000m MASC. PC` | `1000 metres llisos` |
-| 6 | `14:00   Martillo (6kg) Hombres                                                       Final` | `Martell (6 kg)` |
+| 6 | `14:00   Martillo (6kg) Hombres                                                       Final` | `Martell (6 Kg)` |
 | 6 | `60m Femenins` | `60 metres llisos` |
 | 6 | `Llargada FEM. PC ANY 2010` | `Llargada` |
 | 6 | `Llargada Masculina 2010` | `Llargada` |
@@ -95,7 +95,7 @@ combined events resolved per athlete from the PDF birth-year column.
 | 4 | `Disco (1kg) MASC.` | `Disc (1 Kg)` |
 | 4 | `Javelina (700g) MASC.` | `Javelina (700 g)` |
 | 4 | `Llargada SUB14F- SUB16F` | `Llargada` |
-| 4 | `Martillo (5kg) MASC.` | `Martell (5 kg)` |
+| 4 | `Martillo (5kg) MASC.` | `Martell (5 Kg)` |
 | 4 | `Pes (6kg) MASC. PC` | `Pes (6 Kg)` |
 | 4 | `Pes (7,260kg) MASC. PC` | `Pes (7.260 Kg)` |
 | 3 | `1.000m Mujeres U12F` | `1000 metres llisos` |
@@ -196,7 +196,7 @@ combined events resolved per athlete from the PDF birth-year column.
 | 1 | `Llargada Masculins` | `Llargada` |
 | 1 | `Llargada SUB10 FEM. AL` | `Llargada` |
 | 1 | `Longitud MASC. AL A` | `Llargada` |
-| 1 | `Martell (5kg) MASC.` | `Martell (5 kg)` |
+| 1 | `Martell (5kg) MASC.` | `Martell (5 Kg)` |
 | 1 | `Perxa FEM. AL` | `Perxa` |
 | 1 | `Perxa Femenina` | `Perxa` |
 | 1 | `Perxa MASC. AL` | `Perxa` |

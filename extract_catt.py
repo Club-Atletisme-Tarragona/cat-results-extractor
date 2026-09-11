@@ -274,6 +274,17 @@ COMBINED_PATTERNS = [
     r'^(?:Tetrathlón|Tetrathlon)\s+Cataluña\s+infantil',
 ]
 
+def normalize_weight_units(name):
+    """Canonicalize implement-weight unit casing in discipline names.
+
+    The disciplines table uses mixed case for kilograms ("Martell (6 Kg)")
+    and lowercase for grams ("Disc (800 g)"); raw PDF names vary freely
+    ("Martillo (6kg)"), so force kg -> Kg in exported discipline values.
+    """
+    return re.sub(r"\((\d+(?:[.,]\d+)?)\s*[kK][gG]\)",
+                  lambda m: "({} Kg)".format(m.group(1)), name)
+
+
 def classify_event(event_name):
     if not event_name:
         return "unknown"
@@ -3383,7 +3394,7 @@ def main():
             "athlete_dob": r["atleta_naixement"],
             "athlete_id": r["atleta_licencia"],
             "performance": r["marca"],
-            "discipline": r["prova"],
+            "discipline": normalize_weight_units(r["prova"]),
             "wind": r["vent"],
             "position": r.get("position"),
         }

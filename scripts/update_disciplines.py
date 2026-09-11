@@ -51,22 +51,29 @@ def load_official_names() -> set:
 
 OFFICIAL_NAMES = load_official_names()
 
+# Canonical casing for implement-weight units in official discipline names.
+# The disciplines table uses mixed case for kilograms ("Martell (6 Kg)") and
+# lowercase for grams ("Disc (800 g)"); raw PDF names vary freely
+# ("Martillo (6kg)"), so force kg -> Kg on every mapped name.
+def normalize_weight_units(name: str) -> str:
+    return re.sub(r"\((\d+(?:[.,]\d+)?)\s*[kK][gG]\)",
+                  lambda m: f"({m.group(1)} Kg)", name)
+
 # Approved names not (yet) present in DISCIPLINES.md; the user will add them.
 # Juvenil/cadet boys ran 100m hurdles (0.914) in this era before switching to 110mh.
-"Martell (6 kg)",              # masters M50+ shot (6kg)
-"Javelina (300 g)",            # Sub-12 turbo jav
+# Note: "Martell (6 kg)" was here when DISCIPLINES.md lacked the row; the official
+# "Martell (6 Kg)" (id 176) now covers it, so it must NOT be re-added lowercase.
 APPROVED_PENDING = {
     "100 metres tanques (0.91)",   # cadet/juvenil boys 100mh (0.914) in this era
     "60 metres tanques (0.50)",    # aleví (Sub-12) 60mh
     "Pes (2 Kg)",                  # aleví (Sub-12) both genders / infantil (Sub-14) women
-    "Disc (600 g)",                # aleví (Sub-12) discus    "Javelina (500 g)",
+    "Disc (600 g)",                # aleví (Sub-12) discus
     "Javelina (700 g)",
     "Javelina (400 g)",
     "Javelina (800 g)",
     "Javelina (600 g)",
     "Martell (2 Kg)",              # aleví (Sub-12) hammer
-"Javelina (300 g)",            # Sub-12 turbo jav
-    "Martell (6 kg)",              # masters M50+ shot (6kg)
+    "Javelina (300 g)",            # Sub-12 turbo jav
 }
 
 # ---------------------------------------------------------------------------
@@ -93,7 +100,7 @@ PES_F.update({"vet50": "Pes (3 Kg)"})
 DISC_M.update({"vet50": "Disc (1,5 Kg)", "infantil": "Disc (800 g)", "alevi": "Disc (600 g)"})
 DISC_F.update({"infantil": "Disc (800 g)", "alevi": "Disc (600 g)"})
 DISC_F.update({"vet50": "Disc (1 Kg)"})
-MARTELL_M = {"cadet": "Martell (4 Kg)", "juvenil": "Martell (5 kg)", "junior": "Martell (6 kg)",
+MARTELL_M = {"cadet": "Martell (4 Kg)", "juvenil": "Martell (5 Kg)", "junior": "Martell (6 Kg)",
              "promesa": "Martell (7.260 Kg)", "absolut": "Martell (7.260 Kg)"}
 MARTELL_F = {"cadet": "Martell (3 Kg)", "juvenil": "Martell (3 Kg)", "junior": "Martell (4 Kg)",
              "promesa": "Martell (4 Kg)", "absolut": "Martell (4 Kg)"}
@@ -1688,7 +1695,7 @@ def map_discipline(raw: str, event_name: str, filename: str, athlete_name: str =
                 "disc": {"2": "Disc (2 Kg)", "1,750": "Disc (1,750)", "1,5": "Disc (1,5 Kg)",
                          "1": "Disc (1 Kg)", "0,8": "Disc (800 g)", "800": "Disc (800 g)",
                          "0,6": "Disc (600 g)", "600": "Disc (600 g)"},
-                "martell": {"7,260": "Martell (7.260 Kg)", "6": "Martell (6 kg)", "5": "Martell (5 kg)",
+                "martell": {"7,260": "Martell (7.260 Kg)", "6": "Martell (6 Kg)", "5": "Martell (5 Kg)",
                             "4": "Martell (4 Kg)", "3": "Martell (3 Kg)", "2": "Martell (2 Kg)",
                             "15,88": "Martell pesat (15.88 Kg)", "9,08": "Martell pesat (9.08 Kg)",
                             "7,26": "Martell pesat (7.260 Kg)"},
@@ -1884,6 +1891,9 @@ def process_file(path: Path, dry_run: bool):
         if official == "NEEDS_ATHLETE":
             official = ABSJUN_OVERRIDES.get((r.get("athlete_name", ""), raw))
             note = "per-athlete category from PDF birth-year column (absolut-junior combined)"
+        if official is not None:
+            # defensive: guarantee canonical unit casing regardless of table/override path
+            official = normalize_weight_units(official)
         if official is None:
             review.append({"athlete": r.get("athlete_name"), "raw": raw, "reason": note})
             if not dry_run and "raw_discipline_name" not in r:

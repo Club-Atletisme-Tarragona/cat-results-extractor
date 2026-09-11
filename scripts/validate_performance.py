@@ -33,7 +33,7 @@ def load_formats():
         "Javelina (500 g)": "m.cm", "Javelina (700 g)": "m.cm",
         "Javelina (400 g)": "m.cm", "Javelina (800 g)": "m.cm",
         "Javelina (600 g)": "m.cm", "Martell pesat (15.88 Kg)": "m.cm",
-        "Martell pesat (9.08 Kg)": "m.cm", "Martell (6 kg)": "m.cm",
+        "Martell pesat (9.08 Kg)": "m.cm", "Martell (6 Kg)": "m.cm",
         "Triatló": "p", "4x80": "ss.cc", "Javelina (500g)": "m.cm",
     })
     return formats

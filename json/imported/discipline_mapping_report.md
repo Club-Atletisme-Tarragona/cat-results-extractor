@@ -129,7 +129,7 @@ combined events resolved per athlete from the PDF birth-year column.
 | 1 | `Marató Masculí M45` | `Marato` |
 | 1 | `Maratón Hombres M45` | `Marato` |
 | 1 | `Maratón Master Hombres Clubes` | `Marato` |
-| 1 | `Martillo (5kg) Hombres` | `Martell (5 kg)` |
+| 1 | `Martillo (5kg) Hombres` | `Martell (5 Kg)` |
 | 1 | `Pentatló Sub18 Femení PC` | `Pentatló` |
 | 1 | `Pentatló Sub20 Femení PC` | `Pentatló` |
 | 1 | `Perxa Femení PC` | `Perxa` |

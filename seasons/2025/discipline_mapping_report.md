@@ -300,7 +300,7 @@ combined events resolved per athlete from the PDF birth-year column.
 | 3 | `100m Masculins` | `100 metres llisos` |
 | 3 | `11:30   3.000m Marcha M PC M70                                                    Final` | `3000 metres marxa` |
 | 3 | `150m Femenins` | `150 metres llisos` |
-| 3 | `15:00   Martillo (5kg) Hombres                                                      Final` | `Martell (5 kg)` |
+| 3 | `15:00   Martillo (5kg) Hombres                                                      Final` | `Martell (5 Kg)` |
 | 3 | `2.000m Mujeres AL` | `2000 metres llisos` |
 | 3 | `220m tanques Femenins` | `220 metres tanques (0.762)` |
 | 3 | `3.000m Hombres PC` | `3000 metres llisos` |
@@ -498,7 +498,7 @@ combined events resolved per athlete from the PDF birth-year column.
 | 1 | `Martillo (4kg) Hombres Master M75` | `Martell (4 Kg)` |
 | 1 | `Martillo (4kg) Mujeres MF40` | `Martell (4 Kg)` |
 | 1 | `Martillo (4kg) Mujeres SF` | `Martell (4 Kg)` |
-| 1 | `Martillo (6kg) Hombres Master M50` | `Martell (6 kg)` |
+| 1 | `Martillo (6kg) Hombres Master M50` | `Martell (6 Kg)` |
 | 1 | `Martillo Pesado Hombres 50-59 Master M50` | `Martell (7.260 Kg)` |
 | 1 | `Martillo Pesado Hombres 70-79 Master M75` | `Martell (7.260 Kg)` |
 | 1 | `Martillo Pesado Mujeres 35-49 MF40` | `Martell (4 Kg)` |

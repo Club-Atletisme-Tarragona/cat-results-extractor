@@ -65,7 +65,7 @@ Sorted by `position`. Empty cell = NULL.
 | 23 | Disc (2 Kg) | DESC | m.cm | m.cm |  | 56 | Disco (2kg) |
 | 100 | Martell (3 Kg) | DESC | m.cm | m.cm |  | 57 | Martillo (3kg) |
 | 40 | Martell (4 Kg) | DESC | m.cm | m.cm |  | 58 | Martillo (4kg) |
-| 105 | Martell (5 kg) | DESC | m.cm | m.cm |  | 59 | Martillo |
+| 105 | Martell (5 Kg) | DESC | m.cm | m.cm |  | 59 | Martillo |
 | 24 | Martell (7.260 Kg) | DESC | m.cm | m.cm |  | 60 | Martillo (7,260kg) |
 | 43 | Martell pesat (9.08 Kg) | DESC | m.cm | m.cm |  | 61 |  |
 | 45 | Martell pesat (15.88 Kg) | DESC | m.cm | m.cm |  | 62 |  |

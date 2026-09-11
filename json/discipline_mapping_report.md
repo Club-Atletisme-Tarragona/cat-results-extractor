@@ -659,7 +659,7 @@ combined events resolved per athlete from the PDF birth-year column.
 | 1 | `Maratón Marcha Mujeres` | `Marató Marxa (Ruta)` |
 | 1 | `Maratón Marcha Mujeres Master` | `Marató Marxa (Ruta)` |
 | 1 | `Maratón Marcha Mujeres Master F45` | `Marató Marxa (Ruta)` |
-| 1 | `Martillo (6kg) MASC.` | `Martell (6 kg)` |
+| 1 | `Martillo (6kg) MASC.` | `Martell (6 Kg)` |
 | 1 | `Medio maratón Marcha Masc` | `Mitja Marató Marxa (Ruta)` |
 | 1 | `Pentathlon JUVMujeres PC-aire libre` | `Pentatló` |
 | 1 | `Pentathlon Mujeres PC` | `Pentatló` |

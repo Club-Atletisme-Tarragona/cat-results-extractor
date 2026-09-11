@@ -668,7 +668,7 @@ Generated: 2026-09-08 23:18 · by `scripts/update_disciplines.py --json-dir`
     1  'Maratón Marcha Mujeres'                                     -> 'Marato'
     1  'Maratón Marcha Mujeres Master'                              -> 'Marato'
     1  'Maratón Marcha Mujeres Master F45'                          -> 'Marato'
-    1  'Martillo (6kg) MASC.'                                       -> 'Martell (6 kg)'
+    1  'Martillo (6kg) MASC.'                                       -> 'Martell (6 Kg)'
     1  'Pentathlon JUVMujeres PC-aire libre'                        -> 'Pentatló'
     1  'Pentathlon Mujeres PC'                                      -> 'Pentatló'
     1  'Pentathlon Vet. Hombres. PC Master M60'                     -> 'Pentatló'

@@ -1,8 +1,18 @@
 {
-  "event_name": "",
-  "event_date": "2/7/2010",
+  "event_name": "Control Absolut UA Terrassa - Terrassa",
+  "event_date": "02/07/2010",
   "event_location": "Terrassa",
   "event_src": "http://old.fcatletisme.cat/Pairelliure/pairelliure2010/resulcontroluat2710.pdf",
-  "total_results": 0,
-  "results": []
+  "total_results": 1,
+  "results": [
+    {
+      "athlete_name": "DAVID LAGO CAMPS",
+      "athlete_dob": "",
+      "athlete_id": "CL-18403",
+      "performance": "2:05.79",
+      "discipline": "800 metres llisos",
+      "wind": null,
+      "raw_discipline_name": "2       2       951     CL-18403          DAVID LAGO CAMPS  "
+    }
+  ]
 }

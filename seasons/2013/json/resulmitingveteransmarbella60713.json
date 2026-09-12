@@ -1,8 +1,36 @@
 {
-  "event_name": "resulmitingveteransmarbella60713",
+  "event_name": "VIII Meeting català d'atletes veteranes i veterans - CEM Mar Bella (Barcelona)",
   "event_date": "06/07/2013",
   "event_location": "Barcelona",
   "event_src": "http://old.fcatletisme.cat/Veterans/veterans2013/resulmitingveteransmarbella60713.pdf",
-  "results": [],
-  "total_results": 0
+  "results": [
+    {
+      "athlete_name": "Albert Bo Garriga",
+      "athlete_dob": "02/07/1968",
+      "athlete_id": "CL21187",
+      "performance": "1:06.50",
+      "discipline": "400 metres llisos",
+      "wind": null,
+      "raw_discipline_name": "030mll"
+    },
+    {
+      "athlete_name": "Albert Bo Garriga",
+      "athlete_dob": "02/07/1968",
+      "athlete_id": "CL21187",
+      "performance": "2:29.39",
+      "discipline": "800 metres llisos",
+      "wind": null,
+      "raw_discipline_name": "030mll"
+    },
+    {
+      "athlete_name": "Iván Tamarit Román",
+      "athlete_dob": "15/03/1990",
+      "athlete_id": "CL22300",
+      "performance": "11.71",
+      "discipline": "100 metres llisos",
+      "wind": "+0.2",
+      "raw_discipline_name": "176mll"
+    }
+  ],
+  "total_results": 3
 }

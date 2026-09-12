@@ -1,8 +1,36 @@
 {
-  "event_name": "JORNADA FINAL DEL CAMPIONAT DE CATALUNYA CADET",
-  "event_date": "20/6/2009",
-  "event_location": "Llobregat",
+  "event_name": "Jornada Final del Campionat de Catalunya Cadet - El Prat de Llobregat",
+  "event_date": "20/06/2009",
+  "event_location": "El Prat de Llobregat",
   "event_src": "http://old.fcatletisme.cat/Promocio/promocio2009/resulcatcadet20609.pdf",
-  "total_results": 0,
-  "results": []
+  "total_results": 3,
+  "results": [
+    {
+      "athlete_name": "GUINOVART PEDESCOLL, MONTSERRAT",
+      "athlete_dob": "24/03/1994",
+      "athlete_id": "CL55941",
+      "performance": "4.66",
+      "discipline": "Llargada",
+      "wind": "-0.4",
+      "raw_discipline_name": "SALT DE LLARGADA"
+    },
+    {
+      "athlete_name": "GUINOVART PEDESCOLL, MONTSERRAT",
+      "athlete_dob": "24/03/1994",
+      "athlete_id": "CL55941",
+      "performance": "4.79",
+      "discipline": "Llargada",
+      "wind": "-2.1",
+      "raw_discipline_name": "SALT DE LLARGADA"
+    },
+    {
+      "athlete_name": "GUINOVART PEDESCOLL, MONTSERRAT",
+      "athlete_dob": "24/03/1994",
+      "athlete_id": "CL55941",
+      "performance": "4.53",
+      "discipline": "Llargada",
+      "wind": "-0.6",
+      "raw_discipline_name": "SALT DE LLARGADA"
+    }
+  ]
 }

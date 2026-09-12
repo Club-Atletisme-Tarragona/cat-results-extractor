@@ -1,8 +1,90 @@
 {
-  "event_name": "",
-  "event_date": "10/5/2016",
+  "event_name": "Control Primavera 2016 - Cambrils",
+  "event_date": "30/04/2016",
   "event_location": "Cambrils",
   "event_src": "http://old.fcatletisme.cat/Pairelliure/2016/resulcontrolpimaveracambrils3004-10516.pdf",
-  "total_results": 0,
-  "results": []
+  "total_results": 9,
+  "results": [
+    {
+      "athlete_name": "SANS RIOLA, JAN",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "10.96",
+      "discipline": "100 metres llisos",
+      "wind": "+2.4",
+      "raw_discipline_name": "100 m.ll. Absolut Masculí"
+    },
+    {
+      "athlete_name": "ALMALE LERIN, JAVIER",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "11.84",
+      "discipline": "100 metres llisos",
+      "wind": "+2.4",
+      "raw_discipline_name": "100 m.ll. Absolut Masculí"
+    },
+    {
+      "athlete_name": "MARTIN BORRAS, MARIA",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "12.89",
+      "discipline": "100 metres llisos",
+      "wind": "+2.9",
+      "raw_discipline_name": "100 m.ll. Absolut Masculí"
+    },
+    {
+      "athlete_name": "LOPEZ URBANO, ANDREA",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "13.77",
+      "discipline": "100 metres llisos",
+      "wind": "+2.9",
+      "raw_discipline_name": "100 m.ll. Absolut Masculí"
+    },
+    {
+      "athlete_name": "MARTINEZ FALGUERA, DAINA",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "27.08",
+      "discipline": "200 metres llisos",
+      "wind": "+4.5",
+      "raw_discipline_name": "200 m.ll. Absolut Femení"
+    },
+    {
+      "athlete_name": "SANS RIOLA, JAN",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "14.37",
+      "discipline": "110 metres tanques (1.067)",
+      "wind": "+3.1",
+      "raw_discipline_name": "110 m.t. Júnior Masculí"
+    },
+    {
+      "athlete_name": "LOPEZ URBANO, MIREIA",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "14.34",
+      "discipline": "100 metres tanques (0.84)",
+      "wind": "+3.3",
+      "raw_discipline_name": "100 m.t. Juvenil Femení"
+    },
+    {
+      "athlete_name": "VAZQUEZ DOMINGO, ALICIA",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "15.89",
+      "discipline": "100 metres tanques (0.84)",
+      "wind": "+3.3",
+      "raw_discipline_name": "100 m.t. Juvenil Femení"
+    },
+    {
+      "athlete_name": "FORT MONTANE, XAVIER",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "52.60",
+      "discipline": "300 metres llisos",
+      "wind": null,
+      "raw_discipline_name": "300 m.ll. Cadet Masculí"
+    }
+  ]
 }

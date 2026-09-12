@@ -1,8 +1,18 @@
 {
-  "event_name": "",
-  "event_date": "10/7/2006",
+  "event_name": "XIII Míting d'Atletisme \"Ciutat de Mataró\" - Estadi Municipal d'Atletisme de Mataró",
+  "event_date": "10/07/2006",
   "event_location": "Mataró",
   "event_src": "http://old.fcatletisme.cat/Pairelliure/pairelliure2006/resulmeetingmataro10706.pdf",
-  "total_results": 0,
-  "results": []
+  "total_results": 1,
+  "results": [
+    {
+      "athlete_name": "ESTHER ARAGONES VIDAL",
+      "athlete_dob": "",
+      "athlete_id": "CT-13221",
+      "performance": "2:18.49",
+      "discipline": "800 metres llisos",
+      "wind": null,
+      "raw_discipline_name": "Prova: 800 m.ll."
+    }
+  ]
 }

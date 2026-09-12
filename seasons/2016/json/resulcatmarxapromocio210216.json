@@ -1,8 +1,36 @@
 {
-  "event_name": "Campionat de Catalunya de Marxa Benjamí, Aleví, Infan til i Cadet",
+  "event_name": "1r Gran premi de Marxa del Vendrell - Campionat de Catalunya de Marxa Benjamí, Aleví, Infantil i Cadet",
   "event_date": "21/02/2016",
-  "event_location": "Terrassa",
+  "event_location": "El Vendrell",
   "event_src": "http://old.fcatletisme.cat/Marxa/2016/resulcatmarxapromocio210216.pdf",
-  "results": [],
-  "total_results": 0
+  "results": [
+    {
+      "athlete_name": "SUAREZ PIZA, JULIA",
+      "athlete_dob": "",
+      "athlete_id": "CL69345",
+      "performance": "12:41",
+      "discipline": "2000 metres marxa",
+      "wind": null,
+      "raw_discipline_name": "Prova: 2KM Categoria: Aleví Femení"
+    },
+    {
+      "athlete_name": "SANTOS MARTINEZ, LAURA",
+      "athlete_dob": "",
+      "athlete_id": "CL71751",
+      "performance": "14:50",
+      "discipline": "2000 metres marxa",
+      "wind": null,
+      "raw_discipline_name": "Prova: 2KM Categoria: Aleví Femení"
+    },
+    {
+      "athlete_name": "SUAREZ PIZA, ARIADNA",
+      "athlete_dob": "",
+      "athlete_id": "CL71753",
+      "performance": "16:23",
+      "discipline": "2000 metres marxa",
+      "wind": null,
+      "raw_discipline_name": "Prova: 2KM Categoria: Aleví Femení"
+    }
+  ],
+  "total_results": 3
 }

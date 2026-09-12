@@ -1,8 +1,89 @@
 {
   "event_name": "Control Absolut en Pista Coberta - Control Absolut en Pista Coberta",
   "event_date": "14/01/2023",
-  "event_location": "Sabadell",
-  "total_results": 0,
+  "event_location": "Club                                             Lic",
+  "total_results": 8,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2023/01/resultat-20230114-controlabsolutpcsabadell.pdf",
-  "results": []
+  "results": [
+    {
+      "athlete_name": "Marc Jose Diaz",
+      "athlete_dob": "08/01/1993",
+      "athlete_id": "CT17220",
+      "performance": "7.54",
+      "discipline": "60 metres llisos",
+      "raw_discipline_name": "60m MASC. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Xavier Ros Borrell",
+      "athlete_dob": "19/05/1998",
+      "athlete_id": "CL22779",
+      "performance": "2:01.00",
+      "discipline": "800 metres llisos",
+      "raw_discipline_name": "800m MASC. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Marc Jose Diaz",
+      "athlete_dob": "08/01/1993",
+      "athlete_id": "CT17220",
+      "performance": "8.77",
+      "discipline": "60 metres tanques (1.067)",
+      "raw_discipline_name": "60m tanques (1,067) MASC. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Pablo Angel Fernandez",
+      "athlete_dob": "26/01/2003",
+      "athlete_id": "CT28510",
+      "performance": "8.68",
+      "discipline": "60 metres tanques (1.067)",
+      "raw_discipline_name": "60m tanques (1,067) MASC. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Lluc Subiros Brasero",
+      "athlete_dob": "06/01/2007",
+      "athlete_id": "CT1186",
+      "performance": "3.90",
+      "discipline": "Perxa",
+      "raw_discipline_name": "Perxa MASC. PC - GRUP A",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Mireia Lopez Urbano",
+      "athlete_dob": "07/12/2000",
+      "athlete_id": "CT23556",
+      "performance": "8.54",
+      "discipline": "60 metres tanques (0.84)",
+      "raw_discipline_name": "60m tanques (0,84) FEM. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Mireia Lopez Urbano",
+      "athlete_dob": "07/12/2000",
+      "athlete_id": "CT23556",
+      "performance": "8.56",
+      "discipline": "60 metres tanques (0.84)",
+      "raw_discipline_name": "60m tanques (0,84) FEM. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Claudia Mir Casellas",
+      "athlete_dob": "02/08/2003",
+      "athlete_id": "CT152",
+      "performance": "9.97",
+      "discipline": "60 metres tanques (0.84)",
+      "raw_discipline_name": "60m tanques (0,84) FEM. PC",
+      "wind": null,
+      "position": null
+    }
+  ]
 }

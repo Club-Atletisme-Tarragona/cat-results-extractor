@@ -2,7 +2,7 @@
   "event_name": "Control Absolut en pista coberta (8a Jornada) - Sabadell (Pista Coberta de Catalunya, 22 febrero 2020",
   "event_date": "22/02/2020",
   "event_location": "Pista Coberta de Catalunya",
-  "total_results": 4,
+  "total_results": 6,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20200222-controlabsolutpcsabadell.pdf",
   "results": [
     {
@@ -26,7 +26,7 @@
       "position": null
     },
     {
-      "athlete_name": "Marc Jose Diaz SM 7 q",
+      "athlete_name": "Marc Jose Diaz",
       "athlete_dob": "08/01/1993",
       "athlete_id": "CT17220",
       "performance": "8.68",
@@ -42,6 +42,26 @@
       "performance": "8.63",
       "discipline": "60 metres tanques (1.067)",
       "raw_discipline_name": "60m tanques (1,067) MASC. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Alina Castell Blasco",
+      "athlete_dob": "10/05/2002",
+      "athlete_id": "CL27317",
+      "performance": "1:03.67",
+      "discipline": "400 metres llisos",
+      "raw_discipline_name": "400m FEM. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Sara Castander Vuelta",
+      "athlete_dob": "02/12/2002",
+      "athlete_id": "CL29611",
+      "performance": "1:03.94",
+      "discipline": "400 metres llisos",
+      "raw_discipline_name": "400m FEM. PC",
       "wind": null,
       "position": null
     }

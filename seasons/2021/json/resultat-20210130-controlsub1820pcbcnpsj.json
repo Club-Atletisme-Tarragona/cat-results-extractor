@@ -2,9 +2,19 @@
   "event_name": "Controls Pista Coberta Sub20 - Sub18 - Controls Pista Coberta Sub20 - Sub18",
   "event_date": "30/01/2021",
   "event_location": "Barcelona - Palau Sant Jordi",
-  "total_results": 1,
+  "total_results": 7,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/2021/01/resultat-20210130-controlsub1820pcbcnpsj.pdf",
   "results": [
+    {
+      "athlete_name": "Hugo Rodriguez Martinez",
+      "athlete_dob": "25/02/2004",
+      "athlete_id": "CT27323",
+      "performance": "2:00.79",
+      "discipline": "800 metres llisos",
+      "raw_discipline_name": "800m MASC. PC",
+      "wind": null,
+      "position": null
+    },
     {
       "athlete_name": "Aleix Lago Garbajosa",
       "athlete_dob": "26/09/2002",
@@ -12,6 +22,56 @@
       "performance": "2:00.80",
       "discipline": "800 metres llisos",
       "raw_discipline_name": "800m MASC. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Oscar Leffer Guillon",
+      "athlete_dob": "19/02/2004",
+      "athlete_id": "CL96852",
+      "performance": "9:44.84",
+      "discipline": "3000 metres llisos",
+      "raw_discipline_name": "3.000m MASC. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Ricard Prio Roca",
+      "athlete_dob": "12/05/2004",
+      "athlete_id": "CL3014",
+      "performance": "10:25.34",
+      "discipline": "3000 metres llisos",
+      "raw_discipline_name": "3.000m MASC. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Carla Gonzalez Carrillo",
+      "athlete_dob": "05/06/2003",
+      "athlete_id": "CL29242",
+      "performance": "2:33.59",
+      "discipline": "800 metres llisos",
+      "raw_discipline_name": "800m FEM. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Cristina Iniesta Acera",
+      "athlete_dob": "27/02/2004",
+      "athlete_id": "CL78440",
+      "performance": "12:13.07",
+      "discipline": "3000 metres llisos",
+      "raw_discipline_name": "3.000m FEM. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Lucia Vega Martinez",
+      "athlete_dob": "29/07/2005",
+      "athlete_id": "CL86612",
+      "performance": "13:25.10",
+      "discipline": "3000 metres llisos",
+      "raw_discipline_name": "3.000m FEM. PC",
       "wind": null,
       "position": null
     }

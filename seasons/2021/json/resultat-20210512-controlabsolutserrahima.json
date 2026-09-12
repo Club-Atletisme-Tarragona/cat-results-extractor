@@ -2,7 +2,7 @@
   "event_name": "Control Absolut - Barcelona (Estadi Joan Serrahima), 12 mayo 2021",
   "event_date": "12/05/2021",
   "event_location": "Club                                             Lic",
-  "total_results": 2,
+  "total_results": 3,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/05/resultat-20210512-controlabsolutserrahima.pdf",
   "results": [
     {
@@ -10,6 +10,16 @@
       "athlete_dob": "26/09/2002",
       "athlete_id": "CT264",
       "performance": "1:55.74",
+      "discipline": "800 metres llisos",
+      "raw_discipline_name": "800m MASC. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Hugo Rodriguez Martinez",
+      "athlete_dob": "25/02/2004",
+      "athlete_id": "CT27323",
+      "performance": "1:56.63",
       "discipline": "800 metres llisos",
       "raw_discipline_name": "800m MASC. AL",
       "wind": null,

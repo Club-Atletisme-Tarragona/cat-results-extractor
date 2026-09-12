@@ -2,9 +2,29 @@
   "event_name": "Campionat de Catalunya sub12 en Pista Coberta - Campionat de Catalunya sub12 en Pista Coberta",
   "event_date": "26/03/2023",
   "event_location": "Club                                               Lic",
-  "total_results": 13,
+  "total_results": 16,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2023/03/resultat-20230326-catsub12finalpcsabadell.pdf",
   "results": [
+    {
+      "athlete_name": "Kilian Borreda Cervello",
+      "athlete_dob": "09/05/2013",
+      "athlete_id": "CL4060",
+      "performance": "9.36",
+      "discipline": "60 metres llisos",
+      "raw_discipline_name": "60m MASC. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Hugo Diaz Cristino",
+      "athlete_dob": "04/04/2012",
+      "athlete_id": "CL4397",
+      "performance": "7:14.46",
+      "discipline": "600 metres llisos",
+      "raw_discipline_name": "600m MASC. PC",
+      "wind": null,
+      "position": 7
+    },
     {
       "athlete_name": "Kilian Borreda Cervello",
       "athlete_dob": "09/05/2013",
@@ -54,6 +74,16 @@
       "raw_discipline_name": "Pes (2 Kg) MASC. PC",
       "wind": null,
       "position": 9
+    },
+    {
+      "athlete_name": "Ada Nin Navas",
+      "athlete_dob": "24/10/2012",
+      "athlete_id": "CL1495",
+      "performance": "7:57.64",
+      "discipline": "2000 metres llisos",
+      "raw_discipline_name": "2.000m FEM. PC",
+      "wind": null,
+      "position": 7
     },
     {
       "athlete_name": "Maria Martin Cuadrado",

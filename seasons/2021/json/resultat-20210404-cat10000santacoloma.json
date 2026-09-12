@@ -2,7 +2,48 @@
   "event_name": "",
   "event_date": "04/04/2021",
   "event_location": "Santa Coloma de Gramenet",
-  "total_results": 0,
+  "total_results": 4,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210404-cat10000santacoloma.pdf",
-  "results": []
+  "results": [
+    {
+      "athlete_name": "Oscar Lefler Cortes",
+      "athlete_dob": "19/02/2004",
+      "athlete_id": "CL96852",
+      "performance": "16:33.46",
+      "discipline": "5000 metres llisos",
+      "raw_discipline_name": "5.000m MASC. AL SUB18",
+      "wind": null,
+      "position": 4
+    },
+    {
+      "athlete_name": "60 (t) Fernando Flores Montes M-50 4 NP",
+      "athlete_dob": "17/06/1969",
+      "athlete_id": "CL15201",
+      "performance": "NP",
+      "discipline": "10000 metres llisos",
+      "raw_discipline_name": "10.000m MASC. AL MASTER",
+      "wind": null,
+      "position": 60
+    },
+    {
+      "athlete_name": "67 (t) Jose Francisco Garcia Navarrete M-50 7 NP",
+      "athlete_dob": "24/09/1967",
+      "athlete_id": "CL3972",
+      "performance": "NP",
+      "discipline": "10000 metres llisos",
+      "raw_discipline_name": "10.000m MASC. AL MASTER",
+      "wind": null,
+      "position": 67
+    },
+    {
+      "athlete_name": "81 (t) Cristina Iniesta Acera LF 3 NP",
+      "athlete_dob": "27/02/2004",
+      "athlete_id": "CL78440",
+      "performance": "NP",
+      "discipline": "5000 metres llisos",
+      "raw_discipline_name": "5.000m FEM. AL SUB18",
+      "wind": null,
+      "position": 81
+    }
+  ]
 }

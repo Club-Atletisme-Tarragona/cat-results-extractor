@@ -2,11 +2,11 @@
   "event_name": " - Sabadell (Pista Coberta de Catalunya), 12 enero 2020",
   "event_date": "12/01/2020",
   "event_location": "Club                                             Lic",
-  "total_results": 14,
+  "total_results": 16,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20200112-catclubsbpcsabadell.pdf",
   "results": [
     {
-      "athlete_name": "Jan Monserrate Castaño JM 6",
+      "athlete_name": "Jan Monserrate Castaño",
       "athlete_dob": "19/12/2001",
       "athlete_id": "CT26558",
       "performance": "7.27",
@@ -16,7 +16,17 @@
       "position": null
     },
     {
-      "athlete_name": "Aleix Lago Garbajosa JM 1",
+      "athlete_name": "Pol Aixala Guiu",
+      "athlete_dob": "04/12/2004",
+      "athlete_id": "CL69309",
+      "performance": "54.11",
+      "discipline": "400 metres llisos",
+      "raw_discipline_name": "400m MASC. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Aleix Lago Garbajosa",
       "athlete_dob": "26/09/2002",
       "athlete_id": "CL27847",
       "performance": "2:01.98",
@@ -26,7 +36,7 @@
       "position": null
     },
     {
-      "athlete_name": "Gerard Parera Bodi PM 2",
+      "athlete_name": "Gerard Parera Bodi PM",
       "athlete_dob": "22/01/2000",
       "athlete_id": "CT25156",
       "performance": "4:27.98",
@@ -36,7 +46,7 @@
       "position": null
     },
     {
-      "athlete_name": "Xavier Ros Borrell PM 3",
+      "athlete_name": "Xavier Ros Borrell PM",
       "athlete_dob": "19/05/1998",
       "athlete_id": "CL22779",
       "performance": "9:34.06",
@@ -46,12 +56,22 @@
       "position": null
     },
     {
-      "athlete_name": "Jan Sans Riola PM 4",
+      "athlete_name": "Jan Sans Riola PM",
       "athlete_dob": "23/10/1998",
       "athlete_id": "CT22783",
       "performance": "8.12",
       "discipline": "60 metres tanques (1.067)",
       "raw_discipline_name": "60m tanques (1,067) MASC. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Pablo Angel Fernandez",
+      "athlete_dob": "26/01/2003",
+      "athlete_id": "CT28510",
+      "performance": "1.70",
+      "discipline": "Alçada",
+      "raw_discipline_name": "Alçada MASC. PC",
       "wind": null,
       "position": null
     },
@@ -126,7 +146,7 @@
       "position": null
     },
     {
-      "athlete_name": "Didac Exposito Garcia ",
+      "athlete_name": "Didac Exposito Garcia",
       "athlete_dob": "04/08/1973",
       "athlete_id": "CT3967",
       "performance": "11.67",
@@ -136,7 +156,7 @@
       "position": null
     },
     {
-      "athlete_name": "Didac Exposito Garcia ",
+      "athlete_name": "Didac Exposito Garcia",
       "athlete_dob": "04/08/1973",
       "athlete_id": "CT3967",
       "performance": "11.95",

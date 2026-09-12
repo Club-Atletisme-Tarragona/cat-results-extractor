@@ -2,7 +2,7 @@
   "event_name": "Control Absolut en Pista Coberta - Control Absolut en Pista Coberta",
   "event_date": "22/01/2022",
   "event_location": "Club                                             Lic",
-  "total_results": 3,
+  "total_results": 5,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2022/01/resultat-20220122-controlabsolutpcsabadell.pdf",
   "results": [
     {
@@ -16,7 +16,7 @@
       "position": null
     },
     {
-      "athlete_name": "Marc Jose Diaz SM 7 q",
+      "athlete_name": "Marc Jose Diaz",
       "athlete_dob": "08/01/1993",
       "athlete_id": "CL17220",
       "performance": "8.63",
@@ -32,6 +32,26 @@
       "performance": "8.64",
       "discipline": "60 metres tanques (1.067)",
       "raw_discipline_name": "60m tanques (1,067) MASC. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Andrea Sastriques Castellanos",
+      "athlete_dob": "06/06/2004",
+      "athlete_id": "CL7170",
+      "performance": "1:17.04",
+      "discipline": "400 metres llisos",
+      "raw_discipline_name": "400m FEM. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Lucia Molinero Pintor",
+      "athlete_dob": "16/02/2005",
+      "athlete_id": "CL7165",
+      "performance": "1:16.03",
+      "discipline": "400 metres llisos",
+      "raw_discipline_name": "400m FEM. PC",
       "wind": null,
       "position": null
     }

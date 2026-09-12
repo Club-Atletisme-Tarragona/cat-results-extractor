@@ -395,6 +395,17 @@ def extract_name_from_line(line):
     line = re.sub(r'\s+\(\.\d{3}\)\s*', ' ', line)
     # Remove RFEA category codes at end: CF, CM, SM, JM, AS, AI, AM, SV, JV, AJ, etc.
     line = re.sub(r'\s+(?:CF|CM|SM|JM|AS|AI|AM|SV|JV|AJ|AM\d+|S\d+|C\d+|I\d+|B\d+|U\d+|PF|PM|PF|MF|MA)\s*$', '', line)
+    # Remove license-class / master tokens glued at the end (issue #18):
+    # LM, LF, JM, JF, SM, SF, VM, VF, W-40, M-45 — separate PDF columns that
+    # the layout merge attaches to the name. Iterate: qualifier + digits may
+    # stack ("Mireia Lopez Urbano 3 q" -> "... 3" -> "...").
+    for _ in range(3):
+        new = re.sub(r'\s+(?:[ABCFLSJV][MF]|W-\d+|M-\d+)\s*$', '', line)
+        new = re.sub(r'\s+[Qq]\s*$', '', new)
+        new = re.sub(r'\s+\d+\s*$', '', new)
+        if new == line:
+            break
+        line = new
     cleaned = ' '.join(line.split())
     return cleaned
 
@@ -1501,7 +1512,7 @@ def is_rfea_section(lines, sec_start, sec_end):
             for j in range(i + 1, min(i + 5, sec_end)):
                 if 'Club' in lines[j] and 'Lic' in lines[j]:
                     # Now check if any athlete line has CA Tarragona on the NEXT line
-                    for k in range(i + 5, min(sec_end, i + 200)):
+                    for k in range(i + 2, min(sec_end, i + 200)):
                         kl = lines[k].strip()
                         if not kl or not re.search(r'\d{1,2}/\d{1,2}/\d{4}', kl):
                             continue
@@ -1530,7 +1541,10 @@ def _find_catt_rfea_format(lines, sec_start, sec_end, is_in_sumario=None):
     athletes = []
     
     # Find all athlete data lines (lines with DOB pattern)
-    athlete_line_pattern = re.compile(r'^\s*\d+\s+\d+\s*.+\d{1,2}/\d{1,2}/\d{4}')
+    # Dorsal may be absent on NP/SM rows appended after the finishers
+    # (issue #18: "60 (t) Fernando Flores Montes 17/06/1969 M-50 4 NP"),
+    # and (t)/(e) may sit between position and dorsal.
+    athlete_line_pattern = re.compile(r'^\s*\d+\s+(?:\([te]\)\s*)?(?:\d+\s*)?(?:\([te]\)\s*)?\S.*\d{1,2}/\d{1,2}/\d{4}')
     
     i = sec_start
     while i < sec_end:
@@ -1608,38 +1622,40 @@ def extract_result_from_rfea_line(athlete_line, club_line):
     """
     stripped = athlete_line.strip()
 
-    # Take everything after DOB + category code
-    tail_match = re.search(
-        r'\d{1,2}/\d{1,2}/\d{4}\s+'
-        r'(?:CF|CM|SM|JM|AS|AI|AM|AF|SV|JV|AJ|AM\d+|S\d+|C\d+|I\d+|B\d+|PF|PM|MF|MA)\s+'
-        r'(.*)$',
-        stripped,
-    )
-    rest = tail_match.group(1).strip() if tail_match else stripped
+    # Take everything after the DOB. The tokens between DOB and the mark vary
+    # wildly across PDF eras (category codes LM/LF/JM/W-40/M-45, bare lane or
+    # round numbers, ...), so do NOT require a fixed category alternation
+    # (issue #18: "LM"/"W-40"/bare digits made the tail match fail -> marca='').
+    dob_match = re.search(r'\d{1,2}/\d{1,2}/\d{4}\s*(.*)$', stripped)
+    rest = dob_match.group(1).strip() if dob_match else stripped
 
     if not rest:
         return None
 
-    if rest.upper() in ('NP', 'DNF', 'DNS', 'DQ', 'NW', 'RET', 'N.P.'):
-        return rest
+    # Position-aware classification: performance = LAST time/decimal token in
+    # the tail (a final rank column may follow, but bare integers are never
+    # marks). Special words (NP/DNF/...) only when no performance token exists.
+    tokens = re.findall(r"[^\s|]+", rest)
 
-    perf_patterns = [
-        r'^(?:\d+\s+)?(\d{1,2}:\d{2}:\d{2})(?:\s+\d+)?(?:\s+[Qq])?\s*$',
-        r'^(?:\d+\s+)?(\d{1,2}:\d{2}\.\d{2})(?:\s+\d+)?(?:\s+[Qq])?\s*$',
-        r'^(?:\d+\s+)?(\d{1,2}:\d{2})(?:\s+\d+)?(?:\s+[Qq])?\s*$',
-        r'^(?:\d+\s+)?(\d+\.\d{2})(?:\s+\d+)?(?:\s+[Qq])?\s*$',
-    ]
-    for pattern in perf_patterns:
-        perf_match = re.match(pattern, rest)
-        if perf_match:
-            return perf_match.group(1)
+    perf_re = re.compile(r'\d{1,2}:\d{2}(?::\d{2})?(?:\.\d{1,2})?$|^\d+\.\d{2}$')
+    perf = None
+    for tok in tokens:
+        if tok.upper() in ('NP', 'DNF', 'DNS', 'DQ', 'NW', 'RET', 'N.P.', 'X'):
+            continue
+        tok_clean = tok.rstrip('Qq')
+        if perf_re.match(tok_clean) or perf_re.match(tok):
+            perf = tok_clean
+    if perf is not None:
+        return perf
 
-    quote_match = re.search(r"(\d+'(\d{2})\"(\d{2}))", rest)
+    for tok in tokens:
+        if tok.upper() in ('NP', 'DNF', 'DNS', 'DQ', 'NW', 'RET', 'N.P.'):
+            return tok.upper()
+
+    # Marcha long format: 12'41'' (minutes'seconds, no centiseconds)
+    quote_match = re.search(r"(\d{1,2})'(\d{2})''?", rest)
     if quote_match:
-        minutes = quote_match.group(1).split("'")[0]
-        seconds = quote_match.group(1).split("'")[1].split('"')[0]
-        cs = quote_match.group(2)
-        return f"{minutes}:{seconds}.{cs}"
+        return f"{quote_match.group(1)}:{quote_match.group(2)}"
 
     comma_match = re.search(r'(\d+)\.(\d{2}),(\d{2})', rest)
     if comma_match:

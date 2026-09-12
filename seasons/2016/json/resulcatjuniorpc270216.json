@@ -1,8 +1,19 @@
 {
   "event_name": " - Sabadell (Pista Coberta de Catalunya), 27 febrero 2016",
   "event_date": "27/02/2016",
-  "event_location": "Sabadell",
-  "total_results": 0,
+  "event_location": "Club                                             Lic",
+  "total_results": 1,
   "event_src": "https://old.fcatletisme.cat/Pcoberta/2016/resulcatjuniorpc270216.pdf",
-  "results": []
+  "results": [
+    {
+      "athlete_name": "Jan Sans Riola",
+      "athlete_dob": "23/10/1998",
+      "athlete_id": "CT22783",
+      "performance": "7.95",
+      "discipline": "60 metres tanques (1.067)",
+      "raw_discipline_name": "60m tanques MASC. PC",
+      "wind": null,
+      "position": null
+    }
+  ]
 }

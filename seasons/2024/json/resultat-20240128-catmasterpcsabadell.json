@@ -2,9 +2,149 @@
   "event_name": "Campionat de Catalunya Màster Individual i Relleus en Pista Coberta - Campionat de Catalunya Màster Individual i Relleus en Pista Coberta",
   "event_date": "28/01/2024",
   "event_location": "Club                                               Lic",
-  "total_results": 27,
+  "total_results": 48,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2024/01/resultat-20240128-catmasterpcsabadell.pdf",
   "results": [
+    {
+      "athlete_name": "Gines Sanchez Perez",
+      "athlete_dob": "23/07/1969",
+      "athlete_id": "CT2055",
+      "performance": "8.93",
+      "discipline": "60 metres llisos",
+      "raw_discipline_name": "60m MASC. PC 50-54",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Josep Ramon Argilaga Salvado 4 OR",
+      "athlete_dob": "23/10/1963",
+      "athlete_id": "CL22364",
+      "performance": "8.48",
+      "discipline": "60 metres llisos",
+      "raw_discipline_name": "60m MASC. PC 60-64",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Josep Maria Puig Lara",
+      "athlete_dob": "30/11/1951",
+      "athlete_id": "CT27228",
+      "performance": "9.77",
+      "discipline": "60 metres llisos",
+      "raw_discipline_name": "60m MASC. PC 70-74",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Gines Sanchez Perez",
+      "athlete_dob": "23/07/1969",
+      "athlete_id": "CT2055",
+      "performance": "30.54",
+      "discipline": "200 metres llisos",
+      "raw_discipline_name": "200m MASC. PC 50-54",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Josep Maria Puig Lara",
+      "athlete_dob": "30/11/1951",
+      "athlete_id": "CT27228",
+      "performance": "33.94",
+      "discipline": "200 metres llisos",
+      "raw_discipline_name": "200m MASC. PC 70-74",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Joan Bardina Tomas",
+      "athlete_dob": "23/09/1968",
+      "athlete_id": "CL3961",
+      "performance": "5:19.76",
+      "discipline": "1500 metres llisos",
+      "raw_discipline_name": "1.500m MASC. PC 55-59",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Jose Francisco Garcia Navarrete",
+      "athlete_dob": "24/09/1967",
+      "athlete_id": "CL3972",
+      "performance": "5:38.13",
+      "discipline": "1500 metres llisos",
+      "raw_discipline_name": "1.500m MASC. PC 55-59",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Didac Rios Meseguer",
+      "athlete_dob": "19/04/1985",
+      "athlete_id": "CT14019",
+      "performance": "10.02",
+      "discipline": "3000 metres llisos",
+      "raw_discipline_name": "3.000m MASC. PC 75-79",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Pere Pardines Gras",
+      "athlete_dob": "30/01/1965",
+      "athlete_id": "CT9121",
+      "performance": "11.00",
+      "discipline": "3000 metres llisos",
+      "raw_discipline_name": "3.000m MASC. PC 75-79",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Pere Pardines Gras",
+      "athlete_dob": "30/01/1965",
+      "athlete_id": "CT9121",
+      "performance": "1.48",
+      "discipline": "Alçada",
+      "raw_discipline_name": "Alçada MASC. PC 55-59",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Josep Maria Mateo Sanz",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "1.45",
+      "discipline": "Alçada",
+      "raw_discipline_name": "Alçada MASC. PC 55-59",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Francisco Griñant Almagro",
+      "athlete_dob": "04/08/1947",
+      "athlete_id": "CT18394",
+      "performance": "1.01",
+      "discipline": "Alçada",
+      "raw_discipline_name": "Alçada MASC. PC 75-79",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Didac Rios Meseguer",
+      "athlete_dob": "19/04/1985",
+      "athlete_id": "CT14019",
+      "performance": "2.82",
+      "discipline": "Perxa",
+      "raw_discipline_name": "Perxa MASC. PC 35-39",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Josep Maria Mateo Sanz",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "2.82",
+      "discipline": "Perxa",
+      "raw_discipline_name": "Perxa MASC. PC 55-59",
+      "wind": null,
+      "position": null
+    },
     {
       "athlete_name": "Didac Rios Meseguer",
       "athlete_dob": "19/04/1985",
@@ -116,6 +256,16 @@
       "position": null
     },
     {
+      "athlete_name": "Francisco Griñant Almagro",
+      "athlete_dob": "04/08/1947",
+      "athlete_id": "CT18394",
+      "performance": "2.85",
+      "discipline": "Llargada",
+      "raw_discipline_name": "Llargada MASC. PC 75-79",
+      "wind": null,
+      "position": null
+    },
+    {
       "athlete_name": "Didac Exposito Garcia",
       "athlete_dob": "04/08/1973",
       "athlete_id": "CT3967",
@@ -222,6 +372,66 @@
       "performance": "8.73",
       "discipline": "Pes (7.260 Kg)",
       "raw_discipline_name": "Pes MAS. PC 65-69",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Marisa Pradillo Gutierrez",
+      "athlete_dob": "29/07/1961",
+      "athlete_id": "CT21513",
+      "performance": "10.77",
+      "discipline": "60 metres llisos",
+      "raw_discipline_name": "60m FEM. PC 60-64",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Pilar Fernandez Carranza",
+      "athlete_dob": "15/02/1967",
+      "athlete_id": "CT22384",
+      "performance": "34.01",
+      "discipline": "200 metres llisos",
+      "raw_discipline_name": "200m FEM. PC 55-59",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Pilar Fernandez Carranza 6 BRONZE",
+      "athlete_dob": "15/02/1967",
+      "athlete_id": "CT22384",
+      "performance": "1:21.00",
+      "discipline": "400 metres llisos",
+      "raw_discipline_name": "400m FEM. PC 55-59",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Gemma Sole Boronat",
+      "athlete_dob": "01/11/1967",
+      "athlete_id": "CT29376",
+      "performance": "10.65",
+      "discipline": "60 metres tanques (0.84)",
+      "raw_discipline_name": "60m tanques Fem. PC 50-54",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Gemma Sole Boronat",
+      "athlete_dob": "01/11/1967",
+      "athlete_id": "CT29376",
+      "performance": "1.16",
+      "discipline": "Alçada",
+      "raw_discipline_name": "Alçada FEM. PC 55-59",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Marisa Pradillo Gutierrez",
+      "athlete_dob": "29/07/1961",
+      "athlete_id": "CT21513",
+      "performance": "2.78",
+      "discipline": "Llargada",
+      "raw_discipline_name": "Llargada FEM. PC 60-64",
       "wind": null,
       "position": null
     },

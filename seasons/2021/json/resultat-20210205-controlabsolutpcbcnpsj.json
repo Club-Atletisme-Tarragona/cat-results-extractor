@@ -2,9 +2,19 @@
   "event_name": "Control Absolut en pista coberta",
   "event_date": "05/02/2021",
   "event_location": "Barcelona - Palau Sant Jordi",
-  "total_results": 3,
+  "total_results": 6,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/2021/02/resultat-20210205-controlabsolutpcbcnpsj.pdf",
   "results": [
+    {
+      "athlete_name": "1 Jan Sans Riola",
+      "athlete_dob": "23/10/1998",
+      "athlete_id": "CT22783",
+      "performance": "7.05",
+      "discipline": "60 metres llisos",
+      "raw_discipline_name": "60m MASC. PC",
+      "wind": null,
+      "position": null
+    },
     {
       "athlete_name": "Pablo Angel Fernandez",
       "athlete_dob": "26/01/2003",
@@ -12,6 +22,16 @@
       "performance": "9.18",
       "discipline": "60 metres tanques (1.067)",
       "raw_discipline_name": "60m tanques (1,067) MASC. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Claudia Mir Casellas",
+      "athlete_dob": "02/08/2003",
+      "athlete_id": "CT152",
+      "performance": "1:02.66",
+      "discipline": "400 metres llisos",
+      "raw_discipline_name": "400m FEM. PC",
       "wind": null,
       "position": null
     },
@@ -30,6 +50,16 @@
       "athlete_dob": "01/04/1999",
       "athlete_id": "CT21473",
       "performance": "9.38",
+      "discipline": "60 metres tanques (0.84)",
+      "raw_discipline_name": "60m tanques (0,84) FEM. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Claudia Mir Casellas",
+      "athlete_dob": "02/08/2003",
+      "athlete_id": "CT152",
+      "performance": "9.39",
       "discipline": "60 metres tanques (0.84)",
       "raw_discipline_name": "60m tanques (0,84) FEM. PC",
       "wind": null,

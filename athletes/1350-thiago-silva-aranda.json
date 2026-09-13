@@ -2,7 +2,7 @@
   "athlete_name": "THIAGO SILVA ARANDA",
   "athlete_id": "CL11075",
   "athlete_dob": "15/2/2015",
-  "total_results": 103,
+  "total_results": 104,
   "name_variants_found": [
     "10 475 (t) Thiago Silva Aranda BM",
     "14 62 (t) Thiago Silva Aranda",
@@ -943,6 +943,19 @@
       "athlete_id": "",
       "discipline": "4x60",
       "performance": "35.48",
+      "wind": null,
+      "internal_id": 1350
+    },
+    {
+      "event_name": "Jornada Prèvia Campionat de Catalunya de Relleus AL - Pista de Atletismo Can Jofresa",
+      "event_date": "11/04/2026",
+      "event_location": "Terrassa",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/04/resultat-20260411-catrelleuspreviaterrassa.pdf",
+      "athlete_name": "Thiago SILVA ARANDA",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "3x600",
+      "performance": "5:58.35",
       "wind": null,
       "internal_id": 1350
     },

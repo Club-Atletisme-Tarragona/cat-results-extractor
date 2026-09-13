@@ -2,11 +2,11 @@
   "athlete_name": "IKER RODRIGUEZ BARRIOS",
   "athlete_id": "CL11327",
   "athlete_dob": "11/8/2010",
-  "total_results": 41,
+  "total_results": 42,
   "name_variants_found": [
-    "7 37 (t) Iker Rodriguez Barrios",
     "IKER RODRIGUEZ BARRIOS",
-    "Iker RODRIGUEZ BARRIOS"
+    "Iker RODRIGUEZ BARRIOS",
+    "Iker Rodriguez Barrios"
   ],
   "license_variants_found": [
     "CL11327"
@@ -18,7 +18,7 @@
       "event_date": "10/03/2024",
       "event_location": "Sabadell",
       "event_src": "https://fcatletisme.cat/wp-content/uploads/2024/03/resultat-20240310-catclubsasub16pcsabadell.pdf",
-      "athlete_name": "7 37 (t) Iker Rodriguez Barrios",
+      "athlete_name": "Iker Rodriguez Barrios",
       "athlete_dob": "11/08/2010",
       "athlete_id": "CL11327",
       "discipline": "Triple",
@@ -31,7 +31,7 @@
       "event_date": "10/03/2024",
       "event_location": "Sabadell",
       "event_src": "https://fcatletisme.cat/wp-content/uploads/2024/03/resultat-20240310-catclubsasub16pcsabadell.pdf",
-      "athlete_name": "7 37 (t) Iker Rodriguez Barrios",
+      "athlete_name": "Iker Rodriguez Barrios",
       "athlete_dob": "11/08/2010",
       "athlete_id": "CL11327",
       "discipline": "Triple",
@@ -44,11 +44,24 @@
       "event_date": "10/03/2024",
       "event_location": "Sabadell",
       "event_src": "https://fcatletisme.cat/wp-content/uploads/2024/03/resultat-20240310-catclubsasub16pcsabadell.pdf",
-      "athlete_name": "7 37 (t) Iker Rodriguez Barrios",
+      "athlete_name": "Iker Rodriguez Barrios",
       "athlete_dob": "11/08/2010",
       "athlete_id": "CL11327",
       "discipline": "Triple",
       "performance": "9.79",
+      "wind": null,
+      "internal_id": 1069
+    },
+    {
+      "event_name": "Campionat de Catalunya de Clubs \"A\" sub16 - Pista Coberta d'Atletisme de Catalunya Carme Valero, 10 marzo 2024",
+      "event_date": "10/03/2024",
+      "event_location": "Sabadell",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2024/03/resultat-20240310-catclubsasub16pcsabadell.pdf",
+      "athlete_name": "Iker Rodriguez Barrios",
+      "athlete_dob": "11/08/2010",
+      "athlete_id": "CL11327",
+      "discipline": "4x300",
+      "performance": "3:02.07",
       "wind": null,
       "internal_id": 1069
     },

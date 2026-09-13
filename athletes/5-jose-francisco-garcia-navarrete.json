@@ -2,9 +2,10 @@
   "athlete_name": "JOSÉ FRANCISCO GARCIA NAVARRETE",
   "athlete_id": "CL3972",
   "athlete_dob": "24/9/1967",
-  "total_results": 47,
+  "total_results": 49,
   "name_variants_found": [
     "5 350 (t) Jose Francisco Garcia Navarrete",
+    "67 (t) Jose Francisco Garcia Navarrete M-50 7 NP",
     "8 39 (t) Jose Francisco Garcia Navarrete M-50",
     "GARCIA NAVARRETE JOSE",
     "GARCIA NAVARRETE JOSE FCO",
@@ -17,12 +18,13 @@
     "JOSE FRANCISCO GARCIA NAVARRETE",
     "JOSE FRANCISCO GARCIA NAVERRETE",
     "JOSÉ FRANCISCO GARCÍA NAVARRETE",
-    "Jose Francisco GARCIA NAVARRETE"
+    "Jose Francisco GARCIA NAVARRETE",
+    "Jose Francisco Garcia Navarrete"
   ],
   "license_variants_found": [
     "CL3972"
   ],
-  "source_files_count": 42,
+  "source_files_count": 44,
   "results": [
     {
       "event_name": "Campionat de Catalunya de Veterans",
@@ -533,6 +535,19 @@
     },
     {
       "event_name": "",
+      "event_date": "04/04/2021",
+      "event_location": "Santa Coloma de Gramenet",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210404-cat10000santacoloma.pdf",
+      "athlete_name": "67 (t) Jose Francisco Garcia Navarrete M-50 7 NP",
+      "athlete_dob": "24/09/1967",
+      "athlete_id": "CL3972",
+      "discipline": "10000 metres llisos",
+      "performance": "NP",
+      "wind": null,
+      "internal_id": 5
+    },
+    {
+      "event_name": "",
       "event_date": "18/12/2021",
       "event_location": "Reus",
       "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/12/resultat-20211218-trofeunadalcnrp.pdf",
@@ -554,6 +569,19 @@
       "athlete_id": "CL3972",
       "discipline": "1500 metres llisos",
       "performance": "5:25.41",
+      "wind": null,
+      "internal_id": 5
+    },
+    {
+      "event_name": "Campionat de Catalunya Màster Individual i Relleus en Pista Coberta - Campionat de Catalunya Màster Individual i Relleus en Pista Coberta",
+      "event_date": "28/01/2024",
+      "event_location": "Club                                               Lic",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2024/01/resultat-20240128-catmasterpcsabadell.pdf",
+      "athlete_name": "Jose Francisco Garcia Navarrete",
+      "athlete_dob": "24/09/1967",
+      "athlete_id": "CL3972",
+      "discipline": "1500 metres llisos",
+      "performance": "5:38.13",
       "wind": null,
       "internal_id": 5
     },

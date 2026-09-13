@@ -2,12 +2,162 @@
   "event_name": "Campionat de Catalunya de Relleus Sub10",
   "event_date": "10/04/2021",
   "event_location": "Tarragona-CLA",
-  "total_results": 3,
+  "total_results": 83,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210410-catrelleuspromociopreviatarragona.pdf",
   "results": [
     {
-      "athlete_name": "(t) Yune Sanchez Morata CL3953",
-      "athlete_dob": "01/05/2010",
+      "athlete_name": "Kilian Borreda Ceervello",
+      "athlete_dob": "09/05/2013",
+      "athlete_id": "CL4060",
+      "performance": "39.87",
+      "discipline": "4x60",
+      "raw_discipline_name": "4x60m MASC. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Hernan Ferran Jimenez",
+      "athlete_dob": "28/09/2012",
+      "athlete_id": "CL1093",
+      "performance": "39.87",
+      "discipline": "4x60",
+      "raw_discipline_name": "4x60m MASC. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Nil Pamies Miro",
+      "athlete_dob": "25/03/2012",
+      "athlete_id": "CL905",
+      "performance": "39.87",
+      "discipline": "4x60",
+      "raw_discipline_name": "4x60m MASC. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Aleix Virgili Garrigos",
+      "athlete_dob": "08/02/2012",
+      "athlete_id": "CL1090",
+      "performance": "39.87",
+      "discipline": "4x60",
+      "raw_discipline_name": "4x60m MASC. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Maria Martin Cuadrado",
+      "athlete_dob": "01/05/2012",
+      "athlete_id": "CL1089",
+      "performance": "40.96",
+      "discipline": "4x60",
+      "raw_discipline_name": "4x60m FEM. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Ada Nini Navas",
+      "athlete_dob": "24/10/2012",
+      "athlete_id": "CL1495",
+      "performance": "40.96",
+      "discipline": "4x60",
+      "raw_discipline_name": "4x60m FEM. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Agustina Ramos Russo",
+      "athlete_dob": "06/01/2012",
+      "athlete_id": "CL1088",
+      "performance": "40.96",
+      "discipline": "4x60",
+      "raw_discipline_name": "4x60m FEM. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Pau Esteve Hostalot",
+      "athlete_dob": "27/08/2010",
+      "athlete_id": "CL94383",
+      "performance": "36.70",
+      "discipline": "4x60",
+      "raw_discipline_name": "4x60m MASC. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Nil Pages Corts",
+      "athlete_dob": "12/04/2011",
+      "athlete_id": "CL94551",
+      "performance": "36.70",
+      "discipline": "4x60",
+      "raw_discipline_name": "4x60m MASC. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Marçal Sinfreu Niubo",
+      "athlete_dob": "03/03/2011",
+      "athlete_id": "CL94414",
+      "performance": "36.70",
+      "discipline": "4x60",
+      "raw_discipline_name": "4x60m MASC. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Quim Sousa Iturria",
+      "athlete_dob": "03/05/2010",
+      "athlete_id": "CL90845",
+      "performance": "36.70",
+      "discipline": "4x60",
+      "raw_discipline_name": "4x60m MASC. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Jordi Bofarull Cot",
+      "athlete_dob": "27/06/2010",
+      "athlete_id": "CL4161",
+      "performance": "40.53",
+      "discipline": "4x60",
+      "raw_discipline_name": "4x60m MASC. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Oscar Ibañez Rizo",
+      "athlete_dob": "08/12/2011",
+      "athlete_id": "CL4160",
+      "performance": "40.53",
+      "discipline": "4x60",
+      "raw_discipline_name": "4x60m MASC. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Didac Manye Pujol",
+      "athlete_dob": "06/10/2011",
+      "athlete_id": "CL906",
+      "performance": "40.53",
+      "discipline": "4x60",
+      "raw_discipline_name": "4x60m MASC. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Houdaifa Majluf",
+      "athlete_dob": "03/05/2011",
+      "athlete_id": "CL4348",
+      "performance": "40.53",
+      "discipline": "4x60",
+      "raw_discipline_name": "4x60m MASC. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Jordi Bofarull Cot",
+      "athlete_dob": "27/06/2010",
       "athlete_id": "CL4161",
       "performance": "6:54.79",
       "discipline": "3x600",
@@ -16,9 +166,139 @@
       "position": null
     },
     {
-      "athlete_name": "(t) Aina De Los Reyes Ruiz CL93256AF",
-      "athlete_dob": "17/03/2010",
-      "athlete_id": "CL1602",
+      "athlete_name": "Nil Pages Corts",
+      "athlete_dob": "12/04/2011",
+      "athlete_id": "CL94551",
+      "performance": "6:54.79",
+      "discipline": "3x600",
+      "raw_discipline_name": "3x600m MASC. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Houdaifa Majluf",
+      "athlete_dob": "03/05/2011",
+      "athlete_id": "CL4348",
+      "performance": "6:54.79",
+      "discipline": "3x600",
+      "raw_discipline_name": "3x600m MASC. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Pau Esteve Hostalot",
+      "athlete_dob": "27/08/2010",
+      "athlete_id": "CL94383",
+      "performance": "6:25.25",
+      "discipline": "3x600",
+      "raw_discipline_name": "3x600m MASC. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Marçal Sinfreu Niubo",
+      "athlete_dob": "03/03/2011",
+      "athlete_id": "CL94414",
+      "performance": "6:25.25",
+      "discipline": "3x600",
+      "raw_discipline_name": "3x600m MASC. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Quim Sousa Iturria",
+      "athlete_dob": "03/05/2010",
+      "athlete_id": "CL90845",
+      "performance": "6:25.25",
+      "discipline": "3x600",
+      "raw_discipline_name": "3x600m MASC. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Duina Borreda Cervello",
+      "athlete_dob": "26/12/2010",
+      "athlete_id": "CL90830",
+      "performance": "35.03",
+      "discipline": "4x60",
+      "raw_discipline_name": "4x60m FEM. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Irene Jimenez Garcia",
+      "athlete_dob": "26/08/2011",
+      "athlete_id": "CL94390",
+      "performance": "35.03",
+      "discipline": "4x60",
+      "raw_discipline_name": "4x60m FEM. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Nora Montolio Amaro",
+      "athlete_dob": "05/02/2010",
+      "athlete_id": "CL90841",
+      "performance": "35.03",
+      "discipline": "4x60",
+      "raw_discipline_name": "4x60m FEM. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Ona Sansa Garcia",
+      "athlete_dob": "31/05/2010",
+      "athlete_id": "CL90844",
+      "performance": "35.03",
+      "discipline": "4x60",
+      "raw_discipline_name": "4x60m FEM. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Irene De La Rosa Fortuny",
+      "athlete_dob": "07/03/2011",
+      "athlete_id": "CL94381",
+      "performance": "40.42",
+      "discipline": "4x60",
+      "raw_discipline_name": "4x60m FEM. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Maria Ferran Jimenez",
+      "athlete_dob": "05/04/2011",
+      "athlete_id": "CL94384",
+      "performance": "40.42",
+      "discipline": "4x60",
+      "raw_discipline_name": "4x60m FEM. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Lara Garcia Mur",
+      "athlete_dob": "23/10/2011",
+      "athlete_id": "CL94385",
+      "performance": "40.42",
+      "discipline": "4x60",
+      "raw_discipline_name": "4x60m FEM. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Leyre Ortega Mateu",
+      "athlete_dob": "08/08/2010",
+      "athlete_id": "CL94401",
+      "performance": "40.42",
+      "discipline": "4x60",
+      "raw_discipline_name": "4x60m FEM. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Irene De La Rosa Fortuny",
+      "athlete_dob": "07/03/2011",
+      "athlete_id": "CL94381",
       "performance": "6:50.98",
       "discipline": "3x600",
       "raw_discipline_name": "3x600m FEM. AL",
@@ -26,12 +306,532 @@
       "position": null
     },
     {
-      "athlete_name": "Semifinal 2 11:45",
-      "athlete_dob": "10/04/2021",
-      "athlete_id": "CL3657",
+      "athlete_name": "Maria Ferran Jimenez",
+      "athlete_dob": "05/04/2011",
+      "athlete_id": "CL94384",
+      "performance": "6:50.98",
+      "discipline": "3x600",
+      "raw_discipline_name": "3x600m FEM. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Irene Jimenez Garcia",
+      "athlete_dob": "26/08/2011",
+      "athlete_id": "CL94390",
+      "performance": "6:50.98",
+      "discipline": "3x600",
+      "raw_discipline_name": "3x600m FEM. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Duina Borreda Cervello",
+      "athlete_dob": "26/12/2010",
+      "athlete_id": "CL90830",
       "performance": "6:02.36",
       "discipline": "3x600",
       "raw_discipline_name": "3x600m FEM. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Diana Garcia Mur",
+      "athlete_dob": "23/02/2010",
+      "athlete_id": "CL90833",
+      "performance": "6:02.36",
+      "discipline": "3x600",
+      "raw_discipline_name": "3x600m FEM. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Nora Montolio Amaro",
+      "athlete_dob": "05/02/2010",
+      "athlete_id": "CL90841",
+      "performance": "6:02.36",
+      "discipline": "3x600",
+      "raw_discipline_name": "3x600m FEM. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Guiu De Los Rios Blanch",
+      "athlete_dob": "28/06/2009",
+      "athlete_id": "CL3440",
+      "performance": "47.19",
+      "discipline": "4x80",
+      "raw_discipline_name": "4x80m MASC. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Unai Olaya Minguez",
+      "athlete_dob": "27/07/2009",
+      "athlete_id": "CL854",
+      "performance": "47.19",
+      "discipline": "4x80",
+      "raw_discipline_name": "4x80m MASC. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Joan Rich Salas",
+      "athlete_dob": "08/03/2009",
+      "athlete_id": "CL94407",
+      "performance": "47.19",
+      "discipline": "4x80",
+      "raw_discipline_name": "4x80m MASC. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Marc Suarez Piza",
+      "athlete_dob": "29/04/2009",
+      "athlete_id": "CL3326",
+      "performance": "47.19",
+      "discipline": "4x80",
+      "raw_discipline_name": "4x80m MASC. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Pau Crespo Beltran",
+      "athlete_dob": "22/10/2008",
+      "athlete_id": "CL90887",
+      "performance": "2:00.35",
+      "discipline": "4x200",
+      "raw_discipline_name": "4x200m MASC. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Jeroni Flores Piñas",
+      "athlete_dob": "04/01/2009",
+      "athlete_id": "CL86460",
+      "performance": "2:00.35",
+      "discipline": "4x200",
+      "raw_discipline_name": "4x200m MASC. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Matias Hernandez Sanchez",
+      "athlete_dob": "20/12/2008",
+      "athlete_id": "CL94387",
+      "performance": "2:00.35",
+      "discipline": "4x200",
+      "raw_discipline_name": "4x200m MASC. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Quimey Izaga Deriu",
+      "athlete_dob": "22/08/2009",
+      "athlete_id": "CL86465",
+      "performance": "2:00.35",
+      "discipline": "4x200",
+      "raw_discipline_name": "4x200m MASC. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Laia Barbera Lanero",
+      "athlete_dob": "03/03/2008",
+      "athlete_id": "CL94525",
+      "performance": "45.77",
+      "discipline": "4x80",
+      "raw_discipline_name": "4x80m FEM. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Noemi Gonzalez Carrillo",
+      "athlete_dob": "04/04/2009",
+      "athlete_id": "CL86462",
+      "performance": "45.77",
+      "discipline": "4x80",
+      "raw_discipline_name": "4x80m FEM. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Clara Ortiz De Landazuri Ontoso",
+      "athlete_dob": "04/12/2009",
+      "athlete_id": "CL86467",
+      "performance": "45.77",
+      "discipline": "4x80",
+      "raw_discipline_name": "4x80m FEM. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Naia Perez Esquitino",
+      "athlete_dob": "16/06/2008",
+      "athlete_id": "CL94404",
+      "performance": "45.77",
+      "discipline": "4x80",
+      "raw_discipline_name": "4x80m FEM. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Iris Garrido Garcia",
+      "athlete_dob": "15/12/2008",
+      "athlete_id": "CL77529",
+      "performance": "43.38",
+      "discipline": "4x80",
+      "raw_discipline_name": "4x80m FEM. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Mireia Redondo Mendoza",
+      "athlete_dob": "10/06/2008",
+      "athlete_id": "CL77534",
+      "performance": "43.38",
+      "discipline": "4x80",
+      "raw_discipline_name": "4x80m FEM. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Ainoa Rodriguez Murillo",
+      "athlete_dob": "17/01/2008",
+      "athlete_id": "CL81622",
+      "performance": "43.38",
+      "discipline": "4x80",
+      "raw_discipline_name": "4x80m FEM. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Carla Rodriguez Martinez",
+      "athlete_dob": "10/01/2008",
+      "athlete_id": "CL94416",
+      "performance": "43.38",
+      "discipline": "4x80",
+      "raw_discipline_name": "4x80m FEM. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Julia Gomez Miro",
+      "athlete_dob": "03/10/2009",
+      "athlete_id": "CL90834",
+      "performance": "2:02.23",
+      "discipline": "4x200",
+      "raw_discipline_name": "4x200m FEM. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Noemi Gonzalez Carrillo",
+      "athlete_dob": "04/04/2009",
+      "athlete_id": "CL86462",
+      "performance": "2:02.23",
+      "discipline": "4x200",
+      "raw_discipline_name": "4x200m FEM. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Clara Ortiz De Landazuri Ontoso",
+      "athlete_dob": "04/12/2009",
+      "athlete_id": "CL86467",
+      "performance": "2:02.23",
+      "discipline": "4x200",
+      "raw_discipline_name": "4x200m FEM. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Jana Pages Corts",
+      "athlete_dob": "26/08/2008",
+      "athlete_id": "CL94550",
+      "performance": "2:02.23",
+      "discipline": "4x200",
+      "raw_discipline_name": "4x200m FEM. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Iris Garrido Garcia",
+      "athlete_dob": "15/12/2008",
+      "athlete_id": "CL77529",
+      "performance": "1:58.58",
+      "discipline": "4x200",
+      "raw_discipline_name": "4x200m FEM. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Mireia Redondo Mendoza",
+      "athlete_dob": "10/06/2008",
+      "athlete_id": "CL77534",
+      "performance": "1:58.58",
+      "discipline": "4x200",
+      "raw_discipline_name": "4x200m FEM. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Ainoa Rodriguez Murillo",
+      "athlete_dob": "17/01/2008",
+      "athlete_id": "CL81622",
+      "performance": "1:58.58",
+      "discipline": "4x200",
+      "raw_discipline_name": "4x200m FEM. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Carla Rodriguez Martinez",
+      "athlete_dob": "10/01/2008",
+      "athlete_id": "CL94416",
+      "performance": "1:58.58",
+      "discipline": "4x200",
+      "raw_discipline_name": "4x200m FEM. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Gerard Ferrandiz Giner",
+      "athlete_dob": "27/02/2006",
+      "athlete_id": "CL69320",
+      "performance": "48.96",
+      "discipline": "4x100",
+      "raw_discipline_name": "4x100m MASC. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Guillem Ferre Nieto",
+      "athlete_dob": "23/05/2006",
+      "athlete_id": "CT34",
+      "performance": "48.96",
+      "discipline": "4x100",
+      "raw_discipline_name": "4x100m MASC. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Pau Ortiz Garcia",
+      "athlete_dob": "08/02/2006",
+      "athlete_id": "CL3307",
+      "performance": "48.96",
+      "discipline": "4x100",
+      "raw_discipline_name": "4x100m MASC. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Lluc Subiros Brasero",
+      "athlete_dob": "06/01/2007",
+      "athlete_id": "CL77331",
+      "performance": "48.96",
+      "discipline": "4x100",
+      "raw_discipline_name": "4x100m MASC. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Gerard Ferrandiz Giner",
+      "athlete_dob": "27/02/2006",
+      "athlete_id": "CL69320",
+      "performance": "2:47.09",
+      "discipline": "4x300",
+      "raw_discipline_name": "4x300m MASC. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Joan Martorell Escobar",
+      "athlete_dob": "22/03/2007",
+      "athlete_id": "CL77324",
+      "performance": "2:47.09",
+      "discipline": "4x300",
+      "raw_discipline_name": "4x300m MASC. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Pau Ortiz Garcia",
+      "athlete_dob": "08/02/2006",
+      "athlete_id": "CL3307",
+      "performance": "2:47.09",
+      "discipline": "4x300",
+      "raw_discipline_name": "4x300m MASC. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Lluc Subiros Brasero",
+      "athlete_dob": "06/01/2007",
+      "athlete_id": "CL77331",
+      "performance": "2:47.09",
+      "discipline": "4x300",
+      "raw_discipline_name": "4x300m MASC. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Emma Esteve Soto",
+      "athlete_dob": "25/02/2006",
+      "athlete_id": "CL95252",
+      "performance": "51.56",
+      "discipline": "4x100",
+      "raw_discipline_name": "4x100m FEM. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Maria Molinero Pintor",
+      "athlete_dob": "17/12/2007",
+      "athlete_id": "CL3359",
+      "performance": "51.56",
+      "discipline": "4x100",
+      "raw_discipline_name": "4x100m FEM. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Silvia Vicente Navarrete",
+      "athlete_dob": "31/07/2007",
+      "athlete_id": "CL77332",
+      "performance": "51.56",
+      "discipline": "4x100",
+      "raw_discipline_name": "4x100m FEM. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Mireia Viera Cervello",
+      "athlete_dob": "22/09/2006",
+      "athlete_id": "CL94415",
+      "performance": "51.56",
+      "discipline": "4x100",
+      "raw_discipline_name": "4x100m FEM. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Vera Fernandez Ortega",
+      "athlete_dob": "07/03/2007",
+      "athlete_id": "CL90304",
+      "performance": "55.54",
+      "discipline": "4x100",
+      "raw_discipline_name": "4x100m FEM. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Marta Lorenzo Valldosera",
+      "athlete_dob": "28/06/2007",
+      "athlete_id": "CL90513",
+      "performance": "55.54",
+      "discipline": "4x100",
+      "raw_discipline_name": "4x100m FEM. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Lucia Parisi Ferrandiz",
+      "athlete_dob": "09/10/2007",
+      "athlete_id": "CL94403",
+      "performance": "55.54",
+      "discipline": "4x100",
+      "raw_discipline_name": "4x100m FEM. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Jana Santos Nguema",
+      "athlete_dob": "13/11/2007",
+      "athlete_id": "CL94413",
+      "performance": "55.54",
+      "discipline": "4x100",
+      "raw_discipline_name": "4x100m FEM. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Maria Blazquez Navarro",
+      "athlete_dob": "04/08/2007",
+      "athlete_id": "CL94526",
+      "performance": "3:22.24",
+      "discipline": "4x300",
+      "raw_discipline_name": "4x300m FEM. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Vera Fernandez Ortega",
+      "athlete_dob": "07/03/2007",
+      "athlete_id": "CL90304",
+      "performance": "3:22.24",
+      "discipline": "4x300",
+      "raw_discipline_name": "4x300m FEM. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Marta Lorenzo Valldosera",
+      "athlete_dob": "28/06/2007",
+      "athlete_id": "CL90513",
+      "performance": "3:22.24",
+      "discipline": "4x300",
+      "raw_discipline_name": "4x300m FEM. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Jana Santos Nguema",
+      "athlete_dob": "13/11/2007",
+      "athlete_id": "CL94413",
+      "performance": "3:22.24",
+      "discipline": "4x300",
+      "raw_discipline_name": "4x300m FEM. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Anna Artero Fernandez",
+      "athlete_dob": "14/11/2006",
+      "athlete_id": "CL94373",
+      "performance": "3:08.32",
+      "discipline": "4x300",
+      "raw_discipline_name": "4x300m FEM. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Maria Molinero Pintor",
+      "athlete_dob": "17/12/2007",
+      "athlete_id": "CL3359",
+      "performance": "3:08.32",
+      "discipline": "4x300",
+      "raw_discipline_name": "4x300m FEM. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Silvia Vicente Navarrete",
+      "athlete_dob": "31/07/2007",
+      "athlete_id": "CL77332",
+      "performance": "3:08.32",
+      "discipline": "4x300",
+      "raw_discipline_name": "4x300m FEM. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Mireia Viera Cervello",
+      "athlete_dob": "22/09/2006",
+      "athlete_id": "CL94415",
+      "performance": "3:08.32",
+      "discipline": "4x300",
+      "raw_discipline_name": "4x300m FEM. AL",
       "wind": null,
       "position": null
     }

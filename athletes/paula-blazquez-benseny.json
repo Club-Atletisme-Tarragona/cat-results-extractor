@@ -2,7 +2,7 @@
   "athlete_name": "PAULA BLAZQUEZ BENSENY",
   "athlete_id": "CAT-3843630",
   "athlete_dob": "11/6/2015",
-  "total_results": 39,
+  "total_results": 37,
   "name_variants_found": [
     "PAULA BLAZQUEZ BENSENY",
     "Paula BLAZQUEZ BENSENY"
@@ -273,6 +273,19 @@
       "internal_id": null
     },
     {
+      "event_name": "Jornada Prèvia Campionat de Catalunya de Relleus AL - Pista de Atletismo Can Jofresa",
+      "event_date": "11/04/2026",
+      "event_location": "Terrassa",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/04/resultat-20260411-catrelleuspreviaterrassa.pdf",
+      "athlete_name": "Paula BLAZQUEZ BENSENY",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "3x600",
+      "performance": "6:18.89",
+      "wind": null,
+      "internal_id": null
+    },
+    {
       "event_name": "Jornada Final Campionat de Catalunya de Relleus AL - Pista Municipal Atmo. Castellar Vallés",
       "event_date": "25/04/2026",
       "event_location": "Castellar del Vallès",
@@ -412,45 +425,6 @@
       "athlete_id": "CAT-3843630-A",
       "discipline": "Tetratló",
       "performance": "1363",
-      "wind": null,
-      "internal_id": null
-    },
-    {
-      "event_name": "Campionat Territorial de Proves Combinades - Tarragona i Terres de l'Ebre - Pista de Atletismo de Camp Clar",
-      "event_date": "02/05/2026",
-      "event_location": "Tarragona",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/05/resultat-2026050203-territorialcombinadestarragona.pdf",
-      "athlete_name": "PAULA BLAZQUEZ BENSENY",
-      "athlete_dob": "11/6/2015",
-      "athlete_id": "CAT-3843630-A",
-      "discipline": "80 metres llisos",
-      "performance": "10.90",
-      "wind": null,
-      "internal_id": null
-    },
-    {
-      "event_name": "Campionat Territorial de Proves Combinades - Tarragona i Terres de l'Ebre - Pista de Atletismo de Camp Clar",
-      "event_date": "02/05/2026",
-      "event_location": "Tarragona",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/05/resultat-2026050203-territorialcombinadestarragona.pdf",
-      "athlete_name": "PAULA BLAZQUEZ BENSENY",
-      "athlete_dob": "11/6/2015",
-      "athlete_id": "CAT-3843630-A",
-      "discipline": "80 metres llisos",
-      "performance": "9.64",
-      "wind": null,
-      "internal_id": null
-    },
-    {
-      "event_name": "Campionat Territorial de Proves Combinades - Tarragona i Terres de l'Ebre - Pista de Atletismo de Camp Clar",
-      "event_date": "02/05/2026",
-      "event_location": "Tarragona",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/05/resultat-2026050203-territorialcombinadestarragona.pdf",
-      "athlete_name": "PAULA BLAZQUEZ BENSENY",
-      "athlete_dob": "11/6/2015",
-      "athlete_id": "CAT-3843630-A",
-      "discipline": "80 metres tanques (0.84)",
-      "performance": "9.64",
       "wind": null,
       "internal_id": null
     },

@@ -2,13 +2,14 @@
   "athlete_name": "XAVIER FORT MONTANE",
   "athlete_id": "",
   "athlete_dob": "",
-  "total_results": 3,
+  "total_results": 4,
   "name_variants_found": [
+    "FORT MONTANE, XAVIER",
     "Xavier Fort Montane",
     "Xavier IM Fort Montane"
   ],
   "license_variants_found": [],
-  "source_files_count": 2,
+  "source_files_count": 3,
   "results": [
     {
       "event_name": "TROFEU PROMOCIÓ NÀSTIC",
@@ -20,6 +21,19 @@
       "athlete_id": "",
       "discipline": "Llargada",
       "performance": "3.32",
+      "wind": null,
+      "internal_id": 649
+    },
+    {
+      "event_name": "Control Primavera 2016 - Cambrils",
+      "event_date": "30/04/2016",
+      "event_location": "Cambrils",
+      "event_src": "http://old.fcatletisme.cat/Pairelliure/2016/resulcontrolpimaveracambrils3004-10516.pdf",
+      "athlete_name": "FORT MONTANE, XAVIER",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "300 metres llisos",
+      "performance": "52.60",
       "wind": null,
       "internal_id": 649
     },

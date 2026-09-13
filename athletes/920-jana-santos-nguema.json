@@ -2,7 +2,7 @@
   "athlete_name": "JANA SANTOS NGUEMA",
   "athlete_id": "CL94413",
   "athlete_dob": "13/11/2007",
-  "total_results": 17,
+  "total_results": 21,
   "name_variants_found": [
     "1 328 (t) Jana Santos Nguema IF",
     "12 65 (t) Jana Santos Nguema IF",
@@ -14,12 +14,13 @@
     "3 430 (t) Jana Santos Nguema SF",
     "3 73 (t) Jana Santos Nguema IF 2",
     "4 143 (t) Jana Santos Nguema",
-    "5 431 (t) Jana Santos Nguema"
+    "5 431 (t) Jana Santos Nguema",
+    "Jana Santos Nguema"
   ],
   "license_variants_found": [
     "CL94413"
   ],
-  "source_files_count": 10,
+  "source_files_count": 12,
   "results": [
     {
       "event_name": "Campionat Territorial Sub10, Sub12, Sub14 i Sub16 4a. jornada",
@@ -178,6 +179,32 @@
       "internal_id": 920
     },
     {
+      "event_name": "Campionat de Catalunya Clubs Sub16 Masculí en Pista Coberta - Campionat de Catalunya Clubs Sub16 Masculí en Pista Coberta",
+      "event_date": "30/01/2021",
+      "event_location": "Barcelona",
+      "event_src": "http://fcatletisme.cat/wp-content/uploads/2021/02/resultat-20210130-catclubssub16pcbcnpsj.pdf",
+      "athlete_name": "Jana Santos Nguema",
+      "athlete_dob": "13/11/2007",
+      "athlete_id": "CL94413",
+      "discipline": "60 metres llisos",
+      "performance": "9.19",
+      "wind": null,
+      "internal_id": 920
+    },
+    {
+      "event_name": "Campionat de Catalunya Clubs Sub16 Masculí en Pista Coberta - Campionat de Catalunya Clubs Sub16 Masculí en Pista Coberta",
+      "event_date": "30/01/2021",
+      "event_location": "Barcelona",
+      "event_src": "http://fcatletisme.cat/wp-content/uploads/2021/02/resultat-20210130-catclubssub16pcbcnpsj.pdf",
+      "athlete_name": "Jana Santos Nguema",
+      "athlete_dob": "13/11/2007",
+      "athlete_id": "CL94413",
+      "discipline": "4x300",
+      "performance": "3:16.87",
+      "wind": null,
+      "internal_id": 920
+    },
+    {
       "event_name": "Control Gener",
       "event_date": "31/01/2021",
       "event_location": "Reus",
@@ -187,6 +214,32 @@
       "athlete_id": "CL94413",
       "discipline": "Pes (4 Kg)",
       "performance": "9.28",
+      "wind": null,
+      "internal_id": 920
+    },
+    {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "10/04/2021",
+      "event_location": "Tarragona-CLA",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210410-catrelleuspromociopreviatarragona.pdf",
+      "athlete_name": "Jana Santos Nguema",
+      "athlete_dob": "13/11/2007",
+      "athlete_id": "CL94413",
+      "discipline": "4x100",
+      "performance": "55.54",
+      "wind": null,
+      "internal_id": 920
+    },
+    {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "10/04/2021",
+      "event_location": "Tarragona-CLA",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210410-catrelleuspromociopreviatarragona.pdf",
+      "athlete_name": "Jana Santos Nguema",
+      "athlete_dob": "13/11/2007",
+      "athlete_id": "CL94413",
+      "discipline": "4x300",
+      "performance": "3:22.24",
       "wind": null,
       "internal_id": 920
     },

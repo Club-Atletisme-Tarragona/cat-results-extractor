@@ -2,7 +2,7 @@
   "athlete_name": "SILVIA VICENTE NAVARRETE",
   "athlete_id": "CAT-3742994",
   "athlete_dob": "31/7/2007",
-  "total_results": 294,
+  "total_results": 299,
   "name_variants_found": [
     "(t) Silvia Vicente Navarrete 31/07/2007 IF",
     "1 180 Silvia Vicente Navarrete SF",
@@ -80,7 +80,7 @@
     "CL87092",
     "CT1468"
   ],
-  "source_files_count": 87,
+  "source_files_count": 90,
   "results": [
     {
       "event_name": "Campionat Catalunya Absolut Proves Combinades - Barcelona (Estadi Joan Serrahima), 27-28 abril 2019",
@@ -196,7 +196,7 @@
       "athlete_id": "CL77332",
       "discipline": "80 metres llisos",
       "performance": "11.23",
-      "wind": "+3.1",
+      "wind": null,
       "internal_id": 905
     },
     {
@@ -716,7 +716,7 @@
       "athlete_id": "CL77332",
       "discipline": "Llargada",
       "performance": "9.13",
-      "wind": "1.61",
+      "wind": null,
       "internal_id": 905
     },
     {
@@ -1041,7 +1041,7 @@
       "athlete_id": "CL77332",
       "discipline": "80 metres llisos",
       "performance": "11.43",
-      "wind": "+0.2",
+      "wind": null,
       "internal_id": 905
     },
     {
@@ -1288,7 +1288,7 @@
       "athlete_id": "CL77332",
       "discipline": "80 metres llisos",
       "performance": "11.02",
-      "wind": "-1.6",
+      "wind": null,
       "internal_id": 905
     },
     {
@@ -2206,12 +2206,12 @@
       "event_date": "11/10/2020",
       "event_location": "Vilanova i La Geltrú",
       "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20201011-catcombinadessub1214vilanova.pdf",
-      "athlete_name": "4 474 (t) Silvia Vicente Navarrete IF 7",
+      "athlete_name": "5 474 (t) Silvia Vicente IF",
       "athlete_dob": "31/07/2007",
       "athlete_id": "CL77332",
       "discipline": "Llargada",
       "performance": "11.21",
-      "wind": "2.30",
+      "wind": "+0.2",
       "internal_id": 905
     },
     {
@@ -2238,19 +2238,6 @@
       "discipline": "Llargada",
       "performance": "7.64",
       "wind": "+0.8",
-      "internal_id": 905
-    },
-    {
-      "event_name": "Campionat de Catalunya Sub12 de Proves Combinades",
-      "event_date": "11/10/2020",
-      "event_location": "Vilanova i La Geltrú",
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20201011-catcombinadessub1214vilanova.pdf",
-      "athlete_name": "5 474 (t) Silvia Vicente IF",
-      "athlete_dob": "31/07/2007",
-      "athlete_id": "CL77332",
-      "discipline": "Llargada",
-      "performance": "11.21",
-      "wind": "+0.2",
       "internal_id": 905
     },
     {
@@ -2406,6 +2393,32 @@
       "athlete_id": "CL77332",
       "discipline": "Triple",
       "performance": "10.11",
+      "wind": null,
+      "internal_id": 905
+    },
+    {
+      "event_name": "Campionat de Catalunya Clubs Sub16 Masculí en Pista Coberta - Campionat de Catalunya Clubs Sub16 Masculí en Pista Coberta",
+      "event_date": "30/01/2021",
+      "event_location": "Barcelona",
+      "event_src": "http://fcatletisme.cat/wp-content/uploads/2021/02/resultat-20210130-catclubssub16pcbcnpsj.pdf",
+      "athlete_name": "Silvia Vicente Navarrete",
+      "athlete_dob": "31/07/2007",
+      "athlete_id": "CL77332",
+      "discipline": "60 metres tanques (0.76)",
+      "performance": "10.28",
+      "wind": null,
+      "internal_id": 905
+    },
+    {
+      "event_name": "Campionat de Catalunya Clubs Sub16 Masculí en Pista Coberta - Campionat de Catalunya Clubs Sub16 Masculí en Pista Coberta",
+      "event_date": "30/01/2021",
+      "event_location": "Barcelona",
+      "event_src": "http://fcatletisme.cat/wp-content/uploads/2021/02/resultat-20210130-catclubssub16pcbcnpsj.pdf",
+      "athlete_name": "Silvia Vicente Navarrete",
+      "athlete_dob": "31/07/2007",
+      "athlete_id": "CL77332",
+      "discipline": "4x300",
+      "performance": "3:16.87",
       "wind": null,
       "internal_id": 905
     },
@@ -2631,6 +2644,32 @@
       "internal_id": 905
     },
     {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "10/04/2021",
+      "event_location": "Tarragona-CLA",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210410-catrelleuspromociopreviatarragona.pdf",
+      "athlete_name": "Silvia Vicente Navarrete",
+      "athlete_dob": "31/07/2007",
+      "athlete_id": "CL77332",
+      "discipline": "4x100",
+      "performance": "51.56",
+      "wind": null,
+      "internal_id": 905
+    },
+    {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "10/04/2021",
+      "event_location": "Tarragona-CLA",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210410-catrelleuspromociopreviatarragona.pdf",
+      "athlete_name": "Silvia Vicente Navarrete",
+      "athlete_dob": "31/07/2007",
+      "athlete_id": "CL77332",
+      "discipline": "4x300",
+      "performance": "3:08.32",
+      "wind": null,
+      "internal_id": 905
+    },
+    {
       "event_name": "Campionat Territorial primera jornada",
       "event_date": "11/04/2021",
       "event_location": "Reus",
@@ -2705,6 +2744,32 @@
       "athlete_id": "CL77332",
       "discipline": "Pes (3 Kg)",
       "performance": "6.84",
+      "wind": null,
+      "internal_id": 905
+    },
+    {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "17/04/2021",
+      "event_location": "El Prat de Llobregat",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210417-catrelleuspromociofinalelprat.pdf",
+      "athlete_name": "Silvia Vicente Navarrete",
+      "athlete_dob": "31/07/2007",
+      "athlete_id": "CL77332",
+      "discipline": "4x100",
+      "performance": "51.13",
+      "wind": null,
+      "internal_id": 905
+    },
+    {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "17/04/2021",
+      "event_location": "El Prat de Llobregat",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210417-catrelleuspromociofinalelprat.pdf",
+      "athlete_name": "Silvia Vicente Navarrete",
+      "athlete_dob": "31/07/2007",
+      "athlete_id": "CL77332",
+      "discipline": "4x100",
+      "performance": "50.83",
       "wind": null,
       "internal_id": 905
     },
@@ -3043,7 +3108,7 @@
       "athlete_id": "CL77332",
       "discipline": "Javelina (600 g)",
       "performance": "59.47",
-      "wind": "+0.1",
+      "wind": null,
       "internal_id": 905
     },
     {

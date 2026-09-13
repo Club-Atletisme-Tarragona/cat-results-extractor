@@ -2,7 +2,7 @@
   "athlete_name": "NAIA GUINART TRABALON",
   "athlete_id": "CAT-3889578",
   "athlete_dob": "25/3/2015",
-  "total_results": 20,
+  "total_results": 21,
   "name_variants_found": [
     "NAIA GUINART TRABALON",
     "NAIA GUINART TRABALON DNS",
@@ -11,7 +11,7 @@
   "license_variants_found": [
     "CAT-3889578"
   ],
-  "source_files_count": 9,
+  "source_files_count": 10,
   "results": [
     {
       "event_name": "Campionat Territorial de Proves Combinades d'Hivern sub12 i sub14- Tarragona - Pista de Atletismo de Camp Clar",
@@ -114,6 +114,19 @@
       "athlete_id": "CAT-3889578",
       "discipline": "600 metres llisos",
       "performance": "2:00.93",
+      "wind": null,
+      "internal_id": null
+    },
+    {
+      "event_name": "Jornada Prèvia Campionat de Catalunya de Relleus AL - Pista de Atletismo Can Jofresa",
+      "event_date": "11/04/2026",
+      "event_location": "Terrassa",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/04/resultat-20260411-catrelleuspreviaterrassa.pdf",
+      "athlete_name": "Naia GUINART TRABALON",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "3x600",
+      "performance": "5:59.61",
       "wind": null,
       "internal_id": null
     },

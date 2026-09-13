@@ -2,19 +2,20 @@
   "athlete_name": "ALEJANDRA BASORA DE AVILA",
   "athlete_id": "CL94375",
   "athlete_dob": "11/8/2006",
-  "total_results": 13,
+  "total_results": 14,
   "name_variants_found": [
     "11 21 (t) Alejandra Basora De Avila IF",
     "13 21 (t) Alejandra Basora De Avila IF",
     "25 132 (t) Alejandra Basora De Avila IF",
     "28 396 (t) Alejandra Basora De Avila",
     "4 60 (t) Alejandra Basora De Avila",
-    "7 279 (t) Alejandra Basora De Avila"
+    "7 279 (t) Alejandra Basora De Avila",
+    "Alejandra Basora De Avila"
   ],
   "license_variants_found": [
     "CL94375"
   ],
-  "source_files_count": 5,
+  "source_files_count": 6,
   "results": [
     {
       "event_name": "Campionat Territorial Sub10, Sub12, Sub14 i Sub16 2a. jornada",
@@ -173,6 +174,19 @@
       "internal_id": 864
     },
     {
+      "event_name": "Campionat de Catalunya Clubs Sub16 Masculí en Pista Coberta - Campionat de Catalunya Clubs Sub16 Masculí en Pista Coberta",
+      "event_date": "30/01/2021",
+      "event_location": "Barcelona",
+      "event_src": "http://fcatletisme.cat/wp-content/uploads/2021/02/resultat-20210130-catclubssub16pcbcnpsj.pdf",
+      "athlete_name": "Alejandra Basora De Avila",
+      "athlete_dob": "11/08/2006",
+      "athlete_id": "CL94375",
+      "discipline": "1000 metres llisos",
+      "performance": "3:39.45",
+      "wind": null,
+      "internal_id": 864
+    },
+    {
       "event_name": "Control social",
       "event_date": "13/06/2021",
       "event_location": "Ascó",
@@ -182,7 +196,7 @@
       "athlete_id": "CL94375",
       "discipline": "Pes (4 Kg)",
       "performance": "50.77",
-      "wind": "-2.5",
+      "wind": null,
       "internal_id": 864
     }
   ]

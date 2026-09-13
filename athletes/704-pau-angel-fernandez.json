@@ -2,7 +2,7 @@
   "athlete_name": "PAU ANGEL FERNANDEZ",
   "athlete_id": "CT28510",
   "athlete_dob": "26/1/2003",
-  "total_results": 18,
+  "total_results": 23,
   "name_variants_found": [
     "1 155 Pablo Angel Fernandez LM",
     "2 17 Pablo Angel Fernandez LM",
@@ -18,7 +18,7 @@
   "license_variants_found": [
     "CT28510"
   ],
-  "source_files_count": 10,
+  "source_files_count": 14,
   "results": [
     {
       "event_name": "Campionat Territorial Sub10, Sub12, Sub14 i Sub16 3a. jornada",
@@ -229,6 +229,19 @@
       "internal_id": 704
     },
     {
+      "event_name": " - Sabadell (Pista Coberta de Catalunya), 12 enero 2020",
+      "event_date": "12/01/2020",
+      "event_location": "Club                                             Lic",
+      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20200112-catclubsbpcsabadell.pdf",
+      "athlete_name": "Pablo Angel Fernandez",
+      "athlete_dob": "26/01/2003",
+      "athlete_id": "CT28510",
+      "discipline": "Alçada",
+      "performance": "1.70",
+      "wind": null,
+      "internal_id": 704
+    },
+    {
       "event_name": "Control Absolut en Pista Coberta (6a. Jornada) - Control Absolut en Pista Coberta (6a. Jornada)",
       "event_date": "19/01/2020",
       "event_location": "Sabadell",
@@ -242,6 +255,45 @@
       "internal_id": 704
     },
     {
+      "event_name": "Control Absolut en pista coberta",
+      "event_date": "05/02/2021",
+      "event_location": "Barcelona - Palau Sant Jordi",
+      "event_src": "http://fcatletisme.cat/wp-content/uploads/2021/02/resultat-20210205-controlabsolutpcbcnpsj.pdf",
+      "athlete_name": "Pablo Angel Fernandez",
+      "athlete_dob": "26/01/2003",
+      "athlete_id": "CT28510",
+      "discipline": "60 metres tanques (1.067)",
+      "performance": "9.18",
+      "wind": null,
+      "internal_id": 704
+    },
+    {
+      "event_name": "Campionat de Catalunya Sub20 en Pista Coberta - Campionat de Catalunya Sub20 en Pista Coberta",
+      "event_date": "26/02/2022",
+      "event_location": "Club                                              Lic",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2022/02/resultat-20220226-catsub20pcsabadell.pdf",
+      "athlete_name": "Pablo Angel Fernandez",
+      "athlete_dob": "26/01/2003",
+      "athlete_id": "CT28510",
+      "discipline": "60 metres tanques (0.99)",
+      "performance": "8.44",
+      "wind": null,
+      "internal_id": 704
+    },
+    {
+      "event_name": "Campionat de Catalunya Sub20 en Pista Coberta - Campionat de Catalunya Sub20 en Pista Coberta",
+      "event_date": "26/02/2022",
+      "event_location": "Club                                              Lic",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2022/02/resultat-20220226-catsub20pcsabadell.pdf",
+      "athlete_name": "Pablo Angel Fernandez",
+      "athlete_dob": "26/01/2003",
+      "athlete_id": "CT28510",
+      "discipline": "60 metres tanques (0.99)",
+      "performance": "8.37",
+      "wind": null,
+      "internal_id": 704
+    },
+    {
       "event_name": "Campionat de Catalunya de Clubs \"B\" Masculins en Pista Coberta - Campionat de Catalunya de Clubs \"B\" Masculins en Pista Coberta",
       "event_date": "08/01/2023",
       "event_location": "Vilafranca",
@@ -251,6 +303,19 @@
       "athlete_id": "CT28510",
       "discipline": "200 metres llisos",
       "performance": "23.78",
+      "wind": null,
+      "internal_id": 704
+    },
+    {
+      "event_name": "Control Absolut en Pista Coberta - Control Absolut en Pista Coberta",
+      "event_date": "14/01/2023",
+      "event_location": "Club                                             Lic",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2023/01/resultat-20230114-controlabsolutpcsabadell.pdf",
+      "athlete_name": "Pablo Angel Fernandez",
+      "athlete_dob": "26/01/2003",
+      "athlete_id": "CT28510",
+      "discipline": "60 metres tanques (1.067)",
+      "performance": "8.68",
       "wind": null,
       "internal_id": 704
     }

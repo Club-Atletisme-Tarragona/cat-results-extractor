@@ -2,7 +2,7 @@
   "athlete_name": "JAVIER ALMALE LERIN",
   "athlete_id": "CT24373",
   "athlete_dob": "23/2/2000",
-  "total_results": 84,
+  "total_results": 87,
   "name_variants_found": [
     "2 15 Javier Almale Lerin",
     "2 314 Javier Almale Lerin LM",
@@ -19,6 +19,7 @@
     "7 403 Javier Almale Lerin",
     "7 8 (t) Javier Almale Lerin PM",
     "ALMALE LERIN JAVIER CM",
+    "ALMALE LERIN, JAVIER",
     "ALMALÉ LERÍN JAVIER",
     "JAVIER ALMALE LERIN",
     "Javier Almale Lerin",
@@ -33,7 +34,7 @@
     "CL75209",
     "CT24373"
   ],
-  "source_files_count": 33,
+  "source_files_count": 36,
   "results": [
     {
       "event_name": "CONTROL NÀSTIC – TROFEU PERE VALLS I RECANSES",
@@ -201,7 +202,7 @@
       "athlete_id": "",
       "discipline": "Alçada",
       "performance": "10.45",
-      "wind": "1.6",
+      "wind": null,
       "internal_id": 510
     },
     {
@@ -214,7 +215,7 @@
       "athlete_id": "",
       "discipline": "Alçada",
       "performance": "10.72",
-      "wind": "1.6",
+      "wind": null,
       "internal_id": 510
     },
     {
@@ -227,7 +228,7 @@
       "athlete_id": "",
       "discipline": "Alçada",
       "performance": "10.07",
-      "wind": "1.6",
+      "wind": null,
       "internal_id": 510
     },
     {
@@ -240,7 +241,7 @@
       "athlete_id": "",
       "discipline": "Alçada",
       "performance": "10.39",
-      "wind": "1.6",
+      "wind": null,
       "internal_id": 510
     },
     {
@@ -894,6 +895,19 @@
       "internal_id": 510
     },
     {
+      "event_name": "Control Primavera 2016 - Cambrils",
+      "event_date": "30/04/2016",
+      "event_location": "Cambrils",
+      "event_src": "http://old.fcatletisme.cat/Pairelliure/2016/resulcontrolpimaveracambrils3004-10516.pdf",
+      "athlete_name": "ALMALE LERIN, JAVIER",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "100 metres llisos",
+      "performance": "11.84",
+      "wind": "+2.4",
+      "internal_id": 510
+    },
+    {
       "event_name": "Control Cadet, Juvenil i Junior",
       "event_date": "22/05/2016",
       "event_location": "Terrassa",
@@ -929,6 +943,19 @@
       "athlete_id": "CT24373",
       "discipline": "60 metres llisos",
       "performance": "7.31",
+      "wind": null,
+      "internal_id": 510
+    },
+    {
+      "event_name": "Control Absolut en Pista Coberta (4a. Jornada) - Control Absolut en Pista Coberta (4a. Jornada)",
+      "event_date": "14/01/2018",
+      "event_location": "Club                                             Lic",
+      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20180114-controlabsolutpcsabadell.pdf",
+      "athlete_name": "Javier Almale Lerin",
+      "athlete_dob": "23/02/2000",
+      "athlete_id": "CT24373",
+      "discipline": "60 metres llisos",
+      "performance": "7.26",
       "wind": null,
       "internal_id": 510
     },
@@ -1112,6 +1139,19 @@
       "discipline": "100 metres llisos",
       "performance": "11.82",
       "wind": "+0.0",
+      "internal_id": 510
+    },
+    {
+      "event_name": "Control Absolut en Pista Coberta - Control Absolut en Pista Coberta",
+      "event_date": "08/01/2022",
+      "event_location": "Club                                               Lic",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2022/01/resultat-20220108-controlabsolutpcsabadell.pdf",
+      "athlete_name": "Javier Almale Lerin",
+      "athlete_dob": "23/02/2000",
+      "athlete_id": "CT24373",
+      "discipline": "60 metres llisos",
+      "performance": "7.47",
+      "wind": null,
       "internal_id": 510
     },
     {

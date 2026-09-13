@@ -2,7 +2,7 @@
   "athlete_name": "ELIA BAYON FERNANDEZ",
   "athlete_id": "CAT-3889577",
   "athlete_dob": "18/5/2015",
-  "total_results": 57,
+  "total_results": 55,
   "name_variants_found": [
     "ÈLIA BAYÓN FERNÁNDEZ",
     "ÈLIA BAYÓN FERNÁNDEZ Q",
@@ -326,6 +326,19 @@
       "internal_id": null
     },
     {
+      "event_name": "Jornada Prèvia Campionat de Catalunya de Relleus AL - Pista de Atletismo Can Jofresa",
+      "event_date": "11/04/2026",
+      "event_location": "Terrassa",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/04/resultat-20260411-catrelleuspreviaterrassa.pdf",
+      "athlete_name": "Èlia BAYÓN FERNÁNDEZ",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "3x600",
+      "performance": "5:59.61",
+      "wind": null,
+      "internal_id": null
+    },
+    {
       "event_name": "Jornada Final Campionat de Catalunya de Relleus AL - Pista Municipal Atmo. Castellar Vallés",
       "event_date": "25/04/2026",
       "event_location": "Castellar del Vallès",
@@ -543,45 +556,6 @@
       "athlete_id": "CAT-3889577-A",
       "discipline": "Tetratló",
       "performance": "1648",
-      "wind": null,
-      "internal_id": null
-    },
-    {
-      "event_name": "Campionat Territorial de Proves Combinades - Tarragona i Terres de l'Ebre - Pista de Atletismo de Camp Clar",
-      "event_date": "02/05/2026",
-      "event_location": "Tarragona",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/05/resultat-2026050203-territorialcombinadestarragona.pdf",
-      "athlete_name": "ÈLIA BAYÓN FERNÁNDEZ",
-      "athlete_dob": "18/5/2015",
-      "athlete_id": "CAT-3889577-A",
-      "discipline": "80 metres llisos",
-      "performance": "10.32",
-      "wind": null,
-      "internal_id": null
-    },
-    {
-      "event_name": "Campionat Territorial de Proves Combinades - Tarragona i Terres de l'Ebre - Pista de Atletismo de Camp Clar",
-      "event_date": "02/05/2026",
-      "event_location": "Tarragona",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/05/resultat-2026050203-territorialcombinadestarragona.pdf",
-      "athlete_name": "ÈLIA BAYÓN FERNÁNDEZ",
-      "athlete_dob": "18/5/2015",
-      "athlete_id": "CAT-3889577-A",
-      "discipline": "80 metres llisos",
-      "performance": "9.14",
-      "wind": null,
-      "internal_id": null
-    },
-    {
-      "event_name": "Campionat Territorial de Proves Combinades - Tarragona i Terres de l'Ebre - Pista de Atletismo de Camp Clar",
-      "event_date": "02/05/2026",
-      "event_location": "Tarragona",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/05/resultat-2026050203-territorialcombinadestarragona.pdf",
-      "athlete_name": "ÈLIA BAYÓN FERNÁNDEZ",
-      "athlete_dob": "18/5/2015",
-      "athlete_id": "CAT-3889577-A",
-      "discipline": "80 metres tanques (0.84)",
-      "performance": "9.14",
       "wind": null,
       "internal_id": null
     },

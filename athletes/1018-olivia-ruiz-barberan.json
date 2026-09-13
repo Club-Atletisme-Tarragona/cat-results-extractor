@@ -2,7 +2,7 @@
   "athlete_name": "OLIVIA RUIZ BARBERAN",
   "athlete_id": "CL3439",
   "athlete_dob": "24/4/2009",
-  "total_results": 29,
+  "total_results": 28,
   "name_variants_found": [
     "1 425 (t) Olivia Ruiz Barbera SF",
     "1 493 (t) Olivia Ruiz Barbera",
@@ -10,7 +10,6 @@
     "16 303 (t) Olivia Ruiz Barbera IF",
     "2 229 (t) Olivia Ruiz Barbera SF",
     "3 109 (t) Olivia Ruiz Barbera",
-    "3 42 (t) Olivia Ruiz Barbera 3",
     "4 245 (t) Olivia Ruiz Barbera IF",
     "4 245 (t) Olivia Ruiz Barbera IF 3 q",
     "4 65 (t) Olivia Ruiz Barbera IF 5",
@@ -19,7 +18,8 @@
     "7 245 (t) Olivia Ruiz Barbera IF 2",
     "8 95 (t) Olivia Ruiz Barbera",
     "OLIVIA RUIZ BARBERA",
-    "Olivia RUIZ BARBERA"
+    "Olivia RUIZ BARBERA",
+    "Olivia Ruiz Barbera"
   ],
   "license_variants_found": [
     "CL3439"
@@ -153,20 +153,7 @@
       "athlete_id": "CL3439",
       "discipline": "3000 metres llisos",
       "performance": "20:38",
-      "wind": "-2.1",
-      "internal_id": 1018
-    },
-    {
-      "event_name": "Jornada Final Campionat Catalunya Sub14",
-      "event_date": "18/06/2022",
-      "event_location": "Castellar del Vallès",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2022/06/resultat-20220618-catsub14alfinalcastellar.pdf",
-      "athlete_name": "7 245 (t) Olivia Ruiz Barbera IF 2",
-      "athlete_dob": "24/04/2009",
-      "athlete_id": "CL3439",
-      "discipline": "3000 metres llisos",
-      "performance": "20:38",
-      "wind": "-3.3",
+      "wind": null,
       "internal_id": 1018
     },
     {
@@ -179,7 +166,7 @@
       "athlete_id": "CL3439",
       "discipline": "3000 metres llisos",
       "performance": "19:55",
-      "wind": "-3.3",
+      "wind": null,
       "internal_id": 1018
     },
     {
@@ -265,7 +252,7 @@
       "event_date": "10/03/2024",
       "event_location": "Sabadell",
       "event_src": "https://fcatletisme.cat/wp-content/uploads/2024/03/resultat-20240310-catclubsasub16pcsabadell.pdf",
-      "athlete_name": "3 42 (t) Olivia Ruiz Barbera 3",
+      "athlete_name": "Olivia Ruiz Barbera",
       "athlete_dob": "24/04/2009",
       "athlete_id": "CL3439",
       "discipline": "300 metres llisos",

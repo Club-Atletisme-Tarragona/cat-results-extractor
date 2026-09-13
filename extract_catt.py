@@ -202,12 +202,12 @@ EVENT_PATTERNS = [
     r'\d{1,3}(?:\.\d{3})?\s*metres\s+(?:llisos|tanques|vallas|obstacles|marxa|marxa)\s+(?:masculins|Mascuins|femenins|femenina|masculina|Hombres|Mujeres|Masculí|Femení)',
     # RFEA format: "60m MASC. PC", "300m FEM. PC", "Alçada MASC. PC", etc.
     # MASC = Masculí/Masculino, FEM = Femení/Femenino
-    r'(?:\d{1,3}(?:\.\d{3})?\s*m(t)?|\d+\s*m(t)?)\s+(?:MASC\.?|FEM\.?)\s+PC',
-    r'(?:\d{1,3}(?:\.\d{3})?\s*m(t)?|\d+\s*m(t)?)\s+(?:MASC\.?|FEM\.?)\s+AL',
-    r'(?:Alçada|Altura|Perxa|Pértiga|Llargada|Longitud|Triple\s+Salto|Triple\s+salt|Disco|Martello|Martell|Martillo|Pes|Peso|Dard|Jabalina|Javelina)\s+(?:MASC\.?|FEM\.?)\s+PC',
-    r'(?:Alçada|Altura|Perxa|Pértiga|Llargada|Longitud|Triple\s+Salto|Triple\s+salt|Disco|Martello|Martell|Martillo|Pes|Peso|Dard|Jabalina|Javelina)\s+(?:MASC\.?|FEM\.?)\s+AL',
+    r'(?:\d{1,3}(?:\.\d{3})?\s*m(t)?|\d+\s*m(t)?)\s+(?:MASC\.?|FEM\.?)\s*PC',
+    r'(?:\d{1,3}(?:\.\d{3})?\s*m(t)?|\d+\s*m(t)?)\s+(?:MASC\.?|FEM\.?)\s*AL',
+    r'(?:Alçada|Altura|Perxa|Pértiga|Llargada|Longitud|Triple\s+Salto|Triple\s+salt|Disco|Martello|Martell|Martillo|Pes|Peso|Dard|Jabalina|Javelina)\s+(?:MASC\.?|FEM\.?)\s*PC',
+    r'(?:Alçada|Altura|Perxa|Pértiga|Llargada|Longitud|Triple\s+Salto|Triple\s+salt|Disco|Martello|Martell|Martillo|Pes|Peso|Dard|Jabalina|Javelina)\s+(?:MASC\.?|FEM\.?)\s*AL',
     # RFEA hurdles: "60m tanques (0,50) FEM AL"
-    r'\d{1,3}(?:\.\d{3})?\s*m(?:t)?\s+(?:tanques|vallas)\s+(?:\(.*?\)\s+)?(?:MASC\.?|FEM\.?)\s+(?:PC|AL)',
+    r'\d{1,3}(?:\.\d{3})?\s*m(?:t)?\s+(?:tanques|vallas)\s+(?:\(.*?\)\s+)?(?:MASC\.?|FEM\.?)\s*(?:PC|AL)',
     r'\d{1,3}(?:\.\d{3})?\s*metres\s+(?:llisos|tanques|vallas|obstacles|marxa|marxa)\s+(?:Sub\d+\s+)?(?:masculins|Mascuins|femenins|femenina|masculina|Hombres|Mujeres|Masculí|Femení)',
 ]
 
@@ -228,9 +228,9 @@ TRACK_PATTERNS = [
     # km events: "10km", "21.1km"
     r'\d+\.?\d*\s*km\s*(?:Hombres|Mujeres|Masculí|Femení|Abs|M|F)?',
     # RFEA format: "60m MASC. AL", "600m FEM. AL", "2.000m FEM. AL"
-    r'(?:\d{1,3}(?:\.\d{3})?\s*m(?:t)?|\d+\s*m(?:t)?)\s+(?:MASC\.?|FEM\.?)\s+(?:PC|AL)',
+    r'(?:\d{1,3}(?:\.\d{3})?\s*m(?:t)?|\d+\s*m(?:t)?)\s+(?:MASC\.?|FEM\.?)\s*(?:PC|AL)',
     # RFEA hurdles: "60m tanques (0,50) FEM. AL"
-    r'\d{1,3}(?:\.\d{3})?\s*m(?:t)?\s+(?:tanques|vallas)\s+(?:\(.*?\)\s+)?(?:MASC\.?|FEM\.?)\s+(?:PC|AL)',
+    r'\d{1,3}(?:\.\d{3})?\s*m(?:t)?\s+(?:tanques|vallas)\s+(?:\(.*?\)\s+)?(?:MASC\.?|FEM\.?)\s*(?:PC|AL)',
 ]
 
 MARCHA_PATTERNS = [
@@ -257,9 +257,8 @@ FIELD_PATTERNS = [
 ]
 
 RELAY_PATTERNS = [
-    r'4x\d+\s*m',
-    r'4x\d+\s+(?:Hombres|Mujeres|Masculí|Femení|masculins|Mascuins|femenins|masculina|femenina|masculino|femenino)',
-    r'Relleu[s]?\s+4x\d+',
+    r'\b\d+x\d+\s*m?\b',
+    r'Relleu[s]?\s+\d+x\d+',
 ]
 
 MARATHON_PATTERNS = [
@@ -1072,7 +1071,7 @@ def find_section_boundaries(lines):
         # Deduplicate: skip if we've already seen this event name
         # BUT for relay events, each heat/series is a separate section
         # so we don't deduplicate relays
-        is_relay = bool(re.search(r'4x\d+|Relleu\s+4x', event_name, re.IGNORECASE))
+        is_relay = bool(re.search(r'\b\d+x\d+\b|4x\d+|Relleu', event_name, re.IGNORECASE))
         if not is_relay and event_name in seen_events:
             continue
         seen_events.add(event_name)
@@ -1213,7 +1212,7 @@ def parse_sumario_section(lines, sumario_idx, event_name, sec_end, competicio, d
     results = []
     
     # Detect if this is a relay event
-    is_relay = bool(re.search(r'4x\d+|Relleu\s+4x', event_name, re.IGNORECASE))
+    is_relay = bool(re.search(r'\b\d+x\d+\b|4x\d+|Relleu', event_name, re.IGNORECASE))
     
     if is_relay:
         # Relay SUMARIO format: team line followed by athlete names
@@ -2954,12 +2953,18 @@ def parse_relay_section(lines, sec_start, sec_end, event_name, competicio, data_
         return results
 
     # Find all athlete names after the CATT team line
-    # Athletes are listed with format: "dorsal NAME Gender" or "NAME Gender"
+    # Two member-line formats:
+    #   Legacy: "dorsal NAME Gender" or "NAME Gender" (Gender = Hombre/Mujer)
+    #   RFEA member lines: "(t)/(e) NAME  DOB  LICENSE[CAT]"
+    #     e.g. "(t) Jordi Bofarull Cot    27/06/2010 CL4161 AM"
+    #     each member carries their own DOB and license; the license may
+    #     have the category glued to it (CL93256AF = license CL93256 + AF)
     # A new team block starts with: "pos  dorsal  CLUB_NAME  CLUB_CODE"
     # Match any team block line: position + dorsal + any text + short uppercase club code (2-4 chars)
-    athletes = []
+    athletes = []  # entries: {"name", "dob", "license"}
+    member_format = False  # True once an RFEA member line is captured
     team_line_pattern = re.compile(r'^\s*\d+\s+\d+\s+.+?\s+[A-Z]{2,4}\b')
-    
+
     for i in range(catt_team_start + 1, min(sec_end, len(lines))):
         line = lines[i].strip()
         if not line:
@@ -2976,7 +2981,31 @@ def parse_relay_section(lines, sec_start, sec_end, event_name, competicio, data_
         if any(label in line for label in skip_labels):
             continue
 
-        # Match athlete name lines: "dorsal NAME Gender" or "NAME Gender"
+        # RFEA member-line format: "(t)/(e) NAME  DOB  LICENSE[CAT]"
+        # Each member line carries its own name, DOB and license. Never
+        # reuse the team-level license here: it belongs to the FIRST
+        # member only, and pairing it with another member's name corrupts
+        # athlete identities (union-find then merges different people).
+        member_match = re.match(
+            r'^(?:(\d{1,3})\s+)?(?:\([et]\)\s*)*(.+?)\s+(\d{1,2}/\d{1,2}/\d{4})\s*(.*)$', line
+        )
+        if member_match:
+            m_name = ' '.join(member_match.group(2).split())
+            m_dob = member_match.group(3)
+            m_rest = member_match.group(4) or ""
+            lic_match = re.search(
+                r'\b(CL\d+|CT[\d\-]+|CAT\-\d+[A\-\.]*|IB\-\d+[A\-\.]*)', m_rest
+            )
+            m_lic = lic_match.group(1) if lic_match else ""
+            # A license after the DOB is what distinguishes a member line from
+            # a section header like "Final B   30/01/2021    13:15"; headers
+            # carry a time-of-day, never a license token.
+            if m_name and len(m_name) > 3 and m_lic and not re.match(r'^(Final|Semifinal|Serie)\b', m_name, re.IGNORECASE):
+                athletes.append({"name": m_name, "dob": m_dob, "license": m_lic})
+                member_format = True
+            continue
+
+        # Legacy format: "dorsal NAME Gender" or "NAME Gender"
         # Gender is "Hombre" or "Mujer"
         athlete_match = re.search(r'(?:\d+\s+)?(.+?)\s+(?:Hombre|Mujer)\s*$', line)
         if athlete_match:
@@ -2984,7 +3013,7 @@ def parse_relay_section(lines, sec_start, sec_end, event_name, competicio, data_
             # Clean up the name
             athlete_name = ' '.join(athlete_name.split())
             if athlete_name and len(athlete_name) > 3:
-                athletes.append(athlete_name)
+                athletes.append({"name": athlete_name, "dob": "", "license": ""})
 
     # Find license for the team
     licencia = ""
@@ -2998,16 +3027,23 @@ def parse_relay_section(lines, sec_start, sec_end, event_name, competicio, data_
     team_line = lines[catt_team_start]
     lloc = extract_position(team_line)
 
-    # Create one result per athlete
-    for athlete_name in athletes:
+    # Create one result per athlete.
+    # Legacy format: all members share the team-level license.
+    # RFEA member format: each member keeps their own license (never the
+    # team-level one, which belongs to the first member only).
+    for member in athletes:
+        if member_format:
+            member_license = member["license"]
+        else:
+            member_license = licencia
         results.append({
             "lloc": lloc,
             "prova": event_name,
             "competicio": competicio,
             "data": data_comp,
-            "atleta_nom": athlete_name,
-            "atleta_naixement": "",
-            "atleta_licencia": licencia,
+            "atleta_nom": member["name"],
+            "atleta_naixement": member["dob"],
+            "atleta_licencia": member_license,
             "marca": catt_team_result or "",
             "vent": None,
         })
@@ -3257,6 +3293,31 @@ def _reconstruct_url(pdf_path: str) -> str:
     return ""
 
 
+def wind_applicable(raw_discipline: str) -> bool:
+    """True when wind is recorded for this discipline.
+
+    Mirrors the wind_limit column of the DB disciplines table (DISCIPLINES.md):
+    flat sprints 50/60/100/150/200 m, hurdles up to 220 m, Llargada and Triple.
+    Everything else (80 m flat, 120 m, 300 m+ events, relays, marcha,
+    obstacles, throws, vertical jumps) has no wind limit and wind is never
+    recorded. Works on raw section names ("60m Hombres AL") and on official
+    mapped names ("60 metres llisos") alike.
+    """
+    if not raw_discipline:
+        return False
+    name = raw_discipline.strip().lower()
+    if 'llargada' in name or 'longitud' in name or 'triple' in name:
+        return True
+    m = re.match(r'^(\d{1,3}(?:\.\d{3})?)\s*m(?:etres)?\b(.*)$', name)
+    if not m:
+        return False
+    dist = int(m.group(1).replace('.', ''))
+    rest = m.group(2)
+    if re.search(r'\b(tanques|vallas)\b', rest):
+        return dist <= 220
+    return dist in (50, 60, 100, 150, 200)
+
+
 def main():
     if len(sys.argv) < 2:
         print("Usage: python3 extract_catt.py <pdf_file> [source_url]")
@@ -3422,7 +3483,7 @@ def main():
             "athlete_id": r["atleta_licencia"],
             "performance": r["marca"],
             "discipline": normalize_weight_units(r["prova"]),
-            "wind": r["vent"],
+            "wind": r["vent"] if wind_applicable(normalize_weight_units(r["prova"])) else None,
             "position": r.get("position"),
         }
         output["results"].append(entry)

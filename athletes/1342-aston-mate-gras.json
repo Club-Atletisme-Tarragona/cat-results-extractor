@@ -2,7 +2,7 @@
   "athlete_name": "ASTON MATE GRAS",
   "athlete_id": "CL95044",
   "athlete_dob": "7/12/2012",
-  "total_results": 70,
+  "total_results": 71,
   "name_variants_found": [
     "1 51 (t) Aston Mate Gras IM",
     "10 329 (t) Aston Mate Gras IM",
@@ -18,12 +18,13 @@
     "6 258 (t) Aston Mate Gras",
     "7 385 (t) Aston Mate Gras",
     "ASTON MATE GRAS",
-    "Aston MATE GRAS"
+    "Aston MATE GRAS",
+    "Aston Mate Gras"
   ],
   "license_variants_found": [
     "CL95044"
   ],
-  "source_files_count": 32,
+  "source_files_count": 33,
   "results": [
     {
       "event_name": "Control Gener 1 - Pista de Atletismo de Camp Clar, 14 enero 2023",
@@ -35,6 +36,19 @@
       "athlete_id": "CL95044",
       "discipline": "60 metres llisos",
       "performance": "10.04",
+      "wind": null,
+      "internal_id": 1342
+    },
+    {
+      "event_name": "Campionat Catalunya Clubs Sub12 Masculí i Femení \"A\" - Sabadell (Pista coberta de Catalunya), 11 febrero 2023",
+      "event_date": "11/02/2023",
+      "event_location": "Sabadell",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2023/02/resultat-20230211-catclubssub12apcsabadell.pdf",
+      "athlete_name": "Aston Mate Gras",
+      "athlete_dob": "07/12/2012",
+      "athlete_id": "CL95044",
+      "discipline": "2000 metres marxa",
+      "performance": "11:25.55",
       "wind": null,
       "internal_id": 1342
     },
@@ -620,7 +634,7 @@
       "athlete_id": "CL95044",
       "discipline": "80 metres llisos",
       "performance": "11.97",
-      "wind": "-1.4",
+      "wind": null,
       "internal_id": 1342
     },
     {
@@ -685,7 +699,7 @@
       "athlete_id": "CL95044",
       "discipline": "80 metres llisos",
       "performance": "11.77",
-      "wind": "-1.6",
+      "wind": null,
       "internal_id": 1342
     },
     {
@@ -711,7 +725,7 @@
       "athlete_id": "CL95044",
       "discipline": "80 metres llisos",
       "performance": "11.70",
-      "wind": "-1.1",
+      "wind": null,
       "internal_id": 1342
     },
     {
@@ -724,7 +738,7 @@
       "athlete_id": "CL95044",
       "discipline": "80 metres llisos",
       "performance": "11.37",
-      "wind": "+1.0",
+      "wind": null,
       "internal_id": 1342
     },
     {
@@ -774,7 +788,7 @@
       "athlete_name": "ASTON MATE GRAS",
       "athlete_dob": "",
       "athlete_id": "CL95044",
-      "discipline": "5000 metres marxa",
+      "discipline": "5K marxa (Ruta)",
       "performance": "27:48",
       "wind": null,
       "internal_id": 1342
@@ -800,7 +814,7 @@
       "athlete_name": "ASTON MATE GRAS",
       "athlete_dob": "7/12/2012",
       "athlete_id": "CL95044",
-      "discipline": "5000 metres marxa",
+      "discipline": "5K marxa (Ruta)",
       "performance": "26:29",
       "wind": null,
       "internal_id": 1342

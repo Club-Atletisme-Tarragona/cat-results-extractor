@@ -2,7 +2,7 @@
   "athlete_name": "IRENE JIMENEZ GARCIA",
   "athlete_id": "CL94390",
   "athlete_dob": "26/8/2011",
-  "total_results": 71,
+  "total_results": 75,
   "name_variants_found": [
     "1 305 (t) Irene Jimenez Garcia BF",
     "1 365 (t) Irene Jimenez Garcia AF",
@@ -33,6 +33,7 @@
     "7 648 (t) Irene Jimenez Garcia BF",
     "8 76 (t) Irene Jimenez Garcia AF",
     "9 282 (t) Irene Jimenez Garcia BF",
+    "Irene Jimenez Garcia",
     "Irene Jimenez Garcia AF",
     "Irene Jimenez Garcia AF 2",
     "Irene Jimenez Garcia AF 3",
@@ -41,7 +42,7 @@
   "license_variants_found": [
     "CL94390"
   ],
-  "source_files_count": 26,
+  "source_files_count": 28,
   "results": [
     {
       "event_name": "Control Hivern",
@@ -209,6 +210,58 @@
       "athlete_id": "CL94390",
       "discipline": "Llargada",
       "performance": "3.04",
+      "wind": null,
+      "internal_id": 1326
+    },
+    {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "10/04/2021",
+      "event_location": "Tarragona-CLA",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210410-catrelleuspromociopreviatarragona.pdf",
+      "athlete_name": "Irene Jimenez Garcia",
+      "athlete_dob": "26/08/2011",
+      "athlete_id": "CL94390",
+      "discipline": "4x60",
+      "performance": "35.03",
+      "wind": null,
+      "internal_id": 1326
+    },
+    {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "10/04/2021",
+      "event_location": "Tarragona-CLA",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210410-catrelleuspromociopreviatarragona.pdf",
+      "athlete_name": "Irene Jimenez Garcia",
+      "athlete_dob": "26/08/2011",
+      "athlete_id": "CL94390",
+      "discipline": "3x600",
+      "performance": "6:50.98",
+      "wind": null,
+      "internal_id": 1326
+    },
+    {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "17/04/2021",
+      "event_location": "El Prat de Llobregat",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210417-catrelleuspromociofinalelprat.pdf",
+      "athlete_name": "Irene Jimenez Garcia",
+      "athlete_dob": "26/08/2011",
+      "athlete_id": "CL94390",
+      "discipline": "4x60",
+      "performance": "35.05",
+      "wind": null,
+      "internal_id": 1326
+    },
+    {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "17/04/2021",
+      "event_location": "El Prat de Llobregat",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210417-catrelleuspromociofinalelprat.pdf",
+      "athlete_name": "Irene Jimenez Garcia",
+      "athlete_dob": "26/08/2011",
+      "athlete_id": "CL94390",
+      "discipline": "4x60",
+      "performance": "34.90",
       "wind": null,
       "internal_id": 1326
     },

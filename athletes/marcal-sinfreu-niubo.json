@@ -2,7 +2,7 @@
   "athlete_name": "MARCAL SINFREU NIUBO",
   "athlete_id": "CL94414",
   "athlete_dob": "3/3/2011",
-  "total_results": 47,
+  "total_results": 51,
   "name_variants_found": [
     "1 167 (t) Marçal Sinfreu Niubo BM",
     "1 354 (t) Marçal Sinfreu Niubo",
@@ -31,7 +31,7 @@
     "CL91910",
     "CL94414"
   ],
-  "source_files_count": 20,
+  "source_files_count": 22,
   "results": [
     {
       "event_name": "Control Gener 1",
@@ -190,6 +190,32 @@
       "internal_id": null
     },
     {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "10/04/2021",
+      "event_location": "Tarragona-CLA",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210410-catrelleuspromociopreviatarragona.pdf",
+      "athlete_name": "Marçal Sinfreu Niubo",
+      "athlete_dob": "03/03/2011",
+      "athlete_id": "CL94414",
+      "discipline": "4x60",
+      "performance": "36.70",
+      "wind": null,
+      "internal_id": null
+    },
+    {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "10/04/2021",
+      "event_location": "Tarragona-CLA",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210410-catrelleuspromociopreviatarragona.pdf",
+      "athlete_name": "Marçal Sinfreu Niubo",
+      "athlete_dob": "03/03/2011",
+      "athlete_id": "CL94414",
+      "discipline": "3x600",
+      "performance": "6:25.25",
+      "wind": null,
+      "internal_id": null
+    },
+    {
       "event_name": "Campionat Territorial primera jornada",
       "event_date": "11/04/2021",
       "event_location": "Reus",
@@ -199,6 +225,32 @@
       "athlete_id": "CL94414",
       "discipline": "Llargada",
       "performance": "2.75",
+      "wind": null,
+      "internal_id": null
+    },
+    {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "17/04/2021",
+      "event_location": "El Prat de Llobregat",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210417-catrelleuspromociofinalelprat.pdf",
+      "athlete_name": "Marçal Sinfreu Niubo",
+      "athlete_dob": "03/03/2011",
+      "athlete_id": "CL94414",
+      "discipline": "4x60",
+      "performance": "36.52",
+      "wind": null,
+      "internal_id": null
+    },
+    {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "17/04/2021",
+      "event_location": "El Prat de Llobregat",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210417-catrelleuspromociofinalelprat.pdf",
+      "athlete_name": "Marçal Sinfreu Niubo",
+      "athlete_dob": "03/03/2011",
+      "athlete_id": "CL94414",
+      "discipline": "4x60",
+      "performance": "36.79",
       "wind": null,
       "internal_id": null
     },

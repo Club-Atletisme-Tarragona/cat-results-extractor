@@ -2,7 +2,7 @@
   "athlete_name": "(E) HOUDAIFA MAJLUF",
   "athlete_id": "CL4348",
   "athlete_dob": "3/5/2011",
-  "total_results": 13,
+  "total_results": 15,
   "name_variants_found": [
     "(t) Houdaifa Majluf",
     "(t) Houdaifa Majluf AM 8",
@@ -10,13 +10,40 @@
     "13 342 (e) (t) Houdaifa Majluf",
     "5 342 (e) (t) Houdaifa Majluf",
     "6 307 (e) (t) Houdaifa Majluf",
-    "6 44 (e) (t) Houdaifa Majluf"
+    "6 44 (e) (t) Houdaifa Majluf",
+    "Houdaifa Majluf"
   ],
   "license_variants_found": [
     "CL4348"
   ],
-  "source_files_count": 4,
+  "source_files_count": 5,
   "results": [
+    {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "10/04/2021",
+      "event_location": "Tarragona-CLA",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210410-catrelleuspromociopreviatarragona.pdf",
+      "athlete_name": "Houdaifa Majluf",
+      "athlete_dob": "03/05/2011",
+      "athlete_id": "CL4348",
+      "discipline": "4x60",
+      "performance": "40.53",
+      "wind": null,
+      "internal_id": null
+    },
+    {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "10/04/2021",
+      "event_location": "Tarragona-CLA",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210410-catrelleuspromociopreviatarragona.pdf",
+      "athlete_name": "Houdaifa Majluf",
+      "athlete_dob": "03/05/2011",
+      "athlete_id": "CL4348",
+      "discipline": "3x600",
+      "performance": "6:54.79",
+      "wind": null,
+      "internal_id": null
+    },
     {
       "event_name": "",
       "event_date": "18/04/2021",

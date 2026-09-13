@@ -2,7 +2,7 @@
   "athlete_name": "NATALIA LARA GIRBES",
   "athlete_id": "CL90847",
   "athlete_dob": "13/4/2009",
-  "total_results": 17,
+  "total_results": 18,
   "name_variants_found": [
     "1 90 (t) Natalia Lara Girbes IF",
     "1 91 (t) Natalia Lara Girbes IF",
@@ -18,12 +18,13 @@
     "7 118 (t) Natalia Lara Girbes IF",
     "7 284 (t) Natalia Lara Girbes",
     "7 407 (t) Natalia Lara Girbes SF",
-    "NATALIA LARA GIRBES"
+    "NATALIA LARA GIRBES",
+    "Natalia Lara Girbes"
   ],
   "license_variants_found": [
     "CL90847"
   ],
-  "source_files_count": 13,
+  "source_files_count": 14,
   "results": [
     {
       "event_name": "Control Gener 2",
@@ -61,7 +62,7 @@
       "athlete_id": "CL90847",
       "discipline": "Pes (4 Kg)",
       "performance": "24.66",
-      "wind": "+0.0",
+      "wind": null,
       "internal_id": 836
     },
     {
@@ -204,7 +205,20 @@
       "athlete_id": "CL90847",
       "discipline": "5000 metres llisos",
       "performance": "13:11.45",
-      "wind": "+1.4",
+      "wind": null,
+      "internal_id": 836
+    },
+    {
+      "event_name": "Campionat de Catalunya de Clubs \"A\" sub16 - Pista Coberta d'Atletisme de Catalunya Carme Valero, 10 marzo 2024",
+      "event_date": "10/03/2024",
+      "event_location": "Sabadell",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2024/03/resultat-20240310-catclubsasub16pcsabadell.pdf",
+      "athlete_name": "Natalia Lara Girbes",
+      "athlete_dob": "13/04/2009",
+      "athlete_id": "CL90847",
+      "discipline": "3000 metres llisos",
+      "performance": "13:28.35",
+      "wind": null,
       "internal_id": 836
     },
     {
@@ -217,7 +231,7 @@
       "athlete_id": "CL90847",
       "discipline": "Javelina (300 g)",
       "performance": "18.52",
-      "wind": "-1.5",
+      "wind": null,
       "internal_id": 836
     },
     {

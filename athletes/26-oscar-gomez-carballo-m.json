@@ -2,19 +2,20 @@
   "athlete_name": "OSCAR GOMEZ CARBALLO M",
   "athlete_id": "CAT-3723223",
   "athlete_dob": "17/11/1976",
-  "total_results": 8,
+  "total_results": 9,
   "name_variants_found": [
     "6 5 (t) Oscar Gomez Carballo 3",
     "GOMEZ CARBALLO OSCAR",
     "OSCAR GOMEZ CARBALLO",
-    "OSCAR GOMEZ CARBALLO M"
+    "OSCAR GOMEZ CARBALLO M",
+    "Oscar Gomez Carballo"
   ],
   "license_variants_found": [
     "CAT-3723223",
     "CL28192",
     "CT283"
   ],
-  "source_files_count": 8,
+  "source_files_count": 9,
   "results": [
     {
       "event_name": "CAMPIONAT DE CATALUNYA DE CLUBS \"B\"",
@@ -39,6 +40,19 @@
       "athlete_id": "CL28192",
       "discipline": "Pes (4 Kg)",
       "performance": "05.53",
+      "wind": null,
+      "internal_id": 26
+    },
+    {
+      "event_name": "",
+      "event_date": "09/12/2018",
+      "event_location": "Cambrils",
+      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20181209-trofeusalcedacastellscambrils.pdf",
+      "athlete_name": "Oscar Gomez Carballo",
+      "athlete_dob": "17/11/1976",
+      "athlete_id": "CL28192",
+      "discipline": "3000 metres llisos",
+      "performance": "9:58.77",
       "wind": null,
       "internal_id": 26
     },

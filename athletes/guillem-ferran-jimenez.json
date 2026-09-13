@@ -2,7 +2,7 @@
   "athlete_name": "GUILLEM FERRAN JIMENEZ",
   "athlete_id": "CL82978",
   "athlete_dob": "8/3/2008",
-  "total_results": 156,
+  "total_results": 159,
   "name_variants_found": [
     "1 25 (t) Guillem Ferran Jimenez",
     "1 41 (t) Guillem Ferran Jimenez",
@@ -61,7 +61,7 @@
   "license_variants_found": [
     "CL82978"
   ],
-  "source_files_count": 42,
+  "source_files_count": 43,
   "results": [
     {
       "event_name": "Campionat Catalunya Absolut Proves Combinades - Barcelona (Estadi Joan Serrahima), 27-28 abril 2019",
@@ -1451,6 +1451,45 @@
       "athlete_id": "CL82978",
       "discipline": "Triple",
       "performance": "9.85",
+      "wind": null,
+      "internal_id": null
+    },
+    {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "17/04/2021",
+      "event_location": "El Prat de Llobregat",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210417-catrelleuspromociofinalelprat.pdf",
+      "athlete_name": "Guillem Ferran Jimenez",
+      "athlete_dob": "08/03/2008",
+      "athlete_id": "CL82978",
+      "discipline": "4x80",
+      "performance": "40.16",
+      "wind": null,
+      "internal_id": null
+    },
+    {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "17/04/2021",
+      "event_location": "El Prat de Llobregat",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210417-catrelleuspromociofinalelprat.pdf",
+      "athlete_name": "Guillem Ferran Jimenez",
+      "athlete_dob": "08/03/2008",
+      "athlete_id": "CL82978",
+      "discipline": "4x80",
+      "performance": "40.08",
+      "wind": null,
+      "internal_id": null
+    },
+    {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "17/04/2021",
+      "event_location": "El Prat de Llobregat",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210417-catrelleuspromociofinalelprat.pdf",
+      "athlete_name": "Guillem Ferran Jimenez",
+      "athlete_dob": "08/03/2008",
+      "athlete_id": "CL82978",
+      "discipline": "4x200",
+      "performance": "1:48.50",
       "wind": null,
       "internal_id": null
     },

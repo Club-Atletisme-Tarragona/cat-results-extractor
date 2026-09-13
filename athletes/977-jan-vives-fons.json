@@ -2,7 +2,7 @@
   "athlete_name": "JAN VIVES FONS",
   "athlete_id": "CL95144",
   "athlete_dob": "16/3/2008",
-  "total_results": 42,
+  "total_results": 45,
   "name_variants_found": [
     "1 102 (t) Jan Vives Fons",
     "1 106 (t) Jan Vives Fons IM",
@@ -26,12 +26,13 @@
     "6 472 (t) Jan Vives Fons IM",
     "7 106 (t) Jan Vives Fons IM",
     "7 115 (t) Jan Vives Fons",
-    "8 77 (t) Jan Vives Fons"
+    "8 77 (t) Jan Vives Fons",
+    "Jan Vives Fons"
   ],
   "license_variants_found": [
     "CL95144"
   ],
-  "source_files_count": 17,
+  "source_files_count": 18,
   "results": [
     {
       "event_name": "Control Febrer 1",
@@ -56,7 +57,7 @@
       "athlete_id": "CL95144",
       "discipline": "80 metres llisos",
       "performance": "10.90",
-      "wind": "+0.0",
+      "wind": null,
       "internal_id": 977
     },
     {
@@ -372,6 +373,45 @@
       "internal_id": 977
     },
     {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "17/04/2021",
+      "event_location": "El Prat de Llobregat",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210417-catrelleuspromociofinalelprat.pdf",
+      "athlete_name": "Jan Vives Fons",
+      "athlete_dob": "16/03/2008",
+      "athlete_id": "CL95144",
+      "discipline": "4x80",
+      "performance": "40.16",
+      "wind": null,
+      "internal_id": 977
+    },
+    {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "17/04/2021",
+      "event_location": "El Prat de Llobregat",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210417-catrelleuspromociofinalelprat.pdf",
+      "athlete_name": "Jan Vives Fons",
+      "athlete_dob": "16/03/2008",
+      "athlete_id": "CL95144",
+      "discipline": "4x80",
+      "performance": "40.08",
+      "wind": null,
+      "internal_id": 977
+    },
+    {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "17/04/2021",
+      "event_location": "El Prat de Llobregat",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210417-catrelleuspromociofinalelprat.pdf",
+      "athlete_name": "Jan Vives Fons",
+      "athlete_dob": "16/03/2008",
+      "athlete_id": "CL95144",
+      "discipline": "4x200",
+      "performance": "1:48.50",
+      "wind": null,
+      "internal_id": 977
+    },
+    {
       "event_name": "Campionat Territorial Sub10, Sub12, Sub14 i Sub16",
       "event_date": "24/04/2021",
       "event_location": "Tarragona",
@@ -381,7 +421,7 @@
       "athlete_id": "CL95144",
       "discipline": "80 metres llisos",
       "performance": "10.66",
-      "wind": "-0.9",
+      "wind": null,
       "internal_id": 977
     },
     {

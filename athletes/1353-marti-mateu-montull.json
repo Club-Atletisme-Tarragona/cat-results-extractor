@@ -2,7 +2,7 @@
   "athlete_name": "MARTI MATEU MONTULL",
   "athlete_id": "CAT-3789515",
   "athlete_dob": "13/8/2016",
-  "total_results": 26,
+  "total_results": 28,
   "name_variants_found": [
     "15 477 (t) Marti Mateu Montull BM",
     "MARTI MATEU MONTULL",
@@ -11,7 +11,7 @@
   "license_variants_found": [
     "CL14916"
   ],
-  "source_files_count": 8,
+  "source_files_count": 9,
   "results": [
     {
       "event_name": "Control de concursos sub10 - Pista de Atletismo de Camp Clar, 10 febrero 2024",
@@ -322,6 +322,32 @@
       "athlete_id": "CL14916",
       "discipline": "200 metres llisos",
       "performance": "33.39",
+      "wind": null,
+      "internal_id": 1353
+    },
+    {
+      "event_name": "Jornada Prèvia Campionat de Catalunya de Relleus AL - Pista de Atletismo Can Jofresa",
+      "event_date": "11/04/2026",
+      "event_location": "Terrassa",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/04/resultat-20260411-catrelleuspreviaterrassa.pdf",
+      "athlete_name": "Marti MATEU MONTULL",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "4x60",
+      "performance": "37.73",
+      "wind": null,
+      "internal_id": 1353
+    },
+    {
+      "event_name": "Jornada Prèvia Campionat de Catalunya de Relleus AL - Pista de Atletismo Can Jofresa",
+      "event_date": "11/04/2026",
+      "event_location": "Terrassa",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/04/resultat-20260411-catrelleuspreviaterrassa.pdf",
+      "athlete_name": "Marti MATEU MONTULL",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "3x600",
+      "performance": "6:18.16",
       "wind": null,
       "internal_id": 1353
     },

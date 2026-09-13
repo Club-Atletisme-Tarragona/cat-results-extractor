@@ -2,7 +2,7 @@
   "athlete_name": "LAIA BARBERAN LANERO",
   "athlete_id": "CL94525",
   "athlete_dob": "3/3/2008",
-  "total_results": 22,
+  "total_results": 23,
   "name_variants_found": [
     "1 134 (t) Laia Barbera Lanero",
     "13 356 (t) Laia Barbera Lanero",
@@ -15,12 +15,13 @@
     "6 109 (t) Laia Barbera Lanero IF",
     "6 73 (t) Laia Barbera Lanero IF 6",
     "7 70 (t) Laia Barbera Lanero IF",
-    "7 78 (t) Laia Barbera Lanero"
+    "7 78 (t) Laia Barbera Lanero",
+    "Laia Barbera Lanero"
   ],
   "license_variants_found": [
     "CL94525"
   ],
-  "source_files_count": 10,
+  "source_files_count": 11,
   "results": [
     {
       "event_name": "Control Gener 1",
@@ -136,6 +137,19 @@
       "athlete_id": "CL94525",
       "discipline": "Llargada",
       "performance": "3.23",
+      "wind": null,
+      "internal_id": 961
+    },
+    {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "10/04/2021",
+      "event_location": "Tarragona-CLA",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210410-catrelleuspromociopreviatarragona.pdf",
+      "athlete_name": "Laia Barbera Lanero",
+      "athlete_dob": "03/03/2008",
+      "athlete_id": "CL94525",
+      "discipline": "4x80",
+      "performance": "45.77",
       "wind": null,
       "internal_id": 961
     },

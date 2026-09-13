@@ -2,7 +2,7 @@
   "athlete_name": "MIREIA MOLNE RIONE",
   "athlete_id": "CL59452",
   "athlete_dob": "2/10/1997",
-  "total_results": 8,
+  "total_results": 9,
   "name_variants_found": [
     "MIREIA MOLNE RIONE",
     "MIREIA MOLNÉ RIONÉ",
@@ -14,7 +14,7 @@
     "CL21964",
     "CL59452"
   ],
-  "source_files_count": 8,
+  "source_files_count": 9,
   "results": [
     {
       "event_name": "Control Cadet en Pista Coberta",
@@ -104,7 +104,20 @@
       "athlete_id": "CL59452",
       "discipline": "5000 metres llisos",
       "performance": "3:22.06",
-      "wind": "+2.8",
+      "wind": null,
+      "internal_id": 357
+    },
+    {
+      "event_name": "",
+      "event_date": "17/06/2012",
+      "event_location": "Vic",
+      "event_src": "https://old.fcatletisme.cat/Pairelliure/airelliure2012/resulcatcadet170612.pdf",
+      "athlete_name": "Mireia Molne Rione",
+      "athlete_dob": "02/10/1997",
+      "athlete_id": "CL59452",
+      "discipline": "1000 metres llisos",
+      "performance": "3:21.99",
+      "wind": null,
       "internal_id": 357
     },
     {

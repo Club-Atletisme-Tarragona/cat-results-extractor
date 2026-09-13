@@ -2,15 +2,16 @@
   "athlete_name": "LUCIA VEGA MARTINEZ",
   "athlete_id": "CL86612",
   "athlete_dob": "29/7/2005",
-  "total_results": 2,
+  "total_results": 3,
   "name_variants_found": [
     "5 108 (t) Lucia Vega Martinez",
-    "8 477 (t) Lucia Vega Martinez SF"
+    "8 477 (t) Lucia Vega Martinez SF",
+    "Lucia Vega Martinez"
   ],
   "license_variants_found": [
     "CL86612"
   ],
-  "source_files_count": 2,
+  "source_files_count": 3,
   "results": [
     {
       "event_name": "Jornada Prèvia Campionat de Catalunya Sub16",
@@ -22,7 +23,20 @@
       "athlete_id": "CL86612",
       "discipline": "5000 metres llisos",
       "performance": "6:24.01",
-      "wind": "+0.5",
+      "wind": null,
+      "internal_id": 805
+    },
+    {
+      "event_name": "Controls Pista Coberta Sub20 - Sub18 - Controls Pista Coberta Sub20 - Sub18",
+      "event_date": "30/01/2021",
+      "event_location": "Barcelona - Palau Sant Jordi",
+      "event_src": "http://fcatletisme.cat/wp-content/uploads/2021/01/resultat-20210130-controlsub1820pcbcnpsj.pdf",
+      "athlete_name": "Lucia Vega Martinez",
+      "athlete_dob": "29/07/2005",
+      "athlete_id": "CL86612",
+      "discipline": "3000 metres llisos",
+      "performance": "13:25.10",
+      "wind": null,
       "internal_id": 805
     },
     {

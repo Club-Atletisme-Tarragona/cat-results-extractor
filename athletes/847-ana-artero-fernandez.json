@@ -2,19 +2,20 @@
   "athlete_name": "ANA ARTERO FERNANDEZ",
   "athlete_id": "CT2389",
   "athlete_dob": "14/11/2006",
-  "total_results": 6,
+  "total_results": 9,
   "name_variants_found": [
     "1 47 (t) Anna Artero Fernandez",
     "16 490 (t) Anna Artero Fernandez",
     "3 483 (t) Anna Artero Fernandez SF",
     "9 108 (t) Anna Artero Fernandez",
-    "ANNA ARTERO FERNANDEZ"
+    "ANNA ARTERO FERNANDEZ",
+    "Anna Artero Fernandez"
   ],
   "license_variants_found": [
     "CL94373",
     "CT2389"
   ],
-  "source_files_count": 5,
+  "source_files_count": 8,
   "results": [
     {
       "event_name": "I Control de Tardor",
@@ -43,6 +44,19 @@
       "internal_id": 847
     },
     {
+      "event_name": "Campionat de Catalunya Clubs Sub16 Masculí en Pista Coberta - Campionat de Catalunya Clubs Sub16 Masculí en Pista Coberta",
+      "event_date": "30/01/2021",
+      "event_location": "Barcelona",
+      "event_src": "http://fcatletisme.cat/wp-content/uploads/2021/02/resultat-20210130-catclubssub16pcbcnpsj.pdf",
+      "athlete_name": "Anna Artero Fernandez",
+      "athlete_dob": "14/11/2006",
+      "athlete_id": "CL94373",
+      "discipline": "600 metres llisos",
+      "performance": "1:55.97",
+      "wind": null,
+      "internal_id": 847
+    },
+    {
       "event_name": "Control Gener",
       "event_date": "31/01/2021",
       "event_location": "Reus",
@@ -52,7 +66,20 @@
       "athlete_id": "CL94373",
       "discipline": "Pes (4 Kg)",
       "performance": "52.15",
-      "wind": "+0.0",
+      "wind": null,
+      "internal_id": 847
+    },
+    {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "10/04/2021",
+      "event_location": "Tarragona-CLA",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210410-catrelleuspromociopreviatarragona.pdf",
+      "athlete_name": "Anna Artero Fernandez",
+      "athlete_dob": "14/11/2006",
+      "athlete_id": "CL94373",
+      "discipline": "4x300",
+      "performance": "3:08.32",
+      "wind": null,
       "internal_id": 847
     },
     {
@@ -65,7 +92,20 @@
       "athlete_id": "CL94373",
       "discipline": "Pes (4 Kg)",
       "performance": "48.34",
-      "wind": "-2.5",
+      "wind": null,
+      "internal_id": 847
+    },
+    {
+      "event_name": "Control Absolut en Pista Coberta - Control Absolut en Pista Coberta",
+      "event_date": "15/01/2022",
+      "event_location": "Club                                             Lic",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2022/01/resultat-20220115-controlabsolutpcsabadell.pdf",
+      "athlete_name": "Anna Artero Fernandez",
+      "athlete_dob": "14/11/2006",
+      "athlete_id": "CL94373",
+      "discipline": "800 metres llisos",
+      "performance": "2:32.28",
+      "wind": null,
       "internal_id": 847
     },
     {

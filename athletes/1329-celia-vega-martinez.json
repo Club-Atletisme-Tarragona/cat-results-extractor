@@ -2,7 +2,7 @@
   "athlete_name": "CELIA VEGA MARTINEZ",
   "athlete_id": "CL7621",
   "athlete_dob": "3/1/2013",
-  "total_results": 42,
+  "total_results": 43,
   "name_variants_found": [
     "2 265 (t) Celia Vega Martinez AF",
     "CELIA VEGA MARTINEZ",
@@ -232,7 +232,7 @@
       "athlete_id": "CL7621",
       "discipline": "80 metres llisos",
       "performance": "12.59",
-      "wind": "-2.7",
+      "wind": null,
       "internal_id": 1329
     },
     {
@@ -466,6 +466,19 @@
       "athlete_id": "CL7621",
       "discipline": "1000 metres llisos",
       "performance": "3:31.93",
+      "wind": null,
+      "internal_id": 1329
+    },
+    {
+      "event_name": "Jornada Prèvia Campionat de Catalunya de Relleus AL - Pista de Atletismo Can Jofresa",
+      "event_date": "11/04/2026",
+      "event_location": "Terrassa",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/04/resultat-20260411-catrelleuspreviaterrassa.pdf",
+      "athlete_name": "Celia VEGA MARTINEZ",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "4x80",
+      "performance": "47.26",
       "wind": null,
       "internal_id": 1329
     },

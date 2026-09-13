@@ -1,15 +1,17 @@
 {
   "athlete_name": "ARAGONES VIDAL ESTER",
-  "athlete_id": "",
+  "athlete_id": "CT13221",
   "athlete_dob": "",
-  "total_results": 23,
+  "total_results": 24,
   "name_variants_found": [
     "ARAGONES VIDAL ESTER",
     "ESTER ARAGONES VIDAL",
     "ESTHER ARAGONES VIDAL"
   ],
-  "license_variants_found": [],
-  "source_files_count": 23,
+  "license_variants_found": [
+    "CT13221"
+  ],
+  "source_files_count": 24,
   "results": [
     {
       "event_name": "29è. CAMPIONAT DE CATALUNYA ABSOLUT EN PISTA COBERTA",
@@ -229,6 +231,19 @@
       "athlete_id": "",
       "discipline": "800 metres llisos",
       "performance": "2:21.28",
+      "wind": null,
+      "internal_id": 134
+    },
+    {
+      "event_name": "XIII Míting d'Atletisme \"Ciutat de Mataró\" - Estadi Municipal d'Atletisme de Mataró",
+      "event_date": "10/07/2006",
+      "event_location": "Mataró",
+      "event_src": "http://old.fcatletisme.cat/Pairelliure/pairelliure2006/resulmeetingmataro10706.pdf",
+      "athlete_name": "ESTHER ARAGONES VIDAL",
+      "athlete_dob": "",
+      "athlete_id": "CT-13221",
+      "discipline": "800 metres llisos",
+      "performance": "2:18.49",
       "wind": null,
       "internal_id": 134
     },

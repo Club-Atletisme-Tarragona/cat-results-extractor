@@ -2,17 +2,18 @@
   "athlete_name": "ANDREA TRAPE PEREZ",
   "athlete_id": "CT21473",
   "athlete_dob": "1/4/1999",
-  "total_results": 6,
+  "total_results": 7,
   "name_variants_found": [
     "2 218 Andrea Trape Perez PF 6 Q",
     "2 473 Andrea Trape Perez PF 6",
     "3 218 Andrea Trape Perez PF 3",
-    "7 286 Andrea Trape Perez PF"
+    "7 286 Andrea Trape Perez PF",
+    "Andrea Trape Perez"
   ],
   "license_variants_found": [
     "CT21473"
   ],
-  "source_files_count": 3,
+  "source_files_count": 4,
   "results": [
     {
       "event_name": "44è Campionat de Catalunya Absolut en Pista Coberta (-3.000 m.ll.) - 44è Campionat de Catalunya Absolut en Pista Coberta (-3.000 m.ll.)",
@@ -54,6 +55,19 @@
       "internal_id": 726
     },
     {
+      "event_name": "Control Absolut en pista coberta",
+      "event_date": "05/02/2021",
+      "event_location": "Barcelona - Palau Sant Jordi",
+      "event_src": "http://fcatletisme.cat/wp-content/uploads/2021/02/resultat-20210205-controlabsolutpcbcnpsj.pdf",
+      "athlete_name": "Andrea Trape Perez",
+      "athlete_dob": "01/04/1999",
+      "athlete_id": "CT21473",
+      "discipline": "60 metres tanques (0.84)",
+      "performance": "9.38",
+      "wind": null,
+      "internal_id": 726
+    },
+    {
       "event_name": "Campionat Catalunya Sub23",
       "event_date": "30/05/2021",
       "event_location": "Tarragona",
@@ -63,7 +77,7 @@
       "athlete_id": "CT21473",
       "discipline": "10000 metres llisos",
       "performance": "1:02.41",
-      "wind": "-2.1",
+      "wind": null,
       "internal_id": 726
     },
     {
@@ -76,7 +90,7 @@
       "athlete_id": "CT21473",
       "discipline": "5000 metres llisos",
       "performance": "1:03.01",
-      "wind": "-0.9",
+      "wind": null,
       "internal_id": 726
     },
     {
@@ -89,7 +103,7 @@
       "athlete_id": "CT21473",
       "discipline": "5000 metres llisos",
       "performance": "1:02.44",
-      "wind": "-0.9",
+      "wind": null,
       "internal_id": 726
     }
   ]

@@ -2,7 +2,7 @@
   "athlete_name": "BARDINA JOAN TOMAS",
   "athlete_id": "CL3961",
   "athlete_dob": "23/9/1968",
-  "total_results": 23,
+  "total_results": 24,
   "name_variants_found": [
     "11 6 (t) Joan Bardina Tomas M-50",
     "12 26 (t) Joan Bardina Tomas M-50",
@@ -10,12 +10,13 @@
     "BARDINA TOMAS JOAN",
     "JOAN BARDINA TOMAS",
     "JUAN BARDINA TOMAS",
+    "Joan Bardina Tomas",
     "Joan Bardina Tomas M-45"
   ],
   "license_variants_found": [
     "CL3961"
   ],
-  "source_files_count": 23,
+  "source_files_count": 24,
   "results": [
     {
       "event_name": "Campionat de Catalunya de Veterans",
@@ -300,6 +301,19 @@
       "athlete_id": "CL3961",
       "discipline": "5000 metres llisos",
       "performance": "35:57.74",
+      "wind": null,
+      "internal_id": 7
+    },
+    {
+      "event_name": "Campionat de Catalunya Màster Individual i Relleus en Pista Coberta - Campionat de Catalunya Màster Individual i Relleus en Pista Coberta",
+      "event_date": "28/01/2024",
+      "event_location": "Club                                               Lic",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2024/01/resultat-20240128-catmasterpcsabadell.pdf",
+      "athlete_name": "Joan Bardina Tomas",
+      "athlete_dob": "23/09/1968",
+      "athlete_id": "CL3961",
+      "discipline": "1500 metres llisos",
+      "performance": "5:19.76",
       "wind": null,
       "internal_id": 7
     },

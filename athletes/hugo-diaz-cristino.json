@@ -2,7 +2,7 @@
   "athlete_name": "HUGO DIAZ CRISTINO",
   "athlete_id": "CL4397",
   "athlete_dob": "4/4/2012",
-  "total_results": 30,
+  "total_results": 32,
   "name_variants_found": [
     "11 442 (t) Hugo Diaz Cristino IM",
     "12 42 (t) Hugo Diaz Cristino",
@@ -13,12 +13,13 @@
     "8 34 (t) Hugo Diaz Cristino BM",
     "9 34 (t) Hugo Diaz Cristino",
     "HUGO DIAZ CRISTINO",
-    "Hugo DIAZ CRISTINO"
+    "Hugo DIAZ CRISTINO",
+    "Hugo Diaz Cristino"
   ],
   "license_variants_found": [
     "CL4397"
   ],
-  "source_files_count": 16,
+  "source_files_count": 18,
   "results": [
     {
       "event_name": "Campionat Territorial Sub10, Sub12, Sub14 i Sub16",
@@ -95,6 +96,32 @@
       "athlete_id": "CL4397",
       "discipline": "60 metres llisos",
       "performance": "10.33",
+      "wind": null,
+      "internal_id": null
+    },
+    {
+      "event_name": "Campionat Catalunya Clubs Sub12 Masculí i Femení \"A\" - Sabadell (Pista coberta de Catalunya), 11 febrero 2023",
+      "event_date": "11/02/2023",
+      "event_location": "Sabadell",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2023/02/resultat-20230211-catclubssub12apcsabadell.pdf",
+      "athlete_name": "Hugo Diaz Cristino",
+      "athlete_dob": "04/04/2012",
+      "athlete_id": "CL4397",
+      "discipline": "2000 metres llisos",
+      "performance": "7:22.80",
+      "wind": null,
+      "internal_id": null
+    },
+    {
+      "event_name": "Campionat de Catalunya sub12 en Pista Coberta - Campionat de Catalunya sub12 en Pista Coberta",
+      "event_date": "26/03/2023",
+      "event_location": "Club                                               Lic",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2023/03/resultat-20230326-catsub12finalpcsabadell.pdf",
+      "athlete_name": "Hugo Diaz Cristino",
+      "athlete_dob": "04/04/2012",
+      "athlete_id": "CL4397",
+      "discipline": "600 metres llisos",
+      "performance": "7:14.46",
       "wind": null,
       "internal_id": null
     },

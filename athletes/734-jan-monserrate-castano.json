@@ -2,15 +2,29 @@
   "athlete_name": "JAN MONSERRATE CASTANO",
   "athlete_id": "CT26558",
   "athlete_dob": "19/12/2001",
-  "total_results": 1,
+  "total_results": 3,
   "name_variants_found": [
-    "1 465 Jan Monserrate Castaño"
+    "1 465 Jan Monserrate Castaño",
+    "Jan Monserrate Castaño"
   ],
   "license_variants_found": [
     "CT26558"
   ],
-  "source_files_count": 1,
+  "source_files_count": 3,
   "results": [
+    {
+      "event_name": " - Sabadell (Pista Coberta de Catalunya), 12 enero 2020",
+      "event_date": "12/01/2020",
+      "event_location": "Club                                             Lic",
+      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20200112-catclubsbpcsabadell.pdf",
+      "athlete_name": "Jan Monserrate Castaño",
+      "athlete_dob": "19/12/2001",
+      "athlete_id": "CT26558",
+      "discipline": "60 metres llisos",
+      "performance": "7.27",
+      "wind": null,
+      "internal_id": 734
+    },
     {
       "event_name": "Control Absolut en Pista Coberta (6a. Jornada) - Control Absolut en Pista Coberta (6a. Jornada)",
       "event_date": "19/01/2020",
@@ -21,6 +35,19 @@
       "athlete_id": "CT26558",
       "discipline": "60 metres llisos",
       "performance": "7.31",
+      "wind": null,
+      "internal_id": 734
+    },
+    {
+      "event_name": "Control Absolut en pista coberta (8a Jornada) - Sabadell (Pista Coberta de Catalunya, 22 febrero 2020",
+      "event_date": "22/02/2020",
+      "event_location": "Pista Coberta de Catalunya",
+      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20200222-controlabsolutpcsabadell.pdf",
+      "athlete_name": "Jan Monserrate Castaño",
+      "athlete_dob": "19/12/2001",
+      "athlete_id": "CT26558",
+      "discipline": "60 metres llisos",
+      "performance": "7.41",
       "wind": null,
       "internal_id": 734
     }

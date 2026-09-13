@@ -2,13 +2,14 @@
   "athlete_name": "ANDREA MOLINA SOLICHERO",
   "athlete_id": "CL82984",
   "athlete_dob": "8/7/2008",
-  "total_results": 29,
+  "total_results": 30,
   "name_variants_found": [
     "15 153 (t) Andrea Molina Solichero AF",
     "15 283 (t) Andrea Molina Solichero AF",
     "6 495 (t) Andrea Molina Solichero",
     "9 40 (t) Andrea Molina Solichero",
     "ANDREA MOLINA SOLICHERO",
+    "Andrea Molina Solichero",
     "Andrea Molina Solichero AF",
     "Andrea Molina Solichero AF 4",
     "Andrea Molina Solichero AF 7",
@@ -16,9 +17,10 @@
     "MOLINA SOLICHERO ANDREA"
   ],
   "license_variants_found": [
+    "CL170",
     "CL82984"
   ],
-  "source_files_count": 10,
+  "source_files_count": 11,
   "results": [
     {
       "event_name": "",
@@ -355,6 +357,19 @@
       "athlete_id": "CL82984",
       "discipline": "Javelina (500 g)",
       "performance": "14.98",
+      "wind": null,
+      "internal_id": null
+    },
+    {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "17/04/2021",
+      "event_location": "El Prat de Llobregat",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210417-catrelleuspromociofinalelprat.pdf",
+      "athlete_name": "Andrea Molina Solichero",
+      "athlete_dob": "08/07/2008",
+      "athlete_id": "CL170",
+      "discipline": "4x80",
+      "performance": "43.32",
       "wind": null,
       "internal_id": null
     },

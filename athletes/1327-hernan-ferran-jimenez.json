@@ -2,7 +2,7 @@
   "athlete_name": "HERNAN FERRAN JIMENEZ",
   "athlete_id": "CL1093",
   "athlete_dob": "28/9/2012",
-  "total_results": 114,
+  "total_results": 121,
   "name_variants_found": [
     "1 244 (t) Hernan Ferran Jimenez",
     "1 352 (t) Hernan Ferran Jimenez",
@@ -16,6 +16,7 @@
     "3 331 (t) Hernan Ferran Jimenez",
     "3 348 (t) Hernan Ferran Jimenez",
     "3 36 (t) Hernan Ferran Jimenez",
+    "32 (t) Hernan Ferran Jimenez NP",
     "4 227 (t) Hernan Ferran Jimenez",
     "4 36 (t) Hernan Ferran Jimenez BM",
     "4 43 (t) Hernan Ferran Jimenez",
@@ -35,12 +36,13 @@
     "8 399 (t) Hernan Ferran Jimenez IM",
     "9 38 (t) Hernan Ferran Jimenez IM",
     "HERNAN FERRAN JIMENEZ",
-    "Hernan FERRAN JIMENEZ"
+    "Hernan FERRAN JIMENEZ",
+    "Hernan Ferran Jimenez"
   ],
   "license_variants_found": [
     "CL1093"
   ],
-  "source_files_count": 39,
+  "source_files_count": 43,
   "results": [
     {
       "event_name": "Control Febrer 1",
@@ -82,6 +84,19 @@
       "internal_id": 1327
     },
     {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "10/04/2021",
+      "event_location": "Tarragona-CLA",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210410-catrelleuspromociopreviatarragona.pdf",
+      "athlete_name": "Hernan Ferran Jimenez",
+      "athlete_dob": "28/09/2012",
+      "athlete_id": "CL1093",
+      "discipline": "4x60",
+      "performance": "39.87",
+      "wind": null,
+      "internal_id": 1327
+    },
+    {
       "event_name": "Campionat Territorial primera jornada",
       "event_date": "11/04/2021",
       "event_location": "Reus",
@@ -91,6 +106,32 @@
       "athlete_id": "CL1093",
       "discipline": "1000 metres llisos",
       "performance": "7:01.88",
+      "wind": null,
+      "internal_id": 1327
+    },
+    {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "17/04/2021",
+      "event_location": "El Prat de Llobregat",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210417-catrelleuspromociofinalelprat.pdf",
+      "athlete_name": "Hernan Ferran Jimenez",
+      "athlete_dob": "28/09/2012",
+      "athlete_id": "CL1093",
+      "discipline": "4x60",
+      "performance": "39.40",
+      "wind": null,
+      "internal_id": 1327
+    },
+    {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "17/04/2021",
+      "event_location": "El Prat de Llobregat",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210417-catrelleuspromociofinalelprat.pdf",
+      "athlete_name": "Hernan Ferran Jimenez",
+      "athlete_dob": "28/09/2012",
+      "athlete_id": "CL1093",
+      "discipline": "4x60",
+      "performance": "39.65",
       "wind": null,
       "internal_id": 1327
     },
@@ -433,6 +474,32 @@
       "internal_id": 1327
     },
     {
+      "event_name": "Campionat Catalunya Clubs Sub12 Masculí i Femení \"A\" - Sabadell (Pista coberta de Catalunya), 11 febrero 2023",
+      "event_date": "11/02/2023",
+      "event_location": "Sabadell",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2023/02/resultat-20230211-catclubssub12apcsabadell.pdf",
+      "athlete_name": "32 (t) Hernan Ferran Jimenez NP",
+      "athlete_dob": "28/09/2012",
+      "athlete_id": "CL1093",
+      "discipline": "Perxa",
+      "performance": "NP",
+      "wind": null,
+      "internal_id": 1327
+    },
+    {
+      "event_name": "Campionat Catalunya Clubs Sub12 Masculí i Femení \"A\" - Sabadell (Pista coberta de Catalunya), 11 febrero 2023",
+      "event_date": "11/02/2023",
+      "event_location": "Sabadell",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2023/02/resultat-20230211-catclubssub12apcsabadell.pdf",
+      "athlete_name": "Hernan Ferran Jimenez",
+      "athlete_dob": "28/09/2012",
+      "athlete_id": "CL1093",
+      "discipline": "4x200",
+      "performance": "2:16.14",
+      "wind": null,
+      "internal_id": 1327
+    },
+    {
       "event_name": "Campionat de Catalunya Sub12 de Proves Combinades en Pista Coberta - Campionat de Catalunya Sub12 de Proves Combinades en Pista Coberta",
       "event_date": "12/03/2023",
       "event_location": "Sabadell",
@@ -442,6 +509,32 @@
       "athlete_id": "CL1093",
       "discipline": "60 metres llisos",
       "performance": "9.53",
+      "wind": null,
+      "internal_id": 1327
+    },
+    {
+      "event_name": "Campionat de Catalunya sub12 en Pista Coberta - Campionat de Catalunya sub12 en Pista Coberta",
+      "event_date": "26/03/2023",
+      "event_location": "Club                                               Lic",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2023/03/resultat-20230326-catsub12finalpcsabadell.pdf",
+      "athlete_name": "Hernan Ferran Jimenez",
+      "athlete_dob": "28/09/2012",
+      "athlete_id": "CL1093",
+      "discipline": "Pes (2 Kg)",
+      "performance": "7.21",
+      "wind": null,
+      "internal_id": 1327
+    },
+    {
+      "event_name": "Campionat de Catalunya sub12 en Pista Coberta - Campionat de Catalunya sub12 en Pista Coberta",
+      "event_date": "26/03/2023",
+      "event_location": "Club                                               Lic",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2023/03/resultat-20230326-catsub12finalpcsabadell.pdf",
+      "athlete_name": "Hernan Ferran Jimenez",
+      "athlete_dob": "28/09/2012",
+      "athlete_id": "CL1093",
+      "discipline": "Pes (2 Kg)",
+      "performance": "6.96",
       "wind": null,
       "internal_id": 1327
     },

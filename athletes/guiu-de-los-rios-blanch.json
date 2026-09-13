@@ -2,18 +2,32 @@
   "athlete_name": "GUIU DE LOS RIOS BLANCH",
   "athlete_id": "CL3440",
   "athlete_dob": "28/6/2009",
-  "total_results": 11,
+  "total_results": 12,
   "name_variants_found": [
     "13 224 (t) Guiu De Los Rios Blanch IM",
     "14 303 (t) Guiu De Los Rios Blanch",
     "14 33 (t) Guiu De Los Rios Blanch IM",
-    "3 118 (t) Guiu De Los Rios Blanch IM"
+    "3 118 (t) Guiu De Los Rios Blanch IM",
+    "Guiu De Los Rios Blanch"
   ],
   "license_variants_found": [
     "CL3440"
   ],
-  "source_files_count": 4,
+  "source_files_count": 5,
   "results": [
+    {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "10/04/2021",
+      "event_location": "Tarragona-CLA",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210410-catrelleuspromociopreviatarragona.pdf",
+      "athlete_name": "Guiu De Los Rios Blanch",
+      "athlete_dob": "28/06/2009",
+      "athlete_id": "CL3440",
+      "discipline": "4x80",
+      "performance": "47.19",
+      "wind": null,
+      "internal_id": null
+    },
     {
       "event_name": "Campionat Territorial Sub10, Sub12, Sub14 i Sub16",
       "event_date": "24/04/2021",
@@ -24,7 +38,7 @@
       "athlete_id": "CL3440",
       "discipline": "80 metres llisos",
       "performance": "12.76",
-      "wind": "-0.6",
+      "wind": null,
       "internal_id": null
     },
     {

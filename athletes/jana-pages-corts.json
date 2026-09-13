@@ -2,18 +2,19 @@
   "athlete_name": "JANA PAGES CORTS",
   "athlete_id": "CL94550",
   "athlete_dob": "26/8/2008",
-  "total_results": 5,
+  "total_results": 6,
   "name_variants_found": [
     "10 73 (t) Jana Pages Corts IF 9",
     "17 102 (t) Jana Pages Corts IF",
     "2 190 (t) Jana Pages Corts IF",
     "4 125 (t) Jana Pages Corts IF",
-    "5 125 (t) Jana Pages Corts IF"
+    "5 125 (t) Jana Pages Corts IF",
+    "Jana Pages Corts"
   ],
   "license_variants_found": [
     "CL94550"
   ],
-  "source_files_count": 4,
+  "source_files_count": 5,
   "results": [
     {
       "event_name": "Campionat de Catalunya de Clubs Sub14 en Pista Coberta - Campionat de Catalunya de Clubs Sub14 en Pista Coberta",
@@ -64,7 +65,20 @@
       "athlete_id": "CL94550",
       "discipline": "Pes (4 Kg)",
       "performance": "06.65",
-      "wind": "+0.0",
+      "wind": null,
+      "internal_id": null
+    },
+    {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "10/04/2021",
+      "event_location": "Tarragona-CLA",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210410-catrelleuspromociopreviatarragona.pdf",
+      "athlete_name": "Jana Pages Corts",
+      "athlete_dob": "26/08/2008",
+      "athlete_id": "CL94550",
+      "discipline": "4x200",
+      "performance": "2:02.23",
+      "wind": null,
       "internal_id": null
     },
     {
@@ -77,7 +91,7 @@
       "athlete_id": "CL94550",
       "discipline": "80 metres llisos",
       "performance": "11.90",
-      "wind": "-0.1",
+      "wind": null,
       "internal_id": null
     }
   ]

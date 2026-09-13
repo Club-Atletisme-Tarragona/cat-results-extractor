@@ -2,7 +2,7 @@
   "athlete_name": "JOSÉ RAMON ARGILAGA SALVADO M",
   "athlete_id": "CAT-3742971",
   "athlete_dob": "23/10/1963",
-  "total_results": 19,
+  "total_results": 20,
   "name_variants_found": [
     "2 74 (t) Josep Ramon Argilaga Salvado M-50 4",
     "ARGILAGA JOSE RAMON SM",
@@ -10,6 +10,7 @@
     "JOSEP RAMON ARGILAGA SALVADO M",
     "JOSEP RAMON ARGILAGA SALVADÓ",
     "Josep Ramon Argilaga Salvado",
+    "Josep Ramon Argilaga Salvado 4 OR",
     "Josep Ramon Argilaga Salvado 5 BRONZE",
     "Josep Ramon Argilaga Salvado M-50 2",
     "Josep Ramon Argilaga Salvado M-50 4 OR"
@@ -20,7 +21,7 @@
     "CT2055",
     "CT2869"
   ],
-  "source_files_count": 17,
+  "source_files_count": 18,
   "results": [
     {
       "event_name": "",
@@ -136,6 +137,19 @@
       "athlete_id": "CL22364",
       "discipline": "60 metres llisos",
       "performance": "8.14",
+      "wind": null,
+      "internal_id": 421
+    },
+    {
+      "event_name": "Campionat de Catalunya Màster Individual i Relleus en Pista Coberta - Campionat de Catalunya Màster Individual i Relleus en Pista Coberta",
+      "event_date": "28/01/2024",
+      "event_location": "Club                                               Lic",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2024/01/resultat-20240128-catmasterpcsabadell.pdf",
+      "athlete_name": "Josep Ramon Argilaga Salvado 4 OR",
+      "athlete_dob": "23/10/1963",
+      "athlete_id": "CL22364",
+      "discipline": "60 metres llisos",
+      "performance": "8.48",
       "wind": null,
       "internal_id": 421
     },

@@ -2,7 +2,7 @@
   "athlete_name": "JOSÉ ANGEL MASIA URZUA",
   "athlete_id": "CL15467",
   "athlete_dob": "25/2/2015",
-  "total_results": 101,
+  "total_results": 103,
   "name_variants_found": [
     "1 214 (t) Jose Angel Masia Urzua BM",
     "13 60 (t) Jose Angel Masia Urzua",
@@ -17,7 +17,7 @@
   "license_variants_found": [
     "CL15467"
   ],
-  "source_files_count": 28,
+  "source_files_count": 29,
   "results": [
     {
       "event_name": "Control de concursos sub10 - Pista de Atletismo de Camp Clar, 10 febrero 2024",
@@ -991,6 +991,32 @@
       "athlete_id": "CL15467",
       "discipline": "Perxa",
       "performance": "1.70",
+      "wind": null,
+      "internal_id": 1389
+    },
+    {
+      "event_name": "Jornada Prèvia Campionat de Catalunya de Relleus AL - Pista de Atletismo Can Jofresa",
+      "event_date": "11/04/2026",
+      "event_location": "Terrassa",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/04/resultat-20260411-catrelleuspreviaterrassa.pdf",
+      "athlete_name": "Jose Angel MASIA URZUA",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "4x60",
+      "performance": "37.73",
+      "wind": null,
+      "internal_id": 1389
+    },
+    {
+      "event_name": "Jornada Prèvia Campionat de Catalunya de Relleus AL - Pista de Atletismo Can Jofresa",
+      "event_date": "11/04/2026",
+      "event_location": "Terrassa",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/04/resultat-20260411-catrelleuspreviaterrassa.pdf",
+      "athlete_name": "Jose Angel MASIA URZUA",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "3x600",
+      "performance": "6:18.16",
       "wind": null,
       "internal_id": 1389
     },

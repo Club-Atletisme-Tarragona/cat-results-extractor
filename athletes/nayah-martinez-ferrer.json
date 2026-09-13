@@ -2,16 +2,17 @@
   "athlete_name": "NAYAH MARTINEZ FERRER",
   "athlete_id": "CL4400",
   "athlete_dob": "25/1/2013",
-  "total_results": 5,
+  "total_results": 6,
   "name_variants_found": [
     "1 369 (t) Nayah Martinez Ferre BF",
     "2 82 (t) Nayah Martinez Ferre",
-    "4 67 (t) Nayah Martinez Ferre"
+    "4 67 (t) Nayah Martinez Ferre",
+    "Nayah Martinez Ferre"
   ],
   "license_variants_found": [
     "CL4400"
   ],
-  "source_files_count": 3,
+  "source_files_count": 4,
   "results": [
     {
       "event_name": "Campionat Territorial Sub10, Sub12, Sub14 i Sub16",
@@ -23,6 +24,19 @@
       "athlete_id": "CL4400",
       "discipline": "60 metres llisos",
       "performance": "10.46",
+      "wind": null,
+      "internal_id": null
+    },
+    {
+      "event_name": "Campionat Catalunya Clubs Sub12 Masculí i Femení \"A\" - Sabadell (Pista coberta de Catalunya), 11 febrero 2023",
+      "event_date": "11/02/2023",
+      "event_location": "Sabadell",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2023/02/resultat-20230211-catclubssub12apcsabadell.pdf",
+      "athlete_name": "Nayah Martinez Ferre",
+      "athlete_dob": "25/01/2013",
+      "athlete_id": "CL4400",
+      "discipline": "60 metres llisos",
+      "performance": "10.07",
       "wind": null,
       "internal_id": null
     },

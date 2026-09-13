@@ -2,19 +2,20 @@
   "athlete_name": "PATRICIA AMADOR PERIS",
   "athlete_id": "CT28190",
   "athlete_dob": "18/2/1980",
-  "total_results": 7,
+  "total_results": 10,
   "name_variants_found": [
     "1 277 Patricia Amador Peris W-40",
     "1 328 Patricia Amador Peris",
     "1 484 Patricia Amador Peris SF",
     "1 91 Patricia Amador Peris",
     "4 6 Patricia Amador Peris 3",
+    "Patricia Amador Peris",
     "Patricia Amador Peris W-35"
   ],
   "license_variants_found": [
     "CT28190"
   ],
-  "source_files_count": 6,
+  "source_files_count": 9,
   "results": [
     {
       "event_name": "",
@@ -82,6 +83,32 @@
       "internal_id": 644
     },
     {
+      "event_name": "Control Absolut en Pista Coberta - Control Absolut en Pista Coberta",
+      "event_date": "08/01/2022",
+      "event_location": "Club                                               Lic",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2022/01/resultat-20220108-controlabsolutpcsabadell.pdf",
+      "athlete_name": "Patricia Amador Peris",
+      "athlete_dob": "18/02/1980",
+      "athlete_id": "CT28190",
+      "discipline": "400 metres llisos",
+      "performance": "1:05.87",
+      "wind": null,
+      "internal_id": 644
+    },
+    {
+      "event_name": "Control Absolut en Pista Coberta - Control Absolut en Pista Coberta",
+      "event_date": "15/01/2022",
+      "event_location": "Club                                             Lic",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2022/01/resultat-20220115-controlabsolutpcsabadell.pdf",
+      "athlete_name": "Patricia Amador Peris",
+      "athlete_dob": "18/02/1980",
+      "athlete_id": "CT28190",
+      "discipline": "800 metres llisos",
+      "performance": "2:23.77",
+      "wind": null,
+      "internal_id": 644
+    },
+    {
       "event_name": "Campionat de Catalunya Màster Individual i Relleus en Pista Coberta - Campionat de Catalunya Màster Individual i Relleus en Pista Coberta",
       "event_date": "29/01/2022",
       "event_location": "Sabadell",
@@ -91,6 +118,19 @@
       "athlete_id": "CT28190",
       "discipline": "60 metres llisos",
       "performance": "23.65",
+      "wind": null,
+      "internal_id": 644
+    },
+    {
+      "event_name": "Control Absolut en Pista Coberta (tarda) - Control Absolut en Pista Coberta (tarda)",
+      "event_date": "20/02/2022",
+      "event_location": "Club                                             Lic",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2022/02/resultat-20220220-controlabsoluttardapcsabadell.pdf",
+      "athlete_name": "Patricia Amador Peris",
+      "athlete_dob": "18/02/1980",
+      "athlete_id": "CT28190",
+      "discipline": "800 metres llisos",
+      "performance": "2:24.06",
       "wind": null,
       "internal_id": 644
     },

@@ -2,7 +2,7 @@
   "athlete_name": "IVAN FERRER VILLA",
   "athlete_id": "CL86457",
   "athlete_dob": "14/4/2009",
-  "total_results": 36,
+  "total_results": 38,
   "name_variants_found": [
     "11 268 (t) Ivan Ferrer Villa BM",
     "14 15 (t) Ivan Ferrer Villa BM",
@@ -15,12 +15,13 @@
     "IVAN FERRER VILLA",
     "IVAN FERRER VILLA MMT",
     "Ivan FERRER VILLA",
+    "Ivan Ferrer Villa",
     "Ivan Ferrer Villa BM"
   ],
   "license_variants_found": [
     "CL86457"
   ],
-  "source_files_count": 15,
+  "source_files_count": 17,
   "results": [
     {
       "event_name": "Campionat Catalunya Clubs Benjamí Masculí",
@@ -114,6 +115,19 @@
       "internal_id": 1009
     },
     {
+      "event_name": "",
+      "event_date": "09/12/2018",
+      "event_location": "Cambrils",
+      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20181209-trofeusalcedacastellscambrils.pdf",
+      "athlete_name": "Ivan Ferrer Villa",
+      "athlete_dob": "14/04/2009",
+      "athlete_id": "CL86457",
+      "discipline": "2000 metres llisos",
+      "performance": "8:48.76",
+      "wind": null,
+      "internal_id": 1009
+    },
+    {
       "event_name": "I Control de Tardor",
       "event_date": "15/12/2018",
       "event_location": "Amposta",
@@ -188,6 +202,19 @@
       "athlete_id": "CL86457",
       "discipline": "Pes (2 Kg)",
       "performance": "4.88",
+      "wind": null,
+      "internal_id": 1009
+    },
+    {
+      "event_name": "Campionat de Catalunya de Clubs \"A\" sub16 - Pista Coberta d'Atletisme de Catalunya Carme Valero, 10 marzo 2024",
+      "event_date": "10/03/2024",
+      "event_location": "Sabadell",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2024/03/resultat-20240310-catclubsasub16pcsabadell.pdf",
+      "athlete_name": "Ivan Ferrer Villa",
+      "athlete_dob": "14/04/2009",
+      "athlete_id": "CL86457",
+      "discipline": "1000 metres llisos",
+      "performance": "3:12.76",
       "wind": null,
       "internal_id": 1009
     },

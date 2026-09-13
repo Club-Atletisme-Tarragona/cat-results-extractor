@@ -2,7 +2,7 @@
   "athlete_name": "HUGO RODRIGUEZ MARTINEZ",
   "athlete_id": "CT27323",
   "athlete_dob": "25/2/2004",
-  "total_results": 2,
+  "total_results": 5,
   "name_variants_found": [
     "2 351 Hugo Rodriguez Martinez",
     "Hugo Rodriguez Martinez"
@@ -10,8 +10,34 @@
   "license_variants_found": [
     "CT27323"
   ],
-  "source_files_count": 2,
+  "source_files_count": 5,
   "results": [
+    {
+      "event_name": "Controls Pista Coberta Sub20 - Sub18 - Controls Pista Coberta Sub20 - Sub18",
+      "event_date": "30/01/2021",
+      "event_location": "Barcelona - Palau Sant Jordi",
+      "event_src": "http://fcatletisme.cat/wp-content/uploads/2021/01/resultat-20210130-controlsub1820pcbcnpsj.pdf",
+      "athlete_name": "Hugo Rodriguez Martinez",
+      "athlete_dob": "25/02/2004",
+      "athlete_id": "CT27323",
+      "discipline": "800 metres llisos",
+      "performance": "2:00.79",
+      "wind": null,
+      "internal_id": 777
+    },
+    {
+      "event_name": "Control Absolut - Barcelona (Estadi Joan Serrahima), 12 mayo 2021",
+      "event_date": "12/05/2021",
+      "event_location": "Club                                             Lic",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/05/resultat-20210512-controlabsolutserrahima.pdf",
+      "athlete_name": "Hugo Rodriguez Martinez",
+      "athlete_dob": "25/02/2004",
+      "athlete_id": "CT27323",
+      "discipline": "800 metres llisos",
+      "performance": "1:56.63",
+      "wind": null,
+      "internal_id": 777
+    },
     {
       "event_name": "Control Maig",
       "event_date": "15/05/2021",
@@ -22,6 +48,19 @@
       "athlete_id": "CT27323",
       "discipline": "400 metres llisos",
       "performance": "52.11",
+      "wind": null,
+      "internal_id": 777
+    },
+    {
+      "event_name": "Campionat de Catalunya Sub20 en Pista Coberta - Campionat de Catalunya Sub20 en Pista Coberta",
+      "event_date": "26/02/2022",
+      "event_location": "Club                                              Lic",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2022/02/resultat-20220226-catsub20pcsabadell.pdf",
+      "athlete_name": "Hugo Rodriguez Martinez",
+      "athlete_dob": "25/02/2004",
+      "athlete_id": "CT27323",
+      "discipline": "800 metres llisos",
+      "performance": "2:01.26",
       "wind": null,
       "internal_id": 777
     },

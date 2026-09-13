@@ -2,7 +2,7 @@
   "athlete_name": "LUCIA MARCOS PEREZ",
   "athlete_id": "CL3853",
   "athlete_dob": "1/2/2010",
-  "total_results": 111,
+  "total_results": 112,
   "name_variants_found": [
     "10 477 (t) Lucia Marcos Perez",
     "11 106 (t) Lucia Marcos Perez",
@@ -18,12 +18,13 @@
     "7 109 (t) Lucia Marcos Perez",
     "7 141 (t) Lucia Marcos Perez IF",
     "9 59 (t) Lucia Marcos Perez",
-    "LUCIA MARCOS PEREZ"
+    "LUCIA MARCOS PEREZ",
+    "Lucia Marcos Perez"
   ],
   "license_variants_found": [
     "CL3853"
   ],
-  "source_files_count": 32,
+  "source_files_count": 33,
   "results": [
     {
       "event_name": "Control Febrer 1 - Pista de Atletismo CN Reus Ploms, 11 febrero 2023",
@@ -61,7 +62,7 @@
       "athlete_id": "CL3853",
       "discipline": "80 metres llisos",
       "performance": "13.31",
-      "wind": "+4.1",
+      "wind": null,
       "internal_id": 1073
     },
     {
@@ -338,6 +339,19 @@
       "internal_id": 1073
     },
     {
+      "event_name": "Campionat de Catalunya de Clubs \"A\" sub16 - Pista Coberta d'Atletisme de Catalunya Carme Valero, 10 marzo 2024",
+      "event_date": "10/03/2024",
+      "event_location": "Sabadell",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2024/03/resultat-20240310-catclubsasub16pcsabadell.pdf",
+      "athlete_name": "Lucia Marcos Perez",
+      "athlete_dob": "01/02/2010",
+      "athlete_id": "CL3853",
+      "discipline": "4x300",
+      "performance": "3:17.89",
+      "wind": null,
+      "internal_id": 1073
+    },
+    {
       "event_name": "Campionat Territorial sub10-12-14-16 2 - 1a jornada - Pista de Atletismo CN Reus Ploms, 14 abril 2024",
       "event_date": "14/04/2024",
       "event_location": "Reus",
@@ -464,7 +478,7 @@
       "athlete_id": "CL3853",
       "discipline": "Disc (1 Kg)",
       "performance": "07.78",
-      "wind": "+0.0",
+      "wind": null,
       "internal_id": 1073
     },
     {

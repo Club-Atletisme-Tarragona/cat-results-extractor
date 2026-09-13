@@ -2,7 +2,7 @@
   "athlete_name": "ARIADNA SUAREZ PIZA",
   "athlete_id": "CL71753",
   "athlete_dob": "20/3/2005",
-  "total_results": 41,
+  "total_results": 42,
   "name_variants_found": [
     "23 1074 (t) Ariadna Suarez Piza IF",
     "ARIADNA AF SUAREZ PIZA",
@@ -14,13 +14,14 @@
     "Ariadna Suarez Piza",
     "SUAREZ PIZA ARIADNA",
     "SUAREZ PIZA ARIADNA AF",
-    "SUAREZ PIZA ARIADNA BF"
+    "SUAREZ PIZA ARIADNA BF",
+    "SUAREZ PIZA, ARIADNA"
   ],
   "license_variants_found": [
     "CL64866",
     "CL71753"
   ],
-  "source_files_count": 16,
+  "source_files_count": 17,
   "results": [
     {
       "event_name": "CAMPIONAT TERRITORIAL",
@@ -409,6 +410,19 @@
       "athlete_id": "",
       "discipline": "Llargada",
       "performance": "2.76",
+      "wind": null,
+      "internal_id": null
+    },
+    {
+      "event_name": "1r Gran premi de Marxa del Vendrell - Campionat de Catalunya de Marxa Benjamí, Aleví, Infantil i Cadet",
+      "event_date": "21/02/2016",
+      "event_location": "El Vendrell",
+      "event_src": "http://old.fcatletisme.cat/Marxa/2016/resulcatmarxapromocio210216.pdf",
+      "athlete_name": "SUAREZ PIZA, ARIADNA",
+      "athlete_dob": "",
+      "athlete_id": "CL71753",
+      "discipline": "2000 metres marxa",
+      "performance": "16:23",
       "wind": null,
       "internal_id": null
     },

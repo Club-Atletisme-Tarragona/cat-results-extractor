@@ -2,7 +2,7 @@
   "athlete_name": "GERARD FERRANDIZ GINER",
   "athlete_id": "CL69320",
   "athlete_dob": "27/2/2006",
-  "total_results": 63,
+  "total_results": 66,
   "name_variants_found": [
     "10 55 (t) Gerard Ferrandiz Giner",
     "11 34 (t) Gerard Ferrandiz Giner IM",
@@ -28,7 +28,7 @@
   "license_variants_found": [
     "CL69320"
   ],
-  "source_files_count": 17,
+  "source_files_count": 19,
   "results": [
     {
       "event_name": "CONTROL NÀSTIC – TROFEU PERE VALLS I RECANSES",
@@ -495,7 +495,7 @@
       "athlete_id": "CL69320",
       "discipline": "80 metres llisos",
       "performance": "12.42",
-      "wind": "+1.6",
+      "wind": null,
       "internal_id": 840
     },
     {
@@ -847,6 +847,45 @@
       "discipline": "Llargada",
       "performance": "3.59",
       "wind": "-1.0",
+      "internal_id": 840
+    },
+    {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "10/04/2021",
+      "event_location": "Tarragona-CLA",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210410-catrelleuspromociopreviatarragona.pdf",
+      "athlete_name": "Gerard Ferrandiz Giner",
+      "athlete_dob": "27/02/2006",
+      "athlete_id": "CL69320",
+      "discipline": "4x100",
+      "performance": "48.96",
+      "wind": null,
+      "internal_id": 840
+    },
+    {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "10/04/2021",
+      "event_location": "Tarragona-CLA",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210410-catrelleuspromociopreviatarragona.pdf",
+      "athlete_name": "Gerard Ferrandiz Giner",
+      "athlete_dob": "27/02/2006",
+      "athlete_id": "CL69320",
+      "discipline": "4x300",
+      "performance": "2:47.09",
+      "wind": null,
+      "internal_id": 840
+    },
+    {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "17/04/2021",
+      "event_location": "El Prat de Llobregat",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210417-catrelleuspromociofinalelprat.pdf",
+      "athlete_name": "Gerard Ferrandiz Giner",
+      "athlete_dob": "27/02/2006",
+      "athlete_id": "CL69320",
+      "discipline": "4x100",
+      "performance": "52.60",
+      "wind": null,
       "internal_id": 840
     }
   ]

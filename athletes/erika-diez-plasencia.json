@@ -2,7 +2,7 @@
   "athlete_name": "ERIKA DIEZ PLASENCIA",
   "athlete_id": "CL82411",
   "athlete_dob": "9/10/2006",
-  "total_results": 72,
+  "total_results": 75,
   "name_variants_found": [
     "10 81 (t) Erika Diez Plasencia IF",
     "14 290 (t) Erika Diez Plasencia",
@@ -20,6 +20,7 @@
     "ERIKA DIEZ PLASENCIA",
     "ERIKA DÍEZ PLASENCIA",
     "Erika Diez IF",
+    "Erika Diez Plasencia",
     "Erika Diez Plasencia IF",
     "Erika Diez Plasencia IF 3",
     "Erika Diez Plasencia IF 4",
@@ -29,7 +30,7 @@
   "license_variants_found": [
     "CL82411"
   ],
-  "source_files_count": 18,
+  "source_files_count": 19,
   "results": [
     {
       "event_name": "Control a càrrec del Comité de Jutges de la FCA",
@@ -275,7 +276,7 @@
       "athlete_id": "CL82411",
       "discipline": "Llargada",
       "performance": "12.96",
-      "wind": "1.09",
+      "wind": null,
       "internal_id": null
     },
     {
@@ -626,7 +627,7 @@
       "athlete_id": "CL82411",
       "discipline": "80 metres llisos",
       "performance": "12.54",
-      "wind": "+0.2",
+      "wind": null,
       "internal_id": null
     },
     {
@@ -877,6 +878,45 @@
       "internal_id": null
     },
     {
+      "event_name": "Campionat de Catalunya Clubs Sub16 Masculí en Pista Coberta - Campionat de Catalunya Clubs Sub16 Masculí en Pista Coberta",
+      "event_date": "30/01/2021",
+      "event_location": "Barcelona",
+      "event_src": "http://fcatletisme.cat/wp-content/uploads/2021/02/resultat-20210130-catclubssub16pcbcnpsj.pdf",
+      "athlete_name": "Erika Diez Plasencia",
+      "athlete_dob": "09/10/2006",
+      "athlete_id": "CL82411",
+      "discipline": "Triple",
+      "performance": "8.89",
+      "wind": null,
+      "internal_id": null
+    },
+    {
+      "event_name": "Campionat de Catalunya Clubs Sub16 Masculí en Pista Coberta - Campionat de Catalunya Clubs Sub16 Masculí en Pista Coberta",
+      "event_date": "30/01/2021",
+      "event_location": "Barcelona",
+      "event_src": "http://fcatletisme.cat/wp-content/uploads/2021/02/resultat-20210130-catclubssub16pcbcnpsj.pdf",
+      "athlete_name": "Erika Diez Plasencia",
+      "athlete_dob": "09/10/2006",
+      "athlete_id": "CL82411",
+      "discipline": "Triple",
+      "performance": "8.72",
+      "wind": null,
+      "internal_id": null
+    },
+    {
+      "event_name": "Campionat de Catalunya Clubs Sub16 Masculí en Pista Coberta - Campionat de Catalunya Clubs Sub16 Masculí en Pista Coberta",
+      "event_date": "30/01/2021",
+      "event_location": "Barcelona",
+      "event_src": "http://fcatletisme.cat/wp-content/uploads/2021/02/resultat-20210130-catclubssub16pcbcnpsj.pdf",
+      "athlete_name": "Erika Diez Plasencia",
+      "athlete_dob": "09/10/2006",
+      "athlete_id": "CL82411",
+      "discipline": "Triple",
+      "performance": "8.74",
+      "wind": null,
+      "internal_id": null
+    },
+    {
       "event_name": "Control Gener",
       "event_date": "31/01/2021",
       "event_location": "Reus",
@@ -886,7 +926,7 @@
       "athlete_id": "CL82411",
       "discipline": "Pes (4 Kg)",
       "performance": "26.51",
-      "wind": "+0.0",
+      "wind": null,
       "internal_id": null
     },
     {

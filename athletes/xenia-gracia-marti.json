@@ -2,7 +2,7 @@
   "athlete_name": "XENIA GRACIA MARTI",
   "athlete_id": "CAT-3842738",
   "athlete_dob": "23/8/2016",
-  "total_results": 15,
+  "total_results": 16,
   "name_variants_found": [
     "XENIA GRACIA MARTI",
     "Xenia GRACIA MARTI"
@@ -10,7 +10,7 @@
   "license_variants_found": [
     "CAT-3842738"
   ],
-  "source_files_count": 9,
+  "source_files_count": 10,
   "results": [
     {
       "event_name": "Campionat Territorial de Proves Combinades d'Hivern sub12 i sub14- Tarragona - Pista de Atletismo de Camp Clar",
@@ -100,6 +100,19 @@
       "athlete_id": "CAT-3842738",
       "discipline": "120 metres llisos",
       "performance": "18.00",
+      "wind": null,
+      "internal_id": null
+    },
+    {
+      "event_name": "Jornada Prèvia Campionat de Catalunya de Relleus AL - Pista de Atletismo Can Jofresa",
+      "event_date": "11/04/2026",
+      "event_location": "Terrassa",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/04/resultat-20260411-catrelleuspreviaterrassa.pdf",
+      "athlete_name": "Xenia GRACIA MARTI",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "4x60",
+      "performance": "38.13",
       "wind": null,
       "internal_id": null
     },

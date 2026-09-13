@@ -2,7 +2,7 @@
   "athlete_name": "AINOA RODRIGUEZ MURILLO",
   "athlete_id": "CAT-3742948",
   "athlete_dob": "17/1/2008",
-  "total_results": 132,
+  "total_results": 137,
   "name_variants_found": [
     "1 103 (t) Ainoa Rodriguez Murillo",
     "1 128 (t) Ainoa Rodriguez Murillo IF",
@@ -30,14 +30,15 @@
     "8 37 (t) Ainoa Rodriguez Murillo",
     "8 394 (t) Ainoa Rodriguez Murillo IF",
     "AINOA RODRIGUEZ MURILLO",
-    "Ainoa RODRIGUEZ MURILLO"
+    "Ainoa RODRIGUEZ MURILLO",
+    "Ainoa Rodriguez Murillo"
   ],
   "license_variants_found": [
     "CAT-3742948",
     "CL81622",
     "CT1619"
   ],
-  "source_files_count": 37,
+  "source_files_count": 39,
   "results": [
     {
       "event_name": "Control Gener",
@@ -144,6 +145,71 @@
       "internal_id": 965
     },
     {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "10/04/2021",
+      "event_location": "Tarragona-CLA",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210410-catrelleuspromociopreviatarragona.pdf",
+      "athlete_name": "Ainoa Rodriguez Murillo",
+      "athlete_dob": "17/01/2008",
+      "athlete_id": "CL81622",
+      "discipline": "4x80",
+      "performance": "43.38",
+      "wind": null,
+      "internal_id": 965
+    },
+    {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "10/04/2021",
+      "event_location": "Tarragona-CLA",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210410-catrelleuspromociopreviatarragona.pdf",
+      "athlete_name": "Ainoa Rodriguez Murillo",
+      "athlete_dob": "17/01/2008",
+      "athlete_id": "CL81622",
+      "discipline": "4x200",
+      "performance": "1:58.58",
+      "wind": null,
+      "internal_id": 965
+    },
+    {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "17/04/2021",
+      "event_location": "El Prat de Llobregat",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210417-catrelleuspromociofinalelprat.pdf",
+      "athlete_name": "Ainoa Rodriguez Murillo",
+      "athlete_dob": "17/01/2008",
+      "athlete_id": "CL81622",
+      "discipline": "4x80",
+      "performance": "43.32",
+      "wind": null,
+      "internal_id": 965
+    },
+    {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "17/04/2021",
+      "event_location": "El Prat de Llobregat",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210417-catrelleuspromociofinalelprat.pdf",
+      "athlete_name": "Ainoa Rodriguez Murillo",
+      "athlete_dob": "17/01/2008",
+      "athlete_id": "CL81622",
+      "discipline": "4x80",
+      "performance": "42.61",
+      "wind": null,
+      "internal_id": 965
+    },
+    {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "17/04/2021",
+      "event_location": "El Prat de Llobregat",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210417-catrelleuspromociofinalelprat.pdf",
+      "athlete_name": "Ainoa Rodriguez Murillo",
+      "athlete_dob": "17/01/2008",
+      "athlete_id": "CL81622",
+      "discipline": "4x200",
+      "performance": "1:55.74",
+      "wind": null,
+      "internal_id": 965
+    },
+    {
       "event_name": "Campionat Territorial Sub10, Sub12, Sub14 i Sub16",
       "event_date": "24/04/2021",
       "event_location": "Tarragona",
@@ -153,7 +219,7 @@
       "athlete_id": "CL81622",
       "discipline": "80 metres llisos",
       "performance": "11.70",
-      "wind": "-0.2",
+      "wind": null,
       "internal_id": 965
     },
     {
@@ -1011,7 +1077,7 @@
       "athlete_id": "CT1619",
       "discipline": "3000 metres llisos",
       "performance": "2:30.98",
-      "wind": "-1.4",
+      "wind": null,
       "internal_id": 965
     },
     {

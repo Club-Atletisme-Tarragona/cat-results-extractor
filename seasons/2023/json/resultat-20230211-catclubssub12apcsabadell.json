@@ -2,58 +2,598 @@
   "event_name": "Campionat Catalunya Clubs Sub12 Masculí i Femení \"A\" - Sabadell (Pista coberta de Catalunya), 11 febrero 2023",
   "event_date": "11/02/2023",
   "event_location": "Sabadell",
-  "total_results": 5,
+  "total_results": 59,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2023/02/resultat-20230211-catclubssub12apcsabadell.pdf",
   "results": [
     {
-      "athlete_name": "50 (t) Irene Paez Dueñas CL4665",
-      "athlete_dob": "10/09/2013",
-      "athlete_id": "CL11143",
-      "performance": "2:22.38",
-      "discipline": "2000 metres llisos",
-      "raw_discipline_name": "2.000m Marxa MASC. PC",
+      "athlete_name": "Marti Gonzalez Ceresuela",
+      "athlete_dob": "18/09/2013",
+      "athlete_id": "CL4347",
+      "performance": "10.38",
+      "discipline": "60 metres llisos",
+      "raw_discipline_name": "60m MASC. PC",
       "wind": null,
-      "internal_id": null
+      "position": null
     },
     {
-      "athlete_name": "3 32 (t) Kilian Pedrol Espinosa",
+      "athlete_name": "Hugo Diaz Cristino",
+      "athlete_dob": "04/04/2012",
+      "athlete_id": "CL4397",
+      "performance": "7:22.80",
+      "discipline": "2000 metres llisos",
+      "raw_discipline_name": "2.000m MASC.PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Aleix Gomez Miro",
+      "athlete_dob": "06/01/2013",
+      "athlete_id": "CL4345",
+      "performance": "11.34",
+      "discipline": "2000 metres llisos",
+      "raw_discipline_name": "2.000m MASC.PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Kilian Pedrol Espinosa",
       "athlete_dob": "24/02/2013",
       "athlete_id": "CL7676",
       "performance": "1.23",
       "discipline": "Alçada",
       "raw_discipline_name": "Alçada MASC. PC",
       "wind": null,
-      "internal_id": 1361
+      "position": null
     },
     {
-      "athlete_name": "7 32 (t) Ferran Mascaro Navarro",
+      "athlete_name": "32 (t) Hernan Ferran Jimenez NP",
+      "athlete_dob": "28/09/2012",
+      "athlete_id": "CL1093",
+      "performance": "NP",
+      "discipline": "Perxa",
+      "raw_discipline_name": "Perxa MASC. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Ferran Mascaro Navarro",
       "athlete_dob": "02/06/2012",
       "athlete_id": "CL96310",
       "performance": "3.32",
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada MASC. PC",
       "wind": null,
-      "internal_id": 1362
+      "position": null
     },
     {
-      "athlete_name": "7 32 (t) Ferran Mascaro Navarro",
+      "athlete_name": "Ferran Mascaro Navarro",
       "athlete_dob": "02/06/2012",
       "athlete_id": "CL96310",
       "performance": "3.19",
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada MASC. PC",
       "wind": null,
-      "internal_id": 1362
+      "position": null
     },
     {
-      "athlete_name": "7 32 (t) Ferran Mascaro Navarro",
+      "athlete_name": "Ferran Mascaro Navarro",
       "athlete_dob": "02/06/2012",
       "athlete_id": "CL96310",
       "performance": "3.24",
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada MASC. PC",
       "wind": null,
-      "internal_id": 1362
+      "position": null
+    },
+    {
+      "athlete_name": "Hernan Ferran Jimenez",
+      "athlete_dob": "28/09/2012",
+      "athlete_id": "CL1093",
+      "performance": "2:16.14",
+      "discipline": "4x200",
+      "raw_discipline_name": "4x200m MASC. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Aleix Gomez Miro",
+      "athlete_dob": "06/01/2013",
+      "athlete_id": "CL4345",
+      "performance": "2:16.14",
+      "discipline": "4x200",
+      "raw_discipline_name": "4x200m MASC. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Ferran Mascaro Navarro",
+      "athlete_dob": "02/06/2012",
+      "athlete_id": "CL96310",
+      "performance": "2:16.14",
+      "discipline": "4x200",
+      "raw_discipline_name": "4x200m MASC. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Matteo Pecchia",
+      "athlete_dob": "03/10/2012",
+      "athlete_id": "CL11152",
+      "performance": "2:16.14",
+      "discipline": "4x200",
+      "raw_discipline_name": "4x200m MASC. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Alexander Cambray Dashevskaya",
+      "athlete_dob": "23/09/2012",
+      "athlete_id": "CL5343",
+      "performance": "2:16.14",
+      "discipline": "4x200",
+      "raw_discipline_name": "4x200m MASC. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Roger Ibarz Sánchez",
+      "athlete_dob": "05/02/2013",
+      "athlete_id": "CL5326",
+      "performance": "2:16.14",
+      "discipline": "4x200",
+      "raw_discipline_name": "4x200m MASC. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Pol Ruiz Clua",
+      "athlete_dob": "24/07/2013",
+      "athlete_id": "CL93914",
+      "performance": "2:16.14",
+      "discipline": "4x200",
+      "raw_discipline_name": "4x200m MASC. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Lluc Foix Bernaus",
+      "athlete_dob": "01/05/2012",
+      "athlete_id": "CL3858",
+      "performance": "2:16.14",
+      "discipline": "4x200",
+      "raw_discipline_name": "4x200m MASC. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Hugo Algar González",
+      "athlete_dob": "23/10/2012",
+      "athlete_id": "CL5241",
+      "performance": "2:16.14",
+      "discipline": "4x200",
+      "raw_discipline_name": "4x200m MASC. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Raul Armenteros Cuevas",
+      "athlete_dob": "14/02/2012",
+      "athlete_id": "CL89270",
+      "performance": "2:16.14",
+      "discipline": "4x200",
+      "raw_discipline_name": "4x200m MASC. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Eric Foz Valenzuela",
+      "athlete_dob": "17/02/2013",
+      "athlete_id": "CL93747",
+      "performance": "2:16.14",
+      "discipline": "4x200",
+      "raw_discipline_name": "4x200m MASC. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Roc Lopez Serrano",
+      "athlete_dob": "30/11/2012",
+      "athlete_id": "CL93750",
+      "performance": "2:16.14",
+      "discipline": "4x200",
+      "raw_discipline_name": "4x200m MASC. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Ferran Castillejo Gonzalez",
+      "athlete_dob": "05/05/2012",
+      "athlete_id": "CL10389",
+      "performance": "2:16.14",
+      "discipline": "4x200",
+      "raw_discipline_name": "4x200m MASC. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Marçal Freixa Saera",
+      "athlete_dob": "22/10/2012",
+      "athlete_id": "CL6059",
+      "performance": "2:16.14",
+      "discipline": "4x200",
+      "raw_discipline_name": "4x200m MASC. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Leo Lechuga Garcia",
+      "athlete_dob": "08/03/2013",
+      "athlete_id": "CL10394",
+      "performance": "2:16.14",
+      "discipline": "4x200",
+      "raw_discipline_name": "4x200m MASC. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Iker Rubio Mangas",
+      "athlete_dob": "20/02/2012",
+      "athlete_id": "CL85866",
+      "performance": "2:16.14",
+      "discipline": "4x200",
+      "raw_discipline_name": "4x200m MASC. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Bernat Bort Llobet",
+      "athlete_dob": "26/06/2012",
+      "athlete_id": "CL583",
+      "performance": "2:16.14",
+      "discipline": "4x200",
+      "raw_discipline_name": "4x200m MASC. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Guillem Centellas Bueno",
+      "athlete_dob": "17/10/2012",
+      "athlete_id": "CL4112",
+      "performance": "2:16.14",
+      "discipline": "4x200",
+      "raw_discipline_name": "4x200m MASC. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Jan Manevy Carvajal",
+      "athlete_dob": "06/07/2013",
+      "athlete_id": "CL95576",
+      "performance": "2:16.14",
+      "discipline": "4x200",
+      "raw_discipline_name": "4x200m MASC. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Arnau Manubens Cayuela",
+      "athlete_dob": "12/07/2013",
+      "athlete_id": "CL1835",
+      "performance": "2:16.14",
+      "discipline": "4x200",
+      "raw_discipline_name": "4x200m MASC. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Aston Mate Gras",
+      "athlete_dob": "07/12/2012",
+      "athlete_id": "CL95044",
+      "performance": "11:25.55",
+      "discipline": "2000 metres marxa",
+      "raw_discipline_name": "2.000m Marxa MASC. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Nayah Martinez Ferre",
+      "athlete_dob": "25/01/2013",
+      "athlete_id": "CL4400",
+      "performance": "10.07",
+      "discipline": "60 metres llisos",
+      "raw_discipline_name": "60m FEM. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Rihana Martos Teixido",
+      "athlete_dob": "18/03/2012",
+      "athlete_id": "CL85129",
+      "performance": "2:14.91",
+      "discipline": "600 metres llisos",
+      "raw_discipline_name": "600m FEM. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Ada Nin Navas",
+      "athlete_dob": "24/10/2012",
+      "athlete_id": "CL1495",
+      "performance": "8:06.69",
+      "discipline": "2000 metres llisos",
+      "raw_discipline_name": "2.000m FEM. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Arlet Solana Vila",
+      "athlete_dob": "13/03/2012",
+      "athlete_id": "CL11154",
+      "performance": "11.76",
+      "discipline": "60 metres tanques (0.50)",
+      "raw_discipline_name": "60m tanques (0.50) FEM. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Maria Martin Cuadrado",
+      "athlete_dob": "01/05/2012",
+      "athlete_id": "CL1089",
+      "performance": "3.66",
+      "discipline": "Llargada",
+      "raw_discipline_name": "Llargada FEM. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Maria Martin Cuadrado",
+      "athlete_dob": "01/05/2012",
+      "athlete_id": "CL1089",
+      "performance": "3.45",
+      "discipline": "Llargada",
+      "raw_discipline_name": "Llargada FEM. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Maria Martin Cuadrado",
+      "athlete_dob": "01/05/2012",
+      "athlete_id": "CL1089",
+      "performance": "3.20",
+      "discipline": "Llargada",
+      "raw_discipline_name": "Llargada FEM. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Lucia Martinez Perales",
+      "athlete_dob": "04/08/2012",
+      "athlete_id": "CL4343",
+      "performance": "4.40",
+      "discipline": "Pes (2 Kg)",
+      "raw_discipline_name": "Pes (2 Kg) FEM. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Lucia Martinez Perales",
+      "athlete_dob": "04/08/2012",
+      "athlete_id": "CL4343",
+      "performance": "3.41",
+      "discipline": "Pes (2 Kg)",
+      "raw_discipline_name": "Pes (2 Kg) FEM. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Julia Amoros Muñoz",
+      "athlete_dob": "21/05/2012",
+      "athlete_id": "CL11143",
+      "performance": "2:22.38",
+      "discipline": "4x200",
+      "raw_discipline_name": "4x200m FEM. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Alba Esteve Hostalot",
+      "athlete_dob": "10/11/2013",
+      "athlete_id": "CL4396",
+      "performance": "2:22.38",
+      "discipline": "4x200",
+      "raw_discipline_name": "4x200m FEM. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Lucia Martinez Perales",
+      "athlete_dob": "04/08/2012",
+      "athlete_id": "CL4343",
+      "performance": "2:22.38",
+      "discipline": "4x200",
+      "raw_discipline_name": "4x200m FEM. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Ivet Torrens Sanroma",
+      "athlete_dob": "27/02/2013",
+      "athlete_id": "CL8727",
+      "performance": "2:22.38",
+      "discipline": "4x200",
+      "raw_discipline_name": "4x200m FEM. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Marian Cuenca Morcillo",
+      "athlete_dob": "15/05/2013",
+      "athlete_id": "CL4318",
+      "performance": "2:22.38",
+      "discipline": "4x200",
+      "raw_discipline_name": "4x200m FEM. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Vega Diaz Espino",
+      "athlete_dob": "07/01/2013",
+      "athlete_id": "CL4411",
+      "performance": "2:22.38",
+      "discipline": "4x200",
+      "raw_discipline_name": "4x200m FEM. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Manal El Haniti El Haniti",
+      "athlete_dob": "02/07/2012",
+      "athlete_id": "CL8444",
+      "performance": "2:22.38",
+      "discipline": "4x200",
+      "raw_discipline_name": "4x200m FEM. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Basma Sarhan Karim",
+      "athlete_dob": "10/04/2013",
+      "athlete_id": "CL10934",
+      "performance": "2:22.38",
+      "discipline": "4x200",
+      "raw_discipline_name": "4x200m FEM. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Lara Pesoa Serra",
+      "athlete_dob": "03/01/2013",
+      "athlete_id": "CL91778",
+      "performance": "2:22.38",
+      "discipline": "4x200",
+      "raw_discipline_name": "4x200m FEM. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Julia Planas Vives",
+      "athlete_dob": "20/04/2012",
+      "athlete_id": "CL1832",
+      "performance": "2:22.38",
+      "discipline": "4x200",
+      "raw_discipline_name": "4x200m FEM. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Nuria Ponti Barrabes",
+      "athlete_dob": "08/01/2013",
+      "athlete_id": "CL91800",
+      "performance": "2:22.38",
+      "discipline": "4x200",
+      "raw_discipline_name": "4x200m FEM. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Paula Vargas Martin",
+      "athlete_dob": "14/02/2012",
+      "athlete_id": "CL5121",
+      "performance": "2:22.38",
+      "discipline": "4x200",
+      "raw_discipline_name": "4x200m FEM. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Martina Garcia Carrillo",
+      "athlete_dob": "15/06/2012",
+      "athlete_id": "CL121",
+      "performance": "2:22.38",
+      "discipline": "4x200",
+      "raw_discipline_name": "4x200m FEM. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Alba Orta Morgado",
+      "athlete_dob": "03/08/2012",
+      "athlete_id": "CL9464",
+      "performance": "2:22.38",
+      "discipline": "4x200",
+      "raw_discipline_name": "4x200m FEM. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Antia Prieto Estevez",
+      "athlete_dob": "19/07/2012",
+      "athlete_id": "CL9462",
+      "performance": "2:22.38",
+      "discipline": "4x200",
+      "raw_discipline_name": "4x200m FEM. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Julia Salom Miro",
+      "athlete_dob": "13/10/2012",
+      "athlete_id": "CL9985",
+      "performance": "2:22.38",
+      "discipline": "4x200",
+      "raw_discipline_name": "4x200m FEM. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Lucia Marin Peñaranda",
+      "athlete_dob": "06/08/2012",
+      "athlete_id": "CL49",
+      "performance": "2:22.38",
+      "discipline": "4x200",
+      "raw_discipline_name": "4x200m FEM. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Roza Nasirov",
+      "athlete_dob": "12/12/2012",
+      "athlete_id": "CL1295",
+      "performance": "2:22.38",
+      "discipline": "4x200",
+      "raw_discipline_name": "4x200m FEM. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Blanca Sanz Rodriguez",
+      "athlete_dob": "26/07/2012",
+      "athlete_id": "CL1694",
+      "performance": "2:22.38",
+      "discipline": "4x200",
+      "raw_discipline_name": "4x200m FEM. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Sara Castel Alberich",
+      "athlete_dob": "02/01/2013",
+      "athlete_id": "CL1917",
+      "performance": "2:22.38",
+      "discipline": "4x200",
+      "raw_discipline_name": "4x200m FEM. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Agustina Ramos Russo",
+      "athlete_dob": "06/01/2012",
+      "athlete_id": "CL1088",
+      "performance": "16:24.48",
+      "discipline": "2000 metres marxa",
+      "raw_discipline_name": "2.000m Marxa FEM. PC",
+      "wind": null,
+      "position": null
     }
   ]
 }

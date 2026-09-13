@@ -2,7 +2,7 @@
   "athlete_name": "NIL PAMIES MIRO",
   "athlete_id": "CL905",
   "athlete_dob": "25/3/2012",
-  "total_results": 31,
+  "total_results": 34,
   "name_variants_found": [
     "1 104 (t) Nil Pamies Miro BM",
     "1 144 (t) Nil Pamies Miro BM",
@@ -19,12 +19,13 @@
     "6 485 (t) Nil Pamies Miro",
     "7 15 (t) Nil Pamies Miro",
     "7 240 (t) Nil Pamies Miro",
-    "8 79 (t) Nil Pàmies Miró BM"
+    "8 79 (t) Nil Pàmies Miró BM",
+    "Nil Pamies Miro"
   ],
   "license_variants_found": [
     "CL905"
   ],
-  "source_files_count": 14,
+  "source_files_count": 16,
   "results": [
     {
       "event_name": "Control Febrer 1",
@@ -92,6 +93,19 @@
       "internal_id": null
     },
     {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "10/04/2021",
+      "event_location": "Tarragona-CLA",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210410-catrelleuspromociopreviatarragona.pdf",
+      "athlete_name": "Nil Pamies Miro",
+      "athlete_dob": "25/03/2012",
+      "athlete_id": "CL905",
+      "discipline": "4x60",
+      "performance": "39.87",
+      "wind": null,
+      "internal_id": null
+    },
+    {
       "event_name": "Campionat Territorial primera jornada",
       "event_date": "11/04/2021",
       "event_location": "Reus",
@@ -101,6 +115,32 @@
       "athlete_id": "CL905",
       "discipline": "1000 metres llisos",
       "performance": "6:39.91",
+      "wind": null,
+      "internal_id": null
+    },
+    {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "17/04/2021",
+      "event_location": "El Prat de Llobregat",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210417-catrelleuspromociofinalelprat.pdf",
+      "athlete_name": "Nil Pamies Miro",
+      "athlete_dob": "25/03/2012",
+      "athlete_id": "CL905",
+      "discipline": "4x60",
+      "performance": "39.40",
+      "wind": null,
+      "internal_id": null
+    },
+    {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "17/04/2021",
+      "event_location": "El Prat de Llobregat",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210417-catrelleuspromociofinalelprat.pdf",
+      "athlete_name": "Nil Pamies Miro",
+      "athlete_dob": "25/03/2012",
+      "athlete_id": "CL905",
+      "discipline": "4x60",
+      "performance": "39.65",
       "wind": null,
       "internal_id": null
     },

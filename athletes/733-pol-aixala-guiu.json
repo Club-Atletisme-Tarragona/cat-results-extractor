@@ -2,7 +2,7 @@
   "athlete_name": "POL AIXALA GUIU",
   "athlete_id": "CT438",
   "athlete_dob": "4/12/2004",
-  "total_results": 99,
+  "total_results": 100,
   "name_variants_found": [
     "2 194 Pol Aixala Guiu LM",
     "4 289 Pol Aixala Guiu LM",
@@ -24,7 +24,7 @@
     "CL69309",
     "CT438"
   ],
-  "source_files_count": 44,
+  "source_files_count": 45,
   "results": [
     {
       "event_name": "",
@@ -803,6 +803,19 @@
       "athlete_id": "CL69309",
       "discipline": "60 metres llisos",
       "performance": "7.94",
+      "wind": null,
+      "internal_id": 733
+    },
+    {
+      "event_name": " - Sabadell (Pista Coberta de Catalunya), 12 enero 2020",
+      "event_date": "12/01/2020",
+      "event_location": "Club                                             Lic",
+      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20200112-catclubsbpcsabadell.pdf",
+      "athlete_name": "Pol Aixala Guiu",
+      "athlete_dob": "04/12/2004",
+      "athlete_id": "CL69309",
+      "discipline": "400 metres llisos",
+      "performance": "54.11",
       "wind": null,
       "internal_id": 733
     },

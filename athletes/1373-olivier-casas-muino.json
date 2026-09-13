@@ -2,7 +2,7 @@
   "athlete_name": "OLIVIER CASAS MUINO",
   "athlete_id": "CL11597",
   "athlete_dob": "10/8/2015",
-  "total_results": 66,
+  "total_results": 67,
   "name_variants_found": [
     "12 199 (t) Olivier Casas Muiño BM",
     "4 469 (t) Olivier Casas Muiño BM",
@@ -572,6 +572,19 @@
       "athlete_id": "",
       "discipline": "4x60",
       "performance": "35.48",
+      "wind": null,
+      "internal_id": 1373
+    },
+    {
+      "event_name": "Jornada Prèvia Campionat de Catalunya de Relleus AL - Pista de Atletismo Can Jofresa",
+      "event_date": "11/04/2026",
+      "event_location": "Terrassa",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/04/resultat-20260411-catrelleuspreviaterrassa.pdf",
+      "athlete_name": "Olivier CASAS MUIÑO",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "3x600",
+      "performance": "5:58.35",
       "wind": null,
       "internal_id": 1373
     },

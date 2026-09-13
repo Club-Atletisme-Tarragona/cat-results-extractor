@@ -2,7 +2,7 @@
   "athlete_name": "JERONI FLORES PINAS",
   "athlete_id": "CT2935",
   "athlete_dob": "4/1/2009",
-  "total_results": 110,
+  "total_results": 113,
   "name_variants_found": [
     "1 248 (t) Jeroni Flores Piñas",
     "1 67 (t) Jeroni Flores Piñas IM",
@@ -58,7 +58,7 @@
     "CL86460",
     "CT2935"
   ],
-  "source_files_count": 50,
+  "source_files_count": 52,
   "results": [
     {
       "event_name": "Control Gener 2",
@@ -763,6 +763,19 @@
       "internal_id": 1036
     },
     {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "10/04/2021",
+      "event_location": "Tarragona-CLA",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210410-catrelleuspromociopreviatarragona.pdf",
+      "athlete_name": "Jeroni Flores Piñas",
+      "athlete_dob": "04/01/2009",
+      "athlete_id": "CL86460",
+      "discipline": "4x200",
+      "performance": "2:00.35",
+      "wind": null,
+      "internal_id": 1036
+    },
+    {
       "event_name": "Campionat Territorial primera jornada",
       "event_date": "11/04/2021",
       "event_location": "Reus",
@@ -837,7 +850,7 @@
       "athlete_id": "CL86460",
       "discipline": "80 metres llisos",
       "performance": "12.24",
-      "wind": "+0.2",
+      "wind": null,
       "internal_id": 1036
     },
     {
@@ -954,7 +967,7 @@
       "athlete_id": "CL86460",
       "discipline": "80 metres llisos",
       "performance": "12.17",
-      "wind": "-0.9",
+      "wind": null,
       "internal_id": 1036
     },
     {
@@ -1202,6 +1215,32 @@
       "discipline": "100 metres tanques (0.91)",
       "performance": "16.48",
       "wind": "-0.7",
+      "internal_id": 1036
+    },
+    {
+      "event_name": "Campionat de Catalunya de Clubs \"A\" sub16 - Pista Coberta d'Atletisme de Catalunya Carme Valero, 10 marzo 2024",
+      "event_date": "10/03/2024",
+      "event_location": "Sabadell",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2024/03/resultat-20240310-catclubsasub16pcsabadell.pdf",
+      "athlete_name": "Jeroni Flores Piñas",
+      "athlete_dob": "04/01/2009",
+      "athlete_id": "CT2935",
+      "discipline": "60 metres tanques (0.91)",
+      "performance": "9.08",
+      "wind": null,
+      "internal_id": 1036
+    },
+    {
+      "event_name": "Campionat de Catalunya de Clubs \"A\" sub16 - Pista Coberta d'Atletisme de Catalunya Carme Valero, 10 marzo 2024",
+      "event_date": "10/03/2024",
+      "event_location": "Sabadell",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2024/03/resultat-20240310-catclubsasub16pcsabadell.pdf",
+      "athlete_name": "Jeroni Flores Piñas",
+      "athlete_dob": "04/01/2009",
+      "athlete_id": "CT2935",
+      "discipline": "4x300",
+      "performance": "3:02.07",
+      "wind": null,
       "internal_id": 1036
     },
     {
@@ -1459,7 +1498,7 @@
       "athlete_name": "JERONI FLORES PIÑAS",
       "athlete_dob": "4/1/2009",
       "athlete_id": "CT2935",
-      "discipline": "3000 metres llisos",
+      "discipline": "110 metres tanques (0.99)",
       "performance": "16.56",
       "wind": "-2.2",
       "internal_id": 1036

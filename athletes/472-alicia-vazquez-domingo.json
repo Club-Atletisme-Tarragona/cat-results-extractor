@@ -2,7 +2,7 @@
   "athlete_name": "ALICIA VAZQUEZ DOMINGO",
   "athlete_id": "CAT-3754025",
   "athlete_dob": "9/10/1999",
-  "total_results": 288,
+  "total_results": 289,
   "name_variants_found": [
     "(t) Alicia Vazquez Domingo 09/10/1999",
     "1 6 Alicia Vazquez Domingo 4",
@@ -34,7 +34,8 @@
     "Alicia Vazquez Domingo PF 4",
     "Alicia Vazquez Domingo q",
     "VAZQUEZ DOMINGO ALICIA",
-    "VAZQUEZ DOMINGO ALICIA JVF"
+    "VAZQUEZ DOMINGO ALICIA JVF",
+    "VAZQUEZ DOMINGO, ALICIA"
   ],
   "license_variants_found": [
     "CAT-3754025",
@@ -44,7 +45,7 @@
     "CT21623",
     "CT23992"
   ],
-  "source_files_count": 59,
+  "source_files_count": 60,
   "results": [
     {
       "event_name": "CAMPIONAT TERRITORIAL DE PROVES COMBINADES",
@@ -2985,6 +2986,19 @@
       "internal_id": 472
     },
     {
+      "event_name": "Control Primavera 2016 - Cambrils",
+      "event_date": "30/04/2016",
+      "event_location": "Cambrils",
+      "event_src": "http://old.fcatletisme.cat/Pairelliure/2016/resulcontrolpimaveracambrils3004-10516.pdf",
+      "athlete_name": "VAZQUEZ DOMINGO, ALICIA",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "100 metres tanques (0.84)",
+      "performance": "15.89",
+      "wind": "+3.3",
+      "internal_id": 472
+    },
+    {
       "event_name": "+ Control Juvenil EN PISTA COBERTA - Sabadell (Pista Coberta de Catalunya), 14-15 enero 2017",
       "event_date": "15/01/2017",
       "event_location": "Sabadell",
@@ -3436,7 +3450,7 @@
       "athlete_id": "CT23992",
       "discipline": "10000 metres llisos",
       "performance": "21:10",
-      "wind": "-2.0",
+      "wind": null,
       "internal_id": 472
     },
     {
@@ -3670,7 +3684,7 @@
       "athlete_id": "CT23992",
       "discipline": "10000 metres llisos",
       "performance": "19:32",
-      "wind": "-2.1",
+      "wind": null,
       "internal_id": 472
     },
     {

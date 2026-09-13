@@ -2,7 +2,7 @@
   "athlete_name": "QUIM SOUSA ITURRIA",
   "athlete_id": "CL90845",
   "athlete_dob": "3/5/2010",
-  "total_results": 20,
+  "total_results": 24,
   "name_variants_found": [
     "1 148 (t) Quim Sousa Iturria",
     "13 126 (t) Quim Sousa Iturria BM",
@@ -19,7 +19,7 @@
   "license_variants_found": [
     "CL90845"
   ],
-  "source_files_count": 10,
+  "source_files_count": 12,
   "results": [
     {
       "event_name": "Campionat Territorial Sub10, Sub12, Sub14 i Sub16 3a. jornada",
@@ -135,6 +135,58 @@
       "athlete_id": "CL90845",
       "discipline": "Llargada",
       "performance": "3.07",
+      "wind": null,
+      "internal_id": null
+    },
+    {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "10/04/2021",
+      "event_location": "Tarragona-CLA",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210410-catrelleuspromociopreviatarragona.pdf",
+      "athlete_name": "Quim Sousa Iturria",
+      "athlete_dob": "03/05/2010",
+      "athlete_id": "CL90845",
+      "discipline": "4x60",
+      "performance": "36.70",
+      "wind": null,
+      "internal_id": null
+    },
+    {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "10/04/2021",
+      "event_location": "Tarragona-CLA",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210410-catrelleuspromociopreviatarragona.pdf",
+      "athlete_name": "Quim Sousa Iturria",
+      "athlete_dob": "03/05/2010",
+      "athlete_id": "CL90845",
+      "discipline": "3x600",
+      "performance": "6:25.25",
+      "wind": null,
+      "internal_id": null
+    },
+    {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "17/04/2021",
+      "event_location": "El Prat de Llobregat",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210417-catrelleuspromociofinalelprat.pdf",
+      "athlete_name": "Quim Sousa Iturria",
+      "athlete_dob": "03/05/2010",
+      "athlete_id": "CL90845",
+      "discipline": "4x60",
+      "performance": "36.52",
+      "wind": null,
+      "internal_id": null
+    },
+    {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "17/04/2021",
+      "event_location": "El Prat de Llobregat",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210417-catrelleuspromociofinalelprat.pdf",
+      "athlete_name": "Quim Sousa Iturria",
+      "athlete_dob": "03/05/2010",
+      "athlete_id": "CL90845",
+      "discipline": "4x60",
+      "performance": "36.79",
       "wind": null,
       "internal_id": null
     },
@@ -265,7 +317,7 @@
       "athlete_id": "CL90845",
       "discipline": "80 metres llisos",
       "performance": "12.12",
-      "wind": "-1.4",
+      "wind": null,
       "internal_id": null
     },
     {

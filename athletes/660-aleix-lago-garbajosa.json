@@ -2,7 +2,7 @@
   "athlete_name": "ALEIX LAGO GARBAJOSA",
   "athlete_id": "CT264",
   "athlete_dob": "26/9/2002",
-  "total_results": 40,
+  "total_results": 46,
   "name_variants_found": [
     "2 111 (t) Aleix Lago Garbajosa CM 6 q",
     "2 33 Aleix Lago Garbajosa",
@@ -23,7 +23,7 @@
     "CL71714",
     "CT264"
   ],
-  "source_files_count": 25,
+  "source_files_count": 31,
   "results": [
     {
       "event_name": "",
@@ -178,7 +178,7 @@
       "athlete_id": "",
       "discipline": "Alçada",
       "performance": "10.63",
-      "wind": "0.7",
+      "wind": null,
       "internal_id": 660
     },
     {
@@ -191,7 +191,7 @@
       "athlete_id": "",
       "discipline": "Alçada",
       "performance": "10.16",
-      "wind": "0.7",
+      "wind": null,
       "internal_id": 660
     },
     {
@@ -204,7 +204,7 @@
       "athlete_id": "",
       "discipline": "Alçada",
       "performance": "10.78",
-      "wind": "0.7",
+      "wind": null,
       "internal_id": 660
     },
     {
@@ -217,7 +217,7 @@
       "athlete_id": "",
       "discipline": "Alçada",
       "performance": "10.55",
-      "wind": "0.7",
+      "wind": null,
       "internal_id": 660
     },
     {
@@ -416,6 +416,19 @@
       "internal_id": 660
     },
     {
+      "event_name": "Control Sub-18 i Sub-20 en Pista Coberta (1a jornada) - Control Sub-18 i Sub-20 en Pista Coberta (1a jornada)",
+      "event_date": "09/12/2017",
+      "event_location": "Club                                               Lic",
+      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20171209-controlsub1820pcsabadell.pdf",
+      "athlete_name": "Aleix Lago Garbajosa",
+      "athlete_dob": "26/09/2002",
+      "athlete_id": "CL27847",
+      "discipline": "800 metres llisos",
+      "performance": "2:06.73",
+      "wind": null,
+      "internal_id": 660
+    },
+    {
       "event_name": "Control Sub-18 i Sub-20 en Pista Coberta (2a jornada) - Control Sub-18 i Sub-20 en Pista Coberta (2a jornada)",
       "event_date": "16/12/2017",
       "event_location": "Sabadell",
@@ -455,6 +468,19 @@
       "internal_id": 660
     },
     {
+      "event_name": " - Sabadell (Pista Coberta de Catalunya), 12 enero 2020",
+      "event_date": "12/01/2020",
+      "event_location": "Club                                             Lic",
+      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20200112-catclubsbpcsabadell.pdf",
+      "athlete_name": "Aleix Lago Garbajosa",
+      "athlete_dob": "26/09/2002",
+      "athlete_id": "CL27847",
+      "discipline": "800 metres llisos",
+      "performance": "2:01.98",
+      "wind": null,
+      "internal_id": 660
+    },
+    {
       "event_name": "Control d´Atletisme",
       "event_date": "19/08/2020",
       "event_location": "Santa Coloma de Gramenet",
@@ -481,6 +507,32 @@
       "internal_id": 660
     },
     {
+      "event_name": "Controls Pista Coberta Sub20 - Sub18 - Controls Pista Coberta Sub20 - Sub18",
+      "event_date": "30/01/2021",
+      "event_location": "Barcelona - Palau Sant Jordi",
+      "event_src": "http://fcatletisme.cat/wp-content/uploads/2021/01/resultat-20210130-controlsub1820pcbcnpsj.pdf",
+      "athlete_name": "Aleix Lago Garbajosa",
+      "athlete_dob": "26/09/2002",
+      "athlete_id": "CT264",
+      "discipline": "800 metres llisos",
+      "performance": "2:00.80",
+      "wind": null,
+      "internal_id": 660
+    },
+    {
+      "event_name": "Control Absolut en pista coberta",
+      "event_date": "07/02/2021",
+      "event_location": "Barcelona - Palau Sant Jordi",
+      "event_src": "http://fcatletisme.cat/wp-content/uploads/2021/02/resultat-20210207-controlabsolutbcnpsj.pdf",
+      "athlete_name": "Aleix Lago Garbajosa",
+      "athlete_dob": "26/09/2002",
+      "athlete_id": "CT264",
+      "discipline": "800 metres llisos",
+      "performance": "1:59.98",
+      "wind": null,
+      "internal_id": 660
+    },
+    {
       "event_name": "",
       "event_date": "27/02/2021",
       "event_location": "Lleida",
@@ -494,6 +546,19 @@
       "internal_id": 660
     },
     {
+      "event_name": "Control Absolut - Barcelona (Estadi Joan Serrahima), 12 mayo 2021",
+      "event_date": "12/05/2021",
+      "event_location": "Club                                             Lic",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/05/resultat-20210512-controlabsolutserrahima.pdf",
+      "athlete_name": "Aleix Lago Garbajosa",
+      "athlete_dob": "26/09/2002",
+      "athlete_id": "CT264",
+      "discipline": "800 metres llisos",
+      "performance": "1:55.74",
+      "wind": null,
+      "internal_id": 660
+    },
+    {
       "event_name": "Control Maig",
       "event_date": "15/05/2021",
       "event_location": "Ascó",
@@ -503,6 +568,19 @@
       "athlete_id": "CT264",
       "discipline": "400 metres llisos",
       "performance": "51.30",
+      "wind": null,
+      "internal_id": 660
+    },
+    {
+      "event_name": "Control Absolut en Pista Coberta - Control Absolut en Pista Coberta",
+      "event_date": "15/01/2022",
+      "event_location": "Club                                             Lic",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2022/01/resultat-20220115-controlabsolutpcsabadell.pdf",
+      "athlete_name": "Aleix Lago Garbajosa",
+      "athlete_dob": "26/09/2002",
+      "athlete_id": "CT264",
+      "discipline": "800 metres llisos",
+      "performance": "1:55.10",
       "wind": null,
       "internal_id": 660
     },

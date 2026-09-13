@@ -2,7 +2,7 @@
   "athlete_name": "MARÍA FERRAN JIMENEZ",
   "athlete_id": "CL94384",
   "athlete_dob": "5/4/2011",
-  "total_results": 130,
+  "total_results": 132,
   "name_variants_found": [
     "1 260 (t) Maria Ferran Jimenez AF",
     "10 108 (t) Maria Ferran Jimenez AF q",
@@ -40,6 +40,7 @@
     "9 72 (t) Maria Ferran Jimenez AF",
     "MARIA FERRAN JIMENEZ",
     "Maria FERRAN JIMENEZ",
+    "Maria Ferran Jimenez",
     "Maria Ferran Jimenez AF",
     "Maria Ferran Jimenez AF 3",
     "Maria Ferran Jimenez AF 4",
@@ -48,7 +49,7 @@
   "license_variants_found": [
     "CL94384"
   ],
-  "source_files_count": 51,
+  "source_files_count": 52,
   "results": [
     {
       "event_name": "Control Hivern",
@@ -242,6 +243,32 @@
       "athlete_id": "CL94384",
       "discipline": "Llargada",
       "performance": "2.53",
+      "wind": null,
+      "internal_id": 1325
+    },
+    {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "10/04/2021",
+      "event_location": "Tarragona-CLA",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210410-catrelleuspromociopreviatarragona.pdf",
+      "athlete_name": "Maria Ferran Jimenez",
+      "athlete_dob": "05/04/2011",
+      "athlete_id": "CL94384",
+      "discipline": "4x60",
+      "performance": "40.42",
+      "wind": null,
+      "internal_id": 1325
+    },
+    {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "10/04/2021",
+      "event_location": "Tarragona-CLA",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210410-catrelleuspromociopreviatarragona.pdf",
+      "athlete_name": "Maria Ferran Jimenez",
+      "athlete_dob": "05/04/2011",
+      "athlete_id": "CL94384",
+      "discipline": "3x600",
+      "performance": "6:50.98",
       "wind": null,
       "internal_id": 1325
     },
@@ -671,7 +698,7 @@
       "athlete_id": "CL94384",
       "discipline": "80 metres llisos",
       "performance": "12.08",
-      "wind": "+2.1",
+      "wind": null,
       "internal_id": 1325
     },
     {

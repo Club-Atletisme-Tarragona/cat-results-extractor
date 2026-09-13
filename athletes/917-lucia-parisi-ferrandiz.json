@@ -2,14 +2,15 @@
   "athlete_name": "LUCIA PARISI FERRANDIZ",
   "athlete_id": "CL94403",
   "athlete_dob": "9/10/2007",
-  "total_results": 3,
+  "total_results": 4,
   "name_variants_found": [
-    "14 55 (t) Lucia Parisi Ferrandiz IF"
+    "14 55 (t) Lucia Parisi Ferrandiz IF",
+    "Lucia Parisi Ferrandiz"
   ],
   "license_variants_found": [
     "CL94403"
   ],
-  "source_files_count": 1,
+  "source_files_count": 2,
   "results": [
     {
       "event_name": "Campionat Territorial Sub10, Sub12, Sub14 i Sub16 4a. jornada",
@@ -47,6 +48,19 @@
       "athlete_id": "CL94403",
       "discipline": "Pes (2 Kg)",
       "performance": "3.66",
+      "wind": null,
+      "internal_id": 917
+    },
+    {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "10/04/2021",
+      "event_location": "Tarragona-CLA",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210410-catrelleuspromociopreviatarragona.pdf",
+      "athlete_name": "Lucia Parisi Ferrandiz",
+      "athlete_dob": "09/10/2007",
+      "athlete_id": "CL94403",
+      "discipline": "4x100",
+      "performance": "55.54",
       "wind": null,
       "internal_id": 917
     }

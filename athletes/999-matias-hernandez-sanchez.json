@@ -2,7 +2,7 @@
   "athlete_name": "MATIAS HERNANDEZ SANCHEZ",
   "athlete_id": "CAT-3742986",
   "athlete_dob": "20/12/2008",
-  "total_results": 75,
+  "total_results": 76,
   "name_variants_found": [
     "1 129 (t) Matias Hernandez Sanchez IM",
     "1 250 Matias Hernandez Sanchez",
@@ -39,7 +39,7 @@
     "CT2248",
     "CT3096"
   ],
-  "source_files_count": 31,
+  "source_files_count": 32,
   "results": [
     {
       "event_name": "Control Gener 2",
@@ -406,6 +406,19 @@
       "internal_id": 999
     },
     {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "10/04/2021",
+      "event_location": "Tarragona-CLA",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210410-catrelleuspromociopreviatarragona.pdf",
+      "athlete_name": "Matias Hernandez Sanchez",
+      "athlete_dob": "20/12/2008",
+      "athlete_id": "CL94387",
+      "discipline": "4x200",
+      "performance": "2:00.35",
+      "wind": null,
+      "internal_id": 999
+    },
+    {
       "event_name": "Campionat Territorial primera jornada",
       "event_date": "11/04/2021",
       "event_location": "Reus",
@@ -493,7 +506,7 @@
       "athlete_id": "CL94387",
       "discipline": "80 metres llisos",
       "performance": "11.69",
-      "wind": "+1.4",
+      "wind": null,
       "internal_id": 999
     },
     {

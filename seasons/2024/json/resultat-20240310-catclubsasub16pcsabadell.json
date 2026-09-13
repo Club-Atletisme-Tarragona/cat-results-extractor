@@ -2,88 +2,488 @@
   "event_name": "Campionat de Catalunya de Clubs \"A\" sub16 - Pista Coberta d'Atletisme de Catalunya Carme Valero, 10 marzo 2024",
   "event_date": "10/03/2024",
   "event_location": "Sabadell",
-  "total_results": 8,
+  "total_results": 48,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2024/03/resultat-20240310-catclubsasub16pcsabadell.pdf",
   "results": [
     {
-      "athlete_name": "4 37 (t) Samuel Marcos Perez",
+      "athlete_name": "Illan Tomas Batet",
+      "athlete_dob": "18/12/2009",
+      "athlete_id": "CL11106",
+      "performance": "8.49",
+      "discipline": "60 metres llisos",
+      "raw_discipline_name": "60m MASC. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Joan Rich Salas",
+      "athlete_dob": "08/03/2009",
+      "athlete_id": "CL94407",
+      "performance": "40.96",
+      "discipline": "300 metres llisos",
+      "raw_discipline_name": "300m MASC. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "David Fernandez Pineda",
+      "athlete_dob": "18/06/2010",
+      "athlete_id": "CL11323",
+      "performance": "1:47.02",
+      "discipline": "600 metres llisos",
+      "raw_discipline_name": "600m MASC. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Ivan Ferrer Villa",
+      "athlete_dob": "14/04/2009",
+      "athlete_id": "CL86457",
+      "performance": "3:12.76",
+      "discipline": "1000 metres llisos",
+      "raw_discipline_name": "1.000m MASC. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Marc Suarez Piza",
+      "athlete_dob": "29/04/2009",
+      "athlete_id": "CT2177",
+      "performance": "10:40.09",
+      "discipline": "3000 metres llisos",
+      "raw_discipline_name": "3.000m MASC. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Jeroni Flores Piñas",
+      "athlete_dob": "04/01/2009",
+      "athlete_id": "CT2935",
+      "performance": "9.08",
+      "discipline": "60 metres tanques (0.91)",
+      "raw_discipline_name": "60m tanques (0,91) MASC. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Unai Olaya Minguez 3.5",
+      "athlete_dob": "27/07/2009",
+      "athlete_id": "CL854",
+      "performance": "1.47",
+      "discipline": "Alçada",
+      "raw_discipline_name": "Alçada MASC. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Samuel Marcos Perez",
       "athlete_dob": "01/02/2010",
       "athlete_id": "CL90024",
       "performance": "2.70",
       "discipline": "Perxa",
       "raw_discipline_name": "Perxa MASC. PC",
       "wind": null,
-      "internal_id": 1071
+      "position": null
     },
     {
-      "athlete_name": "4 37 (t) Yvan Blay Gomez",
+      "athlete_name": "Yvan Blay Gomez",
       "athlete_dob": "18/02/2009",
       "athlete_id": "CT627",
       "performance": "5.09",
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada MASC. PC",
       "wind": null,
-      "internal_id": null
+      "position": null
     },
     {
-      "athlete_name": "7 37 (t) Iker Rodriguez Barrios",
+      "athlete_name": "Iker Rodriguez Barrios",
       "athlete_dob": "11/08/2010",
       "athlete_id": "CL11327",
       "performance": "9.85",
       "discipline": "Triple",
       "raw_discipline_name": "Triple Salt MASC. PC",
       "wind": null,
-      "internal_id": 1069
+      "position": null
     },
     {
-      "athlete_name": "7 37 (t) Iker Rodriguez Barrios",
+      "athlete_name": "Iker Rodriguez Barrios",
       "athlete_dob": "11/08/2010",
       "athlete_id": "CL11327",
       "performance": "10.09",
       "discipline": "Triple",
       "raw_discipline_name": "Triple Salt MASC. PC",
       "wind": null,
-      "internal_id": 1069
+      "position": null
     },
     {
-      "athlete_name": "7 37 (t) Iker Rodriguez Barrios",
+      "athlete_name": "Iker Rodriguez Barrios",
       "athlete_dob": "11/08/2010",
       "athlete_id": "CL11327",
       "performance": "9.79",
       "discipline": "Triple",
       "raw_discipline_name": "Triple Salt MASC. PC",
       "wind": null,
-      "internal_id": 1069
+      "position": null
     },
     {
-      "athlete_name": "3 42 (t) Olivia Ruiz Barbera 3",
+      "athlete_name": "Pau Esteve Hostalot",
+      "athlete_dob": "27/08/2010",
+      "athlete_id": "CL94383",
+      "performance": "6.79",
+      "discipline": "Pes (4 Kg)",
+      "raw_discipline_name": "Pes (4 Kg) MASC. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Pau Esteve Hostalot",
+      "athlete_dob": "27/08/2010",
+      "athlete_id": "CL94383",
+      "performance": "6.46",
+      "discipline": "Pes (4 Kg)",
+      "raw_discipline_name": "Pes (4 Kg) MASC. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Jordi Bofarull Cot",
+      "athlete_dob": "27/06/2010",
+      "athlete_id": "CL4161",
+      "performance": "3:02.07",
+      "discipline": "4x300",
+      "raw_discipline_name": "4x300 MAS PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Jeroni Flores Piñas",
+      "athlete_dob": "04/01/2009",
+      "athlete_id": "CT2935",
+      "performance": "3:02.07",
+      "discipline": "4x300",
+      "raw_discipline_name": "4x300 MAS PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Unai Olaya Minguez",
+      "athlete_dob": "27/07/2009",
+      "athlete_id": "CL854",
+      "performance": "3:02.07",
+      "discipline": "4x300",
+      "raw_discipline_name": "4x300 MAS PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Iker Rodriguez Barrios",
+      "athlete_dob": "11/08/2010",
+      "athlete_id": "CL11327",
+      "performance": "3:02.07",
+      "discipline": "4x300",
+      "raw_discipline_name": "4x300 MAS PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Nil Bacardit Martinez",
+      "athlete_dob": "05/03/2010",
+      "athlete_id": "CL12382",
+      "performance": "3:02.07",
+      "discipline": "4x300",
+      "raw_discipline_name": "4x300 MAS PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Pau Pastor Del Cura",
+      "athlete_dob": "24/02/2009",
+      "athlete_id": "CL3331",
+      "performance": "3:02.07",
+      "discipline": "4x300",
+      "raw_discipline_name": "4x300 MAS PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Pau Sala Cabeza",
+      "athlete_dob": "02/06/2009",
+      "athlete_id": "CL87895",
+      "performance": "3:02.07",
+      "discipline": "4x300",
+      "raw_discipline_name": "4x300 MAS PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Isaac Hernandez Fernandez",
+      "athlete_dob": "21/04/2010",
+      "athlete_id": "CL81273",
+      "performance": "3:02.07",
+      "discipline": "4x300",
+      "raw_discipline_name": "4x300 MAS PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Alex Palacios Arroyo",
+      "athlete_dob": "26/01/2009",
+      "athlete_id": "CL6953",
+      "performance": "3:02.07",
+      "discipline": "4x300",
+      "raw_discipline_name": "4x300 MAS PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Manel Ramos Pastor",
+      "athlete_dob": "26/02/2009",
+      "athlete_id": "CT2928",
+      "performance": "3:02.07",
+      "discipline": "4x300",
+      "raw_discipline_name": "4x300 MAS PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Carlos Rodriguez Vendrell",
+      "athlete_dob": "16/07/2009",
+      "athlete_id": "CT2880",
+      "performance": "3:02.07",
+      "discipline": "4x300",
+      "raw_discipline_name": "4x300 MAS PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Maximiliano Sanchez Chaiput",
+      "athlete_dob": "03/08/2009",
+      "athlete_id": "CL7100",
+      "performance": "3:02.07",
+      "discipline": "4x300",
+      "raw_discipline_name": "4x300 MAS PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Javier Diaz Cabrera",
+      "athlete_dob": "06/08/2010",
+      "athlete_id": "CL91475",
+      "performance": "3:02.07",
+      "discipline": "4x300",
+      "raw_discipline_name": "4x300 MAS PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Arnau Farràs Ortega",
+      "athlete_dob": "25/07/2010",
+      "athlete_id": "CL7930",
+      "performance": "3:02.07",
+      "discipline": "4x300",
+      "raw_discipline_name": "4x300 MAS PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Hector Sagnier Benedicto",
+      "athlete_dob": "12/02/2010",
+      "athlete_id": "CL8385",
+      "performance": "3:02.07",
+      "discipline": "4x300",
+      "raw_discipline_name": "4x300 MAS PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Ouussama Baidder Ouhaddou",
+      "athlete_dob": "08/09/2009",
+      "athlete_id": "CL13939",
+      "performance": "3:02.07",
+      "discipline": "4x300",
+      "raw_discipline_name": "4x300 MAS PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Noa Anton Paterna",
+      "athlete_dob": "20/01/2010",
+      "athlete_id": "CT2934",
+      "performance": "8.01",
+      "discipline": "60 metres llisos",
+      "raw_discipline_name": "60m FEM. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Olivia Ruiz Barbera",
       "athlete_dob": "24/04/2009",
       "athlete_id": "CL3439",
       "performance": "46.52",
       "discipline": "300 metres llisos",
       "raw_discipline_name": "300m FEM. PC",
       "wind": null,
-      "internal_id": 1018
+      "position": null
     },
     {
-      "athlete_name": "3 42 (t) Alba Guijarro Rom 9.5",
+      "athlete_name": "Clara Ortiz De Landazuri Ontoso",
+      "athlete_dob": "04/12/2009",
+      "athlete_id": "CT2195",
+      "performance": "1:46.42",
+      "discipline": "600 metres llisos",
+      "raw_discipline_name": "600m FEM. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Noemi Gonzalez Carrillo",
+      "athlete_dob": "04/04/2009",
+      "athlete_id": "CL86462",
+      "performance": "3:25.17",
+      "discipline": "1000 metres llisos",
+      "raw_discipline_name": "1.000m FEM. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Natalia Lara Girbes",
+      "athlete_dob": "13/04/2009",
+      "athlete_id": "CL90847",
+      "performance": "13:28.35",
+      "discipline": "3000 metres llisos",
+      "raw_discipline_name": "3.000m FEM. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Nora Montolio Amaro",
+      "athlete_dob": "05/02/2010",
+      "athlete_id": "CL90841",
+      "performance": "10.48",
+      "discipline": "60 metres tanques (0.76)",
+      "raw_discipline_name": "60m tanques (0,762) FEM. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Alba Guijarro Rom 9.5",
       "athlete_dob": "08/07/2010",
       "athlete_id": "CL90465",
       "performance": "1.40",
       "discipline": "Alçada",
       "raw_discipline_name": "Alçada FEM. PC",
       "wind": null,
-      "internal_id": 1074
+      "position": null
     },
     {
-      "athlete_name": "49 (t) Yamke Diaby Kaba CL15480",
-      "athlete_dob": "21/07/2009",
-      "athlete_id": "CL90832",
-      "performance": "17.89",
-      "discipline": "Pes (3 Kg)",
-      "raw_discipline_name": "Pes (3kg) FEM. PC",
+      "athlete_name": "Ona Sansa Garcia",
+      "athlete_dob": "31/05/2010",
+      "athlete_id": "CT2938",
+      "performance": "3.00",
+      "discipline": "Perxa",
+      "raw_discipline_name": "Perxa FEM. PC",
       "wind": null,
-      "internal_id": null
+      "position": null
+    },
+    {
+      "athlete_name": "Duina Borreda Cervello",
+      "athlete_dob": "26/12/2010",
+      "athlete_id": "CL90830",
+      "performance": "4.17",
+      "discipline": "Llargada",
+      "raw_discipline_name": "Llargada FEM. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Diana García Mur",
+      "athlete_dob": "23/02/2010",
+      "athlete_id": "CL14508",
+      "performance": "8.82",
+      "discipline": "Triple",
+      "raw_discipline_name": "Triple Salt FEM. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Diana García Mur",
+      "athlete_dob": "23/02/2010",
+      "athlete_id": "CL14508",
+      "performance": "8.63",
+      "discipline": "Triple",
+      "raw_discipline_name": "Triple Salt FEM. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Noa Nin Navas",
+      "athlete_dob": "28/08/2009",
+      "athlete_id": "CT2954",
+      "performance": "8.35",
+      "discipline": "Pes (3 Kg)",
+      "raw_discipline_name": "Pes (3 Kg) FEM. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Noa Nin Navas",
+      "athlete_dob": "28/08/2009",
+      "athlete_id": "CT2954",
+      "performance": "9.22",
+      "discipline": "Pes (3 Kg)",
+      "raw_discipline_name": "Pes (3 Kg) FEM. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Noa Nin Navas",
+      "athlete_dob": "28/08/2009",
+      "athlete_id": "CT2954",
+      "performance": "8.89",
+      "discipline": "Pes (3 Kg)",
+      "raw_discipline_name": "Pes (3 Kg) FEM. PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Paula Diez Plasencia",
+      "athlete_dob": "15/11/2010",
+      "athlete_id": "CL90832",
+      "performance": "3:17.89",
+      "discipline": "4x300",
+      "raw_discipline_name": "4x300 FEM PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Lucia Marcos Perez",
+      "athlete_dob": "01/02/2010",
+      "athlete_id": "CL3853",
+      "performance": "3:17.89",
+      "discipline": "4x300",
+      "raw_discipline_name": "4x300 FEM PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Nora Montolio Amaro",
+      "athlete_dob": "05/02/2010",
+      "athlete_id": "CL90841",
+      "performance": "3:17.89",
+      "discipline": "4x300",
+      "raw_discipline_name": "4x300 FEM PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Ona Sansa Garcia",
+      "athlete_dob": "31/05/2010",
+      "athlete_id": "CT2938",
+      "performance": "3:17.89",
+      "discipline": "4x300",
+      "raw_discipline_name": "4x300 FEM PC",
+      "wind": null,
+      "position": null
     }
   ]
 }

@@ -2,15 +2,55 @@
   "athlete_name": "RICARDO PRIO ROCA",
   "athlete_id": "CL3014",
   "athlete_dob": "12/5/2004",
-  "total_results": 1,
+  "total_results": 4,
   "name_variants_found": [
-    "4 74 (t) Ricard Prio Roca JM 5"
+    "4 74 (t) Ricard Prio Roca JM 5",
+    "Ricard Prio Roca"
   ],
   "license_variants_found": [
     "CL3014"
   ],
-  "source_files_count": 1,
+  "source_files_count": 4,
   "results": [
+    {
+      "event_name": "Controls Pista Coberta Sub20 - Sub18 - Controls Pista Coberta Sub20 - Sub18",
+      "event_date": "30/01/2021",
+      "event_location": "Barcelona - Palau Sant Jordi",
+      "event_src": "http://fcatletisme.cat/wp-content/uploads/2021/01/resultat-20210130-controlsub1820pcbcnpsj.pdf",
+      "athlete_name": "Ricard Prio Roca",
+      "athlete_dob": "12/05/2004",
+      "athlete_id": "CL3014",
+      "discipline": "3000 metres llisos",
+      "performance": "10:25.34",
+      "wind": null,
+      "internal_id": 778
+    },
+    {
+      "event_name": "Control Absolut",
+      "event_date": "19/06/2021",
+      "event_location": "Hospitalet de Llobregat",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/06/resultat-20210619-controlabsolutlhospitalet.pdf",
+      "athlete_name": "Ricard Prio Roca",
+      "athlete_dob": "12/05/2004",
+      "athlete_id": "CL3014",
+      "discipline": "400 metres llisos",
+      "performance": "53.89",
+      "wind": null,
+      "internal_id": 778
+    },
+    {
+      "event_name": "Control Absolut en Pista Coberta - Control Absolut en Pista Coberta",
+      "event_date": "08/01/2022",
+      "event_location": "Club                                               Lic",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2022/01/resultat-20220108-controlabsolutpcsabadell.pdf",
+      "athlete_name": "Ricard Prio Roca",
+      "athlete_dob": "12/05/2004",
+      "athlete_id": "CL3014",
+      "discipline": "400 metres llisos",
+      "performance": "56.18",
+      "wind": null,
+      "internal_id": 778
+    },
     {
       "event_name": "Campionat de Catalunya de Clubs Sub20 Masculí en pista coberta - Sabadell (Pista Coberta de Catalunya), 30 enero 2022",
       "event_date": "30/01/2022",

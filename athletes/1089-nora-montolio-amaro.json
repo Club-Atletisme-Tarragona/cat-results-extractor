@@ -2,7 +2,7 @@
   "athlete_name": "NORA MONTOLIO AMARO",
   "athlete_id": "CAT-3895023",
   "athlete_dob": "5/2/2010",
-  "total_results": 207,
+  "total_results": 215,
   "name_variants_found": [
     "1 31 (t) Nora Montolio Amaro BF",
     "1 72 (t) Nora Montolio Amaro AF",
@@ -50,6 +50,7 @@
     "9 107 (t) Nora Montolio Amaro IF",
     "NORA MONTOLIO AMARO",
     "Nora MONTOLIO AMARO",
+    "Nora Montolio Amaro",
     "Nora Montolio Amaro AF",
     "Nora Montolio Amaro AF 2",
     "Nora Montolio Amaro AF 3",
@@ -60,7 +61,7 @@
     "CAT-3895023",
     "CL90841"
   ],
-  "source_files_count": 75,
+  "source_files_count": 79,
   "results": [
     {
       "event_name": "Control Gener 2",
@@ -475,6 +476,71 @@
       "athlete_id": "CL90841",
       "discipline": "Llargada",
       "performance": "3.56",
+      "wind": null,
+      "internal_id": 1089
+    },
+    {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "10/04/2021",
+      "event_location": "Tarragona-CLA",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210410-catrelleuspromociopreviatarragona.pdf",
+      "athlete_name": "Nora Montolio Amaro",
+      "athlete_dob": "05/02/2010",
+      "athlete_id": "CL90841",
+      "discipline": "4x60",
+      "performance": "35.03",
+      "wind": null,
+      "internal_id": 1089
+    },
+    {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "10/04/2021",
+      "event_location": "Tarragona-CLA",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210410-catrelleuspromociopreviatarragona.pdf",
+      "athlete_name": "Nora Montolio Amaro",
+      "athlete_dob": "05/02/2010",
+      "athlete_id": "CL90841",
+      "discipline": "3x600",
+      "performance": "6:02.36",
+      "wind": null,
+      "internal_id": 1089
+    },
+    {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "17/04/2021",
+      "event_location": "El Prat de Llobregat",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210417-catrelleuspromociofinalelprat.pdf",
+      "athlete_name": "Nora Montolio Amaro",
+      "athlete_dob": "05/02/2010",
+      "athlete_id": "CL90841",
+      "discipline": "4x60",
+      "performance": "35.05",
+      "wind": null,
+      "internal_id": 1089
+    },
+    {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "17/04/2021",
+      "event_location": "El Prat de Llobregat",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210417-catrelleuspromociofinalelprat.pdf",
+      "athlete_name": "Nora Montolio Amaro",
+      "athlete_dob": "05/02/2010",
+      "athlete_id": "CL90841",
+      "discipline": "4x60",
+      "performance": "34.90",
+      "wind": null,
+      "internal_id": 1089
+    },
+    {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "17/04/2021",
+      "event_location": "El Prat de Llobregat",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210417-catrelleuspromociofinalelprat.pdf",
+      "athlete_name": "Nora Montolio Amaro",
+      "athlete_dob": "05/02/2010",
+      "athlete_id": "CL90841",
+      "discipline": "3x600",
+      "performance": "5:47.12",
       "wind": null,
       "internal_id": 1089
     },
@@ -1112,7 +1178,7 @@
       "athlete_id": "CL90841",
       "discipline": "3000 metres llisos",
       "performance": "3:32.91",
-      "wind": "-3.0",
+      "wind": null,
       "internal_id": 1089
     },
     {
@@ -1269,6 +1335,45 @@
       "discipline": "Triple",
       "performance": "9.05",
       "wind": "+1.5",
+      "internal_id": 1089
+    },
+    {
+      "event_name": "Control Pista Coberta Sub16 - Control Pista Coberta Sub16",
+      "event_date": "16/12/2023",
+      "event_location": "Club                                            Lic",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2023/12/resultat-20231216-controlsub16pcsabadell.pdf",
+      "athlete_name": "Nora Montolio Amaro",
+      "athlete_dob": "05/02/2010",
+      "athlete_id": "CL90841",
+      "discipline": "600 metres llisos",
+      "performance": "1:51.14",
+      "wind": null,
+      "internal_id": 1089
+    },
+    {
+      "event_name": "Campionat de Catalunya de Clubs \"A\" sub16 - Pista Coberta d'Atletisme de Catalunya Carme Valero, 10 marzo 2024",
+      "event_date": "10/03/2024",
+      "event_location": "Sabadell",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2024/03/resultat-20240310-catclubsasub16pcsabadell.pdf",
+      "athlete_name": "Nora Montolio Amaro",
+      "athlete_dob": "05/02/2010",
+      "athlete_id": "CL90841",
+      "discipline": "60 metres tanques (0.76)",
+      "performance": "10.48",
+      "wind": null,
+      "internal_id": 1089
+    },
+    {
+      "event_name": "Campionat de Catalunya de Clubs \"A\" sub16 - Pista Coberta d'Atletisme de Catalunya Carme Valero, 10 marzo 2024",
+      "event_date": "10/03/2024",
+      "event_location": "Sabadell",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2024/03/resultat-20240310-catclubsasub16pcsabadell.pdf",
+      "athlete_name": "Nora Montolio Amaro",
+      "athlete_dob": "05/02/2010",
+      "athlete_id": "CL90841",
+      "discipline": "4x300",
+      "performance": "3:17.89",
+      "wind": null,
       "internal_id": 1089
     },
     {

@@ -2,7 +2,7 @@
   "athlete_name": "JOSÉ MARÍA PUIG LARA",
   "athlete_id": "CT27228",
   "athlete_dob": "30/11/1951",
-  "total_results": 15,
+  "total_results": 17,
   "name_variants_found": [
     "3 132 Josep Maria Puig Lara M-70",
     "4 274 Josep Maria Puig Lara M-70",
@@ -11,12 +11,13 @@
     "7 139 Josep Maria Puig Lara M-65",
     "JOSEP MARIA PUIG LARA",
     "Josep Maria PUIG LARA",
+    "Josep Maria Puig Lara",
     "Josep Maria Puig Lara M-65"
   ],
   "license_variants_found": [
     "CT27228"
   ],
-  "source_files_count": 11,
+  "source_files_count": 12,
   "results": [
     {
       "event_name": "Control Primavera 1a. jornada",
@@ -120,6 +121,32 @@
       "discipline": "60 metres llisos",
       "performance": "9.62",
       "wind": "-0.4",
+      "internal_id": null
+    },
+    {
+      "event_name": "Campionat de Catalunya Màster Individual i Relleus en Pista Coberta - Campionat de Catalunya Màster Individual i Relleus en Pista Coberta",
+      "event_date": "28/01/2024",
+      "event_location": "Club                                               Lic",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2024/01/resultat-20240128-catmasterpcsabadell.pdf",
+      "athlete_name": "Josep Maria Puig Lara",
+      "athlete_dob": "30/11/1951",
+      "athlete_id": "CT27228",
+      "discipline": "60 metres llisos",
+      "performance": "9.77",
+      "wind": null,
+      "internal_id": null
+    },
+    {
+      "event_name": "Campionat de Catalunya Màster Individual i Relleus en Pista Coberta - Campionat de Catalunya Màster Individual i Relleus en Pista Coberta",
+      "event_date": "28/01/2024",
+      "event_location": "Club                                               Lic",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2024/01/resultat-20240128-catmasterpcsabadell.pdf",
+      "athlete_name": "Josep Maria Puig Lara",
+      "athlete_dob": "30/11/1951",
+      "athlete_id": "CT27228",
+      "discipline": "200 metres llisos",
+      "performance": "33.94",
+      "wind": null,
       "internal_id": null
     },
     {

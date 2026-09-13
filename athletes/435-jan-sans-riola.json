@@ -2,7 +2,7 @@
   "athlete_name": "JAN SANS RIOLA",
   "athlete_id": "CAT-3791853",
   "athlete_dob": "23/10/1998",
-  "total_results": 128,
+  "total_results": 134,
   "name_variants_found": [
     "1 131 Jan Sans Riola PM 4 Q",
     "1 371 Jan Sans Riola PM 5 8 RCAM",
@@ -10,6 +10,7 @@
     "1 428 Jan Sans Riola",
     "1 58 Jan Sans Riola JM 3",
     "1 58 Jan Sans Riola JM 6 Q",
+    "1 Jan Sans Riola",
     "2 6 Jan Sans Riola 4",
     "4 104 Jan Sans Riola SM 4",
     "6 5 Jan Sans Riola PM",
@@ -24,15 +25,17 @@
     "Jan Sans Riola JM 3",
     "Jan Sans Riola JM 5 Q",
     "Jan Sans Riola LM",
+    "Jan Sans Riola PM",
     "Jan Sans Riola PM 3",
     "Jan Sans Riola PM 4",
-    "SANS RIOLA JAN"
+    "SANS RIOLA JAN",
+    "SANS RIOLA, JAN"
   ],
   "license_variants_found": [
     "CAT-3791853",
     "CT22783"
   ],
-  "source_files_count": 44,
+  "source_files_count": 49,
   "results": [
     {
       "event_name": "CAMPIONAT TERRITORIAL DE PROVES COMBINADES",
@@ -1179,6 +1182,45 @@
       "internal_id": 435
     },
     {
+      "event_name": " - Sabadell (Pista Coberta de Catalunya), 27 febrero 2016",
+      "event_date": "27/02/2016",
+      "event_location": "Club                                             Lic",
+      "event_src": "https://old.fcatletisme.cat/Pcoberta/2016/resulcatjuniorpc270216.pdf",
+      "athlete_name": "Jan Sans Riola",
+      "athlete_dob": "23/10/1998",
+      "athlete_id": "CT22783",
+      "discipline": "60 metres tanques (1.067)",
+      "performance": "7.95",
+      "wind": null,
+      "internal_id": 435
+    },
+    {
+      "event_name": "Control Primavera 2016 - Cambrils",
+      "event_date": "30/04/2016",
+      "event_location": "Cambrils",
+      "event_src": "http://old.fcatletisme.cat/Pairelliure/2016/resulcontrolpimaveracambrils3004-10516.pdf",
+      "athlete_name": "SANS RIOLA, JAN",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "100 metres llisos",
+      "performance": "10.96",
+      "wind": "+2.4",
+      "internal_id": 435
+    },
+    {
+      "event_name": "Control Primavera 2016 - Cambrils",
+      "event_date": "30/04/2016",
+      "event_location": "Cambrils",
+      "event_src": "http://old.fcatletisme.cat/Pairelliure/2016/resulcontrolpimaveracambrils3004-10516.pdf",
+      "athlete_name": "SANS RIOLA, JAN",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "110 metres tanques (1.067)",
+      "performance": "14.37",
+      "wind": "+3.1",
+      "internal_id": 435
+    },
+    {
       "event_name": "Control Cadet, Juvenil i Junior",
       "event_date": "22/05/2016",
       "event_location": "Terrassa",
@@ -1478,6 +1520,19 @@
       "internal_id": 435
     },
     {
+      "event_name": " - Sabadell (Pista Coberta de Catalunya), 12 enero 2020",
+      "event_date": "12/01/2020",
+      "event_location": "Club                                             Lic",
+      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20200112-catclubsbpcsabadell.pdf",
+      "athlete_name": "Jan Sans Riola PM",
+      "athlete_dob": "23/10/1998",
+      "athlete_id": "CT22783",
+      "discipline": "60 metres tanques (1.067)",
+      "performance": "8.12",
+      "wind": null,
+      "internal_id": 435
+    },
+    {
       "event_name": "Campionat de Catalunya Sub23 en Pista Coberta (+3.000 m.ll. Absolut) - Campionat de Catalunya Sub23 en Pista Coberta (+3.000 m.ll. Absolut)",
       "event_date": "26/01/2020",
       "event_location": "Sabadell",
@@ -1543,6 +1598,19 @@
       "internal_id": 435
     },
     {
+      "event_name": "Control Absolut en pista coberta",
+      "event_date": "05/02/2021",
+      "event_location": "Barcelona - Palau Sant Jordi",
+      "event_src": "http://fcatletisme.cat/wp-content/uploads/2021/02/resultat-20210205-controlabsolutpcbcnpsj.pdf",
+      "athlete_name": "1 Jan Sans Riola",
+      "athlete_dob": "23/10/1998",
+      "athlete_id": "CT22783",
+      "discipline": "60 metres llisos",
+      "performance": "7.05",
+      "wind": null,
+      "internal_id": 435
+    },
+    {
       "event_name": "Control Pista Coberta Absolut - Control Pista Coberta Absolut",
       "event_date": "13/02/2021",
       "event_location": "Barcelona",
@@ -1566,6 +1634,19 @@
       "discipline": "100 metres llisos",
       "performance": "10.90",
       "wind": "+0.0",
+      "internal_id": 435
+    },
+    {
+      "event_name": "Control Absolut",
+      "event_date": "19/06/2021",
+      "event_location": "Hospitalet de Llobregat",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/06/resultat-20210619-controlabsolutlhospitalet.pdf",
+      "athlete_name": "Jan Sans Riola",
+      "athlete_dob": "23/10/1998",
+      "athlete_id": "CT22783",
+      "discipline": "400 metres tanques (0.91)",
+      "performance": "56.67",
+      "wind": null,
       "internal_id": 435
     },
     {

@@ -2,9 +2,10 @@
   "athlete_name": "MARÍA MARTIN BORRAS",
   "athlete_id": "CT23429",
   "athlete_dob": "31/3/1999",
-  "total_results": 16,
+  "total_results": 17,
   "name_variants_found": [
     "MARTIN BORRAS MARIA JVF",
+    "MARTIN BORRAS, MARIA",
     "Maria Martin Borras 2",
     "Maria Martin Borras 4 q",
     "Maria Martin Borras LF",
@@ -13,7 +14,7 @@
   "license_variants_found": [
     "CT23429"
   ],
-  "source_files_count": 11,
+  "source_files_count": 12,
   "results": [
     {
       "event_name": "Control Juvenil-Junior en Pista Coberta (1a Jornada) - Control Juvenil-Junior en Pista Coberta (1a Jornada)",
@@ -221,6 +222,19 @@
       "discipline": "Triple",
       "performance": "8.47",
       "wind": null,
+      "internal_id": 474
+    },
+    {
+      "event_name": "Control Primavera 2016 - Cambrils",
+      "event_date": "30/04/2016",
+      "event_location": "Cambrils",
+      "event_src": "http://old.fcatletisme.cat/Pairelliure/2016/resulcontrolpimaveracambrils3004-10516.pdf",
+      "athlete_name": "MARTIN BORRAS, MARIA",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "100 metres llisos",
+      "performance": "12.89",
+      "wind": "+2.9",
       "internal_id": 474
     }
   ]

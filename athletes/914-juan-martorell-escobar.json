@@ -2,7 +2,7 @@
   "athlete_name": "JUAN MARTORELL ESCOBAR",
   "athlete_id": "CAT-3742962",
   "athlete_dob": "22/3/2007",
-  "total_results": 118,
+  "total_results": 120,
   "name_variants_found": [
     "10 137 (t) Joan Martorell Escobar IM",
     "10 283 (t) Joan Martorell Escobar IM",
@@ -35,6 +35,7 @@
     "8 55 (t) Joan Martorell Escobar",
     "JOAN MARTORELL ESCOBAR",
     "Joan MARTORELL ESCOBAR",
+    "Joan Martorell Escobar",
     "Joan Martorell Escobar IM",
     "Joan Martorell Escobar IM 6",
     "Joan Martorell Escobar IM 7",
@@ -47,7 +48,7 @@
     "CT1651",
     "CT1825"
   ],
-  "source_files_count": 44,
+  "source_files_count": 46,
   "results": [
     {
       "event_name": "",
@@ -384,7 +385,7 @@
       "athlete_id": "CL77324",
       "discipline": "80 metres llisos",
       "performance": "12.07",
-      "wind": "+1.8",
+      "wind": null,
       "internal_id": 914
     },
     {
@@ -1112,7 +1113,7 @@
       "athlete_id": "CL77324",
       "discipline": "80 metres llisos",
       "performance": "11.72",
-      "wind": "+0.0",
+      "wind": null,
       "internal_id": 914
     },
     {
@@ -1204,6 +1205,32 @@
       "discipline": "60 metres llisos",
       "performance": "9.08",
       "wind": "+0.0",
+      "internal_id": 914
+    },
+    {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "10/04/2021",
+      "event_location": "Tarragona-CLA",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210410-catrelleuspromociopreviatarragona.pdf",
+      "athlete_name": "Joan Martorell Escobar",
+      "athlete_dob": "22/03/2007",
+      "athlete_id": "CL77324",
+      "discipline": "4x300",
+      "performance": "2:47.09",
+      "wind": null,
+      "internal_id": 914
+    },
+    {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "17/04/2021",
+      "event_location": "El Prat de Llobregat",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210417-catrelleuspromociofinalelprat.pdf",
+      "athlete_name": "Joan Martorell Escobar",
+      "athlete_dob": "22/03/2007",
+      "athlete_id": "CL77324",
+      "discipline": "4x100",
+      "performance": "52.60",
+      "wind": null,
       "internal_id": 914
     },
     {

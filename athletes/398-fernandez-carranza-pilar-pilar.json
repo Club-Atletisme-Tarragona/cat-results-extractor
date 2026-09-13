@@ -2,7 +2,7 @@
   "athlete_name": "FERNANDEZ CARRANZA PILAR PILAR",
   "athlete_id": "CAT-3790267",
   "athlete_dob": "29/7/1961",
-  "total_results": 44,
+  "total_results": 46,
   "name_variants_found": [
     "2 354 (t) Pilar Fernandez Carranza",
     "3 237 Pilar Fernandez Carranza SF",
@@ -15,6 +15,7 @@
     "PILAR FERNANDEZ CARRANZA",
     "Pilar FERNANDEZ CARRANZA",
     "Pilar Fernandez Carranza",
+    "Pilar Fernandez Carranza 6 BRONZE",
     "Pilar Fernandez Carranza W-45",
     "Pilar Fernandez Carranza W-50"
   ],
@@ -24,7 +25,7 @@
     "CT21513",
     "CT22384"
   ],
-  "source_files_count": 17,
+  "source_files_count": 18,
   "results": [
     {
       "event_name": "",
@@ -466,6 +467,32 @@
       "discipline": "200 metres llisos",
       "performance": "33.49",
       "wind": "+0.0",
+      "internal_id": 398
+    },
+    {
+      "event_name": "Campionat de Catalunya Màster Individual i Relleus en Pista Coberta - Campionat de Catalunya Màster Individual i Relleus en Pista Coberta",
+      "event_date": "28/01/2024",
+      "event_location": "Club                                               Lic",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2024/01/resultat-20240128-catmasterpcsabadell.pdf",
+      "athlete_name": "Pilar Fernandez Carranza",
+      "athlete_dob": "15/02/1967",
+      "athlete_id": "CT22384",
+      "discipline": "200 metres llisos",
+      "performance": "34.01",
+      "wind": null,
+      "internal_id": 398
+    },
+    {
+      "event_name": "Campionat de Catalunya Màster Individual i Relleus en Pista Coberta - Campionat de Catalunya Màster Individual i Relleus en Pista Coberta",
+      "event_date": "28/01/2024",
+      "event_location": "Club                                               Lic",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2024/01/resultat-20240128-catmasterpcsabadell.pdf",
+      "athlete_name": "Pilar Fernandez Carranza 6 BRONZE",
+      "athlete_dob": "15/02/1967",
+      "athlete_id": "CT22384",
+      "discipline": "400 metres llisos",
+      "performance": "1:21.00",
+      "wind": null,
       "internal_id": 398
     },
     {

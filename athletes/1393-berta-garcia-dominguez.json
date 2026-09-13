@@ -2,7 +2,7 @@
   "athlete_name": "BERTA GARCIA DOMINGUEZ",
   "athlete_id": "CAT-3789552",
   "athlete_dob": "24/6/2016",
-  "total_results": 40,
+  "total_results": 41,
   "name_variants_found": [
     "10 121 (t) Berta Garcia Dominguez BF",
     "11 358 (t) Berta Garcia Dominguez BF",
@@ -13,7 +13,7 @@
   "license_variants_found": [
     "CL15061"
   ],
-  "source_files_count": 18,
+  "source_files_count": 19,
   "results": [
     {
       "event_name": "Campionat Territorial Sub10-12-14-16 (2a. jornada) - Pista de Atletismo de Camp Clar, 20 abril 2024",
@@ -25,7 +25,7 @@
       "athlete_id": "CL15061",
       "discipline": "Javelina (300 g)",
       "performance": "19.40",
-      "wind": "-1.5",
+      "wind": null,
       "internal_id": 1393
     },
     {
@@ -454,6 +454,19 @@
       "athlete_id": "CL15061",
       "discipline": "Pes (2 Kg)",
       "performance": "3.55",
+      "wind": null,
+      "internal_id": 1393
+    },
+    {
+      "event_name": "Jornada Prèvia Campionat de Catalunya de Relleus AL - Pista de Atletismo Can Jofresa",
+      "event_date": "11/04/2026",
+      "event_location": "Terrassa",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/04/resultat-20260411-catrelleuspreviaterrassa.pdf",
+      "athlete_name": "Berta GARCIA DOMINGUEZ",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "4x60",
+      "performance": "38.13",
       "wind": null,
       "internal_id": 1393
     },

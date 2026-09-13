@@ -22,12 +22,13 @@
     "9 220 (t) Arlet Solana Vila AF",
     "9 77 (t) Arlet Solana Vila AF",
     "ARLET SOLANA VILA",
-    "Arlet SOLANA VILA"
+    "Arlet SOLANA VILA",
+    "Arlet Solana Vila"
   ],
   "license_variants_found": [
     "CL11154"
   ],
-  "source_files_count": 34,
+  "source_files_count": 35,
   "results": [
     {
       "event_name": "Control Gener 1 - Pista de Atletismo de Camp Clar, 14 enero 2023",
@@ -52,6 +53,19 @@
       "athlete_id": "CL11154",
       "discipline": "60 metres tanques (0.50)",
       "performance": "13.34",
+      "wind": null,
+      "internal_id": 1369
+    },
+    {
+      "event_name": "Campionat Catalunya Clubs Sub12 Masculí i Femení \"A\" - Sabadell (Pista coberta de Catalunya), 11 febrero 2023",
+      "event_date": "11/02/2023",
+      "event_location": "Sabadell",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2023/02/resultat-20230211-catclubssub12apcsabadell.pdf",
+      "athlete_name": "Arlet Solana Vila",
+      "athlete_dob": "13/03/2012",
+      "athlete_id": "CL11154",
+      "discipline": "60 metres tanques (0.50)",
+      "performance": "11.76",
       "wind": null,
       "internal_id": 1369
     },
@@ -221,7 +235,7 @@
       "athlete_id": "CL11154",
       "discipline": "3000 metres llisos",
       "performance": "1:55.15",
-      "wind": "-1.4",
+      "wind": null,
       "internal_id": 1369
     },
     {
@@ -390,7 +404,7 @@
       "athlete_id": "CL11154",
       "discipline": "3000 metres llisos",
       "performance": "1:55.80",
-      "wind": "+0.0",
+      "wind": null,
       "internal_id": 1369
     },
     {
@@ -715,7 +729,7 @@
       "athlete_id": "CL11154",
       "discipline": "80 metres llisos",
       "performance": "11.89",
-      "wind": "-1.5",
+      "wind": null,
       "internal_id": 1369
     },
     {
@@ -845,7 +859,7 @@
       "athlete_id": "CL11154",
       "discipline": "80 metres llisos",
       "performance": "11.70",
-      "wind": "-1.5",
+      "wind": null,
       "internal_id": 1369
     },
     {
@@ -1210,19 +1224,6 @@
       "discipline": "Hexatló",
       "performance": "1636",
       "wind": null,
-      "internal_id": 1369
-    },
-    {
-      "event_name": "Campionat Territorial de Proves Combinades - Tarragona i Terres de l'Ebre - Pista de Atletismo de Camp Clar",
-      "event_date": "02/05/2026",
-      "event_location": "Tarragona",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/05/resultat-2026050203-territorialcombinadestarragona.pdf",
-      "athlete_name": "ARLET SOLANA VILA",
-      "athlete_dob": "13/3/2012",
-      "athlete_id": "CL11154",
-      "discipline": "80 metres llisos",
-      "performance": "19.37",
-      "wind": "+1.6",
       "internal_id": 1369
     },
     {

@@ -2,7 +2,7 @@
   "athlete_name": "FERRAN MASCARO NAVARRO",
   "athlete_id": "CL96310",
   "athlete_dob": "2/6/2012",
-  "total_results": 100,
+  "total_results": 101,
   "name_variants_found": [
     "1 186 (t) Ferran Mascaro Navarro",
     "10 460 (t) Ferran Mascaro Navarro IM",
@@ -14,12 +14,12 @@
     "5 109 (t) Ferran Mascaro Navarro q",
     "5 384 (t) Ferran Mascaro Navarro",
     "7 113 (t) Ferran Mascaro Navarro q",
-    "7 32 (t) Ferran Mascaro Navarro",
     "8 407 (t) Ferran Mascaro Navarro IM",
     "8 43 (t) Ferran Mascaro Navarro 8.5",
     "FERRAN MASCARO NAVARRO",
     "FERRAN MASCARO NAVARRO DNS DNS DNS",
-    "Ferran MASCARO NAVARRO"
+    "Ferran MASCARO NAVARRO",
+    "Ferran Mascaro Navarro"
   ],
   "license_variants_found": [
     "CL96310"
@@ -44,7 +44,7 @@
       "event_date": "11/02/2023",
       "event_location": "Sabadell",
       "event_src": "https://fcatletisme.cat/wp-content/uploads/2023/02/resultat-20230211-catclubssub12apcsabadell.pdf",
-      "athlete_name": "7 32 (t) Ferran Mascaro Navarro",
+      "athlete_name": "Ferran Mascaro Navarro",
       "athlete_dob": "02/06/2012",
       "athlete_id": "CL96310",
       "discipline": "Llargada",
@@ -57,7 +57,7 @@
       "event_date": "11/02/2023",
       "event_location": "Sabadell",
       "event_src": "https://fcatletisme.cat/wp-content/uploads/2023/02/resultat-20230211-catclubssub12apcsabadell.pdf",
-      "athlete_name": "7 32 (t) Ferran Mascaro Navarro",
+      "athlete_name": "Ferran Mascaro Navarro",
       "athlete_dob": "02/06/2012",
       "athlete_id": "CL96310",
       "discipline": "Llargada",
@@ -70,11 +70,24 @@
       "event_date": "11/02/2023",
       "event_location": "Sabadell",
       "event_src": "https://fcatletisme.cat/wp-content/uploads/2023/02/resultat-20230211-catclubssub12apcsabadell.pdf",
-      "athlete_name": "7 32 (t) Ferran Mascaro Navarro",
+      "athlete_name": "Ferran Mascaro Navarro",
       "athlete_dob": "02/06/2012",
       "athlete_id": "CL96310",
       "discipline": "Llargada",
       "performance": "3.24",
+      "wind": null,
+      "internal_id": 1362
+    },
+    {
+      "event_name": "Campionat Catalunya Clubs Sub12 Masculí i Femení \"A\" - Sabadell (Pista coberta de Catalunya), 11 febrero 2023",
+      "event_date": "11/02/2023",
+      "event_location": "Sabadell",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2023/02/resultat-20230211-catclubssub12apcsabadell.pdf",
+      "athlete_name": "Ferran Mascaro Navarro",
+      "athlete_dob": "02/06/2012",
+      "athlete_id": "CL96310",
+      "discipline": "4x200",
+      "performance": "2:16.14",
       "wind": null,
       "internal_id": 1362
     },
@@ -933,7 +946,7 @@
       "athlete_id": "CL96310",
       "discipline": "80 metres llisos",
       "performance": "11.11",
-      "wind": "-1.4",
+      "wind": null,
       "internal_id": 1362
     },
     {
@@ -1037,7 +1050,7 @@
       "athlete_id": "CL96310",
       "discipline": "80 metres llisos",
       "performance": "10.99",
-      "wind": "+1.6",
+      "wind": null,
       "internal_id": 1362
     },
     {

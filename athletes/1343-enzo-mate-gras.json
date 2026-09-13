@@ -2,7 +2,7 @@
   "athlete_name": "ENZO MATE GRAS",
   "athlete_id": "CAT-3742961",
   "athlete_dob": "1/2/2011",
-  "total_results": 73,
+  "total_results": 74,
   "name_variants_found": [
     "10 120 (t) Enzo Mate Gras q",
     "11 188 (t) Enzo Mate Gras IM",
@@ -16,12 +16,13 @@
     "7 409 (t) Enzo Mate Gras IM",
     "8 93 (t) Enzo Mate Gras IM",
     "ENZO MATE GRAS",
-    "ENZO MATE GRAS X-"
+    "ENZO MATE GRAS X-",
+    "Enzo MATE GRAS"
   ],
   "license_variants_found": [
     "CL94546"
   ],
-  "source_files_count": 39,
+  "source_files_count": 40,
   "results": [
     {
       "event_name": "Control Febrer 1 - Pista de Atletismo CN Reus Ploms, 11 febrero 2023",
@@ -826,6 +827,19 @@
       "athlete_id": "CL94546",
       "discipline": "Perxa",
       "performance": "3.35",
+      "wind": null,
+      "internal_id": 1343
+    },
+    {
+      "event_name": "Jornada Prèvia Campionat de Catalunya de Relleus AL - Pista de Atletismo Can Jofresa",
+      "event_date": "11/04/2026",
+      "event_location": "Terrassa",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/04/resultat-20260411-catrelleuspreviaterrassa.pdf",
+      "athlete_name": "Enzo MATE GRAS",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "4x300",
+      "performance": "2:53.55",
       "wind": null,
       "internal_id": 1343
     },

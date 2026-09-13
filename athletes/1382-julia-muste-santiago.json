@@ -15,7 +15,7 @@
   "license_variants_found": [
     "CL14892"
   ],
-  "source_files_count": 32,
+  "source_files_count": 33,
   "results": [
     {
       "event_name": "Control de concursos sub10 - Pista de Atletismo de Camp Clar, 10 febrero 2024",
@@ -79,7 +79,7 @@
       "athlete_id": "CL14892",
       "discipline": "Javelina (300 g)",
       "performance": "05.59",
-      "wind": "-1.5",
+      "wind": null,
       "internal_id": 1382
     },
     {
@@ -876,6 +876,19 @@
       "internal_id": 1382
     },
     {
+      "event_name": "Jornada Prèvia Campionat de Catalunya de Relleus AL - Pista de Atletismo Can Jofresa",
+      "event_date": "11/04/2026",
+      "event_location": "Terrassa",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/04/resultat-20260411-catrelleuspreviaterrassa.pdf",
+      "athlete_name": "Julia MUSTE SANTIAGO",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "4x60",
+      "performance": "38.13",
+      "wind": null,
+      "internal_id": 1382
+    },
+    {
       "event_name": "2ª Jornada Campionat Territorial Promoció Tarragona i Terres de l'Ebre - Pista de atletisme Marta Galimany",
       "event_date": "18/04/2026",
       "event_location": "Valls",
@@ -1119,19 +1132,6 @@
       "athlete_id": "CL14892",
       "discipline": "Tetratló",
       "performance": "1119",
-      "wind": null,
-      "internal_id": 1382
-    },
-    {
-      "event_name": "Campionat Territorial de Proves Combinades - Tarragona i Terres de l'Ebre - Pista de Atletismo de Camp Clar",
-      "event_date": "02/05/2026",
-      "event_location": "Tarragona",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/05/resultat-2026050203-territorialcombinadestarragona.pdf",
-      "athlete_name": "JULIA MUSTE SANTIAGO",
-      "athlete_dob": "30/9/2015",
-      "athlete_id": "CL14892",
-      "discipline": "80 metres llisos",
-      "performance": "11.66",
       "wind": null,
       "internal_id": 1382
     },

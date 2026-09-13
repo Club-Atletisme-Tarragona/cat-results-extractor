@@ -2,7 +2,7 @@
   "athlete_name": "MANEL PIZARRO AREVALO",
   "athlete_id": "CL25669",
   "athlete_dob": "8/6/1987",
-  "total_results": 28,
+  "total_results": 29,
   "name_variants_found": [
     "2 5 (t) Manuel Pizarro Arevalo",
     "2 7 (t) Manuel Pizarro Arevalo",
@@ -16,7 +16,7 @@
   "license_variants_found": [
     "CL25669"
   ],
-  "source_files_count": 8,
+  "source_files_count": 9,
   "results": [
     {
       "event_name": "",
@@ -379,6 +379,19 @@
       "athlete_id": "CL25669",
       "discipline": "Alçada",
       "performance": "1.37",
+      "wind": null,
+      "internal_id": 517
+    },
+    {
+      "event_name": " - Sabadell (Pista Coberta de Catalunya), 12 enero 2020",
+      "event_date": "12/01/2020",
+      "event_location": "Club                                             Lic",
+      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20200112-catclubsbpcsabadell.pdf",
+      "athlete_name": "Manuel Pizarro Arevalo",
+      "athlete_dob": "08/06/1987",
+      "athlete_id": "CL25669",
+      "discipline": "Perxa",
+      "performance": "3.90",
       "wind": null,
       "internal_id": 517
     }

@@ -2,19 +2,20 @@
   "athlete_name": "MARÍA BLAZQUEZ NAVARRO",
   "athlete_id": "CL94526",
   "athlete_dob": "4/8/2007",
-  "total_results": 14,
+  "total_results": 15,
   "name_variants_found": [
     "1 281 (t) Maria Blazquez Navarro IF",
     "10 163 (t) Maria Blazquez Navarro",
     "4 297 (t) Maria Blazquez Navarro IF",
     "6 103 (t) Maria Blazquez Navarro IF",
     "6 328 (t) Maria Blazquez Navarro",
-    "8 88 (t) Maria Blazquez Navarro IF"
+    "8 88 (t) Maria Blazquez Navarro IF",
+    "Maria Blazquez Navarro"
   ],
   "license_variants_found": [
     "CL94526"
   ],
-  "source_files_count": 6,
+  "source_files_count": 7,
   "results": [
     {
       "event_name": "Control Gener 1",
@@ -156,6 +157,19 @@
       "athlete_id": "CL94526",
       "discipline": "60 metres llisos",
       "performance": "9.07",
+      "wind": null,
+      "internal_id": 902
+    },
+    {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "10/04/2021",
+      "event_location": "Tarragona-CLA",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210410-catrelleuspromociopreviatarragona.pdf",
+      "athlete_name": "Maria Blazquez Navarro",
+      "athlete_dob": "04/08/2007",
+      "athlete_id": "CL94526",
+      "discipline": "4x300",
+      "performance": "3:22.24",
       "wind": null,
       "internal_id": 902
     },

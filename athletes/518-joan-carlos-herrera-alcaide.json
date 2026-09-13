@@ -2,7 +2,7 @@
   "athlete_name": "JOAN CARLOS HERRERA ALCAIDE",
   "athlete_id": "CT25152",
   "athlete_dob": "31/1/1973",
-  "total_results": 115,
+  "total_results": 120,
   "name_variants_found": [
     "1 27 Juan Carlos Herrera Alcaide",
     "1 352 Juan Carlos Herrera Alcaide M-45 1",
@@ -22,6 +22,7 @@
     "7 38 (t) Juan Carlos Herrera Alcaide M-45",
     "HERRERA ALCAIDE JUAN CARLOS",
     "JUAN CARLOS HERRERA ALCAIDE",
+    "Juan Carlos Herrera Alcaide",
     "Juan Carlos Herrera Alcaide M-40",
     "Juan Carlos Herrera Alcaide M-45",
     "Juan Carlos Herrera Alcaide M-45 1",
@@ -33,7 +34,7 @@
   "license_variants_found": [
     "CT25152"
   ],
-  "source_files_count": 21,
+  "source_files_count": 22,
   "results": [
     {
       "event_name": "CAMPIONAT TERRITORIAL DE PROVES COMBINADES",
@@ -1059,6 +1060,71 @@
       "athlete_id": "CT25152",
       "discipline": "Disc (2 Kg)",
       "performance": "35.40",
+      "wind": null,
+      "internal_id": 518
+    },
+    {
+      "event_name": "Campionat de Catalunya Master Proves Combinades en Pista Coberta - Campionat de Catalunya Master Proves Combinades en Pista Coberta",
+      "event_date": "17/02/2019",
+      "event_location": "Club                                                       Lic                                              Acum.",
+      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20190217-catmastercombinadespcsabadell.pdf",
+      "athlete_name": "Juan Carlos Herrera Alcaide",
+      "athlete_dob": "31/01/1973",
+      "athlete_id": "CT25152",
+      "discipline": "Llargada",
+      "performance": "5.30",
+      "wind": null,
+      "internal_id": 518
+    },
+    {
+      "event_name": "Campionat de Catalunya Master Proves Combinades en Pista Coberta - Campionat de Catalunya Master Proves Combinades en Pista Coberta",
+      "event_date": "17/02/2019",
+      "event_location": "Club                                                       Lic                                              Acum.",
+      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20190217-catmastercombinadespcsabadell.pdf",
+      "athlete_name": "Juan Carlos Herrera Alcaide",
+      "athlete_dob": "31/01/1973",
+      "athlete_id": "CT25152",
+      "discipline": "Llargada",
+      "performance": "5.03",
+      "wind": null,
+      "internal_id": 518
+    },
+    {
+      "event_name": "Campionat de Catalunya Master Proves Combinades en Pista Coberta - Campionat de Catalunya Master Proves Combinades en Pista Coberta",
+      "event_date": "17/02/2019",
+      "event_location": "Club                                                       Lic                                              Acum.",
+      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20190217-catmastercombinadespcsabadell.pdf",
+      "athlete_name": "Juan Carlos Herrera Alcaide",
+      "athlete_dob": "31/01/1973",
+      "athlete_id": "CT25152",
+      "discipline": "Pes (7.260 Kg)",
+      "performance": "8.35",
+      "wind": null,
+      "internal_id": 518
+    },
+    {
+      "event_name": "Campionat de Catalunya Master Proves Combinades en Pista Coberta - Campionat de Catalunya Master Proves Combinades en Pista Coberta",
+      "event_date": "17/02/2019",
+      "event_location": "Club                                                       Lic                                              Acum.",
+      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20190217-catmastercombinadespcsabadell.pdf",
+      "athlete_name": "Juan Carlos Herrera Alcaide",
+      "athlete_dob": "31/01/1973",
+      "athlete_id": "CT25152",
+      "discipline": "Pes (7.260 Kg)",
+      "performance": "7.41",
+      "wind": null,
+      "internal_id": 518
+    },
+    {
+      "event_name": "Campionat de Catalunya Master Proves Combinades en Pista Coberta - Campionat de Catalunya Master Proves Combinades en Pista Coberta",
+      "event_date": "17/02/2019",
+      "event_location": "Club                                                       Lic                                              Acum.",
+      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20190217-catmastercombinadespcsabadell.pdf",
+      "athlete_name": "Juan Carlos Herrera Alcaide",
+      "athlete_dob": "31/01/1973",
+      "athlete_id": "CT25152",
+      "discipline": "Alçada",
+      "performance": "1.52",
       "wind": null,
       "internal_id": 518
     },

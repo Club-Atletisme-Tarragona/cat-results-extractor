@@ -2,7 +2,7 @@
   "athlete_name": "VERA FERNANDEZ ORTEGA",
   "athlete_id": "CL90304",
   "athlete_dob": "7/3/2007",
-  "total_results": 12,
+  "total_results": 14,
   "name_variants_found": [
     "11 362 (t) Vera Fernandez Ortega",
     "12 73 (t) Vera Fernandez Ortega IF",
@@ -10,12 +10,13 @@
     "3 294 (t) Vera Fernandez Ortega IF",
     "5 113 (t) Vera Fernandez Ortega",
     "7 304 (t) Vera Fernandez Ortega IF",
-    "9 170 (t) Vera Fernandez Ortega"
+    "9 170 (t) Vera Fernandez Ortega",
+    "Vera Fernandez Ortega"
   ],
   "license_variants_found": [
     "CL90304"
   ],
-  "source_files_count": 6,
+  "source_files_count": 7,
   "results": [
     {
       "event_name": "Control Gener 1",
@@ -157,6 +158,32 @@
       "athlete_id": "CL90304",
       "discipline": "Pes (4 Kg)",
       "performance": "9.56",
+      "wind": null,
+      "internal_id": null
+    },
+    {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "10/04/2021",
+      "event_location": "Tarragona-CLA",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210410-catrelleuspromociopreviatarragona.pdf",
+      "athlete_name": "Vera Fernandez Ortega",
+      "athlete_dob": "07/03/2007",
+      "athlete_id": "CL90304",
+      "discipline": "4x100",
+      "performance": "55.54",
+      "wind": null,
+      "internal_id": null
+    },
+    {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "10/04/2021",
+      "event_location": "Tarragona-CLA",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210410-catrelleuspromociopreviatarragona.pdf",
+      "athlete_name": "Vera Fernandez Ortega",
+      "athlete_dob": "07/03/2007",
+      "athlete_id": "CL90304",
+      "discipline": "4x300",
+      "performance": "3:22.24",
       "wind": null,
       "internal_id": null
     },

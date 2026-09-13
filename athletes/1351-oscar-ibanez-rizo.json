@@ -2,7 +2,7 @@
   "athlete_name": "OSCAR IBANEZ RIZO",
   "athlete_id": "CL4160",
   "athlete_dob": "8/12/2011",
-  "total_results": 76,
+  "total_results": 78,
   "name_variants_found": [
     "10 265 (t) Oscar Ibañez Rizo",
     "10 41 (t) Oscar Ibañez Rizo",
@@ -20,14 +20,28 @@
     "9 29 (t) Oscar Ibañez Rizo",
     "OSCAR IBAÑEZ RIZO",
     "OSCAR IBAÑEZ RIZO DNS DNS DNS DNS",
+    "Oscar IBAÑEZ RIZO",
     "Oscar Ibañez Rizo",
     "Oscar Ibañez Rizo AM 5"
   ],
   "license_variants_found": [
     "CL4160"
   ],
-  "source_files_count": 28,
+  "source_files_count": 30,
   "results": [
+    {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "10/04/2021",
+      "event_location": "Tarragona-CLA",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210410-catrelleuspromociopreviatarragona.pdf",
+      "athlete_name": "Oscar Ibañez Rizo",
+      "athlete_dob": "08/12/2011",
+      "athlete_id": "CL4160",
+      "discipline": "4x60",
+      "performance": "40.53",
+      "wind": null,
+      "internal_id": 1351
+    },
     {
       "event_name": "",
       "event_date": "18/04/2021",
@@ -805,6 +819,19 @@
       "athlete_id": "CL4160",
       "discipline": "Alçada",
       "performance": "1.62",
+      "wind": null,
+      "internal_id": 1351
+    },
+    {
+      "event_name": "Jornada Prèvia Campionat de Catalunya de Relleus AL - Pista de Atletismo Can Jofresa",
+      "event_date": "11/04/2026",
+      "event_location": "Terrassa",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/04/resultat-20260411-catrelleuspreviaterrassa.pdf",
+      "athlete_name": "Oscar IBAÑEZ RIZO",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "4x300",
+      "performance": "2:53.55",
       "wind": null,
       "internal_id": 1351
     },

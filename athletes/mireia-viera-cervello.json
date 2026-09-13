@@ -2,7 +2,7 @@
   "athlete_name": "MIREIA VIERA CERVELLO",
   "athlete_id": "CL94415",
   "athlete_dob": "22/9/2006",
-  "total_results": 30,
+  "total_results": 34,
   "name_variants_found": [
     "1 68 (t) Mireia Viera Cervello",
     "11 414 (t) Mireia Viera Cervello",
@@ -14,6 +14,7 @@
     "6 162 (t) Mireia Viera Cervello IF",
     "6 94 (t) Mireia Viera Cervello IF",
     "7 136 (t) Mireia Viera Cervello",
+    "Mireia Viera Cervello",
     "Mireia Viera Cervello IF",
     "Mireia Viera Cervello IF 2",
     "Mireia Viera Cervello IF 3",
@@ -22,7 +23,7 @@
   "license_variants_found": [
     "CL94415"
   ],
-  "source_files_count": 11,
+  "source_files_count": 13,
   "results": [
     {
       "event_name": "Campionat Territorial de proves Combinades d´hivern",
@@ -281,7 +282,7 @@
       "athlete_id": "CL94415",
       "discipline": "80 metres llisos",
       "performance": "11.45",
-      "wind": "+0.0",
+      "wind": null,
       "internal_id": null
     },
     {
@@ -346,7 +347,7 @@
       "athlete_id": "CL94415",
       "discipline": "80 metres llisos",
       "performance": "11.56",
-      "wind": "-2.4",
+      "wind": null,
       "internal_id": null
     },
     {
@@ -399,6 +400,58 @@
       "discipline": "60 metres llisos",
       "performance": "8.84",
       "wind": "-3.1",
+      "internal_id": null
+    },
+    {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "10/04/2021",
+      "event_location": "Tarragona-CLA",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210410-catrelleuspromociopreviatarragona.pdf",
+      "athlete_name": "Mireia Viera Cervello",
+      "athlete_dob": "22/09/2006",
+      "athlete_id": "CL94415",
+      "discipline": "4x100",
+      "performance": "51.56",
+      "wind": null,
+      "internal_id": null
+    },
+    {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "10/04/2021",
+      "event_location": "Tarragona-CLA",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210410-catrelleuspromociopreviatarragona.pdf",
+      "athlete_name": "Mireia Viera Cervello",
+      "athlete_dob": "22/09/2006",
+      "athlete_id": "CL94415",
+      "discipline": "4x300",
+      "performance": "3:08.32",
+      "wind": null,
+      "internal_id": null
+    },
+    {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "17/04/2021",
+      "event_location": "El Prat de Llobregat",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210417-catrelleuspromociofinalelprat.pdf",
+      "athlete_name": "Mireia Viera Cervello",
+      "athlete_dob": "22/09/2006",
+      "athlete_id": "CL94415",
+      "discipline": "4x100",
+      "performance": "51.13",
+      "wind": null,
+      "internal_id": null
+    },
+    {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "17/04/2021",
+      "event_location": "El Prat de Llobregat",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210417-catrelleuspromociofinalelprat.pdf",
+      "athlete_name": "Mireia Viera Cervello",
+      "athlete_dob": "22/09/2006",
+      "athlete_id": "CL94415",
+      "discipline": "4x100",
+      "performance": "50.83",
+      "wind": null,
       "internal_id": null
     },
     {

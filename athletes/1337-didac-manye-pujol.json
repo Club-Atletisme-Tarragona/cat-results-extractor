@@ -2,7 +2,7 @@
   "athlete_name": "DIDAC MANYE PUJOL",
   "athlete_id": "CL906",
   "athlete_dob": "6/10/2011",
-  "total_results": 75,
+  "total_results": 77,
   "name_variants_found": [
     "10 89 (t) Didac Manye Pujol IM",
     "11 257 (t) Dídac Manyé Pujol BM",
@@ -33,7 +33,7 @@
   "license_variants_found": [
     "CL906"
   ],
-  "source_files_count": 26,
+  "source_files_count": 28,
   "results": [
     {
       "event_name": "Control Febrer 1",
@@ -45,6 +45,19 @@
       "athlete_id": "CL906",
       "discipline": "Llargada",
       "performance": "2.37",
+      "wind": null,
+      "internal_id": 1337
+    },
+    {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "10/04/2021",
+      "event_location": "Tarragona-CLA",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210410-catrelleuspromociopreviatarragona.pdf",
+      "athlete_name": "Didac Manye Pujol",
+      "athlete_dob": "06/10/2011",
+      "athlete_id": "CL906",
+      "discipline": "4x60",
+      "performance": "40.53",
       "wind": null,
       "internal_id": 1337
     },
@@ -812,6 +825,19 @@
       "athlete_id": "CL906",
       "discipline": "1000 metres llisos",
       "performance": "3:41.41",
+      "wind": null,
+      "internal_id": 1337
+    },
+    {
+      "event_name": "Jornada Prèvia Campionat de Catalunya de Relleus AL - Pista de Atletismo Can Jofresa",
+      "event_date": "11/04/2026",
+      "event_location": "Terrassa",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/04/resultat-20260411-catrelleuspreviaterrassa.pdf",
+      "athlete_name": "Didac MANYE PUJOL",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "4x300",
+      "performance": "2:53.55",
       "wind": null,
       "internal_id": 1337
     },

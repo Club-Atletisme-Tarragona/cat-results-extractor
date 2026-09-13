@@ -2,7 +2,7 @@
   "athlete_name": "PABLO ESTEVE HOSTALOT",
   "athlete_id": "CL94383",
   "athlete_dob": "27/8/2010",
-  "total_results": 168,
+  "total_results": 175,
   "name_variants_found": [
     "1 110 (t) Pau Esteve Hostalot BM",
     "1 31 (t) Pau Esteve Hostalot IM",
@@ -41,7 +41,7 @@
     "CL93857",
     "CL94383"
   ],
-  "source_files_count": 48,
+  "source_files_count": 51,
   "results": [
     {
       "event_name": "",
@@ -339,6 +339,71 @@
       "athlete_id": "CL94383",
       "discipline": "Llargada",
       "performance": "4.01",
+      "wind": null,
+      "internal_id": 1055
+    },
+    {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "10/04/2021",
+      "event_location": "Tarragona-CLA",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210410-catrelleuspromociopreviatarragona.pdf",
+      "athlete_name": "Pau Esteve Hostalot",
+      "athlete_dob": "27/08/2010",
+      "athlete_id": "CL94383",
+      "discipline": "4x60",
+      "performance": "36.70",
+      "wind": null,
+      "internal_id": 1055
+    },
+    {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "10/04/2021",
+      "event_location": "Tarragona-CLA",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210410-catrelleuspromociopreviatarragona.pdf",
+      "athlete_name": "Pau Esteve Hostalot",
+      "athlete_dob": "27/08/2010",
+      "athlete_id": "CL94383",
+      "discipline": "3x600",
+      "performance": "6:25.25",
+      "wind": null,
+      "internal_id": 1055
+    },
+    {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "17/04/2021",
+      "event_location": "El Prat de Llobregat",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210417-catrelleuspromociofinalelprat.pdf",
+      "athlete_name": "Pau Esteve Hostalot",
+      "athlete_dob": "27/08/2010",
+      "athlete_id": "CL94383",
+      "discipline": "4x60",
+      "performance": "36.52",
+      "wind": null,
+      "internal_id": 1055
+    },
+    {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "17/04/2021",
+      "event_location": "El Prat de Llobregat",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210417-catrelleuspromociofinalelprat.pdf",
+      "athlete_name": "Pau Esteve Hostalot",
+      "athlete_dob": "27/08/2010",
+      "athlete_id": "CL94383",
+      "discipline": "4x60",
+      "performance": "36.79",
+      "wind": null,
+      "internal_id": 1055
+    },
+    {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "17/04/2021",
+      "event_location": "El Prat de Llobregat",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210417-catrelleuspromociofinalelprat.pdf",
+      "athlete_name": "Pau Esteve Hostalot",
+      "athlete_dob": "27/08/2010",
+      "athlete_id": "CL94383",
+      "discipline": "3x600",
+      "performance": "5:47.12",
       "wind": null,
       "internal_id": 1055
     },
@@ -820,7 +885,7 @@
       "athlete_id": "CL94383",
       "discipline": "80 metres llisos",
       "performance": "11.11",
-      "wind": "-1.4",
+      "wind": null,
       "internal_id": 1055
     },
     {
@@ -1041,6 +1106,32 @@
       "athlete_id": "CL94383",
       "discipline": "Llargada",
       "performance": "4.92",
+      "wind": null,
+      "internal_id": 1055
+    },
+    {
+      "event_name": "Campionat de Catalunya de Clubs \"A\" sub16 - Pista Coberta d'Atletisme de Catalunya Carme Valero, 10 marzo 2024",
+      "event_date": "10/03/2024",
+      "event_location": "Sabadell",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2024/03/resultat-20240310-catclubsasub16pcsabadell.pdf",
+      "athlete_name": "Pau Esteve Hostalot",
+      "athlete_dob": "27/08/2010",
+      "athlete_id": "CL94383",
+      "discipline": "Pes (4 Kg)",
+      "performance": "6.79",
+      "wind": null,
+      "internal_id": 1055
+    },
+    {
+      "event_name": "Campionat de Catalunya de Clubs \"A\" sub16 - Pista Coberta d'Atletisme de Catalunya Carme Valero, 10 marzo 2024",
+      "event_date": "10/03/2024",
+      "event_location": "Sabadell",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2024/03/resultat-20240310-catclubsasub16pcsabadell.pdf",
+      "athlete_name": "Pau Esteve Hostalot",
+      "athlete_dob": "27/08/2010",
+      "athlete_id": "CL94383",
+      "discipline": "Pes (4 Kg)",
+      "performance": "6.46",
       "wind": null,
       "internal_id": 1055
     },

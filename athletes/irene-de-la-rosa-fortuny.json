@@ -2,7 +2,7 @@
   "athlete_name": "IRENE DE LA ROSA FORTUNY",
   "athlete_id": "CL94381",
   "athlete_dob": "7/3/2011",
-  "total_results": 56,
+  "total_results": 59,
   "name_variants_found": [
     "10 331 (t) Irene De La Rosa Fortuny AF",
     "10 70 (t) Irene De La Rosa Fortuny AF",
@@ -33,6 +33,7 @@
     "7 632 (t) Irene De La Rosa Fortuny BF",
     "7 70 (t) Irene De La Rosa Fortuny",
     "8 198 (t) Irene De La Rosa Fortuny BF",
+    "Irene De La Rosa Fortuny",
     "Irene De La Rosa Fortuny AF",
     "Irene De La Rosa Fortuny AF 2",
     "Irene De La Rosa Fortuny AF 7",
@@ -41,7 +42,7 @@
   "license_variants_found": [
     "CL94381"
   ],
-  "source_files_count": 27,
+  "source_files_count": 29,
   "results": [
     {
       "event_name": "Control Hivern",
@@ -54,6 +55,19 @@
       "discipline": "60 metres llisos",
       "performance": "11.70",
       "wind": "+0.0",
+      "internal_id": null
+    },
+    {
+      "event_name": "",
+      "event_date": "09/12/2018",
+      "event_location": "Cambrils",
+      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20181209-trofeusalcedacastellscambrils.pdf",
+      "athlete_name": "Irene De La Rosa Fortuny",
+      "athlete_dob": "07/03/2011",
+      "athlete_id": "CL94381",
+      "discipline": "1000 metres llisos",
+      "performance": "4:51.49",
+      "wind": null,
       "internal_id": null
     },
     {
@@ -235,6 +249,32 @@
       "athlete_id": "CL94381",
       "discipline": "1000 metres marxa",
       "performance": "6:30.19",
+      "wind": null,
+      "internal_id": null
+    },
+    {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "10/04/2021",
+      "event_location": "Tarragona-CLA",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210410-catrelleuspromociopreviatarragona.pdf",
+      "athlete_name": "Irene De La Rosa Fortuny",
+      "athlete_dob": "07/03/2011",
+      "athlete_id": "CL94381",
+      "discipline": "4x60",
+      "performance": "40.42",
+      "wind": null,
+      "internal_id": null
+    },
+    {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "10/04/2021",
+      "event_location": "Tarragona-CLA",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210410-catrelleuspromociopreviatarragona.pdf",
+      "athlete_name": "Irene De La Rosa Fortuny",
+      "athlete_dob": "07/03/2011",
+      "athlete_id": "CL94381",
+      "discipline": "3x600",
+      "performance": "6:50.98",
       "wind": null,
       "internal_id": null
     },

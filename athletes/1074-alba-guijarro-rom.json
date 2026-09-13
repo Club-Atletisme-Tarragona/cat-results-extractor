@@ -7,13 +7,13 @@
     "11 67 (t) Alba Guijarro Rom",
     "12 282 (t) Alba Guijarro Rom IF",
     "2 72 (t) Alba Guijarro Rom",
-    "3 42 (t) Alba Guijarro Rom 9.5",
     "6 138 (t) Alba Guijarro Rom JF",
     "6 62 (t) Alba Guijarro Rom IF",
     "6 88 (t) Alba Guijarro Rom",
     "7 282 (t) Alba Guijarro Rom IF",
     "ALBA GUIJARRO ROM",
-    "ALBA GUIJARRO ROM DNS DNS DNS DNS DNS"
+    "ALBA GUIJARRO ROM DNS DNS DNS DNS DNS",
+    "Alba Guijarro Rom 9.5"
   ],
   "license_variants_found": [
     "CAT-3895015",
@@ -31,7 +31,7 @@
       "athlete_id": "CL90465",
       "discipline": "80 metres llisos",
       "performance": "11.85",
-      "wind": "+4.1",
+      "wind": null,
       "internal_id": 1074
     },
     {
@@ -338,7 +338,7 @@
       "event_date": "10/03/2024",
       "event_location": "Sabadell",
       "event_src": "https://fcatletisme.cat/wp-content/uploads/2024/03/resultat-20240310-catclubsasub16pcsabadell.pdf",
-      "athlete_name": "3 42 (t) Alba Guijarro Rom 9.5",
+      "athlete_name": "Alba Guijarro Rom 9.5",
       "athlete_dob": "08/07/2010",
       "athlete_id": "CL90465",
       "discipline": "Alçada",

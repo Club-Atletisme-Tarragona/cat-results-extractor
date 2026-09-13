@@ -2,14 +2,15 @@
   "athlete_name": "LAIA DIAZ AGUILAR",
   "athlete_id": "CAT-3843749",
   "athlete_dob": "8/10/2013",
-  "total_results": 23,
+  "total_results": 22,
   "name_variants_found": [
-    "LAIA DIAZ AGUILAR"
+    "LAIA DIAZ AGUILAR",
+    "Laia DIAZ AGUILAR"
   ],
   "license_variants_found": [
     "CAT-3843749"
   ],
-  "source_files_count": 7,
+  "source_files_count": 8,
   "results": [
     {
       "event_name": "Jornada Prèvia Campionat Territorial Promoció - Tarragona - Pista de Atletismo de Camp Clar",
@@ -103,6 +104,19 @@
       "internal_id": 1483
     },
     {
+      "event_name": "Jornada Prèvia Campionat de Catalunya de Relleus AL - Pista de Atletismo Can Jofresa",
+      "event_date": "11/04/2026",
+      "event_location": "Terrassa",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/04/resultat-20260411-catrelleuspreviaterrassa.pdf",
+      "athlete_name": "Laia DIAZ AGUILAR",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "4x200",
+      "performance": "2:08.83",
+      "wind": null,
+      "internal_id": 1483
+    },
+    {
       "event_name": "2ª Jornada Campionat Territorial Promoció Tarragona i Terres de l'Ebre - Pista de atletisme Marta Galimany",
       "event_date": "18/04/2026",
       "event_location": "Valls",
@@ -174,19 +188,6 @@
       "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/05/resultat-2026050203-territorialcombinadestarragona.pdf",
       "athlete_name": "LAIA DIAZ AGUILAR",
       "athlete_dob": "8/10/2013",
-      "athlete_id": "CAT-3843749-A",
-      "discipline": "80 metres tanques (0.84)",
-      "performance": "12.55",
-      "wind": "+0.0",
-      "internal_id": 1483
-    },
-    {
-      "event_name": "Campionat Territorial de Proves Combinades - Tarragona i Terres de l'Ebre - Pista de Atletismo de Camp Clar",
-      "event_date": "02/05/2026",
-      "event_location": "Tarragona",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/05/resultat-2026050203-territorialcombinadestarragona.pdf",
-      "athlete_name": "LAIA DIAZ AGUILAR",
-      "athlete_dob": "8/10/2013",
       "athlete_id": "CAT-3843749",
       "discipline": "Pes (3 Kg)",
       "performance": "4.29",
@@ -242,7 +243,7 @@
       "athlete_id": "CAT-3843749",
       "discipline": "80 metres llisos",
       "performance": "12.55",
-      "wind": "+0.0",
+      "wind": null,
       "internal_id": 1483
     },
     {
@@ -256,19 +257,6 @@
       "discipline": "Pentatló",
       "performance": "859",
       "wind": null,
-      "internal_id": 1483
-    },
-    {
-      "event_name": "Campionat Territorial de Proves Combinades - Tarragona i Terres de l'Ebre - Pista de Atletismo de Camp Clar",
-      "event_date": "02/05/2026",
-      "event_location": "Tarragona",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/05/resultat-2026050203-territorialcombinadestarragona.pdf",
-      "athlete_name": "LAIA DIAZ AGUILAR",
-      "athlete_dob": "8/10/2013",
-      "athlete_id": "CAT-3843749-A",
-      "discipline": "80 metres llisos",
-      "performance": "18.19",
-      "wind": "+0.0",
       "internal_id": 1483
     },
     {

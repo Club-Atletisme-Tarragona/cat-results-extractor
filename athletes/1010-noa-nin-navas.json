@@ -2,7 +2,7 @@
   "athlete_name": "NOA NIN NAVAS",
   "athlete_id": "CAT-3742996",
   "athlete_dob": "28/8/2009",
-  "total_results": 201,
+  "total_results": 204,
   "name_variants_found": [
     "1 100 (t) Noa Nin Navas IF",
     "1 84 (t) Noa Nin Navas IF",
@@ -44,6 +44,7 @@
     "9 94 (t) Noa Nin Navas",
     "NOA NIN NAVAS",
     "Noa NIN NAVAS",
+    "Noa Nin Navas",
     "Noa Nin Navas AF",
     "Noa Nin Navas AF 3",
     "Noa Nin Navas AF 5"
@@ -56,7 +57,7 @@
     "CL95865",
     "CT2954"
   ],
-  "source_files_count": 49,
+  "source_files_count": 50,
   "results": [
     {
       "event_name": "Campionat Territorial de Proves Combinades i Control Màster",
@@ -1502,6 +1503,45 @@
       "internal_id": 1010
     },
     {
+      "event_name": "Campionat de Catalunya de Clubs \"A\" sub16 - Pista Coberta d'Atletisme de Catalunya Carme Valero, 10 marzo 2024",
+      "event_date": "10/03/2024",
+      "event_location": "Sabadell",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2024/03/resultat-20240310-catclubsasub16pcsabadell.pdf",
+      "athlete_name": "Noa Nin Navas",
+      "athlete_dob": "28/08/2009",
+      "athlete_id": "CT2954",
+      "discipline": "Pes (3 Kg)",
+      "performance": "8.35",
+      "wind": null,
+      "internal_id": 1010
+    },
+    {
+      "event_name": "Campionat de Catalunya de Clubs \"A\" sub16 - Pista Coberta d'Atletisme de Catalunya Carme Valero, 10 marzo 2024",
+      "event_date": "10/03/2024",
+      "event_location": "Sabadell",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2024/03/resultat-20240310-catclubsasub16pcsabadell.pdf",
+      "athlete_name": "Noa Nin Navas",
+      "athlete_dob": "28/08/2009",
+      "athlete_id": "CT2954",
+      "discipline": "Pes (3 Kg)",
+      "performance": "9.22",
+      "wind": null,
+      "internal_id": 1010
+    },
+    {
+      "event_name": "Campionat de Catalunya de Clubs \"A\" sub16 - Pista Coberta d'Atletisme de Catalunya Carme Valero, 10 marzo 2024",
+      "event_date": "10/03/2024",
+      "event_location": "Sabadell",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2024/03/resultat-20240310-catclubsasub16pcsabadell.pdf",
+      "athlete_name": "Noa Nin Navas",
+      "athlete_dob": "28/08/2009",
+      "athlete_id": "CT2954",
+      "discipline": "Pes (3 Kg)",
+      "performance": "8.89",
+      "wind": null,
+      "internal_id": 1010
+    },
+    {
       "event_name": "Campionat Territorial sub10-12-14-16 2 - 1a jornada - Pista de Atletismo CN Reus Ploms, 14 abril 2024",
       "event_date": "14/04/2024",
       "event_location": "Reus",
@@ -1550,7 +1590,7 @@
       "athlete_id": "CT2954",
       "discipline": "Javelina (300 g)",
       "performance": "14.57",
-      "wind": "-1.5",
+      "wind": null,
       "internal_id": 1010
     },
     {

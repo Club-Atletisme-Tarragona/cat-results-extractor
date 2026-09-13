@@ -2,7 +2,7 @@
   "athlete_name": "LUCIA MARTINEZ PERALES",
   "athlete_id": "CL4343",
   "athlete_dob": "4/8/2012",
-  "total_results": 32,
+  "total_results": 37,
   "name_variants_found": [
     "10 492 (t) Lucia Martinez Perales IF",
     "11 79 (t) Lucia Martinez Perales",
@@ -18,13 +18,40 @@
     "5 414 (t) Lucia Martinez Perales AF",
     "8 69 (t) Lucia Martinez Perales",
     "9 249 (t) Lucia Martinez Perales",
-    "LUCIA MARTINEZ PERALES"
+    "LUCIA MARTINEZ PERALES",
+    "Lucia Martinez Perales"
   ],
   "license_variants_found": [
     "CL4343"
   ],
-  "source_files_count": 13,
+  "source_files_count": 15,
   "results": [
+    {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "17/04/2021",
+      "event_location": "El Prat de Llobregat",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210417-catrelleuspromociofinalelprat.pdf",
+      "athlete_name": "Lucia Martinez Perales",
+      "athlete_dob": "04/08/2012",
+      "athlete_id": "CL4343",
+      "discipline": "4x60",
+      "performance": "41.04",
+      "wind": null,
+      "internal_id": null
+    },
+    {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "17/04/2021",
+      "event_location": "El Prat de Llobregat",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210417-catrelleuspromociofinalelprat.pdf",
+      "athlete_name": "Lucia Martinez Perales",
+      "athlete_dob": "04/08/2012",
+      "athlete_id": "CL4343",
+      "discipline": "4x60",
+      "performance": "40.77",
+      "wind": null,
+      "internal_id": null
+    },
     {
       "event_name": "Campionat Territorial Sub10, Sub12, Sub14 i Sub16",
       "event_date": "29/05/2021",
@@ -195,6 +222,45 @@
       "internal_id": null
     },
     {
+      "event_name": "Campionat Catalunya Clubs Sub12 Masculí i Femení \"A\" - Sabadell (Pista coberta de Catalunya), 11 febrero 2023",
+      "event_date": "11/02/2023",
+      "event_location": "Sabadell",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2023/02/resultat-20230211-catclubssub12apcsabadell.pdf",
+      "athlete_name": "Lucia Martinez Perales",
+      "athlete_dob": "04/08/2012",
+      "athlete_id": "CL4343",
+      "discipline": "Pes (2 Kg)",
+      "performance": "4.40",
+      "wind": null,
+      "internal_id": null
+    },
+    {
+      "event_name": "Campionat Catalunya Clubs Sub12 Masculí i Femení \"A\" - Sabadell (Pista coberta de Catalunya), 11 febrero 2023",
+      "event_date": "11/02/2023",
+      "event_location": "Sabadell",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2023/02/resultat-20230211-catclubssub12apcsabadell.pdf",
+      "athlete_name": "Lucia Martinez Perales",
+      "athlete_dob": "04/08/2012",
+      "athlete_id": "CL4343",
+      "discipline": "Pes (2 Kg)",
+      "performance": "3.41",
+      "wind": null,
+      "internal_id": null
+    },
+    {
+      "event_name": "Campionat Catalunya Clubs Sub12 Masculí i Femení \"A\" - Sabadell (Pista coberta de Catalunya), 11 febrero 2023",
+      "event_date": "11/02/2023",
+      "event_location": "Sabadell",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2023/02/resultat-20230211-catclubssub12apcsabadell.pdf",
+      "athlete_name": "Lucia Martinez Perales",
+      "athlete_dob": "04/08/2012",
+      "athlete_id": "CL4343",
+      "discipline": "4x200",
+      "performance": "2:22.38",
+      "wind": null,
+      "internal_id": null
+    },
+    {
       "event_name": "Campionat Territorial sub10, sub12, sub14 i sub16 - Pista de Atletismo CN Reus Ploms, 1 mayo 2023",
       "event_date": "01/05/2023",
       "event_location": "Reus",
@@ -295,7 +361,7 @@
       "athlete_id": "CL4343",
       "discipline": "Javelina (300 g)",
       "performance": "30.62",
-      "wind": "-1.5",
+      "wind": null,
       "internal_id": null
     },
     {

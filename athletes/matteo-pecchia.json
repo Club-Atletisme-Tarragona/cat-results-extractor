@@ -2,17 +2,31 @@
   "athlete_name": "MATTEO PECCHIA",
   "athlete_id": "CL11152",
   "athlete_dob": "3/10/2012",
-  "total_results": 7,
+  "total_results": 8,
   "name_variants_found": [
     "12 410 (t) Matteo Pecchia IM",
     "18 410 (t) Matteo Pecchia IM",
-    "8 410 (t) Matteo Pecchia IM"
+    "8 410 (t) Matteo Pecchia IM",
+    "Matteo Pecchia"
   ],
   "license_variants_found": [
     "CL11152"
   ],
-  "source_files_count": 1,
+  "source_files_count": 2,
   "results": [
+    {
+      "event_name": "Campionat Catalunya Clubs Sub12 Masculí i Femení \"A\" - Sabadell (Pista coberta de Catalunya), 11 febrero 2023",
+      "event_date": "11/02/2023",
+      "event_location": "Sabadell",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2023/02/resultat-20230211-catclubssub12apcsabadell.pdf",
+      "athlete_name": "Matteo Pecchia",
+      "athlete_dob": "03/10/2012",
+      "athlete_id": "CL11152",
+      "discipline": "4x200",
+      "performance": "2:16.14",
+      "wind": null,
+      "internal_id": null
+    },
     {
       "event_name": " - Pista de Atletismo de Camp Clar, 10 febrero 2024",
       "event_date": "10/02/2024",

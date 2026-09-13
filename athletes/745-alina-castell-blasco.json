@@ -2,17 +2,18 @@
   "athlete_name": "ALINA CASTELL BLASCO",
   "athlete_id": "CT466",
   "athlete_dob": "10/5/2002",
-  "total_results": 3,
+  "total_results": 4,
   "name_variants_found": [
     "1 285 (t) Alina Castell Blasco JF",
     "2 285 (t) Alina Castell Blasco JF",
-    "3 226 Alina Castell Blasco JF"
+    "3 226 Alina Castell Blasco JF",
+    "Alina Castell Blasco"
   ],
   "license_variants_found": [
     "CL27317",
     "CT466"
   ],
-  "source_files_count": 2,
+  "source_files_count": 3,
   "results": [
     {
       "event_name": "Control Febrer 1",
@@ -38,6 +39,19 @@
       "discipline": "200 metres llisos",
       "performance": "27.66",
       "wind": "+0.5",
+      "internal_id": 745
+    },
+    {
+      "event_name": "Control Absolut en pista coberta (8a Jornada) - Sabadell (Pista Coberta de Catalunya, 22 febrero 2020",
+      "event_date": "22/02/2020",
+      "event_location": "Pista Coberta de Catalunya",
+      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20200222-controlabsolutpcsabadell.pdf",
+      "athlete_name": "Alina Castell Blasco",
+      "athlete_dob": "10/05/2002",
+      "athlete_id": "CL27317",
+      "discipline": "400 metres llisos",
+      "performance": "1:03.67",
+      "wind": null,
       "internal_id": 745
     },
     {

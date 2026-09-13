@@ -2,7 +2,7 @@
   "athlete_name": "GARCIA ORTIZ PAU",
   "athlete_id": "CL3307",
   "athlete_dob": "8/1/2006",
-  "total_results": 36,
+  "total_results": 38,
   "name_variants_found": [
     "2 141 Pau Ortiz Garcia",
     "2 318 Pau Ortiz Garcia",
@@ -16,7 +16,7 @@
   "license_variants_found": [
     "CL3307"
   ],
-  "source_files_count": 6,
+  "source_files_count": 7,
   "results": [
     {
       "event_name": "Control Gener",
@@ -249,6 +249,32 @@
       "athlete_id": "CL3307",
       "discipline": "Pes (4 Kg)",
       "performance": "10.70",
+      "wind": null,
+      "internal_id": null
+    },
+    {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "10/04/2021",
+      "event_location": "Tarragona-CLA",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210410-catrelleuspromociopreviatarragona.pdf",
+      "athlete_name": "Pau Ortiz Garcia",
+      "athlete_dob": "08/02/2006",
+      "athlete_id": "CL3307",
+      "discipline": "4x100",
+      "performance": "48.96",
+      "wind": null,
+      "internal_id": null
+    },
+    {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "10/04/2021",
+      "event_location": "Tarragona-CLA",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210410-catrelleuspromociopreviatarragona.pdf",
+      "athlete_name": "Pau Ortiz Garcia",
+      "athlete_dob": "08/02/2006",
+      "athlete_id": "CL3307",
+      "discipline": "4x300",
+      "performance": "2:47.09",
       "wind": null,
       "internal_id": null
     },

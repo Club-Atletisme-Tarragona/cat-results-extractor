@@ -2,7 +2,7 @@
   "athlete_name": "GERARD PARERA BODI",
   "athlete_id": "CAT-3818228",
   "athlete_dob": "22/1/2000",
-  "total_results": 103,
+  "total_results": 107,
   "name_variants_found": [
     "1 148 Gerard Parera Bodi LM",
     "10 73 Gerard Parera Bodi",
@@ -16,6 +16,7 @@
     "Gerard Parera Bodi JM 4",
     "Gerard Parera Bodi JM 8 Q",
     "Gerard Parera Bodi LM",
+    "Gerard Parera Bodi PM",
     "Gerard Parera bodi",
     "Gerard Parera bodi IM",
     "Gerard Parera bodi q",
@@ -29,7 +30,7 @@
     "CL71733",
     "CT25156"
   ],
-  "source_files_count": 28,
+  "source_files_count": 32,
   "results": [
     {
       "event_name": "",
@@ -1319,6 +1320,32 @@
       "internal_id": 522
     },
     {
+      "event_name": " - Sabadell (Pista Coberta de Catalunya), 12 enero 2020",
+      "event_date": "12/01/2020",
+      "event_location": "Club                                             Lic",
+      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20200112-catclubsbpcsabadell.pdf",
+      "athlete_name": "Gerard Parera Bodi PM",
+      "athlete_dob": "22/01/2000",
+      "athlete_id": "CT25156",
+      "discipline": "1500 metres llisos",
+      "performance": "4:27.98",
+      "wind": null,
+      "internal_id": 522
+    },
+    {
+      "event_name": "Control Absolut en pista coberta (8a Jornada) - Sabadell (Pista Coberta de Catalunya, 22 febrero 2020",
+      "event_date": "22/02/2020",
+      "event_location": "Pista Coberta de Catalunya",
+      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20200222-controlabsolutpcsabadell.pdf",
+      "athlete_name": "Gerard Parera Bodi",
+      "athlete_dob": "22/01/2000",
+      "athlete_id": "CT25156",
+      "discipline": "1500 metres llisos",
+      "performance": "4:17.59",
+      "wind": null,
+      "internal_id": 522
+    },
+    {
       "event_name": "Control d´Atletisme",
       "event_date": "19/08/2020",
       "event_location": "Santa Coloma de Gramenet",
@@ -1329,6 +1356,32 @@
       "discipline": "Llargada",
       "performance": "08.04",
       "wind": "+0.0",
+      "internal_id": 522
+    },
+    {
+      "event_name": "Control Absolut en pista coberta",
+      "event_date": "07/02/2021",
+      "event_location": "Barcelona - Palau Sant Jordi",
+      "event_src": "http://fcatletisme.cat/wp-content/uploads/2021/02/resultat-20210207-controlabsolutbcnpsj.pdf",
+      "athlete_name": "Gerard Parera Bodi",
+      "athlete_dob": "22/01/2000",
+      "athlete_id": "CL25156",
+      "discipline": "800 metres llisos",
+      "performance": "2:03.44",
+      "wind": null,
+      "internal_id": 522
+    },
+    {
+      "event_name": "Control Absolut - Barcelona (Estadi Joan Serrahima), 12 mayo 2021",
+      "event_date": "12/05/2021",
+      "event_location": "Club                                             Lic",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/05/resultat-20210512-controlabsolutserrahima.pdf",
+      "athlete_name": "Gerard Parera Bodi",
+      "athlete_dob": "22/01/2000",
+      "athlete_id": "CL25156",
+      "discipline": "400 metres tanques (0.914)",
+      "performance": "59.97",
+      "wind": null,
       "internal_id": 522
     },
     {

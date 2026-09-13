@@ -2,7 +2,7 @@
   "athlete_name": "JORDI BOFARULL COT",
   "athlete_id": "CL4161",
   "athlete_dob": "27/6/2010",
-  "total_results": 20,
+  "total_results": 23,
   "name_variants_found": [
     "11 50 (t) Jordi Bofarull Cot IM",
     "13 238 (t) Jordi Bofarull Cot IM",
@@ -18,7 +18,7 @@
   "license_variants_found": [
     "CL4161"
   ],
-  "source_files_count": 12,
+  "source_files_count": 14,
   "results": [
     {
       "event_name": "Control de Pista adaptat a proves d´Aire Lliure - Control de Pista adaptat a proves d´Aire Lliure",
@@ -43,6 +43,32 @@
       "athlete_id": "CL4161",
       "discipline": "Disc (1 Kg)",
       "performance": "8.92",
+      "wind": null,
+      "internal_id": 1076
+    },
+    {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "10/04/2021",
+      "event_location": "Tarragona-CLA",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210410-catrelleuspromociopreviatarragona.pdf",
+      "athlete_name": "Jordi Bofarull Cot",
+      "athlete_dob": "27/06/2010",
+      "athlete_id": "CL4161",
+      "discipline": "4x60",
+      "performance": "40.53",
+      "wind": null,
+      "internal_id": 1076
+    },
+    {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "10/04/2021",
+      "event_location": "Tarragona-CLA",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210410-catrelleuspromociopreviatarragona.pdf",
+      "athlete_name": "Jordi Bofarull Cot",
+      "athlete_dob": "27/06/2010",
+      "athlete_id": "CL4161",
+      "discipline": "3x600",
+      "performance": "6:54.79",
       "wind": null,
       "internal_id": 1076
     },
@@ -187,6 +213,19 @@
       "discipline": "100 metres tanques (0.91)",
       "performance": "32.59",
       "wind": "-0.7",
+      "internal_id": 1076
+    },
+    {
+      "event_name": "Campionat de Catalunya de Clubs \"A\" sub16 - Pista Coberta d'Atletisme de Catalunya Carme Valero, 10 marzo 2024",
+      "event_date": "10/03/2024",
+      "event_location": "Sabadell",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2024/03/resultat-20240310-catclubsasub16pcsabadell.pdf",
+      "athlete_name": "Jordi Bofarull Cot",
+      "athlete_dob": "27/06/2010",
+      "athlete_id": "CL4161",
+      "discipline": "4x300",
+      "performance": "3:02.07",
+      "wind": null,
       "internal_id": 1076
     },
     {

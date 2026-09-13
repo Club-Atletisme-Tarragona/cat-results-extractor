@@ -2,7 +2,7 @@
   "athlete_name": "LLUC SUBIROS BRASERO",
   "athlete_id": "CT1186",
   "athlete_dob": "6/1/2007",
-  "total_results": 301,
+  "total_results": 304,
   "name_variants_found": [
     "1 117 (t) Lluc Subiros Brasero IM q",
     "1 15 (t) Lluc Subiros Brasero",
@@ -84,7 +84,7 @@
     "CL77331",
     "CT1186"
   ],
-  "source_files_count": 91,
+  "source_files_count": 93,
   "results": [
     {
       "event_name": "Campionat Catalunya Absolut Proves Combinades - Barcelona (Estadi Joan Serrahima), 27-28 abril 2019",
@@ -96,7 +96,7 @@
       "athlete_id": "CL77331",
       "discipline": "80 metres llisos",
       "performance": "11.52",
-      "wind": "+2.2",
+      "wind": null,
       "internal_id": 899
     },
     {
@@ -1383,7 +1383,7 @@
       "athlete_id": "CL77331",
       "discipline": "80 metres llisos",
       "performance": "11.33",
-      "wind": "+1.6",
+      "wind": null,
       "internal_id": 899
     },
     {
@@ -2098,7 +2098,7 @@
       "athlete_id": "CL77331",
       "discipline": "80 metres llisos",
       "performance": "10.80",
-      "wind": "+0.0",
+      "wind": null,
       "internal_id": 899
     },
     {
@@ -2462,6 +2462,32 @@
       "athlete_id": "CL77331",
       "discipline": "Perxa",
       "performance": "3.46",
+      "wind": null,
+      "internal_id": 899
+    },
+    {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "10/04/2021",
+      "event_location": "Tarragona-CLA",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210410-catrelleuspromociopreviatarragona.pdf",
+      "athlete_name": "Lluc Subiros Brasero",
+      "athlete_dob": "06/01/2007",
+      "athlete_id": "CL77331",
+      "discipline": "4x100",
+      "performance": "48.96",
+      "wind": null,
+      "internal_id": 899
+    },
+    {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "10/04/2021",
+      "event_location": "Tarragona-CLA",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210410-catrelleuspromociopreviatarragona.pdf",
+      "athlete_name": "Lluc Subiros Brasero",
+      "athlete_dob": "06/01/2007",
+      "athlete_id": "CL77331",
+      "discipline": "4x300",
+      "performance": "2:47.09",
       "wind": null,
       "internal_id": 899
     },
@@ -3112,6 +3138,19 @@
       "athlete_id": "CT1186",
       "discipline": "Llargada",
       "performance": "12.47",
+      "wind": null,
+      "internal_id": 899
+    },
+    {
+      "event_name": "Control Absolut en Pista Coberta - Control Absolut en Pista Coberta",
+      "event_date": "14/01/2023",
+      "event_location": "Club                                             Lic",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2023/01/resultat-20230114-controlabsolutpcsabadell.pdf",
+      "athlete_name": "Lluc Subiros Brasero",
+      "athlete_dob": "06/01/2007",
+      "athlete_id": "CT1186",
+      "discipline": "Perxa",
+      "performance": "3.90",
       "wind": null,
       "internal_id": 899
     },

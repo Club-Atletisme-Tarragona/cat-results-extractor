@@ -2,7 +2,7 @@
   "athlete_name": "UNAI OLAYA MINGUEZ",
   "athlete_id": "CAT-3895024",
   "athlete_dob": "27/7/2009",
-  "total_results": 51,
+  "total_results": 54,
   "name_variants_found": [
     "1 103 (t) Unai Olaya Minguez",
     "10 50 (t) Unai Olaya Minguez IM",
@@ -17,6 +17,8 @@
     "9 96 (t) Unai Olaya Minguez IM",
     "UNAI OLAYA MINGUEZ",
     "Unai OLAYA MINGUEZ",
+    "Unai Olaya Minguez",
+    "Unai Olaya Minguez 3.5",
     "Unai Olaya Minguez IM",
     "Unai Olaya Minguez IM 8"
   ],
@@ -24,7 +26,7 @@
     "CAT-3895024",
     "CL854"
   ],
-  "source_files_count": 24,
+  "source_files_count": 26,
   "results": [
     {
       "event_name": "Control Gener",
@@ -105,6 +107,19 @@
       "internal_id": 1014
     },
     {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "10/04/2021",
+      "event_location": "Tarragona-CLA",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210410-catrelleuspromociopreviatarragona.pdf",
+      "athlete_name": "Unai Olaya Minguez",
+      "athlete_dob": "27/07/2009",
+      "athlete_id": "CL854",
+      "discipline": "4x80",
+      "performance": "47.19",
+      "wind": null,
+      "internal_id": 1014
+    },
+    {
       "event_name": "",
       "event_date": "18/04/2021",
       "event_location": "Tarragona",
@@ -114,7 +129,7 @@
       "athlete_id": "CL854",
       "discipline": "80 metres llisos",
       "performance": "12.16",
-      "wind": "+1.4",
+      "wind": null,
       "internal_id": 1014
     },
     {
@@ -218,7 +233,7 @@
       "athlete_id": "CL854",
       "discipline": "80 metres llisos",
       "performance": "12.49",
-      "wind": "-0.9",
+      "wind": null,
       "internal_id": 1014
     },
     {
@@ -400,6 +415,32 @@
       "athlete_id": "CL854",
       "discipline": "60 metres llisos",
       "performance": "7.95",
+      "wind": null,
+      "internal_id": 1014
+    },
+    {
+      "event_name": "Campionat de Catalunya de Clubs \"A\" sub16 - Pista Coberta d'Atletisme de Catalunya Carme Valero, 10 marzo 2024",
+      "event_date": "10/03/2024",
+      "event_location": "Sabadell",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2024/03/resultat-20240310-catclubsasub16pcsabadell.pdf",
+      "athlete_name": "Unai Olaya Minguez 3.5",
+      "athlete_dob": "27/07/2009",
+      "athlete_id": "CL854",
+      "discipline": "Alçada",
+      "performance": "1.47",
+      "wind": null,
+      "internal_id": 1014
+    },
+    {
+      "event_name": "Campionat de Catalunya de Clubs \"A\" sub16 - Pista Coberta d'Atletisme de Catalunya Carme Valero, 10 marzo 2024",
+      "event_date": "10/03/2024",
+      "event_location": "Sabadell",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2024/03/resultat-20240310-catclubsasub16pcsabadell.pdf",
+      "athlete_name": "Unai Olaya Minguez",
+      "athlete_dob": "27/07/2009",
+      "athlete_id": "CL854",
+      "discipline": "4x300",
+      "performance": "3:02.07",
       "wind": null,
       "internal_id": 1014
     },

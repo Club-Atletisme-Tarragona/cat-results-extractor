@@ -2,7 +2,7 @@
   "athlete_name": "VICTOR JIMENEZ GARCIA",
   "athlete_id": "CT1465",
   "athlete_dob": "25/5/2008",
-  "total_results": 232,
+  "total_results": 235,
   "name_variants_found": [
     "1 110 (t) Victor Jimenez Garcia IM q",
     "1 132 (t) Victor Jimenez Garcia IM",
@@ -80,7 +80,7 @@
     "CL82981",
     "CT1465"
   ],
-  "source_files_count": 69,
+  "source_files_count": 70,
   "results": [
     {
       "event_name": "Campionat Catalunya Absolut Proves Combinades - Barcelona (Estadi Joan Serrahima), 27-28 abril 2019",
@@ -1210,7 +1210,7 @@
       "athlete_id": "CL82981",
       "discipline": "80 metres llisos",
       "performance": "11.05",
-      "wind": "+0.0",
+      "wind": null,
       "internal_id": 958
     },
     {
@@ -1617,6 +1617,45 @@
       "internal_id": 958
     },
     {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "17/04/2021",
+      "event_location": "El Prat de Llobregat",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210417-catrelleuspromociofinalelprat.pdf",
+      "athlete_name": "Victor Jimenez Garcia",
+      "athlete_dob": "25/05/2008",
+      "athlete_id": "CL82981",
+      "discipline": "4x80",
+      "performance": "40.16",
+      "wind": null,
+      "internal_id": 958
+    },
+    {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "17/04/2021",
+      "event_location": "El Prat de Llobregat",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210417-catrelleuspromociofinalelprat.pdf",
+      "athlete_name": "Victor Jimenez Garcia",
+      "athlete_dob": "25/05/2008",
+      "athlete_id": "CL82981",
+      "discipline": "4x80",
+      "performance": "40.08",
+      "wind": null,
+      "internal_id": 958
+    },
+    {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "17/04/2021",
+      "event_location": "El Prat de Llobregat",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210417-catrelleuspromociofinalelprat.pdf",
+      "athlete_name": "Victor Jimenez Garcia",
+      "athlete_dob": "25/05/2008",
+      "athlete_id": "CL82981",
+      "discipline": "4x200",
+      "performance": "1:48.50",
+      "wind": null,
+      "internal_id": 958
+    },
+    {
       "event_name": "Campionat Territorial Sub10, Sub12, Sub14 i Sub16",
       "event_date": "24/04/2021",
       "event_location": "Tarragona",
@@ -1626,7 +1665,7 @@
       "athlete_id": "CL82981",
       "discipline": "80 metres llisos",
       "performance": "10.54",
-      "wind": "-0.9",
+      "wind": null,
       "internal_id": 958
     },
     {

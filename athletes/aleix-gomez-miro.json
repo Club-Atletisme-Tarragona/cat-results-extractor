@@ -2,16 +2,17 @@
   "athlete_name": "ALEIX GOMEZ MIRO",
   "athlete_id": "CL4345",
   "athlete_dob": "6/1/2013",
-  "total_results": 9,
+  "total_results": 11,
   "name_variants_found": [
     "11 126 (t) Aleix Gomez Miro BM",
     "ALEIX GOMEZ MIRO",
-    "Aleix GOMEZ MIRO"
+    "Aleix GOMEZ MIRO",
+    "Aleix Gomez Miro"
   ],
   "license_variants_found": [
     "CL4345"
   ],
-  "source_files_count": 7,
+  "source_files_count": 8,
   "results": [
     {
       "event_name": "Campionat Territorial Sub10, Sub12, Sub14 i Sub16",
@@ -23,6 +24,32 @@
       "athlete_id": "CL4345",
       "discipline": "Llargada",
       "performance": "2.58",
+      "wind": null,
+      "internal_id": null
+    },
+    {
+      "event_name": "Campionat Catalunya Clubs Sub12 Masculí i Femení \"A\" - Sabadell (Pista coberta de Catalunya), 11 febrero 2023",
+      "event_date": "11/02/2023",
+      "event_location": "Sabadell",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2023/02/resultat-20230211-catclubssub12apcsabadell.pdf",
+      "athlete_name": "Aleix Gomez Miro",
+      "athlete_dob": "06/01/2013",
+      "athlete_id": "CL4345",
+      "discipline": "2000 metres llisos",
+      "performance": "11.34",
+      "wind": null,
+      "internal_id": null
+    },
+    {
+      "event_name": "Campionat Catalunya Clubs Sub12 Masculí i Femení \"A\" - Sabadell (Pista coberta de Catalunya), 11 febrero 2023",
+      "event_date": "11/02/2023",
+      "event_location": "Sabadell",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2023/02/resultat-20230211-catclubssub12apcsabadell.pdf",
+      "athlete_name": "Aleix Gomez Miro",
+      "athlete_dob": "06/01/2013",
+      "athlete_id": "CL4345",
+      "discipline": "4x200",
+      "performance": "2:16.14",
       "wind": null,
       "internal_id": null
     },

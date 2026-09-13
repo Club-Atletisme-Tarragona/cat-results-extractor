@@ -2,7 +2,7 @@
   "athlete_name": "CARLA RODRIGUEZ MARTINEZ",
   "athlete_id": "CL94416",
   "athlete_dob": "10/1/2008",
-  "total_results": 72,
+  "total_results": 77,
   "name_variants_found": [
     "1 103 (t) Carla Rodriguez Martinez IF",
     "1 334 (t) Carla Rodriguez Martinez",
@@ -22,12 +22,13 @@
     "6 103 (t) Carla Rodriguez Martinez IF",
     "6 111 (t) Carla Rodriguez Martinez IF",
     "6 229 (t) Carla Rodriguez Martinez",
-    "8 334 (t) Carla Rodriguez Martinez"
+    "8 334 (t) Carla Rodriguez Martinez",
+    "Carla Rodriguez Martinez"
   ],
   "license_variants_found": [
     "CL94416"
   ],
-  "source_files_count": 14,
+  "source_files_count": 16,
   "results": [
     {
       "event_name": "Control Gener",
@@ -212,6 +213,32 @@
       "internal_id": null
     },
     {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "10/04/2021",
+      "event_location": "Tarragona-CLA",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210410-catrelleuspromociopreviatarragona.pdf",
+      "athlete_name": "Carla Rodriguez Martinez",
+      "athlete_dob": "10/01/2008",
+      "athlete_id": "CL94416",
+      "discipline": "4x80",
+      "performance": "43.38",
+      "wind": null,
+      "internal_id": null
+    },
+    {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "10/04/2021",
+      "event_location": "Tarragona-CLA",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210410-catrelleuspromociopreviatarragona.pdf",
+      "athlete_name": "Carla Rodriguez Martinez",
+      "athlete_dob": "10/01/2008",
+      "athlete_id": "CL94416",
+      "discipline": "4x200",
+      "performance": "1:58.58",
+      "wind": null,
+      "internal_id": null
+    },
+    {
       "event_name": "Campionat Territorial primera jornada",
       "event_date": "11/04/2021",
       "event_location": "Reus",
@@ -290,6 +317,45 @@
       "internal_id": null
     },
     {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "17/04/2021",
+      "event_location": "El Prat de Llobregat",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210417-catrelleuspromociofinalelprat.pdf",
+      "athlete_name": "Carla Rodriguez Martinez",
+      "athlete_dob": "10/01/2008",
+      "athlete_id": "CL94416",
+      "discipline": "4x80",
+      "performance": "43.32",
+      "wind": null,
+      "internal_id": null
+    },
+    {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "17/04/2021",
+      "event_location": "El Prat de Llobregat",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210417-catrelleuspromociofinalelprat.pdf",
+      "athlete_name": "Carla Rodriguez Martinez",
+      "athlete_dob": "10/01/2008",
+      "athlete_id": "CL94416",
+      "discipline": "4x80",
+      "performance": "42.61",
+      "wind": null,
+      "internal_id": null
+    },
+    {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "17/04/2021",
+      "event_location": "El Prat de Llobregat",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210417-catrelleuspromociofinalelprat.pdf",
+      "athlete_name": "Carla Rodriguez Martinez",
+      "athlete_dob": "10/01/2008",
+      "athlete_id": "CL94416",
+      "discipline": "4x200",
+      "performance": "1:55.74",
+      "wind": null,
+      "internal_id": null
+    },
+    {
       "event_name": "Campionat Territorial Sub10, Sub12, Sub14 i Sub16",
       "event_date": "24/04/2021",
       "event_location": "Tarragona",
@@ -299,7 +365,7 @@
       "athlete_id": "CL94416",
       "discipline": "80 metres llisos",
       "performance": "11.65",
-      "wind": "-0.2",
+      "wind": null,
       "internal_id": null
     },
     {

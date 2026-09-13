@@ -2,7 +2,7 @@
   "athlete_name": "NAIA PEREZ ESQUITINO",
   "athlete_id": "CL94404",
   "athlete_dob": "16/6/2008",
-  "total_results": 23,
+  "total_results": 24,
   "name_variants_found": [
     "1 126 (t) Naia Perez Esquitino IF",
     "10 109 (t) Naia Perez Esquitino IF",
@@ -14,13 +14,14 @@
     "3 321 (t) Naia Perez Esquitino IF",
     "5 316 (t) Naia Perez Esquitino IF",
     "9 25 (t) Naia Perez Esquitino IF",
+    "Naia Perez Esquitino",
     "Naia Perez Esquitino AF",
     "Naia Perez Esquitino AF 6"
   ],
   "license_variants_found": [
     "CL94404"
   ],
-  "source_files_count": 8,
+  "source_files_count": 9,
   "results": [
     {
       "event_name": "Control Gener 2",
@@ -305,6 +306,19 @@
       "athlete_id": "CL94404",
       "discipline": "Triple",
       "performance": "8.57",
+      "wind": null,
+      "internal_id": null
+    },
+    {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "10/04/2021",
+      "event_location": "Tarragona-CLA",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210410-catrelleuspromociopreviatarragona.pdf",
+      "athlete_name": "Naia Perez Esquitino",
+      "athlete_dob": "16/06/2008",
+      "athlete_id": "CL94404",
+      "discipline": "4x80",
+      "performance": "45.77",
       "wind": null,
       "internal_id": null
     },

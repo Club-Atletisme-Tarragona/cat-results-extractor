@@ -2,7 +2,7 @@
   "athlete_name": "FERRAN SANJUAN FLORES",
   "athlete_id": "CAT-3816505",
   "athlete_dob": "9/2/2015",
-  "total_results": 43,
+  "total_results": 45,
   "name_variants_found": [
     "FERRAN SANJUAN FLORES",
     "Ferran SANJUAN FLORES"
@@ -10,7 +10,7 @@
   "license_variants_found": [
     "CAT-3816505"
   ],
-  "source_files_count": 19,
+  "source_files_count": 20,
   "results": [
     {
       "event_name": "",
@@ -360,6 +360,32 @@
       "athlete_id": "CAT-3816505",
       "discipline": "2000 metres llisos",
       "performance": "7:03.42",
+      "wind": null,
+      "internal_id": 1436
+    },
+    {
+      "event_name": "Jornada Prèvia Campionat de Catalunya de Relleus AL - Pista de Atletismo Can Jofresa",
+      "event_date": "11/04/2026",
+      "event_location": "Terrassa",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/04/resultat-20260411-catrelleuspreviaterrassa.pdf",
+      "athlete_name": "Ferran SANJUAN FLORES",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "4x60",
+      "performance": "37.73",
+      "wind": null,
+      "internal_id": 1436
+    },
+    {
+      "event_name": "Jornada Prèvia Campionat de Catalunya de Relleus AL - Pista de Atletismo Can Jofresa",
+      "event_date": "11/04/2026",
+      "event_location": "Terrassa",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/04/resultat-20260411-catrelleuspreviaterrassa.pdf",
+      "athlete_name": "Ferran SANJUAN FLORES",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "3x600",
+      "performance": "5:58.35",
       "wind": null,
       "internal_id": 1436
     },

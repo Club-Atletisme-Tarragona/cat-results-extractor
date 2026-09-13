@@ -2,7 +2,7 @@
   "athlete_name": "SOFIA VEGA MARTINEZ",
   "athlete_id": "CAT-3789541",
   "athlete_dob": "24/3/2016",
-  "total_results": 28,
+  "total_results": 29,
   "name_variants_found": [
     "11 65 (t) Sofia Vega Martinez",
     "SOFIA VEGA MARTINEZ",
@@ -12,7 +12,7 @@
   "license_variants_found": [
     "CL14893"
   ],
-  "source_files_count": 12,
+  "source_files_count": 13,
   "results": [
     {
       "event_name": "Campionat Catalunya Clubs Sub10 Masculí i Femení - Estadi Municipal de Mataró, 5 mayo 2024",
@@ -323,6 +323,19 @@
       "athlete_id": "CL14893",
       "discipline": "Perxa",
       "performance": "1.40",
+      "wind": null,
+      "internal_id": 1347
+    },
+    {
+      "event_name": "Jornada Prèvia Campionat de Catalunya de Relleus AL - Pista de Atletismo Can Jofresa",
+      "event_date": "11/04/2026",
+      "event_location": "Terrassa",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/04/resultat-20260411-catrelleuspreviaterrassa.pdf",
+      "athlete_name": "Sofia VEGA MARTINEZ",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "4x60",
+      "performance": "38.13",
       "wind": null,
       "internal_id": 1347
     },

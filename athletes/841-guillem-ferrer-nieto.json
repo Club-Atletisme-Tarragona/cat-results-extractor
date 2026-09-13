@@ -2,18 +2,45 @@
   "athlete_name": "GUILLEM FERRER NIETO",
   "athlete_id": "CT34",
   "athlete_dob": "23/5/2006",
-  "total_results": 13,
+  "total_results": 15,
   "name_variants_found": [
     "10 124 (t) Guillem Ferre Nieto",
     "2 328 (t) Guillem Ferre Nieto",
     "4 297 (t) Guillem Ferre Nieto",
-    "4 299 (t) Guillem Ferre Nieto"
+    "4 299 (t) Guillem Ferre Nieto",
+    "Guillem Ferre Nieto"
   ],
   "license_variants_found": [
     "CT34"
   ],
-  "source_files_count": 4,
+  "source_files_count": 6,
   "results": [
+    {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "10/04/2021",
+      "event_location": "Tarragona-CLA",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210410-catrelleuspromociopreviatarragona.pdf",
+      "athlete_name": "Guillem Ferre Nieto",
+      "athlete_dob": "23/05/2006",
+      "athlete_id": "CT34",
+      "discipline": "4x100",
+      "performance": "48.96",
+      "wind": null,
+      "internal_id": 841
+    },
+    {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "17/04/2021",
+      "event_location": "El Prat de Llobregat",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210417-catrelleuspromociofinalelprat.pdf",
+      "athlete_name": "Guillem Ferre Nieto",
+      "athlete_dob": "23/05/2006",
+      "athlete_id": "CT34",
+      "discipline": "4x100",
+      "performance": "52.60",
+      "wind": null,
+      "internal_id": 841
+    },
     {
       "event_name": "Campionat Territorial Sub10, Sub12, Sub14 i Sub16",
       "event_date": "24/04/2021",

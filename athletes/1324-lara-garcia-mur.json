@@ -2,7 +2,7 @@
   "athlete_name": "LARA GARCIA MUR",
   "athlete_id": "CL94385",
   "athlete_dob": "23/10/2011",
-  "total_results": 63,
+  "total_results": 64,
   "name_variants_found": [
     "1 364 (t) Lara Garcia Mur AF",
     "1 367 (t) Lara Garcia Mur AF",
@@ -35,6 +35,7 @@
     "9 364 (t) Lara Garcia Mur AF",
     "LARA GARCIA MUR",
     "Lara GARCIA MUR",
+    "Lara Garcia Mur",
     "Lara Garcia Mur AF",
     "Lara Garcia Mur AF 3",
     "Lara Garcia Mur AF 7"
@@ -42,7 +43,7 @@
   "license_variants_found": [
     "CL94385"
   ],
-  "source_files_count": 43,
+  "source_files_count": 44,
   "results": [
     {
       "event_name": "Control Gener 2",
@@ -158,6 +159,19 @@
       "athlete_id": "CL94385",
       "discipline": "Llargada",
       "performance": "2.27",
+      "wind": null,
+      "internal_id": 1324
+    },
+    {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "10/04/2021",
+      "event_location": "Tarragona-CLA",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210410-catrelleuspromociopreviatarragona.pdf",
+      "athlete_name": "Lara Garcia Mur",
+      "athlete_dob": "23/10/2011",
+      "athlete_id": "CL94385",
+      "discipline": "4x60",
+      "performance": "40.42",
       "wind": null,
       "internal_id": 1324
     },
@@ -587,7 +601,7 @@
       "athlete_id": "CL94385",
       "discipline": "3000 metres llisos",
       "performance": "1:52.31",
-      "wind": "-1.4",
+      "wind": null,
       "internal_id": 1324
     },
     {
@@ -600,7 +614,7 @@
       "athlete_id": "CL94385",
       "discipline": "3000 metres llisos",
       "performance": "2:01.17",
-      "wind": "+0.0",
+      "wind": null,
       "internal_id": 1324
     },
     {

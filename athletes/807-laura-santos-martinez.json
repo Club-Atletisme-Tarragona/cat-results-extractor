@@ -2,7 +2,7 @@
   "athlete_name": ". LAURA SANTOS MARTINEZ",
   "athlete_id": "CL71751",
   "athlete_dob": "14/9/2005",
-  "total_results": 81,
+  "total_results": 82,
   "name_variants_found": [
     "11 663 (t) Laura Santos Martinez",
     "23 547 (t) Laura Santos Martinez",
@@ -25,12 +25,13 @@
     "Laura Santos Martinez IF",
     "Laura Santos Martinez IF 3",
     "SANTOS MARTINEZ LAURA",
-    "SANTOS MARTINEZ LAURA BF"
+    "SANTOS MARTINEZ LAURA BF",
+    "SANTOS MARTINEZ, LAURA"
   ],
   "license_variants_found": [
     "CL71751"
   ],
-  "source_files_count": 27,
+  "source_files_count": 28,
   "results": [
     {
       "event_name": "CAMPIONAT TERRITORIAL",
@@ -94,6 +95,19 @@
       "athlete_id": "",
       "discipline": "Alçada",
       "performance": "0.90",
+      "wind": null,
+      "internal_id": 807
+    },
+    {
+      "event_name": "1r Gran premi de Marxa del Vendrell - Campionat de Catalunya de Marxa Benjamí, Aleví, Infantil i Cadet",
+      "event_date": "21/02/2016",
+      "event_location": "El Vendrell",
+      "event_src": "http://old.fcatletisme.cat/Marxa/2016/resulcatmarxapromocio210216.pdf",
+      "athlete_name": "SANTOS MARTINEZ, LAURA",
+      "athlete_dob": "",
+      "athlete_id": "CL71751",
+      "discipline": "2000 metres marxa",
+      "performance": "14:50",
       "wind": null,
       "internal_id": 807
     },
@@ -510,7 +524,7 @@
       "athlete_id": "CL71751",
       "discipline": "Llargada",
       "performance": "12.21",
-      "wind": "1.70",
+      "wind": null,
       "internal_id": 807
     },
     {

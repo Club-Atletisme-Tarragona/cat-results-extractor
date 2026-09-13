@@ -67,7 +67,7 @@
       "athlete_id": "CL10462",
       "discipline": "Javelina (300 g)",
       "performance": "05.14",
-      "wind": "-1.5",
+      "wind": null,
       "internal_id": 1380
     },
     {
@@ -182,6 +182,19 @@
       "athlete_name": "NOA PASCUAL PRATS",
       "athlete_dob": "27/2/2015",
       "athlete_id": "CL10462",
+      "discipline": "60 metres llisos",
+      "performance": "10.57",
+      "wind": "-1.0",
+      "internal_id": 1380
+    },
+    {
+      "event_name": "",
+      "event_date": "15/12/2024",
+      "event_location": "Reus",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2024/12/resultat-20241215-trofeunadalcnrp.pdf",
+      "athlete_name": "NOA PASCUAL PRATS",
+      "athlete_dob": "27/2/2015",
+      "athlete_id": "CL10462",
       "discipline": "1000 metres llisos",
       "performance": "4:14.30",
       "wind": null,
@@ -224,19 +237,6 @@
       "discipline": "Pes (2 Kg)",
       "performance": "3.91",
       "wind": null,
-      "internal_id": 1380
-    },
-    {
-      "event_name": "",
-      "event_date": "15/12/2024",
-      "event_location": "Reus",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2024/12/resultat-20241215-trofeunadalcnrp.pdf",
-      "athlete_name": "NOA PASCUAL PRATS",
-      "athlete_dob": "27/2/2015",
-      "athlete_id": "CL10462",
-      "discipline": "60 metres llisos",
-      "performance": "10.57",
-      "wind": "-1.0",
       "internal_id": 1380
     },
     {
@@ -1423,7 +1423,7 @@
       "internal_id": 1380
     },
     {
-      "event_name": "",
+      "event_name": "IX Jornades Atlètiques Torredembarra",
       "event_date": "01/05/2026",
       "event_location": "Torredembarra",
       "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/05/resultat-20260501-jornadatorredembarra.pdf",
@@ -1436,7 +1436,7 @@
       "internal_id": 1380
     },
     {
-      "event_name": "",
+      "event_name": "IX Jornades Atlètiques Torredembarra",
       "event_date": "01/05/2026",
       "event_location": "Torredembarra",
       "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/05/resultat-20260501-jornadatorredembarra.pdf",
@@ -1449,7 +1449,7 @@
       "internal_id": 1380
     },
     {
-      "event_name": "",
+      "event_name": "IX Jornades Atlètiques Torredembarra",
       "event_date": "01/05/2026",
       "event_location": "Torredembarra",
       "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/05/resultat-20260501-jornadatorredembarra.pdf",
@@ -1462,7 +1462,7 @@
       "internal_id": 1380
     },
     {
-      "event_name": "",
+      "event_name": "IX Jornades Atlètiques Torredembarra",
       "event_date": "01/05/2026",
       "event_location": "Torredembarra",
       "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/05/resultat-20260501-jornadatorredembarra.pdf",
@@ -1475,7 +1475,7 @@
       "internal_id": 1380
     },
     {
-      "event_name": "",
+      "event_name": "IX Jornades Atlètiques Torredembarra",
       "event_date": "01/05/2026",
       "event_location": "Torredembarra",
       "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/05/resultat-20260501-jornadatorredembarra.pdf",

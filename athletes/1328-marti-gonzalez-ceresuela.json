@@ -2,18 +2,19 @@
   "athlete_name": "MARTI GONZALEZ CERESUELA",
   "athlete_id": "CL4347",
   "athlete_dob": "18/9/2013",
-  "total_results": 47,
+  "total_results": 48,
   "name_variants_found": [
     "14 127 (t) Marti Gonzalez Ceresuela BM",
     "4 353 (t) Marti Gonzalez Ceresuela",
     "6 28 (t) Marti Gonzalez Ceresuela",
     "MARTI GONZALEZ CERESUELA",
-    "Marti GONZALEZ CERESUELA"
+    "Marti GONZALEZ CERESUELA",
+    "Marti Gonzalez Ceresuela"
   ],
   "license_variants_found": [
     "CL4347"
   ],
-  "source_files_count": 17,
+  "source_files_count": 18,
   "results": [
     {
       "event_name": "Campionat Territorial Sub10, Sub12, Sub14 i Sub16",
@@ -38,6 +39,19 @@
       "athlete_id": "CL4347",
       "discipline": "60 metres llisos",
       "performance": "10.91",
+      "wind": null,
+      "internal_id": 1328
+    },
+    {
+      "event_name": "Campionat Catalunya Clubs Sub12 Masculí i Femení \"A\" - Sabadell (Pista coberta de Catalunya), 11 febrero 2023",
+      "event_date": "11/02/2023",
+      "event_location": "Sabadell",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2023/02/resultat-20230211-catclubssub12apcsabadell.pdf",
+      "athlete_name": "Marti Gonzalez Ceresuela",
+      "athlete_dob": "18/09/2013",
+      "athlete_id": "CL4347",
+      "discipline": "60 metres llisos",
+      "performance": "10.38",
       "wind": null,
       "internal_id": 1328
     },
@@ -361,6 +375,19 @@
       "athlete_name": "Marti GONZALEZ CERESUELA",
       "athlete_dob": "",
       "athlete_id": "",
+      "discipline": "4x80",
+      "performance": "46.14",
+      "wind": null,
+      "internal_id": 1328
+    },
+    {
+      "event_name": "Jornada Prèvia Campionat de Catalunya de Relleus AL - Pista de Atletismo Can Jofresa",
+      "event_date": "11/04/2026",
+      "event_location": "Terrassa",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/04/resultat-20260411-catrelleuspreviaterrassa.pdf",
+      "athlete_name": "Marti GONZALEZ CERESUELA",
+      "athlete_dob": "",
+      "athlete_id": "",
       "discipline": "4x200",
       "performance": "1:56.95",
       "wind": null,
@@ -441,20 +468,7 @@
       "athlete_id": "CL4347",
       "discipline": "80 metres llisos",
       "performance": "11.69",
-      "wind": "+1.9",
-      "internal_id": 1328
-    },
-    {
-      "event_name": "Campionat Territorial de Proves Combinades - Tarragona i Terres de l'Ebre - Pista de Atletismo de Camp Clar",
-      "event_date": "02/05/2026",
-      "event_location": "Tarragona",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/05/resultat-2026050203-territorialcombinadestarragona.pdf",
-      "athlete_name": "MARTI GONZALEZ CERESUELA",
-      "athlete_dob": "18/9/2013",
-      "athlete_id": "CL4347",
-      "discipline": "80 metres llisos",
-      "performance": "18.28",
-      "wind": "+0.0",
+      "wind": null,
       "internal_id": 1328
     },
     {
@@ -571,7 +585,7 @@
       "athlete_id": "CL4347",
       "discipline": "80 metres llisos",
       "performance": "11.61",
-      "wind": "+0.0",
+      "wind": null,
       "internal_id": 1328
     },
     {
@@ -597,7 +611,7 @@
       "athlete_id": "CL4347",
       "discipline": "80 metres llisos",
       "performance": "11.41",
-      "wind": "-0.1",
+      "wind": null,
       "internal_id": 1328
     },
     {
@@ -623,7 +637,7 @@
       "athlete_id": "CL4347",
       "discipline": "80 metres llisos",
       "performance": "11.32",
-      "wind": "-0.4",
+      "wind": null,
       "internal_id": 1328
     }
   ]

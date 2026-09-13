@@ -2,7 +2,7 @@
   "athlete_name": "JULIA GOMEZ MIRO",
   "athlete_id": "CL90834",
   "athlete_dob": "3/10/2009",
-  "total_results": 23,
+  "total_results": 24,
   "name_variants_found": [
     "11 38 (t) Julia Gomez Miro",
     "12 36 (t) Julia Gomez Miro AF",
@@ -12,6 +12,7 @@
     "5 175 (t) Julia Gomez Miro IF",
     "7 105 (t) Julia Gomez Miro IF",
     "7 88 (t) Julia Gomez Miro IF",
+    "Julia Gomez Miro",
     "Julia Gomez Miro AF",
     "Julia Gomez Miro AF 5",
     "Julia Gomez Miro AF 8"
@@ -19,7 +20,7 @@
   "license_variants_found": [
     "CL90834"
   ],
-  "source_files_count": 9,
+  "source_files_count": 10,
   "results": [
     {
       "event_name": "Campionat Territorial de Proves Combinades i Control Màster",
@@ -100,6 +101,19 @@
       "internal_id": 1027
     },
     {
+      "event_name": "Campionat de Catalunya de Relleus Sub10",
+      "event_date": "10/04/2021",
+      "event_location": "Tarragona-CLA",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210410-catrelleuspromociopreviatarragona.pdf",
+      "athlete_name": "Julia Gomez Miro",
+      "athlete_dob": "03/10/2009",
+      "athlete_id": "CL90834",
+      "discipline": "4x200",
+      "performance": "2:02.23",
+      "wind": null,
+      "internal_id": 1027
+    },
+    {
       "event_name": "Campionat Territorial Sub10, Sub12, Sub14 i Sub16",
       "event_date": "24/04/2021",
       "event_location": "Tarragona",
@@ -109,7 +123,7 @@
       "athlete_id": "CL90834",
       "discipline": "80 metres llisos",
       "performance": "12.53",
-      "wind": "-0.1",
+      "wind": null,
       "internal_id": 1027
     },
     {

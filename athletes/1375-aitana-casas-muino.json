@@ -2,7 +2,7 @@
   "athlete_name": "AITANA CASAS MUINO",
   "athlete_id": "CL11660",
   "athlete_dob": "28/10/2013",
-  "total_results": 65,
+  "total_results": 63,
   "name_variants_found": [
     "11 475 (t) Aitana Casas Muiño AF",
     "2 232 (t) Aitana Casas Muiño AF",
@@ -67,7 +67,7 @@
       "athlete_id": "CL11660",
       "discipline": "3000 metres llisos",
       "performance": "2:16.58",
-      "wind": "-1.4",
+      "wind": null,
       "internal_id": 1375
     },
     {
@@ -663,19 +663,6 @@
       "athlete_name": "AITANA CASAS MUIÑO",
       "athlete_dob": "28/10/2013",
       "athlete_id": "CL11660",
-      "discipline": "80 metres tanques (0.84)",
-      "performance": "11.91",
-      "wind": "+0.5",
-      "internal_id": 1375
-    },
-    {
-      "event_name": "Campionat Territorial de Proves Combinades - Tarragona i Terres de l'Ebre - Pista de Atletismo de Camp Clar",
-      "event_date": "02/05/2026",
-      "event_location": "Tarragona",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/05/resultat-2026050203-territorialcombinadestarragona.pdf",
-      "athlete_name": "AITANA CASAS MUIÑO",
-      "athlete_dob": "28/10/2013",
-      "athlete_id": "CL11660",
       "discipline": "Alçada",
       "performance": "1.10",
       "wind": null,
@@ -756,7 +743,7 @@
       "athlete_id": "CL11660",
       "discipline": "80 metres llisos",
       "performance": "11.91",
-      "wind": "+0.5",
+      "wind": null,
       "internal_id": 1375
     },
     {
@@ -773,19 +760,6 @@
       "internal_id": 1375
     },
     {
-      "event_name": "Campionat Territorial de Proves Combinades - Tarragona i Terres de l'Ebre - Pista de Atletismo de Camp Clar",
-      "event_date": "02/05/2026",
-      "event_location": "Tarragona",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/05/resultat-2026050203-territorialcombinadestarragona.pdf",
-      "athlete_name": "AITANA CASAS MUIÑO",
-      "athlete_dob": "28/10/2013",
-      "athlete_id": "CL11660",
-      "discipline": "80 metres llisos",
-      "performance": "19.52",
-      "wind": "+1.2",
-      "internal_id": 1375
-    },
-    {
       "event_name": "4ª Jornada Campionat Territorial Promoció Tarragona i Terres de l'Ebre",
       "event_date": "09/05/2026",
       "event_location": "Ascó",
@@ -795,7 +769,7 @@
       "athlete_id": "CL11660",
       "discipline": "80 metres llisos",
       "performance": "11.91",
-      "wind": "-0.4",
+      "wind": null,
       "internal_id": 1375
     },
     {
@@ -847,7 +821,7 @@
       "athlete_id": "CL11660",
       "discipline": "80 metres llisos",
       "performance": "12.05",
-      "wind": "-1.8",
+      "wind": null,
       "internal_id": 1375
     },
     {

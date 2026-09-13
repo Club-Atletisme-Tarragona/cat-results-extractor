@@ -2,7 +2,7 @@
   "athlete_name": "CLAUDIA PI BUIRA",
   "athlete_id": "CL11317",
   "athlete_dob": "24/3/2009",
-  "total_results": 1,
+  "total_results": 2,
   "name_variants_found": [
     "CLÀUDIA PI BUIRA"
   ],
@@ -19,9 +19,22 @@
       "athlete_name": "CLÀUDIA PI BUIRA",
       "athlete_dob": "24/3/2009",
       "athlete_id": "CL11317",
-      "discipline": "Martell (4 Kg)",
+      "discipline": "100 metres llisos",
       "performance": "13.81",
       "wind": "+0.3",
+      "internal_id": null
+    },
+    {
+      "event_name": "3ª Jornada Circuit Serrahima - AAC - Estadio Joan Serrahima",
+      "event_date": "06/06/2026",
+      "event_location": "Barcelona-SE",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/06/resultat-20260606-circuitserrahimaaac.pdf",
+      "athlete_name": "CLÀUDIA PI BUIRA",
+      "athlete_dob": "24/3/2009",
+      "athlete_id": "CL11317",
+      "discipline": "200 metres llisos",
+      "performance": "28.66",
+      "wind": "+0.2",
       "internal_id": null
     }
   ]

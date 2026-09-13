@@ -2,7 +2,7 @@
   "athlete_name": "CLAUDIA MIR CASELLAS",
   "athlete_id": "CT152",
   "athlete_dob": "2/8/2003",
-  "total_results": 106,
+  "total_results": 113,
   "name_variants_found": [
     "1 127 Claudia Mir Casellas",
     "1 339 (t) Claudia Mir Casellas",
@@ -19,6 +19,7 @@
     "CLAUDIAN MIR CASELLAS",
     "CLÀUDIA MIR CASELLAS",
     "Claudia MIR CASELLAS",
+    "Claudia Mir Casellas",
     "Claudia Mir Casellas LF",
     "Claudia Mir Casellas LF 3",
     "Claudian. Mir Casellas",
@@ -35,7 +36,7 @@
     "CL69333",
     "CT152"
   ],
-  "source_files_count": 42,
+  "source_files_count": 46,
   "results": [
     {
       "event_name": "",
@@ -554,7 +555,7 @@
       "athlete_id": "CL69333",
       "discipline": "3000 metres marxa",
       "performance": "12:03",
-      "wind": "-4.5",
+      "wind": null,
       "internal_id": 699
     },
     {
@@ -671,7 +672,7 @@
       "athlete_id": "CL29243",
       "discipline": "10000 metres llisos",
       "performance": "1:10.21",
-      "wind": "+0.3",
+      "wind": null,
       "internal_id": 699
     },
     {
@@ -684,7 +685,7 @@
       "athlete_id": "CL29243",
       "discipline": "10000 metres llisos",
       "performance": "1:10.21",
-      "wind": "+0.3",
+      "wind": null,
       "internal_id": 699
     },
     {
@@ -909,6 +910,32 @@
       "internal_id": 699
     },
     {
+      "event_name": "Control Absolut en pista coberta",
+      "event_date": "05/02/2021",
+      "event_location": "Barcelona - Palau Sant Jordi",
+      "event_src": "http://fcatletisme.cat/wp-content/uploads/2021/02/resultat-20210205-controlabsolutpcbcnpsj.pdf",
+      "athlete_name": "Claudia Mir Casellas",
+      "athlete_dob": "02/08/2003",
+      "athlete_id": "CT152",
+      "discipline": "400 metres llisos",
+      "performance": "1:02.66",
+      "wind": null,
+      "internal_id": 699
+    },
+    {
+      "event_name": "Control Absolut en pista coberta",
+      "event_date": "05/02/2021",
+      "event_location": "Barcelona - Palau Sant Jordi",
+      "event_src": "http://fcatletisme.cat/wp-content/uploads/2021/02/resultat-20210205-controlabsolutpcbcnpsj.pdf",
+      "athlete_name": "Claudia Mir Casellas",
+      "athlete_dob": "02/08/2003",
+      "athlete_id": "CT152",
+      "discipline": "60 metres tanques (0.84)",
+      "performance": "9.39",
+      "wind": null,
+      "internal_id": 699
+    },
+    {
       "event_name": "Campionat de Catalunya Absolut",
       "event_date": "06/06/2021",
       "event_location": "Serrahima",
@@ -918,7 +945,7 @@
       "athlete_id": "CT152",
       "discipline": "5000 metres llisos",
       "performance": "1:04.77",
-      "wind": "-0.9",
+      "wind": null,
       "internal_id": 699
     },
     {
@@ -931,7 +958,33 @@
       "athlete_id": "CT152",
       "discipline": "5000 metres llisos",
       "performance": "1:05.37",
-      "wind": "-0.9",
+      "wind": null,
+      "internal_id": 699
+    },
+    {
+      "event_name": "Control Absolut en Pista Coberta - Control Absolut en Pista Coberta",
+      "event_date": "08/01/2022",
+      "event_location": "Club                                               Lic",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2022/01/resultat-20220108-controlabsolutpcsabadell.pdf",
+      "athlete_name": "Claudia Mir Casellas",
+      "athlete_dob": "02/08/2003",
+      "athlete_id": "CT152",
+      "discipline": "400 metres llisos",
+      "performance": "1:00.88",
+      "wind": null,
+      "internal_id": 699
+    },
+    {
+      "event_name": "Control Absolut en Pista Coberta - Control Absolut en Pista Coberta",
+      "event_date": "08/01/2022",
+      "event_location": "Club                                               Lic",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2022/01/resultat-20220108-controlabsolutpcsabadell.pdf",
+      "athlete_name": "Claudia Mir Casellas",
+      "athlete_dob": "02/08/2003",
+      "athlete_id": "CT152",
+      "discipline": "60 metres tanques (0.84)",
+      "performance": "9.54",
+      "wind": null,
       "internal_id": 699
     },
     {
@@ -944,6 +997,45 @@
       "athlete_id": "CT152",
       "discipline": "400 metres llisos",
       "performance": "59.73",
+      "wind": null,
+      "internal_id": 699
+    },
+    {
+      "event_name": "Campionat de Catalunya Sub20 en Pista Coberta - Campionat de Catalunya Sub20 en Pista Coberta",
+      "event_date": "26/02/2022",
+      "event_location": "Club                                              Lic",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2022/02/resultat-20220226-catsub20pcsabadell.pdf",
+      "athlete_name": "Claudia Mir Casellas",
+      "athlete_dob": "02/08/2003",
+      "athlete_id": "CT152",
+      "discipline": "400 metres llisos",
+      "performance": "1:01.30",
+      "wind": null,
+      "internal_id": 699
+    },
+    {
+      "event_name": "Campionat de Catalunya Sub20 en Pista Coberta - Campionat de Catalunya Sub20 en Pista Coberta",
+      "event_date": "26/02/2022",
+      "event_location": "Club                                              Lic",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2022/02/resultat-20220226-catsub20pcsabadell.pdf",
+      "athlete_name": "Claudia Mir Casellas",
+      "athlete_dob": "02/08/2003",
+      "athlete_id": "CT152",
+      "discipline": "400 metres llisos",
+      "performance": "1:00.31",
+      "wind": null,
+      "internal_id": 699
+    },
+    {
+      "event_name": "Control Absolut en Pista Coberta - Control Absolut en Pista Coberta",
+      "event_date": "14/01/2023",
+      "event_location": "Club                                             Lic",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2023/01/resultat-20230114-controlabsolutpcsabadell.pdf",
+      "athlete_name": "Claudia Mir Casellas",
+      "athlete_dob": "02/08/2003",
+      "athlete_id": "CT152",
+      "discipline": "60 metres tanques (0.84)",
+      "performance": "9.97",
       "wind": null,
       "internal_id": 699
     },
@@ -1074,7 +1166,7 @@
       "athlete_id": "CT152",
       "discipline": "400 metres llisos",
       "performance": "1:02.23",
-      "wind": "-0.2",
+      "wind": null,
       "internal_id": 699
     },
     {

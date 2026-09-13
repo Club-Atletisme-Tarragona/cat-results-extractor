@@ -2,7 +2,7 @@
   "athlete_name": "FERNANDO FLORES MONTES",
   "athlete_id": "CT15201",
   "athlete_dob": "17/6/1969",
-  "total_results": 52,
+  "total_results": 53,
   "name_variants_found": [
     "1 132 (t) Fernando Flores Montes M-45 9-",
     "1 25 (t) Fernando Flores Montes M-50",
@@ -13,6 +13,7 @@
     "2 5 (t) Fernando Flores Montes M-45",
     "2 65 (t) Fernando Flores Montes M-45",
     "3 14 (t) Fernando Flores Montes",
+    "60 (t) Fernando Flores Montes M-50 4 NP",
     "FERNANDO FLORES MONTES",
     "FERNANDO FRORES MONTES",
     "FLORES MONTES FERNANDO",
@@ -23,7 +24,7 @@
     "CL15201",
     "CT15201"
   ],
-  "source_files_count": 44,
+  "source_files_count": 45,
   "results": [
     {
       "event_name": "Campionat de Catalunya de Veterans",
@@ -507,6 +508,19 @@
       "internal_id": 4
     },
     {
+      "event_name": "",
+      "event_date": "04/04/2021",
+      "event_location": "Santa Coloma de Gramenet",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210404-cat10000santacoloma.pdf",
+      "athlete_name": "60 (t) Fernando Flores Montes M-50 4 NP",
+      "athlete_dob": "17/06/1969",
+      "athlete_id": "CL15201",
+      "discipline": "10000 metres llisos",
+      "performance": "NP",
+      "wind": null,
+      "internal_id": 4
+    },
+    {
       "event_name": "Campionat de Catalunya de Clubs Grup\"B\" - 1a jornada",
       "event_date": "11/04/2021",
       "event_location": "Santa Coloma de Gramenet",
@@ -644,7 +658,7 @@
       "athlete_name": "FERNANDO FLORES MONTES",
       "athlete_dob": "",
       "athlete_id": "CL15201",
-      "discipline": "Marató Marxa (Ruta)",
+      "discipline": "Mitja Marató Marxa (Ruta)",
       "performance": "1:58:03",
       "wind": null,
       "internal_id": 4
@@ -670,7 +684,7 @@
       "athlete_name": "FERNANDO FLORES MONTES",
       "athlete_dob": "17/6/1969",
       "athlete_id": "CL15201",
-      "discipline": "Marato",
+      "discipline": "Marató Marxa (Ruta)",
       "performance": "4:12:44",
       "wind": null,
       "internal_id": 4

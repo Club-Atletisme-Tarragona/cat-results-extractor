@@ -2,7 +2,7 @@
   "athlete_name": "ROS BORRELL XAVIER JVM",
   "athlete_id": "CAT-3754232",
   "athlete_dob": "19/5/1998",
-  "total_results": 52,
+  "total_results": 57,
   "name_variants_found": [
     "1 352 (t) Xavier Ros Borrell",
     "3 213 (t) Xavier Ros Borrell",
@@ -14,7 +14,8 @@
     "Xavier Ros Borrell",
     "Xavier Ros Borrell 13 q",
     "Xavier Ros Borrell 4",
-    "Xavier Ros Borrell LM"
+    "Xavier Ros Borrell LM",
+    "Xavier Ros Borrell PM"
   ],
   "license_variants_found": [
     "CAT-3754232",
@@ -22,7 +23,7 @@
     "CL56809",
     "CT22779"
   ],
-  "source_files_count": 36,
+  "source_files_count": 41,
   "results": [
     {
       "event_name": "",
@@ -415,6 +416,19 @@
       "internal_id": 439
     },
     {
+      "event_name": "Critèrium Josep Campmany (6a. Jornada)",
+      "event_date": "14/07/2016",
+      "event_location": "Club                                                  Lic",
+      "event_src": "https://old.fcatletisme.cat/Pairelliure/2016/resulccampmany140716.pdf",
+      "athlete_name": "Xavier Ros Borrell",
+      "athlete_dob": "19/05/1998",
+      "athlete_id": "CT22779",
+      "discipline": "800 metres llisos",
+      "performance": "2:04.49",
+      "wind": null,
+      "internal_id": 439
+    },
+    {
       "event_name": "Control Primavera 1a. jornada",
       "event_date": "28/04/2018",
       "event_location": "Cambrils",
@@ -437,6 +451,19 @@
       "athlete_id": "CL22779",
       "discipline": "1500 metres llisos",
       "performance": "4:33.97",
+      "wind": null,
+      "internal_id": 439
+    },
+    {
+      "event_name": " - Sabadell (Pista Coberta de Catalunya), 12 enero 2020",
+      "event_date": "12/01/2020",
+      "event_location": "Club                                             Lic",
+      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20200112-catclubsbpcsabadell.pdf",
+      "athlete_name": "Xavier Ros Borrell PM",
+      "athlete_dob": "19/05/1998",
+      "athlete_id": "CL22779",
+      "discipline": "3000 metres llisos",
+      "performance": "9:34.06",
       "wind": null,
       "internal_id": 439
     },
@@ -467,6 +494,19 @@
       "internal_id": 439
     },
     {
+      "event_name": "Control Absolut en Pista Coberta - Control Absolut en Pista Coberta",
+      "event_date": "15/01/2022",
+      "event_location": "Club                                             Lic",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2022/01/resultat-20220115-controlabsolutpcsabadell.pdf",
+      "athlete_name": "Xavier Ros Borrell",
+      "athlete_dob": "19/05/1998",
+      "athlete_id": "CL22779",
+      "discipline": "800 metres llisos",
+      "performance": "1:58.60",
+      "wind": null,
+      "internal_id": 439
+    },
+    {
       "event_name": "Campionat Territorial Sub10, Sub12, Sub14 i Sub16",
       "event_date": "14/05/2022",
       "event_location": "Tarragona",
@@ -476,6 +516,32 @@
       "athlete_id": "CL22779",
       "discipline": "800 metres llisos",
       "performance": "1:56.72",
+      "wind": null,
+      "internal_id": 439
+    },
+    {
+      "event_name": "",
+      "event_date": "11/06/2022",
+      "event_location": "Lloret de Mar",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2022/06/resultat-20220611-meetinglloretdemar.pdf",
+      "athlete_name": "Xavier Ros Borrell",
+      "athlete_dob": "19/05/1998",
+      "athlete_id": "CL22779",
+      "discipline": "1500 metres llisos",
+      "performance": "58.45",
+      "wind": null,
+      "internal_id": 439
+    },
+    {
+      "event_name": "Control Absolut en Pista Coberta - Control Absolut en Pista Coberta",
+      "event_date": "14/01/2023",
+      "event_location": "Club                                             Lic",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2023/01/resultat-20230114-controlabsolutpcsabadell.pdf",
+      "athlete_name": "Xavier Ros Borrell",
+      "athlete_dob": "19/05/1998",
+      "athlete_id": "CL22779",
+      "discipline": "800 metres llisos",
+      "performance": "2:01.00",
       "wind": null,
       "internal_id": 439
     },

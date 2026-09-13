@@ -2,7 +2,7 @@
   "athlete_name": "LUANA IZAGA DERIU",
   "athlete_id": "CL77321",
   "athlete_dob": "13/2/2007",
-  "total_results": 68,
+  "total_results": 69,
   "name_variants_found": [
     "1 274 (t) Luana Izaga Deriu AF",
     "12 75 (t) Luana Izaga Deriu AF",
@@ -12,6 +12,7 @@
     "3 153 (t) Luana Izaga Deriu",
     "3 61 (t) Luana Izaga Deriu AF",
     "4 328 (t) Luana Izaga Deriu",
+    "44 (t) Luana Izaga Deriu CF NP",
     "6 405 (t) Luana Izaga Deriu",
     "6 93 (t) Luana Izaga Deriu",
     "7 368 (t) Luana Izaga Deriu",
@@ -33,7 +34,7 @@
   "license_variants_found": [
     "CL77321"
   ],
-  "source_files_count": 23,
+  "source_files_count": 24,
   "results": [
     {
       "event_name": "TROFEU ATLÈTIC NÀSTIC DE TARRAGONA",
@@ -383,7 +384,7 @@
       "athlete_id": "CL77321",
       "discipline": "Llargada",
       "performance": "9.55",
-      "wind": "1.32",
+      "wind": null,
       "internal_id": 928
     },
     {
@@ -721,7 +722,7 @@
       "athlete_id": "CL77321",
       "discipline": "80 metres llisos",
       "performance": "11.95",
-      "wind": "+0.2",
+      "wind": null,
       "internal_id": 928
     },
     {
@@ -917,6 +918,19 @@
       "discipline": "Llargada",
       "performance": "4.27",
       "wind": "+0.0",
+      "internal_id": 928
+    },
+    {
+      "event_name": "Campionat de Catalunya Clubs Sub16 Masculí en Pista Coberta - Campionat de Catalunya Clubs Sub16 Masculí en Pista Coberta",
+      "event_date": "30/01/2021",
+      "event_location": "Barcelona",
+      "event_src": "http://fcatletisme.cat/wp-content/uploads/2021/02/resultat-20210130-catclubssub16pcbcnpsj.pdf",
+      "athlete_name": "44 (t) Luana Izaga Deriu CF NP",
+      "athlete_dob": "13/02/2007",
+      "athlete_id": "CL77321",
+      "discipline": "Perxa",
+      "performance": "NP",
+      "wind": null,
       "internal_id": 928
     }
   ]

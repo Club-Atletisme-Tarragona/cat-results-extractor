@@ -2,11 +2,12 @@
   "athlete_name": "CRISTINA INIESTA ACERA",
   "athlete_id": "CL78440",
   "athlete_dob": "27/2/2004",
-  "total_results": 15,
+  "total_results": 17,
   "name_variants_found": [
     "2 92 (t) Cristina Iniesta Acera",
     "4 236 (t) Cristina Iniesta Acera LF",
     "5 303 (t) Cristina Iniesta Acera LF",
+    "81 (t) Cristina Iniesta Acera LF 3 NP",
     "CRISTINA INIESTA ACERA",
     "Cristina Iniesta Acera",
     "INIESTA ACERA CRISTINA",
@@ -15,7 +16,7 @@
   "license_variants_found": [
     "CL78440"
   ],
-  "source_files_count": 9,
+  "source_files_count": 11,
   "results": [
     {
       "event_name": "TROFEU PROMOCIÓ NÀSTIC",
@@ -161,6 +162,19 @@
       "internal_id": 742
     },
     {
+      "event_name": "Controls Pista Coberta Sub20 - Sub18 - Controls Pista Coberta Sub20 - Sub18",
+      "event_date": "30/01/2021",
+      "event_location": "Barcelona - Palau Sant Jordi",
+      "event_src": "http://fcatletisme.cat/wp-content/uploads/2021/01/resultat-20210130-controlsub1820pcbcnpsj.pdf",
+      "athlete_name": "Cristina Iniesta Acera",
+      "athlete_dob": "27/02/2004",
+      "athlete_id": "CL78440",
+      "discipline": "3000 metres llisos",
+      "performance": "12:13.07",
+      "wind": null,
+      "internal_id": 742
+    },
+    {
       "event_name": "Control Febrer 1",
       "event_date": "07/02/2021",
       "event_location": "Reus",
@@ -170,6 +184,19 @@
       "athlete_id": "CL78440",
       "discipline": "3000 metres llisos",
       "performance": "12:12.87",
+      "wind": null,
+      "internal_id": 742
+    },
+    {
+      "event_name": "",
+      "event_date": "04/04/2021",
+      "event_location": "Santa Coloma de Gramenet",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-20210404-cat10000santacoloma.pdf",
+      "athlete_name": "81 (t) Cristina Iniesta Acera LF 3 NP",
+      "athlete_dob": "27/02/2004",
+      "athlete_id": "CL78440",
+      "discipline": "5000 metres llisos",
+      "performance": "NP",
       "wind": null,
       "internal_id": 742
     },

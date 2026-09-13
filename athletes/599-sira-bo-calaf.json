@@ -2,7 +2,7 @@
   "athlete_name": "SIRA BO CALAF",
   "athlete_id": "CT712",
   "athlete_dob": "19/3/2001",
-  "total_results": 103,
+  "total_results": 105,
   "name_variants_found": [
     "10 23 (t) Sira Bo Calaf PF 4",
     "2 221 (t) Roger Bo Calaf",
@@ -34,7 +34,7 @@
     "CL7384",
     "CT712"
   ],
-  "source_files_count": 36,
+  "source_files_count": 38,
   "results": [
     {
       "event_name": "",
@@ -631,7 +631,7 @@
       "athlete_id": "",
       "discipline": "Alçada",
       "performance": "8.75",
-      "wind": "0.2",
+      "wind": null,
       "internal_id": 599
     },
     {
@@ -644,7 +644,7 @@
       "athlete_id": "",
       "discipline": "Alçada",
       "performance": "7.65",
-      "wind": "0.2",
+      "wind": null,
       "internal_id": 599
     },
     {
@@ -657,7 +657,7 @@
       "athlete_id": "",
       "discipline": "Alçada",
       "performance": "7.78",
-      "wind": "0.2",
+      "wind": null,
       "internal_id": 599
     },
     {
@@ -670,7 +670,7 @@
       "athlete_id": "",
       "discipline": "Alçada",
       "performance": "8.12",
-      "wind": "0.2",
+      "wind": null,
       "internal_id": 599
     },
     {
@@ -683,7 +683,7 @@
       "athlete_id": "",
       "discipline": "Alçada",
       "performance": "8.45",
-      "wind": "0.2",
+      "wind": null,
       "internal_id": 599
     },
     {
@@ -1190,7 +1190,7 @@
       "athlete_id": "CL71689",
       "discipline": "5000 metres marxa",
       "performance": "5:53.67",
-      "wind": "+2.3",
+      "wind": null,
       "internal_id": 599
     },
     {
@@ -1203,7 +1203,7 @@
       "athlete_id": "CL71689",
       "discipline": "5000 metres marxa",
       "performance": "5:55.31",
-      "wind": "-3.7",
+      "wind": null,
       "internal_id": 599
     },
     {
@@ -1242,7 +1242,7 @@
       "athlete_id": "CL26559",
       "discipline": "10000 metres llisos",
       "performance": "11:51.93",
-      "wind": "-2.1",
+      "wind": null,
       "internal_id": 599
     },
     {
@@ -1255,7 +1255,33 @@
       "athlete_id": "CL26559",
       "discipline": "5000 metres llisos",
       "performance": "11:52.31",
-      "wind": "-0.9",
+      "wind": null,
+      "internal_id": 599
+    },
+    {
+      "event_name": "Control Absolut en Pista Coberta - Control Absolut en Pista Coberta",
+      "event_date": "08/01/2022",
+      "event_location": "Club                                               Lic",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2022/01/resultat-20220108-controlabsolutpcsabadell.pdf",
+      "athlete_name": "Sira Bo Calaf",
+      "athlete_dob": "19/03/2001",
+      "athlete_id": "CT712",
+      "discipline": "1500 metres llisos",
+      "performance": "4:49.42",
+      "wind": null,
+      "internal_id": 599
+    },
+    {
+      "event_name": "Control Absolut en Pista Coberta - Control Absolut en Pista Coberta",
+      "event_date": "15/01/2022",
+      "event_location": "Club                                             Lic",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2022/01/resultat-20220115-controlabsolutpcsabadell.pdf",
+      "athlete_name": "Sira Bo Calaf",
+      "athlete_dob": "19/03/2001",
+      "athlete_id": "CT712",
+      "discipline": "3000 metres llisos",
+      "performance": "10:39.76",
+      "wind": null,
       "internal_id": 599
     },
     {
@@ -1307,7 +1333,7 @@
       "athlete_id": "CT712",
       "discipline": "5000 metres llisos",
       "performance": "4:42.39",
-      "wind": "-0.3",
+      "wind": null,
       "internal_id": 599
     },
     {

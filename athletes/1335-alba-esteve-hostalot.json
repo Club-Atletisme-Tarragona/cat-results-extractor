@@ -2,7 +2,7 @@
   "athlete_name": "ALBA ESTEVE HOSTALOT",
   "athlete_id": "CL4396",
   "athlete_dob": "10/11/2013",
-  "total_results": 111,
+  "total_results": 114,
   "name_variants_found": [
     "1 235 (t) Alba Esteve Hostalot AF",
     "10 477 (t) Alba Esteve Hostalot AF",
@@ -21,12 +21,13 @@
     "8 61 (t) Alba Esteve Hostalot AF",
     "ALBA ESTEVE HOSTALOT",
     "ALBA ESTEVE HOSTALOT MMP",
-    "Alba ESTEVE HOSTALOT"
+    "Alba ESTEVE HOSTALOT",
+    "Alba Esteve Hostalot"
   ],
   "license_variants_found": [
     "CL4396"
   ],
-  "source_files_count": 35,
+  "source_files_count": 37,
   "results": [
     {
       "event_name": "Controls Sub10 - Sub12",
@@ -90,6 +91,19 @@
       "athlete_id": "CL4396",
       "discipline": "60 metres tanques (0.50)",
       "performance": "14.13",
+      "wind": null,
+      "internal_id": 1335
+    },
+    {
+      "event_name": "Campionat Catalunya Clubs Sub12 Masculí i Femení \"A\" - Sabadell (Pista coberta de Catalunya), 11 febrero 2023",
+      "event_date": "11/02/2023",
+      "event_location": "Sabadell",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2023/02/resultat-20230211-catclubssub12apcsabadell.pdf",
+      "athlete_name": "Alba Esteve Hostalot",
+      "athlete_dob": "10/11/2013",
+      "athlete_id": "CL4396",
+      "discipline": "4x200",
+      "performance": "2:22.38",
       "wind": null,
       "internal_id": 1335
     },
@@ -168,7 +182,7 @@
       "athlete_id": "CL4396",
       "discipline": "3000 metres llisos",
       "performance": "2:15.94",
-      "wind": "-1.4",
+      "wind": null,
       "internal_id": 1335
     },
     {
@@ -636,7 +650,7 @@
       "athlete_id": "CL4396",
       "discipline": "80 metres llisos",
       "performance": "12.88",
-      "wind": "-1.9",
+      "wind": null,
       "internal_id": 1335
     },
     {
@@ -1039,6 +1053,32 @@
       "athlete_id": "CL4396",
       "discipline": "Pes (3 Kg)",
       "performance": "5.88",
+      "wind": null,
+      "internal_id": 1335
+    },
+    {
+      "event_name": "Jornada Prèvia Campionat de Catalunya de Relleus AL - Pista de Atletismo Can Jofresa",
+      "event_date": "11/04/2026",
+      "event_location": "Terrassa",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/04/resultat-20260411-catrelleuspreviaterrassa.pdf",
+      "athlete_name": "Alba ESTEVE HOSTALOT",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "4x80",
+      "performance": "47.26",
+      "wind": null,
+      "internal_id": 1335
+    },
+    {
+      "event_name": "Jornada Prèvia Campionat de Catalunya de Relleus AL - Pista de Atletismo Can Jofresa",
+      "event_date": "11/04/2026",
+      "event_location": "Terrassa",
+      "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/04/resultat-20260411-catrelleuspreviaterrassa.pdf",
+      "athlete_name": "Alba ESTEVE HOSTALOT",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "discipline": "4x200",
+      "performance": "2:08.83",
       "wind": null,
       "internal_id": 1335
     },

@@ -2,7 +2,7 @@
   "athlete_name": "BERNAT VERDU GOMEZ",
   "athlete_id": "CAT-3823996",
   "athlete_dob": "2/1/2002",
-  "total_results": 97,
+  "total_results": 98,
   "name_variants_found": [
     "1 292 Bernat Verdu Gomez LM",
     "2 143 Bernat Verdu Gomez LM",
@@ -31,7 +31,7 @@
     "CL69349",
     "CT25944"
   ],
-  "source_files_count": 33,
+  "source_files_count": 34,
   "results": [
     {
       "event_name": "CAMPIONAT TERRITORIAL DE PROVES COMBINADES",
@@ -1083,6 +1083,19 @@
       "athlete_id": "CT25944",
       "discipline": "300 metres tanques (0.762)",
       "performance": "45.06",
+      "wind": null,
+      "internal_id": 645
+    },
+    {
+      "event_name": "Control Absolut en Pista Coberta (4a. Jornada) - Control Absolut en Pista Coberta (4a. Jornada)",
+      "event_date": "14/01/2018",
+      "event_location": "Club                                             Lic",
+      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20180114-controlabsolutpcsabadell.pdf",
+      "athlete_name": "Bernat Verdu Gomez",
+      "athlete_dob": "02/01/2002",
+      "athlete_id": "CT25944",
+      "discipline": "60 metres tanques (0.91)",
+      "performance": "8.58",
       "wind": null,
       "internal_id": 645
     },

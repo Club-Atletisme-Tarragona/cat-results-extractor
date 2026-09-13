@@ -18,6 +18,14 @@ import re
 import json
 import os
 
+# Canonical venue/location rules shared with extract_promocio.py and the
+# maintenance scripts (see location_normalization.py).
+try:
+    from location_normalization import location_from_header
+except ImportError:  # run from another cwd: fall back to this file's directory
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    from location_normalization import location_from_header
+
 
 def extract_text(pdf_path):
     result = subprocess.run(
@@ -132,6 +140,10 @@ def parse_header(text):
                         localitat = prev
                         break
                 break
+
+    # Canonicalize the venue: an "Estadi Joan Serrahima" header line wins
+    # over the city guess (event_name keeps the PDF text as-is).
+    localitat = location_from_header(localitat, ubicacio)
 
     return competicio, ubicacio, localitat, data
 

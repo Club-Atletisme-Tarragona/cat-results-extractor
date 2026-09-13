@@ -15,6 +15,10 @@ from pathlib import Path
 REPO = Path(__file__).resolve().parent.parent
 TMP = Path('/tmp/fca_locations')
 
+# Canonical venue rules live at the repo root (location_normalization.py).
+sys.path.insert(0, str(REPO))
+from location_normalization import classify_pdf_header, normalize_location
+
 # Known cities (sorted longest-first for greedy matching)
 KNOWN_CITIES = sorted([
     "El Prat de Llobregat", "L'Hospitalet de Llobregat", "Vilanova i La Geltrú",
@@ -48,7 +52,11 @@ KNOWN_CITIES = sorted([
     "Torredembarra", "Creixell", "Altafulla", "La Pobla de Mafumet",
     "La Pobla", "Sant Carles", "Masdenverge", "Santa Bàrbara", "Roquetes",
     "La Bisbal", "Vila-seca", "Salou", "Coma-ruga", "Garraf",
-    "Camp Clar", "Serrahima", "Vic", "Vic (Tarragona)", "Joan Serrahima",
+    # "Serrahima" / "Joan Serrahima" are deliberately not listed: they are venue
+    # names, not cities, and treating them as cities is what wrote the bogus legacy
+    # "Serrahima" event_location values. Venue detection is classify_pdf_header()'s
+    # job (see location_normalization.py).
+    "Camp Clar", "Vic", "Vic (Tarragona)",
     "Vilanova i la Geltrú",
 ], key=len, reverse=True)
 
@@ -139,7 +147,9 @@ def main():
             if not pdf_text:
                 failed += 1
                 continue
-            loc = extract_location(pdf_text)
+            # Venue classification (Serrahima / Palau Sant Jordi) beats the raw
+            # city guess; whatever city came out is normalized to canonical form.
+            loc = classify_pdf_header(pdf_text) or normalize_location(extract_location(pdf_text) or "")
             if loc:
                 if not args.dry_run:
                     d = json.load(open(f))

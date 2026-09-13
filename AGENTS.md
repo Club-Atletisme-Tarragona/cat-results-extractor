@@ -286,6 +286,89 @@ The JSON output has this structure:
 }
 ```
 
+## Location Normalization
+
+`event_location` uses canonical venue strings. Variant spellings of the same
+venue MUST NOT be written to JSON — they split an athlete's results across
+phantom locations downstream.
+
+| Venue | Canonical string | Never merged with |
+|-------|------------------|-------------------|
+| Estadi Joan Serrahima, Barcelona (outdoor) | `Barcelona-SE` | Palau Sant Jordi |
+| Palau Sant Jordi, Barcelona (indoor track) | `Barcelona - Palau Sant Jordi` | Barcelona-SE |
+
+**Known Serrahima variants** (all normalize to `Barcelona-SE`):
+`Serrahima`, `Joan Serrahima`, `Estadi Joan Serrahima`, `Estadio Joan Serrahima`
+(Spanish spelling), `Estadi Joan Serrahima de Barcelona`,
+`Barcelona (Estadi Joan Serrahima)`, `Barcelona-Estadi Joan Serrahima`,
+and the short codes `BCN-SE` / `BCN_SE` / `BCN SE`.
+
+**Ambiguous `"Barcelona"` is NOT a Serrahima variant.** Some Barcelona meetings
+are held at Serrahima (outdoor) and some at Palau Sant Jordi (indoor); a plain
+`"Barcelona"` location is only resolved when the PDF header names the venue.
+
+The rules live in one module at the repo root, `location_normalization.py`
+(stdlib only, self-testing via `python3 location_normalization.py`):
+
+- `normalize_location(loc)` — canonicalize a standalone location string.
+- `location_from_header(localitat, ubicacio)` — extraction-time rule: **the
+  header venue line (`ubicacio`) wins over the city guess (`localitat`) when it
+  names a known venue.** This is what repairs wrong cities (`Sabadell`) and
+  header garbage (`Club   Lic ...`) on Serrahima meetings. A Palau venue line is
+  honoured only when the city is Barcelona or unknown.
+- `classify_pdf_header(text)` — scan the first ~30 lines of a PDF text and
+  return `Barcelona-SE` / `Barcelona - Palau Sant Jordi` / `None` (Serrahima
+  takes priority). Newer FCAT sheets print the venue as the code itself
+  (`"Barcelona-SE, 27 febrero 2021"`), which counts as venue evidence here only;
+  the code needs a separator, so `"Barcelona-SE"`, `"Barcelona - SE"` and
+  `"Barcelona_SE"` count, glued forms like `"BarcelonaSE"` do not.
+
+**Record lines are never venue evidence.** FCAT sheets list the catalan and spanish
+records above each event (`RCAT` / `RCAM`), and the line carries the venue where
+that RECORD was set — usually `Serrahima-BCN` — plus its date:
+
+```
+   RCAM     8.23   JEREMIAH OBRO IYAMU   CGTT   Serrahima-BCN   18/06/2022
+```
+
+That says nothing about where the current meeting is held (this exact line sits in
+a Gavà sheet). `classify_pdf_header()` skips any line matching `^\s*RCA[TM]\b`
+before testing for venues, and no extractor may take a venue from a record line.
+The same applies to the city guess: `extract_catt.py` already skips RCAT/RCAM lines
+when looking for `localitat`.
+
+**Every new extractor must call `location_from_header()` at the end of its
+header parsing** and write the result to `event_location` — that covers
+`extract_catt.py` and `extract_promocio.py`. `extract_marcha.py` writes an empty
+location on purpose; its output is filled in later by
+`scripts/fix_event_locations.py`, which applies `classify_pdf_header()` first and
+`normalize_location()` on the city guess as a fallback.
+
+`event_name` keeps the PDF header text verbatim (including the venue line), so it
+is the best single piece of venue evidence — do not normalize it. It is
+**corroboration, not proof**: being quoted from the sheet it can also carry record
+lines, so a `Serrahima` mention in `event_name` rules out a contradiction but does
+not by itself establish where the meeting was held. Direct evidence is
+`classify_pdf_header()` on the PDF text with record lines skipped.
+
+**A legacy `event_location` value is never promoted to a canonical venue string
+without corroboration.** `"Serrahima"` / `"BCN-SE"` sitting in an old JSON is a
+spelling, not a source: it can come from a wrong city scan of a sheet that was never
+played there. `scripts/normalize_event_locations.py` rewrites such a value onto
+`Barcelona-SE` / `Barcelona - Palau Sant Jordi` only when `event_name` corroborates
+the venue; otherwise it leaves the file alone and reports it under
+`Conflicts (needs manual review):`.
+
+**Backfill tool:** `scripts/normalize_event_locations.py` applies the same rules
+to existing JSON files (`seasons/*/json/*.json` + top-level `json/*.json`; never
+`json/imported/`). Pass A = exact variant rewrite (gated on `event_name`
+corroboration, as above), Pass B = `event_name` venue evidence, Pass C
+(`--resolve-barcelona`) = re-read the source PDF via `event_src`. Conflicts are
+listed at the end of the run and counted in the summary; they are never rewritten.
+Writes go through a sibling temp file plus `os.replace()`, so an interrupted run
+cannot leave a truncated JSON. Always start with `--dry-run`; the script is
+idempotent and only ever rewrites `event_location`.
+
 ## Output Validation
 
 Every result entry in the JSON output MUST have all three required fields populated (non-empty strings):

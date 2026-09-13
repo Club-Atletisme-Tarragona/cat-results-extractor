@@ -19,6 +19,14 @@ import re
 import json
 import os
 
+# Canonical venue/location rules shared with extract_catt.py and the
+# maintenance scripts (see location_normalization.py).
+try:
+    from location_normalization import location_from_header
+except ImportError:  # run from another cwd: fall back to this file's directory
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    from location_normalization import location_from_header
+
 
 def extract_text(pdf_path):
     result = subprocess.run(
@@ -82,12 +90,19 @@ def parse_header(text):
         stripped = line.strip()
         if not stripped:
             continue
-        # Look for common city/location names
+        # Look for common city/location names.
+        # "Serrahima"/"Joan Serrahima" are NOT cities and are deliberately absent:
+        # matching one here used to write a Serrahima-flavoured city into
+        # event_location. The stadium is detected from the venue line instead, by
+        # location_from_header() below (record lines never carry Estadi/Pista
+        # keywords, so the venue line is safe). 'Can Dragó' and 'Camp Clar' stay:
+        # they are track names that normalize to themselves, never to a canonical
+        # Barcelona venue.
         cities = ['Tarragona', 'Manresa', 'Vilafranca', 'Terrassa', 'Badalona',
                   'Mataró', 'Mollet', 'Sant Celoni', 'Girona', 'Lleida', 'Cambrils',
                   'Valls', 'Amposta', 'Reus', 'Olot', 'Figueres', 'Lloret',
                   'Palafrugell', 'Castellar', 'Granollers', 'Calella', 'El Prat',
-                  'Barcelona', 'Serrahima', 'Amposta', 'L\'Hospitalet',
+                  'Barcelona', 'Amposta', 'L\'Hospitalet',
                   'Hospitalet', 'Can Dragó', 'Camp Clar']
         for city in cities:
             if city.lower() in stripped.lower() and city not in competicio.lower():
@@ -95,6 +110,10 @@ def parse_header(text):
                 break
         if localitat:
             break
+
+    # Canonicalize the venue: an "Estadi Joan Serrahima" header line wins
+    # over the city guess (event_name keeps the PDF text as-is).
+    localitat = location_from_header(localitat, ubicacio)
 
     return competicio, ubicacio, localitat, data
 

@@ -1609,10 +1609,25 @@ def _pick_canonical_name(variants: list[str]) -> str:
 def deduplicate_results(indices: list[int], results: list[dict]) -> list[int]:
     """Deduplicate results within a cluster.
 
-    Dedup key: (event_date, event_src, discipline, performance, wind, athlete_dob, athlete_id)
+    Base key: (event_date, event_src, discipline, performance, athlete_dob,
+    normalized athlete_id). Rows sharing a base key are the same physical
+    result extracted twice (issue #19): category sections of the same PDF
+    with different raw discipline names, or license variants
+    (CAT-XXXX vs CAT-XXXX-A).
+
+    Wind handling within a base-key group:
+    - Rows with distinct non-null winds are kept: equal marks with different
+      winds are legitimate separate jump/throw attempts.
+    - A null-wind row alongside wind rows is an extraction artifact of the
+      same attempt (wind parsed in one extraction path, not in the other);
+      drop the null-wind rows, keep the wind rows (more information).
+    - All-null wind groups keep a single row.
+
+    Rows whose raw license has no variant suffix are preferred within a
+    group so kept rows carry the base license.
     """
-    seen = set()
-    unique = []
+    groups: dict[tuple, list[int]] = {}
+    order: list[tuple] = []
     for idx in indices:
         res = results[idx]
         key = (
@@ -1620,13 +1635,34 @@ def deduplicate_results(indices: list[int], results: list[dict]) -> list[int]:
             res["event_src"],
             res["discipline"],
             res["performance"],
-            res.get("wind"),
             res["athlete_dob"],
-            res["athlete_id"],
+            normalize_license(res["athlete_id"]),
         )
-        if key not in seen:
-            seen.add(key)
-            unique.append(idx)
+        if key not in groups:
+            groups[key] = []
+            order.append(key)
+        groups[key].append(idx)
+
+    def has_variant_suffix(idx: int) -> int:
+        """0 for base licenses, 1 for rows with a -A-style suffix."""
+        raw = results[idx]["athlete_id"].strip().upper()
+        return 0 if raw == normalize_license(raw) else 1
+
+    unique = []
+    for key in order:
+        group = sorted(groups[key], key=has_variant_suffix)  # stable sort
+        with_wind = [i for i in group if results[i].get("wind")]
+        if with_wind:
+            # Keep one row per distinct wind value; drop null-wind twins.
+            seen_winds = set()
+            for i in with_wind:
+                wind = results[i].get("wind")
+                if wind not in seen_winds:
+                    seen_winds.add(wind)
+                    unique.append(i)
+        else:
+            # All null wind: identical attempts, keep the first.
+            unique.append(group[0])
     return unique
 
 

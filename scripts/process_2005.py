@@ -427,6 +427,14 @@ def extract_athletes(text):
             current_wind = None
             continue
 
+        # Track wind from any data line with "VENT:" — it applies to subsequent athletes.
+        # MUST run before the round/series-header skips below: 2005-era PDFs print the
+        # round wind on those headers (e.g. "1a. Semifinal    Vent: -5,6") and skipping
+        # the line first loses the wind for every athlete in that round.
+        wind_on_line = extract_wind(stripped)
+        if wind_on_line is not None:
+            current_wind = wind_on_line
+
         if re.match(r'^\d+[a-zèé]?\.\s+(?:Semifinal|Final|Sèrie|Serie|Ronda)', stripped, re.IGNORECASE):
             continue
         if re.match(r'^\d+\.\s+(?:Semifinal|Final|Sèrie|Serie|Ronda)', stripped, re.IGNORECASE):
@@ -437,11 +445,6 @@ def extract_athletes(text):
             continue
         if 'Organitza' in stripped or 'Página' in stripped or 'Pagina' in stripped:
             continue
-
-        # Track wind from any data line with "VENT:" — it applies to subsequent athletes
-        wind_on_line = extract_wind(stripped)
-        if wind_on_line is not None:
-            current_wind = wind_on_line
 
         # Check for CA TARRAGONA (various formats)
         ca_match = re.search(r'(?:CA\s*\.?\s*TARRAGONA|C\.\s*A\.\s*Tarragona)', stripped, re.IGNORECASE)
@@ -633,6 +636,13 @@ def extract_athletes(text):
             'performance': performance,
             'wind': wind,
         })
+
+    # "VENT: Nul" means the wind was not recorded — export as null, never as the
+    # internal "0" sentinel (extract_wind maps Nul to "0" so that an explicit Nul on
+    # an athlete line does not inherit the previous round's wind via the fallback).
+    for r in results:
+        if r.get('wind') == '0':
+            r['wind'] = None
 
     return results
 

@@ -383,6 +383,19 @@ Before writing the JSON output, validate each entry. If any of these fields is e
 
 This prevents exporting incomplete/broken results. Warnings help identify extraction issues that need fixing in the parsing logic.
 
+## Legacy Empty Fields (athletes/)
+
+Empty `athlete_dob` and `athlete_id` in `athletes/*.json` are **legitimate for
+historical PDFs**, not defects: older result sheets (~8,000 rows each, mostly
+pre-2012) simply do not print the athlete's date of birth or license number.
+Do not fabricate values and do not treat them as extraction failures.
+
+In contrast, `event_date` and `event_src` are **always recoverable** and must
+never stay empty: every source PDF carries a date in its header (and usually
+in its URL-encoded filename), and provenance URLs can be reconstructed from
+sibling PDFs of the same series. `scripts/fix_empty_event_fields.py` fills
+these from verified source data (issue #20); run it with `--dry-run` first.
+
 ## Skip Labels
 
 The following labels are used to skip header/metadata lines in multiple functions:

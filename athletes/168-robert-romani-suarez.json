@@ -2,20 +2,22 @@
   "athlete_name": "ROBERT ROMANI SUAREZ",
   "athlete_id": "CT18283",
   "athlete_dob": "16/3/1986",
-  "total_results": 142,
+  "total_results": 145,
   "name_variants_found": [
+    "254 (t) Robert Romani Suarez SM NP",
     "7 7 (t) Robert Romani Suarez",
     "ROBERT ROMANI SUAREZ",
     "ROBERT ROMANÍ SUAREZ",
     "ROBERT ROMANÍ SUAREZ SM",
     "ROMANI SUAREZ ROBERT",
+    "Robert Romani",
     "Robert Romani Suarez"
   ],
   "license_variants_found": [
     "CL18223",
     "CT18283"
   ],
-  "source_files_count": 28,
+  "source_files_count": 29,
   "results": [
     {
       "event_name": "CAMPIONAT DE CATALUNYA JUNIOR EN PISTA COBERTA",
@@ -1730,6 +1732,45 @@
       "athlete_id": "CL18223",
       "discipline": "Llargada",
       "performance": "6.73",
+      "wind": null,
+      "internal_id": 168
+    },
+    {
+      "event_name": "Campionat de Catalunya de Proves Combinades",
+      "event_date": "29/05/2016",
+      "event_location": "Barberà del Vallès",
+      "event_src": "https://old.fcatletisme.cat/Pairelliure/2016/resulcatcombinades28290516.pdf",
+      "athlete_name": "Robert Romani Suarez",
+      "athlete_dob": "16/03/1986",
+      "athlete_id": "CL18223",
+      "discipline": "100 metres llisos",
+      "performance": "11.69",
+      "wind": "-1.5",
+      "internal_id": 168
+    },
+    {
+      "event_name": "Campionat de Catalunya de Proves Combinades",
+      "event_date": "29/05/2016",
+      "event_location": "Barberà del Vallès",
+      "event_src": "https://old.fcatletisme.cat/Pairelliure/2016/resulcatcombinades28290516.pdf",
+      "athlete_name": "254 (t) Robert Romani Suarez SM NP",
+      "athlete_dob": "16/03/1986",
+      "athlete_id": "CL18223",
+      "discipline": "Alçada",
+      "performance": "NP",
+      "wind": null,
+      "internal_id": 168
+    },
+    {
+      "event_name": "Campionat de Catalunya de Proves Combinades",
+      "event_date": "29/05/2016",
+      "event_location": "Barberà del Vallès",
+      "event_src": "https://old.fcatletisme.cat/Pairelliure/2016/resulcatcombinades28290516.pdf",
+      "athlete_name": "Robert Romani",
+      "athlete_dob": "01/01/1985",
+      "athlete_id": "CL18223",
+      "discipline": "Decatló (Abs)",
+      "performance": "11.69",
       "wind": null,
       "internal_id": 168
     },

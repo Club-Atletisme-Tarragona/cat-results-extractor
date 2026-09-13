@@ -1,11 +1,11 @@
 {
   "summary": {
-    "total_clusters": 886,
-    "total_results_processed": 27024,
+    "total_clusters": 885,
+    "total_results_processed": 27066,
     "files_scanned": 1351,
     "invalid_json_files": 0,
     "skipped_results_empty_fields": 0,
-    "athletes_without_license": 226
+    "athletes_without_license": 225
   },
   "license_conflicts": [
     {
@@ -40,11 +40,11 @@
       "conflicts": [
         {
           "licenses": [
+            "CAT-3789999",
             "CT2508",
-            "CL13219",
-            "CT13219",
             "CT2897",
-            "CAT-3789999"
+            "CT13219",
+            "CL13219"
           ],
           "reason": "CL/CT conflict: CL13219 vs CT13219 (same number 13219)"
         }
@@ -70,8 +70,8 @@
         {
           "licenses": [
             "CL14019",
-            "CT14019",
-            "CAT-3742954"
+            "CAT-3742954",
+            "CT14019"
           ],
           "reason": "CL/CT conflict: CL14019 vs CT14019 (same number 14019)"
         }
@@ -140,11 +140,11 @@
       "conflicts": [
         {
           "licenses": [
-            "CAT-3818228",
             "CL71733",
+            "CAT-3818228",
             "CL62287",
-            "CL25156",
-            "CT25156"
+            "CT25156",
+            "CL25156"
           ],
           "reason": "CL/CT conflict: CL25156 vs CT25156 (same number 25156)"
         }
@@ -171,9 +171,9 @@
           "licenses": [
             "CL20392",
             "CT2272",
-            "CT20392",
             "CT20690",
-            "CAT-3742985"
+            "CAT-3742985",
+            "CT20392"
           ],
           "reason": "CL/CT conflict: CL20392 vs CT20392 (same number 20392)"
         }
@@ -198,8 +198,8 @@
       "conflicts": [
         {
           "licenses": [
-            "CT19652",
-            "CL19652"
+            "CL19652",
+            "CT19652"
           ],
           "reason": "CL/CT conflict: CL19652 vs CT19652 (same number 19652)"
         }
@@ -218,10 +218,10 @@
       "conflicts": [
         {
           "licenses": [
-            "CL23242",
-            "CT1566",
+            "CL19336",
             "CT23242",
-            "CL19336"
+            "CT1566",
+            "CL23242"
           ],
           "reason": "CL/CT conflict: CL23242 vs CT23242 (same number 23242)"
         }
@@ -246,8 +246,8 @@
       "conflicts": [
         {
           "licenses": [
-            "CT24158",
-            "CL24158"
+            "CL24158",
+            "CT24158"
           ],
           "reason": "CL/CT conflict: CL24158 vs CT24158 (same number 24158)"
         }
@@ -264,8 +264,8 @@
       "conflicts": [
         {
           "licenses": [
-            "CL20403",
-            "CT20403"
+            "CT20403",
+            "CL20403"
           ],
           "reason": "CL/CT conflict: CL20403 vs CT20403 (same number 20403)"
         }
@@ -302,8 +302,8 @@
       "conflicts": [
         {
           "licenses": [
-            "CL27029",
-            "CT27029"
+            "CT27029",
+            "CL27029"
           ],
           "reason": "CL/CT conflict: CL27029 vs CT27029 (same number 27029)"
         }
@@ -316,15 +316,33 @@
       ]
     },
     {
+      "canonical_name": "JAN MONSERRATE CASTANO",
+      "canonical_license": "CT26558",
+      "conflicts": [
+        {
+          "licenses": [
+            "CL26558",
+            "CT26558"
+          ],
+          "reason": "CL/CT conflict: CL26558 vs CT26558 (same number 26558)"
+        }
+      ],
+      "total_results": 4,
+      "name_variants": [
+        "1 465 Jan Monserrate Castaño",
+        "Jan Monserrate Castaño"
+      ]
+    },
+    {
       "canonical_name": "SOFIA RUBIO REUNIS",
       "canonical_license": "CT87092",
       "conflicts": [
         {
           "licenses": [
-            "CT7092",
-            "CT87092"
+            "CT87092",
+            "CT7092"
           ],
-          "reason": "Multiple different licenses: ['CT7092', 'CT87092']"
+          "reason": "Multiple different licenses: ['CT87092', 'CT7092']"
         }
       ],
       "total_results": 8,
@@ -344,11 +362,11 @@
       "conflicts": [
         {
           "licenses": [
+            "CT91904",
             "CAT-3743012",
-            "CAT-3743",
-            "CT91904"
+            "CAT-3743"
           ],
-          "reason": "Multiple different licenses: ['CAT-3743012', 'CAT-3743', 'CT91904']"
+          "reason": "Multiple different licenses: ['CT91904', 'CAT-3743012', 'CAT-3743']"
         }
       ],
       "total_results": 8,
@@ -401,8 +419,8 @@
       "conflicts": [
         {
           "licenses": [
-            "CL15201",
-            "CT15201"
+            "CT15201",
+            "CL15201"
           ],
           "reason": "CL/CT conflict: CL15201 vs CT15201 (same number 15201)"
         }
@@ -427,19 +445,17 @@
       "conflicts": [
         {
           "licenses": [
-            "CT23992",
-            "CL23992",
             "CL57690",
+            "CT23992",
             "CAT-3754025",
-            "CT21623",
+            "CL23992",
             "CL92732"
           ],
           "reason": "CL/CT conflict: CL23992 vs CT23992 (same number 23992)"
         }
       ],
-      "total_results": 294,
+      "total_results": 296,
       "name_variants": [
-        "(t) Alicia Vazquez Domingo 09/10/1999",
         "1 6 Alicia Vazquez Domingo 4",
         "3 17 Alicia Vazquez Domingo",
         "3 463 Alicia Vazquez Domingo PF",
@@ -448,7 +464,8 @@
         "5 21 Alicia Vazquez Domingo JF",
         "6 345 Alicia Vazquez Domingo",
         "6 476 Alicia Vazquez Domingo PF 8",
-        "ALICIA VAZQUEZ DOMINGO"
+        "ALICIA VAZQUEZ DOMINGO",
+        "ALICIA VÁZQUEZ DOMINGO"
       ]
     },
     {
@@ -457,10 +474,10 @@
       "conflicts": [
         {
           "licenses": [
-            "CAT-3791853",
-            "CT22783"
+            "CT22783",
+            "CAT-3791853"
           ],
-          "reason": "Multiple different licenses: ['CAT-3791853', 'CT22783']"
+          "reason": "Multiple different licenses: ['CT22783', 'CAT-3791853']"
         }
       ],
       "total_results": 134,
@@ -487,7 +504,7 @@
     {
       "name": "MIREIA LOPEZ URBANO",
       "license": "CT23556",
-      "total_results": 373
+      "total_results": 372
     },
     {
       "name": "PEDRO PARDINES GRAS",
@@ -497,22 +514,22 @@
     {
       "name": "LAURINE ELISA MARIMON FERNANDEZ",
       "license": "CT28409",
-      "total_results": 331
+      "total_results": 335
     },
     {
       "name": "LLUC SUBIROS BRASERO",
       "license": "CT1186",
-      "total_results": 305
-    },
-    {
-      "name": "SILVIA VICENTE NAVARRETE",
-      "license": "CAT-3742994",
-      "total_results": 303
+      "total_results": 307
     },
     {
       "name": "ALICIA VAZQUEZ DOMINGO",
       "license": "CAT-3754025",
-      "total_results": 294
+      "total_results": 296
+    },
+    {
+      "name": "SILVIA VICENTE NAVARRETE",
+      "license": "CAT-3742994",
+      "total_results": 295
     },
     {
       "name": "DIDAC RIOS MESEGUER",
@@ -522,7 +539,7 @@
     {
       "name": "PABLO CRESPO BELTRAN",
       "license": "CT1650",
-      "total_results": 288
+      "total_results": 289
     },
     {
       "name": "MONSERRAT MONTANES ARBO",
@@ -535,14 +552,14 @@
       "total_results": 244
     },
     {
+      "name": "VICTOR JIMENEZ GARCIA",
+      "license": "CT1465",
+      "total_results": 239
+    },
+    {
       "name": "ALVAREZ JOSÉ MARTIN MIGUEL",
       "license": "CL12544",
       "total_results": 238
-    },
-    {
-      "name": "VICTOR JIMENEZ GARCIA",
-      "license": "CT1465",
-      "total_results": 236
     },
     {
       "name": "NORA MONTOLIO AMARO",
@@ -577,7 +594,7 @@
     {
       "name": "CLARA ORTIZ DE LANDAZURI ONTOSO",
       "license": "CAT-3742953",
-      "total_results": 177
+      "total_results": 185
     }
   ]
 }

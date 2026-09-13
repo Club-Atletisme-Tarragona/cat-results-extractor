@@ -1635,7 +1635,6 @@ def deduplicate_results(indices: list[int], results: list[dict]) -> list[int]:
             res["event_src"],
             res["discipline"],
             res["performance"],
-            res["athlete_dob"],
             normalize_license(res["athlete_id"]),
         )
         if key not in groups:

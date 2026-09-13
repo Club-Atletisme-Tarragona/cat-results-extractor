@@ -2,7 +2,7 @@
   "athlete_name": "LAURINE ELISA MARIMON FERNANDEZ",
   "athlete_id": "CT28409",
   "athlete_dob": "17/9/2004",
-  "total_results": 328,
+  "total_results": 330,
   "name_variants_found": [
     "(t) Laurineelisa Marimon Fernandez 17/09/2004 IF",
     "1 102 Laurine Elisa Marimon Fernandez CF 5 q",
@@ -42,6 +42,7 @@
     "LAURINE ELISA MARIMÓN FERNÁNDEZ",
     "LAURINE MARIMON FERNANDEZ",
     "LAURINE MARIMON FERNÁNDEZ",
+    "Laurine Elisa Marimon",
     "Laurine Elisa Marimon CF 10.4- 3-",
     "Laurine Elisa Marimon Fernandez",
     "Laurine Elisa Marimon Fernandez CF 4",
@@ -50,6 +51,7 @@
     "Laurine Elisa Marimon Fernandez IF 6",
     "Laurine Elisa Marimon Fernandez IF 7",
     "Laurine Elisa Marimon Fernandez LF",
+    "Laurineelisa Marimon",
     "Laurineelisa Marimon Fernandez",
     "Laurineelisa Marimon Fernandez 3",
     "Laurineelisa Marimon Fernandez 4",
@@ -77,8 +79,8 @@
       "athlete_name": "Laurine Elisa Marimon Fernandez",
       "athlete_dob": "17/09/2004",
       "athlete_id": "CT28409",
-      "discipline": "Perxa",
-      "performance": "1.41",
+      "discipline": "Hexatló",
+      "performance": "3013",
       "wind": null,
       "internal_id": 737
     },
@@ -90,9 +92,9 @@
       "athlete_name": "Laurine Elisa Marimon Fernandez",
       "athlete_dob": "17/09/2004",
       "athlete_id": "CT28409",
-      "discipline": "Perxa",
-      "performance": "5.07",
-      "wind": null,
+      "discipline": "100 metres tanques (0.762)",
+      "performance": "16.84",
+      "wind": "+0.1",
       "internal_id": 737
     },
     {
@@ -209,6 +211,19 @@
       "athlete_id": "CT28409",
       "discipline": "Javelina (500 g)",
       "performance": "19.01",
+      "wind": null,
+      "internal_id": 737
+    },
+    {
+      "event_name": "Campionat Catalunya Absolut Proves Combinades - Barcelona (Estadi Joan Serrahima), 27-28 abril 2019",
+      "event_date": "23/04/2006",
+      "event_location": "Barcelona",
+      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2019042728-catcombinadesserrahima.pdf",
+      "athlete_name": "Laurine Elisa Marimon Fernandez",
+      "athlete_dob": "17/09/2004",
+      "athlete_id": "CT28409",
+      "discipline": "600 metres llisos",
+      "performance": "1:52.96",
       "wind": null,
       "internal_id": 737
     },
@@ -1838,6 +1853,19 @@
       "internal_id": 737
     },
     {
+      "event_name": "Campionat de Catalunya de Proves Combinades",
+      "event_date": "29/05/2016",
+      "event_location": "Barberà del Vallès",
+      "event_src": "https://old.fcatletisme.cat/Pairelliure/2016/resulcatcombinades28290516.pdf",
+      "athlete_name": "Laurineelisa Marimon",
+      "athlete_dob": "20/02/2004",
+      "athlete_id": "CL69330",
+      "discipline": "Pentatló",
+      "performance": "1946",
+      "wind": null,
+      "internal_id": 737
+    },
+    {
       "event_name": "CAMPIONAT DE CATALUNYA INFANTIL (Jornada final)",
       "event_date": "11/06/2016",
       "event_location": "Castellar del Vallès",
@@ -2677,7 +2705,7 @@
       "athlete_name": "Laurine Elisa Marimon Fernandez",
       "athlete_dob": "17/09/2004",
       "athlete_id": "CT28409",
-      "discipline": "Pes (4 Kg)",
+      "discipline": "Pes (3 Kg)",
       "performance": "6.66",
       "wind": null,
       "internal_id": 737
@@ -2690,7 +2718,7 @@
       "athlete_name": "Laurine Elisa Marimon Fernandez",
       "athlete_dob": "17/09/2004",
       "athlete_id": "CT28409",
-      "discipline": "Pes (4 Kg)",
+      "discipline": "Pes (3 Kg)",
       "performance": "7.18",
       "wind": null,
       "internal_id": 737
@@ -2742,7 +2770,7 @@
       "athlete_name": "Laurine Elisa Marimon Fernandez",
       "athlete_dob": "17/09/2004",
       "athlete_id": "CT28409",
-      "discipline": "Javelina (600 g)",
+      "discipline": "Javelina (500 g)",
       "performance": "7.64",
       "wind": null,
       "internal_id": 737
@@ -2755,7 +2783,7 @@
       "athlete_name": "Laurine Elisa Marimon Fernandez",
       "athlete_dob": "17/09/2004",
       "athlete_id": "CT28409",
-      "discipline": "Javelina (600 g)",
+      "discipline": "Javelina (500 g)",
       "performance": "57.16",
       "wind": null,
       "internal_id": 737

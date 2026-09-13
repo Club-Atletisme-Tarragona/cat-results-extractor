@@ -2,9 +2,8 @@
   "athlete_name": "RUBEN PAREDES LARIO",
   "athlete_id": "CL71732",
   "athlete_dob": "10/3/2005",
-  "total_results": 155,
+  "total_results": 156,
   "name_variants_found": [
-    "(t) Ruben Paredes Lario 10/03/2005 AM",
     "AM RUBÉN PAREDES LARIO",
     "PAREDES LARIO RUBEN",
     "PAREDES LARIO RUBEN AM",
@@ -14,13 +13,13 @@
     "RUBEN PAREDES LARIO",
     "RUBEN PAREDES LARIO BM",
     "RUBÉN PAREDES LARIO",
+    "Ruben Paredes",
     "Ruben Paredes Lario",
     "Ruben Paredes Lario AM q",
     "Ruben Paredes lario"
   ],
   "license_variants_found": [
     "CL62286",
-    "CL71565",
     "CL71732"
   ],
   "source_files_count": 52,
@@ -1785,11 +1784,11 @@
       "event_date": "29/05/2016",
       "event_location": "Barberà del Vallès",
       "event_src": "https://old.fcatletisme.cat/Pairelliure/2016/resulcatcombinades28290516.pdf",
-      "athlete_name": "(t) Ruben Paredes Lario 10/03/2005 AM",
-      "athlete_dob": "29/03/2005",
-      "athlete_id": "CL71565",
-      "discipline": "Tetratló",
-      "performance": "270",
+      "athlete_name": "Ruben Paredes Lario",
+      "athlete_dob": "10/03/2005",
+      "athlete_id": "CL71732",
+      "discipline": "60 metres llisos",
+      "performance": "9.16",
       "wind": null,
       "internal_id": null
     },
@@ -1868,6 +1867,19 @@
       "athlete_id": "CL71732",
       "discipline": "Alçada",
       "performance": "1.20",
+      "wind": null,
+      "internal_id": null
+    },
+    {
+      "event_name": "Campionat de Catalunya de Proves Combinades",
+      "event_date": "29/05/2016",
+      "event_location": "Barberà del Vallès",
+      "event_src": "https://old.fcatletisme.cat/Pairelliure/2016/resulcatcombinades28290516.pdf",
+      "athlete_name": "Ruben Paredes",
+      "athlete_dob": "08/05/2005",
+      "athlete_id": "CL71732",
+      "discipline": "Tetratló",
+      "performance": "991",
       "wind": null,
       "internal_id": null
     },

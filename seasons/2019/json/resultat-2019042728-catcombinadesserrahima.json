@@ -2,30 +2,78 @@
   "event_name": "Campionat Catalunya Absolut Proves Combinades - Barcelona (Estadi Joan Serrahima), 27-28 abril 2019",
   "event_date": "23/04/2006",
   "event_location": "Barcelona",
-  "total_results": 52,
+  "total_results": 60,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2019042728-catcombinadesserrahima.pdf",
   "results": [
     {
       "athlete_name": "Laurine Elisa Marimon Fernandez",
       "athlete_dob": "17/09/2004",
       "athlete_id": "CT28409",
-      "performance": "1.41",
-      "discipline": "Perxa",
-      "raw_discipline_name": "Pto     Dor Nombre                             F de Nac 100m Pes     Alç.  Disc 100m.t. Perxa Jav. 1.000m Marca",
+      "performance": "3013",
+      "discipline": "Hexatló",
+      "raw_discipline_name": "Hexatló FEM. CAD",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2019042728-catcombinadesserrahima.pdf",
-      "internal_id": 737
+      "position": null
+    },
+    {
+      "athlete_name": "Lluc Subiros Brasero",
+      "athlete_dob": "06/01/2007",
+      "athlete_id": "CL77331",
+      "performance": "1618",
+      "discipline": "Pentatló",
+      "raw_discipline_name": "Pentatló masculina",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Silvia Vicente Navarrete",
+      "athlete_dob": "31/07/2007",
+      "athlete_id": "CL77332",
+      "performance": "2042",
+      "discipline": "Pentatló",
+      "raw_discipline_name": "Pentatló femenina",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Victor Jimenez Garcia",
+      "athlete_dob": "25/05/2008",
+      "athlete_id": "CL82981",
+      "performance": "1152",
+      "discipline": "Tetratló",
+      "raw_discipline_name": "Tetratló Masculina",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Guillem Ferran Jimenez",
+      "athlete_dob": "08/03/2008",
+      "athlete_id": "CL82978",
+      "performance": "1085",
+      "discipline": "Tetratló",
+      "raw_discipline_name": "Tetratló Masculina",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Pau Crespo Beltran",
+      "athlete_dob": "22/10/2008",
+      "athlete_id": "CL90887",
+      "performance": "778",
+      "discipline": "Tetratló",
+      "raw_discipline_name": "Tetratló Masculina",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "Laurine Elisa Marimon Fernandez",
       "athlete_dob": "17/09/2004",
       "athlete_id": "CT28409",
-      "performance": "5.07",
-      "discipline": "Perxa",
-      "raw_discipline_name": "Pto     Dor Nombre                             F de Nac 100m Pes     Alç.  Disc 100m.t. Perxa Jav. 1.000m Marca",
-      "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2019042728-catcombinadesserrahima.pdf",
-      "internal_id": 737
+      "performance": "16.84",
+      "discipline": "100 metres tanques (0.762)",
+      "raw_discipline_name": "100m tanques (0,762) FEM. AL",
+      "wind": "+0.1",
+      "position": null
     },
     {
       "athlete_name": "Laurine Elisa Marimon Fernandez",
@@ -35,8 +83,7 @@
       "discipline": "Alçada",
       "raw_discipline_name": "Alçada FEM. AL",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2019042728-catcombinadesserrahima.pdf",
-      "internal_id": 737
+      "position": null
     },
     {
       "athlete_name": "Laurine Elisa Marimon Fernandez",
@@ -44,10 +91,9 @@
       "athlete_id": "CT28409",
       "performance": "8.14",
       "discipline": "Pes (3 Kg)",
-      "raw_discipline_name": "Pes (3kg) FEM. AL",
+      "raw_discipline_name": "Pes (3 Kg) FEM. AL",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2019042728-catcombinadesserrahima.pdf",
-      "internal_id": 737
+      "position": null
     },
     {
       "athlete_name": "Laurine Elisa Marimon Fernandez",
@@ -55,10 +101,9 @@
       "athlete_id": "CT28409",
       "performance": "7.74",
       "discipline": "Pes (3 Kg)",
-      "raw_discipline_name": "Pes (3kg) FEM. AL",
+      "raw_discipline_name": "Pes (3 Kg) FEM. AL",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2019042728-catcombinadesserrahima.pdf",
-      "internal_id": 737
+      "position": null
     },
     {
       "athlete_name": "Laurine Elisa Marimon Fernandez",
@@ -66,10 +111,9 @@
       "athlete_id": "CT28409",
       "performance": "7.82",
       "discipline": "Pes (3 Kg)",
-      "raw_discipline_name": "Pes (3kg) FEM. AL",
+      "raw_discipline_name": "Pes (3 Kg) FEM. AL",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2019042728-catcombinadesserrahima.pdf",
-      "internal_id": 737
+      "position": null
     },
     {
       "athlete_name": "Laurine Elisa Marimon Fernandez",
@@ -79,8 +123,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada FEM. AL",
       "wind": "+0.2",
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2019042728-catcombinadesserrahima.pdf",
-      "internal_id": 737
+      "position": null
     },
     {
       "athlete_name": "Laurine Elisa Marimon Fernandez",
@@ -90,8 +133,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada FEM. AL",
       "wind": "+0.1",
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2019042728-catcombinadesserrahima.pdf",
-      "internal_id": 737
+      "position": null
     },
     {
       "athlete_name": "Laurine Elisa Marimon Fernandez",
@@ -101,8 +143,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada FEM. AL",
       "wind": "-0.2",
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2019042728-catcombinadesserrahima.pdf",
-      "internal_id": 737
+      "position": null
     },
     {
       "athlete_name": "Laurine Elisa Marimon Fernandez",
@@ -112,8 +153,7 @@
       "discipline": "Javelina (500 g)",
       "raw_discipline_name": "Javelina (500g) FEM.",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2019042728-catcombinadesserrahima.pdf",
-      "internal_id": 737
+      "position": null
     },
     {
       "athlete_name": "Laurine Elisa Marimon Fernandez",
@@ -123,19 +163,37 @@
       "discipline": "Javelina (500 g)",
       "raw_discipline_name": "Javelina (500g) FEM.",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2019042728-catcombinadesserrahima.pdf",
-      "internal_id": 737
+      "position": null
     },
     {
-      "athlete_name": "Lluc Subiros Brasero IM 7",
+      "athlete_name": "Laurine Elisa Marimon Fernandez",
+      "athlete_dob": "17/09/2004",
+      "athlete_id": "CT28409",
+      "performance": "1:52.96",
+      "discipline": "600 metres llisos",
+      "raw_discipline_name": "600m FEM. AL",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Laurine Elisa Marimon",
+      "athlete_dob": "23/02/2004",
+      "athlete_id": "CT28409",
+      "performance": "3013",
+      "discipline": "Hexatló",
+      "raw_discipline_name": "Hexatló FEM. CAD",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Lluc Subiros Brasero IM",
       "athlete_dob": "06/01/2007",
       "athlete_id": "CL77331",
       "performance": "11.52",
       "discipline": "80 metres llisos",
       "raw_discipline_name": "80m MASC. AL",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2019042728-catcombinadesserrahima.pdf",
-      "internal_id": 899
+      "position": null
     },
     {
       "athlete_name": "Lluc Subiros Brasero IM",
@@ -145,8 +203,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada MASC. AL",
       "wind": "+0.4",
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2019042728-catcombinadesserrahima.pdf",
-      "internal_id": 899
+      "position": null
     },
     {
       "athlete_name": "Lluc Subiros Brasero IM",
@@ -156,8 +213,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada MASC. AL",
       "wind": "+1.4",
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2019042728-catcombinadesserrahima.pdf",
-      "internal_id": 899
+      "position": null
     },
     {
       "athlete_name": "Lluc Subiros Brasero IM",
@@ -167,8 +223,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada MASC. AL",
       "wind": "+0.3",
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2019042728-catcombinadesserrahima.pdf",
-      "internal_id": 899
+      "position": null
     },
     {
       "athlete_name": "Lluc Subiros Brasero IM",
@@ -176,10 +231,9 @@
       "athlete_id": "CL77331",
       "performance": "7.54",
       "discipline": "Pes (3 Kg)",
-      "raw_discipline_name": "Pes (3kg) MASC. AL",
+      "raw_discipline_name": "Pes (3 Kg) MASC. AL",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2019042728-catcombinadesserrahima.pdf",
-      "internal_id": 899
+      "position": null
     },
     {
       "athlete_name": "Lluc Subiros Brasero IM",
@@ -187,10 +241,9 @@
       "athlete_id": "CL77331",
       "performance": "7.34",
       "discipline": "Pes (3 Kg)",
-      "raw_discipline_name": "Pes (3kg) MASC. AL",
+      "raw_discipline_name": "Pes (3 Kg) MASC. AL",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2019042728-catcombinadesserrahima.pdf",
-      "internal_id": 899
+      "position": null
     },
     {
       "athlete_name": "Lluc Subiros Brasero IM",
@@ -198,21 +251,19 @@
       "athlete_id": "CL77331",
       "performance": "7.81",
       "discipline": "Pes (3 Kg)",
-      "raw_discipline_name": "Pes (3kg) MASC. AL",
+      "raw_discipline_name": "Pes (3 Kg) MASC. AL",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2019042728-catcombinadesserrahima.pdf",
-      "internal_id": 899
+      "position": null
     },
     {
-      "athlete_name": "Lluc Subiros Brasero IM 2",
+      "athlete_name": "Lluc Subiros Brasero IM",
       "athlete_dob": "06/01/2007",
       "athlete_id": "CL77331",
       "performance": "15.67",
-      "discipline": "Pes (3 Kg)",
-      "raw_discipline_name": "Pes (3kg) MASC. AL",
-      "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2019042728-catcombinadesserrahima.pdf",
-      "internal_id": 899
+      "discipline": "80 metres tanques (0.84)",
+      "raw_discipline_name": "80m tanques (0,84) MASC. AL",
+      "wind": "+1.6",
+      "position": null
     },
     {
       "athlete_name": "Lluc Subiros Brasero IM",
@@ -222,19 +273,17 @@
       "discipline": "Alçada",
       "raw_discipline_name": "Alçada MASC. AL",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2019042728-catcombinadesserrahima.pdf",
-      "internal_id": 899
+      "position": null
     },
     {
-      "athlete_name": "(t) Silvia Vicente Navarrete 31/07/2007 IF",
-      "athlete_dob": "15/02/2007",
-      "athlete_id": "CL87092",
-      "performance": "394",
-      "discipline": "Pentatló",
-      "raw_discipline_name": "Pentatló femenina",
-      "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2019042728-catcombinadesserrahima.pdf",
-      "internal_id": 905
+      "athlete_name": "Silvia Vicente Navarrete IF",
+      "athlete_dob": "31/07/2007",
+      "athlete_id": "CL77332",
+      "performance": "14.93",
+      "discipline": "80 metres tanques (0.84)",
+      "raw_discipline_name": "80m tanques FEM AL",
+      "wind": "+2.4",
+      "position": null
     },
     {
       "athlete_name": "Silvia Vicente Navarrete IF",
@@ -244,8 +293,7 @@
       "discipline": "Alçada",
       "raw_discipline_name": "Alçada FEM. AL",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2019042728-catcombinadesserrahima.pdf",
-      "internal_id": 905
+      "position": null
     },
     {
       "athlete_name": "Silvia Vicente Navarrete IF",
@@ -253,10 +301,9 @@
       "athlete_id": "CL77332",
       "performance": "6.47",
       "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Pes (2kg) FEM AL",
+      "raw_discipline_name": "Pes (2 Kg) FEM AL",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2019042728-catcombinadesserrahima.pdf",
-      "internal_id": 905
+      "position": null
     },
     {
       "athlete_name": "Silvia Vicente Navarrete IF",
@@ -264,10 +311,9 @@
       "athlete_id": "CL77332",
       "performance": "6.67",
       "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Pes (2kg) FEM AL",
+      "raw_discipline_name": "Pes (2 Kg) FEM AL",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2019042728-catcombinadesserrahima.pdf",
-      "internal_id": 905
+      "position": null
     },
     {
       "athlete_name": "Silvia Vicente Navarrete IF",
@@ -275,10 +321,9 @@
       "athlete_id": "CL77332",
       "performance": "6.79",
       "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Pes (2kg) FEM AL",
+      "raw_discipline_name": "Pes (2 Kg) FEM AL",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2019042728-catcombinadesserrahima.pdf",
-      "internal_id": 905
+      "position": null
     },
     {
       "athlete_name": "Silvia Vicente Navarrete IF",
@@ -288,8 +333,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada FEM. AL",
       "wind": "+1.6",
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2019042728-catcombinadesserrahima.pdf",
-      "internal_id": 905
+      "position": null
     },
     {
       "athlete_name": "Silvia Vicente Navarrete IF",
@@ -299,8 +343,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada FEM. AL",
       "wind": "+1.7",
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2019042728-catcombinadesserrahima.pdf",
-      "internal_id": 905
+      "position": null
     },
     {
       "athlete_name": "Silvia Vicente Navarrete IF",
@@ -310,52 +353,57 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada FEM. AL",
       "wind": "+1.6",
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2019042728-catcombinadesserrahima.pdf",
-      "internal_id": 905
+      "position": null
     },
     {
-      "athlete_name": "Silvia Vicente Navarrete IF 3",
+      "athlete_name": "Silvia Vicente Navarrete IF",
       "athlete_dob": "31/07/2007",
       "athlete_id": "CL77332",
       "performance": "11.23",
       "discipline": "80 metres llisos",
       "raw_discipline_name": "80m FEM. AL",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2019042728-catcombinadesserrahima.pdf",
-      "internal_id": 905
+      "position": null
     },
     {
-      "athlete_name": "Pau Crespo Beltran AM 2",
+      "athlete_name": "Silvia Vicente",
+      "athlete_dob": "15/02/2007",
+      "athlete_id": "CL77332",
+      "performance": "2042",
+      "discipline": "Pentatló",
+      "raw_discipline_name": "Pentatló femenina",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Pau Crespo Beltran",
       "athlete_dob": "22/10/2008",
       "athlete_id": "CL90887",
       "performance": "10.02",
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60 metres llisos masculins",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2019042728-catcombinadesserrahima.pdf",
-      "internal_id": 971
+      "position": null
     },
     {
-      "athlete_name": "Victor Jimenez Garcia AM 7",
+      "athlete_name": "Victor Jimenez Garcia",
       "athlete_dob": "25/05/2008",
       "athlete_id": "CL82981",
       "performance": "8.70",
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60 metres llisos masculins",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2019042728-catcombinadesserrahima.pdf",
-      "internal_id": 958
+      "position": null
     },
     {
-      "athlete_name": "Guillem Ferran Jimenez AM 3",
+      "athlete_name": "Guillem Ferran Jimenez",
       "athlete_dob": "08/03/2008",
       "athlete_id": "CL82978",
       "performance": "8.93",
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60 metres llisos masculins",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2019042728-catcombinadesserrahima.pdf",
-      "internal_id": null
+      "position": null
     },
     {
       "athlete_name": "Guillem Ferran Jimenez",
@@ -365,8 +413,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada masculina",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2019042728-catcombinadesserrahima.pdf",
-      "internal_id": null
+      "position": null
     },
     {
       "athlete_name": "Guillem Ferran Jimenez",
@@ -376,8 +423,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada masculina",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2019042728-catcombinadesserrahima.pdf",
-      "internal_id": null
+      "position": null
     },
     {
       "athlete_name": "Guillem Ferran Jimenez",
@@ -387,8 +433,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada masculina",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2019042728-catcombinadesserrahima.pdf",
-      "internal_id": null
+      "position": null
     },
     {
       "athlete_name": "Victor Jimenez Garcia",
@@ -398,8 +443,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada masculina",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2019042728-catcombinadesserrahima.pdf",
-      "internal_id": 958
+      "position": null
     },
     {
       "athlete_name": "Victor Jimenez Garcia",
@@ -409,8 +453,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada masculina",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2019042728-catcombinadesserrahima.pdf",
-      "internal_id": 958
+      "position": null
     },
     {
       "athlete_name": "Victor Jimenez Garcia",
@@ -420,8 +463,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada masculina",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2019042728-catcombinadesserrahima.pdf",
-      "internal_id": 958
+      "position": null
     },
     {
       "athlete_name": "Pau Crespo Beltran",
@@ -431,8 +473,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada masculina",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2019042728-catcombinadesserrahima.pdf",
-      "internal_id": 971
+      "position": null
     },
     {
       "athlete_name": "Pau Crespo Beltran",
@@ -442,8 +483,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada masculina",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2019042728-catcombinadesserrahima.pdf",
-      "internal_id": 971
+      "position": null
     },
     {
       "athlete_name": "Guillem Ferran Jimenez",
@@ -451,10 +491,9 @@
       "athlete_id": "CL82978",
       "performance": "6.80",
       "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Pes (2kg) masculí",
+      "raw_discipline_name": "Pes (2 Kg) masculí",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2019042728-catcombinadesserrahima.pdf",
-      "internal_id": null
+      "position": null
     },
     {
       "athlete_name": "Guillem Ferran Jimenez",
@@ -462,10 +501,9 @@
       "athlete_id": "CL82978",
       "performance": "8.01",
       "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Pes (2kg) masculí",
+      "raw_discipline_name": "Pes (2 Kg) masculí",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2019042728-catcombinadesserrahima.pdf",
-      "internal_id": null
+      "position": null
     },
     {
       "athlete_name": "Pau Crespo Beltran",
@@ -473,10 +511,9 @@
       "athlete_id": "CL90887",
       "performance": "7.15",
       "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Pes (2kg) masculí",
+      "raw_discipline_name": "Pes (2 Kg) masculí",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2019042728-catcombinadesserrahima.pdf",
-      "internal_id": 971
+      "position": null
     },
     {
       "athlete_name": "Pau Crespo Beltran",
@@ -484,10 +521,9 @@
       "athlete_id": "CL90887",
       "performance": "7.17",
       "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Pes (2kg) masculí",
+      "raw_discipline_name": "Pes (2 Kg) masculí",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2019042728-catcombinadesserrahima.pdf",
-      "internal_id": 971
+      "position": null
     },
     {
       "athlete_name": "Pau Crespo Beltran",
@@ -495,10 +531,9 @@
       "athlete_id": "CL90887",
       "performance": "6.90",
       "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Pes (2kg) masculí",
+      "raw_discipline_name": "Pes (2 Kg) masculí",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2019042728-catcombinadesserrahima.pdf",
-      "internal_id": 971
+      "position": null
     },
     {
       "athlete_name": "Victor Jimenez Garcia",
@@ -506,10 +541,9 @@
       "athlete_id": "CL82981",
       "performance": "6.75",
       "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Pes (2kg) masculí",
+      "raw_discipline_name": "Pes (2 Kg) masculí",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2019042728-catcombinadesserrahima.pdf",
-      "internal_id": 958
+      "position": null
     },
     {
       "athlete_name": "Victor Jimenez Garcia",
@@ -517,10 +551,9 @@
       "athlete_id": "CL82981",
       "performance": "6.76",
       "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Pes (2kg) masculí",
+      "raw_discipline_name": "Pes (2 Kg) masculí",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2019042728-catcombinadesserrahima.pdf",
-      "internal_id": 958
+      "position": null
     },
     {
       "athlete_name": "Victor Jimenez Garcia",
@@ -528,10 +561,9 @@
       "athlete_id": "CL82981",
       "performance": "6.39",
       "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Pes (2kg) masculí",
+      "raw_discipline_name": "Pes (2 Kg) masculí",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2019042728-catcombinadesserrahima.pdf",
-      "internal_id": 958
+      "position": null
     },
     {
       "athlete_name": "Victor Jimenez Garcia",
@@ -541,8 +573,7 @@
       "discipline": "Alçada",
       "raw_discipline_name": "Alçada masculina",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2019042728-catcombinadesserrahima.pdf",
-      "internal_id": 958
+      "position": null
     },
     {
       "athlete_name": "Pau Crespo Beltran",
@@ -552,8 +583,7 @@
       "discipline": "Alçada",
       "raw_discipline_name": "Alçada masculina",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2019042728-catcombinadesserrahima.pdf",
-      "internal_id": 971
+      "position": null
     },
     {
       "athlete_name": "Guillem Ferran Jimenez",
@@ -563,19 +593,17 @@
       "discipline": "Alçada",
       "raw_discipline_name": "Alçada masculina",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2019042728-catcombinadesserrahima.pdf",
-      "internal_id": null
+      "position": null
     },
     {
-      "athlete_name": "(t) Pau Crespo 22/10/2008 AM",
+      "athlete_name": "Pau Crespo",
       "athlete_dob": "",
-      "athlete_id": "",
+      "athlete_id": "CL90887",
       "performance": "778",
       "discipline": "Tetratló",
       "raw_discipline_name": "Tetratló Masculina",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2019042728-catcombinadesserrahima.pdf",
-      "internal_id": 971
+      "position": null
     }
   ]
 }

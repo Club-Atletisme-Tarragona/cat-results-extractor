@@ -2,18 +2,18 @@
   "event_name": "",
   "event_date": "26/05/2013",
   "event_location": "Barcelona",
-  "total_results": 54,
+  "total_results": 44,
   "event_src": "http://old.fcatletisme.cat/Promocio/promocio2013/resulcatcombinadespromocio25260513.pdf",
   "results": [
     {
-      "athlete_name": "Adolf Milla Guasch 6",
+      "athlete_name": "Adolf Milla Guasch",
       "athlete_dob": "31/01/1998",
       "athlete_id": "CT22279",
       "performance": "12.25",
       "discipline": "100 metres llisos",
       "raw_discipline_name": "100 METRES LLISOS MASCULINS",
       "wind": "-2.3",
-      "internal_id": 434
+      "position": null
     },
     {
       "athlete_name": "Adolf Milla Guasch",
@@ -23,7 +23,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "SALT DE LLARGADA MASCULÍ",
       "wind": "+0.2",
-      "internal_id": 434
+      "position": null
     },
     {
       "athlete_name": "Adolf Milla Guasch",
@@ -33,7 +33,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "SALT DE LLARGADA MASCULÍ",
       "wind": "+0.4",
-      "internal_id": 434
+      "position": null
     },
     {
       "athlete_name": "Adolf Milla Guasch",
@@ -43,7 +43,7 @@
       "discipline": "Pes (4 Kg)",
       "raw_discipline_name": "LLANÇAMENT DE PES MASCULÍ",
       "wind": null,
-      "internal_id": 434
+      "position": null
     },
     {
       "athlete_name": "Adolf Milla Guasch",
@@ -53,7 +53,7 @@
       "discipline": "Pes (4 Kg)",
       "raw_discipline_name": "LLANÇAMENT DE PES MASCULÍ",
       "wind": null,
-      "internal_id": 434
+      "position": null
     },
     {
       "athlete_name": "Adolf Milla Guasch",
@@ -63,7 +63,7 @@
       "discipline": "Pes (4 Kg)",
       "raw_discipline_name": "LLANÇAMENT DE PES MASCULÍ",
       "wind": null,
-      "internal_id": 434
+      "position": null
     },
     {
       "athlete_name": "Adolf Milla Guasch",
@@ -73,17 +73,17 @@
       "discipline": "Alçada",
       "raw_discipline_name": "SALT D'ALÇADA MASCULÍ",
       "wind": null,
-      "internal_id": 434
+      "position": null
     },
     {
-      "athlete_name": "Adolf Milla Guasch 4",
+      "athlete_name": "Adolf Milla Guasch",
       "athlete_dob": "31/01/1998",
       "athlete_id": "CT22279",
       "performance": "16.80",
       "discipline": "100 metres tanques (0.91)",
       "raw_discipline_name": "100 METRES TANQUES MASCULINS",
       "wind": "+0.7",
-      "internal_id": 434
+      "position": null
     },
     {
       "athlete_name": "Adolf Milla Guasch",
@@ -93,7 +93,7 @@
       "discipline": "Javelina (600 g)",
       "raw_discipline_name": "LLANÇAMENT DE JAVELINA MASCULÍ",
       "wind": null,
-      "internal_id": 434
+      "position": null
     },
     {
       "athlete_name": "Adolf Milla Guasch",
@@ -103,7 +103,7 @@
       "discipline": "Javelina (600 g)",
       "raw_discipline_name": "LLANÇAMENT DE JAVELINA MASCULÍ",
       "wind": null,
-      "internal_id": 434
+      "position": null
     },
     {
       "athlete_name": "Adolf Milla Guasch",
@@ -113,67 +113,27 @@
       "discipline": "Javelina (600 g)",
       "raw_discipline_name": "LLANÇAMENT DE JAVELINA MASCULÍ",
       "wind": null,
-      "internal_id": 434
+      "position": null
     },
     {
-      "athlete_name": "Adolf Milla Guasch 1",
+      "athlete_name": "Adolf Milla Guasch",
       "athlete_dob": "31/01/1998",
       "athlete_id": "CT22279",
       "performance": "2:56.86",
       "discipline": "1000 metres llisos",
       "raw_discipline_name": "1000 METRES LLISOS MASCULINS",
       "wind": null,
-      "internal_id": 434
+      "position": null
     },
     {
-      "athlete_name": "Adolf Milla",
-      "athlete_dob": "31/01/1998",
-      "athlete_id": "CT22279",
-      "performance": "12.25",
-      "discipline": "100 metres llisos",
-      "raw_discipline_name": "Pto   Dor Nombre                        F de Nac 100m Llarg Pes    Alç. 100mt Jav 1000m Marca",
-      "wind": null,
-      "internal_id": 434
-    },
-    {
-      "athlete_name": "Adolf Milla",
-      "athlete_dob": "31/01/1998",
-      "athlete_id": "CT22279",
-      "performance": "5.21",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Pto   Dor Nombre                        F de Nac 100m Llarg Pes    Alç. 100mt Jav 1000m Marca",
-      "wind": null,
-      "internal_id": 434
-    },
-    {
-      "athlete_name": "Adolf Milla",
-      "athlete_dob": "31/01/1998",
-      "athlete_id": "CT22279",
-      "performance": "10.62",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Pto   Dor Nombre                        F de Nac 100m Llarg Pes    Alç. 100mt Jav 1000m Marca",
-      "wind": null,
-      "internal_id": 434
-    },
-    {
-      "athlete_name": "Adolf Milla",
-      "athlete_dob": "31/01/1998",
-      "athlete_id": "CT22279",
-      "performance": "16.80",
-      "discipline": "100 metres tanques (0.91)",
-      "raw_discipline_name": "Pto   Dor Nombre                        F de Nac 100m Llarg Pes    Alç. 100mt Jav 1000m Marca",
-      "wind": null,
-      "internal_id": 434
-    },
-    {
-      "athlete_name": "(t) Alicia Vazquez Domingo 09/10/1999",
-      "athlete_dob": "04/05/1998",
-      "athlete_id": "CT21623",
-      "performance": "451",
-      "discipline": "Hexatló",
-      "raw_discipline_name": "HEXATLÓ FEMENINA",
-      "wind": null,
-      "internal_id": 472
+      "athlete_name": "Alicia Vazquez Domingo",
+      "athlete_dob": "09/10/1999",
+      "athlete_id": "CL57690",
+      "performance": "18.37",
+      "discipline": "100 metres tanques (0.762)",
+      "raw_discipline_name": "100 METRES TANQUES FEMEN INS",
+      "wind": "-0.6",
+      "position": null
     },
     {
       "athlete_name": "Alicia Vazquez Domingo",
@@ -183,7 +143,7 @@
       "discipline": "Alçada",
       "raw_discipline_name": "SALT D'ALÇADA FEMENÍ",
       "wind": null,
-      "internal_id": 472
+      "position": null
     },
     {
       "athlete_name": "Alicia Vazquez Domingo",
@@ -193,7 +153,7 @@
       "discipline": "Pes (3 Kg)",
       "raw_discipline_name": "LLANÇAMENT DE PES FEMENÍ",
       "wind": null,
-      "internal_id": 472
+      "position": null
     },
     {
       "athlete_name": "Alicia Vazquez Domingo",
@@ -203,7 +163,7 @@
       "discipline": "Pes (3 Kg)",
       "raw_discipline_name": "LLANÇAMENT DE PES FEMENÍ",
       "wind": null,
-      "internal_id": 472
+      "position": null
     },
     {
       "athlete_name": "Alicia Vazquez Domingo",
@@ -213,7 +173,7 @@
       "discipline": "Pes (3 Kg)",
       "raw_discipline_name": "LLANÇAMENT DE PES FEMENÍ",
       "wind": null,
-      "internal_id": 472
+      "position": null
     },
     {
       "athlete_name": "Alicia Vazquez Domingo",
@@ -223,7 +183,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "SALT DE LLARGADA FEMENÍ",
       "wind": "+0.8",
-      "internal_id": 472
+      "position": null
     },
     {
       "athlete_name": "Alicia Vazquez Domingo",
@@ -233,7 +193,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "SALT DE LLARGADA FEMENÍ",
       "wind": "+0.0",
-      "internal_id": 472
+      "position": null
     },
     {
       "athlete_name": "Alicia Vazquez Domingo",
@@ -243,7 +203,7 @@
       "discipline": "Javelina (500 g)",
       "raw_discipline_name": "LLANÇAMENT DE JAVELINA FEMENÍ",
       "wind": null,
-      "internal_id": 472
+      "position": null
     },
     {
       "athlete_name": "Alicia Vazquez Domingo",
@@ -253,67 +213,67 @@
       "discipline": "Javelina (500 g)",
       "raw_discipline_name": "LLANÇAMENT DE JAVELINA FEMENÍ",
       "wind": null,
-      "internal_id": 472
+      "position": null
     },
     {
-      "athlete_name": "Alicia Vazquez Domingo 8",
+      "athlete_name": "Alicia Vazquez Domingo",
       "athlete_dob": "09/10/1999",
       "athlete_id": "CL57690",
       "performance": "1:56.17",
       "discipline": "600 metres llisos",
       "raw_discipline_name": "600 METRES LLISOS FEMENINS",
       "wind": null,
-      "internal_id": 472
+      "position": null
     },
     {
       "athlete_name": "Alicia Vazquez",
-      "athlete_dob": "09/10/1999",
+      "athlete_dob": "15/02/1999",
       "athlete_id": "CL57690",
-      "performance": "18.37",
-      "discipline": "60 metres tanques (0.76)",
-      "raw_discipline_name": "Pto   Dor Nombre                     F de Nac 100mt Alç.   Pes   Llar.  Jav. 600m Marca",
+      "performance": "2590",
+      "discipline": "Hexatló",
+      "raw_discipline_name": "HEXATLÓ FEMENINA",
       "wind": null,
-      "internal_id": 472
+      "position": null
     },
     {
-      "athlete_name": "Alicia Vazquez",
-      "athlete_dob": "09/10/1999",
-      "athlete_id": "CL57690",
-      "performance": "6.44",
-      "discipline": "Javelina (500 g)",
-      "raw_discipline_name": "Pto   Dor Nombre                     F de Nac 100mt Alç.   Pes   Llar.  Jav. 600m Marca",
+      "athlete_name": "Adolf Milla Guasch",
+      "athlete_dob": "31/01/1998",
+      "athlete_id": "CT22279",
+      "performance": "3485",
+      "discipline": "Heptatlo",
+      "raw_discipline_name": "HEPTATLÓ MASCULINA",
       "wind": null,
-      "internal_id": 472
+      "position": null
     },
     {
-      "athlete_name": "Alicia Vazquez",
+      "athlete_name": "Alicia Vazquez Domingo",
       "athlete_dob": "09/10/1999",
       "athlete_id": "CL57690",
-      "performance": "4.81",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Pto   Dor Nombre                     F de Nac 100mt Alç.   Pes   Llar.  Jav. 600m Marca",
+      "performance": "2590",
+      "discipline": "Hexatló",
+      "raw_discipline_name": "HEXATLÓ FEMENINA",
       "wind": null,
-      "internal_id": 472
+      "position": null
     },
     {
-      "athlete_name": "Mireia Lopez Urbano 4",
+      "athlete_name": "Mireia Lopez Urbano",
       "athlete_dob": "07/12/2000",
       "athlete_id": "CL54681",
       "performance": "14.08",
       "discipline": "80 metres tanques (0.84)",
       "raw_discipline_name": "80 METRES TANQUES FEMENINS",
       "wind": null,
-      "internal_id": 527
+      "position": null
     },
     {
-      "athlete_name": "Marta Targa garcia 3",
+      "athlete_name": "Marta Targa garcia",
       "athlete_dob": "27/04/2000",
       "athlete_id": "CL62297",
       "performance": "14.65",
       "discipline": "80 metres tanques (0.84)",
       "raw_discipline_name": "80 METRES TANQUES FEMENINS",
       "wind": null,
-      "internal_id": 680
+      "position": null
     },
     {
       "athlete_name": "Mireia Lopez Urbano",
@@ -323,7 +283,7 @@
       "discipline": "Alçada",
       "raw_discipline_name": "SALT D'ALÇADA FEMENÍ",
       "wind": null,
-      "internal_id": 527
+      "position": null
     },
     {
       "athlete_name": "Marta Targa garcia",
@@ -333,7 +293,7 @@
       "discipline": "Alçada",
       "raw_discipline_name": "SALT D'ALÇADA FEMENÍ",
       "wind": null,
-      "internal_id": 680
+      "position": null
     },
     {
       "athlete_name": "Mireia Lopez Urbano",
@@ -343,7 +303,7 @@
       "discipline": "Pes (4 Kg)",
       "raw_discipline_name": "LLANÇAMENT DE PES FEMENÍ",
       "wind": null,
-      "internal_id": 527
+      "position": null
     },
     {
       "athlete_name": "Mireia Lopez Urbano",
@@ -353,7 +313,7 @@
       "discipline": "Pes (4 Kg)",
       "raw_discipline_name": "LLANÇAMENT DE PES FEMENÍ",
       "wind": null,
-      "internal_id": 527
+      "position": null
     },
     {
       "athlete_name": "Mireia Lopez Urbano",
@@ -363,7 +323,7 @@
       "discipline": "Pes (4 Kg)",
       "raw_discipline_name": "LLANÇAMENT DE PES FEMENÍ",
       "wind": null,
-      "internal_id": 527
+      "position": null
     },
     {
       "athlete_name": "Marta Targa garcia",
@@ -373,7 +333,7 @@
       "discipline": "Pes (4 Kg)",
       "raw_discipline_name": "LLANÇAMENT DE PES FEMENÍ",
       "wind": null,
-      "internal_id": 680
+      "position": null
     },
     {
       "athlete_name": "Marta Targa garcia",
@@ -383,7 +343,7 @@
       "discipline": "Pes (4 Kg)",
       "raw_discipline_name": "LLANÇAMENT DE PES FEMENÍ",
       "wind": null,
-      "internal_id": 680
+      "position": null
     },
     {
       "athlete_name": "Marta Targa garcia",
@@ -393,7 +353,7 @@
       "discipline": "Pes (4 Kg)",
       "raw_discipline_name": "LLANÇAMENT DE PES FEMENÍ",
       "wind": null,
-      "internal_id": 680
+      "position": null
     },
     {
       "athlete_name": "Mireia Lopez Urbano",
@@ -403,7 +363,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "SALT DE LLARGADA FEMENÍ",
       "wind": null,
-      "internal_id": 527
+      "position": null
     },
     {
       "athlete_name": "Mireia Lopez Urbano",
@@ -413,7 +373,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "SALT DE LLARGADA FEMENÍ",
       "wind": null,
-      "internal_id": 527
+      "position": null
     },
     {
       "athlete_name": "Mireia Lopez Urbano",
@@ -423,7 +383,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "SALT DE LLARGADA FEMENÍ",
       "wind": null,
-      "internal_id": 527
+      "position": null
     },
     {
       "athlete_name": "Marta Targa garcia",
@@ -433,7 +393,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "SALT DE LLARGADA FEMENÍ",
       "wind": null,
-      "internal_id": 680
+      "position": null
     },
     {
       "athlete_name": "Marta Targa garcia",
@@ -443,107 +403,47 @@
       "discipline": "Llargada",
       "raw_discipline_name": "SALT DE LLARGADA FEMENÍ",
       "wind": null,
-      "internal_id": 680
+      "position": null
     },
     {
-      "athlete_name": "Marta Targa garcia 2",
+      "athlete_name": "Marta Targa garcia",
       "athlete_dob": "27/04/2000",
       "athlete_id": "CL62297",
       "performance": "11.25",
       "discipline": "80 metres llisos",
       "raw_discipline_name": "80 METRES LLISOS FEMENINS",
       "wind": null,
-      "internal_id": 680
+      "position": null
     },
     {
-      "athlete_name": "Mireia Lopez Urbano 3",
+      "athlete_name": "Mireia Lopez Urbano",
       "athlete_dob": "07/12/2000",
       "athlete_id": "CL54681",
       "performance": "11.25",
       "discipline": "80 metres llisos",
       "raw_discipline_name": "80 METRES LLISOS FEMENINS",
       "wind": null,
-      "internal_id": 527
+      "position": null
     },
     {
-      "athlete_name": "Mireia Lopez",
+      "athlete_name": "Mireia Lopez Urbano",
       "athlete_dob": "07/12/2000",
       "athlete_id": "CL54681",
-      "performance": "14.08",
-      "discipline": "80 metres tanques (0.84)",
-      "raw_discipline_name": "Pto      Dor Nombre                            F de Nac 80 mt Alç.  Pes   Llar.  80m Marca",
+      "performance": "2412",
+      "discipline": "Pentatló",
+      "raw_discipline_name": "PENTATLÓ FEMENINA",
       "wind": null,
-      "internal_id": 527
+      "position": null
     },
     {
-      "athlete_name": "Mireia Lopez",
-      "athlete_dob": "07/12/2000",
-      "athlete_id": "CL54681",
-      "performance": "8.39",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Pto      Dor Nombre                            F de Nac 80 mt Alç.  Pes   Llar.  80m Marca",
-      "wind": null,
-      "internal_id": 527
-    },
-    {
-      "athlete_name": "Mireia Lopez",
-      "athlete_dob": "07/12/2000",
-      "athlete_id": "CL54681",
-      "performance": "4.67",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Pto      Dor Nombre                            F de Nac 80 mt Alç.  Pes   Llar.  80m Marca",
-      "wind": null,
-      "internal_id": 527
-    },
-    {
-      "athlete_name": "Mireia Lopez",
-      "athlete_dob": "07/12/2000",
-      "athlete_id": "CL54681",
-      "performance": "11.25",
-      "discipline": "80 metres llisos",
-      "raw_discipline_name": "Pto      Dor Nombre                            F de Nac 80 mt Alç.  Pes   Llar.  80m Marca",
-      "wind": null,
-      "internal_id": 527
-    },
-    {
-      "athlete_name": "Marta Targa",
+      "athlete_name": "Marta Targa garcia",
       "athlete_dob": "27/04/2000",
       "athlete_id": "CL62297",
-      "performance": "14.65",
-      "discipline": "80 metres tanques (0.84)",
-      "raw_discipline_name": "Pto      Dor Nombre                            F de Nac 80 mt Alç.  Pes   Llar.  80m Marca",
+      "performance": "2221",
+      "discipline": "Pentatló",
+      "raw_discipline_name": "PENTATLÓ FEMENINA",
       "wind": null,
-      "internal_id": 680
-    },
-    {
-      "athlete_name": "Marta Targa",
-      "athlete_dob": "27/04/2000",
-      "athlete_id": "CL62297",
-      "performance": "7.68",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Pto      Dor Nombre                            F de Nac 80 mt Alç.  Pes   Llar.  80m Marca",
-      "wind": null,
-      "internal_id": 680
-    },
-    {
-      "athlete_name": "Marta Targa",
-      "athlete_dob": "27/04/2000",
-      "athlete_id": "CL62297",
-      "performance": "4.38",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Pto      Dor Nombre                            F de Nac 80 mt Alç.  Pes   Llar.  80m Marca",
-      "wind": null,
-      "internal_id": 680
-    },
-    {
-      "athlete_name": "Marta Targa",
-      "athlete_dob": "27/04/2000",
-      "athlete_id": "CL62297",
-      "performance": "11.25",
-      "discipline": "80 metres llisos",
-      "raw_discipline_name": "Pto      Dor Nombre                            F de Nac 80 mt Alç.  Pes   Llar.  80m Marca",
-      "wind": null,
-      "internal_id": 680
+      "position": null
     }
   ]
 }

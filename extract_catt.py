@@ -199,7 +199,7 @@ EVENT_PATTERNS = [
     # Full word "metres" track events: "100 metres llisos mascuins", "300 metres tanques masculins",
     # "3000 metres llisos femenins", "1500 metres obstacles femenins", "60 metres llisos femenins"
     # These use "metres" instead of "m" and include "llisos", "tanques", "obstacles", "marxa", "marxa"
-    r'\d{1,3}(?:\.\d{3})?\s*metres\s+(?:llisos|tanques|vallas|obstacles|marxa|marxa)\s+(?:masculins|Mascuins|femenins|femenina|masculina|Hombres|Mujeres|Masculí|Femení)',
+    r'\d{1,3}(?:\.\d{3})?\s*metres\s+(?:llisos|tanques|vallas|obstacles|marxa|marxa)\s+(?:mascu\s*lins|Mascu\s*ins|femen\s*ins|femenina|masculina|Hombres|Mujeres|Masculí|Femení)',
     # RFEA format: "60m MASC. PC", "300m FEM. PC", "Alçada MASC. PC", etc.
     # MASC = Masculí/Masculino, FEM = Femení/Femenino
     r'(?:\d{1,3}(?:\.\d{3})?\s*m(t)?|\d+\s*m(t)?)\s+(?:MASC\.?|FEM\.?)\s*PC',
@@ -208,13 +208,13 @@ EVENT_PATTERNS = [
     r'(?:Alçada|Altura|Perxa|Pértiga|Llargada|Longitud|Triple\s+Salto|Triple\s+salt|Disco|Martello|Martell|Martillo|Pes|Peso|Dard|Jabalina|Javelina)\s+(?:MASC\.?|FEM\.?)\s*AL',
     # RFEA hurdles: "60m tanques (0,50) FEM AL"
     r'\d{1,3}(?:\.\d{3})?\s*m(?:t)?\s+(?:tanques|vallas)\s+(?:\(.*?\)\s+)?(?:MASC\.?|FEM\.?)\s*(?:PC|AL)',
-    r'\d{1,3}(?:\.\d{3})?\s*metres\s+(?:llisos|tanques|vallas|obstacles|marxa|marxa)\s+(?:Sub\d+\s+)?(?:masculins|Mascuins|femenins|femenina|masculina|Hombres|Mujeres|Masculí|Femení)',
+    r'\d{1,3}(?:\.\d{3})?\s*metres\s+(?:llisos|tanques|vallas|obstacles|marxa|marxa)\s+(?:Sub\d+\s+)?(?:mascu\s*lins|Mascu\s*ins|femen\s*ins|femenina|masculina|Hombres|Mujeres|Masculí|Femení)',
 ]
 
 TRACK_PATTERNS = [
     # Full word "metres" variants (new PDF format)
-    r'\d{1,3}(?:\.\d{3})?\s*metres\s+(?:llisos|tanques|vallas|obstacles)\s+(?:masculins|Mascuins|femenins|femeni|masculi)',
-    r'\d{1,3}(?:\.\d{3})?\s*metres\s+(?:llisos|tanques|vallas|obstacles)\s+(?:masculins|Mascuins|femenins|femeni|masculi)',
+    r'\d{1,3}(?:\.\d{3})?\s*metres\s+(?:llisos|tanques|vallas|obstacles)\s+(?:mascu\s*lins|Mascu\s*ins|femen\s*ins|femeni|masculi)',
+    r'\d{1,3}(?:\.\d{3})?\s*metres\s+(?:llisos|tanques|vallas|obstacles)\s+(?:mascu\s*lins|Mascu\s*ins|femen\s*ins|femeni|masculi)',
     # Abbreviated "m" variants (legacy PDF format)
     r'(?:^|[\s(])\d{1,3}(?:\.\d{3})?\s*m(t)?\s*(?:tanques|vallas)?\s*(?:Obst\.?)?\s*(?:\(.*?\))?\s*(?:Marxa\s+)?(?:Hombres|Mujeres|Mixto|Homes|Dones|Masculí|Femení|masculins|Mascuins|femenins|masculina|femenina|masculino|femenino)',
     r'\d{1,3}\s*m(t)?\s+(?:tanques|vallas|Marxa|Obst\.?)\s+(?:Hombres|Mujeres|Masculí|Femení|masculins|Mascuins|femenins)',
@@ -296,6 +296,9 @@ def normalize_weight_units(name):
 
 
 def classify_event(event_name):
+    # Combined-events summary tables are their own section kind
+    if event_name and event_name.startswith("COMBINED_TABLE::"):
+        return "combined_table"
     if not event_name:
         return "unknown"
     # Check combined events first (before other patterns that might match parts)
@@ -947,6 +950,8 @@ def find_section_boundaries(lines):
         # Skip combined-event table headers (not event section names)
         if 'Puesto' in stripped and 'Dorsal' in stripped and 'Nombre' in stripped:
             continue
+        if combined_table_header(stripped):
+            continue
         
         event_name = ""
         is_schedule = False
@@ -1093,6 +1098,25 @@ def find_section_boundaries(lines):
         if re.match(r'^\d{2}:\d{2}\s+', stripped):
             continue
         if 'Puesto' in stripped and 'Dorsal' in stripped and 'Nombre' in stripped:
+            continue
+        # Bare sub-event titles ("60 metres tanques (0,50)", "Llargada",
+        # "Pes (2Kg)") head per-event tables inside combined groups; make
+        # them section boundaries so their rows keep the sub-event discipline.
+        if is_bare_event_title(stripped):
+            if not any(idx == i for idx, _ in section_starts):
+                section_starts.append((i, stripped))
+                rfea_added.add(i)
+            continue
+        # Abbreviated combined-events summary table headers ("Pto Dor Nombre
+        # ... Marca" / "Pto Club ... Ptos") become their own section kind;
+        # without this they bleed into the previous event's section and its
+        # cells get misread as marks of the wrong discipline.
+        if combined_table_start(lines, i):
+            group = combined_group_name(lines, i)
+            name = f"COMBINED_TABLE::{group or stripped}"
+            if not any(idx == i for idx, _ in section_starts):
+                section_starts.append((i, name))
+                rfea_added.add(i)
             continue
         # Check if this is an RFEA event header (e.g., "60m MASC. PC")
         is_event = False
@@ -3051,6 +3075,202 @@ def parse_relay_section(lines, sec_start, sec_end, event_name, competicio, data_
     return results
 
 
+_COMBINED_COL_TOKEN_RE = re.compile(
+    r'(?:\d{1,3}(?:\.\d{3})?|\d{4})\s*m(?:\.?\s?t\b|etres\b)?|Llarg|Longitud|Pes\b|Peso\b|Alç|Altura|Jav|Perxa|Pértiga|Pertiga|Disc',
+    re.IGNORECASE)
+
+
+_BARE_EVENT_TITLE_RE = re.compile(
+    r'^\s*('
+    r'\d+(?:\.\d{3})?\s*m(?:etres)?\s*(?:llisos|tanques|vallas|obstacles)?(?:\s*\([\d.,]+\))?'
+    r'|(?:Llargada|Longitud|Alçada|Altura|Perxa|Pértiga|Pertiga|Triple(?:\s*Salt)?'
+    r'|Pes|Peso|Disc(?:o)?|Martell(?:o)?|Martillo|Javelina|Jabalina|Dard)'
+    r'(?:\s*\([\d.,]+\s*(?:kg|g)\))?'
+    r'|\d+(?:\.\d{3})?\s*m(?:etres)?\s*(?:Marxa|Marcha|Obst\.?)'
+    r')(?:\s+(?:FEMEN\s*INS|MASCUL\s*INS|FEMEN[ÍI]N[AO]S?|MASCUL[ÍI]N[AO]S?|FEM\.?|MASC\.?|ABS\.?|VET\.?|AL|PC))?\s*$',
+    re.IGNORECASE)
+
+
+def is_bare_event_title(line: str) -> bool:
+    """True for bare sub-event title lines ("60 metres tanques (0,50)",
+    "Llargada", "Pes (2Kg)") that head per-event result tables inside
+    combined-events groups. Without this, those tables are swallowed by the
+    combined-event group section and their marks become cumulative-points
+    rows labelled with the group name."""
+    s = line.strip()
+    return bool(s) and len(s) <= 50 and bool(_BARE_EVENT_TITLE_RE.match(s))
+
+
+def combined_table_header(line: str) -> bool:
+    """True for single-line abbreviated combined-events table headers.
+
+    Form A: "Pto  Dor Nombre  F de Nac  80m  Llarg.  Pes  Alç.  Marca"
+    Form B (middle line of a 3-line header): "Pto Club  Cat  80m  Llarg.  Pes  Ptos"
+    The full "Puesto Dorsal Nombre" form is handled elsewhere and must not
+    match. Requires at least two sub-event column tokens so individual-event
+    tables ("... Calle Marca Ptos", "... 1 2 3 Marca Ptos") stay excluded.
+    """
+    if not re.search(r'\bPto\b', line):
+        return False
+    if re.search(r'\bPuesto\b', line):
+        return False
+    if not re.search(r'\b(Marca|Ptos|Puntos)\b', line):
+        return False
+    cols = len(_COMBINED_COL_TOKEN_RE.findall(line))
+    if cols < 2:
+        return False
+    if re.search(r'\bDor\b', line) and re.search(r'\bNombre\b', line):
+        return True
+    if re.search(r'\bClub\b', line) and re.search(r'\bCat\b', line):
+        return True
+    return False
+
+
+
+
+
+def combined_table_start(lines, idx):
+    """True when a combined-events summary table starts at lines[idx].
+
+    Unlike combined_table_header(), this also recognises wrapped column
+    headers: wide tables (decathlon) continue their event columns on the
+    lines below, up to the "Club ... Lic" line.
+    """
+    first = lines[idx].strip()
+    if not re.search(r'\bPto\b', first) or re.search(r'\bPuesto\b', first):
+        return False
+    if not (re.search(r'\bDor\b', first) or re.search(r'\bClub\b', first)):
+        return False
+    if combined_table_header(first):
+        return True
+    blob_parts = []
+    for j in range(idx, min(idx + 10, len(lines))):
+        s = lines[j].strip()
+        if j > idx and re.search(r'\bLic\b', s):
+            break
+        blob_parts.append(s)
+    blob = ' '.join(blob_parts)
+    if not re.search(r'\b(Marca|Ptos|Puntos)\b', blob):
+        return False
+    cols = len(_COMBINED_COL_TOKEN_RE.findall(blob))
+    return cols >= 2
+
+
+def combined_group_name(lines, idx):
+    """Combined-event group header ("Pentatló FEM") above a table header."""
+    for j in range(idx - 1, max(idx - 13, -1), -1):
+        s = lines[j].strip()
+        if re.match(r'^(?:Pentathl|Pentatl|Heptathl|Heptatl|Tetrathl|Tetratl|Hexathl|Hexatl|Octathl|Octatl|Decathl|Decatl|Triathl|Triatl)',
+                    s, re.IGNORECASE):
+            return s
+    return None
+
+
+def parse_combined_table_section(lines, sec_start, sec_end, sec_name, competicio, data_comp):
+    """Parse a combined-events summary table (abbreviated "Pto" headers).
+
+    Emits one row per CATT athlete carrying the final points total (the
+    'Marca'/'Ptos' column, dot-thousands normalised). Sub-event marks are
+    extracted from the individual event sections; per-cell rows here would
+    duplicate them with less reliable column pairing.
+    """
+    results = []
+    group = sec_name.split("::", 1)[1].strip() if "::" in sec_name else sec_name.strip()
+    if not group or group.startswith("COMBINED_TABLE") or re.search(r'\bPto\b|\bNombre\b', group):
+        # group header not found above the table: without a combined-event
+        # name the totals row has no valid discipline, so skip the table
+        # (the group's own parse_combined_section section may still cover it)
+        return results
+
+    value_token = re.compile(
+        r'\d{1,2}:\d{2}\.\d{2}|\d{1,2}/\d{1,2}/\d{4}|\d+\.\d+|\d{3,4}\b')
+    group_re = re.compile(
+        r'^(?:Pentathl|Pentatl|Heptathl|Heptatl|Tetrathl|Tetratl|Hexathl|Hexatl|Triatl)',
+        re.IGNORECASE)
+
+    i = sec_start
+    while i < min(sec_end, len(lines)) and not combined_table_start(lines, i):
+        i += 1
+    if i >= min(sec_end, len(lines)):
+        return results
+    i += 1  # past the header line
+
+    while i < min(sec_end, len(lines)):
+        line = lines[i]
+        stripped = line.strip()
+        if not stripped:
+            i += 1
+            continue
+        if combined_table_start(lines, i) or group_re.match(stripped):
+            break
+        m = re.match(r'^\s*(\d{1,3})\s+(\d{2,3})?\s*(?:\([te]\)\s+)?', line)
+        if not m:
+            i += 1
+            continue
+        rest_start = m.end()
+        vm = value_token.search(line, rest_start)
+        if not vm:
+            i += 1
+            continue
+        name = line[rest_start:vm.start()].strip()
+        name = re.sub(r'^(?:\([te]\)\s*)+', '', name).strip()
+        name = ' '.join(name.split())
+        if not name or len(name) < 3 or not re.search(r'[A-Za-zÀ-ú]{2,}', name):
+            i += 1
+            continue
+        values = value_token.findall(line, vm.start())
+        if not values:
+            i += 1
+            continue
+        total = values[-1]
+        if re.match(r'^\d{1,2}/\d{1,2}/\d{4}$', total) or ':' in total:
+            # date or a race time leaked into the points column: no total here
+            i += 1
+            continue
+        if re.match(r'^\d\.\d{3}$', total):
+            total = total.replace('.', '')
+
+        is_catt = False
+        dob = ""
+        lic = ""
+        cont = 0
+        j = i + 1
+        while j < min(sec_end, len(lines)) and cont < 3:
+            nxt = lines[j].strip()
+            if not nxt:
+                j += 1
+                continue
+            cont += 1
+            if combined_table_start(lines, j) or group_re.match(nxt):
+                break
+            if 'CA Tarragona' in nxt or 'CATT' in nxt:
+                is_catt = True
+            if not dob:
+                dm = re.search(r'\b(\d{1,2}/\d{1,2}/\d{4})\b', nxt)
+                if dm:
+                    dob = dm.group(1)
+            if not lic:
+                lm = re.search(r'\b(CL\d+|CT[\d\-]+|CAT\-\d+[A\-\.]*|IB\-\d+[A\-\.]*)\b', nxt)
+                if lm:
+                    lic = lm.group(1)
+            j += 1
+
+        if is_catt:
+            results.append({
+                "lloc": int(m.group(1)) if m.group(1) else 0,
+                "prova": group,
+                "competicio": competicio,
+                "data": data_comp,
+                "atleta_nom": name,
+                "atleta_naixement": dob,
+                "atleta_licencia": lic,
+                "marca": total,
+                "vent": None,
+            })
+        i = j if j > i else i + 1
+    return results
+
+
 def parse_with_section_aware(text, competicio, data_comp, source_url=None):
     results = []
     lines = text.split('\n')
@@ -3079,6 +3299,14 @@ def parse_with_section_aware(text, competicio, data_comp, source_url=None):
                 lines, sec_start, sec_end, sec_name.strip(), competicio, data_comp, is_championship
             )
             results.extend(combined_results)
+            continue
+
+        # Handle combined-events summary tables (abbreviated "Pto" headers)
+        if event_type == "combined_table":
+            table_results = parse_combined_table_section(
+                lines, sec_start, sec_end, sec_name.strip(), competicio, data_comp
+            )
+            results.extend(table_results)
             continue
 
         # Check if this section starts with SUMARIO - if so, skip regular parsing

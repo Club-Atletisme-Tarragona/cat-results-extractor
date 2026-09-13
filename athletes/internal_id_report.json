@@ -22,6 +22,18 @@
       ]
     },
     {
+      "athlete_name": "ABRIL DIAZ CASANAS",
+      "file": "athletes/abril-diaz-casanas.json",
+      "license_variants_found": [
+        "CL64862"
+      ],
+      "variants_checked": [
+        "ABRIL DIAZ CASANAS",
+        "Abril Diaz Casañas",
+        "DIAZ CASAÑAS ABRIL"
+      ]
+    },
+    {
       "athlete_name": "ABRIL LLOP PAJERO",
       "file": "athletes/abril-llop-pajero.json",
       "license_variants_found": [
@@ -36,8 +48,7 @@
         "9 152 (t) Abril Llop Pajero",
         "ABRIL LLOP PAJERO",
         "Abril Llop Pajero",
-        "Abril Llop Pajero IF",
-        "Abril Llop Pajero IF 3"
+        "Abril Llop Pajero IF"
       ]
     },
     {
@@ -368,6 +379,15 @@
       ]
     },
     {
+      "athlete_name": "ALEXANDRE GRAN BADIA",
+      "file": "athletes/alexandre-gran-badia.json",
+      "license_variants_found": [],
+      "variants_checked": [
+        "ALEXANDRE GRAN BADIA",
+        "GRAN BADIA ALEXANDRE"
+      ]
+    },
+    {
       "athlete_name": "ALFONSO MARTINEZ GUTIERREZ",
       "file": "athletes/alfonso-martinez-gutierrez.json",
       "license_variants_found": [
@@ -556,16 +576,6 @@
       "variants_checked": [
         "ANTIA PRIETO ESTEVEZ",
         "Antia Prieto Estevez"
-      ]
-    },
-    {
-      "athlete_name": "ANTILLACH PUJOL JORDINA",
-      "file": "athletes/antillach-pujol-jordina.json",
-      "license_variants_found": [],
-      "variants_checked": [
-        "ANTILLACH PUJOL JORDINA",
-        "ANTILLACH PUJOL JORDINA PBF",
-        "Jordina Antillach Pujol"
       ]
     },
     {
@@ -801,7 +811,6 @@
         "Berta Pomes Cabello CF 3",
         "Berta Pomes Cabello CF 7",
         "Berta Pomes Cabello IF",
-        "Berta Pomes Cabello IF 7",
         "POMES CABELLO BERTA",
         "POMES CABELLO BERTA AF"
       ]
@@ -848,6 +857,19 @@
         "BLANCO CALATRAVA FERRÁN PBM",
         "Ferran Blanco Calatrava BM",
         "ferran Blanco Calatrava"
+      ]
+    },
+    {
+      "athlete_name": "BLANCO CALATRAVA NACHO",
+      "file": "athletes/blanco-calatrava-nacho.json",
+      "license_variants_found": [
+        "CL82975"
+      ],
+      "variants_checked": [
+        "4 15 (t) Nacho Blanco Calatrava BM",
+        "BLANCO CALATRAVA NACHO",
+        "BLANCO CALATRAVA NACHO PBM",
+        "Nacho Blanco Calatrava"
       ]
     },
     {
@@ -1154,7 +1176,6 @@
         "Cristina Reyes Alcantara",
         "Cristina Reyes Alcantara CF 4",
         "Cristina Reyes Alcantara IF",
-        "Cristina Reyes Alcantara IF 4",
         "REYES ALCANTARA CRISTINA",
         "REYES ALCANTARA CRISTINA AF"
       ]
@@ -1222,18 +1243,6 @@
       "license_variants_found": [],
       "variants_checked": [
         "DE LANDAZURI ONTOSO UN"
-      ]
-    },
-    {
-      "athlete_name": "DIAZ CASANAS ABRIL",
-      "file": "athletes/diaz-casanas-abril.json",
-      "license_variants_found": [
-        "CL64862"
-      ],
-      "variants_checked": [
-        "Abril Diaz Casañas",
-        "DIAZ CASANAS ABRIL",
-        "DIAZ CASAÑAS ABRIL"
       ]
     },
     {
@@ -1503,7 +1512,6 @@
         "21 130 (t) Eric De La Rosa Fortuny",
         "3 223 (t) Eric De La Rosa Fortuny IM",
         "3 294 (t) Eric De La Rosa Fortuny IM",
-        "3 407 (t) Eric De La Rosa Fortuny",
         "3 608 (t) Eric De La Rosa Fortuny",
         "4 116 (t) Eric De La Rosa Fortuny IM",
         "4 223 (t) Eric De La Rosa Fortuny IM",
@@ -1520,11 +1528,9 @@
         "7 58 (t) Eric De La Rosa Fortuny IM",
         "7 88 (t) Eric De La Rosa Fortuny IM",
         "8 385 (t) Eric De La Rosa Fortuny IM",
-        "8 407 (t) Eric De La Rosa Fortuny",
         "8 81 (t) Eric De La Rosa Fortuny IM",
         "8 83 (t) Eric De La Rosa Fortuny IM",
         "9 302 (t) Eric De La Rosa Fortuny",
-        "9 407 (t) Eric De La Rosa Fortuny",
         "9 69 (t) Eric De La Rosa Fortuny IM q",
         "9 88 (t) Eric De La Rosa Fortuny IM",
         "ERIC DE LA ROSA FORTUNY",
@@ -1632,7 +1638,6 @@
         "Erika Diez Plasencia",
         "Erika Diez Plasencia IF",
         "Erika Diez Plasencia IF 3",
-        "Erika Diez Plasencia IF 4",
         "Erika Diez Plasencia IF 5",
         "Erika Diez Plasencia IF 7"
       ]
@@ -1956,15 +1961,6 @@
       ]
     },
     {
-      "athlete_name": "GRAN BADIA ALEXANDRE",
-      "file": "athletes/gran-badia-alexandre.json",
-      "license_variants_found": [],
-      "variants_checked": [
-        "ALEXANDRE GRAN BADIA",
-        "GRAN BADIA ALEXANDRE"
-      ]
-    },
-    {
       "athlete_name": "GUIFRE GONZALEZ CERESUELA",
       "file": "athletes/guifre-gonzalez-ceresuela.json",
       "license_variants_found": [
@@ -2041,7 +2037,6 @@
         "4 226 (t) Guillem Ferran Jimenez",
         "4 273 (t) Guillem Ferran Jimenez IM",
         "4 304 (t) Guillem Ferran Jimenez",
-        "4 429 (t) Guillem Ferran Jimenez IM 3",
         "4 56 (t) Guillem Ferran Jimenez IM",
         "4 84 (t) Guillem Ferran Jimenez",
         "5 147 (t) Guillem Ferran Jimenez",
@@ -2053,8 +2048,6 @@
         "5 70 (t) Guillem Ferran Jimenez IM q",
         "6 114 (t) Guillem Ferran Jimenez",
         "6 386 (t) Guillem Ferran Jimenez IM",
-        "6 429 (t) Guillem Ferran IM",
-        "6 429 (t) Guillem Ferran Jimenez IM",
         "6 466 (t) Guillem Ferran Jimenez IM",
         "7 106 (t) Guillem Ferran Jimenez IM",
         "7 57 (t) Guillem Ferran Jimenez",
@@ -2067,8 +2060,8 @@
         "Guillem Ferran Jimenez",
         "Guillem Ferran Jimenez 6",
         "Guillem Ferran Jimenez AM 2",
-        "Guillem Ferran Jimenez AM 3",
-        "Guillem Ferran Jimenez AM 8"
+        "Guillem Ferran Jimenez AM 8",
+        "Guillem Ferran Jimenez IM"
       ]
     },
     {
@@ -2234,8 +2227,7 @@
         "14 107 (t) Ifeoma Ezike IF",
         "21 90 (t) Ifeoma Ezike IF",
         "IFEOMA EZIKE",
-        "Ifeoma Ezike IF",
-        "Ifeoma Ezike IF 3"
+        "Ifeoma Ezike IF"
       ]
     },
     {
@@ -2351,6 +2343,16 @@
       "variants_checked": [
         "IRIS GRANDE MUNOZ",
         "Iris GRANDE MUÑOZ"
+      ]
+    },
+    {
+      "athlete_name": "IRIS MARTINEZ GUTIERREZ",
+      "file": "athletes/iris-martinez-gutierrez.json",
+      "license_variants_found": [],
+      "variants_checked": [
+        "IRIS MARTINEZ GUTIERREZ",
+        "IRIS MARTÍNEZ GUTIERREZ",
+        "MARTÍNEZ GUTIERREZ IRIS AF"
       ]
     },
     {
@@ -2709,6 +2711,16 @@
       "variants_checked": [
         "JORDINA AIGE FARRUS",
         "Jordina AIGE FARRÚS"
+      ]
+    },
+    {
+      "athlete_name": "JORDINA ANTILLACH PUJOL",
+      "file": "athletes/jordina-antillach-pujol.json",
+      "license_variants_found": [],
+      "variants_checked": [
+        "ANTILLACH PUJOL JORDINA PBF",
+        "JORDINA ANTILLACH PUJOL",
+        "Jordina Antillach Pujol"
       ]
     },
     {
@@ -3945,16 +3957,6 @@
       ]
     },
     {
-      "athlete_name": "MARTINEZ GUTIERREZ IRIS",
-      "file": "athletes/martinez-gutierrez-iris.json",
-      "license_variants_found": [],
-      "variants_checked": [
-        "IRIS MARTÍNEZ GUTIERREZ",
-        "MARTINEZ GUTIERREZ IRIS",
-        "MARTÍNEZ GUTIERREZ IRIS AF"
-      ]
-    },
-    {
       "athlete_name": "MATTEO PECCHIA",
       "file": "athletes/matteo-pecchia.json",
       "license_variants_found": [
@@ -4101,20 +4103,6 @@
       "variants_checked": [
         "MOHAMED TAHA OUACHOUACH ELAZIZI",
         "Mohamed Taha OUACHOUACH ELAZIZI"
-      ]
-    },
-    {
-      "athlete_name": "NACHO BLANCO CALATRAVA",
-      "file": "athletes/nacho-blanco-calatrava.json",
-      "license_variants_found": [
-        "CL82975"
-      ],
-      "variants_checked": [
-        "4 15 (t) Nacho Blanco Calatrava BM",
-        "BLANCO CALATRAVA NACHO",
-        "BLANCO CALATRAVA NACHO PBM",
-        "NACHO BLANCO CALATRAVA",
-        "Nacho Blanco Calatrava"
       ]
     },
     {
@@ -5188,11 +5176,9 @@
       "file": "athletes/ruben-paredes-lario.json",
       "license_variants_found": [
         "CL62286",
-        "CL71565",
         "CL71732"
       ],
       "variants_checked": [
-        "(t) Ruben Paredes Lario 10/03/2005 AM",
         "AM RUBÉN PAREDES LARIO",
         "PAREDES LARIO RUBEN",
         "PAREDES LARIO RUBEN AM",
@@ -5202,6 +5188,7 @@
         "RUBEN PAREDES LARIO",
         "RUBEN PAREDES LARIO BM",
         "RUBÉN PAREDES LARIO",
+        "Ruben Paredes",
         "Ruben Paredes Lario",
         "Ruben Paredes Lario AM q",
         "Ruben Paredes lario"
@@ -5328,8 +5315,6 @@
         "9 105 (t) Segolene-josephine Deconinck Urbano IF q",
         "SEGOLENE-JOSEPHINE DECONINCK URBANO",
         "Segolene-josephine Deconinck Urbano",
-        "Segolene-josephine Deconinck Urbano AF",
-        "Segolene-josephine Deconinck Urbano AF 6",
         "Segolene-josephine Deconinck Urbano IF"
       ]
     },

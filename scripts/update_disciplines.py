@@ -1644,6 +1644,37 @@ def map_discipline(raw: str, event_name: str, filename: str, athlete_name: str =
     if re.match(r"^SALT DE TRIPLE\b|^TRIPLE SALT(O)?\b|^TRIPLE\b", up):
         return "Triple", None
 
+    # Throws with explicit parenthesised weight: "Peso Sub12 (2kg) FEM AL".
+    # The weight printed in the raw name is authoritative and must win over
+    # category defaults (the self-specified-weight rule below cannot cross
+    # the digits of "Sub12").
+    mw = re.search(r"\b(PES|PESO|DISCO?|MAR(?:TELL|TILLO)(?:O)?|JAVELINA|JABALINA|JAVELOT)\b.{0,60}?\((\d+(?:[.,]\d+)?)\s*(KG|GR\.?|G)\)", up)
+    if mw:
+        implement = {"disco": "disc", "peso": "pes", "jabalina": "javelina", "javelot": "javelina", "martillo": "martell", "martello": "martell"}.get(mw.group(1).lower(), mw.group(1).lower())
+        weight = mw.group(2)
+        if re.match(r"^[\d]+[,\.](00)?$", weight):
+            weight = weight.split(",")[0].split(".")[0]
+        unit = "KG" if mw.group(3).startswith("K") else "G"
+        table = {
+            "pes": {"7,260": "Pes (7.260 Kg)", "6": "Pes (6 Kg)", "5": "Pes (5 Kg)",
+                    "4": "Pes (4 Kg)", "3": "Pes (3 Kg)", "2": "Pes (2 Kg)"},
+            "disc": {"2": "Disc (2 Kg)", "1,750": "Disc (1,750)", "1,5": "Disc (1,5 Kg)",
+                     "1": "Disc (1 Kg)", "0,8": "Disc (800 g)", "800": "Disc (800 g)",
+                     "0,6": "Disc (600 g)", "600": "Disc (600 g)"},
+            "martell": {"7,260": "Martell (7.260 Kg)", "6": "Martell (6 Kg)", "5": "Martell (5 Kg)",
+                        "4": "Martell (4 Kg)", "3": "Martell (3 Kg)", "2": "Martell (2 Kg)",
+                        "15,88": "Martell pesat (15.88 Kg)", "9,08": "Martell pesat (9.08 Kg)",
+                        "7,26": "Martell pesat (7.260 Kg)"},
+            "javelina": {"800": "Javelina (800 g)", "700": "Javelina (700 g)",
+                         "600": "Javelina (600 g)", "500": "Javelina (500 g)", "400": "Javelina (400 g)", "300": "Javelina (300 g)"},
+        }[implement]
+        if weight not in table and unit == "KG":
+            if "," in weight:
+                weight = weight.replace(",", ".")
+        name = table.get(weight)
+        if name and name in OFFICIAL_NAMES | APPROVED_PENDING:
+            return name, "implement weight stated in raw name (parenthesised)"
+
     # Throws
     m = re.match(r"^LLANÇAMENT (?:DE|DEL) (PES|PESO|DISCO?|MAR(?:TELL|TILLO)(?:O)?|JAVELINA|JABALINA|JAVELOT)\b", up)
     if m:
@@ -1784,13 +1815,15 @@ def map_discipline(raw: str, event_name: str, filename: str, athlete_name: str =
             return None, f"mapped value '{name}' not present in DISCIPLINES.md"
         return name, None
     # Combined-event names stated directly
-    m = re.match(r"^(TETRATL[ÓO]N?|PENTATL[ÓO]N?|HEXATL[ÓO]N?|HEPTATL[ÓO]N?|OCTATL[ÓO]N?|DECATL[ÓO]N?|TRIATL[ÓO]N?)\b", up)
+    m = re.match(r"^(TETRAT(H)?L[ÓO]N?|PENTAT(H)?L[ÓO]N?|HEXAT(H)?L[ÓO]N?|HEPTAT(H)?L[ÓO]N?|OCTAT(H)?L[ÓO]N?|DECAT(H)?L[ÓO]N?|TRIAT(H)?L[ÓO]N?)\b", up)
     if m:
         table = {"TETRATLÓ": "Tetratló", "PENTATLÓ": "Pentatló", "HEXATLÓ": "Hexatló",
                  "HEPTATLÓ": "Heptatlo", "HEPTATLO": "Heptatlo", "OCTATLÓ": "Octatló",
                  "DECATLÓ": "Decatló (Abs)", "TRIATLÓ": "Triatló", "TRIATLON": "Triatló",
                  "PENTATLON": "Pentatló", "HEPTATLON": "Heptatlo", "DECATLON": "Decatló (Abs)",
-                 "TETRATLON": "Tetratló"}
+                 "TETRATLON": "Tetratló", "PENTATHLON": "Pentatló", "HEPTATHLON": "Heptatlo",
+                 "DECATHLON": "Decatló (Abs)", "OCTATHLON": "Octatló", "TETRATHLON": "Tetratló",
+                 "TRIATHLON": "Triatló", "HEXATHLON": "Hexatló"}
         key = strip_accents(m.group(1))
         stripped = {strip_accents(k): v for k, v in table.items()}
         name = stripped.get(key)

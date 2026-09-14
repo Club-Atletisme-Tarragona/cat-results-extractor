@@ -180,7 +180,7 @@ class TestParseHeaderOnRealPdfs(unittest.TestCase):
 
     def test_legacy_2014_header_unparsed_by_current_code(self):
         header = parse_header(self._text(
-            "pdf_cache/2014/resulterritpromovalls50414.pdf"))
+            "tests/fixtures/resulterritpromovalls50414.pdf"))
         self.assertEqual(header, ("", "", "", ""))
 
 

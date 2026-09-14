@@ -1,4 +1,4 @@
-.PHONY: help process/all extract/remote extract athletes
+.PHONY: help process/all extract/remote extract athletes test
 
 help:
 	@echo "Cat Results Extractor - Makefile Utilities"
@@ -8,6 +8,10 @@ help:
 	@echo "  make extract/remote URL=<>     Download and extract a remote PDF"
 	@echo "  make extract FILE=<>           Extract from a local PDF"
 	@echo "  make athletes                  Aggregate all athlete results into per-athlete JSONs"
+	@echo "  make test                      Run the test suite (unittest discover)"
+
+test:
+	python3 -m unittest discover -s tests -v
 
 process/all:
 	python3 process_all.py

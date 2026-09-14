@@ -2,6 +2,7 @@ __pycache__/
 *.py[cod]
 *.pdf
 !json/*.pdf
+!tests/fixtures/*.pdf
 *.xls
 bkp
 test_output.json

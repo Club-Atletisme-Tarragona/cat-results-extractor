@@ -59,6 +59,18 @@ SOURCE_SRCS = {
 }
 
 
+# season JSON -> (wrong event_date, correct event_date). Dates recovered from
+# the cached PDF headers after the contract tests flagged impossible calendar
+# dates (31/11/2010, 30/2/2013):
+#   resulcllancaments31110.pdf  header: "31 de gener de 2010"  -> 31/1/2010
+#   resulcatabsolutpc30213.pdf  header: "Sabadell, 3 febrero 2013" -> 3/2/2013
+# (the old extractor misread the DDMMYY filename encoding)
+SOURCE_DATE_OVERRIDES = {
+    "seasons/2010/json/resulcllancaments31110.json": ("31/11/2010", "31/1/2010"),
+    "seasons/2013/json/resulcatabsolutpc30213.json": ("30/2/2013", "3/2/2013"),
+}
+
+
 def norm_src(src: str) -> str:
     """Normalize a src URL for matching (scheme-insensitive)."""
     return src.replace("https://", "").replace("http://", "").strip().lower()
@@ -84,6 +96,20 @@ def fix_sources(dry_run: bool) -> dict:
     """
     src_to_date: dict[str, str] = {}
     key_to_src: dict[tuple[str, str], str] = {}
+
+    for rel, (wrong, correct) in SOURCE_DATE_OVERRIDES.items():
+        path = ROOT / rel
+        data = load_json(path)
+        current = (data.get("event_date") or "").strip()
+        if current == correct:
+            pass
+        elif current == wrong:
+            print(f"  override: {rel} {wrong!r} -> {correct!r}")
+            if not dry_run:
+                data["event_date"] = correct
+                save_json(path, data)
+        else:
+            print(f"  WARN: {rel} has date {current!r}, expected {wrong!r} or {correct!r}")
 
     for rel, date in SOURCE_DATES.items():
         path = ROOT / rel
@@ -142,9 +168,16 @@ def build_source_maps() -> tuple[dict[str, str], dict[tuple[str, str], str]]:
 
 
 def fix_athletes(src_to_date, key_to_src, dry_run: bool) -> None:
+    # row-level date overrides: normalized src -> (wrong_date, correct_date)
+    row_overrides = {
+        norm_src(load_json(ROOT / rel).get("event_src", "")): (wrong, correct)
+        for rel, (wrong, correct) in SOURCE_DATE_OVERRIDES.items()
+        if load_json(ROOT / rel).get("event_src")
+    }
     files = sorted((ROOT / "athletes").glob("*.json"))
     fixed_date = 0
     fixed_src = 0
+    fixed_override = 0
     unresolved: list[tuple[str, int, str, str]] = []
     touched: set[str] = set()
 
@@ -152,6 +185,13 @@ def fix_athletes(src_to_date, key_to_src, dry_run: bool) -> None:
         data = load_json(path)
         changed = False
         for i, row in enumerate(data.get("results", [])):
+            row_src = norm_src(row.get("event_src", ""))
+            if row_src in row_overrides:
+                wrong, correct = row_overrides[row_src]
+                if row.get("event_date") == wrong:
+                    row["event_date"] = correct
+                    fixed_override += 1
+                    changed = True
             if not row.get("event_date") and row.get("event_src"):
                 date = src_to_date.get(norm_src(row["event_src"]))
                 if date:
@@ -178,8 +218,8 @@ def fix_athletes(src_to_date, key_to_src, dry_run: bool) -> None:
             if not dry_run:
                 save_json(path, data)
 
-    print(f"\nathletes/: filled {fixed_date} event_date, {fixed_src} event_src "
-          f"in {len(touched)} files (dry_run={dry_run})")
+    print(f"\nathletes/: filled {fixed_date} event_date, {fixed_src} event_src, "
+          f"overrode {fixed_override} wrong dates in {len(touched)} files (dry_run={dry_run})")
     if unresolved:
         print(f"UNRESOLVED rows left untouched: {len(unresolved)}")
         for fp, i, field, hint in unresolved[:20]:

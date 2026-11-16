@@ -32,23 +32,27 @@ jobs:
           sudo apt-get install -y poppler-utils curl
 
       - name: Descarregar PDF
+        env:
+          PDF_URL: ${{ github.event.inputs.url }}
         run: |
-          TMPDIR=$(mktemp -d)
-          PDF=$$TMPDIR/$(basename ${{ github.event.inputs.url }})
-          curl -sL "${{ github.event.inputs.url }}" -o "$$PDF"
-          echo "PDF_PATH=$$PDF" >> $GITHUB_ENV
+          DOWNLOAD_DIR=$(mktemp -d)
+          PDF="$DOWNLOAD_DIR/$(basename "$PDF_URL")"
+          curl -sfL "$PDF_URL" -o "$PDF"
+          echo "PDF_PATH=$PDF" >> "$GITHUB_ENV"
 
       - name: Executar extract_catt.py
+        env:
+          PDF_URL: ${{ github.event.inputs.url }}
         run: |
-          python3 extract_catt.py "$PDF_PATH"
-          JSON=$(echo "$PDF_PATH" | sed 's/\.pdf$/.json/')
-          if [ -f "$$JSON" ]; then
-            mv "$$JSON" json/$(basename "$$JSON")
-            echo "JSON_GENERATED=true" >> $GITHUB_ENV
-            echo "JSON_FILE=json/$(basename "$$JSON")" >> $GITHUB_ENV
+          python3 extract_catt.py "$PDF_PATH" "$PDF_URL"
+          JSON="${PDF_PATH%.pdf}.json"
+          if [ -f "$JSON" ]; then
+            mv "$JSON" "json/$(basename "$JSON")"
+            echo "JSON_GENERATED=true" >> "$GITHUB_ENV"
+            echo "JSON_FILE=json/$(basename "$JSON")" >> "$GITHUB_ENV"
           else
             echo "No JSON generated (no CATT athletes found or extraction error)"
-            echo "JSON_GENERATED=false" >> $GITHUB_ENV
+            echo "JSON_GENERATED=false" >> "$GITHUB_ENV"
           fi
 
       - name: Configurar git i fer commit/push

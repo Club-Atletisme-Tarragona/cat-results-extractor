@@ -1,20 +1,31 @@
-.PHONY: help process/all extract/remote extract athletes test
+.PHONY: help venv process/all extract/remote extract athletes test
+
+# Prefer the repo-local venv (it carries xlrd) and fall back to the system
+# interpreter when the venv has not been created yet.
+PYTHON := $(shell test -x .venv/bin/python && echo .venv/bin/python || echo python3)
 
 help:
 	@echo "Cat Results Extractor - Makefile Utilities"
 	@echo ""
 	@echo "Targets:"
+	@echo "  make venv                     Create .venv and install requirements.txt"
 	@echo "  make process/all              Process all PDFs from federació XLS"
 	@echo "  make extract/remote URL=<>     Download and extract a remote PDF"
 	@echo "  make extract FILE=<>           Extract from a local PDF"
 	@echo "  make athletes                  Aggregate all athlete results into per-athlete JSONs"
 	@echo "  make test                      Run the test suite (unittest discover)"
 
+venv:
+	python3 -m venv .venv
+	.venv/bin/pip install -r requirements.txt
+
+# Uses $(PYTHON): .venv/bin/python when present, else python3.
+# process_all.py needs xlrd, which only the venv provides on PEP 668 systems.
 test:
 	python3 -m unittest discover -s tests -v
 
 process/all:
-	python3 process_all.py
+	$(PYTHON) process_all.py
 
 athletes:
 	python3 scripts/aggregate_athletes.py

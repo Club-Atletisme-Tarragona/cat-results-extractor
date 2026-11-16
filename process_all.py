@@ -84,7 +84,10 @@ def save_tracking(tracking):
 
 
 XLS_PATH = "Competicions.xls"
-XLS_MAGIC = b"\xd0\xcf\x11\xe0\xa1\xb1\x1a\xe1"  # OLE2 / .xls
+OLE2_MAGIC = b"\xd0\xcf\x11\xe0"  # .xls antic (OLE2)
+ZIP_MAGIC = b"PK\x03\x04"  # .xlsx (format actual de l'export)
+TITLE_COL = 2  # columna "Titol" (C)
+RESULT_COL = 10  # columna "Resultats" (K)
 XLS_MIN_BYTES = 4096
 XLS_DOWNLOAD_RETRIES = 3
 XLS_RETRY_DELAY_SEC = 15
@@ -99,11 +102,11 @@ def _is_valid_xls(path):
     if size < XLS_MIN_BYTES:
         return False, f"mida massa petita ({size} bytes)"
     with open(path, "rb") as f:
-        header = f.read(8)
-    if header != XLS_MAGIC:
+        header = f.read(4)
+    if header not in (OLE2_MAGIC, ZIP_MAGIC):
         with open(path, "rb") as f:
             preview = f.read(120).decode("utf-8", errors="replace").replace("\n", " ")
-        return False, f"capçalera invàlida (no és OLE/XLS): {preview[:80]}..."
+        return False, f"capçalera invàlida (no és XLSX/XLS): {preview[:80]}..."
     return True, None
 
 
@@ -153,23 +156,90 @@ def download_xls():
     sys.exit(1)
 
 
-def read_xls_results():
-    """Llegeix l'XLS i retorna una llista de (url, titol) per a cada competició amb resultats."""
-    try:
-        import xlrd
-    except ImportError:
-        log("Error: xlrd no està instal·lat. Instal·la'l amb: pip install xlrd")
-        sys.exit(1)
+def _xlsx_col_index(cell_ref):
+    """Converteix un referència de cel·la (p. ex. "K12") en índex base 0."""
+    idx = 0
+    for ch in cell_ref:
+        if not ch.isalpha():
+            break
+        idx = idx * 26 + (ord(ch.upper()) - ord("A") + 1)
+    return idx - 1
 
-    wb = xlrd.open_workbook(XLS_PATH)
-    sheet = wb.sheets()[0]
+
+def _read_xlsx_results(path):
+    """Llegeix un .xlsx amb stdlib (zipfile + ElementTree) i retorna [(url, titol), ...].
+
+    Els exports de fcatletisme.cat poden portar cadenes compartides
+    (sharedStrings.xml, Excel per defecte) o inlineStr (generadors web):
+    s'han de suportar tots dos.
+    """
+    import zipfile
+    import xml.etree.ElementTree as ET
+
+    ns = "{http://schemas.openxmlformats.org/spreadsheetml/2006/main}"
+
+    with zipfile.ZipFile(path) as z:
+        names = z.namelist()
+        shared = []
+        if "xl/sharedStrings.xml" in names:
+            root = ET.fromstring(z.read("xl/sharedStrings.xml"))
+            for si in root.findall(f"{ns}si"):
+                shared.append("".join(t.text or "" for t in si.iter(f"{ns}t")))
+
+        sheets = sorted(
+            n for n in names if re.fullmatch(r"xl/worksheets/sheet\d+\.xml", n)
+        )
+        if not sheets:
+            raise ValueError("el XLSX no conté cap full de treball")
+        root = ET.fromstring(z.read(sheets[0]))
 
     results = []
-    for row in range(1, sheet.nrows):
-        url = sheet.cell_value(row, 10).strip()  # Columna "Resultats"
-        titol = sheet.cell_value(row, 2).strip()  # Columna "Titol"
+    for i, row in enumerate(root.findall(f".//{ns}row")):
+        if i == 0:
+            continue  # fila de capçaleres
+        cells = {}
+        for c in row.findall(f"{ns}c"):
+            ctype = c.get("t")
+            if ctype == "inlineStr":
+                text = "".join(t.text or "" for t in c.iter(f"{ns}t"))
+            else:
+                v = c.find(f"{ns}v")
+                if v is None or v.text is None:
+                    continue
+                text = shared[int(v.text)] if ctype == "s" else v.text
+            cells[_xlsx_col_index(c.get("r") or "")] = text
+        url = cells.get(RESULT_COL, "").strip()
+        titol = cells.get(TITLE_COL, "").strip()
         if url:
             results.append((url, titol))
+    return results
+
+
+def read_xls_results():
+    """Llegeix l'full de competicions (XLSX actual o XLS antic) i retorna [(url, titol), ...]."""
+    with open(XLS_PATH, "rb") as f:
+        header = f.read(4)
+
+    if header == ZIP_MAGIC:
+        try:
+            results = _read_xlsx_results(XLS_PATH)
+        except Exception as exc:
+            log(f"Error llegint el XLSX: {exc}")
+            sys.exit(1)
+    else:
+        try:
+            import xlrd
+        except ImportError:
+            log("Error: xlrd no està instal·lat. Instal·la'l amb: pip install xlrd")
+            sys.exit(1)
+        wb = xlrd.open_workbook(XLS_PATH)
+        sheet = wb.sheets()[0]
+        results = []
+        for row in range(1, sheet.nrows):
+            url = str(sheet.cell_value(row, RESULT_COL)).strip()
+            titol = str(sheet.cell_value(row, TITLE_COL)).strip()
+            if url:
+                results.append((url, titol))
 
     log(f"  Trobades {len(results)} competicions amb resultats.")
     return results

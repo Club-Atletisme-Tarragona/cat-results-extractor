@@ -111,14 +111,14 @@ El JSON generat es pot utilitzar per importar les marques directament a l'import
 El procés de processament de resultats segueix aquests passos:
 
 1. **Extracció**: Executar `python3 extract_catt.py <fitxer.pdf>` per generar el JSON a `seasons/<any>/json/` (l'any és el de la data de l'esdeveniment; `make extract` i el workflow el col·loquen sols)
-2. **Verificació**: Revisar el fitxer `status.html` per veure l'estat de tots els resultats
+2. **Verificació**: Revisar el JSON generat (i, si cal, el PDF d'origen) abans d'importar-lo
 3. **Importació**: Un cop importats al sistema del CATT, moure el JSON a `seasons/<any>/json/imported/`
-4. **Actualització**: Actualitzar `status.html` — canviar la ruta a `seasons/<any>/json/imported/`, marcar com `✅ Si` i assignar la persona que ho ha fet
 
-L'status.html és el punt de referència visual per saber:
-- Quins fitxers s'han processat i quins encara són pendents
-- Qui ha processat cada fitxer (Dídac, Peio, etc.)
-- Quins ja s'han importat al sistema (estàn a `seasons/<any>/json/imported/`)
+La ubicació del fitxer és l'estat: a `seasons/<any>/json/` vol dir pendent d'importar, i a
+`seasons/<any>/json/imported/` vol dir ja importat. El pipeline fa servir aquesta marca
+(`process_all.py` no torna a processar un fitxer que ja és a `imported/`), així que no cal
+mantenir cap llista a part. L'antic `status.html` s'ha retirat: era una còpia manual
+d'aquesta informació i quedava desactualitzada.
 
 ## .gitignore
 

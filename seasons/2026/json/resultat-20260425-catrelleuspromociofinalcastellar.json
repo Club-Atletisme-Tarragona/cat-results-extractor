@@ -2,7 +2,7 @@
   "event_name": "Jornada Final Campionat de Catalunya de Relleus AL - Pista Municipal Atmo. Castellar Vallés",
   "event_date": "25/04/2026",
   "event_location": "Castellar del Vallès",
-  "total_results": 68,
+  "total_results": 70,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/04/resultat-20260425-catrelleuspromociofinalcastellar.pdf",
   "results": [
     {
@@ -358,6 +358,39 @@
       "internal_id": 1071
     },
     {
+      "athlete_name": "Ferran SANJUAN FLORES",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "5:50.72",
+      "discipline": "3x600",
+      "raw_discipline_name": "3x600m Masculins U12M",
+      "wind": null,
+      "position": null,
+      "internal_id": 1436
+    },
+    {
+      "athlete_name": "Olivier CASAS MUIÑO",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "5:50.72",
+      "discipline": "3x600",
+      "raw_discipline_name": "3x600m Masculins U12M",
+      "wind": null,
+      "position": null,
+      "internal_id": 1373
+    },
+    {
+      "athlete_name": "Thiago SILVA ARANDA",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "5:50.72",
+      "discipline": "3x600",
+      "raw_discipline_name": "3x600m Masculins U12M",
+      "wind": null,
+      "position": null,
+      "internal_id": 1350
+    },
+    {
       "athlete_name": "Antonio BALAZOTE",
       "athlete_dob": "",
       "athlete_id": "",
@@ -666,6 +699,39 @@
       "internal_id": 1391
     },
     {
+      "athlete_name": "Èlia BAYÓN FERNÁNDEZ",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "5:54.53",
+      "discipline": "3x600",
+      "raw_discipline_name": "3x600m Femenins U12F",
+      "wind": null,
+      "position": null,
+      "internal_id": 1449
+    },
+    {
+      "athlete_name": "Montserrat MARQUES CRUZ",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "5:54.53",
+      "discipline": "3x600",
+      "raw_discipline_name": "3x600m Femenins U12F",
+      "wind": null,
+      "position": null,
+      "internal_id": 1374
+    },
+    {
+      "athlete_name": "Naia GUINART TRABALON",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "5:54.53",
+      "discipline": "3x600",
+      "raw_discipline_name": "3x600m Femenins U12F",
+      "wind": null,
+      "position": null,
+      "internal_id": 1450
+    },
+    {
       "athlete_name": "Clara ORTIZ DE LANDAZURI ONTOSO",
       "athlete_dob": "",
       "athlete_id": "",
@@ -708,50 +774,6 @@
       "wind": null,
       "position": null,
       "internal_id": 1089
-    },
-    {
-      "athlete_name": "Ada AMIGÓ BOSCH",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "performance": "4:02.61",
-      "discipline": "4x400",
-      "raw_discipline_name": "4x400m Femenins U18F",
-      "wind": null,
-      "position": null,
-      "internal_id": null
-    },
-    {
-      "athlete_name": "Jana HERREROS SOLÀ",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "performance": "4:02.61",
-      "discipline": "4x400",
-      "raw_discipline_name": "4x400m Femenins U18F",
-      "wind": null,
-      "position": null,
-      "internal_id": null
-    },
-    {
-      "athlete_name": "Noa GODOY RIBA",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "performance": "4:02.61",
-      "discipline": "4x400",
-      "raw_discipline_name": "4x400m Femenins U18F",
-      "wind": null,
-      "position": null,
-      "internal_id": null
-    },
-    {
-      "athlete_name": "Rita VIZMANOS ALEGRE",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "performance": "4:02.61",
-      "discipline": "4x400",
-      "raw_discipline_name": "4x400m Femenins U18F",
-      "wind": null,
-      "position": null,
-      "internal_id": null
     }
   ]
 }

@@ -2,7 +2,7 @@
   "event_name": "Campionat de Catalunya Clubs Sub16 Masculí en Pista Coberta - Campionat de Catalunya Clubs Sub16 Masculí en Pista Coberta",
   "event_date": "30/01/2021",
   "event_location": "Barcelona - Palau Sant Jordi",
-  "total_results": 16,
+  "total_results": 15,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/2021/02/resultat-20210130-catclubssub16pcbcnpsj.pdf",
   "results": [
     {
@@ -72,7 +72,7 @@
       "internal_id": null
     },
     {
-      "athlete_name": "44 (t) Luana Izaga Deriu CF NP",
+      "athlete_name": "44 (t) Luana Izaga Deriu CF",
       "athlete_dob": "13/02/2007",
       "athlete_id": "CL77321",
       "performance": "NP",
@@ -169,21 +169,6 @@
       "wind": null,
       "position": null,
       "internal_id": 905
-    },
-    {
-      "event_name": "Campionat de Catalunya Clubs Sub16 Masculí en Pista Coberta - Campionat de Catalunya Clubs Sub16 Masculí en Pista Coberta",
-      "event_date": "30/01/2021",
-      "event_location": "Barcelona",
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/2021/02/resultat-20210130-catclubssub16pcbcnpsj.pdf",
-      "athlete_name": "Ivet Font Estrems",
-      "athlete_dob": "05/11/2007",
-      "athlete_id": "CL3361",
-      "performance": "NP",
-      "discipline": "Pes (3 Kg)",
-      "raw_discipline_name": "Pes (3kg) FEM. PC",
-      "wind": null,
-      "position": null,
-      "internal_id": null
     }
   ]
 }

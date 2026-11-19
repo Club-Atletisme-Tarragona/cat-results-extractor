@@ -5,8 +5,8 @@ Heights/weights follow the FCA *Proves autoritzades* tables (stable for the 2005
 combined events resolved per athlete from the PDF birth-year column.
 
 - files: 74
-- results: 1480
-- mapped: 1480
+- results: 1467
+- mapped: 1467
 - review (left unchanged): 0
 
 | count | raw discipline | official discipline |
@@ -28,7 +28,6 @@ combined events resolved per athlete from the PDF birth-year column.
 | 19 | `Jabalina (300g) FEM S12` | `Javelina (300 g)` |
 | 18 | `Jabalina (500g) MASC. S14` | `Javelina (500 g)` |
 | 17 | `Peso (3 Kg) Hombres PC` | `Pes (3 Kg)` |
-| 16 | `4x300 MAS PC` | `4x300` |
 | 16 | `Disc (800g) FEM.` | `Disc (800 g)` |
 | 16 | `Llargada MASC. PC` | `Llargada` |
 | 16 | `Peso (3 Kg) Mujeres AL` | `Pes (3 Kg)` |
@@ -100,6 +99,7 @@ combined events resolved per athlete from the PDF birth-year column.
 | 4 | `200m FEM. PC` | `200 metres llisos` |
 | 4 | `200m Masculins` | `200 metres llisos` |
 | 4 | `4x300 FEM PC` | `4x300` |
+| 4 | `4x300 MAS PC` | `4x300` |
 | 4 | `600m FEM. AL S12` | `600 metres llisos` |
 | 4 | `60m FEM. PC` | `60 metres llisos` |
 | 4 | `60m MASC. PC` | `60 metres llisos` |
@@ -215,7 +215,6 @@ combined events resolved per athlete from the PDF birth-year column.
 | 1 | `300m FEM. PC` | `300 metres llisos` |
 | 1 | `300m MASC. AL` | `300 metres llisos` |
 | 1 | `300m MASC. PC` | `300 metres llisos` |
-| 1 | `300m vallas (0,84) MASC. AL SUB 16` | `300 metres tanques (0.84)` |
 | 1 | `400m FEM. PC 55-59` | `400 metres llisos` |
 | 1 | `400m Hombres` | `400 metres llisos` |
 | 1 | `400m Masculins` | `400 metres llisos` |

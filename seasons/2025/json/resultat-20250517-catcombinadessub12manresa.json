@@ -13,6 +13,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada SUB12M",
       "wind": null,
+      "position": null,
       "internal_id": 1370
     },
     {
@@ -23,6 +24,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada SUB12M",
       "wind": null,
+      "position": null,
       "internal_id": 1370
     },
     {
@@ -33,6 +35,7 @@
       "discipline": "Pes (7.260 Kg)",
       "raw_discipline_name": "Pes SUB12M",
       "wind": null,
+      "position": null,
       "internal_id": 1370
     },
     {
@@ -43,6 +46,7 @@
       "discipline": "Pes (7.260 Kg)",
       "raw_discipline_name": "Pes SUB12M",
       "wind": null,
+      "position": null,
       "internal_id": 1370
     },
     {
@@ -53,6 +57,7 @@
       "discipline": "Pes (7.260 Kg)",
       "raw_discipline_name": "Pes SUB12M",
       "wind": null,
+      "position": null,
       "internal_id": 1370
     },
     {
@@ -63,27 +68,19 @@
       "discipline": "Alçada",
       "raw_discipline_name": "Alçada SUB12M",
       "wind": null,
+      "position": null,
       "internal_id": 1370
     },
     {
       "athlete_name": "ANTONIO BALAZOTE",
       "athlete_dob": "1/5/2014",
-      "athlete_id": "CL11067",
+      "athlete_id": "",
       "performance": "1027",
       "discipline": "Tetratló",
       "raw_discipline_name": "Tetratló SUB12 Masculina",
       "wind": null,
+      "position": null,
       "internal_id": 1370
-    },
-    {
-      "athlete_name": "CATT",
-      "athlete_dob": "15/4/2014",
-      "athlete_id": "CL95647",
-      "performance": "601",
-      "discipline": "Tetratló",
-      "raw_discipline_name": "Tetratló SUB12 Masculina",
-      "wind": null,
-      "internal_id": null
     },
     {
       "athlete_name": "JULIA DIEZ BERTRAN",
@@ -91,8 +88,20 @@
       "athlete_id": "CL95647",
       "performance": "5.08",
       "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg)Mujeres AL",
+      "raw_discipline_name": "Peso (2 Kg)Mujeres AL",
       "wind": null,
+      "position": null,
+      "internal_id": 1430
+    },
+    {
+      "athlete_name": "JULIA DIEZ BERTRAN",
+      "athlete_dob": "3/2/2014",
+      "athlete_id": "",
+      "performance": "1587",
+      "discipline": "Tetratló",
+      "raw_discipline_name": "Tetratló SUB12 Femenina",
+      "wind": null,
+      "position": null,
       "internal_id": 1430
     },
     {
@@ -101,8 +110,9 @@
       "athlete_id": "CL11067",
       "performance": "9.07",
       "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "10:40   Peso (2kg)Mujeres AL                                                       Combinadas",
+      "raw_discipline_name": "10:40   Peso (2 Kg)Mujeres AL                                                       Combinadas",
       "wind": null,
+      "position": null,
       "internal_id": 1370
     }
   ]

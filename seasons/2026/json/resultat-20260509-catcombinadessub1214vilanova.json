@@ -2,7 +2,7 @@
   "event_name": "Campionat de Catalunya de Proves Combinades Sub12-14 - Pista de Atletismo Vilanova i la Geltrú",
   "event_date": "09/05/2026",
   "event_location": "Vilanova i la Geltrú",
-  "total_results": 39,
+  "total_results": 37,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/05/resultat-20260509-catcombinadessub1214vilanova.pdf",
   "results": [
     {
@@ -217,34 +217,34 @@
     {
       "athlete_name": "KILIAN PEDROL ESPINOSA",
       "athlete_dob": "24/2/2013",
-      "athlete_id": "CL7676",
+      "athlete_id": "",
       "performance": "1883",
       "discipline": "Pentatló",
       "raw_discipline_name": "Pentatló Masculina U14M",
       "wind": null,
-      "position": 3,
+      "position": null,
       "internal_id": 1361
     },
     {
-      "athlete_name": "ANTONIO BALAZOTE DNS DNS",
+      "athlete_name": "ANTONIO BALAZOTE",
       "athlete_dob": "1/5/2014",
-      "athlete_id": "CL11067",
+      "athlete_id": "",
       "performance": "885",
       "discipline": "Pentatló",
       "raw_discipline_name": "Pentatló Masculina U14M",
       "wind": null,
-      "position": 13,
+      "position": null,
       "internal_id": 1370
     },
     {
       "athlete_name": "BLAI LLIGADAS TURON",
       "athlete_dob": "11/3/2015",
-      "athlete_id": "CL11069",
+      "athlete_id": "",
       "performance": "1047",
       "discipline": "Tetratló",
       "raw_discipline_name": "Tetratló Masculina U12M",
       "wind": null,
-      "position": 8,
+      "position": null,
       "internal_id": 1338
     },
     {
@@ -404,35 +404,13 @@
     {
       "athlete_name": "MARTINA GÓMEZ ROJALS",
       "athlete_dob": "28/8/2013",
-      "athlete_id": "CAT-3910530-A",
+      "athlete_id": "",
       "performance": "2419",
       "discipline": "Pentatló",
       "raw_discipline_name": "Pentatló Femenina U14F",
       "wind": null,
-      "position": 7,
+      "position": null,
       "internal_id": 1443
-    },
-    {
-      "athlete_name": "ÈLIA BAYÓN FERNÁNDEZ",
-      "athlete_dob": "18/5/2015",
-      "athlete_id": "CAT-3889577-A",
-      "performance": "1745",
-      "discipline": "Pentatló",
-      "raw_discipline_name": "Pentatló Femenina U14F",
-      "wind": null,
-      "position": 4,
-      "internal_id": 1449
-    },
-    {
-      "athlete_name": "MONTSERRAT MARQUES CRUZ",
-      "athlete_dob": "27/1/2015",
-      "athlete_id": "CL11596",
-      "performance": "1658",
-      "discipline": "Pentatló",
-      "raw_discipline_name": "Pentatló Femenina U14F",
-      "wind": null,
-      "position": 6,
-      "internal_id": 1374
     }
   ]
 }

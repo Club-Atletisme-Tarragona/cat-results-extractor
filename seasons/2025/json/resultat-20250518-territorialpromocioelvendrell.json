@@ -2,7 +2,7 @@
   "event_name": "Campionat Territorial Tarragona sub10-12-14-16 - Pista de Atletismo de El Vendrell",
   "event_date": "18/05/2025",
   "event_location": "El Vendrell",
-  "total_results": 121,
+  "total_results": 118,
   "event_src": "https://example.com/src",
   "results": [
     {
@@ -270,7 +270,7 @@
       "internal_id": 1343
     },
     {
-      "athlete_name": "JOSE ANGEL MASIA URZUA O-- O-- O--",
+      "athlete_name": "JOSE ANGEL MASIA URZUA",
       "athlete_dob": "25/2/2015",
       "athlete_id": "CL15467",
       "performance": "1.60",
@@ -281,7 +281,7 @@
       "internal_id": 1389
     },
     {
-      "athlete_name": "ORIOL GAYA VALLES O--",
+      "athlete_name": "ORIOL GAYA VALLES",
       "athlete_dob": "26/2/2015",
       "athlete_id": "CL14915",
       "performance": "1.20",
@@ -710,39 +710,6 @@
       "internal_id": 1395
     },
     {
-      "athlete_name": "Ernest GELLIDA BARRIO",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "performance": "35.84",
-      "discipline": "4x60",
-      "raw_discipline_name": "4x60m S12M",
-      "wind": null,
-      "position": null,
-      "internal_id": 1344
-    },
-    {
-      "athlete_name": "Jose Angel MASIA URZUA",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "performance": "35.84",
-      "discipline": "4x60",
-      "raw_discipline_name": "4x60m S12M",
-      "wind": null,
-      "position": null,
-      "internal_id": 1389
-    },
-    {
-      "athlete_name": "Gerard LOPEZ ROMERO",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "performance": "35.84",
-      "discipline": "4x60",
-      "raw_discipline_name": "4x60m S12M",
-      "wind": null,
-      "position": null,
-      "internal_id": 1360
-    },
-    {
       "athlete_name": "ALDARA LINARES ANTELO",
       "athlete_dob": "7/7/2010",
       "athlete_id": "CAT-3724270",
@@ -963,7 +930,7 @@
       "internal_id": 965
     },
     {
-      "athlete_name": "ERIKA MARGALLO DEL VALLE XO- O--",
+      "athlete_name": "ERIKA MARGALLO DEL VALLE",
       "athlete_dob": "27/11/2014",
       "athlete_id": "CL15267",
       "performance": "1.40",
@@ -974,7 +941,7 @@
       "internal_id": 1388
     },
     {
-      "athlete_name": "ADA NIN NAVAS O-- O-- O--",
+      "athlete_name": "ADA NIN NAVAS",
       "athlete_dob": "24/10/2012",
       "athlete_id": "CL1495",
       "performance": "1.80",
@@ -985,7 +952,7 @@
       "internal_id": 1331
     },
     {
-      "athlete_name": "EVA JACOB GARCIA O-- O-- O--",
+      "athlete_name": "EVA JACOB GARCIA",
       "athlete_dob": "30/6/2012",
       "athlete_id": "CL7254",
       "performance": "1.80",
@@ -996,7 +963,7 @@
       "internal_id": 1349
     },
     {
-      "athlete_name": "BERTA BARBER GONZALEZ O-- O-- XO-",
+      "athlete_name": "BERTA BARBER GONZALEZ",
       "athlete_dob": "22/1/2013",
       "athlete_id": "CL7610",
       "performance": "1.80",
@@ -1004,7 +971,7 @@
       "raw_discipline_name": "Pértiga S14F",
       "wind": null,
       "position": null,
-      "internal_id": null
+      "internal_id": 1359
     },
     {
       "athlete_name": "CARLOTA TEJERO CLAU",

@@ -5,8 +5,8 @@ Heights/weights follow the FCA *Proves autoritzades* tables (stable for the 2005
 combined events resolved per athlete from the PDF birth-year column.
 
 - files: 78
-- results: 1121
-- mapped: 1121
+- results: 1065
+- mapped: 1065
 - review (left unchanged): 0
 
 | count | raw discipline | official discipline |
@@ -15,8 +15,6 @@ combined events resolved per athlete from the PDF birth-year column.
 | 42 | `Jabalina Vortex S10 MASC.` | `Javelina (800 g)` |
 | 37 | `Llargada FEM. PC` | `Llargada` |
 | 34 | `Longitud FEM. AL S14` | `Llargada` |
-| 32 | `4x200m FEM. PC` | `4x200` |
-| 32 | `4x200m MASC. PC` | `4x200` |
 | 27 | `Jabalina (400g) S14 FEM.` | `Javelina (400 g)` |
 | 25 | `Llargada MASC. AL` | `Llargada` |
 | 23 | `Longitud MASC. AL` | `Llargada` |
@@ -34,7 +32,6 @@ combined events resolved per athlete from the PDF birth-year column.
 | 14 | `Longitud S14 MASC. AL` | `Llargada` |
 | 13 | `60m MASC. PC` | `60 metres llisos` |
 | 13 | `Longitud S12 MASC. AL` | `Llargada` |
-| 12 | `4x300 FEM PC` | `4x300` |
 | 12 | `Disco (800g) S14 MASC.` | `Disc (800 g)` |
 | 11 | `Llargada MASC. PC` | `Llargada` |
 | 11 | `Pes (4kg) FEM. PC` | `Pes (4 Kg)` |
@@ -48,6 +45,8 @@ combined events resolved per athlete from the PDF birth-year column.
 | 9 | `Disc (600g) FEM.` | `Disc (600 g)` |
 | 9 | `Llargada FEM. AL` | `Llargada` |
 | 8 | `1.000m Marxa MASC. en pista` | `1000 metres marxa` |
+| 8 | `4x200m FEM. PC` | `4x200` |
+| 8 | `4x200m MASC. PC` | `4x200` |
 | 8 | `Javelina (300g) FEM` | `Javelina (300 g)` |
 | 8 | `Javelina (600g) SUB16M` | `Javelina (600 g)` |
 | 8 | `Longitud MASC. AL SUB 12` | `Llargada` |
@@ -86,6 +85,7 @@ combined events resolved per athlete from the PDF birth-year column.
 | 5 | `Triple Salt SUB16 FEM.` | `Triple` |
 | 5 | `Triple Salto MASC. AL SUB 16` | `Triple` |
 | 4 | `300m FEM. PC` | `300 metres llisos` |
+| 4 | `4x300 FEM PC` | `4x300` |
 | 4 | `4x300 MASC. PC` | `4x300` |
 | 4 | `Altura MASC. AL` | `Alçada` |
 | 4 | `Alçada MASC. AL` | `Alçada` |

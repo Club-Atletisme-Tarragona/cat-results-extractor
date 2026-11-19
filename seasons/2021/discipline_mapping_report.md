@@ -5,16 +5,14 @@ Heights/weights follow the FCA *Proves autoritzades* tables (stable for the 2005
 combined events resolved per athlete from the PDF birth-year column.
 
 - files: 85
-- results: 1936
-- mapped: 1936
+- results: 1836
+- mapped: 1836
 - review (left unchanged): 0
 
 | count | raw discipline | official discipline |
 |---:|---|---|
 | 62 | `Peso (2kg) S14 FEM AL` | `Pes (2 Kg)` |
 | 54 | `Peso (4kg) MASC. S16 AL` | `Pes (4 Kg)` |
-| 52 | `4x80m FEM. AL` | `4x80` |
-| 51 | `4x80m MASC. AL` | `4x80` |
 | 49 | `Longitud S16 MASC. AL` | `Llargada` |
 | 48 | `Peso (3kg) S14 MASC. AL` | `Pes (3 Kg)` |
 | 46 | `Peso (2kg) S12 MASC. AL` | `Pes (2 Kg)` |
@@ -28,14 +26,12 @@ combined events resolved per athlete from the PDF birth-year column.
 | 28 | `Llargada FEM. PC` | `Llargada` |
 | 28 | `Longitud S14 MASC. AL` | `Llargada` |
 | 27 | `4x60m FEM. AL` | `4x60` |
-| 24 | `4x200m MASC. AL` | `4x200` |
 | 23 | `Triple Salto S16-S18 MASC. AL` | `Triple` |
 | 22 | `Longitud MASC. S14 AL` | `Llargada` |
 | 22 | `Triple Salt FEM. PC` | `Triple` |
 | 21 | `Llargada FEM. AL` | `Llargada` |
 | 21 | `Longitud FEM. AL SUB 14` | `Llargada` |
 | 21 | `Peso (3kg) MASC. S14 AL` | `Pes (3 Kg)` |
-| 20 | `4x200m FEM. AL` | `4x200` |
 | 20 | `60m S12 FEM. AL` | `60 metres llisos` |
 | 20 | `Llargada MASC. AL` | `Llargada` |
 | 20 | `Peso (2kg) S12 FEM AL` | `Pes (2 Kg)` |
@@ -46,6 +42,7 @@ combined events resolved per athlete from the PDF birth-year column.
 | 17 | `Triple Salto FEM. AL SUB14 F` | `Triple` |
 | 17 | `Triple Salto S14 FEM. AL` | `Triple` |
 | 16 | `4x100m FEM. AL` | `4x100` |
+| 16 | `4x80m FEM. AL` | `4x80` |
 | 16 | `60m S12 MASC. AL` | `60 metres llisos` |
 | 16 | `Martillo (2kg) S14 FEM AL` | `Martell (2 Kg)` |
 | 15 | `80m S14 MASC. AL` | `80 metres llisos` |
@@ -57,6 +54,8 @@ combined events resolved per athlete from the PDF birth-year column.
 | 13 | `Disc (1 Kg) FEM.` | `Disc (1 Kg)` |
 | 13 | `Disco (800g) MASC. SUB 14` | `Disc (800 g)` |
 | 13 | `Longitud FEM. AL ABS` | `Llargada` |
+| 12 | `4x200m FEM. AL` | `4x200` |
+| 12 | `4x80m MASC. AL` | `4x80` |
 | 12 | `Altura S14 MASC. AL` | `Alçada` |
 | 12 | `Peso (4kg) FEM. AL` | `Pes (4 Kg)` |
 | 12 | `Triple Salt FEM. AL` | `Triple` |
@@ -74,6 +73,7 @@ combined events resolved per athlete from the PDF birth-year column.
 | 9 | `Peso (2kg) FEM AL SUB 12` | `Pes (2 Kg)` |
 | 9 | `Peso (3kg) S16 FEM. AL` | `Pes (3 Kg)` |
 | 8 | `4x100m MASC. AL` | `4x100` |
+| 8 | `4x200m MASC. AL` | `4x200` |
 | 8 | `4x300m FEM. AL` | `4x300` |
 | 8 | `Disco (2kg) MASC.` | `Disc (2 Kg)` |
 | 8 | `Disco (600g) S12 FEM.` | `Disc (600 g)` |
@@ -128,7 +128,6 @@ combined events resolved per athlete from the PDF birth-year column.
 | 4 | `Llargada MASC. VET PC 55-59` | `Llargada` |
 | 4 | `Martell (4 Kg) FEM.` | `Martell (4 Kg)` |
 | 4 | `PESO (4 KG) Abs FEM. HEPTATLÓN` | `Pes (4 Kg)` |
-| 4 | `Pes (3kg) FEM. PC` | `Pes (3 Kg)` |
 | 4 | `Pes (7,260kg) MASC. PC` | `Pes (7.260 Kg)` |
 | 4 | `Pes Femení (4 Kg)` | `Pes (4 Kg)` |
 | 4 | `Pes Masculí (4 Kg)` | `Pes (4 Kg)` |
@@ -162,6 +161,7 @@ combined events resolved per athlete from the PDF birth-year column.
 | 3 | `Perxa MASC. AL` | `Perxa` |
 | 3 | `Perxa MASC. PC` | `Perxa` |
 | 3 | `Pes (2kg) MASC. AL` | `Pes (2 Kg)` |
+| 3 | `Pes (3kg) FEM. PC` | `Pes (3 Kg)` |
 | 3 | `Pes (4kg) FEM. AL` | `Pes (4 Kg)` |
 | 3 | `Pes (7,260kg) M35-39` | `Pes (7.260 Kg)` |
 | 3 | `Triple Salto S14 MASC. AL` | `Triple` |

@@ -2,7 +2,7 @@
   "event_name": "Control de Proves Combinades per a PC - Estadi Municipal de Cornellà de Llobregat",
   "event_date": "14/11/2026",
   "event_location": "Cornellà de Llobregat",
-  "total_results": 58,
+  "total_results": 63,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/11/resultat-2026111415-controlcombinadespccornella.pdf",
   "results": [
     {
@@ -17,7 +17,7 @@
       "internal_id": 1372
     },
     {
-      "athlete_name": "GASTON VALENTIN PAULOS PERTIÑEZ MMP",
+      "athlete_name": "GASTON VALENTIN PAULOS PERTIÑEZ",
       "athlete_dob": "14/2/2012",
       "athlete_id": "CL11182",
       "performance": "3.08",
@@ -28,7 +28,7 @@
       "internal_id": 1372
     },
     {
-      "athlete_name": "GASTON VALENTIN PAULOS PERTIÑEZ MMP",
+      "athlete_name": "GASTON VALENTIN PAULOS PERTIÑEZ",
       "athlete_dob": "14/2/2012",
       "athlete_id": "CL11182",
       "performance": "4.78",
@@ -39,7 +39,7 @@
       "internal_id": 1372
     },
     {
-      "athlete_name": "GASTON VALENTIN PAULOS PERTIÑEZ MMP",
+      "athlete_name": "GASTON VALENTIN PAULOS PERTIÑEZ",
       "athlete_dob": "14/2/2012",
       "athlete_id": "CL11182",
       "performance": "4.84",
@@ -94,10 +94,10 @@
       "internal_id": 1372
     },
     {
-      "athlete_name": "GASTON VALENTIN PAULOS PERTIÑEZ DNS DNS",
+      "athlete_name": "GASTON VALENTIN PAULOS PERTIÑEZ",
       "athlete_dob": "14/2/2012",
-      "athlete_id": "CL11182",
-      "performance": "737",
+      "athlete_id": "",
+      "performance": "1636",
       "discipline": "Hexatló",
       "raw_discipline_name": "Hexathlon Hombres PC-Aire libre",
       "wind": null,
@@ -105,15 +105,15 @@
       "internal_id": 1372
     },
     {
-      "athlete_name": "CATT",
-      "athlete_dob": "7/10/2014",
-      "athlete_id": "CAT-3827533",
-      "performance": "291",
-      "discipline": "Heptatlo",
-      "raw_discipline_name": "Heptathlon JUV Hombres PC-AL",
+      "athlete_name": "NOA PASCUAL PRATS",
+      "athlete_dob": "27/2/2015",
+      "athlete_id": "CL10462",
+      "performance": "13.09",
+      "discipline": "60 metres tanques (0.76)",
+      "raw_discipline_name": "60m vallas (0,762) INF. Mujeres AL",
       "wind": null,
       "position": null,
-      "internal_id": null
+      "internal_id": 1380
     },
     {
       "athlete_name": "ARLET SOLANA VILA",
@@ -457,7 +457,7 @@
       "internal_id": 1443
     },
     {
-      "athlete_name": "ARLET SOLANA VILA MMP",
+      "athlete_name": "ARLET SOLANA VILA",
       "athlete_dob": "13/3/2012",
       "athlete_id": "CL11154",
       "performance": "4.42",
@@ -468,7 +468,7 @@
       "internal_id": 1369
     },
     {
-      "athlete_name": "ARLET SOLANA VILA MMP",
+      "athlete_name": "ARLET SOLANA VILA",
       "athlete_dob": "13/3/2012",
       "athlete_id": "CL11154",
       "performance": "4.35",
@@ -556,7 +556,7 @@
       "internal_id": 1461
     },
     {
-      "athlete_name": "NOA PASCUAL PRATS MMP",
+      "athlete_name": "NOA PASCUAL PRATS",
       "athlete_dob": "27/2/2015",
       "athlete_id": "CL10462",
       "performance": "3.43",
@@ -567,7 +567,7 @@
       "internal_id": 1380
     },
     {
-      "athlete_name": "NOA PASCUAL PRATS MMP",
+      "athlete_name": "NOA PASCUAL PRATS",
       "athlete_dob": "27/2/2015",
       "athlete_id": "CL10462",
       "performance": "3.48",
@@ -633,10 +633,65 @@
       "internal_id": 1461
     },
     {
+      "athlete_name": "MARTINA GÓMEZ ROJALS",
+      "athlete_dob": "28/8/2013",
+      "athlete_id": "CAT-3910530-A-",
+      "performance": "3062",
+      "discipline": "Pentatló",
+      "raw_discipline_name": "Pentathlon CAD.Mujeres PC-Aire libre",
+      "wind": null,
+      "position": null,
+      "internal_id": 1443
+    },
+    {
+      "athlete_name": "ARLET SOLANA VILA",
+      "athlete_dob": "13/3/2012",
+      "athlete_id": "CL11154",
+      "performance": "2468",
+      "discipline": "Pentatló",
+      "raw_discipline_name": "Pentathlon CAD.Mujeres PC-Aire libre",
+      "wind": null,
+      "position": null,
+      "internal_id": 1369
+    },
+    {
+      "athlete_name": "MARIA MARTIN CUADRADO",
+      "athlete_dob": "1/5/2012",
+      "athlete_id": "CL1089",
+      "performance": "2366",
+      "discipline": "Pentatló",
+      "raw_discipline_name": "Pentathlon CAD.Mujeres PC-Aire libre",
+      "wind": null,
+      "position": null,
+      "internal_id": 1330
+    },
+    {
+      "athlete_name": "MARIA USTRELL ARAGONES",
+      "athlete_dob": "25/2/2012",
+      "athlete_id": "CL15331",
+      "performance": "1959",
+      "discipline": "Pentatló",
+      "raw_discipline_name": "Pentathlon CAD.Mujeres PC-Aire libre",
+      "wind": null,
+      "position": null,
+      "internal_id": 1392
+    },
+    {
+      "athlete_name": "ARLET SALDAÑA FRESNO",
+      "athlete_dob": "26/10/2012",
+      "athlete_id": "CAT-3843668-A-",
+      "performance": "1698",
+      "discipline": "Pentatló",
+      "raw_discipline_name": "Pentathlon CAD.Mujeres PC-Aire libre",
+      "wind": null,
+      "position": null,
+      "internal_id": 1461
+    },
+    {
       "athlete_name": "NOA PASCUAL PRATS",
       "athlete_dob": "27/2/2015",
-      "athlete_id": "CL10462",
-      "performance": "808",
+      "athlete_id": "",
+      "performance": "1701",
       "discipline": "Tetratló",
       "raw_discipline_name": "Tetrathlón Cataluña infantil",
       "wind": null,

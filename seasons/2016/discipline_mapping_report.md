@@ -5,9 +5,9 @@ Heights/weights follow the FCA *Proves autoritzades* tables (stable for the 2005
 combined events resolved per athlete from the PDF birth-year column.
 
 - files: 106
-- results: 2167
-- mapped: 2167
-- review (left unchanged): 0
+- results: 2193
+- mapped: 2190
+- review (left unchanged): 3
 
 | count | raw discipline | official discipline |
 |---:|---|---|
@@ -50,7 +50,6 @@ combined events resolved per athlete from the PDF birth-year column.
 | 13 | `400m MASC. PC` | `400 metres llisos` |
 | 12 | `100 METRES LLISOS` | `100 metres llisos` |
 | 12 | `200m FEM. PC` | `200 metres llisos` |
-| 12 | `Llargada` | `Llargada` |
 | 12 | `PROVA        PES ABSOLUT F                                         PES             4 KG` | `Pes (4 Kg)` |
 | 12 | `PROVA       LLARGADA AF` | `Llargada` |
 | 12 | `RESULTATS SALT DE LLARGADA                        ALEVI FEMENÍ` | `Llargada` |
@@ -60,7 +59,7 @@ combined events resolved per athlete from the PDF birth-year column.
 | 11 | `Llargada 2002 FEM. PC` | `Llargada` |
 | 11 | `Llargada Benjamí Femení` | `Llargada` |
 | 11 | `PROVA              LLARGADA BENJAMÍ MASCULÍ` | `Llargada` |
-| 11 | `Pes (2Kg)` | `Pes (2 Kg)` |
+| 11 | `Pes (2 Kg)` | `Pes (2 Kg)` |
 | 11 | `Pes (3,00 Kg) VET. Fem. PC 50-54` | `Pes (3 Kg)` |
 | 11 | `Prova: PES           ABSOLUT FEMENÍ ( 4 kg.)` | `Pes (4 Kg)` |
 | 11 | `RESULTATS 600 METRES LLISOS                      ALEVI FEMENÍ` | `600 metres llisos` |
@@ -78,6 +77,7 @@ combined events resolved per athlete from the PDF birth-year column.
 | 9 | `300m MASC. PC` | `300 metres llisos` |
 | 9 | `Alçada Benjamí Masculí` | `Alçada` |
 | 9 | `Disc Aleví Masculí` | `Disc (2 Kg)` |
+| 9 | `Llargada` | `Llargada` |
 | 9 | `Llargada MASC. PC 50-54` | `Llargada` |
 | 9 | `Martell VET. Fem. 50-54` | `Martell (4 Kg)` |
 | 9 | `PROVA   LLARGADA Absolut M` | `Llargada` |
@@ -127,7 +127,6 @@ combined events resolved per athlete from the PDF birth-year column.
 | 6 | `Peso (3kg) FEM. AL - CADETE` | `Pes (3 Kg)` |
 | 6 | `Prova:         MARTELL                   CADET JUVENIL FEMENÍ` | `Martell (4 Kg)` |
 | 6 | `Prova: PES             CADET JUVENIL FEMENÍ` | `Pes (4 Kg)` |
-| 6 | `RESULTATS SALT DE LLARGADA                      ALEVI MASCULÍ` | `Llargada` |
 | 6 | `TRIPLE SALT Absolut Femení` | `Triple` |
 | 5 | `1000 METRES MARXA BENJAMI MASCULI` | `1000 metres marxa` |
 | 5 | `ALÇADA INFANTIL - CADET FEMENÍ` | `Alçada` |
@@ -156,8 +155,11 @@ combined events resolved per athlete from the PDF birth-year column.
 | 5 | `RESULTATS 600 METRES LLISOS                       ALEVI MASCULÍ` | `600 metres llisos` |
 | 5 | `RESULTATS 600 METRES LLISOS                       INFANTIL FEMENÍ` | `600 metres llisos` |
 | 5 | `RESULTATS SALT DE LLARGADA                            INFANTIL FEMENÍ` | `Llargada` |
+| 5 | `RESULTATS SALT DE LLARGADA                      ALEVI MASCULÍ` | `Llargada` |
 | 5 | `SALT DE LLARGADA MASCULÍ` | `Llargada` |
+| 4 | `100 m.ll. Absolut Masculí` | `100 metres llisos` |
 | 4 | `400 METRES LLISOS` | `400 metres llisos` |
+| 4 | `60 metres llisos` | `60 metres llisos` |
 | 4 | `60m MASC. AL` | `60 metres llisos` |
 | 4 | `ALÇADA BENJAMI MASCULI` | `Alçada` |
 | 4 | `Alçada Infantil Masculí` | `Alçada` |
@@ -182,9 +184,10 @@ combined events resolved per athlete from the PDF birth-year column.
 | 4 | `Martell Pesat VET. Fem. AL 40-44` | `Martell (4 Kg)` |
 | 4 | `PES INFANTIL MASCULI` | `Pes (7.260 Kg)` |
 | 4 | `PROVA    LLARGADA Absolut F` | `Llargada` |
-| 4 | `Pes (3Kg)` | `Pes (3 Kg)` |
+| 4 | `Pentatló Femení Infantil` | `Pentatló` |
 | 4 | `Pes JUNIOR MASC. AL` | `Pes (7.260 Kg)` |
 | 4 | `RESULTATS SALT DE LLARGADA                            INFANTIL MASCULÍ` | `Llargada` |
+| 4 | `Tetratló Femení Aleví` | `Tetratló` |
 | 4 | `Triple Salto MASC. AL` | `Triple` |
 | 3 | `1000 METRES MARXA BENJAMI FEMENI` | `1000 metres marxa` |
 | 3 | `100m MASC. AL` | `100 metres llisos` |
@@ -192,6 +195,7 @@ combined events resolved per athlete from the PDF birth-year column.
 | 3 | `3000 METRES MARXA INFANTIL MASCULI` | `3000 metres marxa` |
 | 3 | `400m MASC. AL` | `400 metres llisos` |
 | 3 | `60 METRES TANQUES` | `60 metres tanques (0.91)` |
+| 3 | `60 metres tanques (0,50)` | `60 metres tanques (0.50)` |
 | 3 | `ALÇADA Cadet - Juvenil Femení` | `Alçada` |
 | 3 | `Alçada Benjamí Femení` | `Alçada` |
 | 3 | `Alçada CADET MASCULÍ` | `Alçada` |
@@ -218,6 +222,7 @@ combined events resolved per athlete from the PDF birth-year column.
 | 3 | `PROVA     MARTELL ABSOLUT F                                     PES             4 KG` | `Martell (4 Kg)` |
 | 3 | `PROVA    LLARGADA AM - IM` | `Llargada` |
 | 3 | `Pes (2kg) ALE MASC. AL` | `Pes (2 Kg)` |
+| 3 | `Pes (3 Kg)` | `Pes (3 Kg)` |
 | 3 | `Pes (3kg) FEM. PC` | `Pes (3 Kg)` |
 | 3 | `Pes (6 KG) MASC. PC 50-54` | `Pes (6 Kg)` |
 | 3 | `Pes (7,260 KG) MASC. PC 35-39` | `Pes (7.260 Kg)` |
@@ -226,8 +231,8 @@ combined events resolved per athlete from the PDF birth-year column.
 | 3 | `Pes Fem.` | `Pes (4 Kg)` |
 | 3 | `Pes Juvenil                              3 kg` | `Pes (3 Kg)` |
 | 3 | `Pes Vet. M65 PC` | `Pes (6 Kg)` |
+| 3 | `Prova: 2KM Categoria: Aleví Femení` | `2000 metres marxa` |
 | 3 | `RESULTATS 600 METRES LLISOS                       INFANTIL MASCULÍ` | `600 metres llisos` |
-| 3 | `Tetratló Femení Aleví` | `Tetratló` |
 | 3 | `Triple Salt nascudes 02 FEM. PC` | `Triple` |
 | 2 | `100m MASC. AL 50-54` | `100 metres llisos` |
 | 2 | `110 METRES TANQUES (0.99)` | `110 metres tanques (0.99)` |
@@ -245,6 +250,7 @@ combined events resolved per athlete from the PDF birth-year column.
 | 2 | `DISC Cadet Femení                                     800 g` | `Disc (800 g)` |
 | 2 | `DISC PROMESA FEMENI` | `Disc (1 Kg)` |
 | 2 | `Disc Absolut                                   2 kg` | `Disc (2 Kg)` |
+| 2 | `Heptatló Femení Juvenil` | `Heptatlo` |
 | 2 | `Javelina Absolut                            600 g` | `Javelina (600 g)` |
 | 2 | `Javelina CADET FEM.` | `Javelina (600 g)` |
 | 2 | `Javelina Juvenil                            500 g` | `Javelina (500 g)` |
@@ -264,25 +270,29 @@ combined events resolved per athlete from the PDF birth-year column.
 | 2 | `Martillo (3kg) FEM. - CADETE` | `Martell (3 Kg)` |
 | 2 | `PERXA ALEVÍ - INFANTIL - CADET FEMENINA` | `Perxa` |
 | 2 | `PES Cadet Femení                                   3 kg` | `Pes (3 Kg)` |
-| 2 | `Pentatló Femení Infantil` | `Pentatló` |
-| 2 | `Pes Infantil Femení (2Kg)` | `Pes (2 Kg)` |
+| 2 | `Pes Infantil Femení (2 Kg)` | `Pes (2 Kg)` |
 | 2 | `RESULTATS SALT D'ALÇADA FEMENINA` | `Alçada` |
 | 2 | `RESULTATS TRIPLE SALT CADET ABSOLUT FEMENÍ` | `Triple` |
 | 2 | `SALT D'ALÇADA FEMENI ( PENTATLÓ )` | `Alçada` |
 | 2 | `SALT D'ALÇADA MASCULÍ` | `Alçada` |
 | 2 | `TRIPLE SALT INFANTIL MASCULI` | `Triple` |
+| 2 | `Tetratló Masculí Aleví` | `Tetratló` |
 | 2 | `Triple Salt nascudes 01 FEM. PC` | `Triple` |
 | 1 | `1.000m Marxa FEM. en pista` | `1000 metres marxa` |
 | 1 | `1.000m Marxa MASC. en pista` | `1000 metres marxa` |
 | 1 | `1.500m Masculí Absolut-VETERÀ` | `1500 metres llisos` |
 | 1 | `100 METRES TANQUES` | `100 metres tanques (0.762)` |
 | 1 | `100 METRES TANQUES (0.91)` | `100 metres tanques (0.91)` |
+| 1 | `100 metres llisos` | `100 metres llisos` |
+| 1 | `100 metres tanques (0,762)` | `100 metres tanques (0.762)` |
 | 1 | `10000 METRES LLISOS VETERÀ MASCULÍ` | `10000 metres llisos` |
 | 1 | `10000 METRES LLISOS VETERÀ MASCULÍ M-45` | `10000 metres llisos` |
 | 1 | `100m FEM. AL` | `100 metres llisos` |
 | 1 | `100m FEM. AL 45-49` | `100 metres llisos` |
 | 1 | `2.000m Marcha ALEVÍ FEM. en pista` | `2000 metres marxa` |
 | 1 | `2.000m Marxa MASC. en pista` | `2000 metres marxa` |
+| 1 | `200 m.ll. Absolut Femení` | `200 metres llisos` |
+| 1 | `200 metres llisos` | `200 metres llisos` |
 | 1 | `200m FEM. PC 35-39` | `200 metres llisos` |
 | 1 | `200m FEM. PC 45-49` | `200 metres llisos` |
 | 1 | `200m MASC. AL 45-49` | `200 metres llisos` |
@@ -290,6 +300,7 @@ combined events resolved per athlete from the PDF birth-year column.
 | 1 | `200m MASC. PC 50-54` | `200 metres llisos` |
 | 1 | `3.000m Marcha FEM. en pista` | `3000 metres marxa` |
 | 1 | `3.000m Marxa MASC. PC 45-49` | `3000 metres marxa` |
+| 1 | `300 m.ll. Cadet Masculí` | `300 metres llisos` |
 | 1 | `400m MASC. AL 45-49` | `400 metres llisos` |
 | 1 | `400m MASCULINS/MEN` | `400 metres llisos` |
 | 1 | `5.000m Marxa MASC. 45-49` | `5000 metres marxa` |
@@ -297,6 +308,8 @@ combined events resolved per athlete from the PDF birth-year column.
 | 1 | `60m FEM. PC 35-39` | `60 metres llisos` |
 | 1 | `60m MASC. PC 35-39` | `60 metres llisos` |
 | 1 | `60m MASCULINS/MEN` | `60 metres llisos` |
+| 1 | `60m tanques MASC. PC` | `60 metres tanques (1.067)` |
+| 1 | `800m MASC. AL` | `800 metres llisos` |
 | 1 | `800m Masculí Absolut - VETERÀ` | `800 metres llisos` |
 | 1 | `ALÇADA                              CF-IF-AF` | `Alçada` |
 | 1 | `ALÇADA ALEVI MASCULI` | `Alçada` |
@@ -305,12 +318,13 @@ combined events resolved per athlete from the PDF birth-year column.
 | 1 | `ALÇADA FEM` | `Alçada` |
 | 1 | `ALÇADA Infantil Masculí` | `Alçada` |
 | 1 | `ALÇADA PROMESA FEMENI` | `Alçada` |
+| 1 | `Alçada Absolut Masculí` | `Alçada` |
 | 1 | `Alçada Fem.` | `Alçada` |
 | 1 | `Alçada MASC. PC 35-39` | `Alçada` |
 | 1 | `Alçada MASC. PC 50-54` | `Alçada` |
 | 1 | `DISC INFANTL MASCULI` | `Disc (2 Kg)` |
+| 1 | `Decatló Masculí Absolut` | `Decatló (Abs)` |
 | 1 | `Disc MASC.` | `Disc (2 Kg)` |
-| 1 | `Heptatló Femení Juvenil` | `Heptatlo` |
 | 1 | `JAVELINA CADET FEMENI` | `Javelina (600 g)` |
 | 1 | `Llargada FEM. PC 40-44` | `Llargada` |
 | 1 | `Llargada FEM. PC 50-54` | `Llargada` |
@@ -323,5 +337,12 @@ combined events resolved per athlete from the PDF birth-year column.
 | 1 | `PROVA     MARTELL ABSOLUT F                                     PES              4 KG` | `Martell (4 Kg)` |
 | 1 | `Perxa FEM. AL` | `Perxa` |
 | 1 | `RESULTATS 3000 METRES LLISOS CADET - JUVENIL MASCULÍ` | `3000 metres llisos` |
-| 1 | `Tetratló Masculí Aleví` | `Tetratló` |
 
+
+## Review (discipline left unchanged)
+
+| file | athlete | raw | reason |
+|---|---|---|---|
+| resulcontrolpimaveracambrils3004-10516.json | SANS RIOLA, JAN | `110 m.t. Júnior Masculí` | no rule matched |
+| resulcontrolpimaveracambrils3004-10516.json | LOPEZ URBANO, MIREIA | `100 m.t. Juvenil Femení` | no rule matched |
+| resulcontrolpimaveracambrils3004-10516.json | VAZQUEZ DOMINGO, ALICIA | `100 m.t. Juvenil Femení` | no rule matched |

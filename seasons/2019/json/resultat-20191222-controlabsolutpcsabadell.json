@@ -1,8 +1,8 @@
 {
   "event_name": "Controls Absolut en Pista Coberta (2a. jornada) - Controls Absolut en Pista Coberta (2a. jornada)",
   "event_date": "22/12/2019",
-  "event_location": "Sabadell",
-  "total_results": 7,
+  "event_location": "Club                                           Lic",
+  "total_results": 11,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20191222-controlabsolutpcsabadell.pdf",
   "results": [
     {
@@ -10,19 +10,29 @@
       "athlete_dob": "23/02/2000",
       "athlete_id": "CT24373",
       "performance": "7.32",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m MASC. PC",
+      "discipline": "60m MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 510
     },
     {
       "athlete_name": "Jan Sans Riola",
       "athlete_dob": "23/10/1998",
       "athlete_id": "CT22783",
-      "performance": "6.87",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m MASC. PC",
+      "performance": "6.97",
+      "discipline": "60m MASC. PC",
       "wind": null,
+      "position": null,
+      "internal_id": 435
+    },
+    {
+      "athlete_name": "Jan Sans Riola",
+      "athlete_dob": "23/10/1998",
+      "athlete_id": "CT22783",
+      "performance": "6.87",
+      "discipline": "60m MASC. PC",
+      "wind": null,
+      "position": null,
       "internal_id": 435
     },
     {
@@ -30,19 +40,49 @@
       "athlete_dob": "02/01/2002",
       "athlete_id": "CT25944",
       "performance": "0:53.03",
-      "discipline": "400 metres llisos",
-      "raw_discipline_name": "400m MASC. PC",
+      "discipline": "400m MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 645
+    },
+    {
+      "athlete_name": "Xavier Ros Borrell",
+      "athlete_dob": "19/05/1998",
+      "athlete_id": "CL22779",
+      "performance": "4:13.97",
+      "discipline": "1.500m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 439
+    },
+    {
+      "athlete_name": "Manuel Pizarro Arevalo",
+      "athlete_dob": "08/06/1987",
+      "athlete_id": "CL25669",
+      "performance": "4.00",
+      "discipline": "Perxa MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 517
+    },
+    {
+      "athlete_name": "Alicia Vazquez Domingo",
+      "athlete_dob": "09/10/1999",
+      "athlete_id": "CT23992",
+      "performance": "9.72",
+      "discipline": "60m tanques (0,84) FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 472
     },
     {
       "athlete_name": "Alicia Vazquez Domingo",
       "athlete_dob": "09/10/1999",
       "athlete_id": "CT23992",
       "performance": "4.66",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada FEM. PC",
+      "discipline": "Llargada FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 472
     },
     {
@@ -50,9 +90,9 @@
       "athlete_dob": "09/10/1999",
       "athlete_id": "CT23992",
       "performance": "4.70",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada FEM. PC",
+      "discipline": "Llargada FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 472
     },
     {
@@ -60,9 +100,9 @@
       "athlete_dob": "09/10/1999",
       "athlete_id": "CT23992",
       "performance": "4.60",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada FEM. PC",
+      "discipline": "Llargada FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 472
     },
     {
@@ -70,9 +110,9 @@
       "athlete_dob": "09/10/1999",
       "athlete_id": "CT23992",
       "performance": "4.97",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada FEM. PC",
+      "discipline": "Llargada FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 472
     }
   ]

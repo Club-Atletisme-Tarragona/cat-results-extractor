@@ -1,18 +1,88 @@
 {
   "event_name": "Campionat de Catalunya de Tardor 2023 4J - Estadi Municipal La Bóbila, 11 noviembre 2023",
   "event_date": "11/11/2023",
-  "event_location": "Gavà",
-  "total_results": 11,
+  "event_location": "Estadi Municipal La Bóbila",
+  "total_results": 18,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2023/11/resultat-20231111-cattardorgava.pdf",
   "results": [
+    {
+      "athlete_name": "Jeroni Flores Piñas",
+      "athlete_dob": "04/01/2009",
+      "athlete_id": "CL86460",
+      "performance": "1.60",
+      "discipline": "Alçada SUB16M",
+      "wind": null,
+      "position": 6,
+      "internal_id": 1036
+    },
+    {
+      "athlete_name": "Pau Crespo Beltran",
+      "athlete_dob": "22/10/2008",
+      "athlete_id": "CT1650",
+      "performance": "13.17",
+      "discipline": "Pes (4 Kg) SUB16M",
+      "wind": null,
+      "position": 1,
+      "internal_id": 971
+    },
+    {
+      "athlete_name": "Pau Crespo Beltran",
+      "athlete_dob": "22/10/2008",
+      "athlete_id": "CT1650",
+      "performance": "13.52",
+      "discipline": "Pes (4 Kg) SUB16M",
+      "wind": null,
+      "position": 1,
+      "internal_id": 971
+    },
+    {
+      "athlete_name": "Pau Crespo Beltran",
+      "athlete_dob": "22/10/2008",
+      "athlete_id": "CT1650",
+      "performance": "14.01",
+      "discipline": "Pes (4 Kg) SUB16M",
+      "wind": null,
+      "position": 1,
+      "internal_id": 971
+    },
+    {
+      "athlete_name": "Pau Crespo Beltran",
+      "athlete_dob": "22/10/2008",
+      "athlete_id": "CT1650",
+      "performance": "14.07",
+      "discipline": "Pes (4 Kg) SUB16M",
+      "wind": null,
+      "position": 1,
+      "internal_id": 971
+    },
+    {
+      "athlete_name": "Pau Crespo Beltran",
+      "athlete_dob": "22/10/2008",
+      "athlete_id": "CT1650",
+      "performance": "13.86",
+      "discipline": "Pes (4 Kg) SUB16M",
+      "wind": null,
+      "position": 1,
+      "internal_id": 971
+    },
+    {
+      "athlete_name": "Pau Crespo Beltran",
+      "athlete_dob": "22/10/2008",
+      "athlete_id": "CT1650",
+      "performance": "14.49",
+      "discipline": "Pes (4 Kg) SUB16M",
+      "wind": null,
+      "position": 1,
+      "internal_id": 971
+    },
     {
       "athlete_name": "Pau Crespo Beltran",
       "athlete_dob": "22/10/2008",
       "athlete_id": "CT1650",
       "performance": "48.22",
-      "discipline": "Javelina (600 g)",
-      "raw_discipline_name": "Javelina (600g) SUB16M",
+      "discipline": "Javelina (600g) SUB16M",
       "wind": null,
+      "position": 1,
       "internal_id": 971
     },
     {
@@ -20,9 +90,9 @@
       "athlete_dob": "22/10/2008",
       "athlete_id": "CT1650",
       "performance": "44.46",
-      "discipline": "Javelina (600 g)",
-      "raw_discipline_name": "Javelina (600g) SUB16M",
+      "discipline": "Javelina (600g) SUB16M",
       "wind": null,
+      "position": 1,
       "internal_id": 971
     },
     {
@@ -30,9 +100,9 @@
       "athlete_dob": "22/10/2008",
       "athlete_id": "CT1650",
       "performance": "47.81",
-      "discipline": "Javelina (600 g)",
-      "raw_discipline_name": "Javelina (600g) SUB16M",
+      "discipline": "Javelina (600g) SUB16M",
       "wind": null,
+      "position": 1,
       "internal_id": 971
     },
     {
@@ -40,9 +110,9 @@
       "athlete_dob": "22/10/2008",
       "athlete_id": "CT1650",
       "performance": "45.46",
-      "discipline": "Javelina (600 g)",
-      "raw_discipline_name": "Javelina (600g) SUB16M",
+      "discipline": "Javelina (600g) SUB16M",
       "wind": null,
+      "position": 1,
       "internal_id": 971
     },
     {
@@ -50,9 +120,9 @@
       "athlete_dob": "22/10/2008",
       "athlete_id": "CT1650",
       "performance": "46.96",
-      "discipline": "Javelina (600 g)",
-      "raw_discipline_name": "Javelina (600g) SUB16M",
+      "discipline": "Javelina (600g) SUB16M",
       "wind": null,
+      "position": 1,
       "internal_id": 971
     },
     {
@@ -60,29 +130,29 @@
       "athlete_dob": "22/10/2008",
       "athlete_id": "CT1650",
       "performance": "45.02",
-      "discipline": "Javelina (600 g)",
-      "raw_discipline_name": "Javelina (600g) SUB16M",
+      "discipline": "Javelina (600g) SUB16M",
       "wind": null,
+      "position": 1,
       "internal_id": 971
     },
     {
-      "athlete_name": "Clàudia Espinosa Rodríguez",
+      "athlete_name": "Clàudia Espinosa Rodríguez IF",
       "athlete_dob": "05/12/2011",
       "athlete_id": "CL7390",
       "performance": "23.38",
-      "discipline": "Javelina (600 g)",
-      "raw_discipline_name": "Javelina (600g) SUB16M",
+      "discipline": "Javelina (600g) SUB16M",
       "wind": null,
+      "position": 3,
       "internal_id": null
     },
     {
-      "athlete_name": "Clàudia Espinosa Rodríguez",
+      "athlete_name": "Clàudia Espinosa Rodríguez IF",
       "athlete_dob": "05/12/2011",
       "athlete_id": "CL7390",
       "performance": "03.62",
-      "discipline": "Javelina (600 g)",
-      "raw_discipline_name": "Javelina (600g) SUB16M",
+      "discipline": "Javelina (600g) SUB16M",
       "wind": null,
+      "position": 8,
       "internal_id": null
     },
     {
@@ -90,9 +160,9 @@
       "athlete_dob": "28/08/2009",
       "athlete_id": "CL94399",
       "performance": "8.80",
-      "discipline": "Pes (3 Kg)",
-      "raw_discipline_name": "Pes (3kg) SUB16F",
+      "discipline": "Pes (3 Kg) SUB16F",
       "wind": null,
+      "position": 9,
       "internal_id": 1010
     },
     {
@@ -100,9 +170,9 @@
       "athlete_dob": "28/08/2009",
       "athlete_id": "CL94399",
       "performance": "8.53",
-      "discipline": "Pes (3 Kg)",
-      "raw_discipline_name": "Pes (3kg) SUB16F",
+      "discipline": "Pes (3 Kg) SUB16F",
       "wind": null,
+      "position": 9,
       "internal_id": 1010
     },
     {
@@ -110,9 +180,9 @@
       "athlete_dob": "28/08/2009",
       "athlete_id": "CL94399",
       "performance": "8.01",
-      "discipline": "Pes (3 Kg)",
-      "raw_discipline_name": "Pes (3kg) SUB16F",
+      "discipline": "Pes (3 Kg) SUB16F",
       "wind": null,
+      "position": 9,
       "internal_id": 1010
     }
   ]

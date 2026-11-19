@@ -2,9 +2,130 @@
   "event_name": "Jornada Prèvia Camp. Catalunya Sub10",
   "event_date": "19/05/2018",
   "event_location": "Ascó",
-  "total_results": 14,
+  "total_results": 25,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20180519-catsub10ascoprevia.pdf",
   "results": [
+    {
+      "athlete_name": "Paco Lorenzo Valldosera",
+      "athlete_dob": "30/03/2009",
+      "athlete_id": "CL90838",
+      "performance": "9.14",
+      "discipline": "60 metres llisos",
+      "raw_discipline_name": "60m S10 MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Noemi Gonzalez Carrillo",
+      "athlete_dob": "04/04/2009",
+      "athlete_id": "CL86462",
+      "performance": "10.34",
+      "discipline": "60 metres llisos",
+      "raw_discipline_name": "60m S10 FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1030
+    },
+    {
+      "athlete_name": "Duina Borreda Cervello",
+      "athlete_dob": "26/12/2010",
+      "athlete_id": "CL90830",
+      "performance": "10.37",
+      "discipline": "60 metres llisos",
+      "raw_discipline_name": "60m S10 FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Clara Ortiz De Landazuri Ontoso",
+      "athlete_dob": "04/12/2009",
+      "athlete_id": "CL86467",
+      "performance": "3:52.79",
+      "discipline": "1000 metres llisos",
+      "raw_discipline_name": "1.000m S10 FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1022
+    },
+    {
+      "athlete_name": "Diana Garcia Mur",
+      "athlete_dob": "23/02/2010",
+      "athlete_id": "CL90833",
+      "performance": "3:56.34",
+      "discipline": "1000 metres llisos",
+      "raw_discipline_name": "1.000m S10 FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1081
+    },
+    {
+      "athlete_name": "Noemi Gonzalez Carrillo",
+      "athlete_dob": "04/04/2009",
+      "athlete_id": "CL86462",
+      "performance": "3:58.20",
+      "discipline": "1000 metres llisos",
+      "raw_discipline_name": "1.000m S10 FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1030
+    },
+    {
+      "athlete_name": "Nora Montolio Amaro",
+      "athlete_dob": "05/02/2010",
+      "athlete_id": "CL90841",
+      "performance": "3:59.26",
+      "discipline": "1000 metres llisos",
+      "raw_discipline_name": "1.000m S10 FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1089
+    },
+    {
+      "athlete_name": "Duina Borreda Cervello",
+      "athlete_dob": "26/12/2010",
+      "athlete_id": "CL90830",
+      "performance": "4:12.37",
+      "discipline": "1000 metres llisos",
+      "raw_discipline_name": "1.000m S10 FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Clara Ortiz De Landazuri Ontoso",
+      "athlete_dob": "04/12/2009",
+      "athlete_id": "CL86467",
+      "performance": "3.05",
+      "discipline": "Llargada",
+      "raw_discipline_name": "Llargada S10 FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1022
+    },
+    {
+      "athlete_name": "Clara Ortiz De Landazuri Ontoso",
+      "athlete_dob": "04/12/2009",
+      "athlete_id": "CL86467",
+      "performance": "3.09",
+      "discipline": "Llargada",
+      "raw_discipline_name": "Llargada S10 FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1022
+    },
+    {
+      "athlete_name": "Nora Montolio Amaro",
+      "athlete_dob": "05/02/2010",
+      "athlete_id": "CL90841",
+      "performance": "2.52",
+      "discipline": "Llargada",
+      "raw_discipline_name": "Llargada S10 FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1089
+    },
     {
       "athlete_name": "Jeroni Flores Piñas",
       "athlete_dob": "04/01/2009",
@@ -13,6 +134,7 @@
       "discipline": "Alçada",
       "raw_discipline_name": "Alçada S10 MASC. AL",
       "wind": null,
+      "position": null,
       "internal_id": 1036
     },
     {
@@ -23,6 +145,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada S10 MASC. AL",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -33,6 +156,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada S10 MASC. AL",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -43,6 +167,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada S10 MASC. AL",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -53,6 +178,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada S10 MASC. AL",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -63,6 +189,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada S10 MASC. AL",
       "wind": null,
+      "position": null,
       "internal_id": 1036
     },
     {
@@ -73,6 +200,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada S10 MASC. AL",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -83,6 +211,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada S10 MASC. AL",
       "wind": null,
+      "position": null,
       "internal_id": 1007
     },
     {
@@ -93,6 +222,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada S10 MASC. AL",
       "wind": null,
+      "position": null,
       "internal_id": 1007
     },
     {
@@ -103,6 +233,7 @@
       "discipline": "1000 metres marxa",
       "raw_discipline_name": "1.000m Marxa S10 FEM.",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -113,6 +244,7 @@
       "discipline": "1000 metres marxa",
       "raw_discipline_name": "1.000m Marxa S10 FEM.",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -123,6 +255,7 @@
       "discipline": "1000 metres marxa",
       "raw_discipline_name": "1.000m Marxa S10 FEM.",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -133,6 +266,7 @@
       "discipline": "1000 metres marxa",
       "raw_discipline_name": "1.000m Marxa S10 MASC.",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -143,6 +277,7 @@
       "discipline": "1000 metres marxa",
       "raw_discipline_name": "1.000m Marxa S10 MASC.",
       "wind": null,
+      "position": null,
       "internal_id": 1009
     }
   ]

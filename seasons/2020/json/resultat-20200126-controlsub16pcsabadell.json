@@ -1,29 +1,109 @@
 {
   "event_name": "Control Pista Coberta Sub16 - 4a. jornada - Control Pista Coberta Sub16 - 4a. jornada",
   "event_date": "26/01/2020",
-  "event_location": "Sabadell",
-  "total_results": 2,
+  "event_location": "Club                                               Lic",
+  "total_results": 10,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20200126-controlsub16pcsabadell.pdf",
   "results": [
     {
       "athlete_name": "Hugo Jules Saiz Santolaria",
       "athlete_dob": "31/01/2005",
       "athlete_id": "CL71743",
-      "performance": "0:40.70",
-      "discipline": "300 metres llisos",
-      "raw_discipline_name": "300m MASC. PC",
+      "performance": "7.92",
+      "discipline": "60m MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 808
+    },
+    {
+      "athlete_name": "53 (t) Gonzalo Bellón Tirado CM 6",
+      "athlete_dob": "30/01/2005",
+      "athlete_id": "CL826",
+      "performance": "NP",
+      "discipline": "60m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Gerard Ferrandiz Giner",
+      "athlete_dob": "27/02/2006",
+      "athlete_id": "CL69320",
+      "performance": "9.20",
+      "discipline": "60m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 840
+    },
+    {
+      "athlete_name": "Hugo Jules Saiz Santolaria",
+      "athlete_dob": "31/01/2005",
+      "athlete_id": "CL71743",
+      "performance": "0:40.70",
+      "discipline": "300m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 808
+    },
+    {
+      "athlete_name": "Gerard Ferrandiz Giner",
+      "athlete_dob": "27/02/2006",
+      "athlete_id": "CL69320",
+      "performance": "12.97",
+      "discipline": "60m tanques (0,91) MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 840
+    },
+    {
+      "athlete_name": "Natalia Sanchez Alvarez",
+      "athlete_dob": "28/05/2005",
+      "athlete_id": "CT29768",
+      "performance": "8.47",
+      "discipline": "60m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 796
+    },
+    {
+      "athlete_name": "Mireia Viera Cervello",
+      "athlete_dob": "22/09/2006",
+      "athlete_id": "CL94415",
+      "performance": "8.69",
+      "discipline": "60m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Natalia Sanchez Alvarez",
+      "athlete_dob": "28/05/2005",
+      "athlete_id": "CT29768",
+      "performance": "0:45.64",
+      "discipline": "300m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 796
     },
     {
       "athlete_name": "Mireia Viera Cervello",
       "athlete_dob": "22/09/2006",
       "athlete_id": "CL94415",
       "performance": "0:46.30",
-      "discipline": "300 metres llisos",
-      "raw_discipline_name": "300m FEM. PC",
+      "discipline": "300m FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": null
+    },
+    {
+      "athlete_name": "Natalia Sanchez Alvarez",
+      "athlete_dob": "28/05/2005",
+      "athlete_id": "CT29768",
+      "performance": "10.55",
+      "discipline": "60m tanques (0,762) FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 796
     }
   ]
 }

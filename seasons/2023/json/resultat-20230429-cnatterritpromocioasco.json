@@ -2,137 +2,377 @@
   "event_name": "Campionat Territorial sub10, sub12, sub14 i sub16",
   "event_date": "29/04/2023",
   "event_location": "Ascó",
-  "total_results": 38,
+  "total_results": 117,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2023/04/resultat-20230429-cnatterritpromocioasco.pdf",
   "results": [
     {
-      "athlete_name": "Samuel Marcos Perez",
-      "athlete_dob": "01/02/2010",
-      "athlete_id": "CL90024",
-      "performance": "16.65",
-      "discipline": "80 metres tanques (0.84)",
-      "raw_discipline_name": "80m vallas (0,84) S14 MASC. AL",
-      "wind": "+0.1",
-      "internal_id": 1071
+      "athlete_name": "Aston Mate Gras",
+      "athlete_dob": "07/12/2012",
+      "athlete_id": "CL95044",
+      "performance": "9.33",
+      "discipline": "60m S12 MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1342
     },
     {
-      "athlete_name": "Samuel Marcos Perez",
-      "athlete_dob": "01/02/2010",
-      "athlete_id": "CL90024",
-      "performance": "23.48",
-      "discipline": "Disc (800 g)",
-      "raw_discipline_name": "Disco (800g) S14 MASC.",
+      "athlete_name": "Ferran Mascaro Navarro",
+      "athlete_dob": "02/06/2012",
+      "athlete_id": "CL96310",
+      "performance": "9.33",
+      "discipline": "60m S12 MASC. AL",
       "wind": null,
-      "internal_id": 1071
+      "position": null,
+      "internal_id": 1362
     },
     {
-      "athlete_name": "Samuel Marcos Perez",
-      "athlete_dob": "01/02/2010",
-      "athlete_id": "CL90024",
-      "performance": "24.64",
-      "discipline": "Disc (800 g)",
-      "raw_discipline_name": "Disco (800g) S14 MASC.",
+      "athlete_name": "Èric Guijarro Rom",
+      "athlete_dob": "25/12/2013",
+      "athlete_id": "CL4372",
+      "performance": "9.76",
+      "discipline": "60m S12 MASC. AL",
       "wind": null,
-      "internal_id": 1071
-    },
-    {
-      "athlete_name": "Samuel Marcos Perez",
-      "athlete_dob": "01/02/2010",
-      "athlete_id": "CL90024",
-      "performance": "24.63",
-      "discipline": "Disc (800 g)",
-      "raw_discipline_name": "Disco (800g) S14 MASC.",
-      "wind": null,
-      "internal_id": 1071
-    },
-    {
-      "athlete_name": "Didac Manye Pujol",
-      "athlete_dob": "06/10/2011",
-      "athlete_id": "CL906",
-      "performance": "13.40",
-      "discipline": "Disc (800 g)",
-      "raw_discipline_name": "Disco (800g) S14 MASC.",
-      "wind": null,
-      "internal_id": 1337
-    },
-    {
-      "athlete_name": "Didac Manye Pujol",
-      "athlete_dob": "06/10/2011",
-      "athlete_id": "CL906",
-      "performance": "15.69",
-      "discipline": "Disc (800 g)",
-      "raw_discipline_name": "Disco (800g) S14 MASC.",
-      "wind": null,
-      "internal_id": 1337
-    },
-    {
-      "athlete_name": "Didac Manye Pujol",
-      "athlete_dob": "06/10/2011",
-      "athlete_id": "CL906",
-      "performance": "12.15",
-      "discipline": "Disc (800 g)",
-      "raw_discipline_name": "Disco (800g) S14 MASC.",
-      "wind": null,
-      "internal_id": 1337
-    },
-    {
-      "athlete_name": "Didac Manye Pujol",
-      "athlete_dob": "06/10/2011",
-      "athlete_id": "CL906",
-      "performance": "14.68",
-      "discipline": "Disc (800 g)",
-      "raw_discipline_name": "Disco (800g) S14 MASC.",
-      "wind": null,
-      "internal_id": 1337
-    },
-    {
-      "athlete_name": "Didac Manye Pujol",
-      "athlete_dob": "06/10/2011",
-      "athlete_id": "CL906",
-      "performance": "10.80",
-      "discipline": "Disc (800 g)",
-      "raw_discipline_name": "Disco (800g) S14 MASC.",
-      "wind": null,
-      "internal_id": 1337
-    },
-    {
-      "athlete_name": "Quim Sousa Iturria",
-      "athlete_dob": "03/05/2010",
-      "athlete_id": "CL90845",
-      "performance": "14.85",
-      "discipline": "Disc (800 g)",
-      "raw_discipline_name": "Disco (800g) S14 MASC.",
-      "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
-      "athlete_name": "Enzo Mate Gras",
+      "athlete_name": "Quim Sousa Iturria IM",
+      "athlete_dob": "03/05/2010",
+      "athlete_id": "CL90845",
+      "performance": "11.38",
+      "discipline": "80m S14 MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Didac Manye Pujol IM",
+      "athlete_dob": "06/10/2011",
+      "athlete_id": "CL906",
+      "performance": "12.21",
+      "discipline": "80m S14 MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1337
+    },
+    {
+      "athlete_name": "188 (t) Enzo Mate Gras IM 3",
+      "athlete_dob": "01/02/2011",
+      "athlete_id": "CL94546",
+      "performance": "NP",
+      "discipline": "80m S14 MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1343
+    },
+    {
+      "athlete_name": "185 (t) Samuel Marcos Perez IM 5",
+      "athlete_dob": "01/02/2010",
+      "athlete_id": "CL90024",
+      "performance": "NP",
+      "discipline": "80m S14 MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1071
+    },
+    {
+      "athlete_name": "Matias Hernandez Sanchez",
+      "athlete_dob": "26/12/2008",
+      "athlete_id": "CT2196",
+      "performance": "13.09",
+      "discipline": "100m S16 MASC. AL",
+      "wind": "+1.2",
+      "position": null,
+      "internal_id": 999
+    },
+    {
+      "athlete_name": "Bernat Bardina Artigau",
+      "athlete_dob": "12/04/2008",
+      "athlete_id": "CL82974",
+      "performance": "12.58",
+      "discipline": "100m S16 MASC. AL",
+      "wind": "+1.5",
+      "position": null,
+      "internal_id": 963
+    },
+    {
+      "athlete_name": "Carlos Amoros Muñoz",
+      "athlete_dob": "27/06/2009",
+      "athlete_id": "CL11097",
+      "performance": "13.52",
+      "discipline": "100m S16 MASC. AL",
+      "wind": "+1.5",
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Illan Tomas Batet",
+      "athlete_dob": "18/12/2009",
+      "athlete_id": "CL11106",
+      "performance": "13.97",
+      "discipline": "100m S16 MASC. AL",
+      "wind": "+1.5",
+      "position": null,
+      "internal_id": 1013
+    },
+    {
+      "athlete_name": "Unai Olaya Minguez",
+      "athlete_dob": "27/07/2009",
+      "athlete_id": "CL854",
+      "performance": "12.87",
+      "discipline": "100m S16 MASC. AL",
+      "wind": "+1.9",
+      "position": null,
+      "internal_id": 1014
+    },
+    {
+      "athlete_name": "Quim Sousa Iturria IM",
+      "athlete_dob": "03/05/2010",
+      "athlete_id": "CL90845",
+      "performance": "3:27.25",
+      "discipline": "1.000m S14 MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Didac Manye Pujol IM",
+      "athlete_dob": "06/10/2011",
+      "athlete_id": "CL906",
+      "performance": "3:50.13",
+      "discipline": "1.000m S14 MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1337
+    },
+    {
+      "athlete_name": "188 (t) Enzo Mate Gras IM 7",
+      "athlete_dob": "01/02/2011",
+      "athlete_id": "CL94546",
+      "performance": "NP",
+      "discipline": "1.000m S14 MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1343
+    },
+    {
+      "athlete_name": "Samuel Marcos Perez IM",
+      "athlete_dob": "01/02/2010",
+      "athlete_id": "CL90024",
+      "performance": "16.65",
+      "discipline": "80m vallas (0,84) S14 MASC. AL",
+      "wind": "+0.1",
+      "position": null,
+      "internal_id": 1071
+    },
+    {
+      "athlete_name": "Matias Hernandez Sanchez",
+      "athlete_dob": "26/12/2008",
+      "athlete_id": "CT2196",
+      "performance": "15.53",
+      "discipline": "100m vallas (0,91) S16 MASC. AL",
+      "wind": "-0.8",
+      "position": null,
+      "internal_id": 999
+    },
+    {
+      "athlete_name": "Ferran Mascaro Navarro",
+      "athlete_dob": "02/06/2012",
+      "athlete_id": "CL96310",
+      "performance": "1.30",
+      "discipline": "Altura S12 MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1362
+    },
+    {
+      "athlete_name": "Èric Guijarro Rom",
+      "athlete_dob": "25/12/2013",
+      "athlete_id": "CL4372",
+      "performance": "1.15",
+      "discipline": "Altura S12 MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "187 (t) Aston Mate Gras AM",
+      "athlete_dob": "07/12/2012",
+      "athlete_id": "CL95044",
+      "performance": "NP",
+      "discipline": "Altura S12 MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1342
+    },
+    {
+      "athlete_name": "Unai Olaya Minguez",
+      "athlete_dob": "27/07/2009",
+      "athlete_id": "CL854",
+      "performance": "4.37",
+      "discipline": "Longitud S16 MASC. AL",
+      "wind": "+1.5",
+      "position": null,
+      "internal_id": 1014
+    },
+    {
+      "athlete_name": "Unai Olaya Minguez",
+      "athlete_dob": "27/07/2009",
+      "athlete_id": "CL854",
+      "performance": "4.46",
+      "discipline": "Longitud S16 MASC. AL",
+      "wind": "+1.0",
+      "position": null,
+      "internal_id": 1014
+    },
+    {
+      "athlete_name": "Samuel Marcos Perez IM",
+      "athlete_dob": "01/02/2010",
+      "athlete_id": "CL90024",
+      "performance": "23.48",
+      "discipline": "Disco (800g) S14 MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 1071
+    },
+    {
+      "athlete_name": "Samuel Marcos Perez IM",
+      "athlete_dob": "01/02/2010",
+      "athlete_id": "CL90024",
+      "performance": "24.64",
+      "discipline": "Disco (800g) S14 MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 1071
+    },
+    {
+      "athlete_name": "Samuel Marcos Perez IM",
+      "athlete_dob": "01/02/2010",
+      "athlete_id": "CL90024",
+      "performance": "24.63",
+      "discipline": "Disco (800g) S14 MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 1071
+    },
+    {
+      "athlete_name": "Didac Manye Pujol IM",
+      "athlete_dob": "06/10/2011",
+      "athlete_id": "CL906",
+      "performance": "13.40",
+      "discipline": "Disco (800g) S14 MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 1337
+    },
+    {
+      "athlete_name": "Didac Manye Pujol IM",
+      "athlete_dob": "06/10/2011",
+      "athlete_id": "CL906",
+      "performance": "15.69",
+      "discipline": "Disco (800g) S14 MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 1337
+    },
+    {
+      "athlete_name": "Didac Manye Pujol IM",
+      "athlete_dob": "06/10/2011",
+      "athlete_id": "CL906",
+      "performance": "12.15",
+      "discipline": "Disco (800g) S14 MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 1337
+    },
+    {
+      "athlete_name": "Didac Manye Pujol IM",
+      "athlete_dob": "06/10/2011",
+      "athlete_id": "CL906",
+      "performance": "14.68",
+      "discipline": "Disco (800g) S14 MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 1337
+    },
+    {
+      "athlete_name": "Didac Manye Pujol IM",
+      "athlete_dob": "06/10/2011",
+      "athlete_id": "CL906",
+      "performance": "10.80",
+      "discipline": "Disco (800g) S14 MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 1337
+    },
+    {
+      "athlete_name": "Quim Sousa Iturria IM",
+      "athlete_dob": "03/05/2010",
+      "athlete_id": "CL90845",
+      "performance": "14.85",
+      "discipline": "Disco (800g) S14 MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "10 (t) Pau Esteve Hostalot IM",
+      "athlete_dob": "27/08/2010",
+      "athlete_id": "CL94383",
+      "performance": "13.55",
+      "discipline": "Disco (800g) S14 MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 1055
+    },
+    {
+      "athlete_name": "10 (t) Pau Esteve Hostalot IM",
+      "athlete_dob": "27/08/2010",
+      "athlete_id": "CL94383",
+      "performance": "11.43",
+      "discipline": "Disco (800g) S14 MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 1055
+    },
+    {
+      "athlete_name": "10 (t) Pau Esteve Hostalot IM",
+      "athlete_dob": "27/08/2010",
+      "athlete_id": "CL94383",
+      "performance": "14.55",
+      "discipline": "Disco (800g) S14 MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 1055
+    },
+    {
+      "athlete_name": "Enzo Mate Gras IM",
       "athlete_dob": "01/02/2011",
       "athlete_id": "CL94546",
       "performance": "14.15",
-      "discipline": "Disc (800 g)",
-      "raw_discipline_name": "Disco (800g) S14 MASC.",
+      "discipline": "Disco (800g) S14 MASC.",
       "wind": null,
+      "position": null,
       "internal_id": 1343
     },
     {
-      "athlete_name": "Enzo Mate Gras",
+      "athlete_name": "Enzo Mate Gras IM",
       "athlete_dob": "01/02/2011",
       "athlete_id": "CL94546",
       "performance": "12.65",
-      "discipline": "Disc (800 g)",
-      "raw_discipline_name": "Disco (800g) S14 MASC.",
+      "discipline": "Disco (800g) S14 MASC.",
       "wind": null,
+      "position": null,
       "internal_id": 1343
     },
     {
-      "athlete_name": "Enzo Mate Gras",
+      "athlete_name": "Enzo Mate Gras IM",
       "athlete_dob": "01/02/2011",
       "athlete_id": "CL94546",
       "performance": "13.88",
-      "discipline": "Disc (800 g)",
-      "raw_discipline_name": "Disco (800g) S14 MASC.",
+      "discipline": "Disco (800g) S14 MASC.",
       "wind": null,
+      "position": null,
       "internal_id": 1343
     },
     {
@@ -140,9 +380,9 @@
       "athlete_dob": "02/06/2012",
       "athlete_id": "CL96310",
       "performance": "19.49",
-      "discipline": "Disc (600 g)",
-      "raw_discipline_name": "Disco (600g) S12 MASC. AL",
+      "discipline": "Disco (600g) S12 MASC. AL",
       "wind": null,
+      "position": null,
       "internal_id": 1362
     },
     {
@@ -150,9 +390,9 @@
       "athlete_dob": "02/06/2012",
       "athlete_id": "CL96310",
       "performance": "18.40",
-      "discipline": "Disc (600 g)",
-      "raw_discipline_name": "Disco (600g) S12 MASC. AL",
+      "discipline": "Disco (600g) S12 MASC. AL",
       "wind": null,
+      "position": null,
       "internal_id": 1362
     },
     {
@@ -160,9 +400,9 @@
       "athlete_dob": "07/12/2012",
       "athlete_id": "CL95044",
       "performance": "12.76",
-      "discipline": "Disc (600 g)",
-      "raw_discipline_name": "Disco (600g) S12 MASC. AL",
+      "discipline": "Disco (600g) S12 MASC. AL",
       "wind": null,
+      "position": null,
       "internal_id": 1342
     },
     {
@@ -170,9 +410,9 @@
       "athlete_dob": "07/12/2012",
       "athlete_id": "CL95044",
       "performance": "15.90",
-      "discipline": "Disc (600 g)",
-      "raw_discipline_name": "Disco (600g) S12 MASC. AL",
+      "discipline": "Disco (600g) S12 MASC. AL",
       "wind": null,
+      "position": null,
       "internal_id": 1342
     },
     {
@@ -180,19 +420,519 @@
       "athlete_dob": "07/12/2012",
       "athlete_id": "CL95044",
       "performance": "12.08",
-      "discipline": "Disc (600 g)",
-      "raw_discipline_name": "Disco (600g) S12 MASC. AL",
+      "discipline": "Disco (600g) S12 MASC. AL",
       "wind": null,
+      "position": null,
       "internal_id": 1342
+    },
+    {
+      "athlete_name": "Pau Crespo Beltran",
+      "athlete_dob": "22/10/2008",
+      "athlete_id": "CT1650",
+      "performance": "42.52",
+      "discipline": "Disco (1 Kg) S16 MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 971
+    },
+    {
+      "athlete_name": "Pau Crespo Beltran",
+      "athlete_dob": "22/10/2008",
+      "athlete_id": "CT1650",
+      "performance": "40.78",
+      "discipline": "Disco (1 Kg) S16 MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 971
+    },
+    {
+      "athlete_name": "Maria Martin Cuadrado",
+      "athlete_dob": "01/05/2012",
+      "athlete_id": "CL1089",
+      "performance": "9.08",
+      "discipline": "60m S12 FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1330
+    },
+    {
+      "athlete_name": "Ada Nin Navas",
+      "athlete_dob": "24/10/2012",
+      "athlete_id": "CL1495",
+      "performance": "9.63",
+      "discipline": "60m S12 FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1331
+    },
+    {
+      "athlete_name": "Arlet Solana Vila",
+      "athlete_dob": "13/03/2012",
+      "athlete_id": "CL11154",
+      "performance": "9.54",
+      "discipline": "60m S12 FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1369
+    },
+    {
+      "athlete_name": "Carlota Tejero Clau",
+      "athlete_dob": "06/03/2012",
+      "athlete_id": "CL7258",
+      "performance": "10.01",
+      "discipline": "60m S12 FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1352
+    },
+    {
+      "athlete_name": "Berta Barber Gonzalez",
+      "athlete_dob": "22/01/2013",
+      "athlete_id": "CL7610",
+      "performance": "9.76",
+      "discipline": "60m S12 FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1359
+    },
+    {
+      "athlete_name": "Alba Esteve Hostalot",
+      "athlete_dob": "10/11/2013",
+      "athlete_id": "CL4396",
+      "performance": "10.46",
+      "discipline": "60m S12 FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1335
+    },
+    {
+      "athlete_name": "211 (t) Lucia Martinez Perales AF 1",
+      "athlete_dob": "04/08/2012",
+      "athlete_id": "CL4343",
+      "performance": "NP",
+      "discipline": "60m S12 FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Agustina Ramos Russo",
+      "athlete_dob": "06/01/2012",
+      "athlete_id": "CL1088",
+      "performance": "9.74",
+      "discipline": "60m S12 FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1340
+    },
+    {
+      "athlete_name": "Julia Amoros Muñoz",
+      "athlete_dob": "21/05/2012",
+      "athlete_id": "CL11143",
+      "performance": "9.58",
+      "discipline": "60m S12 FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Julia Alcaraz Vila",
+      "athlete_dob": "07/10/2012",
+      "athlete_id": "CL12335",
+      "performance": "10.56",
+      "discipline": "60m S12 FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
     },
     {
       "athlete_name": "India Martin Cuadrado",
       "athlete_dob": "04/04/2014",
       "athlete_id": "CL7608",
       "performance": "10.37",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m S10 FEM. AL",
+      "discipline": "60m S10 FEM. AL",
       "wind": null,
+      "position": null,
+      "internal_id": 1332
+    },
+    {
+      "athlete_name": "Noa Anton Paterna IF",
+      "athlete_dob": "20/01/2010",
+      "athlete_id": "CL90450",
+      "performance": "10.42",
+      "discipline": "80m S14 FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1016
+    },
+    {
+      "athlete_name": "Ona Sansa Garcia IF",
+      "athlete_dob": "31/05/2010",
+      "athlete_id": "CL90844",
+      "performance": "11.55",
+      "discipline": "80m S14 FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1015
+    },
+    {
+      "athlete_name": "Alba Guijarro Rom IF",
+      "athlete_dob": "08/07/2010",
+      "athlete_id": "CL90465",
+      "performance": "11.21",
+      "discipline": "80m S14 FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1074
+    },
+    {
+      "athlete_name": "212 (t) Nora Montolio Amaro IF 5",
+      "athlete_dob": "05/02/2010",
+      "athlete_id": "CL90841",
+      "performance": "NP",
+      "discipline": "80m S14 FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1089
+    },
+    {
+      "athlete_name": "Lucia Marcos Perez IF",
+      "athlete_dob": "01/02/2010",
+      "athlete_id": "CL3853",
+      "performance": "13.05",
+      "discipline": "80m S14 FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1073
+    },
+    {
+      "athlete_name": "Clàudia Espinosa Rodríguez IF",
+      "athlete_dob": "05/12/2011",
+      "athlete_id": "CL7390",
+      "performance": "12.03",
+      "discipline": "80m S14 FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Lara Garcia Mur IF",
+      "athlete_dob": "23/10/2011",
+      "athlete_id": "CL94385",
+      "performance": "11.52",
+      "discipline": "80m S14 FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1324
+    },
+    {
+      "athlete_name": "Paula Diez Plasencia IF",
+      "athlete_dob": "15/11/2010",
+      "athlete_id": "CL90832",
+      "performance": "11.98",
+      "discipline": "80m S14 FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Laia Cabrero Perez",
+      "athlete_dob": "10/10/2008",
+      "athlete_id": "CL94529",
+      "performance": "14.33",
+      "discipline": "100m S16 FEM. AL",
+      "wind": "+1.1",
+      "position": null,
+      "internal_id": 954
+    },
+    {
+      "athlete_name": "218 (t) Olivia Ruiz Barbera CF 1",
+      "athlete_dob": "24/04/2009",
+      "athlete_id": "CL3439",
+      "performance": "NP",
+      "discipline": "100m S16 FEM. AL",
+      "wind": "+0.2",
+      "position": null,
+      "internal_id": 1018
+    },
+    {
+      "athlete_name": "Carla Borras Verges-tapiro",
+      "athlete_dob": "19/11/2008",
+      "athlete_id": "CL90097",
+      "performance": "0:45.69",
+      "discipline": "300m S16 FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 951
+    },
+    {
+      "athlete_name": "Laia Cabrero Perez",
+      "athlete_dob": "10/10/2008",
+      "athlete_id": "CL94529",
+      "performance": "0:49.95",
+      "discipline": "300m S16 FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 954
+    },
+    {
+      "athlete_name": "Olivia Ruiz Barbera",
+      "athlete_dob": "24/04/2009",
+      "athlete_id": "CL3439",
+      "performance": "0:44.59",
+      "discipline": "300m S16 FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1018
+    },
+    {
+      "athlete_name": "Noemi Gonzalez Carrillo",
+      "athlete_dob": "04/04/2009",
+      "athlete_id": "CL86462",
+      "performance": "0:46.43",
+      "discipline": "300m S16 FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1030
+    },
+    {
+      "athlete_name": "Nora Montolio Amaro IF",
+      "athlete_dob": "05/02/2010",
+      "athlete_id": "CL90841",
+      "performance": "3:21.81",
+      "discipline": "1.000m S14 FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1089
+    },
+    {
+      "athlete_name": "Lara Garcia Mur IF",
+      "athlete_dob": "23/10/2011",
+      "athlete_id": "CL94385",
+      "performance": "3:27.62",
+      "discipline": "1.000m S14 FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1324
+    },
+    {
+      "athlete_name": "Clàudia Espinosa Rodríguez IF",
+      "athlete_dob": "05/12/2011",
+      "athlete_id": "CL7390",
+      "performance": "3:48.09",
+      "discipline": "1.000m S14 FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Paula Diez Plasencia IF",
+      "athlete_dob": "15/11/2010",
+      "athlete_id": "CL90832",
+      "performance": "3:49.99",
+      "discipline": "1.000m S14 FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Clara Ortiz De Landazuri Ontoso",
+      "athlete_dob": "04/12/2009",
+      "athlete_id": "CT2195",
+      "performance": "3:12.45",
+      "discipline": "1.000m S16 FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1022
+    },
+    {
+      "athlete_name": "Iris Garrido Garcia",
+      "athlete_dob": "15/12/2008",
+      "athlete_id": "CT1617",
+      "performance": "3:26.88",
+      "discipline": "1.000m S16 FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 982
+    },
+    {
+      "athlete_name": "Natalia Lara Girbes",
+      "athlete_dob": "13/04/2009",
+      "athlete_id": "CL90847",
+      "performance": "3:37.65",
+      "discipline": "1.000m S16 FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 836
+    },
+    {
+      "athlete_name": "Noa Anton Paterna IF",
+      "athlete_dob": "20/01/2010",
+      "athlete_id": "CL90450",
+      "performance": "13.96",
+      "discipline": "80m vallas (0,762) S14 FEM CATALUÑA",
+      "wind": "+1.6",
+      "position": null,
+      "internal_id": 1016
+    },
+    {
+      "athlete_name": "Nora Montolio Amaro IF",
+      "athlete_dob": "05/02/2010",
+      "athlete_id": "CL90841",
+      "performance": "15.02",
+      "discipline": "80m vallas (0,762) S14 FEM CATALUÑA",
+      "wind": "+1.6",
+      "position": null,
+      "internal_id": 1089
+    },
+    {
+      "athlete_name": "Alba Guijarro Rom IF",
+      "athlete_dob": "08/07/2010",
+      "athlete_id": "CL90465",
+      "performance": "15.59",
+      "discipline": "80m vallas (0,762) S14 FEM CATALUÑA",
+      "wind": "+1.6",
+      "position": null,
+      "internal_id": 1074
+    },
+    {
+      "athlete_name": "198 (t) Nora Diaz Muste IF 6",
+      "athlete_dob": "17/07/2011",
+      "athlete_id": "CL7252",
+      "performance": "NP",
+      "discipline": "80m vallas (0,762) S14 FEM CATALUÑA",
+      "wind": "+1.0",
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Paula Diez Plasencia IF",
+      "athlete_dob": "15/11/2010",
+      "athlete_id": "CL90832",
+      "performance": "16.13",
+      "discipline": "80m vallas (0,762) S14 FEM CATALUÑA",
+      "wind": "+1.9",
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "219 (t) Ona Sansa Garcia IF 3",
+      "athlete_dob": "31/05/2010",
+      "athlete_id": "CL90844",
+      "performance": "NP",
+      "discipline": "80m vallas (0,762) S14 FEM CATALUÑA",
+      "wind": "+1.9",
+      "position": null,
+      "internal_id": 1015
+    },
+    {
+      "athlete_name": "Ainoa Rodriguez Murillo",
+      "athlete_dob": "17/01/2008",
+      "athlete_id": "CT1619",
+      "performance": "17.82",
+      "discipline": "80m vallas (0,762) S14 FEM CATALUÑA",
+      "wind": "-0.5",
+      "position": null,
+      "internal_id": 965
+    },
+    {
+      "athlete_name": "Carla Borras Verges-tapiro",
+      "athlete_dob": "19/11/2008",
+      "athlete_id": "CL90097",
+      "performance": "17.86",
+      "discipline": "80m vallas (0,762) S14 FEM CATALUÑA",
+      "wind": "-0.5",
+      "position": null,
+      "internal_id": 951
+    },
+    {
+      "athlete_name": "Julia Amoros Muñoz",
+      "athlete_dob": "21/05/2012",
+      "athlete_id": "CL11143",
+      "performance": "1.15",
+      "discipline": "Altura S12 FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Maria Martin Cuadrado",
+      "athlete_dob": "01/05/2012",
+      "athlete_id": "CL1089",
+      "performance": "1.15",
+      "discipline": "Altura S12 FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1330
+    },
+    {
+      "athlete_name": "Arlet Solana Vila",
+      "athlete_dob": "13/03/2012",
+      "athlete_id": "CL11154",
+      "performance": "1.10",
+      "discipline": "Altura S12 FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1369
+    },
+    {
+      "athlete_name": "Ada Nin Navas",
+      "athlete_dob": "24/10/2012",
+      "athlete_id": "CL1495",
+      "performance": "1.10",
+      "discipline": "Altura S12 FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1331
+    },
+    {
+      "athlete_name": "Berta Barber Gonzalez",
+      "athlete_dob": "22/01/2013",
+      "athlete_id": "CL7610",
+      "performance": "1.05",
+      "discipline": "Altura S12 FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1359
+    },
+    {
+      "athlete_name": "Carlota Tejero Clau",
+      "athlete_dob": "06/03/2012",
+      "athlete_id": "CL7258",
+      "performance": "1.00",
+      "discipline": "Altura S12 FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1352
+    },
+    {
+      "athlete_name": "201 (t) Alba Esteve Hostalot AF",
+      "athlete_dob": "10/11/2013",
+      "athlete_id": "CL4396",
+      "performance": "NP",
+      "discipline": "Altura S12 FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1335
+    },
+    {
+      "athlete_name": "211 (t) Lucia Martinez Perales AF",
+      "athlete_dob": "04/08/2012",
+      "athlete_id": "CL4343",
+      "performance": "NP",
+      "discipline": "Altura S12 FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "India Martin Cuadrado",
+      "athlete_dob": "04/04/2014",
+      "athlete_id": "CL7608",
+      "performance": "2.87",
+      "discipline": "Longitud S10 FEM. AL",
+      "wind": null,
+      "position": null,
       "internal_id": 1332
     },
     {
@@ -200,9 +940,9 @@
       "athlete_dob": "28/08/2009",
       "athlete_id": "CL94399",
       "performance": "16.55",
-      "discipline": "Disc (800 g)",
-      "raw_discipline_name": "Disco (800g) S16 FEM.",
+      "discipline": "Disco (800g) S16 FEM.",
       "wind": null,
+      "position": null,
       "internal_id": 1010
     },
     {
@@ -210,9 +950,9 @@
       "athlete_dob": "28/08/2009",
       "athlete_id": "CL94399",
       "performance": "18.41",
-      "discipline": "Disc (800 g)",
-      "raw_discipline_name": "Disco (800g) S16 FEM.",
+      "discipline": "Disco (800g) S16 FEM.",
       "wind": null,
+      "position": null,
       "internal_id": 1010
     },
     {
@@ -220,69 +960,69 @@
       "athlete_dob": "28/08/2009",
       "athlete_id": "CL94399",
       "performance": "18.49",
-      "discipline": "Disc (800 g)",
-      "raw_discipline_name": "Disco (800g) S16 FEM.",
+      "discipline": "Disco (800g) S16 FEM.",
       "wind": null,
+      "position": null,
       "internal_id": 1010
     },
     {
-      "athlete_name": "Lucia Marcos Perez",
+      "athlete_name": "Lucia Marcos Perez IF",
       "athlete_dob": "01/02/2010",
       "athlete_id": "CL3853",
       "performance": "11.32",
-      "discipline": "Disc (800 g)",
-      "raw_discipline_name": "Disco (800g) S14 FEM.",
+      "discipline": "Disco (800g) S14 FEM.",
       "wind": null,
+      "position": null,
       "internal_id": 1073
     },
     {
-      "athlete_name": "Lucia Marcos Perez",
+      "athlete_name": "Lucia Marcos Perez IF",
       "athlete_dob": "01/02/2010",
       "athlete_id": "CL3853",
       "performance": "11.58",
-      "discipline": "Disc (800 g)",
-      "raw_discipline_name": "Disco (800g) S14 FEM.",
+      "discipline": "Disco (800g) S14 FEM.",
       "wind": null,
+      "position": null,
       "internal_id": 1073
     },
     {
-      "athlete_name": "Lucia Marcos Perez",
+      "athlete_name": "Lucia Marcos Perez IF",
       "athlete_dob": "01/02/2010",
       "athlete_id": "CL3853",
       "performance": "12.98",
-      "discipline": "Disc (800 g)",
-      "raw_discipline_name": "Disco (800g) S14 FEM.",
+      "discipline": "Disco (800g) S14 FEM.",
       "wind": null,
+      "position": null,
       "internal_id": 1073
     },
     {
-      "athlete_name": "Lucia Marcos Perez",
+      "athlete_name": "Lucia Marcos Perez IF",
       "athlete_dob": "01/02/2010",
       "athlete_id": "CL3853",
       "performance": "11.43",
-      "discipline": "Disc (800 g)",
-      "raw_discipline_name": "Disco (800g) S14 FEM.",
+      "discipline": "Disco (800g) S14 FEM.",
       "wind": null,
+      "position": null,
       "internal_id": 1073
     },
     {
-      "athlete_name": "Lucia Marcos Perez",
+      "athlete_name": "Lucia Marcos Perez IF",
       "athlete_dob": "01/02/2010",
       "athlete_id": "CL3853",
       "performance": "12.21",
-      "discipline": "Disc (800 g)",
-      "raw_discipline_name": "Disco (800g) S14 FEM.",
+      "discipline": "Disco (800g) S14 FEM.",
       "wind": null,
+      "position": null,
       "internal_id": 1073
     },
     {
-      "athlete_name": "Lucia Marcos Perez",
+      "athlete_name": "Lucia Marcos Perez IF",
       "athlete_dob": "01/02/2010",
       "athlete_id": "CL3853",
       "performance": "13.98",
-      "discipline": "Disc (800 g)",
-      "raw_discipline_name": "Disco (800g) S14 FEM.",
+      "discipline": "Disco (800g) S14 FEM.",
       "wind": null,
+      "position": null,
       "internal_id": 1073
     },
     {
@@ -290,9 +1030,9 @@
       "athlete_dob": "06/03/2012",
       "athlete_id": "CL7258",
       "performance": "12.80",
-      "discipline": "Disc (600 g)",
-      "raw_discipline_name": "Disco (600g) S12 FEM.",
+      "discipline": "Disco (600g) S12 FEM.",
       "wind": null,
+      "position": null,
       "internal_id": 1352
     },
     {
@@ -300,9 +1040,9 @@
       "athlete_dob": "06/03/2012",
       "athlete_id": "CL7258",
       "performance": "14.58",
-      "discipline": "Disc (600 g)",
-      "raw_discipline_name": "Disco (600g) S12 FEM.",
+      "discipline": "Disco (600g) S12 FEM.",
       "wind": null,
+      "position": null,
       "internal_id": 1352
     },
     {
@@ -310,9 +1050,9 @@
       "athlete_dob": "06/03/2012",
       "athlete_id": "CL7258",
       "performance": "14.74",
-      "discipline": "Disc (600 g)",
-      "raw_discipline_name": "Disco (600g) S12 FEM.",
+      "discipline": "Disco (600g) S12 FEM.",
       "wind": null,
+      "position": null,
       "internal_id": 1352
     },
     {
@@ -320,9 +1060,9 @@
       "athlete_dob": "24/10/2012",
       "athlete_id": "CL1495",
       "performance": "14.20",
-      "discipline": "Disc (600 g)",
-      "raw_discipline_name": "Disco (600g) S12 FEM.",
+      "discipline": "Disco (600g) S12 FEM.",
       "wind": null,
+      "position": null,
       "internal_id": 1331
     },
     {
@@ -330,9 +1070,9 @@
       "athlete_dob": "24/10/2012",
       "athlete_id": "CL1495",
       "performance": "11.84",
-      "discipline": "Disc (600 g)",
-      "raw_discipline_name": "Disco (600g) S12 FEM.",
+      "discipline": "Disco (600g) S12 FEM.",
       "wind": null,
+      "position": null,
       "internal_id": 1331
     },
     {
@@ -340,9 +1080,9 @@
       "athlete_dob": "21/05/2012",
       "athlete_id": "CL11143",
       "performance": "11.94",
-      "discipline": "Disc (600 g)",
-      "raw_discipline_name": "Disco (600g) S12 FEM.",
+      "discipline": "Disco (600g) S12 FEM.",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -350,9 +1090,9 @@
       "athlete_dob": "21/05/2012",
       "athlete_id": "CL11143",
       "performance": "11.24",
-      "discipline": "Disc (600 g)",
-      "raw_discipline_name": "Disco (600g) S12 FEM.",
+      "discipline": "Disco (600g) S12 FEM.",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -360,9 +1100,9 @@
       "athlete_dob": "01/05/2012",
       "athlete_id": "CL1089",
       "performance": "10.71",
-      "discipline": "Disc (600 g)",
-      "raw_discipline_name": "Disco (600g) S12 FEM.",
+      "discipline": "Disco (600g) S12 FEM.",
       "wind": null,
+      "position": null,
       "internal_id": 1330
     },
     {
@@ -370,9 +1110,9 @@
       "athlete_dob": "01/05/2012",
       "athlete_id": "CL1089",
       "performance": "9.44",
-      "discipline": "Disc (600 g)",
-      "raw_discipline_name": "Disco (600g) S12 FEM.",
+      "discipline": "Disco (600g) S12 FEM.",
       "wind": null,
+      "position": null,
       "internal_id": 1330
     },
     {
@@ -380,10 +1120,60 @@
       "athlete_dob": "13/03/2012",
       "athlete_id": "CL11154",
       "performance": "10.18",
-      "discipline": "Disc (600 g)",
-      "raw_discipline_name": "Disco (600g) S12 FEM.",
+      "discipline": "Disco (600g) S12 FEM.",
       "wind": null,
+      "position": null,
       "internal_id": 1369
+    },
+    {
+      "athlete_name": "Tecla Guim Caceres",
+      "athlete_dob": "30/07/2006",
+      "athlete_id": "CL90509",
+      "performance": "17.08",
+      "discipline": "Disco (1 Kg) S18 FEM.",
+      "wind": null,
+      "position": null,
+      "internal_id": 843
+    },
+    {
+      "athlete_name": "Tecla Guim Caceres",
+      "athlete_dob": "30/07/2006",
+      "athlete_id": "CL90509",
+      "performance": "19.69",
+      "discipline": "Disco (1 Kg) S18 FEM.",
+      "wind": null,
+      "position": null,
+      "internal_id": 843
+    },
+    {
+      "athlete_name": "Tecla Guim Caceres",
+      "athlete_dob": "30/07/2006",
+      "athlete_id": "CL90509",
+      "performance": "18.09",
+      "discipline": "Disco (1 Kg) S18 FEM.",
+      "wind": null,
+      "position": null,
+      "internal_id": 843
+    },
+    {
+      "athlete_name": "Tecla Guim Caceres",
+      "athlete_dob": "30/07/2006",
+      "athlete_id": "CL90509",
+      "performance": "18.25",
+      "discipline": "Disco (1 Kg) S18 FEM.",
+      "wind": null,
+      "position": null,
+      "internal_id": 843
+    },
+    {
+      "athlete_name": "Tecla Guim Caceres",
+      "athlete_dob": "30/07/2006",
+      "athlete_id": "CL90509",
+      "performance": "18.89",
+      "discipline": "Disco (1 Kg) S18 FEM.",
+      "wind": null,
+      "position": null,
+      "internal_id": 843
     }
   ]
 }

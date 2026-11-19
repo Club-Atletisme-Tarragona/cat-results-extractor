@@ -1,28 +1,68 @@
 {
   "event_name": "Campionat de Catalunya de Clubs Màster Pista Coberta Masculins - Campionat de Catalunya de Clubs Màster Pista Coberta Masculins",
   "event_date": "09/01/2022",
-  "event_location": "Sabadell",
-  "total_results": 6,
+  "event_location": "Club                                                 Lic",
+  "total_results": 21,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2022/01/resultat-20220109-catclubsmasterpcsabadell.pdf",
   "results": [
     {
-      "athlete_name": "Josep Maria Mateo Sanz",
-      "athlete_dob": "17/11/1964",
-      "athlete_id": "CT19378",
-      "performance": "8.26",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m MASC. PC",
+      "athlete_name": "Gines Sanchez Perez",
+      "athlete_dob": "23/07/1969",
+      "athlete_id": "CL7169",
+      "performance": "1:08.68",
+      "discipline": "400m MASC. PC",
       "wind": null,
-      "internal_id": 343
+      "position": null,
+      "internal_id": 505
+    },
+    {
+      "athlete_name": "Jose Francisco Garcia Navarrete",
+      "athlete_dob": "24/09/1967",
+      "athlete_id": "CL3972",
+      "performance": "2:43.56",
+      "discipline": "800m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 5
+    },
+    {
+      "athlete_name": "Pedro Ortega Ridao",
+      "athlete_dob": "12/10/1977",
+      "athlete_id": "CL16079",
+      "performance": "4:51.78",
+      "discipline": "1.500m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 268
+    },
+    {
+      "athlete_name": "Jesus Gellida Albiol",
+      "athlete_dob": "21/06/1980",
+      "athlete_id": "CL3135",
+      "performance": "10:25.62",
+      "discipline": "3.000m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 772
+    },
+    {
+      "athlete_name": "61 Francisco Griñant Almagro M-70",
+      "athlete_dob": "04/08/1947",
+      "athlete_id": "CT18394",
+      "performance": "NP",
+      "discipline": "Perxa MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 326
     },
     {
       "athlete_name": "Jesus Fernando Montolio Alcon",
       "athlete_dob": "05/10/1970",
       "athlete_id": "CT16331",
       "performance": "5.08",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada MASC. PC",
+      "discipline": "Llargada MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 405
     },
     {
@@ -30,9 +70,9 @@
       "athlete_dob": "05/10/1970",
       "athlete_id": "CT16331",
       "performance": "5.21",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada MASC. PC",
+      "discipline": "Llargada MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 405
     },
     {
@@ -40,9 +80,9 @@
       "athlete_dob": "05/10/1970",
       "athlete_id": "CT16331",
       "performance": "5.38",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada MASC. PC",
+      "discipline": "Llargada MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 405
     },
     {
@@ -50,9 +90,9 @@
       "athlete_dob": "05/10/1970",
       "athlete_id": "CT16331",
       "performance": "4.96",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada MASC. PC",
+      "discipline": "Llargada MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 405
     },
     {
@@ -60,10 +100,120 @@
       "athlete_dob": "05/10/1970",
       "athlete_id": "CT16331",
       "performance": "3.57",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada MASC. PC",
+      "discipline": "Llargada MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 405
+    },
+    {
+      "athlete_name": "Ferran Tortosa Pradillo",
+      "athlete_dob": "02/10/1986",
+      "athlete_id": "CL13834",
+      "performance": "11.58",
+      "discipline": "Triple Salt MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 180
+    },
+    {
+      "athlete_name": "Ferran Tortosa Pradillo",
+      "athlete_dob": "02/10/1986",
+      "athlete_id": "CL13834",
+      "performance": "11.48",
+      "discipline": "Triple Salt MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 180
+    },
+    {
+      "athlete_name": "Luis Saez Perez",
+      "athlete_dob": "01/03/1949",
+      "athlete_id": "CT17487",
+      "performance": "8.13",
+      "discipline": "Pes 4 kg M70 MAS. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 304
+    },
+    {
+      "athlete_name": "Luis Saez Perez",
+      "athlete_dob": "01/03/1949",
+      "athlete_id": "CT17487",
+      "performance": "8.31",
+      "discipline": "Pes 4 kg M70 MAS. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 304
+    },
+    {
+      "athlete_name": "Luis Saez Perez",
+      "athlete_dob": "01/03/1949",
+      "athlete_id": "CT17487",
+      "performance": "8.42",
+      "discipline": "Pes 4 kg M70 MAS. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 304
+    },
+    {
+      "athlete_name": "Luis Saez Perez",
+      "athlete_dob": "01/03/1949",
+      "athlete_id": "CT17487",
+      "performance": "7.42",
+      "discipline": "Pes 4 kg M70 MAS. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 304
+    },
+    {
+      "athlete_name": "Luis Saez Perez",
+      "athlete_dob": "01/03/1949",
+      "athlete_id": "CT17487",
+      "performance": "8.06",
+      "discipline": "Pes 4 kg M70 MAS. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 304
+    },
+    {
+      "athlete_name": "Josep Maria Mateo Sanz",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "1:56.67",
+      "discipline": "4x200m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 343
+    },
+    {
+      "athlete_name": "Jesus Fernando Montolio Alcon",
+      "athlete_dob": "05/10/1970",
+      "athlete_id": "CT16331",
+      "performance": "1:56.67",
+      "discipline": "4x200m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 405
+    },
+    {
+      "athlete_name": "Josep Maria Puig Lara",
+      "athlete_dob": "30/11/1951",
+      "athlete_id": "CT27228",
+      "performance": "1:56.67",
+      "discipline": "4x200m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 637
+    },
+    {
+      "athlete_name": "Gines Sanchez Perez",
+      "athlete_dob": "23/07/1969",
+      "athlete_id": "CL7169",
+      "performance": "1:56.67",
+      "discipline": "4x200m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 505
     }
   ]
 }

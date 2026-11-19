@@ -1,18 +1,58 @@
 {
   "event_name": "Campionat de Catalunya Sub23 - Tarragona (Estadi Camp Clar), 9 junio 2019",
   "event_date": "09/06/2019",
-  "event_location": "Tarragona",
-  "total_results": 8,
+  "event_location": "Club                                             Lic",
+  "total_results": 12,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20190609-catsub23tarragona.pdf",
   "results": [
+    {
+      "athlete_name": "Xavier Ros Borrell",
+      "athlete_dob": "19/05/1998",
+      "athlete_id": "CL22779",
+      "performance": "1:59.90",
+      "discipline": "800m MASC. AL",
+      "wind": null,
+      "position": 6,
+      "internal_id": 439
+    },
+    {
+      "athlete_name": "Jan Sans Riola",
+      "athlete_dob": "23/10/1998",
+      "athlete_id": "CT22783",
+      "performance": "15.73",
+      "discipline": "110m tanques (1,067) MASC. AL",
+      "wind": "-2.1",
+      "position": null,
+      "internal_id": 435
+    },
+    {
+      "athlete_name": "Jan Sans Riola 4 5.5",
+      "athlete_dob": "23/10/1998",
+      "athlete_id": "CT22783",
+      "performance": "15.22",
+      "discipline": "110m tanques (1,067) MASC. AL",
+      "wind": "-1.5",
+      "position": null,
+      "internal_id": 435
+    },
     {
       "athlete_name": "Alicia Vazquez Domingo",
       "athlete_dob": "09/10/1999",
       "athlete_id": "CT23992",
-      "performance": "0:21:10.00",
-      "discipline": "10.000 metres marxa",
-      "raw_discipline_name": "10.000m Marxa MASC.",
-      "wind": null,
+      "performance": "16.35",
+      "discipline": "100m tanques (0,84) FEM. AL",
+      "wind": "-1.1",
+      "position": null,
+      "internal_id": 472
+    },
+    {
+      "athlete_name": "Alicia Vazquez Domingo",
+      "athlete_dob": "09/10/1999",
+      "athlete_id": "CT23992",
+      "performance": "16.11",
+      "discipline": "100m tanques (0,84) FEM. AL",
+      "wind": "-2.0",
+      "position": null,
       "internal_id": 472
     },
     {
@@ -20,9 +60,9 @@
       "athlete_dob": "09/10/1999",
       "athlete_id": "CT23992",
       "performance": "5.34",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada FEM. AL",
+      "discipline": "Llargada FEM. AL",
       "wind": "+1.2",
+      "position": 4,
       "internal_id": 472
     },
     {
@@ -30,9 +70,9 @@
       "athlete_dob": "09/10/1999",
       "athlete_id": "CT23992",
       "performance": "5.42",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada FEM. AL",
+      "discipline": "Llargada FEM. AL",
       "wind": "-0.2",
+      "position": 4,
       "internal_id": 472
     },
     {
@@ -40,9 +80,9 @@
       "athlete_dob": "09/10/1999",
       "athlete_id": "CT23992",
       "performance": "5.29",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada FEM. AL",
+      "discipline": "Llargada FEM. AL",
       "wind": "+1.1",
+      "position": 4,
       "internal_id": 472
     },
     {
@@ -50,9 +90,9 @@
       "athlete_dob": "09/10/1999",
       "athlete_id": "CT23992",
       "performance": "5.39",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada FEM. AL",
+      "discipline": "Llargada FEM. AL",
       "wind": "+0.2",
+      "position": 4,
       "internal_id": 472
     },
     {
@@ -60,9 +100,9 @@
       "athlete_dob": "17/01/1999",
       "athlete_id": "CL25668",
       "performance": "27.55",
-      "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "Disc (1kg) FEM.",
+      "discipline": "Disc (1 Kg) FEM.",
       "wind": null,
+      "position": 7,
       "internal_id": 476
     },
     {
@@ -70,9 +110,9 @@
       "athlete_dob": "17/01/1999",
       "athlete_id": "CL25668",
       "performance": "26.31",
-      "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "Disc (1kg) FEM.",
+      "discipline": "Disc (1 Kg) FEM.",
       "wind": null,
+      "position": 7,
       "internal_id": 476
     },
     {
@@ -80,9 +120,9 @@
       "athlete_dob": "17/01/1999",
       "athlete_id": "CL25668",
       "performance": "25.96",
-      "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "Disc (1kg) FEM.",
+      "discipline": "Disc (1 Kg) FEM.",
       "wind": null,
+      "position": 7,
       "internal_id": 476
     }
   ]

@@ -1,8 +1,8 @@
 {
   "event_name": "Jornada Final Campionat Catalunya Sub10",
   "event_date": "09/06/2018",
-  "event_location": "Castellar",
-  "total_results": 11,
+  "event_location": "Castellar del Vallés",
+  "total_results": 16,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20180609-catsub10finalcastellar.pdf",
   "results": [
     {
@@ -13,6 +13,7 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m S10 MASC. AL",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -23,7 +24,63 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m S10 MASC. AL",
       "wind": null,
+      "position": null,
       "internal_id": null
+    },
+    {
+      "athlete_name": "Eric De La Rosa Fortuny",
+      "athlete_dob": "17/04/2009",
+      "athlete_id": "CL87201",
+      "performance": "3:30.71",
+      "discipline": "1000 metres llisos",
+      "raw_discipline_name": "1.000m S10 MASC. AL",
+      "wind": null,
+      "position": 5,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Clara Ortiz De Landazuri Ontoso",
+      "athlete_dob": "04/12/2009",
+      "athlete_id": "CL86467",
+      "performance": "4:00.19",
+      "discipline": "1000 metres llisos",
+      "raw_discipline_name": "1.000m S10 FEM. AL",
+      "wind": null,
+      "position": 13,
+      "internal_id": 1022
+    },
+    {
+      "athlete_name": "Clara Ortiz De Landazuri Ontoso",
+      "athlete_dob": "04/12/2009",
+      "athlete_id": "CL86467",
+      "performance": "3.14",
+      "discipline": "Llargada",
+      "raw_discipline_name": "Llargada S10 FEM. AL",
+      "wind": null,
+      "position": 4,
+      "internal_id": 1022
+    },
+    {
+      "athlete_name": "Clara Ortiz De Landazuri Ontoso",
+      "athlete_dob": "04/12/2009",
+      "athlete_id": "CL86467",
+      "performance": "3.36",
+      "discipline": "Llargada",
+      "raw_discipline_name": "Llargada S10 FEM. AL",
+      "wind": null,
+      "position": 4,
+      "internal_id": 1022
+    },
+    {
+      "athlete_name": "Jeroni Flores Piñas",
+      "athlete_dob": "04/01/2009",
+      "athlete_id": "CL86460",
+      "performance": "1.15",
+      "discipline": "Alçada",
+      "raw_discipline_name": "Alçada S10 MASC. AL",
+      "wind": null,
+      "position": 3,
+      "internal_id": 1036
     },
     {
       "athlete_name": "Paco Lorenzo Valldosera",
@@ -33,6 +90,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada S10 MASC. AL",
       "wind": null,
+      "position": 4,
       "internal_id": null
     },
     {
@@ -43,6 +101,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada S10 MASC. AL",
       "wind": null,
+      "position": 4,
       "internal_id": null
     },
     {
@@ -53,6 +112,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada S10 MASC. AL",
       "wind": null,
+      "position": 7,
       "internal_id": null
     },
     {
@@ -63,6 +123,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada S10 MASC. AL",
       "wind": null,
+      "position": 7,
       "internal_id": null
     },
     {
@@ -73,6 +134,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada S10 MASC. AL",
       "wind": null,
+      "position": 10,
       "internal_id": 1036
     },
     {
@@ -83,6 +145,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada S10 MASC. AL",
       "wind": null,
+      "position": 10,
       "internal_id": 1036
     },
     {
@@ -93,6 +156,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada S10 MASC. AL",
       "wind": null,
+      "position": 10,
       "internal_id": 1036
     },
     {
@@ -103,6 +167,7 @@
       "discipline": "1000 metres marxa",
       "raw_discipline_name": "1.000m Marxa S10 FEM. en pista",
       "wind": null,
+      "position": 4,
       "internal_id": null
     },
     {
@@ -113,6 +178,7 @@
       "discipline": "1000 metres marxa",
       "raw_discipline_name": "1.000m Marxa s10 MASC. en pista",
       "wind": null,
+      "position": 1,
       "internal_id": null
     }
   ]

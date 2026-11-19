@@ -2,7 +2,7 @@
   "event_name": "Campionat Catalunya Clubs Sub10 Masculí",
   "event_date": "13/05/2018",
   "event_location": "El Prat de Llobregat",
-  "total_results": 11,
+  "total_results": 13,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20180513-catclubssub10elprat.pdf",
   "results": [
     {
@@ -13,6 +13,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada MASC. AL",
       "wind": null,
+      "position": null,
       "internal_id": 1036
     },
     {
@@ -23,6 +24,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada MASC. AL",
       "wind": null,
+      "position": null,
       "internal_id": 1036
     },
     {
@@ -33,6 +35,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada MASC. AL",
       "wind": null,
+      "position": null,
       "internal_id": 1036
     },
     {
@@ -43,6 +46,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada MASC. AL",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -53,6 +57,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada MASC. AL",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -63,16 +68,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada MASC. AL",
       "wind": null,
-      "internal_id": null
-    },
-    {
-      "athlete_name": "Quimey Izaga Deriu",
-      "athlete_dob": "22/08/2009",
-      "athlete_id": "CL86465",
-      "performance": "5:24.00",
-      "discipline": "1000 metres marxa",
-      "raw_discipline_name": "1.000m Marxa MASC. en pista",
-      "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -83,6 +79,7 @@
       "discipline": "Alçada",
       "raw_discipline_name": "Alçada FEM. AL",
       "wind": null,
+      "position": null,
       "internal_id": 1030
     },
     {
@@ -93,6 +90,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada FEM. AL",
       "wind": null,
+      "position": null,
       "internal_id": 1022
     },
     {
@@ -103,6 +101,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada FEM. AL",
       "wind": null,
+      "position": null,
       "internal_id": 1022
     },
     {
@@ -113,7 +112,41 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada FEM. AL",
       "wind": null,
+      "position": null,
       "internal_id": 1022
+    },
+    {
+      "athlete_name": "Claudia Guim Caceres",
+      "athlete_dob": "01/09/2009",
+      "athlete_id": "CL90835",
+      "performance": "12.95",
+      "discipline": "Llargada",
+      "raw_discipline_name": "Llargada FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1007
+    },
+    {
+      "athlete_name": "Claudia Guim Caceres",
+      "athlete_dob": "01/09/2009",
+      "athlete_id": "CL90835",
+      "performance": "7.94",
+      "discipline": "Llargada",
+      "raw_discipline_name": "Llargada FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1007
+    },
+    {
+      "athlete_name": "Claudia Guim Caceres",
+      "athlete_dob": "01/09/2009",
+      "athlete_id": "CL90835",
+      "performance": "13.16",
+      "discipline": "Llargada",
+      "raw_discipline_name": "Llargada FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1007
     }
   ]
 }

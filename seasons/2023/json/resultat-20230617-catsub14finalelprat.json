@@ -2,17 +2,277 @@
   "event_name": "Jornada Final Campionat de Catalunya Sub14",
   "event_date": "17/06/2023",
   "event_location": "El Prat de Llobregat",
-  "total_results": 1,
+  "total_results": 27,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2023/06/resultat-20230617-catsub14finalelprat.pdf",
   "results": [
+    {
+      "athlete_name": "Iker Rodriguez Barrios",
+      "athlete_dob": "11/08/2010",
+      "athlete_id": "CL11327",
+      "performance": "11.08",
+      "discipline": "80m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1069
+    },
+    {
+      "athlete_name": "Iker Rodriguez Barrios",
+      "athlete_dob": "11/08/2010",
+      "athlete_id": "CL11327",
+      "performance": "20.75",
+      "discipline": "150m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1069
+    },
+    {
+      "athlete_name": "Pau Esteve Hostalot",
+      "athlete_dob": "27/08/2010",
+      "athlete_id": "CL94383",
+      "performance": "14.67",
+      "discipline": "80m tanques (0,84) MASC. AL",
+      "wind": "-3.0",
+      "position": null,
+      "internal_id": 1055
+    },
+    {
+      "athlete_name": "Pau Esteve Hostalot",
+      "athlete_dob": "27/08/2010",
+      "athlete_id": "CL94383",
+      "performance": "4.96",
+      "discipline": "Llargada MASC. AL",
+      "wind": "-1.9",
+      "position": 4,
+      "internal_id": 1055
+    },
+    {
+      "athlete_name": "Pau Esteve Hostalot",
+      "athlete_dob": "27/08/2010",
+      "athlete_id": "CL94383",
+      "performance": "5.17",
+      "discipline": "Llargada MASC. AL",
+      "wind": "+0.0",
+      "position": 4,
+      "internal_id": 1055
+    },
+    {
+      "athlete_name": "Pau Esteve Hostalot",
+      "athlete_dob": "27/08/2010",
+      "athlete_id": "CL94383",
+      "performance": "4.99",
+      "discipline": "Llargada MASC. AL",
+      "wind": "+2.8",
+      "position": 4,
+      "internal_id": 1055
+    },
+    {
+      "athlete_name": "Pau Esteve Hostalot",
+      "athlete_dob": "27/08/2010",
+      "athlete_id": "CL94383",
+      "performance": "4.93",
+      "discipline": "Llargada MASC. AL",
+      "wind": "+0.0",
+      "position": 4,
+      "internal_id": 1055
+    },
+    {
+      "athlete_name": "Pau Esteve Hostalot",
+      "athlete_dob": "27/08/2010",
+      "athlete_id": "CL94383",
+      "performance": "4.84",
+      "discipline": "Llargada MASC. AL",
+      "wind": "+0.0",
+      "position": 4,
+      "internal_id": 1055
+    },
+    {
+      "athlete_name": "Pau Esteve Hostalot",
+      "athlete_dob": "27/08/2010",
+      "athlete_id": "CL94383",
+      "performance": "5.12",
+      "discipline": "Llargada MASC. AL",
+      "wind": "+1.4",
+      "position": 4,
+      "internal_id": 1055
+    },
+    {
+      "athlete_name": "Noa Anton Paterna",
+      "athlete_dob": "20/01/2010",
+      "athlete_id": "CL90450",
+      "performance": "10.90",
+      "discipline": "80m FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1016
+    },
+    {
+      "athlete_name": "Noa Anton Paterna",
+      "athlete_dob": "20/01/2010",
+      "athlete_id": "CL90450",
+      "performance": "10.79",
+      "discipline": "80m FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1016
+    },
+    {
+      "athlete_name": "Noa Anton Paterna",
+      "athlete_dob": "20/01/2010",
+      "athlete_id": "CL90450",
+      "performance": "21.69",
+      "discipline": "150m FEM AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1016
+    },
+    {
+      "athlete_name": "Nora Montolio Amaro",
+      "athlete_dob": "05/02/2010",
+      "athlete_id": "CL90841",
+      "performance": "16.83",
+      "discipline": "80m tanques (0,762)",
+      "wind": "-2.9",
+      "position": null,
+      "internal_id": 1089
+    },
+    {
+      "athlete_name": "Nora Montolio Amaro",
+      "athlete_dob": "05/02/2010",
+      "athlete_id": "CL90841",
+      "performance": "3:25.09",
+      "discipline": "1.000m Obst. FEM",
+      "wind": null,
+      "position": 3,
+      "internal_id": 1089
+    },
+    {
+      "athlete_name": "Ona Sansa Garcia",
+      "athlete_dob": "31/05/2010",
+      "athlete_id": "CL90844",
+      "performance": "2.80",
+      "discipline": "Perxa FEM. AL",
+      "wind": null,
+      "position": 2,
+      "internal_id": 1015
+    },
+    {
+      "athlete_name": "Claudia Botanch Rius",
+      "athlete_dob": "02/01/2011",
+      "athlete_id": "CL7250",
+      "performance": "4.64",
+      "discipline": "Llargada FEM. AL",
+      "wind": "-0.3",
+      "position": 4,
+      "internal_id": 1358
+    },
+    {
+      "athlete_name": "Claudia Botanch Rius",
+      "athlete_dob": "02/01/2011",
+      "athlete_id": "CL7250",
+      "performance": "4.89",
+      "discipline": "Llargada FEM. AL",
+      "wind": "+0.6",
+      "position": 4,
+      "internal_id": 1358
+    },
+    {
+      "athlete_name": "Claudia Botanch Rius",
+      "athlete_dob": "02/01/2011",
+      "athlete_id": "CL7250",
+      "performance": "4.84",
+      "discipline": "Llargada FEM. AL",
+      "wind": "+2.1",
+      "position": 4,
+      "internal_id": 1358
+    },
+    {
+      "athlete_name": "Claudia Botanch Rius",
+      "athlete_dob": "02/01/2011",
+      "athlete_id": "CL7250",
+      "performance": "4.56",
+      "discipline": "Llargada FEM. AL",
+      "wind": "+3.5",
+      "position": 4,
+      "internal_id": 1358
+    },
+    {
+      "athlete_name": "Claudia Botanch Rius",
+      "athlete_dob": "02/01/2011",
+      "athlete_id": "CL7250",
+      "performance": "4.68",
+      "discipline": "Llargada FEM. AL",
+      "wind": "+2.8",
+      "position": 4,
+      "internal_id": 1358
+    },
+    {
+      "athlete_name": "Claudia Botanch Rius",
+      "athlete_dob": "02/01/2011",
+      "athlete_id": "CL7250",
+      "performance": "4.57",
+      "discipline": "Llargada FEM. AL",
+      "wind": "+1.4",
+      "position": 4,
+      "internal_id": 1358
+    },
+    {
+      "athlete_name": "Ona Sansa Garcia",
+      "athlete_dob": "31/05/2010",
+      "athlete_id": "CL90844",
+      "performance": "4.24",
+      "discipline": "Llargada FEM. AL",
+      "wind": "+0.2",
+      "position": 8,
+      "internal_id": 1015
+    },
+    {
+      "athlete_name": "Ona Sansa Garcia",
+      "athlete_dob": "31/05/2010",
+      "athlete_id": "CL90844",
+      "performance": "4.63",
+      "discipline": "Llargada FEM. AL",
+      "wind": "+4.1",
+      "position": 8,
+      "internal_id": 1015
+    },
+    {
+      "athlete_name": "Alba Guijarro Rom",
+      "athlete_dob": "08/07/2010",
+      "athlete_id": "CL90465",
+      "performance": "4.19",
+      "discipline": "Llargada FEM. AL",
+      "wind": "+2.7",
+      "position": 11,
+      "internal_id": 1074
+    },
+    {
+      "athlete_name": "Alba Guijarro Rom",
+      "athlete_dob": "08/07/2010",
+      "athlete_id": "CL90465",
+      "performance": "4.39",
+      "discipline": "Llargada FEM. AL",
+      "wind": "+2.3",
+      "position": 11,
+      "internal_id": 1074
+    },
+    {
+      "athlete_name": "Alba Guijarro Rom",
+      "athlete_dob": "08/07/2010",
+      "athlete_id": "CL90465",
+      "performance": "4.43",
+      "discipline": "Llargada FEM. AL",
+      "wind": "+4.2",
+      "position": 11,
+      "internal_id": 1074
+    },
     {
       "athlete_name": "Paula Diez Plasencia",
       "athlete_dob": "15/11/2010",
       "athlete_id": "CL90832",
       "performance": "18:21.26",
-      "discipline": "3000 metres marxa",
-      "raw_discipline_name": "3.000m Marxa FEM. en pista",
+      "discipline": "3.000m Marxa FEM. en pista",
       "wind": null,
+      "position": 11,
       "internal_id": null
     }
   ]

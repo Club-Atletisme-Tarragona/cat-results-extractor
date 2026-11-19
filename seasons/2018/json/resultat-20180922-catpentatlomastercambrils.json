@@ -2,9 +2,42 @@
   "event_name": "Campionat Catalunya Pentatló Màster",
   "event_date": "22/09/2018",
   "event_location": "Cambrils",
-  "total_results": 7,
+  "total_results": 20,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20180922-catpentatlomastercambrils.pdf",
   "results": [
+    {
+      "athlete_name": "Juan Carlos Herrera Alcaide",
+      "athlete_dob": "31/01/1973",
+      "athlete_id": "CT25152",
+      "performance": "5.80",
+      "discipline": "Llargada",
+      "raw_discipline_name": "LONGITUD M45 MASC. PENTATHLON VET 35-49",
+      "wind": "+2.5",
+      "position": null,
+      "internal_id": 518
+    },
+    {
+      "athlete_name": "Juan Carlos Herrera Alcaide",
+      "athlete_dob": "31/01/1973",
+      "athlete_id": "CT25152",
+      "performance": "5.39",
+      "discipline": "Llargada",
+      "raw_discipline_name": "LONGITUD M45 MASC. PENTATHLON VET 35-49",
+      "wind": "+2.1",
+      "position": null,
+      "internal_id": 518
+    },
+    {
+      "athlete_name": "Juan Carlos Herrera Alcaide",
+      "athlete_dob": "31/01/1973",
+      "athlete_id": "CT25152",
+      "performance": "5.54",
+      "discipline": "Llargada",
+      "raw_discipline_name": "LONGITUD M45 MASC. PENTATHLON VET 35-49",
+      "wind": "+2.8",
+      "position": null,
+      "internal_id": 518
+    },
     {
       "athlete_name": "Juan Carlos Herrera Alcaide",
       "athlete_dob": "31/01/1973",
@@ -13,6 +46,7 @@
       "discipline": "Javelina (800 g)",
       "raw_discipline_name": "JABALINA (800 GR) M45 MASC. ABS PENT VET 35-49",
       "wind": null,
+      "position": null,
       "internal_id": 518
     },
     {
@@ -23,6 +57,7 @@
       "discipline": "Javelina (800 g)",
       "raw_discipline_name": "JABALINA (800 GR) M45 MASC. ABS PENT VET 35-49",
       "wind": null,
+      "position": null,
       "internal_id": 518
     },
     {
@@ -33,6 +68,7 @@
       "discipline": "Javelina (800 g)",
       "raw_discipline_name": "JABALINA (800 GR) M45 MASC. ABS PENT VET 35-49",
       "wind": null,
+      "position": null,
       "internal_id": 518
     },
     {
@@ -41,8 +77,9 @@
       "athlete_id": "CT25152",
       "performance": "22.92",
       "discipline": "Disc (2 Kg)",
-      "raw_discipline_name": "DISCO (2 KG) M45 MASC. ABS PENTATHLON VET 35-49",
+      "raw_discipline_name": "DISCO (2 Kg) M45 MASC. ABS PENTATHLON VET 35-49",
       "wind": null,
+      "position": null,
       "internal_id": 518
     },
     {
@@ -51,8 +88,9 @@
       "athlete_id": "CT25152",
       "performance": "25.98",
       "discipline": "Disc (2 Kg)",
-      "raw_discipline_name": "DISCO (2 KG) M45 MASC. ABS PENTATHLON VET 35-49",
+      "raw_discipline_name": "DISCO (2 Kg) M45 MASC. ABS PENTATHLON VET 35-49",
       "wind": null,
+      "position": null,
       "internal_id": 518
     },
     {
@@ -61,8 +99,9 @@
       "athlete_id": "CT25152",
       "performance": "27.29",
       "discipline": "Disc (2 Kg)",
-      "raw_discipline_name": "DISCO (2 KG) M45 MASC. ABS PENTATHLON VET 35-49",
+      "raw_discipline_name": "DISCO (2 Kg) M45 MASC. ABS PENTATHLON VET 35-49",
       "wind": null,
+      "position": null,
       "internal_id": 518
     },
     {
@@ -71,9 +110,120 @@
       "athlete_id": "CT25152",
       "performance": "35.40",
       "discipline": "Disc (2 Kg)",
-      "raw_discipline_name": "DISCO (2 KG) M45 MASC. ABS PENTATHLON VET 35-49",
+      "raw_discipline_name": "DISCO (2 Kg) M45 MASC. ABS PENTATHLON VET 35-49",
       "wind": null,
+      "position": null,
       "internal_id": 518
+    },
+    {
+      "athlete_name": "Josep Maria Mateo Sanz",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "4.89",
+      "discipline": "Llargada",
+      "raw_discipline_name": "LONGITUD M50 MASC. PENTATHLON VET 50-59",
+      "wind": "+1.9",
+      "position": null,
+      "internal_id": 343
+    },
+    {
+      "athlete_name": "Josep Maria Mateo Sanz",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "5.03",
+      "discipline": "Llargada",
+      "raw_discipline_name": "LONGITUD M50 MASC. PENTATHLON VET 50-59",
+      "wind": "+2.5",
+      "position": null,
+      "internal_id": 343
+    },
+    {
+      "athlete_name": "Josep Maria Mateo Sanz",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "23.86",
+      "discipline": "Javelina (700 g)",
+      "raw_discipline_name": "Jabalina (700g) M50 MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 343
+    },
+    {
+      "athlete_name": "Josep Maria Mateo Sanz",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "25.94",
+      "discipline": "Javelina (700 g)",
+      "raw_discipline_name": "Jabalina (700g) M50 MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 343
+    },
+    {
+      "athlete_name": "Josep Maria Mateo Sanz",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "26.78",
+      "discipline": "Javelina (700 g)",
+      "raw_discipline_name": "Jabalina (700g) M50 MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 343
+    },
+    {
+      "athlete_name": "Josep Maria Mateo Sanz",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "26.74",
+      "discipline": "Javelina (700 g)",
+      "raw_discipline_name": "Jabalina (700g) M50 MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 343
+    },
+    {
+      "athlete_name": "Josep Maria Mateo Sanz",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "21.85",
+      "discipline": "Disc (1,5 Kg)",
+      "raw_discipline_name": "Disco (1,5 Kg) M50 MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 343
+    },
+    {
+      "athlete_name": "Josep Maria Mateo Sanz",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "23.65",
+      "discipline": "Disc (1,5 Kg)",
+      "raw_discipline_name": "Disco (1,5 Kg) M50 MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 343
+    },
+    {
+      "athlete_name": "Josep Maria Mateo Sanz",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "23.43",
+      "discipline": "Disc (1,5 Kg)",
+      "raw_discipline_name": "Disco (1,5 Kg) M50 MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 343
+    },
+    {
+      "athlete_name": "Josep Maria Mateo Sanz",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "41.97",
+      "discipline": "Disc (1,5 Kg)",
+      "raw_discipline_name": "Disco (1,5 Kg) M50 MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 343
     }
   ]
 }

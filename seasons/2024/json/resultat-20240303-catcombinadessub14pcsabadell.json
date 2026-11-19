@@ -1,18 +1,108 @@
 {
   "event_name": "Campionat Catalunya Sub14 de Proves Combinades en pista coberta - Sabadell (Pista coberta de Catalunya), 3 marzo 2024",
   "event_date": "03/03/2024",
-  "event_location": "Sabadell",
-  "total_results": 4,
+  "event_location": "Club                                              Lic                       Acum.",
+  "total_results": 13,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2024/03/resultat-20240303-catcombinadessub14pcsabadell.pdf",
   "results": [
+    {
+      "athlete_name": "Marc Marti Fernandez",
+      "athlete_dob": "10/04/2011",
+      "athlete_id": "CL94395",
+      "performance": "3.89",
+      "discipline": "Llargada SUB14 MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1108
+    },
+    {
+      "athlete_name": "Marc Marti Fernandez",
+      "athlete_dob": "10/04/2011",
+      "athlete_id": "CL94395",
+      "performance": "4.04",
+      "discipline": "Llargada SUB14 MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1108
+    },
+    {
+      "athlete_name": "Marc Marti Fernandez",
+      "athlete_dob": "10/04/2011",
+      "athlete_id": "CL94395",
+      "performance": "3.73",
+      "discipline": "Llargada SUB14 MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1108
+    },
+    {
+      "athlete_name": "Marc Marti Fernandez",
+      "athlete_dob": "10/04/2011",
+      "athlete_id": "CL94395",
+      "performance": "7.12",
+      "discipline": "Pes (3 Kg) SUB14 MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1108
+    },
+    {
+      "athlete_name": "Marc Marti Fernandez",
+      "athlete_dob": "10/04/2011",
+      "athlete_id": "CL94395",
+      "performance": "7.29",
+      "discipline": "Pes (3 Kg) SUB14 MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1108
+    },
+    {
+      "athlete_name": "Marc Marti Fernandez",
+      "athlete_dob": "10/04/2011",
+      "athlete_id": "CL94395",
+      "performance": "7.52",
+      "discipline": "Pes (3 Kg) SUB14 MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1108
+    },
+    {
+      "athlete_name": "Marc Marti Fernandez",
+      "athlete_dob": "10/04/2011",
+      "athlete_id": "CL94395",
+      "performance": "1.46",
+      "discipline": "Alçada SUB14 MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1108
+    },
+    {
+      "athlete_name": "447 (t) Cessar Aina Preciado Foreman",
+      "athlete_dob": "29/06/2011",
+      "athlete_id": "CL15333",
+      "performance": "NP",
+      "discipline": "Alçada SUB14 MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1066
+    },
+    {
+      "athlete_name": "Claudia Botanch Rius",
+      "athlete_dob": "02/01/2011",
+      "athlete_id": "CL7250",
+      "performance": "1.40",
+      "discipline": "Alçada SUB14 FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1358
+    },
     {
       "athlete_name": "Claudia Botanch Rius",
       "athlete_dob": "02/01/2011",
       "athlete_id": "CL7250",
       "performance": "6.26",
-      "discipline": "Pes (3 Kg)",
-      "raw_discipline_name": "Pes (3kg) SUB14 FEM. PC",
+      "discipline": "Pes (3 Kg) SUB14 FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 1358
     },
     {
@@ -20,9 +110,9 @@
       "athlete_dob": "02/01/2011",
       "athlete_id": "CL7250",
       "performance": "6.68",
-      "discipline": "Pes (3 Kg)",
-      "raw_discipline_name": "Pes (3kg) SUB14 FEM. PC",
+      "discipline": "Pes (3 Kg) SUB14 FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 1358
     },
     {
@@ -30,9 +120,9 @@
       "athlete_dob": "02/01/2011",
       "athlete_id": "CL7250",
       "performance": "4.52",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada SUB14 FEM. PC",
+      "discipline": "Llargada SUB14 FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 1358
     },
     {
@@ -40,9 +130,9 @@
       "athlete_dob": "02/01/2011",
       "athlete_id": "CL7250",
       "performance": "4.49",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada SUB14 FEM. PC",
+      "discipline": "Llargada SUB14 FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 1358
     }
   ]

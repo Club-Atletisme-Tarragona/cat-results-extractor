@@ -1,18 +1,118 @@
 {
   "event_name": "Control de concursos sub10 - Pista de Atletismo de Camp Clar, 10 febrero 2024",
   "event_date": "10/02/2024",
-  "event_location": "Camp Clar",
-  "total_results": 44,
+  "event_location": "Pista de Atletismo de Camp Clar",
+  "total_results": 80,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2024/02/resultat-20240210-controlconcursossub10tarragona.pdf",
   "results": [
+    {
+      "athlete_name": "Blai Lligadas Turon",
+      "athlete_dob": "11/03/2015",
+      "athlete_id": "CL11069",
+      "performance": "3.10",
+      "discipline": "Longitud MASC. AL S10",
+      "wind": null,
+      "position": null,
+      "internal_id": 1338
+    },
+    {
+      "athlete_name": "Blai Lligadas Turon",
+      "athlete_dob": "11/03/2015",
+      "athlete_id": "CL11069",
+      "performance": "3.21",
+      "discipline": "Longitud MASC. AL S10",
+      "wind": null,
+      "position": null,
+      "internal_id": 1338
+    },
+    {
+      "athlete_name": "Olivier Casas Muiño",
+      "athlete_dob": "10/08/2015",
+      "athlete_id": "CL11597",
+      "performance": "2.85",
+      "discipline": "Longitud MASC. AL S10",
+      "wind": null,
+      "position": null,
+      "internal_id": 1373
+    },
+    {
+      "athlete_name": "Teo Pou Fonts",
+      "athlete_dob": "09/01/2015",
+      "athlete_id": "CL14903",
+      "performance": "2.82",
+      "discipline": "Longitud MASC. AL S10",
+      "wind": null,
+      "position": null,
+      "internal_id": 1377
+    },
+    {
+      "athlete_name": "Oriol Gaya Valles",
+      "athlete_dob": "26/02/2015",
+      "athlete_id": "CL14915",
+      "performance": "2.81",
+      "discipline": "Longitud MASC. AL S10",
+      "wind": null,
+      "position": null,
+      "internal_id": 1395
+    },
+    {
+      "athlete_name": "Jose Angel Masi Urzua",
+      "athlete_dob": "25/02/2015",
+      "athlete_id": "CL15467",
+      "performance": "2.70",
+      "discipline": "Longitud MASC. AL S10",
+      "wind": null,
+      "position": null,
+      "internal_id": 1389
+    },
+    {
+      "athlete_name": "Bruno Jimenez Garcia",
+      "athlete_dob": "14/02/2016",
+      "athlete_id": "CL15063",
+      "performance": "2.50",
+      "discipline": "Longitud MASC. AL S10",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Marti Mateu Montull",
+      "athlete_dob": "13/08/2016",
+      "athlete_id": "CL14916",
+      "performance": "2.32",
+      "discipline": "Longitud MASC. AL S10",
+      "wind": null,
+      "position": null,
+      "internal_id": 1353
+    },
+    {
+      "athlete_name": "Sergi Aguza Piqueras",
+      "athlete_dob": "21/04/2016",
+      "athlete_id": "CL15055",
+      "performance": "2.27",
+      "discipline": "Longitud MASC. AL S10",
+      "wind": null,
+      "position": null,
+      "internal_id": 1355
+    },
+    {
+      "athlete_name": "Pau Llado Aparicio",
+      "athlete_dob": "17/12/2015",
+      "athlete_id": "CL11065",
+      "performance": "1.55",
+      "discipline": "Longitud MASC. AL S10",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
     {
       "athlete_name": "Teo Pou Fonts",
       "athlete_dob": "09/01/2015",
       "athlete_id": "CL14903",
       "performance": "4.14",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) MASC. AL S10",
+      "discipline": "Peso (2 Kg) MASC. AL S10",
       "wind": null,
+      "position": null,
       "internal_id": 1377
     },
     {
@@ -20,9 +120,9 @@
       "athlete_dob": "09/01/2015",
       "athlete_id": "CL14903",
       "performance": "3.99",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) MASC. AL S10",
+      "discipline": "Peso (2 Kg) MASC. AL S10",
       "wind": null,
+      "position": null,
       "internal_id": 1377
     },
     {
@@ -30,9 +130,9 @@
       "athlete_dob": "09/01/2015",
       "athlete_id": "CL14903",
       "performance": "4.22",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) MASC. AL S10",
+      "discipline": "Peso (2 Kg) MASC. AL S10",
       "wind": null,
+      "position": null,
       "internal_id": 1377
     },
     {
@@ -40,9 +140,9 @@
       "athlete_dob": "10/08/2015",
       "athlete_id": "CL11597",
       "performance": "4.14",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) MASC. AL S10",
+      "discipline": "Peso (2 Kg) MASC. AL S10",
       "wind": null,
+      "position": null,
       "internal_id": 1373
     },
     {
@@ -50,9 +150,9 @@
       "athlete_dob": "10/08/2015",
       "athlete_id": "CL11597",
       "performance": "3.30",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) MASC. AL S10",
+      "discipline": "Peso (2 Kg) MASC. AL S10",
       "wind": null,
+      "position": null,
       "internal_id": 1373
     },
     {
@@ -60,9 +160,9 @@
       "athlete_dob": "11/03/2015",
       "athlete_id": "CL11069",
       "performance": "3.36",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) MASC. AL S10",
+      "discipline": "Peso (2 Kg) MASC. AL S10",
       "wind": null,
+      "position": null,
       "internal_id": 1338
     },
     {
@@ -70,9 +170,9 @@
       "athlete_dob": "11/03/2015",
       "athlete_id": "CL11069",
       "performance": "4.00",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) MASC. AL S10",
+      "discipline": "Peso (2 Kg) MASC. AL S10",
       "wind": null,
+      "position": null,
       "internal_id": 1338
     },
     {
@@ -80,9 +180,9 @@
       "athlete_dob": "11/03/2015",
       "athlete_id": "CL11069",
       "performance": "3.99",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) MASC. AL S10",
+      "discipline": "Peso (2 Kg) MASC. AL S10",
       "wind": null,
+      "position": null,
       "internal_id": 1338
     },
     {
@@ -90,9 +190,9 @@
       "athlete_dob": "25/02/2015",
       "athlete_id": "CL15467",
       "performance": "3.49",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) MASC. AL S10",
+      "discipline": "Peso (2 Kg) MASC. AL S10",
       "wind": null,
+      "position": null,
       "internal_id": 1389
     },
     {
@@ -100,9 +200,9 @@
       "athlete_dob": "25/02/2015",
       "athlete_id": "CL15467",
       "performance": "3.98",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) MASC. AL S10",
+      "discipline": "Peso (2 Kg) MASC. AL S10",
       "wind": null,
+      "position": null,
       "internal_id": 1389
     },
     {
@@ -110,9 +210,9 @@
       "athlete_dob": "26/02/2015",
       "athlete_id": "CL14915",
       "performance": "3.74",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) MASC. AL S10",
+      "discipline": "Peso (2 Kg) MASC. AL S10",
       "wind": null,
+      "position": null,
       "internal_id": 1395
     },
     {
@@ -120,9 +220,9 @@
       "athlete_dob": "26/02/2015",
       "athlete_id": "CL14915",
       "performance": "3.42",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) MASC. AL S10",
+      "discipline": "Peso (2 Kg) MASC. AL S10",
       "wind": null,
+      "position": null,
       "internal_id": 1395
     },
     {
@@ -130,9 +230,9 @@
       "athlete_dob": "09/01/2015",
       "athlete_id": "CL14903",
       "performance": "21.21",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "Jabalina Vortex MASC. S10",
+      "discipline": "Jabalina Vortex MASC. S10",
       "wind": null,
+      "position": null,
       "internal_id": 1377
     },
     {
@@ -140,9 +240,9 @@
       "athlete_dob": "09/01/2015",
       "athlete_id": "CL14903",
       "performance": "22.49",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "Jabalina Vortex MASC. S10",
+      "discipline": "Jabalina Vortex MASC. S10",
       "wind": null,
+      "position": null,
       "internal_id": 1377
     },
     {
@@ -150,9 +250,9 @@
       "athlete_dob": "09/01/2015",
       "athlete_id": "CL14903",
       "performance": "23.49",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "Jabalina Vortex MASC. S10",
+      "discipline": "Jabalina Vortex MASC. S10",
       "wind": null,
+      "position": null,
       "internal_id": 1377
     },
     {
@@ -160,9 +260,9 @@
       "athlete_dob": "25/02/2015",
       "athlete_id": "CL15467",
       "performance": "20.66",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "Jabalina Vortex MASC. S10",
+      "discipline": "Jabalina Vortex MASC. S10",
       "wind": null,
+      "position": null,
       "internal_id": 1389
     },
     {
@@ -170,9 +270,9 @@
       "athlete_dob": "25/02/2015",
       "athlete_id": "CL15467",
       "performance": "19.62",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "Jabalina Vortex MASC. S10",
+      "discipline": "Jabalina Vortex MASC. S10",
       "wind": null,
+      "position": null,
       "internal_id": 1389
     },
     {
@@ -180,9 +280,9 @@
       "athlete_dob": "11/03/2015",
       "athlete_id": "CL11069",
       "performance": "20.01",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "Jabalina Vortex MASC. S10",
+      "discipline": "Jabalina Vortex MASC. S10",
       "wind": null,
+      "position": null,
       "internal_id": 1338
     },
     {
@@ -190,9 +290,9 @@
       "athlete_dob": "11/03/2015",
       "athlete_id": "CL11069",
       "performance": "18.72",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "Jabalina Vortex MASC. S10",
+      "discipline": "Jabalina Vortex MASC. S10",
       "wind": null,
+      "position": null,
       "internal_id": 1338
     },
     {
@@ -200,9 +300,9 @@
       "athlete_dob": "11/03/2015",
       "athlete_id": "CL11069",
       "performance": "19.62",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "Jabalina Vortex MASC. S10",
+      "discipline": "Jabalina Vortex MASC. S10",
       "wind": null,
+      "position": null,
       "internal_id": 1338
     },
     {
@@ -210,9 +310,9 @@
       "athlete_dob": "17/12/2015",
       "athlete_id": "CL11065",
       "performance": "10.14",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "Jabalina Vortex MASC. S10",
+      "discipline": "Jabalina Vortex MASC. S10",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -220,9 +320,9 @@
       "athlete_dob": "17/12/2015",
       "athlete_id": "CL11065",
       "performance": "8.81",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "Jabalina Vortex MASC. S10",
+      "discipline": "Jabalina Vortex MASC. S10",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -230,9 +330,9 @@
       "athlete_dob": "17/12/2015",
       "athlete_id": "CL11065",
       "performance": "12.04",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "Jabalina Vortex MASC. S10",
+      "discipline": "Jabalina Vortex MASC. S10",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -240,9 +340,9 @@
       "athlete_dob": "10/08/2015",
       "athlete_id": "CL11597",
       "performance": "11.72",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "Jabalina Vortex MASC. S10",
+      "discipline": "Jabalina Vortex MASC. S10",
       "wind": null,
+      "position": null,
       "internal_id": 1373
     },
     {
@@ -250,9 +350,9 @@
       "athlete_dob": "26/02/2015",
       "athlete_id": "CL14915",
       "performance": "10.97",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "Jabalina Vortex MASC. S10",
+      "discipline": "Jabalina Vortex MASC. S10",
       "wind": null,
+      "position": null,
       "internal_id": 1395
     },
     {
@@ -260,9 +360,9 @@
       "athlete_dob": "26/02/2015",
       "athlete_id": "CL14915",
       "performance": "10.69",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "Jabalina Vortex MASC. S10",
+      "discipline": "Jabalina Vortex MASC. S10",
       "wind": null,
+      "position": null,
       "internal_id": 1395
     },
     {
@@ -270,9 +370,9 @@
       "athlete_dob": "26/02/2015",
       "athlete_id": "CL14915",
       "performance": "8.75",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "Jabalina Vortex MASC. S10",
+      "discipline": "Jabalina Vortex MASC. S10",
       "wind": null,
+      "position": null,
       "internal_id": 1395
     },
     {
@@ -280,9 +380,9 @@
       "athlete_dob": "14/02/2016",
       "athlete_id": "CL15063",
       "performance": "9.77",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "Jabalina Vortex MASC. S10",
+      "discipline": "Jabalina Vortex MASC. S10",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -290,9 +390,9 @@
       "athlete_dob": "14/02/2016",
       "athlete_id": "CL15063",
       "performance": "8.43",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "Jabalina Vortex MASC. S10",
+      "discipline": "Jabalina Vortex MASC. S10",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -300,9 +400,9 @@
       "athlete_dob": "14/02/2016",
       "athlete_id": "CL15063",
       "performance": "7.78",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "Jabalina Vortex MASC. S10",
+      "discipline": "Jabalina Vortex MASC. S10",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -310,9 +410,9 @@
       "athlete_dob": "21/04/2016",
       "athlete_id": "CL15055",
       "performance": "9.15",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "Jabalina Vortex MASC. S10",
+      "discipline": "Jabalina Vortex MASC. S10",
       "wind": null,
+      "position": null,
       "internal_id": 1355
     },
     {
@@ -320,9 +420,9 @@
       "athlete_dob": "26/10/2015",
       "athlete_id": "CL11071",
       "performance": "8.27",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "Jabalina Vortex MASC. S10",
+      "discipline": "Jabalina Vortex MASC. S10",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -330,9 +430,9 @@
       "athlete_dob": "26/10/2015",
       "athlete_id": "CL11071",
       "performance": "8.65",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "Jabalina Vortex MASC. S10",
+      "discipline": "Jabalina Vortex MASC. S10",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -340,9 +440,9 @@
       "athlete_dob": "26/10/2015",
       "athlete_id": "CL11071",
       "performance": "6.43",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "Jabalina Vortex MASC. S10",
+      "discipline": "Jabalina Vortex MASC. S10",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -350,9 +450,9 @@
       "athlete_dob": "13/08/2016",
       "athlete_id": "CL14916",
       "performance": "7.17",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "Jabalina Vortex MASC. S10",
+      "discipline": "Jabalina Vortex MASC. S10",
       "wind": null,
+      "position": null,
       "internal_id": 1353
     },
     {
@@ -360,9 +460,9 @@
       "athlete_dob": "13/08/2016",
       "athlete_id": "CL14916",
       "performance": "6.34",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "Jabalina Vortex MASC. S10",
+      "discipline": "Jabalina Vortex MASC. S10",
       "wind": null,
+      "position": null,
       "internal_id": 1353
     },
     {
@@ -370,9 +470,9 @@
       "athlete_dob": "13/08/2016",
       "athlete_id": "CL14916",
       "performance": "6.68",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "Jabalina Vortex MASC. S10",
+      "discipline": "Jabalina Vortex MASC. S10",
       "wind": null,
+      "position": null,
       "internal_id": 1353
     },
     {
@@ -380,9 +480,9 @@
       "athlete_dob": "30/09/2015",
       "athlete_id": "CL14892",
       "performance": "2.85",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud FEM. AL S10",
+      "discipline": "Longitud FEM. AL S10",
       "wind": null,
+      "position": null,
       "internal_id": 1382
     },
     {
@@ -390,9 +490,9 @@
       "athlete_dob": "19/01/2015",
       "athlete_id": "CL11066",
       "performance": "2.74",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud FEM. AL S10",
+      "discipline": "Longitud FEM. AL S10",
       "wind": null,
+      "position": null,
       "internal_id": 1354
     },
     {
@@ -400,9 +500,9 @@
       "athlete_dob": "27/01/2015",
       "athlete_id": "CL11596",
       "performance": "2.58",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud FEM. AL S10",
+      "discipline": "Longitud FEM. AL S10",
       "wind": null,
+      "position": null,
       "internal_id": 1374
     },
     {
@@ -410,9 +510,9 @@
       "athlete_dob": "11/12/2015",
       "athlete_id": "CL11078",
       "performance": "2.25",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud FEM. AL S10",
+      "discipline": "Longitud FEM. AL S10",
       "wind": null,
+      "position": null,
       "internal_id": 1346
     },
     {
@@ -420,9 +520,9 @@
       "athlete_dob": "07/05/2016",
       "athlete_id": "CL15054",
       "performance": "2.16",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud FEM. AL S10",
+      "discipline": "Longitud FEM. AL S10",
       "wind": null,
+      "position": null,
       "internal_id": 1368
     },
     {
@@ -430,9 +530,9 @@
       "athlete_dob": "13/06/2016",
       "athlete_id": "CL14898",
       "performance": "2.10",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud FEM. AL S10",
+      "discipline": "Longitud FEM. AL S10",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -440,10 +540,270 @@
       "athlete_dob": "22/09/2016",
       "athlete_id": "CL15059",
       "performance": "1.76",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud FEM. AL S10",
+      "discipline": "Longitud FEM. AL S10",
       "wind": null,
+      "position": null,
       "internal_id": 1384
+    },
+    {
+      "athlete_name": "Sara Lopez Garcia",
+      "athlete_dob": "19/01/2015",
+      "athlete_id": "CL11066",
+      "performance": "4.72",
+      "discipline": "Peso (2 Kg) FEM AL S10",
+      "wind": null,
+      "position": null,
+      "internal_id": 1354
+    },
+    {
+      "athlete_name": "Sara Lopez Garcia",
+      "athlete_dob": "19/01/2015",
+      "athlete_id": "CL11066",
+      "performance": "4.15",
+      "discipline": "Peso (2 Kg) FEM AL S10",
+      "wind": null,
+      "position": null,
+      "internal_id": 1354
+    },
+    {
+      "athlete_name": "Anna Grau Pinen",
+      "athlete_dob": "11/12/2015",
+      "athlete_id": "CL11078",
+      "performance": "3.11",
+      "discipline": "Peso (2 Kg) FEM AL S10",
+      "wind": null,
+      "position": null,
+      "internal_id": 1346
+    },
+    {
+      "athlete_name": "Anna Grau Pinen",
+      "athlete_dob": "11/12/2015",
+      "athlete_id": "CL11078",
+      "performance": "3.48",
+      "discipline": "Peso (2 Kg) FEM AL S10",
+      "wind": null,
+      "position": null,
+      "internal_id": 1346
+    },
+    {
+      "athlete_name": "Irene Dominguez Punsoda",
+      "athlete_dob": "13/06/2016",
+      "athlete_id": "CL14898",
+      "performance": "3.38",
+      "discipline": "Peso (2 Kg) FEM AL S10",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Julia Muste Santiago",
+      "athlete_dob": "30/09/2015",
+      "athlete_id": "CL14892",
+      "performance": "3.18",
+      "discipline": "Peso (2 Kg) FEM AL S10",
+      "wind": null,
+      "position": null,
+      "internal_id": 1382
+    },
+    {
+      "athlete_name": "Julia Muste Santiago",
+      "athlete_dob": "30/09/2015",
+      "athlete_id": "CL14892",
+      "performance": "3.15",
+      "discipline": "Peso (2 Kg) FEM AL S10",
+      "wind": null,
+      "position": null,
+      "internal_id": 1382
+    },
+    {
+      "athlete_name": "Montserrat Marques Cruz",
+      "athlete_dob": "27/01/2015",
+      "athlete_id": "CL11596",
+      "performance": "17.09",
+      "discipline": "Jabalina Vortex FEM. S10",
+      "wind": null,
+      "position": null,
+      "internal_id": 1374
+    },
+    {
+      "athlete_name": "Montserrat Marques Cruz",
+      "athlete_dob": "27/01/2015",
+      "athlete_id": "CL11596",
+      "performance": "15.37",
+      "discipline": "Jabalina Vortex FEM. S10",
+      "wind": null,
+      "position": null,
+      "internal_id": 1374
+    },
+    {
+      "athlete_name": "Montserrat Marques Cruz",
+      "athlete_dob": "27/01/2015",
+      "athlete_id": "CL11596",
+      "performance": "16.72",
+      "discipline": "Jabalina Vortex FEM. S10",
+      "wind": null,
+      "position": null,
+      "internal_id": 1374
+    },
+    {
+      "athlete_name": "Sara Lopez Garcia",
+      "athlete_dob": "19/01/2015",
+      "athlete_id": "CL11066",
+      "performance": "15.82",
+      "discipline": "Jabalina Vortex FEM. S10",
+      "wind": null,
+      "position": null,
+      "internal_id": 1354
+    },
+    {
+      "athlete_name": "Sara Lopez Garcia",
+      "athlete_dob": "19/01/2015",
+      "athlete_id": "CL11066",
+      "performance": "13.01",
+      "discipline": "Jabalina Vortex FEM. S10",
+      "wind": null,
+      "position": null,
+      "internal_id": 1354
+    },
+    {
+      "athlete_name": "Sara Lopez Garcia",
+      "athlete_dob": "19/01/2015",
+      "athlete_id": "CL11066",
+      "performance": "15.49",
+      "discipline": "Jabalina Vortex FEM. S10",
+      "wind": null,
+      "position": null,
+      "internal_id": 1354
+    },
+    {
+      "athlete_name": "Julia Muste Santiago",
+      "athlete_dob": "30/09/2015",
+      "athlete_id": "CL14892",
+      "performance": "10.55",
+      "discipline": "Jabalina Vortex FEM. S10",
+      "wind": null,
+      "position": null,
+      "internal_id": 1382
+    },
+    {
+      "athlete_name": "Julia Muste Santiago",
+      "athlete_dob": "30/09/2015",
+      "athlete_id": "CL14892",
+      "performance": "9.83",
+      "discipline": "Jabalina Vortex FEM. S10",
+      "wind": null,
+      "position": null,
+      "internal_id": 1382
+    },
+    {
+      "athlete_name": "Anna Grau Pinen",
+      "athlete_dob": "11/12/2015",
+      "athlete_id": "CL11078",
+      "performance": "8.95",
+      "discipline": "Jabalina Vortex FEM. S10",
+      "wind": null,
+      "position": null,
+      "internal_id": 1346
+    },
+    {
+      "athlete_name": "Anna Grau Pinen",
+      "athlete_dob": "11/12/2015",
+      "athlete_id": "CL11078",
+      "performance": "8.00",
+      "discipline": "Jabalina Vortex FEM. S10",
+      "wind": null,
+      "position": null,
+      "internal_id": 1346
+    },
+    {
+      "athlete_name": "Anna Grau Pinen",
+      "athlete_dob": "11/12/2015",
+      "athlete_id": "CL11078",
+      "performance": "10.06",
+      "discipline": "Jabalina Vortex FEM. S10",
+      "wind": null,
+      "position": null,
+      "internal_id": 1346
+    },
+    {
+      "athlete_name": "Irene Dominguez Punsoda",
+      "athlete_dob": "13/06/2016",
+      "athlete_id": "CL14898",
+      "performance": "5.98",
+      "discipline": "Jabalina Vortex FEM. S10",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Irene Dominguez Punsoda",
+      "athlete_dob": "13/06/2016",
+      "athlete_id": "CL14898",
+      "performance": "8.05",
+      "discipline": "Jabalina Vortex FEM. S10",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Irene Dominguez Punsoda",
+      "athlete_dob": "13/06/2016",
+      "athlete_id": "CL14898",
+      "performance": "7.31",
+      "discipline": "Jabalina Vortex FEM. S10",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Isona Masip Sala",
+      "athlete_dob": "22/09/2016",
+      "athlete_id": "CL15059",
+      "performance": "7.82",
+      "discipline": "Jabalina Vortex FEM. S10",
+      "wind": null,
+      "position": null,
+      "internal_id": 1384
+    },
+    {
+      "athlete_name": "Isona Masip Sala",
+      "athlete_dob": "22/09/2016",
+      "athlete_id": "CL15059",
+      "performance": "4.79",
+      "discipline": "Jabalina Vortex FEM. S10",
+      "wind": null,
+      "position": null,
+      "internal_id": 1384
+    },
+    {
+      "athlete_name": "Ada Feliu Lorca",
+      "athlete_dob": "07/05/2016",
+      "athlete_id": "CL15054",
+      "performance": "6.04",
+      "discipline": "Jabalina Vortex FEM. S10",
+      "wind": null,
+      "position": null,
+      "internal_id": 1368
+    },
+    {
+      "athlete_name": "Ada Feliu Lorca",
+      "athlete_dob": "07/05/2016",
+      "athlete_id": "CL15054",
+      "performance": "6.81",
+      "discipline": "Jabalina Vortex FEM. S10",
+      "wind": null,
+      "position": null,
+      "internal_id": 1368
+    },
+    {
+      "athlete_name": "Ada Feliu Lorca",
+      "athlete_dob": "07/05/2016",
+      "athlete_id": "CL15054",
+      "performance": "6.53",
+      "discipline": "Jabalina Vortex FEM. S10",
+      "wind": null,
+      "position": null,
+      "internal_id": 1368
     }
   ]
 }

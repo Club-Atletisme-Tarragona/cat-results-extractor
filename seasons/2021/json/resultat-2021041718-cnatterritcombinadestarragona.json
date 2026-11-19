@@ -1,8 +1,8 @@
 {
   "event_name": "",
   "event_date": "18/04/2021",
-  "event_location": "Tarragona",
-  "total_results": 235,
+  "event_location": "Club                                             Lic                               Acum.",
+  "total_results": 275,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
   "results": [
     {
@@ -10,10 +10,9 @@
       "athlete_dob": "01/02/2011",
       "athlete_id": "CL94400",
       "performance": "10.39",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m S12 MASC. AL",
+      "discipline": "60m S12 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": null
     },
     {
@@ -21,10 +20,9 @@
       "athlete_dob": "27/08/2010",
       "athlete_id": "CL94383",
       "performance": "8.75",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m S12 MASC. AL",
+      "discipline": "60m S12 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 1055
     },
     {
@@ -32,10 +30,9 @@
       "athlete_dob": "06/10/2011",
       "athlete_id": "CL906",
       "performance": "9.94",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m S12 MASC. AL",
+      "discipline": "60m S12 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 1337
     },
     {
@@ -43,21 +40,19 @@
       "athlete_dob": "27/06/2010",
       "athlete_id": "CL4161",
       "performance": "10.00",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m S12 MASC. AL",
+      "discipline": "60m S12 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 1076
     },
     {
-      "athlete_name": "Houdaifa Majluf",
+      "athlete_name": "(t) Houdaifa Majluf",
       "athlete_dob": "03/05/2011",
       "athlete_id": "CL4348",
       "performance": "10.82",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m S12 MASC. AL",
+      "discipline": "60m S12 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": null
     },
     {
@@ -65,10 +60,9 @@
       "athlete_dob": "27/01/2011",
       "athlete_id": "CL4157",
       "performance": "11.99",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m S12 MASC. AL",
+      "discipline": "60m S12 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": null
     },
     {
@@ -76,10 +70,9 @@
       "athlete_dob": "03/05/2010",
       "athlete_id": "CL90845",
       "performance": "9.12",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m S12 MASC. AL",
+      "discipline": "60m S12 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": null
     },
     {
@@ -87,10 +80,9 @@
       "athlete_dob": "03/03/2011",
       "athlete_id": "CL94414",
       "performance": "10.09",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m S12 MASC. AL",
+      "discipline": "60m S12 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": null
     },
     {
@@ -98,21 +90,29 @@
       "athlete_dob": "08/12/2011",
       "athlete_id": "CL4160",
       "performance": "10.25",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m S12 MASC. AL",
+      "discipline": "60m S12 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 1351
+    },
+    {
+      "athlete_name": "397 (t) Biel Queralt Sans AM 5",
+      "athlete_dob": "28/07/2011",
+      "athlete_id": "CL4153",
+      "performance": "NP",
+      "discipline": "60m S12 MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
     },
     {
       "athlete_name": "Nil Pages Corts",
       "athlete_dob": "12/04/2011",
       "athlete_id": "CL94551",
       "performance": "10.28",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m S12 MASC. AL",
+      "discipline": "60m S12 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": null
     },
     {
@@ -120,10 +120,9 @@
       "athlete_dob": "27/08/2010",
       "athlete_id": "CL94383",
       "performance": "4.02",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud S12 MASC. AL",
+      "discipline": "Longitud S12 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 1055
     },
     {
@@ -131,10 +130,9 @@
       "athlete_dob": "27/08/2010",
       "athlete_id": "CL94383",
       "performance": "3.91",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud S12 MASC. AL",
+      "discipline": "Longitud S12 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 1055
     },
     {
@@ -142,10 +140,9 @@
       "athlete_dob": "27/08/2010",
       "athlete_id": "CL94383",
       "performance": "3.97",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud S12 MASC. AL",
+      "discipline": "Longitud S12 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 1055
     },
     {
@@ -153,10 +150,9 @@
       "athlete_dob": "03/05/2010",
       "athlete_id": "CL90845",
       "performance": "3.43",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud S12 MASC. AL",
+      "discipline": "Longitud S12 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": null
     },
     {
@@ -164,10 +160,9 @@
       "athlete_dob": "03/05/2010",
       "athlete_id": "CL90845",
       "performance": "3.39",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud S12 MASC. AL",
+      "discipline": "Longitud S12 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": null
     },
     {
@@ -175,10 +170,9 @@
       "athlete_dob": "03/05/2010",
       "athlete_id": "CL90845",
       "performance": "3.28",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud S12 MASC. AL",
+      "discipline": "Longitud S12 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": null
     },
     {
@@ -186,10 +180,9 @@
       "athlete_dob": "12/04/2011",
       "athlete_id": "CL94551",
       "performance": "3.36",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud S12 MASC. AL",
+      "discipline": "Longitud S12 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": null
     },
     {
@@ -197,10 +190,9 @@
       "athlete_dob": "12/04/2011",
       "athlete_id": "CL94551",
       "performance": "3.18",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud S12 MASC. AL",
+      "discipline": "Longitud S12 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": null
     },
     {
@@ -208,10 +200,9 @@
       "athlete_dob": "12/04/2011",
       "athlete_id": "CL94551",
       "performance": "3.00",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud S12 MASC. AL",
+      "discipline": "Longitud S12 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": null
     },
     {
@@ -219,10 +210,9 @@
       "athlete_dob": "03/03/2011",
       "athlete_id": "CL94414",
       "performance": "3.24",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud S12 MASC. AL",
+      "discipline": "Longitud S12 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": null
     },
     {
@@ -230,10 +220,9 @@
       "athlete_dob": "03/03/2011",
       "athlete_id": "CL94414",
       "performance": "3.04",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud S12 MASC. AL",
+      "discipline": "Longitud S12 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": null
     },
     {
@@ -241,10 +230,9 @@
       "athlete_dob": "03/03/2011",
       "athlete_id": "CL94414",
       "performance": "3.09",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud S12 MASC. AL",
+      "discipline": "Longitud S12 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": null
     },
     {
@@ -252,10 +240,9 @@
       "athlete_dob": "01/02/2011",
       "athlete_id": "CL94400",
       "performance": "3.07",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud S12 MASC. AL",
+      "discipline": "Longitud S12 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": null
     },
     {
@@ -263,10 +250,9 @@
       "athlete_dob": "01/02/2011",
       "athlete_id": "CL94400",
       "performance": "3.23",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud S12 MASC. AL",
+      "discipline": "Longitud S12 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": null
     },
     {
@@ -274,10 +260,9 @@
       "athlete_dob": "27/06/2010",
       "athlete_id": "CL4161",
       "performance": "3.06",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud S12 MASC. AL",
+      "discipline": "Longitud S12 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 1076
     },
     {
@@ -285,10 +270,9 @@
       "athlete_dob": "08/12/2011",
       "athlete_id": "CL4160",
       "performance": "2.85",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud S12 MASC. AL",
+      "discipline": "Longitud S12 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 1351
     },
     {
@@ -296,21 +280,19 @@
       "athlete_dob": "06/10/2011",
       "athlete_id": "CL906",
       "performance": "2.77",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud S12 MASC. AL",
+      "discipline": "Longitud S12 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 1337
     },
     {
-      "athlete_name": "Houdaifa Majluf",
+      "athlete_name": "(t) Houdaifa Majluf",
       "athlete_dob": "03/05/2011",
       "athlete_id": "CL4348",
       "performance": "2.77",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud S12 MASC. AL",
+      "discipline": "Longitud S12 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": null
     },
     {
@@ -318,10 +300,9 @@
       "athlete_dob": "27/01/2011",
       "athlete_id": "CL4157",
       "performance": "2.37",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud S12 MASC. AL",
+      "discipline": "Longitud S12 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": null
     },
     {
@@ -329,10 +310,9 @@
       "athlete_dob": "03/03/2011",
       "athlete_id": "CL94414",
       "performance": "6.29",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) S12 MASC. AL",
+      "discipline": "Peso (2 Kg) S12 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": null
     },
     {
@@ -340,10 +320,9 @@
       "athlete_dob": "03/03/2011",
       "athlete_id": "CL94414",
       "performance": "5.36",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) S12 MASC. AL",
+      "discipline": "Peso (2 Kg) S12 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": null
     },
     {
@@ -351,10 +330,9 @@
       "athlete_dob": "27/08/2010",
       "athlete_id": "CL94383",
       "performance": "4.22",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) S12 MASC. AL",
+      "discipline": "Peso (2 Kg) S12 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 1055
     },
     {
@@ -362,10 +340,9 @@
       "athlete_dob": "27/08/2010",
       "athlete_id": "CL94383",
       "performance": "5.17",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) S12 MASC. AL",
+      "discipline": "Peso (2 Kg) S12 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 1055
     },
     {
@@ -373,10 +350,9 @@
       "athlete_dob": "27/01/2011",
       "athlete_id": "CL4157",
       "performance": "3.41",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) S12 MASC. AL",
+      "discipline": "Peso (2 Kg) S12 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": null
     },
     {
@@ -384,10 +360,9 @@
       "athlete_dob": "27/01/2011",
       "athlete_id": "CL4157",
       "performance": "4.82",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) S12 MASC. AL",
+      "discipline": "Peso (2 Kg) S12 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": null
     },
     {
@@ -395,10 +370,9 @@
       "athlete_dob": "27/01/2011",
       "athlete_id": "CL4157",
       "performance": "4.46",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) S12 MASC. AL",
+      "discipline": "Peso (2 Kg) S12 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": null
     },
     {
@@ -406,10 +380,9 @@
       "athlete_dob": "01/02/2011",
       "athlete_id": "CL94400",
       "performance": "4.08",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) S12 MASC. AL",
+      "discipline": "Peso (2 Kg) S12 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": null
     },
     {
@@ -417,10 +390,9 @@
       "athlete_dob": "01/02/2011",
       "athlete_id": "CL94400",
       "performance": "4.31",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) S12 MASC. AL",
+      "discipline": "Peso (2 Kg) S12 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": null
     },
     {
@@ -428,10 +400,9 @@
       "athlete_dob": "01/02/2011",
       "athlete_id": "CL94400",
       "performance": "4.72",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) S12 MASC. AL",
+      "discipline": "Peso (2 Kg) S12 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": null
     },
     {
@@ -439,10 +410,9 @@
       "athlete_dob": "12/04/2011",
       "athlete_id": "CL94551",
       "performance": "4.54",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) S12 MASC. AL",
+      "discipline": "Peso (2 Kg) S12 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": null
     },
     {
@@ -450,32 +420,29 @@
       "athlete_dob": "12/04/2011",
       "athlete_id": "CL94551",
       "performance": "4.12",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) S12 MASC. AL",
+      "discipline": "Peso (2 Kg) S12 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": null
     },
     {
-      "athlete_name": "Houdaifa Majluf",
+      "athlete_name": "(t) Houdaifa Majluf",
       "athlete_dob": "03/05/2011",
       "athlete_id": "CL4348",
       "performance": "4.46",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) S12 MASC. AL",
+      "discipline": "Peso (2 Kg) S12 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": null
     },
     {
-      "athlete_name": "Houdaifa Majluf",
+      "athlete_name": "(t) Houdaifa Majluf",
       "athlete_dob": "03/05/2011",
       "athlete_id": "CL4348",
       "performance": "4.27",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) S12 MASC. AL",
+      "discipline": "Peso (2 Kg) S12 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": null
     },
     {
@@ -483,10 +450,9 @@
       "athlete_dob": "06/10/2011",
       "athlete_id": "CL906",
       "performance": "3.63",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) S12 MASC. AL",
+      "discipline": "Peso (2 Kg) S12 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 1337
     },
     {
@@ -494,10 +460,9 @@
       "athlete_dob": "06/10/2011",
       "athlete_id": "CL906",
       "performance": "4.11",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) S12 MASC. AL",
+      "discipline": "Peso (2 Kg) S12 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 1337
     },
     {
@@ -505,10 +470,9 @@
       "athlete_dob": "27/06/2010",
       "athlete_id": "CL4161",
       "performance": "3.04",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) S12 MASC. AL",
+      "discipline": "Peso (2 Kg) S12 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 1076
     },
     {
@@ -516,10 +480,9 @@
       "athlete_dob": "27/06/2010",
       "athlete_id": "CL4161",
       "performance": "3.89",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) S12 MASC. AL",
+      "discipline": "Peso (2 Kg) S12 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 1076
     },
     {
@@ -527,10 +490,9 @@
       "athlete_dob": "27/06/2010",
       "athlete_id": "CL4161",
       "performance": "3.46",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) S12 MASC. AL",
+      "discipline": "Peso (2 Kg) S12 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 1076
     },
     {
@@ -538,10 +500,9 @@
       "athlete_dob": "03/05/2010",
       "athlete_id": "CL90845",
       "performance": "3.83",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) S12 MASC. AL",
+      "discipline": "Peso (2 Kg) S12 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": null
     },
     {
@@ -549,10 +510,9 @@
       "athlete_dob": "03/05/2010",
       "athlete_id": "CL90845",
       "performance": "3.85",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) S12 MASC. AL",
+      "discipline": "Peso (2 Kg) S12 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": null
     },
     {
@@ -560,10 +520,9 @@
       "athlete_dob": "08/12/2011",
       "athlete_id": "CL4160",
       "performance": "3.42",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) S12 MASC. AL",
+      "discipline": "Peso (2 Kg) S12 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 1351
     },
     {
@@ -571,10 +530,9 @@
       "athlete_dob": "03/05/2010",
       "athlete_id": "CL90845",
       "performance": "1.12",
-      "discipline": "Alçada",
-      "raw_discipline_name": "Altura S12 MASC. AL",
+      "discipline": "Altura S12 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": null
     },
     {
@@ -582,10 +540,9 @@
       "athlete_dob": "03/03/2011",
       "athlete_id": "CL94414",
       "performance": "1.12",
-      "discipline": "Alçada",
-      "raw_discipline_name": "Altura S12 MASC. AL",
+      "discipline": "Altura S12 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": null
     },
     {
@@ -593,10 +550,9 @@
       "athlete_dob": "27/08/2010",
       "athlete_id": "CL94383",
       "performance": "1.06",
-      "discipline": "Alçada",
-      "raw_discipline_name": "Altura S12 MASC. AL",
+      "discipline": "Altura S12 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 1055
     },
     {
@@ -604,10 +560,9 @@
       "athlete_dob": "01/02/2011",
       "athlete_id": "CL94400",
       "performance": "1.06",
-      "discipline": "Alçada",
-      "raw_discipline_name": "Altura S12 MASC. AL",
+      "discipline": "Altura S12 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": null
     },
     {
@@ -615,10 +570,9 @@
       "athlete_dob": "27/06/2010",
       "athlete_id": "CL4161",
       "performance": "1.06",
-      "discipline": "Alçada",
-      "raw_discipline_name": "Altura S12 MASC. AL",
+      "discipline": "Altura S12 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 1076
     },
     {
@@ -626,10 +580,9 @@
       "athlete_dob": "12/04/2011",
       "athlete_id": "CL94551",
       "performance": "1.00",
-      "discipline": "Alçada",
-      "raw_discipline_name": "Altura S12 MASC. AL",
+      "discipline": "Altura S12 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": null
     },
     {
@@ -637,472 +590,509 @@
       "athlete_dob": "08/12/2011",
       "athlete_id": "CL4160",
       "performance": "1.00",
-      "discipline": "Alçada",
-      "raw_discipline_name": "Altura S12 MASC. AL",
+      "discipline": "Altura S12 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 1351
     },
     {
-      "athlete_name": "Eric De La Rosa Fortuny",
+      "athlete_name": "Eric De La Rosa Fortuny IM",
       "athlete_dob": "17/04/2009",
       "athlete_id": "CL87201",
       "performance": "11.97",
-      "discipline": "80 metres llisos",
-      "raw_discipline_name": "80m S14 MASC. AL",
+      "discipline": "80m S14 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": null
     },
     {
-      "athlete_name": "Jeroni Flores Piñas",
+      "athlete_name": "Jeroni Flores Piñas IM",
       "athlete_dob": "04/01/2009",
       "athlete_id": "CL86460",
       "performance": "12.24",
-      "discipline": "80 metres llisos",
-      "raw_discipline_name": "80m S14 MASC. AL",
+      "discipline": "80m S14 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 1036
     },
     {
-      "athlete_name": "Matias Hernandez Sanchez",
+      "athlete_name": "387 (t) Quimey Izaga Deriu IM 4",
+      "athlete_dob": "22/08/2009",
+      "athlete_id": "CL86465",
+      "performance": "NP",
+      "discipline": "80m S14 MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Matias Hernandez Sanchez IM",
       "athlete_dob": "20/12/2008",
       "athlete_id": "CL94387",
       "performance": "11.69",
-      "discipline": "80 metres llisos",
-      "raw_discipline_name": "80m S14 MASC. AL",
+      "discipline": "80m S14 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 999
     },
     {
-      "athlete_name": "Bernat Bardina Artigau",
+      "athlete_name": "Bernat Bardina Artigau IM",
       "athlete_dob": "12/04/2008",
       "athlete_id": "CL82974",
       "performance": "11.85",
-      "discipline": "80 metres llisos",
-      "raw_discipline_name": "80m S14 MASC. AL",
+      "discipline": "80m S14 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 963
     },
     {
-      "athlete_name": "Pau Crespo Beltran",
+      "athlete_name": "Pau Crespo Beltran IM",
       "athlete_dob": "22/10/2008",
       "athlete_id": "CL90887",
       "performance": "12.06",
-      "discipline": "80 metres llisos",
-      "raw_discipline_name": "80m S14 MASC. AL",
+      "discipline": "80m S14 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 971
     },
     {
-      "athlete_name": "Unai Olaya Minguez",
+      "athlete_name": "Unai Olaya Minguez IM",
       "athlete_dob": "27/07/2009",
       "athlete_id": "CL854",
       "performance": "12.16",
-      "discipline": "80 metres llisos",
-      "raw_discipline_name": "80m S14 MASC. AL",
+      "discipline": "80m S14 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 1014
     },
     {
-      "athlete_name": "Eric De La Rosa Fortuny",
+      "athlete_name": "396 (t) Guillem Pamies Miro IM 5",
+      "athlete_dob": "16/07/2009",
+      "athlete_id": "CL827",
+      "performance": "NP",
+      "discipline": "80m S14 MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Eric De La Rosa Fortuny IM",
       "athlete_dob": "17/04/2009",
       "athlete_id": "CL87201",
       "performance": "4.23",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud S14 MASC. AL",
+      "discipline": "Longitud S14 MASC. AL",
       "wind": "-0.8",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": null
     },
     {
-      "athlete_name": "Pau Crespo Beltran",
+      "athlete_name": "Pau Crespo Beltran IM",
       "athlete_dob": "22/10/2008",
       "athlete_id": "CL90887",
       "performance": "4.15",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud S14 MASC. AL",
+      "discipline": "Longitud S14 MASC. AL",
       "wind": "-1.6",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 971
     },
     {
-      "athlete_name": "Pau Crespo Beltran",
+      "athlete_name": "Pau Crespo Beltran IM",
       "athlete_dob": "22/10/2008",
       "athlete_id": "CL90887",
       "performance": "4.16",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud S14 MASC. AL",
+      "discipline": "Longitud S14 MASC. AL",
       "wind": "-1.2",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 971
     },
     {
-      "athlete_name": "Jeroni Flores Piñas",
+      "athlete_name": "Jeroni Flores Piñas IM",
       "athlete_dob": "04/01/2009",
       "athlete_id": "CL86460",
       "performance": "3.95",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud S14 MASC. AL",
+      "discipline": "Longitud S14 MASC. AL",
       "wind": "+1.4",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 1036
     },
     {
-      "athlete_name": "Jeroni Flores Piñas",
+      "athlete_name": "Jeroni Flores Piñas IM",
       "athlete_dob": "04/01/2009",
       "athlete_id": "CL86460",
       "performance": "3.92",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud S14 MASC. AL",
+      "discipline": "Longitud S14 MASC. AL",
       "wind": "+1.2",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 1036
     },
     {
-      "athlete_name": "Jeroni Flores Piñas",
+      "athlete_name": "Jeroni Flores Piñas IM",
       "athlete_dob": "04/01/2009",
       "athlete_id": "CL86460",
       "performance": "4.15",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud S14 MASC. AL",
+      "discipline": "Longitud S14 MASC. AL",
       "wind": "-0.5",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 1036
     },
     {
-      "athlete_name": "Unai Olaya Minguez",
+      "athlete_name": "Unai Olaya Minguez IM",
       "athlete_dob": "27/07/2009",
       "athlete_id": "CL854",
       "performance": "3.77",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud S14 MASC. AL",
+      "discipline": "Longitud S14 MASC. AL",
       "wind": "-1.1",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 1014
     },
     {
-      "athlete_name": "Unai Olaya Minguez",
+      "athlete_name": "Unai Olaya Minguez IM",
       "athlete_dob": "27/07/2009",
       "athlete_id": "CL854",
       "performance": "3.54",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud S14 MASC. AL",
+      "discipline": "Longitud S14 MASC. AL",
       "wind": "-1.8",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 1014
     },
     {
-      "athlete_name": "Bernat Bardina Artigau",
+      "athlete_name": "Bernat Bardina Artigau IM",
       "athlete_dob": "12/04/2008",
       "athlete_id": "CL82974",
       "performance": "3.29",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud S14 MASC. AL",
+      "discipline": "Longitud S14 MASC. AL",
       "wind": "-1.2",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 963
     },
     {
-      "athlete_name": "Bernat Bardina Artigau",
+      "athlete_name": "Bernat Bardina Artigau IM",
       "athlete_dob": "12/04/2008",
       "athlete_id": "CL82974",
       "performance": "3.44",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud S14 MASC. AL",
+      "discipline": "Longitud S14 MASC. AL",
       "wind": "-1.8",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 963
     },
     {
-      "athlete_name": "Bernat Bardina Artigau",
+      "athlete_name": "Bernat Bardina Artigau IM",
       "athlete_dob": "12/04/2008",
       "athlete_id": "CL82974",
       "performance": "3.28",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud S14 MASC. AL",
+      "discipline": "Longitud S14 MASC. AL",
       "wind": "-0.2",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 963
     },
     {
-      "athlete_name": "Pau Crespo Beltran",
+      "athlete_name": "Pau Crespo Beltran IM",
       "athlete_dob": "22/10/2008",
       "athlete_id": "CL90887",
       "performance": "8.29",
-      "discipline": "Pes (3 Kg)",
-      "raw_discipline_name": "Peso (3kg) S14 MASC. AL",
+      "discipline": "Peso (3 Kg) S14 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 971
     },
     {
-      "athlete_name": "Pau Crespo Beltran",
+      "athlete_name": "Pau Crespo Beltran IM",
       "athlete_dob": "22/10/2008",
       "athlete_id": "CL90887",
       "performance": "9.27",
-      "discipline": "Pes (3 Kg)",
-      "raw_discipline_name": "Peso (3kg) S14 MASC. AL",
+      "discipline": "Peso (3 Kg) S14 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 971
     },
     {
-      "athlete_name": "Bernat Bardina Artigau",
+      "athlete_name": "Bernat Bardina Artigau IM",
       "athlete_dob": "12/04/2008",
       "athlete_id": "CL82974",
       "performance": "7.02",
-      "discipline": "Pes (3 Kg)",
-      "raw_discipline_name": "Peso (3kg) S14 MASC. AL",
+      "discipline": "Peso (3 Kg) S14 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 963
     },
     {
-      "athlete_name": "Bernat Bardina Artigau",
+      "athlete_name": "Bernat Bardina Artigau IM",
       "athlete_dob": "12/04/2008",
       "athlete_id": "CL82974",
       "performance": "6.64",
-      "discipline": "Pes (3 Kg)",
-      "raw_discipline_name": "Peso (3kg) S14 MASC. AL",
+      "discipline": "Peso (3 Kg) S14 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 963
     },
     {
-      "athlete_name": "Bernat Bardina Artigau",
+      "athlete_name": "Bernat Bardina Artigau IM",
       "athlete_dob": "12/04/2008",
       "athlete_id": "CL82974",
       "performance": "6.81",
-      "discipline": "Pes (3 Kg)",
-      "raw_discipline_name": "Peso (3kg) S14 MASC. AL",
+      "discipline": "Peso (3 Kg) S14 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 963
     },
     {
-      "athlete_name": "Eric De La Rosa Fortuny",
+      "athlete_name": "Eric De La Rosa Fortuny IM",
       "athlete_dob": "17/04/2009",
       "athlete_id": "CL87201",
       "performance": "5.59",
-      "discipline": "Pes (3 Kg)",
-      "raw_discipline_name": "Peso (3kg) S14 MASC. AL",
+      "discipline": "Peso (3 Kg) S14 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": null
     },
     {
-      "athlete_name": "Eric De La Rosa Fortuny",
+      "athlete_name": "Eric De La Rosa Fortuny IM",
       "athlete_dob": "17/04/2009",
       "athlete_id": "CL87201",
       "performance": "6.51",
-      "discipline": "Pes (3 Kg)",
-      "raw_discipline_name": "Peso (3kg) S14 MASC. AL",
+      "discipline": "Peso (3 Kg) S14 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": null
     },
     {
-      "athlete_name": "Eric De La Rosa Fortuny",
+      "athlete_name": "Eric De La Rosa Fortuny IM",
       "athlete_dob": "17/04/2009",
       "athlete_id": "CL87201",
       "performance": "5.83",
-      "discipline": "Pes (3 Kg)",
-      "raw_discipline_name": "Peso (3kg) S14 MASC. AL",
+      "discipline": "Peso (3 Kg) S14 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": null
     },
     {
-      "athlete_name": "Jeroni Flores Piñas",
+      "athlete_name": "Jeroni Flores Piñas IM",
       "athlete_dob": "04/01/2009",
       "athlete_id": "CL86460",
       "performance": "5.47",
-      "discipline": "Pes (3 Kg)",
-      "raw_discipline_name": "Peso (3kg) S14 MASC. AL",
+      "discipline": "Peso (3 Kg) S14 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 1036
     },
     {
-      "athlete_name": "Jeroni Flores Piñas",
+      "athlete_name": "Jeroni Flores Piñas IM",
       "athlete_dob": "04/01/2009",
       "athlete_id": "CL86460",
       "performance": "5.97",
-      "discipline": "Pes (3 Kg)",
-      "raw_discipline_name": "Peso (3kg) S14 MASC. AL",
+      "discipline": "Peso (3 Kg) S14 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 1036
     },
     {
-      "athlete_name": "Jeroni Flores Piñas",
+      "athlete_name": "Jeroni Flores Piñas IM",
       "athlete_dob": "04/01/2009",
       "athlete_id": "CL86460",
       "performance": "5.55",
-      "discipline": "Pes (3 Kg)",
-      "raw_discipline_name": "Peso (3kg) S14 MASC. AL",
+      "discipline": "Peso (3 Kg) S14 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 1036
     },
     {
-      "athlete_name": "Unai Olaya Minguez",
+      "athlete_name": "Unai Olaya Minguez IM",
       "athlete_dob": "27/07/2009",
       "athlete_id": "CL854",
       "performance": "4.10",
-      "discipline": "Pes (3 Kg)",
-      "raw_discipline_name": "Peso (3kg) S14 MASC. AL",
+      "discipline": "Peso (3 Kg) S14 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 1014
     },
     {
-      "athlete_name": "Unai Olaya Minguez",
+      "athlete_name": "Unai Olaya Minguez IM",
       "athlete_dob": "27/07/2009",
       "athlete_id": "CL854",
       "performance": "4.33",
-      "discipline": "Pes (3 Kg)",
-      "raw_discipline_name": "Peso (3kg) S14 MASC. AL",
+      "discipline": "Peso (3 Kg) S14 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 1014
     },
     {
-      "athlete_name": "Unai Olaya Minguez",
+      "athlete_name": "Unai Olaya Minguez IM",
       "athlete_dob": "27/07/2009",
       "athlete_id": "CL854",
       "performance": "4.45",
-      "discipline": "Pes (3 Kg)",
-      "raw_discipline_name": "Peso (3kg) S14 MASC. AL",
+      "discipline": "Peso (3 Kg) S14 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 1014
     },
     {
-      "athlete_name": "Eric De La Rosa Fortuny",
+      "athlete_name": "Eric De La Rosa Fortuny IM",
       "athlete_dob": "17/04/2009",
       "athlete_id": "CL87201",
       "performance": "16.63",
-      "discipline": "80 metres tanques (0.84)",
-      "raw_discipline_name": "80m vallas (0,84) S14 MASC. AL",
+      "discipline": "80m vallas (0,84) S14 MASC. AL",
       "wind": "+3.8",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": null
     },
     {
-      "athlete_name": "Jeroni Flores Piñas",
+      "athlete_name": "Jeroni Flores Piñas IM",
       "athlete_dob": "04/01/2009",
       "athlete_id": "CL86460",
       "performance": "15.85",
-      "discipline": "80 metres tanques (0.84)",
-      "raw_discipline_name": "80m vallas (0,84) S14 MASC. AL",
+      "discipline": "80m vallas (0,84) S14 MASC. AL",
       "wind": "+3.5",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 1036
     },
     {
-      "athlete_name": "Pau Crespo Beltran",
-      "athlete_dob": "22/10/2008",
-      "athlete_id": "CL90887",
-      "performance": "16.23",
-      "discipline": "80 metres tanques (0.84)",
-      "raw_discipline_name": "80m vallas (0,84) S14 MASC. AL",
-      "wind": "+3.8",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
-      "internal_id": 971
-    },
-    {
-      "athlete_name": "Bernat Bardina Artigau",
-      "athlete_dob": "12/04/2008",
-      "athlete_id": "CL82974",
-      "performance": "18.78",
-      "discipline": "80 metres tanques (0.84)",
-      "raw_discipline_name": "80m vallas (0,84) S14 MASC. AL",
-      "wind": "+3.8",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
-      "internal_id": 963
-    },
-    {
-      "athlete_name": "Unai Olaya Minguez",
-      "athlete_dob": "27/07/2009",
-      "athlete_id": "CL854",
-      "performance": "22.73",
-      "discipline": "80 metres tanques (0.84)",
-      "raw_discipline_name": "80m vallas (0,84) S14 MASC. AL",
-      "wind": "+3.8",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
-      "internal_id": 1014
-    },
-    {
-      "athlete_name": "Jeroni Flores Piñas",
-      "athlete_dob": "04/01/2009",
-      "athlete_id": "CL86460",
-      "performance": "1.31",
-      "discipline": "Alçada",
-      "raw_discipline_name": "Altura S14 MASC. AL",
-      "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
-      "internal_id": 1036
-    },
-    {
-      "athlete_name": "Eric De La Rosa Fortuny",
-      "athlete_dob": "17/04/2009",
-      "athlete_id": "CL87201",
-      "performance": "1.28",
-      "discipline": "Alçada",
-      "raw_discipline_name": "Altura S14 MASC. AL",
-      "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "athlete_name": "387 (t) Quimey Izaga Deriu IM 8",
+      "athlete_dob": "22/08/2009",
+      "athlete_id": "CL86465",
+      "performance": "NP",
+      "discipline": "80m vallas (0,84) S14 MASC. AL",
+      "wind": "+3.5",
+      "position": null,
       "internal_id": null
     },
     {
-      "athlete_name": "Pau Crespo Beltran",
+      "athlete_name": "Pau Crespo Beltran IM",
       "athlete_dob": "22/10/2008",
       "athlete_id": "CL90887",
-      "performance": "1.22",
-      "discipline": "Alçada",
-      "raw_discipline_name": "Altura S14 MASC. AL",
-      "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "performance": "16.23",
+      "discipline": "80m vallas (0,84) S14 MASC. AL",
+      "wind": "+3.8",
+      "position": null,
       "internal_id": 971
     },
     {
-      "athlete_name": "Bernat Bardina Artigau",
+      "athlete_name": "Bernat Bardina Artigau IM",
       "athlete_dob": "12/04/2008",
       "athlete_id": "CL82974",
-      "performance": "1.16",
-      "discipline": "Alçada",
-      "raw_discipline_name": "Altura S14 MASC. AL",
-      "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "performance": "18.78",
+      "discipline": "80m vallas (0,84) S14 MASC. AL",
+      "wind": "+3.8",
+      "position": null,
       "internal_id": 963
     },
     {
-      "athlete_name": "Unai Olaya Minguez",
+      "athlete_name": "Unai Olaya Minguez IM",
+      "athlete_dob": "27/07/2009",
+      "athlete_id": "CL854",
+      "performance": "22.73",
+      "discipline": "80m vallas (0,84) S14 MASC. AL",
+      "wind": "+3.8",
+      "position": null,
+      "internal_id": 1014
+    },
+    {
+      "athlete_name": "396 (t) Guillem Pamies Miro IM 6",
+      "athlete_dob": "16/07/2009",
+      "athlete_id": "CL827",
+      "performance": "NP",
+      "discipline": "80m vallas (0,84) S14 MASC. AL",
+      "wind": "+3.8",
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "385 (t) Matias Hernandez Sanchez IM 4",
+      "athlete_dob": "20/12/2008",
+      "athlete_id": "CL94387",
+      "performance": "NP",
+      "discipline": "80m vallas (0,84) S14 MASC. AL",
+      "wind": "+3.8",
+      "position": null,
+      "internal_id": 999
+    },
+    {
+      "athlete_name": "Jeroni Flores Piñas IM",
+      "athlete_dob": "04/01/2009",
+      "athlete_id": "CL86460",
+      "performance": "1.31",
+      "discipline": "Altura S14 MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1036
+    },
+    {
+      "athlete_name": "Eric De La Rosa Fortuny IM",
+      "athlete_dob": "17/04/2009",
+      "athlete_id": "CL87201",
+      "performance": "1.28",
+      "discipline": "Altura S14 MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Pau Crespo Beltran IM",
+      "athlete_dob": "22/10/2008",
+      "athlete_id": "CL90887",
+      "performance": "1.22",
+      "discipline": "Altura S14 MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 971
+    },
+    {
+      "athlete_name": "Bernat Bardina Artigau IM",
+      "athlete_dob": "12/04/2008",
+      "athlete_id": "CL82974",
+      "performance": "1.16",
+      "discipline": "Altura S14 MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 963
+    },
+    {
+      "athlete_name": "Unai Olaya Minguez IM",
       "athlete_dob": "27/07/2009",
       "athlete_id": "CL854",
       "performance": "1.16",
-      "discipline": "Alçada",
-      "raw_discipline_name": "Altura S14 MASC. AL",
+      "discipline": "Altura S14 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 1014
+    },
+    {
+      "athlete_name": "396 (t) Guillem Pamies Miro IM",
+      "athlete_dob": "16/07/2009",
+      "athlete_id": "CL827",
+      "performance": "NP",
+      "discipline": "Altura S14 MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "385 (t) Matias Hernandez Sanchez IM",
+      "athlete_dob": "20/12/2008",
+      "athlete_id": "CL94387",
+      "performance": "NP",
+      "discipline": "Altura S14 MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 999
+    },
+    {
+      "athlete_name": "387 (t) Quimey Izaga Deriu IM",
+      "athlete_dob": "22/08/2009",
+      "athlete_id": "CL86465",
+      "performance": "NP",
+      "discipline": "Altura S14 MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
     },
     {
       "athlete_name": "Lluc Subiros Brasero",
       "athlete_dob": "06/01/2007",
       "athlete_id": "CL77331",
       "performance": "12.64",
-      "discipline": "100 metres llisos",
-      "raw_discipline_name": "100m S16 MASC. AL",
+      "discipline": "100m S16 MASC. AL",
       "wind": "+0.0",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 899
     },
     {
@@ -1110,10 +1100,9 @@
       "athlete_dob": "08/02/2006",
       "athlete_id": "CL3307",
       "performance": "12.41",
-      "discipline": "100 metres llisos",
-      "raw_discipline_name": "100m S16 MASC. AL",
+      "discipline": "100m S16 MASC. AL",
       "wind": "+0.1",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": null
     },
     {
@@ -1121,10 +1110,9 @@
       "athlete_dob": "08/02/2006",
       "athlete_id": "CL3307",
       "performance": "11.26",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Peso (4kg) S16 MASC. AL",
+      "discipline": "Peso (4 Kg) S16 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": null
     },
     {
@@ -1132,10 +1120,9 @@
       "athlete_dob": "08/02/2006",
       "athlete_id": "CL3307",
       "performance": "11.22",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Peso (4kg) S16 MASC. AL",
+      "discipline": "Peso (4 Kg) S16 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": null
     },
     {
@@ -1143,10 +1130,9 @@
       "athlete_dob": "08/02/2006",
       "athlete_id": "CL3307",
       "performance": "11.32",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Peso (4kg) S16 MASC. AL",
+      "discipline": "Peso (4 Kg) S16 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": null
     },
     {
@@ -1154,10 +1140,9 @@
       "athlete_dob": "06/01/2007",
       "athlete_id": "CL77331",
       "performance": "9.87",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Peso (4kg) S16 MASC. AL",
+      "discipline": "Peso (4 Kg) S16 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 899
     },
     {
@@ -1165,10 +1150,9 @@
       "athlete_dob": "06/01/2007",
       "athlete_id": "CL77331",
       "performance": "9.61",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Peso (4kg) S16 MASC. AL",
+      "discipline": "Peso (4 Kg) S16 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 899
     },
     {
@@ -1176,10 +1160,9 @@
       "athlete_dob": "06/01/2007",
       "athlete_id": "CL77331",
       "performance": "10.44",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Peso (4kg) S16 MASC. AL",
+      "discipline": "Peso (4 Kg) S16 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 899
     },
     {
@@ -1187,10 +1170,9 @@
       "athlete_dob": "06/01/2007",
       "athlete_id": "CL77331",
       "performance": "1.64",
-      "discipline": "Alçada",
-      "raw_discipline_name": "Altura S16 MASC. AL",
+      "discipline": "Altura S16 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 899
     },
     {
@@ -1198,10 +1180,9 @@
       "athlete_dob": "08/02/2006",
       "athlete_id": "CL3307",
       "performance": "1.55",
-      "discipline": "Alçada",
-      "raw_discipline_name": "Altura S16 MASC. AL",
+      "discipline": "Altura S16 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": null
     },
     {
@@ -1209,10 +1190,9 @@
       "athlete_dob": "08/02/2006",
       "athlete_id": "CL3307",
       "performance": "27.12",
-      "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "Disco (1kg) S16 MASC.",
+      "discipline": "Disco (1 Kg) S16 MASC.",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": null
     },
     {
@@ -1220,10 +1200,9 @@
       "athlete_dob": "08/02/2006",
       "athlete_id": "CL3307",
       "performance": "29.42",
-      "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "Disco (1kg) S16 MASC.",
+      "discipline": "Disco (1 Kg) S16 MASC.",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": null
     },
     {
@@ -1231,10 +1210,9 @@
       "athlete_dob": "06/01/2007",
       "athlete_id": "CL77331",
       "performance": "25.53",
-      "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "Disco (1kg) S16 MASC.",
+      "discipline": "Disco (1 Kg) S16 MASC.",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 899
     },
     {
@@ -1242,10 +1220,9 @@
       "athlete_dob": "06/01/2007",
       "athlete_id": "CL77331",
       "performance": "26.79",
-      "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "Disco (1kg) S16 MASC.",
+      "discipline": "Disco (1 Kg) S16 MASC.",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 899
     },
     {
@@ -1253,10 +1230,9 @@
       "athlete_dob": "06/01/2007",
       "athlete_id": "CL77331",
       "performance": "26.54",
-      "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "Disco (1kg) S16 MASC.",
+      "discipline": "Disco (1 Kg) S16 MASC.",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 899
     },
     {
@@ -1264,10 +1240,9 @@
       "athlete_dob": "06/01/2007",
       "athlete_id": "CL77331",
       "performance": "16.16",
-      "discipline": "100 metres tanques (0.91)",
-      "raw_discipline_name": "100m vallas (0,91) S16 MASC. AL",
+      "discipline": "100m vallas (0,91) S16 MASC. AL",
       "wind": "+1.7",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 899
     },
     {
@@ -1275,10 +1250,9 @@
       "athlete_dob": "08/02/2006",
       "athlete_id": "CL3307",
       "performance": "17.95",
-      "discipline": "100 metres tanques (0.91)",
-      "raw_discipline_name": "100m vallas (0,91) S16 MASC. AL",
+      "discipline": "100m vallas (0,91) S16 MASC. AL",
       "wind": "+2.3",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": null
     },
     {
@@ -1286,10 +1260,9 @@
       "athlete_dob": "06/01/2007",
       "athlete_id": "CL77331",
       "performance": "3.40",
-      "discipline": "Perxa",
-      "raw_discipline_name": "Pértiga S16 MASC. AL",
+      "discipline": "Pértiga S16 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 899
     },
     {
@@ -1297,10 +1270,9 @@
       "athlete_dob": "08/02/2006",
       "athlete_id": "CL3307",
       "performance": "2.50",
-      "discipline": "Perxa",
-      "raw_discipline_name": "Pértiga S16 MASC. AL",
+      "discipline": "Pértiga S16 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": null
     },
     {
@@ -1308,10 +1280,9 @@
       "athlete_dob": "06/01/2007",
       "athlete_id": "CL77331",
       "performance": "33.13",
-      "discipline": "Javelina (600 g)",
-      "raw_discipline_name": "Jabalina (600g) S16 MASC.",
+      "discipline": "Jabalina (600g) S16 MASC.",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 899
     },
     {
@@ -1319,10 +1290,9 @@
       "athlete_dob": "06/01/2007",
       "athlete_id": "CL77331",
       "performance": "33.12",
-      "discipline": "Javelina (600 g)",
-      "raw_discipline_name": "Jabalina (600g) S16 MASC.",
+      "discipline": "Jabalina (600g) S16 MASC.",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 899
     },
     {
@@ -1330,10 +1300,9 @@
       "athlete_dob": "06/01/2007",
       "athlete_id": "CL77331",
       "performance": "31.86",
-      "discipline": "Javelina (600 g)",
-      "raw_discipline_name": "Jabalina (600g) S16 MASC.",
+      "discipline": "Jabalina (600g) S16 MASC.",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 899
     },
     {
@@ -1341,10 +1310,9 @@
       "athlete_dob": "08/02/2006",
       "athlete_id": "CL3307",
       "performance": "29.15",
-      "discipline": "Javelina (600 g)",
-      "raw_discipline_name": "Jabalina (600g) S16 MASC.",
+      "discipline": "Jabalina (600g) S16 MASC.",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": null
     },
     {
@@ -1352,21 +1320,69 @@
       "athlete_dob": "08/02/2006",
       "athlete_id": "CL3307",
       "performance": "25.94",
-      "discipline": "Javelina (600 g)",
-      "raw_discipline_name": "Jabalina (600g) S16 MASC.",
+      "discipline": "Jabalina (600g) S16 MASC.",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": null
+    },
+    {
+      "athlete_name": "Lluc Subiros Brasero",
+      "athlete_dob": "06/01/2007",
+      "athlete_id": "CL77331",
+      "performance": "3:11.99",
+      "discipline": "1.000m S16 MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 899
+    },
+    {
+      "athlete_name": "Pau Ortiz Garcia",
+      "athlete_dob": "08/02/2006",
+      "athlete_id": "CL3307",
+      "performance": "3:23.51",
+      "discipline": "1.000m S16 MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Lluc Subiros",
+      "athlete_dob": "21/01/2006",
+      "athlete_id": "CL77331",
+      "performance": "4008",
+      "discipline": "Octatlón S16 MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 899
+    },
+    {
+      "athlete_name": "Pau Ortiz",
+      "athlete_dob": "23/07/2007",
+      "athlete_id": "CL3307",
+      "performance": "3527",
+      "discipline": "Octatlón S16 MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Arnau Sole Cabrera",
+      "athlete_dob": "08/04/2002",
+      "athlete_id": "CT372",
+      "performance": "830",
+      "discipline": "Octatlón S16 MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 856
     },
     {
       "athlete_name": "Edgar Jose Diaz",
       "athlete_dob": "08/04/2002",
       "athlete_id": "CL27846",
       "performance": "5.74",
-      "discipline": "Llargada",
-      "raw_discipline_name": "LONGITUD S20 MASC. DECATHLON JUN",
+      "discipline": "LONGITUD S20 MASC. DECATHLON JUN",
       "wind": "-0.3",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 653
     },
     {
@@ -1374,10 +1390,9 @@
       "athlete_dob": "08/04/2002",
       "athlete_id": "CL27846",
       "performance": "4.96",
-      "discipline": "Llargada",
-      "raw_discipline_name": "LONGITUD S20 MASC. DECATHLON JUN",
+      "discipline": "LONGITUD S20 MASC. DECATHLON JUN",
       "wind": "+1.5",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 653
     },
     {
@@ -1385,10 +1400,9 @@
       "athlete_dob": "08/04/2002",
       "athlete_id": "CL27846",
       "performance": "5.68",
-      "discipline": "Pes (6 Kg)",
-      "raw_discipline_name": "PESO (6 KG) S20 MASC. DECATHLON JUN",
+      "discipline": "PESO (6 Kg) S20 MASC. DECATHLON JUN",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 653
     },
     {
@@ -1396,10 +1410,9 @@
       "athlete_dob": "08/04/2002",
       "athlete_id": "CL27846",
       "performance": "6.32",
-      "discipline": "Pes (6 Kg)",
-      "raw_discipline_name": "PESO (6 KG) S20 MASC. DECATHLON JUN",
+      "discipline": "PESO (6 Kg) S20 MASC. DECATHLON JUN",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 653
     },
     {
@@ -1407,10 +1420,9 @@
       "athlete_dob": "08/04/2002",
       "athlete_id": "CL27846",
       "performance": "6.31",
-      "discipline": "Pes (6 Kg)",
-      "raw_discipline_name": "PESO (6 KG) S20 MASC. DECATHLON JUN",
+      "discipline": "PESO (6 Kg) S20 MASC. DECATHLON JUN",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 653
     },
     {
@@ -1418,10 +1430,29 @@
       "athlete_dob": "08/04/2002",
       "athlete_id": "CL27846",
       "performance": "1.40",
-      "discipline": "Alçada",
-      "raw_discipline_name": "ALTURA S20 MASC. DECATHLON JUN",
+      "discipline": "ALTURA S20 MASC. DECATHLON JUN",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
+      "internal_id": 653
+    },
+    {
+      "athlete_name": "Edgar Jose Diaz",
+      "athlete_dob": "08/04/2002",
+      "athlete_id": "CL27846",
+      "performance": "15.39",
+      "discipline": "DISCO (1,750 Kg) S20 MASC. DECATHLON JUN.",
+      "wind": null,
+      "position": null,
+      "internal_id": 653
+    },
+    {
+      "athlete_name": "Edgar Jose Diaz",
+      "athlete_dob": "08/04/2002",
+      "athlete_id": "CL27846",
+      "performance": "14.28",
+      "discipline": "DISCO (1,750 Kg) S20 MASC. DECATHLON JUN.",
+      "wind": null,
+      "position": null,
       "internal_id": 653
     },
     {
@@ -1429,10 +1460,9 @@
       "athlete_dob": "08/04/2002",
       "athlete_id": "CL27846",
       "performance": "14.66",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "JABALINA (800 GR) S20 MASC. DECATHLON JUN",
+      "discipline": "JABALINA (800 GR) S20 MASC. DECATHLON JUN",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 653
     },
     {
@@ -1440,32 +1470,139 @@
       "athlete_dob": "08/04/2002",
       "athlete_id": "CL27846",
       "performance": "44.84",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "JABALINA (800 GR) S20 MASC. DECATHLON JUN",
+      "discipline": "JABALINA (800 GR) S20 MASC. DECATHLON JUN",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
+      "internal_id": 653
+    },
+    {
+      "athlete_name": "Edgar Jose",
+      "athlete_dob": "13/09/2003",
+      "athlete_id": "CL27846",
+      "performance": "3284",
+      "discipline": "Decatlón S20 MASC.",
+      "wind": null,
+      "position": null,
       "internal_id": 653
     },
     {
       "athlete_name": "Josep Maria Mateo Sanz",
       "athlete_dob": "17/11/1964",
       "athlete_id": "CT19378",
-      "performance": "1.49",
-      "discipline": "Alçada",
-      "raw_discipline_name": "Altura Màster 55-59 MASC. AL",
+      "performance": "12.93",
+      "discipline": "Jabalina (800g)",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 343
     },
     {
       "athlete_name": "Josep Maria Mateo Sanz",
       "athlete_dob": "17/11/1964",
       "athlete_id": "CT19378",
-      "performance": "02.34",
-      "discipline": "Alçada",
-      "raw_discipline_name": "Altura Màster 55-59 MASC. AL",
+      "performance": "4.75",
+      "discipline": "Longitud Màster 55-59 MASC. AL",
+      "wind": "+0.6",
+      "position": null,
+      "internal_id": 343
+    },
+    {
+      "athlete_name": "Josep Maria Mateo Sanz",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "4.77",
+      "discipline": "Longitud Màster 55-59 MASC. AL",
+      "wind": "-0.4",
+      "position": null,
+      "internal_id": 343
+    },
+    {
+      "athlete_name": "Josep Maria Mateo Sanz",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "4.93",
+      "discipline": "Longitud Màster 55-59 MASC. AL",
+      "wind": "+0.8",
+      "position": null,
+      "internal_id": 343
+    },
+    {
+      "athlete_name": "Josep Maria Mateo Sanz",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "7.85",
+      "discipline": "Peso (6 Kg) Màster 55-59 MASC. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
+      "internal_id": 343
+    },
+    {
+      "athlete_name": "Josep Maria Mateo Sanz",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "7.92",
+      "discipline": "Peso (6 Kg) Màster 55-59 MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 343
+    },
+    {
+      "athlete_name": "Josep Maria Mateo Sanz",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "7.82",
+      "discipline": "Peso (6 Kg) Màster 55-59 MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 343
+    },
+    {
+      "athlete_name": "Josep Maria Mateo Sanz",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "1.49",
+      "discipline": "Altura Màster 55-59 MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 343
+    },
+    {
+      "athlete_name": "Josep Maria Mateo Sanz",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "24.67",
+      "discipline": "Disco (1,5 Kg) Màster 55-59 MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 343
+    },
+    {
+      "athlete_name": "Josep Maria Mateo Sanz",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "25.36",
+      "discipline": "Disco (1,5 Kg) Màster 55-59 MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 343
+    },
+    {
+      "athlete_name": "Josep Maria Mateo Sanz",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "23.82",
+      "discipline": "Disco (1,5 Kg) Màster 55-59 MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 343
+    },
+    {
+      "athlete_name": "Josep Maria Mateo Sanz",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "3.10",
+      "discipline": "Pertiga Màster 55-59 MASC. AL",
+      "wind": null,
+      "position": null,
       "internal_id": 343
     },
     {
@@ -1473,10 +1610,9 @@
       "athlete_dob": "17/11/1964",
       "athlete_id": "CT19378",
       "performance": "21.64",
-      "discipline": "Javelina (700 g)",
-      "raw_discipline_name": "Jabalina (700g) Màster 55-59 MASC.",
+      "discipline": "Jabalina (700g) Màster 55-59 MASC.",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 343
     },
     {
@@ -1484,10 +1620,9 @@
       "athlete_dob": "17/11/1964",
       "athlete_id": "CT19378",
       "performance": "23.69",
-      "discipline": "Javelina (700 g)",
-      "raw_discipline_name": "Jabalina (700g) Màster 55-59 MASC.",
+      "discipline": "Jabalina (700g) Màster 55-59 MASC.",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 343
     },
     {
@@ -1495,10 +1630,9 @@
       "athlete_dob": "17/11/1964",
       "athlete_id": "CT19378",
       "performance": "22.69",
-      "discipline": "Javelina (700 g)",
-      "raw_discipline_name": "Jabalina (700g) Màster 55-59 MASC.",
+      "discipline": "Jabalina (700g) Màster 55-59 MASC.",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 343
     },
     {
@@ -1506,21 +1640,89 @@
       "athlete_dob": "17/11/1964",
       "athlete_id": "CT19378",
       "performance": "45.16",
-      "discipline": "Javelina (700 g)",
-      "raw_discipline_name": "Jabalina (700g) Màster 55-59 MASC.",
+      "discipline": "Jabalina (700g) Màster 55-59 MASC.",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 343
     },
     {
       "athlete_name": "Francisco Griñant Almagro",
       "athlete_dob": "04/08/1947",
       "athlete_id": "CT18394",
-      "performance": "1.10",
-      "discipline": "Alçada",
-      "raw_discipline_name": "Altura Màster 70-74 MASC. AL",
+      "performance": "18.04",
+      "discipline": "Jabalina (600g)",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
+      "internal_id": 326
+    },
+    {
+      "athlete_name": "Francisco Griñant Almagro",
+      "athlete_dob": "04/08/1947",
+      "athlete_id": "CT18394",
+      "performance": "3.22",
+      "discipline": "Longitud Màster 70-74 MASC. AL",
+      "wind": "-0.3",
+      "position": null,
+      "internal_id": 326
+    },
+    {
+      "athlete_name": "Francisco Griñant Almagro",
+      "athlete_dob": "04/08/1947",
+      "athlete_id": "CT18394",
+      "performance": "3.32",
+      "discipline": "Longitud Màster 70-74 MASC. AL",
+      "wind": "+1.6",
+      "position": null,
+      "internal_id": 326
+    },
+    {
+      "athlete_name": "Francisco Griñant Almagro",
+      "athlete_dob": "04/08/1947",
+      "athlete_id": "CT18394",
+      "performance": "6.18",
+      "discipline": "Peso (4 Kg) Màster 70-74 MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 326
+    },
+    {
+      "athlete_name": "Francisco Griñant Almagro",
+      "athlete_dob": "04/08/1947",
+      "athlete_id": "CT18394",
+      "performance": "1.10",
+      "discipline": "Altura Màster 70-74 MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 326
+    },
+    {
+      "athlete_name": "Francisco Griñant Almagro",
+      "athlete_dob": "04/08/1947",
+      "athlete_id": "CT18394",
+      "performance": "21.09",
+      "discipline": "Disco (1 Kg) Màster 70-74 MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 326
+    },
+    {
+      "athlete_name": "Francisco Griñant Almagro",
+      "athlete_dob": "04/08/1947",
+      "athlete_id": "CT18394",
+      "performance": "19.32",
+      "discipline": "Disco (1 Kg) Màster 70-74 MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 326
+    },
+    {
+      "athlete_name": "Francisco Griñant Almagro",
+      "athlete_dob": "04/08/1947",
+      "athlete_id": "CT18394",
+      "performance": "19.99",
+      "discipline": "Disco (1 Kg) Màster 70-74 MASC.",
+      "wind": null,
+      "position": null,
       "internal_id": 326
     },
     {
@@ -1528,10 +1730,9 @@
       "athlete_dob": "04/08/1947",
       "athlete_id": "CT18394",
       "performance": "12.59",
-      "discipline": "Javelina (500 g)",
-      "raw_discipline_name": "Jabalina (500g) Màster 70-74 MASC.",
+      "discipline": "Jabalina (500g) Màster 70-74 MASC.",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 326
     },
     {
@@ -1539,10 +1740,9 @@
       "athlete_dob": "14/08/1996",
       "athlete_id": "CL20448",
       "performance": "1.64",
-      "discipline": "Alçada",
-      "raw_discipline_name": "ALTURA Abs FEMENINA HEPTATLÓN",
+      "discipline": "ALTURA Abs FEMENINA HEPTATLÓN",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 346
     },
     {
@@ -1550,10 +1750,9 @@
       "athlete_dob": "14/08/1996",
       "athlete_id": "CL20448",
       "performance": "7.94",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "PESO (4 KG) Abs FEM. HEPTATLÓN",
+      "discipline": "PESO (4 Kg) Abs FEM. HEPTATLÓN",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 346
     },
     {
@@ -1561,10 +1760,9 @@
       "athlete_dob": "14/08/1996",
       "athlete_id": "CL20448",
       "performance": "8.05",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "PESO (4 KG) Abs FEM. HEPTATLÓN",
+      "discipline": "PESO (4 Kg) Abs FEM. HEPTATLÓN",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 346
     },
     {
@@ -1572,10 +1770,9 @@
       "athlete_dob": "14/08/1996",
       "athlete_id": "CL20448",
       "performance": "8.09",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "PESO (4 KG) Abs FEM. HEPTATLÓN",
+      "discipline": "PESO (4 Kg) Abs FEM. HEPTATLÓN",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 346
     },
     {
@@ -1583,10 +1780,9 @@
       "athlete_dob": "14/08/1996",
       "athlete_id": "CL20448",
       "performance": "28.83",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "PESO (4 KG) Abs FEM. HEPTATLÓN",
+      "discipline": "PESO (4 Kg) Abs FEM. HEPTATLÓN",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 346
     },
     {
@@ -1594,10 +1790,9 @@
       "athlete_dob": "14/08/1996",
       "athlete_id": "CL20448",
       "performance": "4.93",
-      "discipline": "Llargada",
-      "raw_discipline_name": "LONGITUD Abs FEMENINA HEPTATLÓN",
+      "discipline": "LONGITUD Abs FEMENINA HEPTATLÓN",
       "wind": "+2.3",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 346
     },
     {
@@ -1605,10 +1800,9 @@
       "athlete_dob": "14/08/1996",
       "athlete_id": "CL20448",
       "performance": "4.82",
-      "discipline": "Llargada",
-      "raw_discipline_name": "LONGITUD Abs FEMENINA HEPTATLÓN",
+      "discipline": "LONGITUD Abs FEMENINA HEPTATLÓN",
       "wind": "+2.6",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 346
     },
     {
@@ -1616,10 +1810,9 @@
       "athlete_dob": "14/08/1996",
       "athlete_id": "CL20448",
       "performance": "5.16",
-      "discipline": "Llargada",
-      "raw_discipline_name": "LONGITUD Abs FEMENINA HEPTATLÓN",
+      "discipline": "LONGITUD Abs FEMENINA HEPTATLÓN",
       "wind": "+1.3",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 346
     },
     {
@@ -1627,10 +1820,9 @@
       "athlete_dob": "14/08/1996",
       "athlete_id": "CL20448",
       "performance": "24.29",
-      "discipline": "Javelina (600 g)",
-      "raw_discipline_name": "JABALINA (600 GR) Abs FEM. HEPTATLÓN",
+      "discipline": "JABALINA (600 GR) Abs FEM. HEPTATLÓN",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 346
     },
     {
@@ -1638,10 +1830,9 @@
       "athlete_dob": "14/08/1996",
       "athlete_id": "CL20448",
       "performance": "20.06",
-      "discipline": "Javelina (600 g)",
-      "raw_discipline_name": "JABALINA (600 GR) Abs FEM. HEPTATLÓN",
+      "discipline": "JABALINA (600 GR) Abs FEM. HEPTATLÓN",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 346
     },
     {
@@ -1649,21 +1840,29 @@
       "athlete_dob": "14/08/1996",
       "athlete_id": "CL20448",
       "performance": "17.32",
-      "discipline": "Javelina (600 g)",
-      "raw_discipline_name": "JABALINA (600 GR) Abs FEM. HEPTATLÓN",
+      "discipline": "JABALINA (600 GR) Abs FEM. HEPTATLÓN",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 346
     },
     {
       "athlete_name": "Gemma Sole Boronat",
       "athlete_dob": "01/11/1967",
       "athlete_id": "CT29376",
-      "performance": "7.28",
-      "discipline": "Pes (3 Kg)",
-      "raw_discipline_name": "Peso (3kg) Màster 50-54 FEM. AL",
+      "performance": "1.25",
+      "discipline": "Altura Màster 50-54 FEM. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
+      "internal_id": 648
+    },
+    {
+      "athlete_name": "Gemma Sole Boronat",
+      "athlete_dob": "01/11/1967",
+      "athlete_id": "CT29376",
+      "performance": "7.28",
+      "discipline": "Peso (3 Kg) Màster 50-54 FEM. AL",
+      "wind": null,
+      "position": null,
       "internal_id": 648
     },
     {
@@ -1671,10 +1870,9 @@
       "athlete_dob": "01/11/1967",
       "athlete_id": "CT29376",
       "performance": "8.01",
-      "discipline": "Pes (3 Kg)",
-      "raw_discipline_name": "Peso (3kg) Màster 50-54 FEM. AL",
+      "discipline": "Peso (3 Kg) Màster 50-54 FEM. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 648
     },
     {
@@ -1682,10 +1880,9 @@
       "athlete_dob": "01/11/1967",
       "athlete_id": "CT29376",
       "performance": "6.49",
-      "discipline": "Pes (3 Kg)",
-      "raw_discipline_name": "Peso (3kg) Màster 50-54 FEM. AL",
+      "discipline": "Peso (3 Kg) Màster 50-54 FEM. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 648
     },
     {
@@ -1693,10 +1890,39 @@
       "athlete_dob": "01/11/1967",
       "athlete_id": "CT29376",
       "performance": "32.72",
-      "discipline": "Pes (3 Kg)",
-      "raw_discipline_name": "Peso (3kg) Màster 50-54 FEM. AL",
+      "discipline": "Peso (3 Kg) Màster 50-54 FEM. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
+      "internal_id": 648
+    },
+    {
+      "athlete_name": "Gemma Sole Boronat",
+      "athlete_dob": "01/11/1967",
+      "athlete_id": "CT29376",
+      "performance": "3.58",
+      "discipline": "Longitud Màster 50-54 FEM. AL",
+      "wind": "+1.8",
+      "position": null,
+      "internal_id": 648
+    },
+    {
+      "athlete_name": "Gemma Sole Boronat",
+      "athlete_dob": "01/11/1967",
+      "athlete_id": "CT29376",
+      "performance": "3.70",
+      "discipline": "Longitud Màster 50-54 FEM. AL",
+      "wind": "+2.0",
+      "position": null,
+      "internal_id": 648
+    },
+    {
+      "athlete_name": "Gemma Sole Boronat",
+      "athlete_dob": "01/11/1967",
+      "athlete_id": "CT29376",
+      "performance": "3.55",
+      "discipline": "Longitud Màster 50-54 FEM. AL",
+      "wind": "+0.4",
+      "position": null,
       "internal_id": 648
     },
     {
@@ -1704,10 +1930,9 @@
       "athlete_dob": "01/11/1967",
       "athlete_id": "CT29376",
       "performance": "15.63",
-      "discipline": "Javelina (500 g)",
-      "raw_discipline_name": "Jabalina (500g) Màster 50-54 FEM.",
+      "discipline": "Jabalina (500g) Màster 50-54 FEM.",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 648
     },
     {
@@ -1715,10 +1940,9 @@
       "athlete_dob": "01/11/1967",
       "athlete_id": "CT29376",
       "performance": "14.35",
-      "discipline": "Javelina (500 g)",
-      "raw_discipline_name": "Jabalina (500g) Màster 50-54 FEM.",
+      "discipline": "Jabalina (500g) Màster 50-54 FEM.",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 648
     },
     {
@@ -1726,10 +1950,9 @@
       "athlete_dob": "01/11/1967",
       "athlete_id": "CT29376",
       "performance": "13.17",
-      "discipline": "Javelina (500 g)",
-      "raw_discipline_name": "Jabalina (500g) Màster 50-54 FEM.",
+      "discipline": "Jabalina (500g) Màster 50-54 FEM.",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 648
     },
     {
@@ -1737,10 +1960,9 @@
       "athlete_dob": "26/08/2011",
       "athlete_id": "CL94390",
       "performance": "11.69",
-      "discipline": "60 metres tanques (0.50)",
-      "raw_discipline_name": "60m vallas (0,50) S12 FEM AL",
+      "discipline": "60m vallas (0,50) S12 FEM AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 1326
     },
     {
@@ -1748,10 +1970,9 @@
       "athlete_dob": "05/02/2010",
       "athlete_id": "CL90841",
       "performance": "11.01",
-      "discipline": "60 metres tanques (0.50)",
-      "raw_discipline_name": "60m vallas (0,50) S12 FEM AL",
+      "discipline": "60m vallas (0,50) S12 FEM AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 1089
     },
     {
@@ -1759,10 +1980,9 @@
       "athlete_dob": "31/05/2010",
       "athlete_id": "CL90844",
       "performance": "10.72",
-      "discipline": "60 metres tanques (0.50)",
-      "raw_discipline_name": "60m vallas (0,50) S12 FEM AL",
+      "discipline": "60m vallas (0,50) S12 FEM AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 1015
     },
     {
@@ -1770,10 +1990,9 @@
       "athlete_dob": "23/10/2011",
       "athlete_id": "CL94385",
       "performance": "12.18",
-      "discipline": "60 metres tanques (0.50)",
-      "raw_discipline_name": "60m vallas (0,50) S12 FEM AL",
+      "discipline": "60m vallas (0,50) S12 FEM AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 1324
     },
     {
@@ -1781,10 +2000,9 @@
       "athlete_dob": "07/03/2011",
       "athlete_id": "CL94381",
       "performance": "11.93",
-      "discipline": "60 metres tanques (0.50)",
-      "raw_discipline_name": "60m vallas (0,50) S12 FEM AL",
+      "discipline": "60m vallas (0,50) S12 FEM AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": null
     },
     {
@@ -1792,10 +2010,9 @@
       "athlete_dob": "05/04/2011",
       "athlete_id": "CL94384",
       "performance": "12.66",
-      "discipline": "60 metres tanques (0.50)",
-      "raw_discipline_name": "60m vallas (0,50) S12 FEM AL",
+      "discipline": "60m vallas (0,50) S12 FEM AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 1325
     },
     {
@@ -1803,10 +2020,9 @@
       "athlete_dob": "15/11/2010",
       "athlete_id": "CL90832",
       "performance": "13.39",
-      "discipline": "60 metres tanques (0.50)",
-      "raw_discipline_name": "60m vallas (0,50) S12 FEM AL",
+      "discipline": "60m vallas (0,50) S12 FEM AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": null
     },
     {
@@ -1814,10 +2030,9 @@
       "athlete_dob": "31/05/2010",
       "athlete_id": "CL90844",
       "performance": "5.60",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) S12 FEM AL",
+      "discipline": "Peso (2 Kg) S12 FEM AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 1015
     },
     {
@@ -1825,10 +2040,9 @@
       "athlete_dob": "31/05/2010",
       "athlete_id": "CL90844",
       "performance": "6.01",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) S12 FEM AL",
+      "discipline": "Peso (2 Kg) S12 FEM AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 1015
     },
     {
@@ -1836,10 +2050,9 @@
       "athlete_dob": "31/05/2010",
       "athlete_id": "CL90844",
       "performance": "5.93",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) S12 FEM AL",
+      "discipline": "Peso (2 Kg) S12 FEM AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 1015
     },
     {
@@ -1847,10 +2060,9 @@
       "athlete_dob": "15/11/2010",
       "athlete_id": "CL90832",
       "performance": "4.71",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) S12 FEM AL",
+      "discipline": "Peso (2 Kg) S12 FEM AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": null
     },
     {
@@ -1858,10 +2070,9 @@
       "athlete_dob": "15/11/2010",
       "athlete_id": "CL90832",
       "performance": "4.90",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) S12 FEM AL",
+      "discipline": "Peso (2 Kg) S12 FEM AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": null
     },
     {
@@ -1869,10 +2080,9 @@
       "athlete_dob": "15/11/2010",
       "athlete_id": "CL90832",
       "performance": "4.68",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) S12 FEM AL",
+      "discipline": "Peso (2 Kg) S12 FEM AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": null
     },
     {
@@ -1880,10 +2090,9 @@
       "athlete_dob": "05/02/2010",
       "athlete_id": "CL90841",
       "performance": "4.46",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) S12 FEM AL",
+      "discipline": "Peso (2 Kg) S12 FEM AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 1089
     },
     {
@@ -1891,10 +2100,9 @@
       "athlete_dob": "05/02/2010",
       "athlete_id": "CL90841",
       "performance": "4.71",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) S12 FEM AL",
+      "discipline": "Peso (2 Kg) S12 FEM AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 1089
     },
     {
@@ -1902,10 +2110,9 @@
       "athlete_dob": "05/02/2010",
       "athlete_id": "CL90841",
       "performance": "4.24",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) S12 FEM AL",
+      "discipline": "Peso (2 Kg) S12 FEM AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 1089
     },
     {
@@ -1913,10 +2120,9 @@
       "athlete_dob": "23/02/2010",
       "athlete_id": "CL90833",
       "performance": "4.23",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) S12 FEM AL",
+      "discipline": "Peso (2 Kg) S12 FEM AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 1081
     },
     {
@@ -1924,10 +2130,9 @@
       "athlete_dob": "23/02/2010",
       "athlete_id": "CL90833",
       "performance": "3.64",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) S12 FEM AL",
+      "discipline": "Peso (2 Kg) S12 FEM AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 1081
     },
     {
@@ -1935,10 +2140,9 @@
       "athlete_dob": "23/02/2010",
       "athlete_id": "CL90833",
       "performance": "3.51",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) S12 FEM AL",
+      "discipline": "Peso (2 Kg) S12 FEM AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 1081
     },
     {
@@ -1946,10 +2150,9 @@
       "athlete_dob": "07/03/2011",
       "athlete_id": "CL94381",
       "performance": "4.03",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) S12 FEM AL",
+      "discipline": "Peso (2 Kg) S12 FEM AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": null
     },
     {
@@ -1957,10 +2160,9 @@
       "athlete_dob": "07/03/2011",
       "athlete_id": "CL94381",
       "performance": "3.88",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) S12 FEM AL",
+      "discipline": "Peso (2 Kg) S12 FEM AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": null
     },
     {
@@ -1968,10 +2170,9 @@
       "athlete_dob": "07/03/2011",
       "athlete_id": "CL94381",
       "performance": "3.78",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) S12 FEM AL",
+      "discipline": "Peso (2 Kg) S12 FEM AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": null
     },
     {
@@ -1979,10 +2180,9 @@
       "athlete_dob": "26/08/2011",
       "athlete_id": "CL94390",
       "performance": "3.86",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) S12 FEM AL",
+      "discipline": "Peso (2 Kg) S12 FEM AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 1326
     },
     {
@@ -1990,10 +2190,9 @@
       "athlete_dob": "26/08/2011",
       "athlete_id": "CL94390",
       "performance": "3.80",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) S12 FEM AL",
+      "discipline": "Peso (2 Kg) S12 FEM AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 1326
     },
     {
@@ -2001,10 +2200,9 @@
       "athlete_dob": "23/10/2011",
       "athlete_id": "CL94385",
       "performance": "3.43",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) S12 FEM AL",
+      "discipline": "Peso (2 Kg) S12 FEM AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 1324
     },
     {
@@ -2012,10 +2210,9 @@
       "athlete_dob": "05/04/2011",
       "athlete_id": "CL94384",
       "performance": "3.13",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) S12 FEM AL",
+      "discipline": "Peso (2 Kg) S12 FEM AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 1325
     },
     {
@@ -2023,10 +2220,9 @@
       "athlete_dob": "05/04/2011",
       "athlete_id": "CL94384",
       "performance": "3.33",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) S12 FEM AL",
+      "discipline": "Peso (2 Kg) S12 FEM AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 1325
     },
     {
@@ -2034,10 +2230,9 @@
       "athlete_dob": "31/05/2010",
       "athlete_id": "CL90844",
       "performance": "3.44",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud S12 FEM. AL",
+      "discipline": "Longitud S12 FEM. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 1015
     },
     {
@@ -2045,10 +2240,9 @@
       "athlete_dob": "31/05/2010",
       "athlete_id": "CL90844",
       "performance": "3.76",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud S12 FEM. AL",
+      "discipline": "Longitud S12 FEM. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 1015
     },
     {
@@ -2056,10 +2250,9 @@
       "athlete_dob": "31/05/2010",
       "athlete_id": "CL90844",
       "performance": "3.85",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud S12 FEM. AL",
+      "discipline": "Longitud S12 FEM. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 1015
     },
     {
@@ -2067,10 +2260,9 @@
       "athlete_dob": "05/02/2010",
       "athlete_id": "CL90841",
       "performance": "3.44",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud S12 FEM. AL",
+      "discipline": "Longitud S12 FEM. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 1089
     },
     {
@@ -2078,10 +2270,9 @@
       "athlete_dob": "05/02/2010",
       "athlete_id": "CL90841",
       "performance": "3.62",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud S12 FEM. AL",
+      "discipline": "Longitud S12 FEM. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 1089
     },
     {
@@ -2089,10 +2280,9 @@
       "athlete_dob": "05/02/2010",
       "athlete_id": "CL90841",
       "performance": "3.50",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud S12 FEM. AL",
+      "discipline": "Longitud S12 FEM. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 1089
     },
     {
@@ -2100,10 +2290,9 @@
       "athlete_dob": "07/03/2011",
       "athlete_id": "CL94381",
       "performance": "3.05",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud S12 FEM. AL",
+      "discipline": "Longitud S12 FEM. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": null
     },
     {
@@ -2111,10 +2300,9 @@
       "athlete_dob": "07/03/2011",
       "athlete_id": "CL94381",
       "performance": "3.22",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud S12 FEM. AL",
+      "discipline": "Longitud S12 FEM. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": null
     },
     {
@@ -2122,10 +2310,9 @@
       "athlete_dob": "07/03/2011",
       "athlete_id": "CL94381",
       "performance": "3.31",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud S12 FEM. AL",
+      "discipline": "Longitud S12 FEM. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": null
     },
     {
@@ -2133,10 +2320,9 @@
       "athlete_dob": "26/08/2011",
       "athlete_id": "CL94390",
       "performance": "3.15",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud S12 FEM. AL",
+      "discipline": "Longitud S12 FEM. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 1326
     },
     {
@@ -2144,10 +2330,9 @@
       "athlete_dob": "26/08/2011",
       "athlete_id": "CL94390",
       "performance": "3.25",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud S12 FEM. AL",
+      "discipline": "Longitud S12 FEM. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 1326
     },
     {
@@ -2155,10 +2340,9 @@
       "athlete_dob": "23/02/2010",
       "athlete_id": "CL90833",
       "performance": "3.08",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud S12 FEM. AL",
+      "discipline": "Longitud S12 FEM. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 1081
     },
     {
@@ -2166,10 +2350,9 @@
       "athlete_dob": "23/02/2010",
       "athlete_id": "CL90833",
       "performance": "3.16",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud S12 FEM. AL",
+      "discipline": "Longitud S12 FEM. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 1081
     },
     {
@@ -2177,10 +2360,9 @@
       "athlete_dob": "23/02/2010",
       "athlete_id": "CL90833",
       "performance": "3.13",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud S12 FEM. AL",
+      "discipline": "Longitud S12 FEM. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 1081
     },
     {
@@ -2188,10 +2370,9 @@
       "athlete_dob": "05/04/2011",
       "athlete_id": "CL94384",
       "performance": "3.15",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud S12 FEM. AL",
+      "discipline": "Longitud S12 FEM. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 1325
     },
     {
@@ -2199,10 +2380,9 @@
       "athlete_dob": "15/11/2010",
       "athlete_id": "CL90832",
       "performance": "2.79",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud S12 FEM. AL",
+      "discipline": "Longitud S12 FEM. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": null
     },
     {
@@ -2210,10 +2390,9 @@
       "athlete_dob": "23/10/2011",
       "athlete_id": "CL94385",
       "performance": "2.48",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud S12 FEM. AL",
+      "discipline": "Longitud S12 FEM. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 1324
     },
     {
@@ -2221,10 +2400,9 @@
       "athlete_dob": "15/11/2010",
       "athlete_id": "CL90832",
       "performance": "10.01",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m S12 FEM. AL",
+      "discipline": "60m S12 FEM. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": null
     },
     {
@@ -2232,10 +2410,9 @@
       "athlete_dob": "07/03/2011",
       "athlete_id": "CL94381",
       "performance": "10.33",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m S12 FEM. AL",
+      "discipline": "60m S12 FEM. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": null
     },
     {
@@ -2243,10 +2420,9 @@
       "athlete_dob": "05/04/2011",
       "athlete_id": "CL94384",
       "performance": "10.44",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m S12 FEM. AL",
+      "discipline": "60m S12 FEM. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 1325
     },
     {
@@ -2254,10 +2430,9 @@
       "athlete_dob": "26/08/2011",
       "athlete_id": "CL94390",
       "performance": "9.47",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m S12 FEM. AL",
+      "discipline": "60m S12 FEM. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 1326
     },
     {
@@ -2265,10 +2440,9 @@
       "athlete_dob": "05/02/2010",
       "athlete_id": "CL90841",
       "performance": "9.54",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m S12 FEM. AL",
+      "discipline": "60m S12 FEM. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 1089
     },
     {
@@ -2276,10 +2450,9 @@
       "athlete_dob": "23/02/2010",
       "athlete_id": "CL90833",
       "performance": "9.81",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m S12 FEM. AL",
+      "discipline": "60m S12 FEM. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 1081
     },
     {
@@ -2287,10 +2460,9 @@
       "athlete_dob": "31/05/2010",
       "athlete_id": "CL90844",
       "performance": "9.15",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m S12 FEM. AL",
+      "discipline": "60m S12 FEM. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 1015
     },
     {
@@ -2298,98 +2470,89 @@
       "athlete_dob": "23/10/2011",
       "athlete_id": "CL94385",
       "performance": "10.31",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m S12 FEM. AL",
+      "discipline": "60m S12 FEM. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 1324
     },
     {
-      "athlete_name": "Clara Ortiz De Landazuri Ontoso",
+      "athlete_name": "Clara Ortiz De Landazuri Ontoso IF",
       "athlete_dob": "04/12/2009",
       "athlete_id": "CL86467",
       "performance": "16.48",
-      "discipline": "80 metres tanques (0.84)",
-      "raw_discipline_name": "80m vallas (0,762) S14 FEM CAT",
+      "discipline": "80m vallas (0,762) S14 FEM CAT",
       "wind": "-0.9",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 1022
     },
     {
-      "athlete_name": "Clara Ortiz De Landazuri Ontoso",
+      "athlete_name": "Clara Ortiz De Landazuri Ontoso IF",
       "athlete_dob": "04/12/2009",
       "athlete_id": "CL86467",
       "performance": "1.16",
-      "discipline": "Alçada",
-      "raw_discipline_name": "Altura S14 FEM. AL",
+      "discipline": "Altura S14 FEM. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 1022
     },
     {
-      "athlete_name": "Clara Ortiz De Landazuri Ontoso",
+      "athlete_name": "Clara Ortiz De Landazuri Ontoso IF",
       "athlete_dob": "04/12/2009",
       "athlete_id": "CL86467",
       "performance": "5.19",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) S14 FEM AL",
+      "discipline": "Peso (2 Kg) S14 FEM AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 1022
     },
     {
-      "athlete_name": "Clara Ortiz De Landazuri Ontoso",
+      "athlete_name": "Clara Ortiz De Landazuri Ontoso IF",
       "athlete_dob": "04/12/2009",
       "athlete_id": "CL86467",
       "performance": "6.07",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) S14 FEM AL",
+      "discipline": "Peso (2 Kg) S14 FEM AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 1022
     },
     {
-      "athlete_name": "Clara Ortiz De Landazuri Ontoso",
+      "athlete_name": "Clara Ortiz De Landazuri Ontoso IF",
       "athlete_dob": "04/12/2009",
       "athlete_id": "CL86467",
       "performance": "5.66",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) S14 FEM AL",
+      "discipline": "Peso (2 Kg) S14 FEM AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 1022
     },
     {
-      "athlete_name": "Clara Ortiz De Landazuri Ontoso",
+      "athlete_name": "Clara Ortiz De Landazuri Ontoso IF",
       "athlete_dob": "04/12/2009",
       "athlete_id": "CL86467",
       "performance": "4.21",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud S14 FEM. AL",
+      "discipline": "Longitud S14 FEM. AL",
       "wind": "+2.2",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 1022
     },
     {
-      "athlete_name": "Clara Ortiz De Landazuri Ontoso",
+      "athlete_name": "Clara Ortiz De Landazuri Ontoso IF",
       "athlete_dob": "04/12/2009",
       "athlete_id": "CL86467",
       "performance": "4.10",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud S14 FEM. AL",
+      "discipline": "Longitud S14 FEM. AL",
       "wind": "+2.3",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 1022
     },
     {
-      "athlete_name": "Clara Ortiz De Landazuri Ontoso",
+      "athlete_name": "Clara Ortiz De Landazuri Ontoso IF",
       "athlete_dob": "04/12/2009",
       "athlete_id": "CL86467",
       "performance": "11.72",
-      "discipline": "80 metres llisos",
-      "raw_discipline_name": "80m S14 FEM. AL",
+      "discipline": "80m S14 FEM. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 1022
     },
     {
@@ -2397,10 +2560,9 @@
       "athlete_dob": "04/10/2004",
       "athlete_id": "CL71720",
       "performance": "1.31",
-      "discipline": "Alçada",
-      "raw_discipline_name": "Altura S18 FEM. AL",
+      "discipline": "Altura S18 FEM. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 728
     },
     {
@@ -2408,10 +2570,9 @@
       "athlete_dob": "07/04/2005",
       "athlete_id": "CT513",
       "performance": "1.31",
-      "discipline": "Alçada",
-      "raw_discipline_name": "Altura S18 FEM. AL",
+      "discipline": "Altura S18 FEM. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 813
     },
     {
@@ -2419,10 +2580,9 @@
       "athlete_dob": "07/04/2005",
       "athlete_id": "CT513",
       "performance": "7.71",
-      "discipline": "Pes (3 Kg)",
-      "raw_discipline_name": "Peso (3kg) S18 FEM. AL",
+      "discipline": "Peso (3 Kg) S18 FEM. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 813
     },
     {
@@ -2430,10 +2590,9 @@
       "athlete_dob": "07/04/2005",
       "athlete_id": "CT513",
       "performance": "8.63",
-      "discipline": "Pes (3 Kg)",
-      "raw_discipline_name": "Peso (3kg) S18 FEM. AL",
+      "discipline": "Peso (3 Kg) S18 FEM. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 813
     },
     {
@@ -2441,10 +2600,9 @@
       "athlete_dob": "07/04/2005",
       "athlete_id": "CT513",
       "performance": "9.04",
-      "discipline": "Pes (3 Kg)",
-      "raw_discipline_name": "Peso (3kg) S18 FEM. AL",
+      "discipline": "Peso (3 Kg) S18 FEM. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 813
     },
     {
@@ -2452,10 +2610,9 @@
       "athlete_dob": "04/10/2004",
       "athlete_id": "CL71720",
       "performance": "6.00",
-      "discipline": "Pes (3 Kg)",
-      "raw_discipline_name": "Peso (3kg) S18 FEM. AL",
+      "discipline": "Peso (3 Kg) S18 FEM. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 728
     },
     {
@@ -2463,10 +2620,9 @@
       "athlete_dob": "04/10/2004",
       "athlete_id": "CL71720",
       "performance": "5.81",
-      "discipline": "Pes (3 Kg)",
-      "raw_discipline_name": "Peso (3kg) S18 FEM. AL",
+      "discipline": "Peso (3 Kg) S18 FEM. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 728
     },
     {
@@ -2474,10 +2630,9 @@
       "athlete_dob": "04/10/2004",
       "athlete_id": "CL71720",
       "performance": "5.97",
-      "discipline": "Pes (3 Kg)",
-      "raw_discipline_name": "Peso (3kg) S18 FEM. AL",
+      "discipline": "Peso (3 Kg) S18 FEM. AL",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 728
     },
     {
@@ -2485,10 +2640,9 @@
       "athlete_dob": "04/10/2004",
       "athlete_id": "CL71720",
       "performance": "31.78",
-      "discipline": "200 metres llisos",
-      "raw_discipline_name": "200m S18 FEM. AL",
+      "discipline": "200m S18 FEM. AL",
       "wind": "-0.9",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 728
     },
     {
@@ -2496,10 +2650,9 @@
       "athlete_dob": "07/04/2005",
       "athlete_id": "CT513",
       "performance": "31.68",
-      "discipline": "200 metres llisos",
-      "raw_discipline_name": "200m S18 FEM. AL",
+      "discipline": "200m S18 FEM. AL",
       "wind": "+1.3",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 813
     },
     {
@@ -2507,10 +2660,9 @@
       "athlete_dob": "07/04/2005",
       "athlete_id": "CT513",
       "performance": "4.42",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud S18 FEM. AL",
+      "discipline": "Longitud S18 FEM. AL",
       "wind": "+0.9",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 813
     },
     {
@@ -2518,10 +2670,9 @@
       "athlete_dob": "04/10/2004",
       "athlete_id": "CL71720",
       "performance": "4.02",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud S18 FEM. AL",
+      "discipline": "Longitud S18 FEM. AL",
       "wind": "+1.4",
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 728
     },
     {
@@ -2529,10 +2680,9 @@
       "athlete_dob": "07/04/2005",
       "athlete_id": "CT513",
       "performance": "19.58",
-      "discipline": "Javelina (500 g)",
-      "raw_discipline_name": "Jabalina (500g) S18 FEM.",
+      "discipline": "Jabalina (500g) S18 FEM.",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 813
     },
     {
@@ -2540,10 +2690,9 @@
       "athlete_dob": "07/04/2005",
       "athlete_id": "CT513",
       "performance": "14.63",
-      "discipline": "Javelina (500 g)",
-      "raw_discipline_name": "Jabalina (500g) S18 FEM.",
+      "discipline": "Jabalina (500g) S18 FEM.",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 813
     },
     {
@@ -2551,10 +2700,9 @@
       "athlete_dob": "07/04/2005",
       "athlete_id": "CT513",
       "performance": "17.38",
-      "discipline": "Javelina (500 g)",
-      "raw_discipline_name": "Jabalina (500g) S18 FEM.",
+      "discipline": "Jabalina (500g) S18 FEM.",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 813
     },
     {
@@ -2562,10 +2710,9 @@
       "athlete_dob": "04/10/2004",
       "athlete_id": "CL71720",
       "performance": "14.62",
-      "discipline": "Javelina (500 g)",
-      "raw_discipline_name": "Jabalina (500g) S18 FEM.",
+      "discipline": "Jabalina (500g) S18 FEM.",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 728
     },
     {
@@ -2573,10 +2720,9 @@
       "athlete_dob": "04/10/2004",
       "athlete_id": "CL71720",
       "performance": "15.15",
-      "discipline": "Javelina (500 g)",
-      "raw_discipline_name": "Jabalina (500g) S18 FEM.",
+      "discipline": "Jabalina (500g) S18 FEM.",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 728
     },
     {
@@ -2584,11 +2730,30 @@
       "athlete_dob": "04/10/2004",
       "athlete_id": "CL71720",
       "performance": "14.93",
-      "discipline": "Javelina (500 g)",
-      "raw_discipline_name": "Jabalina (500g) S18 FEM.",
+      "discipline": "Jabalina (500g) S18 FEM.",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/04/resultat-2021041718-cnatterritcombinadestarragona.pdf",
+      "position": null,
       "internal_id": 728
+    },
+    {
+      "athlete_name": "Lucia Mayolas Martinez",
+      "athlete_dob": "04/10/2004",
+      "athlete_id": "CL71720",
+      "performance": "2:52.42",
+      "discipline": "800m S18 FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 728
+    },
+    {
+      "athlete_name": "Lara Herrera Vallve",
+      "athlete_dob": "07/04/2005",
+      "athlete_id": "CT513",
+      "performance": "3:08.34",
+      "discipline": "800m S18 FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 813
     }
   ]
 }

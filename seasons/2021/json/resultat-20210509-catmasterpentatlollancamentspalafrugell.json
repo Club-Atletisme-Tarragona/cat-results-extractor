@@ -2,18 +2,37 @@
   "event_name": "Campionat de Catalunya Màster Pentatló de Llançaments",
   "event_date": "09/05/2021",
   "event_location": "Palafrugell",
-  "total_results": 10,
+  "total_results": 35,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/05/resultat-20210509-catmasterpentatlollancamentspalafrugell.pdf",
   "results": [
     {
       "athlete_name": "Adria Serres Pardines",
       "athlete_dob": "12/09/1983",
       "athlete_id": "CL11395",
-      "performance": "10.16",
-      "discipline": "Pes (7.260 Kg)",
-      "raw_discipline_name": "Pes (7,260kg) M35-39",
+      "performance": "28.78",
+      "discipline": "Martell (7,260 Kg) M35-39",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/05/resultat-20210509-catmasterpentatlollancamentspalafrugell.pdf",
+      "position": null,
+      "internal_id": 133
+    },
+    {
+      "athlete_name": "Adria Serres Pardines",
+      "athlete_dob": "12/09/1983",
+      "athlete_id": "CL11395",
+      "performance": "27.58",
+      "discipline": "Martell (7,260 Kg) M35-39",
+      "wind": null,
+      "position": null,
+      "internal_id": 133
+    },
+    {
+      "athlete_name": "Adria Serres Pardines",
+      "athlete_dob": "12/09/1983",
+      "athlete_id": "CL11395",
+      "performance": "10.16",
+      "discipline": "Pes (7,260 Kg) M35-39",
+      "wind": null,
+      "position": null,
       "internal_id": 133
     },
     {
@@ -21,10 +40,9 @@
       "athlete_dob": "12/09/1983",
       "athlete_id": "CL11395",
       "performance": "10.20",
-      "discipline": "Pes (7.260 Kg)",
-      "raw_discipline_name": "Pes (7,260kg) M35-39",
+      "discipline": "Pes (7,260 Kg) M35-39",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/05/resultat-20210509-catmasterpentatlollancamentspalafrugell.pdf",
+      "position": null,
       "internal_id": 133
     },
     {
@@ -32,10 +50,9 @@
       "athlete_dob": "12/09/1983",
       "athlete_id": "CL11395",
       "performance": "10.32",
-      "discipline": "Pes (7.260 Kg)",
-      "raw_discipline_name": "Pes (7,260kg) M35-39",
+      "discipline": "Pes (7,260 Kg) M35-39",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/05/resultat-20210509-catmasterpentatlollancamentspalafrugell.pdf",
+      "position": null,
       "internal_id": 133
     },
     {
@@ -43,10 +60,9 @@
       "athlete_dob": "12/09/1983",
       "athlete_id": "CL11395",
       "performance": "31.44",
-      "discipline": "Disc (2 Kg)",
-      "raw_discipline_name": "Disc (2kg) M35-39",
+      "discipline": "Disc (2 Kg) M35-39",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/05/resultat-20210509-catmasterpentatlollancamentspalafrugell.pdf",
+      "position": null,
       "internal_id": 133
     },
     {
@@ -54,10 +70,9 @@
       "athlete_dob": "12/09/1983",
       "athlete_id": "CL11395",
       "performance": "33.47",
-      "discipline": "Disc (2 Kg)",
-      "raw_discipline_name": "Disc (2kg) M35-39",
+      "discipline": "Disc (2 Kg) M35-39",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/05/resultat-20210509-catmasterpentatlollancamentspalafrugell.pdf",
+      "position": null,
       "internal_id": 133
     },
     {
@@ -65,10 +80,39 @@
       "athlete_dob": "12/09/1983",
       "athlete_id": "CL11395",
       "performance": "33.99",
-      "discipline": "Disc (2 Kg)",
-      "raw_discipline_name": "Disc (2kg) M35-39",
+      "discipline": "Disc (2 Kg) M35-39",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/05/resultat-20210509-catmasterpentatlollancamentspalafrugell.pdf",
+      "position": null,
+      "internal_id": 133
+    },
+    {
+      "athlete_name": "Adria Serres Pardines",
+      "athlete_dob": "12/09/1983",
+      "athlete_id": "CL11395",
+      "performance": "39.36",
+      "discipline": "Javelina (800g) M35-39",
+      "wind": null,
+      "position": null,
+      "internal_id": 133
+    },
+    {
+      "athlete_name": "Adria Serres Pardines",
+      "athlete_dob": "12/09/1983",
+      "athlete_id": "CL11395",
+      "performance": "40.12",
+      "discipline": "Javelina (800g) M35-39",
+      "wind": null,
+      "position": null,
+      "internal_id": 133
+    },
+    {
+      "athlete_name": "Adria Serres Pardines",
+      "athlete_dob": "12/09/1983",
+      "athlete_id": "CL11395",
+      "performance": "42.19",
+      "discipline": "Javelina (800g) M35-39",
+      "wind": null,
+      "position": null,
       "internal_id": 133
     },
     {
@@ -76,10 +120,9 @@
       "athlete_dob": "12/09/1983",
       "athlete_id": "CL11395",
       "performance": "6.71",
-      "discipline": "Martell pesat (15.88 Kg)",
-      "raw_discipline_name": "Martell Pesat (15,88Kg) M35-49",
+      "discipline": "Martell Pesat (15,88 Kg) M35-49",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/05/resultat-20210509-catmasterpentatlollancamentspalafrugell.pdf",
+      "position": null,
       "internal_id": 133
     },
     {
@@ -87,21 +130,79 @@
       "athlete_dob": "12/09/1983",
       "athlete_id": "CL11395",
       "performance": "7.40",
-      "discipline": "Martell pesat (15.88 Kg)",
-      "raw_discipline_name": "Martell Pesat (15,88Kg) M35-49",
+      "discipline": "Martell Pesat (15,88 Kg) M35-49",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/05/resultat-20210509-catmasterpentatlollancamentspalafrugell.pdf",
+      "position": null,
       "internal_id": 133
     },
     {
       "athlete_name": "Luis Saez Perez",
       "athlete_dob": "01/03/1949",
       "athlete_id": "CT17487",
-      "performance": "25.30",
-      "discipline": "Javelina (500 g)",
-      "raw_discipline_name": "Javelina (500g) M70-74",
+      "performance": "17.67",
+      "discipline": "Martell (4 Kg) M70-74",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/05/resultat-20210509-catmasterpentatlollancamentspalafrugell.pdf",
+      "position": null,
+      "internal_id": 304
+    },
+    {
+      "athlete_name": "Luis Saez Perez",
+      "athlete_dob": "01/03/1949",
+      "athlete_id": "CT17487",
+      "performance": "8.10",
+      "discipline": "Pes (4 Kg) M70-74",
+      "wind": null,
+      "position": null,
+      "internal_id": 304
+    },
+    {
+      "athlete_name": "Luis Saez Perez",
+      "athlete_dob": "01/03/1949",
+      "athlete_id": "CT17487",
+      "performance": "7.87",
+      "discipline": "Pes (4 Kg) M70-74",
+      "wind": null,
+      "position": null,
+      "internal_id": 304
+    },
+    {
+      "athlete_name": "Luis Saez Perez",
+      "athlete_dob": "01/03/1949",
+      "athlete_id": "CT17487",
+      "performance": "22.16",
+      "discipline": "Disc (1 Kg) M70-74",
+      "wind": null,
+      "position": null,
+      "internal_id": 304
+    },
+    {
+      "athlete_name": "Luis Saez Perez",
+      "athlete_dob": "01/03/1949",
+      "athlete_id": "CT17487",
+      "performance": "23.37",
+      "discipline": "Disc (1 Kg) M70-74",
+      "wind": null,
+      "position": null,
+      "internal_id": 304
+    },
+    {
+      "athlete_name": "Luis Saez Perez",
+      "athlete_dob": "01/03/1949",
+      "athlete_id": "CT17487",
+      "performance": "23.57",
+      "discipline": "Disc (1 Kg) M70-74",
+      "wind": null,
+      "position": null,
+      "internal_id": 304
+    },
+    {
+      "athlete_name": "Luis Saez Perez",
+      "athlete_dob": "01/03/1949",
+      "athlete_id": "CT17487",
+      "performance": "25.30",
+      "discipline": "Javelina (500g) M70-74",
+      "wind": null,
+      "position": null,
       "internal_id": 304
     },
     {
@@ -109,11 +210,150 @@
       "athlete_dob": "01/03/1949",
       "athlete_id": "CT17487",
       "performance": "26.50",
-      "discipline": "Javelina (500 g)",
-      "raw_discipline_name": "Javelina (500g) M70-74",
+      "discipline": "Javelina (500g) M70-74",
       "wind": null,
-      "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/05/resultat-20210509-catmasterpentatlollancamentspalafrugell.pdf",
+      "position": null,
       "internal_id": 304
+    },
+    {
+      "athlete_name": "Luis Saez Perez",
+      "athlete_dob": "01/03/1949",
+      "athlete_id": "CT17487",
+      "performance": "9.92",
+      "discipline": "Martell Pesat (7,26 Kg) M70-74",
+      "wind": null,
+      "position": null,
+      "internal_id": 304
+    },
+    {
+      "athlete_name": "Luis Saez Perez",
+      "athlete_dob": "01/03/1949",
+      "athlete_id": "CT17487",
+      "performance": "8.86",
+      "discipline": "Martell Pesat (7,26 Kg) M70-74",
+      "wind": null,
+      "position": null,
+      "internal_id": 304
+    },
+    {
+      "athlete_name": "Luis Saez Perez",
+      "athlete_dob": "01/03/1949",
+      "athlete_id": "CT17487",
+      "performance": "9.36",
+      "discipline": "Martell Pesat (7,26 Kg) M70-74",
+      "wind": null,
+      "position": null,
+      "internal_id": 304
+    },
+    {
+      "athlete_name": "Barbara Pintado Duch",
+      "athlete_dob": "29/04/1985",
+      "athlete_id": "CL13219",
+      "performance": "7.92",
+      "discipline": "Pes (4 Kg) F35-39",
+      "wind": null,
+      "position": null,
+      "internal_id": 159
+    },
+    {
+      "athlete_name": "Barbara Pintado Duch",
+      "athlete_dob": "29/04/1985",
+      "athlete_id": "CL13219",
+      "performance": "8.30",
+      "discipline": "Pes (4 Kg) F35-39",
+      "wind": null,
+      "position": null,
+      "internal_id": 159
+    },
+    {
+      "athlete_name": "Barbara Pintado Duch",
+      "athlete_dob": "29/04/1985",
+      "athlete_id": "CL13219",
+      "performance": "34.24",
+      "discipline": "Disc (1 Kg) F35-39",
+      "wind": null,
+      "position": null,
+      "internal_id": 159
+    },
+    {
+      "athlete_name": "Barbara Pintado Duch",
+      "athlete_dob": "29/04/1985",
+      "athlete_id": "CL13219",
+      "performance": "33.86",
+      "discipline": "Disc (1 Kg) F35-39",
+      "wind": null,
+      "position": null,
+      "internal_id": 159
+    },
+    {
+      "athlete_name": "Barbara Pintado Duch",
+      "athlete_dob": "29/04/1985",
+      "athlete_id": "CL13219",
+      "performance": "33.63",
+      "discipline": "Disc (1 Kg) F35-39",
+      "wind": null,
+      "position": null,
+      "internal_id": 159
+    },
+    {
+      "athlete_name": "Barbara Pintado Duch",
+      "athlete_dob": "29/04/1985",
+      "athlete_id": "CL13219",
+      "performance": "21.76",
+      "discipline": "Javelina (600g) F35-39",
+      "wind": null,
+      "position": null,
+      "internal_id": 159
+    },
+    {
+      "athlete_name": "Barbara Pintado Duch",
+      "athlete_dob": "29/04/1985",
+      "athlete_id": "CL13219",
+      "performance": "19.72",
+      "discipline": "Javelina (600g) F35-39",
+      "wind": null,
+      "position": null,
+      "internal_id": 159
+    },
+    {
+      "athlete_name": "Barbara Pintado Duch",
+      "athlete_dob": "29/04/1985",
+      "athlete_id": "CL13219",
+      "performance": "20.99",
+      "discipline": "Javelina (600g) F35-39",
+      "wind": null,
+      "position": null,
+      "internal_id": 159
+    },
+    {
+      "athlete_name": "Barbara Pintado Duch",
+      "athlete_dob": "29/04/1985",
+      "athlete_id": "CL13219",
+      "performance": "10.14",
+      "discipline": "Martell Pesat (9,08 Kg) F35-39",
+      "wind": null,
+      "position": null,
+      "internal_id": 159
+    },
+    {
+      "athlete_name": "Barbara Pintado Duch",
+      "athlete_dob": "29/04/1985",
+      "athlete_id": "CL13219",
+      "performance": "9.78",
+      "discipline": "Martell Pesat (9,08 Kg) F35-39",
+      "wind": null,
+      "position": null,
+      "internal_id": 159
+    },
+    {
+      "athlete_name": "Barbara Pintado Duch",
+      "athlete_dob": "29/04/1985",
+      "athlete_id": "CL13219",
+      "performance": "10.85",
+      "discipline": "Martell Pesat (9,08 Kg) F35-39",
+      "wind": null,
+      "position": null,
+      "internal_id": 159
     }
   ]
 }

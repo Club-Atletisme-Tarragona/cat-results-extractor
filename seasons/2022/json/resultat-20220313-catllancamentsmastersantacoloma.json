@@ -2,17 +2,567 @@
   "event_name": "5è Campionat de Catalunya Màster de Llançaments d´Hivern",
   "event_date": "13/03/2022",
   "event_location": "Santa Coloma de Gramenet",
-  "total_results": 11,
+  "total_results": 74,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2022/03/resultat-20220313-catllancamentsmastersantacoloma.pdf",
   "results": [
     {
       "athlete_name": "Didac Exposito Garcia",
       "athlete_dob": "04/08/1973",
       "athlete_id": "CT3967",
-      "performance": "27.94",
-      "discipline": "Disc (2 Kg)",
-      "raw_discipline_name": "Disco Vet. MAS. M45",
+      "performance": "8.52",
+      "discipline": "Martillo Pesado Vet. MAS. AL M45",
       "wind": null,
+      "position": 5,
+      "internal_id": 44
+    },
+    {
+      "athlete_name": "Didac Exposito Garcia",
+      "athlete_dob": "04/08/1973",
+      "athlete_id": "CT3967",
+      "performance": "8.90",
+      "discipline": "Martillo Pesado Vet. MAS. AL M45",
+      "wind": null,
+      "position": 5,
+      "internal_id": 44
+    },
+    {
+      "athlete_name": "Didac Exposito Garcia",
+      "athlete_dob": "04/08/1973",
+      "athlete_id": "CT3967",
+      "performance": "8.33",
+      "discipline": "Martillo Pesado Vet. MAS. AL M45",
+      "wind": null,
+      "position": 5,
+      "internal_id": 44
+    },
+    {
+      "athlete_name": "Didac Exposito Garcia",
+      "athlete_dob": "04/08/1973",
+      "athlete_id": "CT3967",
+      "performance": "8.75",
+      "discipline": "Martillo Pesado Vet. MAS. AL M45",
+      "wind": null,
+      "position": 5,
+      "internal_id": 44
+    },
+    {
+      "athlete_name": "Didac Exposito Garcia",
+      "athlete_dob": "04/08/1973",
+      "athlete_id": "CT3967",
+      "performance": "9.32",
+      "discipline": "Martillo Pesado Vet. MAS. AL M45",
+      "wind": null,
+      "position": 5,
+      "internal_id": 44
+    },
+    {
+      "athlete_name": "Didac Exposito Garcia",
+      "athlete_dob": "04/08/1973",
+      "athlete_id": "CT3967",
+      "performance": "9.23",
+      "discipline": "Martillo Pesado Vet. MAS. AL M45",
+      "wind": null,
+      "position": 5,
+      "internal_id": 44
+    },
+    {
+      "athlete_name": "Francesc Mosquera Pages",
+      "athlete_dob": "07/09/1956",
+      "athlete_id": "CL7167",
+      "performance": "9.65",
+      "discipline": "Martillo Pesado Vet. MAS. AL M65",
+      "wind": null,
+      "position": 2,
+      "internal_id": 855
+    },
+    {
+      "athlete_name": "Francesc Mosquera Pages",
+      "athlete_dob": "07/09/1956",
+      "athlete_id": "CL7167",
+      "performance": "9.58",
+      "discipline": "Martillo Pesado Vet. MAS. AL M65",
+      "wind": null,
+      "position": 2,
+      "internal_id": 855
+    },
+    {
+      "athlete_name": "Francesc Mosquera Pages",
+      "athlete_dob": "07/09/1956",
+      "athlete_id": "CL7167",
+      "performance": "9.85",
+      "discipline": "Martillo Pesado Vet. MAS. AL M65",
+      "wind": null,
+      "position": 2,
+      "internal_id": 855
+    },
+    {
+      "athlete_name": "Francesc Mosquera Pages",
+      "athlete_dob": "07/09/1956",
+      "athlete_id": "CL7167",
+      "performance": "9.09",
+      "discipline": "Martillo Pesado Vet. MAS. AL M65",
+      "wind": null,
+      "position": 2,
+      "internal_id": 855
+    },
+    {
+      "athlete_name": "Francesc Mosquera Pages",
+      "athlete_dob": "07/09/1956",
+      "athlete_id": "CL7167",
+      "performance": "10.76",
+      "discipline": "Martillo Pesado Vet. MAS. AL M65",
+      "wind": null,
+      "position": 2,
+      "internal_id": 855
+    },
+    {
+      "athlete_name": "Luis Saez Perez",
+      "athlete_dob": "01/03/1949",
+      "athlete_id": "CT17487",
+      "performance": "9.26",
+      "discipline": "Martillo Pesado Vet. MAS. AL M70",
+      "wind": null,
+      "position": 2,
+      "internal_id": 304
+    },
+    {
+      "athlete_name": "Luis Saez Perez",
+      "athlete_dob": "01/03/1949",
+      "athlete_id": "CT17487",
+      "performance": "8.58",
+      "discipline": "Martillo Pesado Vet. MAS. AL M70",
+      "wind": null,
+      "position": 2,
+      "internal_id": 304
+    },
+    {
+      "athlete_name": "Luis Saez Perez",
+      "athlete_dob": "01/03/1949",
+      "athlete_id": "CT17487",
+      "performance": "8.73",
+      "discipline": "Martillo Pesado Vet. MAS. AL M70",
+      "wind": null,
+      "position": 2,
+      "internal_id": 304
+    },
+    {
+      "athlete_name": "Luis Saez Perez",
+      "athlete_dob": "01/03/1949",
+      "athlete_id": "CT17487",
+      "performance": "9.40",
+      "discipline": "Martillo Pesado Vet. MAS. AL M70",
+      "wind": null,
+      "position": 2,
+      "internal_id": 304
+    },
+    {
+      "athlete_name": "Luis Saez Perez",
+      "athlete_dob": "01/03/1949",
+      "athlete_id": "CT17487",
+      "performance": "8.37",
+      "discipline": "Martillo Pesado Vet. MAS. AL M70",
+      "wind": null,
+      "position": 2,
+      "internal_id": 304
+    },
+    {
+      "athlete_name": "Francisco Griñant Almagro",
+      "athlete_dob": "04/08/1947",
+      "athlete_id": "CT18394",
+      "performance": "6.86",
+      "discipline": "Martillo Pesado Vet. MAS. AL M70",
+      "wind": null,
+      "position": 4,
+      "internal_id": 326
+    },
+    {
+      "athlete_name": "Francisco Griñant Almagro",
+      "athlete_dob": "04/08/1947",
+      "athlete_id": "CT18394",
+      "performance": "6.92",
+      "discipline": "Martillo Pesado Vet. MAS. AL M70",
+      "wind": null,
+      "position": 4,
+      "internal_id": 326
+    },
+    {
+      "athlete_name": "Francisco Griñant Almagro",
+      "athlete_dob": "04/08/1947",
+      "athlete_id": "CT18394",
+      "performance": "7.35",
+      "discipline": "Martillo Pesado Vet. MAS. AL M70",
+      "wind": null,
+      "position": 4,
+      "internal_id": 326
+    },
+    {
+      "athlete_name": "Francisco Griñant Almagro",
+      "athlete_dob": "04/08/1947",
+      "athlete_id": "CT18394",
+      "performance": "7.44",
+      "discipline": "Martillo Pesado Vet. MAS. AL M70",
+      "wind": null,
+      "position": 4,
+      "internal_id": 326
+    },
+    {
+      "athlete_name": "Francisco Griñant Almagro",
+      "athlete_dob": "04/08/1947",
+      "athlete_id": "CT18394",
+      "performance": "7.42",
+      "discipline": "Martillo Pesado Vet. MAS. AL M70",
+      "wind": null,
+      "position": 4,
+      "internal_id": 326
+    },
+    {
+      "athlete_name": "Luis Saez Perez",
+      "athlete_dob": "01/03/1949",
+      "athlete_id": "CT17487",
+      "performance": "19.86",
+      "discipline": "Martillo Vet. MAS. M70",
+      "wind": null,
+      "position": 3,
+      "internal_id": 304
+    },
+    {
+      "athlete_name": "Luis Saez Perez",
+      "athlete_dob": "01/03/1949",
+      "athlete_id": "CT17487",
+      "performance": "19.57",
+      "discipline": "Martillo Vet. MAS. M70",
+      "wind": null,
+      "position": 3,
+      "internal_id": 304
+    },
+    {
+      "athlete_name": "Luis Saez Perez",
+      "athlete_dob": "01/03/1949",
+      "athlete_id": "CT17487",
+      "performance": "19.77",
+      "discipline": "Martillo Vet. MAS. M70",
+      "wind": null,
+      "position": 3,
+      "internal_id": 304
+    },
+    {
+      "athlete_name": "Luis Saez Perez",
+      "athlete_dob": "01/03/1949",
+      "athlete_id": "CT17487",
+      "performance": "19.72",
+      "discipline": "Martillo Vet. MAS. M70",
+      "wind": null,
+      "position": 3,
+      "internal_id": 304
+    },
+    {
+      "athlete_name": "Francisco Griñant Almagro",
+      "athlete_dob": "04/08/1947",
+      "athlete_id": "CT18394",
+      "performance": "16.81",
+      "discipline": "Martillo Vet. MAS. M70",
+      "wind": null,
+      "position": 4,
+      "internal_id": 326
+    },
+    {
+      "athlete_name": "Francisco Griñant Almagro",
+      "athlete_dob": "04/08/1947",
+      "athlete_id": "CT18394",
+      "performance": "17.82",
+      "discipline": "Martillo Vet. MAS. M70",
+      "wind": null,
+      "position": 4,
+      "internal_id": 326
+    },
+    {
+      "athlete_name": "Francisco Griñant Almagro",
+      "athlete_dob": "04/08/1947",
+      "athlete_id": "CT18394",
+      "performance": "13.97",
+      "discipline": "Martillo Vet. MAS. M70",
+      "wind": null,
+      "position": 4,
+      "internal_id": 326
+    },
+    {
+      "athlete_name": "Francisco Griñant Almagro",
+      "athlete_dob": "04/08/1947",
+      "athlete_id": "CT18394",
+      "performance": "16.18",
+      "discipline": "Martillo Vet. MAS. M70",
+      "wind": null,
+      "position": 4,
+      "internal_id": 326
+    },
+    {
+      "athlete_name": "Francisco Griñant Almagro",
+      "athlete_dob": "04/08/1947",
+      "athlete_id": "CT18394",
+      "performance": "15.37",
+      "discipline": "Martillo Vet. MAS. M70",
+      "wind": null,
+      "position": 4,
+      "internal_id": 326
+    },
+    {
+      "athlete_name": "Francesc Mosquera Pages",
+      "athlete_dob": "07/09/1956",
+      "athlete_id": "CL7167",
+      "performance": "23.11",
+      "discipline": "Martillo Vet. MAS. M65",
+      "wind": null,
+      "position": 3,
+      "internal_id": 855
+    },
+    {
+      "athlete_name": "Francesc Mosquera Pages",
+      "athlete_dob": "07/09/1956",
+      "athlete_id": "CL7167",
+      "performance": "23.49",
+      "discipline": "Martillo Vet. MAS. M65",
+      "wind": null,
+      "position": 3,
+      "internal_id": 855
+    },
+    {
+      "athlete_name": "Francesc Mosquera Pages",
+      "athlete_dob": "07/09/1956",
+      "athlete_id": "CL7167",
+      "performance": "23.68",
+      "discipline": "Martillo Vet. MAS. M65",
+      "wind": null,
+      "position": 3,
+      "internal_id": 855
+    },
+    {
+      "athlete_name": "Luis Saez Perez",
+      "athlete_dob": "01/03/1949",
+      "athlete_id": "CT17487",
+      "performance": "22.46",
+      "discipline": "Jabalina Vet. MAS. M70",
+      "wind": null,
+      "position": 2,
+      "internal_id": 304
+    },
+    {
+      "athlete_name": "Luis Saez Perez",
+      "athlete_dob": "01/03/1949",
+      "athlete_id": "CT17487",
+      "performance": "24.25",
+      "discipline": "Jabalina Vet. MAS. M70",
+      "wind": null,
+      "position": 2,
+      "internal_id": 304
+    },
+    {
+      "athlete_name": "Francisco Griñant Almagro",
+      "athlete_dob": "04/08/1947",
+      "athlete_id": "CT18394",
+      "performance": "15.13",
+      "discipline": "Jabalina Vet. MAS. M70",
+      "wind": null,
+      "position": 3,
+      "internal_id": 326
+    },
+    {
+      "athlete_name": "Francisco Griñant Almagro",
+      "athlete_dob": "04/08/1947",
+      "athlete_id": "CT18394",
+      "performance": "15.80",
+      "discipline": "Jabalina Vet. MAS. M70",
+      "wind": null,
+      "position": 3,
+      "internal_id": 326
+    },
+    {
+      "athlete_name": "Francesc Mosquera Pages",
+      "athlete_dob": "07/09/1956",
+      "athlete_id": "CL7167",
+      "performance": "33.99",
+      "discipline": "Jabalina Vet. MAS. M65",
+      "wind": null,
+      "position": 1,
+      "internal_id": 855
+    },
+    {
+      "athlete_name": "Francesc Mosquera Pages",
+      "athlete_dob": "07/09/1956",
+      "athlete_id": "CL7167",
+      "performance": "30.04",
+      "discipline": "Jabalina Vet. MAS. M65",
+      "wind": null,
+      "position": 1,
+      "internal_id": 855
+    },
+    {
+      "athlete_name": "Francesc Mosquera Pages",
+      "athlete_dob": "07/09/1956",
+      "athlete_id": "CL7167",
+      "performance": "32.79",
+      "discipline": "Jabalina Vet. MAS. M65",
+      "wind": null,
+      "position": 1,
+      "internal_id": 855
+    },
+    {
+      "athlete_name": "Francesc Mosquera Pages",
+      "athlete_dob": "07/09/1956",
+      "athlete_id": "CL7167",
+      "performance": "30.81",
+      "discipline": "Jabalina Vet. MAS. M65",
+      "wind": null,
+      "position": 1,
+      "internal_id": 855
+    },
+    {
+      "athlete_name": "Francesc Mosquera Pages",
+      "athlete_dob": "07/09/1956",
+      "athlete_id": "CL7167",
+      "performance": "35.40",
+      "discipline": "Jabalina Vet. MAS. M65",
+      "wind": null,
+      "position": 1,
+      "internal_id": 855
+    },
+    {
+      "athlete_name": "Francesc Mosquera Pages",
+      "athlete_dob": "07/09/1956",
+      "athlete_id": "CL7167",
+      "performance": "27.95",
+      "discipline": "Jabalina Vet. MAS. M65",
+      "wind": null,
+      "position": 1,
+      "internal_id": 855
+    },
+    {
+      "athlete_name": "Francesc Mosquera Pages",
+      "athlete_dob": "07/09/1956",
+      "athlete_id": "CL7167",
+      "performance": "24.26",
+      "discipline": "Disco Vet. MAS. M65",
+      "wind": null,
+      "position": 1,
+      "internal_id": 855
+    },
+    {
+      "athlete_name": "Francesc Mosquera Pages",
+      "athlete_dob": "07/09/1956",
+      "athlete_id": "CL7167",
+      "performance": "28.82",
+      "discipline": "Disco Vet. MAS. M65",
+      "wind": null,
+      "position": 1,
+      "internal_id": 855
+    },
+    {
+      "athlete_name": "Francesc Mosquera Pages",
+      "athlete_dob": "07/09/1956",
+      "athlete_id": "CL7167",
+      "performance": "27.17",
+      "discipline": "Disco Vet. MAS. M65",
+      "wind": null,
+      "position": 1,
+      "internal_id": 855
+    },
+    {
+      "athlete_name": "Francesc Mosquera Pages",
+      "athlete_dob": "07/09/1956",
+      "athlete_id": "CL7167",
+      "performance": "30.65",
+      "discipline": "Disco Vet. MAS. M65",
+      "wind": null,
+      "position": 1,
+      "internal_id": 855
+    },
+    {
+      "athlete_name": "Luis Saez Perez",
+      "athlete_dob": "01/03/1949",
+      "athlete_id": "CT17487",
+      "performance": "22.52",
+      "discipline": "Disco Vet. MAS. M70",
+      "wind": null,
+      "position": 2,
+      "internal_id": 304
+    },
+    {
+      "athlete_name": "Luis Saez Perez",
+      "athlete_dob": "01/03/1949",
+      "athlete_id": "CT17487",
+      "performance": "24.96",
+      "discipline": "Disco Vet. MAS. M70",
+      "wind": null,
+      "position": 2,
+      "internal_id": 304
+    },
+    {
+      "athlete_name": "Luis Saez Perez",
+      "athlete_dob": "01/03/1949",
+      "athlete_id": "CT17487",
+      "performance": "21.13",
+      "discipline": "Disco Vet. MAS. M70",
+      "wind": null,
+      "position": 2,
+      "internal_id": 304
+    },
+    {
+      "athlete_name": "Luis Saez Perez",
+      "athlete_dob": "01/03/1949",
+      "athlete_id": "CT17487",
+      "performance": "22.89",
+      "discipline": "Disco Vet. MAS. M70",
+      "wind": null,
+      "position": 2,
+      "internal_id": 304
+    },
+    {
+      "athlete_name": "Luis Saez Perez",
+      "athlete_dob": "01/03/1949",
+      "athlete_id": "CT17487",
+      "performance": "21.96",
+      "discipline": "Disco Vet. MAS. M70",
+      "wind": null,
+      "position": 2,
+      "internal_id": 304
+    },
+    {
+      "athlete_name": "Francisco Griñant Almagro",
+      "athlete_dob": "04/08/1947",
+      "athlete_id": "CT18394",
+      "performance": "20.34",
+      "discipline": "Disco Vet. MAS. M70",
+      "wind": null,
+      "position": 3,
+      "internal_id": 326
+    },
+    {
+      "athlete_name": "Francisco Griñant Almagro",
+      "athlete_dob": "04/08/1947",
+      "athlete_id": "CT18394",
+      "performance": "19.17",
+      "discipline": "Disco Vet. MAS. M70",
+      "wind": null,
+      "position": 3,
+      "internal_id": 326
+    },
+    {
+      "athlete_name": "Francisco Griñant Almagro",
+      "athlete_dob": "04/08/1947",
+      "athlete_id": "CT18394",
+      "performance": "19.25",
+      "discipline": "Disco Vet. MAS. M70",
+      "wind": null,
+      "position": 3,
+      "internal_id": 326
+    },
+    {
+      "athlete_name": "Didac Exposito Garcia",
+      "athlete_dob": "04/08/1973",
+      "athlete_id": "CT3967",
+      "performance": "27.94",
+      "discipline": "Disco Vet. MAS. M45",
+      "wind": null,
+      "position": 4,
       "internal_id": 44
     },
     {
@@ -20,9 +570,9 @@
       "athlete_dob": "04/08/1973",
       "athlete_id": "CT3967",
       "performance": "24.35",
-      "discipline": "Disc (2 Kg)",
-      "raw_discipline_name": "Disco Vet. MAS. M45",
+      "discipline": "Disco Vet. MAS. M45",
       "wind": null,
+      "position": 4,
       "internal_id": 44
     },
     {
@@ -30,9 +580,9 @@
       "athlete_dob": "04/08/1973",
       "athlete_id": "CT3967",
       "performance": "27.92",
-      "discipline": "Disc (2 Kg)",
-      "raw_discipline_name": "Disco Vet. MAS. M45",
+      "discipline": "Disco Vet. MAS. M45",
       "wind": null,
+      "position": 4,
       "internal_id": 44
     },
     {
@@ -40,9 +590,9 @@
       "athlete_dob": "04/08/1973",
       "athlete_id": "CT3967",
       "performance": "29.18",
-      "discipline": "Disc (2 Kg)",
-      "raw_discipline_name": "Disco Vet. MAS. M45",
+      "discipline": "Disco Vet. MAS. M45",
       "wind": null,
+      "position": 4,
       "internal_id": 44
     },
     {
@@ -50,9 +600,9 @@
       "athlete_dob": "04/08/1973",
       "athlete_id": "CT3967",
       "performance": "31.37",
-      "discipline": "Disc (2 Kg)",
-      "raw_discipline_name": "Disco Vet. MAS. M45",
+      "discipline": "Disco Vet. MAS. M45",
       "wind": null,
+      "position": 4,
       "internal_id": 44
     },
     {
@@ -60,9 +610,9 @@
       "athlete_dob": "20/07/1973",
       "athlete_id": "CL29660",
       "performance": "25.37",
-      "discipline": "Disc (2 Kg)",
-      "raw_discipline_name": "Disco Vet. MAS. M45",
+      "discipline": "Disco Vet. MAS. M45",
       "wind": null,
+      "position": 7,
       "internal_id": 18
     },
     {
@@ -70,9 +620,9 @@
       "athlete_dob": "20/07/1973",
       "athlete_id": "CL29660",
       "performance": "22.91",
-      "discipline": "Disc (2 Kg)",
-      "raw_discipline_name": "Disco Vet. MAS. M45",
+      "discipline": "Disco Vet. MAS. M45",
       "wind": null,
+      "position": 7,
       "internal_id": 18
     },
     {
@@ -80,9 +630,9 @@
       "athlete_dob": "20/07/1973",
       "athlete_id": "CL29660",
       "performance": "20.52",
-      "discipline": "Disc (2 Kg)",
-      "raw_discipline_name": "Disco Vet. MAS. M45",
+      "discipline": "Disco Vet. MAS. M45",
       "wind": null,
+      "position": 7,
       "internal_id": 18
     },
     {
@@ -90,9 +640,9 @@
       "athlete_dob": "20/07/1973",
       "athlete_id": "CL29660",
       "performance": "24.91",
-      "discipline": "Disc (2 Kg)",
-      "raw_discipline_name": "Disco Vet. MAS. M45",
+      "discipline": "Disco Vet. MAS. M45",
       "wind": null,
+      "position": 7,
       "internal_id": 18
     },
     {
@@ -100,9 +650,9 @@
       "athlete_dob": "20/07/1973",
       "athlete_id": "CL29660",
       "performance": "23.64",
-      "discipline": "Disc (2 Kg)",
-      "raw_discipline_name": "Disco Vet. MAS. M45",
+      "discipline": "Disco Vet. MAS. M45",
       "wind": null,
+      "position": 7,
       "internal_id": 18
     },
     {
@@ -110,10 +660,90 @@
       "athlete_dob": "20/07/1973",
       "athlete_id": "CL29660",
       "performance": "25.33",
-      "discipline": "Disc (2 Kg)",
-      "raw_discipline_name": "Disco Vet. MAS. M45",
+      "discipline": "Disco Vet. MAS. M45",
       "wind": null,
+      "position": 7,
       "internal_id": 18
+    },
+    {
+      "athlete_name": "Barbara Pintado Duch",
+      "athlete_dob": "29/04/1985",
+      "athlete_id": "CT13219",
+      "performance": "25.58",
+      "discipline": "Martillo VET. Fem. F35",
+      "wind": null,
+      "position": 1,
+      "internal_id": 159
+    },
+    {
+      "athlete_name": "Barbara Pintado Duch",
+      "athlete_dob": "29/04/1985",
+      "athlete_id": "CT13219",
+      "performance": "28.47",
+      "discipline": "Martillo VET. Fem. F35",
+      "wind": null,
+      "position": 1,
+      "internal_id": 159
+    },
+    {
+      "athlete_name": "Barbara Pintado Duch",
+      "athlete_dob": "29/04/1985",
+      "athlete_id": "CT13219",
+      "performance": "32.49",
+      "discipline": "Disco VET. Fem. F35",
+      "wind": null,
+      "position": 2,
+      "internal_id": 159
+    },
+    {
+      "athlete_name": "Barbara Pintado Duch",
+      "athlete_dob": "29/04/1985",
+      "athlete_id": "CT13219",
+      "performance": "34.69",
+      "discipline": "Disco VET. Fem. F35",
+      "wind": null,
+      "position": 2,
+      "internal_id": 159
+    },
+    {
+      "athlete_name": "Barbara Pintado Duch",
+      "athlete_dob": "29/04/1985",
+      "athlete_id": "CT13219",
+      "performance": "33.11",
+      "discipline": "Disco VET. Fem. F35",
+      "wind": null,
+      "position": 2,
+      "internal_id": 159
+    },
+    {
+      "athlete_name": "Barbara Pintado Duch",
+      "athlete_dob": "29/04/1985",
+      "athlete_id": "CT13219",
+      "performance": "31.22",
+      "discipline": "Disco VET. Fem. F35",
+      "wind": null,
+      "position": 2,
+      "internal_id": 159
+    },
+    {
+      "athlete_name": "Barbara Pintado Duch",
+      "athlete_dob": "29/04/1985",
+      "athlete_id": "CT13219",
+      "performance": "7.80",
+      "discipline": "Martillo Pesado VET. Fem. AL F35",
+      "wind": null,
+      "position": 1,
+      "internal_id": 159
+    },
+    {
+      "athlete_name": "Barbara Pintado Duch",
+      "athlete_dob": "29/04/1985",
+      "athlete_id": "CT13219",
+      "performance": "9.97",
+      "discipline": "Martillo Pesado VET. Fem. AL F35",
+      "wind": null,
+      "position": 1,
+      "internal_id": 159
     }
   ]
 }

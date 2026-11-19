@@ -1,38 +1,318 @@
 {
   "event_name": "Campionat de Catalunya de Clubs \"A\" sub14 - Pista Coberta d'Atletisme de Catalunya Carme Valero, 9 marzo 2024",
   "event_date": "09/03/2024",
-  "event_location": "Sabadell",
-  "total_results": 5,
+  "event_location": "Atletisme de Catalunya Carme Valero",
+  "total_results": 37,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2024/03/resultat-20240309-catclubsasub14pcsabadell.pdf",
   "results": [
+    {
+      "athlete_name": "Oscar Ibañez Rizo",
+      "athlete_dob": "08/12/2011",
+      "athlete_id": "CL4160",
+      "performance": "9.22",
+      "discipline": "60m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1351
+    },
+    {
+      "athlete_name": "Marc Marti Fernandez",
+      "athlete_dob": "10/04/2011",
+      "athlete_id": "CL94395",
+      "performance": "26.25",
+      "discipline": "200m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1108
+    },
+    {
+      "athlete_name": "Marius Badia Riera",
+      "athlete_dob": "25/04/2012",
+      "athlete_id": "CL907",
+      "performance": "1:58.06",
+      "discipline": "600m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Aston Mate Gras",
+      "athlete_dob": "07/12/2012",
+      "athlete_id": "CL95044",
+      "performance": "3:31.87",
+      "discipline": "1.000m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1342
+    },
+    {
+      "athlete_name": "Hugo Diaz Cristino",
+      "athlete_dob": "04/04/2012",
+      "athlete_id": "CL4397",
+      "performance": "7:17.40",
+      "discipline": "2.000m MASC.PC",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Cessar Aina Preciado Foreman",
+      "athlete_dob": "29/06/2011",
+      "athlete_id": "CL15333",
+      "performance": "10.46",
+      "discipline": "60m tanques (0,84) MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1066
+    },
+    {
+      "athlete_name": "Ferran Mascaro Navarro",
+      "athlete_dob": "02/06/2012",
+      "athlete_id": "CL96310",
+      "performance": "1.35",
+      "discipline": "Alçada MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1362
+    },
+    {
+      "athlete_name": "Enzo Mate Gras",
+      "athlete_dob": "01/02/2011",
+      "athlete_id": "CL94546",
+      "performance": "2.20",
+      "discipline": "Perxa MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1343
+    },
+    {
+      "athlete_name": "Didac Manye Pujol",
+      "athlete_dob": "06/10/2011",
+      "athlete_id": "CL906",
+      "performance": "3.51",
+      "discipline": "Llargada MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1337
+    },
+    {
+      "athlete_name": "Didac Manye Pujol",
+      "athlete_dob": "06/10/2011",
+      "athlete_id": "CL906",
+      "performance": "3.50",
+      "discipline": "Llargada MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1337
+    },
+    {
+      "athlete_name": "Didac Manye Pujol",
+      "athlete_dob": "06/10/2011",
+      "athlete_id": "CL906",
+      "performance": "3.40",
+      "discipline": "Llargada MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1337
+    },
+    {
+      "athlete_name": "Hernan Ferran Jimenez",
+      "athlete_dob": "28/09/2012",
+      "athlete_id": "CL1093",
+      "performance": "8.52",
+      "discipline": "Triple Salt MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1327
+    },
+    {
+      "athlete_name": "Hernan Ferran Jimenez",
+      "athlete_dob": "28/09/2012",
+      "athlete_id": "CL1093",
+      "performance": "8.62",
+      "discipline": "Triple Salt MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1327
+    },
+    {
+      "athlete_name": "Hernan Ferran Jimenez",
+      "athlete_dob": "28/09/2012",
+      "athlete_id": "CL1093",
+      "performance": "8.67",
+      "discipline": "Triple Salt MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1327
+    },
+    {
+      "athlete_name": "Ferran Badia Riera",
+      "athlete_dob": "25/04/2012",
+      "athlete_id": "CL908",
+      "performance": "5.03",
+      "discipline": "Pes (3 Kg) MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Ferran Badia Riera",
+      "athlete_dob": "25/04/2012",
+      "athlete_id": "CL908",
+      "performance": "4.88",
+      "discipline": "Pes (3 Kg) MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Lucia Martinez Perales",
+      "athlete_dob": "04/08/2012",
+      "athlete_id": "CL4343",
+      "performance": "9.67",
+      "discipline": "60m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
     {
       "athlete_name": "Arlet Solana Vila",
       "athlete_dob": "13/03/2012",
       "athlete_id": "CL11154",
       "performance": "30.34",
-      "discipline": "200 metres llisos",
-      "raw_discipline_name": "200m FEM. PC",
+      "discipline": "200m FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 1369
+    },
+    {
+      "athlete_name": "Lara Garcia Mur",
+      "athlete_dob": "23/10/2011",
+      "athlete_id": "CL94385",
+      "performance": "1:52.76",
+      "discipline": "600m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1324
+    },
+    {
+      "athlete_name": "Maria Viñas Perez",
+      "athlete_dob": "06/10/2011",
+      "athlete_id": "CL4156",
+      "performance": "3:52.66",
+      "discipline": "1.000m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1336
+    },
+    {
+      "athlete_name": "Ada Nin Navas",
+      "athlete_dob": "24/10/2012",
+      "athlete_id": "CL1495",
+      "performance": "7:55.40",
+      "discipline": "2.000m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1331
+    },
+    {
+      "athlete_name": "(t) Victoria C Onyemaekwu",
+      "athlete_dob": "22/03/2011",
+      "athlete_id": "CL6108",
+      "performance": "10.45",
+      "discipline": "60m tanques (0,762) FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1391
+    },
+    {
+      "athlete_name": "Julia Amoros Muñoz 3.5",
+      "athlete_dob": "21/05/2012",
+      "athlete_id": "CL11143",
+      "performance": "1.20",
+      "discipline": "Alçada FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": null
     },
     {
       "athlete_name": "Claudia Botanch Rius",
       "athlete_dob": "02/01/2011",
       "athlete_id": "CL7250",
       "performance": "2.20",
-      "discipline": "Perxa",
-      "raw_discipline_name": "Perxa FEM. PC",
+      "discipline": "Perxa FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 1358
+    },
+    {
+      "athlete_name": "Maria Martin Cuadrado",
+      "athlete_dob": "01/05/2012",
+      "athlete_id": "CL1089",
+      "performance": "3.57",
+      "discipline": "Llargada FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1330
+    },
+    {
+      "athlete_name": "Maria Martin Cuadrado",
+      "athlete_dob": "01/05/2012",
+      "athlete_id": "CL1089",
+      "performance": "3.76",
+      "discipline": "Llargada FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1330
+    },
+    {
+      "athlete_name": "Maria Martin Cuadrado",
+      "athlete_dob": "01/05/2012",
+      "athlete_id": "CL1089",
+      "performance": "3.83",
+      "discipline": "Llargada FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1330
+    },
+    {
+      "athlete_name": "Maria Ferran Jimenez",
+      "athlete_dob": "05/04/2011",
+      "athlete_id": "CL94384",
+      "performance": "8.72",
+      "discipline": "Triple Salt FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1325
+    },
+    {
+      "athlete_name": "Maria Ferran Jimenez",
+      "athlete_dob": "05/04/2011",
+      "athlete_id": "CL94384",
+      "performance": "8.94",
+      "discipline": "Triple Salt FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1325
+    },
+    {
+      "athlete_name": "Maria Ferran Jimenez",
+      "athlete_dob": "05/04/2011",
+      "athlete_id": "CL94384",
+      "performance": "8.92",
+      "discipline": "Triple Salt FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1325
     },
     {
       "athlete_name": "Carlota Tejero Clau",
       "athlete_dob": "06/03/2012",
       "athlete_id": "CL7258",
       "performance": "5.83",
-      "discipline": "Pes (3 Kg)",
-      "raw_discipline_name": "Pes (3kg) FEM. PC",
+      "discipline": "Pes (3 Kg) FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 1352
     },
     {
@@ -40,9 +320,9 @@
       "athlete_dob": "06/03/2012",
       "athlete_id": "CL7258",
       "performance": "6.67",
-      "discipline": "Pes (3 Kg)",
-      "raw_discipline_name": "Pes (3kg) FEM. PC",
+      "discipline": "Pes (3 Kg) FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 1352
     },
     {
@@ -50,10 +330,50 @@
       "athlete_dob": "06/03/2012",
       "athlete_id": "CL7258",
       "performance": "6.31",
-      "discipline": "Pes (3 Kg)",
-      "raw_discipline_name": "Pes (3kg) FEM. PC",
+      "discipline": "Pes (3 Kg) FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 1352
+    },
+    {
+      "athlete_name": "Lucia Martinez Perales",
+      "athlete_dob": "04/08/2012",
+      "athlete_id": "CL4343",
+      "performance": "2:12.78",
+      "discipline": "4x200m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Rihana Martos Teixido",
+      "athlete_dob": "18/03/2012",
+      "athlete_id": "CL85129",
+      "performance": "2:12.78",
+      "discipline": "4x200m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Stella Pereira Contreras",
+      "athlete_dob": "11/12/2011",
+      "athlete_id": "CL7607",
+      "performance": "2:12.78",
+      "discipline": "4x200m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1356
+    },
+    {
+      "athlete_name": "Agustina Ramos Russo",
+      "athlete_dob": "06/01/2012",
+      "athlete_id": "CL1088",
+      "performance": "2:12.78",
+      "discipline": "4x200m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1340
     }
   ]
 }

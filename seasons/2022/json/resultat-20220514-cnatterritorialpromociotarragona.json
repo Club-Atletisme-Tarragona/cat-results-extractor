@@ -1,8 +1,8 @@
 {
   "event_name": "Campionat Territorial Sub10, Sub12, Sub14 i Sub16",
   "event_date": "14/05/2022",
-  "event_location": "Tarragona",
-  "total_results": 61,
+  "event_location": "Tarragona-CLA",
+  "total_results": 157,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2022/05/resultat-20220514-cnatterritorialpromociotarragona.pdf",
   "results": [
     {
@@ -10,9 +10,9 @@
       "athlete_dob": "06/01/2007",
       "athlete_id": "CT1186",
       "performance": "12.54",
-      "discipline": "100 metres llisos",
-      "raw_discipline_name": "100m S16 MASC. AL",
+      "discipline": "100m S16 MASC. AL",
       "wind": "-1.7",
+      "position": null,
       "internal_id": 899
     },
     {
@@ -20,9 +20,9 @@
       "athlete_dob": "28/06/2007",
       "athlete_id": "CL77328",
       "performance": "12.56",
-      "discipline": "100 metres llisos",
-      "raw_discipline_name": "100m S16 MASC. AL",
+      "discipline": "100m S16 MASC. AL",
       "wind": "-1.7",
+      "position": null,
       "internal_id": 908
     },
     {
@@ -30,19 +30,29 @@
       "athlete_dob": "16/03/2008",
       "athlete_id": "CL95144",
       "performance": "12.69",
-      "discipline": "100 metres llisos",
-      "raw_discipline_name": "100m S16 MASC. AL",
+      "discipline": "100m S16 MASC. AL",
       "wind": "-1.7",
+      "position": null,
       "internal_id": 977
+    },
+    {
+      "athlete_name": "335 (t) Guillem Ferran Jimenez CM 8",
+      "athlete_dob": "08/03/2008",
+      "athlete_id": "CL82978",
+      "performance": "NP",
+      "discipline": "100m S16 MASC. AL",
+      "wind": "-1.7",
+      "position": null,
+      "internal_id": null
     },
     {
       "athlete_name": "Adria Perez Martinez",
       "athlete_dob": "23/01/2007",
       "athlete_id": "CL7371",
       "performance": "13.15",
-      "discipline": "100 metres llisos",
-      "raw_discipline_name": "100m S16 MASC. AL",
+      "discipline": "100m S16 MASC. AL",
       "wind": "-2.6",
+      "position": null,
       "internal_id": 924
     },
     {
@@ -50,9 +60,9 @@
       "athlete_dob": "22/03/2007",
       "athlete_id": "CL77324",
       "performance": "13.30",
-      "discipline": "100 metres llisos",
-      "raw_discipline_name": "100m S16 MASC. AL",
+      "discipline": "100m S16 MASC. AL",
       "wind": "-2.6",
+      "position": null,
       "internal_id": 914
     },
     {
@@ -60,19 +70,29 @@
       "athlete_dob": "20/12/2008",
       "athlete_id": "CL94387",
       "performance": "13.99",
-      "discipline": "100 metres llisos",
-      "raw_discipline_name": "100m S16 MASC. AL",
+      "discipline": "100m S16 MASC. AL",
       "wind": "-2.6",
+      "position": null,
       "internal_id": 999
+    },
+    {
+      "athlete_name": "331 (t) Pau Crespo Beltran CM 8",
+      "athlete_dob": "22/10/2008",
+      "athlete_id": "CL90887",
+      "performance": "NP",
+      "discipline": "100m S16 MASC. AL",
+      "wind": "-2.6",
+      "position": null,
+      "internal_id": 971
     },
     {
       "athlete_name": "Victor Jimenez Garcia",
       "athlete_dob": "25/05/2008",
       "athlete_id": "CT1465",
       "performance": "12.68",
-      "discipline": "100 metres llisos",
-      "raw_discipline_name": "100m S16 MASC. AL",
+      "discipline": "100m S16 MASC. AL",
       "wind": "-2.4",
+      "position": null,
       "internal_id": 958
     },
     {
@@ -80,9 +100,9 @@
       "athlete_dob": "13/11/2007",
       "athlete_id": "CL7372",
       "performance": "13.41",
-      "discipline": "100 metres llisos",
-      "raw_discipline_name": "100m S16 MASC. AL",
+      "discipline": "100m S16 MASC. AL",
       "wind": "-2.4",
+      "position": null,
       "internal_id": 907
     },
     {
@@ -90,9 +110,9 @@
       "athlete_dob": "12/04/2008",
       "athlete_id": "CL82974",
       "performance": "13.77",
-      "discipline": "100 metres llisos",
-      "raw_discipline_name": "100m S16 MASC. AL",
+      "discipline": "100m S16 MASC. AL",
       "wind": "-2.4",
+      "position": null,
       "internal_id": 963
     },
     {
@@ -100,9 +120,9 @@
       "athlete_dob": "19/05/1998",
       "athlete_id": "CL22779",
       "performance": "1:56.72",
-      "discipline": "800 metres llisos",
-      "raw_discipline_name": "800m Abs MASC. AL",
+      "discipline": "800m Abs MASC. AL",
       "wind": null,
+      "position": null,
       "internal_id": 439
     },
     {
@@ -110,9 +130,9 @@
       "athlete_dob": "25/02/2004",
       "athlete_id": "CT27323",
       "performance": "1:57.73",
-      "discipline": "800 metres llisos",
-      "raw_discipline_name": "800m Abs MASC. AL",
+      "discipline": "800m Abs MASC. AL",
       "wind": null,
+      "position": null,
       "internal_id": 777
     },
     {
@@ -120,9 +140,9 @@
       "athlete_dob": "28/09/2012",
       "athlete_id": "CL1093",
       "performance": "11.24",
-      "discipline": "60 metres tanques (0.50)",
-      "raw_discipline_name": "60m vallas (0,50) S12 MASC. AL",
+      "discipline": "60m vallas (0,50) S12 MASC. AL",
       "wind": null,
+      "position": null,
       "internal_id": 1327
     },
     {
@@ -130,9 +150,9 @@
       "athlete_dob": "25/03/2012",
       "athlete_id": "CL905",
       "performance": "11.29",
-      "discipline": "60 metres tanques (0.50)",
-      "raw_discipline_name": "60m vallas (0,50) S12 MASC. AL",
+      "discipline": "60m vallas (0,50) S12 MASC. AL",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -140,9 +160,9 @@
       "athlete_dob": "10/04/2011",
       "athlete_id": "CL94395",
       "performance": "11.42",
-      "discipline": "60 metres tanques (0.50)",
-      "raw_discipline_name": "60m vallas (0,50) S12 MASC. AL",
+      "discipline": "60m vallas (0,50) S12 MASC. AL",
       "wind": null,
+      "position": null,
       "internal_id": 1108
     },
     {
@@ -150,9 +170,9 @@
       "athlete_dob": "03/03/2011",
       "athlete_id": "CL94414",
       "performance": "11.92",
-      "discipline": "60 metres tanques (0.50)",
-      "raw_discipline_name": "60m vallas (0,50) S12 MASC. AL",
+      "discipline": "60m vallas (0,50) S12 MASC. AL",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -160,19 +180,19 @@
       "athlete_dob": "08/12/2011",
       "athlete_id": "CL4160",
       "performance": "12.27",
-      "discipline": "60 metres tanques (0.50)",
-      "raw_discipline_name": "60m vallas (0,50) S12 MASC. AL",
+      "discipline": "60m vallas (0,50) S12 MASC. AL",
       "wind": null,
+      "position": null,
       "internal_id": 1351
     },
     {
-      "athlete_name": "Houdaifa Majluf",
+      "athlete_name": "(t) Houdaifa Majluf",
       "athlete_dob": "03/05/2011",
       "athlete_id": "CL4348",
       "performance": "12.84",
-      "discipline": "60 metres tanques (0.50)",
-      "raw_discipline_name": "60m vallas (0,50) S12 MASC. AL",
+      "discipline": "60m vallas (0,50) S12 MASC. AL",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -180,19 +200,359 @@
       "athlete_dob": "11/07/2012",
       "athlete_id": "CL4398",
       "performance": "13.15",
-      "discipline": "60 metres tanques (0.50)",
-      "raw_discipline_name": "60m vallas (0,50) S12 MASC. AL",
+      "discipline": "60m vallas (0,50) S12 MASC. AL",
       "wind": null,
+      "position": null,
       "internal_id": 1345
+    },
+    {
+      "athlete_name": "333 (t) Hugo Diaz Cristino AM 6",
+      "athlete_dob": "04/04/2012",
+      "athlete_id": "CL4397",
+      "performance": "NP",
+      "discipline": "60m vallas (0,50) S12 MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Eric De La Rosa Fortuny IM",
+      "athlete_dob": "17/04/2009",
+      "athlete_id": "CL87201",
+      "performance": "35.39",
+      "discipline": "220m vallas (0,76) S14 MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Guillem Pamies Miro IM",
+      "athlete_dob": "16/07/2009",
+      "athlete_id": "CL827",
+      "performance": "40.58",
+      "discipline": "220m vallas (0,76) S14 MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Pau Esteve Hostalot IM",
+      "athlete_dob": "27/08/2010",
+      "athlete_id": "CL94383",
+      "performance": "34.73",
+      "discipline": "220m vallas (0,76) S14 MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1055
+    },
+    {
+      "athlete_name": "Unai Ortiz De Landazuri Ontoso",
+      "athlete_dob": "28/06/2007",
+      "athlete_id": "CL77328",
+      "performance": "44.30",
+      "discipline": "300m vallas (0,84) S16 MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 908
+    },
+    {
+      "athlete_name": "Joan Martorell Escobar",
+      "athlete_dob": "22/03/2007",
+      "athlete_id": "CL77324",
+      "performance": "45.13",
+      "discipline": "300m vallas (0,84) S16 MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 914
+    },
+    {
+      "athlete_name": "328 (t) Bernat Bardina Artigau CM 8",
+      "athlete_dob": "12/04/2008",
+      "athlete_id": "CL82974",
+      "performance": "NP",
+      "discipline": "300m vallas (0,84) S16 MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 963
+    },
+    {
+      "athlete_name": "355 Lluc Subiros Brasero CM 5",
+      "athlete_dob": "06/01/2007",
+      "athlete_id": "CT1186",
+      "performance": "NP",
+      "discipline": "300m vallas (0,84) S16 MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 899
+    },
+    {
+      "athlete_name": "Matias Hernandez Sanchez",
+      "athlete_dob": "20/12/2008",
+      "athlete_id": "CL94387",
+      "performance": "44.72",
+      "discipline": "300m vallas (0,84) S16 MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 999
+    },
+    {
+      "athlete_name": "Hector Torrents Mas",
+      "athlete_dob": "13/11/2007",
+      "athlete_id": "CL7372",
+      "performance": "46.99",
+      "discipline": "300m vallas (0,84) S16 MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 907
+    },
+    {
+      "athlete_name": "335 (t) Guillem Ferran Jimenez CM 6",
+      "athlete_dob": "08/03/2008",
+      "athlete_id": "CL82978",
+      "performance": "NP",
+      "discipline": "300m vallas (0,84) S16 MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "341 Victor Jimenez Garcia CM 8",
+      "athlete_dob": "25/05/2008",
+      "athlete_id": "CT1465",
+      "performance": "NP",
+      "discipline": "300m vallas (0,84) S16 MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 958
+    },
+    {
+      "athlete_name": "Hernan Ferran Jimenez",
+      "athlete_dob": "28/09/2012",
+      "athlete_id": "CL1093",
+      "performance": "1.40",
+      "discipline": "Pértiga S12 MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1327
+    },
+    {
+      "athlete_name": "Marçal Sinfreu Niubo",
+      "athlete_dob": "03/03/2011",
+      "athlete_id": "CL94414",
+      "performance": "1.40",
+      "discipline": "Pértiga S12 MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Nil Pamies Miro",
+      "athlete_dob": "25/03/2012",
+      "athlete_id": "CL905",
+      "performance": "1.20",
+      "discipline": "Pértiga S12 MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "358 (t) Josep Vives Roig AM",
+      "athlete_dob": "23/11/2012",
+      "athlete_id": "CL7262",
+      "performance": "NP",
+      "discipline": "Pértiga S12 MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "340 (t) Oscar Ibañez Rizo AM",
+      "athlete_dob": "08/12/2011",
+      "athlete_id": "CL4160",
+      "performance": "NP",
+      "discipline": "Pértiga S12 MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1351
+    },
+    {
+      "athlete_name": "Lluc Subiros Brasero",
+      "athlete_dob": "06/01/2007",
+      "athlete_id": "CT1186",
+      "performance": "3.70",
+      "discipline": "Pértiga S16 MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 899
+    },
+    {
+      "athlete_name": "Pau Crespo Beltran",
+      "athlete_dob": "22/10/2008",
+      "athlete_id": "CL90887",
+      "performance": "2.50",
+      "discipline": "Pértiga S16 MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 971
+    },
+    {
+      "athlete_name": "335 (t) Guillem Ferran Jimenez CM",
+      "athlete_dob": "08/03/2008",
+      "athlete_id": "CL82978",
+      "performance": "NP",
+      "discipline": "Pértiga S16 MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Eric De La Rosa Fortuny IM",
+      "athlete_dob": "17/04/2009",
+      "athlete_id": "CL87201",
+      "performance": "1.80",
+      "discipline": "Pértiga S14 MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Jordi Bofarull Cot IM",
+      "athlete_dob": "27/06/2010",
+      "athlete_id": "CL4161",
+      "performance": "1.60",
+      "discipline": "Pértiga S14 MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1076
+    },
+    {
+      "athlete_name": "Guillem Pamies Miro IM",
+      "athlete_dob": "16/07/2009",
+      "athlete_id": "CL827",
+      "performance": "1.20",
+      "discipline": "Pértiga S14 MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Pau Esteve Hostalot IM",
+      "athlete_dob": "27/08/2010",
+      "athlete_id": "CL94383",
+      "performance": "1.20",
+      "discipline": "Pértiga S14 MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1055
+    },
+    {
+      "athlete_name": "Guillem Pamies Miro IM",
+      "athlete_dob": "16/07/2009",
+      "athlete_id": "CL827",
+      "performance": "17.29",
+      "discipline": "Martillo (3 Kg) S14 MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Guillem Pamies Miro IM",
+      "athlete_dob": "16/07/2009",
+      "athlete_id": "CL827",
+      "performance": "19.68",
+      "discipline": "Martillo (3 Kg) S14 MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Guillem Pamies Miro IM",
+      "athlete_dob": "16/07/2009",
+      "athlete_id": "CL827",
+      "performance": "20.21",
+      "discipline": "Martillo (3 Kg) S14 MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Guillem Pamies Miro IM",
+      "athlete_dob": "16/07/2009",
+      "athlete_id": "CL827",
+      "performance": "18.40",
+      "discipline": "Martillo (3 Kg) S14 MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Guillem Pamies Miro IM",
+      "athlete_dob": "16/07/2009",
+      "athlete_id": "CL827",
+      "performance": "19.69",
+      "discipline": "Martillo (3 Kg) S14 MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Guillem Pamies Miro IM",
+      "athlete_dob": "16/07/2009",
+      "athlete_id": "CL827",
+      "performance": "18.69",
+      "discipline": "Martillo (3 Kg) S14 MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Jordi Bofarull Cot IM",
+      "athlete_dob": "27/06/2010",
+      "athlete_id": "CL4161",
+      "performance": "8.44",
+      "discipline": "Martillo (3 Kg) S14 MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 1076
+    },
+    {
+      "athlete_name": "Jordi Bofarull Cot IM",
+      "athlete_dob": "27/06/2010",
+      "athlete_id": "CL4161",
+      "performance": "9.17",
+      "discipline": "Martillo (3 Kg) S14 MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 1076
+    },
+    {
+      "athlete_name": "Jordi Bofarull Cot IM",
+      "athlete_dob": "27/06/2010",
+      "athlete_id": "CL4161",
+      "performance": "10.99",
+      "discipline": "Martillo (3 Kg) S14 MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 1076
+    },
+    {
+      "athlete_name": "Jordi Bofarull Cot IM",
+      "athlete_dob": "27/06/2010",
+      "athlete_id": "CL4161",
+      "performance": "9.18",
+      "discipline": "Martillo (3 Kg) S14 MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 1076
     },
     {
       "athlete_name": "Matias Costa Bakker",
       "athlete_dob": "19/11/2007",
       "athlete_id": "CL90885",
       "performance": "28.50",
-      "discipline": "Martell (4 Kg)",
-      "raw_discipline_name": "Martillo (4kg) S16 MASC.",
+      "discipline": "Martillo (4 Kg) S16 MASC.",
       "wind": null,
+      "position": null,
       "internal_id": 922
     },
     {
@@ -200,9 +560,9 @@
       "athlete_dob": "19/11/2007",
       "athlete_id": "CL90885",
       "performance": "22.45",
-      "discipline": "Martell (4 Kg)",
-      "raw_discipline_name": "Martillo (4kg) S16 MASC.",
+      "discipline": "Martillo (4 Kg) S16 MASC.",
       "wind": null,
+      "position": null,
       "internal_id": 922
     },
     {
@@ -210,9 +570,9 @@
       "athlete_dob": "19/11/2007",
       "athlete_id": "CL90885",
       "performance": "27.50",
-      "discipline": "Martell (4 Kg)",
-      "raw_discipline_name": "Martillo (4kg) S16 MASC.",
+      "discipline": "Martillo (4 Kg) S16 MASC.",
       "wind": null,
+      "position": null,
       "internal_id": 922
     },
     {
@@ -220,9 +580,9 @@
       "athlete_dob": "19/11/2007",
       "athlete_id": "CL90885",
       "performance": "28.09",
-      "discipline": "Martell (4 Kg)",
-      "raw_discipline_name": "Martillo (4kg) S16 MASC.",
+      "discipline": "Martillo (4 Kg) S16 MASC.",
       "wind": null,
+      "position": null,
       "internal_id": 922
     },
     {
@@ -230,9 +590,9 @@
       "athlete_dob": "19/11/2007",
       "athlete_id": "CL90885",
       "performance": "28.46",
-      "discipline": "Martell (4 Kg)",
-      "raw_discipline_name": "Martillo (4kg) S16 MASC.",
+      "discipline": "Martillo (4 Kg) S16 MASC.",
       "wind": null,
+      "position": null,
       "internal_id": 922
     },
     {
@@ -240,9 +600,9 @@
       "athlete_dob": "03/03/2011",
       "athlete_id": "CL94414",
       "performance": "30.77",
-      "discipline": "Martell (4 Kg)",
-      "raw_discipline_name": "Martillo (4kg) S16 MASC.",
+      "discipline": "Martillo (4 Kg) S16 MASC.",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -250,9 +610,9 @@
       "athlete_dob": "03/03/2011",
       "athlete_id": "CL94414",
       "performance": "24.97",
-      "discipline": "Martell (4 Kg)",
-      "raw_discipline_name": "Martillo (4kg) S16 MASC.",
+      "discipline": "Martillo (4 Kg) S16 MASC.",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -260,9 +620,9 @@
       "athlete_dob": "03/03/2011",
       "athlete_id": "CL94414",
       "performance": "25.61",
-      "discipline": "Martell (4 Kg)",
-      "raw_discipline_name": "Martillo (4kg) S16 MASC.",
+      "discipline": "Martillo (4 Kg) S16 MASC.",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -270,9 +630,9 @@
       "athlete_dob": "28/09/2012",
       "athlete_id": "CL1093",
       "performance": "22.00",
-      "discipline": "Martell (4 Kg)",
-      "raw_discipline_name": "Martillo (4kg) S16 MASC.",
+      "discipline": "Martillo (4 Kg) S16 MASC.",
       "wind": null,
+      "position": null,
       "internal_id": 1327
     },
     {
@@ -280,9 +640,9 @@
       "athlete_dob": "28/09/2012",
       "athlete_id": "CL1093",
       "performance": "23.51",
-      "discipline": "Martell (4 Kg)",
-      "raw_discipline_name": "Martillo (4kg) S16 MASC.",
+      "discipline": "Martillo (4 Kg) S16 MASC.",
       "wind": null,
+      "position": null,
       "internal_id": 1327
     },
     {
@@ -290,39 +650,39 @@
       "athlete_dob": "28/09/2012",
       "athlete_id": "CL1093",
       "performance": "23.10",
-      "discipline": "Martell (4 Kg)",
-      "raw_discipline_name": "Martillo (4kg) S16 MASC.",
+      "discipline": "Martillo (4 Kg) S16 MASC.",
       "wind": null,
+      "position": null,
       "internal_id": 1327
     },
     {
-      "athlete_name": "Houdaifa Majluf",
+      "athlete_name": "(t) Houdaifa Majluf",
       "athlete_dob": "03/05/2011",
       "athlete_id": "CL4348",
       "performance": "17.63",
-      "discipline": "Martell (4 Kg)",
-      "raw_discipline_name": "Martillo (4kg) S16 MASC.",
+      "discipline": "Martillo (4 Kg) S16 MASC.",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
-      "athlete_name": "Houdaifa Majluf",
+      "athlete_name": "(t) Houdaifa Majluf",
       "athlete_dob": "03/05/2011",
       "athlete_id": "CL4348",
       "performance": "18.91",
-      "discipline": "Martell (4 Kg)",
-      "raw_discipline_name": "Martillo (4kg) S16 MASC.",
+      "discipline": "Martillo (4 Kg) S16 MASC.",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
-      "athlete_name": "Houdaifa Majluf",
+      "athlete_name": "(t) Houdaifa Majluf",
       "athlete_dob": "03/05/2011",
       "athlete_id": "CL4348",
       "performance": "15.21",
-      "discipline": "Martell (4 Kg)",
-      "raw_discipline_name": "Martillo (4kg) S16 MASC.",
+      "discipline": "Martillo (4 Kg) S16 MASC.",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -330,9 +690,9 @@
       "athlete_dob": "25/03/2012",
       "athlete_id": "CL905",
       "performance": "12.55",
-      "discipline": "Martell (4 Kg)",
-      "raw_discipline_name": "Martillo (4kg) S16 MASC.",
+      "discipline": "Martillo (4 Kg) S16 MASC.",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -340,9 +700,9 @@
       "athlete_dob": "25/03/2012",
       "athlete_id": "CL905",
       "performance": "17.00",
-      "discipline": "Martell (4 Kg)",
-      "raw_discipline_name": "Martillo (4kg) S16 MASC.",
+      "discipline": "Martillo (4 Kg) S16 MASC.",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -350,9 +710,9 @@
       "athlete_dob": "25/03/2012",
       "athlete_id": "CL905",
       "performance": "18.38",
-      "discipline": "Martell (4 Kg)",
-      "raw_discipline_name": "Martillo (4kg) S16 MASC.",
+      "discipline": "Martillo (4 Kg) S16 MASC.",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -360,9 +720,9 @@
       "athlete_dob": "10/04/2011",
       "athlete_id": "CL94395",
       "performance": "15.30",
-      "discipline": "Martell (4 Kg)",
-      "raw_discipline_name": "Martillo (4kg) S16 MASC.",
+      "discipline": "Martillo (4 Kg) S16 MASC.",
       "wind": null,
+      "position": null,
       "internal_id": 1108
     },
     {
@@ -370,9 +730,9 @@
       "athlete_dob": "10/04/2011",
       "athlete_id": "CL94395",
       "performance": "15.34",
-      "discipline": "Martell (4 Kg)",
-      "raw_discipline_name": "Martillo (4kg) S16 MASC.",
+      "discipline": "Martillo (4 Kg) S16 MASC.",
       "wind": null,
+      "position": null,
       "internal_id": 1108
     },
     {
@@ -380,9 +740,9 @@
       "athlete_dob": "10/04/2011",
       "athlete_id": "CL94395",
       "performance": "13.50",
-      "discipline": "Martell (4 Kg)",
-      "raw_discipline_name": "Martillo (4kg) S16 MASC.",
+      "discipline": "Martillo (4 Kg) S16 MASC.",
       "wind": null,
+      "position": null,
       "internal_id": 1108
     },
     {
@@ -390,9 +750,9 @@
       "athlete_dob": "11/07/2012",
       "athlete_id": "CL4398",
       "performance": "13.39",
-      "discipline": "Martell (4 Kg)",
-      "raw_discipline_name": "Martillo (4kg) S16 MASC.",
+      "discipline": "Martillo (4 Kg) S16 MASC.",
       "wind": null,
+      "position": null,
       "internal_id": 1345
     },
     {
@@ -400,9 +760,9 @@
       "athlete_dob": "11/07/2012",
       "athlete_id": "CL4398",
       "performance": "11.03",
-      "discipline": "Martell (4 Kg)",
-      "raw_discipline_name": "Martillo (4kg) S16 MASC.",
+      "discipline": "Martillo (4 Kg) S16 MASC.",
       "wind": null,
+      "position": null,
       "internal_id": 1345
     },
     {
@@ -410,9 +770,9 @@
       "athlete_dob": "11/07/2012",
       "athlete_id": "CL4398",
       "performance": "13.00",
-      "discipline": "Martell (4 Kg)",
-      "raw_discipline_name": "Martillo (4kg) S16 MASC.",
+      "discipline": "Martillo (4 Kg) S16 MASC.",
       "wind": null,
+      "position": null,
       "internal_id": 1345
     },
     {
@@ -420,9 +780,9 @@
       "athlete_dob": "25/02/2006",
       "athlete_id": "CT1021",
       "performance": "12.97",
-      "discipline": "100 metres llisos",
-      "raw_discipline_name": "100m Abs FEM. AL",
+      "discipline": "100m Abs FEM. AL",
       "wind": "-1.7",
+      "position": null,
       "internal_id": 837
     },
     {
@@ -430,9 +790,9 @@
       "athlete_dob": "29/09/2005",
       "athlete_id": "CL90514",
       "performance": "14.51",
-      "discipline": "100 metres llisos",
-      "raw_discipline_name": "100m Abs FEM. AL",
+      "discipline": "100m Abs FEM. AL",
       "wind": "-1.7",
+      "position": null,
       "internal_id": 788
     },
     {
@@ -440,9 +800,9 @@
       "athlete_dob": "07/07/2005",
       "athlete_id": "CL7382",
       "performance": "15.10",
-      "discipline": "100 metres llisos",
-      "raw_discipline_name": "100m Abs FEM. AL",
+      "discipline": "100m Abs FEM. AL",
       "wind": "-2.3",
+      "position": null,
       "internal_id": 846
     },
     {
@@ -450,19 +810,69 @@
       "athlete_dob": "10/06/2008",
       "athlete_id": "CT1467",
       "performance": "13.11",
-      "discipline": "100 metres llisos",
-      "raw_discipline_name": "100m S16 FEM. AL",
+      "discipline": "100m S16 FEM. AL",
       "wind": "-1.4",
+      "position": null,
       "internal_id": 957
+    },
+    {
+      "athlete_name": "Cristina Revilla De Castro",
+      "athlete_dob": "28/01/2008",
+      "athlete_id": "CL96895",
+      "performance": "13.98",
+      "discipline": "100m S16 FEM. AL",
+      "wind": "-2.2",
+      "position": null,
+      "internal_id": 1070
+    },
+    {
+      "athlete_name": "Laia Cabrero Perez",
+      "athlete_dob": "10/10/2008",
+      "athlete_id": "CL94529",
+      "performance": "14.78",
+      "discipline": "100m S16 FEM. AL",
+      "wind": "-2.1",
+      "position": null,
+      "internal_id": 954
+    },
+    {
+      "athlete_name": "Alejandra Basora De Avila",
+      "athlete_dob": "11/08/2006",
+      "athlete_id": "CL94375",
+      "performance": "2:42.23",
+      "discipline": "800m Abs FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 864
+    },
+    {
+      "athlete_name": "389 (t) Aina Tomas Virgili LF",
+      "athlete_dob": "17/01/2005",
+      "athlete_id": "CL82421",
+      "performance": "NP",
+      "discipline": "800m Abs FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 815
+    },
+    {
+      "athlete_name": "359 (t) Anna Artero Fernandez LF",
+      "athlete_dob": "14/11/2006",
+      "athlete_id": "CL94373",
+      "performance": "NP",
+      "discipline": "800m Abs FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 847
     },
     {
       "athlete_name": "Maria Ferran Jimenez",
       "athlete_dob": "05/04/2011",
       "athlete_id": "CL94384",
       "performance": "10.85",
-      "discipline": "60 metres tanques (0.50)",
-      "raw_discipline_name": "60m vallas (0,50) S12 FEM AL",
+      "discipline": "60m vallas (0,50) S12 FEM AL",
       "wind": null,
+      "position": null,
       "internal_id": 1325
     },
     {
@@ -470,9 +880,9 @@
       "athlete_dob": "26/08/2011",
       "athlete_id": "CL94390",
       "performance": "11.40",
-      "discipline": "60 metres tanques (0.50)",
-      "raw_discipline_name": "60m vallas (0,50) S12 FEM AL",
+      "discipline": "60m vallas (0,50) S12 FEM AL",
       "wind": null,
+      "position": null,
       "internal_id": 1326
     },
     {
@@ -480,9 +890,9 @@
       "athlete_dob": "07/03/2011",
       "athlete_id": "CL94381",
       "performance": "11.76",
-      "discipline": "60 metres tanques (0.50)",
-      "raw_discipline_name": "60m vallas (0,50) S12 FEM AL",
+      "discipline": "60m vallas (0,50) S12 FEM AL",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -490,9 +900,9 @@
       "athlete_dob": "23/10/2011",
       "athlete_id": "CL94385",
       "performance": "10.77",
-      "discipline": "60 metres tanques (0.50)",
-      "raw_discipline_name": "60m vallas (0,50) S12 FEM AL",
+      "discipline": "60m vallas (0,50) S12 FEM AL",
       "wind": null,
+      "position": null,
       "internal_id": 1324
     },
     {
@@ -500,9 +910,9 @@
       "athlete_dob": "24/10/2012",
       "athlete_id": "CL1495",
       "performance": "12.53",
-      "discipline": "60 metres tanques (0.50)",
-      "raw_discipline_name": "60m vallas (0,50) S12 FEM AL",
+      "discipline": "60m vallas (0,50) S12 FEM AL",
       "wind": null,
+      "position": null,
       "internal_id": 1331
     },
     {
@@ -510,9 +920,9 @@
       "athlete_dob": "11/12/2011",
       "athlete_id": "CL7607",
       "performance": "12.67",
-      "discipline": "60 metres tanques (0.50)",
-      "raw_discipline_name": "60m vallas (0,50) S12 FEM AL",
+      "discipline": "60m vallas (0,50) S12 FEM AL",
       "wind": null,
+      "position": null,
       "internal_id": 1356
     },
     {
@@ -520,9 +930,9 @@
       "athlete_dob": "18/03/2012",
       "athlete_id": "CL85129",
       "performance": "13.21",
-      "discipline": "60 metres tanques (0.50)",
-      "raw_discipline_name": "60m vallas (0,50) S12 FEM AL",
+      "discipline": "60m vallas (0,50) S12 FEM AL",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -530,9 +940,9 @@
       "athlete_dob": "04/08/2012",
       "athlete_id": "CL4343",
       "performance": "12.76",
-      "discipline": "60 metres tanques (0.50)",
-      "raw_discipline_name": "60m vallas (0,50) S12 FEM AL",
+      "discipline": "60m vallas (0,50) S12 FEM AL",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -540,9 +950,9 @@
       "athlete_dob": "12/04/2011",
       "athlete_id": "CL7256",
       "performance": "11.77",
-      "discipline": "60 metres tanques (0.50)",
-      "raw_discipline_name": "60m vallas (0,50) S12 FEM AL",
+      "discipline": "60m vallas (0,50) S12 FEM AL",
       "wind": null,
+      "position": null,
       "internal_id": 904
     },
     {
@@ -550,19 +960,169 @@
       "athlete_dob": "06/03/2012",
       "athlete_id": "CL7258",
       "performance": "12.73",
-      "discipline": "60 metres tanques (0.50)",
-      "raw_discipline_name": "60m vallas (0,50) S12 FEM AL",
+      "discipline": "60m vallas (0,50) S12 FEM AL",
       "wind": null,
+      "position": null,
       "internal_id": 1352
+    },
+    {
+      "athlete_name": "390 (t) Maria Viñas Perez AF 3",
+      "athlete_dob": "06/10/2011",
+      "athlete_id": "CL4156",
+      "performance": "NP",
+      "discipline": "60m vallas (0,50) S12 FEM AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1336
+    },
+    {
+      "athlete_name": "364 (t) Nora Diaz Muste AF 7",
+      "athlete_dob": "17/07/2011",
+      "athlete_id": "CL7252",
+      "performance": "NP",
+      "discipline": "60m vallas (0,50) S12 FEM AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Clara Ortiz De Landazuri Ontoso IF",
+      "athlete_dob": "04/12/2009",
+      "athlete_id": "CL86467",
+      "performance": "35.00",
+      "discipline": "220m vallas (0,76) S14 FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1022
+    },
+    {
+      "athlete_name": "Nora Montolio Amaro IF",
+      "athlete_dob": "05/02/2010",
+      "athlete_id": "CL90841",
+      "performance": "38.09",
+      "discipline": "220m vallas (0,76) S14 FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1089
+    },
+    {
+      "athlete_name": "Diana Garcia Mur IF",
+      "athlete_dob": "23/02/2010",
+      "athlete_id": "CL90833",
+      "performance": "38.32",
+      "discipline": "220m vallas (0,76) S14 FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1081
+    },
+    {
+      "athlete_name": "Olivia Ruiz Barbera IF",
+      "athlete_dob": "24/04/2009",
+      "athlete_id": "CL3439",
+      "performance": "38.03",
+      "discipline": "220m vallas (0,76) S14 FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1018
+    },
+    {
+      "athlete_name": "Natalia Lara Girbes IF",
+      "athlete_dob": "13/04/2009",
+      "athlete_id": "CL90847",
+      "performance": "39.63",
+      "discipline": "220m vallas (0,76) S14 FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 836
+    },
+    {
+      "athlete_name": "Ona Sansa Garcia IF",
+      "athlete_dob": "31/05/2010",
+      "athlete_id": "CL90844",
+      "performance": "41.52",
+      "discipline": "220m vallas (0,76) S14 FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1015
+    },
+    {
+      "athlete_name": "Iris Garrido Garcia",
+      "athlete_dob": "15/12/2008",
+      "athlete_id": "CL77529",
+      "performance": "49.67",
+      "discipline": "300m vallas (0,762) S16 FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 982
+    },
+    {
+      "athlete_name": "Ainoa Rodriguez Murillo",
+      "athlete_dob": "17/01/2008",
+      "athlete_id": "CL81622",
+      "performance": "52.66",
+      "discipline": "300m vallas (0,762) S16 FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 965
+    },
+    {
+      "athlete_name": "Carlota Tejero Clau",
+      "athlete_dob": "06/03/2012",
+      "athlete_id": "CL7258",
+      "performance": "1.20",
+      "discipline": "Pértiga S12 FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1352
+    },
+    {
+      "athlete_name": "373 (t) Lucia Martinez Perales AF",
+      "athlete_dob": "04/08/2012",
+      "athlete_id": "CL4343",
+      "performance": "NP",
+      "discipline": "Pértiga S12 FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "380 (t) Stella Pereira Contreras AF",
+      "athlete_dob": "11/12/2011",
+      "athlete_id": "CL7607",
+      "performance": "NP",
+      "discipline": "Pértiga S12 FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1356
+    },
+    {
+      "athlete_name": "Ona Sansa Garcia IF",
+      "athlete_dob": "31/05/2010",
+      "athlete_id": "CL90844",
+      "performance": "2.20",
+      "discipline": "Pértiga S14 FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1015
+    },
+    {
+      "athlete_name": "Noemi Gonzalez Carrillo IF",
+      "athlete_dob": "04/04/2009",
+      "athlete_id": "CL86462",
+      "performance": "1.60",
+      "discipline": "Pértiga S14 FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1030
     },
     {
       "athlete_name": "Candela Asensio Sanchez",
       "athlete_dob": "14/10/2007",
       "athlete_id": "CL4874",
       "performance": "13.13",
-      "discipline": "Martell (3 Kg)",
-      "raw_discipline_name": "Martillo (3kg) S16 FEM.",
+      "discipline": "Martillo (3 Kg) S16 FEM.",
       "wind": null,
+      "position": null,
       "internal_id": 901
     },
     {
@@ -570,9 +1130,9 @@
       "athlete_dob": "14/10/2007",
       "athlete_id": "CL4874",
       "performance": "15.17",
-      "discipline": "Martell (3 Kg)",
-      "raw_discipline_name": "Martillo (3kg) S16 FEM.",
+      "discipline": "Martillo (3 Kg) S16 FEM.",
       "wind": null,
+      "position": null,
       "internal_id": 901
     },
     {
@@ -580,9 +1140,9 @@
       "athlete_dob": "14/10/2007",
       "athlete_id": "CL4874",
       "performance": "16.42",
-      "discipline": "Martell (3 Kg)",
-      "raw_discipline_name": "Martillo (3kg) S16 FEM.",
+      "discipline": "Martillo (3 Kg) S16 FEM.",
       "wind": null,
+      "position": null,
       "internal_id": 901
     },
     {
@@ -590,9 +1150,9 @@
       "athlete_dob": "14/10/2007",
       "athlete_id": "CL4874",
       "performance": "14.42",
-      "discipline": "Martell (3 Kg)",
-      "raw_discipline_name": "Martillo (3kg) S16 FEM.",
+      "discipline": "Martillo (3 Kg) S16 FEM.",
       "wind": null,
+      "position": null,
       "internal_id": 901
     },
     {
@@ -600,9 +1160,9 @@
       "athlete_dob": "14/10/2007",
       "athlete_id": "CL4874",
       "performance": "17.10",
-      "discipline": "Martell (3 Kg)",
-      "raw_discipline_name": "Martillo (3kg) S16 FEM.",
+      "discipline": "Martillo (3 Kg) S16 FEM.",
       "wind": null,
+      "position": null,
       "internal_id": 901
     },
     {
@@ -610,10 +1170,410 @@
       "athlete_dob": "14/10/2007",
       "athlete_id": "CL4874",
       "performance": "18.11",
-      "discipline": "Martell (3 Kg)",
-      "raw_discipline_name": "Martillo (3kg) S16 FEM.",
+      "discipline": "Martillo (3 Kg) S16 FEM.",
       "wind": null,
+      "position": null,
       "internal_id": 901
+    },
+    {
+      "athlete_name": "Nora Montolio Amaro IF",
+      "athlete_dob": "05/02/2010",
+      "athlete_id": "CL90841",
+      "performance": "17.22",
+      "discipline": "Martillo (2 Kg) S14 FEM AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1089
+    },
+    {
+      "athlete_name": "Nora Montolio Amaro IF",
+      "athlete_dob": "05/02/2010",
+      "athlete_id": "CL90841",
+      "performance": "14.56",
+      "discipline": "Martillo (2 Kg) S14 FEM AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1089
+    },
+    {
+      "athlete_name": "Nora Montolio Amaro IF",
+      "athlete_dob": "05/02/2010",
+      "athlete_id": "CL90841",
+      "performance": "16.26",
+      "discipline": "Martillo (2 Kg) S14 FEM AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1089
+    },
+    {
+      "athlete_name": "Nora Montolio Amaro IF",
+      "athlete_dob": "05/02/2010",
+      "athlete_id": "CL90841",
+      "performance": "15.95",
+      "discipline": "Martillo (2 Kg) S14 FEM AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1089
+    },
+    {
+      "athlete_name": "Nora Montolio Amaro IF",
+      "athlete_dob": "05/02/2010",
+      "athlete_id": "CL90841",
+      "performance": "17.06",
+      "discipline": "Martillo (2 Kg) S14 FEM AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1089
+    },
+    {
+      "athlete_name": "Nora Montolio Amaro IF",
+      "athlete_dob": "05/02/2010",
+      "athlete_id": "CL90841",
+      "performance": "20.82",
+      "discipline": "Martillo (2 Kg) S14 FEM AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1089
+    },
+    {
+      "athlete_name": "Clara Ortiz De Landazuri Ontoso IF",
+      "athlete_dob": "04/12/2009",
+      "athlete_id": "CL86467",
+      "performance": "14.41",
+      "discipline": "Martillo (2 Kg) S14 FEM AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1022
+    },
+    {
+      "athlete_name": "Clara Ortiz De Landazuri Ontoso IF",
+      "athlete_dob": "04/12/2009",
+      "athlete_id": "CL86467",
+      "performance": "15.02",
+      "discipline": "Martillo (2 Kg) S14 FEM AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1022
+    },
+    {
+      "athlete_name": "Clara Ortiz De Landazuri Ontoso IF",
+      "athlete_dob": "04/12/2009",
+      "athlete_id": "CL86467",
+      "performance": "15.60",
+      "discipline": "Martillo (2 Kg) S14 FEM AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1022
+    },
+    {
+      "athlete_name": "Natalia Lara Girbes IF",
+      "athlete_dob": "13/04/2009",
+      "athlete_id": "CL90847",
+      "performance": "10.17",
+      "discipline": "Martillo (2 Kg) S14 FEM AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 836
+    },
+    {
+      "athlete_name": "Natalia Lara Girbes IF",
+      "athlete_dob": "13/04/2009",
+      "athlete_id": "CL90847",
+      "performance": "10.18",
+      "discipline": "Martillo (2 Kg) S14 FEM AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 836
+    },
+    {
+      "athlete_name": "Lara Garcia Mur",
+      "athlete_dob": "23/10/2011",
+      "athlete_id": "CL94385",
+      "performance": "16.41",
+      "discipline": "Martillo (2 Kg) S14 FEM AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1324
+    },
+    {
+      "athlete_name": "Lara Garcia Mur",
+      "athlete_dob": "23/10/2011",
+      "athlete_id": "CL94385",
+      "performance": "18.35",
+      "discipline": "Martillo (2 Kg) S14 FEM AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1324
+    },
+    {
+      "athlete_name": "Lara Garcia Mur",
+      "athlete_dob": "23/10/2011",
+      "athlete_id": "CL94385",
+      "performance": "19.50",
+      "discipline": "Martillo (2 Kg) S14 FEM AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1324
+    },
+    {
+      "athlete_name": "Irene De La Rosa Fortuny",
+      "athlete_dob": "07/03/2011",
+      "athlete_id": "CL94381",
+      "performance": "15.56",
+      "discipline": "Martillo (2 Kg) S14 FEM AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Irene De La Rosa Fortuny",
+      "athlete_dob": "07/03/2011",
+      "athlete_id": "CL94381",
+      "performance": "16.03",
+      "discipline": "Martillo (2 Kg) S14 FEM AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Irene De La Rosa Fortuny",
+      "athlete_dob": "07/03/2011",
+      "athlete_id": "CL94381",
+      "performance": "15.37",
+      "discipline": "Martillo (2 Kg) S14 FEM AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Stella Pereira Contreras",
+      "athlete_dob": "11/12/2011",
+      "athlete_id": "CL7607",
+      "performance": "9.49",
+      "discipline": "Martillo (2 Kg) S14 FEM AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1356
+    },
+    {
+      "athlete_name": "Stella Pereira Contreras",
+      "athlete_dob": "11/12/2011",
+      "athlete_id": "CL7607",
+      "performance": "11.99",
+      "discipline": "Martillo (2 Kg) S14 FEM AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1356
+    },
+    {
+      "athlete_name": "Stella Pereira Contreras",
+      "athlete_dob": "11/12/2011",
+      "athlete_id": "CL7607",
+      "performance": "13.91",
+      "discipline": "Martillo (2 Kg) S14 FEM AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1356
+    },
+    {
+      "athlete_name": "Lucia Martinez Perales",
+      "athlete_dob": "04/08/2012",
+      "athlete_id": "CL4343",
+      "performance": "11.95",
+      "discipline": "Martillo (2 Kg) S14 FEM AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Lucia Martinez Perales",
+      "athlete_dob": "04/08/2012",
+      "athlete_id": "CL4343",
+      "performance": "13.83",
+      "discipline": "Martillo (2 Kg) S14 FEM AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Lucia Martinez Perales",
+      "athlete_dob": "04/08/2012",
+      "athlete_id": "CL4343",
+      "performance": "11.05",
+      "discipline": "Martillo (2 Kg) S14 FEM AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Irene Jimenez Garcia",
+      "athlete_dob": "26/08/2011",
+      "athlete_id": "CL94390",
+      "performance": "10.34",
+      "discipline": "Martillo (2 Kg) S14 FEM AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1326
+    },
+    {
+      "athlete_name": "Irene Jimenez Garcia",
+      "athlete_dob": "26/08/2011",
+      "athlete_id": "CL94390",
+      "performance": "11.90",
+      "discipline": "Martillo (2 Kg) S14 FEM AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1326
+    },
+    {
+      "athlete_name": "Irene Jimenez Garcia",
+      "athlete_dob": "26/08/2011",
+      "athlete_id": "CL94390",
+      "performance": "10.72",
+      "discipline": "Martillo (2 Kg) S14 FEM AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1326
+    },
+    {
+      "athlete_name": "Carlota Tejero Clau",
+      "athlete_dob": "06/03/2012",
+      "athlete_id": "CL7258",
+      "performance": "8.83",
+      "discipline": "Martillo (2 Kg) S14 FEM AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1352
+    },
+    {
+      "athlete_name": "Carlota Tejero Clau",
+      "athlete_dob": "06/03/2012",
+      "athlete_id": "CL7258",
+      "performance": "10.65",
+      "discipline": "Martillo (2 Kg) S14 FEM AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1352
+    },
+    {
+      "athlete_name": "Carlota Tejero Clau",
+      "athlete_dob": "06/03/2012",
+      "athlete_id": "CL7258",
+      "performance": "11.29",
+      "discipline": "Martillo (2 Kg) S14 FEM AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1352
+    },
+    {
+      "athlete_name": "Maria Ferran Jimenez",
+      "athlete_dob": "05/04/2011",
+      "athlete_id": "CL94384",
+      "performance": "10.25",
+      "discipline": "Martillo (2 Kg) S14 FEM AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1325
+    },
+    {
+      "athlete_name": "Maria Ferran Jimenez",
+      "athlete_dob": "05/04/2011",
+      "athlete_id": "CL94384",
+      "performance": "9.49",
+      "discipline": "Martillo (2 Kg) S14 FEM AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1325
+    },
+    {
+      "athlete_name": "Maria Ferran Jimenez",
+      "athlete_dob": "05/04/2011",
+      "athlete_id": "CL94384",
+      "performance": "9.39",
+      "discipline": "Martillo (2 Kg) S14 FEM AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1325
+    },
+    {
+      "athlete_name": "Clara Samper Perez",
+      "athlete_dob": "12/04/2011",
+      "athlete_id": "CL7256",
+      "performance": "4.96",
+      "discipline": "Martillo (2 Kg) S14 FEM AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 904
+    },
+    {
+      "athlete_name": "Clara Samper Perez",
+      "athlete_dob": "12/04/2011",
+      "athlete_id": "CL7256",
+      "performance": "8.88",
+      "discipline": "Martillo (2 Kg) S14 FEM AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 904
+    },
+    {
+      "athlete_name": "Rihana Martos Teixido",
+      "athlete_dob": "18/03/2012",
+      "athlete_id": "CL85129",
+      "performance": "8.15",
+      "discipline": "Martillo (2 Kg) S14 FEM AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Rihana Martos Teixido",
+      "athlete_dob": "18/03/2012",
+      "athlete_id": "CL85129",
+      "performance": "7.45",
+      "discipline": "Martillo (2 Kg) S14 FEM AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Rihana Martos Teixido",
+      "athlete_dob": "18/03/2012",
+      "athlete_id": "CL85129",
+      "performance": "8.12",
+      "discipline": "Martillo (2 Kg) S14 FEM AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Ada Nin Navas",
+      "athlete_dob": "24/10/2012",
+      "athlete_id": "CL1495",
+      "performance": "7.34",
+      "discipline": "Martillo (2 Kg) S14 FEM AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1331
+    },
+    {
+      "athlete_name": "Ada Nin Navas",
+      "athlete_dob": "24/10/2012",
+      "athlete_id": "CL1495",
+      "performance": "7.30",
+      "discipline": "Martillo (2 Kg) S14 FEM AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1331
+    },
+    {
+      "athlete_name": "Ada Nin Navas",
+      "athlete_dob": "24/10/2012",
+      "athlete_id": "CL1495",
+      "performance": "8.05",
+      "discipline": "Martillo (2 Kg) S14 FEM AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1331
     }
   ]
 }

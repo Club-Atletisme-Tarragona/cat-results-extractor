@@ -2,17 +2,117 @@
   "event_name": "R.Campionat                               57.36   ALEIX CAMATS GARCIA                            CAIB       Serrahima                        16/02/2020 - Estadi Joan Serrahima, 18 febrero 2024",
   "event_date": "18/02/2024",
   "event_location": "Barcelona-SE",
-  "total_results": 4,
+  "total_results": 14,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2024/02/resultat-20240218-catllancamentsmenorsserrahima.pdf",
   "results": [
+    {
+      "athlete_name": "Pau Crespo Beltran",
+      "athlete_dob": "22/10/2008",
+      "athlete_id": "CT1650",
+      "performance": "29.72",
+      "discipline": "Disc (1,5 Kg) Sub18 Masculí",
+      "wind": null,
+      "position": 2,
+      "internal_id": 971
+    },
+    {
+      "athlete_name": "Pau Crespo Beltran",
+      "athlete_dob": "22/10/2008",
+      "athlete_id": "CT1650",
+      "performance": "41.18",
+      "discipline": "Disc (1,5 Kg) Sub18 Masculí",
+      "wind": null,
+      "position": 2,
+      "internal_id": 971
+    },
+    {
+      "athlete_name": "Matias Costa Bakker",
+      "athlete_dob": "19/11/2007",
+      "athlete_id": "CT2169",
+      "performance": "42.44",
+      "discipline": "Martell (5 Kg) Sub18 Masculí",
+      "wind": null,
+      "position": 6,
+      "internal_id": 922
+    },
+    {
+      "athlete_name": "Matias Costa Bakker",
+      "athlete_dob": "19/11/2007",
+      "athlete_id": "CT2169",
+      "performance": "43.36",
+      "discipline": "Martell (5 Kg) Sub18 Masculí",
+      "wind": null,
+      "position": 6,
+      "internal_id": 922
+    },
+    {
+      "athlete_name": "Matias Costa Bakker",
+      "athlete_dob": "19/11/2007",
+      "athlete_id": "CT2169",
+      "performance": "42.85",
+      "discipline": "Martell (5 Kg) Sub18 Masculí",
+      "wind": null,
+      "position": 6,
+      "internal_id": 922
+    },
+    {
+      "athlete_name": "Pau Crespo Beltran",
+      "athlete_dob": "22/10/2008",
+      "athlete_id": "CT1650",
+      "performance": "45.09",
+      "discipline": "Javelina (700g) Sub18 Masculí",
+      "wind": null,
+      "position": 4,
+      "internal_id": 971
+    },
+    {
+      "athlete_name": "Pau Crespo Beltran",
+      "athlete_dob": "22/10/2008",
+      "athlete_id": "CT1650",
+      "performance": "42.33",
+      "discipline": "Javelina (700g) Sub18 Masculí",
+      "wind": null,
+      "position": 4,
+      "internal_id": 971
+    },
+    {
+      "athlete_name": "Pau Crespo Beltran",
+      "athlete_dob": "22/10/2008",
+      "athlete_id": "CT1650",
+      "performance": "45.38",
+      "discipline": "Javelina (700g) Sub18 Masculí",
+      "wind": null,
+      "position": 4,
+      "internal_id": 971
+    },
+    {
+      "athlete_name": "Pau Crespo Beltran",
+      "athlete_dob": "22/10/2008",
+      "athlete_id": "CT1650",
+      "performance": "42.82",
+      "discipline": "Javelina (700g) Sub18 Masculí",
+      "wind": null,
+      "position": 4,
+      "internal_id": 971
+    },
+    {
+      "athlete_name": "Pau Crespo Beltran",
+      "athlete_dob": "22/10/2008",
+      "athlete_id": "CT1650",
+      "performance": "41.80",
+      "discipline": "Javelina (700g) Sub18 Masculí",
+      "wind": null,
+      "position": 4,
+      "internal_id": 971
+    },
     {
       "athlete_name": "Noa Nin Navas",
       "athlete_dob": "28/08/2009",
       "athlete_id": "CL94399",
       "performance": "25.60",
-      "discipline": "Disc (800 g)",
-      "raw_discipline_name": "Disc (800g) Sub16 Femení",
+      "discipline": "Disc (800g) Sub16 Femení",
       "wind": null,
+      "position": 3,
       "internal_id": 1010
     },
     {
@@ -20,9 +120,9 @@
       "athlete_dob": "28/08/2009",
       "athlete_id": "CL94399",
       "performance": "24.68",
-      "discipline": "Disc (800 g)",
-      "raw_discipline_name": "Disc (800g) Sub16 Femení",
+      "discipline": "Disc (800g) Sub16 Femení",
       "wind": null,
+      "position": 3,
       "internal_id": 1010
     },
     {
@@ -30,9 +130,9 @@
       "athlete_dob": "28/08/2009",
       "athlete_id": "CL94399",
       "performance": "24.78",
-      "discipline": "Disc (800 g)",
-      "raw_discipline_name": "Disc (800g) Sub16 Femení",
+      "discipline": "Disc (800g) Sub16 Femení",
       "wind": null,
+      "position": 3,
       "internal_id": 1010
     },
     {
@@ -40,9 +140,9 @@
       "athlete_dob": "28/08/2009",
       "athlete_id": "CL94399",
       "performance": "26.02",
-      "discipline": "Disc (800 g)",
-      "raw_discipline_name": "Disc (800g) Sub16 Femení",
+      "discipline": "Disc (800g) Sub16 Femení",
       "wind": null,
+      "position": 3,
       "internal_id": 1010
     }
   ]

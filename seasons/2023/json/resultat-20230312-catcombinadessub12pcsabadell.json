@@ -1,8 +1,8 @@
 {
   "event_name": "Campionat de Catalunya Sub12 de Proves Combinades en Pista Coberta - Campionat de Catalunya Sub12 de Proves Combinades en Pista Coberta",
   "event_date": "12/03/2023",
-  "event_location": "Sabadell",
-  "total_results": 1,
+  "event_location": "Club                                                 Lic                         Acum.",
+  "total_results": 11,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2023/03/resultat-20230312-catcombinadessub12pcsabadell.pdf",
   "results": [
     {
@@ -10,10 +10,110 @@
       "athlete_dob": "28/09/2012",
       "athlete_id": "CL1093",
       "performance": "9.53",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m MASC. PC",
+      "discipline": "60m MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 1327
+    },
+    {
+      "athlete_name": "Hernan Ferran Jimenez",
+      "athlete_dob": "28/09/2012",
+      "athlete_id": "CL1093",
+      "performance": "3.79",
+      "discipline": "Llargada MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1327
+    },
+    {
+      "athlete_name": "Hernan Ferran Jimenez",
+      "athlete_dob": "28/09/2012",
+      "athlete_id": "CL1093",
+      "performance": "6.88",
+      "discipline": "Pes (2 Kg) MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1327
+    },
+    {
+      "athlete_name": "Hernan Ferran Jimenez",
+      "athlete_dob": "28/09/2012",
+      "athlete_id": "CL1093",
+      "performance": "7.46",
+      "discipline": "Pes (2 Kg) MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1327
+    },
+    {
+      "athlete_name": "Maria Martin Cuadrado",
+      "athlete_dob": "01/05/2012",
+      "athlete_id": "CL1089",
+      "performance": "9.28",
+      "discipline": "60m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1330
+    },
+    {
+      "athlete_name": "Maria Martin Cuadrado",
+      "athlete_dob": "01/05/2012",
+      "athlete_id": "CL1089",
+      "performance": "3.41",
+      "discipline": "Llargada FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1330
+    },
+    {
+      "athlete_name": "Maria Martin Cuadrado",
+      "athlete_dob": "01/05/2012",
+      "athlete_id": "CL1089",
+      "performance": "3.25",
+      "discipline": "Llargada FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1330
+    },
+    {
+      "athlete_name": "Maria Martin Cuadrado",
+      "athlete_dob": "01/05/2012",
+      "athlete_id": "CL1089",
+      "performance": "3.42",
+      "discipline": "Llargada FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1330
+    },
+    {
+      "athlete_name": "Maria Martin Cuadrado",
+      "athlete_dob": "01/05/2012",
+      "athlete_id": "CL1089",
+      "performance": "4.82",
+      "discipline": "Pes (2 Kg) FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1330
+    },
+    {
+      "athlete_name": "Maria Martin Cuadrado",
+      "athlete_dob": "01/05/2012",
+      "athlete_id": "CL1089",
+      "performance": "4.57",
+      "discipline": "Pes (2 Kg) FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1330
+    },
+    {
+      "athlete_name": "Maria Martin Cuadrado",
+      "athlete_dob": "01/05/2012",
+      "athlete_id": "CL1089",
+      "performance": "4.92",
+      "discipline": "Pes (2 Kg) FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1330
     }
   ]
 }

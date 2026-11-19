@@ -1,8 +1,8 @@
 {
   "event_name": "Control Absolut en Pista Coberta - Control Absolut en Pista Coberta",
   "event_date": "16/01/2022",
-  "event_location": "Sabadell",
-  "total_results": 1,
+  "event_location": "Club                                             Lic",
+  "total_results": 10,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2022/01/resultat-20220116-controlabsolutpcsabadell.pdf",
   "results": [
     {
@@ -10,10 +10,100 @@
       "athlete_dob": "23/02/2000",
       "athlete_id": "CT24373",
       "performance": "8.04",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m MASC. PC",
+      "discipline": "60m MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 510
+    },
+    {
+      "athlete_name": "Pablo Angel Fernandez",
+      "athlete_dob": "26/01/2003",
+      "athlete_id": "CT28510",
+      "performance": "8.80",
+      "discipline": "60m tanques (1,067) ABS MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 704
+    },
+    {
+      "athlete_name": "Emma Esteve Soto",
+      "athlete_dob": "25/02/2006",
+      "athlete_id": "CT1021",
+      "performance": "8.09",
+      "discipline": "60m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 837
+    },
+    {
+      "athlete_name": "Emma Esteve Soto",
+      "athlete_dob": "25/02/2006",
+      "athlete_id": "CT1021",
+      "performance": "8.08",
+      "discipline": "60m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 837
+    },
+    {
+      "athlete_name": "Claudia Mir Casellas",
+      "athlete_dob": "02/08/2003",
+      "athlete_id": "CT152",
+      "performance": "1:01.98",
+      "discipline": "400m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 699
+    },
+    {
+      "athlete_name": "Claudia Mir Casellas",
+      "athlete_dob": "02/08/2003",
+      "athlete_id": "CT152",
+      "performance": "9.58",
+      "discipline": "60m tanques (0,84) ABS FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 699
+    },
+    {
+      "athlete_name": "Claudia Mir Casellas",
+      "athlete_dob": "02/08/2003",
+      "athlete_id": "CT152",
+      "performance": "9.52",
+      "discipline": "60m tanques (0,84) ABS FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 699
+    },
+    {
+      "athlete_name": "Nuria Caballero Pacheco",
+      "athlete_dob": "09/10/2001",
+      "athlete_id": "CT25812",
+      "performance": "1.70",
+      "discipline": "Alçada FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 753
+    },
+    {
+      "athlete_name": "Nuria Caballero Pacheco",
+      "athlete_dob": "09/10/2001",
+      "athlete_id": "CT25812",
+      "performance": "5.31",
+      "discipline": "Llargada FEM. PC - GRUP A",
+      "wind": null,
+      "position": null,
+      "internal_id": 753
+    },
+    {
+      "athlete_name": "Nuria Caballero Pacheco",
+      "athlete_dob": "09/10/2001",
+      "athlete_id": "CT25812",
+      "performance": "5.41",
+      "discipline": "Llargada FEM. PC - GRUP A",
+      "wind": null,
+      "position": null,
+      "internal_id": 753
     }
   ]
 }

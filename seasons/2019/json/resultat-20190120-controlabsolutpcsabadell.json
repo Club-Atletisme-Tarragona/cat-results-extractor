@@ -1,28 +1,58 @@
 {
   "event_name": "Control Absolut en pista coberta (6a. Jornada) - Sabadell (Pista Coberta de Catalunya), 20 enero 2019",
   "event_date": "20/01/2019",
-  "event_location": "Sabadell",
-  "total_results": 3,
+  "event_location": "Club                                             Lic",
+  "total_results": 20,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20190120-controlabsolutpcsabadell.pdf",
   "results": [
+    {
+      "athlete_name": "Javier Almale Lerin",
+      "athlete_dob": "23/02/2000",
+      "athlete_id": "CT24373",
+      "performance": "7.20",
+      "discipline": "60m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 510
+    },
+    {
+      "athlete_name": "Javier Almale Lerin",
+      "athlete_dob": "23/02/2000",
+      "athlete_id": "CT24373",
+      "performance": "7.27",
+      "discipline": "60m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 510
+    },
     {
       "athlete_name": "Albert Casado Vieco",
       "athlete_dob": "16/09/2000",
       "athlete_id": "CL26565",
       "performance": "7.53",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m MASC. PC",
+      "discipline": "60m MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 596
+    },
+    {
+      "athlete_name": "353 Javier Almale Lerin JM 2",
+      "athlete_dob": "23/02/2000",
+      "athlete_id": "CT24373",
+      "performance": "NP",
+      "discipline": "200m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 510
     },
     {
       "athlete_name": "Pablo Angel Fernandez",
       "athlete_dob": "26/01/2003",
       "athlete_id": "CT28510",
       "performance": "25.73",
-      "discipline": "200 metres llisos",
-      "raw_discipline_name": "200m MASC. PC",
+      "discipline": "200m MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 704
     },
     {
@@ -30,10 +60,150 @@
       "athlete_dob": "09/06/2003",
       "athlete_id": "CL29249",
       "performance": "25.52",
-      "discipline": "200 metres llisos",
-      "raw_discipline_name": "200m MASC. PC",
+      "discipline": "200m MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 697
+    },
+    {
+      "athlete_name": "Guifre De Los Rios Blanch",
+      "athlete_dob": "09/06/2003",
+      "athlete_id": "CL29249",
+      "performance": "2:10.60",
+      "discipline": "800m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 697
+    },
+    {
+      "athlete_name": "Jordi Puig Argudo",
+      "athlete_dob": "11/11/1972",
+      "athlete_id": "CT27029",
+      "performance": "2:11.31",
+      "discipline": "800m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 585
+    },
+    {
+      "athlete_name": "Bernat Verdu Gomez",
+      "athlete_dob": "02/01/2002",
+      "athlete_id": "CT25944",
+      "performance": "8.31",
+      "discipline": "Triple Salt MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 645
+    },
+    {
+      "athlete_name": "Pablo Angel Fernandez",
+      "athlete_dob": "26/01/2003",
+      "athlete_id": "CT28510",
+      "performance": "8.68",
+      "discipline": "Triple Salt MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 704
+    },
+    {
+      "athlete_name": "Laura Yan Sole Barba",
+      "athlete_dob": "31/10/2003",
+      "athlete_id": "CL29246",
+      "performance": "8.19",
+      "discipline": "60m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 701
+    },
+    {
+      "athlete_name": "Laura Yan Sole Barba",
+      "athlete_dob": "31/10/2003",
+      "athlete_id": "CL29246",
+      "performance": "27.37",
+      "discipline": "200m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 701
+    },
+    {
+      "athlete_name": "Claudia Mir Casellas",
+      "athlete_dob": "02/08/2003",
+      "athlete_id": "CL29243",
+      "performance": "29.16",
+      "discipline": "200m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 699
+    },
+    {
+      "athlete_name": "Patricia Amador Peris",
+      "athlete_dob": "18/02/1980",
+      "athlete_id": "CT28190",
+      "performance": "2:27.77",
+      "discipline": "800m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 644
+    },
+    {
+      "athlete_name": "Marina Tibau Sendra",
+      "athlete_dob": "06/08/1995",
+      "athlete_id": "CL20392",
+      "performance": "10.26",
+      "discipline": "Pes (4 Kg) FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 359
+    },
+    {
+      "athlete_name": "Marina Tibau Sendra",
+      "athlete_dob": "06/08/1995",
+      "athlete_id": "CL20392",
+      "performance": "10.37",
+      "discipline": "Pes (4 Kg) FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 359
+    },
+    {
+      "athlete_name": "Marina Tibau Sendra",
+      "athlete_dob": "06/08/1995",
+      "athlete_id": "CL20392",
+      "performance": "10.65",
+      "discipline": "Pes (4 Kg) FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 359
+    },
+    {
+      "athlete_name": "Marina Tibau Sendra",
+      "athlete_dob": "06/08/1995",
+      "athlete_id": "CL20392",
+      "performance": "10.47",
+      "discipline": "Pes (4 Kg) FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 359
+    },
+    {
+      "athlete_name": "Marina Tibau Sendra",
+      "athlete_dob": "06/08/1995",
+      "athlete_id": "CL20392",
+      "performance": "10.56",
+      "discipline": "Pes (4 Kg) FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 359
+    },
+    {
+      "athlete_name": "Claudia Mir Casellas",
+      "athlete_dob": "02/08/2003",
+      "athlete_id": "CL29243",
+      "performance": "10.80",
+      "discipline": "Pes (4 Kg) FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 699
     }
   ]
 }

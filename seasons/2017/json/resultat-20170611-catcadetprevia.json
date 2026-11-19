@@ -2,17 +2,47 @@
   "event_name": "Jornada Prèvia Campionat de Catalunya Cadet",
   "event_date": "11/06/2017",
   "event_location": "El Prat de Llobregat",
-  "total_results": 16,
+  "total_results": 31,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20170611-catcadetprevia.pdf",
   "results": [
+    {
+      "athlete_name": "Mario Sanchez Alvarez",
+      "athlete_dob": "02/10/2002",
+      "athlete_id": "CT27089",
+      "performance": "11.88",
+      "discipline": "100 METRES LLISOS MASCULINS",
+      "wind": "-0.7",
+      "position": null,
+      "internal_id": 1023
+    },
     {
       "athlete_name": "Laura Yan Sole Barba",
       "athlete_dob": "31/10/2003",
       "athlete_id": "CL71752",
       "performance": "13.76",
-      "discipline": "100 metres llisos",
-      "raw_discipline_name": "100 METRES LLISOS FEMENINS",
+      "discipline": "100 METRES LLISOS FEMENINS",
       "wind": "-0.4",
+      "position": null,
+      "internal_id": 701
+    },
+    {
+      "athlete_name": "Mario Sanchez Alvarez",
+      "athlete_dob": "02/10/2002",
+      "athlete_id": "CT27089",
+      "performance": "0:37.99",
+      "discipline": "300 METRES LLISOS MASCULINS",
+      "wind": null,
+      "position": null,
+      "internal_id": 1023
+    },
+    {
+      "athlete_name": "Laura Yan Sole Barba",
+      "athlete_dob": "31/10/2003",
+      "athlete_id": "CL71752",
+      "performance": "0:46.94",
+      "discipline": "300 METRES LLISOS FEMENINS",
+      "wind": null,
+      "position": null,
       "internal_id": 701
     },
     {
@@ -20,49 +50,99 @@
       "athlete_dob": "26/09/2002",
       "athlete_id": "CL71714",
       "performance": "1:31.06",
-      "discipline": "600 metres llisos",
-      "raw_discipline_name": "600 METRES LLISOS MASCULINS",
+      "discipline": "600 METRES LLISOS MASCULINS",
       "wind": null,
+      "position": null,
       "internal_id": 660
+    },
+    {
+      "athlete_name": "Marta Ros Borrell",
+      "athlete_dob": "25/03/2002",
+      "athlete_id": "CL71741",
+      "performance": "1:48.35",
+      "discipline": "600 METRES LLISOS FEMENINS",
+      "wind": null,
+      "position": null,
+      "internal_id": 1675
+    },
+    {
+      "athlete_name": "114 Bernat Verdu Gomez CM 4",
+      "athlete_dob": "02/01/2002",
+      "athlete_id": "CT25944",
+      "performance": "NP",
+      "discipline": "100 METRES TANQUES MASCULINS",
+      "wind": "-3.1",
+      "position": null,
+      "internal_id": 645
     },
     {
       "athlete_name": "Pep Aldave Mas",
       "athlete_dob": "29/08/2002",
       "athlete_id": "CL71684",
       "performance": "17.38",
-      "discipline": "100 metres tanques (0.91)",
-      "raw_discipline_name": "100 METRES TANQUES MASCULINS",
+      "discipline": "100 METRES TANQUES MASCULINS",
       "wind": "+1.7",
+      "position": null,
       "internal_id": 640
     },
     {
       "athlete_name": "Claudian. Mir Casellas",
       "athlete_dob": "02/08/2003",
       "athlete_id": "CL69333",
-      "performance": "53.72",
-      "discipline": "300 metres tanques (0.762)",
-      "raw_discipline_name": "300 METRES TANQUES FEMENINS",
-      "wind": null,
+      "performance": "19.22",
+      "discipline": "100 METRES TANQUES FEMENINS",
+      "wind": "-4.5",
+      "position": null,
       "internal_id": 699
+    },
+    {
+      "athlete_name": "Claudian. Mir Casellas",
+      "athlete_dob": "02/08/2003",
+      "athlete_id": "CL69333",
+      "performance": "53.72",
+      "discipline": "300 METRES TANQUES FEMENINS",
+      "wind": null,
+      "position": null,
+      "internal_id": 699
+    },
+    {
+      "athlete_name": "Didac Safont Balaguer",
+      "athlete_dob": "25/02/2002",
+      "athlete_id": "CL78446",
+      "performance": "5:14.46",
+      "discipline": "1500 METRES OBSTACLES MASCULINS",
+      "wind": null,
+      "position": null,
+      "internal_id": 651
     },
     {
       "athlete_name": "Bernat Verdu Gomez",
       "athlete_dob": "02/01/2002",
       "athlete_id": "CT25944",
       "performance": "45.06",
-      "discipline": "300 metres tanques (0.762)",
-      "raw_discipline_name": "300 METRES TANQUES MASCULINS",
+      "discipline": "300 METRES TANQUES MASCULINS",
       "wind": null,
+      "position": null,
       "internal_id": 645
+    },
+    {
+      "athlete_name": "Carla Gonzalez Carrillo",
+      "athlete_dob": "05/06/2003",
+      "athlete_id": "CL82680",
+      "performance": "6:04.12",
+      "discipline": "1500 METRES OBSTACLES FEMENINS",
+      "wind": null,
+      "position": null,
+      "internal_id": 698
     },
     {
       "athlete_name": "Maria Falco Cuenca",
       "athlete_dob": "14/06/2002",
       "athlete_id": "CL71705",
       "performance": "1.51",
-      "discipline": "Alçada",
-      "raw_discipline_name": "SALT D'ALÇADA FEMENÍ",
+      "discipline": "SALT D'ALÇADA FEMENÍ",
       "wind": null,
+      "position": null,
       "internal_id": 664
     },
     {
@@ -70,19 +150,49 @@
       "athlete_dob": "05/08/2002",
       "athlete_id": "CL71750",
       "performance": "2.75",
-      "discipline": "Perxa",
-      "raw_discipline_name": "SALT AMB PERXA FEMENÍ",
+      "discipline": "SALT AMB PERXA FEMENÍ",
       "wind": null,
+      "position": null,
       "internal_id": 643
+    },
+    {
+      "athlete_name": "Ariadna Alonso Del Campo",
+      "athlete_dob": "06/09/2003",
+      "athlete_id": "CL82671",
+      "performance": "2.30",
+      "discipline": "SALT AMB PERXA FEMENÍ",
+      "wind": null,
+      "position": null,
+      "internal_id": 703
+    },
+    {
+      "athlete_name": "Edgar Jose Diaz",
+      "athlete_dob": "08/04/2002",
+      "athlete_id": "CL71711",
+      "performance": "4.92",
+      "discipline": "SALT DE LLARGADA MASCULI",
+      "wind": "+0.0",
+      "position": null,
+      "internal_id": 653
+    },
+    {
+      "athlete_name": "Edgar Jose Diaz",
+      "athlete_dob": "08/04/2002",
+      "athlete_id": "CL71711",
+      "performance": "4.74",
+      "discipline": "SALT DE LLARGADA MASCULI",
+      "wind": "-0.7",
+      "position": null,
+      "internal_id": 653
     },
     {
       "athlete_name": "Pep Aldave Mas",
       "athlete_dob": "29/08/2002",
       "athlete_id": "CL71684",
       "performance": "10.05",
-      "discipline": "Triple",
-      "raw_discipline_name": "TRIPLE SALT MASCULI",
+      "discipline": "TRIPLE SALT MASCULI",
       "wind": "+3.2",
+      "position": null,
       "internal_id": 640
     },
     {
@@ -90,9 +200,9 @@
       "athlete_dob": "29/08/2002",
       "athlete_id": "CL71684",
       "performance": "9.66",
-      "discipline": "Triple",
-      "raw_discipline_name": "TRIPLE SALT MASCULI",
+      "discipline": "TRIPLE SALT MASCULI",
       "wind": "+0.8",
+      "position": null,
       "internal_id": 640
     },
     {
@@ -100,19 +210,59 @@
       "athlete_dob": "29/08/2002",
       "athlete_id": "CL71684",
       "performance": "10.17",
-      "discipline": "Triple",
-      "raw_discipline_name": "TRIPLE SALT MASCULI",
+      "discipline": "TRIPLE SALT MASCULI",
       "wind": "+0.2",
+      "position": null,
       "internal_id": 640
+    },
+    {
+      "athlete_name": "Nuria Menchon Tevar",
+      "athlete_dob": "25/06/2002",
+      "athlete_id": "CL83693",
+      "performance": "27.13",
+      "discipline": "LLANÇAMENT DE MARTELL FEMENI",
+      "wind": null,
+      "position": null,
+      "internal_id": 541
+    },
+    {
+      "athlete_name": "Nuria Menchon Tevar",
+      "athlete_dob": "25/06/2002",
+      "athlete_id": "CL83693",
+      "performance": "27.65",
+      "discipline": "LLANÇAMENT DE MARTELL FEMENI",
+      "wind": null,
+      "position": null,
+      "internal_id": 541
+    },
+    {
+      "athlete_name": "Nuria Menchon Tevar",
+      "athlete_dob": "25/06/2002",
+      "athlete_id": "CL83693",
+      "performance": "28.61",
+      "discipline": "LLANÇAMENT DE MARTELL FEMENI",
+      "wind": null,
+      "position": null,
+      "internal_id": 541
+    },
+    {
+      "athlete_name": "Marina Pelicano Sanchis",
+      "athlete_dob": "04/05/2002",
+      "athlete_id": "CL78444",
+      "performance": "22.94",
+      "discipline": "LLANÇAMENT DE MARTELL FEMENI",
+      "wind": null,
+      "position": null,
+      "internal_id": 641
     },
     {
       "athlete_name": "Ines Delgado Pizzo",
       "athlete_dob": "19/05/2002",
       "athlete_id": "CL71700",
       "performance": "25.23",
-      "discipline": "Javelina (500 g)",
-      "raw_discipline_name": "LLANÇAMENT DE JAVELINA FEMENI",
+      "discipline": "LLANÇAMENT DE JAVELINA FEMENI",
       "wind": null,
+      "position": null,
       "internal_id": 667
     },
     {
@@ -120,9 +270,9 @@
       "athlete_dob": "19/05/2002",
       "athlete_id": "CL71700",
       "performance": "22.93",
-      "discipline": "Javelina (500 g)",
-      "raw_discipline_name": "LLANÇAMENT DE JAVELINA FEMENI",
+      "discipline": "LLANÇAMENT DE JAVELINA FEMENI",
       "wind": null,
+      "position": null,
       "internal_id": 667
     },
     {
@@ -130,9 +280,9 @@
       "athlete_dob": "19/05/2002",
       "athlete_id": "CL71700",
       "performance": "22.10",
-      "discipline": "Javelina (500 g)",
-      "raw_discipline_name": "LLANÇAMENT DE JAVELINA FEMENI",
+      "discipline": "LLANÇAMENT DE JAVELINA FEMENI",
       "wind": null,
+      "position": null,
       "internal_id": 667
     },
     {
@@ -140,9 +290,9 @@
       "athlete_dob": "19/05/2002",
       "athlete_id": "CL71700",
       "performance": "22.37",
-      "discipline": "Javelina (500 g)",
-      "raw_discipline_name": "LLANÇAMENT DE JAVELINA FEMENI",
+      "discipline": "LLANÇAMENT DE JAVELINA FEMENI",
       "wind": null,
+      "position": null,
       "internal_id": 667
     },
     {
@@ -150,9 +300,9 @@
       "athlete_dob": "19/05/2002",
       "athlete_id": "CL71700",
       "performance": "22.79",
-      "discipline": "Javelina (500 g)",
-      "raw_discipline_name": "LLANÇAMENT DE JAVELINA FEMENI",
+      "discipline": "LLANÇAMENT DE JAVELINA FEMENI",
       "wind": null,
+      "position": null,
       "internal_id": 667
     },
     {
@@ -160,9 +310,9 @@
       "athlete_dob": "19/05/2002",
       "athlete_id": "CL71700",
       "performance": "21.33",
-      "discipline": "Javelina (500 g)",
-      "raw_discipline_name": "LLANÇAMENT DE JAVELINA FEMENI",
+      "discipline": "LLANÇAMENT DE JAVELINA FEMENI",
       "wind": null,
+      "position": null,
       "internal_id": 667
     }
   ]

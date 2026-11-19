@@ -1,38 +1,138 @@
 {
   "event_name": "Campionat Catalunya Clubs Màster - Pista Mpal. de Atmo. Les Basses, 28 mayo 2023",
   "event_date": "28/05/2023",
-  "event_location": "Lleida",
-  "total_results": 7,
+  "event_location": "Pista Mpal. de Atmo. Les Basses",
+  "total_results": 41,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2023/05/resultat-20230528-catclubsmasterallleida.pdf",
   "results": [
     {
-      "athlete_name": "Pere Pardines Gras",
-      "athlete_dob": "30/01/1965",
-      "athlete_id": "CT9121",
-      "performance": "1.51",
-      "discipline": "Alçada",
-      "raw_discipline_name": "Altura MASC. AL",
+      "athlete_name": "Juan Carlos Herrera Alcaide",
+      "athlete_dob": "31/01/1973",
+      "athlete_id": "CT25152",
+      "performance": "85.71",
+      "discipline": "400m MASC. AL",
       "wind": null,
-      "internal_id": 71
+      "position": null,
+      "internal_id": 518
     },
     {
-      "athlete_name": "Josep Maria Mateo Sanz",
-      "athlete_dob": "17/11/1964",
-      "athlete_id": "CT19378",
-      "performance": "3.20",
-      "discipline": "Perxa",
-      "raw_discipline_name": "Pértiga MASC. AL",
+      "athlete_name": "Francisco Javier Baz Vidal",
+      "athlete_dob": "02/12/1969",
+      "athlete_id": "CL8459",
+      "performance": "1:12.95",
+      "discipline": "400m MASC. AL",
       "wind": null,
-      "internal_id": 343
+      "position": null,
+      "internal_id": 887
+    },
+    {
+      "athlete_name": "Pedro Ortega Ridao",
+      "athlete_dob": "12/10/1977",
+      "athlete_id": "CT16079",
+      "performance": "2:13.69",
+      "discipline": "800m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 268
+    },
+    {
+      "athlete_name": "Jesus Gellida Albiol",
+      "athlete_dob": "21/06/1980",
+      "athlete_id": "CL3135",
+      "performance": "4:50.28",
+      "discipline": "1.500m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 772
+    },
+    {
+      "athlete_name": "Jose Francisco Garcia Navarrete",
+      "athlete_dob": "24/09/1967",
+      "athlete_id": "CL3972",
+      "performance": "11:25.43",
+      "discipline": "3.000m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 5
+    },
+    {
+      "athlete_name": "74 (t) Isidro Lopez Balleste M-40 7",
+      "athlete_dob": "09/03/1981",
+      "athlete_id": "CL14088",
+      "performance": "NP",
+      "discipline": "3.000m Obst. MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 202
+    },
+    {
+      "athlete_name": "Luis Saez Perez",
+      "athlete_dob": "01/03/1949",
+      "athlete_id": "CT17487",
+      "performance": "7.76",
+      "discipline": "Peso Vet. MAS. AL 70-74",
+      "wind": null,
+      "position": null,
+      "internal_id": 304
+    },
+    {
+      "athlete_name": "Luis Saez Perez",
+      "athlete_dob": "01/03/1949",
+      "athlete_id": "CT17487",
+      "performance": "8.17",
+      "discipline": "Peso Vet. MAS. AL 70-74",
+      "wind": null,
+      "position": null,
+      "internal_id": 304
+    },
+    {
+      "athlete_name": "Luis Saez Perez",
+      "athlete_dob": "01/03/1949",
+      "athlete_id": "CT17487",
+      "performance": "7.79",
+      "discipline": "Peso Vet. MAS. AL 70-74",
+      "wind": null,
+      "position": null,
+      "internal_id": 304
+    },
+    {
+      "athlete_name": "Luis Saez Perez",
+      "athlete_dob": "01/03/1949",
+      "athlete_id": "CT17487",
+      "performance": "7.91",
+      "discipline": "Peso Vet. MAS. AL 70-74",
+      "wind": null,
+      "position": null,
+      "internal_id": 304
+    },
+    {
+      "athlete_name": "Luis Saez Perez",
+      "athlete_dob": "01/03/1949",
+      "athlete_id": "CT17487",
+      "performance": "7.72",
+      "discipline": "Peso Vet. MAS. AL 70-74",
+      "wind": null,
+      "position": null,
+      "internal_id": 304
+    },
+    {
+      "athlete_name": "Luis Saez Perez",
+      "athlete_dob": "01/03/1949",
+      "athlete_id": "CT17487",
+      "performance": "8.11",
+      "discipline": "Peso Vet. MAS. AL 70-74",
+      "wind": null,
+      "position": null,
+      "internal_id": 304
     },
     {
       "athlete_name": "Jose Miguel Martin Alvarez",
       "athlete_dob": "10/09/1972",
       "athlete_id": "CL12544",
       "performance": "5.20",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud MASC. AL",
+      "discipline": "Longitud MASC. AL",
       "wind": "+0.0",
+      "position": null,
       "internal_id": 15
     },
     {
@@ -40,9 +140,9 @@
       "athlete_dob": "10/09/1972",
       "athlete_id": "CL12544",
       "performance": "5.24",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud MASC. AL",
+      "discipline": "Longitud MASC. AL",
       "wind": "-0.3",
+      "position": null,
       "internal_id": 15
     },
     {
@@ -50,9 +150,9 @@
       "athlete_dob": "10/09/1972",
       "athlete_id": "CL12544",
       "performance": "5.23",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud MASC. AL",
+      "discipline": "Longitud MASC. AL",
       "wind": "+0.0",
+      "position": null,
       "internal_id": 15
     },
     {
@@ -60,20 +160,260 @@
       "athlete_dob": "10/09/1972",
       "athlete_id": "CL12544",
       "performance": "3.95",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud MASC. AL",
+      "discipline": "Longitud MASC. AL",
       "wind": "-0.1",
+      "position": null,
       "internal_id": 15
+    },
+    {
+      "athlete_name": "Francesc Mosquera Pages",
+      "athlete_dob": "07/09/1956",
+      "athlete_id": "CT1501",
+      "performance": "33.96",
+      "discipline": "Jabalina Vet. MAS. 65-69",
+      "wind": null,
+      "position": null,
+      "internal_id": 855
+    },
+    {
+      "athlete_name": "Francesc Mosquera Pages",
+      "athlete_dob": "07/09/1956",
+      "athlete_id": "CT1501",
+      "performance": "34.22",
+      "discipline": "Jabalina Vet. MAS. 65-69",
+      "wind": null,
+      "position": null,
+      "internal_id": 855
+    },
+    {
+      "athlete_name": "Francesc Mosquera Pages",
+      "athlete_dob": "07/09/1956",
+      "athlete_id": "CT1501",
+      "performance": "29.93",
+      "discipline": "Jabalina Vet. MAS. 65-69",
+      "wind": null,
+      "position": null,
+      "internal_id": 855
+    },
+    {
+      "athlete_name": "Francesc Mosquera Pages",
+      "athlete_dob": "07/09/1956",
+      "athlete_id": "CT1501",
+      "performance": "31.89",
+      "discipline": "Jabalina Vet. MAS. 65-69",
+      "wind": null,
+      "position": null,
+      "internal_id": 855
+    },
+    {
+      "athlete_name": "Francesc Mosquera Pages",
+      "athlete_dob": "07/09/1956",
+      "athlete_id": "CT1501",
+      "performance": "34.85",
+      "discipline": "Jabalina Vet. MAS. 65-69",
+      "wind": null,
+      "position": null,
+      "internal_id": 855
+    },
+    {
+      "athlete_name": "Juan Carlos Herrera Alcaide",
+      "athlete_dob": "31/01/1973",
+      "athlete_id": "CT25152",
+      "performance": "10.34",
+      "discipline": "Triple Salto MASC. AL",
+      "wind": "+0.0",
+      "position": null,
+      "internal_id": 518
+    },
+    {
+      "athlete_name": "Juan Carlos Herrera Alcaide",
+      "athlete_dob": "31/01/1973",
+      "athlete_id": "CT25152",
+      "performance": "10.26",
+      "discipline": "Triple Salto MASC. AL",
+      "wind": "-0.7",
+      "position": null,
+      "internal_id": 518
+    },
+    {
+      "athlete_name": "Juan Carlos Herrera Alcaide",
+      "athlete_dob": "31/01/1973",
+      "athlete_id": "CT25152",
+      "performance": "10.82",
+      "discipline": "Triple Salto MASC. AL",
+      "wind": "-0.8",
+      "position": null,
+      "internal_id": 518
+    },
+    {
+      "athlete_name": "Pedro Vacas Campos",
+      "athlete_dob": "10/04/1961",
+      "athlete_id": "CL25864",
+      "performance": "30.56",
+      "discipline": "Disco Vet. MAS. 60-64",
+      "wind": null,
+      "position": null,
+      "internal_id": 197
+    },
+    {
+      "athlete_name": "Antonia Royo Fabregat",
+      "athlete_dob": "09/09/1964",
+      "athlete_id": "CT27087",
+      "performance": "1:26.17",
+      "discipline": "400m FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 609
+    },
+    {
+      "athlete_name": "Patricia Amador Peris",
+      "athlete_dob": "18/02/1980",
+      "athlete_id": "CT28190",
+      "performance": "2:21.67",
+      "discipline": "800m FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 644
+    },
+    {
+      "athlete_name": "Maria Teresa Gargallo Gracia",
+      "athlete_dob": "15/10/1969",
+      "athlete_id": "CT2172",
+      "performance": "6:17.66",
+      "discipline": "1.500m FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 933
+    },
+    {
+      "athlete_name": "Maria Teresa Gargallo Gracia",
+      "athlete_dob": "15/10/1969",
+      "athlete_id": "CT2172",
+      "performance": "12:41.17",
+      "discipline": "3.000m FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 933
     },
     {
       "athlete_name": "Marisa Pradillo Gutierrez",
       "athlete_dob": "29/07/1961",
       "athlete_id": "CT21513",
       "performance": "2.58",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud FEM. AL",
+      "discipline": "Longitud FEM. AL",
       "wind": null,
+      "position": null,
       "internal_id": 389
+    },
+    {
+      "athlete_name": "Joana Pinyol Margalef",
+      "athlete_dob": "15/05/1963",
+      "athlete_id": "CT20426",
+      "performance": "5.14",
+      "discipline": "Peso VET. Fem. AL 60-64",
+      "wind": null,
+      "position": null,
+      "internal_id": 376
+    },
+    {
+      "athlete_name": "Joana Pinyol Margalef",
+      "athlete_dob": "15/05/1963",
+      "athlete_id": "CT20426",
+      "performance": "5.49",
+      "discipline": "Peso VET. Fem. AL 60-64",
+      "wind": null,
+      "position": null,
+      "internal_id": 376
+    },
+    {
+      "athlete_name": "Joana Pinyol Margalef",
+      "athlete_dob": "15/05/1963",
+      "athlete_id": "CT20426",
+      "performance": "5.11",
+      "discipline": "Peso VET. Fem. AL 60-64",
+      "wind": null,
+      "position": null,
+      "internal_id": 376
+    },
+    {
+      "athlete_name": "Joana Pinyol Margalef",
+      "athlete_dob": "15/05/1963",
+      "athlete_id": "CT20426",
+      "performance": "5.27",
+      "discipline": "Peso VET. Fem. AL 60-64",
+      "wind": null,
+      "position": null,
+      "internal_id": 376
+    },
+    {
+      "athlete_name": "Joana Pinyol Margalef",
+      "athlete_dob": "15/05/1963",
+      "athlete_id": "CT20426",
+      "performance": "5.43",
+      "discipline": "Peso VET. Fem. AL 60-64",
+      "wind": null,
+      "position": null,
+      "internal_id": 376
+    },
+    {
+      "athlete_name": "Regina Gras Cardenas",
+      "athlete_dob": "22/10/1979",
+      "athlete_id": "CT2086",
+      "performance": "8.89",
+      "discipline": "Jabalina VET. Fem. 40-44",
+      "wind": null,
+      "position": null,
+      "internal_id": 938
+    },
+    {
+      "athlete_name": "Regina Gras Cardenas",
+      "athlete_dob": "22/10/1979",
+      "athlete_id": "CT2086",
+      "performance": "8.48",
+      "discipline": "Jabalina VET. Fem. 40-44",
+      "wind": null,
+      "position": null,
+      "internal_id": 938
+    },
+    {
+      "athlete_name": "Regina Gras Cardenas",
+      "athlete_dob": "22/10/1979",
+      "athlete_id": "CT2086",
+      "performance": "7.47",
+      "discipline": "Jabalina VET. Fem. 40-44",
+      "wind": null,
+      "position": null,
+      "internal_id": 938
+    },
+    {
+      "athlete_name": "Regina Gras Cardenas",
+      "athlete_dob": "22/10/1979",
+      "athlete_id": "CT2086",
+      "performance": "6.70",
+      "discipline": "Jabalina VET. Fem. 40-44",
+      "wind": null,
+      "position": null,
+      "internal_id": 938
+    },
+    {
+      "athlete_name": "Regina Gras Cardenas",
+      "athlete_dob": "22/10/1979",
+      "athlete_id": "CT2086",
+      "performance": "8.86",
+      "discipline": "Jabalina VET. Fem. 40-44",
+      "wind": null,
+      "position": null,
+      "internal_id": 938
+    },
+    {
+      "athlete_name": "Regina Gras Cardenas",
+      "athlete_dob": "22/10/1979",
+      "athlete_id": "CT2086",
+      "performance": "9.84",
+      "discipline": "Jabalina VET. Fem. 40-44",
+      "wind": null,
+      "position": null,
+      "internal_id": 938
     }
   ]
 }

@@ -1,18 +1,88 @@
 {
   "event_name": "Campionat Catalunya de Clubs Sub-20 - Pista Mpal. de Atmo. Les Basses, 25 junio 2023",
   "event_date": "25/06/2023",
-  "event_location": "Lleida",
-  "total_results": 11,
+  "event_location": "Pista Mpal. de Atmo. Les Basses",
+  "total_results": 65,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2023/06/resultat-20230625-catclubssub20lleida.pdf",
   "results": [
+    {
+      "athlete_name": "Hugo Jules Saiz Santolaria",
+      "athlete_dob": "31/01/2005",
+      "athlete_id": "CT469",
+      "performance": "11.64",
+      "discipline": "100m MASC. AL",
+      "wind": "-0.5",
+      "position": null,
+      "internal_id": 808
+    },
+    {
+      "athlete_name": "Isaac Aguilo Carrilo",
+      "athlete_dob": "15/01/2007",
+      "athlete_id": "CT2372",
+      "performance": "24.95",
+      "discipline": "200m MASC. AL",
+      "wind": "-0.2",
+      "position": null,
+      "internal_id": 921
+    },
+    {
+      "athlete_name": "Joan Martorell Escobar",
+      "athlete_dob": "22/03/2007",
+      "athlete_id": "CT1651",
+      "performance": "0:52.85",
+      "discipline": "400m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 914
+    },
+    {
+      "athlete_name": "Marti Vallverdu Alonso",
+      "athlete_dob": "19/03/2007",
+      "athlete_id": "CT2369",
+      "performance": "2:19.45",
+      "discipline": "800m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 919
+    },
+    {
+      "athlete_name": "Victor Capitan Rojas",
+      "athlete_dob": "06/05/2006",
+      "athlete_id": "CL7171",
+      "performance": "5:07.78",
+      "discipline": "1.500m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 862
+    },
+    {
+      "athlete_name": "Lluc Subiros Brasero",
+      "athlete_dob": "06/01/2007",
+      "athlete_id": "CT1186",
+      "performance": "17.58",
+      "discipline": "110m vallas (1,00) MASC. AL",
+      "wind": "-0.3",
+      "position": null,
+      "internal_id": 899
+    },
+    {
+      "athlete_name": "Pol Aixala Guiu",
+      "athlete_dob": "04/12/2004",
+      "athlete_id": "CT438",
+      "performance": "0:59.13",
+      "discipline": "400m vallas (0,91) MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 733
+    },
     {
       "athlete_name": "Lluc Subiros Brasero",
       "athlete_dob": "06/01/2007",
       "athlete_id": "CT1186",
       "performance": "1.75",
-      "discipline": "Alçada",
-      "raw_discipline_name": "Altura MASC. AL",
+      "discipline": "Altura MASC. AL",
       "wind": null,
+      "position": null,
       "internal_id": 899
     },
     {
@@ -20,9 +90,9 @@
       "athlete_dob": "06/06/2006",
       "athlete_id": "CL3357",
       "performance": "3.20",
-      "discipline": "Perxa",
-      "raw_discipline_name": "Pértiga MASC. AL",
+      "discipline": "Pértiga MASC. AL",
       "wind": null,
+      "position": null,
       "internal_id": 866
     },
     {
@@ -30,9 +100,9 @@
       "athlete_dob": "19/03/2007",
       "athlete_id": "CT2369",
       "performance": "4.60",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud MASC. AL",
+      "discipline": "Longitud MASC. AL",
       "wind": "-0.1",
+      "position": null,
       "internal_id": 919
     },
     {
@@ -40,9 +110,9 @@
       "athlete_dob": "19/03/2007",
       "athlete_id": "CT2369",
       "performance": "4.54",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud MASC. AL",
+      "discipline": "Longitud MASC. AL",
       "wind": "+0.6",
+      "position": null,
       "internal_id": 919
     },
     {
@@ -50,19 +120,29 @@
       "athlete_dob": "19/03/2007",
       "athlete_id": "CT2369",
       "performance": "4.42",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud MASC. AL",
+      "discipline": "Longitud MASC. AL",
       "wind": "-1.0",
+      "position": null,
       "internal_id": 919
+    },
+    {
+      "athlete_name": "Joan Magrane Serret",
+      "athlete_dob": "06/06/2006",
+      "athlete_id": "CL3357",
+      "performance": "10.73",
+      "discipline": "Triple Salto MASC. AL",
+      "wind": "+0.0",
+      "position": null,
+      "internal_id": 866
     },
     {
       "athlete_name": "Pol Mosquera Centelles",
       "athlete_dob": "03/01/2006",
       "athlete_id": "CL8923",
       "performance": "9.39",
-      "discipline": "Pes (6 Kg)",
-      "raw_discipline_name": "Peso (6kg) MASC. AL",
+      "discipline": "Peso (6 Kg) MASC. AL",
       "wind": null,
+      "position": null,
       "internal_id": 892
     },
     {
@@ -70,9 +150,9 @@
       "athlete_dob": "03/01/2006",
       "athlete_id": "CL8923",
       "performance": "8.51",
-      "discipline": "Pes (6 Kg)",
-      "raw_discipline_name": "Peso (6kg) MASC. AL",
+      "discipline": "Peso (6 Kg) MASC. AL",
       "wind": null,
+      "position": null,
       "internal_id": 892
     },
     {
@@ -80,9 +160,9 @@
       "athlete_dob": "03/01/2006",
       "athlete_id": "CL8923",
       "performance": "8.43",
-      "discipline": "Pes (6 Kg)",
-      "raw_discipline_name": "Peso (6kg) MASC. AL",
+      "discipline": "Peso (6 Kg) MASC. AL",
       "wind": null,
+      "position": null,
       "internal_id": 892
     },
     {
@@ -90,9 +170,9 @@
       "athlete_dob": "19/11/2007",
       "athlete_id": "CT2169",
       "performance": "25.80",
-      "discipline": "Martell (6 Kg)",
-      "raw_discipline_name": "Martillo (6kg) MASC.",
+      "discipline": "Martillo (6 Kg) MASC.",
       "wind": null,
+      "position": null,
       "internal_id": 922
     },
     {
@@ -100,9 +180,9 @@
       "athlete_dob": "19/11/2007",
       "athlete_id": "CT2169",
       "performance": "24.72",
-      "discipline": "Martell (6 Kg)",
-      "raw_discipline_name": "Martillo (6kg) MASC.",
+      "discipline": "Martillo (6 Kg) MASC.",
       "wind": null,
+      "position": null,
       "internal_id": 922
     },
     {
@@ -110,10 +190,470 @@
       "athlete_dob": "19/11/2007",
       "athlete_id": "CT2169",
       "performance": "30.06",
-      "discipline": "Martell (6 Kg)",
-      "raw_discipline_name": "Martillo (6kg) MASC.",
+      "discipline": "Martillo (6 Kg) MASC.",
       "wind": null,
+      "position": null,
       "internal_id": 922
+    },
+    {
+      "athlete_name": "Pol Mosquera Centelles",
+      "athlete_dob": "03/01/2006",
+      "athlete_id": "CL8923",
+      "performance": "17.65",
+      "discipline": "Jabalina (800g) MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 892
+    },
+    {
+      "athlete_name": "Pol Mosquera Centelles",
+      "athlete_dob": "03/01/2006",
+      "athlete_id": "CL8923",
+      "performance": "20.61",
+      "discipline": "Jabalina (800g) MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 892
+    },
+    {
+      "athlete_name": "Pol Mosquera Centelles",
+      "athlete_dob": "03/01/2006",
+      "athlete_id": "CL8923",
+      "performance": "20.98",
+      "discipline": "Jabalina (800g) MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 892
+    },
+    {
+      "athlete_name": "Pol Mosquera Centelles",
+      "athlete_dob": "03/01/2006",
+      "athlete_id": "CL8923",
+      "performance": "20.07",
+      "discipline": "Jabalina (800g) MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 892
+    },
+    {
+      "athlete_name": "Miquel Vallverdu Alonso",
+      "athlete_dob": "10/03/2009",
+      "athlete_id": "CL90846",
+      "performance": "48.95",
+      "discipline": "4x100m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1020
+    },
+    {
+      "athlete_name": "Bernat Bardina Artigau",
+      "athlete_dob": "12/04/2008",
+      "athlete_id": "CL82974",
+      "performance": "48.95",
+      "discipline": "4x100m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 963
+    },
+    {
+      "athlete_name": "Jofre Virgili Garrigos",
+      "athlete_dob": "14/03/2008",
+      "athlete_id": "CL82991",
+      "performance": "48.95",
+      "discipline": "4x100m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 985
+    },
+    {
+      "athlete_name": "Isaac Aguilo Carrilo",
+      "athlete_dob": "15/01/2007",
+      "athlete_id": "CT2372",
+      "performance": "48.95",
+      "discipline": "4x100m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 921
+    },
+    {
+      "athlete_name": "Victor Capitan Rojas",
+      "athlete_dob": "06/05/2006",
+      "athlete_id": "CL7171",
+      "performance": "3:46.37",
+      "discipline": "4x400m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 862
+    },
+    {
+      "athlete_name": "Hugo Jules Saiz Santolaria",
+      "athlete_dob": "31/01/2005",
+      "athlete_id": "CT469",
+      "performance": "3:46.37",
+      "discipline": "4x400m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 808
+    },
+    {
+      "athlete_name": "Pol Aixala Guiu",
+      "athlete_dob": "04/12/2004",
+      "athlete_id": "CT438",
+      "performance": "3:46.37",
+      "discipline": "4x400m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 733
+    },
+    {
+      "athlete_name": "Joan Martorell Escobar",
+      "athlete_dob": "22/03/2007",
+      "athlete_id": "CT1651",
+      "performance": "3:46.37",
+      "discipline": "4x400m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 914
+    },
+    {
+      "athlete_name": "Maria Antonietta Salazar",
+      "athlete_dob": "03/01/2006",
+      "athlete_id": "CT2176",
+      "performance": "12.77",
+      "discipline": "100m FEM. AL",
+      "wind": "+0.0",
+      "position": null,
+      "internal_id": 897
+    },
+    {
+      "athlete_name": "Silvia Vicente Navarrete",
+      "athlete_dob": "31/07/2007",
+      "athlete_id": "CT1468",
+      "performance": "28.43",
+      "discipline": "200m FEM. AL",
+      "wind": "-0.5",
+      "position": null,
+      "internal_id": 905
+    },
+    {
+      "athlete_name": "Maria Antonietta Salazar",
+      "athlete_dob": "03/01/2006",
+      "athlete_id": "CT2176",
+      "performance": "0:59.78",
+      "discipline": "400m FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 897
+    },
+    {
+      "athlete_name": "(t) Camila Antonella Retamal Plaza",
+      "athlete_dob": "25/08/2005",
+      "athlete_id": "CL11330",
+      "performance": "2:59.88",
+      "discipline": "800m FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 941
+    },
+    {
+      "athlete_name": "Cristina Iniesta Acera",
+      "athlete_dob": "27/02/2004",
+      "athlete_id": "CL78440",
+      "performance": "6:08.14",
+      "discipline": "1.500m FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 742
+    },
+    {
+      "athlete_name": "Iris Garrido Garcia",
+      "athlete_dob": "15/12/2008",
+      "athlete_id": "CT1617",
+      "performance": "12:16.63",
+      "discipline": "3.000m FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 982
+    },
+    {
+      "athlete_name": "5 (t) Sofia Lara Girbes",
+      "athlete_dob": "28/02/2006",
+      "athlete_id": "CL90511",
+      "performance": "1:24.30",
+      "discipline": "400m vallas (0,762) FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 835
+    },
+    {
+      "athlete_name": "Lucia Mayolas Martinez",
+      "athlete_dob": "04/10/2004",
+      "athlete_id": "CT2366",
+      "performance": "14:50.31",
+      "discipline": "3.000m Obst. FEM.",
+      "wind": null,
+      "position": null,
+      "internal_id": 728
+    },
+    {
+      "athlete_name": "Ruth Prats Nadal",
+      "athlete_dob": "31/01/2004",
+      "athlete_id": "CT91904",
+      "performance": "1.57",
+      "discipline": "Altura FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 915
+    },
+    {
+      "athlete_name": "Sofia Caballero Recarey",
+      "athlete_dob": "09/12/2004",
+      "athlete_id": "CL93990",
+      "performance": "4.16",
+      "discipline": "Longitud FEM. AL",
+      "wind": "-0.9",
+      "position": null,
+      "internal_id": 816
+    },
+    {
+      "athlete_name": "Sofia Caballero Recarey",
+      "athlete_dob": "09/12/2004",
+      "athlete_id": "CL93990",
+      "performance": "4.13",
+      "discipline": "Longitud FEM. AL",
+      "wind": "-1.0",
+      "position": null,
+      "internal_id": 816
+    },
+    {
+      "athlete_name": "Sofia Caballero Recarey",
+      "athlete_dob": "09/12/2004",
+      "athlete_id": "CL93990",
+      "performance": "4.26",
+      "discipline": "Longitud FEM. AL",
+      "wind": "+0.0",
+      "position": null,
+      "internal_id": 816
+    },
+    {
+      "athlete_name": "Sofia Caballero Recarey",
+      "athlete_dob": "09/12/2004",
+      "athlete_id": "CL93990",
+      "performance": "4.20",
+      "discipline": "Longitud FEM. AL",
+      "wind": "-0.4",
+      "position": null,
+      "internal_id": 816
+    },
+    {
+      "athlete_name": "Silvia Vicente Navarrete",
+      "athlete_dob": "31/07/2007",
+      "athlete_id": "CT1468",
+      "performance": "9.58",
+      "discipline": "Triple Salto FEM. AL",
+      "wind": "-1.2",
+      "position": null,
+      "internal_id": 905
+    },
+    {
+      "athlete_name": "Silvia Vicente Navarrete",
+      "athlete_dob": "31/07/2007",
+      "athlete_id": "CT1468",
+      "performance": "10.06",
+      "discipline": "Triple Salto FEM. AL",
+      "wind": "-2.1",
+      "position": null,
+      "internal_id": 905
+    },
+    {
+      "athlete_name": "Silvia Vicente Navarrete",
+      "athlete_dob": "31/07/2007",
+      "athlete_id": "CT1468",
+      "performance": "10.29",
+      "discipline": "Triple Salto FEM. AL",
+      "wind": "+0.0",
+      "position": null,
+      "internal_id": 905
+    },
+    {
+      "athlete_name": "Lucia Mayolas Martinez",
+      "athlete_dob": "04/10/2004",
+      "athlete_id": "CT2366",
+      "performance": "4.47",
+      "discipline": "Peso (4 Kg) FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 728
+    },
+    {
+      "athlete_name": "Lucia Mayolas Martinez",
+      "athlete_dob": "04/10/2004",
+      "athlete_id": "CT2366",
+      "performance": "3.39",
+      "discipline": "Peso (4 Kg) FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 728
+    },
+    {
+      "athlete_name": "Candela Asensio Sanchez",
+      "athlete_dob": "14/10/2007",
+      "athlete_id": "CL4874",
+      "performance": "12.42",
+      "discipline": "Disco (1 Kg) FEM.",
+      "wind": null,
+      "position": null,
+      "internal_id": 901
+    },
+    {
+      "athlete_name": "Candela Asensio Sanchez",
+      "athlete_dob": "14/10/2007",
+      "athlete_id": "CL4874",
+      "performance": "12.88",
+      "discipline": "Disco (1 Kg) FEM.",
+      "wind": null,
+      "position": null,
+      "internal_id": 901
+    },
+    {
+      "athlete_name": "Candela Asensio Sanchez",
+      "athlete_dob": "14/10/2007",
+      "athlete_id": "CL4874",
+      "performance": "11.97",
+      "discipline": "Disco (1 Kg) FEM.",
+      "wind": null,
+      "position": null,
+      "internal_id": 901
+    },
+    {
+      "athlete_name": "Candela Asensio Sanchez",
+      "athlete_dob": "14/10/2007",
+      "athlete_id": "CL4874",
+      "performance": "12.66",
+      "discipline": "Disco (1 Kg) FEM.",
+      "wind": null,
+      "position": null,
+      "internal_id": 901
+    },
+    {
+      "athlete_name": "Candela Asensio Sanchez",
+      "athlete_dob": "14/10/2007",
+      "athlete_id": "CL4874",
+      "performance": "17.50",
+      "discipline": "Martillo (4 Kg) FEM.",
+      "wind": null,
+      "position": null,
+      "internal_id": 901
+    },
+    {
+      "athlete_name": "Candela Asensio Sanchez",
+      "athlete_dob": "14/10/2007",
+      "athlete_id": "CL4874",
+      "performance": "16.93",
+      "discipline": "Martillo (4 Kg) FEM.",
+      "wind": null,
+      "position": null,
+      "internal_id": 901
+    },
+    {
+      "athlete_name": "Ruth Prats Nadal",
+      "athlete_dob": "31/01/2004",
+      "athlete_id": "CT91904",
+      "performance": "14.01",
+      "discipline": "Jabalina (600g) FEM.",
+      "wind": null,
+      "position": null,
+      "internal_id": 915
+    },
+    {
+      "athlete_name": "Ruth Prats Nadal",
+      "athlete_dob": "31/01/2004",
+      "athlete_id": "CT91904",
+      "performance": "16.98",
+      "discipline": "Jabalina (600g) FEM.",
+      "wind": null,
+      "position": null,
+      "internal_id": 915
+    },
+    {
+      "athlete_name": "Ainoa Rodriguez Murillo",
+      "athlete_dob": "17/01/2008",
+      "athlete_id": "CT1619",
+      "performance": "52.86",
+      "discipline": "4x100m FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 965
+    },
+    {
+      "athlete_name": "Laia Cabrero Perez",
+      "athlete_dob": "10/10/2008",
+      "athlete_id": "CL94529",
+      "performance": "52.86",
+      "discipline": "4x100m FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 954
+    },
+    {
+      "athlete_name": "Noemi Gonzalez Carrillo",
+      "athlete_dob": "04/04/2009",
+      "athlete_id": "CL86462",
+      "performance": "52.86",
+      "discipline": "4x100m FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1030
+    },
+    {
+      "athlete_name": "Olivia Ruiz Barbera",
+      "athlete_dob": "24/04/2009",
+      "athlete_id": "CL3439",
+      "performance": "52.86",
+      "discipline": "4x100m FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1018
+    },
+    {
+      "athlete_name": "Cristina Iniesta Acera",
+      "athlete_dob": "27/02/2004",
+      "athlete_id": "CL78440",
+      "performance": "4:53.44",
+      "discipline": "4x400m FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 742
+    },
+    {
+      "athlete_name": "Camila Antonella Retamal Plaza",
+      "athlete_dob": "25/08/2005",
+      "athlete_id": "CL11330",
+      "performance": "4:53.44",
+      "discipline": "4x400m FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 941
+    },
+    {
+      "athlete_name": "Sofia Caballero Recarey",
+      "athlete_dob": "09/12/2004",
+      "athlete_id": "CL93990",
+      "performance": "4:53.44",
+      "discipline": "4x400m FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 816
+    },
+    {
+      "athlete_name": "Sofia Lara Girbes",
+      "athlete_dob": "28/02/2006",
+      "athlete_id": "CL90511",
+      "performance": "4:53.44",
+      "discipline": "4x400m FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 835
     }
   ]
 }

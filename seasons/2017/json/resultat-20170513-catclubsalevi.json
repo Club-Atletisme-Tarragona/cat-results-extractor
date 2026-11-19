@@ -2,17 +2,47 @@
   "event_name": "Campionat Catalunya Clubs Aleví Masculí",
   "event_date": "13/05/2017",
   "event_location": "El Prat de Llobregat",
-  "total_results": 20,
+  "total_results": 39,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20170513-catclubsalevi.pdf",
   "results": [
+    {
+      "athlete_name": "Joan Sinfreu Niubo",
+      "athlete_dob": "25/03/2007",
+      "athlete_id": "CL77329",
+      "performance": "1.28",
+      "discipline": "SALT D'ALÇADA ALEVI MASCULI",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Unai Ortiz De Landazuri Ontoso",
+      "athlete_dob": "28/06/2007",
+      "athlete_id": "CL77328",
+      "performance": "3.26",
+      "discipline": "SALT DE LLARGADA ALEVI MASCULI",
+      "wind": null,
+      "position": null,
+      "internal_id": 908
+    },
+    {
+      "athlete_name": "Unai Ortiz De Landazuri Ontoso",
+      "athlete_dob": "28/06/2007",
+      "athlete_id": "CL77328",
+      "performance": "3.33",
+      "discipline": "SALT DE LLARGADA ALEVI MASCULI",
+      "wind": null,
+      "position": null,
+      "internal_id": 908
+    },
     {
       "athlete_name": "Ferran Sansa Garcia",
       "athlete_dob": "10/08/2007",
       "athlete_id": "CL86474",
       "performance": "5.39",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "LLANÇAMENT DE PES ALEVI MASCULI",
+      "discipline": "LLANÇAMENT DE PES ALEVI MASCULI",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -20,9 +50,9 @@
       "athlete_dob": "10/08/2007",
       "athlete_id": "CL86474",
       "performance": "5.17",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "LLANÇAMENT DE PES ALEVI MASCULI",
+      "discipline": "LLANÇAMENT DE PES ALEVI MASCULI",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -30,9 +60,9 @@
       "athlete_dob": "12/11/2007",
       "athlete_id": "CL87202",
       "performance": "12.35",
-      "discipline": "Disc (600 g)",
-      "raw_discipline_name": "LLANÇAMENT DE DISC ALEVI MASCULI",
+      "discipline": "LLANÇAMENT DE DISC ALEVI MASCULI",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -40,9 +70,9 @@
       "athlete_dob": "12/11/2007",
       "athlete_id": "CL87202",
       "performance": "11.88",
-      "discipline": "Disc (600 g)",
-      "raw_discipline_name": "LLANÇAMENT DE DISC ALEVI MASCULI",
+      "discipline": "LLANÇAMENT DE DISC ALEVI MASCULI",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -50,9 +80,9 @@
       "athlete_dob": "06/01/2007",
       "athlete_id": "CL77331",
       "performance": "27.92",
-      "discipline": "Disc (600 g)",
-      "raw_discipline_name": "LLANÇAMENT DE DISC ALEVI MASCULI",
+      "discipline": "LLANÇAMENT DE DISC ALEVI MASCULI",
       "wind": null,
+      "position": null,
       "internal_id": 899
     },
     {
@@ -60,9 +90,9 @@
       "athlete_dob": "06/01/2007",
       "athlete_id": "CL77331",
       "performance": "29.30",
-      "discipline": "Disc (600 g)",
-      "raw_discipline_name": "LLANÇAMENT DE DISC ALEVI MASCULI",
+      "discipline": "LLANÇAMENT DE DISC ALEVI MASCULI",
       "wind": null,
+      "position": null,
       "internal_id": 899
     },
     {
@@ -70,19 +100,109 @@
       "athlete_dob": "06/01/2007",
       "athlete_id": "CL77331",
       "performance": "28.50",
-      "discipline": "Disc (600 g)",
-      "raw_discipline_name": "LLANÇAMENT DE DISC ALEVI MASCULI",
+      "discipline": "LLANÇAMENT DE DISC ALEVI MASCULI",
       "wind": null,
+      "position": null,
       "internal_id": 899
+    },
+    {
+      "athlete_name": "David Bartolome Vazquez",
+      "athlete_dob": "17/03/2007",
+      "athlete_id": "CL77307",
+      "performance": "17:49.95",
+      "discipline": "2000 METRES MARXA ALEVI MASCULI",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Diego Cuadros Cobo",
+      "athlete_dob": "12/11/2007",
+      "athlete_id": "CL87202",
+      "performance": "38.28",
+      "discipline": "RELLEUS 4X60 ALEVI MASCULI",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Gerard Ferrandiz Giner",
+      "athlete_dob": "27/02/2006",
+      "athlete_id": "CL69320",
+      "performance": "38.28",
+      "discipline": "RELLEUS 4X60 ALEVI MASCULI",
+      "wind": null,
+      "position": null,
+      "internal_id": 840
+    },
+    {
+      "athlete_name": "Joan Martorell Escobar",
+      "athlete_dob": "22/03/2007",
+      "athlete_id": "CL77324",
+      "performance": "38.28",
+      "discipline": "RELLEUS 4X60 ALEVI MASCULI",
+      "wind": null,
+      "position": null,
+      "internal_id": 914
+    },
+    {
+      "athlete_name": "David Perez De Mendiguren Vazquez",
+      "athlete_dob": "13/11/2007",
+      "athlete_id": "CL87203",
+      "performance": "38.28",
+      "discipline": "RELLEUS 4X60 ALEVI MASCULI",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Unai Ortiz De Landazuri Ontoso",
+      "athlete_dob": "28/06/2007",
+      "athlete_id": "CL77328",
+      "performance": "6:18.50",
+      "discipline": "RELLEUS 3X600 ALEVI MASCULI",
+      "wind": null,
+      "position": null,
+      "internal_id": 908
+    },
+    {
+      "athlete_name": "Joan Sinfreu Niubo",
+      "athlete_dob": "25/03/2007",
+      "athlete_id": "CL77329",
+      "performance": "6:18.50",
+      "discipline": "RELLEUS 3X600 ALEVI MASCULI",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Lluc Subiros Brasero",
+      "athlete_dob": "06/01/2007",
+      "athlete_id": "CL77331",
+      "performance": "6:18.50",
+      "discipline": "RELLEUS 3X600 ALEVI MASCULI",
+      "wind": null,
+      "position": null,
+      "internal_id": 899
+    },
+    {
+      "athlete_name": "Luana Izaga Deriu",
+      "athlete_dob": "13/02/2007",
+      "athlete_id": "CL77321",
+      "performance": "1.05",
+      "discipline": "SALT D'ALÇADA ALEVI FEMENI",
+      "wind": null,
+      "position": null,
+      "internal_id": 928
     },
     {
       "athlete_name": "Alba Torres Rione",
       "athlete_dob": "18/07/2006",
       "athlete_id": "CL69346",
       "performance": "3.41",
-      "discipline": "Llargada",
-      "raw_discipline_name": "SALT DE LLARGADA ALEVI FEMENI",
+      "discipline": "SALT DE LLARGADA ALEVI FEMENI",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -90,9 +210,9 @@
       "athlete_dob": "18/07/2006",
       "athlete_id": "CL69346",
       "performance": "3.04",
-      "discipline": "Llargada",
-      "raw_discipline_name": "SALT DE LLARGADA ALEVI FEMENI",
+      "discipline": "SALT DE LLARGADA ALEVI FEMENI",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -100,9 +220,9 @@
       "athlete_dob": "18/07/2006",
       "athlete_id": "CL69346",
       "performance": "3.10",
-      "discipline": "Llargada",
-      "raw_discipline_name": "SALT DE LLARGADA ALEVI FEMENI",
+      "discipline": "SALT DE LLARGADA ALEVI FEMENI",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -110,9 +230,9 @@
       "athlete_dob": "10/09/2007",
       "athlete_id": "CL86455",
       "performance": "3.65",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "LLANÇAMENT DE PES ALEVI FEMENI",
+      "discipline": "LLANÇAMENT DE PES ALEVI FEMENI",
       "wind": null,
+      "position": null,
       "internal_id": 923
     },
     {
@@ -120,9 +240,9 @@
       "athlete_dob": "10/09/2007",
       "athlete_id": "CL86455",
       "performance": "4.28",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "LLANÇAMENT DE PES ALEVI FEMENI",
+      "discipline": "LLANÇAMENT DE PES ALEVI FEMENI",
       "wind": null,
+      "position": null,
       "internal_id": 923
     },
     {
@@ -130,9 +250,9 @@
       "athlete_dob": "10/09/2007",
       "athlete_id": "CL86455",
       "performance": "3.64",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "LLANÇAMENT DE PES ALEVI FEMENI",
+      "discipline": "LLANÇAMENT DE PES ALEVI FEMENI",
       "wind": null,
+      "position": null,
       "internal_id": 923
     },
     {
@@ -140,9 +260,9 @@
       "athlete_dob": "25/12/2006",
       "athlete_id": "CL82410",
       "performance": "8.28",
-      "discipline": "Disc (600 g)",
-      "raw_discipline_name": "LLANÇAMENT DE DISC ALEVI FEMENI",
+      "discipline": "LLANÇAMENT DE DISC ALEVI FEMENI",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -150,9 +270,9 @@
       "athlete_dob": "25/12/2006",
       "athlete_id": "CL82410",
       "performance": "9.41",
-      "discipline": "Disc (600 g)",
-      "raw_discipline_name": "LLANÇAMENT DE DISC ALEVI FEMENI",
+      "discipline": "LLANÇAMENT DE DISC ALEVI FEMENI",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -160,9 +280,9 @@
       "athlete_dob": "25/12/2006",
       "athlete_id": "CL82410",
       "performance": "7.90",
-      "discipline": "Disc (600 g)",
-      "raw_discipline_name": "LLANÇAMENT DE DISC ALEVI FEMENI",
+      "discipline": "LLANÇAMENT DE DISC ALEVI FEMENI",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -170,9 +290,9 @@
       "athlete_dob": "18/07/2006",
       "athlete_id": "CL69347",
       "performance": "11.08",
-      "discipline": "Disc (600 g)",
-      "raw_discipline_name": "LLANÇAMENT DE DISC ALEVI FEMENI",
+      "discipline": "LLANÇAMENT DE DISC ALEVI FEMENI",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -180,9 +300,9 @@
       "athlete_dob": "18/07/2006",
       "athlete_id": "CL69347",
       "performance": "13.63",
-      "discipline": "Disc (600 g)",
-      "raw_discipline_name": "LLANÇAMENT DE DISC ALEVI FEMENI",
+      "discipline": "LLANÇAMENT DE DISC ALEVI FEMENI",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -190,9 +310,9 @@
       "athlete_dob": "18/07/2006",
       "athlete_id": "CL69347",
       "performance": "15.01",
-      "discipline": "Disc (600 g)",
-      "raw_discipline_name": "LLANÇAMENT DE DISC ALEVI FEMENI",
+      "discipline": "LLANÇAMENT DE DISC ALEVI FEMENI",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -200,10 +320,80 @@
       "athlete_dob": "05/11/2006",
       "athlete_id": "CL69345",
       "performance": "11:30.10",
-      "discipline": "2000 metres marxa",
-      "raw_discipline_name": "2000 METRES MARXA ALEVI FEMENI",
+      "discipline": "2000 METRES MARXA ALEVI FEMENI",
       "wind": null,
+      "position": null,
       "internal_id": 839
+    },
+    {
+      "athlete_name": "Claudia Barbens Pardo",
+      "athlete_dob": "25/12/2006",
+      "athlete_id": "CL82410",
+      "performance": "40.08",
+      "discipline": "RELLEUS 4X60 ALEVI FEMENI",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Carla Castellvi Saiz",
+      "athlete_dob": "07/02/2007",
+      "athlete_id": "CL82976",
+      "performance": "40.08",
+      "discipline": "RELLEUS 4X60 ALEVI FEMENI",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Luana Izaga Deriu",
+      "athlete_dob": "13/02/2007",
+      "athlete_id": "CL77321",
+      "performance": "40.08",
+      "discipline": "RELLEUS 4X60 ALEVI FEMENI",
+      "wind": null,
+      "position": null,
+      "internal_id": 928
+    },
+    {
+      "athlete_name": "Silvia Vicente Navarrete",
+      "athlete_dob": "31/07/2007",
+      "athlete_id": "CL77332",
+      "performance": "40.08",
+      "discipline": "RELLEUS 4X60 ALEVI FEMENI",
+      "wind": null,
+      "position": null,
+      "internal_id": 905
+    },
+    {
+      "athlete_name": "Erika Diez Plasencia",
+      "athlete_dob": "09/10/2006",
+      "athlete_id": "CL82411",
+      "performance": "6:41.08",
+      "discipline": "RELLEUS 3X600 ALEVI FEMENI",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Jana Torres Rione",
+      "athlete_dob": "18/07/2006",
+      "athlete_id": "CL69347",
+      "performance": "6:41.08",
+      "discipline": "RELLEUS 3X600 ALEVI FEMENI",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Alba Torres Rione",
+      "athlete_dob": "18/07/2006",
+      "athlete_id": "CL69346",
+      "performance": "6:41.08",
+      "discipline": "RELLEUS 3X600 ALEVI FEMENI",
+      "wind": null,
+      "position": null,
+      "internal_id": null
     }
   ]
 }

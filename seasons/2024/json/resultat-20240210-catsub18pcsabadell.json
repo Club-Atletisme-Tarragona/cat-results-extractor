@@ -1,18 +1,88 @@
 {
   "event_name": "39è Campionat de Catalunya Sub18 en Pista Coberta - 39è Campionat de Catalunya Sub18 en Pista Coberta",
   "event_date": "10/02/2024",
-  "event_location": "Sabadell",
-  "total_results": 11,
+  "event_location": "Club                                                 Lic",
+  "total_results": 20,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2024/02/resultat-20240210-catsub18pcsabadell.pdf",
   "results": [
+    {
+      "athlete_name": "Matias Hernandez Sanchez",
+      "athlete_dob": "26/12/2008",
+      "athlete_id": "CT2196",
+      "performance": "9.26",
+      "discipline": "60m tanques (0,91) MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 999
+    },
+    {
+      "athlete_name": "Unai Ortiz De Landazuri Ontoso",
+      "athlete_dob": "28/06/2007",
+      "athlete_id": "CT1640",
+      "performance": "1.75",
+      "discipline": "Alçada MASC. PC",
+      "wind": null,
+      "position": 7,
+      "internal_id": 908
+    },
+    {
+      "athlete_name": "Lluc Subiros Brasero",
+      "athlete_dob": "06/01/2007",
+      "athlete_id": "CT1186",
+      "performance": "4.10",
+      "discipline": "Perxa MASC. PC",
+      "wind": null,
+      "position": 1,
+      "internal_id": 899
+    },
+    {
+      "athlete_name": "Victor Jimenez Garcia",
+      "athlete_dob": "25/05/2008",
+      "athlete_id": "CT1465",
+      "performance": "6.17",
+      "discipline": "Llargada MASC. PC",
+      "wind": null,
+      "position": 1,
+      "internal_id": 958
+    },
+    {
+      "athlete_name": "Victor Jimenez Garcia",
+      "athlete_dob": "25/05/2008",
+      "athlete_id": "CT1465",
+      "performance": "6.25",
+      "discipline": "Llargada MASC. PC",
+      "wind": null,
+      "position": 1,
+      "internal_id": 958
+    },
+    {
+      "athlete_name": "Victor Jimenez Garcia",
+      "athlete_dob": "25/05/2008",
+      "athlete_id": "CT1465",
+      "performance": "6.44",
+      "discipline": "Llargada MASC. PC",
+      "wind": null,
+      "position": 1,
+      "internal_id": 958
+    },
+    {
+      "athlete_name": "Victor Jimenez Garcia",
+      "athlete_dob": "25/05/2008",
+      "athlete_id": "CT1465",
+      "performance": "6.52",
+      "discipline": "Llargada MASC. PC",
+      "wind": null,
+      "position": 1,
+      "internal_id": 958
+    },
     {
       "athlete_name": "Pau Crespo Beltran",
       "athlete_dob": "22/10/2008",
       "athlete_id": "CT1650",
       "performance": "11.88",
-      "discipline": "Pes (5 Kg)",
-      "raw_discipline_name": "Pes (5kg) MASC. PC",
+      "discipline": "Pes (5 Kg) MASC. PC",
       "wind": null,
+      "position": 3,
       "internal_id": 971
     },
     {
@@ -20,9 +90,9 @@
       "athlete_dob": "22/10/2008",
       "athlete_id": "CT1650",
       "performance": "12.40",
-      "discipline": "Pes (5 Kg)",
-      "raw_discipline_name": "Pes (5kg) MASC. PC",
+      "discipline": "Pes (5 Kg) MASC. PC",
       "wind": null,
+      "position": 3,
       "internal_id": 971
     },
     {
@@ -30,9 +100,9 @@
       "athlete_dob": "22/10/2008",
       "athlete_id": "CT1650",
       "performance": "12.69",
-      "discipline": "Pes (5 Kg)",
-      "raw_discipline_name": "Pes (5kg) MASC. PC",
+      "discipline": "Pes (5 Kg) MASC. PC",
       "wind": null,
+      "position": 3,
       "internal_id": 971
     },
     {
@@ -40,9 +110,9 @@
       "athlete_dob": "22/10/2008",
       "athlete_id": "CT1650",
       "performance": "12.77",
-      "discipline": "Pes (5 Kg)",
-      "raw_discipline_name": "Pes (5kg) MASC. PC",
+      "discipline": "Pes (5 Kg) MASC. PC",
       "wind": null,
+      "position": 3,
       "internal_id": 971
     },
     {
@@ -50,9 +120,9 @@
       "athlete_dob": "22/10/2008",
       "athlete_id": "CT1650",
       "performance": "12.84",
-      "discipline": "Pes (5 Kg)",
-      "raw_discipline_name": "Pes (5kg) MASC. PC",
+      "discipline": "Pes (5 Kg) MASC. PC",
       "wind": null,
+      "position": 3,
       "internal_id": 971
     },
     {
@@ -60,9 +130,9 @@
       "athlete_dob": "22/10/2008",
       "athlete_id": "CT1650",
       "performance": "12.98",
-      "discipline": "Pes (5 Kg)",
-      "raw_discipline_name": "Pes (5kg) MASC. PC",
+      "discipline": "Pes (5 Kg) MASC. PC",
       "wind": null,
+      "position": 3,
       "internal_id": 971
     },
     {
@@ -70,9 +140,9 @@
       "athlete_dob": "06/01/2007",
       "athlete_id": "CT1186",
       "performance": "12.51",
-      "discipline": "Pes (5 Kg)",
-      "raw_discipline_name": "Pes (5kg) MASC. PC",
+      "discipline": "Pes (5 Kg) MASC. PC",
       "wind": null,
+      "position": 4,
       "internal_id": 899
     },
     {
@@ -80,9 +150,9 @@
       "athlete_dob": "06/01/2007",
       "athlete_id": "CT1186",
       "performance": "11.23",
-      "discipline": "Pes (5 Kg)",
-      "raw_discipline_name": "Pes (5kg) MASC. PC",
+      "discipline": "Pes (5 Kg) MASC. PC",
       "wind": null,
+      "position": 4,
       "internal_id": 899
     },
     {
@@ -90,9 +160,9 @@
       "athlete_dob": "06/01/2007",
       "athlete_id": "CT1186",
       "performance": "12.87",
-      "discipline": "Pes (5 Kg)",
-      "raw_discipline_name": "Pes (5kg) MASC. PC",
+      "discipline": "Pes (5 Kg) MASC. PC",
       "wind": null,
+      "position": 4,
       "internal_id": 899
     },
     {
@@ -100,19 +170,39 @@
       "athlete_dob": "06/01/2007",
       "athlete_id": "CT1186",
       "performance": "12.39",
-      "discipline": "Pes (5 Kg)",
-      "raw_discipline_name": "Pes (5kg) MASC. PC",
+      "discipline": "Pes (5 Kg) MASC. PC",
       "wind": null,
+      "position": 4,
       "internal_id": 899
+    },
+    {
+      "athlete_name": "Mireia Redondo Mendoza",
+      "athlete_dob": "10/06/2008",
+      "athlete_id": "CT1467",
+      "performance": "0:59.43",
+      "discipline": "400m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 957
+    },
+    {
+      "athlete_name": "Mireia Redondo Mendoza",
+      "athlete_dob": "10/06/2008",
+      "athlete_id": "CT1467",
+      "performance": "1:02.10",
+      "discipline": "400m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 957
     },
     {
       "athlete_name": "Sofia Rubio Reunis",
       "athlete_dob": "15/02/2007",
       "athlete_id": "CT7092",
       "performance": "1.59",
-      "discipline": "Alçada",
-      "raw_discipline_name": "Alçada FEM. PC",
+      "discipline": "Alçada FEM. PC",
       "wind": null,
+      "position": 4,
       "internal_id": 935
     }
   ]

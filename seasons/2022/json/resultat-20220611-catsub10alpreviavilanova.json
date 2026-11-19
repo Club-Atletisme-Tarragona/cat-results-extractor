@@ -2,17 +2,37 @@
   "event_name": "Jornada Prèvia Campionat de Catalunya Sub10",
   "event_date": "11/06/2022",
   "event_location": "Vilanova i La Geltrú",
-  "total_results": 2,
+  "total_results": 8,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2022/06/resultat-20220611-catsub10alpreviavilanova.pdf",
   "results": [
     {
       "athlete_name": "Kilian Borreda Cervello",
       "athlete_dob": "09/05/2013",
       "athlete_id": "CL4060",
-      "performance": "3.09",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada MASC. AL",
+      "performance": "3:36.45",
+      "discipline": "1.000m MASC. AL",
       "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "80 (t) Aleix Gomez Miro BM 6",
+      "athlete_dob": "06/01/2013",
+      "athlete_id": "CL4345",
+      "performance": "NP",
+      "discipline": "1.000m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Kilian Borreda Cervello",
+      "athlete_dob": "09/05/2013",
+      "athlete_id": "CL4060",
+      "performance": "3.09",
+      "discipline": "Llargada MASC. AL",
+      "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -20,10 +40,50 @@
       "athlete_dob": "09/05/2013",
       "athlete_id": "CL4060",
       "performance": "3.20",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada MASC. AL",
+      "discipline": "Llargada MASC. AL",
       "wind": null,
+      "position": null,
       "internal_id": null
+    },
+    {
+      "athlete_name": "India Martin Cuadrado",
+      "athlete_dob": "04/04/2014",
+      "athlete_id": "CL7608",
+      "performance": "10.97",
+      "discipline": "60m FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1332
+    },
+    {
+      "athlete_name": "Berta Barber Gonzalez",
+      "athlete_dob": "22/01/2013",
+      "athlete_id": "CL7610",
+      "performance": "3:54.30",
+      "discipline": "1.000m FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1359
+    },
+    {
+      "athlete_name": "India Martin Cuadrado",
+      "athlete_dob": "04/04/2014",
+      "athlete_id": "CL7608",
+      "performance": "4:34.55",
+      "discipline": "1.000m FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1332
+    },
+    {
+      "athlete_name": "Berta Barber Gonzalez",
+      "athlete_dob": "22/01/2013",
+      "athlete_id": "CL7610",
+      "performance": "2.81",
+      "discipline": "Llargada FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1359
     }
   ]
 }

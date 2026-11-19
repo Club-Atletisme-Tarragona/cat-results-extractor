@@ -1,18 +1,58 @@
 {
   "event_name": "Campionat Catalunya Sub16 en Pista Coberta (-3000) - Campionat Catalunya Sub16 en Pista Coberta (-3000)",
   "event_date": "06/03/2021",
-  "event_location": "Barcelona - Palau Sant Jordi",
-  "total_results": 9,
+  "event_location": "Club                                                 Lic",
+  "total_results": 18,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/2021/03/resultat-20210306-catsub16pcbcnpsj.pdf",
   "results": [
+    {
+      "athlete_name": "318 Pau Ortiz Garcia CM 4",
+      "athlete_dob": "08/01/2006",
+      "athlete_id": "CL3307",
+      "performance": "NP",
+      "discipline": "60m MASC. PC",
+      "wind": null,
+      "position": 318,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Gerard Ferrandiz Giner",
+      "athlete_dob": "27/02/2006",
+      "athlete_id": "CL69320",
+      "performance": "10.55",
+      "discipline": "60m tanques (0,91) MASC. PC",
+      "wind": null,
+      "position": 3,
+      "internal_id": 840
+    },
     {
       "athlete_name": "Lluc Subiros Brasero",
       "athlete_dob": "06/01/2007",
       "athlete_id": "CL77331",
       "performance": "3.46",
-      "discipline": "Perxa",
-      "raw_discipline_name": "Perxa MASC. PC",
+      "discipline": "Perxa MASC. PC",
       "wind": null,
+      "position": 3,
+      "internal_id": 899
+    },
+    {
+      "athlete_name": "Lluc Subiros Brasero",
+      "athlete_dob": "06/01/2007",
+      "athlete_id": "CL77331",
+      "performance": "12.07",
+      "discipline": "Triple Salt MASC. PC",
+      "wind": null,
+      "position": 4,
+      "internal_id": 899
+    },
+    {
+      "athlete_name": "Lluc Subiros Brasero",
+      "athlete_dob": "06/01/2007",
+      "athlete_id": "CL77331",
+      "performance": "11.89",
+      "discipline": "Triple Salt MASC. PC",
+      "wind": null,
+      "position": 4,
       "internal_id": 899
     },
     {
@@ -20,9 +60,9 @@
       "athlete_dob": "08/01/2006",
       "athlete_id": "CL3307",
       "performance": "11.59",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Pes (4kg) MASC. PC",
+      "discipline": "Pes (4 Kg) MASC. PC",
       "wind": null,
+      "position": 2,
       "internal_id": null
     },
     {
@@ -30,9 +70,9 @@
       "athlete_dob": "08/01/2006",
       "athlete_id": "CL3307",
       "performance": "11.58",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Pes (4kg) MASC. PC",
+      "discipline": "Pes (4 Kg) MASC. PC",
       "wind": null,
+      "position": 2,
       "internal_id": null
     },
     {
@@ -40,9 +80,9 @@
       "athlete_dob": "08/01/2006",
       "athlete_id": "CL3307",
       "performance": "10.20",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Pes (4kg) MASC. PC",
+      "discipline": "Pes (4 Kg) MASC. PC",
       "wind": null,
+      "position": 2,
       "internal_id": null
     },
     {
@@ -50,9 +90,9 @@
       "athlete_dob": "08/01/2006",
       "athlete_id": "CL3307",
       "performance": "11.95",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Pes (4kg) MASC. PC",
+      "discipline": "Pes (4 Kg) MASC. PC",
       "wind": null,
+      "position": 2,
       "internal_id": null
     },
     {
@@ -60,9 +100,9 @@
       "athlete_dob": "08/01/2006",
       "athlete_id": "CL3307",
       "performance": "11.47",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Pes (4kg) MASC. PC",
+      "discipline": "Pes (4 Kg) MASC. PC",
       "wind": null,
+      "position": 2,
       "internal_id": null
     },
     {
@@ -70,9 +110,9 @@
       "athlete_dob": "08/01/2006",
       "athlete_id": "CL3307",
       "performance": "10.70",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Pes (4kg) MASC. PC",
+      "discipline": "Pes (4 Kg) MASC. PC",
       "wind": null,
+      "position": 2,
       "internal_id": null
     },
     {
@@ -80,19 +120,69 @@
       "athlete_dob": "25/02/2006",
       "athlete_id": "CL95252",
       "performance": "8.33",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m FEM. PC",
+      "discipline": "60m FEM. PC",
       "wind": null,
+      "position": 7,
       "internal_id": 837
     },
     {
-      "athlete_name": "Julia Suarez Piza",
+      "athlete_name": "Silvia Vicente Navarrete",
+      "athlete_dob": "31/07/2007",
+      "athlete_id": "CL77332",
+      "performance": "9.84",
+      "discipline": "60m tanques (0,762) FEM. PC",
+      "wind": null,
+      "position": 8,
+      "internal_id": 905
+    },
+    {
+      "athlete_name": "Segolene-josephine Deconinck Urbano",
+      "athlete_dob": "02/02/2007",
+      "athlete_id": "CL90889",
+      "performance": "1.34",
+      "discipline": "Alçada FEM. PC",
+      "wind": null,
+      "position": 10,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Silvia Vicente Navarrete",
+      "athlete_dob": "31/07/2007",
+      "athlete_id": "CL77332",
+      "performance": "4.80",
+      "discipline": "Llargada FEM. PC",
+      "wind": null,
+      "position": 12,
+      "internal_id": 905
+    },
+    {
+      "athlete_name": "Silvia Vicente Navarrete",
+      "athlete_dob": "31/07/2007",
+      "athlete_id": "CL77332",
+      "performance": "4.71",
+      "discipline": "Llargada FEM. PC",
+      "wind": null,
+      "position": 12,
+      "internal_id": 905
+    },
+    {
+      "athlete_name": "Silvia Vicente Navarrete",
+      "athlete_dob": "31/07/2007",
+      "athlete_id": "CL77332",
+      "performance": "4.65",
+      "discipline": "Llargada FEM. PC",
+      "wind": null,
+      "position": 12,
+      "internal_id": 905
+    },
+    {
+      "athlete_name": "Julia Suarez Piza CF 8 RCAM",
       "athlete_dob": "05/11/2006",
       "athlete_id": "CT29377",
       "performance": "14:17.37",
-      "discipline": "3000 metres marxa",
-      "raw_discipline_name": "3.000m marxa FEM. PC",
+      "discipline": "3.000m marxa FEM. PC",
       "wind": null,
+      "position": 1,
       "internal_id": 839
     }
   ]

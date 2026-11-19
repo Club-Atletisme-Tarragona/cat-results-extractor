@@ -1,28 +1,88 @@
 {
   "event_name": " - Cnat. Catalunya Clubs Màster Masculins Pista Coberta",
   "event_date": "02/02/2019",
-  "event_location": "Sabadell",
-  "total_results": 4,
+  "event_location": "Club                                            Lic",
+  "total_results": 47,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20190202-catclubsmasterpcsabadell.pdf",
   "results": [
+    {
+      "athlete_name": "Josep Maria Puig Lara",
+      "athlete_dob": "30/11/1951",
+      "athlete_id": "CT27228",
+      "performance": "9.46",
+      "discipline": "60m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 637
+    },
+    {
+      "athlete_name": "Juan Carlos Herrera Alcaide",
+      "athlete_dob": "31/01/1973",
+      "athlete_id": "CT25152",
+      "performance": "25.41",
+      "discipline": "200m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 518
+    },
     {
       "athlete_name": "Jesus Fernando Montolio Alcon",
       "athlete_dob": "05/10/1970",
       "athlete_id": "CT16331",
       "performance": "0:56.22",
-      "discipline": "400 metres llisos",
-      "raw_discipline_name": "400m MASC. PC",
+      "discipline": "400m MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 405
+    },
+    {
+      "athlete_name": "Jordi Puig Argudo",
+      "athlete_dob": "11/11/1972",
+      "athlete_id": "CT27029",
+      "performance": "2:12.31",
+      "discipline": "800m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 585
+    },
+    {
+      "athlete_name": "Oscar Gomez Carballo",
+      "athlete_dob": "17/11/1976",
+      "athlete_id": "CL28192",
+      "performance": "4:26.38",
+      "discipline": "1.500m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 26
     },
     {
       "athlete_name": "Josep Maria Mateo Sanz",
       "athlete_dob": "17/11/1964",
       "athlete_id": "CT19378",
       "performance": "1.52",
-      "discipline": "Alçada",
-      "raw_discipline_name": "Alçada MASC. PC",
+      "discipline": "Alçada MASC. PC",
       "wind": null,
+      "position": null,
+      "internal_id": 343
+    },
+    {
+      "athlete_name": "Pedro Ortega Ridao",
+      "athlete_dob": "12/10/1977",
+      "athlete_id": "CT16079",
+      "performance": "9:39.07",
+      "discipline": "3.000m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 268
+    },
+    {
+      "athlete_name": "Josep Maria Mateo Sanz",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "3.10",
+      "discipline": "Perxa MASC. PC",
+      "wind": null,
+      "position": null,
       "internal_id": 343
     },
     {
@@ -30,9 +90,9 @@
       "athlete_dob": "01/03/1949",
       "athlete_id": "CT17487",
       "performance": "3.57",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada MASC. PC",
+      "discipline": "Llargada MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 304
     },
     {
@@ -40,10 +100,380 @@
       "athlete_dob": "01/03/1949",
       "athlete_id": "CT17487",
       "performance": "3.49",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada MASC. PC",
+      "discipline": "Llargada MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 304
+    },
+    {
+      "athlete_name": "Juan Carlos Herrera Alcaide",
+      "athlete_dob": "31/01/1973",
+      "athlete_id": "CT25152",
+      "performance": "10.43",
+      "discipline": "Triple Salt MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 518
+    },
+    {
+      "athlete_name": "Juan Carlos Herrera Alcaide",
+      "athlete_dob": "31/01/1973",
+      "athlete_id": "CT25152",
+      "performance": "10.54",
+      "discipline": "Triple Salt MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 518
+    },
+    {
+      "athlete_name": "Juan Carlos Herrera Alcaide",
+      "athlete_dob": "31/01/1973",
+      "athlete_id": "CT25152",
+      "performance": "10.28",
+      "discipline": "Triple Salt MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 518
+    },
+    {
+      "athlete_name": "Juan Carlos Herrera Alcaide",
+      "athlete_dob": "31/01/1973",
+      "athlete_id": "CT25152",
+      "performance": "10.90",
+      "discipline": "Triple Salt MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 518
+    },
+    {
+      "athlete_name": "Juan Carlos Herrera Alcaide",
+      "athlete_dob": "31/01/1973",
+      "athlete_id": "CT25152",
+      "performance": "10.95",
+      "discipline": "Triple Salt MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 518
+    },
+    {
+      "athlete_name": "Juan Carlos Herrera Alcaide",
+      "athlete_dob": "31/01/1973",
+      "athlete_id": "CT25152",
+      "performance": "11.02",
+      "discipline": "Triple Salt MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 518
+    },
+    {
+      "athlete_name": "Luis Saez Perez",
+      "athlete_dob": "01/03/1949",
+      "athlete_id": "CT17487",
+      "performance": "7.48",
+      "discipline": "Pes M65 MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 304
+    },
+    {
+      "athlete_name": "Luis Saez Perez",
+      "athlete_dob": "01/03/1949",
+      "athlete_id": "CT17487",
+      "performance": "8.10",
+      "discipline": "Pes M65 MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 304
+    },
+    {
+      "athlete_name": "Luis Saez Perez",
+      "athlete_dob": "01/03/1949",
+      "athlete_id": "CT17487",
+      "performance": "7.87",
+      "discipline": "Pes M65 MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 304
+    },
+    {
+      "athlete_name": "Luis Saez Perez",
+      "athlete_dob": "01/03/1949",
+      "athlete_id": "CT17487",
+      "performance": "8.13",
+      "discipline": "Pes M65 MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 304
+    },
+    {
+      "athlete_name": "Jose Miguel Martin Alvarez",
+      "athlete_dob": "10/09/1972",
+      "athlete_id": "CL12544",
+      "performance": "1:49.24",
+      "discipline": "4x200m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 15
+    },
+    {
+      "athlete_name": "Jesus Fernando Montolio Alcon",
+      "athlete_dob": "05/10/1970",
+      "athlete_id": "CT16331",
+      "performance": "1:49.24",
+      "discipline": "4x200m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 405
+    },
+    {
+      "athlete_name": "Josep Maria Puig Lara",
+      "athlete_dob": "30/11/1951",
+      "athlete_id": "CT27228",
+      "performance": "1:49.24",
+      "discipline": "4x200m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 637
+    },
+    {
+      "athlete_name": "Jordi Puig Argudo",
+      "athlete_dob": "11/11/1972",
+      "athlete_id": "CT27029",
+      "performance": "1:49.24",
+      "discipline": "4x200m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 585
+    },
+    {
+      "athlete_name": "Marisa Pradillo Gutierrez",
+      "athlete_dob": "29/07/1961",
+      "athlete_id": "CT21513",
+      "performance": "10.39",
+      "discipline": "60m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 389
+    },
+    {
+      "athlete_name": "Pilar Fernandez Carranza",
+      "athlete_dob": "15/02/1967",
+      "athlete_id": "CT22384",
+      "performance": "34.42",
+      "discipline": "200m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 398
+    },
+    {
+      "athlete_name": "Gemma Sole Boronat",
+      "athlete_dob": "01/11/1967",
+      "athlete_id": "CT29376",
+      "performance": "1:15.42",
+      "discipline": "400m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 648
+    },
+    {
+      "athlete_name": "Patricia Amador Peris",
+      "athlete_dob": "18/02/1980",
+      "athlete_id": "CT28190",
+      "performance": "2:24.55",
+      "discipline": "800m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 644
+    },
+    {
+      "athlete_name": "Antonia Royo Fabregat",
+      "athlete_dob": "09/09/1964",
+      "athlete_id": "CT27087",
+      "performance": "6:10.70",
+      "discipline": "1.500m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 609
+    },
+    {
+      "athlete_name": "Carmen Ferre Garcia",
+      "athlete_dob": "17/01/1963",
+      "athlete_id": "CL29529",
+      "performance": "12:52.81",
+      "discipline": "3.000m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 720
+    },
+    {
+      "athlete_name": "Maribel Vallve Olivella",
+      "athlete_dob": "19/10/1967",
+      "athlete_id": "CT26851",
+      "performance": "1.11",
+      "discipline": "Alçada FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 529
+    },
+    {
+      "athlete_name": "Ana Cabello Rioja",
+      "athlete_dob": "16/11/1968",
+      "athlete_id": "CT23242",
+      "performance": "3.72",
+      "discipline": "Llargada FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 449
+    },
+    {
+      "athlete_name": "Ana Cabello Rioja",
+      "athlete_dob": "16/11/1968",
+      "athlete_id": "CT23242",
+      "performance": "3.54",
+      "discipline": "Llargada FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 449
+    },
+    {
+      "athlete_name": "Ana Cabello Rioja",
+      "athlete_dob": "16/11/1968",
+      "athlete_id": "CT23242",
+      "performance": "3.69",
+      "discipline": "Llargada FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 449
+    },
+    {
+      "athlete_name": "Ana Cabello Rioja",
+      "athlete_dob": "16/11/1968",
+      "athlete_id": "CT23242",
+      "performance": "3.70",
+      "discipline": "Llargada FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 449
+    },
+    {
+      "athlete_name": "Ana Cabello Rioja",
+      "athlete_dob": "16/11/1968",
+      "athlete_id": "CT23242",
+      "performance": "3.76",
+      "discipline": "Llargada FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 449
+    },
+    {
+      "athlete_name": "Ana Cabello Rioja",
+      "athlete_dob": "16/11/1968",
+      "athlete_id": "CT23242",
+      "performance": "3.98",
+      "discipline": "Llargada FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 449
+    },
+    {
+      "athlete_name": "Ana Cristina Velasco Marti",
+      "athlete_dob": "15/01/1974",
+      "athlete_id": "CL25561",
+      "performance": "6.57",
+      "discipline": "Pes F45 Fem. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 528
+    },
+    {
+      "athlete_name": "Ana Cristina Velasco Marti",
+      "athlete_dob": "15/01/1974",
+      "athlete_id": "CL25561",
+      "performance": "7.32",
+      "discipline": "Pes F45 Fem. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 528
+    },
+    {
+      "athlete_name": "Ana Cristina Velasco Marti",
+      "athlete_dob": "15/01/1974",
+      "athlete_id": "CL25561",
+      "performance": "6.92",
+      "discipline": "Pes F45 Fem. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 528
+    },
+    {
+      "athlete_name": "Ana Cristina Velasco Marti",
+      "athlete_dob": "15/01/1974",
+      "athlete_id": "CL25561",
+      "performance": "6.93",
+      "discipline": "Pes F45 Fem. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 528
+    },
+    {
+      "athlete_name": "Ana Cristina Velasco Marti",
+      "athlete_dob": "15/01/1974",
+      "athlete_id": "CL25561",
+      "performance": "7.39",
+      "discipline": "Pes F45 Fem. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 528
+    },
+    {
+      "athlete_name": "Ana Cristina Velasco Marti",
+      "athlete_dob": "15/01/1974",
+      "athlete_id": "CL25561",
+      "performance": "7.13",
+      "discipline": "Pes F45 Fem. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 528
+    },
+    {
+      "athlete_name": "Patricia Amador Peris",
+      "athlete_dob": "18/02/1980",
+      "athlete_id": "CT28190",
+      "performance": "2:07.15",
+      "discipline": "4x200m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 644
+    },
+    {
+      "athlete_name": "Ana Cabello Rioja",
+      "athlete_dob": "16/11/1968",
+      "athlete_id": "CT23242",
+      "performance": "2:07.15",
+      "discipline": "4x200m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 449
+    },
+    {
+      "athlete_name": "Pilar Fernandez Carranza",
+      "athlete_dob": "15/02/1967",
+      "athlete_id": "CT22384",
+      "performance": "2:07.15",
+      "discipline": "4x200m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 398
+    },
+    {
+      "athlete_name": "Gemma Sole Boronat",
+      "athlete_dob": "01/11/1967",
+      "athlete_id": "CT29376",
+      "performance": "2:07.15",
+      "discipline": "4x200m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 648
     }
   ]
 }

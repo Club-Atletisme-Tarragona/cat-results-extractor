@@ -1,48 +1,118 @@
 {
   "event_name": "Campionat de Catalunya Clubs Sub16 Masculí en Pista Coberta - Campionat de Catalunya Clubs Sub16 Masculí en Pista Coberta",
   "event_date": "05/03/2022",
-  "event_location": "Sabadell",
-  "total_results": 7,
+  "event_location": "Club                                              Lic",
+  "total_results": 21,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2022/03/resultat-20220305-catclubssub16pcsabadell.pdf",
   "results": [
+    {
+      "athlete_name": "Unai Ortiz De Landazuri Ontoso",
+      "athlete_dob": "28/06/2007",
+      "athlete_id": "CL77328",
+      "performance": "7.91",
+      "discipline": "60m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 908
+    },
+    {
+      "athlete_name": "Jan Vives Fons",
+      "athlete_dob": "16/03/2008",
+      "athlete_id": "CL95144",
+      "performance": "0:41.37",
+      "discipline": "300m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 977
+    },
+    {
+      "athlete_name": "Joan Martorell Escobar",
+      "athlete_dob": "22/03/2007",
+      "athlete_id": "CL77324",
+      "performance": "1:35.77",
+      "discipline": "600m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 914
+    },
+    {
+      "athlete_name": "Pau Crespo Beltran",
+      "athlete_dob": "22/10/2008",
+      "athlete_id": "CL90887",
+      "performance": "3:23.38",
+      "discipline": "1.000m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 971
+    },
+    {
+      "athlete_name": "Xavier Rodriguez Escude",
+      "athlete_dob": "28/03/2008",
+      "athlete_id": "CL94408",
+      "performance": "11:18.89",
+      "discipline": "3.000m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 979
+    },
+    {
+      "athlete_name": "Matias Hernandez Sanchez",
+      "athlete_dob": "20/12/2008",
+      "athlete_id": "CL94387",
+      "performance": "10.96",
+      "discipline": "60m tanques (0,91) MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 999
+    },
+    {
+      "athlete_name": "Lluc Subiros Brasero",
+      "athlete_dob": "06/01/2007",
+      "athlete_id": "CT1186",
+      "performance": "1.71",
+      "discipline": "Alçada MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 899
+    },
     {
       "athlete_name": "Guillem Ferran Jimenez",
       "athlete_dob": "08/03/2008",
       "athlete_id": "CL82978",
       "performance": "2.30",
-      "discipline": "Perxa",
-      "raw_discipline_name": "Perxa MASC. PC",
+      "discipline": "Perxa MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
-      "athlete_name": "Victor Jimenez Garcia",
+      "athlete_name": "Victor Jimenez Garcia CM 12 RCAM",
       "athlete_dob": "25/05/2008",
       "athlete_id": "CL82981",
       "performance": "6.01",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada MASC. PC",
+      "discipline": "Llargada MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 958
     },
     {
-      "athlete_name": "Victor Jimenez Garcia",
+      "athlete_name": "Victor Jimenez Garcia CM 12 RCAM",
       "athlete_dob": "25/05/2008",
       "athlete_id": "CL82981",
       "performance": "6.08",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada MASC. PC",
+      "discipline": "Llargada MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 958
     },
     {
-      "athlete_name": "Victor Jimenez Garcia",
+      "athlete_name": "Victor Jimenez Garcia CM 12 RCAM",
       "athlete_dob": "25/05/2008",
       "athlete_id": "CL82981",
       "performance": "6.21",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada MASC. PC",
+      "discipline": "Llargada MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 958
     },
     {
@@ -50,9 +120,9 @@
       "athlete_dob": "13/11/2007",
       "athlete_id": "CL7372",
       "performance": "10.20",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt MASC. PC",
+      "discipline": "Triple Salt MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 907
     },
     {
@@ -60,9 +130,9 @@
       "athlete_dob": "13/11/2007",
       "athlete_id": "CL7372",
       "performance": "9.39",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt MASC. PC",
+      "discipline": "Triple Salt MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 907
     },
     {
@@ -70,10 +140,80 @@
       "athlete_dob": "13/11/2007",
       "athlete_id": "CL7372",
       "performance": "10.07",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt MASC. PC",
+      "discipline": "Triple Salt MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 907
+    },
+    {
+      "athlete_name": "Matias Costa Bakker",
+      "athlete_dob": "19/11/2007",
+      "athlete_id": "CL90885",
+      "performance": "8.69",
+      "discipline": "Pes (4 Kg) MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 922
+    },
+    {
+      "athlete_name": "Matias Costa Bakker",
+      "athlete_dob": "19/11/2007",
+      "athlete_id": "CL90885",
+      "performance": "8.46",
+      "discipline": "Pes (4 Kg) MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 922
+    },
+    {
+      "athlete_name": "Matias Costa Bakker",
+      "athlete_dob": "19/11/2007",
+      "athlete_id": "CL90885",
+      "performance": "9.41",
+      "discipline": "Pes (4 Kg) MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 922
+    },
+    {
+      "athlete_name": "Matias Hernandez Sanchez",
+      "athlete_dob": "20/12/2008",
+      "athlete_id": "CL94387",
+      "performance": "2:42.81",
+      "discipline": "4x300 MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 999
+    },
+    {
+      "athlete_name": "Victor Jimenez Garcia",
+      "athlete_dob": "25/05/2008",
+      "athlete_id": "CL82981",
+      "performance": "2:42.81",
+      "discipline": "4x300 MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 958
+    },
+    {
+      "athlete_name": "Lluc Subiros Brasero",
+      "athlete_dob": "06/01/2007",
+      "athlete_id": "CT1186",
+      "performance": "2:42.81",
+      "discipline": "4x300 MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 899
+    },
+    {
+      "athlete_name": "Joan Martorell Escobar",
+      "athlete_dob": "22/03/2007",
+      "athlete_id": "CL77324",
+      "performance": "2:42.81",
+      "discipline": "4x300 MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 914
     }
   ]
 }

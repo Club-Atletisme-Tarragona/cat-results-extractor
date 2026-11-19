@@ -1,78 +1,118 @@
 {
   "event_name": "Jornada Final Campionat Catalunya Sub14",
   "event_date": "09/06/2018",
-  "event_location": "Castellar",
-  "total_results": 7,
+  "event_location": "Castellar del Vallés",
+  "total_results": 10,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20180609-catsub14finalcastellar.pdf",
   "results": [
     {
-      "athlete_name": "Hugo Jules Saiz Santaolaria",
+      "athlete_name": "Hugo Jules Saiz Santaolaria IM",
       "athlete_dob": "31/01/2005",
       "athlete_id": "CL71743",
       "performance": "11.03",
       "discipline": "80 metres llisos",
       "raw_discipline_name": "80m S14 MASC. AL",
       "wind": null,
+      "position": null,
       "internal_id": 808
     },
     {
-      "athlete_name": "Laia Aldave Mas",
+      "athlete_name": "Martina Pomes Cabello IF",
+      "athlete_dob": "02/02/2005",
+      "athlete_id": "CL71737",
+      "performance": "20.23",
+      "discipline": "150 metres llisos",
+      "raw_discipline_name": "150m S14 FEM AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 810
+    },
+    {
+      "athlete_name": "Martina Pomes Cabello IF",
+      "athlete_dob": "02/02/2005",
+      "athlete_id": "CL71737",
+      "performance": "20.02",
+      "discipline": "150 metres llisos",
+      "raw_discipline_name": "150m S14 FEM AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 810
+    },
+    {
+      "athlete_name": "Natalia Sanchez Alvarez IF",
+      "athlete_dob": "28/05/2005",
+      "athlete_id": "CL71748",
+      "performance": "36.27",
+      "discipline": "220 metres tanques (0.762)",
+      "raw_discipline_name": "220m tanques (0,76) S14 FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 796
+    },
+    {
+      "athlete_name": "Laia Aldave Mas IF",
       "athlete_dob": "29/01/2005",
       "athlete_id": "CL71683",
       "performance": "2.40",
       "discipline": "Perxa",
       "raw_discipline_name": "Perxa S14 FEM. AL",
       "wind": null,
+      "position": 3,
       "internal_id": 800
     },
     {
-      "athlete_name": "Natalia Sanchez Alvarez",
+      "athlete_name": "Natalia Sanchez Alvarez IF",
       "athlete_dob": "28/05/2005",
       "athlete_id": "CL71748",
       "performance": "4.27",
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada S14 FEM. AL",
       "wind": "+0.0",
+      "position": 7,
       "internal_id": 796
     },
     {
-      "athlete_name": "Natalia Sanchez Alvarez",
+      "athlete_name": "Natalia Sanchez Alvarez IF",
       "athlete_dob": "28/05/2005",
       "athlete_id": "CL71748",
       "performance": "4.60",
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada S14 FEM. AL",
       "wind": "-1.7",
+      "position": 7,
       "internal_id": 796
     },
     {
-      "athlete_name": "Natalia Sanchez Alvarez",
+      "athlete_name": "Natalia Sanchez Alvarez IF",
       "athlete_dob": "28/05/2005",
       "athlete_id": "CL71748",
       "performance": "4.41",
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada S14 FEM. AL",
       "wind": "-0.1",
+      "position": 7,
       "internal_id": 796
     },
     {
-      "athlete_name": "Natalia Sanchez Alvarez",
+      "athlete_name": "Natalia Sanchez Alvarez IF",
       "athlete_dob": "28/05/2005",
       "athlete_id": "CL71748",
       "performance": "4.56",
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada S14 FEM. AL",
       "wind": "-2.1",
+      "position": 7,
       "internal_id": 796
     },
     {
-      "athlete_name": "Julia Suarez Piza",
+      "athlete_name": "Julia Suarez Piza IF",
       "athlete_dob": "05/11/2006",
       "athlete_id": "CL69345",
       "performance": "16:12.78",
       "discipline": "3000 metres marxa",
       "raw_discipline_name": "3.000m Marxa S14 FEM. en pista",
       "wind": null,
+      "position": 5,
       "internal_id": 839
     }
   ]

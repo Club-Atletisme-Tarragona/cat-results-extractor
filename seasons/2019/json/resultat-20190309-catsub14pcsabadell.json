@@ -1,8 +1,8 @@
 {
   "event_name": "Final Campionat de Catalunya Sub14 en Pista Coberta - Final Campionat de Catalunya Sub14 en Pista Coberta",
   "event_date": "09/03/2019",
-  "event_location": "Sabadell",
-  "total_results": 3,
+  "event_location": "Club                                              Lic",
+  "total_results": 4,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20190309-catsub14pcsabadell.pdf",
   "results": [
     {
@@ -10,9 +10,9 @@
       "athlete_dob": "31/07/2007",
       "athlete_id": "CL77332",
       "performance": "8.67",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m FEM. PC",
+      "discipline": "60m FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 905
     },
     {
@@ -20,19 +20,29 @@
       "athlete_dob": "22/09/2006",
       "athlete_id": "CL94415",
       "performance": "8.62",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m FEM. PC",
+      "discipline": "60m FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": null
+    },
+    {
+      "athlete_name": "Silvia Vicente Navarrete",
+      "athlete_dob": "31/07/2007",
+      "athlete_id": "CL77332",
+      "performance": "11.32",
+      "discipline": "60m tanques FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 905
     },
     {
       "athlete_name": "Julia Suarez Piza",
       "athlete_dob": "05/11/2006",
       "athlete_id": "CT29377",
       "performance": "10:24.81",
-      "discipline": "2000 metres marxa",
-      "raw_discipline_name": "2.000m Marxa FEM. PC",
+      "discipline": "2.000m Marxa FEM. PC",
       "wind": null,
+      "position": 1,
       "internal_id": 839
     }
   ]

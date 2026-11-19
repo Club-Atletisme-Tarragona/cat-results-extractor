@@ -1,8 +1,8 @@
 {
   "event_name": "Control Sub 16 i Sub18 - Sabadell (Pista Coberta de Catalunya), 22 febrero 2020",
   "event_date": "22/02/2020",
-  "event_location": "Sabadell",
-  "total_results": 4,
+  "event_location": "Club                                              Lic",
+  "total_results": 13,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20200222-controlsub1618pcsabadell.pdf",
   "results": [
     {
@@ -10,9 +10,9 @@
       "athlete_dob": "31/10/2003",
       "athlete_id": "CL29246",
       "performance": "59.47",
-      "discipline": "Pes (5 Kg)",
-      "raw_discipline_name": "Pes (5kg) SUB18 MASC. PC",
+      "discipline": "Pes (5 Kg) SUB18 MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 701
     },
     {
@@ -20,9 +20,9 @@
       "athlete_dob": "28/05/2005",
       "athlete_id": "CT29768",
       "performance": "10.76",
-      "discipline": "Pes (5 Kg)",
-      "raw_discipline_name": "Pes (5kg) SUB18 MASC. PC",
+      "discipline": "Pes (5 Kg) SUB18 MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 796
     },
     {
@@ -30,9 +30,9 @@
       "athlete_dob": "02/08/2003",
       "athlete_id": "CL29243",
       "performance": "9.34",
-      "discipline": "Pes (5 Kg)",
-      "raw_discipline_name": "Pes (5kg) SUB18 MASC. PC",
+      "discipline": "Pes (5 Kg) SUB18 MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 699
     },
     {
@@ -40,9 +40,99 @@
       "athlete_dob": "17/09/2004",
       "athlete_id": "CT28409",
       "performance": "9.72",
-      "discipline": "Pes (5 Kg)",
-      "raw_discipline_name": "Pes (5kg) SUB18 MASC. PC",
+      "discipline": "Pes (5 Kg) SUB18 MASC. PC",
       "wind": null,
+      "position": null,
+      "internal_id": 737
+    },
+    {
+      "athlete_name": "Laura Santos Martinez",
+      "athlete_dob": "14/09/2005",
+      "athlete_id": "CL71751",
+      "performance": "1.49",
+      "discipline": "Alçada SUB16 FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 807
+    },
+    {
+      "athlete_name": "Laia Aldave Mas",
+      "athlete_dob": "29/01/2005",
+      "athlete_id": "CL71683",
+      "performance": "2.20",
+      "discipline": "Perxa SUB16 FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 800
+    },
+    {
+      "athlete_name": "Natalia Sanchez Alvarez",
+      "athlete_dob": "28/05/2005",
+      "athlete_id": "CT29768",
+      "performance": "4.73",
+      "discipline": "Llargada SUB16 FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 796
+    },
+    {
+      "athlete_name": "Natalia Sanchez Alvarez",
+      "athlete_dob": "28/05/2005",
+      "athlete_id": "CT29768",
+      "performance": "4.66",
+      "discipline": "Llargada SUB16 FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 796
+    },
+    {
+      "athlete_name": "Natalia Sanchez Alvarez",
+      "athlete_dob": "28/05/2005",
+      "athlete_id": "CT29768",
+      "performance": "4.20",
+      "discipline": "Llargada SUB16 FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 796
+    },
+    {
+      "athlete_name": "Laurine Elisa Marimon Fernandez",
+      "athlete_dob": "17/09/2004",
+      "athlete_id": "CT28409",
+      "performance": "5.22",
+      "discipline": "Llargada SUB18 FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 737
+    },
+    {
+      "athlete_name": "Laurine Elisa Marimon Fernandez",
+      "athlete_dob": "17/09/2004",
+      "athlete_id": "CT28409",
+      "performance": "5.23",
+      "discipline": "Llargada SUB18 FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 737
+    },
+    {
+      "athlete_name": "Laurine Elisa Marimon Fernandez",
+      "athlete_dob": "17/09/2004",
+      "athlete_id": "CT28409",
+      "performance": "5.11",
+      "discipline": "Llargada SUB18 FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 737
+    },
+    {
+      "athlete_name": "Laurine Elisa Marimon Fernandez",
+      "athlete_dob": "17/09/2004",
+      "athlete_id": "CT28409",
+      "performance": "5.14",
+      "discipline": "Llargada SUB18 FEM. PC",
+      "wind": null,
+      "position": null,
       "internal_id": 737
     }
   ]

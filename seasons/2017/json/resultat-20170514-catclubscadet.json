@@ -2,7 +2,7 @@
   "event_name": "Campionat Catalunya Clubs Cadet Masculí",
   "event_date": "14/05/2017",
   "event_location": "El Prat de Llobregat",
-  "total_results": 13,
+  "total_results": 43,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20170514-catclubscadet.pdf",
   "results": [
     {
@@ -10,19 +10,59 @@
       "athlete_dob": "21/04/2002",
       "athlete_id": "CL86451",
       "performance": "1.48",
-      "discipline": "Alçada",
-      "raw_discipline_name": "SALT D'ALÇADA CADET MASCULI",
+      "discipline": "SALT D'ALÇADA CADET MASCULI",
       "wind": null,
+      "position": null,
       "internal_id": 663
     },
     {
       "athlete_name": "Pep Aldave Mas",
       "athlete_dob": "29/08/2002",
       "athlete_id": "CL71684",
+      "performance": "2.20",
+      "discipline": "SALT AMB PERXA CADET MASCULI",
+      "wind": null,
+      "position": null,
+      "internal_id": 640
+    },
+    {
+      "athlete_name": "Edgar Jose Diaz",
+      "athlete_dob": "08/04/2002",
+      "athlete_id": "CL71711",
+      "performance": "4.85",
+      "discipline": "SALT DE LLARGADA CADET MASCULI",
+      "wind": "+0.4",
+      "position": null,
+      "internal_id": 653
+    },
+    {
+      "athlete_name": "Edgar Jose Diaz",
+      "athlete_dob": "08/04/2002",
+      "athlete_id": "CL71711",
+      "performance": "5.19",
+      "discipline": "SALT DE LLARGADA CADET MASCULI",
+      "wind": "+1.6",
+      "position": null,
+      "internal_id": 653
+    },
+    {
+      "athlete_name": "Edgar Jose Diaz",
+      "athlete_dob": "08/04/2002",
+      "athlete_id": "CL71711",
+      "performance": "4.58",
+      "discipline": "SALT DE LLARGADA CADET MASCULI",
+      "wind": "+2.3",
+      "position": null,
+      "internal_id": 653
+    },
+    {
+      "athlete_name": "Pep Aldave Mas",
+      "athlete_dob": "29/08/2002",
+      "athlete_id": "CL71684",
       "performance": "9.75",
-      "discipline": "Triple",
-      "raw_discipline_name": "TRIPLE SALT CADET MASCULI",
+      "discipline": "TRIPLE SALT CADET MASCULI",
       "wind": "+0.2",
+      "position": null,
       "internal_id": 640
     },
     {
@@ -30,9 +70,9 @@
       "athlete_dob": "29/08/2002",
       "athlete_id": "CL71684",
       "performance": "10.15",
-      "discipline": "Triple",
-      "raw_discipline_name": "TRIPLE SALT CADET MASCULI",
+      "discipline": "TRIPLE SALT CADET MASCULI",
       "wind": "+0.7",
+      "position": null,
       "internal_id": 640
     },
     {
@@ -40,29 +80,79 @@
       "athlete_dob": "29/08/2002",
       "athlete_id": "CL71684",
       "performance": "10.42",
-      "discipline": "Triple",
-      "raw_discipline_name": "TRIPLE SALT CADET MASCULI",
+      "discipline": "TRIPLE SALT CADET MASCULI",
       "wind": "+1.8",
+      "position": null,
       "internal_id": 640
+    },
+    {
+      "athlete_name": "David Bonnin Obach",
+      "athlete_dob": "10/11/2003",
+      "athlete_id": "CL82672",
+      "performance": "6.26",
+      "discipline": "LLANÇAMENT DE PES CADET MASCULI",
+      "wind": null,
+      "position": null,
+      "internal_id": 710
+    },
+    {
+      "athlete_name": "David Bonnin Obach",
+      "athlete_dob": "10/11/2003",
+      "athlete_id": "CL82672",
+      "performance": "7.32",
+      "discipline": "LLANÇAMENT DE PES CADET MASCULI",
+      "wind": null,
+      "position": null,
+      "internal_id": 710
+    },
+    {
+      "athlete_name": "David Bonnin Obach",
+      "athlete_dob": "10/11/2003",
+      "athlete_id": "CL82672",
+      "performance": "6.58",
+      "discipline": "LLANÇAMENT DE PES CADET MASCULI",
+      "wind": null,
+      "position": null,
+      "internal_id": 710
     },
     {
       "athlete_name": "Didac Safont Balaguer",
       "athlete_dob": "25/02/2002",
       "athlete_id": "CL78446",
       "performance": "15.80",
-      "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "LLANÇAMENT DE DISC CADET MASCULI",
+      "discipline": "LLANÇAMENT DE DISC CADET MASCULI",
       "wind": null,
+      "position": null,
       "internal_id": 651
     },
     {
       "athlete_name": "Roger Feijoo Massot",
       "athlete_dob": "20/09/2003",
       "athlete_id": "CL82677",
-      "performance": "15.97",
-      "discipline": "Javelina (600 g)",
-      "raw_discipline_name": "LLANÇAMENT DE JAVELINA CADET MASCULI",
+      "performance": "10.95",
+      "discipline": "LLANÇAMENT DE MARTELL CADET MASCULI",
       "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Roger Feijoo Massot",
+      "athlete_dob": "20/09/2003",
+      "athlete_id": "CL82677",
+      "performance": "12.00",
+      "discipline": "LLANÇAMENT DE MARTELL CADET MASCULI",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Roger Feijoo Massot",
+      "athlete_dob": "20/09/2003",
+      "athlete_id": "CL82677",
+      "performance": "15.97",
+      "discipline": "LLANÇAMENT DE JAVELINA CADET MASCULI",
+      "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -70,29 +160,79 @@
       "athlete_dob": "20/09/2003",
       "athlete_id": "CL82677",
       "performance": "20.01",
-      "discipline": "Javelina (600 g)",
-      "raw_discipline_name": "LLANÇAMENT DE JAVELINA CADET MASCULI",
+      "discipline": "LLANÇAMENT DE JAVELINA CADET MASCULI",
       "wind": null,
+      "position": null,
       "internal_id": null
+    },
+    {
+      "athlete_name": "Ruben Mellaerts Martin",
+      "athlete_dob": "05/12/2002",
+      "athlete_id": "CL80301",
+      "performance": "52.27",
+      "discipline": "RELLEUS 4X100 CADET MASCULI",
+      "wind": null,
+      "position": null,
+      "internal_id": 654
+    },
+    {
+      "athlete_name": "David Bondia Pardo",
+      "athlete_dob": "21/04/2002",
+      "athlete_id": "CL86451",
+      "performance": "52.27",
+      "discipline": "RELLEUS 4X100 CADET MASCULI",
+      "wind": null,
+      "position": null,
+      "internal_id": 663
+    },
+    {
+      "athlete_name": "Aleix Lago Garbajosa",
+      "athlete_dob": "26/09/2002",
+      "athlete_id": "CL71714",
+      "performance": "52.27",
+      "discipline": "RELLEUS 4X100 CADET MASCULI",
+      "wind": null,
+      "position": null,
+      "internal_id": 660
+    },
+    {
+      "athlete_name": "Edgar Jose Diaz",
+      "athlete_dob": "08/04/2002",
+      "athlete_id": "CL71711",
+      "performance": "52.27",
+      "discipline": "RELLEUS 4X100 CADET MASCULI",
+      "wind": null,
+      "position": null,
+      "internal_id": 653
     },
     {
       "athlete_name": "Maria Falco Cuenca",
       "athlete_dob": "14/06/2002",
       "athlete_id": "CL71705",
       "performance": "1.45",
-      "discipline": "Alçada",
-      "raw_discipline_name": "SALT D'ALÇADA CADET FEMENI",
+      "discipline": "SALT D'ALÇADA CADET FEMENI",
       "wind": null,
+      "position": null,
       "internal_id": 664
+    },
+    {
+      "athlete_name": "Berta Sanchez Ruiz",
+      "athlete_dob": "05/08/2002",
+      "athlete_id": "CL71750",
+      "performance": "2.70",
+      "discipline": "SALT AMB PERXA CADET FEMENI",
+      "wind": null,
+      "position": null,
+      "internal_id": 643
     },
     {
       "athlete_name": "Mar Vazquez Domingo",
       "athlete_dob": "17/03/2002",
       "athlete_id": "CL71756",
       "performance": "4.65",
-      "discipline": "Llargada",
-      "raw_discipline_name": "SALT DE LLARGADA CADET FEMENI",
+      "discipline": "SALT DE LLARGADA CADET FEMENI",
       "wind": "+0.9",
+      "position": null,
       "internal_id": 642
     },
     {
@@ -100,9 +240,9 @@
       "athlete_dob": "17/03/2002",
       "athlete_id": "CL71756",
       "performance": "4.81",
-      "discipline": "Llargada",
-      "raw_discipline_name": "SALT DE LLARGADA CADET FEMENI",
+      "discipline": "SALT DE LLARGADA CADET FEMENI",
       "wind": "+2.0",
+      "position": null,
       "internal_id": 642
     },
     {
@@ -110,9 +250,9 @@
       "athlete_dob": "17/03/2002",
       "athlete_id": "CL71756",
       "performance": "4.56",
-      "discipline": "Llargada",
-      "raw_discipline_name": "SALT DE LLARGADA CADET FEMENI",
+      "discipline": "SALT DE LLARGADA CADET FEMENI",
       "wind": "+2.5",
+      "position": null,
       "internal_id": 642
     },
     {
@@ -120,9 +260,9 @@
       "athlete_dob": "18/09/2002",
       "athlete_id": "CL86452",
       "performance": "9.87",
-      "discipline": "Triple",
-      "raw_discipline_name": "TRIPLE SALT CADET FEMENI",
+      "discipline": "TRIPLE SALT CADET FEMENI",
       "wind": "+2.2",
+      "position": null,
       "internal_id": 670
     },
     {
@@ -130,10 +270,170 @@
       "athlete_dob": "18/09/2002",
       "athlete_id": "CL86452",
       "performance": "9.53",
-      "discipline": "Triple",
-      "raw_discipline_name": "TRIPLE SALT CADET FEMENI",
+      "discipline": "TRIPLE SALT CADET FEMENI",
       "wind": "+1.6",
+      "position": null,
       "internal_id": 670
+    },
+    {
+      "athlete_name": "Nuria Menchon Tevar",
+      "athlete_dob": "25/06/2002",
+      "athlete_id": "CL83693",
+      "performance": "6.83",
+      "discipline": "LLANÇAMENT DE PES CADET FEMENI",
+      "wind": null,
+      "position": null,
+      "internal_id": 541
+    },
+    {
+      "athlete_name": "Nuria Menchon Tevar",
+      "athlete_dob": "25/06/2002",
+      "athlete_id": "CL83693",
+      "performance": "6.89",
+      "discipline": "LLANÇAMENT DE PES CADET FEMENI",
+      "wind": null,
+      "position": null,
+      "internal_id": 541
+    },
+    {
+      "athlete_name": "Nuria Menchon Tevar",
+      "athlete_dob": "25/06/2002",
+      "athlete_id": "CL83693",
+      "performance": "7.54",
+      "discipline": "LLANÇAMENT DE PES CADET FEMENI",
+      "wind": null,
+      "position": null,
+      "internal_id": 541
+    },
+    {
+      "athlete_name": "Ines Delgado Pizzo",
+      "athlete_dob": "19/05/2002",
+      "athlete_id": "CL71700",
+      "performance": "20.89",
+      "discipline": "LLANÇAMENT DE DISC CADET FEMENI",
+      "wind": null,
+      "position": null,
+      "internal_id": 667
+    },
+    {
+      "athlete_name": "Marina Pelicano Sanchis",
+      "athlete_dob": "04/05/2002",
+      "athlete_id": "CL78444",
+      "performance": "19.75",
+      "discipline": "LLANÇAMENT DE MARTELL CADET FEMENI",
+      "wind": null,
+      "position": null,
+      "internal_id": 641
+    },
+    {
+      "athlete_name": "Ines Delgado Pizzo",
+      "athlete_dob": "19/05/2002",
+      "athlete_id": "CL71700",
+      "performance": "26.03",
+      "discipline": "LLANÇAMENT DE JAVELINA CADET FEMENI",
+      "wind": null,
+      "position": null,
+      "internal_id": 667
+    },
+    {
+      "athlete_name": "Ines Delgado Pizzo",
+      "athlete_dob": "19/05/2002",
+      "athlete_id": "CL71700",
+      "performance": "21.77",
+      "discipline": "LLANÇAMENT DE JAVELINA CADET FEMENI",
+      "wind": null,
+      "position": null,
+      "internal_id": 667
+    },
+    {
+      "athlete_name": "Ainhoa Perez Diaz",
+      "athlete_dob": "12/10/2003",
+      "athlete_id": "CL72016",
+      "performance": "19:46.63",
+      "discipline": "3000 METRES MARXA CADET FEMENI",
+      "wind": null,
+      "position": null,
+      "internal_id": 711
+    },
+    {
+      "athlete_name": "Ariadna Alonso Del Campo",
+      "athlete_dob": "06/09/2003",
+      "athlete_id": "CL82671",
+      "performance": "56.24",
+      "discipline": "RELLEUS 4X100 CADET FEMENI",
+      "wind": null,
+      "position": null,
+      "internal_id": 703
+    },
+    {
+      "athlete_name": "Alba Carvajal Garcia",
+      "athlete_dob": "18/09/2002",
+      "athlete_id": "CL86452",
+      "performance": "56.24",
+      "discipline": "RELLEUS 4X100 CADET FEMENI",
+      "wind": null,
+      "position": null,
+      "internal_id": 670
+    },
+    {
+      "athlete_name": "Berta Sanchez Ruiz",
+      "athlete_dob": "05/08/2002",
+      "athlete_id": "CL71750",
+      "performance": "56.24",
+      "discipline": "RELLEUS 4X100 CADET FEMENI",
+      "wind": null,
+      "position": null,
+      "internal_id": 643
+    },
+    {
+      "athlete_name": "Ines Delgado Pizzo",
+      "athlete_dob": "19/05/2002",
+      "athlete_id": "CL71700",
+      "performance": "56.24",
+      "discipline": "RELLEUS 4X100 CADET FEMENI",
+      "wind": null,
+      "position": null,
+      "internal_id": 667
+    },
+    {
+      "athlete_name": "Ariadna Alonso Del Campo",
+      "athlete_dob": "06/09/2003",
+      "athlete_id": "CL82671",
+      "performance": "3:18.75",
+      "discipline": "RELLEUS 4X300 CADET FEMENI",
+      "wind": null,
+      "position": null,
+      "internal_id": 703
+    },
+    {
+      "athlete_name": "Claudian. Mir Casellas",
+      "athlete_dob": "02/08/2003",
+      "athlete_id": "CL69333",
+      "performance": "3:18.75",
+      "discipline": "RELLEUS 4X300 CADET FEMENI",
+      "wind": null,
+      "position": null,
+      "internal_id": 699
+    },
+    {
+      "athlete_name": "Berta Prados Galindo",
+      "athlete_dob": "27/10/2002",
+      "athlete_id": "CL71738",
+      "performance": "3:18.75",
+      "discipline": "RELLEUS 4X300 CADET FEMENI",
+      "wind": null,
+      "position": null,
+      "internal_id": 656
+    },
+    {
+      "athlete_name": "Berta Pardines Vilalta",
+      "athlete_dob": "04/10/2002",
+      "athlete_id": "CL71731",
+      "performance": "3:18.75",
+      "discipline": "RELLEUS 4X300 CADET FEMENI",
+      "wind": null,
+      "position": null,
+      "internal_id": 650
     }
   ]
 }

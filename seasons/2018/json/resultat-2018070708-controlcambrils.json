@@ -2,7 +2,7 @@
   "event_name": "Control 7 juliol",
   "event_date": "07/07/2018",
   "event_location": "Cambrils",
-  "total_results": 19,
+  "total_results": 23,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018070708-controlcambrils.pdf",
   "results": [
     {
@@ -13,7 +13,7 @@
       "discipline": "100 metres tanques (0.91)",
       "raw_discipline_name": "100m vallas (0,91) S16 MASC. AL",
       "wind": "+2.2",
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018070708-controlcambrils.pdf",
+      "position": null,
       "internal_id": 704
     },
     {
@@ -24,7 +24,7 @@
       "discipline": "100 metres llisos",
       "raw_discipline_name": "100m FEM. AL",
       "wind": "+0.7",
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018070708-controlcambrils.pdf",
+      "position": null,
       "internal_id": 449
     },
     {
@@ -35,7 +35,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud FEM. AL",
       "wind": "+3.0",
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018070708-controlcambrils.pdf",
+      "position": null,
       "internal_id": 449
     },
     {
@@ -46,7 +46,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud FEM. AL",
       "wind": "+1.2",
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018070708-controlcambrils.pdf",
+      "position": null,
       "internal_id": 449
     },
     {
@@ -57,7 +57,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud FEM. AL",
       "wind": "+1.8",
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018070708-controlcambrils.pdf",
+      "position": null,
       "internal_id": 449
     },
     {
@@ -68,7 +68,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud FEM. AL",
       "wind": "+2.1",
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018070708-controlcambrils.pdf",
+      "position": null,
       "internal_id": 449
     },
     {
@@ -79,7 +79,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud FEM. AL",
       "wind": "+2.1",
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018070708-controlcambrils.pdf",
+      "position": null,
       "internal_id": 449
     },
     {
@@ -90,7 +90,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud FEM. AL",
       "wind": "+1.6",
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018070708-controlcambrils.pdf",
+      "position": null,
       "internal_id": 449
     },
     {
@@ -101,7 +101,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud FEM. AL",
       "wind": "+1.0",
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018070708-controlcambrils.pdf",
+      "position": null,
       "internal_id": 389
     },
     {
@@ -112,7 +112,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud FEM. AL",
       "wind": "+1.9",
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018070708-controlcambrils.pdf",
+      "position": null,
       "internal_id": 389
     },
     {
@@ -123,7 +123,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud FEM. AL",
       "wind": "+2.8",
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018070708-controlcambrils.pdf",
+      "position": null,
       "internal_id": 389
     },
     {
@@ -134,7 +134,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud FEM. AL",
       "wind": "+1.2",
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018070708-controlcambrils.pdf",
+      "position": null,
       "internal_id": 389
     },
     {
@@ -145,7 +145,51 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud FEM. AL",
       "wind": "+2.9",
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018070708-controlcambrils.pdf",
+      "position": null,
+      "internal_id": 389
+    },
+    {
+      "athlete_name": "Marisa Pradillo Gutierrez",
+      "athlete_dob": "29/07/1961",
+      "athlete_id": "CT21513",
+      "performance": "14.80",
+      "discipline": "Javelina (500 g)",
+      "raw_discipline_name": "Jabalina F55 (500g) FEM.",
+      "wind": null,
+      "position": null,
+      "internal_id": 389
+    },
+    {
+      "athlete_name": "Marisa Pradillo Gutierrez",
+      "athlete_dob": "29/07/1961",
+      "athlete_id": "CT21513",
+      "performance": "13.18",
+      "discipline": "Javelina (500 g)",
+      "raw_discipline_name": "Jabalina F55 (500g) FEM.",
+      "wind": null,
+      "position": null,
+      "internal_id": 389
+    },
+    {
+      "athlete_name": "Marisa Pradillo Gutierrez",
+      "athlete_dob": "29/07/1961",
+      "athlete_id": "CT21513",
+      "performance": "13.07",
+      "discipline": "Javelina (500 g)",
+      "raw_discipline_name": "Jabalina F55 (500g) FEM.",
+      "wind": null,
+      "position": null,
+      "internal_id": 389
+    },
+    {
+      "athlete_name": "Marisa Pradillo Gutierrez",
+      "athlete_dob": "29/07/1961",
+      "athlete_id": "CT21513",
+      "performance": "15.80",
+      "discipline": "Javelina (500 g)",
+      "raw_discipline_name": "Jabalina F55 (500g) FEM.",
+      "wind": null,
+      "position": null,
       "internal_id": 389
     },
     {
@@ -156,7 +200,7 @@
       "discipline": "Javelina (600 g)",
       "raw_discipline_name": "Jabalina (600g) FEM.",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018070708-controlcambrils.pdf",
+      "position": null,
       "internal_id": 449
     },
     {
@@ -167,7 +211,7 @@
       "discipline": "Javelina (600 g)",
       "raw_discipline_name": "Jabalina (600g) FEM.",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018070708-controlcambrils.pdf",
+      "position": null,
       "internal_id": 449
     },
     {
@@ -178,7 +222,7 @@
       "discipline": "Javelina (600 g)",
       "raw_discipline_name": "Jabalina (600g) FEM.",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018070708-controlcambrils.pdf",
+      "position": null,
       "internal_id": 449
     },
     {
@@ -189,7 +233,7 @@
       "discipline": "Javelina (600 g)",
       "raw_discipline_name": "Jabalina (600g) FEM.",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018070708-controlcambrils.pdf",
+      "position": null,
       "internal_id": 449
     },
     {
@@ -200,7 +244,7 @@
       "discipline": "Javelina (600 g)",
       "raw_discipline_name": "Jabalina (600g) FEM.",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018070708-controlcambrils.pdf",
+      "position": null,
       "internal_id": 449
     },
     {
@@ -211,7 +255,7 @@
       "discipline": "Javelina (600 g)",
       "raw_discipline_name": "Jabalina (600g) FEM.",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018070708-controlcambrils.pdf",
+      "position": null,
       "internal_id": 449
     }
   ]

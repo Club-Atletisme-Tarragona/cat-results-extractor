@@ -1,19 +1,30 @@
 {
   "event_name": "Campionat Catalunya Sub23 - Barcelona (Estadi Joan Serrahima), 2-3 junio 2018",
-  "event_date": "06/02/2018",
+  "event_date": "02/06/2018",
   "event_location": "Barcelona-SE",
-  "total_results": 4,
+  "total_results": 5,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018060203-catsub23serrahima.pdf",
   "results": [
     {
-      "athlete_name": "Jan Sans Riola",
+      "athlete_name": "Xavier Ros Borrell PM",
+      "athlete_dob": "19/05/1998",
+      "athlete_id": "CL22779",
+      "performance": "2:00.09",
+      "discipline": "800 metres llisos",
+      "raw_discipline_name": "800m S23 MASC. AL",
+      "wind": null,
+      "position": 6,
+      "internal_id": 439
+    },
+    {
+      "athlete_name": "Jan Sans Riola PM",
       "athlete_dob": "23/10/1998",
       "athlete_id": "CT22783",
       "performance": "14.96",
       "discipline": "110 metres tanques (1.067)",
       "raw_discipline_name": "110m tanques (1,067) S23 MASC. AL",
       "wind": "+0.0",
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018060203-catsub23serrahima.pdf",
+      "position": 3,
       "internal_id": 435
     },
     {
@@ -24,7 +35,7 @@
       "discipline": "Javelina (600 g)",
       "raw_discipline_name": "Javelina (600g) S23 FEM.",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018060203-catsub23serrahima.pdf",
+      "position": 9,
       "internal_id": 437
     },
     {
@@ -35,7 +46,7 @@
       "discipline": "Javelina (600 g)",
       "raw_discipline_name": "Javelina (600g) S23 FEM.",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018060203-catsub23serrahima.pdf",
+      "position": 9,
       "internal_id": 437
     },
     {
@@ -46,7 +57,7 @@
       "discipline": "Javelina (600 g)",
       "raw_discipline_name": "Javelina (600g) S23 FEM.",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018060203-catsub23serrahima.pdf",
+      "position": 9,
       "internal_id": 437
     }
   ]

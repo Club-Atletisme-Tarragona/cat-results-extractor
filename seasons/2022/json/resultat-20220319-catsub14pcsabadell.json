@@ -1,49 +1,219 @@
 {
   "event_name": "Campionat de Catalunya Sub14 en Pista Coberta - Campionat de Catalunya Sub14 en Pista Coberta",
   "event_date": "19/03/2022",
-  "event_location": "Sabadell",
-  "total_results": 4,
+  "event_location": "Club                                                 Lic",
+  "total_results": 21,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2022/03/resultat-20220319-catsub14pcsabadell.pdf",
   "results": [
     {
-      "athlete_name": "Joan Rich Salas",
+      "athlete_name": "Joan Rich Salas IM",
       "athlete_dob": "08/03/2009",
       "athlete_id": "CL94407",
       "performance": "8.15",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m MASC. PC",
+      "discipline": "60m MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 1011
+    },
+    {
+      "athlete_name": "Joan Rich Salas IM 4 6 7.9579",
+      "athlete_dob": "08/03/2009",
+      "athlete_id": "CL94407",
+      "performance": "7.96",
+      "discipline": "60m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1011
+    },
+    {
+      "athlete_name": "Eric De La Rosa Fortuny IM",
+      "athlete_dob": "17/04/2009",
+      "athlete_id": "CL87201",
+      "performance": "3:01.95",
+      "discipline": "1.000m MASC. PC",
+      "wind": null,
+      "position": 1,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "423 (t) Quimey Izaga Deriu IM 1",
+      "athlete_dob": "22/08/2009",
+      "athlete_id": "CL86465",
+      "performance": "NP",
+      "discipline": "1.000m MASC. PC",
+      "wind": null,
+      "position": 423,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Jeroni Flores Piñas IM",
+      "athlete_dob": "04/01/2009",
+      "athlete_id": "CL86460",
+      "performance": "10.25",
+      "discipline": "60m tanques (0,84) MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1036
+    },
+    {
+      "athlete_name": "Jeroni Flores Piñas IM",
+      "athlete_dob": "04/01/2009",
+      "athlete_id": "CL86460",
+      "performance": "10.41",
+      "discipline": "60m tanques (0,84) MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1036
+    },
+    {
+      "athlete_name": "Joan Rich Salas IM",
+      "athlete_dob": "08/03/2009",
+      "athlete_id": "CL94407",
+      "performance": "10.39",
+      "discipline": "60m tanques (0,84) MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1011
+    },
+    {
+      "athlete_name": "Joan Rich Salas IM",
+      "athlete_dob": "08/03/2009",
+      "athlete_id": "CL94407",
+      "performance": "9.79",
+      "discipline": "60m tanques (0,84) MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1011
+    },
+    {
+      "athlete_name": "Jeroni Flores Piñas IM 5.5",
+      "athlete_dob": "04/01/2009",
+      "athlete_id": "CL86460",
+      "performance": "1.49",
+      "discipline": "Alçada MASC. PC",
+      "wind": null,
+      "position": 4,
+      "internal_id": 1036
+    },
+    {
+      "athlete_name": "Eric De La Rosa Fortuny",
+      "athlete_dob": "17/04/2009",
+      "athlete_id": "CL87201",
+      "performance": "1:52.07",
+      "discipline": "4x200m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Jeroni Flores Piñas",
+      "athlete_dob": "04/01/2009",
+      "athlete_id": "CL86460",
+      "performance": "1:52.07",
+      "discipline": "4x200m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1036
     },
     {
       "athlete_name": "Joan Rich Salas",
       "athlete_dob": "08/03/2009",
       "athlete_id": "CL94407",
-      "performance": "7.95",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m MASC. PC",
+      "performance": "1:52.07",
+      "discipline": "4x200m MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 1011
     },
     {
-      "athlete_name": "Marc Suarez Piza",
+      "athlete_name": "Pau Esteve Hostalot",
+      "athlete_dob": "27/08/2010",
+      "athlete_id": "CL94383",
+      "performance": "1:52.07",
+      "discipline": "4x200m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1055
+    },
+    {
+      "athlete_name": "Marc Suarez Piza IM",
       "athlete_dob": "29/04/2009",
       "athlete_id": "CL3326",
       "performance": "9:39.80",
-      "discipline": "2000 metres marxa",
-      "raw_discipline_name": "2.000m Marxa MASC. PC",
+      "discipline": "2.000m Marxa MASC. PC",
       "wind": null,
+      "position": 4,
       "internal_id": 1017
     },
     {
-      "athlete_name": "Ona Sansa Garcia",
+      "athlete_name": "Clara Ortiz De Landazuri Ontoso IF",
+      "athlete_dob": "04/12/2009",
+      "athlete_id": "CL86467",
+      "performance": "3:11.22",
+      "discipline": "1.000m FEM. PC",
+      "wind": null,
+      "position": 3,
+      "internal_id": 1022
+    },
+    {
+      "athlete_name": "Nora Montolio Amaro IF",
+      "athlete_dob": "05/02/2010",
+      "athlete_id": "CL90841",
+      "performance": "3:28.78",
+      "discipline": "1.000m FEM. PC",
+      "wind": null,
+      "position": 12,
+      "internal_id": 1089
+    },
+    {
+      "athlete_name": "Ona Sansa Garcia IF",
       "athlete_dob": "31/05/2010",
       "athlete_id": "CL90844",
       "performance": "2.15",
-      "discipline": "Perxa",
-      "raw_discipline_name": "Perxa FEM. PC",
+      "discipline": "Perxa FEM. PC",
       "wind": null,
+      "position": 5,
       "internal_id": 1015
+    },
+    {
+      "athlete_name": "Clara Ortiz De Landazuri Ontoso IF",
+      "athlete_dob": "04/12/2009",
+      "athlete_id": "CL86467",
+      "performance": "4.16",
+      "discipline": "Llargada FEM. PC",
+      "wind": null,
+      "position": 9,
+      "internal_id": 1022
+    },
+    {
+      "athlete_name": "Clara Ortiz De Landazuri Ontoso IF",
+      "athlete_dob": "04/12/2009",
+      "athlete_id": "CL86467",
+      "performance": "4.44",
+      "discipline": "Llargada FEM. PC",
+      "wind": null,
+      "position": 9,
+      "internal_id": 1022
+    },
+    {
+      "athlete_name": "Clara Ortiz De Landazuri Ontoso IF",
+      "athlete_dob": "04/12/2009",
+      "athlete_id": "CL86467",
+      "performance": "4.21",
+      "discipline": "Llargada FEM. PC",
+      "wind": null,
+      "position": 9,
+      "internal_id": 1022
+    },
+    {
+      "athlete_name": "454 (t) Paula Diez Plasencia IF",
+      "athlete_dob": "15/11/2010",
+      "athlete_id": "CL90832",
+      "performance": "NP",
+      "discipline": "2.000m Marxa FEM. PC",
+      "wind": null,
+      "position": 454,
+      "internal_id": null
     }
   ]
 }

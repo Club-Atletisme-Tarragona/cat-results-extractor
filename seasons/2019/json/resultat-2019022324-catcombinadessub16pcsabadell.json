@@ -1,19 +1,38 @@
 {
   "event_name": "Campionat de Catalunya Sub16 de Proves Combinades en Pista Coberta - Campionat de Catalunya Sub16 de Proves Combinades en Pista Coberta",
-  "event_date": "21/03/2015",
-  "event_location": "Sabadell",
-  "total_results": 4,
+  "event_date": "27/04/2004",
+  "event_location": "AA Catalunya                               CF",
+  "total_results": 8,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2019022324-catcombinadessub16pcsabadell.pdf",
   "results": [
     {
       "athlete_name": "Laurine Elisa Marimon Fernandez",
       "athlete_dob": "17/09/2004",
       "athlete_id": "CT28409",
-      "performance": "1.38",
-      "discipline": "Alçada",
-      "raw_discipline_name": "Alçada FEM. PC",
+      "performance": "2635",
+      "discipline": "Pentatló SUB16 FEM. PC",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2019022324-catcombinadessub16pcsabadell.pdf",
+      "position": null,
+      "internal_id": 737
+    },
+    {
+      "athlete_name": "Laurine Elisa Marimon Fernandez",
+      "athlete_dob": "17/09/2004",
+      "athlete_id": "CT28409",
+      "performance": "10.02",
+      "discipline": "60m tanques FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 737
+    },
+    {
+      "athlete_name": "Laurine Elisa Marimon Fernandez",
+      "athlete_dob": "17/09/2004",
+      "athlete_id": "CT28409",
+      "performance": "1.38",
+      "discipline": "Alçada FEM. PC",
+      "wind": null,
+      "position": null,
       "internal_id": 737
     },
     {
@@ -21,10 +40,9 @@
       "athlete_dob": "17/09/2004",
       "athlete_id": "CT28409",
       "performance": "7.45",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Pes FEM. PC",
+      "discipline": "Pes FEM. PC",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2019022324-catcombinadessub16pcsabadell.pdf",
+      "position": null,
       "internal_id": 737
     },
     {
@@ -32,10 +50,9 @@
       "athlete_dob": "17/09/2004",
       "athlete_id": "CT28409",
       "performance": "7.76",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Pes FEM. PC",
+      "discipline": "Pes FEM. PC",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2019022324-catcombinadessub16pcsabadell.pdf",
+      "position": null,
       "internal_id": 737
     },
     {
@@ -43,10 +60,29 @@
       "athlete_dob": "17/09/2004",
       "athlete_id": "CT28409",
       "performance": "4.74",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada FEM. PC",
+      "discipline": "Llargada FEM. PC",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2019022324-catcombinadessub16pcsabadell.pdf",
+      "position": null,
+      "internal_id": 737
+    },
+    {
+      "athlete_name": "Laurine Elisa Marimon Fernandez",
+      "athlete_dob": "17/09/2004",
+      "athlete_id": "CT28409",
+      "performance": "1:57.80",
+      "discipline": "600m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 737
+    },
+    {
+      "athlete_name": "Laurine Elisa Marimon",
+      "athlete_dob": "29/04/2004",
+      "athlete_id": "CT28409",
+      "performance": "2635",
+      "discipline": "Pentatló SUB16 FEM. PC",
+      "wind": null,
+      "position": null,
       "internal_id": 737
     }
   ]

@@ -2,17 +2,37 @@
   "event_name": "Campionat Catalunya Pentatló Combinades Veterans",
   "event_date": "17/09/2017",
   "event_location": "Palafrugell",
-  "total_results": 8,
+  "total_results": 61,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20170917-catpentatloveterans.pdf",
   "results": [
     {
       "athlete_name": "Ignacio Jose Blanco Porta",
       "athlete_dob": "17/11/1979",
       "athlete_id": "CL24576",
+      "performance": "4.24",
+      "discipline": "Llargada Pentatló Vet M35",
+      "wind": "+0.8",
+      "position": null,
+      "internal_id": 502
+    },
+    {
+      "athlete_name": "Ignacio Jose Blanco Porta",
+      "athlete_dob": "17/11/1979",
+      "athlete_id": "CL24576",
+      "performance": "4.34",
+      "discipline": "Llargada Pentatló Vet M35",
+      "wind": "+0.0",
+      "position": null,
+      "internal_id": 502
+    },
+    {
+      "athlete_name": "Ignacio Jose Blanco Porta",
+      "athlete_dob": "17/11/1979",
+      "athlete_id": "CL24576",
       "performance": "23.35",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "Javelina (800gr) Pentatló Vet M35",
+      "discipline": "Javelina (800gr) Pentatló Vet M35",
       "wind": null,
+      "position": null,
       "internal_id": 502
     },
     {
@@ -20,9 +40,9 @@
       "athlete_dob": "17/11/1979",
       "athlete_id": "CL24576",
       "performance": "24.07",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "Javelina (800gr) Pentatló Vet M35",
+      "discipline": "Javelina (800gr) Pentatló Vet M35",
       "wind": null,
+      "position": null,
       "internal_id": 502
     },
     {
@@ -30,9 +50,9 @@
       "athlete_dob": "17/11/1979",
       "athlete_id": "CL24576",
       "performance": "22.19",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "Javelina (800gr) Pentatló Vet M35",
+      "discipline": "Javelina (800gr) Pentatló Vet M35",
       "wind": null,
+      "position": null,
       "internal_id": 502
     },
     {
@@ -40,19 +60,69 @@
       "athlete_dob": "17/11/1979",
       "athlete_id": "CL24576",
       "performance": "28.97",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "Javelina (800gr) Pentatló Vet M35",
+      "discipline": "Javelina (800gr) Pentatló Vet M35",
       "wind": null,
+      "position": null,
+      "internal_id": 502
+    },
+    {
+      "athlete_name": "Ignacio Jose Blanco Porta",
+      "athlete_dob": "17/11/1979",
+      "athlete_id": "CL24576",
+      "performance": "21.87",
+      "discipline": "Disc (2 Kg) Pentatló Vet M35",
+      "wind": null,
+      "position": null,
+      "internal_id": 502
+    },
+    {
+      "athlete_name": "Ignacio Jose Blanco Porta",
+      "athlete_dob": "17/11/1979",
+      "athlete_id": "CL24576",
+      "performance": "22.80",
+      "discipline": "Disc (2 Kg) Pentatló Vet M35",
+      "wind": null,
+      "position": null,
+      "internal_id": 502
+    },
+    {
+      "athlete_name": "Ignacio Jose Blanco Porta",
+      "athlete_dob": "17/11/1979",
+      "athlete_id": "CL24576",
+      "performance": "20.90",
+      "discipline": "Disc (2 Kg) Pentatló Vet M35",
+      "wind": null,
+      "position": null,
       "internal_id": 502
     },
     {
       "athlete_name": "Juan Carlos Herrera Alcaide",
       "athlete_dob": "31/01/1973",
       "athlete_id": "CT25152",
+      "performance": "5.23",
+      "discipline": "Llargada Pentatló Vet M40",
+      "wind": "+0.0",
+      "position": null,
+      "internal_id": 518
+    },
+    {
+      "athlete_name": "Juan Carlos Herrera Alcaide",
+      "athlete_dob": "31/01/1973",
+      "athlete_id": "CT25152",
+      "performance": "5.42",
+      "discipline": "Llargada Pentatló Vet M40",
+      "wind": "+0.0",
+      "position": null,
+      "internal_id": 518
+    },
+    {
+      "athlete_name": "Juan Carlos Herrera Alcaide",
+      "athlete_dob": "31/01/1973",
+      "athlete_id": "CT25152",
       "performance": "30.85",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "Javelina (800g) Pentatló Vet M40",
+      "discipline": "Javelina (800g) Pentatló Vet M40",
       "wind": null,
+      "position": null,
       "internal_id": 518
     },
     {
@@ -60,9 +130,9 @@
       "athlete_dob": "31/01/1973",
       "athlete_id": "CT25152",
       "performance": "31.42",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "Javelina (800g) Pentatló Vet M40",
+      "discipline": "Javelina (800g) Pentatló Vet M40",
       "wind": null,
+      "position": null,
       "internal_id": 518
     },
     {
@@ -70,9 +140,9 @@
       "athlete_dob": "31/01/1973",
       "athlete_id": "CT25152",
       "performance": "28.42",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "Javelina (800g) Pentatló Vet M40",
+      "discipline": "Javelina (800g) Pentatló Vet M40",
       "wind": null,
+      "position": null,
       "internal_id": 518
     },
     {
@@ -80,10 +150,470 @@
       "athlete_dob": "31/01/1973",
       "athlete_id": "CT25152",
       "performance": "25.35",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "Javelina (800g) Pentatló Vet M40",
+      "discipline": "Javelina (800g) Pentatló Vet M40",
       "wind": null,
+      "position": null,
       "internal_id": 518
+    },
+    {
+      "athlete_name": "Juan Carlos Herrera Alcaide",
+      "athlete_dob": "31/01/1973",
+      "athlete_id": "CT25152",
+      "performance": "22.62",
+      "discipline": "Disc (2 Kg) Pentatló Vet M40",
+      "wind": null,
+      "position": null,
+      "internal_id": 518
+    },
+    {
+      "athlete_name": "Juan Carlos Herrera Alcaide",
+      "athlete_dob": "31/01/1973",
+      "athlete_id": "CT25152",
+      "performance": "24.75",
+      "discipline": "Disc (2 Kg) Pentatló Vet M40",
+      "wind": null,
+      "position": null,
+      "internal_id": 518
+    },
+    {
+      "athlete_name": "Juan Carlos Herrera Alcaide",
+      "athlete_dob": "31/01/1973",
+      "athlete_id": "CT25152",
+      "performance": "25.77",
+      "discipline": "Disc (2 Kg) Pentatló Vet M40",
+      "wind": null,
+      "position": null,
+      "internal_id": 518
+    },
+    {
+      "athlete_name": "Juan Carlos Herrera Alcaide",
+      "athlete_dob": "31/01/1973",
+      "athlete_id": "CT25152",
+      "performance": "27.58",
+      "discipline": "Disc (2 Kg) Pentatló Vet M40",
+      "wind": null,
+      "position": null,
+      "internal_id": 518
+    },
+    {
+      "athlete_name": "Josep Maria Mateo Sanz",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "4.86",
+      "discipline": "Llargada Pentatló Vet M50",
+      "wind": "+0.5",
+      "position": null,
+      "internal_id": 343
+    },
+    {
+      "athlete_name": "Josep Maria Mateo Sanz",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "5.09",
+      "discipline": "Llargada Pentatló Vet M50",
+      "wind": "+0.0",
+      "position": null,
+      "internal_id": 343
+    },
+    {
+      "athlete_name": "Josep Maria Mateo Sanz",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "5.04",
+      "discipline": "Llargada Pentatló Vet M50",
+      "wind": "+0.3",
+      "position": null,
+      "internal_id": 343
+    },
+    {
+      "athlete_name": "Jose Maria Perez Sierra",
+      "athlete_dob": "26/03/1966",
+      "athlete_id": "CL20403",
+      "performance": "4.18",
+      "discipline": "Llargada Pentatló Vet M50",
+      "wind": "+0.5",
+      "position": null,
+      "internal_id": 539
+    },
+    {
+      "athlete_name": "Jose Maria Perez Sierra",
+      "athlete_dob": "26/03/1966",
+      "athlete_id": "CL20403",
+      "performance": "4.09",
+      "discipline": "Llargada Pentatló Vet M50",
+      "wind": "+1.0",
+      "position": null,
+      "internal_id": 539
+    },
+    {
+      "athlete_name": "Jose Maria Perez Sierra",
+      "athlete_dob": "26/03/1966",
+      "athlete_id": "CL20403",
+      "performance": "22.70",
+      "discipline": "Javelina (700g) Pentatló Vet M50",
+      "wind": null,
+      "position": null,
+      "internal_id": 539
+    },
+    {
+      "athlete_name": "Jose Maria Perez Sierra",
+      "athlete_dob": "26/03/1966",
+      "athlete_id": "CL20403",
+      "performance": "26.70",
+      "discipline": "Javelina (700g) Pentatló Vet M50",
+      "wind": null,
+      "position": null,
+      "internal_id": 539
+    },
+    {
+      "athlete_name": "Jose Maria Perez Sierra",
+      "athlete_dob": "26/03/1966",
+      "athlete_id": "CL20403",
+      "performance": "28.74",
+      "discipline": "Javelina (700g) Pentatló Vet M50",
+      "wind": null,
+      "position": null,
+      "internal_id": 539
+    },
+    {
+      "athlete_name": "Josep Maria Mateo Sanz",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "21.17",
+      "discipline": "Javelina (700g) Pentatló Vet M50",
+      "wind": null,
+      "position": null,
+      "internal_id": 343
+    },
+    {
+      "athlete_name": "Josep Maria Mateo Sanz",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "22.48",
+      "discipline": "Javelina (700g) Pentatló Vet M50",
+      "wind": null,
+      "position": null,
+      "internal_id": 343
+    },
+    {
+      "athlete_name": "Josep Maria Mateo Sanz",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "23.08",
+      "discipline": "Javelina (700g) Pentatló Vet M50",
+      "wind": null,
+      "position": null,
+      "internal_id": 343
+    },
+    {
+      "athlete_name": "Josep Maria Mateo Sanz",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "27.45",
+      "discipline": "Javelina (700g) Pentatló Vet M50",
+      "wind": null,
+      "position": null,
+      "internal_id": 343
+    },
+    {
+      "athlete_name": "Josep Maria Mateo Sanz",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "26.46",
+      "discipline": "Disc (1,5 Kg) Pentatló Vet M50",
+      "wind": null,
+      "position": null,
+      "internal_id": 343
+    },
+    {
+      "athlete_name": "Josep Maria Mateo Sanz",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "25.55",
+      "discipline": "Disc (1,5 Kg) Pentatló Vet M50",
+      "wind": null,
+      "position": null,
+      "internal_id": 343
+    },
+    {
+      "athlete_name": "Josep Maria Mateo Sanz",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "54.03",
+      "discipline": "Disc (1,5 Kg) Pentatló Vet M50",
+      "wind": null,
+      "position": null,
+      "internal_id": 343
+    },
+    {
+      "athlete_name": "Jose Maria Perez Sierra",
+      "athlete_dob": "26/03/1966",
+      "athlete_id": "CL20403",
+      "performance": "22.05",
+      "discipline": "Disc (1,5 Kg) Pentatló Vet M50",
+      "wind": null,
+      "position": null,
+      "internal_id": 539
+    },
+    {
+      "athlete_name": "Jose Maria Perez Sierra",
+      "athlete_dob": "26/03/1966",
+      "athlete_id": "CL20403",
+      "performance": "22.57",
+      "discipline": "Disc (1,5 Kg) Pentatló Vet M50",
+      "wind": null,
+      "position": null,
+      "internal_id": 539
+    },
+    {
+      "athlete_name": "Jose Maria Perez Sierra",
+      "athlete_dob": "26/03/1966",
+      "athlete_id": "CL20403",
+      "performance": "16.72",
+      "discipline": "Disc (1,5 Kg) Pentatló Vet M50",
+      "wind": null,
+      "position": null,
+      "internal_id": 539
+    },
+    {
+      "athlete_name": "2 Ana Cristina Velasco Marti",
+      "athlete_dob": "15/01/1974",
+      "athlete_id": "CT25561",
+      "performance": "14.52",
+      "discipline": "Martell (4 Kg) Vet F40",
+      "wind": null,
+      "position": null,
+      "internal_id": 528
+    },
+    {
+      "athlete_name": "1 Ana Cristina Velasco Marti",
+      "athlete_dob": "15/01/1974",
+      "athlete_id": "CT25561",
+      "performance": "6.74",
+      "discipline": "Pes (4 Kg) Vet F40",
+      "wind": null,
+      "position": null,
+      "internal_id": 528
+    },
+    {
+      "athlete_name": "1 Ana Cristina Velasco Marti",
+      "athlete_dob": "15/01/1974",
+      "athlete_id": "CT25561",
+      "performance": "7.32",
+      "discipline": "Pes (4 Kg) Vet F40",
+      "wind": null,
+      "position": null,
+      "internal_id": 528
+    },
+    {
+      "athlete_name": "2 Ana Cristina Velasco Marti",
+      "athlete_dob": "15/01/1974",
+      "athlete_id": "CT25561",
+      "performance": "18.95",
+      "discipline": "Disc (1 Kg) Vet F40",
+      "wind": null,
+      "position": null,
+      "internal_id": 528
+    },
+    {
+      "athlete_name": "2 Ana Cristina Velasco Marti",
+      "athlete_dob": "15/01/1974",
+      "athlete_id": "CT25561",
+      "performance": "19.84",
+      "discipline": "Disc (1 Kg) Vet F40",
+      "wind": null,
+      "position": null,
+      "internal_id": 528
+    },
+    {
+      "athlete_name": "2 Ana Cristina Velasco Marti",
+      "athlete_dob": "15/01/1974",
+      "athlete_id": "CT25561",
+      "performance": "17.01",
+      "discipline": "Disc (1 Kg) Vet F40",
+      "wind": null,
+      "position": null,
+      "internal_id": 528
+    },
+    {
+      "athlete_name": "2 Ana Cristina Velasco Marti",
+      "athlete_dob": "15/01/1974",
+      "athlete_id": "CT25561",
+      "performance": "15.91",
+      "discipline": "Javelina (600g) Vet F40",
+      "wind": null,
+      "position": null,
+      "internal_id": 528
+    },
+    {
+      "athlete_name": "2 Ana Cristina Velasco Marti",
+      "athlete_dob": "15/01/1974",
+      "athlete_id": "CT25561",
+      "performance": "16.62",
+      "discipline": "Javelina (600g) Vet F40",
+      "wind": null,
+      "position": null,
+      "internal_id": 528
+    },
+    {
+      "athlete_name": "2 Ana Cristina Velasco Marti",
+      "athlete_dob": "15/01/1974",
+      "athlete_id": "CT25561",
+      "performance": "5.67",
+      "discipline": "Martell Pesat (9,08 Kg) Vet F40",
+      "wind": null,
+      "position": null,
+      "internal_id": 528
+    },
+    {
+      "athlete_name": "2 Ana Cristina Velasco Marti",
+      "athlete_dob": "15/01/1974",
+      "athlete_id": "CT25561",
+      "performance": "7.71",
+      "discipline": "Martell Pesat (9,08 Kg) Vet F40",
+      "wind": null,
+      "position": null,
+      "internal_id": 528
+    },
+    {
+      "athlete_name": "2 Ana Cristina Velasco Marti",
+      "athlete_dob": "15/01/1974",
+      "athlete_id": "CT25561",
+      "performance": "7.43",
+      "discipline": "Martell Pesat (9,08 Kg) Vet F40",
+      "wind": null,
+      "position": null,
+      "internal_id": 528
+    },
+    {
+      "athlete_name": "2 Marisa Pradillo Gutierrez",
+      "athlete_dob": "29/07/1961",
+      "athlete_id": "CT21513",
+      "performance": "20.28",
+      "discipline": "Martell (3 Kg) Vet F55",
+      "wind": null,
+      "position": null,
+      "internal_id": 389
+    },
+    {
+      "athlete_name": "2 Marisa Pradillo Gutierrez",
+      "athlete_dob": "29/07/1961",
+      "athlete_id": "CT21513",
+      "performance": "20.05",
+      "discipline": "Martell (3 Kg) Vet F55",
+      "wind": null,
+      "position": null,
+      "internal_id": 389
+    },
+    {
+      "athlete_name": "2 Marisa Pradillo Gutierrez",
+      "athlete_dob": "29/07/1961",
+      "athlete_id": "CT21513",
+      "performance": "5.95",
+      "discipline": "Pes (3 Kg) Vet F55",
+      "wind": null,
+      "position": null,
+      "internal_id": 389
+    },
+    {
+      "athlete_name": "2 Marisa Pradillo Gutierrez",
+      "athlete_dob": "29/07/1961",
+      "athlete_id": "CT21513",
+      "performance": "6.18",
+      "discipline": "Pes (3 Kg) Vet F55",
+      "wind": null,
+      "position": null,
+      "internal_id": 389
+    },
+    {
+      "athlete_name": "2 Marisa Pradillo Gutierrez",
+      "athlete_dob": "29/07/1961",
+      "athlete_id": "CT21513",
+      "performance": "6.28",
+      "discipline": "Pes (3 Kg) Vet F55",
+      "wind": null,
+      "position": null,
+      "internal_id": 389
+    },
+    {
+      "athlete_name": "2 Marisa Pradillo Gutierrez",
+      "athlete_dob": "29/07/1961",
+      "athlete_id": "CT21513",
+      "performance": "13.97",
+      "discipline": "Disc (1 Kg) Vet F55",
+      "wind": null,
+      "position": null,
+      "internal_id": 389
+    },
+    {
+      "athlete_name": "2 Marisa Pradillo Gutierrez",
+      "athlete_dob": "29/07/1961",
+      "athlete_id": "CT21513",
+      "performance": "14.05",
+      "discipline": "Disc (1 Kg) Vet F55",
+      "wind": null,
+      "position": null,
+      "internal_id": 389
+    },
+    {
+      "athlete_name": "2 Marisa Pradillo Gutierrez",
+      "athlete_dob": "29/07/1961",
+      "athlete_id": "CT21513",
+      "performance": "12.45",
+      "discipline": "Javelina (500g) Vet F55",
+      "wind": null,
+      "position": null,
+      "internal_id": 389
+    },
+    {
+      "athlete_name": "2 Marisa Pradillo Gutierrez",
+      "athlete_dob": "29/07/1961",
+      "athlete_id": "CT21513",
+      "performance": "12.42",
+      "discipline": "Javelina (500g) Vet F55",
+      "wind": null,
+      "position": null,
+      "internal_id": 389
+    },
+    {
+      "athlete_name": "2 Marisa Pradillo Gutierrez",
+      "athlete_dob": "29/07/1961",
+      "athlete_id": "CT21513",
+      "performance": "13.98",
+      "discipline": "Javelina (500g) Vet F55",
+      "wind": null,
+      "position": null,
+      "internal_id": 389
+    },
+    {
+      "athlete_name": "2 Marisa Pradillo Gutierrez",
+      "athlete_dob": "29/07/1961",
+      "athlete_id": "CT21513",
+      "performance": "5.51",
+      "discipline": "Martell Pesat (7,26 Kg) Vet F55",
+      "wind": null,
+      "position": null,
+      "internal_id": 389
+    },
+    {
+      "athlete_name": "2 Marisa Pradillo Gutierrez",
+      "athlete_dob": "29/07/1961",
+      "athlete_id": "CT21513",
+      "performance": "6.81",
+      "discipline": "Martell Pesat (7,26 Kg) Vet F55",
+      "wind": null,
+      "position": null,
+      "internal_id": 389
+    },
+    {
+      "athlete_name": "2 Marisa Pradillo Gutierrez",
+      "athlete_dob": "29/07/1961",
+      "athlete_id": "CT21513",
+      "performance": "6.85",
+      "discipline": "Martell Pesat (7,26 Kg) Vet F55",
+      "wind": null,
+      "position": null,
+      "internal_id": 389
     }
   ]
 }

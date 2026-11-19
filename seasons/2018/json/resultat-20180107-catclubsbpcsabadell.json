@@ -1,10 +1,109 @@
 {
   "event_name": " - Sabadell (Pista Coberta de Catalunya), 7 enero 2018",
   "event_date": "07/01/2018",
-  "event_location": "Sabadell",
-  "total_results": 4,
+  "event_location": "Club                                               Lic",
+  "total_results": 20,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20180107-catclubsbpcsabadell.pdf",
   "results": [
+    {
+      "athlete_name": "Laura Yan Sole Barba",
+      "athlete_dob": "31/10/2003",
+      "athlete_id": "CL71752",
+      "performance": "8.49",
+      "discipline": "60 metres llisos",
+      "raw_discipline_name": "60m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 701
+    },
+    {
+      "athlete_name": "Mar Vazquez Domingo",
+      "athlete_dob": "17/03/2002",
+      "athlete_id": "CL27856",
+      "performance": "29.20",
+      "discipline": "200 metres llisos",
+      "raw_discipline_name": "200m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 642
+    },
+    {
+      "athlete_name": "Sira Bo Calaf",
+      "athlete_dob": "19/03/2001",
+      "athlete_id": "CL26559",
+      "performance": "1:04.31",
+      "discipline": "400 metres llisos",
+      "raw_discipline_name": "400m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 599
+    },
+    {
+      "athlete_name": "Patricia Amador Peris",
+      "athlete_dob": "18/02/1980",
+      "athlete_id": "CT28190",
+      "performance": "2:25.44",
+      "discipline": "800 metres llisos",
+      "raw_discipline_name": "800m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 644
+    },
+    {
+      "athlete_name": "Maria Buscail Brianso",
+      "athlete_dob": "15/12/2000",
+      "athlete_id": "CL25158",
+      "performance": "5:49.96",
+      "discipline": "1500 metres llisos",
+      "raw_discipline_name": "1.500m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 520
+    },
+    {
+      "athlete_name": "Alexandra Rofes Palacios",
+      "athlete_dob": "27/09/2004",
+      "athlete_id": "CL90523",
+      "performance": "11:26.59",
+      "discipline": "3000 metres llisos",
+      "raw_discipline_name": "3.000m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 731
+    },
+    {
+      "athlete_name": "Mireia Lopez Urbano",
+      "athlete_dob": "07/12/2000",
+      "athlete_id": "CT23556",
+      "performance": "9.12",
+      "discipline": "60 metres tanques (0.84)",
+      "raw_discipline_name": "60m tanques (0,84) FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 527
+    },
+    {
+      "athlete_name": "Maria Falco Cuenca",
+      "athlete_dob": "14/06/2002",
+      "athlete_id": "CL27273",
+      "performance": "1.57",
+      "discipline": "Alçada",
+      "raw_discipline_name": "Alçada FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 664
+    },
+    {
+      "athlete_name": "Berta Sanchez Ruiz",
+      "athlete_dob": "05/08/2002",
+      "athlete_id": "CL27855",
+      "performance": "2.40",
+      "discipline": "Perxa",
+      "raw_discipline_name": "Perxa FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 643
+    },
     {
       "athlete_name": "Alicia Vazquez Domingo",
       "athlete_dob": "09/10/1999",
@@ -13,6 +112,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 472
     },
     {
@@ -23,7 +123,52 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 472
+    },
+    {
+      "athlete_name": "Laurine Elisa Marimon Fernandez",
+      "athlete_dob": "17/09/2004",
+      "athlete_id": "CL69330",
+      "performance": "10.23",
+      "discipline": "Triple",
+      "raw_discipline_name": "Triple Salt FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 737
+    },
+    {
+      "athlete_name": "Laurine Elisa Marimon Fernandez",
+      "athlete_dob": "17/09/2004",
+      "athlete_id": "CL69330",
+      "performance": "10.75",
+      "discipline": "Triple",
+      "raw_discipline_name": "Triple Salt FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 737
+    },
+    {
+      "athlete_name": "Laurine Elisa Marimon Fernandez",
+      "athlete_dob": "17/09/2004",
+      "athlete_id": "CL69330",
+      "performance": "10.88",
+      "discipline": "Triple",
+      "raw_discipline_name": "Triple Salt FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 737
+    },
+    {
+      "athlete_name": "Laurine Elisa Marimon Fernandez",
+      "athlete_dob": "17/09/2004",
+      "athlete_id": "CL69330",
+      "performance": "10.73",
+      "discipline": "Triple",
+      "raw_discipline_name": "Triple Salt FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 737
     },
     {
       "athlete_name": "Marina Tibau Sendra",
@@ -31,8 +176,9 @@
       "athlete_id": "CL20392",
       "performance": "10.22",
       "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Pes (4kg) FEM. PC",
+      "raw_discipline_name": "Pes (4 Kg) FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 359
     },
     {
@@ -41,9 +187,43 @@
       "athlete_id": "CL20392",
       "performance": "10.24",
       "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Pes (4kg) FEM. PC",
+      "raw_discipline_name": "Pes (4 Kg) FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 359
+    },
+    {
+      "athlete_name": "Sira Bo Calaf",
+      "athlete_dob": "19/03/2001",
+      "athlete_id": "CL26559",
+      "performance": "4:26.29",
+      "discipline": "4x400",
+      "raw_discipline_name": "4x400m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 599
+    },
+    {
+      "athlete_name": "Alicia Vazquez Domingo",
+      "athlete_dob": "09/10/1999",
+      "athlete_id": "CT23992",
+      "performance": "4:26.29",
+      "discipline": "4x400",
+      "raw_discipline_name": "4x400m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 472
+    },
+    {
+      "athlete_name": "Nerea Lago Garbajosa",
+      "athlete_dob": "15/05/2000",
+      "athlete_id": "CL25157",
+      "performance": "4:26.29",
+      "discipline": "4x400",
+      "raw_discipline_name": "4x400m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 534
     }
   ]
 }

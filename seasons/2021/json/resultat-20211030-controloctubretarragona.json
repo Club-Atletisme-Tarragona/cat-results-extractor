@@ -1,18 +1,138 @@
 {
   "event_name": "Control Octubre",
   "event_date": "30/10/2021",
-  "event_location": "Tarragona",
-  "total_results": 6,
+  "event_location": "Tarragona-CLA",
+  "total_results": 40,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/10/resultat-20211030-controloctubretarragona.pdf",
   "results": [
+    {
+      "athlete_name": "Josep Maria Puig Lara",
+      "athlete_dob": "30/11/1951",
+      "athlete_id": "CT27228",
+      "performance": "9.76",
+      "discipline": "60m MASC. AL ABS",
+      "wind": "+0.0",
+      "position": null,
+      "internal_id": 637
+    },
+    {
+      "athlete_name": "Josep Maria Puig Lara",
+      "athlete_dob": "30/11/1951",
+      "athlete_id": "CT27228",
+      "performance": "15.63",
+      "discipline": "100m MASC. AL ABS",
+      "wind": "+1.1",
+      "position": null,
+      "internal_id": 637
+    },
+    {
+      "athlete_name": "305 (t) Gerard Parera Bodi PM 8",
+      "athlete_dob": "22/01/2000",
+      "athlete_id": "CL25156",
+      "performance": "NP",
+      "discipline": "1.000m MASC. AL ABS",
+      "wind": null,
+      "position": null,
+      "internal_id": 522
+    },
+    {
+      "athlete_name": "299 (t) Moad El Kouzy PM 5",
+      "athlete_dob": "23/11/2000",
+      "athlete_id": "CL642",
+      "performance": "NP",
+      "discipline": "1.000m MASC. AL ABS",
+      "wind": null,
+      "position": null,
+      "internal_id": 722
+    },
+    {
+      "athlete_name": "302 (t) Oscar Lefler Cortes LM 7",
+      "athlete_dob": "19/02/2004",
+      "athlete_id": "CL96852",
+      "performance": "NP",
+      "discipline": "1.000m MASC. AL ABS",
+      "wind": null,
+      "position": null,
+      "internal_id": 758
+    },
+    {
+      "athlete_name": "306 (t) Ricard Prio Roca LM 9",
+      "athlete_dob": "12/05/2004",
+      "athlete_id": "CL3014",
+      "performance": "NP",
+      "discipline": "1.000m MASC. AL ABS",
+      "wind": null,
+      "position": null,
+      "internal_id": 778
+    },
+    {
+      "athlete_name": "301 Aleix Lago Garbajosa JM 6",
+      "athlete_dob": "26/09/2002",
+      "athlete_id": "CT264",
+      "performance": "NP",
+      "discipline": "1.000m MASC. AL ABS",
+      "wind": null,
+      "position": null,
+      "internal_id": 660
+    },
+    {
+      "athlete_name": "Ana Cabello Rioja",
+      "athlete_dob": "16/11/1968",
+      "athlete_id": "CT23242",
+      "performance": "9.39",
+      "discipline": "60m FEM. AL ABS",
+      "wind": "-0.4",
+      "position": null,
+      "internal_id": 449
+    },
+    {
+      "athlete_name": "Nuria Lleonart Moreno",
+      "athlete_dob": "17/06/2005",
+      "athlete_id": "CL3306",
+      "performance": "15.84",
+      "discipline": "100m FEM. AL ABS",
+      "wind": "+0.5",
+      "position": null,
+      "internal_id": 780
+    },
+    {
+      "athlete_name": "294 (t) Mertixell Becerra Garrido CF 4",
+      "athlete_dob": "01/03/2006",
+      "athlete_id": "CL853",
+      "performance": "NP",
+      "discipline": "100m FEM. AL ABS",
+      "wind": "+0.5",
+      "position": null,
+      "internal_id": 882
+    },
+    {
+      "athlete_name": "Anna Artero Fernandez",
+      "athlete_dob": "14/11/2006",
+      "athlete_id": "CL94373",
+      "performance": "3:21.50",
+      "discipline": "1.000m FEM. AL ABS",
+      "wind": null,
+      "position": null,
+      "internal_id": 847
+    },
+    {
+      "athlete_name": "Lara Herrera Vallve",
+      "athlete_dob": "07/04/2005",
+      "athlete_id": "CT513",
+      "performance": "18.73",
+      "discipline": "80m vallas (0,762) FEM. AL S14",
+      "wind": "+1.4",
+      "position": null,
+      "internal_id": 813
+    },
     {
       "athlete_name": "Lara Herrera Vallve",
       "athlete_dob": "07/04/2005",
       "athlete_id": "CT513",
       "performance": "4.40",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud FEM. AL ABS",
+      "discipline": "Longitud FEM. AL ABS",
       "wind": "+0.0",
+      "position": null,
       "internal_id": 813
     },
     {
@@ -20,9 +140,9 @@
       "athlete_dob": "07/04/2005",
       "athlete_id": "CT513",
       "performance": "4.34",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud FEM. AL ABS",
+      "discipline": "Longitud FEM. AL ABS",
       "wind": "+0.0",
+      "position": null,
       "internal_id": 813
     },
     {
@@ -30,9 +150,9 @@
       "athlete_dob": "07/04/2005",
       "athlete_id": "CT513",
       "performance": "4.43",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud FEM. AL ABS",
+      "discipline": "Longitud FEM. AL ABS",
       "wind": "+0.1",
+      "position": null,
       "internal_id": 813
     },
     {
@@ -40,9 +160,9 @@
       "athlete_dob": "16/11/1968",
       "athlete_id": "CT23242",
       "performance": "3.50",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud FEM. AL ABS",
+      "discipline": "Longitud FEM. AL ABS",
       "wind": "+0.0",
+      "position": null,
       "internal_id": 449
     },
     {
@@ -50,9 +170,9 @@
       "athlete_dob": "16/11/1968",
       "athlete_id": "CT23242",
       "performance": "3.45",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud FEM. AL ABS",
+      "discipline": "Longitud FEM. AL ABS",
       "wind": "+0.0",
+      "position": null,
       "internal_id": 449
     },
     {
@@ -60,10 +180,230 @@
       "athlete_dob": "16/11/1968",
       "athlete_id": "CT23242",
       "performance": "3.60",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud FEM. AL ABS",
+      "discipline": "Longitud FEM. AL ABS",
       "wind": "+0.0",
+      "position": null,
       "internal_id": 449
+    },
+    {
+      "athlete_name": "Lara Herrera Vallve",
+      "athlete_dob": "07/04/2005",
+      "athlete_id": "CT513",
+      "performance": "8.20",
+      "discipline": "Peso (3 Kg) FEM. AL S16/S18",
+      "wind": null,
+      "position": null,
+      "internal_id": 813
+    },
+    {
+      "athlete_name": "Lara Herrera Vallve",
+      "athlete_dob": "07/04/2005",
+      "athlete_id": "CT513",
+      "performance": "7.17",
+      "discipline": "Peso (3 Kg) FEM. AL S16/S18",
+      "wind": null,
+      "position": null,
+      "internal_id": 813
+    },
+    {
+      "athlete_name": "Lara Herrera Vallve",
+      "athlete_dob": "07/04/2005",
+      "athlete_id": "CT513",
+      "performance": "8.07",
+      "discipline": "Peso (3 Kg) FEM. AL S16/S18",
+      "wind": null,
+      "position": null,
+      "internal_id": 813
+    },
+    {
+      "athlete_name": "Lara Herrera Vallve",
+      "athlete_dob": "07/04/2005",
+      "athlete_id": "CT513",
+      "performance": "7.80",
+      "discipline": "Peso (3 Kg) FEM. AL S16/S18",
+      "wind": null,
+      "position": null,
+      "internal_id": 813
+    },
+    {
+      "athlete_name": "Lara Herrera Vallve",
+      "athlete_dob": "07/04/2005",
+      "athlete_id": "CT513",
+      "performance": "8.46",
+      "discipline": "Peso (3 Kg) FEM. AL S16/S18",
+      "wind": null,
+      "position": null,
+      "internal_id": 813
+    },
+    {
+      "athlete_name": "Mertixell Becerra Garrido",
+      "athlete_dob": "01/03/2006",
+      "athlete_id": "CL853",
+      "performance": "7.79",
+      "discipline": "Peso (3 Kg) FEM. AL S16/S18",
+      "wind": null,
+      "position": null,
+      "internal_id": 882
+    },
+    {
+      "athlete_name": "Mertixell Becerra Garrido",
+      "athlete_dob": "01/03/2006",
+      "athlete_id": "CL853",
+      "performance": "7.48",
+      "discipline": "Peso (3 Kg) FEM. AL S16/S18",
+      "wind": null,
+      "position": null,
+      "internal_id": 882
+    },
+    {
+      "athlete_name": "Mertixell Becerra Garrido",
+      "athlete_dob": "01/03/2006",
+      "athlete_id": "CL853",
+      "performance": "8.09",
+      "discipline": "Peso (3 Kg) FEM. AL S16/S18",
+      "wind": null,
+      "position": null,
+      "internal_id": 882
+    },
+    {
+      "athlete_name": "Mertixell Becerra Garrido",
+      "athlete_dob": "01/03/2006",
+      "athlete_id": "CL853",
+      "performance": "7.76",
+      "discipline": "Peso (3 Kg) FEM. AL S16/S18",
+      "wind": null,
+      "position": null,
+      "internal_id": 882
+    },
+    {
+      "athlete_name": "Mertixell Becerra Garrido",
+      "athlete_dob": "01/03/2006",
+      "athlete_id": "CL853",
+      "performance": "7.60",
+      "discipline": "Peso (3 Kg) FEM. AL S16/S18",
+      "wind": null,
+      "position": null,
+      "internal_id": 882
+    },
+    {
+      "athlete_name": "Mertixell Becerra Garrido",
+      "athlete_dob": "01/03/2006",
+      "athlete_id": "CL853",
+      "performance": "7.58",
+      "discipline": "Peso (3 Kg) FEM. AL S16/S18",
+      "wind": null,
+      "position": null,
+      "internal_id": 882
+    },
+    {
+      "athlete_name": "Noa Nin Navas IF",
+      "athlete_dob": "28/08/2009",
+      "athlete_id": "CL94399",
+      "performance": "7.82",
+      "discipline": "Peso (2 Kg) FEM AL S14",
+      "wind": null,
+      "position": null,
+      "internal_id": 1010
+    },
+    {
+      "athlete_name": "Noa Nin Navas IF",
+      "athlete_dob": "28/08/2009",
+      "athlete_id": "CL94399",
+      "performance": "7.46",
+      "discipline": "Peso (2 Kg) FEM AL S14",
+      "wind": null,
+      "position": null,
+      "internal_id": 1010
+    },
+    {
+      "athlete_name": "Noa Nin Navas IF",
+      "athlete_dob": "28/08/2009",
+      "athlete_id": "CL94399",
+      "performance": "8.01",
+      "discipline": "Peso (2 Kg) FEM AL S14",
+      "wind": null,
+      "position": null,
+      "internal_id": 1010
+    },
+    {
+      "athlete_name": "Noa Nin Navas IF",
+      "athlete_dob": "28/08/2009",
+      "athlete_id": "CL94399",
+      "performance": "7.75",
+      "discipline": "Peso (2 Kg) FEM AL S14",
+      "wind": null,
+      "position": null,
+      "internal_id": 1010
+    },
+    {
+      "athlete_name": "Noa Nin Navas IF",
+      "athlete_dob": "28/08/2009",
+      "athlete_id": "CL94399",
+      "performance": "8.15",
+      "discipline": "Peso (2 Kg) FEM AL S14",
+      "wind": null,
+      "position": null,
+      "internal_id": 1010
+    },
+    {
+      "athlete_name": "Noa Nin Navas IF",
+      "athlete_dob": "28/08/2009",
+      "athlete_id": "CL94399",
+      "performance": "8.24",
+      "discipline": "Peso (2 Kg) FEM AL S14",
+      "wind": null,
+      "position": null,
+      "internal_id": 1010
+    },
+    {
+      "athlete_name": "Marina Tibau Sendra",
+      "athlete_dob": "06/08/1995",
+      "athlete_id": "CL20392",
+      "performance": "9.82",
+      "discipline": "Peso (4 Kg) FEM. AL ABS",
+      "wind": null,
+      "position": null,
+      "internal_id": 359
+    },
+    {
+      "athlete_name": "Marina Tibau Sendra",
+      "athlete_dob": "06/08/1995",
+      "athlete_id": "CL20392",
+      "performance": "10.18",
+      "discipline": "Peso (4 Kg) FEM. AL ABS",
+      "wind": null,
+      "position": null,
+      "internal_id": 359
+    },
+    {
+      "athlete_name": "Marina Tibau Sendra",
+      "athlete_dob": "06/08/1995",
+      "athlete_id": "CL20392",
+      "performance": "9.87",
+      "discipline": "Peso (4 Kg) FEM. AL ABS",
+      "wind": null,
+      "position": null,
+      "internal_id": 359
+    },
+    {
+      "athlete_name": "Marina Tibau Sendra",
+      "athlete_dob": "06/08/1995",
+      "athlete_id": "CL20392",
+      "performance": "9.83",
+      "discipline": "Peso (4 Kg) FEM. AL ABS",
+      "wind": null,
+      "position": null,
+      "internal_id": 359
+    },
+    {
+      "athlete_name": "Marina Tibau Sendra",
+      "athlete_dob": "06/08/1995",
+      "athlete_id": "CL20392",
+      "performance": "9.02",
+      "discipline": "Peso (4 Kg) FEM. AL ABS",
+      "wind": null,
+      "position": null,
+      "internal_id": 359
     }
   ]
 }

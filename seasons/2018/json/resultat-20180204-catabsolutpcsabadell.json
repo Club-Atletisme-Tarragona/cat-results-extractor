@@ -1,8 +1,8 @@
 {
   "event_name": " - Sabadell (Pista Coberta de Catalunya), 4 febrero 2018",
   "event_date": "04/02/2018",
-  "event_location": "Sabadell",
-  "total_results": 1,
+  "event_location": "Club                                             Lic",
+  "total_results": 7,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20180204-catabsolutpcsabadell.pdf",
   "results": [
     {
@@ -13,7 +13,74 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 510
+    },
+    {
+      "athlete_name": "Mireia Lopez Urbano",
+      "athlete_dob": "07/12/2000",
+      "athlete_id": "CT23556",
+      "performance": "8.97",
+      "discipline": "60 metres tanques (0.84)",
+      "raw_discipline_name": "60m tanques (0,84) FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 527
+    },
+    {
+      "athlete_name": "Mireia Lopez Urbano",
+      "athlete_dob": "07/12/2000",
+      "athlete_id": "CT23556",
+      "performance": "9.01",
+      "discipline": "60 metres tanques (0.84)",
+      "raw_discipline_name": "60m tanques (0,84) FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 527
+    },
+    {
+      "athlete_name": "Marina Tibau Sendra",
+      "athlete_dob": "06/08/1995",
+      "athlete_id": "CL20392",
+      "performance": "10.95",
+      "discipline": "Pes (4 Kg)",
+      "raw_discipline_name": "Pes (4 Kg) FEM. PC",
+      "wind": null,
+      "position": 3,
+      "internal_id": 359
+    },
+    {
+      "athlete_name": "Marina Tibau Sendra",
+      "athlete_dob": "06/08/1995",
+      "athlete_id": "CL20392",
+      "performance": "10.17",
+      "discipline": "Pes (4 Kg)",
+      "raw_discipline_name": "Pes (4 Kg) FEM. PC",
+      "wind": null,
+      "position": 3,
+      "internal_id": 359
+    },
+    {
+      "athlete_name": "Marina Tibau Sendra",
+      "athlete_dob": "06/08/1995",
+      "athlete_id": "CL20392",
+      "performance": "10.61",
+      "discipline": "Pes (4 Kg)",
+      "raw_discipline_name": "Pes (4 Kg) FEM. PC",
+      "wind": null,
+      "position": 3,
+      "internal_id": 359
+    },
+    {
+      "athlete_name": "Marina Tibau Sendra",
+      "athlete_dob": "06/08/1995",
+      "athlete_id": "CL20392",
+      "performance": "10.89",
+      "discipline": "Pes (4 Kg)",
+      "raw_discipline_name": "Pes (4 Kg) FEM. PC",
+      "wind": null,
+      "position": 3,
+      "internal_id": 359
     }
   ]
 }

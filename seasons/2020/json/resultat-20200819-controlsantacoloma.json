@@ -2,27 +2,47 @@
   "event_name": "Control d´Atletisme",
   "event_date": "19/08/2020",
   "event_location": "Santa Coloma de Gramenet",
-  "total_results": 2,
+  "total_results": 4,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20200819-controlsantacoloma.pdf",
   "results": [
+    {
+      "athlete_name": "Carla Gonzalez Carrillo",
+      "athlete_dob": "05/06/2003",
+      "athlete_id": "CL29242",
+      "performance": "2:32.52",
+      "discipline": "800m FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 698
+    },
+    {
+      "athlete_name": "Xavier Ros Borrell",
+      "athlete_dob": "19/05/1998",
+      "athlete_id": "CL22779",
+      "performance": "2:00.63",
+      "discipline": "800m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 439
+    },
     {
       "athlete_name": "Aleix Lago Garbajosa",
       "athlete_dob": "26/09/2002",
       "athlete_id": "CT264",
-      "performance": "03.16",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud FEM. AL",
-      "wind": "+0.0",
+      "performance": "2:00.96",
+      "discipline": "800m MASC. AL",
+      "wind": null,
+      "position": null,
       "internal_id": 660
     },
     {
       "athlete_name": "Gerard Parera Bodi",
       "athlete_dob": "22/01/2000",
       "athlete_id": "CL25156",
-      "performance": "08.04",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud FEM. AL",
-      "wind": "+0.0",
+      "performance": "2:08.04",
+      "discipline": "800m MASC. AL",
+      "wind": null,
+      "position": null,
       "internal_id": 522
     }
   ]

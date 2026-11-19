@@ -1,19 +1,409 @@
 {
   "event_name": "Campionat de Catalunya de Proves Combinades Màster en Pista Coberta - Campionat de Catalunya de Proves Combinades Màster en Pista Coberta",
   "event_date": "04/02/2023",
-  "event_location": "Sabadell",
-  "total_results": 1,
+  "event_location": "Club                                               Lic                                Acum.",
+  "total_results": 40,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2023/02/resultat-20230204-catcombinadesmasterpcsabadell.pdf",
   "results": [
+    {
+      "athlete_name": "Didac Rios Meseguer",
+      "athlete_dob": "19/04/1985",
+      "athlete_id": "CT14019",
+      "performance": "9.84",
+      "discipline": "60m tanques (1,00) MASC. PC M35",
+      "wind": null,
+      "position": null,
+      "internal_id": 193
+    },
+    {
+      "athlete_name": "Didac Rios Meseguer",
+      "athlete_dob": "19/04/1985",
+      "athlete_id": "CT14019",
+      "performance": "5.12",
+      "discipline": "Llargada MASC. PC M35",
+      "wind": null,
+      "position": null,
+      "internal_id": 193
+    },
+    {
+      "athlete_name": "Didac Rios Meseguer",
+      "athlete_dob": "19/04/1985",
+      "athlete_id": "CT14019",
+      "performance": "5.39",
+      "discipline": "Llargada MASC. PC M35",
+      "wind": null,
+      "position": null,
+      "internal_id": 193
+    },
+    {
+      "athlete_name": "Didac Rios Meseguer",
+      "athlete_dob": "19/04/1985",
+      "athlete_id": "CT14019",
+      "performance": "5.24",
+      "discipline": "Llargada MASC. PC M35",
+      "wind": null,
+      "position": null,
+      "internal_id": 193
+    },
+    {
+      "athlete_name": "Didac Rios Meseguer",
+      "athlete_dob": "19/04/1985",
+      "athlete_id": "CT14019",
+      "performance": "8.13",
+      "discipline": "Pes (7,260 Kg) MASC. M35",
+      "wind": null,
+      "position": null,
+      "internal_id": 193
+    },
+    {
+      "athlete_name": "Didac Rios Meseguer",
+      "athlete_dob": "19/04/1985",
+      "athlete_id": "CT14019",
+      "performance": "7.76",
+      "discipline": "Pes (7,260 Kg) MASC. M35",
+      "wind": null,
+      "position": null,
+      "internal_id": 193
+    },
+    {
+      "athlete_name": "Didac Rios Meseguer",
+      "athlete_dob": "19/04/1985",
+      "athlete_id": "CT14019",
+      "performance": "8.59",
+      "discipline": "Pes (7,260 Kg) MASC. M35",
+      "wind": null,
+      "position": null,
+      "internal_id": 193
+    },
+    {
+      "athlete_name": "Didac Rios",
+      "athlete_dob": "13/04/1985",
+      "athlete_id": "CT14019",
+      "performance": "1878",
+      "discipline": "Pentatló VET. MASC. PC M35",
+      "wind": null,
+      "position": null,
+      "internal_id": 193
+    },
+    {
+      "athlete_name": "Juan Carlos Herrera Alcaide",
+      "athlete_dob": "31/01/1973",
+      "athlete_id": "CT25152",
+      "performance": "4.44",
+      "discipline": "Llargada MASC. M50",
+      "wind": null,
+      "position": null,
+      "internal_id": 518
+    },
+    {
+      "athlete_name": "Juan Carlos Herrera Alcaide",
+      "athlete_dob": "31/01/1973",
+      "athlete_id": "CT25152",
+      "performance": "9.55",
+      "discipline": "Pes (6 Kg) MASC. M50",
+      "wind": null,
+      "position": null,
+      "internal_id": 518
+    },
     {
       "athlete_name": "Juan Carlos Herrera Alcaide",
       "athlete_dob": "31/01/1973",
       "athlete_id": "CT25152",
       "performance": "1.51",
-      "discipline": "Alçada",
-      "raw_discipline_name": "Alçada MASC. M50",
+      "discipline": "Alçada MASC. M50",
       "wind": null,
+      "position": null,
       "internal_id": 518
+    },
+    {
+      "athlete_name": "112 (t) Francisco Javier Baz Vidal",
+      "athlete_dob": "02/12/1969",
+      "athlete_id": "CL8459",
+      "performance": "NP",
+      "discipline": "Alçada MASC. M50",
+      "wind": null,
+      "position": null,
+      "internal_id": 887
+    },
+    {
+      "athlete_name": "227 (t) Jose Miguel Martin Alvarez",
+      "athlete_dob": "10/09/1972",
+      "athlete_id": "CL12544",
+      "performance": "NP",
+      "discipline": "Alçada MASC. M50",
+      "wind": null,
+      "position": null,
+      "internal_id": 15
+    },
+    {
+      "athlete_name": "112 (t) Francisco Javier Baz Vidal 6",
+      "athlete_dob": "02/12/1969",
+      "athlete_id": "CL8459",
+      "performance": "NP",
+      "discipline": "Alçada MASC. M50",
+      "wind": null,
+      "position": null,
+      "internal_id": 887
+    },
+    {
+      "athlete_name": "227 (t) Jose Miguel Martin Alvarez 2",
+      "athlete_dob": "10/09/1972",
+      "athlete_id": "CL12544",
+      "performance": "NP",
+      "discipline": "Alçada MASC. M50",
+      "wind": null,
+      "position": null,
+      "internal_id": 15
+    },
+    {
+      "athlete_name": "Juan Carlos Herrera",
+      "athlete_dob": "25/06/1970",
+      "athlete_id": "CT25152",
+      "performance": "2899",
+      "discipline": "Pentatló VET. MASC. PC M50",
+      "wind": null,
+      "position": null,
+      "internal_id": 518
+    },
+    {
+      "athlete_name": "Josep Maria Mateo Sanz",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "4.97",
+      "discipline": "Llargada MASC. M55",
+      "wind": null,
+      "position": null,
+      "internal_id": 343
+    },
+    {
+      "athlete_name": "Josep Maria Mateo Sanz",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "4.71",
+      "discipline": "Llargada MASC. M55",
+      "wind": null,
+      "position": null,
+      "internal_id": 343
+    },
+    {
+      "athlete_name": "Josep Maria Mateo Sanz",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "4.67",
+      "discipline": "Llargada MASC. M55",
+      "wind": null,
+      "position": null,
+      "internal_id": 343
+    },
+    {
+      "athlete_name": "Pere Pardines Gras",
+      "athlete_dob": "30/01/1965",
+      "athlete_id": "CT9121",
+      "performance": "4.49",
+      "discipline": "Llargada MASC. M55",
+      "wind": null,
+      "position": null,
+      "internal_id": 71
+    },
+    {
+      "athlete_name": "Pere Pardines Gras",
+      "athlete_dob": "30/01/1965",
+      "athlete_id": "CT9121",
+      "performance": "4.27",
+      "discipline": "Llargada MASC. M55",
+      "wind": null,
+      "position": null,
+      "internal_id": 71
+    },
+    {
+      "athlete_name": "Pere Pardines Gras",
+      "athlete_dob": "30/01/1965",
+      "athlete_id": "CT9121",
+      "performance": "4.53",
+      "discipline": "Llargada MASC. M55",
+      "wind": null,
+      "position": null,
+      "internal_id": 71
+    },
+    {
+      "athlete_name": "Josep Maria Mateo Sanz",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "7.77",
+      "discipline": "Pes (6 Kg) MASC. M55",
+      "wind": null,
+      "position": null,
+      "internal_id": 343
+    },
+    {
+      "athlete_name": "Josep Maria Mateo Sanz",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "7.89",
+      "discipline": "Pes (6 Kg) MASC. M55",
+      "wind": null,
+      "position": null,
+      "internal_id": 343
+    },
+    {
+      "athlete_name": "Josep Maria Mateo Sanz",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "7.52",
+      "discipline": "Pes (6 Kg) MASC. M55",
+      "wind": null,
+      "position": null,
+      "internal_id": 343
+    },
+    {
+      "athlete_name": "Pere Pardines Gras",
+      "athlete_dob": "30/01/1965",
+      "athlete_id": "CT9121",
+      "performance": "7.70",
+      "discipline": "Pes (6 Kg) MASC. M55",
+      "wind": null,
+      "position": null,
+      "internal_id": 71
+    },
+    {
+      "athlete_name": "Pere Pardines Gras",
+      "athlete_dob": "30/01/1965",
+      "athlete_id": "CT9121",
+      "performance": "7.69",
+      "discipline": "Pes (6 Kg) MASC. M55",
+      "wind": null,
+      "position": null,
+      "internal_id": 71
+    },
+    {
+      "athlete_name": "Pere Pardines Gras",
+      "athlete_dob": "30/01/1965",
+      "athlete_id": "CT9121",
+      "performance": "7.77",
+      "discipline": "Pes (6 Kg) MASC. M55",
+      "wind": null,
+      "position": null,
+      "internal_id": 71
+    },
+    {
+      "athlete_name": "Pere Pardines Gras",
+      "athlete_dob": "30/01/1965",
+      "athlete_id": "CT9121",
+      "performance": "1.51",
+      "discipline": "Alçada MASC. M55",
+      "wind": null,
+      "position": null,
+      "internal_id": 71
+    },
+    {
+      "athlete_name": "Josep Maria Mateo Sanz",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "1.51",
+      "discipline": "Alçada MASC. M55",
+      "wind": null,
+      "position": null,
+      "internal_id": 343
+    },
+    {
+      "athlete_name": "Josep Maria Mateo",
+      "athlete_dob": "30/01/1965",
+      "athlete_id": "CT19378",
+      "performance": "3039",
+      "discipline": "Pentatló VET. MASC. PC M55",
+      "wind": null,
+      "position": null,
+      "internal_id": 343
+    },
+    {
+      "athlete_name": "Gemma Sole Boronat",
+      "athlete_dob": "01/11/1967",
+      "athlete_id": "CT29376",
+      "performance": "1.28",
+      "discipline": "Alçada FEM. F55",
+      "wind": null,
+      "position": null,
+      "internal_id": 648
+    },
+    {
+      "athlete_name": "Gemma Sole Boronat",
+      "athlete_dob": "01/11/1967",
+      "athlete_id": "CT29376",
+      "performance": "7.84",
+      "discipline": "Pes (3 Kg) FEM. F55",
+      "wind": null,
+      "position": null,
+      "internal_id": 648
+    },
+    {
+      "athlete_name": "Gemma Sole Boronat",
+      "athlete_dob": "01/11/1967",
+      "athlete_id": "CT29376",
+      "performance": "7.35",
+      "discipline": "Pes (3 Kg) FEM. F55",
+      "wind": null,
+      "position": null,
+      "internal_id": 648
+    },
+    {
+      "athlete_name": "Gemma Sole Boronat",
+      "athlete_dob": "01/11/1967",
+      "athlete_id": "CT29376",
+      "performance": "8.07",
+      "discipline": "Pes (3 Kg) FEM. F55",
+      "wind": null,
+      "position": null,
+      "internal_id": 648
+    },
+    {
+      "athlete_name": "Gemma Sole Boronat",
+      "athlete_dob": "01/11/1967",
+      "athlete_id": "CT29376",
+      "performance": "3.25",
+      "discipline": "Llargada FEM. F55",
+      "wind": null,
+      "position": null,
+      "internal_id": 648
+    },
+    {
+      "athlete_name": "Gemma Sole Boronat",
+      "athlete_dob": "01/11/1967",
+      "athlete_id": "CT29376",
+      "performance": "3.38",
+      "discipline": "Llargada FEM. F55",
+      "wind": null,
+      "position": null,
+      "internal_id": 648
+    },
+    {
+      "athlete_name": "Gemma Sole Boronat",
+      "athlete_dob": "01/11/1967",
+      "athlete_id": "CT29376",
+      "performance": "3.56",
+      "discipline": "Llargada FEM. F55",
+      "wind": null,
+      "position": null,
+      "internal_id": 648
+    },
+    {
+      "athlete_name": "Gemma Sole Boronat",
+      "athlete_dob": "01/11/1967",
+      "athlete_id": "CT29376",
+      "performance": "3.62",
+      "discipline": "Llargada FEM. F55",
+      "wind": null,
+      "position": null,
+      "internal_id": 648
+    },
+    {
+      "athlete_name": "Gemma Sole",
+      "athlete_dob": "",
+      "athlete_id": "CT29376",
+      "performance": "3629",
+      "discipline": "Pentatló VET. FEM. PC F55",
+      "wind": null,
+      "position": null,
+      "internal_id": 648
     }
   ]
 }

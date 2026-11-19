@@ -2,17 +2,87 @@
   "event_name": "",
   "event_date": "03/06/2022",
   "event_location": "Amposta",
-  "total_results": 9,
+  "total_results": 19,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2022/06/resultat-20220603-trofeuprimaveraamposta.pdf",
   "results": [
+    {
+      "athlete_name": "Lluc Subiros Brasero",
+      "athlete_dob": "06/01/2007",
+      "athlete_id": "CT1186",
+      "performance": "6.03",
+      "discipline": "Longitud MASC. AL S16",
+      "wind": "+1.5",
+      "position": null,
+      "internal_id": 899
+    },
+    {
+      "athlete_name": "Lluc Subiros Brasero",
+      "athlete_dob": "06/01/2007",
+      "athlete_id": "CT1186",
+      "performance": "5.79",
+      "discipline": "Longitud MASC. AL S16",
+      "wind": "+0.5",
+      "position": null,
+      "internal_id": 899
+    },
+    {
+      "athlete_name": "Victor Jimenez Garcia",
+      "athlete_dob": "25/05/2008",
+      "athlete_id": "CT1465",
+      "performance": "5.71",
+      "discipline": "Longitud MASC. AL S16",
+      "wind": "+1.4",
+      "position": null,
+      "internal_id": 958
+    },
+    {
+      "athlete_name": "Victor Jimenez Garcia",
+      "athlete_dob": "25/05/2008",
+      "athlete_id": "CT1465",
+      "performance": "5.93",
+      "discipline": "Longitud MASC. AL S16",
+      "wind": "+1.2",
+      "position": null,
+      "internal_id": 958
+    },
+    {
+      "athlete_name": "Victor Jimenez Garcia",
+      "athlete_dob": "25/05/2008",
+      "athlete_id": "CT1465",
+      "performance": "5.83",
+      "discipline": "Longitud MASC. AL S16",
+      "wind": "+0.6",
+      "position": null,
+      "internal_id": 958
+    },
+    {
+      "athlete_name": "Victor Jimenez Garcia",
+      "athlete_dob": "25/05/2008",
+      "athlete_id": "CT1465",
+      "performance": "5.64",
+      "discipline": "Longitud MASC. AL S16",
+      "wind": "+0.5",
+      "position": null,
+      "internal_id": 958
+    },
+    {
+      "athlete_name": "Victor Jimenez Garcia",
+      "athlete_dob": "25/05/2008",
+      "athlete_id": "CT1465",
+      "performance": "5.59",
+      "discipline": "Longitud MASC. AL S16",
+      "wind": "+0.5",
+      "position": null,
+      "internal_id": 958
+    },
     {
       "athlete_name": "Nil Pinyol Mateu",
       "athlete_dob": "26/05/2003",
       "athlete_id": "CL29252",
       "performance": "5.72",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud MASC. AL ABS",
+      "discipline": "Longitud MASC. AL ABS",
       "wind": "+0.6",
+      "position": null,
       "internal_id": 714
     },
     {
@@ -20,9 +90,9 @@
       "athlete_dob": "26/05/2003",
       "athlete_id": "CL29252",
       "performance": "5.79",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud MASC. AL ABS",
+      "discipline": "Longitud MASC. AL ABS",
       "wind": "+1.1",
+      "position": null,
       "internal_id": 714
     },
     {
@@ -30,9 +100,9 @@
       "athlete_dob": "26/05/2003",
       "athlete_id": "CL29252",
       "performance": "6.06",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud MASC. AL ABS",
+      "discipline": "Longitud MASC. AL ABS",
       "wind": "+1.1",
+      "position": null,
       "internal_id": 714
     },
     {
@@ -40,9 +110,9 @@
       "athlete_dob": "26/05/2003",
       "athlete_id": "CL29252",
       "performance": "6.02",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud MASC. AL ABS",
+      "discipline": "Longitud MASC. AL ABS",
       "wind": "+1.0",
+      "position": null,
       "internal_id": 714
     },
     {
@@ -50,9 +120,9 @@
       "athlete_dob": "26/05/2003",
       "athlete_id": "CL29252",
       "performance": "5.93",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud MASC. AL ABS",
+      "discipline": "Longitud MASC. AL ABS",
       "wind": "+1.2",
+      "position": null,
       "internal_id": 714
     },
     {
@@ -60,9 +130,9 @@
       "athlete_dob": "10/10/2008",
       "athlete_id": "CL94529",
       "performance": "14.72",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud MASC. AL ABS",
-      "wind": null,
+      "discipline": "100m FEM. AL S16",
+      "wind": "-1.4",
+      "position": null,
       "internal_id": 954
     },
     {
@@ -70,9 +140,9 @@
       "athlete_dob": "25/05/2008",
       "athlete_id": "CT1465",
       "performance": "12.41",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud MASC. AL ABS",
-      "wind": null,
+      "discipline": "100m MASC. AL S16",
+      "wind": "-3.5",
+      "position": null,
       "internal_id": 958
     },
     {
@@ -80,9 +150,9 @@
       "athlete_dob": "06/01/2007",
       "athlete_id": "CT1186",
       "performance": "12.47",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud MASC. AL ABS",
-      "wind": null,
+      "discipline": "100m MASC. AL S16",
+      "wind": "-3.5",
+      "position": null,
       "internal_id": 899
     },
     {
@@ -90,10 +160,40 @@
       "athlete_dob": "16/03/2008",
       "athlete_id": "CL95144",
       "performance": "12.71",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud MASC. AL ABS",
-      "wind": null,
+      "discipline": "100m MASC. AL S16",
+      "wind": "-3.5",
+      "position": null,
       "internal_id": 977
+    },
+    {
+      "athlete_name": "Jan Vives Fons",
+      "athlete_dob": "16/03/2008",
+      "athlete_id": "CL95144",
+      "performance": "0:40.47",
+      "discipline": "300m MASC. AL S16",
+      "wind": null,
+      "position": null,
+      "internal_id": 977
+    },
+    {
+      "athlete_name": "Mireia Redondo Mendoza",
+      "athlete_dob": "10/06/2008",
+      "athlete_id": "CT1467",
+      "performance": "0:40.99",
+      "discipline": "300m FEM. AL S16",
+      "wind": null,
+      "position": null,
+      "internal_id": 957
+    },
+    {
+      "athlete_name": "Laia Cabrero Perez",
+      "athlete_dob": "10/10/2008",
+      "athlete_id": "CL94529",
+      "performance": "0:48.48",
+      "discipline": "300m FEM. AL S16",
+      "wind": null,
+      "position": null,
+      "internal_id": 954
     }
   ]
 }

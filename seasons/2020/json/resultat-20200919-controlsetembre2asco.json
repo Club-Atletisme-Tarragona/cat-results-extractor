@@ -2,17 +2,307 @@
   "event_name": "Control Setembre-2",
   "event_date": "19/09/2020",
   "event_location": "Ascó",
-  "total_results": 4,
+  "total_results": 33,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20200919-controlsetembre2asco.pdf",
   "results": [
+    {
+      "athlete_name": "Aleix Lago Garbajosa",
+      "athlete_dob": "26/09/2002",
+      "athlete_id": "CT264",
+      "performance": "0:52.55",
+      "discipline": "400m MASC. AL ABS",
+      "wind": null,
+      "position": null,
+      "internal_id": 660
+    },
+    {
+      "athlete_name": "Lluc Subiros Brasero",
+      "athlete_dob": "06/01/2007",
+      "athlete_id": "CL77331",
+      "performance": "1:44.72",
+      "discipline": "600m MASC. AL SUB 14",
+      "wind": null,
+      "position": null,
+      "internal_id": 899
+    },
+    {
+      "athlete_name": "Guillem Ferran Jimenez",
+      "athlete_dob": "08/03/2008",
+      "athlete_id": "CL82978",
+      "performance": "1:50.76",
+      "discipline": "600m MASC. AL SUB 14",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Joan Martorell Escobar",
+      "athlete_dob": "22/03/2007",
+      "athlete_id": "CL77324",
+      "performance": "1:51.82",
+      "discipline": "600m MASC. AL SUB 14",
+      "wind": null,
+      "position": null,
+      "internal_id": 914
+    },
+    {
+      "athlete_name": "154 (t) Jan Vives Fons",
+      "athlete_dob": "16/03/2008",
+      "athlete_id": "CL95144",
+      "performance": "NP",
+      "discipline": "600m MASC. AL SUB 14",
+      "wind": null,
+      "position": null,
+      "internal_id": 977
+    },
+    {
+      "athlete_name": "Oscar Leffer Guillon",
+      "athlete_dob": "19/02/2004",
+      "athlete_id": "CL96852",
+      "performance": "4:19.87",
+      "discipline": "1.500m MASC. AL ABS",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Juan Carlos Herrera Alcaide",
+      "athlete_dob": "31/01/1973",
+      "athlete_id": "CT25152",
+      "performance": "4:20.52",
+      "discipline": "1.500m MASC. AL ABS",
+      "wind": null,
+      "position": null,
+      "internal_id": 518
+    },
+    {
+      "athlete_name": "Gerard Parera Bodi",
+      "athlete_dob": "22/01/2000",
+      "athlete_id": "CL25156",
+      "performance": "4:40.92",
+      "discipline": "1.500m MASC. AL ABS",
+      "wind": null,
+      "position": null,
+      "internal_id": 522
+    },
+    {
+      "athlete_name": "Pau Crespo Beltran",
+      "athlete_dob": "22/10/2008",
+      "athlete_id": "CL90887",
+      "performance": "12:02.67",
+      "discipline": "3.000m MASC. AL SUB 14",
+      "wind": null,
+      "position": null,
+      "internal_id": 971
+    },
+    {
+      "athlete_name": "Guillem Ferran Jimenez",
+      "athlete_dob": "08/03/2008",
+      "athlete_id": "CL82978",
+      "performance": "15.35",
+      "discipline": "80m vallas (0,84) MASC. AL SUB 14",
+      "wind": "+0.0",
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Joan Martorell Escobar",
+      "athlete_dob": "22/03/2007",
+      "athlete_id": "CL77324",
+      "performance": "18.45",
+      "discipline": "80m vallas (0,84) MASC. AL SUB 14",
+      "wind": "+0.0",
+      "position": null,
+      "internal_id": 914
+    },
+    {
+      "athlete_name": "115 (t) Pau Crespo Beltran 1",
+      "athlete_dob": "22/10/2008",
+      "athlete_id": "CL90887",
+      "performance": "NP",
+      "discipline": "80m vallas (0,84) MASC. AL SUB 14",
+      "wind": "+0.0",
+      "position": null,
+      "internal_id": 971
+    },
+    {
+      "athlete_name": "133 (t) Victor Jimenez Garcia 3",
+      "athlete_dob": "25/05/2008",
+      "athlete_id": "CL82981",
+      "performance": "NP",
+      "discipline": "80m vallas (0,84) MASC. AL SUB 14",
+      "wind": "+0.0",
+      "position": null,
+      "internal_id": 958
+    },
+    {
+      "athlete_name": "Jan Vives Fons",
+      "athlete_dob": "16/03/2008",
+      "athlete_id": "CL95144",
+      "performance": "15.45",
+      "discipline": "80m vallas (0,84) MASC. AL SUB 14",
+      "wind": "+0.0",
+      "position": null,
+      "internal_id": 977
+    },
+    {
+      "athlete_name": "147 (t) Lluc Subiros Brasero 2",
+      "athlete_dob": "06/01/2007",
+      "athlete_id": "CL77331",
+      "performance": "NP",
+      "discipline": "80m vallas (0,84) MASC. AL SUB 14",
+      "wind": "+0.0",
+      "position": null,
+      "internal_id": 899
+    },
+    {
+      "athlete_name": "143 (t) Unai Ortiz De Landazuri Ontoso 1",
+      "athlete_dob": "28/06/2007",
+      "athlete_id": "CL77328",
+      "performance": "NP",
+      "discipline": "80m vallas (0,84) MASC. AL SUB 14",
+      "wind": "+0.0",
+      "position": null,
+      "internal_id": 908
+    },
+    {
+      "athlete_name": "Lluc Subiros Brasero",
+      "athlete_dob": "06/01/2007",
+      "athlete_id": "CL77331",
+      "performance": "1.55",
+      "discipline": "Altura MASC. AL SUB 14",
+      "wind": null,
+      "position": null,
+      "internal_id": 899
+    },
+    {
+      "athlete_name": "Unai Ortiz De Landazuri Ontoso",
+      "athlete_dob": "28/06/2007",
+      "athlete_id": "CL77328",
+      "performance": "1.49",
+      "discipline": "Altura MASC. AL SUB 14",
+      "wind": null,
+      "position": null,
+      "internal_id": 908
+    },
+    {
+      "athlete_name": "Victor Jimenez Garcia",
+      "athlete_dob": "25/05/2008",
+      "athlete_id": "CL82981",
+      "performance": "1.43",
+      "discipline": "Altura MASC. AL SUB 14",
+      "wind": null,
+      "position": null,
+      "internal_id": 958
+    },
+    {
+      "athlete_name": "Jan Vives Fons",
+      "athlete_dob": "16/03/2008",
+      "athlete_id": "CL95144",
+      "performance": "1.25",
+      "discipline": "Altura MASC. AL SUB 14",
+      "wind": null,
+      "position": null,
+      "internal_id": 977
+    },
+    {
+      "athlete_name": "115 (t) Pau Crespo Beltran",
+      "athlete_dob": "22/10/2008",
+      "athlete_id": "CL90887",
+      "performance": "NP",
+      "discipline": "Altura MASC. AL SUB 14",
+      "wind": null,
+      "position": null,
+      "internal_id": 971
+    },
+    {
+      "athlete_name": "Mireia Redondo Mendoza",
+      "athlete_dob": "10/06/2008",
+      "athlete_id": "CL77534",
+      "performance": "21.39",
+      "discipline": "150m FEM AL SUB 14",
+      "wind": "+0.8",
+      "position": null,
+      "internal_id": 957
+    },
+    {
+      "athlete_name": "Silvia Vicente Navarrete",
+      "athlete_dob": "31/07/2007",
+      "athlete_id": "CL77332",
+      "performance": "21.40",
+      "discipline": "150m FEM AL SUB 14",
+      "wind": "+0.8",
+      "position": null,
+      "internal_id": 905
+    },
+    {
+      "athlete_name": "Clara Ortiz De Landazuri Ontoso",
+      "athlete_dob": "04/12/2009",
+      "athlete_id": "CL86467",
+      "performance": "1:57.84",
+      "discipline": "600m FEM. AL SUB 12",
+      "wind": null,
+      "position": null,
+      "internal_id": 1022
+    },
+    {
+      "athlete_name": "Mireia Redondo Mendoza",
+      "athlete_dob": "10/06/2008",
+      "athlete_id": "CL77534",
+      "performance": "1:47.67",
+      "discipline": "600m FEM. AL SUB 14",
+      "wind": null,
+      "position": null,
+      "internal_id": 957
+    },
+    {
+      "athlete_name": "Iris Garrido Garcia",
+      "athlete_dob": "15/12/2008",
+      "athlete_id": "CL77529",
+      "performance": "1:48.71",
+      "discipline": "600m FEM. AL SUB 14",
+      "wind": null,
+      "position": null,
+      "internal_id": 982
+    },
+    {
+      "athlete_name": "Carla Gonzalez Carrillo",
+      "athlete_dob": "05/06/2003",
+      "athlete_id": "CL29242",
+      "performance": "2:27.56",
+      "discipline": "800m FEM. AL ABS",
+      "wind": null,
+      "position": null,
+      "internal_id": 698
+    },
+    {
+      "athlete_name": "Clara Ortiz De Landazuri Ontoso",
+      "athlete_dob": "04/12/2009",
+      "athlete_id": "CL86467",
+      "performance": "1.20",
+      "discipline": "Altura FEM. AL SUB 12",
+      "wind": null,
+      "position": null,
+      "internal_id": 1022
+    },
+    {
+      "athlete_name": "Silvia Vicente Navarrete",
+      "athlete_dob": "31/07/2007",
+      "athlete_id": "CL77332",
+      "performance": "1.35",
+      "discipline": "Altura FEM. AL SUB 14",
+      "wind": null,
+      "position": null,
+      "internal_id": 905
+    },
     {
       "athlete_name": "Silvia Vicente Navarrete",
       "athlete_dob": "31/07/2007",
       "athlete_id": "CL77332",
       "performance": "7.90",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) FEM AL SUB 14",
+      "discipline": "Peso (2 Kg) FEM AL SUB 14",
       "wind": null,
+      "position": null,
       "internal_id": 905
     },
     {
@@ -20,9 +310,9 @@
       "athlete_dob": "31/07/2007",
       "athlete_id": "CL77332",
       "performance": "8.28",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) FEM AL SUB 14",
+      "discipline": "Peso (2 Kg) FEM AL SUB 14",
       "wind": null,
+      "position": null,
       "internal_id": 905
     },
     {
@@ -30,9 +320,9 @@
       "athlete_dob": "31/07/2007",
       "athlete_id": "CL77332",
       "performance": "8.17",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) FEM AL SUB 14",
+      "discipline": "Peso (2 Kg) FEM AL SUB 14",
       "wind": null,
+      "position": null,
       "internal_id": 905
     },
     {
@@ -40,9 +330,9 @@
       "athlete_dob": "31/07/2007",
       "athlete_id": "CL77332",
       "performance": "8.83",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) FEM AL SUB 14",
+      "discipline": "Peso (2 Kg) FEM AL SUB 14",
       "wind": null,
+      "position": null,
       "internal_id": 905
     }
   ]

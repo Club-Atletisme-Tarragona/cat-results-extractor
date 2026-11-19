@@ -1,19 +1,99 @@
 {
   "event_name": "XXIX Campionat Local - XXII Memorial Carolina Marin - Pista D´atletisme, 20 mayo 2023",
   "event_date": "20/05/2023",
-  "event_location": "Cambrils",
-  "total_results": 1,
+  "event_location": "atletisme",
+  "total_results": 9,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2023/05/resultat-20230520-cnatlocalcambrils.pdf",
   "results": [
+    {
+      "athlete_name": "Gines Sanchez Perez",
+      "athlete_dob": "23/07/1969",
+      "athlete_id": "CT2055",
+      "performance": "14.03",
+      "discipline": "100m Abs MASC. AL",
+      "wind": "+0.8",
+      "position": null,
+      "internal_id": 505
+    },
+    {
+      "athlete_name": "177 Hugo Jules Saiz Santolaria SM 6",
+      "athlete_dob": "31/01/2005",
+      "athlete_id": "CT469",
+      "performance": "NP",
+      "discipline": "100m Abs MASC. AL",
+      "wind": "+0.8",
+      "position": null,
+      "internal_id": 808
+    },
+    {
+      "athlete_name": "Laura Yan Sole Barba",
+      "athlete_dob": "31/10/2003",
+      "athlete_id": "CT371",
+      "performance": "12.63",
+      "discipline": "100m Abs FEM. AL",
+      "wind": "+2.0",
+      "position": null,
+      "internal_id": 701
+    },
+    {
+      "athlete_name": "Silvia Vicente Navarrete",
+      "athlete_dob": "31/07/2007",
+      "athlete_id": "CT1468",
+      "performance": "13.21",
+      "discipline": "100m Abs FEM. AL",
+      "wind": "+2.0",
+      "position": null,
+      "internal_id": 905
+    },
     {
       "athlete_name": "Silvia Vicente Navarrete",
       "athlete_dob": "31/07/2007",
       "athlete_id": "CT1468",
       "performance": "16.21",
-      "discipline": "80 metres tanques (0.84)",
-      "raw_discipline_name": "80m vallas (0,762) S14 FEM CATALUÑA",
+      "discipline": "80m vallas (0,762) S14 FEM CATALUÑA",
       "wind": "+1.6",
+      "position": null,
       "internal_id": 905
+    },
+    {
+      "athlete_name": "Ruth Prats Nadal",
+      "athlete_dob": "31/01/2004",
+      "athlete_id": "CT91904",
+      "performance": "1.50",
+      "discipline": "Altura Abs FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 915
+    },
+    {
+      "athlete_name": "Martina Fernandez Sirvent",
+      "athlete_dob": "22/02/2007",
+      "athlete_id": "CT94968",
+      "performance": "1.45",
+      "discipline": "Altura Abs FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 936
+    },
+    {
+      "athlete_name": "Sofia Caballero Recarey",
+      "athlete_dob": "09/12/2004",
+      "athlete_id": "CL93990",
+      "performance": "1.40",
+      "discipline": "Altura Abs FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 816
+    },
+    {
+      "athlete_name": "Laura Santos Martinez",
+      "athlete_dob": "14/09/2005",
+      "athlete_id": "CL71751",
+      "performance": "1.40",
+      "discipline": "Altura Abs FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 807
     }
   ]
 }

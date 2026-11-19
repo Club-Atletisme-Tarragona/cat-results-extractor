@@ -1,8 +1,8 @@
 {
-  "event_name": "",
+  "event_name": "VI Jornades A. de Torredembarra 22/04/2023",
   "event_date": "22/04/2023",
-  "event_location": "Torredembarra",
-  "total_results": 17,
+  "event_location": "Pistes Atletisme Torredembarra",
+  "total_results": 23,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2023/04/resultat-20230422-controlcatorredembarra.pdf",
   "results": [
     {
@@ -10,9 +10,9 @@
       "athlete_dob": "01/05/2014",
       "athlete_id": "CL11067",
       "performance": "3.17",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud MASC. s10 AL",
+      "discipline": "Longitud MASC. s10 AL",
       "wind": null,
+      "position": null,
       "internal_id": 1370
     },
     {
@@ -20,9 +20,9 @@
       "athlete_dob": "01/05/2014",
       "athlete_id": "CL11067",
       "performance": "3.09",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud MASC. s10 AL",
+      "discipline": "Longitud MASC. s10 AL",
       "wind": null,
+      "position": null,
       "internal_id": 1370
     },
     {
@@ -30,9 +30,19 @@
       "athlete_dob": "01/05/2014",
       "athlete_id": "CL11067",
       "performance": "3.18",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud MASC. s10 AL",
+      "discipline": "Longitud MASC. s10 AL",
       "wind": null,
+      "position": null,
+      "internal_id": 1370
+    },
+    {
+      "athlete_name": "Antonio Balazote",
+      "athlete_dob": "01/05/2014",
+      "athlete_id": "CL11067",
+      "performance": "19.52",
+      "discipline": "Longitud MASC. s10 AL",
+      "wind": null,
+      "position": null,
       "internal_id": 1370
     },
     {
@@ -40,9 +50,9 @@
       "athlete_dob": "11/03/2015",
       "athlete_id": "CL11069",
       "performance": "2.86",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud MASC. s10 AL",
+      "discipline": "Longitud MASC. s10 AL",
       "wind": null,
+      "position": null,
       "internal_id": 1338
     },
     {
@@ -50,29 +60,9 @@
       "athlete_dob": "24/01/2014",
       "athlete_id": "CL11077",
       "performance": "2.52",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud MASC. s10 AL",
+      "discipline": "Longitud MASC. s10 AL",
       "wind": null,
-      "internal_id": null
-    },
-    {
-      "athlete_name": "Pep Sarle Cornado",
-      "athlete_dob": "09/09/2015",
-      "athlete_id": "CL11072",
-      "performance": "2.06",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud MASC. s10 AL",
-      "wind": null,
-      "internal_id": null
-    },
-    {
-      "athlete_name": "Pau Llado Aparicio",
-      "athlete_dob": "17/12/2015",
-      "athlete_id": "CL11065",
-      "performance": "1.55",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud MASC. s10 AL",
-      "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -80,29 +70,29 @@
       "athlete_dob": "24/01/2014",
       "athlete_id": "CL11077",
       "performance": "16.68",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud MASC. s10 AL",
+      "discipline": "Longitud MASC. s10 AL",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
-      "athlete_name": "Antonio Balazote",
-      "athlete_dob": "01/05/2014",
-      "athlete_id": "CL11067",
-      "performance": "19.52",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud MASC. s10 AL",
+      "athlete_name": "Pep Sarle Cornado",
+      "athlete_dob": "09/09/2015",
+      "athlete_id": "CL11072",
+      "performance": "2.06",
+      "discipline": "Longitud MASC. s10 AL",
       "wind": null,
-      "internal_id": 1370
+      "position": null,
+      "internal_id": null
     },
     {
       "athlete_name": "Pep Sarle Cornado",
       "athlete_dob": "09/09/2015",
       "athlete_id": "CL11072",
       "performance": "6.45",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud MASC. s10 AL",
+      "discipline": "Longitud MASC. s10 AL",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -110,9 +100,9 @@
       "athlete_dob": "09/09/2015",
       "athlete_id": "CL11072",
       "performance": "8.64",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud MASC. s10 AL",
+      "discipline": "Longitud MASC. s10 AL",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -120,9 +110,19 @@
       "athlete_dob": "09/09/2015",
       "athlete_id": "CL11072",
       "performance": "7.89",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud MASC. s10 AL",
+      "discipline": "Longitud MASC. s10 AL",
       "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Pau Llado Aparicio",
+      "athlete_dob": "17/12/2015",
+      "athlete_id": "CL11065",
+      "performance": "1.55",
+      "discipline": "Longitud MASC. s10 AL",
+      "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -130,9 +130,9 @@
       "athlete_dob": "17/12/2015",
       "athlete_id": "CL11065",
       "performance": "7.51",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud MASC. s10 AL",
+      "discipline": "Longitud MASC. s10 AL",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -140,9 +140,9 @@
       "athlete_dob": "17/12/2015",
       "athlete_id": "CL11065",
       "performance": "6.03",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud MASC. s10 AL",
+      "discipline": "Longitud MASC. s10 AL",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -150,9 +150,9 @@
       "athlete_dob": "17/12/2015",
       "athlete_id": "CL11065",
       "performance": "7.95",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud MASC. s10 AL",
+      "discipline": "Longitud MASC. s10 AL",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -160,9 +160,9 @@
       "athlete_dob": "19/01/2015",
       "athlete_id": "CL11066",
       "performance": "2.82",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud FEM. s10 AL",
+      "discipline": "Longitud FEM. s10 AL",
       "wind": null,
+      "position": null,
       "internal_id": 1354
     },
     {
@@ -170,9 +170,69 @@
       "athlete_dob": "14/12/2014",
       "athlete_id": "CL11064",
       "performance": "1.79",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud FEM. s10 AL",
+      "discipline": "Longitud FEM. s10 AL",
       "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Sara Lopez Garcia",
+      "athlete_dob": "19/01/2015",
+      "athlete_id": "CL11066",
+      "performance": "12.66",
+      "discipline": "Longitud FEM. s8 AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1354
+    },
+    {
+      "athlete_name": "Sara Lopez Garcia",
+      "athlete_dob": "19/01/2015",
+      "athlete_id": "CL11066",
+      "performance": "12.64",
+      "discipline": "Longitud FEM. s8 AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1354
+    },
+    {
+      "athlete_name": "Sara Lopez Garcia",
+      "athlete_dob": "19/01/2015",
+      "athlete_id": "CL11066",
+      "performance": "13.45",
+      "discipline": "Longitud FEM. s8 AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1354
+    },
+    {
+      "athlete_name": "Merce Bages Vellve",
+      "athlete_dob": "14/12/2014",
+      "athlete_id": "CL11064",
+      "performance": "4.92",
+      "discipline": "Longitud FEM. s8 AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Merce Bages Vellve",
+      "athlete_dob": "14/12/2014",
+      "athlete_id": "CL11064",
+      "performance": "7.54",
+      "discipline": "Longitud FEM. s8 AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Merce Bages Vellve",
+      "athlete_dob": "14/12/2014",
+      "athlete_id": "CL11064",
+      "performance": "6.30",
+      "discipline": "Longitud FEM. s8 AL",
+      "wind": null,
+      "position": null,
       "internal_id": null
     }
   ]

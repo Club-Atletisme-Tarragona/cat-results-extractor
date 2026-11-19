@@ -1,10 +1,21 @@
 {
   "event_name": "Control Sub-16 en Pista Coberta (4a jornada) - Control Sub-16 en Pista Coberta (4a jornada)",
   "event_date": "27/01/2018",
-  "event_location": "Sabadell",
-  "total_results": 2,
+  "event_location": "Club                                              Lic",
+  "total_results": 19,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20180127-controlsub16pcsabadell.pdf",
   "results": [
+    {
+      "athlete_name": "Laura Yan Sole Barba",
+      "athlete_dob": "31/10/2003",
+      "athlete_id": "CL71752",
+      "performance": "8.40",
+      "discipline": "60 metres llisos",
+      "raw_discipline_name": "60m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 701
+    },
     {
       "athlete_name": "Leire Dominguez Izaga",
       "athlete_dob": "18/08/2004",
@@ -13,6 +24,7 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 743
     },
     {
@@ -23,7 +35,184 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": null
+    },
+    {
+      "athlete_name": "Pol Aixala Guiu",
+      "athlete_dob": "04/12/2004",
+      "athlete_id": "CL69309",
+      "performance": "0:44.45",
+      "discipline": "300 metres llisos",
+      "raw_discipline_name": "300m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 733
+    },
+    {
+      "athlete_name": "Guifre De Los Rios Blanch",
+      "athlete_dob": "09/06/2003",
+      "athlete_id": "CL90501",
+      "performance": "0:42.13",
+      "discipline": "300 metres llisos",
+      "raw_discipline_name": "300m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 697
+    },
+    {
+      "athlete_name": "Laurine Elisa Marimon Fernandez",
+      "athlete_dob": "17/09/2004",
+      "athlete_id": "CL69330",
+      "performance": "0:46.51",
+      "discipline": "300 metres llisos",
+      "raw_discipline_name": "300m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 737
+    },
+    {
+      "athlete_name": "Leire Dominguez Izaga",
+      "athlete_dob": "18/08/2004",
+      "athlete_id": "CL82676",
+      "performance": "0:48.72",
+      "discipline": "300 metres llisos",
+      "raw_discipline_name": "300m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 743
+    },
+    {
+      "athlete_name": "Guifre De Los Rios Blanch",
+      "athlete_dob": "09/06/2003",
+      "athlete_id": "CL90501",
+      "performance": "1:38.66",
+      "discipline": "600 metres llisos",
+      "raw_discipline_name": "600m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 697
+    },
+    {
+      "athlete_name": "Alexandra Rofes Palacios",
+      "athlete_dob": "27/09/2004",
+      "athlete_id": "CL90523",
+      "performance": "3:26.20",
+      "discipline": "1000 metres llisos",
+      "raw_discipline_name": "1.000m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 731
+    },
+    {
+      "athlete_name": "Carla Gonzalez Carrillo",
+      "athlete_dob": "05/06/2003",
+      "athlete_id": "CL89817",
+      "performance": "3:26.75",
+      "discipline": "1000 metres llisos",
+      "raw_discipline_name": "1.000m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 698
+    },
+    {
+      "athlete_name": "Cristina Iniesta Acera",
+      "athlete_dob": "27/02/2004",
+      "athlete_id": "CL78440",
+      "performance": "3:41.59",
+      "discipline": "1000 metres llisos",
+      "raw_discipline_name": "1.000m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 742
+    },
+    {
+      "athlete_name": "Claudian. Mir Casellas",
+      "athlete_dob": "02/08/2003",
+      "athlete_id": "CL69333",
+      "performance": "10.41",
+      "discipline": "60 metres tanques (0.84)",
+      "raw_discipline_name": "60m tanques FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 699
+    },
+    {
+      "athlete_name": "Laurine Elisa Marimon Fernandez",
+      "athlete_dob": "17/09/2004",
+      "athlete_id": "CL69330",
+      "performance": "10.51",
+      "discipline": "60 metres tanques (0.84)",
+      "raw_discipline_name": "60m tanques FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 737
+    },
+    {
+      "athlete_name": "Pol Aixala Guiu",
+      "athlete_dob": "04/12/2004",
+      "athlete_id": "CL69309",
+      "performance": "11.54",
+      "discipline": "60 metres tanques (1.067)",
+      "raw_discipline_name": "60m tanques MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 733
+    },
+    {
+      "athlete_name": "Laurine Elisa Marimon Fernandez",
+      "athlete_dob": "17/09/2004",
+      "athlete_id": "CL69330",
+      "performance": "1.50",
+      "discipline": "Alçada",
+      "raw_discipline_name": "Alçada FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 737
+    },
+    {
+      "athlete_name": "Claudian. Mir Casellas",
+      "athlete_dob": "02/08/2003",
+      "athlete_id": "CL69333",
+      "performance": "1.50",
+      "discipline": "Alçada",
+      "raw_discipline_name": "Alçada FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 699
+    },
+    {
+      "athlete_name": "Nil Pinyol Mateu",
+      "athlete_dob": "26/05/2003",
+      "athlete_id": "CL71735",
+      "performance": "10.52",
+      "discipline": "Triple",
+      "raw_discipline_name": "Triple Salt 2003 MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 714
+    },
+    {
+      "athlete_name": "Nil Pinyol Mateu",
+      "athlete_dob": "26/05/2003",
+      "athlete_id": "CL71735",
+      "performance": "10.32",
+      "discipline": "Triple",
+      "raw_discipline_name": "Triple Salt 2003 MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 714
+    },
+    {
+      "athlete_name": "Nil Pinyol Mateu",
+      "athlete_dob": "26/05/2003",
+      "athlete_id": "CL71735",
+      "performance": "10.36",
+      "discipline": "Triple",
+      "raw_discipline_name": "Triple Salt 2003 MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 714
     }
   ]
 }

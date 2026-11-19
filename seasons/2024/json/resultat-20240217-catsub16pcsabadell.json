@@ -1,8 +1,8 @@
 {
   "event_name": "Campionat Catalunya Sub16 en Pista Coberta Individual i Relleus - Campionat Catalunya Sub16 en Pista Coberta Individual i Relleus",
   "event_date": "17/02/2024",
-  "event_location": "Sabadell",
-  "total_results": 12,
+  "event_location": "Club                                            Lic",
+  "total_results": 20,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2024/02/resultat-20240217-catsub16pcsabadell.pdf",
   "results": [
     {
@@ -10,19 +10,99 @@
       "athlete_dob": "08/03/2009",
       "athlete_id": "CL94407",
       "performance": "7.77",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m MASC. PC",
+      "discipline": "60m MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 1011
+    },
+    {
+      "athlete_name": "42 (t) Pau Esteve Hostalot 8",
+      "athlete_dob": "27/08/2010",
+      "athlete_id": "CL94383",
+      "performance": "NP",
+      "discipline": "60m tanques (0,91) MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1055
+    },
+    {
+      "athlete_name": "Jeroni Flores Piñas",
+      "athlete_dob": "04/01/2009",
+      "athlete_id": "CL86460",
+      "performance": "9.22",
+      "discipline": "60m tanques (0,91) MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1036
+    },
+    {
+      "athlete_name": "Jeroni Flores Piñas",
+      "athlete_dob": "04/01/2009",
+      "athlete_id": "CL86460",
+      "performance": "1.58",
+      "discipline": "Alçada MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1036
+    },
+    {
+      "athlete_name": "Noa Anton Paterna",
+      "athlete_dob": "20/01/2010",
+      "athlete_id": "CL90450",
+      "performance": "8.18",
+      "discipline": "60m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1016
+    },
+    {
+      "athlete_name": "Noa Anton Paterna",
+      "athlete_dob": "20/01/2010",
+      "athlete_id": "CL90450",
+      "performance": "8.13",
+      "discipline": "60m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1016
+    },
+    {
+      "athlete_name": "Olivia Ruiz Barbera",
+      "athlete_dob": "24/04/2009",
+      "athlete_id": "CL3439",
+      "performance": "0:46.34",
+      "discipline": "300m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1018
+    },
+    {
+      "athlete_name": "Clara Ortiz De Landazuri Ontoso",
+      "athlete_dob": "04/12/2009",
+      "athlete_id": "CT2195",
+      "performance": "1:46.49",
+      "discipline": "600m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1022
+    },
+    {
+      "athlete_name": "Ona Sansa Garcia",
+      "athlete_dob": "31/05/2010",
+      "athlete_id": "CL90844",
+      "performance": "2.65",
+      "discipline": "Perxa FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1015
     },
     {
       "athlete_name": "Noa Anton Paterna",
       "athlete_dob": "20/01/2010",
       "athlete_id": "CL90450",
       "performance": "4.82",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada FEM. PC",
+      "discipline": "Llargada FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 1016
     },
     {
@@ -30,9 +110,9 @@
       "athlete_dob": "20/01/2010",
       "athlete_id": "CL90450",
       "performance": "4.72",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada FEM. PC",
+      "discipline": "Llargada FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 1016
     },
     {
@@ -40,9 +120,9 @@
       "athlete_dob": "20/01/2010",
       "athlete_id": "CL90450",
       "performance": "4.55",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada FEM. PC",
+      "discipline": "Llargada FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 1016
     },
     {
@@ -50,9 +130,9 @@
       "athlete_dob": "20/01/2010",
       "athlete_id": "CL90450",
       "performance": "4.57",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada FEM. PC",
+      "discipline": "Llargada FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 1016
     },
     {
@@ -60,9 +140,9 @@
       "athlete_dob": "20/01/2010",
       "athlete_id": "CL90450",
       "performance": "4.38",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada FEM. PC",
+      "discipline": "Llargada FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 1016
     },
     {
@@ -70,9 +150,9 @@
       "athlete_dob": "28/08/2009",
       "athlete_id": "CL94399",
       "performance": "7.59",
-      "discipline": "Pes (3 Kg)",
-      "raw_discipline_name": "Pes (3kg) FEM. PC",
+      "discipline": "Pes (3 Kg) FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 1010
     },
     {
@@ -80,9 +160,9 @@
       "athlete_dob": "28/08/2009",
       "athlete_id": "CL94399",
       "performance": "9.10",
-      "discipline": "Pes (3 Kg)",
-      "raw_discipline_name": "Pes (3kg) FEM. PC",
+      "discipline": "Pes (3 Kg) FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 1010
     },
     {
@@ -90,9 +170,9 @@
       "athlete_dob": "28/08/2009",
       "athlete_id": "CL94399",
       "performance": "9.12",
-      "discipline": "Pes (3 Kg)",
-      "raw_discipline_name": "Pes (3kg) FEM. PC",
+      "discipline": "Pes (3 Kg) FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 1010
     },
     {
@@ -100,9 +180,9 @@
       "athlete_dob": "28/08/2009",
       "athlete_id": "CL94399",
       "performance": "8.89",
-      "discipline": "Pes (3 Kg)",
-      "raw_discipline_name": "Pes (3kg) FEM. PC",
+      "discipline": "Pes (3 Kg) FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 1010
     },
     {
@@ -110,9 +190,9 @@
       "athlete_dob": "28/08/2009",
       "athlete_id": "CL94399",
       "performance": "8.36",
-      "discipline": "Pes (3 Kg)",
-      "raw_discipline_name": "Pes (3kg) FEM. PC",
+      "discipline": "Pes (3 Kg) FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 1010
     },
     {
@@ -120,9 +200,9 @@
       "athlete_dob": "28/08/2009",
       "athlete_id": "CL94399",
       "performance": "8.82",
-      "discipline": "Pes (3 Kg)",
-      "raw_discipline_name": "Pes (3kg) FEM. PC",
+      "discipline": "Pes (3 Kg) FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 1010
     }
   ]

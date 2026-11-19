@@ -1,19 +1,89 @@
 {
   "event_name": "27è Campionat de Catalunya Sub20 en Pista Coberta - 27è Campionat de Catalunya Sub20 en Pista Coberta",
   "event_date": "10/02/2019",
-  "event_location": "Vilafranca",
-  "total_results": 1,
+  "event_location": "Club                                              Lic",
+  "total_results": 8,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20190210-catsub20pcsabadell.pdf",
   "results": [
     {
       "athlete_name": "Javier Almale Lerin",
       "athlete_dob": "23/02/2000",
       "athlete_id": "CT24373",
-      "performance": "7.25",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m MASC. PC",
+      "performance": "7.23",
+      "discipline": "60m MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 510
+    },
+    {
+      "athlete_name": "Javier Almale Lerin",
+      "athlete_dob": "23/02/2000",
+      "athlete_id": "CT24373",
+      "performance": "7.25",
+      "discipline": "60m MASC. PC",
+      "wind": null,
+      "position": 7,
+      "internal_id": 510
+    },
+    {
+      "athlete_name": "Albert Casado Vieco",
+      "athlete_dob": "16/09/2000",
+      "athlete_id": "CL26565",
+      "performance": "7.50",
+      "discipline": "60m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 596
+    },
+    {
+      "athlete_name": "Nerea Lago Garbajosa",
+      "athlete_dob": "15/05/2000",
+      "athlete_id": "CL25157",
+      "performance": "2:36.58",
+      "discipline": "800m FEM. PC",
+      "wind": null,
+      "position": 8,
+      "internal_id": 534
+    },
+    {
+      "athlete_name": "Maria Buscail Brianso",
+      "athlete_dob": "15/12/2000",
+      "athlete_id": "CL25158",
+      "performance": "5:22.53",
+      "discipline": "1.500m FEM. PC",
+      "wind": null,
+      "position": 9,
+      "internal_id": 520
+    },
+    {
+      "athlete_name": "Alba Oyonate Farrera",
+      "athlete_dob": "19/07/2001",
+      "athlete_id": "CL26562",
+      "performance": "10.91",
+      "discipline": "60m tanques (0,84) FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 582
+    },
+    {
+      "athlete_name": "Mireia Lopez Urbano",
+      "athlete_dob": "07/12/2000",
+      "athlete_id": "CT23556",
+      "performance": "9.09",
+      "discipline": "60m tanques (0,84) FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 527
+    },
+    {
+      "athlete_name": "Mireia Lopez Urbano",
+      "athlete_dob": "07/12/2000",
+      "athlete_id": "CT23556",
+      "performance": "8.97",
+      "discipline": "60m tanques (0,84) FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 527
     }
   ]
 }

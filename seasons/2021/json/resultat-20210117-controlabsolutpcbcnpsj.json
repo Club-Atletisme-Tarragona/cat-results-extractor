@@ -2,7 +2,7 @@
   "event_name": "Control Pista Coberta Absolut (2a Jornada) - Control Pista Coberta Absolut (2a Jornada)",
   "event_date": "17/01/2021",
   "event_location": "Barcelona - Palau Sant Jordi",
-  "total_results": 2,
+  "total_results": 9,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/2021/01/resultat-20210117-controlabsolutpcbcnpsj.pdf",
   "results": [
     {
@@ -10,9 +10,9 @@
       "athlete_dob": "23/10/1998",
       "athlete_id": "CT22783",
       "performance": "6.94",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m MASC. PC",
+      "discipline": "60m MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 435
     },
     {
@@ -20,10 +20,80 @@
       "athlete_dob": "23/02/2000",
       "athlete_id": "CT24373",
       "performance": "7.45",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m MASC. PC",
+      "discipline": "60m MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 510
+    },
+    {
+      "athlete_name": "Xavier Ros Borrell",
+      "athlete_dob": "19/05/1998",
+      "athlete_id": "CL22779",
+      "performance": "4:09.10",
+      "discipline": "1.500m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 439
+    },
+    {
+      "athlete_name": "Claudia Mir Casellas",
+      "athlete_dob": "02/08/2003",
+      "athlete_id": "CT152",
+      "performance": "1:02.55",
+      "discipline": "400m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 699
+    },
+    {
+      "athlete_name": "Maria Buscail Brianso",
+      "athlete_dob": "15/12/2000",
+      "athlete_id": "CT187",
+      "performance": "1:07.59",
+      "discipline": "400m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 520
+    },
+    {
+      "athlete_name": "Mireia Lopez Urbano",
+      "athlete_dob": "07/12/2000",
+      "athlete_id": "CT23556",
+      "performance": "8.85",
+      "discipline": "60m tanques (0,84) FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 527
+    },
+    {
+      "athlete_name": "Andrea Trape Perez",
+      "athlete_dob": "01/04/1999",
+      "athlete_id": "CT21473",
+      "performance": "9.27",
+      "discipline": "60m tanques (0,84) FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 726
+    },
+    {
+      "athlete_name": "Claudia Mir Casellas",
+      "athlete_dob": "02/08/2003",
+      "athlete_id": "CT152",
+      "performance": "9.65",
+      "discipline": "60m tanques (0,84) FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 699
+    },
+    {
+      "athlete_name": "Nuria Caballero Pacheco",
+      "athlete_dob": "09/10/2001",
+      "athlete_id": "CT25812",
+      "performance": "1.68",
+      "discipline": "Alçada FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 753
     }
   ]
 }

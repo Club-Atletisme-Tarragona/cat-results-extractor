@@ -1,10 +1,65 @@
 {
   "event_name": " - Barcelona (Estadi Joan Serrahima), 26-27 mayo 2018",
-  "event_date": "27/05/2018",
+  "event_date": "05/08/1993",
   "event_location": "Barcelona-SE",
-  "total_results": 39,
+  "total_results": 47,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018052627-catcombinadesserrahima.pdf",
   "results": [
+    {
+      "athlete_name": "Lluc Subiros Brasero",
+      "athlete_dob": "06/01/2007",
+      "athlete_id": "CL77331",
+      "performance": "1257",
+      "discipline": "Tetratló",
+      "raw_discipline_name": "Tetratló SUB12 MASC",
+      "wind": null,
+      "position": null,
+      "internal_id": 899
+    },
+    {
+      "athlete_name": "Joan Sinfreu Niubo",
+      "athlete_dob": "25/03/2007",
+      "athlete_id": "CL77329",
+      "performance": "1096",
+      "discipline": "Tetratló",
+      "raw_discipline_name": "Tetratló SUB12 MASC",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Victor Jimenez Garcia",
+      "athlete_dob": "25/05/2008",
+      "athlete_id": "CL82981",
+      "performance": "1000",
+      "discipline": "Tetratló",
+      "raw_discipline_name": "Tetratló SUB12 MASC",
+      "wind": null,
+      "position": null,
+      "internal_id": 958
+    },
+    {
+      "athlete_name": "Guillem Ferran Jimenez",
+      "athlete_dob": "08/03/2008",
+      "athlete_id": "CL82978",
+      "performance": "928",
+      "discipline": "Tetratló",
+      "raw_discipline_name": "Tetratló SUB12 MASC",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Silvia Vicente Navarrete",
+      "athlete_dob": "31/07/2007",
+      "athlete_id": "CL77332",
+      "performance": "1781",
+      "discipline": "Tetratló",
+      "raw_discipline_name": "Tetratló SUB12 FEM",
+      "wind": null,
+      "position": null,
+      "internal_id": 905
+    },
     {
       "athlete_name": "Lluc Subiros Brasero",
       "athlete_dob": "06/01/2007",
@@ -13,7 +68,7 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m MASC. AL",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018052627-catcombinadesserrahima.pdf",
+      "position": null,
       "internal_id": 899
     },
     {
@@ -24,7 +79,7 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m MASC. AL",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018052627-catcombinadesserrahima.pdf",
+      "position": null,
       "internal_id": null
     },
     {
@@ -35,7 +90,7 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m MASC. AL",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018052627-catcombinadesserrahima.pdf",
+      "position": null,
       "internal_id": 958
     },
     {
@@ -46,7 +101,7 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m MASC. AL",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018052627-catcombinadesserrahima.pdf",
+      "position": null,
       "internal_id": null
     },
     {
@@ -57,7 +112,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada MASC. AL",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018052627-catcombinadesserrahima.pdf",
+      "position": null,
       "internal_id": 899
     },
     {
@@ -68,7 +123,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada MASC. AL",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018052627-catcombinadesserrahima.pdf",
+      "position": null,
       "internal_id": 899
     },
     {
@@ -79,7 +134,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada MASC. AL",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018052627-catcombinadesserrahima.pdf",
+      "position": null,
       "internal_id": 899
     },
     {
@@ -90,7 +145,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada MASC. AL",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018052627-catcombinadesserrahima.pdf",
+      "position": null,
       "internal_id": null
     },
     {
@@ -101,7 +156,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada MASC. AL",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018052627-catcombinadesserrahima.pdf",
+      "position": null,
       "internal_id": null
     },
     {
@@ -112,7 +167,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada MASC. AL",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018052627-catcombinadesserrahima.pdf",
+      "position": null,
       "internal_id": null
     },
     {
@@ -123,7 +178,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada MASC. AL",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018052627-catcombinadesserrahima.pdf",
+      "position": null,
       "internal_id": 958
     },
     {
@@ -134,7 +189,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada MASC. AL",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018052627-catcombinadesserrahima.pdf",
+      "position": null,
       "internal_id": 958
     },
     {
@@ -145,7 +200,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada MASC. AL",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018052627-catcombinadesserrahima.pdf",
+      "position": null,
       "internal_id": 958
     },
     {
@@ -156,7 +211,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada MASC. AL",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018052627-catcombinadesserrahima.pdf",
+      "position": null,
       "internal_id": null
     },
     {
@@ -167,7 +222,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada MASC. AL",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018052627-catcombinadesserrahima.pdf",
+      "position": null,
       "internal_id": null
     },
     {
@@ -178,7 +233,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada MASC. AL",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018052627-catcombinadesserrahima.pdf",
+      "position": null,
       "internal_id": null
     },
     {
@@ -189,7 +244,7 @@
       "discipline": "Pes (7.260 Kg)",
       "raw_discipline_name": "Pes MASC. AL",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018052627-catcombinadesserrahima.pdf",
+      "position": null,
       "internal_id": 899
     },
     {
@@ -200,7 +255,7 @@
       "discipline": "Pes (7.260 Kg)",
       "raw_discipline_name": "Pes MASC. AL",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018052627-catcombinadesserrahima.pdf",
+      "position": null,
       "internal_id": 899
     },
     {
@@ -211,7 +266,7 @@
       "discipline": "Pes (7.260 Kg)",
       "raw_discipline_name": "Pes MASC. AL",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018052627-catcombinadesserrahima.pdf",
+      "position": null,
       "internal_id": 899
     },
     {
@@ -222,7 +277,7 @@
       "discipline": "Pes (7.260 Kg)",
       "raw_discipline_name": "Pes MASC. AL",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018052627-catcombinadesserrahima.pdf",
+      "position": null,
       "internal_id": null
     },
     {
@@ -233,7 +288,7 @@
       "discipline": "Pes (7.260 Kg)",
       "raw_discipline_name": "Pes MASC. AL",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018052627-catcombinadesserrahima.pdf",
+      "position": null,
       "internal_id": null
     },
     {
@@ -244,7 +299,7 @@
       "discipline": "Pes (7.260 Kg)",
       "raw_discipline_name": "Pes MASC. AL",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018052627-catcombinadesserrahima.pdf",
+      "position": null,
       "internal_id": null
     },
     {
@@ -255,7 +310,7 @@
       "discipline": "Pes (7.260 Kg)",
       "raw_discipline_name": "Pes MASC. AL",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018052627-catcombinadesserrahima.pdf",
+      "position": null,
       "internal_id": null
     },
     {
@@ -266,7 +321,7 @@
       "discipline": "Pes (7.260 Kg)",
       "raw_discipline_name": "Pes MASC. AL",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018052627-catcombinadesserrahima.pdf",
+      "position": null,
       "internal_id": null
     },
     {
@@ -277,7 +332,7 @@
       "discipline": "Pes (7.260 Kg)",
       "raw_discipline_name": "Pes MASC. AL",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018052627-catcombinadesserrahima.pdf",
+      "position": null,
       "internal_id": null
     },
     {
@@ -288,7 +343,7 @@
       "discipline": "Pes (7.260 Kg)",
       "raw_discipline_name": "Pes MASC. AL",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018052627-catcombinadesserrahima.pdf",
+      "position": null,
       "internal_id": 958
     },
     {
@@ -299,7 +354,7 @@
       "discipline": "Pes (7.260 Kg)",
       "raw_discipline_name": "Pes MASC. AL",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018052627-catcombinadesserrahima.pdf",
+      "position": null,
       "internal_id": 958
     },
     {
@@ -310,7 +365,7 @@
       "discipline": "Pes (7.260 Kg)",
       "raw_discipline_name": "Pes MASC. AL",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018052627-catcombinadesserrahima.pdf",
+      "position": null,
       "internal_id": 958
     },
     {
@@ -321,7 +376,7 @@
       "discipline": "Alçada",
       "raw_discipline_name": "Alçada MASC. AL",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018052627-catcombinadesserrahima.pdf",
+      "position": null,
       "internal_id": null
     },
     {
@@ -332,7 +387,7 @@
       "discipline": "Alçada",
       "raw_discipline_name": "Alçada MASC. AL",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018052627-catcombinadesserrahima.pdf",
+      "position": null,
       "internal_id": 899
     },
     {
@@ -343,7 +398,7 @@
       "discipline": "Alçada",
       "raw_discipline_name": "Alçada MASC. AL",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018052627-catcombinadesserrahima.pdf",
+      "position": null,
       "internal_id": 958
     },
     {
@@ -354,8 +409,52 @@
       "discipline": "Alçada",
       "raw_discipline_name": "Alçada MASC. AL",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018052627-catcombinadesserrahima.pdf",
+      "position": null,
       "internal_id": null
+    },
+    {
+      "athlete_name": "Lluc Subiros",
+      "athlete_dob": "24/04/2007",
+      "athlete_id": "CL77331",
+      "performance": "1257",
+      "discipline": "Tetratló",
+      "raw_discipline_name": "Tetratló SUB12 MASC",
+      "wind": null,
+      "position": null,
+      "internal_id": 899
+    },
+    {
+      "athlete_name": "Joan Sinfreu",
+      "athlete_dob": "19/12/2007",
+      "athlete_id": "CL77329",
+      "performance": "1096",
+      "discipline": "Tetratló",
+      "raw_discipline_name": "Tetratló SUB12 MASC",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "3 (t) Guillem Ferran",
+      "athlete_dob": "07/02/2007",
+      "athlete_id": "CL82978",
+      "performance": "928",
+      "discipline": "Tetratló",
+      "raw_discipline_name": "Tetratló SUB12 MASC",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Silvia Vicente Navarrete",
+      "athlete_dob": "31/07/2007",
+      "athlete_id": "CL77332",
+      "performance": "10.20",
+      "discipline": "60 metres tanques (0.84)",
+      "raw_discipline_name": "60m tanques FEM AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 905
     },
     {
       "athlete_name": "Silvia Vicente Navarrete",
@@ -363,9 +462,9 @@
       "athlete_id": "CL77332",
       "performance": "5.67",
       "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Pes (2kg) FEM AL",
+      "raw_discipline_name": "Pes (2 Kg) FEM AL",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018052627-catcombinadesserrahima.pdf",
+      "position": null,
       "internal_id": 905
     },
     {
@@ -374,9 +473,9 @@
       "athlete_id": "CL77332",
       "performance": "5.99",
       "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Pes (2kg) FEM AL",
+      "raw_discipline_name": "Pes (2 Kg) FEM AL",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018052627-catcombinadesserrahima.pdf",
+      "position": null,
       "internal_id": 905
     },
     {
@@ -387,7 +486,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada FEM. AL",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018052627-catcombinadesserrahima.pdf",
+      "position": null,
       "internal_id": 905
     },
     {
@@ -398,7 +497,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada FEM. AL",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018052627-catcombinadesserrahima.pdf",
+      "position": null,
       "internal_id": 905
     },
     {
@@ -409,7 +508,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada FEM. AL",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018052627-catcombinadesserrahima.pdf",
+      "position": null,
       "internal_id": 905
     },
     {
@@ -420,18 +519,7 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m FEM. AL",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018052627-catcombinadesserrahima.pdf",
-      "internal_id": 905
-    },
-    {
-      "athlete_name": "Silvia Vicente",
-      "athlete_dob": "31/07/2007",
-      "athlete_id": "CL77332",
-      "performance": "8.84",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m FEM. AL",
-      "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018052627-catcombinadesserrahima.pdf",
+      "position": null,
       "internal_id": 905
     }
   ]

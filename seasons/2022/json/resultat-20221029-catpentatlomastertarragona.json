@@ -1,18 +1,68 @@
 {
   "event_name": "Campionat de Catalunya de Pentatló Màster - Pista de Atletismo de Camp Clar, 29 octubre 2022",
   "event_date": "29/10/2022",
-  "event_location": "Camp Clar",
-  "total_results": 10,
+  "event_location": "Pista de Atletismo de Camp Clar",
+  "total_results": 45,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2022/10/resultat-20221029-catpentatlomastertarragona.pdf",
   "results": [
+    {
+      "athlete_name": "Francisco Javier Baz Vidal",
+      "athlete_dob": "02/12/1969",
+      "athlete_id": "CL8459",
+      "performance": "25.10",
+      "discipline": "Jabalina (700g) M50",
+      "wind": null,
+      "position": null,
+      "internal_id": 887
+    },
+    {
+      "athlete_name": "Francisco Javier Baz Vidal",
+      "athlete_dob": "02/12/1969",
+      "athlete_id": "CL8459",
+      "performance": "26.31",
+      "discipline": "Jabalina (700g) M50",
+      "wind": null,
+      "position": null,
+      "internal_id": 887
+    },
+    {
+      "athlete_name": "Francisco Javier Baz Vidal",
+      "athlete_dob": "02/12/1969",
+      "athlete_id": "CL8459",
+      "performance": "26.28",
+      "discipline": "Jabalina (700g) M50",
+      "wind": null,
+      "position": null,
+      "internal_id": 887
+    },
+    {
+      "athlete_name": "Francisco Javier Baz Vidal",
+      "athlete_dob": "02/12/1969",
+      "athlete_id": "CL8459",
+      "performance": "20.42",
+      "discipline": "Disco (1,5 Kg) M50",
+      "wind": null,
+      "position": null,
+      "internal_id": 887
+    },
+    {
+      "athlete_name": "Francisco Javier Baz Vidal",
+      "athlete_dob": "02/12/1969",
+      "athlete_id": "CL8459",
+      "performance": "22.93",
+      "discipline": "Disco (1,5 Kg) M50",
+      "wind": null,
+      "position": null,
+      "internal_id": 887
+    },
     {
       "athlete_name": "Josep Maria Mateo Sanz",
       "athlete_dob": "17/11/1964",
       "athlete_id": "CT19378",
       "performance": "4.97",
-      "discipline": "Llargada",
-      "raw_discipline_name": "LONGITUD M55",
+      "discipline": "LONGITUD M55",
       "wind": "-0.1",
+      "position": null,
       "internal_id": 343
     },
     {
@@ -20,9 +70,9 @@
       "athlete_dob": "17/11/1964",
       "athlete_id": "CT19378",
       "performance": "4.98",
-      "discipline": "Llargada",
-      "raw_discipline_name": "LONGITUD M55",
+      "discipline": "LONGITUD M55",
       "wind": "+0.1",
+      "position": null,
       "internal_id": 343
     },
     {
@@ -30,9 +80,9 @@
       "athlete_dob": "17/11/1964",
       "athlete_id": "CT19378",
       "performance": "24.28",
-      "discipline": "Javelina (700 g)",
-      "raw_discipline_name": "Jabalina (700g) M55",
+      "discipline": "Jabalina (700g) M55",
       "wind": null,
+      "position": null,
       "internal_id": 343
     },
     {
@@ -40,9 +90,9 @@
       "athlete_dob": "17/11/1964",
       "athlete_id": "CT19378",
       "performance": "25.31",
-      "discipline": "Javelina (700 g)",
-      "raw_discipline_name": "Jabalina (700g) M55",
+      "discipline": "Jabalina (700g) M55",
       "wind": null,
+      "position": null,
       "internal_id": 343
     },
     {
@@ -50,9 +100,9 @@
       "athlete_dob": "17/11/1964",
       "athlete_id": "CT19378",
       "performance": "25.79",
-      "discipline": "Javelina (700 g)",
-      "raw_discipline_name": "Jabalina (700g) M55",
+      "discipline": "Jabalina (700g) M55",
       "wind": null,
+      "position": null,
       "internal_id": 343
     },
     {
@@ -60,9 +110,9 @@
       "athlete_dob": "17/11/1964",
       "athlete_id": "CT19378",
       "performance": "27.67",
-      "discipline": "Javelina (700 g)",
-      "raw_discipline_name": "Jabalina (700g) M55",
+      "discipline": "Jabalina (700g) M55",
       "wind": null,
+      "position": null,
       "internal_id": 343
     },
     {
@@ -70,9 +120,9 @@
       "athlete_dob": "17/11/1964",
       "athlete_id": "CT19378",
       "performance": "25.97",
-      "discipline": "Disc (1,5 Kg)",
-      "raw_discipline_name": "Disco (1,5kg) M55",
+      "discipline": "Disco (1,5 Kg) M55",
       "wind": null,
+      "position": null,
       "internal_id": 343
     },
     {
@@ -80,9 +130,9 @@
       "athlete_dob": "17/11/1964",
       "athlete_id": "CT19378",
       "performance": "24.69",
-      "discipline": "Disc (1,5 Kg)",
-      "raw_discipline_name": "Disco (1,5kg) M55",
+      "discipline": "Disco (1,5 Kg) M55",
       "wind": null,
+      "position": null,
       "internal_id": 343
     },
     {
@@ -90,9 +140,9 @@
       "athlete_dob": "17/11/1964",
       "athlete_id": "CT19378",
       "performance": "24.31",
-      "discipline": "Disc (1,5 Kg)",
-      "raw_discipline_name": "Disco (1,5kg) M55",
+      "discipline": "Disco (1,5 Kg) M55",
       "wind": null,
+      "position": null,
       "internal_id": 343
     },
     {
@@ -100,10 +150,310 @@
       "athlete_dob": "17/11/1964",
       "athlete_id": "CT19378",
       "performance": "32.77",
-      "discipline": "Disc (1,5 Kg)",
-      "raw_discipline_name": "Disco (1,5kg) M55",
+      "discipline": "Disco (1,5 Kg) M55",
       "wind": null,
+      "position": null,
       "internal_id": 343
+    },
+    {
+      "athlete_name": "Francesc Mosquera Pages",
+      "athlete_dob": "07/09/1956",
+      "athlete_id": "CT1501",
+      "performance": "2.80",
+      "discipline": "LONGITUD M65",
+      "wind": null,
+      "position": null,
+      "internal_id": 855
+    },
+    {
+      "athlete_name": "Francesc Mosquera Pages",
+      "athlete_dob": "07/09/1956",
+      "athlete_id": "CT1501",
+      "performance": "33.58",
+      "discipline": "Jabalina (600g) M65",
+      "wind": null,
+      "position": null,
+      "internal_id": 855
+    },
+    {
+      "athlete_name": "Francesc Mosquera Pages",
+      "athlete_dob": "07/09/1956",
+      "athlete_id": "CT1501",
+      "performance": "32.50",
+      "discipline": "Jabalina (600g) M65",
+      "wind": null,
+      "position": null,
+      "internal_id": 855
+    },
+    {
+      "athlete_name": "Francesc Mosquera Pages",
+      "athlete_dob": "07/09/1956",
+      "athlete_id": "CT1501",
+      "performance": "30.70",
+      "discipline": "Disco (1 Kg) M65",
+      "wind": null,
+      "position": null,
+      "internal_id": 855
+    },
+    {
+      "athlete_name": "Luis Saez Perez",
+      "athlete_dob": "01/03/1949",
+      "athlete_id": "CT17487",
+      "performance": "2.87",
+      "discipline": "LONGITUD M70",
+      "wind": null,
+      "position": null,
+      "internal_id": 304
+    },
+    {
+      "athlete_name": "Luis Saez Perez",
+      "athlete_dob": "01/03/1949",
+      "athlete_id": "CT17487",
+      "performance": "23.86",
+      "discipline": "Jabalina (500g) M70",
+      "wind": null,
+      "position": null,
+      "internal_id": 304
+    },
+    {
+      "athlete_name": "Luis Saez Perez",
+      "athlete_dob": "01/03/1949",
+      "athlete_id": "CT17487",
+      "performance": "47.00",
+      "discipline": "Jabalina (500g) M70",
+      "wind": null,
+      "position": null,
+      "internal_id": 304
+    },
+    {
+      "athlete_name": "Luis Saez Perez",
+      "athlete_dob": "01/03/1949",
+      "athlete_id": "CT17487",
+      "performance": "22.21",
+      "discipline": "Disco (1 Kg) M70",
+      "wind": null,
+      "position": null,
+      "internal_id": 304
+    },
+    {
+      "athlete_name": "Luis Saez Perez",
+      "athlete_dob": "01/03/1949",
+      "athlete_id": "CT17487",
+      "performance": "21.26",
+      "discipline": "Disco (1 Kg) M70",
+      "wind": null,
+      "position": null,
+      "internal_id": 304
+    },
+    {
+      "athlete_name": "Luis Saez Perez",
+      "athlete_dob": "01/03/1949",
+      "athlete_id": "CT17487",
+      "performance": "22.59",
+      "discipline": "Disco (1 Kg) M70",
+      "wind": null,
+      "position": null,
+      "internal_id": 304
+    },
+    {
+      "athlete_name": "Francisco Griñant Almagro",
+      "athlete_dob": "04/08/1947",
+      "athlete_id": "CT18394",
+      "performance": "3.48",
+      "discipline": "LONGITUD M75",
+      "wind": "+1.5",
+      "position": null,
+      "internal_id": 326
+    },
+    {
+      "athlete_name": "Francisco Griñant Almagro",
+      "athlete_dob": "04/08/1947",
+      "athlete_id": "CT18394",
+      "performance": "3.17",
+      "discipline": "LONGITUD M75",
+      "wind": "+0.1",
+      "position": null,
+      "internal_id": 326
+    },
+    {
+      "athlete_name": "Francisco Griñant Almagro",
+      "athlete_dob": "04/08/1947",
+      "athlete_id": "CT18394",
+      "performance": "3.40",
+      "discipline": "LONGITUD M75",
+      "wind": "+1.6",
+      "position": null,
+      "internal_id": 326
+    },
+    {
+      "athlete_name": "Francisco Griñant Almagro",
+      "athlete_dob": "04/08/1947",
+      "athlete_id": "CT18394",
+      "performance": "13.72",
+      "discipline": "Jabalina (500g) M75",
+      "wind": null,
+      "position": null,
+      "internal_id": 326
+    },
+    {
+      "athlete_name": "Francisco Griñant Almagro",
+      "athlete_dob": "04/08/1947",
+      "athlete_id": "CT18394",
+      "performance": "39.86",
+      "discipline": "Jabalina (500g) M75",
+      "wind": null,
+      "position": null,
+      "internal_id": 326
+    },
+    {
+      "athlete_name": "Francisco Griñant Almagro",
+      "athlete_dob": "04/08/1947",
+      "athlete_id": "CT18394",
+      "performance": "19.49",
+      "discipline": "Disco (1 Kg) M75",
+      "wind": null,
+      "position": null,
+      "internal_id": 326
+    },
+    {
+      "athlete_name": "Francisco Griñant Almagro",
+      "athlete_dob": "04/08/1947",
+      "athlete_id": "CT18394",
+      "performance": "19.94",
+      "discipline": "Disco (1 Kg) M75",
+      "wind": null,
+      "position": null,
+      "internal_id": 326
+    },
+    {
+      "athlete_name": "Francisco Griñant Almagro",
+      "athlete_dob": "04/08/1947",
+      "athlete_id": "CT18394",
+      "performance": "19.83",
+      "discipline": "Disco (1 Kg) M75",
+      "wind": null,
+      "position": null,
+      "internal_id": 326
+    },
+    {
+      "athlete_name": "Francisco Griñant Almagro",
+      "athlete_dob": "04/08/1947",
+      "athlete_id": "CT18394",
+      "performance": "36.52",
+      "discipline": "Disco (1 Kg) M75",
+      "wind": null,
+      "position": null,
+      "internal_id": 326
+    },
+    {
+      "athlete_name": "Francisco Griñant",
+      "athlete_dob": "04/08/1947",
+      "athlete_id": "CT18394",
+      "performance": "3.48",
+      "discipline": "Jabalina (500g)",
+      "wind": null,
+      "position": null,
+      "internal_id": 326
+    },
+    {
+      "athlete_name": "Francisco Griñant",
+      "athlete_dob": "04/08/1947",
+      "athlete_id": "CT18394",
+      "performance": "13.72",
+      "discipline": "Jabalina (500g)",
+      "wind": null,
+      "position": null,
+      "internal_id": 326
+    },
+    {
+      "athlete_name": "Francisco Griñant",
+      "athlete_dob": "04/08/1947",
+      "athlete_id": "CT18394",
+      "performance": "39.86",
+      "discipline": "Jabalina (500g)",
+      "wind": null,
+      "position": null,
+      "internal_id": 326
+    },
+    {
+      "athlete_name": "Francisco Griñant",
+      "athlete_dob": "04/08/1947",
+      "athlete_id": "CT18394",
+      "performance": "19.94",
+      "discipline": "Jabalina (500g)",
+      "wind": null,
+      "position": null,
+      "internal_id": 326
+    },
+    {
+      "athlete_name": "Gemma Sole Boronat",
+      "athlete_dob": "01/11/1967",
+      "athlete_id": "CT29376",
+      "performance": "15.64",
+      "discipline": "Jabalina (500g)",
+      "wind": null,
+      "position": null,
+      "internal_id": 648
+    },
+    {
+      "athlete_name": "Gemma Sole Boronat",
+      "athlete_dob": "01/11/1967",
+      "athlete_id": "CT29376",
+      "performance": "1.19",
+      "discipline": "Altura F50",
+      "wind": null,
+      "position": null,
+      "internal_id": 648
+    },
+    {
+      "athlete_name": "Gemma Sole Boronat",
+      "athlete_dob": "01/11/1967",
+      "athlete_id": "CT29376",
+      "performance": "7.59",
+      "discipline": "Peso (3 Kg) F50",
+      "wind": null,
+      "position": null,
+      "internal_id": 648
+    },
+    {
+      "athlete_name": "Gemma Sole Boronat",
+      "athlete_dob": "01/11/1967",
+      "athlete_id": "CT29376",
+      "performance": "7.55",
+      "discipline": "Peso (3 Kg) F50",
+      "wind": null,
+      "position": null,
+      "internal_id": 648
+    },
+    {
+      "athlete_name": "Gemma Sole Boronat",
+      "athlete_dob": "01/11/1967",
+      "athlete_id": "CT29376",
+      "performance": "6.97",
+      "discipline": "Peso (3 Kg) F50",
+      "wind": null,
+      "position": null,
+      "internal_id": 648
+    },
+    {
+      "athlete_name": "Gemma Sole Boronat",
+      "athlete_dob": "01/11/1967",
+      "athlete_id": "CT29376",
+      "performance": "3.35",
+      "discipline": "Longitud F50",
+      "wind": "+1.2",
+      "position": null,
+      "internal_id": 648
+    },
+    {
+      "athlete_name": "Gemma Sole Boronat",
+      "athlete_dob": "01/11/1967",
+      "athlete_id": "CT29376",
+      "performance": "07.16",
+      "discipline": "Longitud F50",
+      "wind": null,
+      "position": null,
+      "internal_id": 648
     }
   ]
 }

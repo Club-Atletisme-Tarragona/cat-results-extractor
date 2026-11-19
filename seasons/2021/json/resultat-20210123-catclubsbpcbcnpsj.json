@@ -1,38 +1,178 @@
 {
   "event_name": "",
   "event_date": "23/01/2021",
-  "event_location": "Vilafranca",
-  "total_results": 6,
+  "event_location": "Barcelona - Palau Sant Jordi",
+  "total_results": 45,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/2021/01/resultat-20210123-catclubsbpcbcnpsj.pdf",
   "results": [
     {
-      "athlete_name": "Javier Almale Lerin",
+      "athlete_name": "Javier Almale Lerin PM",
       "athlete_dob": "23/02/2000",
       "athlete_id": "CT24373",
       "performance": "7.53",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m MASC. PC",
+      "discipline": "60m MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 510
+    },
+    {
+      "athlete_name": "Jan Sans Riola",
+      "athlete_dob": "23/10/1998",
+      "athlete_id": "CT22783",
+      "performance": "22.30",
+      "discipline": "200m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 435
+    },
+    {
+      "athlete_name": "Pol Aixala Guiu",
+      "athlete_dob": "04/12/2004",
+      "athlete_id": "CT438",
+      "performance": "0:53.32",
+      "discipline": "400m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 733
+    },
+    {
+      "athlete_name": "Aleix Lago Garbajosa",
+      "athlete_dob": "26/09/2002",
+      "athlete_id": "CT264",
+      "performance": "2:03.07",
+      "discipline": "800m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 660
+    },
+    {
+      "athlete_name": "Hugo Rodriguez Martinez",
+      "athlete_dob": "25/02/2004",
+      "athlete_id": "CT27323",
+      "performance": "4:19.60",
+      "discipline": "1.500m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 777
+    },
+    {
+      "athlete_name": "Xavier Ros Borrell",
+      "athlete_dob": "19/05/1998",
+      "athlete_id": "CL22779",
+      "performance": "9:24.32",
+      "discipline": "3.000m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 439
+    },
+    {
+      "athlete_name": "Pablo Angel Fernandez",
+      "athlete_dob": "26/01/2003",
+      "athlete_id": "CT28510",
+      "performance": "8.75",
+      "discipline": "60m tanques (1,067) MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 704
+    },
+    {
+      "athlete_name": "Didac Rios Meseguer",
+      "athlete_dob": "19/04/1985",
+      "athlete_id": "CL14019",
+      "performance": "1.60",
+      "discipline": "Alçada MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 193
     },
     {
       "athlete_name": "Huc Pentinat Llurba",
       "athlete_dob": "06/04/2002",
       "athlete_id": "CL85",
       "performance": "3.90",
-      "discipline": "Perxa",
-      "raw_discipline_name": "Perxa MASC. PC",
+      "discipline": "Perxa MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 741
+    },
+    {
+      "athlete_name": "Edgar Jose Diaz",
+      "athlete_dob": "08/04/2002",
+      "athlete_id": "CL27846",
+      "performance": "5.79",
+      "discipline": "Llargada MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 653
+    },
+    {
+      "athlete_name": "Edgar Jose Diaz",
+      "athlete_dob": "08/04/2002",
+      "athlete_id": "CL27846",
+      "performance": "5.99",
+      "discipline": "Llargada MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 653
+    },
+    {
+      "athlete_name": "Edgar Jose Diaz",
+      "athlete_dob": "08/04/2002",
+      "athlete_id": "CL27846",
+      "performance": "5.57",
+      "discipline": "Llargada MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 653
+    },
+    {
+      "athlete_name": "Edgar Jose Diaz",
+      "athlete_dob": "08/04/2002",
+      "athlete_id": "CL27846",
+      "performance": "5.72",
+      "discipline": "Llargada MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 653
+    },
+    {
+      "athlete_name": "Marc Jose Diaz",
+      "athlete_dob": "08/01/1993",
+      "athlete_id": "CL17220",
+      "performance": "12.12",
+      "discipline": "Triple Salt MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 294
+    },
+    {
+      "athlete_name": "Marc Jose Diaz",
+      "athlete_dob": "08/01/1993",
+      "athlete_id": "CL17220",
+      "performance": "11.81",
+      "discipline": "Triple Salt MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 294
+    },
+    {
+      "athlete_name": "Marc Jose Diaz",
+      "athlete_dob": "08/01/1993",
+      "athlete_id": "CL17220",
+      "performance": "11.55",
+      "discipline": "Triple Salt MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 294
     },
     {
       "athlete_name": "Didac Exposito Garcia",
       "athlete_dob": "04/08/1973",
       "athlete_id": "CT3967",
       "performance": "10.48",
-      "discipline": "Pes (7.260 Kg)",
-      "raw_discipline_name": "Pes (7,260kg) MASC. PC",
+      "discipline": "Pes (7,260 Kg) MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 44
     },
     {
@@ -40,9 +180,9 @@
       "athlete_dob": "04/08/1973",
       "athlete_id": "CT3967",
       "performance": "11.27",
-      "discipline": "Pes (7.260 Kg)",
-      "raw_discipline_name": "Pes (7,260kg) MASC. PC",
+      "discipline": "Pes (7,260 Kg) MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 44
     },
     {
@@ -50,9 +190,9 @@
       "athlete_dob": "04/08/1973",
       "athlete_id": "CT3967",
       "performance": "10.97",
-      "discipline": "Pes (7.260 Kg)",
-      "raw_discipline_name": "Pes (7,260kg) MASC. PC",
+      "discipline": "Pes (7,260 Kg) MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 44
     },
     {
@@ -60,10 +200,260 @@
       "athlete_dob": "04/08/1973",
       "athlete_id": "CT3967",
       "performance": "11.08",
-      "discipline": "Pes (7.260 Kg)",
-      "raw_discipline_name": "Pes (7,260kg) MASC. PC",
+      "discipline": "Pes (7,260 Kg) MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 44
+    },
+    {
+      "athlete_name": "Pol Aixala Guiu",
+      "athlete_dob": "04/12/2004",
+      "athlete_id": "CT438",
+      "performance": "3:39.59",
+      "discipline": "4x400m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 733
+    },
+    {
+      "athlete_name": "Guifre De Los Rios Blanch",
+      "athlete_dob": "09/06/2003",
+      "athlete_id": "CT464",
+      "performance": "3:39.59",
+      "discipline": "4x400m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 697
+    },
+    {
+      "athlete_name": "Gerard Parera Bodi",
+      "athlete_dob": "22/01/2000",
+      "athlete_id": "CL25156",
+      "performance": "3:39.59",
+      "discipline": "4x400m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 522
+    },
+    {
+      "athlete_name": "Ricard Prio Roca",
+      "athlete_dob": "12/05/2004",
+      "athlete_id": "CL3014",
+      "performance": "3:39.59",
+      "discipline": "4x400m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 778
+    },
+    {
+      "athlete_name": "Natalia Sanchez Alvarez",
+      "athlete_dob": "28/05/2005",
+      "athlete_id": "CT29768",
+      "performance": "8.53",
+      "discipline": "60m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 796
+    },
+    {
+      "athlete_name": "Laura Yan Sole Barba",
+      "athlete_dob": "31/10/2003",
+      "athlete_id": "CT371",
+      "performance": "27.00",
+      "discipline": "200m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 701
+    },
+    {
+      "athlete_name": "Claudia Mir Casellas",
+      "athlete_dob": "02/08/2003",
+      "athlete_id": "CT152",
+      "performance": "1:02.44",
+      "discipline": "400m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 699
+    },
+    {
+      "athlete_name": "Carla Gonzalez Carrillo",
+      "athlete_dob": "05/06/2003",
+      "athlete_id": "CL29242",
+      "performance": "2:31.87",
+      "discipline": "800m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 698
+    },
+    {
+      "athlete_name": "Maria Buscail Brianso PF",
+      "athlete_dob": "15/12/2000",
+      "athlete_id": "CT187",
+      "performance": "5:27.12",
+      "discipline": "1.500m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 520
+    },
+    {
+      "athlete_name": "Cristina Iniesta Acera",
+      "athlete_dob": "27/02/2004",
+      "athlete_id": "CL78440",
+      "performance": "12:39.79",
+      "discipline": "3.000m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 742
+    },
+    {
+      "athlete_name": "Mireia Lopez Urbano PF",
+      "athlete_dob": "07/12/2000",
+      "athlete_id": "CT23556",
+      "performance": "8.82",
+      "discipline": "60m tanques (0,84) FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 527
+    },
+    {
+      "athlete_name": "Maria Falco Cuenca",
+      "athlete_dob": "14/06/2002",
+      "athlete_id": "CT27273",
+      "performance": "1.50",
+      "discipline": "Alçada FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 664
+    },
+    {
+      "athlete_name": "Ariadna Alonso Del Campo",
+      "athlete_dob": "06/09/2003",
+      "athlete_id": "CT487",
+      "performance": "2.60",
+      "discipline": "Perxa FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 703
+    },
+    {
+      "athlete_name": "Nuria Caballero Pacheco",
+      "athlete_dob": "09/10/2001",
+      "athlete_id": "CT25812",
+      "performance": "5.39",
+      "discipline": "Llargada FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 753
+    },
+    {
+      "athlete_name": "Laurine Elisa Marimon Fernandez",
+      "athlete_dob": "17/09/2004",
+      "athlete_id": "CT28409",
+      "performance": "11.36",
+      "discipline": "Triple Salt FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 737
+    },
+    {
+      "athlete_name": "Laurine Elisa Marimon Fernandez",
+      "athlete_dob": "17/09/2004",
+      "athlete_id": "CT28409",
+      "performance": "11.69",
+      "discipline": "Triple Salt FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 737
+    },
+    {
+      "athlete_name": "Laurine Elisa Marimon Fernandez",
+      "athlete_dob": "17/09/2004",
+      "athlete_id": "CT28409",
+      "performance": "11.35",
+      "discipline": "Triple Salt FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 737
+    },
+    {
+      "athlete_name": "Marina Tibau Sendra",
+      "athlete_dob": "06/08/1995",
+      "athlete_id": "CL20392",
+      "performance": "10.38",
+      "discipline": "Pes (4 Kg) FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 359
+    },
+    {
+      "athlete_name": "Marina Tibau Sendra",
+      "athlete_dob": "06/08/1995",
+      "athlete_id": "CL20392",
+      "performance": "9.38",
+      "discipline": "Pes (4 Kg) FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 359
+    },
+    {
+      "athlete_name": "Marina Tibau Sendra",
+      "athlete_dob": "06/08/1995",
+      "athlete_id": "CL20392",
+      "performance": "8.58",
+      "discipline": "Pes (4 Kg) FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 359
+    },
+    {
+      "athlete_name": "Marina Tibau Sendra",
+      "athlete_dob": "06/08/1995",
+      "athlete_id": "CL20392",
+      "performance": "9.28",
+      "discipline": "Pes (4 Kg) FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 359
+    },
+    {
+      "athlete_name": "Mireia Lopez Urbano",
+      "athlete_dob": "07/12/2000",
+      "athlete_id": "CT23556",
+      "performance": "4:13.81",
+      "discipline": "4x400m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 527
+    },
+    {
+      "athlete_name": "Claudia Mir Casellas",
+      "athlete_dob": "02/08/2003",
+      "athlete_id": "CT152",
+      "performance": "4:13.81",
+      "discipline": "4x400m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 699
+    },
+    {
+      "athlete_name": "Laura Yan Sole Barba",
+      "athlete_dob": "31/10/2003",
+      "athlete_id": "CT371",
+      "performance": "4:13.81",
+      "discipline": "4x400m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 701
+    },
+    {
+      "athlete_name": "Judit Ravell Sole",
+      "athlete_dob": "21/01/2004",
+      "athlete_id": "CL94422",
+      "performance": "4:13.81",
+      "discipline": "4x400m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 736
     }
   ]
 }

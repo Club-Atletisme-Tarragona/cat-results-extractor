@@ -2,17 +2,77 @@
   "event_name": "Control Absolut",
   "event_date": "08/05/2021",
   "event_location": "Cornellà de Llobregat",
-  "total_results": 5,
+  "total_results": 11,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/05/resultat-20210508-controlabsolutcornella.pdf",
   "results": [
+    {
+      "athlete_name": "201 Mireia Lopez Urbano PF 5",
+      "athlete_dob": "07/12/2000",
+      "athlete_id": "CT23556",
+      "performance": "NP",
+      "discipline": "100m vallas (0,84) FEM. AL",
+      "wind": "+4.2",
+      "position": null,
+      "internal_id": 527
+    },
+    {
+      "athlete_name": "Joana Antonia Domingo Ingles",
+      "athlete_dob": "17/01/1999",
+      "athlete_id": "CL25668",
+      "performance": "30.68",
+      "discipline": "Disco (1 Kg) FEM.",
+      "wind": null,
+      "position": null,
+      "internal_id": 476
+    },
+    {
+      "athlete_name": "Joana Antonia Domingo Ingles",
+      "athlete_dob": "17/01/1999",
+      "athlete_id": "CL25668",
+      "performance": "33.50",
+      "discipline": "Disco (1 Kg) FEM.",
+      "wind": null,
+      "position": null,
+      "internal_id": 476
+    },
+    {
+      "athlete_name": "Joana Antonia Domingo Ingles",
+      "athlete_dob": "17/01/1999",
+      "athlete_id": "CL25668",
+      "performance": "32.45",
+      "discipline": "Disco (1 Kg) FEM.",
+      "wind": null,
+      "position": null,
+      "internal_id": 476
+    },
+    {
+      "athlete_name": "Joana Antonia Domingo Ingles",
+      "athlete_dob": "17/01/1999",
+      "athlete_id": "CL25668",
+      "performance": "32.09",
+      "discipline": "Disco (1 Kg) FEM.",
+      "wind": null,
+      "position": null,
+      "internal_id": 476
+    },
+    {
+      "athlete_name": "Joana Antonia Domingo Ingles",
+      "athlete_dob": "17/01/1999",
+      "athlete_id": "CL25668",
+      "performance": "32.14",
+      "discipline": "Disco (1 Kg) FEM.",
+      "wind": null,
+      "position": null,
+      "internal_id": 476
+    },
     {
       "athlete_name": "Maria Bertran Sastre",
       "athlete_dob": "29/11/1987",
       "athlete_id": "CT13540",
       "performance": "35.75",
-      "discipline": "Martell (4 Kg)",
-      "raw_discipline_name": "Martillo (4kg) FEM.",
+      "discipline": "Martillo (4 Kg) FEM.",
       "wind": null,
+      "position": null,
       "internal_id": 184
     },
     {
@@ -20,9 +80,9 @@
       "athlete_dob": "29/11/1987",
       "athlete_id": "CT13540",
       "performance": "33.47",
-      "discipline": "Martell (4 Kg)",
-      "raw_discipline_name": "Martillo (4kg) FEM.",
+      "discipline": "Martillo (4 Kg) FEM.",
       "wind": null,
+      "position": null,
       "internal_id": 184
     },
     {
@@ -30,9 +90,9 @@
       "athlete_dob": "29/11/1987",
       "athlete_id": "CT13540",
       "performance": "30.70",
-      "discipline": "Martell (4 Kg)",
-      "raw_discipline_name": "Martillo (4kg) FEM.",
+      "discipline": "Martillo (4 Kg) FEM.",
       "wind": null,
+      "position": null,
       "internal_id": 184
     },
     {
@@ -40,9 +100,9 @@
       "athlete_dob": "29/11/1987",
       "athlete_id": "CT13540",
       "performance": "35.25",
-      "discipline": "Martell (4 Kg)",
-      "raw_discipline_name": "Martillo (4kg) FEM.",
+      "discipline": "Martillo (4 Kg) FEM.",
       "wind": null,
+      "position": null,
       "internal_id": 184
     },
     {
@@ -50,9 +110,9 @@
       "athlete_dob": "29/11/1987",
       "athlete_id": "CT13540",
       "performance": "33.14",
-      "discipline": "Martell (4 Kg)",
-      "raw_discipline_name": "Martillo (4kg) FEM.",
+      "discipline": "Martillo (4 Kg) FEM.",
       "wind": null,
+      "position": null,
       "internal_id": 184
     }
   ]

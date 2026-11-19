@@ -2,7 +2,7 @@
   "event_name": "Jornada Final Campionat Catalunya Sub10",
   "event_date": "22/06/2019",
   "event_location": "Lleida",
-  "total_results": 3,
+  "total_results": 6,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20190622-catsub10finallleida.pdf",
   "results": [
     {
@@ -10,9 +10,9 @@
       "athlete_dob": "27/08/2010",
       "athlete_id": "CL94383",
       "performance": "3.45",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada SUB10 MASC. AL",
+      "discipline": "Llargada SUB10 MASC. AL",
       "wind": null,
+      "position": 3,
       "internal_id": 1055
     },
     {
@@ -20,9 +20,9 @@
       "athlete_dob": "23/02/2010",
       "athlete_id": "CL90833",
       "performance": "3:44.17",
-      "discipline": "1000 metres marxa",
-      "raw_discipline_name": "1.000m Marxa SUB10 MASC. en pista",
+      "discipline": "1.000m Marxa SUB10 MASC. en pista",
       "wind": null,
+      "position": 7,
       "internal_id": 1081
     },
     {
@@ -30,10 +30,40 @@
       "athlete_dob": "05/02/2010",
       "athlete_id": "CL90841",
       "performance": "3:47.38",
-      "discipline": "1000 metres marxa",
-      "raw_discipline_name": "1.000m Marxa SUB10 MASC. en pista",
+      "discipline": "1.000m Marxa SUB10 MASC. en pista",
       "wind": null,
+      "position": 10,
       "internal_id": 1089
+    },
+    {
+      "athlete_name": "Nora Montolio Amaro",
+      "athlete_dob": "05/02/2010",
+      "athlete_id": "CL90841",
+      "performance": "3.01",
+      "discipline": "Llargada SUB10 FEM. AL",
+      "wind": null,
+      "position": 9,
+      "internal_id": 1089
+    },
+    {
+      "athlete_name": "Paula Diez Plasencia",
+      "athlete_dob": "15/11/2010",
+      "athlete_id": "CL90832",
+      "performance": "5:38.79",
+      "discipline": "1.000m Marxa SUB10 FEM. en pista",
+      "wind": null,
+      "position": 4,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Irene De La Rosa Fortuny",
+      "athlete_dob": "07/03/2011",
+      "athlete_id": "CL94381",
+      "performance": "6:13.74",
+      "discipline": "1.000m Marxa SUB10 FEM. en pista",
+      "wind": null,
+      "position": 10,
+      "internal_id": null
     }
   ]
 }

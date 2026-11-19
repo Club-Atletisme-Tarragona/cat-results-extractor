@@ -1,18 +1,41 @@
 {
   "event_name": "Control Social FACVAC 10 maig",
-  "event_date": "10/05/2018",
+  "event_date": "11/05/2018",
   "event_location": "Valls",
-  "total_results": 4,
+  "total_results": 6,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20180510-controlfacvacvalls.pdf",
   "results": [
+    {
+      "athlete_name": "Maria Falco Cuenca",
+      "athlete_dob": "14/06/2002",
+      "athlete_id": "CT27273",
+      "performance": "1.50",
+      "discipline": "Alçada",
+      "raw_discipline_name": "Altura FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 664
+    },
+    {
+      "athlete_name": "Alba Carvajal Garcia",
+      "athlete_dob": "18/09/2002",
+      "athlete_id": "CL27858",
+      "performance": "1.38",
+      "discipline": "Alçada",
+      "raw_discipline_name": "Altura FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 670
+    },
     {
       "athlete_name": "Nuria Menchon Tevar",
       "athlete_dob": "25/06/2002",
       "athlete_id": "CL27849",
       "performance": "31.86",
       "discipline": "Martell (3 Kg)",
-      "raw_discipline_name": "Martillo (3kg) FEM.",
+      "raw_discipline_name": "Martillo (3 Kg) FEM.",
       "wind": null,
+      "position": null,
       "internal_id": 541
     },
     {
@@ -21,8 +44,9 @@
       "athlete_id": "CL27849",
       "performance": "31.67",
       "discipline": "Martell (3 Kg)",
-      "raw_discipline_name": "Martillo (3kg) FEM.",
+      "raw_discipline_name": "Martillo (3 Kg) FEM.",
       "wind": null,
+      "position": null,
       "internal_id": 541
     },
     {
@@ -31,8 +55,9 @@
       "athlete_id": "CL27849",
       "performance": "31.60",
       "discipline": "Martell (3 Kg)",
-      "raw_discipline_name": "Martillo (3kg) FEM.",
+      "raw_discipline_name": "Martillo (3 Kg) FEM.",
       "wind": null,
+      "position": null,
       "internal_id": 541
     },
     {
@@ -41,8 +66,9 @@
       "athlete_id": "CL27849",
       "performance": "30.93",
       "discipline": "Martell (3 Kg)",
-      "raw_discipline_name": "Martillo (3kg) FEM.",
+      "raw_discipline_name": "Martillo (3 Kg) FEM.",
       "wind": null,
+      "position": null,
       "internal_id": 541
     }
   ]

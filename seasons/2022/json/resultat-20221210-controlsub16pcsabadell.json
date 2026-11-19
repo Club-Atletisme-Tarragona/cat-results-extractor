@@ -1,8 +1,8 @@
 {
   "event_name": "Control Sub16 en Pista Coberta - Control Sub16 en Pista Coberta",
   "event_date": "10/12/2022",
-  "event_location": "Sabadell",
-  "total_results": 1,
+  "event_location": "Club                                             Lic",
+  "total_results": 2,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2022/12/resultat-20221210-controlsub16pcsabadell.pdf",
   "results": [
     {
@@ -10,9 +10,19 @@
       "athlete_dob": "16/03/2008",
       "athlete_id": "CL95144",
       "performance": "0:40.32",
-      "discipline": "300 metres llisos",
-      "raw_discipline_name": "300m MASC. PC",
+      "discipline": "300m MASC. PC",
       "wind": null,
+      "position": null,
+      "internal_id": 977
+    },
+    {
+      "athlete_name": "Jan Vives Fons",
+      "athlete_dob": "16/03/2008",
+      "athlete_id": "CL95144",
+      "performance": "9.64",
+      "discipline": "60m tanques (0,91) MASC. PC",
+      "wind": null,
+      "position": null,
       "internal_id": 977
     }
   ]

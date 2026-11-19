@@ -1,18 +1,48 @@
 {
   "event_name": "Control Pista Coberta Sub16 - Control Pista Coberta Sub16",
   "event_date": "23/12/2023",
-  "event_location": "Sabadell",
-  "total_results": 22,
+  "event_location": "Club                                            Lic",
+  "total_results": 33,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2023/12/resultat-20231223-controlsub16pcsabadell.pdf",
   "results": [
+    {
+      "athlete_name": "Joan Rich Salas",
+      "athlete_dob": "08/03/2009",
+      "athlete_id": "CL94407",
+      "performance": "7.77",
+      "discipline": "60m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1011
+    },
+    {
+      "athlete_name": "David Fernandez Pineda",
+      "athlete_dob": "18/06/2010",
+      "athlete_id": "CL11323",
+      "performance": "8.66",
+      "discipline": "60m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1078
+    },
+    {
+      "athlete_name": "Illan Tomas Batet",
+      "athlete_dob": "18/12/2009",
+      "athlete_id": "CL11106",
+      "performance": "8.58",
+      "discipline": "60m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1013
+    },
     {
       "athlete_name": "David Fernandez Pineda",
       "athlete_dob": "18/06/2010",
       "athlete_id": "CL11323",
       "performance": "0:45.78",
-      "discipline": "300 metres llisos",
-      "raw_discipline_name": "300m MASC. PC",
+      "discipline": "300m MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 1078
     },
     {
@@ -20,19 +50,29 @@
       "athlete_dob": "08/03/2009",
       "athlete_id": "CL94407",
       "performance": "0:40.27",
-      "discipline": "300 metres llisos",
-      "raw_discipline_name": "300m MASC. PC",
+      "discipline": "300m MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 1011
     },
     {
       "athlete_name": "Pau Esteve Hostalot",
       "athlete_dob": "27/08/2010",
       "athlete_id": "CL94383",
-      "performance": "10.04",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt MASC. PC NASCUTS 2010",
+      "performance": "10.44",
+      "discipline": "60m tanques (0,91) MASC. PC",
       "wind": null,
+      "position": null,
+      "internal_id": 1055
+    },
+    {
+      "athlete_name": "Pau Esteve Hostalot",
+      "athlete_dob": "27/08/2010",
+      "athlete_id": "CL94383",
+      "performance": "10.04",
+      "discipline": "Triple Salt MASC. PC NASCUTS 2010",
+      "wind": null,
+      "position": null,
       "internal_id": 1055
     },
     {
@@ -40,9 +80,9 @@
       "athlete_dob": "27/08/2010",
       "athlete_id": "CL94383",
       "performance": "9.64",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt MASC. PC NASCUTS 2010",
+      "discipline": "Triple Salt MASC. PC NASCUTS 2010",
       "wind": null,
+      "position": null,
       "internal_id": 1055
     },
     {
@@ -50,9 +90,9 @@
       "athlete_dob": "27/08/2010",
       "athlete_id": "CL94383",
       "performance": "9.90",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt MASC. PC NASCUTS 2010",
+      "discipline": "Triple Salt MASC. PC NASCUTS 2010",
       "wind": null,
+      "position": null,
       "internal_id": 1055
     },
     {
@@ -60,9 +100,9 @@
       "athlete_dob": "27/08/2010",
       "athlete_id": "CL94383",
       "performance": "10.19",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt MASC. PC NASCUTS 2010",
+      "discipline": "Triple Salt MASC. PC NASCUTS 2010",
       "wind": null,
+      "position": null,
       "internal_id": 1055
     },
     {
@@ -70,19 +110,89 @@
       "athlete_dob": "27/08/2010",
       "athlete_id": "CL94383",
       "performance": "10.14",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt MASC. PC NASCUTS 2010",
+      "discipline": "Triple Salt MASC. PC NASCUTS 2010",
       "wind": null,
+      "position": null,
       "internal_id": 1055
     },
     {
       "athlete_name": "Noa Anton Paterna",
       "athlete_dob": "20/01/2010",
       "athlete_id": "CL90450",
-      "performance": "5.04",
-      "discipline": "Llargada",
-      "raw_discipline_name": "LLargada FEM. PC NASCUDES 2010",
+      "performance": "8.04",
+      "discipline": "60m FEM. PC",
       "wind": null,
+      "position": null,
+      "internal_id": 1016
+    },
+    {
+      "athlete_name": "Olivia Ruiz Barbera",
+      "athlete_dob": "24/04/2009",
+      "athlete_id": "CL3439",
+      "performance": "0:44.80",
+      "discipline": "300m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1018
+    },
+    {
+      "athlete_name": "Clara Ortiz De Landazuri Ontoso",
+      "athlete_dob": "04/12/2009",
+      "athlete_id": "CT2195",
+      "performance": "1:46.46",
+      "discipline": "600m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1022
+    },
+    {
+      "athlete_name": "Duina Borreda Cervello",
+      "athlete_dob": "26/12/2010",
+      "athlete_id": "CL90830",
+      "performance": "1:55.31",
+      "discipline": "600m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Nora Montolio Amaro",
+      "athlete_dob": "05/02/2010",
+      "athlete_id": "CL90841",
+      "performance": "3:27.76",
+      "discipline": "1.000m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1089
+    },
+    {
+      "athlete_name": "Noemi Gonzalez Carrillo",
+      "athlete_dob": "04/04/2009",
+      "athlete_id": "CL86462",
+      "performance": "3:34.51",
+      "discipline": "1.000m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1030
+    },
+    {
+      "athlete_name": "Alba Guijarro Rom",
+      "athlete_dob": "08/07/2010",
+      "athlete_id": "CL90465",
+      "performance": "1.25",
+      "discipline": "Alçada FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1074
+    },
+    {
+      "athlete_name": "Noa Anton Paterna",
+      "athlete_dob": "20/01/2010",
+      "athlete_id": "CL90450",
+      "performance": "5.04",
+      "discipline": "LLargada FEM. PC NASCUDES 2010",
+      "wind": null,
+      "position": null,
       "internal_id": 1016
     },
     {
@@ -90,9 +200,9 @@
       "athlete_dob": "20/01/2010",
       "athlete_id": "CL90450",
       "performance": "4.30",
-      "discipline": "Llargada",
-      "raw_discipline_name": "LLargada FEM. PC NASCUDES 2010",
+      "discipline": "LLargada FEM. PC NASCUDES 2010",
       "wind": null,
+      "position": null,
       "internal_id": 1016
     },
     {
@@ -100,9 +210,9 @@
       "athlete_dob": "20/01/2010",
       "athlete_id": "CL90450",
       "performance": "4.35",
-      "discipline": "Llargada",
-      "raw_discipline_name": "LLargada FEM. PC NASCUDES 2010",
+      "discipline": "LLargada FEM. PC NASCUDES 2010",
       "wind": null,
+      "position": null,
       "internal_id": 1016
     },
     {
@@ -110,9 +220,9 @@
       "athlete_dob": "20/01/2010",
       "athlete_id": "CL90450",
       "performance": "4.72",
-      "discipline": "Llargada",
-      "raw_discipline_name": "LLargada FEM. PC NASCUDES 2010",
+      "discipline": "LLargada FEM. PC NASCUDES 2010",
       "wind": null,
+      "position": null,
       "internal_id": 1016
     },
     {
@@ -120,9 +230,9 @@
       "athlete_dob": "26/12/2010",
       "athlete_id": "CL90830",
       "performance": "4.00",
-      "discipline": "Llargada",
-      "raw_discipline_name": "LLargada FEM. PC NASCUDES 2010",
+      "discipline": "LLargada FEM. PC NASCUDES 2010",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -130,9 +240,9 @@
       "athlete_dob": "26/12/2010",
       "athlete_id": "CL90830",
       "performance": "4.18",
-      "discipline": "Llargada",
-      "raw_discipline_name": "LLargada FEM. PC NASCUDES 2010",
+      "discipline": "LLargada FEM. PC NASCUDES 2010",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -140,9 +250,9 @@
       "athlete_dob": "26/12/2010",
       "athlete_id": "CL90830",
       "performance": "4.16",
-      "discipline": "Llargada",
-      "raw_discipline_name": "LLargada FEM. PC NASCUDES 2010",
+      "discipline": "LLargada FEM. PC NASCUDES 2010",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -150,9 +260,9 @@
       "athlete_dob": "26/12/2010",
       "athlete_id": "CL90830",
       "performance": "4.44",
-      "discipline": "Llargada",
-      "raw_discipline_name": "LLargada FEM. PC NASCUDES 2010",
+      "discipline": "LLargada FEM. PC NASCUDES 2010",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -160,9 +270,9 @@
       "athlete_dob": "26/12/2010",
       "athlete_id": "CL90830",
       "performance": "4.48",
-      "discipline": "Llargada",
-      "raw_discipline_name": "LLargada FEM. PC NASCUDES 2010",
+      "discipline": "LLargada FEM. PC NASCUDES 2010",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -170,9 +280,9 @@
       "athlete_dob": "08/07/2010",
       "athlete_id": "CL90465",
       "performance": "4.13",
-      "discipline": "Llargada",
-      "raw_discipline_name": "LLargada FEM. PC NASCUDES 2010",
+      "discipline": "LLargada FEM. PC NASCUDES 2010",
       "wind": null,
+      "position": null,
       "internal_id": 1074
     },
     {
@@ -180,9 +290,9 @@
       "athlete_dob": "08/07/2010",
       "athlete_id": "CL90465",
       "performance": "4.17",
-      "discipline": "Llargada",
-      "raw_discipline_name": "LLargada FEM. PC NASCUDES 2010",
+      "discipline": "LLargada FEM. PC NASCUDES 2010",
       "wind": null,
+      "position": null,
       "internal_id": 1074
     },
     {
@@ -190,9 +300,9 @@
       "athlete_dob": "08/07/2010",
       "athlete_id": "CL90465",
       "performance": "3.30",
-      "discipline": "Llargada",
-      "raw_discipline_name": "LLargada FEM. PC NASCUDES 2010",
+      "discipline": "LLargada FEM. PC NASCUDES 2010",
       "wind": null,
+      "position": null,
       "internal_id": 1074
     },
     {
@@ -200,9 +310,9 @@
       "athlete_dob": "08/07/2010",
       "athlete_id": "CL90465",
       "performance": "3.85",
-      "discipline": "Llargada",
-      "raw_discipline_name": "LLargada FEM. PC NASCUDES 2010",
+      "discipline": "LLargada FEM. PC NASCUDES 2010",
       "wind": null,
+      "position": null,
       "internal_id": 1074
     },
     {
@@ -210,9 +320,9 @@
       "athlete_dob": "08/07/2010",
       "athlete_id": "CL90465",
       "performance": "4.01",
-      "discipline": "Llargada",
-      "raw_discipline_name": "LLargada FEM. PC NASCUDES 2010",
+      "discipline": "LLargada FEM. PC NASCUDES 2010",
       "wind": null,
+      "position": null,
       "internal_id": 1074
     },
     {
@@ -220,9 +330,9 @@
       "athlete_dob": "08/07/2010",
       "athlete_id": "CL90465",
       "performance": "4.02",
-      "discipline": "Llargada",
-      "raw_discipline_name": "LLargada FEM. PC NASCUDES 2010",
+      "discipline": "LLargada FEM. PC NASCUDES 2010",
       "wind": null,
+      "position": null,
       "internal_id": 1074
     }
   ]

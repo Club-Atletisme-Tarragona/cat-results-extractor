@@ -1,18 +1,98 @@
 {
   "event_name": "Campionat de Catalunya Sub16 en Pista Coberta - Campionat de Catalunya Sub16 en Pista Coberta",
   "event_date": "11/03/2023",
-  "event_location": "Sabadell",
-  "total_results": 3,
+  "event_location": "Club                                           Lic",
+  "total_results": 25,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2023/03/resultat-20230311-catsub16pcsabadell.pdf",
   "results": [
+    {
+      "athlete_name": "Victor Jimenez Garcia",
+      "athlete_dob": "25/05/2008",
+      "athlete_id": "CT1465",
+      "performance": "7.44",
+      "discipline": "60m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 958
+    },
+    {
+      "athlete_name": "Victor Jimenez Garcia",
+      "athlete_dob": "25/05/2008",
+      "athlete_id": "CT1465",
+      "performance": "7.41",
+      "discipline": "60m MASC. PC",
+      "wind": null,
+      "position": 4,
+      "internal_id": 958
+    },
+    {
+      "athlete_name": "Jan Vives Fons",
+      "athlete_dob": "16/03/2008",
+      "athlete_id": "CT2197",
+      "performance": "9.62",
+      "discipline": "60m tanques (0,91) MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 977
+    },
+    {
+      "athlete_name": "Matias Hernandez Sanchez",
+      "athlete_dob": "26/12/2008",
+      "athlete_id": "CT2196",
+      "performance": "9.19",
+      "discipline": "60m tanques (0,91) MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 999
+    },
+    {
+      "athlete_name": "Victor Jimenez Garcia",
+      "athlete_dob": "25/05/2008",
+      "athlete_id": "CT1465",
+      "performance": "6.22",
+      "discipline": "Llargada MASC. PC",
+      "wind": null,
+      "position": 1,
+      "internal_id": 958
+    },
+    {
+      "athlete_name": "Victor Jimenez Garcia",
+      "athlete_dob": "25/05/2008",
+      "athlete_id": "CT1465",
+      "performance": "6.24",
+      "discipline": "Llargada MASC. PC",
+      "wind": null,
+      "position": 1,
+      "internal_id": 958
+    },
+    {
+      "athlete_name": "Victor Jimenez Garcia",
+      "athlete_dob": "25/05/2008",
+      "athlete_id": "CT1465",
+      "performance": "6.50",
+      "discipline": "Llargada MASC. PC",
+      "wind": null,
+      "position": 1,
+      "internal_id": 958
+    },
+    {
+      "athlete_name": "Victor Jimenez Garcia",
+      "athlete_dob": "25/05/2008",
+      "athlete_id": "CT1465",
+      "performance": "6.27",
+      "discipline": "Llargada MASC. PC",
+      "wind": null,
+      "position": 1,
+      "internal_id": 958
+    },
     {
       "athlete_name": "Pau Crespo Beltran",
       "athlete_dob": "22/10/2008",
       "athlete_id": "CT1650",
       "performance": "11.91",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Pes (4kg) MASC. PC",
+      "discipline": "Pes (4 Kg) MASC. PC",
       "wind": null,
+      "position": 2,
       "internal_id": 971
     },
     {
@@ -20,9 +100,9 @@
       "athlete_dob": "22/10/2008",
       "athlete_id": "CT1650",
       "performance": "12.86",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Pes (4kg) MASC. PC",
+      "discipline": "Pes (4 Kg) MASC. PC",
       "wind": null,
+      "position": 2,
       "internal_id": 971
     },
     {
@@ -30,10 +110,150 @@
       "athlete_dob": "22/10/2008",
       "athlete_id": "CT1650",
       "performance": "12.68",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Pes (4kg) MASC. PC",
+      "discipline": "Pes (4 Kg) MASC. PC",
       "wind": null,
+      "position": 2,
       "internal_id": 971
+    },
+    {
+      "athlete_name": "Matias Hernandez Sanchez",
+      "athlete_dob": "26/12/2008",
+      "athlete_id": "CT2196",
+      "performance": "2:47.68",
+      "discipline": "4x300 MAS PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 999
+    },
+    {
+      "athlete_name": "Jan Vives Fons",
+      "athlete_dob": "16/03/2008",
+      "athlete_id": "CT2197",
+      "performance": "2:47.68",
+      "discipline": "4x300 MAS PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 977
+    },
+    {
+      "athlete_name": "Victor Jimenez Garcia",
+      "athlete_dob": "25/05/2008",
+      "athlete_id": "CT1465",
+      "performance": "2:47.68",
+      "discipline": "4x300 MAS PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 958
+    },
+    {
+      "athlete_name": "Marc Suarez Piza",
+      "athlete_dob": "29/04/2009",
+      "athlete_id": "CT2177",
+      "performance": "2:47.68",
+      "discipline": "4x300 MAS PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1017
+    },
+    {
+      "athlete_name": "Olivia Ruiz Barbera",
+      "athlete_dob": "24/04/2009",
+      "athlete_id": "CL3439",
+      "performance": "0:44.40",
+      "discipline": "300m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1018
+    },
+    {
+      "athlete_name": "Mireia Redondo Mendoza",
+      "athlete_dob": "10/06/2008",
+      "athlete_id": "CT1467",
+      "performance": "0:42.37",
+      "discipline": "300m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 957
+    },
+    {
+      "athlete_name": "445 Mireia Redondo Mendoza 1",
+      "athlete_dob": "10/06/2008",
+      "athlete_id": "CT1467",
+      "performance": "NP",
+      "discipline": "300m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 957
+    },
+    {
+      "athlete_name": "Iris Garrido Garcia",
+      "athlete_dob": "15/12/2008",
+      "athlete_id": "CT1617",
+      "performance": "1:50.70",
+      "discipline": "600m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 982
+    },
+    {
+      "athlete_name": "Clara Ortiz De Landazuri Ontoso",
+      "athlete_dob": "04/12/2009",
+      "athlete_id": "CT2195",
+      "performance": "3:09.38",
+      "discipline": "1.000m FEM. PC",
+      "wind": null,
+      "position": 3,
+      "internal_id": 1022
+    },
+    {
+      "athlete_name": "Lucia Echevarria Parafita",
+      "athlete_dob": "08/12/2008",
+      "athlete_id": "CL90745",
+      "performance": "1.53",
+      "discipline": "Alçada FEM. PC",
+      "wind": null,
+      "position": 6,
+      "internal_id": 987
+    },
+    {
+      "athlete_name": "Olivia Ruiz Barbera",
+      "athlete_dob": "24/04/2009",
+      "athlete_id": "CL3439",
+      "performance": "2:58.52",
+      "discipline": "4x300 FEM PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1018
+    },
+    {
+      "athlete_name": "Iris Garrido Garcia",
+      "athlete_dob": "15/12/2008",
+      "athlete_id": "CT1617",
+      "performance": "2:58.52",
+      "discipline": "4x300 FEM PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 982
+    },
+    {
+      "athlete_name": "Clara Ortiz De Landazuri Ontoso",
+      "athlete_dob": "04/12/2009",
+      "athlete_id": "CT2195",
+      "performance": "2:58.52",
+      "discipline": "4x300 FEM PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1022
+    },
+    {
+      "athlete_name": "Carla Borras Verges-tapiro",
+      "athlete_dob": "19/11/2008",
+      "athlete_id": "CL90097",
+      "performance": "2:58.52",
+      "discipline": "4x300 FEM PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 951
     }
   ]
 }

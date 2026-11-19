@@ -2,17 +2,139 @@
   "event_name": "Control Territorial d Hivern",
   "event_date": "17/02/2018",
   "event_location": "Amposta",
-  "total_results": 39,
+  "total_results": 50,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20180217-controlamposta.pdf",
   "results": [
+    {
+      "athlete_name": "148 (t) Joan Martorell Escobar 3",
+      "athlete_dob": "22/03/2007",
+      "athlete_id": "CL77324",
+      "performance": "NP",
+      "discipline": "600 metres llisos",
+      "raw_discipline_name": "600m MASC. Alv",
+      "wind": null,
+      "position": null,
+      "internal_id": 914
+    },
+    {
+      "athlete_name": "156 (t) Silvia Vicente Navarrete 6",
+      "athlete_dob": "31/07/2007",
+      "athlete_id": "CL77332",
+      "performance": "NP",
+      "discipline": "600 metres llisos",
+      "raw_discipline_name": "600m FEM. Alv",
+      "wind": null,
+      "position": null,
+      "internal_id": 905
+    },
+    {
+      "athlete_name": "Mar Vazquez Domingo",
+      "athlete_dob": "17/03/2002",
+      "athlete_id": "CL27856",
+      "performance": "4.42",
+      "discipline": "Llargada",
+      "raw_discipline_name": "Longitud FEM. Abs",
+      "wind": "-3.5",
+      "position": null,
+      "internal_id": 642
+    },
+    {
+      "athlete_name": "Blanca Tortajada Pinto",
+      "athlete_dob": "21/04/1993",
+      "athlete_id": "CL18127",
+      "performance": "3.85",
+      "discipline": "Llargada",
+      "raw_discipline_name": "Longitud FEM. Abs",
+      "wind": "-2.9",
+      "position": null,
+      "internal_id": 310
+    },
+    {
+      "athlete_name": "Blanca Tortajada Pinto",
+      "athlete_dob": "21/04/1993",
+      "athlete_id": "CL18127",
+      "performance": "3.71",
+      "discipline": "Llargada",
+      "raw_discipline_name": "Longitud FEM. Abs",
+      "wind": "-6.3",
+      "position": null,
+      "internal_id": 310
+    },
+    {
+      "athlete_name": "Luana Izaga Deriu",
+      "athlete_dob": "13/02/2007",
+      "athlete_id": "CL77321",
+      "performance": "3.70",
+      "discipline": "Llargada",
+      "raw_discipline_name": "Longitud FEM. Alv",
+      "wind": null,
+      "position": null,
+      "internal_id": 928
+    },
+    {
+      "athlete_name": "Luana Izaga Deriu",
+      "athlete_dob": "13/02/2007",
+      "athlete_id": "CL77321",
+      "performance": "3.73",
+      "discipline": "Llargada",
+      "raw_discipline_name": "Longitud FEM. Alv",
+      "wind": null,
+      "position": null,
+      "internal_id": 928
+    },
+    {
+      "athlete_name": "Luana Izaga Deriu",
+      "athlete_dob": "13/02/2007",
+      "athlete_id": "CL77321",
+      "performance": "3.29",
+      "discipline": "Llargada",
+      "raw_discipline_name": "Longitud FEM. Alv",
+      "wind": null,
+      "position": null,
+      "internal_id": 928
+    },
+    {
+      "athlete_name": "Silvia Vicente Navarrete",
+      "athlete_dob": "31/07/2007",
+      "athlete_id": "CL77332",
+      "performance": "3.51",
+      "discipline": "Llargada",
+      "raw_discipline_name": "Longitud FEM. Alv",
+      "wind": null,
+      "position": null,
+      "internal_id": 905
+    },
+    {
+      "athlete_name": "Silvia Vicente Navarrete",
+      "athlete_dob": "31/07/2007",
+      "athlete_id": "CL77332",
+      "performance": "3.52",
+      "discipline": "Llargada",
+      "raw_discipline_name": "Longitud FEM. Alv",
+      "wind": null,
+      "position": null,
+      "internal_id": 905
+    },
+    {
+      "athlete_name": "Silvia Vicente Navarrete",
+      "athlete_dob": "31/07/2007",
+      "athlete_id": "CL77332",
+      "performance": "3.46",
+      "discipline": "Llargada",
+      "raw_discipline_name": "Longitud FEM. Alv",
+      "wind": null,
+      "position": null,
+      "internal_id": 905
+    },
     {
       "athlete_name": "Luana Izaga Deriu",
       "athlete_dob": "13/02/2007",
       "athlete_id": "CL77321",
       "performance": "4.66",
       "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) FEM Alv",
+      "raw_discipline_name": "Peso (2 Kg) FEM Alv",
       "wind": null,
+      "position": null,
       "internal_id": 928
     },
     {
@@ -21,8 +143,9 @@
       "athlete_id": "CL77321",
       "performance": "5.00",
       "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) FEM Alv",
+      "raw_discipline_name": "Peso (2 Kg) FEM Alv",
       "wind": null,
+      "position": null,
       "internal_id": 928
     },
     {
@@ -31,8 +154,9 @@
       "athlete_id": "CL77321",
       "performance": "5.41",
       "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) FEM Alv",
+      "raw_discipline_name": "Peso (2 Kg) FEM Alv",
       "wind": null,
+      "position": null,
       "internal_id": 928
     },
     {
@@ -41,8 +165,9 @@
       "athlete_id": "CL77332",
       "performance": "4.40",
       "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) FEM Alv",
+      "raw_discipline_name": "Peso (2 Kg) FEM Alv",
       "wind": null,
+      "position": null,
       "internal_id": 905
     },
     {
@@ -51,8 +176,9 @@
       "athlete_id": "CL77332",
       "performance": "4.19",
       "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) FEM Alv",
+      "raw_discipline_name": "Peso (2 Kg) FEM Alv",
       "wind": null,
+      "position": null,
       "internal_id": 905
     },
     {
@@ -63,6 +189,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud MASC. Alv",
       "wind": null,
+      "position": null,
       "internal_id": 899
     },
     {
@@ -73,6 +200,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud MASC. Alv",
       "wind": null,
+      "position": null,
       "internal_id": 899
     },
     {
@@ -83,6 +211,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud MASC. Alv",
       "wind": null,
+      "position": null,
       "internal_id": 899
     },
     {
@@ -93,6 +222,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud MASC. Alv",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -103,6 +233,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud MASC. Alv",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -113,6 +244,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud MASC. Alv",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -123,6 +255,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud MASC. Alv",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -133,6 +266,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud MASC. Alv",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -143,6 +277,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud MASC. Alv",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -153,6 +288,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud MASC. Alv",
       "wind": null,
+      "position": null,
       "internal_id": 908
     },
     {
@@ -163,6 +299,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud MASC. Alv",
       "wind": null,
+      "position": null,
       "internal_id": 908
     },
     {
@@ -173,6 +310,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud MASC. Alv",
       "wind": null,
+      "position": null,
       "internal_id": 908
     },
     {
@@ -183,6 +321,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud MASC. Alv",
       "wind": null,
+      "position": null,
       "internal_id": 971
     },
     {
@@ -193,6 +332,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud MASC. Alv",
       "wind": null,
+      "position": null,
       "internal_id": 971
     },
     {
@@ -203,6 +343,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud MASC. Alv",
       "wind": null,
+      "position": null,
       "internal_id": 971
     },
     {
@@ -213,6 +354,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud MASC. Alv",
       "wind": null,
+      "position": null,
       "internal_id": 914
     },
     {
@@ -223,6 +365,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud MASC. Alv",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -231,8 +374,9 @@
       "athlete_id": "CL77331",
       "performance": "8.29",
       "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) MASC. Alv",
+      "raw_discipline_name": "Peso (2 Kg) MASC. Alv",
       "wind": null,
+      "position": null,
       "internal_id": 899
     },
     {
@@ -241,8 +385,9 @@
       "athlete_id": "CL77331",
       "performance": "7.84",
       "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) MASC. Alv",
+      "raw_discipline_name": "Peso (2 Kg) MASC. Alv",
       "wind": null,
+      "position": null,
       "internal_id": 899
     },
     {
@@ -251,8 +396,9 @@
       "athlete_id": "CL77331",
       "performance": "8.13",
       "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) MASC. Alv",
+      "raw_discipline_name": "Peso (2 Kg) MASC. Alv",
       "wind": null,
+      "position": null,
       "internal_id": 899
     },
     {
@@ -261,8 +407,9 @@
       "athlete_id": "CL77329",
       "performance": "6.10",
       "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) MASC. Alv",
+      "raw_discipline_name": "Peso (2 Kg) MASC. Alv",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -271,8 +418,9 @@
       "athlete_id": "CL77329",
       "performance": "6.79",
       "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) MASC. Alv",
+      "raw_discipline_name": "Peso (2 Kg) MASC. Alv",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -281,8 +429,9 @@
       "athlete_id": "CL77329",
       "performance": "5.64",
       "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) MASC. Alv",
+      "raw_discipline_name": "Peso (2 Kg) MASC. Alv",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -291,8 +440,9 @@
       "athlete_id": "CL82978",
       "performance": "6.44",
       "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) MASC. Alv",
+      "raw_discipline_name": "Peso (2 Kg) MASC. Alv",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -301,8 +451,9 @@
       "athlete_id": "CL82978",
       "performance": "6.39",
       "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) MASC. Alv",
+      "raw_discipline_name": "Peso (2 Kg) MASC. Alv",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -311,8 +462,9 @@
       "athlete_id": "CL82978",
       "performance": "6.58",
       "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) MASC. Alv",
+      "raw_discipline_name": "Peso (2 Kg) MASC. Alv",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -321,8 +473,9 @@
       "athlete_id": "CL77324",
       "performance": "5.94",
       "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) MASC. Alv",
+      "raw_discipline_name": "Peso (2 Kg) MASC. Alv",
       "wind": null,
+      "position": null,
       "internal_id": 914
     },
     {
@@ -331,8 +484,9 @@
       "athlete_id": "CL77324",
       "performance": "6.25",
       "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) MASC. Alv",
+      "raw_discipline_name": "Peso (2 Kg) MASC. Alv",
       "wind": null,
+      "position": null,
       "internal_id": 914
     },
     {
@@ -341,8 +495,9 @@
       "athlete_id": "CL77324",
       "performance": "6.46",
       "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) MASC. Alv",
+      "raw_discipline_name": "Peso (2 Kg) MASC. Alv",
       "wind": null,
+      "position": null,
       "internal_id": 914
     },
     {
@@ -351,8 +506,9 @@
       "athlete_id": "CL90887",
       "performance": "6.06",
       "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) MASC. Alv",
+      "raw_discipline_name": "Peso (2 Kg) MASC. Alv",
       "wind": null,
+      "position": null,
       "internal_id": 971
     },
     {
@@ -361,8 +517,9 @@
       "athlete_id": "CL90887",
       "performance": "6.07",
       "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) MASC. Alv",
+      "raw_discipline_name": "Peso (2 Kg) MASC. Alv",
       "wind": null,
+      "position": null,
       "internal_id": 971
     },
     {
@@ -371,8 +528,9 @@
       "athlete_id": "CL90887",
       "performance": "6.20",
       "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) MASC. Alv",
+      "raw_discipline_name": "Peso (2 Kg) MASC. Alv",
       "wind": null,
+      "position": null,
       "internal_id": 971
     },
     {
@@ -381,8 +539,9 @@
       "athlete_id": "CL77328",
       "performance": "4.98",
       "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) MASC. Alv",
+      "raw_discipline_name": "Peso (2 Kg) MASC. Alv",
       "wind": null,
+      "position": null,
       "internal_id": 908
     },
     {
@@ -391,8 +550,9 @@
       "athlete_id": "CL90880",
       "performance": "3.84",
       "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) MASC. Alv",
+      "raw_discipline_name": "Peso (2 Kg) MASC. Alv",
       "wind": null,
+      "position": null,
       "internal_id": null
     }
   ]

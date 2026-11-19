@@ -1,28 +1,98 @@
 {
   "event_name": "Campionat de Catalunya Sub18 en Pista Coberta - Campionat de Catalunya Sub18 en Pista Coberta",
   "event_date": "26/02/2023",
-  "event_location": "Sabadell",
-  "total_results": 2,
+  "event_location": "Club                                             Lic",
+  "total_results": 9,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2023/02/resultat-20230226-catsub18pcsabadell.pdf",
   "results": [
     {
       "athlete_name": "Lluc Subiros Brasero",
       "athlete_dob": "06/01/2007",
       "athlete_id": "CT1186",
-      "performance": "3.80",
-      "discipline": "Perxa",
-      "raw_discipline_name": "Perxa MASC. PC",
+      "performance": "9.19",
+      "discipline": "60m tanques (0,91) MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 899
+    },
+    {
+      "athlete_name": "Unai Ortiz De Landazuri Ontoso",
+      "athlete_dob": "28/06/2007",
+      "athlete_id": "CT1640",
+      "performance": "1.77",
+      "discipline": "Alçada MASC. PC",
+      "wind": null,
+      "position": 8,
+      "internal_id": 908
+    },
+    {
+      "athlete_name": "Lluc Subiros Brasero",
+      "athlete_dob": "06/01/2007",
+      "athlete_id": "CT1186",
+      "performance": "3.80",
+      "discipline": "Perxa MASC. PC",
+      "wind": null,
+      "position": 6,
+      "internal_id": 899
+    },
+    {
+      "athlete_name": "Maria Antonietta Salazar",
+      "athlete_dob": "03/01/2006",
+      "athlete_id": "CT2176",
+      "performance": "8.03",
+      "discipline": "60m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 897
+    },
+    {
+      "athlete_name": "Maria Antonietta Salazar",
+      "athlete_dob": "03/01/2006",
+      "athlete_id": "CT2176",
+      "performance": "8.02",
+      "discipline": "60m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 897
+    },
+    {
+      "athlete_name": "Maria Antonietta Salazar",
+      "athlete_dob": "03/01/2006",
+      "athlete_id": "CT2176",
+      "performance": "26.27",
+      "discipline": "200m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 897
+    },
+    {
+      "athlete_name": "Maria Antonietta Salazar",
+      "athlete_dob": "03/01/2006",
+      "athlete_id": "CT2176",
+      "performance": "26.00",
+      "discipline": "200m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 897
+    },
+    {
+      "athlete_name": "Silvia Vicente Navarrete",
+      "athlete_dob": "31/07/2007",
+      "athlete_id": "CT1468",
+      "performance": "9.52",
+      "discipline": "60m tanques (0,762) FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 905
     },
     {
       "athlete_name": "Sofia Rubio Reunis",
       "athlete_dob": "15/02/2007",
       "athlete_id": "CT87092",
       "performance": "1.53",
-      "discipline": "Alçada",
-      "raw_discipline_name": "Alçada FEM. PC",
+      "discipline": "Alçada FEM. PC",
       "wind": null,
+      "position": 3,
       "internal_id": 935
     }
   ]

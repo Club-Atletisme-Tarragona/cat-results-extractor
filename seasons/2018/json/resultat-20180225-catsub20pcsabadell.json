@@ -1,8 +1,8 @@
 {
   "event_name": "26è Campionat de Catalunya Sub20 en Pista Coberta (-3.000 m.ll. i Pes) - 26è Campionat de Catalunya Sub20 en Pista Coberta (-3.000 m.ll. i Pes)",
   "event_date": "25/02/2018",
-  "event_location": "Sabadell",
-  "total_results": 2,
+  "event_location": "Club                                             Lic",
+  "total_results": 10,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20180225-catsub20pcsabadell.pdf",
   "results": [
     {
@@ -13,6 +13,7 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 679
     },
     {
@@ -23,7 +24,96 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 510
+    },
+    {
+      "athlete_name": "Javier Almale Lerin",
+      "athlete_dob": "23/02/2000",
+      "athlete_id": "CT24373",
+      "performance": "7.15",
+      "discipline": "60 metres llisos",
+      "raw_discipline_name": "60m MASC. PC",
+      "wind": null,
+      "position": 5,
+      "internal_id": 510
+    },
+    {
+      "athlete_name": "Maria Buscail Brianso",
+      "athlete_dob": "15/12/2000",
+      "athlete_id": "CL25158",
+      "performance": "1:05.69",
+      "discipline": "400 metres llisos",
+      "raw_discipline_name": "400m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 520
+    },
+    {
+      "athlete_name": "Alicia Vazquez Domingo",
+      "athlete_dob": "09/10/1999",
+      "athlete_id": "CT23992",
+      "performance": "9.64",
+      "discipline": "60 metres tanques (0.84)",
+      "raw_discipline_name": "60m tanques (0,84) FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 472
+    },
+    {
+      "athlete_name": "Alicia Vazquez Domingo",
+      "athlete_dob": "09/10/1999",
+      "athlete_id": "CT23992",
+      "performance": "9.37",
+      "discipline": "60 metres tanques (0.84)",
+      "raw_discipline_name": "60m tanques (0,84) FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 472
+    },
+    {
+      "athlete_name": "Alicia Vazquez Domingo",
+      "athlete_dob": "09/10/1999",
+      "athlete_id": "CT23992",
+      "performance": "5.34",
+      "discipline": "Llargada",
+      "raw_discipline_name": "Llargada FEM. PC",
+      "wind": null,
+      "position": 3,
+      "internal_id": 472
+    },
+    {
+      "athlete_name": "Alicia Vazquez Domingo",
+      "athlete_dob": "09/10/1999",
+      "athlete_id": "CT23992",
+      "performance": "5.03",
+      "discipline": "Llargada",
+      "raw_discipline_name": "Llargada FEM. PC",
+      "wind": null,
+      "position": 3,
+      "internal_id": 472
+    },
+    {
+      "athlete_name": "Alicia Vazquez Domingo",
+      "athlete_dob": "09/10/1999",
+      "athlete_id": "CT23992",
+      "performance": "5.14",
+      "discipline": "Llargada",
+      "raw_discipline_name": "Llargada FEM. PC",
+      "wind": null,
+      "position": 3,
+      "internal_id": 472
+    },
+    {
+      "athlete_name": "Alicia Vazquez Domingo",
+      "athlete_dob": "09/10/1999",
+      "athlete_id": "CT23992",
+      "performance": "5.38",
+      "discipline": "Llargada",
+      "raw_discipline_name": "Llargada FEM. PC",
+      "wind": null,
+      "position": 3,
+      "internal_id": 472
     }
   ]
 }

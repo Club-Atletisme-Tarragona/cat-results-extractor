@@ -1,19 +1,299 @@
 {
   "event_name": "Campionat de Catalunya de Clubs Màster Pista Coberta Masculins - Campionat de Catalunya de Clubs Màster Pista Coberta Masculins",
   "event_date": "07/01/2023",
-  "event_location": "Sabadell",
-  "total_results": 1,
+  "event_location": "Club                                              Lic",
+  "total_results": 29,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2023/01/resultat-20230107-catclubsmasterpcsabadell.pdf",
   "results": [
+    {
+      "athlete_name": "Juan Carlos Herrera Alcaide",
+      "athlete_dob": "31/01/1973",
+      "athlete_id": "CT25152",
+      "performance": "85.64",
+      "discipline": "400m MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 518
+    },
+    {
+      "athlete_name": "Jose Miguel Diaz Butron",
+      "athlete_dob": "27/05/1983",
+      "athlete_id": "CL10522",
+      "performance": "2:18.25",
+      "discipline": "800m MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 252
+    },
+    {
+      "athlete_name": "Pedro Ortega Ridao",
+      "athlete_dob": "12/10/1977",
+      "athlete_id": "CL16079",
+      "performance": "4:42.37",
+      "discipline": "1.500m MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 268
+    },
+    {
+      "athlete_name": "Jesus Gellida Albiol",
+      "athlete_dob": "21/06/1980",
+      "athlete_id": "CL3135",
+      "performance": "10:25.82",
+      "discipline": "3.000m MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 772
+    },
+    {
+      "athlete_name": "Francesc Mosquera Pages",
+      "athlete_dob": "07/09/1956",
+      "athlete_id": "CT1501",
+      "performance": "8.98",
+      "discipline": "Pes M65 MAS. - 5 KG",
+      "wind": null,
+      "position": null,
+      "internal_id": 855
+    },
+    {
+      "athlete_name": "Francesc Mosquera Pages",
+      "athlete_dob": "07/09/1956",
+      "athlete_id": "CT1501",
+      "performance": "9.28",
+      "discipline": "Pes M65 MAS. - 5 KG",
+      "wind": null,
+      "position": null,
+      "internal_id": 855
+    },
+    {
+      "athlete_name": "Francesc Mosquera Pages",
+      "athlete_dob": "07/09/1956",
+      "athlete_id": "CT1501",
+      "performance": "9.37",
+      "discipline": "Pes M65 MAS. - 5 KG",
+      "wind": null,
+      "position": null,
+      "internal_id": 855
+    },
+    {
+      "athlete_name": "Francesc Mosquera Pages",
+      "athlete_dob": "07/09/1956",
+      "athlete_id": "CT1501",
+      "performance": "8.88",
+      "discipline": "Pes M65 MAS. - 5 KG",
+      "wind": null,
+      "position": null,
+      "internal_id": 855
+    },
+    {
+      "athlete_name": "Francesc Mosquera Pages",
+      "athlete_dob": "07/09/1956",
+      "athlete_id": "CT1501",
+      "performance": "9.63",
+      "discipline": "Pes M65 MAS. - 5 KG",
+      "wind": null,
+      "position": null,
+      "internal_id": 855
+    },
+    {
+      "athlete_name": "Francisco Griñant Almagro",
+      "athlete_dob": "04/08/1947",
+      "athlete_id": "CT18394",
+      "performance": "3.01",
+      "discipline": "Llargada MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 326
+    },
+    {
+      "athlete_name": "Josep Maria Mateo Sanz",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "9.20",
+      "discipline": "Triple Salt MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 343
+    },
+    {
+      "athlete_name": "Josep Maria Mateo Sanz",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "9.09",
+      "discipline": "Triple Salt MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 343
+    },
+    {
+      "athlete_name": "Josep Maria Mateo Sanz",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "8.89",
+      "discipline": "Triple Salt MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 343
+    },
+    {
+      "athlete_name": "Josep Maria Puig Lara",
+      "athlete_dob": "30/11/1951",
+      "athlete_id": "CT27228",
+      "performance": "2:06.41",
+      "discipline": "4x200m MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 637
+    },
+    {
+      "athlete_name": "Gines Sanchez Perez",
+      "athlete_dob": "23/07/1969",
+      "athlete_id": "CT2055",
+      "performance": "2:06.41",
+      "discipline": "4x200m MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 505
+    },
+    {
+      "athlete_name": "Jose Francisco Garcia Navarrete",
+      "athlete_dob": "24/09/1967",
+      "athlete_id": "CL3972",
+      "performance": "2:06.41",
+      "discipline": "4x200m MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 5
+    },
     {
       "athlete_name": "Pere Pardines Gras",
       "athlete_dob": "30/01/1965",
       "athlete_id": "CT9121",
-      "performance": "1.53",
-      "discipline": "Alçada",
-      "raw_discipline_name": "Alçada MASC.",
+      "performance": "2:06.41",
+      "discipline": "4x200m MASC.",
       "wind": null,
+      "position": null,
       "internal_id": 71
+    },
+    {
+      "athlete_name": "Maria Bertran Sastre",
+      "athlete_dob": "29/11/1987",
+      "athlete_id": "CT13540",
+      "performance": "1:19.98",
+      "discipline": "400m FEM.",
+      "wind": null,
+      "position": null,
+      "internal_id": 184
+    },
+    {
+      "athlete_name": "Antonia Royo Fabregat",
+      "athlete_dob": "09/09/1964",
+      "athlete_id": "CT27087",
+      "performance": "3:10.37",
+      "discipline": "800m FEM.",
+      "wind": null,
+      "position": null,
+      "internal_id": 609
+    },
+    {
+      "athlete_name": "Maria Teresa Gargallo Gracia",
+      "athlete_dob": "15/10/1969",
+      "athlete_id": "CL10929",
+      "performance": "6:09.37",
+      "discipline": "1.500m FEM.",
+      "wind": null,
+      "position": null,
+      "internal_id": 933
+    },
+    {
+      "athlete_name": "Maria Teresa Gargallo Gracia",
+      "athlete_dob": "15/10/1969",
+      "athlete_id": "CL10929",
+      "performance": "13:05.14",
+      "discipline": "3.000m FEM.",
+      "wind": null,
+      "position": null,
+      "internal_id": 933
+    },
+    {
+      "athlete_name": "Marisa Pradillo Gutierrez",
+      "athlete_dob": "29/07/1961",
+      "athlete_id": "CT21513",
+      "performance": "2.64",
+      "discipline": "Llargada FEM.",
+      "wind": null,
+      "position": null,
+      "internal_id": 389
+    },
+    {
+      "athlete_name": "Barbara Pintado Duch",
+      "athlete_dob": "29/04/1985",
+      "athlete_id": "CT13219",
+      "performance": "9.19",
+      "discipline": "Pes F35 Fem. PC-4KG",
+      "wind": null,
+      "position": null,
+      "internal_id": 159
+    },
+    {
+      "athlete_name": "Barbara Pintado Duch",
+      "athlete_dob": "29/04/1985",
+      "athlete_id": "CT13219",
+      "performance": "8.56",
+      "discipline": "Pes F35 Fem. PC-4KG",
+      "wind": null,
+      "position": null,
+      "internal_id": 159
+    },
+    {
+      "athlete_name": "Barbara Pintado Duch",
+      "athlete_dob": "29/04/1985",
+      "athlete_id": "CT13219",
+      "performance": "8.95",
+      "discipline": "Pes F35 Fem. PC-4KG",
+      "wind": null,
+      "position": null,
+      "internal_id": 159
+    },
+    {
+      "athlete_name": "Ana Cabello Rioja",
+      "athlete_dob": "16/11/1968",
+      "athlete_id": "CT23242",
+      "performance": "2:16.17",
+      "discipline": "4x200m FEM.",
+      "wind": null,
+      "position": null,
+      "internal_id": 449
+    },
+    {
+      "athlete_name": "Pilar Fernandez Carranza",
+      "athlete_dob": "15/02/1967",
+      "athlete_id": "CT22384",
+      "performance": "2:16.17",
+      "discipline": "4x200m FEM.",
+      "wind": null,
+      "position": null,
+      "internal_id": 398
+    },
+    {
+      "athlete_name": "Antonia Royo Fabregat",
+      "athlete_dob": "09/09/1964",
+      "athlete_id": "CT27087",
+      "performance": "2:16.17",
+      "discipline": "4x200m FEM.",
+      "wind": null,
+      "position": null,
+      "internal_id": 609
+    },
+    {
+      "athlete_name": "Gemma Sole Boronat",
+      "athlete_dob": "01/11/1967",
+      "athlete_id": "CT29376",
+      "performance": "2:16.17",
+      "discipline": "4x200m FEM.",
+      "wind": null,
+      "position": null,
+      "internal_id": 648
     }
   ]
 }

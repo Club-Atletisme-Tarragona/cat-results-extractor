@@ -1,18 +1,238 @@
 {
   "event_name": "Campionat de Catalunya de Clubs Màster - Pista Mpal. de Atmo. Les Basses, 12 mayo 2024",
   "event_date": "12/05/2024",
-  "event_location": "Lleida",
-  "total_results": 1,
+  "event_location": "Pista Mpal. de Atmo. Les Basses",
+  "total_results": 23,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2024/05/resultat-20240512-catclubsmasterlleida.pdf",
   "results": [
+    {
+      "athlete_name": "Jose Francisco Garcia Navarrete",
+      "athlete_dob": "24/09/1967",
+      "athlete_id": "CL3972",
+      "performance": "1:16.81",
+      "discipline": "400m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 5
+    },
+    {
+      "athlete_name": "14 (t) Fernando Flores Montes 5",
+      "athlete_dob": "17/06/1969",
+      "athlete_id": "CL15201",
+      "performance": "NP",
+      "discipline": "400m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 4
+    },
+    {
+      "athlete_name": "Pedro Ortega Ridao",
+      "athlete_dob": "12/10/1977",
+      "athlete_id": "CT16079",
+      "performance": "2:32.94",
+      "discipline": "800m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 268
+    },
+    {
+      "athlete_name": "Julio Leon Cid",
+      "athlete_dob": "12/10/1974",
+      "athlete_id": "CT4",
+      "performance": "4:31.24",
+      "discipline": "1.500m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 992
+    },
+    {
+      "athlete_name": "Jesus Gellida Albiol",
+      "athlete_dob": "21/06/1980",
+      "athlete_id": "CL3135",
+      "performance": "10:16.76",
+      "discipline": "3.000m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 772
+    },
+    {
+      "athlete_name": "Francesc Mosquera Pages",
+      "athlete_dob": "07/09/1956",
+      "athlete_id": "CT1501",
+      "performance": "9.44",
+      "discipline": "Peso Vet. MAS. AL M65",
+      "wind": null,
+      "position": null,
+      "internal_id": 855
+    },
+    {
+      "athlete_name": "Francesc Mosquera Pages",
+      "athlete_dob": "07/09/1956",
+      "athlete_id": "CT1501",
+      "performance": "9.65",
+      "discipline": "Peso Vet. MAS. AL M65",
+      "wind": null,
+      "position": null,
+      "internal_id": 855
+    },
+    {
+      "athlete_name": "Francesc Mosquera Pages",
+      "athlete_dob": "07/09/1956",
+      "athlete_id": "CT1501",
+      "performance": "9.55",
+      "discipline": "Peso Vet. MAS. AL M65",
+      "wind": null,
+      "position": null,
+      "internal_id": 855
+    },
+    {
+      "athlete_name": "Francesc Mosquera Pages",
+      "athlete_dob": "07/09/1956",
+      "athlete_id": "CT1501",
+      "performance": "9.53",
+      "discipline": "Peso Vet. MAS. AL M65",
+      "wind": null,
+      "position": null,
+      "internal_id": 855
+    },
+    {
+      "athlete_name": "Francesc Mosquera Pages",
+      "athlete_dob": "07/09/1956",
+      "athlete_id": "CT1501",
+      "performance": "9.39",
+      "discipline": "Peso Vet. MAS. AL M65",
+      "wind": null,
+      "position": null,
+      "internal_id": 855
+    },
+    {
+      "athlete_name": "Francesc Mosquera Pages",
+      "athlete_dob": "07/09/1956",
+      "athlete_id": "CT1501",
+      "performance": "9.32",
+      "discipline": "Peso Vet. MAS. AL M65",
+      "wind": null,
+      "position": null,
+      "internal_id": 855
+    },
+    {
+      "athlete_name": "Francisco Griñant Almagro",
+      "athlete_dob": "04/08/1947",
+      "athlete_id": "CT18394",
+      "performance": "3.18",
+      "discipline": "Longitud MASC. AL",
+      "wind": "+1.9",
+      "position": null,
+      "internal_id": 326
+    },
+    {
+      "athlete_name": "Luis Saez Perez",
+      "athlete_dob": "01/03/1949",
+      "athlete_id": "CT17487",
+      "performance": "22.77",
+      "discipline": "Jabalina Vet. MAS. M75",
+      "wind": null,
+      "position": null,
+      "internal_id": 304
+    },
+    {
+      "athlete_name": "Luis Saez Perez",
+      "athlete_dob": "01/03/1949",
+      "athlete_id": "CT17487",
+      "performance": "23.02",
+      "discipline": "Jabalina Vet. MAS. M75",
+      "wind": null,
+      "position": null,
+      "internal_id": 304
+    },
+    {
+      "athlete_name": "Luis Saez Perez",
+      "athlete_dob": "01/03/1949",
+      "athlete_id": "CT17487",
+      "performance": "22.33",
+      "discipline": "Jabalina Vet. MAS. M75",
+      "wind": null,
+      "position": null,
+      "internal_id": 304
+    },
+    {
+      "athlete_name": "Luis Saez Perez",
+      "athlete_dob": "01/03/1949",
+      "athlete_id": "CT17487",
+      "performance": "23.39",
+      "discipline": "Jabalina Vet. MAS. M75",
+      "wind": null,
+      "position": null,
+      "internal_id": 304
+    },
+    {
+      "athlete_name": "Luis Saez Perez",
+      "athlete_dob": "01/03/1949",
+      "athlete_id": "CT17487",
+      "performance": "20.70",
+      "discipline": "Jabalina Vet. MAS. M75",
+      "wind": null,
+      "position": null,
+      "internal_id": 304
+    },
+    {
+      "athlete_name": "Luis Saez Perez",
+      "athlete_dob": "01/03/1949",
+      "athlete_id": "CT17487",
+      "performance": "22.05",
+      "discipline": "Jabalina Vet. MAS. M75",
+      "wind": null,
+      "position": null,
+      "internal_id": 304
+    },
+    {
+      "athlete_name": "Enric Ramon Guim Domenech",
+      "athlete_dob": "20/07/1973",
+      "athlete_id": "CT2370",
+      "performance": "30.84",
+      "discipline": "Disco Vet. MAS. M50",
+      "wind": null,
+      "position": null,
+      "internal_id": 18
+    },
+    {
+      "athlete_name": "Enric Ramon Guim Domenech",
+      "athlete_dob": "20/07/1973",
+      "athlete_id": "CT2370",
+      "performance": "31.16",
+      "discipline": "Disco Vet. MAS. M50",
+      "wind": null,
+      "position": null,
+      "internal_id": 18
+    },
+    {
+      "athlete_name": "Enric Ramon Guim Domenech",
+      "athlete_dob": "20/07/1973",
+      "athlete_id": "CT2370",
+      "performance": "31.67",
+      "discipline": "Disco Vet. MAS. M50",
+      "wind": null,
+      "position": null,
+      "internal_id": 18
+    },
+    {
+      "athlete_name": "Enric Ramon Guim Domenech",
+      "athlete_dob": "20/07/1973",
+      "athlete_id": "CT2370",
+      "performance": "32.43",
+      "discipline": "Disco Vet. MAS. M50",
+      "wind": null,
+      "position": null,
+      "internal_id": 18
+    },
     {
       "athlete_name": "Fernando Flores Montes",
       "athlete_dob": "17/06/1969",
       "athlete_id": "CL15201",
       "performance": "25:31.61",
-      "discipline": "5000 metres marxa",
-      "raw_discipline_name": "5.000m Marcha MASC. AL",
+      "discipline": "5.000m Marcha MASC. AL",
       "wind": null,
+      "position": null,
       "internal_id": 4
     }
   ]

@@ -1,8 +1,8 @@
 {
   "event_name": "Control sub20 i sub18 en Pista Coberta - Control sub20 i sub18 en Pista Coberta",
   "event_date": "16/02/2024",
-  "event_location": "Sabadell",
-  "total_results": 5,
+  "event_location": "Club                                             Lic",
+  "total_results": 8,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2024/02/resultat-20240216-controlsub1820pcsabadell.pdf",
   "results": [
     {
@@ -10,9 +10,9 @@
       "athlete_dob": "25/05/2008",
       "athlete_id": "CT1465",
       "performance": "5.79",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada MASC. PC",
+      "discipline": "Llargada MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 958
     },
     {
@@ -20,9 +20,9 @@
       "athlete_dob": "25/05/2008",
       "athlete_id": "CT1465",
       "performance": "6.09",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada MASC. PC",
+      "discipline": "Llargada MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 958
     },
     {
@@ -30,9 +30,9 @@
       "athlete_dob": "06/01/2007",
       "athlete_id": "CT1186",
       "performance": "5.94",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada MASC. PC",
+      "discipline": "Llargada MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 899
     },
     {
@@ -40,9 +40,9 @@
       "athlete_dob": "06/01/2007",
       "athlete_id": "CT1186",
       "performance": "5.73",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada MASC. PC",
+      "discipline": "Llargada MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 899
     },
     {
@@ -50,10 +50,40 @@
       "athlete_dob": "06/01/2007",
       "athlete_id": "CT1186",
       "performance": "5.81",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada MASC. PC",
+      "discipline": "Llargada MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 899
+    },
+    {
+      "athlete_name": "Maria Antonietta Salazar",
+      "athlete_dob": "03/01/2006",
+      "athlete_id": "CT2176",
+      "performance": "26.24",
+      "discipline": "200m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 897
+    },
+    {
+      "athlete_name": "Mireia Redondo Mendoza",
+      "athlete_dob": "10/06/2008",
+      "athlete_id": "CT1467",
+      "performance": "1:00.09",
+      "discipline": "400m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 957
+    },
+    {
+      "athlete_name": "Anna Artero Fernandez",
+      "athlete_dob": "14/11/2006",
+      "athlete_id": "CT2389",
+      "performance": "5:04.08",
+      "discipline": "1.500m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 847
     }
   ]
 }

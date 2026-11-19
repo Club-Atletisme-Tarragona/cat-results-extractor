@@ -1,19 +1,139 @@
 {
   "event_name": "Control Pista Coberta sub12 i sub14 - Control Pista Coberta sub12 i sub14",
   "event_date": "03/03/2024",
-  "event_location": "Sabadell",
-  "total_results": 1,
+  "event_location": "Club                                            Lic",
+  "total_results": 13,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2024/03/resultat-20240303-controlsub12-14pcsabadell.pdf",
   "results": [
+    {
+      "athlete_name": "Nil Torres Prats",
+      "athlete_dob": "05/10/2014",
+      "athlete_id": "CL7611",
+      "performance": "31.95",
+      "discipline": "200m MASC. PC SUB12 M",
+      "wind": null,
+      "position": null,
+      "internal_id": 1341
+    },
+    {
+      "athlete_name": "Pol Diaz Cristino",
+      "athlete_dob": "03/02/2014",
+      "athlete_id": "CT2082",
+      "performance": "33.49",
+      "discipline": "200m MASC. PC SUB12 M",
+      "wind": null,
+      "position": null,
+      "internal_id": 1333
+    },
+    {
+      "athlete_name": "Hugo Diaz Cristino",
+      "athlete_dob": "04/04/2012",
+      "athlete_id": "CL4397",
+      "performance": "30.67",
+      "discipline": "200m MASC. PC SUB14M",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Pol Diaz Cristino",
+      "athlete_dob": "03/02/2014",
+      "athlete_id": "CT2082",
+      "performance": "1:57.82",
+      "discipline": "600m MASC. PC SUB12M",
+      "wind": null,
+      "position": null,
+      "internal_id": 1333
+    },
+    {
+      "athlete_name": "Nil Torres Prats",
+      "athlete_dob": "05/10/2014",
+      "athlete_id": "CL7611",
+      "performance": "2:00.36",
+      "discipline": "600m MASC. PC SUB12M",
+      "wind": null,
+      "position": null,
+      "internal_id": 1341
+    },
+    {
+      "athlete_name": "Hugo Diaz Cristino",
+      "athlete_dob": "04/04/2012",
+      "athlete_id": "CL4397",
+      "performance": "1:49.34",
+      "discipline": "600m MASC. PC SUB14M",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Alba Esteve Hostalot",
+      "athlete_dob": "10/11/2013",
+      "athlete_id": "CL4396",
+      "performance": "33.55",
+      "discipline": "200m FEM. PC SUB12F",
+      "wind": null,
+      "position": null,
+      "internal_id": 1335
+    },
+    {
+      "athlete_name": "India Martin Cuadrado",
+      "athlete_dob": "04/04/2014",
+      "athlete_id": "CL7608",
+      "performance": "34.00",
+      "discipline": "200m FEM. PC SUB12F",
+      "wind": null,
+      "position": null,
+      "internal_id": 1332
+    },
     {
       "athlete_name": "Nayah Martinez Ferre",
       "athlete_dob": "25/01/2013",
       "athlete_id": "CL4400",
       "performance": "33.06",
-      "discipline": "200 metres llisos",
-      "raw_discipline_name": "200m FEM. PC SUB12F",
+      "discipline": "200m FEM. PC SUB12F",
       "wind": null,
+      "position": null,
       "internal_id": null
+    },
+    {
+      "athlete_name": "Alba Esteve Hostalot",
+      "athlete_dob": "10/11/2013",
+      "athlete_id": "CL4396",
+      "performance": "2:16.70",
+      "discipline": "600m FEM. PC SUB12F",
+      "wind": null,
+      "position": null,
+      "internal_id": 1335
+    },
+    {
+      "athlete_name": "82 (t) Nayah Martinez Ferre 1",
+      "athlete_dob": "25/01/2013",
+      "athlete_id": "CL4400",
+      "performance": "NP",
+      "discipline": "600m FEM. PC SUB12F",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Berta Barber Gonzalez",
+      "athlete_dob": "22/01/2013",
+      "athlete_id": "CL7610",
+      "performance": "7:54.85",
+      "discipline": "2.000m FEM. PC SUB12F",
+      "wind": null,
+      "position": null,
+      "internal_id": 1359
+    },
+    {
+      "athlete_name": "India Martin Cuadrado",
+      "athlete_dob": "04/04/2014",
+      "athlete_id": "CL7608",
+      "performance": "8:51.76",
+      "discipline": "2.000m FEM. PC SUB12F",
+      "wind": null,
+      "position": null,
+      "internal_id": 1332
     }
   ]
 }

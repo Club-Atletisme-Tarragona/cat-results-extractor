@@ -2,7 +2,7 @@
   "event_name": "Control Sub18 - sub20 - Barcelona (Estadi Joan Serrahima), 10 junio 2023",
   "event_date": "10/06/2023",
   "event_location": "Barcelona-SE",
-  "total_results": 5,
+  "total_results": 8,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2023/06/resultat-20230610-controlsub1820serrahima.pdf",
   "results": [
     {
@@ -10,9 +10,9 @@
       "athlete_dob": "03/01/2006",
       "athlete_id": "CL8923",
       "performance": "23.07",
-      "discipline": "Disc (1,5 Kg)",
-      "raw_discipline_name": "Disc (1,5kg) MASC. Sub18",
+      "discipline": "Disc (1,5 Kg) MASC. Sub18",
       "wind": null,
+      "position": null,
       "internal_id": 892
     },
     {
@@ -20,9 +20,9 @@
       "athlete_dob": "03/01/2006",
       "athlete_id": "CL8923",
       "performance": "23.53",
-      "discipline": "Disc (1,5 Kg)",
-      "raw_discipline_name": "Disc (1,5kg) MASC. Sub18",
+      "discipline": "Disc (1,5 Kg) MASC. Sub18",
       "wind": null,
+      "position": null,
       "internal_id": 892
     },
     {
@@ -30,9 +30,9 @@
       "athlete_dob": "03/01/2006",
       "athlete_id": "CL8923",
       "performance": "23.06",
-      "discipline": "Disc (1,5 Kg)",
-      "raw_discipline_name": "Disc (1,5kg) MASC. Sub18",
+      "discipline": "Disc (1,5 Kg) MASC. Sub18",
       "wind": null,
+      "position": null,
       "internal_id": 892
     },
     {
@@ -40,9 +40,9 @@
       "athlete_dob": "03/01/2006",
       "athlete_id": "CL8923",
       "performance": "23.68",
-      "discipline": "Disc (1,5 Kg)",
-      "raw_discipline_name": "Disc (1,5kg) MASC. Sub18",
+      "discipline": "Disc (1,5 Kg) MASC. Sub18",
       "wind": null,
+      "position": null,
       "internal_id": 892
     },
     {
@@ -50,10 +50,40 @@
       "athlete_dob": "03/01/2006",
       "athlete_id": "CL8923",
       "performance": "22.69",
-      "discipline": "Disc (1,5 Kg)",
-      "raw_discipline_name": "Disc (1,5kg) MASC. Sub18",
+      "discipline": "Disc (1,5 Kg) MASC. Sub18",
       "wind": null,
+      "position": null,
       "internal_id": 892
+    },
+    {
+      "athlete_name": "Candela Asensio Sanchez",
+      "athlete_dob": "14/10/2007",
+      "athlete_id": "CL4874",
+      "performance": "18.44",
+      "discipline": "Martell (3 Kg) FEM. Sub18",
+      "wind": null,
+      "position": null,
+      "internal_id": 901
+    },
+    {
+      "athlete_name": "Candela Asensio Sanchez",
+      "athlete_dob": "14/10/2007",
+      "athlete_id": "CL4874",
+      "performance": "18.92",
+      "discipline": "Martell (3 Kg) FEM. Sub18",
+      "wind": null,
+      "position": null,
+      "internal_id": 901
+    },
+    {
+      "athlete_name": "Candela Asensio Sanchez",
+      "athlete_dob": "14/10/2007",
+      "athlete_id": "CL4874",
+      "performance": "19.08",
+      "discipline": "Martell (3 Kg) FEM. Sub18",
+      "wind": null,
+      "position": null,
+      "internal_id": 901
     }
   ]
 }

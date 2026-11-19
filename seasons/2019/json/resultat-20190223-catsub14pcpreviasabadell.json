@@ -1,68 +1,128 @@
 {
   "event_name": "Jornada Prèvia Campionat Catalunya Sub14 en Pista Coberta - Jornada Prèvia Campionat Catalunya Sub14 en Pista Coberta",
   "event_date": "23/02/2019",
-  "event_location": "Sabadell",
-  "total_results": 6,
+  "event_location": "Club                                              Lic",
+  "total_results": 12,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20190223-catsub14pcpreviasabadell.pdf",
   "results": [
     {
-      "athlete_name": "Lluc Subiros Brasero",
+      "athlete_name": "Mireia Viera Cervello IF",
+      "athlete_dob": "22/09/2006",
+      "athlete_id": "CL94415",
+      "performance": "8.52",
+      "discipline": "60m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Silvia Vicente Navarrete IF",
+      "athlete_dob": "31/07/2007",
+      "athlete_id": "CL77332",
+      "performance": "8.69",
+      "discipline": "60m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 905
+    },
+    {
+      "athlete_name": "Joan Sinfreu Niubo IM",
+      "athlete_dob": "25/03/2007",
+      "athlete_id": "CL77329",
+      "performance": "11.92",
+      "discipline": "60m tanques MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Unai Ortiz De Landazuri Ontoso IM",
+      "athlete_dob": "28/06/2007",
+      "athlete_id": "CL77328",
+      "performance": "11.98",
+      "discipline": "60m tanques MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 908
+    },
+    {
+      "athlete_name": "Silvia Vicente Navarrete IF",
+      "athlete_dob": "31/07/2007",
+      "athlete_id": "CL77332",
+      "performance": "10.71",
+      "discipline": "60m tanques FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 905
+    },
+    {
+      "athlete_name": "Joan Sinfreu Niubo IM",
+      "athlete_dob": "25/03/2007",
+      "athlete_id": "CL77329",
+      "performance": "1.31",
+      "discipline": "Alçada MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Lluc Subiros Brasero IM",
       "athlete_dob": "06/01/2007",
       "athlete_id": "CL77331",
       "performance": "4.16",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada MASC. PC",
+      "discipline": "Llargada MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 899
     },
     {
-      "athlete_name": "Lluc Subiros Brasero",
+      "athlete_name": "Lluc Subiros Brasero IM",
       "athlete_dob": "06/01/2007",
       "athlete_id": "CL77331",
       "performance": "4.25",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada MASC. PC",
+      "discipline": "Llargada MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 899
     },
     {
-      "athlete_name": "Lluc Subiros Brasero",
+      "athlete_name": "Lluc Subiros Brasero IM",
       "athlete_dob": "06/01/2007",
       "athlete_id": "CL77331",
       "performance": "4.22",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada MASC. PC",
+      "discipline": "Llargada MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 899
     },
     {
-      "athlete_name": "Lluc Subiros Brasero",
+      "athlete_name": "Lluc Subiros Brasero IM",
       "athlete_dob": "06/01/2007",
       "athlete_id": "CL77331",
       "performance": "7.77",
-      "discipline": "Pes (3 Kg)",
-      "raw_discipline_name": "Pes (3kg) MASC. PC",
+      "discipline": "Pes (3 Kg) MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 899
     },
     {
-      "athlete_name": "Lluc Subiros Brasero",
+      "athlete_name": "Lluc Subiros Brasero IM",
       "athlete_dob": "06/01/2007",
       "athlete_id": "CL77331",
       "performance": "7.84",
-      "discipline": "Pes (3 Kg)",
-      "raw_discipline_name": "Pes (3kg) MASC. PC",
+      "discipline": "Pes (3 Kg) MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 899
     },
     {
-      "athlete_name": "Julia Suarez Piza",
+      "athlete_name": "Julia Suarez Piza IF",
       "athlete_dob": "05/11/2006",
       "athlete_id": "CT29377",
       "performance": "10:18.32",
-      "discipline": "2000 metres marxa",
-      "raw_discipline_name": "2.000m Marxa FEM. PC",
+      "discipline": "2.000m Marxa FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 839
     }
   ]

@@ -1,18 +1,38 @@
 {
   "event_name": " - Sabadell (Pista Coberta de Catalunya), 5 febrero 2017",
   "event_date": "05/02/2017",
-  "event_location": "Sabadell",
-  "total_results": 9,
+  "event_location": "Club                                             Lic",
+  "total_results": 11,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20170205-catabsolutpc.pdf",
   "results": [
+    {
+      "athlete_name": "Javier Almale Lerin",
+      "athlete_dob": "23/02/2000",
+      "athlete_id": "CT24373",
+      "performance": "7.22",
+      "discipline": "60m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 510
+    },
+    {
+      "athlete_name": "Alicia Vazquez Domingo",
+      "athlete_dob": "09/10/1999",
+      "athlete_id": "CT23992",
+      "performance": "9.65",
+      "discipline": "60m tanques FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 472
+    },
     {
       "athlete_name": "Ivan Benitez Lazcano",
       "athlete_dob": "07/05/1989",
       "athlete_id": "CL14095",
       "performance": "9.10",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt FEM. PC",
+      "discipline": "60m tanques MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 257
     },
     {
@@ -20,9 +40,9 @@
       "athlete_dob": "23/10/1998",
       "athlete_id": "CT22783",
       "performance": "8.25",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt FEM. PC",
+      "discipline": "60m tanques MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 435
     },
     {
@@ -30,9 +50,9 @@
       "athlete_dob": "23/10/1998",
       "athlete_id": "CT22783",
       "performance": "8.12",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt FEM. PC",
+      "discipline": "60m tanques MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 435
     },
     {
@@ -40,9 +60,9 @@
       "athlete_dob": "06/08/1995",
       "athlete_id": "CT20392",
       "performance": "10.18",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Pes FEM. PC",
+      "discipline": "Pes FEM. PC",
       "wind": null,
+      "position": 3,
       "internal_id": 359
     },
     {
@@ -50,9 +70,9 @@
       "athlete_dob": "06/08/1995",
       "athlete_id": "CT20392",
       "performance": "10.20",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Pes FEM. PC",
+      "discipline": "Pes FEM. PC",
       "wind": null,
+      "position": 3,
       "internal_id": 359
     },
     {
@@ -60,9 +80,9 @@
       "athlete_dob": "06/08/1995",
       "athlete_id": "CT20392",
       "performance": "11.34",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Pes FEM. PC",
+      "discipline": "Pes FEM. PC",
       "wind": null,
+      "position": 3,
       "internal_id": 359
     },
     {
@@ -70,9 +90,9 @@
       "athlete_dob": "06/08/1995",
       "athlete_id": "CT20392",
       "performance": "10.73",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Pes FEM. PC",
+      "discipline": "Pes FEM. PC",
       "wind": null,
+      "position": 3,
       "internal_id": 359
     },
     {
@@ -80,9 +100,9 @@
       "athlete_dob": "06/08/1995",
       "athlete_id": "CT20392",
       "performance": "10.80",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Pes FEM. PC",
+      "discipline": "Pes FEM. PC",
       "wind": null,
+      "position": 3,
       "internal_id": 359
     },
     {
@@ -90,9 +110,9 @@
       "athlete_dob": "06/08/1995",
       "athlete_id": "CT20392",
       "performance": "9.73",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Pes FEM. PC",
+      "discipline": "Pes FEM. PC",
       "wind": null,
+      "position": 3,
       "internal_id": 359
     }
   ]

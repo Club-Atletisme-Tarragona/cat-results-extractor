@@ -1,10 +1,87 @@
 {
   "event_name": "Campionat de Catalunya Sub16 en Pista Coberta - Campionat de Catalunya Sub16 en Pista Coberta",
   "event_date": "11/03/2018",
-  "event_location": "Sabadell",
-  "total_results": 5,
+  "event_location": "Club                                             Lic",
+  "total_results": 18,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20180311-catsub16pcsabadell.pdf",
   "results": [
+    {
+      "athlete_name": "Laura Yan Sole Barba",
+      "athlete_dob": "31/10/2003",
+      "athlete_id": "CL71752",
+      "performance": "8.53",
+      "discipline": "60 metres llisos",
+      "raw_discipline_name": "60m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 701
+    },
+    {
+      "athlete_name": "Guifre De Los Rios Blanch",
+      "athlete_dob": "09/06/2003",
+      "athlete_id": "CL90501",
+      "performance": "1:35.51",
+      "discipline": "600 metres llisos",
+      "raw_discipline_name": "600m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 697
+    },
+    {
+      "athlete_name": "Claudian. Mir Casellas",
+      "athlete_dob": "02/08/2003",
+      "athlete_id": "CL69333",
+      "performance": "10.38",
+      "discipline": "60 metres tanques (0.76)",
+      "raw_discipline_name": "60m tanques FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 699
+    },
+    {
+      "athlete_name": "Pablo Angel Fernandez",
+      "athlete_dob": "26/01/2003",
+      "athlete_id": "CL90496",
+      "performance": "9.19",
+      "discipline": "60 metres tanques (0.91)",
+      "raw_discipline_name": "60m tanques MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 704
+    },
+    {
+      "athlete_name": "Pablo Angel Fernandez",
+      "athlete_dob": "26/01/2003",
+      "athlete_id": "CL90496",
+      "performance": "9.37",
+      "discipline": "60 metres tanques (0.91)",
+      "raw_discipline_name": "60m tanques MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 704
+    },
+    {
+      "athlete_name": "Carlos Aranda Sanchez",
+      "athlete_dob": "14/04/2003",
+      "athlete_id": "CL86448",
+      "performance": "10.31",
+      "discipline": "60 metres tanques (0.91)",
+      "raw_discipline_name": "60m tanques MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 706
+    },
+    {
+      "athlete_name": "Claudian. Mir Casellas",
+      "athlete_dob": "02/08/2003",
+      "athlete_id": "CL69333",
+      "performance": "1.42",
+      "discipline": "Alçada",
+      "raw_discipline_name": "Alçada FEM. PC",
+      "wind": null,
+      "position": 10,
+      "internal_id": 699
+    },
     {
       "athlete_name": "Laurine Elisa Marimon Fernandez",
       "athlete_dob": "17/09/2004",
@@ -13,6 +90,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada FEM. PC",
       "wind": null,
+      "position": 2,
       "internal_id": 737
     },
     {
@@ -23,6 +101,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada FEM. PC",
       "wind": null,
+      "position": 2,
       "internal_id": 737
     },
     {
@@ -33,6 +112,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada FEM. PC",
       "wind": null,
+      "position": 2,
       "internal_id": 737
     },
     {
@@ -43,6 +123,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada FEM. PC",
       "wind": null,
+      "position": 2,
       "internal_id": 737
     },
     {
@@ -53,6 +134,73 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada FEM. PC",
       "wind": null,
+      "position": 2,
+      "internal_id": 737
+    },
+    {
+      "athlete_name": "Laurine Elisa Marimon Fernandez",
+      "athlete_dob": "17/09/2004",
+      "athlete_id": "CT28409",
+      "performance": "10.98",
+      "discipline": "Triple",
+      "raw_discipline_name": "Triple Salt FEM. PC",
+      "wind": null,
+      "position": 1,
+      "internal_id": 737
+    },
+    {
+      "athlete_name": "Laurine Elisa Marimon Fernandez",
+      "athlete_dob": "17/09/2004",
+      "athlete_id": "CT28409",
+      "performance": "10.71",
+      "discipline": "Triple",
+      "raw_discipline_name": "Triple Salt FEM. PC",
+      "wind": null,
+      "position": 1,
+      "internal_id": 737
+    },
+    {
+      "athlete_name": "Laurine Elisa Marimon Fernandez",
+      "athlete_dob": "17/09/2004",
+      "athlete_id": "CT28409",
+      "performance": "10.10",
+      "discipline": "Triple",
+      "raw_discipline_name": "Triple Salt FEM. PC",
+      "wind": null,
+      "position": 1,
+      "internal_id": 737
+    },
+    {
+      "athlete_name": "Laurine Elisa Marimon Fernandez",
+      "athlete_dob": "17/09/2004",
+      "athlete_id": "CT28409",
+      "performance": "9.96",
+      "discipline": "Triple",
+      "raw_discipline_name": "Triple Salt FEM. PC",
+      "wind": null,
+      "position": 1,
+      "internal_id": 737
+    },
+    {
+      "athlete_name": "Laurine Elisa Marimon Fernandez",
+      "athlete_dob": "17/09/2004",
+      "athlete_id": "CT28409",
+      "performance": "10.40",
+      "discipline": "Triple",
+      "raw_discipline_name": "Triple Salt FEM. PC",
+      "wind": null,
+      "position": 1,
+      "internal_id": 737
+    },
+    {
+      "athlete_name": "Laurine Elisa Marimon Fernandez",
+      "athlete_dob": "17/09/2004",
+      "athlete_id": "CT28409",
+      "performance": "11.06",
+      "discipline": "Triple",
+      "raw_discipline_name": "Triple Salt FEM. PC",
+      "wind": null,
+      "position": 1,
       "internal_id": 737
     }
   ]

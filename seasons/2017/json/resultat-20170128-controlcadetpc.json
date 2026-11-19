@@ -1,28 +1,88 @@
 {
   "event_name": "4rt. Control Cadet en Pista Coberta - 4rt. Control Cadet en Pista Coberta",
   "event_date": "28/01/2017",
-  "event_location": "Sabadell",
-  "total_results": 14,
+  "event_location": "Club                                            Lic",
+  "total_results": 42,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20170128-controlcadetpc.pdf",
   "results": [
+    {
+      "athlete_name": "Mario Sanchez Alvarez",
+      "athlete_dob": "02/10/2002",
+      "athlete_id": "CL74367",
+      "performance": "7.61",
+      "discipline": "60m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1023
+    },
+    {
+      "athlete_name": "Carlos Aranda Sanchez",
+      "athlete_dob": "14/04/2003",
+      "athlete_id": "CL86448",
+      "performance": "8.69",
+      "discipline": "60m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 706
+    },
+    {
+      "athlete_name": "Roger Feijoo Massot",
+      "athlete_dob": "20/09/2003",
+      "athlete_id": "CL82677",
+      "performance": "9.14",
+      "discipline": "60m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
     {
       "athlete_name": "Alba Carvajal Garcia",
       "athlete_dob": "18/09/2002",
       "athlete_id": "CL86452",
       "performance": "9.01",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m FEM. PC",
+      "discipline": "60m FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 670
+    },
+    {
+      "athlete_name": "Ariadna Alonso Del Campo",
+      "athlete_dob": "06/09/2003",
+      "athlete_id": "CL82671",
+      "performance": "9.28",
+      "discipline": "60m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 703
+    },
+    {
+      "athlete_name": "Berta Prados Galindo",
+      "athlete_dob": "27/10/2002",
+      "athlete_id": "CL71738",
+      "performance": "9.50",
+      "discipline": "60m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 656
+    },
+    {
+      "athlete_name": "Maria Fons Forcadell",
+      "athlete_dob": "30/03/2002",
+      "athlete_id": "CL80300",
+      "performance": "9.55",
+      "discipline": "60m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": null
     },
     {
       "athlete_name": "Bernat Verdu Gomez",
       "athlete_dob": "02/01/2002",
       "athlete_id": "CT25944",
       "performance": "0:39.92",
-      "discipline": "300 metres llisos",
-      "raw_discipline_name": "300m MASC. PC",
+      "discipline": "300m MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 645
     },
     {
@@ -30,9 +90,9 @@
       "athlete_dob": "02/10/2002",
       "athlete_id": "CL74367",
       "performance": "0:40.44",
-      "discipline": "300 metres llisos",
-      "raw_discipline_name": "300m MASC. PC",
+      "discipline": "300m MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 1023
     },
     {
@@ -40,19 +100,189 @@
       "athlete_dob": "02/08/2003",
       "athlete_id": "CL69333",
       "performance": "0:48.39",
-      "discipline": "300 metres llisos",
-      "raw_discipline_name": "300m FEM. PC",
+      "discipline": "300m FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 699
+    },
+    {
+      "athlete_name": "Maria Fons Forcadell",
+      "athlete_dob": "30/03/2002",
+      "athlete_id": "CL80300",
+      "performance": "0:51.29",
+      "discipline": "300m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Carlos Aranda Sanchez",
+      "athlete_dob": "14/04/2003",
+      "athlete_id": "CL86448",
+      "performance": "1:58.53",
+      "discipline": "600m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 706
+    },
+    {
+      "athlete_name": "Carla Gonzalez Carrillo",
+      "athlete_dob": "05/06/2003",
+      "athlete_id": "CL82680",
+      "performance": "1:48.17",
+      "discipline": "600m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 698
+    },
+    {
+      "athlete_name": "Victor Joglar Fernandez",
+      "athlete_dob": "08/05/2003",
+      "athlete_id": "CL82682",
+      "performance": "3:41.72",
+      "discipline": "1.000m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 712
+    },
+    {
+      "athlete_name": "Berta Pardines Vilalta",
+      "athlete_dob": "04/10/2002",
+      "athlete_id": "CL71731",
+      "performance": "3:44.34",
+      "discipline": "1.000m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 650
+    },
+    {
+      "athlete_name": "Mar Vazquez Domingo",
+      "athlete_dob": "17/03/2002",
+      "athlete_id": "CL71756",
+      "performance": "10.06",
+      "discipline": "60m tanques FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 642
+    },
+    {
+      "athlete_name": "Berta Sanchez Ruiz",
+      "athlete_dob": "05/08/2002",
+      "athlete_id": "CL71750",
+      "performance": "10.80",
+      "discipline": "60m tanques FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 643
+    },
+    {
+      "athlete_name": "Claudian. Mir Casellas",
+      "athlete_dob": "02/08/2003",
+      "athlete_id": "CL69333",
+      "performance": "11.14",
+      "discipline": "60m tanques FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 699
+    },
+    {
+      "athlete_name": "Ines Delgado Pizzo",
+      "athlete_dob": "19/05/2002",
+      "athlete_id": "CL71700",
+      "performance": "11.41",
+      "discipline": "60m tanques FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 667
+    },
+    {
+      "athlete_name": "Berta Prados Galindo",
+      "athlete_dob": "27/10/2002",
+      "athlete_id": "CL71738",
+      "performance": "11.17",
+      "discipline": "60m tanques FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 656
+    },
+    {
+      "athlete_name": "Ariadna Alonso Del Campo",
+      "athlete_dob": "06/09/2003",
+      "athlete_id": "CL82671",
+      "performance": "12.41",
+      "discipline": "60m tanques FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 703
+    },
+    {
+      "athlete_name": "Berta Pardines Vilalta",
+      "athlete_dob": "04/10/2002",
+      "athlete_id": "CL71731",
+      "performance": "12.72",
+      "discipline": "60m tanques FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 650
+    },
+    {
+      "athlete_name": "Bernat Verdu Gomez",
+      "athlete_dob": "02/01/2002",
+      "athlete_id": "CT25944",
+      "performance": "9.18",
+      "discipline": "60m tanques MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 645
+    },
+    {
+      "athlete_name": "Edgar Jose Diaz",
+      "athlete_dob": "08/04/2002",
+      "athlete_id": "CL71711",
+      "performance": "11.18",
+      "discipline": "60m tanques MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 653
+    },
+    {
+      "athlete_name": "Maria Falco Cuenca",
+      "athlete_dob": "14/06/2002",
+      "athlete_id": "CL71705",
+      "performance": "1.50",
+      "discipline": "Alçada FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 664
+    },
+    {
+      "athlete_name": "Ines Delgado Pizzo",
+      "athlete_dob": "19/05/2002",
+      "athlete_id": "CL71700",
+      "performance": "1.38",
+      "discipline": "Alçada FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 667
+    },
+    {
+      "athlete_name": "Alba Carvajal Garcia",
+      "athlete_dob": "18/09/2002",
+      "athlete_id": "CL86452",
+      "performance": "1.33",
+      "discipline": "Alçada FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 670
     },
     {
       "athlete_name": "Mar Vazquez Domingo",
       "athlete_dob": "17/03/2002",
       "athlete_id": "CL71756",
       "performance": "9.81",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt 2002 FEM. PC",
+      "discipline": "Triple Salt 2002 FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 642
     },
     {
@@ -60,9 +290,9 @@
       "athlete_dob": "17/03/2002",
       "athlete_id": "CL71756",
       "performance": "9.69",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt 2002 FEM. PC",
+      "discipline": "Triple Salt 2002 FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 642
     },
     {
@@ -70,9 +300,9 @@
       "athlete_dob": "17/03/2002",
       "athlete_id": "CL71756",
       "performance": "9.73",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt 2002 FEM. PC",
+      "discipline": "Triple Salt 2002 FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 642
     },
     {
@@ -80,9 +310,9 @@
       "athlete_dob": "17/03/2002",
       "athlete_id": "CL71756",
       "performance": "9.34",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt 2002 FEM. PC",
+      "discipline": "Triple Salt 2002 FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 642
     },
     {
@@ -90,9 +320,9 @@
       "athlete_dob": "17/03/2002",
       "athlete_id": "CL71756",
       "performance": "9.65",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt 2002 FEM. PC",
+      "discipline": "Triple Salt 2002 FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 642
     },
     {
@@ -100,9 +330,9 @@
       "athlete_dob": "05/08/2002",
       "athlete_id": "CL71750",
       "performance": "9.58",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt 2002 FEM. PC",
+      "discipline": "Triple Salt 2002 FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 643
     },
     {
@@ -110,9 +340,9 @@
       "athlete_dob": "05/08/2002",
       "athlete_id": "CL71750",
       "performance": "9.60",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt 2002 FEM. PC",
+      "discipline": "Triple Salt 2002 FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 643
     },
     {
@@ -120,9 +350,9 @@
       "athlete_dob": "05/08/2002",
       "athlete_id": "CL71750",
       "performance": "9.40",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt 2002 FEM. PC",
+      "discipline": "Triple Salt 2002 FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 643
     },
     {
@@ -130,9 +360,9 @@
       "athlete_dob": "05/08/2002",
       "athlete_id": "CL71750",
       "performance": "9.48",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt 2002 FEM. PC",
+      "discipline": "Triple Salt 2002 FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 643
     },
     {
@@ -140,10 +370,60 @@
       "athlete_dob": "05/08/2002",
       "athlete_id": "CL71750",
       "performance": "9.70",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt 2002 FEM. PC",
+      "discipline": "Triple Salt 2002 FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 643
+    },
+    {
+      "athlete_name": "Ariadna Alonso Del Campo",
+      "athlete_dob": "06/09/2003",
+      "athlete_id": "CL82671",
+      "performance": "6.22",
+      "discipline": "Pes 2003 FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 703
+    },
+    {
+      "athlete_name": "Ariadna Alonso Del Campo",
+      "athlete_dob": "06/09/2003",
+      "athlete_id": "CL82671",
+      "performance": "5.68",
+      "discipline": "Pes 2003 FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 703
+    },
+    {
+      "athlete_name": "Ariadna Alonso Del Campo",
+      "athlete_dob": "06/09/2003",
+      "athlete_id": "CL82671",
+      "performance": "6.26",
+      "discipline": "Pes 2003 FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 703
+    },
+    {
+      "athlete_name": "Edgar Jose Diaz",
+      "athlete_dob": "08/04/2002",
+      "athlete_id": "CL71711",
+      "performance": "9.48",
+      "discipline": "Triple Salt 2002 MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 653
+    },
+    {
+      "athlete_name": "Edgar Jose Diaz",
+      "athlete_dob": "08/04/2002",
+      "athlete_id": "CL71711",
+      "performance": "8.89",
+      "discipline": "Triple Salt 2002 MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 653
     }
   ]
 }

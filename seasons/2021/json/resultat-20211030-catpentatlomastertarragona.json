@@ -1,18 +1,38 @@
 {
   "event_name": "Campionat de Catalunya de Pentatló Màster",
   "event_date": "30/10/2021",
-  "event_location": "Tarragona",
-  "total_results": 6,
+  "event_location": "Tarragona-CLA",
+  "total_results": 25,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/10/resultat-20211030-catpentatlomastertarragona.pdf",
   "results": [
     {
       "athlete_name": "Josep Maria Mateo Sanz",
       "athlete_dob": "17/11/1964",
       "athlete_id": "CT19378",
+      "performance": "4.86",
+      "discipline": "LONGITUD MASC. PENTATHLON VET M55",
+      "wind": "+0.8",
+      "position": null,
+      "internal_id": 343
+    },
+    {
+      "athlete_name": "Josep Maria Mateo Sanz",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "4.76",
+      "discipline": "LONGITUD MASC. PENTATHLON VET M55",
+      "wind": "+0.0",
+      "position": null,
+      "internal_id": 343
+    },
+    {
+      "athlete_name": "Josep Maria Mateo Sanz",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
       "performance": "25.30",
-      "discipline": "Javelina (700 g)",
-      "raw_discipline_name": "Jabalina (700g) MASC. PENTATHLON VET M55",
+      "discipline": "Jabalina (700g) MASC. PENTATHLON VET M55",
       "wind": null,
+      "position": null,
       "internal_id": 343
     },
     {
@@ -20,9 +40,9 @@
       "athlete_dob": "17/11/1964",
       "athlete_id": "CT19378",
       "performance": "25.54",
-      "discipline": "Javelina (700 g)",
-      "raw_discipline_name": "Jabalina (700g) MASC. PENTATHLON VET M55",
+      "discipline": "Jabalina (700g) MASC. PENTATHLON VET M55",
       "wind": null,
+      "position": null,
       "internal_id": 343
     },
     {
@@ -30,9 +50,9 @@
       "athlete_dob": "17/11/1964",
       "athlete_id": "CT19378",
       "performance": "27.59",
-      "discipline": "Javelina (700 g)",
-      "raw_discipline_name": "Jabalina (700g) MASC. PENTATHLON VET M55",
+      "discipline": "Jabalina (700g) MASC. PENTATHLON VET M55",
       "wind": null,
+      "position": null,
       "internal_id": 343
     },
     {
@@ -40,9 +60,9 @@
       "athlete_dob": "17/11/1964",
       "athlete_id": "CT19378",
       "performance": "25.87",
-      "discipline": "Disc (1,5 Kg)",
-      "raw_discipline_name": "Disco (1,5kg) MASC. PENTATHLON VET M55",
+      "discipline": "Disco (1,5 Kg) MASC. PENTATHLON VET M55",
       "wind": null,
+      "position": null,
       "internal_id": 343
     },
     {
@@ -50,9 +70,9 @@
       "athlete_dob": "17/11/1964",
       "athlete_id": "CT19378",
       "performance": "26.03",
-      "discipline": "Disc (1,5 Kg)",
-      "raw_discipline_name": "Disco (1,5kg) MASC. PENTATHLON VET M55",
+      "discipline": "Disco (1,5 Kg) MASC. PENTATHLON VET M55",
       "wind": null,
+      "position": null,
       "internal_id": 343
     },
     {
@@ -60,10 +80,180 @@
       "athlete_dob": "17/11/1964",
       "athlete_id": "CT19378",
       "performance": "55.97",
-      "discipline": "Disc (1,5 Kg)",
-      "raw_discipline_name": "Disco (1,5kg) MASC. PENTATHLON VET M55",
+      "discipline": "Disco (1,5 Kg) MASC. PENTATHLON VET M55",
       "wind": null,
+      "position": null,
       "internal_id": 343
+    },
+    {
+      "athlete_name": "Francisco Griñant Almagro",
+      "athlete_dob": "04/08/1947",
+      "athlete_id": "CT18394",
+      "performance": "3.20",
+      "discipline": "LONGITUD MASC. PENTATHLON VET M70",
+      "wind": "+0.0",
+      "position": null,
+      "internal_id": 326
+    },
+    {
+      "athlete_name": "Francisco Griñant Almagro",
+      "athlete_dob": "04/08/1947",
+      "athlete_id": "CT18394",
+      "performance": "3.47",
+      "discipline": "LONGITUD MASC. PENTATHLON VET M70",
+      "wind": "+0.0",
+      "position": null,
+      "internal_id": 326
+    },
+    {
+      "athlete_name": "Francisco Griñant Almagro",
+      "athlete_dob": "04/08/1947",
+      "athlete_id": "CT18394",
+      "performance": "3.23",
+      "discipline": "LONGITUD MASC. PENTATHLON VET M70",
+      "wind": "+0.0",
+      "position": null,
+      "internal_id": 326
+    },
+    {
+      "athlete_name": "Francisco Griñant Almagro",
+      "athlete_dob": "04/08/1947",
+      "athlete_id": "CT18394",
+      "performance": "16.60",
+      "discipline": "Jabalina (500g) MASC. PENTATHLON VET M70",
+      "wind": null,
+      "position": null,
+      "internal_id": 326
+    },
+    {
+      "athlete_name": "Francisco Griñant Almagro",
+      "athlete_dob": "04/08/1947",
+      "athlete_id": "CT18394",
+      "performance": "39.27",
+      "discipline": "Jabalina (500g) MASC. PENTATHLON VET M70",
+      "wind": null,
+      "position": null,
+      "internal_id": 326
+    },
+    {
+      "athlete_name": "Francisco Griñant Almagro",
+      "athlete_dob": "04/08/1947",
+      "athlete_id": "CT18394",
+      "performance": "20.47",
+      "discipline": "Disco (1 Kg) MASC. PENTATHLON VET M70",
+      "wind": null,
+      "position": null,
+      "internal_id": 326
+    },
+    {
+      "athlete_name": "Francisco Griñant Almagro",
+      "athlete_dob": "04/08/1947",
+      "athlete_id": "CT18394",
+      "performance": "21.25",
+      "discipline": "Disco (1 Kg) MASC. PENTATHLON VET M70",
+      "wind": null,
+      "position": null,
+      "internal_id": 326
+    },
+    {
+      "athlete_name": "Francisco Griñant Almagro",
+      "athlete_dob": "04/08/1947",
+      "athlete_id": "CT18394",
+      "performance": "09.04",
+      "discipline": "Disco (1 Kg) MASC. PENTATHLON VET M70",
+      "wind": null,
+      "position": null,
+      "internal_id": 326
+    },
+    {
+      "athlete_name": "Gemma Sole Boronat",
+      "athlete_dob": "01/11/1967",
+      "athlete_id": "CT29376",
+      "performance": "14.81",
+      "discipline": "Salto AlturaPeso Longitud 800m Marca",
+      "wind": null,
+      "position": null,
+      "internal_id": 648
+    },
+    {
+      "athlete_name": "Gemma Sole Boronat",
+      "athlete_dob": "01/11/1967",
+      "athlete_id": "CT29376",
+      "performance": "1.27",
+      "discipline": "ALTURA FEM. PENTATHLON VET W50",
+      "wind": null,
+      "position": null,
+      "internal_id": 648
+    },
+    {
+      "athlete_name": "Gemma Sole Boronat",
+      "athlete_dob": "01/11/1967",
+      "athlete_id": "CT29376",
+      "performance": "7.33",
+      "discipline": "PESO (3K) FEM PENTATHLON VET W50",
+      "wind": null,
+      "position": null,
+      "internal_id": 648
+    },
+    {
+      "athlete_name": "Gemma Sole Boronat",
+      "athlete_dob": "01/11/1967",
+      "athlete_id": "CT29376",
+      "performance": "7.72",
+      "discipline": "PESO (3K) FEM PENTATHLON VET W50",
+      "wind": null,
+      "position": null,
+      "internal_id": 648
+    },
+    {
+      "athlete_name": "Gemma Sole Boronat",
+      "athlete_dob": "01/11/1967",
+      "athlete_id": "CT29376",
+      "performance": "7.27",
+      "discipline": "PESO (3K) FEM PENTATHLON VET W50",
+      "wind": null,
+      "position": null,
+      "internal_id": 648
+    },
+    {
+      "athlete_name": "Gemma Sole Boronat",
+      "athlete_dob": "01/11/1967",
+      "athlete_id": "CT29376",
+      "performance": "3.80",
+      "discipline": "LONGITUD FEM. PENTATHLON VET W50",
+      "wind": "+0.0",
+      "position": null,
+      "internal_id": 648
+    },
+    {
+      "athlete_name": "Gemma Sole Boronat",
+      "athlete_dob": "01/11/1967",
+      "athlete_id": "CT29376",
+      "performance": "3.35",
+      "discipline": "LONGITUD FEM. PENTATHLON VET W50",
+      "wind": "+0.0",
+      "position": null,
+      "internal_id": 648
+    },
+    {
+      "athlete_name": "Gemma Sole Boronat",
+      "athlete_dob": "01/11/1967",
+      "athlete_id": "CT29376",
+      "performance": "3.45",
+      "discipline": "LONGITUD FEM. PENTATHLON VET W50",
+      "wind": "+0.0",
+      "position": null,
+      "internal_id": 648
+    },
+    {
+      "athlete_name": "Gemma Sole Boronat",
+      "athlete_dob": "01/11/1967",
+      "athlete_id": "CT29376",
+      "performance": "05.28",
+      "discipline": "LONGITUD FEM. PENTATHLON VET W50",
+      "wind": null,
+      "position": null,
+      "internal_id": 648
     }
   ]
 }

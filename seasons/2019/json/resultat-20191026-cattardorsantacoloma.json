@@ -2,7 +2,7 @@
   "event_name": "Campionat Catalunya de Tardor 3a. jornada",
   "event_date": "26/10/2019",
   "event_location": "Santa Coloma de Gramenet",
-  "total_results": 4,
+  "total_results": 8,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20191026-cattardorsantacoloma.pdf",
   "results": [
     {
@@ -10,9 +10,9 @@
       "athlete_dob": "23/08/2004",
       "athlete_id": "CL77303",
       "performance": "19.02",
-      "discipline": "Martell (4 Kg)",
-      "raw_discipline_name": "Martillo (4kg) MASC. Sub16",
+      "discipline": "Martillo (4 Kg) MASC. Sub16",
       "wind": null,
+      "position": 7,
       "internal_id": 746
     },
     {
@@ -20,9 +20,9 @@
       "athlete_dob": "23/08/2004",
       "athlete_id": "CL77303",
       "performance": "23.10",
-      "discipline": "Martell (4 Kg)",
-      "raw_discipline_name": "Martillo (4kg) MASC. Sub16",
+      "discipline": "Martillo (4 Kg) MASC. Sub16",
       "wind": null,
+      "position": 7,
       "internal_id": 746
     },
     {
@@ -30,9 +30,9 @@
       "athlete_dob": "23/08/2004",
       "athlete_id": "CL77303",
       "performance": "23.44",
-      "discipline": "Martell (4 Kg)",
-      "raw_discipline_name": "Martillo (4kg) MASC. Sub16",
+      "discipline": "Martillo (4 Kg) MASC. Sub16",
       "wind": null,
+      "position": 7,
       "internal_id": 746
     },
     {
@@ -40,9 +40,49 @@
       "athlete_dob": "23/08/2004",
       "athlete_id": "CL77303",
       "performance": "26.59",
-      "discipline": "Martell (4 Kg)",
-      "raw_discipline_name": "Martillo (4kg) MASC. Sub16",
+      "discipline": "Martillo (4 Kg) MASC. Sub16",
       "wind": null,
+      "position": 7,
+      "internal_id": 746
+    },
+    {
+      "athlete_name": "Oriol Aldave Fores",
+      "athlete_dob": "23/08/2004",
+      "athlete_id": "CL77303",
+      "performance": "28.99",
+      "discipline": "Jabalina (600g) MASC. Sub16",
+      "wind": null,
+      "position": 6,
+      "internal_id": 746
+    },
+    {
+      "athlete_name": "Oriol Aldave Fores",
+      "athlete_dob": "23/08/2004",
+      "athlete_id": "CL77303",
+      "performance": "24.95",
+      "discipline": "Jabalina (600g) MASC. Sub16",
+      "wind": null,
+      "position": 6,
+      "internal_id": 746
+    },
+    {
+      "athlete_name": "Oriol Aldave Fores",
+      "athlete_dob": "23/08/2004",
+      "athlete_id": "CL77303",
+      "performance": "26.62",
+      "discipline": "Jabalina (600g) MASC. Sub16",
+      "wind": null,
+      "position": 6,
+      "internal_id": 746
+    },
+    {
+      "athlete_name": "Oriol Aldave Fores",
+      "athlete_dob": "23/08/2004",
+      "athlete_id": "CL77303",
+      "performance": "27.59",
+      "discipline": "Jabalina (600g) MASC. Sub16",
+      "wind": null,
+      "position": 6,
       "internal_id": 746
     }
   ]

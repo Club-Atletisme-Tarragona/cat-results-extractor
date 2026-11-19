@@ -1,8 +1,8 @@
 {
   "event_name": "Control de Proves Combinades per Pista Coberta 2017 - Control de Proves Combinades per Pista Coberta 2017",
-  "event_date": "12/02/2017",
-  "event_location": "Gavà",
-  "total_results": 21,
+  "event_date": "03/12/2017",
+  "event_location": "Club                                               Lic                             Acum.",
+  "total_results": 28,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2017120203-controlcombinadesgava.pdf",
   "results": [
     {
@@ -10,10 +10,9 @@
       "athlete_dob": "26/05/2003",
       "athlete_id": "CL71735",
       "performance": "8.66",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m SUB16 Masculí",
+      "discipline": "60m SUB16 Masculí",
       "wind": "-0.6",
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2017120203-controlcombinadesgava.pdf",
+      "position": null,
       "internal_id": 714
     },
     {
@@ -21,10 +20,9 @@
       "athlete_dob": "26/05/2003",
       "athlete_id": "CL71735",
       "performance": "4.10",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada SUB16 Masculí",
+      "discipline": "Llargada SUB16 Masculí",
       "wind": "-1.2",
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2017120203-controlcombinadesgava.pdf",
+      "position": null,
       "internal_id": 714
     },
     {
@@ -32,10 +30,9 @@
       "athlete_dob": "26/05/2003",
       "athlete_id": "CL71735",
       "performance": "4.43",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada SUB16 Masculí",
+      "discipline": "Llargada SUB16 Masculí",
       "wind": "-2.0",
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2017120203-controlcombinadesgava.pdf",
+      "position": null,
       "internal_id": 714
     },
     {
@@ -43,10 +40,9 @@
       "athlete_dob": "26/05/2003",
       "athlete_id": "CL71735",
       "performance": "4.14",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada SUB16 Masculí",
+      "discipline": "Llargada SUB16 Masculí",
       "wind": "-1.6",
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2017120203-controlcombinadesgava.pdf",
+      "position": null,
       "internal_id": 714
     },
     {
@@ -54,10 +50,9 @@
       "athlete_dob": "26/05/2003",
       "athlete_id": "CL71735",
       "performance": "5.43",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Pes (4kg) SUB16 Masculí",
+      "discipline": "Pes (4 Kg) SUB16 Masculí",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2017120203-controlcombinadesgava.pdf",
+      "position": null,
       "internal_id": 714
     },
     {
@@ -65,10 +60,9 @@
       "athlete_dob": "26/05/2003",
       "athlete_id": "CL71735",
       "performance": "5.59",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Pes (4kg) SUB16 Masculí",
+      "discipline": "Pes (4 Kg) SUB16 Masculí",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2017120203-controlcombinadesgava.pdf",
+      "position": null,
       "internal_id": 714
     },
     {
@@ -76,10 +70,9 @@
       "athlete_dob": "26/05/2003",
       "athlete_id": "CL71735",
       "performance": "5.52",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Pes (4kg) SUB16 Masculí",
+      "discipline": "Pes (4 Kg) SUB16 Masculí",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2017120203-controlcombinadesgava.pdf",
+      "position": null,
       "internal_id": 714
     },
     {
@@ -87,21 +80,59 @@
       "athlete_dob": "26/05/2003",
       "athlete_id": "CL71735",
       "performance": "1.30",
-      "discipline": "Alçada",
-      "raw_discipline_name": "Alçada SUB16 Masculí",
+      "discipline": "Alçada SUB16 Masculí",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2017120203-controlcombinadesgava.pdf",
+      "position": null,
+      "internal_id": 714
+    },
+    {
+      "athlete_name": "46 (t) Nil Pinyol Mateu CM 12",
+      "athlete_dob": "26/05/2003",
+      "athlete_id": "CL71735",
+      "performance": "NP",
+      "discipline": "1.000m SUB16 Masculí",
+      "wind": null,
+      "position": null,
       "internal_id": 714
     },
     {
       "athlete_name": "Juan Carlos Herrera Alcaide",
       "athlete_dob": "31/01/1973",
       "athlete_id": "CT25152",
+      "performance": "5.62",
+      "discipline": "Llargada MÀSTER M40-M45 Masculí",
+      "wind": "+5.1",
+      "position": null,
+      "internal_id": 518
+    },
+    {
+      "athlete_name": "Juan Carlos Herrera Alcaide",
+      "athlete_dob": "31/01/1973",
+      "athlete_id": "CT25152",
+      "performance": "5.46",
+      "discipline": "Llargada MÀSTER M40-M45 Masculí",
+      "wind": "+0.1",
+      "position": null,
+      "internal_id": 518
+    },
+    {
+      "athlete_name": "Juan Carlos Herrera Alcaide",
+      "athlete_dob": "31/01/1973",
+      "athlete_id": "CT25152",
+      "performance": "5.07",
+      "discipline": "Llargada MÀSTER M40-M45 Masculí",
+      "wind": "+0.0",
+      "position": null,
+      "internal_id": 518
+    },
+    {
+      "athlete_name": "Juan Carlos Herrera Alcaide",
+      "athlete_dob": "31/01/1973",
+      "athlete_id": "CT25152",
       "performance": "7.59",
-      "discipline": "Pes (7.260 Kg)",
-      "raw_discipline_name": "Pes MÀSTER M40-M45 (7,260kg)",
+      "discipline": "Pes MÀSTER M40-M45 (7,260 Kg)",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2017120203-controlcombinadesgava.pdf",
+      "position": null,
       "internal_id": 518
     },
     {
@@ -109,10 +140,9 @@
       "athlete_dob": "31/01/1973",
       "athlete_id": "CT25152",
       "performance": "7.98",
-      "discipline": "Pes (7.260 Kg)",
-      "raw_discipline_name": "Pes MÀSTER M40-M45 (7,260kg)",
+      "discipline": "Pes MÀSTER M40-M45 (7,260 Kg)",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2017120203-controlcombinadesgava.pdf",
+      "position": null,
       "internal_id": 518
     },
     {
@@ -120,10 +150,9 @@
       "athlete_dob": "31/01/1973",
       "athlete_id": "CT25152",
       "performance": "7.74",
-      "discipline": "Pes (7.260 Kg)",
-      "raw_discipline_name": "Pes MÀSTER M40-M45 (7,260kg)",
+      "discipline": "Pes MÀSTER M40-M45 (7,260 Kg)",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2017120203-controlcombinadesgava.pdf",
+      "position": null,
       "internal_id": 518
     },
     {
@@ -131,10 +160,9 @@
       "athlete_dob": "31/01/1973",
       "athlete_id": "CT25152",
       "performance": "1.51",
-      "discipline": "Alçada",
-      "raw_discipline_name": "Alçada MÀSTER M40-M45",
+      "discipline": "Alçada MÀSTER M40-M45",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2017120203-controlcombinadesgava.pdf",
+      "position": null,
       "internal_id": 518
     },
     {
@@ -142,10 +170,19 @@
       "athlete_dob": "31/01/1973",
       "athlete_id": "CT25152",
       "performance": "3.00",
-      "discipline": "Perxa",
-      "raw_discipline_name": "Perxa MÀSTER M40-45 Masculí",
+      "discipline": "Perxa MÀSTER M40-45 Masculí",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2017120203-controlcombinadesgava.pdf",
+      "position": null,
+      "internal_id": 518
+    },
+    {
+      "athlete_name": "44 Juan Carlos Herrera Alcaide M-40 2",
+      "athlete_dob": "31/01/1973",
+      "athlete_id": "CT25152",
+      "performance": "NP",
+      "discipline": "Perxa MÀSTER M40-45 Masculí",
+      "wind": null,
+      "position": null,
       "internal_id": 518
     },
     {
@@ -153,10 +190,9 @@
       "athlete_dob": "17/11/1964",
       "athlete_id": "CT19378",
       "performance": "4.79",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada MÀSTER M50-M55 Masculí",
+      "discipline": "Llargada MÀSTER M50-M55 Masculí",
       "wind": "+3.6",
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2017120203-controlcombinadesgava.pdf",
+      "position": null,
       "internal_id": 343
     },
     {
@@ -164,10 +200,9 @@
       "athlete_dob": "17/11/1964",
       "athlete_id": "CT19378",
       "performance": "4.64",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada MÀSTER M50-M55 Masculí",
+      "discipline": "Llargada MÀSTER M50-M55 Masculí",
       "wind": "+0.0",
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2017120203-controlcombinadesgava.pdf",
+      "position": null,
       "internal_id": 343
     },
     {
@@ -175,10 +210,9 @@
       "athlete_dob": "17/11/1964",
       "athlete_id": "CT19378",
       "performance": "4.77",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada MÀSTER M50-M55 Masculí",
+      "discipline": "Llargada MÀSTER M50-M55 Masculí",
       "wind": "+0.0",
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2017120203-controlcombinadesgava.pdf",
+      "position": null,
       "internal_id": 343
     },
     {
@@ -186,10 +220,9 @@
       "athlete_dob": "17/11/1964",
       "athlete_id": "CT19378",
       "performance": "6.63",
-      "discipline": "Pes (6 Kg)",
-      "raw_discipline_name": "Pes MÀSTER M50-M55 (6kg)",
+      "discipline": "Pes MÀSTER M50-M55 (6 Kg)",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2017120203-controlcombinadesgava.pdf",
+      "position": null,
       "internal_id": 343
     },
     {
@@ -197,10 +230,9 @@
       "athlete_dob": "17/11/1964",
       "athlete_id": "CT19378",
       "performance": "6.87",
-      "discipline": "Pes (6 Kg)",
-      "raw_discipline_name": "Pes MÀSTER M50-M55 (6kg)",
+      "discipline": "Pes MÀSTER M50-M55 (6 Kg)",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2017120203-controlcombinadesgava.pdf",
+      "position": null,
       "internal_id": 343
     },
     {
@@ -208,10 +240,9 @@
       "athlete_dob": "17/11/1964",
       "athlete_id": "CT19378",
       "performance": "6.96",
-      "discipline": "Pes (6 Kg)",
-      "raw_discipline_name": "Pes MÀSTER M50-M55 (6kg)",
+      "discipline": "Pes MÀSTER M50-M55 (6 Kg)",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2017120203-controlcombinadesgava.pdf",
+      "position": null,
       "internal_id": 343
     },
     {
@@ -219,10 +250,9 @@
       "athlete_dob": "17/11/1964",
       "athlete_id": "CT19378",
       "performance": "1.39",
-      "discipline": "Alçada",
-      "raw_discipline_name": "Alçada MÀSTER M50-M55",
+      "discipline": "Alçada MÀSTER M50-M55",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2017120203-controlcombinadesgava.pdf",
+      "position": null,
       "internal_id": 343
     },
     {
@@ -230,10 +260,29 @@
       "athlete_dob": "17/11/1964",
       "athlete_id": "CT19378",
       "performance": "2.80",
-      "discipline": "Perxa",
-      "raw_discipline_name": "Perxa MÀSTER M50-55 Masculí",
+      "discipline": "Perxa MÀSTER M50-55 Masculí",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2017120203-controlcombinadesgava.pdf",
+      "position": null,
+      "internal_id": 343
+    },
+    {
+      "athlete_name": "45 Josep Maria Mateo Sanz M-50 2",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "NP",
+      "discipline": "Perxa MÀSTER M50-55 Masculí",
+      "wind": null,
+      "position": null,
+      "internal_id": 343
+    },
+    {
+      "athlete_name": "Josep Maria Mateo",
+      "athlete_dob": "03/09/1961",
+      "athlete_id": "CT19378",
+      "performance": "2.80",
+      "discipline": "Heptatló MÀSTER M50-M55 Masculí",
+      "wind": null,
+      "position": null,
       "internal_id": 343
     }
   ]

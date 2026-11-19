@@ -2,17 +2,127 @@
   "event_name": "Campionat Catalunya de Clubs Sub20 Masculins",
   "event_date": "08/05/2022",
   "event_location": "Cornellà de Llobregat",
-  "total_results": 9,
+  "total_results": 31,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2022/05/resultat-20220508-catclubssub20alcornella.pdf",
   "results": [
+    {
+      "athlete_name": "Emma Esteve Soto",
+      "athlete_dob": "25/02/2006",
+      "athlete_id": "CT1021",
+      "performance": "12.79",
+      "discipline": "100m FEM. AL",
+      "wind": "+2.2",
+      "position": null,
+      "internal_id": 837
+    },
+    {
+      "athlete_name": "Mireia Redondo Mendoza",
+      "athlete_dob": "10/06/2008",
+      "athlete_id": "CT1467",
+      "performance": "26.22",
+      "discipline": "200m FEM. AL",
+      "wind": "+1.9",
+      "position": null,
+      "internal_id": 957
+    },
+    {
+      "athlete_name": "Aina Tomas Virgili",
+      "athlete_dob": "17/01/2005",
+      "athlete_id": "CL82421",
+      "performance": "1:06.84",
+      "discipline": "400m FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 815
+    },
+    {
+      "athlete_name": "Carlota Subiros De La Torre",
+      "athlete_dob": "26/03/2003",
+      "athlete_id": "CL27601",
+      "performance": "2:40.86",
+      "discipline": "800m FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 752
+    },
+    {
+      "athlete_name": "Cristina Iniesta Acera",
+      "athlete_dob": "27/02/2004",
+      "athlete_id": "CL78440",
+      "performance": "5:58.01",
+      "discipline": "1.500m FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 742
+    },
+    {
+      "athlete_name": "Iris Garrido Garcia",
+      "athlete_dob": "15/12/2008",
+      "athlete_id": "CL77529",
+      "performance": "11:58.06",
+      "discipline": "3.000m FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 982
+    },
+    {
+      "athlete_name": "Natalia Sanchez Alvarez",
+      "athlete_dob": "28/05/2005",
+      "athlete_id": "CT29768",
+      "performance": "18.66",
+      "discipline": "100m vallas (0,84) FEM. AL",
+      "wind": "+1.9",
+      "position": null,
+      "internal_id": 796
+    },
+    {
+      "athlete_name": "7 Claudia Mir Casellas JF 4",
+      "athlete_dob": "02/08/2003",
+      "athlete_id": "CT152",
+      "performance": "NP",
+      "discipline": "400m vallas (0,762) FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 699
+    },
+    {
+      "athlete_name": "Judit Ravell Sole",
+      "athlete_dob": "21/01/2004",
+      "athlete_id": "CT1565",
+      "performance": "12:54.82",
+      "discipline": "3.000m Obst. FEM.",
+      "wind": null,
+      "position": null,
+      "internal_id": 736
+    },
+    {
+      "athlete_name": "Laura Santos Martinez",
+      "athlete_dob": "14/09/2005",
+      "athlete_id": "CL71751",
+      "performance": "1.50",
+      "discipline": "Altura FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 807
+    },
+    {
+      "athlete_name": "7 (t) Laia Barbera Lanero CF",
+      "athlete_dob": "03/03/2008",
+      "athlete_id": "CL94525",
+      "performance": "NP",
+      "discipline": "Pértiga FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 961
+    },
     {
       "athlete_name": "Natalia Sanchez Alvarez",
       "athlete_dob": "28/05/2005",
       "athlete_id": "CT29768",
       "performance": "5.03",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud FEM. AL",
+      "discipline": "Longitud FEM. AL",
       "wind": "+0.5",
+      "position": null,
       "internal_id": 796
     },
     {
@@ -20,9 +130,9 @@
       "athlete_dob": "28/05/2005",
       "athlete_id": "CT29768",
       "performance": "5.00",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud FEM. AL",
+      "discipline": "Longitud FEM. AL",
       "wind": "-0.6",
+      "position": null,
       "internal_id": 796
     },
     {
@@ -30,9 +140,9 @@
       "athlete_dob": "09/12/2004",
       "athlete_id": "CL93990",
       "performance": "9.51",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salto FEM. AL",
+      "discipline": "Triple Salto FEM. AL",
       "wind": "-1.2",
+      "position": null,
       "internal_id": 816
     },
     {
@@ -40,9 +150,9 @@
       "athlete_dob": "09/12/2004",
       "athlete_id": "CL93990",
       "performance": "10.05",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salto FEM. AL",
+      "discipline": "Triple Salto FEM. AL",
       "wind": "-1.1",
+      "position": null,
       "internal_id": 816
     },
     {
@@ -50,9 +160,9 @@
       "athlete_dob": "09/12/2004",
       "athlete_id": "CL93990",
       "performance": "9.56",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salto FEM. AL",
+      "discipline": "Triple Salto FEM. AL",
       "wind": "-2.0",
+      "position": null,
       "internal_id": 816
     },
     {
@@ -60,19 +170,79 @@
       "athlete_dob": "09/12/2004",
       "athlete_id": "CL93990",
       "performance": "9.85",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salto FEM. AL",
+      "discipline": "Triple Salto FEM. AL",
       "wind": "-3.0",
+      "position": null,
       "internal_id": 816
     },
     {
       "athlete_name": "Lara Herrera Vallve",
       "athlete_dob": "07/04/2005",
       "athlete_id": "CT513",
-      "performance": "24.33",
-      "discipline": "Martell (4 Kg)",
-      "raw_discipline_name": "Martillo (4kg) FEM.",
+      "performance": "7.79",
+      "discipline": "Peso (4 Kg) FEM. AL",
       "wind": null,
+      "position": null,
+      "internal_id": 813
+    },
+    {
+      "athlete_name": "Lara Herrera Vallve",
+      "athlete_dob": "07/04/2005",
+      "athlete_id": "CT513",
+      "performance": "7.71",
+      "discipline": "Peso (4 Kg) FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 813
+    },
+    {
+      "athlete_name": "Lara Herrera Vallve",
+      "athlete_dob": "07/04/2005",
+      "athlete_id": "CT513",
+      "performance": "7.54",
+      "discipline": "Peso (4 Kg) FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 813
+    },
+    {
+      "athlete_name": "Tecla Guim Caceres",
+      "athlete_dob": "30/07/2006",
+      "athlete_id": "CL90509",
+      "performance": "17.34",
+      "discipline": "Disco (1 Kg) FEM.",
+      "wind": null,
+      "position": null,
+      "internal_id": 843
+    },
+    {
+      "athlete_name": "Tecla Guim Caceres",
+      "athlete_dob": "30/07/2006",
+      "athlete_id": "CL90509",
+      "performance": "17.23",
+      "discipline": "Disco (1 Kg) FEM.",
+      "wind": null,
+      "position": null,
+      "internal_id": 843
+    },
+    {
+      "athlete_name": "Tecla Guim Caceres",
+      "athlete_dob": "30/07/2006",
+      "athlete_id": "CL90509",
+      "performance": "17.28",
+      "discipline": "Disco (1 Kg) FEM.",
+      "wind": null,
+      "position": null,
+      "internal_id": 843
+    },
+    {
+      "athlete_name": "Lara Herrera Vallve",
+      "athlete_dob": "07/04/2005",
+      "athlete_id": "CT513",
+      "performance": "24.33",
+      "discipline": "Martillo (4 Kg) FEM.",
+      "wind": null,
+      "position": null,
       "internal_id": 813
     },
     {
@@ -80,9 +250,9 @@
       "athlete_dob": "07/04/2005",
       "athlete_id": "CT513",
       "performance": "22.31",
-      "discipline": "Martell (4 Kg)",
-      "raw_discipline_name": "Martillo (4kg) FEM.",
+      "discipline": "Martillo (4 Kg) FEM.",
       "wind": null,
+      "position": null,
       "internal_id": 813
     },
     {
@@ -90,10 +260,60 @@
       "athlete_dob": "07/04/2005",
       "athlete_id": "CT513",
       "performance": "26.77",
-      "discipline": "Martell (4 Kg)",
-      "raw_discipline_name": "Martillo (4kg) FEM.",
+      "discipline": "Martillo (4 Kg) FEM.",
       "wind": null,
+      "position": null,
       "internal_id": 813
+    },
+    {
+      "athlete_name": "Meritxell Becerra Garrido",
+      "athlete_dob": "01/03/2006",
+      "athlete_id": "CL853",
+      "performance": "17.85",
+      "discipline": "Jabalina (600g) FEM.",
+      "wind": null,
+      "position": null,
+      "internal_id": 882
+    },
+    {
+      "athlete_name": "Meritxell Becerra Garrido",
+      "athlete_dob": "01/03/2006",
+      "athlete_id": "CL853",
+      "performance": "14.81",
+      "discipline": "Jabalina (600g) FEM.",
+      "wind": null,
+      "position": null,
+      "internal_id": 882
+    },
+    {
+      "athlete_name": "Meritxell Becerra Garrido",
+      "athlete_dob": "01/03/2006",
+      "athlete_id": "CL853",
+      "performance": "16.55",
+      "discipline": "Jabalina (600g) FEM.",
+      "wind": null,
+      "position": null,
+      "internal_id": 882
+    },
+    {
+      "athlete_name": "Meritxell Becerra Garrido",
+      "athlete_dob": "01/03/2006",
+      "athlete_id": "CL853",
+      "performance": "12.92",
+      "discipline": "Jabalina (600g) FEM.",
+      "wind": null,
+      "position": null,
+      "internal_id": 882
+    },
+    {
+      "athlete_name": "Julia Suarez Piza",
+      "athlete_dob": "05/11/2006",
+      "athlete_id": "CT29377",
+      "performance": "24:41.13",
+      "discipline": "5.000m Marcha FEM. en pista",
+      "wind": null,
+      "position": null,
+      "internal_id": 839
     }
   ]
 }

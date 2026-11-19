@@ -1,10 +1,32 @@
 {
   "event_name": "Cnt. Catalunya Proves Combinades Absolut-Sub23-Sub20 + Control Sub18 - Sabadell (Pista Coberta de Catalunya), 13-14 enero 2018",
-  "event_date": "14/01/2018",
-  "event_location": "Sabadell",
-  "total_results": 14,
+  "event_date": "05/08/1993",
+  "event_location": "Cornellà At.                                SM",
+  "total_results": 18,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018011314-catcombinadespcsabadell.pdf",
   "results": [
+    {
+      "athlete_name": "Mireia Lopez Urbano",
+      "athlete_dob": "07/12/2000",
+      "athlete_id": "CT23556",
+      "performance": "2979",
+      "discipline": "Pentatló",
+      "raw_discipline_name": "Pentatló ABS FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 527
+    },
+    {
+      "athlete_name": "Mireia Lopez Urbano",
+      "athlete_dob": "07/12/2000",
+      "athlete_id": "CT23556",
+      "performance": "2979",
+      "discipline": "Pentatló",
+      "raw_discipline_name": "Pentatló S20 FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 527
+    },
     {
       "athlete_name": "Mireia Lopez Urbano",
       "athlete_dob": "07/12/2000",
@@ -13,7 +35,7 @@
       "discipline": "Alçada",
       "raw_discipline_name": "Alçada ABS FEM",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018011314-catcombinadespcsabadell.pdf",
+      "position": null,
       "internal_id": 527
     },
     {
@@ -22,9 +44,9 @@
       "athlete_id": "CT23556",
       "performance": "8.20",
       "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Pes (4 kg) ABS FEM",
+      "raw_discipline_name": "Pes (4 Kg) ABS FEM",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018011314-catcombinadespcsabadell.pdf",
+      "position": null,
       "internal_id": 527
     },
     {
@@ -33,9 +55,9 @@
       "athlete_id": "CT23556",
       "performance": "8.37",
       "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Pes (4 kg) ABS FEM",
+      "raw_discipline_name": "Pes (4 Kg) ABS FEM",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018011314-catcombinadespcsabadell.pdf",
+      "position": null,
       "internal_id": 527
     },
     {
@@ -44,9 +66,9 @@
       "athlete_id": "CT23556",
       "performance": "9.08",
       "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Pes (4 kg) ABS FEM",
+      "raw_discipline_name": "Pes (4 Kg) ABS FEM",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018011314-catcombinadespcsabadell.pdf",
+      "position": null,
       "internal_id": 527
     },
     {
@@ -57,7 +79,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada ABS FEM",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018011314-catcombinadespcsabadell.pdf",
+      "position": null,
       "internal_id": 527
     },
     {
@@ -68,7 +90,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada ABS FEM",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018011314-catcombinadespcsabadell.pdf",
+      "position": null,
       "internal_id": 527
     },
     {
@@ -79,7 +101,18 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada ABS FEM",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018011314-catcombinadespcsabadell.pdf",
+      "position": null,
+      "internal_id": 527
+    },
+    {
+      "athlete_name": "Mireia Lopez",
+      "athlete_dob": "05/04/2000",
+      "athlete_id": "CT23556",
+      "performance": "2979",
+      "discipline": "Pentatló",
+      "raw_discipline_name": "Pentatló ABS FEM. PC",
+      "wind": null,
+      "position": null,
       "internal_id": 527
     },
     {
@@ -90,7 +123,7 @@
       "discipline": "Alçada",
       "raw_discipline_name": "Alçada S20F",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018011314-catcombinadespcsabadell.pdf",
+      "position": null,
       "internal_id": 527
     },
     {
@@ -101,7 +134,7 @@
       "discipline": "Pes (4 Kg)",
       "raw_discipline_name": "Pes (4 kg.) S20F",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018011314-catcombinadespcsabadell.pdf",
+      "position": null,
       "internal_id": 527
     },
     {
@@ -112,7 +145,7 @@
       "discipline": "Pes (4 Kg)",
       "raw_discipline_name": "Pes (4 kg.) S20F",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018011314-catcombinadespcsabadell.pdf",
+      "position": null,
       "internal_id": 527
     },
     {
@@ -123,7 +156,7 @@
       "discipline": "Pes (4 Kg)",
       "raw_discipline_name": "Pes (4 kg.) S20F",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018011314-catcombinadespcsabadell.pdf",
+      "position": null,
       "internal_id": 527
     },
     {
@@ -134,7 +167,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada S20F",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018011314-catcombinadespcsabadell.pdf",
+      "position": null,
       "internal_id": 527
     },
     {
@@ -145,7 +178,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada S20F",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018011314-catcombinadespcsabadell.pdf",
+      "position": null,
       "internal_id": 527
     },
     {
@@ -156,7 +189,18 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada S20F",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2018011314-catcombinadespcsabadell.pdf",
+      "position": null,
+      "internal_id": 527
+    },
+    {
+      "athlete_name": "Mireia Lopez",
+      "athlete_dob": "05/04/2000",
+      "athlete_id": "CT23556",
+      "performance": "2979",
+      "discipline": "Pentatló",
+      "raw_discipline_name": "Pentatló S20 FEM. PC",
+      "wind": null,
+      "position": null,
       "internal_id": 527
     }
   ]

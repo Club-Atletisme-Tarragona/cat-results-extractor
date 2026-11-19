@@ -2,17 +2,137 @@
   "event_name": "Campionat Catalunya de Clubs Sub-20",
   "event_date": "01/05/2019",
   "event_location": "Barcelona-SE",
-  "total_results": 13,
+  "total_results": 46,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20190501-catclubssub20serrahima.pdf",
   "results": [
+    {
+      "athlete_name": "Carlos Aranda Sanchez",
+      "athlete_dob": "14/04/2003",
+      "athlete_id": "CL29247",
+      "performance": "12.06",
+      "discipline": "100m MASC. AL",
+      "wind": "-0.7",
+      "position": null,
+      "internal_id": 706
+    },
+    {
+      "athlete_name": "Bernat Verdu Gomez",
+      "athlete_dob": "02/01/2002",
+      "athlete_id": "CT25944",
+      "performance": "23.37",
+      "discipline": "200m MASC. AL",
+      "wind": "+3.3",
+      "position": null,
+      "internal_id": 645
+    },
+    {
+      "athlete_name": "Raul Cortes Castilla",
+      "athlete_dob": "18/09/2002",
+      "athlete_id": "CL29528",
+      "performance": "1:00.38",
+      "discipline": "400m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 707
+    },
+    {
+      "athlete_name": "Aleix Lago Garbajosa",
+      "athlete_dob": "26/09/2002",
+      "athlete_id": "CL27847",
+      "performance": "4:30.59",
+      "discipline": "1.500m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 660
+    },
+    {
+      "athlete_name": "Didac Safont Balaguer",
+      "athlete_dob": "25/02/2002",
+      "athlete_id": "CL27854",
+      "performance": "10:21.61",
+      "discipline": "3.000m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 651
+    },
+    {
+      "athlete_name": "Pablo Angel Fernandez",
+      "athlete_dob": "26/01/2003",
+      "athlete_id": "CT28510",
+      "performance": "15.94",
+      "discipline": "110m vallas (1,00) MASC. AL",
+      "wind": "+1.7",
+      "position": null,
+      "internal_id": 704
+    },
+    {
+      "athlete_name": "Guifre De Los Rios Blanch",
+      "athlete_dob": "09/06/2003",
+      "athlete_id": "CL29249",
+      "performance": "1:01.82",
+      "discipline": "400m vallas (0,91) MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 697
+    },
+    {
+      "athlete_name": "73 (t) David Bonnin Obach 8",
+      "athlete_dob": "10/11/2003",
+      "athlete_id": "CL29248",
+      "performance": "NP",
+      "discipline": "3.000m Obst. MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 710
+    },
+    {
+      "athlete_name": "Nil Pinyol Mateu",
+      "athlete_dob": "26/05/2003",
+      "athlete_id": "CL29252",
+      "performance": "1.65",
+      "discipline": "Altura MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 714
+    },
+    {
+      "athlete_name": "Edgar Jose Diaz",
+      "athlete_dob": "08/04/2002",
+      "athlete_id": "CL27846",
+      "performance": "5.02",
+      "discipline": "Longitud MASC. AL",
+      "wind": "-0.3",
+      "position": null,
+      "internal_id": 653
+    },
+    {
+      "athlete_name": "Edgar Jose Diaz",
+      "athlete_dob": "08/04/2002",
+      "athlete_id": "CL27846",
+      "performance": "5.03",
+      "discipline": "Longitud MASC. AL",
+      "wind": "+1.4",
+      "position": null,
+      "internal_id": 653
+    },
+    {
+      "athlete_name": "Edgar Jose Diaz",
+      "athlete_dob": "08/04/2002",
+      "athlete_id": "CL27846",
+      "performance": "5.28",
+      "discipline": "Longitud MASC. AL",
+      "wind": "+0.1",
+      "position": null,
+      "internal_id": 653
+    },
     {
       "athlete_name": "Bernat Verdu Gomez",
       "athlete_dob": "02/01/2002",
       "athlete_id": "CT25944",
       "performance": "12.01",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salto MASC. AL",
+      "discipline": "Triple Salto MASC. AL",
       "wind": "+1.1",
+      "position": null,
       "internal_id": 645
     },
     {
@@ -20,9 +140,9 @@
       "athlete_dob": "22/01/2000",
       "athlete_id": "CT25156",
       "performance": "25.63",
-      "discipline": "Disc (1,750)",
-      "raw_discipline_name": "Disco (1,750kg) MASC.",
+      "discipline": "Disco (1,750 Kg) MASC.",
       "wind": null,
+      "position": null,
       "internal_id": 522
     },
     {
@@ -30,29 +150,209 @@
       "athlete_dob": "22/01/2000",
       "athlete_id": "CT25156",
       "performance": "26.27",
-      "discipline": "Disc (1,750)",
-      "raw_discipline_name": "Disco (1,750kg) MASC.",
+      "discipline": "Disco (1,750 Kg) MASC.",
       "wind": null,
+      "position": null,
       "internal_id": 522
     },
     {
-      "athlete_name": "Berta Sanchez Ruiz",
+      "athlete_name": "Albert Casado Vieco",
+      "athlete_dob": "16/09/2000",
+      "athlete_id": "CL26565",
+      "performance": "21.51",
+      "discipline": "Jabalina (800g) MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 596
+    },
+    {
+      "athlete_name": "Martina Pomes Cabello",
+      "athlete_dob": "02/02/2005",
+      "athlete_id": "CT29548",
+      "performance": "13.55",
+      "discipline": "100m FEM. AL",
+      "wind": "+0.2",
+      "position": null,
+      "internal_id": 810
+    },
+    {
+      "athlete_name": "Mireia Lopez Urbano",
+      "athlete_dob": "07/12/2000",
+      "athlete_id": "CT23556",
+      "performance": "25.63",
+      "discipline": "200m FEM. AL",
+      "wind": "+1.5",
+      "position": null,
+      "internal_id": 527
+    },
+    {
+      "athlete_name": "Nerea Lago Garbajosa",
+      "athlete_dob": "15/05/2000",
+      "athlete_id": "CL25157",
+      "performance": "1:08.43",
+      "discipline": "400m FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 534
+    },
+    {
+      "athlete_name": "Carla Gonzalez Carrillo",
+      "athlete_dob": "05/06/2003",
+      "athlete_id": "CL29242",
+      "performance": "2:34.76",
+      "discipline": "800m FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 698
+    },
+    {
+      "athlete_name": "Maria Buscail Brianso",
+      "athlete_dob": "15/12/2000",
+      "athlete_id": "CL25158",
+      "performance": "5:22.28",
+      "discipline": "1.500m FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 520
+    },
+    {
+      "athlete_name": "Alexandra Rofes Palacios",
+      "athlete_dob": "27/09/2004",
+      "athlete_id": "CL90523",
+      "performance": "11:21.20",
+      "discipline": "3.000m FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 731
+    },
+    {
+      "athlete_name": "Alba Oyonate Farrera",
+      "athlete_dob": "19/07/2001",
+      "athlete_id": "CL26562",
+      "performance": "18.44",
+      "discipline": "100m vallas (0,84) FEM. AL",
+      "wind": "+1.8",
+      "position": null,
+      "internal_id": 582
+    },
+    {
+      "athlete_name": "Claudia Mir Casellas",
+      "athlete_dob": "02/08/2003",
+      "athlete_id": "CL29243",
+      "performance": "1:11.23",
+      "discipline": "400m vallas (0,762) FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 699
+    },
+    {
+      "athlete_name": "73 (t) Ariadna Alonso Del Campo 5",
+      "athlete_dob": "06/09/2003",
+      "athlete_id": "CL29241",
+      "performance": "NP",
+      "discipline": "3.000m Obst. FEM.",
+      "wind": null,
+      "position": null,
+      "internal_id": 703
+    },
+    {
+      "athlete_name": "Maria Falco Cuenca",
+      "athlete_dob": "14/06/2002",
+      "athlete_id": "CT27273",
+      "performance": "1.60",
+      "discipline": "Altura FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 664
+    },
+    {
+      "athlete_name": "Berta Sanchez Ruiz 7.5",
       "athlete_dob": "05/08/2002",
       "athlete_id": "CL27855",
       "performance": "2.55",
-      "discipline": "Perxa",
-      "raw_discipline_name": "Pértiga FEM. AL",
+      "discipline": "Pértiga FEM. AL",
       "wind": null,
+      "position": null,
       "internal_id": 643
+    },
+    {
+      "athlete_name": "Natalia Sanchez Alvarez",
+      "athlete_dob": "28/05/2005",
+      "athlete_id": "CL71748",
+      "performance": "4.79",
+      "discipline": "Longitud FEM. AL",
+      "wind": "+1.0",
+      "position": null,
+      "internal_id": 796
+    },
+    {
+      "athlete_name": "Natalia Sanchez Alvarez",
+      "athlete_dob": "28/05/2005",
+      "athlete_id": "CL71748",
+      "performance": "4.47",
+      "discipline": "Longitud FEM. AL",
+      "wind": "-0.2",
+      "position": null,
+      "internal_id": 796
+    },
+    {
+      "athlete_name": "Natalia Sanchez Alvarez",
+      "athlete_dob": "28/05/2005",
+      "athlete_id": "CL71748",
+      "performance": "4.62",
+      "discipline": "Longitud FEM. AL",
+      "wind": "-0.2",
+      "position": null,
+      "internal_id": 796
+    },
+    {
+      "athlete_name": "Laurine Elisa Marimon Fernandez",
+      "athlete_dob": "17/09/2004",
+      "athlete_id": "CT28409",
+      "performance": "11.02",
+      "discipline": "Triple Salto FEM. AL",
+      "wind": "+1.2",
+      "position": null,
+      "internal_id": 737
+    },
+    {
+      "athlete_name": "Laurine Elisa Marimon Fernandez",
+      "athlete_dob": "17/09/2004",
+      "athlete_id": "CT28409",
+      "performance": "10.97",
+      "discipline": "Triple Salto FEM. AL",
+      "wind": "-1.4",
+      "position": null,
+      "internal_id": 737
+    },
+    {
+      "athlete_name": "Laurine Elisa Marimon Fernandez",
+      "athlete_dob": "17/09/2004",
+      "athlete_id": "CT28409",
+      "performance": "11.03",
+      "discipline": "Triple Salto FEM. AL",
+      "wind": "+1.3",
+      "position": null,
+      "internal_id": 737
+    },
+    {
+      "athlete_name": "Laurine Elisa Marimon Fernandez",
+      "athlete_dob": "17/09/2004",
+      "athlete_id": "CT28409",
+      "performance": "11.04",
+      "discipline": "Triple Salto FEM. AL",
+      "wind": "+1.6",
+      "position": null,
+      "internal_id": 737
     },
     {
       "athlete_name": "Nuria Menchon Tevar",
       "athlete_dob": "25/06/2002",
       "athlete_id": "CL27849",
       "performance": "7.33",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Peso (4kg) FEM. AL",
+      "discipline": "Peso (4 Kg) FEM. AL",
       "wind": null,
+      "position": null,
       "internal_id": 541
     },
     {
@@ -60,9 +360,9 @@
       "athlete_dob": "25/06/2002",
       "athlete_id": "CL27849",
       "performance": "7.12",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Peso (4kg) FEM. AL",
+      "discipline": "Peso (4 Kg) FEM. AL",
       "wind": null,
+      "position": null,
       "internal_id": 541
     },
     {
@@ -70,9 +370,9 @@
       "athlete_dob": "25/06/2002",
       "athlete_id": "CL27849",
       "performance": "7.63",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Peso (4kg) FEM. AL",
+      "discipline": "Peso (4 Kg) FEM. AL",
       "wind": null,
+      "position": null,
       "internal_id": 541
     },
     {
@@ -80,9 +380,9 @@
       "athlete_dob": "25/06/2002",
       "athlete_id": "CL27849",
       "performance": "7.77",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Peso (4kg) FEM. AL",
+      "discipline": "Peso (4 Kg) FEM. AL",
       "wind": null,
+      "position": null,
       "internal_id": 541
     },
     {
@@ -90,9 +390,9 @@
       "athlete_dob": "24/11/2002",
       "athlete_id": "CL27845",
       "performance": "14.94",
-      "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "Disco (1kg) FEM.",
+      "discipline": "Disco (1 Kg) FEM.",
       "wind": null,
+      "position": null,
       "internal_id": 655
     },
     {
@@ -100,9 +400,9 @@
       "athlete_dob": "24/11/2002",
       "athlete_id": "CL27845",
       "performance": "16.46",
-      "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "Disco (1kg) FEM.",
+      "discipline": "Disco (1 Kg) FEM.",
       "wind": null,
+      "position": null,
       "internal_id": 655
     },
     {
@@ -110,9 +410,9 @@
       "athlete_dob": "25/06/2002",
       "athlete_id": "CL27849",
       "performance": "28.10",
-      "discipline": "Martell (4 Kg)",
-      "raw_discipline_name": "Martillo (4kg) FEM.",
+      "discipline": "Martillo (4 Kg) FEM.",
       "wind": null,
+      "position": null,
       "internal_id": 541
     },
     {
@@ -120,9 +420,9 @@
       "athlete_dob": "25/06/2002",
       "athlete_id": "CL27849",
       "performance": "27.24",
-      "discipline": "Martell (4 Kg)",
-      "raw_discipline_name": "Martillo (4kg) FEM.",
+      "discipline": "Martillo (4 Kg) FEM.",
       "wind": null,
+      "position": null,
       "internal_id": 541
     },
     {
@@ -130,10 +430,40 @@
       "athlete_dob": "25/06/2002",
       "athlete_id": "CL27849",
       "performance": "28.43",
-      "discipline": "Martell (4 Kg)",
-      "raw_discipline_name": "Martillo (4kg) FEM.",
+      "discipline": "Martillo (4 Kg) FEM.",
       "wind": null,
+      "position": null,
       "internal_id": 541
+    },
+    {
+      "athlete_name": "Mireia Lopez Urbano",
+      "athlete_dob": "07/12/2000",
+      "athlete_id": "CT23556",
+      "performance": "21.64",
+      "discipline": "Jabalina (600g) FEM.",
+      "wind": null,
+      "position": null,
+      "internal_id": 527
+    },
+    {
+      "athlete_name": "Mireia Lopez Urbano",
+      "athlete_dob": "07/12/2000",
+      "athlete_id": "CT23556",
+      "performance": "26.28",
+      "discipline": "Jabalina (600g) FEM.",
+      "wind": null,
+      "position": null,
+      "internal_id": 527
+    },
+    {
+      "athlete_name": "Mireia Lopez Urbano",
+      "athlete_dob": "07/12/2000",
+      "athlete_id": "CT23556",
+      "performance": "28.24",
+      "discipline": "Jabalina (600g) FEM.",
+      "wind": null,
+      "position": null,
+      "internal_id": 527
     }
   ]
 }

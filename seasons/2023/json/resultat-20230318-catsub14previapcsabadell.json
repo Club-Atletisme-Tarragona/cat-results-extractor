@@ -1,28 +1,88 @@
 {
   "event_name": "Jornada Prèvia Campionat de Catalunya Sub14 en Pista Coberta - Jornada Prèvia Campionat de Catalunya Sub14 en Pista Coberta",
   "event_date": "18/03/2023",
-  "event_location": "Sabadell",
-  "total_results": 19,
+  "event_location": "Club                                            Lic",
+  "total_results": 32,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2023/03/resultat-20230318-catsub14previapcsabadell.pdf",
   "results": [
+    {
+      "athlete_name": "Iker Rodriguez Barrios",
+      "athlete_dob": "11/08/2010",
+      "athlete_id": "CL11327",
+      "performance": "8.46",
+      "discipline": "60m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1069
+    },
+    {
+      "athlete_name": "Quim Sousa Iturria",
+      "athlete_dob": "03/05/2010",
+      "athlete_id": "CL90845",
+      "performance": "1:46.10",
+      "discipline": "600m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
     {
       "athlete_name": "Enzo Mate Gras",
       "athlete_dob": "01/02/2011",
       "athlete_id": "CL94546",
       "performance": "1.90",
-      "discipline": "Perxa",
-      "raw_discipline_name": "Perxa MASC. PC",
+      "discipline": "Perxa MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 1343
+    },
+    {
+      "athlete_name": "Jordi Bofarull Cot",
+      "athlete_dob": "27/06/2010",
+      "athlete_id": "CL4161",
+      "performance": "1.90",
+      "discipline": "Perxa MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1076
+    },
+    {
+      "athlete_name": "Samuel Marcos Perez",
+      "athlete_dob": "01/02/2010",
+      "athlete_id": "CL90024",
+      "performance": "8.68",
+      "discipline": "Triple Salt MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1071
+    },
+    {
+      "athlete_name": "Samuel Marcos Perez",
+      "athlete_dob": "01/02/2010",
+      "athlete_id": "CL90024",
+      "performance": "8.76",
+      "discipline": "Triple Salt MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1071
+    },
+    {
+      "athlete_name": "Samuel Marcos Perez",
+      "athlete_dob": "01/02/2010",
+      "athlete_id": "CL90024",
+      "performance": "9.16",
+      "discipline": "Triple Salt MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1071
     },
     {
       "athlete_name": "Marçal Sinfreu Niubo",
       "athlete_dob": "03/03/2011",
       "athlete_id": "CL94414",
       "performance": "7.30",
-      "discipline": "Pes (3 Kg)",
-      "raw_discipline_name": "Pes (3kg) MASC. PC",
+      "discipline": "Pes (3 Kg) MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -30,9 +90,9 @@
       "athlete_dob": "03/03/2011",
       "athlete_id": "CL94414",
       "performance": "7.72",
-      "discipline": "Pes (3 Kg)",
-      "raw_discipline_name": "Pes (3kg) MASC. PC",
+      "discipline": "Pes (3 Kg) MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -40,9 +100,9 @@
       "athlete_dob": "20/01/2010",
       "athlete_id": "CL90450",
       "performance": "8.18",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m FEM. PC",
+      "discipline": "60m FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 1016
     },
     {
@@ -50,19 +110,69 @@
       "athlete_dob": "02/01/2011",
       "athlete_id": "CL7250",
       "performance": "8.75",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m FEM. PC",
+      "discipline": "60m FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 1358
+    },
+    {
+      "athlete_name": "Lara Garcia Mur",
+      "athlete_dob": "23/10/2011",
+      "athlete_id": "CL94385",
+      "performance": "1:50.42",
+      "discipline": "600m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1324
+    },
+    {
+      "athlete_name": "Nora Montolio Amaro",
+      "athlete_dob": "05/02/2010",
+      "athlete_id": "CL90841",
+      "performance": "3:26.19",
+      "discipline": "1.000m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1089
+    },
+    {
+      "athlete_name": "Claudia Espinosa Rodriguez",
+      "athlete_dob": "05/12/2011",
+      "athlete_id": "CL7390",
+      "performance": "8:01.95",
+      "discipline": "2.000m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Nora Montolio Amaro",
+      "athlete_dob": "05/02/2010",
+      "athlete_id": "CL90841",
+      "performance": "10.86",
+      "discipline": "60m tanques (0,762) PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1089
+    },
+    {
+      "athlete_name": "Ona Sansa Garcia",
+      "athlete_dob": "31/05/2010",
+      "athlete_id": "CL90844",
+      "performance": "2.70",
+      "discipline": "Perxa FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1015
     },
     {
       "athlete_name": "Ona Sansa Garcia",
       "athlete_dob": "31/05/2010",
       "athlete_id": "CL90844",
       "performance": "4.22",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada FEM. PC",
+      "discipline": "Llargada FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 1015
     },
     {
@@ -70,9 +180,9 @@
       "athlete_dob": "31/05/2010",
       "athlete_id": "CL90844",
       "performance": "4.49",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada FEM. PC",
+      "discipline": "Llargada FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 1015
     },
     {
@@ -80,9 +190,9 @@
       "athlete_dob": "31/05/2010",
       "athlete_id": "CL90844",
       "performance": "4.53",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada FEM. PC",
+      "discipline": "Llargada FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 1015
     },
     {
@@ -90,9 +200,9 @@
       "athlete_dob": "02/01/2011",
       "athlete_id": "CL7250",
       "performance": "4.04",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada FEM. PC",
+      "discipline": "Llargada FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 1358
     },
     {
@@ -100,9 +210,9 @@
       "athlete_dob": "02/01/2011",
       "athlete_id": "CL7250",
       "performance": "3.68",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada FEM. PC",
+      "discipline": "Llargada FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 1358
     },
     {
@@ -110,9 +220,9 @@
       "athlete_dob": "02/01/2011",
       "athlete_id": "CL7250",
       "performance": "4.49",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada FEM. PC",
+      "discipline": "Llargada FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 1358
     },
     {
@@ -120,9 +230,9 @@
       "athlete_dob": "20/01/2010",
       "athlete_id": "CL90450",
       "performance": "4.28",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada FEM. PC",
+      "discipline": "Llargada FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 1016
     },
     {
@@ -130,9 +240,9 @@
       "athlete_dob": "20/01/2010",
       "athlete_id": "CL90450",
       "performance": "4.35",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada FEM. PC",
+      "discipline": "Llargada FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 1016
     },
     {
@@ -140,9 +250,9 @@
       "athlete_dob": "26/08/2011",
       "athlete_id": "CL94390",
       "performance": "4.07",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada FEM. PC",
+      "discipline": "Llargada FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 1326
     },
     {
@@ -150,9 +260,9 @@
       "athlete_dob": "26/08/2011",
       "athlete_id": "CL94390",
       "performance": "3.88",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada FEM. PC",
+      "discipline": "Llargada FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 1326
     },
     {
@@ -160,9 +270,9 @@
       "athlete_dob": "26/08/2011",
       "athlete_id": "CL94390",
       "performance": "3.87",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada FEM. PC",
+      "discipline": "Llargada FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 1326
     },
     {
@@ -170,9 +280,9 @@
       "athlete_dob": "26/12/2010",
       "athlete_id": "CL90830",
       "performance": "3.74",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada FEM. PC",
+      "discipline": "Llargada FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -180,9 +290,9 @@
       "athlete_dob": "26/12/2010",
       "athlete_id": "CL90830",
       "performance": "3.42",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada FEM. PC",
+      "discipline": "Llargada FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -190,9 +300,29 @@
       "athlete_dob": "26/12/2010",
       "athlete_id": "CL90830",
       "performance": "3.93",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada FEM. PC",
+      "discipline": "Llargada FEM. PC",
       "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Duina Borreda Cervello",
+      "athlete_dob": "26/12/2010",
+      "athlete_id": "CL90830",
+      "performance": "8.84",
+      "discipline": "Triple Salt FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Duina Borreda Cervello",
+      "athlete_dob": "26/12/2010",
+      "athlete_id": "CL90830",
+      "performance": "8.80",
+      "discipline": "Triple Salt FEM. PC",
+      "wind": null,
+      "position": null,
       "internal_id": null
     }
   ]

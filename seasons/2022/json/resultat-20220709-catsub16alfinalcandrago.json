@@ -1,28 +1,268 @@
 {
   "event_name": "Jornada Final Campionat Catalunya Sub16 - Pista de Atletismo Can Dragó, 9 julio 2022",
   "event_date": "09/07/2022",
-  "event_location": "Barcelona - Can Dragó",
-  "total_results": 10,
+  "event_location": "Pista de Atletismo Can Dragó",
+  "total_results": 39,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2022/07/resultat-20220709-catsub16alfinalcandrago.pdf",
   "results": [
+    {
+      "athlete_name": "Jan Vives Fons",
+      "athlete_dob": "16/03/2008",
+      "athlete_id": "CL95144",
+      "performance": "12.51",
+      "discipline": "100m MASC. AL",
+      "wind": "-0.9",
+      "position": null,
+      "internal_id": 977
+    },
+    {
+      "athlete_name": "Victor Jimenez Garcia",
+      "athlete_dob": "25/05/2008",
+      "athlete_id": "CT1465",
+      "performance": "0:40.69",
+      "discipline": "300m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 958
+    },
+    {
+      "athlete_name": "Lluc Subiros Brasero",
+      "athlete_dob": "06/01/2007",
+      "athlete_id": "CT1186",
+      "performance": "15.00",
+      "discipline": "100m tanques (0,91) MASC. AL",
+      "wind": "+3.5",
+      "position": null,
+      "internal_id": 899
+    },
+    {
+      "athlete_name": "Lluc Subiros Brasero",
+      "athlete_dob": "06/01/2007",
+      "athlete_id": "CT1186",
+      "performance": "14.69",
+      "discipline": "100m tanques (0,91) MASC. AL",
+      "wind": "+4.7",
+      "position": null,
+      "internal_id": 899
+    },
+    {
+      "athlete_name": "Joan Martorell Escobar",
+      "athlete_dob": "22/03/2007",
+      "athlete_id": "CL77324",
+      "performance": "45.61",
+      "discipline": "300m tanques (0,84) MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 914
+    },
+    {
+      "athlete_name": "Joan Martorell Escobar",
+      "athlete_dob": "22/03/2007",
+      "athlete_id": "CL77324",
+      "performance": "43.99",
+      "discipline": "300m tanques (0,84) MASC. AL",
+      "wind": null,
+      "position": 4,
+      "internal_id": 914
+    },
     {
       "athlete_name": "Unai Ortiz De Landazuri Ontoso",
       "athlete_dob": "28/06/2007",
       "athlete_id": "CT1640",
-      "performance": "1.61",
-      "discipline": "Alçada",
-      "raw_discipline_name": "Alçada MASC. AL",
+      "performance": "46.04",
+      "discipline": "300m tanques (0,84) MASC. AL",
       "wind": null,
+      "position": null,
       "internal_id": 908
+    },
+    {
+      "athlete_name": "Unai Ortiz De Landazuri Ontoso",
+      "athlete_dob": "28/06/2007",
+      "athlete_id": "CT1640",
+      "performance": "43.19",
+      "discipline": "300m tanques (0,84) MASC. AL",
+      "wind": null,
+      "position": 3,
+      "internal_id": 908
+    },
+    {
+      "athlete_name": "Unai Ortiz De Landazuri Ontoso CM 2.5",
+      "athlete_dob": "28/06/2007",
+      "athlete_id": "CT1640",
+      "performance": "1.61",
+      "discipline": "Alçada MASC. AL",
+      "wind": null,
+      "position": 4,
+      "internal_id": 908
+    },
+    {
+      "athlete_name": "Lluc Subiros Brasero",
+      "athlete_dob": "06/01/2007",
+      "athlete_id": "CT1186",
+      "performance": "3.90",
+      "discipline": "Perxa MASC. AL",
+      "wind": null,
+      "position": 1,
+      "internal_id": 899
+    },
+    {
+      "athlete_name": "Victor Jimenez Garcia",
+      "athlete_dob": "25/05/2008",
+      "athlete_id": "CT1465",
+      "performance": "5.72",
+      "discipline": "Llargada MASC. AL",
+      "wind": "-0.7",
+      "position": 3,
+      "internal_id": 958
+    },
+    {
+      "athlete_name": "Victor Jimenez Garcia",
+      "athlete_dob": "25/05/2008",
+      "athlete_id": "CT1465",
+      "performance": "6.20",
+      "discipline": "Llargada MASC. AL",
+      "wind": "+0.0",
+      "position": 3,
+      "internal_id": 958
+    },
+    {
+      "athlete_name": "Victor Jimenez Garcia",
+      "athlete_dob": "25/05/2008",
+      "athlete_id": "CT1465",
+      "performance": "6.01",
+      "discipline": "Llargada MASC. AL",
+      "wind": "+0.1",
+      "position": 3,
+      "internal_id": 958
+    },
+    {
+      "athlete_name": "Victor Jimenez Garcia",
+      "athlete_dob": "25/05/2008",
+      "athlete_id": "CT1465",
+      "performance": "6.12",
+      "discipline": "Llargada MASC. AL",
+      "wind": "+2.8",
+      "position": 3,
+      "internal_id": 958
+    },
+    {
+      "athlete_name": "Victor Jimenez Garcia",
+      "athlete_dob": "25/05/2008",
+      "athlete_id": "CT1465",
+      "performance": "6.21",
+      "discipline": "Llargada MASC. AL",
+      "wind": "+0.6",
+      "position": 3,
+      "internal_id": 958
+    },
+    {
+      "athlete_name": "Pau Crespo Beltran",
+      "athlete_dob": "22/10/2008",
+      "athlete_id": "CL90887",
+      "performance": "28.70",
+      "discipline": "Disc (1 Kg) MASC.",
+      "wind": null,
+      "position": 4,
+      "internal_id": 971
+    },
+    {
+      "athlete_name": "Pau Crespo Beltran",
+      "athlete_dob": "22/10/2008",
+      "athlete_id": "CL90887",
+      "performance": "33.23",
+      "discipline": "Disc (1 Kg) MASC.",
+      "wind": null,
+      "position": 4,
+      "internal_id": 971
+    },
+    {
+      "athlete_name": "Pau Crespo Beltran",
+      "athlete_dob": "22/10/2008",
+      "athlete_id": "CL90887",
+      "performance": "32.84",
+      "discipline": "Disc (1 Kg) MASC.",
+      "wind": null,
+      "position": 4,
+      "internal_id": 971
+    },
+    {
+      "athlete_name": "Matias Costa Bakker",
+      "athlete_dob": "19/11/2007",
+      "athlete_id": "CL90885",
+      "performance": "27.86",
+      "discipline": "Disc (1 Kg) MASC.",
+      "wind": null,
+      "position": 5,
+      "internal_id": 922
+    },
+    {
+      "athlete_name": "Matias Costa Bakker",
+      "athlete_dob": "19/11/2007",
+      "athlete_id": "CL90885",
+      "performance": "30.50",
+      "discipline": "Disc (1 Kg) MASC.",
+      "wind": null,
+      "position": 5,
+      "internal_id": 922
+    },
+    {
+      "athlete_name": "Matias Costa Bakker",
+      "athlete_dob": "19/11/2007",
+      "athlete_id": "CL90885",
+      "performance": "32.30",
+      "discipline": "Disc (1 Kg) MASC.",
+      "wind": null,
+      "position": 5,
+      "internal_id": 922
+    },
+    {
+      "athlete_name": "Matias Costa Bakker",
+      "athlete_dob": "19/11/2007",
+      "athlete_id": "CL90885",
+      "performance": "26.49",
+      "discipline": "Disc (1 Kg) MASC.",
+      "wind": null,
+      "position": 5,
+      "internal_id": 922
+    },
+    {
+      "athlete_name": "Matias Costa Bakker",
+      "athlete_dob": "19/11/2007",
+      "athlete_id": "CL90885",
+      "performance": "24.01",
+      "discipline": "Martell (4 Kg) MASC.",
+      "wind": null,
+      "position": 6,
+      "internal_id": 922
+    },
+    {
+      "athlete_name": "Matias Costa Bakker",
+      "athlete_dob": "19/11/2007",
+      "athlete_id": "CL90885",
+      "performance": "21.08",
+      "discipline": "Martell (4 Kg) MASC.",
+      "wind": null,
+      "position": 6,
+      "internal_id": 922
+    },
+    {
+      "athlete_name": "Matias Costa Bakker",
+      "athlete_dob": "19/11/2007",
+      "athlete_id": "CL90885",
+      "performance": "32.50",
+      "discipline": "Martell (4 Kg) MASC.",
+      "wind": null,
+      "position": 6,
+      "internal_id": 922
     },
     {
       "athlete_name": "Pau Crespo Beltran",
       "athlete_dob": "22/10/2008",
       "athlete_id": "CL90887",
       "performance": "39.19",
-      "discipline": "Javelina (600 g)",
-      "raw_discipline_name": "Javelina (600g) MASC.",
+      "discipline": "Javelina (600g) MASC.",
       "wind": null,
+      "position": 3,
       "internal_id": 971
     },
     {
@@ -30,9 +270,9 @@
       "athlete_dob": "22/10/2008",
       "athlete_id": "CL90887",
       "performance": "37.79",
-      "discipline": "Javelina (600 g)",
-      "raw_discipline_name": "Javelina (600g) MASC.",
+      "discipline": "Javelina (600g) MASC.",
       "wind": null,
+      "position": 3,
       "internal_id": 971
     },
     {
@@ -40,9 +280,9 @@
       "athlete_dob": "22/10/2008",
       "athlete_id": "CL90887",
       "performance": "41.96",
-      "discipline": "Javelina (600 g)",
-      "raw_discipline_name": "Javelina (600g) MASC.",
+      "discipline": "Javelina (600g) MASC.",
       "wind": null,
+      "position": 3,
       "internal_id": 971
     },
     {
@@ -50,9 +290,9 @@
       "athlete_dob": "22/10/2008",
       "athlete_id": "CL90887",
       "performance": "42.05",
-      "discipline": "Javelina (600 g)",
-      "raw_discipline_name": "Javelina (600g) MASC.",
+      "discipline": "Javelina (600g) MASC.",
       "wind": null,
+      "position": 3,
       "internal_id": 971
     },
     {
@@ -60,9 +300,9 @@
       "athlete_dob": "22/10/2008",
       "athlete_id": "CL90887",
       "performance": "43.66",
-      "discipline": "Javelina (600 g)",
-      "raw_discipline_name": "Javelina (600g) MASC.",
+      "discipline": "Javelina (600g) MASC.",
       "wind": null,
+      "position": 3,
       "internal_id": 971
     },
     {
@@ -70,9 +310,9 @@
       "athlete_dob": "22/10/2008",
       "athlete_id": "CL90887",
       "performance": "46.29",
-      "discipline": "Javelina (600 g)",
-      "raw_discipline_name": "Javelina (600g) MASC.",
+      "discipline": "Javelina (600g) MASC.",
       "wind": null,
+      "position": 3,
       "internal_id": 971
     },
     {
@@ -80,9 +320,9 @@
       "athlete_dob": "08/03/2008",
       "athlete_id": "CL82978",
       "performance": "29.99",
-      "discipline": "Javelina (600 g)",
-      "raw_discipline_name": "Javelina (600g) MASC.",
+      "discipline": "Javelina (600g) MASC.",
       "wind": null,
+      "position": 12,
       "internal_id": null
     },
     {
@@ -90,9 +330,9 @@
       "athlete_dob": "08/03/2008",
       "athlete_id": "CL82978",
       "performance": "30.09",
-      "discipline": "Javelina (600 g)",
-      "raw_discipline_name": "Javelina (600g) MASC.",
+      "discipline": "Javelina (600g) MASC.",
       "wind": null,
+      "position": 12,
       "internal_id": null
     },
     {
@@ -100,10 +340,60 @@
       "athlete_dob": "08/03/2008",
       "athlete_id": "CL82978",
       "performance": "29.60",
-      "discipline": "Javelina (600 g)",
-      "raw_discipline_name": "Javelina (600g) MASC.",
+      "discipline": "Javelina (600g) MASC.",
       "wind": null,
+      "position": 12,
       "internal_id": null
+    },
+    {
+      "athlete_name": "Mireia Redondo Mendoza",
+      "athlete_dob": "10/06/2008",
+      "athlete_id": "CT1467",
+      "performance": "0:41.02",
+      "discipline": "300m FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 957
+    },
+    {
+      "athlete_name": "Silvia Vicente Navarrete",
+      "athlete_dob": "31/07/2007",
+      "athlete_id": "CT1468",
+      "performance": "16.11",
+      "discipline": "100m tanques (0,762) FEM. AL",
+      "wind": "+1.1",
+      "position": null,
+      "internal_id": 905
+    },
+    {
+      "athlete_name": "Silvia Vicente Navarrete",
+      "athlete_dob": "31/07/2007",
+      "athlete_id": "CT1468",
+      "performance": "15.83",
+      "discipline": "100m tanques (0,762) FEM. AL",
+      "wind": "+2.4",
+      "position": null,
+      "internal_id": 905
+    },
+    {
+      "athlete_name": "361 Ainoa Rodriguez Murillo CF 8",
+      "athlete_dob": "17/01/2008",
+      "athlete_id": "CT1619",
+      "performance": "NP",
+      "discipline": "100m tanques (0,762) FEM. AL",
+      "wind": "+1.1",
+      "position": null,
+      "internal_id": 965
+    },
+    {
+      "athlete_name": "Iris Garrido Garcia",
+      "athlete_dob": "15/12/2008",
+      "athlete_id": "CT1617",
+      "performance": "5:32.61",
+      "discipline": "1.500m Obst. FEM.",
+      "wind": null,
+      "position": 3,
+      "internal_id": 982
     }
   ]
 }

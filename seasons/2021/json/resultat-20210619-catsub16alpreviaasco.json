@@ -1,18 +1,188 @@
 {
   "event_name": "Jornada Prèvia Campionat de Catalunya Sub16",
   "event_date": "19/06/2021",
-  "event_location": "Lleida",
-  "total_results": 10,
+  "event_location": "Ascó",
+  "total_results": 32,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/06/resultat-20210619-catsub16alpreviaasco.pdf",
   "results": [
+    {
+      "athlete_name": "Unai Ortiz De Landazuri Ontoso",
+      "athlete_dob": "28/06/2007",
+      "athlete_id": "CL77328",
+      "performance": "44.35",
+      "discipline": "300m tanques (0,84) MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 908
+    },
+    {
+      "athlete_name": "Joan Martorell Escobar",
+      "athlete_dob": "22/03/2007",
+      "athlete_id": "CL77324",
+      "performance": "46.18",
+      "discipline": "300m tanques (0,84) MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 914
+    },
+    {
+      "athlete_name": "Guillem Ferre Nieto",
+      "athlete_dob": "23/05/2006",
+      "athlete_id": "CT34",
+      "performance": "48.61",
+      "discipline": "300m tanques (0,84) MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 841
+    },
+    {
+      "athlete_name": "Unai Ortiz De Landazuri Ontoso",
+      "athlete_dob": "28/06/2007",
+      "athlete_id": "CL77328",
+      "performance": "1.56",
+      "discipline": "Alçada MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 908
+    },
+    {
+      "athlete_name": "Guillem Ferre Nieto",
+      "athlete_dob": "23/05/2006",
+      "athlete_id": "CT34",
+      "performance": "2.25",
+      "discipline": "Perxa MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 841
+    },
+    {
+      "athlete_name": "Lluc Subiros Brasero",
+      "athlete_dob": "06/01/2007",
+      "athlete_id": "CL77331",
+      "performance": "5.54",
+      "discipline": "Llargada MASC. AL",
+      "wind": "-0.9",
+      "position": null,
+      "internal_id": 899
+    },
+    {
+      "athlete_name": "Lluc Subiros Brasero",
+      "athlete_dob": "06/01/2007",
+      "athlete_id": "CL77331",
+      "performance": "5.56",
+      "discipline": "Llargada MASC. AL",
+      "wind": "-1.0",
+      "position": null,
+      "internal_id": 899
+    },
+    {
+      "athlete_name": "Lluc Subiros Brasero",
+      "athlete_dob": "06/01/2007",
+      "athlete_id": "CL77331",
+      "performance": "5.61",
+      "discipline": "Llargada MASC. AL",
+      "wind": "+0.0",
+      "position": null,
+      "internal_id": 899
+    },
+    {
+      "athlete_name": "Pau Ortiz Garcia",
+      "athlete_dob": "08/02/2006",
+      "athlete_id": "CL3307",
+      "performance": "10.79",
+      "discipline": "Pes (4 Kg) MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Pau Ortiz Garcia",
+      "athlete_dob": "08/02/2006",
+      "athlete_id": "CL3307",
+      "performance": "11.05",
+      "discipline": "Pes (4 Kg) MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Pau Ortiz Garcia",
+      "athlete_dob": "08/02/2006",
+      "athlete_id": "CL3307",
+      "performance": "11.49",
+      "discipline": "Pes (4 Kg) MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Pau Ortiz Garcia",
+      "athlete_dob": "08/02/2006",
+      "athlete_id": "CL3307",
+      "performance": "11.48",
+      "discipline": "Pes (4 Kg) MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Pau Ortiz Garcia",
+      "athlete_dob": "08/02/2006",
+      "athlete_id": "CL3307",
+      "performance": "11.57",
+      "discipline": "Pes (4 Kg) MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Pau Ortiz Garcia",
+      "athlete_dob": "08/02/2006",
+      "athlete_id": "CL3307",
+      "performance": "12.39",
+      "discipline": "Pes (4 Kg) MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "(t) Khalifa Maljuf",
+      "athlete_dob": "30/10/2006",
+      "athlete_id": "CL1337",
+      "performance": "8.73",
+      "discipline": "Pes (4 Kg) MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "(t) Khalifa Maljuf",
+      "athlete_dob": "30/10/2006",
+      "athlete_id": "CL1337",
+      "performance": "7.69",
+      "discipline": "Pes (4 Kg) MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "(t) Khalifa Maljuf",
+      "athlete_dob": "30/10/2006",
+      "athlete_id": "CL1337",
+      "performance": "8.41",
+      "discipline": "Pes (4 Kg) MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
     {
       "athlete_name": "Pau Ortiz Garcia",
       "athlete_dob": "08/02/2006",
       "athlete_id": "CL3307",
       "performance": "27.10",
-      "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "Disc (1kg) MASC.",
+      "discipline": "Disc (1 Kg) MASC.",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -20,9 +190,9 @@
       "athlete_dob": "08/02/2006",
       "athlete_id": "CL3307",
       "performance": "28.74",
-      "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "Disc (1kg) MASC.",
+      "discipline": "Disc (1 Kg) MASC.",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -30,9 +200,9 @@
       "athlete_dob": "19/11/2007",
       "athlete_id": "CL90885",
       "performance": "18.81",
-      "discipline": "Martell (4 Kg)",
-      "raw_discipline_name": "Martell (4kg) MASC.",
+      "discipline": "Martell (4 Kg) MASC.",
       "wind": null,
+      "position": null,
       "internal_id": 922
     },
     {
@@ -40,9 +210,9 @@
       "athlete_dob": "19/11/2007",
       "athlete_id": "CL90885",
       "performance": "20.60",
-      "discipline": "Martell (4 Kg)",
-      "raw_discipline_name": "Martell (4kg) MASC.",
+      "discipline": "Martell (4 Kg) MASC.",
       "wind": null,
+      "position": null,
       "internal_id": 922
     },
     {
@@ -50,19 +220,69 @@
       "athlete_dob": "19/11/2007",
       "athlete_id": "CL90885",
       "performance": "18.69",
-      "discipline": "Martell (4 Kg)",
-      "raw_discipline_name": "Martell (4kg) MASC.",
+      "discipline": "Martell (4 Kg) MASC.",
       "wind": null,
+      "position": null,
       "internal_id": 922
+    },
+    {
+      "athlete_name": "Emma Esteve Soto",
+      "athlete_dob": "25/02/2006",
+      "athlete_id": "CL95252",
+      "performance": "12.69",
+      "discipline": "100m FEM. AL",
+      "wind": "-1.3",
+      "position": null,
+      "internal_id": 837
+    },
+    {
+      "athlete_name": "Maria Molinero Pintor",
+      "athlete_dob": "17/12/2007",
+      "athlete_id": "CL3359",
+      "performance": "0:47.34",
+      "discipline": "300m FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 898
+    },
+    {
+      "athlete_name": "Anna Artero Fernandez",
+      "athlete_dob": "14/11/2006",
+      "athlete_id": "CL94373",
+      "performance": "1:48.99",
+      "discipline": "600m FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 847
+    },
+    {
+      "athlete_name": "Alejandra Basora De Avila",
+      "athlete_dob": "11/08/2006",
+      "athlete_id": "CL94375",
+      "performance": "1:57.47",
+      "discipline": "600m FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 864
+    },
+    {
+      "athlete_name": "Silvia Vicente Navarrete",
+      "athlete_dob": "31/07/2007",
+      "athlete_id": "CL77332",
+      "performance": "17.55",
+      "discipline": "100m tanques (0,762) FEM. AL",
+      "wind": "+0.0",
+      "position": null,
+      "internal_id": 905
     },
     {
       "athlete_name": "Silvia Vicente Navarrete",
       "athlete_dob": "31/07/2007",
       "athlete_id": "CL77332",
       "performance": "10.15",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt FEM. AL",
+      "discipline": "Triple Salt FEM. AL",
       "wind": "+0.0",
+      "position": null,
       "internal_id": 905
     },
     {
@@ -70,9 +290,9 @@
       "athlete_dob": "31/07/2007",
       "athlete_id": "CL77332",
       "performance": "10.20",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt FEM. AL",
+      "discipline": "Triple Salt FEM. AL",
       "wind": "-1.5",
+      "position": null,
       "internal_id": 905
     },
     {
@@ -80,9 +300,9 @@
       "athlete_dob": "31/07/2007",
       "athlete_id": "CL77332",
       "performance": "10.21",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt FEM. AL",
+      "discipline": "Triple Salt FEM. AL",
       "wind": "-0.1",
+      "position": null,
       "internal_id": 905
     },
     {
@@ -90,9 +310,9 @@
       "athlete_dob": "31/07/2007",
       "athlete_id": "CL77332",
       "performance": "9.91",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt FEM. AL",
+      "discipline": "Triple Salt FEM. AL",
       "wind": "-1.3",
+      "position": null,
       "internal_id": 905
     },
     {
@@ -100,9 +320,9 @@
       "athlete_dob": "31/07/2007",
       "athlete_id": "CL77332",
       "performance": "10.27",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt FEM. AL",
+      "discipline": "Triple Salt FEM. AL",
       "wind": "-2.1",
+      "position": null,
       "internal_id": 905
     }
   ]

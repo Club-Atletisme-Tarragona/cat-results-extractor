@@ -1,19 +1,38 @@
 {
   "event_name": "100 Campionat de Catalunya Absolut",
-  "event_date": "10/11/2020",
-  "event_location": "Igualada",
-  "total_results": 14,
+  "event_date": "11/10/2020",
+  "event_location": "Club                                                   Lic",
+  "total_results": 20,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2020101112-catabsolutsub23igualada.pdf",
   "results": [
+    {
+      "athlete_name": "Xavier Ros Borrell",
+      "athlete_dob": "19/05/1998",
+      "athlete_id": "CL22779",
+      "performance": "1:58.39",
+      "discipline": "800 metres llisos Masculí",
+      "wind": null,
+      "position": 5,
+      "internal_id": 439
+    },
+    {
+      "athlete_name": "Xavier Ros Borrell PM",
+      "athlete_dob": "19/05/1998",
+      "athlete_id": "CL22779",
+      "performance": "4:08.58",
+      "discipline": "1.500 metres llisos Masculí",
+      "wind": null,
+      "position": 5,
+      "internal_id": 439
+    },
     {
       "athlete_name": "Didac Exposito Garcia",
       "athlete_dob": "04/08/1973",
       "athlete_id": "CT3967",
       "performance": "11.28",
-      "discipline": "Pes (7.260 Kg)",
-      "raw_discipline_name": "Llançament de Pes (7,260kg) Masculí",
+      "discipline": "Llançament de Pes (7,260 Kg) Masculí",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2020101112-catabsolutsub23igualada.pdf",
+      "position": 9,
       "internal_id": 44
     },
     {
@@ -21,10 +40,9 @@
       "athlete_dob": "04/08/1973",
       "athlete_id": "CT3967",
       "performance": "11.10",
-      "discipline": "Pes (7.260 Kg)",
-      "raw_discipline_name": "Llançament de Pes (7,260kg) Masculí",
+      "discipline": "Llançament de Pes (7,260 Kg) Masculí",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2020101112-catabsolutsub23igualada.pdf",
+      "position": 9,
       "internal_id": 44
     },
     {
@@ -32,10 +50,9 @@
       "athlete_dob": "04/08/1973",
       "athlete_id": "CT3967",
       "performance": "11.24",
-      "discipline": "Pes (7.260 Kg)",
-      "raw_discipline_name": "Llançament de Pes (7,260kg) Masculí",
+      "discipline": "Llançament de Pes (7,260 Kg) Masculí",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2020101112-catabsolutsub23igualada.pdf",
+      "position": 9,
       "internal_id": 44
     },
     {
@@ -43,10 +60,9 @@
       "athlete_dob": "17/09/2004",
       "athlete_id": "CT28409",
       "performance": "5.43",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Salt de Llargada Femení",
+      "discipline": "Salt de Llargada Femení",
       "wind": "+0.9",
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2020101112-catabsolutsub23igualada.pdf",
+      "position": 3,
       "internal_id": 737
     },
     {
@@ -54,10 +70,9 @@
       "athlete_dob": "17/09/2004",
       "athlete_id": "CT28409",
       "performance": "5.49",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Salt de Llargada Femení",
+      "discipline": "Salt de Llargada Femení",
       "wind": "+1.6",
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2020101112-catabsolutsub23igualada.pdf",
+      "position": 3,
       "internal_id": 737
     },
     {
@@ -65,10 +80,9 @@
       "athlete_dob": "17/09/2004",
       "athlete_id": "CT28409",
       "performance": "5.53",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Salt de Llargada Femení",
+      "discipline": "Salt de Llargada Femení",
       "wind": "+1.4",
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2020101112-catabsolutsub23igualada.pdf",
+      "position": 3,
       "internal_id": 737
     },
     {
@@ -76,10 +90,9 @@
       "athlete_dob": "06/08/1995",
       "athlete_id": "CL20392",
       "performance": "9.90",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Llançament de Pes (4kg) Femení",
+      "discipline": "Llançament de Pes (4 Kg) Femení",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2020101112-catabsolutsub23igualada.pdf",
+      "position": 6,
       "internal_id": 359
     },
     {
@@ -87,10 +100,9 @@
       "athlete_dob": "06/08/1995",
       "athlete_id": "CL20392",
       "performance": "10.11",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Llançament de Pes (4kg) Femení",
+      "discipline": "Llançament de Pes (4 Kg) Femení",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2020101112-catabsolutsub23igualada.pdf",
+      "position": 6,
       "internal_id": 359
     },
     {
@@ -98,10 +110,9 @@
       "athlete_dob": "06/08/1995",
       "athlete_id": "CL20392",
       "performance": "9.30",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Llançament de Pes (4kg) Femení",
+      "discipline": "Llançament de Pes (4 Kg) Femení",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2020101112-catabsolutsub23igualada.pdf",
+      "position": 6,
       "internal_id": 359
     },
     {
@@ -109,10 +120,9 @@
       "athlete_dob": "06/08/1995",
       "athlete_id": "CL20392",
       "performance": "10.25",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Llançament de Pes (4kg) Femení",
+      "discipline": "Llançament de Pes (4 Kg) Femení",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2020101112-catabsolutsub23igualada.pdf",
+      "position": 6,
       "internal_id": 359
     },
     {
@@ -120,10 +130,9 @@
       "athlete_dob": "06/08/1995",
       "athlete_id": "CL20392",
       "performance": "10.40",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Llançament de Pes (4kg) Femení",
+      "discipline": "Llançament de Pes (4 Kg) Femení",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2020101112-catabsolutsub23igualada.pdf",
+      "position": 6,
       "internal_id": 359
     },
     {
@@ -131,10 +140,9 @@
       "athlete_dob": "06/08/1995",
       "athlete_id": "CL20392",
       "performance": "8.76",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Llançament de Pes (4kg) Femení",
+      "discipline": "Llançament de Pes (4 Kg) Femení",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2020101112-catabsolutsub23igualada.pdf",
+      "position": 6,
       "internal_id": 359
     },
     {
@@ -142,10 +150,9 @@
       "athlete_dob": "17/01/1999",
       "athlete_id": "CL25668",
       "performance": "29.04",
-      "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "Llançament de Disc (1kg) Femení",
+      "discipline": "Llançament de Disc (1 Kg) Femení",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2020101112-catabsolutsub23igualada.pdf",
+      "position": 10,
       "internal_id": 476
     },
     {
@@ -153,10 +160,49 @@
       "athlete_dob": "17/01/1999",
       "athlete_id": "CL25668",
       "performance": "28.50",
-      "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "Llançament de Disc (1kg) Femení",
+      "discipline": "Llançament de Disc (1 Kg) Femení",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2020101112-catabsolutsub23igualada.pdf",
+      "position": 10,
+      "internal_id": 476
+    },
+    {
+      "athlete_name": "4 (t) Xavier Ros Borrell PM",
+      "athlete_dob": "19/05/1998",
+      "athlete_id": "CL22779",
+      "performance": "1:58.39",
+      "discipline": "800m MASC. AL",
+      "wind": null,
+      "position": 6,
+      "internal_id": 439
+    },
+    {
+      "athlete_name": "2 (t) Xavier Ros Borrell PM",
+      "athlete_dob": "19/05/1998",
+      "athlete_id": "CL22779",
+      "performance": "4:08.58",
+      "discipline": "1.500m MASC. AL",
+      "wind": null,
+      "position": 2,
+      "internal_id": 439
+    },
+    {
+      "athlete_name": "5 (t) Joana Antonia Domingo Ingles",
+      "athlete_dob": "17/01/1999",
+      "athlete_id": "CL25668",
+      "performance": "29.04",
+      "discipline": "Disc (1 Kg) FEM.",
+      "wind": null,
+      "position": 5,
+      "internal_id": 476
+    },
+    {
+      "athlete_name": "5 (t) Joana Antonia Domingo Ingles",
+      "athlete_dob": "17/01/1999",
+      "athlete_id": "CL25668",
+      "performance": "28.50",
+      "discipline": "Disc (1 Kg) FEM.",
+      "wind": null,
+      "position": 5,
       "internal_id": 476
     }
   ]

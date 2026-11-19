@@ -1,8 +1,8 @@
 {
   "event_name": " - Pista d atletisme Moisés Llopart, 1 mayo 2021",
   "event_date": "01/05/2021",
-  "event_location": "El Prat de Llobregat",
-  "total_results": 1,
+  "event_location": "Pista d atletisme Moisés Llopart",
+  "total_results": 2,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/05/resultat-20210501-trofeupratenc.pdf",
   "results": [
     {
@@ -10,10 +10,20 @@
       "athlete_dob": "29/04/2009",
       "athlete_id": "CL3326",
       "performance": "18:56.87",
-      "discipline": "3000 metres marxa",
-      "raw_discipline_name": "3.000m Marcha MASC. en pista SUB 14 M",
+      "discipline": "3.000m Marcha MASC. en pista SUB 14 M",
       "wind": null,
+      "position": null,
       "internal_id": 1017
+    },
+    {
+      "athlete_name": "Julia Suarez Piza",
+      "athlete_dob": "05/11/2006",
+      "athlete_id": "CT29377",
+      "performance": "24:51.62",
+      "discipline": "5.000m Marcha FEM. en pista SUB OPEN F",
+      "wind": null,
+      "position": null,
+      "internal_id": 839
     }
   ]
 }

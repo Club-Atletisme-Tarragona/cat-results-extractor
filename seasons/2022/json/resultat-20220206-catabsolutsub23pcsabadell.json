@@ -1,18 +1,248 @@
 {
   "event_name": "Campionat de Catalunya Absolut i Sub23 en Pista Coberta - Campionat de Catalunya Absolut i Sub23 en Pista Coberta",
   "event_date": "06/02/2022",
-  "event_location": "Vilafranca",
-  "total_results": 6,
+  "event_location": "Club                                               Lic",
+  "total_results": 31,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2022/02/resultat-20220206-catabsolutsub23pcsabadell.pdf",
   "results": [
+    {
+      "athlete_name": "Aleix Lago Garbajosa PM 2 6 BRONZE",
+      "athlete_dob": "26/09/2002",
+      "athlete_id": "CT264",
+      "performance": "1:54.74",
+      "discipline": "800m MASC. PC",
+      "wind": null,
+      "position": 3,
+      "internal_id": 660
+    },
+    {
+      "athlete_name": "Aleix Lago Garbajosa",
+      "athlete_dob": "26/09/2002",
+      "athlete_id": "CT264",
+      "performance": "4:08.66",
+      "discipline": "1.500m MASC. PC",
+      "wind": null,
+      "position": 11,
+      "internal_id": 660
+    },
+    {
+      "athlete_name": "Marc Jose Diaz",
+      "athlete_dob": "08/01/1993",
+      "athlete_id": "CL17220",
+      "performance": "8.53",
+      "discipline": "60m tanques (1,067) MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 294
+    },
+    {
+      "athlete_name": "Marc Jose Diaz",
+      "athlete_dob": "08/01/1993",
+      "athlete_id": "CL17220",
+      "performance": "8.44",
+      "discipline": "60m tanques (1,067) MASC. PC",
+      "wind": null,
+      "position": 7,
+      "internal_id": 294
+    },
+    {
+      "athlete_name": "299 Claudia Mir Casellas JF 2",
+      "athlete_dob": "02/08/2003",
+      "athlete_id": "CT152",
+      "performance": "NP",
+      "discipline": "400m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 699
+    },
+    {
+      "athlete_name": "Claudia Mir Casellas",
+      "athlete_dob": "02/08/2003",
+      "athlete_id": "CT152",
+      "performance": "9.40",
+      "discipline": "60m tanques (0,84) FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 699
+    },
+    {
+      "athlete_name": "Claudia Mir Casellas",
+      "athlete_dob": "02/08/2003",
+      "athlete_id": "CT152",
+      "performance": "9.28",
+      "discipline": "60m tanques (0,84) FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 699
+    },
+    {
+      "athlete_name": "Mireia Lopez Urbano PF",
+      "athlete_dob": "07/12/2000",
+      "athlete_id": "CT23556",
+      "performance": "8.78",
+      "discipline": "60m tanques (0,84) FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 527
+    },
+    {
+      "athlete_name": "Mireia Lopez Urbano PF 4 6 BRONZE",
+      "athlete_dob": "07/12/2000",
+      "athlete_id": "CT23556",
+      "performance": "8.63",
+      "discipline": "60m tanques (0,84) FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 527
+    },
+    {
+      "athlete_name": "Nuria Caballero Pacheco",
+      "athlete_dob": "09/10/2001",
+      "athlete_id": "CT25812",
+      "performance": "1.73",
+      "discipline": "Alçada FEM. PC",
+      "wind": null,
+      "position": 1,
+      "internal_id": 753
+    },
+    {
+      "athlete_name": "Laurine Elisa Marimon Fernandez",
+      "athlete_dob": "17/09/2004",
+      "athlete_id": "CT28409",
+      "performance": "5.34",
+      "discipline": "Llargada FEM. PC",
+      "wind": null,
+      "position": 5,
+      "internal_id": 737
+    },
+    {
+      "athlete_name": "Laurine Elisa Marimon Fernandez",
+      "athlete_dob": "17/09/2004",
+      "athlete_id": "CT28409",
+      "performance": "5.39",
+      "discipline": "Llargada FEM. PC",
+      "wind": null,
+      "position": 5,
+      "internal_id": 737
+    },
+    {
+      "athlete_name": "Laurine Elisa Marimon Fernandez",
+      "athlete_dob": "17/09/2004",
+      "athlete_id": "CT28409",
+      "performance": "5.59",
+      "discipline": "Llargada FEM. PC",
+      "wind": null,
+      "position": 5,
+      "internal_id": 737
+    },
+    {
+      "athlete_name": "Laurine Elisa Marimon Fernandez",
+      "athlete_dob": "17/09/2004",
+      "athlete_id": "CT28409",
+      "performance": "5.63",
+      "discipline": "Llargada FEM. PC",
+      "wind": null,
+      "position": 5,
+      "internal_id": 737
+    },
+    {
+      "athlete_name": "Nuria Caballero Pacheco",
+      "athlete_dob": "09/10/2001",
+      "athlete_id": "CT25812",
+      "performance": "5.31",
+      "discipline": "Llargada FEM. PC",
+      "wind": null,
+      "position": 3,
+      "internal_id": 753
+    },
+    {
+      "athlete_name": "Nuria Caballero Pacheco",
+      "athlete_dob": "09/10/2001",
+      "athlete_id": "CT25812",
+      "performance": "5.42",
+      "discipline": "Llargada FEM. PC",
+      "wind": null,
+      "position": 3,
+      "internal_id": 753
+    },
+    {
+      "athlete_name": "Nuria Caballero Pacheco",
+      "athlete_dob": "09/10/2001",
+      "athlete_id": "CT25812",
+      "performance": "5.58",
+      "discipline": "Llargada FEM. PC",
+      "wind": null,
+      "position": 3,
+      "internal_id": 753
+    },
+    {
+      "athlete_name": "Laurine Elisa Marimon Fernandez",
+      "athlete_dob": "17/09/2004",
+      "athlete_id": "CT28409",
+      "performance": "12.47",
+      "discipline": "Triple Salt FEM. PC",
+      "wind": null,
+      "position": 2,
+      "internal_id": 737
+    },
+    {
+      "athlete_name": "Laurine Elisa Marimon Fernandez",
+      "athlete_dob": "17/09/2004",
+      "athlete_id": "CT28409",
+      "performance": "12.32",
+      "discipline": "Triple Salt FEM. PC",
+      "wind": null,
+      "position": 2,
+      "internal_id": 737
+    },
+    {
+      "athlete_name": "Laurine Elisa Marimon Fernandez",
+      "athlete_dob": "17/09/2004",
+      "athlete_id": "CT28409",
+      "performance": "12.34",
+      "discipline": "Triple Salt FEM. PC",
+      "wind": null,
+      "position": 2,
+      "internal_id": 737
+    },
+    {
+      "athlete_name": "Laurine Elisa Marimon Fernandez",
+      "athlete_dob": "17/09/2004",
+      "athlete_id": "CT28409",
+      "performance": "12.55",
+      "discipline": "Triple Salt FEM. PC",
+      "wind": null,
+      "position": 2,
+      "internal_id": 737
+    },
+    {
+      "athlete_name": "Laurine Elisa Marimon Fernandez",
+      "athlete_dob": "17/09/2004",
+      "athlete_id": "CT28409",
+      "performance": "12.51",
+      "discipline": "Triple Salt FEM. PC",
+      "wind": null,
+      "position": 2,
+      "internal_id": 737
+    },
+    {
+      "athlete_name": "Laurine Elisa Marimon Fernandez",
+      "athlete_dob": "17/09/2004",
+      "athlete_id": "CT28409",
+      "performance": "12.62",
+      "discipline": "Triple Salt FEM. PC",
+      "wind": null,
+      "position": 2,
+      "internal_id": 737
+    },
     {
       "athlete_name": "Marina Tibau Sendra",
       "athlete_dob": "06/08/1995",
       "athlete_id": "CL20392",
       "performance": "10.00",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Pes (4kg) FEM. PC",
+      "discipline": "Pes (4 Kg) FEM. PC",
       "wind": null,
+      "position": 7,
       "internal_id": 359
     },
     {
@@ -20,9 +250,9 @@
       "athlete_dob": "06/08/1995",
       "athlete_id": "CL20392",
       "performance": "10.47",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Pes (4kg) FEM. PC",
+      "discipline": "Pes (4 Kg) FEM. PC",
       "wind": null,
+      "position": 7,
       "internal_id": 359
     },
     {
@@ -30,9 +260,9 @@
       "athlete_dob": "06/08/1995",
       "athlete_id": "CL20392",
       "performance": "10.53",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Pes (4kg) FEM. PC",
+      "discipline": "Pes (4 Kg) FEM. PC",
       "wind": null,
+      "position": 7,
       "internal_id": 359
     },
     {
@@ -40,9 +270,9 @@
       "athlete_dob": "06/08/1995",
       "athlete_id": "CL20392",
       "performance": "10.21",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Pes (4kg) FEM. PC",
+      "discipline": "Pes (4 Kg) FEM. PC",
       "wind": null,
+      "position": 7,
       "internal_id": 359
     },
     {
@@ -50,20 +280,40 @@
       "athlete_dob": "06/08/1995",
       "athlete_id": "CL20392",
       "performance": "10.52",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Pes (4kg) FEM. PC",
+      "discipline": "Pes (4 Kg) FEM. PC",
       "wind": null,
+      "position": 7,
       "internal_id": 359
     },
     {
-      "athlete_name": "Nuria Caballero Pacheco",
-      "athlete_dob": "09/10/2001",
-      "athlete_id": "CT25812",
-      "performance": "1.73",
-      "discipline": "Alçada",
-      "raw_discipline_name": "Alçada FEM. PC",
+      "athlete_name": "Aleix Lago Garbajosa PM 2 7 PLATA",
+      "athlete_dob": "26/09/2002",
+      "athlete_id": "CT264",
+      "performance": "1:54.74",
+      "discipline": "800m MASC. PC",
       "wind": null,
-      "internal_id": 753
+      "position": 2,
+      "internal_id": 660
+    },
+    {
+      "athlete_name": "Aleix Lago Garbajosa PM",
+      "athlete_dob": "26/09/2002",
+      "athlete_id": "CT264",
+      "performance": "4:08.66",
+      "discipline": "1.500m MASC. PC",
+      "wind": null,
+      "position": 6,
+      "internal_id": 660
+    },
+    {
+      "athlete_name": "Mireia Lopez Urbano PF 4 7 PLATA",
+      "athlete_dob": "07/12/2000",
+      "athlete_id": "CT23556",
+      "performance": "8.63",
+      "discipline": "60m tanques (0,84) FEM. PC",
+      "wind": null,
+      "position": 2,
+      "internal_id": 527
     }
   ]
 }

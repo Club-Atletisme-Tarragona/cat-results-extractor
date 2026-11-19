@@ -1,19 +1,749 @@
 {
   "event_name": "Campionat de Catalunya Màster Individual i Relleus en Pista Coberta - Campionat de Catalunya Màster Individual i Relleus en Pista Coberta",
   "event_date": "19/02/2023",
-  "event_location": "Sabadell",
-  "total_results": 1,
+  "event_location": "Club                                                 Lic",
+  "total_results": 74,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2023/02/resultat-20230219-catmasterpcsabadell.pdf",
   "results": [
+    {
+      "athlete_name": "Francisco Javier Baz Vidal",
+      "athlete_dob": "02/12/1969",
+      "athlete_id": "CL8459",
+      "performance": "8.61",
+      "discipline": "60m MASC. PC 50-54",
+      "wind": null,
+      "position": null,
+      "internal_id": 887
+    },
+    {
+      "athlete_name": "Gines Sanchez Perez",
+      "athlete_dob": "23/07/1969",
+      "athlete_id": "CT2055",
+      "performance": "8.89",
+      "discipline": "60m MASC. PC 50-54",
+      "wind": null,
+      "position": null,
+      "internal_id": 505
+    },
+    {
+      "athlete_name": "Josep Ramon Argilaga Salvado 3 ARGENT",
+      "athlete_dob": "23/10/1963",
+      "athlete_id": "CL22364",
+      "performance": "8.29",
+      "discipline": "60m MASC. PC 55-59",
+      "wind": null,
+      "position": null,
+      "internal_id": 421
+    },
+    {
+      "athlete_name": "Josep Maria Mateo Sanz",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "8.31",
+      "discipline": "60m MASC. PC 55-59",
+      "wind": null,
+      "position": null,
+      "internal_id": 343
+    },
+    {
+      "athlete_name": "Josep Maria Puig Lara",
+      "athlete_dob": "30/11/1951",
+      "athlete_id": "CT27228",
+      "performance": "9.83",
+      "discipline": "60m MASC. PC 70-74",
+      "wind": null,
+      "position": null,
+      "internal_id": 637
+    },
     {
       "athlete_name": "Gines Sanchez Perez",
       "athlete_dob": "23/07/1969",
       "athlete_id": "CT2055",
       "performance": "30.49",
-      "discipline": "200 metres llisos",
-      "raw_discipline_name": "200m MASC. PC 50-54",
+      "discipline": "200m MASC. PC 50-54",
       "wind": null,
+      "position": null,
       "internal_id": 505
+    },
+    {
+      "athlete_name": "Josep Maria Puig Lara",
+      "athlete_dob": "30/11/1951",
+      "athlete_id": "CT27228",
+      "performance": "33.93",
+      "discipline": "200m MASC. PC 70-74",
+      "wind": null,
+      "position": null,
+      "internal_id": 637
+    },
+    {
+      "athlete_name": "Valentin Izaga Lopez",
+      "athlete_dob": "09/11/1972",
+      "athlete_id": "CL8922",
+      "performance": "2:17.73",
+      "discipline": "800m MASC. PC 50-54",
+      "wind": null,
+      "position": null,
+      "internal_id": 700
+    },
+    {
+      "athlete_name": "Valentin Izaga Lopez",
+      "athlete_dob": "09/11/1972",
+      "athlete_id": "CL8922",
+      "performance": "4:32.05",
+      "discipline": "1.500m MASC. PC 50-54",
+      "wind": null,
+      "position": null,
+      "internal_id": 700
+    },
+    {
+      "athlete_name": "Jose Francisco Garcia Navarrete",
+      "athlete_dob": "24/09/1967",
+      "athlete_id": "CL3972",
+      "performance": "5:13.31",
+      "discipline": "1.500m MASC. PC 55-59",
+      "wind": null,
+      "position": null,
+      "internal_id": 5
+    },
+    {
+      "athlete_name": "Jose Miguel Martin Alvarez",
+      "athlete_dob": "10/09/1972",
+      "athlete_id": "CL12544",
+      "performance": "1.58",
+      "discipline": "Alçada MASC. PC 50-54",
+      "wind": null,
+      "position": null,
+      "internal_id": 15
+    },
+    {
+      "athlete_name": "Francisco Javier Baz Vidal",
+      "athlete_dob": "02/12/1969",
+      "athlete_id": "CL8459",
+      "performance": "1.43",
+      "discipline": "Alçada MASC. PC 50-54",
+      "wind": null,
+      "position": null,
+      "internal_id": 887
+    },
+    {
+      "athlete_name": "87 Pere Pardines Gras",
+      "athlete_dob": "30/01/1965",
+      "athlete_id": "CT9121",
+      "performance": "NP",
+      "discipline": "Alçada MASC. PC 55-59",
+      "wind": null,
+      "position": null,
+      "internal_id": 71
+    },
+    {
+      "athlete_name": "Francisco Griñant Almagro",
+      "athlete_dob": "04/08/1947",
+      "athlete_id": "CT18394",
+      "performance": "1.01",
+      "discipline": "Alçada MASC. PC 75-79",
+      "wind": null,
+      "position": null,
+      "internal_id": 326
+    },
+    {
+      "athlete_name": "Juan Carlos Herrera Alcaide",
+      "athlete_dob": "31/01/1973",
+      "athlete_id": "CT25152",
+      "performance": "3.11",
+      "discipline": "Perxa MASC. PC 50-54",
+      "wind": null,
+      "position": null,
+      "internal_id": 518
+    },
+    {
+      "athlete_name": "Josep Maria Mateo Sanz",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "3.21",
+      "discipline": "Perxa MASC. PC 55-59",
+      "wind": null,
+      "position": null,
+      "internal_id": 343
+    },
+    {
+      "athlete_name": "Francisco Griñant Almagro",
+      "athlete_dob": "04/08/1947",
+      "athlete_id": "CT18394",
+      "performance": "1.91",
+      "discipline": "Perxa MASC. PC 75-79",
+      "wind": null,
+      "position": null,
+      "internal_id": 326
+    },
+    {
+      "athlete_name": "Jose Miguel Martin Alvarez",
+      "athlete_dob": "10/09/1972",
+      "athlete_id": "CL12544",
+      "performance": "5.31",
+      "discipline": "Llargada MASC. PC 50-54",
+      "wind": null,
+      "position": null,
+      "internal_id": 15
+    },
+    {
+      "athlete_name": "Jose Miguel Martin Alvarez",
+      "athlete_dob": "10/09/1972",
+      "athlete_id": "CL12544",
+      "performance": "5.29",
+      "discipline": "Llargada MASC. PC 50-54",
+      "wind": null,
+      "position": null,
+      "internal_id": 15
+    },
+    {
+      "athlete_name": "Jose Miguel Martin Alvarez",
+      "athlete_dob": "10/09/1972",
+      "athlete_id": "CL12544",
+      "performance": "5.33",
+      "discipline": "Llargada MASC. PC 50-54",
+      "wind": null,
+      "position": null,
+      "internal_id": 15
+    },
+    {
+      "athlete_name": "Jose Miguel Martin Alvarez",
+      "athlete_dob": "10/09/1972",
+      "athlete_id": "CL12544",
+      "performance": "5.51",
+      "discipline": "Llargada MASC. PC 50-54",
+      "wind": null,
+      "position": null,
+      "internal_id": 15
+    },
+    {
+      "athlete_name": "Jose Miguel Martin Alvarez",
+      "athlete_dob": "10/09/1972",
+      "athlete_id": "CL12544",
+      "performance": "5.34",
+      "discipline": "Llargada MASC. PC 50-54",
+      "wind": null,
+      "position": null,
+      "internal_id": 15
+    },
+    {
+      "athlete_name": "Josep Maria Mateo Sanz",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "4.54",
+      "discipline": "Llargada MASC. PC 55-59",
+      "wind": null,
+      "position": null,
+      "internal_id": 343
+    },
+    {
+      "athlete_name": "Josep Maria Mateo Sanz",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "4.41",
+      "discipline": "Llargada MASC. PC 55-59",
+      "wind": null,
+      "position": null,
+      "internal_id": 343
+    },
+    {
+      "athlete_name": "Josep Maria Mateo Sanz",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "4.64",
+      "discipline": "Llargada MASC. PC 55-59",
+      "wind": null,
+      "position": null,
+      "internal_id": 343
+    },
+    {
+      "athlete_name": "Josep Maria Mateo Sanz",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "4.51",
+      "discipline": "Llargada MASC. PC 55-59",
+      "wind": null,
+      "position": null,
+      "internal_id": 343
+    },
+    {
+      "athlete_name": "Josep Maria Mateo Sanz",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "4.65",
+      "discipline": "Llargada MASC. PC 55-59",
+      "wind": null,
+      "position": null,
+      "internal_id": 343
+    },
+    {
+      "athlete_name": "Pere Pardines Gras",
+      "athlete_dob": "30/01/1965",
+      "athlete_id": "CT9121",
+      "performance": "4.42",
+      "discipline": "Llargada MASC. PC 55-59",
+      "wind": null,
+      "position": null,
+      "internal_id": 71
+    },
+    {
+      "athlete_name": "Pere Pardines Gras",
+      "athlete_dob": "30/01/1965",
+      "athlete_id": "CT9121",
+      "performance": "4.07",
+      "discipline": "Llargada MASC. PC 55-59",
+      "wind": null,
+      "position": null,
+      "internal_id": 71
+    },
+    {
+      "athlete_name": "Francisco Griñant Almagro",
+      "athlete_dob": "04/08/1947",
+      "athlete_id": "CT18394",
+      "performance": "3.00",
+      "discipline": "Llargada MASC. PC 75-79",
+      "wind": null,
+      "position": null,
+      "internal_id": 326
+    },
+    {
+      "athlete_name": "Francisco Griñant Almagro",
+      "athlete_dob": "04/08/1947",
+      "athlete_id": "CT18394",
+      "performance": "3.04",
+      "discipline": "Llargada MASC. PC 75-79",
+      "wind": null,
+      "position": null,
+      "internal_id": 326
+    },
+    {
+      "athlete_name": "Francisco Griñant Almagro",
+      "athlete_dob": "04/08/1947",
+      "athlete_id": "CT18394",
+      "performance": "3.03",
+      "discipline": "Llargada MASC. PC 75-79",
+      "wind": null,
+      "position": null,
+      "internal_id": 326
+    },
+    {
+      "athlete_name": "Francisco Griñant Almagro",
+      "athlete_dob": "04/08/1947",
+      "athlete_id": "CT18394",
+      "performance": "3.19",
+      "discipline": "Llargada MASC. PC 75-79",
+      "wind": null,
+      "position": null,
+      "internal_id": 326
+    },
+    {
+      "athlete_name": "Francisco Griñant Almagro",
+      "athlete_dob": "04/08/1947",
+      "athlete_id": "CT18394",
+      "performance": "3.17",
+      "discipline": "Llargada MASC. PC 75-79",
+      "wind": null,
+      "position": null,
+      "internal_id": 326
+    },
+    {
+      "athlete_name": "Didac Exposito Garcia",
+      "athlete_dob": "04/08/1973",
+      "athlete_id": "CT3967",
+      "performance": "10.41",
+      "discipline": "Pes Vet. MAS. PC 45-49",
+      "wind": null,
+      "position": null,
+      "internal_id": 44
+    },
+    {
+      "athlete_name": "Didac Exposito Garcia",
+      "athlete_dob": "04/08/1973",
+      "athlete_id": "CT3967",
+      "performance": "10.72",
+      "discipline": "Pes Vet. MAS. PC 45-49",
+      "wind": null,
+      "position": null,
+      "internal_id": 44
+    },
+    {
+      "athlete_name": "Didac Exposito Garcia",
+      "athlete_dob": "04/08/1973",
+      "athlete_id": "CT3967",
+      "performance": "11.04",
+      "discipline": "Pes Vet. MAS. PC 45-49",
+      "wind": null,
+      "position": null,
+      "internal_id": 44
+    },
+    {
+      "athlete_name": "Didac Exposito Garcia",
+      "athlete_dob": "04/08/1973",
+      "athlete_id": "CT3967",
+      "performance": "11.12",
+      "discipline": "Pes Vet. MAS. PC 45-49",
+      "wind": null,
+      "position": null,
+      "internal_id": 44
+    },
+    {
+      "athlete_name": "Didac Exposito Garcia",
+      "athlete_dob": "04/08/1973",
+      "athlete_id": "CT3967",
+      "performance": "11.15",
+      "discipline": "Pes Vet. MAS. PC 45-49",
+      "wind": null,
+      "position": null,
+      "internal_id": 44
+    },
+    {
+      "athlete_name": "Francesc Mosquera Pages",
+      "athlete_dob": "07/09/1956",
+      "athlete_id": "CT1501",
+      "performance": "9.06",
+      "discipline": "Pes Vet. MAS. PC 65-69",
+      "wind": null,
+      "position": null,
+      "internal_id": 855
+    },
+    {
+      "athlete_name": "Francesc Mosquera Pages",
+      "athlete_dob": "07/09/1956",
+      "athlete_id": "CT1501",
+      "performance": "9.08",
+      "discipline": "Pes Vet. MAS. PC 65-69",
+      "wind": null,
+      "position": null,
+      "internal_id": 855
+    },
+    {
+      "athlete_name": "Francesc Mosquera Pages",
+      "athlete_dob": "07/09/1956",
+      "athlete_id": "CT1501",
+      "performance": "8.95",
+      "discipline": "Pes Vet. MAS. PC 65-69",
+      "wind": null,
+      "position": null,
+      "internal_id": 855
+    },
+    {
+      "athlete_name": "Francesc Mosquera Pages",
+      "athlete_dob": "07/09/1956",
+      "athlete_id": "CT1501",
+      "performance": "9.03",
+      "discipline": "Pes Vet. MAS. PC 65-69",
+      "wind": null,
+      "position": null,
+      "internal_id": 855
+    },
+    {
+      "athlete_name": "Josep Maria Mateo Sanz",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "2:08.89",
+      "discipline": "4x200m MIXT PC 55-59",
+      "wind": null,
+      "position": null,
+      "internal_id": 343
+    },
+    {
+      "athlete_name": "Pilar Fernandez Carranza",
+      "athlete_dob": "15/02/1967",
+      "athlete_id": "CT22384",
+      "performance": "2:08.89",
+      "discipline": "4x200m MIXT PC 55-59",
+      "wind": null,
+      "position": null,
+      "internal_id": 398
+    },
+    {
+      "athlete_name": "Gemma Sole Boronat",
+      "athlete_dob": "01/11/1967",
+      "athlete_id": "CT29376",
+      "performance": "2:08.89",
+      "discipline": "4x200m MIXT PC 55-59",
+      "wind": null,
+      "position": null,
+      "internal_id": 648
+    },
+    {
+      "athlete_name": "Josep Maria Puig Lara",
+      "athlete_dob": "30/11/1951",
+      "athlete_id": "CT27228",
+      "performance": "2:08.89",
+      "discipline": "4x200m MIXT PC 55-59",
+      "wind": null,
+      "position": null,
+      "internal_id": 637
+    },
+    {
+      "athlete_name": "Fernando Flores Montes",
+      "athlete_dob": "17/06/1969",
+      "athlete_id": "CL15201",
+      "performance": "14:00.78",
+      "discipline": "3.000m Marxa MASC. PC 50-54",
+      "wind": null,
+      "position": null,
+      "internal_id": 4
+    },
+    {
+      "athlete_name": "Gemma Sole Boronat",
+      "athlete_dob": "01/11/1967",
+      "athlete_id": "CT29376",
+      "performance": "31.37",
+      "discipline": "200m FEM. PC 55-59",
+      "wind": null,
+      "position": null,
+      "internal_id": 648
+    },
+    {
+      "athlete_name": "Pilar Fernandez Carranza",
+      "athlete_dob": "15/02/1967",
+      "athlete_id": "CT22384",
+      "performance": "33.56",
+      "discipline": "200m FEM. PC 55-59",
+      "wind": null,
+      "position": null,
+      "internal_id": 398
+    },
+    {
+      "athlete_name": "399 Patricia Amador Peris 3",
+      "athlete_dob": "18/02/1980",
+      "athlete_id": "CT28190",
+      "performance": "NP",
+      "discipline": "400m FEM. PC 40-44",
+      "wind": null,
+      "position": null,
+      "internal_id": 644
+    },
+    {
+      "athlete_name": "Pilar Fernandez Carranza",
+      "athlete_dob": "15/02/1967",
+      "athlete_id": "CT22384",
+      "performance": "1:18.55",
+      "discipline": "400m FEM. PC 55-59",
+      "wind": null,
+      "position": null,
+      "internal_id": 398
+    },
+    {
+      "athlete_name": "Patricia Amador Peris",
+      "athlete_dob": "18/02/1980",
+      "athlete_id": "CT28190",
+      "performance": "2:23.67",
+      "discipline": "800m FEM. PC 40-44",
+      "wind": null,
+      "position": null,
+      "internal_id": 644
+    },
+    {
+      "athlete_name": "Patricia Amador Peris",
+      "athlete_dob": "18/02/1980",
+      "athlete_id": "CT28190",
+      "performance": "4:57.09",
+      "discipline": "1.500m FEM. PC 40-44",
+      "wind": null,
+      "position": null,
+      "internal_id": 644
+    },
+    {
+      "athlete_name": "Regina Gras Cardenas",
+      "athlete_dob": "22/10/1979",
+      "athlete_id": "CT2086",
+      "performance": "1.92",
+      "discipline": "Perxa FEM. PC 40-44",
+      "wind": null,
+      "position": null,
+      "internal_id": 938
+    },
+    {
+      "athlete_name": "Ana Cabello Rioja",
+      "athlete_dob": "16/11/1968",
+      "athlete_id": "CT23242",
+      "performance": "3.30",
+      "discipline": "Llargada FEM. PC 50-54",
+      "wind": null,
+      "position": null,
+      "internal_id": 449
+    },
+    {
+      "athlete_name": "Ana Cabello Rioja",
+      "athlete_dob": "16/11/1968",
+      "athlete_id": "CT23242",
+      "performance": "3.54",
+      "discipline": "Llargada FEM. PC 50-54",
+      "wind": null,
+      "position": null,
+      "internal_id": 449
+    },
+    {
+      "athlete_name": "Ana Cabello Rioja",
+      "athlete_dob": "16/11/1968",
+      "athlete_id": "CT23242",
+      "performance": "3.67",
+      "discipline": "Llargada FEM. PC 50-54",
+      "wind": null,
+      "position": null,
+      "internal_id": 449
+    },
+    {
+      "athlete_name": "Regina Gras Cardenas",
+      "athlete_dob": "22/10/1979",
+      "athlete_id": "CT2086",
+      "performance": "7.09",
+      "discipline": "Triple Salt FEM. PC 40-44",
+      "wind": null,
+      "position": null,
+      "internal_id": 938
+    },
+    {
+      "athlete_name": "Regina Gras Cardenas",
+      "athlete_dob": "22/10/1979",
+      "athlete_id": "CT2086",
+      "performance": "7.24",
+      "discipline": "Triple Salt FEM. PC 40-44",
+      "wind": null,
+      "position": null,
+      "internal_id": 938
+    },
+    {
+      "athlete_name": "Regina Gras Cardenas",
+      "athlete_dob": "22/10/1979",
+      "athlete_id": "CT2086",
+      "performance": "6.81",
+      "discipline": "Triple Salt FEM. PC 40-44",
+      "wind": null,
+      "position": null,
+      "internal_id": 938
+    },
+    {
+      "athlete_name": "Regina Gras Cardenas",
+      "athlete_dob": "22/10/1979",
+      "athlete_id": "CT2086",
+      "performance": "6.71",
+      "discipline": "Triple Salt FEM. PC 40-44",
+      "wind": null,
+      "position": null,
+      "internal_id": 938
+    },
+    {
+      "athlete_name": "Regina Gras Cardenas",
+      "athlete_dob": "22/10/1979",
+      "athlete_id": "CT2086",
+      "performance": "7.05",
+      "discipline": "Triple Salt FEM. PC 40-44",
+      "wind": null,
+      "position": null,
+      "internal_id": 938
+    },
+    {
+      "athlete_name": "Ana Cabello Rioja",
+      "athlete_dob": "16/11/1968",
+      "athlete_id": "CT23242",
+      "performance": "6.87",
+      "discipline": "Triple Salt FEM. PC 50-54",
+      "wind": null,
+      "position": null,
+      "internal_id": 449
+    },
+    {
+      "athlete_name": "Ana Cabello Rioja",
+      "athlete_dob": "16/11/1968",
+      "athlete_id": "CT23242",
+      "performance": "7.02",
+      "discipline": "Triple Salt FEM. PC 50-54",
+      "wind": null,
+      "position": null,
+      "internal_id": 449
+    },
+    {
+      "athlete_name": "Ana Cabello Rioja",
+      "athlete_dob": "16/11/1968",
+      "athlete_id": "CT23242",
+      "performance": "7.10",
+      "discipline": "Triple Salt FEM. PC 50-54",
+      "wind": null,
+      "position": null,
+      "internal_id": 449
+    },
+    {
+      "athlete_name": "Ana Cabello Rioja",
+      "athlete_dob": "16/11/1968",
+      "athlete_id": "CT23242",
+      "performance": "7.06",
+      "discipline": "Triple Salt FEM. PC 50-54",
+      "wind": null,
+      "position": null,
+      "internal_id": 449
+    },
+    {
+      "athlete_name": "Ana Cabello Rioja",
+      "athlete_dob": "16/11/1968",
+      "athlete_id": "CT23242",
+      "performance": "6.88",
+      "discipline": "Triple Salt FEM. PC 50-54",
+      "wind": null,
+      "position": null,
+      "internal_id": 449
+    },
+    {
+      "athlete_name": "Maria Bertran Sastre",
+      "athlete_dob": "29/11/1987",
+      "athlete_id": "CT13540",
+      "performance": "6.72",
+      "discipline": "Pes VET. Fem. PC 35-39",
+      "wind": null,
+      "position": null,
+      "internal_id": 184
+    },
+    {
+      "athlete_name": "Maria Bertran Sastre",
+      "athlete_dob": "29/11/1987",
+      "athlete_id": "CT13540",
+      "performance": "6.65",
+      "discipline": "Pes VET. Fem. PC 35-39",
+      "wind": null,
+      "position": null,
+      "internal_id": 184
+    },
+    {
+      "athlete_name": "Maria Bertran Sastre",
+      "athlete_dob": "29/11/1987",
+      "athlete_id": "CT13540",
+      "performance": "6.74",
+      "discipline": "Pes VET. Fem. PC 35-39",
+      "wind": null,
+      "position": null,
+      "internal_id": 184
+    },
+    {
+      "athlete_name": "Maria Bertran Sastre",
+      "athlete_dob": "29/11/1987",
+      "athlete_id": "CT13540",
+      "performance": "7.59",
+      "discipline": "Pes VET. Fem. PC 35-39",
+      "wind": null,
+      "position": null,
+      "internal_id": 184
+    },
+    {
+      "athlete_name": "Regina Gras Cardenas",
+      "athlete_dob": "22/10/1979",
+      "athlete_id": "CT2086",
+      "performance": "16:17.15",
+      "discipline": "3.000m Marxa FEM. PC 40-44",
+      "wind": null,
+      "position": null,
+      "internal_id": 938
+    },
+    {
+      "athlete_name": "Maria Teresa Gargallo Gracia",
+      "athlete_dob": "15/10/1969",
+      "athlete_id": "CL10929",
+      "performance": "15:24.07",
+      "discipline": "3.000m Marxa FEM. PC 50-54",
+      "wind": null,
+      "position": null,
+      "internal_id": 933
     }
   ]
 }

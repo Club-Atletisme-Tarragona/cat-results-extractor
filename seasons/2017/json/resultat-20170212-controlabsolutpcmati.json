@@ -1,18 +1,58 @@
 {
   "event_name": "7è. Control Absolut en Pista Coberta - 7è. Control Absolut en Pista Coberta",
-  "event_date": "12/02/2017",
-  "event_location": "Sabadell",
-  "total_results": 2,
+  "event_date": "10/02/2017",
+  "event_location": "Club                                            Lic",
+  "total_results": 6,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20170212-controlabsolutpcmati.pdf",
   "results": [
+    {
+      "athlete_name": "Jesus Fernando Montolio Alcon",
+      "athlete_dob": "05/10/1970",
+      "athlete_id": "CT16331",
+      "performance": "0:53.83",
+      "discipline": "400m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 405
+    },
+    {
+      "athlete_name": "Ivan Benitez Lazcano",
+      "athlete_dob": "07/05/1989",
+      "athlete_id": "CL14095",
+      "performance": "9.11",
+      "discipline": "60m tanques (1,067) MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 257
+    },
+    {
+      "athlete_name": "Ivan Benitez Lazcano",
+      "athlete_dob": "07/05/1989",
+      "athlete_id": "CL14095",
+      "performance": "9.05",
+      "discipline": "60m tanques (1,067) MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 257
+    },
     {
       "athlete_name": "Mireia Lopez Urbano",
       "athlete_dob": "07/12/2000",
       "athlete_id": "CT23556",
       "performance": "7.99",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m FEM. PC",
+      "discipline": "60m FEM. PC",
       "wind": null,
+      "position": null,
+      "internal_id": 527
+    },
+    {
+      "athlete_name": "Mireia Lopez Urbano",
+      "athlete_dob": "07/12/2000",
+      "athlete_id": "CT23556",
+      "performance": "7.96",
+      "discipline": "60m FEM. PC",
+      "wind": null,
+      "position": null,
       "internal_id": 527
     },
     {
@@ -20,9 +60,9 @@
       "athlete_dob": "19/07/1998",
       "athlete_id": "CL22780",
       "performance": "8.64",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m FEM. PC",
+      "discipline": "60m FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 437
     }
   ]

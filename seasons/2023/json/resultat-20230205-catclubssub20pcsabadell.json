@@ -1,19 +1,209 @@
 {
   "event_name": "Campionat Catalunya Clubs Sub20 Masculins- PC - Sabadell (Pista coberta de Catalunya), 5 febrero 2023",
   "event_date": "05/02/2023",
-  "event_location": "Sabadell",
-  "total_results": 1,
+  "event_location": "Club                                             Lic",
+  "total_results": 20,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2023/02/resultat-20230205-catclubssub20pcsabadell.pdf",
   "results": [
     {
-      "athlete_name": "Ruth Prats Nadal",
+      "athlete_name": "Marta Lorenzo Valldosera",
+      "athlete_dob": "28/06/2007",
+      "athlete_id": "CL90513",
+      "performance": "8.81",
+      "discipline": "60m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Mireia Redondo Mendoza",
+      "athlete_dob": "10/06/2008",
+      "athlete_id": "CT1467",
+      "performance": "26.20",
+      "discipline": "200m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 957
+    },
+    {
+      "athlete_name": "Blanca Lorenzo Valldosera",
+      "athlete_dob": "29/09/2005",
+      "athlete_id": "CL90514",
+      "performance": "1:08.55",
+      "discipline": "400m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 788
+    },
+    {
+      "athlete_name": "Lucia Mayolas Martinez",
+      "athlete_dob": "04/10/2004",
+      "athlete_id": "CL71720",
+      "performance": "2:55.58",
+      "discipline": "800m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 728
+    },
+    {
+      "athlete_name": "Ona Gibert Solé",
+      "athlete_dob": "31/08/2006",
+      "athlete_id": "CL7163",
+      "performance": "6:49.67",
+      "discipline": "1.500m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 838
+    },
+    {
+      "athlete_name": "73 (t) Natalia Lara Girbes 1",
+      "athlete_dob": "13/04/2009",
+      "athlete_id": "CL90847",
+      "performance": "NP",
+      "discipline": "3.000m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 836
+    },
+    {
+      "athlete_name": "Silvia Vicente Navarrete",
+      "athlete_dob": "31/07/2007",
+      "athlete_id": "CT1468",
+      "performance": "10.10",
+      "discipline": "60m tanques (0,84) FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 905
+    },
+    {
+      "athlete_name": "f) Ruth Prats Nadal 7.5",
       "athlete_dob": "31/01/2004",
       "athlete_id": "CT91904",
       "performance": "1.50",
-      "discipline": "Alçada",
-      "raw_discipline_name": "Alçada FEM. PC",
+      "discipline": "Alçada FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 915
+    },
+    {
+      "athlete_name": "73 Martina Fernandez Sirvent",
+      "athlete_dob": "22/02/2007",
+      "athlete_id": "CT94968",
+      "performance": "NP",
+      "discipline": "Perxa FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 936
+    },
+    {
+      "athlete_name": "Natalia Sanchez Alvarez",
+      "athlete_dob": "28/05/2005",
+      "athlete_id": "CT29768",
+      "performance": "4.96",
+      "discipline": "Llargada FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 796
+    },
+    {
+      "athlete_name": "Natalia Sanchez Alvarez",
+      "athlete_dob": "28/05/2005",
+      "athlete_id": "CT29768",
+      "performance": "4.76",
+      "discipline": "Llargada FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 796
+    },
+    {
+      "athlete_name": "Natalia Sanchez Alvarez",
+      "athlete_dob": "28/05/2005",
+      "athlete_id": "CT29768",
+      "performance": "4.78",
+      "discipline": "Llargada FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 796
+    },
+    {
+      "athlete_name": "Laurine Elisa Marimon Fernandez 12 RCAM",
+      "athlete_dob": "17/09/2004",
+      "athlete_id": "CT28409",
+      "performance": "12.49",
+      "discipline": "Triple Salt FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 737
+    },
+    {
+      "athlete_name": "Laurine Elisa Marimon Fernandez 12 RCAM",
+      "athlete_dob": "17/09/2004",
+      "athlete_id": "CT28409",
+      "performance": "12.54",
+      "discipline": "Triple Salt FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 737
+    },
+    {
+      "athlete_name": "Lara Herrera Vallve",
+      "athlete_dob": "07/04/2005",
+      "athlete_id": "CT513",
+      "performance": "6.74",
+      "discipline": "Pes (4 Kg) FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 813
+    },
+    {
+      "athlete_name": "Lara Herrera Vallve",
+      "athlete_dob": "07/04/2005",
+      "athlete_id": "CT513",
+      "performance": "6.90",
+      "discipline": "Pes (4 Kg) FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 813
+    },
+    {
+      "athlete_name": "Natalia Sanchez Alvarez",
+      "athlete_dob": "28/05/2005",
+      "athlete_id": "CT29768",
+      "performance": "4:38.20",
+      "discipline": "4x400m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 796
+    },
+    {
+      "athlete_name": "Silvia Vicente Navarrete",
+      "athlete_dob": "31/07/2007",
+      "athlete_id": "CT1468",
+      "performance": "4:38.20",
+      "discipline": "4x400m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 905
+    },
+    {
+      "athlete_name": "Blanca Lorenzo Valldosera",
+      "athlete_dob": "29/09/2005",
+      "athlete_id": "CL90514",
+      "performance": "4:38.20",
+      "discipline": "4x400m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 788
+    },
+    {
+      "athlete_name": "Lara Herrera Vallve",
+      "athlete_dob": "07/04/2005",
+      "athlete_id": "CT513",
+      "performance": "4:38.20",
+      "discipline": "4x400m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 813
     }
   ]
 }

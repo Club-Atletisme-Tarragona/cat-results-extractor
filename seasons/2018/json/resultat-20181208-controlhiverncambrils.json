@@ -2,9 +2,31 @@
   "event_name": "Control Hivern",
   "event_date": "08/12/2018",
   "event_location": "Cambrils",
-  "total_results": 23,
+  "total_results": 62,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20181208-controlhiverncambrils.pdf",
   "results": [
+    {
+      "athlete_name": "Matias Hernandez Sanchez",
+      "athlete_dob": "20/12/2008",
+      "athlete_id": "CL94387",
+      "performance": "9.83",
+      "discipline": "60 metres llisos",
+      "raw_discipline_name": "60m S12 MASC. AL",
+      "wind": "+0.0",
+      "position": null,
+      "internal_id": 999
+    },
+    {
+      "athlete_name": "Ivan Ferrer Villa",
+      "athlete_dob": "14/04/2009",
+      "athlete_id": "CL86457",
+      "performance": "10.47",
+      "discipline": "60 metres llisos",
+      "raw_discipline_name": "60m S12 MASC. AL",
+      "wind": "+0.0",
+      "position": null,
+      "internal_id": 1009
+    },
     {
       "athlete_name": "Guillem Ferran Jimenez",
       "athlete_dob": "08/03/2008",
@@ -13,6 +35,7 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m S12 MASC. AL",
       "wind": "+0.0",
+      "position": null,
       "internal_id": null
     },
     {
@@ -23,6 +46,7 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m S12 MASC. AL",
       "wind": "+0.0",
+      "position": null,
       "internal_id": null
     },
     {
@@ -33,6 +57,7 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m S12 MASC. AL",
       "wind": "+0.0",
+      "position": null,
       "internal_id": 1036
     },
     {
@@ -43,6 +68,7 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m S12 MASC. AL",
       "wind": "+0.0",
+      "position": null,
       "internal_id": 963
     },
     {
@@ -53,6 +79,7 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m S12 MASC. AL",
       "wind": "+0.0",
+      "position": null,
       "internal_id": 958
     },
     {
@@ -63,6 +90,7 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m S12 MASC. AL",
       "wind": "+0.0",
+      "position": null,
       "internal_id": null
     },
     {
@@ -73,6 +101,7 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m S12 MASC. AL",
       "wind": "+0.0",
+      "position": null,
       "internal_id": null
     },
     {
@@ -83,37 +112,195 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m S12 MASC. AL",
       "wind": "+0.0",
+      "position": null,
       "internal_id": null
     },
     {
-      "athlete_name": "Lluc Subiros Brasero",
+      "athlete_name": "Diego Lapieza Barcelo",
+      "athlete_dob": "06/04/2011",
+      "athlete_id": "CL94391",
+      "performance": "10.27",
+      "discipline": "60 metres llisos",
+      "raw_discipline_name": "60m S10 MASC. AL",
+      "wind": "+0.0",
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Alan Lozano Moreno",
+      "athlete_dob": "06/11/2010",
+      "athlete_id": "CL94394",
+      "performance": "10.85",
+      "discipline": "60 metres llisos",
+      "raw_discipline_name": "60m S10 MASC. AL",
+      "wind": "+0.0",
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Aleix Olmo Chavez",
+      "athlete_dob": "01/02/2011",
+      "athlete_id": "CL94400",
+      "performance": "12.50",
+      "discipline": "60 metres llisos",
+      "raw_discipline_name": "60m S10 MASC. AL",
+      "wind": "+0.0",
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Pau Esteve Hostalot",
+      "athlete_dob": "27/08/2010",
+      "athlete_id": "CL94383",
+      "performance": "9.91",
+      "discipline": "60 metres llisos",
+      "raw_discipline_name": "60m S10 MASC. AL",
+      "wind": "+0.0",
+      "position": null,
+      "internal_id": 1055
+    },
+    {
+      "athlete_name": "Quim Sousa Iturria",
+      "athlete_dob": "03/05/2010",
+      "athlete_id": "CL90845",
+      "performance": "12.61",
+      "discipline": "60 metres llisos",
+      "raw_discipline_name": "60m S10 MASC. AL",
+      "wind": "+0.0",
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Oriol Foix Amoros",
+      "athlete_dob": "31/01/2004",
+      "athlete_id": "CL86461",
+      "performance": "8.42",
+      "discipline": "60 metres llisos",
+      "raw_discipline_name": "60m S16 MASC. AL",
+      "wind": "+1.0",
+      "position": null,
+      "internal_id": 735
+    },
+    {
+      "athlete_name": "Lluc Subiros Brasero IM",
       "athlete_dob": "06/01/2007",
       "athlete_id": "CL77331",
       "performance": "8.99",
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m S14 MASC. AL",
       "wind": "+0.0",
+      "position": null,
       "internal_id": 899
     },
     {
-      "athlete_name": "Unai Ortiz De Landazuri Ontoso",
+      "athlete_name": "Unai Ortiz De Landazuri Ontoso IM",
       "athlete_dob": "28/06/2007",
       "athlete_id": "CL77328",
       "performance": "9.16",
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m S14 MASC. AL",
       "wind": "+0.0",
+      "position": null,
       "internal_id": 908
     },
     {
-      "athlete_name": "Matias Costa Bakker",
+      "athlete_name": "Matias Costa Bakker IM",
       "athlete_dob": "19/11/2007",
       "athlete_id": "CL90885",
       "performance": "10.91",
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m S14 MASC. AL",
       "wind": "+0.0",
+      "position": null,
       "internal_id": 922
+    },
+    {
+      "athlete_name": "38 (t) Joan Sousa Iturria IM 3",
+      "athlete_dob": "05/09/2007",
+      "athlete_id": "CL90881",
+      "performance": "NP",
+      "discipline": "60 metres llisos",
+      "raw_discipline_name": "60m S14 MASC. AL",
+      "wind": "+0.0",
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Clara Ortiz De Landazuri Ontoso",
+      "athlete_dob": "04/12/2009",
+      "athlete_id": "CL86467",
+      "performance": "9.88",
+      "discipline": "60 metres llisos",
+      "raw_discipline_name": "60m S12 FEM. AL",
+      "wind": "+0.0",
+      "position": null,
+      "internal_id": 1022
+    },
+    {
+      "athlete_name": "Noa Nin Navas",
+      "athlete_dob": "28/08/2009",
+      "athlete_id": "CL94399",
+      "performance": "11.50",
+      "discipline": "60 metres llisos",
+      "raw_discipline_name": "60m S12 FEM. AL",
+      "wind": "+0.0",
+      "position": null,
+      "internal_id": 1010
+    },
+    {
+      "athlete_name": "Claudia Guim Caceres",
+      "athlete_dob": "01/09/2009",
+      "athlete_id": "CL90835",
+      "performance": "12.04",
+      "discipline": "60 metres llisos",
+      "raw_discipline_name": "60m S12 FEM. AL",
+      "wind": "+0.0",
+      "position": null,
+      "internal_id": 1007
+    },
+    {
+      "athlete_name": "Naia Perez Esquitino",
+      "athlete_dob": "16/06/2008",
+      "athlete_id": "CL94404",
+      "performance": "10.05",
+      "discipline": "60 metres llisos",
+      "raw_discipline_name": "60m S12 FEM. AL",
+      "wind": "+0.0",
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Ariadna Domenech Martin",
+      "athlete_dob": "05/11/2008",
+      "athlete_id": "CL94382",
+      "performance": "11.24",
+      "discipline": "60 metres llisos",
+      "raw_discipline_name": "60m S12 FEM. AL",
+      "wind": "+0.0",
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Julia Gomez Miro",
+      "athlete_dob": "03/10/2009",
+      "athlete_id": "CL90834",
+      "performance": "10.27",
+      "discipline": "60 metres llisos",
+      "raw_discipline_name": "60m S12 FEM. AL",
+      "wind": "+0.0",
+      "position": null,
+      "internal_id": 1027
+    },
+    {
+      "athlete_name": "Laia Saladie Mas",
+      "athlete_dob": "07/02/2008",
+      "athlete_id": "CL94410",
+      "performance": "11.14",
+      "discipline": "60 metres llisos",
+      "raw_discipline_name": "60m S12 FEM. AL",
+      "wind": "+0.0",
+      "position": null,
+      "internal_id": null
     },
     {
       "athlete_name": "Paula Diez Plasencia",
@@ -123,6 +310,7 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m S10 FEM. AL",
       "wind": "+0.0",
+      "position": null,
       "internal_id": null
     },
     {
@@ -133,6 +321,7 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m S10 FEM. AL",
       "wind": "+0.0",
+      "position": null,
       "internal_id": 1326
     },
     {
@@ -143,6 +332,18 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m S10 FEM. AL",
       "wind": "+0.0",
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "42 (t) Nuria Castillo Janoher BF 6",
+      "athlete_dob": "29/07/2010",
+      "athlete_id": "CL94380",
+      "performance": "NP",
+      "discipline": "60 metres llisos",
+      "raw_discipline_name": "60m S10 FEM. AL",
+      "wind": "+0.0",
+      "position": null,
       "internal_id": null
     },
     {
@@ -153,6 +354,7 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m S10 FEM. AL",
       "wind": "+0.0",
+      "position": null,
       "internal_id": null
     },
     {
@@ -163,6 +365,7 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m S10 FEM. AL",
       "wind": "+0.0",
+      "position": null,
       "internal_id": null
     },
     {
@@ -173,6 +376,7 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m S10 FEM. AL",
       "wind": "+0.0",
+      "position": null,
       "internal_id": 1089
     },
     {
@@ -183,37 +387,96 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m S10 FEM. AL",
       "wind": "+0.0",
+      "position": null,
       "internal_id": 1325
     },
     {
-      "athlete_name": "Erika Diez Plasencia",
+      "athlete_name": "Martina Prats Casado",
+      "athlete_dob": "28/09/2004",
+      "athlete_id": "CL94419",
+      "performance": "8.77",
+      "discipline": "60 metres llisos",
+      "raw_discipline_name": "60m S16 FEM. AL",
+      "wind": "+0.0",
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Judit Ravell Sole",
+      "athlete_dob": "21/01/2004",
+      "athlete_id": "CL94422",
+      "performance": "8.97",
+      "discipline": "60 metres llisos",
+      "raw_discipline_name": "60m S16 FEM. AL",
+      "wind": "+0.0",
+      "position": null,
+      "internal_id": 736
+    },
+    {
+      "athlete_name": "Cristina Reyes Alcantara",
+      "athlete_dob": "28/12/2005",
+      "athlete_id": "CL82419",
+      "performance": "9.16",
+      "discipline": "60 metres llisos",
+      "raw_discipline_name": "60m S16 FEM. AL",
+      "wind": "+0.0",
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "1 (t) Mireia Viera Cervello IF",
+      "athlete_dob": "22/09/2006",
+      "athlete_id": "CL94415",
+      "performance": "8.63",
+      "discipline": "60 metres llisos",
+      "raw_discipline_name": "60m S14 FEM. AL",
+      "wind": "+2.0",
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Erika Diez Plasencia IF",
       "athlete_dob": "09/10/2006",
       "athlete_id": "CL82411",
       "performance": "9.20",
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m S14 FEM. AL",
       "wind": "+2.0",
+      "position": null,
       "internal_id": null
     },
     {
-      "athlete_name": "Luana Izaga Deriu",
+      "athlete_name": "Luana Izaga Deriu IF",
       "athlete_dob": "13/02/2007",
       "athlete_id": "CL77321",
       "performance": "9.20",
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m S14 FEM. AL",
       "wind": "+2.0",
+      "position": null,
       "internal_id": 928
     },
     {
-      "athlete_name": "Tecla Guim Caceres",
+      "athlete_name": "Tecla Guim Caceres IF",
       "athlete_dob": "30/07/2006",
       "athlete_id": "CL90509",
       "performance": "10.34",
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m S14 FEM. AL",
       "wind": "+2.0",
+      "position": null,
       "internal_id": 843
+    },
+    {
+      "athlete_name": "Pol Aixala Guiu",
+      "athlete_dob": "04/12/2004",
+      "athlete_id": "CL69309",
+      "performance": "0:43.02",
+      "discipline": "300 metres llisos",
+      "raw_discipline_name": "300m S16 MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 733
     },
     {
       "athlete_name": "Judit Ravell Sole",
@@ -223,6 +486,7 @@
       "discipline": "300 metres llisos",
       "raw_discipline_name": "300m S16 FEM. AL",
       "wind": null,
+      "position": null,
       "internal_id": 736
     },
     {
@@ -233,7 +497,195 @@
       "discipline": "300 metres llisos",
       "raw_discipline_name": "300m S16 FEM. AL",
       "wind": null,
+      "position": null,
       "internal_id": null
+    },
+    {
+      "athlete_name": "Laia Saladie Mas",
+      "athlete_dob": "07/02/2008",
+      "athlete_id": "CL94410",
+      "performance": "13.71",
+      "discipline": "60 metres tanques (0.50)",
+      "raw_discipline_name": "60m tanques S12 (0,50) FEM AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Julia Gomez Miro",
+      "athlete_dob": "03/10/2009",
+      "athlete_id": "CL90834",
+      "performance": "12.40",
+      "discipline": "60 metres tanques (0.50)",
+      "raw_discipline_name": "60m tanques S12 (0,50) FEM AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1027
+    },
+    {
+      "athlete_name": "Noa Nin Navas",
+      "athlete_dob": "28/08/2009",
+      "athlete_id": "CL94399",
+      "performance": "14.23",
+      "discipline": "60 metres tanques (0.50)",
+      "raw_discipline_name": "60m tanques S12 (0,50) FEM AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1010
+    },
+    {
+      "athlete_name": "Claudia Guim Caceres",
+      "athlete_dob": "01/09/2009",
+      "athlete_id": "CL90835",
+      "performance": "14.92",
+      "discipline": "60 metres tanques (0.50)",
+      "raw_discipline_name": "60m tanques S12 (0,50) FEM AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1007
+    },
+    {
+      "athlete_name": "Ariadna Domenech Martin",
+      "athlete_dob": "05/11/2008",
+      "athlete_id": "CL94382",
+      "performance": "16.55",
+      "discipline": "60 metres tanques (0.50)",
+      "raw_discipline_name": "60m tanques S12 (0,50) FEM AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Clara Ortiz De Landazuri Ontoso",
+      "athlete_dob": "04/12/2009",
+      "athlete_id": "CL86467",
+      "performance": "12.36",
+      "discipline": "60 metres tanques (0.50)",
+      "raw_discipline_name": "60m tanques S12 (0,50) FEM AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1022
+    },
+    {
+      "athlete_name": "Naia Perez Esquitino",
+      "athlete_dob": "16/06/2008",
+      "athlete_id": "CL94404",
+      "performance": "12.67",
+      "discipline": "60 metres tanques (0.50)",
+      "raw_discipline_name": "60m tanques S12 (0,50) FEM AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Miguel Reyes Alcantara",
+      "athlete_dob": "17/12/2008",
+      "athlete_id": "CL82987",
+      "performance": "12.14",
+      "discipline": "60 metres tanques (0.50)",
+      "raw_discipline_name": "60m tanques S12 (0,50) MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Marcel Mislata Vallecillo",
+      "athlete_dob": "16/12/2008",
+      "athlete_id": "CL94398",
+      "performance": "12.49",
+      "discipline": "60 metres tanques (0.50)",
+      "raw_discipline_name": "60m tanques S12 (0,50) MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Bernat Bardina Artigau",
+      "athlete_dob": "12/04/2008",
+      "athlete_id": "CL82974",
+      "performance": "14.08",
+      "discipline": "60 metres tanques (0.50)",
+      "raw_discipline_name": "60m tanques S12 (0,50) MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 963
+    },
+    {
+      "athlete_name": "Victor Jimenez Garcia",
+      "athlete_dob": "25/05/2008",
+      "athlete_id": "CL82981",
+      "performance": "11.03",
+      "discipline": "60 metres tanques (0.50)",
+      "raw_discipline_name": "60m tanques S12 (0,50) MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 958
+    },
+    {
+      "athlete_name": "Eric De La Rosa Fortuny",
+      "athlete_dob": "17/04/2009",
+      "athlete_id": "CL87201",
+      "performance": "11.66",
+      "discipline": "60 metres tanques (0.50)",
+      "raw_discipline_name": "60m tanques S12 (0,50) MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Matias Hernandez Sanchez",
+      "athlete_dob": "20/12/2008",
+      "athlete_id": "CL94387",
+      "performance": "11.83",
+      "discipline": "60 metres tanques (0.50)",
+      "raw_discipline_name": "60m tanques S12 (0,50) MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 999
+    },
+    {
+      "athlete_name": "Quimey Izaga Deriu",
+      "athlete_dob": "22/08/2009",
+      "athlete_id": "CL86465",
+      "performance": "11.87",
+      "discipline": "60 metres tanques (0.50)",
+      "raw_discipline_name": "60m tanques S12 (0,50) MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Guillem Ferran Jimenez",
+      "athlete_dob": "08/03/2008",
+      "athlete_id": "CL82978",
+      "performance": "10.94",
+      "discipline": "60 metres tanques (0.50)",
+      "raw_discipline_name": "60m tanques S12 (0,50) MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Jeroni Flores Piñas",
+      "athlete_dob": "04/01/2009",
+      "athlete_id": "CL86460",
+      "performance": "12.54",
+      "discipline": "60 metres tanques (0.50)",
+      "raw_discipline_name": "60m tanques S12 (0,50) MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1036
+    },
+    {
+      "athlete_name": "Ivan Ferrer Villa",
+      "athlete_dob": "14/04/2009",
+      "athlete_id": "CL86457",
+      "performance": "12.92",
+      "discipline": "60 metres tanques (0.50)",
+      "raw_discipline_name": "60m tanques S12 (0,50) MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1009
     }
   ]
 }

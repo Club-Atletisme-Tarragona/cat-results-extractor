@@ -1,18 +1,218 @@
 {
   "event_name": "Control sub8-10-12 - Pista de Atletismo de Camp Clar, 25 mayo 2024",
   "event_date": "25/05/2024",
-  "event_location": "Camp Clar",
-  "total_results": 13,
+  "event_location": "Pista de Atletismo de Camp Clar",
+  "total_results": 64,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2024/05/resultat-20240525-controlsub1012tarragona.pdf",
   "results": [
+    {
+      "athlete_name": "2 (t) Kilian Borreda Cervello",
+      "athlete_dob": "09/05/2013",
+      "athlete_id": "CL4060",
+      "performance": "8.91",
+      "discipline": "60m MASC. AL S12",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "1 (t) Ernest Gellida Barrio",
+      "athlete_dob": "26/08/2014",
+      "athlete_id": "CL7613",
+      "performance": "10.35",
+      "discipline": "60m MASC. AL S12",
+      "wind": null,
+      "position": null,
+      "internal_id": 1344
+    },
+    {
+      "athlete_name": "2 (t) Nicolas Franco Teixeira",
+      "athlete_dob": "26/04/2014",
+      "athlete_id": "CL15305",
+      "performance": "10.63",
+      "discipline": "60m MASC. AL S12",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Aleix Gomez Miro",
+      "athlete_dob": "06/01/2013",
+      "athlete_id": "CL4345",
+      "performance": "9.62",
+      "discipline": "60m MASC. AL S12",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "4 (t) Blai Lligadas Turon",
+      "athlete_dob": "11/03/2015",
+      "athlete_id": "CL11069",
+      "performance": "9.77",
+      "discipline": "60m MASC. AL S10",
+      "wind": null,
+      "position": null,
+      "internal_id": 1338
+    },
+    {
+      "athlete_name": "Olivier Casas Muiño",
+      "athlete_dob": "10/08/2015",
+      "athlete_id": "CL11597",
+      "performance": "10.52",
+      "discipline": "60m MASC. AL S10",
+      "wind": null,
+      "position": null,
+      "internal_id": 1373
+    },
+    {
+      "athlete_name": "3 (t) Sergi Aguza Piqueras",
+      "athlete_dob": "21/04/2016",
+      "athlete_id": "CL15055",
+      "performance": "10.72",
+      "discipline": "60m MASC. AL S10",
+      "wind": null,
+      "position": null,
+      "internal_id": 1355
+    },
+    {
+      "athlete_name": "Marti Mateu Montull",
+      "athlete_dob": "13/08/2016",
+      "athlete_id": "CL14916",
+      "performance": "11.15",
+      "discipline": "60m MASC. AL S10",
+      "wind": null,
+      "position": null,
+      "internal_id": 1353
+    },
+    {
+      "athlete_name": "4 (t) Samuel Rodriguez Barrios",
+      "athlete_dob": "29/10/2016",
+      "athlete_id": "CL14914",
+      "performance": "11.74",
+      "discipline": "60m MASC. AL S10",
+      "wind": null,
+      "position": null,
+      "internal_id": 1390
+    },
+    {
+      "athlete_name": "Pol Diaz Cristino",
+      "athlete_dob": "03/02/2014",
+      "athlete_id": "CT2082",
+      "performance": "1:56.75",
+      "discipline": "600m MASC. AL S12",
+      "wind": null,
+      "position": null,
+      "internal_id": 1333
+    },
+    {
+      "athlete_name": "Aleix Gomez Miro",
+      "athlete_dob": "06/01/2013",
+      "athlete_id": "CL4345",
+      "performance": "1:57.14",
+      "discipline": "600m MASC. AL S12",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Nil Torres Prats",
+      "athlete_dob": "05/10/2014",
+      "athlete_id": "CL7611",
+      "performance": "1:57.33",
+      "discipline": "600m MASC. AL S12",
+      "wind": null,
+      "position": null,
+      "internal_id": 1341
+    },
+    {
+      "athlete_name": "Teo Pou Fonts",
+      "athlete_dob": "09/01/2015",
+      "athlete_id": "CL14903",
+      "performance": "3:42.33",
+      "discipline": "1.000m MASC. AL S10",
+      "wind": null,
+      "position": null,
+      "internal_id": 1377
+    },
+    {
+      "athlete_name": "Olivier Casas Muiño",
+      "athlete_dob": "10/08/2015",
+      "athlete_id": "CL11597",
+      "performance": "3:47.39",
+      "discipline": "1.000m MASC. AL S10",
+      "wind": null,
+      "position": null,
+      "internal_id": 1373
+    },
+    {
+      "athlete_name": "Jose Angel Masia Urzua",
+      "athlete_dob": "25/02/2015",
+      "athlete_id": "CL15467",
+      "performance": "3:50.28",
+      "discipline": "1.000m MASC. AL S10",
+      "wind": null,
+      "position": null,
+      "internal_id": 1389
+    },
+    {
+      "athlete_name": "Marti Mateu Montull",
+      "athlete_dob": "13/08/2016",
+      "athlete_id": "CL14916",
+      "performance": "4:15.77",
+      "discipline": "1.000m MASC. AL S10",
+      "wind": null,
+      "position": null,
+      "internal_id": 1353
+    },
+    {
+      "athlete_name": "1 (t) Kilian Borreda Cervello",
+      "athlete_dob": "09/05/2013",
+      "athlete_id": "CL4060",
+      "performance": "10.20",
+      "discipline": "60m vallas (0,50) MASC. AL S12",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "5 (t) Ernest Gellida Barrio",
+      "athlete_dob": "26/08/2014",
+      "athlete_id": "CL7613",
+      "performance": "12.78",
+      "discipline": "60m vallas (0,50) MASC. AL S12",
+      "wind": null,
+      "position": null,
+      "internal_id": 1344
+    },
+    {
+      "athlete_name": "Nil Torres Prats",
+      "athlete_dob": "05/10/2014",
+      "athlete_id": "CL7611",
+      "performance": "1.20",
+      "discipline": "Altura MASC. AL S12",
+      "wind": null,
+      "position": null,
+      "internal_id": 1341
+    },
+    {
+      "athlete_name": "9 (t) Antonio Balazote",
+      "athlete_dob": "01/05/2014",
+      "athlete_id": "CL11067",
+      "performance": "1.20",
+      "discipline": "Altura MASC. AL S12",
+      "wind": null,
+      "position": null,
+      "internal_id": 1370
+    },
     {
       "athlete_name": "Thiago Silva Aranda",
       "athlete_dob": "15/02/2015",
       "athlete_id": "CL11075",
       "performance": "3.06",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud MASC. AL S10",
+      "discipline": "Longitud MASC. AL S10",
       "wind": null,
+      "position": null,
       "internal_id": 1350
     },
     {
@@ -20,19 +220,89 @@
       "athlete_dob": "15/02/2015",
       "athlete_id": "CL11075",
       "performance": "3.02",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud MASC. AL S10",
+      "discipline": "Longitud MASC. AL S10",
       "wind": null,
+      "position": null,
       "internal_id": 1350
+    },
+    {
+      "athlete_name": "11 (t) Blai Lligadas Turon",
+      "athlete_dob": "11/03/2015",
+      "athlete_id": "CL11069",
+      "performance": "3.06",
+      "discipline": "Longitud MASC. AL S10",
+      "wind": null,
+      "position": null,
+      "internal_id": 1338
+    },
+    {
+      "athlete_name": "26 (t) Sergi Aguza Piqueras",
+      "athlete_dob": "21/04/2016",
+      "athlete_id": "CL15055",
+      "performance": "2.52",
+      "discipline": "Longitud MASC. AL S10",
+      "wind": null,
+      "position": null,
+      "internal_id": 1355
+    },
+    {
+      "athlete_name": "32 (t) Samuel Rodriguez Barrios",
+      "athlete_dob": "29/10/2016",
+      "athlete_id": "CL14914",
+      "performance": "2.12",
+      "discipline": "Longitud MASC. AL S10",
+      "wind": null,
+      "position": null,
+      "internal_id": 1390
+    },
+    {
+      "athlete_name": "33 (t) Pau Llado Aparicio",
+      "athlete_dob": "17/12/2015",
+      "athlete_id": "CL11065",
+      "performance": "1.78",
+      "discipline": "Longitud MASC. AL S10",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "15 (t) Antonio Balazote",
+      "athlete_dob": "01/05/2014",
+      "athlete_id": "CL11067",
+      "performance": "10.58",
+      "discipline": "Disco (600g) MASC. AL S12",
+      "wind": null,
+      "position": null,
+      "internal_id": 1370
+    },
+    {
+      "athlete_name": "15 (t) Antonio Balazote",
+      "athlete_dob": "01/05/2014",
+      "athlete_id": "CL11067",
+      "performance": "12.44",
+      "discipline": "Disco (600g) MASC. AL S12",
+      "wind": null,
+      "position": null,
+      "internal_id": 1370
+    },
+    {
+      "athlete_name": "15 (t) Antonio Balazote",
+      "athlete_dob": "01/05/2014",
+      "athlete_id": "CL11067",
+      "performance": "12.56",
+      "discipline": "Disco (600g) MASC. AL S12",
+      "wind": null,
+      "position": null,
+      "internal_id": 1370
     },
     {
       "athlete_name": "Teo Pou Fonts",
       "athlete_dob": "09/01/2015",
       "athlete_id": "CL14903",
       "performance": "26.13",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "Jabalina Vortex MASC. S10",
+      "discipline": "Jabalina Vortex MASC. S10",
       "wind": null,
+      "position": null,
       "internal_id": 1377
     },
     {
@@ -40,9 +310,9 @@
       "athlete_dob": "09/01/2015",
       "athlete_id": "CL14903",
       "performance": "23.26",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "Jabalina Vortex MASC. S10",
+      "discipline": "Jabalina Vortex MASC. S10",
       "wind": null,
+      "position": null,
       "internal_id": 1377
     },
     {
@@ -50,49 +320,159 @@
       "athlete_dob": "25/02/2015",
       "athlete_id": "CL15467",
       "performance": "24.42",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "Jabalina Vortex MASC. S10",
+      "discipline": "Jabalina Vortex MASC. S10",
       "wind": null,
+      "position": null,
       "internal_id": 1389
+    },
+    {
+      "athlete_name": "19 (t) Pau Llado Aparicio",
+      "athlete_dob": "17/12/2015",
+      "athlete_id": "CL11065",
+      "performance": "15.75",
+      "discipline": "Jabalina Vortex MASC. S10",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "19 (t) Pau Llado Aparicio",
+      "athlete_dob": "17/12/2015",
+      "athlete_id": "CL11065",
+      "performance": "16.10",
+      "discipline": "Jabalina Vortex MASC. S10",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "19 (t) Pau Llado Aparicio",
+      "athlete_dob": "17/12/2015",
+      "athlete_id": "CL11065",
+      "performance": "10.55",
+      "discipline": "Jabalina Vortex MASC. S10",
+      "wind": null,
+      "position": null,
+      "internal_id": null
     },
     {
       "athlete_name": "Thiago Silva Aranda",
       "athlete_dob": "15/02/2015",
       "athlete_id": "CL11075",
       "performance": "6:32.83",
-      "discipline": "1000 metres marxa",
-      "raw_discipline_name": "1.000m Marcha MASC. en pista S10",
+      "discipline": "1.000m Marcha MASC. en pista S10",
       "wind": null,
+      "position": null,
       "internal_id": 1350
+    },
+    {
+      "athlete_name": "288 (e) (t) Vivian Onyemaekwu AF 3",
+      "athlete_dob": "14/10/2013",
+      "athlete_id": "CL6109",
+      "performance": "NP",
+      "discipline": "60m FEM. AL S12",
+      "wind": null,
+      "position": null,
+      "internal_id": null
     },
     {
       "athlete_name": "Aitana Casas Muiño",
       "athlete_dob": "28/10/2013",
       "athlete_id": "CL11660",
-      "performance": "19:02.00",
-      "discipline": "1000 metres marxa",
-      "raw_discipline_name": "1.000m Marcha MASC. en pista S10",
+      "performance": "9.92",
+      "discipline": "60m FEM. AL S12",
       "wind": null,
+      "position": null,
       "internal_id": 1375
+    },
+    {
+      "athlete_name": "India Martin Cuadrado",
+      "athlete_dob": "04/04/2014",
+      "athlete_id": "CL7608",
+      "performance": "10.30",
+      "discipline": "60m FEM. AL S12",
+      "wind": null,
+      "position": null,
+      "internal_id": 1332
+    },
+    {
+      "athlete_name": "2 (t) Erika Margallo Del Valle",
+      "athlete_dob": "27/11/2014",
+      "athlete_id": "CL15267",
+      "performance": "10.34",
+      "discipline": "60m FEM. AL S12",
+      "wind": null,
+      "position": null,
+      "internal_id": 1388
+    },
+    {
+      "athlete_name": "3 (t) Ameli Torres Arbones",
+      "athlete_dob": "27/01/2014",
+      "athlete_id": "CL15270",
+      "performance": "10.75",
+      "discipline": "60m FEM. AL S12",
+      "wind": null,
+      "position": null,
+      "internal_id": 1394
+    },
+    {
+      "athlete_name": "Montserrat Marques Cruz",
+      "athlete_dob": "27/01/2015",
+      "athlete_id": "CL11596",
+      "performance": "10.50",
+      "discipline": "60m FEM. AL S10",
+      "wind": null,
+      "position": null,
+      "internal_id": 1374
+    },
+    {
+      "athlete_name": "6 (t) Sara Lopez Garcia",
+      "athlete_dob": "19/01/2015",
+      "athlete_id": "CL11066",
+      "performance": "10.53",
+      "discipline": "60m FEM. AL S10",
+      "wind": null,
+      "position": null,
+      "internal_id": 1354
+    },
+    {
+      "athlete_name": "8 (t) Julia Muste Santiago",
+      "athlete_dob": "30/09/2015",
+      "athlete_id": "CL14892",
+      "performance": "10.87",
+      "discipline": "60m FEM. AL S10",
+      "wind": null,
+      "position": null,
+      "internal_id": 1382
     },
     {
       "athlete_name": "Ada Feliu Lorca",
       "athlete_dob": "07/05/2016",
       "athlete_id": "CL15054",
-      "performance": "19:02.00",
-      "discipline": "1000 metres marxa",
-      "raw_discipline_name": "1.000m Marcha MASC. en pista S10",
+      "performance": "11.79",
+      "discipline": "60m FEM. AL S10",
       "wind": null,
+      "position": null,
       "internal_id": 1368
+    },
+    {
+      "athlete_name": "288 (e) (t) Vivian Onyemaekwu AF 2",
+      "athlete_dob": "14/10/2013",
+      "athlete_id": "CL6109",
+      "performance": "NP",
+      "discipline": "600m FEM. AL S12",
+      "wind": null,
+      "position": null,
+      "internal_id": null
     },
     {
       "athlete_name": "India Martin Cuadrado",
       "athlete_dob": "04/04/2014",
       "athlete_id": "CL7608",
       "performance": "2:14.69",
-      "discipline": "1000 metres marxa",
-      "raw_discipline_name": "1.000m Marcha MASC. en pista S10",
+      "discipline": "600m FEM. AL S12",
       "wind": null,
+      "position": null,
       "internal_id": 1332
     },
     {
@@ -100,9 +480,9 @@
       "athlete_dob": "28/10/2013",
       "athlete_id": "CL11660",
       "performance": "2:12.80",
-      "discipline": "1000 metres marxa",
-      "raw_discipline_name": "1.000m Marcha MASC. en pista S10",
+      "discipline": "600m FEM. AL S12",
       "wind": null,
+      "position": null,
       "internal_id": 1375
     },
     {
@@ -110,9 +490,9 @@
       "athlete_dob": "10/11/2013",
       "athlete_id": "CL4396",
       "performance": "2:15.53",
-      "discipline": "1000 metres marxa",
-      "raw_discipline_name": "1.000m Marcha MASC. en pista S10",
+      "discipline": "600m FEM. AL S12",
       "wind": null,
+      "position": null,
       "internal_id": 1335
     },
     {
@@ -120,9 +500,9 @@
       "athlete_dob": "27/02/2015",
       "athlete_id": "CL10462",
       "performance": "4:13.72",
-      "discipline": "1000 metres marxa",
-      "raw_discipline_name": "1.000m Marcha MASC. en pista S10",
+      "discipline": "1.000m FEM. AL S10",
       "wind": null,
+      "position": null,
       "internal_id": 1380
     },
     {
@@ -130,10 +510,140 @@
       "athlete_dob": "24/06/2016",
       "athlete_id": "CL15061",
       "performance": "4:38.54",
-      "discipline": "1000 metres marxa",
-      "raw_discipline_name": "1.000m Marcha MASC. en pista S10",
+      "discipline": "1.000m FEM. AL S10",
       "wind": null,
+      "position": null,
       "internal_id": 1393
+    },
+    {
+      "athlete_name": "357 (t) Blau Doblas Roque BF 8",
+      "athlete_dob": "14/03/2015",
+      "athlete_id": "CL15058",
+      "performance": "NP",
+      "discipline": "1.000m FEM. AL S10",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Noa Pascual Prats",
+      "athlete_dob": "27/02/2015",
+      "athlete_id": "CL10462",
+      "performance": "2.83",
+      "discipline": "Longitud FEM. AL S10",
+      "wind": null,
+      "position": null,
+      "internal_id": 1380
+    },
+    {
+      "athlete_name": "9 (t) Sara Lopez Garcia",
+      "athlete_dob": "19/01/2015",
+      "athlete_id": "CL11066",
+      "performance": "2.77",
+      "discipline": "Longitud FEM. AL S10",
+      "wind": null,
+      "position": null,
+      "internal_id": 1354
+    },
+    {
+      "athlete_name": "10 (t) Julia Muste Santiago",
+      "athlete_dob": "30/09/2015",
+      "athlete_id": "CL14892",
+      "performance": "2.75",
+      "discipline": "Longitud FEM. AL S10",
+      "wind": null,
+      "position": null,
+      "internal_id": 1382
+    },
+    {
+      "athlete_name": "Berta Garcia Dominguez",
+      "athlete_dob": "24/06/2016",
+      "athlete_id": "CL15061",
+      "performance": "2.62",
+      "discipline": "Longitud FEM. AL S10",
+      "wind": null,
+      "position": null,
+      "internal_id": 1393
+    },
+    {
+      "athlete_name": "Alba Esteve Hostalot",
+      "athlete_dob": "10/11/2013",
+      "athlete_id": "CL4396",
+      "performance": "10.47",
+      "discipline": "Disco (600g) FEM. S12",
+      "wind": null,
+      "position": null,
+      "internal_id": 1335
+    },
+    {
+      "athlete_name": "2 (t) Erika Margallo Del Valle",
+      "athlete_dob": "27/11/2014",
+      "athlete_id": "CL15267",
+      "performance": "14.02",
+      "discipline": "Jabalina (300g) FEM S12",
+      "wind": null,
+      "position": null,
+      "internal_id": 1388
+    },
+    {
+      "athlete_name": "2 (t) Erika Margallo Del Valle",
+      "athlete_dob": "27/11/2014",
+      "athlete_id": "CL15267",
+      "performance": "12.45",
+      "discipline": "Jabalina (300g) FEM S12",
+      "wind": null,
+      "position": null,
+      "internal_id": 1388
+    },
+    {
+      "athlete_name": "14 (t) Ameli Torres Arbones",
+      "athlete_dob": "27/01/2014",
+      "athlete_id": "CL15270",
+      "performance": "8.98",
+      "discipline": "Jabalina (300g) FEM S12",
+      "wind": null,
+      "position": null,
+      "internal_id": 1394
+    },
+    {
+      "athlete_name": "14 (t) Ameli Torres Arbones",
+      "athlete_dob": "27/01/2014",
+      "athlete_id": "CL15270",
+      "performance": "9.09",
+      "discipline": "Jabalina (300g) FEM S12",
+      "wind": null,
+      "position": null,
+      "internal_id": 1394
+    },
+    {
+      "athlete_name": "14 (t) Ameli Torres Arbones",
+      "athlete_dob": "27/01/2014",
+      "athlete_id": "CL15270",
+      "performance": "6.49",
+      "discipline": "Jabalina (300g) FEM S12",
+      "wind": null,
+      "position": null,
+      "internal_id": 1394
+    },
+    {
+      "athlete_name": "Montserrat Marques Cruz",
+      "athlete_dob": "27/01/2015",
+      "athlete_id": "CL11596",
+      "performance": "6:41.97",
+      "discipline": "1.000m Marcha FEM. en pista S10",
+      "wind": null,
+      "position": null,
+      "internal_id": 1374
+    },
+    {
+      "athlete_name": "Ada Feliu Lorca",
+      "athlete_dob": "07/05/2016",
+      "athlete_id": "CL15054",
+      "performance": "7:29.88",
+      "discipline": "1.000m Marcha FEM. en pista S10",
+      "wind": null,
+      "position": null,
+      "internal_id": 1368
     }
   ]
 }

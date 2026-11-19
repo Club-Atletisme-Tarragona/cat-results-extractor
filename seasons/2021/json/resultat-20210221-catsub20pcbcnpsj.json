@@ -1,18 +1,58 @@
 {
   "event_name": "29è Campionat de Catalunya Sub20 en Pista Coberta - 29è Campionat de Catalunya Sub20 en Pista Coberta",
   "event_date": "21/02/2021",
-  "event_location": "Vilafranca",
-  "total_results": 6,
+  "event_location": "Club                                                 Lic",
+  "total_results": 15,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/2021/02/resultat-20210221-catsub20pcbcnpsj.pdf",
   "results": [
+    {
+      "athlete_name": "Aleix Lago Garbajosa",
+      "athlete_dob": "26/09/2002",
+      "athlete_id": "CT264",
+      "performance": "2:02.75",
+      "discipline": "800m MASC. PC",
+      "wind": null,
+      "position": 6,
+      "internal_id": 660
+    },
+    {
+      "athlete_name": "Pablo Angel Fernandez",
+      "athlete_dob": "26/01/2003",
+      "athlete_id": "CT28510",
+      "performance": "8.55",
+      "discipline": "60m tanques (1,00) MASC. PC",
+      "wind": null,
+      "position": 6,
+      "internal_id": 704
+    },
+    {
+      "athlete_name": "Bernat Verdu Gomez",
+      "athlete_dob": "02/01/2002",
+      "athlete_id": "CT25944",
+      "performance": "8.47",
+      "discipline": "60m tanques (1,00) MASC. PC",
+      "wind": null,
+      "position": 4,
+      "internal_id": 645
+    },
+    {
+      "athlete_name": "Huc Pentinat Llurba",
+      "athlete_dob": "06/04/2002",
+      "athlete_id": "CL85",
+      "performance": "3.80",
+      "discipline": "Perxa MASC. PC",
+      "wind": null,
+      "position": 6,
+      "internal_id": 741
+    },
     {
       "athlete_name": "Edgar Jose Diaz",
       "athlete_dob": "08/04/2002",
       "athlete_id": "CL27846",
       "performance": "5.90",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada MASC. PC",
+      "discipline": "Llargada MASC. PC",
       "wind": null,
+      "position": 8,
       "internal_id": 653
     },
     {
@@ -20,9 +60,9 @@
       "athlete_dob": "08/04/2002",
       "athlete_id": "CL27846",
       "performance": "6.31",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada MASC. PC",
+      "discipline": "Llargada MASC. PC",
       "wind": null,
+      "position": 8,
       "internal_id": 653
     },
     {
@@ -30,9 +70,9 @@
       "athlete_dob": "08/04/2002",
       "athlete_id": "CL27846",
       "performance": "5.87",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada MASC. PC",
+      "discipline": "Llargada MASC. PC",
       "wind": null,
+      "position": 8,
       "internal_id": 653
     },
     {
@@ -40,9 +80,9 @@
       "athlete_dob": "08/04/2002",
       "athlete_id": "CL27846",
       "performance": "5.88",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada MASC. PC",
+      "discipline": "Llargada MASC. PC",
       "wind": null,
+      "position": 8,
       "internal_id": 653
     },
     {
@@ -50,9 +90,9 @@
       "athlete_dob": "08/04/2002",
       "athlete_id": "CL27846",
       "performance": "5.65",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada MASC. PC",
+      "discipline": "Llargada MASC. PC",
       "wind": null,
+      "position": 8,
       "internal_id": 653
     },
     {
@@ -60,10 +100,60 @@
       "athlete_dob": "31/10/2003",
       "athlete_id": "CT371",
       "performance": "8.12",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m FEM. PC",
+      "discipline": "60m FEM. PC",
       "wind": null,
+      "position": 5,
       "internal_id": 701
+    },
+    {
+      "athlete_name": "Laura Yan Sole Barba",
+      "athlete_dob": "31/10/2003",
+      "athlete_id": "CT371",
+      "performance": "26.64",
+      "discipline": "200m FEM. PC",
+      "wind": null,
+      "position": 5,
+      "internal_id": 701
+    },
+    {
+      "athlete_name": "Claudia Mir Casellas",
+      "athlete_dob": "02/08/2003",
+      "athlete_id": "CT152",
+      "performance": "1:02.34",
+      "discipline": "400m FEM. PC",
+      "wind": null,
+      "position": 5,
+      "internal_id": 699
+    },
+    {
+      "athlete_name": "Carla Gonzalez Carrillo",
+      "athlete_dob": "05/06/2003",
+      "athlete_id": "CL29242",
+      "performance": "2:27.29",
+      "discipline": "800m FEM. PC",
+      "wind": null,
+      "position": 3,
+      "internal_id": 698
+    },
+    {
+      "athlete_name": "Claudia Mir Casellas",
+      "athlete_dob": "02/08/2003",
+      "athlete_id": "CT152",
+      "performance": "9.52",
+      "discipline": "60m tanques (0,84) FEM. PC",
+      "wind": null,
+      "position": 6,
+      "internal_id": 699
+    },
+    {
+      "athlete_name": "Maria Falco Cuenca",
+      "athlete_dob": "14/06/2002",
+      "athlete_id": "CT27273",
+      "performance": "1.56",
+      "discipline": "Alçada FEM. PC",
+      "wind": null,
+      "position": 4,
+      "internal_id": 664
     }
   ]
 }

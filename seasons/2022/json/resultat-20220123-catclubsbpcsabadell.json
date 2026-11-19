@@ -1,8 +1,8 @@
 {
   "event_name": "Campionat de Catalunya de Clubs \"B\" Masculins en Pista Coberta - Campionat de Catalunya de Clubs \"B\" Masculins en Pista Coberta",
   "event_date": "23/01/2022",
-  "event_location": "Vilafranca",
-  "total_results": 10,
+  "event_location": "Club                                              Lic",
+  "total_results": 22,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2022/01/resultat-20220123-catclubsbpcsabadell.pdf",
   "results": [
     {
@@ -10,19 +10,99 @@
       "athlete_dob": "08/01/1993",
       "athlete_id": "CL17220",
       "performance": "7.29",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m MASC. PC",
+      "discipline": "60m MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 294
+    },
+    {
+      "athlete_name": "Jan Monserrate Castaño PM",
+      "athlete_dob": "19/12/2001",
+      "athlete_id": "CT26558",
+      "performance": "23.67",
+      "discipline": "200m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 734
+    },
+    {
+      "athlete_name": "Gerard Parera Bodi PM",
+      "athlete_dob": "22/01/2000",
+      "athlete_id": "CL25156",
+      "performance": "0:53.70",
+      "discipline": "400m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 522
+    },
+    {
+      "athlete_name": "Aleix Lago Garbajosa PM",
+      "athlete_dob": "26/09/2002",
+      "athlete_id": "CT264",
+      "performance": "1:54.09",
+      "discipline": "800m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 660
+    },
+    {
+      "athlete_name": "Xavier Ros Borrell",
+      "athlete_dob": "19/05/1998",
+      "athlete_id": "CL22779",
+      "performance": "4:04.40",
+      "discipline": "1.500m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 439
+    },
+    {
+      "athlete_name": "Oscar Lefler Cortes",
+      "athlete_dob": "19/02/2004",
+      "athlete_id": "CL96852",
+      "performance": "9:16.13",
+      "discipline": "3.000m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 758
+    },
+    {
+      "athlete_name": "Pablo Angel Fernandez",
+      "athlete_dob": "26/01/2003",
+      "athlete_id": "CT28510",
+      "performance": "8.61",
+      "discipline": "60m tanques (1,067) MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 704
+    },
+    {
+      "athlete_name": "Victor Jimenez Garcia",
+      "athlete_dob": "25/05/2008",
+      "athlete_id": "CL82981",
+      "performance": "1.50",
+      "discipline": "Alçada MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 958
+    },
+    {
+      "athlete_name": "Huc Pentinat Llurba",
+      "athlete_dob": "06/04/2002",
+      "athlete_id": "CL85",
+      "performance": "3.90",
+      "discipline": "Perxa MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 741
     },
     {
       "athlete_name": "Edgar Jose Diaz",
       "athlete_dob": "08/04/2002",
       "athlete_id": "CL27846",
       "performance": "5.80",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada MASC. PC",
+      "discipline": "Llargada MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 653
     },
     {
@@ -30,9 +110,9 @@
       "athlete_dob": "08/04/2002",
       "athlete_id": "CL27846",
       "performance": "5.71",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada MASC. PC",
+      "discipline": "Llargada MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 653
     },
     {
@@ -40,9 +120,9 @@
       "athlete_dob": "08/04/2002",
       "athlete_id": "CL27846",
       "performance": "5.69",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada MASC. PC",
+      "discipline": "Llargada MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 653
     },
     {
@@ -50,9 +130,9 @@
       "athlete_dob": "06/01/2007",
       "athlete_id": "CT1186",
       "performance": "12.42",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt MASC. PC",
+      "discipline": "Triple Salt MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 899
     },
     {
@@ -60,9 +140,9 @@
       "athlete_dob": "06/01/2007",
       "athlete_id": "CT1186",
       "performance": "12.38",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt MASC. PC",
+      "discipline": "Triple Salt MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 899
     },
     {
@@ -70,9 +150,9 @@
       "athlete_dob": "12/09/1983",
       "athlete_id": "CL11395",
       "performance": "10.42",
-      "discipline": "Pes (7.260 Kg)",
-      "raw_discipline_name": "Pes (7,260kg) MASC. PC",
+      "discipline": "Pes (7,260 Kg) MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 133
     },
     {
@@ -80,9 +160,9 @@
       "athlete_dob": "12/09/1983",
       "athlete_id": "CL11395",
       "performance": "10.46",
-      "discipline": "Pes (7.260 Kg)",
-      "raw_discipline_name": "Pes (7,260kg) MASC. PC",
+      "discipline": "Pes (7,260 Kg) MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 133
     },
     {
@@ -90,9 +170,9 @@
       "athlete_dob": "12/09/1983",
       "athlete_id": "CL11395",
       "performance": "10.60",
-      "discipline": "Pes (7.260 Kg)",
-      "raw_discipline_name": "Pes (7,260kg) MASC. PC",
+      "discipline": "Pes (7,260 Kg) MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 133
     },
     {
@@ -100,10 +180,50 @@
       "athlete_dob": "12/09/1983",
       "athlete_id": "CL11395",
       "performance": "10.25",
-      "discipline": "Pes (7.260 Kg)",
-      "raw_discipline_name": "Pes (7,260kg) MASC. PC",
+      "discipline": "Pes (7,260 Kg) MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 133
+    },
+    {
+      "athlete_name": "Aleix Lago Garbajosa",
+      "athlete_dob": "26/09/2002",
+      "athlete_id": "CT264",
+      "performance": "3:34.92",
+      "discipline": "4x400m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 660
+    },
+    {
+      "athlete_name": "Gerard Parera Bodi",
+      "athlete_dob": "22/01/2000",
+      "athlete_id": "CL25156",
+      "performance": "3:34.92",
+      "discipline": "4x400m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 522
+    },
+    {
+      "athlete_name": "Ricard Prio Roca",
+      "athlete_dob": "12/05/2004",
+      "athlete_id": "CL3014",
+      "performance": "3:34.92",
+      "discipline": "4x400m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 778
+    },
+    {
+      "athlete_name": "Pablo Angel Fernandez",
+      "athlete_dob": "26/01/2003",
+      "athlete_id": "CT28510",
+      "performance": "3:34.92",
+      "discipline": "4x400m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 704
     }
   ]
 }

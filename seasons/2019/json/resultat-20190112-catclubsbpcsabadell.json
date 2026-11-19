@@ -1,8 +1,8 @@
 {
   "event_name": " - Sabadell (Pista Coberta de Catalunya), 12 enero 2019",
   "event_date": "12/01/2019",
-  "event_location": "Vilafranca",
-  "total_results": 7,
+  "event_location": "Club                                             Lic",
+  "total_results": 40,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20190112-catclubsbpcsabadell.pdf",
   "results": [
     {
@@ -10,19 +10,89 @@
       "athlete_dob": "23/02/2000",
       "athlete_id": "CT24373",
       "performance": "7.24",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m MASC. PC",
+      "discipline": "60m MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 510
+    },
+    {
+      "athlete_name": "Albert Casado Vieco",
+      "athlete_dob": "16/09/2000",
+      "athlete_id": "CL26565",
+      "performance": "24.59",
+      "discipline": "200m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 596
+    },
+    {
+      "athlete_name": "24 Gerard Parera Bodi JM 5",
+      "athlete_dob": "22/01/2000",
+      "athlete_id": "CT25156",
+      "performance": "NP",
+      "discipline": "400m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 522
+    },
+    {
+      "athlete_name": "Aleix Lago Garbajosa",
+      "athlete_dob": "26/09/2002",
+      "athlete_id": "CL27847",
+      "performance": "2:05.79",
+      "discipline": "800m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 660
+    },
+    {
+      "athlete_name": "Xavier Ros Borrell PM",
+      "athlete_dob": "19/05/1998",
+      "athlete_id": "CL22779",
+      "performance": "4:18.48",
+      "discipline": "1.500m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 439
+    },
+    {
+      "athlete_name": "Juan Carlos Herrera Alcaide",
+      "athlete_dob": "31/01/1973",
+      "athlete_id": "CT25152",
+      "performance": "10:24.48",
+      "discipline": "3.000m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 518
+    },
+    {
+      "athlete_name": "Jan Sans Riola PM",
+      "athlete_dob": "23/10/1998",
+      "athlete_id": "CT22783",
+      "performance": "8.32",
+      "discipline": "60m tanques MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 435
+    },
+    {
+      "athlete_name": "Nil Pinyol Mateu",
+      "athlete_dob": "26/05/2003",
+      "athlete_id": "CL29252",
+      "performance": "1.40",
+      "discipline": "Alçada MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 714
     },
     {
       "athlete_name": "Edgar Jose Diaz",
       "athlete_dob": "08/04/2002",
       "athlete_id": "CL27846",
       "performance": "5.57",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada MASC. PC",
+      "discipline": "Llargada MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 653
     },
     {
@@ -30,9 +100,9 @@
       "athlete_dob": "08/04/2002",
       "athlete_id": "CL27846",
       "performance": "5.48",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada MASC. PC",
+      "discipline": "Llargada MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 653
     },
     {
@@ -40,29 +110,219 @@
       "athlete_dob": "08/04/2002",
       "athlete_id": "CL27846",
       "performance": "5.51",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada MASC. PC",
+      "discipline": "Llargada MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 653
+    },
+    {
+      "athlete_name": "Bernat Verdu Gomez",
+      "athlete_dob": "02/01/2002",
+      "athlete_id": "CT25944",
+      "performance": "13.08",
+      "discipline": "Triple Salt MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 645
+    },
+    {
+      "athlete_name": "Bernat Verdu Gomez",
+      "athlete_dob": "02/01/2002",
+      "athlete_id": "CT25944",
+      "performance": "13.06",
+      "discipline": "Triple Salt MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 645
+    },
+    {
+      "athlete_name": "Adria Serres Pardines",
+      "athlete_dob": "12/09/1983",
+      "athlete_id": "CL11395",
+      "performance": "10.51",
+      "discipline": "Pes MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 133
+    },
+    {
+      "athlete_name": "Adria Serres Pardines",
+      "athlete_dob": "12/09/1983",
+      "athlete_id": "CL11395",
+      "performance": "10.91",
+      "discipline": "Pes MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 133
+    },
+    {
+      "athlete_name": "Adria Serres Pardines",
+      "athlete_dob": "12/09/1983",
+      "athlete_id": "CL11395",
+      "performance": "10.83",
+      "discipline": "Pes MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 133
+    },
+    {
+      "athlete_name": "Jordi Puig Argudo",
+      "athlete_dob": "11/11/1972",
+      "athlete_id": "CT27029",
+      "performance": "3:40.17",
+      "discipline": "4x400m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 585
+    },
+    {
+      "athlete_name": "Guifre De Los Rios Blanch",
+      "athlete_dob": "09/06/2003",
+      "athlete_id": "CL29249",
+      "performance": "3:40.17",
+      "discipline": "4x400m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 697
+    },
+    {
+      "athlete_name": "Bernat Verdu Gomez",
+      "athlete_dob": "02/01/2002",
+      "athlete_id": "CT25944",
+      "performance": "3:40.17",
+      "discipline": "4x400m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 645
+    },
+    {
+      "athlete_name": "Alex Cruset Bosch",
+      "athlete_dob": "01/01/2001",
+      "athlete_id": "CT25705",
+      "performance": "3:40.17",
+      "discipline": "4x400m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 597
+    },
+    {
+      "athlete_name": "Martina Pomes Cabello",
+      "athlete_dob": "02/02/2005",
+      "athlete_id": "CL71737",
+      "performance": "8.10",
+      "discipline": "60m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 810
+    },
+    {
+      "athlete_name": "Laura Yan Sole Barba",
+      "athlete_dob": "31/10/2003",
+      "athlete_id": "CL29246",
+      "performance": "27.18",
+      "discipline": "200m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 701
+    },
+    {
+      "athlete_name": "Mireia Lopez Urbano",
+      "athlete_dob": "07/12/2000",
+      "athlete_id": "CT23556",
+      "performance": "1:01.31",
+      "discipline": "400m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 527
+    },
+    {
+      "athlete_name": "Patricia Amador Peris",
+      "athlete_dob": "18/02/1980",
+      "athlete_id": "CT28190",
+      "performance": "2:27.48",
+      "discipline": "800m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 644
+    },
+    {
+      "athlete_name": "Maria Buscail Brianso",
+      "athlete_dob": "15/12/2000",
+      "athlete_id": "CL25158",
+      "performance": "5:26.03",
+      "discipline": "1.500m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 520
+    },
+    {
+      "athlete_name": "Alexandra Rofes Palacios",
+      "athlete_dob": "27/09/2004",
+      "athlete_id": "CL90523",
+      "performance": "11:26.56",
+      "discipline": "3.000m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 731
+    },
+    {
+      "athlete_name": "Alicia Vazquez Domingo PF",
+      "athlete_dob": "09/10/1999",
+      "athlete_id": "CT23992",
+      "performance": "9.51",
+      "discipline": "60m tanques FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 472
+    },
+    {
+      "athlete_name": "Maria Falco Cuenca",
+      "athlete_dob": "14/06/2002",
+      "athlete_id": "CT27273",
+      "performance": "1.54",
+      "discipline": "Alçada FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 664
     },
     {
       "athlete_name": "Ariadna Alonso Del Campo",
       "athlete_dob": "06/09/2003",
       "athlete_id": "CL29241",
       "performance": "2.40",
-      "discipline": "Perxa",
-      "raw_discipline_name": "Perxa FEM. PC",
+      "discipline": "Perxa FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 703
+    },
+    {
+      "athlete_name": "Mar Vazquez Domingo",
+      "athlete_dob": "17/03/2002",
+      "athlete_id": "CL27856",
+      "performance": "3.98",
+      "discipline": "Llargada FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 642
+    },
+    {
+      "athlete_name": "Mar Vazquez Domingo",
+      "athlete_dob": "17/03/2002",
+      "athlete_id": "CL27856",
+      "performance": "4.57",
+      "discipline": "Llargada FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 642
     },
     {
       "athlete_name": "Laurine Elisa Marimon Fernandez",
       "athlete_dob": "17/09/2004",
       "athlete_id": "CT28409",
       "performance": "11.57",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt FEM. PC",
+      "discipline": "Triple Salt FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 737
     },
     {
@@ -70,10 +330,80 @@
       "athlete_dob": "17/09/2004",
       "athlete_id": "CT28409",
       "performance": "11.26",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt FEM. PC",
+      "discipline": "Triple Salt FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 737
+    },
+    {
+      "athlete_name": "Marina Tibau Sendra",
+      "athlete_dob": "06/08/1995",
+      "athlete_id": "CL20392",
+      "performance": "9.79",
+      "discipline": "Pes FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 359
+    },
+    {
+      "athlete_name": "Marina Tibau Sendra",
+      "athlete_dob": "06/08/1995",
+      "athlete_id": "CL20392",
+      "performance": "9.99",
+      "discipline": "Pes FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 359
+    },
+    {
+      "athlete_name": "Marina Tibau Sendra",
+      "athlete_dob": "06/08/1995",
+      "athlete_id": "CL20392",
+      "performance": "10.17",
+      "discipline": "Pes FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 359
+    },
+    {
+      "athlete_name": "Patricia Amador Peris",
+      "athlete_dob": "18/02/1980",
+      "athlete_id": "CT28190",
+      "performance": "4:22.97",
+      "discipline": "4x400m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 644
+    },
+    {
+      "athlete_name": "Nerea Lago Garbajosa",
+      "athlete_dob": "15/05/2000",
+      "athlete_id": "CL25157",
+      "performance": "4:22.97",
+      "discipline": "4x400m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 534
+    },
+    {
+      "athlete_name": "Laura Yan Sole Barba",
+      "athlete_dob": "31/10/2003",
+      "athlete_id": "CL29246",
+      "performance": "4:22.97",
+      "discipline": "4x400m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 701
+    },
+    {
+      "athlete_name": "Alicia Vazquez Domingo",
+      "athlete_dob": "09/10/1999",
+      "athlete_id": "CT23992",
+      "performance": "4:22.97",
+      "discipline": "4x400m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 472
     }
   ]
 }

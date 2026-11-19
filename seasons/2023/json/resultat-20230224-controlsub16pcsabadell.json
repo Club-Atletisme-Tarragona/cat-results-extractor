@@ -1,8 +1,8 @@
 {
   "event_name": "Control Pista Coberta Sub16 - Control Pista Coberta Sub16",
   "event_date": "24/02/2023",
-  "event_location": "Sabadell",
-  "total_results": 4,
+  "event_location": "Club                                             Lic",
+  "total_results": 17,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2023/02/resultat-20230224-controlsub16pcsabadell.pdf",
   "results": [
     {
@@ -10,9 +10,9 @@
       "athlete_dob": "25/05/2008",
       "athlete_id": "CT1465",
       "performance": "7.44",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m MASC. PC",
+      "discipline": "60m MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 958
     },
     {
@@ -20,30 +20,160 @@
       "athlete_dob": "08/03/2008",
       "athlete_id": "CL82978",
       "performance": "7.91",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m MASC. PC",
+      "discipline": "60m MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": null
+    },
+    {
+      "athlete_name": "Victor Jimenez Garcia",
+      "athlete_dob": "25/05/2008",
+      "athlete_id": "CT1465",
+      "performance": "0:38.31",
+      "discipline": "300m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 958
+    },
+    {
+      "athlete_name": "Guillem Ferran Jimenez",
+      "athlete_dob": "08/03/2008",
+      "athlete_id": "CL82978",
+      "performance": "0:40.67",
+      "discipline": "300m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Matias Hernandez Sanchez",
+      "athlete_dob": "20/12/2008",
+      "athlete_id": "CL94387",
+      "performance": "1:38.77",
+      "discipline": "600m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 999
+    },
+    {
+      "athlete_name": "Matias Hernandez Sanchez",
+      "athlete_dob": "20/12/2008",
+      "athlete_id": "CL94387",
+      "performance": "9.28",
+      "discipline": "60m tanques (0,91) MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 999
+    },
+    {
+      "athlete_name": "Olivia Ruiz Barbera",
+      "athlete_dob": "24/04/2009",
+      "athlete_id": "CL3439",
+      "performance": "8.51",
+      "discipline": "60m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1018
     },
     {
       "athlete_name": "Laia Cabrero Perez",
       "athlete_dob": "10/10/2008",
       "athlete_id": "CL94529",
       "performance": "9.21",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m FEM. PC",
+      "discipline": "60m FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 954
+    },
+    {
+      "athlete_name": "Mireia Redondo Mendoza",
+      "athlete_dob": "10/06/2008",
+      "athlete_id": "CT1467",
+      "performance": "0:41.80",
+      "discipline": "300m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 957
+    },
+    {
+      "athlete_name": "Olivia Ruiz Barbera",
+      "athlete_dob": "24/04/2009",
+      "athlete_id": "CL3439",
+      "performance": "0:45.36",
+      "discipline": "300m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1018
+    },
+    {
+      "athlete_name": "Ainoa Rodriguez Murillo",
+      "athlete_dob": "17/01/2008",
+      "athlete_id": "CT1619",
+      "performance": "0:49.63",
+      "discipline": "300m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 965
     },
     {
       "athlete_name": "Laia Cabrero Perez",
       "athlete_dob": "10/10/2008",
       "athlete_id": "CL94529",
       "performance": "0:50.42",
-      "discipline": "300 metres llisos",
-      "raw_discipline_name": "300m FEM. PC",
+      "discipline": "300m FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 954
+    },
+    {
+      "athlete_name": "Iris Garrido Garcia",
+      "athlete_dob": "15/12/2008",
+      "athlete_id": "CT1617",
+      "performance": "1:43.10",
+      "discipline": "600m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 982
+    },
+    {
+      "athlete_name": "96 (t) Clara Ortiz De Landazuri Ontoso 10",
+      "athlete_dob": "04/12/2009",
+      "athlete_id": "CL86467",
+      "performance": "NP",
+      "discipline": "1.000m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1022
+    },
+    {
+      "athlete_name": "Carla Borras Verges-tapiro",
+      "athlete_dob": "19/11/2008",
+      "athlete_id": "CL90097",
+      "performance": "10.82",
+      "discipline": "60m tanques (0,762) FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 951
+    },
+    {
+      "athlete_name": "Lucia Echevarria Parafita",
+      "athlete_dob": "08/12/2008",
+      "athlete_id": "CL90745",
+      "performance": "1.53",
+      "discipline": "Alçada FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 987
+    },
+    {
+      "athlete_name": "Ainoa Rodriguez Murillo",
+      "athlete_dob": "17/01/2008",
+      "athlete_id": "CT1619",
+      "performance": "1.25",
+      "discipline": "Alçada FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 965
     }
   ]
 }

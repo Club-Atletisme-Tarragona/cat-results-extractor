@@ -2,17 +2,87 @@
   "event_name": "Controls Sub10 - Sub12",
   "event_date": "30/04/2022",
   "event_location": "Vilanova i La Geltrú",
-  "total_results": 1,
+  "total_results": 8,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2022/05/resultat-20220430-controlsub1012vilanova.pdf",
   "results": [
+    {
+      "athlete_name": "557 (t) Biel Amores Llaverias 6",
+      "athlete_dob": "07/10/2013",
+      "athlete_id": "CL7615",
+      "performance": "NP",
+      "discipline": "60m MASC. AL SUB 10",
+      "wind": null,
+      "position": null,
+      "internal_id": 1357
+    },
+    {
+      "athlete_name": "Kilian Borreda Cervello",
+      "athlete_dob": "09/05/2013",
+      "athlete_id": "CL4060",
+      "performance": "3.07",
+      "discipline": "Longitud MASC. AL SUB 10",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Kilian Borreda Cervello",
+      "athlete_dob": "09/05/2013",
+      "athlete_id": "CL4060",
+      "performance": "3.03",
+      "discipline": "Longitud MASC. AL SUB 10",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Kilian Borreda Cervello",
+      "athlete_dob": "09/05/2013",
+      "athlete_id": "CL4060",
+      "performance": "3.36",
+      "discipline": "Longitud MASC. AL SUB 10",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Aleix Gomez Miro",
+      "athlete_dob": "06/01/2013",
+      "athlete_id": "CL4345",
+      "performance": "2.58",
+      "discipline": "Longitud MASC. AL SUB 10",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "560 (t) Berta Barber Gonzalez 6",
+      "athlete_dob": "22/01/2013",
+      "athlete_id": "CL7610",
+      "performance": "NP",
+      "discipline": "1.000m FEM. AL SUB 10",
+      "wind": null,
+      "position": null,
+      "internal_id": 1359
+    },
+    {
+      "athlete_name": "562 (t) India Martin Cuadrado 6",
+      "athlete_dob": "04/04/2014",
+      "athlete_id": "CL7608",
+      "performance": "NP",
+      "discipline": "1.000m FEM. AL SUB 10",
+      "wind": null,
+      "position": null,
+      "internal_id": 1332
+    },
     {
       "athlete_name": "Alba Esteve Hostalot",
       "athlete_dob": "10/11/2013",
       "athlete_id": "CL4396",
       "performance": "1.97",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud FEM. AL SUB 10",
+      "discipline": "Longitud FEM. AL SUB 10",
       "wind": null,
+      "position": null,
       "internal_id": 1335
     }
   ]

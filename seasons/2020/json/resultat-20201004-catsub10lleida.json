@@ -2,17 +2,67 @@
   "event_name": "Campionat de Catalunya Sub10",
   "event_date": "04/10/2020",
   "event_location": "Lleida",
-  "total_results": 1,
+  "total_results": 6,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20201004-catsub10lleida.pdf",
   "results": [
+    {
+      "athlete_name": "Marçal Sinfreu Niubo",
+      "athlete_dob": "03/03/2011",
+      "athlete_id": "CL94414",
+      "performance": "1.13",
+      "discipline": "Alçada SUB10 MASC. AL",
+      "wind": null,
+      "position": 3,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Nil Pamies Miro",
+      "athlete_dob": "25/03/2012",
+      "athlete_id": "CL905",
+      "performance": "1.13",
+      "discipline": "Alçada SUB10 MASC. AL",
+      "wind": null,
+      "position": 4,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Irene Jimenez Garcia BF 3 7 ARGENT",
+      "athlete_dob": "26/08/2011",
+      "athlete_id": "CL94390",
+      "performance": "10.01",
+      "discipline": "1.000m Marxa SUB10 MASC. en pista",
+      "wind": null,
+      "position": 2,
+      "internal_id": 1326
+    },
+    {
+      "athlete_name": "Maria Martin Cuadrado",
+      "athlete_dob": "01/05/2012",
+      "athlete_id": "CL1089",
+      "performance": "10.89",
+      "discipline": "1.000m Marxa SUB10 MASC. en pista",
+      "wind": null,
+      "position": 6,
+      "internal_id": 1330
+    },
+    {
+      "athlete_name": "Irene Jimenez Garcia",
+      "athlete_dob": "26/08/2011",
+      "athlete_id": "CL94390",
+      "performance": "3.13",
+      "discipline": "Llargada SUB10 FEM. AL",
+      "wind": null,
+      "position": 5,
+      "internal_id": 1326
+    },
     {
       "athlete_name": "Irene De La Rosa Fortuny",
       "athlete_dob": "07/03/2011",
       "athlete_id": "CL94381",
       "performance": "6:30.19",
-      "discipline": "1000 metres marxa",
-      "raw_discipline_name": "1.000m Marxa SUB10 FEM. en pista",
+      "discipline": "1.000m Marxa SUB10 FEM. en pista",
       "wind": null,
+      "position": 6,
       "internal_id": null
     }
   ]

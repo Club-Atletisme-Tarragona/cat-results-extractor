@@ -1,8 +1,8 @@
 {
   "event_name": "Campionat de Catalunya Absolut en Pista Coberta - Campionat de Catalunya Absolut en Pista Coberta",
   "event_date": "31/01/2021",
-  "event_location": "Vilafranca",
-  "total_results": 3,
+  "event_location": "Barcelona - Palau Sant Jordi",
+  "total_results": 22,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/2021/01/resultat-20210131-catabsolutsub23pcbcnpsj.pdf",
   "results": [
     {
@@ -10,19 +10,49 @@
       "athlete_dob": "23/10/1998",
       "athlete_id": "CT22783",
       "performance": "6.95",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m MASC. PC",
+      "discipline": "60m MASC. PC",
       "wind": null,
+      "position": 4,
       "internal_id": 435
+    },
+    {
+      "athlete_name": "Xavier Ros Borrell",
+      "athlete_dob": "19/05/1998",
+      "athlete_id": "CL22779",
+      "performance": "4:04.44",
+      "discipline": "1.500m MASC. PC",
+      "wind": null,
+      "position": 4,
+      "internal_id": 439
+    },
+    {
+      "athlete_name": "Claudia Mir Casellas",
+      "athlete_dob": "02/08/2003",
+      "athlete_id": "CT152",
+      "performance": "9.53",
+      "discipline": "60m tanques (0,84) FEM. PC",
+      "wind": null,
+      "position": 5,
+      "internal_id": 699
+    },
+    {
+      "athlete_name": "Mireia Lopez Urbano PF",
+      "athlete_dob": "07/12/2000",
+      "athlete_id": "CT23556",
+      "performance": "8.98",
+      "discipline": "60m tanques (0,84) FEM. PC",
+      "wind": null,
+      "position": 5,
+      "internal_id": 527
     },
     {
       "athlete_name": "Nuria Caballero Pacheco",
       "athlete_dob": "09/10/2001",
       "athlete_id": "CT25812",
       "performance": "1.65",
-      "discipline": "Alçada",
-      "raw_discipline_name": "Alçada FEM. PC",
+      "discipline": "Alçada FEM. PC",
       "wind": null,
+      "position": 2,
       "internal_id": 753
     },
     {
@@ -30,10 +60,170 @@
       "athlete_dob": "14/06/2002",
       "athlete_id": "CT27273",
       "performance": "1.50",
-      "discipline": "Alçada",
-      "raw_discipline_name": "Alçada FEM. PC",
+      "discipline": "Alçada FEM. PC",
       "wind": null,
+      "position": 8,
       "internal_id": 664
+    },
+    {
+      "athlete_name": "Nuria Caballero Pacheco",
+      "athlete_dob": "09/10/2001",
+      "athlete_id": "CT25812",
+      "performance": "5.53",
+      "discipline": "Llargada FEM. PC",
+      "wind": null,
+      "position": 4,
+      "internal_id": 753
+    },
+    {
+      "athlete_name": "Nuria Caballero Pacheco",
+      "athlete_dob": "09/10/2001",
+      "athlete_id": "CT25812",
+      "performance": "5.58",
+      "discipline": "Llargada FEM. PC",
+      "wind": null,
+      "position": 4,
+      "internal_id": 753
+    },
+    {
+      "athlete_name": "Nuria Caballero Pacheco",
+      "athlete_dob": "09/10/2001",
+      "athlete_id": "CT25812",
+      "performance": "5.54",
+      "discipline": "Llargada FEM. PC",
+      "wind": null,
+      "position": 4,
+      "internal_id": 753
+    },
+    {
+      "athlete_name": "Laurine Elisa Marimon Fernandez",
+      "athlete_dob": "17/09/2004",
+      "athlete_id": "CT28409",
+      "performance": "5.30",
+      "discipline": "Llargada FEM. PC",
+      "wind": null,
+      "position": 8,
+      "internal_id": 737
+    },
+    {
+      "athlete_name": "Laurine Elisa Marimon Fernandez",
+      "athlete_dob": "17/09/2004",
+      "athlete_id": "CT28409",
+      "performance": "5.34",
+      "discipline": "Llargada FEM. PC",
+      "wind": null,
+      "position": 8,
+      "internal_id": 737
+    },
+    {
+      "athlete_name": "Laurine Elisa Marimon Fernandez",
+      "athlete_dob": "17/09/2004",
+      "athlete_id": "CT28409",
+      "performance": "5.40",
+      "discipline": "Llargada FEM. PC",
+      "wind": null,
+      "position": 8,
+      "internal_id": 737
+    },
+    {
+      "athlete_name": "Marina Tibau Sendra",
+      "athlete_dob": "06/08/1995",
+      "athlete_id": "CL20392",
+      "performance": "10.41",
+      "discipline": "Pes (4 Kg) FEM. PC",
+      "wind": null,
+      "position": 4,
+      "internal_id": 359
+    },
+    {
+      "athlete_name": "Marina Tibau Sendra",
+      "athlete_dob": "06/08/1995",
+      "athlete_id": "CL20392",
+      "performance": "10.12",
+      "discipline": "Pes (4 Kg) FEM. PC",
+      "wind": null,
+      "position": 4,
+      "internal_id": 359
+    },
+    {
+      "athlete_name": "Marina Tibau Sendra",
+      "athlete_dob": "06/08/1995",
+      "athlete_id": "CL20392",
+      "performance": "9.90",
+      "discipline": "Pes (4 Kg) FEM. PC",
+      "wind": null,
+      "position": 4,
+      "internal_id": 359
+    },
+    {
+      "athlete_name": "Marina Tibau Sendra",
+      "athlete_dob": "06/08/1995",
+      "athlete_id": "CL20392",
+      "performance": "9.94",
+      "discipline": "Pes (4 Kg) FEM. PC",
+      "wind": null,
+      "position": 4,
+      "internal_id": 359
+    },
+    {
+      "athlete_name": "Marina Tibau Sendra",
+      "athlete_dob": "06/08/1995",
+      "athlete_id": "CL20392",
+      "performance": "9.89",
+      "discipline": "Pes (4 Kg) FEM. PC",
+      "wind": null,
+      "position": 4,
+      "internal_id": 359
+    },
+    {
+      "athlete_name": "Mireia Lopez Urbano PF 2 7 PLATA",
+      "athlete_dob": "07/12/2000",
+      "athlete_id": "CT23556",
+      "performance": "8.98",
+      "discipline": "60m tanques (0,84) FEM. PC",
+      "wind": null,
+      "position": 2,
+      "internal_id": 527
+    },
+    {
+      "athlete_name": "Nuria Caballero Pacheco PF 8 OR",
+      "athlete_dob": "09/10/2001",
+      "athlete_id": "CT25812",
+      "performance": "1.65",
+      "discipline": "Alçada FEM. PC",
+      "wind": null,
+      "position": 1,
+      "internal_id": 753
+    },
+    {
+      "athlete_name": "Nuria Caballero Pacheco PF 7 PLATA",
+      "athlete_dob": "09/10/2001",
+      "athlete_id": "CT25812",
+      "performance": "5.53",
+      "discipline": "Llargada FEM. PC",
+      "wind": null,
+      "position": 2,
+      "internal_id": 753
+    },
+    {
+      "athlete_name": "Nuria Caballero Pacheco PF 7 PLATA",
+      "athlete_dob": "09/10/2001",
+      "athlete_id": "CT25812",
+      "performance": "5.58",
+      "discipline": "Llargada FEM. PC",
+      "wind": null,
+      "position": 2,
+      "internal_id": 753
+    },
+    {
+      "athlete_name": "Nuria Caballero Pacheco PF 7 PLATA",
+      "athlete_dob": "09/10/2001",
+      "athlete_id": "CT25812",
+      "performance": "5.54",
+      "discipline": "Llargada FEM. PC",
+      "wind": null,
+      "position": 2,
+      "internal_id": 753
     }
   ]
 }

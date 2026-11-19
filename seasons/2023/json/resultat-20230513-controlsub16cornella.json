@@ -2,17 +2,107 @@
   "event_name": "Control sub16",
   "event_date": "13/05/2023",
   "event_location": "Cornellà de Llobregat",
-  "total_results": 5,
+  "total_results": 15,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2023/05/resultat-20230513-controlsub16cornella.pdf",
   "results": [
+    {
+      "athlete_name": "Olivia Ruiz Barbera",
+      "athlete_dob": "24/04/2009",
+      "athlete_id": "CL3439",
+      "performance": "13.39",
+      "discipline": "Javelina (600g) SUB16 MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 1018
+    },
+    {
+      "athlete_name": "Olivia Ruiz Barbera",
+      "athlete_dob": "24/04/2009",
+      "athlete_id": "CL3439",
+      "performance": "44.67",
+      "discipline": "Javelina (600g) SUB16 MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 1018
+    },
+    {
+      "athlete_name": "Laia Cabrero Perez",
+      "athlete_dob": "10/10/2008",
+      "athlete_id": "CL94529",
+      "performance": "14.25",
+      "discipline": "Javelina (600g) SUB16 MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 954
+    },
+    {
+      "athlete_name": "Laia Cabrero Perez",
+      "athlete_dob": "10/10/2008",
+      "athlete_id": "CL94529",
+      "performance": "47.64",
+      "discipline": "Javelina (600g) SUB16 MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 954
+    },
+    {
+      "athlete_name": "Carla Borras Verges-tapiro",
+      "athlete_dob": "19/11/2008",
+      "athlete_id": "CL90097",
+      "performance": "44.88",
+      "discipline": "Javelina (600g) SUB16 MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 951
+    },
+    {
+      "athlete_name": "Noemi Gonzalez Carrillo",
+      "athlete_dob": "04/04/2009",
+      "athlete_id": "CL86462",
+      "performance": "45.81",
+      "discipline": "Javelina (600g) SUB16 MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 1030
+    },
+    {
+      "athlete_name": "Clara Ortiz De Landazuri Ontoso",
+      "athlete_dob": "04/12/2009",
+      "athlete_id": "CT2195",
+      "performance": "09.64",
+      "discipline": "Javelina (600g) SUB16 MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 1022
+    },
+    {
+      "athlete_name": "Natalia Lara Girbes",
+      "athlete_dob": "13/04/2009",
+      "athlete_id": "CL90847",
+      "performance": "34.30",
+      "discipline": "Javelina (600g) SUB16 MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 836
+    },
+    {
+      "athlete_name": "Iris Garrido Garcia",
+      "athlete_dob": "15/12/2008",
+      "athlete_id": "CT1617",
+      "performance": "50.12",
+      "discipline": "Javelina (600g) SUB16 MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 982
+    },
     {
       "athlete_name": "Ainoa Rodriguez Murillo",
       "athlete_dob": "17/01/2008",
       "athlete_id": "CT1619",
       "performance": "9.99",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt SUB16 FEM.",
+      "discipline": "Triple Salt SUB16 FEM.",
       "wind": "-0.4",
+      "position": null,
       "internal_id": 965
     },
     {
@@ -20,9 +110,9 @@
       "athlete_dob": "17/01/2008",
       "athlete_id": "CT1619",
       "performance": "10.04",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt SUB16 FEM.",
+      "discipline": "Triple Salt SUB16 FEM.",
       "wind": "+0.4",
+      "position": null,
       "internal_id": 965
     },
     {
@@ -30,9 +120,9 @@
       "athlete_dob": "17/01/2008",
       "athlete_id": "CT1619",
       "performance": "9.98",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt SUB16 FEM.",
+      "discipline": "Triple Salt SUB16 FEM.",
       "wind": "+1.1",
+      "position": null,
       "internal_id": 965
     },
     {
@@ -40,9 +130,9 @@
       "athlete_dob": "17/01/2008",
       "athlete_id": "CT1619",
       "performance": "9.73",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt SUB16 FEM.",
+      "discipline": "Triple Salt SUB16 FEM.",
       "wind": "-0.2",
+      "position": null,
       "internal_id": 965
     },
     {
@@ -50,9 +140,19 @@
       "athlete_dob": "17/01/2008",
       "athlete_id": "CT1619",
       "performance": "9.91",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt SUB16 FEM.",
+      "discipline": "Triple Salt SUB16 FEM.",
       "wind": "+1.3",
+      "position": null,
+      "internal_id": 965
+    },
+    {
+      "athlete_name": "Ainoa Rodriguez Murillo",
+      "athlete_dob": "17/01/2008",
+      "athlete_id": "CT1619",
+      "performance": "20.56",
+      "discipline": "Jabalina (500g) SUB16 FEM.",
+      "wind": null,
+      "position": null,
       "internal_id": 965
     }
   ]

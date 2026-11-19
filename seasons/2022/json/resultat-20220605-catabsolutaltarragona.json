@@ -1,18 +1,128 @@
 {
   "event_name": "Campionat de Catalunya Absolut - Tarragona (Estadi Natalia Rodríguez), 5 junio 2022",
   "event_date": "05/06/2022",
-  "event_location": "Tarragona",
-  "total_results": 2,
+  "event_location": "Club                                                    Lic",
+  "total_results": 24,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2022/06/resultat-20220605-catabsolutaltarragona.pdf",
   "results": [
+    {
+      "athlete_name": "Aleix Lago Garbajosa PM",
+      "athlete_dob": "26/09/2002",
+      "athlete_id": "CT264",
+      "performance": "1:53.11",
+      "discipline": "800m MASC. AL",
+      "wind": null,
+      "position": 2,
+      "internal_id": 660
+    },
+    {
+      "athlete_name": "Xavier Ros Borrell",
+      "athlete_dob": "19/05/1998",
+      "athlete_id": "CL22779",
+      "performance": "1:55.31",
+      "discipline": "800m MASC. AL",
+      "wind": null,
+      "position": 9,
+      "internal_id": 439
+    },
+    {
+      "athlete_name": "Pablo Angel Fernandez",
+      "athlete_dob": "26/01/2003",
+      "athlete_id": "CT28510",
+      "performance": "15.49",
+      "discipline": "110m tanques (1,067) MASC. AL",
+      "wind": "-1.0",
+      "position": null,
+      "internal_id": 704
+    },
+    {
+      "athlete_name": "Pablo Angel Fernandez",
+      "athlete_dob": "26/01/2003",
+      "athlete_id": "CT28510",
+      "performance": "15.53",
+      "discipline": "110m tanques (1,067) MASC. AL",
+      "wind": "+1.0",
+      "position": null,
+      "internal_id": 704
+    },
+    {
+      "athlete_name": "Enric Ramon Guim Domenech",
+      "athlete_dob": "20/07/1973",
+      "athlete_id": "CL29660",
+      "performance": "29.49",
+      "discipline": "Disc (2 Kg) MASC.",
+      "wind": null,
+      "position": 12,
+      "internal_id": 18
+    },
+    {
+      "athlete_name": "Enric Ramon Guim Domenech",
+      "athlete_dob": "20/07/1973",
+      "athlete_id": "CL29660",
+      "performance": "26.50",
+      "discipline": "Disc (2 Kg) MASC.",
+      "wind": null,
+      "position": 12,
+      "internal_id": 18
+    },
+    {
+      "athlete_name": "Sira Bo Calaf PF",
+      "athlete_dob": "19/03/2001",
+      "athlete_id": "CT712",
+      "performance": "4:46.01",
+      "discipline": "1.500m FEM. AL",
+      "wind": null,
+      "position": 7,
+      "internal_id": 599
+    },
+    {
+      "athlete_name": "Mireia Lopez Urbano PF",
+      "athlete_dob": "07/12/2000",
+      "athlete_id": "CT23556",
+      "performance": "14.46",
+      "discipline": "100m tanques (0,84) FEM. AL",
+      "wind": "-2.0",
+      "position": null,
+      "internal_id": 527
+    },
+    {
+      "athlete_name": "Mireia Lopez Urbano PF",
+      "athlete_dob": "07/12/2000",
+      "athlete_id": "CT23556",
+      "performance": "13.85",
+      "discipline": "100m tanques (0,84) FEM. AL",
+      "wind": "+1.3",
+      "position": null,
+      "internal_id": 527
+    },
+    {
+      "athlete_name": "Claudia Mir Casellas",
+      "athlete_dob": "02/08/2003",
+      "athlete_id": "CT152",
+      "performance": "1:04.16",
+      "discipline": "400m tanques (0,762) FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 699
+    },
+    {
+      "athlete_name": "Claudia Mir Casellas",
+      "athlete_dob": "02/08/2003",
+      "athlete_id": "CT152",
+      "performance": "1:04.07",
+      "discipline": "400m tanques (0,762) FEM. AL",
+      "wind": null,
+      "position": 3,
+      "internal_id": 699
+    },
     {
       "athlete_name": "Nuria Caballero Pacheco",
       "athlete_dob": "09/10/2001",
       "athlete_id": "CT25812",
       "performance": "1.75",
-      "discipline": "Alçada",
-      "raw_discipline_name": "Alçada FEM. AL",
+      "discipline": "Alçada FEM. AL",
       "wind": null,
+      "position": 2,
       "internal_id": 753
     },
     {
@@ -20,10 +130,120 @@
       "athlete_dob": "14/06/2002",
       "athlete_id": "CT27273",
       "performance": "1.62",
-      "discipline": "Alçada",
-      "raw_discipline_name": "Alçada FEM. AL",
+      "discipline": "Alçada FEM. AL",
       "wind": null,
+      "position": 7,
       "internal_id": 664
+    },
+    {
+      "athlete_name": "Maria Alvarez Aunos",
+      "athlete_dob": "14/08/1996",
+      "athlete_id": "CL20448",
+      "performance": "1.55",
+      "discipline": "Alçada FEM. AL",
+      "wind": null,
+      "position": 10,
+      "internal_id": 346
+    },
+    {
+      "athlete_name": "Marina Tibau Sendra",
+      "athlete_dob": "06/08/1995",
+      "athlete_id": "CT20392",
+      "performance": "10.75",
+      "discipline": "Pes (4 Kg) FEM. AL",
+      "wind": null,
+      "position": 4,
+      "internal_id": 359
+    },
+    {
+      "athlete_name": "Marina Tibau Sendra",
+      "athlete_dob": "06/08/1995",
+      "athlete_id": "CT20392",
+      "performance": "9.78",
+      "discipline": "Pes (4 Kg) FEM. AL",
+      "wind": null,
+      "position": 4,
+      "internal_id": 359
+    },
+    {
+      "athlete_name": "Marina Tibau Sendra",
+      "athlete_dob": "06/08/1995",
+      "athlete_id": "CT20392",
+      "performance": "10.61",
+      "discipline": "Pes (4 Kg) FEM. AL",
+      "wind": null,
+      "position": 4,
+      "internal_id": 359
+    },
+    {
+      "athlete_name": "Marina Tibau Sendra",
+      "athlete_dob": "06/08/1995",
+      "athlete_id": "CT20392",
+      "performance": "10.46",
+      "discipline": "Pes (4 Kg) FEM. AL",
+      "wind": null,
+      "position": 4,
+      "internal_id": 359
+    },
+    {
+      "athlete_name": "Marina Tibau Sendra",
+      "athlete_dob": "06/08/1995",
+      "athlete_id": "CT20392",
+      "performance": "9.75",
+      "discipline": "Pes (4 Kg) FEM. AL",
+      "wind": null,
+      "position": 4,
+      "internal_id": 359
+    },
+    {
+      "athlete_name": "Marina Tibau Sendra",
+      "athlete_dob": "06/08/1995",
+      "athlete_id": "CT20392",
+      "performance": "8.97",
+      "discipline": "Pes (4 Kg) FEM. AL",
+      "wind": null,
+      "position": 4,
+      "internal_id": 359
+    },
+    {
+      "athlete_name": "Barbara Pintado Duch",
+      "athlete_dob": "29/04/1985",
+      "athlete_id": "CT13219",
+      "performance": "34.18",
+      "discipline": "Disc (1 Kg) FEM.",
+      "wind": null,
+      "position": 10,
+      "internal_id": 159
+    },
+    {
+      "athlete_name": "Barbara Pintado Duch",
+      "athlete_dob": "29/04/1985",
+      "athlete_id": "CT13219",
+      "performance": "33.71",
+      "discipline": "Disc (1 Kg) FEM.",
+      "wind": null,
+      "position": 10,
+      "internal_id": 159
+    },
+    {
+      "athlete_name": "Barbara Pintado Duch",
+      "athlete_dob": "29/04/1985",
+      "athlete_id": "CT13219",
+      "performance": "34.24",
+      "discipline": "Disc (1 Kg) FEM.",
+      "wind": null,
+      "position": 10,
+      "internal_id": 159
+    },
+    {
+      "athlete_name": "Julia Suarez Piza",
+      "athlete_dob": "05/11/2006",
+      "athlete_id": "CT29377",
+      "performance": "22:53.49",
+      "discipline": "5.000m Marxa FEM. en pista",
+      "wind": null,
+      "position": 2,
+      "internal_id": 839
     }
   ]
 }

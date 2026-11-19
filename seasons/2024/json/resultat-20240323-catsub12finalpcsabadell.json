@@ -1,18 +1,58 @@
 {
   "event_name": "Final Campionat de Catalunya sub12 en Pista Coberta - Final Campionat de Catalunya sub12 en Pista Coberta",
   "event_date": "23/03/2024",
-  "event_location": "Sabadell",
-  "total_results": 5,
+  "event_location": "Atletisme de Catalunya Carme Valero",
+  "total_results": 15,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2024/03/resultat-20240323-catsub12finalpcsabadell.pdf",
   "results": [
     {
       "athlete_name": "Kilian Borreda Cervello",
       "athlete_dob": "09/05/2013",
       "athlete_id": "CL4060",
-      "performance": "4.13",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada MASC. PC",
+      "performance": "8.88",
+      "discipline": "60m MASC. PC",
       "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Kilian Borreda Cervello",
+      "athlete_dob": "09/05/2013",
+      "athlete_id": "CL4060",
+      "performance": "8.75",
+      "discipline": "60m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Pol Diaz Cristino",
+      "athlete_dob": "03/02/2014",
+      "athlete_id": "CT2082",
+      "performance": "1:56.19",
+      "discipline": "600m MASC. PC",
+      "wind": null,
+      "position": 10,
+      "internal_id": 1333
+    },
+    {
+      "athlete_name": "Kilian Pedrol Espinosa 6.5",
+      "athlete_dob": "24/02/2013",
+      "athlete_id": "CL7676",
+      "performance": "1.35",
+      "discipline": "Alçada MASC. PC",
+      "wind": null,
+      "position": 4,
+      "internal_id": 1361
+    },
+    {
+      "athlete_name": "Kilian Borreda Cervello",
+      "athlete_dob": "09/05/2013",
+      "athlete_id": "CL4060",
+      "performance": "4.13",
+      "discipline": "Llargada MASC. PC",
+      "wind": null,
+      "position": 2,
       "internal_id": null
     },
     {
@@ -20,9 +60,9 @@
       "athlete_dob": "09/05/2013",
       "athlete_id": "CL4060",
       "performance": "4.31",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada MASC. PC",
+      "discipline": "Llargada MASC. PC",
       "wind": null,
+      "position": 2,
       "internal_id": null
     },
     {
@@ -30,9 +70,9 @@
       "athlete_dob": "09/05/2013",
       "athlete_id": "CL4060",
       "performance": "4.08",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada MASC. PC",
+      "discipline": "Llargada MASC. PC",
       "wind": null,
+      "position": 2,
       "internal_id": null
     },
     {
@@ -40,9 +80,9 @@
       "athlete_dob": "09/05/2013",
       "athlete_id": "CL4060",
       "performance": "4.37",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada MASC. PC",
+      "discipline": "Llargada MASC. PC",
       "wind": null,
+      "position": 2,
       "internal_id": null
     },
     {
@@ -50,10 +90,70 @@
       "athlete_dob": "09/05/2013",
       "athlete_id": "CL4060",
       "performance": "4.17",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada MASC. PC",
+      "discipline": "Llargada MASC. PC",
       "wind": null,
+      "position": 2,
       "internal_id": null
+    },
+    {
+      "athlete_name": "Kilian Pedrol Espinosa",
+      "athlete_dob": "24/02/2013",
+      "athlete_id": "CL7676",
+      "performance": "7.36",
+      "discipline": "Pes (2 Kg) MASC. PC",
+      "wind": null,
+      "position": 10,
+      "internal_id": 1361
+    },
+    {
+      "athlete_name": "(t) Vivian Onyemaekwu",
+      "athlete_dob": "14/10/2013",
+      "athlete_id": "CL6109",
+      "performance": "9.29",
+      "discipline": "60m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Berta Barber Gonzalez",
+      "athlete_dob": "22/01/2013",
+      "athlete_id": "CL7610",
+      "performance": "7:45.25",
+      "discipline": "2.000m FEM. PC",
+      "wind": null,
+      "position": 7,
+      "internal_id": 1359
+    },
+    {
+      "athlete_name": "Celia Vega Martinez",
+      "athlete_dob": "03/01/2013",
+      "athlete_id": "CL7621",
+      "performance": "11.61",
+      "discipline": "60m tanques (0,50) FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1329
+    },
+    {
+      "athlete_name": "(t) Vivian Onyemaekwu",
+      "athlete_dob": "14/10/2013",
+      "athlete_id": "CL6109",
+      "performance": "11.07",
+      "discipline": "60m tanques (0,50) FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Berta Barber Gonzalez",
+      "athlete_dob": "22/01/2013",
+      "athlete_id": "CL7610",
+      "performance": "1.45",
+      "discipline": "Perxa FEM. PC",
+      "wind": null,
+      "position": 10,
+      "internal_id": 1359
     }
   ]
 }

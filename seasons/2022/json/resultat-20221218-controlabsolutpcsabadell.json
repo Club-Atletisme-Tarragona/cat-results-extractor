@@ -1,28 +1,78 @@
 {
   "event_name": "Control Absolut en Pista Coberta - Control Absolut en Pista Coberta",
   "event_date": "18/12/2022",
-  "event_location": "Sabadell",
-  "total_results": 3,
+  "event_location": "Club                                             Lic",
+  "total_results": 8,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2022/12/resultat-20221218-controlabsolutpcsabadell.pdf",
   "results": [
+    {
+      "athlete_name": "Marc Jose Diaz",
+      "athlete_dob": "08/01/1993",
+      "athlete_id": "CL17220",
+      "performance": "9.65",
+      "discipline": "60m tanques (1,067) MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 294
+    },
+    {
+      "athlete_name": "Pablo Angel Fernandez",
+      "athlete_dob": "26/01/2003",
+      "athlete_id": "CT28510",
+      "performance": "8.63",
+      "discipline": "60m tanques (1,067) MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 704
+    },
+    {
+      "athlete_name": "359 Mireia Lopez Urbano 6",
+      "athlete_dob": "07/12/2000",
+      "athlete_id": "CT23556",
+      "performance": "NP",
+      "discipline": "60m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 527
+    },
     {
       "athlete_name": "Maria Antonietta Salazar",
       "athlete_dob": "03/01/2006",
       "athlete_id": "CL9177",
       "performance": "8.04",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m FEM. PC",
+      "discipline": "60m FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 897
+    },
+    {
+      "athlete_name": "Mireia Lopez Urbano",
+      "athlete_dob": "07/12/2000",
+      "athlete_id": "CT23556",
+      "performance": "8.60",
+      "discipline": "60m tanques (0,84) FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 527
+    },
+    {
+      "athlete_name": "Mireia Lopez Urbano",
+      "athlete_dob": "07/12/2000",
+      "athlete_id": "CT23556",
+      "performance": "8.69",
+      "discipline": "60m tanques (0,84) FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 527
     },
     {
       "athlete_name": "Natalia Sanchez Alvarez",
       "athlete_dob": "28/05/2005",
       "athlete_id": "CT29768",
       "performance": "4.59",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada FEM. PC",
+      "discipline": "Llargada FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 796
     },
     {
@@ -30,9 +80,9 @@
       "athlete_dob": "28/05/2005",
       "athlete_id": "CT29768",
       "performance": "4.80",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada FEM. PC",
+      "discipline": "Llargada FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 796
     }
   ]

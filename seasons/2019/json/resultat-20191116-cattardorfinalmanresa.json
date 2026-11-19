@@ -2,17 +2,67 @@
   "event_name": "Campionat Catalunya de Tardor FINAL",
   "event_date": "16/11/2019",
   "event_location": "Manresa",
-  "total_results": 5,
+  "total_results": 19,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20191116-cattardorfinalmanresa.pdf",
   "results": [
     {
       "athlete_name": "Oscar Bartolome Vazquez",
       "athlete_dob": "25/04/2004",
       "athlete_id": "CL71686",
-      "performance": "26.88",
-      "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "Disc (1kg) SUB16 MASC.",
+      "performance": "9.75",
+      "discipline": "Pes (4 Kg) SUB16 MASC. AL",
       "wind": null,
+      "position": 5,
+      "internal_id": 738
+    },
+    {
+      "athlete_name": "Oscar Bartolome Vazquez",
+      "athlete_dob": "25/04/2004",
+      "athlete_id": "CL71686",
+      "performance": "10.07",
+      "discipline": "Pes (4 Kg) SUB16 MASC. AL",
+      "wind": null,
+      "position": 5,
+      "internal_id": 738
+    },
+    {
+      "athlete_name": "Oscar Bartolome Vazquez",
+      "athlete_dob": "25/04/2004",
+      "athlete_id": "CL71686",
+      "performance": "10.09",
+      "discipline": "Pes (4 Kg) SUB16 MASC. AL",
+      "wind": null,
+      "position": 5,
+      "internal_id": 738
+    },
+    {
+      "athlete_name": "Oscar Bartolome Vazquez",
+      "athlete_dob": "25/04/2004",
+      "athlete_id": "CL71686",
+      "performance": "8.47",
+      "discipline": "Pes (4 Kg) SUB16 MASC. AL",
+      "wind": null,
+      "position": 5,
+      "internal_id": 738
+    },
+    {
+      "athlete_name": "Oscar Bartolome Vazquez",
+      "athlete_dob": "25/04/2004",
+      "athlete_id": "CL71686",
+      "performance": "9.88",
+      "discipline": "Pes (4 Kg) SUB16 MASC. AL",
+      "wind": null,
+      "position": 5,
+      "internal_id": 738
+    },
+    {
+      "athlete_name": "Oscar Bartolome Vazquez",
+      "athlete_dob": "25/04/2004",
+      "athlete_id": "CL71686",
+      "performance": "26.88",
+      "discipline": "Disc (1 Kg) SUB16 MASC.",
+      "wind": null,
+      "position": 6,
       "internal_id": 738
     },
     {
@@ -20,9 +70,9 @@
       "athlete_dob": "25/04/2004",
       "athlete_id": "CL71686",
       "performance": "26.59",
-      "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "Disc (1kg) SUB16 MASC.",
+      "discipline": "Disc (1 Kg) SUB16 MASC.",
       "wind": null,
+      "position": 6,
       "internal_id": 738
     },
     {
@@ -30,9 +80,9 @@
       "athlete_dob": "25/04/2004",
       "athlete_id": "CL71686",
       "performance": "27.89",
-      "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "Disc (1kg) SUB16 MASC.",
+      "discipline": "Disc (1 Kg) SUB16 MASC.",
       "wind": null,
+      "position": 6,
       "internal_id": 738
     },
     {
@@ -40,9 +90,9 @@
       "athlete_dob": "25/04/2004",
       "athlete_id": "CL71686",
       "performance": "32.06",
-      "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "Disc (1kg) SUB16 MASC.",
+      "discipline": "Disc (1 Kg) SUB16 MASC.",
       "wind": null,
+      "position": 6,
       "internal_id": 738
     },
     {
@@ -50,10 +100,100 @@
       "athlete_dob": "25/04/2004",
       "athlete_id": "CL71686",
       "performance": "30.88",
-      "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "Disc (1kg) SUB16 MASC.",
+      "discipline": "Disc (1 Kg) SUB16 MASC.",
       "wind": null,
+      "position": 6,
       "internal_id": 738
+    },
+    {
+      "athlete_name": "Oriol Aldave Fores",
+      "athlete_dob": "23/08/2004",
+      "athlete_id": "CL77303",
+      "performance": "26.89",
+      "discipline": "Martell (4 Kg) SUB16 MASC.",
+      "wind": null,
+      "position": 6,
+      "internal_id": 746
+    },
+    {
+      "athlete_name": "Oriol Aldave Fores",
+      "athlete_dob": "23/08/2004",
+      "athlete_id": "CL77303",
+      "performance": "25.32",
+      "discipline": "Martell (4 Kg) SUB16 MASC.",
+      "wind": null,
+      "position": 6,
+      "internal_id": 746
+    },
+    {
+      "athlete_name": "Oriol Aldave Fores",
+      "athlete_dob": "23/08/2004",
+      "athlete_id": "CL77303",
+      "performance": "24.05",
+      "discipline": "Martell (4 Kg) SUB16 MASC.",
+      "wind": null,
+      "position": 6,
+      "internal_id": 746
+    },
+    {
+      "athlete_name": "Oriol Aldave Fores",
+      "athlete_dob": "23/08/2004",
+      "athlete_id": "CL77303",
+      "performance": "26.26",
+      "discipline": "Javelina (600g) SUB16 MASC.",
+      "wind": null,
+      "position": 4,
+      "internal_id": 746
+    },
+    {
+      "athlete_name": "Oriol Aldave Fores",
+      "athlete_dob": "23/08/2004",
+      "athlete_id": "CL77303",
+      "performance": "26.46",
+      "discipline": "Javelina (600g) SUB16 MASC.",
+      "wind": null,
+      "position": 4,
+      "internal_id": 746
+    },
+    {
+      "athlete_name": "Oriol Aldave Fores",
+      "athlete_dob": "23/08/2004",
+      "athlete_id": "CL77303",
+      "performance": "29.47",
+      "discipline": "Javelina (600g) SUB16 MASC.",
+      "wind": null,
+      "position": 4,
+      "internal_id": 746
+    },
+    {
+      "athlete_name": "Oriol Aldave Fores",
+      "athlete_dob": "23/08/2004",
+      "athlete_id": "CL77303",
+      "performance": "30.64",
+      "discipline": "Javelina (600g) SUB16 MASC.",
+      "wind": null,
+      "position": 4,
+      "internal_id": 746
+    },
+    {
+      "athlete_name": "Oriol Aldave Fores",
+      "athlete_dob": "23/08/2004",
+      "athlete_id": "CL77303",
+      "performance": "28.42",
+      "discipline": "Javelina (600g) SUB16 MASC.",
+      "wind": null,
+      "position": 4,
+      "internal_id": 746
+    },
+    {
+      "athlete_name": "Oriol Aldave Fores",
+      "athlete_dob": "23/08/2004",
+      "athlete_id": "CL77303",
+      "performance": "26.89",
+      "discipline": "Javelina (600g) SUB16 MASC.",
+      "wind": null,
+      "position": 4,
+      "internal_id": 746
     }
   ]
 }

@@ -1,8 +1,8 @@
 {
   "event_name": "Control Absolut en pista coberta (2a Jornada) - Sabadell (Pista Coberta de Catalunya), 23 diciembre 2018",
   "event_date": "23/12/2018",
-  "event_location": "Sabadell",
-  "total_results": 2,
+  "event_location": "Club                                             Lic",
+  "total_results": 10,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20181223-controlabsolutpcsabadell.pdf",
   "results": [
     {
@@ -13,6 +13,7 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 416
     },
     {
@@ -23,7 +24,96 @@
       "discipline": "400 metres llisos",
       "raw_discipline_name": "400m MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 660
+    },
+    {
+      "athlete_name": "Xavier Ros Borrell",
+      "athlete_dob": "19/05/1998",
+      "athlete_id": "CL22779",
+      "performance": "4:21.66",
+      "discipline": "1500 metres llisos",
+      "raw_discipline_name": "1.500m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 439
+    },
+    {
+      "athlete_name": "Jan Sans Riola PM",
+      "athlete_dob": "23/10/1998",
+      "athlete_id": "CT22783",
+      "performance": "8.31",
+      "discipline": "60 metres tanques (1.067)",
+      "raw_discipline_name": "60m tanques (1,067) MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 435
+    },
+    {
+      "athlete_name": "Jan Sans Riola",
+      "athlete_dob": "23/10/1998",
+      "athlete_id": "CT22783",
+      "performance": "8.37",
+      "discipline": "60 metres tanques (1.067)",
+      "raw_discipline_name": "60m tanques (1,067) MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 435
+    },
+    {
+      "athlete_name": "Alicia Vazquez Domingo PF",
+      "athlete_dob": "09/10/1999",
+      "athlete_id": "CT23992",
+      "performance": "9.47",
+      "discipline": "60 metres tanques (0.84)",
+      "raw_discipline_name": "60m tanques (0,84) FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 472
+    },
+    {
+      "athlete_name": "Alicia Vazquez Domingo",
+      "athlete_dob": "09/10/1999",
+      "athlete_id": "CT23992",
+      "performance": "9.59",
+      "discipline": "60 metres tanques (0.84)",
+      "raw_discipline_name": "60m tanques (0,84) FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 472
+    },
+    {
+      "athlete_name": "Alicia Vazquez Domingo",
+      "athlete_dob": "09/10/1999",
+      "athlete_id": "CT23992",
+      "performance": "5.18",
+      "discipline": "Llargada",
+      "raw_discipline_name": "Llargada FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 472
+    },
+    {
+      "athlete_name": "Alicia Vazquez Domingo",
+      "athlete_dob": "09/10/1999",
+      "athlete_id": "CT23992",
+      "performance": "5.40",
+      "discipline": "Llargada",
+      "raw_discipline_name": "Llargada FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 472
+    },
+    {
+      "athlete_name": "Alicia Vazquez Domingo",
+      "athlete_dob": "09/10/1999",
+      "athlete_id": "CT23992",
+      "performance": "5.13",
+      "discipline": "Llargada",
+      "raw_discipline_name": "Llargada FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 472
     }
   ]
 }

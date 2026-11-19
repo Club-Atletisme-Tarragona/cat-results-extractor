@@ -1,38 +1,198 @@
 {
   "event_name": "Campionat de Catalunya de Clubs \"B\" en Pista Coberta - Campionat de Catalunya de Clubs \"B\" en Pista Coberta",
   "event_date": "07/01/2024",
-  "event_location": "Vilafranca",
-  "total_results": 6,
+  "event_location": "Club                                            Lic",
+  "total_results": 26,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2024/01/resultat-20240107-catclubsbpcsabadell.pdf",
   "results": [
     {
-      "athlete_name": "Llorenç Porquer Guzman",
-      "athlete_dob": "14/04/2002",
-      "athlete_id": "CL14695",
-      "performance": "17.05",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m MASC. PC",
+      "athlete_name": "Dean Francis Byrne",
+      "athlete_dob": "26/05/1995",
+      "athlete_id": "CT25845",
+      "performance": "23.44",
+      "discipline": "200m MASC. PC",
       "wind": null,
-      "internal_id": 997
+      "position": null,
+      "internal_id": 988
+    },
+    {
+      "athlete_name": "Joan Martorell Escobar",
+      "athlete_dob": "22/03/2007",
+      "athlete_id": "CT1651",
+      "performance": "0:53.59",
+      "discipline": "400m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 914
+    },
+    {
+      "athlete_name": "Pol Aixala Guiu",
+      "athlete_dob": "04/12/2004",
+      "athlete_id": "CT438",
+      "performance": "1:59.25",
+      "discipline": "800m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 733
+    },
+    {
+      "athlete_name": "Alejandro Baceiredo Ramos",
+      "athlete_dob": "15/04/2000",
+      "athlete_id": "CL14560",
+      "performance": "4:23.56",
+      "discipline": "1.500m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 996
+    },
+    {
+      "athlete_name": "Alvaro Baceiredo Ramos",
+      "athlete_dob": "12/04/1994",
+      "athlete_id": "CL14565",
+      "performance": "9:17.08",
+      "discipline": "3.000m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 994
+    },
+    {
+      "athlete_name": "Isaac Aguilo Carrilo",
+      "athlete_dob": "15/01/2007",
+      "athlete_id": "CT2372",
+      "performance": "10.28",
+      "discipline": "60m tanques (1,067) MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 921
     },
     {
       "athlete_name": "Unai Ortiz De Landazuri Ontoso",
       "athlete_dob": "28/06/2007",
       "athlete_id": "CT1640",
       "performance": "1.75",
-      "discipline": "Alçada",
-      "raw_discipline_name": "Alçada MASC. PC",
+      "discipline": "Alçada MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 908
+    },
+    {
+      "athlete_name": "Lluc Subiros Brasero",
+      "athlete_dob": "06/01/2007",
+      "athlete_id": "CT1186",
+      "performance": "4.10",
+      "discipline": "Perxa MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 899
+    },
+    {
+      "athlete_name": "Jan Monserrate Castaño",
+      "athlete_dob": "19/12/2001",
+      "athlete_id": "CT26558",
+      "performance": "5.39",
+      "discipline": "Llargada MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 734
+    },
+    {
+      "athlete_name": "Jan Monserrate Castaño",
+      "athlete_dob": "19/12/2001",
+      "athlete_id": "CT26558",
+      "performance": "5.45",
+      "discipline": "Llargada MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 734
+    },
+    {
+      "athlete_name": "Jan Monserrate Castaño",
+      "athlete_dob": "19/12/2001",
+      "athlete_id": "CT26558",
+      "performance": "5.63",
+      "discipline": "Llargada MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 734
+    },
+    {
+      "athlete_name": "Jan Monserrate Castaño",
+      "athlete_dob": "19/12/2001",
+      "athlete_id": "CT26558",
+      "performance": "5.57",
+      "discipline": "Llargada MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 734
+    },
+    {
+      "athlete_name": "Jan Monserrate Castaño",
+      "athlete_dob": "19/12/2001",
+      "athlete_id": "CT26558",
+      "performance": "5.54",
+      "discipline": "Llargada MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 734
+    },
+    {
+      "athlete_name": "Jan Monserrate Castaño",
+      "athlete_dob": "19/12/2001",
+      "athlete_id": "CT26558",
+      "performance": "5.56",
+      "discipline": "Llargada MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 734
+    },
+    {
+      "athlete_name": "Nil Pinyol Mateu",
+      "athlete_dob": "26/05/2003",
+      "athlete_id": "CT2302",
+      "performance": "11.25",
+      "discipline": "Triple Salt MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 714
+    },
+    {
+      "athlete_name": "Nil Pinyol Mateu",
+      "athlete_dob": "26/05/2003",
+      "athlete_id": "CT2302",
+      "performance": "11.00",
+      "discipline": "Triple Salt MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 714
+    },
+    {
+      "athlete_name": "Nil Pinyol Mateu",
+      "athlete_dob": "26/05/2003",
+      "athlete_id": "CT2302",
+      "performance": "10.89",
+      "discipline": "Triple Salt MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 714
+    },
+    {
+      "athlete_name": "Nil Pinyol Mateu",
+      "athlete_dob": "26/05/2003",
+      "athlete_id": "CT2302",
+      "performance": "11.12",
+      "discipline": "Triple Salt MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 714
     },
     {
       "athlete_name": "Didac Exposito Garcia",
       "athlete_dob": "04/08/1973",
       "athlete_id": "CT3967",
       "performance": "10.50",
-      "discipline": "Pes (7.260 Kg)",
-      "raw_discipline_name": "Pes (7,260kg) MASC. PC",
+      "discipline": "Pes (7,260 Kg) MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 44
     },
     {
@@ -40,9 +200,9 @@
       "athlete_dob": "04/08/1973",
       "athlete_id": "CT3967",
       "performance": "10.98",
-      "discipline": "Pes (7.260 Kg)",
-      "raw_discipline_name": "Pes (7,260kg) MASC. PC",
+      "discipline": "Pes (7,260 Kg) MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 44
     },
     {
@@ -50,9 +210,9 @@
       "athlete_dob": "04/08/1973",
       "athlete_id": "CT3967",
       "performance": "11.09",
-      "discipline": "Pes (7.260 Kg)",
-      "raw_discipline_name": "Pes (7,260kg) MASC. PC",
+      "discipline": "Pes (7,260 Kg) MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 44
     },
     {
@@ -60,10 +220,50 @@
       "athlete_dob": "04/08/1973",
       "athlete_id": "CT3967",
       "performance": "11.06",
-      "discipline": "Pes (7.260 Kg)",
-      "raw_discipline_name": "Pes (7,260kg) MASC. PC",
+      "discipline": "Pes (7,260 Kg) MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 44
+    },
+    {
+      "athlete_name": "Pol Aixala Guiu",
+      "athlete_dob": "04/12/2004",
+      "athlete_id": "CT438",
+      "performance": "3:31.65",
+      "discipline": "4x400m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 733
+    },
+    {
+      "athlete_name": "Dean Francis Byrne",
+      "athlete_dob": "26/05/1995",
+      "athlete_id": "CT25845",
+      "performance": "3:31.65",
+      "discipline": "4x400m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 988
+    },
+    {
+      "athlete_name": "Joan Martorell Escobar",
+      "athlete_dob": "22/03/2007",
+      "athlete_id": "CT1651",
+      "performance": "3:31.65",
+      "discipline": "4x400m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 914
+    },
+    {
+      "athlete_name": "Ricard Prio Roca",
+      "athlete_dob": "12/05/2004",
+      "athlete_id": "CT2371",
+      "performance": "3:31.65",
+      "discipline": "4x400m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 778
     }
   ]
 }

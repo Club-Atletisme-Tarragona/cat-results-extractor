@@ -1,18 +1,28 @@
 {
   "event_name": " - Pista coberta de Catalunya, 3 febrero 2024",
   "event_date": "03/02/2024",
-  "event_location": "Sabadell",
-  "total_results": 2,
+  "event_location": "Pista coberta de Catalunya",
+  "total_results": 6,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2024/02/resultat-20240203-trofeusabadellpc.pdf",
   "results": [
+    {
+      "athlete_name": "Kilian Pedrol Espinosa",
+      "athlete_dob": "24/02/2013",
+      "athlete_id": "CL7676",
+      "performance": "1.26",
+      "discipline": "Altura SUB12 MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1361
+    },
     {
       "athlete_name": "Berta Barber Gonzalez",
       "athlete_dob": "22/01/2013",
       "athlete_id": "CL7610",
       "performance": "05.01",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salto SUB14 MASC. PC",
+      "discipline": "Triple Salto SUB14 MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 1359
     },
     {
@@ -20,9 +30,39 @@
       "athlete_dob": "04/04/2014",
       "athlete_id": "CL7608",
       "performance": "15.56",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salto SUB14 MASC. PC",
+      "discipline": "Triple Salto SUB14 MASC. PC",
       "wind": null,
+      "position": null,
+      "internal_id": 1332
+    },
+    {
+      "athlete_name": "Berta Barber Gonzalez",
+      "athlete_dob": "22/01/2013",
+      "athlete_id": "CL7610",
+      "performance": "1.10",
+      "discipline": "Altura SUB12 FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1359
+    },
+    {
+      "athlete_name": "Alba Esteve Hostalot",
+      "athlete_dob": "10/11/2013",
+      "athlete_id": "CL4396",
+      "performance": "1.00",
+      "discipline": "Altura SUB12 FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1335
+    },
+    {
+      "athlete_name": "India Martin Cuadrado",
+      "athlete_dob": "04/04/2014",
+      "athlete_id": "CL7608",
+      "performance": "1.00",
+      "discipline": "Altura SUB12 FEM. PC",
+      "wind": null,
+      "position": null,
       "internal_id": 1332
     }
   ]

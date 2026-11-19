@@ -1,18 +1,28 @@
 {
   "event_name": "Jornada Prèvia Campionat de Catalunya Sub10 - Gavà - Estadi Municipal La Bóbila, 1 junio 2024",
   "event_date": "01/06/2024",
-  "event_location": "Gavà",
-  "total_results": 12,
+  "event_location": "Gavà - Estadi Municipal La Bóbila",
+  "total_results": 18,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2024/06/resultat-20240601-catsub10previagava.pdf",
   "results": [
+    {
+      "athlete_name": "Jose Angel Masia Urzua",
+      "athlete_dob": "25/02/2015",
+      "athlete_id": "CL15467",
+      "performance": "1.01",
+      "discipline": "Alçada SUB10 MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1389
+    },
     {
       "athlete_name": "Blai Lligadas Turon",
       "athlete_dob": "11/03/2015",
       "athlete_id": "CL11069",
       "performance": "3.33",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada SUB10 MASC. AL",
+      "discipline": "Llargada SUB10 MASC. AL",
       "wind": null,
+      "position": null,
       "internal_id": 1338
     },
     {
@@ -20,9 +30,9 @@
       "athlete_dob": "15/02/2015",
       "athlete_id": "CL11075",
       "performance": "3.16",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada SUB10 MASC. AL",
+      "discipline": "Llargada SUB10 MASC. AL",
       "wind": null,
+      "position": null,
       "internal_id": 1350
     },
     {
@@ -30,9 +40,9 @@
       "athlete_dob": "25/02/2015",
       "athlete_id": "CL15467",
       "performance": "20.95",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Pes (2kg) SUB10 MASC. AL",
+      "discipline": "Pes (2 Kg) SUB10 MASC. AL",
       "wind": null,
+      "position": null,
       "internal_id": 1389
     },
     {
@@ -40,9 +50,9 @@
       "athlete_dob": "25/02/2015",
       "athlete_id": "CL15467",
       "performance": "21.52",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Pes (2kg) SUB10 MASC. AL",
+      "discipline": "Pes (2 Kg) SUB10 MASC. AL",
       "wind": null,
+      "position": null,
       "internal_id": 1389
     },
     {
@@ -50,9 +60,9 @@
       "athlete_dob": "25/02/2015",
       "athlete_id": "CL15467",
       "performance": "22.84",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Pes (2kg) SUB10 MASC. AL",
+      "discipline": "Pes (2 Kg) SUB10 MASC. AL",
       "wind": null,
+      "position": null,
       "internal_id": 1389
     },
     {
@@ -60,9 +70,9 @@
       "athlete_dob": "09/01/2015",
       "athlete_id": "CL14903",
       "performance": "22.57",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Pes (2kg) SUB10 MASC. AL",
+      "discipline": "Pes (2 Kg) SUB10 MASC. AL",
       "wind": null,
+      "position": null,
       "internal_id": 1377
     },
     {
@@ -70,9 +80,9 @@
       "athlete_dob": "09/01/2015",
       "athlete_id": "CL14903",
       "performance": "18.95",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Pes (2kg) SUB10 MASC. AL",
+      "discipline": "Pes (2 Kg) SUB10 MASC. AL",
       "wind": null,
+      "position": null,
       "internal_id": 1377
     },
     {
@@ -80,19 +90,49 @@
       "athlete_dob": "15/02/2015",
       "athlete_id": "CL11075",
       "performance": "6:27.80",
-      "discipline": "1000 metres marxa",
-      "raw_discipline_name": "1.000m Marxa SUB10 MASC.",
+      "discipline": "1.000m Marxa SUB10 MASC.",
       "wind": null,
+      "position": null,
       "internal_id": 1350
+    },
+    {
+      "athlete_name": "Montserrat Marques Cruz",
+      "athlete_dob": "27/01/2015",
+      "athlete_id": "CL11596",
+      "performance": "10.13",
+      "discipline": "1.000m Marxa SUB10 MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 1374
+    },
+    {
+      "athlete_name": "Julia Muste Santiago",
+      "athlete_dob": "30/09/2015",
+      "athlete_id": "CL14892",
+      "performance": "10.37",
+      "discipline": "1.000m Marxa SUB10 MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 1382
+    },
+    {
+      "athlete_name": "Sara Lopez Garcia",
+      "athlete_dob": "19/01/2015",
+      "athlete_id": "CL11066",
+      "performance": "10.28",
+      "discipline": "1.000m Marxa SUB10 MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 1354
     },
     {
       "athlete_name": "Noa Pascual Prats",
       "athlete_dob": "27/02/2015",
       "athlete_id": "CL10462",
       "performance": "3:59.19",
-      "discipline": "1000 metres marxa",
-      "raw_discipline_name": "1.000m Marxa SUB10 MASC.",
+      "discipline": "1.000m Marxa SUB10 MASC.",
       "wind": null,
+      "position": null,
       "internal_id": 1380
     },
     {
@@ -100,9 +140,9 @@
       "athlete_dob": "27/02/2015",
       "athlete_id": "CL10462",
       "performance": "4.45",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Pes (2kg) SUB10 FEM AL",
+      "discipline": "Pes (2 Kg) SUB10 FEM AL",
       "wind": null,
+      "position": null,
       "internal_id": 1380
     },
     {
@@ -110,9 +150,9 @@
       "athlete_dob": "27/02/2015",
       "athlete_id": "CL10462",
       "performance": "4.12",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Pes (2kg) SUB10 FEM AL",
+      "discipline": "Pes (2 Kg) SUB10 FEM AL",
       "wind": null,
+      "position": null,
       "internal_id": 1380
     },
     {
@@ -120,10 +160,30 @@
       "athlete_dob": "27/02/2015",
       "athlete_id": "CL10462",
       "performance": "4.06",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Pes (2kg) SUB10 FEM AL",
+      "discipline": "Pes (2 Kg) SUB10 FEM AL",
       "wind": null,
+      "position": null,
       "internal_id": 1380
+    },
+    {
+      "athlete_name": "Montserrat Marques Cruz",
+      "athlete_dob": "27/01/2015",
+      "athlete_id": "CL11596",
+      "performance": "6:22.93",
+      "discipline": "1.000m Marxa SUB10 FEM.",
+      "wind": null,
+      "position": null,
+      "internal_id": 1374
+    },
+    {
+      "athlete_name": "Ada Feliu Lorca",
+      "athlete_dob": "07/05/2016",
+      "athlete_id": "CL15054",
+      "performance": "6:58.68",
+      "discipline": "1.000m Marxa SUB10 FEM.",
+      "wind": null,
+      "position": null,
+      "internal_id": 1368
     }
   ]
 }

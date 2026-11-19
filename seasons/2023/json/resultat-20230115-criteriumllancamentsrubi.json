@@ -1,18 +1,78 @@
 {
   "event_name": " - Estadio Municipal Can Rose-Rubi, 15 enero 2023",
   "event_date": "15/01/2023",
-  "event_location": "Barcelona",
-  "total_results": 7,
+  "event_location": "Estadio Municipal Can Rose-Rubi",
+  "total_results": 13,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2023/01/resultat-20230115-criteriumllancamentsrubi.pdf",
   "results": [
+    {
+      "athlete_name": "Francesc Ferrando Molina",
+      "athlete_dob": "28/05/1987",
+      "athlete_id": "CL10892",
+      "performance": "27.30",
+      "discipline": "Martillo (7,260 Kg) MASC. SENIOR MASCULINO",
+      "wind": null,
+      "position": null,
+      "internal_id": 900
+    },
+    {
+      "athlete_name": "Francesc Ferrando Molina",
+      "athlete_dob": "28/05/1987",
+      "athlete_id": "CL10892",
+      "performance": "15.85",
+      "discipline": "Martillo (7,260 Kg) MASC. SENIOR MASCULINO",
+      "wind": null,
+      "position": null,
+      "internal_id": 900
+    },
+    {
+      "athlete_name": "Francesc Ferrando Molina",
+      "athlete_dob": "28/05/1987",
+      "athlete_id": "CL10892",
+      "performance": "33.29",
+      "discipline": "Martillo (7,260 Kg) MASC. SENIOR MASCULINO",
+      "wind": null,
+      "position": null,
+      "internal_id": 900
+    },
+    {
+      "athlete_name": "Francesc Ferrando Molina",
+      "athlete_dob": "28/05/1987",
+      "athlete_id": "CL10892",
+      "performance": "31.56",
+      "discipline": "Martillo (7,260 Kg) MASC. SENIOR MASCULINO",
+      "wind": null,
+      "position": null,
+      "internal_id": 900
+    },
+    {
+      "athlete_name": "Francesc Ferrando Molina",
+      "athlete_dob": "28/05/1987",
+      "athlete_id": "CL10892",
+      "performance": "31.85",
+      "discipline": "Martillo (7,260 Kg) MASC. SENIOR MASCULINO",
+      "wind": null,
+      "position": null,
+      "internal_id": 900
+    },
+    {
+      "athlete_name": "Francesc Ferrando Molina",
+      "athlete_dob": "28/05/1987",
+      "athlete_id": "CL10892",
+      "performance": "33.04",
+      "discipline": "Martillo (7,260 Kg) MASC. SENIOR MASCULINO",
+      "wind": null,
+      "position": null,
+      "internal_id": 900
+    },
     {
       "athlete_name": "Barbara Pintado Duch",
       "athlete_dob": "29/04/1985",
       "athlete_id": "CT13219",
       "performance": "33.44",
-      "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "Disco (1kg) FEM. SENIOR FEMENINO",
+      "discipline": "Disco (1 Kg) FEM. SENIOR FEMENINO",
       "wind": null,
+      "position": null,
       "internal_id": 159
     },
     {
@@ -20,9 +80,9 @@
       "athlete_dob": "29/04/1985",
       "athlete_id": "CT13219",
       "performance": "32.37",
-      "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "Disco (1kg) FEM. SENIOR FEMENINO",
+      "discipline": "Disco (1 Kg) FEM. SENIOR FEMENINO",
       "wind": null,
+      "position": null,
       "internal_id": 159
     },
     {
@@ -30,9 +90,9 @@
       "athlete_dob": "29/04/1985",
       "athlete_id": "CT13219",
       "performance": "28.56",
-      "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "Disco (1kg) FEM. SENIOR FEMENINO",
+      "discipline": "Disco (1 Kg) FEM. SENIOR FEMENINO",
       "wind": null,
+      "position": null,
       "internal_id": 159
     },
     {
@@ -40,9 +100,9 @@
       "athlete_dob": "29/04/1985",
       "athlete_id": "CT13219",
       "performance": "31.43",
-      "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "Disco (1kg) FEM. SENIOR FEMENINO",
+      "discipline": "Disco (1 Kg) FEM. SENIOR FEMENINO",
       "wind": null,
+      "position": null,
       "internal_id": 159
     },
     {
@@ -50,9 +110,9 @@
       "athlete_dob": "29/11/1987",
       "athlete_id": "CT13540",
       "performance": "30.63",
-      "discipline": "Martell (4 Kg)",
-      "raw_discipline_name": "Martillo (4kg) FEM. SENIOR FEMENINO",
+      "discipline": "Martillo (4 Kg) FEM. SENIOR FEMENINO",
       "wind": null,
+      "position": null,
       "internal_id": 184
     },
     {
@@ -60,9 +120,9 @@
       "athlete_dob": "29/11/1987",
       "athlete_id": "CT13540",
       "performance": "31.94",
-      "discipline": "Martell (4 Kg)",
-      "raw_discipline_name": "Martillo (4kg) FEM. SENIOR FEMENINO",
+      "discipline": "Martillo (4 Kg) FEM. SENIOR FEMENINO",
       "wind": null,
+      "position": null,
       "internal_id": 184
     },
     {
@@ -70,9 +130,9 @@
       "athlete_dob": "29/11/1987",
       "athlete_id": "CT13540",
       "performance": "35.52",
-      "discipline": "Martell (4 Kg)",
-      "raw_discipline_name": "Martillo (4kg) FEM. SENIOR FEMENINO",
+      "discipline": "Martillo (4 Kg) FEM. SENIOR FEMENINO",
       "wind": null,
+      "position": null,
       "internal_id": 184
     }
   ]

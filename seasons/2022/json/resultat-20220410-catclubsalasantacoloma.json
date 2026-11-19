@@ -2,7 +2,7 @@
   "event_name": "Campionat de Catalunya de Clubs Grup\"A\" - 2a jornada",
   "event_date": "10/04/2022",
   "event_location": "Santa Coloma de Gramenet",
-  "total_results": 9,
+  "total_results": 55,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2022/04/resultat-20220410-catclubsalasantacoloma.pdf",
   "results": [
     {
@@ -10,29 +10,379 @@
       "athlete_dob": "31/01/2004",
       "athlete_id": "CL86461",
       "performance": "11.91",
-      "discipline": "100 metres llisos",
-      "raw_discipline_name": "100 metres llisos Masculí",
+      "discipline": "100 metres llisos Masculí",
       "wind": "+0.1",
+      "position": null,
       "internal_id": 735
     },
     {
-      "athlete_name": "Rida Ouezghari",
+      "athlete_name": "Rida Ouezghari PM",
       "athlete_dob": "01/03/2000",
       "athlete_id": "CT1536",
       "performance": "11.85",
-      "discipline": "100 metres llisos",
-      "raw_discipline_name": "100 metres llisos Masculí",
+      "discipline": "100 metres llisos Masculí",
       "wind": "+0.6",
+      "position": null,
       "internal_id": 894
+    },
+    {
+      "athlete_name": "Aleix Lago Garbajosa PM",
+      "athlete_dob": "26/09/2002",
+      "athlete_id": "CT264",
+      "performance": "0:50.26",
+      "discipline": "400 metres llisos Masculí",
+      "wind": null,
+      "position": null,
+      "internal_id": 660
+    },
+    {
+      "athlete_name": "Ricard Prio Roca",
+      "athlete_dob": "12/05/2004",
+      "athlete_id": "CL3014",
+      "performance": "0:54.96",
+      "discipline": "400 metres llisos Masculí",
+      "wind": null,
+      "position": null,
+      "internal_id": 778
+    },
+    {
+      "athlete_name": "Xavier Ros Borrell",
+      "athlete_dob": "19/05/1998",
+      "athlete_id": "CL22779",
+      "performance": "4:03.08",
+      "discipline": "1.500 metres llisos Masculí",
+      "wind": null,
+      "position": null,
+      "internal_id": 439
+    },
+    {
+      "athlete_name": "Gerard Parera Bodi PM",
+      "athlete_dob": "22/01/2000",
+      "athlete_id": "CL25156",
+      "performance": "4:09.97",
+      "discipline": "1.500 metres llisos Masculí",
+      "wind": null,
+      "position": null,
+      "internal_id": 522
+    },
+    {
+      "athlete_name": "Oscar Lefler Cortes",
+      "athlete_dob": "19/02/2004",
+      "athlete_id": "CL96852",
+      "performance": "16:21.30",
+      "discipline": "5.000 metres llisos Masculí",
+      "wind": null,
+      "position": null,
+      "internal_id": 758
+    },
+    {
+      "athlete_name": "Pedro Ortega Ridao",
+      "athlete_dob": "12/10/1977",
+      "athlete_id": "CL16079",
+      "performance": "16:56.14",
+      "discipline": "5.000 metres llisos Masculí",
+      "wind": null,
+      "position": null,
+      "internal_id": 268
+    },
+    {
+      "athlete_name": "Pablo Angel Fernandez",
+      "athlete_dob": "26/01/2003",
+      "athlete_id": "CT28510",
+      "performance": "15.26",
+      "discipline": "110 metres tanques (1,067) Masculí",
+      "wind": "+1.1",
+      "position": null,
+      "internal_id": 704
+    },
+    {
+      "athlete_name": "Marc Jose Diaz",
+      "athlete_dob": "08/01/1993",
+      "athlete_id": "CL17220",
+      "performance": "15.29",
+      "discipline": "110 metres tanques (1,067) Masculí",
+      "wind": "+2.2",
+      "position": null,
+      "internal_id": 294
+    },
+    {
+      "athlete_name": "Joan Martorell Escobar CM 2.5",
+      "athlete_dob": "22/03/2007",
+      "athlete_id": "CL77324",
+      "performance": "1.60",
+      "discipline": "Salt d'Alçada Masculí",
+      "wind": null,
+      "position": null,
+      "internal_id": 914
+    },
+    {
+      "athlete_name": "Unai Ortiz De Landazuri Ontoso CM 2.5",
+      "athlete_dob": "28/06/2007",
+      "athlete_id": "CL77328",
+      "performance": "1.60",
+      "discipline": "Salt d'Alçada Masculí",
+      "wind": null,
+      "position": null,
+      "internal_id": 908
+    },
+    {
+      "athlete_name": "Lluc Subiros Brasero",
+      "athlete_dob": "06/01/2007",
+      "athlete_id": "CT1186",
+      "performance": "12.21",
+      "discipline": "Triple Salt Masculí",
+      "wind": "+2.9",
+      "position": null,
+      "internal_id": 899
+    },
+    {
+      "athlete_name": "Lluc Subiros Brasero",
+      "athlete_dob": "06/01/2007",
+      "athlete_id": "CT1186",
+      "performance": "12.35",
+      "discipline": "Triple Salt Masculí",
+      "wind": "+2.5",
+      "position": null,
+      "internal_id": 899
+    },
+    {
+      "athlete_name": "Nil Pinyol Mateu",
+      "athlete_dob": "26/05/2003",
+      "athlete_id": "CL29252",
+      "performance": "11.62",
+      "discipline": "Triple Salt Masculí",
+      "wind": "+2.1",
+      "position": null,
+      "internal_id": 714
+    },
+    {
+      "athlete_name": "Nil Pinyol Mateu",
+      "athlete_dob": "26/05/2003",
+      "athlete_id": "CL29252",
+      "performance": "11.73",
+      "discipline": "Triple Salt Masculí",
+      "wind": "+3.5",
+      "position": null,
+      "internal_id": 714
+    },
+    {
+      "athlete_name": "Adria Serres Pardines",
+      "athlete_dob": "12/09/1983",
+      "athlete_id": "CL11395",
+      "performance": "33.84",
+      "discipline": "Disc (2 Kg) Masculí",
+      "wind": null,
+      "position": null,
+      "internal_id": 133
+    },
+    {
+      "athlete_name": "Adria Serres Pardines",
+      "athlete_dob": "12/09/1983",
+      "athlete_id": "CL11395",
+      "performance": "33.53",
+      "discipline": "Disc (2 Kg) Masculí",
+      "wind": null,
+      "position": null,
+      "internal_id": 133
+    },
+    {
+      "athlete_name": "Adria Serres Pardines",
+      "athlete_dob": "12/09/1983",
+      "athlete_id": "CL11395",
+      "performance": "34.35",
+      "discipline": "Disc (2 Kg) Masculí",
+      "wind": null,
+      "position": null,
+      "internal_id": 133
+    },
+    {
+      "athlete_name": "Enric Ramon Guim Domenech",
+      "athlete_dob": "20/07/1973",
+      "athlete_id": "CL29660",
+      "performance": "20.03",
+      "discipline": "Disc (2 Kg) Masculí",
+      "wind": null,
+      "position": null,
+      "internal_id": 18
+    },
+    {
+      "athlete_name": "Enric Ramon Guim Domenech",
+      "athlete_dob": "20/07/1973",
+      "athlete_id": "CL29660",
+      "performance": "26.64",
+      "discipline": "Disc (2 Kg) Masculí",
+      "wind": null,
+      "position": null,
+      "internal_id": 18
+    },
+    {
+      "athlete_name": "Didac Exposito Garcia",
+      "athlete_dob": "04/08/1973",
+      "athlete_id": "CT3967",
+      "performance": "27.14",
+      "discipline": "Martell (7,260 Kg) Masculí",
+      "wind": null,
+      "position": null,
+      "internal_id": 44
+    },
+    {
+      "athlete_name": "Didac Exposito Garcia",
+      "athlete_dob": "04/08/1973",
+      "athlete_id": "CT3967",
+      "performance": "24.88",
+      "discipline": "Martell (7,260 Kg) Masculí",
+      "wind": null,
+      "position": null,
+      "internal_id": 44
+    },
+    {
+      "athlete_name": "Didac Exposito Garcia",
+      "athlete_dob": "04/08/1973",
+      "athlete_id": "CT3967",
+      "performance": "22.29",
+      "discipline": "Martell (7,260 Kg) Masculí",
+      "wind": null,
+      "position": null,
+      "internal_id": 44
+    },
+    {
+      "athlete_name": "Pedro Vacas Campos",
+      "athlete_dob": "10/04/1961",
+      "athlete_id": "CL25864",
+      "performance": "24.49",
+      "discipline": "Martell (7,260 Kg) Masculí",
+      "wind": null,
+      "position": null,
+      "internal_id": 197
+    },
+    {
+      "athlete_name": "Emma Esteve Soto",
+      "athlete_dob": "25/02/2006",
+      "athlete_id": "CT1021",
+      "performance": "12.79",
+      "discipline": "100 metres llisos Femení",
+      "wind": "+1.5",
+      "position": null,
+      "internal_id": 837
+    },
+    {
+      "athlete_name": "Martina Pomes Cabello",
+      "athlete_dob": "02/02/2005",
+      "athlete_id": "CT29548",
+      "performance": "13.12",
+      "discipline": "100 metres llisos Femení",
+      "wind": "+1.0",
+      "position": null,
+      "internal_id": 810
+    },
+    {
+      "athlete_name": "Carlota Subiros De La Torre",
+      "athlete_dob": "26/03/2003",
+      "athlete_id": "CL27601",
+      "performance": "1:09.01",
+      "discipline": "400 metres llisos Femení",
+      "wind": null,
+      "position": null,
+      "internal_id": 752
+    },
+    {
+      "athlete_name": "Aina Tomas Virgili",
+      "athlete_dob": "17/01/2005",
+      "athlete_id": "CL82421",
+      "performance": "1:07.29",
+      "discipline": "400 metres llisos Femení",
+      "wind": null,
+      "position": null,
+      "internal_id": 815
+    },
+    {
+      "athlete_name": "Sira Bo Calaf PF",
+      "athlete_dob": "19/03/2001",
+      "athlete_id": "CT712",
+      "performance": "5:06.11",
+      "discipline": "1.500 metres llisos Femení",
+      "wind": null,
+      "position": null,
+      "internal_id": 599
+    },
+    {
+      "athlete_name": "Antonia Royo Fabregat",
+      "athlete_dob": "09/09/1964",
+      "athlete_id": "CT27087",
+      "performance": "6:30.00",
+      "discipline": "1.500 metres llisos Femení",
+      "wind": null,
+      "position": null,
+      "internal_id": 609
+    },
+    {
+      "athlete_name": "Carla Gonzalez Carrillo",
+      "athlete_dob": "05/06/2003",
+      "athlete_id": "CT27282",
+      "performance": "19:26.63",
+      "discipline": "5.000 metres llisos Femení",
+      "wind": null,
+      "position": null,
+      "internal_id": 698
+    },
+    {
+      "athlete_name": "Cristina Iniesta Acera",
+      "athlete_dob": "27/02/2004",
+      "athlete_id": "CL78440",
+      "performance": "21:32.99",
+      "discipline": "5.000 metres llisos Femení",
+      "wind": null,
+      "position": null,
+      "internal_id": 742
+    },
+    {
+      "athlete_name": "Claudia Mir Casellas",
+      "athlete_dob": "02/08/2003",
+      "athlete_id": "CT152",
+      "performance": "15.39",
+      "discipline": "100 metres tanques (0,84) Femení",
+      "wind": "+1.4",
+      "position": null,
+      "internal_id": 699
+    },
+    {
+      "athlete_name": "Natalia Sanchez Alvarez",
+      "athlete_dob": "28/05/2005",
+      "athlete_id": "CT29768",
+      "performance": "17.75",
+      "discipline": "100 metres tanques (0,84) Femení",
+      "wind": "+2.1",
+      "position": null,
+      "internal_id": 796
+    },
+    {
+      "athlete_name": "Alicia Vazquez Domingo",
+      "athlete_dob": "09/10/1999",
+      "athlete_id": "CT23992",
+      "performance": "2.60",
+      "discipline": "Salt amb Perxa Femení",
+      "wind": null,
+      "position": null,
+      "internal_id": 472
+    },
+    {
+      "athlete_name": "Lucia Mayolas Martinez",
+      "athlete_dob": "04/10/2004",
+      "athlete_id": "CL71720",
+      "performance": "1.80",
+      "discipline": "Salt amb Perxa Femení",
+      "wind": null,
+      "position": null,
+      "internal_id": 728
     },
     {
       "athlete_name": "Laurine Elisa Marimon Fernandez",
       "athlete_dob": "17/09/2004",
       "athlete_id": "CT28409",
       "performance": "5.66",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Salt de Llargada Femení",
+      "discipline": "Salt de Llargada Femení",
       "wind": "+0.6",
+      "position": null,
       "internal_id": 737
     },
     {
@@ -40,9 +390,9 @@
       "athlete_dob": "17/09/2004",
       "athlete_id": "CT28409",
       "performance": "5.61",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Salt de Llargada Femení",
+      "discipline": "Salt de Llargada Femení",
       "wind": "+0.5",
+      "position": null,
       "internal_id": 737
     },
     {
@@ -50,9 +400,9 @@
       "athlete_dob": "17/09/2004",
       "athlete_id": "CT28409",
       "performance": "5.44",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Salt de Llargada Femení",
+      "discipline": "Salt de Llargada Femení",
       "wind": "-2.8",
+      "position": null,
       "internal_id": 737
     },
     {
@@ -60,9 +410,9 @@
       "athlete_dob": "17/09/2004",
       "athlete_id": "CT28409",
       "performance": "5.56",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Salt de Llargada Femení",
+      "discipline": "Salt de Llargada Femení",
       "wind": "-1.7",
+      "position": null,
       "internal_id": 737
     },
     {
@@ -70,9 +420,9 @@
       "athlete_dob": "17/09/2004",
       "athlete_id": "CT28409",
       "performance": "5.50",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Salt de Llargada Femení",
+      "discipline": "Salt de Llargada Femení",
       "wind": "-3.0",
+      "position": null,
       "internal_id": 737
     },
     {
@@ -80,9 +430,9 @@
       "athlete_dob": "09/10/2001",
       "athlete_id": "CT25812",
       "performance": "5.41",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Salt de Llargada Femení",
+      "discipline": "Salt de Llargada Femení",
       "wind": "-0.7",
+      "position": null,
       "internal_id": 753
     },
     {
@@ -90,10 +440,120 @@
       "athlete_dob": "09/10/2001",
       "athlete_id": "CT25812",
       "performance": "4.76",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Salt de Llargada Femení",
+      "discipline": "Salt de Llargada Femení",
       "wind": "-2.8",
+      "position": null,
       "internal_id": 753
+    },
+    {
+      "athlete_name": "Marina Tibau Sendra",
+      "athlete_dob": "06/08/1995",
+      "athlete_id": "CL20392",
+      "performance": "9.89",
+      "discipline": "Pes (4 Kg) Femení",
+      "wind": null,
+      "position": null,
+      "internal_id": 359
+    },
+    {
+      "athlete_name": "Marina Tibau Sendra",
+      "athlete_dob": "06/08/1995",
+      "athlete_id": "CL20392",
+      "performance": "10.43",
+      "discipline": "Pes (4 Kg) Femení",
+      "wind": null,
+      "position": null,
+      "internal_id": 359
+    },
+    {
+      "athlete_name": "Marina Tibau Sendra",
+      "athlete_dob": "06/08/1995",
+      "athlete_id": "CL20392",
+      "performance": "10.71",
+      "discipline": "Pes (4 Kg) Femení",
+      "wind": null,
+      "position": null,
+      "internal_id": 359
+    },
+    {
+      "athlete_name": "Nuria Menchon Tevar",
+      "athlete_dob": "25/06/2002",
+      "athlete_id": "CL27849",
+      "performance": "7.34",
+      "discipline": "Pes (4 Kg) Femení",
+      "wind": null,
+      "position": null,
+      "internal_id": 541
+    },
+    {
+      "athlete_name": "Nuria Menchon Tevar",
+      "athlete_dob": "25/06/2002",
+      "athlete_id": "CL27849",
+      "performance": "7.87",
+      "discipline": "Pes (4 Kg) Femení",
+      "wind": null,
+      "position": null,
+      "internal_id": 541
+    },
+    {
+      "athlete_name": "Nuria Menchon Tevar",
+      "athlete_dob": "25/06/2002",
+      "athlete_id": "CL27849",
+      "performance": "7.83",
+      "discipline": "Pes (4 Kg) Femení",
+      "wind": null,
+      "position": null,
+      "internal_id": 541
+    },
+    {
+      "athlete_name": "Barbara Pintado Duch",
+      "athlete_dob": "29/04/1985",
+      "athlete_id": "CT13219",
+      "performance": "27.65",
+      "discipline": "Javelina (600g) Femení",
+      "wind": null,
+      "position": null,
+      "internal_id": 159
+    },
+    {
+      "athlete_name": "Barbara Pintado Duch",
+      "athlete_dob": "29/04/1985",
+      "athlete_id": "CT13219",
+      "performance": "21.95",
+      "discipline": "Javelina (600g) Femení",
+      "wind": null,
+      "position": null,
+      "internal_id": 159
+    },
+    {
+      "athlete_name": "Mireia Tortosa Pradillo",
+      "athlete_dob": "29/08/1992",
+      "athlete_id": "CL19336",
+      "performance": "25.90",
+      "discipline": "Javelina (600g) Femení",
+      "wind": null,
+      "position": null,
+      "internal_id": 340
+    },
+    {
+      "athlete_name": "Mireia Tortosa Pradillo",
+      "athlete_dob": "29/08/1992",
+      "athlete_id": "CL19336",
+      "performance": "27.13",
+      "discipline": "Javelina (600g) Femení",
+      "wind": null,
+      "position": null,
+      "internal_id": 340
+    },
+    {
+      "athlete_name": "Mireia Tortosa Pradillo",
+      "athlete_dob": "29/08/1992",
+      "athlete_id": "CL19336",
+      "performance": "25.05",
+      "discipline": "Javelina (600g) Femení",
+      "wind": null,
+      "position": null,
+      "internal_id": 340
     }
   ]
 }

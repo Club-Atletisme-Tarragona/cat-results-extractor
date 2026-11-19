@@ -1,18 +1,58 @@
 {
   "event_name": "Controls Pista Coberta Sub16 - 2a. jornada - Controls Pista Coberta Sub16 - 2a. jornada",
   "event_date": "21/12/2019",
-  "event_location": "Sabadell",
-  "total_results": 7,
+  "event_location": "Club                                            Lic",
+  "total_results": 16,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20191221-controlsub16pcsabadell.pdf",
   "results": [
+    {
+      "athlete_name": "Hugo Jules Saiz Santolaria",
+      "athlete_dob": "31/01/2005",
+      "athlete_id": "CL71743",
+      "performance": "8.03",
+      "discipline": "60m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 808
+    },
+    {
+      "athlete_name": "Hugo Jules Saiz Santolaria",
+      "athlete_dob": "31/01/2005",
+      "athlete_id": "CL71743",
+      "performance": "0:44.32",
+      "discipline": "300m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 808
+    },
+    {
+      "athlete_name": "Martina Pomes Cabello",
+      "athlete_dob": "02/02/2005",
+      "athlete_id": "CT29548",
+      "performance": "8.23",
+      "discipline": "60m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 810
+    },
+    {
+      "athlete_name": "Natalia Sanchez Alvarez",
+      "athlete_dob": "28/05/2005",
+      "athlete_id": "CT29768",
+      "performance": "8.48",
+      "discipline": "60m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 796
+    },
     {
       "athlete_name": "Natalia Sanchez Alvarez",
       "athlete_dob": "28/05/2005",
       "athlete_id": "CT29768",
       "performance": "0:47.01",
-      "discipline": "300 metres llisos",
-      "raw_discipline_name": "300m FEM. PC",
+      "discipline": "300m FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 796
     },
     {
@@ -20,19 +60,69 @@
       "athlete_dob": "07/04/2005",
       "athlete_id": "CL82414",
       "performance": "0:51.56",
-      "discipline": "300 metres llisos",
-      "raw_discipline_name": "300m FEM. PC",
+      "discipline": "300m FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 813
+    },
+    {
+      "athlete_name": "Natalia Sanchez Alvarez",
+      "athlete_dob": "28/05/2005",
+      "athlete_id": "CT29768",
+      "performance": "10.84",
+      "discipline": "60m tanques (0,762) FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 796
+    },
+    {
+      "athlete_name": "Laura Santos Martinez",
+      "athlete_dob": "14/09/2005",
+      "athlete_id": "CL71751",
+      "performance": "11.00",
+      "discipline": "60m tanques (0,762) FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 807
+    },
+    {
+      "athlete_name": "Lara Herrera Vallve",
+      "athlete_dob": "07/04/2005",
+      "athlete_id": "CL82414",
+      "performance": "11.67",
+      "discipline": "60m tanques (0,762) FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 813
+    },
+    {
+      "athlete_name": "Laura Santos Martinez",
+      "athlete_dob": "14/09/2005",
+      "athlete_id": "CL71751",
+      "performance": "1.45",
+      "discipline": "Alçada FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 807
+    },
+    {
+      "athlete_name": "Martina Pomes Cabello",
+      "athlete_dob": "02/02/2005",
+      "athlete_id": "CT29548",
+      "performance": "1.40",
+      "discipline": "Alçada FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 810
     },
     {
       "athlete_name": "Lara Herrera Vallve",
       "athlete_dob": "07/04/2005",
       "athlete_id": "CL82414",
       "performance": "8.91",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt FEM. 2005 PC",
+      "discipline": "Triple Salt FEM. 2005 PC",
       "wind": null,
+      "position": null,
       "internal_id": 813
     },
     {
@@ -40,9 +130,9 @@
       "athlete_dob": "07/04/2005",
       "athlete_id": "CL82414",
       "performance": "8.97",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt FEM. 2005 PC",
+      "discipline": "Triple Salt FEM. 2005 PC",
       "wind": null,
+      "position": null,
       "internal_id": 813
     },
     {
@@ -50,9 +140,9 @@
       "athlete_dob": "07/04/2005",
       "athlete_id": "CL82414",
       "performance": "8.56",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt FEM. 2005 PC",
+      "discipline": "Triple Salt FEM. 2005 PC",
       "wind": null,
+      "position": null,
       "internal_id": 813
     },
     {
@@ -60,9 +150,9 @@
       "athlete_dob": "07/04/2005",
       "athlete_id": "CL82414",
       "performance": "8.62",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt FEM. 2005 PC",
+      "discipline": "Triple Salt FEM. 2005 PC",
       "wind": null,
+      "position": null,
       "internal_id": 813
     },
     {
@@ -70,9 +160,9 @@
       "athlete_dob": "07/04/2005",
       "athlete_id": "CL82414",
       "performance": "8.59",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt FEM. 2005 PC",
+      "discipline": "Triple Salt FEM. 2005 PC",
       "wind": null,
+      "position": null,
       "internal_id": 813
     }
   ]

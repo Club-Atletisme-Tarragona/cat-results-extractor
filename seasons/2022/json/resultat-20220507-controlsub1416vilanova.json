@@ -2,17 +2,37 @@
   "event_name": "Controls Sub14 - Sub16",
   "event_date": "07/05/2022",
   "event_location": "Vilanova i La Geltrú",
-  "total_results": 4,
+  "total_results": 6,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2022/05/resultat-20220507-controlsub1416vilanova.pdf",
   "results": [
     {
       "athlete_name": "Iris Garrido Garcia",
       "athlete_dob": "15/12/2008",
       "athlete_id": "CL77529",
-      "performance": "17.21",
-      "discipline": "Javelina (500 g)",
-      "raw_discipline_name": "Jabalina (500g) FEM. SUB 16",
+      "performance": "5:30.70",
+      "discipline": "300m FEM. AL SUB 16",
       "wind": null,
+      "position": null,
+      "internal_id": 982
+    },
+    {
+      "athlete_name": "761 (t) Clara Ortiz De Landazuri Ontoso 13",
+      "athlete_dob": "04/12/2009",
+      "athlete_id": "CL86467",
+      "performance": "NP",
+      "discipline": "300m FEM. AL SUB 16",
+      "wind": null,
+      "position": null,
+      "internal_id": 1022
+    },
+    {
+      "athlete_name": "Iris Garrido Garcia",
+      "athlete_dob": "15/12/2008",
+      "athlete_id": "CL77529",
+      "performance": "17.21",
+      "discipline": "Jabalina (500g) FEM. SUB 16",
+      "wind": null,
+      "position": null,
       "internal_id": 982
     },
     {
@@ -20,9 +40,9 @@
       "athlete_dob": "15/12/2008",
       "athlete_id": "CL77529",
       "performance": "19.22",
-      "discipline": "Javelina (500 g)",
-      "raw_discipline_name": "Jabalina (500g) FEM. SUB 16",
+      "discipline": "Jabalina (500g) FEM. SUB 16",
       "wind": null,
+      "position": null,
       "internal_id": 982
     },
     {
@@ -30,9 +50,9 @@
       "athlete_dob": "15/12/2008",
       "athlete_id": "CL77529",
       "performance": "21.51",
-      "discipline": "Javelina (500 g)",
-      "raw_discipline_name": "Jabalina (500g) FEM. SUB 16",
+      "discipline": "Jabalina (500g) FEM. SUB 16",
       "wind": null,
+      "position": null,
       "internal_id": 982
     },
     {
@@ -40,9 +60,9 @@
       "athlete_dob": "15/12/2008",
       "athlete_id": "CL77529",
       "performance": "18.52",
-      "discipline": "Javelina (500 g)",
-      "raw_discipline_name": "Jabalina (500g) FEM. SUB 16",
+      "discipline": "Jabalina (500g) FEM. SUB 16",
       "wind": null,
+      "position": null,
       "internal_id": 982
     }
   ]

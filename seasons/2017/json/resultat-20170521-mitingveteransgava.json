@@ -2,18 +2,398 @@
   "event_name": "",
   "event_date": "21/05/2017",
   "event_location": "Gavà",
-  "total_results": 1,
+  "total_results": 39,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20170521-mitingveteransgava.pdf",
   "results": [
+    {
+      "athlete_name": "Ana Cabello Rioja",
+      "athlete_dob": "16/11/1968",
+      "athlete_id": "CL23242",
+      "performance": "14.34",
+      "discipline": "100m Femení (F35-F40-F45-F50-F75)",
+      "wind": "+4.8",
+      "position": null,
+      "internal_id": 449
+    },
+    {
+      "athlete_name": "Maribel Vallve Olivella",
+      "athlete_dob": "19/10/1967",
+      "athlete_id": "CT26851",
+      "performance": "17.35",
+      "discipline": "100m Femení (F35-F40-F45-F50-F75)",
+      "wind": "+4.8",
+      "position": null,
+      "internal_id": 529
+    },
     {
       "athlete_name": "Jesus Fernando Montolio Alcon",
       "athlete_dob": "05/10/1970",
       "athlete_id": "CT16331",
       "performance": "24.91",
-      "discipline": "200 metres llisos",
-      "raw_discipline_name": "200m Masculí (M35-M40-M45-M50-M55-M60-M65-M70-M75)",
+      "discipline": "200m Masculí (M35-M40-M45-M50-M55-M60-M65-M70-M75)",
       "wind": "+3.9",
+      "position": null,
       "internal_id": 405
+    },
+    {
+      "athlete_name": "Antonia Royo Fabregat",
+      "athlete_dob": "09/09/1964",
+      "athlete_id": "CT27087",
+      "performance": "2:59.40",
+      "discipline": "800m Femení (F35-F45-F50)",
+      "wind": null,
+      "position": null,
+      "internal_id": 609
+    },
+    {
+      "athlete_name": "Antonia Royo Fabregat",
+      "athlete_dob": "09/09/1964",
+      "athlete_id": "CT27087",
+      "performance": "6:16.71",
+      "discipline": "1.500m Femení (F40-F45-F50)",
+      "wind": null,
+      "position": null,
+      "internal_id": 609
+    },
+    {
+      "athlete_name": "Maribel Vallve Olivella",
+      "athlete_dob": "19/10/1967",
+      "athlete_id": "CT26851",
+      "performance": "1.17",
+      "discipline": "Alçada Femenina (F45)",
+      "wind": null,
+      "position": null,
+      "internal_id": 529
+    },
+    {
+      "athlete_name": "Ana Cabello Rioja",
+      "athlete_dob": "16/11/1968",
+      "athlete_id": "CL23242",
+      "performance": "3.72",
+      "discipline": "Llargada Femenina (F35+)",
+      "wind": "+4.4",
+      "position": null,
+      "internal_id": 449
+    },
+    {
+      "athlete_name": "Ana Cabello Rioja",
+      "athlete_dob": "16/11/1968",
+      "athlete_id": "CL23242",
+      "performance": "3.89",
+      "discipline": "Llargada Femenina (F35+)",
+      "wind": "+3.8",
+      "position": null,
+      "internal_id": 449
+    },
+    {
+      "athlete_name": "Ana Cabello Rioja",
+      "athlete_dob": "16/11/1968",
+      "athlete_id": "CL23242",
+      "performance": "4.11",
+      "discipline": "Llargada Femenina (F35+)",
+      "wind": "+2.8",
+      "position": null,
+      "internal_id": 449
+    },
+    {
+      "athlete_name": "Ana Cabello Rioja",
+      "athlete_dob": "16/11/1968",
+      "athlete_id": "CL23242",
+      "performance": "4.18",
+      "discipline": "Llargada Femenina (F35+)",
+      "wind": "+3.7",
+      "position": null,
+      "internal_id": 449
+    },
+    {
+      "athlete_name": "Antoni Ruiz Gonzalez",
+      "athlete_dob": "15/05/1965",
+      "athlete_id": "CT23042",
+      "performance": "8.08",
+      "discipline": "Pes Masculí - 6,00kg (M50-M55)",
+      "wind": null,
+      "position": null,
+      "internal_id": 428
+    },
+    {
+      "athlete_name": "Antoni Ruiz Gonzalez",
+      "athlete_dob": "15/05/1965",
+      "athlete_id": "CT23042",
+      "performance": "7.72",
+      "discipline": "Pes Masculí - 6,00kg (M50-M55)",
+      "wind": null,
+      "position": null,
+      "internal_id": 428
+    },
+    {
+      "athlete_name": "Antoni Ruiz Gonzalez",
+      "athlete_dob": "15/05/1965",
+      "athlete_id": "CT23042",
+      "performance": "7.58",
+      "discipline": "Pes Masculí - 6,00kg (M50-M55)",
+      "wind": null,
+      "position": null,
+      "internal_id": 428
+    },
+    {
+      "athlete_name": "Ana Cristina Velasco Marti",
+      "athlete_dob": "15/01/1974",
+      "athlete_id": "CT25561",
+      "performance": "6.68",
+      "discipline": "Pes Femení - 4kg (Absolut-F40-F45)",
+      "wind": null,
+      "position": null,
+      "internal_id": 528
+    },
+    {
+      "athlete_name": "Ana Cristina Velasco Marti",
+      "athlete_dob": "15/01/1974",
+      "athlete_id": "CT25561",
+      "performance": "6.73",
+      "discipline": "Pes Femení - 4kg (Absolut-F40-F45)",
+      "wind": null,
+      "position": null,
+      "internal_id": 528
+    },
+    {
+      "athlete_name": "Ana Cristina Velasco Marti",
+      "athlete_dob": "15/01/1974",
+      "athlete_id": "CT25561",
+      "performance": "7.39",
+      "discipline": "Pes Femení - 4kg (Absolut-F40-F45)",
+      "wind": null,
+      "position": null,
+      "internal_id": 528
+    },
+    {
+      "athlete_name": "Maribel Vallve Olivella",
+      "athlete_dob": "19/10/1967",
+      "athlete_id": "CT26851",
+      "performance": "5.33",
+      "discipline": "Pes Femení - 4kg (Absolut-F40-F45)",
+      "wind": null,
+      "position": null,
+      "internal_id": 529
+    },
+    {
+      "athlete_name": "Maribel Vallve Olivella",
+      "athlete_dob": "19/10/1967",
+      "athlete_id": "CT26851",
+      "performance": "5.68",
+      "discipline": "Pes Femení - 4kg (Absolut-F40-F45)",
+      "wind": null,
+      "position": null,
+      "internal_id": 529
+    },
+    {
+      "athlete_name": "Maribel Vallve Olivella",
+      "athlete_dob": "19/10/1967",
+      "athlete_id": "CT26851",
+      "performance": "5.29",
+      "discipline": "Pes Femení - 4kg (Absolut-F40-F45)",
+      "wind": null,
+      "position": null,
+      "internal_id": 529
+    },
+    {
+      "athlete_name": "Maribel Vallve Olivella",
+      "athlete_dob": "19/10/1967",
+      "athlete_id": "CT26851",
+      "performance": "5.02",
+      "discipline": "Pes Femení - 4kg (Absolut-F40-F45)",
+      "wind": null,
+      "position": null,
+      "internal_id": 529
+    },
+    {
+      "athlete_name": "Luis Saez Perez",
+      "athlete_dob": "01/03/1949",
+      "athlete_id": "CT17487",
+      "performance": "3.45",
+      "discipline": "Llargada Masculina (M50+)",
+      "wind": "+3.2",
+      "position": null,
+      "internal_id": 304
+    },
+    {
+      "athlete_name": "Luis Saez Perez",
+      "athlete_dob": "01/03/1949",
+      "athlete_id": "CT17487",
+      "performance": "3.58",
+      "discipline": "Llargada Masculina (M50+)",
+      "wind": "+4.9",
+      "position": null,
+      "internal_id": 304
+    },
+    {
+      "athlete_name": "Luis Saez Perez",
+      "athlete_dob": "01/03/1949",
+      "athlete_id": "CT17487",
+      "performance": "3.78",
+      "discipline": "Llargada Masculina (M50+)",
+      "wind": "+3.7",
+      "position": null,
+      "internal_id": 304
+    },
+    {
+      "athlete_name": "Luis Saez Perez",
+      "athlete_dob": "01/03/1949",
+      "athlete_id": "CT17487",
+      "performance": "28.32",
+      "discipline": "Javelina Masculina - 600gr (M60-M65)",
+      "wind": null,
+      "position": null,
+      "internal_id": 304
+    },
+    {
+      "athlete_name": "Luis Saez Perez",
+      "athlete_dob": "01/03/1949",
+      "athlete_id": "CT17487",
+      "performance": "27.67",
+      "discipline": "Javelina Masculina - 600gr (M60-M65)",
+      "wind": null,
+      "position": null,
+      "internal_id": 304
+    },
+    {
+      "athlete_name": "Luis Saez Perez",
+      "athlete_dob": "01/03/1949",
+      "athlete_id": "CT17487",
+      "performance": "28.73",
+      "discipline": "Javelina Masculina - 600gr (M60-M65)",
+      "wind": null,
+      "position": null,
+      "internal_id": 304
+    },
+    {
+      "athlete_name": "Antoni Ruiz Gonzalez",
+      "athlete_dob": "15/05/1965",
+      "athlete_id": "CT23042",
+      "performance": "25.04",
+      "discipline": "Javelina Masculina - 700gr (M50-M55)",
+      "wind": null,
+      "position": null,
+      "internal_id": 428
+    },
+    {
+      "athlete_name": "Antoni Ruiz Gonzalez",
+      "athlete_dob": "15/05/1965",
+      "athlete_id": "CT23042",
+      "performance": "20.67",
+      "discipline": "Javelina Masculina - 700gr (M50-M55)",
+      "wind": null,
+      "position": null,
+      "internal_id": 428
+    },
+    {
+      "athlete_name": "Antoni Ruiz Gonzalez",
+      "athlete_dob": "15/05/1965",
+      "athlete_id": "CT23042",
+      "performance": "22.90",
+      "discipline": "Javelina Masculina - 700gr (M50-M55)",
+      "wind": null,
+      "position": null,
+      "internal_id": 428
+    },
+    {
+      "athlete_name": "Ana Cristina Velasco Marti",
+      "athlete_dob": "15/01/1974",
+      "athlete_id": "CT25561",
+      "performance": "19.09",
+      "discipline": "Disc Femení - 1kg (Jun-F40-F45-F55)",
+      "wind": null,
+      "position": null,
+      "internal_id": 528
+    },
+    {
+      "athlete_name": "Ana Cristina Velasco Marti",
+      "athlete_dob": "15/01/1974",
+      "athlete_id": "CT25561",
+      "performance": "18.11",
+      "discipline": "Disc Femení - 1kg (Jun-F40-F45-F55)",
+      "wind": null,
+      "position": null,
+      "internal_id": 528
+    },
+    {
+      "athlete_name": "Ana Cristina Velasco Marti",
+      "athlete_dob": "15/01/1974",
+      "athlete_id": "CT25561",
+      "performance": "18.80",
+      "discipline": "Disc Femení - 1kg (Jun-F40-F45-F55)",
+      "wind": null,
+      "position": null,
+      "internal_id": 528
+    },
+    {
+      "athlete_name": "Antoni Ruiz Gonzalez",
+      "athlete_dob": "15/05/1965",
+      "athlete_id": "CT23042",
+      "performance": "20.58",
+      "discipline": "Disc Masculí - 1,5kg (M50-M55)",
+      "wind": null,
+      "position": null,
+      "internal_id": 428
+    },
+    {
+      "athlete_name": "Antoni Ruiz Gonzalez",
+      "athlete_dob": "15/05/1965",
+      "athlete_id": "CT23042",
+      "performance": "20.74",
+      "discipline": "Disc Masculí - 1,5kg (M50-M55)",
+      "wind": null,
+      "position": null,
+      "internal_id": 428
+    },
+    {
+      "athlete_name": "Antoni Ruiz Gonzalez",
+      "athlete_dob": "15/05/1965",
+      "athlete_id": "CT23042",
+      "performance": "21.66",
+      "discipline": "Disc Masculí - 1,5kg (M50-M55)",
+      "wind": null,
+      "position": null,
+      "internal_id": 428
+    },
+    {
+      "athlete_name": "Ana Cristina Velasco Marti",
+      "athlete_dob": "15/01/1974",
+      "athlete_id": "CT25561",
+      "performance": "16.38",
+      "discipline": "Javelina Femenina - 600gr (F40-F45)",
+      "wind": null,
+      "position": null,
+      "internal_id": 528
+    },
+    {
+      "athlete_name": "Ana Cristina Velasco Marti",
+      "athlete_dob": "15/01/1974",
+      "athlete_id": "CT25561",
+      "performance": "16.40",
+      "discipline": "Javelina Femenina - 600gr (F40-F45)",
+      "wind": null,
+      "position": null,
+      "internal_id": 528
+    },
+    {
+      "athlete_name": "Ana Cristina Velasco Marti",
+      "athlete_dob": "15/01/1974",
+      "athlete_id": "CT25561",
+      "performance": "16.23",
+      "discipline": "Javelina Femenina - 600gr (F40-F45)",
+      "wind": null,
+      "position": null,
+      "internal_id": 528
+    },
+    {
+      "athlete_name": "Ana Cristina Velasco Marti",
+      "athlete_dob": "15/01/1974",
+      "athlete_id": "CT25561",
+      "performance": "16.83",
+      "discipline": "Javelina Femenina - 600gr (F40-F45)",
+      "wind": null,
+      "position": null,
+      "internal_id": 528
     }
   ]
 }

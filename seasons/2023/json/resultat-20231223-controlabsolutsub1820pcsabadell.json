@@ -1,29 +1,89 @@
 {
   "event_name": "Control Absolut, sub20 i sub18 en Pista Coberta - Control Absolut, sub20 i sub18 en Pista Coberta",
   "event_date": "23/12/2023",
-  "event_location": "Sabadell",
-  "total_results": 2,
+  "event_location": "Club                                             Lic",
+  "total_results": 8,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2023/12/resultat-20231223-controlabsolutsub1820pcsabadell.pdf",
   "results": [
+    {
+      "athlete_name": "Victor Jimenez Garcia",
+      "athlete_dob": "25/05/2008",
+      "athlete_id": "CT1465",
+      "performance": "7.41",
+      "discipline": "60m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 958
+    },
+    {
+      "athlete_name": "Pablo Angel Fernandez",
+      "athlete_dob": "26/01/2003",
+      "athlete_id": "CT28510",
+      "performance": "8.58",
+      "discipline": "60m tanques (1,067) ABS MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 704
+    },
+    {
+      "athlete_name": "Mireia Lopez Urbano",
+      "athlete_dob": "07/12/2000",
+      "athlete_id": "CT23556",
+      "performance": "8.10",
+      "discipline": "60m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 527
+    },
     {
       "athlete_name": "Mireia Redondo Mendoza",
       "athlete_dob": "10/06/2008",
       "athlete_id": "CT1467",
       "performance": "8.09",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m FEM. PC",
+      "discipline": "60m FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 957
+    },
+    {
+      "athlete_name": "Claudia Mir Casellas",
+      "athlete_dob": "02/08/2003",
+      "athlete_id": "CT152",
+      "performance": "0:58.11",
+      "discipline": "400m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 699
     },
     {
       "athlete_name": "Mireia Redondo Mendoza",
       "athlete_dob": "10/06/2008",
       "athlete_id": "CT1467",
       "performance": "0:59.47",
-      "discipline": "400 metres llisos",
-      "raw_discipline_name": "400m FEM. PC",
+      "discipline": "400m FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 957
+    },
+    {
+      "athlete_name": "Mireia Lopez Urbano",
+      "athlete_dob": "07/12/2000",
+      "athlete_id": "CT23556",
+      "performance": "8.90",
+      "discipline": "60m tanques (0,84) ABS FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 527
+    },
+    {
+      "athlete_name": "Claudia Mir Casellas",
+      "athlete_dob": "02/08/2003",
+      "athlete_id": "CT152",
+      "performance": "9.32",
+      "discipline": "60m tanques (0,84) ABS FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 699
     }
   ]
 }

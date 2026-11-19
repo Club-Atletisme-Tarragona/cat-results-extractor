@@ -2,17 +2,197 @@
   "event_name": "Control social",
   "event_date": "13/06/2021",
   "event_location": "Ascó",
-  "total_results": 10,
+  "total_results": 33,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/06/resultat-20210613-controlasco.pdf",
   "results": [
     {
       "athlete_name": "Guillem Ferre Nieto",
       "athlete_dob": "23/05/2006",
       "athlete_id": "CT34",
+      "performance": "13.56",
+      "discipline": "100m MASC. AL SUB 16",
+      "wind": "-2.8",
+      "position": null,
+      "internal_id": 841
+    },
+    {
+      "athlete_name": "Unai Ortiz De Landazuri Ontoso",
+      "athlete_dob": "28/06/2007",
+      "athlete_id": "CL77328",
+      "performance": "17.15",
+      "discipline": "100m vallas (0,91) MASC. AL SUB 16",
+      "wind": "-1.1",
+      "position": null,
+      "internal_id": 908
+    },
+    {
+      "athlete_name": "Joan Martorell Escobar",
+      "athlete_dob": "22/03/2007",
+      "athlete_id": "CL77324",
+      "performance": "20.47",
+      "discipline": "100m vallas (0,91) MASC. AL SUB 16",
+      "wind": "-1.1",
+      "position": null,
+      "internal_id": 914
+    },
+    {
+      "athlete_name": "455 Lluc Subiros Brasero CM 4",
+      "athlete_dob": "06/01/2007",
+      "athlete_id": "CL77331",
+      "performance": "NP",
+      "discipline": "100m vallas (0,91) MASC. AL SUB 16",
+      "wind": "-1.1",
+      "position": null,
+      "internal_id": 899
+    },
+    {
+      "athlete_name": "Unai Ortiz De Landazuri Ontoso",
+      "athlete_dob": "28/06/2007",
+      "athlete_id": "CL77328",
+      "performance": "4.62",
+      "discipline": "Longitud MASC. AL ABS",
+      "wind": "-0.7",
+      "position": null,
+      "internal_id": 908
+    },
+    {
+      "athlete_name": "Unai Ortiz De Landazuri Ontoso",
+      "athlete_dob": "28/06/2007",
+      "athlete_id": "CL77328",
+      "performance": "4.74",
+      "discipline": "Longitud MASC. AL ABS",
+      "wind": "-0.2",
+      "position": null,
+      "internal_id": 908
+    },
+    {
+      "athlete_name": "Unai Ortiz De Landazuri Ontoso",
+      "athlete_dob": "28/06/2007",
+      "athlete_id": "CL77328",
+      "performance": "4.85",
+      "discipline": "Longitud MASC. AL ABS",
+      "wind": "+0.0",
+      "position": null,
+      "internal_id": 908
+    },
+    {
+      "athlete_name": "Unai Ortiz De Landazuri Ontoso",
+      "athlete_dob": "28/06/2007",
+      "athlete_id": "CL77328",
+      "performance": "4.81",
+      "discipline": "Longitud MASC. AL ABS",
+      "wind": "-1.2",
+      "position": null,
+      "internal_id": 908
+    },
+    {
+      "athlete_name": "Unai Ortiz De Landazuri Ontoso",
+      "athlete_dob": "28/06/2007",
+      "athlete_id": "CL77328",
+      "performance": "4.69",
+      "discipline": "Longitud MASC. AL ABS",
+      "wind": "-0.1",
+      "position": null,
+      "internal_id": 908
+    },
+    {
+      "athlete_name": "Guillem Ferre Nieto",
+      "athlete_dob": "23/05/2006",
+      "athlete_id": "CT34",
+      "performance": "4.54",
+      "discipline": "Longitud MASC. AL ABS",
+      "wind": "-0.8",
+      "position": null,
+      "internal_id": 841
+    },
+    {
+      "athlete_name": "Guillem Ferre Nieto",
+      "athlete_dob": "23/05/2006",
+      "athlete_id": "CT34",
+      "performance": "4.45",
+      "discipline": "Longitud MASC. AL ABS",
+      "wind": "-1.7",
+      "position": null,
+      "internal_id": 841
+    },
+    {
+      "athlete_name": "Guillem Ferre Nieto",
+      "athlete_dob": "23/05/2006",
+      "athlete_id": "CT34",
+      "performance": "4.66",
+      "discipline": "Longitud MASC. AL ABS",
+      "wind": "+0.0",
+      "position": null,
+      "internal_id": 841
+    },
+    {
+      "athlete_name": "Guillem Ferre Nieto",
+      "athlete_dob": "23/05/2006",
+      "athlete_id": "CT34",
+      "performance": "4.65",
+      "discipline": "Longitud MASC. AL ABS",
+      "wind": "+0.0",
+      "position": null,
+      "internal_id": 841
+    },
+    {
+      "athlete_name": "Guillem Ferre Nieto",
+      "athlete_dob": "23/05/2006",
+      "athlete_id": "CT34",
+      "performance": "4.36",
+      "discipline": "Longitud MASC. AL ABS",
+      "wind": "-1.4",
+      "position": null,
+      "internal_id": 841
+    },
+    {
+      "athlete_name": "Joan Martorell Escobar",
+      "athlete_dob": "22/03/2007",
+      "athlete_id": "CL77324",
+      "performance": "4.32",
+      "discipline": "Longitud MASC. AL ABS",
+      "wind": "-0.3",
+      "position": null,
+      "internal_id": 914
+    },
+    {
+      "athlete_name": "Joan Martorell Escobar",
+      "athlete_dob": "22/03/2007",
+      "athlete_id": "CL77324",
+      "performance": "4.41",
+      "discipline": "Longitud MASC. AL ABS",
+      "wind": "-0.5",
+      "position": null,
+      "internal_id": 914
+    },
+    {
+      "athlete_name": "Joan Martorell Escobar",
+      "athlete_dob": "22/03/2007",
+      "athlete_id": "CL77324",
+      "performance": "4.07",
+      "discipline": "Longitud MASC. AL ABS",
+      "wind": "-1.0",
+      "position": null,
+      "internal_id": 914
+    },
+    {
+      "athlete_name": "Joan Martorell Escobar",
+      "athlete_dob": "22/03/2007",
+      "athlete_id": "CL77324",
+      "performance": "4.40",
+      "discipline": "Longitud MASC. AL ABS",
+      "wind": "-0.4",
+      "position": null,
+      "internal_id": 914
+    },
+    {
+      "athlete_name": "Guillem Ferre Nieto",
+      "athlete_dob": "23/05/2006",
+      "athlete_id": "CT34",
       "performance": "7.86",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Peso (4kg) MASC. AL SUB 16",
+      "discipline": "Peso (4 Kg) MASC. AL SUB 16",
       "wind": null,
+      "position": null,
       "internal_id": 841
     },
     {
@@ -20,9 +200,9 @@
       "athlete_dob": "23/05/2006",
       "athlete_id": "CT34",
       "performance": "8.24",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Peso (4kg) MASC. AL SUB 16",
+      "discipline": "Peso (4 Kg) MASC. AL SUB 16",
       "wind": null,
+      "position": null,
       "internal_id": 841
     },
     {
@@ -30,9 +210,9 @@
       "athlete_dob": "23/05/2006",
       "athlete_id": "CT34",
       "performance": "7.82",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Peso (4kg) MASC. AL SUB 16",
+      "discipline": "Peso (4 Kg) MASC. AL SUB 16",
       "wind": null,
+      "position": null,
       "internal_id": 841
     },
     {
@@ -40,9 +220,9 @@
       "athlete_dob": "23/05/2006",
       "athlete_id": "CT34",
       "performance": "8.01",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Peso (4kg) MASC. AL SUB 16",
+      "discipline": "Peso (4 Kg) MASC. AL SUB 16",
       "wind": null,
+      "position": null,
       "internal_id": 841
     },
     {
@@ -50,9 +230,9 @@
       "athlete_dob": "23/05/2006",
       "athlete_id": "CT34",
       "performance": "8.06",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Peso (4kg) MASC. AL SUB 16",
+      "discipline": "Peso (4 Kg) MASC. AL SUB 16",
       "wind": null,
+      "position": null,
       "internal_id": 841
     },
     {
@@ -60,9 +240,9 @@
       "athlete_dob": "23/05/2006",
       "athlete_id": "CT34",
       "performance": "7.52",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Peso (4kg) MASC. AL SUB 16",
+      "discipline": "Peso (4 Kg) MASC. AL SUB 16",
       "wind": null,
+      "position": null,
       "internal_id": 841
     },
     {
@@ -70,39 +250,89 @@
       "athlete_dob": "25/02/2006",
       "athlete_id": "CL95252",
       "performance": "13.04",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Peso (4kg) MASC. AL SUB 16",
-      "wind": null,
+      "discipline": "100m FEM. AL SUB 16",
+      "wind": "-2.5",
+      "position": null,
       "internal_id": 837
     },
     {
       "athlete_name": "Anna Artero Fernandez",
       "athlete_dob": "14/11/2006",
       "athlete_id": "CL94373",
-      "performance": "48.34",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Peso (4kg) MASC. AL SUB 16",
+      "performance": "1:48.34",
+      "discipline": "600m FEM. AL SUB 16",
       "wind": null,
+      "position": null,
       "internal_id": 847
     },
     {
       "athlete_name": "Alejandra Basora De Avila",
       "athlete_dob": "11/08/2006",
       "athlete_id": "CL94375",
-      "performance": "50.77",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Peso (4kg) MASC. AL SUB 16",
+      "performance": "1:50.77",
+      "discipline": "600m FEM. AL SUB 16",
       "wind": null,
+      "position": null,
       "internal_id": 864
     },
     {
       "athlete_name": "Silvia Vicente Navarrete",
       "athlete_dob": "31/07/2007",
       "athlete_id": "CL77332",
-      "performance": "16.93",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Peso (4kg) MASC. AL SUB 16",
-      "wind": null,
+      "performance": "4.78",
+      "discipline": "Longitud FEM. AL SUB 16",
+      "wind": "-2.1",
+      "position": null,
+      "internal_id": 905
+    },
+    {
+      "athlete_name": "Silvia Vicente Navarrete",
+      "athlete_dob": "31/07/2007",
+      "athlete_id": "CL77332",
+      "performance": "4.62",
+      "discipline": "Longitud FEM. AL SUB 16",
+      "wind": "-1.0",
+      "position": null,
+      "internal_id": 905
+    },
+    {
+      "athlete_name": "Silvia Vicente Navarrete",
+      "athlete_dob": "31/07/2007",
+      "athlete_id": "CL77332",
+      "performance": "4.85",
+      "discipline": "Longitud FEM. AL SUB 16",
+      "wind": "-0.5",
+      "position": null,
+      "internal_id": 905
+    },
+    {
+      "athlete_name": "Silvia Vicente Navarrete",
+      "athlete_dob": "31/07/2007",
+      "athlete_id": "CL77332",
+      "performance": "4.87",
+      "discipline": "Longitud FEM. AL SUB 16",
+      "wind": "+0.0",
+      "position": null,
+      "internal_id": 905
+    },
+    {
+      "athlete_name": "Silvia Vicente Navarrete",
+      "athlete_dob": "31/07/2007",
+      "athlete_id": "CL77332",
+      "performance": "4.73",
+      "discipline": "Longitud FEM. AL SUB 16",
+      "wind": "-1.2",
+      "position": null,
+      "internal_id": 905
+    },
+    {
+      "athlete_name": "Silvia Vicente Navarrete",
+      "athlete_dob": "31/07/2007",
+      "athlete_id": "CL77332",
+      "performance": "4.86",
+      "discipline": "Longitud FEM. AL SUB 16",
+      "wind": "-0.9",
+      "position": null,
       "internal_id": 905
     }
   ]

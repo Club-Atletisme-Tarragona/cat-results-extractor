@@ -1,49 +1,219 @@
 {
   "event_name": "Campionat de Catalunya Infantil en Pista Coberta (-2000 marxa) - Campionat de Catalunya Infantil en Pista Coberta (-2000 marxa)",
   "event_date": "18/02/2017",
-  "event_location": "Sabadell",
-  "total_results": 4,
+  "event_location": "Club                                           Lic",
+  "total_results": 21,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20170218-catinfantilpcprevia.pdf",
   "results": [
     {
-      "athlete_name": "Martina Pomes Cabello",
+      "athlete_name": "Martina Pomes Cabello IF",
       "athlete_dob": "02/02/2005",
       "athlete_id": "CL71737",
       "performance": "8.61",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m FEM. PC",
+      "discipline": "60m FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 810
     },
     {
-      "athlete_name": "Laurineelisa Marimon Fernandez",
+      "athlete_name": "Elia Fonts Anguera IF",
+      "athlete_dob": "27/01/2004",
+      "athlete_id": "CL82678",
+      "performance": "1:57.22",
+      "discipline": "600m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 729
+    },
+    {
+      "athlete_name": "Lucia Vega Martinez IF",
+      "athlete_dob": "29/07/2005",
+      "athlete_id": "CL86612",
+      "performance": "8:11.32",
+      "discipline": "2.000m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 805
+    },
+    {
+      "athlete_name": "Natalia Sanchez Alvarez IF",
+      "athlete_dob": "28/05/2005",
+      "athlete_id": "CL71748",
+      "performance": "12.23",
+      "discipline": "60m tanques FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 796
+    },
+    {
+      "athlete_name": "Liana De Las Heras Ruiz IF",
+      "athlete_dob": "27/02/2004",
+      "athlete_id": "CL71697",
+      "performance": "11.23",
+      "discipline": "60m tanques FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Pol Aixala Guiu IM",
+      "athlete_dob": "04/12/2004",
+      "athlete_id": "CL69309",
+      "performance": "11.43",
+      "discipline": "60m tanques MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 733
+    },
+    {
+      "athlete_name": "Martina Pomes Cabello IF",
+      "athlete_dob": "02/02/2005",
+      "athlete_id": "CL71737",
+      "performance": "1.23",
+      "discipline": "Alçada FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 810
+    },
+    {
+      "athlete_name": "Laurineelisa Marimon Fernandez IF",
+      "athlete_dob": "17/09/2004",
+      "athlete_id": "CL69330",
+      "performance": "4.70",
+      "discipline": "Llargada FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 737
+    },
+    {
+      "athlete_name": "Laurineelisa Marimon Fernandez IF",
+      "athlete_dob": "17/09/2004",
+      "athlete_id": "CL69330",
+      "performance": "4.52",
+      "discipline": "Llargada FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 737
+    },
+    {
+      "athlete_name": "Liana De Las Heras Ruiz IF",
+      "athlete_dob": "27/02/2004",
+      "athlete_id": "CL71697",
+      "performance": "3.87",
+      "discipline": "Llargada FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Liana De Las Heras Ruiz IF",
+      "athlete_dob": "27/02/2004",
+      "athlete_id": "CL71697",
+      "performance": "3.38",
+      "discipline": "Llargada FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Liana De Las Heras Ruiz IF",
+      "athlete_dob": "27/02/2004",
+      "athlete_id": "CL71697",
+      "performance": "3.85",
+      "discipline": "Llargada FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Laurineelisa Marimon Fernandez IF",
       "athlete_dob": "17/09/2004",
       "athlete_id": "CL69330",
       "performance": "10.21",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt FEM. PC",
+      "discipline": "Triple Salt FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 737
     },
     {
-      "athlete_name": "Laurineelisa Marimon Fernandez",
+      "athlete_name": "Laurineelisa Marimon Fernandez IF",
       "athlete_dob": "17/09/2004",
       "athlete_id": "CL69330",
       "performance": "10.27",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt FEM. PC",
+      "discipline": "Triple Salt FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 737
     },
     {
-      "athlete_name": "Laurineelisa Marimon Fernandez",
+      "athlete_name": "Laurineelisa Marimon Fernandez IF",
       "athlete_dob": "17/09/2004",
       "athlete_id": "CL69330",
       "performance": "10.37",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt FEM. PC",
+      "discipline": "Triple Salt FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 737
+    },
+    {
+      "athlete_name": "Oscar Bartolome Vazquez IM",
+      "athlete_dob": "25/04/2004",
+      "athlete_id": "CL71686",
+      "performance": "7.48",
+      "discipline": "Pes (3 Kg) MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 738
+    },
+    {
+      "athlete_name": "Oscar Bartolome Vazquez IM",
+      "athlete_dob": "25/04/2004",
+      "athlete_id": "CL71686",
+      "performance": "7.65",
+      "discipline": "Pes (3 Kg) MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 738
+    },
+    {
+      "athlete_name": "Oscar Bartolome Vazquez IM",
+      "athlete_dob": "25/04/2004",
+      "athlete_id": "CL71686",
+      "performance": "7.71",
+      "discipline": "Pes (3 Kg) MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 738
+    },
+    {
+      "athlete_name": "Oriol Aldave Fores IM",
+      "athlete_dob": "23/08/2004",
+      "athlete_id": "CL77303",
+      "performance": "7.35",
+      "discipline": "Pes (3 Kg) MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 746
+    },
+    {
+      "athlete_name": "Oriol Aldave Fores IM",
+      "athlete_dob": "23/08/2004",
+      "athlete_id": "CL77303",
+      "performance": "6.74",
+      "discipline": "Pes (3 Kg) MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 746
+    },
+    {
+      "athlete_name": "Oriol Aldave Fores IM",
+      "athlete_dob": "23/08/2004",
+      "athlete_id": "CL77303",
+      "performance": "7.31",
+      "discipline": "Pes (3 Kg) MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 746
     }
   ]
 }

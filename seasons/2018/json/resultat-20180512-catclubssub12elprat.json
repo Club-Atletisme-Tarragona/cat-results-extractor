@@ -2,7 +2,7 @@
   "event_name": "Campionat Catalunya Clubs Sub12 Masculí",
   "event_date": "12/05/2018",
   "event_location": "El Prat de Llobregat",
-  "total_results": 12,
+  "total_results": 20,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20180512-catclubssub12elprat.pdf",
   "results": [
     {
@@ -13,7 +13,30 @@
       "discipline": "Alçada",
       "raw_discipline_name": "Alçada MASC. AL",
       "wind": null,
+      "position": null,
       "internal_id": 958
+    },
+    {
+      "athlete_name": "Jairo Soriano Espinilla",
+      "athlete_dob": "12/07/2007",
+      "athlete_id": "CL90880",
+      "performance": "3.25",
+      "discipline": "Llargada",
+      "raw_discipline_name": "Llargada MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Jairo Soriano Espinilla",
+      "athlete_dob": "12/07/2007",
+      "athlete_id": "CL90880",
+      "performance": "3.18",
+      "discipline": "Llargada",
+      "raw_discipline_name": "Llargada MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
     },
     {
       "athlete_name": "Joan Martorell Escobar",
@@ -21,8 +44,9 @@
       "athlete_id": "CL77324",
       "performance": "3.91",
       "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Pes (2kg) MASC. AL",
+      "raw_discipline_name": "Pes (2 Kg) MASC. AL",
       "wind": null,
+      "position": null,
       "internal_id": 914
     },
     {
@@ -31,8 +55,9 @@
       "athlete_id": "CL77324",
       "performance": "6.06",
       "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Pes (2kg) MASC. AL",
+      "raw_discipline_name": "Pes (2 Kg) MASC. AL",
       "wind": null,
+      "position": null,
       "internal_id": 914
     },
     {
@@ -41,8 +66,9 @@
       "athlete_id": "CL77324",
       "performance": "5.91",
       "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Pes (2kg) MASC. AL",
+      "raw_discipline_name": "Pes (2 Kg) MASC. AL",
       "wind": null,
+      "position": null,
       "internal_id": 914
     },
     {
@@ -53,6 +79,7 @@
       "discipline": "Disc (600 g)",
       "raw_discipline_name": "Disc (600g) MASC. AL",
       "wind": null,
+      "position": null,
       "internal_id": 922
     },
     {
@@ -63,6 +90,7 @@
       "discipline": "Disc (600 g)",
       "raw_discipline_name": "Disc (600g) MASC. AL",
       "wind": null,
+      "position": null,
       "internal_id": 922
     },
     {
@@ -73,6 +101,7 @@
       "discipline": "Disc (600 g)",
       "raw_discipline_name": "Disc (600g) MASC. AL",
       "wind": null,
+      "position": null,
       "internal_id": 899
     },
     {
@@ -83,6 +112,7 @@
       "discipline": "Disc (600 g)",
       "raw_discipline_name": "Disc (600g) MASC. AL",
       "wind": null,
+      "position": null,
       "internal_id": 899
     },
     {
@@ -93,16 +123,18 @@
       "discipline": "Disc (600 g)",
       "raw_discipline_name": "Disc (600g) MASC. AL",
       "wind": null,
+      "position": null,
       "internal_id": 899
     },
     {
-      "athlete_name": "Miguel Reyes Alcantara",
-      "athlete_dob": "17/12/2008",
-      "athlete_id": "CL82987",
-      "performance": "14:35.00",
-      "discipline": "2000 metres marxa",
-      "raw_discipline_name": "2.000m Marxa MASC. en pista",
+      "athlete_name": "Segolene-josephine Deconinck Urbano",
+      "athlete_dob": "02/02/2007",
+      "athlete_id": "CL90889",
+      "performance": "1.15",
+      "discipline": "Alçada",
+      "raw_discipline_name": "Alçada FEM. AL",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -113,6 +145,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada FEM. AL",
       "wind": null,
+      "position": null,
       "internal_id": 928
     },
     {
@@ -123,7 +156,74 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada FEM. AL",
       "wind": null,
+      "position": null,
       "internal_id": 928
+    },
+    {
+      "athlete_name": "Laura Exposito Pijuan",
+      "athlete_dob": "10/09/2007",
+      "athlete_id": "CL86455",
+      "performance": "4.15",
+      "discipline": "Pes (2 Kg)",
+      "raw_discipline_name": "Pes (2 Kg) FEM AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 923
+    },
+    {
+      "athlete_name": "Laura Exposito Pijuan",
+      "athlete_dob": "10/09/2007",
+      "athlete_id": "CL86455",
+      "performance": "4.14",
+      "discipline": "Pes (2 Kg)",
+      "raw_discipline_name": "Pes (2 Kg) FEM AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 923
+    },
+    {
+      "athlete_name": "Candela Valle Garcia",
+      "athlete_dob": "09/06/2008",
+      "athlete_id": "CL86477",
+      "performance": "10.38",
+      "discipline": "Disc (600 g)",
+      "raw_discipline_name": "Disc (600g) FEM.",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Pilar Aranda Sanchez",
+      "athlete_dob": "03/04/2008",
+      "athlete_id": "CL90888",
+      "performance": "16.79",
+      "discipline": "Disc (600 g)",
+      "raw_discipline_name": "Disc (600g) FEM.",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Pilar Aranda Sanchez",
+      "athlete_dob": "03/04/2008",
+      "athlete_id": "CL90888",
+      "performance": "16.70",
+      "discipline": "Disc (600 g)",
+      "raw_discipline_name": "Disc (600g) FEM.",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Pilar Aranda Sanchez",
+      "athlete_dob": "03/04/2008",
+      "athlete_id": "CL90888",
+      "performance": "9.80",
+      "discipline": "Disc (600 g)",
+      "raw_discipline_name": "Disc (600g) FEM.",
+      "wind": null,
+      "position": null,
+      "internal_id": null
     }
   ]
 }

@@ -1,18 +1,38 @@
 {
   "event_name": "Control Sub 16 en Pista Coberta - Control Sub 16 en Pista Coberta",
   "event_date": "15/01/2023",
-  "event_location": "Sabadell",
-  "total_results": 7,
+  "event_location": "Club                                            Lic",
+  "total_results": 9,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2023/01/resultat-20230115-controlsub16pcsabadell.pdf",
   "results": [
     {
       "athlete_name": "Victor Jimenez Garcia",
       "athlete_dob": "25/05/2008",
       "athlete_id": "CT1465",
-      "performance": "6.01",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada MASC. PC - ANY 2008",
+      "performance": "7.47",
+      "discipline": "60m MASC. PC",
       "wind": null,
+      "position": null,
+      "internal_id": 958
+    },
+    {
+      "athlete_name": "Jan Vives Fons",
+      "athlete_dob": "16/03/2008",
+      "athlete_id": "CL95144",
+      "performance": "9.21",
+      "discipline": "60m tanques (0,91) MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 977
+    },
+    {
+      "athlete_name": "Victor Jimenez Garcia",
+      "athlete_dob": "25/05/2008",
+      "athlete_id": "CT1465",
+      "performance": "6.01",
+      "discipline": "Llargada MASC. PC - ANY 2008",
+      "wind": null,
+      "position": null,
       "internal_id": 958
     },
     {
@@ -20,9 +40,9 @@
       "athlete_dob": "25/05/2008",
       "athlete_id": "CT1465",
       "performance": "5.98",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada MASC. PC - ANY 2008",
+      "discipline": "Llargada MASC. PC - ANY 2008",
       "wind": null,
+      "position": null,
       "internal_id": 958
     },
     {
@@ -30,9 +50,9 @@
       "athlete_dob": "25/05/2008",
       "athlete_id": "CT1465",
       "performance": "5.89",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada MASC. PC - ANY 2008",
+      "discipline": "Llargada MASC. PC - ANY 2008",
       "wind": null,
+      "position": null,
       "internal_id": 958
     },
     {
@@ -40,9 +60,9 @@
       "athlete_dob": "25/05/2008",
       "athlete_id": "CT1465",
       "performance": "5.74",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada MASC. PC - ANY 2008",
+      "discipline": "Llargada MASC. PC - ANY 2008",
       "wind": null,
+      "position": null,
       "internal_id": 958
     },
     {
@@ -50,9 +70,9 @@
       "athlete_dob": "25/05/2008",
       "athlete_id": "CT1465",
       "performance": "4.66",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada MASC. PC - ANY 2008",
+      "discipline": "Llargada MASC. PC - ANY 2008",
       "wind": null,
+      "position": null,
       "internal_id": 958
     },
     {
@@ -60,9 +80,9 @@
       "athlete_dob": "22/10/2008",
       "athlete_id": "CT1650",
       "performance": "11.92",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Pes (4kg) MASC. PC - ANY 2008",
+      "discipline": "Pes (4 Kg) MASC. PC - ANY 2008",
       "wind": null,
+      "position": null,
       "internal_id": 971
     },
     {
@@ -70,9 +90,9 @@
       "athlete_dob": "22/10/2008",
       "athlete_id": "CT1650",
       "performance": "11.34",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Pes (4kg) MASC. PC - ANY 2008",
+      "discipline": "Pes (4 Kg) MASC. PC - ANY 2008",
       "wind": null,
+      "position": null,
       "internal_id": 971
     }
   ]

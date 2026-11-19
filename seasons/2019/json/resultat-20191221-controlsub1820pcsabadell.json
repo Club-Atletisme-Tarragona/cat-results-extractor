@@ -1,8 +1,8 @@
 {
   "event_name": "Control Pista Coberta Sub20 - Sub18 - 2a. jornada - Control Pista Coberta Sub20 - Sub18 - 2a. jornada",
   "event_date": "21/12/2019",
-  "event_location": "Sabadell",
-  "total_results": 5,
+  "event_location": "Club                                            Lic",
+  "total_results": 12,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20191221-controlsub1820pcsabadell.pdf",
   "results": [
     {
@@ -10,9 +10,9 @@
       "athlete_dob": "26/01/2003",
       "athlete_id": "CT28510",
       "performance": "7.79",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m MASC. PC",
+      "discipline": "60m MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 704
     },
     {
@@ -20,9 +20,9 @@
       "athlete_dob": "10/11/2003",
       "athlete_id": "CL29248",
       "performance": "8.05",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m MASC. PC",
+      "discipline": "60m MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 710
     },
     {
@@ -30,9 +30,9 @@
       "athlete_dob": "31/01/2004",
       "athlete_id": "CL86461",
       "performance": "7.97",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m MASC. PC",
+      "discipline": "60m MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 735
     },
     {
@@ -40,9 +40,9 @@
       "athlete_dob": "08/04/2002",
       "athlete_id": "CL27846",
       "performance": "7.80",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m MASC. PC",
+      "discipline": "60m MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 653
     },
     {
@@ -50,10 +50,80 @@
       "athlete_dob": "04/12/2004",
       "athlete_id": "CL69309",
       "performance": "7.94",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m MASC. PC",
+      "discipline": "60m MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 733
+    },
+    {
+      "athlete_name": "David Bonnin Obach",
+      "athlete_dob": "10/11/2003",
+      "athlete_id": "CL29248",
+      "performance": "1:02.10",
+      "discipline": "400m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 710
+    },
+    {
+      "athlete_name": "Pol Aixala Guiu",
+      "athlete_dob": "04/12/2004",
+      "athlete_id": "CL69309",
+      "performance": "0:55.95",
+      "discipline": "400m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 733
+    },
+    {
+      "athlete_name": "Laura Yan Sole Barba",
+      "athlete_dob": "31/10/2003",
+      "athlete_id": "CL29246",
+      "performance": "8.14",
+      "discipline": "60m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 701
+    },
+    {
+      "athlete_name": "Laura Yan Sole Barba",
+      "athlete_dob": "31/10/2003",
+      "athlete_id": "CL29246",
+      "performance": "1:00.99",
+      "discipline": "400m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 701
+    },
+    {
+      "athlete_name": "Ainhoa Perez Diaz",
+      "athlete_dob": "12/10/2003",
+      "athlete_id": "CL29245",
+      "performance": "1:15.16",
+      "discipline": "400m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 711
+    },
+    {
+      "athlete_name": "Leire Dominguez Izaga",
+      "athlete_dob": "18/08/2004",
+      "athlete_id": "CT29769",
+      "performance": "1:06.98",
+      "discipline": "400m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 743
+    },
+    {
+      "athlete_name": "358 Maria Falco Cuenca",
+      "athlete_dob": "14/06/2002",
+      "athlete_id": "CT27273",
+      "performance": "NP",
+      "discipline": "Alçada FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 664
     }
   ]
 }

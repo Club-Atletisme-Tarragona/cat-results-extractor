@@ -1,8 +1,8 @@
 {
   "event_name": "Jornada Final Campionat Catalunya Benjamí",
   "event_date": "10/06/2017",
-  "event_location": "Castellar",
-  "total_results": 1,
+  "event_location": "Castellar del Vallés",
+  "total_results": 4,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20170610-catbenjamifinal.pdf",
   "results": [
     {
@@ -10,10 +10,40 @@
       "athlete_dob": "25/05/2008",
       "athlete_id": "CL82981",
       "performance": "1.15",
-      "discipline": "Alçada",
-      "raw_discipline_name": "ALÇADA BENJAMI MASCULI",
+      "discipline": "ALÇADA BENJAMI MASCULI",
       "wind": null,
+      "position": 2,
       "internal_id": 958
+    },
+    {
+      "athlete_name": "Guillem Ferran Jimenez",
+      "athlete_dob": "08/03/2008",
+      "athlete_id": "CL82978",
+      "performance": "3.26",
+      "discipline": "LLARGADA BENJAMI MASCULI",
+      "wind": null,
+      "position": 4,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Guillem Ferran Jimenez",
+      "athlete_dob": "08/03/2008",
+      "athlete_id": "CL82978",
+      "performance": "3.80",
+      "discipline": "LLARGADA BENJAMI MASCULI",
+      "wind": null,
+      "position": 4,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Miguel Reyes Alcantara",
+      "athlete_dob": "17/12/2008",
+      "athlete_id": "CL82987",
+      "performance": "7:06.18",
+      "discipline": "1000 METRES MARXA BENJAMI MASCULI",
+      "wind": null,
+      "position": 11,
+      "internal_id": null
     }
   ]
 }

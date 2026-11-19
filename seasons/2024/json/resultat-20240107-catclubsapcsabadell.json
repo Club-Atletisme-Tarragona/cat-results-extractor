@@ -1,18 +1,108 @@
 {
   "event_name": "Campionat de Catalunya de Clubs \"A\" en Pista Coberta - Campionat de Catalunya de Clubs \"A\" en Pista Coberta",
   "event_date": "07/01/2024",
-  "event_location": "Vilafranca",
-  "total_results": 10,
+  "event_location": "Club                                              Lic",
+  "total_results": 23,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2024/01/resultat-20240107-catclubsapcsabadell.pdf",
   "results": [
+    {
+      "athlete_name": "Maria Antonietta Salazar",
+      "athlete_dob": "03/01/2006",
+      "athlete_id": "CT2176",
+      "performance": "8.06",
+      "discipline": "60m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 897
+    },
+    {
+      "athlete_name": "Mireia Redondo Mendoza",
+      "athlete_dob": "10/06/2008",
+      "athlete_id": "CT1467",
+      "performance": "26.28",
+      "discipline": "200m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 957
+    },
+    {
+      "athlete_name": "Claudia Mir Casellas",
+      "athlete_dob": "02/08/2003",
+      "athlete_id": "CT152",
+      "performance": "0:58.22",
+      "discipline": "400m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 699
+    },
+    {
+      "athlete_name": "Ainoa Rodriguez Murillo",
+      "athlete_dob": "17/01/2008",
+      "athlete_id": "CT1619",
+      "performance": "2:39.53",
+      "discipline": "800m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 965
+    },
+    {
+      "athlete_name": "Anna Artero Fernandez",
+      "athlete_dob": "14/11/2006",
+      "athlete_id": "CT2389",
+      "performance": "5:13.35",
+      "discipline": "1.500m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 847
+    },
+    {
+      "athlete_name": "Carla Gonzalez Carrillo",
+      "athlete_dob": "05/06/2003",
+      "athlete_id": "CT27282",
+      "performance": "11:05.64",
+      "discipline": "3.000m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 698
+    },
+    {
+      "athlete_name": "Mireia Lopez Urbano",
+      "athlete_dob": "07/12/2000",
+      "athlete_id": "CT23556",
+      "performance": "8.77",
+      "discipline": "60m tanques (0,84) FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 527
+    },
+    {
+      "athlete_name": "Sofia Rubio Reunis",
+      "athlete_dob": "15/02/2007",
+      "athlete_id": "CT7092",
+      "performance": "1.57",
+      "discipline": "Alçada FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 935
+    },
+    {
+      "athlete_name": "Alicia Vazquez Domingo",
+      "athlete_dob": "09/10/1999",
+      "athlete_id": "CT23992",
+      "performance": "2.80",
+      "discipline": "Perxa FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 472
+    },
     {
       "athlete_name": "Natalia Sanchez Alvarez",
       "athlete_dob": "28/05/2005",
       "athlete_id": "CT29768",
       "performance": "5.22",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada FEM. PC",
+      "discipline": "Llargada FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 796
     },
     {
@@ -20,9 +110,9 @@
       "athlete_dob": "28/05/2005",
       "athlete_id": "CT29768",
       "performance": "5.13",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada FEM. PC",
+      "discipline": "Llargada FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 796
     },
     {
@@ -30,9 +120,9 @@
       "athlete_dob": "14/06/2002",
       "athlete_id": "CT27273",
       "performance": "9.98",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt FEM. PC",
+      "discipline": "Triple Salt FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 664
     },
     {
@@ -40,9 +130,9 @@
       "athlete_dob": "14/06/2002",
       "athlete_id": "CT27273",
       "performance": "9.80",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt FEM. PC",
+      "discipline": "Triple Salt FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 664
     },
     {
@@ -50,9 +140,9 @@
       "athlete_dob": "14/06/2002",
       "athlete_id": "CT27273",
       "performance": "9.99",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt FEM. PC",
+      "discipline": "Triple Salt FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 664
     },
     {
@@ -60,9 +150,9 @@
       "athlete_dob": "14/06/2002",
       "athlete_id": "CT27273",
       "performance": "10.13",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt FEM. PC",
+      "discipline": "Triple Salt FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 664
     },
     {
@@ -70,9 +160,9 @@
       "athlete_dob": "14/06/2002",
       "athlete_id": "CT27273",
       "performance": "9.48",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt FEM. PC",
+      "discipline": "Triple Salt FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 664
     },
     {
@@ -80,9 +170,9 @@
       "athlete_dob": "06/08/1995",
       "athlete_id": "CT20392",
       "performance": "10.32",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Pes (4kg) FEM. PC",
+      "discipline": "Pes (4 Kg) FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 359
     },
     {
@@ -90,9 +180,9 @@
       "athlete_dob": "06/08/1995",
       "athlete_id": "CT20392",
       "performance": "9.89",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Pes (4kg) FEM. PC",
+      "discipline": "Pes (4 Kg) FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 359
     },
     {
@@ -100,10 +190,50 @@
       "athlete_dob": "06/08/1995",
       "athlete_id": "CT20392",
       "performance": "9.32",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Pes (4kg) FEM. PC",
+      "discipline": "Pes (4 Kg) FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 359
+    },
+    {
+      "athlete_name": "Mireia Lopez Urbano",
+      "athlete_dob": "07/12/2000",
+      "athlete_id": "CT23556",
+      "performance": "4:01.05",
+      "discipline": "4x400m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 527
+    },
+    {
+      "athlete_name": "Claudia Mir Casellas",
+      "athlete_dob": "02/08/2003",
+      "athlete_id": "CT152",
+      "performance": "4:01.05",
+      "discipline": "4x400m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 699
+    },
+    {
+      "athlete_name": "Mireia Redondo Mendoza",
+      "athlete_dob": "10/06/2008",
+      "athlete_id": "CT1467",
+      "performance": "4:01.05",
+      "discipline": "4x400m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 957
+    },
+    {
+      "athlete_name": "Maria Antonietta Salazar",
+      "athlete_dob": "03/01/2006",
+      "athlete_id": "CT2176",
+      "performance": "4:01.05",
+      "discipline": "4x400m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 897
     }
   ]
 }

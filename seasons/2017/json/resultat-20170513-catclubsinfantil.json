@@ -2,57 +2,197 @@
   "event_name": "Campionat Catalunya Clubs Infantil Masculí",
   "event_date": "13/05/2017",
   "event_location": "El Prat de Llobregat",
-  "total_results": 14,
+  "total_results": 43,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20170513-catclubsinfantil.pdf",
   "results": [
     {
-      "athlete_name": "Pol Mascarell Julian",
+      "athlete_name": "Pol Mascarell Julian IM",
       "athlete_dob": "16/01/2005",
       "athlete_id": "CL69331",
       "performance": "1.15",
-      "discipline": "Alçada",
-      "raw_discipline_name": "SALT D'ALÇADA INFANTIL MASCULI",
+      "discipline": "SALT D'ALÇADA INFANTIL MASCULI",
       "wind": null,
+      "position": null,
       "internal_id": 646
+    },
+    {
+      "athlete_name": "Isaac Guzman Velasco IM",
+      "athlete_dob": "30/03/2005",
+      "athlete_id": "CL77319",
+      "performance": "3.15",
+      "discipline": "SALT DE LLARGADA INFANTIL MASCULI",
+      "wind": "-0.1",
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Oscar Bartolome Vazquez IM",
+      "athlete_dob": "25/04/2004",
+      "athlete_id": "CL71686",
+      "performance": "7.26",
+      "discipline": "LLANÇAMENT DE PES INFANTIL MASCULI",
+      "wind": null,
+      "position": null,
+      "internal_id": 738
+    },
+    {
+      "athlete_name": "Oscar Bartolome Vazquez IM",
+      "athlete_dob": "25/04/2004",
+      "athlete_id": "CL71686",
+      "performance": "7.02",
+      "discipline": "LLANÇAMENT DE PES INFANTIL MASCULI",
+      "wind": null,
+      "position": null,
+      "internal_id": 738
+    },
+    {
+      "athlete_name": "Oscar Bartolome Vazquez IM",
+      "athlete_dob": "25/04/2004",
+      "athlete_id": "CL71686",
+      "performance": "6.86",
+      "discipline": "LLANÇAMENT DE PES INFANTIL MASCULI",
+      "wind": null,
+      "position": null,
+      "internal_id": 738
+    },
+    {
+      "athlete_name": "Oscar Bartolome Vazquez IM",
+      "athlete_dob": "25/04/2004",
+      "athlete_id": "CL71686",
+      "performance": "20.76",
+      "discipline": "LLANÇAMENT DE DISC INFANTIL MASCULI",
+      "wind": null,
+      "position": null,
+      "internal_id": 738
+    },
+    {
+      "athlete_name": "Oriol Aldave Fores IM",
+      "athlete_dob": "23/08/2004",
+      "athlete_id": "CL77303",
+      "performance": "19.49",
+      "discipline": "LLANÇAMENT DE MARTELL INFANTIL MASCULI",
+      "wind": null,
+      "position": null,
+      "internal_id": 746
+    },
+    {
+      "athlete_name": "Oriol Aldave Fores IM",
+      "athlete_dob": "23/08/2004",
+      "athlete_id": "CL77303",
+      "performance": "16.49",
+      "discipline": "LLANÇAMENT DE MARTELL INFANTIL MASCULI",
+      "wind": null,
+      "position": null,
+      "internal_id": 746
+    },
+    {
+      "athlete_name": "Oriol Aldave Fores IM",
+      "athlete_dob": "23/08/2004",
+      "athlete_id": "CL77303",
+      "performance": "17.33",
+      "discipline": "LLANÇAMENT DE MARTELL INFANTIL MASCULI",
+      "wind": null,
+      "position": null,
+      "internal_id": 746
+    },
+    {
+      "athlete_name": "Oriol Aldave Fores IM",
+      "athlete_dob": "23/08/2004",
+      "athlete_id": "CL77303",
+      "performance": "21.08",
+      "discipline": "LLANÇAMENT DE JAVELINA INFANTIL MASCULI",
+      "wind": null,
+      "position": null,
+      "internal_id": 746
+    },
+    {
+      "athlete_name": "Oriol Aldave Fores IM",
+      "athlete_dob": "23/08/2004",
+      "athlete_id": "CL77303",
+      "performance": "19.25",
+      "discipline": "LLANÇAMENT DE JAVELINA INFANTIL MASCULI",
+      "wind": null,
+      "position": null,
+      "internal_id": 746
+    },
+    {
+      "athlete_name": "Oriol Aldave Fores IM",
+      "athlete_dob": "23/08/2004",
+      "athlete_id": "CL77303",
+      "performance": "18.45",
+      "discipline": "LLANÇAMENT DE JAVELINA INFANTIL MASCULI",
+      "wind": null,
+      "position": null,
+      "internal_id": 746
+    },
+    {
+      "athlete_name": "Oriol Foix Amoros",
+      "athlete_dob": "31/01/2004",
+      "athlete_id": "CL86461",
+      "performance": "49.61",
+      "discipline": "RELLEUS 4X80 INFANTIL MASCULI",
+      "wind": null,
+      "position": null,
+      "internal_id": 735
     },
     {
       "athlete_name": "Isaac Guzman Velasco",
       "athlete_dob": "30/03/2005",
       "athlete_id": "CL77319",
-      "performance": "3.15",
-      "discipline": "Llargada",
-      "raw_discipline_name": "SALT DE LLARGADA INFANTIL MASCULI",
-      "wind": "-0.1",
+      "performance": "49.61",
+      "discipline": "RELLEUS 4X80 INFANTIL MASCULI",
+      "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
-      "athlete_name": "Oscar Bartolome Vazquez",
-      "athlete_dob": "25/04/2004",
-      "athlete_id": "CL71686",
-      "performance": "20.76",
-      "discipline": "Disc (800 g)",
-      "raw_discipline_name": "LLANÇAMENT DE DISC INFANTIL MASCULI",
+      "athlete_name": "Marcos Penades Rangil",
+      "athlete_dob": "24/09/2004",
+      "athlete_id": "CL86469",
+      "performance": "49.61",
+      "discipline": "RELLEUS 4X80 INFANTIL MASCULI",
       "wind": null,
-      "internal_id": 738
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Daniel Valdes Pellisse",
+      "athlete_dob": "06/07/2004",
+      "athlete_id": "CL82686",
+      "performance": "49.61",
+      "discipline": "RELLEUS 4X80 INFANTIL MASCULI",
+      "wind": null,
+      "position": null,
+      "internal_id": 756
     },
     {
       "athlete_name": "Laura Santos Martinez",
       "athlete_dob": "14/09/2005",
       "athlete_id": "CL71751",
       "performance": "1.10",
-      "discipline": "Alçada",
-      "raw_discipline_name": "SALT D'ALÇADA INFANTIL FEMENI",
+      "discipline": "SALT D'ALÇADA INFANTIL FEMENI",
       "wind": null,
+      "position": null,
       "internal_id": 807
+    },
+    {
+      "athlete_name": "Lara Herrera Vallve",
+      "athlete_dob": "07/04/2005",
+      "athlete_id": "CL82414",
+      "performance": "1.70",
+      "discipline": "SALT AMB PERXA INFANTIL FEMENI",
+      "wind": null,
+      "position": null,
+      "internal_id": 813
     },
     {
       "athlete_name": "Natalia Sanchez Alvarez",
       "athlete_dob": "28/05/2005",
       "athlete_id": "CL71748",
       "performance": "3.68",
-      "discipline": "Llargada",
-      "raw_discipline_name": "SALT DE LLARGADA INFANTIL FEMENI",
+      "discipline": "SALT DE LLARGADA INFANTIL FEMENI",
       "wind": "-1.7",
+      "position": null,
       "internal_id": 796
     },
     {
@@ -60,9 +200,9 @@
       "athlete_dob": "17/09/2004",
       "athlete_id": "CL69330",
       "performance": "9.56",
-      "discipline": "Triple",
-      "raw_discipline_name": "TRIPLE SALT INFANTIL FEMENI",
+      "discipline": "TRIPLE SALT INFANTIL FEMENI",
       "wind": null,
+      "position": null,
       "internal_id": 737
     },
     {
@@ -70,9 +210,9 @@
       "athlete_dob": "17/09/2004",
       "athlete_id": "CL69330",
       "performance": "9.86",
-      "discipline": "Triple",
-      "raw_discipline_name": "TRIPLE SALT INFANTIL FEMENI",
+      "discipline": "TRIPLE SALT INFANTIL FEMENI",
       "wind": null,
+      "position": null,
       "internal_id": 737
     },
     {
@@ -80,9 +220,9 @@
       "athlete_dob": "17/09/2004",
       "athlete_id": "CL69330",
       "performance": "10.10",
-      "discipline": "Triple",
-      "raw_discipline_name": "TRIPLE SALT INFANTIL FEMENI",
+      "discipline": "TRIPLE SALT INFANTIL FEMENI",
       "wind": null,
+      "position": null,
       "internal_id": 737
     },
     {
@@ -90,9 +230,9 @@
       "athlete_dob": "29/01/2005",
       "athlete_id": "CL71683",
       "performance": "7.97",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "LLANÇAMENT DE PES INFANTIL FEMENI",
+      "discipline": "LLANÇAMENT DE PES INFANTIL FEMENI",
       "wind": null,
+      "position": null,
       "internal_id": 800
     },
     {
@@ -100,9 +240,9 @@
       "athlete_dob": "29/01/2005",
       "athlete_id": "CL71683",
       "performance": "8.68",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "LLANÇAMENT DE PES INFANTIL FEMENI",
+      "discipline": "LLANÇAMENT DE PES INFANTIL FEMENI",
       "wind": null,
+      "position": null,
       "internal_id": 800
     },
     {
@@ -110,9 +250,9 @@
       "athlete_dob": "29/01/2005",
       "athlete_id": "CL71683",
       "performance": "9.16",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "LLANÇAMENT DE PES INFANTIL FEMENI",
+      "discipline": "LLANÇAMENT DE PES INFANTIL FEMENI",
       "wind": null,
+      "position": null,
       "internal_id": 800
     },
     {
@@ -120,9 +260,9 @@
       "athlete_dob": "14/04/2005",
       "athlete_id": "CL82417",
       "performance": "12.01",
-      "discipline": "Disc (800 g)",
-      "raw_discipline_name": "LLANÇAMENT DE DISC INFANTIL FEMENI",
+      "discipline": "LLANÇAMENT DE DISC INFANTIL FEMENI",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -130,9 +270,9 @@
       "athlete_dob": "14/04/2005",
       "athlete_id": "CL82417",
       "performance": "12.04",
-      "discipline": "Disc (800 g)",
-      "raw_discipline_name": "LLANÇAMENT DE DISC INFANTIL FEMENI",
+      "discipline": "LLANÇAMENT DE DISC INFANTIL FEMENI",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -140,10 +280,160 @@
       "athlete_dob": "14/04/2005",
       "athlete_id": "CL82417",
       "performance": "11.03",
-      "discipline": "Disc (800 g)",
-      "raw_discipline_name": "LLANÇAMENT DE DISC INFANTIL FEMENI",
+      "discipline": "LLANÇAMENT DE DISC INFANTIL FEMENI",
       "wind": null,
+      "position": null,
       "internal_id": null
+    },
+    {
+      "athlete_name": "Berta Pelicano Sanchis",
+      "athlete_dob": "14/04/2005",
+      "athlete_id": "CL82417",
+      "performance": "15.09",
+      "discipline": "LLANÇAMENT DE MARTELL INFANTIL FEMENI",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Berta Pelicano Sanchis",
+      "athlete_dob": "14/04/2005",
+      "athlete_id": "CL82417",
+      "performance": "20.79",
+      "discipline": "LLANÇAMENT DE MARTELL INFANTIL FEMENI",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Berta Pelicano Sanchis",
+      "athlete_dob": "14/04/2005",
+      "athlete_id": "CL82417",
+      "performance": "21.30",
+      "discipline": "LLANÇAMENT DE MARTELL INFANTIL FEMENI",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Ariadna Suarez Piza",
+      "athlete_dob": "20/03/2005",
+      "athlete_id": "CL71753",
+      "performance": "9.57",
+      "discipline": "LLANÇAMENT DE JAVELINA INFANTIL FEMENI",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Ariadna Suarez Piza",
+      "athlete_dob": "20/03/2005",
+      "athlete_id": "CL71753",
+      "performance": "10.42",
+      "discipline": "LLANÇAMENT DE JAVELINA INFANTIL FEMENI",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Ariadna Suarez Piza",
+      "athlete_dob": "20/03/2005",
+      "athlete_id": "CL71753",
+      "performance": "10.90",
+      "discipline": "LLANÇAMENT DE JAVELINA INFANTIL FEMENI",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Berta Pomes Cabello",
+      "athlete_dob": "02/02/2005",
+      "athlete_id": "CL69339",
+      "performance": "23:06.00",
+      "discipline": "3000 METRES MARXA INFANTIL FEMENI",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Laia Aldave Mas",
+      "athlete_dob": "29/01/2005",
+      "athlete_id": "CL71683",
+      "performance": "46.02",
+      "discipline": "RELLEUS 4X80 INFANTIL FEMENI",
+      "wind": null,
+      "position": null,
+      "internal_id": 800
+    },
+    {
+      "athlete_name": "Leire Dominguez Izaga",
+      "athlete_dob": "18/08/2004",
+      "athlete_id": "CL82676",
+      "performance": "46.02",
+      "discipline": "RELLEUS 4X80 INFANTIL FEMENI",
+      "wind": null,
+      "position": null,
+      "internal_id": 743
+    },
+    {
+      "athlete_name": "Elia Fonts Anguera",
+      "athlete_dob": "27/01/2004",
+      "athlete_id": "CL82678",
+      "performance": "46.02",
+      "discipline": "RELLEUS 4X80 INFANTIL FEMENI",
+      "wind": null,
+      "position": null,
+      "internal_id": 729
+    },
+    {
+      "athlete_name": "Cristina Reyes Alcantara",
+      "athlete_dob": "28/12/2005",
+      "athlete_id": "CL82419",
+      "performance": "46.02",
+      "discipline": "RELLEUS 4X80 INFANTIL FEMENI",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Martina Pomes Cabello",
+      "athlete_dob": "02/02/2005",
+      "athlete_id": "CL71737",
+      "performance": "1:59.92",
+      "discipline": "RELLEUS 4X200 INFANTIL FEMENI",
+      "wind": null,
+      "position": null,
+      "internal_id": 810
+    },
+    {
+      "athlete_name": "Natalia Sanchez Alvarez",
+      "athlete_dob": "28/05/2005",
+      "athlete_id": "CL71748",
+      "performance": "1:59.92",
+      "discipline": "RELLEUS 4X200 INFANTIL FEMENI",
+      "wind": null,
+      "position": null,
+      "internal_id": 796
+    },
+    {
+      "athlete_name": "Ariadna Suarez Piza",
+      "athlete_dob": "20/03/2005",
+      "athlete_id": "CL71753",
+      "performance": "1:59.92",
+      "discipline": "RELLEUS 4X200 INFANTIL FEMENI",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Aina Tomas Virgili",
+      "athlete_dob": "17/01/2005",
+      "athlete_id": "CL82421",
+      "performance": "1:59.92",
+      "discipline": "RELLEUS 4X200 INFANTIL FEMENI",
+      "wind": null,
+      "position": null,
+      "internal_id": 815
     }
   ]
 }

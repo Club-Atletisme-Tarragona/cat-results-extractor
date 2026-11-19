@@ -1,18 +1,38 @@
 {
   "event_name": "Control Sub-16 en Pista Coberta (4a jornada) - Control Sub-16 en Pista Coberta (4a jornada)",
   "event_date": "26/01/2019",
-  "event_location": "Sabadell",
-  "total_results": 4,
+  "event_location": "Club                                               Lic",
+  "total_results": 33,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20190126-controlsub16pcsabadell.pdf",
   "results": [
+    {
+      "athlete_name": "Hugo Jules Saiz Santaolaria",
+      "athlete_dob": "31/01/2005",
+      "athlete_id": "CL71743",
+      "performance": "8.43",
+      "discipline": "60m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 808
+    },
+    {
+      "athlete_name": "Natalia Sanchez Alvarez",
+      "athlete_dob": "28/05/2005",
+      "athlete_id": "CL71748",
+      "performance": "8.43",
+      "discipline": "60m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 796
+    },
     {
       "athlete_name": "Leire Dominguez Izaga",
       "athlete_dob": "18/08/2004",
       "athlete_id": "CL82676",
       "performance": "8.90",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m FEM. PC",
+      "discipline": "60m FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 743
     },
     {
@@ -20,19 +40,39 @@
       "athlete_dob": "17/01/2005",
       "athlete_id": "CL82421",
       "performance": "9.21",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m FEM. PC",
+      "discipline": "60m FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 815
+    },
+    {
+      "athlete_name": "Pol Aixala Guiu",
+      "athlete_dob": "04/12/2004",
+      "athlete_id": "CL69309",
+      "performance": "0:41.01",
+      "discipline": "300m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 733
+    },
+    {
+      "athlete_name": "Hugo Jules Saiz Santaolaria",
+      "athlete_dob": "31/01/2005",
+      "athlete_id": "CL71743",
+      "performance": "0:48.06",
+      "discipline": "300m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 808
     },
     {
       "athlete_name": "Leire Dominguez Izaga",
       "athlete_dob": "18/08/2004",
       "athlete_id": "CL82676",
       "performance": "0:47.51",
-      "discipline": "300 metres llisos",
-      "raw_discipline_name": "300m FEM. PC",
+      "discipline": "300m FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 743
     },
     {
@@ -40,10 +80,260 @@
       "athlete_dob": "17/01/2005",
       "athlete_id": "CL82421",
       "performance": "0:48.15",
-      "discipline": "300 metres llisos",
-      "raw_discipline_name": "300m FEM. PC",
+      "discipline": "300m FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 815
+    },
+    {
+      "athlete_name": "Alexandra Rofes Palacios",
+      "athlete_dob": "27/09/2004",
+      "athlete_id": "CL90523",
+      "performance": "1:45.67",
+      "discipline": "600m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 731
+    },
+    {
+      "athlete_name": "Natalia Sanchez Alvarez",
+      "athlete_dob": "28/05/2005",
+      "athlete_id": "CL71748",
+      "performance": "10.57",
+      "discipline": "60m tanques (0,762) FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 796
+    },
+    {
+      "athlete_name": "Laura Santos Martinez",
+      "athlete_dob": "14/09/2005",
+      "athlete_id": "CL71751",
+      "performance": "11.55",
+      "discipline": "60m tanques (0,762) FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 807
+    },
+    {
+      "athlete_name": "Lucia Mayolas Martinez",
+      "athlete_dob": "04/10/2004",
+      "athlete_id": "CL71720",
+      "performance": "12.43",
+      "discipline": "60m tanques (0,762) FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 728
+    },
+    {
+      "athlete_name": "Pol Aixala Guiu",
+      "athlete_dob": "04/12/2004",
+      "athlete_id": "CL69309",
+      "performance": "9.86",
+      "discipline": "60m tanques (0,91) MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 733
+    },
+    {
+      "athlete_name": "Laia Aldave Mas",
+      "athlete_dob": "29/01/2005",
+      "athlete_id": "CL71683",
+      "performance": "2.20",
+      "discipline": "Perxa FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 800
+    },
+    {
+      "athlete_name": "Lucia Mayolas Martinez",
+      "athlete_dob": "04/10/2004",
+      "athlete_id": "CL71720",
+      "performance": "3.63",
+      "discipline": "Llargada 2004 FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 728
+    },
+    {
+      "athlete_name": "Lucia Mayolas Martinez",
+      "athlete_dob": "04/10/2004",
+      "athlete_id": "CL71720",
+      "performance": "3.66",
+      "discipline": "Llargada 2004 FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 728
+    },
+    {
+      "athlete_name": "Natalia Sanchez Alvarez",
+      "athlete_dob": "28/05/2005",
+      "athlete_id": "CL71748",
+      "performance": "4.35",
+      "discipline": "Llargada 2005 FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 796
+    },
+    {
+      "athlete_name": "Natalia Sanchez Alvarez",
+      "athlete_dob": "28/05/2005",
+      "athlete_id": "CL71748",
+      "performance": "4.39",
+      "discipline": "Llargada 2005 FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 796
+    },
+    {
+      "athlete_name": "Natalia Sanchez Alvarez",
+      "athlete_dob": "28/05/2005",
+      "athlete_id": "CL71748",
+      "performance": "4.58",
+      "discipline": "Llargada 2005 FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 796
+    },
+    {
+      "athlete_name": "Laura Santos Martinez",
+      "athlete_dob": "14/09/2005",
+      "athlete_id": "CL71751",
+      "performance": "4.10",
+      "discipline": "Llargada 2005 FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 807
+    },
+    {
+      "athlete_name": "Laura Santos Martinez",
+      "athlete_dob": "14/09/2005",
+      "athlete_id": "CL71751",
+      "performance": "3.97",
+      "discipline": "Llargada 2005 FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 807
+    },
+    {
+      "athlete_name": "Laura Santos Martinez",
+      "athlete_dob": "14/09/2005",
+      "athlete_id": "CL71751",
+      "performance": "4.08",
+      "discipline": "Llargada 2005 FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 807
+    },
+    {
+      "athlete_name": "Laia Aldave Mas",
+      "athlete_dob": "29/01/2005",
+      "athlete_id": "CL71683",
+      "performance": "3.71",
+      "discipline": "Llargada 2005 FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 800
+    },
+    {
+      "athlete_name": "Laia Aldave Mas",
+      "athlete_dob": "29/01/2005",
+      "athlete_id": "CL71683",
+      "performance": "3.42",
+      "discipline": "Llargada 2005 FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 800
+    },
+    {
+      "athlete_name": "Laia Aldave Mas",
+      "athlete_dob": "29/01/2005",
+      "athlete_id": "CL71683",
+      "performance": "3.45",
+      "discipline": "Llargada 2005 FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 800
+    },
+    {
+      "athlete_name": "Oscar Bartolome Vazquez",
+      "athlete_dob": "25/04/2004",
+      "athlete_id": "CL71686",
+      "performance": "8.35",
+      "discipline": "Pes (4 Kg) 2004 MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 738
+    },
+    {
+      "athlete_name": "Oscar Bartolome Vazquez",
+      "athlete_dob": "25/04/2004",
+      "athlete_id": "CL71686",
+      "performance": "8.54",
+      "discipline": "Pes (4 Kg) 2004 MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 738
+    },
+    {
+      "athlete_name": "Oscar Bartolome Vazquez",
+      "athlete_dob": "25/04/2004",
+      "athlete_id": "CL71686",
+      "performance": "8.34",
+      "discipline": "Pes (4 Kg) 2004 MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 738
+    },
+    {
+      "athlete_name": "Oriol Aldave Fores",
+      "athlete_dob": "23/08/2004",
+      "athlete_id": "CL77303",
+      "performance": "7.03",
+      "discipline": "Pes (4 Kg) 2004 MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 746
+    },
+    {
+      "athlete_name": "Oriol Aldave Fores",
+      "athlete_dob": "23/08/2004",
+      "athlete_id": "CL77303",
+      "performance": "6.52",
+      "discipline": "Pes (4 Kg) 2004 MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 746
+    },
+    {
+      "athlete_name": "Hugo Jules Saiz Santaolaria",
+      "athlete_dob": "31/01/2005",
+      "athlete_id": "CL71743",
+      "performance": "5.45",
+      "discipline": "Pes (4 Kg) 2005 MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 808
+    },
+    {
+      "athlete_name": "Hugo Jules Saiz Santaolaria",
+      "athlete_dob": "31/01/2005",
+      "athlete_id": "CL71743",
+      "performance": "6.34",
+      "discipline": "Pes (4 Kg) 2005 MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 808
+    },
+    {
+      "athlete_name": "Hugo Jules Saiz Santaolaria",
+      "athlete_dob": "31/01/2005",
+      "athlete_id": "CL71743",
+      "performance": "5.86",
+      "discipline": "Pes (4 Kg) 2005 MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 808
     }
   ]
 }

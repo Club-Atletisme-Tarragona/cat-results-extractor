@@ -1,19 +1,28 @@
 {
   "event_name": "Campionat de Catalunya Absolut de Proves Combinades - Barcelona-Estadi Joan Serrahima, 27-28 mayo 2017",
-  "event_date": "28/05/2017",
+  "event_date": "12/08/1988",
   "event_location": "Barcelona-SE",
-  "total_results": 12,
+  "total_results": 13,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2017052728-catcombinades.pdf",
   "results": [
     {
       "athlete_name": "Mireia Lopez Urbano",
       "athlete_dob": "07/12/2000",
       "athlete_id": "CT23556",
+      "performance": "4551",
+      "discipline": "Heptatló Juvenil Femenina",
+      "wind": null,
+      "position": null,
+      "internal_id": 527
+    },
+    {
+      "athlete_name": "Mireia Lopez Urbano",
+      "athlete_dob": "07/12/2000",
+      "athlete_id": "CT23556",
       "performance": "14.15",
-      "discipline": "100 metres tanques (0.84)",
-      "raw_discipline_name": "100 metres tanques femenins",
+      "discipline": "100 metres tanques femenins",
       "wind": "+2.6",
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2017052728-catcombinades.pdf",
+      "position": null,
       "internal_id": 527
     },
     {
@@ -21,10 +30,9 @@
       "athlete_dob": "07/12/2000",
       "athlete_id": "CT23556",
       "performance": "1.36",
-      "discipline": "Alçada",
-      "raw_discipline_name": "Salt d'alçada femení",
+      "discipline": "Salt d'alçada femení",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2017052728-catcombinades.pdf",
+      "position": null,
       "internal_id": 527
     },
     {
@@ -32,10 +40,9 @@
       "athlete_dob": "07/12/2000",
       "athlete_id": "CT23556",
       "performance": "9.42",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Llançament de pes femení",
+      "discipline": "Llançament de pes femení",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2017052728-catcombinades.pdf",
+      "position": null,
       "internal_id": 527
     },
     {
@@ -43,10 +50,9 @@
       "athlete_dob": "07/12/2000",
       "athlete_id": "CT23556",
       "performance": "9.84",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Llançament de pes femení",
+      "discipline": "Llançament de pes femení",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2017052728-catcombinades.pdf",
+      "position": null,
       "internal_id": 527
     },
     {
@@ -54,10 +60,9 @@
       "athlete_dob": "07/12/2000",
       "athlete_id": "CT23556",
       "performance": "9.36",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Llançament de pes femení",
+      "discipline": "Llançament de pes femení",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2017052728-catcombinades.pdf",
+      "position": null,
       "internal_id": 527
     },
     {
@@ -65,10 +70,9 @@
       "athlete_dob": "07/12/2000",
       "athlete_id": "CT23556",
       "performance": "25.57",
-      "discipline": "200 metres llisos",
-      "raw_discipline_name": "200 metres llisos femenins",
+      "discipline": "200 metres llisos femenins",
       "wind": "+1.7",
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2017052728-catcombinades.pdf",
+      "position": null,
       "internal_id": 527
     },
     {
@@ -76,10 +80,9 @@
       "athlete_dob": "07/12/2000",
       "athlete_id": "CT23556",
       "performance": "5.02",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Salt de llargada femení",
+      "discipline": "Salt de llargada femení",
       "wind": "+2.0",
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2017052728-catcombinades.pdf",
+      "position": null,
       "internal_id": 527
     },
     {
@@ -87,10 +90,9 @@
       "athlete_dob": "07/12/2000",
       "athlete_id": "CT23556",
       "performance": "5.39",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Salt de llargada femení",
+      "discipline": "Salt de llargada femení",
       "wind": "+1.5",
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2017052728-catcombinades.pdf",
+      "position": null,
       "internal_id": 527
     },
     {
@@ -98,10 +100,9 @@
       "athlete_dob": "07/12/2000",
       "athlete_id": "CT23556",
       "performance": "5.40",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Salt de llargada femení",
+      "discipline": "Salt de llargada femení",
       "wind": "+0.6",
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2017052728-catcombinades.pdf",
+      "position": null,
       "internal_id": 527
     },
     {
@@ -109,10 +110,9 @@
       "athlete_dob": "07/12/2000",
       "athlete_id": "CT23556",
       "performance": "22.52",
-      "discipline": "Javelina (600 g)",
-      "raw_discipline_name": "Llançament de javelina femení",
+      "discipline": "Llançament de javelina femení",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2017052728-catcombinades.pdf",
+      "position": null,
       "internal_id": 527
     },
     {
@@ -120,10 +120,9 @@
       "athlete_dob": "07/12/2000",
       "athlete_id": "CT23556",
       "performance": "34.63",
-      "discipline": "Javelina (600 g)",
-      "raw_discipline_name": "Llançament de javelina femení",
+      "discipline": "Llançament de javelina femení",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2017052728-catcombinades.pdf",
+      "position": null,
       "internal_id": 527
     },
     {
@@ -131,10 +130,9 @@
       "athlete_dob": "07/12/2000",
       "athlete_id": "CT23556",
       "performance": "2:43.45",
-      "discipline": "800 metres llisos",
-      "raw_discipline_name": "800 metres llisos femenins",
+      "discipline": "800 metres llisos femenins",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2017052728-catcombinades.pdf",
+      "position": null,
       "internal_id": 527
     }
   ]

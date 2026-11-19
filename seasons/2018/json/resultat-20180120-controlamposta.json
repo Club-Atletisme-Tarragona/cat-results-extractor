@@ -2,9 +2,284 @@
   "event_name": "Control Gener 2",
   "event_date": "20/01/2018",
   "event_location": "Amposta",
-  "total_results": 54,
+  "total_results": 95,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20180120-controlamposta.pdf",
   "results": [
+    {
+      "athlete_name": "Lluc Subiros Brasero",
+      "athlete_dob": "06/01/2007",
+      "athlete_id": "CL77331",
+      "performance": "7:51.62",
+      "discipline": "2000 metres llisos",
+      "raw_discipline_name": "2.000m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 899
+    },
+    {
+      "athlete_name": "Pau Crespo Beltran",
+      "athlete_dob": "22/10/2008",
+      "athlete_id": "CL90887",
+      "performance": "8:29.39",
+      "discipline": "2000 metres llisos",
+      "raw_discipline_name": "2.000m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 971
+    },
+    {
+      "athlete_name": "Unai Ortiz De Landazuri Ontoso",
+      "athlete_dob": "28/06/2007",
+      "athlete_id": "CL77328",
+      "performance": "8:52.07",
+      "discipline": "2000 metres llisos",
+      "raw_discipline_name": "2.000m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 908
+    },
+    {
+      "athlete_name": "36 (t) Guillem Ferran Jimenez 2",
+      "athlete_dob": "08/03/2008",
+      "athlete_id": "CL82978",
+      "performance": "NP",
+      "discipline": "2000 metres llisos",
+      "raw_discipline_name": "2.000m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "339 (t) Jairo Soriano Espinilla 1",
+      "athlete_dob": "12/07/2007",
+      "athlete_id": "CL90880",
+      "performance": "NP",
+      "discipline": "2000 metres llisos",
+      "raw_discipline_name": "2.000m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Andrea Molina Solichero",
+      "athlete_dob": "08/07/2008",
+      "athlete_id": "CL82984",
+      "performance": "8:49.62",
+      "discipline": "2000 metres llisos",
+      "raw_discipline_name": "2.000m FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "46 (t) Laura Exposito Pijuan 9",
+      "athlete_dob": "10/09/2007",
+      "athlete_id": "CL86455",
+      "performance": "NP",
+      "discipline": "2000 metres llisos",
+      "raw_discipline_name": "2.000m FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 923
+    },
+    {
+      "athlete_name": "328 (t) Luana Izaga Deriu 5",
+      "athlete_dob": "13/02/2007",
+      "athlete_id": "CL77321",
+      "performance": "NP",
+      "discipline": "2000 metres llisos",
+      "raw_discipline_name": "2.000m FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 928
+    },
+    {
+      "athlete_name": "47 (t) Silvia Vicente Navarrete 2",
+      "athlete_dob": "31/07/2007",
+      "athlete_id": "CL77332",
+      "performance": "NP",
+      "discipline": "2000 metres llisos",
+      "raw_discipline_name": "2.000m FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 905
+    },
+    {
+      "athlete_name": "Nuria Badia Palleja",
+      "athlete_dob": "11/07/2008",
+      "athlete_id": "CL86468",
+      "performance": "14.00",
+      "discipline": "60 metres tanques (0.50)",
+      "raw_discipline_name": "60m vallas (0,50) FEM AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Pilar Aranda Sánchez",
+      "athlete_dob": "03/04/2008",
+      "athlete_id": "CL90888",
+      "performance": "12.75",
+      "discipline": "60 metres tanques (0.50)",
+      "raw_discipline_name": "60m vallas (0,50) FEM AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Luana Izaga Deriu",
+      "athlete_dob": "13/02/2007",
+      "athlete_id": "CL77321",
+      "performance": "12.09",
+      "discipline": "60 metres tanques (0.50)",
+      "raw_discipline_name": "60m vallas (0,50) FEM AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 928
+    },
+    {
+      "athlete_name": "Andrea Molina Solichero",
+      "athlete_dob": "08/07/2008",
+      "athlete_id": "CL82984",
+      "performance": "12.90",
+      "discipline": "60 metres tanques (0.50)",
+      "raw_discipline_name": "60m vallas (0,50) FEM AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Laura Exposito Pijuan",
+      "athlete_dob": "10/09/2007",
+      "athlete_id": "CL86455",
+      "performance": "13.46",
+      "discipline": "60 metres tanques (0.50)",
+      "raw_discipline_name": "60m vallas (0,50) FEM AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 923
+    },
+    {
+      "athlete_name": "Silvia Vicente Navarrete",
+      "athlete_dob": "31/07/2007",
+      "athlete_id": "CL77332",
+      "performance": "10.88",
+      "discipline": "60 metres tanques (0.50)",
+      "raw_discipline_name": "60m vallas (0,50) FEM AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 905
+    },
+    {
+      "athlete_name": "Lluc Subiros Brasero",
+      "athlete_dob": "06/01/2007",
+      "athlete_id": "CL77331",
+      "performance": "11.37",
+      "discipline": "60 metres tanques (0.50)",
+      "raw_discipline_name": "60m vallas (0,50) MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 899
+    },
+    {
+      "athlete_name": "Unai Ortiz De Landazuri Ontoso",
+      "athlete_dob": "28/06/2007",
+      "athlete_id": "CL77328",
+      "performance": "10.94",
+      "discipline": "60 metres tanques (0.50)",
+      "raw_discipline_name": "60m vallas (0,50) MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 908
+    },
+    {
+      "athlete_name": "Jairo Soriano Espinilla",
+      "athlete_dob": "12/07/2007",
+      "athlete_id": "CL90880",
+      "performance": "12.67",
+      "discipline": "60 metres tanques (0.50)",
+      "raw_discipline_name": "60m vallas (0,50) MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Guillem Ferran Jimenez",
+      "athlete_dob": "08/03/2008",
+      "athlete_id": "CL82978",
+      "performance": "10.80",
+      "discipline": "60 metres tanques (0.50)",
+      "raw_discipline_name": "60m vallas (0,50) MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Pau Crespo Beltran",
+      "athlete_dob": "22/10/2008",
+      "athlete_id": "CL90887",
+      "performance": "12.23",
+      "discipline": "60 metres tanques (0.50)",
+      "raw_discipline_name": "60m vallas (0,50) MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 971
+    },
+    {
+      "athlete_name": "David Bartolome Vazquez",
+      "athlete_dob": "17/03/2007",
+      "athlete_id": "CL77307",
+      "performance": "15.27",
+      "discipline": "60 metres tanques (0.50)",
+      "raw_discipline_name": "60m vallas (0,50) MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Pablo Angel Fernandez",
+      "athlete_dob": "26/01/2003",
+      "athlete_id": "CL90496",
+      "performance": "9.75",
+      "discipline": "60 metres tanques (0.91)",
+      "raw_discipline_name": "60m vallas (0,91) CAD MASC. CA",
+      "wind": null,
+      "position": null,
+      "internal_id": 704
+    },
+    {
+      "athlete_name": "Ariadna Alonso Del Campo",
+      "athlete_dob": "06/09/2003",
+      "athlete_id": "CL82671",
+      "performance": "2.05",
+      "discipline": "Perxa",
+      "raw_discipline_name": "Pértiga 1 FEM. AB",
+      "wind": null,
+      "position": null,
+      "internal_id": 703
+    },
+    {
+      "athlete_name": "Lara Herrera Vallve",
+      "athlete_dob": "07/04/2005",
+      "athlete_id": "CL82414",
+      "performance": "1.80",
+      "discipline": "Perxa",
+      "raw_discipline_name": "Pértiga 1 FEM. AB",
+      "wind": null,
+      "position": null,
+      "internal_id": 813
+    },
+    {
+      "athlete_name": "Laia Aldave Mas",
+      "athlete_dob": "29/01/2005",
+      "athlete_id": "CL71683",
+      "performance": "1.65",
+      "discipline": "Perxa",
+      "raw_discipline_name": "Pértiga 1 FEM. AB",
+      "wind": null,
+      "position": null,
+      "internal_id": 800
+    },
     {
       "athlete_name": "Noemi Gonzalez Carrillo",
       "athlete_dob": "04/04/2009",
@@ -13,6 +288,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud FEM. BJ",
       "wind": null,
+      "position": null,
       "internal_id": 1030
     },
     {
@@ -23,6 +299,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud FEM. BJ",
       "wind": null,
+      "position": null,
       "internal_id": 1030
     },
     {
@@ -33,6 +310,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud FEM. BJ",
       "wind": null,
+      "position": null,
       "internal_id": 1022
     },
     {
@@ -43,6 +321,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud FEM. BJ",
       "wind": null,
+      "position": null,
       "internal_id": 1089
     },
     {
@@ -53,6 +332,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud FEM. BJ",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -61,8 +341,9 @@
       "athlete_id": "CL77332",
       "performance": "4.88",
       "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) FEM. AL",
+      "raw_discipline_name": "Peso (2 Kg) FEM. AL",
       "wind": null,
+      "position": null,
       "internal_id": 905
     },
     {
@@ -71,8 +352,9 @@
       "athlete_id": "CL77332",
       "performance": "5.04",
       "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) FEM. AL",
+      "raw_discipline_name": "Peso (2 Kg) FEM. AL",
       "wind": null,
+      "position": null,
       "internal_id": 905
     },
     {
@@ -81,8 +363,9 @@
       "athlete_id": "CL77332",
       "performance": "4.89",
       "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) FEM. AL",
+      "raw_discipline_name": "Peso (2 Kg) FEM. AL",
       "wind": null,
+      "position": null,
       "internal_id": 905
     },
     {
@@ -91,8 +374,9 @@
       "athlete_id": "CL77321",
       "performance": "4.65",
       "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) FEM. AL",
+      "raw_discipline_name": "Peso (2 Kg) FEM. AL",
       "wind": null,
+      "position": null,
       "internal_id": 928
     },
     {
@@ -101,8 +385,9 @@
       "athlete_id": "CL77321",
       "performance": "3.45",
       "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) FEM. AL",
+      "raw_discipline_name": "Peso (2 Kg) FEM. AL",
       "wind": null,
+      "position": null,
       "internal_id": 928
     },
     {
@@ -111,8 +396,9 @@
       "athlete_id": "CL77321",
       "performance": "5.03",
       "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) FEM. AL",
+      "raw_discipline_name": "Peso (2 Kg) FEM. AL",
       "wind": null,
+      "position": null,
       "internal_id": 928
     },
     {
@@ -121,8 +407,9 @@
       "athlete_id": "CL90888",
       "performance": "4.63",
       "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) FEM. AL",
+      "raw_discipline_name": "Peso (2 Kg) FEM. AL",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -131,8 +418,9 @@
       "athlete_id": "CL90888",
       "performance": "4.60",
       "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) FEM. AL",
+      "raw_discipline_name": "Peso (2 Kg) FEM. AL",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -141,8 +429,9 @@
       "athlete_id": "CL90888",
       "performance": "4.38",
       "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) FEM. AL",
+      "raw_discipline_name": "Peso (2 Kg) FEM. AL",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -151,8 +440,9 @@
       "athlete_id": "CL86455",
       "performance": "4.48",
       "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) FEM. AL",
+      "raw_discipline_name": "Peso (2 Kg) FEM. AL",
       "wind": null,
+      "position": null,
       "internal_id": 923
     },
     {
@@ -161,8 +451,9 @@
       "athlete_id": "CL86455",
       "performance": "4.61",
       "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) FEM. AL",
+      "raw_discipline_name": "Peso (2 Kg) FEM. AL",
       "wind": null,
+      "position": null,
       "internal_id": 923
     },
     {
@@ -171,8 +462,9 @@
       "athlete_id": "CL86455",
       "performance": "4.53",
       "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) FEM. AL",
+      "raw_discipline_name": "Peso (2 Kg) FEM. AL",
       "wind": null,
+      "position": null,
       "internal_id": 923
     },
     {
@@ -181,8 +473,9 @@
       "athlete_id": "CL86468",
       "performance": "3.34",
       "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) FEM. AL",
+      "raw_discipline_name": "Peso (2 Kg) FEM. AL",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -191,8 +484,9 @@
       "athlete_id": "CL86468",
       "performance": "4.29",
       "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) FEM. AL",
+      "raw_discipline_name": "Peso (2 Kg) FEM. AL",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -201,9 +495,21 @@
       "athlete_id": "CL82984",
       "performance": "4.28",
       "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) FEM. AL",
+      "raw_discipline_name": "Peso (2 Kg) FEM. AL",
       "wind": null,
+      "position": null,
       "internal_id": null
+    },
+    {
+      "athlete_name": "Juan Carlos Herrera Alcaide",
+      "athlete_dob": "31/01/1973",
+      "athlete_id": "CT25152",
+      "performance": "2.65",
+      "discipline": "Perxa",
+      "raw_discipline_name": "Pértiga 1 MASC. AB",
+      "wind": null,
+      "position": null,
+      "internal_id": 518
     },
     {
       "athlete_name": "Guifre De Los Rios Blanch",
@@ -213,6 +519,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud MASC. AB",
       "wind": "-1.3",
+      "position": null,
       "internal_id": 697
     },
     {
@@ -223,6 +530,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud MASC. AB",
       "wind": "-1.1",
+      "position": null,
       "internal_id": 697
     },
     {
@@ -233,6 +541,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud MASC. AB",
       "wind": "-0.6",
+      "position": null,
       "internal_id": 697
     },
     {
@@ -243,6 +552,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud MASC. AB",
       "wind": "-0.6",
+      "position": null,
       "internal_id": 697
     },
     {
@@ -253,6 +563,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud MASC. AB",
       "wind": "-1.5",
+      "position": null,
       "internal_id": 697
     },
     {
@@ -263,6 +574,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud MASC. AB",
       "wind": "-1.0",
+      "position": null,
       "internal_id": 640
     },
     {
@@ -273,6 +585,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud MASC. AB",
       "wind": "-0.7",
+      "position": null,
       "internal_id": 640
     },
     {
@@ -283,6 +596,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud MASC. AB",
       "wind": "-0.8",
+      "position": null,
       "internal_id": 640
     },
     {
@@ -293,6 +607,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud MASC. AB",
       "wind": "-0.9",
+      "position": null,
       "internal_id": 640
     },
     {
@@ -303,6 +618,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud MASC. AB",
       "wind": "-0.5",
+      "position": null,
       "internal_id": 714
     },
     {
@@ -313,6 +629,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud MASC. AB",
       "wind": "-1.0",
+      "position": null,
       "internal_id": 714
     },
     {
@@ -323,6 +640,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud MASC. AB",
       "wind": "-1.0",
+      "position": null,
       "internal_id": 714
     },
     {
@@ -333,6 +651,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud MASC. AB",
       "wind": "-1.3",
+      "position": null,
       "internal_id": 714
     },
     {
@@ -343,6 +662,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud MASC. AB",
       "wind": "-1.0",
+      "position": null,
       "internal_id": 714
     },
     {
@@ -353,6 +673,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud MASC. AB",
       "wind": "-0.8",
+      "position": null,
       "internal_id": 735
     },
     {
@@ -363,6 +684,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud MASC. AB",
       "wind": "-1.6",
+      "position": null,
       "internal_id": 735
     },
     {
@@ -373,6 +695,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud MASC. AB",
       "wind": "-1.2",
+      "position": null,
       "internal_id": 735
     },
     {
@@ -383,6 +706,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud MASC. AB",
       "wind": "-1.4",
+      "position": null,
       "internal_id": 735
     },
     {
@@ -393,6 +717,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud MASC. AB",
       "wind": "-0.7",
+      "position": null,
       "internal_id": 756
     },
     {
@@ -403,6 +728,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud MASC. AB",
       "wind": "-1.0",
+      "position": null,
       "internal_id": 756
     },
     {
@@ -413,6 +739,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud MASC. BJ",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -423,6 +750,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud MASC. BJ",
       "wind": null,
+      "position": null,
       "internal_id": 1036
     },
     {
@@ -433,6 +761,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud MASC. BJ",
       "wind": null,
+      "position": null,
       "internal_id": 1009
     },
     {
@@ -443,6 +772,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud MASC. BJ",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -451,8 +781,9 @@
       "athlete_id": "CL77331",
       "performance": "6.35",
       "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) MASC. AL",
+      "raw_discipline_name": "Peso (2 Kg) MASC. AL",
       "wind": null,
+      "position": null,
       "internal_id": 899
     },
     {
@@ -461,8 +792,9 @@
       "athlete_id": "CL77331",
       "performance": "7.78",
       "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) MASC. AL",
+      "raw_discipline_name": "Peso (2 Kg) MASC. AL",
       "wind": null,
+      "position": null,
       "internal_id": 899
     },
     {
@@ -471,8 +803,9 @@
       "athlete_id": "CL82978",
       "performance": "6.20",
       "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) MASC. AL",
+      "raw_discipline_name": "Peso (2 Kg) MASC. AL",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -481,8 +814,9 @@
       "athlete_id": "CL82978",
       "performance": "6.66",
       "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) MASC. AL",
+      "raw_discipline_name": "Peso (2 Kg) MASC. AL",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -491,8 +825,9 @@
       "athlete_id": "CL90887",
       "performance": "5.34",
       "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) MASC. AL",
+      "raw_discipline_name": "Peso (2 Kg) MASC. AL",
       "wind": null,
+      "position": null,
       "internal_id": 971
     },
     {
@@ -501,8 +836,9 @@
       "athlete_id": "CL77328",
       "performance": "4.63",
       "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) MASC. AL",
+      "raw_discipline_name": "Peso (2 Kg) MASC. AL",
       "wind": null,
+      "position": null,
       "internal_id": 908
     },
     {
@@ -511,8 +847,9 @@
       "athlete_id": "CL77328",
       "performance": "4.96",
       "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) MASC. AL",
+      "raw_discipline_name": "Peso (2 Kg) MASC. AL",
       "wind": null,
+      "position": null,
       "internal_id": 908
     },
     {
@@ -521,8 +858,9 @@
       "athlete_id": "CL90880",
       "performance": "3.51",
       "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) MASC. AL",
+      "raw_discipline_name": "Peso (2 Kg) MASC. AL",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -531,8 +869,9 @@
       "athlete_id": "CL90880",
       "performance": "4.33",
       "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) MASC. AL",
+      "raw_discipline_name": "Peso (2 Kg) MASC. AL",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -541,9 +880,175 @@
       "athlete_id": "CL77307",
       "performance": "3.50",
       "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) MASC. AL",
+      "raw_discipline_name": "Peso (2 Kg) MASC. AL",
       "wind": null,
+      "position": null,
       "internal_id": null
+    },
+    {
+      "athlete_name": "Oriol Aldave Fores",
+      "athlete_dob": "23/08/2004",
+      "athlete_id": "CL77303",
+      "performance": "14.15",
+      "discipline": "Martell (4 Kg)",
+      "raw_discipline_name": "Martillo (4 Kg) MASC. CA",
+      "wind": null,
+      "position": null,
+      "internal_id": 746
+    },
+    {
+      "athlete_name": "Oriol Aldave Fores",
+      "athlete_dob": "23/08/2004",
+      "athlete_id": "CL77303",
+      "performance": "15.74",
+      "discipline": "Martell (4 Kg)",
+      "raw_discipline_name": "Martillo (4 Kg) MASC. CA",
+      "wind": null,
+      "position": null,
+      "internal_id": 746
+    },
+    {
+      "athlete_name": "Oriol Aldave Fores",
+      "athlete_dob": "23/08/2004",
+      "athlete_id": "CL77303",
+      "performance": "14.25",
+      "discipline": "Martell (4 Kg)",
+      "raw_discipline_name": "Martillo (4 Kg) MASC. CA",
+      "wind": null,
+      "position": null,
+      "internal_id": 746
+    },
+    {
+      "athlete_name": "Oriol Aldave Fores",
+      "athlete_dob": "23/08/2004",
+      "athlete_id": "CL77303",
+      "performance": "15.22",
+      "discipline": "Martell (4 Kg)",
+      "raw_discipline_name": "Martillo (4 Kg) MASC. CA",
+      "wind": null,
+      "position": null,
+      "internal_id": 746
+    },
+    {
+      "athlete_name": "Oriol Aldave Fores",
+      "athlete_dob": "23/08/2004",
+      "athlete_id": "CL77303",
+      "performance": "13.48",
+      "discipline": "Martell (4 Kg)",
+      "raw_discipline_name": "Martillo (4 Kg) MASC. CA",
+      "wind": null,
+      "position": null,
+      "internal_id": 746
+    },
+    {
+      "athlete_name": "Oriol Aldave Fores",
+      "athlete_dob": "23/08/2004",
+      "athlete_id": "CL77303",
+      "performance": "13.53",
+      "discipline": "Martell (4 Kg)",
+      "raw_discipline_name": "Martillo (4 Kg) MASC. CA",
+      "wind": null,
+      "position": null,
+      "internal_id": 746
+    },
+    {
+      "athlete_name": "Oscar Bartolome Vazquez",
+      "athlete_dob": "25/04/2004",
+      "athlete_id": "CL71686",
+      "performance": "10.14",
+      "discipline": "Martell (4 Kg)",
+      "raw_discipline_name": "Martillo (4 Kg) MASC. CA",
+      "wind": null,
+      "position": null,
+      "internal_id": 738
+    },
+    {
+      "athlete_name": "Oscar Bartolome Vazquez",
+      "athlete_dob": "25/04/2004",
+      "athlete_id": "CL71686",
+      "performance": "10.32",
+      "discipline": "Martell (4 Kg)",
+      "raw_discipline_name": "Martillo (4 Kg) MASC. CA",
+      "wind": null,
+      "position": null,
+      "internal_id": 738
+    },
+    {
+      "athlete_name": "Oscar Bartolome Vazquez",
+      "athlete_dob": "25/04/2004",
+      "athlete_id": "CL71686",
+      "performance": "12.84",
+      "discipline": "Martell (4 Kg)",
+      "raw_discipline_name": "Martillo (4 Kg) MASC. CA",
+      "wind": null,
+      "position": null,
+      "internal_id": 738
+    },
+    {
+      "athlete_name": "Oscar Bartolome Vazquez",
+      "athlete_dob": "25/04/2004",
+      "athlete_id": "CL71686",
+      "performance": "14.14",
+      "discipline": "Martell (4 Kg)",
+      "raw_discipline_name": "Martillo (4 Kg) MASC. CA",
+      "wind": null,
+      "position": null,
+      "internal_id": 738
+    },
+    {
+      "athlete_name": "Daniel Valdes Pellisse",
+      "athlete_dob": "06/07/2004",
+      "athlete_id": "CL82686",
+      "performance": "11.45",
+      "discipline": "Martell (4 Kg)",
+      "raw_discipline_name": "Martillo (4 Kg) MASC. CA",
+      "wind": null,
+      "position": null,
+      "internal_id": 756
+    },
+    {
+      "athlete_name": "Daniel Valdes Pellisse",
+      "athlete_dob": "06/07/2004",
+      "athlete_id": "CL82686",
+      "performance": "13.10",
+      "discipline": "Martell (4 Kg)",
+      "raw_discipline_name": "Martillo (4 Kg) MASC. CA",
+      "wind": null,
+      "position": null,
+      "internal_id": 756
+    },
+    {
+      "athlete_name": "Daniel Valdes Pellisse",
+      "athlete_dob": "06/07/2004",
+      "athlete_id": "CL82686",
+      "performance": "13.40",
+      "discipline": "Martell (4 Kg)",
+      "raw_discipline_name": "Martillo (4 Kg) MASC. CA",
+      "wind": null,
+      "position": null,
+      "internal_id": 756
+    },
+    {
+      "athlete_name": "Daniel Valdes Pellisse",
+      "athlete_dob": "06/07/2004",
+      "athlete_id": "CL82686",
+      "performance": "13.84",
+      "discipline": "Martell (4 Kg)",
+      "raw_discipline_name": "Martillo (4 Kg) MASC. CA",
+      "wind": null,
+      "position": null,
+      "internal_id": 756
+    },
+    {
+      "athlete_name": "Daniel Valdes Pellisse",
+      "athlete_dob": "06/07/2004",
+      "athlete_id": "CL82686",
+      "performance": "12.01",
+      "discipline": "Martell (4 Kg)",
+      "raw_discipline_name": "Martillo (4 Kg) MASC. CA",
+      "wind": null,
+      "position": null,
+      "internal_id": 756
     }
   ]
 }

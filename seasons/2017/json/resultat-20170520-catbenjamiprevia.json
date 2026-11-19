@@ -1,18 +1,68 @@
 {
   "event_name": "Jornada Prèvia Campionat de Catalunya Benjamí",
   "event_date": "20/05/2017",
-  "event_location": "Castellar",
-  "total_results": 3,
+  "event_location": "Castellar del Vallés",
+  "total_results": 8,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20170520-catbenjamiprevia.pdf",
   "results": [
+    {
+      "athlete_name": "Victor Jimenez Garcia",
+      "athlete_dob": "25/05/2008",
+      "athlete_id": "CL82981",
+      "performance": "1.08",
+      "discipline": "SALT D'ALÇADA BENJAMI MASCULI",
+      "wind": null,
+      "position": null,
+      "internal_id": 958
+    },
+    {
+      "athlete_name": "Nacho Blanco Calatrava",
+      "athlete_dob": "08/04/2008",
+      "athlete_id": "CL82975",
+      "performance": "1.01",
+      "discipline": "SALT D'ALÇADA BENJAMI MASCULI",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Guillem Ferran Jimenez",
+      "athlete_dob": "08/03/2008",
+      "athlete_id": "CL82978",
+      "performance": "3.58",
+      "discipline": "SALT DE LLARGADA BENJAMI MASCULI",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Guillem Ferran Jimenez",
+      "athlete_dob": "08/03/2008",
+      "athlete_id": "CL82978",
+      "performance": "3.29",
+      "discipline": "SALT DE LLARGADA BENJAMI MASCULI",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Andrea Molina Solichero",
+      "athlete_dob": "08/07/2008",
+      "athlete_id": "CL82984",
+      "performance": "2.81",
+      "discipline": "SALT DE LLARGADA BENJAMI FEMENI",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
     {
       "athlete_name": "Noemi Gonzalez Carrillo",
       "athlete_dob": "04/04/2009",
       "athlete_id": "CL86462",
       "performance": "7:03.63",
-      "discipline": "1000 metres marxa",
-      "raw_discipline_name": "1000 METRES MARXA BENJAMI FEMENI",
+      "discipline": "1000 METRES MARXA BENJAMI FEMENI",
       "wind": null,
+      "position": null,
       "internal_id": 1030
     },
     {
@@ -20,9 +70,9 @@
       "athlete_dob": "22/08/2009",
       "athlete_id": "CL86465",
       "performance": "6:00.05",
-      "discipline": "1000 metres marxa",
-      "raw_discipline_name": "1000 METRES MARXA BENJAMI MASCULI",
+      "discipline": "1000 METRES MARXA BENJAMI MASCULI",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -30,9 +80,9 @@
       "athlete_dob": "17/12/2008",
       "athlete_id": "CL82987",
       "performance": "6:35.43",
-      "discipline": "1000 metres marxa",
-      "raw_discipline_name": "1000 METRES MARXA BENJAMI MASCULI",
+      "discipline": "1000 METRES MARXA BENJAMI MASCULI",
       "wind": null,
+      "position": null,
       "internal_id": null
     }
   ]

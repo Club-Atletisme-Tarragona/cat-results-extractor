@@ -2,27 +2,137 @@
   "event_name": "Campionat Catalunya Clubs Sub16 Masculí",
   "event_date": "22/05/2022",
   "event_location": "El Prat de Llobregat",
-  "total_results": 5,
+  "total_results": 32,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2022/05/resultat-20220522-catclubssub16alelprat.pdf",
   "results": [
+    {
+      "athlete_name": "Jan Vives Fons",
+      "athlete_dob": "16/03/2008",
+      "athlete_id": "CL95144",
+      "performance": "12.51",
+      "discipline": "100m MASC. AL",
+      "wind": "-1.5",
+      "position": null,
+      "internal_id": 977
+    },
     {
       "athlete_name": "Unai Ortiz De Landazuri Ontoso",
       "athlete_dob": "28/06/2007",
       "athlete_id": "CL77328",
-      "performance": "1.60",
-      "discipline": "Alçada",
-      "raw_discipline_name": "Alçada MASC. AL",
+      "performance": "0:39.05",
+      "discipline": "300m MASC. AL",
       "wind": null,
+      "position": null,
       "internal_id": 908
+    },
+    {
+      "athlete_name": "Joan Martorell Escobar",
+      "athlete_dob": "22/03/2007",
+      "athlete_id": "CL77324",
+      "performance": "1:33.51",
+      "discipline": "600m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 914
+    },
+    {
+      "athlete_name": "Hector Torrents Mas",
+      "athlete_dob": "13/11/2007",
+      "athlete_id": "CL7372",
+      "performance": "3:07.01",
+      "discipline": "1.000m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 907
+    },
+    {
+      "athlete_name": "Xavier Rodriguez Escude",
+      "athlete_dob": "28/03/2008",
+      "athlete_id": "CL94408",
+      "performance": "11:27.25",
+      "discipline": "3.000m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 979
+    },
+    {
+      "athlete_name": "Lluc Subiros Brasero",
+      "athlete_dob": "06/01/2007",
+      "athlete_id": "CT1186",
+      "performance": "15.50",
+      "discipline": "100m tanques (0,91) MASC. AL",
+      "wind": "-2.9",
+      "position": null,
+      "internal_id": 899
+    },
+    {
+      "athlete_name": "Marti Vallverdu Alonso",
+      "athlete_dob": "19/03/2007",
+      "athlete_id": "CL90883",
+      "performance": "5:40.32",
+      "discipline": "1.500m Obst. MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 919
+    },
+    {
+      "athlete_name": "Unai Ortiz De Landazuri Ontoso CM 9.5",
+      "athlete_dob": "28/06/2007",
+      "athlete_id": "CL77328",
+      "performance": "1.60",
+      "discipline": "Alçada MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 908
+    },
+    {
+      "athlete_name": "Lluc Subiros Brasero",
+      "athlete_dob": "06/01/2007",
+      "athlete_id": "CT1186",
+      "performance": "3.80",
+      "discipline": "Perxa MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 899
+    },
+    {
+      "athlete_name": "Victor Jimenez Garcia",
+      "athlete_dob": "25/05/2008",
+      "athlete_id": "CT1465",
+      "performance": "5.50",
+      "discipline": "Llargada MASC. AL",
+      "wind": "-2.0",
+      "position": null,
+      "internal_id": 958
+    },
+    {
+      "athlete_name": "Victor Jimenez Garcia",
+      "athlete_dob": "25/05/2008",
+      "athlete_id": "CT1465",
+      "performance": "5.56",
+      "discipline": "Llargada MASC. AL",
+      "wind": "-3.3",
+      "position": null,
+      "internal_id": 958
+    },
+    {
+      "athlete_name": "Victor Jimenez Garcia",
+      "athlete_dob": "25/05/2008",
+      "athlete_id": "CT1465",
+      "performance": "5.61",
+      "discipline": "Llargada MASC. AL",
+      "wind": "-4.0",
+      "position": null,
+      "internal_id": 958
     },
     {
       "athlete_name": "Victor Jimenez Garcia",
       "athlete_dob": "25/05/2008",
       "athlete_id": "CT1465",
       "performance": "10.67",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt MASC. AL",
+      "discipline": "Triple Salt MASC. AL",
       "wind": "+2.9",
+      "position": null,
       "internal_id": 958
     },
     {
@@ -30,9 +140,9 @@
       "athlete_dob": "25/05/2008",
       "athlete_id": "CT1465",
       "performance": "9.92",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt MASC. AL",
+      "discipline": "Triple Salt MASC. AL",
       "wind": "+0.4",
+      "position": null,
       "internal_id": 958
     },
     {
@@ -40,20 +150,180 @@
       "athlete_dob": "25/05/2008",
       "athlete_id": "CT1465",
       "performance": "10.85",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt MASC. AL",
+      "discipline": "Triple Salt MASC. AL",
       "wind": "+3.6",
+      "position": null,
       "internal_id": 958
+    },
+    {
+      "athlete_name": "Pau Crespo Beltran",
+      "athlete_dob": "22/10/2008",
+      "athlete_id": "CL90887",
+      "performance": "10.52",
+      "discipline": "Pes (4 Kg) MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 971
+    },
+    {
+      "athlete_name": "Pau Crespo Beltran",
+      "athlete_dob": "22/10/2008",
+      "athlete_id": "CL90887",
+      "performance": "7.66",
+      "discipline": "Pes (4 Kg) MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 971
+    },
+    {
+      "athlete_name": "Matias Costa Bakker",
+      "athlete_dob": "19/11/2007",
+      "athlete_id": "CL90885",
+      "performance": "29.99",
+      "discipline": "Disc (1 Kg) MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 922
+    },
+    {
+      "athlete_name": "Matias Costa Bakker",
+      "athlete_dob": "19/11/2007",
+      "athlete_id": "CL90885",
+      "performance": "34.33",
+      "discipline": "Disc (1 Kg) MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 922
+    },
+    {
+      "athlete_name": "Matias Costa Bakker",
+      "athlete_dob": "19/11/2007",
+      "athlete_id": "CL90885",
+      "performance": "29.97",
+      "discipline": "Disc (1 Kg) MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 922
     },
     {
       "athlete_name": "Matias Costa Bakker",
       "athlete_dob": "19/11/2007",
       "athlete_id": "CL90885",
       "performance": "23.70",
-      "discipline": "Martell (4 Kg)",
-      "raw_discipline_name": "Martell (4kg) MASC.",
+      "discipline": "Martell (4 Kg) MASC.",
       "wind": null,
+      "position": null,
       "internal_id": 922
+    },
+    {
+      "athlete_name": "Pau Crespo Beltran",
+      "athlete_dob": "22/10/2008",
+      "athlete_id": "CL90887",
+      "performance": "32.31",
+      "discipline": "Javelina (600g) MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 971
+    },
+    {
+      "athlete_name": "Pau Crespo Beltran",
+      "athlete_dob": "22/10/2008",
+      "athlete_id": "CL90887",
+      "performance": "33.96",
+      "discipline": "Javelina (600g) MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 971
+    },
+    {
+      "athlete_name": "Pau Crespo Beltran",
+      "athlete_dob": "22/10/2008",
+      "athlete_id": "CL90887",
+      "performance": "34.22",
+      "discipline": "Javelina (600g) MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 971
+    },
+    {
+      "athlete_name": "Bernat Bardina Artigau",
+      "athlete_dob": "12/04/2008",
+      "athlete_id": "CL82974",
+      "performance": "51.32",
+      "discipline": "4x100m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 963
+    },
+    {
+      "athlete_name": "Guillem Ferran Jimenez",
+      "athlete_dob": "08/03/2008",
+      "athlete_id": "CL82978",
+      "performance": "51.32",
+      "discipline": "4x100m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Adria Perez Martinez",
+      "athlete_dob": "23/01/2007",
+      "athlete_id": "CL7371",
+      "performance": "51.32",
+      "discipline": "4x100m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 924
+    },
+    {
+      "athlete_name": "Marti Vallverdu Alonso",
+      "athlete_dob": "19/03/2007",
+      "athlete_id": "CL90883",
+      "performance": "51.32",
+      "discipline": "4x100m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 919
+    },
+    {
+      "athlete_name": "Guillem Ferran Jimenez",
+      "athlete_dob": "08/03/2008",
+      "athlete_id": "CL82978",
+      "performance": "2:55.04",
+      "discipline": "4x300m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Joan Martorell Escobar",
+      "athlete_dob": "22/03/2007",
+      "athlete_id": "CL77324",
+      "performance": "2:55.04",
+      "discipline": "4x300m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 914
+    },
+    {
+      "athlete_name": "Jan Vives Fons",
+      "athlete_dob": "16/03/2008",
+      "athlete_id": "CL95144",
+      "performance": "2:55.04",
+      "discipline": "4x300m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 977
+    },
+    {
+      "athlete_name": "Bernat Bardina Artigau",
+      "athlete_dob": "12/04/2008",
+      "athlete_id": "CL82974",
+      "performance": "2:55.04",
+      "discipline": "4x300m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 963
     }
   ]
 }

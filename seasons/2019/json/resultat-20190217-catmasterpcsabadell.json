@@ -1,8 +1,8 @@
 {
   "event_name": "Campionat de Catalunya Master Individual i Relleus en Pista Coberta - Campionat de Catalunya Master Individual i Relleus en Pista Coberta",
   "event_date": "17/02/2019",
-  "event_location": "Sabadell",
-  "total_results": 1,
+  "event_location": "Club                                            Lic",
+  "total_results": 46,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20190217-catmasterpcsabadell.pdf",
   "results": [
     {
@@ -10,10 +10,460 @@
       "athlete_dob": "10/09/1972",
       "athlete_id": "CL12544",
       "performance": "7.83",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m MASC. PC 45-49",
+      "discipline": "60m MASC. PC 45-49",
       "wind": null,
+      "position": null,
       "internal_id": 15
+    },
+    {
+      "athlete_name": "Antonio Fornies Camer",
+      "athlete_dob": "31/12/1966",
+      "athlete_id": "CT17561",
+      "performance": "8.58",
+      "discipline": "60m MASC. PC 50-54",
+      "wind": null,
+      "position": null,
+      "internal_id": 396
+    },
+    {
+      "athlete_name": "Josep Maria Puig Lara",
+      "athlete_dob": "30/11/1951",
+      "athlete_id": "CT27228",
+      "performance": "9.52",
+      "discipline": "60m MASC. PC 65-69",
+      "wind": null,
+      "position": null,
+      "internal_id": 637
+    },
+    {
+      "athlete_name": "Marisa Pradillo Gutierrez",
+      "athlete_dob": "29/07/1961",
+      "athlete_id": "CT21513",
+      "performance": "10.64",
+      "discipline": "60m FEM. PC 55-59",
+      "wind": null,
+      "position": null,
+      "internal_id": 389
+    },
+    {
+      "athlete_name": "Josep Maria Puig Lara",
+      "athlete_dob": "30/11/1951",
+      "athlete_id": "CT27228",
+      "performance": "33.12",
+      "discipline": "200m MASC. PC 65-69",
+      "wind": null,
+      "position": null,
+      "internal_id": 637
+    },
+    {
+      "athlete_name": "Jesus Fernando Montolio Alcon",
+      "athlete_dob": "05/10/1970",
+      "athlete_id": "CT16331",
+      "performance": "0:54.85",
+      "discipline": "400m MASC. PC 45-49",
+      "wind": null,
+      "position": null,
+      "internal_id": 405
+    },
+    {
+      "athlete_name": "Patricia Amador Peris",
+      "athlete_dob": "18/02/1980",
+      "athlete_id": "CT28190",
+      "performance": "1:03.67",
+      "discipline": "400m FEM. PC 35-39",
+      "wind": null,
+      "position": null,
+      "internal_id": 644
+    },
+    {
+      "athlete_name": "Melinda Rodriguez Tortajada",
+      "athlete_dob": "30/08/1980",
+      "athlete_id": "CL29577",
+      "performance": "1:18.33",
+      "discipline": "400m FEM. PC 35-39",
+      "wind": null,
+      "position": null,
+      "internal_id": 53
+    },
+    {
+      "athlete_name": "Oscar Gomez Carballo",
+      "athlete_dob": "17/11/1976",
+      "athlete_id": "CL28192",
+      "performance": "2:05.35",
+      "discipline": "800m MASC. PC 40-44",
+      "wind": null,
+      "position": null,
+      "internal_id": 26
+    },
+    {
+      "athlete_name": "Patricia Amador Peris",
+      "athlete_dob": "18/02/1980",
+      "athlete_id": "CT28190",
+      "performance": "2:24.21",
+      "discipline": "800m FEM. PC 35-39",
+      "wind": null,
+      "position": null,
+      "internal_id": 644
+    },
+    {
+      "athlete_name": "Oscar Gomez Carballo",
+      "athlete_dob": "17/11/1976",
+      "athlete_id": "CL28192",
+      "performance": "4:28.25",
+      "discipline": "1.500m MASC. PC 40-44",
+      "wind": null,
+      "position": null,
+      "internal_id": 26
+    },
+    {
+      "athlete_name": "Carmen Ferre Garcia",
+      "athlete_dob": "17/01/1963",
+      "athlete_id": "CL29529",
+      "performance": "6:04.66",
+      "discipline": "1.500m FEM. PC 55-59",
+      "wind": null,
+      "position": null,
+      "internal_id": 720
+    },
+    {
+      "athlete_name": "Antonia Royo Fabregat",
+      "athlete_dob": "09/09/1964",
+      "athlete_id": "CT27087",
+      "performance": "13:03.32",
+      "discipline": "3.000m FEM. PC 50-54",
+      "wind": null,
+      "position": null,
+      "internal_id": 609
+    },
+    {
+      "athlete_name": "Carmen Ferre Garcia",
+      "athlete_dob": "17/01/1963",
+      "athlete_id": "CL29529",
+      "performance": "12:55.17",
+      "discipline": "3.000m FEM. PC 55-59",
+      "wind": null,
+      "position": null,
+      "internal_id": 720
+    },
+    {
+      "athlete_name": "Juan Carlos Herrera Alcaide",
+      "athlete_dob": "31/01/1973",
+      "athlete_id": "CT25152",
+      "performance": "1.58",
+      "discipline": "Alçada MASC. PC 45-49",
+      "wind": null,
+      "position": null,
+      "internal_id": 518
+    },
+    {
+      "athlete_name": "Maribel Vallve Olivella",
+      "athlete_dob": "19/10/1967",
+      "athlete_id": "CT26851",
+      "performance": "1.13",
+      "discipline": "Alçada FEM. PC 50-54",
+      "wind": null,
+      "position": null,
+      "internal_id": 529
+    },
+    {
+      "athlete_name": "Juan Carlos Herrera Alcaide",
+      "athlete_dob": "31/01/1973",
+      "athlete_id": "CT25152",
+      "performance": "3.04",
+      "discipline": "Perxa MASC. PC 45-49",
+      "wind": null,
+      "position": null,
+      "internal_id": 518
+    },
+    {
+      "athlete_name": "Josep Maria Mateo Sanz",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "2.64",
+      "discipline": "Perxa MASC. PC 50-54",
+      "wind": null,
+      "position": null,
+      "internal_id": 343
+    },
+    {
+      "athlete_name": "Juan Carlos Herrera Alcaide",
+      "athlete_dob": "31/01/1973",
+      "athlete_id": "CT25152",
+      "performance": "5.04",
+      "discipline": "Llargada MASC. PC 45-49",
+      "wind": null,
+      "position": null,
+      "internal_id": 518
+    },
+    {
+      "athlete_name": "Juan Carlos Herrera Alcaide",
+      "athlete_dob": "31/01/1973",
+      "athlete_id": "CT25152",
+      "performance": "5.29",
+      "discipline": "Llargada MASC. PC 45-49",
+      "wind": null,
+      "position": null,
+      "internal_id": 518
+    },
+    {
+      "athlete_name": "Juan Carlos Herrera Alcaide",
+      "athlete_dob": "31/01/1973",
+      "athlete_id": "CT25152",
+      "performance": "5.35",
+      "discipline": "Llargada MASC. PC 45-49",
+      "wind": null,
+      "position": null,
+      "internal_id": 518
+    },
+    {
+      "athlete_name": "Juan Carlos Herrera Alcaide",
+      "athlete_dob": "31/01/1973",
+      "athlete_id": "CT25152",
+      "performance": "5.13",
+      "discipline": "Llargada MASC. PC 45-49",
+      "wind": null,
+      "position": null,
+      "internal_id": 518
+    },
+    {
+      "athlete_name": "Juan Carlos Herrera Alcaide",
+      "athlete_dob": "31/01/1973",
+      "athlete_id": "CT25152",
+      "performance": "5.26",
+      "discipline": "Llargada MASC. PC 45-49",
+      "wind": null,
+      "position": null,
+      "internal_id": 518
+    },
+    {
+      "athlete_name": "Josep Maria Mateo Sanz",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "4.82",
+      "discipline": "Llargada MASC. PC 50-54",
+      "wind": null,
+      "position": null,
+      "internal_id": 343
+    },
+    {
+      "athlete_name": "Josep Maria Mateo Sanz",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "4.91",
+      "discipline": "Llargada MASC. PC 50-54",
+      "wind": null,
+      "position": null,
+      "internal_id": 343
+    },
+    {
+      "athlete_name": "Josep Maria Mateo Sanz",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "4.75",
+      "discipline": "Llargada MASC. PC 50-54",
+      "wind": null,
+      "position": null,
+      "internal_id": 343
+    },
+    {
+      "athlete_name": "Josep Maria Mateo Sanz",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "4.89",
+      "discipline": "Llargada MASC. PC 50-54",
+      "wind": null,
+      "position": null,
+      "internal_id": 343
+    },
+    {
+      "athlete_name": "Josep Maria Mateo Sanz",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "4.63",
+      "discipline": "Llargada MASC. PC 50-54",
+      "wind": null,
+      "position": null,
+      "internal_id": 343
+    },
+    {
+      "athlete_name": "Luis Saez Perez",
+      "athlete_dob": "01/03/1949",
+      "athlete_id": "CT17487",
+      "performance": "3.16",
+      "discipline": "Llargada MASC. PC 65-69",
+      "wind": null,
+      "position": null,
+      "internal_id": 304
+    },
+    {
+      "athlete_name": "Luis Saez Perez",
+      "athlete_dob": "01/03/1949",
+      "athlete_id": "CT17487",
+      "performance": "3.27",
+      "discipline": "Llargada MASC. PC 65-69",
+      "wind": null,
+      "position": null,
+      "internal_id": 304
+    },
+    {
+      "athlete_name": "Luis Saez Perez",
+      "athlete_dob": "01/03/1949",
+      "athlete_id": "CT17487",
+      "performance": "3.42",
+      "discipline": "Llargada MASC. PC 65-69",
+      "wind": null,
+      "position": null,
+      "internal_id": 304
+    },
+    {
+      "athlete_name": "Luis Saez Perez",
+      "athlete_dob": "01/03/1949",
+      "athlete_id": "CT17487",
+      "performance": "3.37",
+      "discipline": "Llargada MASC. PC 65-69",
+      "wind": null,
+      "position": null,
+      "internal_id": 304
+    },
+    {
+      "athlete_name": "Luis Saez Perez",
+      "athlete_dob": "01/03/1949",
+      "athlete_id": "CT17487",
+      "performance": "3.40",
+      "discipline": "Llargada MASC. PC 65-69",
+      "wind": null,
+      "position": null,
+      "internal_id": 304
+    },
+    {
+      "athlete_name": "Luis Saez Perez",
+      "athlete_dob": "01/03/1949",
+      "athlete_id": "CT17487",
+      "performance": "3.39",
+      "discipline": "Llargada MASC. PC 65-69",
+      "wind": null,
+      "position": null,
+      "internal_id": 304
+    },
+    {
+      "athlete_name": "Josep Maria Mateo Sanz",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "9.25",
+      "discipline": "Triple Salt MASC. PC 50-54",
+      "wind": null,
+      "position": null,
+      "internal_id": 343
+    },
+    {
+      "athlete_name": "Josep Maria Mateo Sanz",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "9.63",
+      "discipline": "Triple Salt MASC. PC 50-54",
+      "wind": null,
+      "position": null,
+      "internal_id": 343
+    },
+    {
+      "athlete_name": "Josep Maria Mateo Sanz",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "9.68",
+      "discipline": "Triple Salt MASC. PC 50-54",
+      "wind": null,
+      "position": null,
+      "internal_id": 343
+    },
+    {
+      "athlete_name": "Josep Maria Mateo Sanz",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "9.35",
+      "discipline": "Triple Salt MASC. PC 50-54",
+      "wind": null,
+      "position": null,
+      "internal_id": 343
+    },
+    {
+      "athlete_name": "Josep Maria Mateo Sanz",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "9.86",
+      "discipline": "Triple Salt MASC. PC 50-54",
+      "wind": null,
+      "position": null,
+      "internal_id": 343
+    },
+    {
+      "athlete_name": "Josep Maria Mateo Sanz",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "9.99",
+      "discipline": "Triple Salt MASC. PC 50-54",
+      "wind": null,
+      "position": null,
+      "internal_id": 343
+    },
+    {
+      "athlete_name": "Maribel Vallve Olivella",
+      "athlete_dob": "19/10/1967",
+      "athlete_id": "CT26851",
+      "performance": "6.64",
+      "discipline": "Pes (3 Kg) VET. Fem. PC 50-54",
+      "wind": null,
+      "position": null,
+      "internal_id": 529
+    },
+    {
+      "athlete_name": "Maribel Vallve Olivella",
+      "athlete_dob": "19/10/1967",
+      "athlete_id": "CT26851",
+      "performance": "6.09",
+      "discipline": "Pes (3 Kg) VET. Fem. PC 50-54",
+      "wind": null,
+      "position": null,
+      "internal_id": 529
+    },
+    {
+      "athlete_name": "Maribel Vallve Olivella",
+      "athlete_dob": "19/10/1967",
+      "athlete_id": "CT26851",
+      "performance": "5.77",
+      "discipline": "Pes (3 Kg) VET. Fem. PC 50-54",
+      "wind": null,
+      "position": null,
+      "internal_id": 529
+    },
+    {
+      "athlete_name": "Maribel Vallve Olivella",
+      "athlete_dob": "19/10/1967",
+      "athlete_id": "CT26851",
+      "performance": "6.13",
+      "discipline": "Pes (3 Kg) VET. Fem. PC 50-54",
+      "wind": null,
+      "position": null,
+      "internal_id": 529
+    },
+    {
+      "athlete_name": "Maribel Vallve Olivella",
+      "athlete_dob": "19/10/1967",
+      "athlete_id": "CT26851",
+      "performance": "5.80",
+      "discipline": "Pes (3 Kg) VET. Fem. PC 50-54",
+      "wind": null,
+      "position": null,
+      "internal_id": 529
+    },
+    {
+      "athlete_name": "Maribel Vallve Olivella",
+      "athlete_dob": "19/10/1967",
+      "athlete_id": "CT26851",
+      "performance": "5.62",
+      "discipline": "Pes (3 Kg) VET. Fem. PC 50-54",
+      "wind": null,
+      "position": null,
+      "internal_id": 529
     }
   ]
 }

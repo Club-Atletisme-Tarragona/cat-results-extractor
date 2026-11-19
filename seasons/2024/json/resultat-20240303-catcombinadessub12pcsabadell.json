@@ -1,8 +1,8 @@
 {
   "event_name": "Campionat Catalunya Sub 12 de Proves Combinades en pista coberta - Sabadell (Pista coberta de Catalunya), 3 marzo 2024",
   "event_date": "03/03/2024",
-  "event_location": "Sabadell",
-  "total_results": 3,
+  "event_location": "Club                                              Lic                        Acum.",
+  "total_results": 13,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2024/03/resultat-20240303-catcombinadessub12pcsabadell.pdf",
   "results": [
     {
@@ -10,9 +10,9 @@
       "athlete_dob": "09/05/2013",
       "athlete_id": "CL4060",
       "performance": "4.16",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada SUB12 MASC. PC",
+      "discipline": "Llargada SUB12 MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -20,9 +20,9 @@
       "athlete_dob": "09/05/2013",
       "athlete_id": "CL4060",
       "performance": "4.00",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada SUB12 MASC. PC",
+      "discipline": "Llargada SUB12 MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -30,10 +30,110 @@
       "athlete_dob": "09/05/2013",
       "athlete_id": "CL4060",
       "performance": "4.18",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada SUB12 MASC. PC",
+      "discipline": "Llargada SUB12 MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": null
+    },
+    {
+      "athlete_name": "Kilian Borreda Cervello",
+      "athlete_dob": "09/05/2013",
+      "athlete_id": "CL4060",
+      "performance": "5.89",
+      "discipline": "Pes (2 Kg) SUB12 MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Kilian Borreda Cervello",
+      "athlete_dob": "09/05/2013",
+      "athlete_id": "CL4060",
+      "performance": "6.22",
+      "discipline": "Pes (2 Kg) SUB12 MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Kilian Borreda Cervello",
+      "athlete_dob": "09/05/2013",
+      "athlete_id": "CL4060",
+      "performance": "5.27",
+      "discipline": "Pes (2 Kg) SUB12 MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Berta Barber Gonzalez",
+      "athlete_dob": "22/01/2013",
+      "athlete_id": "CL7610",
+      "performance": "3.26",
+      "discipline": "Llargada SUB12 FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1359
+    },
+    {
+      "athlete_name": "Berta Barber Gonzalez",
+      "athlete_dob": "22/01/2013",
+      "athlete_id": "CL7610",
+      "performance": "3.37",
+      "discipline": "Llargada SUB12 FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1359
+    },
+    {
+      "athlete_name": "Berta Barber Gonzalez",
+      "athlete_dob": "22/01/2013",
+      "athlete_id": "CL7610",
+      "performance": "3.57",
+      "discipline": "Llargada SUB12 FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1359
+    },
+    {
+      "athlete_name": "Berta Barber Gonzalez",
+      "athlete_dob": "22/01/2013",
+      "athlete_id": "CL7610",
+      "performance": "5.23",
+      "discipline": "Pes (2 Kg) SUB12 FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1359
+    },
+    {
+      "athlete_name": "Berta Barber Gonzalez",
+      "athlete_dob": "22/01/2013",
+      "athlete_id": "CL7610",
+      "performance": "5.13",
+      "discipline": "Pes (2 Kg) SUB12 FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1359
+    },
+    {
+      "athlete_name": "Berta Barber Gonzalez",
+      "athlete_dob": "22/01/2013",
+      "athlete_id": "CL7610",
+      "performance": "5.03",
+      "discipline": "Pes (2 Kg) SUB12 FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1359
+    },
+    {
+      "athlete_name": "Berta Barber",
+      "athlete_dob": "08/11/2013",
+      "athlete_id": "CL7610",
+      "performance": "879",
+      "discipline": "Triatló Sub12 FEM PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1433
     }
   ]
 }

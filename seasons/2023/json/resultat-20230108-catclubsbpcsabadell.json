@@ -1,28 +1,178 @@
 {
   "event_name": "Campionat de Catalunya de Clubs \"B\" Masculins en Pista Coberta - Campionat de Catalunya de Clubs \"B\" Masculins en Pista Coberta",
   "event_date": "08/01/2023",
-  "event_location": "Vilafranca",
-  "total_results": 5,
+  "event_location": "Club                                             Lic",
+  "total_results": 24,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2023/01/resultat-20230108-catclubsbpcsabadell.pdf",
   "results": [
+    {
+      "athlete_name": "Jan Monserrate Castaño",
+      "athlete_dob": "19/12/2001",
+      "athlete_id": "CT26558",
+      "performance": "7.46",
+      "discipline": "60m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 734
+    },
     {
       "athlete_name": "Pablo Angel Fernandez",
       "athlete_dob": "26/01/2003",
       "athlete_id": "CT28510",
       "performance": "23.78",
-      "discipline": "200 metres llisos",
-      "raw_discipline_name": "200m MASC. PC",
+      "discipline": "200m MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 704
+    },
+    {
+      "athlete_name": "Pol Aixala Guiu",
+      "athlete_dob": "04/12/2004",
+      "athlete_id": "CT438",
+      "performance": "0:52.29",
+      "discipline": "400m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 733
+    },
+    {
+      "athlete_name": "Hugo Rodriguez Martinez",
+      "athlete_dob": "25/02/2004",
+      "athlete_id": "CT27323",
+      "performance": "1:58.46",
+      "discipline": "800m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 777
+    },
+    {
+      "athlete_name": "Xavier Ros Borrell",
+      "athlete_dob": "19/05/1998",
+      "athlete_id": "CL22779",
+      "performance": "4:10.08",
+      "discipline": "1.500m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 439
+    },
+    {
+      "athlete_name": "Valentin Izaga Lopez",
+      "athlete_dob": "09/11/1972",
+      "athlete_id": "CL8922",
+      "performance": "9:53.80",
+      "discipline": "3.000m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 700
+    },
+    {
+      "athlete_name": "Marc Jose Diaz",
+      "athlete_dob": "08/01/1993",
+      "athlete_id": "CT17220",
+      "performance": "8.79",
+      "discipline": "60m tanques (1,067) MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 294
+    },
+    {
+      "athlete_name": "Didac Rios Meseguer",
+      "athlete_dob": "19/04/1985",
+      "athlete_id": "CT14019",
+      "performance": "1.60",
+      "discipline": "Alçada MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 193
+    },
+    {
+      "athlete_name": "Manuel Pizarro Arevalo",
+      "athlete_dob": "08/06/1987",
+      "athlete_id": "CL25669",
+      "performance": "3.70",
+      "discipline": "Perxa MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 517
+    },
+    {
+      "athlete_name": "Victor Jimenez Garcia",
+      "athlete_dob": "25/05/2008",
+      "athlete_id": "CT1465",
+      "performance": "5.77",
+      "discipline": "Llargada MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 958
+    },
+    {
+      "athlete_name": "Victor Jimenez Garcia",
+      "athlete_dob": "25/05/2008",
+      "athlete_id": "CT1465",
+      "performance": "6.10",
+      "discipline": "Llargada MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 958
+    },
+    {
+      "athlete_name": "Victor Jimenez Garcia",
+      "athlete_dob": "25/05/2008",
+      "athlete_id": "CT1465",
+      "performance": "6.00",
+      "discipline": "Llargada MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 958
+    },
+    {
+      "athlete_name": "Victor Jimenez Garcia",
+      "athlete_dob": "25/05/2008",
+      "athlete_id": "CT1465",
+      "performance": "6.20",
+      "discipline": "Llargada MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 958
+    },
+    {
+      "athlete_name": "Lluc Subiros Brasero",
+      "athlete_dob": "06/01/2007",
+      "athlete_id": "CT1186",
+      "performance": "12.24",
+      "discipline": "Triple Salt MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 899
+    },
+    {
+      "athlete_name": "Lluc Subiros Brasero",
+      "athlete_dob": "06/01/2007",
+      "athlete_id": "CT1186",
+      "performance": "11.89",
+      "discipline": "Triple Salt MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 899
+    },
+    {
+      "athlete_name": "Lluc Subiros Brasero",
+      "athlete_dob": "06/01/2007",
+      "athlete_id": "CT1186",
+      "performance": "12.27",
+      "discipline": "Triple Salt MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 899
     },
     {
       "athlete_name": "Didac Exposito Garcia",
       "athlete_dob": "04/08/1973",
       "athlete_id": "CT3967",
       "performance": "11.32",
-      "discipline": "Pes (7.260 Kg)",
-      "raw_discipline_name": "Pes (7,260kg) MASC. PC",
+      "discipline": "Pes (7,260 Kg) MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 44
     },
     {
@@ -30,9 +180,9 @@
       "athlete_dob": "04/08/1973",
       "athlete_id": "CT3967",
       "performance": "10.87",
-      "discipline": "Pes (7.260 Kg)",
-      "raw_discipline_name": "Pes (7,260kg) MASC. PC",
+      "discipline": "Pes (7,260 Kg) MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 44
     },
     {
@@ -40,9 +190,9 @@
       "athlete_dob": "04/08/1973",
       "athlete_id": "CT3967",
       "performance": "11.30",
-      "discipline": "Pes (7.260 Kg)",
-      "raw_discipline_name": "Pes (7,260kg) MASC. PC",
+      "discipline": "Pes (7,260 Kg) MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 44
     },
     {
@@ -50,10 +200,50 @@
       "athlete_dob": "04/08/1973",
       "athlete_id": "CT3967",
       "performance": "11.11",
-      "discipline": "Pes (7.260 Kg)",
-      "raw_discipline_name": "Pes (7,260kg) MASC. PC",
+      "discipline": "Pes (7,260 Kg) MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 44
+    },
+    {
+      "athlete_name": "Pol Aixala Guiu",
+      "athlete_dob": "04/12/2004",
+      "athlete_id": "CT438",
+      "performance": "3:40.02",
+      "discipline": "4x400m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 733
+    },
+    {
+      "athlete_name": "Joan Martorell Escobar",
+      "athlete_dob": "22/03/2007",
+      "athlete_id": "CT1651",
+      "performance": "3:40.02",
+      "discipline": "4x400m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 914
+    },
+    {
+      "athlete_name": "Lluc Subiros Brasero",
+      "athlete_dob": "06/01/2007",
+      "athlete_id": "CT1186",
+      "performance": "3:40.02",
+      "discipline": "4x400m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 899
+    },
+    {
+      "athlete_name": "Pablo Angel Fernandez",
+      "athlete_dob": "26/01/2003",
+      "athlete_id": "CT28510",
+      "performance": "3:40.02",
+      "discipline": "4x400m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 704
     }
   ]
 }

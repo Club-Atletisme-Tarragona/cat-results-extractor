@@ -1,8 +1,8 @@
 {
   "event_name": " - Pista de Atletismo de El Vendrell, 22 junio 2024",
   "event_date": "22/06/2024",
-  "event_location": "El Vendrell",
-  "total_results": 2,
+  "event_location": "Pista de Atletismo de El Vendrell",
+  "total_results": 9,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2024/06/resultat-20240622-circuitllancamentselvendrell.pdf",
   "results": [
     {
@@ -10,9 +10,9 @@
       "athlete_dob": "29/04/1985",
       "athlete_id": "CT13219",
       "performance": "37.02",
-      "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "Disco (1kg) S18 FEM.",
+      "discipline": "Disco (1 Kg) S18 FEM.",
       "wind": null,
+      "position": null,
       "internal_id": 159
     },
     {
@@ -20,10 +20,80 @@
       "athlete_dob": "29/04/1985",
       "athlete_id": "CT13219",
       "performance": "33.93",
-      "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "Disco (1kg) S18 FEM.",
+      "discipline": "Disco (1 Kg) S18 FEM.",
       "wind": null,
+      "position": null,
       "internal_id": 159
+    },
+    {
+      "athlete_name": "Pau Crespo Beltran",
+      "athlete_dob": "22/10/2008",
+      "athlete_id": "CT1650",
+      "performance": "55.23",
+      "discipline": "Jabalina (700g) S18 MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 971
+    },
+    {
+      "athlete_name": "Pau Crespo Beltran",
+      "athlete_dob": "22/10/2008",
+      "athlete_id": "CT1650",
+      "performance": "57.07",
+      "discipline": "Jabalina (700g) S18 MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 971
+    },
+    {
+      "athlete_name": "Pau Crespo Beltran",
+      "athlete_dob": "22/10/2008",
+      "athlete_id": "CT1650",
+      "performance": "49.62",
+      "discipline": "Jabalina (700g) S18 MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 971
+    },
+    {
+      "athlete_name": "Pau Crespo Beltran",
+      "athlete_dob": "22/10/2008",
+      "athlete_id": "CT1650",
+      "performance": "52.41",
+      "discipline": "Jabalina (700g) S18 MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 971
+    },
+    {
+      "athlete_name": "Pau Crespo Beltran",
+      "athlete_dob": "22/10/2008",
+      "athlete_id": "CT1650",
+      "performance": "54.23",
+      "discipline": "Jabalina (700g) S18 MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 971
+    },
+    {
+      "athlete_name": "Matias Costa Bakker",
+      "athlete_dob": "19/11/2007",
+      "athlete_id": "CT2169",
+      "performance": "37.83",
+      "discipline": "Martillo (5 Kg) S18 MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 922
+    },
+    {
+      "athlete_name": "Matias Costa Bakker",
+      "athlete_dob": "19/11/2007",
+      "athlete_id": "CT2169",
+      "performance": "41.19",
+      "discipline": "Martillo (5 Kg) S18 MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 922
     }
   ]
 }

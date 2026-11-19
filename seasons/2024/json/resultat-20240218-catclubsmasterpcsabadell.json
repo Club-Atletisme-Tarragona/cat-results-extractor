@@ -1,29 +1,159 @@
 {
   "event_name": "Campionat de Catalunya de Clubs Màster Pista Coberta - Campionat de Catalunya de Clubs Màster Pista Coberta",
   "event_date": "18/02/2024",
-  "event_location": "Sabadell",
-  "total_results": 2,
+  "event_location": "Club                                                 Lic",
+  "total_results": 15,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2024/02/resultat-20240218-catclubsmasterpcsabadell.pdf",
   "results": [
     {
-      "athlete_name": "Josep Maria Puig Lara",
-      "athlete_dob": "30/11/1951",
-      "athlete_id": "CT27228",
-      "performance": "75.14",
-      "discipline": "200 metres llisos",
-      "raw_discipline_name": "200m MASC. PC",
+      "athlete_name": "Gines Sanchez Perez",
+      "athlete_dob": "23/07/1969",
+      "athlete_id": "CT2055",
+      "performance": "1:10.84",
+      "discipline": "400m MASC. PC",
       "wind": null,
-      "internal_id": 637
+      "position": null,
+      "internal_id": 505
     },
     {
-      "athlete_name": "Pere Pardines Gras",
-      "athlete_dob": "30/01/1965",
-      "athlete_id": "CT9121",
-      "performance": "1.50",
-      "discipline": "Alçada",
-      "raw_discipline_name": "Alçada MASC. PC",
+      "athlete_name": "Jose Francisco Garcia Navarrete",
+      "athlete_dob": "24/09/1967",
+      "athlete_id": "CL3972",
+      "performance": "2:49.29",
+      "discipline": "800m MASC. PC",
       "wind": null,
-      "internal_id": 71
+      "position": null,
+      "internal_id": 5
+    },
+    {
+      "athlete_name": "Julio Leon Cid",
+      "athlete_dob": "12/10/1974",
+      "athlete_id": "CT4",
+      "performance": "4:25.35",
+      "discipline": "1.500m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 992
+    },
+    {
+      "athlete_name": "Jose Miguel Diaz Butron",
+      "athlete_dob": "27/05/1983",
+      "athlete_id": "CT10522",
+      "performance": "9:56.21",
+      "discipline": "3.000m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 252
+    },
+    {
+      "athlete_name": "Josep Maria Mateo Sanz",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "4.12",
+      "discipline": "Llargada MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 343
+    },
+    {
+      "athlete_name": "Josep Maria Mateo Sanz",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "4.18",
+      "discipline": "Llargada MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 343
+    },
+    {
+      "athlete_name": "Josep Maria Mateo Sanz",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "4.17",
+      "discipline": "Llargada MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 343
+    },
+    {
+      "athlete_name": "Juan Carlos Herrera Alcaide",
+      "athlete_dob": "31/01/1973",
+      "athlete_id": "CT25152",
+      "performance": "10.51",
+      "discipline": "Triple Salt MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 518
+    },
+    {
+      "athlete_name": "Juan Carlos Herrera Alcaide",
+      "athlete_dob": "31/01/1973",
+      "athlete_id": "CT25152",
+      "performance": "10.32",
+      "discipline": "Triple Salt MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 518
+    },
+    {
+      "athlete_name": "Juan Carlos Herrera Alcaide",
+      "athlete_dob": "31/01/1973",
+      "athlete_id": "CT25152",
+      "performance": "10.35",
+      "discipline": "Triple Salt MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 518
+    },
+    {
+      "athlete_name": "Francesc Mosquera Pages",
+      "athlete_dob": "07/09/1956",
+      "athlete_id": "CT1501",
+      "performance": "8.77",
+      "discipline": "Pes MAS. PC 65-69",
+      "wind": null,
+      "position": null,
+      "internal_id": 855
+    },
+    {
+      "athlete_name": "Francesc Mosquera Pages",
+      "athlete_dob": "07/09/1956",
+      "athlete_id": "CT1501",
+      "performance": "8.91",
+      "discipline": "Pes MAS. PC 65-69",
+      "wind": null,
+      "position": null,
+      "internal_id": 855
+    },
+    {
+      "athlete_name": "Francesc Mosquera Pages",
+      "athlete_dob": "07/09/1956",
+      "athlete_id": "CT1501",
+      "performance": "9.32",
+      "discipline": "Pes MAS. PC 65-69",
+      "wind": null,
+      "position": null,
+      "internal_id": 855
+    },
+    {
+      "athlete_name": "Francesc Mosquera Pages",
+      "athlete_dob": "07/09/1956",
+      "athlete_id": "CT1501",
+      "performance": "9.15",
+      "discipline": "Pes MAS. PC 65-69",
+      "wind": null,
+      "position": null,
+      "internal_id": 855
+    },
+    {
+      "athlete_name": "Francesc Mosquera Pages",
+      "athlete_dob": "07/09/1956",
+      "athlete_id": "CT1501",
+      "performance": "8.87",
+      "discipline": "Pes MAS. PC 65-69",
+      "wind": null,
+      "position": null,
+      "internal_id": 855
     }
   ]
 }

@@ -1,18 +1,78 @@
 {
   "event_name": "48è Campionat de Catalunya Absolut en Pista Coberta - 48è Campionat de Catalunya Absolut en Pista Coberta",
   "event_date": "21/01/2024",
-  "event_location": "Sabadell",
-  "total_results": 2,
+  "event_location": "Club                                             Lic",
+  "total_results": 15,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2024/01/resultat-20240121-catabsolutsub23pcsabadell.pdf",
   "results": [
+    {
+      "athlete_name": "Pol Aixala Guiu",
+      "athlete_dob": "04/12/2004",
+      "athlete_id": "CT438",
+      "performance": "0:51.53",
+      "discipline": "400m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 733
+    },
+    {
+      "athlete_name": "Claudia Mir Casellas",
+      "athlete_dob": "02/08/2003",
+      "athlete_id": "CT152",
+      "performance": "0:58.94",
+      "discipline": "400m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 699
+    },
+    {
+      "athlete_name": "Claudia Mir Casellas",
+      "athlete_dob": "02/08/2003",
+      "athlete_id": "CT152",
+      "performance": "0:58.30",
+      "discipline": "400m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 699
+    },
+    {
+      "athlete_name": "Claudia Mir Casellas 3 3U23",
+      "athlete_dob": "02/08/2003",
+      "athlete_id": "CT152",
+      "performance": "0:58.30",
+      "discipline": "400m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 699
+    },
+    {
+      "athlete_name": "Mireia Lopez Urbano",
+      "athlete_dob": "07/12/2000",
+      "athlete_id": "CT23556",
+      "performance": "8.77",
+      "discipline": "60m tanques (0,84) FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 527
+    },
+    {
+      "athlete_name": "Mireia Lopez Urbano",
+      "athlete_dob": "07/12/2000",
+      "athlete_id": "CT23556",
+      "performance": "8.68",
+      "discipline": "60m tanques (0,84) FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 527
+    },
     {
       "athlete_name": "Maria Falco Cuenca",
       "athlete_dob": "14/06/2002",
       "athlete_id": "CT27273",
       "performance": "1.52",
-      "discipline": "Alçada",
-      "raw_discipline_name": "Alçada FEM. PC",
+      "discipline": "Alçada FEM. PC",
       "wind": null,
+      "position": 4,
       "internal_id": 664
     },
     {
@@ -20,9 +80,79 @@
       "athlete_dob": "31/01/2004",
       "athlete_id": "CT91904",
       "performance": "1.47",
-      "discipline": "Alçada",
-      "raw_discipline_name": "Alçada FEM. PC",
+      "discipline": "Alçada FEM. PC",
       "wind": null,
+      "position": 14,
+      "internal_id": 915
+    },
+    {
+      "athlete_name": "Marina Tibau Sendra",
+      "athlete_dob": "06/08/1995",
+      "athlete_id": "CT20392",
+      "performance": "10.81",
+      "discipline": "Pes (4 Kg) FEM. PC",
+      "wind": null,
+      "position": 4,
+      "internal_id": 359
+    },
+    {
+      "athlete_name": "Marina Tibau Sendra",
+      "athlete_dob": "06/08/1995",
+      "athlete_id": "CT20392",
+      "performance": "10.11",
+      "discipline": "Pes (4 Kg) FEM. PC",
+      "wind": null,
+      "position": 4,
+      "internal_id": 359
+    },
+    {
+      "athlete_name": "Marina Tibau Sendra",
+      "athlete_dob": "06/08/1995",
+      "athlete_id": "CT20392",
+      "performance": "10.24",
+      "discipline": "Pes (4 Kg) FEM. PC",
+      "wind": null,
+      "position": 4,
+      "internal_id": 359
+    },
+    {
+      "athlete_name": "Marina Tibau Sendra",
+      "athlete_dob": "06/08/1995",
+      "athlete_id": "CT20392",
+      "performance": "10.10",
+      "discipline": "Pes (4 Kg) FEM. PC",
+      "wind": null,
+      "position": 4,
+      "internal_id": 359
+    },
+    {
+      "athlete_name": "Marina Tibau Sendra",
+      "athlete_dob": "06/08/1995",
+      "athlete_id": "CT20392",
+      "performance": "9.63",
+      "discipline": "Pes (4 Kg) FEM. PC",
+      "wind": null,
+      "position": 4,
+      "internal_id": 359
+    },
+    {
+      "athlete_name": "Marina Tibau Sendra",
+      "athlete_dob": "06/08/1995",
+      "athlete_id": "CT20392",
+      "performance": "10.43",
+      "discipline": "Pes (4 Kg) FEM. PC",
+      "wind": null,
+      "position": 4,
+      "internal_id": 359
+    },
+    {
+      "athlete_name": "Ruth Prats Nadal 3.5",
+      "athlete_dob": "31/01/2004",
+      "athlete_id": "CT91904",
+      "performance": "1.47",
+      "discipline": "Alçada FEM. PC",
+      "wind": null,
+      "position": 4,
       "internal_id": 915
     }
   ]

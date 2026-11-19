@@ -1,59 +1,399 @@
 {
   "event_name": "Campionat de Catalunya de Clubs Sub14 en Pista Coberta Masculins - Campionat de Catalunya de Clubs Sub14 en Pista Coberta Masculins",
   "event_date": "21/02/2021",
-  "event_location": "Barcelona - Palau Sant Jordi",
-  "total_results": 5,
+  "event_location": "Club                                              Lic",
+  "total_results": 39,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/2021/03/resultat-20210221-catclubssub14pcbcnpsj.pdf",
   "results": [
+    {
+      "athlete_name": "Jan Vives Fons IM",
+      "athlete_dob": "16/03/2008",
+      "athlete_id": "CL95144",
+      "performance": "8.10",
+      "discipline": "60m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 977
+    },
+    {
+      "athlete_name": "Paco Lorenzo Valldosera IM",
+      "athlete_dob": "30/03/2009",
+      "athlete_id": "CL90838",
+      "performance": "1:48.09",
+      "discipline": "600m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Guillem Pamies Miro IM",
+      "athlete_dob": "16/07/2009",
+      "athlete_id": "CL827",
+      "performance": "3:58.69",
+      "discipline": "1.000m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Quimey Izaga Deriu IM",
+      "athlete_dob": "22/08/2009",
+      "athlete_id": "CL86465",
+      "performance": "7:25.59",
+      "discipline": "2.000m MASC.PC",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Joan Rich Salas IM",
+      "athlete_dob": "08/03/2009",
+      "athlete_id": "CL94407",
+      "performance": "12.19",
+      "discipline": "60m tanques (0,84) MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1011
+    },
+    {
+      "athlete_name": "Jeroni Flores Piñas IM",
+      "athlete_dob": "04/01/2009",
+      "athlete_id": "CL86460",
+      "performance": "1.35",
+      "discipline": "Alçada MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1036
+    },
+    {
+      "athlete_name": "Guillem Ferran Jimenez IM",
+      "athlete_dob": "08/03/2008",
+      "athlete_id": "CL82978",
+      "performance": "2.50",
+      "discipline": "Perxa MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Victor Jimenez Garcia IM",
+      "athlete_dob": "25/05/2008",
+      "athlete_id": "CL82981",
+      "performance": "5.20",
+      "discipline": "Llargada MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 958
+    },
+    {
+      "athlete_name": "Victor Jimenez Garcia IM",
+      "athlete_dob": "25/05/2008",
+      "athlete_id": "CL82981",
+      "performance": "5.25",
+      "discipline": "Llargada MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 958
+    },
+    {
+      "athlete_name": "Victor Jimenez Garcia IM",
+      "athlete_dob": "25/05/2008",
+      "athlete_id": "CL82981",
+      "performance": "5.06",
+      "discipline": "Llargada MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 958
+    },
+    {
+      "athlete_name": "Matias Hernandez Sanchez IM",
+      "athlete_dob": "20/12/2008",
+      "athlete_id": "CL94387",
+      "performance": "8.81",
+      "discipline": "Triple Salt MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 999
+    },
+    {
+      "athlete_name": "Matias Hernandez Sanchez IM",
+      "athlete_dob": "20/12/2008",
+      "athlete_id": "CL94387",
+      "performance": "9.02",
+      "discipline": "Triple Salt MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 999
+    },
+    {
+      "athlete_name": "Matias Hernandez Sanchez IM",
+      "athlete_dob": "20/12/2008",
+      "athlete_id": "CL94387",
+      "performance": "8.65",
+      "discipline": "Triple Salt MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 999
+    },
+    {
+      "athlete_name": "Pau Crespo Beltran IM",
+      "athlete_dob": "22/10/2008",
+      "athlete_id": "CL90887",
+      "performance": "9.09",
+      "discipline": "Pes (3 Kg) MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 971
+    },
+    {
+      "athlete_name": "Pau Crespo Beltran IM",
+      "athlete_dob": "22/10/2008",
+      "athlete_id": "CL90887",
+      "performance": "8.89",
+      "discipline": "Pes (3 Kg) MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 971
+    },
+    {
+      "athlete_name": "Pau Crespo Beltran IM",
+      "athlete_dob": "22/10/2008",
+      "athlete_id": "CL90887",
+      "performance": "9.51",
+      "discipline": "Pes (3 Kg) MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 971
+    },
+    {
+      "athlete_name": "Guillem Ferran Jimenez",
+      "athlete_dob": "08/03/2008",
+      "athlete_id": "CL82978",
+      "performance": "1:49.17",
+      "discipline": "4x200m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Victor Jimenez Garcia",
+      "athlete_dob": "25/05/2008",
+      "athlete_id": "CL82981",
+      "performance": "1:49.17",
+      "discipline": "4x200m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 958
+    },
+    {
+      "athlete_name": "Paco Lorenzo Valldosera",
+      "athlete_dob": "30/03/2009",
+      "athlete_id": "CL90838",
+      "performance": "1:49.17",
+      "discipline": "4x200m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
     {
       "athlete_name": "Jan Vives Fons",
       "athlete_dob": "16/03/2008",
       "athlete_id": "CL95144",
-      "performance": "8.10",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m MASC. PC",
+      "performance": "1:49.17",
+      "discipline": "4x200m MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 977
     },
     {
-      "athlete_name": "Jeroni Flores Piñas",
-      "athlete_dob": "04/01/2009",
-      "athlete_id": "CL86460",
-      "performance": "1.35",
-      "discipline": "Alçada",
-      "raw_discipline_name": "Alçada MASC. PC",
+      "athlete_name": "Marc Suarez Piza IM",
+      "athlete_dob": "29/04/2009",
+      "athlete_id": "CL3326",
+      "performance": "13:08.09",
+      "discipline": "2.000m Marxa MASC. PC",
       "wind": null,
-      "internal_id": 1036
+      "position": null,
+      "internal_id": 1017
     },
     {
-      "athlete_name": "Laia Barbera Lanero",
+      "athlete_name": "Mireia Redondo Mendoza IF",
+      "athlete_dob": "10/06/2008",
+      "athlete_id": "CL77534",
+      "performance": "8.71",
+      "discipline": "60m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 957
+    },
+    {
+      "athlete_name": "Iris Garrido Garcia IF",
+      "athlete_dob": "15/12/2008",
+      "athlete_id": "CL77529",
+      "performance": "1:49.12",
+      "discipline": "600m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 982
+    },
+    {
+      "athlete_name": "Clara Ortiz De Landazuri Ontoso IF",
+      "athlete_dob": "04/12/2009",
+      "athlete_id": "CL86467",
+      "performance": "3:25.23",
+      "discipline": "1.000m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1022
+    },
+    {
+      "athlete_name": "Ainoa Rodriguez Murillo IF",
+      "athlete_dob": "17/01/2008",
+      "athlete_id": "CL81622",
+      "performance": "11.31",
+      "discipline": "60m tanques (0,762) PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 965
+    },
+    {
+      "athlete_name": "Noemi Gonzalez Carrillo IF",
+      "athlete_dob": "04/04/2009",
+      "athlete_id": "CL86462",
+      "performance": "1.20",
+      "discipline": "Alçada FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1030
+    },
+    {
+      "athlete_name": "Laia Barbera Lanero IF",
       "athlete_dob": "03/03/2008",
       "athlete_id": "CL94525",
       "performance": "3.22",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada FEM. PC",
+      "discipline": "Llargada FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 961
     },
     {
-      "athlete_name": "Laia Barbera Lanero",
+      "athlete_name": "Laia Barbera Lanero IF",
       "athlete_dob": "03/03/2008",
       "athlete_id": "CL94525",
       "performance": "3.15",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada FEM. PC",
+      "discipline": "Llargada FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 961
     },
     {
-      "athlete_name": "Laia Barbera Lanero",
+      "athlete_name": "Laia Barbera Lanero IF",
       "athlete_dob": "03/03/2008",
       "athlete_id": "CL94525",
       "performance": "3.23",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada FEM. PC",
+      "discipline": "Llargada FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 961
+    },
+    {
+      "athlete_name": "Naia Perez Esquitino IF",
+      "athlete_dob": "16/06/2008",
+      "athlete_id": "CL94404",
+      "performance": "8.58",
+      "discipline": "Triple Salt FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Naia Perez Esquitino IF",
+      "athlete_dob": "16/06/2008",
+      "athlete_id": "CL94404",
+      "performance": "7.99",
+      "discipline": "Triple Salt FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Naia Perez Esquitino IF",
+      "athlete_dob": "16/06/2008",
+      "athlete_id": "CL94404",
+      "performance": "8.59",
+      "discipline": "Triple Salt FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Carla Rodriguez Martinez IF",
+      "athlete_dob": "10/01/2008",
+      "athlete_id": "CL94416",
+      "performance": "9.98",
+      "discipline": "Pes (2 Kg) FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Carla Rodriguez Martinez IF",
+      "athlete_dob": "10/01/2008",
+      "athlete_id": "CL94416",
+      "performance": "7.79",
+      "discipline": "Pes (2 Kg) FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Carla Rodriguez Martinez IF",
+      "athlete_dob": "10/01/2008",
+      "athlete_id": "CL94416",
+      "performance": "9.37",
+      "discipline": "Pes (2 Kg) FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Iris Garrido Garcia",
+      "athlete_dob": "15/12/2008",
+      "athlete_id": "CL77529",
+      "performance": "2:00.29",
+      "discipline": "4x200m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 982
+    },
+    {
+      "athlete_name": "Mireia Redondo Mendoza",
+      "athlete_dob": "10/06/2008",
+      "athlete_id": "CL77534",
+      "performance": "2:00.29",
+      "discipline": "4x200m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 957
+    },
+    {
+      "athlete_name": "Carla Rodriguez Martinez",
+      "athlete_dob": "10/01/2008",
+      "athlete_id": "CL94416",
+      "performance": "2:00.29",
+      "discipline": "4x200m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Ainoa Rodriguez Murillo",
+      "athlete_dob": "17/01/2008",
+      "athlete_id": "CL81622",
+      "performance": "2:00.29",
+      "discipline": "4x200m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 965
     }
   ]
 }

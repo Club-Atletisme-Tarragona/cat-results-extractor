@@ -1,8 +1,8 @@
 {
   "event_name": "Control Absolut en Pista Coberta (8a. Jornada) - Control Absolut en Pista Coberta (8a. Jornada)",
-  "event_date": "11/02/2018",
-  "event_location": "Sabadell",
-  "total_results": 2,
+  "event_date": "07/02/2018",
+  "event_location": "Club                                             Lic",
+  "total_results": 9,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20180211-controlpctardasabadell.pdf",
   "results": [
     {
@@ -13,7 +13,19 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 510
+    },
+    {
+      "athlete_name": "Albert Casado Vieco",
+      "athlete_dob": "16/09/2000",
+      "athlete_id": "CL26565",
+      "performance": "7.59",
+      "discipline": "60 metres llisos",
+      "raw_discipline_name": "60m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 596
     },
     {
       "athlete_name": "Marc Ribot Sallent",
@@ -23,7 +35,74 @@
       "discipline": "200 metres llisos",
       "raw_discipline_name": "200m MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 679
+    },
+    {
+      "athlete_name": "Oscar Gomez Carballo",
+      "athlete_dob": "17/11/1976",
+      "athlete_id": "CL28192",
+      "performance": "2:03.59",
+      "discipline": "800 metres llisos",
+      "raw_discipline_name": "800m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 26
+    },
+    {
+      "athlete_name": "Pedro Ortega Ridao",
+      "athlete_dob": "12/10/1977",
+      "athlete_id": "CT16079",
+      "performance": "10:01.64",
+      "discipline": "3000 metres llisos",
+      "raw_discipline_name": "3.000m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 268
+    },
+    {
+      "athlete_name": "Xavier Ros Borrell",
+      "athlete_dob": "19/05/1998",
+      "athlete_id": "CL22779",
+      "performance": "10:26.39",
+      "discipline": "3000 metres llisos",
+      "raw_discipline_name": "3.000m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 439
+    },
+    {
+      "athlete_name": "Marina Tibau Sendra",
+      "athlete_dob": "06/08/1995",
+      "athlete_id": "CL20392",
+      "performance": "10.86",
+      "discipline": "Pes (4 Kg)",
+      "raw_discipline_name": "Pes (4 Kg) FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 359
+    },
+    {
+      "athlete_name": "Marina Tibau Sendra",
+      "athlete_dob": "06/08/1995",
+      "athlete_id": "CL20392",
+      "performance": "10.40",
+      "discipline": "Pes (4 Kg)",
+      "raw_discipline_name": "Pes (4 Kg) FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 359
+    },
+    {
+      "athlete_name": "Marina Tibau Sendra",
+      "athlete_dob": "06/08/1995",
+      "athlete_id": "CL20392",
+      "performance": "9.98",
+      "discipline": "Pes (4 Kg)",
+      "raw_discipline_name": "Pes (4 Kg) FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 359
     }
   ]
 }

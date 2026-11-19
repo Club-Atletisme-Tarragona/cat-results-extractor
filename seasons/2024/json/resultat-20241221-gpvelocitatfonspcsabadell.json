@@ -1,7 +1,7 @@
 {
   "event_name": " - Pista coberta de Catalunya",
   "event_date": "21/12/2024",
-  "event_location": "Sabadell",
+  "event_location": "Sabadell (i)",
   "total_results": 3,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2024/12/resultat-20241221-gpvelocitatfonspcsabadell.pdf",
   "results": [
@@ -10,9 +10,9 @@
       "athlete_dob": "12/10/1974",
       "athlete_id": "CT4",
       "performance": "4:27.16",
-      "discipline": "1500 metres llisos",
-      "raw_discipline_name": "1.500m Hombres",
+      "discipline": "1.500m Hombres",
       "wind": null,
+      "position": null,
       "internal_id": 992
     },
     {
@@ -20,9 +20,9 @@
       "athlete_dob": "2/8/2003",
       "athlete_id": "CT152",
       "performance": "0:58.15",
-      "discipline": "400 metres llisos",
-      "raw_discipline_name": "400m Mujeres",
+      "discipline": "400m Mujeres",
       "wind": null,
+      "position": null,
       "internal_id": 699
     },
     {
@@ -30,9 +30,9 @@
       "athlete_dob": "14/11/2006",
       "athlete_id": "CT2389",
       "performance": "10:23.20",
-      "discipline": "3000 metres llisos",
-      "raw_discipline_name": "3.000m Mujeres",
+      "discipline": "3.000m Mujeres",
       "wind": null,
+      "position": null,
       "internal_id": 847
     }
   ]

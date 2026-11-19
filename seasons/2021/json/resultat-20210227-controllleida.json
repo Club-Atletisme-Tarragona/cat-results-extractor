@@ -2,7 +2,7 @@
   "event_name": "",
   "event_date": "27/02/2021",
   "event_location": "Lleida",
-  "total_results": 2,
+  "total_results": 4,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/2021/02/resultat-20210227-controllleida.pdf",
   "results": [
     {
@@ -10,20 +10,40 @@
       "athlete_dob": "26/09/2002",
       "athlete_id": "CT264",
       "performance": "1:56.79",
-      "discipline": "800 metres llisos",
-      "raw_discipline_name": "800m Abs MASC. AL",
+      "discipline": "800m Abs MASC. AL",
       "wind": null,
+      "position": null,
       "internal_id": 660
+    },
+    {
+      "athlete_name": "Claudia Mir Casellas",
+      "athlete_dob": "02/08/2003",
+      "athlete_id": "CT152",
+      "performance": "26.90",
+      "discipline": "200m Abs FEM. AL",
+      "wind": "-0.1",
+      "position": null,
+      "internal_id": 699
     },
     {
       "athlete_name": "Sira Bo Calaf",
       "athlete_dob": "19/03/2001",
       "athlete_id": "CL26559",
       "performance": "2:34.84",
-      "discipline": "800 metres llisos",
-      "raw_discipline_name": "800m Abs FEM. AL",
+      "discipline": "800m Abs FEM. AL",
       "wind": null,
+      "position": null,
       "internal_id": 599
+    },
+    {
+      "athlete_name": "Claudia Mir Casellas",
+      "athlete_dob": "02/08/2003",
+      "athlete_id": "CT152",
+      "performance": "9.31",
+      "discipline": "60m vallas (0,84) S20 FEM. AL",
+      "wind": "-0.7",
+      "position": null,
+      "internal_id": 699
     }
   ]
 }

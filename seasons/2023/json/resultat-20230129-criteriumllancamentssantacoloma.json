@@ -1,18 +1,48 @@
 {
   "event_name": "",
   "event_date": "29/01/2023",
-  "event_location": "Santa Coloma de Gramenet",
-  "total_results": 9,
+  "event_location": "Camp de Atletisme Antonio Amoros",
+  "total_results": 12,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2023/01/resultat-20230129-criteriumllancamentssantacoloma.pdf",
   "results": [
+    {
+      "athlete_name": "Francesc Ferrando Molina",
+      "athlete_dob": "28/05/1987",
+      "athlete_id": "CL10892",
+      "performance": "30.77",
+      "discipline": "Martillo (7,260 Kg) MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 900
+    },
+    {
+      "athlete_name": "Francesc Ferrando Molina",
+      "athlete_dob": "28/05/1987",
+      "athlete_id": "CL10892",
+      "performance": "32.37",
+      "discipline": "Martillo (7,260 Kg) MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 900
+    },
+    {
+      "athlete_name": "Francesc Ferrando Molina",
+      "athlete_dob": "28/05/1987",
+      "athlete_id": "CL10892",
+      "performance": "31.27",
+      "discipline": "Martillo (7,260 Kg) MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 900
+    },
     {
       "athlete_name": "Barbara Pintado Duch",
       "athlete_dob": "29/04/1985",
       "athlete_id": "CT13219",
       "performance": "32.76",
-      "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "Disco (1kg) FEM.",
+      "discipline": "Disco (1 Kg) FEM.",
       "wind": null,
+      "position": null,
       "internal_id": 159
     },
     {
@@ -20,9 +50,9 @@
       "athlete_dob": "29/04/1985",
       "athlete_id": "CT13219",
       "performance": "33.07",
-      "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "Disco (1kg) FEM.",
+      "discipline": "Disco (1 Kg) FEM.",
       "wind": null,
+      "position": null,
       "internal_id": 159
     },
     {
@@ -30,9 +60,9 @@
       "athlete_dob": "29/04/1985",
       "athlete_id": "CT13219",
       "performance": "35.46",
-      "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "Disco (1kg) FEM.",
+      "discipline": "Disco (1 Kg) FEM.",
       "wind": null,
+      "position": null,
       "internal_id": 159
     },
     {
@@ -40,9 +70,9 @@
       "athlete_dob": "29/04/1985",
       "athlete_id": "CT13219",
       "performance": "34.79",
-      "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "Disco (1kg) FEM.",
+      "discipline": "Disco (1 Kg) FEM.",
       "wind": null,
+      "position": null,
       "internal_id": 159
     },
     {
@@ -50,9 +80,9 @@
       "athlete_dob": "29/11/1987",
       "athlete_id": "CT13540",
       "performance": "25.05",
-      "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "Disco (1kg) FEM.",
+      "discipline": "Disco (1 Kg) FEM.",
       "wind": null,
+      "position": null,
       "internal_id": 184
     },
     {
@@ -60,9 +90,9 @@
       "athlete_dob": "29/11/1987",
       "athlete_id": "CT13540",
       "performance": "23.32",
-      "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "Disco (1kg) FEM.",
+      "discipline": "Disco (1 Kg) FEM.",
       "wind": null,
+      "position": null,
       "internal_id": 184
     },
     {
@@ -70,9 +100,9 @@
       "athlete_dob": "29/04/1985",
       "athlete_id": "CT13219",
       "performance": "27.91",
-      "discipline": "Martell (4 Kg)",
-      "raw_discipline_name": "Martillo (4kg) FEM.",
+      "discipline": "Martillo (4 Kg) FEM.",
       "wind": null,
+      "position": null,
       "internal_id": 159
     },
     {
@@ -80,9 +110,9 @@
       "athlete_dob": "29/04/1985",
       "athlete_id": "CT13219",
       "performance": "25.84",
-      "discipline": "Martell (4 Kg)",
-      "raw_discipline_name": "Martillo (4kg) FEM.",
+      "discipline": "Martillo (4 Kg) FEM.",
       "wind": null,
+      "position": null,
       "internal_id": 159
     },
     {
@@ -90,9 +120,9 @@
       "athlete_dob": "29/11/1987",
       "athlete_id": "CT13540",
       "performance": "27.28",
-      "discipline": "Martell (4 Kg)",
-      "raw_discipline_name": "Martillo (4kg) FEM.",
+      "discipline": "Martillo (4 Kg) FEM.",
       "wind": null,
+      "position": null,
       "internal_id": 184
     }
   ]

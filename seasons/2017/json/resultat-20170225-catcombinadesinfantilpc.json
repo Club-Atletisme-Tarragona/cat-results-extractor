@@ -1,18 +1,88 @@
 {
   "event_name": "Campionat de Catalunya Infantil de Proves Combinades - Sabadell (Pista Coberta de Catalunya), 25 febrero 2017",
-  "event_date": "25/02/2017",
-  "event_location": "Sabadell",
-  "total_results": 1,
+  "event_date": "24/02/2004",
+  "event_location": "UGE Badalona                                 IM",
+  "total_results": 8,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20170225-catcombinadesinfantilpc.pdf",
   "results": [
     {
       "athlete_name": "Laurineelisa Marimon Fernandez",
       "athlete_dob": "17/09/2004",
       "athlete_id": "CL69330",
-      "performance": "1.37",
-      "discipline": "Alçada",
-      "raw_discipline_name": "Alçada FEM. PC",
+      "performance": "1955",
+      "discipline": "Tetratló FEM. PC",
       "wind": null,
+      "position": null,
+      "internal_id": 737
+    },
+    {
+      "athlete_name": "Laurineelisa Marimon Fernandez IF",
+      "athlete_dob": "17/09/2004",
+      "athlete_id": "CL69330",
+      "performance": "10.56",
+      "discipline": "60m tanques FEM PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 737
+    },
+    {
+      "athlete_name": "Laurineelisa Marimon Fernandez IF",
+      "athlete_dob": "17/09/2004",
+      "athlete_id": "CL69330",
+      "performance": "1.37",
+      "discipline": "Alçada FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 737
+    },
+    {
+      "athlete_name": "Laurineelisa Marimon Fernandez IF",
+      "athlete_dob": "17/09/2004",
+      "athlete_id": "CL69330",
+      "performance": "8.39",
+      "discipline": "Pes FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 737
+    },
+    {
+      "athlete_name": "Laurineelisa Marimon Fernandez IF",
+      "athlete_dob": "17/09/2004",
+      "athlete_id": "CL69330",
+      "performance": "8.37",
+      "discipline": "Pes FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 737
+    },
+    {
+      "athlete_name": "Laurineelisa Marimon Fernandez IF",
+      "athlete_dob": "17/09/2004",
+      "athlete_id": "CL69330",
+      "performance": "8.58",
+      "discipline": "Pes FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 737
+    },
+    {
+      "athlete_name": "Laurineelisa Marimon Fernandez IF",
+      "athlete_dob": "17/09/2004",
+      "athlete_id": "CL69330",
+      "performance": "4.49",
+      "discipline": "Llargada FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 737
+    },
+    {
+      "athlete_name": "Laurineelisa Marimon",
+      "athlete_dob": "05/03/2004",
+      "athlete_id": "CL69330",
+      "performance": "1955",
+      "discipline": "Tetratló FEM. PC",
+      "wind": null,
+      "position": null,
       "internal_id": 737
     }
   ]

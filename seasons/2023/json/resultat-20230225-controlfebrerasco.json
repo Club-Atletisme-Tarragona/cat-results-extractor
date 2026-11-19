@@ -2,17 +2,77 @@
   "event_name": "Control Asco Febrer",
   "event_date": "25/02/2023",
   "event_location": "Ascó",
-  "total_results": 16,
+  "total_results": 24,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2023/02/resultat-20230225-controlfebrerasco.pdf",
   "results": [
     {
       "athlete_name": "Kilian Borreda Cervello",
       "athlete_dob": "09/05/2013",
       "athlete_id": "CL4060",
-      "performance": "3.60",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud MASC. AL SUB 12",
+      "performance": "9.51",
+      "discipline": "60m MASC. AL SUB 12",
       "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Aston Mate Gras",
+      "athlete_dob": "07/12/2012",
+      "athlete_id": "CL95044",
+      "performance": "9.57",
+      "discipline": "60m MASC. AL SUB 12",
+      "wind": null,
+      "position": null,
+      "internal_id": 1342
+    },
+    {
+      "athlete_name": "Ferran Mascaro Navarro",
+      "athlete_dob": "02/06/2012",
+      "athlete_id": "CL96310",
+      "performance": "9.82",
+      "discipline": "60m MASC. AL SUB 12",
+      "wind": null,
+      "position": null,
+      "internal_id": 1362
+    },
+    {
+      "athlete_name": "Kilian Borreda Cervello",
+      "athlete_dob": "09/05/2013",
+      "athlete_id": "CL4060",
+      "performance": "2:00.62",
+      "discipline": "600m MASC. AL SUB 12",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Aston Mate Gras",
+      "athlete_dob": "07/12/2012",
+      "athlete_id": "CL95044",
+      "performance": "2:03.41",
+      "discipline": "600m MASC. AL SUB 12",
+      "wind": null,
+      "position": null,
+      "internal_id": 1342
+    },
+    {
+      "athlete_name": "Ferran Mascaro Navarro",
+      "athlete_dob": "02/06/2012",
+      "athlete_id": "CL96310",
+      "performance": "2:11.23",
+      "discipline": "600m MASC. AL SUB 12",
+      "wind": null,
+      "position": null,
+      "internal_id": 1362
+    },
+    {
+      "athlete_name": "Kilian Borreda Cervello",
+      "athlete_dob": "09/05/2013",
+      "athlete_id": "CL4060",
+      "performance": "3.60",
+      "discipline": "Longitud MASC. AL SUB 12",
+      "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -20,9 +80,9 @@
       "athlete_dob": "09/05/2013",
       "athlete_id": "CL4060",
       "performance": "3.71",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud MASC. AL SUB 12",
+      "discipline": "Longitud MASC. AL SUB 12",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -30,9 +90,9 @@
       "athlete_dob": "09/05/2013",
       "athlete_id": "CL4060",
       "performance": "3.78",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud MASC. AL SUB 12",
+      "discipline": "Longitud MASC. AL SUB 12",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -40,9 +100,9 @@
       "athlete_dob": "02/06/2012",
       "athlete_id": "CL96310",
       "performance": "3.10",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud MASC. AL SUB 12",
+      "discipline": "Longitud MASC. AL SUB 12",
       "wind": null,
+      "position": null,
       "internal_id": 1362
     },
     {
@@ -50,9 +110,9 @@
       "athlete_dob": "02/06/2012",
       "athlete_id": "CL96310",
       "performance": "3.30",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud MASC. AL SUB 12",
+      "discipline": "Longitud MASC. AL SUB 12",
       "wind": null,
+      "position": null,
       "internal_id": 1362
     },
     {
@@ -60,9 +120,9 @@
       "athlete_dob": "02/06/2012",
       "athlete_id": "CL96310",
       "performance": "3.58",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud MASC. AL SUB 12",
+      "discipline": "Longitud MASC. AL SUB 12",
       "wind": null,
+      "position": null,
       "internal_id": 1362
     },
     {
@@ -70,9 +130,9 @@
       "athlete_dob": "07/12/2012",
       "athlete_id": "CL95044",
       "performance": "3.43",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud MASC. AL SUB 12",
+      "discipline": "Longitud MASC. AL SUB 12",
       "wind": null,
+      "position": null,
       "internal_id": 1342
     },
     {
@@ -80,9 +140,9 @@
       "athlete_dob": "07/12/2012",
       "athlete_id": "CL95044",
       "performance": "3.36",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud MASC. AL SUB 12",
+      "discipline": "Longitud MASC. AL SUB 12",
       "wind": null,
+      "position": null,
       "internal_id": 1342
     },
     {
@@ -90,9 +150,9 @@
       "athlete_dob": "13/03/2012",
       "athlete_id": "CL11154",
       "performance": "10.15",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salto MASC. AL SUB 16",
+      "discipline": "60m FEM. AL SUB 12",
       "wind": null,
+      "position": null,
       "internal_id": 1369
     },
     {
@@ -100,9 +160,9 @@
       "athlete_dob": "06/03/2012",
       "athlete_id": "CL7258",
       "performance": "10.31",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salto MASC. AL SUB 16",
+      "discipline": "60m FEM. AL SUB 12",
       "wind": null,
+      "position": null,
       "internal_id": 1352
     },
     {
@@ -110,39 +170,59 @@
       "athlete_dob": "22/01/2013",
       "athlete_id": "CL7610",
       "performance": "10.45",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salto MASC. AL SUB 16",
+      "discipline": "60m FEM. AL SUB 12",
       "wind": null,
+      "position": null,
       "internal_id": 1359
     },
     {
       "athlete_name": "Berta Barber Gonzalez",
       "athlete_dob": "22/01/2013",
       "athlete_id": "CL7610",
-      "performance": "14.00",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salto MASC. AL SUB 16",
-      "wind": "+0.0",
+      "performance": "2:14.00",
+      "discipline": "600m FEM. AL SUB 12",
+      "wind": null,
+      "position": null,
       "internal_id": 1359
     },
     {
       "athlete_name": "Arlet Solana Vila",
       "athlete_dob": "13/03/2012",
       "athlete_id": "CL11154",
-      "performance": "15.87",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salto MASC. AL SUB 16",
-      "wind": "+0.0",
+      "performance": "2:15.87",
+      "discipline": "600m FEM. AL SUB 12",
+      "wind": null,
+      "position": null,
       "internal_id": 1369
+    },
+    {
+      "athlete_name": "Carlota Tejero Clau",
+      "athlete_dob": "06/03/2012",
+      "athlete_id": "CL7258",
+      "performance": "2:33.44",
+      "discipline": "600m FEM. AL SUB 12",
+      "wind": null,
+      "position": null,
+      "internal_id": 1352
+    },
+    {
+      "athlete_name": "387 (t) Lucia Echevarria Parafita CF",
+      "athlete_dob": "08/12/2008",
+      "athlete_id": "CL90745",
+      "performance": "NP",
+      "discipline": "Altura FEM. AL SUB 16",
+      "wind": null,
+      "position": null,
+      "internal_id": 987
     },
     {
       "athlete_name": "Berta Barber Gonzalez",
       "athlete_dob": "22/01/2013",
       "athlete_id": "CL7610",
       "performance": "3.25",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud FEM. AL SUB 12",
+      "discipline": "Longitud FEM. AL SUB 12",
       "wind": null,
+      "position": null,
       "internal_id": 1359
     },
     {
@@ -150,9 +230,9 @@
       "athlete_dob": "06/03/2012",
       "athlete_id": "CL7258",
       "performance": "3.00",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud FEM. AL SUB 12",
+      "discipline": "Longitud FEM. AL SUB 12",
       "wind": null,
+      "position": null,
       "internal_id": 1352
     },
     {
@@ -160,9 +240,9 @@
       "athlete_dob": "13/03/2012",
       "athlete_id": "CL11154",
       "performance": "2.66",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud FEM. AL SUB 12",
+      "discipline": "Longitud FEM. AL SUB 12",
       "wind": null,
+      "position": null,
       "internal_id": 1369
     }
   ]

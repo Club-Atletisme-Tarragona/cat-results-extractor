@@ -2,17 +2,147 @@
   "event_name": "Jornada Final Campionat de Catalunya Sub12",
   "event_date": "17/06/2023",
   "event_location": "El Prat de Llobregat",
-  "total_results": 23,
+  "total_results": 39,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2023/06/resultat-20230617-catsub12finalelprat.pdf",
   "results": [
+    {
+      "athlete_name": "Hugo Diaz Cristino",
+      "athlete_dob": "04/04/2012",
+      "athlete_id": "CL4397",
+      "performance": "7:18.94",
+      "discipline": "2.000m MASC. AL",
+      "wind": null,
+      "position": 10,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Aston Mate Gras",
+      "athlete_dob": "07/12/2012",
+      "athlete_id": "CL95044",
+      "performance": "7:31.23",
+      "discipline": "2.000m MASC. AL",
+      "wind": null,
+      "position": 15,
+      "internal_id": 1342
+    },
+    {
+      "athlete_name": "Aleix Gomez Miro",
+      "athlete_dob": "06/01/2013",
+      "athlete_id": "CL4345",
+      "performance": "10.65",
+      "discipline": "60m tanques (0,50) MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Kilian Pedrol Espinosa",
+      "athlete_dob": "24/02/2013",
+      "athlete_id": "CL7676",
+      "performance": "1.22",
+      "discipline": "Alçada MASC. AL",
+      "wind": null,
+      "position": 9,
+      "internal_id": 1361
+    },
+    {
+      "athlete_name": "Kilian Borreda Cervello",
+      "athlete_dob": "09/05/2013",
+      "athlete_id": "CL4060",
+      "performance": "3.74",
+      "discipline": "Llargada MASC. AL",
+      "wind": null,
+      "position": 2,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Kilian Borreda Cervello",
+      "athlete_dob": "09/05/2013",
+      "athlete_id": "CL4060",
+      "performance": "4.09",
+      "discipline": "Llargada MASC. AL",
+      "wind": null,
+      "position": 2,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Kilian Borreda Cervello",
+      "athlete_dob": "09/05/2013",
+      "athlete_id": "CL4060",
+      "performance": "4.29",
+      "discipline": "Llargada MASC. AL",
+      "wind": null,
+      "position": 2,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Kilian Borreda Cervello",
+      "athlete_dob": "09/05/2013",
+      "athlete_id": "CL4060",
+      "performance": "4.08",
+      "discipline": "Llargada MASC. AL",
+      "wind": null,
+      "position": 2,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Kilian Borreda Cervello",
+      "athlete_dob": "09/05/2013",
+      "athlete_id": "CL4060",
+      "performance": "4.04",
+      "discipline": "Llargada MASC. AL",
+      "wind": null,
+      "position": 2,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Kilian Borreda Cervello",
+      "athlete_dob": "09/05/2013",
+      "athlete_id": "CL4060",
+      "performance": "3.53",
+      "discipline": "Llargada MASC. AL",
+      "wind": null,
+      "position": 2,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Hernan Ferran Jimenez",
+      "athlete_dob": "28/09/2012",
+      "athlete_id": "CL1093",
+      "performance": "7.40",
+      "discipline": "Pes (2 Kg) MASC. AL",
+      "wind": null,
+      "position": 10,
+      "internal_id": 1327
+    },
+    {
+      "athlete_name": "Hernan Ferran Jimenez",
+      "athlete_dob": "28/09/2012",
+      "athlete_id": "CL1093",
+      "performance": "7.24",
+      "discipline": "Pes (2 Kg) MASC. AL",
+      "wind": null,
+      "position": 10,
+      "internal_id": 1327
+    },
+    {
+      "athlete_name": "Hernan Ferran Jimenez",
+      "athlete_dob": "28/09/2012",
+      "athlete_id": "CL1093",
+      "performance": "7.26",
+      "discipline": "Pes (2 Kg) MASC. AL",
+      "wind": null,
+      "position": 10,
+      "internal_id": 1327
+    },
     {
       "athlete_name": "Hernan Ferran Jimenez",
       "athlete_dob": "28/09/2012",
       "athlete_id": "CL1093",
       "performance": "22.10",
-      "discipline": "Disc (600 g)",
-      "raw_discipline_name": "Disc (600g) MASC. AL",
+      "discipline": "Disc (600g) MASC. AL",
       "wind": null,
+      "position": 1,
       "internal_id": 1327
     },
     {
@@ -20,9 +150,9 @@
       "athlete_dob": "28/09/2012",
       "athlete_id": "CL1093",
       "performance": "24.10",
-      "discipline": "Disc (600 g)",
-      "raw_discipline_name": "Disc (600g) MASC. AL",
+      "discipline": "Disc (600g) MASC. AL",
       "wind": null,
+      "position": 1,
       "internal_id": 1327
     },
     {
@@ -30,9 +160,9 @@
       "athlete_dob": "28/09/2012",
       "athlete_id": "CL1093",
       "performance": "18.77",
-      "discipline": "Disc (600 g)",
-      "raw_discipline_name": "Disc (600g) MASC. AL",
+      "discipline": "Disc (600g) MASC. AL",
       "wind": null,
+      "position": 1,
       "internal_id": 1327
     },
     {
@@ -40,9 +170,9 @@
       "athlete_dob": "28/09/2012",
       "athlete_id": "CL1093",
       "performance": "19.20",
-      "discipline": "Disc (600 g)",
-      "raw_discipline_name": "Disc (600g) MASC. AL",
+      "discipline": "Disc (600g) MASC. AL",
       "wind": null,
+      "position": 1,
       "internal_id": 1327
     },
     {
@@ -50,9 +180,9 @@
       "athlete_dob": "28/09/2012",
       "athlete_id": "CL1093",
       "performance": "19.82",
-      "discipline": "Disc (600 g)",
-      "raw_discipline_name": "Disc (600g) MASC. AL",
+      "discipline": "Disc (600g) MASC. AL",
       "wind": null,
+      "position": 1,
       "internal_id": 1327
     },
     {
@@ -60,9 +190,9 @@
       "athlete_dob": "28/09/2012",
       "athlete_id": "CL1093",
       "performance": "18.00",
-      "discipline": "Disc (600 g)",
-      "raw_discipline_name": "Disc (600g) MASC. AL",
+      "discipline": "Disc (600g) MASC. AL",
       "wind": null,
+      "position": 1,
       "internal_id": 1327
     },
     {
@@ -70,9 +200,9 @@
       "athlete_dob": "02/06/2012",
       "athlete_id": "CL96310",
       "performance": "15.45",
-      "discipline": "Disc (600 g)",
-      "raw_discipline_name": "Disc (600g) MASC. AL",
+      "discipline": "Disc (600g) MASC. AL",
       "wind": null,
+      "position": 4,
       "internal_id": 1362
     },
     {
@@ -80,9 +210,9 @@
       "athlete_dob": "02/06/2012",
       "athlete_id": "CL96310",
       "performance": "18.07",
-      "discipline": "Disc (600 g)",
-      "raw_discipline_name": "Disc (600g) MASC. AL",
+      "discipline": "Disc (600g) MASC. AL",
       "wind": null,
+      "position": 4,
       "internal_id": 1362
     },
     {
@@ -90,9 +220,9 @@
       "athlete_dob": "02/06/2012",
       "athlete_id": "CL96310",
       "performance": "16.45",
-      "discipline": "Disc (600 g)",
-      "raw_discipline_name": "Disc (600g) MASC. AL",
+      "discipline": "Disc (600g) MASC. AL",
       "wind": null,
+      "position": 4,
       "internal_id": 1362
     },
     {
@@ -100,9 +230,9 @@
       "athlete_dob": "02/06/2012",
       "athlete_id": "CL96310",
       "performance": "20.74",
-      "discipline": "Disc (600 g)",
-      "raw_discipline_name": "Disc (600g) MASC. AL",
+      "discipline": "Disc (600g) MASC. AL",
       "wind": null,
+      "position": 4,
       "internal_id": 1362
     },
     {
@@ -110,9 +240,9 @@
       "athlete_dob": "02/06/2012",
       "athlete_id": "CL96310",
       "performance": "16.06",
-      "discipline": "Disc (600 g)",
-      "raw_discipline_name": "Disc (600g) MASC. AL",
+      "discipline": "Disc (600g) MASC. AL",
       "wind": null,
+      "position": 4,
       "internal_id": 1362
     },
     {
@@ -120,9 +250,9 @@
       "athlete_dob": "02/06/2012",
       "athlete_id": "CL96310",
       "performance": "14.98",
-      "discipline": "Disc (600 g)",
-      "raw_discipline_name": "Disc (600g) MASC. AL",
+      "discipline": "Disc (600g) MASC. AL",
       "wind": null,
+      "position": 4,
       "internal_id": 1362
     },
     {
@@ -130,9 +260,9 @@
       "athlete_dob": "24/10/2012",
       "athlete_id": "CL1495",
       "performance": "7:39.14",
-      "discipline": "2000 metres marxa",
-      "raw_discipline_name": "2.000m Marxa MASC. AL",
+      "discipline": "2.000m FEM. AL",
       "wind": null,
+      "position": 8,
       "internal_id": 1331
     },
     {
@@ -140,9 +270,9 @@
       "athlete_dob": "01/05/2012",
       "athlete_id": "CL1089",
       "performance": "3.96",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada FEM. AL",
+      "discipline": "Llargada FEM. AL",
       "wind": null,
+      "position": 7,
       "internal_id": 1330
     },
     {
@@ -150,9 +280,9 @@
       "athlete_dob": "01/05/2012",
       "athlete_id": "CL1089",
       "performance": "4.09",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada FEM. AL",
+      "discipline": "Llargada FEM. AL",
       "wind": null,
+      "position": 7,
       "internal_id": 1330
     },
     {
@@ -160,9 +290,9 @@
       "athlete_dob": "01/05/2012",
       "athlete_id": "CL1089",
       "performance": "3.82",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada FEM. AL",
+      "discipline": "Llargada FEM. AL",
       "wind": null,
+      "position": 7,
       "internal_id": 1330
     },
     {
@@ -170,9 +300,9 @@
       "athlete_dob": "01/05/2012",
       "athlete_id": "CL1089",
       "performance": "3.83",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada FEM. AL",
+      "discipline": "Llargada FEM. AL",
       "wind": null,
+      "position": 7,
       "internal_id": 1330
     },
     {
@@ -180,9 +310,9 @@
       "athlete_dob": "01/05/2012",
       "athlete_id": "CL1089",
       "performance": "3.06",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada FEM. AL",
+      "discipline": "Llargada FEM. AL",
       "wind": null,
+      "position": 7,
       "internal_id": 1330
     },
     {
@@ -190,19 +320,49 @@
       "athlete_dob": "01/05/2012",
       "athlete_id": "CL1089",
       "performance": "3.87",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada FEM. AL",
+      "discipline": "Llargada FEM. AL",
       "wind": null,
+      "position": 7,
       "internal_id": 1330
     },
     {
       "athlete_name": "Carlota Tejero Clau",
       "athlete_dob": "06/03/2012",
       "athlete_id": "CL7258",
-      "performance": "16.20",
-      "discipline": "Disc (600 g)",
-      "raw_discipline_name": "Disc (600g) FEM.",
+      "performance": "5.10",
+      "discipline": "Pes (2 Kg) FEM AL",
       "wind": null,
+      "position": 12,
+      "internal_id": 1352
+    },
+    {
+      "athlete_name": "Carlota Tejero Clau",
+      "athlete_dob": "06/03/2012",
+      "athlete_id": "CL7258",
+      "performance": "5.23",
+      "discipline": "Pes (2 Kg) FEM AL",
+      "wind": null,
+      "position": 12,
+      "internal_id": 1352
+    },
+    {
+      "athlete_name": "Carlota Tejero Clau",
+      "athlete_dob": "06/03/2012",
+      "athlete_id": "CL7258",
+      "performance": "5.76",
+      "discipline": "Pes (2 Kg) FEM AL",
+      "wind": null,
+      "position": 12,
+      "internal_id": 1352
+    },
+    {
+      "athlete_name": "Carlota Tejero Clau",
+      "athlete_dob": "06/03/2012",
+      "athlete_id": "CL7258",
+      "performance": "16.20",
+      "discipline": "Disc (600g) FEM.",
+      "wind": null,
+      "position": 3,
       "internal_id": 1352
     },
     {
@@ -210,9 +370,9 @@
       "athlete_dob": "06/03/2012",
       "athlete_id": "CL7258",
       "performance": "11.78",
-      "discipline": "Disc (600 g)",
-      "raw_discipline_name": "Disc (600g) FEM.",
+      "discipline": "Disc (600g) FEM.",
       "wind": null,
+      "position": 3,
       "internal_id": 1352
     },
     {
@@ -220,9 +380,9 @@
       "athlete_dob": "06/03/2012",
       "athlete_id": "CL7258",
       "performance": "16.88",
-      "discipline": "Disc (600 g)",
-      "raw_discipline_name": "Disc (600g) FEM.",
+      "discipline": "Disc (600g) FEM.",
       "wind": null,
+      "position": 3,
       "internal_id": 1352
     },
     {
@@ -230,9 +390,9 @@
       "athlete_dob": "06/03/2012",
       "athlete_id": "CL7258",
       "performance": "18.07",
-      "discipline": "Disc (600 g)",
-      "raw_discipline_name": "Disc (600g) FEM.",
+      "discipline": "Disc (600g) FEM.",
       "wind": null,
+      "position": 3,
       "internal_id": 1352
     }
   ]

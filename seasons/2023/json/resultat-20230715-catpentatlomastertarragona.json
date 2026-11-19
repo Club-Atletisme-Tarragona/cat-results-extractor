@@ -1,18 +1,148 @@
 {
   "event_name": "Campionat de Catalunya de Pentatló Màster - Pista de Atletismo de Camp Clar, 15 julio 2023",
   "event_date": "15/07/2023",
-  "event_location": "Camp Clar",
-  "total_results": 19,
+  "event_location": "Pista de Atletismo de Camp Clar",
+  "total_results": 59,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2023/07/resultat-20230715-catpentatlomastertarragona.pdf",
   "results": [
+    {
+      "athlete_name": "Didac Rios Meseguer",
+      "athlete_dob": "19/04/1985",
+      "athlete_id": "CT14019",
+      "performance": "5.23",
+      "discipline": "LONGITUD MASC. PENTATHLON VET M35",
+      "wind": "+3.6",
+      "position": null,
+      "internal_id": 193
+    },
+    {
+      "athlete_name": "Didac Rios Meseguer",
+      "athlete_dob": "19/04/1985",
+      "athlete_id": "CT14019",
+      "performance": "5.32",
+      "discipline": "LONGITUD MASC. PENTATHLON VET M35",
+      "wind": "+3.0",
+      "position": null,
+      "internal_id": 193
+    },
+    {
+      "athlete_name": "Didac Rios Meseguer",
+      "athlete_dob": "19/04/1985",
+      "athlete_id": "CT14019",
+      "performance": "24.86",
+      "discipline": "JABALINA (800 GR) MASC. ABS PENT M35",
+      "wind": null,
+      "position": null,
+      "internal_id": 193
+    },
+    {
+      "athlete_name": "Didac Rios Meseguer",
+      "athlete_dob": "19/04/1985",
+      "athlete_id": "CT14019",
+      "performance": "23.58",
+      "discipline": "JABALINA (800 GR) MASC. ABS PENT M35",
+      "wind": null,
+      "position": null,
+      "internal_id": 193
+    },
+    {
+      "athlete_name": "Didac Rios Meseguer",
+      "athlete_dob": "19/04/1985",
+      "athlete_id": "CT14019",
+      "performance": "27.24",
+      "discipline": "JABALINA (800 GR) MASC. ABS PENT M35",
+      "wind": null,
+      "position": null,
+      "internal_id": 193
+    },
+    {
+      "athlete_name": "Didac Rios Meseguer",
+      "athlete_dob": "19/04/1985",
+      "athlete_id": "CT14019",
+      "performance": "23.76",
+      "discipline": "DISCO (2 Kg) MASC. ABS PENTATHLON M35",
+      "wind": null,
+      "position": null,
+      "internal_id": 193
+    },
+    {
+      "athlete_name": "Didac Rios Meseguer",
+      "athlete_dob": "19/04/1985",
+      "athlete_id": "CT14019",
+      "performance": "22.62",
+      "discipline": "DISCO (2 Kg) MASC. ABS PENTATHLON M35",
+      "wind": null,
+      "position": null,
+      "internal_id": 193
+    },
+    {
+      "athlete_name": "Didac Rios Meseguer",
+      "athlete_dob": "19/04/1985",
+      "athlete_id": "CT14019",
+      "performance": "23.71",
+      "discipline": "DISCO (2 Kg) MASC. ABS PENTATHLON M35",
+      "wind": null,
+      "position": null,
+      "internal_id": 193
+    },
+    {
+      "athlete_name": "Juan Carlos Herrera Alcaide",
+      "athlete_dob": "31/01/1973",
+      "athlete_id": "CT25152",
+      "performance": "5.50",
+      "discipline": "LONGITUD MASC. PENTATHLON VET M50",
+      "wind": "+1.3",
+      "position": null,
+      "internal_id": 518
+    },
+    {
+      "athlete_name": "Juan Carlos Herrera Alcaide",
+      "athlete_dob": "31/01/1973",
+      "athlete_id": "CT25152",
+      "performance": "5.29",
+      "discipline": "LONGITUD MASC. PENTATHLON VET M50",
+      "wind": "+2.9",
+      "position": null,
+      "internal_id": 518
+    },
+    {
+      "athlete_name": "Francisco Javier Baz Vidal",
+      "athlete_dob": "02/12/1969",
+      "athlete_id": "CL8459",
+      "performance": "3.77",
+      "discipline": "LONGITUD MASC. PENTATHLON VET M50",
+      "wind": "+2.1",
+      "position": null,
+      "internal_id": 887
+    },
+    {
+      "athlete_name": "Francisco Javier Baz Vidal",
+      "athlete_dob": "02/12/1969",
+      "athlete_id": "CL8459",
+      "performance": "4.15",
+      "discipline": "LONGITUD MASC. PENTATHLON VET M50",
+      "wind": "+3.0",
+      "position": null,
+      "internal_id": 887
+    },
+    {
+      "athlete_name": "Francisco Javier Baz Vidal",
+      "athlete_dob": "02/12/1969",
+      "athlete_id": "CL8459",
+      "performance": "4.58",
+      "discipline": "LONGITUD MASC. PENTATHLON VET M50",
+      "wind": "+1.7",
+      "position": null,
+      "internal_id": 887
+    },
     {
       "athlete_name": "Juan Carlos Herrera Alcaide",
       "athlete_dob": "31/01/1973",
       "athlete_id": "CT25152",
       "performance": "28.98",
-      "discipline": "Javelina (700 g)",
-      "raw_discipline_name": "Jabalina (700g) MASC. M50",
+      "discipline": "Jabalina (700g) MASC. M50",
       "wind": null,
+      "position": null,
       "internal_id": 518
     },
     {
@@ -20,9 +150,19 @@
       "athlete_dob": "31/01/1973",
       "athlete_id": "CT25152",
       "performance": "33.92",
-      "discipline": "Javelina (700 g)",
-      "raw_discipline_name": "Jabalina (700g) MASC. M50",
+      "discipline": "Jabalina (700g) MASC. M50",
       "wind": null,
+      "position": null,
+      "internal_id": 518
+    },
+    {
+      "athlete_name": "Juan Carlos Herrera Alcaide",
+      "athlete_dob": "31/01/1973",
+      "athlete_id": "CT25152",
+      "performance": "25.41",
+      "discipline": "Jabalina (700g) MASC. M50",
+      "wind": null,
+      "position": null,
       "internal_id": 518
     },
     {
@@ -30,9 +170,9 @@
       "athlete_dob": "02/12/1969",
       "athlete_id": "CL8459",
       "performance": "23.34",
-      "discipline": "Javelina (700 g)",
-      "raw_discipline_name": "Jabalina (700g) MASC. M50",
+      "discipline": "Jabalina (700g) MASC. M50",
       "wind": null,
+      "position": null,
       "internal_id": 887
     },
     {
@@ -40,9 +180,9 @@
       "athlete_dob": "02/12/1969",
       "athlete_id": "CL8459",
       "performance": "28.01",
-      "discipline": "Javelina (700 g)",
-      "raw_discipline_name": "Jabalina (700g) MASC. M50",
+      "discipline": "Jabalina (700g) MASC. M50",
       "wind": null,
+      "position": null,
       "internal_id": 887
     },
     {
@@ -50,29 +190,19 @@
       "athlete_dob": "02/12/1969",
       "athlete_id": "CL8459",
       "performance": "28.15",
-      "discipline": "Javelina (700 g)",
-      "raw_discipline_name": "Jabalina (700g) MASC. M50",
+      "discipline": "Jabalina (700g) MASC. M50",
       "wind": null,
+      "position": null,
       "internal_id": 887
-    },
-    {
-      "athlete_name": "Juan Carlos Herrera Alcaide",
-      "athlete_dob": "31/01/1973",
-      "athlete_id": "CT25152",
-      "performance": "25.41",
-      "discipline": "Javelina (700 g)",
-      "raw_discipline_name": "Jabalina (700g) MASC. M50",
-      "wind": null,
-      "internal_id": 518
     },
     {
       "athlete_name": "Francisco Javier Baz Vidal",
       "athlete_dob": "02/12/1969",
       "athlete_id": "CL8459",
       "performance": "26.37",
-      "discipline": "Javelina (700 g)",
-      "raw_discipline_name": "Jabalina (700g) MASC. M50",
+      "discipline": "Jabalina (700g) MASC. M50",
       "wind": null,
+      "position": null,
       "internal_id": 887
     },
     {
@@ -80,9 +210,9 @@
       "athlete_dob": "31/01/1973",
       "athlete_id": "CT25152",
       "performance": "29.52",
-      "discipline": "Disc (1,5 Kg)",
-      "raw_discipline_name": "Disco (1,5kg) MASC. M50",
+      "discipline": "Disco (1,5 Kg) MASC. M50",
       "wind": null,
+      "position": null,
       "internal_id": 518
     },
     {
@@ -90,9 +220,19 @@
       "athlete_dob": "31/01/1973",
       "athlete_id": "CT25152",
       "performance": "29.09",
-      "discipline": "Disc (1,5 Kg)",
-      "raw_discipline_name": "Disco (1,5kg) MASC. M50",
+      "discipline": "Disco (1,5 Kg) MASC. M50",
       "wind": null,
+      "position": null,
+      "internal_id": 518
+    },
+    {
+      "athlete_name": "Juan Carlos Herrera Alcaide",
+      "athlete_dob": "31/01/1973",
+      "athlete_id": "CT25152",
+      "performance": "32.53",
+      "discipline": "Disco (1,5 Kg) MASC. M50",
+      "wind": null,
+      "position": null,
       "internal_id": 518
     },
     {
@@ -100,9 +240,9 @@
       "athlete_dob": "02/12/1969",
       "athlete_id": "CL8459",
       "performance": "21.48",
-      "discipline": "Disc (1,5 Kg)",
-      "raw_discipline_name": "Disco (1,5kg) MASC. M50",
+      "discipline": "Disco (1,5 Kg) MASC. M50",
       "wind": null,
+      "position": null,
       "internal_id": 887
     },
     {
@@ -110,39 +250,129 @@
       "athlete_dob": "02/12/1969",
       "athlete_id": "CL8459",
       "performance": "25.85",
-      "discipline": "Disc (1,5 Kg)",
-      "raw_discipline_name": "Disco (1,5kg) MASC. M50",
+      "discipline": "Disco (1,5 Kg) MASC. M50",
       "wind": null,
+      "position": null,
       "internal_id": 887
-    },
-    {
-      "athlete_name": "Juan Carlos Herrera Alcaide",
-      "athlete_dob": "31/01/1973",
-      "athlete_id": "CT25152",
-      "performance": "32.53",
-      "discipline": "Disc (1,5 Kg)",
-      "raw_discipline_name": "Disco (1,5kg) MASC. M50",
-      "wind": null,
-      "internal_id": 518
     },
     {
       "athlete_name": "Francisco Javier Baz Vidal",
       "athlete_dob": "02/12/1969",
       "athlete_id": "CL8459",
       "performance": "03.28",
-      "discipline": "Disc (1,5 Kg)",
-      "raw_discipline_name": "Disco (1,5kg) MASC. M50",
+      "discipline": "Disco (1,5 Kg) MASC. M50",
       "wind": null,
+      "position": null,
       "internal_id": 887
+    },
+    {
+      "athlete_name": "Josep Maria Mateo Sanz",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "5.02",
+      "discipline": "LONGITUD MASC. PENTATHLON M55",
+      "wind": "+2.6",
+      "position": null,
+      "internal_id": 343
+    },
+    {
+      "athlete_name": "Josep Maria Mateo Sanz",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "5.15",
+      "discipline": "LONGITUD MASC. PENTATHLON M55",
+      "wind": "+1.9",
+      "position": null,
+      "internal_id": 343
+    },
+    {
+      "athlete_name": "Josep Maria Mateo Sanz",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "24.05",
+      "discipline": "Jabalina (700g) MASC. M55",
+      "wind": null,
+      "position": null,
+      "internal_id": 343
+    },
+    {
+      "athlete_name": "Josep Maria Mateo Sanz",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "24.17",
+      "discipline": "Jabalina (700g) MASC. M55",
+      "wind": null,
+      "position": null,
+      "internal_id": 343
+    },
+    {
+      "athlete_name": "Josep Maria Mateo Sanz",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "27.30",
+      "discipline": "Jabalina (700g) MASC. M55",
+      "wind": null,
+      "position": null,
+      "internal_id": 343
+    },
+    {
+      "athlete_name": "Josep Maria Mateo Sanz",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "25.44",
+      "discipline": "Disco (1,5 Kg) MASC. M55",
+      "wind": null,
+      "position": null,
+      "internal_id": 343
+    },
+    {
+      "athlete_name": "Josep Maria Mateo Sanz",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "23.73",
+      "discipline": "Disco (1,5 Kg) MASC. M55",
+      "wind": null,
+      "position": null,
+      "internal_id": 343
+    },
+    {
+      "athlete_name": "Josep Maria Mateo Sanz",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "24.95",
+      "discipline": "Disco (1,5 Kg) MASC. M55",
+      "wind": null,
+      "position": null,
+      "internal_id": 343
+    },
+    {
+      "athlete_name": "Josep Maria Mateo Sanz",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "49.90",
+      "discipline": "Disco (1,5 Kg) MASC. M55",
+      "wind": null,
+      "position": null,
+      "internal_id": 343
+    },
+    {
+      "athlete_name": "Luis Saez Perez",
+      "athlete_dob": "01/03/1949",
+      "athlete_id": "CT17487",
+      "performance": "2.51",
+      "discipline": "LONGITUD MASC. PENTATHLON VET M70",
+      "wind": null,
+      "position": null,
+      "internal_id": 304
     },
     {
       "athlete_name": "Luis Saez Perez",
       "athlete_dob": "01/03/1949",
       "athlete_id": "CT17487",
       "performance": "24.70",
-      "discipline": "Javelina (500 g)",
-      "raw_discipline_name": "Jabalina (500g) MASC. M70",
+      "discipline": "Jabalina (500g) MASC. M70",
       "wind": null,
+      "position": null,
       "internal_id": 304
     },
     {
@@ -150,9 +380,9 @@
       "athlete_dob": "01/03/1949",
       "athlete_id": "CT17487",
       "performance": "23.97",
-      "discipline": "Javelina (500 g)",
-      "raw_discipline_name": "Jabalina (500g) MASC. M70",
+      "discipline": "Jabalina (500g) MASC. M70",
       "wind": null,
+      "position": null,
       "internal_id": 304
     },
     {
@@ -160,9 +390,9 @@
       "athlete_dob": "01/03/1949",
       "athlete_id": "CT17487",
       "performance": "25.48",
-      "discipline": "Javelina (500 g)",
-      "raw_discipline_name": "Jabalina (500g) MASC. M70",
+      "discipline": "Jabalina (500g) MASC. M70",
       "wind": null,
+      "position": null,
       "internal_id": 304
     },
     {
@@ -170,9 +400,9 @@
       "athlete_dob": "01/03/1949",
       "athlete_id": "CT17487",
       "performance": "22.81",
-      "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "Disco (1kg) MASC. M70",
+      "discipline": "Disco (1 Kg) MASC. M70",
       "wind": null,
+      "position": null,
       "internal_id": 304
     },
     {
@@ -180,9 +410,9 @@
       "athlete_dob": "01/03/1949",
       "athlete_id": "CT17487",
       "performance": "22.37",
-      "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "Disco (1kg) MASC. M70",
+      "discipline": "Disco (1 Kg) MASC. M70",
       "wind": null,
+      "position": null,
       "internal_id": 304
     },
     {
@@ -190,10 +420,180 @@
       "athlete_dob": "01/03/1949",
       "athlete_id": "CT17487",
       "performance": "23.79",
-      "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "Disco (1kg) MASC. M70",
+      "discipline": "Disco (1 Kg) MASC. M70",
       "wind": null,
+      "position": null,
       "internal_id": 304
+    },
+    {
+      "athlete_name": "Francisco Griñant Almagro",
+      "athlete_dob": "04/08/1947",
+      "athlete_id": "CT18394",
+      "performance": "3.01",
+      "discipline": "LONGITUD MASC. PENTATHLON VET M75",
+      "wind": "+1.6",
+      "position": null,
+      "internal_id": 326
+    },
+    {
+      "athlete_name": "Francisco Griñant Almagro",
+      "athlete_dob": "04/08/1947",
+      "athlete_id": "CT18394",
+      "performance": "11.87",
+      "discipline": "Jabalina (500g) MASC. M75",
+      "wind": null,
+      "position": null,
+      "internal_id": 326
+    },
+    {
+      "athlete_name": "Francisco Griñant Almagro",
+      "athlete_dob": "04/08/1947",
+      "athlete_id": "CT18394",
+      "performance": "12.13",
+      "discipline": "Jabalina (500g) MASC. M75",
+      "wind": null,
+      "position": null,
+      "internal_id": 326
+    },
+    {
+      "athlete_name": "Francisco Griñant Almagro",
+      "athlete_dob": "04/08/1947",
+      "athlete_id": "CT18394",
+      "performance": "40.45",
+      "discipline": "Jabalina (500g) MASC. M75",
+      "wind": null,
+      "position": null,
+      "internal_id": 326
+    },
+    {
+      "athlete_name": "Francisco Griñant Almagro",
+      "athlete_dob": "04/08/1947",
+      "athlete_id": "CT18394",
+      "performance": "16.87",
+      "discipline": "Disco (1 Kg) MASC. M75",
+      "wind": null,
+      "position": null,
+      "internal_id": 326
+    },
+    {
+      "athlete_name": "Francisco Griñant Almagro",
+      "athlete_dob": "04/08/1947",
+      "athlete_id": "CT18394",
+      "performance": "16.83",
+      "discipline": "Disco (1 Kg) MASC. M75",
+      "wind": null,
+      "position": null,
+      "internal_id": 326
+    },
+    {
+      "athlete_name": "Francisco Griñant Almagro",
+      "athlete_dob": "04/08/1947",
+      "athlete_id": "CT18394",
+      "performance": "18.10",
+      "discipline": "Disco (1 Kg) MASC. M75",
+      "wind": null,
+      "position": null,
+      "internal_id": 326
+    },
+    {
+      "athlete_name": "Francisco Griñant Almagro",
+      "athlete_dob": "04/08/1947",
+      "athlete_id": "CT18394",
+      "performance": "51.65",
+      "discipline": "Disco (1 Kg) MASC. M75",
+      "wind": null,
+      "position": null,
+      "internal_id": 326
+    },
+    {
+      "athlete_name": "Gemma Sole Boronat",
+      "athlete_dob": "01/11/1967",
+      "athlete_id": "CT29376",
+      "performance": "14.67",
+      "discipline": "80m vallas (0,762) FEM. AL F55",
+      "wind": "+3.8",
+      "position": null,
+      "internal_id": 648
+    },
+    {
+      "athlete_name": "Gemma Sole Boronat",
+      "athlete_dob": "01/11/1967",
+      "athlete_id": "CT29376",
+      "performance": "1.26",
+      "discipline": "Altura FEM. AL F55",
+      "wind": null,
+      "position": null,
+      "internal_id": 648
+    },
+    {
+      "athlete_name": "Gemma Sole Boronat",
+      "athlete_dob": "01/11/1967",
+      "athlete_id": "CT29376",
+      "performance": "7.66",
+      "discipline": "Peso (3 Kg) FEM. AL F55",
+      "wind": null,
+      "position": null,
+      "internal_id": 648
+    },
+    {
+      "athlete_name": "Gemma Sole Boronat",
+      "athlete_dob": "01/11/1967",
+      "athlete_id": "CT29376",
+      "performance": "7.25",
+      "discipline": "Peso (3 Kg) FEM. AL F55",
+      "wind": null,
+      "position": null,
+      "internal_id": 648
+    },
+    {
+      "athlete_name": "Gemma Sole Boronat",
+      "athlete_dob": "01/11/1967",
+      "athlete_id": "CT29376",
+      "performance": "7.59",
+      "discipline": "Peso (3 Kg) FEM. AL F55",
+      "wind": null,
+      "position": null,
+      "internal_id": 648
+    },
+    {
+      "athlete_name": "Gemma Sole Boronat",
+      "athlete_dob": "01/11/1967",
+      "athlete_id": "CT29376",
+      "performance": "3.63",
+      "discipline": "Longitud FEM. AL F55",
+      "wind": "+1.9",
+      "position": null,
+      "internal_id": 648
+    },
+    {
+      "athlete_name": "Gemma Sole Boronat",
+      "athlete_dob": "01/11/1967",
+      "athlete_id": "CT29376",
+      "performance": "3.45",
+      "discipline": "Longitud FEM. AL F55",
+      "wind": "+2.4",
+      "position": null,
+      "internal_id": 648
+    },
+    {
+      "athlete_name": "Gemma Sole Boronat",
+      "athlete_dob": "01/11/1967",
+      "athlete_id": "CT29376",
+      "performance": "3.65",
+      "discipline": "Longitud FEM. AL F55",
+      "wind": "+2.6",
+      "position": null,
+      "internal_id": 648
+    },
+    {
+      "athlete_name": "Gemma Sole Boronat",
+      "athlete_dob": "01/11/1967",
+      "athlete_id": "CT29376",
+      "performance": "3:11.79",
+      "discipline": "800m FEM. AL F55",
+      "wind": null,
+      "position": null,
+      "internal_id": 648
     }
   ]
 }

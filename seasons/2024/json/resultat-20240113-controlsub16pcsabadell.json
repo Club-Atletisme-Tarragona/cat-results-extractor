@@ -1,18 +1,58 @@
 {
   "event_name": "Control Pista Coberta Sub16 - Control Pista Coberta Sub16",
   "event_date": "13/01/2024",
-  "event_location": "Sabadell",
-  "total_results": 8,
+  "event_location": "Club                                             Lic",
+  "total_results": 20,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2024/01/resultat-20240113-controlsub16pcsabadell.pdf",
   "results": [
     {
       "athlete_name": "Pau Esteve Hostalot",
       "athlete_dob": "27/08/2010",
       "athlete_id": "CL94383",
-      "performance": "4.63",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada MASC any 2010 PC",
+      "performance": "10.47",
+      "discipline": "60m tanques (0,91) MASC. PC",
       "wind": null,
+      "position": null,
+      "internal_id": 1055
+    },
+    {
+      "athlete_name": "Jeroni Flores Piñas",
+      "athlete_dob": "04/01/2009",
+      "athlete_id": "CL86460",
+      "performance": "9.73",
+      "discipline": "60m tanques (0,91) MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1036
+    },
+    {
+      "athlete_name": "Samuel Marcos Perez",
+      "athlete_dob": "01/02/2010",
+      "athlete_id": "CL90024",
+      "performance": "12.04",
+      "discipline": "60m tanques (0,91) MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1071
+    },
+    {
+      "athlete_name": "Jeroni Flores Piñas",
+      "athlete_dob": "04/01/2009",
+      "athlete_id": "CL86460",
+      "performance": "1.55",
+      "discipline": "Alçada MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1036
+    },
+    {
+      "athlete_name": "Pau Esteve Hostalot",
+      "athlete_dob": "27/08/2010",
+      "athlete_id": "CL94383",
+      "performance": "4.63",
+      "discipline": "Llargada MASC any 2010 PC",
+      "wind": null,
+      "position": null,
       "internal_id": 1055
     },
     {
@@ -20,9 +60,9 @@
       "athlete_dob": "27/08/2010",
       "athlete_id": "CL94383",
       "performance": "3.93",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada MASC any 2010 PC",
+      "discipline": "Llargada MASC any 2010 PC",
       "wind": null,
+      "position": null,
       "internal_id": 1055
     },
     {
@@ -30,9 +70,9 @@
       "athlete_dob": "27/08/2010",
       "athlete_id": "CL94383",
       "performance": "4.59",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada MASC any 2010 PC",
+      "discipline": "Llargada MASC any 2010 PC",
       "wind": null,
+      "position": null,
       "internal_id": 1055
     },
     {
@@ -40,9 +80,9 @@
       "athlete_dob": "27/08/2010",
       "athlete_id": "CL94383",
       "performance": "4.87",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada MASC any 2010 PC",
+      "discipline": "Llargada MASC any 2010 PC",
       "wind": null,
+      "position": null,
       "internal_id": 1055
     },
     {
@@ -50,9 +90,9 @@
       "athlete_dob": "27/08/2010",
       "athlete_id": "CL94383",
       "performance": "4.84",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada MASC any 2010 PC",
+      "discipline": "Llargada MASC any 2010 PC",
       "wind": null,
+      "position": null,
       "internal_id": 1055
     },
     {
@@ -60,9 +100,9 @@
       "athlete_dob": "27/08/2010",
       "athlete_id": "CL94383",
       "performance": "4.92",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada MASC any 2010 PC",
+      "discipline": "Llargada MASC any 2010 PC",
       "wind": null,
+      "position": null,
       "internal_id": 1055
     },
     {
@@ -70,9 +110,9 @@
       "athlete_dob": "01/02/2010",
       "athlete_id": "CL90024",
       "performance": "4.01",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada MASC any 2010 PC",
+      "discipline": "Llargada MASC any 2010 PC",
       "wind": null,
+      "position": null,
       "internal_id": 1071
     },
     {
@@ -80,10 +120,90 @@
       "athlete_dob": "01/02/2010",
       "athlete_id": "CL90024",
       "performance": "3.96",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada MASC any 2010 PC",
+      "discipline": "Llargada MASC any 2010 PC",
       "wind": null,
+      "position": null,
       "internal_id": 1071
+    },
+    {
+      "athlete_name": "Noa Anton Paterna",
+      "athlete_dob": "20/01/2010",
+      "athlete_id": "CL90450",
+      "performance": "8.14",
+      "discipline": "60m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1016
+    },
+    {
+      "athlete_name": "Alba Guijarro Rom",
+      "athlete_dob": "08/07/2010",
+      "athlete_id": "CL90465",
+      "performance": "9.08",
+      "discipline": "60m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1074
+    },
+    {
+      "athlete_name": "Lucia Marcos Perez",
+      "athlete_dob": "01/02/2010",
+      "athlete_id": "CL3853",
+      "performance": "10.19",
+      "discipline": "60m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1073
+    },
+    {
+      "athlete_name": "Olivia Ruiz Barbera",
+      "athlete_dob": "24/04/2009",
+      "athlete_id": "CL3439",
+      "performance": "0:46.43",
+      "discipline": "300m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1018
+    },
+    {
+      "athlete_name": "Noa Anton Paterna",
+      "athlete_dob": "20/01/2010",
+      "athlete_id": "CL90450",
+      "performance": "0:45.29",
+      "discipline": "300m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1016
+    },
+    {
+      "athlete_name": "Alba Guijarro Rom",
+      "athlete_dob": "08/07/2010",
+      "athlete_id": "CL90465",
+      "performance": "0:53.69",
+      "discipline": "300m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1074
+    },
+    {
+      "athlete_name": "Nora Montolio Amaro",
+      "athlete_dob": "05/02/2010",
+      "athlete_id": "CL90841",
+      "performance": "1:49.55",
+      "discipline": "600m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1089
+    },
+    {
+      "athlete_name": "Ona Sansa Garcia",
+      "athlete_dob": "31/05/2010",
+      "athlete_id": "CL90844",
+      "performance": "2.60",
+      "discipline": "Perxa FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1015
     }
   ]
 }

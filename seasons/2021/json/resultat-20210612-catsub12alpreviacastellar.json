@@ -1,18 +1,58 @@
 {
   "event_name": "Jornada Prèvia Campionat de Catalunya Sub12",
   "event_date": "12/06/2021",
-  "event_location": "Castellar",
-  "total_results": 12,
+  "event_location": "Castellar del Vallés",
+  "total_results": 26,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/06/resultat-20210612-catsub12alpreviacastellar.pdf",
   "results": [
     {
       "athlete_name": "Pau Esteve Hostalot",
       "athlete_dob": "27/08/2010",
       "athlete_id": "CL94383",
-      "performance": "4.27",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada MASC. AL",
+      "performance": "8.76",
+      "discipline": "60m MASC. AL",
       "wind": null,
+      "position": null,
+      "internal_id": 1055
+    },
+    {
+      "athlete_name": "109 (t) Quim Sousa Iturria AM 2",
+      "athlete_dob": "03/05/2010",
+      "athlete_id": "CL90845",
+      "performance": "NP",
+      "discipline": "600m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Marçal Sinfreu Niubo",
+      "athlete_dob": "03/03/2011",
+      "athlete_id": "CL94414",
+      "performance": "2:02.75",
+      "discipline": "600m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Quim Sousa Iturria",
+      "athlete_dob": "03/05/2010",
+      "athlete_id": "CL90845",
+      "performance": "11.10",
+      "discipline": "60m tanques (0,50) MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Pau Esteve Hostalot",
+      "athlete_dob": "27/08/2010",
+      "athlete_id": "CL94383",
+      "performance": "4.27",
+      "discipline": "Llargada MASC. AL",
+      "wind": null,
+      "position": null,
       "internal_id": 1055
     },
     {
@@ -20,9 +60,9 @@
       "athlete_dob": "27/08/2010",
       "athlete_id": "CL94383",
       "performance": "4.20",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada MASC. AL",
+      "discipline": "Llargada MASC. AL",
       "wind": null,
+      "position": null,
       "internal_id": 1055
     },
     {
@@ -30,19 +70,119 @@
       "athlete_dob": "27/08/2010",
       "athlete_id": "CL94383",
       "performance": "4.12",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada MASC. AL",
+      "discipline": "Llargada MASC. AL",
       "wind": null,
+      "position": null,
       "internal_id": 1055
+    },
+    {
+      "athlete_name": "Marçal Sinfreu Niubo",
+      "athlete_dob": "03/03/2011",
+      "athlete_id": "CL94414",
+      "performance": "23.73",
+      "discipline": "Disc (600g) MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Marçal Sinfreu Niubo",
+      "athlete_dob": "03/03/2011",
+      "athlete_id": "CL94414",
+      "performance": "23.76",
+      "discipline": "Disc (600g) MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Marçal Sinfreu Niubo",
+      "athlete_dob": "03/03/2011",
+      "athlete_id": "CL94414",
+      "performance": "24.86",
+      "discipline": "Disc (600g) MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Aleix Olmo Chavez",
+      "athlete_dob": "01/02/2011",
+      "athlete_id": "CL94400",
+      "performance": "13:47.56",
+      "discipline": "2.000m Marxa MASC. en pista",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Irene Jimenez Garcia",
+      "athlete_dob": "26/08/2011",
+      "athlete_id": "CL94390",
+      "performance": "9.78",
+      "discipline": "60m FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1326
+    },
+    {
+      "athlete_name": "Nora Montolio Amaro",
+      "athlete_dob": "05/02/2010",
+      "athlete_id": "CL90841",
+      "performance": "1:54.67",
+      "discipline": "600m FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1089
+    },
+    {
+      "athlete_name": "Duina Borreda Cervello",
+      "athlete_dob": "26/12/2010",
+      "athlete_id": "CL90830",
+      "performance": "2:00.88",
+      "discipline": "600m FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Diana Garcia Mur",
+      "athlete_dob": "23/02/2010",
+      "athlete_id": "CL90833",
+      "performance": "7:47.92",
+      "discipline": "2.000m FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1081
+    },
+    {
+      "athlete_name": "Duina Borreda Cervello",
+      "athlete_dob": "26/12/2010",
+      "athlete_id": "CL90830",
+      "performance": "10.33",
+      "discipline": "60m tanques (0,50) FEM AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
     },
     {
       "athlete_name": "Ona Sansa Garcia",
       "athlete_dob": "31/05/2010",
       "athlete_id": "CL90844",
       "performance": "1.20",
-      "discipline": "Alçada",
-      "raw_discipline_name": "Alçada FEM. AL",
+      "discipline": "Alçada FEM. AL",
       "wind": null,
+      "position": null,
+      "internal_id": 1015
+    },
+    {
+      "athlete_name": "Ona Sansa Garcia",
+      "athlete_dob": "31/05/2010",
+      "athlete_id": "CL90844",
+      "performance": "1.95",
+      "discipline": "Perxa FEM. AL",
+      "wind": null,
+      "position": null,
       "internal_id": 1015
     },
     {
@@ -50,9 +190,9 @@
       "athlete_dob": "05/02/2010",
       "athlete_id": "CL90841",
       "performance": "3.47",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada FEM. AL",
+      "discipline": "Llargada FEM. AL",
       "wind": null,
+      "position": null,
       "internal_id": 1089
     },
     {
@@ -60,9 +200,9 @@
       "athlete_dob": "05/02/2010",
       "athlete_id": "CL90841",
       "performance": "3.64",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada FEM. AL",
+      "discipline": "Llargada FEM. AL",
       "wind": null,
+      "position": null,
       "internal_id": 1089
     },
     {
@@ -70,9 +210,9 @@
       "athlete_dob": "05/02/2010",
       "athlete_id": "CL90841",
       "performance": "3.45",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada FEM. AL",
+      "discipline": "Llargada FEM. AL",
       "wind": null,
+      "position": null,
       "internal_id": 1089
     },
     {
@@ -80,9 +220,9 @@
       "athlete_dob": "23/02/2010",
       "athlete_id": "CL90833",
       "performance": "3.51",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada FEM. AL",
+      "discipline": "Llargada FEM. AL",
       "wind": null,
+      "position": null,
       "internal_id": 1081
     },
     {
@@ -90,9 +230,9 @@
       "athlete_dob": "23/02/2010",
       "athlete_id": "CL90833",
       "performance": "3.46",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada FEM. AL",
+      "discipline": "Llargada FEM. AL",
       "wind": null,
+      "position": null,
       "internal_id": 1081
     },
     {
@@ -100,9 +240,9 @@
       "athlete_dob": "23/02/2010",
       "athlete_id": "CL90833",
       "performance": "3.29",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada FEM. AL",
+      "discipline": "Llargada FEM. AL",
       "wind": null,
+      "position": null,
       "internal_id": 1081
     },
     {
@@ -110,9 +250,9 @@
       "athlete_dob": "07/03/2011",
       "athlete_id": "CL94381",
       "performance": "12:43.58",
-      "discipline": "2000 metres marxa",
-      "raw_discipline_name": "2.000m Marxa FEM. en pista",
+      "discipline": "2.000m Marxa FEM. en pista",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -120,9 +260,9 @@
       "athlete_dob": "15/11/2010",
       "athlete_id": "CL90832",
       "performance": "13:11.67",
-      "discipline": "2000 metres marxa",
-      "raw_discipline_name": "2.000m Marxa FEM. en pista",
+      "discipline": "2.000m Marxa FEM. en pista",
       "wind": null,
+      "position": null,
       "internal_id": null
     }
   ]

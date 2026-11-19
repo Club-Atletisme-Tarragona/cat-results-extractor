@@ -2,27 +2,117 @@
   "event_name": "Campionat Catalunya Clubs Sub12 Masculí",
   "event_date": "20/05/2023",
   "event_location": "El Prat de Llobregat",
-  "total_results": 9,
+  "total_results": 45,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2023/05/resultat-20230520-catclubsalsub12elprat.pdf",
   "results": [
     {
-      "athlete_name": "Ferran Mascaro Navarro",
+      "athlete_name": "Èric Guijarro Rom",
+      "athlete_dob": "25/12/2013",
+      "athlete_id": "CL4372",
+      "performance": "9.65",
+      "discipline": "60m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Kilian Borreda Cervello",
+      "athlete_dob": "09/05/2013",
+      "athlete_id": "CL4060",
+      "performance": "1:54.03",
+      "discipline": "600m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Hugo Diaz Cristino",
+      "athlete_dob": "04/04/2012",
+      "athlete_id": "CL4397",
+      "performance": "7:20.71",
+      "discipline": "2.000m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Aleix Gomez Miro",
+      "athlete_dob": "06/01/2013",
+      "athlete_id": "CL4345",
+      "performance": "10.73",
+      "discipline": "60m tanques (0,50) MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Kilian Pedrol Espinosa",
+      "athlete_dob": "24/02/2013",
+      "athlete_id": "CL7676",
+      "performance": "1.26",
+      "discipline": "Alçada MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1361
+    },
+    {
+      "athlete_name": "Ferran Mascaro Navarro 8.5",
       "athlete_dob": "02/06/2012",
       "athlete_id": "CL96310",
       "performance": "1.35",
-      "discipline": "Perxa",
-      "raw_discipline_name": "Perxa MASC. AL",
+      "discipline": "Perxa MASC. AL",
       "wind": null,
+      "position": null,
       "internal_id": 1362
+    },
+    {
+      "athlete_name": "(t) Gaston Valentin Paulos Pertiñez",
+      "athlete_dob": "14/02/2012",
+      "athlete_id": "CL11182",
+      "performance": "4.04",
+      "discipline": "Llargada MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1372
+    },
+    {
+      "athlete_name": "Matteo Pecchia",
+      "athlete_dob": "03/10/2012",
+      "athlete_id": "CL11152",
+      "performance": "6.30",
+      "discipline": "Pes (2 Kg) MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Matteo Pecchia",
+      "athlete_dob": "03/10/2012",
+      "athlete_id": "CL11152",
+      "performance": "6.44",
+      "discipline": "Pes (2 Kg) MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Matteo Pecchia",
+      "athlete_dob": "03/10/2012",
+      "athlete_id": "CL11152",
+      "performance": "6.55",
+      "discipline": "Pes (2 Kg) MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
     },
     {
       "athlete_name": "Hernan Ferran Jimenez",
       "athlete_dob": "28/09/2012",
       "athlete_id": "CL1093",
       "performance": "16.86",
-      "discipline": "Disc (600 g)",
-      "raw_discipline_name": "Disc (600g) MASC. AL",
+      "discipline": "Disc (600g) MASC. AL",
       "wind": null,
+      "position": null,
       "internal_id": 1327
     },
     {
@@ -30,19 +120,139 @@
       "athlete_dob": "11/07/2012",
       "athlete_id": "CL4398",
       "performance": "13.50",
-      "discipline": "Javelina (300 g)",
-      "raw_discipline_name": "Javelina (300g) MASC",
+      "discipline": "Javelina (300g) MASC",
       "wind": null,
+      "position": null,
       "internal_id": 1345
     },
     {
-      "athlete_name": "Berta Barber Gonzalez",
+      "athlete_name": "Aston Mate Gras",
+      "athlete_dob": "07/12/2012",
+      "athlete_id": "CL95044",
+      "performance": "12:32.06",
+      "discipline": "2.000m Marxa MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1342
+    },
+    {
+      "athlete_name": "Kilian Borreda Cervello",
+      "athlete_dob": "09/05/2013",
+      "athlete_id": "CL4060",
+      "performance": "37.46",
+      "discipline": "4x60m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Victor Coronado Vidal",
+      "athlete_dob": "23/12/2012",
+      "athlete_id": "CL11146",
+      "performance": "37.46",
+      "discipline": "4x60m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1371
+    },
+    {
+      "athlete_name": "Biel Lligadas Turon",
+      "athlete_dob": "27/02/2012",
+      "athlete_id": "CL4342",
+      "performance": "37.46",
+      "discipline": "4x60m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1339
+    },
+    {
+      "athlete_name": "Ferran Mascaro Navarro",
+      "athlete_dob": "02/06/2012",
+      "athlete_id": "CL96310",
+      "performance": "37.46",
+      "discipline": "4x60m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1362
+    },
+    {
+      "athlete_name": "Hernan Ferran Jimenez",
+      "athlete_dob": "28/09/2012",
+      "athlete_id": "CL1093",
+      "performance": "5:55.34",
+      "discipline": "3x600m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1327
+    },
+    {
+      "athlete_name": "Aleix Gomez Miro",
+      "athlete_dob": "06/01/2013",
+      "athlete_id": "CL4345",
+      "performance": "5:55.34",
+      "discipline": "3x600m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Hugo Diaz Cristino",
+      "athlete_dob": "04/04/2012",
+      "athlete_id": "CL4397",
+      "performance": "5:55.34",
+      "discipline": "3x600m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Julia Alcaraz Vila",
+      "athlete_dob": "07/10/2012",
+      "athlete_id": "CL12335",
+      "performance": "10.75",
+      "discipline": "60m FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Arlet Solana Vila",
+      "athlete_dob": "13/03/2012",
+      "athlete_id": "CL11154",
+      "performance": "2:05.50",
+      "discipline": "600m FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1369
+    },
+    {
+      "athlete_name": "Rihana Martos Teixido",
+      "athlete_dob": "18/03/2012",
+      "athlete_id": "CL85129",
+      "performance": "8:59.56",
+      "discipline": "2.000m FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Laia Arenas Cayetano",
+      "athlete_dob": "02/09/2013",
+      "athlete_id": "CL8725",
+      "performance": "12.58",
+      "discipline": "60m tanques (0,50) FEM AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Berta Barber Gonzalez 3.5",
       "athlete_dob": "22/01/2013",
       "athlete_id": "CL7610",
       "performance": "1.08",
-      "discipline": "Alçada",
-      "raw_discipline_name": "Alçada FEM. AL",
+      "discipline": "Alçada FEM. AL",
       "wind": null,
+      "position": null,
       "internal_id": 1359
     },
     {
@@ -50,19 +260,99 @@
       "athlete_dob": "21/05/2012",
       "athlete_id": "CL11143",
       "performance": "1.40",
-      "discipline": "Perxa",
-      "raw_discipline_name": "Perxa FEM. AL",
+      "discipline": "Perxa FEM. AL",
       "wind": null,
+      "position": null,
       "internal_id": null
+    },
+    {
+      "athlete_name": "Maria Martin Cuadrado",
+      "athlete_dob": "01/05/2012",
+      "athlete_id": "CL1089",
+      "performance": "3.39",
+      "discipline": "Llargada FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1330
+    },
+    {
+      "athlete_name": "Maria Martin Cuadrado",
+      "athlete_dob": "01/05/2012",
+      "athlete_id": "CL1089",
+      "performance": "3.76",
+      "discipline": "Llargada FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1330
+    },
+    {
+      "athlete_name": "Maria Martin Cuadrado",
+      "athlete_dob": "01/05/2012",
+      "athlete_id": "CL1089",
+      "performance": "3.36",
+      "discipline": "Llargada FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1330
+    },
+    {
+      "athlete_name": "Alba Esteve Hostalot",
+      "athlete_dob": "10/11/2013",
+      "athlete_id": "CL4396",
+      "performance": "3.31",
+      "discipline": "Pes (2 Kg) FEM AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1335
+    },
+    {
+      "athlete_name": "Alba Esteve Hostalot",
+      "athlete_dob": "10/11/2013",
+      "athlete_id": "CL4396",
+      "performance": "3.55",
+      "discipline": "Pes (2 Kg) FEM AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1335
+    },
+    {
+      "athlete_name": "Alba Esteve Hostalot",
+      "athlete_dob": "10/11/2013",
+      "athlete_id": "CL4396",
+      "performance": "3.87",
+      "discipline": "Pes (2 Kg) FEM AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1335
+    },
+    {
+      "athlete_name": "Carlota Tejero Clau",
+      "athlete_dob": "06/03/2012",
+      "athlete_id": "CL7258",
+      "performance": "17.89",
+      "discipline": "Disc (600g) FEM.",
+      "wind": null,
+      "position": null,
+      "internal_id": 1352
+    },
+    {
+      "athlete_name": "Carlota Tejero Clau",
+      "athlete_dob": "06/03/2012",
+      "athlete_id": "CL7258",
+      "performance": "14.11",
+      "discipline": "Disc (600g) FEM.",
+      "wind": null,
+      "position": null,
+      "internal_id": 1352
     },
     {
       "athlete_name": "Lucia Martinez Perales",
       "athlete_dob": "04/08/2012",
       "athlete_id": "CL4343",
       "performance": "8.78",
-      "discipline": "Javelina (300 g)",
-      "raw_discipline_name": "Javelina (300g) FEM",
+      "discipline": "Javelina (300g) FEM",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -70,9 +360,9 @@
       "athlete_dob": "04/08/2012",
       "athlete_id": "CL4343",
       "performance": "10.67",
-      "discipline": "Javelina (300 g)",
-      "raw_discipline_name": "Javelina (300g) FEM",
+      "discipline": "Javelina (300g) FEM",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -80,9 +370,9 @@
       "athlete_dob": "04/08/2012",
       "athlete_id": "CL4343",
       "performance": "12.52",
-      "discipline": "Javelina (300 g)",
-      "raw_discipline_name": "Javelina (300g) FEM",
+      "discipline": "Javelina (300g) FEM",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -90,10 +380,80 @@
       "athlete_dob": "06/01/2012",
       "athlete_id": "CL1088",
       "performance": "14:55.36",
-      "discipline": "2000 metres marxa",
-      "raw_discipline_name": "2.000m Marxa FEM. en pista",
+      "discipline": "2.000m Marxa FEM. en pista",
       "wind": null,
+      "position": null,
       "internal_id": 1340
+    },
+    {
+      "athlete_name": "Alba Esteve Hostalot",
+      "athlete_dob": "10/11/2013",
+      "athlete_id": "CL4396",
+      "performance": "37.64",
+      "discipline": "4x60m FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1335
+    },
+    {
+      "athlete_name": "Eva Jacob Garcia",
+      "athlete_dob": "30/06/2012",
+      "athlete_id": "CL7254",
+      "performance": "37.64",
+      "discipline": "4x60m FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1349
+    },
+    {
+      "athlete_name": "Anna Perez Martinez",
+      "athlete_dob": "04/02/2013",
+      "athlete_id": "CL12136",
+      "performance": "37.64",
+      "discipline": "4x60m FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1366
+    },
+    {
+      "athlete_name": "Celia Vega Martinez",
+      "athlete_dob": "03/01/2013",
+      "athlete_id": "CL7621",
+      "performance": "37.64",
+      "discipline": "4x60m FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1329
+    },
+    {
+      "athlete_name": "Julia Amoros Muñoz",
+      "athlete_dob": "21/05/2012",
+      "athlete_id": "CL11143",
+      "performance": "6:19.93",
+      "discipline": "3x600m FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Berta Barber Gonzalez",
+      "athlete_dob": "22/01/2013",
+      "athlete_id": "CL7610",
+      "performance": "6:19.93",
+      "discipline": "3x600m FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1359
+    },
+    {
+      "athlete_name": "Ada Nin Navas",
+      "athlete_dob": "24/10/2012",
+      "athlete_id": "CL1495",
+      "performance": "6:19.93",
+      "discipline": "3x600m FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1331
     }
   ]
 }

@@ -2,18 +2,128 @@
   "event_name": "Campionat Catalunya Clubs Sub10 Masculí",
   "event_date": "21/05/2023",
   "event_location": "El Prat de Llobregat",
-  "total_results": 1,
+  "total_results": 12,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2023/05/resultat-20230521-catclubsalsub10elprat.pdf",
   "results": [
+    {
+      "athlete_name": "Blai Lligadas Turon",
+      "athlete_dob": "11/03/2015",
+      "athlete_id": "CL11069",
+      "performance": "9.94",
+      "discipline": "60m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1338
+    },
+    {
+      "athlete_name": "Biel Gordillo Rodriguez",
+      "athlete_dob": "19/02/2014",
+      "athlete_id": "CL11068",
+      "performance": "3:49.28",
+      "discipline": "1.000m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Nil Torres Prats",
+      "athlete_dob": "05/10/2014",
+      "athlete_id": "CL7611",
+      "performance": "1.04",
+      "discipline": "Alçada MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1341
+    },
+    {
+      "athlete_name": "Antonio Balazote",
+      "athlete_dob": "01/05/2014",
+      "athlete_id": "CL11067",
+      "performance": "3.40",
+      "discipline": "Llargada MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1370
+    },
+    {
+      "athlete_name": "Antonio Balazote",
+      "athlete_dob": "01/05/2014",
+      "athlete_id": "CL11067",
+      "performance": "3.54",
+      "discipline": "Llargada MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1370
+    },
+    {
+      "athlete_name": "Gael Torres Fortuny",
+      "athlete_dob": "24/01/2014",
+      "athlete_id": "CL11077",
+      "performance": "22.00",
+      "discipline": "Pes (2 Kg) MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Gael Torres Fortuny",
+      "athlete_dob": "24/01/2014",
+      "athlete_id": "CL11077",
+      "performance": "25.58",
+      "discipline": "Pes (2 Kg) MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
     {
       "athlete_name": "Pol Diaz Cristino",
       "athlete_dob": "03/02/2014",
       "athlete_id": "CT2082",
       "performance": "6:40.99",
-      "discipline": "1000 metres marxa",
-      "raw_discipline_name": "1.000m Marxa MASC. en pista",
+      "discipline": "1.000m Marxa MASC. en pista",
       "wind": null,
+      "position": null,
       "internal_id": 1333
+    },
+    {
+      "athlete_name": "Antonio Balazote",
+      "athlete_dob": "01/05/2014",
+      "athlete_id": "CL11067",
+      "performance": "39.75",
+      "discipline": "4x60m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1370
+    },
+    {
+      "athlete_name": "Biel Gordillo Rodriguez",
+      "athlete_dob": "19/02/2014",
+      "athlete_id": "CL11068",
+      "performance": "39.75",
+      "discipline": "4x60m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Blai Lligadas Turon",
+      "athlete_dob": "11/03/2015",
+      "athlete_id": "CL11069",
+      "performance": "39.75",
+      "discipline": "4x60m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1338
+    },
+    {
+      "athlete_name": "Nil Torres Prats",
+      "athlete_dob": "05/10/2014",
+      "athlete_id": "CL7611",
+      "performance": "39.75",
+      "discipline": "4x60m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1341
     }
   ]
 }

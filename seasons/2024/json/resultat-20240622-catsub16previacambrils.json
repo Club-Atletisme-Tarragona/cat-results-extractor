@@ -2,27 +2,317 @@
   "event_name": "Jornada Prèvia Campionat de Catalunya Sub16",
   "event_date": "22/06/2024",
   "event_location": "Cambrils",
-  "total_results": 7,
+  "total_results": 36,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2024/06/resultat-20240622-catsub16previacambrils.pdf",
   "results": [
+    {
+      "athlete_name": "Joan Rich Salas",
+      "athlete_dob": "08/03/2009",
+      "athlete_id": "CT3052",
+      "performance": "11.90",
+      "discipline": "100m MASC. AL",
+      "wind": "+0.0",
+      "position": null,
+      "internal_id": 1011
+    },
+    {
+      "athlete_name": "Unai Olaya Minguez",
+      "athlete_dob": "27/07/2009",
+      "athlete_id": "CL854",
+      "performance": "12.52",
+      "discipline": "100m MASC. AL",
+      "wind": "+0.0",
+      "position": null,
+      "internal_id": 1014
+    },
+    {
+      "athlete_name": "Joan Rich Salas",
+      "athlete_dob": "08/03/2009",
+      "athlete_id": "CT3052",
+      "performance": "0:38.21",
+      "discipline": "300m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1011
+    },
+    {
+      "athlete_name": "Unai Olaya Minguez",
+      "athlete_dob": "27/07/2009",
+      "athlete_id": "CL854",
+      "performance": "1:34.96",
+      "discipline": "600m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1014
+    },
+    {
+      "athlete_name": "Pau Esteve Hostalot",
+      "athlete_dob": "27/08/2010",
+      "athlete_id": "CL94383",
+      "performance": "17.71",
+      "discipline": "100m tanques (0,91) MASC. AL",
+      "wind": "-3.0",
+      "position": null,
+      "internal_id": 1055
+    },
+    {
+      "athlete_name": "David Fernandez Pineda",
+      "athlete_dob": "18/06/2010",
+      "athlete_id": "CL11323",
+      "performance": "1.53",
+      "discipline": "Alçada MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1078
+    },
+    {
+      "athlete_name": "Samuel Marcos Perez",
+      "athlete_dob": "01/02/2010",
+      "athlete_id": "CL90024",
+      "performance": "3.00",
+      "discipline": "Perxa MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1071
+    },
+    {
+      "athlete_name": "Samuel Marcos Perez",
+      "athlete_dob": "01/02/2010",
+      "athlete_id": "CL90024",
+      "performance": "10.56",
+      "discipline": "Triple Salt MASC. AL",
+      "wind": "+1.0",
+      "position": null,
+      "internal_id": 1071
+    },
+    {
+      "athlete_name": "Samuel Marcos Perez",
+      "athlete_dob": "01/02/2010",
+      "athlete_id": "CL90024",
+      "performance": "10.39",
+      "discipline": "Triple Salt MASC. AL",
+      "wind": "+1.2",
+      "position": null,
+      "internal_id": 1071
+    },
+    {
+      "athlete_name": "Samuel Marcos Perez",
+      "athlete_dob": "01/02/2010",
+      "athlete_id": "CL90024",
+      "performance": "10.44",
+      "discipline": "Triple Salt MASC. AL",
+      "wind": "-1.4",
+      "position": null,
+      "internal_id": 1071
+    },
+    {
+      "athlete_name": "Pau Esteve Hostalot",
+      "athlete_dob": "27/08/2010",
+      "athlete_id": "CL94383",
+      "performance": "10.44",
+      "discipline": "Triple Salt MASC. AL",
+      "wind": "+0.2",
+      "position": null,
+      "internal_id": 1055
+    },
+    {
+      "athlete_name": "Pau Esteve Hostalot",
+      "athlete_dob": "27/08/2010",
+      "athlete_id": "CL94383",
+      "performance": "9.75",
+      "discipline": "Triple Salt MASC. AL",
+      "wind": "-1.4",
+      "position": null,
+      "internal_id": 1055
+    },
+    {
+      "athlete_name": "Noa Anton Paterna",
+      "athlete_dob": "20/01/2010",
+      "athlete_id": "CT2934",
+      "performance": "12.57",
+      "discipline": "100m FEM. AL",
+      "wind": "-0.2",
+      "position": null,
+      "internal_id": 1016
+    },
+    {
+      "athlete_name": "Olivia Ruiz Barbera",
+      "athlete_dob": "24/04/2009",
+      "athlete_id": "CL3439",
+      "performance": "13.90",
+      "discipline": "100m FEM. AL",
+      "wind": "-1.4",
+      "position": null,
+      "internal_id": 1018
+    },
+    {
+      "athlete_name": "191 (t) Olivia Ruiz Barbera 4",
+      "athlete_dob": "24/04/2009",
+      "athlete_id": "CL3439",
+      "performance": "NP",
+      "discipline": "300m FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1018
+    },
+    {
+      "athlete_name": "Clara Ortiz De Landazuri Ontoso",
+      "athlete_dob": "04/12/2009",
+      "athlete_id": "CT2195",
+      "performance": "1:42.73",
+      "discipline": "600m FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1022
+    },
+    {
+      "athlete_name": "184 (t) Diana García Mur 8",
+      "athlete_dob": "23/02/2010",
+      "athlete_id": "CL14508",
+      "performance": "NP",
+      "discipline": "600m FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1081
+    },
+    {
+      "athlete_name": "Noemi Gonzalez Carrillo",
+      "athlete_dob": "04/04/2009",
+      "athlete_id": "CL86462",
+      "performance": "3:23.93",
+      "discipline": "1.000m FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1030
+    },
+    {
+      "athlete_name": "Natalia Lara Girbes",
+      "athlete_dob": "13/04/2009",
+      "athlete_id": "CL90847",
+      "performance": "13:32.14",
+      "discipline": "3.000m FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 836
+    },
+    {
+      "athlete_name": "Nora Montolio Amaro",
+      "athlete_dob": "05/02/2010",
+      "athlete_id": "CL90841",
+      "performance": "49.07",
+      "discipline": "300m tanques (0,762) FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1089
+    },
+    {
+      "athlete_name": "Duina Borreda Cervello",
+      "athlete_dob": "26/12/2010",
+      "athlete_id": "CL90830",
+      "performance": "6:17.36",
+      "discipline": "1.500m Obst. FEM.",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Paula Diez Plasencia",
+      "athlete_dob": "15/11/2010",
+      "athlete_id": "CL90832",
+      "performance": "6:42.13",
+      "discipline": "1.500m Obst. FEM.",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Alba Guijarro Rom",
+      "athlete_dob": "08/07/2010",
+      "athlete_id": "CL90465",
+      "performance": "1.29",
+      "discipline": "Alçada FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1074
+    },
     {
       "athlete_name": "Ona Sansa Garcia",
       "athlete_dob": "31/05/2010",
       "athlete_id": "CT2938",
       "performance": "2.80",
-      "discipline": "Perxa",
-      "raw_discipline_name": "Perxa FEM. AL",
+      "discipline": "Perxa FEM. AL",
       "wind": null,
+      "position": null,
       "internal_id": 1015
+    },
+    {
+      "athlete_name": "Noa Anton Paterna",
+      "athlete_dob": "20/01/2010",
+      "athlete_id": "CT2934",
+      "performance": "5.38",
+      "discipline": "Llargada FEM. AL",
+      "wind": "+1.7",
+      "position": null,
+      "internal_id": 1016
+    },
+    {
+      "athlete_name": "Noa Anton Paterna",
+      "athlete_dob": "20/01/2010",
+      "athlete_id": "CT2934",
+      "performance": "5.08",
+      "discipline": "Llargada FEM. AL",
+      "wind": "+1.1",
+      "position": null,
+      "internal_id": 1016
+    },
+    {
+      "athlete_name": "Noa Anton Paterna",
+      "athlete_dob": "20/01/2010",
+      "athlete_id": "CT2934",
+      "performance": "5.06",
+      "discipline": "Llargada FEM. AL",
+      "wind": "-2.0",
+      "position": null,
+      "internal_id": 1016
+    },
+    {
+      "athlete_name": "Noa Anton Paterna",
+      "athlete_dob": "20/01/2010",
+      "athlete_id": "CT2934",
+      "performance": "4.89",
+      "discipline": "Llargada FEM. AL",
+      "wind": "-2.0",
+      "position": null,
+      "internal_id": 1016
+    },
+    {
+      "athlete_name": "Nora Montolio Amaro",
+      "athlete_dob": "05/02/2010",
+      "athlete_id": "CL90841",
+      "performance": "4.81",
+      "discipline": "Llargada FEM. AL",
+      "wind": "-0.3",
+      "position": null,
+      "internal_id": 1089
+    },
+    {
+      "athlete_name": "Nora Montolio Amaro",
+      "athlete_dob": "05/02/2010",
+      "athlete_id": "CL90841",
+      "performance": "4.95",
+      "discipline": "Llargada FEM. AL",
+      "wind": "-1.2",
+      "position": null,
+      "internal_id": 1089
     },
     {
       "athlete_name": "Noa Nin Navas",
       "athlete_dob": "28/08/2009",
       "athlete_id": "CT2954",
       "performance": "8.51",
-      "discipline": "Pes (3 Kg)",
-      "raw_discipline_name": "Pes (3kg) FEM. AL",
+      "discipline": "Pes (3 Kg) FEM. AL",
       "wind": null,
+      "position": null,
       "internal_id": 1010
     },
     {
@@ -30,9 +320,9 @@
       "athlete_dob": "28/08/2009",
       "athlete_id": "CT2954",
       "performance": "8.98",
-      "discipline": "Pes (3 Kg)",
-      "raw_discipline_name": "Pes (3kg) FEM. AL",
+      "discipline": "Pes (3 Kg) FEM. AL",
       "wind": null,
+      "position": null,
       "internal_id": 1010
     },
     {
@@ -40,9 +330,9 @@
       "athlete_dob": "28/08/2009",
       "athlete_id": "CT2954",
       "performance": "8.59",
-      "discipline": "Pes (3 Kg)",
-      "raw_discipline_name": "Pes (3kg) FEM. AL",
+      "discipline": "Pes (3 Kg) FEM. AL",
       "wind": null,
+      "position": null,
       "internal_id": 1010
     },
     {
@@ -50,9 +340,9 @@
       "athlete_dob": "28/08/2009",
       "athlete_id": "CT2954",
       "performance": "23.40",
-      "discipline": "Disc (800 g)",
-      "raw_discipline_name": "Disc (800g) FEM.",
+      "discipline": "Disc (800g) FEM.",
       "wind": null,
+      "position": null,
       "internal_id": 1010
     },
     {
@@ -60,9 +350,9 @@
       "athlete_dob": "28/08/2009",
       "athlete_id": "CT2954",
       "performance": "19.00",
-      "discipline": "Disc (800 g)",
-      "raw_discipline_name": "Disc (800g) FEM.",
+      "discipline": "Disc (800g) FEM.",
       "wind": null,
+      "position": null,
       "internal_id": 1010
     },
     {
@@ -70,9 +360,9 @@
       "athlete_dob": "28/08/2009",
       "athlete_id": "CT2954",
       "performance": "26.15",
-      "discipline": "Disc (800 g)",
-      "raw_discipline_name": "Disc (800g) FEM.",
+      "discipline": "Disc (800g) FEM.",
       "wind": null,
+      "position": null,
       "internal_id": 1010
     }
   ]

@@ -1,19 +1,38 @@
 {
   "event_name": " - Sabadell (Pista Coberta de Catalunya), 18 febrero 2017",
-  "event_date": "18/02/2017",
-  "event_location": "Sabadell",
-  "total_results": 6,
+  "event_date": "13/04/2000",
+  "event_location": "AA Catalunya                                LF",
+  "total_results": 9,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2017021819-catcombinadesjuvenilpc.pdf",
   "results": [
     {
       "athlete_name": "Mireia Lopez Urbano",
       "athlete_dob": "07/12/2000",
       "athlete_id": "CT23556",
-      "performance": "1.42",
-      "discipline": "Alçada",
-      "raw_discipline_name": "Alçada FEM. PC",
+      "performance": "3281",
+      "discipline": "Pentatló JUV. FEM. PC",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2017021819-catcombinadesjuvenilpc.pdf",
+      "position": null,
+      "internal_id": 527
+    },
+    {
+      "athlete_name": "Mireia Lopez Urbano",
+      "athlete_dob": "07/12/2000",
+      "athlete_id": "CT23556",
+      "performance": "8.66",
+      "discipline": "60m tanques FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 527
+    },
+    {
+      "athlete_name": "Mireia Lopez Urbano",
+      "athlete_dob": "07/12/2000",
+      "athlete_id": "CT23556",
+      "performance": "1.42",
+      "discipline": "Alçada FEM. PC",
+      "wind": null,
+      "position": null,
       "internal_id": 527
     },
     {
@@ -21,10 +40,9 @@
       "athlete_dob": "07/12/2000",
       "athlete_id": "CT23556",
       "performance": "10.43",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Pes FEM. PC",
+      "discipline": "Pes FEM. PC",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2017021819-catcombinadesjuvenilpc.pdf",
+      "position": null,
       "internal_id": 527
     },
     {
@@ -32,10 +50,9 @@
       "athlete_dob": "07/12/2000",
       "athlete_id": "CT23556",
       "performance": "10.42",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Pes FEM. PC",
+      "discipline": "Pes FEM. PC",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2017021819-catcombinadesjuvenilpc.pdf",
+      "position": null,
       "internal_id": 527
     },
     {
@@ -43,10 +60,9 @@
       "athlete_dob": "07/12/2000",
       "athlete_id": "CT23556",
       "performance": "8.77",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Pes FEM. PC",
+      "discipline": "Pes FEM. PC",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2017021819-catcombinadesjuvenilpc.pdf",
+      "position": null,
       "internal_id": 527
     },
     {
@@ -54,10 +70,9 @@
       "athlete_dob": "07/12/2000",
       "athlete_id": "CT23556",
       "performance": "5.32",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada FEM. PC",
+      "discipline": "Llargada FEM. PC",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2017021819-catcombinadesjuvenilpc.pdf",
+      "position": null,
       "internal_id": 527
     },
     {
@@ -65,10 +80,19 @@
       "athlete_dob": "07/12/2000",
       "athlete_id": "CT23556",
       "performance": "5.35",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada FEM. PC",
+      "discipline": "Llargada FEM. PC",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-2017021819-catcombinadesjuvenilpc.pdf",
+      "position": null,
+      "internal_id": 527
+    },
+    {
+      "athlete_name": "Mireia Lopez Urbano",
+      "athlete_dob": "07/12/2000",
+      "athlete_id": "CT23556",
+      "performance": "2:41.99",
+      "discipline": "800m FEM. PC",
+      "wind": null,
+      "position": null,
       "internal_id": 527
     }
   ]

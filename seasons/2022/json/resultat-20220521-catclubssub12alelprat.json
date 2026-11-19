@@ -2,17 +2,57 @@
   "event_name": "Campionat Catalunya Clubs Sub12 Masculí",
   "event_date": "21/05/2022",
   "event_location": "El Prat de Llobregat",
-  "total_results": 14,
+  "total_results": 48,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2022/05/resultat-20220521-catclubssub12alelprat.pdf",
   "results": [
+    {
+      "athlete_name": "Didac Manye Pujol",
+      "athlete_dob": "06/10/2011",
+      "athlete_id": "CL906",
+      "performance": "9.76",
+      "discipline": "60m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1337
+    },
+    {
+      "athlete_name": "Biel Lligadas Turon",
+      "athlete_dob": "27/02/2012",
+      "athlete_id": "CL4342",
+      "performance": "2:26.38",
+      "discipline": "600m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1339
+    },
+    {
+      "athlete_name": "Hugo Diaz Cristino",
+      "athlete_dob": "04/04/2012",
+      "athlete_id": "CL4397",
+      "performance": "7:37.08",
+      "discipline": "2.000m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Marc Marti Fernandez",
+      "athlete_dob": "10/04/2011",
+      "athlete_id": "CL94395",
+      "performance": "10.47",
+      "discipline": "60m tanques (0,50) MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1108
+    },
     {
       "athlete_name": "Oscar Ibañez Rizo",
       "athlete_dob": "08/12/2011",
       "athlete_id": "CL4160",
       "performance": "1.18",
-      "discipline": "Alçada",
-      "raw_discipline_name": "Alçada MASC. AL",
+      "discipline": "Alçada MASC. AL",
       "wind": null,
+      "position": null,
       "internal_id": 1351
     },
     {
@@ -20,9 +60,9 @@
       "athlete_dob": "25/03/2012",
       "athlete_id": "CL905",
       "performance": "3.61",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada MASC. AL",
+      "discipline": "Llargada MASC. AL",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -30,9 +70,9 @@
       "athlete_dob": "25/03/2012",
       "athlete_id": "CL905",
       "performance": "3.30",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada MASC. AL",
+      "discipline": "Llargada MASC. AL",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -40,19 +80,229 @@
       "athlete_dob": "25/03/2012",
       "athlete_id": "CL905",
       "performance": "3.71",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada MASC. AL",
+      "discipline": "Llargada MASC. AL",
       "wind": null,
+      "position": null,
       "internal_id": null
+    },
+    {
+      "athlete_name": "Kilian Gras Ruiz",
+      "athlete_dob": "08/02/2012",
+      "athlete_id": "CL7253",
+      "performance": "6.10",
+      "discipline": "Pes (2 Kg) MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Kilian Gras Ruiz",
+      "athlete_dob": "08/02/2012",
+      "athlete_id": "CL7253",
+      "performance": "6.39",
+      "discipline": "Pes (2 Kg) MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Kilian Gras Ruiz",
+      "athlete_dob": "08/02/2012",
+      "athlete_id": "CL7253",
+      "performance": "6.69",
+      "discipline": "Pes (2 Kg) MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "(t) Houdaifa Majluf",
+      "athlete_dob": "03/05/2011",
+      "athlete_id": "CL4348",
+      "performance": "10.22",
+      "discipline": "Disc (600g) MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "(t) Houdaifa Majluf",
+      "athlete_dob": "03/05/2011",
+      "athlete_id": "CL4348",
+      "performance": "10.94",
+      "discipline": "Disc (600g) MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "(t) Houdaifa Majluf",
+      "athlete_dob": "03/05/2011",
+      "athlete_id": "CL4348",
+      "performance": "11.94",
+      "discipline": "Disc (600g) MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Marçal Sinfreu Niubo",
+      "athlete_dob": "03/03/2011",
+      "athlete_id": "CL94414",
+      "performance": "28.03",
+      "discipline": "Disc (600g) MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Marçal Sinfreu Niubo",
+      "athlete_dob": "03/03/2011",
+      "athlete_id": "CL94414",
+      "performance": "29.10",
+      "discipline": "Disc (600g) MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Marçal Sinfreu Niubo",
+      "athlete_dob": "03/03/2011",
+      "athlete_id": "CL94414",
+      "performance": "26.32",
+      "discipline": "Disc (600g) MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "15 (t) Aleix Olmo Chavez AM",
+      "athlete_dob": "01/02/2011",
+      "athlete_id": "CL94400",
+      "performance": "NP",
+      "discipline": "2.000m Marxa MASC. en pista",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Eric Grau Pinent",
+      "athlete_dob": "11/07/2012",
+      "athlete_id": "CL4398",
+      "performance": "40.36",
+      "discipline": "4x60m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1345
+    },
+    {
+      "athlete_name": "Oscar Ibañez Rizo",
+      "athlete_dob": "08/12/2011",
+      "athlete_id": "CL4160",
+      "performance": "40.36",
+      "discipline": "4x60m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1351
+    },
+    {
+      "athlete_name": "Biel Lligadas Turon",
+      "athlete_dob": "27/02/2012",
+      "athlete_id": "CL4342",
+      "performance": "40.36",
+      "discipline": "4x60m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1339
+    },
+    {
+      "athlete_name": "Didac Manye Pujol",
+      "athlete_dob": "06/10/2011",
+      "athlete_id": "CL906",
+      "performance": "40.36",
+      "discipline": "4x60m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1337
+    },
+    {
+      "athlete_name": "Houdaifa Majluf",
+      "athlete_dob": "03/05/2011",
+      "athlete_id": "CL4348",
+      "performance": "6:07.21",
+      "discipline": "3x600m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Marc Marti Fernandez",
+      "athlete_dob": "10/04/2011",
+      "athlete_id": "CL94395",
+      "performance": "6:07.21",
+      "discipline": "3x600m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1108
+    },
+    {
+      "athlete_name": "Marçal Sinfreu Niubo",
+      "athlete_dob": "03/03/2011",
+      "athlete_id": "CL94414",
+      "performance": "6:07.21",
+      "discipline": "3x600m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Eva Jacob Garcia",
+      "athlete_dob": "30/06/2012",
+      "athlete_id": "CL7254",
+      "performance": "10.54",
+      "discipline": "60m FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1349
+    },
+    {
+      "athlete_name": "Rihana Martos Teixido",
+      "athlete_dob": "18/03/2012",
+      "athlete_id": "CL85129",
+      "performance": "2:15.98",
+      "discipline": "600m FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Lucia Martinez Perales",
+      "athlete_dob": "04/08/2012",
+      "athlete_id": "CL4343",
+      "performance": "8:55.02",
+      "discipline": "2.000m FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Maria Ferran Jimenez",
+      "athlete_dob": "05/04/2011",
+      "athlete_id": "CL94384",
+      "performance": "10.76",
+      "discipline": "60m tanques (0,50) FEM AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1325
     },
     {
       "athlete_name": "Maria Martin Cuadrado",
       "athlete_dob": "01/05/2012",
       "athlete_id": "CL1089",
       "performance": "1.08",
-      "discipline": "Alçada",
-      "raw_discipline_name": "Alçada FEM. AL",
+      "discipline": "Alçada FEM. AL",
       "wind": null,
+      "position": null,
       "internal_id": 1330
     },
     {
@@ -60,9 +310,9 @@
       "athlete_dob": "06/03/2012",
       "athlete_id": "CL7258",
       "performance": "1.25",
-      "discipline": "Perxa",
-      "raw_discipline_name": "Perxa FEM. AL",
+      "discipline": "Perxa FEM. AL",
       "wind": null,
+      "position": null,
       "internal_id": 1352
     },
     {
@@ -70,9 +320,9 @@
       "athlete_dob": "26/08/2011",
       "athlete_id": "CL94390",
       "performance": "3.78",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada FEM. AL",
+      "discipline": "Llargada FEM. AL",
       "wind": null,
+      "position": null,
       "internal_id": 1326
     },
     {
@@ -80,19 +330,29 @@
       "athlete_dob": "26/08/2011",
       "athlete_id": "CL94390",
       "performance": "3.70",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada FEM. AL",
+      "discipline": "Llargada FEM. AL",
       "wind": null,
+      "position": null,
       "internal_id": 1326
+    },
+    {
+      "athlete_name": "Clara Samper Perez",
+      "athlete_dob": "12/04/2011",
+      "athlete_id": "CL7256",
+      "performance": "4.26",
+      "discipline": "Pes (2 Kg) FEM AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 904
     },
     {
       "athlete_name": "Ada Nin Navas",
       "athlete_dob": "24/10/2012",
       "athlete_id": "CL1495",
       "performance": "10.67",
-      "discipline": "Disc (600 g)",
-      "raw_discipline_name": "Disc (600g) FEM.",
+      "discipline": "Disc (600g) FEM.",
       "wind": null,
+      "position": null,
       "internal_id": 1331
     },
     {
@@ -100,9 +360,9 @@
       "athlete_dob": "24/10/2012",
       "athlete_id": "CL1495",
       "performance": "11.42",
-      "discipline": "Disc (600 g)",
-      "raw_discipline_name": "Disc (600g) FEM.",
+      "discipline": "Disc (600g) FEM.",
       "wind": null,
+      "position": null,
       "internal_id": 1331
     },
     {
@@ -110,9 +370,9 @@
       "athlete_dob": "24/10/2012",
       "athlete_id": "CL1495",
       "performance": "9.74",
-      "discipline": "Disc (600 g)",
-      "raw_discipline_name": "Disc (600g) FEM.",
+      "discipline": "Disc (600g) FEM.",
       "wind": null,
+      "position": null,
       "internal_id": 1331
     },
     {
@@ -120,9 +380,9 @@
       "athlete_dob": "23/10/2011",
       "athlete_id": "CL94385",
       "performance": "16.47",
-      "discipline": "Disc (600 g)",
-      "raw_discipline_name": "Disc (600g) FEM.",
+      "discipline": "Disc (600g) FEM.",
       "wind": null,
+      "position": null,
       "internal_id": 1324
     },
     {
@@ -130,9 +390,9 @@
       "athlete_dob": "23/10/2011",
       "athlete_id": "CL94385",
       "performance": "16.55",
-      "discipline": "Disc (600 g)",
-      "raw_discipline_name": "Disc (600g) FEM.",
+      "discipline": "Disc (600g) FEM.",
       "wind": null,
+      "position": null,
       "internal_id": 1324
     },
     {
@@ -140,9 +400,89 @@
       "athlete_dob": "23/10/2011",
       "athlete_id": "CL94385",
       "performance": "17.01",
-      "discipline": "Disc (600 g)",
-      "raw_discipline_name": "Disc (600g) FEM.",
+      "discipline": "Disc (600g) FEM.",
       "wind": null,
+      "position": null,
+      "internal_id": 1324
+    },
+    {
+      "athlete_name": "Irene De La Rosa Fortuny",
+      "athlete_dob": "07/03/2011",
+      "athlete_id": "CL94381",
+      "performance": "12:48.84",
+      "discipline": "2.000m Marxa FEM. en pista",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Nora Diaz Muste",
+      "athlete_dob": "17/07/2011",
+      "athlete_id": "CL7252",
+      "performance": "37.36",
+      "discipline": "4x60m FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Irene Jimenez Garcia",
+      "athlete_dob": "26/08/2011",
+      "athlete_id": "CL94390",
+      "performance": "37.36",
+      "discipline": "4x60m FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1326
+    },
+    {
+      "athlete_name": "Clara Samper Perez",
+      "athlete_dob": "12/04/2011",
+      "athlete_id": "CL7256",
+      "performance": "37.36",
+      "discipline": "4x60m FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 904
+    },
+    {
+      "athlete_name": "Carlota Tejero Clau",
+      "athlete_dob": "06/03/2012",
+      "athlete_id": "CL7258",
+      "performance": "37.36",
+      "discipline": "4x60m FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1352
+    },
+    {
+      "athlete_name": "Maria Ferran Jimenez",
+      "athlete_dob": "05/04/2011",
+      "athlete_id": "CL94384",
+      "performance": "5:59.40",
+      "discipline": "3x600m FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1325
+    },
+    {
+      "athlete_name": "Ada Nin Navas",
+      "athlete_dob": "24/10/2012",
+      "athlete_id": "CL1495",
+      "performance": "5:59.40",
+      "discipline": "3x600m FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1331
+    },
+    {
+      "athlete_name": "Lara Garcia Mur",
+      "athlete_dob": "23/10/2011",
+      "athlete_id": "CL94385",
+      "performance": "5:59.40",
+      "discipline": "3x600m FEM. AL",
+      "wind": null,
+      "position": null,
       "internal_id": 1324
     }
   ]

@@ -2,17 +2,47 @@
   "event_name": "Campionat de Catalunya Sub18",
   "event_date": "11/07/2021",
   "event_location": "Granollers",
-  "total_results": 3,
+  "total_results": 15,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2021/07/resultat-20210711-catsub18algranollers.pdf",
   "results": [
+    {
+      "athlete_name": "Hugo Rodriguez Martinez",
+      "athlete_dob": "25/02/2004",
+      "athlete_id": "CT27323",
+      "performance": "1:58.99",
+      "discipline": "800m MASC. AL",
+      "wind": null,
+      "position": 2,
+      "internal_id": 777
+    },
+    {
+      "athlete_name": "Pol Aixala Guiu",
+      "athlete_dob": "04/12/2004",
+      "athlete_id": "CT438",
+      "performance": "0:57.86",
+      "discipline": "400m tanques (0,84) MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 733
+    },
+    {
+      "athlete_name": "Pol Aixala Guiu",
+      "athlete_dob": "04/12/2004",
+      "athlete_id": "CT438",
+      "performance": "0:57.87",
+      "discipline": "400m tanques (0,84) MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 733
+    },
     {
       "athlete_name": "Laurine Elisa Marimon Fernandez",
       "athlete_dob": "17/09/2004",
       "athlete_id": "CT28409",
       "performance": "11.84",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt FEM. AL",
+      "discipline": "Triple Salt FEM. AL",
       "wind": "+1.6",
+      "position": 1,
       "internal_id": 737
     },
     {
@@ -20,9 +50,9 @@
       "athlete_dob": "17/09/2004",
       "athlete_id": "CT28409",
       "performance": "12.15",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt FEM. AL",
+      "discipline": "Triple Salt FEM. AL",
       "wind": "+2.2",
+      "position": 1,
       "internal_id": 737
     },
     {
@@ -30,10 +60,100 @@
       "athlete_dob": "17/09/2004",
       "athlete_id": "CT28409",
       "performance": "12.13",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt FEM. AL",
+      "discipline": "Triple Salt FEM. AL",
       "wind": "+0.0",
+      "position": 1,
       "internal_id": 737
+    },
+    {
+      "athlete_name": "Lara Herrera Vallve",
+      "athlete_dob": "07/04/2005",
+      "athlete_id": "CT513",
+      "performance": "8.56",
+      "discipline": "Pes (3 Kg) FEM. AL",
+      "wind": null,
+      "position": 8,
+      "internal_id": 813
+    },
+    {
+      "athlete_name": "Lara Herrera Vallve",
+      "athlete_dob": "07/04/2005",
+      "athlete_id": "CT513",
+      "performance": "8.34",
+      "discipline": "Pes (3 Kg) FEM. AL",
+      "wind": null,
+      "position": 8,
+      "internal_id": 813
+    },
+    {
+      "athlete_name": "Lara Herrera Vallve",
+      "athlete_dob": "07/04/2005",
+      "athlete_id": "CT513",
+      "performance": "8.48",
+      "discipline": "Pes (3 Kg) FEM. AL",
+      "wind": null,
+      "position": 8,
+      "internal_id": 813
+    },
+    {
+      "athlete_name": "Lara Herrera Vallve",
+      "athlete_dob": "07/04/2005",
+      "athlete_id": "CT513",
+      "performance": "8.31",
+      "discipline": "Pes (3 Kg) FEM. AL",
+      "wind": null,
+      "position": 8,
+      "internal_id": 813
+    },
+    {
+      "athlete_name": "Lara Herrera Vallve",
+      "athlete_dob": "07/04/2005",
+      "athlete_id": "CT513",
+      "performance": "7.69",
+      "discipline": "Pes (3 Kg) FEM. AL",
+      "wind": null,
+      "position": 8,
+      "internal_id": 813
+    },
+    {
+      "athlete_name": "Lara Herrera Vallve",
+      "athlete_dob": "07/04/2005",
+      "athlete_id": "CT513",
+      "performance": "8.82",
+      "discipline": "Pes (3 Kg) FEM. AL",
+      "wind": null,
+      "position": 8,
+      "internal_id": 813
+    },
+    {
+      "athlete_name": "Lara Herrera Vallve",
+      "athlete_dob": "07/04/2005",
+      "athlete_id": "CT513",
+      "performance": "18.33",
+      "discipline": "Disc (1 Kg) FEM.",
+      "wind": null,
+      "position": 10,
+      "internal_id": 813
+    },
+    {
+      "athlete_name": "Lara Herrera Vallve",
+      "athlete_dob": "07/04/2005",
+      "athlete_id": "CT513",
+      "performance": "21.38",
+      "discipline": "Disc (1 Kg) FEM.",
+      "wind": null,
+      "position": 10,
+      "internal_id": 813
+    },
+    {
+      "athlete_name": "Lara Herrera Vallve",
+      "athlete_dob": "07/04/2005",
+      "athlete_id": "CT513",
+      "performance": "22.11",
+      "discipline": "Disc (1 Kg) FEM.",
+      "wind": null,
+      "position": 10,
+      "internal_id": 813
     }
   ]
 }

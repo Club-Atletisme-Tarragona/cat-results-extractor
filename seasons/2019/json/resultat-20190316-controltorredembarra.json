@@ -1,8 +1,8 @@
 {
-  "event_name": "",
+  "event_name": "Jornades Atlètiques 16 MARÇ 2019",
   "event_date": "16/03/2019",
   "event_location": "Torredembarra",
-  "total_results": 18,
+  "total_results": 34,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20190316-controltorredembarra.pdf",
   "results": [
     {
@@ -10,9 +10,9 @@
       "athlete_dob": "23/02/2010",
       "athlete_id": "CL90833",
       "performance": "2.73",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud FEM. SUB10 AL",
+      "discipline": "Longitud FEM. SUB10 AL",
       "wind": null,
+      "position": null,
       "internal_id": 1081
     },
     {
@@ -20,9 +20,9 @@
       "athlete_dob": "06/09/2010",
       "athlete_id": "CL94489",
       "performance": "2.61",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud FEM. SUB10 AL",
+      "discipline": "Longitud FEM. SUB10 AL",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -30,9 +30,9 @@
       "athlete_dob": "31/05/2010",
       "athlete_id": "CL90844",
       "performance": "2.59",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud FEM. SUB10 AL",
+      "discipline": "Longitud FEM. SUB10 AL",
       "wind": null,
+      "position": null,
       "internal_id": 1015
     },
     {
@@ -40,9 +40,9 @@
       "athlete_dob": "15/11/2010",
       "athlete_id": "CL90832",
       "performance": "2.56",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud FEM. SUB10 AL",
+      "discipline": "Longitud FEM. SUB10 AL",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -50,9 +50,9 @@
       "athlete_dob": "26/12/2010",
       "athlete_id": "CL90830",
       "performance": "2.54",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud FEM. SUB10 AL",
+      "discipline": "Longitud FEM. SUB10 AL",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -60,9 +60,9 @@
       "athlete_dob": "26/08/2011",
       "athlete_id": "CL94390",
       "performance": "2.47",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud FEM. SUB10 AL",
+      "discipline": "Longitud FEM. SUB10 AL",
       "wind": null,
+      "position": null,
       "internal_id": 1326
     },
     {
@@ -70,9 +70,9 @@
       "athlete_dob": "07/03/2011",
       "athlete_id": "CL94381",
       "performance": "2.35",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud FEM. SUB10 AL",
+      "discipline": "Longitud FEM. SUB10 AL",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -80,9 +80,9 @@
       "athlete_dob": "03/01/2010",
       "athlete_id": "CL90843",
       "performance": "2.30",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud FEM. SUB10 AL",
+      "discipline": "Longitud FEM. SUB10 AL",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -90,9 +90,9 @@
       "athlete_dob": "23/10/2011",
       "athlete_id": "CL94385",
       "performance": "2.20",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud FEM. SUB10 AL",
+      "discipline": "Longitud FEM. SUB10 AL",
       "wind": null,
+      "position": null,
       "internal_id": 1324
     },
     {
@@ -100,90 +100,250 @@
       "athlete_dob": "05/04/2011",
       "athlete_id": "CL94384",
       "performance": "2.03",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud FEM. SUB10 AL",
+      "discipline": "Longitud FEM. SUB10 AL",
       "wind": null,
+      "position": null,
       "internal_id": 1325
     },
     {
-      "athlete_name": "Paula Diez Plasencia",
-      "athlete_dob": "15/11/2010",
-      "athlete_id": "CL90832",
-      "performance": "6:28.00",
-      "discipline": "1000 metres marxa",
-      "raw_discipline_name": "1.000m Marcha FEM. SUB10 en pista",
+      "athlete_name": "Pau Esteve Hostalot",
+      "athlete_dob": "27/08/2010",
+      "athlete_id": "CL94383",
+      "performance": "3.09",
+      "discipline": "Longitud MASC. SUB10 AL",
       "wind": null,
+      "position": null,
+      "internal_id": 1055
+    },
+    {
+      "athlete_name": "Pau Esteve Hostalot",
+      "athlete_dob": "27/08/2010",
+      "athlete_id": "CL94383",
+      "performance": "3.13",
+      "discipline": "Longitud MASC. SUB10 AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1055
+    },
+    {
+      "athlete_name": "Leo Sanchez Fernandez",
+      "athlete_dob": "03/10/2011",
+      "athlete_id": "CL94411",
+      "performance": "2.72",
+      "discipline": "Longitud MASC. SUB10 AL",
+      "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
-      "athlete_name": "Irene De La Rosa Fortuny",
-      "athlete_dob": "07/03/2011",
-      "athlete_id": "CL94381",
-      "performance": "6:52.00",
-      "discipline": "1000 metres marxa",
-      "raw_discipline_name": "1.000m Marcha FEM. SUB10 en pista",
+      "athlete_name": "Iker Costa Bakker",
+      "athlete_dob": "12/10/2011",
+      "athlete_id": "CL94935",
+      "performance": "2.45",
+      "discipline": "Longitud MASC. SUB10 AL",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
-      "athlete_name": "Diana Garcia Mur",
-      "athlete_dob": "23/02/2010",
-      "athlete_id": "CL90833",
-      "performance": "7:07.00",
-      "discipline": "1000 metres marxa",
-      "raw_discipline_name": "1.000m Marcha FEM. SUB10 en pista",
+      "athlete_name": "Aleix Olmo Chavez",
+      "athlete_dob": "01/02/2011",
+      "athlete_id": "CL94400",
+      "performance": "2.37",
+      "discipline": "Longitud MASC. SUB10 AL",
       "wind": null,
-      "internal_id": 1081
-    },
-    {
-      "athlete_name": "Ona Sansa Garcia",
-      "athlete_dob": "31/05/2010",
-      "athlete_id": "CL90844",
-      "performance": "7:15.00",
-      "discipline": "1000 metres marxa",
-      "raw_discipline_name": "1.000m Marcha FEM. SUB10 en pista",
-      "wind": null,
-      "internal_id": 1015
-    },
-    {
-      "athlete_name": "Laia Dominguez Mestres",
-      "athlete_dob": "06/09/2010",
-      "athlete_id": "CL94489",
-      "performance": "7:27.00",
-      "discipline": "1000 metres marxa",
-      "raw_discipline_name": "1.000m Marcha FEM. SUB10 en pista",
-      "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
-      "athlete_name": "Claudia Sanchez Fernandez",
-      "athlete_dob": "03/01/2010",
-      "athlete_id": "CL90843",
-      "performance": "7:28.00",
-      "discipline": "1000 metres marxa",
-      "raw_discipline_name": "1.000m Marcha FEM. SUB10 en pista",
+      "athlete_name": "Claudia Guim Caceres",
+      "athlete_dob": "01/09/2009",
+      "athlete_id": "CL90835",
+      "performance": "12.09",
+      "discipline": "Longitud MASC. SUB10 AL",
       "wind": null,
+      "position": null,
+      "internal_id": 1007
+    },
+    {
+      "athlete_name": "Claudia Guim Caceres",
+      "athlete_dob": "01/09/2009",
+      "athlete_id": "CL90835",
+      "performance": "10.33",
+      "discipline": "Longitud MASC. SUB10 AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1007
+    },
+    {
+      "athlete_name": "Claudia Guim Caceres",
+      "athlete_dob": "01/09/2009",
+      "athlete_id": "CL90835",
+      "performance": "13.15",
+      "discipline": "Longitud MASC. SUB10 AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1007
+    },
+    {
+      "athlete_name": "Noemi Gonzalez Carrillo",
+      "athlete_dob": "04/04/2009",
+      "athlete_id": "CL86462",
+      "performance": "12.85",
+      "discipline": "Longitud MASC. SUB10 AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1030
+    },
+    {
+      "athlete_name": "Noemi Gonzalez Carrillo",
+      "athlete_dob": "04/04/2009",
+      "athlete_id": "CL86462",
+      "performance": "10.56",
+      "discipline": "Longitud MASC. SUB10 AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1030
+    },
+    {
+      "athlete_name": "Noemi Gonzalez Carrillo",
+      "athlete_dob": "04/04/2009",
+      "athlete_id": "CL86462",
+      "performance": "11.55",
+      "discipline": "Longitud MASC. SUB10 AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1030
+    },
+    {
+      "athlete_name": "Julia Gomez Miro",
+      "athlete_dob": "03/10/2009",
+      "athlete_id": "CL90834",
+      "performance": "8.26",
+      "discipline": "Longitud MASC. SUB10 AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1027
+    },
+    {
+      "athlete_name": "Julia Gomez Miro",
+      "athlete_dob": "03/10/2009",
+      "athlete_id": "CL90834",
+      "performance": "8.49",
+      "discipline": "Longitud MASC. SUB10 AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1027
+    },
+    {
+      "athlete_name": "Julia Gomez Miro",
+      "athlete_dob": "03/10/2009",
+      "athlete_id": "CL90834",
+      "performance": "10.85",
+      "discipline": "Longitud MASC. SUB10 AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1027
+    },
+    {
+      "athlete_name": "Clara Ortiz De Landazuri Ontoso",
+      "athlete_dob": "04/12/2009",
+      "athlete_id": "CL86467",
+      "performance": "8.65",
+      "discipline": "Longitud MASC. SUB10 AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1022
+    },
+    {
+      "athlete_name": "Clara Ortiz De Landazuri Ontoso",
+      "athlete_dob": "04/12/2009",
+      "athlete_id": "CL86467",
+      "performance": "9.79",
+      "discipline": "Longitud MASC. SUB10 AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1022
+    },
+    {
+      "athlete_name": "Clara Ortiz De Landazuri Ontoso",
+      "athlete_dob": "04/12/2009",
+      "athlete_id": "CL86467",
+      "performance": "9.16",
+      "discipline": "Longitud MASC. SUB10 AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1022
+    },
+    {
+      "athlete_name": "Pau Crespo Beltran",
+      "athlete_dob": "22/10/2008",
+      "athlete_id": "CL90887",
+      "performance": "28.06",
+      "discipline": "1.000m Marcha FEM. SUB10 en pista",
+      "wind": null,
+      "position": null,
+      "internal_id": 971
+    },
+    {
+      "athlete_name": "Victor Jimenez Garcia",
+      "athlete_dob": "25/05/2008",
+      "athlete_id": "CL82981",
+      "performance": "24.20",
+      "discipline": "1.000m Marcha FEM. SUB10 en pista",
+      "wind": null,
+      "position": null,
+      "internal_id": 958
+    },
+    {
+      "athlete_name": "Guillem Ferran Jimenez",
+      "athlete_dob": "08/03/2008",
+      "athlete_id": "CL82978",
+      "performance": "22.07",
+      "discipline": "1.000m Marcha FEM. SUB10 en pista",
+      "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
-      "athlete_name": "Maria Ferran Jimenez",
-      "athlete_dob": "05/04/2011",
-      "athlete_id": "CL94384",
-      "performance": "7:29.00",
-      "discipline": "1000 metres marxa",
-      "raw_discipline_name": "1.000m Marcha FEM. SUB10 en pista",
+      "athlete_name": "Jeroni Flores Piñas",
+      "athlete_dob": "04/01/2009",
+      "athlete_id": "CL86460",
+      "performance": "20.78",
+      "discipline": "1.000m Marcha FEM. SUB10 en pista",
       "wind": null,
-      "internal_id": 1325
+      "position": null,
+      "internal_id": 1036
     },
     {
-      "athlete_name": "Lara Garcia Mur",
-      "athlete_dob": "23/10/2011",
-      "athlete_id": "CL94385",
-      "performance": "7:34.00",
-      "discipline": "1000 metres marxa",
-      "raw_discipline_name": "1.000m Marcha FEM. SUB10 en pista",
+      "athlete_name": "Eric De La Rosa Fortuny",
+      "athlete_dob": "17/04/2009",
+      "athlete_id": "CL87201",
+      "performance": "17.18",
+      "discipline": "1.000m Marcha FEM. SUB10 en pista",
       "wind": null,
-      "internal_id": 1324
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Ivan Ferrer Villa",
+      "athlete_dob": "14/04/2009",
+      "athlete_id": "CL86457",
+      "performance": "16.25",
+      "discipline": "1.000m Marcha FEM. SUB10 en pista",
+      "wind": null,
+      "position": null,
+      "internal_id": 1009
+    },
+    {
+      "athlete_name": "Miquel Vallverdu Alonso",
+      "athlete_dob": "10/03/2009",
+      "athlete_id": "CL90846",
+      "performance": "11.29",
+      "discipline": "1.000m Marcha FEM. SUB10 en pista",
+      "wind": null,
+      "position": null,
+      "internal_id": 1020
     }
   ]
 }

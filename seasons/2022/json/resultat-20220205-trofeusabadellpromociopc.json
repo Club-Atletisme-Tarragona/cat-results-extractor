@@ -2,17 +2,27 @@
   "event_name": " - 11è Trofeu Sabadell d´Atletisme en Pista Coberta 8è Memorial Natàlia Amiel",
   "event_date": "05/02/2022",
   "event_location": "Sabadell",
-  "total_results": 3,
+  "total_results": 4,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2022/02/resultat-20220205-trofeusabadellpromociopc.pdf",
   "results": [
     {
       "athlete_name": "Clara Ortiz De Landazuri Ontoso",
       "athlete_dob": "04/12/2009",
       "athlete_id": "CL86467",
-      "performance": "7.69",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso SUB14 (2kg) FEM. PC",
+      "performance": "24.12",
+      "discipline": "Peso SUB12 (2 Kg) MASC. PC",
       "wind": null,
+      "position": null,
+      "internal_id": 1022
+    },
+    {
+      "athlete_name": "Clara Ortiz De Landazuri Ontoso",
+      "athlete_dob": "04/12/2009",
+      "athlete_id": "CL86467",
+      "performance": "7.69",
+      "discipline": "Peso SUB14 (2 Kg) FEM. PC",
+      "wind": null,
+      "position": null,
       "internal_id": 1022
     },
     {
@@ -20,9 +30,9 @@
       "athlete_dob": "04/12/2009",
       "athlete_id": "CL86467",
       "performance": "7.57",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso SUB14 (2kg) FEM. PC",
+      "discipline": "Peso SUB14 (2 Kg) FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 1022
     },
     {
@@ -30,9 +40,9 @@
       "athlete_dob": "04/12/2009",
       "athlete_id": "CL86467",
       "performance": "7.42",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso SUB14 (2kg) FEM. PC",
+      "discipline": "Peso SUB14 (2 Kg) FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 1022
     }
   ]

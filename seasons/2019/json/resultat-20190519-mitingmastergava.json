@@ -2,17 +2,117 @@
   "event_name": "",
   "event_date": "19/05/2019",
   "event_location": "Gavà",
-  "total_results": 4,
+  "total_results": 18,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20190519-mitingmastergava.pdf",
   "results": [
+    {
+      "athlete_name": "Joan Bardina Tomas",
+      "athlete_dob": "23/09/1968",
+      "athlete_id": "CL3961",
+      "performance": "4:54.44",
+      "discipline": "1.500m MASCULÍ",
+      "wind": null,
+      "position": null,
+      "internal_id": 7
+    },
+    {
+      "athlete_name": "Luis Saez Perez",
+      "athlete_dob": "01/03/1949",
+      "athlete_id": "CT17487",
+      "performance": "30.81",
+      "discipline": "Javelina MASCULÍ (500g)",
+      "wind": null,
+      "position": null,
+      "internal_id": 304
+    },
+    {
+      "athlete_name": "Luis Saez Perez",
+      "athlete_dob": "01/03/1949",
+      "athlete_id": "CT17487",
+      "performance": "27.61",
+      "discipline": "Javelina MASCULÍ (500g)",
+      "wind": null,
+      "position": null,
+      "internal_id": 304
+    },
+    {
+      "athlete_name": "Luis Saez Perez",
+      "athlete_dob": "01/03/1949",
+      "athlete_id": "CT17487",
+      "performance": "32.07",
+      "discipline": "Javelina MASCULÍ (500g)",
+      "wind": null,
+      "position": null,
+      "internal_id": 304
+    },
+    {
+      "athlete_name": "Luis Saez Perez",
+      "athlete_dob": "01/03/1949",
+      "athlete_id": "CT17487",
+      "performance": "28.60",
+      "discipline": "Javelina MASCULÍ (500g)",
+      "wind": null,
+      "position": null,
+      "internal_id": 304
+    },
+    {
+      "athlete_name": "Ana Cabello Rioja",
+      "athlete_dob": "16/11/1968",
+      "athlete_id": "CT23242",
+      "performance": "14.51",
+      "discipline": "100m FEMENÍ",
+      "wind": "+0.0",
+      "position": null,
+      "internal_id": 449
+    },
+    {
+      "athlete_name": "Marisa Pradillo Gutierrez",
+      "athlete_dob": "29/07/1961",
+      "athlete_id": "CT21513",
+      "performance": "17.15",
+      "discipline": "100m FEMENÍ",
+      "wind": "-0.5",
+      "position": null,
+      "internal_id": 389
+    },
+    {
+      "athlete_name": "Carmen Ferre Garcia",
+      "athlete_dob": "17/01/1963",
+      "athlete_id": "CL29529",
+      "performance": "2:53.23",
+      "discipline": "800m FEMENÍ",
+      "wind": null,
+      "position": null,
+      "internal_id": 720
+    },
+    {
+      "athlete_name": "277 (t) Melinda Rodriguez Tortajada W-35 3",
+      "athlete_dob": "30/08/1980",
+      "athlete_id": "CL29577",
+      "performance": "NP",
+      "discipline": "800m FEMENÍ",
+      "wind": null,
+      "position": null,
+      "internal_id": 53
+    },
+    {
+      "athlete_name": "Germina Garrido Villalba",
+      "athlete_dob": "24/12/1979",
+      "athlete_id": "CL29530",
+      "performance": "22:16.14",
+      "discipline": "5.000m FEMENÍ",
+      "wind": null,
+      "position": null,
+      "internal_id": 721
+    },
     {
       "athlete_name": "Ana Cabello Rioja",
       "athlete_dob": "16/11/1968",
       "athlete_id": "CT23242",
       "performance": "3.57",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada FEMENÍ",
+      "discipline": "Llargada FEMENÍ",
       "wind": "+1.2",
+      "position": null,
       "internal_id": 449
     },
     {
@@ -20,9 +120,9 @@
       "athlete_dob": "16/11/1968",
       "athlete_id": "CT23242",
       "performance": "3.64",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada FEMENÍ",
+      "discipline": "Llargada FEMENÍ",
       "wind": "-0.4",
+      "position": null,
       "internal_id": 449
     },
     {
@@ -30,9 +130,9 @@
       "athlete_dob": "16/11/1968",
       "athlete_id": "CT23242",
       "performance": "3.84",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada FEMENÍ",
+      "discipline": "Llargada FEMENÍ",
       "wind": "-2.9",
+      "position": null,
       "internal_id": 449
     },
     {
@@ -40,9 +140,49 @@
       "athlete_dob": "29/07/1961",
       "athlete_id": "CT21513",
       "performance": "3.07",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada FEMENÍ",
+      "discipline": "Llargada FEMENÍ",
       "wind": "+0.0",
+      "position": null,
+      "internal_id": 389
+    },
+    {
+      "athlete_name": "Ana Cabello Rioja",
+      "athlete_dob": "16/11/1968",
+      "athlete_id": "CT23242",
+      "performance": "16.03",
+      "discipline": "Javelina FEMENÍ (500g)",
+      "wind": null,
+      "position": null,
+      "internal_id": 449
+    },
+    {
+      "athlete_name": "Ana Cabello Rioja",
+      "athlete_dob": "16/11/1968",
+      "athlete_id": "CT23242",
+      "performance": "17.24",
+      "discipline": "Javelina FEMENÍ (500g)",
+      "wind": null,
+      "position": null,
+      "internal_id": 449
+    },
+    {
+      "athlete_name": "Marisa Pradillo Gutierrez",
+      "athlete_dob": "29/07/1961",
+      "athlete_id": "CT21513",
+      "performance": "13.15",
+      "discipline": "Javelina FEMENÍ (500g)",
+      "wind": null,
+      "position": null,
+      "internal_id": 389
+    },
+    {
+      "athlete_name": "Marisa Pradillo Gutierrez",
+      "athlete_dob": "29/07/1961",
+      "athlete_id": "CT21513",
+      "performance": "13.49",
+      "discipline": "Javelina FEMENÍ (500g)",
+      "wind": null,
+      "position": null,
       "internal_id": 389
     }
   ]

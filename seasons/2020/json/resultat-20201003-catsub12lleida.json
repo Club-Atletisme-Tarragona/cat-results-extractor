@@ -1,18 +1,38 @@
 {
   "event_name": "Campionat de Catalunya Sub12",
   "event_date": "03/10/2020",
-  "event_location": "Castellar",
-  "total_results": 21,
+  "event_location": "Lleida",
+  "total_results": 32,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20201003-catsub12lleida.pdf",
   "results": [
+    {
+      "athlete_name": "Jeroni Flores Piñas",
+      "athlete_dob": "04/01/2009",
+      "athlete_id": "CL86460",
+      "performance": "1.08",
+      "discipline": "Alçada SUB12 MASC. AL",
+      "wind": null,
+      "position": 7,
+      "internal_id": 1036
+    },
+    {
+      "athlete_name": "Guillem Pamies Miro",
+      "athlete_dob": "16/07/2009",
+      "athlete_id": "CL827",
+      "performance": "1.08",
+      "discipline": "Alçada SUB12 MASC. AL",
+      "wind": null,
+      "position": 10,
+      "internal_id": null
+    },
     {
       "athlete_name": "Paco Lorenzo Valldosera",
       "athlete_dob": "30/03/2009",
       "athlete_id": "CL90838",
       "performance": "4.19",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada SUB12 MASC. AL",
+      "discipline": "Llargada SUB12 MASC. AL",
       "wind": null,
+      "position": 6,
       "internal_id": null
     },
     {
@@ -20,9 +40,9 @@
       "athlete_dob": "30/03/2009",
       "athlete_id": "CL90838",
       "performance": "4.04",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada SUB12 MASC. AL",
+      "discipline": "Llargada SUB12 MASC. AL",
       "wind": null,
+      "position": 6,
       "internal_id": null
     },
     {
@@ -30,9 +50,9 @@
       "athlete_dob": "30/03/2009",
       "athlete_id": "CL90838",
       "performance": "4.15",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada SUB12 MASC. AL",
+      "discipline": "Llargada SUB12 MASC. AL",
       "wind": null,
+      "position": 6,
       "internal_id": null
     },
     {
@@ -40,9 +60,9 @@
       "athlete_dob": "30/03/2009",
       "athlete_id": "CL90838",
       "performance": "4.21",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada SUB12 MASC. AL",
+      "discipline": "Llargada SUB12 MASC. AL",
       "wind": null,
+      "position": 6,
       "internal_id": null
     },
     {
@@ -50,9 +70,9 @@
       "athlete_dob": "30/03/2009",
       "athlete_id": "CL90838",
       "performance": "3.89",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada SUB12 MASC. AL",
+      "discipline": "Llargada SUB12 MASC. AL",
       "wind": null,
+      "position": 6,
       "internal_id": null
     },
     {
@@ -60,9 +80,9 @@
       "athlete_dob": "17/04/2009",
       "athlete_id": "CL87201",
       "performance": "3.98",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada SUB12 MASC. AL",
+      "discipline": "Llargada SUB12 MASC. AL",
       "wind": null,
+      "position": 7,
       "internal_id": null
     },
     {
@@ -70,9 +90,9 @@
       "athlete_dob": "17/04/2009",
       "athlete_id": "CL87201",
       "performance": "4.12",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada SUB12 MASC. AL",
+      "discipline": "Llargada SUB12 MASC. AL",
       "wind": null,
+      "position": 7,
       "internal_id": null
     },
     {
@@ -80,9 +100,9 @@
       "athlete_dob": "17/04/2009",
       "athlete_id": "CL87201",
       "performance": "4.15",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada SUB12 MASC. AL",
+      "discipline": "Llargada SUB12 MASC. AL",
       "wind": null,
+      "position": 7,
       "internal_id": null
     },
     {
@@ -90,9 +110,9 @@
       "athlete_dob": "17/04/2009",
       "athlete_id": "CL87201",
       "performance": "4.20",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada SUB12 MASC. AL",
+      "discipline": "Llargada SUB12 MASC. AL",
       "wind": null,
+      "position": 7,
       "internal_id": null
     },
     {
@@ -100,9 +120,9 @@
       "athlete_dob": "17/04/2009",
       "athlete_id": "CL87201",
       "performance": "4.10",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada SUB12 MASC. AL",
+      "discipline": "Llargada SUB12 MASC. AL",
       "wind": null,
+      "position": 7,
       "internal_id": null
     },
     {
@@ -110,9 +130,9 @@
       "athlete_dob": "27/08/2010",
       "athlete_id": "CL94383",
       "performance": "3.99",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada SUB12 MASC. AL",
+      "discipline": "Llargada SUB12 MASC. AL",
       "wind": null,
+      "position": 8,
       "internal_id": 1055
     },
     {
@@ -120,9 +140,9 @@
       "athlete_dob": "27/08/2010",
       "athlete_id": "CL94383",
       "performance": "3.90",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada SUB12 MASC. AL",
+      "discipline": "Llargada SUB12 MASC. AL",
       "wind": null,
+      "position": 8,
       "internal_id": 1055
     },
     {
@@ -130,9 +150,9 @@
       "athlete_dob": "27/08/2010",
       "athlete_id": "CL94383",
       "performance": "3.87",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada SUB12 MASC. AL",
+      "discipline": "Llargada SUB12 MASC. AL",
       "wind": null,
+      "position": 8,
       "internal_id": 1055
     },
     {
@@ -140,9 +160,9 @@
       "athlete_dob": "27/08/2010",
       "athlete_id": "CL94383",
       "performance": "3.65",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada SUB12 MASC. AL",
+      "discipline": "Llargada SUB12 MASC. AL",
       "wind": null,
+      "position": 8,
       "internal_id": 1055
     },
     {
@@ -150,9 +170,9 @@
       "athlete_dob": "27/08/2010",
       "athlete_id": "CL94383",
       "performance": "3.98",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada SUB12 MASC. AL",
+      "discipline": "Llargada SUB12 MASC. AL",
       "wind": null,
+      "position": 8,
       "internal_id": 1055
     },
     {
@@ -160,29 +180,119 @@
       "athlete_dob": "27/08/2010",
       "athlete_id": "CL94383",
       "performance": "4.01",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada SUB12 MASC. AL",
+      "discipline": "Llargada SUB12 MASC. AL",
       "wind": null,
+      "position": 8,
       "internal_id": 1055
     },
     {
       "athlete_name": "Clara Ortiz De Landazuri Ontoso",
       "athlete_dob": "04/12/2009",
       "athlete_id": "CL86467",
-      "performance": "1.18",
-      "discipline": "Alçada",
-      "raw_discipline_name": "Alçada SUB12 FEM. AL",
+      "performance": "1:56.92",
+      "discipline": "2.000m Marxa SUB12 MASC. en pista",
       "wind": null,
+      "position": 4,
       "internal_id": 1022
+    },
+    {
+      "athlete_name": "Nora Montolio Amaro",
+      "athlete_dob": "05/02/2010",
+      "athlete_id": "CL90841",
+      "performance": "2:01.45",
+      "discipline": "2.000m Marxa SUB12 MASC. en pista",
+      "wind": null,
+      "position": 6,
+      "internal_id": 1089
+    },
+    {
+      "athlete_name": "Duina Borreda Cervello",
+      "athlete_dob": "26/12/2010",
+      "athlete_id": "CL90830",
+      "performance": "2:03.99",
+      "discipline": "2.000m Marxa SUB12 MASC. en pista",
+      "wind": null,
+      "position": 3,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Duina Borreda Cervello",
+      "athlete_dob": "26/12/2010",
+      "athlete_id": "CL90830",
+      "performance": "11.71",
+      "discipline": "2.000m Marxa SUB12 MASC. en pista",
+      "wind": null,
+      "position": 4,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Diana Garcia Mur",
+      "athlete_dob": "23/02/2010",
+      "athlete_id": "CL90833",
+      "performance": "8:17.29",
+      "discipline": "2.000m Marxa SUB12 MASC. en pista",
+      "wind": null,
+      "position": 7,
+      "internal_id": 1081
+    },
+    {
+      "athlete_name": "Clara Ortiz De Landazuri Ontoso",
+      "athlete_dob": "04/12/2009",
+      "athlete_id": "CL86467",
+      "performance": "1.18",
+      "discipline": "Alçada SUB12 FEM. AL",
+      "wind": null,
+      "position": 4,
+      "internal_id": 1022
+    },
+    {
+      "athlete_name": "Diana Garcia Mur",
+      "athlete_dob": "23/02/2010",
+      "athlete_id": "CL90833",
+      "performance": "3.25",
+      "discipline": "Llargada SUB12 FEM. AL",
+      "wind": null,
+      "position": 10,
+      "internal_id": 1081
+    },
+    {
+      "athlete_name": "Diana Garcia Mur",
+      "athlete_dob": "23/02/2010",
+      "athlete_id": "CL90833",
+      "performance": "3.32",
+      "discipline": "Llargada SUB12 FEM. AL",
+      "wind": null,
+      "position": 10,
+      "internal_id": 1081
+    },
+    {
+      "athlete_name": "Nora Montolio Amaro",
+      "athlete_dob": "05/02/2010",
+      "athlete_id": "CL90841",
+      "performance": "3.21",
+      "discipline": "Llargada SUB12 FEM. AL",
+      "wind": null,
+      "position": 12,
+      "internal_id": 1089
+    },
+    {
+      "athlete_name": "Nora Montolio Amaro",
+      "athlete_dob": "05/02/2010",
+      "athlete_id": "CL90841",
+      "performance": "3.23",
+      "discipline": "Llargada SUB12 FEM. AL",
+      "wind": null,
+      "position": 12,
+      "internal_id": 1089
     },
     {
       "athlete_name": "Noa Nin Navas",
       "athlete_dob": "28/08/2009",
       "athlete_id": "CL94399",
       "performance": "6.51",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Pes (2kg) SUB12 FEM AL",
+      "discipline": "Pes (2 Kg) SUB12 FEM AL",
       "wind": null,
+      "position": 4,
       "internal_id": 1010
     },
     {
@@ -190,9 +300,9 @@
       "athlete_dob": "28/08/2009",
       "athlete_id": "CL94399",
       "performance": "5.96",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Pes (2kg) SUB12 FEM AL",
+      "discipline": "Pes (2 Kg) SUB12 FEM AL",
       "wind": null,
+      "position": 4,
       "internal_id": 1010
     },
     {
@@ -200,9 +310,9 @@
       "athlete_dob": "28/08/2009",
       "athlete_id": "CL94399",
       "performance": "7.27",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Pes (2kg) SUB12 FEM AL",
+      "discipline": "Pes (2 Kg) SUB12 FEM AL",
       "wind": null,
+      "position": 4,
       "internal_id": 1010
     },
     {
@@ -210,9 +320,9 @@
       "athlete_dob": "28/08/2009",
       "athlete_id": "CL94399",
       "performance": "7.17",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Pes (2kg) SUB12 FEM AL",
+      "discipline": "Pes (2 Kg) SUB12 FEM AL",
       "wind": null,
+      "position": 4,
       "internal_id": 1010
     }
   ]

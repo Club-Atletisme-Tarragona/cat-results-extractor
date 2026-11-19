@@ -1,19 +1,89 @@
 {
   "event_name": "Campionat de Catalunya Sub20 - Palafrugell (Estadi Municipal Josep Pla Arbonès), 17 junio 2023",
   "event_date": "17/06/2023",
-  "event_location": "Palafrugell",
-  "total_results": 1,
+  "event_location": "Club                                             Lic",
+  "total_results": 8,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2023/06/resultat-20230617-catsub20alpalafrugell.pdf",
   "results": [
     {
-      "athlete_name": "Ruth Prats Nadal",
+      "athlete_name": "Hugo Jules Saiz Santolaria",
+      "athlete_dob": "31/01/2005",
+      "athlete_id": "CT469",
+      "performance": "12.04",
+      "discipline": "100m MASC. AL",
+      "wind": "-0.7",
+      "position": null,
+      "internal_id": 808
+    },
+    {
+      "athlete_name": "Hugo Jules Saiz Santolaria",
+      "athlete_dob": "31/01/2005",
+      "athlete_id": "CT469",
+      "performance": "23.53",
+      "discipline": "200m MASC. AL",
+      "wind": "+2.5",
+      "position": null,
+      "internal_id": 808
+    },
+    {
+      "athlete_name": "Ricard Prio Roca",
+      "athlete_dob": "12/05/2004",
+      "athlete_id": "CT2371",
+      "performance": "0:53.24",
+      "discipline": "400m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 778
+    },
+    {
+      "athlete_name": "Pol Aixala Guiu",
+      "athlete_dob": "04/12/2004",
+      "athlete_id": "CT438",
+      "performance": "0:57.13",
+      "discipline": "400m tanques (0,91) MASC. AL",
+      "wind": null,
+      "position": 4,
+      "internal_id": 733
+    },
+    {
+      "athlete_name": "Ruth Prats Nadal 6.5",
       "athlete_dob": "31/01/2004",
       "athlete_id": "CT91904",
       "performance": "1.49",
-      "discipline": "Alçada",
-      "raw_discipline_name": "Alçada FEM. AL",
+      "discipline": "Alçada FEM. AL",
       "wind": null,
+      "position": 4,
       "internal_id": 915
+    },
+    {
+      "athlete_name": "Laurine Elisa Marimon Fernandez",
+      "athlete_dob": "17/09/2004",
+      "athlete_id": "CT28409",
+      "performance": "12.31",
+      "discipline": "Triple Salt FEM. AL",
+      "wind": "+2.7",
+      "position": 1,
+      "internal_id": 737
+    },
+    {
+      "athlete_name": "Laurine Elisa Marimon Fernandez",
+      "athlete_dob": "17/09/2004",
+      "athlete_id": "CT28409",
+      "performance": "12.38",
+      "discipline": "Triple Salt FEM. AL",
+      "wind": "+2.8",
+      "position": 1,
+      "internal_id": 737
+    },
+    {
+      "athlete_name": "Laurine Elisa Marimon Fernandez",
+      "athlete_dob": "17/09/2004",
+      "athlete_id": "CT28409",
+      "performance": "12.56",
+      "discipline": "Triple Salt FEM. AL",
+      "wind": "+2.4",
+      "position": 1,
+      "internal_id": 737
     }
   ]
 }

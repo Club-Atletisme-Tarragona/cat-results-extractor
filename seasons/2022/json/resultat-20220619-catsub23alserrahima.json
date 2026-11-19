@@ -1,18 +1,68 @@
 {
   "event_name": "Campionat de Catalunya Sub23",
   "event_date": "19/06/2022",
-  "event_location": "Barcelona-SE",
-  "total_results": 1,
+  "event_location": "Club                                                    Lic",
+  "total_results": 6,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2022/06/resultat-20220619-catsub23alserrahima.pdf",
   "results": [
+    {
+      "athlete_name": "Aleix Lago Garbajosa PM",
+      "athlete_dob": "26/09/2002",
+      "athlete_id": "CT264",
+      "performance": "0:49.63",
+      "discipline": "400m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 660
+    },
+    {
+      "athlete_name": "Aleix Lago Garbajosa PM",
+      "athlete_dob": "26/09/2002",
+      "athlete_id": "CT264",
+      "performance": "0:49.38",
+      "discipline": "400m MASC. AL",
+      "wind": null,
+      "position": 5,
+      "internal_id": 660
+    },
+    {
+      "athlete_name": "Sira Bo Calaf PF",
+      "athlete_dob": "19/03/2001",
+      "athlete_id": "CT712",
+      "performance": "4:56.19",
+      "discipline": "1.500m FEM. AL",
+      "wind": null,
+      "position": 4,
+      "internal_id": 599
+    },
+    {
+      "athlete_name": "Mireia Lopez Urbano PF 5 Q RCAM",
+      "athlete_dob": "07/12/2000",
+      "athlete_id": "CT23556",
+      "performance": "13.90",
+      "discipline": "100m tanques (0,84) FEM. AL",
+      "wind": "-0.3",
+      "position": null,
+      "internal_id": 527
+    },
+    {
+      "athlete_name": "Mireia Lopez Urbano PF 3 8 RCAM",
+      "athlete_dob": "07/12/2000",
+      "athlete_id": "CT23556",
+      "performance": "13.81",
+      "discipline": "100m tanques (0,84) FEM. AL",
+      "wind": "+0.0",
+      "position": null,
+      "internal_id": 527
+    },
     {
       "athlete_name": "Nuria Caballero Pacheco",
       "athlete_dob": "09/10/2001",
       "athlete_id": "CT25812",
       "performance": "1.70",
-      "discipline": "Alçada",
-      "raw_discipline_name": "Alçada FEM. AL",
+      "discipline": "Alçada FEM. AL",
       "wind": null,
+      "position": 1,
       "internal_id": 753
     }
   ]

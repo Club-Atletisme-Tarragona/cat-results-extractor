@@ -2,17 +2,27 @@
   "event_name": "Jornada Final Campionat Catalunya SUB12",
   "event_date": "22/06/2019",
   "event_location": "Lleida",
-  "total_results": 11,
+  "total_results": 29,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20190622-catsub12finallleida.pdf",
   "results": [
     {
       "athlete_name": "Victor Jimenez Garcia",
       "athlete_dob": "25/05/2008",
       "athlete_id": "CL82981",
-      "performance": "4.36",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada SUB12 MASC. AL",
+      "performance": "1.33",
+      "discipline": "Alçada SUB12 MASC. AL",
       "wind": null,
+      "position": 2,
+      "internal_id": 958
+    },
+    {
+      "athlete_name": "Victor Jimenez Garcia",
+      "athlete_dob": "25/05/2008",
+      "athlete_id": "CL82981",
+      "performance": "4.36",
+      "discipline": "Llargada SUB12 MASC. AL",
+      "wind": null,
+      "position": 3,
       "internal_id": 958
     },
     {
@@ -20,9 +30,9 @@
       "athlete_dob": "25/05/2008",
       "athlete_id": "CL82981",
       "performance": "4.38",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada SUB12 MASC. AL",
+      "discipline": "Llargada SUB12 MASC. AL",
       "wind": null,
+      "position": 3,
       "internal_id": 958
     },
     {
@@ -30,9 +40,9 @@
       "athlete_dob": "25/05/2008",
       "athlete_id": "CL82981",
       "performance": "4.40",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada SUB12 MASC. AL",
+      "discipline": "Llargada SUB12 MASC. AL",
       "wind": null,
+      "position": 3,
       "internal_id": 958
     },
     {
@@ -40,9 +50,9 @@
       "athlete_dob": "25/05/2008",
       "athlete_id": "CL82981",
       "performance": "4.21",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada SUB12 MASC. AL",
+      "discipline": "Llargada SUB12 MASC. AL",
       "wind": null,
+      "position": 3,
       "internal_id": 958
     },
     {
@@ -50,9 +60,9 @@
       "athlete_dob": "30/03/2009",
       "athlete_id": "CL90838",
       "performance": "4.14",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada SUB12 MASC. AL",
+      "discipline": "Llargada SUB12 MASC. AL",
       "wind": null,
+      "position": 7,
       "internal_id": null
     },
     {
@@ -60,9 +70,9 @@
       "athlete_dob": "30/03/2009",
       "athlete_id": "CL90838",
       "performance": "4.17",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada SUB12 MASC. AL",
+      "discipline": "Llargada SUB12 MASC. AL",
       "wind": null,
+      "position": 7,
       "internal_id": null
     },
     {
@@ -70,9 +80,9 @@
       "athlete_dob": "30/03/2009",
       "athlete_id": "CL90838",
       "performance": "4.00",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada SUB12 MASC. AL",
+      "discipline": "Llargada SUB12 MASC. AL",
       "wind": null,
+      "position": 7,
       "internal_id": null
     },
     {
@@ -80,9 +90,9 @@
       "athlete_dob": "30/03/2009",
       "athlete_id": "CL90838",
       "performance": "4.13",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada SUB12 MASC. AL",
+      "discipline": "Llargada SUB12 MASC. AL",
       "wind": null,
+      "position": 7,
       "internal_id": null
     },
     {
@@ -90,9 +100,9 @@
       "athlete_dob": "30/03/2009",
       "athlete_id": "CL90838",
       "performance": "3.79",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada SUB12 MASC. AL",
+      "discipline": "Llargada SUB12 MASC. AL",
       "wind": null,
+      "position": 7,
       "internal_id": null
     },
     {
@@ -100,19 +110,189 @@
       "athlete_dob": "30/03/2009",
       "athlete_id": "CL90838",
       "performance": "4.02",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada SUB12 MASC. AL",
+      "discipline": "Llargada SUB12 MASC. AL",
       "wind": null,
+      "position": 7,
       "internal_id": null
+    },
+    {
+      "athlete_name": "Guillem Ferran Jimenez",
+      "athlete_dob": "08/03/2008",
+      "athlete_id": "CL82978",
+      "performance": "7.71",
+      "discipline": "Pes (2 Kg) SUB12 MASC. AL",
+      "wind": null,
+      "position": 2,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Guillem Ferran Jimenez",
+      "athlete_dob": "08/03/2008",
+      "athlete_id": "CL82978",
+      "performance": "8.54",
+      "discipline": "Pes (2 Kg) SUB12 MASC. AL",
+      "wind": null,
+      "position": 2,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Guillem Ferran Jimenez",
+      "athlete_dob": "08/03/2008",
+      "athlete_id": "CL82978",
+      "performance": "8.98",
+      "discipline": "Pes (2 Kg) SUB12 MASC. AL",
+      "wind": null,
+      "position": 2,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Guillem Ferran Jimenez",
+      "athlete_dob": "08/03/2008",
+      "athlete_id": "CL82978",
+      "performance": "8.16",
+      "discipline": "Pes (2 Kg) SUB12 MASC. AL",
+      "wind": null,
+      "position": 2,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Guillem Ferran Jimenez",
+      "athlete_dob": "08/03/2008",
+      "athlete_id": "CL82978",
+      "performance": "7.25",
+      "discipline": "Pes (2 Kg) SUB12 MASC. AL",
+      "wind": null,
+      "position": 2,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Guillem Ferran Jimenez",
+      "athlete_dob": "08/03/2008",
+      "athlete_id": "CL82978",
+      "performance": "8.96",
+      "discipline": "Pes (2 Kg) SUB12 MASC. AL",
+      "wind": null,
+      "position": 2,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Pau Crespo Beltran",
+      "athlete_dob": "22/10/2008",
+      "athlete_id": "CL90887",
+      "performance": "7.71",
+      "discipline": "Pes (2 Kg) SUB12 MASC. AL",
+      "wind": null,
+      "position": 5,
+      "internal_id": 971
+    },
+    {
+      "athlete_name": "Pau Crespo Beltran",
+      "athlete_dob": "22/10/2008",
+      "athlete_id": "CL90887",
+      "performance": "7.87",
+      "discipline": "Pes (2 Kg) SUB12 MASC. AL",
+      "wind": null,
+      "position": 5,
+      "internal_id": 971
+    },
+    {
+      "athlete_name": "Pau Crespo Beltran",
+      "athlete_dob": "22/10/2008",
+      "athlete_id": "CL90887",
+      "performance": "8.28",
+      "discipline": "Pes (2 Kg) SUB12 MASC. AL",
+      "wind": null,
+      "position": 5,
+      "internal_id": 971
+    },
+    {
+      "athlete_name": "Pau Crespo Beltran",
+      "athlete_dob": "22/10/2008",
+      "athlete_id": "CL90887",
+      "performance": "8.43",
+      "discipline": "Pes (2 Kg) SUB12 MASC. AL",
+      "wind": null,
+      "position": 5,
+      "internal_id": 971
+    },
+    {
+      "athlete_name": "Pau Crespo Beltran",
+      "athlete_dob": "22/10/2008",
+      "athlete_id": "CL90887",
+      "performance": "8.39",
+      "discipline": "Pes (2 Kg) SUB12 MASC. AL",
+      "wind": null,
+      "position": 5,
+      "internal_id": 971
+    },
+    {
+      "athlete_name": "Pau Crespo Beltran",
+      "athlete_dob": "22/10/2008",
+      "athlete_id": "CL90887",
+      "performance": "30.77",
+      "discipline": "Disc (600g) SUB12 MASC. AL",
+      "wind": null,
+      "position": 4,
+      "internal_id": 971
+    },
+    {
+      "athlete_name": "Pau Crespo Beltran",
+      "athlete_dob": "22/10/2008",
+      "athlete_id": "CL90887",
+      "performance": "31.00",
+      "discipline": "Disc (600g) SUB12 MASC. AL",
+      "wind": null,
+      "position": 4,
+      "internal_id": 971
+    },
+    {
+      "athlete_name": "Pau Crespo Beltran",
+      "athlete_dob": "22/10/2008",
+      "athlete_id": "CL90887",
+      "performance": "31.90",
+      "discipline": "Disc (600g) SUB12 MASC. AL",
+      "wind": null,
+      "position": 4,
+      "internal_id": 971
+    },
+    {
+      "athlete_name": "Pau Crespo Beltran",
+      "athlete_dob": "22/10/2008",
+      "athlete_id": "CL90887",
+      "performance": "30.75",
+      "discipline": "Disc (600g) SUB12 MASC. AL",
+      "wind": null,
+      "position": 4,
+      "internal_id": 971
+    },
+    {
+      "athlete_name": "Pau Crespo Beltran",
+      "athlete_dob": "22/10/2008",
+      "athlete_id": "CL90887",
+      "performance": "25.43",
+      "discipline": "Disc (600g) SUB12 MASC. AL",
+      "wind": null,
+      "position": 4,
+      "internal_id": 971
+    },
+    {
+      "athlete_name": "Pau Crespo Beltran",
+      "athlete_dob": "22/10/2008",
+      "athlete_id": "CL90887",
+      "performance": "31.58",
+      "discipline": "Disc (600g) SUB12 MASC. AL",
+      "wind": null,
+      "position": 4,
+      "internal_id": 971
     },
     {
       "athlete_name": "Clara Ortiz De Landazuri Ontoso",
       "athlete_dob": "04/12/2009",
       "athlete_id": "CL86467",
       "performance": "7:55.18",
-      "discipline": "2000 metres marxa",
-      "raw_discipline_name": "2.000m Marxa SUB12 MASC. en pista",
+      "discipline": "2.000m Marxa SUB12 MASC. en pista",
       "wind": null,
+      "position": 10,
       "internal_id": 1022
     }
   ]

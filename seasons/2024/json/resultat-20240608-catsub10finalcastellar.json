@@ -1,8 +1,8 @@
 {
   "event_name": "Jornada FINAL Campionat de Catalunya Sub10",
   "event_date": "08/06/2024",
-  "event_location": "Castellar",
-  "total_results": 4,
+  "event_location": "Castellar del Vallés",
+  "total_results": 10,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2024/06/resultat-20240608-catsub10finalcastellar.pdf",
   "results": [
     {
@@ -10,9 +10,9 @@
       "athlete_dob": "11/03/2015",
       "athlete_id": "CL11069",
       "performance": "3.32",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada SUB10 MASC. AL",
+      "discipline": "Llargada SUB10 MASC. AL",
       "wind": null,
+      "position": 10,
       "internal_id": 1338
     },
     {
@@ -20,9 +20,9 @@
       "athlete_dob": "11/03/2015",
       "athlete_id": "CL11069",
       "performance": "3.28",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada SUB10 MASC. AL",
+      "discipline": "Llargada SUB10 MASC. AL",
       "wind": null,
+      "position": 10,
       "internal_id": 1338
     },
     {
@@ -30,20 +30,80 @@
       "athlete_dob": "11/03/2015",
       "athlete_id": "CL11069",
       "performance": "3.00",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada SUB10 MASC. AL",
+      "discipline": "Llargada SUB10 MASC. AL",
       "wind": null,
+      "position": 10,
       "internal_id": 1338
     },
     {
-      "athlete_name": "Sara Lopez Garcia",
+      "athlete_name": "Thiago Silva Aranda",
+      "athlete_dob": "15/02/2015",
+      "athlete_id": "CL11075",
+      "performance": "5:56.46",
+      "discipline": "1.000m Marxa SUB10 MASC.",
+      "wind": null,
+      "position": 3,
+      "internal_id": 1350
+    },
+    {
+      "athlete_name": "Sara Lopez Garcia 3.5",
       "athlete_dob": "19/01/2015",
       "athlete_id": "CL11066",
       "performance": "1.04",
-      "discipline": "Alçada",
-      "raw_discipline_name": "Alçada SUB10 FEM. AL",
+      "discipline": "Alçada SUB10 FEM. AL",
       "wind": null,
+      "position": 4,
       "internal_id": 1354
+    },
+    {
+      "athlete_name": "Noa Pascual Prats",
+      "athlete_dob": "27/02/2015",
+      "athlete_id": "CL10462",
+      "performance": "4.84",
+      "discipline": "Pes (2 Kg) SUB10 FEM AL",
+      "wind": null,
+      "position": 2,
+      "internal_id": 1380
+    },
+    {
+      "athlete_name": "Noa Pascual Prats",
+      "athlete_dob": "27/02/2015",
+      "athlete_id": "CL10462",
+      "performance": "5.16",
+      "discipline": "Pes (2 Kg) SUB10 FEM AL",
+      "wind": null,
+      "position": 2,
+      "internal_id": 1380
+    },
+    {
+      "athlete_name": "Noa Pascual Prats",
+      "athlete_dob": "27/02/2015",
+      "athlete_id": "CL10462",
+      "performance": "5.12",
+      "discipline": "Pes (2 Kg) SUB10 FEM AL",
+      "wind": null,
+      "position": 2,
+      "internal_id": 1380
+    },
+    {
+      "athlete_name": "Montserrat Marques Cruz",
+      "athlete_dob": "27/01/2015",
+      "athlete_id": "CL11596",
+      "performance": "5:52.23",
+      "discipline": "1.000m Marxa SUB10 FEM.",
+      "wind": null,
+      "position": 1,
+      "internal_id": 1374
+    },
+    {
+      "athlete_name": "Ada Feliu Lorca",
+      "athlete_dob": "07/05/2016",
+      "athlete_id": "CL15054",
+      "performance": "6:43.98",
+      "discipline": "1.000m Marxa SUB10 FEM.",
+      "wind": null,
+      "position": 6,
+      "internal_id": 1368
     }
   ]
 }

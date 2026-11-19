@@ -2,17 +2,27 @@
   "event_name": "Control Pista Coberta Sub16 (2a. jornada) - Control Pista Coberta Sub16 (2a. jornada)",
   "event_date": "23/01/2021",
   "event_location": "Barcelona - Palau Sant Jordi",
-  "total_results": 9,
+  "total_results": 11,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/2021/01/resultat-20210123-controlsub16pcbcnpsj.pdf",
   "results": [
     {
       "athlete_name": "Lluc Subiros Brasero",
       "athlete_dob": "06/01/2007",
       "athlete_id": "CL77331",
-      "performance": "11.42",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt MASC. PC",
+      "performance": "9.86",
+      "discipline": "60m tanques MASC. PC",
       "wind": null,
+      "position": null,
+      "internal_id": 899
+    },
+    {
+      "athlete_name": "Lluc Subiros Brasero",
+      "athlete_dob": "06/01/2007",
+      "athlete_id": "CL77331",
+      "performance": "11.42",
+      "discipline": "Triple Salt MASC. PC",
+      "wind": null,
+      "position": null,
       "internal_id": 899
     },
     {
@@ -20,9 +30,9 @@
       "athlete_dob": "06/01/2007",
       "athlete_id": "CL77331",
       "performance": "11.66",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt MASC. PC",
+      "discipline": "Triple Salt MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 899
     },
     {
@@ -30,9 +40,9 @@
       "athlete_dob": "06/01/2007",
       "athlete_id": "CL77331",
       "performance": "11.13",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt MASC. PC",
+      "discipline": "Triple Salt MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 899
     },
     {
@@ -40,19 +50,29 @@
       "athlete_dob": "06/01/2007",
       "athlete_id": "CL77331",
       "performance": "9.85",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt MASC. PC",
+      "discipline": "Triple Salt MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 899
     },
     {
       "athlete_name": "Silvia Vicente Navarrete",
       "athlete_dob": "31/07/2007",
       "athlete_id": "CL77332",
-      "performance": "9.75",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt FEM. PC",
+      "performance": "10.31",
+      "discipline": "60m tanques (0,762) FEM. PC",
       "wind": null,
+      "position": null,
+      "internal_id": 905
+    },
+    {
+      "athlete_name": "Silvia Vicente Navarrete",
+      "athlete_dob": "31/07/2007",
+      "athlete_id": "CL77332",
+      "performance": "9.75",
+      "discipline": "Triple Salt FEM. PC",
+      "wind": null,
+      "position": null,
       "internal_id": 905
     },
     {
@@ -60,9 +80,9 @@
       "athlete_dob": "31/07/2007",
       "athlete_id": "CL77332",
       "performance": "10.13",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt FEM. PC",
+      "discipline": "Triple Salt FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 905
     },
     {
@@ -70,9 +90,9 @@
       "athlete_dob": "31/07/2007",
       "athlete_id": "CL77332",
       "performance": "9.89",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt FEM. PC",
+      "discipline": "Triple Salt FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 905
     },
     {
@@ -80,9 +100,9 @@
       "athlete_dob": "31/07/2007",
       "athlete_id": "CL77332",
       "performance": "10.07",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt FEM. PC",
+      "discipline": "Triple Salt FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 905
     },
     {
@@ -90,9 +110,9 @@
       "athlete_dob": "31/07/2007",
       "athlete_id": "CL77332",
       "performance": "10.11",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt FEM. PC",
+      "discipline": "Triple Salt FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 905
     }
   ]

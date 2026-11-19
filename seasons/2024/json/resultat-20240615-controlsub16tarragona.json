@@ -1,49 +1,429 @@
 {
   "event_name": "Control sub16 - Pista de Atletismo de Camp Clar, 15 junio 2024",
   "event_date": "15/06/2024",
-  "event_location": "Camp Clar",
-  "total_results": 4,
+  "event_location": "Pista de Atletismo de Camp Clar",
+  "total_results": 42,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2024/06/resultat-20240615-controlsub16tarragona.pdf",
   "results": [
+    {
+      "athlete_name": "Unai Olaya Minguez",
+      "athlete_dob": "27/07/2009",
+      "athlete_id": "CL854",
+      "performance": "12.49",
+      "discipline": "100m MASC. AL",
+      "wind": "+1.4",
+      "position": null,
+      "internal_id": 1014
+    },
+    {
+      "athlete_name": "1 (t) Iker Rodriguez Barrios",
+      "athlete_dob": "11/08/2010",
+      "athlete_id": "CL11327",
+      "performance": "12.46",
+      "discipline": "100m MASC. AL",
+      "wind": "+0.9",
+      "position": null,
+      "internal_id": 1069
+    },
+    {
+      "athlete_name": "3 (t) Illan Tomas Batet",
+      "athlete_dob": "18/12/2009",
+      "athlete_id": "CL11106",
+      "performance": "13.13",
+      "discipline": "100m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1013
+    },
+    {
+      "athlete_name": "5 (t) Illan Tomas Batet",
+      "athlete_dob": "18/12/2009",
+      "athlete_id": "CL11106",
+      "performance": "0:42.48",
+      "discipline": "300m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1013
+    },
+    {
+      "athlete_name": "Unai Olaya Minguez",
+      "athlete_dob": "27/07/2009",
+      "athlete_id": "CL854",
+      "performance": "1:36.45",
+      "discipline": "600m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1014
+    },
+    {
+      "athlete_name": "2 Jeroni Flores Piñas",
+      "athlete_dob": "04/01/2009",
+      "athlete_id": "CT2935",
+      "performance": "14.73",
+      "discipline": "100m vallas (0,91) MASC. AL",
+      "wind": "+0.6",
+      "position": null,
+      "internal_id": 1036
+    },
+    {
+      "athlete_name": "5 (t) Pau Esteve Hostalot",
+      "athlete_dob": "27/08/2010",
+      "athlete_id": "CL94383",
+      "performance": "17.22",
+      "discipline": "100m vallas (0,91) MASC. AL",
+      "wind": "+0.6",
+      "position": null,
+      "internal_id": 1055
+    },
+    {
+      "athlete_name": "1 Jeroni Flores Piñas",
+      "athlete_dob": "04/01/2009",
+      "athlete_id": "CT2935",
+      "performance": "1.78",
+      "discipline": "Altura MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1036
+    },
+    {
+      "athlete_name": "9 (t) David Fernandez Pineda",
+      "athlete_dob": "18/06/2010",
+      "athlete_id": "CL11323",
+      "performance": "1.55",
+      "discipline": "Altura MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1078
+    },
+    {
+      "athlete_name": "12 (t) Iker Rodriguez Barrios",
+      "athlete_dob": "11/08/2010",
+      "athlete_id": "CL11327",
+      "performance": "1.45",
+      "discipline": "Altura MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1069
+    },
+    {
+      "athlete_name": "9 (t) Samuel Marcos Perez",
+      "athlete_dob": "01/02/2010",
+      "athlete_id": "CL90024",
+      "performance": "3.00",
+      "discipline": "Pértiga MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1071
+    },
+    {
+      "athlete_name": "5 (t) Pau Esteve Hostalot",
+      "athlete_dob": "27/08/2010",
+      "athlete_id": "CL94383",
+      "performance": "10.84",
+      "discipline": "Triple Salto MASC. AL",
+      "wind": "+0.0",
+      "position": null,
+      "internal_id": 1055
+    },
+    {
+      "athlete_name": "5 (t) Pau Esteve Hostalot",
+      "athlete_dob": "27/08/2010",
+      "athlete_id": "CL94383",
+      "performance": "10.47",
+      "discipline": "Triple Salto MASC. AL",
+      "wind": "+0.0",
+      "position": null,
+      "internal_id": 1055
+    },
+    {
+      "athlete_name": "5 (t) Pau Esteve Hostalot",
+      "athlete_dob": "27/08/2010",
+      "athlete_id": "CL94383",
+      "performance": "10.87",
+      "discipline": "Triple Salto MASC. AL",
+      "wind": "-1.2",
+      "position": null,
+      "internal_id": 1055
+    },
+    {
+      "athlete_name": "5 (t) Pau Esteve Hostalot",
+      "athlete_dob": "27/08/2010",
+      "athlete_id": "CL94383",
+      "performance": "10.72",
+      "discipline": "Triple Salto MASC. AL",
+      "wind": "-3.4",
+      "position": null,
+      "internal_id": 1055
+    },
+    {
+      "athlete_name": "5 (t) Pau Esteve Hostalot",
+      "athlete_dob": "27/08/2010",
+      "athlete_id": "CL94383",
+      "performance": "11.00",
+      "discipline": "Triple Salto MASC. AL",
+      "wind": "+0.7",
+      "position": null,
+      "internal_id": 1055
+    },
+    {
+      "athlete_name": "7 (t) Samuel Marcos Perez",
+      "athlete_dob": "01/02/2010",
+      "athlete_id": "CL90024",
+      "performance": "10.80",
+      "discipline": "Triple Salto MASC. AL",
+      "wind": "+1.2",
+      "position": null,
+      "internal_id": 1071
+    },
+    {
+      "athlete_name": "7 (t) Samuel Marcos Perez",
+      "athlete_dob": "01/02/2010",
+      "athlete_id": "CL90024",
+      "performance": "10.36",
+      "discipline": "Triple Salto MASC. AL",
+      "wind": "+0.1",
+      "position": null,
+      "internal_id": 1071
+    },
+    {
+      "athlete_name": "7 (t) Samuel Marcos Perez",
+      "athlete_dob": "01/02/2010",
+      "athlete_id": "CL90024",
+      "performance": "10.23",
+      "discipline": "Triple Salto MASC. AL",
+      "wind": "-3.9",
+      "position": null,
+      "internal_id": 1071
+    },
+    {
+      "athlete_name": "9 (t) David Fernandez Pineda",
+      "athlete_dob": "18/06/2010",
+      "athlete_id": "CL11323",
+      "performance": "10.56",
+      "discipline": "Triple Salto MASC. AL",
+      "wind": "-1.7",
+      "position": null,
+      "internal_id": 1078
+    },
+    {
+      "athlete_name": "9 (t) David Fernandez Pineda",
+      "athlete_dob": "18/06/2010",
+      "athlete_id": "CL11323",
+      "performance": "10.08",
+      "discipline": "Triple Salto MASC. AL",
+      "wind": "-0.7",
+      "position": null,
+      "internal_id": 1078
+    },
+    {
+      "athlete_name": "9 (t) David Fernandez Pineda",
+      "athlete_dob": "18/06/2010",
+      "athlete_id": "CL11323",
+      "performance": "9.90",
+      "discipline": "Triple Salto MASC. AL",
+      "wind": "+0.0",
+      "position": null,
+      "internal_id": 1078
+    },
+    {
+      "athlete_name": "13 (t) Jordi Bofarull Cot",
+      "athlete_dob": "27/06/2010",
+      "athlete_id": "CL4161",
+      "performance": "14.89",
+      "discipline": "Disco (1 Kg) MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 1076
+    },
+    {
+      "athlete_name": "4 Noa Anton Paterna",
+      "athlete_dob": "20/01/2010",
+      "athlete_id": "CT2934",
+      "performance": "0:43.90",
+      "discipline": "300m FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1016
+    },
+    {
+      "athlete_name": "1 (t) Olivia Ruiz Barbera",
+      "athlete_dob": "24/04/2009",
+      "athlete_id": "CL3439",
+      "performance": "0:44.94",
+      "discipline": "300m FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1018
+    },
+    {
+      "athlete_name": "1 (t) Nora Montolio Amaro",
+      "athlete_dob": "05/02/2010",
+      "athlete_id": "CL90841",
+      "performance": "0:44.35",
+      "discipline": "300m FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1089
+    },
     {
       "athlete_name": "Clara Ortiz De Landazuri Ontoso",
       "athlete_dob": "04/12/2009",
       "athlete_id": "CT2195",
-      "performance": "42.99",
-      "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "Disco (1kg) MASC.",
+      "performance": "1:42.99",
+      "discipline": "600m FEM. AL",
       "wind": null,
+      "position": null,
       "internal_id": 1022
     },
     {
       "athlete_name": "Diana García Mur",
       "athlete_dob": "23/02/2010",
       "athlete_id": "CL14508",
-      "performance": "58.86",
-      "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "Disco (1kg) MASC.",
+      "performance": "1:58.86",
+      "discipline": "600m FEM. AL",
       "wind": null,
+      "position": null,
       "internal_id": 1081
     },
     {
       "athlete_name": "Lucia Marcos Perez",
       "athlete_dob": "01/02/2010",
       "athlete_id": "CL3853",
-      "performance": "07.78",
-      "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "Disco (1kg) MASC.",
+      "performance": "2:07.78",
+      "discipline": "600m FEM. AL",
       "wind": null,
+      "position": null,
       "internal_id": 1073
     },
     {
       "athlete_name": "Duina Borreda Cervello",
       "athlete_dob": "26/12/2010",
       "athlete_id": "CL90830",
-      "performance": "30.95",
-      "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "Disco (1kg) MASC.",
+      "performance": "6:30.95",
+      "discipline": "1.500m Obst. FEM.",
       "wind": null,
+      "position": null,
       "internal_id": null
+    },
+    {
+      "athlete_name": "11 (t) Alba Guijarro Rom",
+      "athlete_dob": "08/07/2010",
+      "athlete_id": "CL90465",
+      "performance": "1.30",
+      "discipline": "Altura FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1074
+    },
+    {
+      "athlete_name": "4 Ona Sansa Garcia",
+      "athlete_dob": "31/05/2010",
+      "athlete_id": "CT2938",
+      "performance": "3.10",
+      "discipline": "Pértiga FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1015
+    },
+    {
+      "athlete_name": "23 (t) Paula Diez Plasencia",
+      "athlete_dob": "15/11/2010",
+      "athlete_id": "CL90832",
+      "performance": "8.56",
+      "discipline": "Triple Salto FEM. AL",
+      "wind": "+3.6",
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "23 (t) Paula Diez Plasencia",
+      "athlete_dob": "15/11/2010",
+      "athlete_id": "CL90832",
+      "performance": "8.93",
+      "discipline": "Triple Salto FEM. AL",
+      "wind": "-2.0",
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "23 (t) Paula Diez Plasencia",
+      "athlete_dob": "15/11/2010",
+      "athlete_id": "CL90832",
+      "performance": "8.89",
+      "discipline": "Triple Salto FEM. AL",
+      "wind": "-1.6",
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "5 Noa Nin Navas",
+      "athlete_dob": "28/08/2009",
+      "athlete_id": "CT2954",
+      "performance": "25.08",
+      "discipline": "Disco (800g) FEM.",
+      "wind": null,
+      "position": null,
+      "internal_id": 1010
+    },
+    {
+      "athlete_name": "5 Noa Nin Navas",
+      "athlete_dob": "28/08/2009",
+      "athlete_id": "CT2954",
+      "performance": "25.51",
+      "discipline": "Disco (800g) FEM.",
+      "wind": null,
+      "position": null,
+      "internal_id": 1010
+    },
+    {
+      "athlete_name": "5 Noa Nin Navas",
+      "athlete_dob": "28/08/2009",
+      "athlete_id": "CT2954",
+      "performance": "24.00",
+      "discipline": "Disco (800g) FEM.",
+      "wind": null,
+      "position": null,
+      "internal_id": 1010
+    },
+    {
+      "athlete_name": "5 Noa Nin Navas",
+      "athlete_dob": "28/08/2009",
+      "athlete_id": "CT2954",
+      "performance": "27.29",
+      "discipline": "Disco (800g) FEM.",
+      "wind": null,
+      "position": null,
+      "internal_id": 1010
+    },
+    {
+      "athlete_name": "Lucia Marcos Perez",
+      "athlete_dob": "01/02/2010",
+      "athlete_id": "CL3853",
+      "performance": "15.01",
+      "discipline": "Disco (800g) FEM.",
+      "wind": null,
+      "position": null,
+      "internal_id": 1073
+    },
+    {
+      "athlete_name": "Lucia Marcos Perez",
+      "athlete_dob": "01/02/2010",
+      "athlete_id": "CL3853",
+      "performance": "16.51",
+      "discipline": "Disco (800g) FEM.",
+      "wind": null,
+      "position": null,
+      "internal_id": 1073
+    },
+    {
+      "athlete_name": "Lucia Marcos Perez",
+      "athlete_dob": "01/02/2010",
+      "athlete_id": "CL3853",
+      "performance": "15.88",
+      "discipline": "Disco (800g) FEM.",
+      "wind": null,
+      "position": null,
+      "internal_id": 1073
     }
   ]
 }

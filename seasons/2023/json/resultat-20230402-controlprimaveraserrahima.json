@@ -2,17 +2,97 @@
   "event_name": "Control Primavera - Estadio Joan Serrahima, 2 abril 2023",
   "event_date": "02/04/2023",
   "event_location": "Barcelona-SE",
-  "total_results": 12,
+  "total_results": 21,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2023/04/resultat-20230402-controlprimaveraserrahima.pdf",
   "results": [
+    {
+      "athlete_name": "Hugo Jules Saiz Santolaria",
+      "athlete_dob": "31/01/2005",
+      "athlete_id": "CT469",
+      "performance": "12.60",
+      "discipline": "100m MASC. AL",
+      "wind": "-1.6",
+      "position": null,
+      "internal_id": 808
+    },
+    {
+      "athlete_name": "Lluc Subiros Brasero",
+      "athlete_dob": "06/01/2007",
+      "athlete_id": "CT1186",
+      "performance": "12.63",
+      "discipline": "100m MASC. AL",
+      "wind": "-0.8",
+      "position": null,
+      "internal_id": 899
+    },
+    {
+      "athlete_name": "Juan Carlos Herrera Alcaide",
+      "athlete_dob": "31/01/1973",
+      "athlete_id": "CT25152",
+      "performance": "12.95",
+      "discipline": "100m MASC. AL",
+      "wind": "-0.8",
+      "position": null,
+      "internal_id": 518
+    },
+    {
+      "athlete_name": "Josep Maria Mateo Sanz",
+      "athlete_dob": "17/11/1964",
+      "athlete_id": "CT19378",
+      "performance": "13.35",
+      "discipline": "100m MASC. AL",
+      "wind": "-3.6",
+      "position": null,
+      "internal_id": 343
+    },
+    {
+      "athlete_name": "Hugo Jules Saiz Santolaria",
+      "athlete_dob": "31/01/2005",
+      "athlete_id": "CT469",
+      "performance": "25.11",
+      "discipline": "200m MASC. AL",
+      "wind": "-1.1",
+      "position": null,
+      "internal_id": 808
+    },
+    {
+      "athlete_name": "Ricard Prio Roca",
+      "athlete_dob": "12/05/2004",
+      "athlete_id": "CL3014",
+      "performance": "0:54.14",
+      "discipline": "400m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 778
+    },
+    {
+      "athlete_name": "Juan Carlos Herrera Alcaide",
+      "athlete_dob": "31/01/1973",
+      "athlete_id": "CT25152",
+      "performance": "2:07.81",
+      "discipline": "800m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 518
+    },
+    {
+      "athlete_name": "31 (t) Xavier Ros Borrell 6",
+      "athlete_dob": "19/05/1998",
+      "athlete_id": "CL22779",
+      "performance": "NP",
+      "discipline": "1.500m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 439
+    },
     {
       "athlete_name": "Lluc Subiros Brasero",
       "athlete_dob": "06/01/2007",
       "athlete_id": "CT1186",
       "performance": "5.72",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada MASC. AL",
+      "discipline": "Llargada MASC. AL",
       "wind": "-3.6",
+      "position": null,
       "internal_id": 899
     },
     {
@@ -20,9 +100,9 @@
       "athlete_dob": "06/01/2007",
       "athlete_id": "CT1186",
       "performance": "5.39",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada MASC. AL",
+      "discipline": "Llargada MASC. AL",
       "wind": "-1.0",
+      "position": null,
       "internal_id": 899
     },
     {
@@ -30,9 +110,9 @@
       "athlete_dob": "06/01/2007",
       "athlete_id": "CT1186",
       "performance": "5.76",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada MASC. AL",
+      "discipline": "Llargada MASC. AL",
       "wind": "-2.3",
+      "position": null,
       "internal_id": 899
     },
     {
@@ -40,9 +120,9 @@
       "athlete_dob": "26/05/2003",
       "athlete_id": "CL29252",
       "performance": "5.39",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada MASC. AL",
+      "discipline": "Llargada MASC. AL",
       "wind": "-4.3",
+      "position": null,
       "internal_id": 714
     },
     {
@@ -50,9 +130,9 @@
       "athlete_dob": "26/05/2003",
       "athlete_id": "CL29252",
       "performance": "5.60",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada MASC. AL",
+      "discipline": "Llargada MASC. AL",
       "wind": "-3.4",
+      "position": null,
       "internal_id": 714
     },
     {
@@ -60,9 +140,9 @@
       "athlete_dob": "26/05/2003",
       "athlete_id": "CL29252",
       "performance": "5.28",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada MASC. AL",
+      "discipline": "Llargada MASC. AL",
       "wind": "-4.3",
+      "position": null,
       "internal_id": 714
     },
     {
@@ -70,9 +150,9 @@
       "athlete_dob": "26/05/2003",
       "athlete_id": "CL29252",
       "performance": "5.38",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada MASC. AL",
+      "discipline": "Llargada MASC. AL",
       "wind": "-2.1",
+      "position": null,
       "internal_id": 714
     },
     {
@@ -80,9 +160,9 @@
       "athlete_dob": "31/01/1973",
       "athlete_id": "CT25152",
       "performance": "5.02",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada MASC. AL",
+      "discipline": "Llargada MASC. AL",
       "wind": "+2.2",
+      "position": null,
       "internal_id": 518
     },
     {
@@ -90,9 +170,9 @@
       "athlete_dob": "31/01/1973",
       "athlete_id": "CT25152",
       "performance": "5.25",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada MASC. AL",
+      "discipline": "Llargada MASC. AL",
       "wind": "+3.6",
+      "position": null,
       "internal_id": 518
     },
     {
@@ -100,29 +180,39 @@
       "athlete_dob": "31/01/1973",
       "athlete_id": "CT25152",
       "performance": "5.32",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada MASC. AL",
+      "discipline": "Llargada MASC. AL",
       "wind": "+2.4",
+      "position": null,
       "internal_id": 518
     },
     {
       "athlete_name": "Claudia Mir Casellas",
       "athlete_dob": "02/08/2003",
       "athlete_id": "CT152",
-      "performance": "58.62",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "Javelina (800g) MASC.",
+      "performance": "0:58.62",
+      "discipline": "400m FEM. AL",
       "wind": null,
+      "position": null,
       "internal_id": 699
     },
     {
-      "athlete_name": "Camila Antonella Retamal Plaza",
+      "athlete_name": "Laura Yan Sole Barba",
+      "athlete_dob": "31/10/2003",
+      "athlete_id": "CT371",
+      "performance": "1:01.17",
+      "discipline": "400m FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 701
+    },
+    {
+      "athlete_name": "(t) Camila Antonella Retamal Plaza",
       "athlete_dob": "25/08/2005",
       "athlete_id": "CL11330",
-      "performance": "52.68",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "Javelina (800g) MASC.",
+      "performance": "2:52.68",
+      "discipline": "800m FEM. AL",
       "wind": null,
+      "position": null,
       "internal_id": 941
     }
   ]

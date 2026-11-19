@@ -1,8 +1,8 @@
 {
   "event_name": "6a. Jornada Control Absolut Pista Coberta - 6a. Jornada Control Absolut Pista Coberta",
   "event_date": "22/01/2017",
-  "event_location": "Sabadell",
-  "total_results": 4,
+  "event_location": "Club                                             Lic",
+  "total_results": 18,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20170122-controlabsolutpc.pdf",
   "results": [
     {
@@ -10,19 +10,29 @@
       "athlete_dob": "23/02/2000",
       "athlete_id": "CT24373",
       "performance": "7.31",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m MASC. PC",
+      "discipline": "60m MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 510
+    },
+    {
+      "athlete_name": "Alex Cruset Bosch",
+      "athlete_dob": "01/01/2001",
+      "athlete_id": "CL25705",
+      "performance": "7.65",
+      "discipline": "60m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 597
     },
     {
       "athlete_name": "Gerard Parera Bodi",
       "athlete_dob": "22/01/2000",
       "athlete_id": "CT25156",
       "performance": "0:52.46",
-      "discipline": "400 metres llisos",
-      "raw_discipline_name": "400m MASC. PC",
+      "discipline": "400m MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 522
     },
     {
@@ -30,20 +40,150 @@
       "athlete_dob": "01/01/2001",
       "athlete_id": "CL25705",
       "performance": "0:54.15",
-      "discipline": "400 metres llisos",
-      "raw_discipline_name": "400m MASC. PC",
+      "discipline": "400m MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 597
+    },
+    {
+      "athlete_name": "Jan Sans Riola",
+      "athlete_dob": "23/10/1998",
+      "athlete_id": "CT22783",
+      "performance": "8.65",
+      "discipline": "60m tanques MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 435
+    },
+    {
+      "athlete_name": "Jan Sans Riola",
+      "athlete_dob": "23/10/1998",
+      "athlete_id": "CT22783",
+      "performance": "8.43",
+      "discipline": "60m tanques MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 435
+    },
+    {
+      "athlete_name": "Ivan Benitez Lazcano",
+      "athlete_dob": "07/05/1989",
+      "athlete_id": "CL14095",
+      "performance": "9.12",
+      "discipline": "60m tanques MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 257
+    },
+    {
+      "athlete_name": "145 (t) Ivan Benitez Lazcano SM 4",
+      "athlete_dob": "07/05/1989",
+      "athlete_id": "CL14095",
+      "performance": "NP",
+      "discipline": "60m tanques MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 257
+    },
+    {
+      "athlete_name": "Mireia Lopez Urbano",
+      "athlete_dob": "07/12/2000",
+      "athlete_id": "CT23556",
+      "performance": "8.00",
+      "discipline": "60m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 527
     },
     {
       "athlete_name": "Mireia Lopez Urbano",
       "athlete_dob": "07/12/2000",
       "athlete_id": "CT23556",
       "performance": "8.02",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m FEM. PC",
+      "discipline": "60m FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 527
+    },
+    {
+      "athlete_name": "Andrea Lopez Urbano",
+      "athlete_dob": "19/07/1998",
+      "athlete_id": "CL22780",
+      "performance": "8.67",
+      "discipline": "60m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 437
+    },
+    {
+      "athlete_name": "Blanca Tortajada Pinto",
+      "athlete_dob": "21/04/1993",
+      "athlete_id": "CL18127",
+      "performance": "8.81",
+      "discipline": "60m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 310
+    },
+    {
+      "athlete_name": "Mireia Lopez Urbano",
+      "athlete_dob": "07/12/2000",
+      "athlete_id": "CT23556",
+      "performance": "1:02.29",
+      "discipline": "400m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 527
+    },
+    {
+      "athlete_name": "Maria Buscail Brianso",
+      "athlete_dob": "15/12/2000",
+      "athlete_id": "CL25158",
+      "performance": "1:05.49",
+      "discipline": "400m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 520
+    },
+    {
+      "athlete_name": "Sira Bo Calaf",
+      "athlete_dob": "19/03/2001",
+      "athlete_id": "CL26559",
+      "performance": "1:04.77",
+      "discipline": "400m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 599
+    },
+    {
+      "athlete_name": "Maria Alvarez Auños",
+      "athlete_dob": "14/08/1996",
+      "athlete_id": "CT20448",
+      "performance": "1.54",
+      "discipline": "Alçada FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 346
+    },
+    {
+      "athlete_name": "Blanca Tortajada Pinto",
+      "athlete_dob": "21/04/1993",
+      "athlete_id": "CL18127",
+      "performance": "3.98",
+      "discipline": "Llargada FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 310
+    },
+    {
+      "athlete_name": "Blanca Tortajada Pinto",
+      "athlete_dob": "21/04/1993",
+      "athlete_id": "CL18127",
+      "performance": "4.12",
+      "discipline": "Llargada FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 310
     }
   ]
 }

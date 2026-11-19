@@ -2,7 +2,7 @@
   "event_name": "Control Sub14 - Sub16",
   "event_date": "30/04/2022",
   "event_location": "Sabadell",
-  "total_results": 2,
+  "total_results": 5,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2022/05/resultat-20220430-controlsub1416sabadell.pdf",
   "results": [
     {
@@ -10,9 +10,9 @@
       "athlete_dob": "17/01/2008",
       "athlete_id": "CL81622",
       "performance": "52.23",
-      "discipline": "Javelina (600 g)",
-      "raw_discipline_name": "Jabalina SUB16 (600g) MASC.",
+      "discipline": "Jabalina SUB16 (600g) MASC.",
       "wind": null,
+      "position": null,
       "internal_id": 965
     },
     {
@@ -20,10 +20,40 @@
       "athlete_dob": "15/12/2008",
       "athlete_id": "CL77529",
       "performance": "49.55",
-      "discipline": "Javelina (600 g)",
-      "raw_discipline_name": "Jabalina SUB16 (600g) MASC.",
+      "discipline": "Jabalina SUB16 (600g) MASC.",
       "wind": null,
+      "position": null,
       "internal_id": 982
+    },
+    {
+      "athlete_name": "Ainoa Rodriguez Murillo",
+      "athlete_dob": "17/01/2008",
+      "athlete_id": "CL81622",
+      "performance": "4.28",
+      "discipline": "Longitud SUB16 FEM. AL",
+      "wind": "+2.2",
+      "position": null,
+      "internal_id": 965
+    },
+    {
+      "athlete_name": "Ainoa Rodriguez Murillo",
+      "athlete_dob": "17/01/2008",
+      "athlete_id": "CL81622",
+      "performance": "4.01",
+      "discipline": "Longitud SUB16 FEM. AL",
+      "wind": "+2.0",
+      "position": null,
+      "internal_id": 965
+    },
+    {
+      "athlete_name": "Ainoa Rodriguez Murillo",
+      "athlete_dob": "17/01/2008",
+      "athlete_id": "CL81622",
+      "performance": "3.71",
+      "discipline": "Longitud SUB16 FEM. AL",
+      "wind": "+2.2",
+      "position": null,
+      "internal_id": 965
     }
   ]
 }

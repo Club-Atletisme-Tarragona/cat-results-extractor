@@ -2,17 +2,47 @@
   "event_name": "Campionat Catalunya Sub20",
   "event_date": "03/07/2022",
   "event_location": "Lleida",
-  "total_results": 3,
+  "total_results": 12,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2022/07/resultat-20220703-catsub20allleida.pdf",
   "results": [
+    {
+      "athlete_name": "Pablo Angel Fernandez",
+      "athlete_dob": "26/01/2003",
+      "athlete_id": "CT28510",
+      "performance": "14.83",
+      "discipline": "110m tanques (1,00) MASC. AL",
+      "wind": "-0.6",
+      "position": null,
+      "internal_id": 704
+    },
+    {
+      "athlete_name": "Pablo Angel Fernandez",
+      "athlete_dob": "26/01/2003",
+      "athlete_id": "CT28510",
+      "performance": "14.61",
+      "discipline": "110m tanques (1,00) MASC. AL",
+      "wind": "+3.5",
+      "position": 3,
+      "internal_id": 704
+    },
+    {
+      "athlete_name": "Oscar Lefler Cortes",
+      "athlete_dob": "19/02/2004",
+      "athlete_id": "CL96852",
+      "performance": "10:22.43",
+      "discipline": "3.000m Obst. MASC.",
+      "wind": null,
+      "position": 1,
+      "internal_id": 758
+    },
     {
       "athlete_name": "Nil Pinyol Mateu",
       "athlete_dob": "26/05/2003",
       "athlete_id": "CL29252",
       "performance": "5.80",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada MASC. AL",
+      "discipline": "Llargada MASC. AL",
       "wind": "+0.0",
+      "position": 10,
       "internal_id": 714
     },
     {
@@ -20,9 +50,9 @@
       "athlete_dob": "26/05/2003",
       "athlete_id": "CL29252",
       "performance": "5.89",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada MASC. AL",
+      "discipline": "Llargada MASC. AL",
       "wind": "+0.0",
+      "position": 10,
       "internal_id": 714
     },
     {
@@ -30,10 +60,70 @@
       "athlete_dob": "26/05/2003",
       "athlete_id": "CL29252",
       "performance": "5.68",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada MASC. AL",
+      "discipline": "Llargada MASC. AL",
       "wind": "+0.0",
+      "position": 10,
       "internal_id": 714
+    },
+    {
+      "athlete_name": "Nil Pinyol Mateu",
+      "athlete_dob": "26/05/2003",
+      "athlete_id": "CL29252",
+      "performance": "11.76",
+      "discipline": "Triple Salt MASC. AL",
+      "wind": "+1.4",
+      "position": 8,
+      "internal_id": 714
+    },
+    {
+      "athlete_name": "Nil Pinyol Mateu",
+      "athlete_dob": "26/05/2003",
+      "athlete_id": "CL29252",
+      "performance": "12.05",
+      "discipline": "Triple Salt MASC. AL",
+      "wind": "+1.2",
+      "position": 8,
+      "internal_id": 714
+    },
+    {
+      "athlete_name": "Nil Pinyol Mateu",
+      "athlete_dob": "26/05/2003",
+      "athlete_id": "CL29252",
+      "performance": "11.84",
+      "discipline": "Triple Salt MASC. AL",
+      "wind": "+1.6",
+      "position": 8,
+      "internal_id": 714
+    },
+    {
+      "athlete_name": "Nil Pinyol Mateu",
+      "athlete_dob": "26/05/2003",
+      "athlete_id": "CL29252",
+      "performance": "11.83",
+      "discipline": "Triple Salt MASC. AL",
+      "wind": "+0.0",
+      "position": 8,
+      "internal_id": 714
+    },
+    {
+      "athlete_name": "Claudia Mir Casellas",
+      "athlete_dob": "02/08/2003",
+      "athlete_id": "CT152",
+      "performance": "1:04.07",
+      "discipline": "400m tanques (0,762) FEM. AL",
+      "wind": null,
+      "position": 2,
+      "internal_id": 699
+    },
+    {
+      "athlete_name": "Carla Gonzalez Carrillo",
+      "athlete_dob": "05/06/2003",
+      "athlete_id": "CT27282",
+      "performance": "12:23.85",
+      "discipline": "3.000m Obst. FEM.",
+      "wind": null,
+      "position": 3,
+      "internal_id": 698
     }
   ]
 }

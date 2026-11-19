@@ -2,7 +2,7 @@
   "event_name": "",
   "event_date": "19/05/2019",
   "event_location": "El Prat de Llobregat",
-  "total_results": 5,
+  "total_results": 28,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20190519-catclubssub16elprat.pdf",
   "results": [
     {
@@ -10,19 +10,169 @@
       "athlete_dob": "14/09/2005",
       "athlete_id": "CL71751",
       "performance": "1.36",
-      "discipline": "Alçada",
-      "raw_discipline_name": "ALÇADA SUB16 FEMENI",
+      "discipline": "ALÇADA SUB16 FEMENI",
       "wind": null,
+      "position": null,
       "internal_id": 807
+    },
+    {
+      "athlete_name": "Laia Aldave Mas",
+      "athlete_dob": "29/01/2005",
+      "athlete_id": "CL71683",
+      "performance": "2.20",
+      "discipline": "PERXA SUB16 FEMENI",
+      "wind": null,
+      "position": null,
+      "internal_id": 800
+    },
+    {
+      "athlete_name": "Natalia Sanchez Alvarez",
+      "athlete_dob": "28/05/2005",
+      "athlete_id": "CT29768",
+      "performance": "4.69",
+      "discipline": "LLARGADA SUB16 FEMENI",
+      "wind": "-0.4",
+      "position": null,
+      "internal_id": 796
+    },
+    {
+      "athlete_name": "Natalia Sanchez Alvarez",
+      "athlete_dob": "28/05/2005",
+      "athlete_id": "CT29768",
+      "performance": "4.61",
+      "discipline": "LLARGADA SUB16 FEMENI",
+      "wind": "-1.7",
+      "position": null,
+      "internal_id": 796
+    },
+    {
+      "athlete_name": "Natalia Sanchez Alvarez",
+      "athlete_dob": "28/05/2005",
+      "athlete_id": "CT29768",
+      "performance": "4.52",
+      "discipline": "LLARGADA SUB16 FEMENI",
+      "wind": "-1.5",
+      "position": null,
+      "internal_id": 796
+    },
+    {
+      "athlete_name": "Martina Prats Casado",
+      "athlete_dob": "28/09/2004",
+      "athlete_id": "CL94419",
+      "performance": "9.59",
+      "discipline": "TRIPLE SALT SUB16 FEMENI",
+      "wind": "-1.9",
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Martina Prats Casado",
+      "athlete_dob": "28/09/2004",
+      "athlete_id": "CL94419",
+      "performance": "9.27",
+      "discipline": "TRIPLE SALT SUB16 FEMENI",
+      "wind": "-0.8",
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Martina Prats Casado",
+      "athlete_dob": "28/09/2004",
+      "athlete_id": "CL94419",
+      "performance": "9.05",
+      "discipline": "TRIPLE SALT SUB16 FEMENI",
+      "wind": "-2.2",
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Abril Llop Pajero",
+      "athlete_dob": "16/01/2005",
+      "athlete_id": "CL90512",
+      "performance": "7.41",
+      "discipline": "PES SUB16 FEMENI",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Abril Llop Pajero",
+      "athlete_dob": "16/01/2005",
+      "athlete_id": "CL90512",
+      "performance": "7.21",
+      "discipline": "PES SUB16 FEMENI",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Abril Llop Pajero",
+      "athlete_dob": "16/01/2005",
+      "athlete_id": "CL90512",
+      "performance": "6.91",
+      "discipline": "PES SUB16 FEMENI",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Lara Herrera Vallve",
+      "athlete_dob": "07/04/2005",
+      "athlete_id": "CL82414",
+      "performance": "24.58",
+      "discipline": "DISC SUB16 FEMENI",
+      "wind": null,
+      "position": null,
+      "internal_id": 813
+    },
+    {
+      "athlete_name": "Lara Herrera Vallve",
+      "athlete_dob": "07/04/2005",
+      "athlete_id": "CL82414",
+      "performance": "18.59",
+      "discipline": "DISC SUB16 FEMENI",
+      "wind": null,
+      "position": null,
+      "internal_id": 813
+    },
+    {
+      "athlete_name": "Lara Herrera Vallve",
+      "athlete_dob": "07/04/2005",
+      "athlete_id": "CL82414",
+      "performance": "23.14",
+      "discipline": "MARTELL SUB16 FEMENI",
+      "wind": null,
+      "position": null,
+      "internal_id": 813
+    },
+    {
+      "athlete_name": "Lara Herrera Vallve",
+      "athlete_dob": "07/04/2005",
+      "athlete_id": "CL82414",
+      "performance": "22.43",
+      "discipline": "MARTELL SUB16 FEMENI",
+      "wind": null,
+      "position": null,
+      "internal_id": 813
+    },
+    {
+      "athlete_name": "Lara Herrera Vallve",
+      "athlete_dob": "07/04/2005",
+      "athlete_id": "CL82414",
+      "performance": "21.18",
+      "discipline": "MARTELL SUB16 FEMENI",
+      "wind": null,
+      "position": null,
+      "internal_id": 813
     },
     {
       "athlete_name": "Berta Pomes Cabello",
       "athlete_dob": "02/02/2005",
       "athlete_id": "CL69339",
       "performance": "16.11",
-      "discipline": "Javelina (600 g)",
-      "raw_discipline_name": "JAVELINA SUB16 FEMENI",
+      "discipline": "JAVELINA SUB16 FEMENI",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -30,9 +180,9 @@
       "athlete_dob": "02/02/2005",
       "athlete_id": "CL69339",
       "performance": "14.91",
-      "discipline": "Javelina (600 g)",
-      "raw_discipline_name": "JAVELINA SUB16 FEMENI",
+      "discipline": "JAVELINA SUB16 FEMENI",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -40,9 +190,9 @@
       "athlete_dob": "02/02/2005",
       "athlete_id": "CL69339",
       "performance": "15.30",
-      "discipline": "Javelina (600 g)",
-      "raw_discipline_name": "JAVELINA SUB16 FEMENI",
+      "discipline": "JAVELINA SUB16 FEMENI",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -50,10 +200,90 @@
       "athlete_dob": "28/12/2005",
       "athlete_id": "CL82419",
       "performance": "20:30.42",
-      "discipline": "3000 metres marxa",
-      "raw_discipline_name": "3000 METRES MARXA SUB16 FEMENI",
+      "discipline": "3000 METRES MARXA SUB16 FEMENI",
       "wind": null,
+      "position": null,
       "internal_id": null
+    },
+    {
+      "athlete_name": "Leire Dominguez Izaga",
+      "athlete_dob": "18/08/2004",
+      "athlete_id": "CT29769",
+      "performance": "55.51",
+      "discipline": "4X100 SUB16 FEMENI",
+      "wind": null,
+      "position": null,
+      "internal_id": 743
+    },
+    {
+      "athlete_name": "Elia Fonts Anguera",
+      "athlete_dob": "27/01/2004",
+      "athlete_id": "CL82678",
+      "performance": "55.51",
+      "discipline": "4X100 SUB16 FEMENI",
+      "wind": null,
+      "position": null,
+      "internal_id": 729
+    },
+    {
+      "athlete_name": "Martina Prats Casado",
+      "athlete_dob": "28/09/2004",
+      "athlete_id": "CL94419",
+      "performance": "55.51",
+      "discipline": "4X100 SUB16 FEMENI",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Lucia Mayolas Martinez",
+      "athlete_dob": "04/10/2004",
+      "athlete_id": "CL71720",
+      "performance": "55.51",
+      "discipline": "4X100 SUB16 FEMENI",
+      "wind": null,
+      "position": null,
+      "internal_id": 728
+    },
+    {
+      "athlete_name": "Laia Aldave Mas",
+      "athlete_dob": "29/01/2005",
+      "athlete_id": "CL71683",
+      "performance": "3:18.05",
+      "discipline": "4X300 SUB16 FEMENI",
+      "wind": null,
+      "position": null,
+      "internal_id": 800
+    },
+    {
+      "athlete_name": "Audrey-marianne Deconninck Urbano",
+      "athlete_dob": "26/08/2004",
+      "athlete_id": "CL90502",
+      "performance": "3:18.05",
+      "discipline": "4X300 SUB16 FEMENI",
+      "wind": null,
+      "position": null,
+      "internal_id": 755
+    },
+    {
+      "athlete_name": "Natalia Sanchez Alvarez",
+      "athlete_dob": "28/05/2005",
+      "athlete_id": "CT29768",
+      "performance": "3:18.05",
+      "discipline": "4X300 SUB16 FEMENI",
+      "wind": null,
+      "position": null,
+      "internal_id": 796
+    },
+    {
+      "athlete_name": "Laura Santos Martinez",
+      "athlete_dob": "14/09/2005",
+      "athlete_id": "CL71751",
+      "performance": "3:18.05",
+      "discipline": "4X300 SUB16 FEMENI",
+      "wind": null,
+      "position": null,
+      "internal_id": 807
     }
   ]
 }

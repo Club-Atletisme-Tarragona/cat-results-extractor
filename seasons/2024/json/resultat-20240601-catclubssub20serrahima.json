@@ -2,17 +2,117 @@
   "event_name": "Campionat Catalunya de Clubs Sub20 - Estadio Joan Serrahima, 1 junio 2024",
   "event_date": "01/06/2024",
   "event_location": "Barcelona-SE",
-  "total_results": 6,
+  "total_results": 39,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2024/06/resultat-20240601-catclubssub20serrahima.pdf",
   "results": [
+    {
+      "athlete_name": "Victor Jimenez Garcia 3 10.5",
+      "athlete_dob": "25/05/2008",
+      "athlete_id": "CT1465",
+      "performance": "11.55",
+      "discipline": "100m MASC. AL",
+      "wind": "-0.4",
+      "position": null,
+      "internal_id": 958
+    },
+    {
+      "athlete_name": "Hugo Jules Saiz Santolaria",
+      "athlete_dob": "31/01/2005",
+      "athlete_id": "CT469",
+      "performance": "23.44",
+      "discipline": "200m MASC. AL",
+      "wind": "+1.3",
+      "position": null,
+      "internal_id": 808
+    },
+    {
+      "athlete_name": "Joan Martorell Escobar",
+      "athlete_dob": "22/03/2007",
+      "athlete_id": "CT1651",
+      "performance": "0:52.17",
+      "discipline": "400m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 914
+    },
+    {
+      "athlete_name": "Isaac Aguilo Carrilo",
+      "athlete_dob": "15/01/2007",
+      "athlete_id": "CT2372",
+      "performance": "2:19.90",
+      "discipline": "800m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 921
+    },
+    {
+      "athlete_name": "Matias Hernandez Sanchez",
+      "athlete_dob": "26/12/2008",
+      "athlete_id": "CT2196",
+      "performance": "17.03",
+      "discipline": "110m tanques (1,00) MASC. AL",
+      "wind": "+2.5",
+      "position": null,
+      "internal_id": 999
+    },
+    {
+      "athlete_name": "Matias Hernandez Sanchez",
+      "athlete_dob": "26/12/2008",
+      "athlete_id": "CT2196",
+      "performance": "1:07.01",
+      "discipline": "400m tanques (0,91) MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 999
+    },
+    {
+      "athlete_name": "Jeroni Flores Piñas",
+      "athlete_dob": "04/01/2009",
+      "athlete_id": "CT2935",
+      "performance": "1.70",
+      "discipline": "Alçada MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1036
+    },
+    {
+      "athlete_name": "Lluc Subiros Brasero",
+      "athlete_dob": "06/01/2007",
+      "athlete_id": "CT1186",
+      "performance": "4.15",
+      "discipline": "Perxa MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 899
+    },
+    {
+      "athlete_name": "Victor Jimenez Garcia",
+      "athlete_dob": "25/05/2008",
+      "athlete_id": "CT1465",
+      "performance": "6.19",
+      "discipline": "Llargada MASC. AL",
+      "wind": "+0.3",
+      "position": null,
+      "internal_id": 958
+    },
+    {
+      "athlete_name": "Victor Jimenez Garcia",
+      "athlete_dob": "25/05/2008",
+      "athlete_id": "CT1465",
+      "performance": "6.10",
+      "discipline": "Llargada MASC. AL",
+      "wind": "+1.5",
+      "position": null,
+      "internal_id": 958
+    },
     {
       "athlete_name": "Pau Esteve Hostalot",
       "athlete_dob": "27/08/2010",
       "athlete_id": "CL94383",
       "performance": "10.38",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt MASC. AL",
+      "discipline": "Triple Salt MASC. AL",
       "wind": "+1.5",
+      "position": null,
       "internal_id": 1055
     },
     {
@@ -20,9 +120,9 @@
       "athlete_dob": "27/08/2010",
       "athlete_id": "CL94383",
       "performance": "10.76",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt MASC. AL",
+      "discipline": "Triple Salt MASC. AL",
       "wind": "+1.8",
+      "position": null,
       "internal_id": 1055
     },
     {
@@ -30,19 +130,179 @@
       "athlete_dob": "27/08/2010",
       "athlete_id": "CL94383",
       "performance": "11.07",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt MASC. AL",
+      "discipline": "Triple Salt MASC. AL",
       "wind": "+2.1",
+      "position": null,
       "internal_id": 1055
+    },
+    {
+      "athlete_name": "Pau Crespo Beltran",
+      "athlete_dob": "22/10/2008",
+      "athlete_id": "CT1650",
+      "performance": "12.18",
+      "discipline": "Pes (6 Kg) MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 971
+    },
+    {
+      "athlete_name": "Pau Crespo Beltran",
+      "athlete_dob": "22/10/2008",
+      "athlete_id": "CT1650",
+      "performance": "12.41",
+      "discipline": "Pes (6 Kg) MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 971
+    },
+    {
+      "athlete_name": "Pau Crespo Beltran",
+      "athlete_dob": "22/10/2008",
+      "athlete_id": "CT1650",
+      "performance": "32.54",
+      "discipline": "Disc (1,750 Kg) MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 971
+    },
+    {
+      "athlete_name": "Pau Crespo Beltran",
+      "athlete_dob": "22/10/2008",
+      "athlete_id": "CT1650",
+      "performance": "31.07",
+      "discipline": "Disc (1,750 Kg) MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 971
+    },
+    {
+      "athlete_name": "Lluc Subiros Brasero",
+      "athlete_dob": "06/01/2007",
+      "athlete_id": "CT1186",
+      "performance": "40.75",
+      "discipline": "Javelina (800g) MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 899
+    },
+    {
+      "athlete_name": "Lluc Subiros Brasero",
+      "athlete_dob": "06/01/2007",
+      "athlete_id": "CT1186",
+      "performance": "38.57",
+      "discipline": "Javelina (800g) MASC.",
+      "wind": null,
+      "position": null,
+      "internal_id": 899
+    },
+    {
+      "athlete_name": "Olivia Ruiz Barbera",
+      "athlete_dob": "24/04/2009",
+      "athlete_id": "CL3439",
+      "performance": "13.51",
+      "discipline": "100m FEM. AL",
+      "wind": "+0.1",
+      "position": null,
+      "internal_id": 1018
+    },
+    {
+      "athlete_name": "Maria Antonietta Salazar",
+      "athlete_dob": "03/01/2006",
+      "athlete_id": "CT2176",
+      "performance": "25.67",
+      "discipline": "200m FEM. AL",
+      "wind": "+1.8",
+      "position": null,
+      "internal_id": 897
+    },
+    {
+      "athlete_name": "Sofia Rubio Reunis",
+      "athlete_dob": "15/02/2007",
+      "athlete_id": "CT7092",
+      "performance": "1:06.97",
+      "discipline": "400m FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 935
+    },
+    {
+      "athlete_name": "Iris Garrido Garcia",
+      "athlete_dob": "15/12/2008",
+      "athlete_id": "CT1617",
+      "performance": "2:25.41",
+      "discipline": "800m FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 982
+    },
+    {
+      "athlete_name": "45 Anna Artero Fernandez 11",
+      "athlete_dob": "14/11/2006",
+      "athlete_id": "CT2389",
+      "performance": "NP",
+      "discipline": "1.500m FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 847
+    },
+    {
+      "athlete_name": "Noemi Gonzalez Carrillo",
+      "athlete_dob": "04/04/2009",
+      "athlete_id": "CL86462",
+      "performance": "12:34.60",
+      "discipline": "3.000m FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1030
+    },
+    {
+      "athlete_name": "Sofia Lara Girbes",
+      "athlete_dob": "28/02/2006",
+      "athlete_id": "CL90511",
+      "performance": "20.88",
+      "discipline": "100m tanques (0,84) FEM. AL",
+      "wind": "+1.2",
+      "position": null,
+      "internal_id": 835
+    },
+    {
+      "athlete_name": "Carla Borras Verges-tapiro",
+      "athlete_dob": "19/11/2008",
+      "athlete_id": "CT3054",
+      "performance": "1:16.02",
+      "discipline": "400m tanques (0,762) FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 951
+    },
+    {
+      "athlete_name": "Sofia Rubio Reunis",
+      "athlete_dob": "15/02/2007",
+      "athlete_id": "CT7092",
+      "performance": "1.60",
+      "discipline": "Alçada FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 935
+    },
+    {
+      "athlete_name": "Ona Sansa Garcia",
+      "athlete_dob": "31/05/2010",
+      "athlete_id": "CT2938",
+      "performance": "3.00",
+      "discipline": "Perxa FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1015
     },
     {
       "athlete_name": "Natalia Sanchez Alvarez",
       "athlete_dob": "28/05/2005",
       "athlete_id": "CT29768",
       "performance": "5.04",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada FEM. AL",
+      "discipline": "Llargada FEM. AL",
       "wind": "-0.1",
+      "position": null,
       "internal_id": 796
     },
     {
@@ -50,9 +310,9 @@
       "athlete_dob": "17/01/2008",
       "athlete_id": "CT1619",
       "performance": "9.89",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt FEM. AL",
+      "discipline": "Triple Salt FEM. AL",
       "wind": "+1.3",
+      "position": null,
       "internal_id": 965
     },
     {
@@ -60,10 +320,80 @@
       "athlete_dob": "17/01/2008",
       "athlete_id": "CT1619",
       "performance": "9.88",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt FEM. AL",
+      "discipline": "Triple Salt FEM. AL",
       "wind": "+0.4",
+      "position": null,
       "internal_id": 965
+    },
+    {
+      "athlete_name": "Lara Herrera Vallve",
+      "athlete_dob": "07/04/2005",
+      "athlete_id": "CT513",
+      "performance": "7.42",
+      "discipline": "Pes (4 Kg) FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 813
+    },
+    {
+      "athlete_name": "Lara Herrera Vallve",
+      "athlete_dob": "07/04/2005",
+      "athlete_id": "CT513",
+      "performance": "7.32",
+      "discipline": "Pes (4 Kg) FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 813
+    },
+    {
+      "athlete_name": "Lara Herrera Vallve",
+      "athlete_dob": "07/04/2005",
+      "athlete_id": "CT513",
+      "performance": "7.60",
+      "discipline": "Pes (4 Kg) FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 813
+    },
+    {
+      "athlete_name": "Laia Cabrero Perez",
+      "athlete_dob": "10/10/2008",
+      "athlete_id": "CL94529",
+      "performance": "13.16",
+      "discipline": "Martell (4 Kg) FEM.",
+      "wind": null,
+      "position": null,
+      "internal_id": 954
+    },
+    {
+      "athlete_name": "Silvia Vicente Navarrete",
+      "athlete_dob": "31/07/2007",
+      "athlete_id": "CT1468",
+      "performance": "20.64",
+      "discipline": "javelina (600g) FEM.",
+      "wind": null,
+      "position": null,
+      "internal_id": 905
+    },
+    {
+      "athlete_name": "Silvia Vicente Navarrete",
+      "athlete_dob": "31/07/2007",
+      "athlete_id": "CT1468",
+      "performance": "21.09",
+      "discipline": "javelina (600g) FEM.",
+      "wind": null,
+      "position": null,
+      "internal_id": 905
+    },
+    {
+      "athlete_name": "Silvia Vicente Navarrete",
+      "athlete_dob": "31/07/2007",
+      "athlete_id": "CT1468",
+      "performance": "22.08",
+      "discipline": "javelina (600g) FEM.",
+      "wind": null,
+      "position": null,
+      "internal_id": 905
     }
   ]
 }

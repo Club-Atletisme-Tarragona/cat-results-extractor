@@ -1,18 +1,38 @@
 {
   "event_name": "Jornada Prèvia Campionat de Catalunya Sub12 - Gavà - Estadi Municipal La Bóbila, 1 junio 2024",
   "event_date": "01/06/2024",
-  "event_location": "Gavà",
-  "total_results": 7,
+  "event_location": "Gavà - Estadi Municipal La Bóbila",
+  "total_results": 22,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2024/06/resultat-20240601-catsub12previagava.pdf",
   "results": [
+    {
+      "athlete_name": "Nil Torres Prats",
+      "athlete_dob": "05/10/2014",
+      "athlete_id": "CL7611",
+      "performance": "1.18",
+      "discipline": "Alçada SUB12MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1341
+    },
+    {
+      "athlete_name": "Kilian Pedrol Espinosa",
+      "athlete_dob": "24/02/2013",
+      "athlete_id": "CL7676",
+      "performance": "1.18",
+      "discipline": "Alçada SUB12MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1361
+    },
     {
       "athlete_name": "Kilian Borreda Cervello",
       "athlete_dob": "09/05/2013",
       "athlete_id": "CL4060",
       "performance": "4.39",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada SUB12 MASC. AL",
+      "discipline": "Llargada SUB12 MASC. AL",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -20,9 +40,9 @@
       "athlete_dob": "09/05/2013",
       "athlete_id": "CL4060",
       "performance": "4.52",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada SUB12 MASC. AL",
+      "discipline": "Llargada SUB12 MASC. AL",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -30,19 +50,49 @@
       "athlete_dob": "09/05/2013",
       "athlete_id": "CL4060",
       "performance": "4.64",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada SUB12 MASC. AL",
+      "discipline": "Llargada SUB12 MASC. AL",
       "wind": null,
+      "position": null,
       "internal_id": null
+    },
+    {
+      "athlete_name": "Marti Gonzalez Ceresuela",
+      "athlete_dob": "18/09/2013",
+      "athlete_id": "CL4347",
+      "performance": "5.73",
+      "discipline": "Pes (2 Kg) SUB12 MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1328
+    },
+    {
+      "athlete_name": "Marti Gonzalez Ceresuela",
+      "athlete_dob": "18/09/2013",
+      "athlete_id": "CL4347",
+      "performance": "5.36",
+      "discipline": "Pes (2 Kg) SUB12 MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1328
+    },
+    {
+      "athlete_name": "Marti Gonzalez Ceresuela",
+      "athlete_dob": "18/09/2013",
+      "athlete_id": "CL4347",
+      "performance": "5.92",
+      "discipline": "Pes (2 Kg) SUB12 MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1328
     },
     {
       "athlete_name": "Antonio Balazote",
       "athlete_dob": "01/05/2014",
       "athlete_id": "CL11067",
       "performance": "13.36",
-      "discipline": "Disc (600 g)",
-      "raw_discipline_name": "Disc (600g) SUB12 MASC. AL",
+      "discipline": "Disc (600g) SUB12 MASC. AL",
       "wind": null,
+      "position": null,
       "internal_id": 1370
     },
     {
@@ -50,9 +100,9 @@
       "athlete_dob": "01/05/2014",
       "athlete_id": "CL11067",
       "performance": "15.21",
-      "discipline": "Disc (600 g)",
-      "raw_discipline_name": "Disc (600g) SUB12 MASC. AL",
+      "discipline": "Disc (600g) SUB12 MASC. AL",
       "wind": null,
+      "position": null,
       "internal_id": 1370
     },
     {
@@ -60,20 +110,120 @@
       "athlete_dob": "01/05/2014",
       "athlete_id": "CL11067",
       "performance": "13.41",
-      "discipline": "Disc (600 g)",
-      "raw_discipline_name": "Disc (600g) SUB12 MASC. AL",
+      "discipline": "Disc (600g) SUB12 MASC. AL",
       "wind": null,
+      "position": null,
       "internal_id": 1370
+    },
+    {
+      "athlete_name": "437 (e) (t) Vivian Onyemaekwu 3",
+      "athlete_dob": "14/10/2013",
+      "athlete_id": "CL6109",
+      "performance": "NP",
+      "discipline": "2.000m Marxa SUB12 MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
     },
     {
       "athlete_name": "Berta Barber Gonzalez",
       "athlete_dob": "22/01/2013",
       "athlete_id": "CL7610",
       "performance": "7:31.31",
-      "discipline": "2000 metres marxa",
-      "raw_discipline_name": "2.000m Marxa SUB12 MASC. AL",
+      "discipline": "2.000m Marxa SUB12 MASC. AL",
       "wind": null,
+      "position": null,
       "internal_id": 1359
+    },
+    {
+      "athlete_name": "Berta Barber Gonzalez",
+      "athlete_dob": "22/01/2013",
+      "athlete_id": "CL7610",
+      "performance": "1.23",
+      "discipline": "Alçada SUB12 FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 1359
+    },
+    {
+      "athlete_name": "437 (e) (t) Vivian Onyemaekwu",
+      "athlete_dob": "14/10/2013",
+      "athlete_id": "CL6109",
+      "performance": "NP",
+      "discipline": "Alçada SUB12 FEM. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Erika Margallo Del Valle",
+      "athlete_dob": "27/11/2014",
+      "athlete_id": "CL15267",
+      "performance": "11.47",
+      "discipline": "Disc (600g) SUB12 FEM.",
+      "wind": null,
+      "position": null,
+      "internal_id": 1388
+    },
+    {
+      "athlete_name": "Erika Margallo Del Valle",
+      "athlete_dob": "27/11/2014",
+      "athlete_id": "CL15267",
+      "performance": "11.04",
+      "discipline": "Disc (600g) SUB12 FEM.",
+      "wind": null,
+      "position": null,
+      "internal_id": 1388
+    },
+    {
+      "athlete_name": "Erika Margallo Del Valle",
+      "athlete_dob": "27/11/2014",
+      "athlete_id": "CL15267",
+      "performance": "16.06",
+      "discipline": "Disc (600g) SUB12 FEM.",
+      "wind": null,
+      "position": null,
+      "internal_id": 1388
+    },
+    {
+      "athlete_name": "Alba Esteve Hostalot",
+      "athlete_dob": "10/11/2013",
+      "athlete_id": "CL4396",
+      "performance": "14.12",
+      "discipline": "Disc (600g) SUB12 FEM.",
+      "wind": null,
+      "position": null,
+      "internal_id": 1335
+    },
+    {
+      "athlete_name": "Alba Esteve Hostalot",
+      "athlete_dob": "10/11/2013",
+      "athlete_id": "CL4396",
+      "performance": "13.06",
+      "discipline": "Disc (600g) SUB12 FEM.",
+      "wind": null,
+      "position": null,
+      "internal_id": 1335
+    },
+    {
+      "athlete_name": "Alba Esteve Hostalot",
+      "athlete_dob": "10/11/2013",
+      "athlete_id": "CL4396",
+      "performance": "15.15",
+      "discipline": "Disc (600g) SUB12 FEM.",
+      "wind": null,
+      "position": null,
+      "internal_id": 1335
+    },
+    {
+      "athlete_name": "Erika Margallo Del Valle",
+      "athlete_dob": "27/11/2014",
+      "athlete_id": "CL15267",
+      "performance": "13.44",
+      "discipline": "Javelina (300g) SUB12 FEM",
+      "wind": null,
+      "position": null,
+      "internal_id": 1388
     }
   ]
 }

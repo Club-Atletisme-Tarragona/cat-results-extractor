@@ -2,18 +2,37 @@
   "event_name": " - Míting Internacional de Catalunya en Pista Coberta",
   "event_date": "08/02/2021",
   "event_location": "Barcelona - Palau Sant Jordi",
-  "total_results": 6,
+  "total_results": 8,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/2021/02/resultat-20210208-mitingintcatpcbcnpsj.pdf",
   "results": [
+    {
+      "athlete_name": "Mireia Lopez Urbano PF",
+      "athlete_dob": "07/12/2000",
+      "athlete_id": "CT23556",
+      "performance": "8.78",
+      "discipline": "60m tanques (0,84) FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 527
+    },
+    {
+      "athlete_name": "Mireia Lopez Urbano",
+      "athlete_dob": "07/12/2000",
+      "athlete_id": "CT23556",
+      "performance": "8.74",
+      "discipline": "60m tanques (0,84) FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 527
+    },
     {
       "athlete_name": "Laurine Elisa Marimon Fernandez",
       "athlete_dob": "17/09/2004",
       "athlete_id": "CT28409",
       "performance": "11.73",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt FEM. PC",
+      "discipline": "Triple Salt FEM. PC",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/2021/02/resultat-20210208-mitingintcatpcbcnpsj.pdf",
+      "position": null,
       "internal_id": 737
     },
     {
@@ -21,10 +40,9 @@
       "athlete_dob": "17/09/2004",
       "athlete_id": "CT28409",
       "performance": "11.88",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt FEM. PC",
+      "discipline": "Triple Salt FEM. PC",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/2021/02/resultat-20210208-mitingintcatpcbcnpsj.pdf",
+      "position": null,
       "internal_id": 737
     },
     {
@@ -32,10 +50,9 @@
       "athlete_dob": "17/09/2004",
       "athlete_id": "CT28409",
       "performance": "11.89",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt FEM. PC",
+      "discipline": "Triple Salt FEM. PC",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/2021/02/resultat-20210208-mitingintcatpcbcnpsj.pdf",
+      "position": null,
       "internal_id": 737
     },
     {
@@ -43,10 +60,9 @@
       "athlete_dob": "17/09/2004",
       "athlete_id": "CT28409",
       "performance": "11.83",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt FEM. PC",
+      "discipline": "Triple Salt FEM. PC",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/2021/02/resultat-20210208-mitingintcatpcbcnpsj.pdf",
+      "position": null,
       "internal_id": 737
     },
     {
@@ -54,10 +70,9 @@
       "athlete_dob": "17/09/2004",
       "athlete_id": "CT28409",
       "performance": "11.93",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt FEM. PC",
+      "discipline": "Triple Salt FEM. PC",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/2021/02/resultat-20210208-mitingintcatpcbcnpsj.pdf",
+      "position": null,
       "internal_id": 737
     },
     {
@@ -65,10 +80,9 @@
       "athlete_dob": "17/09/2004",
       "athlete_id": "CT28409",
       "performance": "12.00",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt FEM. PC",
+      "discipline": "Triple Salt FEM. PC",
       "wind": null,
-      "event_src": "http://fcatletisme.cat/wp-content/uploads/2021/02/resultat-20210208-mitingintcatpcbcnpsj.pdf",
+      "position": null,
       "internal_id": 737
     }
   ]

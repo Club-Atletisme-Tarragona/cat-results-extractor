@@ -2,7 +2,7 @@
   "event_name": "",
   "event_date": "19/05/2019",
   "event_location": "El Prat de Llobregat",
-  "total_results": 3,
+  "total_results": 18,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20190519-catclubssub10elprat.pdf",
   "results": [
     {
@@ -10,9 +10,9 @@
       "athlete_dob": "12/10/2011",
       "athlete_id": "CL94935",
       "performance": "3.02",
-      "discipline": "Llargada",
-      "raw_discipline_name": "LLARGADA SUB10 MASCULÍ",
+      "discipline": "LLARGADA SUB10 MASCULÍ",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -20,9 +20,9 @@
       "athlete_dob": "03/03/2011",
       "athlete_id": "CL94414",
       "performance": "17.34",
-      "discipline": "Llargada",
-      "raw_discipline_name": "LLARGADA SUB10 MASCULÍ",
+      "discipline": "LLARGADA SUB10 MASCULÍ",
       "wind": null,
+      "position": null,
       "internal_id": null
     },
     {
@@ -30,10 +30,160 @@
       "athlete_dob": "03/03/2011",
       "athlete_id": "CL94414",
       "performance": "18.37",
-      "discipline": "Llargada",
-      "raw_discipline_name": "LLARGADA SUB10 MASCULÍ",
+      "discipline": "LLARGADA SUB10 MASCULÍ",
       "wind": null,
+      "position": null,
       "internal_id": null
+    },
+    {
+      "athlete_name": "Leo Sanchez Fernandez",
+      "athlete_dob": "03/10/2011",
+      "athlete_id": "CL94411",
+      "performance": "7:43.36",
+      "discipline": "1000 METRES MARXA SUB10 MASCULÍ",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Iker Costa Bakker",
+      "athlete_dob": "12/10/2011",
+      "athlete_id": "CL94935",
+      "performance": "41.51",
+      "discipline": "4x60m SUB10 MASCULÍ",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Pau Esteve Hostalot",
+      "athlete_dob": "27/08/2010",
+      "athlete_id": "CL94383",
+      "performance": "41.51",
+      "discipline": "4x60m SUB10 MASCULÍ",
+      "wind": null,
+      "position": null,
+      "internal_id": 1055
+    },
+    {
+      "athlete_name": "Leo Sanchez Fernandez",
+      "athlete_dob": "03/10/2011",
+      "athlete_id": "CL94411",
+      "performance": "41.51",
+      "discipline": "4x60m SUB10 MASCULÍ",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Marçal Sinfreu Niubo",
+      "athlete_dob": "03/03/2011",
+      "athlete_id": "CL94414",
+      "performance": "41.51",
+      "discipline": "4x60m SUB10 MASCULÍ",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Nora Montolio Amaro",
+      "athlete_dob": "05/02/2010",
+      "athlete_id": "CL90841",
+      "performance": "3.12",
+      "discipline": "LLARGADA SUB10 FEMENI",
+      "wind": null,
+      "position": null,
+      "internal_id": 1089
+    },
+    {
+      "athlete_name": "Nora Montolio Amaro",
+      "athlete_dob": "05/02/2010",
+      "athlete_id": "CL90841",
+      "performance": "3.00",
+      "discipline": "LLARGADA SUB10 FEMENI",
+      "wind": null,
+      "position": null,
+      "internal_id": 1089
+    },
+    {
+      "athlete_name": "Claudia Sanchez Fernandez",
+      "athlete_dob": "03/01/2010",
+      "athlete_id": "CL90843",
+      "performance": "13.73",
+      "discipline": "LLARGADA SUB10 FEMENI",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Claudia Sanchez Fernandez",
+      "athlete_dob": "03/01/2010",
+      "athlete_id": "CL90843",
+      "performance": "13.66",
+      "discipline": "LLARGADA SUB10 FEMENI",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Claudia Sanchez Fernandez",
+      "athlete_dob": "03/01/2010",
+      "athlete_id": "CL90843",
+      "performance": "12.62",
+      "discipline": "LLARGADA SUB10 FEMENI",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Paula Diez Plasencia",
+      "athlete_dob": "15/11/2010",
+      "athlete_id": "CL90832",
+      "performance": "5:52.40",
+      "discipline": "1000 METRES MARXA SUB10 FEMENI",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Claudia Sanchez Fernandez",
+      "athlete_dob": "03/01/2010",
+      "athlete_id": "CL90843",
+      "performance": "42.82",
+      "discipline": "4X60 SUB10 FEMENI",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Lara Garcia Mur",
+      "athlete_dob": "23/10/2011",
+      "athlete_id": "CL94385",
+      "performance": "42.82",
+      "discipline": "4X60 SUB10 FEMENI",
+      "wind": null,
+      "position": null,
+      "internal_id": 1324
+    },
+    {
+      "athlete_name": "Irene De La Rosa Fortuny",
+      "athlete_dob": "07/03/2011",
+      "athlete_id": "CL94381",
+      "performance": "42.82",
+      "discipline": "4X60 SUB10 FEMENI",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Maria Ferran Jimenez",
+      "athlete_dob": "05/04/2011",
+      "athlete_id": "CL94384",
+      "performance": "42.82",
+      "discipline": "4X60 SUB10 FEMENI",
+      "wind": null,
+      "position": null,
+      "internal_id": 1325
     }
   ]
 }

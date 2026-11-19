@@ -1,8 +1,8 @@
 {
   "event_name": "Control Pista Coberta Sub20 - Sub18 - 3a. jornada - Control Pista Coberta Sub20 - Sub18 - 3a. jornada",
   "event_date": "18/01/2020",
-  "event_location": "Sabadell",
-  "total_results": 4,
+  "event_location": "Club                                               Lic",
+  "total_results": 5,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20200118-controlsub1820pcsabadell.pdf",
   "results": [
     {
@@ -10,9 +10,9 @@
       "athlete_dob": "08/04/2002",
       "athlete_id": "CL27846",
       "performance": "5.46",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada SUB20 MASC. PC",
+      "discipline": "Llargada SUB20 MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 653
     },
     {
@@ -20,9 +20,9 @@
       "athlete_dob": "08/04/2002",
       "athlete_id": "CL27846",
       "performance": "5.08",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada SUB20 MASC. PC",
+      "discipline": "Llargada SUB20 MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 653
     },
     {
@@ -30,9 +30,9 @@
       "athlete_dob": "08/04/2002",
       "athlete_id": "CL27846",
       "performance": "5.29",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada SUB20 MASC. PC",
+      "discipline": "Llargada SUB20 MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 653
     },
     {
@@ -40,10 +40,20 @@
       "athlete_dob": "08/04/2002",
       "athlete_id": "CL27846",
       "performance": "4.10",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada SUB20 MASC. PC",
+      "discipline": "Llargada SUB20 MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 653
+    },
+    {
+      "athlete_name": "Carla Gonzalez Carrillo",
+      "athlete_dob": "05/06/2003",
+      "athlete_id": "CL29242",
+      "performance": "2:41.45",
+      "discipline": "800m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 698
     }
   ]
 }

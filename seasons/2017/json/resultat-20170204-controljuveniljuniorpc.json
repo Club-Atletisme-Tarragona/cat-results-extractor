@@ -1,18 +1,48 @@
 {
   "event_name": "Control Juvenil Junior en Pista Coberta (4a. Jornada) - Control Juvenil Junior en Pista Coberta (4a. Jornada)",
   "event_date": "04/02/2017",
-  "event_location": "Sabadell",
-  "total_results": 6,
+  "event_location": "Club                                              Lic",
+  "total_results": 24,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20170204-controljuveniljuniorpc.pdf",
   "results": [
+    {
+      "athlete_name": "Albert Casadó Vieco",
+      "athlete_dob": "16/09/2000",
+      "athlete_id": "CL26565",
+      "performance": "7.80",
+      "discipline": "60m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 596
+    },
+    {
+      "athlete_name": "Albert Gene Fernandez",
+      "athlete_dob": "07/03/1999",
+      "athlete_id": "CL25467",
+      "performance": "7.92",
+      "discipline": "60m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 544
+    },
+    {
+      "athlete_name": "Victor Sanchez Domingo",
+      "athlete_dob": "08/09/2001",
+      "athlete_id": "CL26563",
+      "performance": "8.18",
+      "discipline": "60m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 577
+    },
     {
       "athlete_name": "Andrea Lopez Urbano",
       "athlete_dob": "19/07/1998",
       "athlete_id": "CL22780",
       "performance": "8.67",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m FEM. PC",
+      "discipline": "60m FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 437
     },
     {
@@ -20,9 +50,9 @@
       "athlete_dob": "19/07/2001",
       "athlete_id": "CL26562",
       "performance": "9.02",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m FEM. PC",
+      "discipline": "60m FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 582
     },
     {
@@ -30,9 +60,99 @@
       "athlete_dob": "10/01/1999",
       "athlete_id": "CL26564",
       "performance": "9.57",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m FEM. PC",
+      "discipline": "60m FEM. PC",
       "wind": null,
+      "position": null,
+      "internal_id": 592
+    },
+    {
+      "athlete_name": "Alex Cruset Bosch",
+      "athlete_dob": "01/01/2001",
+      "athlete_id": "CL25705",
+      "performance": "0:53.97",
+      "discipline": "400m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 597
+    },
+    {
+      "athlete_name": "Albert Casadó Vieco",
+      "athlete_dob": "16/09/2000",
+      "athlete_id": "CL26565",
+      "performance": "0:58.08",
+      "discipline": "400m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 596
+    },
+    {
+      "athlete_name": "Victor Sanchez Domingo",
+      "athlete_dob": "08/09/2001",
+      "athlete_id": "CL26563",
+      "performance": "0:59.42",
+      "discipline": "400m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 577
+    },
+    {
+      "athlete_name": "Maria Buscail Brianso",
+      "athlete_dob": "15/12/2000",
+      "athlete_id": "CL25158",
+      "performance": "1:04.97",
+      "discipline": "400m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 520
+    },
+    {
+      "athlete_name": "Nerea Lago Garbajosa",
+      "athlete_dob": "15/05/2000",
+      "athlete_id": "CL25157",
+      "performance": "1:09.68",
+      "discipline": "400m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 534
+    },
+    {
+      "athlete_name": "Mireia Lopez Urbano",
+      "athlete_dob": "07/12/2000",
+      "athlete_id": "CT23556",
+      "performance": "8.78",
+      "discipline": "60m tanques JUV FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 527
+    },
+    {
+      "athlete_name": "77 (t) Sira Bo Calaf LF 5",
+      "athlete_dob": "19/03/2001",
+      "athlete_id": "CL26559",
+      "performance": "NP",
+      "discipline": "60m tanques JUV FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 599
+    },
+    {
+      "athlete_name": "Alex Cruset Bosch",
+      "athlete_dob": "01/01/2001",
+      "athlete_id": "CL25705",
+      "performance": "8.88",
+      "discipline": "60m tanques JUV MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 597
+    },
+    {
+      "athlete_name": "Andrea Bueno Gil",
+      "athlete_dob": "10/01/1999",
+      "athlete_id": "CL26564",
+      "performance": "3.83",
+      "discipline": "Llargada JUN FEM. PC",
+      "wind": null,
+      "position": null,
       "internal_id": 592
     },
     {
@@ -40,9 +160,9 @@
       "athlete_dob": "19/07/2001",
       "athlete_id": "CL26562",
       "performance": "4.28",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada JUV FEM. PC",
+      "discipline": "Llargada JUV FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 582
     },
     {
@@ -50,9 +170,9 @@
       "athlete_dob": "19/07/2001",
       "athlete_id": "CL26562",
       "performance": "4.00",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada JUV FEM. PC",
+      "discipline": "Llargada JUV FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 582
     },
     {
@@ -60,10 +180,70 @@
       "athlete_dob": "19/07/2001",
       "athlete_id": "CL26562",
       "performance": "4.14",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada JUV FEM. PC",
+      "discipline": "Llargada JUV FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 582
+    },
+    {
+      "athlete_name": "Albert Gene Fernandez",
+      "athlete_dob": "07/03/1999",
+      "athlete_id": "CL25467",
+      "performance": "9.70",
+      "discipline": "Triple Salt MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 544
+    },
+    {
+      "athlete_name": "Albert Gene Fernandez",
+      "athlete_dob": "07/03/1999",
+      "athlete_id": "CL25467",
+      "performance": "9.86",
+      "discipline": "Triple Salt MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 544
+    },
+    {
+      "athlete_name": "Albert Gene Fernandez",
+      "athlete_dob": "07/03/1999",
+      "athlete_id": "CL25467",
+      "performance": "9.67",
+      "discipline": "Triple Salt MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 544
+    },
+    {
+      "athlete_name": "Albert Gene Fernandez",
+      "athlete_dob": "07/03/1999",
+      "athlete_id": "CL25467",
+      "performance": "9.69",
+      "discipline": "Triple Salt MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 544
+    },
+    {
+      "athlete_name": "Albert Gene Fernandez",
+      "athlete_dob": "07/03/1999",
+      "athlete_id": "CL25467",
+      "performance": "10.03",
+      "discipline": "Triple Salt MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 544
+    },
+    {
+      "athlete_name": "Albert Gene Fernandez",
+      "athlete_dob": "07/03/1999",
+      "athlete_id": "CL25467",
+      "performance": "9.88",
+      "discipline": "Triple Salt MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 544
     }
   ]
 }

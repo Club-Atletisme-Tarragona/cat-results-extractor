@@ -1,8 +1,8 @@
 {
   "event_name": " - Sabadell (Pista Coberta de Catalunya), 5 marzo 2017",
   "event_date": "05/03/2017",
-  "event_location": "Sabadell",
-  "total_results": 3,
+  "event_location": "Club                                             Lic",
+  "total_results": 13,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20170305-catcadetpc.pdf",
   "results": [
     {
@@ -10,9 +10,9 @@
       "athlete_dob": "02/01/2002",
       "athlete_id": "CT25944",
       "performance": "7.70",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m MASC. PC",
+      "discipline": "60m MASC. PC",
       "wind": null,
+      "position": null,
       "internal_id": 645
     },
     {
@@ -20,9 +20,19 @@
       "athlete_dob": "02/10/2002",
       "athlete_id": "CT27089",
       "performance": "7.62",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m MASC. PC",
+      "discipline": "60m MASC. PC",
       "wind": null,
+      "position": null,
+      "internal_id": 1023
+    },
+    {
+      "athlete_name": "Mario Sanchez Alvarez",
+      "athlete_dob": "02/10/2002",
+      "athlete_id": "CT27089",
+      "performance": "7.61",
+      "discipline": "60m MASC. PC",
+      "wind": null,
+      "position": 8,
       "internal_id": 1023
     },
     {
@@ -30,10 +40,100 @@
       "athlete_dob": "31/10/2003",
       "athlete_id": "CL71752",
       "performance": "8.36",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m FEM. PC",
+      "discipline": "60m FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 701
+    },
+    {
+      "athlete_name": "Aleix Lago Garbajosa",
+      "athlete_dob": "26/09/2002",
+      "athlete_id": "CL71714",
+      "performance": "1:34.40",
+      "discipline": "600m MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 660
+    },
+    {
+      "athlete_name": "Carla Gonzalez Carrillo",
+      "athlete_dob": "05/06/2003",
+      "athlete_id": "CL82680",
+      "performance": "1:46.28",
+      "discipline": "600m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 698
+    },
+    {
+      "athlete_name": "Mar Vazquez Domingo",
+      "athlete_dob": "17/03/2002",
+      "athlete_id": "CL71756",
+      "performance": "10.23",
+      "discipline": "60m tanques FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 642
+    },
+    {
+      "athlete_name": "Mario Sanchez Alvarez",
+      "athlete_dob": "02/10/2002",
+      "athlete_id": "CT27089",
+      "performance": "9.48",
+      "discipline": "60m tanques MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1023
+    },
+    {
+      "athlete_name": "Mario Sanchez Alvarez",
+      "athlete_dob": "02/10/2002",
+      "athlete_id": "CT27089",
+      "performance": "9.71",
+      "discipline": "60m tanques MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 1023
+    },
+    {
+      "athlete_name": "Bernat Verdu Gomez",
+      "athlete_dob": "02/01/2002",
+      "athlete_id": "CT25944",
+      "performance": "8.80",
+      "discipline": "60m tanques MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 645
+    },
+    {
+      "athlete_name": "Bernat Verdu Gomez",
+      "athlete_dob": "02/01/2002",
+      "athlete_id": "CT25944",
+      "performance": "8.83",
+      "discipline": "60m tanques MASC. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 645
+    },
+    {
+      "athlete_name": "Maria Falco Cuenca",
+      "athlete_dob": "14/06/2002",
+      "athlete_id": "CL71705",
+      "performance": "1.53",
+      "discipline": "Alçada FEM. PC",
+      "wind": null,
+      "position": 3,
+      "internal_id": 664
+    },
+    {
+      "athlete_name": "Berta Sanchez Ruiz",
+      "athlete_dob": "05/08/2002",
+      "athlete_id": "CL71750",
+      "performance": "2.65",
+      "discipline": "Perxa FEM. PC",
+      "wind": null,
+      "position": 10,
+      "internal_id": 643
     }
   ]
 }

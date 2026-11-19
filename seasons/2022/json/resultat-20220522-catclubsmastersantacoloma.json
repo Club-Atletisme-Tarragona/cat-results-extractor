@@ -2,17 +2,127 @@
   "event_name": "Campionat Catalunya Clubs Màster HOMES",
   "event_date": "22/05/2022",
   "event_location": "Santa Coloma de Gramenet",
-  "total_results": 10,
+  "total_results": 34,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2022/05/resultat-20220522-catclubsmastersantacoloma.pdf",
   "results": [
+    {
+      "athlete_name": "Didac Rios Meseguer",
+      "athlete_dob": "19/04/1985",
+      "athlete_id": "CT14019",
+      "performance": "75.86",
+      "discipline": "100 metres llisos Masculí",
+      "wind": "+2.8",
+      "position": null,
+      "internal_id": 193
+    },
+    {
+      "athlete_name": "Josep Maria Puig Lara",
+      "athlete_dob": "30/11/1951",
+      "athlete_id": "CT27228",
+      "performance": "80.00",
+      "discipline": "200 metres llisos Masculí",
+      "wind": "+3.2",
+      "position": null,
+      "internal_id": 637
+    },
+    {
+      "athlete_name": "Valentin Izaga Lopez",
+      "athlete_dob": "09/11/1972",
+      "athlete_id": "CL8922",
+      "performance": "82.10",
+      "discipline": "400 metres llisos Masculí",
+      "wind": null,
+      "position": null,
+      "internal_id": 700
+    },
+    {
+      "athlete_name": "Francisco Javier Baz Vidal",
+      "athlete_dob": "02/12/1969",
+      "athlete_id": "CL8459",
+      "performance": "1:20.92",
+      "discipline": "400 metres tanques (0,84) Masculí",
+      "wind": null,
+      "position": null,
+      "internal_id": 887
+    },
+    {
+      "athlete_name": "Pedro Ortega Ridao",
+      "athlete_dob": "12/10/1977",
+      "athlete_id": "CL16079",
+      "performance": "2:11.20",
+      "discipline": "800 metres llisos Masculí",
+      "wind": null,
+      "position": null,
+      "internal_id": 268
+    },
+    {
+      "athlete_name": "Jose Francisco Garcia Navarrete",
+      "athlete_dob": "24/09/1967",
+      "athlete_id": "CL3972",
+      "performance": "5:16.83",
+      "discipline": "1.500 metres llisos Masculí",
+      "wind": null,
+      "position": null,
+      "internal_id": 5
+    },
+    {
+      "athlete_name": "Jesus Gellida Albiol",
+      "athlete_dob": "21/06/1980",
+      "athlete_id": "CL3135",
+      "performance": "10:48.48",
+      "discipline": "3.000 metres llisos Masculí",
+      "wind": null,
+      "position": null,
+      "internal_id": 772
+    },
+    {
+      "athlete_name": "Isidro Lopez Balleste",
+      "athlete_dob": "09/03/1981",
+      "athlete_id": "CL14088",
+      "performance": "57.02",
+      "discipline": "300 metres tanques (0.762)",
+      "wind": null,
+      "position": null,
+      "internal_id": 202
+    },
+    {
+      "athlete_name": "Luis Saez Perez",
+      "athlete_dob": "01/03/1949",
+      "athlete_id": "CT17487",
+      "performance": "8.21",
+      "discipline": "Pes Masculí (4 Kg)",
+      "wind": null,
+      "position": null,
+      "internal_id": 304
+    },
+    {
+      "athlete_name": "Luis Saez Perez",
+      "athlete_dob": "01/03/1949",
+      "athlete_id": "CT17487",
+      "performance": "7.95",
+      "discipline": "Pes Masculí (4 Kg)",
+      "wind": null,
+      "position": null,
+      "internal_id": 304
+    },
+    {
+      "athlete_name": "Luis Saez Perez",
+      "athlete_dob": "01/03/1949",
+      "athlete_id": "CT17487",
+      "performance": "8.06",
+      "discipline": "Pes Masculí (4 Kg)",
+      "wind": null,
+      "position": null,
+      "internal_id": 304
+    },
     {
       "athlete_name": "Josep Maria Mateo Sanz",
       "athlete_dob": "17/11/1964",
       "athlete_id": "CT19378",
       "performance": "5.00",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Salt de Llargada Masculí",
+      "discipline": "Salt de Llargada Masculí",
       "wind": "+1.2",
+      "position": null,
       "internal_id": 343
     },
     {
@@ -20,9 +130,9 @@
       "athlete_dob": "17/11/1964",
       "athlete_id": "CT19378",
       "performance": "4.76",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Salt de Llargada Masculí",
+      "discipline": "Salt de Llargada Masculí",
       "wind": "+1.5",
+      "position": null,
       "internal_id": 343
     },
     {
@@ -30,9 +140,9 @@
       "athlete_dob": "17/11/1964",
       "athlete_id": "CT19378",
       "performance": "4.89",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Salt de Llargada Masculí",
+      "discipline": "Salt de Llargada Masculí",
       "wind": "+2.1",
+      "position": null,
       "internal_id": 343
     },
     {
@@ -40,9 +150,9 @@
       "athlete_dob": "17/11/1964",
       "athlete_id": "CT19378",
       "performance": "4.85",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Salt de Llargada Masculí",
+      "discipline": "Salt de Llargada Masculí",
       "wind": "+1.9",
+      "position": null,
       "internal_id": 343
     },
     {
@@ -50,19 +160,79 @@
       "athlete_dob": "17/11/1964",
       "athlete_id": "CT19378",
       "performance": "4.78",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Salt de Llargada Masculí",
+      "discipline": "Salt de Llargada Masculí",
       "wind": "+2.9",
+      "position": null,
       "internal_id": 343
+    },
+    {
+      "athlete_name": "Francesc Mosquera Pages",
+      "athlete_dob": "07/09/1956",
+      "athlete_id": "CT1501",
+      "performance": "34.04",
+      "discipline": "Javelina Masculí (600gr)",
+      "wind": null,
+      "position": null,
+      "internal_id": 855
+    },
+    {
+      "athlete_name": "Francesc Mosquera Pages",
+      "athlete_dob": "07/09/1956",
+      "athlete_id": "CT1501",
+      "performance": "34.32",
+      "discipline": "Javelina Masculí (600gr)",
+      "wind": null,
+      "position": null,
+      "internal_id": 855
+    },
+    {
+      "athlete_name": "Francesc Mosquera Pages",
+      "athlete_dob": "07/09/1956",
+      "athlete_id": "CT1501",
+      "performance": "34.40",
+      "discipline": "Javelina Masculí (600gr)",
+      "wind": null,
+      "position": null,
+      "internal_id": 855
+    },
+    {
+      "athlete_name": "Francesc Mosquera Pages",
+      "athlete_dob": "07/09/1956",
+      "athlete_id": "CT1501",
+      "performance": "34.18",
+      "discipline": "Javelina Masculí (600gr)",
+      "wind": null,
+      "position": null,
+      "internal_id": 855
+    },
+    {
+      "athlete_name": "Francesc Mosquera Pages",
+      "athlete_dob": "07/09/1956",
+      "athlete_id": "CT1501",
+      "performance": "32.80",
+      "discipline": "Javelina Masculí (600gr)",
+      "wind": null,
+      "position": null,
+      "internal_id": 855
+    },
+    {
+      "athlete_name": "Francesc Mosquera Pages",
+      "athlete_dob": "07/09/1956",
+      "athlete_id": "CT1501",
+      "performance": "34.84",
+      "discipline": "Javelina Masculí (600gr)",
+      "wind": null,
+      "position": null,
+      "internal_id": 855
     },
     {
       "athlete_name": "Josep Maria Mateo Sanz",
       "athlete_dob": "17/11/1964",
       "athlete_id": "CT19378",
       "performance": "9.47",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt Masculí",
+      "discipline": "Triple Salt Masculí",
       "wind": "-0.9",
+      "position": null,
       "internal_id": 343
     },
     {
@@ -70,9 +240,9 @@
       "athlete_dob": "17/11/1964",
       "athlete_id": "CT19378",
       "performance": "9.43",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt Masculí",
+      "discipline": "Triple Salt Masculí",
       "wind": "+0.2",
+      "position": null,
       "internal_id": 343
     },
     {
@@ -80,9 +250,9 @@
       "athlete_dob": "17/11/1964",
       "athlete_id": "CT19378",
       "performance": "9.38",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt Masculí",
+      "discipline": "Triple Salt Masculí",
       "wind": "+0.0",
+      "position": null,
       "internal_id": 343
     },
     {
@@ -90,9 +260,9 @@
       "athlete_dob": "17/11/1964",
       "athlete_id": "CT19378",
       "performance": "9.35",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt Masculí",
+      "discipline": "Triple Salt Masculí",
       "wind": "-0.3",
+      "position": null,
       "internal_id": 343
     },
     {
@@ -100,10 +270,80 @@
       "athlete_dob": "17/11/1964",
       "athlete_id": "CT19378",
       "performance": "9.63",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt Masculí",
+      "discipline": "Triple Salt Masculí",
       "wind": "-0.1",
+      "position": null,
       "internal_id": 343
+    },
+    {
+      "athlete_name": "Pedro Vacas Campos",
+      "athlete_dob": "10/04/1961",
+      "athlete_id": "CL25864",
+      "performance": "23.08",
+      "discipline": "Disc Masculí (1 Kg)",
+      "wind": null,
+      "position": null,
+      "internal_id": 197
+    },
+    {
+      "athlete_name": "Pedro Vacas Campos",
+      "athlete_dob": "10/04/1961",
+      "athlete_id": "CL25864",
+      "performance": "30.52",
+      "discipline": "Disc Masculí (1 Kg)",
+      "wind": null,
+      "position": null,
+      "internal_id": 197
+    },
+    {
+      "athlete_name": "Josep Maria Puig Lara",
+      "athlete_dob": "30/11/1951",
+      "athlete_id": "CT27228",
+      "performance": "56.22",
+      "discipline": "4x100 Masculí",
+      "wind": null,
+      "position": null,
+      "internal_id": 637
+    },
+    {
+      "athlete_name": "Francisco Javier Baz Vidal",
+      "athlete_dob": "02/12/1969",
+      "athlete_id": "CL8459",
+      "performance": "56.22",
+      "discipline": "4x100 Masculí",
+      "wind": null,
+      "position": null,
+      "internal_id": 887
+    },
+    {
+      "athlete_name": "Pere Pardines Gras",
+      "athlete_dob": "30/01/1965",
+      "athlete_id": "CT9121",
+      "performance": "56.22",
+      "discipline": "4x100 Masculí",
+      "wind": null,
+      "position": null,
+      "internal_id": 71
+    },
+    {
+      "athlete_name": "Valentin Izaga Lopez",
+      "athlete_dob": "09/11/1972",
+      "athlete_id": "CL8922",
+      "performance": "56.22",
+      "discipline": "4x100 Masculí",
+      "wind": null,
+      "position": null,
+      "internal_id": 700
+    },
+    {
+      "athlete_name": "Josep Maria Puig Lara",
+      "athlete_dob": "30/11/1951",
+      "athlete_id": "CT27228",
+      "performance": "15.40",
+      "discipline": "100 metres llisos Masculí",
+      "wind": "+2.3",
+      "position": null,
+      "internal_id": 637
     }
   ]
 }

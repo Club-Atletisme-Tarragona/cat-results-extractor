@@ -1546,7 +1546,7 @@ def map_discipline(raw: str, event_name: str, filename: str, athlete_name: str =
     if m:
         dist = int(m.group(1).replace(".", ""))
         table = {1000: "1000 metres marxa", 2000: "2000 metres marxa", 3000: "3000 metres marxa",
-                 5000: "5000 metres marxa", 10000: "10 km marxa"}
+                 5000: "5000 metres marxa", 10000: "10.000 metres marxa"}  # id 49 in DISCIPLINES.md
         return table.get(dist), (None if dist in table else "unknown marxa distance")
 
     # "X METRES <cat/gender>" without LLISOS (e.g. "3000 METRES MASCULÍ")

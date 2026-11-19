@@ -2302,6 +2302,33 @@ def find_name_line(lines, result_line_idx, sec_start):
     return None, None
 
 
+def normalize_mmsscc_time(marca, prova):
+    """Prefix sub-minute ss.cc times with '0:' for mm:ss.cc disciplines.
+
+    DISCIPLINES.md declares mm:ss.cc for: llisos >= 300m, tanques/obstáculos
+    >= 400m (300m tanques is ss.cc), all marxa, and 4x200+ relays. The PDFs
+    print sub-minute times without the minute part (e.g. '49.96' for a 400m),
+    so re-prefix them to match the DB format ('0:49.96').
+    Relays are left alone: 4x60/4x80/4x100 are ss.cc and legitimately sub-minute.
+    """
+    if not marca or not re.fullmatch(r"\d{1,2}\.\d{2}", marca):
+        return marca
+    event_type = classify_event(prova)
+    if event_type not in ("track", "marcha"):
+        return marca
+    m = re.search(r"(\d{1,2}(?:\.\d{3})?|\d{3,5})\s*(?:m\b|metres|metros)", prova, re.IGNORECASE)
+    if not m:
+        return marca
+    dist = int(m.group(1).replace(".", ""))
+    if event_type == "track":
+        threshold = 400 if re.search(r"tanques|vallas|obst[\u00e1a]culos|obstacles", prova, re.IGNORECASE) else 300
+    else:  # marxa: shortest event (1000m) is never sub-minute
+        threshold = 300
+    if dist >= threshold:
+        return f"0:{marca}"
+    return marca
+
+
 def extract_track_result_new(lines, athlete_block, sec_end):
     """Extract track result for new multi-line format.
     
@@ -3603,6 +3630,10 @@ def main():
     results = deduplicate_results(results)
     if not quiet:
         print(f"\nAfter deduplication: {len(results)} unique results")
+
+    # Normalize sub-minute ss.cc times to the mm:ss.cc DB format where due
+    for r in results:
+        r["marca"] = normalize_mmsscc_time(r.get("marca", ""), r.get("prova", ""))
 
     # Validate and filter results - must have athlete_name, performance, and discipline
     valid_results = []

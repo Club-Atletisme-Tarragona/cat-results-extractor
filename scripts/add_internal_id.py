@@ -70,6 +70,17 @@ MANUAL_OVERRIDES = {
     # cannot be cadet in 2010 -> PDF name-column error, rows are Maria's (354).
     "MONTSERRAT MONTANES": 354,
     "FRANCESC IBORRA": 1,        # Quico Iborra Martínez
+    # Owner review 2026-11-19 of the remaining unknowns:
+    #   Samuel Rodriguez Barrios is registered twice, father and son under the
+    #   same name; the competing athlete in these results is the son (1390).
+    "SAMUEL RODRIGUEZ BARRIOS": 1390,
+    #   "AHANOTU" is truncated by the PDF column width; the competing athlete is
+    #   Victoria Chiamaka Onyemaekwu Ahanotu (1391), not Cellina Nonye (1201).
+    "AHANOTU": 1391,
+    "ONYEMAEKWU AHANOTU": 1391,
+    #   The sheet prints ARLET SALDAÑA DURAN; the club record says Saldaña
+    #   Fresno (1461) and the owner confirms they are the same person.
+    "ARLET SALDANA DURAN": 1461,
 }
 
 # Names confirmed NOT to be socis members despite fuzzy similarity to one

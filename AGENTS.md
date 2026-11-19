@@ -581,8 +581,37 @@ included in the database import.
 - Accept either `CA Tarragona` (full name) or `CATT` (abbreviation) — both identify the same club
 - **NEVER** include other clubs (CG Tarragona, CA Gavà, CA Vic, JA Sabadell, etc.)
 - **NEVER** include "Dor Cat" or other non-athlete entries
+- **NEVER** include guest athletes listed in `excluded_athletes.csv`.** In RFEA club
+  competitions (2ª División, Spanish championships) an athlete may be registered with
+  CA Tarragona for that meeting while belonging to another club: the sheet prints our
+  club, but the result is theirs and their own club's. The owner decides membership, so
+  those names live in `excluded_athletes.csv` (nom, cognoms, reason) and
+  `extract_catt.py:is_excluded_athlete()` drops them at the output boundary. Matching is
+  order-, case- and accent-insensitive over the full name; re-extraction cannot bring
+  them back.
 - One JSON per PDF (not consolidated)
 - JSON files must have `.json` extension (not `.pdf`)
+
+## Athlete Identity (`internal_id`)
+
+`scripts/add_internal_id.py` maps each result to the club database id using **two**
+authoritative lists, de-duplicated by id with the active roster winning on overlap:
+
+| File | Contents |
+|------|----------|
+| `socis_athletes.csv` | active members (nom, cognoms, id) |
+| `socis_former_athletes.csv` | former members who left the club (nom, cognoms, id, baixa) |
+
+A former member still owns the results they produced while active, so both lists feed
+the matcher. Matching handles surname-first order, `Mª`→MARIA, initials, PDF truncation
+(`…ONYEMAEKW…`), small spelling variants, and containment with up to 3 surplus middle
+names (`WASIM ABDEL AS SAMAD BOUCHIBANE MOKHTARI` vs `Wasim Bouchibane Mokhtari`);
+containment requires ≥2 tokens on the shorter side so nicknames cannot match everything.
+
+Owner-decided identities that no heuristic may guess live in `MANUAL_OVERRIDES`
+(duplicate ids for one name, e.g. father and son both registered as `Samuel Rodriguez
+Barrios` → the competing athlete is 1390) and `MANUAL_EXCLUDES` (similar name, different
+person). Add an entry there rather than widening a heuristic.
 
 ## Name Format
 

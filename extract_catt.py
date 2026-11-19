@@ -12,11 +12,13 @@ Cada prova té el seu propi format d'extracció:
 - Relay (4x100m, 4x400m): equip amb resultats, un registre per membre
 """
 
+import csv
 import subprocess
 import sys
 import re
 import json
 import os
+import unicodedata
 
 # Canonical venue/location rules shared with extract_promocio.py and the
 # maintenance scripts (see location_normalization.py).
@@ -3138,6 +3140,45 @@ def is_junk_name(name):
     return bool(_CODE_NUMBER_RE.match(" ".join(str(name or "").split()).upper()))
 
 
+_EXCLUDED_ATHLETES_FILE = os.path.join(
+    os.path.dirname(os.path.abspath(__file__)), "excluded_athletes.csv"
+)
+_excluded_athlete_keys = None
+
+
+def _person_key(name):
+    """Order-insensitive, accent-insensitive token set for a person name."""
+    text = unicodedata.normalize("NFKD", " ".join(str(name or "").split()))
+    text = "".join(c for c in text if not unicodedata.combining(c))
+    text = re.sub(r"[^A-Za-z ]", " ", text).upper()
+    return frozenset(text.split())
+
+
+def is_excluded_athlete(name):
+    """True for a guest athlete who does not represent this club.
+
+    In RFEA club competitions (2a Division, Spanish championships) an athlete
+    may be registered with CA Tarragona for that meeting while belonging to
+    another club: the sheet lists our club, but the result is theirs and their
+    own club's. The owner confirms such rows must not enter our dataset, so
+    they are listed by name in excluded_athletes.csv.
+    """
+    global _excluded_athlete_keys
+    if _excluded_athlete_keys is None:
+        _excluded_athlete_keys = set()
+        try:
+            with open(_EXCLUDED_ATHLETES_FILE, encoding="utf-8", newline="") as fh:
+                for row in csv.DictReader(fh):
+                    full = f'{row.get("nom") or ""} {row.get("cognoms") or ""}'
+                    key = _person_key(full)
+                    if key:
+                        _excluded_athlete_keys.add(key)
+        except FileNotFoundError:
+            pass
+    key = _person_key(name)
+    return bool(key) and key in _excluded_athlete_keys
+
+
 def is_team_entity(name):
     """True for club/team labels that are never an athlete's name.
 
@@ -3860,6 +3901,10 @@ def main():
                 name = cleaned
         if name and (is_junk_name(name) or is_team_entity(name)):
             print(f"WARNING: Skipping team label stored as athlete: "
+                  f"prova='{r.get('prova', '?')}', nom='{name}'", file=sys.stderr)
+            continue
+        if name and is_excluded_athlete(name):
+            print(f"WARNING: Skipping guest athlete not registered with the club: "
                   f"prova='{r.get('prova', '?')}', nom='{name}'", file=sys.stderr)
             continue
 

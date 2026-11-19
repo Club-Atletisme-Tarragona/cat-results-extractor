@@ -105,12 +105,9 @@
     "detail": null
   },
   "AHANOTU": {
-    "internal_id": null,
-    "strategy": "ambiguous",
-    "detail": [
-      1201,
-      1391
-    ]
+    "internal_id": 1391,
+    "strategy": "manual_override",
+    "detail": null
   },
   "AINA FILELLA": {
     "internal_id": 655,
@@ -678,8 +675,8 @@
     "detail": null
   },
   "ARLET SALDANA DURAN": {
-    "internal_id": null,
-    "strategy": "no_match",
+    "internal_id": 1461,
+    "strategy": "manual_override",
     "detail": null
   },
   "ARLET SALDANA FRESNO": {
@@ -1490,11 +1487,6 @@
   "EDGAR JOSE DIAZ": {
     "internal_id": 653,
     "strategy": "tolerant",
-    "detail": null
-  },
-  "EDMAR SUBIROS ARVEZ": {
-    "internal_id": null,
-    "strategy": "no_match",
     "detail": null
   },
   "EDUARD ALCAINE LOPEZ": {
@@ -4175,11 +4167,6 @@
     "strategy": "no_match",
     "detail": null
   },
-  "NAHUEL URCOLA AGUSTI": {
-    "internal_id": null,
-    "strategy": "no_match",
-    "detail": null
-  },
   "NAIA GUINART TRABALON": {
     "internal_id": 1450,
     "strategy": "exact",
@@ -4378,11 +4365,6 @@
   "ONA SANSA GARCIA": {
     "internal_id": 1015,
     "strategy": "exact",
-    "detail": null
-  },
-  "ORIOL ADELL MARCE": {
-    "internal_id": null,
-    "strategy": "no_match",
     "detail": null
   },
   "ORIOL ALDAVE FORES": {
@@ -4775,11 +4757,6 @@
     "strategy": "exact",
     "detail": null
   },
-  "POL GARCIA VILLOTE": {
-    "internal_id": null,
-    "strategy": "no_match",
-    "detail": null
-  },
   "POL GAVALDA": {
     "internal_id": 537,
     "strategy": "subset",
@@ -5065,11 +5042,6 @@
     "strategy": "exact",
     "detail": null
   },
-  "SAID DAMOUH GALLEGO": {
-    "internal_id": null,
-    "strategy": "no_match",
-    "detail": null
-  },
   "SAIZ SANTAOLARIA HUGO": {
     "internal_id": null,
     "strategy": "no_match",
@@ -5086,12 +5058,9 @@
     "detail": null
   },
   "SAMUEL RODRIGUEZ BARRIOS": {
-    "internal_id": null,
-    "strategy": "ambiguous",
-    "detail": [
-      1200,
-      1390
-    ]
+    "internal_id": 1390,
+    "strategy": "manual_override",
+    "detail": null
   },
   "SANCHEZ ALVAREZ MARIO": {
     "internal_id": 1023,

@@ -19,6 +19,8 @@ sys.path.insert(0, str(REPO_ROOT))
 from extract_catt import (  # noqa: E402
     classify_event,
     extract_name_from_line,
+    is_excluded_athlete,
+    is_team_entity,
     normalize_weight_units,
     parse_header,
     wind_applicable,
@@ -131,6 +133,37 @@ class TestExtractNameFromLine(unittest.TestCase):
     def test_strips_leading_pos_dorsal(self):
         self.assertEqual(extract_name_from_line("3 49 (t) Pep Aldave Mas"),
                          "Pep Aldave Mas")
+
+
+class TestExcludedGuestAthletes(unittest.TestCase):
+    """Guest athletes in RFEA club competitions are not ours to claim.
+
+    The sheet registers them with CA Tarragona for that meeting only; the
+    owner confirmed the result belongs to the athlete and their own club, so
+    excluded_athletes.csv removes them from the dataset (see AGENTS.md).
+    """
+
+    def test_known_guest_is_excluded(self):
+        self.assertTrue(is_excluded_athlete("EDMAR SUBIRÓS ARVEZ"))
+        self.assertTrue(is_excluded_athlete("SAID DAMOUH GALLEGO"))
+
+    def test_matching_ignores_order_case_and_accents(self):
+        for spelling in ("Subirós Arvez, Edmar", "edmar subiros arvez",
+                         "EDMAR  SUBIRÓS   ARVEZ"):
+            self.assertTrue(is_excluded_athlete(spelling), spelling)
+
+    def test_club_athletes_are_not_excluded(self):
+        # a real member and a same-surname member: only the full guest name matches
+        self.assertFalse(is_excluded_athlete("ADRIA SERRES PARDINES"))
+        self.assertFalse(is_excluded_athlete("LLUC SUBIROS BRASERO"))
+
+    def test_empty_name_never_matches(self):
+        self.assertFalse(is_excluded_athlete(""))
+        self.assertFalse(is_excluded_athlete(None))
+
+    def test_team_labels_still_filtered(self):
+        self.assertTrue(is_team_entity("CA Tarragona B"))
+        self.assertFalse(is_team_entity("EDMAR SUBIRÓS ARVEZ"))
 
 
 class TestParsePerformance2005(unittest.TestCase):

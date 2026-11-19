@@ -88,8 +88,15 @@ from their source PDFs: **6 rows → 24 leg rows**, six of them resolving to clu
 athletes (Flores 4, Bardina 7, Pardines 71, Sanchis 205, Alex Lopez 227, Mateo
 343). The two 2008 rows also had the percentage column as their mark
 (`82.08`/`48.85` instead of `50.00`/`4:24.01`) and were corrected from the PDF.
-The 2011 and one 2010 team print only initials, so those legs stay unmatched
-until the owner identifies them.
+The 2011 and one 2010 team print only initials; the owner identified them
+(V.LOPEZ → Victor Lopez 322, J.BLANCO → Juan Blanco 328, J.M.MATEO → Josep
+Maria Mateo 343, J.F.GARCIA → Jose Fco Garcia 5, E. JOSE → Edgar Jose 653,
+J. GONZALEZ → Juan Gonzalez 1079, A. LAGO → Aleix Lago 660, N. PINYOL → Nil
+Pinyol 714, L. MASCARELL → Laura Mascarell 646, M. VAZQUEZ → Mar Vazquez 642,
+B. SANCHEZ → Berta Sanchez 643) and the leg names are stored in full.
+`Carla Berenguel` has no record in either club list yet, so it stays unmapped.
+The sheet's `Jose Fco Gracia` (2008) is a typo for Jose Fco. Garcia Navarrete
+(5), handled as an owner override rather than by editing the source spelling.
 
 ### Stored names no longer carry sheet bookkeeping
 

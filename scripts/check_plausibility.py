@@ -122,6 +122,8 @@ def main():
             violations += len(file_viol)
             print(f"{os.path.relpath(path, REPO)}:")
             print("\n".join(file_viol[:12]))
+            if len(file_viol) > 12:
+                print(f"    ... and {len(file_viol) - 12} more in this file")
 
     print(f"\nchecked {checked} results in {len(targets)} files: {violations} plausibility violations")
     sys.exit(1 if violations else 0)

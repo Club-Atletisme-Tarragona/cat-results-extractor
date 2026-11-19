@@ -3952,7 +3952,7 @@ def main():
                 expanded = dict(r)
                 expanded["atleta_nom"] = leg
                 expanded["vent"] = None  # wind is never recorded for relays
-                composed.extend(expanded)
+                composed.append(expanded)
             continue
         if name and is_excluded_athlete(name):
             print(f"WARNING: Skipping guest athlete not registered with the club: "

@@ -73,6 +73,18 @@ the current extraction code. The source PDFs are still downloadable from
 | **33** | Cross-discipline duplicate rows (same athlete + same mark under two disciplines, 2008–2024) | source-PDF check per row: **not resolvable by plausibility** (both copies are plausible), so nothing was guessed or deleted |
 | 10 | Format mismatches: 6 misc, 3 veterans age/percentage column, 1 combined-table header stored as a discipline | targeted fixes |
 | 1 | Unmapped discipline `60m tanques PC` (2017 infantile heat, no height in the header) | mapping rule |
+| **38** | Exact-duplicate result rows exposed by the name cleanup: same athlete, same discipline, same mark twice in one file (combined-event files where the SUMARIO/total section repeats a sub-event result, e.g. `Silvia Gutierrez Comes` javelin 15.44 in `resulcatcombinades560512`). Previously invisible because the two rows differed only by a trailing series number (`JF 5` vs `5`) | row removal was NOT applied: two identical attempts are possible in throws, so this needs a per-file re-extraction decision, not a blind delete |
+| 2 | Names that cannot be cleaned without inventing data: `AHANOTU` (truncated by the PDF column, matched to 1391 by owner decision) and `ZAIRA AF` (only a given name survived the era parser) | per-source review |
+
+### Stored names no longer carry sheet bookkeeping
+
+`scripts/clean_athlete_names.py` removed the row prefix/suffix the legacy parsers
+wrote into `athlete_name` (`1 258 (t) Francisco Javier Baz Vidal M-50` →
+`Francisco Javier Baz Vidal`): **8,596 rows in 595 files**. Edge-only and
+idempotent; a row is skipped when cleaning would stop it looking like a full
+name. Applying it also unblocked **63 rows** that the noise had prevented from
+matching the roster (all verified as spelling/truncation variants, no
+cross-person merges).
 
 ## 10.000 metres marxa carries hours on purpose
 

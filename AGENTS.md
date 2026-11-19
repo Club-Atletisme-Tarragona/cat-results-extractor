@@ -622,6 +622,13 @@ person). Add an entry there rather than widening a heuristic.
 
 ## Name Format
 
+- **The stored `athlete_name` is the athlete's name only.** Legacy era parsers
+  wrote the row's position, lane and category into it (`1 258 (t) Francisco
+  Javier Baz Vidal M-50`, `119 Francisco Jose Iborra M-50 AB NP AB`). It never
+  should: `scripts/clean_athlete_names.py` repairs existing files (dry-run by
+  default, idempotent, edge-only, temp file + `os.replace`), and any new parser
+  must keep the name column clean. The same noise also hides roster matches, so
+  `scripts/add_internal_id.py` normalizes it away before matching.
 - Remove trailing whitespace and normalize internal spaces
 - Do NOT add/remove license prefixes from names (keep as they appear in PDF)
 

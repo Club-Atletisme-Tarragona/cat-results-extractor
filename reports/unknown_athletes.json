@@ -1,2655 +1,5 @@
 [
   {
-    "athlete_name": "1 277 (t) Paco Lorenzo Valldosera BM",
-    "strategy": "manual_exclude",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2018/json/resultat-20180414-cnatterritorialcambrils.json",
-        "discipline": "Llargada",
-        "performance": "3.25",
-        "event_date": "14/04/2018"
-      },
-      {
-        "file": "seasons/2018/json/resultat-20180414-cnatterritorialcambrils.json",
-        "discipline": "Llargada",
-        "performance": "3.56",
-        "event_date": "14/04/2018"
-      },
-      {
-        "file": "seasons/2018/json/resultat-20180414-cnatterritorialcambrils.json",
-        "discipline": "Llargada",
-        "performance": "3.45",
-        "event_date": "14/04/2018"
-      },
-      {
-        "file": "seasons/2018/json/resultat-2018042829-controlprimaveracambrils.json",
-        "discipline": "60 metres llisos",
-        "performance": "9.50",
-        "event_date": "28/04/2018"
-      },
-      {
-        "file": "seasons/2018/json/resultat-20180519-catsub10ascoprevia.json",
-        "discipline": "Llargada",
-        "performance": "3.43",
-        "event_date": "19/05/2018"
-      }
-    ],
-    "refs_total": 37
-  },
-  {
-    "athlete_name": "1 34 (t) Oscar Leffer Guillon LM",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2020/json/resultat-20200913-controlreus.json",
-        "discipline": "800 metres llisos",
-        "performance": "2:07.62",
-        "event_date": "13/09/2020"
-      },
-      {
-        "file": "seasons/2021/json/resultat-20210130-controlsub1820pcbcnpsj.json",
-        "discipline": "3000 metres llisos",
-        "performance": "9:44.84",
-        "event_date": "30/01/2021"
-      },
-      {
-        "file": "seasons/2021/json/resultat-20210207-controlfebrer1reus.json",
-        "discipline": "800 metres llisos",
-        "performance": "2:08.27",
-        "event_date": "07/02/2021"
-      }
-    ]
-  },
-  {
-    "athlete_name": "1 357 (t) Lina Barkaoui El Bakkar BF",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2022/json/resultat-20220507-cnatterritorialpromociocambrils.json",
-        "discipline": "60 metres llisos",
-        "performance": "10.79",
-        "event_date": "07/05/2022"
-      }
-    ]
-  },
-  {
-    "athlete_name": "1 369 (t) Nayah Martinez Ferre BF",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2022/json/resultat-20220507-cnatterritorialpromociocambrils.json",
-        "discipline": "60 metres llisos",
-        "performance": "10.46",
-        "event_date": "07/05/2022"
-      },
-      {
-        "file": "seasons/2023/json/resultat-20230211-catclubssub12apcsabadell.json",
-        "discipline": "60 metres llisos",
-        "performance": "10.07",
-        "event_date": "11/02/2023"
-      },
-      {
-        "file": "seasons/2024/json/resultat-20240303-controlsub12-14pcsabadell.json",
-        "discipline": "200 metres llisos",
-        "performance": "33.06",
-        "event_date": "03/03/2024"
-      },
-      {
-        "file": "seasons/2024/json/resultat-20240504-catclubssub12mataro.json",
-        "discipline": "Pes (2 Kg)",
-        "performance": "6.19",
-        "event_date": "04/05/2024"
-      },
-      {
-        "file": "seasons/2024/json/resultat-20240504-catclubssub12mataro.json",
-        "discipline": "Pes (2 Kg)",
-        "performance": "5.94",
-        "event_date": "04/05/2024"
-      }
-    ],
-    "refs_total": 6
-  },
-  {
-    "athlete_name": "1 45 (t) Eric De La Rosa Fortuny",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2018/json/resultat-20180120-controlamposta.json",
-        "discipline": "Llargada",
-        "performance": "3.18",
-        "event_date": "20/01/2018"
-      },
-      {
-        "file": "seasons/2018/json/resultat-20180224-controltorredembarra.json",
-        "discipline": "Llargada",
-        "performance": "3.12",
-        "event_date": "24/02/2018"
-      },
-      {
-        "file": "seasons/2018/json/resultat-20180224-controltorredembarra.json",
-        "discipline": "Llargada",
-        "performance": "3.03",
-        "event_date": "24/02/2018"
-      },
-      {
-        "file": "seasons/2018/json/resultat-20180414-cnatterritorialcambrils.json",
-        "discipline": "Llargada",
-        "performance": "3.25",
-        "event_date": "14/04/2018"
-      },
-      {
-        "file": "seasons/2018/json/resultat-20180414-cnatterritorialcambrils.json",
-        "discipline": "Llargada",
-        "performance": "3.17",
-        "event_date": "14/04/2018"
-      }
-    ],
-    "refs_total": 96
-  },
-  {
-    "athlete_name": "1 47 (t) Laia Dominguez Mestres BF",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2018/json/resultat-20181208-controlhiverncambrils.json",
-        "discipline": "60 metres llisos",
-        "performance": "10.31",
-        "event_date": "08/12/2018"
-      },
-      {
-        "file": "seasons/2019/json/resultat-20190126-controlgenertarragona.json",
-        "discipline": "Llargada",
-        "performance": "12.75",
-        "event_date": "26/01/2019"
-      },
-      {
-        "file": "seasons/2019/json/resultat-20190126-controlgenertarragona.json",
-        "discipline": "Llargada",
-        "performance": "11.59",
-        "event_date": "26/01/2019"
-      },
-      {
-        "file": "seasons/2019/json/resultat-20190126-controlgenertarragona.json",
-        "discipline": "Llargada",
-        "performance": "14.34",
-        "event_date": "26/01/2019"
-      },
-      {
-        "file": "seasons/2019/json/resultat-20190316-controltorredembarra.json",
-        "discipline": "Llargada",
-        "performance": "2.61",
-        "event_date": "16/03/2019"
-      }
-    ],
-    "refs_total": 9
-  },
-  {
-    "athlete_name": "1 56 (t) Kilian Borreda Cervello BM",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2022/json/resultat-20220226-controlfebrer3cambrils.json",
-        "discipline": "Llargada",
-        "performance": "3.71",
-        "event_date": "26/02/2022"
-      },
-      {
-        "file": "seasons/2022/json/resultat-20220226-controlfebrer3cambrils.json",
-        "discipline": "Llargada",
-        "performance": "3.26",
-        "event_date": "26/02/2022"
-      },
-      {
-        "file": "seasons/2022/json/resultat-20220226-controlfebrer3cambrils.json",
-        "discipline": "Llargada",
-        "performance": "3.11",
-        "event_date": "26/02/2022"
-      },
-      {
-        "file": "seasons/2022/json/resultat-20220507-cnatterritorialpromociocambrils.json",
-        "discipline": "Llargada",
-        "performance": "3.54",
-        "event_date": "07/05/2022"
-      },
-      {
-        "file": "seasons/2022/json/resultat-20220507-cnatterritorialpromociocambrils.json",
-        "discipline": "Llargada",
-        "performance": "3.37",
-        "event_date": "07/05/2022"
-      }
-    ],
-    "refs_total": 77
-  },
-  {
-    "athlete_name": "10 360 (t) Pau Llado Aparicio BM",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2023/json/resultat-20230114-controlgener1tarragona.json",
-        "discipline": "Javelina (800 g)",
-        "performance": "8.39",
-        "event_date": "14/01/2023"
-      },
-      {
-        "file": "seasons/2023/json/resultat-20230114-controlgener1tarragona.json",
-        "discipline": "Javelina (800 g)",
-        "performance": "8.31",
-        "event_date": "14/01/2023"
-      },
-      {
-        "file": "seasons/2023/json/resultat-20230114-controlgener1tarragona.json",
-        "discipline": "Javelina (800 g)",
-        "performance": "5.49",
-        "event_date": "14/01/2023"
-      },
-      {
-        "file": "seasons/2023/json/resultat-20230422-controlcatorredembarra.json",
-        "discipline": "Llargada",
-        "performance": "1.55",
-        "event_date": "22/04/2023"
-      },
-      {
-        "file": "seasons/2023/json/resultat-20230422-controlcatorredembarra.json",
-        "discipline": "Llargada",
-        "performance": "7.51",
-        "event_date": "22/04/2023"
-      }
-    ],
-    "refs_total": 25
-  },
-  {
-    "athlete_name": "11 126 (t) Aleix Gomez Miro BM",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2021/json/resultat-20210424-cnatterritorialtarragona.json",
-        "discipline": "Llargada",
-        "performance": "2.58",
-        "event_date": "24/04/2021"
-      },
-      {
-        "file": "seasons/2023/json/resultat-20230211-catclubssub12apcsabadell.json",
-        "discipline": "4x200",
-        "performance": "2:16.14",
-        "event_date": "11/02/2023"
-      },
-      {
-        "file": "seasons/2023/json/resultat-20230611-catsub12alpreviavilanova.json",
-        "discipline": "60 metres tanques (0.50)",
-        "performance": "10.67",
-        "event_date": "11/06/2023"
-      },
-      {
-        "file": "seasons/2024/json/resultat-20241215-trofeunadalcnrp.json",
-        "discipline": "600 metres llisos",
-        "performance": "1:56.15",
-        "event_date": "15/12/2024"
-      },
-      {
-        "file": "seasons/2025/json/resultat-20250125-controlveloricattanquestarragona.json",
-        "discipline": "60 metres llisos",
-        "performance": "9.22",
-        "event_date": "25/01/2025"
-      }
-    ],
-    "refs_total": 11
-  },
-  {
-    "athlete_name": "11 472 (t) Bruno Jimenez Garcia BM",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2024/json/resultat-20240210-controlconcursossub10tarragona.json",
-        "discipline": "Javelina (800 g)",
-        "performance": "9.77",
-        "event_date": "10/02/2024"
-      },
-      {
-        "file": "seasons/2024/json/resultat-20240210-controlconcursossub10tarragona.json",
-        "discipline": "Javelina (800 g)",
-        "performance": "8.43",
-        "event_date": "10/02/2024"
-      },
-      {
-        "file": "seasons/2024/json/resultat-20240210-controlconcursossub10tarragona.json",
-        "discipline": "Javelina (800 g)",
-        "performance": "7.78",
-        "event_date": "10/02/2024"
-      }
-    ]
-  },
-  {
-    "athlete_name": "119 Francisco Jose Iborra M-50 AB NP AB",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2018/json/resultat-2018042829-cnatterritcombinadescambrils.json",
-        "discipline": "Javelina (700 g)",
-        "performance": "13.63",
-        "event_date": "28/04/2018"
-      },
-      {
-        "file": "seasons/2018/json/resultat-2018042829-cnatterritcombinadescambrils.json",
-        "discipline": "Javelina (700 g)",
-        "performance": "4.87",
-        "event_date": "28/04/2018"
-      },
-      {
-        "file": "seasons/2018/json/resultat-2018042829-cnatterritcombinadescambrils.json",
-        "discipline": "Javelina (700 g)",
-        "performance": "9.69",
-        "event_date": "28/04/2018"
-      },
-      {
-        "file": "seasons/2018/json/resultat-2018042829-cnatterritcombinadescambrils.json",
-        "discipline": "Javelina (700 g)",
-        "performance": "16.71",
-        "event_date": "28/04/2018"
-      }
-    ]
-  },
-  {
-    "athlete_name": "12 159 (t) Aleix Olmo Chavez BM",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2019/json/resultat-20190126-controlgenertarragona.json",
-        "discipline": "Llargada",
-        "performance": "10.37",
-        "event_date": "26/01/2019"
-      },
-      {
-        "file": "seasons/2019/json/resultat-20190126-controlgenertarragona.json",
-        "discipline": "Llargada",
-        "performance": "10.55",
-        "event_date": "26/01/2019"
-      },
-      {
-        "file": "seasons/2019/json/resultat-2019033031-controlprimaveracambrils.json",
-        "discipline": "60 metres llisos",
-        "performance": "11.66",
-        "event_date": "30/03/2019"
-      },
-      {
-        "file": "seasons/2019/json/resultat-20190504-cnatterritorialpromociovalls.json",
-        "discipline": "Javelina (500 g)",
-        "performance": "12.43",
-        "event_date": "04/05/2019"
-      },
-      {
-        "file": "seasons/2019/json/resultat-20190504-cnatterritorialpromociovalls.json",
-        "discipline": "Javelina (500 g)",
-        "performance": "10.02",
-        "event_date": "04/05/2019"
-      }
-    ],
-    "refs_total": 21
-  },
-  {
-    "athlete_name": "12 239 Félix Fernández Prieto BM",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2020/json/resultat-20200201-controlfebrertarragona.json",
-        "discipline": "Llargada",
-        "performance": "2.32",
-        "event_date": "01/02/2020"
-      },
-      {
-        "file": "seasons/2021/json/resultat-20210522-catclubsalsub12.json",
-        "discipline": "Pes (2 Kg)",
-        "performance": "4.79",
-        "event_date": "22/05/2021"
-      },
-      {
-        "file": "seasons/2021/json/resultat-20210522-catclubsalsub12.json",
-        "discipline": "Pes (2 Kg)",
-        "performance": "5.10",
-        "event_date": "22/05/2021"
-      },
-      {
-        "file": "seasons/2021/json/resultat-20210522-catclubsalsub12.json",
-        "discipline": "Pes (2 Kg)",
-        "performance": "5.16",
-        "event_date": "22/05/2021"
-      }
-    ]
-  },
-  {
-    "athlete_name": "12 318 (t) Ferran Badia Riera IM",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2023/json/resultat-20231216-trofeunadalcnrp.json",
-        "discipline": "Llargada",
-        "performance": "3.65",
-        "event_date": "16/12/2023"
-      },
-      {
-        "file": "seasons/2023/json/resultat-20231216-trofeunadalcnrp.json",
-        "discipline": "Llargada",
-        "performance": "3.46",
-        "event_date": "16/12/2023"
-      },
-      {
-        "file": "seasons/2024/json/resultat-20240414-cnatterripromocioreus.json",
-        "discipline": "600 metres llisos",
-        "performance": "2:06.92",
-        "event_date": "14/04/2024"
-      },
-      {
-        "file": "seasons/2024/json/resultat-20240414-cnatterripromocioreus.json",
-        "discipline": "Alçada",
-        "performance": "1.15",
-        "event_date": "14/04/2024"
-      },
-      {
-        "file": "seasons/2024/json/resultat-20240414-cnatterripromocioreus.json",
-        "discipline": "Pes (3 Kg)",
-        "performance": "5.54",
-        "event_date": "14/04/2024"
-      }
-    ],
-    "refs_total": 16
-  },
-  {
-    "athlete_name": "12 371 Aisha De la Cruz Loeches AF",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2024/json/resultat-20240120-controlgenertarragona.json",
-        "discipline": "Pes (2 Kg)",
-        "performance": "3.53",
-        "event_date": "20/01/2024"
-      },
-      {
-        "file": "seasons/2024/json/resultat-20240120-controlgenertarragona.json",
-        "discipline": "Pes (2 Kg)",
-        "performance": "3.18",
-        "event_date": "20/01/2024"
-      },
-      {
-        "file": "seasons/2024/json/resultat-20240420-cnatteritpromociotarragona.json",
-        "discipline": "Javelina (800 g)",
-        "performance": "11.92",
-        "event_date": "20/04/2024"
-      },
-      {
-        "file": "seasons/2024/json/resultat-20240420-cnatteritpromociotarragona.json",
-        "discipline": "Javelina (300 g)",
-        "performance": "8.20",
-        "event_date": "20/04/2024"
-      },
-      {
-        "file": "seasons/2024/json/resultat-20240420-cnatteritpromociotarragona.json",
-        "discipline": "Javelina (300 g)",
-        "performance": "7.87",
-        "event_date": "20/04/2024"
-      }
-    ],
-    "refs_total": 6
-  },
-  {
-    "athlete_name": "12 378 (t) Pep Sarle Cornado BM",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2023/json/resultat-20230114-controlgener1tarragona.json",
-        "discipline": "Javelina (800 g)",
-        "performance": "7.02",
-        "event_date": "14/01/2023"
-      },
-      {
-        "file": "seasons/2023/json/resultat-20230114-controlgener1tarragona.json",
-        "discipline": "Javelina (800 g)",
-        "performance": "6.69",
-        "event_date": "14/01/2023"
-      },
-      {
-        "file": "seasons/2023/json/resultat-20230114-controlgener1tarragona.json",
-        "discipline": "Javelina (800 g)",
-        "performance": "5.78",
-        "event_date": "14/01/2023"
-      },
-      {
-        "file": "seasons/2023/json/resultat-20230422-controlcatorredembarra.json",
-        "discipline": "Llargada",
-        "performance": "2.06",
-        "event_date": "22/04/2023"
-      },
-      {
-        "file": "seasons/2023/json/resultat-20230422-controlcatorredembarra.json",
-        "discipline": "Llargada",
-        "performance": "6.45",
-        "event_date": "22/04/2023"
-      }
-    ],
-    "refs_total": 7
-  },
-  {
-    "athlete_name": "12 44 Leo Sánchez Fernández",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2019/json/resultat-20190119-controlgenercambrils.json",
-        "discipline": "Llargada",
-        "performance": "2.60",
-        "event_date": "19/01/2019"
-      },
-      {
-        "file": "seasons/2019/json/resultat-20190126-controlgenertarragona.json",
-        "discipline": "Llargada",
-        "performance": "6.95",
-        "event_date": "26/01/2019"
-      },
-      {
-        "file": "seasons/2019/json/resultat-20190126-controlgenertarragona.json",
-        "discipline": "Llargada",
-        "performance": "9.26",
-        "event_date": "26/01/2019"
-      },
-      {
-        "file": "seasons/2019/json/resultat-20190126-controlgenertarragona.json",
-        "discipline": "Llargada",
-        "performance": "9.99",
-        "event_date": "26/01/2019"
-      },
-      {
-        "file": "seasons/2019/json/resultat-2019033031-controlprimaveracambrils.json",
-        "discipline": "60 metres llisos",
-        "performance": "11.13",
-        "event_date": "30/03/2019"
-      }
-    ]
-  },
-  {
-    "athlete_name": "13 119 (t) Hugo Diaz Cristino BM",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2021/json/resultat-20210424-cnatterritorialtarragona.json",
-        "discipline": "Llargada",
-        "performance": "2.21",
-        "event_date": "24/04/2021"
-      },
-      {
-        "file": "seasons/2021/json/resultat-20211218-trofeunadalcnrp.json",
-        "discipline": "Llargada",
-        "performance": "2.97",
-        "event_date": "18/12/2021"
-      },
-      {
-        "file": "seasons/2021/json/resultat-20211218-trofeunadalcnrp.json",
-        "discipline": "Pes (2 Kg)",
-        "performance": "4.18",
-        "event_date": "18/12/2021"
-      },
-      {
-        "file": "seasons/2021/json/resultat-20211218-trofeunadalcnrp.json",
-        "discipline": "Pes (2 Kg)",
-        "performance": "4.36",
-        "event_date": "18/12/2021"
-      },
-      {
-        "file": "seasons/2021/json/resultat-20211218-trofeunadalcnrp.json",
-        "discipline": "Pes (2 Kg)",
-        "performance": "3.42",
-        "event_date": "18/12/2021"
-      }
-    ],
-    "refs_total": 34
-  },
-  {
-    "athlete_name": "13 15 (t) Quimey Izaga Deriu BM",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2017/json/resultat-20170514-catclubsbenjami.json",
-        "discipline": "Llargada",
-        "performance": "2.28",
-        "event_date": "14/05/2017"
-      },
-      {
-        "file": "seasons/2017/json/resultat-20170520-catbenjamiprevia.json",
-        "discipline": "1000 metres marxa",
-        "performance": "6:00.05",
-        "event_date": "20/05/2017"
-      },
-      {
-        "file": "seasons/2018/json/resultat-20180120-controlamposta.json",
-        "discipline": "Llargada",
-        "performance": "2.72",
-        "event_date": "20/01/2018"
-      },
-      {
-        "file": "seasons/2018/json/resultat-20180224-controltorredembarra.json",
-        "discipline": "Llargada",
-        "performance": "2.67",
-        "event_date": "24/02/2018"
-      },
-      {
-        "file": "seasons/2018/json/resultat-20180414-cnatterritorialcambrils.json",
-        "discipline": "Llargada",
-        "performance": "3.10",
-        "event_date": "14/04/2018"
-      }
-    ],
-    "refs_total": 42
-  },
-  {
-    "athlete_name": "13 283 (t) Victor Rofes Palacios",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2018/json/resultat-20180414-cnatterritorialcambrils.json",
-        "discipline": "Llargada",
-        "performance": "3.58",
-        "event_date": "14/04/2018"
-      },
-      {
-        "file": "seasons/2018/json/resultat-20180414-cnatterritorialcambrils.json",
-        "discipline": "Llargada",
-        "performance": "3.54",
-        "event_date": "14/04/2018"
-      },
-      {
-        "file": "seasons/2018/json/resultat-20180414-cnatterritorialcambrils.json",
-        "discipline": "Llargada",
-        "performance": "3.94",
-        "event_date": "14/04/2018"
-      }
-    ]
-  },
-  {
-    "athlete_name": "13 318 (t) Abril Pallares Masvidal BF",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2020/json/resultat-20200201-controlfebrertarragona.json",
-        "discipline": "Llargada",
-        "performance": "1.67",
-        "event_date": "01/02/2020"
-      }
-    ]
-  },
-  {
-    "athlete_name": "13 367 (t) Victor Martinez Perales BM",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2023/json/resultat-20230114-controlgener1tarragona.json",
-        "discipline": "Javelina (800 g)",
-        "performance": "7.01",
-        "event_date": "14/01/2023"
-      },
-      {
-        "file": "seasons/2023/json/resultat-20230114-controlgener1tarragona.json",
-        "discipline": "Javelina (800 g)",
-        "performance": "5.10",
-        "event_date": "14/01/2023"
-      }
-    ]
-  },
-  {
-    "athlete_name": "13 40 (t) Gisela Hornet Bazan IF",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2022/json/resultat-20220521-catclubssub14alelprat.json",
-        "discipline": "Martell (2 Kg)",
-        "performance": "16.68",
-        "event_date": "21/05/2022"
-      },
-      {
-        "file": "seasons/2022/json/resultat-20220521-catclubssub14alelprat.json",
-        "discipline": "Martell (2 Kg)",
-        "performance": "16.89",
-        "event_date": "21/05/2022"
-      },
-      {
-        "file": "seasons/2022/json/resultat-20220521-catclubssub14alelprat.json",
-        "discipline": "Javelina (400 g)",
-        "performance": "13.02",
-        "event_date": "21/05/2022"
-      },
-      {
-        "file": "seasons/2022/json/resultat-20220521-catclubssub14alelprat.json",
-        "discipline": "Javelina (400 g)",
-        "performance": "15.18",
-        "event_date": "21/05/2022"
-      },
-      {
-        "file": "seasons/2023/json/resultat-20230121-catclubssub16apcsabadell.json",
-        "discipline": "4x300",
-        "performance": "3:03.57",
-        "event_date": "21/01/2023"
-      }
-    ]
-  },
-  {
-    "athlete_name": "13 47 (t) Candela Valle Garcia BF",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2017/json/resultat-20170514-catclubsbenjami.json",
-        "discipline": "Llargada",
-        "performance": "1.95",
-        "event_date": "14/05/2017"
-      }
-    ]
-  },
-  {
-    "athlete_name": "13 65 (t) Marc Monlleó Mendez",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2020/json/resultat-20200118-controlgenerreus.json",
-        "discipline": "Llargada",
-        "performance": "3.20",
-        "event_date": "18/01/2020"
-      },
-      {
-        "file": "seasons/2020/json/resultat-20200118-controlgenerreus.json",
-        "discipline": "Llargada",
-        "performance": "3.16",
-        "event_date": "18/01/2020"
-      },
-      {
-        "file": "seasons/2020/json/resultat-20200201-controlfebrertarragona.json",
-        "discipline": "60 metres llisos",
-        "performance": "9.98",
-        "event_date": "01/02/2020"
-      },
-      {
-        "file": "seasons/2020/json/resultat-20200201-controlfebrertarragona.json",
-        "discipline": "Pes (2 Kg)",
-        "performance": "6.88",
-        "event_date": "01/02/2020"
-      },
-      {
-        "file": "seasons/2020/json/resultat-20200201-controlfebrertarragona.json",
-        "discipline": "Pes (2 Kg)",
-        "performance": "6.77",
-        "event_date": "01/02/2020"
-      }
-    ],
-    "refs_total": 6
-  },
-  {
-    "athlete_name": "14 284 (t) Naia Perez Esquitino AF",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2019/json/resultat-20190126-controlgenertarragona.json",
-        "discipline": "Llargada",
-        "performance": "2.98",
-        "event_date": "26/01/2019"
-      },
-      {
-        "file": "seasons/2019/json/resultat-2019033031-territcombinadescambrils.json",
-        "discipline": "60 metres tanques (0.50)",
-        "performance": "11.98",
-        "event_date": "30/03/2019"
-      },
-      {
-        "file": "seasons/2019/json/resultat-2019033031-territcombinadescambrils.json",
-        "discipline": "Pes (2 Kg)",
-        "performance": "4.75",
-        "event_date": "30/03/2019"
-      },
-      {
-        "file": "seasons/2019/json/resultat-2019033031-territcombinadescambrils.json",
-        "discipline": "Pes (2 Kg)",
-        "performance": "5.42",
-        "event_date": "30/03/2019"
-      },
-      {
-        "file": "seasons/2019/json/resultat-2019033031-territcombinadescambrils.json",
-        "discipline": "Pes (2 Kg)",
-        "performance": "6.51",
-        "event_date": "30/03/2019"
-      }
-    ],
-    "refs_total": 24
-  },
-  {
-    "athlete_name": "14 355 (t) Iu Grane Barcelo BM",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2023/json/resultat-20230114-controlgener1tarragona.json",
-        "discipline": "Javelina (800 g)",
-        "performance": "5.01",
-        "event_date": "14/01/2023"
-      },
-      {
-        "file": "seasons/2023/json/resultat-20230114-controlgener1tarragona.json",
-        "discipline": "Javelina (800 g)",
-        "performance": "5.21",
-        "event_date": "14/01/2023"
-      },
-      {
-        "file": "seasons/2024/json/resultat-20240210-controlconcursossub10tarragona.json",
-        "discipline": "Javelina (800 g)",
-        "performance": "8.27",
-        "event_date": "10/02/2024"
-      },
-      {
-        "file": "seasons/2024/json/resultat-20240210-controlconcursossub10tarragona.json",
-        "discipline": "Javelina (800 g)",
-        "performance": "8.65",
-        "event_date": "10/02/2024"
-      },
-      {
-        "file": "seasons/2024/json/resultat-20240210-controlconcursossub10tarragona.json",
-        "discipline": "Javelina (800 g)",
-        "performance": "6.43",
-        "event_date": "10/02/2024"
-      }
-    ]
-  },
-  {
-    "athlete_name": "14 47 Marçal Sinfreu Niubó",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2019/json/resultat-20190119-controlgenercambrils.json",
-        "discipline": "Llargada",
-        "performance": "2.51",
-        "event_date": "19/01/2019"
-      },
-      {
-        "file": "seasons/2019/json/resultat-20190126-controlgenertarragona.json",
-        "discipline": "Llargada",
-        "performance": "19.55",
-        "event_date": "26/01/2019"
-      },
-      {
-        "file": "seasons/2019/json/resultat-2019033031-controlprimaveracambrils.json",
-        "discipline": "60 metres llisos",
-        "performance": "10.70",
-        "event_date": "30/03/2019"
-      },
-      {
-        "file": "seasons/2019/json/resultat-20190504-cnatterritorialpromociovalls.json",
-        "discipline": "Javelina (500 g)",
-        "performance": "18.25",
-        "event_date": "04/05/2019"
-      },
-      {
-        "file": "seasons/2019/json/resultat-20190504-cnatterritorialpromociovalls.json",
-        "discipline": "Javelina (500 g)",
-        "performance": "17.89",
-        "event_date": "04/05/2019"
-      }
-    ],
-    "refs_total": 60
-  },
-  {
-    "athlete_name": "14 58 (t) Roger Feijoo Massot",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2017/json/resultat-20170514-catclubscadet.json",
-        "discipline": "Javelina (600 g)",
-        "performance": "15.97",
-        "event_date": "14/05/2017"
-      },
-      {
-        "file": "seasons/2017/json/resultat-20170514-catclubscadet.json",
-        "discipline": "Javelina (600 g)",
-        "performance": "20.01",
-        "event_date": "14/05/2017"
-      },
-      {
-        "file": "seasons/2018/json/resultat-20180414-cnatterritorialcambrils.json",
-        "discipline": "Llargada",
-        "performance": "4.44",
-        "event_date": "14/04/2018"
-      },
-      {
-        "file": "seasons/2018/json/resultat-20180414-cnatterritorialcambrils.json",
-        "discipline": "Llargada",
-        "performance": "4.01",
-        "event_date": "14/04/2018"
-      },
-      {
-        "file": "seasons/2018/json/resultat-20180414-cnatterritorialcambrils.json",
-        "discipline": "Llargada",
-        "performance": "4.09",
-        "event_date": "14/04/2018"
-      }
-    ],
-    "refs_total": 10
-  },
-  {
-    "athlete_name": "15 127 (t) Carla Rodriguez Martinez IF",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2021/json/resultat-20210131-controlgenerreus.json",
-        "discipline": "Llargada",
-        "performance": "3.75",
-        "event_date": "31/01/2021"
-      },
-      {
-        "file": "seasons/2021/json/resultat-20210206-combinadesreus.json",
-        "discipline": "60 metres tanques (0.76)",
-        "performance": "12.41",
-        "event_date": "06/02/2021"
-      },
-      {
-        "file": "seasons/2021/json/resultat-20210206-combinadesreus.json",
-        "discipline": "Llargada",
-        "performance": "3.59",
-        "event_date": "06/02/2021"
-      },
-      {
-        "file": "seasons/2021/json/resultat-20210206-combinadesreus.json",
-        "discipline": "Llargada",
-        "performance": "3.58",
-        "event_date": "06/02/2021"
-      },
-      {
-        "file": "seasons/2021/json/resultat-20210227-catpreviasub14pcbcnpsj.json",
-        "discipline": "60 metres llisos",
-        "performance": "9.07",
-        "event_date": "27/02/2021"
-      }
-    ],
-    "refs_total": 77
-  },
-  {
-    "athlete_name": "156 Irene Garrido Rubio CT769",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2022/json/resultat-20220320-catsub16pcsabadell.json",
-        "discipline": "Pes (3 Kg)",
-        "performance": "10.49",
-        "event_date": "20/03/2022"
-      }
-    ]
-  },
-  {
-    "athlete_name": "16 270 (t) Clovis-françois Deconinck Urbano BM",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2018/json/resultat-20180414-cnatterritorialcambrils.json",
-        "discipline": "Llargada",
-        "performance": "2.80",
-        "event_date": "14/04/2018"
-      },
-      {
-        "file": "seasons/2018/json/resultat-2018042829-controlprimaveracambrils.json",
-        "discipline": "60 metres llisos",
-        "performance": "10.74",
-        "event_date": "28/04/2018"
-      },
-      {
-        "file": "seasons/2019/json/resultat-20190126-controlgenertarragona.json",
-        "discipline": "Llargada",
-        "performance": "2.85",
-        "event_date": "26/01/2019"
-      },
-      {
-        "file": "seasons/2019/json/resultat-20190504-cnatterritorialpromociovalls.json",
-        "discipline": "Javelina (500 g)",
-        "performance": "10.78",
-        "event_date": "04/05/2019"
-      },
-      {
-        "file": "seasons/2019/json/resultat-20190615-trobadacambrilsandorra.json",
-        "discipline": "Llargada",
-        "performance": "3.00",
-        "event_date": "15/06/2019"
-      }
-    ],
-    "refs_total": 8
-  },
-  {
-    "athlete_name": "17 347 (t) Marc Sempere Amezcua BM",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2022/json/resultat-20220507-cnatterritorialpromociocambrils.json",
-        "discipline": "Llargada",
-        "performance": "2.51",
-        "event_date": "07/05/2022"
-      }
-    ]
-  },
-  {
-    "athlete_name": "18 68 (t) Guillem Pàmies Miró",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2020/json/resultat-20200118-controlgenerreus.json",
-        "discipline": "Llargada",
-        "performance": "3.00",
-        "event_date": "18/01/2020"
-      },
-      {
-        "file": "seasons/2020/json/resultat-20200222-controlfebrerasco.json",
-        "discipline": "Llargada",
-        "performance": "3.29",
-        "event_date": "22/02/2020"
-      },
-      {
-        "file": "seasons/2020/json/resultat-20200222-controlfebrerasco.json",
-        "discipline": "Llargada",
-        "performance": "3.08",
-        "event_date": "22/02/2020"
-      },
-      {
-        "file": "seasons/2020/json/resultat-20200222-controlfebrerasco.json",
-        "discipline": "Llargada",
-        "performance": "3.02",
-        "event_date": "22/02/2020"
-      },
-      {
-        "file": "seasons/2021/json/resultat-20210131-controlgenerreus.json",
-        "discipline": "Llargada",
-        "performance": "3.60",
-        "event_date": "31/01/2021"
-      }
-    ],
-    "refs_total": 34
-  },
-  {
-    "athlete_name": "19 297 (t) Rihana Martos Teixido AF",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2022/json/resultat-20220220-controlfebrer2reus.json",
-        "discipline": "Llargada",
-        "performance": "2.60",
-        "event_date": "20/02/2022"
-      },
-      {
-        "file": "seasons/2022/json/resultat-20220507-cnatterritorialpromociocambrils.json",
-        "discipline": "60 metres llisos",
-        "performance": "11.60",
-        "event_date": "07/05/2022"
-      },
-      {
-        "file": "seasons/2022/json/resultat-20220507-cnatterritorialpromociocambrils.json",
-        "discipline": "Disc (600 g)",
-        "performance": "7.24",
-        "event_date": "07/05/2022"
-      },
-      {
-        "file": "seasons/2022/json/resultat-20220514-cnatterritorialpromociotarragona.json",
-        "discipline": "60 metres tanques (0.50)",
-        "performance": "13.21",
-        "event_date": "14/05/2022"
-      },
-      {
-        "file": "seasons/2022/json/resultat-20220604-cnatterritorialpromocioreus.json",
-        "discipline": "Llargada",
-        "performance": "2.63",
-        "event_date": "04/06/2022"
-      }
-    ],
-    "refs_total": 32
-  },
-  {
-    "athlete_name": "2 206 (e) (t) Khalifa Maljuf",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2021/json/resultat-20210207-controlfebrer1reus.json",
-        "discipline": "Pes (4 Kg)",
-        "performance": "8.02",
-        "event_date": "07/02/2021"
-      },
-      {
-        "file": "seasons/2021/json/resultat-20210207-controlfebrer1reus.json",
-        "discipline": "Pes (4 Kg)",
-        "performance": "7.97",
-        "event_date": "07/02/2021"
-      },
-      {
-        "file": "seasons/2021/json/resultat-20210207-controlfebrer1reus.json",
-        "discipline": "Pes (4 Kg)",
-        "performance": "7.96",
-        "event_date": "07/02/2021"
-      },
-      {
-        "file": "seasons/2021/json/resultat-20210207-controlfebrer1reus.json",
-        "discipline": "Pes (4 Kg)",
-        "performance": "7.73",
-        "event_date": "07/02/2021"
-      },
-      {
-        "file": "seasons/2021/json/resultat-20210207-controlfebrer1reus.json",
-        "discipline": "Pes (4 Kg)",
-        "performance": "7.16",
-        "event_date": "07/02/2021"
-      }
-    ],
-    "refs_total": 14
-  },
-  {
-    "athlete_name": "2 26 (t) Duina Borreda Cervello BF",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2018/json/resultat-20180224-controltorredembarra.json",
-        "discipline": "Llargada",
-        "performance": "2.46",
-        "event_date": "24/02/2018"
-      },
-      {
-        "file": "seasons/2018/json/resultat-20180414-cnatterritorialcambrils.json",
-        "discipline": "Llargada",
-        "performance": "2.54",
-        "event_date": "14/04/2018"
-      },
-      {
-        "file": "seasons/2018/json/resultat-2018042829-controlprimaveracambrils.json",
-        "discipline": "60 metres llisos",
-        "performance": "10.85",
-        "event_date": "28/04/2018"
-      },
-      {
-        "file": "seasons/2018/json/resultat-20181208-controlhiverncambrils.json",
-        "discipline": "60 metres llisos",
-        "performance": "10.31",
-        "event_date": "08/12/2018"
-      },
-      {
-        "file": "seasons/2019/json/resultat-20190126-controlgenertarragona.json",
-        "discipline": "Llargada",
-        "performance": "6.30",
-        "event_date": "26/01/2019"
-      }
-    ],
-    "refs_total": 83
-  },
-  {
-    "athlete_name": "2 273 Paula Sanz Navarro AF",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2020/json/resultat-20200201-controlfebrertarragona.json",
-        "discipline": "60 metres llisos",
-        "performance": "10.82",
-        "event_date": "01/02/2020"
-      }
-    ]
-  },
-  {
-    "athlete_name": "2 97 (t) Pau Ortiz Garcia",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2021/json/resultat-20210131-controlgenerreus.json",
-        "discipline": "Pes (4 Kg)",
-        "performance": "10.87",
-        "event_date": "31/01/2021"
-      },
-      {
-        "file": "seasons/2021/json/resultat-20210131-controlgenerreus.json",
-        "discipline": "Pes (4 Kg)",
-        "performance": "11.06",
-        "event_date": "31/01/2021"
-      },
-      {
-        "file": "seasons/2021/json/resultat-20210131-controlgenerreus.json",
-        "discipline": "Pes (4 Kg)",
-        "performance": "10.52",
-        "event_date": "31/01/2021"
-      },
-      {
-        "file": "seasons/2021/json/resultat-20210131-controlgenerreus.json",
-        "discipline": "Pes (4 Kg)",
-        "performance": "10.40",
-        "event_date": "31/01/2021"
-      },
-      {
-        "file": "seasons/2021/json/resultat-20210131-controlgenerreus.json",
-        "discipline": "Pes (4 Kg)",
-        "performance": "11.18",
-        "event_date": "31/01/2021"
-      }
-    ],
-    "refs_total": 38
-  },
-  {
-    "athlete_name": "20 238 (t) Ariadna Domenech Martin AF",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2019/json/resultat-20190126-controlgenertarragona.json",
-        "discipline": "Llargada",
-        "performance": "2.38",
-        "event_date": "26/01/2019"
-      },
-      {
-        "file": "seasons/2019/json/resultat-2019033031-territcombinadescambrils.json",
-        "discipline": "60 metres tanques (0.50)",
-        "performance": "16.95",
-        "event_date": "30/03/2019"
-      },
-      {
-        "file": "seasons/2019/json/resultat-2019033031-territcombinadescambrils.json",
-        "discipline": "Llargada",
-        "performance": "2.24",
-        "event_date": "30/03/2019"
-      },
-      {
-        "file": "seasons/2019/json/resultat-2019033031-territcombinadescambrils.json",
-        "discipline": "60 metres llisos",
-        "performance": "11.81",
-        "event_date": "30/03/2019"
-      }
-    ]
-  },
-  {
-    "athlete_name": "20 258 (t) Pilar Aranda Sanchez AF",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2018/json/resultat-20180113-controlgenercambrils.json",
-        "discipline": "Llargada",
-        "performance": "2.93",
-        "event_date": "13/01/2018"
-      },
-      {
-        "file": "seasons/2018/json/resultat-20180120-controlamposta.json",
-        "discipline": "Pes (2 Kg)",
-        "performance": "4.63",
-        "event_date": "20/01/2018"
-      },
-      {
-        "file": "seasons/2018/json/resultat-20180120-controlamposta.json",
-        "discipline": "Pes (2 Kg)",
-        "performance": "4.60",
-        "event_date": "20/01/2018"
-      },
-      {
-        "file": "seasons/2018/json/resultat-20180120-controlamposta.json",
-        "discipline": "Pes (2 Kg)",
-        "performance": "4.38",
-        "event_date": "20/01/2018"
-      }
-    ]
-  },
-  {
-    "athlete_name": "20 287 (t) Quim Sousa Iturria BM",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2018/json/resultat-20180414-cnatterritorialcambrils.json",
-        "discipline": "Llargada",
-        "performance": "2.58",
-        "event_date": "14/04/2018"
-      },
-      {
-        "file": "seasons/2019/json/resultat-20190126-controlgenertarragona.json",
-        "discipline": "Llargada",
-        "performance": "16.28",
-        "event_date": "26/01/2019"
-      },
-      {
-        "file": "seasons/2019/json/resultat-20190126-controlgenertarragona.json",
-        "discipline": "Llargada",
-        "performance": "14.56",
-        "event_date": "26/01/2019"
-      },
-      {
-        "file": "seasons/2019/json/resultat-20190126-controlgenertarragona.json",
-        "discipline": "Llargada",
-        "performance": "14.13",
-        "event_date": "26/01/2019"
-      },
-      {
-        "file": "seasons/2019/json/resultat-2019033031-controlprimaveracambrils.json",
-        "discipline": "60 metres llisos",
-        "performance": "10.45",
-        "event_date": "30/03/2019"
-      }
-    ],
-    "refs_total": 26
-  },
-  {
-    "athlete_name": "21 259 (t) Nuria Badia Palleja AF",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2018/json/resultat-20180113-controlgenercambrils.json",
-        "discipline": "Llargada",
-        "performance": "2.90",
-        "event_date": "13/01/2018"
-      },
-      {
-        "file": "seasons/2018/json/resultat-20180120-controlamposta.json",
-        "discipline": "Pes (2 Kg)",
-        "performance": "3.34",
-        "event_date": "20/01/2018"
-      },
-      {
-        "file": "seasons/2018/json/resultat-20180120-controlamposta.json",
-        "discipline": "Pes (2 Kg)",
-        "performance": "4.29",
-        "event_date": "20/01/2018"
-      }
-    ]
-  },
-  {
-    "athlete_name": "22 144 (t) Guifre Gonzalez Ceresuela",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2019/json/resultat-20190126-controlgenertarragona.json",
-        "discipline": "Llargada",
-        "performance": "2.88",
-        "event_date": "26/01/2019"
-      },
-      {
-        "file": "seasons/2019/json/resultat-20190406-cnatterritpromociotarragona.json",
-        "discipline": "60 metres llisos",
-        "performance": "11.29",
-        "event_date": "06/04/2019"
-      }
-    ]
-  },
-  {
-    "athlete_name": "22 60 (t) Marc Avilés Magret BM",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2020/json/resultat-20200208-controlfebrervalls.json",
-        "discipline": "Llargada",
-        "performance": "1.68",
-        "event_date": "08/02/2020"
-      }
-    ]
-  },
-  {
-    "athlete_name": "23 154 (t) Ruth Martinez Rosillo IF",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2019/json/resultat-20190427-trobadacatmeridionalguipuzcoacambrils.json",
-        "discipline": "Llargada",
-        "performance": "3.02",
-        "event_date": "27/04/2019"
-      },
-      {
-        "file": "seasons/2019/json/resultat-20190427-trobadacatmeridionalguipuzcoacambrils.json",
-        "discipline": "Llargada",
-        "performance": "3.14",
-        "event_date": "27/04/2019"
-      },
-      {
-        "file": "seasons/2019/json/resultat-20190427-trobadacatmeridionalguipuzcoacambrils.json",
-        "discipline": "Llargada",
-        "performance": "3.08",
-        "event_date": "27/04/2019"
-      },
-      {
-        "file": "seasons/2019/json/resultat-20190504-cnatterritorialpromociovalls.json",
-        "discipline": "150 metres llisos",
-        "performance": "23.40",
-        "event_date": "04/05/2019"
-      },
-      {
-        "file": "seasons/2019/json/resultat-20190504-cnatterritorialpromociovalls.json",
-        "discipline": "Triple",
-        "performance": "6.79",
-        "event_date": "04/05/2019"
-      }
-    ],
-    "refs_total": 32
-  },
-  {
-    "athlete_name": "24 259 (t) Sofia Fernandez Ortega IF",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2022/json/resultat-20220115-controlgener1cambrils.json",
-        "discipline": "Llargada",
-        "performance": "2.84",
-        "event_date": "15/01/2022"
-      },
-      {
-        "file": "seasons/2022/json/resultat-20220129-controlgener3cambrils.json",
-        "discipline": "60 metres llisos",
-        "performance": "10.77",
-        "event_date": "29/01/2022"
-      }
-    ]
-  },
-  {
-    "athlete_name": "26 278 (t) Marta Lorenzo Valldosera AF",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2018/json/resultat-20180113-controlgenercambrils.json",
-        "discipline": "Llargada",
-        "performance": "2.67",
-        "event_date": "13/01/2018"
-      },
-      {
-        "file": "seasons/2020/json/resultat-20200111-controlgenercambrils.json",
-        "discipline": "60 metres llisos",
-        "performance": "9.09",
-        "event_date": "11/01/2020"
-      },
-      {
-        "file": "seasons/2020/json/resultat-20200201-controlfebrertarragona.json",
-        "discipline": "60 metres llisos",
-        "performance": "9.28",
-        "event_date": "01/02/2020"
-      },
-      {
-        "file": "seasons/2021/json/resultat-20210131-controlgenerreus.json",
-        "discipline": "Pes (4 Kg)",
-        "performance": "9.24",
-        "event_date": "31/01/2021"
-      },
-      {
-        "file": "seasons/2021/json/resultat-20210207-controlfebrer1reus.json",
-        "discipline": "60 metres llisos",
-        "performance": "9.15",
-        "event_date": "07/02/2021"
-      }
-    ],
-    "refs_total": 10
-  },
-  {
-    "athlete_name": "26 381 (t) Clàudia Espinosa Rodríguez IF",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2023/json/resultat-20230211-controlfebrer1reus.json",
-        "discipline": "Llargada",
-        "performance": "3.08",
-        "event_date": "11/02/2023"
-      },
-      {
-        "file": "seasons/2023/json/resultat-20230211-controlfebrer1reus.json",
-        "discipline": "Llargada",
-        "performance": "3.38",
-        "event_date": "11/02/2023"
-      },
-      {
-        "file": "seasons/2023/json/resultat-20230225-catclubsasub14pcsabadell.json",
-        "discipline": "2000 metres llisos",
-        "performance": "8:04.76",
-        "event_date": "25/02/2023"
-      },
-      {
-        "file": "seasons/2023/json/resultat-20230415-trobadacatalunyameridionalgipuzkoacambrils.json",
-        "discipline": "80 metres llisos",
-        "performance": "11.96",
-        "event_date": "15/04/2023"
-      },
-      {
-        "file": "seasons/2023/json/resultat-20230415-trobadacatalunyameridionalgipuzkoacambrils.json",
-        "discipline": "150 metres llisos",
-        "performance": "22.79",
-        "event_date": "15/04/2023"
-      }
-    ],
-    "refs_total": 10
-  },
-  {
-    "athlete_name": "3 115 (t) Ivet Font Estrems",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2021/json/resultat-20210131-controlgenerreus.json",
-        "discipline": "Pes (4 Kg)",
-        "performance": "9.42",
-        "event_date": "31/01/2021"
-      },
-      {
-        "file": "seasons/2021/json/resultat-20210424-cnatterritorialtarragona.json",
-        "discipline": "Llargada",
-        "performance": "3.73",
-        "event_date": "24/04/2021"
-      },
-      {
-        "file": "seasons/2021/json/resultat-20210424-cnatterritorialtarragona.json",
-        "discipline": "Llargada",
-        "performance": "3.57",
-        "event_date": "24/04/2021"
-      },
-      {
-        "file": "seasons/2021/json/resultat-20210424-cnatterritorialtarragona.json",
-        "discipline": "Llargada",
-        "performance": "3.50",
-        "event_date": "24/04/2021"
-      }
-    ]
-  },
-  {
-    "athlete_name": "3 120 (t) Gael Torres Fortuny BM",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2023/json/resultat-20230422-controlcatorredembarra.json",
-        "discipline": "Llargada",
-        "performance": "2.52",
-        "event_date": "22/04/2023"
-      },
-      {
-        "file": "seasons/2023/json/resultat-20230422-controlcatorredembarra.json",
-        "discipline": "Llargada",
-        "performance": "16.68",
-        "event_date": "22/04/2023"
-      },
-      {
-        "file": "seasons/2023/json/resultat-20230501-cnatterritorialpromocioreus.json",
-        "discipline": "1000 metres marxa",
-        "performance": "8:39.00",
-        "event_date": "01/05/2023"
-      },
-      {
-        "file": "seasons/2024/json/resultat-20240120-controlgenertarragona.json",
-        "discipline": "Pes (2 Kg)",
-        "performance": "3.26",
-        "event_date": "20/01/2024"
-      },
-      {
-        "file": "seasons/2024/json/resultat-20240120-controlgenertarragona.json",
-        "discipline": "Pes (2 Kg)",
-        "performance": "3.87",
-        "event_date": "20/01/2024"
-      }
-    ],
-    "refs_total": 6
-  },
-  {
-    "athlete_name": "3 265 (t) Nil Pàmies Miró BM",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2020/json/resultat-20200201-controlfebrertarragona.json",
-        "discipline": "Llargada",
-        "performance": "2.99",
-        "event_date": "01/02/2020"
-      },
-      {
-        "file": "seasons/2020/json/resultat-20200208-controlfebrervalls.json",
-        "discipline": "Llargada",
-        "performance": "2.69",
-        "event_date": "08/02/2020"
-      },
-      {
-        "file": "seasons/2021/json/resultat-20210328-controlvilanova.json",
-        "discipline": "Llargada",
-        "performance": "3.39",
-        "event_date": "28/03/2021"
-      },
-      {
-        "file": "seasons/2021/json/resultat-20210328-controlvilanova.json",
-        "discipline": "Llargada",
-        "performance": "3.24",
-        "event_date": "28/03/2021"
-      },
-      {
-        "file": "seasons/2021/json/resultat-20210328-controlvilanova.json",
-        "discipline": "Llargada",
-        "performance": "3.13",
-        "event_date": "28/03/2021"
-      }
-    ],
-    "refs_total": 35
-  },
-  {
-    "athlete_name": "3 351 (t) Carlos Amoros Muñoz",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2023/json/resultat-20230211-controlfebrer1reus.json",
-        "discipline": "60 metres llisos",
-        "performance": "9.19",
-        "event_date": "11/02/2023"
-      }
-    ]
-  },
-  {
-    "athlete_name": "3 374 (t) Aina Olmo Chavez BF",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2022/json/resultat-20220507-cnatterritorialpromociocambrils.json",
-        "discipline": "60 metres llisos",
-        "performance": "11.85",
-        "event_date": "07/05/2022"
-      },
-      {
-        "file": "seasons/2022/json/resultat-20220507-cnatterritorialpromociocambrils.json",
-        "discipline": "Llargada",
-        "performance": "2.40",
-        "event_date": "07/05/2022"
-      }
-    ]
-  },
-  {
-    "athlete_name": "3 77 (t) Nil Pages Corts BM",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2020/json/resultat-20200208-controlfebrervalls.json",
-        "discipline": "Llargada",
-        "performance": "3.00",
-        "event_date": "08/02/2020"
-      },
-      {
-        "file": "seasons/2021/json/resultat-20210328-controlvilanova.json",
-        "discipline": "Llargada",
-        "performance": "2.78",
-        "event_date": "28/03/2021"
-      },
-      {
-        "file": "seasons/2021/json/resultat-20210410-catrelleuspromociopreviatarragona.json",
-        "discipline": "4x60",
-        "performance": "36.70",
-        "event_date": "10/04/2021"
-      },
-      {
-        "file": "seasons/2021/json/resultat-20210410-catrelleuspromociopreviatarragona.json",
-        "discipline": "3x600",
-        "performance": "6:54.79",
-        "event_date": "10/04/2021"
-      },
-      {
-        "file": "seasons/2021/json/resultat-20210411-cnatterritorialreus.json",
-        "discipline": "Llargada",
-        "performance": "3.15",
-        "event_date": "11/04/2021"
-      }
-    ],
-    "refs_total": 15
-  },
-  {
-    "athlete_name": "3 97 (t) Judit Garcia Conesa",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2018/json/resultat-20180127-controlsub16pcsabadell.json",
-        "discipline": "60 metres llisos",
-        "performance": "9.76",
-        "event_date": "27/01/2018"
-      }
-    ]
-  },
-  {
-    "athlete_name": "4 159 (t) Violeta Roda Zuñiga IF",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2019/json/resultat-20190504-cnatterritorialpromociovalls.json",
-        "discipline": "150 metres llisos",
-        "performance": "24.83",
-        "event_date": "04/05/2019"
-      },
-      {
-        "file": "seasons/2019/json/resultat-20190504-cnatterritorialpromociovalls.json",
-        "discipline": "Triple",
-        "performance": "6.21",
-        "event_date": "04/05/2019"
-      },
-      {
-        "file": "seasons/2019/json/resultat-20190601-cnatterritoailpromociotarragona.json",
-        "discipline": "Martell (2 Kg)",
-        "performance": "16.42",
-        "event_date": "01/06/2019"
-      }
-    ]
-  },
-  {
-    "athlete_name": "4 249 (t) Pol Villena Balaguer IM",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2022/json/resultat-20220115-controlgener1cambrils.json",
-        "discipline": "60 metres tanques (0.84)",
-        "performance": "13.17",
-        "event_date": "15/01/2022"
-      },
-      {
-        "file": "seasons/2022/json/resultat-20220115-controlgener1cambrils.json",
-        "discipline": "Llargada",
-        "performance": "3.29",
-        "event_date": "15/01/2022"
-      },
-      {
-        "file": "seasons/2022/json/resultat-20220115-controlgener1cambrils.json",
-        "discipline": "Llargada",
-        "performance": "3.50",
-        "event_date": "15/01/2022"
-      },
-      {
-        "file": "seasons/2022/json/resultat-20220115-controlgener1cambrils.json",
-        "discipline": "Llargada",
-        "performance": "3.57",
-        "event_date": "15/01/2022"
-      },
-      {
-        "file": "seasons/2022/json/resultat-20220115-controlgener1cambrils.json",
-        "discipline": "Llargada",
-        "performance": "3.15",
-        "event_date": "15/01/2022"
-      }
-    ]
-  },
-  {
-    "athlete_name": "4 34 (t) Marcel Mislata Vallecillo",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2018/json/resultat-20181208-controlhiverncambrils.json",
-        "discipline": "60 metres llisos",
-        "performance": "10.35",
-        "event_date": "08/12/2018"
-      }
-    ]
-  },
-  {
-    "athlete_name": "4 362 (t) Nahim Oulad Cabeza IM",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2018/json/resultat-20180505-cnatterritorialvalls.json",
-        "discipline": "Triple",
-        "performance": "7.55",
-        "event_date": "05/05/2018"
-      },
-      {
-        "file": "seasons/2018/json/resultat-20180505-cnatterritorialvalls.json",
-        "discipline": "Triple",
-        "performance": "7.50",
-        "event_date": "05/05/2018"
-      },
-      {
-        "file": "seasons/2018/json/resultat-20180505-cnatterritorialvalls.json",
-        "discipline": "Triple",
-        "performance": "7.62",
-        "event_date": "05/05/2018"
-      }
-    ]
-  },
-  {
-    "athlete_name": "4 385 (t) Merce Bages Vellve BF",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2023/json/resultat-20230114-controlgener1tarragona.json",
-        "discipline": "Javelina (600 g)",
-        "performance": "4.39",
-        "event_date": "14/01/2023"
-      },
-      {
-        "file": "seasons/2023/json/resultat-20230114-controlgener1tarragona.json",
-        "discipline": "Javelina (600 g)",
-        "performance": "6.14",
-        "event_date": "14/01/2023"
-      },
-      {
-        "file": "seasons/2023/json/resultat-20230114-controlgener1tarragona.json",
-        "discipline": "Javelina (600 g)",
-        "performance": "5.41",
-        "event_date": "14/01/2023"
-      },
-      {
-        "file": "seasons/2023/json/resultat-20230422-controlcatorredembarra.json",
-        "discipline": "Llargada",
-        "performance": "1.79",
-        "event_date": "22/04/2023"
-      }
-    ]
-  },
-  {
-    "athlete_name": "4 45 (t) Julia Baringo Canals IF",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2019/json/resultat-20190518-catclubssub14elprat.json",
-        "discipline": "Disc (1 Kg)",
-        "performance": "14.37",
-        "event_date": "18/05/2019"
-      },
-      {
-        "file": "seasons/2019/json/resultat-20190518-catclubssub14elprat.json",
-        "discipline": "Disc (1 Kg)",
-        "performance": "14.14",
-        "event_date": "18/05/2019"
-      }
-    ]
-  },
-  {
-    "athlete_name": "4 58 (t) Martina Prats Casado",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2018/json/resultat-20181208-controlhiverncambrils.json",
-        "discipline": "300 metres llisos",
-        "performance": "0:51.87",
-        "event_date": "08/12/2018"
-      },
-      {
-        "file": "seasons/2019/json/resultat-20190406-cnatterritpromociotarragona.json",
-        "discipline": "Llargada",
-        "performance": "4.19",
-        "event_date": "06/04/2019"
-      },
-      {
-        "file": "seasons/2019/json/resultat-20190406-cnatterritpromociotarragona.json",
-        "discipline": "Llargada",
-        "performance": "4.24",
-        "event_date": "06/04/2019"
-      },
-      {
-        "file": "seasons/2019/json/resultat-20190615-trobadacambrilsandorra.json",
-        "discipline": "Llargada",
-        "performance": "4.28",
-        "event_date": "15/06/2019"
-      },
-      {
-        "file": "seasons/2019/json/resultat-20190615-trobadacambrilsandorra.json",
-        "discipline": "Llargada",
-        "performance": "4.18",
-        "event_date": "15/06/2019"
-      }
-    ]
-  },
-  {
-    "athlete_name": "4 95 (t) Claudia Sanchez Fernandez BF 7-",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2018/json/resultat-20180317-cnatterritpromocioasco.json",
-        "discipline": "1000 metres marxa",
-        "performance": "7:39.00",
-        "event_date": "17/03/2018"
-      },
-      {
-        "file": "seasons/2018/json/resultat-2018042829-controlprimaveracambrils.json",
-        "discipline": "60 metres llisos",
-        "performance": "11.05",
-        "event_date": "28/04/2018"
-      },
-      {
-        "file": "seasons/2018/json/resultat-20180519-catsub10ascoprevia.json",
-        "discipline": "1000 metres marxa",
-        "performance": "7:29.48",
-        "event_date": "19/05/2018"
-      },
-      {
-        "file": "seasons/2019/json/resultat-20190316-controltorredembarra.json",
-        "discipline": "Llargada",
-        "performance": "2.30",
-        "event_date": "16/03/2019"
-      },
-      {
-        "file": "seasons/2019/json/resultat-20190316-controltorredembarra.json",
-        "discipline": "1000 metres marxa",
-        "performance": "7:28.00",
-        "event_date": "16/03/2019"
-      }
-    ],
-    "refs_total": 11
-  },
-  {
-    "athlete_name": "5 26 (t) Kilian Borreda Ceervello",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2021/json/resultat-20210328-controlvilanova.json",
-        "discipline": "Llargada",
-        "performance": "3.10",
-        "event_date": "28/03/2021"
-      },
-      {
-        "file": "seasons/2021/json/resultat-20210328-controlvilanova.json",
-        "discipline": "Llargada",
-        "performance": "3.03",
-        "event_date": "28/03/2021"
-      },
-      {
-        "file": "seasons/2021/json/resultat-20210410-catrelleuspromociopreviatarragona.json",
-        "discipline": "4x60",
-        "performance": "39.87",
-        "event_date": "10/04/2021"
-      },
-      {
-        "file": "seasons/2021/json/resultat-20210417-catrelleuspromociofinalelprat.json",
-        "discipline": "4x60",
-        "performance": "39.40",
-        "event_date": "17/04/2021"
-      },
-      {
-        "file": "seasons/2021/json/resultat-20210417-catrelleuspromociofinalelprat.json",
-        "discipline": "4x60",
-        "performance": "39.65",
-        "event_date": "17/04/2021"
-      }
-    ],
-    "refs_total": 8
-  },
-  {
-    "athlete_name": "5 354 (t) Biel Gordillo Rodriguez BM",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2023/json/resultat-20230114-controlgener1tarragona.json",
-        "discipline": "Javelina (800 g)",
-        "performance": "13.75",
-        "event_date": "14/01/2023"
-      },
-      {
-        "file": "seasons/2023/json/resultat-20230114-controlgener1tarragona.json",
-        "discipline": "Javelina (800 g)",
-        "performance": "13.45",
-        "event_date": "14/01/2023"
-      }
-    ]
-  },
-  {
-    "athlete_name": "5 41 (t) Paula Diez Plasencia",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2018/json/resultat-20180120-controlamposta.json",
-        "discipline": "Llargada",
-        "performance": "2.26",
-        "event_date": "20/01/2018"
-      },
-      {
-        "file": "seasons/2018/json/resultat-20180224-controltorredembarra.json",
-        "discipline": "Llargada",
-        "performance": "2.15",
-        "event_date": "24/02/2018"
-      },
-      {
-        "file": "seasons/2018/json/resultat-20180317-cnatterritpromocioasco.json",
-        "discipline": "1000 metres marxa",
-        "performance": "7:39.00",
-        "event_date": "17/03/2018"
-      },
-      {
-        "file": "seasons/2018/json/resultat-20180414-cnatterritorialcambrils.json",
-        "discipline": "Llargada",
-        "performance": "2.53",
-        "event_date": "14/04/2018"
-      },
-      {
-        "file": "seasons/2018/json/resultat-2018042829-controlprimaveracambrils.json",
-        "discipline": "60 metres llisos",
-        "performance": "11.95",
-        "event_date": "28/04/2018"
-      }
-    ],
-    "refs_total": 60
-  },
-  {
-    "athlete_name": "5 445 (t) Nicolas Franco Teixeira",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2024/json/resultat-20240120-controlgenertarragona.json",
-        "discipline": "Pes (2 Kg)",
-        "performance": "3.88",
-        "event_date": "20/01/2024"
-      },
-      {
-        "file": "seasons/2024/json/resultat-20240120-controlgenertarragona.json",
-        "discipline": "Pes (2 Kg)",
-        "performance": "3.76",
-        "event_date": "20/01/2024"
-      },
-      {
-        "file": "seasons/2024/json/resultat-20240120-controlgenertarragona.json",
-        "discipline": "Pes (2 Kg)",
-        "performance": "3.39",
-        "event_date": "20/01/2024"
-      },
-      {
-        "file": "seasons/2024/json/resultat-20240210-cnatterritorialcombinadessub1214tarragona.json",
-        "discipline": "Pes (2 Kg)",
-        "performance": "3.55",
-        "event_date": "10/02/2024"
-      },
-      {
-        "file": "seasons/2024/json/resultat-20240210-cnatterritorialcombinadessub1214tarragona.json",
-        "discipline": "Pes (2 Kg)",
-        "performance": "3.89",
-        "event_date": "10/02/2024"
-      }
-    ]
-  },
-  {
-    "athlete_name": "5 61 (t) Josep Lluis Escribano Gomez",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2021/json/resultat-20210328-controlvilanova.json",
-        "discipline": "Disc (1 Kg)",
-        "performance": "12.49",
-        "event_date": "28/03/2021"
-      },
-      {
-        "file": "seasons/2021/json/resultat-20210328-controlvilanova.json",
-        "discipline": "Disc (1 Kg)",
-        "performance": "14.91",
-        "event_date": "28/03/2021"
-      },
-      {
-        "file": "seasons/2021/json/resultat-2021041718-cnatterritcombinadestarragona.json",
-        "discipline": "60 metres llisos",
-        "performance": "11.99",
-        "event_date": "18/04/2021"
-      },
-      {
-        "file": "seasons/2021/json/resultat-2021041718-cnatterritcombinadestarragona.json",
-        "discipline": "Llargada",
-        "performance": "2.37",
-        "event_date": "18/04/2021"
-      },
-      {
-        "file": "seasons/2021/json/resultat-2021041718-cnatterritcombinadestarragona.json",
-        "discipline": "Pes (2 Kg)",
-        "performance": "3.41",
-        "event_date": "18/04/2021"
-      }
-    ],
-    "refs_total": 9
-  },
-  {
-    "athlete_name": "6 271 Judit Fernandez Olmo",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2020/json/resultat-20200201-controlfebrertarragona.json",
-        "discipline": "60 metres tanques (0.76)",
-        "performance": "13.17",
-        "event_date": "01/02/2020"
-      }
-    ]
-  },
-  {
-    "athlete_name": "6 30 (t) Bruna Masdeu Mora BF",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2018/json/resultat-20180224-controltorredembarra.json",
-        "discipline": "Llargada",
-        "performance": "2.16",
-        "event_date": "24/02/2018"
-      },
-      {
-        "file": "seasons/2018/json/resultat-20180317-cnatterritpromocioasco.json",
-        "discipline": "1000 metres marxa",
-        "performance": "7:40.00",
-        "event_date": "17/03/2018"
-      },
-      {
-        "file": "seasons/2018/json/resultat-20180414-cnatterritorialcambrils.json",
-        "discipline": "Llargada",
-        "performance": "2.67",
-        "event_date": "14/04/2018"
-      },
-      {
-        "file": "seasons/2018/json/resultat-20180519-catsub10ascoprevia.json",
-        "discipline": "1000 metres marxa",
-        "performance": "7:30.02",
-        "event_date": "19/05/2018"
-      },
-      {
-        "file": "seasons/2019/json/resultat-20190126-controlgenertarragona.json",
-        "discipline": "Llargada",
-        "performance": "10.86",
-        "event_date": "26/01/2019"
-      }
-    ],
-    "refs_total": 8
-  },
-  {
-    "athlete_name": "6 43 (t) Irene De La Rosa Fortuny BF",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2018/json/resultat-20181208-controlhiverncambrils.json",
-        "discipline": "60 metres llisos",
-        "performance": "11.70",
-        "event_date": "08/12/2018"
-      },
-      {
-        "file": "seasons/2018/json/resultat-20181209-trofeusalcedacastellscambrils.json",
-        "discipline": "1000 metres llisos",
-        "performance": "4:51.49",
-        "event_date": "09/12/2018"
-      },
-      {
-        "file": "seasons/2019/json/resultat-20190126-controlgenertarragona.json",
-        "discipline": "Llargada",
-        "performance": "7.46",
-        "event_date": "26/01/2019"
-      },
-      {
-        "file": "seasons/2019/json/resultat-20190126-controlgenertarragona.json",
-        "discipline": "Llargada",
-        "performance": "10.21",
-        "event_date": "26/01/2019"
-      },
-      {
-        "file": "seasons/2019/json/resultat-20190126-controlgenertarragona.json",
-        "discipline": "Llargada",
-        "performance": "9.46",
-        "event_date": "26/01/2019"
-      }
-    ],
-    "refs_total": 65
-  },
-  {
-    "athlete_name": "6 47 (t) Gonzalo Bellón Tirado",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2020/json/resultat-20200118-controlgenerreus.json",
-        "discipline": "Llargada",
-        "performance": "4.78",
-        "event_date": "18/01/2020"
-      },
-      {
-        "file": "seasons/2020/json/resultat-20200118-controlgenerreus.json",
-        "discipline": "Llargada",
-        "performance": "4.25",
-        "event_date": "18/01/2020"
-      },
-      {
-        "file": "seasons/2020/json/resultat-20200118-controlgenerreus.json",
-        "discipline": "Llargada",
-        "performance": "4.36",
-        "event_date": "18/01/2020"
-      },
-      {
-        "file": "seasons/2020/json/resultat-20200118-controlgenerreus.json",
-        "discipline": "Llargada",
-        "performance": "4.03",
-        "event_date": "18/01/2020"
-      },
-      {
-        "file": "seasons/2020/json/resultat-20200118-controlgenerreus.json",
-        "discipline": "Llargada",
-        "performance": "4.22",
-        "event_date": "18/01/2020"
-      }
-    ]
-  },
-  {
-    "athlete_name": "7 110 (t) Marius Badia Riera BM",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2021/json/resultat-20210424-cnatterritorialtarragona.json",
-        "discipline": "Llargada",
-        "performance": "3.06",
-        "event_date": "24/04/2021"
-      },
-      {
-        "file": "seasons/2023/json/resultat-20231216-trofeunadalcnrp.json",
-        "discipline": "Llargada",
-        "performance": "3.01",
-        "event_date": "16/12/2023"
-      },
-      {
-        "file": "seasons/2023/json/resultat-20231216-trofeunadalcnrp.json",
-        "discipline": "Llargada",
-        "performance": "3.30",
-        "event_date": "16/12/2023"
-      },
-      {
-        "file": "seasons/2024/json/resultat-20240518-cnatterritpromociocambrils.json",
-        "discipline": "Javelina (500 g)",
-        "performance": "19.22",
-        "event_date": "18/05/2024"
-      },
-      {
-        "file": "seasons/2024/json/resultat-20240518-cnatterritpromociocambrils.json",
-        "discipline": "Javelina (500 g)",
-        "performance": "20.49",
-        "event_date": "18/05/2024"
-      }
-    ],
-    "refs_total": 18
-  },
-  {
-    "athlete_name": "7 304 (t) Vera Fernandez Ortega IF",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2020/json/resultat-20200111-controlgenercambrils.json",
-        "discipline": "60 metres llisos",
-        "performance": "9.21",
-        "event_date": "11/01/2020"
-      },
-      {
-        "file": "seasons/2020/json/resultat-20200111-controlgenercambrils.json",
-        "discipline": "Llargada",
-        "performance": "3.25",
-        "event_date": "11/01/2020"
-      },
-      {
-        "file": "seasons/2020/json/resultat-20200111-controlgenercambrils.json",
-        "discipline": "Llargada",
-        "performance": "3.60",
-        "event_date": "11/01/2020"
-      },
-      {
-        "file": "seasons/2020/json/resultat-20200111-controlgenercambrils.json",
-        "discipline": "Llargada",
-        "performance": "3.48",
-        "event_date": "11/01/2020"
-      },
-      {
-        "file": "seasons/2020/json/resultat-20200125-catclubssub14pcsabadell.json",
-        "discipline": "Pes (2 Kg)",
-        "performance": "5.30",
-        "event_date": "25/01/2020"
-      }
-    ],
-    "refs_total": 14
-  },
-  {
-    "athlete_name": "7 32 (t) Iker Costa Bakker BM",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2019/json/resultat-20190519-catclubssub10elprat.json",
-        "discipline": "Llargada",
-        "performance": "3.02",
-        "event_date": "19/05/2019"
-      }
-    ]
-  },
-  {
-    "athlete_name": "7 342 (t) Hugo De Cal Medina BM",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2023/json/resultat-20230114-controlgener1tarragona.json",
-        "discipline": "Javelina (800 g)",
-        "performance": "8.76",
-        "event_date": "14/01/2023"
-      },
-      {
-        "file": "seasons/2023/json/resultat-20230114-controlgener1tarragona.json",
-        "discipline": "Javelina (800 g)",
-        "performance": "13.07",
-        "event_date": "14/01/2023"
-      },
-      {
-        "file": "seasons/2023/json/resultat-20230114-controlgener1tarragona.json",
-        "discipline": "Javelina (800 g)",
-        "performance": "11.40",
-        "event_date": "14/01/2023"
-      }
-    ]
-  },
-  {
-    "athlete_name": "7 356 (t) Èric Guijarro Rom",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2023/json/resultat-20230114-controlgener1tarragona.json",
-        "discipline": "60 metres llisos",
-        "performance": "10.34",
-        "event_date": "14/01/2023"
-      },
-      {
-        "file": "seasons/2023/json/resultat-20230501-cnatterritorialpromocioreus.json",
-        "discipline": "Llargada",
-        "performance": "2.83",
-        "event_date": "01/05/2023"
-      },
-      {
-        "file": "seasons/2023/json/resultat-20230527-cnatterritpromociocambrils.json",
-        "discipline": "Pes (2 Kg)",
-        "performance": "3.83",
-        "event_date": "27/05/2023"
-      },
-      {
-        "file": "seasons/2023/json/resultat-20230527-cnatterritpromociocambrils.json",
-        "discipline": "Pes (2 Kg)",
-        "performance": "3.92",
-        "event_date": "27/05/2023"
-      },
-      {
-        "file": "seasons/2024/json/resultat-20240210-cnatterritorialcombinadessub1214tarragona.json",
-        "discipline": "Triatló",
-        "performance": "168",
-        "event_date": "10/02/2024"
-      }
-    ],
-    "refs_total": 9
-  },
-  {
-    "athlete_name": "7 481 (t) Irene Dominguez Punsoda BF",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2024/json/resultat-20240210-controlconcursossub10tarragona.json",
-        "discipline": "Llargada",
-        "performance": "2.10",
-        "event_date": "10/02/2024"
-      }
-    ]
-  },
-  {
-    "athlete_name": "7 498 (e) (t) Vivian Onyemaekwu AF",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2024/json/resultat-20240120-controlgenertarragona.json",
-        "discipline": "Pes (2 Kg)",
-        "performance": "4.82",
-        "event_date": "20/01/2024"
-      },
-      {
-        "file": "seasons/2024/json/resultat-20240120-controlgenertarragona.json",
-        "discipline": "Pes (2 Kg)",
-        "performance": "4.61",
-        "event_date": "20/01/2024"
-      },
-      {
-        "file": "seasons/2024/json/resultat-20240210-cnatterritorialcombinadessub1214tarragona.json",
-        "discipline": "Triatló",
-        "performance": "444",
-        "event_date": "10/02/2024"
-      },
-      {
-        "file": "seasons/2024/json/resultat-20240420-cnatteritpromociotarragona.json",
-        "discipline": "Javelina (800 g)",
-        "performance": "11.08",
-        "event_date": "20/04/2024"
-      },
-      {
-        "file": "seasons/2024/json/resultat-20240420-cnatteritpromociotarragona.json",
-        "discipline": "Javelina (300 g)",
-        "performance": "8.62",
-        "event_date": "20/04/2024"
-      }
-    ],
-    "refs_total": 11
-  },
-  {
-    "athlete_name": "7 53 (t) Jan Jacob Oliva BM",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2018/json/resultat-20180513-catclubssub10elprat.json",
-        "discipline": "Llargada",
-        "performance": "15.30",
-        "event_date": "13/05/2018"
-      },
-      {
-        "file": "seasons/2018/json/resultat-20180513-catclubssub10elprat.json",
-        "discipline": "Llargada",
-        "performance": "16.72",
-        "event_date": "13/05/2018"
-      },
-      {
-        "file": "seasons/2018/json/resultat-20180513-catclubssub10elprat.json",
-        "discipline": "Llargada",
-        "performance": "13.67",
-        "event_date": "13/05/2018"
-      }
-    ]
-  },
-  {
-    "athlete_name": "7 604 (t) Oriol Bosch Querol",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2019/json/resultat-20190406-cnatterritpromociotarragona.json",
-        "discipline": "60 metres llisos",
-        "performance": "10.97",
-        "event_date": "06/04/2019"
-      }
-    ]
-  },
-  {
-    "athlete_name": "8 15 (t) Ferran Sansa Garcia",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2017/json/resultat-20170513-catclubsalevi.json",
-        "discipline": "Pes (2 Kg)",
-        "performance": "5.39",
-        "event_date": "13/05/2017"
-      },
-      {
-        "file": "seasons/2017/json/resultat-20170513-catclubsalevi.json",
-        "discipline": "Pes (2 Kg)",
-        "performance": "5.17",
-        "event_date": "13/05/2017"
-      }
-    ]
-  },
-  {
-    "athlete_name": "8 48 (t) Oriol Cacho Gurrera",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2020/json/resultat-20200118-controlgenerreus.json",
-        "discipline": "Llargada",
-        "performance": "4.25",
-        "event_date": "18/01/2020"
-      },
-      {
-        "file": "seasons/2020/json/resultat-20200118-controlgenerreus.json",
-        "discipline": "Llargada",
-        "performance": "3.98",
-        "event_date": "18/01/2020"
-      },
-      {
-        "file": "seasons/2020/json/resultat-20200118-controlgenerreus.json",
-        "discipline": "Llargada",
-        "performance": "4.30",
-        "event_date": "18/01/2020"
-      },
-      {
-        "file": "seasons/2020/json/resultat-20200118-controlgenerreus.json",
-        "discipline": "Llargada",
-        "performance": "3.86",
-        "event_date": "18/01/2020"
-      }
-    ]
-  },
-  {
-    "athlete_name": "8 77 (t) Judith Moreno Esteve BF 8-",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2018/json/resultat-20180317-cnatterritpromocioasco.json",
-        "discipline": "1000 metres marxa",
-        "performance": "8:19.00",
-        "event_date": "17/03/2018"
-      },
-      {
-        "file": "seasons/2018/json/resultat-20180414-cnatterritorialcambrils.json",
-        "discipline": "Llargada",
-        "performance": "2.53",
-        "event_date": "14/04/2018"
-      }
-    ]
-  },
-  {
-    "athlete_name": "9 15 (t) Diego Cuadros Cobo",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2017/json/resultat-20170513-catclubsalevi.json",
-        "discipline": "Disc (600 g)",
-        "performance": "12.35",
-        "event_date": "13/05/2017"
-      },
-      {
-        "file": "seasons/2017/json/resultat-20170513-catclubsalevi.json",
-        "discipline": "Disc (600 g)",
-        "performance": "11.88",
-        "event_date": "13/05/2017"
-      }
-    ]
-  },
-  {
-    "athlete_name": "9 339 (t) Jairo Soriano Espinilla",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2018/json/resultat-20180120-controlamposta.json",
-        "discipline": "Pes (2 Kg)",
-        "performance": "3.51",
-        "event_date": "20/01/2018"
-      },
-      {
-        "file": "seasons/2018/json/resultat-20180120-controlamposta.json",
-        "discipline": "Pes (2 Kg)",
-        "performance": "4.33",
-        "event_date": "20/01/2018"
-      },
-      {
-        "file": "seasons/2018/json/resultat-20180217-controlamposta.json",
-        "discipline": "Llargada",
-        "performance": "2.94",
-        "event_date": "17/02/2018"
-      },
-      {
-        "file": "seasons/2018/json/resultat-20180217-controlamposta.json",
-        "discipline": "Pes (2 Kg)",
-        "performance": "3.84",
-        "event_date": "17/02/2018"
-      },
-      {
-        "file": "seasons/2018/json/resultat-20180408-cnatterritorialamposta.json",
-        "discipline": "Llargada",
-        "performance": "3.01",
-        "event_date": "08/04/2018"
-      }
-    ],
-    "refs_total": 6
-  },
-  {
-    "athlete_name": "9 494 (t) Noa Collar Aranegas BF",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2023/json/resultat-20230422-cnatterritpromociotarragona.json",
-        "discipline": "Javelina (600 g)",
-        "performance": "6.90",
-        "event_date": "22/04/2023"
-      },
-      {
-        "file": "seasons/2023/json/resultat-20230422-cnatterritpromociotarragona.json",
-        "discipline": "Javelina (600 g)",
-        "performance": "5.20",
-        "event_date": "22/04/2023"
-      },
-      {
-        "file": "seasons/2023/json/resultat-20230422-cnatterritpromociotarragona.json",
-        "discipline": "Javelina (600 g)",
-        "performance": "6.11",
-        "event_date": "22/04/2023"
-      }
-    ]
-  },
-  {
     "athlete_name": "AARON COBACHO PACHECO",
     "strategy": "no_match",
     "candidates": null,
@@ -2687,7 +37,7 @@
     ]
   },
   {
-    "athlete_name": "ABRIO MANCHADO JORDI AM",
+    "athlete_name": "ABRIO MANCHADO JORDI",
     "strategy": "no_match",
     "candidates": null,
     "refs": [
@@ -2700,7 +50,7 @@
     ]
   },
   {
-    "athlete_name": "AIXALA SOTO NIL AM",
+    "athlete_name": "AIXALA SOTO NIL",
     "strategy": "no_match",
     "candidates": null,
     "refs": [
@@ -3103,7 +453,7 @@
     ]
   },
   {
-    "athlete_name": "ANTILLACH PUJOL JORDINA PBF",
+    "athlete_name": "ANTILLACH PUJOL JORDINA",
     "strategy": "no_match",
     "candidates": null,
     "refs": [
@@ -3141,7 +491,7 @@
     ]
   },
   {
-    "athlete_name": "Abril Llop Pajero IF",
+    "athlete_name": "Abril Llop Pajero",
     "strategy": "no_match",
     "candidates": null,
     "refs": [
@@ -3179,7 +529,7 @@
     "refs_total": 32
   },
   {
-    "athlete_name": "Abril Padilla Perez AF 6",
+    "athlete_name": "Abril Padilla Perez",
     "strategy": "no_match",
     "candidates": null,
     "refs": [
@@ -3215,6 +565,76 @@
       }
     ],
     "refs_total": 8
+  },
+  {
+    "athlete_name": "Abril Pallares Masvidal",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2020/json/resultat-20200201-controlfebrertarragona.json",
+        "discipline": "Llargada",
+        "performance": "1.67",
+        "event_date": "01/02/2020"
+      }
+    ]
+  },
+  {
+    "athlete_name": "Aina Olmo Chavez",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2022/json/resultat-20220507-cnatterritorialpromociocambrils.json",
+        "discipline": "60 metres llisos",
+        "performance": "11.85",
+        "event_date": "07/05/2022"
+      },
+      {
+        "file": "seasons/2022/json/resultat-20220507-cnatterritorialpromociocambrils.json",
+        "discipline": "Llargada",
+        "performance": "2.40",
+        "event_date": "07/05/2022"
+      }
+    ]
+  },
+  {
+    "athlete_name": "Aisha De la Cruz Loeches",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2024/json/resultat-20240120-controlgenertarragona.json",
+        "discipline": "Pes (2 Kg)",
+        "performance": "3.53",
+        "event_date": "20/01/2024"
+      },
+      {
+        "file": "seasons/2024/json/resultat-20240120-controlgenertarragona.json",
+        "discipline": "Pes (2 Kg)",
+        "performance": "3.18",
+        "event_date": "20/01/2024"
+      },
+      {
+        "file": "seasons/2024/json/resultat-20240420-cnatteritpromociotarragona.json",
+        "discipline": "Javelina (800 g)",
+        "performance": "11.92",
+        "event_date": "20/04/2024"
+      },
+      {
+        "file": "seasons/2024/json/resultat-20240420-cnatteritpromociotarragona.json",
+        "discipline": "Javelina (300 g)",
+        "performance": "8.20",
+        "event_date": "20/04/2024"
+      },
+      {
+        "file": "seasons/2024/json/resultat-20240420-cnatteritpromociotarragona.json",
+        "discipline": "Javelina (300 g)",
+        "performance": "7.87",
+        "event_date": "20/04/2024"
+      }
+    ],
+    "refs_total": 6
   },
   {
     "athlete_name": "Alba CL Torres Rione",
@@ -3266,6 +686,82 @@
       }
     ],
     "refs_total": 19
+  },
+  {
+    "athlete_name": "Aleix Gomez Miro",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2021/json/resultat-20210424-cnatterritorialtarragona.json",
+        "discipline": "Llargada",
+        "performance": "2.58",
+        "event_date": "24/04/2021"
+      },
+      {
+        "file": "seasons/2023/json/resultat-20230211-catclubssub12apcsabadell.json",
+        "discipline": "4x200",
+        "performance": "2:16.14",
+        "event_date": "11/02/2023"
+      },
+      {
+        "file": "seasons/2023/json/resultat-20230611-catsub12alpreviavilanova.json",
+        "discipline": "60 metres tanques (0.50)",
+        "performance": "10.67",
+        "event_date": "11/06/2023"
+      },
+      {
+        "file": "seasons/2024/json/resultat-20241215-trofeunadalcnrp.json",
+        "discipline": "600 metres llisos",
+        "performance": "1:56.15",
+        "event_date": "15/12/2024"
+      },
+      {
+        "file": "seasons/2025/json/resultat-20250125-controlveloricattanquestarragona.json",
+        "discipline": "60 metres llisos",
+        "performance": "9.22",
+        "event_date": "25/01/2025"
+      }
+    ],
+    "refs_total": 11
+  },
+  {
+    "athlete_name": "Aleix Olmo Chavez",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2019/json/resultat-20190126-controlgenertarragona.json",
+        "discipline": "Llargada",
+        "performance": "10.37",
+        "event_date": "26/01/2019"
+      },
+      {
+        "file": "seasons/2019/json/resultat-20190126-controlgenertarragona.json",
+        "discipline": "Llargada",
+        "performance": "10.55",
+        "event_date": "26/01/2019"
+      },
+      {
+        "file": "seasons/2019/json/resultat-2019033031-controlprimaveracambrils.json",
+        "discipline": "60 metres llisos",
+        "performance": "11.66",
+        "event_date": "30/03/2019"
+      },
+      {
+        "file": "seasons/2019/json/resultat-20190504-cnatterritorialpromociovalls.json",
+        "discipline": "Javelina (500 g)",
+        "performance": "12.43",
+        "event_date": "04/05/2019"
+      },
+      {
+        "file": "seasons/2019/json/resultat-20190504-cnatterritorialpromociovalls.json",
+        "discipline": "Javelina (500 g)",
+        "performance": "10.02",
+        "event_date": "04/05/2019"
+      }
+    ],
+    "refs_total": 21
   },
   {
     "athlete_name": "Aleix Virgili Garrigos",
@@ -3356,7 +852,7 @@
     "refs_total": 32
   },
   {
-    "athlete_name": "Andrea Molina Solichero BF",
+    "athlete_name": "Andrea Molina Solichero",
     "strategy": "no_match",
     "candidates": null,
     "refs": [
@@ -3432,7 +928,7 @@
     "refs_total": 16
   },
   {
-    "athlete_name": "Andriy Rafi 6",
+    "athlete_name": "Andriy Rafi",
     "strategy": "no_match",
     "candidates": null,
     "refs": [
@@ -3454,6 +950,37 @@
         "discipline": "1000 metres llisos",
         "performance": "4:46.10",
         "event_date": "17/05/2014"
+      }
+    ]
+  },
+  {
+    "athlete_name": "Ariadna Domenech Martin",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2019/json/resultat-20190126-controlgenertarragona.json",
+        "discipline": "Llargada",
+        "performance": "2.38",
+        "event_date": "26/01/2019"
+      },
+      {
+        "file": "seasons/2019/json/resultat-2019033031-territcombinadescambrils.json",
+        "discipline": "60 metres tanques (0.50)",
+        "performance": "16.95",
+        "event_date": "30/03/2019"
+      },
+      {
+        "file": "seasons/2019/json/resultat-2019033031-territcombinadescambrils.json",
+        "discipline": "Llargada",
+        "performance": "2.24",
+        "event_date": "30/03/2019"
+      },
+      {
+        "file": "seasons/2019/json/resultat-2019033031-territcombinadescambrils.json",
+        "discipline": "60 metres llisos",
+        "performance": "11.81",
+        "event_date": "30/03/2019"
       }
     ]
   },
@@ -3496,7 +1023,7 @@
     "refs_total": 31
   },
   {
-    "athlete_name": "Asier Santamaria Gabancho IM",
+    "athlete_name": "Asier Santamaria Gabancho",
     "strategy": "no_match",
     "candidates": null,
     "refs": [
@@ -3534,7 +1061,7 @@
     "refs_total": 14
   },
   {
-    "athlete_name": "BARBENS PARDO CLAUDIA AF",
+    "athlete_name": "BARBENS PARDO CLAUDIA",
     "strategy": "no_match",
     "candidates": null,
     "refs": [
@@ -3553,7 +1080,7 @@
     ]
   },
   {
-    "athlete_name": "BARTOLOME VAZQUEZ DAVID BM",
+    "athlete_name": "BARTOLOME VAZQUEZ DAVID",
     "strategy": "no_match",
     "candidates": null,
     "refs": [
@@ -3781,7 +1308,7 @@
     "refs_total": 65
   },
   {
-    "athlete_name": "BLANCO CALATRAVA NACHO PBM",
+    "athlete_name": "BLANCO CALATRAVA NACHO",
     "strategy": "no_match",
     "candidates": null,
     "refs": [
@@ -3819,7 +1346,7 @@
     "refs_total": 8
   },
   {
-    "athlete_name": "BUENO UBEDA LEYRE PBF",
+    "athlete_name": "BUENO UBEDA LEYRE",
     "strategy": "no_match",
     "candidates": null,
     "refs": [
@@ -3920,7 +1447,7 @@
     ]
   },
   {
-    "athlete_name": "Berta Pelicano Sanchis AF",
+    "athlete_name": "Berta Pelicano Sanchis",
     "strategy": "no_match",
     "candidates": null,
     "refs": [
@@ -3956,6 +1483,88 @@
       }
     ],
     "refs_total": 11
+  },
+  {
+    "athlete_name": "Biel Gordillo Rodriguez",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2023/json/resultat-20230114-controlgener1tarragona.json",
+        "discipline": "Javelina (800 g)",
+        "performance": "13.75",
+        "event_date": "14/01/2023"
+      },
+      {
+        "file": "seasons/2023/json/resultat-20230114-controlgener1tarragona.json",
+        "discipline": "Javelina (800 g)",
+        "performance": "13.45",
+        "event_date": "14/01/2023"
+      }
+    ]
+  },
+  {
+    "athlete_name": "Bruna Masdeu Mora",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2018/json/resultat-20180224-controltorredembarra.json",
+        "discipline": "Llargada",
+        "performance": "2.16",
+        "event_date": "24/02/2018"
+      },
+      {
+        "file": "seasons/2018/json/resultat-20180317-cnatterritpromocioasco.json",
+        "discipline": "1000 metres marxa",
+        "performance": "7:40.00",
+        "event_date": "17/03/2018"
+      },
+      {
+        "file": "seasons/2018/json/resultat-20180414-cnatterritorialcambrils.json",
+        "discipline": "Llargada",
+        "performance": "2.67",
+        "event_date": "14/04/2018"
+      },
+      {
+        "file": "seasons/2018/json/resultat-20180519-catsub10ascoprevia.json",
+        "discipline": "1000 metres marxa",
+        "performance": "7:30.02",
+        "event_date": "19/05/2018"
+      },
+      {
+        "file": "seasons/2019/json/resultat-20190126-controlgenertarragona.json",
+        "discipline": "Llargada",
+        "performance": "10.86",
+        "event_date": "26/01/2019"
+      }
+    ],
+    "refs_total": 8
+  },
+  {
+    "athlete_name": "Bruno Jimenez Garcia",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2024/json/resultat-20240210-controlconcursossub10tarragona.json",
+        "discipline": "Javelina (800 g)",
+        "performance": "9.77",
+        "event_date": "10/02/2024"
+      },
+      {
+        "file": "seasons/2024/json/resultat-20240210-controlconcursossub10tarragona.json",
+        "discipline": "Javelina (800 g)",
+        "performance": "8.43",
+        "event_date": "10/02/2024"
+      },
+      {
+        "file": "seasons/2024/json/resultat-20240210-controlconcursossub10tarragona.json",
+        "discipline": "Javelina (800 g)",
+        "performance": "7.78",
+        "event_date": "10/02/2024"
+      }
+    ]
   },
   {
     "athlete_name": "C.BERENGUEL-L. MASCARELL-M. VAZQUEZ-B. SANCHEZ",
@@ -4174,7 +1783,20 @@
     "refs_total": 56
   },
   {
-    "athlete_name": "Carla Berenguel 4 Q",
+    "athlete_name": "Candela Valle Garcia",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2017/json/resultat-20170514-catclubsbenjami.json",
+        "discipline": "Llargada",
+        "performance": "1.95",
+        "event_date": "14/05/2017"
+      }
+    ]
+  },
+  {
+    "athlete_name": "Carla Berenguel",
     "strategy": "no_match",
     "candidates": null,
     "refs": [
@@ -4210,6 +1832,171 @@
       }
     ],
     "refs_total": 6
+  },
+  {
+    "athlete_name": "Carla Rodriguez Martinez",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2021/json/resultat-20210131-controlgenerreus.json",
+        "discipline": "Llargada",
+        "performance": "3.75",
+        "event_date": "31/01/2021"
+      },
+      {
+        "file": "seasons/2021/json/resultat-20210206-combinadesreus.json",
+        "discipline": "60 metres tanques (0.76)",
+        "performance": "12.41",
+        "event_date": "06/02/2021"
+      },
+      {
+        "file": "seasons/2021/json/resultat-20210206-combinadesreus.json",
+        "discipline": "Llargada",
+        "performance": "3.59",
+        "event_date": "06/02/2021"
+      },
+      {
+        "file": "seasons/2021/json/resultat-20210206-combinadesreus.json",
+        "discipline": "Llargada",
+        "performance": "3.58",
+        "event_date": "06/02/2021"
+      },
+      {
+        "file": "seasons/2021/json/resultat-20210227-catpreviasub14pcbcnpsj.json",
+        "discipline": "60 metres llisos",
+        "performance": "9.07",
+        "event_date": "27/02/2021"
+      }
+    ],
+    "refs_total": 77
+  },
+  {
+    "athlete_name": "Carlos Amoros Muñoz",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2023/json/resultat-20230211-controlfebrer1reus.json",
+        "discipline": "60 metres llisos",
+        "performance": "9.19",
+        "event_date": "11/02/2023"
+      }
+    ]
+  },
+  {
+    "athlete_name": "Claudia Sanchez Fernandez",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2018/json/resultat-20180317-cnatterritpromocioasco.json",
+        "discipline": "1000 metres marxa",
+        "performance": "7:39.00",
+        "event_date": "17/03/2018"
+      },
+      {
+        "file": "seasons/2018/json/resultat-2018042829-controlprimaveracambrils.json",
+        "discipline": "60 metres llisos",
+        "performance": "11.05",
+        "event_date": "28/04/2018"
+      },
+      {
+        "file": "seasons/2018/json/resultat-20180519-catsub10ascoprevia.json",
+        "discipline": "1000 metres marxa",
+        "performance": "7:29.48",
+        "event_date": "19/05/2018"
+      },
+      {
+        "file": "seasons/2019/json/resultat-20190316-controltorredembarra.json",
+        "discipline": "Llargada",
+        "performance": "2.30",
+        "event_date": "16/03/2019"
+      },
+      {
+        "file": "seasons/2019/json/resultat-20190316-controltorredembarra.json",
+        "discipline": "1000 metres marxa",
+        "performance": "7:28.00",
+        "event_date": "16/03/2019"
+      }
+    ],
+    "refs_total": 11
+  },
+  {
+    "athlete_name": "Clovis-françois Deconinck Urbano",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2018/json/resultat-20180414-cnatterritorialcambrils.json",
+        "discipline": "Llargada",
+        "performance": "2.80",
+        "event_date": "14/04/2018"
+      },
+      {
+        "file": "seasons/2018/json/resultat-2018042829-controlprimaveracambrils.json",
+        "discipline": "60 metres llisos",
+        "performance": "10.74",
+        "event_date": "28/04/2018"
+      },
+      {
+        "file": "seasons/2019/json/resultat-20190126-controlgenertarragona.json",
+        "discipline": "Llargada",
+        "performance": "2.85",
+        "event_date": "26/01/2019"
+      },
+      {
+        "file": "seasons/2019/json/resultat-20190504-cnatterritorialpromociovalls.json",
+        "discipline": "Javelina (500 g)",
+        "performance": "10.78",
+        "event_date": "04/05/2019"
+      },
+      {
+        "file": "seasons/2019/json/resultat-20190615-trobadacambrilsandorra.json",
+        "discipline": "Llargada",
+        "performance": "3.00",
+        "event_date": "15/06/2019"
+      }
+    ],
+    "refs_total": 8
+  },
+  {
+    "athlete_name": "Clàudia Espinosa Rodríguez",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2023/json/resultat-20230211-controlfebrer1reus.json",
+        "discipline": "Llargada",
+        "performance": "3.08",
+        "event_date": "11/02/2023"
+      },
+      {
+        "file": "seasons/2023/json/resultat-20230211-controlfebrer1reus.json",
+        "discipline": "Llargada",
+        "performance": "3.38",
+        "event_date": "11/02/2023"
+      },
+      {
+        "file": "seasons/2023/json/resultat-20230225-catclubsasub14pcsabadell.json",
+        "discipline": "2000 metres llisos",
+        "performance": "8:04.76",
+        "event_date": "25/02/2023"
+      },
+      {
+        "file": "seasons/2023/json/resultat-20230415-trobadacatalunyameridionalgipuzkoacambrils.json",
+        "discipline": "80 metres llisos",
+        "performance": "11.96",
+        "event_date": "15/04/2023"
+      },
+      {
+        "file": "seasons/2023/json/resultat-20230415-trobadacatalunyameridionalgipuzkoacambrils.json",
+        "discipline": "150 metres llisos",
+        "performance": "22.79",
+        "event_date": "15/04/2023"
+      }
+    ],
+    "refs_total": 10
   },
   {
     "athlete_name": "Cristina Reyes",
@@ -4389,7 +2176,7 @@
     "refs_total": 31
   },
   {
-    "athlete_name": "DEL AMO MARINA AF",
+    "athlete_name": "DEL AMO MARINA",
     "strategy": "no_match",
     "candidates": null,
     "refs": [
@@ -4446,7 +2233,7 @@
     "refs_total": 6
   },
   {
-    "athlete_name": "DIEZ PLASENCIA ERIKA AF",
+    "athlete_name": "DIEZ PLASENCIA ERIKA",
     "strategy": "no_match",
     "candidates": null,
     "refs": [
@@ -4481,6 +2268,63 @@
         "event_date": "14/05/2016"
       }
     ]
+  },
+  {
+    "athlete_name": "Diego Cuadros Cobo",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2017/json/resultat-20170513-catclubsalevi.json",
+        "discipline": "Disc (600 g)",
+        "performance": "12.35",
+        "event_date": "13/05/2017"
+      },
+      {
+        "file": "seasons/2017/json/resultat-20170513-catclubsalevi.json",
+        "discipline": "Disc (600 g)",
+        "performance": "11.88",
+        "event_date": "13/05/2017"
+      }
+    ]
+  },
+  {
+    "athlete_name": "Duina Borreda Cervello",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2018/json/resultat-20180224-controltorredembarra.json",
+        "discipline": "Llargada",
+        "performance": "2.46",
+        "event_date": "24/02/2018"
+      },
+      {
+        "file": "seasons/2018/json/resultat-20180414-cnatterritorialcambrils.json",
+        "discipline": "Llargada",
+        "performance": "2.54",
+        "event_date": "14/04/2018"
+      },
+      {
+        "file": "seasons/2018/json/resultat-2018042829-controlprimaveracambrils.json",
+        "discipline": "60 metres llisos",
+        "performance": "10.85",
+        "event_date": "28/04/2018"
+      },
+      {
+        "file": "seasons/2018/json/resultat-20181208-controlhiverncambrils.json",
+        "discipline": "60 metres llisos",
+        "performance": "10.31",
+        "event_date": "08/12/2018"
+      },
+      {
+        "file": "seasons/2019/json/resultat-20190126-controlgenertarragona.json",
+        "discipline": "Llargada",
+        "performance": "6.30",
+        "event_date": "26/01/2019"
+      }
+    ],
+    "refs_total": 83
   },
   {
     "athlete_name": "E. JOSE-J. GONZALEZ-A. LAGO-N. PINYOL",
@@ -4749,7 +2593,45 @@
     ]
   },
   {
-    "athlete_name": "Eric Gonzalez Clua IM 3",
+    "athlete_name": "Eric De La Rosa Fortuny",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2018/json/resultat-20180120-controlamposta.json",
+        "discipline": "Llargada",
+        "performance": "3.18",
+        "event_date": "20/01/2018"
+      },
+      {
+        "file": "seasons/2018/json/resultat-20180224-controltorredembarra.json",
+        "discipline": "Llargada",
+        "performance": "3.12",
+        "event_date": "24/02/2018"
+      },
+      {
+        "file": "seasons/2018/json/resultat-20180224-controltorredembarra.json",
+        "discipline": "Llargada",
+        "performance": "3.03",
+        "event_date": "24/02/2018"
+      },
+      {
+        "file": "seasons/2018/json/resultat-20180414-cnatterritorialcambrils.json",
+        "discipline": "Llargada",
+        "performance": "3.25",
+        "event_date": "14/04/2018"
+      },
+      {
+        "file": "seasons/2018/json/resultat-20180414-cnatterritorialcambrils.json",
+        "discipline": "Llargada",
+        "performance": "3.17",
+        "event_date": "14/04/2018"
+      }
+    ],
+    "refs_total": 96
+  },
+  {
+    "athlete_name": "Eric Gonzalez Clua",
     "strategy": "no_match",
     "candidates": null,
     "refs": [
@@ -4787,7 +2669,7 @@
     "refs_total": 22
   },
   {
-    "athlete_name": "Erika Diez IF",
+    "athlete_name": "Erika Diez",
     "strategy": "no_match",
     "candidates": null,
     "refs": [
@@ -4825,7 +2707,7 @@
     ]
   },
   {
-    "athlete_name": "FARRÉ BENITO GUILLEM PBM",
+    "athlete_name": "FARRÉ BENITO GUILLEM",
     "strategy": "no_match",
     "candidates": null,
     "refs": [
@@ -4882,7 +2764,7 @@
     ]
   },
   {
-    "athlete_name": "FERRAN JIMENEZ GUILLEM PBM",
+    "athlete_name": "FERRAN JIMENEZ GUILLEM",
     "strategy": "no_match",
     "candidates": null,
     "refs": [
@@ -4973,6 +2855,125 @@
         "discipline": "Llargada",
         "performance": "NP",
         "event_date": "14/6/2008"
+      }
+    ]
+  },
+  {
+    "athlete_name": "Ferran Badia Riera",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2023/json/resultat-20231216-trofeunadalcnrp.json",
+        "discipline": "Llargada",
+        "performance": "3.65",
+        "event_date": "16/12/2023"
+      },
+      {
+        "file": "seasons/2023/json/resultat-20231216-trofeunadalcnrp.json",
+        "discipline": "Llargada",
+        "performance": "3.46",
+        "event_date": "16/12/2023"
+      },
+      {
+        "file": "seasons/2024/json/resultat-20240414-cnatterripromocioreus.json",
+        "discipline": "600 metres llisos",
+        "performance": "2:06.92",
+        "event_date": "14/04/2024"
+      },
+      {
+        "file": "seasons/2024/json/resultat-20240414-cnatterripromocioreus.json",
+        "discipline": "Alçada",
+        "performance": "1.15",
+        "event_date": "14/04/2024"
+      },
+      {
+        "file": "seasons/2024/json/resultat-20240414-cnatterripromocioreus.json",
+        "discipline": "Pes (3 Kg)",
+        "performance": "5.54",
+        "event_date": "14/04/2024"
+      }
+    ],
+    "refs_total": 16
+  },
+  {
+    "athlete_name": "Ferran Sansa Garcia",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2017/json/resultat-20170513-catclubsalevi.json",
+        "discipline": "Pes (2 Kg)",
+        "performance": "5.39",
+        "event_date": "13/05/2017"
+      },
+      {
+        "file": "seasons/2017/json/resultat-20170513-catclubsalevi.json",
+        "discipline": "Pes (2 Kg)",
+        "performance": "5.17",
+        "event_date": "13/05/2017"
+      }
+    ]
+  },
+  {
+    "athlete_name": "Francisco Jose Iborra",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2018/json/resultat-2018042829-cnatterritcombinadescambrils.json",
+        "discipline": "Javelina (700 g)",
+        "performance": "13.63",
+        "event_date": "28/04/2018"
+      },
+      {
+        "file": "seasons/2018/json/resultat-2018042829-cnatterritcombinadescambrils.json",
+        "discipline": "Javelina (700 g)",
+        "performance": "4.87",
+        "event_date": "28/04/2018"
+      },
+      {
+        "file": "seasons/2018/json/resultat-2018042829-cnatterritcombinadescambrils.json",
+        "discipline": "Javelina (700 g)",
+        "performance": "9.69",
+        "event_date": "28/04/2018"
+      },
+      {
+        "file": "seasons/2018/json/resultat-2018042829-cnatterritcombinadescambrils.json",
+        "discipline": "Javelina (700 g)",
+        "performance": "16.71",
+        "event_date": "28/04/2018"
+      }
+    ]
+  },
+  {
+    "athlete_name": "Félix Fernández Prieto",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2020/json/resultat-20200201-controlfebrertarragona.json",
+        "discipline": "Llargada",
+        "performance": "2.32",
+        "event_date": "01/02/2020"
+      },
+      {
+        "file": "seasons/2021/json/resultat-20210522-catclubsalsub12.json",
+        "discipline": "Pes (2 Kg)",
+        "performance": "4.79",
+        "event_date": "22/05/2021"
+      },
+      {
+        "file": "seasons/2021/json/resultat-20210522-catclubsalsub12.json",
+        "discipline": "Pes (2 Kg)",
+        "performance": "5.10",
+        "event_date": "22/05/2021"
+      },
+      {
+        "file": "seasons/2021/json/resultat-20210522-catclubsalsub12.json",
+        "discipline": "Pes (2 Kg)",
+        "performance": "5.16",
+        "event_date": "22/05/2021"
       }
     ]
   },
@@ -5141,7 +3142,7 @@
     ]
   },
   {
-    "athlete_name": "GOMEZ SALADO ERIC BM",
+    "athlete_name": "GOMEZ SALADO ERIC",
     "strategy": "no_match",
     "candidates": null,
     "refs": [
@@ -5192,7 +3193,7 @@
     "refs_total": 11
   },
   {
-    "athlete_name": "GUIJARRO ESTEBAN UNAISA AF",
+    "athlete_name": "GUIJARRO ESTEBAN UNAISA",
     "strategy": "no_match",
     "candidates": null,
     "refs": [
@@ -5223,7 +3224,7 @@
     ]
   },
   {
-    "athlete_name": "GUTIERREZ GARCIA IÑIGO BM",
+    "athlete_name": "GUTIERREZ GARCIA IÑIGO",
     "strategy": "no_match",
     "candidates": null,
     "refs": [
@@ -5248,7 +3249,7 @@
     ]
   },
   {
-    "athlete_name": "GUZMAN VELASCO ISAAC AM",
+    "athlete_name": "GUZMAN VELASCO ISAAC",
     "strategy": "no_match",
     "candidates": null,
     "refs": [
@@ -5284,6 +3285,137 @@
       }
     ],
     "refs_total": 6
+  },
+  {
+    "athlete_name": "Gael Torres Fortuny",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2023/json/resultat-20230422-controlcatorredembarra.json",
+        "discipline": "Llargada",
+        "performance": "2.52",
+        "event_date": "22/04/2023"
+      },
+      {
+        "file": "seasons/2023/json/resultat-20230422-controlcatorredembarra.json",
+        "discipline": "Llargada",
+        "performance": "16.68",
+        "event_date": "22/04/2023"
+      },
+      {
+        "file": "seasons/2023/json/resultat-20230501-cnatterritorialpromocioreus.json",
+        "discipline": "1000 metres marxa",
+        "performance": "8:39.00",
+        "event_date": "01/05/2023"
+      },
+      {
+        "file": "seasons/2024/json/resultat-20240120-controlgenertarragona.json",
+        "discipline": "Pes (2 Kg)",
+        "performance": "3.26",
+        "event_date": "20/01/2024"
+      },
+      {
+        "file": "seasons/2024/json/resultat-20240120-controlgenertarragona.json",
+        "discipline": "Pes (2 Kg)",
+        "performance": "3.87",
+        "event_date": "20/01/2024"
+      }
+    ],
+    "refs_total": 6
+  },
+  {
+    "athlete_name": "Gisela Hornet Bazan",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2022/json/resultat-20220521-catclubssub14alelprat.json",
+        "discipline": "Martell (2 Kg)",
+        "performance": "16.68",
+        "event_date": "21/05/2022"
+      },
+      {
+        "file": "seasons/2022/json/resultat-20220521-catclubssub14alelprat.json",
+        "discipline": "Martell (2 Kg)",
+        "performance": "16.89",
+        "event_date": "21/05/2022"
+      },
+      {
+        "file": "seasons/2022/json/resultat-20220521-catclubssub14alelprat.json",
+        "discipline": "Javelina (400 g)",
+        "performance": "13.02",
+        "event_date": "21/05/2022"
+      },
+      {
+        "file": "seasons/2022/json/resultat-20220521-catclubssub14alelprat.json",
+        "discipline": "Javelina (400 g)",
+        "performance": "15.18",
+        "event_date": "21/05/2022"
+      },
+      {
+        "file": "seasons/2023/json/resultat-20230121-catclubssub16apcsabadell.json",
+        "discipline": "4x300",
+        "performance": "3:03.57",
+        "event_date": "21/01/2023"
+      }
+    ]
+  },
+  {
+    "athlete_name": "Gonzalo Bellón Tirado",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2020/json/resultat-20200118-controlgenerreus.json",
+        "discipline": "Llargada",
+        "performance": "4.78",
+        "event_date": "18/01/2020"
+      },
+      {
+        "file": "seasons/2020/json/resultat-20200118-controlgenerreus.json",
+        "discipline": "Llargada",
+        "performance": "4.25",
+        "event_date": "18/01/2020"
+      },
+      {
+        "file": "seasons/2020/json/resultat-20200118-controlgenerreus.json",
+        "discipline": "Llargada",
+        "performance": "4.36",
+        "event_date": "18/01/2020"
+      },
+      {
+        "file": "seasons/2020/json/resultat-20200118-controlgenerreus.json",
+        "discipline": "Llargada",
+        "performance": "4.03",
+        "event_date": "18/01/2020"
+      },
+      {
+        "file": "seasons/2020/json/resultat-20200118-controlgenerreus.json",
+        "discipline": "Llargada",
+        "performance": "4.22",
+        "event_date": "18/01/2020"
+      }
+    ]
+  },
+  {
+    "athlete_name": "Guifre Gonzalez Ceresuela",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2019/json/resultat-20190126-controlgenertarragona.json",
+        "discipline": "Llargada",
+        "performance": "2.88",
+        "event_date": "26/01/2019"
+      },
+      {
+        "file": "seasons/2019/json/resultat-20190406-cnatterritpromociotarragona.json",
+        "discipline": "60 metres llisos",
+        "performance": "11.29",
+        "event_date": "06/04/2019"
+      }
+    ]
   },
   {
     "athlete_name": "Guillem Farré Benito",
@@ -5337,6 +3469,44 @@
     "refs_total": 159
   },
   {
+    "athlete_name": "Guillem Pàmies Miró",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2020/json/resultat-20200118-controlgenerreus.json",
+        "discipline": "Llargada",
+        "performance": "3.00",
+        "event_date": "18/01/2020"
+      },
+      {
+        "file": "seasons/2020/json/resultat-20200222-controlfebrerasco.json",
+        "discipline": "Llargada",
+        "performance": "3.29",
+        "event_date": "22/02/2020"
+      },
+      {
+        "file": "seasons/2020/json/resultat-20200222-controlfebrerasco.json",
+        "discipline": "Llargada",
+        "performance": "3.08",
+        "event_date": "22/02/2020"
+      },
+      {
+        "file": "seasons/2020/json/resultat-20200222-controlfebrerasco.json",
+        "discipline": "Llargada",
+        "performance": "3.02",
+        "event_date": "22/02/2020"
+      },
+      {
+        "file": "seasons/2021/json/resultat-20210131-controlgenerreus.json",
+        "discipline": "Llargada",
+        "performance": "3.60",
+        "event_date": "31/01/2021"
+      }
+    ],
+    "refs_total": 34
+  },
+  {
     "athlete_name": "Guiu De Los Rios Blanch",
     "strategy": "manual_exclude",
     "candidates": null,
@@ -5375,7 +3545,7 @@
     "refs_total": 12
   },
   {
-    "athlete_name": "HERAS RUIZ ALANIS BF",
+    "athlete_name": "HERAS RUIZ ALANIS",
     "strategy": "no_match",
     "candidates": null,
     "refs": [
@@ -5412,7 +3582,7 @@
     ]
   },
   {
-    "athlete_name": "HERAS RUIZ LIANA AF",
+    "athlete_name": "HERAS RUIZ LIANA",
     "strategy": "no_match",
     "candidates": null,
     "refs": [
@@ -5525,7 +3695,70 @@
     "refs_total": 15
   },
   {
-    "athlete_name": "IBORRA ALMEIDA INGRID AF",
+    "athlete_name": "Hugo De Cal Medina",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2023/json/resultat-20230114-controlgener1tarragona.json",
+        "discipline": "Javelina (800 g)",
+        "performance": "8.76",
+        "event_date": "14/01/2023"
+      },
+      {
+        "file": "seasons/2023/json/resultat-20230114-controlgener1tarragona.json",
+        "discipline": "Javelina (800 g)",
+        "performance": "13.07",
+        "event_date": "14/01/2023"
+      },
+      {
+        "file": "seasons/2023/json/resultat-20230114-controlgener1tarragona.json",
+        "discipline": "Javelina (800 g)",
+        "performance": "11.40",
+        "event_date": "14/01/2023"
+      }
+    ]
+  },
+  {
+    "athlete_name": "Hugo Diaz Cristino",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2021/json/resultat-20210424-cnatterritorialtarragona.json",
+        "discipline": "Llargada",
+        "performance": "2.21",
+        "event_date": "24/04/2021"
+      },
+      {
+        "file": "seasons/2021/json/resultat-20211218-trofeunadalcnrp.json",
+        "discipline": "Llargada",
+        "performance": "2.97",
+        "event_date": "18/12/2021"
+      },
+      {
+        "file": "seasons/2021/json/resultat-20211218-trofeunadalcnrp.json",
+        "discipline": "Pes (2 Kg)",
+        "performance": "4.18",
+        "event_date": "18/12/2021"
+      },
+      {
+        "file": "seasons/2021/json/resultat-20211218-trofeunadalcnrp.json",
+        "discipline": "Pes (2 Kg)",
+        "performance": "4.36",
+        "event_date": "18/12/2021"
+      },
+      {
+        "file": "seasons/2021/json/resultat-20211218-trofeunadalcnrp.json",
+        "discipline": "Pes (2 Kg)",
+        "performance": "3.42",
+        "event_date": "18/12/2021"
+      }
+    ],
+    "refs_total": 34
+  },
+  {
+    "athlete_name": "IBORRA ALMEIDA INGRID",
     "strategy": "no_match",
     "candidates": null,
     "refs": [
@@ -5658,7 +3891,7 @@
     "refs_total": 24
   },
   {
-    "athlete_name": "IZAGA DERIU QUIMEY PBM",
+    "athlete_name": "IZAGA DERIU QUIMEY",
     "strategy": "no_match",
     "candidates": null,
     "refs": [
@@ -5677,7 +3910,7 @@
     ]
   },
   {
-    "athlete_name": "Ifeoma Ezike IF",
+    "athlete_name": "Ifeoma Ezike",
     "strategy": "no_match",
     "candidates": null,
     "refs": [
@@ -5713,6 +3946,151 @@
       }
     ],
     "refs_total": 8
+  },
+  {
+    "athlete_name": "Iker Costa Bakker",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2019/json/resultat-20190519-catclubssub10elprat.json",
+        "discipline": "Llargada",
+        "performance": "3.02",
+        "event_date": "19/05/2019"
+      }
+    ]
+  },
+  {
+    "athlete_name": "Irene De La Rosa Fortuny",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2018/json/resultat-20181208-controlhiverncambrils.json",
+        "discipline": "60 metres llisos",
+        "performance": "11.70",
+        "event_date": "08/12/2018"
+      },
+      {
+        "file": "seasons/2018/json/resultat-20181209-trofeusalcedacastellscambrils.json",
+        "discipline": "1000 metres llisos",
+        "performance": "4:51.49",
+        "event_date": "09/12/2018"
+      },
+      {
+        "file": "seasons/2019/json/resultat-20190126-controlgenertarragona.json",
+        "discipline": "Llargada",
+        "performance": "7.46",
+        "event_date": "26/01/2019"
+      },
+      {
+        "file": "seasons/2019/json/resultat-20190126-controlgenertarragona.json",
+        "discipline": "Llargada",
+        "performance": "10.21",
+        "event_date": "26/01/2019"
+      },
+      {
+        "file": "seasons/2019/json/resultat-20190126-controlgenertarragona.json",
+        "discipline": "Llargada",
+        "performance": "9.46",
+        "event_date": "26/01/2019"
+      }
+    ],
+    "refs_total": 65
+  },
+  {
+    "athlete_name": "Irene Dominguez Punsoda",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2024/json/resultat-20240210-controlconcursossub10tarragona.json",
+        "discipline": "Llargada",
+        "performance": "2.10",
+        "event_date": "10/02/2024"
+      }
+    ]
+  },
+  {
+    "athlete_name": "Irene Garrido Rubio CT769",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2022/json/resultat-20220320-catsub16pcsabadell.json",
+        "discipline": "Pes (3 Kg)",
+        "performance": "10.49",
+        "event_date": "20/03/2022"
+      }
+    ]
+  },
+  {
+    "athlete_name": "Iu Grane Barcelo",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2023/json/resultat-20230114-controlgener1tarragona.json",
+        "discipline": "Javelina (800 g)",
+        "performance": "5.01",
+        "event_date": "14/01/2023"
+      },
+      {
+        "file": "seasons/2023/json/resultat-20230114-controlgener1tarragona.json",
+        "discipline": "Javelina (800 g)",
+        "performance": "5.21",
+        "event_date": "14/01/2023"
+      },
+      {
+        "file": "seasons/2024/json/resultat-20240210-controlconcursossub10tarragona.json",
+        "discipline": "Javelina (800 g)",
+        "performance": "8.27",
+        "event_date": "10/02/2024"
+      },
+      {
+        "file": "seasons/2024/json/resultat-20240210-controlconcursossub10tarragona.json",
+        "discipline": "Javelina (800 g)",
+        "performance": "8.65",
+        "event_date": "10/02/2024"
+      },
+      {
+        "file": "seasons/2024/json/resultat-20240210-controlconcursossub10tarragona.json",
+        "discipline": "Javelina (800 g)",
+        "performance": "6.43",
+        "event_date": "10/02/2024"
+      }
+    ]
+  },
+  {
+    "athlete_name": "Ivet Font Estrems",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2021/json/resultat-20210131-controlgenerreus.json",
+        "discipline": "Pes (4 Kg)",
+        "performance": "9.42",
+        "event_date": "31/01/2021"
+      },
+      {
+        "file": "seasons/2021/json/resultat-20210424-cnatterritorialtarragona.json",
+        "discipline": "Llargada",
+        "performance": "3.73",
+        "event_date": "24/04/2021"
+      },
+      {
+        "file": "seasons/2021/json/resultat-20210424-cnatterritorialtarragona.json",
+        "discipline": "Llargada",
+        "performance": "3.57",
+        "event_date": "24/04/2021"
+      },
+      {
+        "file": "seasons/2021/json/resultat-20210424-cnatterritorialtarragona.json",
+        "discipline": "Llargada",
+        "performance": "3.50",
+        "event_date": "24/04/2021"
+      }
+    ]
   },
   {
     "athlete_name": "Ivet Torrens Sanroma",
@@ -6174,6 +4552,69 @@
     "refs_total": 12
   },
   {
+    "athlete_name": "Jairo Soriano Espinilla",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2018/json/resultat-20180120-controlamposta.json",
+        "discipline": "Pes (2 Kg)",
+        "performance": "3.51",
+        "event_date": "20/01/2018"
+      },
+      {
+        "file": "seasons/2018/json/resultat-20180120-controlamposta.json",
+        "discipline": "Pes (2 Kg)",
+        "performance": "4.33",
+        "event_date": "20/01/2018"
+      },
+      {
+        "file": "seasons/2018/json/resultat-20180217-controlamposta.json",
+        "discipline": "Llargada",
+        "performance": "2.94",
+        "event_date": "17/02/2018"
+      },
+      {
+        "file": "seasons/2018/json/resultat-20180217-controlamposta.json",
+        "discipline": "Pes (2 Kg)",
+        "performance": "3.84",
+        "event_date": "17/02/2018"
+      },
+      {
+        "file": "seasons/2018/json/resultat-20180408-cnatterritorialamposta.json",
+        "discipline": "Llargada",
+        "performance": "3.01",
+        "event_date": "08/04/2018"
+      }
+    ],
+    "refs_total": 6
+  },
+  {
+    "athlete_name": "Jan Jacob Oliva",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2018/json/resultat-20180513-catclubssub10elprat.json",
+        "discipline": "Llargada",
+        "performance": "15.30",
+        "event_date": "13/05/2018"
+      },
+      {
+        "file": "seasons/2018/json/resultat-20180513-catclubssub10elprat.json",
+        "discipline": "Llargada",
+        "performance": "16.72",
+        "event_date": "13/05/2018"
+      },
+      {
+        "file": "seasons/2018/json/resultat-20180513-catclubssub10elprat.json",
+        "discipline": "Llargada",
+        "performance": "13.67",
+        "event_date": "13/05/2018"
+      }
+    ]
+  },
+  {
     "athlete_name": "Jana CL Torres Rioné",
     "strategy": "no_match",
     "candidates": null,
@@ -6187,7 +4628,7 @@
     ]
   },
   {
-    "athlete_name": "Jana Pages Corts IF",
+    "athlete_name": "Jana Pages Corts",
     "strategy": "no_match",
     "candidates": null,
     "refs": [
@@ -6263,7 +4704,7 @@
     "refs_total": 18
   },
   {
-    "athlete_name": "Joan Sinfreu Niubo BM",
+    "athlete_name": "Joan Sinfreu Niubo",
     "strategy": "no_match",
     "candidates": null,
     "refs": [
@@ -6301,7 +4742,7 @@
     "refs_total": 76
   },
   {
-    "athlete_name": "Joan Sousa Iturria IM 8",
+    "athlete_name": "Joan Sousa Iturria",
     "strategy": "no_match",
     "candidates": null,
     "refs": [
@@ -6384,6 +4825,70 @@
     ]
   },
   {
+    "athlete_name": "Josep Lluis Escribano Gomez",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2021/json/resultat-20210328-controlvilanova.json",
+        "discipline": "Disc (1 Kg)",
+        "performance": "12.49",
+        "event_date": "28/03/2021"
+      },
+      {
+        "file": "seasons/2021/json/resultat-20210328-controlvilanova.json",
+        "discipline": "Disc (1 Kg)",
+        "performance": "14.91",
+        "event_date": "28/03/2021"
+      },
+      {
+        "file": "seasons/2021/json/resultat-2021041718-cnatterritcombinadestarragona.json",
+        "discipline": "60 metres llisos",
+        "performance": "11.99",
+        "event_date": "18/04/2021"
+      },
+      {
+        "file": "seasons/2021/json/resultat-2021041718-cnatterritcombinadestarragona.json",
+        "discipline": "Llargada",
+        "performance": "2.37",
+        "event_date": "18/04/2021"
+      },
+      {
+        "file": "seasons/2021/json/resultat-2021041718-cnatterritcombinadestarragona.json",
+        "discipline": "Pes (2 Kg)",
+        "performance": "3.41",
+        "event_date": "18/04/2021"
+      }
+    ],
+    "refs_total": 9
+  },
+  {
+    "athlete_name": "Judit Fernandez Olmo",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2020/json/resultat-20200201-controlfebrertarragona.json",
+        "discipline": "60 metres tanques (0.76)",
+        "performance": "13.17",
+        "event_date": "01/02/2020"
+      }
+    ]
+  },
+  {
+    "athlete_name": "Judit Garcia Conesa",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2018/json/resultat-20180127-controlsub16pcsabadell.json",
+        "discipline": "60 metres llisos",
+        "performance": "9.76",
+        "event_date": "27/01/2018"
+      }
+    ]
+  },
+  {
     "athlete_name": "Judit Rodríguez Artigas",
     "strategy": "no_match",
     "candidates": null,
@@ -6399,6 +4904,25 @@
         "discipline": "1000 metres marxa",
         "performance": "7:16.05",
         "event_date": "21/05/2016"
+      }
+    ]
+  },
+  {
+    "athlete_name": "Judith Moreno Esteve",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2018/json/resultat-20180317-cnatterritpromocioasco.json",
+        "discipline": "1000 metres marxa",
+        "performance": "8:19.00",
+        "event_date": "17/03/2018"
+      },
+      {
+        "file": "seasons/2018/json/resultat-20180414-cnatterritorialcambrils.json",
+        "discipline": "Llargada",
+        "performance": "2.53",
+        "event_date": "14/04/2018"
       }
     ]
   },
@@ -6439,6 +4963,139 @@
       }
     ],
     "refs_total": 38
+  },
+  {
+    "athlete_name": "Julia Baringo Canals",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2019/json/resultat-20190518-catclubssub14elprat.json",
+        "discipline": "Disc (1 Kg)",
+        "performance": "14.37",
+        "event_date": "18/05/2019"
+      },
+      {
+        "file": "seasons/2019/json/resultat-20190518-catclubssub14elprat.json",
+        "discipline": "Disc (1 Kg)",
+        "performance": "14.14",
+        "event_date": "18/05/2019"
+      }
+    ]
+  },
+  {
+    "athlete_name": "Khalifa Maljuf",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2021/json/resultat-20210207-controlfebrer1reus.json",
+        "discipline": "Pes (4 Kg)",
+        "performance": "8.02",
+        "event_date": "07/02/2021"
+      },
+      {
+        "file": "seasons/2021/json/resultat-20210207-controlfebrer1reus.json",
+        "discipline": "Pes (4 Kg)",
+        "performance": "7.97",
+        "event_date": "07/02/2021"
+      },
+      {
+        "file": "seasons/2021/json/resultat-20210207-controlfebrer1reus.json",
+        "discipline": "Pes (4 Kg)",
+        "performance": "7.96",
+        "event_date": "07/02/2021"
+      },
+      {
+        "file": "seasons/2021/json/resultat-20210207-controlfebrer1reus.json",
+        "discipline": "Pes (4 Kg)",
+        "performance": "7.73",
+        "event_date": "07/02/2021"
+      },
+      {
+        "file": "seasons/2021/json/resultat-20210207-controlfebrer1reus.json",
+        "discipline": "Pes (4 Kg)",
+        "performance": "7.16",
+        "event_date": "07/02/2021"
+      }
+    ],
+    "refs_total": 14
+  },
+  {
+    "athlete_name": "Kilian Borreda Ceervello",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2021/json/resultat-20210328-controlvilanova.json",
+        "discipline": "Llargada",
+        "performance": "3.10",
+        "event_date": "28/03/2021"
+      },
+      {
+        "file": "seasons/2021/json/resultat-20210328-controlvilanova.json",
+        "discipline": "Llargada",
+        "performance": "3.03",
+        "event_date": "28/03/2021"
+      },
+      {
+        "file": "seasons/2021/json/resultat-20210410-catrelleuspromociopreviatarragona.json",
+        "discipline": "4x60",
+        "performance": "39.87",
+        "event_date": "10/04/2021"
+      },
+      {
+        "file": "seasons/2021/json/resultat-20210417-catrelleuspromociofinalelprat.json",
+        "discipline": "4x60",
+        "performance": "39.40",
+        "event_date": "17/04/2021"
+      },
+      {
+        "file": "seasons/2021/json/resultat-20210417-catrelleuspromociofinalelprat.json",
+        "discipline": "4x60",
+        "performance": "39.65",
+        "event_date": "17/04/2021"
+      }
+    ],
+    "refs_total": 8
+  },
+  {
+    "athlete_name": "Kilian Borreda Cervello",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2022/json/resultat-20220226-controlfebrer3cambrils.json",
+        "discipline": "Llargada",
+        "performance": "3.71",
+        "event_date": "26/02/2022"
+      },
+      {
+        "file": "seasons/2022/json/resultat-20220226-controlfebrer3cambrils.json",
+        "discipline": "Llargada",
+        "performance": "3.26",
+        "event_date": "26/02/2022"
+      },
+      {
+        "file": "seasons/2022/json/resultat-20220226-controlfebrer3cambrils.json",
+        "discipline": "Llargada",
+        "performance": "3.11",
+        "event_date": "26/02/2022"
+      },
+      {
+        "file": "seasons/2022/json/resultat-20220507-cnatterritorialpromociocambrils.json",
+        "discipline": "Llargada",
+        "performance": "3.54",
+        "event_date": "07/05/2022"
+      },
+      {
+        "file": "seasons/2022/json/resultat-20220507-cnatterritorialpromociocambrils.json",
+        "discipline": "Llargada",
+        "performance": "3.37",
+        "event_date": "07/05/2022"
+      }
+    ],
+    "refs_total": 77
   },
   {
     "athlete_name": "LAS HERAS RUIZ ALANIS",
@@ -6743,7 +5400,7 @@
     "refs_total": 10
   },
   {
-    "athlete_name": "Laia Domingo Ciurana 8",
+    "athlete_name": "Laia Domingo Ciurana",
     "strategy": "no_match",
     "candidates": null,
     "refs": [
@@ -6779,6 +5436,81 @@
       }
     ],
     "refs_total": 16
+  },
+  {
+    "athlete_name": "Laia Dominguez Mestres",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2018/json/resultat-20181208-controlhiverncambrils.json",
+        "discipline": "60 metres llisos",
+        "performance": "10.31",
+        "event_date": "08/12/2018"
+      },
+      {
+        "file": "seasons/2019/json/resultat-20190126-controlgenertarragona.json",
+        "discipline": "Llargada",
+        "performance": "12.75",
+        "event_date": "26/01/2019"
+      },
+      {
+        "file": "seasons/2019/json/resultat-20190126-controlgenertarragona.json",
+        "discipline": "Llargada",
+        "performance": "11.59",
+        "event_date": "26/01/2019"
+      },
+      {
+        "file": "seasons/2019/json/resultat-20190126-controlgenertarragona.json",
+        "discipline": "Llargada",
+        "performance": "14.34",
+        "event_date": "26/01/2019"
+      },
+      {
+        "file": "seasons/2019/json/resultat-20190316-controltorredembarra.json",
+        "discipline": "Llargada",
+        "performance": "2.61",
+        "event_date": "16/03/2019"
+      }
+    ],
+    "refs_total": 9
+  },
+  {
+    "athlete_name": "Leo Sánchez Fernández",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2019/json/resultat-20190119-controlgenercambrils.json",
+        "discipline": "Llargada",
+        "performance": "2.60",
+        "event_date": "19/01/2019"
+      },
+      {
+        "file": "seasons/2019/json/resultat-20190126-controlgenertarragona.json",
+        "discipline": "Llargada",
+        "performance": "6.95",
+        "event_date": "26/01/2019"
+      },
+      {
+        "file": "seasons/2019/json/resultat-20190126-controlgenertarragona.json",
+        "discipline": "Llargada",
+        "performance": "9.26",
+        "event_date": "26/01/2019"
+      },
+      {
+        "file": "seasons/2019/json/resultat-20190126-controlgenertarragona.json",
+        "discipline": "Llargada",
+        "performance": "9.99",
+        "event_date": "26/01/2019"
+      },
+      {
+        "file": "seasons/2019/json/resultat-2019033031-controlprimaveracambrils.json",
+        "discipline": "60 metres llisos",
+        "performance": "11.13",
+        "event_date": "30/03/2019"
+      }
+    ]
   },
   {
     "athlete_name": "Leyre Bueno Ubeda",
@@ -6849,6 +5581,19 @@
       }
     ],
     "refs_total": 20
+  },
+  {
+    "athlete_name": "Lina Barkaoui El Bakkar",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2022/json/resultat-20220507-cnatterritorialpromociocambrils.json",
+        "discipline": "60 metres llisos",
+        "performance": "10.79",
+        "event_date": "07/05/2022"
+      }
+    ]
   },
   {
     "athlete_name": "Lucas Fariña Ariel",
@@ -6927,7 +5672,7 @@
     "refs_total": 39
   },
   {
-    "athlete_name": "MACIAS ALCAÑIZ NINA CF",
+    "athlete_name": "MACIAS ALCAÑIZ NINA",
     "strategy": "no_match",
     "candidates": null,
     "refs": [
@@ -7054,7 +5799,7 @@
     ]
   },
   {
-    "athlete_name": "MARTÍNEZ GUTIERREZ IRIS AF",
+    "athlete_name": "MARTÍNEZ GUTIERREZ IRIS",
     "strategy": "no_match",
     "candidates": null,
     "refs": [
@@ -7136,7 +5881,7 @@
     ]
   },
   {
-    "athlete_name": "MIR CASELLAS MARINA BF",
+    "athlete_name": "MIR CASELLAS MARINA",
     "strategy": "no_match",
     "candidates": null,
     "refs": [
@@ -7205,6 +5950,57 @@
     ]
   },
   {
+    "athlete_name": "Marc Avilés Magret",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2020/json/resultat-20200208-controlfebrervalls.json",
+        "discipline": "Llargada",
+        "performance": "1.68",
+        "event_date": "08/02/2020"
+      }
+    ]
+  },
+  {
+    "athlete_name": "Marc Monlleó Mendez",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2020/json/resultat-20200118-controlgenerreus.json",
+        "discipline": "Llargada",
+        "performance": "3.20",
+        "event_date": "18/01/2020"
+      },
+      {
+        "file": "seasons/2020/json/resultat-20200118-controlgenerreus.json",
+        "discipline": "Llargada",
+        "performance": "3.16",
+        "event_date": "18/01/2020"
+      },
+      {
+        "file": "seasons/2020/json/resultat-20200201-controlfebrertarragona.json",
+        "discipline": "60 metres llisos",
+        "performance": "9.98",
+        "event_date": "01/02/2020"
+      },
+      {
+        "file": "seasons/2020/json/resultat-20200201-controlfebrertarragona.json",
+        "discipline": "Pes (2 Kg)",
+        "performance": "6.88",
+        "event_date": "01/02/2020"
+      },
+      {
+        "file": "seasons/2020/json/resultat-20200201-controlfebrertarragona.json",
+        "discipline": "Pes (2 Kg)",
+        "performance": "6.77",
+        "event_date": "01/02/2020"
+      }
+    ],
+    "refs_total": 6
+  },
+  {
     "athlete_name": "Marc Rozas Bellido",
     "strategy": "no_match",
     "candidates": null,
@@ -7243,7 +6039,33 @@
     "refs_total": 19
   },
   {
-    "athlete_name": "Marcos Herrero Calderón AM 5",
+    "athlete_name": "Marc Sempere Amezcua",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2022/json/resultat-20220507-cnatterritorialpromociocambrils.json",
+        "discipline": "Llargada",
+        "performance": "2.51",
+        "event_date": "07/05/2022"
+      }
+    ]
+  },
+  {
+    "athlete_name": "Marcel Mislata Vallecillo",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2018/json/resultat-20181208-controlhiverncambrils.json",
+        "discipline": "60 metres llisos",
+        "performance": "10.35",
+        "event_date": "08/12/2018"
+      }
+    ]
+  },
+  {
+    "athlete_name": "Marcos Herrero Calderón",
     "strategy": "no_match",
     "candidates": null,
     "refs": [
@@ -7332,7 +6154,7 @@
     ]
   },
   {
-    "athlete_name": "Marina Burjales Del Amo 5",
+    "athlete_name": "Marina Burjales Del Amo",
     "strategy": "no_match",
     "candidates": null,
     "refs": [
@@ -7395,6 +6217,44 @@
     ]
   },
   {
+    "athlete_name": "Marius Badia Riera",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2021/json/resultat-20210424-cnatterritorialtarragona.json",
+        "discipline": "Llargada",
+        "performance": "3.06",
+        "event_date": "24/04/2021"
+      },
+      {
+        "file": "seasons/2023/json/resultat-20231216-trofeunadalcnrp.json",
+        "discipline": "Llargada",
+        "performance": "3.01",
+        "event_date": "16/12/2023"
+      },
+      {
+        "file": "seasons/2023/json/resultat-20231216-trofeunadalcnrp.json",
+        "discipline": "Llargada",
+        "performance": "3.30",
+        "event_date": "16/12/2023"
+      },
+      {
+        "file": "seasons/2024/json/resultat-20240518-cnatterritpromociocambrils.json",
+        "discipline": "Javelina (500 g)",
+        "performance": "19.22",
+        "event_date": "18/05/2024"
+      },
+      {
+        "file": "seasons/2024/json/resultat-20240518-cnatterritpromociocambrils.json",
+        "discipline": "Javelina (500 g)",
+        "performance": "20.49",
+        "event_date": "18/05/2024"
+      }
+    ],
+    "refs_total": 18
+  },
+  {
     "athlete_name": "Marta Aluja Olesti",
     "strategy": "no_match",
     "candidates": null,
@@ -7406,6 +6266,119 @@
         "event_date": "12/05/2012"
       }
     ]
+  },
+  {
+    "athlete_name": "Marta Lorenzo Valldosera",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2018/json/resultat-20180113-controlgenercambrils.json",
+        "discipline": "Llargada",
+        "performance": "2.67",
+        "event_date": "13/01/2018"
+      },
+      {
+        "file": "seasons/2020/json/resultat-20200111-controlgenercambrils.json",
+        "discipline": "60 metres llisos",
+        "performance": "9.09",
+        "event_date": "11/01/2020"
+      },
+      {
+        "file": "seasons/2020/json/resultat-20200201-controlfebrertarragona.json",
+        "discipline": "60 metres llisos",
+        "performance": "9.28",
+        "event_date": "01/02/2020"
+      },
+      {
+        "file": "seasons/2021/json/resultat-20210131-controlgenerreus.json",
+        "discipline": "Pes (4 Kg)",
+        "performance": "9.24",
+        "event_date": "31/01/2021"
+      },
+      {
+        "file": "seasons/2021/json/resultat-20210207-controlfebrer1reus.json",
+        "discipline": "60 metres llisos",
+        "performance": "9.15",
+        "event_date": "07/02/2021"
+      }
+    ],
+    "refs_total": 10
+  },
+  {
+    "athlete_name": "Martina Prats Casado",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2018/json/resultat-20181208-controlhiverncambrils.json",
+        "discipline": "300 metres llisos",
+        "performance": "0:51.87",
+        "event_date": "08/12/2018"
+      },
+      {
+        "file": "seasons/2019/json/resultat-20190406-cnatterritpromociotarragona.json",
+        "discipline": "Llargada",
+        "performance": "4.19",
+        "event_date": "06/04/2019"
+      },
+      {
+        "file": "seasons/2019/json/resultat-20190406-cnatterritpromociotarragona.json",
+        "discipline": "Llargada",
+        "performance": "4.24",
+        "event_date": "06/04/2019"
+      },
+      {
+        "file": "seasons/2019/json/resultat-20190615-trobadacambrilsandorra.json",
+        "discipline": "Llargada",
+        "performance": "4.28",
+        "event_date": "15/06/2019"
+      },
+      {
+        "file": "seasons/2019/json/resultat-20190615-trobadacambrilsandorra.json",
+        "discipline": "Llargada",
+        "performance": "4.18",
+        "event_date": "15/06/2019"
+      }
+    ]
+  },
+  {
+    "athlete_name": "Marçal Sinfreu Niubó",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2019/json/resultat-20190119-controlgenercambrils.json",
+        "discipline": "Llargada",
+        "performance": "2.51",
+        "event_date": "19/01/2019"
+      },
+      {
+        "file": "seasons/2019/json/resultat-20190126-controlgenertarragona.json",
+        "discipline": "Llargada",
+        "performance": "19.55",
+        "event_date": "26/01/2019"
+      },
+      {
+        "file": "seasons/2019/json/resultat-2019033031-controlprimaveracambrils.json",
+        "discipline": "60 metres llisos",
+        "performance": "10.70",
+        "event_date": "30/03/2019"
+      },
+      {
+        "file": "seasons/2019/json/resultat-20190504-cnatterritorialpromociovalls.json",
+        "discipline": "Javelina (500 g)",
+        "performance": "18.25",
+        "event_date": "04/05/2019"
+      },
+      {
+        "file": "seasons/2019/json/resultat-20190504-cnatterritorialpromociovalls.json",
+        "discipline": "Javelina (500 g)",
+        "performance": "17.89",
+        "event_date": "04/05/2019"
+      }
+    ],
+    "refs_total": 60
   },
   {
     "athlete_name": "Mat DE HAAS",
@@ -7459,7 +6432,38 @@
     "refs_total": 8
   },
   {
-    "athlete_name": "Miguel Reyes Alcantara BM",
+    "athlete_name": "Merce Bages Vellve",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2023/json/resultat-20230114-controlgener1tarragona.json",
+        "discipline": "Javelina (600 g)",
+        "performance": "4.39",
+        "event_date": "14/01/2023"
+      },
+      {
+        "file": "seasons/2023/json/resultat-20230114-controlgener1tarragona.json",
+        "discipline": "Javelina (600 g)",
+        "performance": "6.14",
+        "event_date": "14/01/2023"
+      },
+      {
+        "file": "seasons/2023/json/resultat-20230114-controlgener1tarragona.json",
+        "discipline": "Javelina (600 g)",
+        "performance": "5.41",
+        "event_date": "14/01/2023"
+      },
+      {
+        "file": "seasons/2023/json/resultat-20230422-controlcatorredembarra.json",
+        "discipline": "Llargada",
+        "performance": "1.79",
+        "event_date": "22/04/2023"
+      }
+    ]
+  },
+  {
+    "athlete_name": "Miguel Reyes Alcantara",
     "strategy": "no_match",
     "candidates": null,
     "refs": [
@@ -7497,7 +6501,7 @@
     "refs_total": 29
   },
   {
-    "athlete_name": "Mireia Viera Cervello IF 5",
+    "athlete_name": "Mireia Viera Cervello",
     "strategy": "no_match",
     "candidates": null,
     "refs": [
@@ -7573,6 +6577,144 @@
     "refs_total": 8
   },
   {
+    "athlete_name": "Nahim Oulad Cabeza",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2018/json/resultat-20180505-cnatterritorialvalls.json",
+        "discipline": "Triple",
+        "performance": "7.55",
+        "event_date": "05/05/2018"
+      },
+      {
+        "file": "seasons/2018/json/resultat-20180505-cnatterritorialvalls.json",
+        "discipline": "Triple",
+        "performance": "7.50",
+        "event_date": "05/05/2018"
+      },
+      {
+        "file": "seasons/2018/json/resultat-20180505-cnatterritorialvalls.json",
+        "discipline": "Triple",
+        "performance": "7.62",
+        "event_date": "05/05/2018"
+      }
+    ]
+  },
+  {
+    "athlete_name": "Naia Perez Esquitino",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2019/json/resultat-20190126-controlgenertarragona.json",
+        "discipline": "Llargada",
+        "performance": "2.98",
+        "event_date": "26/01/2019"
+      },
+      {
+        "file": "seasons/2019/json/resultat-2019033031-territcombinadescambrils.json",
+        "discipline": "60 metres tanques (0.50)",
+        "performance": "11.98",
+        "event_date": "30/03/2019"
+      },
+      {
+        "file": "seasons/2019/json/resultat-2019033031-territcombinadescambrils.json",
+        "discipline": "Pes (2 Kg)",
+        "performance": "4.75",
+        "event_date": "30/03/2019"
+      },
+      {
+        "file": "seasons/2019/json/resultat-2019033031-territcombinadescambrils.json",
+        "discipline": "Pes (2 Kg)",
+        "performance": "5.42",
+        "event_date": "30/03/2019"
+      },
+      {
+        "file": "seasons/2019/json/resultat-2019033031-territcombinadescambrils.json",
+        "discipline": "Pes (2 Kg)",
+        "performance": "6.51",
+        "event_date": "30/03/2019"
+      }
+    ],
+    "refs_total": 24
+  },
+  {
+    "athlete_name": "Nayah Martinez Ferre",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2022/json/resultat-20220507-cnatterritorialpromociocambrils.json",
+        "discipline": "60 metres llisos",
+        "performance": "10.46",
+        "event_date": "07/05/2022"
+      },
+      {
+        "file": "seasons/2023/json/resultat-20230211-catclubssub12apcsabadell.json",
+        "discipline": "60 metres llisos",
+        "performance": "10.07",
+        "event_date": "11/02/2023"
+      },
+      {
+        "file": "seasons/2024/json/resultat-20240303-controlsub12-14pcsabadell.json",
+        "discipline": "200 metres llisos",
+        "performance": "33.06",
+        "event_date": "03/03/2024"
+      },
+      {
+        "file": "seasons/2024/json/resultat-20240504-catclubssub12mataro.json",
+        "discipline": "Pes (2 Kg)",
+        "performance": "6.19",
+        "event_date": "04/05/2024"
+      },
+      {
+        "file": "seasons/2024/json/resultat-20240504-catclubssub12mataro.json",
+        "discipline": "Pes (2 Kg)",
+        "performance": "5.94",
+        "event_date": "04/05/2024"
+      }
+    ],
+    "refs_total": 6
+  },
+  {
+    "athlete_name": "Nicolas Franco Teixeira",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2024/json/resultat-20240120-controlgenertarragona.json",
+        "discipline": "Pes (2 Kg)",
+        "performance": "3.88",
+        "event_date": "20/01/2024"
+      },
+      {
+        "file": "seasons/2024/json/resultat-20240120-controlgenertarragona.json",
+        "discipline": "Pes (2 Kg)",
+        "performance": "3.76",
+        "event_date": "20/01/2024"
+      },
+      {
+        "file": "seasons/2024/json/resultat-20240120-controlgenertarragona.json",
+        "discipline": "Pes (2 Kg)",
+        "performance": "3.39",
+        "event_date": "20/01/2024"
+      },
+      {
+        "file": "seasons/2024/json/resultat-20240210-cnatterritorialcombinadessub1214tarragona.json",
+        "discipline": "Pes (2 Kg)",
+        "performance": "3.55",
+        "event_date": "10/02/2024"
+      },
+      {
+        "file": "seasons/2024/json/resultat-20240210-cnatterritorialcombinadessub1214tarragona.json",
+        "discipline": "Pes (2 Kg)",
+        "performance": "3.89",
+        "event_date": "10/02/2024"
+      }
+    ]
+  },
+  {
     "athlete_name": "Nil Aixala Soto",
     "strategy": "no_match",
     "candidates": null,
@@ -7611,6 +6753,82 @@
     "refs_total": 14
   },
   {
+    "athlete_name": "Nil Pages Corts",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2020/json/resultat-20200208-controlfebrervalls.json",
+        "discipline": "Llargada",
+        "performance": "3.00",
+        "event_date": "08/02/2020"
+      },
+      {
+        "file": "seasons/2021/json/resultat-20210328-controlvilanova.json",
+        "discipline": "Llargada",
+        "performance": "2.78",
+        "event_date": "28/03/2021"
+      },
+      {
+        "file": "seasons/2021/json/resultat-20210410-catrelleuspromociopreviatarragona.json",
+        "discipline": "4x60",
+        "performance": "36.70",
+        "event_date": "10/04/2021"
+      },
+      {
+        "file": "seasons/2021/json/resultat-20210410-catrelleuspromociopreviatarragona.json",
+        "discipline": "3x600",
+        "performance": "6:54.79",
+        "event_date": "10/04/2021"
+      },
+      {
+        "file": "seasons/2021/json/resultat-20210411-cnatterritorialreus.json",
+        "discipline": "Llargada",
+        "performance": "3.15",
+        "event_date": "11/04/2021"
+      }
+    ],
+    "refs_total": 15
+  },
+  {
+    "athlete_name": "Nil Pàmies Miró",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2020/json/resultat-20200201-controlfebrertarragona.json",
+        "discipline": "Llargada",
+        "performance": "2.99",
+        "event_date": "01/02/2020"
+      },
+      {
+        "file": "seasons/2020/json/resultat-20200208-controlfebrervalls.json",
+        "discipline": "Llargada",
+        "performance": "2.69",
+        "event_date": "08/02/2020"
+      },
+      {
+        "file": "seasons/2021/json/resultat-20210328-controlvilanova.json",
+        "discipline": "Llargada",
+        "performance": "3.39",
+        "event_date": "28/03/2021"
+      },
+      {
+        "file": "seasons/2021/json/resultat-20210328-controlvilanova.json",
+        "discipline": "Llargada",
+        "performance": "3.24",
+        "event_date": "28/03/2021"
+      },
+      {
+        "file": "seasons/2021/json/resultat-20210328-controlvilanova.json",
+        "discipline": "Llargada",
+        "performance": "3.13",
+        "event_date": "28/03/2021"
+      }
+    ],
+    "refs_total": 35
+  },
+  {
     "athlete_name": "Nina Macias Alcañiz",
     "strategy": "no_match",
     "candidates": null,
@@ -7620,6 +6838,56 @@
         "discipline": "60 metres llisos",
         "performance": "9.19",
         "event_date": "17/01/2015"
+      }
+    ]
+  },
+  {
+    "athlete_name": "Noa Collar Aranegas",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2023/json/resultat-20230422-cnatterritpromociotarragona.json",
+        "discipline": "Javelina (600 g)",
+        "performance": "6.90",
+        "event_date": "22/04/2023"
+      },
+      {
+        "file": "seasons/2023/json/resultat-20230422-cnatterritpromociotarragona.json",
+        "discipline": "Javelina (600 g)",
+        "performance": "5.20",
+        "event_date": "22/04/2023"
+      },
+      {
+        "file": "seasons/2023/json/resultat-20230422-cnatterritpromociotarragona.json",
+        "discipline": "Javelina (600 g)",
+        "performance": "6.11",
+        "event_date": "22/04/2023"
+      }
+    ]
+  },
+  {
+    "athlete_name": "Nuria Badia Palleja",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2018/json/resultat-20180113-controlgenercambrils.json",
+        "discipline": "Llargada",
+        "performance": "2.90",
+        "event_date": "13/01/2018"
+      },
+      {
+        "file": "seasons/2018/json/resultat-20180120-controlamposta.json",
+        "discipline": "Pes (2 Kg)",
+        "performance": "3.34",
+        "event_date": "20/01/2018"
+      },
+      {
+        "file": "seasons/2018/json/resultat-20180120-controlamposta.json",
+        "discipline": "Pes (2 Kg)",
+        "performance": "4.29",
+        "event_date": "20/01/2018"
       }
     ]
   },
@@ -7656,7 +6924,7 @@
     ]
   },
   {
-    "athlete_name": "OSCAR NAVARRO BRAVO IM",
+    "athlete_name": "OSCAR NAVARRO BRAVO",
     "strategy": "no_match",
     "candidates": null,
     "refs": [
@@ -7724,6 +6992,75 @@
       }
     ],
     "refs_total": 7
+  },
+  {
+    "athlete_name": "Oriol Bosch Querol",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2019/json/resultat-20190406-cnatterritpromociotarragona.json",
+        "discipline": "60 metres llisos",
+        "performance": "10.97",
+        "event_date": "06/04/2019"
+      }
+    ]
+  },
+  {
+    "athlete_name": "Oriol Cacho Gurrera",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2020/json/resultat-20200118-controlgenerreus.json",
+        "discipline": "Llargada",
+        "performance": "4.25",
+        "event_date": "18/01/2020"
+      },
+      {
+        "file": "seasons/2020/json/resultat-20200118-controlgenerreus.json",
+        "discipline": "Llargada",
+        "performance": "3.98",
+        "event_date": "18/01/2020"
+      },
+      {
+        "file": "seasons/2020/json/resultat-20200118-controlgenerreus.json",
+        "discipline": "Llargada",
+        "performance": "4.30",
+        "event_date": "18/01/2020"
+      },
+      {
+        "file": "seasons/2020/json/resultat-20200118-controlgenerreus.json",
+        "discipline": "Llargada",
+        "performance": "3.86",
+        "event_date": "18/01/2020"
+      }
+    ]
+  },
+  {
+    "athlete_name": "Oscar Leffer Guillon",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2020/json/resultat-20200913-controlreus.json",
+        "discipline": "800 metres llisos",
+        "performance": "2:07.62",
+        "event_date": "13/09/2020"
+      },
+      {
+        "file": "seasons/2021/json/resultat-20210130-controlsub1820pcbcnpsj.json",
+        "discipline": "3000 metres llisos",
+        "performance": "9:44.84",
+        "event_date": "30/01/2021"
+      },
+      {
+        "file": "seasons/2021/json/resultat-20210207-controlfebrer1reus.json",
+        "discipline": "800 metres llisos",
+        "performance": "2:08.27",
+        "event_date": "07/02/2021"
+      }
+    ]
   },
   {
     "athlete_name": "Ot Pego Montané",
@@ -7998,7 +7335,7 @@
     ]
   },
   {
-    "athlete_name": "PEGO MONTANÉ OT PBM",
+    "athlete_name": "PEGO MONTANÉ OT",
     "strategy": "no_match",
     "candidates": null,
     "refs": [
@@ -8055,7 +7392,7 @@
     ]
   },
   {
-    "athlete_name": "PEREZ DE FUENTE AF",
+    "athlete_name": "PEREZ DE FUENTE",
     "strategy": "no_match",
     "candidates": null,
     "refs": [
@@ -8106,6 +7443,120 @@
     "refs_total": 8
   },
   {
+    "athlete_name": "Paco Lorenzo Valldosera",
+    "strategy": "manual_exclude",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2018/json/resultat-20180414-cnatterritorialcambrils.json",
+        "discipline": "Llargada",
+        "performance": "3.25",
+        "event_date": "14/04/2018"
+      },
+      {
+        "file": "seasons/2018/json/resultat-20180414-cnatterritorialcambrils.json",
+        "discipline": "Llargada",
+        "performance": "3.56",
+        "event_date": "14/04/2018"
+      },
+      {
+        "file": "seasons/2018/json/resultat-20180414-cnatterritorialcambrils.json",
+        "discipline": "Llargada",
+        "performance": "3.45",
+        "event_date": "14/04/2018"
+      },
+      {
+        "file": "seasons/2018/json/resultat-2018042829-controlprimaveracambrils.json",
+        "discipline": "60 metres llisos",
+        "performance": "9.50",
+        "event_date": "28/04/2018"
+      },
+      {
+        "file": "seasons/2018/json/resultat-20180519-catsub10ascoprevia.json",
+        "discipline": "Llargada",
+        "performance": "3.43",
+        "event_date": "19/05/2018"
+      }
+    ],
+    "refs_total": 37
+  },
+  {
+    "athlete_name": "Pau Llado Aparicio",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2023/json/resultat-20230114-controlgener1tarragona.json",
+        "discipline": "Javelina (800 g)",
+        "performance": "8.39",
+        "event_date": "14/01/2023"
+      },
+      {
+        "file": "seasons/2023/json/resultat-20230114-controlgener1tarragona.json",
+        "discipline": "Javelina (800 g)",
+        "performance": "8.31",
+        "event_date": "14/01/2023"
+      },
+      {
+        "file": "seasons/2023/json/resultat-20230114-controlgener1tarragona.json",
+        "discipline": "Javelina (800 g)",
+        "performance": "5.49",
+        "event_date": "14/01/2023"
+      },
+      {
+        "file": "seasons/2023/json/resultat-20230422-controlcatorredembarra.json",
+        "discipline": "Llargada",
+        "performance": "1.55",
+        "event_date": "22/04/2023"
+      },
+      {
+        "file": "seasons/2023/json/resultat-20230422-controlcatorredembarra.json",
+        "discipline": "Llargada",
+        "performance": "7.51",
+        "event_date": "22/04/2023"
+      }
+    ],
+    "refs_total": 25
+  },
+  {
+    "athlete_name": "Pau Ortiz Garcia",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2021/json/resultat-20210131-controlgenerreus.json",
+        "discipline": "Pes (4 Kg)",
+        "performance": "10.87",
+        "event_date": "31/01/2021"
+      },
+      {
+        "file": "seasons/2021/json/resultat-20210131-controlgenerreus.json",
+        "discipline": "Pes (4 Kg)",
+        "performance": "11.06",
+        "event_date": "31/01/2021"
+      },
+      {
+        "file": "seasons/2021/json/resultat-20210131-controlgenerreus.json",
+        "discipline": "Pes (4 Kg)",
+        "performance": "10.52",
+        "event_date": "31/01/2021"
+      },
+      {
+        "file": "seasons/2021/json/resultat-20210131-controlgenerreus.json",
+        "discipline": "Pes (4 Kg)",
+        "performance": "10.40",
+        "event_date": "31/01/2021"
+      },
+      {
+        "file": "seasons/2021/json/resultat-20210131-controlgenerreus.json",
+        "discipline": "Pes (4 Kg)",
+        "performance": "11.18",
+        "event_date": "31/01/2021"
+      }
+    ],
+    "refs_total": 38
+  },
+  {
     "athlete_name": "Pau Rozas Bellido",
     "strategy": "no_match",
     "candidates": null,
@@ -8130,6 +7581,44 @@
         "event_date": "10/05/2015"
       }
     ]
+  },
+  {
+    "athlete_name": "Paula Diez Plasencia",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2018/json/resultat-20180120-controlamposta.json",
+        "discipline": "Llargada",
+        "performance": "2.26",
+        "event_date": "20/01/2018"
+      },
+      {
+        "file": "seasons/2018/json/resultat-20180224-controltorredembarra.json",
+        "discipline": "Llargada",
+        "performance": "2.15",
+        "event_date": "24/02/2018"
+      },
+      {
+        "file": "seasons/2018/json/resultat-20180317-cnatterritpromocioasco.json",
+        "discipline": "1000 metres marxa",
+        "performance": "7:39.00",
+        "event_date": "17/03/2018"
+      },
+      {
+        "file": "seasons/2018/json/resultat-20180414-cnatterritorialcambrils.json",
+        "discipline": "Llargada",
+        "performance": "2.53",
+        "event_date": "14/04/2018"
+      },
+      {
+        "file": "seasons/2018/json/resultat-2018042829-controlprimaveracambrils.json",
+        "discipline": "60 metres llisos",
+        "performance": "11.95",
+        "event_date": "28/04/2018"
+      }
+    ],
+    "refs_total": 60
   },
   {
     "athlete_name": "Paula Masdeu bravo",
@@ -8170,6 +7659,125 @@
     "refs_total": 7
   },
   {
+    "athlete_name": "Paula Sanz Navarro",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2020/json/resultat-20200201-controlfebrertarragona.json",
+        "discipline": "60 metres llisos",
+        "performance": "10.82",
+        "event_date": "01/02/2020"
+      }
+    ]
+  },
+  {
+    "athlete_name": "Pep Sarle Cornado",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2023/json/resultat-20230114-controlgener1tarragona.json",
+        "discipline": "Javelina (800 g)",
+        "performance": "7.02",
+        "event_date": "14/01/2023"
+      },
+      {
+        "file": "seasons/2023/json/resultat-20230114-controlgener1tarragona.json",
+        "discipline": "Javelina (800 g)",
+        "performance": "6.69",
+        "event_date": "14/01/2023"
+      },
+      {
+        "file": "seasons/2023/json/resultat-20230114-controlgener1tarragona.json",
+        "discipline": "Javelina (800 g)",
+        "performance": "5.78",
+        "event_date": "14/01/2023"
+      },
+      {
+        "file": "seasons/2023/json/resultat-20230422-controlcatorredembarra.json",
+        "discipline": "Llargada",
+        "performance": "2.06",
+        "event_date": "22/04/2023"
+      },
+      {
+        "file": "seasons/2023/json/resultat-20230422-controlcatorredembarra.json",
+        "discipline": "Llargada",
+        "performance": "6.45",
+        "event_date": "22/04/2023"
+      }
+    ],
+    "refs_total": 7
+  },
+  {
+    "athlete_name": "Pilar Aranda Sanchez",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2018/json/resultat-20180113-controlgenercambrils.json",
+        "discipline": "Llargada",
+        "performance": "2.93",
+        "event_date": "13/01/2018"
+      },
+      {
+        "file": "seasons/2018/json/resultat-20180120-controlamposta.json",
+        "discipline": "Pes (2 Kg)",
+        "performance": "4.63",
+        "event_date": "20/01/2018"
+      },
+      {
+        "file": "seasons/2018/json/resultat-20180120-controlamposta.json",
+        "discipline": "Pes (2 Kg)",
+        "performance": "4.60",
+        "event_date": "20/01/2018"
+      },
+      {
+        "file": "seasons/2018/json/resultat-20180120-controlamposta.json",
+        "discipline": "Pes (2 Kg)",
+        "performance": "4.38",
+        "event_date": "20/01/2018"
+      }
+    ]
+  },
+  {
+    "athlete_name": "Pol Villena Balaguer",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2022/json/resultat-20220115-controlgener1cambrils.json",
+        "discipline": "60 metres tanques (0.84)",
+        "performance": "13.17",
+        "event_date": "15/01/2022"
+      },
+      {
+        "file": "seasons/2022/json/resultat-20220115-controlgener1cambrils.json",
+        "discipline": "Llargada",
+        "performance": "3.29",
+        "event_date": "15/01/2022"
+      },
+      {
+        "file": "seasons/2022/json/resultat-20220115-controlgener1cambrils.json",
+        "discipline": "Llargada",
+        "performance": "3.50",
+        "event_date": "15/01/2022"
+      },
+      {
+        "file": "seasons/2022/json/resultat-20220115-controlgener1cambrils.json",
+        "discipline": "Llargada",
+        "performance": "3.57",
+        "event_date": "15/01/2022"
+      },
+      {
+        "file": "seasons/2022/json/resultat-20220115-controlgener1cambrils.json",
+        "discipline": "Llargada",
+        "performance": "3.15",
+        "event_date": "15/01/2022"
+      }
+    ]
+  },
+  {
     "athlete_name": "QUIMO VERGARA MADRAZO",
     "strategy": "no_match",
     "candidates": null,
@@ -8183,7 +7791,83 @@
     ]
   },
   {
-    "athlete_name": "REYES ALCANTARA CRISTINA AF",
+    "athlete_name": "Quim Sousa Iturria",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2018/json/resultat-20180414-cnatterritorialcambrils.json",
+        "discipline": "Llargada",
+        "performance": "2.58",
+        "event_date": "14/04/2018"
+      },
+      {
+        "file": "seasons/2019/json/resultat-20190126-controlgenertarragona.json",
+        "discipline": "Llargada",
+        "performance": "16.28",
+        "event_date": "26/01/2019"
+      },
+      {
+        "file": "seasons/2019/json/resultat-20190126-controlgenertarragona.json",
+        "discipline": "Llargada",
+        "performance": "14.56",
+        "event_date": "26/01/2019"
+      },
+      {
+        "file": "seasons/2019/json/resultat-20190126-controlgenertarragona.json",
+        "discipline": "Llargada",
+        "performance": "14.13",
+        "event_date": "26/01/2019"
+      },
+      {
+        "file": "seasons/2019/json/resultat-2019033031-controlprimaveracambrils.json",
+        "discipline": "60 metres llisos",
+        "performance": "10.45",
+        "event_date": "30/03/2019"
+      }
+    ],
+    "refs_total": 26
+  },
+  {
+    "athlete_name": "Quimey Izaga Deriu",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2017/json/resultat-20170514-catclubsbenjami.json",
+        "discipline": "Llargada",
+        "performance": "2.28",
+        "event_date": "14/05/2017"
+      },
+      {
+        "file": "seasons/2017/json/resultat-20170520-catbenjamiprevia.json",
+        "discipline": "1000 metres marxa",
+        "performance": "6:00.05",
+        "event_date": "20/05/2017"
+      },
+      {
+        "file": "seasons/2018/json/resultat-20180120-controlamposta.json",
+        "discipline": "Llargada",
+        "performance": "2.72",
+        "event_date": "20/01/2018"
+      },
+      {
+        "file": "seasons/2018/json/resultat-20180224-controltorredembarra.json",
+        "discipline": "Llargada",
+        "performance": "2.67",
+        "event_date": "24/02/2018"
+      },
+      {
+        "file": "seasons/2018/json/resultat-20180414-cnatterritorialcambrils.json",
+        "discipline": "Llargada",
+        "performance": "3.10",
+        "event_date": "14/04/2018"
+      }
+    ],
+    "refs_total": 42
+  },
+  {
+    "athlete_name": "REYES ALCANTARA CRISTINA",
     "strategy": "no_match",
     "candidates": null,
     "refs": [
@@ -8259,7 +7943,7 @@
     "refs_total": 7
   },
   {
-    "athlete_name": "RODRÍGUEZ ARTIGAS JUDIT PBF",
+    "athlete_name": "RODRÍGUEZ ARTIGAS JUDIT",
     "strategy": "no_match",
     "candidates": null,
     "refs": [
@@ -8316,7 +8000,7 @@
     "refs_total": 9
   },
   {
-    "athlete_name": "ROZAS BELLIDO PAU PBM",
+    "athlete_name": "ROZAS BELLIDO PAU",
     "strategy": "no_match",
     "candidates": null,
     "refs": [
@@ -8329,7 +8013,7 @@
     ]
   },
   {
-    "athlete_name": "ROZAS BELLIEDO PAU PBM",
+    "athlete_name": "ROZAS BELLIEDO PAU",
     "strategy": "no_match",
     "candidates": null,
     "refs": [
@@ -8393,6 +8077,82 @@
     ]
   },
   {
+    "athlete_name": "Rihana Martos Teixido",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2022/json/resultat-20220220-controlfebrer2reus.json",
+        "discipline": "Llargada",
+        "performance": "2.60",
+        "event_date": "20/02/2022"
+      },
+      {
+        "file": "seasons/2022/json/resultat-20220507-cnatterritorialpromociocambrils.json",
+        "discipline": "60 metres llisos",
+        "performance": "11.60",
+        "event_date": "07/05/2022"
+      },
+      {
+        "file": "seasons/2022/json/resultat-20220507-cnatterritorialpromociocambrils.json",
+        "discipline": "Disc (600 g)",
+        "performance": "7.24",
+        "event_date": "07/05/2022"
+      },
+      {
+        "file": "seasons/2022/json/resultat-20220514-cnatterritorialpromociotarragona.json",
+        "discipline": "60 metres tanques (0.50)",
+        "performance": "13.21",
+        "event_date": "14/05/2022"
+      },
+      {
+        "file": "seasons/2022/json/resultat-20220604-cnatterritorialpromocioreus.json",
+        "discipline": "Llargada",
+        "performance": "2.63",
+        "event_date": "04/06/2022"
+      }
+    ],
+    "refs_total": 32
+  },
+  {
+    "athlete_name": "Roger Feijoo Massot",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2017/json/resultat-20170514-catclubscadet.json",
+        "discipline": "Javelina (600 g)",
+        "performance": "15.97",
+        "event_date": "14/05/2017"
+      },
+      {
+        "file": "seasons/2017/json/resultat-20170514-catclubscadet.json",
+        "discipline": "Javelina (600 g)",
+        "performance": "20.01",
+        "event_date": "14/05/2017"
+      },
+      {
+        "file": "seasons/2018/json/resultat-20180414-cnatterritorialcambrils.json",
+        "discipline": "Llargada",
+        "performance": "4.44",
+        "event_date": "14/04/2018"
+      },
+      {
+        "file": "seasons/2018/json/resultat-20180414-cnatterritorialcambrils.json",
+        "discipline": "Llargada",
+        "performance": "4.01",
+        "event_date": "14/04/2018"
+      },
+      {
+        "file": "seasons/2018/json/resultat-20180414-cnatterritorialcambrils.json",
+        "discipline": "Llargada",
+        "performance": "4.09",
+        "event_date": "14/04/2018"
+      }
+    ],
+    "refs_total": 10
+  },
+  {
     "athlete_name": "Ruben Paredes",
     "strategy": "no_match",
     "candidates": null,
@@ -8406,7 +8166,45 @@
     ]
   },
   {
-    "athlete_name": "SAIZ SANTAOLARIA HUGO AM",
+    "athlete_name": "Ruth Martinez Rosillo",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2019/json/resultat-20190427-trobadacatmeridionalguipuzcoacambrils.json",
+        "discipline": "Llargada",
+        "performance": "3.02",
+        "event_date": "27/04/2019"
+      },
+      {
+        "file": "seasons/2019/json/resultat-20190427-trobadacatmeridionalguipuzcoacambrils.json",
+        "discipline": "Llargada",
+        "performance": "3.14",
+        "event_date": "27/04/2019"
+      },
+      {
+        "file": "seasons/2019/json/resultat-20190427-trobadacatmeridionalguipuzcoacambrils.json",
+        "discipline": "Llargada",
+        "performance": "3.08",
+        "event_date": "27/04/2019"
+      },
+      {
+        "file": "seasons/2019/json/resultat-20190504-cnatterritorialpromociovalls.json",
+        "discipline": "150 metres llisos",
+        "performance": "23.40",
+        "event_date": "04/05/2019"
+      },
+      {
+        "file": "seasons/2019/json/resultat-20190504-cnatterritorialpromociovalls.json",
+        "discipline": "Triple",
+        "performance": "6.79",
+        "event_date": "04/05/2019"
+      }
+    ],
+    "refs_total": 32
+  },
+  {
+    "athlete_name": "SAIZ SANTAOLARIA HUGO",
     "strategy": "no_match",
     "candidates": null,
     "refs": [
@@ -8457,7 +8255,7 @@
     "refs_total": 6
   },
   {
-    "athlete_name": "SINFREU NIUBO JOAN BM",
+    "athlete_name": "SINFREU NIUBO JOAN",
     "strategy": "no_match",
     "candidates": null,
     "refs": [
@@ -8495,7 +8293,7 @@
     "refs_total": 7
   },
   {
-    "athlete_name": "SUAREZ PIZA ARIADNA BF",
+    "athlete_name": "SUAREZ PIZA ARIADNA",
     "strategy": "no_match",
     "candidates": null,
     "refs": [
@@ -8571,6 +8369,25 @@
     "refs_total": 25
   },
   {
+    "athlete_name": "Sofia Fernandez Ortega",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2022/json/resultat-20220115-controlgener1cambrils.json",
+        "discipline": "Llargada",
+        "performance": "2.84",
+        "event_date": "15/01/2022"
+      },
+      {
+        "file": "seasons/2022/json/resultat-20220129-controlgener3cambrils.json",
+        "discipline": "60 metres llisos",
+        "performance": "10.77",
+        "event_date": "29/01/2022"
+      }
+    ]
+  },
+  {
     "athlete_name": "TIBAU TORTAJADA GUTIÉRREZ FONT",
     "strategy": "no_match",
     "candidates": null,
@@ -8584,7 +8401,7 @@
     ]
   },
   {
-    "athlete_name": "TORRES RIONE ALBA BF",
+    "athlete_name": "TORRES RIONE ALBA",
     "strategy": "no_match",
     "candidates": null,
     "refs": [
@@ -8622,7 +8439,7 @@
     "refs_total": 11
   },
   {
-    "athlete_name": "TORRES RIONE JANA BF",
+    "athlete_name": "TORRES RIONE JANA",
     "strategy": "no_match",
     "candidates": null,
     "refs": [
@@ -8749,6 +8566,151 @@
     ]
   },
   {
+    "athlete_name": "Vera Fernandez Ortega",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2020/json/resultat-20200111-controlgenercambrils.json",
+        "discipline": "60 metres llisos",
+        "performance": "9.21",
+        "event_date": "11/01/2020"
+      },
+      {
+        "file": "seasons/2020/json/resultat-20200111-controlgenercambrils.json",
+        "discipline": "Llargada",
+        "performance": "3.25",
+        "event_date": "11/01/2020"
+      },
+      {
+        "file": "seasons/2020/json/resultat-20200111-controlgenercambrils.json",
+        "discipline": "Llargada",
+        "performance": "3.60",
+        "event_date": "11/01/2020"
+      },
+      {
+        "file": "seasons/2020/json/resultat-20200111-controlgenercambrils.json",
+        "discipline": "Llargada",
+        "performance": "3.48",
+        "event_date": "11/01/2020"
+      },
+      {
+        "file": "seasons/2020/json/resultat-20200125-catclubssub14pcsabadell.json",
+        "discipline": "Pes (2 Kg)",
+        "performance": "5.30",
+        "event_date": "25/01/2020"
+      }
+    ],
+    "refs_total": 14
+  },
+  {
+    "athlete_name": "Victor Martinez Perales",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2023/json/resultat-20230114-controlgener1tarragona.json",
+        "discipline": "Javelina (800 g)",
+        "performance": "7.01",
+        "event_date": "14/01/2023"
+      },
+      {
+        "file": "seasons/2023/json/resultat-20230114-controlgener1tarragona.json",
+        "discipline": "Javelina (800 g)",
+        "performance": "5.10",
+        "event_date": "14/01/2023"
+      }
+    ]
+  },
+  {
+    "athlete_name": "Victor Rofes Palacios",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2018/json/resultat-20180414-cnatterritorialcambrils.json",
+        "discipline": "Llargada",
+        "performance": "3.58",
+        "event_date": "14/04/2018"
+      },
+      {
+        "file": "seasons/2018/json/resultat-20180414-cnatterritorialcambrils.json",
+        "discipline": "Llargada",
+        "performance": "3.54",
+        "event_date": "14/04/2018"
+      },
+      {
+        "file": "seasons/2018/json/resultat-20180414-cnatterritorialcambrils.json",
+        "discipline": "Llargada",
+        "performance": "3.94",
+        "event_date": "14/04/2018"
+      }
+    ]
+  },
+  {
+    "athlete_name": "Violeta Roda Zuñiga",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2019/json/resultat-20190504-cnatterritorialpromociovalls.json",
+        "discipline": "150 metres llisos",
+        "performance": "24.83",
+        "event_date": "04/05/2019"
+      },
+      {
+        "file": "seasons/2019/json/resultat-20190504-cnatterritorialpromociovalls.json",
+        "discipline": "Triple",
+        "performance": "6.21",
+        "event_date": "04/05/2019"
+      },
+      {
+        "file": "seasons/2019/json/resultat-20190601-cnatterritoailpromociotarragona.json",
+        "discipline": "Martell (2 Kg)",
+        "performance": "16.42",
+        "event_date": "01/06/2019"
+      }
+    ]
+  },
+  {
+    "athlete_name": "Vivian Onyemaekwu",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2024/json/resultat-20240120-controlgenertarragona.json",
+        "discipline": "Pes (2 Kg)",
+        "performance": "4.82",
+        "event_date": "20/01/2024"
+      },
+      {
+        "file": "seasons/2024/json/resultat-20240120-controlgenertarragona.json",
+        "discipline": "Pes (2 Kg)",
+        "performance": "4.61",
+        "event_date": "20/01/2024"
+      },
+      {
+        "file": "seasons/2024/json/resultat-20240210-cnatterritorialcombinadessub1214tarragona.json",
+        "discipline": "Triatló",
+        "performance": "444",
+        "event_date": "10/02/2024"
+      },
+      {
+        "file": "seasons/2024/json/resultat-20240420-cnatteritpromociotarragona.json",
+        "discipline": "Javelina (800 g)",
+        "performance": "11.08",
+        "event_date": "20/04/2024"
+      },
+      {
+        "file": "seasons/2024/json/resultat-20240420-cnatteritpromociotarragona.json",
+        "discipline": "Javelina (300 g)",
+        "performance": "8.62",
+        "event_date": "20/04/2024"
+      }
+    ],
+    "refs_total": 11
+  },
+  {
     "athlete_name": "WISSAM HATTOBUIB",
     "strategy": "no_match",
     "candidates": null,
@@ -8842,5 +8804,43 @@
         "event_date": "22/12/2013"
       }
     ]
+  },
+  {
+    "athlete_name": "Èric Guijarro Rom",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2023/json/resultat-20230114-controlgener1tarragona.json",
+        "discipline": "60 metres llisos",
+        "performance": "10.34",
+        "event_date": "14/01/2023"
+      },
+      {
+        "file": "seasons/2023/json/resultat-20230501-cnatterritorialpromocioreus.json",
+        "discipline": "Llargada",
+        "performance": "2.83",
+        "event_date": "01/05/2023"
+      },
+      {
+        "file": "seasons/2023/json/resultat-20230527-cnatterritpromociocambrils.json",
+        "discipline": "Pes (2 Kg)",
+        "performance": "3.83",
+        "event_date": "27/05/2023"
+      },
+      {
+        "file": "seasons/2023/json/resultat-20230527-cnatterritpromociocambrils.json",
+        "discipline": "Pes (2 Kg)",
+        "performance": "3.92",
+        "event_date": "27/05/2023"
+      },
+      {
+        "file": "seasons/2024/json/resultat-20240210-cnatterritorialcombinadessub1214tarragona.json",
+        "discipline": "Triatló",
+        "performance": "168",
+        "event_date": "10/02/2024"
+      }
+    ],
+    "refs_total": 9
   }
 ]

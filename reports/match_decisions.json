@@ -1910,11 +1910,11 @@
     "detail": null
   },
   "FRANCISCO JAVIER BAZ VIDAL": {
-    "internal_id": null,
-    "strategy": "no_match",
+    "internal_id": 887,
+    "strategy": "manual_override",
     "detail": null
   },
-  "FRANCISCO JOSE IBORRA AB AB": {
+  "FRANCISCO JOSE IBORRA": {
     "internal_id": null,
     "strategy": "no_match",
     "detail": null
@@ -2474,11 +2474,6 @@
     "strategy": "exact",
     "detail": null
   },
-  "JAN SANS RIOLA RCAM": {
-    "internal_id": 435,
-    "strategy": "tolerant",
-    "detail": null
-  },
   "JAN SCHMITZ MARCO": {
     "internal_id": 411,
     "strategy": "exact",
@@ -2617,11 +2612,6 @@
   "JOAN RICH SALAS": {
     "internal_id": 1011,
     "strategy": "exact",
-    "detail": null
-  },
-  "JOAN RICH SALAS RCAM": {
-    "internal_id": 1011,
-    "strategy": "tolerant",
     "detail": null
   },
   "JOAN SINFREU NIBO": {
@@ -2992,11 +2982,6 @@
     "strategy": "exact",
     "detail": null
   },
-  "JULIA SUAREZ PIZA RCAM": {
-    "internal_id": 839,
-    "strategy": "tolerant",
-    "detail": null
-  },
   "JULIA VILLEGAS CARRERAS": {
     "internal_id": 903,
     "strategy": "exact",
@@ -3038,11 +3023,6 @@
     "detail": null
   },
   "KILIAN BORREDA CERVELLO": {
-    "internal_id": null,
-    "strategy": "no_match",
-    "detail": null
-  },
-  "KILIAN BORREDA CERVELLO RCAM": {
     "internal_id": null,
     "strategy": "no_match",
     "detail": null
@@ -3236,11 +3216,6 @@
     "internal_id": 737,
     "strategy": "tolerant",
     "detail": null
-  },
-  "LAURINEELISA MARIMON FERNANDEZ RCAM": {
-    "internal_id": 737,
-    "strategy": "fuzzy",
-    "detail": 0.909
   },
   "LEIRE DOMINGUEZ IZAGA": {
     "internal_id": 743,
@@ -3522,11 +3497,6 @@
     "strategy": "exact",
     "detail": null
   },
-  "MARC SUAREZ PIZA RCAM": {
-    "internal_id": 1017,
-    "strategy": "tolerant",
-    "detail": null
-  },
   "MARCAL SINFREU NIUBO": {
     "internal_id": null,
     "strategy": "no_match",
@@ -3595,11 +3565,6 @@
   "MARIA FALCO": {
     "internal_id": 664,
     "strategy": "subset",
-    "detail": null
-  },
-  "MARIA FALCO AB": {
-    "internal_id": null,
-    "strategy": "no_match",
     "detail": null
   },
   "MARIA FALCO CUENCA": {
@@ -5200,11 +5165,6 @@
     "strategy": "exact",
     "detail": null
   },
-  "SILVIA VICENTE NAVARRETE RCAM": {
-    "internal_id": 905,
-    "strategy": "tolerant",
-    "detail": null
-  },
   "SINFREU NIUBO JOAN": {
     "internal_id": null,
     "strategy": "no_match",
@@ -5513,16 +5473,6 @@
   "VICTOR JIMENEZ GARCIA": {
     "internal_id": 958,
     "strategy": "exact",
-    "detail": null
-  },
-  "VICTOR JIMENEZ GARCIA RCAM": {
-    "internal_id": 958,
-    "strategy": "tolerant",
-    "detail": null
-  },
-  "VICTOR JIMENEZ GARCIA RCAT": {
-    "internal_id": 958,
-    "strategy": "tolerant",
     "detail": null
   },
   "VICTOR MARTINEZ PERALES": {

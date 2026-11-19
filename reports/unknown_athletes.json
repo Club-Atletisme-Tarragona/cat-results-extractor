@@ -1,43 +1,5 @@
 [
   {
-    "athlete_name": "1 258 (t) Francisco Javier Baz Vidal M-50",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2022/json/resultat-20220220-controlfebrer2reus.json",
-        "discipline": "60 metres llisos",
-        "performance": "8.52",
-        "event_date": "20/02/2022"
-      },
-      {
-        "file": "seasons/2023/json/resultat-20230715-catpentatlomastertarragona.json",
-        "discipline": "Javelina (700 g)",
-        "performance": "23.34",
-        "event_date": "15/07/2023"
-      },
-      {
-        "file": "seasons/2023/json/resultat-20230715-catpentatlomastertarragona.json",
-        "discipline": "Javelina (700 g)",
-        "performance": "28.01",
-        "event_date": "15/07/2023"
-      },
-      {
-        "file": "seasons/2023/json/resultat-20230715-catpentatlomastertarragona.json",
-        "discipline": "Javelina (700 g)",
-        "performance": "28.15",
-        "event_date": "15/07/2023"
-      },
-      {
-        "file": "seasons/2023/json/resultat-20230715-catpentatlomastertarragona.json",
-        "discipline": "Javelina (700 g)",
-        "performance": "26.37",
-        "event_date": "15/07/2023"
-      }
-    ],
-    "refs_total": 12
-  },
-  {
     "athlete_name": "1 277 (t) Paco Lorenzo Valldosera BM",
     "strategy": "manual_exclude",
     "candidates": null,
@@ -263,32 +225,7 @@
         "event_date": "07/05/2022"
       }
     ],
-    "refs_total": 74
-  },
-  {
-    "athlete_name": "1 93 (t) Kilian Borreda Cervello q RCAM",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2024/json/resultat-20240316-catsub12previapcsabadell.json",
-        "discipline": "Llargada",
-        "performance": "4.02",
-        "event_date": "16/03/2024"
-      },
-      {
-        "file": "seasons/2024/json/resultat-20240316-catsub12previapcsabadell.json",
-        "discipline": "Llargada",
-        "performance": "4.33",
-        "event_date": "16/03/2024"
-      },
-      {
-        "file": "seasons/2024/json/resultat-20240316-catsub12previapcsabadell.json",
-        "discipline": "Llargada",
-        "performance": "4.39",
-        "event_date": "16/03/2024"
-      }
-    ]
+    "refs_total": 77
   },
   {
     "athlete_name": "10 360 (t) Pau Llado Aparicio BM",
@@ -7370,25 +7307,6 @@
       }
     ],
     "refs_total": 31
-  },
-  {
-    "athlete_name": "Maria Falco LF 10.9- AB",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2017/json/resultat-2017121617-territcombinadescambrils.json",
-        "discipline": "Llargada",
-        "performance": "6.46",
-        "event_date": "16/12/2017"
-      },
-      {
-        "file": "seasons/2017/json/resultat-2017121617-territcombinadescambrils.json",
-        "discipline": "Llargada",
-        "performance": "4.30",
-        "event_date": "16/12/2017"
-      }
-    ]
   },
   {
     "athlete_name": "Maria Fons Forcadell",

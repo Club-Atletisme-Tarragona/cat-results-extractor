@@ -608,6 +608,13 @@ the matcher. Matching handles surname-first order, `Mª`→MARIA, initials, PDF 
 names (`WASIM ABDEL AS SAMAD BOUCHIBANE MOKHTARI` vs `Wasim Bouchibane Mokhtari`);
 containment requires ≥2 tokens on the shorter side so nicknames cannot match everything.
 
+`reports/unknown_athletes.md` groups the unmatched rows **per athlete**, not per
+stored string: legacy era parsers carried the row's position, lane and category inside
+the name (`1 56 (t) Kilian Borreda Cervello BM`), so one athlete appears under many
+renderings. `display_identity()` strips that bookkeeping for grouping only — matching
+still uses `normalize()` — and each group lists its stored renderings, row count, season
+span and the closest club names, so a review pass can confirm identities directly.
+
 Owner-decided identities that no heuristic may guess live in `MANUAL_OVERRIDES`
 (duplicate ids for one name, e.g. father and son both registered as `Samuel Rodriguez
 Barrios` → the competing athlete is 1390) and `MANUAL_EXCLUDES` (similar name, different

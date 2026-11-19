@@ -19,6 +19,7 @@ Usage:
 
 import argparse
 import glob
+import csv
 import json
 import re
 import sys
@@ -73,6 +74,8 @@ MANUAL_OVERRIDES = {
     # The club register holds the nickname; the sheet prints the legal name.
     # Owner: "we have in our athletes list Xavi, Baz Vidal, 887".
     "FRANCISCO JAVIER BAZ VIDAL": 887,
+    # Owner: the club's Juan González is 1079 (1523 is someone else).
+    "JUAN GONZALEZ": 1079,
     # Owner review 2026-11-19 of the remaining unknowns:
     #   Samuel Rodriguez Barrios is registered twice, father and son under the
     #   same name; the competing athlete in these results is the son (1390).
@@ -257,8 +260,6 @@ def parse_athlete_roster():
     results they produced while active. Duplicated ids keep the first entry, so
     the active roster wins over the former list.
     """
-    import csv
-
     entries, seen = [], set()
     for path in (ATHLETE_ROSTER, FORMER_ATHLETES):
         if not path.exists():
@@ -648,7 +649,32 @@ def main():
         return [f"{e['nom']} {e['cognoms']} ({e['id']}, {r:.2f})"
                 for r, e in scored[:limit]]
 
-    lines += [f"## Not in the club lists ({len(groups)} athletes)", ""]
+    pending_rows = [
+        {
+            "name": g["identity"],
+            "rows": g["rows"],
+            "stored_renderings": len(set(g["variants"])),
+            "first_season": min(g["years"]) if g["years"] else "",
+            "last_season": max(g["years"]) if g["years"] else "",
+            "example_file": g["sample"]["file"],
+        }
+        for g in groups.values()
+    ]
+    pending_rows.sort(key=lambda r: (-r["rows"], r["name"]))
+    with (REPORTS_DIR / "athletes_pending_migration.csv").open("w", encoding="utf-8", newline="") as fh:
+        writer = csv.DictWriter(fh, fieldnames=["name", "rows", "stored_renderings",
+                                                "first_season", "last_season", "example_file"],
+                                lineterminator="\n")
+        writer.writeheader()
+        writer.writerows(pending_rows)
+
+    lines += [f"## Former athletes pending creation in the club database ({len(groups)})", "",
+              "Confirmed by the owner: these are all former club athletes whose database "
+              "records do not exist yet, not foreign athletes. Their results stay unmapped "
+              "until the records are created; add them to `socis_former_athletes.csv` "
+              "(`nom, cognoms, id, baixa`) and re-run this script. The same list, sorted by "
+              "row count, is exported to `reports/athletes_pending_migration.csv`.",
+              ""]
     for key in sorted(groups, key=lambda k: (-groups[k]["rows"], groups[k]["identity"])):
         g = groups[key]
         years = sorted(g["years"])

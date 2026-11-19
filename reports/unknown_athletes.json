@@ -6384,34 +6384,6 @@
     ]
   },
   {
-    "athlete_name": "Juan Gonzalez",
-    "strategy": "ambiguous",
-    "candidates": [
-      1079,
-      1523
-    ],
-    "refs": [
-      {
-        "file": "seasons/2011/json/resulcatbenjami11611.json",
-        "discipline": "Llargada",
-        "performance": "12.98",
-        "event_date": "11/6/2011"
-      },
-      {
-        "file": "seasons/2011/json/resulcatbenjami11611.json",
-        "discipline": "1000 metres llisos",
-        "performance": "5:48.67",
-        "event_date": "11/6/2011"
-      },
-      {
-        "file": "seasons/2011/json/resulcatclubsbenjami7511.json",
-        "discipline": "1000 metres llisos",
-        "performance": "5:59.70",
-        "event_date": "7/5/2011"
-      }
-    ]
-  },
-  {
     "athlete_name": "Judit Rodríguez Artigas",
     "strategy": "no_match",
     "candidates": null,

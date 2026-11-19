@@ -5,8 +5,8 @@ Heights/weights follow the FCA *Proves autoritzades* tables (stable for the 2005
 combined events resolved per athlete from the PDF birth-year column.
 
 - files: 102
-- results: 3095
-- mapped: 3095
+- results: 3096
+- mapped: 3096
 - review (left unchanged): 0
 
 | count | raw discipline | official discipline |
@@ -53,6 +53,7 @@ combined events resolved per athlete from the PDF birth-year column.
 | 17 | `Disc (800g) Femení` | `Disc (800 g)` |
 | 17 | `Longitud Hombres PC` | `Llargada` |
 | 16 | `60m Mujeres AL U16F` | `60 metres llisos` |
+| 16 | `60m vallas (0,50) Hombres AL` | `60 metres tanques (0.50)` |
 | 16 | `800m Hombres` | `800 metres llisos` |
 | 16 | `Jabalina 300gr S12F` | `Javelina (300 g)` |
 | 16 | `Pértiga Hombres` | `Perxa` |
@@ -60,7 +61,6 @@ combined events resolved per athlete from the PDF birth-year column.
 | 15 | `200m Hombres U14M` | `200 metres llisos` |
 | 15 | `200m Mujeres U14F` | `200 metres llisos` |
 | 15 | `60m Hombres AL` | `60 metres llisos` |
-| 15 | `60m vallas (0,50) Hombres AL` | `60 metres tanques (0.50)` |
 | 15 | `Javelina Femenina` | `Javelina (600 g)` |
 | 14 | `Disco (800g) Mujeres` | `Disc (800 g)` |
 | 14 | `Jabalina 300gr S12M` | `Javelina (300 g)` |

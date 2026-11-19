@@ -3668,12 +3668,18 @@ def _reconstruct_url(pdf_path: str) -> str:
     """Try to reconstruct a known URL from the local PDF filename."""
     filename = os.path.basename(pdf_path)
     filename_lower = filename.lower()
-    # Known RFEA URL patterns
+    # Known RFEA URL patterns. The year comes from the file when it carries a
+    # date (resultat-YYYYMMDD-*) and otherwise from the season being processed,
+    # never from a literal, so this keeps working when the calendar rolls over.
+    import datetime as _dt
+    year_match = re.search(r"(\d{4})\d{4}-", filename)
+    rfea_year = (year_match.group(1) if year_match
+                 else os.environ.get("CATT_SEASON") or str(_dt.date.today().year))
     rfea_patterns = [
-        ("2d_hombres", "https://www.rfeacontent.es/resultados/2026/airelibre/clubes/{}"),
-        ("2d_mujeres", "https://www.rfeacontent.es/resultados/2026/airelibre/clubes/{}"),
-        ("2d_hombre", "https://www.rfeacontent.es/resultados/2026/airelibre/clubes/{}"),
-        ("2d_mujer", "https://www.rfeacontent.es/resultados/2026/airelibre/clubes/{}"),
+        ("2d_hombres", f"https://www.rfeacontent.es/resultados/{rfea_year}/airelibre/clubes/{{}}"),
+        ("2d_mujeres", f"https://www.rfeacontent.es/resultados/{rfea_year}/airelibre/clubes/{{}}"),
+        ("2d_hombre", f"https://www.rfeacontent.es/resultados/{rfea_year}/airelibre/clubes/{{}}"),
+        ("2d_mujer", f"https://www.rfeacontent.es/resultados/{rfea_year}/airelibre/clubes/{{}}"),
     ]
     for pattern_key, url_template in rfea_patterns:
         if pattern_key in filename_lower:

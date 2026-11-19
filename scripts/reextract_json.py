@@ -38,10 +38,12 @@ def infer_url_from_filename(filename):
     if m:
         year, month = m.group(1), m.group(2)
         return f"https://fcatletisme.cat/wp-content/uploads/{year}/{month}/{base}.pdf"
+    # RFEA sheets carry no date in the name: use the season being processed
+    # rather than a literal year, so next season keeps working.
     if base.startswith("st_"):
-        return f"https://www.rfeacontent.es/resultados/2026/short_track/{base}.pdf"
+        return f"https://www.rfeacontent.es/resultados/{CURRENT_SEASON}/short_track/{base}.pdf"
     if base.startswith(("al_", "2d_")):
-        return f"https://www.rfeacontent.es/resultados/2026/airelibre/{base}.pdf"
+        return f"https://www.rfeacontent.es/resultados/{CURRENT_SEASON}/airelibre/{base}.pdf"
     return ""
 
 

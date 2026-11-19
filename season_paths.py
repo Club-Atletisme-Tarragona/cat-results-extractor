@@ -69,19 +69,20 @@ def current_season():
     return str(datetime.date.today().year)
 
 
-def season_json_dir(season=None, root=SEASONS_DIR):
+def season_json_dir(season=None, root=None):
     """Absolute path of seasons/<season>/json (not created)."""
-    return os.path.join(root, season or current_season(), "json")
+    return os.path.join(root or SEASONS_DIR, season or current_season(), "json")
 
 
-def season_imported_dir(season=None, root=SEASONS_DIR):
+def season_imported_dir(season=None, root=None):
     """Absolute path of seasons/<season>/json/imported (the "already
     imported into the CATT system" marker, per season)."""
     return os.path.join(season_json_dir(season, root), "imported")
 
 
-def known_seasons(root=SEASONS_DIR):
+def known_seasons(root=None):
     """Season labels that already have a json/ directory, sorted."""
+    root = root or SEASONS_DIR
     if not os.path.isdir(root):
         return []
     return sorted(

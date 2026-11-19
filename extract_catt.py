@@ -227,6 +227,12 @@ EVENT_PATTERNS = [
     r'\d{1,3}(?:\.\d{3})?\s*m(t)?\s*(?:Obst\.?|obst[áa]culos|obstacles)\s*\.?\s*(?:Hombres|Mujeres|Masculins|Mascuins|Femenins|Mascul[íi]|Femen[íi])',
     # Bare age-code track headers: "3.000m U14M", "2.000m U16F"
     r'\d{1,3}(?:\.\d{3})?\s*m(t)?\s+U\d+[MF]',
+    # Catalan -es gender forms: "60m tanques femenines", "2000m femenines"
+    r'\d{1,3}(?:\.\d{3})?\s*m(?:etres)?\s*(?:llisos\s+|tanques\s+|vallas\s+|obstacles\s+|marxa\s+)?(femenines|masculines)',
+    # Bare llisos with gender word: "3.000m llisos femenins", "60m llisos masculins"
+    r'\d{1,3}(?:\.\d{3})?\s*m(t)?\s+llisos\s+(?:femenins|masculins|femenines|masculines|Hombres|Mujeres|Masculí|Femení)',
+    # Masters gender-letter + age: "400m M M60", "1.500m M M60", "400m F F50"
+    r'\d{1,3}(?:\.\d{3})?\s*m(t)?\s+[MF]\s+(?:M|F)\d{2}\b',
 ]
 
 TRACK_PATTERNS = [
@@ -245,6 +251,8 @@ TRACK_PATTERNS = [
     r'\d{1,3}(?:\.\d{3})?\s*m(t)?\s*(?:Obst\.?|obst[áa]culos|obstacles)\s*\.?\s*(?:Hombres|Mujeres|Masculins|Mascuins|Femenins|Mascul[íi]||Femen[íi])',
     # Bare age-code track headers: "3.000m U14M", "2.000m U16F"
     r'\d{1,3}(?:\.\d{3})?\s*m(t)?\s+U\d+[MF]',
+    # Age-code with gender word: "800m U18 Femenins PC", "200m U18 Masculins"
+    r'\d{1,3}(?:\.\d{3})?\s*m(t)?\s*(?:tanques\s+)?(?:vallas\s+)?(?:\(.*?\))?\s*(?:U\d+(?:-\d+)?)\s*(?:Hombres|Mujeres|Masculins|Mascuins|Femenins|Masculí|Femení|masculina|femenina|masculino|femenino)',
     # Masters category events: "400m vallas (0,84) AL M55", "60m AL M50",
     # "100m vallas (0,84) AL M40", "60m vallas (0,91) CAD Hombres AL"
     r'\d{1,3}(?:\.\d{3})?\s*m(t)?\s*(?:tanques|vallas)?\s*(?:\(.*?\))?\s+(?:AL|CAD|JUV|INF|Abs|S\d+)\.?\s*(?:Hombres|Mujeres|Mixto)?\s*(?:[MFHM]\d{0,2})?\s*(?:AL|aire\s+libre)?',
@@ -256,6 +264,12 @@ TRACK_PATTERNS = [
     r'(?:\d{1,3}(?:\.\d{3})?\s*m(?:t)?|\d+\s*m(?:t)?)\s+(?:MASC\.?|FEM\.?)\s*(?:PC|AL)',
     # RFEA hurdles: "60m tanques (0,50) FEM. AL"
     r'\d{1,3}(?:\.\d{3})?\s*m(?:t)?\s+(?:tanques|vallas)\s+(?:\(.*?\)\s+)?(?:MASC\.?|FEM\.?)\s*(?:PC|AL)',
+    # Catalan -es gender forms: "60m tanques femenines", "2000m femenines"
+    r'\d{1,3}(?:\.\d{3})?\s*m(?:etres)?\s*(?:llisos\s+|tanques\s+|vallas\s+|obstacles\s+|marxa\s+)?(femenines|masculines)',
+    # Bare llisos with gender word: "3.000m llisos femenins", "60m llisos masculins"
+    r'\d{1,3}(?:\.\d{3})?\s*m(t)?\s+llisos\s+(?:femenins|masculins|femenines|masculines|Hombres|Mujeres|Masculí|Femení)',
+    # Masters gender-letter + age: "400m M M60", "1.500m M M60", "400m F F50"
+    r'\d{1,3}(?:\.\d{3})?\s*m(t)?\s+[MF]\s+(?:M|F)\d{2}\b',
 ]
 
 MARCHA_PATTERNS = [
@@ -2339,6 +2353,14 @@ def normalize_mmsscc_time(marca, prova):
     print sub-minute times without the minute part (e.g. '49.96' for a 400m),
     so re-prefix them to match the DB format ('0:49.96').
     Relays are left alone: 4x60/4x80/4x100 are ss.cc and legitimately sub-minute.
+
+    Plausibility guard (issue: 'DIANA GARCÍA MUR 0:45.57 800m'): a sub-minute
+    time is only prefixed when it is PHYSICALLY POSSIBLE for the distance.
+    A bare '45.57' under 800m+ is corrupt data (truncated or leaked), not a
+    formatting gap - prefixing it would disguise bad data as well-formatted.
+    Floors (seconds, ~world-record level): 300m 30, 400m 42, 400m tanques 45,
+    500m 55; 600m+ and all marxa are never sub-minute -> left untouched so
+    plausibility checks can flag them.
     """
     if not marca or not re.fullmatch(r"\d{1,2}\.\d{2}", marca):
         return marca
@@ -2349,13 +2371,25 @@ def normalize_mmsscc_time(marca, prova):
     if not m:
         return marca
     dist = int(m.group(1).replace(".", ""))
-    if event_type == "track":
-        threshold = 400 if re.search(r"tanques|vallas|obst[\u00e1a]culos|obstacles", prova, re.IGNORECASE) else 300
-    else:  # marxa: shortest event (1000m) is never sub-minute
-        threshold = 300
-    if dist >= threshold:
-        return f"0:{marca}"
-    return marca
+    is_hurdles = bool(re.search(r"tanques|vallas|obst[\u00e1a]culos|obstacles", prova, re.IGNORECASE))
+    if event_type == "marcha":
+        return marca  # shortest marxa (1000m ~ 4:00) is never sub-minute
+    # Sub-minute plausibility floors per event family
+    floor = None
+    if dist == 300 and not is_hurdles:
+        floor = 30.0
+    elif dist == 400 and not is_hurdles:
+        floor = 42.0
+    elif dist == 400 and is_hurdles:
+        floor = 45.0
+    elif dist == 500:
+        floor = 55.0
+    # 600m+, all tanques distances >= 500, obstacles, marxa: sub-minute impossible
+    if floor is None:
+        return marca
+    if not (floor <= float(marca) < 60.0):
+        return marca  # implausible for the distance: leave for data review
+    return f"0:{marca}"
 
 
 def extract_track_result_new(lines, athlete_block, sec_end):
@@ -3730,7 +3764,27 @@ def main():
             # 60m sprints should be under 15 seconds, middle distance under 300 seconds
             # If time > 60 seconds, it's likely a wrong event assignment for a sprint
             event_lower = r.get("prova", "").lower()
-            if '60m' in event_lower and seconds > 15:
+            is_hurdles = 'tanques' in event_lower or 'vallas' in event_lower
+            # Lower bounds (plausibility floors): world-record-level floors so
+            # leaked field marks (e.g. a 5.15 shot attempt or 6.52 long-jump mark
+            # emitted as a sprint/hurdle time) can never survive. Youth and
+            # masters are slower than these floors - nothing legit falls below.
+            # floors: distance -> minimum plausible seconds (flat)
+            lower_floors = {60: 6.0, 100: 9.0, 200: 18.5, 300: 28.0, 400: 42.0,
+                            500: 55.0, 600: 68.0, 800: 95.0, 1000: 120.0,
+                            1500: 195.0, 2000: 280.0, 3000: 440.0, 5000: 750.0,
+                            10000: 1560.0}
+            hurdle_extra = {60: 1.0, 100: 1.5, 200: 2.5, 300: 5.0, 400: 5.0}
+            dm = re.match(r'(\d{1,2}(?:\.\d{3})?|\d{3,5})\s*m', event_lower)
+            dist = int(dm.group(1).replace('.', '')) if dm else None
+            floor = lower_floors.get(dist) if dist else None
+            if floor is not None and is_hurdles:
+                floor += hurdle_extra.get(dist, 1.0)
+            if floor is not None and seconds < floor:
+                if not quiet:
+                    print(f"  WARNING: Discarding {r['atleta_nom']} {marca} for {r['prova']} - below plausibility floor {floor}s for {dist}m", file=sys.stderr)
+                invalid = True
+            elif '60m' in event_lower and seconds > 15:
                 if not quiet:
                     print(f"  WARNING: Discarding {r['atleta_nom']} {marca} for {r['prova']} - impossible time for 60m", file=sys.stderr)
                 invalid = True

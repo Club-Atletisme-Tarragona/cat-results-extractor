@@ -31,6 +31,22 @@ TARGET_DIRS = [
 
 SS_CC = re.compile(r"^\d{1,2}\.\d{2}$")
 
+# Sub-minute plausibility floors by discipline name (seconds). A bare ss.cc
+# value under a distance whose sub-minute time is physically impossible
+# (600m+ llisos, obstacles, marxa, relays >= 4x200) is corrupt data - never
+# prefix it; plausibility review must see it.
+def sub_minute_floor(discipline):
+    m = re.match(r"^(\d{1,3}(?:\.\d{3})?|\d{3,5}) metres (llisos|tanques|obstacles|marxa)", discipline)
+    if not m:
+        return None  # unknown family (relays etc.): never prefix blindly
+    dist = int(m.group(1).replace(".", ""))
+    kind = m.group(2)
+    if kind == "llisos":
+        return {300: 30.0, 400: 42.0, 500: 55.0}.get(dist)  # 600m+: None
+    if kind == "tanques":
+        return {400: 45.0}.get(dist)  # 300m tanques is ss.cc anyway
+    return None  # obstacles/marxa: never sub-minute
+
 
 def load_mmsscc_disciplines():
     """Return the set of discipline names whose DB format is mm:ss.cc."""
@@ -52,6 +68,7 @@ def main():
     print(f"Disciplines with mm:ss.cc format: {len(mmsscc)}")
 
     total_files = total_changed = 0
+    skipped = []
     for target in TARGET_DIRS:
         if not os.path.isdir(target):
             continue
@@ -66,6 +83,10 @@ def main():
             changed = []
             for r in results:
                 if r.get("discipline") in mmsscc and SS_CC.match(str(r.get("performance", ""))):
+                    floor = sub_minute_floor(r.get("discipline", ""))
+                    if floor is None or not (floor <= float(r["performance"]) < 60.0):
+                        skipped.append(r)
+                        continue
                     r["performance"] = f"0:{r['performance']}"
                     changed.append(r)
             if not changed:
@@ -86,6 +107,10 @@ def main():
 
     mode = "DRY RUN - no files written" if args.dry_run else "written"
     print(f"\n{total_changed} performances in {total_files} files ({mode})")
+    if skipped:
+        print(f"{len(skipped)} values NOT prefixed (sub-minute implausible for distance):")
+        for r in skipped[:20]:
+            print(f"    {r['discipline']:35s} {r['performance']:>8s}  {r['athlete_name']}")
 
 
 if __name__ == "__main__":

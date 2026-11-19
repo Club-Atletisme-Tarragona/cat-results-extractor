@@ -1372,9 +1372,9 @@ def athlete_context(filename: str, athlete_name: str):
     return None, None
 
 def gender_of(raw_upper: str):
-    if re.search(r"\bMASCUL[IÍ](N[OAS]|NS|O|A)?\b", raw_upper):
+    if re.search(r"\bMASCUL[IÍ](N[OAS]|NS|O|A|NES)?\b", raw_upper):
         return "m"
-    if re.search(r"\bFEMEN[IÍ](N[AS]|NS|A|SES|SE)?\b", raw_upper):
+    if re.search(r"\bFEMEN[IÍ](N[AS]|NS|A|SES|SE|NES)?\b", raw_upper):
         return "f"
     # glued abbreviations ("fem.Absolut", "masc.Junior", "Vet. MAS.")
     if re.search(r"\bMASC\b|\bMAS\b|\bMASCUÍ\b", raw_upper):
@@ -1664,7 +1664,7 @@ def map_discipline(raw: str, event_name: str, filename: str, athlete_name: str =
             "martell": {"7,260": "Martell (7.260 Kg)", "6": "Martell (6 Kg)", "5": "Martell (5 Kg)",
                         "4": "Martell (4 Kg)", "3": "Martell (3 Kg)", "2": "Martell (2 Kg)",
                         "15,88": "Martell pesat (15.88 Kg)", "9,08": "Martell pesat (9.08 Kg)",
-                        "7,26": "Martell pesat (7.260 Kg)"},
+                        "7,26": "Martell pesat (7.26 Kg)", "5,45": "Martell pesat (5.45 Kg)"},
             "javelina": {"800": "Javelina (800 g)", "700": "Javelina (700 g)",
                          "600": "Javelina (600 g)", "500": "Javelina (500 g)", "400": "Javelina (400 g)", "300": "Javelina (300 g)"},
         }[implement]
@@ -1727,7 +1727,7 @@ def map_discipline(raw: str, event_name: str, filename: str, athlete_name: str =
                 "martell": {"7,260": "Martell (7.260 Kg)", "6": "Martell (6 Kg)", "5": "Martell (5 Kg)",
                             "4": "Martell (4 Kg)", "3": "Martell (3 Kg)", "2": "Martell (2 Kg)",
                             "15,88": "Martell pesat (15.88 Kg)", "9,08": "Martell pesat (9.08 Kg)",
-                            "7,26": "Martell pesat (7.260 Kg)"},
+                            "7,26": "Martell pesat (7.26 Kg)", "5,45": "Martell pesat (5.45 Kg)"},
                 "javelina": {"800": "Javelina (800 g)", "700": "Javelina (700 g)",
                              "600": "Javelina (600 g)", "500": "Javelina (500 g)", "400": "Javelina (400 g)", "300": "Javelina (300 g)"},
             }[implement]

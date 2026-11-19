@@ -34,6 +34,10 @@ import unicodedata
 from collections import Counter
 from pathlib import Path
 
+import sys as _sys
+_sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from season_paths import current_season  # noqa: E402
+
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DISCIPLINES_MD = REPO_ROOT / "DISCIPLINES.md"
 
@@ -1967,7 +1971,7 @@ def write_report(season: str, files: int, total: int, counts: Counter, review: l
     season: season key; also selects the season-only suspect table. Pass None for
             non-season targets, so no season suspect table leaks into their report.
     label:  report title. Defaults to "season <season>". --json-dir runs pass the
-            real target ("json", "json/imported") so the header cannot claim a
+            real target ("seasons/<year>/json", ".../json/imported") so the header cannot claim a
             season that was never processed.
     """
     if out is None:
@@ -2007,16 +2011,17 @@ def write_report(season: str, files: int, total: int, counts: Counter, review: l
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--season", default="2005")
+    ap.add_argument("--season", help="season to process, e.g. 2026 (default: current)")
     ap.add_argument("--dry-run", action="store_true")
-    ap.add_argument("--json-dir", help="process json/<dir> files instead of seasons/<season>")
+    ap.add_argument("--json-dir", help="process an explicit directory instead of seasons/<season>/json")
     args = ap.parse_args()
 
     if args.json_dir:
         json_dir = REPO_ROOT / args.json_dir
         files = sorted(json_dir.glob("*.json"))
     else:
-        json_dir = REPO_ROOT / "seasons" / args.season / "json"
+        season = args.season or current_season()
+        json_dir = REPO_ROOT / "seasons" / season / "json"
         files = sorted(json_dir.glob("*.json"))
     if not files:
         sys.exit(f"no JSON files under {json_dir}")
@@ -2033,7 +2038,7 @@ def main():
             item["file"] = f.name
         all_review.extend(review)
 
-    target_label = args.json_dir if args.json_dir else f"season {args.season}"
+    target_label = args.json_dir if args.json_dir else f"season {args.season or current_season()}"
     print(f"{target_label}: {len(files)} files, {total} results")
     print(f"mapped: {mapped}, review: {len(all_review)}")
     print("\n=== mapping (raw -> official) ===")
@@ -2051,7 +2056,7 @@ def main():
     if not args.dry_run:
         report_path = None
         if args.json_dir:
-            # json/ re-maps get their own report, never the season one
+            # explicit-directory re-maps get their own report, never the season one
             report_path = REPO_ROOT / args.json_dir / "discipline_mapping_report.md"
         report = write_report(None if args.json_dir else args.season,
                               len(files), total, all_counts, all_review,

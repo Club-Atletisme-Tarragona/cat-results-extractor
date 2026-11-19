@@ -44,7 +44,7 @@ import sys
 from collections import Counter, defaultdict
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-TARGETS = ["seasons/*/json/*.json", "json/*.json"]
+TARGETS = ["seasons/*/json/*.json"]
 MARKERS = {"DNS", "DNF", "DQ", "RET", "N.P.", "NP", "RET.", "NM", "RT"}
 NO_MARK = {"NULS", "NUL", "NULL"}
 # Distances whose sub-minute time is physically possible (llisos / tanques).

@@ -12,7 +12,7 @@ Flux:
    - Comprova si conté "CATT" o "CA Tarragona"
    - Si sí, executa extract_catt.py amb la URL source
    - Si extract_catt.py no troba cap resultat, executa extract_marcha.py
-   - Mou el JSON generat a json/
+   - Mou el JSON generat a seasons/<any de l'esdeveniment>/json/
    - Borra el PDF temporal
 4. Actualitza el fitxer de tracking
 """
@@ -27,6 +27,8 @@ import tempfile
 import time
 from datetime import datetime
 
+import season_paths as seasons
+
 
 def log(msg):
     """Print a log message with timestamp [YYYY-MM-DD HH:ii]."""
@@ -34,7 +36,25 @@ def log(msg):
     print(f"{ts} {msg}")
 
 XLS_URL = "https://fcatletisme.cat/export/Competicions.xls"
-JSON_DIR = "json"
+# Every extractor output lives in seasons/<season>/json/ (see season_paths.py).
+# A season is the calendar year of the event, taken from the JSON's own
+# event_date, so upcoming years need no code change.
+def json_dirs():
+    """All existing season json/ directories (plus the current season's)."""
+    dirs = [seasons.season_json_dir(s) for s in seasons.known_seasons()]
+    cur = seasons.season_json_dir()
+    if cur not in dirs:
+        dirs.append(cur)
+    return dirs
+
+
+def find_existing_json(base):
+    """Absolute path of seasons/*/json/<base>.json if it exists, else None."""
+    for d in json_dirs():
+        candidate = os.path.join(d, base + ".json")
+        if os.path.exists(candidate):
+            return candidate
+    return None
 TRACKING_FILE = "track-catt.json"
 CATT_PATTERNS = [
     r"\bCATT\b",
@@ -46,13 +66,15 @@ imported_files = set()
 
 
 def load_imported():
-    """Load list of already imported JSON filenames."""
+    """Load filenames already imported into the CATT system, across seasons."""
     global imported_files
-    imported_dir = os.path.join(JSON_DIR, "imported")
-    if os.path.exists(imported_dir):
-        imported_files = set(
-            f.replace(".json", "") for f in os.listdir(imported_dir) if f.endswith(".json")
-        )
+    imported_files = set()
+    for d in json_dirs():
+        imported_dir = os.path.join(d, "imported")
+        if os.path.isdir(imported_dir):
+            imported_files |= {
+                f.replace(".json", "") for f in os.listdir(imported_dir) if f.endswith(".json")
+            }
 
 
 def load_tracking():
@@ -338,10 +360,23 @@ def process_marcha(pdf_path, json_path, source_url=""):
     return False
 
 
+def season_for_json(json_path):
+    """Season folder for a generated JSON: the year of its event_date."""
+    try:
+        with open(json_path, "r", encoding="utf-8") as f:
+            event_date = json.load(f).get("event_date", "")
+    except (json.JSONDecodeError, OSError):
+        event_date = ""
+    return seasons.season_of(event_date)
+
+
 def move_json(pdf_path, json_path):
-    """Mou el JSON generat al directori json/ amb el nom correcte."""
+    """Mou el JSON generat a seasons/<any de l'esdeveniment>/json/."""
     base = os.path.splitext(os.path.basename(pdf_path))[0]
-    dest = os.path.join(JSON_DIR, base + ".json")
+    season = season_for_json(json_path)
+    dest_dir = seasons.season_json_dir(season)
+    os.makedirs(dest_dir, exist_ok=True)
+    dest = os.path.join(dest_dir, base + ".json")
 
     if os.path.exists(dest):
         return dest
@@ -351,16 +386,17 @@ def move_json(pdf_path, json_path):
 
 
 def move_to_imported(json_name):
-    """Mou un JSON ja existent a json/imported/."""
-    src = os.path.join(JSON_DIR, json_name + ".json")
-    dest_dir = os.path.join(JSON_DIR, "imported")
+    """Mou un JSON ja existent a seasons/<seva temporada>/json/imported/."""
+    src = find_existing_json(json_name)
+    if not src:
+        return False
+    season_dir = os.path.dirname(src)
+    dest_dir = os.path.join(season_dir, "imported")
     os.makedirs(dest_dir, exist_ok=True)
     dest = os.path.join(dest_dir, json_name + ".json")
-    if os.path.exists(src):
-        shutil.move(src, dest)
-        log(f"    Moure a imported: {json_name}")
-        return True
-    return False
+    shutil.move(src, dest)
+    log(f"    Moure a imported: {json_name}")
+    return True
 
 
 def commit_and_push(new_jsons):
@@ -409,8 +445,8 @@ def main():
     log("Cat Results Extractor - Processador Automàtic")
     log("=" * 60)
 
-    # Assegurar que el directori json/ existeix
-    os.makedirs(JSON_DIR, exist_ok=True)
+    # Assegurar que el directori de la temporada actual existeix
+    os.makedirs(seasons.season_json_dir(), exist_ok=True)
 
     # Carregar tracking i fitxers importats
     loaded = load_tracking()
@@ -457,8 +493,8 @@ def main():
 
             # Check if already exists as JSON (with results > 0)
             url_base = os.path.splitext(os.path.basename(url))[0]
-            json_file = os.path.join(JSON_DIR, url_base + ".json")
-            if os.path.exists(json_file):
+            json_file = find_existing_json(url_base)
+            if json_file:
                 existing_count = count_results(json_file)
                 if existing_count > 0:
                     log(f"  Saltat (JSON ja existeix amb {existing_count} resultats)")
@@ -470,11 +506,11 @@ def main():
                 else:
                     log("  JSON existent amb 0 resultats, re-processant...")
             else:
-                log("  Cap JSON previ trobat a json/")
+                log("  Cap JSON previ trobat a seasons/<any>/json/")
 
             # Also check if already in imported
             if url_base in imported_files:
-                log(f"  Saltat (ja importat a json/imported/)")
+                log("  Saltat (ja importat a seasons/<any>/json/imported/)")
                 skipped_already += 1
                 tracking["success"].append(url)
                 log(f"  Afegit a success (importat): {url[:80]}...")
@@ -519,7 +555,7 @@ def main():
                         tracking["success"].append(url)
                         log(f"  Afegit a success (resultats): {url[:80]}...")
                     else:
-                        log(f"  OK - {catt_result_count} resultat(s) extrets (JSON ja existia a json/)")
+                        log(f"  OK - {catt_result_count} resultat(s) extrets (JSON ja existia a seasons/<any>/json/)")
                         processed += 1
                         tracking["success"].append(url)
                         log(f"  Afegit a success (resultats, JSON existent): {url[:80]}...")
@@ -573,8 +609,8 @@ def main():
             # Netejar PDF temporal
             if os.path.exists(pdf_path):
                 os.remove(pdf_path)
-            if os.path.exists(json_path) and not os.path.exists(
-                os.path.join(JSON_DIR, os.path.basename(json_path))
+            if os.path.exists(json_path) and not find_existing_json(
+                os.path.splitext(os.path.basename(json_path))[0]
             ):
                 os.remove(json_path)
 

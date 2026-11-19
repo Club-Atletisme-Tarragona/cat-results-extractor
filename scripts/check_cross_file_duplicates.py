@@ -7,7 +7,7 @@ captured) or simply genuine repetitions (same athlete competing in several
 competitions and repeating the same mark — very common in Alçada, where kids
 clear the same bar height, and plausible in Pes/Llargada and sprints).
 
-This script scans json/*.json, groups results by
+This script scans seasons/*/json/*.json, groups results by
 (athlete_name, discipline, performance) and reports every key found in more
 than one distinct competition file (different event_src). It also cross-checks
 each duplicate against the source PDF text (pdftotext -layout) when the PDF is
@@ -35,7 +35,10 @@ REQUIRED_FIELDS = ("athlete_name", "discipline", "performance")
 
 def load_results(json_dir):
     """Yield (filename, result) for every entry with the required fields."""
-    for path in sorted(glob.glob(os.path.join(json_dir, "*.json"))):
+    pattern = os.path.join(json_dir, "*.json")
+    if os.path.isdir(os.path.join(json_dir, "json")):
+        pattern = os.path.join(json_dir, "*", "json", "*.json")
+    for path in sorted(glob.glob(pattern)) + sorted(glob.glob(os.path.join(json_dir, "json", "*.json"))):
         try:
             data = json.load(open(path, encoding="utf-8"))
         except (OSError, ValueError) as exc:
@@ -92,7 +95,7 @@ def pdf_contains_mark(pdf_path, athlete_name, performance):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--dir", default="json", help="JSON directory to scan")
+    parser.add_argument("--dir", default="seasons", help="JSON directory to scan (recursive; default: seasons/)")
     parser.add_argument("--pdf", action="store_true", help="cross-check duplicates against source PDFs")
     parser.add_argument("--json", action="store_true", help="emit machine-readable JSON report")
     args = parser.parse_args()

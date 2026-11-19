@@ -40,8 +40,8 @@ endif
 	python3 extract_catt.py "$$PDF" && \
 	JSON=$$(echo "$$PDF" | sed 's/\.pdf$$/.json/') && \
 	if [ -f "$$JSON" ]; then \
-		mv "$$JSON" json/$$(basename "$$JSON"); \
-		echo "JSON saved to: json/$$(basename $$JSON)"; \
+		DEST=$$(python3 scripts/move_json_to_season.py "$$JSON"); \
+		echo "JSON saved to: $$DEST"; \
 	else \
 		echo "No JSON generated (no CATT athletes found or extraction error)"; \
 	fi && \
@@ -54,6 +54,6 @@ endif
 	python3 extract_catt.py "$(FILE)" && \
 	JSON=$$(echo "$(FILE)" | sed 's/\.pdf$$/.json/') && \
 	if [ -f "$$JSON" ]; then \
-		mv "$$JSON" json/$$(basename $$JSON); \
-		echo "JSON saved to: json/$$(basename $$JSON)"; \
+		DEST=$$(python3 scripts/move_json_to_season.py "$$JSON"); \
+		echo "JSON saved to: $$DEST"; \
 	fi

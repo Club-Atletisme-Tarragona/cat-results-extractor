@@ -34,15 +34,15 @@ GOLDEN = REPO_ROOT / "tests" / "golden"
 # fixture PDF -> source JSON providing the real provenance URL
 CASES = {
     "resultat-20260426-cat10000marxamastergava.pdf":
-        "json/resultat-20260426-cat10000marxamastergava.json",
+        "seasons/2026/json/resultat-20260426-cat10000marxamastergava.json",
     "resultat-20260502-controlvelocitatmaigtarragona.pdf":
-        "json/resultat-20260502-controlvelocitatmaigtarragona.json",
+        "seasons/2026/json/resultat-20260502-controlvelocitatmaigtarragona.json",
     "resultat-20260322-controltorredembarra.pdf":
-        "json/resultat-20260322-controltorredembarra.json",
+        "seasons/2026/json/resultat-20260322-controltorredembarra.json",
     "resultat-20260418-territorialpromociovalls.pdf":
-        "json/resultat-20260418-territorialpromociovalls.json",
+        "seasons/2026/json/resultat-20260418-territorialpromociovalls.json",
     "resultat-2026050203-territorialcombinadestarragona.pdf":
-        "json/resultat-2026050203-territorialcombinadestarragona.json",
+        "seasons/2026/json/resultat-2026050203-territorialcombinadestarragona.json",
 }
 
 # PDFs that extract_catt.py must NOT export (handled by season-specific

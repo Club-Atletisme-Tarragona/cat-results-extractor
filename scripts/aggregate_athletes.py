@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Aggregate all CA Tarragona athlete results into per-athlete JSON files.
 
-Scans seasons/ and json/ directories, groups results by athlete identity
+Scans seasons/<year>/json/ directories, groups results by athlete identity
 (license + normalized name), deduplicates, and writes one JSON per athlete
 to athletes/.
 
@@ -1911,7 +1911,7 @@ def main() -> int:
         "--scan-dir",
         action="append",
         dest="scan_dirs",
-        default=["seasons", "json"],
+        default=["seasons"],
         help="Directory under root to scan (repeatable)",
     )
     parser.add_argument(

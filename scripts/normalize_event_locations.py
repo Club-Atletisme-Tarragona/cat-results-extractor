@@ -2,8 +2,8 @@
 """One-off/backfill migration: canonicalize event_location in result JSONs.
 
 Applies the rules from location_normalization.py to every JSON already in the
-repository. Scope is seasons/*/json/*.json plus the top-level json/*.json
-(current season). json/imported/ is never touched.
+repository. Scope is seasons/*/json/*.json (every season, current one
+included). json/imported/ subdirectories are never touched.
 
 Three passes, in order, per file:
 
@@ -88,15 +88,14 @@ def as_text(value):
 def iter_json_files(season=None):
     """Yield (label, path) for every JSON in scope, sorted, seasons first."""
     paths = sorted(glob.glob(str(REPO / 'seasons' / '*' / 'json' / '*.json')))
-    paths += sorted(glob.glob(str(REPO / 'json' / '*.json')))
     seen = set()
     for f in paths:
         if f in seen:
             continue
         seen.add(f)
         rel = Path(f).relative_to(REPO)
-        # seasons/<label>/json/x.json -> <label>;  json/x.json -> "json" (current season)
-        label = rel.parts[1] if rel.parts[0] == 'seasons' else 'json'
+        # seasons/<label>/json/x.json -> <label>
+        label = rel.parts[1] if rel.parts[0] == 'seasons' else 'unknown'
         if season and season not in label:
             continue
         yield label, f

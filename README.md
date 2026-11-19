@@ -110,16 +110,16 @@ El JSON generat es pot utilitzar per importar les marques directament a l'import
 
 El procés de processament de resultats segueix aquests passos:
 
-1. **Extracció**: Executar `python3 extract_catt.py <fitxer.pdf>` per generar el JSON a `json/`
+1. **Extracció**: Executar `python3 extract_catt.py <fitxer.pdf>` per generar el JSON a `seasons/<any>/json/` (l'any és el de la data de l'esdeveniment; `make extract` i el workflow el col·loquen sols)
 2. **Verificació**: Revisar el fitxer `status.html` per veure l'estat de tots els resultats
-3. **Importació**: Un cop importats al sistema del CATT, moure el JSON a `json/imported/`
-4. **Actualització**: Actualitzar `status.html` — canviar la ruta a `json/imported/`, marcar com `✅ Si` i assignar la persona que ho ha fet
+3. **Importació**: Un cop importats al sistema del CATT, moure el JSON a `seasons/<any>/json/imported/`
+4. **Actualització**: Actualitzar `status.html` — canviar la ruta a `seasons/<any>/json/imported/`, marcar com `✅ Si` i assignar la persona que ho ha fet
 
 L'status.html és el punt de referència visual per saber:
 - Quins fitxers s'han processat i quins encara són pendents
 - Qui ha processat cada fitxer (Dídac, Peio, etc.)
-- Quins ja s'han importat al sistema (estàn a `json/imported/`)
+- Quins ja s'han importat al sistema (estàn a `seasons/<any>/json/imported/`)
 
 ## .gitignore
 
-Els fitxers `.pdf` originals es ignoren per Git. Els fitxers `.json` a `json/` i `json/imported/` **sí que es versionen** perquè són la sortida del procés d'extracció i necessiten ser accessibles per a importació.
+Els fitxers `.pdf` originals es ignoren per Git. Els fitxers `.json` a `seasons/<any>/json/` i `seasons/<any>/json/imported/` **sí que es versionen** perquè són la sortida del procés d'extracció i necessiten ser accessibles per a importació.

@@ -1,7 +1,11 @@
 #!/usr/bin/env python3
-"""Re-extract JSON files in json/ and json/imported/ using extract_catt.py."""
+"""Re-extract JSON files in seasons/<season>/json/ using extract_catt.py."""
 
 import glob
+
+from season_paths import current_season as _current_season
+
+CURRENT_SEASON = os.environ.get("CATT_SEASON") or _current_season()
 import json
 import os
 import re
@@ -133,8 +137,9 @@ def process_json(json_path, url_map):
 
 def main():
     url_map = load_url_map()
-    targets = sorted(glob.glob(os.path.join(ROOT, "json", "*.json")))
-    targets += sorted(glob.glob(os.path.join(ROOT, "json", "imported", "*.json")))
+    season_dir = os.path.join(ROOT, "seasons", CURRENT_SEASON, "json")
+    targets = sorted(glob.glob(os.path.join(season_dir, "*.json")))
+    targets += sorted(glob.glob(os.path.join(season_dir, "imported", "*.json")))
 
     stats = {"ok": 0, "no_url": 0, "download_fail": 0, "extract_fail": 0, "positions": 0}
     for json_path in targets:

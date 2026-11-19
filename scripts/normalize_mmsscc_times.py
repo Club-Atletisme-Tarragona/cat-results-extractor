@@ -19,15 +19,15 @@ Usage:
 
 import argparse
 import json
+import glob
 import os
 import re
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DISCIPLINES_MD = os.path.join(REPO, "DISCIPLINES.md")
-TARGET_DIRS = [
-    os.path.join(REPO, "seasons", "2025", "json"),
-    os.path.join(REPO, "json"),  # current season; imported/ is excluded below
-]
+# Every season, discovered at run time: seasons/<year>/json/ (2026 onwards
+# included automatically, no code change needed when a year rolls over).
+TARGET_DIRS = sorted(glob.glob(os.path.join(REPO, "seasons", "*", "json")))
 
 SS_CC = re.compile(r"^\d{1,2}\.\d{2}$")
 

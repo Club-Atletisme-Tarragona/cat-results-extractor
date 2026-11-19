@@ -14,7 +14,7 @@ re-prefixed by a format normalizer that never asked whether a sub-minute
 values; this script is the missing gate.
 
 Usage:
-    python3 scripts/check_plausibility.py                     # json/ + seasons/*/json
+    python3 scripts/check_plausibility.py                     # seasons/*/json
     python3 scripts/check_plausibility.py --season 2025      # one season only
 Exit code 1 when violations are found.
 """
@@ -100,8 +100,7 @@ def main():
     if args.season:
         targets = sorted(glob.glob(os.path.join(REPO, "seasons", args.season, "json", "*.json")))
     else:
-        targets = sorted(glob.glob(os.path.join(REPO, "json", "*.json"))) + \
-                  sorted(glob.glob(os.path.join(REPO, "seasons", "*", "json", "*.json")))
+        targets = sorted(glob.glob(os.path.join(REPO, "seasons", "*", "json", "*.json")))
     targets = [t for t in targets if os.sep + "imported" not in t]
 
     violations = 0

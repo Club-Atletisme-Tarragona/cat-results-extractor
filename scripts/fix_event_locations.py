@@ -121,8 +121,8 @@ def main():
     TMP.mkdir(exist_ok=True)
 
     to_fix = []
-    for season in range(2005, 2026):
-        s = str(season)
+    # every season present on disk, so future years are covered too
+    for s in sorted(p.name for p in (REPO / 'seasons').iterdir() if (p / 'json').is_dir()):
         if args.season and s != args.season:
             continue
         for f in sorted(glob.glob(str(REPO / f'seasons/{s}/json/*.json'))):

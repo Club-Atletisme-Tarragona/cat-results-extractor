@@ -54,9 +54,9 @@ jobs:
           python3 extract_catt.py "$PDF_PATH" "$PDF_URL"
           JSON="${PDF_PATH%.pdf}.json"
           if [ -f "$JSON" ]; then
-            mv "$JSON" "json/$(basename "$JSON")"
+            DEST=$(python3 scripts/move_json_to_season.py "$JSON")
             echo "JSON_GENERATED=true" >> "$GITHUB_ENV"
-            echo "JSON_FILE=json/$(basename "$JSON")" >> "$GITHUB_ENV"
+            echo "JSON_FILE=$DEST" >> "$GITHUB_ENV"
           else
             echo "No JSON generated (no CATT athletes found or extraction error)"
             echo "JSON_GENERATED=false" >> "$GITHUB_ENV"
@@ -67,6 +67,6 @@ jobs:
         run: |
           git config user.name "cat-results-bot"
           git config user.email "bot@cat-results.local"
-          git add json/
+          git add seasons/
           git diff --cached --quiet || git commit -m "Extract PDF: ${{ github.event.inputs.url }}"
           git push

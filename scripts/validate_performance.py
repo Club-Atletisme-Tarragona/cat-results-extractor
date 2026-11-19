@@ -109,7 +109,13 @@ def main():
 
     by_file = defaultdict(list)
     total = issues_count = 0
-    seasons = [args.season] if args.season else [str(s) for s in range(2005, 2026)]
+    if args.season:
+        seasons = [args.season]
+    else:
+        seasons = sorted(
+            p.name for p in (REPO / "seasons").iterdir()
+            if p.is_dir() and (p / "json").is_dir()
+        )
 
     for s in seasons:
         for f in sorted(glob.glob(str(REPO / f'seasons/{s}/json/*.json'))):

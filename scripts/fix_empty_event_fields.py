@@ -146,10 +146,10 @@ def fix_sources(dry_run: bool) -> dict:
 
 
 def build_source_maps() -> tuple[dict[str, str], dict[tuple[str, str], str]]:
-    """Scan all source JSONs (seasons/ + json/) and build lookup maps."""
+    """Scan all source JSONs (seasons/*/json/) and build lookup maps."""
     src_to_date: dict[str, str] = {}
     key_to_src: dict[tuple[str, str], str] = {}
-    for pattern in ("seasons/*/**/*.json", "json/*.json", "json/**/*.json"):
+    for pattern in ("seasons/*/json/*.json", "seasons/*/json/imported/*.json"):
         for path in sorted(ROOT.glob(pattern)):
             if "athletes" in path.parts or "imported" in path.parts:
                 continue

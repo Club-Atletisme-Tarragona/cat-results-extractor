@@ -1,8 +1,13 @@
 # Data quality status
 
 Audited 2026-11-19 across **1,329 JSON files / 27,044 results** in
-`seasons/*/json/` plus the current season in `json/`. `json/imported/` is
-excluded (third-party processed files, intentionally not our extractor output).
+`seasons/<year>/json/`, seasons 2005-2026. `json/imported/` is excluded
+(third-party processed files, intentionally not our extractor output).
+
+Since 2026-11-19 **every season lives under `seasons/<year>/json/`** — the
+current season included (`seasons/2026/`). There is no top-level `json/`
+directory; a season is the calendar year of the event, resolved by
+`season_paths.py` from the JSON's own `event_date`.
 
 Re-run the audit at any time:
 
@@ -16,7 +21,7 @@ python3 scripts/validate_performance.py      # performance vs DISCIPLINES.md for
 
 | Seasons | Verdict |
 |---|---|
-| `seasons/2025`, `json/` (current) | **Valid and plausible.** Regenerated from source PDFs with current `extract_catt.py`. |
+| `seasons/2025`, `seasons/2026` (current) | **Valid and plausible.** Regenerated from source PDFs with current `extract_catt.py`. |
 | `seasons/2017`–`2024` | **Valid and plausible.** Regenerated 2026-11-19 (mechanical formats + source re-extraction). |
 | `seasons/2005`–`2016` | **Not yet.** Mechanical notation defects are fixed; the remaining defects need per-era re-parsers (below). |
 

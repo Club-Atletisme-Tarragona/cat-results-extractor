@@ -51,10 +51,12 @@ KNOWN_LEGACY = {
 
 
 def source_files():
-    """All source JSONs from seasons/ and json/ (excluding json/imported/)."""
-    files = set(glob.glob(str(REPO_ROOT / "seasons/*/**/*.json"), recursive=True))
-    files |= set(glob.glob(str(REPO_ROOT / "json/*.json")))
-    files |= set(glob.glob(str(REPO_ROOT / "json/**/*.json"), recursive=True))
+    """All source JSONs from seasons/<year>/json/ (excluding imported/).
+
+    There is no top-level json/ directory: every season, current and past,
+    lives under seasons/<year>/json/ (see season_paths.py).
+    """
+    files = set(glob.glob(str(REPO_ROOT / "seasons" / "*" / "json" / "*.json")))
     return sorted(f for f in files if f"{os.sep}imported{os.sep}" not in f)
 
 

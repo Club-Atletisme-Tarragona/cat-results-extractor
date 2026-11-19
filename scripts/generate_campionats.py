@@ -214,7 +214,7 @@ def main() -> int:
         "--scan-dir",
         action="append",
         dest="scan_dirs",
-        default=["seasons", "json"],
+        default=["seasons"],
         help="Directory under root to scan (repeatable)",
     )
     args = parser.parse_args()

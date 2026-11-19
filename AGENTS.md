@@ -547,17 +547,33 @@ Llançaments (disc, pes, martell, javelina) have multiple attempts per athlete. 
 ## Directory Structure
 
 ```
-seasons/             # historical data
-  {season}/          # e.g., 2014-2015, 2013-2014
+seasons/             # every season, calendar year of the event
+  {year}/            # 2005 .. 2026 (current: 2026)
     json/            # Individual JSON files (one per PDF)
       resulcatalevi90612.json
       resulcatcadet150612.json
       ...
-json/              # events from current season 2025-2026
-  imported/        # files processed with a 3rd party app
+    json/imported/   # files already imported with a 3rd party app
+    discipline_mapping_report.md
 ```
 
-**Rule:** files in `json/imported/` processed/modified by our extractors must be moved back to `json/` so the performance results are included in the database import.
+**There is no top-level `json/` directory.** The 2026 season was the last one
+kept there; it was migrated to `seasons/2026/json/` on 2026-11-19 so every
+season, past and future, follows one layout. A season is the calendar year of
+the event, taken from the JSON's own `event_date`:
+
+- `season_paths.py` is the single source of truth (`season_of(date)`,
+  `current_season()`, `season_json_dir()`), with `$CATT_SEASON` as an override
+  for unusual backfills.
+- Extractors write next to the PDF; `scripts/move_json_to_season.py` files the
+  result under the right season (used by `make extract`, `make extract/remote`
+  and the extract-remote workflow).
+- A new year needs no code change.
+
+**Rule:** files in `seasons/<year>/json/imported/` that our extractors modify
+must be moved back to `seasons/<year>/json/` so the performance results are
+included in the database import.
+
 
 ## Filtering Rules
 

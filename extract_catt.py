@@ -163,7 +163,9 @@ EVENT_PATTERNS = [
     # Generic patterns that cover any event name format (Spanish + Catalan)
     # Track events with abbreviated gender: "60m S10M", "200m AbsF", "300m S16M", "400m S10F"
     # Format: distance + (S##|Abs) + M/F (Masculí/Femení abbreviated)
-    r'(?:\d{1,3}(?:\.\d{3})?\s*m(t)?|\d+\s*m(t)?)\s*(?:tanques\s+)?(?:vallas\s+)?(?:\(.*?\))?\s*(?:S\d+|Abs)\s*[MF]\s*(?:AL|aire\s+libre)?',
+    # Masters ages: "400m vallas (0,84) AL M55", "100m vallas (0,84) AL M40", "60m AL M50"
+    # Single category token: "60m vallas (0,91) CAD Hombres AL"
+    r'(?:\d{1,3}(?:\.\d{3})?\s*m(t)?|\d+\s*m(t)?)\s*(?:tanques\s+)?(?:vallas\s+)?(?:\(.*?\))?\s*(?:S\d+|Abs|AL|CAD|JUV|INF)\.?(?=$|\s|[MF])\s*(?:Hombres|Mujeres)?\s*[MF]?\d{0,2}\s*(?:AL|aire\s+libre)?',
     # Track events: 60m, 100m, 300m, 600m, 1.000m, 3.000m, etc. (with or without space, with optional altaveu "mt")
     r'(?:\d{1,3}(?:\.\d{3})?\s*m(t)?|\d+\s*m(t)?)\s*(?:tanques\s+)?(?:vallas\s+)?(?:\(.*?\))?\s*(?:Sub\d+\s+)?(?:Obst\.?\s+)?(?:Marcha\s+)?(?:Marxa\s+)?(?:Hombres|Mujeres|Mixto|Homes|Dones|Masculí|Femení|masculins|Mascuins|femenins|masculina|femenina|masculino|femenino)',
     # Simple track with abbreviated gender: "100m M", "200m F", "400m M", "800m F"
@@ -235,6 +237,9 @@ TRACK_PATTERNS = [
     r'\d{1,3}(?:\.\d{3})?\s*m(t)?\s*(?:tanques|vallas)?\s+(?:Abs|Sub\d+[-\d]*)\s+[MFHM]',
     # Speed control style: "60m S10M", "400m S10F", "200m AbsF", "300m S16M"
     r'\d{1,3}(?:\.\d{3})?\s*m(t)?\s*(?:tanques|vallas)?\s*(?:Abs(?:M|F|Mascuins|Femenins)?|S\d+[MFHM])',
+    # Masters category events: "400m vallas (0,84) AL M55", "60m AL M50",
+    # "100m vallas (0,84) AL M40", "60m vallas (0,91) CAD Hombres AL"
+    r'\d{1,3}(?:\.\d{3})?\s*m(t)?\s*(?:tanques|vallas)?\s*(?:\(.*?\))?\s+(?:AL|CAD|JUV|INF|Abs|S\d+)\.?\s*(?:Hombres|Mujeres|Mixto)?\s*(?:[MFHM]\d{0,2})?\s*(?:AL|aire\s+libre)?',
     # Popular/road events: "5.000m Popular"
     r'\d{1,3}(?:\.\d{3})?\s*m(t)?\s+(?:Popular|Populars?)\s*(?:Hombres|Mujeres|Masculí|Femení)?',
     # km events: "10km", "21.1km"
@@ -958,6 +963,14 @@ def find_section_boundaries(lines):
         # Skip preliminary result lines (RCAT, RCAM, etc.) that have event dates at the end
         # These lines have format: "RCAT  J.CASTELLA-N.CAVERO 2:33.39  Sabadell  13/02/2022"
         if re.match(r'^\s*RC[A-Z]+\s', stripped):
+            continue
+        # Combined-events summary table headers become their own section kind;
+        # check this BEFORE the 'Puesto'/'Dorsal'/'Nombre' skip below, which also
+        # matches the glued Conersys form ("PuestoDorsal Nombre ... Puntos").
+        if combined_table_start(lines, i):
+            group = combined_group_name(lines, i)
+            if not any(idx == i for idx, _ in section_starts):
+                section_starts.append((i, f"COMBINED_TABLE::{group or stripped}"))
             continue
         # Skip combined-event table headers (not event section names)
         if 'Puesto' in stripped and 'Dorsal' in stripped and 'Nombre' in stripped:
@@ -2348,11 +2361,6 @@ def extract_track_result_new(lines, athlete_block, sec_end):
     
     combined = ' '.join(all_block_texts)
     
-    # Check for DNS/DNF markers first
-    dns_match = re.search(r'\b(DNS|DNF|DNP|Abandona|No presentado|No comenzado|Retirado)\b', combined, re.IGNORECASE)
-    if dns_match:
-        return dns_match.group(1)
-    
     # Try HH:MM:SS format first (e.g., 2:47:53 for marathon)
     time_match = re.search(r'(\d{1,2}:\d{2}:\d{2})(?!\d)', combined)
     if time_match:
@@ -2374,6 +2382,12 @@ def extract_track_result_new(lines, athlete_block, sec_end):
         val = float(num_match.group(1))
         if val > 5.0 and val < 60.0:
             return num_match.group(1)[:5]
+    
+    # No performance token found: DNS/DNF markers (AGENTS.md: numeric results
+    # win over DNS noise picked up from a too-wide block window)
+    dns_match = re.search(r'\b(DNS|DNF|DNP|Abandona|No presentado|No comenzado|Retirado)\b', combined, re.IGNORECASE)
+    if dns_match:
+        return dns_match.group(1)
     
     return ""
 
@@ -3177,7 +3191,14 @@ def combined_table_start(lines, idx):
     """
     first = lines[idx].strip()
     if not re.search(r'\bPto\b', first) or re.search(r'\bPuesto\b', first):
-        return False
+        # Glued Conersys form: "PuestoDorsal Nombre  Club  Martill… …  Puntos  P.Líder"
+        # (no spaces between the first column labels; '\bPto\b' and '\bPuesto\b'
+        # both fail on it). Requires Nombre + Puntos/P.Líder + >=2 sub-event cols.
+        if not (re.search(r'Puesto\s*Dorsal', first) and re.search(r'\bNombre\b', first)
+                and re.search(r'\bPuntos\b|P\.?L[íi]der', first)):
+            return False
+        blob = ' '.join(lines[j].strip() for j in range(idx, min(idx + 10, len(lines))))
+        return len(_COMBINED_COL_TOKEN_RE.findall(blob)) >= 2
     if not (re.search(r'\bDor\b', first) or re.search(r'\bClub\b', first)):
         return False
     if combined_table_header(first):

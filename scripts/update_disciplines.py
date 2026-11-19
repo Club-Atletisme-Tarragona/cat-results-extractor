@@ -2058,7 +2058,10 @@ def main():
         if args.json_dir:
             # explicit-directory re-maps get their own report, never the season one
             report_path = REPO_ROOT / args.json_dir / "discipline_mapping_report.md"
-        report = write_report(None if args.json_dir else args.season,
+        # `season` is the resolved value (args.season or current_season());
+        # passing args.season here crashed with season=None whenever the script
+        # ran without --season, i.e. in the default day-to-day invocation.
+        report = write_report(None if args.json_dir else season,
                               len(files), total, all_counts, all_review,
                               out=report_path, label=target_label)
         print(f"\nreport: {report}")

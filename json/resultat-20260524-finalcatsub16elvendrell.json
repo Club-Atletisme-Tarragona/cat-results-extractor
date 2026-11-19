@@ -2,7 +2,7 @@
   "event_name": "Jornada Final - Campionat de Catalunya Sub16 - Pista de Atletismo de El Vendrell",
   "event_date": "24/05/2026",
   "event_location": "El Vendrell",
-  "total_results": 27,
+  "total_results": 30,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/05/resultat-20260524-finalcatsub16elvendrell.pdf",
   "results": [
     {
@@ -32,6 +32,46 @@
       "performance": "46.17",
       "discipline": "300 metres tanques (0.762)",
       "raw_discipline_name": "300m tanques masculins",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "MARC MARTI FERNANDEZ",
+      "athlete_dob": "10/4/2011",
+      "athlete_id": "CL94395",
+      "performance": "11.28",
+      "discipline": "100 metres llisos",
+      "raw_discipline_name": "100m llisos masculins",
+      "wind": "+2.5",
+      "position": 2
+    },
+    {
+      "athlete_name": "MARC MARTI FERNANDEZ",
+      "athlete_dob": "10/4/2011",
+      "athlete_id": "CL94395",
+      "performance": "11.41",
+      "discipline": "100 metres llisos",
+      "raw_discipline_name": "100m llisos masculins",
+      "wind": "+1.8",
+      "position": null
+    },
+    {
+      "athlete_name": "MARC MARTI FERNANDEZ",
+      "athlete_dob": "10/4/2011",
+      "athlete_id": "CL94395",
+      "performance": "0:37.02",
+      "discipline": "300 metres llisos",
+      "raw_discipline_name": "300m llisos masculins",
+      "wind": null,
+      "position": 2
+    },
+    {
+      "athlete_name": "MARC MARTI FERNANDEZ",
+      "athlete_dob": "10/4/2011",
+      "athlete_id": "CL94395",
+      "performance": "0:38.12",
+      "discipline": "300 metres llisos",
+      "raw_discipline_name": "300m llisos masculins",
       "wind": null,
       "position": null
     },
@@ -134,6 +174,16 @@
       "raw_discipline_name": "Llançament de disc masculí",
       "wind": null,
       "position": 5
+    },
+    {
+      "athlete_name": "LARA GARCIA MUR",
+      "athlete_dob": "23/10/2011",
+      "athlete_id": "CL94385",
+      "performance": "11:18.97",
+      "discipline": "3000 metres llisos",
+      "raw_discipline_name": "3.000m llisos femenins",
+      "wind": null,
+      "position": 4
     },
     {
       "athlete_name": "VICTORIA CHIAMAKA ONYEMAEKWU AHANOTU",
@@ -254,26 +304,6 @@
       "raw_discipline_name": "3.000m marxa femenins",
       "wind": null,
       "position": 5
-    },
-    {
-      "athlete_name": "MARC MARTI FERNANDEZ",
-      "athlete_dob": "10/4/2011",
-      "athlete_id": "CL94395",
-      "performance": "11.41",
-      "discipline": "300 metres tanques (0.762)",
-      "raw_discipline_name": "300m tanques masculins",
-      "wind": null,
-      "position": null
-    },
-    {
-      "athlete_name": "MARC MARTI FERNANDEZ",
-      "athlete_dob": "10/4/2011",
-      "athlete_id": "CL94395",
-      "performance": "38.12",
-      "discipline": "300 metres tanques (0.762)",
-      "raw_discipline_name": "300m tanques masculins",
-      "wind": null,
-      "position": null
     }
   ]
 }

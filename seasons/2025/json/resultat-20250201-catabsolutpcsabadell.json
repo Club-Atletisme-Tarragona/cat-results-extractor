@@ -1,8 +1,8 @@
 {
   "event_name": "49è Campionat de Catalunya Absolut - Pista coberta de Catalunya",
   "event_date": "01/02/2025",
-  "event_location": "Sabadell",
-  "total_results": 9,
+  "event_location": "Sabadell (i)",
+  "total_results": 12,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2025/02/resultat-20250201-catabsolutpcsabadell.pdf",
   "results": [
     {
@@ -13,6 +13,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Salt de Llargada Masculí",
       "wind": null,
+      "position": 10,
       "internal_id": 958
     },
     {
@@ -23,6 +24,7 @@
       "discipline": "60 metres tanques (0.84)",
       "raw_discipline_name": "60m tanques Femenins",
       "wind": null,
+      "position": 2,
       "internal_id": 527
     },
     {
@@ -33,6 +35,7 @@
       "discipline": "60 metres tanques (0.84)",
       "raw_discipline_name": "60m tanques Femenins",
       "wind": null,
+      "position": null,
       "internal_id": 527
     },
     {
@@ -43,6 +46,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Salt de Llargada Femení",
       "wind": null,
+      "position": 4,
       "internal_id": 737
     },
     {
@@ -53,6 +57,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Salt de Llargada Femení",
       "wind": null,
+      "position": 4,
       "internal_id": 737
     },
     {
@@ -63,26 +68,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Salt de Llargada Femení",
       "wind": null,
-      "internal_id": 737
-    },
-    {
-      "athlete_name": "VICTOR JIMENEZ GARCIA",
-      "athlete_dob": "25/5/2008",
-      "athlete_id": "CT1465",
-      "performance": "6.52",
-      "discipline": "60 metres tanques (1.067)",
-      "raw_discipline_name": "60m tanques Masculins",
-      "wind": null,
-      "internal_id": 958
-    },
-    {
-      "athlete_name": "LAURINE ELISA MARIMON FERNAND…",
-      "athlete_dob": "17/9/2004",
-      "athlete_id": "CT28409",
-      "performance": "11.58",
-      "discipline": "60 metres tanques (0.84)",
-      "raw_discipline_name": "60m tanques Femenins",
-      "wind": null,
+      "position": 4,
       "internal_id": 737
     },
     {
@@ -90,9 +76,65 @@
       "athlete_dob": "6/8/1995",
       "athlete_id": "CT2272",
       "performance": "10.02",
-      "discipline": "60 metres tanques (0.84)",
-      "raw_discipline_name": "60m tanques Femenins",
+      "discipline": "Pes (4 Kg)",
+      "raw_discipline_name": "Llançament de Pes Femení",
       "wind": null,
+      "position": 7,
+      "internal_id": 359
+    },
+    {
+      "athlete_name": "MARINA TIBAU SENDRA",
+      "athlete_dob": "6/8/1995",
+      "athlete_id": "CT2272",
+      "performance": "10.20",
+      "discipline": "Pes (4 Kg)",
+      "raw_discipline_name": "Llançament de Pes Femení",
+      "wind": null,
+      "position": 7,
+      "internal_id": 359
+    },
+    {
+      "athlete_name": "MARINA TIBAU SENDRA",
+      "athlete_dob": "6/8/1995",
+      "athlete_id": "CT2272",
+      "performance": "10.15",
+      "discipline": "Pes (4 Kg)",
+      "raw_discipline_name": "Llançament de Pes Femení",
+      "wind": null,
+      "position": 7,
+      "internal_id": 359
+    },
+    {
+      "athlete_name": "MARINA TIBAU SENDRA",
+      "athlete_dob": "6/8/1995",
+      "athlete_id": "CT2272",
+      "performance": "9.66",
+      "discipline": "Pes (4 Kg)",
+      "raw_discipline_name": "Llançament de Pes Femení",
+      "wind": null,
+      "position": 7,
+      "internal_id": 359
+    },
+    {
+      "athlete_name": "MARINA TIBAU SENDRA",
+      "athlete_dob": "6/8/1995",
+      "athlete_id": "CT2272",
+      "performance": "10.00",
+      "discipline": "Pes (4 Kg)",
+      "raw_discipline_name": "Llançament de Pes Femení",
+      "wind": null,
+      "position": 7,
+      "internal_id": 359
+    },
+    {
+      "athlete_name": "MARINA TIBAU SENDRA",
+      "athlete_dob": "6/8/1995",
+      "athlete_id": "CT2272",
+      "performance": "10.28",
+      "discipline": "Pes (4 Kg)",
+      "raw_discipline_name": "Llançament de Pes Femení",
+      "wind": null,
+      "position": 7,
       "internal_id": 359
     }
   ]

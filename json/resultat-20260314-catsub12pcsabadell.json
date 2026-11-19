@@ -2,7 +2,7 @@
   "event_name": "Jornada Final Campionat de Catalunya Sub12 Pista Coberta - Jornada Final Campionat de Catalunya Sub12 Pista Coberta",
   "event_date": "14/03/2026",
   "event_location": "Sabadell (i)",
-  "total_results": 16,
+  "total_results": 17,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/03/resultat-20260314-catsub12pcsabadell.pdf",
   "results": [
     {
@@ -69,11 +69,21 @@
       "athlete_name": "ÈLIA BAYÓN FERNÁNDEZ",
       "athlete_dob": "18/5/2015",
       "athlete_id": "CAT-3889577",
-      "performance": "0:10.18",
-      "discipline": "2000 metres llisos",
-      "raw_discipline_name": "2000m femenins",
+      "performance": "10.18",
+      "discipline": "60 metres tanques (0.50)",
+      "raw_discipline_name": "60m tanques femenines",
       "wind": null,
       "position": 3
+    },
+    {
+      "athlete_name": "ÈLIA BAYÓN FERNÁNDEZ",
+      "athlete_dob": "18/5/2015",
+      "athlete_id": "CAT-3889577",
+      "performance": "10.31",
+      "discipline": "60 metres tanques (0.50)",
+      "raw_discipline_name": "60m tanques femenines",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ADA FELIU LORCA",

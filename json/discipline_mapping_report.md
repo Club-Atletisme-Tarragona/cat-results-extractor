@@ -4,9 +4,9 @@ Original raw values preserved in `raw_discipline_name` (inserted after `discipli
 Heights/weights follow the FCA *Proves autoritzades* tables (stable for the 2005 era: cadet=Sub16, juvenil=Sub18, junior=Sub20, promesa=Sub23). Un-suffixed events in open meets use the absolut spec (verified against the source PDFs). Mixed absolut-junior
 combined events resolved per athlete from the PDF birth-year column.
 
-- files: 104
-- results: 3482
-- mapped: 3482
+- files: 109
+- results: 3715
+- mapped: 3715
 - review (left unchanged): 0
 
 | count | raw discipline | official discipline |
@@ -20,12 +20,14 @@ combined events resolved per athlete from the PDF birth-year column.
 | 32 | `Jabalina Vortex Hombres` | `Javelina (800 g)` |
 | 32 | `Longitud U16F` | `Llargada` |
 | 29 | `60m S12F` | `60 metres llisos` |
+| 28 | `4x80m Femení U14F` | `4x80` |
 | 26 | `Longitud Mujeres` | `Llargada` |
 | 26 | `Peso (2kg)Mujeres AL` | `Pes (2 Kg)` |
 | 25 | `Disc femení` | `Disc (1 Kg)` |
 | 25 | `Llargada masculina` | `Llargada` |
 | 23 | `60m Hombres AL U10M` | `60 metres llisos` |
 | 22 | `400m Hombres` | `400 metres llisos` |
+| 22 | `4x200m Femení U14F` | `4x200` |
 | 22 | `Llargada S12M` | `Llargada` |
 | 22 | `Llargada S14F` | `Llargada` |
 | 22 | `Longitud Hombres U10M` | `Llargada` |
@@ -33,6 +35,7 @@ combined events resolved per athlete from the PDF birth-year column.
 | 21 | `Longitud U16M` | `Llargada` |
 | 21 | `Triple Salt S16F` | `Triple` |
 | 21 | `Triple Salto Mujeres` | `Triple` |
+| 20 | `4x60m Masculí U12M` | `4x60` |
 | 20 | `Longitud S14F` | `Llargada` |
 | 20 | `Peso (3 kg) S14F` | `Pes (3 Kg)` |
 | 20 | `Triple Salt S14F` | `Triple` |
@@ -70,15 +73,20 @@ combined events resolved per athlete from the PDF birth-year column.
 | 14 | `60m Mujeres AL U10F` | `60 metres llisos` |
 | 14 | `Altura S14F` | `Alçada` |
 | 14 | `Longitud Hombres` | `Llargada` |
+| 14 | `Longitud Mujeres AL` | `Llargada` |
 | 14 | `Longitud S14M` | `Llargada` |
 | 14 | `Pes (4kg) S16M` | `Pes (4 Kg)` |
+| 14 | `Peso (3 Kg) Mujeres AL` | `Pes (3 Kg)` |
 | 14 | `Triple salt femení` | `Triple` |
 | 13 | `120m Mujeres AL` | `120 metres llisos` |
+| 13 | `3x600m Masculí U12M` | `3x600` |
 | 13 | `4x60 femenins` | `4x60` |
 | 13 | `60m Mujeres AL U12F` | `60 metres llisos` |
 | 13 | `60m S12M` | `60 metres llisos` |
 | 13 | `Pes (2kg) S12M` | `Pes (2 Kg)` |
 | 12 | `400m Hombres U8M, U10M` | `400 metres llisos` |
+| 12 | `4x60m Femení U12F` | `4x60` |
+| 12 | `4x80m Masculí U14M` | `4x80` |
 | 12 | `60m Mujeres U12F` | `60 metres llisos` |
 | 12 | `60m tanques (0,50) S12F` | `60 metres tanques (0.50)` |
 | 12 | `Disco (1 kg) Mujeres` | `Disc (1 Kg)` |
@@ -119,7 +127,7 @@ combined events resolved per athlete from the PDF birth-year column.
 | 9 | `Disc (1kg) S16M` | `Disc (1 Kg)` |
 | 9 | `Longitud M60` | `Llargada` |
 | 9 | `Martillo (2kg) Mujeres AL` | `Martell (2 Kg)` |
-| 9 | `Pes S14F (3kg)` | `Pes (7.260 Kg)` |
+| 9 | `Pes S14F (3kg)` | `Pes (3 Kg)` |
 | 9 | `Peso Hombres` | `Pes (7.260 Kg)` |
 | 9 | `Triple Salt S14M` | `Triple` |
 | 9 | `Triple Salto U14M` | `Triple` |
@@ -129,7 +137,9 @@ combined events resolved per athlete from the PDF birth-year column.
 | 8 | `4x200m Femenins U12F` | `4x200` |
 | 8 | `4x200m Masculins U12M` | `4x200` |
 | 8 | `4x200m Masculins U14M` | `4x200` |
+| 8 | `4x200m Masculí U14M` | `4x200` |
 | 8 | `4x300 Masculins U16M` | `4x300` |
+| 8 | `4x300m Masculí U16M` | `4x300` |
 | 8 | `4x400m Femenins U18F` | `4x400` |
 | 8 | `4x400m Masculins U18M` | `4x400` |
 | 8 | `4x60m Femenins U12F` | `4x60` |
@@ -146,8 +156,8 @@ combined events resolved per athlete from the PDF birth-year column.
 | 8 | `Tetrathlón S14F` | `Tetratló` |
 | 8 | `Triple Salt S16M` | `Triple` |
 | 7 | `1.000m femenins` | `1000 metres llisos` |
-| 7 | `2.000m femenins` | `2000 metres llisos` |
 | 7 | `200m AbsF` | `200 metres llisos` |
+| 7 | `3x600m Femení U12F` | `3x600` |
 | 7 | `400m S10F` | `400 metres llisos` |
 | 7 | `60m Mujeres U14F` | `60 metres llisos` |
 | 7 | `60m S14M` | `60 metres llisos` |
@@ -166,17 +176,18 @@ combined events resolved per athlete from the PDF birth-year column.
 | 6 | `100 m Mujeres` | `100 metres llisos` |
 | 6 | `100m tanques (0,762) S16F` | `100 metres tanques (0.762)` |
 | 6 | `150m Hombres AL` | `150 metres llisos` |
+| 6 | `2.000m femenins` | `2000 metres llisos` |
 | 6 | `2.000m masculins` | `2000 metres llisos` |
 | 6 | `200 m Hombres` | `200 metres llisos` |
 | 6 | `200m femenins` | `200 metres llisos` |
 | 6 | `300m S16F` | `300 metres llisos` |
 | 6 | `300m S16M` | `300 metres llisos` |
-| 6 | `300m tanques masculins` | `300 metres tanques (0.762)` |
 | 6 | `60m tanques femenins` | `60 metres tanques (0.50)` |
 | 6 | `60m vallas (0,50) Mujeres AL` | `60 metres tanques (0.50)` |
 | 6 | `60m vallas (0,762)U14F` | `60 metres tanques (0.76)` |
 | 6 | `800 m Hombres` | `800 metres llisos` |
 | 6 | `800 m Mujeres` | `800 metres llisos` |
+| 6 | `Altura Mujeres AL` | `Alçada` |
 | 6 | `Disco (2 kg) Hombres` | `Disc (2 Kg)` |
 | 6 | `Jabalina (500g) Hombres` | `Javelina (500 g)` |
 | 6 | `Jabalina (600g) Hombres` | `Javelina (600 g)` |
@@ -206,9 +217,11 @@ combined events resolved per athlete from the PDF birth-year column.
 | 5 | `200m Masculí PC` | `200 metres llisos` |
 | 5 | `300 m Hombres` | `300 metres llisos` |
 | 5 | `400m vallas Mujeres` | `400 metres tanques (0.762)` |
+| 5 | `600m Mujeres AL` | `600 metres llisos` |
 | 5 | `60m ABS M` | `60 metres llisos` |
 | 5 | `60m Mujeres ABSF` | `60 metres llisos` |
 | 5 | `60m tanques femenins` | `60 metres tanques (0.84)` |
+| 5 | `60m vallas (0,762) Mujeres JUV/CAD AL` | `60 metres tanques (0.76)` |
 | 5 | `800m Hombres` | `800 metres llisos` |
 | 5 | `80m S14M` | `80 metres llisos` |
 | 5 | `80m tanques (0,84) S14M` | `80 metres tanques (0.84)` |
@@ -239,6 +252,7 @@ combined events resolved per athlete from the PDF birth-year column.
 | 4 | `200m Femení PC` | `200 metres llisos` |
 | 4 | `300m Hombres` | `300 metres llisos` |
 | 4 | `300m Masculins` | `300 metres llisos` |
+| 4 | `300m tanques masculins` | `300 metres tanques (0.762)` |
 | 4 | `400 m vallas (0,762) Mujeres` | `400 metres tanques (0.762)` |
 | 4 | `400m S18M` | `400 metres llisos` |
 | 4 | `4X60 masculins` | `4x60` |
@@ -254,17 +268,14 @@ combined events resolved per athlete from the PDF birth-year column.
 | 4 | `4x200 masculins` | `4x200` |
 | 4 | `4x200m Femenins U14F` | `4x200` |
 | 4 | `4x200m Femení PC` | `4x200` |
-| 4 | `4x200m Femení U14F` | `4x200` |
 | 4 | `4x200m Hombres AL` | `4x200` |
 | 4 | `4x200m Masculí PC` | `4x200` |
-| 4 | `4x200m Masculí U14M` | `4x200` |
 | 4 | `4x200m Mujeres AL` | `4x200` |
 | 4 | `4x200m Mujeres PC` | `4x200` |
 | 4 | `4x200m Mujeres PC Master F55` | `4x200` |
 | 4 | `4x300 Femenins U16F` | `4x300` |
 | 4 | `4x300m Femení U16F` | `4x300` |
 | 4 | `4x300m Masculins U16M` | `4x300` |
-| 4 | `4x300m Masculí U16M` | `4x300` |
 | 4 | `4x400 m Hombres` | `4x400` |
 | 4 | `4x400 m Mujeres` | `4x400` |
 | 4 | `4x400m Dones PC` | `4x400` |
@@ -277,14 +288,10 @@ combined events resolved per athlete from the PDF birth-year column.
 | 4 | `4x400m Mujeres AL` | `4x400` |
 | 4 | `4x60 masculins` | `4x60` |
 | 4 | `4x60m Femenins U10F` | `4x60` |
-| 4 | `4x60m Femení U12F` | `4x60` |
 | 4 | `4x60m Hombres AL` | `4x60` |
 | 4 | `4x60m Masculí U10M` | `4x60` |
-| 4 | `4x60m Masculí U12M` | `4x60` |
 | 4 | `4x60m Mujeres AL` | `4x60` |
-| 4 | `4x80m Femení U14F` | `4x80` |
 | 4 | `4x80m Masculins U14M` | `4x80` |
-| 4 | `4x80m Masculí U14M` | `4x80` |
 | 4 | `600 m Hombres` | `600 metres llisos` |
 | 4 | `600 m Mujeres` | `600 metres llisos` |
 | 4 | `60m Hombres ABSM` | `60 metres llisos` |
@@ -350,17 +357,24 @@ combined events resolved per athlete from the PDF birth-year column.
 | 3 | `60 m vallas Hombres` | `60 metres tanques (1.067)` |
 | 3 | `600m S16F` | `600 metres llisos` |
 | 3 | `60m Masculí` | `60 metres llisos` |
+| 3 | `60m tanques femenines` | `60 metres tanques (0.50)` |
 | 3 | `80m masculins` | `80 metres llisos` |
 | 3 | `Altura Hombres U10M` | `Alçada` |
 | 3 | `Altura S16F` | `Alçada` |
 | 3 | `Alçada Femení` | `Alçada` |
+| 3 | `Disc (1 Kg) M M60` | `Disc (1 Kg)` |
+| 3 | `Disc (1Kg M70` | `Disc (1 Kg)` |
 | 3 | `Disco (1 Kg) F40` | `Disc (1 Kg)` |
 | 3 | `Disco (1,750kg) MASC.` | `Disc (1,750)` |
 | 3 | `Disco (600g) Mujeres U12F` | `Disc (600 g)` |
 | 3 | `Disco (800g) Hombres U14M` | `Disc (800 g)` |
+| 3 | `Disco Vet. Hombres. Master M60` | `Disc (2 Kg)` |
+| 3 | `Jabalina 500gr Vet. Hombres. Master M70` | `Javelina (500 g)` |
 | 3 | `Jabalina Mujeres` | `Javelina (600 g)` |
+| 3 | `Jabalina Vet. Hombres. Master M60` | `Javelina (800 g)` |
 | 3 | `Javelina (500g) S18F` | `Javelina (500 g)` |
 | 3 | `Javelina (600 gr) Abs F (C)` | `Javelina (600 g)` |
+| 3 | `Javelina (600gr) M M60` | `Javelina (600 g)` |
 | 3 | `Llançament de pes masculí` | `Pes (7.260 Kg)` |
 | 3 | `Llargada Abs F (C)` | `Llargada` |
 | 3 | `Llargada Femení U23F` | `Llargada` |
@@ -370,6 +384,7 @@ combined events resolved per athlete from the PDF birth-year column.
 | 3 | `Llargada S18F` | `Llargada` |
 | 3 | `Llargada U12M` | `Llargada` |
 | 3 | `Llargada U14F` | `Llargada` |
+| 3 | `Longitud Hombres AL` | `Llargada` |
 | 3 | `Longitud Mujeres PC` | `Llargada` |
 | 3 | `Longitud S18 Mujeres AL` | `Llargada` |
 | 3 | `Martell (7,260 kg) Masculí U23M` | `Martell (7.260 Kg)` |
@@ -381,18 +396,23 @@ combined events resolved per athlete from the PDF birth-year column.
 | 3 | `Pes (3kg) Masculí U14M` | `Pes (3 Kg)` |
 | 3 | `Pes (3kg) S18F` | `Pes (3 Kg)` |
 | 3 | `Pes (4 Kg) Abs F (C)` | `Pes (4 Kg)` |
+| 3 | `Pes (5 Kg) M M60` | `Pes (5 Kg)` |
 | 3 | `Pes (6kg) Homes PC` | `Pes (6 Kg)` |
 | 3 | `Pes S20F/AbsF` | `Pes (7.260 Kg)` |
 | 3 | `Pes U12M` | `Pes (2 Kg)` |
 | 3 | `Pes femeni` | `Pes (4 Kg)` |
+| 3 | `Peso (2 Kg)Mujeres AL` | `Pes (2 Kg)` |
+| 3 | `Peso (3 Kg) S18 Mujeres AL` | `Pes (3 Kg)` |
 | 3 | `Peso (3kg) Femení` | `Pes (3 Kg)` |
 | 3 | `Peso (3kg) Hombres` | `Pes (3 Kg)` |
-| 3 | `Peso (3kg) S18 Mujeres AL` | `Pes (3 Kg)` |
+| 3 | `Peso (4 Kg) Hombres AL` | `Pes (4 Kg)` |
 | 3 | `Peso Hombres. Pentatlón Master M60` | `Pes (7.260 Kg)` |
 | 3 | `Peso Mujeres` | `Pes (4 Kg)` |
 | 3 | `Peso Mujeres Pentatlón` | `Pes (4 Kg)` |
 | 3 | `Peso Pentatlón F55` | `Pes (3 Kg)` |
 | 3 | `Peso Vet. Hombres. AL` | `Pes (7.260 Kg)` |
+| 3 | `Peso Vet. Hombres. AL Master M60` | `Pes (7.260 Kg)` |
+| 3 | `Peso Vet. Hombres. AL Master M70` | `Pes (7.260 Kg)` |
 | 3 | `Relleu 4x300 femení` | `4x300` |
 | 2 | `1.000m Hombres` | `1000 metres llisos` |
 | 2 | `1.000m Marcha Mujeres en pista` | `1000 metres marxa` |
@@ -405,12 +425,14 @@ combined events resolved per athlete from the PDF birth-year column.
 | 2 | `1.500m Femení` | `1500 metres llisos` |
 | 2 | `1.500m Masculins` | `1500 metres llisos` |
 | 2 | `1.500m S18M` | `1500 metres llisos` |
+| 2 | `100 m Dones` | `100 metres llisos` |
 | 2 | `100 m tanques (0,84) Femení` | `100 metres tanques (0.84)` |
 | 2 | `100 m vallas Hombres` | `100 metres tanques (0.91)` |
 | 2 | `100 m vallas Mujeres` | `100 metres tanques (0.84)` |
 | 2 | `100 metres tanques femenins` | `100 metres tanques (0.762)` |
 | 2 | `100m Mujeres Extra` | `100 metres llisos` |
 | 2 | `100m Mujeres U18F` | `100 metres llisos` |
+| 2 | `100m llisos masculins` | `100 metres llisos` |
 | 2 | `100m tanques (0,762) S18F` | `100 metres tanques (0.762)` |
 | 2 | `100m tanques (0,91) S16M` | `100 metres tanques (0.91)` |
 | 2 | `100m tanques femenins` | `100 metres tanques (0.762)` |
@@ -425,13 +447,13 @@ combined events resolved per athlete from the PDF birth-year column.
 | 2 | `200m masculins` | `200 metres llisos` |
 | 2 | `220m tanques masculins` | `220 metres tanques (0.762)` |
 | 2 | `220m vallas (0,76) Mujeres AL` | `220 metres tanques (0.762)` |
-| 2 | `3.000m MASCULINO` | `3000 metres llisos` |
 | 2 | `3.000m Mujeres AL` | `3000 metres llisos` |
 | 2 | `3.000m Obst. Hombres` | `3000 metres obstacles` |
 | 2 | `3.000m masculins` | `3000 metres llisos` |
 | 2 | `300m Femení` | `300 metres llisos` |
 | 2 | `300m Mujeres` | `300 metres llisos` |
 | 2 | `300m femenins` | `300 metres llisos` |
+| 2 | `300m llisos masculins` | `300 metres llisos` |
 | 2 | `400 m tanques (0,762) Femení` | `400 metres tanques (0.762)` |
 | 2 | `400 metres tanques femenins` | `400 metres tanques (0.762)` |
 | 2 | `400m femenins` | `400 metres llisos` |
@@ -451,7 +473,6 @@ combined events resolved per athlete from the PDF birth-year column.
 | 2 | `60m vallas (0,762) U16F U18F` | `60 metres tanques (0.76)` |
 | 2 | `800 m Femení U18F` | `800 metres llisos` |
 | 2 | `800m Masculí` | `800 metres llisos` |
-| 2 | `800m U18 Femenins PC` | `800 metres llisos` |
 | 2 | `80m Hombres AL U14M` | `80 metres llisos` |
 | 2 | `80m vallas (0,762) INF-VET. Mujeres AL U14F` | `80 metres tanques (0.84)` |
 | 2 | `Altura Hombres PC` | `Alçada` |
@@ -469,15 +490,20 @@ combined events resolved per athlete from the PDF birth-year column.
 | 2 | `Heptatló S18F` | `Heptatlo` |
 | 2 | `Jabalina (800 g) Hombres` | `Javelina (800 g)` |
 | 2 | `Javelina (500g) SUB16 F` | `Javelina (500 g)` |
+| 2 | `Javelina (500gr) M70` | `Javelina (500 g)` |
 | 2 | `Llargada Dones PC Master F55` | `Llargada` |
 | 2 | `Llargada Fememina U12F` | `Llargada` |
 | 2 | `Llargada Femenina U14F` | `Llargada` |
 | 2 | `Llargada S20F/AbsF` | `Llargada` |
+| 2 | `Longitud Hombres Master M60` | `Llargada` |
 | 2 | `Longitud Mujeres Pentathlón` | `Llargada` |
 | 2 | `Longitud Pentatlón F55` | `Llargada` |
-| 2 | `Martell (4 kg) Homes` | `Martell (4 Kg)` |
+| 2 | `Martell (4 Kg) M70` | `Martell (4 Kg)` |
 | 2 | `Martell Dones Master F35` | `Martell (4 Kg)` |
+| 2 | `Martell pesat (7,26 Kg) M70` | `Martell pesat (7.26 Kg)` |
 | 2 | `Martillo (7,260 kg) Hombres` | `Martell (7.260 Kg)` |
+| 2 | `Martillo Pesado 7,26kg Vet. Hombres. AL Master M70` | `Martell pesat (7.26 Kg)` |
+| 2 | `Martillo Vet. Hombres. Master M70` | `Martell (7.260 Kg)` |
 | 2 | `Pentatló Masculina U14M` | `Pentatló` |
 | 2 | `Perxa Femení PC` | `Perxa` |
 | 2 | `Perxa Masculina` | `Perxa` |
@@ -485,9 +511,11 @@ combined events resolved per athlete from the PDF birth-year column.
 | 2 | `Perxa S18M` | `Perxa` |
 | 2 | `Pes (2kg) Femenins U12F` | `Pes (2 Kg)` |
 | 2 | `Pes (3 kg) Femení U18F` | `Pes (3 Kg)` |
+| 2 | `Pes (4 Kg) M70` | `Pes (4 Kg)` |
 | 2 | `Pes S16M` | `Pes (7.260 Kg)` |
 | 2 | `Peso (4kg) Mujeres PC Master F55` | `Pes (4 Kg)` |
 | 2 | `Peso (7,260 kg) Hombres` | `Pes (7.260 Kg)` |
+| 2 | `Pértiga Hombres Master M60` | `Perxa` |
 | 2 | `Pértiga M60` | `Perxa` |
 | 2 | `Pértiga U16F` | `Perxa` |
 | 2 | `Pértiga U16M` | `Perxa` |
@@ -503,15 +531,21 @@ combined events resolved per athlete from the PDF birth-year column.
 | 1 | `1.000m Mascuins` | `1000 metres llisos` |
 | 1 | `1.000m Mujeres` | `1000 metres llisos` |
 | 1 | `1.500 m Femení U23F` | `1500 metres llisos` |
+| 1 | `1.500 m Hombres Master M60` | `1500 metres llisos` |
 | 1 | `1.500 m Masculí` | `1500 metres llisos` |
 | 1 | `1.500m Hombres` | `1500 metres llisos` |
+| 1 | `1.500m Homes PC Master M50` | `1500 metres llisos` |
+| 1 | `1.500m Homes PC Master M55` | `1500 metres llisos` |
+| 1 | `1.500m M M60` | `1500 metres llisos` |
 | 1 | `1.500m Masculí` | `1500 metres llisos` |
-| 1 | `10.000m Marcha M55 Hombres` | `10 km marxa` |
+| 1 | `10.000m Marcha M55 Hombres` | `10.000 metres marxa` |
+| 1 | `100 m Hombres Master M60` | `100 metres llisos` |
 | 1 | `100 m Mujeres U18F` | `100 metres llisos` |
 | 1 | `100 metres llisos femenins` | `100 metres llisos` |
 | 1 | `100 metres llisos mascuins` | `100 metres llisos` |
 | 1 | `1000m femenins` | `1000 metres llisos` |
 | 1 | `1000m masculins` | `1000 metres llisos` |
+| 1 | `100m M M60` | `100 metres llisos` |
 | 1 | `100m Masculins` | `100 metres llisos` |
 | 1 | `100m femenins` | `100 metres llisos` |
 | 1 | `100m masculins` | `100 metres llisos` |
@@ -519,20 +553,25 @@ combined events resolved per athlete from the PDF birth-year column.
 | 1 | `100m tanques Masculins` | `100 metres tanques (0.91)` |
 | 1 | `100m vallas (0,91) Hombres AL U16M` | `100 metres tanques (0.91)` |
 | 1 | `100mt (0,84) Abs F (C)` | `100 metres tanques (0.84)` |
+| 1 | `100mt (0,84) M M60` | `100 metres tanques (0.84)` |
 | 1 | `10km Marcha FEM. RUTA` | `10K marxa (Ruta)` |
 | 1 | `110 m vallas (1,067) Hombres` | `110 metres tanques (1.067)` |
 | 1 | `110 m vallas Hombres` | `110 metres tanques (1.067)` |
 | 1 | `110m vallas (0,914) Hombres AL U18M` | `110 metres tanques (0.91)` |
+| 1 | `110m vallas (1,00) MASC. AL` | `110 metres tanques (0.99)` |
 | 1 | `150m FEM AL` | `150 metres llisos` |
 | 1 | `150m femenins` | `150 metres llisos` |
 | 1 | `150m masculins` | `150 metres llisos` |
 | 1 | `2.000m Femení PC` | `2000 metres llisos` |
 | 1 | `2.000m Marcha Mujeres en pista` | `2000 metres marxa` |
+| 1 | `2.000m Marcha Mujeres en pista U12F` | `2000 metres marxa` |
 | 1 | `2.000m Masculí PC` | `2000 metres llisos` |
 | 1 | `2.000m marxa femenina` | `2000 metres marxa` |
 | 1 | `2.000m marxa masculina` | `2000 metres marxa` |
-| 1 | `2000m femenins` | `2000 metres llisos` |
+| 1 | `200 m Dones` | `200 metres llisos` |
 | 1 | `200m Abs F (C)` | `200 metres llisos` |
+| 1 | `200m Dones PC Master F55` | `200 metres llisos` |
+| 1 | `200m Dones PC Master F60` | `200 metres llisos` |
 | 1 | `200m Hombres U14M` | `200 metres llisos` |
 | 1 | `200m Mujeres U14F` | `200 metres llisos` |
 | 1 | `200m S18F` | `200 metres llisos` |
@@ -550,10 +589,11 @@ combined events resolved per athlete from the PDF birth-year column.
 | 1 | `3.000m Femenins` | `3000 metres llisos` |
 | 1 | `3.000m Femení` | `3000 metres llisos` |
 | 1 | `3.000m Hombres PC` | `3000 metres llisos` |
+| 1 | `3.000m MASCULINO` | `3000 metres llisos` |
 | 1 | `3.000m Marcha Mujeres en pista` | `3000 metres marxa` |
 | 1 | `3.000m Masculí PC` | `3000 metres llisos` |
-| 1 | `3.000m Mujeres Master F70` | `3000 metres llisos` |
 | 1 | `3.000m femenins` | `3000 metres llisos` |
+| 1 | `3.000m llisos femenins` | `3000 metres llisos` |
 | 1 | `3.000m marxa femenina` | `3000 metres marxa` |
 | 1 | `3.000m marxa femenins` | `3000 metres marxa` |
 | 1 | `300 m Mujeres` | `300 metres llisos` |
@@ -569,15 +609,18 @@ combined events resolved per athlete from the PDF birth-year column.
 | 1 | `300m masculins` | `300 metres llisos` |
 | 1 | `300m tanques femenins` | `300 metres tanques (0.762)` |
 | 1 | `300m vallas (0,762) Mujeres AL` | `300 metres tanques (0.762)` |
-| 1 | `3x600m Femení U12F` | `3x600` |
-| 1 | `3x600m Masculí U12M` | `3x600` |
+| 1 | `400 m Hombres Master M60` | `400 metres llisos` |
 | 1 | `400 m Hombres U10M` | `400 metres llisos` |
 | 1 | `400 m Masculí` | `400 metres llisos` |
 | 1 | `400 m Masculí U23M` | `400 metres llisos` |
+| 1 | `400 m tanques (0,762) Dones` | `400 metres tanques (0.762)` |
 | 1 | `400 m tanques (0,762) Femení U18F` | `400 metres tanques (0.762)` |
 | 1 | `400 m vallas (0,914) Hombres` | `400 metres tanques (0.914)` |
 | 1 | `400 m vallas Mujeres` | `400 metres tanques (0.762)` |
+| 1 | `400m Dones PC Master F45` | `400 metres llisos` |
+| 1 | `400m Dones PC Master F55` | `400 metres llisos` |
 | 1 | `400m Femení` | `400 metres llisos` |
+| 1 | `400m M M60` | `400 metres llisos` |
 | 1 | `400m Masculins` | `400 metres llisos` |
 | 1 | `400m Masculí` | `400 metres llisos` |
 | 1 | `400m tanques femenins` | `400 metres tanques (0.762)` |
@@ -588,19 +631,27 @@ combined events resolved per athlete from the PDF birth-year column.
 | 1 | `5.000m Marcha FEM. en pista` | `5000 metres marxa` |
 | 1 | `5km Marcha FEM RUTA` | `5K marxa (Ruta)` |
 | 1 | `5km Marcha MASC RUTA` | `5K marxa (Ruta)` |
+| 1 | `600 m Mujeres U14F` | `600 metres llisos` |
 | 1 | `600m Femení PC` | `600 metres llisos` |
 | 1 | `600m Hombres PC` | `600 metres llisos` |
 | 1 | `600m Masculins U14M` | `600 metres llisos` |
+| 1 | `60m Dones PC Master F45` | `60 metres llisos` |
+| 1 | `60m Dones PC Master F55` | `60 metres llisos` |
 | 1 | `60m Femenins` | `60 metres llisos` |
+| 1 | `60m Hombres AL` | `60 metres llisos` |
 | 1 | `60m Hombres AL U14M` | `60 metres llisos` |
+| 1 | `60m Homes PC Master M60` | `60 metres llisos` |
 | 1 | `60m Masculins` | `60 metres llisos` |
 | 1 | `60m Masculins U12M` | `60 metres llisos` |
 | 1 | `60m Masculins U14M` | `60 metres llisos` |
+| 1 | `60m Mujeres AL U14F` | `60 metres llisos` |
 | 1 | `60m Mujeres PC` | `60 metres llisos` |
 | 1 | `60m tanques (0,762) S14 Femení PC` | `60 metres tanques (0.76)` |
 | 1 | `60m tanques (0,84) Femení PC` | `60 metres tanques (0.84)` |
 | 1 | `60m tanques (0,84) Masculí PC` | `60 metres tanques (0.84)` |
 | 1 | `60m tanques (1,067) Masculí PC` | `60 metres tanques (1.067)` |
+| 1 | `60m tanques Dones PC Master F55` | `60 metres tanques (0.84)` |
+| 1 | `60m tanques Homes PC Master M55` | `60 metres tanques (1.067)` |
 | 1 | `60m tanques U18 Mascuins PC` | `60 metres tanques (0.91)` |
 | 1 | `60m tanques masculins` | `60 metres tanques (0.91)` |
 | 1 | `60m vallas (0,762) S18 Mujeres JUV/CAD AL` | `60 metres tanques (0.76)` |
@@ -611,11 +662,13 @@ combined events resolved per athlete from the PDF birth-year column.
 | 1 | `800 m Masculí U23M` | `800 metres llisos` |
 | 1 | `800m Abs F (C)` | `800 metres llisos` |
 | 1 | `800m Femení` | `800 metres llisos` |
+| 1 | `800m Homes PC Master M50` | `800 metres llisos` |
 | 1 | `800m Mujeres PC Master F55` | `800 metres llisos` |
 | 1 | `800m Mujeres Pentathlón` | `800 metres llisos` |
 | 1 | `800m S18 Mujeres AL` | `800 metres llisos` |
 | 1 | `800m S18F` | `800 metres llisos` |
 | 1 | `800m S20F/AbsF` | `800 metres llisos` |
+| 1 | `800m U18 Femenins PC` | `800 metres llisos` |
 | 1 | `800m femenins` | `800 metres llisos` |
 | 1 | `800m masculins` | `800 metres llisos` |
 | 1 | `80m Hombres AL` | `80 metres llisos` |
@@ -623,6 +676,8 @@ combined events resolved per athlete from the PDF birth-year column.
 | 1 | `80m femenins` | `80 metres llisos` |
 | 1 | `80m tanques femenins` | `80 metres tanques (0.84)` |
 | 1 | `80m vallas (0,84) Hombres AL U14M` | `80 metres tanques (0.84)` |
+| 1 | `Altura Hombres AL` | `Alçada` |
+| 1 | `Altura Hombres Master M60` | `Alçada` |
 | 1 | `Altura Hombres Pentatlón Master M60` | `Alçada` |
 | 1 | `Altura Mujeres PC Master F55` | `Alçada` |
 | 1 | `Altura Mujeres Pentatlón` | `Alçada` |
@@ -634,12 +689,17 @@ combined events resolved per athlete from the PDF birth-year column.
 | 1 | `Alçada Abs F (C)` | `Alçada` |
 | 1 | `Alçada Dones PC` | `Alçada` |
 | 1 | `Alçada Femenina U14F` | `Alçada` |
+| 1 | `Alçada M M60` | `Alçada` |
 | 1 | `Alçada Masculina` | `Alçada` |
 | 1 | `Alçada Masculina U14M` | `Alçada` |
 | 1 | `Alçada U12M` | `Alçada` |
 | 1 | `Alçada U14F` | `Alçada` |
 | 1 | `Alçada U14M` | `Alçada` |
+| 1 | `Decatló Master M60` | `Decatló (Abs)` |
+| 1 | `Disco 1kg Vet. Hombres. Master M70` | `Disc (1 Kg)` |
+| 1 | `Heptathlon JUV Hombres PC-AL` | `Heptatlo` |
 | 1 | `Heptatló S20F/AbsF` | `Heptatlo` |
+| 1 | `Hexathlon Hombres PC-Aire libre` | `Hexatló` |
 | 1 | `Hexatló Masculina` | `Hexatló` |
 | 1 | `Jabalina (500g) Mujeres U16F` | `Javelina (500 g)` |
 | 1 | `Javelina S20F/AbsF` | `Javelina (800 g)` |
@@ -660,11 +720,13 @@ combined events resolved per athlete from the PDF birth-year column.
 | 1 | `Maratón Marcha Mujeres Master` | `Marató Marxa (Ruta)` |
 | 1 | `Maratón Marcha Mujeres Master F45` | `Marató Marxa (Ruta)` |
 | 1 | `Martillo (6kg) MASC.` | `Martell (6 Kg)` |
+| 1 | `Martillo Pesado5,45kg Vet. Hombres. AL Master M80` | `Martell pesat (5.45 Kg)` |
 | 1 | `Medio maratón Marcha Masc` | `Mitja Marató Marxa (Ruta)` |
 | 1 | `Pentathlon JUVMujeres PC-aire libre` | `Pentatló` |
 | 1 | `Pentathlon Mujeres PC` | `Pentatló` |
 | 1 | `Pentathlon Vet. Hombres. PC Master M60` | `Pentatló` |
 | 1 | `Pentathlón VET.Mujeres. PC Master F55` | `Pentatló` |
+| 1 | `Pentatló Llançaments M70` | `Pentatló` |
 | 1 | `Perxa Dones PC` | `Perxa` |
 | 1 | `Perxa Femení U18F` | `Perxa` |
 | 1 | `Perxa Homes Master M60` | `Perxa` |
@@ -672,17 +734,18 @@ combined events resolved per athlete from the PDF birth-year column.
 | 1 | `Perxa Homes PC` | `Perxa` |
 | 1 | `Perxa Homes PC Master M60` | `Perxa` |
 | 1 | `Perxa Homes PC Master M75` | `Perxa` |
+| 1 | `Perxa M M60` | `Perxa` |
 | 1 | `Perxa Masculí U18M` | `Perxa` |
 | 1 | `Perxa S16M` | `Perxa` |
 | 1 | `Perxa SUB16-18 M` | `Perxa` |
 | 1 | `Pes U14F` | `Pes (2 Kg)` |
 | 1 | `Peso (2kg)Mujeres AL U10F` | `Pes (2 Kg)` |
 | 1 | `Peso (6kg) MASC. AL` | `Pes (6 Kg)` |
-| 1 | `Pértiga Hombres Master M60` | `Perxa` |
 | 1 | `Pértiga M75` | `Perxa` |
 | 1 | `Salt amb perxa masculina` | `Perxa` |
 | 1 | `Salt amb perxa masculí` | `Perxa` |
 | 1 | `Salt d'alçada masculina` | `Alçada` |
+| 1 | `Tetrathlón Cataluña infantil` | `Tetratló` |
 | 1 | `Tetratló Femenina U14F` | `Tetratló` |
 | 1 | `Tetratló Masculina U12M` | `Tetratló` |
 | 1 | `Triatló Masculina U12M` | `Triatló` |

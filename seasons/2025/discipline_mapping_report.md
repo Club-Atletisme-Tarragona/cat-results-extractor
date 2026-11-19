@@ -5,8 +5,8 @@ Heights/weights follow the FCA *Proves autoritzades* tables (stable for the 2005
 combined events resolved per athlete from the PDF birth-year column.
 
 - files: 102
-- results: 3090
-- mapped: 3090
+- results: 3095
+- mapped: 3095
 - review (left unchanged): 0
 
 | count | raw discipline | official discipline |
@@ -167,6 +167,7 @@ combined events resolved per athlete from the PDF birth-year column.
 | 6 | `Javelina (400g) Femení` | `Javelina (400 g)` |
 | 6 | `Javelina Masculí Master M75` | `Javelina (800 g)` |
 | 6 | `LONGITUD Hombres PENTATHLON VET 60-69` | `Llargada` |
+| 6 | `Llançament de Pes Femení` | `Pes (4 Kg)` |
 | 6 | `Longitud Hombres u14 U10M` | `Llargada` |
 | 6 | `Longitud Pent. Master M60` | `Llargada` |
 | 6 | `Martell (4 Kg) Masculí` | `Martell (4 Kg)` |
@@ -256,7 +257,6 @@ combined events resolved per athlete from the PDF birth-year column.
 | 4 | `60m Hombres AL SM` | `60 metres llisos` |
 | 4 | `60m Hombres AL U18M` | `60 metres llisos` |
 | 4 | `60m Masculins Sub10` | `60 metres llisos` |
-| 4 | `60m tanques Femenins` | `60 metres tanques (0.84)` |
 | 4 | `60m tanques Femenins` | `60 metres tanques (0.50)` |
 | 4 | `60m tanques Masculins` | `60 metres tanques (0.50)` |
 | 4 | `800m Femenins` | `800 metres llisos` |
@@ -320,6 +320,7 @@ combined events resolved per athlete from the PDF birth-year column.
 | 3 | `Martell Masculí` | `Martell (7.260 Kg)` |
 | 3 | `Martillo (4 Kg) Hombres` | `Martell (4 Kg)` |
 | 3 | `Pes (2 Kg) Femeni SUB12` | `Pes (2 Kg)` |
+| 3 | `Pes (2 Kg) SUB12 Femení` | `Pes (2 Kg)` |
 | 3 | `Pes (3 Kg) SUB14 Masculí` | `Pes (3 Kg)` |
 | 3 | `Pes (4 Kg) Masculí` | `Pes (4 Kg)` |
 | 3 | `Pes Femení Sub10F` | `Pes (4 Kg)` |
@@ -354,7 +355,7 @@ combined events resolved per athlete from the PDF birth-year column.
 | 2 | `400m tanques (0,762) Femení` | `400 metres tanques (0.762)` |
 | 2 | `60 metres tanques masculins` | `60 metres tanques (0.91)` |
 | 2 | `600m Hombres SUB 12` | `600 metres llisos` |
-| 2 | `60m SUB12 Femenins` | `60 metres llisos` |
+| 2 | `60m tanques Femenins` | `60 metres tanques (0.84)` |
 | 2 | `60m tanques Masculins` | `60 metres tanques (0.91)` |
 | 2 | `60m tanques Masculins SUB12` | `60 metres tanques (0.50)` |
 | 2 | `60m vallas (0,762) Mujeres JUV/CAD AL` | `60 metres tanques (0.76)` |
@@ -463,10 +464,10 @@ combined events resolved per athlete from the PDF birth-year column.
 | 1 | `60m Femenins Sub10F` | `60 metres llisos` |
 | 1 | `60m Masculins SUB12` | `60 metres llisos` |
 | 1 | `60m Mujeres AL U18F` | `60 metres llisos` |
+| 1 | `60m SUB12 Femenins` | `60 metres llisos` |
 | 1 | `60m SUB14 Masculins` | `60 metres llisos` |
 | 1 | `60m Tanques Femenins` | `60 metres tanques (0.84)` |
 | 1 | `60m tanques Femenins` | `60 metres tanques (0.76)` |
-| 1 | `60m tanques Masculins` | `60 metres tanques (1.067)` |
 | 1 | `60m tanques Masculins` | `60 metres tanques (0.84)` |
 | 1 | `60m vallas (0,84) Mujeres AL` | `60 metres tanques (0.84)` |
 | 1 | `60m vallas (0,84) Mujeres PC` | `60 metres tanques (0.84)` |
@@ -522,7 +523,6 @@ combined events resolved per athlete from the PDF birth-year column.
 | 1 | `Perxa Masculina SUB12` | `Perxa` |
 | 1 | `Perxa Masculí Master M60` | `Perxa` |
 | 1 | `Perxa Masculí Master M75` | `Perxa` |
-| 1 | `Pes (2kg) SUB12 Masculí` | `Pes (2 Kg)` |
 | 1 | `Pes (4kg) Dones PC` | `Pes (4 Kg)` |
 | 1 | `Pes Dones PC Master F55` | `Pes (4 Kg)` |
 | 1 | `Pes Homes PC` | `Pes (7.260 Kg)` |
@@ -544,4 +544,5 @@ combined events resolved per athlete from the PDF birth-year column.
 | 1 | `Salt amb Perxa Masculí` | `Perxa` |
 | 1 | `Salt de Llargada Masculí` | `Llargada` |
 | 1 | `Tetratló Masculina Sub14` | `Tetratló` |
+| 1 | `Triatló SUB12 Femenina` | `Triatló` |
 

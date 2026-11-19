@@ -1,39 +1,207 @@
 {
   "event_name": "Campionat de Catalunya de Clubs Masculins Sub14 en Pista Coberta - Campionat de Catalunya de Clubs Masculins Sub14 en Pista Coberta",
   "event_date": "17/02/2018",
-  "event_location": "Sabadell",
-  "total_results": 3,
+  "event_location": "Club                                              Lic",
+  "total_results": 18,
   "event_src": "http://fcatletisme.cat/wp-content/uploads/resultat-20180217-catclubssub14pcsabadell.pdf",
   "results": [
     {
-      "athlete_name": "66 (t) Emma Llado Viñals CL87768 IF",
-      "athlete_dob": "09/01/2005",
-      "athlete_id": "CL71737",
-      "performance": "2:06.78",
-      "discipline": "2000 metres llisos",
-      "raw_discipline_name": "2.000m Marxa MASC. PC",
+      "athlete_name": "Aina Tomas Virgili IF",
+      "athlete_dob": "17/01/2005",
+      "athlete_id": "CL82421",
+      "performance": "1:57.31",
+      "discipline": "600 metres llisos",
+      "raw_discipline_name": "600m FEM. PC",
       "wind": null,
-      "internal_id": null
+      "position": null,
+      "internal_id": 815
     },
     {
-      "athlete_name": "5 70 (t) Laura Santos Martinez IF",
+      "athlete_name": "Lara Herrera Vallve IF",
+      "athlete_dob": "07/04/2005",
+      "athlete_id": "CL82414",
+      "performance": "3:41.15",
+      "discipline": "1000 metres llisos",
+      "raw_discipline_name": "1.000m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 813
+    },
+    {
+      "athlete_name": "Lucia Vega Martinez IF",
+      "athlete_dob": "29/07/2005",
+      "athlete_id": "CL86612",
+      "performance": "7:59.89",
+      "discipline": "2000 metres llisos",
+      "raw_discipline_name": "2.000m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 805
+    },
+    {
+      "athlete_name": "Martina Pomes Cabello IF",
+      "athlete_dob": "02/02/2005",
+      "athlete_id": "CL71737",
+      "performance": "11.65",
+      "discipline": "60 metres tanques (0.84)",
+      "raw_discipline_name": "60m tanques FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 810
+    },
+    {
+      "athlete_name": "Laura Santos Martinez IF",
       "athlete_dob": "14/09/2005",
       "athlete_id": "CL71751",
       "performance": "1.35",
       "discipline": "Alçada",
       "raw_discipline_name": "Alçada FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 807
     },
     {
-      "athlete_name": "7 70 (t) Laia Aldave Mas IF 5.5",
+      "athlete_name": "Laia Aldave Mas IF 5.5",
       "athlete_dob": "29/01/2005",
       "athlete_id": "CL71683",
       "performance": "1.80",
       "discipline": "Perxa",
       "raw_discipline_name": "Perxa FEM. PC",
       "wind": null,
+      "position": null,
       "internal_id": 800
+    },
+    {
+      "athlete_name": "Natalia Sanchez Alvarez IF",
+      "athlete_dob": "28/05/2005",
+      "athlete_id": "CL71748",
+      "performance": "4.55",
+      "discipline": "Llargada",
+      "raw_discipline_name": "Llargada FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 796
+    },
+    {
+      "athlete_name": "Natalia Sanchez Alvarez IF",
+      "athlete_dob": "28/05/2005",
+      "athlete_id": "CL71748",
+      "performance": "4.45",
+      "discipline": "Llargada",
+      "raw_discipline_name": "Llargada FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 796
+    },
+    {
+      "athlete_name": "Cristina Reyes Alcantara IF",
+      "athlete_dob": "28/12/2005",
+      "athlete_id": "CL82419",
+      "performance": "7.58",
+      "discipline": "Triple",
+      "raw_discipline_name": "Triple Salt FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Cristina Reyes Alcantara IF",
+      "athlete_dob": "28/12/2005",
+      "athlete_id": "CL82419",
+      "performance": "7.76",
+      "discipline": "Triple",
+      "raw_discipline_name": "Triple Salt FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Cristina Reyes Alcantara IF",
+      "athlete_dob": "28/12/2005",
+      "athlete_id": "CL82419",
+      "performance": "7.72",
+      "discipline": "Triple",
+      "raw_discipline_name": "Triple Salt FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Abril Llop Pajero IF",
+      "athlete_dob": "16/01/2005",
+      "athlete_id": "CL90512",
+      "performance": "6.29",
+      "discipline": "Pes (2 Kg)",
+      "raw_discipline_name": "Pes (2 Kg) FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Abril Llop Pajero IF",
+      "athlete_dob": "16/01/2005",
+      "athlete_id": "CL90512",
+      "performance": "6.38",
+      "discipline": "Pes (2 Kg)",
+      "raw_discipline_name": "Pes (2 Kg) FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Martina Pomes Cabello",
+      "athlete_dob": "02/02/2005",
+      "athlete_id": "CL71737",
+      "performance": "2:06.78",
+      "discipline": "4x200",
+      "raw_discipline_name": "4x200m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 810
+    },
+    {
+      "athlete_name": "Berta Pomes Cabello",
+      "athlete_dob": "02/02/2005",
+      "athlete_id": "CL69339",
+      "performance": "2:06.78",
+      "discipline": "4x200",
+      "raw_discipline_name": "4x200m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Cristina Reyes Alcantara",
+      "athlete_dob": "28/12/2005",
+      "athlete_id": "CL82419",
+      "performance": "2:06.78",
+      "discipline": "4x200",
+      "raw_discipline_name": "4x200m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Erika Diez Plasencia",
+      "athlete_dob": "09/10/2006",
+      "athlete_id": "CL82411",
+      "performance": "2:06.78",
+      "discipline": "4x200",
+      "raw_discipline_name": "4x200m FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Julia Suarez Piza IF",
+      "athlete_dob": "05/11/2006",
+      "athlete_id": "CL69345",
+      "performance": "10:41.00",
+      "discipline": "2000 metres marxa",
+      "raw_discipline_name": "2.000m Marxa FEM. PC",
+      "wind": null,
+      "position": null,
+      "internal_id": 839
     }
   ]
 }

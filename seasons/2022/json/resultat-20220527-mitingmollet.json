@@ -2,17 +2,29 @@
   "event_name": "",
   "event_date": "27/05/2022",
   "event_location": "Mollet del Vallès",
-  "total_results": 1,
+  "total_results": 2,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2022/05/resultat-20220527-mitingmollet.pdf",
   "results": [
     {
-      "athlete_name": "2 743 Sira Bo Calaf",
+      "athlete_name": "Xavier Ros Borrell",
+      "athlete_dob": "19/05/1998",
+      "athlete_id": "CL22779",
+      "performance": "1:54.05",
+      "discipline": "800 metres llisos",
+      "raw_discipline_name": "800m MASC. AL",
+      "wind": null,
+      "position": null,
+      "internal_id": 439
+    },
+    {
+      "athlete_name": "Sira Bo Calaf",
       "athlete_dob": "19/03/2001",
       "athlete_id": "CT712",
       "performance": "4:42.39",
-      "discipline": "5000 metres llisos",
-      "raw_discipline_name": "5.000m Marcha MASC. en pista",
+      "discipline": "1500 metres llisos",
+      "raw_discipline_name": "1.500m FEM. AL",
       "wind": null,
+      "position": null,
       "internal_id": 599
     }
   ]

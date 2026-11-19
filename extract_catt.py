@@ -3102,6 +3102,53 @@ def parse_combined_section(lines, sec_start, sec_end, event_name, competicio, da
     return results
 
 
+_TEAM_ENTITY_RE = re.compile(
+    r"^(?:C\s*\.?\s*A\s*\.?\s*(?:TARRAGONA|TARRAGONA\s+[A-Z])"
+    r"|CATT|CLUB\s+ATLETISME\s+TARRAGONA"
+    r"|(?:C\s*\.?\s*A\s*\.?\s*)?TARRAGONA(?:\s+[A-Z])?)$",
+    re.IGNORECASE,
+)
+
+
+_NAME_MARKER_RE = re.compile(
+    r"(?:\s+(?:DNS|DNF|DQ|NP|N\.P\.|RET|RT|MMT|MMP|XO|XXO|XXX|O--|XO-|XXO-|O-|X-))+\s*$",
+    re.IGNORECASE,
+)
+_CODE_NUMBER_RE = re.compile(r"^[A-Z]{2,6}\s*\d{1,3}$")
+
+
+def clean_athlete_name(name):
+    """Strip carry-over marks glued to a name by a wide athlete block.
+
+    Sheets print the attempt markers next to the name, so blocks that run one
+    row long produce "BASMA SARHAN KARIM DNS" or "BERTA BARBER GONZALEZ O--
+    O-- XO-". Those are the same person with contamination, not a new athlete,
+    and they never match the roster.
+    """
+    text = " ".join(str(name or "").split())
+    previous = None
+    while previous != text:
+        previous = text
+        text = _NAME_MARKER_RE.sub("", text).strip()
+    return text
+
+
+def is_junk_name(name):
+    """True for non-name tokens: a club code plus a number, e.g. 'JUSB 6'."""
+    return bool(_CODE_NUMBER_RE.match(" ".join(str(name or "").split()).upper()))
+
+
+def is_team_entity(name):
+    """True for club/team labels that are never an athlete's name.
+
+    Relay sections list each team as `CLUB NAME [, 'A'/'B' suffix]`, and the
+    judge's summary repeats them; without this filter a club label ends up
+    stored as an athlete ('CATT', 'CA Tarragona B' in the unknown-athlete
+    report) and then gets an internal_id of null forever.
+    """
+    return bool(name) and bool(_TEAM_ENTITY_RE.match(" ".join(str(name).split())))
+
+
 def parse_relay_section(lines, sec_start, sec_end, event_name, competicio, data_comp):
     """Parse relay section. Returns one result per athlete in the CATT team."""
     results = []
@@ -3144,7 +3191,20 @@ def parse_relay_section(lines, sec_start, sec_end, event_name, competicio, data_
     # Match any team block line: position + dorsal + any text + short uppercase club code (2-4 chars)
     athletes = []  # entries: {"name", "dob", "license"}
     member_format = False  # True once an RFEA member line is captured
-    team_line_pattern = re.compile(r'^\s*\d+\s+\d+\s+.+?\s+[A-Z]{2,4}\b')
+    # A team block starts with "pos  dorsal  CLUB NAME  CLUBCODE  [lane] ... RESULT".
+    # The club code is not a reliable marker: Conersys sheets use 5-letter codes
+    # (NNABB) and sometimes lowercase (tebtb), so anchoring on a 2-4 uppercase
+    # run let the parser run past the CATT team and adopt the NEXT clubs'
+    # runners (Terrasa 2026: 10 athletes attached to one 4x60). Anchor on the
+    # structure instead: two leading numbers and a trailing result.
+    # The dorsal field can be EMPTY on a club's 2nd/3rd team ("3    <spaces>  CA
+    # Tarragona B   CATT ...  37.74"), so it must be optional; the trailing
+    # result is what identifies a team line unambiguously (member lines end
+    # with a gender word, not a result).
+    team_line_pattern = re.compile(
+        r'^\s*\d{1,3}\s+(?:\d{1,3}\s+)?.*'
+        r'(?:\d{1,2}:\d{2}\.\d{2}|\d+\.\d{2}|DNF|DNS|DQ)\s*(?:\d+)?\s*[qQ]?\s*$'
+    )
 
     for i in range(catt_team_start + 1, min(sec_end, len(lines))):
         line = lines[i].strip()
@@ -3181,7 +3241,9 @@ def parse_relay_section(lines, sec_start, sec_end, event_name, competicio, data_
             # A license after the DOB is what distinguishes a member line from
             # a section header like "Final B   30/01/2021    13:15"; headers
             # carry a time-of-day, never a license token.
-            if m_name and len(m_name) > 3 and m_lic and not re.match(r'^(Final|Semifinal|Serie)\b', m_name, re.IGNORECASE):
+            if (m_name and len(m_name) > 3 and m_lic
+                    and not is_team_entity(m_name)
+                    and not re.match(r'^(Final|Semifinal|Serie)\b', m_name, re.IGNORECASE)):
                 athletes.append({"name": m_name, "dob": m_dob, "license": m_lic})
                 member_format = True
             continue
@@ -3193,7 +3255,7 @@ def parse_relay_section(lines, sec_start, sec_end, event_name, competicio, data_
             athlete_name = athlete_match.group(1).strip()
             # Clean up the name
             athlete_name = ' '.join(athlete_name.split())
-            if athlete_name and len(athlete_name) > 3:
+            if athlete_name and len(athlete_name) > 3 and not is_team_entity(athlete_name):
                 athletes.append({"name": athlete_name, "dob": "", "license": ""})
 
     # Find license for the team
@@ -3209,6 +3271,21 @@ def parse_relay_section(lines, sec_start, sec_end, event_name, competicio, data_
     lloc = extract_position(team_line)
 
     # Create one result per athlete.
+    # Structural cap: one relay result is one team performance, so it can
+    # only ever have as many athletes as the race has legs. Club sheets vary
+    # enough that the "next team block" detection above can still miss a
+    # layout, and a miss silently attributes the NEIGHBOURING clubs' runners
+    # to our team (Terrasa 2026: 24 athletes on one 4x60). Truncating at the
+    # leg count is the boundary that cannot be wrong; the warning keeps any
+    # remaining detection gap visible instead of silent.
+    legs = 4 if re.match(r'\s*4\s*x', event_name, re.IGNORECASE) else (
+        3 if re.match(r'\s*3\s*x', event_name, re.IGNORECASE) else None)
+    if legs and len(athletes) > legs:
+        print(f"  WARNING: {len(athletes)} athletes for a {legs}-leg relay "
+              f"'{event_name}' ({catt_team_result}) - keeping the first {legs}: "
+              f"{[a['name'] for a in athletes[legs:]]}", file=sys.stderr)
+        athletes = athletes[:legs]
+
     # Legacy format: all members share the team-level license.
     # RFEA member format: each member keeps their own license (never the
     # team-level one, which belongs to the first member only).
@@ -3774,6 +3851,18 @@ def main():
         performance = r.get("marca", "").strip()
         discipline = r.get("prova", "").strip()
         
+        # Sanitise the name once, for every extraction path: strip attempt
+        # markers glued to it, then drop non-names (club codes, team labels).
+        if name:
+            cleaned = clean_athlete_name(name)
+            if cleaned != name:
+                r["atleta_nom"] = cleaned
+                name = cleaned
+        if name and (is_junk_name(name) or is_team_entity(name)):
+            print(f"WARNING: Skipping team label stored as athlete: "
+                  f"prova='{r.get('prova', '?')}', nom='{name}'", file=sys.stderr)
+            continue
+
         if not name or not performance or not discipline:
             missing = []
             if not name:

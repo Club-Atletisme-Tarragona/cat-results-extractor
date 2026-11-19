@@ -29,6 +29,10 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 SOCIS_MD = ROOT / "TMP_SOCIS_LIST.md"
+# Curated athlete roster (nom,cognoms,id). Primary source: it lists exactly
+# the club's athletes, past and present. TMP_SOCIS_LIST.md is the wider
+# socis dump and remains a fallback for names this file does not carry.
+ATHLETE_ROSTER = ROOT / "socis_athletes.csv"
 ATHLETES_DIR = ROOT / "athletes"
 SEASONS_DIR = ROOT / "seasons"
 REPORTS_DIR = ROOT / "reports"
@@ -170,7 +174,8 @@ _RE_PARENS = re.compile(r"\([^)]*\)")
 
 def normalize(s: str) -> str:
     """Uppercase, strip accents/punctuation, collapse spaces; drop license/paren noise."""
-    s = _RE_LICENSE.sub(" ", s or "")
+    s = re.sub(r"\bM\s*[.\u00aa]\s*\u00aa?", " MARIA ", s or "", flags=re.IGNORECASE)
+    s = _RE_LICENSE.sub(" ", s)
     s = _RE_PARENS.sub(" ", s)
     s = unicodedata.normalize("NFD", s)
     s = "".join(c for c in s if unicodedata.category(c) != "Mn")
@@ -206,6 +211,26 @@ def expand_tokens(tk):
 # ---------------------------------------------------------------------------
 # Data loading
 # ---------------------------------------------------------------------------
+
+def parse_athlete_roster():
+    """(id, nom, cognoms) from the curated athlete roster, if present."""
+    import csv
+
+    if not ATHLETE_ROSTER.exists():
+        return []
+    entries = []
+    with ATHLETE_ROSTER.open(encoding="utf-8", newline="") as fh:
+        for row in csv.DictReader(fh):
+            try:
+                aid = int(str(row.get("id", "")).strip())
+            except (TypeError, ValueError):
+                continue
+            nom = (row.get("nom") or "").strip()
+            cognoms = (row.get("cognoms") or "").strip()
+            if aid and (nom or cognoms):
+                entries.append({"id": aid, "nom": nom, "cognoms": cognoms})
+    return entries
+
 
 def parse_socis():
     entries = []
@@ -280,12 +305,71 @@ class SocisMatcher:
                 if len(eq) == 1:
                     return eq.pop(), "subset_exact", None
                 return None, "ambiguous", sorted(ids)
+        # 2b. tolerant match: initials ("Victoria C ONYEMAEKWU"), PDF-truncated
+        # tokens ("VICTORIA CHIAMAKA ONYEMAEKW…"), and a stored name contained
+        # in the sheet's longer form ("JOSEP MARIA PUIG LARA" vs "Josep M Puig Lara").
+        tolerant = self._tolerant_match(n.split())
+        if tolerant:
+            return tolerant, "tolerant", None
+
         # 3. name-variant canonical comparison (Juan/Joan, Javier/Xavier, ...)
         cand = self._name_variant_match(set(n.split()))
         if cand:
             return cand, "name_variant", None
         # 4. fuzzy (raw and token-sorted)
         return self._fuzzy(n)
+
+    def _tolerant_match(self, in_tokens):
+        """Match allowing initials, truncated tokens and containment.
+
+        A sheet can abbreviate a given name ("Victoria C ONYEMAEKWU"), cut a
+        token at the column edge ("…ONYEMAEKW…"), or print a longer name than
+        the roster holds. Each token must then be equal, an initial of the
+        other, or a >=5-char prefix; at least two real tokens must agree and
+        exactly one candidate may survive, otherwise the caller stays unsure.
+        """
+        def tok_ok(a, b):
+            if a == b:
+                return True
+            if len(a) == 1 or len(b) == 1:
+                return a[0] == b[0]
+            if len(a) >= 5 and b.startswith(a):
+                return True
+            if len(b) >= 5 and a.startswith(b):
+                return True
+            return False
+
+        in_tokens = [t for t in in_tokens if len(t) > 0]
+        if len(in_tokens) < 2:
+            return None
+        hits = set()
+        for cid, full in self.fuzzy_pool:
+            st = full.split()
+            if not st:
+                continue
+            # every roster token must be covered by some input token and
+            # vice versa (order-insensitive), allowing abbreviation
+            short, long_ = (in_tokens, st) if len(in_tokens) <= len(st) else (st, in_tokens)
+            if len(long_) - len(short) > 1:
+                continue
+            used = set()
+            ok = True
+            for tok in short:
+                match = [i for i, other in enumerate(long_)
+                         if i not in used and tok_ok(tok, other)]
+                if not match:
+                    ok = False
+                    break
+                used.add(match[0])
+            if not ok:
+                continue
+            real = sum(1 for tok in short if len(tok) >= 2)
+            if real < 2:
+                continue
+            hits.add(cid)
+        if len(hits) == 1:
+            return hits.pop()
+        return None
 
     def _subset_candidates(self, tk):
         out = []
@@ -356,7 +440,15 @@ def main():
     ap.add_argument("--season", help="limit to one season (e.g. 2005)")
     args = ap.parse_args()
 
-    socis = parse_socis()
+    roster = parse_athlete_roster()
+    socis_dump = parse_socis()
+    if roster:
+        seen = {e["id"] for e in roster}
+        socis = roster + [e for e in socis_dump if e["id"] not in seen]
+        print(f"  athlete roster: {len(roster)} entries "
+              f"(+{len(socis) - len(roster)} from the socis dump as fallback)")
+    else:
+        socis = socis_dump
     matcher = SocisMatcher(socis)
     variants = load_athlete_variants()
     print(f"socis: {len(socis)}  athlete files: {len(list(ATHLETES_DIR.glob('*.json')))}")

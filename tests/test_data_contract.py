@@ -247,7 +247,10 @@ class TestAggregatorCharacterization(unittest.TestCase):
             out = Path(tmp, "pep-aldave-mas.json")
             self.assertTrue(out.exists(), "aggregator did not write the athlete file")
             data = json.load(open(out, encoding="utf-8"))
-            self.assertEqual(len(data["results"]), 104)
+            # Baseline raised 104 -> 106 on 2026-11-19: regenerating the stale
+            # 2017-2024 season JSONs recovered two legitimate PEP ALDAVE MAS
+            # long-jump marks (verified: no duplicates, plausible values).
+            self.assertEqual(len(data["results"]), 106)
             empty_dates = [r for r in data["results"] if not r.get("event_date")]
             empty_srcs = [r for r in data["results"] if not r.get("event_src")]
             self.assertEqual(empty_dates, [])

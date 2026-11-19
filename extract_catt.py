@@ -3805,19 +3805,32 @@ def main():
                 if not quiet:
                     print(f"  WARNING: Discarding {r['atleta_nom']} {marca} for {r['prova']} - below plausibility floor {floor}s for {dist}m", file=sys.stderr)
                 invalid = True
-            elif '60m' in event_lower and seconds > 15:
+            # Sprint ceilings describe FLAT races only: a 100m HURDLES race is
+            # legitimately slower (youth S16F/S18F run 20-25s), and a combined-
+            # event hurdles leg likewise. Applying the flat ceiling to hurdles
+            # discarded real results (ALBA GUIJARRO 21.42 100mH S18F).
+            elif not is_hurdles and '60m' in event_lower and seconds > 15:
                 if not quiet:
                     print(f"  WARNING: Discarding {r['atleta_nom']} {marca} for {r['prova']} - impossible time for 60m", file=sys.stderr)
                 invalid = True
-            elif '100m' in event_lower and seconds > 20:
+            elif not is_hurdles and '100m' in event_lower and seconds > 20:
                 if not quiet:
                     print(f"  WARNING: Discarding {r['atleta_nom']} {marca} for {r['prova']} - impossible time for 100m", file=sys.stderr)
                 invalid = True
-            elif '200m' in event_lower and seconds > 40:
+            elif not is_hurdles and '200m' in event_lower and seconds > 40:
                 if not quiet:
                     print(f"  WARNING: Discarding {r['atleta_nom']} {marca} for {r['prova']} - impossible time for 200m", file=sys.stderr)
                 invalid = True
-            elif '400m' in event_lower and seconds > 120:
+            # Hurdle ceilings scale with distance: youth/masters athletes run
+            # 60-110mH in 15-30s, 300mH in 45-75s, 400mH in 55-100s (M65+ ~110s).
+            # Generous ceilings still catch leaked field marks as 'times'.
+            elif is_hurdles and dist is not None and seconds > (
+                30 if dist <= 110 else 90 if dist <= 300 else 150
+            ):
+                if not quiet:
+                    print(f"  WARNING: Discarding {r['atleta_nom']} {marca} for {r['prova']} - impossible time for hurdles", file=sys.stderr)
+                invalid = True
+            elif not is_hurdles and '400m' in event_lower and seconds > 120:
                 if not quiet:
                     print(f"  WARNING: Discarding {r['atleta_nom']} {marca} for {r['prova']} - impossible time for 400m", file=sys.stderr)
                 invalid = True

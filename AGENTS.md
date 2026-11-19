@@ -99,6 +99,30 @@ Events are classified in this **strict order** (first match wins):
 7. **Track** - anything with meters that isn't already classified
 8. **Unknown** - fallback
 
+## Masters (Veterans) Results: store `MARCA`, never `COEF`/`%`
+
+A masters sheet prints more than the performance:
+
+```
+LLOC CARRER DORSAL LLIC. NOM  ANY  CLUB  MARCA  COEF  %  PUNTS
+ 1     5     60        Alex Lopez- ...     50''00  12,50 10,26 82,08  9
+```
+
+**`MARCA` is the original mark and it is the only thing the dataset stores.**
+`COEF` is the age coefficient, `%` the age-graded equivalent, `PUNTS` the
+championship points. An age-graded number is not a performance: it cannot be
+compared with another age group, and it cannot be converted back without the
+reference the sheet used, so a stored `%` is unrecoverable data.
+
+The 2005-2016 veterans parsers sometimes took a later column, leaving rows whose
+"mark" is impossible (a 62.72 m long jump, `Alçada 68.94`) or wildly out of
+range next to the same athlete's real marks. Those values are too SLOW or too
+BIG rather than too fast, so `scripts/check_plausibility.py` (floors) never
+flags them. `scripts/check_veterans_marks.py` reports them as a worklist
+(`reports/veterans_marks_suspect.csv`); it is advisory, because at the edges a
+very slow old athlete looks like a stored percentage. Any repair must read
+`MARCA` from the source PDF - never derive it.
+
 ## Result Extraction Value Ranges
 
 Each event type validates extracted numeric values within specific ranges:

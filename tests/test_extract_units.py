@@ -20,6 +20,7 @@ from extract_catt import (  # noqa: E402
     classify_event,
     extract_name_from_line,
     is_excluded_athlete,
+    split_relay_composition,
     is_team_entity,
     normalize_weight_units,
     parse_header,
@@ -133,6 +134,38 @@ class TestExtractNameFromLine(unittest.TestCase):
     def test_strips_leading_pos_dorsal(self):
         self.assertEqual(extract_name_from_line("3 49 (t) Pep Aldave Mas"),
                          "Pep Aldave Mas")
+
+
+class TestRelayComposition(unittest.TestCase):
+    """A relay team printed as one dash-joined string is several athletes.
+
+    Veterans and old promote sheets list the whole team in the name column.
+    Storing that as one athlete is what produced the phantom "PERE PARDINES
+    JOSE MARTIN" (a fragment of a 4x100 line) in the 2008 veterans file.
+    """
+
+    def test_splits_full_name_composition(self):
+        self.assertEqual(
+            split_relay_composition(
+                "Alex Lopez- Fernando Flores- Pere Pardines- Jose Martin"),
+            ["Alex Lopez", "Fernando Flores", "Pere Pardines", "Jose Martin"])
+
+    def test_splits_initials_composition(self):
+        self.assertEqual(
+            split_relay_composition("V.LOPEZ-J.BLANCO-J.M.MATEO-J.F.GARCIA"),
+            ["V.LOPEZ", "J.BLANCO", "J.M.MATEO", "J.F.GARCIA"])
+
+    def test_keeps_two_leg_names_together(self):
+        # a hyphen is legitimate in a name; two legs are not a team
+        self.assertEqual(split_relay_composition("Carla BORRAS VERGES-TAPIRO"), [])
+        self.assertEqual(split_relay_composition("Segolene-josephine Deconinck Urbano"), [])
+
+    def test_keeps_compound_surnames_together(self):
+        self.assertEqual(split_relay_composition("Clara ORTIZ DE LANDAZURI ONTOSO"), [])
+
+    def test_plain_name_is_not_a_composition(self):
+        self.assertEqual(split_relay_composition("Hugo Jules SAIZ SANTOLARIA"), [])
+        self.assertEqual(split_relay_composition(""), [])
 
 
 class TestExcludedGuestAthletes(unittest.TestCase):

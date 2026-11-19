@@ -206,6 +206,23 @@ SUMARIO format per athlete (3 lines):
 
 ## Relay Parsing
 
+**A relay team printed as one dash-joined string is several athletes.**
+Veterans and old promote sheets put the whole team in the name column:
+
+```
+1  5  60  Alex Lopez- Fernando Flores- Pere Pardines- Jose Martin   40  CA Tarragona  50''00 ... 9
+```
+
+Storing that as one athlete produces phantom people with mixed names — the 2008
+veterans file held `PERE PARDINES JOSE MARTIN`, a fragment of that line, and
+`E. JOSE-J. GONZALEZ-A. LAGO-N. PINYOL` in 2011. `split_relay_composition()`
+detects the composition and the output boundary emits one row per leg with the
+team mark. A hyphen is also legitimate in a name (`Carla BORRAS VERGES-TAPIRO`,
+`Segolene-josephine Deconinck Urbano`), so a split requires three or more legs,
+or two legs that each look like a person. When a sheet prints only initials
+(`V.LOPEZ-J.BLANCO-...`) the legs are stored as printed and stay unmatched until
+the owner resolves them.
+
 Relay sections are parsed differently from individual events:
 
 1. Find the CATT team line (position + CATT/CA Tarragona + result)

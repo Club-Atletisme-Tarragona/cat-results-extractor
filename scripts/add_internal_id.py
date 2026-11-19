@@ -613,7 +613,9 @@ def main():
     if amb:
         lines += ["## Ambiguous (multiple socis candidates)", ""]
         for u in sorted(amb, key=lambda x: x["athlete_name"]):
-            lines.append(f"- **{u['athlete_name']}** → candidates: {u['candidates']} "
+            cands = u["candidates"] or []
+            shown = f"{cands[:6]}" + (f" and {len(cands) - 6} more" if len(cands) > 6 else "")
+            lines.append(f"- **{u['athlete_name']}** → candidates: {shown} "
                          f"| e.g. `{u['refs'][0]['file']}` ({u['refs'][0]['discipline']}, "
                          f"{u['refs'][0]['performance']})")
         lines.append("")

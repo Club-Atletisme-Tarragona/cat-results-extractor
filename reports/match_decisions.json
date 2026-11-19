@@ -1,4 +1,9 @@
 {
+  "A LAGO": {
+    "internal_id": null,
+    "strategy": "no_match",
+    "detail": null
+  },
   "AARON COBACHO PACHECO": {
     "internal_id": null,
     "strategy": "no_match",
@@ -297,6 +302,11 @@
   "ALEX GRAN BADIA": {
     "internal_id": null,
     "strategy": "no_match",
+    "detail": null
+  },
+  "ALEX LOPEZ": {
+    "internal_id": 227,
+    "strategy": "subset",
     "detail": null
   },
   "ALEX LOPEZ VILA": {
@@ -719,6 +729,11 @@
     "strategy": "exact",
     "detail": null
   },
+  "B SANCHEZ": {
+    "internal_id": null,
+    "strategy": "no_match",
+    "detail": null
+  },
   "BARBA LAURA YAN": {
     "internal_id": 701,
     "strategy": "subset",
@@ -994,7 +1009,7 @@
     "strategy": "exact",
     "detail": null
   },
-  "C BERENGUEL L MASCARELL MARIA VAZQUEZ B SANCHEZ": {
+  "C BERENGUEL": {
     "internal_id": null,
     "strategy": "no_match",
     "detail": null
@@ -1784,6 +1799,11 @@
     "strategy": "tolerant",
     "detail": null
   },
+  "FERNANDO FLORES": {
+    "internal_id": 4,
+    "strategy": "subset",
+    "detail": null
+  },
   "FERNANDO FLORES MONTES": {
     "internal_id": 4,
     "strategy": "exact",
@@ -2449,6 +2469,26 @@
     "strategy": "no_match",
     "detail": null
   },
+  "J BLANCO": {
+    "internal_id": null,
+    "strategy": "no_match",
+    "detail": null
+  },
+  "J F GARCIA": {
+    "internal_id": null,
+    "strategy": "no_match",
+    "detail": null
+  },
+  "J GONZALEZ": {
+    "internal_id": null,
+    "strategy": "no_match",
+    "detail": null
+  },
+  "J MARIA MATEO": {
+    "internal_id": 343,
+    "strategy": "tolerant",
+    "detail": null
+  },
   "JAIRO ROMAN": {
     "internal_id": 1035,
     "strategy": "exact",
@@ -2512,6 +2552,11 @@
   "JAUME PUIGBARRACA SORIANO": {
     "internal_id": 229,
     "strategy": "exact",
+    "detail": null
+  },
+  "JAUME SANCHIS": {
+    "internal_id": 205,
+    "strategy": "subset",
     "detail": null
   },
   "JAUME SANCHIS CUGAT": {
@@ -2584,9 +2629,9 @@
     "strategy": "tolerant",
     "detail": null
   },
-  "JOAN BARDINA JAUME SANCHIS": {
-    "internal_id": null,
-    "strategy": "no_match",
+  "JOAN BARDINA": {
+    "internal_id": 7,
+    "strategy": "subset",
     "detail": null
   },
   "JOAN BARDINA TOMAS": {
@@ -2699,6 +2744,44 @@
     "strategy": "no_match",
     "detail": null
   },
+  "JOSE": {
+    "internal_id": null,
+    "strategy": "ambiguous",
+    "detail": [
+      5,
+      15,
+      16,
+      42,
+      183,
+      246,
+      252,
+      293,
+      294,
+      315,
+      356,
+      383,
+      393,
+      401,
+      430,
+      432,
+      502,
+      539,
+      600,
+      653,
+      781,
+      809,
+      1045,
+      1048,
+      1063,
+      1080,
+      1143,
+      1222,
+      1224,
+      1284,
+      1302,
+      1389
+    ]
+  },
   "JOSE ANGEL MASI URZUA": {
     "internal_id": 1389,
     "strategy": "fuzzy",
@@ -2734,6 +2817,11 @@
     "strategy": "exact",
     "detail": null
   },
+  "JOSE FCO GRACIA": {
+    "internal_id": null,
+    "strategy": "no_match",
+    "detail": null
+  },
   "JOSE FRANC GARCIA NAVARRETE": {
     "internal_id": 5,
     "strategy": "fuzzy",
@@ -2748,11 +2836,6 @@
     "internal_id": 5,
     "strategy": "variant:fuzzy",
     "detail": 0.893
-  },
-  "JOSE J GONZALEZ A LAGO N PINYOL": {
-    "internal_id": null,
-    "strategy": "no_match",
-    "detail": null
   },
   "JOSE MANUEL VELASCO FERNANDEZ": {
     "internal_id": 246,
@@ -2772,6 +2855,11 @@
   "JOSE MARIA PEREZ SIERRA": {
     "internal_id": 539,
     "strategy": "exact",
+    "detail": null
+  },
+  "JOSE MARTIN": {
+    "internal_id": 15,
+    "strategy": "subset",
     "detail": null
   },
   "JOSE MARTIN ALVAREZ": {
@@ -2882,6 +2970,11 @@
   "JUAN GONZALEZ GARCIA": {
     "internal_id": 1079,
     "strategy": "exact",
+    "detail": null
+  },
+  "JUAN VALVERDE": {
+    "internal_id": null,
+    "strategy": "no_match",
     "detail": null
   },
   "JUAN VELASCO FARRE": {
@@ -3037,6 +3130,11 @@
   "KILIAN PEDROL ESPINOSA": {
     "internal_id": 1361,
     "strategy": "exact",
+    "detail": null
+  },
+  "L MASCARELL": {
+    "internal_id": null,
+    "strategy": "no_match",
     "detail": null
   },
   "LAGO CAMPS DAVID": {
@@ -3307,11 +3405,6 @@
   "LOLA FOIX DE LA HORMAZA": {
     "internal_id": 1423,
     "strategy": "exact",
-    "detail": null
-  },
-  "LOPEZ BLANCO MATEO GARCIA": {
-    "internal_id": null,
-    "strategy": "no_match",
     "detail": null
   },
   "LOPEZ BUENO VICTOR": {
@@ -3637,6 +3730,11 @@
   "MARIA USTRELL ARAGONES": {
     "internal_id": 1392,
     "strategy": "exact",
+    "detail": null
+  },
+  "MARIA VAZQUEZ": {
+    "internal_id": null,
+    "strategy": "no_match",
     "detail": null
   },
   "MARIA VINAS PEREZ": {
@@ -4117,6 +4215,11 @@
   "MORERA LIZANO CARLA": {
     "internal_id": 469,
     "strategy": "exact",
+    "detail": null
+  },
+  "N PINYOL": {
+    "internal_id": null,
+    "strategy": "no_match",
     "detail": null
   },
   "NACHO BLANCO CALATRAVA": {
@@ -4667,11 +4770,6 @@
   "PERE PARDINES GRAS": {
     "internal_id": 71,
     "strategy": "exact",
-    "detail": null
-  },
-  "PERE PARDINES JOSE MARTIN": {
-    "internal_id": null,
-    "strategy": "no_match",
     "detail": null
   },
   "PEREZ DE FUENTE": {
@@ -5363,6 +5461,11 @@
     "internal_id": 321,
     "strategy": "fuzzy",
     "detail": 0.895
+  },
+  "V LOPEZ": {
+    "internal_id": null,
+    "strategy": "no_match",
+    "detail": null
   },
   "VACAS CAMPOS PEDRO": {
     "internal_id": 197,

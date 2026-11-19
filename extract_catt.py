@@ -3179,6 +3179,46 @@ def is_excluded_athlete(name):
     return bool(key) and key in _excluded_athlete_keys
 
 
+_RELAY_LEG_SPLIT = re.compile(r"\s*[-\u2013]\s*")
+
+
+def split_relay_composition(name):
+    """Legs of a relay team the sheet printed as one dash-joined string.
+
+    Veterans and old promote sheets put the whole team in the name column:
+
+        Alex Lopez- Fernando Flores- Pere Pardines- Jose Martin
+        V.LOPEZ-J.BLANCO-J.M.MATEO-J.F.GARCIA
+
+    That is four athletes, not one. Storing it as one athlete produced phantom
+    people with mixed names ("PERE PARDINES JOSE MARTIN", a fragment of the
+    4x100 above, in the 2008 veterans file).
+
+    Conservative on purpose: a hyphen is also a legitimate part of a name
+    ("Carla BORRAS VERGES-TAPIRO", "Segolene-josephine Deconinck Urbano"), so a
+    split needs either three or more legs, or two legs that each look like a
+    person (a full name or an initial + surname). Returns [] when the text is a
+    name, not a composition.
+    """
+    text = " ".join(str(name or "").split())
+    if not text:
+        return []
+    legs = [leg.strip() for leg in _RELAY_LEG_SPLIT.split(text) if leg.strip()]
+    if len(legs) < 2 or len(legs) > 8:
+        return []
+    for leg in legs:
+        if len(re.sub(r"[^A-Za-z\u00c0-\u024f]", "", leg)) < 3:
+            return []
+    if len(legs) == 2:
+        looks_like_people = all(
+            len(leg.split()) >= 2 or re.match(r"^[A-Za-z\u00c0-\u024f]\.", leg)
+            for leg in legs
+        )
+        if not looks_like_people:
+            return []
+    return legs
+
+
 def is_team_entity(name):
     """True for club/team labels that are never an athlete's name.
 
@@ -3887,6 +3927,7 @@ def main():
 
     # Validate and filter results - must have athlete_name, performance, and discipline
     valid_results = []
+    composed = []
     for r in results:
         name = r.get("atleta_nom", "").strip()
         performance = r.get("marca", "").strip()
@@ -3902,6 +3943,16 @@ def main():
         if name and (is_junk_name(name) or is_team_entity(name)):
             print(f"WARNING: Skipping team label stored as athlete: "
                   f"prova='{r.get('prova', '?')}', nom='{name}'", file=sys.stderr)
+            continue
+        legs = split_relay_composition(name)
+        if name and legs:
+            print(f"WARNING: Splitting a relay composition stored as one athlete: "
+                  f"{name!r} -> {legs}", file=sys.stderr)
+            for leg in legs:
+                expanded = dict(r)
+                expanded["atleta_nom"] = leg
+                expanded["vent"] = None  # wind is never recorded for relays
+                composed.extend(expanded)
             continue
         if name and is_excluded_athlete(name):
             print(f"WARNING: Skipping guest athlete not registered with the club: "
@@ -3922,7 +3973,7 @@ def main():
         
         valid_results.append(r)
 
-    results = valid_results
+    results = valid_results + composed
     if not quiet:
         print(f"\nAfter validation: {len(results)} valid results")
 

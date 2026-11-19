@@ -74,7 +74,22 @@ the current extraction code. The source PDFs are still downloadable from
 | 10 | Format mismatches: 6 misc, 3 veterans age/percentage column, 1 combined-table header stored as a discipline | targeted fixes |
 | 1 | Unmapped discipline `60m tanques PC` (2017 infantile heat, no height in the header) | mapping rule |
 | **38** | Exact-duplicate result rows exposed by the name cleanup: same athlete, same discipline, same mark twice in one file (combined-event files where the SUMARIO/total section repeats a sub-event result, e.g. `Silvia Gutierrez Comes` javelin 15.44 in `resulcatcombinades560512`). Previously invisible because the two rows differed only by a trailing series number (`JF 5` vs `5`) | row removal was NOT applied: two identical attempts are possible in throws, so this needs a per-file re-extraction decision, not a blind delete |
+| 20 | `seasons/2008/json/resulcatclubsveterans21608.json`: the veterans parser stored the **percentage column** as the mark (`JOSE MARTIN ALVAREZ 200 metres llisos 80.48` where the PDF prints `24''90`; the same for `PEDRO VACAS` disc 69.23 and two of `JAVIER MARTIN ALVAREZ`'s shot attempts 22.16/36.06). The 6 relay rows of this file were already repaired with the real marks; the individual events were not touched | re-parse with a veterans-aware column map (`MARCA COEF % PUNTS`) |
 | 2 | Names that cannot be cleaned without inventing data: `AHANOTU` (truncated by the PDF column, matched to 1391 by owner decision) and `ZAIRA AF` (only a given name survived the era parser) | per-source review |
+
+### Relay compositions are no longer stored as one athlete
+
+Six rows held a whole relay team in `athlete_name` — a fragment of the sheet's
+dash-joined name column (`PERE PARDINES JOSE MARTIN` from the 2008 veterans
+4x100, `LOPEZ BLANCO MATEO GARCIA` from 2010, `E. JOSE-J. GONZALEZ-A. LAGO-N.
+PINYOL` from 2011). `extract_catt.py:split_relay_composition()` now splits such
+a line into legs at the output boundary, and the six stored rows were rebuilt
+from their source PDFs: **6 rows → 24 leg rows**, six of them resolving to club
+athletes (Flores 4, Bardina 7, Pardines 71, Sanchis 205, Alex Lopez 227, Mateo
+343). The two 2008 rows also had the percentage column as their mark
+(`82.08`/`48.85` instead of `50.00`/`4:24.01`) and were corrected from the PDF.
+The 2011 and one 2010 team print only initials, so those legs stay unmatched
+until the owner identifies them.
 
 ### Stored names no longer carry sheet bookkeeping
 

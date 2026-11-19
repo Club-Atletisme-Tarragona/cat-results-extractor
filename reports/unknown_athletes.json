@@ -1,5 +1,24 @@
 [
   {
+    "athlete_name": "A. LAGO",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2011/json/resulcatrelleus30411.json",
+        "discipline": "4x60",
+        "performance": "39.76",
+        "event_date": "30/4/2011"
+      },
+      {
+        "file": "seasons/2011/json/resulcatrelleus30411.json",
+        "discipline": "4x60",
+        "performance": "39.90",
+        "event_date": "30/4/2011"
+      }
+    ]
+  },
+  {
     "athlete_name": "AARON COBACHO PACHECO",
     "strategy": "no_match",
     "candidates": null,
@@ -1061,6 +1080,19 @@
     "refs_total": 14
   },
   {
+    "athlete_name": "B. SANCHEZ",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2011/json/resulcatrelleus30411.json",
+        "discipline": "4x60",
+        "performance": "43.14",
+        "event_date": "30/4/2011"
+      }
+    ]
+  },
+  {
     "athlete_name": "BARBENS PARDO CLAUDIA",
     "strategy": "no_match",
     "candidates": null,
@@ -1567,7 +1599,7 @@
     ]
   },
   {
-    "athlete_name": "C.BERENGUEL-L. MASCARELL-M. VAZQUEZ-B. SANCHEZ",
+    "athlete_name": "C.BERENGUEL",
     "strategy": "no_match",
     "candidates": null,
     "refs": [
@@ -2327,9 +2359,42 @@
     "refs_total": 83
   },
   {
-    "athlete_name": "E. JOSE-J. GONZALEZ-A. LAGO-N. PINYOL",
-    "strategy": "no_match",
-    "candidates": null,
+    "athlete_name": "E. JOSE",
+    "strategy": "ambiguous",
+    "candidates": [
+      5,
+      15,
+      16,
+      42,
+      183,
+      246,
+      252,
+      293,
+      294,
+      315,
+      356,
+      383,
+      393,
+      401,
+      430,
+      432,
+      502,
+      539,
+      600,
+      653,
+      781,
+      809,
+      1045,
+      1048,
+      1063,
+      1080,
+      1143,
+      1222,
+      1224,
+      1284,
+      1302,
+      1389
+    ],
     "refs": [
       {
         "file": "seasons/2011/json/resulcatrelleus30411.json",
@@ -4106,6 +4171,51 @@
     ]
   },
   {
+    "athlete_name": "J. GONZALEZ",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2011/json/resulcatrelleus30411.json",
+        "discipline": "4x60",
+        "performance": "39.76",
+        "event_date": "30/4/2011"
+      },
+      {
+        "file": "seasons/2011/json/resulcatrelleus30411.json",
+        "discipline": "4x60",
+        "performance": "39.90",
+        "event_date": "30/4/2011"
+      }
+    ]
+  },
+  {
+    "athlete_name": "J.BLANCO",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2010/json/resulcatveterans27610.json",
+        "discipline": "4x400",
+        "performance": "4:29.07",
+        "event_date": "27/6/2010"
+      }
+    ]
+  },
+  {
+    "athlete_name": "J.F.GARCIA",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2010/json/resulcatveterans27610.json",
+        "discipline": "4x400",
+        "performance": "4:29.07",
+        "event_date": "27/6/2010"
+      }
+    ]
+  },
+  {
     "athlete_name": "JIMENEZ COSANO MARCOS",
     "strategy": "no_match",
     "candidates": null,
@@ -4127,19 +4237,6 @@
         "discipline": "Llargada",
         "performance": "2.48",
         "event_date": "06/02/2016"
-      }
-    ]
-  },
-  {
-    "athlete_name": "JOAN BARDINA JAUME SANCHIS",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2008/json/resulcatclubsveterans21608.json",
-        "discipline": "4x400",
-        "performance": "48.85",
-        "event_date": "21/6/2008"
       }
     ]
   },
@@ -4825,6 +4922,19 @@
     ]
   },
   {
+    "athlete_name": "Jose Fco Gracia",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2008/json/resulcatclubsveterans21608.json",
+        "discipline": "4x400",
+        "performance": "4:24.01",
+        "event_date": "21/6/2008"
+      }
+    ]
+  },
+  {
     "athlete_name": "Josep Lluis Escribano Gomez",
     "strategy": "no_match",
     "candidates": null,
@@ -4861,6 +4971,19 @@
       }
     ],
     "refs_total": 9
+  },
+  {
+    "athlete_name": "Juan Valverde",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2008/json/resulcatclubsveterans21608.json",
+        "discipline": "4x400",
+        "performance": "4:24.01",
+        "event_date": "21/6/2008"
+      }
+    ]
   },
   {
     "athlete_name": "Judit Fernandez Olmo",
@@ -5098,6 +5221,19 @@
     "refs_total": 77
   },
   {
+    "athlete_name": "L. MASCARELL",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2011/json/resulcatrelleus30411.json",
+        "discipline": "4x60",
+        "performance": "43.14",
+        "event_date": "30/4/2011"
+      }
+    ]
+  },
+  {
     "athlete_name": "LAS HERAS RUIZ ALANIS",
     "strategy": "no_match",
     "candidates": null,
@@ -5308,19 +5444,6 @@
         "discipline": "Llargada",
         "performance": "1.50",
         "event_date": "06/02/2016"
-      }
-    ]
-  },
-  {
-    "athlete_name": "LOPEZ BLANCO MATEO GARCIA",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2010/json/resulcatveterans27610.json",
-        "discipline": "4x400",
-        "performance": "4:29.07",
-        "event_date": "27/6/2010"
       }
     ]
   },
@@ -5670,6 +5793,19 @@
       }
     ],
     "refs_total": 39
+  },
+  {
+    "athlete_name": "M. VAZQUEZ",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2011/json/resulcatrelleus30411.json",
+        "discipline": "4x60",
+        "performance": "43.14",
+        "event_date": "30/4/2011"
+      }
+    ]
   },
   {
     "athlete_name": "MACIAS ALCAÑIZ NINA",
@@ -6539,6 +6675,25 @@
     "refs_total": 38
   },
   {
+    "athlete_name": "N. PINYOL",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2011/json/resulcatrelleus30411.json",
+        "discipline": "4x60",
+        "performance": "39.76",
+        "event_date": "30/4/2011"
+      },
+      {
+        "file": "seasons/2011/json/resulcatrelleus30411.json",
+        "discipline": "4x60",
+        "performance": "39.90",
+        "event_date": "30/4/2011"
+      }
+    ]
+  },
+  {
     "athlete_name": "Nacho Blanco Calatrava",
     "strategy": "no_match",
     "candidates": null,
@@ -7375,19 +7530,6 @@
         "discipline": "Disc (1 Kg)",
         "performance": "11.71",
         "event_date": "14/05/2016"
-      }
-    ]
-  },
-  {
-    "athlete_name": "PERE PARDINES JOSE MARTIN",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2008/json/resulcatclubsveterans21608.json",
-        "discipline": "4x100",
-        "performance": "82.08",
-        "event_date": "21/6/2008"
       }
     ]
   },
@@ -8513,6 +8655,19 @@
       }
     ],
     "refs_total": 13
+  },
+  {
+    "athlete_name": "V.LOPEZ",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2010/json/resulcatveterans27610.json",
+        "discipline": "4x400",
+        "performance": "4:29.07",
+        "event_date": "27/6/2010"
+      }
+    ]
   },
   {
     "athlete_name": "VELASCO FARRE JUAN",

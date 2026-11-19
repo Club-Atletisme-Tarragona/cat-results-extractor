@@ -76,6 +76,8 @@ MANUAL_OVERRIDES = {
     "FRANCISCO JAVIER BAZ VIDAL": 887,
     # Owner: the club's Juan González is 1079 (1523 is someone else).
     "JUAN GONZALEZ": 1079,
+    # Owner: Sara Bakhtaoui El Maslouhi is 1668 (1667 is the other registration).
+    "SARA BAKHTAOUI EL MASLOUHI": 1668,
     # Owner review 2026-11-19 of the remaining unknowns:
     #   Samuel Rodriguez Barrios is registered twice, father and son under the
     #   same name; the competing athlete in these results is the son (1390).

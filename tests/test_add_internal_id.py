@@ -52,9 +52,18 @@ class TestDisplayIdentity(unittest.TestCase):
         keys = {normalize(display_identity(v)) for v in variants}
         self.assertEqual(keys, {"KILIAN BORREDA CERVELLO"})
 
-    def test_different_athletes_do_not_collapse(self):
-        self.assertNotEqual(normalize(display_identity("1 56 (t) Kilian Borreda Cervello BM")),
-                            normalize(display_identity("2 282 (t) Duina Borreda Cervello AF")))
+    def test_siblings_do_not_collapse(self):
+        # Owner: Kilian and Duina/Duina are siblings and stay two athletes.
+        kilian = normalize(display_identity("1 56 (t) Kilian Borreda Cervello BM"))
+        duina = normalize(display_identity("2 282 (t) Duina Borreda Cervello AF"))
+        self.assertNotEqual(kilian, duina)
+        self.assertTrue(kilian.startswith("KILIAN"))
+        self.assertTrue(duina.startswith("DUINA"))
+
+    def test_accent_spelling_variants_are_one_athlete(self):
+        # The same sister is stored with and without the diaeresis.
+        self.assertEqual(normalize(display_identity("Duina Borreda Cervello")),
+                         normalize(display_identity("Duïna Borreda Cervello")))
 
 
 if __name__ == "__main__":

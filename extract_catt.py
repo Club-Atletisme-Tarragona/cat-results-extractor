@@ -2413,6 +2413,39 @@ def normalize_mmsscc_time(marca, prova):
     return f"0:{marca}"
 
 
+def normalize_hhmmss_time(marca, prova):
+    """Add the hour component for HH:mm:ss.cc disciplines (10.000m marxa).
+
+    DISCIPLINES.md declares HH:mm:ss.cc for `10.000 metres marxa` because a
+    10 km walk can exceed 59 minutes (masters, women's masters), and mm:ss.cc
+    cannot express e.g. 1:05:30.00. Sheets print that race as `53:47.50`
+    (no hour part) or `0:53:58.0` (one decimal), so normalize to H:MM:SS.cc:
+
+        53:47.50 -> 0:53:47.50      53:58      -> 0:53:58.00
+        0:53:58  -> 0:53:58.00      0:53:58.0  -> 0:53:58.00
+        1:05:30.20 -> 1:05:30.20    (already compliant)
+
+    Only marxa events of 10 km or more are touched; shorter marxa, track,
+    field and relay marks are returned unchanged.
+    """
+    if not marca or classify_event(prova) != "marcha":
+        return marca
+    m = re.search(r"(\d{1,3}(?:\.\d{3})?|\d{3,5})\s*(?:m\b|metres|metros)", prova, re.IGNORECASE)
+    if not m or int(m.group(1).replace(".", "")) < 10000:
+        return marca
+
+    if re.fullmatch(r"\d{1,3}:\d{2}\.\d{2}", marca):        # MM:SS.cc
+        return f"0:{marca}"
+    if re.fullmatch(r"\d{1,3}:\d{2}", marca):                 # MM:SS
+        return f"0:{marca}.00"
+    m = re.fullmatch(r"(\d{1,3}:\d{2}:\d{2})\.(\d)", marca)  # H:MM:SS.d
+    if m:
+        return f"{m.group(1)}.{m.group(2)}0"
+    if re.fullmatch(r"\d{1,3}:\d{2}:\d{2}", marca):           # H:MM:SS
+        return f"{marca}.00"
+    return marca
+
+
 def extract_track_result_new(lines, athlete_block, sec_end):
     """Extract track result for new multi-line format.
     
@@ -3726,6 +3759,7 @@ def main():
     # Normalize sub-minute ss.cc times to the mm:ss.cc DB format where due
     for r in results:
         r["marca"] = normalize_mmsscc_time(r.get("marca", ""), r.get("prova", ""))
+        r["marca"] = normalize_hhmmss_time(r.get("marca", ""), r.get("prova", ""))
 
     # Validate and filter results - must have athlete_name, performance, and discipline
     valid_results = []

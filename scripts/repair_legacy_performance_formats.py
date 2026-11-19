@@ -23,6 +23,9 @@ the target `format` column is known:
                                     decimals ("7.50").
   6. target mm:ss.cc / HH:mm:ss.cc, value "MM:SS.d" (one decimal)
                                  -> pad ("3:32.6" -> "3:32.60").
+  7. target HH:mm:ss(.cc) (10.000m marxa and the long road events)
+                                 -> supply the hour ("53:47.50" ->
+                                    "0:53:47.50", "53:58" -> "0:53:58.00").
 
 Everything else is reported as UNHANDLED for manual/era-parser work.
 
@@ -107,6 +110,21 @@ def repair(value, fmt, discipline):
     if fmt in ("mm:ss.cc", "HH:mm:ss.cc") and re.fullmatch(r"\d{1,3}:\d{2}\.\d", p):
         return f"{p}0", "6-mmss-one-decimal"
 
+    # Rule 7: hour component for HH:mm:ss(.cc) disciplines. A 10.000m walk can
+    # exceed 59 minutes (masters/women's masters), so the DB row is right and
+    # the value must carry the hour: "53:47.50" -> "0:53:47.50".
+    if fmt in ("HH:mm:ss.cc", "HH:mm:ss"):
+        if re.fullmatch(r"\d{1,3}:\d{2}\.\d{2}", p):          # MM:SS.cc
+            return f"0:{p}", "7-hour-component"
+        if re.fullmatch(r"\d{1,3}:\d{2}", p):                   # MM:SS
+            return f"0:{p}.00" if fmt == "HH:mm:ss.cc" else f"0:{p}", "7-hour-component"
+        if fmt == "HH:mm:ss.cc":
+            m = re.fullmatch(r"(\d{1,3}:\d{2}:\d{2})\.(\d)", p)
+            if m:                                                # H:MM:SS.d
+                return f"{m.group(1)}.{m.group(2)}0", "7-hour-component"
+            if re.fullmatch(r"\d{1,3}:\d{2}:\d{2}", p):        # H:MM:SS
+                return f"{p}.00", "7-hour-component"
+
     return None, None
 
 
@@ -153,7 +171,7 @@ def main():
                                         r.get("discipline"), old, new, rule))
                 elif new is None and old and old not in MARKERS:
                     if not re.match(
-                        r"^\d{1,2}\.\d{2}$|^\d{1,3}:\d{2}\.\d{2}$|^\d{1,2}:\d{2}:\d{2}(?:\.\d{1,2})?$|^\d{3,5}$",
+                        r"^\d{1,2}\.\d{2}$|^\d{1,3}:\d{2}\.\d{2}$|^\d{1,2}:\d{2}:\d{2}\.\d{2}$|^\d{1,2}:\d{2}:\d{2}(?:\.\d{1,2})?$|^\d{3,5}$",
                         old,
                     ):
                         unhandled.append((os.path.relpath(path, REPO), r.get("athlete_name"),

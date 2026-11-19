@@ -69,18 +69,33 @@ the current extraction code. The source PDFs are still downloadable from
 
 | Count | Defect | Needs |
 |---:|---|---|
-| **225** | Physically impossible values (e.g. a long-jump mark stored as a `60 METRES LLISOS` time in 2006 combined events) | per-era re-parsers, verified against the PDFs |
+| **226** | Physically impossible values (e.g. a long-jump mark stored as a `60 METRES LLISOS` time in 2006 combined events) | per-era re-parsers, verified against the PDFs |
 | **33** | Cross-discipline duplicate rows (same athlete + same mark under two disciplines, 2008–2024) | source-PDF check per row: **not resolvable by plausibility** (both copies are plausible), so nothing was guessed or deleted |
-| 15 | Format mismatches: 6 quote-format marcha (`12'41''`), 5 misc, 3 veterans age/percentage column, 1 combined-table header stored as a discipline | targeted fixes |
+| 10 | Format mismatches: 6 misc, 3 veterans age/percentage column, 1 combined-table header stored as a discipline | targeted fixes |
 | 1 | Unmapped discipline `60m tanques PC` (2017 infantile heat, no height in the header) | mapping rule |
 
-## Open item on the database side
+## 10.000 metres marxa carries hours on purpose
 
-`DISCIPLINES.md` row **id 49 `10.000 metres marxa`** declares `HH:mm:ss.cc`,
-but a 10,000 m walk takes 45–60 minutes and is naturally written `mm:ss.cc`
-like every sibling marxa row (`5K marxa (Ruta)`, `20 km marxa`…). Until that row
-is corrected, `validate_performance.py` keeps reporting the few 10,000 m marxa
-values that reach the JSONs. Same class as the `2000 m obstacles` fix.
+`DISCIPLINES.md` row **id 49 `10.000 metres marxa`** declares `HH:mm:ss.cc`, and
+that is correct: a 10 km walk legitimately passes 59 minutes (masters, women's
+masters, beginners), which `mm:ss.cc` cannot express — `1:05:30.00` needs the
+hour field. Sibling short events are consistent: `5K marxa (Ruta)` is
+`mm:ss.cc`, `10K marxa (Ruta)` and `20 km marxa (Ruta)` are `HH:mm:ss`.
+
+What was wrong was **our data**, which dropped the hour component. Fixed on
+2026-11-19 by repair rule 7 and by `normalize_hhmmss_time()` in
+`extract_catt.py`:
+
+| before | after |
+|---|---|
+| `53:47.50` | `0:53:47.50` |
+| `53:58` / `0:53:58` / `0:53:58.0` | `0:53:58.00` |
+| `1:05:30` | `1:05:30.00` |
+
+No database change is needed. Normalizing these values made one pre-existing
+defect visible: `0:21:10.00` (Alicia Vázquez, 2019) is a 10 km walk in 21
+minutes — impossible, so it now appears in the plausibility report for the
+era-parser pass instead of hiding in an unparseable string.
 
 ## Rules of engagement for the remaining work
 

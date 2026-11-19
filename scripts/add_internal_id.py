@@ -33,6 +33,9 @@ SOCIS_MD = ROOT / "TMP_SOCIS_LIST.md"
 # the club's athletes, past and present. TMP_SOCIS_LIST.md is the wider
 # socis dump and remains a fallback for names this file does not carry.
 ATHLETE_ROSTER = ROOT / "socis_athletes.csv"
+# Former athletes (nom,cognoms,id,baixa): left the club but still appear in
+# historical results, so they must resolve to their socisCAT id too.
+FORMER_ATHLETES = ROOT / "socis_former_athletes.csv"
 ATHLETES_DIR = ROOT / "athletes"
 SEASONS_DIR = ROOT / "seasons"
 REPORTS_DIR = ROOT / "reports"
@@ -213,22 +216,29 @@ def expand_tokens(tk):
 # ---------------------------------------------------------------------------
 
 def parse_athlete_roster():
-    """(id, nom, cognoms) from the curated athlete roster, if present."""
+    """(id, nom, cognoms) from the curated roster plus the former athletes.
+
+    Both lists are authoritative: an athlete who left the club still owns the
+    results they produced while active. Duplicated ids keep the first entry, so
+    the active roster wins over the former list.
+    """
     import csv
 
-    if not ATHLETE_ROSTER.exists():
-        return []
-    entries = []
-    with ATHLETE_ROSTER.open(encoding="utf-8", newline="") as fh:
-        for row in csv.DictReader(fh):
-            try:
-                aid = int(str(row.get("id", "")).strip())
-            except (TypeError, ValueError):
-                continue
-            nom = (row.get("nom") or "").strip()
-            cognoms = (row.get("cognoms") or "").strip()
-            if aid and (nom or cognoms):
-                entries.append({"id": aid, "nom": nom, "cognoms": cognoms})
+    entries, seen = [], set()
+    for path in (ATHLETE_ROSTER, FORMER_ATHLETES):
+        if not path.exists():
+            continue
+        with path.open(encoding="utf-8", newline="") as fh:
+            for row in csv.DictReader(fh):
+                try:
+                    aid = int(str(row.get("id", "")).strip())
+                except (TypeError, ValueError):
+                    continue
+                nom = (row.get("nom") or "").strip()
+                cognoms = (row.get("cognoms") or "").strip()
+                if aid and (nom or cognoms) and aid not in seen:
+                    seen.add(aid)
+                    entries.append({"id": aid, "nom": nom, "cognoms": cognoms})
     return entries
 
 
@@ -350,7 +360,13 @@ class SocisMatcher:
             # every roster token must be covered by some input token and
             # vice versa (order-insensitive), allowing abbreviation
             short, long_ = (in_tokens, st) if len(in_tokens) <= len(st) else (st, in_tokens)
-            if len(long_) - len(short) > 1:
+            # A sheet may print extra middle names the roster omits
+            # ("WASIM ABDEL AS SAMAD BOUCHIBANE MOKHTARI" vs "Wasim Bouchibane
+            # Mokhtari"), so allow a small surplus - but only when the shorter
+            # side carries a real name (>=2 tokens), which keeps one-token
+            # nicknames from matching everything.
+            surplus = len(long_) - len(short)
+            if surplus > 3 or (surplus and len(short) < 2):
                 continue
             used = set()
             ok = True

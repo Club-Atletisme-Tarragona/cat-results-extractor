@@ -2,409 +2,9 @@
   "event_name": "Campionat de Catalunya de Clubs sub20 ST - Pista de Coberta de Catalunya",
   "event_date": "02/02/2025",
   "event_location": "Sabadell",
-  "total_results": 53,
+  "total_results": 54,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2025/02/resultat-20250202-catclubssub2pcsabadell.pdf",
   "results": [
-    {
-      "athlete_name": "VICTOR CAPITAN ROJAS",
-      "athlete_dob": "6/5/2006",
-      "athlete_id": "CL7171",
-      "performance": "5:08.15",
-      "discipline": "1500 metres llisos",
-      "raw_discipline_name": "1.500m Hombres",
-      "wind": null,
-      "internal_id": 862
-    },
-    {
-      "athlete_name": "XAVIER RODRIGUEZ ESCUDE",
-      "athlete_dob": "28/3/2008",
-      "athlete_id": "CL8526",
-      "performance": "9:32.86",
-      "discipline": "3000 metres llisos",
-      "raw_discipline_name": "3.000m Hombres PC",
-      "wind": null,
-      "internal_id": 979
-    },
-    {
-      "athlete_name": "JERONI FLORES PIÑAS X-",
-      "athlete_dob": "4/1/2009",
-      "athlete_id": "CT2935",
-      "performance": "1.65",
-      "discipline": "Alçada",
-      "raw_discipline_name": "Altura Hombres PC",
-      "wind": null,
-      "internal_id": 1036
-    },
-    {
-      "athlete_name": "VICTOR JIMENEZ GARCIA",
-      "athlete_dob": "25/5/2008",
-      "athlete_id": "CT1465",
-      "performance": "6.45",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud Hombres PC",
-      "wind": null,
-      "internal_id": 958
-    },
-    {
-      "athlete_name": "VICTOR JIMENEZ GARCIA",
-      "athlete_dob": "25/5/2008",
-      "athlete_id": "CT1465",
-      "performance": "6.67",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud Hombres PC",
-      "wind": null,
-      "internal_id": 958
-    },
-    {
-      "athlete_name": "VICTOR JIMENEZ GARCIA",
-      "athlete_dob": "25/5/2008",
-      "athlete_id": "CT1465",
-      "performance": "6.52",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud Hombres PC",
-      "wind": null,
-      "internal_id": 958
-    },
-    {
-      "athlete_name": "VICTOR JIMENEZ GARCIA",
-      "athlete_dob": "25/5/2008",
-      "athlete_id": "CT1465",
-      "performance": "6.77",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud Hombres PC",
-      "wind": null,
-      "internal_id": 958
-    },
-    {
-      "athlete_name": "PAU ESTEVE HOSTALOT",
-      "athlete_dob": "27/8/2010",
-      "athlete_id": "CL94383",
-      "performance": "11.35",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salto Hombres",
-      "wind": null,
-      "internal_id": 1055
-    },
-    {
-      "athlete_name": "PAU ESTEVE HOSTALOT",
-      "athlete_dob": "27/8/2010",
-      "athlete_id": "CL94383",
-      "performance": "11.61",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salto Hombres",
-      "wind": null,
-      "internal_id": 1055
-    },
-    {
-      "athlete_name": "PAU ESTEVE HOSTALOT",
-      "athlete_dob": "27/8/2010",
-      "athlete_id": "CL94383",
-      "performance": "11.86",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salto Hombres",
-      "wind": null,
-      "internal_id": 1055
-    },
-    {
-      "athlete_name": "PAU ESTEVE HOSTALOT",
-      "athlete_dob": "27/8/2010",
-      "athlete_id": "CL94383",
-      "performance": "11.71",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salto Hombres",
-      "wind": null,
-      "internal_id": 1055
-    },
-    {
-      "athlete_name": "PAU ESTEVE HOSTALOT",
-      "athlete_dob": "27/8/2010",
-      "athlete_id": "CL94383",
-      "performance": "11.66",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salto Hombres",
-      "wind": null,
-      "internal_id": 1055
-    },
-    {
-      "athlete_name": "LLUC SUBIROS BRASERO",
-      "athlete_dob": "6/1/2007",
-      "athlete_id": "CT1186",
-      "performance": "3.70",
-      "discipline": "Perxa",
-      "raw_discipline_name": "Pértiga Hombres",
-      "wind": null,
-      "internal_id": 899
-    },
-    {
-      "athlete_name": "PAU CRESPO BELTRAN",
-      "athlete_dob": "22/10/2008",
-      "athlete_id": "CT1650",
-      "performance": "11.05",
-      "discipline": "Pes (6 Kg)",
-      "raw_discipline_name": "Peso (6kg) Hombres PC",
-      "wind": null,
-      "internal_id": 971
-    },
-    {
-      "athlete_name": "PAU CRESPO BELTRAN",
-      "athlete_dob": "22/10/2008",
-      "athlete_id": "CT1650",
-      "performance": "11.60",
-      "discipline": "Pes (6 Kg)",
-      "raw_discipline_name": "Peso (6kg) Hombres PC",
-      "wind": null,
-      "internal_id": 971
-    },
-    {
-      "athlete_name": "PAU CRESPO BELTRAN",
-      "athlete_dob": "22/10/2008",
-      "athlete_id": "CT1650",
-      "performance": "11.58",
-      "discipline": "Pes (6 Kg)",
-      "raw_discipline_name": "Peso (6kg) Hombres PC",
-      "wind": null,
-      "internal_id": 971
-    },
-    {
-      "athlete_name": "PAU CRESPO BELTRAN",
-      "athlete_dob": "22/10/2008",
-      "athlete_id": "CT1650",
-      "performance": "11.76",
-      "discipline": "Pes (6 Kg)",
-      "raw_discipline_name": "Peso (6kg) Hombres PC",
-      "wind": null,
-      "internal_id": 971
-    },
-    {
-      "athlete_name": "PAU CRESPO BELTRAN",
-      "athlete_dob": "22/10/2008",
-      "athlete_id": "CT1650",
-      "performance": "11.54",
-      "discipline": "Pes (6 Kg)",
-      "raw_discipline_name": "Peso (6kg) Hombres PC",
-      "wind": null,
-      "internal_id": 971
-    },
-    {
-      "athlete_name": "PAU CRESPO BELTRAN",
-      "athlete_dob": "22/10/2008",
-      "athlete_id": "CT1650",
-      "performance": "11.98",
-      "discipline": "Pes (6 Kg)",
-      "raw_discipline_name": "Peso (6kg) Hombres PC",
-      "wind": null,
-      "internal_id": 971
-    },
-    {
-      "athlete_name": "Joan MARTORELL ESCOBAR",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "performance": "3:49.49",
-      "discipline": "4x400",
-      "raw_discipline_name": "4x400m Hombres PC",
-      "wind": null,
-      "internal_id": 914
-    },
-    {
-      "athlete_name": "Matias HERNANDEZ SANCHEZ",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "performance": "3:49.49",
-      "discipline": "4x400",
-      "raw_discipline_name": "4x400m Hombres PC",
-      "wind": null,
-      "internal_id": 999
-    },
-    {
-      "athlete_name": "Mohammed AISSAOUI EL AISSAOUI",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "performance": "3:49.49",
-      "discipline": "4x400",
-      "raw_discipline_name": "4x400m Hombres PC",
-      "wind": null,
-      "internal_id": 1037
-    },
-    {
-      "athlete_name": "Ivan FERRER VILLA",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "performance": "3:49.49",
-      "discipline": "4x400",
-      "raw_discipline_name": "4x400m Hombres PC",
-      "wind": null,
-      "internal_id": 1009
-    },
-    {
-      "athlete_name": "CLARA ORTIZ DE LANDAZURI ONTOSO",
-      "athlete_dob": "4/12/2009",
-      "athlete_id": "CL5116",
-      "performance": "5:16.29",
-      "discipline": "1500 metres llisos",
-      "raw_discipline_name": "1.500m Mujeres",
-      "wind": null,
-      "internal_id": 1022
-    },
-    {
-      "athlete_name": "NOEMI GONZALEZ CARRILLO",
-      "athlete_dob": "4/4/2009",
-      "athlete_id": "CL86462",
-      "performance": "11:58.73",
-      "discipline": "3000 metres llisos",
-      "raw_discipline_name": "3.000m Mujeres",
-      "wind": null,
-      "internal_id": 1030
-    },
-    {
-      "athlete_name": "LUCIA ECHEVARRIA PARAFITA",
-      "athlete_dob": "8/12/2008",
-      "athlete_id": "CL93353",
-      "performance": "1.40",
-      "discipline": "Alçada",
-      "raw_discipline_name": "Altura Mujeres",
-      "wind": null,
-      "internal_id": 987
-    },
-    {
-      "athlete_name": "NORA MONTOLIO AMARO",
-      "athlete_dob": "5/2/2010",
-      "athlete_id": "CL90841",
-      "performance": "4.82",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud Mujeres PC",
-      "wind": null,
-      "internal_id": 1089
-    },
-    {
-      "athlete_name": "NORA MONTOLIO AMARO",
-      "athlete_dob": "5/2/2010",
-      "athlete_id": "CL90841",
-      "performance": "5.17",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud Mujeres PC",
-      "wind": null,
-      "internal_id": 1089
-    },
-    {
-      "athlete_name": "NORA MONTOLIO AMARO",
-      "athlete_dob": "5/2/2010",
-      "athlete_id": "CL90841",
-      "performance": "4.96",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud Mujeres PC",
-      "wind": null,
-      "internal_id": 1089
-    },
-    {
-      "athlete_name": "NAYLA SENTIS TORAO",
-      "athlete_dob": "24/5/2010",
-      "athlete_id": "CT1610",
-      "performance": "10.18",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salto Mujeres",
-      "wind": null,
-      "internal_id": 1054
-    },
-    {
-      "athlete_name": "NAYLA SENTIS TORAO",
-      "athlete_dob": "24/5/2010",
-      "athlete_id": "CT1610",
-      "performance": "10.21",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salto Mujeres",
-      "wind": null,
-      "internal_id": 1054
-    },
-    {
-      "athlete_name": "NAYLA SENTIS TORAO",
-      "athlete_dob": "24/5/2010",
-      "athlete_id": "CT1610",
-      "performance": "10.44",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salto Mujeres",
-      "wind": null,
-      "internal_id": 1054
-    },
-    {
-      "athlete_name": "NAYLA SENTIS TORAO",
-      "athlete_dob": "24/5/2010",
-      "athlete_id": "CT1610",
-      "performance": "10.82",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salto Mujeres",
-      "wind": null,
-      "internal_id": 1054
-    },
-    {
-      "athlete_name": "NAYLA SENTIS TORAO",
-      "athlete_dob": "24/5/2010",
-      "athlete_id": "CT1610",
-      "performance": "10.48",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salto Mujeres",
-      "wind": null,
-      "internal_id": 1054
-    },
-    {
-      "athlete_name": "NAYLA SENTIS TORAO",
-      "athlete_dob": "24/5/2010",
-      "athlete_id": "CT1610",
-      "performance": "10.32",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salto Mujeres",
-      "wind": null,
-      "internal_id": 1054
-    },
-    {
-      "athlete_name": "NOA NIN NAVAS",
-      "athlete_dob": "28/8/2009",
-      "athlete_id": "CL11904",
-      "performance": "8.30",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Peso (4kg) Mujeres PC",
-      "wind": null,
-      "internal_id": 1010
-    },
-    {
-      "athlete_name": "NOA NIN NAVAS",
-      "athlete_dob": "28/8/2009",
-      "athlete_id": "CL11904",
-      "performance": "7.86",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Peso (4kg) Mujeres PC",
-      "wind": null,
-      "internal_id": 1010
-    },
-    {
-      "athlete_name": "NOA NIN NAVAS",
-      "athlete_dob": "28/8/2009",
-      "athlete_id": "CL11904",
-      "performance": "8.42",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Peso (4kg) Mujeres PC",
-      "wind": null,
-      "internal_id": 1010
-    },
-    {
-      "athlete_name": "NOA NIN NAVAS",
-      "athlete_dob": "28/8/2009",
-      "athlete_id": "CL11904",
-      "performance": "7.96",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Peso (4kg) Mujeres PC",
-      "wind": null,
-      "internal_id": 1010
-    },
-    {
-      "athlete_name": "NOA NIN NAVAS",
-      "athlete_dob": "28/8/2009",
-      "athlete_id": "CL11904",
-      "performance": "8.78",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Peso (4kg) Mujeres PC",
-      "wind": null,
-      "internal_id": 1010
-    },
     {
       "athlete_name": "MATIAS HERNANDEZ SANCHEZ",
       "athlete_dob": "26/12/2008",
@@ -413,7 +13,7 @@
       "discipline": "60 metres tanques (0.99)",
       "raw_discipline_name": "60m vallas Hombres",
       "wind": null,
-      "internal_id": 999
+      "position": null
     },
     {
       "athlete_name": "LUCAS BUJ FUERTES",
@@ -423,87 +23,7 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m Hombres",
       "wind": null,
-      "internal_id": 1008
-    },
-    {
-      "athlete_name": "MOHAMMED AISSAOUI EL AISSAOUI",
-      "athlete_dob": "9/1/2007",
-      "athlete_id": "",
-      "performance": "2:21.59",
-      "discipline": "800 metres llisos",
-      "raw_discipline_name": "800m Hombres",
-      "wind": null,
-      "internal_id": 1037
-    },
-    {
-      "athlete_name": "NOA ANTON PATERNA",
-      "athlete_dob": "20/1/2010",
-      "athlete_id": "CT2040",
-      "performance": "7.90",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m Mujeres PC",
-      "wind": null,
-      "internal_id": 1016
-    },
-    {
-      "athlete_name": "MARIA ANTONIETTA SALAZAR",
-      "athlete_dob": "3/1/2006",
-      "athlete_id": "CT2176",
-      "performance": "26.47",
-      "discipline": "200 metres llisos",
-      "raw_discipline_name": "200m Mujeres PC",
-      "wind": null,
-      "internal_id": 897
-    },
-    {
-      "athlete_name": "MIREIA REDONDO MENDOZA",
-      "athlete_dob": "10/6/2008",
-      "athlete_id": "CT1467",
-      "performance": "0:59.23",
-      "discipline": "400 metres llisos",
-      "raw_discipline_name": "400m Mujeres",
-      "wind": null,
-      "internal_id": 957
-    },
-    {
-      "athlete_name": "SILVIA VICENTE NAVARRETE",
-      "athlete_dob": "31/7/2007",
-      "athlete_id": "CT1468",
-      "performance": "9.59",
-      "discipline": "60 metres tanques (0.84)",
-      "raw_discipline_name": "60m vallas (0,84) Mujeres PC",
-      "wind": null,
-      "internal_id": 905
-    },
-    {
-      "athlete_name": "NORA MONTOLIO AMARO",
-      "athlete_dob": "5/2/2010",
-      "athlete_id": "CL90841",
-      "performance": "5.09",
-      "discipline": "60 metres tanques (0.84)",
-      "raw_discipline_name": "60m vallas (0,84) Mujeres PC",
-      "wind": null,
-      "internal_id": 1089
-    },
-    {
-      "athlete_name": "NAYLA SENTIS TORAO",
-      "athlete_dob": "24/5/2010",
-      "athlete_id": "CT1610",
-      "performance": "9.93",
-      "discipline": "60 metres tanques (0.84)",
-      "raw_discipline_name": "60m vallas (0,84) Mujeres PC",
-      "wind": null,
-      "internal_id": 1054
-    },
-    {
-      "athlete_name": "NOA NIN NAVAS",
-      "athlete_dob": "28/8/2009",
-      "athlete_id": "CL11904",
-      "performance": "8.30",
-      "discipline": "60 metres tanques (0.84)",
-      "raw_discipline_name": "60m vallas (0,84) Mujeres PC",
-      "wind": null,
-      "internal_id": 1010
+      "position": null
     },
     {
       "athlete_name": "UNAI ORTIZ DE LANDAZURI ONTOSO",
@@ -513,27 +33,517 @@
       "discipline": "200 metres llisos",
       "raw_discipline_name": "200m Hombres PC",
       "wind": null,
-      "internal_id": 908
+      "position": null
     },
     {
       "athlete_name": "JOAN MARTORELL ESCOBAR",
       "athlete_dob": "22/3/2007",
-      "athlete_id": "",
+      "athlete_id": "CT3088",
       "performance": "0:52.50",
       "discipline": "400 metres llisos",
       "raw_discipline_name": "400m Hombres",
       "wind": null,
-      "internal_id": 914
+      "position": null
+    },
+    {
+      "athlete_name": "MOHAMMED AISSAOUI EL AISSAOUI",
+      "athlete_dob": "9/1/2007",
+      "athlete_id": "",
+      "performance": "2:21.59",
+      "discipline": "800 metres llisos",
+      "raw_discipline_name": "800m Hombres",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "VICTOR CAPITAN ROJAS",
+      "athlete_dob": "6/5/2006",
+      "athlete_id": "CL7171",
+      "performance": "5:08.15",
+      "discipline": "1500 metres llisos",
+      "raw_discipline_name": "1.500m Hombres",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "XAVIER RODRIGUEZ ESCUDE",
+      "athlete_dob": "28/3/2008",
+      "athlete_id": "CL8526",
+      "performance": "9:32.86",
+      "discipline": "3000 metres llisos",
+      "raw_discipline_name": "3.000m Hombres PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "JERONI FLORES PIÑAS X-",
+      "athlete_dob": "4/1/2009",
+      "athlete_id": "CT2935",
+      "performance": "1.65",
+      "discipline": "Alçada",
+      "raw_discipline_name": "Altura Hombres PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "VICTOR JIMENEZ GARCIA",
+      "athlete_dob": "25/5/2008",
+      "athlete_id": "CT1465",
+      "performance": "6.45",
+      "discipline": "Llargada",
+      "raw_discipline_name": "Longitud Hombres PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "VICTOR JIMENEZ GARCIA",
+      "athlete_dob": "25/5/2008",
+      "athlete_id": "CT1465",
+      "performance": "6.67",
+      "discipline": "Llargada",
+      "raw_discipline_name": "Longitud Hombres PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "VICTOR JIMENEZ GARCIA",
+      "athlete_dob": "25/5/2008",
+      "athlete_id": "CT1465",
+      "performance": "6.52",
+      "discipline": "Llargada",
+      "raw_discipline_name": "Longitud Hombres PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "VICTOR JIMENEZ GARCIA",
+      "athlete_dob": "25/5/2008",
+      "athlete_id": "CT1465",
+      "performance": "6.77",
+      "discipline": "Llargada",
+      "raw_discipline_name": "Longitud Hombres PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "PAU ESTEVE HOSTALOT",
+      "athlete_dob": "27/8/2010",
+      "athlete_id": "CL94383",
+      "performance": "11.35",
+      "discipline": "Triple",
+      "raw_discipline_name": "Triple Salto Hombres",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "PAU ESTEVE HOSTALOT",
+      "athlete_dob": "27/8/2010",
+      "athlete_id": "CL94383",
+      "performance": "11.61",
+      "discipline": "Triple",
+      "raw_discipline_name": "Triple Salto Hombres",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "PAU ESTEVE HOSTALOT",
+      "athlete_dob": "27/8/2010",
+      "athlete_id": "CL94383",
+      "performance": "11.86",
+      "discipline": "Triple",
+      "raw_discipline_name": "Triple Salto Hombres",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "PAU ESTEVE HOSTALOT",
+      "athlete_dob": "27/8/2010",
+      "athlete_id": "CL94383",
+      "performance": "11.71",
+      "discipline": "Triple",
+      "raw_discipline_name": "Triple Salto Hombres",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "PAU ESTEVE HOSTALOT",
+      "athlete_dob": "27/8/2010",
+      "athlete_id": "CL94383",
+      "performance": "11.66",
+      "discipline": "Triple",
+      "raw_discipline_name": "Triple Salto Hombres",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "LLUC SUBIROS BRASERO",
+      "athlete_dob": "6/1/2007",
+      "athlete_id": "CT1186",
+      "performance": "3.70",
+      "discipline": "Perxa",
+      "raw_discipline_name": "Pértiga Hombres",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "PAU CRESPO BELTRAN",
+      "athlete_dob": "22/10/2008",
+      "athlete_id": "CT1650",
+      "performance": "11.05",
+      "discipline": "Pes (6 Kg)",
+      "raw_discipline_name": "Peso (6 Kg) Hombres PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "PAU CRESPO BELTRAN",
+      "athlete_dob": "22/10/2008",
+      "athlete_id": "CT1650",
+      "performance": "11.60",
+      "discipline": "Pes (6 Kg)",
+      "raw_discipline_name": "Peso (6 Kg) Hombres PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "PAU CRESPO BELTRAN",
+      "athlete_dob": "22/10/2008",
+      "athlete_id": "CT1650",
+      "performance": "11.58",
+      "discipline": "Pes (6 Kg)",
+      "raw_discipline_name": "Peso (6 Kg) Hombres PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "PAU CRESPO BELTRAN",
+      "athlete_dob": "22/10/2008",
+      "athlete_id": "CT1650",
+      "performance": "11.76",
+      "discipline": "Pes (6 Kg)",
+      "raw_discipline_name": "Peso (6 Kg) Hombres PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "PAU CRESPO BELTRAN",
+      "athlete_dob": "22/10/2008",
+      "athlete_id": "CT1650",
+      "performance": "11.54",
+      "discipline": "Pes (6 Kg)",
+      "raw_discipline_name": "Peso (6 Kg) Hombres PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "PAU CRESPO BELTRAN",
+      "athlete_dob": "22/10/2008",
+      "athlete_id": "CT1650",
+      "performance": "11.98",
+      "discipline": "Pes (6 Kg)",
+      "raw_discipline_name": "Peso (6 Kg) Hombres PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Joan MARTORELL ESCOBAR",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "3:49.49",
+      "discipline": "4x400",
+      "raw_discipline_name": "4x400m Hombres PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Matias HERNANDEZ SANCHEZ",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "3:49.49",
+      "discipline": "4x400",
+      "raw_discipline_name": "4x400m Hombres PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Mohammed AISSAOUI EL AISSAOUI",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "3:49.49",
+      "discipline": "4x400",
+      "raw_discipline_name": "4x400m Hombres PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Ivan FERRER VILLA",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "3:49.49",
+      "discipline": "4x400",
+      "raw_discipline_name": "4x400m Hombres PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "NOA ANTON PATERNA",
+      "athlete_dob": "20/1/2010",
+      "athlete_id": "CT2040",
+      "performance": "7.90",
+      "discipline": "60 metres llisos",
+      "raw_discipline_name": "60m Mujeres PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "MARIA ANTONIETTA SALAZAR",
+      "athlete_dob": "3/1/2006",
+      "athlete_id": "CT2176",
+      "performance": "26.47",
+      "discipline": "200 metres llisos",
+      "raw_discipline_name": "200m Mujeres PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "MIREIA REDONDO MENDOZA",
+      "athlete_dob": "10/6/2008",
+      "athlete_id": "CT1467",
+      "performance": "0:59.23",
+      "discipline": "400 metres llisos",
+      "raw_discipline_name": "400m Mujeres",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "IRIS GARRIDO GARCIA",
       "athlete_dob": "15/12/2008",
-      "athlete_id": "",
+      "athlete_id": "CL91747",
       "performance": "2:25.97",
       "discipline": "800 metres llisos",
       "raw_discipline_name": "800m Mujeres",
       "wind": null,
-      "internal_id": 982
+      "position": null
+    },
+    {
+      "athlete_name": "CLARA ORTIZ DE LANDAZURI ONTOSO",
+      "athlete_dob": "4/12/2009",
+      "athlete_id": "CL5116",
+      "performance": "5:16.29",
+      "discipline": "1500 metres llisos",
+      "raw_discipline_name": "1.500m Mujeres",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "NOEMI GONZALEZ CARRILLO",
+      "athlete_dob": "4/4/2009",
+      "athlete_id": "CL86462",
+      "performance": "11:58.73",
+      "discipline": "3000 metres llisos",
+      "raw_discipline_name": "3.000m Mujeres",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "SILVIA VICENTE NAVARRETE",
+      "athlete_dob": "31/7/2007",
+      "athlete_id": "CT1468",
+      "performance": "9.59",
+      "discipline": "60 metres tanques (0.84)",
+      "raw_discipline_name": "60m vallas (0,84) Mujeres PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "LUCIA ECHEVARRIA PARAFITA",
+      "athlete_dob": "8/12/2008",
+      "athlete_id": "CL93353",
+      "performance": "1.40",
+      "discipline": "Alçada",
+      "raw_discipline_name": "Altura Mujeres",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "NORA MONTOLIO AMARO",
+      "athlete_dob": "5/2/2010",
+      "athlete_id": "CL90841",
+      "performance": "4.82",
+      "discipline": "Llargada",
+      "raw_discipline_name": "Longitud Mujeres PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "NORA MONTOLIO AMARO",
+      "athlete_dob": "5/2/2010",
+      "athlete_id": "CL90841",
+      "performance": "5.17",
+      "discipline": "Llargada",
+      "raw_discipline_name": "Longitud Mujeres PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "NORA MONTOLIO AMARO",
+      "athlete_dob": "5/2/2010",
+      "athlete_id": "CL90841",
+      "performance": "4.96",
+      "discipline": "Llargada",
+      "raw_discipline_name": "Longitud Mujeres PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "NAYLA SENTIS TORAO",
+      "athlete_dob": "24/5/2010",
+      "athlete_id": "CT1610",
+      "performance": "10.18",
+      "discipline": "Triple",
+      "raw_discipline_name": "Triple Salto Mujeres",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "NAYLA SENTIS TORAO",
+      "athlete_dob": "24/5/2010",
+      "athlete_id": "CT1610",
+      "performance": "10.21",
+      "discipline": "Triple",
+      "raw_discipline_name": "Triple Salto Mujeres",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "NAYLA SENTIS TORAO",
+      "athlete_dob": "24/5/2010",
+      "athlete_id": "CT1610",
+      "performance": "10.44",
+      "discipline": "Triple",
+      "raw_discipline_name": "Triple Salto Mujeres",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "NAYLA SENTIS TORAO",
+      "athlete_dob": "24/5/2010",
+      "athlete_id": "CT1610",
+      "performance": "10.82",
+      "discipline": "Triple",
+      "raw_discipline_name": "Triple Salto Mujeres",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "NAYLA SENTIS TORAO",
+      "athlete_dob": "24/5/2010",
+      "athlete_id": "CT1610",
+      "performance": "10.48",
+      "discipline": "Triple",
+      "raw_discipline_name": "Triple Salto Mujeres",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "NAYLA SENTIS TORAO",
+      "athlete_dob": "24/5/2010",
+      "athlete_id": "CT1610",
+      "performance": "10.32",
+      "discipline": "Triple",
+      "raw_discipline_name": "Triple Salto Mujeres",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "NOA NIN NAVAS",
+      "athlete_dob": "28/8/2009",
+      "athlete_id": "CL11904",
+      "performance": "8.30",
+      "discipline": "Pes (4 Kg)",
+      "raw_discipline_name": "Peso (4 Kg) Mujeres PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "NOA NIN NAVAS",
+      "athlete_dob": "28/8/2009",
+      "athlete_id": "CL11904",
+      "performance": "7.86",
+      "discipline": "Pes (4 Kg)",
+      "raw_discipline_name": "Peso (4 Kg) Mujeres PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "NOA NIN NAVAS",
+      "athlete_dob": "28/8/2009",
+      "athlete_id": "CL11904",
+      "performance": "8.42",
+      "discipline": "Pes (4 Kg)",
+      "raw_discipline_name": "Peso (4 Kg) Mujeres PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "NOA NIN NAVAS",
+      "athlete_dob": "28/8/2009",
+      "athlete_id": "CL11904",
+      "performance": "7.96",
+      "discipline": "Pes (4 Kg)",
+      "raw_discipline_name": "Peso (4 Kg) Mujeres PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "NOA NIN NAVAS",
+      "athlete_dob": "28/8/2009",
+      "athlete_id": "CL11904",
+      "performance": "8.78",
+      "discipline": "Pes (4 Kg)",
+      "raw_discipline_name": "Peso (4 Kg) Mujeres PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Carla BORRAS VERGES-TAPIRO",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "4:21.55",
+      "discipline": "4x400",
+      "raw_discipline_name": "4x400m Mujeres PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Iris GARRIDO GARCIA",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "4:21.55",
+      "discipline": "4x400",
+      "raw_discipline_name": "4x400m Mujeres PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Julia GOMEZ MIRO",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "4:21.55",
+      "discipline": "4x400",
+      "raw_discipline_name": "4x400m Mujeres PC",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Noemi GONZALEZ CARRILLO",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "4:21.55",
+      "discipline": "4x400",
+      "raw_discipline_name": "4x400m Mujeres PC",
+      "wind": null,
+      "position": null
     }
   ]
 }

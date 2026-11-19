@@ -166,7 +166,7 @@ def tanques_name(distance: int, gender: str, cat: str) -> str:
     return None
 
 OBSTACLES_NAMES = {"1000": "1000 metres obstacles", "1500": "1500 metres obstacles",
-                   "2000": "2000 m obstacles", "3000": "3000 metres obstacles"}
+                   "2000": "2000 metres obstacles", "3000": "3000 metres obstacles"}
 
 # Per-file category fallback (used when the raw name carries no category suffix).
 # "open" means: un-suffixed events use the absolut spec (verified in source PDFs).
@@ -1438,7 +1438,7 @@ def normalize_2026_raw(raw: str) -> str:
         (r"\bPeso\b", "Pes"),
         (r"\bMarcha\b", "Marxa"),
         (r"\bvallas\b", "tanques"),
-        (r"\bObst\.", "obstacles"),
+        (r"\bObst\.\s*", " obstacles "),
         (r"(\d{3,4})\s*m\s+obst", r"\1 metres obst"),
         (r"\bRelleu\b", "Relleus"),
         (r"\bTriatl[oó]n\b|\bTriatlon\b", "Triatló"),
@@ -1628,8 +1628,8 @@ def map_discipline(raw: str, event_name: str, filename: str, athlete_name: str =
         name = tanques_name(int(m.group(1)), gender, cat)
         return (name, None) if name else (None, f"no tanques rule for {m.group(1)}m {gender} {cat}")
 
-    # Obstacles
-    m = re.match(r"^(\d{1,2}(?:\.\d{3})?|\d{4})\s+METRES OBSTACLES\b", up)
+    # Obstacles ("1000 metres obstacles", "1.000m Obst. Femenins", "1.000m obstacles Masculins")
+    m = re.match(r"^(\d{1,2}(?:\.\d{3})?|\d{4})\s*(?:METRES|M\.?)\s*OBSTACLES\b", up)
     if m:
         dist = str(int(m.group(1).replace(".", "")))
         return OBSTACLES_NAMES.get(dist), (None if dist in OBSTACLES_NAMES else "unknown obstacle distance")

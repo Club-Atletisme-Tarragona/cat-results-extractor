@@ -2,7 +2,7 @@
   "event_name": "Campionat Catalunya Clubs Sub12 Grup A - Pista de Atletismo",
   "event_date": "31/05/2025",
   "event_location": "Vilanova i La Geltrú",
-  "total_results": 25,
+  "total_results": 24,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2025/06/resultat-20250531-catclubssub12avilanova.pdf",
   "results": [
     {
@@ -13,7 +13,7 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m Masculins",
       "wind": null,
-      "internal_id": 1360
+      "position": null
     },
     {
       "athlete_name": "OLIVIER CASAS MUIÑO",
@@ -23,7 +23,7 @@
       "discipline": "120 metres llisos",
       "raw_discipline_name": "120m Masculins",
       "wind": null,
-      "internal_id": 1373
+      "position": null
     },
     {
       "athlete_name": "POL DIAZ CRISTINO",
@@ -33,7 +33,7 @@
       "discipline": "600 metres llisos",
       "raw_discipline_name": "600m Masculins",
       "wind": null,
-      "internal_id": 1333
+      "position": null
     },
     {
       "athlete_name": "TEO POU FONTS",
@@ -43,197 +43,7 @@
       "discipline": "2000 metres llisos",
       "raw_discipline_name": "2.000m Masculins",
       "wind": null,
-      "internal_id": 1377
-    },
-    {
-      "athlete_name": "NIL TORRES PRATS",
-      "athlete_dob": "5/10/2014",
-      "athlete_id": "CL7611",
-      "performance": "1.29",
-      "discipline": "Alçada",
-      "raw_discipline_name": "Alçada Masculina",
-      "wind": null,
-      "internal_id": 1341
-    },
-    {
-      "athlete_name": "JOSE ANGEL MASIA URZUA",
-      "athlete_dob": "25/2/2015",
-      "athlete_id": "CL15467",
-      "performance": "1.65",
-      "discipline": "Perxa",
-      "raw_discipline_name": "Perxa Masculina",
-      "wind": null,
-      "internal_id": 1389
-    },
-    {
-      "athlete_name": "FERRAN SANJUAN FLORES",
-      "athlete_dob": "9/2/2015",
-      "athlete_id": "CAT-3816505",
-      "performance": "3.77",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada Masculina",
-      "wind": null,
-      "internal_id": 1436
-    },
-    {
-      "athlete_name": "FERRAN SANJUAN FLORES",
-      "athlete_dob": "9/2/2015",
-      "athlete_id": "CAT-3816505",
-      "performance": "3.70",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada Masculina",
-      "wind": null,
-      "internal_id": 1436
-    },
-    {
-      "athlete_name": "FERRAN SANJUAN FLORES",
-      "athlete_dob": "9/2/2015",
-      "athlete_id": "CAT-3816505",
-      "performance": "3.75",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada Masculina",
-      "wind": null,
-      "internal_id": 1436
-    },
-    {
-      "athlete_name": "THIAGO SILVA ARANDA",
-      "athlete_dob": "15/2/2015",
-      "athlete_id": "CL11075",
-      "performance": "7.48",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Pes (2kg) Masculí",
-      "wind": null,
-      "internal_id": 1350
-    },
-    {
-      "athlete_name": "THIAGO SILVA ARANDA",
-      "athlete_dob": "15/2/2015",
-      "athlete_id": "CL11075",
-      "performance": "7.89",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Pes (2kg) Masculí",
-      "wind": null,
-      "internal_id": 1350
-    },
-    {
-      "athlete_name": "THIAGO SILVA ARANDA",
-      "athlete_dob": "15/2/2015",
-      "athlete_id": "CL11075",
-      "performance": "7.83",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Pes (2kg) Masculí",
-      "wind": null,
-      "internal_id": 1350
-    },
-    {
-      "athlete_name": "ANTONIO BALAZOTE",
-      "athlete_dob": "1/5/2014",
-      "athlete_id": "CL11067",
-      "performance": "21.30",
-      "discipline": "Disc (600 g)",
-      "raw_discipline_name": "Disc (600g) Masculí",
-      "wind": null,
-      "internal_id": 1370
-    },
-    {
-      "athlete_name": "ANTONIO BALAZOTE",
-      "athlete_dob": "1/5/2014",
-      "athlete_id": "CL11067",
-      "performance": "17.37",
-      "discipline": "Disc (600 g)",
-      "raw_discipline_name": "Disc (600g) Masculí",
-      "wind": null,
-      "internal_id": 1370
-    },
-    {
-      "athlete_name": "ANTONIO BALAZOTE",
-      "athlete_dob": "1/5/2014",
-      "athlete_id": "CL11067",
-      "performance": "19.56",
-      "discipline": "Disc (600 g)",
-      "raw_discipline_name": "Disc (600g) Masculí",
-      "wind": null,
-      "internal_id": 1370
-    },
-    {
-      "athlete_name": "BLAI LLIGADAS TURON",
-      "athlete_dob": "11/3/2015",
-      "athlete_id": "CL11069",
-      "performance": "20.80",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "Javelina Masculina",
-      "wind": null,
-      "internal_id": 1338
-    },
-    {
-      "athlete_name": "BLAI LLIGADAS TURON",
-      "athlete_dob": "11/3/2015",
-      "athlete_id": "CL11069",
-      "performance": "21.23",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "Javelina Masculina",
-      "wind": null,
-      "internal_id": 1338
-    },
-    {
-      "athlete_name": "BLAI LLIGADAS TURON",
-      "athlete_dob": "11/3/2015",
-      "athlete_id": "CL11069",
-      "performance": "21.18",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "Javelina Masculina",
-      "wind": null,
-      "internal_id": 1338
-    },
-    {
-      "athlete_name": "DANIEL LINARES ANTELO",
-      "athlete_dob": "10/7/2014",
-      "athlete_id": "CAT-3723389",
-      "performance": "13:00.72",
-      "discipline": "2000 metres marxa",
-      "raw_discipline_name": "2.000m marxa Masculins",
-      "wind": null,
-      "internal_id": 1403
-    },
-    {
-      "athlete_name": "Daniel LINARES ANTELO",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "performance": "2:07.27",
-      "discipline": "4x200",
-      "raw_discipline_name": "4x200m Masculins",
-      "wind": null,
-      "internal_id": 1403
-    },
-    {
-      "athlete_name": "Ferran SANJUAN FLORES",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "performance": "2:07.27",
-      "discipline": "4x200",
-      "raw_discipline_name": "4x200m Masculins",
-      "wind": null,
-      "internal_id": 1436
-    },
-    {
-      "athlete_name": "Nil TORRES PRATS",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "performance": "2:07.27",
-      "discipline": "4x200",
-      "raw_discipline_name": "4x200m Masculins",
-      "wind": null,
-      "internal_id": 1341
-    },
-    {
-      "athlete_name": "Pol DIAZ CRISTINO",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "performance": "2:07.27",
-      "discipline": "4x200",
-      "raw_discipline_name": "4x200m Masculins",
-      "wind": null,
-      "internal_id": 1333
+      "position": null
     },
     {
       "athlete_name": "ERNEST GELLIDA BARRIO",
@@ -243,17 +53,197 @@
       "discipline": "60 metres tanques (0.50)",
       "raw_discipline_name": "60m tanques Masculins",
       "wind": null,
-      "internal_id": 1344
+      "position": null
+    },
+    {
+      "athlete_name": "NIL TORRES PRATS",
+      "athlete_dob": "5/10/2014",
+      "athlete_id": "CL7611",
+      "performance": "1.29",
+      "discipline": "Alçada",
+      "raw_discipline_name": "Alçada Masculina",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "JOSE ANGEL MASIA URZUA",
+      "athlete_dob": "25/2/2015",
+      "athlete_id": "CL15467",
+      "performance": "1.65",
+      "discipline": "Perxa",
+      "raw_discipline_name": "Perxa Masculina",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "FERRAN SANJUAN FLORES",
+      "athlete_dob": "9/2/2015",
+      "athlete_id": "CAT-3816505",
+      "performance": "3.77",
+      "discipline": "Llargada",
+      "raw_discipline_name": "Llargada Masculina",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "FERRAN SANJUAN FLORES",
+      "athlete_dob": "9/2/2015",
+      "athlete_id": "CAT-3816505",
+      "performance": "3.70",
+      "discipline": "Llargada",
+      "raw_discipline_name": "Llargada Masculina",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "FERRAN SANJUAN FLORES",
+      "athlete_dob": "9/2/2015",
+      "athlete_id": "CAT-3816505",
+      "performance": "3.75",
+      "discipline": "Llargada",
+      "raw_discipline_name": "Llargada Masculina",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "THIAGO SILVA ARANDA",
       "athlete_dob": "15/2/2015",
       "athlete_id": "CL11075",
       "performance": "7.48",
-      "discipline": "60 metres tanques (0.50)",
-      "raw_discipline_name": "60m tanques Masculins",
+      "discipline": "Pes (2 Kg)",
+      "raw_discipline_name": "Pes (2 Kg) Masculí",
       "wind": null,
-      "internal_id": 1350
+      "position": null
+    },
+    {
+      "athlete_name": "THIAGO SILVA ARANDA",
+      "athlete_dob": "15/2/2015",
+      "athlete_id": "CL11075",
+      "performance": "7.89",
+      "discipline": "Pes (2 Kg)",
+      "raw_discipline_name": "Pes (2 Kg) Masculí",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "THIAGO SILVA ARANDA",
+      "athlete_dob": "15/2/2015",
+      "athlete_id": "CL11075",
+      "performance": "7.83",
+      "discipline": "Pes (2 Kg)",
+      "raw_discipline_name": "Pes (2 Kg) Masculí",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "ANTONIO BALAZOTE",
+      "athlete_dob": "1/5/2014",
+      "athlete_id": "CL11067",
+      "performance": "21.30",
+      "discipline": "Disc (600 g)",
+      "raw_discipline_name": "Disc (600g) Masculí",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "ANTONIO BALAZOTE",
+      "athlete_dob": "1/5/2014",
+      "athlete_id": "CL11067",
+      "performance": "17.37",
+      "discipline": "Disc (600 g)",
+      "raw_discipline_name": "Disc (600g) Masculí",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "ANTONIO BALAZOTE",
+      "athlete_dob": "1/5/2014",
+      "athlete_id": "CL11067",
+      "performance": "19.56",
+      "discipline": "Disc (600 g)",
+      "raw_discipline_name": "Disc (600g) Masculí",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "BLAI LLIGADAS TURON",
+      "athlete_dob": "11/3/2015",
+      "athlete_id": "CL11069",
+      "performance": "20.80",
+      "discipline": "Javelina (800 g)",
+      "raw_discipline_name": "Javelina Masculina",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "BLAI LLIGADAS TURON",
+      "athlete_dob": "11/3/2015",
+      "athlete_id": "CL11069",
+      "performance": "21.23",
+      "discipline": "Javelina (800 g)",
+      "raw_discipline_name": "Javelina Masculina",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "BLAI LLIGADAS TURON",
+      "athlete_dob": "11/3/2015",
+      "athlete_id": "CL11069",
+      "performance": "21.18",
+      "discipline": "Javelina (800 g)",
+      "raw_discipline_name": "Javelina Masculina",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "DANIEL LINARES ANTELO",
+      "athlete_dob": "10/7/2014",
+      "athlete_id": "CAT-3723389",
+      "performance": "13:00.72",
+      "discipline": "2000 metres marxa",
+      "raw_discipline_name": "2.000m marxa Masculins",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Daniel LINARES ANTELO",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "2:07.27",
+      "discipline": "4x200",
+      "raw_discipline_name": "4x200m Masculins",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Ferran SANJUAN FLORES",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "2:07.27",
+      "discipline": "4x200",
+      "raw_discipline_name": "4x200m Masculins",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Nil TORRES PRATS",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "2:07.27",
+      "discipline": "4x200",
+      "raw_discipline_name": "4x200m Masculins",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Pol DIAZ CRISTINO",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "2:07.27",
+      "discipline": "4x200",
+      "raw_discipline_name": "4x200m Masculins",
+      "wind": null,
+      "position": null
     }
   ]
 }

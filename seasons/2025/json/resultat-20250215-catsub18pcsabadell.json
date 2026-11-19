@@ -13,87 +13,7 @@
       "discipline": "3000 metres llisos",
       "raw_discipline_name": "3.000m Masculins",
       "wind": null,
-      "internal_id": 979
-    },
-    {
-      "athlete_name": "VICTOR JIMENEZ GARCIA",
-      "athlete_dob": "25/5/2008",
-      "athlete_id": "CT1465",
-      "performance": "6.73",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada Masculina",
-      "wind": null,
-      "internal_id": 958
-    },
-    {
-      "athlete_name": "VICTOR JIMENEZ GARCIA",
-      "athlete_dob": "25/5/2008",
-      "athlete_id": "CT1465",
-      "performance": "6.76",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada Masculina",
-      "wind": null,
-      "internal_id": 958
-    },
-    {
-      "athlete_name": "VICTOR JIMENEZ GARCIA",
-      "athlete_dob": "25/5/2008",
-      "athlete_id": "CT1465",
-      "performance": "6.85",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada Masculina",
-      "wind": null,
-      "internal_id": 958
-    },
-    {
-      "athlete_name": "VICTOR JIMENEZ GARCIA",
-      "athlete_dob": "25/5/2008",
-      "athlete_id": "CT1465",
-      "performance": "6.70",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada Masculina",
-      "wind": null,
-      "internal_id": 958
-    },
-    {
-      "athlete_name": "PAU CRESPO BELTRAN",
-      "athlete_dob": "22/10/2008",
-      "athlete_id": "CT1650",
-      "performance": "13.76",
-      "discipline": "Pes (5 Kg)",
-      "raw_discipline_name": "Peso (5kg) Masculí",
-      "wind": null,
-      "internal_id": 971
-    },
-    {
-      "athlete_name": "PAU CRESPO BELTRAN",
-      "athlete_dob": "22/10/2008",
-      "athlete_id": "CT1650",
-      "performance": "12.82",
-      "discipline": "Pes (5 Kg)",
-      "raw_discipline_name": "Peso (5kg) Masculí",
-      "wind": null,
-      "internal_id": 971
-    },
-    {
-      "athlete_name": "PAU CRESPO BELTRAN",
-      "athlete_dob": "22/10/2008",
-      "athlete_id": "CT1650",
-      "performance": "12.59",
-      "discipline": "Pes (5 Kg)",
-      "raw_discipline_name": "Peso (5kg) Masculí",
-      "wind": null,
-      "internal_id": 971
-    },
-    {
-      "athlete_name": "PAU CRESPO BELTRAN",
-      "athlete_dob": "22/10/2008",
-      "athlete_id": "CT1650",
-      "performance": "13.15",
-      "discipline": "Pes (5 Kg)",
-      "raw_discipline_name": "Peso (5kg) Masculí",
-      "wind": null,
-      "internal_id": 971
+      "position": 10
     },
     {
       "athlete_name": "MATIAS HERNANDEZ SANCHEZ",
@@ -103,27 +23,87 @@
       "discipline": "60 metres tanques (0.91)",
       "raw_discipline_name": "60m tanques Masculins",
       "wind": null,
-      "internal_id": 999
+      "position": null
     },
     {
       "athlete_name": "VICTOR JIMENEZ GARCIA",
       "athlete_dob": "25/5/2008",
       "athlete_id": "CT1465",
-      "performance": "6.12",
-      "discipline": "60 metres tanques (0.91)",
-      "raw_discipline_name": "60m tanques Masculins",
+      "performance": "6.73",
+      "discipline": "Llargada",
+      "raw_discipline_name": "Llargada Masculina",
       "wind": null,
-      "internal_id": 958
+      "position": 1
+    },
+    {
+      "athlete_name": "VICTOR JIMENEZ GARCIA",
+      "athlete_dob": "25/5/2008",
+      "athlete_id": "CT1465",
+      "performance": "6.76",
+      "discipline": "Llargada",
+      "raw_discipline_name": "Llargada Masculina",
+      "wind": null,
+      "position": 1
+    },
+    {
+      "athlete_name": "VICTOR JIMENEZ GARCIA",
+      "athlete_dob": "25/5/2008",
+      "athlete_id": "CT1465",
+      "performance": "6.85",
+      "discipline": "Llargada",
+      "raw_discipline_name": "Llargada Masculina",
+      "wind": null,
+      "position": 1
+    },
+    {
+      "athlete_name": "VICTOR JIMENEZ GARCIA",
+      "athlete_dob": "25/5/2008",
+      "athlete_id": "CT1465",
+      "performance": "6.70",
+      "discipline": "Llargada",
+      "raw_discipline_name": "Llargada Masculina",
+      "wind": null,
+      "position": 1
     },
     {
       "athlete_name": "PAU CRESPO BELTRAN",
       "athlete_dob": "22/10/2008",
       "athlete_id": "CT1650",
       "performance": "13.76",
-      "discipline": "60 metres tanques (0.91)",
-      "raw_discipline_name": "60m tanques Masculins",
+      "discipline": "Pes (5 Kg)",
+      "raw_discipline_name": "Peso (5 Kg) Masculí",
       "wind": null,
-      "internal_id": 971
+      "position": 3
+    },
+    {
+      "athlete_name": "PAU CRESPO BELTRAN",
+      "athlete_dob": "22/10/2008",
+      "athlete_id": "CT1650",
+      "performance": "12.82",
+      "discipline": "Pes (5 Kg)",
+      "raw_discipline_name": "Peso (5 Kg) Masculí",
+      "wind": null,
+      "position": 3
+    },
+    {
+      "athlete_name": "PAU CRESPO BELTRAN",
+      "athlete_dob": "22/10/2008",
+      "athlete_id": "CT1650",
+      "performance": "12.59",
+      "discipline": "Pes (5 Kg)",
+      "raw_discipline_name": "Peso (5 Kg) Masculí",
+      "wind": null,
+      "position": 3
+    },
+    {
+      "athlete_name": "PAU CRESPO BELTRAN",
+      "athlete_dob": "22/10/2008",
+      "athlete_id": "CT1650",
+      "performance": "13.15",
+      "discipline": "Pes (5 Kg)",
+      "raw_discipline_name": "Peso (5 Kg) Masculí",
+      "wind": null,
+      "position": 3
     },
     {
       "athlete_name": "MIREIA REDONDO MENDOZA",
@@ -133,7 +113,7 @@
       "discipline": "400 metres llisos",
       "raw_discipline_name": "400m Femenins",
       "wind": null,
-      "internal_id": 957
+      "position": 2
     },
     {
       "athlete_name": "NOEMI GONZALEZ CARRILLO",
@@ -143,7 +123,7 @@
       "discipline": "800 metres llisos",
       "raw_discipline_name": "800m Femenins",
       "wind": null,
-      "internal_id": 1030
+      "position": 2
     },
     {
       "athlete_name": "CLARA ORTIZ DE LANDAZURI ONTOSO",
@@ -153,7 +133,7 @@
       "discipline": "800 metres llisos",
       "raw_discipline_name": "800m Femenins",
       "wind": null,
-      "internal_id": 1022
+      "position": 6
     },
     {
       "athlete_name": "IRIS GARRIDO GARCIA",
@@ -163,17 +143,37 @@
       "discipline": "800 metres llisos",
       "raw_discipline_name": "800m Femenins",
       "wind": null,
-      "internal_id": 982
+      "position": 7
     },
     {
       "athlete_name": "NOA NIN NAVAS",
       "athlete_dob": "28/8/2009",
       "athlete_id": "CL4734",
       "performance": "9.73",
-      "discipline": "60 metres tanques (0.76)",
-      "raw_discipline_name": "60m tanques Femenins",
+      "discipline": "Pes (3 Kg)",
+      "raw_discipline_name": "Pes (3 Kg) Femení",
       "wind": null,
-      "internal_id": 1010
+      "position": 12
+    },
+    {
+      "athlete_name": "NOA NIN NAVAS",
+      "athlete_dob": "28/8/2009",
+      "athlete_id": "CL4734",
+      "performance": "8.99",
+      "discipline": "Pes (3 Kg)",
+      "raw_discipline_name": "Pes (3 Kg) Femení",
+      "wind": null,
+      "position": 12
+    },
+    {
+      "athlete_name": "NOA NIN NAVAS",
+      "athlete_dob": "28/8/2009",
+      "athlete_id": "CL4734",
+      "performance": "9.28",
+      "discipline": "Pes (3 Kg)",
+      "raw_discipline_name": "Pes (3 Kg) Femení",
+      "wind": null,
+      "position": 12
     },
     {
       "athlete_name": "CLARA ORTIZ DE LANDAZURI ONTO…",
@@ -183,7 +183,7 @@
       "discipline": "800 metres llisos",
       "raw_discipline_name": "800m Femenins",
       "wind": null,
-      "internal_id": 1022
+      "position": null
     }
   ]
 }

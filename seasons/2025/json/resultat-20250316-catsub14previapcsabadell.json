@@ -2,129 +2,9 @@
   "event_name": "Prèvia Campionat de Catalunya Sub14",
   "event_date": "16/03/2025",
   "event_location": "Sabadell",
-  "total_results": 30,
+  "total_results": 26,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2025/03/resultat-20250316-catsub14previapcsabadell.pdf",
   "results": [
-    {
-      "athlete_name": "FERRAN MASCARO NAVARRO",
-      "athlete_dob": "2/6/2012",
-      "athlete_id": "CL96310",
-      "performance": "1.43",
-      "discipline": "Alçada",
-      "raw_discipline_name": "Alçada Masculina",
-      "wind": null,
-      "internal_id": 1362
-    },
-    {
-      "athlete_name": "KILIAN PEDROL ESPINOSA",
-      "athlete_dob": "24/2/2013",
-      "athlete_id": "CL7676",
-      "performance": "1.40",
-      "discipline": "Alçada",
-      "raw_discipline_name": "Alçada Masculina",
-      "wind": null,
-      "internal_id": 1361
-    },
-    {
-      "athlete_name": "KILIAN BORREDA CERVELLO",
-      "athlete_dob": "9/5/2013",
-      "athlete_id": "CL4060",
-      "performance": "4.06",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada Masculina",
-      "wind": null,
-      "internal_id": null
-    },
-    {
-      "athlete_name": "GASTON VALENTIN PAULOS PERTIÑEZ",
-      "athlete_dob": "14/2/2012",
-      "athlete_id": "CL11182",
-      "performance": "8.89",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt Hombres",
-      "wind": null,
-      "internal_id": 1372
-    },
-    {
-      "athlete_name": "GASTON VALENTIN PAULOS PERTIÑEZ",
-      "athlete_dob": "14/2/2012",
-      "athlete_id": "CL11182",
-      "performance": "9.12",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt Hombres",
-      "wind": null,
-      "internal_id": 1372
-    },
-    {
-      "athlete_name": "GASTON VALENTIN PAULOS PERTIÑEZ",
-      "athlete_dob": "14/2/2012",
-      "athlete_id": "CL11182",
-      "performance": "8.28",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt Hombres",
-      "wind": null,
-      "internal_id": 1372
-    },
-    {
-      "athlete_name": "KILIAN PEDROL ESPINOSA",
-      "athlete_dob": "24/2/2013",
-      "athlete_id": "CL7676",
-      "performance": "6.93",
-      "discipline": "Pes (7.260 Kg)",
-      "raw_discipline_name": "Pes Masculí",
-      "wind": null,
-      "internal_id": 1361
-    },
-    {
-      "athlete_name": "KILIAN PEDROL ESPINOSA",
-      "athlete_dob": "24/2/2013",
-      "athlete_id": "CL7676",
-      "performance": "7.10",
-      "discipline": "Pes (7.260 Kg)",
-      "raw_discipline_name": "Pes Masculí",
-      "wind": null,
-      "internal_id": 1361
-    },
-    {
-      "athlete_name": "KILIAN PEDROL ESPINOSA",
-      "athlete_dob": "24/2/2013",
-      "athlete_id": "CL7676",
-      "performance": "5.92",
-      "discipline": "Pes (7.260 Kg)",
-      "raw_discipline_name": "Pes Masculí",
-      "wind": null,
-      "internal_id": 1361
-    },
-    {
-      "athlete_name": "MARIA MARTIN CUADRADO",
-      "athlete_dob": "1/5/2012",
-      "athlete_id": "CL1089",
-      "performance": "8.66",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt Femení",
-      "wind": null,
-      "internal_id": 1330
-    },
-    {
-      "athlete_name": "MARIA MARTIN CUADRADO",
-      "athlete_dob": "1/5/2012",
-      "athlete_id": "CL1089",
-      "performance": "8.48",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt Femení",
-      "wind": null,
-      "internal_id": 1330
-    },
-    {
-      "athlete_name": "MARIA MARTIN CUADRADO",
-      "athlete_dob": "1/5/2012",
-      "athlete_id": "CL1089",
-      "performance": "8.51",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt Femení",
-      "wind": null,
-      "internal_id": 1330
-    },
     {
       "athlete_name": "KILIAN BORREDA CERVELLO",
       "athlete_dob": "9/5/2013",
@@ -133,7 +13,7 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m Masculins",
       "wind": null,
-      "internal_id": null
+      "position": null
     },
     {
       "athlete_name": "ASTON MATE GRAS",
@@ -143,7 +23,7 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m Masculins",
       "wind": null,
-      "internal_id": 1342
+      "position": null
     },
     {
       "athlete_name": "ALEIX GOMEZ MIRO",
@@ -153,7 +33,7 @@
       "discipline": "200 metres llisos",
       "raw_discipline_name": "200m Masculins",
       "wind": null,
-      "internal_id": null
+      "position": null
     },
     {
       "athlete_name": "BIEL LLIGADAS TURON",
@@ -163,7 +43,7 @@
       "discipline": "600 metres llisos",
       "raw_discipline_name": "600m Masculins",
       "wind": null,
-      "internal_id": 1339
+      "position": null
     },
     {
       "athlete_name": "ALEIX GOMEZ MIRO",
@@ -173,7 +53,7 @@
       "discipline": "600 metres llisos",
       "raw_discipline_name": "600m Masculins",
       "wind": null,
-      "internal_id": null
+      "position": null
     },
     {
       "athlete_name": "ASTON MATE GRAS",
@@ -183,7 +63,7 @@
       "discipline": "600 metres llisos",
       "raw_discipline_name": "600m Masculins",
       "wind": null,
-      "internal_id": 1342
+      "position": null
     },
     {
       "athlete_name": "HUGO DIAZ CRISTINO",
@@ -193,37 +73,97 @@
       "discipline": "1000 metres llisos",
       "raw_discipline_name": "1000m Masculins",
       "wind": null,
-      "internal_id": null
+      "position": null
+    },
+    {
+      "athlete_name": "FERRAN MASCARO NAVARRO",
+      "athlete_dob": "2/6/2012",
+      "athlete_id": "CL96310",
+      "performance": "1.43",
+      "discipline": "Alçada",
+      "raw_discipline_name": "Alçada Masculina",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "KILIAN PEDROL ESPINOSA",
+      "athlete_dob": "24/2/2013",
+      "athlete_id": "CL7676",
+      "performance": "1.40",
+      "discipline": "Alçada",
+      "raw_discipline_name": "Alçada Masculina",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "KILIAN BORREDA CERVELLO",
+      "athlete_dob": "9/5/2013",
+      "athlete_id": "CL4060",
+      "performance": "4.06",
+      "discipline": "Llargada",
+      "raw_discipline_name": "Llargada Masculina",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "GASTON VALENTIN PAULOS PERTIÑEZ",
       "athlete_dob": "14/2/2012",
       "athlete_id": "CL11182",
       "performance": "8.89",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada Masculina",
+      "discipline": "Triple",
+      "raw_discipline_name": "Triple Salt Hombres",
       "wind": null,
-      "internal_id": 1372
+      "position": null
     },
     {
       "athlete_name": "GASTON VALENTIN PAULOS PERTIÑEZ",
       "athlete_dob": "14/2/2012",
       "athlete_id": "CL11182",
       "performance": "9.12",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada Masculina",
+      "discipline": "Triple",
+      "raw_discipline_name": "Triple Salt Hombres",
       "wind": null,
-      "internal_id": 1372
+      "position": null
     },
     {
       "athlete_name": "GASTON VALENTIN PAULOS PERTIÑEZ",
       "athlete_dob": "14/2/2012",
       "athlete_id": "CL11182",
       "performance": "8.28",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada Masculina",
+      "discipline": "Triple",
+      "raw_discipline_name": "Triple Salt Hombres",
       "wind": null,
-      "internal_id": 1372
+      "position": null
+    },
+    {
+      "athlete_name": "KILIAN PEDROL ESPINOSA",
+      "athlete_dob": "24/2/2013",
+      "athlete_id": "CL7676",
+      "performance": "6.93",
+      "discipline": "Pes (7.260 Kg)",
+      "raw_discipline_name": "Pes Masculí",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "KILIAN PEDROL ESPINOSA",
+      "athlete_dob": "24/2/2013",
+      "athlete_id": "CL7676",
+      "performance": "7.10",
+      "discipline": "Pes (7.260 Kg)",
+      "raw_discipline_name": "Pes Masculí",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "KILIAN PEDROL ESPINOSA",
+      "athlete_dob": "24/2/2013",
+      "athlete_id": "CL7676",
+      "performance": "5.92",
+      "discipline": "Pes (7.260 Kg)",
+      "raw_discipline_name": "Pes Masculí",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ANNA PEREZ MARTINEZ",
@@ -233,7 +173,7 @@
       "discipline": "600 metres llisos",
       "raw_discipline_name": "600m Femenins",
       "wind": null,
-      "internal_id": 1366
+      "position": null
     },
     {
       "athlete_name": "ADA NIN NAVAS",
@@ -243,7 +183,7 @@
       "discipline": "1000 metres llisos",
       "raw_discipline_name": "1000m Femenins",
       "wind": null,
-      "internal_id": 1331
+      "position": null
     },
     {
       "athlete_name": "RIHANA MARTOS TEIXIDO",
@@ -253,7 +193,7 @@
       "discipline": "2000 metres llisos",
       "raw_discipline_name": "2.000m Femenins",
       "wind": null,
-      "internal_id": null
+      "position": null
     },
     {
       "athlete_name": "ALBA ESTEVE HOSTALOT",
@@ -263,47 +203,67 @@
       "discipline": "60 metres tanques (0.84)",
       "raw_discipline_name": "60m Tanques Femenins",
       "wind": null,
-      "internal_id": 1335
+      "position": null
     },
     {
       "athlete_name": "MARIA MARTIN CUADRADO",
       "athlete_dob": "1/5/2012",
       "athlete_id": "CL1089",
       "performance": "8.66",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada Femenina",
+      "discipline": "Triple",
+      "raw_discipline_name": "Triple Salt Femení",
       "wind": null,
-      "internal_id": 1330
+      "position": null
     },
     {
       "athlete_name": "MARIA MARTIN CUADRADO",
       "athlete_dob": "1/5/2012",
       "athlete_id": "CL1089",
       "performance": "8.48",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada Femenina",
+      "discipline": "Triple",
+      "raw_discipline_name": "Triple Salt Femení",
       "wind": null,
-      "internal_id": 1330
+      "position": null
     },
     {
       "athlete_name": "MARIA MARTIN CUADRADO",
       "athlete_dob": "1/5/2012",
       "athlete_id": "CL1089",
       "performance": "8.51",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada Femenina",
+      "discipline": "Triple",
+      "raw_discipline_name": "Triple Salt Femení",
       "wind": null,
-      "internal_id": 1330
+      "position": null
+    },
+    {
+      "athlete_name": "CARLOTA TEJERO CLAU",
+      "athlete_dob": "6/3/2012",
+      "athlete_id": "CL7258",
+      "performance": "7.17",
+      "discipline": "Pes (4 Kg)",
+      "raw_discipline_name": "Pes Femení",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "CARLOTA TEJERO CLAU",
+      "athlete_dob": "6/3/2012",
+      "athlete_id": "CL7258",
+      "performance": "7.52",
+      "discipline": "Pes (4 Kg)",
+      "raw_discipline_name": "Pes Femení",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "CARLOTA TEJERO CLAU",
       "athlete_dob": "6/3/2012",
       "athlete_id": "CL7258",
       "performance": "8.07",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt Femení",
+      "discipline": "Pes (4 Kg)",
+      "raw_discipline_name": "Pes Femení",
       "wind": null,
-      "internal_id": 1352
+      "position": null
     }
   ]
 }

@@ -2,29 +2,9 @@
   "event_name": "5a jornada Control sub16 PC",
   "event_date": "23/02/2025",
   "event_location": "Sabadell",
-  "total_results": 31,
+  "total_results": 30,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2025/03/resultat-20250223-controlsub16pcsabadell.pdf",
   "results": [
-    {
-      "athlete_name": "SAMUEL MARCOS PEREZ",
-      "athlete_dob": "1/2/2010",
-      "athlete_id": "CL90024",
-      "performance": "3.00",
-      "discipline": "Perxa",
-      "raw_discipline_name": "Perxa Masculina",
-      "wind": null,
-      "internal_id": 1071
-    },
-    {
-      "athlete_name": "ENZO MATE GRAS",
-      "athlete_dob": "1/2/2011",
-      "athlete_id": "CL94546",
-      "performance": "2.75",
-      "discipline": "Perxa",
-      "raw_discipline_name": "Perxa Masculina",
-      "wind": null,
-      "internal_id": 1343
-    },
     {
       "athlete_name": "MARC MARTI FERNANDEZ",
       "athlete_dob": "10/4/2011",
@@ -33,7 +13,7 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m Masculins",
       "wind": null,
-      "internal_id": 1108
+      "position": null
     },
     {
       "athlete_name": "ENZO MATE GRAS",
@@ -43,7 +23,7 @@
       "discipline": "300 metres llisos",
       "raw_discipline_name": "300m Masculins",
       "wind": null,
-      "internal_id": 1343
+      "position": null
     },
     {
       "athlete_name": "OSCAR IBAÑEZ RIZO",
@@ -53,7 +33,7 @@
       "discipline": "300 metres llisos",
       "raw_discipline_name": "300m Masculins",
       "wind": null,
-      "internal_id": 1351
+      "position": null
     },
     {
       "athlete_name": "IKER FUENTES PUESTA",
@@ -63,7 +43,7 @@
       "discipline": "60 metres tanques (0.91)",
       "raw_discipline_name": "60 metres tanques masculins",
       "wind": null,
-      "internal_id": 1367
+      "position": null
     },
     {
       "athlete_name": "OSCAR IBAÑEZ RIZO",
@@ -73,17 +53,27 @@
       "discipline": "60 metres tanques (0.91)",
       "raw_discipline_name": "60 metres tanques masculins",
       "wind": null,
-      "internal_id": 1351
+      "position": null
     },
     {
       "athlete_name": "SAMUEL MARCOS PEREZ",
       "athlete_dob": "1/2/2010",
       "athlete_id": "CL90024",
       "performance": "3.00",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Pes (4kg) Masculí",
+      "discipline": "Perxa",
+      "raw_discipline_name": "Perxa Masculina",
       "wind": null,
-      "internal_id": 1071
+      "position": null
+    },
+    {
+      "athlete_name": "ENZO MATE GRAS",
+      "athlete_dob": "1/2/2011",
+      "athlete_id": "CL94546",
+      "performance": "2.75",
+      "discipline": "Perxa",
+      "raw_discipline_name": "Perxa Masculina",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "MARC MARTI FERNANDEZ",
@@ -93,7 +83,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud Hombres",
       "wind": null,
-      "internal_id": 1108
+      "position": null
     },
     {
       "athlete_name": "MARC MARTI FERNANDEZ",
@@ -103,7 +93,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud Hombres",
       "wind": null,
-      "internal_id": 1108
+      "position": null
     },
     {
       "athlete_name": "MARC MARTI FERNANDEZ",
@@ -113,7 +103,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud Hombres",
       "wind": null,
-      "internal_id": 1108
+      "position": null
     },
     {
       "athlete_name": "MARC MARTI FERNANDEZ",
@@ -123,7 +113,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud Hombres",
       "wind": null,
-      "internal_id": 1108
+      "position": null
     },
     {
       "athlete_name": "MARC MARTI FERNANDEZ",
@@ -133,7 +123,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud Hombres",
       "wind": null,
-      "internal_id": 1108
+      "position": null
     },
     {
       "athlete_name": "DAVID FERNANDEZ PINEDA",
@@ -143,7 +133,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud Hombres",
       "wind": null,
-      "internal_id": 1078
+      "position": null
     },
     {
       "athlete_name": "DAVID FERNANDEZ PINEDA",
@@ -153,7 +143,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud Hombres",
       "wind": null,
-      "internal_id": 1078
+      "position": null
     },
     {
       "athlete_name": "DAVID FERNANDEZ PINEDA",
@@ -163,7 +153,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud Hombres",
       "wind": null,
-      "internal_id": 1078
+      "position": null
     },
     {
       "athlete_name": "DAVID FERNANDEZ PINEDA",
@@ -173,7 +163,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud Hombres",
       "wind": null,
-      "internal_id": 1078
+      "position": null
     },
     {
       "athlete_name": "ALDARA LINARES ANTELO",
@@ -183,7 +173,7 @@
       "discipline": "300 metres llisos",
       "raw_discipline_name": "300m Femenins",
       "wind": null,
-      "internal_id": 1068
+      "position": null
     },
     {
       "athlete_name": "STELLA PEREIRA CONTRERAS",
@@ -193,7 +183,7 @@
       "discipline": "300 metres llisos",
       "raw_discipline_name": "300m Femenins",
       "wind": null,
-      "internal_id": 1356
+      "position": null
     },
     {
       "athlete_name": "DUINA BORREDA CERVELLO",
@@ -203,7 +193,7 @@
       "discipline": "600 metres llisos",
       "raw_discipline_name": "600m Femenins",
       "wind": null,
-      "internal_id": null
+      "position": null
     },
     {
       "athlete_name": "DIANA GARCÍA MUR",
@@ -213,7 +203,7 @@
       "discipline": "600 metres llisos",
       "raw_discipline_name": "600m Femenins",
       "wind": null,
-      "internal_id": 1081
+      "position": null
     },
     {
       "athlete_name": "LUCIA MARCOS PEREZ",
@@ -223,7 +213,7 @@
       "discipline": "600 metres llisos",
       "raw_discipline_name": "600m Femenins",
       "wind": null,
-      "internal_id": 1073
+      "position": null
     },
     {
       "athlete_name": "NORA MONTOLIO AMARO",
@@ -233,7 +223,7 @@
       "discipline": "60 metres tanques (0.76)",
       "raw_discipline_name": "60 metres tanques femenins",
       "wind": null,
-      "internal_id": 1089
+      "position": null
     },
     {
       "athlete_name": "NORA MONTOLIO AMARO",
@@ -243,7 +233,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud Mujeres PC",
       "wind": null,
-      "internal_id": 1089
+      "position": null
     },
     {
       "athlete_name": "NORA MONTOLIO AMARO",
@@ -253,7 +243,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud Mujeres PC",
       "wind": null,
-      "internal_id": 1089
+      "position": null
     },
     {
       "athlete_name": "NORA MONTOLIO AMARO",
@@ -263,7 +253,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud Mujeres PC",
       "wind": null,
-      "internal_id": 1089
+      "position": null
     },
     {
       "athlete_name": "DUINA BORREDA CERVELLO",
@@ -273,7 +263,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud Mujeres PC",
       "wind": null,
-      "internal_id": null
+      "position": null
     },
     {
       "athlete_name": "DUINA BORREDA CERVELLO",
@@ -283,7 +273,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud Mujeres PC",
       "wind": null,
-      "internal_id": null
+      "position": null
     },
     {
       "athlete_name": "DUINA BORREDA CERVELLO",
@@ -293,7 +283,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud Mujeres PC",
       "wind": null,
-      "internal_id": null
+      "position": null
     },
     {
       "athlete_name": "DUINA BORREDA CERVELLO",
@@ -303,7 +293,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud Mujeres PC",
       "wind": null,
-      "internal_id": null
+      "position": null
     },
     {
       "athlete_name": "DUINA BORREDA CERVELLO",
@@ -313,7 +303,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud Mujeres PC",
       "wind": null,
-      "internal_id": null
+      "position": null
     }
   ]
 }

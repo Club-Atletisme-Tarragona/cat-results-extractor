@@ -1,420 +1,10 @@
 {
-  "event_name": "",
+  "event_name": "VIII Jornades atlètiques Torredembarra",
   "event_date": "11/05/2025",
   "event_location": "Torredembarra",
-  "total_results": 60,
+  "total_results": 59,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2025/05/resultat-20250511-controltorredembarra.pdf",
   "results": [
-    {
-      "athlete_name": "POL VILANOVA ANGLES",
-      "athlete_dob": "1/3/2017",
-      "athlete_id": "CAT-3789595",
-      "performance": "03:45.80",
-      "discipline": "1000 metres llisos",
-      "raw_discipline_name": "1.000m Hombres",
-      "wind": null,
-      "internal_id": 1428
-    },
-    {
-      "athlete_name": "NIL PASCUAL PRATS",
-      "athlete_dob": "16/3/2017",
-      "athlete_id": "CAT-3789538",
-      "performance": "03:46.10",
-      "discipline": "1000 metres llisos",
-      "raw_discipline_name": "1.000m Hombres",
-      "wind": null,
-      "internal_id": 1381
-    },
-    {
-      "athlete_name": "MARTI MATEU MONTULL",
-      "athlete_dob": "13/8/2016",
-      "athlete_id": "CL14916",
-      "performance": "03:57.10",
-      "discipline": "1000 metres llisos",
-      "raw_discipline_name": "1.000m Hombres",
-      "wind": null,
-      "internal_id": 1353
-    },
-    {
-      "athlete_name": "EDAHI ROIG GUASCH",
-      "athlete_dob": "7/4/2017",
-      "athlete_id": "CAT-3789993",
-      "performance": "04:05.90",
-      "discipline": "1000 metres llisos",
-      "raw_discipline_name": "1.000m Hombres",
-      "wind": null,
-      "internal_id": 1417
-    },
-    {
-      "athlete_name": "GERARD BARBER GONZALEZ",
-      "athlete_dob": "24/10/2017",
-      "athlete_id": "CAT-3789597",
-      "performance": "04:08.60",
-      "discipline": "1000 metres llisos",
-      "raw_discipline_name": "1.000m Hombres",
-      "wind": null,
-      "internal_id": 1359
-    },
-    {
-      "athlete_name": "SERGI LOPEZ BESSO",
-      "athlete_dob": "26/9/2017",
-      "athlete_id": "CAT-3789593",
-      "performance": "04:18.50",
-      "discipline": "1000 metres llisos",
-      "raw_discipline_name": "1.000m Hombres",
-      "wind": null,
-      "internal_id": 1424
-    },
-    {
-      "athlete_name": "MARTI MATEU MONTULL",
-      "athlete_dob": "13/8/2016",
-      "athlete_id": "CL14916",
-      "performance": "3.05",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud Hombres u14 U10M",
-      "wind": null,
-      "internal_id": 1353
-    },
-    {
-      "athlete_name": "NIL PASCUAL PRATS",
-      "athlete_dob": "16/3/2017",
-      "athlete_id": "CAT-3789538",
-      "performance": "2.72",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud Hombres u14 U10M",
-      "wind": null,
-      "internal_id": 1381
-    },
-    {
-      "athlete_name": "SAMUEL RODRIGUEZ BARRIOS",
-      "athlete_dob": "29/10/2016",
-      "athlete_id": "CL14914",
-      "performance": "2.62",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud Hombres u14 U10M",
-      "wind": null,
-      "internal_id": 1390
-    },
-    {
-      "athlete_name": "SERGI AGUZA PIQUERAS",
-      "athlete_dob": "21/4/2016",
-      "athlete_id": "CL15055",
-      "performance": "2.62",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud Hombres u14 U10M",
-      "wind": null,
-      "internal_id": 1355
-    },
-    {
-      "athlete_name": "GERARD BARBER GONZALEZ",
-      "athlete_dob": "24/10/2017",
-      "athlete_id": "CAT-3789597",
-      "performance": "2.58",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud Hombres u14 U10M",
-      "wind": null,
-      "internal_id": 1359
-    },
-    {
-      "athlete_name": "SERGI LOPEZ BESSO",
-      "athlete_dob": "26/9/2017",
-      "athlete_id": "CAT-3789593",
-      "performance": "1.78",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud Hombres u14 U10M",
-      "wind": null,
-      "internal_id": 1424
-    },
-    {
-      "athlete_name": "NIL PASCUAL PRATS",
-      "athlete_dob": "16/3/2017",
-      "athlete_id": "CAT-3789538",
-      "performance": "18.83",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "Jabalina Vortex Hombres",
-      "wind": null,
-      "internal_id": 1381
-    },
-    {
-      "athlete_name": "NIL PASCUAL PRATS",
-      "athlete_dob": "16/3/2017",
-      "athlete_id": "CAT-3789538",
-      "performance": "20.93",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "Jabalina Vortex Hombres",
-      "wind": null,
-      "internal_id": 1381
-    },
-    {
-      "athlete_name": "NIL PASCUAL PRATS",
-      "athlete_dob": "16/3/2017",
-      "athlete_id": "CAT-3789538",
-      "performance": "25.12",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "Jabalina Vortex Hombres",
-      "wind": null,
-      "internal_id": 1381
-    },
-    {
-      "athlete_name": "GERARD BARBER GONZALEZ",
-      "athlete_dob": "24/10/2017",
-      "athlete_id": "CAT-3789597",
-      "performance": "20.98",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "Jabalina Vortex Hombres",
-      "wind": null,
-      "internal_id": 1359
-    },
-    {
-      "athlete_name": "GERARD BARBER GONZALEZ",
-      "athlete_dob": "24/10/2017",
-      "athlete_id": "CAT-3789597",
-      "performance": "23.19",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "Jabalina Vortex Hombres",
-      "wind": null,
-      "internal_id": 1359
-    },
-    {
-      "athlete_name": "GERARD BARBER GONZALEZ",
-      "athlete_dob": "24/10/2017",
-      "athlete_id": "CAT-3789597",
-      "performance": "20.43",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "Jabalina Vortex Hombres",
-      "wind": null,
-      "internal_id": 1359
-    },
-    {
-      "athlete_name": "POL VILANOVA ANGLES",
-      "athlete_dob": "1/3/2017",
-      "athlete_id": "CAT-3789595",
-      "performance": "17.30",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "Jabalina Vortex Hombres",
-      "wind": null,
-      "internal_id": 1428
-    },
-    {
-      "athlete_name": "POL VILANOVA ANGLES",
-      "athlete_dob": "1/3/2017",
-      "athlete_id": "CAT-3789595",
-      "performance": "19.72",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "Jabalina Vortex Hombres",
-      "wind": null,
-      "internal_id": 1428
-    },
-    {
-      "athlete_name": "POL VILANOVA ANGLES",
-      "athlete_dob": "1/3/2017",
-      "athlete_id": "CAT-3789595",
-      "performance": "15.52",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "Jabalina Vortex Hombres",
-      "wind": null,
-      "internal_id": 1428
-    },
-    {
-      "athlete_name": "SAMUEL RODRIGUEZ BARRIOS",
-      "athlete_dob": "29/10/2016",
-      "athlete_id": "CL14914",
-      "performance": "11.11",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "Jabalina Vortex Hombres",
-      "wind": null,
-      "internal_id": 1390
-    },
-    {
-      "athlete_name": "SAMUEL RODRIGUEZ BARRIOS",
-      "athlete_dob": "29/10/2016",
-      "athlete_id": "CL14914",
-      "performance": "16.00",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "Jabalina Vortex Hombres",
-      "wind": null,
-      "internal_id": 1390
-    },
-    {
-      "athlete_name": "SAMUEL RODRIGUEZ BARRIOS",
-      "athlete_dob": "29/10/2016",
-      "athlete_id": "CL14914",
-      "performance": "13.26",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "Jabalina Vortex Hombres",
-      "wind": null,
-      "internal_id": 1390
-    },
-    {
-      "athlete_name": "MARTI MATEU MONTULL",
-      "athlete_dob": "13/8/2016",
-      "athlete_id": "CL14916",
-      "performance": "11.78",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "Jabalina Vortex Hombres",
-      "wind": null,
-      "internal_id": 1353
-    },
-    {
-      "athlete_name": "MARTI MATEU MONTULL",
-      "athlete_dob": "13/8/2016",
-      "athlete_id": "CL14916",
-      "performance": "11.62",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "Jabalina Vortex Hombres",
-      "wind": null,
-      "internal_id": 1353
-    },
-    {
-      "athlete_name": "SERGI LOPEZ BESSO",
-      "athlete_dob": "26/9/2017",
-      "athlete_id": "CAT-3789593",
-      "performance": "8.96",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "Jabalina Vortex Hombres",
-      "wind": null,
-      "internal_id": 1424
-    },
-    {
-      "athlete_name": "SERGI LOPEZ BESSO",
-      "athlete_dob": "26/9/2017",
-      "athlete_id": "CAT-3789593",
-      "performance": "7.97",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "Jabalina Vortex Hombres",
-      "wind": null,
-      "internal_id": 1424
-    },
-    {
-      "athlete_name": "SERGI LOPEZ BESSO",
-      "athlete_dob": "26/9/2017",
-      "athlete_id": "CAT-3789593",
-      "performance": "11.46",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "Jabalina Vortex Hombres",
-      "wind": null,
-      "internal_id": 1424
-    },
-    {
-      "athlete_name": "SOFIA VEGA MARTINEZ",
-      "athlete_dob": "9/8/2016",
-      "athlete_id": "CL14893",
-      "performance": "10.30",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m Mujeres AL U8F",
-      "wind": null,
-      "internal_id": 1347
-    },
-    {
-      "athlete_name": "GINESTA MARRUGAT CANADELL",
-      "athlete_dob": "10/12/2016",
-      "athlete_id": "CAT-3789549",
-      "performance": "10.60",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m Mujeres AL U8F",
-      "wind": null,
-      "internal_id": 1404
-    },
-    {
-      "athlete_name": "MARIA DA ROCHA SANTIBAÑEZ",
-      "athlete_dob": "25/5/2016",
-      "athlete_id": "CAT-3789539",
-      "performance": "11.00",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m Mujeres AL U8F",
-      "wind": null,
-      "internal_id": 1419
-    },
-    {
-      "athlete_name": "BERTA GARCIA DOMINGUEZ",
-      "athlete_dob": "24/6/2016",
-      "athlete_id": "CL15061",
-      "performance": "10.50",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m Mujeres AL U8F",
-      "wind": null,
-      "internal_id": 1393
-    },
-    {
-      "athlete_name": "SOFIA VEGA MARTINEZ",
-      "athlete_dob": "9/8/2016",
-      "athlete_id": "CL14893",
-      "performance": "04:07.60",
-      "discipline": "1000 metres llisos",
-      "raw_discipline_name": "1.000m Mujeres",
-      "wind": null,
-      "internal_id": 1347
-    },
-    {
-      "athlete_name": "BERTA GARCIA DOMINGUEZ",
-      "athlete_dob": "24/6/2016",
-      "athlete_id": "CL15061",
-      "performance": "04:13.70",
-      "discipline": "1000 metres llisos",
-      "raw_discipline_name": "1.000m Mujeres",
-      "wind": null,
-      "internal_id": 1393
-    },
-    {
-      "athlete_name": "ARIA ORTA PALLARES",
-      "athlete_dob": "24/2/2017",
-      "athlete_id": "CAT-3789552",
-      "performance": "04:18.60",
-      "discipline": "1000 metres llisos",
-      "raw_discipline_name": "1.000m Mujeres",
-      "wind": null,
-      "internal_id": 1427
-    },
-    {
-      "athlete_name": "SOFIA VEGA MARTINEZ",
-      "athlete_dob": "9/8/2016",
-      "athlete_id": "CL14893",
-      "performance": "2.74",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud Mujeres u14 U10F",
-      "wind": null,
-      "internal_id": 1347
-    },
-    {
-      "athlete_name": "BERTA GARCIA DOMINGUEZ",
-      "athlete_dob": "24/6/2016",
-      "athlete_id": "CL15061",
-      "performance": "2.72",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud Mujeres u14 U10F",
-      "wind": null,
-      "internal_id": 1393
-    },
-    {
-      "athlete_name": "GINESTA MARRUGAT CANADELL",
-      "athlete_dob": "10/12/2016",
-      "athlete_id": "CAT-3789549",
-      "performance": "2.49",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud Mujeres u14 U10F",
-      "wind": null,
-      "internal_id": 1404
-    },
-    {
-      "athlete_name": "ARIA ORTA PALLARES",
-      "athlete_dob": "24/2/2017",
-      "athlete_id": "CAT-3789552",
-      "performance": "2.39",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud Mujeres u14 U10F",
-      "wind": null,
-      "internal_id": 1427
-    },
-    {
-      "athlete_name": "MARIA DA ROCHA SANTIBAÑEZ",
-      "athlete_dob": "25/5/2016",
-      "athlete_id": "CAT-3789539",
-      "performance": "2.37",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud Mujeres u14 U10F",
-      "wind": null,
-      "internal_id": 1419
-    },
     {
       "athlete_name": "POL VILANOVA ANGLES",
       "athlete_dob": "1/3/2017",
@@ -423,7 +13,7 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m Hombres AL U10M",
       "wind": null,
-      "internal_id": 1428
+      "position": null
     },
     {
       "athlete_name": "EDAHI ROIG GUASCH",
@@ -433,7 +23,7 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m Hombres AL U10M",
       "wind": null,
-      "internal_id": 1417
+      "position": null
     },
     {
       "athlete_name": "SERGI AGUZA PIQUERAS",
@@ -443,7 +33,7 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m Hombres AL U10M",
       "wind": null,
-      "internal_id": 1355
+      "position": null
     },
     {
       "athlete_name": "SAMUEL RODRIGUEZ BARRIOS",
@@ -453,17 +43,7 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m Hombres AL U10M",
       "wind": null,
-      "internal_id": 1390
-    },
-    {
-      "athlete_name": "SAMUEL RODRIGUEZ BARRIOS",
-      "athlete_dob": "29/10/2016",
-      "athlete_id": "CL14914",
-      "performance": "11.11",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m Hombres AL U10M",
-      "wind": "-0.8",
-      "internal_id": 1390
+      "position": null
     },
     {
       "athlete_name": "MARTI MATEU MONTULL",
@@ -473,17 +53,7 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m Hombres AL U10M",
       "wind": null,
-      "internal_id": 1353
-    },
-    {
-      "athlete_name": "MARTI MATEU MONTULL",
-      "athlete_dob": "13/8/2016",
-      "athlete_id": "CL14916",
-      "performance": "11.78",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m Hombres AL U10M",
-      "wind": "-0.8",
-      "internal_id": 1353
+      "position": null
     },
     {
       "athlete_name": "NIL PASCUAL PRATS",
@@ -493,7 +63,7 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m Hombres AL U10M",
       "wind": null,
-      "internal_id": 1381
+      "position": null
     },
     {
       "athlete_name": "GERARD BARBER GONZALEZ",
@@ -503,17 +73,297 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m Hombres AL U10M",
       "wind": null,
-      "internal_id": 1359
+      "position": null
+    },
+    {
+      "athlete_name": "POL VILANOVA ANGLES",
+      "athlete_dob": "1/3/2017",
+      "athlete_id": "CAT-3789595",
+      "performance": "03:45.80",
+      "discipline": "1000 metres llisos",
+      "raw_discipline_name": "1.000m Hombres",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "NIL PASCUAL PRATS",
+      "athlete_dob": "16/3/2017",
+      "athlete_id": "CAT-3789538",
+      "performance": "03:46.10",
+      "discipline": "1000 metres llisos",
+      "raw_discipline_name": "1.000m Hombres",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "MARTI MATEU MONTULL",
+      "athlete_dob": "13/8/2016",
+      "athlete_id": "CL14916",
+      "performance": "03:57.10",
+      "discipline": "1000 metres llisos",
+      "raw_discipline_name": "1.000m Hombres",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "EDAHI ROIG GUASCH",
+      "athlete_dob": "7/4/2017",
+      "athlete_id": "CAT-3789993",
+      "performance": "04:05.90",
+      "discipline": "1000 metres llisos",
+      "raw_discipline_name": "1.000m Hombres",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "GERARD BARBER GONZALEZ",
+      "athlete_dob": "24/10/2017",
+      "athlete_id": "CAT-3789597",
+      "performance": "04:08.60",
+      "discipline": "1000 metres llisos",
+      "raw_discipline_name": "1.000m Hombres",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "SERGI LOPEZ BESSO",
+      "athlete_dob": "26/9/2017",
+      "athlete_id": "CAT-3789593",
+      "performance": "04:18.50",
+      "discipline": "1000 metres llisos",
+      "raw_discipline_name": "1.000m Hombres",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "MARTI MATEU MONTULL",
+      "athlete_dob": "13/8/2016",
+      "athlete_id": "CL14916",
+      "performance": "3.05",
+      "discipline": "Llargada",
+      "raw_discipline_name": "Longitud Hombres u14 U10M",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "NIL PASCUAL PRATS",
+      "athlete_dob": "16/3/2017",
+      "athlete_id": "CAT-3789538",
+      "performance": "2.72",
+      "discipline": "Llargada",
+      "raw_discipline_name": "Longitud Hombres u14 U10M",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "SAMUEL RODRIGUEZ BARRIOS",
+      "athlete_dob": "29/10/2016",
+      "athlete_id": "CL14914",
+      "performance": "2.62",
+      "discipline": "Llargada",
+      "raw_discipline_name": "Longitud Hombres u14 U10M",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "SERGI AGUZA PIQUERAS",
+      "athlete_dob": "21/4/2016",
+      "athlete_id": "CL15055",
+      "performance": "2.62",
+      "discipline": "Llargada",
+      "raw_discipline_name": "Longitud Hombres u14 U10M",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "GERARD BARBER GONZALEZ",
+      "athlete_dob": "24/10/2017",
+      "athlete_id": "CAT-3789597",
+      "performance": "2.58",
+      "discipline": "Llargada",
+      "raw_discipline_name": "Longitud Hombres u14 U10M",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "SERGI LOPEZ BESSO",
+      "athlete_dob": "26/9/2017",
+      "athlete_id": "CAT-3789593",
+      "performance": "1.78",
+      "discipline": "Llargada",
+      "raw_discipline_name": "Longitud Hombres u14 U10M",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "NIL PASCUAL PRATS",
+      "athlete_dob": "16/3/2017",
+      "athlete_id": "CAT-3789538",
+      "performance": "18.83",
+      "discipline": "Javelina (800 g)",
+      "raw_discipline_name": "Jabalina Vortex Hombres",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "NIL PASCUAL PRATS",
+      "athlete_dob": "16/3/2017",
+      "athlete_id": "CAT-3789538",
+      "performance": "20.93",
+      "discipline": "Javelina (800 g)",
+      "raw_discipline_name": "Jabalina Vortex Hombres",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "NIL PASCUAL PRATS",
+      "athlete_dob": "16/3/2017",
+      "athlete_id": "CAT-3789538",
+      "performance": "25.12",
+      "discipline": "Javelina (800 g)",
+      "raw_discipline_name": "Jabalina Vortex Hombres",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "GERARD BARBER GONZALEZ",
+      "athlete_dob": "24/10/2017",
+      "athlete_id": "CAT-3789597",
+      "performance": "20.98",
+      "discipline": "Javelina (800 g)",
+      "raw_discipline_name": "Jabalina Vortex Hombres",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "GERARD BARBER GONZALEZ",
+      "athlete_dob": "24/10/2017",
+      "athlete_id": "CAT-3789597",
+      "performance": "23.19",
+      "discipline": "Javelina (800 g)",
+      "raw_discipline_name": "Jabalina Vortex Hombres",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "GERARD BARBER GONZALEZ",
+      "athlete_dob": "24/10/2017",
+      "athlete_id": "CAT-3789597",
+      "performance": "20.43",
+      "discipline": "Javelina (800 g)",
+      "raw_discipline_name": "Jabalina Vortex Hombres",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "POL VILANOVA ANGLES",
+      "athlete_dob": "1/3/2017",
+      "athlete_id": "CAT-3789595",
+      "performance": "17.30",
+      "discipline": "Javelina (800 g)",
+      "raw_discipline_name": "Jabalina Vortex Hombres",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "POL VILANOVA ANGLES",
+      "athlete_dob": "1/3/2017",
+      "athlete_id": "CAT-3789595",
+      "performance": "19.72",
+      "discipline": "Javelina (800 g)",
+      "raw_discipline_name": "Jabalina Vortex Hombres",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "POL VILANOVA ANGLES",
+      "athlete_dob": "1/3/2017",
+      "athlete_id": "CAT-3789595",
+      "performance": "15.52",
+      "discipline": "Javelina (800 g)",
+      "raw_discipline_name": "Jabalina Vortex Hombres",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "SAMUEL RODRIGUEZ BARRIOS",
+      "athlete_dob": "29/10/2016",
+      "athlete_id": "CL14914",
+      "performance": "11.11",
+      "discipline": "Javelina (800 g)",
+      "raw_discipline_name": "Jabalina Vortex Hombres",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "SAMUEL RODRIGUEZ BARRIOS",
+      "athlete_dob": "29/10/2016",
+      "athlete_id": "CL14914",
+      "performance": "16.00",
+      "discipline": "Javelina (800 g)",
+      "raw_discipline_name": "Jabalina Vortex Hombres",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "SAMUEL RODRIGUEZ BARRIOS",
+      "athlete_dob": "29/10/2016",
+      "athlete_id": "CL14914",
+      "performance": "13.26",
+      "discipline": "Javelina (800 g)",
+      "raw_discipline_name": "Jabalina Vortex Hombres",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "MARTI MATEU MONTULL",
+      "athlete_dob": "13/8/2016",
+      "athlete_id": "CL14916",
+      "performance": "11.78",
+      "discipline": "Javelina (800 g)",
+      "raw_discipline_name": "Jabalina Vortex Hombres",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "MARTI MATEU MONTULL",
+      "athlete_dob": "13/8/2016",
+      "athlete_id": "CL14916",
+      "performance": "11.62",
+      "discipline": "Javelina (800 g)",
+      "raw_discipline_name": "Jabalina Vortex Hombres",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "SERGI LOPEZ BESSO",
       "athlete_dob": "26/9/2017",
       "athlete_id": "CAT-3789593",
       "performance": "8.96",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m Hombres AL U10M",
-      "wind": "-0.8",
-      "internal_id": 1424
+      "discipline": "Javelina (800 g)",
+      "raw_discipline_name": "Jabalina Vortex Hombres",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "SERGI LOPEZ BESSO",
+      "athlete_dob": "26/9/2017",
+      "athlete_id": "CAT-3789593",
+      "performance": "7.97",
+      "discipline": "Javelina (800 g)",
+      "raw_discipline_name": "Jabalina Vortex Hombres",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "SERGI LOPEZ BESSO",
+      "athlete_dob": "26/9/2017",
+      "athlete_id": "CAT-3789593",
+      "performance": "11.46",
+      "discipline": "Javelina (800 g)",
+      "raw_discipline_name": "Jabalina Vortex Hombres",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ARIA ORTA PALLARES",
@@ -523,7 +373,7 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m Mujeres AL U10F",
       "wind": null,
-      "internal_id": 1427
+      "position": null
     },
     {
       "athlete_name": "PAULA PEREIRA CONTRERAS",
@@ -533,7 +383,7 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m Mujeres AL U10F",
       "wind": null,
-      "internal_id": 1402
+      "position": null
     },
     {
       "athlete_name": "SOFIA VEGA MARTINEZ",
@@ -543,17 +393,7 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m Mujeres AL U10F",
       "wind": null,
-      "internal_id": 1347
-    },
-    {
-      "athlete_name": "SOFIA VEGA MARTINEZ",
-      "athlete_dob": "9/8/2016",
-      "athlete_id": "CL14893",
-      "performance": "12.02",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m Mujeres AL U10F",
-      "wind": "+0.3",
-      "internal_id": 1347
+      "position": null
     },
     {
       "athlete_name": "GINESTA MARRUGAT CANADELL",
@@ -563,17 +403,7 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m Mujeres AL U10F",
       "wind": null,
-      "internal_id": 1404
-    },
-    {
-      "athlete_name": "GINESTA MARRUGAT CANADELL",
-      "athlete_dob": "10/12/2016",
-      "athlete_id": "CAT-3789549",
-      "performance": "8.63",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m Mujeres AL U10F",
-      "wind": "+0.3",
-      "internal_id": 1404
+      "position": null
     },
     {
       "athlete_name": "MARIA DA ROCHA SANTIBAÑEZ",
@@ -583,7 +413,7 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m Mujeres AL U10F",
       "wind": null,
-      "internal_id": 1419
+      "position": null
     },
     {
       "athlete_name": "BERTA GARCIA DOMINGUEZ",
@@ -593,17 +423,177 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m Mujeres AL U10F",
       "wind": null,
-      "internal_id": 1393
+      "position": null
+    },
+    {
+      "athlete_name": "SOFIA VEGA MARTINEZ",
+      "athlete_dob": "9/8/2016",
+      "athlete_id": "CL14893",
+      "performance": "04:07.60",
+      "discipline": "1000 metres llisos",
+      "raw_discipline_name": "1.000m Mujeres",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "BERTA GARCIA DOMINGUEZ",
+      "athlete_dob": "24/6/2016",
+      "athlete_id": "CL15061",
+      "performance": "04:13.70",
+      "discipline": "1000 metres llisos",
+      "raw_discipline_name": "1.000m Mujeres",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "ARIA ORTA PALLARES",
+      "athlete_dob": "24/2/2017",
+      "athlete_id": "CAT-3789552",
+      "performance": "04:18.60",
+      "discipline": "1000 metres llisos",
+      "raw_discipline_name": "1.000m Mujeres",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "SOFIA VEGA MARTINEZ",
+      "athlete_dob": "9/8/2016",
+      "athlete_id": "CL14893",
+      "performance": "2.74",
+      "discipline": "Llargada",
+      "raw_discipline_name": "Longitud Mujeres u14 U10F",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "BERTA GARCIA DOMINGUEZ",
+      "athlete_dob": "24/6/2016",
+      "athlete_id": "CL15061",
+      "performance": "2.72",
+      "discipline": "Llargada",
+      "raw_discipline_name": "Longitud Mujeres u14 U10F",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "GINESTA MARRUGAT CANADELL",
+      "athlete_dob": "10/12/2016",
+      "athlete_id": "CAT-3789549",
+      "performance": "2.49",
+      "discipline": "Llargada",
+      "raw_discipline_name": "Longitud Mujeres u14 U10F",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "ARIA ORTA PALLARES",
+      "athlete_dob": "24/2/2017",
+      "athlete_id": "CAT-3789552",
+      "performance": "2.39",
+      "discipline": "Llargada",
+      "raw_discipline_name": "Longitud Mujeres u14 U10F",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "MARIA DA ROCHA SANTIBAÑEZ",
+      "athlete_dob": "25/5/2016",
+      "athlete_id": "CAT-3789539",
+      "performance": "2.37",
+      "discipline": "Llargada",
+      "raw_discipline_name": "Longitud Mujeres u14 U10F",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "BERTA GARCIA DOMINGUEZ",
       "athlete_dob": "24/6/2016",
       "athlete_id": "CL15061",
       "performance": "13.89",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m Mujeres AL U10F",
-      "wind": "+0.3",
-      "internal_id": 1393
+      "discipline": "Javelina (600 g)",
+      "raw_discipline_name": "Jabalina Vortex Mujeres",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "BERTA GARCIA DOMINGUEZ",
+      "athlete_dob": "24/6/2016",
+      "athlete_id": "CL15061",
+      "performance": "14.44",
+      "discipline": "Javelina (600 g)",
+      "raw_discipline_name": "Jabalina Vortex Mujeres",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "BERTA GARCIA DOMINGUEZ",
+      "athlete_dob": "24/6/2016",
+      "athlete_id": "CL15061",
+      "performance": "16.53",
+      "discipline": "Javelina (600 g)",
+      "raw_discipline_name": "Jabalina Vortex Mujeres",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "SOFIA VEGA MARTINEZ",
+      "athlete_dob": "9/8/2016",
+      "athlete_id": "CL14893",
+      "performance": "12.02",
+      "discipline": "Javelina (600 g)",
+      "raw_discipline_name": "Jabalina Vortex Mujeres",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "SOFIA VEGA MARTINEZ",
+      "athlete_dob": "9/8/2016",
+      "athlete_id": "CL14893",
+      "performance": "14.02",
+      "discipline": "Javelina (600 g)",
+      "raw_discipline_name": "Jabalina Vortex Mujeres",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "SOFIA VEGA MARTINEZ",
+      "athlete_dob": "9/8/2016",
+      "athlete_id": "CL14893",
+      "performance": "16.29",
+      "discipline": "Javelina (600 g)",
+      "raw_discipline_name": "Jabalina Vortex Mujeres",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "GINESTA MARRUGAT CANADELL",
+      "athlete_dob": "10/12/2016",
+      "athlete_id": "CAT-3789549",
+      "performance": "8.63",
+      "discipline": "Javelina (600 g)",
+      "raw_discipline_name": "Jabalina Vortex Mujeres",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "GINESTA MARRUGAT CANADELL",
+      "athlete_dob": "10/12/2016",
+      "athlete_id": "CAT-3789549",
+      "performance": "7.93",
+      "discipline": "Javelina (600 g)",
+      "raw_discipline_name": "Jabalina Vortex Mujeres",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "GINESTA MARRUGAT CANADELL",
+      "athlete_dob": "10/12/2016",
+      "athlete_id": "CAT-3789549",
+      "performance": "8.21",
+      "discipline": "Javelina (600 g)",
+      "raw_discipline_name": "Jabalina Vortex Mujeres",
+      "wind": null,
+      "position": null
     }
   ]
 }

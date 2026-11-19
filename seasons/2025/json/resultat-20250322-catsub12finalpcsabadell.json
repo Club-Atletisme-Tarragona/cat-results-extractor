@@ -2,189 +2,9 @@
   "event_name": "Final Campionat Catalunya Sub12 PC",
   "event_date": "22/03/2025",
   "event_location": "Sabadell",
-  "total_results": 22,
+  "total_results": 20,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2025/03/resultat-20250322-catsub12finalpcsabadell.pdf",
   "results": [
-    {
-      "athlete_name": "POL DIAZ CRISTINO",
-      "athlete_dob": "3/2/2014",
-      "athlete_id": "CT2082",
-      "performance": "1:55.45",
-      "discipline": "600 metres llisos",
-      "raw_discipline_name": "600m Masculins",
-      "wind": null,
-      "internal_id": 1333
-    },
-    {
-      "athlete_name": "TEO POU FONTS",
-      "athlete_dob": "9/1/2015",
-      "athlete_id": "CL14903",
-      "performance": "7:18.21",
-      "discipline": "2000 metres llisos",
-      "raw_discipline_name": "2.000m Masculins",
-      "wind": null,
-      "internal_id": 1377
-    },
-    {
-      "athlete_name": "DANIEL LINARES ANTELO",
-      "athlete_dob": "10/7/2014",
-      "athlete_id": "CAT-3723389",
-      "performance": "10.26",
-      "discipline": "60 metres tanques (0.50)",
-      "raw_discipline_name": "60m tanques Masculins",
-      "wind": null,
-      "internal_id": 1403
-    },
-    {
-      "athlete_name": "DANIEL LINARES ANTELO",
-      "athlete_dob": "10/7/2014",
-      "athlete_id": "CAT-3723389",
-      "performance": "10.51",
-      "discipline": "60 metres tanques (0.50)",
-      "raw_discipline_name": "60m tanques Masculins",
-      "wind": null,
-      "internal_id": 1403
-    },
-    {
-      "athlete_name": "NIL TORRES PRATS",
-      "athlete_dob": "5/10/2014",
-      "athlete_id": "CL7611",
-      "performance": "1.36",
-      "discipline": "Alçada",
-      "raw_discipline_name": "Salt d'Alçada Masculí",
-      "wind": null,
-      "internal_id": 1341
-    },
-    {
-      "athlete_name": "ANTONIO BALAZOTE",
-      "athlete_dob": "1/5/2014",
-      "athlete_id": "CL11067",
-      "performance": "3.86",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Salt de LLargada Masculí",
-      "wind": null,
-      "internal_id": 1370
-    },
-    {
-      "athlete_name": "ANTONIO BALAZOTE",
-      "athlete_dob": "1/5/2014",
-      "athlete_id": "CL11067",
-      "performance": "3.01",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Salt de LLargada Masculí",
-      "wind": null,
-      "internal_id": 1370
-    },
-    {
-      "athlete_name": "ANTONIO BALAZOTE",
-      "athlete_dob": "1/5/2014",
-      "athlete_id": "CL11067",
-      "performance": "3.45",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Salt de LLargada Masculí",
-      "wind": null,
-      "internal_id": 1370
-    },
-    {
-      "athlete_name": "ANTONIO BALAZOTE",
-      "athlete_dob": "1/5/2014",
-      "athlete_id": "CL11067",
-      "performance": "3.35",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Salt de LLargada Masculí",
-      "wind": null,
-      "internal_id": 1370
-    },
-    {
-      "athlete_name": "ANTONIO BALAZOTE",
-      "athlete_dob": "1/5/2014",
-      "athlete_id": "CL11067",
-      "performance": "3.49",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Salt de LLargada Masculí",
-      "wind": null,
-      "internal_id": 1370
-    },
-    {
-      "athlete_name": "JOSE ANGEL MASIA URZUA",
-      "athlete_dob": "25/2/2015",
-      "athlete_id": "CL15467",
-      "performance": "1.75",
-      "discipline": "Perxa",
-      "raw_discipline_name": "Salt amb Perxa Masculí",
-      "wind": null,
-      "internal_id": 1389
-    },
-    {
-      "athlete_name": "Antonio BALAZOTE",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "performance": "2:04.10",
-      "discipline": "4x200",
-      "raw_discipline_name": "Relleus 4x200m Masculin",
-      "wind": null,
-      "internal_id": 1370
-    },
-    {
-      "athlete_name": "Daniel LINARES ANTELO",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "performance": "2:04.10",
-      "discipline": "4x200",
-      "raw_discipline_name": "Relleus 4x200m Masculin",
-      "wind": null,
-      "internal_id": 1403
-    },
-    {
-      "athlete_name": "Blai LLIGADAS TURON",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "performance": "2:04.10",
-      "discipline": "4x200",
-      "raw_discipline_name": "Relleus 4x200m Masculin",
-      "wind": null,
-      "internal_id": 1338
-    },
-    {
-      "athlete_name": "Nil TORRES PRATS",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "performance": "2:04.10",
-      "discipline": "4x200",
-      "raw_discipline_name": "Relleus 4x200m Masculin",
-      "wind": null,
-      "internal_id": 1341
-    },
-    {
-      "athlete_name": "JULIA DIEZ BERTRAN",
-      "athlete_dob": "3/2/2014",
-      "athlete_id": "CAT-3790507",
-      "performance": "10.25",
-      "discipline": "60 metres tanques (0.50)",
-      "raw_discipline_name": "60m tanques Femenins",
-      "wind": null,
-      "internal_id": 1430
-    },
-    {
-      "athlete_name": "JULIA DIEZ BERTRAN",
-      "athlete_dob": "3/2/2014",
-      "athlete_id": "CAT-3790507",
-      "performance": "10.52",
-      "discipline": "60 metres tanques (0.50)",
-      "raw_discipline_name": "60m tanques Femenins",
-      "wind": null,
-      "internal_id": 1430
-    },
-    {
-      "athlete_name": "ERIKA MARGALLO DEL VALLE",
-      "athlete_dob": "27/11/2014",
-      "athlete_id": "CL15267",
-      "performance": "1.50",
-      "discipline": "Perxa",
-      "raw_discipline_name": "Salt amb Perxa Femení",
-      "wind": null,
-      "internal_id": 1388
-    },
     {
       "athlete_name": "BLAI LLIGADAS TURON",
       "athlete_dob": "11/3/2015",
@@ -193,7 +13,7 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m Masculins",
       "wind": null,
-      "internal_id": 1338
+      "position": null
     },
     {
       "athlete_name": "ANTONIO BALAZOTE",
@@ -203,27 +23,187 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m Masculins",
       "wind": null,
-      "internal_id": 1370
+      "position": null
+    },
+    {
+      "athlete_name": "POL DIAZ CRISTINO",
+      "athlete_dob": "3/2/2014",
+      "athlete_id": "CT2082",
+      "performance": "1:55.45",
+      "discipline": "600 metres llisos",
+      "raw_discipline_name": "600m Masculins",
+      "wind": null,
+      "position": 7
+    },
+    {
+      "athlete_name": "TEO POU FONTS",
+      "athlete_dob": "9/1/2015",
+      "athlete_id": "CL14903",
+      "performance": "7:18.21",
+      "discipline": "2000 metres llisos",
+      "raw_discipline_name": "2.000m Masculins",
+      "wind": null,
+      "position": 10
     },
     {
       "athlete_name": "DANIEL LINARES ANTELO",
       "athlete_dob": "10/7/2014",
       "athlete_id": "CAT-3723389",
       "performance": "10.26",
-      "discipline": "200 metres llisos",
-      "raw_discipline_name": "200m Masculins",
+      "discipline": "60 metres tanques (0.50)",
+      "raw_discipline_name": "60m tanques Masculins",
       "wind": null,
-      "internal_id": 1403
+      "position": 3
+    },
+    {
+      "athlete_name": "DANIEL LINARES ANTELO",
+      "athlete_dob": "10/7/2014",
+      "athlete_id": "CAT-3723389",
+      "performance": "10.51",
+      "discipline": "60 metres tanques (0.50)",
+      "raw_discipline_name": "60m tanques Masculins",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "NIL TORRES PRATS",
+      "athlete_dob": "5/10/2014",
+      "athlete_id": "CL7611",
+      "performance": "1.36",
+      "discipline": "Alçada",
+      "raw_discipline_name": "Salt d'Alçada Masculí",
+      "wind": null,
+      "position": 2
+    },
+    {
+      "athlete_name": "ANTONIO BALAZOTE",
+      "athlete_dob": "1/5/2014",
+      "athlete_id": "CL11067",
+      "performance": "3.86",
+      "discipline": "Llargada",
+      "raw_discipline_name": "Salt de LLargada Masculí",
+      "wind": null,
+      "position": 7
+    },
+    {
+      "athlete_name": "ANTONIO BALAZOTE",
+      "athlete_dob": "1/5/2014",
+      "athlete_id": "CL11067",
+      "performance": "3.01",
+      "discipline": "Llargada",
+      "raw_discipline_name": "Salt de LLargada Masculí",
+      "wind": null,
+      "position": 7
+    },
+    {
+      "athlete_name": "ANTONIO BALAZOTE",
+      "athlete_dob": "1/5/2014",
+      "athlete_id": "CL11067",
+      "performance": "3.45",
+      "discipline": "Llargada",
+      "raw_discipline_name": "Salt de LLargada Masculí",
+      "wind": null,
+      "position": 7
+    },
+    {
+      "athlete_name": "ANTONIO BALAZOTE",
+      "athlete_dob": "1/5/2014",
+      "athlete_id": "CL11067",
+      "performance": "3.35",
+      "discipline": "Llargada",
+      "raw_discipline_name": "Salt de LLargada Masculí",
+      "wind": null,
+      "position": 7
+    },
+    {
+      "athlete_name": "ANTONIO BALAZOTE",
+      "athlete_dob": "1/5/2014",
+      "athlete_id": "CL11067",
+      "performance": "3.49",
+      "discipline": "Llargada",
+      "raw_discipline_name": "Salt de LLargada Masculí",
+      "wind": null,
+      "position": 7
+    },
+    {
+      "athlete_name": "JOSE ANGEL MASIA URZUA",
+      "athlete_dob": "25/2/2015",
+      "athlete_id": "CL15467",
+      "performance": "1.75",
+      "discipline": "Perxa",
+      "raw_discipline_name": "Salt amb Perxa Masculí",
+      "wind": null,
+      "position": 4
+    },
+    {
+      "athlete_name": "Antonio BALAZOTE",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "2:04.10",
+      "discipline": "4x200",
+      "raw_discipline_name": "Relleus 4x200m Masculin",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Daniel LINARES ANTELO",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "2:04.10",
+      "discipline": "4x200",
+      "raw_discipline_name": "Relleus 4x200m Masculin",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Blai LLIGADAS TURON",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "2:04.10",
+      "discipline": "4x200",
+      "raw_discipline_name": "Relleus 4x200m Masculin",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Nil TORRES PRATS",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "2:04.10",
+      "discipline": "4x200",
+      "raw_discipline_name": "Relleus 4x200m Masculin",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "JULIA DIEZ BERTRAN",
       "athlete_dob": "3/2/2014",
       "athlete_id": "CAT-3790507",
       "performance": "10.25",
-      "discipline": "200 metres llisos",
-      "raw_discipline_name": "200m Femenins",
+      "discipline": "60 metres tanques (0.50)",
+      "raw_discipline_name": "60m tanques Femenins",
       "wind": null,
-      "internal_id": 1430
+      "position": 4
+    },
+    {
+      "athlete_name": "JULIA DIEZ BERTRAN",
+      "athlete_dob": "3/2/2014",
+      "athlete_id": "CAT-3790507",
+      "performance": "10.52",
+      "discipline": "60 metres tanques (0.50)",
+      "raw_discipline_name": "60m tanques Femenins",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "ERIKA MARGALLO DEL VALLE",
+      "athlete_dob": "27/11/2014",
+      "athlete_id": "CL15267",
+      "performance": "1.50",
+      "discipline": "Perxa",
+      "raw_discipline_name": "Salt amb Perxa Femení",
+      "wind": null,
+      "position": 7
     }
   ]
 }

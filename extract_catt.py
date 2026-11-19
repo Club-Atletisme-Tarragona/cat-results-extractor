@@ -223,6 +223,10 @@ EVENT_PATTERNS = [
     # RFEA hurdles: "60m tanques (0,50) FEM AL"
     r'\d{1,3}(?:\.\d{3})?\s*m(?:t)?\s+(?:tanques|vallas)\s+(?:\(.*?\)\s+)?(?:MASC\.?|FEM\.?)\s*(?:PC|AL)',
     r'\d{1,3}(?:\.\d{3})?\s*metres\s+(?:llisos|tanques|vallas|obstacles|marxa|marxa)\s+(?:Sub\d+\s+)?(?:mascu\s*lins|Mascu\s*ins|femen\s*ins|femenina|masculina|Hombres|Mujeres|Masculí|Femení)',
+    # Steeplechase glued/word forms: "1.000m Obst.Femenins", "1.000m obstacles Masculins"
+    r'\d{1,3}(?:\.\d{3})?\s*m(t)?\s*(?:Obst\.?|obst[áa]culos|obstacles)\s*\.?\s*(?:Hombres|Mujeres|Masculins|Mascuins|Femenins|Mascul[íi]|Femen[íi])',
+    # Bare age-code track headers: "3.000m U14M", "2.000m U16F"
+    r'\d{1,3}(?:\.\d{3})?\s*m(t)?\s+U\d+[MF]',
 ]
 
 TRACK_PATTERNS = [
@@ -237,6 +241,10 @@ TRACK_PATTERNS = [
     r'\d{1,3}(?:\.\d{3})?\s*m(t)?\s*(?:tanques|vallas)?\s+(?:Abs|Sub\d+[-\d]*)\s+[MFHM]',
     # Speed control style: "60m S10M", "400m S10F", "200m AbsF", "300m S16M"
     r'\d{1,3}(?:\.\d{3})?\s*m(t)?\s*(?:tanques|vallas)?\s*(?:Abs(?:M|F|Mascuins|Femenins)?|S\d+[MFHM])',
+    # Steeplechase glued/word forms: "1.000m Obst.Femenins", "1.000m obstacles Masculins"
+    r'\d{1,3}(?:\.\d{3})?\s*m(t)?\s*(?:Obst\.?|obst[áa]culos|obstacles)\s*\.?\s*(?:Hombres|Mujeres|Masculins|Mascuins|Femenins|Mascul[íi]||Femen[íi])',
+    # Bare age-code track headers: "3.000m U14M", "2.000m U16F"
+    r'\d{1,3}(?:\.\d{3})?\s*m(t)?\s+U\d+[MF]',
     # Masters category events: "400m vallas (0,84) AL M55", "60m AL M50",
     # "100m vallas (0,84) AL M40", "60m vallas (0,91) CAD Hombres AL"
     r'\d{1,3}(?:\.\d{3})?\s*m(t)?\s*(?:tanques|vallas)?\s*(?:\(.*?\))?\s+(?:AL|CAD|JUV|INF|Abs|S\d+)\.?\s*(?:Hombres|Mujeres|Mixto)?\s*(?:[MFHM]\d{0,2})?\s*(?:AL|aire\s+libre)?',
@@ -1128,9 +1136,17 @@ def find_section_boundaries(lines):
         # "Pes (2Kg)") head per-event tables inside combined groups; make
         # them section boundaries so their rows keep the sub-event discipline.
         if is_bare_event_title(stripped):
-            if not any(idx == i for idx, _ in section_starts):
-                section_starts.append((i, stripped))
-                rfea_added.add(i)
+            # "Pasos intermedios" intermediate-split labels (400m / 800m /
+            # 1200m stacks inside pentathlon run events) are bare distances
+            # too, but head no results table - skip them.
+            near_split_label = any(
+                'Pasos intermedios' in lines[j]
+                for j in range(max(i - 8, 0), i)
+            )
+            if not near_split_label:
+                if not any(idx == i for idx, _ in section_starts):
+                    section_starts.append((i, stripped))
+                    rfea_added.add(i)
             continue
         # Abbreviated combined-events summary table headers ("Pto Dor Nombre
         # ... Marca" / "Pto Club ... Ptos") become their own section kind;

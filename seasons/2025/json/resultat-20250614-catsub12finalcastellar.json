@@ -2,7 +2,7 @@
   "event_name": "Final Campionat Catalunya Sub12 - Pista Municipal Atmo. Castellar Vallés",
   "event_date": "14/06/2025",
   "event_location": "Castellar del Vallès",
-  "total_results": 42,
+  "total_results": 39,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2025/07/resultat-20250614-catsub12finalcastellar.pdf",
   "results": [
     {
@@ -13,7 +13,7 @@
       "discipline": "2000 metres llisos",
       "raw_discipline_name": "2.000m Hombres AL",
       "wind": null,
-      "internal_id": 1436
+      "position": 9
     },
     {
       "athlete_name": "NIL TORRES PRATS",
@@ -23,7 +23,7 @@
       "discipline": "2000 metres llisos",
       "raw_discipline_name": "2.000m Hombres AL",
       "wind": null,
-      "internal_id": 1341
+      "position": 15
     },
     {
       "athlete_name": "ANTONIO BALAZOTE",
@@ -33,7 +33,7 @@
       "discipline": "60 metres tanques (0.50)",
       "raw_discipline_name": "60m vallas (0,50) Hombres AL",
       "wind": null,
-      "internal_id": 1370
+      "position": 3
     },
     {
       "athlete_name": "ANTONIO BALAZOTE",
@@ -43,7 +43,17 @@
       "discipline": "60 metres tanques (0.50)",
       "raw_discipline_name": "60m vallas (0,50) Hombres AL",
       "wind": null,
-      "internal_id": 1370
+      "position": null
+    },
+    {
+      "athlete_name": "DANIEL LINARES ANTELO",
+      "athlete_dob": "10/7/2014",
+      "athlete_id": "CL5416",
+      "performance": "12.06",
+      "discipline": "60 metres tanques (0.50)",
+      "raw_discipline_name": "60m vallas (0,50) Hombres AL",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "NIL TORRES PRATS",
@@ -53,7 +63,7 @@
       "discipline": "Alçada",
       "raw_discipline_name": "Altura Hombres",
       "wind": null,
-      "internal_id": 1341
+      "position": 3
     },
     {
       "athlete_name": "JOSE ANGEL MASIA URZUA",
@@ -63,7 +73,7 @@
       "discipline": "Perxa",
       "raw_discipline_name": "Pértiga Hombres",
       "wind": null,
-      "internal_id": 1389
+      "position": 8
     },
     {
       "athlete_name": "THIAGO SILVA ARANDA",
@@ -71,9 +81,9 @@
       "athlete_id": "CL11075",
       "performance": "7.51",
       "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) Hombres AL",
+      "raw_discipline_name": "Peso (2 Kg) Hombres AL",
       "wind": null,
-      "internal_id": 1350
+      "position": 6
     },
     {
       "athlete_name": "THIAGO SILVA ARANDA",
@@ -81,9 +91,9 @@
       "athlete_id": "CL11075",
       "performance": "7.83",
       "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) Hombres AL",
+      "raw_discipline_name": "Peso (2 Kg) Hombres AL",
       "wind": null,
-      "internal_id": 1350
+      "position": 6
     },
     {
       "athlete_name": "THIAGO SILVA ARANDA",
@@ -91,9 +101,9 @@
       "athlete_id": "CL11075",
       "performance": "7.69",
       "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) Hombres AL",
+      "raw_discipline_name": "Peso (2 Kg) Hombres AL",
       "wind": null,
-      "internal_id": 1350
+      "position": 6
     },
     {
       "athlete_name": "THIAGO SILVA ARANDA",
@@ -101,9 +111,9 @@
       "athlete_id": "CL11075",
       "performance": "7.50",
       "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) Hombres AL",
+      "raw_discipline_name": "Peso (2 Kg) Hombres AL",
       "wind": null,
-      "internal_id": 1350
+      "position": 6
     },
     {
       "athlete_name": "BLAI LLIGADAS TURON",
@@ -113,7 +123,7 @@
       "discipline": "Javelina (300 g)",
       "raw_discipline_name": "Jabalina plástico 300gr Hombres",
       "wind": null,
-      "internal_id": 1338
+      "position": 8
     },
     {
       "athlete_name": "BLAI LLIGADAS TURON",
@@ -123,7 +133,7 @@
       "discipline": "Javelina (300 g)",
       "raw_discipline_name": "Jabalina plástico 300gr Hombres",
       "wind": null,
-      "internal_id": 1338
+      "position": 8
     },
     {
       "athlete_name": "BLAI LLIGADAS TURON",
@@ -133,7 +143,7 @@
       "discipline": "Javelina (300 g)",
       "raw_discipline_name": "Jabalina plástico 300gr Hombres",
       "wind": null,
-      "internal_id": 1338
+      "position": 8
     },
     {
       "athlete_name": "BLAI LLIGADAS TURON",
@@ -143,7 +153,7 @@
       "discipline": "Javelina (300 g)",
       "raw_discipline_name": "Jabalina plástico 300gr Hombres",
       "wind": null,
-      "internal_id": 1338
+      "position": 8
     },
     {
       "athlete_name": "BLAI LLIGADAS TURON",
@@ -153,7 +163,7 @@
       "discipline": "Javelina (300 g)",
       "raw_discipline_name": "Jabalina plástico 300gr Hombres",
       "wind": null,
-      "internal_id": 1338
+      "position": 8
     },
     {
       "athlete_name": "BLAI LLIGADAS TURON",
@@ -163,217 +173,17 @@
       "discipline": "Javelina (300 g)",
       "raw_discipline_name": "Jabalina plástico 300gr Hombres",
       "wind": null,
-      "internal_id": 1338
-    },
-    {
-      "athlete_name": "NOA PASCUAL PRATS",
-      "athlete_dob": "27/2/2015",
-      "athlete_id": "CL10462",
-      "performance": "6.42",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg)Mujeres AL",
-      "wind": null,
-      "internal_id": 1380
-    },
-    {
-      "athlete_name": "NOA PASCUAL PRATS",
-      "athlete_dob": "27/2/2015",
-      "athlete_id": "CL10462",
-      "performance": "5.80",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg)Mujeres AL",
-      "wind": null,
-      "internal_id": 1380
-    },
-    {
-      "athlete_name": "NOA PASCUAL PRATS",
-      "athlete_dob": "27/2/2015",
-      "athlete_id": "CL10462",
-      "performance": "6.29",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg)Mujeres AL",
-      "wind": null,
-      "internal_id": 1380
-    },
-    {
-      "athlete_name": "NOA PASCUAL PRATS",
-      "athlete_dob": "27/2/2015",
-      "athlete_id": "CL10462",
-      "performance": "17.79",
-      "discipline": "Disc (600 g)",
-      "raw_discipline_name": "Disco (600g) Mujeres",
-      "wind": null,
-      "internal_id": 1380
-    },
-    {
-      "athlete_name": "NOA PASCUAL PRATS",
-      "athlete_dob": "27/2/2015",
-      "athlete_id": "CL10462",
-      "performance": "16.15",
-      "discipline": "Disc (600 g)",
-      "raw_discipline_name": "Disco (600g) Mujeres",
-      "wind": null,
-      "internal_id": 1380
-    },
-    {
-      "athlete_name": "NOA PASCUAL PRATS",
-      "athlete_dob": "27/2/2015",
-      "athlete_id": "CL10462",
-      "performance": "13.69",
-      "discipline": "Disc (600 g)",
-      "raw_discipline_name": "Disco (600g) Mujeres",
-      "wind": null,
-      "internal_id": 1380
-    },
-    {
-      "athlete_name": "NOA PASCUAL PRATS",
-      "athlete_dob": "27/2/2015",
-      "athlete_id": "CL10462",
-      "performance": "16.16",
-      "discipline": "Disc (600 g)",
-      "raw_discipline_name": "Disco (600g) Mujeres",
-      "wind": null,
-      "internal_id": 1380
-    },
-    {
-      "athlete_name": "SARA LOPEZ GARCIA",
-      "athlete_dob": "19/1/2015",
-      "athlete_id": "CL11066",
-      "performance": "11.75",
-      "discipline": "Disc (600 g)",
-      "raw_discipline_name": "Disco (600g) Mujeres",
-      "wind": null,
-      "internal_id": 1354
-    },
-    {
-      "athlete_name": "SARA LOPEZ GARCIA",
-      "athlete_dob": "19/1/2015",
-      "athlete_id": "CL11066",
-      "performance": "14.71",
-      "discipline": "Disc (600 g)",
-      "raw_discipline_name": "Disco (600g) Mujeres",
-      "wind": null,
-      "internal_id": 1354
-    },
-    {
-      "athlete_name": "SARA LOPEZ GARCIA",
-      "athlete_dob": "19/1/2015",
-      "athlete_id": "CL11066",
-      "performance": "12.14",
-      "discipline": "Disc (600 g)",
-      "raw_discipline_name": "Disco (600g) Mujeres",
-      "wind": null,
-      "internal_id": 1354
-    },
-    {
-      "athlete_name": "SARA LOPEZ GARCIA",
-      "athlete_dob": "19/1/2015",
-      "athlete_id": "CL11066",
-      "performance": "12.90",
-      "discipline": "Disc (600 g)",
-      "raw_discipline_name": "Disco (600g) Mujeres",
-      "wind": null,
-      "internal_id": 1354
-    },
-    {
-      "athlete_name": "SARA LOPEZ GARCIA",
-      "athlete_dob": "19/1/2015",
-      "athlete_id": "CL11066",
-      "performance": "14.44",
-      "discipline": "Disc (600 g)",
-      "raw_discipline_name": "Disco (600g) Mujeres",
-      "wind": null,
-      "internal_id": 1354
-    },
-    {
-      "athlete_name": "SARA LOPEZ GARCIA",
-      "athlete_dob": "19/1/2015",
-      "athlete_id": "CL11066",
-      "performance": "11.64",
-      "discipline": "Disc (600 g)",
-      "raw_discipline_name": "Disco (600g) Mujeres",
-      "wind": null,
-      "internal_id": 1354
-    },
-    {
-      "athlete_name": "AMELI TORRES ARBONES",
-      "athlete_dob": "27/1/2014",
-      "athlete_id": "CL15270",
-      "performance": "15.77",
-      "discipline": "Javelina (300 g)",
-      "raw_discipline_name": "Jabalina plástico 300gr Mujeres",
-      "wind": null,
-      "internal_id": 1394
-    },
-    {
-      "athlete_name": "AMELI TORRES ARBONES",
-      "athlete_dob": "27/1/2014",
-      "athlete_id": "CL15270",
-      "performance": "16.48",
-      "discipline": "Javelina (300 g)",
-      "raw_discipline_name": "Jabalina plástico 300gr Mujeres",
-      "wind": null,
-      "internal_id": 1394
-    },
-    {
-      "athlete_name": "AMELI TORRES ARBONES",
-      "athlete_dob": "27/1/2014",
-      "athlete_id": "CL15270",
-      "performance": "17.19",
-      "discipline": "Javelina (300 g)",
-      "raw_discipline_name": "Jabalina plástico 300gr Mujeres",
-      "wind": null,
-      "internal_id": 1394
-    },
-    {
-      "athlete_name": "AMELI TORRES ARBONES",
-      "athlete_dob": "27/1/2014",
-      "athlete_id": "CL15270",
-      "performance": "16.92",
-      "discipline": "Javelina (300 g)",
-      "raw_discipline_name": "Jabalina plástico 300gr Mujeres",
-      "wind": null,
-      "internal_id": 1394
-    },
-    {
-      "athlete_name": "AMELI TORRES ARBONES",
-      "athlete_dob": "27/1/2014",
-      "athlete_id": "CL15270",
-      "performance": "15.67",
-      "discipline": "Javelina (300 g)",
-      "raw_discipline_name": "Jabalina plástico 300gr Mujeres",
-      "wind": null,
-      "internal_id": 1394
-    },
-    {
-      "athlete_name": "ANTONIO BALAZOTE",
-      "athlete_dob": "1/5/2014",
-      "athlete_id": "CL11067",
-      "performance": "10.27",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m Hombres AL",
-      "wind": null,
-      "internal_id": 1370
-    },
-    {
-      "athlete_name": "THIAGO SILVA ARANDA",
-      "athlete_dob": "15/2/2015",
-      "athlete_id": "CL11075",
-      "performance": "7.51",
-      "discipline": "60 metres tanques (0.50)",
-      "raw_discipline_name": "60m vallas (0,50) Hombres AL",
-      "wind": null,
-      "internal_id": 1350
+      "position": 8
     },
     {
       "athlete_name": "JULIA DIEZ BERTRAN",
       "athlete_dob": "3/2/2014",
       "athlete_id": "CL95647",
       "performance": "10.32",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m Mujeres AL",
+      "discipline": "60 metres tanques (0.50)",
+      "raw_discipline_name": "60m vallas (0,50)Mujeres AL",
       "wind": null,
-      "internal_id": 1430
+      "position": 4
     },
     {
       "athlete_name": "JULIA DIEZ BERTRAN",
@@ -383,7 +193,7 @@
       "discipline": "60 metres tanques (0.50)",
       "raw_discipline_name": "60m vallas (0,50)Mujeres AL",
       "wind": null,
-      "internal_id": 1430
+      "position": null
     },
     {
       "athlete_name": "MONTSERRAT MARQUES CRUZ",
@@ -393,37 +203,197 @@
       "discipline": "60 metres tanques (0.50)",
       "raw_discipline_name": "60m vallas (0,50)Mujeres AL",
       "wind": null,
-      "internal_id": 1374
+      "position": null
     },
     {
       "athlete_name": "NOA PASCUAL PRATS",
       "athlete_dob": "27/2/2015",
       "athlete_id": "CL10462",
       "performance": "6.42",
-      "discipline": "60 metres tanques (0.50)",
-      "raw_discipline_name": "60m vallas (0,50)Mujeres AL",
+      "discipline": "Pes (2 Kg)",
+      "raw_discipline_name": "Peso (2 Kg)Mujeres AL",
       "wind": null,
-      "internal_id": 1380
+      "position": 11
+    },
+    {
+      "athlete_name": "NOA PASCUAL PRATS",
+      "athlete_dob": "27/2/2015",
+      "athlete_id": "CL10462",
+      "performance": "5.80",
+      "discipline": "Pes (2 Kg)",
+      "raw_discipline_name": "Peso (2 Kg)Mujeres AL",
+      "wind": null,
+      "position": 11
+    },
+    {
+      "athlete_name": "NOA PASCUAL PRATS",
+      "athlete_dob": "27/2/2015",
+      "athlete_id": "CL10462",
+      "performance": "6.29",
+      "discipline": "Pes (2 Kg)",
+      "raw_discipline_name": "Peso (2 Kg)Mujeres AL",
+      "wind": null,
+      "position": 11
+    },
+    {
+      "athlete_name": "NOA PASCUAL PRATS",
+      "athlete_dob": "27/2/2015",
+      "athlete_id": "CL10462",
+      "performance": "17.79",
+      "discipline": "Disc (600 g)",
+      "raw_discipline_name": "Disco (600g) Mujeres",
+      "wind": null,
+      "position": 1
+    },
+    {
+      "athlete_name": "NOA PASCUAL PRATS",
+      "athlete_dob": "27/2/2015",
+      "athlete_id": "CL10462",
+      "performance": "16.15",
+      "discipline": "Disc (600 g)",
+      "raw_discipline_name": "Disco (600g) Mujeres",
+      "wind": null,
+      "position": 1
+    },
+    {
+      "athlete_name": "NOA PASCUAL PRATS",
+      "athlete_dob": "27/2/2015",
+      "athlete_id": "CL10462",
+      "performance": "13.69",
+      "discipline": "Disc (600 g)",
+      "raw_discipline_name": "Disco (600g) Mujeres",
+      "wind": null,
+      "position": 1
+    },
+    {
+      "athlete_name": "NOA PASCUAL PRATS",
+      "athlete_dob": "27/2/2015",
+      "athlete_id": "CL10462",
+      "performance": "16.16",
+      "discipline": "Disc (600 g)",
+      "raw_discipline_name": "Disco (600g) Mujeres",
+      "wind": null,
+      "position": 1
     },
     {
       "athlete_name": "SARA LOPEZ GARCIA",
       "athlete_dob": "19/1/2015",
       "athlete_id": "CL11066",
       "performance": "11.75",
-      "discipline": "60 metres tanques (0.50)",
-      "raw_discipline_name": "60m vallas (0,50)Mujeres AL",
+      "discipline": "Disc (600 g)",
+      "raw_discipline_name": "Disco (600g) Mujeres",
       "wind": null,
-      "internal_id": 1354
+      "position": 5
     },
     {
-      "athlete_name": "DANIEL LINARES ANTELO",
-      "athlete_dob": "10/7/2014",
-      "athlete_id": "",
-      "performance": "12.06",
-      "discipline": "60 metres tanques (0.50)",
-      "raw_discipline_name": "60m vallas (0,50) Hombres AL",
+      "athlete_name": "SARA LOPEZ GARCIA",
+      "athlete_dob": "19/1/2015",
+      "athlete_id": "CL11066",
+      "performance": "14.71",
+      "discipline": "Disc (600 g)",
+      "raw_discipline_name": "Disco (600g) Mujeres",
       "wind": null,
-      "internal_id": 1403
+      "position": 5
+    },
+    {
+      "athlete_name": "SARA LOPEZ GARCIA",
+      "athlete_dob": "19/1/2015",
+      "athlete_id": "CL11066",
+      "performance": "12.14",
+      "discipline": "Disc (600 g)",
+      "raw_discipline_name": "Disco (600g) Mujeres",
+      "wind": null,
+      "position": 5
+    },
+    {
+      "athlete_name": "SARA LOPEZ GARCIA",
+      "athlete_dob": "19/1/2015",
+      "athlete_id": "CL11066",
+      "performance": "12.90",
+      "discipline": "Disc (600 g)",
+      "raw_discipline_name": "Disco (600g) Mujeres",
+      "wind": null,
+      "position": 5
+    },
+    {
+      "athlete_name": "SARA LOPEZ GARCIA",
+      "athlete_dob": "19/1/2015",
+      "athlete_id": "CL11066",
+      "performance": "14.44",
+      "discipline": "Disc (600 g)",
+      "raw_discipline_name": "Disco (600g) Mujeres",
+      "wind": null,
+      "position": 5
+    },
+    {
+      "athlete_name": "SARA LOPEZ GARCIA",
+      "athlete_dob": "19/1/2015",
+      "athlete_id": "CL11066",
+      "performance": "11.64",
+      "discipline": "Disc (600 g)",
+      "raw_discipline_name": "Disco (600g) Mujeres",
+      "wind": null,
+      "position": 5
+    },
+    {
+      "athlete_name": "AMELI TORRES ARBONES",
+      "athlete_dob": "27/1/2014",
+      "athlete_id": "CL15270",
+      "performance": "15.77",
+      "discipline": "Javelina (300 g)",
+      "raw_discipline_name": "Jabalina plástico 300gr Mujeres",
+      "wind": null,
+      "position": 8
+    },
+    {
+      "athlete_name": "AMELI TORRES ARBONES",
+      "athlete_dob": "27/1/2014",
+      "athlete_id": "CL15270",
+      "performance": "16.48",
+      "discipline": "Javelina (300 g)",
+      "raw_discipline_name": "Jabalina plástico 300gr Mujeres",
+      "wind": null,
+      "position": 8
+    },
+    {
+      "athlete_name": "AMELI TORRES ARBONES",
+      "athlete_dob": "27/1/2014",
+      "athlete_id": "CL15270",
+      "performance": "17.19",
+      "discipline": "Javelina (300 g)",
+      "raw_discipline_name": "Jabalina plástico 300gr Mujeres",
+      "wind": null,
+      "position": 8
+    },
+    {
+      "athlete_name": "AMELI TORRES ARBONES",
+      "athlete_dob": "27/1/2014",
+      "athlete_id": "CL15270",
+      "performance": "16.92",
+      "discipline": "Javelina (300 g)",
+      "raw_discipline_name": "Jabalina plástico 300gr Mujeres",
+      "wind": null,
+      "position": 8
+    },
+    {
+      "athlete_name": "AMELI TORRES ARBONES",
+      "athlete_dob": "27/1/2014",
+      "athlete_id": "CL15270",
+      "performance": "15.67",
+      "discipline": "Javelina (300 g)",
+      "raw_discipline_name": "Jabalina plástico 300gr Mujeres",
+      "wind": null,
+      "position": 8
+    },
+    {
+      "athlete_name": "MONTSERRAT MARQUES CRUZ",
+      "athlete_dob": "27/1/2015",
+      "athlete_id": "CL11596",
+      "performance": "12:36.60",
+      "discipline": "2000 metres marxa",
+      "raw_discipline_name": "2.000m Marcha Mujeres en pista",
+      "wind": null,
+      "position": 9
     }
   ]
 }

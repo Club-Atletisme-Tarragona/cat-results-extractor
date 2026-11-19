@@ -2,9 +2,19 @@
   "event_name": "Campionat Catalunya Proves Combinades Sub14 PC",
   "event_date": "29/03/2025",
   "event_location": "Sabadell",
-  "total_results": 10,
+  "total_results": 9,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2025/04/resultat-20250329-catcombinadessub14pcsabadell.pdf",
   "results": [
+    {
+      "athlete_name": "FERRAN MASCARO NAVARRO",
+      "athlete_dob": "2/6/2012",
+      "athlete_id": "CL96310",
+      "performance": "8.41",
+      "discipline": "60 metres llisos",
+      "raw_discipline_name": "60m SUB14 Masculins",
+      "wind": null,
+      "position": null
+    },
     {
       "athlete_name": "FERRAN MASCARO NAVARRO",
       "athlete_dob": "2/6/2012",
@@ -13,7 +23,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada SUB14 Masculina",
       "wind": null,
-      "internal_id": 1362
+      "position": null
     },
     {
       "athlete_name": "FERRAN MASCARO NAVARRO",
@@ -23,7 +33,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada SUB14 Masculina",
       "wind": null,
-      "internal_id": 1362
+      "position": null
     },
     {
       "athlete_name": "FERRAN MASCARO NAVARRO",
@@ -33,7 +43,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada SUB14 Masculina",
       "wind": null,
-      "internal_id": 1362
+      "position": null
     },
     {
       "athlete_name": "FERRAN MASCARO NAVARRO",
@@ -41,9 +51,9 @@
       "athlete_id": "CL96310",
       "performance": "8.04",
       "discipline": "Pes (3 Kg)",
-      "raw_discipline_name": "Pes (3kg) SUB14 Masculí",
+      "raw_discipline_name": "Pes (3 Kg) SUB14 Masculí",
       "wind": null,
-      "internal_id": 1362
+      "position": null
     },
     {
       "athlete_name": "FERRAN MASCARO NAVARRO",
@@ -51,9 +61,9 @@
       "athlete_id": "CL96310",
       "performance": "7.43",
       "discipline": "Pes (3 Kg)",
-      "raw_discipline_name": "Pes (3kg) SUB14 Masculí",
+      "raw_discipline_name": "Pes (3 Kg) SUB14 Masculí",
       "wind": null,
-      "internal_id": 1362
+      "position": null
     },
     {
       "athlete_name": "FERRAN MASCARO NAVARRO",
@@ -61,49 +71,29 @@
       "athlete_id": "CL96310",
       "performance": "7.06",
       "discipline": "Pes (3 Kg)",
-      "raw_discipline_name": "Pes (3kg) SUB14 Masculí",
+      "raw_discipline_name": "Pes (3 Kg) SUB14 Masculí",
       "wind": null,
-      "internal_id": 1362
+      "position": null
     },
     {
       "athlete_name": "FERRAN MASCARO NAVARRO",
       "athlete_dob": "2/6/2012",
       "athlete_id": "CL96310",
-      "performance": "1.38",
+      "performance": "1.29",
       "discipline": "Alçada",
       "raw_discipline_name": "Alçada SUB14 Masculina",
       "wind": null,
-      "internal_id": 1362
+      "position": null
     },
     {
       "athlete_name": "FERRAN MASCARO NAVARRO",
       "athlete_dob": "2/6/2012",
-      "athlete_id": "CL96310",
+      "athlete_id": "",
       "performance": "1381",
       "discipline": "Tetratló",
       "raw_discipline_name": "Tetratló Masculina Sub14",
       "wind": null,
-      "internal_id": 1362
-    },
-    {
-      "athlete_name": "FERRAN MASCARO NAVARRO",
-      "athlete_dob": "2/6/2012",
-      "athlete_id": "CL96310",
-      "performance": "8.41",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m SUB14 Masculins",
-      "wind": null,
-      "internal_id": 1362
-    },
-    {
-      "athlete_name": "FERRAN MASCARO NAVARRO",
-      "athlete_dob": "2/6/2012",
-      "athlete_id": "CL96310",
-      "performance": "8.04",
-      "discipline": "60 metres llisos",
-      "raw_discipline_name": "60m SUB14 Masculins",
-      "wind": null,
-      "internal_id": 1362
+      "position": null
     }
   ]
 }

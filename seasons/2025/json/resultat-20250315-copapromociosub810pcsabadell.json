@@ -2,69 +2,9 @@
   "event_name": " - Copa Promoció Sub8-Sub10 Pista Coberta",
   "event_date": "15/03/2025",
   "event_location": "Sabadell",
-  "total_results": 26,
+  "total_results": 27,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2025/03/resultat-20250315-copapromociosub810pcsabadell.pdf",
   "results": [
-    {
-      "athlete_name": "EDAHI ROIG GUASCH",
-      "athlete_dob": "7/4/2017",
-      "athlete_id": "CL14626",
-      "performance": "3.63",
-      "discipline": "Pes (7.260 Kg)",
-      "raw_discipline_name": "Pes Masculí Sub10",
-      "wind": null,
-      "internal_id": 1417
-    },
-    {
-      "athlete_name": "Edahi ROIG GUASCH",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "performance": "2:39.29",
-      "discipline": "4x200",
-      "raw_discipline_name": "4x200m Mixtos Sub10",
-      "wind": null,
-      "internal_id": 1417
-    },
-    {
-      "athlete_name": "Gerard BARBER GONZALEZ",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "performance": "2:39.29",
-      "discipline": "4x200",
-      "raw_discipline_name": "4x200m Mixtos Sub10",
-      "wind": null,
-      "internal_id": 1359
-    },
-    {
-      "athlete_name": "Ginesta MARRUGAT CANADELL",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "performance": "2:39.29",
-      "discipline": "4x200",
-      "raw_discipline_name": "4x200m Mixtos Sub10",
-      "wind": null,
-      "internal_id": 1404
-    },
-    {
-      "athlete_name": "Maria DA ROCHA SANTIBAÑEZ",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "performance": "2:39.29",
-      "discipline": "4x200",
-      "raw_discipline_name": "4x200m Mixtos Sub10",
-      "wind": null,
-      "internal_id": 1419
-    },
-    {
-      "athlete_name": "ADA FELIU LORCA",
-      "athlete_dob": "7/5/2016",
-      "athlete_id": "CL15054",
-      "performance": "1.00",
-      "discipline": "Alçada",
-      "raw_discipline_name": "Alçada Femenina Sub10F",
-      "wind": null,
-      "internal_id": 1368
-    },
     {
       "athlete_name": "SERGI AGUZA PIQUERAS",
       "athlete_dob": "21/4/2016",
@@ -73,7 +13,7 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m Masculins Sub10",
       "wind": null,
-      "internal_id": 1355
+      "position": null
     },
     {
       "athlete_name": "SAMUEL RODRIGUEZ BARRIOS",
@@ -83,7 +23,7 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m Masculins Sub10",
       "wind": null,
-      "internal_id": 1390
+      "position": null
     },
     {
       "athlete_name": "MARTI MATEU MONTULL",
@@ -93,7 +33,7 @@
       "discipline": "1000 metres llisos",
       "raw_discipline_name": "1000m Masculins Sub10",
       "wind": null,
-      "internal_id": 1353
+      "position": null
     },
     {
       "athlete_name": "MARTI MATEU MONTULL",
@@ -103,7 +43,7 @@
       "discipline": "Alçada",
       "raw_discipline_name": "Alçada Masculina Sub10",
       "wind": null,
-      "internal_id": 1353
+      "position": null
     },
     {
       "athlete_name": "SERGI AGUZA PIQUERAS",
@@ -113,7 +53,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada Masculina Sub10",
       "wind": null,
-      "internal_id": 1355
+      "position": null
     },
     {
       "athlete_name": "SAMUEL RODRIGUEZ BARRIOS",
@@ -123,17 +63,57 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada Masculina Sub10",
       "wind": null,
-      "internal_id": 1390
+      "position": null
     },
     {
       "athlete_name": "EDAHI ROIG GUASCH",
       "athlete_dob": "7/4/2017",
       "athlete_id": "CL14626",
       "performance": "3.63",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada Masculina Sub10",
+      "discipline": "Pes (7.260 Kg)",
+      "raw_discipline_name": "Pes Masculí Sub10",
       "wind": null,
-      "internal_id": 1417
+      "position": null
+    },
+    {
+      "athlete_name": "Edahi ROIG GUASCH",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "2:39.29",
+      "discipline": "4x200",
+      "raw_discipline_name": "4x200m Mixtos Sub10",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Gerard BARBER GONZALEZ",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "2:39.29",
+      "discipline": "4x200",
+      "raw_discipline_name": "4x200m Mixtos Sub10",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Ginesta MARRUGAT CANADELL",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "2:39.29",
+      "discipline": "4x200",
+      "raw_discipline_name": "4x200m Mixtos Sub10",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Maria DA ROCHA SANTIBAÑEZ",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "2:39.29",
+      "discipline": "4x200",
+      "raw_discipline_name": "4x200m Mixtos Sub10",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "BERTA GARCIA DOMINGUEZ",
@@ -143,7 +123,17 @@
       "discipline": "1000 metres llisos",
       "raw_discipline_name": "1000m Femenins Sub10F",
       "wind": null,
-      "internal_id": 1393
+      "position": null
+    },
+    {
+      "athlete_name": "ADA FELIU LORCA",
+      "athlete_dob": "7/5/2016",
+      "athlete_id": "CL15054",
+      "performance": "1.00",
+      "discipline": "Alçada",
+      "raw_discipline_name": "Alçada Femenina Sub10F",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "BERTA GARCIA DOMINGUEZ",
@@ -153,7 +143,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada Femenina Sub10F",
       "wind": null,
-      "internal_id": 1393
+      "position": null
     },
     {
       "athlete_name": "MARIA DA ROCHA SANTIBAÑEZ",
@@ -163,7 +153,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada Femenina Sub10F",
       "wind": null,
-      "internal_id": 1419
+      "position": null
     },
     {
       "athlete_name": "ARIA ORTA PALLARES",
@@ -173,17 +163,37 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada Femenina Sub10F",
       "wind": null,
-      "internal_id": 1427
+      "position": null
+    },
+    {
+      "athlete_name": "ADA FELIU LORCA",
+      "athlete_dob": "7/5/2016",
+      "athlete_id": "CL15054",
+      "performance": "3.29",
+      "discipline": "Pes (4 Kg)",
+      "raw_discipline_name": "Pes Femení Sub10F",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "ADA FELIU LORCA",
+      "athlete_dob": "7/5/2016",
+      "athlete_id": "CL15054",
+      "performance": "3.64",
+      "discipline": "Pes (4 Kg)",
+      "raw_discipline_name": "Pes Femení Sub10F",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ADA FELIU LORCA",
       "athlete_dob": "7/5/2016",
       "athlete_id": "CL15054",
       "performance": "3.71",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada Femenina Sub10F",
+      "discipline": "Pes (4 Kg)",
+      "raw_discipline_name": "Pes Femení Sub10F",
       "wind": null,
-      "internal_id": 1368
+      "position": null
     },
     {
       "athlete_name": "EIZAN FONSECA BUENO",
@@ -193,7 +203,7 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m Masculins Sub10",
       "wind": null,
-      "internal_id": null
+      "position": null
     },
     {
       "athlete_name": "LEO COBO GOMEZ",
@@ -203,7 +213,7 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m Masculins Sub10",
       "wind": null,
-      "internal_id": null
+      "position": null
     },
     {
       "athlete_name": "EDAHI ROIG GUASCH",
@@ -213,7 +223,7 @@
       "discipline": "1000 metres llisos",
       "raw_discipline_name": "1000m Masculins Sub10",
       "wind": null,
-      "internal_id": 1417
+      "position": null
     },
     {
       "athlete_name": "NIL PASCUAL PRATS",
@@ -223,7 +233,7 @@
       "discipline": "1000 metres llisos",
       "raw_discipline_name": "1000m Masculins Sub10",
       "wind": null,
-      "internal_id": 1381
+      "position": null
     },
     {
       "athlete_name": "SERGI LOPEZ BESSO",
@@ -233,7 +243,7 @@
       "discipline": "1000 metres llisos",
       "raw_discipline_name": "1000m Masculins Sub10",
       "wind": null,
-      "internal_id": 1424
+      "position": null
     },
     {
       "athlete_name": "LEO COBO GOMEZ",
@@ -243,7 +253,7 @@
       "discipline": "1000 metres llisos",
       "raw_discipline_name": "1000m Masculins Sub10",
       "wind": null,
-      "internal_id": null
+      "position": null
     },
     {
       "athlete_name": "EIZAN FONSECA BUENO",
@@ -253,7 +263,7 @@
       "discipline": "1000 metres llisos",
       "raw_discipline_name": "1000m Masculins Sub10",
       "wind": null,
-      "internal_id": null
+      "position": null
     },
     {
       "athlete_name": "GINESTA MARRUGAT CANADELL",
@@ -263,7 +273,7 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m Femenins Sub10F",
       "wind": null,
-      "internal_id": 1404
+      "position": null
     }
   ]
 }

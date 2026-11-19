@@ -2,59 +2,9 @@
   "event_name": "Campionat de Catalunya Sub23 - Pista de Atletismo de El Vendrell",
   "event_date": "21/06/2025",
   "event_location": "El Vendrell",
-  "total_results": 10,
+  "total_results": 9,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2025/06/resultat-20250621-catsub23elvendrell.pdf",
   "results": [
-    {
-      "athlete_name": "CLAUDIA MIR CASELLAS",
-      "athlete_dob": "2/8/2003",
-      "athlete_id": "CT152",
-      "performance": "1:02.23",
-      "discipline": "400 metres tanques (0.762)",
-      "raw_discipline_name": "400m tanques Femení",
-      "wind": null,
-      "internal_id": 699
-    },
-    {
-      "athlete_name": "RUTH PRATS NADAL",
-      "athlete_dob": "31/1/2004",
-      "athlete_id": "CAT-3743012-A",
-      "performance": "1.50",
-      "discipline": "Alçada",
-      "raw_discipline_name": "Alçada Femení",
-      "wind": null,
-      "internal_id": 915
-    },
-    {
-      "athlete_name": "NATALIA SANCHEZ ALVAREZ",
-      "athlete_dob": "28/5/2005",
-      "athlete_id": "CAT-3754208",
-      "performance": "5.25",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada Femení",
-      "wind": "1.6",
-      "internal_id": 796
-    },
-    {
-      "athlete_name": "NATALIA SANCHEZ ALVAREZ",
-      "athlete_dob": "28/5/2005",
-      "athlete_id": "CAT-3754208",
-      "performance": "5.31",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada Femení",
-      "wind": "1.7",
-      "internal_id": 796
-    },
-    {
-      "athlete_name": "NATALIA SANCHEZ ALVAREZ",
-      "athlete_dob": "28/5/2005",
-      "athlete_id": "CAT-3754208",
-      "performance": "5.27",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada Femení",
-      "wind": "1.8",
-      "internal_id": 796
-    },
     {
       "athlete_name": "HUGO JULES SAIZ SANTOLARIA",
       "athlete_dob": "31/1/2005",
@@ -63,7 +13,7 @@
       "discipline": "100 metres llisos",
       "raw_discipline_name": "100m Masculí",
       "wind": "+4.1",
-      "internal_id": 808
+      "position": null
     },
     {
       "athlete_name": "HUGO JULES SAIZ SANTOLARIA",
@@ -73,7 +23,7 @@
       "discipline": "200 metres llisos",
       "raw_discipline_name": "200m Masculí",
       "wind": "+2.5",
-      "internal_id": 808
+      "position": null
     },
     {
       "athlete_name": "POL AIXALA GUIU OR",
@@ -83,17 +33,57 @@
       "discipline": "400 metres llisos",
       "raw_discipline_name": "400m Masculí",
       "wind": null,
-      "internal_id": 733
+      "position": 1
     },
     {
       "athlete_name": "CLAUDIA MIR CASELLAS",
       "athlete_dob": "2/8/2003",
       "athlete_id": "CT152",
       "performance": "1:02.23",
-      "discipline": "400 metres llisos",
-      "raw_discipline_name": "400m Femení",
+      "discipline": "400 metres tanques (0.762)",
+      "raw_discipline_name": "400m tanques Femení",
       "wind": null,
-      "internal_id": 699
+      "position": 3
+    },
+    {
+      "athlete_name": "RUTH PRATS NADAL",
+      "athlete_dob": "31/1/2004",
+      "athlete_id": "CAT-3743012-A",
+      "performance": "1.50",
+      "discipline": "Alçada",
+      "raw_discipline_name": "Alçada Femení",
+      "wind": null,
+      "position": 4
+    },
+    {
+      "athlete_name": "NATALIA SANCHEZ ALVAREZ",
+      "athlete_dob": "28/5/2005",
+      "athlete_id": "CAT-3754208",
+      "performance": "5.25",
+      "discipline": "Llargada",
+      "raw_discipline_name": "Llargada Femení",
+      "wind": "1.6",
+      "position": 4
+    },
+    {
+      "athlete_name": "NATALIA SANCHEZ ALVAREZ",
+      "athlete_dob": "28/5/2005",
+      "athlete_id": "CAT-3754208",
+      "performance": "5.31",
+      "discipline": "Llargada",
+      "raw_discipline_name": "Llargada Femení",
+      "wind": "1.7",
+      "position": 4
+    },
+    {
+      "athlete_name": "NATALIA SANCHEZ ALVAREZ",
+      "athlete_dob": "28/5/2005",
+      "athlete_id": "CAT-3754208",
+      "performance": "5.27",
+      "discipline": "Llargada",
+      "raw_discipline_name": "Llargada Femení",
+      "wind": "1.8",
+      "position": 4
     },
     {
       "athlete_name": "POL AIXALA GUIU",
@@ -103,7 +93,7 @@
       "discipline": "400 metres llisos",
       "raw_discipline_name": "400m Masculí",
       "wind": null,
-      "internal_id": 733
+      "position": null
     }
   ]
 }

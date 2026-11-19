@@ -2,7 +2,7 @@
   "event_name": "Campionat de Catalunya de Pentatló de Llançaments Màster",
   "event_date": "27/09/2025",
   "event_location": "L'Hospitalet de Llobregat",
-  "total_results": 40,
+  "total_results": 24,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2025/09/resultat-20250927-catpentatlollancamentsmasterlhospitalet.pdf",
   "results": [
     {
@@ -11,9 +11,9 @@
       "athlete_id": "CT18394",
       "performance": "18.86",
       "discipline": "Martell (4 Kg)",
-      "raw_discipline_name": "Martillo (4kg) Hombres Master M75",
+      "raw_discipline_name": "Martillo (4 Kg) Hombres Master M75",
       "wind": null,
-      "internal_id": 326
+      "position": null
     },
     {
       "athlete_name": "DIDAC EXPOSITO GARCIA",
@@ -21,9 +21,9 @@
       "athlete_id": "CT3967",
       "performance": "24.20",
       "discipline": "Martell (6 Kg)",
-      "raw_discipline_name": "Martillo (6kg) Hombres Master M50",
+      "raw_discipline_name": "Martillo (6 Kg) Hombres Master M50",
       "wind": null,
-      "internal_id": 44
+      "position": null
     },
     {
       "athlete_name": "FRANCISCO GRIÑANT ALMAGRO",
@@ -31,9 +31,9 @@
       "athlete_id": "CT18394",
       "performance": "5.02",
       "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Peso (4kg) Hombres AL Master M75",
+      "raw_discipline_name": "Peso (4 Kg) Hombres AL Master M75",
       "wind": null,
-      "internal_id": 326
+      "position": null
     },
     {
       "athlete_name": "DIDAC EXPOSITO GARCIA",
@@ -41,9 +41,9 @@
       "athlete_id": "CT3967",
       "performance": "11.47",
       "discipline": "Pes (6 Kg)",
-      "raw_discipline_name": "Peso (6kg) Hombres AL Master M50",
+      "raw_discipline_name": "Peso (6 Kg) Hombres AL Master M50",
       "wind": null,
-      "internal_id": 44
+      "position": null
     },
     {
       "athlete_name": "DIDAC EXPOSITO GARCIA",
@@ -51,9 +51,9 @@
       "athlete_id": "CT3967",
       "performance": "31.92",
       "discipline": "Disc (1,5 Kg)",
-      "raw_discipline_name": "Disco (1,5kg) Hombres Master M50",
+      "raw_discipline_name": "Disco (1,5 Kg) Hombres Master M50",
       "wind": null,
-      "internal_id": 44
+      "position": null
     },
     {
       "athlete_name": "FRANCISCO GRIÑANT ALMAGRO",
@@ -61,9 +61,9 @@
       "athlete_id": "CT18394",
       "performance": "17.83",
       "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "Disco (1kg) Hombres Master M75",
+      "raw_discipline_name": "Disco (1 Kg) Hombres Master M75",
       "wind": null,
-      "internal_id": 326
+      "position": null
     },
     {
       "athlete_name": "FRANCISCO GRIÑANT ALMAGRO",
@@ -73,7 +73,7 @@
       "discipline": "Javelina (500 g)",
       "raw_discipline_name": "Jabalina (500g) Hombres Master M75",
       "wind": null,
-      "internal_id": 326
+      "position": null
     },
     {
       "athlete_name": "DIDAC EXPOSITO GARCIA",
@@ -83,7 +83,7 @@
       "discipline": "Javelina (700 g)",
       "raw_discipline_name": "Jabalina (700g) Hombres Master M50",
       "wind": null,
-      "internal_id": 44
+      "position": null
     },
     {
       "athlete_name": "DIDAC EXPOSITO GARCIA",
@@ -93,7 +93,7 @@
       "discipline": "Martell (7.260 Kg)",
       "raw_discipline_name": "Martillo Pesado Hombres 50-59 Master M50",
       "wind": null,
-      "internal_id": 44
+      "position": null
     },
     {
       "athlete_name": "FRANCISCO GRIÑANT ALMAGRO",
@@ -103,7 +103,27 @@
       "discipline": "Martell (7.260 Kg)",
       "raw_discipline_name": "Martillo Pesado Hombres 70-79 Master M75",
       "wind": null,
-      "internal_id": 326
+      "position": null
+    },
+    {
+      "athlete_name": "DIDAC EXPOSITO GARCIA",
+      "athlete_dob": "4/8/1973",
+      "athlete_id": "",
+      "performance": "2266",
+      "discipline": "Pentatló",
+      "raw_discipline_name": "Pentathlon Lanzamientos Hombres 50-59 Master M50",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "FRANCISCO GRIÑANT ALMAGRO",
+      "athlete_dob": "4/8/1947",
+      "athlete_id": "CT18394",
+      "performance": "1569",
+      "discipline": "Pentatló",
+      "raw_discipline_name": "Pentathlon Lanzamientos Hombres 70-79 Master M75",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "BARBARA PINTADO DUCH",
@@ -111,9 +131,9 @@
       "athlete_id": "CT13219",
       "performance": "29.15",
       "discipline": "Martell (4 Kg)",
-      "raw_discipline_name": "Martillo (4kg) Mujeres MF40",
+      "raw_discipline_name": "Martillo (4 Kg) Mujeres MF40",
       "wind": null,
-      "internal_id": 159
+      "position": null
     },
     {
       "athlete_name": "LIDIA GOMEZ DIAZ",
@@ -121,9 +141,9 @@
       "athlete_id": "",
       "performance": "42.60",
       "discipline": "Martell (4 Kg)",
-      "raw_discipline_name": "Martillo (4kg) Mujeres SF",
+      "raw_discipline_name": "Martillo (4 Kg) Mujeres SF",
       "wind": null,
-      "internal_id": 1039
+      "position": null
     },
     {
       "athlete_name": "BARBARA PINTADO DUCH",
@@ -131,9 +151,9 @@
       "athlete_id": "CT13219",
       "performance": "8.76",
       "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Peso (4kg) Mujeres AL MF40",
+      "raw_discipline_name": "Peso (4 Kg) Mujeres AL MF40",
       "wind": null,
-      "internal_id": 159
+      "position": null
     },
     {
       "athlete_name": "LIDIA GOMEZ DIAZ",
@@ -141,9 +161,9 @@
       "athlete_id": "",
       "performance": "7.57",
       "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Peso (4kg) Mujeres AL SF",
+      "raw_discipline_name": "Peso (4 Kg) Mujeres AL SF",
       "wind": null,
-      "internal_id": 1039
+      "position": null
     },
     {
       "athlete_name": "BARBARA PINTADO DUCH",
@@ -151,9 +171,9 @@
       "athlete_id": "CT13219",
       "performance": "33.42",
       "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "Disco (1kg) Mujeres MF40",
+      "raw_discipline_name": "Disco (1 Kg) Mujeres MF40",
       "wind": null,
-      "internal_id": 159
+      "position": null
     },
     {
       "athlete_name": "LIDIA GOMEZ DIAZ",
@@ -161,9 +181,9 @@
       "athlete_id": "",
       "performance": "23.88",
       "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "Disco (1kg) Mujeres SF",
+      "raw_discipline_name": "Disco (1 Kg) Mujeres SF",
       "wind": null,
-      "internal_id": 1039
+      "position": null
     },
     {
       "athlete_name": "BARBARA PINTADO DUCH",
@@ -173,7 +193,7 @@
       "discipline": "Javelina (600 g)",
       "raw_discipline_name": "Jabalina (600g) Mujeres MF40",
       "wind": null,
-      "internal_id": 159
+      "position": null
     },
     {
       "athlete_name": "LIDIA GOMEZ DIAZ",
@@ -183,7 +203,7 @@
       "discipline": "Javelina (600 g)",
       "raw_discipline_name": "Jabalina (600g) Mujeres SF",
       "wind": null,
-      "internal_id": 1039
+      "position": null
     },
     {
       "athlete_name": "BARBARA PINTADO DUCH",
@@ -193,7 +213,7 @@
       "discipline": "Martell (4 Kg)",
       "raw_discipline_name": "Martillo Pesado Mujeres 35-49 MF40",
       "wind": null,
-      "internal_id": 159
+      "position": null
     },
     {
       "athlete_name": "LIDIA GOMEZ DIAZ",
@@ -203,207 +223,27 @@
       "discipline": "Martell (4 Kg)",
       "raw_discipline_name": "Martillo Pesado Mujeres 35-49 SF",
       "wind": null,
-      "internal_id": 1039
-    },
-    {
-      "athlete_name": "FRANCISCO GRIÑANT ALMAGRO",
-      "athlete_dob": "4/8/1947",
-      "athlete_id": "CT18394",
-      "performance": "18.86",
-      "discipline": "Martell (7.260 Kg)",
-      "raw_discipline_name": "18:00   Martillo Pesado Hombres 70-79 Master M…                                     Combinadas",
-      "wind": null,
-      "internal_id": 326
-    },
-    {
-      "athlete_name": "FRANCISCO GRIÑANT ALMAGRO",
-      "athlete_dob": "4/8/1947",
-      "athlete_id": "CT18394",
-      "performance": "5.02",
-      "discipline": "Martell (7.260 Kg)",
-      "raw_discipline_name": "18:00   Martillo Pesado Hombres 70-79 Master M…                                     Combinadas",
-      "wind": null,
-      "internal_id": 326
-    },
-    {
-      "athlete_name": "FRANCISCO GRIÑANT ALMAGRO",
-      "athlete_dob": "4/8/1947",
-      "athlete_id": "CT18394",
-      "performance": "17.83",
-      "discipline": "Martell (7.260 Kg)",
-      "raw_discipline_name": "18:00   Martillo Pesado Hombres 70-79 Master M…                                     Combinadas",
-      "wind": null,
-      "internal_id": 326
-    },
-    {
-      "athlete_name": "FRANCISCO GRIÑANT ALMAGRO",
-      "athlete_dob": "4/8/1947",
-      "athlete_id": "CT18394",
-      "performance": "11.46",
-      "discipline": "Martell (7.260 Kg)",
-      "raw_discipline_name": "18:00   Martillo Pesado Hombres 70-79 Master M…                                     Combinadas",
-      "wind": null,
-      "internal_id": 326
-    },
-    {
-      "athlete_name": "FRANCISCO GRIÑANT ALMAGRO",
-      "athlete_dob": "4/8/1947",
-      "athlete_id": "CT18394",
-      "performance": "8.29",
-      "discipline": "Martell (7.260 Kg)",
-      "raw_discipline_name": "18:00   Martillo Pesado Hombres 70-79 Master M…                                     Combinadas",
-      "wind": null,
-      "internal_id": 326
-    },
-    {
-      "athlete_name": "DIDAC EXPOSITO GARCIA",
-      "athlete_dob": "4/8/1973",
-      "athlete_id": "CT3967",
-      "performance": "24.20",
-      "discipline": "Martell (7.260 Kg)",
-      "raw_discipline_name": "18:00   Martillo Pesado Hombres 70-79 Master M…                                     Combinadas",
-      "wind": null,
-      "internal_id": 44
-    },
-    {
-      "athlete_name": "DIDAC EXPOSITO GARCIA",
-      "athlete_dob": "4/8/1973",
-      "athlete_id": "CT3967",
-      "performance": "11.47",
-      "discipline": "Martell (7.260 Kg)",
-      "raw_discipline_name": "18:00   Martillo Pesado Hombres 70-79 Master M…                                     Combinadas",
-      "wind": null,
-      "internal_id": 44
-    },
-    {
-      "athlete_name": "DIDAC EXPOSITO GARCIA",
-      "athlete_dob": "4/8/1973",
-      "athlete_id": "CT3967",
-      "performance": "31.92",
-      "discipline": "Martell (7.260 Kg)",
-      "raw_discipline_name": "18:00   Martillo Pesado Hombres 70-79 Master M…                                     Combinadas",
-      "wind": null,
-      "internal_id": 44
-    },
-    {
-      "athlete_name": "DIDAC EXPOSITO GARCIA",
-      "athlete_dob": "4/8/1973",
-      "athlete_id": "CT3967",
-      "performance": "23.34",
-      "discipline": "Martell (7.260 Kg)",
-      "raw_discipline_name": "18:00   Martillo Pesado Hombres 70-79 Master M…                                     Combinadas",
-      "wind": null,
-      "internal_id": 44
-    },
-    {
-      "athlete_name": "DIDAC EXPOSITO GARCIA",
-      "athlete_dob": "4/8/1973",
-      "athlete_id": "CT3967",
-      "performance": "10.49",
-      "discipline": "Martell (7.260 Kg)",
-      "raw_discipline_name": "18:00   Martillo Pesado Hombres 70-79 Master M…                                     Combinadas",
-      "wind": null,
-      "internal_id": 44
+      "position": null
     },
     {
       "athlete_name": "BARBARA PINTADO DUCH",
       "athlete_dob": "29/4/1985",
       "athlete_id": "CT13219",
-      "performance": "29.15",
-      "discipline": "Martell (3 Kg)",
-      "raw_discipline_name": "Martillo (3kg) Mujeres MF55",
+      "performance": "2291",
+      "discipline": "Pentatló",
+      "raw_discipline_name": "Pentathlon LanzamientosMujeres 35-49 MF40",
       "wind": null,
-      "internal_id": 159
+      "position": null
     },
     {
       "athlete_name": "LIDIA GOMEZ DIAZ",
       "athlete_dob": "12/9/1990",
-      "athlete_id": "CT2897",
-      "performance": "42.60",
-      "discipline": "Martell (3 Kg)",
-      "raw_discipline_name": "Martillo (3kg) Mujeres MF55",
+      "athlete_id": "",
+      "performance": "2191",
+      "discipline": "Pentatló",
+      "raw_discipline_name": "Pentathlon LanzamientosMujeres 35-49 SF",
       "wind": null,
-      "internal_id": 1039
-    },
-    {
-      "athlete_name": "BARBARA PINTADO DUCH",
-      "athlete_dob": "29/4/1985",
-      "athlete_id": "CT13219",
-      "performance": "8.76",
-      "discipline": "Pes (3 Kg)",
-      "raw_discipline_name": "Peso (3kg) Mujeres AL MF55",
-      "wind": null,
-      "internal_id": 159
-    },
-    {
-      "athlete_name": "BARBARA PINTADO DUCH",
-      "athlete_dob": "29/4/1985",
-      "athlete_id": "CT13219",
-      "performance": "33.42",
-      "discipline": "Pes (3 Kg)",
-      "raw_discipline_name": "Peso (3kg) Mujeres AL MF55",
-      "wind": null,
-      "internal_id": 159
-    },
-    {
-      "athlete_name": "LIDIA GOMEZ DIAZ",
-      "athlete_dob": "12/9/1990",
-      "athlete_id": "CT13219",
-      "performance": "7.57",
-      "discipline": "Pes (3 Kg)",
-      "raw_discipline_name": "Peso (3kg) Mujeres AL MF55",
-      "wind": null,
-      "internal_id": 1039
-    },
-    {
-      "athlete_name": "LIDIA GOMEZ DIAZ",
-      "athlete_dob": "12/9/1990",
-      "athlete_id": "CT2508",
-      "performance": "23.88",
-      "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "Disco (1kg) Mujeres MF55",
-      "wind": null,
-      "internal_id": 1039
-    },
-    {
-      "athlete_name": "BARBARA PINTADO DUCH",
-      "athlete_dob": "29/4/1985",
-      "athlete_id": "CT13219",
-      "performance": "22.76",
-      "discipline": "Javelina (500 g)",
-      "raw_discipline_name": "Jabalina (500g) Mujeres MF55",
-      "wind": null,
-      "internal_id": 159
-    },
-    {
-      "athlete_name": "BARBARA PINTADO DUCH",
-      "athlete_dob": "29/4/1985",
-      "athlete_id": "CT13219",
-      "performance": "7.79",
-      "discipline": "Javelina (500 g)",
-      "raw_discipline_name": "Jabalina (500g) Mujeres MF55",
-      "wind": null,
-      "internal_id": 159
-    },
-    {
-      "athlete_name": "LIDIA GOMEZ DIAZ",
-      "athlete_dob": "12/9/1990",
-      "athlete_id": "CT13219",
-      "performance": "17.80",
-      "discipline": "Javelina (500 g)",
-      "raw_discipline_name": "Jabalina (500g) Mujeres MF55",
-      "wind": null,
-      "internal_id": 1039
-    },
-    {
-      "athlete_name": "LIDIA GOMEZ DIAZ",
-      "athlete_dob": "12/9/1990",
-      "athlete_id": "CT2508",
-      "performance": "12.22",
-      "discipline": "Javelina (500 g)",
-      "raw_discipline_name": "Jabalina (500g) Mujeres MF55",
-      "wind": null,
-      "internal_id": 1039
+      "position": null
     }
   ]
 }

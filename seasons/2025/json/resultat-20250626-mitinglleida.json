@@ -2,109 +2,9 @@
   "event_name": " - Pista Mpal. de Atmo. Les Basses",
   "event_date": "26/06/2025",
   "event_location": "Lleida",
-  "total_results": 19,
+  "total_results": 16,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2025/06/resultat-20250626-mitinglleida.pdf",
   "results": [
-    {
-      "athlete_name": "POL AIXALA GUIU",
-      "athlete_dob": "4/12/2004",
-      "athlete_id": "CT438",
-      "performance": "0:34.56",
-      "discipline": "300 metres llisos",
-      "raw_discipline_name": "300m Hombres",
-      "wind": null,
-      "internal_id": 733
-    },
-    {
-      "athlete_name": "CARLA BORRAS VERGES-TAPIRO",
-      "athlete_dob": "19/11/2008",
-      "athlete_id": "CAT-3742951",
-      "performance": "0:42.50",
-      "discipline": "300 metres llisos",
-      "raw_discipline_name": "300m Mujeres",
-      "wind": null,
-      "internal_id": 951
-    },
-    {
-      "athlete_name": "AINOA RODRIGUEZ MURILLO",
-      "athlete_dob": "17/1/2008",
-      "athlete_id": "CAT-3742948",
-      "performance": "0:42.99",
-      "discipline": "300 metres llisos",
-      "raw_discipline_name": "300m Mujeres",
-      "wind": null,
-      "internal_id": 965
-    },
-    {
-      "athlete_name": "NATALIA SANCHEZ ALVAREZ",
-      "athlete_dob": "28/5/2005",
-      "athlete_id": "CAT-3754208",
-      "performance": "5.12",
-      "discipline": "Llargada",
-      "raw_discipline_name": "LLARGADA CADET MujeresENÍ",
-      "wind": "1.1",
-      "internal_id": 796
-    },
-    {
-      "athlete_name": "NATALIA SANCHEZ ALVAREZ",
-      "athlete_dob": "28/5/2005",
-      "athlete_id": "CAT-3754208",
-      "performance": "5.23",
-      "discipline": "Llargada",
-      "raw_discipline_name": "LLARGADA CADET MujeresENÍ",
-      "wind": "1.1",
-      "internal_id": 796
-    },
-    {
-      "athlete_name": "NATALIA SANCHEZ ALVAREZ",
-      "athlete_dob": "28/5/2005",
-      "athlete_id": "CAT-3754208",
-      "performance": "4.90",
-      "discipline": "Llargada",
-      "raw_discipline_name": "LLARGADA CADET MujeresENÍ",
-      "wind": "0.7",
-      "internal_id": 796
-    },
-    {
-      "athlete_name": "NATALIA SANCHEZ ALVAREZ",
-      "athlete_dob": "28/5/2005",
-      "athlete_id": "CAT-3754208",
-      "performance": "5.04",
-      "discipline": "Llargada",
-      "raw_discipline_name": "LLARGADA CADET MujeresENÍ",
-      "wind": "0.0",
-      "internal_id": 796
-    },
-    {
-      "athlete_name": "NATALIA SANCHEZ ALVAREZ",
-      "athlete_dob": "28/5/2005",
-      "athlete_id": "CAT-3754208",
-      "performance": "4.86",
-      "discipline": "Llargada",
-      "raw_discipline_name": "LLARGADA CADET MujeresENÍ",
-      "wind": "0.0",
-      "internal_id": 796
-    },
-    {
-      "athlete_name": "BARBARA PINTADO DUCH",
-      "athlete_dob": "29/4/1985",
-      "athlete_id": "CT13219",
-      "performance": "32.02",
-      "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "Disco Mujeres",
-      "wind": null,
-      "internal_id": 159
-    },
-    {
-      "athlete_name": "BARBARA PINTADO DUCH",
-      "athlete_dob": "29/4/1985",
-      "athlete_id": "CT13219",
-      "performance": "34.31",
-      "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "Disco Mujeres",
-      "wind": null,
-      "internal_id": 159
-    },
     {
       "athlete_name": "HUGO JULES SAIZ SANTOLARIA",
       "athlete_dob": "31/1/2005",
@@ -113,7 +13,7 @@
       "discipline": "100 metres llisos",
       "raw_discipline_name": "100m Hombres",
       "wind": "+0.4",
-      "internal_id": 808
+      "position": null
     },
     {
       "athlete_name": "HUGO JULES SAIZ SANTOLARIA",
@@ -123,17 +23,17 @@
       "discipline": "200 metres llisos",
       "raw_discipline_name": "200m Hombres",
       "wind": "+0.0",
-      "internal_id": 808
+      "position": null
     },
     {
       "athlete_name": "POL AIXALA GUIU",
       "athlete_dob": "4/12/2004",
       "athlete_id": "CT438",
-      "performance": "34.56",
-      "discipline": "200 metres llisos",
-      "raw_discipline_name": "200m Hombres",
-      "wind": "+0.0",
-      "internal_id": 733
+      "performance": "0:34.56",
+      "discipline": "300 metres llisos",
+      "raw_discipline_name": "300m Hombres",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "SILVIA VICENTE NAVARRETE",
@@ -143,7 +43,7 @@
       "discipline": "100 metres llisos",
       "raw_discipline_name": "100m Mujeres",
       "wind": "+1.5",
-      "internal_id": 905
+      "position": null
     },
     {
       "athlete_name": "MIREIA REDONDO MENDOZA",
@@ -153,7 +53,7 @@
       "discipline": "100 metres llisos",
       "raw_discipline_name": "100m Mujeres",
       "wind": "+0.7",
-      "internal_id": 957
+      "position": null
     },
     {
       "athlete_name": "MIREIA REDONDO MENDOZA",
@@ -163,7 +63,7 @@
       "discipline": "200 metres llisos",
       "raw_discipline_name": "200m Mujeres",
       "wind": "+0.3",
-      "internal_id": 957
+      "position": null
     },
     {
       "athlete_name": "MARIA ANTONIETTA SALAZAR",
@@ -173,27 +73,97 @@
       "discipline": "200 metres llisos",
       "raw_discipline_name": "200m Mujeres",
       "wind": "+0.3",
-      "internal_id": 897
+      "position": null
+    },
+    {
+      "athlete_name": "CARLA BORRAS VERGES-TAPIRO",
+      "athlete_dob": "19/11/2008",
+      "athlete_id": "CAT-3742951",
+      "performance": "0:42.50",
+      "discipline": "300 metres llisos",
+      "raw_discipline_name": "300m Mujeres",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "AINOA RODRIGUEZ MURILLO",
+      "athlete_dob": "17/1/2008",
+      "athlete_id": "CAT-3742948",
+      "performance": "0:42.99",
+      "discipline": "300 metres llisos",
+      "raw_discipline_name": "300m Mujeres",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "NATALIA SANCHEZ ALVAREZ",
       "athlete_dob": "28/5/2005",
       "athlete_id": "CAT-3754208",
       "performance": "5.12",
-      "discipline": "200 metres llisos",
-      "raw_discipline_name": "200m Mujeres",
-      "wind": "+0.0",
-      "internal_id": 796
+      "discipline": "Llargada",
+      "raw_discipline_name": "LLARGADA CADET MujeresENÍ",
+      "wind": "1.1",
+      "position": null
+    },
+    {
+      "athlete_name": "NATALIA SANCHEZ ALVAREZ",
+      "athlete_dob": "28/5/2005",
+      "athlete_id": "CAT-3754208",
+      "performance": "5.23",
+      "discipline": "Llargada",
+      "raw_discipline_name": "LLARGADA CADET MujeresENÍ",
+      "wind": "1.1",
+      "position": null
+    },
+    {
+      "athlete_name": "NATALIA SANCHEZ ALVAREZ",
+      "athlete_dob": "28/5/2005",
+      "athlete_id": "CAT-3754208",
+      "performance": "4.90",
+      "discipline": "Llargada",
+      "raw_discipline_name": "LLARGADA CADET MujeresENÍ",
+      "wind": "0.7",
+      "position": null
+    },
+    {
+      "athlete_name": "NATALIA SANCHEZ ALVAREZ",
+      "athlete_dob": "28/5/2005",
+      "athlete_id": "CAT-3754208",
+      "performance": "5.04",
+      "discipline": "Llargada",
+      "raw_discipline_name": "LLARGADA CADET MujeresENÍ",
+      "wind": "0.0",
+      "position": null
+    },
+    {
+      "athlete_name": "NATALIA SANCHEZ ALVAREZ",
+      "athlete_dob": "28/5/2005",
+      "athlete_id": "CAT-3754208",
+      "performance": "4.86",
+      "discipline": "Llargada",
+      "raw_discipline_name": "LLARGADA CADET MujeresENÍ",
+      "wind": "0.0",
+      "position": null
     },
     {
       "athlete_name": "BARBARA PINTADO DUCH",
       "athlete_dob": "29/4/1985",
       "athlete_id": "CT13219",
       "performance": "32.02",
-      "discipline": "200 metres llisos",
-      "raw_discipline_name": "200m Mujeres",
-      "wind": "+0.0",
-      "internal_id": 159
+      "discipline": "Disc (1 Kg)",
+      "raw_discipline_name": "Disco Mujeres",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "BARBARA PINTADO DUCH",
+      "athlete_dob": "29/4/1985",
+      "athlete_id": "CT13219",
+      "performance": "34.31",
+      "discipline": "Disc (1 Kg)",
+      "raw_discipline_name": "Disco Mujeres",
+      "wind": null,
+      "position": null
     }
   ]
 }

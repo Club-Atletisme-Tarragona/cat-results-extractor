@@ -2,8 +2,8 @@
   "event_name": "Final Campionat Catalunya Sub14 - Pista de Atletismo Moisés Llopart",
   "event_date": "21/06/2025",
   "event_location": "El Prat de Llobregat",
-  "total_results": 32,
-  "event_src": "https://fcatletisme.cat/wp-content/uploads/2025/06/resultat-20250621-catsub14finalelprat.pdf",
+  "total_results": 29,
+  "event_src": "https://example.com/src",
   "results": [
     {
       "athlete_name": "BIEL LLIGADAS TURON",
@@ -13,7 +13,17 @@
       "discipline": "600 metres llisos",
       "raw_discipline_name": "600m Masculins",
       "wind": null,
-      "internal_id": 1339
+      "position": 8
+    },
+    {
+      "athlete_name": "HUGO DIAZ CRISTINO",
+      "athlete_dob": "4/4/2012",
+      "athlete_id": "CL4397",
+      "performance": "3:13.22",
+      "discipline": "1000 metres obstacles",
+      "raw_discipline_name": "1.000m obstacles Masculins",
+      "wind": null,
+      "position": 5
     },
     {
       "athlete_name": "KILIAN BORREDA CERVELLO",
@@ -23,7 +33,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada Masculina",
       "wind": "0.0",
-      "internal_id": null
+      "position": 11
     },
     {
       "athlete_name": "KILIAN BORREDA CERVELLO",
@@ -33,7 +43,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada Masculina",
       "wind": "0.0",
-      "internal_id": null
+      "position": 11
     },
     {
       "athlete_name": "KILIAN BORREDA CERVELLO",
@@ -43,7 +53,7 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada Masculina",
       "wind": "0.8",
-      "internal_id": null
+      "position": 11
     },
     {
       "athlete_name": "HERNAN FERRAN JIMENEZ",
@@ -53,7 +63,7 @@
       "discipline": "Disc (2 Kg)",
       "raw_discipline_name": "Disc Masculí",
       "wind": null,
-      "internal_id": 1327
+      "position": 2
     },
     {
       "athlete_name": "HERNAN FERRAN JIMENEZ",
@@ -63,7 +73,7 @@
       "discipline": "Disc (2 Kg)",
       "raw_discipline_name": "Disc Masculí",
       "wind": null,
-      "internal_id": 1327
+      "position": 2
     },
     {
       "athlete_name": "HERNAN FERRAN JIMENEZ",
@@ -73,7 +83,7 @@
       "discipline": "Disc (2 Kg)",
       "raw_discipline_name": "Disc Masculí",
       "wind": null,
-      "internal_id": 1327
+      "position": 2
     },
     {
       "athlete_name": "HERNAN FERRAN JIMENEZ",
@@ -83,7 +93,7 @@
       "discipline": "Disc (2 Kg)",
       "raw_discipline_name": "Disc Masculí",
       "wind": null,
-      "internal_id": 1327
+      "position": 2
     },
     {
       "athlete_name": "HERNAN FERRAN JIMENEZ",
@@ -93,7 +103,7 @@
       "discipline": "Disc (2 Kg)",
       "raw_discipline_name": "Disc Masculí",
       "wind": null,
-      "internal_id": 1327
+      "position": 2
     },
     {
       "athlete_name": "HERNAN FERRAN JIMENEZ",
@@ -103,7 +113,7 @@
       "discipline": "Disc (2 Kg)",
       "raw_discipline_name": "Disc Masculí",
       "wind": null,
-      "internal_id": 1327
+      "position": 2
     },
     {
       "athlete_name": "ASTON MATE GRAS",
@@ -113,7 +123,7 @@
       "discipline": "3000 metres marxa",
       "raw_discipline_name": "3.000m marxa Masculins",
       "wind": null,
-      "internal_id": 1342
+      "position": 2
     },
     {
       "athlete_name": "ANNA PEREZ MARTINEZ",
@@ -123,7 +133,7 @@
       "discipline": "600 metres llisos",
       "raw_discipline_name": "600m Femenins",
       "wind": null,
-      "internal_id": 1366
+      "position": 10
     },
     {
       "athlete_name": "BERTA BARBER GONZALEZ",
@@ -133,157 +143,7 @@
       "discipline": "1000 metres llisos",
       "raw_discipline_name": "1.000m Femenins",
       "wind": null,
-      "internal_id": 1359
-    },
-    {
-      "athlete_name": "CARLOTA TEJERO CLAU",
-      "athlete_dob": "6/3/2012",
-      "athlete_id": "CL7258",
-      "performance": "28.47",
-      "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "Disc Femení",
-      "wind": null,
-      "internal_id": 1352
-    },
-    {
-      "athlete_name": "CARLOTA TEJERO CLAU",
-      "athlete_dob": "6/3/2012",
-      "athlete_id": "CL7258",
-      "performance": "29.82",
-      "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "Disc Femení",
-      "wind": null,
-      "internal_id": 1352
-    },
-    {
-      "athlete_name": "CARLOTA TEJERO CLAU",
-      "athlete_dob": "6/3/2012",
-      "athlete_id": "CL7258",
-      "performance": "30.45",
-      "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "Disc Femení",
-      "wind": null,
-      "internal_id": 1352
-    },
-    {
-      "athlete_name": "CARLOTA TEJERO CLAU",
-      "athlete_dob": "6/3/2012",
-      "athlete_id": "CL7258",
-      "performance": "27.88",
-      "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "Disc Femení",
-      "wind": null,
-      "internal_id": 1352
-    },
-    {
-      "athlete_name": "CARLOTA TEJERO CLAU",
-      "athlete_dob": "6/3/2012",
-      "athlete_id": "CL7258",
-      "performance": "28.22",
-      "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "Disc Femení",
-      "wind": null,
-      "internal_id": 1352
-    },
-    {
-      "athlete_name": "ADA NIN NAVAS",
-      "athlete_dob": "24/10/2012",
-      "athlete_id": "CL1495",
-      "performance": "19.98",
-      "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "Disc Femení",
-      "wind": null,
-      "internal_id": 1331
-    },
-    {
-      "athlete_name": "ADA NIN NAVAS",
-      "athlete_dob": "24/10/2012",
-      "athlete_id": "CL1495",
-      "performance": "18.40",
-      "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "Disc Femení",
-      "wind": null,
-      "internal_id": 1331
-    },
-    {
-      "athlete_name": "ADA NIN NAVAS",
-      "athlete_dob": "24/10/2012",
-      "athlete_id": "CL1495",
-      "performance": "20.90",
-      "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "Disc Femení",
-      "wind": null,
-      "internal_id": 1331
-    },
-    {
-      "athlete_name": "ADA NIN NAVAS",
-      "athlete_dob": "24/10/2012",
-      "athlete_id": "CL1495",
-      "performance": "19.00",
-      "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "Disc Femení",
-      "wind": null,
-      "internal_id": 1331
-    },
-    {
-      "athlete_name": "CARLOTA TEJERO CLAU",
-      "athlete_dob": "6/3/2012",
-      "athlete_id": "CL7258",
-      "performance": "23.96",
-      "discipline": "Javelina (600 g)",
-      "raw_discipline_name": "Javelina Femenina",
-      "wind": null,
-      "internal_id": 1352
-    },
-    {
-      "athlete_name": "CARLOTA TEJERO CLAU",
-      "athlete_dob": "6/3/2012",
-      "athlete_id": "CL7258",
-      "performance": "20.85",
-      "discipline": "Javelina (600 g)",
-      "raw_discipline_name": "Javelina Femenina",
-      "wind": null,
-      "internal_id": 1352
-    },
-    {
-      "athlete_name": "CARLOTA TEJERO CLAU",
-      "athlete_dob": "6/3/2012",
-      "athlete_id": "CL7258",
-      "performance": "22.68",
-      "discipline": "Javelina (600 g)",
-      "raw_discipline_name": "Javelina Femenina",
-      "wind": null,
-      "internal_id": 1352
-    },
-    {
-      "athlete_name": "CARLOTA TEJERO CLAU",
-      "athlete_dob": "6/3/2012",
-      "athlete_id": "CL7258",
-      "performance": "23.24",
-      "discipline": "Javelina (600 g)",
-      "raw_discipline_name": "Javelina Femenina",
-      "wind": null,
-      "internal_id": 1352
-    },
-    {
-      "athlete_name": "CARLOTA TEJERO CLAU",
-      "athlete_dob": "6/3/2012",
-      "athlete_id": "CL7258",
-      "performance": "23.41",
-      "discipline": "Javelina (600 g)",
-      "raw_discipline_name": "Javelina Femenina",
-      "wind": null,
-      "internal_id": 1352
-    },
-    {
-      "athlete_name": "HERNAN FERRAN JIMENEZ",
-      "athlete_dob": "28/9/2012",
-      "athlete_id": "CL1093",
-      "performance": "27.37",
-      "discipline": "220 metres tanques (0.762)",
-      "raw_discipline_name": "220m tanques Masculins",
-      "wind": null,
-      "internal_id": 1327
+      "position": 5
     },
     {
       "athlete_name": "EVA JACOB GARCIA",
@@ -293,37 +153,147 @@
       "discipline": "80 metres tanques (0.84)",
       "raw_discipline_name": "80m tanques Femenins",
       "wind": "-1.0",
-      "internal_id": 1349
+      "position": null
     },
     {
       "athlete_name": "CARLOTA TEJERO CLAU",
       "athlete_dob": "6/3/2012",
       "athlete_id": "CL7258",
       "performance": "28.47",
-      "discipline": "220 metres tanques (0.762)",
-      "raw_discipline_name": "220m tanques Femenins",
+      "discipline": "Disc (1 Kg)",
+      "raw_discipline_name": "Disc Femení",
       "wind": null,
-      "internal_id": 1352
+      "position": 2
     },
     {
       "athlete_name": "CARLOTA TEJERO CLAU",
       "athlete_dob": "6/3/2012",
       "athlete_id": "CL7258",
-      "performance": "23.96",
-      "discipline": "220 metres tanques (0.762)",
-      "raw_discipline_name": "220m tanques Femenins",
+      "performance": "29.82",
+      "discipline": "Disc (1 Kg)",
+      "raw_discipline_name": "Disc Femení",
       "wind": null,
-      "internal_id": 1352
+      "position": 2
+    },
+    {
+      "athlete_name": "CARLOTA TEJERO CLAU",
+      "athlete_dob": "6/3/2012",
+      "athlete_id": "CL7258",
+      "performance": "30.45",
+      "discipline": "Disc (1 Kg)",
+      "raw_discipline_name": "Disc Femení",
+      "wind": null,
+      "position": 2
+    },
+    {
+      "athlete_name": "CARLOTA TEJERO CLAU",
+      "athlete_dob": "6/3/2012",
+      "athlete_id": "CL7258",
+      "performance": "27.88",
+      "discipline": "Disc (1 Kg)",
+      "raw_discipline_name": "Disc Femení",
+      "wind": null,
+      "position": 2
+    },
+    {
+      "athlete_name": "CARLOTA TEJERO CLAU",
+      "athlete_dob": "6/3/2012",
+      "athlete_id": "CL7258",
+      "performance": "28.22",
+      "discipline": "Disc (1 Kg)",
+      "raw_discipline_name": "Disc Femení",
+      "wind": null,
+      "position": 2
     },
     {
       "athlete_name": "ADA NIN NAVAS",
       "athlete_dob": "24/10/2012",
       "athlete_id": "CL1495",
       "performance": "19.98",
-      "discipline": "220 metres tanques (0.762)",
-      "raw_discipline_name": "220m tanques Femenins",
+      "discipline": "Disc (1 Kg)",
+      "raw_discipline_name": "Disc Femení",
       "wind": null,
-      "internal_id": 1331
+      "position": 5
+    },
+    {
+      "athlete_name": "ADA NIN NAVAS",
+      "athlete_dob": "24/10/2012",
+      "athlete_id": "CL1495",
+      "performance": "18.40",
+      "discipline": "Disc (1 Kg)",
+      "raw_discipline_name": "Disc Femení",
+      "wind": null,
+      "position": 5
+    },
+    {
+      "athlete_name": "ADA NIN NAVAS",
+      "athlete_dob": "24/10/2012",
+      "athlete_id": "CL1495",
+      "performance": "20.90",
+      "discipline": "Disc (1 Kg)",
+      "raw_discipline_name": "Disc Femení",
+      "wind": null,
+      "position": 5
+    },
+    {
+      "athlete_name": "ADA NIN NAVAS",
+      "athlete_dob": "24/10/2012",
+      "athlete_id": "CL1495",
+      "performance": "19.00",
+      "discipline": "Disc (1 Kg)",
+      "raw_discipline_name": "Disc Femení",
+      "wind": null,
+      "position": 5
+    },
+    {
+      "athlete_name": "CARLOTA TEJERO CLAU",
+      "athlete_dob": "6/3/2012",
+      "athlete_id": "CL7258",
+      "performance": "23.96",
+      "discipline": "Javelina (600 g)",
+      "raw_discipline_name": "Javelina Femenina",
+      "wind": null,
+      "position": 7
+    },
+    {
+      "athlete_name": "CARLOTA TEJERO CLAU",
+      "athlete_dob": "6/3/2012",
+      "athlete_id": "CL7258",
+      "performance": "20.85",
+      "discipline": "Javelina (600 g)",
+      "raw_discipline_name": "Javelina Femenina",
+      "wind": null,
+      "position": 7
+    },
+    {
+      "athlete_name": "CARLOTA TEJERO CLAU",
+      "athlete_dob": "6/3/2012",
+      "athlete_id": "CL7258",
+      "performance": "22.68",
+      "discipline": "Javelina (600 g)",
+      "raw_discipline_name": "Javelina Femenina",
+      "wind": null,
+      "position": 7
+    },
+    {
+      "athlete_name": "CARLOTA TEJERO CLAU",
+      "athlete_dob": "6/3/2012",
+      "athlete_id": "CL7258",
+      "performance": "23.24",
+      "discipline": "Javelina (600 g)",
+      "raw_discipline_name": "Javelina Femenina",
+      "wind": null,
+      "position": 7
+    },
+    {
+      "athlete_name": "CARLOTA TEJERO CLAU",
+      "athlete_dob": "6/3/2012",
+      "athlete_id": "CL7258",
+      "performance": "23.41",
+      "discipline": "Javelina (600 g)",
+      "raw_discipline_name": "Javelina Femenina",
+      "wind": null,
+      "position": 7
     }
   ]
 }

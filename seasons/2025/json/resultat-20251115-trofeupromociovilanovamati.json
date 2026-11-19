@@ -2,7 +2,7 @@
   "event_name": " - Pista de Atletismo Vilanova i la Geltrú",
   "event_date": "15/11/2025",
   "event_location": "Vilanova i La Geltrú",
-  "total_results": 15,
+  "total_results": 12,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2025/11/resultat-20251115-trofeupromociovilanovamati.pdf",
   "results": [
     {
@@ -11,9 +11,9 @@
       "athlete_id": "CL90024",
       "performance": "33.15",
       "discipline": "Martell (4 Kg)",
-      "raw_discipline_name": "Martillo (4kg) Hombres",
+      "raw_discipline_name": "Martillo (4 Kg) Hombres",
       "wind": null,
-      "internal_id": 1071
+      "position": null
     },
     {
       "athlete_name": "SAMUEL MARCOS PEREZ",
@@ -21,9 +21,9 @@
       "athlete_id": "CL90024",
       "performance": "38.18",
       "discipline": "Martell (4 Kg)",
-      "raw_discipline_name": "Martillo (4kg) Hombres",
+      "raw_discipline_name": "Martillo (4 Kg) Hombres",
       "wind": null,
-      "internal_id": 1071
+      "position": null
     },
     {
       "athlete_name": "SAMUEL MARCOS PEREZ",
@@ -33,7 +33,7 @@
       "discipline": "Javelina (600 g)",
       "raw_discipline_name": "Jabalina (600g) Hombres",
       "wind": null,
-      "internal_id": 1071
+      "position": null
     },
     {
       "athlete_name": "SAMUEL MARCOS PEREZ",
@@ -43,7 +43,7 @@
       "discipline": "Javelina (600 g)",
       "raw_discipline_name": "Jabalina (600g) Hombres",
       "wind": null,
-      "internal_id": 1071
+      "position": null
     },
     {
       "athlete_name": "SAMUEL MARCOS PEREZ",
@@ -53,7 +53,7 @@
       "discipline": "Javelina (600 g)",
       "raw_discipline_name": "Jabalina (600g) Hombres",
       "wind": null,
-      "internal_id": 1071
+      "position": null
     },
     {
       "athlete_name": "SAMUEL MARCOS PEREZ",
@@ -63,7 +63,7 @@
       "discipline": "Javelina (600 g)",
       "raw_discipline_name": "Jabalina (600g) Hombres",
       "wind": null,
-      "internal_id": 1071
+      "position": null
     },
     {
       "athlete_name": "SAMUEL MARCOS PEREZ",
@@ -73,87 +73,57 @@
       "discipline": "Javelina (600 g)",
       "raw_discipline_name": "Jabalina (600g) Hombres",
       "wind": null,
-      "internal_id": 1071
-    },
-    {
-      "athlete_name": "SAMUEL MARCOS PEREZ",
-      "athlete_dob": "1/2/2010",
-      "athlete_id": "CL90024",
-      "performance": "33.15",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) Hombres AL",
-      "wind": null,
-      "internal_id": 1071
-    },
-    {
-      "athlete_name": "SAMUEL MARCOS PEREZ",
-      "athlete_dob": "1/2/2010",
-      "athlete_id": "CL90024",
-      "performance": "38.18",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) Hombres AL",
-      "wind": null,
-      "internal_id": 1071
-    },
-    {
-      "athlete_name": "SAMUEL MARCOS PEREZ",
-      "athlete_dob": "1/2/2010",
-      "athlete_id": "CL90024",
-      "performance": "32.29",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) Hombres AL",
-      "wind": null,
-      "internal_id": 1071
-    },
-    {
-      "athlete_name": "SAMUEL MARCOS PEREZ",
-      "athlete_dob": "1/2/2010",
-      "athlete_id": "CL90024",
-      "performance": "28.57",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) Hombres AL",
-      "wind": null,
-      "internal_id": 1071
-    },
-    {
-      "athlete_name": "SAMUEL MARCOS PEREZ",
-      "athlete_dob": "1/2/2010",
-      "athlete_id": "CL90024",
-      "performance": "30.87",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) Hombres AL",
-      "wind": null,
-      "internal_id": 1071
-    },
-    {
-      "athlete_name": "SAMUEL MARCOS PEREZ",
-      "athlete_dob": "1/2/2010",
-      "athlete_id": "CL90024",
-      "performance": "29.25",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) Hombres AL",
-      "wind": null,
-      "internal_id": 1071
-    },
-    {
-      "athlete_name": "SAMUEL MARCOS PEREZ",
-      "athlete_dob": "1/2/2010",
-      "athlete_id": "CL90024",
-      "performance": "31.62",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "Peso (2kg) Hombres AL",
-      "wind": null,
-      "internal_id": 1071
+      "position": null
     },
     {
       "athlete_name": "LUCIA MARCOS PEREZ",
       "athlete_dob": "1/2/2010",
       "athlete_id": "CL3853",
       "performance": "18.85",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud Mujeres",
+      "discipline": "Javelina (500 g)",
+      "raw_discipline_name": "Jabalina (500g) Mujeres",
       "wind": null,
-      "internal_id": 1073
+      "position": null
+    },
+    {
+      "athlete_name": "LUCIA MARCOS PEREZ",
+      "athlete_dob": "1/2/2010",
+      "athlete_id": "CL3853",
+      "performance": "14.65",
+      "discipline": "Javelina (500 g)",
+      "raw_discipline_name": "Jabalina (500g) Mujeres",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "LUCIA MARCOS PEREZ",
+      "athlete_dob": "1/2/2010",
+      "athlete_id": "CL3853",
+      "performance": "15.54",
+      "discipline": "Javelina (500 g)",
+      "raw_discipline_name": "Jabalina (500g) Mujeres",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "LUCIA MARCOS PEREZ",
+      "athlete_dob": "1/2/2010",
+      "athlete_id": "CL3853",
+      "performance": "16.14",
+      "discipline": "Javelina (500 g)",
+      "raw_discipline_name": "Jabalina (500g) Mujeres",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "LUCIA MARCOS PEREZ",
+      "athlete_dob": "1/2/2010",
+      "athlete_id": "CL3853",
+      "performance": "18.79",
+      "discipline": "Javelina (500 g)",
+      "raw_discipline_name": "Jabalina (500g) Mujeres",
+      "wind": null,
+      "position": null
     }
   ]
 }

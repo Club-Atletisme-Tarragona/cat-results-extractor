@@ -22,7 +22,19 @@ values) against `DISCIPLINES.md` (database dump, 134 discipline rows), covering:
   `H:MM.SS` times; 9/10 vanish on HEAD re-extraction. **One live bug remains**: masters
   headers like `400m vallas (0,84) AL M55` are not recognized as section boundaries
   (Baz Vidal `1:17.59` → `17.59`).
-- ⬜ Pending: regeneration of stale 2025 JSONs at HEAD + `update_disciplines.py` re-run.
+- ✅ **P3/P4 RESOLVED (2026-11-19, second pass)**: all 52 dup-bearing 2025 JSONs regenerated at
+  HEAD + `update_disciplines.py` re-run. Season totals: 3428 → 3090 rows (**-338 leak rows**),
+  cross-discipline duplicates **680 → 0**, unmapped disciplines **0**. Live extractor bugs found
+  and fixed during regeneration (commits after b392645): glued steeplechase headers
+  (`1.000m Obst.Femenins`), bare age-code headers (`3.000m U14M`), "Pasos intermedios"
+  pseudo-sections (1200m), `Obst.`/m-form mapping in update_disciplines.py, and the stale
+  `2000 m obstacles` → `2000 metres obstacles` name. Recovered correct results include
+  Baz Vidal `1:17.59` (400m tanques), ASTON `12:06.44` (3000m), CELIA `3:41.29`
+  (1000m obstacles), HUGO `3:13.22` (1000m obstacles), plus pentathlon/tetrathlon point totals.
+- ⬜ **Open for the DB owner**: row id 49 `10.000 metres marxa` declares `HH:mm:ss.cc`,
+  but 10.000m marxa times (~40-60 min) are naturally `mm:ss.cc` like every sibling marxa
+  row; REGINA GRAS `53:47.50` is stored mm:ss.cc-style and will flag until the row is
+  `mm:ss.cc` (same class of fix as `2000 m obstacles`).
 
 ## Summary
 

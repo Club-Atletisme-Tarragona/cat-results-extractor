@@ -2,8 +2,8 @@
   "event_name": "Campionat Territorial Tarragona sub10-12-14-16 - Pista de Atletismo de El Vendrell",
   "event_date": "18/05/2025",
   "event_location": "El Vendrell",
-  "total_results": 145,
-  "event_src": "https://fcatletisme.cat/wp-content/uploads/2025/05/resultat-20250518-territorialpromocioelvendrell.pdf",
+  "total_results": 121,
+  "event_src": "https://example.com/src",
   "results": [
     {
       "athlete_name": "POL VILANOVA ANGLES",
@@ -13,7 +13,7 @@
       "discipline": "1000 metres llisos",
       "raw_discipline_name": "1.000m S10M",
       "wind": null,
-      "internal_id": 1428
+      "position": null
     },
     {
       "athlete_name": "NIL PASCUAL PRATS",
@@ -23,7 +23,7 @@
       "discipline": "1000 metres llisos",
       "raw_discipline_name": "1.000m S10M",
       "wind": null,
-      "internal_id": 1381
+      "position": null
     },
     {
       "athlete_name": "GERARD BARBER GONZALEZ",
@@ -33,7 +33,7 @@
       "discipline": "1000 metres llisos",
       "raw_discipline_name": "1.000m S10M",
       "wind": null,
-      "internal_id": 1359
+      "position": null
     },
     {
       "athlete_name": "ASTON MATE GRAS",
@@ -41,849 +41,9 @@
       "athlete_id": "CL95044",
       "performance": "12:06.44",
       "discipline": "3000 metres llisos",
-      "raw_discipline_name": "3.000m S16M",
+      "raw_discipline_name": "3.000m U14M",
       "wind": null,
-      "internal_id": 1342
-    },
-    {
-      "athlete_name": "FERRAN MASCARO NAVARRO",
-      "athlete_dob": "2/6/2012",
-      "athlete_id": "CL96310",
-      "performance": "1.80",
-      "discipline": "Perxa",
-      "raw_discipline_name": "Pértiga S14M",
-      "wind": null,
-      "internal_id": 1362
-    },
-    {
-      "athlete_name": "ENZO MATE GRAS",
-      "athlete_dob": "1/2/2011",
-      "athlete_id": "CL94546",
-      "performance": "3.20",
-      "discipline": "Perxa",
-      "raw_discipline_name": "Pértiga S16M",
-      "wind": null,
-      "internal_id": 1343
-    },
-    {
-      "athlete_name": "JOSE ANGEL MASIA URZUA O-- O-- O--",
-      "athlete_dob": "25/2/2015",
-      "athlete_id": "CL15467",
-      "performance": "1.60",
-      "discipline": "Perxa",
-      "raw_discipline_name": "Pértiga S12M",
-      "wind": null,
-      "internal_id": 1389
-    },
-    {
-      "athlete_name": "ORIOL GAYA VALLES O--",
-      "athlete_dob": "26/2/2015",
-      "athlete_id": "CL14915",
-      "performance": "1.20",
-      "discipline": "Perxa",
-      "raw_discipline_name": "Pértiga S12M",
-      "wind": null,
-      "internal_id": 1395
-    },
-    {
-      "athlete_name": "BLAI LLIGADAS TURON",
-      "athlete_dob": "11/3/2015",
-      "athlete_id": "CL11069",
-      "performance": "18.35",
-      "discipline": "Javelina (300 g)",
-      "raw_discipline_name": "Jabalina 300gr S12M",
-      "wind": null,
-      "internal_id": 1338
-    },
-    {
-      "athlete_name": "BLAI LLIGADAS TURON",
-      "athlete_dob": "11/3/2015",
-      "athlete_id": "CL11069",
-      "performance": "20.21",
-      "discipline": "Javelina (300 g)",
-      "raw_discipline_name": "Jabalina 300gr S12M",
-      "wind": null,
-      "internal_id": 1338
-    },
-    {
-      "athlete_name": "BLAI LLIGADAS TURON",
-      "athlete_dob": "11/3/2015",
-      "athlete_id": "CL11069",
-      "performance": "21.37",
-      "discipline": "Javelina (300 g)",
-      "raw_discipline_name": "Jabalina 300gr S12M",
-      "wind": null,
-      "internal_id": 1338
-    },
-    {
-      "athlete_name": "JOSE ANGEL MASIA URZUA",
-      "athlete_dob": "25/2/2015",
-      "athlete_id": "CL15467",
-      "performance": "17.60",
-      "discipline": "Javelina (300 g)",
-      "raw_discipline_name": "Jabalina 300gr S12M",
-      "wind": null,
-      "internal_id": 1389
-    },
-    {
-      "athlete_name": "JOSE ANGEL MASIA URZUA",
-      "athlete_dob": "25/2/2015",
-      "athlete_id": "CL15467",
-      "performance": "17.83",
-      "discipline": "Javelina (300 g)",
-      "raw_discipline_name": "Jabalina 300gr S12M",
-      "wind": null,
-      "internal_id": 1389
-    },
-    {
-      "athlete_name": "JOSE ANGEL MASIA URZUA",
-      "athlete_dob": "25/2/2015",
-      "athlete_id": "CL15467",
-      "performance": "18.77",
-      "discipline": "Javelina (300 g)",
-      "raw_discipline_name": "Jabalina 300gr S12M",
-      "wind": null,
-      "internal_id": 1389
-    },
-    {
-      "athlete_name": "TEO POU FONTS",
-      "athlete_dob": "9/1/2015",
-      "athlete_id": "CL14903",
-      "performance": "12.66",
-      "discipline": "Javelina (300 g)",
-      "raw_discipline_name": "Jabalina 300gr S12M",
-      "wind": null,
-      "internal_id": 1377
-    },
-    {
-      "athlete_name": "TEO POU FONTS",
-      "athlete_dob": "9/1/2015",
-      "athlete_id": "CL14903",
-      "performance": "16.93",
-      "discipline": "Javelina (300 g)",
-      "raw_discipline_name": "Jabalina 300gr S12M",
-      "wind": null,
-      "internal_id": 1377
-    },
-    {
-      "athlete_name": "TEO POU FONTS",
-      "athlete_dob": "9/1/2015",
-      "athlete_id": "CL14903",
-      "performance": "17.33",
-      "discipline": "Javelina (300 g)",
-      "raw_discipline_name": "Jabalina 300gr S12M",
-      "wind": null,
-      "internal_id": 1377
-    },
-    {
-      "athlete_name": "ORIOL GAYA VALLES",
-      "athlete_dob": "26/2/2015",
-      "athlete_id": "CL14915",
-      "performance": "9.20",
-      "discipline": "Javelina (300 g)",
-      "raw_discipline_name": "Jabalina 300gr S12M",
-      "wind": null,
-      "internal_id": 1395
-    },
-    {
-      "athlete_name": "FERRAN SANJUAN FLORES",
-      "athlete_dob": "9/2/2015",
-      "athlete_id": "CAT-3816505",
-      "performance": "8.36",
-      "discipline": "Javelina (300 g)",
-      "raw_discipline_name": "Jabalina 300gr S12M",
-      "wind": null,
-      "internal_id": 1436
-    },
-    {
-      "athlete_name": "FERRAN SANJUAN FLORES",
-      "athlete_dob": "9/2/2015",
-      "athlete_id": "CAT-3816505",
-      "performance": "6.83",
-      "discipline": "Javelina (300 g)",
-      "raw_discipline_name": "Jabalina 300gr S12M",
-      "wind": null,
-      "internal_id": 1436
-    },
-    {
-      "athlete_name": "PAU SUELVES MORENO",
-      "athlete_dob": "22/5/2015",
-      "athlete_id": "CAT-3789991",
-      "performance": "7.57",
-      "discipline": "Javelina (300 g)",
-      "raw_discipline_name": "Jabalina 300gr S12M",
-      "wind": null,
-      "internal_id": null
-    },
-    {
-      "athlete_name": "PAU SUELVES MORENO",
-      "athlete_dob": "22/5/2015",
-      "athlete_id": "CAT-3789991",
-      "performance": "5.75",
-      "discipline": "Javelina (300 g)",
-      "raw_discipline_name": "Jabalina 300gr S12M",
-      "wind": null,
-      "internal_id": null
-    },
-    {
-      "athlete_name": "BIEL LLIGADAS TURON",
-      "athlete_dob": "27/2/2012",
-      "athlete_id": "CL4342",
-      "performance": "12.62",
-      "discipline": "Martell (3 Kg)",
-      "raw_discipline_name": "Martillo (3kg) S14M",
-      "wind": null,
-      "internal_id": 1339
-    },
-    {
-      "athlete_name": "BIEL LLIGADAS TURON",
-      "athlete_dob": "27/2/2012",
-      "athlete_id": "CL4342",
-      "performance": "12.69",
-      "discipline": "Martell (3 Kg)",
-      "raw_discipline_name": "Martillo (3kg) S14M",
-      "wind": null,
-      "internal_id": 1339
-    },
-    {
-      "athlete_name": "BIEL LLIGADAS TURON",
-      "athlete_dob": "27/2/2012",
-      "athlete_id": "CL4342",
-      "performance": "14.65",
-      "discipline": "Martell (3 Kg)",
-      "raw_discipline_name": "Martillo (3kg) S14M",
-      "wind": null,
-      "internal_id": 1339
-    },
-    {
-      "athlete_name": "KILIAN PEDROL ESPINOSA",
-      "athlete_dob": "24/2/2013",
-      "athlete_id": "CL7676",
-      "performance": "12.55",
-      "discipline": "Martell (3 Kg)",
-      "raw_discipline_name": "Martillo (3kg) S14M",
-      "wind": null,
-      "internal_id": 1361
-    },
-    {
-      "athlete_name": "KILIAN PEDROL ESPINOSA",
-      "athlete_dob": "24/2/2013",
-      "athlete_id": "CL7676",
-      "performance": "14.17",
-      "discipline": "Martell (3 Kg)",
-      "raw_discipline_name": "Martillo (3kg) S14M",
-      "wind": null,
-      "internal_id": 1361
-    },
-    {
-      "athlete_name": "GERARD BARBER GONZALEZ",
-      "athlete_dob": "24/10/2017",
-      "athlete_id": "CAT-3789597",
-      "performance": "20.29",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "Jabalina Vortex S10M",
-      "wind": null,
-      "internal_id": 1359
-    },
-    {
-      "athlete_name": "GERARD BARBER GONZALEZ",
-      "athlete_dob": "24/10/2017",
-      "athlete_id": "CAT-3789597",
-      "performance": "13.82",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "Jabalina Vortex S10M",
-      "wind": null,
-      "internal_id": 1359
-    },
-    {
-      "athlete_name": "GERARD BARBER GONZALEZ",
-      "athlete_dob": "24/10/2017",
-      "athlete_id": "CAT-3789597",
-      "performance": "17.70",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "Jabalina Vortex S10M",
-      "wind": null,
-      "internal_id": 1359
-    },
-    {
-      "athlete_name": "NIL PASCUAL PRATS",
-      "athlete_dob": "16/3/2017",
-      "athlete_id": "CAT-3789538",
-      "performance": "17.52",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "Jabalina Vortex S10M",
-      "wind": null,
-      "internal_id": 1381
-    },
-    {
-      "athlete_name": "NIL PASCUAL PRATS",
-      "athlete_dob": "16/3/2017",
-      "athlete_id": "CAT-3789538",
-      "performance": "16.76",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "Jabalina Vortex S10M",
-      "wind": null,
-      "internal_id": 1381
-    },
-    {
-      "athlete_name": "NIL PASCUAL PRATS",
-      "athlete_dob": "16/3/2017",
-      "athlete_id": "CAT-3789538",
-      "performance": "20.19",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "Jabalina Vortex S10M",
-      "wind": null,
-      "internal_id": 1381
-    },
-    {
-      "athlete_name": "POL VILANOVA ANGLES",
-      "athlete_dob": "1/3/2017",
-      "athlete_id": "CAT-3789595",
-      "performance": "18.47",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "Jabalina Vortex S10M",
-      "wind": null,
-      "internal_id": 1428
-    },
-    {
-      "athlete_name": "POL VILANOVA ANGLES",
-      "athlete_dob": "1/3/2017",
-      "athlete_id": "CAT-3789595",
-      "performance": "19.69",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "Jabalina Vortex S10M",
-      "wind": null,
-      "internal_id": 1428
-    },
-    {
-      "athlete_name": "POL VILANOVA ANGLES",
-      "athlete_dob": "1/3/2017",
-      "athlete_id": "CAT-3789595",
-      "performance": "19.02",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "Jabalina Vortex S10M",
-      "wind": null,
-      "internal_id": 1428
-    },
-    {
-      "athlete_name": "QUIM CAPARROS JARA",
-      "athlete_dob": "19/2/2016",
-      "athlete_id": "CAT-3802597",
-      "performance": "10.03",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "Jabalina Vortex S10M",
-      "wind": null,
-      "internal_id": 1406
-    },
-    {
-      "athlete_name": "QUIM CAPARROS JARA",
-      "athlete_dob": "19/2/2016",
-      "athlete_id": "CAT-3802597",
-      "performance": "14.48",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "Jabalina Vortex S10M",
-      "wind": null,
-      "internal_id": 1406
-    },
-    {
-      "athlete_name": "QUIM CAPARROS JARA",
-      "athlete_dob": "19/2/2016",
-      "athlete_id": "CAT-3802597",
-      "performance": "13.38",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "Jabalina Vortex S10M",
-      "wind": null,
-      "internal_id": 1406
-    },
-    {
-      "athlete_name": "Aston MATE GRAS",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "performance": "44.01",
-      "discipline": "4x80",
-      "raw_discipline_name": "4x80m S14M",
-      "wind": null,
-      "internal_id": 1342
-    },
-    {
-      "athlete_name": "Ferran MASCARO NAVARRO",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "performance": "44.01",
-      "discipline": "4x80",
-      "raw_discipline_name": "4x80m S14M",
-      "wind": null,
-      "internal_id": 1362
-    },
-    {
-      "athlete_name": "Biel LLIGADAS TURON",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "performance": "44.01",
-      "discipline": "4x80",
-      "raw_discipline_name": "4x80m S14M",
-      "wind": null,
-      "internal_id": 1339
-    },
-    {
-      "athlete_name": "Teo POU FONTS",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "performance": "35.84",
-      "discipline": "4x60",
-      "raw_discipline_name": "4x60m S12M",
-      "wind": null,
-      "internal_id": 1377
-    },
-    {
-      "athlete_name": "Antonio BALAZOTE",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "performance": "35.84",
-      "discipline": "4x60",
-      "raw_discipline_name": "4x60m S12M",
-      "wind": null,
-      "internal_id": 1370
-    },
-    {
-      "athlete_name": "Ada FELIU LORCA",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "performance": "35.84",
-      "discipline": "4x60",
-      "raw_discipline_name": "4x60m S12M",
-      "wind": null,
-      "internal_id": 1368
-    },
-    {
-      "athlete_name": "Oriol GAYA VALLES",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "performance": "35.84",
-      "discipline": "4x60",
-      "raw_discipline_name": "4x60m S12M",
-      "wind": null,
-      "internal_id": 1395
-    },
-    {
-      "athlete_name": "Ernest GELLIDA BARRIO",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "performance": "35.84",
-      "discipline": "4x60",
-      "raw_discipline_name": "4x60m S12M",
-      "wind": null,
-      "internal_id": 1344
-    },
-    {
-      "athlete_name": "Jose Angel MASIA URZUA",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "performance": "35.84",
-      "discipline": "4x60",
-      "raw_discipline_name": "4x60m S12M",
-      "wind": null,
-      "internal_id": 1389
-    },
-    {
-      "athlete_name": "Gerard LOPEZ ROMERO",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "performance": "35.84",
-      "discipline": "4x60",
-      "raw_discipline_name": "4x60m S12M",
-      "wind": null,
-      "internal_id": 1360
-    },
-    {
-      "athlete_name": "ARIA ORTA PALLARES",
-      "athlete_dob": "24/2/2017",
-      "athlete_id": "CAT-3789552",
-      "performance": "4:17.00",
-      "discipline": "1000 metres llisos",
-      "raw_discipline_name": "1.000m S10F",
-      "wind": null,
-      "internal_id": 1427
-    },
-    {
-      "athlete_name": "ADA FELIU LORCA",
-      "athlete_dob": "7/5/2016",
-      "athlete_id": "CL15054",
-      "performance": "4:34.95",
-      "discipline": "1000 metres llisos",
-      "raw_discipline_name": "1.000m S10F",
-      "wind": null,
-      "internal_id": 1368
-    },
-    {
-      "athlete_name": "BERTA BARBER GONZALEZ",
-      "athlete_dob": "22/1/2013",
-      "athlete_id": "CL7610",
-      "performance": "12:32.95",
-      "discipline": "1000 metres llisos",
-      "raw_discipline_name": "1.000m S10F",
-      "wind": null,
-      "internal_id": 1359
-    },
-    {
-      "athlete_name": "RIHANA MARTOS TEIXIDO",
-      "athlete_dob": "18/3/2012",
-      "athlete_id": "CL85129",
-      "performance": "13:36.93",
-      "discipline": "1000 metres llisos",
-      "raw_discipline_name": "1.000m S10F",
-      "wind": null,
-      "internal_id": null
-    },
-    {
-      "athlete_name": "AINOA RODRIGUEZ MURILLO",
-      "athlete_dob": "17/1/2008",
-      "athlete_id": "CAT-3742948",
-      "performance": "1:11.47",
-      "discipline": "400 metres tanques (0.762)",
-      "raw_discipline_name": "400m vallas ABS F",
-      "wind": null,
-      "internal_id": 965
-    },
-    {
-      "athlete_name": "ERIKA MARGALLO DEL VALLE XO- O--",
-      "athlete_dob": "27/11/2014",
-      "athlete_id": "CL15267",
-      "performance": "1.40",
-      "discipline": "Perxa",
-      "raw_discipline_name": "Pértiga S12F",
-      "wind": null,
-      "internal_id": 1388
-    },
-    {
-      "athlete_name": "ADA NIN NAVAS O-- O-- O--",
-      "athlete_dob": "24/10/2012",
-      "athlete_id": "CL1495",
-      "performance": "1.80",
-      "discipline": "Perxa",
-      "raw_discipline_name": "Pértiga S14F",
-      "wind": null,
-      "internal_id": 1331
-    },
-    {
-      "athlete_name": "EVA JACOB GARCIA O-- O-- O--",
-      "athlete_dob": "30/6/2012",
-      "athlete_id": "CL7254",
-      "performance": "1.80",
-      "discipline": "Perxa",
-      "raw_discipline_name": "Pértiga S14F",
-      "wind": null,
-      "internal_id": 1349
-    },
-    {
-      "athlete_name": "BERTA BARBER GONZALEZ O-- O-- XO-",
-      "athlete_dob": "22/1/2013",
-      "athlete_id": "CL7610",
-      "performance": "1.80",
-      "discipline": "Perxa",
-      "raw_discipline_name": "Pértiga S14F",
-      "wind": null,
-      "internal_id": null
-    },
-    {
-      "athlete_name": "CARLOTA TEJERO CLAU",
-      "athlete_dob": "6/3/2012",
-      "athlete_id": "CL7258",
-      "performance": "25.85",
-      "discipline": "Martell (2 Kg)",
-      "raw_discipline_name": "Martillo (2kg) S14F",
-      "wind": null,
-      "internal_id": 1352
-    },
-    {
-      "athlete_name": "CARLOTA TEJERO CLAU",
-      "athlete_dob": "6/3/2012",
-      "athlete_id": "CL7258",
-      "performance": "26.95",
-      "discipline": "Martell (2 Kg)",
-      "raw_discipline_name": "Martillo (2kg) S14F",
-      "wind": null,
-      "internal_id": 1352
-    },
-    {
-      "athlete_name": "CARLOTA TEJERO CLAU",
-      "athlete_dob": "6/3/2012",
-      "athlete_id": "CL7258",
-      "performance": "23.25",
-      "discipline": "Martell (2 Kg)",
-      "raw_discipline_name": "Martillo (2kg) S14F",
-      "wind": null,
-      "internal_id": 1352
-    },
-    {
-      "athlete_name": "MARIA MARTIN CUADRADO",
-      "athlete_dob": "1/5/2012",
-      "athlete_id": "CL1089",
-      "performance": "23.68",
-      "discipline": "Martell (2 Kg)",
-      "raw_discipline_name": "Martillo (2kg) S14F",
-      "wind": null,
-      "internal_id": 1330
-    },
-    {
-      "athlete_name": "MARIA MARTIN CUADRADO",
-      "athlete_dob": "1/5/2012",
-      "athlete_id": "CL1089",
-      "performance": "23.46",
-      "discipline": "Martell (2 Kg)",
-      "raw_discipline_name": "Martillo (2kg) S14F",
-      "wind": null,
-      "internal_id": 1330
-    },
-    {
-      "athlete_name": "BLANCA FRUTOS MATURANA",
-      "athlete_dob": "13/6/2013",
-      "athlete_id": "CAT-3724257",
-      "performance": "16.44",
-      "discipline": "Martell (2 Kg)",
-      "raw_discipline_name": "Martillo (2kg) S14F",
-      "wind": null,
-      "internal_id": 1425
-    },
-    {
-      "athlete_name": "BLANCA FRUTOS MATURANA",
-      "athlete_dob": "13/6/2013",
-      "athlete_id": "CAT-3724257",
-      "performance": "13.54",
-      "discipline": "Martell (2 Kg)",
-      "raw_discipline_name": "Martillo (2kg) S14F",
-      "wind": null,
-      "internal_id": 1425
-    },
-    {
-      "athlete_name": "AITANA CASAS MUIÑO",
-      "athlete_dob": "28/10/2013",
-      "athlete_id": "CL11660",
-      "performance": "12.39",
-      "discipline": "Martell (2 Kg)",
-      "raw_discipline_name": "Martillo (2kg) S14F",
-      "wind": null,
-      "internal_id": 1375
-    },
-    {
-      "athlete_name": "AITANA CASAS MUIÑO",
-      "athlete_dob": "28/10/2013",
-      "athlete_id": "CL11660",
-      "performance": "10.81",
-      "discipline": "Martell (2 Kg)",
-      "raw_discipline_name": "Martillo (2kg) S14F",
-      "wind": null,
-      "internal_id": 1375
-    },
-    {
-      "athlete_name": "ALBA ESTEVE HOSTALOT",
-      "athlete_dob": "10/11/2013",
-      "athlete_id": "CL4396",
-      "performance": "9.65",
-      "discipline": "Martell (2 Kg)",
-      "raw_discipline_name": "Martillo (2kg) S14F",
-      "wind": null,
-      "internal_id": 1335
-    },
-    {
-      "athlete_name": "ALBA ESTEVE HOSTALOT",
-      "athlete_dob": "10/11/2013",
-      "athlete_id": "CL4396",
-      "performance": "12.33",
-      "discipline": "Martell (2 Kg)",
-      "raw_discipline_name": "Martillo (2kg) S14F",
-      "wind": null,
-      "internal_id": 1335
-    },
-    {
-      "athlete_name": "GINESTA MARRUGAT CANADELL",
-      "athlete_dob": "10/12/2016",
-      "athlete_id": "CAT-3789549",
-      "performance": "11.95",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "Jabalina Vortex S10F",
-      "wind": null,
-      "internal_id": 1404
-    },
-    {
-      "athlete_name": "GINESTA MARRUGAT CANADELL",
-      "athlete_dob": "10/12/2016",
-      "athlete_id": "CAT-3789549",
-      "performance": "8.53",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "Jabalina Vortex S10F",
-      "wind": null,
-      "internal_id": 1404
-    },
-    {
-      "athlete_name": "GINESTA MARRUGAT CANADELL",
-      "athlete_dob": "10/12/2016",
-      "athlete_id": "CAT-3789549",
-      "performance": "15.69",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "Jabalina Vortex S10F",
-      "wind": null,
-      "internal_id": 1404
-    },
-    {
-      "athlete_name": "AMELI TORRES ARBONES",
-      "athlete_dob": "27/1/2014",
-      "athlete_id": "CL15270",
-      "performance": "13.32",
-      "discipline": "Javelina (300 g)",
-      "raw_discipline_name": "Jabalina 300gr S12F",
-      "wind": null,
-      "internal_id": 1394
-    },
-    {
-      "athlete_name": "AMELI TORRES ARBONES",
-      "athlete_dob": "27/1/2014",
-      "athlete_id": "CL15270",
-      "performance": "12.98",
-      "discipline": "Javelina (300 g)",
-      "raw_discipline_name": "Jabalina 300gr S12F",
-      "wind": null,
-      "internal_id": 1394
-    },
-    {
-      "athlete_name": "AMELI TORRES ARBONES",
-      "athlete_dob": "27/1/2014",
-      "athlete_id": "CL15270",
-      "performance": "14.88",
-      "discipline": "Javelina (300 g)",
-      "raw_discipline_name": "Jabalina 300gr S12F",
-      "wind": null,
-      "internal_id": 1394
-    },
-    {
-      "athlete_name": "JULIA MUSTE SANTIAGO",
-      "athlete_dob": "30/9/2015",
-      "athlete_id": "CL14892",
-      "performance": "10.68",
-      "discipline": "Javelina (300 g)",
-      "raw_discipline_name": "Jabalina 300gr S12F",
-      "wind": null,
-      "internal_id": 1382
-    },
-    {
-      "athlete_name": "JULIA MUSTE SANTIAGO",
-      "athlete_dob": "30/9/2015",
-      "athlete_id": "CL14892",
-      "performance": "10.58",
-      "discipline": "Javelina (300 g)",
-      "raw_discipline_name": "Jabalina 300gr S12F",
-      "wind": null,
-      "internal_id": 1382
-    },
-    {
-      "athlete_name": "JULIA MUSTE SANTIAGO",
-      "athlete_dob": "30/9/2015",
-      "athlete_id": "CL14892",
-      "performance": "13.40",
-      "discipline": "Javelina (300 g)",
-      "raw_discipline_name": "Jabalina 300gr S12F",
-      "wind": null,
-      "internal_id": 1382
-    },
-    {
-      "athlete_name": "INDIA MARTIN CUADRADO",
-      "athlete_dob": "4/4/2014",
-      "athlete_id": "CL7608",
-      "performance": "10.40",
-      "discipline": "Javelina (300 g)",
-      "raw_discipline_name": "Jabalina 300gr S12F",
-      "wind": null,
-      "internal_id": 1332
-    },
-    {
-      "athlete_name": "INDIA MARTIN CUADRADO",
-      "athlete_dob": "4/4/2014",
-      "athlete_id": "CL7608",
-      "performance": "10.48",
-      "discipline": "Javelina (300 g)",
-      "raw_discipline_name": "Jabalina 300gr S12F",
-      "wind": null,
-      "internal_id": 1332
-    },
-    {
-      "athlete_name": "CARLOTA FRUTOS MATURANA",
-      "athlete_dob": "18/7/2015",
-      "athlete_id": "CAT-3723407",
-      "performance": "6.30",
-      "discipline": "Javelina (300 g)",
-      "raw_discipline_name": "Jabalina 300gr S12F",
-      "wind": null,
-      "internal_id": 1426
-    },
-    {
-      "athlete_name": "CARLOTA FRUTOS MATURANA",
-      "athlete_dob": "18/7/2015",
-      "athlete_id": "CAT-3723407",
-      "performance": "7.78",
-      "discipline": "Javelina (300 g)",
-      "raw_discipline_name": "Jabalina 300gr S12F",
-      "wind": null,
-      "internal_id": 1426
-    },
-    {
-      "athlete_name": "CARLOTA FRUTOS MATURANA",
-      "athlete_dob": "18/7/2015",
-      "athlete_id": "CAT-3723407",
-      "performance": "7.57",
-      "discipline": "Javelina (300 g)",
-      "raw_discipline_name": "Jabalina 300gr S12F",
-      "wind": null,
-      "internal_id": 1426
-    },
-    {
-      "athlete_name": "NOA PASCUAL PRATS",
-      "athlete_dob": "27/2/2015",
-      "athlete_id": "CL10462",
-      "performance": "7.14",
-      "discipline": "Javelina (300 g)",
-      "raw_discipline_name": "Jabalina 300gr S12F",
-      "wind": null,
-      "internal_id": 1380
-    },
-    {
-      "athlete_name": "NOA PASCUAL PRATS",
-      "athlete_dob": "27/2/2015",
-      "athlete_id": "CL10462",
-      "performance": "6.37",
-      "discipline": "Javelina (300 g)",
-      "raw_discipline_name": "Jabalina 300gr S12F",
-      "wind": null,
-      "internal_id": 1380
-    },
-    {
-      "athlete_name": "Elena Alessón Brito",
-      "athlete_dob": "14/2/2015",
-      "athlete_id": "CAT-3819004",
-      "performance": "5.63",
-      "discipline": "Javelina (300 g)",
-      "raw_discipline_name": "Jabalina 300gr S12F",
-      "wind": null,
-      "internal_id": 1434
-    },
-    {
-      "athlete_name": "Elena Alessón Brito",
-      "athlete_dob": "14/2/2015",
-      "athlete_id": "CAT-3819004",
-      "performance": "5.57",
-      "discipline": "Javelina (300 g)",
-      "raw_discipline_name": "Jabalina 300gr S12F",
-      "wind": null,
-      "internal_id": 1434
-    },
-    {
-      "athlete_name": "Elena Alessón Brito",
-      "athlete_dob": "14/2/2015",
-      "athlete_id": "CAT-3819004",
-      "performance": "5.77",
-      "discipline": "Javelina (300 g)",
-      "raw_discipline_name": "Jabalina 300gr S12F",
-      "wind": null,
-      "internal_id": 1434
+      "position": null
     },
     {
       "athlete_name": "ANTONIO BALAZOTE",
@@ -893,7 +53,7 @@
       "discipline": "60 metres tanques (0.50)",
       "raw_discipline_name": "60m vallas (0,50) S12M",
       "wind": null,
-      "internal_id": 1370
+      "position": null
     },
     {
       "athlete_name": "DANIEL LINARES ANTELO",
@@ -903,7 +63,7 @@
       "discipline": "60 metres tanques (0.50)",
       "raw_discipline_name": "60m vallas (0,50) S12M",
       "wind": null,
-      "internal_id": 1403
+      "position": null
     },
     {
       "athlete_name": "NIL TORRES PRATS",
@@ -913,7 +73,7 @@
       "discipline": "60 metres tanques (0.50)",
       "raw_discipline_name": "60m vallas (0,50) S12M",
       "wind": null,
-      "internal_id": 1341
+      "position": null
     },
     {
       "athlete_name": "JOSE ANGEL MASIA URZUA",
@@ -923,7 +83,7 @@
       "discipline": "60 metres tanques (0.50)",
       "raw_discipline_name": "60m vallas (0,50) S12M",
       "wind": null,
-      "internal_id": 1389
+      "position": null
     },
     {
       "athlete_name": "TEO POU FONTS",
@@ -933,7 +93,7 @@
       "discipline": "60 metres tanques (0.50)",
       "raw_discipline_name": "60m vallas (0,50) S12M",
       "wind": null,
-      "internal_id": 1377
+      "position": null
     },
     {
       "athlete_name": "BLAI LLIGADAS TURON",
@@ -943,7 +103,7 @@
       "discipline": "60 metres tanques (0.50)",
       "raw_discipline_name": "60m vallas (0,50) S12M",
       "wind": null,
-      "internal_id": 1338
+      "position": null
     },
     {
       "athlete_name": "ERNEST GELLIDA BARRIO",
@@ -953,7 +113,7 @@
       "discipline": "60 metres tanques (0.50)",
       "raw_discipline_name": "60m vallas (0,50) S12M",
       "wind": null,
-      "internal_id": 1344
+      "position": null
     },
     {
       "athlete_name": "GERARD LOPEZ ROMERO",
@@ -963,7 +123,7 @@
       "discipline": "60 metres tanques (0.50)",
       "raw_discipline_name": "60m vallas (0,50) S12M",
       "wind": null,
-      "internal_id": 1360
+      "position": null
     },
     {
       "athlete_name": "FERRAN SANJUAN FLORES",
@@ -973,7 +133,7 @@
       "discipline": "60 metres tanques (0.50)",
       "raw_discipline_name": "60m vallas (0,50) S12M",
       "wind": null,
-      "internal_id": 1436
+      "position": null
     },
     {
       "athlete_name": "ORIOL GAYA VALLES",
@@ -983,7 +143,7 @@
       "discipline": "60 metres tanques (0.50)",
       "raw_discipline_name": "60m vallas (0,50) S12M",
       "wind": null,
-      "internal_id": 1395
+      "position": null
     },
     {
       "athlete_name": "OLIVIER CASAS MUIÑO",
@@ -993,7 +153,7 @@
       "discipline": "60 metres tanques (0.50)",
       "raw_discipline_name": "60m vallas (0,50) S12M",
       "wind": null,
-      "internal_id": 1373
+      "position": null
     },
     {
       "athlete_name": "PAU SUELVES MORENO",
@@ -1003,7 +163,7 @@
       "discipline": "60 metres tanques (0.50)",
       "raw_discipline_name": "60m vallas (0,50) S12M",
       "wind": null,
-      "internal_id": null
+      "position": null
     },
     {
       "athlete_name": "FERRAN MASCARO NAVARRO",
@@ -1013,7 +173,7 @@
       "discipline": "220 metres tanques (0.762)",
       "raw_discipline_name": "220m vallas (0,76) S14M",
       "wind": "+0.0",
-      "internal_id": 1362
+      "position": null
     },
     {
       "athlete_name": "HERNAN FERRAN JIMENEZ",
@@ -1023,7 +183,7 @@
       "discipline": "220 metres tanques (0.762)",
       "raw_discipline_name": "220m vallas (0,76) S14M",
       "wind": "+0.0",
-      "internal_id": 1327
+      "position": null
     },
     {
       "athlete_name": "BIEL LLIGADAS TURON",
@@ -1033,7 +193,7 @@
       "discipline": "220 metres tanques (0.762)",
       "raw_discipline_name": "220m vallas (0,76) S14M",
       "wind": "+0.0",
-      "internal_id": 1339
+      "position": null
     },
     {
       "athlete_name": "KILIAN PEDROL ESPINOSA",
@@ -1043,7 +203,7 @@
       "discipline": "220 metres tanques (0.762)",
       "raw_discipline_name": "220m vallas (0,76) S14M",
       "wind": "+1.5",
-      "internal_id": 1361
+      "position": null
     },
     {
       "athlete_name": "CESSAR AINA PRECIADO FOREMAN",
@@ -1053,127 +213,467 @@
       "discipline": "300 metres tanques (0.84)",
       "raw_discipline_name": "300m vallas (0,84) S16M",
       "wind": null,
-      "internal_id": 1066
+      "position": null
     },
     {
       "athlete_name": "FRANCISCO JAVIER BAZ VIDAL",
       "athlete_dob": "2/12/1969",
       "athlete_id": "CL8459",
-      "performance": "17.59",
-      "discipline": "300 metres tanques (0.84)",
-      "raw_discipline_name": "300m vallas (0,84) S16M",
+      "performance": "1:17.59",
+      "discipline": "400 metres tanques (0.84)",
+      "raw_discipline_name": "400m vallas (0,84) AL M55",
       "wind": null,
-      "internal_id": null
+      "position": null
+    },
+    {
+      "athlete_name": "FERRAN MASCARO NAVARRO",
+      "athlete_dob": "2/6/2012",
+      "athlete_id": "CL96310",
+      "performance": "1.80",
+      "discipline": "Perxa",
+      "raw_discipline_name": "Pértiga S14M",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ENZO MATE GRAS",
       "athlete_dob": "1/2/2011",
       "athlete_id": "CL94546",
       "performance": "3.20",
-      "discipline": "300 metres tanques (0.84)",
-      "raw_discipline_name": "300m vallas (0,84) S16M",
+      "discipline": "Perxa",
+      "raw_discipline_name": "Pértiga S16M",
       "wind": null,
-      "internal_id": 1343
+      "position": null
     },
     {
-      "athlete_name": "TEO POU FONTS",
-      "athlete_dob": "9/1/2015",
-      "athlete_id": "CL14903",
-      "performance": "17.33",
-      "discipline": "300 metres tanques (0.84)",
-      "raw_discipline_name": "300m vallas (0,84) S16M",
+      "athlete_name": "JOSE ANGEL MASIA URZUA O-- O-- O--",
+      "athlete_dob": "25/2/2015",
+      "athlete_id": "CL15467",
+      "performance": "1.60",
+      "discipline": "Perxa",
+      "raw_discipline_name": "Pértiga S12M",
       "wind": null,
-      "internal_id": 1377
+      "position": null
+    },
+    {
+      "athlete_name": "ORIOL GAYA VALLES O--",
+      "athlete_dob": "26/2/2015",
+      "athlete_id": "CL14915",
+      "performance": "1.20",
+      "discipline": "Perxa",
+      "raw_discipline_name": "Pértiga S12M",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "BLAI LLIGADAS TURON",
+      "athlete_dob": "11/3/2015",
+      "athlete_id": "CL11069",
+      "performance": "18.35",
+      "discipline": "Javelina (300 g)",
+      "raw_discipline_name": "Jabalina 300gr S12M",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "BLAI LLIGADAS TURON",
+      "athlete_dob": "11/3/2015",
+      "athlete_id": "CL11069",
+      "performance": "20.21",
+      "discipline": "Javelina (300 g)",
+      "raw_discipline_name": "Jabalina 300gr S12M",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "BLAI LLIGADAS TURON",
       "athlete_dob": "11/3/2015",
       "athlete_id": "CL11069",
       "performance": "21.37",
-      "discipline": "300 metres tanques (0.84)",
-      "raw_discipline_name": "300m vallas (0,84) S16M",
+      "discipline": "Javelina (300 g)",
+      "raw_discipline_name": "Jabalina 300gr S12M",
       "wind": null,
-      "internal_id": 1338
+      "position": null
+    },
+    {
+      "athlete_name": "JOSE ANGEL MASIA URZUA",
+      "athlete_dob": "25/2/2015",
+      "athlete_id": "CL15467",
+      "performance": "17.60",
+      "discipline": "Javelina (300 g)",
+      "raw_discipline_name": "Jabalina 300gr S12M",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "JOSE ANGEL MASIA URZUA",
+      "athlete_dob": "25/2/2015",
+      "athlete_id": "CL15467",
+      "performance": "17.83",
+      "discipline": "Javelina (300 g)",
+      "raw_discipline_name": "Jabalina 300gr S12M",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "JOSE ANGEL MASIA URZUA",
       "athlete_dob": "25/2/2015",
       "athlete_id": "CL15467",
       "performance": "18.77",
-      "discipline": "300 metres tanques (0.84)",
-      "raw_discipline_name": "300m vallas (0,84) S16M",
+      "discipline": "Javelina (300 g)",
+      "raw_discipline_name": "Jabalina 300gr S12M",
       "wind": null,
-      "internal_id": 1389
+      "position": null
+    },
+    {
+      "athlete_name": "TEO POU FONTS",
+      "athlete_dob": "9/1/2015",
+      "athlete_id": "CL14903",
+      "performance": "12.66",
+      "discipline": "Javelina (300 g)",
+      "raw_discipline_name": "Jabalina 300gr S12M",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "TEO POU FONTS",
+      "athlete_dob": "9/1/2015",
+      "athlete_id": "CL14903",
+      "performance": "16.93",
+      "discipline": "Javelina (300 g)",
+      "raw_discipline_name": "Jabalina 300gr S12M",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "TEO POU FONTS",
+      "athlete_dob": "9/1/2015",
+      "athlete_id": "CL14903",
+      "performance": "17.33",
+      "discipline": "Javelina (300 g)",
+      "raw_discipline_name": "Jabalina 300gr S12M",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ORIOL GAYA VALLES",
       "athlete_dob": "26/2/2015",
       "athlete_id": "CL14915",
       "performance": "9.20",
-      "discipline": "300 metres tanques (0.84)",
-      "raw_discipline_name": "300m vallas (0,84) S16M",
+      "discipline": "Javelina (300 g)",
+      "raw_discipline_name": "Jabalina 300gr S12M",
       "wind": null,
-      "internal_id": 1395
+      "position": null
+    },
+    {
+      "athlete_name": "FERRAN SANJUAN FLORES",
+      "athlete_dob": "9/2/2015",
+      "athlete_id": "CAT-3816505",
+      "performance": "8.36",
+      "discipline": "Javelina (300 g)",
+      "raw_discipline_name": "Jabalina 300gr S12M",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "FERRAN SANJUAN FLORES",
+      "athlete_dob": "9/2/2015",
+      "athlete_id": "CAT-3816505",
+      "performance": "6.83",
+      "discipline": "Javelina (300 g)",
+      "raw_discipline_name": "Jabalina 300gr S12M",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "PAU SUELVES MORENO",
+      "athlete_dob": "22/5/2015",
+      "athlete_id": "CAT-3789991",
+      "performance": "7.57",
+      "discipline": "Javelina (300 g)",
+      "raw_discipline_name": "Jabalina 300gr S12M",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "PAU SUELVES MORENO",
+      "athlete_dob": "22/5/2015",
+      "athlete_id": "CAT-3789991",
+      "performance": "5.75",
+      "discipline": "Javelina (300 g)",
+      "raw_discipline_name": "Jabalina 300gr S12M",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "BIEL LLIGADAS TURON",
+      "athlete_dob": "27/2/2012",
+      "athlete_id": "CL4342",
+      "performance": "12.62",
+      "discipline": "Martell (3 Kg)",
+      "raw_discipline_name": "Martillo (3 Kg) S14M",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "BIEL LLIGADAS TURON",
+      "athlete_dob": "27/2/2012",
+      "athlete_id": "CL4342",
+      "performance": "12.69",
+      "discipline": "Martell (3 Kg)",
+      "raw_discipline_name": "Martillo (3 Kg) S14M",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "BIEL LLIGADAS TURON",
       "athlete_dob": "27/2/2012",
       "athlete_id": "CL4342",
       "performance": "14.65",
-      "discipline": "Javelina (300 g)",
-      "raw_discipline_name": "Jabalina 300gr S12M",
+      "discipline": "Martell (3 Kg)",
+      "raw_discipline_name": "Martillo (3 Kg) S14M",
       "wind": null,
-      "internal_id": 1339
+      "position": null
+    },
+    {
+      "athlete_name": "KILIAN PEDROL ESPINOSA",
+      "athlete_dob": "24/2/2013",
+      "athlete_id": "CL7676",
+      "performance": "12.55",
+      "discipline": "Martell (3 Kg)",
+      "raw_discipline_name": "Martillo (3 Kg) S14M",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "KILIAN PEDROL ESPINOSA",
       "athlete_dob": "24/2/2013",
       "athlete_id": "CL7676",
       "performance": "14.17",
-      "discipline": "Javelina (300 g)",
-      "raw_discipline_name": "Jabalina 300gr S12M",
+      "discipline": "Martell (3 Kg)",
+      "raw_discipline_name": "Martillo (3 Kg) S14M",
       "wind": null,
-      "internal_id": 1361
+      "position": null
     },
     {
       "athlete_name": "GERARD BARBER GONZALEZ",
       "athlete_dob": "24/10/2017",
       "athlete_id": "CAT-3789597",
       "performance": "20.29",
-      "discipline": "Javelina (300 g)",
-      "raw_discipline_name": "Jabalina 300gr S12M",
+      "discipline": "Javelina (800 g)",
+      "raw_discipline_name": "Jabalina Vortex S10M",
       "wind": null,
-      "internal_id": 1359
+      "position": null
+    },
+    {
+      "athlete_name": "GERARD BARBER GONZALEZ",
+      "athlete_dob": "24/10/2017",
+      "athlete_id": "CAT-3789597",
+      "performance": "13.82",
+      "discipline": "Javelina (800 g)",
+      "raw_discipline_name": "Jabalina Vortex S10M",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "GERARD BARBER GONZALEZ",
+      "athlete_dob": "24/10/2017",
+      "athlete_id": "CAT-3789597",
+      "performance": "17.70",
+      "discipline": "Javelina (800 g)",
+      "raw_discipline_name": "Jabalina Vortex S10M",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "NIL PASCUAL PRATS",
+      "athlete_dob": "16/3/2017",
+      "athlete_id": "CAT-3789538",
+      "performance": "17.52",
+      "discipline": "Javelina (800 g)",
+      "raw_discipline_name": "Jabalina Vortex S10M",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "NIL PASCUAL PRATS",
+      "athlete_dob": "16/3/2017",
+      "athlete_id": "CAT-3789538",
+      "performance": "16.76",
+      "discipline": "Javelina (800 g)",
+      "raw_discipline_name": "Jabalina Vortex S10M",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "NIL PASCUAL PRATS",
       "athlete_dob": "16/3/2017",
       "athlete_id": "CAT-3789538",
       "performance": "20.19",
-      "discipline": "Javelina (300 g)",
-      "raw_discipline_name": "Jabalina 300gr S12M",
+      "discipline": "Javelina (800 g)",
+      "raw_discipline_name": "Jabalina Vortex S10M",
       "wind": null,
-      "internal_id": 1381
+      "position": null
+    },
+    {
+      "athlete_name": "POL VILANOVA ANGLES",
+      "athlete_dob": "1/3/2017",
+      "athlete_id": "CAT-3789595",
+      "performance": "18.47",
+      "discipline": "Javelina (800 g)",
+      "raw_discipline_name": "Jabalina Vortex S10M",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "POL VILANOVA ANGLES",
       "athlete_dob": "1/3/2017",
       "athlete_id": "CAT-3789595",
       "performance": "19.69",
-      "discipline": "Javelina (300 g)",
-      "raw_discipline_name": "Jabalina 300gr S12M",
+      "discipline": "Javelina (800 g)",
+      "raw_discipline_name": "Jabalina Vortex S10M",
       "wind": null,
-      "internal_id": 1428
+      "position": null
+    },
+    {
+      "athlete_name": "POL VILANOVA ANGLES",
+      "athlete_dob": "1/3/2017",
+      "athlete_id": "CAT-3789595",
+      "performance": "19.02",
+      "discipline": "Javelina (800 g)",
+      "raw_discipline_name": "Jabalina Vortex S10M",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "QUIM CAPARROS JARA",
+      "athlete_dob": "19/2/2016",
+      "athlete_id": "CAT-3802597",
+      "performance": "10.03",
+      "discipline": "Javelina (800 g)",
+      "raw_discipline_name": "Jabalina Vortex S10M",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "QUIM CAPARROS JARA",
       "athlete_dob": "19/2/2016",
       "athlete_id": "CAT-3802597",
       "performance": "14.48",
-      "discipline": "Javelina (300 g)",
-      "raw_discipline_name": "Jabalina 300gr S12M",
+      "discipline": "Javelina (800 g)",
+      "raw_discipline_name": "Jabalina Vortex S10M",
       "wind": null,
-      "internal_id": 1406
+      "position": null
+    },
+    {
+      "athlete_name": "QUIM CAPARROS JARA",
+      "athlete_dob": "19/2/2016",
+      "athlete_id": "CAT-3802597",
+      "performance": "13.38",
+      "discipline": "Javelina (800 g)",
+      "raw_discipline_name": "Jabalina Vortex S10M",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Aston MATE GRAS",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "44.01",
+      "discipline": "4x80",
+      "raw_discipline_name": "4x80m S14M",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Ferran MASCARO NAVARRO",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "44.01",
+      "discipline": "4x80",
+      "raw_discipline_name": "4x80m S14M",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Biel LLIGADAS TURON",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "44.01",
+      "discipline": "4x80",
+      "raw_discipline_name": "4x80m S14M",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Teo POU FONTS",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "35.84",
+      "discipline": "4x60",
+      "raw_discipline_name": "4x60m S12M",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Antonio BALAZOTE",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "35.84",
+      "discipline": "4x60",
+      "raw_discipline_name": "4x60m S12M",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Ada FELIU LORCA",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "35.84",
+      "discipline": "4x60",
+      "raw_discipline_name": "4x60m S12M",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Oriol GAYA VALLES",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "35.84",
+      "discipline": "4x60",
+      "raw_discipline_name": "4x60m S12M",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Ernest GELLIDA BARRIO",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "35.84",
+      "discipline": "4x60",
+      "raw_discipline_name": "4x60m S12M",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Jose Angel MASIA URZUA",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "35.84",
+      "discipline": "4x60",
+      "raw_discipline_name": "4x60m S12M",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Gerard LOPEZ ROMERO",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "35.84",
+      "discipline": "4x60",
+      "raw_discipline_name": "4x60m S12M",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ALDARA LINARES ANTELO",
@@ -1183,7 +683,47 @@
       "discipline": "100 metres llisos",
       "raw_discipline_name": "100m ABS F",
       "wind": "+2.3",
-      "internal_id": 1068
+      "position": null
+    },
+    {
+      "athlete_name": "ARIA ORTA PALLARES",
+      "athlete_dob": "24/2/2017",
+      "athlete_id": "CAT-3789552",
+      "performance": "4:17.00",
+      "discipline": "1000 metres llisos",
+      "raw_discipline_name": "1.000m S10F",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "ADA FELIU LORCA",
+      "athlete_dob": "7/5/2016",
+      "athlete_id": "CL15054",
+      "performance": "4:34.95",
+      "discipline": "1000 metres llisos",
+      "raw_discipline_name": "1.000m S10F",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "BERTA BARBER GONZALEZ",
+      "athlete_dob": "22/1/2013",
+      "athlete_id": "CL7610",
+      "performance": "12:32.95",
+      "discipline": "3000 metres llisos",
+      "raw_discipline_name": "3.000m AL S14F",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "RIHANA MARTOS TEIXIDO",
+      "athlete_dob": "18/3/2012",
+      "athlete_id": "CL85129",
+      "performance": "13:36.93",
+      "discipline": "3000 metres llisos",
+      "raw_discipline_name": "3.000m AL S14F",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "INDIA MARTIN CUADRADO",
@@ -1193,7 +733,7 @@
       "discipline": "60 metres tanques (0.50)",
       "raw_discipline_name": "60m vallas (0,50) S12F",
       "wind": null,
-      "internal_id": 1332
+      "position": null
     },
     {
       "athlete_name": "AMELI TORRES ARBONES",
@@ -1203,7 +743,7 @@
       "discipline": "60 metres tanques (0.50)",
       "raw_discipline_name": "60m vallas (0,50) S12F",
       "wind": null,
-      "internal_id": 1394
+      "position": null
     },
     {
       "athlete_name": "JULIA MUSTE SANTIAGO",
@@ -1213,7 +753,7 @@
       "discipline": "60 metres tanques (0.50)",
       "raw_discipline_name": "60m vallas (0,50) S12F",
       "wind": null,
-      "internal_id": 1382
+      "position": null
     },
     {
       "athlete_name": "ERIKA MARGALLO DEL VALLE",
@@ -1223,7 +763,7 @@
       "discipline": "60 metres tanques (0.50)",
       "raw_discipline_name": "60m vallas (0,50) S12F",
       "wind": null,
-      "internal_id": 1388
+      "position": null
     },
     {
       "athlete_name": "NOA PASCUAL PRATS",
@@ -1233,7 +773,7 @@
       "discipline": "60 metres tanques (0.50)",
       "raw_discipline_name": "60m vallas (0,50) S12F",
       "wind": null,
-      "internal_id": 1380
+      "position": null
     },
     {
       "athlete_name": "CARLOTA FRUTOS MATURANA",
@@ -1243,7 +783,7 @@
       "discipline": "60 metres tanques (0.50)",
       "raw_discipline_name": "60m vallas (0,50) S12F",
       "wind": null,
-      "internal_id": 1426
+      "position": null
     },
     {
       "athlete_name": "Elena Alessón Brito",
@@ -1253,7 +793,7 @@
       "discipline": "60 metres tanques (0.50)",
       "raw_discipline_name": "60m vallas (0,50) S12F",
       "wind": null,
-      "internal_id": 1434
+      "position": null
     },
     {
       "athlete_name": "MONTSERRAT MARQUES CRUZ",
@@ -1263,7 +803,7 @@
       "discipline": "60 metres tanques (0.50)",
       "raw_discipline_name": "60m vallas (0,50) S12F",
       "wind": null,
-      "internal_id": 1374
+      "position": null
     },
     {
       "athlete_name": "CARLOTA TEJERO CLAU",
@@ -1273,7 +813,7 @@
       "discipline": "220 metres tanques (0.762)",
       "raw_discipline_name": "220m vallas (0,76) S14F",
       "wind": "+0.9",
-      "internal_id": 1352
+      "position": null
     },
     {
       "athlete_name": "ALBA ESTEVE HOSTALOT",
@@ -1283,7 +823,7 @@
       "discipline": "220 metres tanques (0.762)",
       "raw_discipline_name": "220m vallas (0,76) S14F",
       "wind": "+0.9",
-      "internal_id": 1335
+      "position": null
     },
     {
       "athlete_name": "EVA JACOB GARCIA",
@@ -1293,7 +833,7 @@
       "discipline": "220 metres tanques (0.762)",
       "raw_discipline_name": "220m vallas (0,76) S14F",
       "wind": "+1.5",
-      "internal_id": 1349
+      "position": null
     },
     {
       "athlete_name": "BLANCA FRUTOS MATURANA",
@@ -1303,7 +843,7 @@
       "discipline": "220 metres tanques (0.762)",
       "raw_discipline_name": "220m vallas (0,76) S14F",
       "wind": "+1.5",
-      "internal_id": 1425
+      "position": null
     },
     {
       "athlete_name": "NORA MONTOLIO AMARO",
@@ -1313,7 +853,7 @@
       "discipline": "300 metres tanques (0.762)",
       "raw_discipline_name": "300m vallas (0,762) S16F",
       "wind": null,
-      "internal_id": 1089
+      "position": null
     },
     {
       "athlete_name": "MARIA FERRAN JIMENEZ",
@@ -1323,137 +863,357 @@
       "discipline": "300 metres tanques (0.762)",
       "raw_discipline_name": "300m vallas (0,762) S16F",
       "wind": null,
-      "internal_id": 1325
+      "position": null
     },
     {
       "athlete_name": "AINOA RODRIGUEZ MURILLO",
       "athlete_dob": "17/1/2008",
       "athlete_id": "CAT-3742948",
-      "performance": "11.47",
-      "discipline": "300 metres tanques (0.762)",
-      "raw_discipline_name": "300m vallas (0,762) S16F",
+      "performance": "1:11.47",
+      "discipline": "400 metres tanques (0.762)",
+      "raw_discipline_name": "400m vallas ABS F",
       "wind": null,
-      "internal_id": 965
+      "position": null
+    },
+    {
+      "athlete_name": "ERIKA MARGALLO DEL VALLE XO- O--",
+      "athlete_dob": "27/11/2014",
+      "athlete_id": "CL15267",
+      "performance": "1.40",
+      "discipline": "Perxa",
+      "raw_discipline_name": "Pértiga S12F",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "ADA NIN NAVAS O-- O-- O--",
+      "athlete_dob": "24/10/2012",
+      "athlete_id": "CL1495",
+      "performance": "1.80",
+      "discipline": "Perxa",
+      "raw_discipline_name": "Pértiga S14F",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "EVA JACOB GARCIA O-- O-- O--",
+      "athlete_dob": "30/6/2012",
+      "athlete_id": "CL7254",
+      "performance": "1.80",
+      "discipline": "Perxa",
+      "raw_discipline_name": "Pértiga S14F",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "BERTA BARBER GONZALEZ O-- O-- XO-",
+      "athlete_dob": "22/1/2013",
+      "athlete_id": "CL7610",
+      "performance": "1.80",
+      "discipline": "Perxa",
+      "raw_discipline_name": "Pértiga S14F",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "CARLOTA TEJERO CLAU",
+      "athlete_dob": "6/3/2012",
+      "athlete_id": "CL7258",
+      "performance": "25.85",
+      "discipline": "Martell (2 Kg)",
+      "raw_discipline_name": "Martillo (2 Kg) S14F",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "CARLOTA TEJERO CLAU",
       "athlete_dob": "6/3/2012",
       "athlete_id": "CL7258",
       "performance": "26.95",
-      "discipline": "300 metres tanques (0.762)",
-      "raw_discipline_name": "300m vallas (0,762) S16F",
+      "discipline": "Martell (2 Kg)",
+      "raw_discipline_name": "Martillo (2 Kg) S14F",
       "wind": null,
-      "internal_id": 1352
+      "position": null
+    },
+    {
+      "athlete_name": "CARLOTA TEJERO CLAU",
+      "athlete_dob": "6/3/2012",
+      "athlete_id": "CL7258",
+      "performance": "23.25",
+      "discipline": "Martell (2 Kg)",
+      "raw_discipline_name": "Martillo (2 Kg) S14F",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "MARIA MARTIN CUADRADO",
       "athlete_dob": "1/5/2012",
       "athlete_id": "CL1089",
       "performance": "23.68",
-      "discipline": "300 metres tanques (0.762)",
-      "raw_discipline_name": "300m vallas (0,762) S16F",
+      "discipline": "Martell (2 Kg)",
+      "raw_discipline_name": "Martillo (2 Kg) S14F",
       "wind": null,
-      "internal_id": 1330
+      "position": null
+    },
+    {
+      "athlete_name": "MARIA MARTIN CUADRADO",
+      "athlete_dob": "1/5/2012",
+      "athlete_id": "CL1089",
+      "performance": "23.46",
+      "discipline": "Martell (2 Kg)",
+      "raw_discipline_name": "Martillo (2 Kg) S14F",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "BLANCA FRUTOS MATURANA",
       "athlete_dob": "13/6/2013",
       "athlete_id": "CAT-3724257",
       "performance": "16.44",
-      "discipline": "300 metres tanques (0.762)",
-      "raw_discipline_name": "300m vallas (0,762) S16F",
+      "discipline": "Martell (2 Kg)",
+      "raw_discipline_name": "Martillo (2 Kg) S14F",
       "wind": null,
-      "internal_id": 1425
+      "position": null
+    },
+    {
+      "athlete_name": "BLANCA FRUTOS MATURANA",
+      "athlete_dob": "13/6/2013",
+      "athlete_id": "CAT-3724257",
+      "performance": "13.54",
+      "discipline": "Martell (2 Kg)",
+      "raw_discipline_name": "Martillo (2 Kg) S14F",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "AITANA CASAS MUIÑO",
       "athlete_dob": "28/10/2013",
       "athlete_id": "CL11660",
       "performance": "12.39",
-      "discipline": "300 metres tanques (0.762)",
-      "raw_discipline_name": "300m vallas (0,762) S16F",
+      "discipline": "Martell (2 Kg)",
+      "raw_discipline_name": "Martillo (2 Kg) S14F",
       "wind": null,
-      "internal_id": 1375
+      "position": null
+    },
+    {
+      "athlete_name": "AITANA CASAS MUIÑO",
+      "athlete_dob": "28/10/2013",
+      "athlete_id": "CL11660",
+      "performance": "10.81",
+      "discipline": "Martell (2 Kg)",
+      "raw_discipline_name": "Martillo (2 Kg) S14F",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "ALBA ESTEVE HOSTALOT",
+      "athlete_dob": "10/11/2013",
+      "athlete_id": "CL4396",
+      "performance": "9.65",
+      "discipline": "Martell (2 Kg)",
+      "raw_discipline_name": "Martillo (2 Kg) S14F",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ALBA ESTEVE HOSTALOT",
       "athlete_dob": "10/11/2013",
       "athlete_id": "CL4396",
       "performance": "12.33",
-      "discipline": "300 metres tanques (0.762)",
-      "raw_discipline_name": "300m vallas (0,762) S16F",
+      "discipline": "Martell (2 Kg)",
+      "raw_discipline_name": "Martillo (2 Kg) S14F",
       "wind": null,
-      "internal_id": 1335
+      "position": null
+    },
+    {
+      "athlete_name": "GINESTA MARRUGAT CANADELL",
+      "athlete_dob": "10/12/2016",
+      "athlete_id": "CAT-3789549",
+      "performance": "11.95",
+      "discipline": "Javelina (800 g)",
+      "raw_discipline_name": "Jabalina Vortex S10F",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "GINESTA MARRUGAT CANADELL",
+      "athlete_dob": "10/12/2016",
+      "athlete_id": "CAT-3789549",
+      "performance": "8.53",
+      "discipline": "Javelina (800 g)",
+      "raw_discipline_name": "Jabalina Vortex S10F",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "GINESTA MARRUGAT CANADELL",
       "athlete_dob": "10/12/2016",
       "athlete_id": "CAT-3789549",
       "performance": "15.69",
-      "discipline": "300 metres tanques (0.762)",
-      "raw_discipline_name": "300m vallas (0,762) S16F",
+      "discipline": "Javelina (800 g)",
+      "raw_discipline_name": "Jabalina Vortex S10F",
       "wind": null,
-      "internal_id": 1404
+      "position": null
+    },
+    {
+      "athlete_name": "AMELI TORRES ARBONES",
+      "athlete_dob": "27/1/2014",
+      "athlete_id": "CL15270",
+      "performance": "13.32",
+      "discipline": "Javelina (300 g)",
+      "raw_discipline_name": "Jabalina 300gr S12F",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "AMELI TORRES ARBONES",
+      "athlete_dob": "27/1/2014",
+      "athlete_id": "CL15270",
+      "performance": "12.98",
+      "discipline": "Javelina (300 g)",
+      "raw_discipline_name": "Jabalina 300gr S12F",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "AMELI TORRES ARBONES",
       "athlete_dob": "27/1/2014",
       "athlete_id": "CL15270",
       "performance": "14.88",
-      "discipline": "300 metres tanques (0.762)",
-      "raw_discipline_name": "300m vallas (0,762) S16F",
+      "discipline": "Javelina (300 g)",
+      "raw_discipline_name": "Jabalina 300gr S12F",
       "wind": null,
-      "internal_id": 1394
+      "position": null
+    },
+    {
+      "athlete_name": "JULIA MUSTE SANTIAGO",
+      "athlete_dob": "30/9/2015",
+      "athlete_id": "CL14892",
+      "performance": "10.68",
+      "discipline": "Javelina (300 g)",
+      "raw_discipline_name": "Jabalina 300gr S12F",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "JULIA MUSTE SANTIAGO",
+      "athlete_dob": "30/9/2015",
+      "athlete_id": "CL14892",
+      "performance": "10.58",
+      "discipline": "Javelina (300 g)",
+      "raw_discipline_name": "Jabalina 300gr S12F",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "JULIA MUSTE SANTIAGO",
       "athlete_dob": "30/9/2015",
       "athlete_id": "CL14892",
       "performance": "13.40",
-      "discipline": "300 metres tanques (0.762)",
-      "raw_discipline_name": "300m vallas (0,762) S16F",
+      "discipline": "Javelina (300 g)",
+      "raw_discipline_name": "Jabalina 300gr S12F",
       "wind": null,
-      "internal_id": 1382
+      "position": null
+    },
+    {
+      "athlete_name": "INDIA MARTIN CUADRADO",
+      "athlete_dob": "4/4/2014",
+      "athlete_id": "CL7608",
+      "performance": "10.40",
+      "discipline": "Javelina (300 g)",
+      "raw_discipline_name": "Jabalina 300gr S12F",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "INDIA MARTIN CUADRADO",
       "athlete_dob": "4/4/2014",
       "athlete_id": "CL7608",
       "performance": "10.48",
-      "discipline": "300 metres tanques (0.762)",
-      "raw_discipline_name": "300m vallas (0,762) S16F",
+      "discipline": "Javelina (300 g)",
+      "raw_discipline_name": "Jabalina 300gr S12F",
       "wind": null,
-      "internal_id": 1332
+      "position": null
+    },
+    {
+      "athlete_name": "CARLOTA FRUTOS MATURANA",
+      "athlete_dob": "18/7/2015",
+      "athlete_id": "CAT-3723407",
+      "performance": "6.30",
+      "discipline": "Javelina (300 g)",
+      "raw_discipline_name": "Jabalina 300gr S12F",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "CARLOTA FRUTOS MATURANA",
       "athlete_dob": "18/7/2015",
       "athlete_id": "CAT-3723407",
       "performance": "7.78",
-      "discipline": "300 metres tanques (0.762)",
-      "raw_discipline_name": "300m vallas (0,762) S16F",
+      "discipline": "Javelina (300 g)",
+      "raw_discipline_name": "Jabalina 300gr S12F",
       "wind": null,
-      "internal_id": 1426
+      "position": null
+    },
+    {
+      "athlete_name": "CARLOTA FRUTOS MATURANA",
+      "athlete_dob": "18/7/2015",
+      "athlete_id": "CAT-3723407",
+      "performance": "7.57",
+      "discipline": "Javelina (300 g)",
+      "raw_discipline_name": "Jabalina 300gr S12F",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "NOA PASCUAL PRATS",
       "athlete_dob": "27/2/2015",
       "athlete_id": "CL10462",
       "performance": "7.14",
-      "discipline": "300 metres tanques (0.762)",
-      "raw_discipline_name": "300m vallas (0,762) S16F",
+      "discipline": "Javelina (300 g)",
+      "raw_discipline_name": "Jabalina 300gr S12F",
       "wind": null,
-      "internal_id": 1380
+      "position": null
+    },
+    {
+      "athlete_name": "NOA PASCUAL PRATS",
+      "athlete_dob": "27/2/2015",
+      "athlete_id": "CL10462",
+      "performance": "6.37",
+      "discipline": "Javelina (300 g)",
+      "raw_discipline_name": "Jabalina 300gr S12F",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Elena Alessón Brito",
+      "athlete_dob": "14/2/2015",
+      "athlete_id": "CAT-3819004",
+      "performance": "5.63",
+      "discipline": "Javelina (300 g)",
+      "raw_discipline_name": "Jabalina 300gr S12F",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Elena Alessón Brito",
+      "athlete_dob": "14/2/2015",
+      "athlete_id": "CAT-3819004",
+      "performance": "5.57",
+      "discipline": "Javelina (300 g)",
+      "raw_discipline_name": "Jabalina 300gr S12F",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "Elena Alessón Brito",
       "athlete_dob": "14/2/2015",
       "athlete_id": "CAT-3819004",
       "performance": "5.77",
-      "discipline": "300 metres tanques (0.762)",
-      "raw_discipline_name": "300m vallas (0,762) S16F",
+      "discipline": "Javelina (300 g)",
+      "raw_discipline_name": "Jabalina 300gr S12F",
       "wind": null,
-      "internal_id": 1434
+      "position": null
     }
   ]
 }

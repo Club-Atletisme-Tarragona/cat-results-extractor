@@ -2,159 +2,9 @@
   "event_name": "Campionat Catalunya Clubs Sub14 \"B\" Pista Coberta - Campionat Catalunya Clubs Sub14 \"B\" Pista Coberta",
   "event_date": "09/03/2025",
   "event_location": "Sabadell",
-  "total_results": 22,
+  "total_results": 19,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2025/03/resultat-20250309-catclubssub14bpcsabadell.pdf",
   "results": [
-    {
-      "athlete_name": "HUGO DIAZ CRISTINO",
-      "athlete_dob": "4/4/2012",
-      "athlete_id": "CL4397",
-      "performance": "3:10.25",
-      "discipline": "1000 metres llisos",
-      "raw_discipline_name": "1.000m Masculins",
-      "wind": null,
-      "internal_id": null
-    },
-    {
-      "athlete_name": "MARIUS BADIA RIERA",
-      "athlete_dob": "25/4/2012",
-      "athlete_id": "CL92095",
-      "performance": "8:09.81",
-      "discipline": "2000 metres llisos",
-      "raw_discipline_name": "2.000m Masculins",
-      "wind": null,
-      "internal_id": null
-    },
-    {
-      "athlete_name": "KILIAN PEDROL ESPINOSA",
-      "athlete_dob": "24/2/2013",
-      "athlete_id": "CL7676",
-      "performance": "1.45",
-      "discipline": "Alçada",
-      "raw_discipline_name": "Alçada Masculina",
-      "wind": null,
-      "internal_id": 1361
-    },
-    {
-      "athlete_name": "KILIAN BORREDA CERVELLO",
-      "athlete_dob": "9/5/2013",
-      "athlete_id": "CL4060",
-      "performance": "3.72",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada Masculina",
-      "wind": null,
-      "internal_id": null
-    },
-    {
-      "athlete_name": "KILIAN BORREDA CERVELLO",
-      "athlete_dob": "9/5/2013",
-      "athlete_id": "CL4060",
-      "performance": "4.22",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada Masculina",
-      "wind": null,
-      "internal_id": null
-    },
-    {
-      "athlete_name": "GASTON VALENTIN PAULOS PERTIÑEZ",
-      "athlete_dob": "14/2/2012",
-      "athlete_id": "CL11182",
-      "performance": "8.60",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt Masculí",
-      "wind": null,
-      "internal_id": 1372
-    },
-    {
-      "athlete_name": "GASTON VALENTIN PAULOS PERTIÑEZ",
-      "athlete_dob": "14/2/2012",
-      "athlete_id": "CL11182",
-      "performance": "9.22",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt Masculí",
-      "wind": null,
-      "internal_id": 1372
-    },
-    {
-      "athlete_name": "GASTON VALENTIN PAULOS PERTIÑEZ",
-      "athlete_dob": "14/2/2012",
-      "athlete_id": "CL11182",
-      "performance": "8.72",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt Masculí",
-      "wind": null,
-      "internal_id": 1372
-    },
-    {
-      "athlete_name": "GABRIEL QUEZADA PINEDA",
-      "athlete_dob": "9/8/2012",
-      "athlete_id": "CL15650",
-      "performance": "5.80",
-      "discipline": "Pes (7.260 Kg)",
-      "raw_discipline_name": "Pes Masculí",
-      "wind": null,
-      "internal_id": 1383
-    },
-    {
-      "athlete_name": "GABRIEL QUEZADA PINEDA",
-      "athlete_dob": "9/8/2012",
-      "athlete_id": "CL15650",
-      "performance": "5.18",
-      "discipline": "Pes (7.260 Kg)",
-      "raw_discipline_name": "Pes Masculí",
-      "wind": null,
-      "internal_id": 1383
-    },
-    {
-      "athlete_name": "FERRAN BADIA RIERA",
-      "athlete_dob": "25/4/2012",
-      "athlete_id": "CL93914",
-      "performance": "1.80",
-      "discipline": "Perxa",
-      "raw_discipline_name": "Perxa Masculina",
-      "wind": null,
-      "internal_id": null
-    },
-    {
-      "athlete_name": "Hernan FERRAN JIMENEZ",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "performance": "2:05.03",
-      "discipline": "4x200",
-      "raw_discipline_name": "Relleus 4x200 Masculins",
-      "wind": null,
-      "internal_id": 1327
-    },
-    {
-      "athlete_name": "Aston MATE GRAS",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "performance": "2:05.03",
-      "discipline": "4x200",
-      "raw_discipline_name": "Relleus 4x200 Masculins",
-      "wind": null,
-      "internal_id": 1342
-    },
-    {
-      "athlete_name": "Marti GONZALEZ CERESUELA",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "performance": "2:05.03",
-      "discipline": "4x200",
-      "raw_discipline_name": "Relleus 4x200 Masculins",
-      "wind": null,
-      "internal_id": 1328
-    },
-    {
-      "athlete_name": "Victor CORONADO VIDAL",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "performance": "2:05.03",
-      "discipline": "4x200",
-      "raw_discipline_name": "Relleus 4x200 Masculins",
-      "wind": null,
-      "internal_id": 1371
-    },
     {
       "athlete_name": "HERNAN FERRAN JIMENEZ",
       "athlete_dob": "28/9/2012",
@@ -163,7 +13,7 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m Masculins",
       "wind": null,
-      "internal_id": 1327
+      "position": null
     },
     {
       "athlete_name": "BIEL LLIGADAS TURON",
@@ -173,7 +23,7 @@
       "discipline": "200 metres llisos",
       "raw_discipline_name": "200m Masculins",
       "wind": null,
-      "internal_id": 1339
+      "position": null
     },
     {
       "athlete_name": "ALEIX GOMEZ MIRO",
@@ -183,17 +33,27 @@
       "discipline": "600 metres llisos",
       "raw_discipline_name": "600m Masculins",
       "wind": null,
-      "internal_id": null
+      "position": null
     },
     {
       "athlete_name": "HUGO DIAZ CRISTINO",
       "athlete_dob": "4/4/2012",
       "athlete_id": "CL4397",
       "performance": "3:10.25",
-      "discipline": "600 metres llisos",
-      "raw_discipline_name": "600m Masculins",
+      "discipline": "1000 metres llisos",
+      "raw_discipline_name": "1.000m Masculins",
       "wind": null,
-      "internal_id": null
+      "position": null
+    },
+    {
+      "athlete_name": "MARIUS BADIA RIERA",
+      "athlete_dob": "25/4/2012",
+      "athlete_id": "CL92095",
+      "performance": "8:09.81",
+      "discipline": "2000 metres llisos",
+      "raw_discipline_name": "2.000m Masculins",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "FERRAN MASCARO NAVARRO",
@@ -203,27 +63,137 @@
       "discipline": "60 metres tanques (0.84)",
       "raw_discipline_name": "60m tanques Masculins",
       "wind": null,
-      "internal_id": 1362
+      "position": null
+    },
+    {
+      "athlete_name": "KILIAN PEDROL ESPINOSA",
+      "athlete_dob": "24/2/2013",
+      "athlete_id": "CL7676",
+      "performance": "1.45",
+      "discipline": "Alçada",
+      "raw_discipline_name": "Alçada Masculina",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "KILIAN BORREDA CERVELLO",
+      "athlete_dob": "9/5/2013",
+      "athlete_id": "CL4060",
+      "performance": "3.72",
+      "discipline": "Llargada",
+      "raw_discipline_name": "Llargada Masculina",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "KILIAN BORREDA CERVELLO",
+      "athlete_dob": "9/5/2013",
+      "athlete_id": "CL4060",
+      "performance": "4.22",
+      "discipline": "Llargada",
+      "raw_discipline_name": "Llargada Masculina",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "GASTON VALENTIN PAULOS PERTIÑEZ",
+      "athlete_dob": "14/2/2012",
+      "athlete_id": "CL11182",
+      "performance": "8.60",
+      "discipline": "Triple",
+      "raw_discipline_name": "Triple Salt Masculí",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "GASTON VALENTIN PAULOS PERTIÑEZ",
       "athlete_dob": "14/2/2012",
       "athlete_id": "CL11182",
       "performance": "9.22",
-      "discipline": "60 metres tanques (0.84)",
-      "raw_discipline_name": "60m tanques Masculins",
+      "discipline": "Triple",
+      "raw_discipline_name": "Triple Salt Masculí",
       "wind": null,
-      "internal_id": 1372
+      "position": null
+    },
+    {
+      "athlete_name": "GASTON VALENTIN PAULOS PERTIÑEZ",
+      "athlete_dob": "14/2/2012",
+      "athlete_id": "CL11182",
+      "performance": "8.72",
+      "discipline": "Triple",
+      "raw_discipline_name": "Triple Salt Masculí",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "GABRIEL QUEZADA PINEDA",
       "athlete_dob": "9/8/2012",
       "athlete_id": "CL15650",
       "performance": "5.80",
-      "discipline": "60 metres tanques (0.84)",
-      "raw_discipline_name": "60m tanques Masculins",
+      "discipline": "Pes (7.260 Kg)",
+      "raw_discipline_name": "Pes Masculí",
       "wind": null,
-      "internal_id": 1383
+      "position": null
+    },
+    {
+      "athlete_name": "GABRIEL QUEZADA PINEDA",
+      "athlete_dob": "9/8/2012",
+      "athlete_id": "CL15650",
+      "performance": "5.18",
+      "discipline": "Pes (7.260 Kg)",
+      "raw_discipline_name": "Pes Masculí",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "FERRAN BADIA RIERA",
+      "athlete_dob": "25/4/2012",
+      "athlete_id": "CL93914",
+      "performance": "1.80",
+      "discipline": "Perxa",
+      "raw_discipline_name": "Perxa Masculina",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Hernan FERRAN JIMENEZ",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "2:05.03",
+      "discipline": "4x200",
+      "raw_discipline_name": "Relleus 4x200 Masculins",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Aston MATE GRAS",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "2:05.03",
+      "discipline": "4x200",
+      "raw_discipline_name": "Relleus 4x200 Masculins",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Marti GONZALEZ CERESUELA",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "2:05.03",
+      "discipline": "4x200",
+      "raw_discipline_name": "Relleus 4x200 Masculins",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "Victor CORONADO VIDAL",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "2:05.03",
+      "discipline": "4x200",
+      "raw_discipline_name": "Relleus 4x200 Masculins",
+      "wind": null,
+      "position": null
     }
   ]
 }

@@ -2,108 +2,18 @@
   "event_name": "Control FCA sub14 - Estadio Municipal de Mataró",
   "event_date": "01/06/2025",
   "event_location": "Mataró",
-  "total_results": 28,
+  "total_results": 30,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2025/06/resultat-20250601-controlsub14mataro.pdf",
   "results": [
     {
-      "athlete_name": "CARLOTA TEJERO CLAU",
-      "athlete_dob": "6/3/2012",
-      "athlete_id": "CL7258",
-      "performance": "27.58",
+      "athlete_name": "HERNAN FERRAN JIMENEZ",
+      "athlete_dob": "28/9/2012",
+      "athlete_id": "CL1093",
+      "performance": "25.33",
       "discipline": "Disc (800 g)",
-      "raw_discipline_name": "Disco (800g) Mujeres",
+      "raw_discipline_name": "Disco (800g) Hombres",
       "wind": null,
-      "internal_id": 1352
-    },
-    {
-      "athlete_name": "CARLOTA TEJERO CLAU",
-      "athlete_dob": "6/3/2012",
-      "athlete_id": "CL7258",
-      "performance": "26.39",
-      "discipline": "Disc (800 g)",
-      "raw_discipline_name": "Disco (800g) Mujeres",
-      "wind": null,
-      "internal_id": 1352
-    },
-    {
-      "athlete_name": "CARLOTA TEJERO CLAU",
-      "athlete_dob": "6/3/2012",
-      "athlete_id": "CL7258",
-      "performance": "23.01",
-      "discipline": "Disc (800 g)",
-      "raw_discipline_name": "Disco (800g) Mujeres",
-      "wind": null,
-      "internal_id": 1352
-    },
-    {
-      "athlete_name": "CARLOTA TEJERO CLAU",
-      "athlete_dob": "6/3/2012",
-      "athlete_id": "CL7258",
-      "performance": "24.69",
-      "discipline": "Disc (800 g)",
-      "raw_discipline_name": "Disco (800g) Mujeres",
-      "wind": null,
-      "internal_id": 1352
-    },
-    {
-      "athlete_name": "ADA NIN NAVAS",
-      "athlete_dob": "24/10/2012",
-      "athlete_id": "CL1495",
-      "performance": "17.11",
-      "discipline": "Disc (800 g)",
-      "raw_discipline_name": "Disco (800g) Mujeres",
-      "wind": null,
-      "internal_id": 1331
-    },
-    {
-      "athlete_name": "ADA NIN NAVAS",
-      "athlete_dob": "24/10/2012",
-      "athlete_id": "CL1495",
-      "performance": "17.00",
-      "discipline": "Disc (800 g)",
-      "raw_discipline_name": "Disco (800g) Mujeres",
-      "wind": null,
-      "internal_id": 1331
-    },
-    {
-      "athlete_name": "ADA NIN NAVAS",
-      "athlete_dob": "24/10/2012",
-      "athlete_id": "CL1495",
-      "performance": "15.05",
-      "discipline": "Disc (800 g)",
-      "raw_discipline_name": "Disco (800g) Mujeres",
-      "wind": null,
-      "internal_id": 1331
-    },
-    {
-      "athlete_name": "ADA NIN NAVAS",
-      "athlete_dob": "24/10/2012",
-      "athlete_id": "CL1495",
-      "performance": "15.92",
-      "discipline": "Disc (800 g)",
-      "raw_discipline_name": "Disco (800g) Mujeres",
-      "wind": null,
-      "internal_id": 1331
-    },
-    {
-      "athlete_name": "ADA NIN NAVAS",
-      "athlete_dob": "24/10/2012",
-      "athlete_id": "CL1495",
-      "performance": "17.88",
-      "discipline": "Disc (800 g)",
-      "raw_discipline_name": "Disco (800g) Mujeres",
-      "wind": null,
-      "internal_id": 1331
-    },
-    {
-      "athlete_name": "ADA NIN NAVAS",
-      "athlete_dob": "24/10/2012",
-      "athlete_id": "CL1495",
-      "performance": "19.22",
-      "discipline": "Disc (800 g)",
-      "raw_discipline_name": "Disco (800g) Mujeres",
-      "wind": null,
-      "internal_id": 1331
+      "position": null
     },
     {
       "athlete_name": "HERNAN FERRAN JIMENEZ",
@@ -113,7 +23,37 @@
       "discipline": "Disc (800 g)",
       "raw_discipline_name": "Disco (800g) Hombres",
       "wind": null,
-      "internal_id": 1327
+      "position": null
+    },
+    {
+      "athlete_name": "HERNAN FERRAN JIMENEZ",
+      "athlete_dob": "28/9/2012",
+      "athlete_id": "CL1093",
+      "performance": "24.24",
+      "discipline": "Disc (800 g)",
+      "raw_discipline_name": "Disco (800g) Hombres",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "HERNAN FERRAN JIMENEZ",
+      "athlete_dob": "28/9/2012",
+      "athlete_id": "CL1093",
+      "performance": "23.77",
+      "discipline": "Disc (800 g)",
+      "raw_discipline_name": "Disco (800g) Hombres",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "HERNAN FERRAN JIMENEZ",
+      "athlete_dob": "28/9/2012",
+      "athlete_id": "CL1093",
+      "performance": "24.86",
+      "discipline": "Disc (800 g)",
+      "raw_discipline_name": "Disco (800g) Hombres",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "HERNAN FERRAN JIMENEZ",
@@ -123,7 +63,7 @@
       "discipline": "Javelina (500 g)",
       "raw_discipline_name": "Jabalina (500g) Hombres",
       "wind": null,
-      "internal_id": 1327
+      "position": null
     },
     {
       "athlete_name": "HERNAN FERRAN JIMENEZ",
@@ -133,7 +73,7 @@
       "discipline": "Javelina (500 g)",
       "raw_discipline_name": "Jabalina (500g) Hombres",
       "wind": null,
-      "internal_id": 1327
+      "position": null
     },
     {
       "athlete_name": "HERNAN FERRAN JIMENEZ",
@@ -143,7 +83,7 @@
       "discipline": "Javelina (500 g)",
       "raw_discipline_name": "Jabalina (500g) Hombres",
       "wind": null,
-      "internal_id": 1327
+      "position": null
     },
     {
       "athlete_name": "HERNAN FERRAN JIMENEZ",
@@ -153,7 +93,7 @@
       "discipline": "Javelina (500 g)",
       "raw_discipline_name": "Jabalina (500g) Hombres",
       "wind": null,
-      "internal_id": 1327
+      "position": null
     },
     {
       "athlete_name": "HERNAN FERRAN JIMENEZ",
@@ -163,27 +103,107 @@
       "discipline": "Javelina (500 g)",
       "raw_discipline_name": "Jabalina (500g) Hombres",
       "wind": null,
-      "internal_id": 1327
+      "position": null
     },
     {
       "athlete_name": "CARLOTA TEJERO CLAU",
       "athlete_dob": "6/3/2012",
       "athlete_id": "CL7258",
-      "performance": "18.86",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salto Mujeres",
+      "performance": "27.58",
+      "discipline": "Disc (800 g)",
+      "raw_discipline_name": "Disco (800g) Mujeres",
       "wind": null,
-      "internal_id": 1352
+      "position": null
+    },
+    {
+      "athlete_name": "CARLOTA TEJERO CLAU",
+      "athlete_dob": "6/3/2012",
+      "athlete_id": "CL7258",
+      "performance": "26.39",
+      "discipline": "Disc (800 g)",
+      "raw_discipline_name": "Disco (800g) Mujeres",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "CARLOTA TEJERO CLAU",
+      "athlete_dob": "6/3/2012",
+      "athlete_id": "CL7258",
+      "performance": "23.01",
+      "discipline": "Disc (800 g)",
+      "raw_discipline_name": "Disco (800g) Mujeres",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "CARLOTA TEJERO CLAU",
+      "athlete_dob": "6/3/2012",
+      "athlete_id": "CL7258",
+      "performance": "24.69",
+      "discipline": "Disc (800 g)",
+      "raw_discipline_name": "Disco (800g) Mujeres",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "ADA NIN NAVAS",
+      "athlete_dob": "24/10/2012",
+      "athlete_id": "CL1495",
+      "performance": "17.11",
+      "discipline": "Disc (800 g)",
+      "raw_discipline_name": "Disco (800g) Mujeres",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "ADA NIN NAVAS",
+      "athlete_dob": "24/10/2012",
+      "athlete_id": "CL1495",
+      "performance": "17.00",
+      "discipline": "Disc (800 g)",
+      "raw_discipline_name": "Disco (800g) Mujeres",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "ADA NIN NAVAS",
+      "athlete_dob": "24/10/2012",
+      "athlete_id": "CL1495",
+      "performance": "15.05",
+      "discipline": "Disc (800 g)",
+      "raw_discipline_name": "Disco (800g) Mujeres",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "ADA NIN NAVAS",
+      "athlete_dob": "24/10/2012",
+      "athlete_id": "CL1495",
+      "performance": "15.92",
+      "discipline": "Disc (800 g)",
+      "raw_discipline_name": "Disco (800g) Mujeres",
+      "wind": null,
+      "position": null
+    },
+    {
+      "athlete_name": "ADA NIN NAVAS",
+      "athlete_dob": "24/10/2012",
+      "athlete_id": "CL1495",
+      "performance": "17.88",
+      "discipline": "Disc (800 g)",
+      "raw_discipline_name": "Disco (800g) Mujeres",
+      "wind": null,
+      "position": null
     },
     {
       "athlete_name": "ADA NIN NAVAS",
       "athlete_dob": "24/10/2012",
       "athlete_id": "CL1495",
       "performance": "19.22",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salto Mujeres",
+      "discipline": "Disc (800 g)",
+      "raw_discipline_name": "Disco (800g) Mujeres",
       "wind": null,
-      "internal_id": 1331
+      "position": null
     },
     {
       "athlete_name": "ADA NIN NAVAS",
@@ -193,7 +213,7 @@
       "discipline": "Javelina (400 g)",
       "raw_discipline_name": "Jabalina (400g) Mujeres",
       "wind": null,
-      "internal_id": 1331
+      "position": null
     },
     {
       "athlete_name": "ADA NIN NAVAS",
@@ -203,7 +223,7 @@
       "discipline": "Javelina (400 g)",
       "raw_discipline_name": "Jabalina (400g) Mujeres",
       "wind": null,
-      "internal_id": 1331
+      "position": null
     },
     {
       "athlete_name": "ADA NIN NAVAS",
@@ -213,7 +233,7 @@
       "discipline": "Javelina (400 g)",
       "raw_discipline_name": "Jabalina (400g) Mujeres",
       "wind": null,
-      "internal_id": 1331
+      "position": null
     },
     {
       "athlete_name": "ADA NIN NAVAS",
@@ -223,7 +243,7 @@
       "discipline": "Javelina (400 g)",
       "raw_discipline_name": "Jabalina (400g) Mujeres",
       "wind": null,
-      "internal_id": 1331
+      "position": null
     },
     {
       "athlete_name": "ADA NIN NAVAS",
@@ -233,7 +253,7 @@
       "discipline": "Javelina (400 g)",
       "raw_discipline_name": "Jabalina (400g) Mujeres",
       "wind": null,
-      "internal_id": 1331
+      "position": null
     },
     {
       "athlete_name": "ADA NIN NAVAS",
@@ -243,7 +263,7 @@
       "discipline": "Javelina (400 g)",
       "raw_discipline_name": "Jabalina (400g) Mujeres",
       "wind": null,
-      "internal_id": 1331
+      "position": null
     },
     {
       "athlete_name": "CARLOTA TEJERO CLAU",
@@ -253,7 +273,7 @@
       "discipline": "Javelina (400 g)",
       "raw_discipline_name": "Jabalina (400g) Mujeres",
       "wind": null,
-      "internal_id": 1352
+      "position": null
     },
     {
       "athlete_name": "CARLOTA TEJERO CLAU",
@@ -263,7 +283,7 @@
       "discipline": "Javelina (400 g)",
       "raw_discipline_name": "Jabalina (400g) Mujeres",
       "wind": null,
-      "internal_id": 1352
+      "position": null
     },
     {
       "athlete_name": "CARLOTA TEJERO CLAU",
@@ -273,7 +293,7 @@
       "discipline": "Javelina (400 g)",
       "raw_discipline_name": "Jabalina (400g) Mujeres",
       "wind": null,
-      "internal_id": 1352
+      "position": null
     },
     {
       "athlete_name": "CARLOTA TEJERO CLAU",
@@ -283,7 +303,7 @@
       "discipline": "Javelina (400 g)",
       "raw_discipline_name": "Jabalina (400g) Mujeres",
       "wind": null,
-      "internal_id": 1352
+      "position": null
     }
   ]
 }

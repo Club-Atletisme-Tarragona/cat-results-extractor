@@ -233,12 +233,14 @@ EVENT_PATTERNS = [
     r'\d{1,3}(?:\.\d{3})?\s*m(t)?\s+llisos\s+(?:femenins|masculins|femenines|masculines|Hombres|Mujeres|Masculí|Femení)',
     # Masters gender-letter + age: "400m M M60", "1.500m M M60", "400m F F50"
     r'\d{1,3}(?:\.\d{3})?\s*m(t)?\s+[MF]\s+(?:M|F)\d{2}\b',
+    # Metres + hurdle height spec + full gender word: "400 metres tanques (0,91) Masculí"
+    r'\d{1,3}(?:\.\d{3})?\s*metres\s+(?:tanques|vallas)\s+\([^)]*\)\s+(?:Hombres|Mujeres|Masculí|Femení|Masculins|Femenins|masculino|femenino|Dones|Homes)',
 ]
 
 TRACK_PATTERNS = [
     # Full word "metres" variants (new PDF format)
-    r'\d{1,3}(?:\.\d{3})?\s*metres\s+(?:llisos|tanques|vallas|obstacles)\s+(?:mascu\s*lins|Mascu\s*ins|femen\s*ins|femeni|masculi)',
-    r'\d{1,3}(?:\.\d{3})?\s*metres\s+(?:llisos|tanques|vallas|obstacles)\s+(?:mascu\s*lins|Mascu\s*ins|femen\s*ins|femeni|masculi)',
+    r'\d{1,3}(?:\.\d{3})?\s*metres\s+(?:llisos|tanques|vallas|obstacles)\s+(?:mascu\s*lins|Mascu\s*ins|femen\s*ins|femeni|masculi|Femení|Masculí|femenins|masculins)',
+    r'\d{1,3}(?:\.\d{3})?\s*metres\s+(?:llisos|tanques|vallas|obstacles)\s+(?:mascu\s*lins|Mascu\s*ins|femen\s*ins|femeni|masculi|Femení|Masculí|femenins|masculins)',
     # Abbreviated "m" variants (legacy PDF format)
     r'(?:^|[\s(])\d{1,3}(?:\.\d{3})?\s*m(t)?\s*(?:tanques|vallas)?\s*(?:Obst\.?)?\s*(?:\(.*?\))?\s*(?:Marxa\s+)?(?:Hombres|Mujeres|Mixto|Homes|Dones|Masculí|Femení|masculins|Mascuins|femenins|masculina|femenina|masculino|femenino)',
     r'\d{1,3}\s*m(t)?\s+(?:tanques|vallas|Marxa|Obst\.?)\s+(?:Hombres|Mujeres|Masculí|Femení|masculins|Mascuins|femenins)',
@@ -270,6 +272,12 @@ TRACK_PATTERNS = [
     r'\d{1,3}(?:\.\d{3})?\s*m(t)?\s+llisos\s+(?:femenins|masculins|femenines|masculines|Hombres|Mujeres|Masculí|Femení)',
     # Masters gender-letter + age: "400m M M60", "1.500m M M60", "400m F F50"
     r'\d{1,3}(?:\.\d{3})?\s*m(t)?\s+[MF]\s+(?:M|F)\d{2}\b',
+    # RFEA abbreviated gender: "600m FEM.", "60m MASC. PC", "300m FEM. AL"
+    r'\d{1,3}(?:\.\d{3})?\s*m(t)?\s+(?:MASC\.?|FEM\.?)',
+    # Bare distance + single gender letter: "1.500m M", "800m F"
+    r'\d{1,3}(?:\.\d{3})?\s*m(t)?\s+[MF]\s*$',
+    # Metres + hurdle height spec + full gender word: "400 metres tanques (0,91) Masculí"
+    r'\d{1,3}(?:\.\d{3})?\s*metres\s+(?:tanques|vallas)\s+\([^)]*\)\s+(?:Hombres|Mujeres|Masculí|Femení|Masculins|Femenins|masculino|femenino|Dones|Homes)',
 ]
 
 MARCHA_PATTERNS = [
@@ -1713,16 +1721,29 @@ def extract_result_from_rfea_line(athlete_line, club_line):
     # Position-aware classification: performance = LAST time/decimal token in
     # the tail (a final rank column may follow, but bare integers are never
     # marks). Special words (NP/DNF/...) only when no performance token exists.
+    # Masters lines carry an age-graded PERCENTAGE column after the marca
+    # (e.g. "... M-50  9  2:33.70  76.94  1": time then age-graded % then rank)
+    # so a bare decimal AFTER a colon-format time is never the marca: prefer
+    # colon-format tokens, and only fall back to the last bare decimal when
+    # no colon-format token exists (sprint marks are bare decimals).
     tokens = re.findall(r"[^\s|]+", rest)
 
-    perf_re = re.compile(r'\d{1,2}:\d{2}(?::\d{2})?(?:\.\d{1,2})?$|^\d+\.\d{2}$')
-    perf = None
+    perf_re = re.compile(r'\d{1,2}:\d{2}(?::\d{2})?(?:\.\d{1,2})?$|\d+\.\d{2}$')
+    colon_re = re.compile(r'\d{1,2}:\d{2}(?::\d{2})?(?:\.\d{1,2})?$')
+    colon_perf = None
+    decimal_perf = None
     for tok in tokens:
         if tok.upper() in ('NP', 'DNF', 'DNS', 'DQ', 'NW', 'RET', 'N.P.', 'X'):
             continue
         tok_clean = tok.rstrip('Qq')
         if perf_re.match(tok_clean) or perf_re.match(tok):
-            perf = tok_clean
+            if colon_re.match(tok_clean):
+                colon_perf = tok_clean
+            else:
+                decimal_perf = tok_clean
+    # A colon-format time anywhere in the tail wins over trailing decimals
+    # (age-graded % / points columns). Prefer the LAST colon-format token.
+    perf = colon_perf if colon_perf is not None else decimal_perf
     if perf is not None:
         return perf
 

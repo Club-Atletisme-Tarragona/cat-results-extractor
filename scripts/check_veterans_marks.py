@@ -130,8 +130,10 @@ def main():
         # combined events only the absolute ceilings apply.
         COMBINED = re.compile(r"pentatl|heptatl|decatl|octatl|tetratl|hexatl|combinades",
                               re.IGNORECASE)
+        fname = str(path.name).lower()
         combined = (any(COMBINED.search(d) for d in by_event)
-                    or bool(COMBINED.search(str(data.get("event_name") or ""))))
+                    or bool(COMBINED.search(str(data.get("event_name") or "")))
+                    or "llancaments" in fname)  # pentatló de llançaments
 
         for discipline, group in by_event.items():
             ceiling = ceiling_for(discipline)

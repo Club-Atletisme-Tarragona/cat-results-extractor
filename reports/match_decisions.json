@@ -1354,11 +1354,6 @@
     "strategy": "no_match",
     "detail": null
   },
-  "CALAF OROS SUSANNA": {
-    "internal_id": 386,
-    "strategy": "fuzzy",
-    "detail": 0.944
-  },
   "CALATRAVA FERNANDEZ DOLORES": {
     "internal_id": 503,
     "strategy": "subset",
@@ -2417,11 +2412,6 @@
   "FERNANDEZ CARRANZA PILAR": {
     "internal_id": 398,
     "strategy": "exact",
-    "detail": null
-  },
-  "FERNANDEZ CARRANZA PILAR PILAR": {
-    "internal_id": 398,
-    "strategy": "subset",
     "detail": null
   },
   "FERNANDEZ DIEZ MARIA": {

@@ -76,10 +76,11 @@ _PROMOCIO_ROW_RE = re.compile(
     # dorsal + name + 4-digit year + club + mark, no license, no category
     r"((?:CL|CT|IB|LZ)[\s-]?[0-9]{2,6})?\s*"
     r"(.+?)\s{2,}"
-    r"(\d{2}|\d{4})\s+"
+    r"(?:(\d{2}|\d{4})\s+)?"
     r"(?:(\w{2,4})\s{2,})?"
     r"((?:CA |CT |CL |JA |GEiE |UGA |CE |CN |FC |AA |CG |UA )?[^0-9]+?)\s{2,}"
-    r"((?:\d{1,2}['\u2019]\d{2}\"\d)|(?:\d{1,2}\u2019\u2019\d{2})|(?:\d{1,2}''\d{2})|(?:\d{1,2}\"\d)|(?:\d{1,2}[.,]\d{2})|(?:\d{1,2}:\d{2}[.,]\d{2})|N\.?P\.?|RET\.?|DNS|DQ)\s*$",
+    r"(?:(\w{2,4})\s{2,})?"
+    r"((?:\d{1,2}['\u2019]\d{2}\"\d)|(?:\d{1,2}\u2019\u2019\d{2})|(?:\d{1,2}''\d{2})|(?:\d{1,2}\"\d)|(?:\d{1,2}[.,]\d{2})|(?:\d{1,2}:\d{2}[.,]\d{2})|N\.?P\.?|RET\.?|DNS|DQ)(?:\s+(\d{1,2}))?\s*$",
     re.IGNORECASE,
 )
 
@@ -98,8 +99,9 @@ def parse_promocio_series(text):
         if not line.strip():
             continue
         header = re.match(r"^\s*(?:RESULTATS\s+)?"
-                          r"((?:\d{1,4}\s*m(?:\.ll|\.tanques|\.obst|ll|t)?\.?\s*"
-                          r"|Salt\s|Llançament\s|Lanzamiento\s|Llargada\s|Alçada\s|Altura\s"
+                          r"((?:\d{1,4}\s*m(?:\.ll|\.tanques|\.obst|\.pes|\s?ll|t)?\.?\s*"
+                          r"|Salt\s+(?:Llargada|Alçada|Altura|Perxa|llargada)"
+                          r"|Llançament\s|Lanzamiento\s|Llargada\s|Alçada\s|Altura\s"
                           r"|Pes\s|Peso\s|Disc\s|Disco\s|Martell\s|Martillo\s|Javelina\s|Jabalina\s"
                           r"|Rel·leus\s|Relevos\s|Marxa\s|Marcha\s|Comb\s)"
                           r".+)$", line, re.IGNORECASE)
@@ -128,7 +130,7 @@ def parse_promocio_series(text):
             continue
         if name_part.count(",") > 1:
             continue
-        _serie, _lloc, _dors, licencia, nom, _naix, _catg, club, marca = m.groups()
+        _serie, _lloc, _dors, licencia, nom, _naix, _catg, club, _catpost, marca, _posicio = m.groups()
         # _catg may be None: some sheets omit the category column.
         # licencia may be None: the 2016 territorial layout has none.
         # A 4-digit birth year is normalized to the 2-digit form the rest
@@ -142,6 +144,7 @@ def parse_promocio_series(text):
             "prova": prova,
             "marca": _quote_to_decimal(marca),
             "vent": wind,
+            "position": None,
             # hand-time provenance for timing_from_mark: the quote form is
             # manual, and the decimal conversion would otherwise hide it
             "marca_original": marca,

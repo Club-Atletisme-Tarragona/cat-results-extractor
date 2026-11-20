@@ -3,7 +3,7 @@
   "event_date": "30/04/2016",
   "event_location": "Cambrils",
   "event_src": "http://old.fcatletisme.cat/Pairelliure/2016/resulcontrolpimaveracambrils3004-10516.pdf",
-  "total_results": 9,
+  "total_results": 10,
   "results": [
     {
       "athlete_name": "SANS RIOLA, JAN",
@@ -103,6 +103,17 @@
       "raw_discipline_name": "300 m.ll. Cadet Masculí",
       "internal_id": 649,
       "timing": "electronic"
+    },
+    {
+      "athlete_name": "FORT MONTANE, XAVIER",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "52.60",
+      "discipline": "300 m.ll. Cadet Masculí",
+      "wind": null,
+      "position": null,
+      "raw_discipline_name": "300 m.ll. Cadet Masculí",
+      "internal_id": 649
     }
   ],
   "is_short_track": false

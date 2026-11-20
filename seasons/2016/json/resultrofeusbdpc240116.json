@@ -3,7 +3,7 @@
   "event_date": "24/01/2016",
   "event_location": "Sant Celoni",
   "event_src": "http://old.fcatletisme.cat/Pcoberta/2016/resultrofeusbdpc240116.pdf",
-  "total_results": 1,
+  "total_results": 2,
   "results": [
     {
       "athlete_name": "PAREDES LARIO RUBÉN",
@@ -15,6 +15,17 @@
       "wind": null,
       "internal_id": null,
       "timing": "electronic"
+    },
+    {
+      "athlete_name": "Paredes Lario, Rubén",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "1,10",
+      "discipline": "Alçada aleví masc.",
+      "wind": null,
+      "position": null,
+      "raw_discipline_name": "Alçada aleví masc.",
+      "internal_id": null
     }
   ],
   "is_short_track": true

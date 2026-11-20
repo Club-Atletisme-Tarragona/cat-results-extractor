@@ -3,7 +3,7 @@
   "event_date": "8/5/2016",
   "event_location": "Cambrils",
   "event_src": "http://old.fcatletisme.cat/Promocio/2016/resulcnatlocalcambrils80516.pdf",
-  "total_results": 4,
+  "total_results": 7,
   "results": [
     {
       "athlete_name": "ARIADNA ALONSO DEL CAMPO",
@@ -48,6 +48,39 @@
       "wind": null,
       "internal_id": 703,
       "timing": "electronic"
+    },
+    {
+      "athlete_name": "ARIADNA ALONSO DEL CAMPO",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "12.20",
+      "discipline": "80 M.LL.                            IF",
+      "wind": null,
+      "position": null,
+      "raw_discipline_name": "80 M.LL.                            IF",
+      "internal_id": 703
+    },
+    {
+      "athlete_name": "ARIADNA ALONSO DEL CAMPO",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "17.10",
+      "discipline": "80 M.T.                             IF",
+      "wind": null,
+      "position": null,
+      "raw_discipline_name": "80 M.T.                             IF",
+      "internal_id": 703
+    },
+    {
+      "athlete_name": "ARIADNA ALONSO DEL CAMPO",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "1,15",
+      "discipline": "ALÇADA                              CF-IF-AF",
+      "wind": null,
+      "position": null,
+      "raw_discipline_name": "ALÇADA                              CF-IF-AF",
+      "internal_id": 703
     }
   ],
   "is_short_track": false

@@ -52,6 +52,12 @@ def extract_text(pdf_path):
 # matches zero rows on these PDFs; this path recovers the lost sprint series.
 # ---------------------------------------------------------------------------
 
+def _header_year(event_date):
+    """Calendar year of a stored event_date string, 0 when missing/invalid."""
+    m = re.match(r"\d{1,2}/\d{1,2}/(\d{4})", str(event_date or ""))
+    return int(m.group(1)) if m else 0
+
+
 def _quote_to_decimal(mark):
     """'11"6' -> '11.60'; 2'03"1 -> '2:03.10'; already-decimal passes."""
     text = str(mark or "").strip()
@@ -66,9 +72,13 @@ def _quote_to_decimal(mark):
 
 _PROMOCIO_ROW_RE = re.compile(
     r"^\s*(\d{1,2})\s+(\d{1,4}\s+)?(\d{1,4}\s+)?"
-    r"((?:CL|CT|IB|LZ)[\s-]?[0-9]{2,6})\s+"
-    r"(.+?)\s{2,}(\d{2})\s+(?:(\w{2,4})\s{2,})?"
-    r"((?:CA |CT |CL |JA |GEiE |UGA |CE |CN |FC |AA )[^0-9]+?)\s{2,}"
+    # license optional: the 2016 territorial sheets (Valls 60216) print
+    # dorsal + name + 4-digit year + club + mark, no license, no category
+    r"((?:CL|CT|IB|LZ)[\s-]?[0-9]{2,6})?\s*"
+    r"(.+?)\s{2,}"
+    r"(\d{2}|\d{4})\s+"
+    r"(?:(\w{2,4})\s{2,})?"
+    r"((?:CA |CT |CL |JA |GEiE |UGA |CE |CN |FC |AA |CG |UA )?[^0-9]+?)\s{2,}"
     r"((?:\d{1,2}['\u2019]\d{2}\"\d)|(?:\d{1,2}\"\d)|(?:\d{1,2}[.,]\d{2})|(?:\d{1,2}:\d{2}[.,]\d{2})|N\.?P\.?|RET\.?|DNS|DQ)\s*$",
     re.IGNORECASE,
 )
@@ -87,7 +97,12 @@ def parse_promocio_series(text):
         line = raw.rstrip()
         if not line.strip():
             continue
-        header = re.match(r"^\s*RESULTATS\s+(.+)$", line, re.IGNORECASE)
+        header = re.match(r"^\s*(?:RESULTATS\s+)?"
+                          r"((?:\d{1,4}\s*m(?:\.ll|\.tanques|\.obst|ll|t)?\.?\s*"
+                          r"|Salt\s|Llançament\s|Lanzamiento\s|Llargada\s|Alçada\s|Altura\s"
+                          r"|Pes\s|Peso\s|Disc\s|Disco\s|Martell\s|Martillo\s|Javelina\s|Jabalina\s"
+                          r"|Rel·leus\s|Relevos\s|Marxa\s|Marcha\s|Comb\s)"
+                          r".+)$", line, re.IGNORECASE)
         if header:
             prova = header.group(1).strip()
             wind = None
@@ -103,14 +118,24 @@ def parse_promocio_series(text):
         m = _PROMOCIO_ROW_RE.match(line)
         if not m:
             continue
+        # The 2011 tabular format leaves the dorsal and license inside the
+        # captured name ('52 CL 54460 BARRUBES MASIP, XAVIER') because its
+        # columns sit closer than this parser's two-space gap. This parser's
+        # sheets always have a clean name: a digit inside it means the row
+        # belongs to a layout handled by season-specific processors.
+        if re.search(r"\d", m.group(5)):
+            continue
         _serie, _lloc, _dors, licencia, nom, _naix, _catg, club, marca = m.groups()
-        # _catg may be None: some sheets omit the category column
+        # _catg may be None: some sheets omit the category column.
+        # licencia may be None: the 2016 territorial layout has none.
+        # A 4-digit birth year is normalized to the 2-digit form the rest
+        # of the pipeline stores (era rows keep athlete_dob empty anyway).
         if "tarragona" not in club.lower():
             continue
         rows.append({
             "atleta_nom": nom.strip(),
             "atleta_naixement": "",   # the layout shows a 2-digit birth year only
-            "atleta_licencia": licencia.strip(),
+            "atleta_licencia": (licencia or "").strip(),
             "prova": prova,
             "marca": _quote_to_decimal(marca),
             "vent": wind,
@@ -4256,14 +4281,32 @@ def main():
     if not quiet:
         print(f"After event-type validation: {len(results)} valid results")
 
-    if not results:
-        # Era promocio fallback (issue #26): the SÈRIE/LLOC/DORS/LLICENCIA/
-        # ATLETA/TEMPS layout with quote marks matches no main-path pattern,
-        # so a whole sheet would be lost. Try the dedicated parser; it emits
-        # the same dict shape the main path works with.
-        results = parse_promocio_series(text)
-        if results and not quiet:
-            print(f"Promocio-series fallback: {len(results)} CATT rows")
+    if 2013 <= _header_year(data) <= 2016:
+        # Era promocio fallback/merge (issue #26): the SÈRIE/LLOC/DORS/
+        # LLICENCIA/ATLETA/TEMPS layout with quote marks matches no main-path
+        # pattern, so the track rows of these sheets would be lost. When the
+        # main path found nothing, adopt all rows; when it found some (era
+        # sheets mix two layouts: valls60216 has 138 field rows and zero track
+        # rows), merge only the rows it missed, keyed by (name, mark) so an
+        # attempt is never duplicated. Older seasons keep their season-specific
+        # processors, whose rows this parser would duplicate (NO_EXPORT_CASES).
+        extra = parse_promocio_series(text)
+        if not results:
+            results = extra
+            if results and not quiet:
+                print(f"Promocio-series fallback: {len(results)} CATT rows")
+        elif extra:
+            known = {(r.get("atleta_nom", "").upper().replace(",", ""),
+                      r.get("marca", "")) for r in results}
+            added = 0
+            for r in extra:
+                key = (r["atleta_nom"].upper().replace(",", ""), r["marca"])
+                if key not in known:
+                    results.append(r)
+                    known.add(key)
+                    added += 1
+            if added and not quiet:
+                print(f"Promocio-series merge: +{added} rows the main path missed")
     if not results:
         if not quiet:
             print("No results found for CATT athletes. Skipping JSON export.")

@@ -69,6 +69,7 @@ the current extraction code. The source PDFs are still downloadable from
 
 | Count | Defect | Needs |
 |---:|---|---|
+| **31** | Masters suspects remaining after the November rework (was 115 → 86 → 54 → 31): each needs a PDF-side decision — mislabelled sections of 2007-2013 meets, Conersys Ref. columns, combined rows, and 2 cross-table rows in st_Cto.ESP_master_Antequera (Gemma Solé's 'Llargada' 10.87/11.33; 11.33 is her own 60 m hurdles time, so that series is also missing from the JSON). Repaired so far: 22 ghost rows deleted + 19 athletes relabelled with their real attempts via repair_masters_sections.py; per-season logs in reports/masters_sections_*.log |
 | **226** | Physically impossible values (e.g. a long-jump mark stored as a `60 METRES LLISOS` time in 2006 combined events) | per-era re-parsers, verified against the PDFs |
 | **33** | Cross-discipline duplicate rows (same athlete + same mark under two disciplines, 2008–2024) | source-PDF check per row: **not resolvable by plausibility** (both copies are plausible), so nothing was guessed or deleted |
 | 10 | Format mismatches: 6 misc, 3 veterans age/percentage column, 1 combined-table header stored as a discipline | targeted fixes |

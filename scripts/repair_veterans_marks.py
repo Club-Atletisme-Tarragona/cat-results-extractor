@@ -124,11 +124,21 @@ def main():
                     stats["left"] += 1
                     log.append(f"left (cols={len(cols)}) | {r['file'].split('json/')[1]} | {r['athlete_name']}")
                     continue
-                coef, pct, marca = cols[-3], cols[-2], cols[-4]
+                coef, pct = cols[-3], cols[-2]
                 stored = r["performance"].strip()
-                if not plausible(r["discipline"], marca):
+                # MARCA sits left of COEF in the four-column tail (MARCA COEF %
+                # PUNTS), but several masters sheets omit COEF: their tail is
+                # [carrer] MARCA % PUNTS, so MARTCA is cols[-3]. Try both
+                # candidates and accept the first plausible one - the
+                # implausible alternative is usually the lane number.
+                marca = None
+                for cand in (cols[-4], cols[-3]):
+                    if plausible(r["discipline"], cand):
+                        marca = cand
+                        break
+                if marca is None:
                     stats["left"] += 1
-                    log.append(f"left (marca implausible) | {r['file'].split('json/')[1]} | {r['athlete_name']} {r['discipline']} marca={marca}")
+                    log.append(f"left (marca implausible) | {r['file'].split('json/')[1]} | {r['athlete_name']} {r['discipline']} cands={cols[-4]},{cols[-3]}")
                     continue
                 if stored not in (coef, pct):
                     stats["left"] += 1

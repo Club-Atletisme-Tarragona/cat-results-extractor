@@ -123,11 +123,22 @@ def main():
         for r in rows:
             by_event.setdefault(r.get("discipline") or "", []).append(r)
 
+        # Combined-event sections (pentathlon etc.) mix age categories in one
+        # table, so the median of the section is meaningless: a 56.13 javelin
+        # for an M-45 decathlete sits next to M-80 throws and was flagged as
+        # 1.8x the median while being a real mark verified in the acta. Inside
+        # combined events only the absolute ceilings apply.
+        COMBINED = re.compile(r"pentatl|heptatl|decatl|octatl|tetratl|hexatl|combinades",
+                              re.IGNORECASE)
+        combined = (any(COMBINED.search(d) for d in by_event)
+                    or bool(COMBINED.search(str(data.get("event_name") or ""))))
+
         for discipline, group in by_event.items():
             ceiling = ceiling_for(discipline)
             values = [(r, to_number(r.get("performance"))) for r in group]
             numbers = [v for _, v in values if v is not None]
-            median = statistics.median(numbers) if len(numbers) >= 4 else None
+            median = (statistics.median(numbers)
+                      if len(numbers) >= 4 and not combined else None)
 
             for r, value in values:
                 if value is None:

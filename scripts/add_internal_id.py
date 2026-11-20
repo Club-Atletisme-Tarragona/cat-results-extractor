@@ -81,6 +81,8 @@ MANUAL_OVERRIDES = {
     # Owner: the 2008 veterans sheet prints "Jose Fco Gracia", a typo for
     # Jose Fco. Garcia Navarrete (5).
     "JOSE FCO GRACIA": 5,
+    # Owner: Anne-sophie Soriano Cazanave is 1348 (1125 is the other dump entry).
+    "ANNE SOPHIE SORIANO CAZANAVE": 1348,
     # Owner: the 2008 veterans 4x400 leg "Juan Valverde" is Joan Miquel
     # Valverde Moya (298), not Antonio Valverde Moya (247).
     "JUAN VALVERDE": 298,

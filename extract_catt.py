@@ -100,15 +100,32 @@ def parse_header(text):
             ubicacio = stripped
             break
 
-    # Spanish date in header: "Igualada, 26 junio 2021"
+    # Date in header: "Igualada, 26 junio 2021", "Mataro, 29 de gener de 2005".
+    # Spanish AND Catalan month names - 2005-era sheets are Catalan and the old
+    # parsers fell back to the FILENAME, misreading '29105' (29 Jan) as October.
+    # Lines carrying a weekday are Conersys generation stamps ("... Conersys
+    # Sports Solutions miércoles, 29 de abril de 2026"), not header dates: they
+    # sit above the meeting header and their "city" is the stamp text.
+    _stamp_re = re.compile(
+        r'conersys|gesti[oó]n|resultados|sports|solutions'
+        r'|mi[eé]rcoles|martes|jueves|viernes|s[aá]bado|domingo|lunes'
+        r'|dilluns|dimarts|dimecres|dijous|divendres|dissabte|diumenge',
+        re.IGNORECASE,
+    )
     month_map = {
         'enero': '01', 'febrero': '02', 'marzo': '03', 'abril': '04',
         'mayo': '05', 'junio': '06', 'julio': '07', 'agosto': '08',
-        'septiembre': '09', 'octubre': '10', 'noviembre': '11', 'diciembre': '12',
+        'septiembre': '09', 'setiembre': '09', 'octubre': '10',
+        'noviembre': '11', 'diciembre': '12',
+        'gener': '01', 'febrer': '02', 'març': '03', 'marc': '03',
+        'maig': '05', 'juny': '06', 'juliol': '07', 'agost': '08',
+        'setembre': '09', 'novembre': '11', 'desembre': '12',
     }
     for i, line in enumerate(lines[:30]):
+        if _stamp_re.search(line):
+            continue
         spanish_match = re.search(
-            r'([A-Za-zÀ-ÿ\.\s\-]+?),\s*(\d{1,2})\s+(' + '|'.join(month_map) + r')\s+(\d{4})',
+            r'([A-Za-zÀ-ÿ\.\s\-]+?),\s*(\d{1,2})\s+(?:de\s+)?(' + '|'.join(month_map) + r')\s+(?:de\s+)?(\d{4})',
             line.strip(),
             re.IGNORECASE,
         )
@@ -127,9 +144,18 @@ def parse_header(text):
             stripped = line.strip()
             if re.search(r'\bRCAT\b|\bRCAM\b', stripped):
                 continue
+            if _stamp_re.search(stripped):
+                continue
             date_match = re.search(r'(\d{2}/\d{2}/\d{4})', stripped)
             if date_match:
-                data = date_match.group(1)
+                cand = date_match.group(1)
+                # Reject birth/record dates: sheets that open with an athlete
+                # table (some masters meets) have no header date, and the first
+                # DD/MM/YYYY on the page is an athlete's date of birth. The
+                # dataset covers 2005+; anything outside is not a meeting date.
+                year = int(cand.split("/")[2])
+                if 2000 <= year <= 2035:
+                    data = cand
                 for j in range(i - 1, max(i - 5, -1), -1):
                     prev = lines[j].strip()
                     if prev and not re.search(r'\d{2}/\d{2}/\d{4}', prev):

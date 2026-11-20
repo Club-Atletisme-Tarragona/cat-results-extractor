@@ -2,284 +2,295 @@
   "event_name": "CAMPIONAT DE CATALUNYA ALEVÍ (Jornada final)",
   "event_date": "11/06/2016",
   "event_location": "Castellar del Vallès",
-  "total_results": 25,
+  "total_results": 26,
   "event_src": "https://old.fcatletisme.cat/Promocio/2016/resulcatalevi110616.pdf",
+  "is_short_track": false,
   "results": [
+    {
+      "athlete_name": "Pol Mascarell Julian",
+      "athlete_dob": "16/01/2005",
+      "athlete_id": "CL69331",
+      "performance": "1.15",
+      "discipline": "ALÇADA ALEVI MASCULI",
+      "wind": null,
+      "position": 12,
+      "timing": "electronic",
+      "internal_id": 646
+    },
     {
       "athlete_name": "Ruben Paredes Lario",
       "athlete_dob": "10/03/2005",
       "athlete_id": "CL71732",
       "performance": "4.40",
-      "discipline": "Llargada",
-      "raw_discipline_name": "LLARGADA ALEVI MASCULI",
+      "discipline": "LLARGADA ALEVI MASCULI",
       "wind": null,
-      "internal_id": null,
-      "timing": "electronic"
+      "position": 1,
+      "timing": "electronic",
+      "internal_id": null
     },
     {
       "athlete_name": "Ruben Paredes Lario",
       "athlete_dob": "10/03/2005",
       "athlete_id": "CL71732",
       "performance": "4.55",
-      "discipline": "Llargada",
-      "raw_discipline_name": "LLARGADA ALEVI MASCULI",
+      "discipline": "LLARGADA ALEVI MASCULI",
       "wind": null,
-      "internal_id": null,
-      "timing": "electronic"
+      "position": 1,
+      "timing": "electronic",
+      "internal_id": null
     },
     {
       "athlete_name": "Ruben Paredes Lario",
       "athlete_dob": "10/03/2005",
       "athlete_id": "CL71732",
       "performance": "4.58",
-      "discipline": "Llargada",
-      "raw_discipline_name": "LLARGADA ALEVI MASCULI",
+      "discipline": "LLARGADA ALEVI MASCULI",
       "wind": null,
-      "internal_id": null,
-      "timing": "electronic"
+      "position": 1,
+      "timing": "electronic",
+      "internal_id": null
     },
     {
       "athlete_name": "Ruben Paredes Lario",
       "athlete_dob": "10/03/2005",
       "athlete_id": "CL71732",
       "performance": "3.85",
-      "discipline": "Llargada",
-      "raw_discipline_name": "LLARGADA ALEVI MASCULI",
+      "discipline": "LLARGADA ALEVI MASCULI",
       "wind": null,
-      "internal_id": null,
-      "timing": "electronic"
+      "position": 1,
+      "timing": "electronic",
+      "internal_id": null
     },
     {
       "athlete_name": "Ruben Paredes Lario",
       "athlete_dob": "10/03/2005",
       "athlete_id": "CL71732",
       "performance": "4.10",
-      "discipline": "Llargada",
-      "raw_discipline_name": "LLARGADA ALEVI MASCULI",
+      "discipline": "LLARGADA ALEVI MASCULI",
       "wind": null,
-      "internal_id": null,
-      "timing": "electronic"
+      "position": 1,
+      "timing": "electronic",
+      "internal_id": null
     },
     {
       "athlete_name": "Ruben Paredes Lario",
       "athlete_dob": "10/03/2005",
       "athlete_id": "CL71732",
       "performance": "23.22",
-      "discipline": "Disc (2 Kg)",
-      "raw_discipline_name": "DISC ALEVI MASCULI",
+      "discipline": "DISC ALEVI MASCULI",
       "wind": null,
-      "internal_id": null,
-      "timing": "electronic"
+      "position": 4,
+      "timing": "electronic",
+      "internal_id": null
     },
     {
       "athlete_name": "Ruben Paredes Lario",
       "athlete_dob": "10/03/2005",
       "athlete_id": "CL71732",
       "performance": "22.91",
-      "discipline": "Disc (2 Kg)",
-      "raw_discipline_name": "DISC ALEVI MASCULI",
+      "discipline": "DISC ALEVI MASCULI",
       "wind": null,
-      "internal_id": null,
-      "timing": "electronic"
+      "position": 4,
+      "timing": "electronic",
+      "internal_id": null
     },
     {
       "athlete_name": "Ruben Paredes Lario",
       "athlete_dob": "10/03/2005",
       "athlete_id": "CL71732",
       "performance": "23.37",
-      "discipline": "Disc (2 Kg)",
-      "raw_discipline_name": "DISC ALEVI MASCULI",
+      "discipline": "DISC ALEVI MASCULI",
       "wind": null,
-      "internal_id": null,
-      "timing": "electronic"
+      "position": 4,
+      "timing": "electronic",
+      "internal_id": null
     },
     {
       "athlete_name": "Ruben Paredes Lario",
       "athlete_dob": "10/03/2005",
       "athlete_id": "CL71732",
       "performance": "22.99",
-      "discipline": "Disc (2 Kg)",
-      "raw_discipline_name": "DISC ALEVI MASCULI",
+      "discipline": "DISC ALEVI MASCULI",
       "wind": null,
-      "internal_id": null,
-      "timing": "electronic"
+      "position": 4,
+      "timing": "electronic",
+      "internal_id": null
     },
     {
       "athlete_name": "Ruben Paredes Lario",
       "athlete_dob": "10/03/2005",
       "athlete_id": "CL71732",
       "performance": "22.51",
-      "discipline": "Disc (2 Kg)",
-      "raw_discipline_name": "DISC ALEVI MASCULI",
+      "discipline": "DISC ALEVI MASCULI",
       "wind": null,
-      "internal_id": null,
-      "timing": "electronic"
+      "position": 4,
+      "timing": "electronic",
+      "internal_id": null
     },
     {
       "athlete_name": "Martina Pomes Cabello",
       "athlete_dob": "02/02/2005",
       "athlete_id": "CL71737",
-      "performance": "11:56.00",
-      "discipline": "2000 metres marxa",
-      "raw_discipline_name": "2000 METRES MARXA ALEVI MASCULI",
+      "performance": "8.88",
+      "discipline": "2000 METRES MARXA ALEVI MASCULI",
       "wind": null,
-      "internal_id": 810,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 810
     },
     {
       "athlete_name": "Martina Pomes Cabello",
       "athlete_dob": "02/02/2005",
       "athlete_id": "CL71737",
-      "performance": "11:56.00",
-      "discipline": "2000 metres marxa",
-      "raw_discipline_name": "2000 METRES MARXA ALEVI MASCULI",
+      "performance": "8.83",
+      "discipline": "2000 METRES MARXA ALEVI MASCULI",
       "wind": null,
-      "internal_id": 810,
-      "timing": "electronic"
+      "position": 4,
+      "timing": "electronic",
+      "internal_id": 810
     },
     {
       "athlete_name": "Natalia Sanchez Alvarez",
       "athlete_dob": "28/05/2005",
       "athlete_id": "CL71748",
-      "performance": "14:10.00",
-      "discipline": "2000 metres marxa",
-      "raw_discipline_name": "2000 METRES MARXA ALEVI MASCULI",
+      "performance": "10.07",
+      "discipline": "2000 METRES MARXA ALEVI MASCULI",
       "wind": null,
-      "internal_id": 796,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 796
     },
     {
       "athlete_name": "Natalia Sanchez Alvarez",
       "athlete_dob": "28/05/2005",
       "athlete_id": "CL71748",
-      "performance": "11:56.00",
-      "discipline": "2000 metres marxa",
-      "raw_discipline_name": "2000 METRES MARXA ALEVI MASCULI",
+      "performance": "10.09",
+      "discipline": "2000 METRES MARXA ALEVI MASCULI",
       "wind": null,
-      "internal_id": 796,
-      "timing": "electronic"
+      "position": 2,
+      "timing": "electronic",
+      "internal_id": 796
     },
     {
       "athlete_name": "Martina Pomes Cabello",
       "athlete_dob": "02/02/2005",
       "athlete_id": "CL71737",
       "performance": "1.25",
-      "discipline": "Alçada",
-      "raw_discipline_name": "ALÇADA ALEVI FEMENI",
+      "discipline": "ALÇADA ALEVI FEMENI",
       "wind": null,
-      "internal_id": 810,
-      "timing": "electronic"
+      "position": 5,
+      "timing": "electronic",
+      "internal_id": 810
     },
     {
       "athlete_name": "Natalia Sanchez Alvarez",
       "athlete_dob": "28/05/2005",
       "athlete_id": "CL71748",
       "performance": "4.02",
-      "discipline": "Llargada",
-      "raw_discipline_name": "LLARGADA ALEVI FEMENI",
+      "discipline": "LLARGADA ALEVI FEMENI",
       "wind": null,
-      "internal_id": 796,
-      "timing": "electronic"
+      "position": 9,
+      "timing": "electronic",
+      "internal_id": 796
     },
     {
       "athlete_name": "Natalia Sanchez Alvarez",
       "athlete_dob": "28/05/2005",
       "athlete_id": "CL71748",
       "performance": "4.00",
-      "discipline": "Llargada",
-      "raw_discipline_name": "LLARGADA ALEVI FEMENI",
+      "discipline": "LLARGADA ALEVI FEMENI",
       "wind": null,
-      "internal_id": 796,
-      "timing": "electronic"
+      "position": 9,
+      "timing": "electronic",
+      "internal_id": 796
     },
     {
       "athlete_name": "Natalia Sanchez Alvarez",
       "athlete_dob": "28/05/2005",
       "athlete_id": "CL71748",
       "performance": "3.94",
-      "discipline": "Llargada",
-      "raw_discipline_name": "LLARGADA ALEVI FEMENI",
+      "discipline": "LLARGADA ALEVI FEMENI",
       "wind": null,
-      "internal_id": 796,
-      "timing": "electronic"
+      "position": 9,
+      "timing": "electronic",
+      "internal_id": 796
     },
     {
       "athlete_name": "Laia Aldave Mas",
       "athlete_dob": "29/01/2005",
       "athlete_id": "CL71683",
       "performance": "13.14",
-      "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "DISC ALEVI FEMENI",
+      "discipline": "DISC ALEVI FEMENI",
       "wind": null,
-      "internal_id": 800,
-      "timing": "electronic"
+      "position": 2,
+      "timing": "electronic",
+      "internal_id": 800
     },
     {
       "athlete_name": "Laia Aldave Mas",
       "athlete_dob": "29/01/2005",
       "athlete_id": "CL71683",
       "performance": "19.80",
-      "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "DISC ALEVI FEMENI",
+      "discipline": "DISC ALEVI FEMENI",
       "wind": null,
-      "internal_id": 800,
-      "timing": "electronic"
+      "position": 2,
+      "timing": "electronic",
+      "internal_id": 800
     },
     {
       "athlete_name": "Laia Aldave Mas",
       "athlete_dob": "29/01/2005",
       "athlete_id": "CL71683",
       "performance": "16.30",
-      "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "DISC ALEVI FEMENI",
+      "discipline": "DISC ALEVI FEMENI",
       "wind": null,
-      "internal_id": 800,
-      "timing": "electronic"
+      "position": 2,
+      "timing": "electronic",
+      "internal_id": 800
     },
     {
       "athlete_name": "Laia Aldave Mas",
       "athlete_dob": "29/01/2005",
       "athlete_id": "CL71683",
       "performance": "13.94",
-      "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "DISC ALEVI FEMENI",
+      "discipline": "DISC ALEVI FEMENI",
       "wind": null,
-      "internal_id": 800,
-      "timing": "electronic"
+      "position": 2,
+      "timing": "electronic",
+      "internal_id": 800
     },
     {
       "athlete_name": "Berta Pelicano Sanchis",
       "athlete_dob": "14/04/2005",
       "athlete_id": "CL82417",
       "performance": "10.84",
-      "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "DISC ALEVI FEMENI",
+      "discipline": "DISC ALEVI FEMENI",
       "wind": null,
-      "internal_id": null,
-      "timing": "electronic"
+      "position": 11,
+      "timing": "electronic",
+      "internal_id": null
     },
     {
       "athlete_name": "Berta Pelicano Sanchis",
       "athlete_dob": "14/04/2005",
       "athlete_id": "CL82417",
       "performance": "11.17",
-      "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "DISC ALEVI FEMENI",
+      "discipline": "DISC ALEVI FEMENI",
       "wind": null,
-      "internal_id": null,
-      "timing": "electronic"
+      "position": 11,
+      "timing": "electronic",
+      "internal_id": null
     },
     {
       "athlete_name": "Julia Suarez Piza",
       "athlete_dob": "05/11/2006",
       "athlete_id": "CL69345",
       "performance": "12:06.85",
-      "discipline": "2000 metres marxa",
-      "raw_discipline_name": "2000 METRES MARXA ALEVI FEMENI",
+      "discipline": "2000 METRES MARXA ALEVI FEMENI",
       "wind": null,
-      "internal_id": 839,
-      "timing": "electronic"
+      "position": 10,
+      "timing": "electronic",
+      "internal_id": 839
     }
-  ],
-  "is_short_track": false
+  ]
 }

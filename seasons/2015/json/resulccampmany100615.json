@@ -2,174 +2,229 @@
   "event_name": "CRITÈRIUM CAMPMANY (2a. Jornada) - Barcelona (Estadi Joan Serrahima), 10 junio 2015",
   "event_date": "10/06/2015",
   "event_location": "Barcelona-SE",
-  "total_results": 15,
+  "total_results": 20,
   "event_src": "http://old.fcatletisme.cat/Pairelliure/2015/resulccampmany100615.pdf",
+  "is_short_track": false,
   "results": [
     {
       "athlete_name": "Tomas Cordero Bel",
       "athlete_dob": "30/09/1991",
       "athlete_id": "CL19652",
       "performance": "23.57",
-      "discipline": "200 metres llisos",
-      "raw_discipline_name": "200 METRES LLISOS MASCULINS",
+      "discipline": "200 METRES LLISOS MASCULINS",
       "wind": "+0.2",
-      "internal_id": 397,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 397
     },
     {
       "athlete_name": "Jesus Muñoz Vazquez",
       "athlete_dob": "28/08/1997",
       "athlete_id": "CL22880",
       "performance": "23.84",
-      "discipline": "200 metres llisos",
-      "raw_discipline_name": "200 METRES LLISOS MASCULINS",
+      "discipline": "200 METRES LLISOS MASCULINS",
       "wind": "+0.5",
-      "internal_id": 444,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 444
     },
     {
       "athlete_name": "Mohamed Maman",
       "athlete_dob": "20/12/1994",
       "athlete_id": "CT24268",
       "performance": "22.82",
-      "discipline": "200 metres llisos",
-      "raw_discipline_name": "200 METRES LLISOS MASCULINS",
+      "discipline": "200 METRES LLISOS MASCULINS",
       "wind": "+0.4",
-      "internal_id": 496,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 496
     },
     {
       "athlete_name": "Sergio Marcos Moreno",
       "athlete_dob": "14/07/1998",
       "athlete_id": "CL23037",
       "performance": "24.92",
-      "discipline": "200 metres llisos",
-      "raw_discipline_name": "200 METRES LLISOS MASCULINS",
+      "discipline": "200 METRES LLISOS MASCULINS",
       "wind": "+0.4",
-      "internal_id": 453,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 453
     },
     {
       "athlete_name": "Xavier Ros Borrell",
       "athlete_dob": "19/05/1998",
       "athlete_id": "CL22779",
       "performance": "1:59.96",
-      "discipline": "800 metres llisos",
-      "raw_discipline_name": "800 METRES LLISOS MASCULINS",
+      "discipline": "800 METRES LLISOS MASCULINS",
       "wind": null,
-      "internal_id": 439,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 439
     },
     {
       "athlete_name": "Didac Alonso Del Campo",
       "athlete_dob": "28/07/1999",
       "athlete_id": "CL24104",
       "performance": "32.64",
-      "discipline": "Javelina (700 g)",
-      "raw_discipline_name": "LLANÇAMENT DE JAVELINA JUVENIL MASCULI",
+      "discipline": "LLANÇAMENT DE JAVELINA JUVENIL MASCULI",
       "wind": null,
-      "internal_id": 468,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 468
     },
     {
       "athlete_name": "Didac Alonso Del Campo",
       "athlete_dob": "28/07/1999",
       "athlete_id": "CL24104",
       "performance": "29.77",
-      "discipline": "Javelina (700 g)",
-      "raw_discipline_name": "LLANÇAMENT DE JAVELINA JUVENIL MASCULI",
+      "discipline": "LLANÇAMENT DE JAVELINA JUVENIL MASCULI",
       "wind": null,
-      "internal_id": 468,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 468
     },
     {
       "athlete_name": "Didac Alonso Del Campo",
       "athlete_dob": "28/07/1999",
       "athlete_id": "CL24104",
       "performance": "30.16",
-      "discipline": "Javelina (700 g)",
-      "raw_discipline_name": "LLANÇAMENT DE JAVELINA JUVENIL MASCULI",
+      "discipline": "LLANÇAMENT DE JAVELINA JUVENIL MASCULI",
       "wind": null,
-      "internal_id": 468,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 468
     },
     {
       "athlete_name": "Didac Alonso Del Campo",
       "athlete_dob": "28/07/1999",
       "athlete_id": "CL24104",
       "performance": "19.68",
-      "discipline": "Javelina (700 g)",
-      "raw_discipline_name": "LLANÇAMENT DE JAVELINA JUVENIL MASCULI",
+      "discipline": "LLANÇAMENT DE JAVELINA JUVENIL MASCULI",
       "wind": null,
-      "internal_id": 468,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 468
     },
     {
       "athlete_name": "Didac Alonso Del Campo",
       "athlete_dob": "28/07/1999",
       "athlete_id": "CL24104",
       "performance": "29.41",
-      "discipline": "Javelina (700 g)",
-      "raw_discipline_name": "LLANÇAMENT DE JAVELINA JUVENIL MASCULI",
+      "discipline": "LLANÇAMENT DE JAVELINA JUVENIL MASCULI",
       "wind": null,
-      "internal_id": 468,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 468
     },
     {
       "athlete_name": "Didac Alonso Del Campo",
       "athlete_dob": "28/07/1999",
       "athlete_id": "CL24104",
       "performance": "26.40",
-      "discipline": "Javelina (700 g)",
-      "raw_discipline_name": "LLANÇAMENT DE JAVELINA JUVENIL MASCULI",
+      "discipline": "LLANÇAMENT DE JAVELINA JUVENIL MASCULI",
       "wind": null,
-      "internal_id": 468,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 468
     },
     {
       "athlete_name": "Marta Font Palomar",
       "athlete_dob": "21/12/1993",
       "athlete_id": "CL18125",
       "performance": "28.13",
-      "discipline": "200 metres llisos",
-      "raw_discipline_name": "200 METRES LLISOS FEMENINS",
+      "discipline": "200 METRES LLISOS FEMENINS",
       "wind": null,
-      "internal_id": 285,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 285
     },
     {
       "athlete_name": "Helena Rios Montserrat",
       "athlete_dob": "13/06/1996",
       "athlete_id": "CL21953",
       "performance": "1:11.66",
-      "discipline": "400 metres tanques (0.762)",
-      "raw_discipline_name": "400 METRES TANQUES FEMENINS",
+      "discipline": "400 METRES TANQUES FEMENINS",
       "wind": null,
-      "internal_id": 409,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 409
+    },
+    {
+      "athlete_name": "Maria Alvarez Auños",
+      "athlete_dob": "14/08/1996",
+      "athlete_id": "CT20448",
+      "performance": "1.50",
+      "discipline": "SALT D'ALÇADA FEMENI",
+      "wind": null,
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 346
     },
     {
       "athlete_name": "Blanca Tortajada Pinto",
       "athlete_dob": "21/04/1993",
       "athlete_id": "CL18127",
       "performance": "3.73",
-      "discipline": "Llargada",
-      "raw_discipline_name": "SALT DE LLARGADA FEMENI",
+      "discipline": "SALT DE LLARGADA FEMENI",
       "wind": "-1.5",
-      "internal_id": 310,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 310
     },
     {
       "athlete_name": "Blanca Tortajada Pinto",
       "athlete_dob": "21/04/1993",
       "athlete_id": "CL18127",
       "performance": "3.98",
-      "discipline": "Llargada",
-      "raw_discipline_name": "SALT DE LLARGADA FEMENI",
+      "discipline": "SALT DE LLARGADA FEMENI",
       "wind": "-2.5",
-      "internal_id": 310,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 310
+    },
+    {
+      "athlete_name": "Marina Tibau Sendra",
+      "athlete_dob": "06/08/1995",
+      "athlete_id": "CT20392",
+      "performance": "11.34",
+      "discipline": "LLANÇAMENT DE PES FEMENI",
+      "wind": null,
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 359
+    },
+    {
+      "athlete_name": "Marina Tibau Sendra",
+      "athlete_dob": "06/08/1995",
+      "athlete_id": "CT20392",
+      "performance": "10.92",
+      "discipline": "LLANÇAMENT DE PES FEMENI",
+      "wind": null,
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 359
+    },
+    {
+      "athlete_name": "Marina Tibau Sendra",
+      "athlete_dob": "06/08/1995",
+      "athlete_id": "CT20392",
+      "performance": "10.38",
+      "discipline": "LLANÇAMENT DE PES FEMENI",
+      "wind": null,
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 359
+    },
+    {
+      "athlete_name": "Marina Tibau Sendra",
+      "athlete_dob": "06/08/1995",
+      "athlete_id": "CT20392",
+      "performance": "10.22",
+      "discipline": "LLANÇAMENT DE PES FEMENI",
+      "wind": null,
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 359
     }
-  ],
-  "is_short_track": false
+  ]
 }

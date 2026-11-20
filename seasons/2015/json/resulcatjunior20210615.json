@@ -1,131 +1,153 @@
 {
   "event_name": "Campionat de Catalunya Júnior",
-  "event_date": "21/06/2015",
-  "event_location": "Lloret de Mar",
-  "total_results": 11,
+  "event_date": "20/06/2015",
+  "event_location": "Club                                             Lic",
+  "total_results": 13,
   "event_src": "http://old.fcatletisme.cat/Pairelliure/2015/resulcatjunior20210615.pdf",
+  "is_short_track": false,
   "results": [
     {
       "athlete_name": "Helena Rios Montserrat",
       "athlete_dob": "13/06/1996",
       "athlete_id": "CL21953",
-      "performance": "2.55",
-      "discipline": "Perxa",
-      "raw_discipline_name": "SALT AMB PERXA JUNIOR FEMENI",
+      "performance": "17.00",
+      "discipline": "10000 METRES MARXA JUNIOR MASCULI",
       "wind": null,
-      "internal_id": 409,
-      "timing": "electronic"
+      "position": 4,
+      "timing": "electronic",
+      "internal_id": 409
+    },
+    {
+      "athlete_name": "Maria Alvarez Auños",
+      "athlete_dob": "14/08/1996",
+      "athlete_id": "CT20448",
+      "performance": "1.57",
+      "discipline": "SALT D'ALÇADA JUNIOR FEMENI",
+      "wind": null,
+      "position": 1,
+      "timing": "electronic",
+      "internal_id": 346
+    },
+    {
+      "athlete_name": "Helena Rios Montserrat",
+      "athlete_dob": "13/06/1996",
+      "athlete_id": "CL21953",
+      "performance": "2.55",
+      "discipline": "SALT AMB PERXA JUNIOR FEMENI",
+      "wind": null,
+      "position": 5,
+      "timing": "electronic",
+      "internal_id": 409
     },
     {
       "athlete_name": "Helena Rios Montserrat",
       "athlete_dob": "13/06/1996",
       "athlete_id": "CL21953",
       "performance": "4.56",
-      "discipline": "Llargada",
-      "raw_discipline_name": "SALT DE LLARGADA JUNIOR FEMENI",
+      "discipline": "SALT DE LLARGADA JUNIOR FEMENI",
       "wind": "+0.2",
-      "internal_id": 409,
-      "timing": "electronic"
+      "position": 6,
+      "timing": "electronic",
+      "internal_id": 409
     },
     {
       "athlete_name": "Helena Rios Montserrat",
       "athlete_dob": "13/06/1996",
       "athlete_id": "CL21953",
       "performance": "4.84",
-      "discipline": "Llargada",
-      "raw_discipline_name": "SALT DE LLARGADA JUNIOR FEMENI",
+      "discipline": "SALT DE LLARGADA JUNIOR FEMENI",
       "wind": "+1.1",
-      "internal_id": 409,
-      "timing": "electronic"
+      "position": 6,
+      "timing": "electronic",
+      "internal_id": 409
     },
     {
       "athlete_name": "Helena Rios Montserrat",
       "athlete_dob": "13/06/1996",
       "athlete_id": "CL21953",
       "performance": "4.76",
-      "discipline": "Llargada",
-      "raw_discipline_name": "SALT DE LLARGADA JUNIOR FEMENI",
+      "discipline": "SALT DE LLARGADA JUNIOR FEMENI",
       "wind": "+1.6",
-      "internal_id": 409,
-      "timing": "electronic"
+      "position": 6,
+      "timing": "electronic",
+      "internal_id": 409
     },
     {
       "athlete_name": "Helena Rios Montserrat",
       "athlete_dob": "13/06/1996",
       "athlete_id": "CL21953",
       "performance": "4.68",
-      "discipline": "Llargada",
-      "raw_discipline_name": "SALT DE LLARGADA JUNIOR FEMENI",
+      "discipline": "SALT DE LLARGADA JUNIOR FEMENI",
       "wind": "+1.5",
-      "internal_id": 409,
-      "timing": "electronic"
+      "position": 6,
+      "timing": "electronic",
+      "internal_id": 409
     },
     {
       "athlete_name": "Gemma Ruiz Sabate",
       "athlete_dob": "20/04/1996",
       "athlete_id": "CL24157",
       "performance": "18.97",
-      "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "LLANÇAMENT DE DISC JUNIOR FEMENI (1kg)",
+      "discipline": "LLANÇAMENT DE DISC JUNIOR FEMENI (1 Kg)",
       "wind": null,
-      "internal_id": 464,
-      "timing": "electronic"
+      "position": 5,
+      "timing": "electronic",
+      "internal_id": 464
     },
     {
       "athlete_name": "Gemma Ruiz Sabate",
       "athlete_dob": "20/04/1996",
       "athlete_id": "CL24157",
       "performance": "18.56",
-      "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "LLANÇAMENT DE DISC JUNIOR FEMENI (1kg)",
+      "discipline": "LLANÇAMENT DE DISC JUNIOR FEMENI (1 Kg)",
       "wind": null,
-      "internal_id": 464,
-      "timing": "electronic"
+      "position": 5,
+      "timing": "electronic",
+      "internal_id": 464
     },
     {
       "athlete_name": "Gemma Ruiz Sabate",
       "athlete_dob": "20/04/1996",
       "athlete_id": "CL24157",
       "performance": "21.64",
-      "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "LLANÇAMENT DE DISC JUNIOR FEMENI (1kg)",
+      "discipline": "LLANÇAMENT DE DISC JUNIOR FEMENI (1 Kg)",
       "wind": null,
-      "internal_id": 464,
-      "timing": "electronic"
+      "position": 5,
+      "timing": "electronic",
+      "internal_id": 464
     },
     {
       "athlete_name": "Gemma Ruiz Sabate",
       "athlete_dob": "20/04/1996",
       "athlete_id": "CL24157",
       "performance": "17.64",
-      "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "LLANÇAMENT DE DISC JUNIOR FEMENI (1kg)",
+      "discipline": "LLANÇAMENT DE DISC JUNIOR FEMENI (1 Kg)",
       "wind": null,
-      "internal_id": 464,
-      "timing": "electronic"
+      "position": 5,
+      "timing": "electronic",
+      "internal_id": 464
     },
     {
       "athlete_name": "Gemma Ruiz Sabate",
       "athlete_dob": "20/04/1996",
       "athlete_id": "CL24157",
       "performance": "21.98",
-      "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "LLANÇAMENT DE DISC JUNIOR FEMENI (1kg)",
+      "discipline": "LLANÇAMENT DE DISC JUNIOR FEMENI (1 Kg)",
       "wind": null,
-      "internal_id": 464,
-      "timing": "electronic"
+      "position": 5,
+      "timing": "electronic",
+      "internal_id": 464
     },
     {
       "athlete_name": "Gemma Ruiz Sabate",
       "athlete_dob": "20/04/1996",
       "athlete_id": "CL24157",
       "performance": "22.08",
-      "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "LLANÇAMENT DE DISC JUNIOR FEMENI (1kg)",
+      "discipline": "LLANÇAMENT DE DISC JUNIOR FEMENI (1 Kg)",
       "wind": null,
-      "internal_id": 464,
-      "timing": "electronic"
+      "position": 5,
+      "timing": "electronic",
+      "internal_id": 464
     }
-  ],
-  "is_short_track": false
+  ]
 }

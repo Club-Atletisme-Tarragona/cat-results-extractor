@@ -1,120 +1,307 @@
 {
   "event_name": "",
-  "event_date": "20/4/2016",
+  "event_date": "02/04/2016",
   "event_location": "El Prat de Llobregat",
-  "total_results": 10,
+  "total_results": 27,
   "event_src": "https://old.fcatletisme.cat/Promocio/2016/resulcatclubsinfantilal20416.pdf",
+  "is_short_track": false,
   "results": [
+    {
+      "athlete_name": "Marina Burjales Del Amo",
+      "athlete_dob": "29/11/2003",
+      "athlete_id": "CL71693",
+      "performance": "12.25",
+      "discipline": "80m FEM. AL",
+      "wind": null,
+      "position": null,
+      "timing": "electronic",
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Paula Garcia Jimenez",
+      "athlete_dob": "19/06/2003",
+      "athlete_id": "CL82679",
+      "performance": "24.23",
+      "discipline": "150m FEM. AL INF.",
+      "wind": null,
+      "position": null,
+      "timing": "electronic",
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Lucia Mayolas Martinez",
+      "athlete_dob": "04/10/2004",
+      "athlete_id": "CL71720",
+      "performance": "2:22.00",
+      "discipline": "600m FEM. AL",
+      "wind": null,
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 728
+    },
+    {
+      "athlete_name": "Carla Gonzalez Carrillo",
+      "athlete_dob": "05/06/2003",
+      "athlete_id": "CL82680",
+      "performance": "3:25.34",
+      "discipline": "1.000m FEM. AL",
+      "wind": null,
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 698
+    },
+    {
+      "athlete_name": "Laura Yan Sole Barba",
+      "athlete_dob": "31/10/2003",
+      "athlete_id": "CL71752",
+      "performance": "3:51.82",
+      "discipline": "1.000m FEM. AL",
+      "wind": null,
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 701
+    },
+    {
+      "athlete_name": "Ariadna Alonso Del Campo",
+      "athlete_dob": "06/09/2003",
+      "athlete_id": "CL82671",
+      "performance": "NP",
+      "discipline": "3.000m FEM. AL",
+      "wind": null,
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 703
+    },
+    {
+      "athlete_name": "Laurineelisa Marimon Fernandez",
+      "athlete_dob": "17/09/2004",
+      "athlete_id": "CL69330",
+      "performance": "36.93",
+      "discipline": "220m tanques FEM. AL",
+      "wind": null,
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 737
+    },
+    {
+      "athlete_name": "Liana De Las Heras Ruiz",
+      "athlete_dob": "27/02/2004",
+      "athlete_id": "CL71697",
+      "performance": "1.20",
+      "discipline": "Alçada FEM. AL",
+      "wind": null,
+      "position": null,
+      "timing": "electronic",
+      "internal_id": null
+    },
     {
       "athlete_name": "Ariadna Alonso Del Campo",
       "athlete_dob": "06/09/2003",
       "athlete_id": "CL82671",
       "performance": "1.70",
-      "discipline": "Perxa",
-      "raw_discipline_name": "Perxa FEM. AL",
+      "discipline": "Perxa FEM. AL",
       "wind": null,
-      "internal_id": 703,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 703
     },
     {
       "athlete_name": "Laura Yan Sole Barba",
       "athlete_dob": "31/10/2003",
       "athlete_id": "CL71752",
       "performance": "3.43",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada FEM. AL",
+      "discipline": "Llargada FEM. AL",
       "wind": "+0.0",
-      "internal_id": 701,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 701
     },
     {
       "athlete_name": "Laura Yan Sole Barba",
       "athlete_dob": "31/10/2003",
       "athlete_id": "CL71752",
       "performance": "3.78",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada FEM. AL",
+      "discipline": "Llargada FEM. AL",
       "wind": "+0.0",
-      "internal_id": 701,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 701
     },
     {
       "athlete_name": "Laura Yan Sole Barba",
       "athlete_dob": "31/10/2003",
       "athlete_id": "CL71752",
       "performance": "3.69",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada FEM. AL",
+      "discipline": "Llargada FEM. AL",
       "wind": "+0.1",
-      "internal_id": 701,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 701
+    },
+    {
+      "athlete_name": "Laurineelisa Marimon Fernandez",
+      "athlete_dob": "17/09/2004",
+      "athlete_id": "CL69330",
+      "performance": "8.64",
+      "discipline": "Triple Salt FEM. AL",
+      "wind": null,
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 737
+    },
+    {
+      "athlete_name": "Laurineelisa Marimon Fernandez",
+      "athlete_dob": "17/09/2004",
+      "athlete_id": "CL69330",
+      "performance": "8.97",
+      "discipline": "Triple Salt FEM. AL",
+      "wind": null,
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 737
+    },
+    {
+      "athlete_name": "Laurineelisa Marimon Fernandez",
+      "athlete_dob": "17/09/2004",
+      "athlete_id": "CL69330",
+      "performance": "8.84",
+      "discipline": "Triple Salt FEM. AL",
+      "wind": null,
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 737
+    },
+    {
+      "athlete_name": "Claudian. Mir Casellas",
+      "athlete_dob": "02/08/2003",
+      "athlete_id": "CL69333",
+      "performance": "5.87",
+      "discipline": "Pes FEM AL",
+      "wind": null,
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 699
+    },
+    {
+      "athlete_name": "Claudian. Mir Casellas",
+      "athlete_dob": "02/08/2003",
+      "athlete_id": "CL69333",
+      "performance": "6.01",
+      "discipline": "Pes FEM AL",
+      "wind": null,
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 699
+    },
+    {
+      "athlete_name": "Claudian. Mir Casellas",
+      "athlete_dob": "02/08/2003",
+      "athlete_id": "CL69333",
+      "performance": "5.74",
+      "discipline": "Pes FEM AL",
+      "wind": null,
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 699
     },
     {
       "athlete_name": "Lucia Mayolas Martinez",
       "athlete_dob": "04/10/2004",
       "athlete_id": "CL71720",
       "performance": "8.18",
-      "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "Disc FEM.",
+      "discipline": "Disc FEM.",
       "wind": null,
-      "internal_id": 728,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 728
     },
     {
       "athlete_name": "Lucia Mayolas Martinez",
       "athlete_dob": "04/10/2004",
       "athlete_id": "CL71720",
       "performance": "9.46",
-      "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "Disc FEM.",
+      "discipline": "Disc FEM.",
       "wind": null,
-      "internal_id": 728,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 728
     },
     {
       "athlete_name": "Lucia Mayolas Martinez",
       "athlete_dob": "04/10/2004",
       "athlete_id": "CL71720",
       "performance": "9.42",
-      "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "Disc FEM.",
+      "discipline": "Disc FEM.",
       "wind": null,
-      "internal_id": 728,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 728
+    },
+    {
+      "athlete_name": "Paula Garcia Jimenez",
+      "athlete_dob": "19/06/2003",
+      "athlete_id": "CL82679",
+      "performance": "14.84",
+      "discipline": "Martell FEM AL",
+      "wind": null,
+      "position": null,
+      "timing": "electronic",
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Paula Garcia Jimenez",
+      "athlete_dob": "19/06/2003",
+      "athlete_id": "CL82679",
+      "performance": "14.61",
+      "discipline": "Martell FEM AL",
+      "wind": null,
+      "position": null,
+      "timing": "electronic",
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Paula Garcia Jimenez",
+      "athlete_dob": "19/06/2003",
+      "athlete_id": "CL82679",
+      "performance": "14.99",
+      "discipline": "Martell FEM AL",
+      "wind": null,
+      "position": null,
+      "timing": "electronic",
+      "internal_id": null
     },
     {
       "athlete_name": "Carla Gonzalez Carrillo",
       "athlete_dob": "05/06/2003",
       "athlete_id": "CL82680",
       "performance": "11.25",
-      "discipline": "Javelina (600 g)",
-      "raw_discipline_name": "Javelina FEM.",
+      "discipline": "Javelina FEM.",
       "wind": null,
-      "internal_id": 698,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 698
     },
     {
       "athlete_name": "Carla Gonzalez Carrillo",
       "athlete_dob": "05/06/2003",
       "athlete_id": "CL82680",
       "performance": "9.71",
-      "discipline": "Javelina (600 g)",
-      "raw_discipline_name": "Javelina FEM.",
+      "discipline": "Javelina FEM.",
       "wind": null,
-      "internal_id": 698,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 698
     },
     {
       "athlete_name": "Carla Gonzalez Carrillo",
       "athlete_dob": "05/06/2003",
       "athlete_id": "CL82680",
       "performance": "9.50",
-      "discipline": "Javelina (600 g)",
-      "raw_discipline_name": "Javelina FEM.",
+      "discipline": "Javelina FEM.",
       "wind": null,
-      "internal_id": 698,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 698
     }
-  ],
-  "is_short_track": false
+  ]
 }

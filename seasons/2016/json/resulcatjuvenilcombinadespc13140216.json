@@ -1,87 +1,131 @@
 {
   "event_name": " - Sabadell (Pista Coberta de Catalunya), 13-14 febrero 2016",
-  "event_date": "14/02/2016",
-  "event_location": "Sabadell",
-  "total_results": 7,
+  "event_date": "13/02/2016",
+  "event_location": "Club                                                   Lic                        Acum.",
+  "total_results": 11,
   "event_src": "https://old.fcatletisme.cat/Pcoberta/2016/resulcatjuvenilcombinadespc13140216.pdf.pdf",
+  "is_short_track": true,
   "results": [
     {
       "athlete_name": "Mireia Lopez Urbano",
       "athlete_dob": "07/12/2000",
       "athlete_id": "CT23556",
-      "performance": "1.45",
-      "discipline": "Alçada",
-      "raw_discipline_name": "Alçada FEM. PC",
+      "performance": "8.95",
+      "discipline": "60m tanques FEM. PC",
       "wind": null,
-      "internal_id": 527,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 527
+    },
+    {
+      "athlete_name": "Mireia Lopez Urbano",
+      "athlete_dob": "07/12/2000",
+      "athlete_id": "CT23556",
+      "performance": "1.45",
+      "discipline": "Alçada FEM. PC",
+      "wind": null,
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 527
     },
     {
       "athlete_name": "Mireia Lopez Urbano",
       "athlete_dob": "07/12/2000",
       "athlete_id": "CT23556",
       "performance": "9.30",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Pes FEM. PC",
+      "discipline": "Pes FEM. PC",
       "wind": null,
-      "internal_id": 527,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 527
     },
     {
       "athlete_name": "Mireia Lopez Urbano",
       "athlete_dob": "07/12/2000",
       "athlete_id": "CT23556",
       "performance": "9.96",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Pes FEM. PC",
+      "discipline": "Pes FEM. PC",
       "wind": null,
-      "internal_id": 527,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 527
     },
     {
       "athlete_name": "Mireia Lopez Urbano",
       "athlete_dob": "07/12/2000",
       "athlete_id": "CT23556",
       "performance": "9.45",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Pes FEM. PC",
+      "discipline": "Pes FEM. PC",
       "wind": null,
-      "internal_id": 527,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 527
     },
     {
       "athlete_name": "Mireia Lopez Urbano",
       "athlete_dob": "07/12/2000",
       "athlete_id": "CT23556",
       "performance": "5.14",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada FEM. PC",
+      "discipline": "Llargada FEM. PC",
       "wind": null,
-      "internal_id": 527,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 527
     },
     {
       "athlete_name": "Mireia Lopez Urbano",
       "athlete_dob": "07/12/2000",
       "athlete_id": "CT23556",
       "performance": "5.11",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada FEM. PC",
+      "discipline": "Llargada FEM. PC",
       "wind": null,
-      "internal_id": 527,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 527
     },
     {
       "athlete_name": "Mireia Lopez Urbano",
       "athlete_dob": "07/12/2000",
       "athlete_id": "CT23556",
       "performance": "5.16",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada FEM. PC",
+      "discipline": "Llargada FEM. PC",
       "wind": null,
-      "internal_id": 527,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 527
+    },
+    {
+      "athlete_name": "Mireia Lopez Urbano",
+      "athlete_dob": "07/12/2000",
+      "athlete_id": "CT23556",
+      "performance": "2:48.52",
+      "discipline": "800m FEM. PC",
+      "wind": null,
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 527
+    },
+    {
+      "athlete_name": "Mireia Lopez",
+      "athlete_dob": "16/06/2000",
+      "athlete_id": "CT23556",
+      "performance": "3095",
+      "discipline": "Pentatló JUV. FEM. PC",
+      "wind": null,
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 527
+    },
+    {
+      "athlete_name": "Mireia Lopez Urbano",
+      "athlete_dob": "07/12/2000",
+      "athlete_id": "CT23556",
+      "performance": "3095",
+      "discipline": "Pentatló JUV. FEM. PC",
+      "wind": null,
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 527
     }
-  ],
-  "is_short_track": true
+  ]
 }

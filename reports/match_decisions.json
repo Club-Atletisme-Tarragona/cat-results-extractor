@@ -9,6 +9,11 @@
     "strategy": "no_match",
     "detail": null
   },
+  "ABDELHAKIM HAMID": {
+    "internal_id": 538,
+    "strategy": "exact",
+    "detail": null
+  },
   "ABEL CUADRAT SOLE": {
     "internal_id": 986,
     "strategy": "exact",
@@ -197,11 +202,6 @@
   "ALBA CARVAJAL GARCIA": {
     "internal_id": 670,
     "strategy": "exact",
-    "detail": null
-  },
-  "ALBA CL TORRES RIONE": {
-    "internal_id": null,
-    "strategy": "no_match",
     "detail": null
   },
   "ALBA ESTEVE HOSTALOT": {
@@ -439,6 +439,11 @@
     "strategy": "exact",
     "detail": null
   },
+  "ALONSO DELCAMPO DIDAC": {
+    "internal_id": 468,
+    "strategy": "fuzzy",
+    "detail": 0.977
+  },
   "ALVAREZ AUNOS FERNANDO": {
     "internal_id": 342,
     "strategy": "exact",
@@ -669,7 +674,7 @@
     "strategy": "manual_override",
     "detail": null
   },
-  "ANTILLACH PUJOL JORDINA": {
+  "ANTILLACH PUJOL XENIA": {
     "internal_id": null,
     "strategy": "no_match",
     "detail": null
@@ -1434,6 +1439,11 @@
     "strategy": "exact",
     "detail": null
   },
+  "DALAC SANCHEZ": {
+    "internal_id": null,
+    "strategy": "no_match",
+    "detail": null
+  },
   "DANI ARIZA CASABON": {
     "internal_id": 348,
     "strategy": "fuzzy",
@@ -1550,6 +1560,16 @@
     "detail": null
   },
   "DE LAS HERAS RUIZ": {
+    "internal_id": null,
+    "strategy": "no_match",
+    "detail": null
+  },
+  "DE LAS HERAS RUIZ ALANIS": {
+    "internal_id": null,
+    "strategy": "no_match",
+    "detail": null
+  },
+  "DE LAS HERAS RUIZ LIANA": {
     "internal_id": null,
     "strategy": "no_match",
     "detail": null
@@ -1984,11 +2004,6 @@
     "strategy": "exact",
     "detail": null
   },
-  "FARRE BENITO GUILLEM": {
-    "internal_id": null,
-    "strategy": "no_match",
-    "detail": null
-  },
   "FATHI YAHIA": {
     "internal_id": 1090,
     "strategy": "exact",
@@ -2224,19 +2239,9 @@
     "strategy": "no_match",
     "detail": null
   },
-  "GARBAJOSA TORRECILLA MARIAN": {
-    "internal_id": 375,
-    "strategy": "exact",
-    "detail": null
-  },
   "GARCIA JIMENEZ PAULA": {
     "internal_id": null,
     "strategy": "no_match",
-    "detail": null
-  },
-  "GARCIA LLAO ALICIA": {
-    "internal_id": 402,
-    "strategy": "exact",
     "detail": null
   },
   "GARCIA MUR DIANA": {
@@ -2419,11 +2424,6 @@
     "strategy": "no_match",
     "detail": null
   },
-  "GUILLEM FARRE BENITO": {
-    "internal_id": null,
-    "strategy": "no_match",
-    "detail": null
-  },
   "GUILLEM FERRAN": {
     "internal_id": null,
     "strategy": "no_match",
@@ -2587,6 +2587,11 @@
   "IGNACIO BERZOSA ENGEMANN": {
     "internal_id": null,
     "strategy": "no_match",
+    "detail": null
+  },
+  "IGNACIO JOSE BLANCO": {
+    "internal_id": 502,
+    "strategy": "subset",
     "detail": null
   },
   "IGNACIO JOSE BLANCO PORTA": {
@@ -2809,11 +2814,6 @@
     "strategy": "tolerant",
     "detail": null
   },
-  "JANA CL TORRES RIONE": {
-    "internal_id": null,
-    "strategy": "no_match",
-    "detail": null
-  },
   "JANA HERNANDO MIR": {
     "internal_id": 757,
     "strategy": "exact",
@@ -2919,11 +2919,6 @@
     "strategy": "no_match",
     "detail": null
   },
-  "JIMENEZ MENA MANUEL": {
-    "internal_id": 406,
-    "strategy": "exact",
-    "detail": null
-  },
   "JOAN ANDREU ROSELL CASTELLS": {
     "internal_id": 516,
     "strategy": "tolerant",
@@ -3024,11 +3019,6 @@
     "strategy": "exact",
     "detail": null
   },
-  "JONATHAN ANDREU": {
-    "internal_id": null,
-    "strategy": "no_match",
-    "detail": null
-  },
   "JONATHAN ROMERA TEJERA": {
     "internal_id": 407,
     "strategy": "fuzzy",
@@ -3052,11 +3042,6 @@
   "JORDI PUIG ARGUDO": {
     "internal_id": 585,
     "strategy": "exact",
-    "detail": null
-  },
-  "JORDINA ANTILLACH PUJOL": {
-    "internal_id": null,
-    "strategy": "no_match",
     "detail": null
   },
   "JORGE DE ANDRES SANCHEZ": {
@@ -3157,6 +3142,11 @@
   "JOSE MIGUEL DIAZ BUTRON": {
     "internal_id": 252,
     "strategy": "exact",
+    "detail": null
+  },
+  "JOSE MIGUEL MARTIN": {
+    "internal_id": 15,
+    "strategy": "subset",
     "detail": null
   },
   "JOSE MIGUEL MARTIN ALVAREZ": {
@@ -3372,6 +3362,11 @@
   "JULIA MUSTE SANTIAGO": {
     "internal_id": 1382,
     "strategy": "exact",
+    "detail": null
+  },
+  "JULIA OLLE GATELL": {
+    "internal_id": 388,
+    "strategy": "subset",
     "detail": null
   },
   "JULIA SABATER FEIJOO": {
@@ -3874,6 +3869,11 @@
     "strategy": "exact",
     "detail": null
   },
+  "MANUEL JIMENEZ MENA": {
+    "internal_id": 406,
+    "strategy": "exact",
+    "detail": null
+  },
   "MANUEL PIZARRO AREVALO": {
     "internal_id": 517,
     "strategy": "exact",
@@ -3974,6 +3974,11 @@
     "strategy": "no_match",
     "detail": null
   },
+  "MARCOS MORENO SERGIO": {
+    "internal_id": 453,
+    "strategy": "exact",
+    "detail": null
+  },
   "MARCOS PENADES RANGIL": {
     "internal_id": null,
     "strategy": "no_match",
@@ -3987,6 +3992,11 @@
   "MARIA ALVAREZ AUNOS": {
     "internal_id": 346,
     "strategy": "exact",
+    "detail": null
+  },
+  "MARIA ANGELS URBANO FLORES": {
+    "internal_id": 334,
+    "strategy": "tolerant",
     "detail": null
   },
   "MARIA ANTONIETTA SALAZAR": {
@@ -4013,6 +4023,11 @@
     "internal_id": 1419,
     "strategy": "exact",
     "detail": null
+  },
+  "MARIA DOMINGO FUSTER": {
+    "internal_id": 384,
+    "strategy": "fuzzy",
+    "detail": 0.927
   },
   "MARIA FALCO": {
     "internal_id": 664,
@@ -4044,9 +4059,9 @@
     "strategy": "exact",
     "detail": null
   },
-  "MARIA JUAN DALAC SANCHEZ": {
-    "internal_id": null,
-    "strategy": "no_match",
+  "MARIA JUAN": {
+    "internal_id": 1683,
+    "strategy": "subset",
     "detail": null
   },
   "MARIA LIAN SOLE BARBA": {
@@ -4096,6 +4111,11 @@
   },
   "MARIA VINAS PEREZ": {
     "internal_id": 1336,
+    "strategy": "exact",
+    "detail": null
+  },
+  "MARIAN GARBAJOSA TORRECILLA": {
+    "internal_id": 375,
     "strategy": "exact",
     "detail": null
   },
@@ -4414,6 +4434,11 @@
     "strategy": "exact",
     "detail": null
   },
+  "MILLA GUASCH JOSEP": {
+    "internal_id": null,
+    "strategy": "no_match",
+    "detail": null
+  },
   "MILLA GUASH ADOLF": {
     "internal_id": 434,
     "strategy": "fuzzy",
@@ -4594,6 +4619,11 @@
     "strategy": "exact",
     "detail": null
   },
+  "MUNOZ VAZQUEZ JESUS": {
+    "internal_id": 444,
+    "strategy": "exact",
+    "detail": null
+  },
   "NACHO BLANCO CALATRAVA": {
     "internal_id": null,
     "strategy": "no_match",
@@ -4737,6 +4767,11 @@
   "NOEMI GONZALEZ CARRILLO": {
     "internal_id": 1030,
     "strategy": "exact",
+    "detail": null
+  },
+  "NOLLA FERRE OLIVIA": {
+    "internal_id": null,
+    "strategy": "no_match",
     "detail": null
   },
   "NORA BARRIOLA PEREZ": {
@@ -5054,11 +5089,6 @@
     "strategy": "no_match",
     "detail": null
   },
-  "PAU ROZAS BELLIEDO": {
-    "internal_id": null,
-    "strategy": "no_match",
-    "detail": null
-  },
   "PAU SUELVES MORENO": {
     "internal_id": null,
     "strategy": "no_match",
@@ -5344,11 +5374,6 @@
     "strategy": "exact",
     "detail": null
   },
-  "RAQUEL MESTRE ROLAN": {
-    "internal_id": null,
-    "strategy": "no_match",
-    "detail": null
-  },
   "RAQUEL PLEGUEZUELOS GARCIA": {
     "internal_id": 1038,
     "strategy": "exact",
@@ -5495,11 +5520,6 @@
     "detail": null
   },
   "ROZAS BELLIDO PAU": {
-    "internal_id": null,
-    "strategy": "no_match",
-    "detail": null
-  },
-  "ROZAS BELLIEDO PAU": {
     "internal_id": null,
     "strategy": "no_match",
     "detail": null
@@ -5948,6 +5968,11 @@
     "internal_id": 756,
     "strategy": "fuzzy",
     "detail": 0.977
+  },
+  "VALDIVIA CALLAO AROA": {
+    "internal_id": null,
+    "strategy": "no_match",
+    "detail": null
   },
   "VALENTIN IZAGA LOPEZ": {
     "internal_id": 700,

@@ -1,76 +1,197 @@
 {
   "event_name": "Campionat Catalunya Juvenil",
   "event_date": "04/06/2016",
-  "event_location": "Lloret de Mar",
-  "total_results": 6,
+  "event_location": "Club                                             Lic",
+  "total_results": 17,
   "event_src": "https://old.fcatletisme.cat/Pairelliure/2016/resulcatjuvenil450616.pdf",
+  "is_short_track": false,
   "results": [
     {
       "athlete_name": "Didac Alonso Del Campo",
       "athlete_dob": "28/07/1999",
       "athlete_id": "CL24104",
       "performance": "41.79",
-      "discipline": "Javelina (700 g)",
-      "raw_discipline_name": "LLANÇAMENT DE JAVELINA JUVENIL MASCULI",
+      "discipline": "LLANÇAMENT DE JAVELINA JUVENIL MASCULI",
       "wind": null,
-      "internal_id": 468,
-      "timing": "electronic"
+      "position": 5,
+      "timing": "electronic",
+      "internal_id": 468
     },
     {
       "athlete_name": "Didac Alonso Del Campo",
       "athlete_dob": "28/07/1999",
       "athlete_id": "CL24104",
       "performance": "38.86",
-      "discipline": "Javelina (700 g)",
-      "raw_discipline_name": "LLANÇAMENT DE JAVELINA JUVENIL MASCULI",
+      "discipline": "LLANÇAMENT DE JAVELINA JUVENIL MASCULI",
       "wind": null,
-      "internal_id": 468,
-      "timing": "electronic"
+      "position": 5,
+      "timing": "electronic",
+      "internal_id": 468
     },
     {
       "athlete_name": "Didac Alonso Del Campo",
       "athlete_dob": "28/07/1999",
       "athlete_id": "CL24104",
       "performance": "37.96",
-      "discipline": "Javelina (700 g)",
-      "raw_discipline_name": "LLANÇAMENT DE JAVELINA JUVENIL MASCULI",
+      "discipline": "LLANÇAMENT DE JAVELINA JUVENIL MASCULI",
       "wind": null,
-      "internal_id": 468,
-      "timing": "electronic"
+      "position": 5,
+      "timing": "electronic",
+      "internal_id": 468
     },
     {
       "athlete_name": "Didac Alonso Del Campo",
       "athlete_dob": "28/07/1999",
       "athlete_id": "CL24104",
       "performance": "34.00",
-      "discipline": "Javelina (700 g)",
-      "raw_discipline_name": "LLANÇAMENT DE JAVELINA JUVENIL MASCULI",
+      "discipline": "LLANÇAMENT DE JAVELINA JUVENIL MASCULI",
       "wind": null,
-      "internal_id": 468,
-      "timing": "electronic"
+      "position": 5,
+      "timing": "electronic",
+      "internal_id": 468
     },
     {
       "athlete_name": "Didac Alonso Del Campo",
       "athlete_dob": "28/07/1999",
       "athlete_id": "CL24104",
       "performance": "38.73",
-      "discipline": "Javelina (700 g)",
-      "raw_discipline_name": "LLANÇAMENT DE JAVELINA JUVENIL MASCULI",
+      "discipline": "LLANÇAMENT DE JAVELINA JUVENIL MASCULI",
       "wind": null,
-      "internal_id": 468,
-      "timing": "electronic"
+      "position": 5,
+      "timing": "electronic",
+      "internal_id": 468
     },
     {
       "athlete_name": "Didac Alonso Del Campo",
       "athlete_dob": "28/07/1999",
       "athlete_id": "CL24104",
       "performance": "41.60",
-      "discipline": "Javelina (700 g)",
-      "raw_discipline_name": "LLANÇAMENT DE JAVELINA JUVENIL MASCULI",
+      "discipline": "LLANÇAMENT DE JAVELINA JUVENIL MASCULI",
       "wind": null,
-      "internal_id": 468,
-      "timing": "electronic"
+      "position": 5,
+      "timing": "electronic",
+      "internal_id": 468
+    },
+    {
+      "athlete_name": "Maria Martin Borras",
+      "athlete_dob": "31/03/1999",
+      "athlete_id": "CT23429",
+      "performance": "13.04",
+      "discipline": "10000 METRES MARXA JUVENIL MASCULI",
+      "wind": null,
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 474
+    },
+    {
+      "athlete_name": "Maria Martin Borras",
+      "athlete_dob": "31/03/1999",
+      "athlete_id": "CT23429",
+      "performance": "13.15",
+      "discipline": "10000 METRES MARXA JUVENIL MASCULI",
+      "wind": null,
+      "position": 5,
+      "timing": "electronic",
+      "internal_id": 474
+    },
+    {
+      "athlete_name": "Mireia Lopez Urbano",
+      "athlete_dob": "07/12/2000",
+      "athlete_id": "CT23556",
+      "performance": "25.75",
+      "discipline": "10000 METRES MARXA JUVENIL MASCULI",
+      "wind": null,
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 527
+    },
+    {
+      "athlete_name": "Mireia Lopez Urbano",
+      "athlete_dob": "07/12/2000",
+      "athlete_id": "CT23556",
+      "performance": "25.70",
+      "discipline": "10000 METRES MARXA JUVENIL MASCULI",
+      "wind": null,
+      "position": 2,
+      "timing": "electronic",
+      "internal_id": 527
+    },
+    {
+      "athlete_name": "Mireia Lopez Urbano",
+      "athlete_dob": "07/12/2000",
+      "athlete_id": "CT23556",
+      "performance": "14.99",
+      "discipline": "10000 METRES MARXA JUVENIL MASCULI",
+      "wind": null,
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 527
+    },
+    {
+      "athlete_name": "Mireia Lopez Urbano",
+      "athlete_dob": "07/12/2000",
+      "athlete_id": "CT23556",
+      "performance": "14.75",
+      "discipline": "10000 METRES MARXA JUVENIL MASCULI",
+      "wind": null,
+      "position": 2,
+      "timing": "electronic",
+      "internal_id": 527
+    },
+    {
+      "athlete_name": "Alicia Vazquez Domingo",
+      "athlete_dob": "09/10/1999",
+      "athlete_id": "CT23992",
+      "performance": "15.99",
+      "discipline": "10000 METRES MARXA JUVENIL MASCULI",
+      "wind": null,
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 472
+    },
+    {
+      "athlete_name": "Alicia Vazquez Domingo",
+      "athlete_dob": "09/10/1999",
+      "athlete_id": "CT23992",
+      "performance": "15.92",
+      "discipline": "10000 METRES MARXA JUVENIL MASCULI",
+      "wind": null,
+      "position": 5,
+      "timing": "electronic",
+      "internal_id": 472
+    },
+    {
+      "athlete_name": "Maria Buscail Brianso",
+      "athlete_dob": "15/12/2000",
+      "athlete_id": "CL25158",
+      "performance": "0:1:11.48",
+      "discipline": "10000 METRES MARXA JUVENIL MASCULI",
+      "wind": null,
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 520
+    },
+    {
+      "athlete_name": "Maria Buscail Brianso",
+      "athlete_dob": "15/12/2000",
+      "athlete_id": "CL25158",
+      "performance": "0:1:13.75",
+      "discipline": "10000 METRES MARXA JUVENIL MASCULI",
+      "wind": null,
+      "position": 7,
+      "timing": "electronic",
+      "internal_id": 520
+    },
+    {
+      "athlete_name": "Nerea Lago Garbajosa",
+      "athlete_dob": "15/05/2000",
+      "athlete_id": "CL25157",
+      "performance": "0:1:14.45",
+      "discipline": "10000 METRES MARXA JUVENIL MASCULI",
+      "wind": null,
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 534
     }
-  ],
-  "is_short_track": false
+  ]
 }

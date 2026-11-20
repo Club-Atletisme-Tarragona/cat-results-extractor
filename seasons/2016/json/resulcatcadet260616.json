@@ -2,119 +2,130 @@
   "event_name": "CAMPIONAT DE CATALUNYA CADET (Jornada Final)",
   "event_date": "26/06/2016",
   "event_location": "El Prat de Llobregat",
-  "total_results": 10,
+  "total_results": 11,
   "event_src": "https://old.fcatletisme.cat/Promocio/2016/resulcatcadet260616.pdf",
+  "is_short_track": false,
   "results": [
     {
       "athlete_name": "Sira Bo Calaf",
       "athlete_dob": "19/03/2001",
       "athlete_id": "CL71689",
       "performance": "5:55.31",
-      "discipline": "5000 metres marxa",
-      "raw_discipline_name": "5000 METRES MARXA CADET MASCULI",
+      "discipline": "5000 METRES MARXA CADET MASCULI",
       "wind": null,
-      "internal_id": 599,
-      "timing": "electronic"
+      "position": 10,
+      "timing": "electronic",
+      "internal_id": 599
     },
     {
       "athlete_name": "Marta Ros Borrell",
       "athlete_dob": "25/03/2002",
       "athlete_id": "CL71741",
       "performance": "6:03.74",
-      "discipline": "5000 metres marxa",
-      "raw_discipline_name": "5000 METRES MARXA CADET MASCULI",
+      "discipline": "5000 METRES MARXA CADET MASCULI",
       "wind": null,
-      "internal_id": 1675,
-      "timing": "electronic"
+      "position": 11,
+      "timing": "electronic",
+      "internal_id": 1675
+    },
+    {
+      "athlete_name": "Berta Sanchez Ruiz",
+      "athlete_dob": "05/08/2002",
+      "athlete_id": "CL71750",
+      "performance": "2.40",
+      "discipline": "SALT AMB PERXA CADET FEMENI",
+      "wind": null,
+      "position": 12,
+      "timing": "electronic",
+      "internal_id": 643
     },
     {
       "athlete_name": "Montserrat Montañes Arbo",
       "athlete_dob": "22/02/2001",
       "athlete_id": "CT24566",
       "performance": "12.01",
-      "discipline": "Pes (3 Kg)",
-      "raw_discipline_name": "LLANÇAMENT DE PES CADET FEMENI",
+      "discipline": "LLANÇAMENT DE PES CADET FEMENI",
       "wind": null,
-      "internal_id": 497,
-      "timing": "electronic"
+      "position": 1,
+      "timing": "electronic",
+      "internal_id": 497
     },
     {
       "athlete_name": "Montserrat Montañes Arbo",
       "athlete_dob": "22/02/2001",
       "athlete_id": "CT24566",
       "performance": "11.78",
-      "discipline": "Pes (3 Kg)",
-      "raw_discipline_name": "LLANÇAMENT DE PES CADET FEMENI",
+      "discipline": "LLANÇAMENT DE PES CADET FEMENI",
       "wind": null,
-      "internal_id": 497,
-      "timing": "electronic"
+      "position": 1,
+      "timing": "electronic",
+      "internal_id": 497
     },
     {
       "athlete_name": "Montserrat Montañes Arbo",
       "athlete_dob": "22/02/2001",
       "athlete_id": "CT24566",
       "performance": "11.49",
-      "discipline": "Pes (3 Kg)",
-      "raw_discipline_name": "LLANÇAMENT DE PES CADET FEMENI",
+      "discipline": "LLANÇAMENT DE PES CADET FEMENI",
       "wind": null,
-      "internal_id": 497,
-      "timing": "electronic"
+      "position": 1,
+      "timing": "electronic",
+      "internal_id": 497
     },
     {
       "athlete_name": "Montserrat Montañes Arbo",
       "athlete_dob": "22/02/2001",
       "athlete_id": "CT24566",
       "performance": "11.55",
-      "discipline": "Pes (3 Kg)",
-      "raw_discipline_name": "LLANÇAMENT DE PES CADET FEMENI",
+      "discipline": "LLANÇAMENT DE PES CADET FEMENI",
       "wind": null,
-      "internal_id": 497,
-      "timing": "electronic"
+      "position": 1,
+      "timing": "electronic",
+      "internal_id": 497
     },
     {
       "athlete_name": "Montserrat Montañes Arbo",
       "athlete_dob": "22/02/2001",
       "athlete_id": "CT24566",
       "performance": "12.14",
-      "discipline": "Pes (3 Kg)",
-      "raw_discipline_name": "LLANÇAMENT DE PES CADET FEMENI",
+      "discipline": "LLANÇAMENT DE PES CADET FEMENI",
       "wind": null,
-      "internal_id": 497,
-      "timing": "electronic"
+      "position": 1,
+      "timing": "electronic",
+      "internal_id": 497
     },
     {
       "athlete_name": "Montserrat Montañes Arbo",
       "athlete_dob": "22/02/2001",
       "athlete_id": "CT24566",
       "performance": "10.51",
-      "discipline": "Pes (3 Kg)",
-      "raw_discipline_name": "LLANÇAMENT DE PES CADET FEMENI",
+      "discipline": "LLANÇAMENT DE PES CADET FEMENI",
       "wind": null,
-      "internal_id": 497,
-      "timing": "electronic"
+      "position": 1,
+      "timing": "electronic",
+      "internal_id": 497
     },
     {
       "athlete_name": "Montserrat Montañes Arbo",
       "athlete_dob": "22/02/2001",
       "athlete_id": "CT24566",
       "performance": "45.73",
-      "discipline": "Martell (3 Kg)",
-      "raw_discipline_name": "LLANÇAMENT DE MARTELL CADET FEMENI",
+      "discipline": "LLANÇAMENT DE MARTELL CADET FEMENI",
       "wind": null,
-      "internal_id": 497,
-      "timing": "electronic"
+      "position": 2,
+      "timing": "electronic",
+      "internal_id": 497
     },
     {
       "athlete_name": "Montserrat Montañes Arbo",
       "athlete_dob": "22/02/2001",
       "athlete_id": "CT24566",
       "performance": "45.84",
-      "discipline": "Martell (3 Kg)",
-      "raw_discipline_name": "LLANÇAMENT DE MARTELL CADET FEMENI",
+      "discipline": "LLANÇAMENT DE MARTELL CADET FEMENI",
       "wind": null,
-      "internal_id": 497,
-      "timing": "electronic"
+      "position": 2,
+      "timing": "electronic",
+      "internal_id": 497
     }
-  ],
-  "is_short_track": false
+  ]
 }

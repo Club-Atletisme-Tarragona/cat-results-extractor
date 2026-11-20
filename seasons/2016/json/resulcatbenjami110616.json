@@ -2,75 +2,86 @@
   "event_name": "CAMPIONAT DE CATALUNYA BENJAMÍ (Jornada final)",
   "event_date": "11/06/2016",
   "event_location": "Castellar del Vallès",
-  "total_results": 6,
+  "total_results": 7,
   "event_src": "https://old.fcatletisme.cat/Promocio/2016/resulcatbenjami110616.pdf",
+  "is_short_track": false,
   "results": [
     {
       "athlete_name": "Joan Sinfreu Niubo",
       "athlete_dob": "25/03/2007",
       "athlete_id": "CL77329",
       "performance": "1.22",
-      "discipline": "Alçada",
-      "raw_discipline_name": "ALÇADA BENJAMI MASCULI",
+      "discipline": "ALÇADA BENJAMI MASCULI",
       "wind": null,
-      "internal_id": null,
-      "timing": "electronic"
+      "position": 1,
+      "timing": "electronic",
+      "internal_id": null
     },
     {
       "athlete_name": "Unai Ortiz De Landazuri Ontoso",
       "athlete_dob": "28/06/2007",
       "athlete_id": "CL77328",
       "performance": "1.19",
-      "discipline": "Alçada",
-      "raw_discipline_name": "ALÇADA BENJAMI MASCULI",
+      "discipline": "ALÇADA BENJAMI MASCULI",
       "wind": null,
-      "internal_id": 908,
-      "timing": "electronic"
+      "position": 3,
+      "timing": "electronic",
+      "internal_id": 908
     },
     {
       "athlete_name": "Silvia Vicente Navarrete",
       "athlete_dob": "31/07/2007",
       "athlete_id": "CL77332",
-      "performance": "12:40.00",
-      "discipline": "1000 metres marxa",
-      "raw_discipline_name": "1000 METRES MARXA BENJAMI MASCULI",
+      "performance": "9.70",
+      "discipline": "1000 METRES MARXA BENJAMI MASCULI",
       "wind": null,
-      "internal_id": 905,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 905
+    },
+    {
+      "athlete_name": "Silvia Vicente Navarrete",
+      "athlete_dob": "31/07/2007",
+      "athlete_id": "CL77332",
+      "performance": "9.59",
+      "discipline": "1000 METRES MARXA BENJAMI MASCULI",
+      "wind": null,
+      "position": 4,
+      "timing": "electronic",
+      "internal_id": 905
     },
     {
       "athlete_name": "Silvia Vicente Navarrete",
       "athlete_dob": "31/07/2007",
       "athlete_id": "CL77332",
       "performance": "3.17",
-      "discipline": "Llargada",
-      "raw_discipline_name": "LLARGADA BENJAMI FEMENI",
+      "discipline": "LLARGADA BENJAMI FEMENI",
       "wind": null,
-      "internal_id": 905,
-      "timing": "electronic"
+      "position": 11,
+      "timing": "electronic",
+      "internal_id": 905
     },
     {
       "athlete_name": "Silvia Vicente Navarrete",
       "athlete_dob": "31/07/2007",
       "athlete_id": "CL77332",
       "performance": "3.18",
-      "discipline": "Llargada",
-      "raw_discipline_name": "LLARGADA BENJAMI FEMENI",
+      "discipline": "LLARGADA BENJAMI FEMENI",
       "wind": null,
-      "internal_id": 905,
-      "timing": "electronic"
+      "position": 11,
+      "timing": "electronic",
+      "internal_id": 905
     },
     {
       "athlete_name": "Luana Izaga Deriu",
       "athlete_dob": "13/02/2007",
       "athlete_id": "CL77321",
       "performance": "6:42.96",
-      "discipline": "1000 metres marxa",
-      "raw_discipline_name": "1000 METRES MARXA BENJAMI FEMENI",
+      "discipline": "1000 METRES MARXA BENJAMI FEMENI",
       "wind": null,
-      "internal_id": 928,
-      "timing": "electronic"
+      "position": 14,
+      "timing": "electronic",
+      "internal_id": 928
     }
-  ],
-  "is_short_track": false
+  ]
 }

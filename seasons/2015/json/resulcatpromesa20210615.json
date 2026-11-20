@@ -1,230 +1,274 @@
 {
   "event_name": "Campionat de Catalunya Promesa",
-  "event_date": "21/06/2015",
-  "event_location": "Lloret de Mar",
-  "total_results": 20,
+  "event_date": "20/06/2015",
+  "event_location": "Club                                             Lic",
+  "total_results": 24,
   "event_src": "http://old.fcatletisme.cat/Pairelliure/2015/resulcatpromesa20210615.pdf",
+  "is_short_track": false,
   "results": [
+    {
+      "athlete_name": "Marta Font Palomar",
+      "athlete_dob": "21/12/1993",
+      "athlete_id": "CL18125",
+      "performance": "28.59",
+      "discipline": "10.000 METRES MARXA PROMESA MASCULÍ",
+      "wind": null,
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 285
+    },
+    {
+      "athlete_name": "Marta Font Palomar",
+      "athlete_dob": "21/12/1993",
+      "athlete_id": "CL18125",
+      "performance": "28.75",
+      "discipline": "10.000 METRES MARXA PROMESA MASCULÍ",
+      "wind": null,
+      "position": 8,
+      "timing": "electronic",
+      "internal_id": 285
+    },
     {
       "athlete_name": "Marina Tibau Sendra",
       "athlete_dob": "06/08/1995",
       "athlete_id": "CT20392",
       "performance": "10.32",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "LLANÇAMENT DE PES PROMESA FEMENI (4kg)",
+      "discipline": "LLANÇAMENT DE PES PROMESA FEMENI (4 Kg)",
       "wind": null,
-      "internal_id": 359,
-      "timing": "electronic"
+      "position": 1,
+      "timing": "electronic",
+      "internal_id": 359
     },
     {
       "athlete_name": "Marina Tibau Sendra",
       "athlete_dob": "06/08/1995",
       "athlete_id": "CT20392",
       "performance": "9.49",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "LLANÇAMENT DE PES PROMESA FEMENI (4kg)",
+      "discipline": "LLANÇAMENT DE PES PROMESA FEMENI (4 Kg)",
       "wind": null,
-      "internal_id": 359,
-      "timing": "electronic"
+      "position": 1,
+      "timing": "electronic",
+      "internal_id": 359
     },
     {
       "athlete_name": "Marina Tibau Sendra",
       "athlete_dob": "06/08/1995",
       "athlete_id": "CT20392",
       "performance": "10.07",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "LLANÇAMENT DE PES PROMESA FEMENI (4kg)",
+      "discipline": "LLANÇAMENT DE PES PROMESA FEMENI (4 Kg)",
       "wind": null,
-      "internal_id": 359,
-      "timing": "electronic"
+      "position": 1,
+      "timing": "electronic",
+      "internal_id": 359
     },
     {
       "athlete_name": "Marina Tibau Sendra",
       "athlete_dob": "06/08/1995",
       "athlete_id": "CT20392",
       "performance": "11.27",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "LLANÇAMENT DE PES PROMESA FEMENI (4kg)",
+      "discipline": "LLANÇAMENT DE PES PROMESA FEMENI (4 Kg)",
       "wind": null,
-      "internal_id": 359,
-      "timing": "electronic"
+      "position": 1,
+      "timing": "electronic",
+      "internal_id": 359
     },
     {
       "athlete_name": "Blanca Tortajada Pinto",
       "athlete_dob": "21/04/1993",
       "athlete_id": "CL18127",
       "performance": "7.70",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "LLANÇAMENT DE PES PROMESA FEMENI (4kg)",
+      "discipline": "LLANÇAMENT DE PES PROMESA FEMENI (4 Kg)",
       "wind": null,
-      "internal_id": 310,
-      "timing": "electronic"
+      "position": 5,
+      "timing": "electronic",
+      "internal_id": 310
     },
     {
       "athlete_name": "Blanca Tortajada Pinto",
       "athlete_dob": "21/04/1993",
       "athlete_id": "CL18127",
       "performance": "7.35",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "LLANÇAMENT DE PES PROMESA FEMENI (4kg)",
+      "discipline": "LLANÇAMENT DE PES PROMESA FEMENI (4 Kg)",
       "wind": null,
-      "internal_id": 310,
-      "timing": "electronic"
+      "position": 5,
+      "timing": "electronic",
+      "internal_id": 310
     },
     {
       "athlete_name": "Blanca Tortajada Pinto",
       "athlete_dob": "21/04/1993",
       "athlete_id": "CL18127",
       "performance": "7.16",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "LLANÇAMENT DE PES PROMESA FEMENI (4kg)",
+      "discipline": "LLANÇAMENT DE PES PROMESA FEMENI (4 Kg)",
       "wind": null,
-      "internal_id": 310,
-      "timing": "electronic"
+      "position": 5,
+      "timing": "electronic",
+      "internal_id": 310
     },
     {
       "athlete_name": "Blanca Tortajada Pinto",
       "athlete_dob": "21/04/1993",
       "athlete_id": "CL18127",
       "performance": "8.12",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "LLANÇAMENT DE PES PROMESA FEMENI (4kg)",
+      "discipline": "LLANÇAMENT DE PES PROMESA FEMENI (4 Kg)",
       "wind": null,
-      "internal_id": 310,
-      "timing": "electronic"
+      "position": 5,
+      "timing": "electronic",
+      "internal_id": 310
     },
     {
       "athlete_name": "Marina Tibau Sendra",
       "athlete_dob": "06/08/1995",
       "athlete_id": "CT20392",
       "performance": "20.18",
-      "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "LLANÇAMENT DE DISC PROMESA FEMENI (1kg)",
+      "discipline": "LLANÇAMENT DE DISC PROMESA FEMENI (1 Kg)",
       "wind": null,
-      "internal_id": 359,
-      "timing": "electronic"
+      "position": 5,
+      "timing": "electronic",
+      "internal_id": 359
     },
     {
       "athlete_name": "Marina Tibau Sendra",
       "athlete_dob": "06/08/1995",
       "athlete_id": "CT20392",
       "performance": "20.87",
-      "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "LLANÇAMENT DE DISC PROMESA FEMENI (1kg)",
+      "discipline": "LLANÇAMENT DE DISC PROMESA FEMENI (1 Kg)",
       "wind": null,
-      "internal_id": 359,
-      "timing": "electronic"
+      "position": 5,
+      "timing": "electronic",
+      "internal_id": 359
     },
     {
       "athlete_name": "Marina Tibau Sendra",
       "athlete_dob": "06/08/1995",
       "athlete_id": "CT20392",
       "performance": "24.76",
-      "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "LLANÇAMENT DE DISC PROMESA FEMENI (1kg)",
+      "discipline": "LLANÇAMENT DE DISC PROMESA FEMENI (1 Kg)",
       "wind": null,
-      "internal_id": 359,
-      "timing": "electronic"
+      "position": 5,
+      "timing": "electronic",
+      "internal_id": 359
     },
     {
       "athlete_name": "Marina Tibau Sendra",
       "athlete_dob": "06/08/1995",
       "athlete_id": "CT20392",
       "performance": "23.80",
-      "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "LLANÇAMENT DE DISC PROMESA FEMENI (1kg)",
+      "discipline": "LLANÇAMENT DE DISC PROMESA FEMENI (1 Kg)",
       "wind": null,
-      "internal_id": 359,
-      "timing": "electronic"
+      "position": 5,
+      "timing": "electronic",
+      "internal_id": 359
     },
     {
       "athlete_name": "Marina Tibau Sendra",
       "athlete_dob": "06/08/1995",
       "athlete_id": "CT20392",
       "performance": "17.14",
-      "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "LLANÇAMENT DE DISC PROMESA FEMENI (1kg)",
+      "discipline": "LLANÇAMENT DE DISC PROMESA FEMENI (1 Kg)",
       "wind": null,
-      "internal_id": 359,
-      "timing": "electronic"
+      "position": 5,
+      "timing": "electronic",
+      "internal_id": 359
     },
     {
       "athlete_name": "Marina Tibau Sendra",
       "athlete_dob": "06/08/1995",
       "athlete_id": "CT20392",
       "performance": "24.03",
-      "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "LLANÇAMENT DE DISC PROMESA FEMENI (1kg)",
+      "discipline": "LLANÇAMENT DE DISC PROMESA FEMENI (1 Kg)",
       "wind": null,
-      "internal_id": 359,
-      "timing": "electronic"
+      "position": 5,
+      "timing": "electronic",
+      "internal_id": 359
     },
     {
       "athlete_name": "Blanca Tortajada Pinto",
       "athlete_dob": "21/04/1993",
       "athlete_id": "CL18127",
       "performance": "30.08",
-      "discipline": "Martell (4 Kg)",
-      "raw_discipline_name": "LLANÇAMENT DE MARTELL PROMESA FEMENI (4kg)",
+      "discipline": "LLANÇAMENT DE MARTELL PROMESA FEMENI (4 Kg)",
       "wind": null,
-      "internal_id": 310,
-      "timing": "electronic"
+      "position": 4,
+      "timing": "electronic",
+      "internal_id": 310
     },
     {
       "athlete_name": "Blanca Tortajada Pinto",
       "athlete_dob": "21/04/1993",
       "athlete_id": "CL18127",
       "performance": "31.48",
-      "discipline": "Martell (4 Kg)",
-      "raw_discipline_name": "LLANÇAMENT DE MARTELL PROMESA FEMENI (4kg)",
+      "discipline": "LLANÇAMENT DE MARTELL PROMESA FEMENI (4 Kg)",
       "wind": null,
-      "internal_id": 310,
-      "timing": "electronic"
+      "position": 4,
+      "timing": "electronic",
+      "internal_id": 310
     },
     {
       "athlete_name": "Marina Tibau Sendra",
       "athlete_dob": "06/08/1995",
       "athlete_id": "CT20392",
       "performance": "25.04",
-      "discipline": "Javelina (600 g)",
-      "raw_discipline_name": "LLANÇAMENT DE JAVELINA PROMESA FEMENI (600g)",
+      "discipline": "LLANÇAMENT DE JAVELINA PROMESA FEMENI (600g)",
       "wind": null,
-      "internal_id": 359,
-      "timing": "electronic"
+      "position": 2,
+      "timing": "electronic",
+      "internal_id": 359
     },
     {
       "athlete_name": "Marina Tibau Sendra",
       "athlete_dob": "06/08/1995",
       "athlete_id": "CT20392",
       "performance": "24.13",
-      "discipline": "Javelina (600 g)",
-      "raw_discipline_name": "LLANÇAMENT DE JAVELINA PROMESA FEMENI (600g)",
+      "discipline": "LLANÇAMENT DE JAVELINA PROMESA FEMENI (600g)",
       "wind": null,
-      "internal_id": 359,
-      "timing": "electronic"
+      "position": 2,
+      "timing": "electronic",
+      "internal_id": 359
     },
     {
       "athlete_name": "Marina Tibau Sendra",
       "athlete_dob": "06/08/1995",
       "athlete_id": "CT20392",
       "performance": "27.30",
-      "discipline": "Javelina (600 g)",
-      "raw_discipline_name": "LLANÇAMENT DE JAVELINA PROMESA FEMENI (600g)",
+      "discipline": "LLANÇAMENT DE JAVELINA PROMESA FEMENI (600g)",
       "wind": null,
-      "internal_id": 359,
-      "timing": "electronic"
+      "position": 2,
+      "timing": "electronic",
+      "internal_id": 359
     },
     {
       "athlete_name": "Marina Tibau Sendra",
       "athlete_dob": "06/08/1995",
       "athlete_id": "CT20392",
       "performance": "25.79",
-      "discipline": "Javelina (600 g)",
-      "raw_discipline_name": "LLANÇAMENT DE JAVELINA PROMESA FEMENI (600g)",
+      "discipline": "LLANÇAMENT DE JAVELINA PROMESA FEMENI (600g)",
       "wind": null,
-      "internal_id": 359,
-      "timing": "electronic"
+      "position": 2,
+      "timing": "electronic",
+      "internal_id": 359
+    },
+    {
+      "athlete_name": "Mohamed Maman",
+      "athlete_dob": "20/12/1994",
+      "athlete_id": "CT24268",
+      "performance": "49.58",
+      "discipline": "10000 METRES MARXA PROMESA FEMENI",
+      "wind": null,
+      "position": 4,
+      "timing": "electronic",
+      "internal_id": 496
+    },
+    {
+      "athlete_name": "Marta Font Palomar",
+      "athlete_dob": "21/12/1993",
+      "athlete_id": "CL18125",
+      "performance": "0:1:04.99",
+      "discipline": "10000 METRES MARXA PROMESA FEMENI",
+      "wind": null,
+      "position": 6,
+      "timing": "electronic",
+      "internal_id": 285
     }
-  ],
-  "is_short_track": false
+  ]
 }

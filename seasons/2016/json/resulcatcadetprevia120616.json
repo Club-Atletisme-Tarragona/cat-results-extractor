@@ -2,262 +2,284 @@
   "event_name": "CAMPIONAT DE CATALUNYA CADET (Jornada prèvia)",
   "event_date": "12/06/2016",
   "event_location": "Gavà",
-  "total_results": 23,
+  "total_results": 25,
   "event_src": "https://old.fcatletisme.cat/Promocio/2016/resulcatcadetprevia120616.pdf",
+  "is_short_track": false,
   "results": [
     {
       "athlete_name": "Berta Pardines Vilalta",
       "athlete_dob": "04/10/2002",
       "athlete_id": "CL71731",
       "performance": "1:57.34",
-      "discipline": "5000 metres marxa",
-      "raw_discipline_name": "5000 METRES MARXA CADET MASCULI",
+      "discipline": "5000 METRES MARXA CADET MASCULI",
       "wind": null,
-      "internal_id": 650,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 650
     },
     {
       "athlete_name": "Sira Bo Calaf",
       "athlete_dob": "19/03/2001",
       "athlete_id": "CL71689",
       "performance": "5:53.67",
-      "discipline": "5000 metres marxa",
-      "raw_discipline_name": "5000 METRES MARXA CADET MASCULI",
+      "discipline": "5000 METRES MARXA CADET MASCULI",
       "wind": null,
-      "internal_id": 599,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 599
     },
     {
       "athlete_name": "Marta Ros Borrell",
       "athlete_dob": "25/03/2002",
       "athlete_id": "CL71741",
       "performance": "6:00.28",
-      "discipline": "5000 metres marxa",
-      "raw_discipline_name": "5000 METRES MARXA CADET MASCULI",
+      "discipline": "5000 METRES MARXA CADET MASCULI",
       "wind": null,
-      "internal_id": 1675,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 1675
+    },
+    {
+      "athlete_name": "Mar Vazquez Domingo",
+      "athlete_dob": "17/03/2002",
+      "athlete_id": "CL71756",
+      "performance": "17.80",
+      "discipline": "5000 METRES MARXA CADET MASCULI",
+      "wind": null,
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 642
     },
     {
       "athlete_name": "Laura Mascarell Julian",
       "athlete_dob": "14/06/2002",
       "athlete_id": "CL71719",
-      "performance": "12:13.00",
-      "discipline": "5000 metres marxa",
-      "raw_discipline_name": "5000 METRES MARXA CADET MASCULI",
+      "performance": "55.33",
+      "discipline": "5000 METRES MARXA CADET MASCULI",
       "wind": null,
-      "internal_id": 646,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 646
+    },
+    {
+      "athlete_name": "Ines Delgado Pizzo",
+      "athlete_dob": "19/05/2002",
+      "athlete_id": "CL71700",
+      "performance": "1.36",
+      "discipline": "ALÇADA CADET FEMENI",
+      "wind": null,
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 667
     },
     {
       "athlete_name": "Berta Sanchez Ruiz",
       "athlete_dob": "05/08/2002",
       "athlete_id": "CL71750",
       "performance": "2.55",
-      "discipline": "Perxa",
-      "raw_discipline_name": "PERXA CADET FEMENI",
+      "discipline": "PERXA CADET FEMENI",
       "wind": null,
-      "internal_id": 643,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 643
     },
     {
       "athlete_name": "Mar Vazquez Domingo",
       "athlete_dob": "17/03/2002",
       "athlete_id": "CL71756",
       "performance": "4.71",
-      "discipline": "Llargada",
-      "raw_discipline_name": "LLARGADA CADET FEMENI",
+      "discipline": "LLARGADA CADET FEMENI",
       "wind": "+3.0",
-      "internal_id": 642,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 642
     },
     {
       "athlete_name": "Mar Vazquez Domingo",
       "athlete_dob": "17/03/2002",
       "athlete_id": "CL71756",
       "performance": "4.62",
-      "discipline": "Llargada",
-      "raw_discipline_name": "LLARGADA CADET FEMENI",
+      "discipline": "LLARGADA CADET FEMENI",
       "wind": "+1.4",
-      "internal_id": 642,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 642
     },
     {
       "athlete_name": "Paula Rovira Morcillo",
       "athlete_dob": "26/09/2001",
       "athlete_id": "CL69344",
       "performance": "4.62",
-      "discipline": "Llargada",
-      "raw_discipline_name": "LLARGADA CADET FEMENI",
+      "discipline": "LLARGADA CADET FEMENI",
       "wind": "+0.3",
-      "internal_id": 598,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 598
     },
     {
       "athlete_name": "Paula Rovira Morcillo",
       "athlete_dob": "26/09/2001",
       "athlete_id": "CL69344",
       "performance": "4.63",
-      "discipline": "Llargada",
-      "raw_discipline_name": "LLARGADA CADET FEMENI",
+      "discipline": "LLARGADA CADET FEMENI",
       "wind": "+2.1",
-      "internal_id": 598,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 598
     },
     {
       "athlete_name": "Paula Rovira Morcillo",
       "athlete_dob": "26/09/2001",
       "athlete_id": "CL69344",
       "performance": "4.66",
-      "discipline": "Llargada",
-      "raw_discipline_name": "LLARGADA CADET FEMENI",
+      "discipline": "LLARGADA CADET FEMENI",
       "wind": "+3.5",
-      "internal_id": 598,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 598
     },
     {
       "athlete_name": "Montserrat Montañes Arbo",
       "athlete_dob": "22/02/2001",
       "athlete_id": "CT24566",
       "performance": "11.53",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "PES CADET FEMENI",
+      "discipline": "PES CADET FEMENI",
       "wind": null,
-      "internal_id": 497,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 497
     },
     {
       "athlete_name": "Montserrat Montañes Arbo",
       "athlete_dob": "22/02/2001",
       "athlete_id": "CT24566",
       "performance": "11.74",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "PES CADET FEMENI",
+      "discipline": "PES CADET FEMENI",
       "wind": null,
-      "internal_id": 497,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 497
     },
     {
       "athlete_name": "Montserrat Montañes Arbo",
       "athlete_dob": "22/02/2001",
       "athlete_id": "CT24566",
       "performance": "10.37",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "PES CADET FEMENI",
+      "discipline": "PES CADET FEMENI",
       "wind": null,
-      "internal_id": 497,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 497
     },
     {
       "athlete_name": "Montserrat Montañes Arbo",
       "athlete_dob": "22/02/2001",
       "athlete_id": "CT24566",
       "performance": "11.37",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "PES CADET FEMENI",
+      "discipline": "PES CADET FEMENI",
       "wind": null,
-      "internal_id": 497,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 497
     },
     {
       "athlete_name": "Montserrat Montañes Arbo",
       "athlete_dob": "22/02/2001",
       "athlete_id": "CT24566",
       "performance": "10.97",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "PES CADET FEMENI",
+      "discipline": "PES CADET FEMENI",
       "wind": null,
-      "internal_id": 497,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 497
     },
     {
       "athlete_name": "Montserrat Montañes Arbo",
       "athlete_dob": "22/02/2001",
       "athlete_id": "CT24566",
       "performance": "11.98",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "PES CADET FEMENI",
+      "discipline": "PES CADET FEMENI",
       "wind": null,
-      "internal_id": 497,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 497
     },
     {
       "athlete_name": "Montserrat Montañes Arbo",
       "athlete_dob": "22/02/2001",
       "athlete_id": "CT24566",
       "performance": "47.45",
-      "discipline": "Martell (4 Kg)",
-      "raw_discipline_name": "MARTELL CADET FEMENI",
+      "discipline": "MARTELL CADET FEMENI",
       "wind": null,
-      "internal_id": 497,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 497
     },
     {
       "athlete_name": "Montserrat Montañes Arbo",
       "athlete_dob": "22/02/2001",
       "athlete_id": "CT24566",
       "performance": "47.50",
-      "discipline": "Martell (4 Kg)",
-      "raw_discipline_name": "MARTELL CADET FEMENI",
+      "discipline": "MARTELL CADET FEMENI",
       "wind": null,
-      "internal_id": 497,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 497
     },
     {
       "athlete_name": "Montserrat Montañes Arbo",
       "athlete_dob": "22/02/2001",
       "athlete_id": "CT24566",
       "performance": "41.42",
-      "discipline": "Martell (4 Kg)",
-      "raw_discipline_name": "MARTELL CADET FEMENI",
+      "discipline": "MARTELL CADET FEMENI",
       "wind": null,
-      "internal_id": 497,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 497
     },
     {
       "athlete_name": "Montserrat Montañes Arbo",
       "athlete_dob": "22/02/2001",
       "athlete_id": "CT24566",
       "performance": "45.33",
-      "discipline": "Martell (4 Kg)",
-      "raw_discipline_name": "MARTELL CADET FEMENI",
+      "discipline": "MARTELL CADET FEMENI",
       "wind": null,
-      "internal_id": 497,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 497
     },
     {
       "athlete_name": "Marina Pelicano Sanchis",
       "athlete_dob": "04/05/2002",
       "athlete_id": "CL78444",
       "performance": "24.06",
-      "discipline": "Martell (4 Kg)",
-      "raw_discipline_name": "MARTELL CADET FEMENI",
+      "discipline": "MARTELL CADET FEMENI",
       "wind": null,
-      "internal_id": 641,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 641
     },
     {
       "athlete_name": "Marina Pelicano Sanchis",
       "athlete_dob": "04/05/2002",
       "athlete_id": "CL78444",
       "performance": "21.35",
-      "discipline": "Martell (4 Kg)",
-      "raw_discipline_name": "MARTELL CADET FEMENI",
+      "discipline": "MARTELL CADET FEMENI",
       "wind": null,
-      "internal_id": 641,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 641
     },
     {
       "athlete_name": "Ines Delgado Pizzo",
       "athlete_dob": "19/05/2002",
       "athlete_id": "CL71700",
       "performance": "10.96",
-      "discipline": "Javelina (600 g)",
-      "raw_discipline_name": "JAVELINA CADET FEMENI",
+      "discipline": "JAVELINA CADET FEMENI",
       "wind": null,
-      "internal_id": 667,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 667
     }
-  ],
-  "is_short_track": false
+  ]
 }

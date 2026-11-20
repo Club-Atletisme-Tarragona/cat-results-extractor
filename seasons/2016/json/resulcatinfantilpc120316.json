@@ -1,76 +1,76 @@
 {
   "event_name": "Jornada Final - Sabadell (Pista Coberta de Catalunya), 12 marzo 2016",
   "event_date": "12/03/2016",
-  "event_location": "Sabadell",
+  "event_location": "Club                                             Lic",
   "total_results": 6,
   "event_src": "https://old.fcatletisme.cat/Pcoberta/2016/resulcatinfantilpc120316.pdf",
+  "is_short_track": true,
   "results": [
     {
       "athlete_name": "Laurineelisa Marimon Fernandez",
       "athlete_dob": "17/09/2004",
       "athlete_id": "CL69330",
       "performance": "4.26",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada FEM. PC",
+      "discipline": "Llargada FEM. PC",
       "wind": null,
-      "internal_id": 737,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 737
     },
     {
       "athlete_name": "Laurineelisa Marimon Fernandez",
       "athlete_dob": "17/09/2004",
       "athlete_id": "CL69330",
       "performance": "4.42",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada FEM. PC",
+      "discipline": "Llargada FEM. PC",
       "wind": null,
-      "internal_id": 737,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 737
     },
     {
       "athlete_name": "Laurineelisa Marimon Fernandez",
       "athlete_dob": "17/09/2004",
       "athlete_id": "CL69330",
       "performance": "4.47",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada FEM. PC",
+      "discipline": "Llargada FEM. PC",
       "wind": null,
-      "internal_id": 737,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 737
     },
     {
       "athlete_name": "Laurineelisa Marimon Fernandez",
       "athlete_dob": "17/09/2004",
       "athlete_id": "CL69330",
       "performance": "4.33",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada FEM. PC",
+      "discipline": "Llargada FEM. PC",
       "wind": null,
-      "internal_id": 737,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 737
     },
     {
       "athlete_name": "Laurineelisa Marimon Fernandez",
       "athlete_dob": "17/09/2004",
       "athlete_id": "CL69330",
       "performance": "4.09",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada FEM. PC",
+      "discipline": "Llargada FEM. PC",
       "wind": null,
-      "internal_id": 737,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 737
     },
     {
       "athlete_name": "Laurineelisa Marimon Fernandez",
       "athlete_dob": "17/09/2004",
       "athlete_id": "CL69330",
       "performance": "4.23",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada FEM. PC",
+      "discipline": "Llargada FEM. PC",
       "wind": null,
-      "internal_id": 737,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 737
     }
-  ],
-  "is_short_track": true
+  ]
 }

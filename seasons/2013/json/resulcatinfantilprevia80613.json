@@ -1,109 +1,109 @@
 {
   "event_name": "",
   "event_date": "08/06/2013",
-  "event_location": "Castellar",
+  "event_location": "Castellar del Vallés",
   "total_results": 9,
   "event_src": "http://old.fcatletisme.cat/Promocio/promocio2013/resulcatinfantilprevia80613.pdf",
+  "is_short_track": false,
   "results": [
     {
       "athlete_name": "Gerard Parera bodi",
       "athlete_dob": "22/01/2000",
       "athlete_id": "CL62287",
       "performance": "3:32.43",
-      "discipline": "1000 metres obstacles",
-      "raw_discipline_name": "1000 METRES OBSTACLES MASCULINS",
+      "discipline": "1000 METRES OBSTACLES MASCULINS",
       "wind": null,
-      "internal_id": 522,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 522
     },
     {
       "athlete_name": "Gerard Parera bodi",
       "athlete_dob": "22/01/2000",
       "athlete_id": "CL62287",
       "performance": "17.99",
-      "discipline": "Disc (2 Kg)",
-      "raw_discipline_name": "LLANÇAMENT DE DISC MASCULÍ",
+      "discipline": "LLANÇAMENT DE DISC MASCULÍ",
       "wind": null,
-      "internal_id": 522,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 522
     },
     {
       "athlete_name": "Gerard Parera bodi",
       "athlete_dob": "22/01/2000",
       "athlete_id": "CL62287",
       "performance": "23.34",
-      "discipline": "Disc (2 Kg)",
-      "raw_discipline_name": "LLANÇAMENT DE DISC MASCULÍ",
+      "discipline": "LLANÇAMENT DE DISC MASCULÍ",
       "wind": null,
-      "internal_id": 522,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 522
     },
     {
       "athlete_name": "Alfonso Martinez Gutierrez",
       "athlete_dob": "28/06/2000",
       "athlete_id": "CL64852",
       "performance": "19.48",
-      "discipline": "Disc (2 Kg)",
-      "raw_discipline_name": "LLANÇAMENT DE DISC MASCULÍ",
+      "discipline": "LLANÇAMENT DE DISC MASCULÍ",
       "wind": null,
-      "internal_id": null,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": null
     },
     {
       "athlete_name": "Alfonso Martinez Gutierrez",
       "athlete_dob": "28/06/2000",
       "athlete_id": "CL64852",
       "performance": "17.52",
-      "discipline": "Disc (2 Kg)",
-      "raw_discipline_name": "LLANÇAMENT DE DISC MASCULÍ",
+      "discipline": "LLANÇAMENT DE DISC MASCULÍ",
       "wind": null,
-      "internal_id": null,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": null
     },
     {
       "athlete_name": "Sira Bo Calaf",
       "athlete_dob": "19/03/2001",
       "athlete_id": "CL62268",
       "performance": "11:52.15",
-      "discipline": "3000 metres llisos",
-      "raw_discipline_name": "3000 METRES LLISOS FEMENINS",
+      "discipline": "3000 METRES LLISOS FEMENINS",
       "wind": null,
-      "internal_id": 599,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 599
     },
     {
       "athlete_name": "Mireia Lopez Urbano",
       "athlete_dob": "07/12/2000",
       "athlete_id": "CL54681",
       "performance": "34.05",
-      "discipline": "220 metres tanques (0.762)",
-      "raw_discipline_name": "220 METRES TANQUES FEMENINS",
+      "discipline": "220 METRES TANQUES FEMENINS",
       "wind": null,
-      "internal_id": 527,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 527
     },
     {
       "athlete_name": "Montserrat Montañes Arbo",
       "athlete_dob": "22/02/2001",
       "athlete_id": "CL57989",
       "performance": "1.31",
-      "discipline": "Alçada",
-      "raw_discipline_name": "SALT D'ALÇADA FEMENÍ",
+      "discipline": "SALT D'ALÇADA FEMENÍ",
       "wind": null,
-      "internal_id": 497,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 497
     },
     {
       "athlete_name": "Maria Font Palomar",
       "athlete_dob": "16/11/2001",
       "athlete_id": "CL68424",
       "performance": "20:38.73",
-      "discipline": "3000 metres marxa",
-      "raw_discipline_name": "3000 METRES MARXA FEMENINS",
+      "discipline": "3000 METRES MARXA FEMENINS",
       "wind": null,
-      "internal_id": 1044,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 1044
     }
-  ],
-  "is_short_track": false
+  ]
 }

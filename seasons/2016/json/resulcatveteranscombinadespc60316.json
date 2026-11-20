@@ -1,142 +1,208 @@
 {
   "event_name": " - Sabadell (Pista Coberta de Catalunya), 6 marzo 2016",
   "event_date": "06/03/2016",
-  "event_location": "Sabadell",
-  "total_results": 12,
+  "event_location": "Club                                                  Lic                         Acum.",
+  "total_results": 18,
   "event_src": "http://old.fcatletisme.cat/Veterans/2016/resulcatveteranscombinadespc60316.pdf",
+  "is_short_track": true,
   "results": [
     {
       "athlete_name": "Ignacio Jose Blanco Porta",
       "athlete_dob": "17/11/1979",
       "athlete_id": "CL24576",
-      "performance": "4.02",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada MASC. PC 35-39",
+      "performance": "13.06",
+      "discipline": "60m tanques (1,00) MASC. PC 35-39",
       "wind": null,
-      "internal_id": 502,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 502
+    },
+    {
+      "athlete_name": "Ignacio Jose Blanco Porta",
+      "athlete_dob": "17/11/1979",
+      "athlete_id": "CL24576",
+      "performance": "4.02",
+      "discipline": "Llargada MASC. PC 35-39",
+      "wind": null,
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 502
     },
     {
       "athlete_name": "Ignacio Jose Blanco Porta",
       "athlete_dob": "17/11/1979",
       "athlete_id": "CL24576",
       "performance": "6.39",
-      "discipline": "Pes (7.260 Kg)",
-      "raw_discipline_name": "Pes (7,260 KG) MASC. PC 35-39",
+      "discipline": "Pes (7,260 Kg) MASC. PC 35-39",
       "wind": null,
-      "internal_id": 502,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 502
     },
     {
       "athlete_name": "Ignacio Jose Blanco Porta",
       "athlete_dob": "17/11/1979",
       "athlete_id": "CL24576",
       "performance": "5.83",
-      "discipline": "Pes (7.260 Kg)",
-      "raw_discipline_name": "Pes (7,260 KG) MASC. PC 35-39",
+      "discipline": "Pes (7,260 Kg) MASC. PC 35-39",
       "wind": null,
-      "internal_id": 502,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 502
     },
     {
       "athlete_name": "Ignacio Jose Blanco Porta",
       "athlete_dob": "17/11/1979",
       "athlete_id": "CL24576",
       "performance": "5.99",
-      "discipline": "Pes (7.260 Kg)",
-      "raw_discipline_name": "Pes (7,260 KG) MASC. PC 35-39",
+      "discipline": "Pes (7,260 Kg) MASC. PC 35-39",
       "wind": null,
-      "internal_id": 502,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 502
     },
     {
       "athlete_name": "Ignacio Jose Blanco Porta",
       "athlete_dob": "17/11/1979",
       "athlete_id": "CL24576",
       "performance": "1.37",
-      "discipline": "Alçada",
-      "raw_discipline_name": "Alçada MASC. PC 35-39",
+      "discipline": "Alçada MASC. PC 35-39",
       "wind": null,
-      "internal_id": 502,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 502
+    },
+    {
+      "athlete_name": "Ignacio Jose Blanco",
+      "athlete_dob": "",
+      "athlete_id": "CL24576",
+      "performance": "1346",
+      "discipline": "Pentatló Vet. MAS. PC 35-39",
+      "wind": null,
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 502
+    },
+    {
+      "athlete_name": "Pere Pardines Gras",
+      "athlete_dob": "30/01/1965",
+      "athlete_id": "CT9121",
+      "performance": "10.56",
+      "discipline": "60m tanques (0,91) MASC. PC 50-54",
+      "wind": null,
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 71
     },
     {
       "athlete_name": "Pere Pardines Gras",
       "athlete_dob": "30/01/1965",
       "athlete_id": "CT9121",
       "performance": "4.33",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada MASC. PC 50-54",
+      "discipline": "Llargada MASC. PC 50-54",
       "wind": null,
-      "internal_id": 71,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 71
     },
     {
       "athlete_name": "Pere Pardines Gras",
       "athlete_dob": "30/01/1965",
       "athlete_id": "CT9121",
       "performance": "4.68",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada MASC. PC 50-54",
+      "discipline": "Llargada MASC. PC 50-54",
       "wind": null,
-      "internal_id": 71,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 71
     },
     {
       "athlete_name": "Pere Pardines Gras",
       "athlete_dob": "30/01/1965",
       "athlete_id": "CT9121",
       "performance": "4.70",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Llargada MASC. PC 50-54",
+      "discipline": "Llargada MASC. PC 50-54",
       "wind": null,
-      "internal_id": 71,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 71
     },
     {
       "athlete_name": "Pere Pardines Gras",
       "athlete_dob": "30/01/1965",
       "athlete_id": "CT9121",
       "performance": "8.33",
-      "discipline": "Pes (6 Kg)",
-      "raw_discipline_name": "Pes (6 KG) MASC. PC 50-54",
+      "discipline": "Pes (6 Kg) MASC. PC 50-54",
       "wind": null,
-      "internal_id": 71,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 71
     },
     {
       "athlete_name": "Pere Pardines Gras",
       "athlete_dob": "30/01/1965",
       "athlete_id": "CT9121",
       "performance": "8.44",
-      "discipline": "Pes (6 Kg)",
-      "raw_discipline_name": "Pes (6 KG) MASC. PC 50-54",
+      "discipline": "Pes (6 Kg) MASC. PC 50-54",
       "wind": null,
-      "internal_id": 71,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 71
     },
     {
       "athlete_name": "Pere Pardines Gras",
       "athlete_dob": "30/01/1965",
       "athlete_id": "CT9121",
       "performance": "7.56",
-      "discipline": "Pes (6 Kg)",
-      "raw_discipline_name": "Pes (6 KG) MASC. PC 50-54",
+      "discipline": "Pes (6 Kg) MASC. PC 50-54",
       "wind": null,
-      "internal_id": 71,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 71
     },
     {
       "athlete_name": "Pere Pardines Gras",
       "athlete_dob": "30/01/1965",
       "athlete_id": "CT9121",
       "performance": "1.52",
-      "discipline": "Alçada",
-      "raw_discipline_name": "Alçada MASC. PC 50-54",
+      "discipline": "Alçada MASC. PC 50-54",
       "wind": null,
-      "internal_id": 71,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 71
+    },
+    {
+      "athlete_name": "Pere Pardines",
+      "athlete_dob": "21/01/1963",
+      "athlete_id": "CT9121",
+      "performance": "2964",
+      "discipline": "Pentatló Vet. MAS. PC 50-54",
+      "wind": null,
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 71
+    },
+    {
+      "athlete_name": "Ignacio Jose Blanco Porta",
+      "athlete_dob": "17/11/1979",
+      "athlete_id": "CL24576",
+      "performance": "1346",
+      "discipline": "Pentatló Vet. MAS. PC 35-39",
+      "wind": null,
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 502
+    },
+    {
+      "athlete_name": "Pere Pardines Gras",
+      "athlete_dob": "30/01/1965",
+      "athlete_id": "CT9121",
+      "performance": "2964",
+      "discipline": "Pentatló Vet. MAS. PC 50-54",
+      "wind": null,
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 71
     }
-  ],
-  "is_short_track": true
+  ]
 }

@@ -150,30 +150,30 @@
       },
       {
         "file": "seasons/2014/json/resulcontrolcgt240514.json",
-        "discipline": "Llargada",
-        "performance": "2.70",
+        "discipline": "60 METRES LLISOS                             ALEVI MASCULÍ",
+        "performance": "10.50",
         "event_date": "24/05/2014"
       },
       {
-        "file": "seasons/2015/json/resulcnatterrittarragona230515.json",
-        "discipline": "Alçada",
-        "performance": "1.00",
-        "event_date": "23/05/2015"
+        "file": "seasons/2014/json/resulcontrolcgt240514.json",
+        "discipline": "60 METRES TANQUES                         ALEVI MASCULÍ",
+        "performance": "12.30",
+        "event_date": "24/05/2014"
       },
       {
-        "file": "seasons/2015/json/resulcontrolvalls70215.json",
-        "discipline": "Llargada",
-        "performance": "2.91",
-        "event_date": "07/02/2015"
+        "file": "seasons/2014/json/resulcontrolcgt240514.json",
+        "discipline": "600 METRES LLISOS                    ALEVI MASCULÍ",
+        "performance": "2:32.00",
+        "event_date": "24/05/2014"
       },
       {
-        "file": "seasons/2015/json/resulcontrolvalls70215.json",
-        "discipline": "Llargada",
-        "performance": "3.00",
-        "event_date": "07/02/2015"
+        "file": "seasons/2014/json/resulcontrolcgt240514.json",
+        "discipline": "PILOTA (400 g.) ALEVI MASCULÍ",
+        "performance": "10,89",
+        "event_date": "24/05/2014"
       }
     ],
-    "refs_total": 6
+    "refs_total": 13
   },
   {
     "athlete_name": "ALANIS DE LAS HERAS RUIZ",
@@ -540,38 +540,25 @@
     ]
   },
   {
-    "athlete_name": "ANTILLACH PUJOL JORDINA",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2015/json/resulcontrolcgt100515.json",
-        "discipline": "Llargada",
-        "performance": "1.35",
-        "event_date": "10/05/2015"
-      }
-    ]
-  },
-  {
     "athlete_name": "Abril Diaz Casañas",
     "strategy": "no_match",
     "candidates": null,
     "refs": [
       {
         "file": "seasons/2013/json/resulcatbenjami150613.json",
-        "discipline": "Llargada",
+        "discipline": "SALT DE LLARGADA BENJAMÍ FEMENÍ",
         "performance": "17.10",
         "event_date": "15/06/2013"
       },
       {
         "file": "seasons/2013/json/resulcatbenjami150613.json",
-        "discipline": "Llargada",
+        "discipline": "SALT DE LLARGADA BENJAMÍ FEMENÍ",
         "performance": "16.57",
         "event_date": "15/06/2013"
       },
       {
         "file": "seasons/2013/json/resulcatbenjami150613.json",
-        "discipline": "Llargada",
+        "discipline": "SALT DE LLARGADA BENJAMÍ FEMENÍ",
         "performance": "17.45",
         "event_date": "15/06/2013"
       }
@@ -763,19 +750,6 @@
         "discipline": "60 metres llisos",
         "performance": "10.85",
         "event_date": "08/12/2018"
-      }
-    ]
-  },
-  {
-    "athlete_name": "Alba CL Torres Rione",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2015/json/resulcontrolnastic310515.json",
-        "discipline": "1000 metres llisos",
-        "performance": "4:34.80",
-        "event_date": "31/05/2015"
       }
     ]
   },
@@ -1014,13 +988,13 @@
     "refs": [
       {
         "file": "seasons/2013/json/resulcatinfantil150613.json",
-        "discipline": "Pes (3 Kg)",
+        "discipline": "LLANÇAMENT DE PES INFANTIL MASCULÍ",
         "performance": "7.80",
         "event_date": "15/06/2013"
       },
       {
         "file": "seasons/2013/json/resulcatinfantil150613.json",
-        "discipline": "Pes (3 Kg)",
+        "discipline": "LLANÇAMENT DE PES INFANTIL MASCULÍ",
         "performance": "7.09",
         "event_date": "15/06/2013"
       },
@@ -1071,19 +1045,19 @@
     "refs": [
       {
         "file": "seasons/2016/json/resulcatbenjamiprevia210516.json",
-        "discipline": "1000 metres marxa",
+        "discipline": "1000 METRES MARXA BENJAMI MASCULI",
         "performance": "4:16.69",
         "event_date": "21/05/2016"
       },
       {
         "file": "seasons/2016/json/resulcatbenjamiprevia210516.json",
-        "discipline": "Llargada",
+        "discipline": "LLARGADA BENJAMI FEMENI",
         "performance": "11.51",
         "event_date": "21/05/2016"
       },
       {
         "file": "seasons/2016/json/resulcatbenjamiprevia210516.json",
-        "discipline": "Llargada",
+        "discipline": "LLARGADA BENJAMI FEMENI",
         "performance": "12.36",
         "event_date": "21/05/2016"
       },
@@ -1150,6 +1124,25 @@
         "discipline": "60 metres llisos",
         "performance": "11.61",
         "event_date": "7/5/2011"
+      }
+    ]
+  },
+  {
+    "athlete_name": "Antillach Pujol, Xenia",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2015/json/resulcontrolcgt100515.json",
+        "discipline": "60 METRES LLISOS                    BENJAMÍ FEMENÍ",
+        "performance": "12.40",
+        "event_date": "10/05/2015"
+      },
+      {
+        "file": "seasons/2015/json/resulcontrolcgt100515.json",
+        "discipline": "PILOTA (250 g.)                                BENJAMI FEMENÍ",
+        "performance": "5,73",
+        "event_date": "10/05/2015"
       }
     ]
   },
@@ -1312,8 +1305,20 @@
       },
       {
         "file": "seasons/2015/json/resulcontrolcgt100515.json",
-        "discipline": "1000 metres marxa",
+        "discipline": "60 METRES LLISOS                                   BENJAMI MASCULÍ",
+        "performance": "12.90",
+        "event_date": "10/05/2015"
+      },
+      {
+        "file": "seasons/2015/json/resulcontrolcgt100515.json",
+        "discipline": "1000 METRES MARXA                                      BENJAMI MASCULÍ",
         "performance": "9:28.20",
+        "event_date": "10/05/2015"
+      },
+      {
+        "file": "seasons/2015/json/resulcontrolcgt100515.json",
+        "discipline": "PILOTA (250 g.)                                  BENJAMI MASCULÍ",
+        "performance": "5,34",
         "event_date": "10/05/2015"
       },
       {
@@ -1321,21 +1326,9 @@
         "discipline": "Llargada",
         "performance": "2.95",
         "event_date": "07/02/2015"
-      },
-      {
-        "file": "seasons/2015/json/resulcontrolvalls70215.json",
-        "discipline": "Llargada",
-        "performance": "2.91",
-        "event_date": "07/02/2015"
-      },
-      {
-        "file": "seasons/2015/json/resulcontrolvalls70215.json",
-        "discipline": "Llargada",
-        "performance": "2.11",
-        "event_date": "07/02/2015"
       }
     ],
-    "refs_total": 12
+    "refs_total": 14
   },
   {
     "athlete_name": "BASMA SARHAN KARIM",
@@ -1482,12 +1475,12 @@
       },
       {
         "file": "seasons/2014/json/resulcontrolcgt240514.json",
-        "discipline": "Llargada",
-        "performance": "3.47",
+        "discipline": "60 METRES LLISOS                             ALEVI MASCULÍ",
+        "performance": "10.40",
         "event_date": "24/05/2014"
       }
     ],
-    "refs_total": 8
+    "refs_total": 11
   },
   {
     "athlete_name": "BERTA POMÉS CABELLO",
@@ -1525,19 +1518,13 @@
         "event_date": "25/04/2015"
       }
     ],
-    "refs_total": 86
+    "refs_total": 87
   },
   {
     "athlete_name": "BLANCO CALATRAVA NACHO",
     "strategy": "no_match",
     "candidates": null,
     "refs": [
-      {
-        "file": "seasons/2015/json/resulcontrolcgt100515.json",
-        "discipline": "Llargada",
-        "performance": "2.15",
-        "event_date": "10/05/2015"
-      },
       {
         "file": "seasons/2015/json/resultrofeunastic70315.json",
         "discipline": "Llargada",
@@ -1561,9 +1548,15 @@
         "discipline": "Llargada",
         "performance": "1.64",
         "event_date": "06/02/2016"
+      },
+      {
+        "file": "seasons/2016/json/resulterritpromotarragona140516.json",
+        "discipline": "Alçada",
+        "performance": "0.95",
+        "event_date": "14/05/2016"
       }
     ],
-    "refs_total": 8
+    "refs_total": 7
   },
   {
     "athlete_name": "BUENO UBEDA LEYRE",
@@ -1590,31 +1583,31 @@
         "event_date": "26/05/2012"
       },
       {
-        "file": "seasons/2014/json/resulcontrolvalls80214.json",
-        "discipline": "Javelina (700 g)",
-        "performance": "8.06",
-        "event_date": "08/02/2014"
+        "file": "seasons/2014/json/resulcontrolcgt240514.json",
+        "discipline": "60 METRES LLISOS                            ALEVI FEMENÍ",
+        "performance": "9.60",
+        "event_date": "24/05/2014"
       },
       {
-        "file": "seasons/2014/json/resulcontrolvalls80214.json",
-        "discipline": "Javelina (700 g)",
-        "performance": "9.21",
-        "event_date": "08/02/2014"
+        "file": "seasons/2014/json/resulcontrolcgt240514.json",
+        "discipline": "60 METRES TANQUES                         ALEVI FEMENÍ",
+        "performance": "12.60",
+        "event_date": "24/05/2014"
       },
       {
-        "file": "seasons/2014/json/resulcontrolvalls80214.json",
-        "discipline": "Javelina (700 g)",
-        "performance": "9.80",
-        "event_date": "08/02/2014"
+        "file": "seasons/2014/json/resulcontrolcgt240514.json",
+        "discipline": "SALT DE LLARGADA                        ALEVI FEMENÍ",
+        "performance": "2,88",
+        "event_date": "24/05/2014"
       },
       {
-        "file": "seasons/2014/json/resulterritpromovalls50414.json",
-        "discipline": "Javelina (500 g)",
-        "performance": "10.26",
-        "event_date": "5/4/2014"
+        "file": "seasons/2014/json/resulcontrolcgt240514.json",
+        "discipline": "PILOTA (400 g.) ALEVI FEMENÍ",
+        "performance": "10,38",
+        "event_date": "24/05/2014"
       }
     ],
-    "refs_total": 10
+    "refs_total": 14
   },
   {
     "athlete_name": "BURJALES DEL MARINA",
@@ -1673,19 +1666,19 @@
     "refs": [
       {
         "file": "seasons/2016/json/resulcatalevi110616.json",
-        "discipline": "Disc (1 Kg)",
+        "discipline": "DISC ALEVI FEMENI",
         "performance": "10.84",
         "event_date": "11/06/2016"
       },
       {
         "file": "seasons/2016/json/resulcatalevi110616.json",
-        "discipline": "Disc (1 Kg)",
+        "discipline": "DISC ALEVI FEMENI",
         "performance": "11.17",
         "event_date": "11/06/2016"
       },
       {
         "file": "seasons/2016/json/resulcataleviprevia210516.json",
-        "discipline": "Disc (1 Kg)",
+        "discipline": "DISC ALEVI FEMENI",
         "performance": "15.99",
         "event_date": "21/05/2016"
       },
@@ -2463,7 +2456,7 @@
       },
       {
         "file": "seasons/2016/json/resulcatbenjamiprevia210516.json",
-        "discipline": "1000 metres marxa",
+        "discipline": "1000 METRES MARXA BENJAMI MASCULI",
         "performance": "9:12.33",
         "event_date": "21/05/2016"
       },
@@ -2563,12 +2556,6 @@
     "strategy": "no_match",
     "candidates": null,
     "refs": [
-      {
-        "file": "seasons/2014/json/resulcontrolcgt240514.json",
-        "discipline": "Llargada",
-        "performance": "2.88",
-        "event_date": "24/05/2014"
-      },
       {
         "file": "seasons/2015/json/resultrofeunastic201214.json",
         "discipline": "Llargada",
@@ -2677,6 +2664,75 @@
         "event_date": "13/05/2017"
       }
     ]
+  },
+  {
+    "athlete_name": "De Las Heras Ruiz, Alanis",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2014/json/resulcontrolcgt240514.json",
+        "discipline": "60 METRES LLISOS                          BENJAMI FEMENÍ",
+        "performance": "11.10",
+        "event_date": "24/05/2014"
+      },
+      {
+        "file": "seasons/2014/json/resulcontrolcgt240514.json",
+        "discipline": "SALT D'ALÇADA BENJAMI FEMENÍ",
+        "performance": "0,85",
+        "event_date": "24/05/2014"
+      },
+      {
+        "file": "seasons/2015/json/resulcontrolcgt100515.json",
+        "discipline": "60 METRES LLISOS                    BENJAMÍ FEMENÍ",
+        "performance": "10.90",
+        "event_date": "10/05/2015"
+      },
+      {
+        "file": "seasons/2015/json/resulcontrolcgt100515.json",
+        "discipline": "PILOTA (250 g.)                                BENJAMI FEMENÍ",
+        "performance": "10,50",
+        "event_date": "10/05/2015"
+      }
+    ]
+  },
+  {
+    "athlete_name": "De Las Heras Ruiz, Liana",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2014/json/resulcontrolcgt240514.json",
+        "discipline": "60 METRES LLISOS                            ALEVI FEMENÍ",
+        "performance": "8.80",
+        "event_date": "24/05/2014"
+      },
+      {
+        "file": "seasons/2014/json/resulcontrolcgt240514.json",
+        "discipline": "60 METRES TANQUES                         ALEVI FEMENÍ",
+        "performance": "10.50",
+        "event_date": "24/05/2014"
+      },
+      {
+        "file": "seasons/2014/json/resulcontrolcgt240514.json",
+        "discipline": "600 METRES LLISOS                    ALEVI FEMENÍ",
+        "performance": "2:21.10",
+        "event_date": "24/05/2014"
+      },
+      {
+        "file": "seasons/2014/json/resulcontrolcgt240514.json",
+        "discipline": "SALT DE LLARGADA                        ALEVI FEMENÍ",
+        "performance": "3,63",
+        "event_date": "24/05/2014"
+      },
+      {
+        "file": "seasons/2014/json/resulcontrolcgt240514.json",
+        "discipline": "PILOTA (400 g.) ALEVI FEMENÍ",
+        "performance": "17,02",
+        "event_date": "24/05/2014"
+      }
+    ],
+    "refs_total": 7
   },
   {
     "athlete_name": "Diego Cuadros Cobo",
@@ -3192,19 +3248,6 @@
     ]
   },
   {
-    "athlete_name": "FARRÉ BENITO GUILLEM",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2015/json/resulcontrolcgt100515.json",
-        "discipline": "Llargada",
-        "performance": "1.78",
-        "event_date": "10/05/2015"
-      }
-    ]
-  },
-  {
     "athlete_name": "FERNANDEZ DIEZ MARIA",
     "strategy": "no_match",
     "candidates": null,
@@ -3254,12 +3297,6 @@
     "candidates": null,
     "refs": [
       {
-        "file": "seasons/2015/json/resulcontrolcgt100515.json",
-        "discipline": "Llargada",
-        "performance": "2.51",
-        "event_date": "10/05/2015"
-      },
-      {
         "file": "seasons/2016/json/resulcontrolvalls60216.json",
         "discipline": "Llargada",
         "performance": "2.72",
@@ -3282,9 +3319,15 @@
         "discipline": "Alçada",
         "performance": "0.95",
         "event_date": "14/05/2016"
+      },
+      {
+        "file": "seasons/2016/json/resulterritpromovalls230416.json",
+        "discipline": "Javelina (500 g)",
+        "performance": "21.36",
+        "event_date": "23/04/2016"
       }
     ],
-    "refs_total": 7
+    "refs_total": 6
   },
   {
     "athlete_name": "FERRE OLIVE ALEIX",
@@ -3380,6 +3423,37 @@
       }
     ],
     "refs_total": 31
+  },
+  {
+    "athlete_name": "Ferran Blanco Calatrava",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2018/json/resultat-20180113-controlgenercambrils.json",
+        "discipline": "60 metres llisos",
+        "performance": "11.68",
+        "event_date": "13/01/2018"
+      },
+      {
+        "file": "seasons/2018/json/resultat-20180113-controlgenercambrils.json",
+        "discipline": "1000 metres llisos",
+        "performance": "4:43.86",
+        "event_date": "13/01/2018"
+      },
+      {
+        "file": "seasons/2018/json/resultat-2018042829-controlprimaveracambrils.json",
+        "discipline": "60 metres llisos",
+        "performance": "11.41",
+        "event_date": "28/04/2018"
+      },
+      {
+        "file": "seasons/2018/json/resultat-2018042829-controlprimaveracambrils.json",
+        "discipline": "1000 metres llisos",
+        "performance": "4:33.91",
+        "event_date": "28/04/2018"
+      }
+    ]
   },
   {
     "athlete_name": "Ferran Sansa Garcia",
@@ -3641,19 +3715,6 @@
     ]
   },
   {
-    "athlete_name": "GOMEZ SALADO ERIC",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2015/json/resulcontrolcgt100515.json",
-        "discipline": "1000 metres marxa",
-        "performance": "7:33.90",
-        "event_date": "10/05/2015"
-      }
-    ]
-  },
-  {
     "athlete_name": "GRAN BADIA ALEXANDRE",
     "strategy": "no_match",
     "candidates": null,
@@ -3703,6 +3764,18 @@
         "event_date": "23/05/2015"
       },
       {
+        "file": "seasons/2015/json/resulcontrolnastic310515.json",
+        "discipline": "60 METRES LLISOS                             ALEVI FEMENÍ",
+        "performance": "9.60",
+        "event_date": "31/05/2015"
+      },
+      {
+        "file": "seasons/2015/json/resulcontrolnastic310515.json",
+        "discipline": "600 METRES LLISOS                         ALEVI FEMENÍ",
+        "performance": "2:18.90",
+        "event_date": "31/05/2015"
+      },
+      {
         "file": "seasons/2015/json/resulcontrolvalls70215.json",
         "discipline": "Llargada",
         "performance": "2.57",
@@ -3713,14 +3786,47 @@
         "discipline": "Llargada",
         "performance": "2.54",
         "event_date": "07/02/2015"
+      }
+    ],
+    "refs_total": 6
+  },
+  {
+    "athlete_name": "GUILLEM FERRAN JIMENEZ",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2016/json/resulcontrolterritamposta50316.json",
+        "discipline": "Llargada",
+        "performance": "2.49",
+        "event_date": "5/3/2016"
       },
       {
-        "file": "seasons/2015/json/resultrofeunastic201214.json",
+        "file": "seasons/2016/json/resulcontrolterritamposta50316.json",
         "discipline": "Llargada",
-        "performance": "2.53",
-        "event_date": "20/12/2014"
+        "performance": "3.07",
+        "event_date": "5/3/2016"
+      },
+      {
+        "file": "seasons/2016/json/resulcontrolterritamposta50316.json",
+        "discipline": "Llargada",
+        "performance": "2.37",
+        "event_date": "5/3/2016"
+      },
+      {
+        "file": "seasons/2017/json/resultat-20170520-catbenjamiprevia.json",
+        "discipline": "SALT DE LLARGADA BENJAMI MASCULI",
+        "performance": "3.58",
+        "event_date": "20/05/2017"
+      },
+      {
+        "file": "seasons/2017/json/resultat-20170520-catbenjamiprevia.json",
+        "discipline": "SALT DE LLARGADA BENJAMI MASCULI",
+        "performance": "3.29",
+        "event_date": "20/05/2017"
       }
-    ]
+    ],
+    "refs_total": 259
   },
   {
     "athlete_name": "GUTIERREZ GARCIA IÑIGO",
@@ -3741,8 +3847,20 @@
       },
       {
         "file": "seasons/2015/json/resulcontrolcgt100515.json",
-        "discipline": "1000 metres marxa",
+        "discipline": "60 METRES LLISOS                                   BENJAMI MASCULÍ",
+        "performance": "12.00",
+        "event_date": "10/05/2015"
+      },
+      {
+        "file": "seasons/2015/json/resulcontrolcgt100515.json",
+        "discipline": "1000 METRES MARXA                                      BENJAMI MASCULÍ",
         "performance": "8:34.50",
+        "event_date": "10/05/2015"
+      },
+      {
+        "file": "seasons/2015/json/resulcontrolcgt100515.json",
+        "discipline": "PILOTA (250 g.)                                  BENJAMI MASCULÍ",
+        "performance": "7,91",
         "event_date": "10/05/2015"
       }
     ]
@@ -3759,31 +3877,31 @@
         "event_date": "23/05/2015"
       },
       {
-        "file": "seasons/2015/json/resulcontrolvalls70215.json",
-        "discipline": "Llargada",
-        "performance": "2.94",
-        "event_date": "07/02/2015"
+        "file": "seasons/2015/json/resulcontrolcgt100515.json",
+        "discipline": "60 METRES TANQUES                              ALEVI MASCULÍ",
+        "performance": "11.70",
+        "event_date": "10/05/2015"
       },
       {
-        "file": "seasons/2015/json/resulcontrolvalls70215.json",
-        "discipline": "Llargada",
-        "performance": "2.64",
-        "event_date": "07/02/2015"
+        "file": "seasons/2015/json/resulcontrolcgt100515.json",
+        "discipline": "DISC (600 gr.)                 ALEVI MASCULÍ",
+        "performance": "13,40",
+        "event_date": "10/05/2015"
       },
       {
-        "file": "seasons/2015/json/resulcontrolvalls70215.json",
-        "discipline": "Llargada",
-        "performance": "2.87",
-        "event_date": "07/02/2015"
+        "file": "seasons/2015/json/resulcontrolnastic310515.json",
+        "discipline": "60 METRES LLISOS                             ALEVI MASCULÍ",
+        "performance": "9.80",
+        "event_date": "31/05/2015"
       },
       {
-        "file": "seasons/2016/json/resulterritpromotarragona140516.json",
-        "discipline": "Alçada",
-        "performance": "1.05",
-        "event_date": "14/05/2016"
+        "file": "seasons/2015/json/resulcontrolnastic310515.json",
+        "discipline": "600 METRES LLISOS                       ALEVI MASCULÍ",
+        "performance": "2:07.50",
+        "event_date": "31/05/2015"
       }
     ],
-    "refs_total": 6
+    "refs_total": 11
   },
   {
     "athlete_name": "Gael Torres Fortuny",
@@ -3881,6 +3999,31 @@
     "refs_total": 11
   },
   {
+    "athlete_name": "Gomez Salado, Eric",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2015/json/resulcontrolcgt100515.json",
+        "discipline": "60 METRES LLISOS                                   BENJAMI MASCULÍ",
+        "performance": "11.70",
+        "event_date": "10/05/2015"
+      },
+      {
+        "file": "seasons/2015/json/resulcontrolcgt100515.json",
+        "discipline": "1000 METRES MARXA                                      BENJAMI MASCULÍ",
+        "performance": "7:33.90",
+        "event_date": "10/05/2015"
+      },
+      {
+        "file": "seasons/2015/json/resulcontrolcgt100515.json",
+        "discipline": "PILOTA (250 g.)                                  BENJAMI MASCULÍ",
+        "performance": "10,25",
+        "event_date": "10/05/2015"
+      }
+    ]
+  },
+  {
     "athlete_name": "Gonzalo Bellón Tirado",
     "strategy": "no_match",
     "candidates": null,
@@ -3950,19 +4093,6 @@
     ]
   },
   {
-    "athlete_name": "Guillem Farré Benito",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2015/json/resulcontrolcgt100515.json",
-        "discipline": "300 metres llisos",
-        "performance": "1:23.10",
-        "event_date": "10/05/2015"
-      }
-    ]
-  },
-  {
     "athlete_name": "Guillem Ferran",
     "strategy": "no_match",
     "candidates": null,
@@ -3980,44 +4110,6 @@
         "event_date": "20/02/2021"
       }
     ]
-  },
-  {
-    "athlete_name": "Guillem Ferran Jimenez",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2015/json/resulcontrolcgt100515.json",
-        "discipline": "300 metres llisos",
-        "performance": "1:00.10",
-        "event_date": "10/05/2015"
-      },
-      {
-        "file": "seasons/2016/json/resulcontrolterritamposta50316.json",
-        "discipline": "Llargada",
-        "performance": "2.49",
-        "event_date": "5/3/2016"
-      },
-      {
-        "file": "seasons/2016/json/resulcontrolterritamposta50316.json",
-        "discipline": "Llargada",
-        "performance": "3.07",
-        "event_date": "5/3/2016"
-      },
-      {
-        "file": "seasons/2016/json/resulcontrolterritamposta50316.json",
-        "discipline": "Llargada",
-        "performance": "2.37",
-        "event_date": "5/3/2016"
-      },
-      {
-        "file": "seasons/2017/json/resultat-20170520-catbenjamiprevia.json",
-        "discipline": "SALT DE LLARGADA BENJAMI MASCULI",
-        "performance": "3.58",
-        "event_date": "20/05/2017"
-      }
-    ],
-    "refs_total": 260
   },
   {
     "athlete_name": "Guillem Pàmies Miró",
@@ -4101,18 +4193,6 @@
     "candidates": null,
     "refs": [
       {
-        "file": "seasons/2014/json/resulcontrolcgt240514.json",
-        "discipline": "1000 metres marxa",
-        "performance": "7:27.90",
-        "event_date": "24/05/2014"
-      },
-      {
-        "file": "seasons/2014/json/resulcontrolcgt240514.json",
-        "discipline": "Alçada",
-        "performance": "0.85",
-        "event_date": "24/05/2014"
-      },
-      {
         "file": "seasons/2015/json/resulcnatterrittarragona230515.json",
         "discipline": "1000 metres marxa",
         "performance": "7:12.31",
@@ -4137,12 +4217,6 @@
     "strategy": "no_match",
     "candidates": null,
     "refs": [
-      {
-        "file": "seasons/2014/json/resulcontrolcgt240514.json",
-        "discipline": "Llargada",
-        "performance": "3.63",
-        "event_date": "24/05/2014"
-      },
       {
         "file": "seasons/2015/json/resulcnatterrittarragona230515.json",
         "discipline": "Alçada",
@@ -4205,7 +4279,7 @@
         "event_date": "26/03/2011"
       }
     ],
-    "refs_total": 32
+    "refs_total": 30
   },
   {
     "athlete_name": "Hector Palma Grau",
@@ -4477,19 +4551,13 @@
         "event_date": "23/05/2015"
       }
     ],
-    "refs_total": 26
+    "refs_total": 25
   },
   {
     "athlete_name": "IZAGA DERIU QUIMEY",
     "strategy": "no_match",
     "candidates": null,
     "refs": [
-      {
-        "file": "seasons/2015/json/resulcontrolcgt100515.json",
-        "discipline": "Llargada",
-        "performance": "1.51",
-        "event_date": "10/05/2015"
-      },
       {
         "file": "seasons/2015/json/resultrofeunastic70315.json",
         "discipline": "Llargada",
@@ -5132,6 +5200,12 @@
         "event_date": "28/04/2012"
       },
       {
+        "file": "seasons/2013/json/resulcatinfantil150613.json",
+        "discipline": "3000 METRES MARXA INFANTIL MASCULÍ",
+        "performance": "NP",
+        "event_date": "15/06/2013"
+      },
+      {
         "file": "seasons/2013/json/resulcontrolterritvalls160213.json",
         "discipline": "Llargada",
         "performance": "3.63",
@@ -5148,15 +5222,9 @@
         "discipline": "Pes (2 Kg)",
         "performance": "5.59",
         "event_date": "16/02/2013"
-      },
-      {
-        "file": "seasons/2013/json/resulcontrolterritvalls160213.json",
-        "discipline": "Pes (2 Kg)",
-        "performance": "5.42",
-        "event_date": "16/02/2013"
       }
     ],
-    "refs_total": 18
+    "refs_total": 19
   },
   {
     "athlete_name": "JULIA CASAS CARPENA",
@@ -5271,19 +5339,6 @@
       }
     ],
     "refs_total": 10
-  },
-  {
-    "athlete_name": "Jana CL Torres Rioné",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2015/json/resulcontrolnastic310515.json",
-        "discipline": "1000 metres llisos",
-        "performance": "4:35.60",
-        "event_date": "31/05/2015"
-      }
-    ]
   },
   {
     "athlete_name": "Jana Pages Corts",
@@ -5413,25 +5468,25 @@
     "refs": [
       {
         "file": "seasons/2016/json/resulcatbenjami110616.json",
-        "discipline": "Alçada",
+        "discipline": "ALÇADA BENJAMI MASCULI",
         "performance": "1.22",
         "event_date": "11/06/2016"
       },
       {
         "file": "seasons/2016/json/resulcatbenjamiprevia210516.json",
-        "discipline": "Alçada",
+        "discipline": "ALÇADA BENJAMI MASCULI",
         "performance": "1.05",
         "event_date": "21/05/2016"
       },
       {
         "file": "seasons/2016/json/resulcatbenjamiprevia210516.json",
-        "discipline": "Llargada",
+        "discipline": "LLARGADA BENJAMI MASCULI",
         "performance": "3.10",
         "event_date": "21/05/2016"
       },
       {
         "file": "seasons/2016/json/resulcatbenjamiprevia210516.json",
-        "discipline": "Llargada",
+        "discipline": "LLARGADA BENJAMI MASCULI",
         "performance": "3.17",
         "event_date": "21/05/2016"
       },
@@ -5508,19 +5563,6 @@
     ]
   },
   {
-    "athlete_name": "Jonathan Andreu",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2015/json/resulcontrolnastic310515.json",
-        "discipline": "600 metres llisos",
-        "performance": "1:59.30",
-        "event_date": "31/05/2015"
-      }
-    ]
-  },
-  {
     "athlete_name": "Jordi Abrio Manchado",
     "strategy": "no_match",
     "candidates": null,
@@ -5536,19 +5578,6 @@
         "discipline": "Alçada",
         "performance": "0.95",
         "event_date": "5/4/2014"
-      }
-    ]
-  },
-  {
-    "athlete_name": "Jordina Antillach Pujol",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2015/json/resulcontrolcgt100515.json",
-        "discipline": "300 metres llisos",
-        "performance": "1:36.70",
-        "event_date": "10/05/2015"
       }
     ]
   },
@@ -5654,7 +5683,7 @@
       },
       {
         "file": "seasons/2016/json/resulcatbenjamiprevia210516.json",
-        "discipline": "1000 metres marxa",
+        "discipline": "1000 METRES MARXA BENJAMI FEMENI",
         "performance": "7:16.05",
         "event_date": "21/05/2016"
       }
@@ -6455,13 +6484,19 @@
     "refs": [
       {
         "file": "seasons/2013/json/resulcatbenjami150613.json",
-        "discipline": "Llargada",
+        "discipline": "SALT D'ALÇADA BENJAMÍ FEMENÍ",
+        "performance": "1.04",
+        "event_date": "15/06/2013"
+      },
+      {
+        "file": "seasons/2013/json/resulcatbenjami150613.json",
+        "discipline": "SALT DE LLARGADA BENJAMÍ FEMENÍ",
         "performance": "3.36",
         "event_date": "15/06/2013"
       },
       {
         "file": "seasons/2013/json/resulcatbenjami150613.json",
-        "discipline": "Llargada",
+        "discipline": "SALT DE LLARGADA BENJAMÍ FEMENÍ",
         "performance": "3.26",
         "event_date": "15/06/2013"
       },
@@ -6472,16 +6507,10 @@
         "event_date": "09/06/2013"
       },
       {
-        "file": "seasons/2014/json/resulcontrolcgt240514.json",
-        "discipline": "600 metres llisos",
-        "performance": "2:21.10",
-        "event_date": "24/05/2014"
-      },
-      {
-        "file": "seasons/2014/json/resulcontrolcgt240514.json",
-        "discipline": "Llargada",
-        "performance": "17.02",
-        "event_date": "24/05/2014"
+        "file": "seasons/2015/json/resulcatcombinades30310515.json",
+        "discipline": "60 metres tanques (0.50)",
+        "performance": "10.69",
+        "event_date": "31/05/2015"
       }
     ],
     "refs_total": 29
@@ -6756,6 +6785,12 @@
         "discipline": "Javelina (500 g)",
         "performance": "19.68",
         "event_date": "04/05/2013"
+      },
+      {
+        "file": "seasons/2014/json/resulcontrolcgt240514.json",
+        "discipline": "100 METRES LLISOS CADET - ABSOLUT MASCULÍ",
+        "performance": "14.50",
+        "event_date": "24/05/2014"
       }
     ]
   },
@@ -6802,44 +6837,6 @@
         "event_date": "04/05/2013"
       }
     ]
-  },
-  {
-    "athlete_name": "MIR CASELLAS MARINA",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2014/json/resulcontrolcgt240514.json",
-        "discipline": "Alçada",
-        "performance": "0.80",
-        "event_date": "24/05/2014"
-      },
-      {
-        "file": "seasons/2014/json/resulterritpromovalls50414.json",
-        "discipline": "Javelina (500 g)",
-        "performance": "6.48",
-        "event_date": "5/4/2014"
-      },
-      {
-        "file": "seasons/2014/json/resulterritpromovalls50414.json",
-        "discipline": "Javelina (500 g)",
-        "performance": "11.05",
-        "event_date": "5/4/2014"
-      },
-      {
-        "file": "seasons/2014/json/resulterritpromovalls50414.json",
-        "discipline": "Javelina (500 g)",
-        "performance": "11.28",
-        "event_date": "5/4/2014"
-      },
-      {
-        "file": "seasons/2015/json/resulcontrolvalls70215.json",
-        "discipline": "Llargada",
-        "performance": "2.96",
-        "event_date": "07/02/2015"
-      }
-    ],
-    "refs_total": 8
   },
   {
     "athlete_name": "MOLINA SOLICHERO ANDREA",
@@ -7126,19 +7123,6 @@
     "refs_total": 14
   },
   {
-    "athlete_name": "Maria Juan-dalac Sanchez",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2015/json/resulcontrolcadetjuniorpc280215.json",
-        "discipline": "Pes (6 Kg)",
-        "performance": "9.73",
-        "event_date": "28/02/2015"
-      }
-    ]
-  },
-  {
     "athlete_name": "Marina Burjales Del Amo",
     "strategy": "no_match",
     "candidates": null,
@@ -7168,10 +7152,10 @@
         "event_date": "20/2/2013"
       },
       {
-        "file": "seasons/2014/json/resulcontrolcgt240514.json",
-        "discipline": "Llargada",
-        "performance": "10.38",
-        "event_date": "24/05/2014"
+        "file": "seasons/2015/json/resultrofeunastic201214.json",
+        "discipline": "600 metres llisos",
+        "performance": "2:21.90",
+        "event_date": "20/12/2014"
       }
     ],
     "refs_total": 7
@@ -7424,7 +7408,7 @@
     "refs": [
       {
         "file": "seasons/2016/json/resulcatbenjamiprevia210516.json",
-        "discipline": "1000 metres marxa",
+        "discipline": "1000 METRES MARXA BENJAMI MASCULI",
         "performance": "7:09.28",
         "event_date": "21/05/2016"
       },
@@ -7454,6 +7438,57 @@
       }
     ],
     "refs_total": 40
+  },
+  {
+    "athlete_name": "Milla Guasch, Josep",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2014/json/resulcontrolcgt240514.json",
+        "discipline": "100 METRES LLISOS CADET - ABSOLUT MASCULÍ",
+        "performance": "13.80",
+        "event_date": "24/05/2014"
+      }
+    ]
+  },
+  {
+    "athlete_name": "Mir Casellas, Marina",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2014/json/resulcontrolcgt240514.json",
+        "discipline": "60 METRES LLISOS                          BENJAMI FEMENÍ",
+        "performance": "10.20",
+        "event_date": "24/05/2014"
+      },
+      {
+        "file": "seasons/2014/json/resulcontrolcgt240514.json",
+        "discipline": "SALT D'ALÇADA BENJAMI FEMENÍ",
+        "performance": "0,80",
+        "event_date": "24/05/2014"
+      },
+      {
+        "file": "seasons/2014/json/resulterritpromovalls50414.json",
+        "discipline": "Javelina (500 g)",
+        "performance": "6.48",
+        "event_date": "5/4/2014"
+      },
+      {
+        "file": "seasons/2014/json/resulterritpromovalls50414.json",
+        "discipline": "Javelina (500 g)",
+        "performance": "11.05",
+        "event_date": "5/4/2014"
+      },
+      {
+        "file": "seasons/2014/json/resulterritpromovalls50414.json",
+        "discipline": "Javelina (500 g)",
+        "performance": "11.28",
+        "event_date": "5/4/2014"
+      }
+    ],
+    "refs_total": 12
   },
   {
     "athlete_name": "Mireia Viera",
@@ -7550,12 +7585,6 @@
     "candidates": null,
     "refs": [
       {
-        "file": "seasons/2015/json/resulcontrolcgt100515.json",
-        "discipline": "300 metres llisos",
-        "performance": "1:06.50",
-        "event_date": "10/05/2015"
-      },
-      {
         "file": "seasons/2015/json/resultrofeunastic70315.json",
         "discipline": "300 metres llisos",
         "performance": "1:10.10",
@@ -7578,9 +7607,15 @@
         "discipline": "60 metres llisos",
         "performance": "10.19",
         "event_date": "13/01/2018"
+      },
+      {
+        "file": "seasons/2018/json/resultat-20180113-controlgenercambrils.json",
+        "discipline": "600 metres llisos",
+        "performance": "2:16.63",
+        "event_date": "13/01/2018"
       }
     ],
-    "refs_total": 15
+    "refs_total": 14
   },
   {
     "athlete_name": "Nahim Oulad Cabeza",
@@ -7783,18 +7818,6 @@
         "event_date": "17/05/2014"
       },
       {
-        "file": "seasons/2014/json/resulcontrolcgt240514.json",
-        "discipline": "600 metres llisos",
-        "performance": "2:32.00",
-        "event_date": "24/05/2014"
-      },
-      {
-        "file": "seasons/2014/json/resulcontrolcgt240514.json",
-        "discipline": "Llargada",
-        "performance": "10.89",
-        "event_date": "24/05/2014"
-      },
-      {
         "file": "seasons/2015/json/resulcnatterritamposta250415.json",
         "discipline": "Llargada",
         "performance": "3.30",
@@ -7805,9 +7828,21 @@
         "discipline": "Llargada",
         "performance": "3.02",
         "event_date": "25/04/2015"
+      },
+      {
+        "file": "seasons/2015/json/resulcnatterritamposta250415.json",
+        "discipline": "Llargada",
+        "performance": "3.09",
+        "event_date": "25/04/2015"
+      },
+      {
+        "file": "seasons/2015/json/resulcnatterritamposta250415.json",
+        "discipline": "Pes (2 Kg)",
+        "performance": "4.15",
+        "event_date": "25/04/2015"
       }
     ],
-    "refs_total": 14
+    "refs_total": 12
   },
   {
     "athlete_name": "Nil Pages Corts",
@@ -7971,6 +8006,31 @@
         "discipline": "Alçada",
         "performance": "1.00",
         "event_date": "03/02/2018"
+      }
+    ]
+  },
+  {
+    "athlete_name": "Nolla Ferre, Olivia",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2015/json/resulcontrolnastic310515.json",
+        "discipline": "60 METRES LLISOS                             ALEVI FEMENÍ",
+        "performance": "10.10",
+        "event_date": "31/05/2015"
+      },
+      {
+        "file": "seasons/2015/json/resulcontrolnastic310515.json",
+        "discipline": "600 METRES LLISOS                         ALEVI FEMENÍ",
+        "performance": "2:21.80",
+        "event_date": "31/05/2015"
+      },
+      {
+        "file": "seasons/2015/json/resulcontrolnastic310515.json",
+        "discipline": "PILOTA (400 g.)                               ALEVI FEMENÍ",
+        "performance": "11,69",
+        "event_date": "31/05/2015"
       }
     ]
   },
@@ -8301,12 +8361,6 @@
     "candidates": null,
     "refs": [
       {
-        "file": "seasons/2015/json/resulcontrolcgt100515.json",
-        "discipline": "300 metres llisos",
-        "performance": "1:05.40",
-        "event_date": "10/05/2015"
-      },
-      {
         "file": "seasons/2015/json/resultrofeunastic70315.json",
         "discipline": "300 metres llisos",
         "performance": "1:04.50",
@@ -8350,7 +8404,7 @@
         "event_date": "12/04/2014"
       }
     ],
-    "refs_total": 51
+    "refs_total": 53
   },
   {
     "athlete_name": "PAREDES RUBÉN",
@@ -8489,7 +8543,7 @@
         "event_date": "2/4/2011"
       }
     ],
-    "refs_total": 19
+    "refs_total": 23
   },
   {
     "athlete_name": "PAULA PLANAS BARRIACH",
@@ -8573,12 +8627,6 @@
     "candidates": null,
     "refs": [
       {
-        "file": "seasons/2015/json/resulcontrolcgt100515.json",
-        "discipline": "Llargada",
-        "performance": "1.88",
-        "event_date": "10/05/2015"
-      },
-      {
         "file": "seasons/2015/json/resultrofeunastic70315.json",
         "discipline": "Llargada",
         "performance": "2.20",
@@ -8648,19 +8696,19 @@
         "event_date": "23/05/2015"
       },
       {
-        "file": "seasons/2016/json/resulcontrolnastic281115.json",
-        "discipline": "Llargada",
-        "performance": "2.99",
-        "event_date": "28/11/2015"
+        "file": "seasons/2015/json/resulcontrolnastic310515.json",
+        "discipline": "60 METRES LLISOS                             ALEVI FEMENÍ",
+        "performance": "10.30",
+        "event_date": "31/05/2015"
       },
       {
-        "file": "seasons/2016/json/resulcontrolvalls60216.json",
-        "discipline": "Llargada",
-        "performance": "3.05",
-        "event_date": "06/02/2016"
+        "file": "seasons/2015/json/resulcontrolnastic310515.json",
+        "discipline": "PILOTA (400 g.)                               ALEVI FEMENÍ",
+        "performance": "10,61",
+        "event_date": "31/05/2015"
       }
     ],
-    "refs_total": 8
+    "refs_total": 10
   },
   {
     "athlete_name": "Paco Lorenzo Valldosera",
@@ -8823,19 +8871,6 @@
         "discipline": "Llargada",
         "performance": "2.70",
         "event_date": "13/01/2018"
-      }
-    ]
-  },
-  {
-    "athlete_name": "Pau Rozas Belliedo",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2015/json/resulcontrolcgt100515.json",
-        "discipline": "300 metres llisos",
-        "performance": "1:23.70",
-        "event_date": "10/05/2015"
       }
     ]
   },
@@ -9289,18 +9324,18 @@
       },
       {
         "file": "seasons/2014/json/resulcontrolcgt240514.json",
-        "discipline": "1000 metres marxa",
-        "performance": "7:14.90",
+        "discipline": "SALT D'ALÇADA BENJAMI MASCULÍ",
+        "performance": "0,85",
         "event_date": "24/05/2014"
       },
       {
-        "file": "seasons/2014/json/resulcontrolcgt240514.json",
-        "discipline": "Alçada",
-        "performance": "0.85",
-        "event_date": "24/05/2014"
+        "file": "seasons/2014/json/resulterritpromovalls50414.json",
+        "discipline": "Javelina (500 g)",
+        "performance": "11.77",
+        "event_date": "5/4/2014"
       }
     ],
-    "refs_total": 9
+    "refs_total": 8
   },
   {
     "athlete_name": "ROZAS BELLIDO PAU",
@@ -9312,19 +9347,6 @@
         "discipline": "Llargada",
         "performance": "1.48",
         "event_date": "7/3/2015"
-      }
-    ]
-  },
-  {
-    "athlete_name": "ROZAS BELLIEDO PAU",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2015/json/resulcontrolcgt100515.json",
-        "discipline": "Llargada",
-        "performance": "1.99",
-        "event_date": "10/05/2015"
       }
     ]
   },
@@ -9353,18 +9375,18 @@
       },
       {
         "file": "seasons/2013/json/resulcatbenjami150613.json",
-        "discipline": "Llargada",
+        "discipline": "SALT DE LLARGADA BENJAMÍ MASCULÍ",
         "performance": "3.20",
         "event_date": "15/06/2013"
       },
       {
         "file": "seasons/2013/json/resulcatbenjami150613.json",
-        "discipline": "Llargada",
+        "discipline": "SALT DE LLARGADA BENJAMÍ MASCULÍ",
         "performance": "3.22",
         "event_date": "15/06/2013"
       }
     ],
-    "refs_total": 98
+    "refs_total": 100
   },
   {
     "athlete_name": "Ramon Mir Uribe Palau",
@@ -9382,19 +9404,6 @@
         "discipline": "1.000m Marcha S10 MASC. en pista",
         "performance": "NP",
         "event_date": "04/06/2022"
-      }
-    ]
-  },
-  {
-    "athlete_name": "Raquel BF Mestre Rolan",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2015/json/resulcontrolnastic310515.json",
-        "discipline": "Llargada",
-        "performance": "2.73",
-        "event_date": "31/05/2015"
       }
     ]
   },
@@ -9621,62 +9630,24 @@
       },
       {
         "file": "seasons/2015/json/resulcontrolcgt100515.json",
-        "discipline": "1000 metres marxa",
+        "discipline": "60 METRES LLISOS                                   BENJAMI MASCULÍ",
+        "performance": "10.80",
+        "event_date": "10/05/2015"
+      },
+      {
+        "file": "seasons/2015/json/resulcontrolcgt100515.json",
+        "discipline": "1000 METRES MARXA                                      BENJAMI MASCULÍ",
         "performance": "6:55.10",
         "event_date": "10/05/2015"
       },
       {
-        "file": "seasons/2016/json/resulterritpromotarragona140516.json",
-        "discipline": "Alçada",
-        "performance": "1.18",
-        "event_date": "14/05/2016"
-      },
-      {
-        "file": "seasons/2016/json/resulterritpromovalls230416.json",
-        "discipline": "Javelina (500 g)",
-        "performance": "22.24",
-        "event_date": "23/04/2016"
+        "file": "seasons/2015/json/resulcontrolcgt100515.json",
+        "discipline": "PILOTA (250 g.)                                  BENJAMI MASCULÍ",
+        "performance": "18,99",
+        "event_date": "10/05/2015"
       }
     ],
-    "refs_total": 7
-  },
-  {
-    "athlete_name": "SUAREZ PIZA ARIADNA",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2014/json/resulcontrolcgt240514.json",
-        "discipline": "1000 metres marxa",
-        "performance": "6:36.60",
-        "event_date": "24/05/2014"
-      },
-      {
-        "file": "seasons/2014/json/resulcontrolcgt240514.json",
-        "discipline": "Alçada",
-        "performance": "0.75",
-        "event_date": "24/05/2014"
-      },
-      {
-        "file": "seasons/2014/json/resulterritpromovalls50414.json",
-        "discipline": "Javelina (500 g)",
-        "performance": "10.90",
-        "event_date": "5/4/2014"
-      },
-      {
-        "file": "seasons/2014/json/resulterritpromovalls50414.json",
-        "discipline": "Javelina (500 g)",
-        "performance": "11.09",
-        "event_date": "5/4/2014"
-      },
-      {
-        "file": "seasons/2014/json/resulterritpromovalls50414.json",
-        "discipline": "Javelina (500 g)",
-        "performance": "9.81",
-        "event_date": "5/4/2014"
-      }
-    ],
-    "refs_total": 10
+    "refs_total": 9
   },
   {
     "athlete_name": "Segolene-josephine Deconinck Urbano",
@@ -9742,6 +9713,44 @@
     ]
   },
   {
+    "athlete_name": "Suarez Piza, Ariadna",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2014/json/resulcontrolcgt240514.json",
+        "discipline": "60 METRES LLISOS                          BENJAMI FEMENÍ",
+        "performance": "11.00",
+        "event_date": "24/05/2014"
+      },
+      {
+        "file": "seasons/2014/json/resulcontrolcgt240514.json",
+        "discipline": "SALT D'ALÇADA BENJAMI FEMENÍ",
+        "performance": "0,75",
+        "event_date": "24/05/2014"
+      },
+      {
+        "file": "seasons/2014/json/resulterritpromovalls50414.json",
+        "discipline": "Javelina (500 g)",
+        "performance": "10.90",
+        "event_date": "5/4/2014"
+      },
+      {
+        "file": "seasons/2014/json/resulterritpromovalls50414.json",
+        "discipline": "Javelina (500 g)",
+        "performance": "11.09",
+        "event_date": "5/4/2014"
+      },
+      {
+        "file": "seasons/2014/json/resulterritpromovalls50414.json",
+        "discipline": "Javelina (500 g)",
+        "performance": "9.81",
+        "event_date": "5/4/2014"
+      }
+    ],
+    "refs_total": 12
+  },
+  {
     "athlete_name": "TIBAU TORTAJADA GUTIÉRREZ FONT",
     "strategy": "no_match",
     "candidates": null,
@@ -9755,20 +9764,20 @@
     ]
   },
   {
-    "athlete_name": "TORRES RIONE ALBA",
+    "athlete_name": "Torres Rione, Alba",
     "strategy": "no_match",
     "candidates": null,
     "refs": [
       {
         "file": "seasons/2014/json/resulcontrolcgt240514.json",
-        "discipline": "1000 metres marxa",
-        "performance": "7:23.80",
+        "discipline": "60 METRES LLISOS                          BENJAMI FEMENÍ",
+        "performance": "11.40",
         "event_date": "24/05/2014"
       },
       {
         "file": "seasons/2014/json/resulcontrolcgt240514.json",
-        "discipline": "Alçada",
-        "performance": "0.75",
+        "discipline": "SALT D'ALÇADA BENJAMI FEMENÍ",
+        "performance": "0,75",
         "event_date": "24/05/2014"
       },
       {
@@ -9790,23 +9799,23 @@
         "event_date": "5/4/2014"
       }
     ],
-    "refs_total": 11
+    "refs_total": 14
   },
   {
-    "athlete_name": "TORRES RIONE JANA",
+    "athlete_name": "Torres Rione, Jana",
     "strategy": "no_match",
     "candidates": null,
     "refs": [
       {
         "file": "seasons/2014/json/resulcontrolcgt240514.json",
-        "discipline": "1000 metres marxa",
-        "performance": "7:29.70",
+        "discipline": "60 METRES LLISOS                          BENJAMI FEMENÍ",
+        "performance": "11.40",
         "event_date": "24/05/2014"
       },
       {
         "file": "seasons/2014/json/resulcontrolcgt240514.json",
-        "discipline": "Alçada",
-        "performance": "0.80",
+        "discipline": "SALT D'ALÇADA BENJAMI FEMENÍ",
+        "performance": "0,80",
         "event_date": "24/05/2014"
       },
       {
@@ -9828,7 +9837,7 @@
         "event_date": "5/4/2014"
       }
     ],
-    "refs_total": 14
+    "refs_total": 17
   },
   {
     "athlete_name": "UNAISA GUIJARRO ESTEBAN",
@@ -9866,7 +9875,7 @@
         "event_date": "23/05/2015"
       }
     ],
-    "refs_total": 13
+    "refs_total": 12
   },
   {
     "athlete_name": "VELASCO FARRE JUAN",
@@ -9905,6 +9914,19 @@
       }
     ],
     "refs_total": 9
+  },
+  {
+    "athlete_name": "Valdivia Callao, Aroa",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2014/json/resulcontrolcgt240514.json",
+        "discipline": "60 METRES LLISOS                          BENJAMI FEMENÍ",
+        "performance": "11.00",
+        "event_date": "24/05/2014"
+      }
+    ]
   },
   {
     "athlete_name": "Vera DALMASES MIRETE",
@@ -10179,6 +10201,19 @@
     ]
   },
   {
+    "athlete_name": "dalac Sanchez",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2015/json/resulcontrolcadetjuniorpc280215.json",
+        "discipline": "Pes (6 Kg) JUNIOR MASC. PC",
+        "performance": "9.73",
+        "event_date": "28/02/2015"
+      }
+    ]
+  },
+  {
     "athlete_name": "f) Iker Costa Bakker",
     "strategy": "no_match",
     "candidates": null,
@@ -10194,43 +10229,6 @@
         "discipline": "1.000m S10 MASC. AL",
         "performance": "4:31.93",
         "event_date": "30/03/2019"
-      }
-    ]
-  },
-  {
-    "athlete_name": "ferran Blanco Calatrava",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2015/json/resulcontrolcgt100515.json",
-        "discipline": "300 metres llisos",
-        "performance": "1:42.00",
-        "event_date": "10/05/2015"
-      },
-      {
-        "file": "seasons/2018/json/resultat-20180113-controlgenercambrils.json",
-        "discipline": "60 metres llisos",
-        "performance": "11.68",
-        "event_date": "13/01/2018"
-      },
-      {
-        "file": "seasons/2018/json/resultat-20180113-controlgenercambrils.json",
-        "discipline": "1000 metres llisos",
-        "performance": "4:43.86",
-        "event_date": "13/01/2018"
-      },
-      {
-        "file": "seasons/2018/json/resultat-2018042829-controlprimaveracambrils.json",
-        "discipline": "60 metres llisos",
-        "performance": "11.41",
-        "event_date": "28/04/2018"
-      },
-      {
-        "file": "seasons/2018/json/resultat-2018042829-controlprimaveracambrils.json",
-        "discipline": "1000 metres llisos",
-        "performance": "4:33.91",
-        "event_date": "28/04/2018"
       }
     ]
   },

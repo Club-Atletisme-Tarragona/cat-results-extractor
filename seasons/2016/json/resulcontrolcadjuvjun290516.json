@@ -2,97 +2,130 @@
   "event_name": "Control cadet, juvenil i junior",
   "event_date": "29/05/2016",
   "event_location": "Mataró",
-  "total_results": 8,
+  "total_results": 11,
   "event_src": "https://old.fcatletisme.cat/Pairelliure/2016/resulcontrolcadjuvjun290516.pdf",
+  "is_short_track": false,
   "results": [
+    {
+      "athlete_name": "Abdelhakim Hamid",
+      "athlete_dob": "02/08/1997",
+      "athlete_id": "CT22899",
+      "performance": "4:12.66",
+      "discipline": "1.500m MASC. AL - JUVENIL JUNIOR",
+      "wind": null,
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 538
+    },
+    {
+      "athlete_name": "Aleix Lago Garbajosa",
+      "athlete_dob": "26/09/2002",
+      "athlete_id": "CL71714",
+      "performance": "5:13.11",
+      "discipline": "1.500m MASC. AL - JUVENIL JUNIOR",
+      "wind": null,
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 660
+    },
+    {
+      "athlete_name": "Marta Ros Borrell",
+      "athlete_dob": "25/03/2002",
+      "athlete_id": "CL71741",
+      "performance": "6:06.60",
+      "discipline": "1.500m FEM. AL - JUVENIL JUNIOR",
+      "wind": null,
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 1675
+    },
     {
       "athlete_name": "Montserrat Montañes Arbo",
       "athlete_dob": "22/02/2001",
       "athlete_id": "CT24566",
       "performance": "11.75",
-      "discipline": "Pes (3 Kg)",
-      "raw_discipline_name": "Peso (3kg) FEM. AL - CADETE",
+      "discipline": "Peso (3 Kg) FEM. AL - CADETE",
       "wind": null,
-      "internal_id": 497,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 497
     },
     {
       "athlete_name": "Montserrat Montañes Arbo",
       "athlete_dob": "22/02/2001",
       "athlete_id": "CT24566",
       "performance": "11.02",
-      "discipline": "Pes (3 Kg)",
-      "raw_discipline_name": "Peso (3kg) FEM. AL - CADETE",
+      "discipline": "Peso (3 Kg) FEM. AL - CADETE",
       "wind": null,
-      "internal_id": 497,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 497
     },
     {
       "athlete_name": "Montserrat Montañes Arbo",
       "athlete_dob": "22/02/2001",
       "athlete_id": "CT24566",
       "performance": "12.23",
-      "discipline": "Pes (3 Kg)",
-      "raw_discipline_name": "Peso (3kg) FEM. AL - CADETE",
+      "discipline": "Peso (3 Kg) FEM. AL - CADETE",
       "wind": null,
-      "internal_id": 497,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 497
     },
     {
       "athlete_name": "Montserrat Montañes Arbo",
       "athlete_dob": "22/02/2001",
       "athlete_id": "CT24566",
       "performance": "11.98",
-      "discipline": "Pes (3 Kg)",
-      "raw_discipline_name": "Peso (3kg) FEM. AL - CADETE",
+      "discipline": "Peso (3 Kg) FEM. AL - CADETE",
       "wind": null,
-      "internal_id": 497,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 497
     },
     {
       "athlete_name": "Montserrat Montañes Arbo",
       "athlete_dob": "22/02/2001",
       "athlete_id": "CT24566",
       "performance": "11.01",
-      "discipline": "Pes (3 Kg)",
-      "raw_discipline_name": "Peso (3kg) FEM. AL - CADETE",
+      "discipline": "Peso (3 Kg) FEM. AL - CADETE",
       "wind": null,
-      "internal_id": 497,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 497
     },
     {
       "athlete_name": "Montserrat Montañes Arbo",
       "athlete_dob": "22/02/2001",
       "athlete_id": "CT24566",
       "performance": "11.26",
-      "discipline": "Pes (3 Kg)",
-      "raw_discipline_name": "Peso (3kg) FEM. AL - CADETE",
+      "discipline": "Peso (3 Kg) FEM. AL - CADETE",
       "wind": null,
-      "internal_id": 497,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 497
     },
     {
       "athlete_name": "Montserrat Montañes Arbo",
       "athlete_dob": "22/02/2001",
       "athlete_id": "CT24566",
       "performance": "44.56",
-      "discipline": "Martell (3 Kg)",
-      "raw_discipline_name": "Martillo (3kg) FEM. - CADETE",
+      "discipline": "Martillo (3 Kg) FEM. - CADETE",
       "wind": null,
-      "internal_id": 497,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 497
     },
     {
       "athlete_name": "Montserrat Montañes Arbo",
       "athlete_dob": "22/02/2001",
       "athlete_id": "CT24566",
       "performance": "46.36",
-      "discipline": "Martell (3 Kg)",
-      "raw_discipline_name": "Martillo (3kg) FEM. - CADETE",
+      "discipline": "Martillo (3 Kg) FEM. - CADETE",
       "wind": null,
-      "internal_id": 497,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 497
     }
-  ],
-  "is_short_track": false
+  ]
 }

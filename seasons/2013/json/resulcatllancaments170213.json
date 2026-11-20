@@ -1,98 +1,98 @@
 {
   "event_name": "",
   "event_date": "17/02/2013",
-  "event_location": "Barcelona-SE",
+  "event_location": "Club                                                 Lic",
   "total_results": 8,
   "event_src": "http://old.fcatletisme.cat/Pairelliure/pairelliure2013/resulcatllancaments170213.pdf",
+  "is_short_track": false,
   "results": [
     {
       "athlete_name": "Barbara Pintado Duch",
       "athlete_dob": "29/04/1985",
       "athlete_id": "CL13219",
       "performance": "35.11",
-      "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "Disco (1kg) FEM.",
+      "discipline": "Disco (1 Kg) FEM.",
       "wind": null,
-      "internal_id": 159,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 159
     },
     {
       "athlete_name": "Barbara Pintado Duch",
       "athlete_dob": "29/04/1985",
       "athlete_id": "CL13219",
       "performance": "30.45",
-      "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "Disco (1kg) FEM.",
+      "discipline": "Disco (1 Kg) FEM.",
       "wind": null,
-      "internal_id": 159,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 159
     },
     {
       "athlete_name": "Barbara Pintado Duch",
       "athlete_dob": "29/04/1985",
       "athlete_id": "CL13219",
       "performance": "31.78",
-      "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "Disco (1kg) FEM.",
+      "discipline": "Disco (1 Kg) FEM.",
       "wind": null,
-      "internal_id": 159,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 159
     },
     {
       "athlete_name": "Barbara Pintado Duch",
       "athlete_dob": "29/04/1985",
       "athlete_id": "CL13219",
       "performance": "30.26",
-      "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "Disco (1kg) FEM.",
+      "discipline": "Disco (1 Kg) FEM.",
       "wind": null,
-      "internal_id": 159,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 159
     },
     {
       "athlete_name": "Maria Montañes Arbo",
       "athlete_dob": "11/05/1995",
       "athlete_id": "CT19595",
       "performance": "29.30",
-      "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "Disco (1kg) FEM.",
+      "discipline": "Disco (1 Kg) FEM.",
       "wind": null,
-      "internal_id": 354,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 354
     },
     {
       "athlete_name": "Maria Montañes Arbo",
       "athlete_dob": "11/05/1995",
       "athlete_id": "CT19595",
       "performance": "32.66",
-      "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "Disco (1kg) FEM.",
+      "discipline": "Disco (1 Kg) FEM.",
       "wind": null,
-      "internal_id": 354,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 354
     },
     {
       "athlete_name": "Maria Montañes Arbo",
       "athlete_dob": "11/05/1995",
       "athlete_id": "CT19595",
       "performance": "31.46",
-      "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "Disco (1kg) FEM.",
+      "discipline": "Disco (1 Kg) FEM.",
       "wind": null,
-      "internal_id": 354,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 354
     },
     {
       "athlete_name": "Maria Montañes Arbo",
       "athlete_dob": "11/05/1995",
       "athlete_id": "CT19595",
       "performance": "31.89",
-      "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "Disco (1kg) FEM.",
+      "discipline": "Disco (1 Kg) FEM.",
       "wind": null,
-      "internal_id": 354,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 354
     }
-  ],
-  "is_short_track": false
+  ]
 }

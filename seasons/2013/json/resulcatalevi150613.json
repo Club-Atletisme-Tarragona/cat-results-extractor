@@ -1,307 +1,318 @@
 {
   "event_name": "Final Campionat Catalunya Aleví",
   "event_date": "15/06/2013",
-  "event_location": "Tarragona",
-  "total_results": 27,
+  "event_location": "Tarragona-CLA",
+  "total_results": 28,
   "event_src": "http://old.fcatletisme.cat/Promocio/promocio2013/resulcatalevi150613.pdf",
+  "is_short_track": false,
   "results": [
+    {
+      "athlete_name": "Nil Pinyol Mateu",
+      "athlete_dob": "26/05/2003",
+      "athlete_id": "CL60151",
+      "performance": "1.11",
+      "discipline": "SALT D'ALÇADA ALEVÍ MASCULÍ",
+      "wind": null,
+      "position": 17,
+      "timing": "electronic",
+      "internal_id": 714
+    },
     {
       "athlete_name": "Pep Aldave Mas",
       "athlete_dob": "29/08/2002",
       "athlete_id": "CL64856",
       "performance": "3.65",
-      "discipline": "Llargada",
-      "raw_discipline_name": "SALT DE LLARGADA ALEVÍ MASCULÍ",
+      "discipline": "SALT DE LLARGADA ALEVÍ MASCULÍ",
       "wind": null,
-      "internal_id": 640,
-      "timing": "electronic"
+      "position": 9,
+      "timing": "electronic",
+      "internal_id": 640
     },
     {
       "athlete_name": "Pep Aldave Mas",
       "athlete_dob": "29/08/2002",
       "athlete_id": "CL64856",
       "performance": "3.76",
-      "discipline": "Llargada",
-      "raw_discipline_name": "SALT DE LLARGADA ALEVÍ MASCULÍ",
+      "discipline": "SALT DE LLARGADA ALEVÍ MASCULÍ",
       "wind": null,
-      "internal_id": 640,
-      "timing": "electronic"
+      "position": 9,
+      "timing": "electronic",
+      "internal_id": 640
     },
     {
       "athlete_name": "Nil Pinyol Mateu",
       "athlete_dob": "26/05/2003",
       "athlete_id": "CL60151",
       "performance": "3.20",
-      "discipline": "Llargada",
-      "raw_discipline_name": "SALT DE LLARGADA ALEVÍ MASCULÍ",
+      "discipline": "SALT DE LLARGADA ALEVÍ MASCULÍ",
       "wind": null,
-      "internal_id": 714,
-      "timing": "electronic"
+      "position": 18,
+      "timing": "electronic",
+      "internal_id": 714
     },
     {
       "athlete_name": "Nil Pinyol Mateu",
       "athlete_dob": "26/05/2003",
       "athlete_id": "CL60151",
       "performance": "3.59",
-      "discipline": "Llargada",
-      "raw_discipline_name": "SALT DE LLARGADA ALEVÍ MASCULÍ",
+      "discipline": "SALT DE LLARGADA ALEVÍ MASCULÍ",
       "wind": null,
-      "internal_id": 714,
-      "timing": "electronic"
+      "position": 18,
+      "timing": "electronic",
+      "internal_id": 714
     },
     {
       "athlete_name": "Hugo Berenguel Torres",
       "athlete_dob": "28/08/2003",
       "athlete_id": "CL59448",
       "performance": "6.06",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "LLANÇAMENT DE PES ALEVÍ MASCULÍ",
+      "discipline": "LLANÇAMENT DE PES ALEVÍ MASCULÍ",
       "wind": null,
-      "internal_id": null,
-      "timing": "electronic"
+      "position": 12,
+      "timing": "electronic",
+      "internal_id": null
     },
     {
       "athlete_name": "Hugo Berenguel Torres",
       "athlete_dob": "28/08/2003",
       "athlete_id": "CL59448",
       "performance": "5.26",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "LLANÇAMENT DE PES ALEVÍ MASCULÍ",
+      "discipline": "LLANÇAMENT DE PES ALEVÍ MASCULÍ",
       "wind": null,
-      "internal_id": null,
-      "timing": "electronic"
+      "position": 12,
+      "timing": "electronic",
+      "internal_id": null
     },
     {
       "athlete_name": "Mar Vazquez Domingo",
       "athlete_dob": "17/03/2002",
       "athlete_id": "CL57703",
-      "performance": "13:20.00",
-      "discipline": "2000 metres marxa",
-      "raw_discipline_name": "2000 METRES MARXA ALEVÍ MASCULÍ",
+      "performance": "11.42",
+      "discipline": "2000 METRES MARXA ALEVÍ MASCULÍ",
       "wind": null,
-      "internal_id": 642,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 642
     },
     {
       "athlete_name": "Ines Delgado Pizzo",
       "athlete_dob": "19/05/2002",
       "athlete_id": "CL64855",
       "performance": "1.27",
-      "discipline": "Alçada",
-      "raw_discipline_name": "SALT D'ALÇADA ALEVÍ FEMENÍ",
+      "discipline": "SALT D'ALÇADA ALEVÍ FEMENÍ",
       "wind": null,
-      "internal_id": 667,
-      "timing": "electronic"
+      "position": 2,
+      "timing": "electronic",
+      "internal_id": 667
     },
     {
       "athlete_name": "Berta Sanchez Ruiz",
       "athlete_dob": "05/08/2002",
       "athlete_id": "CL59455",
       "performance": "1.65",
-      "discipline": "Perxa",
-      "raw_discipline_name": "SALT AMB PERXA ALEVÍ FEMENÍ",
+      "discipline": "SALT AMB PERXA ALEVÍ FEMENÍ",
       "wind": null,
-      "internal_id": 643,
-      "timing": "electronic"
+      "position": 4,
+      "timing": "electronic",
+      "internal_id": 643
     },
     {
       "athlete_name": "Mar Vazquez Domingo",
       "athlete_dob": "17/03/2002",
       "athlete_id": "CL57703",
       "performance": "3.91",
-      "discipline": "Llargada",
-      "raw_discipline_name": "SALT DE LLARGADA ALEVÍ FEMENÍ",
+      "discipline": "SALT DE LLARGADA ALEVÍ FEMENÍ",
       "wind": null,
-      "internal_id": 642,
-      "timing": "electronic"
+      "position": 3,
+      "timing": "electronic",
+      "internal_id": 642
     },
     {
       "athlete_name": "Mar Vazquez Domingo",
       "athlete_dob": "17/03/2002",
       "athlete_id": "CL57703",
       "performance": "3.77",
-      "discipline": "Llargada",
-      "raw_discipline_name": "SALT DE LLARGADA ALEVÍ FEMENÍ",
+      "discipline": "SALT DE LLARGADA ALEVÍ FEMENÍ",
       "wind": null,
-      "internal_id": 642,
-      "timing": "electronic"
+      "position": 3,
+      "timing": "electronic",
+      "internal_id": 642
     },
     {
       "athlete_name": "Mar Vazquez Domingo",
       "athlete_dob": "17/03/2002",
       "athlete_id": "CL57703",
       "performance": "3.52",
-      "discipline": "Llargada",
-      "raw_discipline_name": "SALT DE LLARGADA ALEVÍ FEMENÍ",
+      "discipline": "SALT DE LLARGADA ALEVÍ FEMENÍ",
       "wind": null,
-      "internal_id": 642,
-      "timing": "electronic"
+      "position": 3,
+      "timing": "electronic",
+      "internal_id": 642
     },
     {
       "athlete_name": "Mar Vazquez Domingo",
       "athlete_dob": "17/03/2002",
       "athlete_id": "CL57703",
       "performance": "4.11",
-      "discipline": "Llargada",
-      "raw_discipline_name": "SALT DE LLARGADA ALEVÍ FEMENÍ",
+      "discipline": "SALT DE LLARGADA ALEVÍ FEMENÍ",
       "wind": null,
-      "internal_id": 642,
-      "timing": "electronic"
+      "position": 3,
+      "timing": "electronic",
+      "internal_id": 642
     },
     {
       "athlete_name": "Carla Berenguel Torres",
       "athlete_dob": "22/02/2002",
       "athlete_id": "CL57697",
       "performance": "3.61",
-      "discipline": "Llargada",
-      "raw_discipline_name": "SALT DE LLARGADA ALEVÍ FEMENÍ",
+      "discipline": "SALT DE LLARGADA ALEVÍ FEMENÍ",
       "wind": null,
-      "internal_id": null,
-      "timing": "electronic"
+      "position": 9,
+      "timing": "electronic",
+      "internal_id": null
     },
     {
       "athlete_name": "Carla Berenguel Torres",
       "athlete_dob": "22/02/2002",
       "athlete_id": "CL57697",
       "performance": "3.76",
-      "discipline": "Llargada",
-      "raw_discipline_name": "SALT DE LLARGADA ALEVÍ FEMENÍ",
+      "discipline": "SALT DE LLARGADA ALEVÍ FEMENÍ",
       "wind": null,
-      "internal_id": null,
-      "timing": "electronic"
+      "position": 9,
+      "timing": "electronic",
+      "internal_id": null
     },
     {
       "athlete_name": "Carla Berenguel Torres",
       "athlete_dob": "22/02/2002",
       "athlete_id": "CL57697",
       "performance": "3.58",
-      "discipline": "Llargada",
-      "raw_discipline_name": "SALT DE LLARGADA ALEVÍ FEMENÍ",
+      "discipline": "SALT DE LLARGADA ALEVÍ FEMENÍ",
       "wind": null,
-      "internal_id": null,
-      "timing": "electronic"
+      "position": 9,
+      "timing": "electronic",
+      "internal_id": null
     },
     {
       "athlete_name": "Carla Berenguel Torres",
       "athlete_dob": "22/02/2002",
       "athlete_id": "CL57697",
       "performance": "7.47",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "LLANÇAMENT DE PES ALEVÍ FEMENÍ",
+      "discipline": "LLANÇAMENT DE PES ALEVÍ FEMENÍ",
       "wind": null,
-      "internal_id": null,
-      "timing": "electronic"
+      "position": 1,
+      "timing": "electronic",
+      "internal_id": null
     },
     {
       "athlete_name": "Carla Berenguel Torres",
       "athlete_dob": "22/02/2002",
       "athlete_id": "CL57697",
       "performance": "6.91",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "LLANÇAMENT DE PES ALEVÍ FEMENÍ",
+      "discipline": "LLANÇAMENT DE PES ALEVÍ FEMENÍ",
       "wind": null,
-      "internal_id": null,
-      "timing": "electronic"
+      "position": 1,
+      "timing": "electronic",
+      "internal_id": null
     },
     {
       "athlete_name": "Carla Berenguel Torres",
       "athlete_dob": "22/02/2002",
       "athlete_id": "CL57697",
       "performance": "7.68",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "LLANÇAMENT DE PES ALEVÍ FEMENÍ",
+      "discipline": "LLANÇAMENT DE PES ALEVÍ FEMENÍ",
       "wind": null,
-      "internal_id": null,
-      "timing": "electronic"
+      "position": 1,
+      "timing": "electronic",
+      "internal_id": null
     },
     {
       "athlete_name": "Carla Berenguel Torres",
       "athlete_dob": "22/02/2002",
       "athlete_id": "CL57697",
       "performance": "6.28",
-      "discipline": "Pes (2 Kg)",
-      "raw_discipline_name": "LLANÇAMENT DE PES ALEVÍ FEMENÍ",
+      "discipline": "LLANÇAMENT DE PES ALEVÍ FEMENÍ",
       "wind": null,
-      "internal_id": null,
-      "timing": "electronic"
+      "position": 1,
+      "timing": "electronic",
+      "internal_id": null
     },
     {
       "athlete_name": "Ines Delgado Pizzo",
       "athlete_dob": "19/05/2002",
       "athlete_id": "CL64855",
       "performance": "14.80",
-      "discipline": "Disc (600 g)",
-      "raw_discipline_name": "LLANÇAMENT DE DISC ALEVÍ FEMENÍ",
+      "discipline": "LLANÇAMENT DE DISC ALEVÍ FEMENÍ",
       "wind": null,
-      "internal_id": 667,
-      "timing": "electronic"
+      "position": 3,
+      "timing": "electronic",
+      "internal_id": 667
     },
     {
       "athlete_name": "Ines Delgado Pizzo",
       "athlete_dob": "19/05/2002",
       "athlete_id": "CL64855",
       "performance": "16.95",
-      "discipline": "Disc (600 g)",
-      "raw_discipline_name": "LLANÇAMENT DE DISC ALEVÍ FEMENÍ",
+      "discipline": "LLANÇAMENT DE DISC ALEVÍ FEMENÍ",
       "wind": null,
-      "internal_id": 667,
-      "timing": "electronic"
+      "position": 3,
+      "timing": "electronic",
+      "internal_id": 667
     },
     {
       "athlete_name": "Ines Delgado Pizzo",
       "athlete_dob": "19/05/2002",
       "athlete_id": "CL64855",
       "performance": "16.36",
-      "discipline": "Disc (600 g)",
-      "raw_discipline_name": "LLANÇAMENT DE DISC ALEVÍ FEMENÍ",
+      "discipline": "LLANÇAMENT DE DISC ALEVÍ FEMENÍ",
       "wind": null,
-      "internal_id": 667,
-      "timing": "electronic"
+      "position": 3,
+      "timing": "electronic",
+      "internal_id": 667
     },
     {
       "athlete_name": "Ines Delgado Pizzo",
       "athlete_dob": "19/05/2002",
       "athlete_id": "CL64855",
       "performance": "15.74",
-      "discipline": "Disc (600 g)",
-      "raw_discipline_name": "LLANÇAMENT DE DISC ALEVÍ FEMENÍ",
+      "discipline": "LLANÇAMENT DE DISC ALEVÍ FEMENÍ",
       "wind": null,
-      "internal_id": 667,
-      "timing": "electronic"
+      "position": 3,
+      "timing": "electronic",
+      "internal_id": 667
     },
     {
       "athlete_name": "Laura Mascarell Julian",
       "athlete_dob": "14/06/2002",
       "athlete_id": "CL58311",
       "performance": "12.62",
-      "discipline": "Disc (600 g)",
-      "raw_discipline_name": "LLANÇAMENT DE DISC ALEVÍ FEMENÍ",
+      "discipline": "LLANÇAMENT DE DISC ALEVÍ FEMENÍ",
       "wind": null,
-      "internal_id": 646,
-      "timing": "electronic"
+      "position": 10,
+      "timing": "electronic",
+      "internal_id": 646
     },
     {
       "athlete_name": "Laura Mascarell Julian",
       "athlete_dob": "14/06/2002",
       "athlete_id": "CL58311",
       "performance": "11.82",
-      "discipline": "Disc (600 g)",
-      "raw_discipline_name": "LLANÇAMENT DE DISC ALEVÍ FEMENÍ",
+      "discipline": "LLANÇAMENT DE DISC ALEVÍ FEMENÍ",
       "wind": null,
-      "internal_id": 646,
-      "timing": "electronic"
+      "position": 10,
+      "timing": "electronic",
+      "internal_id": 646
     },
     {
       "athlete_name": "Laura Mascarell Julian",
       "athlete_dob": "14/06/2002",
       "athlete_id": "CL58311",
       "performance": "11.36",
-      "discipline": "Disc (600 g)",
-      "raw_discipline_name": "LLANÇAMENT DE DISC ALEVÍ FEMENÍ",
+      "discipline": "LLANÇAMENT DE DISC ALEVÍ FEMENÍ",
       "wind": null,
-      "internal_id": 646,
-      "timing": "electronic"
+      "position": 10,
+      "timing": "electronic",
+      "internal_id": 646
     }
-  ],
-  "is_short_track": false
+  ]
 }

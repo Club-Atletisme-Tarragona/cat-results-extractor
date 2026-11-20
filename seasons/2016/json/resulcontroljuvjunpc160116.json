@@ -1,120 +1,153 @@
 {
   "event_name": "Control Juvenil i Junior en Pista Coberta (3a. Jornada) - Control Juvenil i Junior en Pista Coberta (3a. Jornada)",
   "event_date": "16/01/2016",
-  "event_location": "Sabadell",
-  "total_results": 10,
+  "event_location": "Club                                              Lic",
+  "total_results": 13,
   "event_src": "https://old.fcatletisme.cat/Pcoberta/2016/resulcontroljuvjunpc160116.pdf",
+  "is_short_track": true,
   "results": [
     {
       "athlete_name": "Gerard Parera Bodi",
       "athlete_dob": "22/01/2000",
       "athlete_id": "CL25156",
       "performance": "0:55.62",
-      "discipline": "400 metres llisos",
-      "raw_discipline_name": "400m MASC. PC",
+      "discipline": "400m MASC. PC",
       "wind": null,
-      "internal_id": 522,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 522
+    },
+    {
+      "athlete_name": "Didac Alonso Del Campo",
+      "athlete_dob": "28/07/1999",
+      "athlete_id": "CL24104",
+      "performance": "1:00.09",
+      "discipline": "400m MASC. PC",
+      "wind": null,
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 468
     },
     {
       "athlete_name": "Yonas Aguilera Aguilera",
       "athlete_dob": "27/12/2000",
       "athlete_id": "CL25160",
       "performance": "0:59.19",
-      "discipline": "400 metres llisos",
-      "raw_discipline_name": "400m MASC. PC",
+      "discipline": "400m MASC. PC",
       "wind": null,
-      "internal_id": 524,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 524
+    },
+    {
+      "athlete_name": "Oriol Camacho Carrillo",
+      "athlete_dob": "27/02/2000",
+      "athlete_id": "CL25161",
+      "performance": "1:04.35",
+      "discipline": "400m MASC. PC",
+      "wind": null,
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 531
+    },
+    {
+      "athlete_name": "Gerard Parera Bodi",
+      "athlete_dob": "22/01/2000",
+      "athlete_id": "CL25156",
+      "performance": "9.40",
+      "discipline": "60m tanques JUV MASC. PC",
+      "wind": null,
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 522
     },
     {
       "athlete_name": "Maria Martin Borras",
       "athlete_dob": "31/03/1999",
       "athlete_id": "CT23429",
       "performance": "8.47",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt MASC. PC",
+      "discipline": "Triple Salt MASC. PC",
       "wind": null,
-      "internal_id": 474,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 474
     },
     {
       "athlete_name": "Andrea Lopez Urbano",
       "athlete_dob": "19/07/1998",
       "athlete_id": "CL22780",
       "performance": "8.89",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt MASC. PC",
+      "discipline": "Triple Salt MASC. PC",
       "wind": null,
-      "internal_id": 437,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 437
     },
     {
       "athlete_name": "Mireia Lopez Urbano",
       "athlete_dob": "07/12/2000",
       "athlete_id": "CT23556",
       "performance": "04.26",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt MASC. PC",
+      "discipline": "Triple Salt MASC. PC",
       "wind": null,
-      "internal_id": 527,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 527
     },
     {
       "athlete_name": "Mireia Lopez Urbano",
       "athlete_dob": "07/12/2000",
       "athlete_id": "CT23556",
       "performance": "9.08",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt MASC. PC",
+      "discipline": "Triple Salt MASC. PC",
       "wind": null,
-      "internal_id": 527,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 527
     },
     {
       "athlete_name": "Maria Buscail Brianso",
       "athlete_dob": "15/12/2000",
       "athlete_id": "CL25158",
       "performance": "07.10",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt MASC. PC",
+      "discipline": "Triple Salt MASC. PC",
       "wind": null,
-      "internal_id": 520,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 520
     },
     {
       "athlete_name": "Maria Buscail Brianso",
       "athlete_dob": "15/12/2000",
       "athlete_id": "CL25158",
       "performance": "11.44",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt MASC. PC",
+      "discipline": "Triple Salt MASC. PC",
       "wind": null,
-      "internal_id": 520,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 520
     },
     {
       "athlete_name": "Nerea Lago Garbajosa",
       "athlete_dob": "15/05/2000",
       "athlete_id": "CL25157",
       "performance": "08.45",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt MASC. PC",
+      "discipline": "Triple Salt MASC. PC",
       "wind": null,
-      "internal_id": 534,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 534
     },
     {
       "athlete_name": "Nerea Lago Garbajosa",
       "athlete_dob": "15/05/2000",
       "athlete_id": "CL25157",
       "performance": "10.91",
-      "discipline": "Triple",
-      "raw_discipline_name": "Triple Salt MASC. PC",
+      "discipline": "Triple Salt MASC. PC",
       "wind": null,
-      "internal_id": 534,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 534
     }
-  ],
-  "is_short_track": true
+  ]
 }

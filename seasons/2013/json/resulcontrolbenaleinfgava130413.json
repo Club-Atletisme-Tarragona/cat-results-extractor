@@ -2,86 +2,97 @@
   "event_name": "Control Benjamí, Aleví i Infantil (7ª J)",
   "event_date": "13/04/2013",
   "event_location": "Gavà",
-  "total_results": 7,
+  "total_results": 8,
   "event_src": "http://old.fcatletisme.cat/Promocio/promocio2013/resulcontrolbenaleinfgava130413.pdf",
+  "is_short_track": false,
   "results": [
+    {
+      "athlete_name": "Nerea Lago Garbajosa",
+      "athlete_dob": "15/05/2000",
+      "athlete_id": "CL54682",
+      "performance": "1.20",
+      "discipline": "Alçada INFANTIL FEMENI",
+      "wind": null,
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 534
+    },
     {
       "athlete_name": "Aleix Lago Garbajosa",
       "athlete_dob": "26/09/2002",
       "athlete_id": "CL57705",
       "performance": "4.58",
-      "discipline": "Pes (7.260 Kg)",
-      "raw_discipline_name": "Pes ALEVI MASCULI",
+      "discipline": "Pes ALEVI MASCULI",
       "wind": null,
-      "internal_id": 660,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 660
     },
     {
       "athlete_name": "Aleix Lago Garbajosa",
       "athlete_dob": "26/09/2002",
       "athlete_id": "CL57705",
       "performance": "5.25",
-      "discipline": "Pes (7.260 Kg)",
-      "raw_discipline_name": "Pes ALEVI MASCULI",
+      "discipline": "Pes ALEVI MASCULI",
       "wind": null,
-      "internal_id": 660,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 660
     },
     {
       "athlete_name": "Gerard Parera bodi",
       "athlete_dob": "22/01/2000",
       "athlete_id": "CL62287",
       "performance": "17.73",
-      "discipline": "Disc (2 Kg)",
-      "raw_discipline_name": "Disc INFANTIL MASCULI",
+      "discipline": "Disc INFANTIL MASCULI",
       "wind": null,
-      "internal_id": 522,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 522
     },
     {
       "athlete_name": "Gerard Parera bodi",
       "athlete_dob": "22/01/2000",
       "athlete_id": "CL62287",
       "performance": "18.18",
-      "discipline": "Disc (2 Kg)",
-      "raw_discipline_name": "Disc INFANTIL MASCULI",
+      "discipline": "Disc INFANTIL MASCULI",
       "wind": null,
-      "internal_id": 522,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 522
     },
     {
       "athlete_name": "Gerard Parera bodi",
       "athlete_dob": "22/01/2000",
       "athlete_id": "CL62287",
       "performance": "18.29",
-      "discipline": "Disc (2 Kg)",
-      "raw_discipline_name": "Disc INFANTIL MASCULI",
+      "discipline": "Disc INFANTIL MASCULI",
       "wind": null,
-      "internal_id": 522,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 522
     },
     {
       "athlete_name": "Gerard Parera bodi",
       "athlete_dob": "22/01/2000",
       "athlete_id": "CL62287",
       "performance": "20.25",
-      "discipline": "Disc (2 Kg)",
-      "raw_discipline_name": "Disc INFANTIL MASCULI",
+      "discipline": "Disc INFANTIL MASCULI",
       "wind": null,
-      "internal_id": 522,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 522
     },
     {
       "athlete_name": "Gerard Parera bodi",
       "athlete_dob": "22/01/2000",
       "athlete_id": "CL62287",
       "performance": "21.66",
-      "discipline": "Disc (2 Kg)",
-      "raw_discipline_name": "Disc INFANTIL MASCULI",
+      "discipline": "Disc INFANTIL MASCULI",
       "wind": null,
-      "internal_id": 522,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 522
     }
-  ],
-  "is_short_track": false
+  ]
 }

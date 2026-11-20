@@ -2,119 +2,141 @@
   "event_name": " - Barcelona (Estadi Joan Serrahima), 20 febrero 2016",
   "event_date": "20/02/2016",
   "event_location": "Barcelona-SE",
-  "total_results": 10,
+  "total_results": 12,
   "event_src": "https://old.fcatletisme.cat/Pairelliure/2016/resulcllancamentscadjuvjun200216.pdf",
+  "is_short_track": false,
   "results": [
     {
       "athlete_name": "Alvaro Jose Ferrez Hernandez",
       "athlete_dob": "06/08/1998",
       "athlete_id": "CL22781",
       "performance": "28.49",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "Javelina Júnior (800g) MASC.",
+      "discipline": "Javelina Júnior (800g) MASC.",
       "wind": null,
-      "internal_id": 432,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 432
     },
     {
       "athlete_name": "Alvaro Jose Ferrez Hernandez",
       "athlete_dob": "06/08/1998",
       "athlete_id": "CL22781",
       "performance": "30.71",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "Javelina Júnior (800g) MASC.",
+      "discipline": "Javelina Júnior (800g) MASC.",
       "wind": null,
-      "internal_id": 432,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 432
     },
     {
       "athlete_name": "Alvaro Jose Ferrez Hernandez",
       "athlete_dob": "06/08/1998",
       "athlete_id": "CL22781",
       "performance": "32.07",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "Javelina Júnior (800g) MASC.",
+      "discipline": "Javelina Júnior (800g) MASC.",
       "wind": null,
-      "internal_id": 432,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 432
     },
     {
       "athlete_name": "Alvaro Jose Ferrez Hernandez",
       "athlete_dob": "06/08/1998",
       "athlete_id": "CL22781",
       "performance": "31.26",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "Javelina Júnior (800g) MASC.",
+      "discipline": "Javelina Júnior (800g) MASC.",
       "wind": null,
-      "internal_id": 432,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 432
     },
     {
       "athlete_name": "Alvaro Jose Ferrez Hernandez",
       "athlete_dob": "06/08/1998",
       "athlete_id": "CL22781",
       "performance": "31.39",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "Javelina Júnior (800g) MASC.",
+      "discipline": "Javelina Júnior (800g) MASC.",
       "wind": null,
-      "internal_id": 432,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 432
     },
     {
       "athlete_name": "Alvaro Jose Ferrez Hernandez",
       "athlete_dob": "06/08/1998",
       "athlete_id": "CL22781",
       "performance": "30.43",
-      "discipline": "Javelina (800 g)",
-      "raw_discipline_name": "Javelina Júnior (800g) MASC.",
+      "discipline": "Javelina Júnior (800g) MASC.",
       "wind": null,
-      "internal_id": 432,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 432
     },
     {
       "athlete_name": "Montserrat Montañes Arbo",
       "athlete_dob": "22/02/2001",
       "athlete_id": "CT24566",
       "performance": "26.10",
-      "discipline": "Disc (800 g)",
-      "raw_discipline_name": "Disc Cadet (800g) FEM.",
+      "discipline": "Disc Cadet (800g) FEM.",
       "wind": null,
-      "internal_id": 497,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 497
     },
     {
       "athlete_name": "Montserrat Montañes Arbo",
       "athlete_dob": "22/02/2001",
       "athlete_id": "CT24566",
       "performance": "30.46",
-      "discipline": "Disc (800 g)",
-      "raw_discipline_name": "Disc Cadet (800g) FEM.",
+      "discipline": "Disc Cadet (800g) FEM.",
       "wind": null,
-      "internal_id": 497,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 497
     },
     {
       "athlete_name": "Montserrat Montañes Arbo",
       "athlete_dob": "22/02/2001",
       "athlete_id": "CT24566",
       "performance": "32.23",
-      "discipline": "Disc (800 g)",
-      "raw_discipline_name": "Disc Cadet (800g) FEM.",
+      "discipline": "Disc Cadet (800g) FEM.",
       "wind": null,
-      "internal_id": 497,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 497
     },
     {
       "athlete_name": "Montserrat Montañes Arbo",
       "athlete_dob": "22/02/2001",
       "athlete_id": "CT24566",
       "performance": "24.76",
-      "discipline": "Disc (800 g)",
-      "raw_discipline_name": "Disc Cadet (800g) FEM.",
+      "discipline": "Disc Cadet (800g) FEM.",
       "wind": null,
-      "internal_id": 497,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 497
+    },
+    {
+      "athlete_name": "Montserrat Montañes Arbo",
+      "athlete_dob": "22/02/2001",
+      "athlete_id": "CT24566",
+      "performance": "43.73",
+      "discipline": "Martell Cadet (3 Kg) FEM.",
+      "wind": null,
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 497
+    },
+    {
+      "athlete_name": "Montserrat Montañes Arbo",
+      "athlete_dob": "22/02/2001",
+      "athlete_id": "CT24566",
+      "performance": "44.12",
+      "discipline": "Martell Cadet (3 Kg) FEM.",
+      "wind": null,
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 497
     }
-  ],
-  "is_short_track": false
+  ]
 }

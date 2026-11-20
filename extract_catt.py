@@ -47,6 +47,81 @@ def extract_text(pdf_path):
 
 
 # ---------------------------------------------------------------------------
+# Era promocio layout (issue #26): SÈRIE/LLOC/DORS/LLICENCIA/ATLETA/NAIX/
+# ENTITAT/TEMPS with hand-time quote marks (11"6 = 11.6 s). The main extractor
+# matches zero rows on these PDFs; this path recovers the lost sprint series.
+# ---------------------------------------------------------------------------
+
+def _quote_to_decimal(mark):
+    """'11"6' -> '11.60'; 2'03"1 -> '2:03.10'; already-decimal passes."""
+    text = str(mark or "").strip()
+    m = re.match(r"^(\d{1,2})'(\d{2})\"(\d)$", text)
+    if m:  # minutes'seconds"tenths
+        return f"{int(m.group(1))}:{m.group(2)}.{m.group(3)}0"
+    m = re.match(r"^(\d{1,2})\"(\d)$", text)
+    if m:  # seconds"tenths
+        return f"{m.group(1)}.0" if False else f"{m.group(1)}.{m.group(2)}0"
+    return text
+
+
+_PROMOCIO_ROW_RE = re.compile(
+    r"^\s*(\d{1,2})\s+(\d{1,4}\s+)?(\d{1,4}\s+)?"
+    r"((?:CL|CT|IB|LZ)[\s-]?[0-9]{2,6})\s+"
+    r"(.+?)\s{2,}(\d{2})\s+(?:(\w{2,4})\s{2,})?"
+    r"((?:CA |CT |CL |JA |GEiE |UGA |CE |CN |FC |AA )[^0-9]+?)\s{2,}"
+    r"((?:\d{1,2}['\u2019]\d{2}\"\d)|(?:\d{1,2}\"\d)|(?:\d{1,2}[.,]\d{2})|(?:\d{1,2}:\d{2}[.,]\d{2})|N\.?P\.?|RET\.?|DNS|DQ)\s*$",
+    re.IGNORECASE,
+)
+
+
+def parse_promocio_series(text):
+    """Rows from a promocio-era sheet; CATT athletes only.
+
+    Section headers carry the discipline ('RESULTATS 100 METRES LLISOS CADET -
+    ABSOLUT MASCULÍ'); 'V= -0.6' lines carry the wind of the next series.
+    """
+    rows = []
+    prova = ""
+    wind = None
+    for raw in str(text or "").splitlines():
+        line = raw.rstrip()
+        if not line.strip():
+            continue
+        header = re.match(r"^\s*RESULTATS\s+(.+)$", line, re.IGNORECASE)
+        if header:
+            prova = header.group(1).strip()
+            wind = None
+            continue
+        w = re.match(r"^\s*V=\s*([+-]?\d[.,]?\d*)\s*$", line)
+        if w:
+            wind = w.group(1).replace(",", ".")
+            continue
+        if "SÈRIE" in line.upper() or "Serie" in line:
+            continue
+        if not prova:
+            continue
+        m = _PROMOCIO_ROW_RE.match(line)
+        if not m:
+            continue
+        _serie, _lloc, _dors, licencia, nom, _naix, _catg, club, marca = m.groups()
+        # _catg may be None: some sheets omit the category column
+        if "tarragona" not in club.lower():
+            continue
+        rows.append({
+            "atleta_nom": nom.strip(),
+            "atleta_naixement": "",   # the layout shows a 2-digit birth year only
+            "atleta_licencia": licencia.strip(),
+            "prova": prova,
+            "marca": _quote_to_decimal(marca),
+            "vent": wind,
+            # hand-time provenance for timing_from_mark: the quote form is
+            # manual, and the decimal conversion would otherwise hide it
+            "marca_original": marca,
+        })
+    return rows
+
+
+# ---------------------------------------------------------------------------
 # Export contract (odd/tasks/timing-short-track.md)
 # ---------------------------------------------------------------------------
 
@@ -4182,6 +4257,14 @@ def main():
         print(f"After event-type validation: {len(results)} valid results")
 
     if not results:
+        # Era promocio fallback (issue #26): the SÈRIE/LLOC/DORS/LLICENCIA/
+        # ATLETA/TEMPS layout with quote marks matches no main-path pattern,
+        # so a whole sheet would be lost. Try the dedicated parser; it emits
+        # the same dict shape the main path works with.
+        results = parse_promocio_series(text)
+        if results and not quiet:
+            print(f"Promocio-series fallback: {len(results)} CATT rows")
+    if not results:
         if not quiet:
             print("No results found for CATT athletes. Skipping JSON export.")
         return
@@ -4206,12 +4289,12 @@ def main():
             "athlete_id": r["atleta_licencia"],
             "performance": r["marca"],
             "discipline": normalize_weight_units(r["prova"]),
-            "wind": r["vent"] if wind_applicable(normalize_weight_units(r["prova"])) else None,
+            "wind": r.get("vent") if wind_applicable(normalize_weight_units(r["prova"])) else None,
             "position": r.get("position"),
         }
         # "timing" per row: absent -> electronic. The row wins over the header
         # (a hand-timed row inside an electronic meet is still manual).
-        entry["timing"] = timing_from_mark(r["marca"])
+        entry["timing"] = timing_from_mark(r.get("marca_original") or r["marca"])
         output["results"].append(entry)
 
     with open(output_path, 'w', encoding='utf-8') as f:

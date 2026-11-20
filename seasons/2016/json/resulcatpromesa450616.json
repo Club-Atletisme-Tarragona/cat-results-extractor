@@ -1,98 +1,142 @@
 {
   "event_name": "Campionat Catalunya Promesa",
   "event_date": "04/06/2016",
-  "event_location": "Lloret de Mar",
-  "total_results": 8,
+  "event_location": "Club                                             Lic",
+  "total_results": 12,
   "event_src": "https://old.fcatletisme.cat/Pairelliure/2016/resulcatpromesa450616.pdf",
+  "is_short_track": false,
   "results": [
+    {
+      "athlete_name": "Daina Martinez Falguera",
+      "athlete_dob": "12/05/1995",
+      "athlete_id": "CL25468",
+      "performance": "13.56",
+      "discipline": "10000 METRES MARXA PROMESA MASCULI",
+      "wind": null,
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 543
+    },
+    {
+      "athlete_name": "Daina Martinez Falguera",
+      "athlete_dob": "12/05/1995",
+      "athlete_id": "CL25468",
+      "performance": "13.45",
+      "discipline": "10000 METRES MARXA PROMESA MASCULI",
+      "wind": null,
+      "position": 6,
+      "timing": "electronic",
+      "internal_id": 543
+    },
+    {
+      "athlete_name": "Daina Martinez Falguera",
+      "athlete_dob": "12/05/1995",
+      "athlete_id": "CL25468",
+      "performance": "27.52",
+      "discipline": "10000 METRES MARXA PROMESA MASCULI",
+      "wind": null,
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 543
+    },
+    {
+      "athlete_name": "Daina Martinez Falguera",
+      "athlete_dob": "12/05/1995",
+      "athlete_id": "CL25468",
+      "performance": "27.38",
+      "discipline": "10000 METRES MARXA PROMESA MASCULI",
+      "wind": null,
+      "position": 6,
+      "timing": "electronic",
+      "internal_id": 543
+    },
     {
       "athlete_name": "Maria Alvarez Auños",
       "athlete_dob": "14/08/1996",
       "athlete_id": "CT20448",
       "performance": "1.55",
-      "discipline": "Alçada",
-      "raw_discipline_name": "ALÇADA PROMESA FEMENI",
+      "discipline": "ALÇADA PROMESA FEMENI",
       "wind": null,
-      "internal_id": 346,
-      "timing": "electronic"
+      "position": 2,
+      "timing": "electronic",
+      "internal_id": 346
     },
     {
       "athlete_name": "Maria Alvarez Auños",
       "athlete_dob": "14/08/1996",
       "athlete_id": "CT20448",
       "performance": "4.98",
-      "discipline": "Llargada",
-      "raw_discipline_name": "LLARGADA PROMESA FEMENI",
+      "discipline": "LLARGADA PROMESA FEMENI",
       "wind": "+1.5",
-      "internal_id": 346,
-      "timing": "electronic"
+      "position": 3,
+      "timing": "electronic",
+      "internal_id": 346
     },
     {
       "athlete_name": "Maria Alvarez Auños",
       "athlete_dob": "14/08/1996",
       "athlete_id": "CT20448",
       "performance": "5.03",
-      "discipline": "Llargada",
-      "raw_discipline_name": "LLARGADA PROMESA FEMENI",
+      "discipline": "LLARGADA PROMESA FEMENI",
       "wind": "+1.9",
-      "internal_id": 346,
-      "timing": "electronic"
+      "position": 3,
+      "timing": "electronic",
+      "internal_id": 346
     },
     {
       "athlete_name": "Maria Alvarez Auños",
       "athlete_dob": "14/08/1996",
       "athlete_id": "CT20448",
       "performance": "5.23",
-      "discipline": "Llargada",
-      "raw_discipline_name": "LLARGADA PROMESA FEMENI",
+      "discipline": "LLARGADA PROMESA FEMENI",
       "wind": "+1.5",
-      "internal_id": 346,
-      "timing": "electronic"
+      "position": 3,
+      "timing": "electronic",
+      "internal_id": 346
     },
     {
       "athlete_name": "Maria Alvarez Auños",
       "athlete_dob": "14/08/1996",
       "athlete_id": "CT20448",
       "performance": "5.10",
-      "discipline": "Llargada",
-      "raw_discipline_name": "LLARGADA PROMESA FEMENI",
+      "discipline": "LLARGADA PROMESA FEMENI",
       "wind": "+0.5",
-      "internal_id": 346,
-      "timing": "electronic"
+      "position": 3,
+      "timing": "electronic",
+      "internal_id": 346
     },
     {
       "athlete_name": "Maria Alvarez Auños",
       "athlete_dob": "14/08/1996",
       "athlete_id": "CT20448",
       "performance": "4.94",
-      "discipline": "Llargada",
-      "raw_discipline_name": "LLARGADA PROMESA FEMENI",
+      "discipline": "LLARGADA PROMESA FEMENI",
       "wind": "+1.5",
-      "internal_id": 346,
-      "timing": "electronic"
+      "position": 3,
+      "timing": "electronic",
+      "internal_id": 346
     },
     {
       "athlete_name": "Gemma Ruiz Sabate",
       "athlete_dob": "20/04/1996",
       "athlete_id": "CL24157",
       "performance": "25.23",
-      "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "DISC PROMESA FEMENI",
+      "discipline": "DISC PROMESA FEMENI",
       "wind": null,
-      "internal_id": 464,
-      "timing": "electronic"
+      "position": 3,
+      "timing": "electronic",
+      "internal_id": 464
     },
     {
       "athlete_name": "Gemma Ruiz Sabate",
       "athlete_dob": "20/04/1996",
       "athlete_id": "CL24157",
       "performance": "27.32",
-      "discipline": "Disc (1 Kg)",
-      "raw_discipline_name": "DISC PROMESA FEMENI",
+      "discipline": "DISC PROMESA FEMENI",
       "wind": null,
-      "internal_id": 464,
-      "timing": "electronic"
+      "position": 3,
+      "timing": "electronic",
+      "internal_id": 464
     }
-  ],
-  "is_short_track": false
+  ]
 }

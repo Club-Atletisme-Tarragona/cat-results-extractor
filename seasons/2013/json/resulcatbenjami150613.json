@@ -1,98 +1,109 @@
 {
   "event_name": "Fnal Campionat Catalunya Benjamí",
   "event_date": "15/06/2013",
-  "event_location": "Tarragona",
-  "total_results": 8,
+  "event_location": "Tarragona-CLA",
+  "total_results": 9,
   "event_src": "http://old.fcatletisme.cat/Promocio/promocio2013/resulcatbenjami150613.pdf",
+  "is_short_track": false,
   "results": [
     {
       "athlete_name": "Ruben Paredes lario",
       "athlete_dob": "10/03/2005",
       "athlete_id": "CL62286",
       "performance": "3.20",
-      "discipline": "Llargada",
-      "raw_discipline_name": "SALT DE LLARGADA BENJAMÍ MASCULÍ",
+      "discipline": "SALT DE LLARGADA BENJAMÍ MASCULÍ",
       "wind": null,
-      "internal_id": null,
-      "timing": "electronic"
+      "position": 8,
+      "timing": "electronic",
+      "internal_id": null
     },
     {
       "athlete_name": "Ruben Paredes lario",
       "athlete_dob": "10/03/2005",
       "athlete_id": "CL62286",
       "performance": "3.22",
-      "discipline": "Llargada",
-      "raw_discipline_name": "SALT DE LLARGADA BENJAMÍ MASCULÍ",
+      "discipline": "SALT DE LLARGADA BENJAMÍ MASCULÍ",
       "wind": null,
-      "internal_id": null,
-      "timing": "electronic"
+      "position": 8,
+      "timing": "electronic",
+      "internal_id": null
     },
     {
       "athlete_name": "Ruben Paredes lario",
       "athlete_dob": "10/03/2005",
       "athlete_id": "CL62286",
       "performance": "3.29",
-      "discipline": "Llargada",
-      "raw_discipline_name": "SALT DE LLARGADA BENJAMÍ MASCULÍ",
+      "discipline": "SALT DE LLARGADA BENJAMÍ MASCULÍ",
       "wind": null,
-      "internal_id": null,
-      "timing": "electronic"
+      "position": 8,
+      "timing": "electronic",
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Liana De Las Heras Ruiz",
+      "athlete_dob": "27/02/2004",
+      "athlete_id": "CL64557",
+      "performance": "1.04",
+      "discipline": "SALT D'ALÇADA BENJAMÍ FEMENÍ",
+      "wind": null,
+      "position": 3,
+      "timing": "electronic",
+      "internal_id": null
     },
     {
       "athlete_name": "Liana De Las Heras Ruiz",
       "athlete_dob": "27/02/2004",
       "athlete_id": "CL64557",
       "performance": "3.36",
-      "discipline": "Llargada",
-      "raw_discipline_name": "SALT DE LLARGADA BENJAMÍ FEMENÍ",
+      "discipline": "SALT DE LLARGADA BENJAMÍ FEMENÍ",
       "wind": null,
-      "internal_id": null,
-      "timing": "electronic"
+      "position": 6,
+      "timing": "electronic",
+      "internal_id": null
     },
     {
       "athlete_name": "Liana De Las Heras Ruiz",
       "athlete_dob": "27/02/2004",
       "athlete_id": "CL64557",
       "performance": "3.26",
-      "discipline": "Llargada",
-      "raw_discipline_name": "SALT DE LLARGADA BENJAMÍ FEMENÍ",
+      "discipline": "SALT DE LLARGADA BENJAMÍ FEMENÍ",
       "wind": null,
-      "internal_id": null,
-      "timing": "electronic"
+      "position": 6,
+      "timing": "electronic",
+      "internal_id": null
     },
     {
       "athlete_name": "Abril Diaz Casañas",
       "athlete_dob": "19/08/2004",
       "athlete_id": "CL64862",
       "performance": "17.10",
-      "discipline": "Llargada",
-      "raw_discipline_name": "SALT DE LLARGADA BENJAMÍ FEMENÍ",
+      "discipline": "SALT DE LLARGADA BENJAMÍ FEMENÍ",
       "wind": null,
-      "internal_id": null,
-      "timing": "electronic"
+      "position": 7,
+      "timing": "electronic",
+      "internal_id": null
     },
     {
       "athlete_name": "Abril Diaz Casañas",
       "athlete_dob": "19/08/2004",
       "athlete_id": "CL64862",
       "performance": "16.57",
-      "discipline": "Llargada",
-      "raw_discipline_name": "SALT DE LLARGADA BENJAMÍ FEMENÍ",
+      "discipline": "SALT DE LLARGADA BENJAMÍ FEMENÍ",
       "wind": null,
-      "internal_id": null,
-      "timing": "electronic"
+      "position": 7,
+      "timing": "electronic",
+      "internal_id": null
     },
     {
       "athlete_name": "Abril Diaz Casañas",
       "athlete_dob": "19/08/2004",
       "athlete_id": "CL64862",
       "performance": "17.45",
-      "discipline": "Llargada",
-      "raw_discipline_name": "SALT DE LLARGADA BENJAMÍ FEMENÍ",
+      "discipline": "SALT DE LLARGADA BENJAMÍ FEMENÍ",
       "wind": null,
-      "internal_id": null,
-      "timing": "electronic"
+      "position": 7,
+      "timing": "electronic",
+      "internal_id": null
     }
-  ],
-  "is_short_track": false
+  ]
 }

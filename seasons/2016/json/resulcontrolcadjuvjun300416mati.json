@@ -2,97 +2,108 @@
   "event_name": "Control Cadet-Juvenil-Junior (1a. Jornada)",
   "event_date": "30/04/2016",
   "event_location": "Mollet del Vallès",
-  "total_results": 8,
+  "total_results": 9,
   "event_src": "https://old.fcatletisme.cat/Pairelliure/2016/resulcontrolcadjuvjun300416mati.pdf",
+  "is_short_track": false,
   "results": [
     {
       "athlete_name": "Alvaro Jose Ferrez Hernandez",
       "athlete_dob": "06/08/1998",
       "athlete_id": "CL22781",
       "performance": "8.18",
-      "discipline": "Pes (7.260 Kg)",
-      "raw_discipline_name": "Pes JUNIOR MASC. AL",
+      "discipline": "Pes JUNIOR MASC. AL",
       "wind": null,
-      "internal_id": 432,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 432
     },
     {
       "athlete_name": "Alvaro Jose Ferrez Hernandez",
       "athlete_dob": "06/08/1998",
       "athlete_id": "CL22781",
       "performance": "9.36",
-      "discipline": "Pes (7.260 Kg)",
-      "raw_discipline_name": "Pes JUNIOR MASC. AL",
+      "discipline": "Pes JUNIOR MASC. AL",
       "wind": null,
-      "internal_id": 432,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 432
     },
     {
       "athlete_name": "Alvaro Jose Ferrez Hernandez",
       "athlete_dob": "06/08/1998",
       "athlete_id": "CL22781",
       "performance": "8.47",
-      "discipline": "Pes (7.260 Kg)",
-      "raw_discipline_name": "Pes JUNIOR MASC. AL",
+      "discipline": "Pes JUNIOR MASC. AL",
       "wind": null,
-      "internal_id": 432,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 432
     },
     {
       "athlete_name": "Alvaro Jose Ferrez Hernandez",
       "athlete_dob": "06/08/1998",
       "athlete_id": "CL22781",
       "performance": "9.04",
-      "discipline": "Pes (7.260 Kg)",
-      "raw_discipline_name": "Pes JUNIOR MASC. AL",
+      "discipline": "Pes JUNIOR MASC. AL",
       "wind": null,
-      "internal_id": 432,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 432
+    },
+    {
+      "athlete_name": "Andrea Lopez Urbano",
+      "athlete_dob": "19/07/1998",
+      "athlete_id": "CL22780",
+      "performance": "14.10",
+      "discipline": "Martell CADET MASC.",
+      "wind": null,
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 437
     },
     {
       "athlete_name": "Mireia Lopez Urbano",
       "athlete_dob": "07/12/2000",
       "athlete_id": "CT23556",
       "performance": "09.15",
-      "discipline": "Martell (7.260 Kg)",
-      "raw_discipline_name": "Martell CADET MASC.",
+      "discipline": "Martell CADET MASC.",
       "wind": null,
-      "internal_id": 527,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 527
     },
     {
       "athlete_name": "Nerea Lago Garbajosa",
       "athlete_dob": "15/05/2000",
       "athlete_id": "CL25157",
       "performance": "12.81",
-      "discipline": "Martell (7.260 Kg)",
-      "raw_discipline_name": "Martell CADET MASC.",
+      "discipline": "Martell CADET MASC.",
       "wind": null,
-      "internal_id": 534,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 534
     },
     {
       "athlete_name": "Nuria Menchon Tevar",
       "athlete_dob": "25/06/2002",
       "athlete_id": "CL83693",
       "performance": "14.23",
-      "discipline": "Javelina (600 g)",
-      "raw_discipline_name": "Javelina CADET FEM.",
+      "discipline": "Javelina CADET FEM.",
       "wind": null,
-      "internal_id": 541,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 541
     },
     {
       "athlete_name": "Nuria Menchon Tevar",
       "athlete_dob": "25/06/2002",
       "athlete_id": "CL83693",
       "performance": "15.50",
-      "discipline": "Javelina (600 g)",
-      "raw_discipline_name": "Javelina CADET FEM.",
+      "discipline": "Javelina CADET FEM.",
       "wind": null,
-      "internal_id": 541,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 541
     }
-  ],
-  "is_short_track": false
+  ]
 }

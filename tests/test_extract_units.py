@@ -18,6 +18,8 @@ sys.path.insert(0, str(REPO_ROOT))
 
 from extract_catt import (  # noqa: E402
     classify_event,
+    _quote_to_decimal,
+    parse_promocio_series,
     extract_name_from_line,
     is_excluded_athlete,
     split_relay_composition,
@@ -134,6 +136,58 @@ class TestExtractNameFromLine(unittest.TestCase):
     def test_strips_leading_pos_dorsal(self):
         self.assertEqual(extract_name_from_line("3 49 (t) Pep Aldave Mas"),
                          "Pep Aldave Mas")
+
+
+class TestPromocioSeriesFormat(unittest.TestCase):
+    """The promocio 2013-2016 layout: SÈRIE/LLOC/DORS/LLICENCIA/ATLETA/NAIX/
+    ENTITAT/TEMPS with hand-time quote marks (11"6). The current extractor
+    reads zero rows from these PDFs (issue #26, resulcontrolcgt240514 /
+    resultrofeunastic70315 lost all their sprint series).
+    """
+
+    def test_quote_time_to_decimal(self):
+        self.assertEqual(_quote_to_decimal('11"6'), "11.60")
+        self.assertEqual(_quote_to_decimal('9"8'), "9.80")
+        self.assertEqual(_quote_to_decimal("2'03\"1"), "2:03.10")
+
+    def test_row_extraction(self):
+        import textwrap
+        text = textwrap.dedent("""
+        RESULTATS 100 METRES LLISOS CADET - ABSOLUT MASCULÍ
+                                                                            V= -0.6
+        SÈRIE LLOC DORS LLICENCIA    ATLETA              NAIX CATG        ENTITAT       TEMPS
+         1    1 625 CL 22279 Milla Guasch, Adolf                     98     JVM     CA Tarragona           11"6
+         1    2 630 CL 69630 Jimenez Ramos, Josep                    99     CM      CA Tarragona           12"2
+         1    3 624 CL 22880 Munoz Vazquez, Jesus                    97     JVM     CN Reus Ploms          12"2
+        """)
+        rows = parse_promocio_series(text)
+        self.assertEqual(len(rows), 2)
+        self.assertEqual(rows[0]["atleta_nom"], "Milla Guasch, Adolf")
+        self.assertEqual(rows[0]["marca"], "11.60")
+        self.assertEqual(rows[0]["prova"], "100 METRES LLISOS CADET - ABSOLUT MASCULÍ")
+        self.assertEqual(rows[0]["vent"], "-0.6")
+        self.assertEqual(rows[1]["atleta_licencia"], "CL 69630")
+
+    def test_non_catt_rows_dropped(self):
+        # Jimenez Ramos (CN Reus Ploms) must not appear: the dataset is CATT-only
+        import textwrap
+        text = textwrap.dedent("""
+        RESULTATS 100 METRES LLISOS CADET - ABSOLUT MASCULÍ
+        SÈRIE LLOC DORS LLICENCIA    ATLETA              NAIX CATG        ENTITAT       TEMPS
+         1    2 630 CL 69630 Jimenez Ramos, Josep                    99     CM      CN Reus Ploms          12"2
+        """)
+        self.assertEqual(parse_promocio_series(text), [])
+
+    def test_catt_only_at_output_boundary(self):
+        import textwrap
+        text = textwrap.dedent("""
+        RESULTATS 80 METRES LLISOS INFANTIL MASCULÍ
+        Sèrie   Lloc Dorsal   Llicència       Atleta                      Naix     Entitat                 Temps
+        1         1   112 CL 71714        Lago Garbajosa, Aleix            02    CA Tarragona              11"0
+        1         2    14 tramit          Susoko Damba, Ismael             02    CA Torredembarra          11"1
+        """)
+        rows = parse_promocio_series(text)
+        self.assertEqual([r["atleta_nom"] for r in rows], ["Lago Garbajosa, Aleix"])
 
 
 class TestRelayComposition(unittest.TestCase):

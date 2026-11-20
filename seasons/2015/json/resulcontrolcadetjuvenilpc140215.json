@@ -1,208 +1,241 @@
 {
   "event_name": "Control Cadet-Juvenil en Pista Coberta - Control Cadet-Juvenil en Pista Coberta",
   "event_date": "14/02/2015",
-  "event_location": "Sabadell",
-  "total_results": 18,
+  "event_location": "Club                                            Lic",
+  "total_results": 21,
   "event_src": "http://old.fcatletisme.cat/Pcoberta/2015/resulcontrolcadetjuvenilpc140215.pdf",
+  "is_short_track": true,
   "results": [
+    {
+      "athlete_name": "Javier Almale Lerin",
+      "athlete_dob": "23/02/2000",
+      "athlete_id": "CT24373",
+      "performance": "7.75",
+      "discipline": "60m CAD MASC. PC",
+      "wind": null,
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 510
+    },
+    {
+      "athlete_name": "Jan Sans Riola",
+      "athlete_dob": "23/10/1998",
+      "athlete_id": "CT22783",
+      "performance": "7.53",
+      "discipline": "60m JUV MASC. PC",
+      "wind": null,
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 435
+    },
+    {
+      "athlete_name": "Jan Sans Riola",
+      "athlete_dob": "23/10/1998",
+      "athlete_id": "CT22783",
+      "performance": "8.75",
+      "discipline": "60m tanques JUV MASC. PC",
+      "wind": null,
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 435
+    },
     {
       "athlete_name": "Jan Sans Riola",
       "athlete_dob": "23/10/1998",
       "athlete_id": "CT22783",
       "performance": "11.29",
-      "discipline": "Pes (7.260 Kg)",
-      "raw_discipline_name": "Pes JUV MASC. PC",
+      "discipline": "Pes JUV MASC. PC",
       "wind": null,
-      "internal_id": 435,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 435
     },
     {
       "athlete_name": "Jan Sans Riola",
       "athlete_dob": "23/10/1998",
       "athlete_id": "CT22783",
       "performance": "11.11",
-      "discipline": "Pes (7.260 Kg)",
-      "raw_discipline_name": "Pes JUV MASC. PC",
+      "discipline": "Pes JUV MASC. PC",
       "wind": null,
-      "internal_id": 435,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 435
     },
     {
       "athlete_name": "Jan Sans Riola",
       "athlete_dob": "23/10/1998",
       "athlete_id": "CT22783",
       "performance": "11.01",
-      "discipline": "Pes (7.260 Kg)",
-      "raw_discipline_name": "Pes JUV MASC. PC",
+      "discipline": "Pes JUV MASC. PC",
       "wind": null,
-      "internal_id": 435,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 435
     },
     {
       "athlete_name": "Jan Sans Riola",
       "athlete_dob": "23/10/1998",
       "athlete_id": "CT22783",
       "performance": "10.89",
-      "discipline": "Pes (7.260 Kg)",
-      "raw_discipline_name": "Pes JUV MASC. PC",
+      "discipline": "Pes JUV MASC. PC",
       "wind": null,
-      "internal_id": 435,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 435
     },
     {
       "athlete_name": "Jan Sans Riola",
       "athlete_dob": "23/10/1998",
       "athlete_id": "CT22783",
       "performance": "9.95",
-      "discipline": "Pes (7.260 Kg)",
-      "raw_discipline_name": "Pes JUV MASC. PC",
+      "discipline": "Pes JUV MASC. PC",
       "wind": null,
-      "internal_id": 435,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 435
     },
     {
       "athlete_name": "Jan Sans Riola",
       "athlete_dob": "23/10/1998",
       "athlete_id": "CT22783",
       "performance": "10.75",
-      "discipline": "Pes (7.260 Kg)",
-      "raw_discipline_name": "Pes JUV MASC. PC",
+      "discipline": "Pes JUV MASC. PC",
       "wind": null,
-      "internal_id": 435,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 435
     },
     {
       "athlete_name": "Mireia Lopez Urbano",
       "athlete_dob": "07/12/2000",
       "athlete_id": "CT23556",
       "performance": "8.50",
-      "discipline": "Pes (7.260 Kg)",
-      "raw_discipline_name": "Pes JUV MASC. PC",
+      "discipline": "60m CAD FEM. PC",
       "wind": null,
-      "internal_id": 527,
-      "timing": "electronic"
-    },
-    {
-      "athlete_name": "Mireia Lopez Urbano",
-      "athlete_dob": "07/12/2000",
-      "athlete_id": "CT23556",
-      "performance": "9.57",
-      "discipline": "Pes (7.260 Kg)",
-      "raw_discipline_name": "Pes JUV MASC. PC",
-      "wind": null,
-      "internal_id": 527,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 527
     },
     {
       "athlete_name": "Maria Martin Borras",
       "athlete_dob": "31/03/1999",
       "athlete_id": "CT23429",
       "performance": "8.26",
-      "discipline": "Pes (7.260 Kg)",
-      "raw_discipline_name": "Pes JUV MASC. PC",
+      "discipline": "60m JUV FEM. PC",
       "wind": null,
-      "internal_id": 474,
-      "timing": "electronic"
-    },
-    {
-      "athlete_name": "Maria Martin Borras",
-      "athlete_dob": "31/03/1999",
-      "athlete_id": "CT23429",
-      "performance": "28.33",
-      "discipline": "Pes (7.260 Kg)",
-      "raw_discipline_name": "Pes JUV MASC. PC",
-      "wind": null,
-      "internal_id": 474,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 474
     },
     {
       "athlete_name": "Andrea Lopez Urbano",
       "athlete_dob": "19/07/1998",
       "athlete_id": "CL22780",
       "performance": "8.89",
-      "discipline": "Pes (7.260 Kg)",
-      "raw_discipline_name": "Pes JUV MASC. PC",
+      "discipline": "60m JUV FEM. PC",
       "wind": null,
-      "internal_id": 437,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 437
+    },
+    {
+      "athlete_name": "Maria Martin Borras",
+      "athlete_dob": "31/03/1999",
+      "athlete_id": "CT23429",
+      "performance": "28.33",
+      "discipline": "200m JUV FEM. PC",
+      "wind": null,
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 474
     },
     {
       "athlete_name": "Andrea Lopez Urbano",
       "athlete_dob": "19/07/1998",
       "athlete_id": "CL22780",
       "performance": "30.65",
-      "discipline": "Pes (7.260 Kg)",
-      "raw_discipline_name": "Pes JUV MASC. PC",
+      "discipline": "200m JUV FEM. PC",
       "wind": null,
-      "internal_id": 437,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 437
+    },
+    {
+      "athlete_name": "Mireia Lopez Urbano",
+      "athlete_dob": "07/12/2000",
+      "athlete_id": "CT23556",
+      "performance": "9.57",
+      "discipline": "60m tanques CAD FEM. PC",
+      "wind": null,
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 527
     },
     {
       "athlete_name": "Montserrat Montañes Arbo",
       "athlete_dob": "22/02/2001",
       "athlete_id": "CL71723",
       "performance": "8.60",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Pes CAD FEM. PC",
+      "discipline": "Pes CAD FEM. PC",
       "wind": null,
-      "internal_id": 497,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 497
     },
     {
       "athlete_name": "Montserrat Montañes Arbo",
       "athlete_dob": "22/02/2001",
       "athlete_id": "CL71723",
       "performance": "8.10",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Pes CAD FEM. PC",
+      "discipline": "Pes CAD FEM. PC",
       "wind": null,
-      "internal_id": 497,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 497
     },
     {
       "athlete_name": "Montserrat Montañes Arbo",
       "athlete_dob": "22/02/2001",
       "athlete_id": "CL71723",
       "performance": "9.55",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Pes CAD FEM. PC",
+      "discipline": "Pes CAD FEM. PC",
       "wind": null,
-      "internal_id": 497,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 497
     },
     {
       "athlete_name": "Montserrat Montañes Arbo",
       "athlete_dob": "22/02/2001",
       "athlete_id": "CL71723",
       "performance": "8.62",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Pes CAD FEM. PC",
+      "discipline": "Pes CAD FEM. PC",
       "wind": null,
-      "internal_id": 497,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 497
     },
     {
       "athlete_name": "Montserrat Montañes Arbo",
       "athlete_dob": "22/02/2001",
       "athlete_id": "CL71723",
       "performance": "8.75",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Pes CAD FEM. PC",
+      "discipline": "Pes CAD FEM. PC",
       "wind": null,
-      "internal_id": 497,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 497
     },
     {
       "athlete_name": "Montserrat Montañes Arbo",
       "athlete_dob": "22/02/2001",
       "athlete_id": "CL71723",
       "performance": "8.81",
-      "discipline": "Pes (4 Kg)",
-      "raw_discipline_name": "Pes CAD FEM. PC",
+      "discipline": "Pes CAD FEM. PC",
       "wind": null,
-      "internal_id": 497,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 497
     }
-  ],
-  "is_short_track": true
+  ]
 }

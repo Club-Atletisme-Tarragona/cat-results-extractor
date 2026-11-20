@@ -2,108 +2,119 @@
   "event_name": "Control Cadet, Juvenil i Junior",
   "event_date": "07/05/2016",
   "event_location": "Cornellà de Llobregat",
-  "total_results": 9,
+  "total_results": 10,
   "event_src": "https://old.fcatletisme.cat/Pairelliure/2016/resulcontrolcadjuvjun70516.pdf",
+  "is_short_track": false,
   "results": [
+    {
+      "athlete_name": "Nerea Lago Garbajosa",
+      "athlete_dob": "15/05/2000",
+      "athlete_id": "CL25157",
+      "performance": "1:06.76",
+      "discipline": "400m FEM. AL JV",
+      "wind": null,
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 534
+    },
     {
       "athlete_name": "Mar Vazquez Domingo",
       "athlete_dob": "17/03/2002",
       "athlete_id": "CL71756",
       "performance": "4.61",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud FEM. AL CADETE",
+      "discipline": "Longitud FEM. AL CADETE",
       "wind": "+0.5",
-      "internal_id": 642,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 642
     },
     {
       "athlete_name": "Mar Vazquez Domingo",
       "athlete_dob": "17/03/2002",
       "athlete_id": "CL71756",
       "performance": "4.53",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud FEM. AL CADETE",
+      "discipline": "Longitud FEM. AL CADETE",
       "wind": "+0.2",
-      "internal_id": 642,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 642
     },
     {
       "athlete_name": "Mar Vazquez Domingo",
       "athlete_dob": "17/03/2002",
       "athlete_id": "CL71756",
       "performance": "4.56",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud FEM. AL CADETE",
+      "discipline": "Longitud FEM. AL CADETE",
       "wind": "+0.3",
-      "internal_id": 642,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 642
     },
     {
       "athlete_name": "Mar Vazquez Domingo",
       "athlete_dob": "17/03/2002",
       "athlete_id": "CL71756",
       "performance": "4.46",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud FEM. AL CADETE",
+      "discipline": "Longitud FEM. AL CADETE",
       "wind": "+1.4",
-      "internal_id": 642,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 642
     },
     {
       "athlete_name": "Mireia Lopez Urbano",
       "athlete_dob": "07/12/2000",
       "athlete_id": "CT23556",
       "performance": "5.06",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud FEM. AL JV",
+      "discipline": "Longitud FEM. AL JV",
       "wind": "+0.0",
-      "internal_id": 527,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 527
     },
     {
       "athlete_name": "Mireia Lopez Urbano",
       "athlete_dob": "07/12/2000",
       "athlete_id": "CT23556",
       "performance": "4.77",
-      "discipline": "Llargada",
-      "raw_discipline_name": "Longitud FEM. AL JV",
+      "discipline": "Longitud FEM. AL JV",
       "wind": "+0.0",
-      "internal_id": 527,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 527
     },
     {
       "athlete_name": "Montserrat Montañes Arbo",
       "athlete_dob": "22/02/2001",
       "athlete_id": "CT24566",
       "performance": "27.45",
-      "discipline": "Disc (800 g)",
-      "raw_discipline_name": "Disco (800g) FEM. CADETE",
+      "discipline": "Disco (800g) FEM. CADETE",
       "wind": null,
-      "internal_id": 497,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 497
     },
     {
       "athlete_name": "Montserrat Montañes Arbo",
       "athlete_dob": "22/02/2001",
       "athlete_id": "CT24566",
       "performance": "29.04",
-      "discipline": "Disc (800 g)",
-      "raw_discipline_name": "Disco (800g) FEM. CADETE",
+      "discipline": "Disco (800g) FEM. CADETE",
       "wind": null,
-      "internal_id": 497,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 497
     },
     {
       "athlete_name": "Montserrat Montañes Arbo",
       "athlete_dob": "22/02/2001",
       "athlete_id": "CT24566",
       "performance": "31.47",
-      "discipline": "Disc (800 g)",
-      "raw_discipline_name": "Disco (800g) FEM. CADETE",
+      "discipline": "Disco (800g) FEM. CADETE",
       "wind": null,
-      "internal_id": 497,
-      "timing": "electronic"
+      "position": null,
+      "timing": "electronic",
+      "internal_id": 497
     }
-  ],
-  "is_short_track": false
+  ]
 }

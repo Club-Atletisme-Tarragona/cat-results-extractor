@@ -13,7 +13,8 @@
       "discipline": "Javelina (600 g)",
       "raw_discipline_name": "Javelina (600g) FEM.",
       "wind": null,
-      "internal_id": 346
+      "internal_id": 346,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Maria Alvarez Auños",
@@ -23,7 +24,8 @@
       "discipline": "Javelina (600 g)",
       "raw_discipline_name": "Javelina (600g) FEM.",
       "wind": null,
-      "internal_id": 346
+      "internal_id": 346,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Maria Alvarez Auños",
@@ -33,7 +35,9 @@
       "discipline": "Javelina (600 g)",
       "raw_discipline_name": "Javelina (600g) FEM.",
       "wind": null,
-      "internal_id": 346
+      "internal_id": 346,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

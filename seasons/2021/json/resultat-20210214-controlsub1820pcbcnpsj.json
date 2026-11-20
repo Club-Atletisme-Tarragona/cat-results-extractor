@@ -13,7 +13,8 @@
       "discipline": "400m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 733
+      "internal_id": 733,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Guifre De Los Rios Blanch",
@@ -23,7 +24,9 @@
       "discipline": "400m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 697
+      "internal_id": 697,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": true
 }

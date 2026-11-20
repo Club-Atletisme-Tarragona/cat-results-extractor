@@ -14,7 +14,8 @@
       "raw_discipline_name": "60m Mujeres AL",
       "wind": "+3.5",
       "position": null,
-      "internal_id": 1369
+      "internal_id": 1369,
+      "timing": "electronic"
     },
     {
       "athlete_name": "MARIA MARTIN CUADRADO",
@@ -25,7 +26,8 @@
       "raw_discipline_name": "60m Mujeres AL",
       "wind": "+3.5",
       "position": null,
-      "internal_id": 1330
+      "internal_id": 1330,
+      "timing": "electronic"
     },
     {
       "athlete_name": "MARTINA GÓMEZ ROJALS",
@@ -36,7 +38,8 @@
       "raw_discipline_name": "60m Femení AL U14F",
       "wind": "+2.3",
       "position": null,
-      "internal_id": 1443
+      "internal_id": 1443,
+      "timing": "electronic"
     },
     {
       "athlete_name": "JULIA DIEZ BERTRAN",
@@ -47,7 +50,8 @@
       "raw_discipline_name": "60m Femení AL U14F",
       "wind": "+2.1",
       "position": null,
-      "internal_id": 1430
+      "internal_id": 1430,
+      "timing": "electronic"
     },
     {
       "athlete_name": "MARIA FERRAN JIMENEZ",
@@ -58,7 +62,8 @@
       "raw_discipline_name": "300m Femení",
       "wind": null,
       "position": null,
-      "internal_id": 1325
+      "internal_id": 1325,
+      "timing": "electronic"
     },
     {
       "athlete_name": "CLAUDIA BOTANCH RIUS",
@@ -69,7 +74,9 @@
       "raw_discipline_name": "300m Femení",
       "wind": null,
       "position": null,
-      "internal_id": 1358
+      "internal_id": 1358,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

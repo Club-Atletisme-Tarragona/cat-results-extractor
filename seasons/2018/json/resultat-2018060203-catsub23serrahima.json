@@ -14,7 +14,8 @@
       "raw_discipline_name": "800m S23 MASC. AL",
       "wind": null,
       "position": 6,
-      "internal_id": 439
+      "internal_id": 439,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Jan Sans Riola",
@@ -25,7 +26,8 @@
       "raw_discipline_name": "110m tanques (1,067) S23 MASC. AL",
       "wind": "+0.0",
       "position": 3,
-      "internal_id": 435
+      "internal_id": 435,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Andrea Lopez Urbano",
@@ -36,7 +38,8 @@
       "raw_discipline_name": "Javelina (600g) S23 FEM.",
       "wind": null,
       "position": 9,
-      "internal_id": 437
+      "internal_id": 437,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Andrea Lopez Urbano",
@@ -47,7 +50,8 @@
       "raw_discipline_name": "Javelina (600g) S23 FEM.",
       "wind": null,
       "position": 9,
-      "internal_id": 437
+      "internal_id": 437,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Andrea Lopez Urbano",
@@ -58,7 +62,9 @@
       "raw_discipline_name": "Javelina (600g) S23 FEM.",
       "wind": null,
       "position": 9,
-      "internal_id": 437
+      "internal_id": 437,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

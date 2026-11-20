@@ -13,7 +13,8 @@
       "discipline": "60m Masculins",
       "wind": null,
       "position": null,
-      "internal_id": 808
+      "internal_id": 808,
+      "timing": "electronic"
     },
     {
       "athlete_name": "MATIAS HERNANDEZ SANCHEZ",
@@ -23,7 +24,8 @@
       "discipline": "200m Masculins",
       "wind": null,
       "position": null,
-      "internal_id": 999
+      "internal_id": 999,
+      "timing": "electronic"
     },
     {
       "athlete_name": "PAULA FERNANDEZ VIVANCO",
@@ -33,7 +35,8 @@
       "discipline": "60m Femenins",
       "wind": null,
       "position": null,
-      "internal_id": 955
+      "internal_id": 955,
+      "timing": "electronic"
     },
     {
       "athlete_name": "PAULA FERNANDEZ VIVANCO",
@@ -43,7 +46,9 @@
       "discipline": "200m Femenins",
       "wind": null,
       "position": null,
-      "internal_id": 955
+      "internal_id": 955,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

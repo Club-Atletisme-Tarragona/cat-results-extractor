@@ -14,7 +14,8 @@
       "raw_discipline_name": "100m Hombres",
       "wind": "+0.0",
       "position": null,
-      "internal_id": 1078
+      "internal_id": 1078,
+      "timing": "electronic"
     },
     {
       "athlete_name": "SAMUEL MARCOS PEREZ",
@@ -25,7 +26,8 @@
       "raw_discipline_name": "400m Hombres",
       "wind": null,
       "position": null,
-      "internal_id": 1071
+      "internal_id": 1071,
+      "timing": "electronic"
     },
     {
       "athlete_name": "IVAN FERRER VILLA",
@@ -36,7 +38,8 @@
       "raw_discipline_name": "400m Hombres",
       "wind": null,
       "position": null,
-      "internal_id": 1009
+      "internal_id": 1009,
+      "timing": "electronic"
     },
     {
       "athlete_name": "PAU ESTEVE HOSTALOT",
@@ -47,7 +50,8 @@
       "raw_discipline_name": "110m vallas (0,914) Hombres AL",
       "wind": "-0.3",
       "position": null,
-      "internal_id": 1055
+      "internal_id": 1055,
+      "timing": "electronic"
     },
     {
       "athlete_name": "SAMUEL MARCOS PEREZ",
@@ -58,7 +62,8 @@
       "raw_discipline_name": "110m vallas (0,914) Hombres AL",
       "wind": "-0.3",
       "position": null,
-      "internal_id": 1071
+      "internal_id": 1071,
+      "timing": "electronic"
     },
     {
       "athlete_name": "DAVID FERNANDEZ PINEDA",
@@ -69,7 +74,9 @@
       "raw_discipline_name": "Altura Hombres",
       "wind": null,
       "position": null,
-      "internal_id": 1078
+      "internal_id": 1078,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

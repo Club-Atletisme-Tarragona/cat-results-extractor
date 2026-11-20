@@ -13,7 +13,8 @@
       "discipline": "60m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 510
+      "internal_id": 510,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Javier Almale Lerin",
@@ -23,7 +24,8 @@
       "discipline": "60m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 510
+      "internal_id": 510,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Albert Casado Vieco",
@@ -33,7 +35,8 @@
       "discipline": "60m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 596
+      "internal_id": 596,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Javier Almale Lerin",
@@ -43,7 +46,8 @@
       "discipline": "200m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 510
+      "internal_id": 510,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Pablo Angel Fernandez",
@@ -53,7 +57,8 @@
       "discipline": "200m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 704
+      "internal_id": 704,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Guifre De Los Rios Blanch",
@@ -63,7 +68,8 @@
       "discipline": "200m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 697
+      "internal_id": 697,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Guifre De Los Rios Blanch",
@@ -73,7 +79,8 @@
       "discipline": "800m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 697
+      "internal_id": 697,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Jordi Puig Argudo",
@@ -83,7 +90,8 @@
       "discipline": "800m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 585
+      "internal_id": 585,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Bernat Verdu Gomez",
@@ -93,7 +101,8 @@
       "discipline": "Triple Salt MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 645
+      "internal_id": 645,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Pablo Angel Fernandez",
@@ -103,7 +112,8 @@
       "discipline": "Triple Salt MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 704
+      "internal_id": 704,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Laura Yan Sole Barba",
@@ -113,7 +123,8 @@
       "discipline": "60m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 701
+      "internal_id": 701,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Laura Yan Sole Barba",
@@ -123,7 +134,8 @@
       "discipline": "200m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 701
+      "internal_id": 701,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Claudia Mir Casellas",
@@ -133,7 +145,8 @@
       "discipline": "200m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 699
+      "internal_id": 699,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Patricia Amador Peris",
@@ -143,7 +156,8 @@
       "discipline": "800m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 644
+      "internal_id": 644,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Marina Tibau Sendra",
@@ -153,7 +167,8 @@
       "discipline": "Pes (4 Kg) FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 359
+      "internal_id": 359,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Marina Tibau Sendra",
@@ -163,7 +178,8 @@
       "discipline": "Pes (4 Kg) FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 359
+      "internal_id": 359,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Marina Tibau Sendra",
@@ -173,7 +189,8 @@
       "discipline": "Pes (4 Kg) FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 359
+      "internal_id": 359,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Marina Tibau Sendra",
@@ -183,7 +200,8 @@
       "discipline": "Pes (4 Kg) FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 359
+      "internal_id": 359,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Marina Tibau Sendra",
@@ -193,7 +211,8 @@
       "discipline": "Pes (4 Kg) FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 359
+      "internal_id": 359,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Claudia Mir Casellas",
@@ -203,7 +222,9 @@
       "discipline": "Pes (4 Kg) FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 699
+      "internal_id": 699,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": true
 }

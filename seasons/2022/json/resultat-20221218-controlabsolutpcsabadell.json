@@ -13,7 +13,8 @@
       "discipline": "60m tanques (1,067) MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 294
+      "internal_id": 294,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Pablo Angel Fernandez",
@@ -23,7 +24,8 @@
       "discipline": "60m tanques (1,067) MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 704
+      "internal_id": 704,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Mireia Lopez Urbano",
@@ -33,7 +35,8 @@
       "discipline": "60m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 527
+      "internal_id": 527,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Maria Antonietta Salazar",
@@ -43,7 +46,8 @@
       "discipline": "60m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 897
+      "internal_id": 897,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Mireia Lopez Urbano",
@@ -53,7 +57,8 @@
       "discipline": "60m tanques (0,84) FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 527
+      "internal_id": 527,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Mireia Lopez Urbano",
@@ -63,7 +68,8 @@
       "discipline": "60m tanques (0,84) FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 527
+      "internal_id": 527,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Natalia Sanchez Alvarez",
@@ -73,7 +79,8 @@
       "discipline": "Llargada FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 796
+      "internal_id": 796,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Natalia Sanchez Alvarez",
@@ -83,7 +90,9 @@
       "discipline": "Llargada FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 796
+      "internal_id": 796,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": true
 }

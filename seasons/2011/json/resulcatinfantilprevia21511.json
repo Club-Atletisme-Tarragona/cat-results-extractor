@@ -13,7 +13,8 @@
       "raw_discipline_name": "80 METRES LLISOS INFANTIL MASCULÍ",
       "performance": "11.13",
       "wind": null,
-      "internal_id": 434
+      "internal_id": 434,
+      "timing": "electronic"
     },
     {
       "athlete_name": "ADOLF MILLA GUASH",
@@ -23,7 +24,8 @@
       "raw_discipline_name": "150 METRES LLISOS INFANTIL MASCULÍ",
       "performance": "19.76",
       "wind": null,
-      "internal_id": 434
+      "internal_id": 434,
+      "timing": "electronic"
     },
     {
       "athlete_name": "XAVIER ROS BORRELL",
@@ -33,7 +35,8 @@
       "raw_discipline_name": "220 METRES TANQUES INFANTIL MASCULÍ",
       "performance": "40.97",
       "wind": null,
-      "internal_id": 439
+      "internal_id": 439,
+      "timing": "electronic"
     },
     {
       "athlete_name": "ALICIA VAZQUEZ DOMINGO",
@@ -43,7 +46,8 @@
       "raw_discipline_name": "150 METRES LLISOS INFANTIL FEMENÍ",
       "performance": "23.01",
       "wind": null,
-      "internal_id": 472
+      "internal_id": 472,
+      "timing": "electronic"
     },
     {
       "athlete_name": "ALICIA VAZQUEZ DOMINGO",
@@ -53,7 +57,9 @@
       "raw_discipline_name": "TRIPLE SALT INFANTIL FEMENÍ",
       "performance": "8.41",
       "wind": null,
-      "internal_id": 472
+      "internal_id": 472,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

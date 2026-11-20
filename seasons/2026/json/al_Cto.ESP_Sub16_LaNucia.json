@@ -14,7 +14,8 @@
       "raw_discipline_name": "100 m Hombres",
       "wind": "-1.5",
       "position": 8,
-      "internal_id": 1108
+      "internal_id": 1108,
+      "timing": "electronic"
     },
     {
       "athlete_name": "MARC MARTI FERNANDEZ",
@@ -25,7 +26,8 @@
       "raw_discipline_name": "100 m Hombres",
       "wind": "-0.3",
       "position": null,
-      "internal_id": 1108
+      "internal_id": 1108,
+      "timing": "electronic"
     },
     {
       "athlete_name": "MARC MARTI FERNANDEZ",
@@ -36,7 +38,8 @@
       "raw_discipline_name": "100 m Hombres",
       "wind": "-1.1",
       "position": null,
-      "internal_id": 1108
+      "internal_id": 1108,
+      "timing": "electronic"
     },
     {
       "athlete_name": "MARC MARTI FERNANDEZ",
@@ -47,7 +50,8 @@
       "raw_discipline_name": "300 m Hombres",
       "wind": null,
       "position": null,
-      "internal_id": 1108
+      "internal_id": 1108,
+      "timing": "electronic"
     },
     {
       "athlete_name": "IKER FUENTES PUESTA",
@@ -58,7 +62,8 @@
       "raw_discipline_name": "100 m vallas Hombres",
       "wind": "+1.6",
       "position": null,
-      "internal_id": 1367
+      "internal_id": 1367,
+      "timing": "electronic"
     },
     {
       "athlete_name": "IKER FUENTES PUESTA",
@@ -69,7 +74,8 @@
       "raw_discipline_name": "100 m vallas Hombres",
       "wind": "-1.4",
       "position": null,
-      "internal_id": 1367
+      "internal_id": 1367,
+      "timing": "electronic"
     },
     {
       "athlete_name": "CESSAR AINA PRECIADO FOREMAN",
@@ -80,7 +86,8 @@
       "raw_discipline_name": "300 m vallas Hombres",
       "wind": null,
       "position": null,
-      "internal_id": 1066
+      "internal_id": 1066,
+      "timing": "electronic"
     },
     {
       "athlete_name": "ENZO MATE GRAS",
@@ -91,7 +98,9 @@
       "raw_discipline_name": "Salto con Pértiga Hombres",
       "wind": null,
       "position": 11,
-      "internal_id": 1343
+      "internal_id": 1343,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

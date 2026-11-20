@@ -14,7 +14,8 @@
       "raw_discipline_name": "80m masculins",
       "wind": null,
       "position": null,
-      "internal_id": 1328
+      "internal_id": 1328,
+      "timing": "electronic"
     },
     {
       "athlete_name": "MARTI GONZALEZ CERESUELA",
@@ -25,7 +26,8 @@
       "raw_discipline_name": "Pes masculí",
       "wind": null,
       "position": null,
-      "internal_id": 1328
+      "internal_id": 1328,
+      "timing": "electronic"
     },
     {
       "athlete_name": "POL DIAZ CRISTINO",
@@ -36,7 +38,8 @@
       "raw_discipline_name": "600m masculins",
       "wind": null,
       "position": null,
-      "internal_id": 1333
+      "internal_id": 1333,
+      "timing": "electronic"
     },
     {
       "athlete_name": "KILIAN PEDROL ESPINOSA",
@@ -47,7 +50,8 @@
       "raw_discipline_name": "80m tanques masculins",
       "wind": "-1.2",
       "position": null,
-      "internal_id": 1361
+      "internal_id": 1361,
+      "timing": "electronic"
     },
     {
       "athlete_name": "DANIEL LINARES ANTELO",
@@ -58,7 +62,8 @@
       "raw_discipline_name": "220m tanques masculins",
       "wind": null,
       "position": null,
-      "internal_id": 1403
+      "internal_id": 1403,
+      "timing": "electronic"
     },
     {
       "athlete_name": "NIL TORRES PRATS",
@@ -69,7 +74,8 @@
       "raw_discipline_name": "Alçada masculina",
       "wind": null,
       "position": null,
-      "internal_id": 1341
+      "internal_id": 1341,
+      "timing": "electronic"
     },
     {
       "athlete_name": "ANTONIO BALAZOTE",
@@ -80,7 +86,8 @@
       "raw_discipline_name": "Disc masculí",
       "wind": null,
       "position": null,
-      "internal_id": 1370
+      "internal_id": 1370,
+      "timing": "electronic"
     },
     {
       "athlete_name": "ANTONIO BALAZOTE",
@@ -91,7 +98,8 @@
       "raw_discipline_name": "Javelina masculina",
       "wind": null,
       "position": null,
-      "internal_id": 1370
+      "internal_id": 1370,
+      "timing": "electronic"
     },
     {
       "athlete_name": "JULIA DIEZ BERTRAN",
@@ -102,7 +110,8 @@
       "raw_discipline_name": "600m femenins",
       "wind": null,
       "position": null,
-      "internal_id": 1430
+      "internal_id": 1430,
+      "timing": "electronic"
     },
     {
       "athlete_name": "MARTINA GÓMEZ ROJALS",
@@ -113,7 +122,8 @@
       "raw_discipline_name": "Alçada femenina",
       "wind": null,
       "position": null,
-      "internal_id": 1443
+      "internal_id": 1443,
+      "timing": "electronic"
     },
     {
       "athlete_name": "MARTINA GÓMEZ ROJALS",
@@ -124,7 +134,8 @@
       "raw_discipline_name": "Llargada femenina",
       "wind": "1.4",
       "position": null,
-      "internal_id": 1443
+      "internal_id": 1443,
+      "timing": "electronic"
     },
     {
       "athlete_name": "MARTINA GÓMEZ ROJALS",
@@ -135,7 +146,8 @@
       "raw_discipline_name": "Llargada femenina",
       "wind": "-1.4",
       "position": null,
-      "internal_id": 1443
+      "internal_id": 1443,
+      "timing": "electronic"
     },
     {
       "athlete_name": "ERIKA MARGALLO DEL VALLE",
@@ -146,7 +158,8 @@
       "raw_discipline_name": "Pes femení",
       "wind": null,
       "position": null,
-      "internal_id": 1388
+      "internal_id": 1388,
+      "timing": "electronic"
     },
     {
       "athlete_name": "ALBA ESTEVE HOSTALOT",
@@ -157,7 +170,8 @@
       "raw_discipline_name": "Disc femení",
       "wind": null,
       "position": null,
-      "internal_id": 1335
+      "internal_id": 1335,
+      "timing": "electronic"
     },
     {
       "athlete_name": "BLANCA FRUTOS MATURANA",
@@ -168,7 +182,8 @@
       "raw_discipline_name": "Martell femení",
       "wind": null,
       "position": null,
-      "internal_id": 1425
+      "internal_id": 1425,
+      "timing": "electronic"
     },
     {
       "athlete_name": "ALBA ESTEVE HOSTALOT",
@@ -179,7 +194,9 @@
       "raw_discipline_name": "Javelina femenina",
       "wind": null,
       "position": null,
-      "internal_id": 1335
+      "internal_id": 1335,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

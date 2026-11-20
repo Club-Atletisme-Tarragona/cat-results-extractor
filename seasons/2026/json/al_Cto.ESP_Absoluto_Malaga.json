@@ -14,7 +14,8 @@
       "raw_discipline_name": "100 m vallas Mujeres",
       "wind": "-0.5",
       "position": null,
-      "internal_id": 527
+      "internal_id": 527,
+      "timing": "electronic"
     },
     {
       "athlete_name": "LAURINE ELISA MARIMON FERNANDEZ",
@@ -25,7 +26,8 @@
       "raw_discipline_name": "Triple Salto Mujeres",
       "wind": "1.5",
       "position": 8,
-      "internal_id": 737
+      "internal_id": 737,
+      "timing": "electronic"
     },
     {
       "athlete_name": "LAURINE ELISA MARIMON FERNANDEZ",
@@ -36,7 +38,8 @@
       "raw_discipline_name": "Triple Salto Mujeres",
       "wind": "1.0",
       "position": 8,
-      "internal_id": 737
+      "internal_id": 737,
+      "timing": "electronic"
     },
     {
       "athlete_name": "LAURINE ELISA MARIMON FERNANDEZ",
@@ -47,7 +50,9 @@
       "raw_discipline_name": "Triple Salto Mujeres",
       "wind": "2.1",
       "position": 8,
-      "internal_id": 737
+      "internal_id": 737,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

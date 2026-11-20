@@ -13,7 +13,8 @@
       "raw_discipline_name": "100 METRES LLISOS MASCULINS",
       "performance": "12.23",
       "wind": "-0.9",
-      "internal_id": 217
+      "internal_id": 217,
+      "timing": "electronic"
     },
     {
       "athlete_name": "AGUSTI ORIOL PASANO",
@@ -23,7 +24,8 @@
       "raw_discipline_name": "200 METRES LLISOS MASCULINS",
       "performance": "24.91",
       "wind": "-2.8",
-      "internal_id": 216
+      "internal_id": 216,
+      "timing": "electronic"
     },
     {
       "athlete_name": "BERNAT ROCAMORA CHAPARRO",
@@ -33,7 +35,8 @@
       "raw_discipline_name": "200 METRES LLISOS MASCULINS",
       "performance": "24.60",
       "wind": "-1.2",
-      "internal_id": 217
+      "internal_id": 217,
+      "timing": "electronic"
     },
     {
       "athlete_name": "IVAN BENITEZ LAZCANO",
@@ -43,7 +46,8 @@
       "raw_discipline_name": "110 METRES TANQUES MASCULINS",
       "performance": "16.27",
       "wind": "-1.0",
-      "internal_id": 257
+      "internal_id": 257,
+      "timing": "electronic"
     },
     {
       "athlete_name": "ALVARO MARCO CAZCARRA",
@@ -53,7 +57,8 @@
       "raw_discipline_name": "110 METRES TANQUES MASCULINS",
       "performance": "17.65",
       "wind": "-1.4",
-      "internal_id": 220
+      "internal_id": 220,
+      "timing": "electronic"
     },
     {
       "athlete_name": "ALVARO MARCO CAZCARRA",
@@ -63,7 +68,8 @@
       "raw_discipline_name": "400 METRES TANQUES MASCULINS",
       "performance": "1:04.54",
       "wind": null,
-      "internal_id": 220
+      "internal_id": 220,
+      "timing": "electronic"
     },
     {
       "athlete_name": "ANNA SOLE FERRE",
@@ -73,7 +79,8 @@
       "raw_discipline_name": "200 METRES LLISOS FEMENINS",
       "performance": "25.81",
       "wind": "-0.6",
-      "internal_id": 233
+      "internal_id": 233,
+      "timing": "electronic"
     },
     {
       "athlete_name": "AGUSTI ORIOL PASANO",
@@ -83,7 +90,8 @@
       "raw_discipline_name": "SALT D'ALÇADA MASCULÍ",
       "performance": "1.64",
       "wind": null,
-      "internal_id": 216
+      "internal_id": 216,
+      "timing": "electronic"
     },
     {
       "athlete_name": "IVAN BENITEZ LAZCANO",
@@ -93,7 +101,8 @@
       "raw_discipline_name": "LLANÇAMENT DE PES MASCULÍ",
       "performance": "11.91",
       "wind": null,
-      "internal_id": 257
+      "internal_id": 257,
+      "timing": "electronic"
     },
     {
       "athlete_name": "IVAN BENITEZ LAZCANO",
@@ -103,7 +112,8 @@
       "raw_discipline_name": "LLANÇAMENT DE PES MASCULÍ",
       "performance": "12.07",
       "wind": null,
-      "internal_id": 257
+      "internal_id": 257,
+      "timing": "electronic"
     },
     {
       "athlete_name": "IVAN BENITEZ LAZCANO",
@@ -113,7 +123,8 @@
       "raw_discipline_name": "LLANÇAMENT DE PES MASCULÍ",
       "performance": "12.62",
       "wind": null,
-      "internal_id": 257
+      "internal_id": 257,
+      "timing": "electronic"
     },
     {
       "athlete_name": "IVAN BENITEZ LAZCANO",
@@ -123,7 +134,8 @@
       "raw_discipline_name": "LLANÇAMENT DE PES MASCULÍ",
       "performance": "12.55",
       "wind": null,
-      "internal_id": 257
+      "internal_id": 257,
+      "timing": "electronic"
     },
     {
       "athlete_name": "IVAN BENITEZ LAZCANO",
@@ -133,7 +145,9 @@
       "raw_discipline_name": "LLANÇAMENT DE PES MASCULÍ",
       "performance": "13.24",
       "wind": null,
-      "internal_id": 257
+      "internal_id": 257,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

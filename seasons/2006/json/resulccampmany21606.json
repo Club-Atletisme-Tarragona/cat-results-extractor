@@ -13,7 +13,8 @@
       "raw_discipline_name": "800 METRES LLISOS MASCULÍ",
       "performance": "2:07.70",
       "wind": null,
-      "internal_id": 245
+      "internal_id": 245,
+      "timing": "electronic"
     },
     {
       "athlete_name": "PEDRO ORTEGA RIDAO",
@@ -23,7 +24,8 @@
       "raw_discipline_name": "800 METRES LLISOS MASCULÍ",
       "performance": "2:07.86",
       "wind": null,
-      "internal_id": 268
+      "internal_id": 268,
+      "timing": "electronic"
     },
     {
       "athlete_name": "CARLOS FERRER BARBERAN",
@@ -33,7 +35,8 @@
       "raw_discipline_name": "800 METRES LLISOS MASCULÍ",
       "performance": "2:13.08",
       "wind": null,
-      "internal_id": 178
+      "internal_id": 178,
+      "timing": "electronic"
     },
     {
       "athlete_name": "JOSE FCO GARCIA NAVARRETE",
@@ -43,7 +46,8 @@
       "raw_discipline_name": "800 METRES LLISOS MASCULÍ",
       "performance": "2:15.18",
       "wind": null,
-      "internal_id": 5
+      "internal_id": 5,
+      "timing": "electronic"
     },
     {
       "athlete_name": "EMILIO BARBERAN DE MIQUEL",
@@ -53,7 +57,8 @@
       "raw_discipline_name": "800 METRES LLISOS MASCULÍ",
       "performance": "2:24.13",
       "wind": null,
-      "internal_id": 267
+      "internal_id": 267,
+      "timing": "electronic"
     },
     {
       "athlete_name": "ALEX LOPEZ VILA",
@@ -63,7 +68,8 @@
       "raw_discipline_name": "800 METRES LLISOS MASCULÍ",
       "performance": "2:31.42",
       "wind": null,
-      "internal_id": 227
+      "internal_id": 227,
+      "timing": "electronic"
     },
     {
       "athlete_name": "PEDRO ORTEGA RIDAO",
@@ -73,7 +79,8 @@
       "raw_discipline_name": "5000 METRES LLISOS MASCULÍ",
       "performance": "17:10.57",
       "wind": null,
-      "internal_id": 268
+      "internal_id": 268,
+      "timing": "electronic"
     },
     {
       "athlete_name": "EMILI BARBERAN DE MIQUEL",
@@ -83,7 +90,9 @@
       "raw_discipline_name": "5000 METRES LLISOS MASCULÍ",
       "performance": "19:01.40",
       "wind": null,
-      "internal_id": 267
+      "internal_id": 267,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

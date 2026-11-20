@@ -13,7 +13,8 @@
       "discipline": "60m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 416
+      "internal_id": 416,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Javier Almale Lerin",
@@ -23,7 +24,8 @@
       "discipline": "60m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 510
+      "internal_id": 510,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Javier Almale Lerin",
@@ -33,7 +35,8 @@
       "discipline": "200m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 510
+      "internal_id": 510,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Alex Cruset Bosch",
@@ -43,7 +46,8 @@
       "discipline": "200m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 597
+      "internal_id": 597,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Gerard Parera Bodi",
@@ -53,7 +57,8 @@
       "discipline": "800m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 522
+      "internal_id": 522,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Gerard Parera Bodi",
@@ -63,7 +68,8 @@
       "discipline": "60m tanques JUV MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 522
+      "internal_id": 522,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Alex Cruset Bosch",
@@ -73,7 +79,8 @@
       "discipline": "60m tanques JUV MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 597
+      "internal_id": 597,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Andrea Lopez Urbano",
@@ -83,7 +90,8 @@
       "discipline": "60m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 437
+      "internal_id": 437,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Mireia Lopez Urbano",
@@ -93,7 +101,8 @@
       "discipline": "200m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 527
+      "internal_id": 527,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Sira Bo Calaf",
@@ -103,7 +112,8 @@
       "discipline": "200m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 599
+      "internal_id": 599,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Maria Buscail Brianso",
@@ -113,7 +123,8 @@
       "discipline": "200m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 520
+      "internal_id": 520,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Mireia Lopez Urbano",
@@ -123,7 +134,8 @@
       "discipline": "60m tanques JUV FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 527
+      "internal_id": 527,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Sira Bo Calaf",
@@ -133,7 +145,8 @@
       "discipline": "60m tanques JUV FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 599
+      "internal_id": 599,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Maria Buscail Brianso",
@@ -143,7 +156,9 @@
       "discipline": "60m tanques JUV FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 520
+      "internal_id": 520,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": true
 }

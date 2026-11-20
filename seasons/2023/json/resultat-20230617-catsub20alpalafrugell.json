@@ -13,7 +13,8 @@
       "discipline": "100m MASC. AL",
       "wind": "-0.7",
       "position": null,
-      "internal_id": 808
+      "internal_id": 808,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Hugo Jules Saiz Santolaria",
@@ -23,7 +24,8 @@
       "discipline": "200m MASC. AL",
       "wind": "+2.5",
       "position": null,
-      "internal_id": 808
+      "internal_id": 808,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Ricard Prio Roca",
@@ -33,7 +35,8 @@
       "discipline": "400m MASC. AL",
       "wind": null,
       "position": null,
-      "internal_id": 778
+      "internal_id": 778,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Pol Aixala Guiu",
@@ -43,7 +46,8 @@
       "discipline": "400m tanques (0,91) MASC. AL",
       "wind": null,
       "position": 4,
-      "internal_id": 733
+      "internal_id": 733,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Ruth Prats Nadal",
@@ -53,7 +57,8 @@
       "discipline": "Alçada FEM. AL",
       "wind": null,
       "position": 4,
-      "internal_id": 915
+      "internal_id": 915,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Laurine Elisa Marimon Fernandez",
@@ -63,7 +68,8 @@
       "discipline": "Triple Salt FEM. AL",
       "wind": "+2.7",
       "position": 1,
-      "internal_id": 737
+      "internal_id": 737,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Laurine Elisa Marimon Fernandez",
@@ -73,7 +79,8 @@
       "discipline": "Triple Salt FEM. AL",
       "wind": "+2.8",
       "position": 1,
-      "internal_id": 737
+      "internal_id": 737,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Laurine Elisa Marimon Fernandez",
@@ -83,7 +90,9 @@
       "discipline": "Triple Salt FEM. AL",
       "wind": "+2.4",
       "position": 1,
-      "internal_id": 737
+      "internal_id": 737,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

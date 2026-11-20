@@ -14,7 +14,8 @@
       "raw_discipline_name": "400 m Masculí",
       "wind": null,
       "position": 8,
-      "internal_id": 1037
+      "internal_id": 1037,
+      "timing": "electronic"
     },
     {
       "athlete_name": "MOHAMED OUHSSAINE",
@@ -25,7 +26,8 @@
       "raw_discipline_name": "1.500 m Masculí",
       "wind": null,
       "position": 9,
-      "internal_id": 1100
+      "internal_id": 1100,
+      "timing": "electronic"
     },
     {
       "athlete_name": "SILVIA VICENTE NAVARRETE",
@@ -36,7 +38,8 @@
       "raw_discipline_name": "100 m tanques (0,84) Femení",
       "wind": "-1.6",
       "position": 4,
-      "internal_id": 905
+      "internal_id": 905,
+      "timing": "electronic"
     },
     {
       "athlete_name": "SILVIA VICENTE NAVARRETE",
@@ -47,7 +50,8 @@
       "raw_discipline_name": "100 m tanques (0,84) Femení",
       "wind": "-0.8",
       "position": null,
-      "internal_id": 905
+      "internal_id": 905,
+      "timing": "electronic"
     },
     {
       "athlete_name": "IRIS GARRIDO GARCIA",
@@ -58,7 +62,8 @@
       "raw_discipline_name": "400 m tanques (0,762) Femení",
       "wind": null,
       "position": 8,
-      "internal_id": 982
+      "internal_id": 982,
+      "timing": "electronic"
     },
     {
       "athlete_name": "AINOA RODRIGUEZ MURILLO",
@@ -69,7 +74,8 @@
       "raw_discipline_name": "400 m tanques (0,762) Femení",
       "wind": null,
       "position": 4,
-      "internal_id": 965
+      "internal_id": 965,
+      "timing": "electronic"
     },
     {
       "athlete_name": "AINOA RODRIGUEZ MURILLO",
@@ -80,7 +86,9 @@
       "raw_discipline_name": "Llargada Femení",
       "wind": "0.0",
       "position": 9,
-      "internal_id": 965
+      "internal_id": 965,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

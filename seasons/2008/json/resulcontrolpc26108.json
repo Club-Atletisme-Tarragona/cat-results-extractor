@@ -13,7 +13,8 @@
       "raw_discipline_name": "60 METRES TANQUES MASCULINS",
       "performance": "9.51",
       "wind": null,
-      "internal_id": 193
+      "internal_id": 193,
+      "timing": "electronic"
     },
     {
       "athlete_name": "ANNA SOLE FERRE",
@@ -23,7 +24,8 @@
       "raw_discipline_name": "60 METRES LLISOS FEMENINS",
       "performance": "8.01",
       "wind": null,
-      "internal_id": 233
+      "internal_id": 233,
+      "timing": "electronic"
     },
     {
       "athlete_name": "DIDAC RIOS MESEGUER",
@@ -33,7 +35,8 @@
       "raw_discipline_name": "SALT DE LLARGADA MASCULI",
       "performance": "5.67",
       "wind": null,
-      "internal_id": 193
+      "internal_id": 193,
+      "timing": "electronic"
     },
     {
       "athlete_name": "DIDAC RIOS MESEGUER",
@@ -43,7 +46,8 @@
       "raw_discipline_name": "SALT DE LLARGADA MASCULI",
       "performance": "5.07",
       "wind": null,
-      "internal_id": 193
+      "internal_id": 193,
+      "timing": "electronic"
     },
     {
       "athlete_name": "JOSE MIGUEL MARTIN ALVAREZ",
@@ -53,7 +57,8 @@
       "raw_discipline_name": "SALT DE LLARGADA MASCULI",
       "performance": "5.59",
       "wind": null,
-      "internal_id": 15
+      "internal_id": 15,
+      "timing": "electronic"
     },
     {
       "athlete_name": "JOSE MIGUEL MARTIN ALVAREZ",
@@ -63,7 +68,8 @@
       "raw_discipline_name": "SALT DE LLARGADA MASCULI",
       "performance": "5.57",
       "wind": null,
-      "internal_id": 15
+      "internal_id": 15,
+      "timing": "electronic"
     },
     {
       "athlete_name": "JOSE MIGUEL MARTIN ALVAREZ",
@@ -73,7 +79,8 @@
       "raw_discipline_name": "SALT DE LLARGADA MASCULI",
       "performance": "5.55",
       "wind": null,
-      "internal_id": 15
+      "internal_id": 15,
+      "timing": "electronic"
     },
     {
       "athlete_name": "PERE PARDINES GRAS",
@@ -83,7 +90,8 @@
       "raw_discipline_name": "SALT DE LLARGADA MASCULI",
       "performance": "4.76",
       "wind": null,
-      "internal_id": 71
+      "internal_id": 71,
+      "timing": "electronic"
     },
     {
       "athlete_name": "PERE PARDINES GRAS",
@@ -93,7 +101,9 @@
       "raw_discipline_name": "SALT DE LLARGADA MASCULI",
       "performance": "5.07",
       "wind": null,
-      "internal_id": 71
+      "internal_id": 71,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": true
 }

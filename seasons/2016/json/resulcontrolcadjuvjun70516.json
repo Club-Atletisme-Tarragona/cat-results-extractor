@@ -13,7 +13,8 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud FEM. AL CADETE",
       "wind": "+0.5",
-      "internal_id": 642
+      "internal_id": 642,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Mar Vazquez Domingo",
@@ -23,7 +24,8 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud FEM. AL CADETE",
       "wind": "+0.2",
-      "internal_id": 642
+      "internal_id": 642,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Mar Vazquez Domingo",
@@ -33,7 +35,8 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud FEM. AL CADETE",
       "wind": "+0.3",
-      "internal_id": 642
+      "internal_id": 642,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Mar Vazquez Domingo",
@@ -43,7 +46,8 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud FEM. AL CADETE",
       "wind": "+1.4",
-      "internal_id": 642
+      "internal_id": 642,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Mireia Lopez Urbano",
@@ -53,7 +57,8 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud FEM. AL JV",
       "wind": "+0.0",
-      "internal_id": 527
+      "internal_id": 527,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Mireia Lopez Urbano",
@@ -63,7 +68,8 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud FEM. AL JV",
       "wind": "+0.0",
-      "internal_id": 527
+      "internal_id": 527,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Montserrat Montañes Arbo",
@@ -73,7 +79,8 @@
       "discipline": "Disc (800 g)",
       "raw_discipline_name": "Disco (800g) FEM. CADETE",
       "wind": null,
-      "internal_id": 497
+      "internal_id": 497,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Montserrat Montañes Arbo",
@@ -83,7 +90,8 @@
       "discipline": "Disc (800 g)",
       "raw_discipline_name": "Disco (800g) FEM. CADETE",
       "wind": null,
-      "internal_id": 497
+      "internal_id": 497,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Montserrat Montañes Arbo",
@@ -93,7 +101,9 @@
       "discipline": "Disc (800 g)",
       "raw_discipline_name": "Disco (800g) FEM. CADETE",
       "wind": null,
-      "internal_id": 497
+      "internal_id": 497,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

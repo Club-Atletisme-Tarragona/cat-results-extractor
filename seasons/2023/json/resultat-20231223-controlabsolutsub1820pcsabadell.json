@@ -13,7 +13,8 @@
       "discipline": "60m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 958
+      "internal_id": 958,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Pablo Angel Fernandez",
@@ -23,7 +24,8 @@
       "discipline": "60m tanques (1,067) ABS MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 704
+      "internal_id": 704,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Mireia Lopez Urbano",
@@ -33,7 +35,8 @@
       "discipline": "60m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 527
+      "internal_id": 527,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Mireia Redondo Mendoza",
@@ -43,7 +46,8 @@
       "discipline": "60m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 957
+      "internal_id": 957,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Claudia Mir Casellas",
@@ -53,7 +57,8 @@
       "discipline": "400m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 699
+      "internal_id": 699,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Mireia Redondo Mendoza",
@@ -63,7 +68,8 @@
       "discipline": "400m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 957
+      "internal_id": 957,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Mireia Lopez Urbano",
@@ -73,7 +79,8 @@
       "discipline": "60m tanques (0,84) ABS FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 527
+      "internal_id": 527,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Claudia Mir Casellas",
@@ -83,7 +90,9 @@
       "discipline": "60m tanques (0,84) ABS FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 699
+      "internal_id": 699,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": true
 }

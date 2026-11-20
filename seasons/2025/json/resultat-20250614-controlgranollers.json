@@ -13,7 +13,8 @@
       "discipline": "800 metres llisos",
       "raw_discipline_name": "800m Hombres",
       "wind": null,
-      "internal_id": 439
+      "internal_id": 439,
+      "timing": "electronic"
     },
     {
       "athlete_name": "MARIA ANTONIETTA SALAZAR",
@@ -23,7 +24,8 @@
       "discipline": "200 metres llisos",
       "raw_discipline_name": "200m Mujeres",
       "wind": "-2.5",
-      "internal_id": 897
+      "internal_id": 897,
+      "timing": "electronic"
     },
     {
       "athlete_name": "IRIS GARRIDO GARCIA",
@@ -33,7 +35,8 @@
       "discipline": "400 metres llisos",
       "raw_discipline_name": "400m Mujeres",
       "wind": null,
-      "internal_id": 982
+      "internal_id": 982,
+      "timing": "electronic"
     },
     {
       "athlete_name": "AINOA RODRIGUEZ MURILLO",
@@ -43,7 +46,8 @@
       "discipline": "400 metres llisos",
       "raw_discipline_name": "400m Mujeres",
       "wind": null,
-      "internal_id": 965
+      "internal_id": 965,
+      "timing": "electronic"
     },
     {
       "athlete_name": "CLARA ORTIZ DE LANDAZURI ONTOSO",
@@ -53,7 +57,8 @@
       "discipline": "800 metres llisos",
       "raw_discipline_name": "800m Mujeres",
       "wind": null,
-      "internal_id": 1022
+      "internal_id": 1022,
+      "timing": "electronic"
     },
     {
       "athlete_name": "CLARA ORTIZ DE LANDAZURI ONTO…",
@@ -63,7 +68,9 @@
       "discipline": "800 metres llisos",
       "raw_discipline_name": "800m Mujeres",
       "wind": null,
-      "internal_id": 1022
+      "internal_id": 1022,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

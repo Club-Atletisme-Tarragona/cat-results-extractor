@@ -14,7 +14,8 @@
       "raw_discipline_name": "Alçada SUB18FEM. AL",
       "wind": null,
       "position": 5,
-      "internal_id": 664
+      "internal_id": 664,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Maria Falco Cuenca",
@@ -25,7 +26,8 @@
       "raw_discipline_name": "Triple Salt SUB18 FEM. AL",
       "wind": "+0.5",
       "position": 6,
-      "internal_id": 664
+      "internal_id": 664,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Maria Falco Cuenca",
@@ -36,7 +38,8 @@
       "raw_discipline_name": "Triple Salt SUB18 FEM. AL",
       "wind": "+0.9",
       "position": 6,
-      "internal_id": 664
+      "internal_id": 664,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Maria Falco Cuenca",
@@ -47,7 +50,8 @@
       "raw_discipline_name": "Triple Salt SUB18 FEM. AL",
       "wind": "-0.5",
       "position": 6,
-      "internal_id": 664
+      "internal_id": 664,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Maria Falco Cuenca",
@@ -58,7 +62,8 @@
       "raw_discipline_name": "Triple Salt SUB18 FEM. AL",
       "wind": "+3.0",
       "position": 6,
-      "internal_id": 664
+      "internal_id": 664,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Nuria Menchon Tevar",
@@ -69,7 +74,8 @@
       "raw_discipline_name": "Martell (3 Kg) SUB18 FEM.",
       "wind": null,
       "position": 12,
-      "internal_id": 541
+      "internal_id": 541,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Nuria Menchon Tevar",
@@ -80,7 +86,8 @@
       "raw_discipline_name": "Martell (3 Kg) SUB18 FEM.",
       "wind": null,
       "position": 12,
-      "internal_id": 541
+      "internal_id": 541,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Nuria Menchon Tevar",
@@ -91,7 +98,9 @@
       "raw_discipline_name": "Martell (3 Kg) SUB18 FEM.",
       "wind": null,
       "position": 12,
-      "internal_id": 541
+      "internal_id": 541,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

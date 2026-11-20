@@ -13,7 +13,8 @@
       "discipline": "1.500m Hombres",
       "wind": null,
       "position": null,
-      "internal_id": 992
+      "internal_id": 992,
+      "timing": "electronic"
     },
     {
       "athlete_name": "CLAUDIA MIR CASELLAS",
@@ -23,7 +24,8 @@
       "discipline": "400m Mujeres",
       "wind": null,
       "position": null,
-      "internal_id": 699
+      "internal_id": 699,
+      "timing": "electronic"
     },
     {
       "athlete_name": "ANNA ARTERO FERNANDEZ",
@@ -33,7 +35,9 @@
       "discipline": "3.000m Mujeres",
       "wind": null,
       "position": null,
-      "internal_id": 847
+      "internal_id": 847,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": true
 }

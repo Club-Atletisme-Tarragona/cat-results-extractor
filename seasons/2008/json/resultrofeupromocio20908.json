@@ -13,7 +13,8 @@
       "raw_discipline_name": "1000 metres llisos Benjamí Femení",
       "performance": "7:44.70",
       "wind": null,
-      "internal_id": 527
+      "internal_id": 527,
+      "timing": "electronic"
     },
     {
       "athlete_name": "ANDREA LÓPEZ URBANO",
@@ -23,7 +24,9 @@
       "raw_discipline_name": "600 metres llisos Aleví Femení                   1ª Serie",
       "performance": "2:40.10",
       "wind": null,
-      "internal_id": 437
+      "internal_id": 437,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

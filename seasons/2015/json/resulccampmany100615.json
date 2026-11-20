@@ -13,7 +13,8 @@
       "discipline": "200 metres llisos",
       "raw_discipline_name": "200 METRES LLISOS MASCULINS",
       "wind": "+0.2",
-      "internal_id": 397
+      "internal_id": 397,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Jesus Muñoz Vazquez",
@@ -23,7 +24,8 @@
       "discipline": "200 metres llisos",
       "raw_discipline_name": "200 METRES LLISOS MASCULINS",
       "wind": "+0.5",
-      "internal_id": 444
+      "internal_id": 444,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Mohamed Maman",
@@ -33,7 +35,8 @@
       "discipline": "200 metres llisos",
       "raw_discipline_name": "200 METRES LLISOS MASCULINS",
       "wind": "+0.4",
-      "internal_id": 496
+      "internal_id": 496,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Sergio Marcos Moreno",
@@ -43,7 +46,8 @@
       "discipline": "200 metres llisos",
       "raw_discipline_name": "200 METRES LLISOS MASCULINS",
       "wind": "+0.4",
-      "internal_id": 453
+      "internal_id": 453,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Xavier Ros Borrell",
@@ -53,7 +57,8 @@
       "discipline": "800 metres llisos",
       "raw_discipline_name": "800 METRES LLISOS MASCULINS",
       "wind": null,
-      "internal_id": 439
+      "internal_id": 439,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Didac Alonso Del Campo",
@@ -63,7 +68,8 @@
       "discipline": "Javelina (700 g)",
       "raw_discipline_name": "LLANÇAMENT DE JAVELINA JUVENIL MASCULI",
       "wind": null,
-      "internal_id": 468
+      "internal_id": 468,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Didac Alonso Del Campo",
@@ -73,7 +79,8 @@
       "discipline": "Javelina (700 g)",
       "raw_discipline_name": "LLANÇAMENT DE JAVELINA JUVENIL MASCULI",
       "wind": null,
-      "internal_id": 468
+      "internal_id": 468,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Didac Alonso Del Campo",
@@ -83,7 +90,8 @@
       "discipline": "Javelina (700 g)",
       "raw_discipline_name": "LLANÇAMENT DE JAVELINA JUVENIL MASCULI",
       "wind": null,
-      "internal_id": 468
+      "internal_id": 468,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Didac Alonso Del Campo",
@@ -93,7 +101,8 @@
       "discipline": "Javelina (700 g)",
       "raw_discipline_name": "LLANÇAMENT DE JAVELINA JUVENIL MASCULI",
       "wind": null,
-      "internal_id": 468
+      "internal_id": 468,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Didac Alonso Del Campo",
@@ -103,7 +112,8 @@
       "discipline": "Javelina (700 g)",
       "raw_discipline_name": "LLANÇAMENT DE JAVELINA JUVENIL MASCULI",
       "wind": null,
-      "internal_id": 468
+      "internal_id": 468,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Didac Alonso Del Campo",
@@ -113,7 +123,8 @@
       "discipline": "Javelina (700 g)",
       "raw_discipline_name": "LLANÇAMENT DE JAVELINA JUVENIL MASCULI",
       "wind": null,
-      "internal_id": 468
+      "internal_id": 468,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Marta Font Palomar",
@@ -123,7 +134,8 @@
       "discipline": "200 metres llisos",
       "raw_discipline_name": "200 METRES LLISOS FEMENINS",
       "wind": null,
-      "internal_id": 285
+      "internal_id": 285,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Helena Rios Montserrat",
@@ -133,7 +145,8 @@
       "discipline": "400 metres tanques (0.762)",
       "raw_discipline_name": "400 METRES TANQUES FEMENINS",
       "wind": null,
-      "internal_id": 409
+      "internal_id": 409,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Blanca Tortajada Pinto",
@@ -143,7 +156,8 @@
       "discipline": "Llargada",
       "raw_discipline_name": "SALT DE LLARGADA FEMENI",
       "wind": "-1.5",
-      "internal_id": 310
+      "internal_id": 310,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Blanca Tortajada Pinto",
@@ -153,7 +167,9 @@
       "discipline": "Llargada",
       "raw_discipline_name": "SALT DE LLARGADA FEMENI",
       "wind": "-2.5",
-      "internal_id": 310
+      "internal_id": 310,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

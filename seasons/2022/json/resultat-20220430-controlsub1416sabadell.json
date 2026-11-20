@@ -13,7 +13,8 @@
       "discipline": "Jabalina SUB16 (600g) MASC.",
       "wind": null,
       "position": null,
-      "internal_id": 965
+      "internal_id": 965,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Iris Garrido Garcia",
@@ -23,7 +24,8 @@
       "discipline": "Jabalina SUB16 (600g) MASC.",
       "wind": null,
       "position": null,
-      "internal_id": 982
+      "internal_id": 982,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Ainoa Rodriguez Murillo",
@@ -33,7 +35,8 @@
       "discipline": "Longitud SUB16 FEM. AL",
       "wind": "+2.2",
       "position": null,
-      "internal_id": 965
+      "internal_id": 965,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Ainoa Rodriguez Murillo",
@@ -43,7 +46,8 @@
       "discipline": "Longitud SUB16 FEM. AL",
       "wind": "+2.0",
       "position": null,
-      "internal_id": 965
+      "internal_id": 965,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Ainoa Rodriguez Murillo",
@@ -53,7 +57,9 @@
       "discipline": "Longitud SUB16 FEM. AL",
       "wind": "+2.2",
       "position": null,
-      "internal_id": 965
+      "internal_id": 965,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

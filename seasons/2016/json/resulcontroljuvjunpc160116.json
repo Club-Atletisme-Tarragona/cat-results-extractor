@@ -13,7 +13,8 @@
       "discipline": "400 metres llisos",
       "raw_discipline_name": "400m MASC. PC",
       "wind": null,
-      "internal_id": 522
+      "internal_id": 522,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Yonas Aguilera Aguilera",
@@ -23,7 +24,8 @@
       "discipline": "400 metres llisos",
       "raw_discipline_name": "400m MASC. PC",
       "wind": null,
-      "internal_id": 524
+      "internal_id": 524,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Maria Martin Borras",
@@ -33,7 +35,8 @@
       "discipline": "Triple",
       "raw_discipline_name": "Triple Salt MASC. PC",
       "wind": null,
-      "internal_id": 474
+      "internal_id": 474,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Andrea Lopez Urbano",
@@ -43,7 +46,8 @@
       "discipline": "Triple",
       "raw_discipline_name": "Triple Salt MASC. PC",
       "wind": null,
-      "internal_id": 437
+      "internal_id": 437,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Mireia Lopez Urbano",
@@ -53,7 +57,8 @@
       "discipline": "Triple",
       "raw_discipline_name": "Triple Salt MASC. PC",
       "wind": null,
-      "internal_id": 527
+      "internal_id": 527,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Mireia Lopez Urbano",
@@ -63,7 +68,8 @@
       "discipline": "Triple",
       "raw_discipline_name": "Triple Salt MASC. PC",
       "wind": null,
-      "internal_id": 527
+      "internal_id": 527,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Maria Buscail Brianso",
@@ -73,7 +79,8 @@
       "discipline": "Triple",
       "raw_discipline_name": "Triple Salt MASC. PC",
       "wind": null,
-      "internal_id": 520
+      "internal_id": 520,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Maria Buscail Brianso",
@@ -83,7 +90,8 @@
       "discipline": "Triple",
       "raw_discipline_name": "Triple Salt MASC. PC",
       "wind": null,
-      "internal_id": 520
+      "internal_id": 520,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Nerea Lago Garbajosa",
@@ -93,7 +101,8 @@
       "discipline": "Triple",
       "raw_discipline_name": "Triple Salt MASC. PC",
       "wind": null,
-      "internal_id": 534
+      "internal_id": 534,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Nerea Lago Garbajosa",
@@ -103,7 +112,9 @@
       "discipline": "Triple",
       "raw_discipline_name": "Triple Salt MASC. PC",
       "wind": null,
-      "internal_id": 534
+      "internal_id": 534,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": true
 }

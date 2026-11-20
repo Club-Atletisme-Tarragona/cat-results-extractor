@@ -13,7 +13,8 @@
       "raw_discipline_name": "ALÇADA                              CF-IF-AF",
       "performance": "1.15",
       "wind": null,
-      "internal_id": 703
+      "internal_id": 703,
+      "timing": "electronic"
     },
     {
       "athlete_name": "ARIADNA ALONSO DEL CAMPO",
@@ -23,7 +24,8 @@
       "raw_discipline_name": "LLARGADA                            IF-AF-BF",
       "performance": "3.08",
       "wind": null,
-      "internal_id": 703
+      "internal_id": 703,
+      "timing": "electronic"
     },
     {
       "athlete_name": "ARIADNA ALONSO DEL CAMPO",
@@ -33,7 +35,8 @@
       "raw_discipline_name": "LLARGADA                            IF-AF-BF",
       "performance": "3.49",
       "wind": null,
-      "internal_id": 703
+      "internal_id": 703,
+      "timing": "electronic"
     },
     {
       "athlete_name": "ARIADNA ALONSO DEL CAMPO",
@@ -43,7 +46,9 @@
       "raw_discipline_name": "LLARGADA                            IF-AF-BF",
       "performance": "3.52",
       "wind": null,
-      "internal_id": 703
+      "internal_id": 703,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

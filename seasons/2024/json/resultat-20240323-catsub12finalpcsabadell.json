@@ -13,7 +13,8 @@
       "discipline": "60m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Kilian Borreda Cervello",
@@ -23,7 +24,8 @@
       "discipline": "60m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Pol Diaz Cristino",
@@ -33,7 +35,8 @@
       "discipline": "600m MASC. PC",
       "wind": null,
       "position": 10,
-      "internal_id": 1333
+      "internal_id": 1333,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Kilian Pedrol Espinosa",
@@ -43,7 +46,8 @@
       "discipline": "Alçada MASC. PC",
       "wind": null,
       "position": 4,
-      "internal_id": 1361
+      "internal_id": 1361,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Kilian Borreda Cervello",
@@ -53,7 +57,8 @@
       "discipline": "Llargada MASC. PC",
       "wind": null,
       "position": 2,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Kilian Borreda Cervello",
@@ -63,7 +68,8 @@
       "discipline": "Llargada MASC. PC",
       "wind": null,
       "position": 2,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Kilian Borreda Cervello",
@@ -73,7 +79,8 @@
       "discipline": "Llargada MASC. PC",
       "wind": null,
       "position": 2,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Kilian Borreda Cervello",
@@ -83,7 +90,8 @@
       "discipline": "Llargada MASC. PC",
       "wind": null,
       "position": 2,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Kilian Borreda Cervello",
@@ -93,7 +101,8 @@
       "discipline": "Llargada MASC. PC",
       "wind": null,
       "position": 2,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Kilian Pedrol Espinosa",
@@ -103,7 +112,8 @@
       "discipline": "Pes (2 Kg) MASC. PC",
       "wind": null,
       "position": 10,
-      "internal_id": 1361
+      "internal_id": 1361,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Vivian Onyemaekwu",
@@ -113,7 +123,8 @@
       "discipline": "60m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Berta Barber Gonzalez",
@@ -123,7 +134,8 @@
       "discipline": "2.000m FEM. PC",
       "wind": null,
       "position": 7,
-      "internal_id": 1359
+      "internal_id": 1359,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Celia Vega Martinez",
@@ -133,7 +145,8 @@
       "discipline": "60m tanques (0,50) FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 1329
+      "internal_id": 1329,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Vivian Onyemaekwu",
@@ -143,7 +156,8 @@
       "discipline": "60m tanques (0,50) FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Berta Barber Gonzalez",
@@ -153,7 +167,9 @@
       "discipline": "Perxa FEM. PC",
       "wind": null,
       "position": 10,
-      "internal_id": 1359
+      "internal_id": 1359,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": true
 }

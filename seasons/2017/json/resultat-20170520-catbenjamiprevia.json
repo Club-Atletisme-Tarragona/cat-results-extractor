@@ -13,7 +13,8 @@
       "discipline": "SALT D'ALÇADA BENJAMI MASCULI",
       "wind": null,
       "position": null,
-      "internal_id": 958
+      "internal_id": 958,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Nacho Blanco Calatrava",
@@ -23,7 +24,8 @@
       "discipline": "SALT D'ALÇADA BENJAMI MASCULI",
       "wind": null,
       "position": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Guillem Ferran Jimenez",
@@ -33,7 +35,8 @@
       "discipline": "SALT DE LLARGADA BENJAMI MASCULI",
       "wind": null,
       "position": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Guillem Ferran Jimenez",
@@ -43,7 +46,8 @@
       "discipline": "SALT DE LLARGADA BENJAMI MASCULI",
       "wind": null,
       "position": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Andrea Molina Solichero",
@@ -53,7 +57,8 @@
       "discipline": "SALT DE LLARGADA BENJAMI FEMENI",
       "wind": null,
       "position": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Noemi Gonzalez Carrillo",
@@ -63,7 +68,8 @@
       "discipline": "1000 METRES MARXA BENJAMI FEMENI",
       "wind": null,
       "position": null,
-      "internal_id": 1030
+      "internal_id": 1030,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Quimey Izaga Deriu",
@@ -73,7 +79,8 @@
       "discipline": "1000 METRES MARXA BENJAMI MASCULI",
       "wind": null,
       "position": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Miguel Reyes Alcantara",
@@ -83,7 +90,9 @@
       "discipline": "1000 METRES MARXA BENJAMI MASCULI",
       "wind": null,
       "position": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

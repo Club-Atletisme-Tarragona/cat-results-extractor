@@ -13,7 +13,8 @@
       "discipline": "80m tanques (0,84) MASC. AL",
       "wind": "-2.5",
       "position": null,
-      "internal_id": 1011
+      "internal_id": 1011,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Joan Rich Salas",
@@ -23,7 +24,8 @@
       "discipline": "80m tanques (0,84) MASC. AL",
       "wind": "-2.6",
       "position": 1,
-      "internal_id": 1011
+      "internal_id": 1011,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Joan Rich Salas",
@@ -33,7 +35,8 @@
       "discipline": "220m tanques (0,76) MASC. AL",
       "wind": null,
       "position": null,
-      "internal_id": 1011
+      "internal_id": 1011,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Joan Rich Salas",
@@ -43,7 +46,8 @@
       "discipline": "220m tanques (0,76) MASC. AL",
       "wind": null,
       "position": 1,
-      "internal_id": 1011
+      "internal_id": 1011,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Eric De La Rosa Fortuny",
@@ -53,7 +57,8 @@
       "discipline": "1.000m Obst. MASC.",
       "wind": null,
       "position": 2,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Guillem Pamies Miro",
@@ -63,7 +68,8 @@
       "discipline": "Martell (3 Kg) MASC.",
       "wind": null,
       "position": 10,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Guillem Pamies Miro",
@@ -73,7 +79,8 @@
       "discipline": "Martell (3 Kg) MASC.",
       "wind": null,
       "position": 10,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Olivia Ruiz Barbera",
@@ -83,7 +90,8 @@
       "discipline": "80m FEM. AL",
       "wind": null,
       "position": null,
-      "internal_id": 1018
+      "internal_id": 1018,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Olivia Ruiz Barbera",
@@ -93,7 +101,8 @@
       "discipline": "80m FEM. AL",
       "wind": null,
       "position": null,
-      "internal_id": 1018
+      "internal_id": 1018,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Olivia Ruiz Barbera",
@@ -103,7 +112,8 @@
       "discipline": "150m FEM AL",
       "wind": null,
       "position": null,
-      "internal_id": 1018
+      "internal_id": 1018,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Diana Garcia Mur",
@@ -113,7 +123,8 @@
       "discipline": "600m FEM. AL",
       "wind": null,
       "position": 10,
-      "internal_id": 1081
+      "internal_id": 1081,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Clara Ortiz De Landazuri Ontoso",
@@ -123,7 +134,8 @@
       "discipline": "1.000m Obst. FEM",
       "wind": null,
       "position": 2,
-      "internal_id": 1022
+      "internal_id": 1022,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Nora Montolio Amaro",
@@ -133,7 +145,8 @@
       "discipline": "1.000m Obst. FEM",
       "wind": null,
       "position": 8,
-      "internal_id": 1089
+      "internal_id": 1089,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Ona Sansa Garcia",
@@ -143,7 +156,8 @@
       "discipline": "Perxa FEM. AL",
       "wind": null,
       "position": 3,
-      "internal_id": 1015
+      "internal_id": 1015,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Noa Nin Navas",
@@ -153,7 +167,8 @@
       "discipline": "Pes (2 Kg) FEM AL",
       "wind": null,
       "position": 4,
-      "internal_id": 1010
+      "internal_id": 1010,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Noa Nin Navas",
@@ -163,7 +178,8 @@
       "discipline": "Pes (2 Kg) FEM AL",
       "wind": null,
       "position": 4,
-      "internal_id": 1010
+      "internal_id": 1010,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Noa Nin Navas",
@@ -173,7 +189,8 @@
       "discipline": "Pes (2 Kg) FEM AL",
       "wind": null,
       "position": 4,
-      "internal_id": 1010
+      "internal_id": 1010,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Noa Nin Navas",
@@ -183,7 +200,8 @@
       "discipline": "Pes (2 Kg) FEM AL",
       "wind": null,
       "position": 4,
-      "internal_id": 1010
+      "internal_id": 1010,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Noa Nin Navas",
@@ -193,7 +211,8 @@
       "discipline": "Pes (2 Kg) FEM AL",
       "wind": null,
       "position": 4,
-      "internal_id": 1010
+      "internal_id": 1010,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Paula Diez Plasencia",
@@ -203,7 +222,9 @@
       "discipline": "3.000m Marxa FEM. en pista",
       "wind": null,
       "position": 11,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

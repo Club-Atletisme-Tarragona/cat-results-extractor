@@ -13,7 +13,8 @@
       "raw_discipline_name": "RESULTATS 1000 METRES MARXA                             BENJAMI MASCULÍ I FEMENÍ",
       "performance": "7:38.00",
       "wind": null,
-      "internal_id": 928
+      "internal_id": 928,
+      "timing": "electronic"
     },
     {
       "athlete_name": "VIRGILI GARRIGOS ORIOL",
@@ -23,7 +24,8 @@
       "raw_discipline_name": "RESULTATS 1000 METRES MARXA                             BENJAMI MASCULÍ I FEMENÍ",
       "performance": "8:01.00",
       "wind": null,
-      "internal_id": 852
+      "internal_id": 852,
+      "timing": "electronic"
     },
     {
       "athlete_name": "MASCARELL JULIAN LAURA",
@@ -33,7 +35,8 @@
       "raw_discipline_name": "RESULTATS 2000 METRES MARXA                                      INFANTIL FEMENÍ",
       "performance": "13:29.50",
       "wind": null,
-      "internal_id": 646
+      "internal_id": 646,
+      "timing": "electronic"
     },
     {
       "athlete_name": "LOPEZ URBANO MIREIA",
@@ -43,7 +46,8 @@
       "raw_discipline_name": "RESULTATS SALT DE LLARGADA CADET FEMENINA",
       "performance": "4.79",
       "wind": null,
-      "internal_id": 527
+      "internal_id": 527,
+      "timing": "electronic"
     },
     {
       "athlete_name": "ROVIRA MORCILLO PAULA",
@@ -53,7 +57,8 @@
       "raw_discipline_name": "RESULTATS SALT DE LLARGADA CADET FEMENINA",
       "performance": "4.41",
       "wind": null,
-      "internal_id": 598
+      "internal_id": 598,
+      "timing": "electronic"
     },
     {
       "athlete_name": "BUSCAIL BRIANSO MARIA",
@@ -63,7 +68,8 @@
       "raw_discipline_name": "RESULTATS SALT DE LLARGADA CADET FEMENINA",
       "performance": "3.99",
       "wind": null,
-      "internal_id": 520
+      "internal_id": 520,
+      "timing": "electronic"
     },
     {
       "athlete_name": "VAZQUEZ DOMINGO ALICIA",
@@ -73,7 +79,8 @@
       "raw_discipline_name": "RESULTATS SALT DE LLARGADA ABSOLUT FEMENINA",
       "performance": "5.11",
       "wind": null,
-      "internal_id": 472
+      "internal_id": 472,
+      "timing": "electronic"
     },
     {
       "athlete_name": "TORTAJADA PINTO BLANCA",
@@ -83,7 +90,8 @@
       "raw_discipline_name": "RESULTATS SALT DE LLARGADA ABSOLUT FEMENINA",
       "performance": "4.24",
       "wind": null,
-      "internal_id": 310
+      "internal_id": 310,
+      "timing": "electronic"
     },
     {
       "athlete_name": "MONTAÑES ARBO MONTSERRAT",
@@ -93,7 +101,8 @@
       "raw_discipline_name": "RESULTATS MARTELL CADET - JUVENIL FEMENÍ (3 KG.)",
       "performance": "33.76",
       "wind": null,
-      "internal_id": 497
+      "internal_id": 497,
+      "timing": "electronic"
     },
     {
       "athlete_name": "TORTAJADA PINTO BLANCA",
@@ -103,7 +112,8 @@
       "raw_discipline_name": "RESULTATS MARTELL ABSOLUT FEMENÍ ( 4 kg,)",
       "performance": "29.78",
       "wind": null,
-      "internal_id": 310
+      "internal_id": 310,
+      "timing": "electronic"
     },
     {
       "athlete_name": "RUIZ GEMMA",
@@ -113,7 +123,8 @@
       "raw_discipline_name": "RESULTATS DISC ABSOLUT FEMENÍ ( 1 KG.)",
       "performance": "17.95",
       "wind": null,
-      "internal_id": 464
+      "internal_id": 464,
+      "timing": "electronic"
     },
     {
       "athlete_name": "RIOS MESEGUER DIDAC",
@@ -123,7 +134,9 @@
       "raw_discipline_name": "RESULTATS DISC ABSOLUT MASCULÍ (2 KG.)",
       "performance": "24.98",
       "wind": null,
-      "internal_id": 193
+      "internal_id": 193,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

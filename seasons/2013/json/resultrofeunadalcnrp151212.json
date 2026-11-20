@@ -13,7 +13,8 @@
       "raw_discipline_name": "60 METRES LLISOS ALEVI MASCULI",
       "performance": "9.91",
       "wind": null,
-      "internal_id": 714
+      "internal_id": 714,
+      "timing": "electronic"
     },
     {
       "athlete_name": "JOSEP MARIA MATEO SANZ",
@@ -23,7 +24,8 @@
       "raw_discipline_name": "60 METRES LLISOS CADET A ABSOLUT MASCULI",
       "performance": "8.09",
       "wind": null,
-      "internal_id": 343
+      "internal_id": 343,
+      "timing": "electronic"
     },
     {
       "athlete_name": "ANTONIO FORNIES CAMER",
@@ -33,7 +35,8 @@
       "raw_discipline_name": "60 METRES LLISOS CADET A ABSOLUT MASCULI",
       "performance": "8.20",
       "wind": null,
-      "internal_id": 396
+      "internal_id": 396,
+      "timing": "electronic"
     },
     {
       "athlete_name": "JOSEP MARIA MATEO SANZ",
@@ -43,7 +46,8 @@
       "raw_discipline_name": "SALT DE LLARGADA CADET A ABSOLUT MASCULI",
       "performance": "5.04",
       "wind": "0.4",
-      "internal_id": 343
+      "internal_id": 343,
+      "timing": "electronic"
     },
     {
       "athlete_name": "JOSEP MARIA MATEO SANZ",
@@ -53,7 +57,8 @@
       "raw_discipline_name": "SALT DE LLARGADA CADET A ABSOLUT MASCULI",
       "performance": "5.08",
       "wind": "0.4",
-      "internal_id": 343
+      "internal_id": 343,
+      "timing": "electronic"
     },
     {
       "athlete_name": "MARIA LUISA PRADILLO GUTIERREZ",
@@ -63,7 +68,8 @@
       "raw_discipline_name": "LLANÇAMENT DE PES CADET A ABSOLUT FEMENI",
       "performance": "5.59",
       "wind": null,
-      "internal_id": 389
+      "internal_id": 389,
+      "timing": "electronic"
     },
     {
       "athlete_name": "MARIA LUISA PRADILLO GUTIERREZ",
@@ -73,7 +79,8 @@
       "raw_discipline_name": "LLANÇAMENT DE PES CADET A ABSOLUT FEMENI",
       "performance": "5.09",
       "wind": null,
-      "internal_id": 389
+      "internal_id": 389,
+      "timing": "electronic"
     },
     {
       "athlete_name": "MARIA LUISA PRADILLO GUTIERREZ",
@@ -83,7 +90,8 @@
       "raw_discipline_name": "LLANÇAMENT DE PES CADET A ABSOLUT FEMENI",
       "performance": "5.12",
       "wind": null,
-      "internal_id": 389
+      "internal_id": 389,
+      "timing": "electronic"
     },
     {
       "athlete_name": "MARIA LUISA PRADILLO GUTIERREZ",
@@ -93,7 +101,8 @@
       "raw_discipline_name": "LLANÇAMENT DE PES CADET A ABSOLUT FEMENI",
       "performance": "5.77",
       "wind": null,
-      "internal_id": 389
+      "internal_id": 389,
+      "timing": "electronic"
     },
     {
       "athlete_name": "MARIA LUISA PRADILLO GUTIERREZ",
@@ -103,7 +112,9 @@
       "raw_discipline_name": "LLANÇAMENT DE PES CADET A ABSOLUT FEMENI",
       "performance": "5.85",
       "wind": null,
-      "internal_id": 389
+      "internal_id": 389,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

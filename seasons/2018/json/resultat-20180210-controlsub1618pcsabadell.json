@@ -14,7 +14,8 @@
       "raw_discipline_name": "60m S16 MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 706
+      "internal_id": 706,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Laura Yan Sole Barba",
@@ -25,7 +26,8 @@
       "raw_discipline_name": "60m S16 FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 701
+      "internal_id": 701,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Aleix Lago Garbajosa",
@@ -36,7 +38,8 @@
       "raw_discipline_name": "800m S18 MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 660
+      "internal_id": 660,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Claudian. Mir Casellas",
@@ -47,7 +50,8 @@
       "raw_discipline_name": "Alçada S16 FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 699
+      "internal_id": 699,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Laurine Elisa Marimon Fernandez",
@@ -58,7 +62,9 @@
       "raw_discipline_name": "Alçada S16 FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 737
+      "internal_id": 737,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": true
 }

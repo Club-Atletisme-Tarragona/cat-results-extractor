@@ -13,7 +13,8 @@
       "discipline": "60m tanques (0,91) MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 899
+      "internal_id": 899,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Unai Ortiz De Landazuri Ontoso",
@@ -23,7 +24,8 @@
       "discipline": "Alçada MASC. PC",
       "wind": null,
       "position": 8,
-      "internal_id": 908
+      "internal_id": 908,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Lluc Subiros Brasero",
@@ -33,7 +35,8 @@
       "discipline": "Perxa MASC. PC",
       "wind": null,
       "position": 6,
-      "internal_id": 899
+      "internal_id": 899,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Maria Antonietta Salazar",
@@ -43,7 +46,8 @@
       "discipline": "60m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 897
+      "internal_id": 897,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Maria Antonietta Salazar",
@@ -53,7 +57,8 @@
       "discipline": "60m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 897
+      "internal_id": 897,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Maria Antonietta Salazar",
@@ -63,7 +68,8 @@
       "discipline": "200m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 897
+      "internal_id": 897,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Maria Antonietta Salazar",
@@ -73,7 +79,8 @@
       "discipline": "200m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 897
+      "internal_id": 897,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Silvia Vicente Navarrete",
@@ -83,7 +90,8 @@
       "discipline": "60m tanques (0,762) FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 905
+      "internal_id": 905,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Sofia Rubio Reunis",
@@ -93,7 +101,9 @@
       "discipline": "Alçada FEM. PC",
       "wind": null,
       "position": 3,
-      "internal_id": 935
+      "internal_id": 935,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": true
 }

@@ -13,7 +13,8 @@
       "discipline": "60m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 808
+      "internal_id": 808,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Gonzalo Bellón Tirado",
@@ -23,7 +24,8 @@
       "discipline": "60m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Gerard Ferrandiz Giner",
@@ -33,7 +35,8 @@
       "discipline": "60m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 840
+      "internal_id": 840,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Hugo Jules Saiz Santolaria",
@@ -43,7 +46,8 @@
       "discipline": "300m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 808
+      "internal_id": 808,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Gerard Ferrandiz Giner",
@@ -53,7 +57,8 @@
       "discipline": "60m tanques (0,91) MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 840
+      "internal_id": 840,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Natalia Sanchez Alvarez",
@@ -63,7 +68,8 @@
       "discipline": "60m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 796
+      "internal_id": 796,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Mireia Viera Cervello",
@@ -73,7 +79,8 @@
       "discipline": "60m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Natalia Sanchez Alvarez",
@@ -83,7 +90,8 @@
       "discipline": "300m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 796
+      "internal_id": 796,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Mireia Viera Cervello",
@@ -93,7 +101,8 @@
       "discipline": "300m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Natalia Sanchez Alvarez",
@@ -103,7 +112,9 @@
       "discipline": "60m tanques (0,762) FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 796
+      "internal_id": 796,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": true
 }

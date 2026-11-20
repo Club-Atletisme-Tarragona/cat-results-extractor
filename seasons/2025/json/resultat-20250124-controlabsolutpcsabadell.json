@@ -14,7 +14,8 @@
       "raw_discipline_name": "400m Hombres",
       "wind": null,
       "position": null,
-      "internal_id": 733
+      "internal_id": 733,
+      "timing": "electronic"
     },
     {
       "athlete_name": "OSCAR GOMEZ CARBALLO",
@@ -25,7 +26,8 @@
       "raw_discipline_name": "1.500m Hombres",
       "wind": null,
       "position": null,
-      "internal_id": 26
+      "internal_id": 26,
+      "timing": "electronic"
     },
     {
       "athlete_name": "LLUC SUBIROS BRASERO",
@@ -36,7 +38,8 @@
       "raw_discipline_name": "Pértiga Hombres",
       "wind": null,
       "position": null,
-      "internal_id": 899
+      "internal_id": 899,
+      "timing": "electronic"
     },
     {
       "athlete_name": "CLARA ORTIZ DE LANDAZURI ONTOSO",
@@ -47,7 +50,8 @@
       "raw_discipline_name": "800m Mujeres",
       "wind": null,
       "position": null,
-      "internal_id": 1022
+      "internal_id": 1022,
+      "timing": "electronic"
     },
     {
       "athlete_name": "IRIS GARRIDO GARCIA",
@@ -58,7 +62,8 @@
       "raw_discipline_name": "800m Mujeres",
       "wind": null,
       "position": null,
-      "internal_id": 982
+      "internal_id": 982,
+      "timing": "electronic"
     },
     {
       "athlete_name": "NOEMI GONZALEZ CARRILLO",
@@ -69,7 +74,8 @@
       "raw_discipline_name": "800m Mujeres",
       "wind": null,
       "position": null,
-      "internal_id": 1030
+      "internal_id": 1030,
+      "timing": "electronic"
     },
     {
       "athlete_name": "LAURINE ELISA MARIMON FERNAND…",
@@ -80,7 +86,8 @@
       "raw_discipline_name": "Triple Salto Mujeres",
       "wind": null,
       "position": null,
-      "internal_id": 737
+      "internal_id": 737,
+      "timing": "electronic"
     },
     {
       "athlete_name": "CLARA ORTIZ DE LANDAZURI ONTO…",
@@ -91,7 +98,9 @@
       "raw_discipline_name": "800m Mujeres",
       "wind": null,
       "position": null,
-      "internal_id": 1022
+      "internal_id": 1022,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": true
 }

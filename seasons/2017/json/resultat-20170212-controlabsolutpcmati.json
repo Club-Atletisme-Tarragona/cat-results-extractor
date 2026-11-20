@@ -13,7 +13,8 @@
       "discipline": "400m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 405
+      "internal_id": 405,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Ivan Benitez Lazcano",
@@ -23,7 +24,8 @@
       "discipline": "60m tanques (1,067) MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 257
+      "internal_id": 257,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Ivan Benitez Lazcano",
@@ -33,7 +35,8 @@
       "discipline": "60m tanques (1,067) MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 257
+      "internal_id": 257,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Mireia Lopez Urbano",
@@ -43,7 +46,8 @@
       "discipline": "60m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 527
+      "internal_id": 527,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Mireia Lopez Urbano",
@@ -53,7 +57,8 @@
       "discipline": "60m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 527
+      "internal_id": 527,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Andrea Lopez Urbano",
@@ -63,7 +68,9 @@
       "discipline": "60m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 437
+      "internal_id": 437,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": true
 }

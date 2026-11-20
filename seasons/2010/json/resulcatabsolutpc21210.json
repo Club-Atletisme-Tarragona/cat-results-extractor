@@ -13,7 +13,8 @@
       "raw_discipline_name": "SALT DE LLARGADA MASCULÍ",
       "performance": "6.24",
       "wind": null,
-      "internal_id": 168
+      "internal_id": 168,
+      "timing": "electronic"
     },
     {
       "athlete_name": "ROMANI SUAREZ ROBERT",
@@ -23,7 +24,8 @@
       "raw_discipline_name": "SALT DE LLARGADA MASCULÍ",
       "performance": "6.15",
       "wind": null,
-      "internal_id": 168
+      "internal_id": 168,
+      "timing": "electronic"
     },
     {
       "athlete_name": "ROMANI SUAREZ ROBERT",
@@ -33,7 +35,9 @@
       "raw_discipline_name": "SALT DE LLARGADA MASCULÍ",
       "performance": "6.36",
       "wind": null,
-      "internal_id": 168
+      "internal_id": 168,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": true
 }

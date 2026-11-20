@@ -14,7 +14,8 @@
       "raw_discipline_name": "60m masculins",
       "wind": null,
       "position": 5,
-      "internal_id": 1338
+      "internal_id": 1338,
+      "timing": "electronic"
     },
     {
       "athlete_name": "BLAI LLIGADAS TURON",
@@ -25,7 +26,8 @@
       "raw_discipline_name": "60m masculins",
       "wind": null,
       "position": null,
-      "internal_id": 1338
+      "internal_id": 1338,
+      "timing": "electronic"
     },
     {
       "athlete_name": "FERRAN SANJUAN FLORES",
@@ -36,7 +38,8 @@
       "raw_discipline_name": "2.000m masculins",
       "wind": null,
       "position": 6,
-      "internal_id": 1436
+      "internal_id": 1436,
+      "timing": "electronic"
     },
     {
       "athlete_name": "JOSE ANGEL MASIA URZUA",
@@ -47,7 +50,8 @@
       "raw_discipline_name": "Perxa masculina",
       "wind": null,
       "position": 8,
-      "internal_id": 1389
+      "internal_id": 1389,
+      "timing": "electronic"
     },
     {
       "athlete_name": "MONTSERRAT MARQUES CRUZ",
@@ -58,7 +62,8 @@
       "raw_discipline_name": "60m femenins",
       "wind": null,
       "position": null,
-      "internal_id": 1374
+      "internal_id": 1374,
+      "timing": "electronic"
     },
     {
       "athlete_name": "ÈLIA BAYÓN FERNÁNDEZ",
@@ -69,7 +74,8 @@
       "raw_discipline_name": "600m femenins",
       "wind": null,
       "position": 5,
-      "internal_id": 1449
+      "internal_id": 1449,
+      "timing": "electronic"
     },
     {
       "athlete_name": "ÈLIA BAYÓN FERNÁNDEZ",
@@ -80,7 +86,8 @@
       "raw_discipline_name": "60m tanques femenines",
       "wind": null,
       "position": 3,
-      "internal_id": 1449
+      "internal_id": 1449,
+      "timing": "electronic"
     },
     {
       "athlete_name": "ÈLIA BAYÓN FERNÁNDEZ",
@@ -91,7 +98,8 @@
       "raw_discipline_name": "60m tanques femenines",
       "wind": null,
       "position": null,
-      "internal_id": 1449
+      "internal_id": 1449,
+      "timing": "electronic"
     },
     {
       "athlete_name": "ADA FELIU LORCA",
@@ -102,7 +110,8 @@
       "raw_discipline_name": "Alçada femenina",
       "wind": null,
       "position": 11,
-      "internal_id": 1368
+      "internal_id": 1368,
+      "timing": "electronic"
     },
     {
       "athlete_name": "SOFIA VEGA MARTINEZ XX-",
@@ -113,7 +122,8 @@
       "raw_discipline_name": "Perxa femenina",
       "wind": null,
       "position": 10,
-      "internal_id": 1347
+      "internal_id": 1347,
+      "timing": "electronic"
     },
     {
       "athlete_name": "MONTSERRAT MARQUES CRUZ",
@@ -124,7 +134,8 @@
       "raw_discipline_name": "Pes femení",
       "wind": null,
       "position": 3,
-      "internal_id": 1374
+      "internal_id": 1374,
+      "timing": "electronic"
     },
     {
       "athlete_name": "NOA PASCUAL PRATS",
@@ -135,7 +146,8 @@
       "raw_discipline_name": "Pes femení",
       "wind": null,
       "position": 6,
-      "internal_id": 1380
+      "internal_id": 1380,
+      "timing": "electronic"
     },
     {
       "athlete_name": "NOA PASCUAL PRATS",
@@ -146,7 +158,8 @@
       "raw_discipline_name": "Pes femení",
       "wind": null,
       "position": 6,
-      "internal_id": 1380
+      "internal_id": 1380,
+      "timing": "electronic"
     },
     {
       "athlete_name": "NOA PASCUAL PRATS",
@@ -157,7 +170,8 @@
       "raw_discipline_name": "Pes femení",
       "wind": null,
       "position": 6,
-      "internal_id": 1380
+      "internal_id": 1380,
+      "timing": "electronic"
     },
     {
       "athlete_name": "NOA PASCUAL PRATS",
@@ -168,7 +182,8 @@
       "raw_discipline_name": "Pes femení",
       "wind": null,
       "position": 6,
-      "internal_id": 1380
+      "internal_id": 1380,
+      "timing": "electronic"
     },
     {
       "athlete_name": "NOA PASCUAL PRATS",
@@ -179,7 +194,8 @@
       "raw_discipline_name": "Pes femení",
       "wind": null,
       "position": 6,
-      "internal_id": 1380
+      "internal_id": 1380,
+      "timing": "electronic"
     },
     {
       "athlete_name": "NOA PASCUAL PRATS",
@@ -190,7 +206,9 @@
       "raw_discipline_name": "Pes femení",
       "wind": null,
       "position": 6,
-      "internal_id": 1380
+      "internal_id": 1380,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": true
 }

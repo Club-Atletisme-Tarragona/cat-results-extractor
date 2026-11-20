@@ -14,7 +14,8 @@
       "raw_discipline_name": "100 m Hombres",
       "wind": "+3.1",
       "position": null,
-      "internal_id": 808
+      "internal_id": 808,
+      "timing": "electronic"
     },
     {
       "athlete_name": "DIDAC COMERMA GUASCH",
@@ -25,7 +26,8 @@
       "raw_discipline_name": "100 m Hombres",
       "wind": "+0.6",
       "position": null,
-      "internal_id": 1103
+      "internal_id": 1103,
+      "timing": "electronic"
     },
     {
       "athlete_name": "HUGO JULES SAIZ SANTOLARIA",
@@ -36,7 +38,8 @@
       "raw_discipline_name": "200 m Hombres",
       "wind": "+0.8",
       "position": null,
-      "internal_id": 808
+      "internal_id": 808,
+      "timing": "electronic"
     },
     {
       "athlete_name": "MOHAMMED AISSAOUI EL AISSAOUI",
@@ -47,7 +50,8 @@
       "raw_discipline_name": "400 m Hombres",
       "wind": null,
       "position": null,
-      "internal_id": 1037
+      "internal_id": 1037,
+      "timing": "electronic"
     },
     {
       "athlete_name": "MOHAMED OUHSSAINE",
@@ -58,7 +62,8 @@
       "raw_discipline_name": "800 m Hombres",
       "wind": null,
       "position": null,
-      "internal_id": 1100
+      "internal_id": 1100,
+      "timing": "electronic"
     },
     {
       "athlete_name": "HELENA RIOS MONTSERRAT",
@@ -69,7 +74,8 @@
       "raw_discipline_name": "100 m vallas (0,84) Mujeres",
       "wind": null,
       "position": null,
-      "internal_id": 409
+      "internal_id": 409,
+      "timing": "electronic"
     },
     {
       "athlete_name": "SILVIA VICENTE NAVARRETE",
@@ -80,7 +86,8 @@
       "raw_discipline_name": "100 m vallas (0,84) Mujeres",
       "wind": null,
       "position": null,
-      "internal_id": 905
+      "internal_id": 905,
+      "timing": "electronic"
     },
     {
       "athlete_name": "HELENA RIOS MONTSERRAT",
@@ -91,7 +98,8 @@
       "raw_discipline_name": "400 m vallas (0,762) Mujeres",
       "wind": null,
       "position": null,
-      "internal_id": 409
+      "internal_id": 409,
+      "timing": "electronic"
     },
     {
       "athlete_name": "IRIS GARRIDO GARCIA",
@@ -102,7 +110,8 @@
       "raw_discipline_name": "400 m vallas (0,762) Mujeres",
       "wind": null,
       "position": null,
-      "internal_id": 982
+      "internal_id": 982,
+      "timing": "electronic"
     },
     {
       "athlete_name": "AINOA RODRIGUEZ MURILLO",
@@ -113,7 +122,9 @@
       "raw_discipline_name": "400 m vallas (0,762) Mujeres",
       "wind": null,
       "position": null,
-      "internal_id": 965
+      "internal_id": 965,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

@@ -13,7 +13,8 @@
       "discipline": "5.000m MASC. AL SUB18",
       "wind": null,
       "position": 4,
-      "internal_id": 758
+      "internal_id": 758,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Fernando Flores Montes",
@@ -23,7 +24,8 @@
       "discipline": "10.000m MASC. AL MASTER",
       "wind": null,
       "position": 60,
-      "internal_id": 4
+      "internal_id": 4,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Jose Francisco Garcia Navarrete",
@@ -33,7 +35,8 @@
       "discipline": "10.000m MASC. AL MASTER",
       "wind": null,
       "position": 67,
-      "internal_id": 5
+      "internal_id": 5,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Cristina Iniesta Acera",
@@ -43,7 +46,9 @@
       "discipline": "5.000m FEM. AL SUB18",
       "wind": null,
       "position": 81,
-      "internal_id": 742
+      "internal_id": 742,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

@@ -13,7 +13,8 @@
       "discipline": "800m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 660
+      "internal_id": 660,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Gerard Parera Bodi",
@@ -23,7 +24,8 @@
       "discipline": "800m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 522
+      "internal_id": 522,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Carla Gonzalez Carrillo",
@@ -33,7 +35,9 @@
       "discipline": "800m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 698
+      "internal_id": 698,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": true
 }

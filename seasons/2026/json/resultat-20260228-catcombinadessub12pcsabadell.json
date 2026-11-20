@@ -14,7 +14,8 @@
       "raw_discipline_name": "60m Masculins U12M",
       "wind": null,
       "position": null,
-      "internal_id": 1338
+      "internal_id": 1338,
+      "timing": "electronic"
     },
     {
       "athlete_name": "BLAI LLIGADAS TURON",
@@ -25,7 +26,8 @@
       "raw_discipline_name": "Llargada Masculina U12M",
       "wind": null,
       "position": null,
-      "internal_id": 1338
+      "internal_id": 1338,
+      "timing": "electronic"
     },
     {
       "athlete_name": "BLAI LLIGADAS TURON",
@@ -36,7 +38,8 @@
       "raw_discipline_name": "Llargada Masculina U12M",
       "wind": null,
       "position": null,
-      "internal_id": 1338
+      "internal_id": 1338,
+      "timing": "electronic"
     },
     {
       "athlete_name": "BLAI LLIGADAS TURON",
@@ -47,7 +50,8 @@
       "raw_discipline_name": "Llargada Masculina U12M",
       "wind": null,
       "position": null,
-      "internal_id": 1338
+      "internal_id": 1338,
+      "timing": "electronic"
     },
     {
       "athlete_name": "BLAI LLIGADAS TURON",
@@ -58,7 +62,8 @@
       "raw_discipline_name": "Llargada Masculina U12M",
       "wind": null,
       "position": null,
-      "internal_id": 1338
+      "internal_id": 1338,
+      "timing": "electronic"
     },
     {
       "athlete_name": "BLAI LLIGADAS TURON",
@@ -69,7 +74,8 @@
       "raw_discipline_name": "Triatló Masculina U12M",
       "wind": null,
       "position": 9,
-      "internal_id": 1338
+      "internal_id": 1338,
+      "timing": "electronic"
     },
     {
       "athlete_name": "ÈLIA BAYÓN FERNÁNDEZ",
@@ -80,7 +86,8 @@
       "raw_discipline_name": "60m Femenins U12F",
       "wind": null,
       "position": null,
-      "internal_id": 1449
+      "internal_id": 1449,
+      "timing": "electronic"
     },
     {
       "athlete_name": "NOA PASCUAL PRATS",
@@ -91,7 +98,8 @@
       "raw_discipline_name": "60m Femenins U12F",
       "wind": null,
       "position": null,
-      "internal_id": 1380
+      "internal_id": 1380,
+      "timing": "electronic"
     },
     {
       "athlete_name": "ÈLIA BAYÓN FERNÁNDEZ",
@@ -102,7 +110,8 @@
       "raw_discipline_name": "Llargada Fememina U12F",
       "wind": null,
       "position": null,
-      "internal_id": 1449
+      "internal_id": 1449,
+      "timing": "electronic"
     },
     {
       "athlete_name": "NOA PASCUAL PRATS",
@@ -113,7 +122,8 @@
       "raw_discipline_name": "Llargada Fememina U12F",
       "wind": null,
       "position": null,
-      "internal_id": 1380
+      "internal_id": 1380,
+      "timing": "electronic"
     },
     {
       "athlete_name": "NOA PASCUAL PRATS",
@@ -124,7 +134,8 @@
       "raw_discipline_name": "Pes (2kg) Femenins U12F",
       "wind": null,
       "position": null,
-      "internal_id": 1380
+      "internal_id": 1380,
+      "timing": "electronic"
     },
     {
       "athlete_name": "ÈLIA BAYÓN FERNÁNDEZ",
@@ -135,7 +146,8 @@
       "raw_discipline_name": "Pes (2kg) Femenins U12F",
       "wind": null,
       "position": null,
-      "internal_id": 1449
+      "internal_id": 1449,
+      "timing": "electronic"
     },
     {
       "athlete_name": "ÈLIA BAYÓN FERNÁNDEZ",
@@ -146,7 +158,8 @@
       "raw_discipline_name": "Triatló Femenina U12F",
       "wind": null,
       "position": 13,
-      "internal_id": 1449
+      "internal_id": 1449,
+      "timing": "electronic"
     },
     {
       "athlete_name": "NOA PASCUAL PRATS",
@@ -157,7 +170,9 @@
       "raw_discipline_name": "Triatló Femenina U12F",
       "wind": null,
       "position": 15,
-      "internal_id": 1380
+      "internal_id": 1380,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": true
 }

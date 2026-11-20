@@ -13,7 +13,8 @@
       "discipline": "Pes (4 Kg) SUB16 M",
       "wind": null,
       "position": null,
-      "internal_id": 982
+      "internal_id": 982,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Iris Garrido Garcia",
@@ -23,7 +24,9 @@
       "discipline": "Pes (4 Kg) SUB16 M",
       "wind": null,
       "position": null,
-      "internal_id": 982
+      "internal_id": 982,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

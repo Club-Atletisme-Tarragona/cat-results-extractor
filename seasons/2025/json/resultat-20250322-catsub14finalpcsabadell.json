@@ -14,7 +14,8 @@
       "raw_discipline_name": "1.000m Masculins",
       "wind": null,
       "position": 6,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "FERRAN MASCARO NAVARRO",
@@ -25,7 +26,8 @@
       "raw_discipline_name": "Salt d'Alçada Masculí",
       "wind": null,
       "position": 5,
-      "internal_id": 1362
+      "internal_id": 1362,
+      "timing": "electronic"
     },
     {
       "athlete_name": "KILIAN PEDROL ESPINOSA",
@@ -36,7 +38,8 @@
       "raw_discipline_name": "Salt d'Alçada Masculí",
       "wind": null,
       "position": 8,
-      "internal_id": 1361
+      "internal_id": 1361,
+      "timing": "electronic"
     },
     {
       "athlete_name": "ANNA PEREZ MARTINEZ",
@@ -47,7 +50,8 @@
       "raw_discipline_name": "600m Femenins",
       "wind": null,
       "position": 8,
-      "internal_id": 1366
+      "internal_id": 1366,
+      "timing": "electronic"
     },
     {
       "athlete_name": "CARLOTA TEJERO CLAU",
@@ -58,7 +62,8 @@
       "raw_discipline_name": "Llançament de Pes Femení",
       "wind": null,
       "position": 10,
-      "internal_id": 1352
+      "internal_id": 1352,
+      "timing": "electronic"
     },
     {
       "athlete_name": "CARLOTA TEJERO CLAU",
@@ -69,7 +74,8 @@
       "raw_discipline_name": "Llançament de Pes Femení",
       "wind": null,
       "position": 10,
-      "internal_id": 1352
+      "internal_id": 1352,
+      "timing": "electronic"
     },
     {
       "athlete_name": "CARLOTA TEJERO CLAU",
@@ -80,7 +86,9 @@
       "raw_discipline_name": "Llançament de Pes Femení",
       "wind": null,
       "position": 10,
-      "internal_id": 1352
+      "internal_id": 1352,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

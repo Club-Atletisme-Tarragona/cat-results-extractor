@@ -13,7 +13,8 @@
       "raw_discipline_name": "60 METRES LLISOS BEJNAMÍ FEMENÍ",
       "performance": "10.21",
       "wind": null,
-      "internal_id": 527
+      "internal_id": 527,
+      "timing": "electronic"
     },
     {
       "athlete_name": "LOPEZ URBANO MIREIA",
@@ -23,7 +24,8 @@
       "raw_discipline_name": "SALT DE LLARGADA BENJAMÍ FEMENÍ",
       "performance": "3.47",
       "wind": null,
-      "internal_id": 527
+      "internal_id": 527,
+      "timing": "electronic"
     },
     {
       "athlete_name": "LOPEZ URBANO MIREIA",
@@ -33,7 +35,9 @@
       "raw_discipline_name": "SALT DE LLARGADA BENJAMÍ FEMENÍ",
       "performance": "3.01",
       "wind": null,
-      "internal_id": 527
+      "internal_id": 527,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

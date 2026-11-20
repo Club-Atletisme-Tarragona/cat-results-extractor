@@ -13,7 +13,8 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m FEM. AL",
       "wind": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Lucia Mayolas martinez",
@@ -23,7 +24,8 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada FEM. AL",
       "wind": null,
-      "internal_id": 728
+      "internal_id": 728,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Paula Masdeu bravo",
@@ -33,7 +35,8 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada FEM. AL",
       "wind": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Paula Masdeu bravo",
@@ -43,7 +46,8 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada FEM. AL",
       "wind": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Paula Garcia Jimenez",
@@ -53,7 +57,9 @@
       "discipline": "1000 metres llisos",
       "raw_discipline_name": "1.000m Marxa FEM. en pista",
       "wind": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

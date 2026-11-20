@@ -13,7 +13,8 @@
       "discipline": "Javelina (800 g)",
       "raw_discipline_name": "Javelina (800g) MASC.",
       "wind": null,
-      "internal_id": 180
+      "internal_id": 180,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Ferran Tortosa Pradillo",
@@ -23,7 +24,8 @@
       "discipline": "Javelina (800 g)",
       "raw_discipline_name": "Javelina (800g) MASC.",
       "wind": null,
-      "internal_id": 180
+      "internal_id": 180,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Ferran Tortosa Pradillo",
@@ -33,7 +35,8 @@
       "discipline": "Javelina (800 g)",
       "raw_discipline_name": "Javelina (800g) MASC.",
       "wind": null,
-      "internal_id": 180
+      "internal_id": 180,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Ferran Tortosa Pradillo",
@@ -43,7 +46,8 @@
       "discipline": "Javelina (800 g)",
       "raw_discipline_name": "Javelina (800g) MASC.",
       "wind": null,
-      "internal_id": 180
+      "internal_id": 180,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Ferran Tortosa Pradillo",
@@ -53,7 +57,8 @@
       "discipline": "Javelina (800 g)",
       "raw_discipline_name": "Javelina (800g) MASC.",
       "wind": null,
-      "internal_id": 180
+      "internal_id": 180,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Montse Guinovart Pedescoll",
@@ -63,7 +68,8 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada FEM. AL",
       "wind": "-1.8",
-      "internal_id": 313
+      "internal_id": 313,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Montse Guinovart Pedescoll",
@@ -73,7 +79,8 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada FEM. AL",
       "wind": "-1.0",
-      "internal_id": 313
+      "internal_id": 313,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Montse Guinovart Pedescoll",
@@ -83,7 +90,9 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada FEM. AL",
       "wind": "-1.6",
-      "internal_id": 313
+      "internal_id": 313,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

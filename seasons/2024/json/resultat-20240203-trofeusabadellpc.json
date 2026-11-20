@@ -13,7 +13,8 @@
       "discipline": "Altura SUB12 MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 1361
+      "internal_id": 1361,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Berta Barber Gonzalez",
@@ -23,7 +24,8 @@
       "discipline": "Triple Salto SUB14 MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 1359
+      "internal_id": 1359,
+      "timing": "electronic"
     },
     {
       "athlete_name": "India Martin Cuadrado",
@@ -33,7 +35,8 @@
       "discipline": "Triple Salto SUB14 MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 1332
+      "internal_id": 1332,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Berta Barber Gonzalez",
@@ -43,7 +46,8 @@
       "discipline": "Altura SUB12 FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 1359
+      "internal_id": 1359,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Alba Esteve Hostalot",
@@ -53,7 +57,8 @@
       "discipline": "Altura SUB12 FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 1335
+      "internal_id": 1335,
+      "timing": "electronic"
     },
     {
       "athlete_name": "India Martin Cuadrado",
@@ -63,7 +68,9 @@
       "discipline": "Altura SUB12 FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 1332
+      "internal_id": 1332,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": true
 }

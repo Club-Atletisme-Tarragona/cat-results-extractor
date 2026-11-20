@@ -13,7 +13,8 @@
       "raw_discipline_name": "RESULTATS SALT DE LLARGADA ABSOLUT FEMENINA",
       "performance": "4.45",
       "wind": null,
-      "internal_id": 285
+      "internal_id": 285,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Alvaro Jose Ferrez Hernandez",
@@ -23,7 +24,8 @@
       "raw_discipline_name": "RESULTATS PES ABSOLUT MASCULÍ (7,260 Kg.)",
       "performance": "9.44",
       "wind": null,
-      "internal_id": 432
+      "internal_id": 432,
+      "timing": "electronic"
     },
     {
       "athlete_name": "RUIZ GEMMA",
@@ -33,7 +35,8 @@
       "raw_discipline_name": "RESULTATS DISC ABSOLUT FEMENÍ ( 1 KG.)",
       "performance": "19.79",
       "wind": null,
-      "internal_id": 464
+      "internal_id": 464,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Blanca Tortajada Pinto",
@@ -43,7 +46,8 @@
       "raw_discipline_name": "RESULTATS MARTELL ABSOLUT FEMENÍ ( 4 kg,)",
       "performance": "29.12",
       "wind": null,
-      "internal_id": 310
+      "internal_id": 310,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Montserrat Montañes Arbo",
@@ -53,7 +57,9 @@
       "raw_discipline_name": "RESULTATS MARTELL CADET - JUVENIL FEMENÍ (3 KG.)",
       "performance": "32.84",
       "wind": null,
-      "internal_id": 497
+      "internal_id": 497,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

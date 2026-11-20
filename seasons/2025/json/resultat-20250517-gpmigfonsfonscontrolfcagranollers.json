@@ -13,7 +13,8 @@
       "discipline": "3000 metres obstacles",
       "raw_discipline_name": "3.000m Obst. Hombres",
       "wind": null,
-      "internal_id": 980
+      "internal_id": 980,
+      "timing": "electronic"
     },
     {
       "athlete_name": "PAU CRESPO BELTRAN",
@@ -23,7 +24,8 @@
       "discipline": "Javelina (700 g)",
       "raw_discipline_name": "Jabalina (700g) Hombres",
       "wind": null,
-      "internal_id": 971
+      "internal_id": 971,
+      "timing": "electronic"
     },
     {
       "athlete_name": "PAU CRESPO BELTRAN",
@@ -33,7 +35,8 @@
       "discipline": "Javelina (700 g)",
       "raw_discipline_name": "Jabalina (700g) Hombres",
       "wind": null,
-      "internal_id": 971
+      "internal_id": 971,
+      "timing": "electronic"
     },
     {
       "athlete_name": "PAU CRESPO BELTRAN",
@@ -43,7 +46,8 @@
       "discipline": "Javelina (700 g)",
       "raw_discipline_name": "Jabalina (700g) Hombres",
       "wind": null,
-      "internal_id": 971
+      "internal_id": 971,
+      "timing": "electronic"
     },
     {
       "athlete_name": "CARLA GONZALEZ CARRILLO",
@@ -53,7 +57,8 @@
       "discipline": "2000 metres obstacles",
       "raw_discipline_name": "2.000m Obst. Mujeres",
       "wind": null,
-      "internal_id": 698
+      "internal_id": 698,
+      "timing": "electronic"
     },
     {
       "athlete_name": "XAVIER ROS BORRELL",
@@ -63,7 +68,8 @@
       "discipline": "800 metres llisos",
       "raw_discipline_name": "800m Hombres",
       "wind": null,
-      "internal_id": 439
+      "internal_id": 439,
+      "timing": "electronic"
     },
     {
       "athlete_name": "MOHAMMED AISSAOUI EL AISSAOUI",
@@ -73,7 +79,8 @@
       "discipline": "800 metres llisos",
       "raw_discipline_name": "800m Hombres",
       "wind": null,
-      "internal_id": 1037
+      "internal_id": 1037,
+      "timing": "electronic"
     },
     {
       "athlete_name": "CLARA ORTIZ DE LANDAZURI ONTOSO",
@@ -83,7 +90,8 @@
       "discipline": "800 metres llisos",
       "raw_discipline_name": "800m Mujeres",
       "wind": null,
-      "internal_id": 1022
+      "internal_id": 1022,
+      "timing": "electronic"
     },
     {
       "athlete_name": "IRIS GARRIDO GARCIA",
@@ -93,7 +101,8 @@
       "discipline": "400 metres tanques (0.762)",
       "raw_discipline_name": "400m vallas Mujeres",
       "wind": null,
-      "internal_id": 982
+      "internal_id": 982,
+      "timing": "electronic"
     },
     {
       "athlete_name": "LAURINE ELISA MARIMON FERNANDEZ",
@@ -103,7 +112,8 @@
       "discipline": "Triple",
       "raw_discipline_name": "Triple Salto Mujeres",
       "wind": "0.6",
-      "internal_id": 737
+      "internal_id": 737,
+      "timing": "electronic"
     },
     {
       "athlete_name": "LAURINE ELISA MARIMON FERNANDEZ",
@@ -113,7 +123,8 @@
       "discipline": "Triple",
       "raw_discipline_name": "Triple Salto Mujeres",
       "wind": "1.2",
-      "internal_id": 737
+      "internal_id": 737,
+      "timing": "electronic"
     },
     {
       "athlete_name": "LAURINE ELISA MARIMON FERNANDEZ",
@@ -123,7 +134,8 @@
       "discipline": "Triple",
       "raw_discipline_name": "Triple Salto Mujeres",
       "wind": "0.4",
-      "internal_id": 737
+      "internal_id": 737,
+      "timing": "electronic"
     },
     {
       "athlete_name": "LAURINE ELISA MARIMON FERNANDEZ",
@@ -133,7 +145,8 @@
       "discipline": "Triple",
       "raw_discipline_name": "Triple Salto Mujeres",
       "wind": "1.9",
-      "internal_id": 737
+      "internal_id": 737,
+      "timing": "electronic"
     },
     {
       "athlete_name": "CLARA ORTIZ DE LANDAZURI ONTO…",
@@ -143,7 +156,8 @@
       "discipline": "800 metres llisos",
       "raw_discipline_name": "800m Mujeres",
       "wind": null,
-      "internal_id": 1022
+      "internal_id": 1022,
+      "timing": "electronic"
     },
     {
       "athlete_name": "LAURINE ELISA MARIMON FERNAN…",
@@ -153,7 +167,9 @@
       "discipline": "Triple",
       "raw_discipline_name": "Triple Salto Mujeres",
       "wind": null,
-      "internal_id": 737
+      "internal_id": 737,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

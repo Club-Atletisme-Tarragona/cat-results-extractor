@@ -13,7 +13,8 @@
       "raw_discipline_name": "1.500 METRES LLISOS MASCULÍ",
       "performance": "4:22.61",
       "wind": null,
-      "internal_id": 268
+      "internal_id": 268,
+      "timing": "electronic"
     },
     {
       "athlete_name": "JAVIER RODRIGUEZ CANO",
@@ -23,7 +24,8 @@
       "raw_discipline_name": "1.500 METRES LLISOS MASCULÍ",
       "performance": "4:24.22",
       "wind": null,
-      "internal_id": 245
+      "internal_id": 245,
+      "timing": "electronic"
     },
     {
       "athlete_name": "JOAN BARDINA TOMAS",
@@ -33,7 +35,8 @@
       "raw_discipline_name": "1.500 METRES LLISOS MASCULÍ",
       "performance": "4:32.61",
       "wind": null,
-      "internal_id": 7
+      "internal_id": 7,
+      "timing": "electronic"
     },
     {
       "athlete_name": "CARLOS FERRER BARBERA",
@@ -43,7 +46,8 @@
       "raw_discipline_name": "1.500 METRES LLISOS MASCULÍ",
       "performance": "4:29.88",
       "wind": null,
-      "internal_id": 178
+      "internal_id": 178,
+      "timing": "electronic"
     },
     {
       "athlete_name": "JOSE FCO GARCIA NAVARRETE",
@@ -53,7 +57,8 @@
       "raw_discipline_name": "1.500 METRES LLISOS MASCULÍ",
       "performance": "4:42.13",
       "wind": null,
-      "internal_id": 5
+      "internal_id": 5,
+      "timing": "electronic"
     },
     {
       "athlete_name": "EMILI BARBERAN DE MIQUEL",
@@ -63,7 +68,8 @@
       "raw_discipline_name": "1.500 METRES LLISOS MASCULÍ",
       "performance": "4:49.67",
       "wind": null,
-      "internal_id": 267
+      "internal_id": 267,
+      "timing": "electronic"
     },
     {
       "athlete_name": "JUAN VELASCO FARRE",
@@ -73,7 +79,8 @@
       "raw_discipline_name": "LLANÇAMENT DE MARTELL MASCULÍ",
       "performance": "43.76",
       "wind": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "JUAN VELASCO FARRE",
@@ -83,7 +90,9 @@
       "raw_discipline_name": "LLANÇAMENT DE MARTELL MASCULÍ",
       "performance": "43.94",
       "wind": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

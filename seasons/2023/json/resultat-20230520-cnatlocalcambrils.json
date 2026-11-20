@@ -13,7 +13,8 @@
       "discipline": "100m Abs MASC. AL",
       "wind": "+0.8",
       "position": null,
-      "internal_id": 505
+      "internal_id": 505,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Hugo Jules Saiz Santolaria",
@@ -23,7 +24,8 @@
       "discipline": "100m Abs MASC. AL",
       "wind": "+0.8",
       "position": null,
-      "internal_id": 808
+      "internal_id": 808,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Laura Yan Sole Barba",
@@ -33,7 +35,8 @@
       "discipline": "100m Abs FEM. AL",
       "wind": "+2.0",
       "position": null,
-      "internal_id": 701
+      "internal_id": 701,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Silvia Vicente Navarrete",
@@ -43,7 +46,8 @@
       "discipline": "100m Abs FEM. AL",
       "wind": "+2.0",
       "position": null,
-      "internal_id": 905
+      "internal_id": 905,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Silvia Vicente Navarrete",
@@ -53,7 +57,8 @@
       "discipline": "80m vallas (0,762) S14 FEM CATALUÑA",
       "wind": "+1.6",
       "position": null,
-      "internal_id": 905
+      "internal_id": 905,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Ruth Prats Nadal",
@@ -63,7 +68,8 @@
       "discipline": "Altura Abs FEM. AL",
       "wind": null,
       "position": null,
-      "internal_id": 915
+      "internal_id": 915,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Martina Fernandez Sirvent",
@@ -73,7 +79,8 @@
       "discipline": "Altura Abs FEM. AL",
       "wind": null,
       "position": null,
-      "internal_id": 936
+      "internal_id": 936,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Sofia Caballero Recarey",
@@ -83,7 +90,8 @@
       "discipline": "Altura Abs FEM. AL",
       "wind": null,
       "position": null,
-      "internal_id": 816
+      "internal_id": 816,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Laura Santos Martinez",
@@ -93,7 +101,9 @@
       "discipline": "Altura Abs FEM. AL",
       "wind": null,
       "position": null,
-      "internal_id": 807
+      "internal_id": 807,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

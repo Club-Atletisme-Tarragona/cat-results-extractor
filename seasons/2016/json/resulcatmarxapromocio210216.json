@@ -12,7 +12,8 @@
       "discipline": "2000 metres marxa",
       "wind": null,
       "raw_discipline_name": "Prova: 2KM Categoria: Aleví Femení",
-      "internal_id": 839
+      "internal_id": 839,
+      "timing": "electronic"
     },
     {
       "athlete_name": "SANTOS MARTINEZ, LAURA",
@@ -22,7 +23,8 @@
       "discipline": "2000 metres marxa",
       "wind": null,
       "raw_discipline_name": "Prova: 2KM Categoria: Aleví Femení",
-      "internal_id": 807
+      "internal_id": 807,
+      "timing": "electronic"
     },
     {
       "athlete_name": "SUAREZ PIZA, ARIADNA",
@@ -32,8 +34,10 @@
       "discipline": "2000 metres marxa",
       "wind": null,
       "raw_discipline_name": "Prova: 2KM Categoria: Aleví Femení",
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     }
   ],
-  "total_results": 3
+  "total_results": 3,
+  "is_short_track": false
 }

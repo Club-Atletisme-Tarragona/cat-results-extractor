@@ -13,7 +13,8 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m Mujeres PC",
       "wind": null,
-      "internal_id": 389
+      "internal_id": 389,
+      "timing": "electronic"
     },
     {
       "athlete_name": "GINES SANCHEZ PEREZ",
@@ -23,7 +24,8 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m Hombres AL",
       "wind": null,
-      "internal_id": 505
+      "internal_id": 505,
+      "timing": "electronic"
     },
     {
       "athlete_name": "JOSEP MARIA PUIG LARA",
@@ -33,7 +35,8 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m Hombres AL",
       "wind": null,
-      "internal_id": 637
+      "internal_id": 637,
+      "timing": "electronic"
     },
     {
       "athlete_name": "JOSEP MARIA MATEO SANZ",
@@ -43,7 +46,8 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m Hombres AL",
       "wind": null,
-      "internal_id": 343
+      "internal_id": 343,
+      "timing": "electronic"
     },
     {
       "athlete_name": "MARISA PRADILLO GUTIERREZ",
@@ -53,7 +57,9 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m Hombres AL",
       "wind": null,
-      "internal_id": 389
+      "internal_id": 389,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

@@ -14,7 +14,8 @@
       "raw_discipline_name": "600 m Hombres",
       "wind": null,
       "position": null,
-      "internal_id": 1339
+      "internal_id": 1339,
+      "timing": "electronic"
     },
     {
       "athlete_name": "SARAH BUCHHOLZ CHAMORRO",
@@ -25,7 +26,8 @@
       "raw_discipline_name": "100 m Mujeres U18F",
       "wind": "-0.7",
       "position": null,
-      "internal_id": 1099
+      "internal_id": 1099,
+      "timing": "electronic"
     },
     {
       "athlete_name": "LARA GARCIA MUR",
@@ -36,7 +38,8 @@
       "raw_discipline_name": "600 m Mujeres",
       "wind": null,
       "position": null,
-      "internal_id": 1324
+      "internal_id": 1324,
+      "timing": "electronic"
     },
     {
       "athlete_name": "DIANA GARCÍA MUR",
@@ -47,7 +50,8 @@
       "raw_discipline_name": "800 m Mujeres",
       "wind": null,
       "position": null,
-      "internal_id": 1081
+      "internal_id": 1081,
+      "timing": "electronic"
     },
     {
       "athlete_name": "MARTINA GRACIA MOLINA",
@@ -58,7 +62,8 @@
       "raw_discipline_name": "800 m Mujeres",
       "wind": null,
       "position": null,
-      "internal_id": 1085
+      "internal_id": 1085,
+      "timing": "electronic"
     },
     {
       "athlete_name": "STELLA PEREIRA CONTRERAS",
@@ -69,7 +74,9 @@
       "raw_discipline_name": "3.000 m Marcha Mujeres pista",
       "wind": null,
       "position": null,
-      "internal_id": 1356
+      "internal_id": 1356,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

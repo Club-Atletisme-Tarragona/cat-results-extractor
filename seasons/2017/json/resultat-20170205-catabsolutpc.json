@@ -13,7 +13,8 @@
       "discipline": "60m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 510
+      "internal_id": 510,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Alicia Vazquez Domingo",
@@ -23,7 +24,8 @@
       "discipline": "60m tanques FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 472
+      "internal_id": 472,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Ivan Benitez Lazcano",
@@ -33,7 +35,8 @@
       "discipline": "60m tanques MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 257
+      "internal_id": 257,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Jan Sans Riola",
@@ -43,7 +46,8 @@
       "discipline": "60m tanques MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 435
+      "internal_id": 435,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Jan Sans Riola",
@@ -53,7 +57,8 @@
       "discipline": "60m tanques MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 435
+      "internal_id": 435,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Marina Tibau Sendra",
@@ -63,7 +68,8 @@
       "discipline": "Pes FEM. PC",
       "wind": null,
       "position": 3,
-      "internal_id": 359
+      "internal_id": 359,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Marina Tibau Sendra",
@@ -73,7 +79,8 @@
       "discipline": "Pes FEM. PC",
       "wind": null,
       "position": 3,
-      "internal_id": 359
+      "internal_id": 359,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Marina Tibau Sendra",
@@ -83,7 +90,8 @@
       "discipline": "Pes FEM. PC",
       "wind": null,
       "position": 3,
-      "internal_id": 359
+      "internal_id": 359,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Marina Tibau Sendra",
@@ -93,7 +101,8 @@
       "discipline": "Pes FEM. PC",
       "wind": null,
       "position": 3,
-      "internal_id": 359
+      "internal_id": 359,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Marina Tibau Sendra",
@@ -103,7 +112,8 @@
       "discipline": "Pes FEM. PC",
       "wind": null,
       "position": 3,
-      "internal_id": 359
+      "internal_id": 359,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Marina Tibau Sendra",
@@ -113,7 +123,9 @@
       "discipline": "Pes FEM. PC",
       "wind": null,
       "position": 3,
-      "internal_id": 359
+      "internal_id": 359,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": true
 }

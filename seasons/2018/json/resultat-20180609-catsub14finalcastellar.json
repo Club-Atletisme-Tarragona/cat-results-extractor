@@ -14,7 +14,8 @@
       "raw_discipline_name": "80m S14 MASC. AL",
       "wind": null,
       "position": null,
-      "internal_id": 808
+      "internal_id": 808,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Martina Pomes Cabello",
@@ -25,7 +26,8 @@
       "raw_discipline_name": "150m S14 FEM AL",
       "wind": null,
       "position": null,
-      "internal_id": 810
+      "internal_id": 810,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Martina Pomes Cabello",
@@ -36,7 +38,8 @@
       "raw_discipline_name": "150m S14 FEM AL",
       "wind": null,
       "position": null,
-      "internal_id": 810
+      "internal_id": 810,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Natalia Sanchez Alvarez",
@@ -47,7 +50,8 @@
       "raw_discipline_name": "220m tanques (0,76) S14 FEM. AL",
       "wind": null,
       "position": null,
-      "internal_id": 796
+      "internal_id": 796,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Laia Aldave Mas",
@@ -58,7 +62,8 @@
       "raw_discipline_name": "Perxa S14 FEM. AL",
       "wind": null,
       "position": 3,
-      "internal_id": 800
+      "internal_id": 800,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Natalia Sanchez Alvarez",
@@ -69,7 +74,8 @@
       "raw_discipline_name": "Llargada S14 FEM. AL",
       "wind": "+0.0",
       "position": 7,
-      "internal_id": 796
+      "internal_id": 796,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Natalia Sanchez Alvarez",
@@ -80,7 +86,8 @@
       "raw_discipline_name": "Llargada S14 FEM. AL",
       "wind": "-1.7",
       "position": 7,
-      "internal_id": 796
+      "internal_id": 796,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Natalia Sanchez Alvarez",
@@ -91,7 +98,8 @@
       "raw_discipline_name": "Llargada S14 FEM. AL",
       "wind": "-0.1",
       "position": 7,
-      "internal_id": 796
+      "internal_id": 796,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Natalia Sanchez Alvarez",
@@ -102,7 +110,8 @@
       "raw_discipline_name": "Llargada S14 FEM. AL",
       "wind": "-2.1",
       "position": 7,
-      "internal_id": 796
+      "internal_id": 796,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Julia Suarez Piza",
@@ -113,7 +122,9 @@
       "raw_discipline_name": "3.000m Marxa S14 FEM. en pista",
       "wind": null,
       "position": 5,
-      "internal_id": 839
+      "internal_id": 839,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

@@ -14,7 +14,8 @@
       "raw_discipline_name": "60m tanques masculins",
       "wind": null,
       "position": null,
-      "internal_id": 1403
+      "internal_id": 1403,
+      "timing": "electronic"
     },
     {
       "athlete_name": "KILIAN PEDROL ESPINOSA",
@@ -25,7 +26,8 @@
       "raw_discipline_name": "Alçada masculina",
       "wind": null,
       "position": 1,
-      "internal_id": 1361
+      "internal_id": 1361,
+      "timing": "electronic"
     },
     {
       "athlete_name": "NIL TORRES PRATS",
@@ -36,7 +38,8 @@
       "raw_discipline_name": "Alçada masculina",
       "wind": null,
       "position": 7,
-      "internal_id": 1341
+      "internal_id": 1341,
+      "timing": "electronic"
     },
     {
       "athlete_name": "KILIAN PEDROL ESPINOSA",
@@ -47,7 +50,8 @@
       "raw_discipline_name": "Pes masculí",
       "wind": null,
       "position": 8,
-      "internal_id": 1361
+      "internal_id": 1361,
+      "timing": "electronic"
     },
     {
       "athlete_name": "KILIAN PEDROL ESPINOSA",
@@ -58,7 +62,8 @@
       "raw_discipline_name": "Pes masculí",
       "wind": null,
       "position": 8,
-      "internal_id": 1361
+      "internal_id": 1361,
+      "timing": "electronic"
     },
     {
       "athlete_name": "KILIAN PEDROL ESPINOSA",
@@ -69,7 +74,8 @@
       "raw_discipline_name": "Pes masculí",
       "wind": null,
       "position": 8,
-      "internal_id": 1361
+      "internal_id": 1361,
+      "timing": "electronic"
     },
     {
       "athlete_name": "KILIAN PEDROL ESPINOSA",
@@ -80,7 +86,8 @@
       "raw_discipline_name": "Pes masculí",
       "wind": null,
       "position": 8,
-      "internal_id": 1361
+      "internal_id": 1361,
+      "timing": "electronic"
     },
     {
       "athlete_name": "KILIAN PEDROL ESPINOSA",
@@ -91,7 +98,8 @@
       "raw_discipline_name": "Pes masculí",
       "wind": null,
       "position": 8,
-      "internal_id": 1361
+      "internal_id": 1361,
+      "timing": "electronic"
     },
     {
       "athlete_name": "KILIAN PEDROL ESPINOSA",
@@ -102,7 +110,8 @@
       "raw_discipline_name": "Pes masculí",
       "wind": null,
       "position": 8,
-      "internal_id": 1361
+      "internal_id": 1361,
+      "timing": "electronic"
     },
     {
       "athlete_name": "CELIA VEGA MARTINEZ",
@@ -113,7 +122,8 @@
       "raw_discipline_name": "1.000m femenins",
       "wind": null,
       "position": 11,
-      "internal_id": 1329
+      "internal_id": 1329,
+      "timing": "electronic"
     },
     {
       "athlete_name": "MARTINA GÓMEZ ROJALS",
@@ -124,7 +134,8 @@
       "raw_discipline_name": "Alçada femenina",
       "wind": null,
       "position": 4,
-      "internal_id": 1443
+      "internal_id": 1443,
+      "timing": "electronic"
     },
     {
       "athlete_name": "MARTINA GÓMEZ ROJALS",
@@ -135,7 +146,8 @@
       "raw_discipline_name": "Llargada femenina",
       "wind": null,
       "position": 2,
-      "internal_id": 1443
+      "internal_id": 1443,
+      "timing": "electronic"
     },
     {
       "athlete_name": "MARTINA GÓMEZ ROJALS",
@@ -146,7 +158,8 @@
       "raw_discipline_name": "Llargada femenina",
       "wind": null,
       "position": 2,
-      "internal_id": 1443
+      "internal_id": 1443,
+      "timing": "electronic"
     },
     {
       "athlete_name": "MARTINA GÓMEZ ROJALS",
@@ -157,7 +170,8 @@
       "raw_discipline_name": "Llargada femenina",
       "wind": null,
       "position": 2,
-      "internal_id": 1443
+      "internal_id": 1443,
+      "timing": "electronic"
     },
     {
       "athlete_name": "MARTINA GÓMEZ ROJALS",
@@ -168,7 +182,8 @@
       "raw_discipline_name": "Llargada femenina",
       "wind": null,
       "position": 2,
-      "internal_id": 1443
+      "internal_id": 1443,
+      "timing": "electronic"
     },
     {
       "athlete_name": "MARTINA GÓMEZ ROJALS",
@@ -179,7 +194,9 @@
       "raw_discipline_name": "Llargada femenina",
       "wind": null,
       "position": 2,
-      "internal_id": 1443
+      "internal_id": 1443,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": true
 }

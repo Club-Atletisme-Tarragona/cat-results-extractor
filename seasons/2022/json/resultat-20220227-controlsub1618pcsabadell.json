@@ -13,7 +13,8 @@
       "discipline": "60m MASC. PC SUB18",
       "wind": null,
       "position": null,
-      "internal_id": 808
+      "internal_id": 808,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Hugo Jules Saiz Santolaria",
@@ -23,7 +24,8 @@
       "discipline": "200m MASC. PC - SUB18",
       "wind": null,
       "position": null,
-      "internal_id": 808
+      "internal_id": 808,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Joan Martorell Escobar",
@@ -33,7 +35,8 @@
       "discipline": "600m MASC. PC - SUB16",
       "wind": null,
       "position": null,
-      "internal_id": 914
+      "internal_id": 914,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Matias Costa Bakker",
@@ -43,7 +46,8 @@
       "discipline": "Pes (4 Kg) MASC. PC - SUB16",
       "wind": null,
       "position": null,
-      "internal_id": 922
+      "internal_id": 922,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Matias Costa Bakker",
@@ -53,7 +57,8 @@
       "discipline": "Pes (4 Kg) MASC. PC - SUB16",
       "wind": null,
       "position": null,
-      "internal_id": 922
+      "internal_id": 922,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Matias Costa Bakker",
@@ -63,7 +68,8 @@
       "discipline": "Pes (4 Kg) MASC. PC - SUB16",
       "wind": null,
       "position": null,
-      "internal_id": 922
+      "internal_id": 922,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Matias Costa Bakker",
@@ -73,7 +79,8 @@
       "discipline": "Pes (4 Kg) MASC. PC - SUB16",
       "wind": null,
       "position": null,
-      "internal_id": 922
+      "internal_id": 922,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Matias Costa Bakker",
@@ -83,7 +90,8 @@
       "discipline": "Pes (4 Kg) MASC. PC - SUB16",
       "wind": null,
       "position": null,
-      "internal_id": 922
+      "internal_id": 922,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Silvia Vicente Navarrete",
@@ -93,7 +101,8 @@
       "discipline": "60m FEM. PC - SUB16",
       "wind": null,
       "position": null,
-      "internal_id": 905
+      "internal_id": 905,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Cristina Revilla De Castro",
@@ -103,7 +112,8 @@
       "discipline": "60m FEM. PC - SUB16",
       "wind": null,
       "position": null,
-      "internal_id": 1070
+      "internal_id": 1070,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Silvia Vicente Navarrete",
@@ -113,7 +123,9 @@
       "discipline": "60m tanques (0,762) FEM. PC - SUB16",
       "wind": null,
       "position": null,
-      "internal_id": 905
+      "internal_id": 905,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": true
 }

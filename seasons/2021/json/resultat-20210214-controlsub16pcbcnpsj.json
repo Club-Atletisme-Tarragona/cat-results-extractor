@@ -13,7 +13,8 @@
       "discipline": "60m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Gerard Ferrandiz Giner",
@@ -23,7 +24,8 @@
       "discipline": "60m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 840
+      "internal_id": 840,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Lluc Subiros Brasero",
@@ -33,7 +35,8 @@
       "discipline": "60m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 899
+      "internal_id": 899,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Joan Magrane Serret",
@@ -43,7 +46,8 @@
       "discipline": "60m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 866
+      "internal_id": 866,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Unai Ortiz De Landazuri Ontoso",
@@ -53,7 +57,8 @@
       "discipline": "60m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 908
+      "internal_id": 908,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Joan Martorell Escobar",
@@ -63,7 +68,8 @@
       "discipline": "600m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 914
+      "internal_id": 914,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Pau Ortiz Garcia",
@@ -73,7 +79,8 @@
       "discipline": "60m tanques (0,91) MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Unai Ortiz De Landazuri Ontoso",
@@ -83,7 +90,8 @@
       "discipline": "60m tanques (0,91) MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 908
+      "internal_id": 908,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Gerard Ferrandiz Giner",
@@ -93,7 +101,8 @@
       "discipline": "60m tanques (0,91) MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 840
+      "internal_id": 840,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Lluc Subiros Brasero",
@@ -103,7 +112,8 @@
       "discipline": "Perxa MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 899
+      "internal_id": 899,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Maria Molinero Pintor",
@@ -113,7 +123,8 @@
       "discipline": "60m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 898
+      "internal_id": 898,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Maria Molinero Pintor",
@@ -123,7 +134,8 @@
       "discipline": "300m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 898
+      "internal_id": 898,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Anna Artero Fernandez",
@@ -133,7 +145,8 @@
       "discipline": "600m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 847
+      "internal_id": 847,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Alejandra Basora De Avila",
@@ -143,7 +156,8 @@
       "discipline": "1.000m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 864
+      "internal_id": 864,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Silvia Vicente Navarrete",
@@ -153,7 +167,8 @@
       "discipline": "60m tanques (0,762) FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 905
+      "internal_id": 905,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Segolene-josephine Deconinck Urbano",
@@ -163,7 +178,8 @@
       "discipline": "Alçada FEM. PC - GRUP A",
       "wind": null,
       "position": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Silvia Vicente Navarrete",
@@ -173,7 +189,8 @@
       "discipline": "Triple Salt FEM. PC - GRUP A",
       "wind": null,
       "position": null,
-      "internal_id": 905
+      "internal_id": 905,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Silvia Vicente Navarrete",
@@ -183,7 +200,8 @@
       "discipline": "Triple Salt FEM. PC - GRUP A",
       "wind": null,
       "position": null,
-      "internal_id": 905
+      "internal_id": 905,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Silvia Vicente Navarrete",
@@ -193,7 +211,8 @@
       "discipline": "Triple Salt FEM. PC - GRUP A",
       "wind": null,
       "position": null,
-      "internal_id": 905
+      "internal_id": 905,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Silvia Vicente Navarrete",
@@ -203,7 +222,9 @@
       "discipline": "Triple Salt FEM. PC - GRUP A",
       "wind": null,
       "position": null,
-      "internal_id": 905
+      "internal_id": 905,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": true
 }

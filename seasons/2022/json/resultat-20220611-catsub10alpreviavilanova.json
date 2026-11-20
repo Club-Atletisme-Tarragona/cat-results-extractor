@@ -13,7 +13,8 @@
       "discipline": "1.000m MASC. AL",
       "wind": null,
       "position": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Aleix Gomez Miro",
@@ -23,7 +24,8 @@
       "discipline": "1.000m MASC. AL",
       "wind": null,
       "position": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Kilian Borreda Cervello",
@@ -33,7 +35,8 @@
       "discipline": "Llargada MASC. AL",
       "wind": null,
       "position": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Kilian Borreda Cervello",
@@ -43,7 +46,8 @@
       "discipline": "Llargada MASC. AL",
       "wind": null,
       "position": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "India Martin Cuadrado",
@@ -53,7 +57,8 @@
       "discipline": "60m FEM. AL",
       "wind": null,
       "position": null,
-      "internal_id": 1332
+      "internal_id": 1332,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Berta Barber Gonzalez",
@@ -63,7 +68,8 @@
       "discipline": "1.000m FEM. AL",
       "wind": null,
       "position": null,
-      "internal_id": 1359
+      "internal_id": 1359,
+      "timing": "electronic"
     },
     {
       "athlete_name": "India Martin Cuadrado",
@@ -73,7 +79,8 @@
       "discipline": "1.000m FEM. AL",
       "wind": null,
       "position": null,
-      "internal_id": 1332
+      "internal_id": 1332,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Berta Barber Gonzalez",
@@ -83,7 +90,9 @@
       "discipline": "Llargada FEM. AL",
       "wind": null,
       "position": null,
-      "internal_id": 1359
+      "internal_id": 1359,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

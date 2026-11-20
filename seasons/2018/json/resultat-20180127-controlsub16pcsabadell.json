@@ -14,7 +14,8 @@
       "raw_discipline_name": "60m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 701
+      "internal_id": 701,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Leire Dominguez Izaga",
@@ -25,7 +26,8 @@
       "raw_discipline_name": "60m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 743
+      "internal_id": 743,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Judit Garcia Conesa",
@@ -36,7 +38,8 @@
       "raw_discipline_name": "60m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Pol Aixala Guiu",
@@ -47,7 +50,8 @@
       "raw_discipline_name": "300m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 733
+      "internal_id": 733,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Guifre De Los Rios Blanch",
@@ -58,7 +62,8 @@
       "raw_discipline_name": "300m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 697
+      "internal_id": 697,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Laurine Elisa Marimon Fernandez",
@@ -69,7 +74,8 @@
       "raw_discipline_name": "300m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 737
+      "internal_id": 737,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Leire Dominguez Izaga",
@@ -80,7 +86,8 @@
       "raw_discipline_name": "300m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 743
+      "internal_id": 743,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Guifre De Los Rios Blanch",
@@ -91,7 +98,8 @@
       "raw_discipline_name": "600m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 697
+      "internal_id": 697,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Alexandra Rofes Palacios",
@@ -102,7 +110,8 @@
       "raw_discipline_name": "1.000m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 731
+      "internal_id": 731,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Carla Gonzalez Carrillo",
@@ -113,7 +122,8 @@
       "raw_discipline_name": "1.000m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 698
+      "internal_id": 698,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Cristina Iniesta Acera",
@@ -124,7 +134,8 @@
       "raw_discipline_name": "1.000m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 742
+      "internal_id": 742,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Claudian. Mir Casellas",
@@ -135,7 +146,8 @@
       "raw_discipline_name": "60m tanques FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 699
+      "internal_id": 699,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Laurine Elisa Marimon Fernandez",
@@ -146,7 +158,8 @@
       "raw_discipline_name": "60m tanques FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 737
+      "internal_id": 737,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Pol Aixala Guiu",
@@ -157,7 +170,8 @@
       "raw_discipline_name": "60m tanques MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 733
+      "internal_id": 733,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Laurine Elisa Marimon Fernandez",
@@ -168,7 +182,8 @@
       "raw_discipline_name": "Alçada FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 737
+      "internal_id": 737,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Claudian. Mir Casellas",
@@ -179,7 +194,8 @@
       "raw_discipline_name": "Alçada FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 699
+      "internal_id": 699,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Nil Pinyol Mateu",
@@ -190,7 +206,8 @@
       "raw_discipline_name": "Triple Salt 2003 MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 714
+      "internal_id": 714,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Nil Pinyol Mateu",
@@ -201,7 +218,8 @@
       "raw_discipline_name": "Triple Salt 2003 MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 714
+      "internal_id": 714,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Nil Pinyol Mateu",
@@ -212,7 +230,9 @@
       "raw_discipline_name": "Triple Salt 2003 MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 714
+      "internal_id": 714,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": true
 }

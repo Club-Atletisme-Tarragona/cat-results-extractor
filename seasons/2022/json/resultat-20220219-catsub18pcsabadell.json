@@ -13,7 +13,8 @@
       "discipline": "60m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 837
+      "internal_id": 837,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Emma Esteve Soto",
@@ -23,7 +24,8 @@
       "discipline": "60m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 837
+      "internal_id": 837,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Martina Pomes Cabello",
@@ -33,7 +35,8 @@
       "discipline": "60m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 810
+      "internal_id": 810,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Martina Pomes Cabello",
@@ -43,7 +46,8 @@
       "discipline": "60m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 810
+      "internal_id": 810,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Martina Pomes Cabello",
@@ -53,7 +57,8 @@
       "discipline": "200m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 810
+      "internal_id": 810,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Emma Esteve Soto",
@@ -63,7 +68,8 @@
       "discipline": "200m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 837
+      "internal_id": 837,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Lara Herrera Vallve",
@@ -73,7 +79,8 @@
       "discipline": "Pes (3 Kg) FEM. PC",
       "wind": null,
       "position": 10,
-      "internal_id": 813
+      "internal_id": 813,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Lara Herrera Vallve",
@@ -83,7 +90,9 @@
       "discipline": "Pes (3 Kg) FEM. PC",
       "wind": null,
       "position": 10,
-      "internal_id": 813
+      "internal_id": 813,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": true
 }

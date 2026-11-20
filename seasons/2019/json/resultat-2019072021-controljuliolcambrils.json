@@ -13,7 +13,8 @@
       "discipline": "100m FEM. AL ABS",
       "wind": "+2.5",
       "position": null,
-      "internal_id": 701
+      "internal_id": 701,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Laura Yan Sole Barba",
@@ -23,7 +24,8 @@
       "discipline": "200m FEM. AL ABS",
       "wind": "+1.8",
       "position": null,
-      "internal_id": 701
+      "internal_id": 701,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Patricia Amador Peris",
@@ -33,7 +35,8 @@
       "discipline": "800m FEM. AL ABS",
       "wind": null,
       "position": null,
-      "internal_id": 644
+      "internal_id": 644,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Lara Herrera Vallve",
@@ -43,7 +46,8 @@
       "discipline": "Altura FEM. AL ABS",
       "wind": null,
       "position": null,
-      "internal_id": 813
+      "internal_id": 813,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Lara Herrera Vallve",
@@ -53,7 +57,8 @@
       "discipline": "Longitud FEM. AL ABS",
       "wind": "+2.6",
       "position": null,
-      "internal_id": 813
+      "internal_id": 813,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Lara Herrera Vallve",
@@ -63,7 +68,8 @@
       "discipline": "Longitud FEM. AL ABS",
       "wind": "+1.6",
       "position": null,
-      "internal_id": 813
+      "internal_id": 813,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Marina Tibau Sendra",
@@ -73,7 +79,8 @@
       "discipline": "Peso (4 Kg) FEM. AL ABS",
       "wind": null,
       "position": null,
-      "internal_id": 359
+      "internal_id": 359,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Marina Tibau Sendra",
@@ -83,7 +90,8 @@
       "discipline": "Peso (4 Kg) FEM. AL ABS",
       "wind": null,
       "position": null,
-      "internal_id": 359
+      "internal_id": 359,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Marina Tibau Sendra",
@@ -93,7 +101,8 @@
       "discipline": "Peso (4 Kg) FEM. AL ABS",
       "wind": null,
       "position": null,
-      "internal_id": 359
+      "internal_id": 359,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Marina Tibau Sendra",
@@ -103,7 +112,8 @@
       "discipline": "Peso (4 Kg) FEM. AL ABS",
       "wind": null,
       "position": null,
-      "internal_id": 359
+      "internal_id": 359,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Marina Tibau Sendra",
@@ -113,7 +123,9 @@
       "discipline": "Peso (4 Kg) FEM. AL ABS",
       "wind": null,
       "position": null,
-      "internal_id": 359
+      "internal_id": 359,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

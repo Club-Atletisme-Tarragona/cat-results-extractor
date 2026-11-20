@@ -14,7 +14,8 @@
       "raw_discipline_name": "60m S10 MASC. AL",
       "wind": null,
       "position": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Paco Lorenzo Valldosera",
@@ -25,7 +26,8 @@
       "raw_discipline_name": "60m S10 MASC. AL",
       "wind": null,
       "position": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Eric De La Rosa Fortuny",
@@ -36,7 +38,8 @@
       "raw_discipline_name": "1.000m S10 MASC. AL",
       "wind": null,
       "position": 5,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Clara Ortiz De Landazuri Ontoso",
@@ -47,7 +50,8 @@
       "raw_discipline_name": "1.000m S10 FEM. AL",
       "wind": null,
       "position": 13,
-      "internal_id": 1022
+      "internal_id": 1022,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Clara Ortiz De Landazuri Ontoso",
@@ -58,7 +62,8 @@
       "raw_discipline_name": "Llargada S10 FEM. AL",
       "wind": null,
       "position": 4,
-      "internal_id": 1022
+      "internal_id": 1022,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Clara Ortiz De Landazuri Ontoso",
@@ -69,7 +74,8 @@
       "raw_discipline_name": "Llargada S10 FEM. AL",
       "wind": null,
       "position": 4,
-      "internal_id": 1022
+      "internal_id": 1022,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Jeroni Flores Piñas",
@@ -80,7 +86,8 @@
       "raw_discipline_name": "Alçada S10 MASC. AL",
       "wind": null,
       "position": 3,
-      "internal_id": 1036
+      "internal_id": 1036,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Paco Lorenzo Valldosera",
@@ -91,7 +98,8 @@
       "raw_discipline_name": "Llargada S10 MASC. AL",
       "wind": null,
       "position": 4,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Paco Lorenzo Valldosera",
@@ -102,7 +110,8 @@
       "raw_discipline_name": "Llargada S10 MASC. AL",
       "wind": null,
       "position": 4,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Eric De La Rosa Fortuny",
@@ -113,7 +122,8 @@
       "raw_discipline_name": "Llargada S10 MASC. AL",
       "wind": null,
       "position": 7,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Eric De La Rosa Fortuny",
@@ -124,7 +134,8 @@
       "raw_discipline_name": "Llargada S10 MASC. AL",
       "wind": null,
       "position": 7,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Jeroni Flores Piñas",
@@ -135,7 +146,8 @@
       "raw_discipline_name": "Llargada S10 MASC. AL",
       "wind": null,
       "position": 10,
-      "internal_id": 1036
+      "internal_id": 1036,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Jeroni Flores Piñas",
@@ -146,7 +158,8 @@
       "raw_discipline_name": "Llargada S10 MASC. AL",
       "wind": null,
       "position": 10,
-      "internal_id": 1036
+      "internal_id": 1036,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Jeroni Flores Piñas",
@@ -157,7 +170,8 @@
       "raw_discipline_name": "Llargada S10 MASC. AL",
       "wind": null,
       "position": 10,
-      "internal_id": 1036
+      "internal_id": 1036,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Paula Diez Plasencia",
@@ -168,7 +182,8 @@
       "raw_discipline_name": "1.000m Marxa S10 FEM. en pista",
       "wind": null,
       "position": 4,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Quimey Izaga Deriu",
@@ -179,7 +194,9 @@
       "raw_discipline_name": "1.000m Marxa s10 MASC. en pista",
       "wind": null,
       "position": 1,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

@@ -14,7 +14,8 @@
       "raw_discipline_name": "60m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 808
+      "internal_id": 808,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Martina Pomes Cabello",
@@ -25,7 +26,8 @@
       "raw_discipline_name": "60m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 810
+      "internal_id": 810,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Lucia Vega Martinez",
@@ -36,7 +38,8 @@
       "raw_discipline_name": "2.000m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 805
+      "internal_id": 805,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Martina Pomes Cabello",
@@ -47,7 +50,8 @@
       "raw_discipline_name": "Alçada FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 810
+      "internal_id": 810,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Laura Santos Martinez",
@@ -58,7 +62,8 @@
       "raw_discipline_name": "Alçada FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 807
+      "internal_id": 807,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Laia Aldave Mas",
@@ -69,7 +74,8 @@
       "raw_discipline_name": "Perxa FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 800
+      "internal_id": 800,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Natalia Sanchez Alvarez",
@@ -80,7 +86,8 @@
       "raw_discipline_name": "Llargada FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 796
+      "internal_id": 796,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Laia Aldave Mas",
@@ -91,7 +98,8 @@
       "raw_discipline_name": "Pes (2 Kg) FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 800
+      "internal_id": 800,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Laia Aldave Mas",
@@ -102,7 +110,8 @@
       "raw_discipline_name": "Pes (2 Kg) FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 800
+      "internal_id": 800,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Laia Aldave Mas",
@@ -113,7 +122,8 @@
       "raw_discipline_name": "Pes (2 Kg) FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 800
+      "internal_id": 800,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Natalia Sanchez Alvarez",
@@ -124,7 +134,8 @@
       "raw_discipline_name": "Pes (2 Kg) FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 796
+      "internal_id": 796,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Natalia Sanchez Alvarez",
@@ -135,7 +146,8 @@
       "raw_discipline_name": "Pes (2 Kg) FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 796
+      "internal_id": 796,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Natalia Sanchez Alvarez",
@@ -146,7 +158,8 @@
       "raw_discipline_name": "Pes (2 Kg) FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 796
+      "internal_id": 796,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Julia Suarez Piza",
@@ -157,7 +170,9 @@
       "raw_discipline_name": "2.000m Marxa FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 839
+      "internal_id": 839,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": true
 }

@@ -13,7 +13,8 @@
       "raw_discipline_name": "100 METRES LLISOS MASCULINS",
       "performance": "11.15",
       "wind": "+2.0",
-      "internal_id": 294
+      "internal_id": 294,
+      "timing": "electronic"
     },
     {
       "athlete_name": "JOSE DIAZ MARC",
@@ -23,7 +24,8 @@
       "raw_discipline_name": "110 METRES TANQUES JUNIORS MASCULINS",
       "performance": "14.88",
       "wind": "+0.4",
-      "internal_id": 294
+      "internal_id": 294,
+      "timing": "electronic"
     },
     {
       "athlete_name": "TORRADEME PASCUAL NURIA",
@@ -33,7 +35,8 @@
       "raw_discipline_name": "100 METRES LLISOS FEMENINS",
       "performance": "13.35",
       "wind": "+0.7",
-      "internal_id": 314
+      "internal_id": 314,
+      "timing": "electronic"
     },
     {
       "athlete_name": "TORTOSA PRADILLO MIREIA",
@@ -43,7 +46,9 @@
       "raw_discipline_name": "100 METRES LLISOS FEMENINS",
       "performance": "15.35",
       "wind": "+0.3",
-      "internal_id": 340
+      "internal_id": 340,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

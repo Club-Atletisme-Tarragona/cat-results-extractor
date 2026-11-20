@@ -13,7 +13,8 @@
       "discipline": "100m Hombres",
       "wind": "-0.4",
       "position": null,
-      "internal_id": 518
+      "internal_id": 518,
+      "timing": "electronic"
     },
     {
       "athlete_name": "JUAN CARLOS HERRERA ALCAIDE",
@@ -23,7 +24,8 @@
       "discipline": "400m Hombres",
       "wind": null,
       "position": null,
-      "internal_id": 518
+      "internal_id": 518,
+      "timing": "electronic"
     },
     {
       "athlete_name": "JUAN CARLOS HERRERA ALCAIDE",
@@ -33,7 +35,9 @@
       "discipline": "Pértiga Hombres",
       "wind": null,
       "position": null,
-      "internal_id": 518
+      "internal_id": 518,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

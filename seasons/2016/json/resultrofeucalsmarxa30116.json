@@ -13,7 +13,8 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m MASC. AL",
       "wind": "-0.5",
-      "internal_id": 435
+      "internal_id": 435,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Jesus Muñoz Vazquez",
@@ -23,7 +24,8 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m MASC. AL",
       "wind": "-0.5",
-      "internal_id": 444
+      "internal_id": 444,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Josep Ramon Argilaga Salvado",
@@ -33,7 +35,8 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m MASC. AL",
       "wind": "-0.4",
-      "internal_id": 421
+      "internal_id": 421,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Mohamed Maman",
@@ -43,7 +46,8 @@
       "discipline": "400 metres llisos",
       "raw_discipline_name": "400m MASC. AL",
       "wind": null,
-      "internal_id": 496
+      "internal_id": 496,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Sergio Marcos Moreno",
@@ -53,7 +57,8 @@
       "discipline": "400 metres llisos",
       "raw_discipline_name": "400m MASC. AL",
       "wind": null,
-      "internal_id": 453
+      "internal_id": 453,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Jan Sans Riola",
@@ -63,7 +68,8 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud MASC. AL",
       "wind": "-0.5",
-      "internal_id": 435
+      "internal_id": 435,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Jan Sans Riola",
@@ -73,7 +79,8 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud MASC. AL",
       "wind": "-0.1",
-      "internal_id": 435
+      "internal_id": 435,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Jan Sans Riola",
@@ -83,7 +90,8 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud MASC. AL",
       "wind": "-0.2",
-      "internal_id": 435
+      "internal_id": 435,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Jan Sans Riola",
@@ -93,7 +101,8 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud MASC. AL",
       "wind": "-0.6",
-      "internal_id": 435
+      "internal_id": 435,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Jan Sans Riola",
@@ -103,7 +112,8 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud MASC. AL",
       "wind": "+0.8",
-      "internal_id": 435
+      "internal_id": 435,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Mireia Lopez Urbano",
@@ -113,7 +123,8 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m FEM. AL",
       "wind": "-0.2",
-      "internal_id": 527
+      "internal_id": 527,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Nerea Lago Garbajosa",
@@ -123,7 +134,8 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m FEM. AL",
       "wind": "-0.1",
-      "internal_id": 534
+      "internal_id": 534,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Mireia Lopez Urbano",
@@ -133,7 +145,8 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud FEM. AL",
       "wind": "-0.5",
-      "internal_id": 527
+      "internal_id": 527,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Mireia Lopez Urbano",
@@ -143,7 +156,8 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud FEM. AL",
       "wind": "-0.1",
-      "internal_id": 527
+      "internal_id": 527,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Mireia Lopez Urbano",
@@ -153,7 +167,8 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud FEM. AL",
       "wind": "-0.6",
-      "internal_id": 527
+      "internal_id": 527,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Laura Mascarell Julian",
@@ -163,7 +178,9 @@
       "discipline": "3000 metres marxa",
       "raw_discipline_name": "3.000m Marcha FEM. en pista",
       "wind": null,
-      "internal_id": 646
+      "internal_id": 646,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

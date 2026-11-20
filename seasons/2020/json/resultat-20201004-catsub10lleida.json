@@ -13,7 +13,8 @@
       "discipline": "Alçada SUB10 MASC. AL",
       "wind": null,
       "position": 3,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Nil Pamies Miro",
@@ -23,7 +24,8 @@
       "discipline": "Alçada SUB10 MASC. AL",
       "wind": null,
       "position": 4,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Irene Jimenez Garcia",
@@ -33,7 +35,8 @@
       "discipline": "1.000m Marxa SUB10 MASC. en pista",
       "wind": null,
       "position": 2,
-      "internal_id": 1326
+      "internal_id": 1326,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Maria Martin Cuadrado",
@@ -43,7 +46,8 @@
       "discipline": "1.000m Marxa SUB10 MASC. en pista",
       "wind": null,
       "position": 6,
-      "internal_id": 1330
+      "internal_id": 1330,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Irene Jimenez Garcia",
@@ -53,7 +57,8 @@
       "discipline": "Llargada SUB10 FEM. AL",
       "wind": null,
       "position": 5,
-      "internal_id": 1326
+      "internal_id": 1326,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Irene De La Rosa Fortuny",
@@ -63,7 +68,9 @@
       "discipline": "1.000m Marxa SUB10 FEM. en pista",
       "wind": null,
       "position": 6,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

@@ -13,7 +13,8 @@
       "raw_discipline_name": "400 METRES LLISOS MASCULINS",
       "performance": "0:55.46",
       "wind": null,
-      "internal_id": 405
+      "internal_id": 405,
+      "timing": "electronic"
     },
     {
       "athlete_name": "BARDINA TOMAS JOAN",
@@ -23,7 +24,8 @@
       "raw_discipline_name": "800 METRES LLISOS MASCULINS",
       "performance": "2:18.35",
       "wind": null,
-      "internal_id": 7
+      "internal_id": 7,
+      "timing": "electronic"
     },
     {
       "athlete_name": "BLANCO PRIETO JUAN",
@@ -33,7 +35,8 @@
       "raw_discipline_name": "1500 METRES LLISOS MASCULINS",
       "performance": "5:01.71",
       "wind": null,
-      "internal_id": 328
+      "internal_id": 328,
+      "timing": "electronic"
     },
     {
       "athlete_name": "ORTEGA RIDAO PEDRO",
@@ -43,7 +46,8 @@
       "raw_discipline_name": "3000 METRES LLISOS MASCULINS",
       "performance": "9:30.97",
       "wind": null,
-      "internal_id": 268
+      "internal_id": 268,
+      "timing": "electronic"
     },
     {
       "athlete_name": "DOMINGO FUSTER MIRIAM",
@@ -53,7 +57,8 @@
       "raw_discipline_name": "60 METRES LLISOS FEMENINS",
       "performance": "77.13",
       "wind": null,
-      "internal_id": 384
+      "internal_id": 384,
+      "timing": "electronic"
     },
     {
       "athlete_name": "FERNANDEZ CARRANZA PILAR",
@@ -63,7 +68,8 @@
       "raw_discipline_name": "200 METRES LLISOS FEMENINS",
       "performance": "70.44",
       "wind": null,
-      "internal_id": 398
+      "internal_id": 398,
+      "timing": "electronic"
     },
     {
       "athlete_name": "URBANO FLORES MARIA ANGELS",
@@ -73,7 +79,8 @@
       "raw_discipline_name": "800 METRES LLISOS FEMENINS",
       "performance": "3:47.16",
       "wind": null,
-      "internal_id": 334
+      "internal_id": 334,
+      "timing": "electronic"
     },
     {
       "athlete_name": "PARDINES GRAS PERE",
@@ -83,7 +90,8 @@
       "raw_discipline_name": "SALT D'ALÇADA MASCULÍ",
       "performance": "1.54",
       "wind": null,
-      "internal_id": 71
+      "internal_id": 71,
+      "timing": "electronic"
     },
     {
       "athlete_name": "PARDINES GRAS PERE",
@@ -93,7 +101,8 @@
       "raw_discipline_name": "SALT D'ALÇADA MASCULÍ",
       "performance": "2.04",
       "wind": null,
-      "internal_id": 71
+      "internal_id": 71,
+      "timing": "electronic"
     },
     {
       "athlete_name": "SAEZ PEREZ LUIS",
@@ -103,7 +112,8 @@
       "raw_discipline_name": "SALT DE LLARGADA MASCULÍ",
       "performance": "4.05",
       "wind": null,
-      "internal_id": 304
+      "internal_id": 304,
+      "timing": "electronic"
     },
     {
       "athlete_name": "SAEZ PEREZ LUIS",
@@ -113,7 +123,8 @@
       "raw_discipline_name": "SALT DE LLARGADA MASCULÍ",
       "performance": "5.84",
       "wind": null,
-      "internal_id": 304
+      "internal_id": 304,
+      "timing": "electronic"
     },
     {
       "athlete_name": "ARIZA CASABON DANIEL",
@@ -123,7 +134,8 @@
       "raw_discipline_name": "LLANÇAMENT DE PES MASCULÍ",
       "performance": "10.86",
       "wind": null,
-      "internal_id": 348
+      "internal_id": 348,
+      "timing": "electronic"
     },
     {
       "athlete_name": "ARIZA CASABON DANIEL",
@@ -133,7 +145,8 @@
       "raw_discipline_name": "LLANÇAMENT DE PES MASCULÍ",
       "performance": "22.51",
       "wind": null,
-      "internal_id": 348
+      "internal_id": 348,
+      "timing": "electronic"
     },
     {
       "athlete_name": "PRADILLO GUTIERREZ MARISA",
@@ -143,7 +156,8 @@
       "raw_discipline_name": "SALT DE LLARGADA FEMENÍ",
       "performance": "2.77",
       "wind": null,
-      "internal_id": 389
+      "internal_id": 389,
+      "timing": "electronic"
     },
     {
       "athlete_name": "PRADILLO GUTIERREZ MARISA",
@@ -153,7 +167,8 @@
       "raw_discipline_name": "SALT DE LLARGADA FEMENÍ",
       "performance": "5.82",
       "wind": null,
-      "internal_id": 389
+      "internal_id": 389,
+      "timing": "electronic"
     },
     {
       "athlete_name": "PINYOL MARGALEF JOANA",
@@ -163,7 +178,8 @@
       "raw_discipline_name": "LLANÇAMENT DE PES FEMENÍ",
       "performance": "6.79",
       "wind": null,
-      "internal_id": 376
+      "internal_id": 376,
+      "timing": "electronic"
     },
     {
       "athlete_name": "PINYOL MARGALEF JOANA",
@@ -173,7 +189,9 @@
       "raw_discipline_name": "LLANÇAMENT DE PES FEMENÍ",
       "performance": "16.31",
       "wind": null,
-      "internal_id": 376
+      "internal_id": 376,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

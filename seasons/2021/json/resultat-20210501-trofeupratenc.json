@@ -13,7 +13,8 @@
       "discipline": "3.000m Marcha MASC. en pista SUB 14 M",
       "wind": null,
       "position": null,
-      "internal_id": 1017
+      "internal_id": 1017,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Julia Suarez Piza",
@@ -23,7 +24,9 @@
       "discipline": "5.000m Marcha FEM. en pista SUB OPEN F",
       "wind": null,
       "position": null,
-      "internal_id": 839
+      "internal_id": 839,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

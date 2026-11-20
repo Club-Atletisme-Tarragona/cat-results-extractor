@@ -14,7 +14,8 @@
       "raw_discipline_name": "100 m Hombres",
       "wind": "+1.8",
       "position": null,
-      "internal_id": 1014
+      "internal_id": 1014,
+      "timing": "electronic"
     },
     {
       "athlete_name": "HUGO JULES SAIZ SANTOLARIA",
@@ -25,7 +26,8 @@
       "raw_discipline_name": "100 m Hombres",
       "wind": "+1.8",
       "position": null,
-      "internal_id": 808
+      "internal_id": 808,
+      "timing": "electronic"
     },
     {
       "athlete_name": "JOSEP RAMON ARGILAGA SALVADO",
@@ -36,7 +38,8 @@
       "raw_discipline_name": "100 m Hombres",
       "wind": "+1.2",
       "position": null,
-      "internal_id": 421
+      "internal_id": 421,
+      "timing": "electronic"
     },
     {
       "athlete_name": "BIEL LLIGADAS TURON",
@@ -47,7 +50,8 @@
       "raw_discipline_name": "100 m Hombres",
       "wind": "+2.3",
       "position": null,
-      "internal_id": 1339
+      "internal_id": 1339,
+      "timing": "electronic"
     },
     {
       "athlete_name": "UNAI OLAYA MINGUEZ",
@@ -58,7 +62,8 @@
       "raw_discipline_name": "200 m Hombres",
       "wind": "+0.0",
       "position": null,
-      "internal_id": 1014
+      "internal_id": 1014,
+      "timing": "electronic"
     },
     {
       "athlete_name": "IKER RODRIGUEZ BARRIOS",
@@ -69,7 +74,8 @@
       "raw_discipline_name": "200 m Hombres",
       "wind": "+0.0",
       "position": null,
-      "internal_id": 1069
+      "internal_id": 1069,
+      "timing": "electronic"
     },
     {
       "athlete_name": "JOSEP RAMON ARGILAGA SALVADO",
@@ -80,7 +86,8 @@
       "raw_discipline_name": "200 m Hombres",
       "wind": "+0.0",
       "position": null,
-      "internal_id": 421
+      "internal_id": 421,
+      "timing": "electronic"
     },
     {
       "athlete_name": "MARC MARTI FERNANDEZ",
@@ -91,7 +98,8 @@
       "raw_discipline_name": "300 m Hombres",
       "wind": null,
       "position": null,
-      "internal_id": 1108
+      "internal_id": 1108,
+      "timing": "electronic"
     },
     {
       "athlete_name": "BIEL LLIGADAS TURON",
@@ -102,7 +110,8 @@
       "raw_discipline_name": "300 m Hombres",
       "wind": null,
       "position": null,
-      "internal_id": 1339
+      "internal_id": 1339,
+      "timing": "electronic"
     },
     {
       "athlete_name": "ALDARA LINARES ANTELO",
@@ -113,7 +122,8 @@
       "raw_discipline_name": "100 m Mujeres",
       "wind": "+1.8",
       "position": null,
-      "internal_id": 1068
+      "internal_id": 1068,
+      "timing": "electronic"
     },
     {
       "athlete_name": "AGUSTINA RAMOS RUSSO",
@@ -124,7 +134,8 @@
       "raw_discipline_name": "100 m Mujeres",
       "wind": "-0.3",
       "position": null,
-      "internal_id": 1340
+      "internal_id": 1340,
+      "timing": "electronic"
     },
     {
       "athlete_name": "CARLA BORRAS VERGES-TAPIRO",
@@ -135,7 +146,8 @@
       "raw_discipline_name": "200 m Mujeres",
       "wind": "+1.7",
       "position": null,
-      "internal_id": 951
+      "internal_id": 951,
+      "timing": "electronic"
     },
     {
       "athlete_name": "DIANA GARCÍA MUR",
@@ -146,7 +158,8 @@
       "raw_discipline_name": "200 m Mujeres",
       "wind": "+0.5",
       "position": null,
-      "internal_id": 1081
+      "internal_id": 1081,
+      "timing": "electronic"
     },
     {
       "athlete_name": "PILAR FERNANDEZ CARRANZA",
@@ -157,7 +170,8 @@
       "raw_discipline_name": "200 m Mujeres",
       "wind": "+0.5",
       "position": null,
-      "internal_id": 398
+      "internal_id": 398,
+      "timing": "electronic"
     },
     {
       "athlete_name": "AGUSTINA RAMOS RUSSO",
@@ -168,7 +182,9 @@
       "raw_discipline_name": "300 m Mujeres",
       "wind": null,
       "position": null,
-      "internal_id": 1340
+      "internal_id": 1340,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

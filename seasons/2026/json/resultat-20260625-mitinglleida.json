@@ -14,7 +14,8 @@
       "raw_discipline_name": "400m Hombres",
       "wind": null,
       "position": null,
-      "internal_id": 733
+      "internal_id": 733,
+      "timing": "electronic"
     },
     {
       "athlete_name": "ALDARA LINARES ANTELO",
@@ -25,7 +26,8 @@
       "raw_discipline_name": "100m Mujeres",
       "wind": "+2.4",
       "position": null,
-      "internal_id": 1068
+      "internal_id": 1068,
+      "timing": "electronic"
     },
     {
       "athlete_name": "NAYLA SENTIS TORAO",
@@ -36,7 +38,8 @@
       "raw_discipline_name": "100m Mujeres",
       "wind": "+3.1",
       "position": null,
-      "internal_id": 1054
+      "internal_id": 1054,
+      "timing": "electronic"
     },
     {
       "athlete_name": "ALDARA LINARES ANTELO",
@@ -47,7 +50,9 @@
       "raw_discipline_name": "150m FEM AL",
       "wind": "-1.7",
       "position": null,
-      "internal_id": 1068
+      "internal_id": 1068,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

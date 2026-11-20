@@ -13,7 +13,8 @@
       "discipline": "Jabalina (700g) MASC.",
       "wind": null,
       "position": null,
-      "internal_id": 971
+      "internal_id": 971,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Pau Crespo Beltran",
@@ -23,7 +24,8 @@
       "discipline": "Jabalina (700g) MASC.",
       "wind": null,
       "position": null,
-      "internal_id": 971
+      "internal_id": 971,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Pau Crespo Beltran",
@@ -33,7 +35,8 @@
       "discipline": "Jabalina (700g) MASC.",
       "wind": null,
       "position": null,
-      "internal_id": 971
+      "internal_id": 971,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Mireia Redondo Mendoza",
@@ -43,7 +46,8 @@
       "discipline": "400m FEM. AL",
       "wind": null,
       "position": null,
-      "internal_id": 957
+      "internal_id": 957,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Victor Jimenez Garcia",
@@ -53,7 +57,8 @@
       "discipline": "100m MASC. AL",
       "wind": "+3.3",
       "position": null,
-      "internal_id": 958
+      "internal_id": 958,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Hugo Jules Saiz Santolaria",
@@ -63,7 +68,8 @@
       "discipline": "100m MASC. AL",
       "wind": "+2.6",
       "position": null,
-      "internal_id": 808
+      "internal_id": 808,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Xavier Ros Borrell",
@@ -73,7 +79,8 @@
       "discipline": "800m MASC. AL",
       "wind": null,
       "position": null,
-      "internal_id": 439
+      "internal_id": 439,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Julio Leon Cid",
@@ -83,7 +90,8 @@
       "discipline": "800m MASC. AL",
       "wind": null,
       "position": null,
-      "internal_id": 992
+      "internal_id": 992,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Jose Miguel Diaz Butron",
@@ -93,7 +101,8 @@
       "discipline": "800m MASC. AL",
       "wind": null,
       "position": null,
-      "internal_id": 252
+      "internal_id": 252,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Victor Jimenez Garcia",
@@ -103,7 +112,8 @@
       "discipline": "Longitud MASC. AL A",
       "wind": "-1.3",
       "position": null,
-      "internal_id": 958
+      "internal_id": 958,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Iris Garrido Garcia",
@@ -113,7 +123,8 @@
       "discipline": "800m FEM. AL",
       "wind": null,
       "position": null,
-      "internal_id": 982
+      "internal_id": 982,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Hugo Jules Saiz Santolaria",
@@ -123,7 +134,8 @@
       "discipline": "200m MASC. AL",
       "wind": "-0.3",
       "position": null,
-      "internal_id": 808
+      "internal_id": 808,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Mireia Lopez Urbano",
@@ -133,7 +145,8 @@
       "discipline": "200m FEM. AL",
       "wind": "-0.2",
       "position": null,
-      "internal_id": 527
+      "internal_id": 527,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Anna Artero Fernandez",
@@ -143,7 +156,8 @@
       "discipline": "1.500m FEM. AL",
       "wind": null,
       "position": null,
-      "internal_id": 847
+      "internal_id": 847,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Cristina Iniesta Acera",
@@ -153,7 +167,8 @@
       "discipline": "1.500m FEM. AL",
       "wind": null,
       "position": null,
-      "internal_id": 742
+      "internal_id": 742,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Lucia Mayolas Martinez",
@@ -163,7 +178,8 @@
       "discipline": "1.500m FEM. AL",
       "wind": null,
       "position": null,
-      "internal_id": 728
+      "internal_id": 728,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Florian Trives Segura",
@@ -173,7 +189,9 @@
       "discipline": "5.000m MASC. AL",
       "wind": null,
       "position": null,
-      "internal_id": 980
+      "internal_id": 980,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

@@ -14,7 +14,8 @@
       "raw_discipline_name": "1.000m S10 FEM. AL",
       "wind": null,
       "position": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Paula Diez Plasencia",
@@ -25,7 +26,8 @@
       "raw_discipline_name": "1.000m S10 FEM. AL",
       "wind": null,
       "position": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Eric De La Rosa Fortuny",
@@ -36,7 +38,8 @@
       "raw_discipline_name": "2.000m S12 MASC. AL",
       "wind": null,
       "position": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Quimey Izaga Deriu",
@@ -47,7 +50,8 @@
       "raw_discipline_name": "2.000m S12 MASC. AL",
       "wind": null,
       "position": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Ivan Ferrer Villa",
@@ -58,7 +62,8 @@
       "raw_discipline_name": "2.000m S12 MASC. AL",
       "wind": null,
       "position": null,
-      "internal_id": 1009
+      "internal_id": 1009,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Didac Safont Balaguer",
@@ -69,7 +74,8 @@
       "raw_discipline_name": "3.000m S18 MASC. AL",
       "wind": null,
       "position": null,
-      "internal_id": 651
+      "internal_id": 651,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Alex Ortega Mateu",
@@ -80,7 +86,8 @@
       "raw_discipline_name": "3.000m S18 MASC. AL",
       "wind": null,
       "position": null,
-      "internal_id": 713
+      "internal_id": 713,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Oscar Gomez Carballo",
@@ -91,7 +98,8 @@
       "raw_discipline_name": "3.000m S18 MASC. AL",
       "wind": null,
       "position": null,
-      "internal_id": 26
+      "internal_id": 26,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Pedro Ortega Ridao",
@@ -102,7 +110,8 @@
       "raw_discipline_name": "3.000m S18 MASC. AL",
       "wind": null,
       "position": null,
-      "internal_id": 268
+      "internal_id": 268,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Jose Francisco Garcia Navarrete",
@@ -113,7 +122,8 @@
       "raw_discipline_name": "3.000m S18 MASC. AL",
       "wind": null,
       "position": null,
-      "internal_id": 5
+      "internal_id": 5,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Clara Ortiz De Landazuri Ontoso",
@@ -124,7 +134,9 @@
       "raw_discipline_name": "2.000m S12 FEM. AL",
       "wind": null,
       "position": null,
-      "internal_id": 1022
+      "internal_id": 1022,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

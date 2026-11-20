@@ -13,7 +13,8 @@
       "discipline": "Llargada SUB10 MASC. AL",
       "wind": null,
       "position": 3,
-      "internal_id": 1055
+      "internal_id": 1055,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Diana Garcia Mur",
@@ -23,7 +24,8 @@
       "discipline": "1.000m Marxa SUB10 MASC. en pista",
       "wind": null,
       "position": 7,
-      "internal_id": 1081
+      "internal_id": 1081,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Nora Montolio Amaro",
@@ -33,7 +35,8 @@
       "discipline": "1.000m Marxa SUB10 MASC. en pista",
       "wind": null,
       "position": 10,
-      "internal_id": 1089
+      "internal_id": 1089,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Nora Montolio Amaro",
@@ -43,7 +46,8 @@
       "discipline": "Llargada SUB10 FEM. AL",
       "wind": null,
       "position": 9,
-      "internal_id": 1089
+      "internal_id": 1089,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Paula Diez Plasencia",
@@ -53,7 +57,8 @@
       "discipline": "1.000m Marxa SUB10 FEM. en pista",
       "wind": null,
       "position": 4,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Irene De La Rosa Fortuny",
@@ -63,7 +68,9 @@
       "discipline": "1.000m Marxa SUB10 FEM. en pista",
       "wind": null,
       "position": 10,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

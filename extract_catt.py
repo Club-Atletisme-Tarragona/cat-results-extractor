@@ -46,6 +46,70 @@ def extract_text(pdf_path):
     return text
 
 
+# ---------------------------------------------------------------------------
+# Export contract (odd/tasks/timing-short-track.md)
+# ---------------------------------------------------------------------------
+
+def detect_short_track(text, url=None):
+    """True for an indoor (pista coberta) competition.
+
+    Signals, in order of trust: the header/event name ("Pista Coberta",
+    "Pista Cubierta", "Short Track"), the source URL path (era files lived in
+    /Pcoberta/, newer ones in /short_track/), and the era file-name convention
+    (a 'pc' token in the stem, e.g. resulcontrolpc15105). A 'pc' match must be
+    a delimited token, never a substring ('spec', 'opc' are not indoor).
+    """
+    haystacks = [str(text or "")]
+    stem = ""
+    if url:
+        haystacks.append(str(url))
+        stem = url.rsplit("/", 1)[-1]
+    else:
+        # no URL given: the caller passed a bare file name as `text`
+        stem = str(text or "")
+    for hay in haystacks:
+        low = hay.lower()
+        if ("pista coberta" in low or "pista cubierta" in low
+                or "short track" in low or "short_track" in low
+                or "/pcoberta/" in low):
+            return True
+    if stem:
+        low_stem = stem.lower()
+        # era files: 'resulcontrolpc15105', 'resulcjjppc12211', 'campmanypc' -
+        # 'pc' glued before digits or at the end of the stem. 'spec'/'opc' do
+        # not end in a digit right after 'pc', so the lookahead excludes them.
+        if re.search(r"pc(?=[0-9-]|$)", low_stem):
+            return True
+    return False
+
+
+_TIME_MANUAL_RE = re.compile(
+    r"^\d{1,2}(:\d{2}){1,2}[.,]\d-?$|^\d{1,2}[.,]\d-?$|^\d{1,2}$"
+)
+
+
+def timing_from_mark(mark):
+    """"manual" | "electronic" for a stored mark; electronic by default.
+
+    Hand timekeeping shows as a time without centiseconds, and the sheets
+    often trail a '-' after the decimal ('7.2-'). Marks without timing
+    semantics (lengths, heights, points, status codes) are electronic by
+    contract: they carry no hundredths information either way.
+    """
+    text = str(mark or "").strip()
+    if not text:
+        return "electronic"
+    if text.upper() in ("DQ", "DNS", "DNF", "NP", "N.P.", "RET.", "X"):
+        return "electronic"
+    # a performance is a time when it looks like mm:ss.cc / ss.cc / ss,cs
+    looks_like_time = bool(re.match(r"^\d{1,2}(:\d{2}){1,2}[.,]\d{1,2}-?$", text)
+                           or re.fullmatch(r"\d{1,2}[.,]\d{1,2}-?", text)
+                           or re.fullmatch(r"\d{1,2}", text))
+    if looks_like_time and _TIME_MANUAL_RE.match(text):
+        return "manual"
+    return "electronic"
+
+
 def parse_header(text):
     competicio = ""
     ubicacio = ""
@@ -4120,6 +4184,10 @@ def main():
         "event_location": localitat,
         "total_results": len(results),
         "event_src": source_url if source_url else os.path.abspath(pdf_path),
+        # export contract (odd/tasks/timing-short-track.md)
+        "is_short_track": detect_short_track(
+            f"{full_competicio} {localitat} {ubicacio}",
+            source_url or os.path.abspath(pdf_path)),
         "results": []
     }
 
@@ -4133,6 +4201,9 @@ def main():
             "wind": r["vent"] if wind_applicable(normalize_weight_units(r["prova"])) else None,
             "position": r.get("position"),
         }
+        # "timing" per row: absent -> electronic. The row wins over the header
+        # (a hand-timed row inside an electronic meet is still manual).
+        entry["timing"] = timing_from_mark(r["marca"])
         output["results"].append(entry)
 
     with open(output_path, 'w', encoding='utf-8') as f:

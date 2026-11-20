@@ -13,7 +13,8 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m MASC. PC",
       "wind": null,
-      "internal_id": 439
+      "internal_id": 439,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Andreu Aluja olesti",
@@ -23,7 +24,8 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m MASC. PC",
       "wind": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Andreu Aluja olesti",
@@ -33,7 +35,9 @@
       "discipline": "300 metres llisos",
       "raw_discipline_name": "300m MASC. PC",
       "wind": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": true
 }

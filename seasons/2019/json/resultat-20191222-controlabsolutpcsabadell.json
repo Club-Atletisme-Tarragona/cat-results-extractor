@@ -13,7 +13,8 @@
       "discipline": "60m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 510
+      "internal_id": 510,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Jan Sans Riola",
@@ -23,7 +24,8 @@
       "discipline": "60m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 435
+      "internal_id": 435,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Jan Sans Riola",
@@ -33,7 +35,8 @@
       "discipline": "60m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 435
+      "internal_id": 435,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Bernat Verdu Gomez",
@@ -43,7 +46,8 @@
       "discipline": "400m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 645
+      "internal_id": 645,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Xavier Ros Borrell",
@@ -53,7 +57,8 @@
       "discipline": "1.500m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 439
+      "internal_id": 439,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Manuel Pizarro Arevalo",
@@ -63,7 +68,8 @@
       "discipline": "Perxa MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 517
+      "internal_id": 517,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Alicia Vazquez Domingo",
@@ -73,7 +79,8 @@
       "discipline": "60m tanques (0,84) FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 472
+      "internal_id": 472,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Alicia Vazquez Domingo",
@@ -83,7 +90,8 @@
       "discipline": "Llargada FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 472
+      "internal_id": 472,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Alicia Vazquez Domingo",
@@ -93,7 +101,8 @@
       "discipline": "Llargada FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 472
+      "internal_id": 472,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Alicia Vazquez Domingo",
@@ -103,7 +112,8 @@
       "discipline": "Llargada FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 472
+      "internal_id": 472,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Alicia Vazquez Domingo",
@@ -113,7 +123,9 @@
       "discipline": "Llargada FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 472
+      "internal_id": 472,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": true
 }

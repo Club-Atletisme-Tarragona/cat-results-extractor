@@ -13,7 +13,8 @@
       "discipline": "Alçada",
       "raw_discipline_name": "ALÇADA PROMESA FEMENI",
       "wind": null,
-      "internal_id": 346
+      "internal_id": 346,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Maria Alvarez Auños",
@@ -23,7 +24,8 @@
       "discipline": "Llargada",
       "raw_discipline_name": "LLARGADA PROMESA FEMENI",
       "wind": "+1.5",
-      "internal_id": 346
+      "internal_id": 346,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Maria Alvarez Auños",
@@ -33,7 +35,8 @@
       "discipline": "Llargada",
       "raw_discipline_name": "LLARGADA PROMESA FEMENI",
       "wind": "+1.9",
-      "internal_id": 346
+      "internal_id": 346,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Maria Alvarez Auños",
@@ -43,7 +46,8 @@
       "discipline": "Llargada",
       "raw_discipline_name": "LLARGADA PROMESA FEMENI",
       "wind": "+1.5",
-      "internal_id": 346
+      "internal_id": 346,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Maria Alvarez Auños",
@@ -53,7 +57,8 @@
       "discipline": "Llargada",
       "raw_discipline_name": "LLARGADA PROMESA FEMENI",
       "wind": "+0.5",
-      "internal_id": 346
+      "internal_id": 346,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Maria Alvarez Auños",
@@ -63,7 +68,8 @@
       "discipline": "Llargada",
       "raw_discipline_name": "LLARGADA PROMESA FEMENI",
       "wind": "+1.5",
-      "internal_id": 346
+      "internal_id": 346,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Gemma Ruiz Sabate",
@@ -73,7 +79,8 @@
       "discipline": "Disc (1 Kg)",
       "raw_discipline_name": "DISC PROMESA FEMENI",
       "wind": null,
-      "internal_id": 464
+      "internal_id": 464,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Gemma Ruiz Sabate",
@@ -83,7 +90,9 @@
       "discipline": "Disc (1 Kg)",
       "raw_discipline_name": "DISC PROMESA FEMENI",
       "wind": null,
-      "internal_id": 464
+      "internal_id": 464,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

@@ -13,7 +13,8 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m MASC. PC",
       "wind": null,
-      "internal_id": 444
+      "internal_id": 444,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Jan Sans Riola",
@@ -23,7 +24,8 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m MASC. PC",
       "wind": null,
-      "internal_id": 435
+      "internal_id": 435,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Sergio Marcos Moreno",
@@ -33,7 +35,8 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m MASC. PC",
       "wind": null,
-      "internal_id": 453
+      "internal_id": 453,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Sergio Marcos Moreno",
@@ -43,7 +46,8 @@
       "discipline": "400 metres llisos",
       "raw_discipline_name": "400m MASC. PC",
       "wind": null,
-      "internal_id": 453
+      "internal_id": 453,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Jan Sans Riola",
@@ -53,7 +57,8 @@
       "discipline": "Pes (7.260 Kg)",
       "raw_discipline_name": "Pes Juvenil MASC. PC",
       "wind": null,
-      "internal_id": 435
+      "internal_id": 435,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Jan Sans Riola",
@@ -63,7 +68,8 @@
       "discipline": "Pes (7.260 Kg)",
       "raw_discipline_name": "Pes Juvenil MASC. PC",
       "wind": null,
-      "internal_id": 435
+      "internal_id": 435,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Jan Sans Riola",
@@ -73,7 +79,8 @@
       "discipline": "Pes (7.260 Kg)",
       "raw_discipline_name": "Pes Juvenil MASC. PC",
       "wind": null,
-      "internal_id": 435
+      "internal_id": 435,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Jan Sans Riola",
@@ -83,7 +90,8 @@
       "discipline": "Pes (7.260 Kg)",
       "raw_discipline_name": "Pes Juvenil MASC. PC",
       "wind": null,
-      "internal_id": 435
+      "internal_id": 435,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Jan Sans Riola",
@@ -93,7 +101,8 @@
       "discipline": "Pes (7.260 Kg)",
       "raw_discipline_name": "Pes Juvenil MASC. PC",
       "wind": null,
-      "internal_id": 435
+      "internal_id": 435,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Maria Martin Borras",
@@ -103,7 +112,8 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m FEM. PC",
       "wind": null,
-      "internal_id": 474
+      "internal_id": 474,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Gemma Ruiz Sabate",
@@ -113,7 +123,9 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m FEM. PC",
       "wind": null,
-      "internal_id": 464
+      "internal_id": 464,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": true
 }

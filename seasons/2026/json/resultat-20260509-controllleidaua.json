@@ -14,7 +14,8 @@
       "raw_discipline_name": "100m Hombres",
       "wind": "-0.0",
       "position": null,
-      "internal_id": 1036
+      "internal_id": 1036,
+      "timing": "electronic"
     },
     {
       "athlete_name": "JERONI FLORES PIÑAS",
@@ -25,7 +26,8 @@
       "raw_discipline_name": "110m vallas (0,914) Hombres AL U18M",
       "wind": "-1.3",
       "position": null,
-      "internal_id": 1036
+      "internal_id": 1036,
+      "timing": "electronic"
     },
     {
       "athlete_name": "LAURA SANTOS MARTINEZ",
@@ -36,7 +38,8 @@
       "raw_discipline_name": "Altura Mujeres U23F",
       "wind": null,
       "position": null,
-      "internal_id": 807
+      "internal_id": 807,
+      "timing": "electronic"
     },
     {
       "athlete_name": "NATALIA SANCHEZ ALVAREZ",
@@ -47,7 +50,8 @@
       "raw_discipline_name": "Longitud Mujeres U23F",
       "wind": "-1.3",
       "position": null,
-      "internal_id": 796
+      "internal_id": 796,
+      "timing": "electronic"
     },
     {
       "athlete_name": "NATALIA SANCHEZ ALVAREZ",
@@ -58,7 +62,8 @@
       "raw_discipline_name": "Longitud Mujeres U23F",
       "wind": "-1.7",
       "position": null,
-      "internal_id": 796
+      "internal_id": 796,
+      "timing": "electronic"
     },
     {
       "athlete_name": "NATALIA SANCHEZ ALVAREZ",
@@ -69,7 +74,8 @@
       "raw_discipline_name": "Longitud Mujeres U23F",
       "wind": "-1.6",
       "position": null,
-      "internal_id": 796
+      "internal_id": 796,
+      "timing": "electronic"
     },
     {
       "athlete_name": "NATALIA SANCHEZ ALVAREZ",
@@ -80,7 +86,9 @@
       "raw_discipline_name": "Longitud Mujeres U23F",
       "wind": "-0.5",
       "position": null,
-      "internal_id": 796
+      "internal_id": 796,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

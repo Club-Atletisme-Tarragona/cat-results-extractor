@@ -13,7 +13,8 @@
       "discipline": "800m MASC. AL",
       "wind": null,
       "position": 6,
-      "internal_id": 439
+      "internal_id": 439,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Jan Sans Riola",
@@ -23,7 +24,8 @@
       "discipline": "110m tanques (1,067) MASC. AL",
       "wind": "-2.1",
       "position": null,
-      "internal_id": 435
+      "internal_id": 435,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Jan Sans Riola",
@@ -33,7 +35,8 @@
       "discipline": "110m tanques (1,067) MASC. AL",
       "wind": "-1.5",
       "position": null,
-      "internal_id": 435
+      "internal_id": 435,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Alicia Vazquez Domingo",
@@ -43,7 +46,8 @@
       "discipline": "100m tanques (0,84) FEM. AL",
       "wind": "-1.1",
       "position": null,
-      "internal_id": 472
+      "internal_id": 472,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Alicia Vazquez Domingo",
@@ -53,7 +57,8 @@
       "discipline": "100m tanques (0,84) FEM. AL",
       "wind": "-2.0",
       "position": null,
-      "internal_id": 472
+      "internal_id": 472,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Alicia Vazquez Domingo",
@@ -63,7 +68,8 @@
       "discipline": "Llargada FEM. AL",
       "wind": "+1.2",
       "position": 4,
-      "internal_id": 472
+      "internal_id": 472,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Alicia Vazquez Domingo",
@@ -73,7 +79,8 @@
       "discipline": "Llargada FEM. AL",
       "wind": "-0.2",
       "position": 4,
-      "internal_id": 472
+      "internal_id": 472,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Alicia Vazquez Domingo",
@@ -83,7 +90,8 @@
       "discipline": "Llargada FEM. AL",
       "wind": "+1.1",
       "position": 4,
-      "internal_id": 472
+      "internal_id": 472,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Alicia Vazquez Domingo",
@@ -93,7 +101,8 @@
       "discipline": "Llargada FEM. AL",
       "wind": "+0.2",
       "position": 4,
-      "internal_id": 472
+      "internal_id": 472,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Joana Domingo Ingles",
@@ -103,7 +112,8 @@
       "discipline": "Disc (1 Kg) FEM.",
       "wind": null,
       "position": 7,
-      "internal_id": 476
+      "internal_id": 476,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Joana Domingo Ingles",
@@ -113,7 +123,8 @@
       "discipline": "Disc (1 Kg) FEM.",
       "wind": null,
       "position": 7,
-      "internal_id": 476
+      "internal_id": 476,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Joana Domingo Ingles",
@@ -123,7 +134,9 @@
       "discipline": "Disc (1 Kg) FEM.",
       "wind": null,
       "position": 7,
-      "internal_id": 476
+      "internal_id": 476,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

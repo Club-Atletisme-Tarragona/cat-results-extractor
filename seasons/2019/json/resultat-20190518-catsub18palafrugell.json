@@ -13,7 +13,8 @@
       "discipline": "100m MASC. AL -Míting-",
       "wind": "+0.4",
       "position": 5,
-      "internal_id": 510
+      "internal_id": 510,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Aleix Lago Garbajosa",
@@ -23,7 +24,8 @@
       "discipline": "800m MASC. AL",
       "wind": null,
       "position": 5,
-      "internal_id": 660
+      "internal_id": 660,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Pablo Angel Fernandez",
@@ -33,7 +35,8 @@
       "discipline": "110m tanques (0,914) MASC. AL",
       "wind": "-1.5",
       "position": null,
-      "internal_id": 704
+      "internal_id": 704,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Bernat Verdu Gomez",
@@ -43,7 +46,8 @@
       "discipline": "110m tanques (0,914) MASC. AL",
       "wind": "-0.7",
       "position": null,
-      "internal_id": 645
+      "internal_id": 645,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Bernat Verdu Gomez",
@@ -53,7 +57,8 @@
       "discipline": "110m tanques (0,914) MASC. AL",
       "wind": "+0.5",
       "position": null,
-      "internal_id": 645
+      "internal_id": 645,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Guifre De Los Rios Blanch",
@@ -63,7 +68,8 @@
       "discipline": "400m tanques (0,84) MASC. AL",
       "wind": null,
       "position": null,
-      "internal_id": 697
+      "internal_id": 697,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Guifre De Los Rios Blanch",
@@ -73,7 +79,8 @@
       "discipline": "400m tanques (0,84) MASC. AL",
       "wind": null,
       "position": null,
-      "internal_id": 697
+      "internal_id": 697,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Laura Yan Sole Barba",
@@ -83,7 +90,8 @@
       "discipline": "100m FEM. AL",
       "wind": "-0.6",
       "position": null,
-      "internal_id": 701
+      "internal_id": 701,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Laura Yan Sole Barba",
@@ -93,7 +101,8 @@
       "discipline": "400m FEM. AL",
       "wind": null,
       "position": null,
-      "internal_id": 701
+      "internal_id": 701,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Laura Yan Sole Barba",
@@ -103,7 +112,8 @@
       "discipline": "400m FEM. AL",
       "wind": null,
       "position": null,
-      "internal_id": 701
+      "internal_id": 701,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Carla Gonzalez Carrillo",
@@ -113,7 +123,8 @@
       "discipline": "400m FEM. AL",
       "wind": null,
       "position": null,
-      "internal_id": 698
+      "internal_id": 698,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Nerea Lago Garbajosa",
@@ -123,7 +134,8 @@
       "discipline": "400m FEM. AL -Míting-",
       "wind": null,
       "position": 4,
-      "internal_id": 534
+      "internal_id": 534,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Claudia Mir Casellas",
@@ -133,7 +145,8 @@
       "discipline": "400m tanques (0,762) FEM. AL",
       "wind": null,
       "position": null,
-      "internal_id": 699
+      "internal_id": 699,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Maria Falco Cuenca",
@@ -143,7 +156,9 @@
       "discipline": "Alçada FEM. AL",
       "wind": null,
       "position": 4,
-      "internal_id": 664
+      "internal_id": 664,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

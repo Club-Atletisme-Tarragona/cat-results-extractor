@@ -13,7 +13,8 @@
       "raw_discipline_name": "60 METRES LLISOS MASCULINS",
       "performance": "7.47",
       "wind": null,
-      "internal_id": 180
+      "internal_id": 180,
+      "timing": "electronic"
     },
     {
       "athlete_name": "RIOS MESEGUER DIDAC",
@@ -23,7 +24,8 @@
       "raw_discipline_name": "60 METRES LLISOS MASCULINS",
       "performance": "7.77",
       "wind": null,
-      "internal_id": 193
+      "internal_id": 193,
+      "timing": "electronic"
     },
     {
       "athlete_name": "ROMANI SUAREZ ROBERT",
@@ -33,7 +35,8 @@
       "raw_discipline_name": "60 METRES TANQUES MASCULINS",
       "performance": "8.93",
       "wind": null,
-      "internal_id": 168
+      "internal_id": 168,
+      "timing": "electronic"
     },
     {
       "athlete_name": "RIOS MESEGUER DIDAC",
@@ -43,7 +46,8 @@
       "raw_discipline_name": "60 METRES TANQUES MASCULINS",
       "performance": "9.35",
       "wind": null,
-      "internal_id": 193
+      "internal_id": 193,
+      "timing": "electronic"
     },
     {
       "athlete_name": "TORTOSA PRADILLO FERRAN",
@@ -53,7 +57,8 @@
       "raw_discipline_name": "60 METRES TANQUES MASCULINS",
       "performance": "9.41",
       "wind": null,
-      "internal_id": 180
+      "internal_id": 180,
+      "timing": "electronic"
     },
     {
       "athlete_name": "SOLE FERRE ANNA",
@@ -63,7 +68,8 @@
       "raw_discipline_name": "60 METRES LLISOS FEMENINS",
       "performance": "7.92",
       "wind": null,
-      "internal_id": 233
+      "internal_id": 233,
+      "timing": "electronic"
     },
     {
       "athlete_name": "SOLE FERRE ANNA",
@@ -73,7 +79,8 @@
       "raw_discipline_name": "60 METRES TANQUES FEMENINS",
       "performance": "NP",
       "wind": null,
-      "internal_id": 233
+      "internal_id": 233,
+      "timing": "electronic"
     },
     {
       "athlete_name": "GUTIERREZ COMES SILVIA",
@@ -83,7 +90,8 @@
       "raw_discipline_name": "60 METRES TANQUES FEMENINS",
       "performance": "NP",
       "wind": null,
-      "internal_id": 353
+      "internal_id": 353,
+      "timing": "electronic"
     },
     {
       "athlete_name": "ROMANI SUAREZ ROBERT",
@@ -93,7 +101,8 @@
       "raw_discipline_name": "SALT DE LLARGADA MASCULÍ (FOSSAR A)",
       "performance": "6.62",
       "wind": null,
-      "internal_id": 168
+      "internal_id": 168,
+      "timing": "electronic"
     },
     {
       "athlete_name": "ROMANI SUAREZ ROBERT",
@@ -103,7 +112,8 @@
       "raw_discipline_name": "SALT DE LLARGADA MASCULÍ (FOSSAR A)",
       "performance": "6.46",
       "wind": null,
-      "internal_id": 168
+      "internal_id": 168,
+      "timing": "electronic"
     },
     {
       "athlete_name": "ROMANI SUAREZ ROBERT",
@@ -113,7 +123,8 @@
       "raw_discipline_name": "SALT DE LLARGADA MASCULÍ (FOSSAR A)",
       "performance": "6.55",
       "wind": null,
-      "internal_id": 168
+      "internal_id": 168,
+      "timing": "electronic"
     },
     {
       "athlete_name": "ROMANI SUAREZ ROBERT",
@@ -123,7 +134,8 @@
       "raw_discipline_name": "SALT DE LLARGADA MASCULÍ (FOSSAR A)",
       "performance": "6.83",
       "wind": null,
-      "internal_id": 168
+      "internal_id": 168,
+      "timing": "electronic"
     },
     {
       "athlete_name": "RIOS MESEGUER DIDAC",
@@ -133,7 +145,8 @@
       "raw_discipline_name": "SALT DE LLARGADA MASCULÍ (FOSSAR B)",
       "performance": "5.31",
       "wind": null,
-      "internal_id": 193
+      "internal_id": 193,
+      "timing": "electronic"
     },
     {
       "athlete_name": "GUTIERREZ COMES SILVIA",
@@ -143,7 +156,9 @@
       "raw_discipline_name": "SALT D'ALÇADA FEMENÍ",
       "performance": "1.54",
       "wind": null,
-      "internal_id": 353
+      "internal_id": 353,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": true
 }

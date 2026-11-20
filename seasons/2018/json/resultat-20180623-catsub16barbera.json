@@ -14,7 +14,8 @@
       "raw_discipline_name": "100m FEM. AL",
       "wind": "-1.3",
       "position": null,
-      "internal_id": 737
+      "internal_id": 737,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Alexandra Rofes Palacios",
@@ -25,7 +26,8 @@
       "raw_discipline_name": "3.000m FEM. AL",
       "wind": null,
       "position": 7,
-      "internal_id": 731
+      "internal_id": 731,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Pablo Angel Fernandez",
@@ -36,7 +38,8 @@
       "raw_discipline_name": "100m tanques (0,91) MASC. AL",
       "wind": "-4.1",
       "position": null,
-      "internal_id": 704
+      "internal_id": 704,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Pablo Angel Fernandez",
@@ -47,7 +50,8 @@
       "raw_discipline_name": "100m tanques (0,91) MASC. AL",
       "wind": "-2.3",
       "position": null,
-      "internal_id": 704
+      "internal_id": 704,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Claudian. Mir Casellas",
@@ -58,7 +62,8 @@
       "raw_discipline_name": "100m tanques (0,762) FEM. AL",
       "wind": "-3.9",
       "position": null,
-      "internal_id": 699
+      "internal_id": 699,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Claudian. Mir Casellas",
@@ -69,7 +74,8 @@
       "raw_discipline_name": "300m tanques (0,762) FEM. AL",
       "wind": null,
       "position": null,
-      "internal_id": 699
+      "internal_id": 699,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Laurine Elisa Marimon Fernandez",
@@ -80,7 +86,8 @@
       "raw_discipline_name": "Triple Salt FEM. AL",
       "wind": "+3.0",
       "position": 3,
-      "internal_id": 737
+      "internal_id": 737,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Laurine Elisa Marimon Fernandez",
@@ -91,7 +98,8 @@
       "raw_discipline_name": "Triple Salt FEM. AL",
       "wind": "+4.1",
       "position": 3,
-      "internal_id": 737
+      "internal_id": 737,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Laurine Elisa Marimon Fernandez",
@@ -102,7 +110,8 @@
       "raw_discipline_name": "Triple Salt FEM. AL",
       "wind": "+2.4",
       "position": 3,
-      "internal_id": 737
+      "internal_id": 737,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Laurine Elisa Marimon Fernandez",
@@ -113,7 +122,8 @@
       "raw_discipline_name": "Triple Salt FEM. AL",
       "wind": "+2.3",
       "position": 3,
-      "internal_id": 737
+      "internal_id": 737,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Laurine Elisa Marimon Fernandez",
@@ -124,7 +134,8 @@
       "raw_discipline_name": "Triple Salt FEM. AL",
       "wind": "+2.7",
       "position": 3,
-      "internal_id": 737
+      "internal_id": 737,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Laurine Elisa Marimon Fernandez",
@@ -135,7 +146,8 @@
       "raw_discipline_name": "Triple Salt FEM. AL",
       "wind": "+3.0",
       "position": 3,
-      "internal_id": 737
+      "internal_id": 737,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Oscar Bartolome Vazquez",
@@ -146,7 +158,8 @@
       "raw_discipline_name": "Pes (4 Kg) MASC. AL",
       "wind": null,
       "position": 11,
-      "internal_id": 738
+      "internal_id": 738,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Oscar Bartolome Vazquez",
@@ -157,7 +170,8 @@
       "raw_discipline_name": "Pes (4 Kg) MASC. AL",
       "wind": null,
       "position": 11,
-      "internal_id": 738
+      "internal_id": 738,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Oscar Bartolome Vazquez",
@@ -168,7 +182,8 @@
       "raw_discipline_name": "Pes (4 Kg) MASC. AL",
       "wind": null,
       "position": 11,
-      "internal_id": 738
+      "internal_id": 738,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Ainhoa Perez Diaz",
@@ -179,7 +194,9 @@
       "raw_discipline_name": "3.000m Marxa FEM. en pista",
       "wind": null,
       "position": 13,
-      "internal_id": 711
+      "internal_id": 711,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

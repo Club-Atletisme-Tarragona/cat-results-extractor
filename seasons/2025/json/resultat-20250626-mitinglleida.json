@@ -14,7 +14,8 @@
       "raw_discipline_name": "100m Hombres",
       "wind": "+0.4",
       "position": null,
-      "internal_id": 808
+      "internal_id": 808,
+      "timing": "electronic"
     },
     {
       "athlete_name": "HUGO JULES SAIZ SANTOLARIA",
@@ -25,7 +26,8 @@
       "raw_discipline_name": "200m Hombres",
       "wind": "+0.0",
       "position": null,
-      "internal_id": 808
+      "internal_id": 808,
+      "timing": "electronic"
     },
     {
       "athlete_name": "POL AIXALA GUIU",
@@ -36,7 +38,8 @@
       "raw_discipline_name": "300m Hombres",
       "wind": null,
       "position": null,
-      "internal_id": 733
+      "internal_id": 733,
+      "timing": "electronic"
     },
     {
       "athlete_name": "SILVIA VICENTE NAVARRETE",
@@ -47,7 +50,8 @@
       "raw_discipline_name": "100m Mujeres",
       "wind": "+1.5",
       "position": null,
-      "internal_id": 905
+      "internal_id": 905,
+      "timing": "electronic"
     },
     {
       "athlete_name": "MIREIA REDONDO MENDOZA",
@@ -58,7 +62,8 @@
       "raw_discipline_name": "100m Mujeres",
       "wind": "+0.7",
       "position": null,
-      "internal_id": 957
+      "internal_id": 957,
+      "timing": "electronic"
     },
     {
       "athlete_name": "MIREIA REDONDO MENDOZA",
@@ -69,7 +74,8 @@
       "raw_discipline_name": "200m Mujeres",
       "wind": "+0.3",
       "position": null,
-      "internal_id": 957
+      "internal_id": 957,
+      "timing": "electronic"
     },
     {
       "athlete_name": "MARIA ANTONIETTA SALAZAR",
@@ -80,7 +86,8 @@
       "raw_discipline_name": "200m Mujeres",
       "wind": "+0.3",
       "position": null,
-      "internal_id": 897
+      "internal_id": 897,
+      "timing": "electronic"
     },
     {
       "athlete_name": "CARLA BORRAS VERGES-TAPIRO",
@@ -91,7 +98,8 @@
       "raw_discipline_name": "300m Mujeres",
       "wind": null,
       "position": null,
-      "internal_id": 951
+      "internal_id": 951,
+      "timing": "electronic"
     },
     {
       "athlete_name": "AINOA RODRIGUEZ MURILLO",
@@ -102,7 +110,8 @@
       "raw_discipline_name": "300m Mujeres",
       "wind": null,
       "position": null,
-      "internal_id": 965
+      "internal_id": 965,
+      "timing": "electronic"
     },
     {
       "athlete_name": "NATALIA SANCHEZ ALVAREZ",
@@ -113,7 +122,8 @@
       "raw_discipline_name": "LLARGADA CADET MujeresENÍ",
       "wind": "1.1",
       "position": null,
-      "internal_id": 796
+      "internal_id": 796,
+      "timing": "electronic"
     },
     {
       "athlete_name": "NATALIA SANCHEZ ALVAREZ",
@@ -124,7 +134,8 @@
       "raw_discipline_name": "LLARGADA CADET MujeresENÍ",
       "wind": "1.1",
       "position": null,
-      "internal_id": 796
+      "internal_id": 796,
+      "timing": "electronic"
     },
     {
       "athlete_name": "NATALIA SANCHEZ ALVAREZ",
@@ -135,7 +146,8 @@
       "raw_discipline_name": "LLARGADA CADET MujeresENÍ",
       "wind": "0.7",
       "position": null,
-      "internal_id": 796
+      "internal_id": 796,
+      "timing": "electronic"
     },
     {
       "athlete_name": "NATALIA SANCHEZ ALVAREZ",
@@ -146,7 +158,8 @@
       "raw_discipline_name": "LLARGADA CADET MujeresENÍ",
       "wind": "0.0",
       "position": null,
-      "internal_id": 796
+      "internal_id": 796,
+      "timing": "electronic"
     },
     {
       "athlete_name": "NATALIA SANCHEZ ALVAREZ",
@@ -157,7 +170,8 @@
       "raw_discipline_name": "LLARGADA CADET MujeresENÍ",
       "wind": "0.0",
       "position": null,
-      "internal_id": 796
+      "internal_id": 796,
+      "timing": "electronic"
     },
     {
       "athlete_name": "BARBARA PINTADO DUCH",
@@ -168,7 +182,8 @@
       "raw_discipline_name": "Disco Mujeres",
       "wind": null,
       "position": null,
-      "internal_id": 159
+      "internal_id": 159,
+      "timing": "electronic"
     },
     {
       "athlete_name": "BARBARA PINTADO DUCH",
@@ -179,7 +194,9 @@
       "raw_discipline_name": "Disco Mujeres",
       "wind": null,
       "position": null,
-      "internal_id": 159
+      "internal_id": 159,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

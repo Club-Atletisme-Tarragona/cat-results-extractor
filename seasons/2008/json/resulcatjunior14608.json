@@ -13,7 +13,8 @@
       "raw_discipline_name": "200 METRES LLISOS MASCULINS",
       "performance": "23.95",
       "wind": "-2.1",
-      "internal_id": 217
+      "internal_id": 217,
+      "timing": "electronic"
     },
     {
       "athlete_name": "VERGARA MAGRAZO QUINO",
@@ -23,7 +24,8 @@
       "raw_discipline_name": "800 METRES LLISOS MASCULINS",
       "performance": "1:56.85",
       "wind": null,
-      "internal_id": 275
+      "internal_id": 275,
+      "timing": "electronic"
     },
     {
       "athlete_name": "ORIOL PAISANO AGUSTI",
@@ -33,7 +35,8 @@
       "raw_discipline_name": "110 METRES TANQUES MASCULINS",
       "performance": "17.54",
       "wind": null,
-      "internal_id": 216
+      "internal_id": 216,
+      "timing": "electronic"
     },
     {
       "athlete_name": "ORIOL PAISANO AGUSTI",
@@ -43,7 +46,9 @@
       "raw_discipline_name": "SALT DE LLARGADA MASCULÍ",
       "performance": "5.66",
       "wind": null,
-      "internal_id": 216
+      "internal_id": 216,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

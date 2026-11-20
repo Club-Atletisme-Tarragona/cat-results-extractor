@@ -13,7 +13,8 @@
       "raw_discipline_name": "ALÇADA Absolut Masculí",
       "performance": "1.60",
       "wind": null,
-      "internal_id": 216
+      "internal_id": 216,
+      "timing": "electronic"
     },
     {
       "athlete_name": "ALVARO MARCO CAZCARRA",
@@ -23,7 +24,8 @@
       "raw_discipline_name": "ALÇADA Absolut Masculí",
       "performance": "1.54",
       "wind": null,
-      "internal_id": 220
+      "internal_id": 220,
+      "timing": "electronic"
     },
     {
       "athlete_name": "ALVARO MARCO CAZCARRA",
@@ -33,7 +35,9 @@
       "raw_discipline_name": "PERXA Absolut Masculí",
       "performance": "2.90",
       "wind": null,
-      "internal_id": 220
+      "internal_id": 220,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

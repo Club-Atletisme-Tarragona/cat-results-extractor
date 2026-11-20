@@ -14,7 +14,8 @@
       "raw_discipline_name": "Altura M60",
       "wind": null,
       "position": 2,
-      "internal_id": 343
+      "internal_id": 343,
+      "timing": "electronic"
     },
     {
       "athlete_name": "JOSEP MARIA MATEO SANZ",
@@ -25,7 +26,8 @@
       "raw_discipline_name": "Pértiga M60",
       "wind": null,
       "position": 2,
-      "internal_id": 343
+      "internal_id": 343,
+      "timing": "electronic"
     },
     {
       "athlete_name": "JOSEP MARIA MATEO SANZ",
@@ -36,7 +38,8 @@
       "raw_discipline_name": "Longitud M60",
       "wind": null,
       "position": 2,
-      "internal_id": 343
+      "internal_id": 343,
+      "timing": "electronic"
     },
     {
       "athlete_name": "JOSEP MARIA MATEO SANZ",
@@ -47,7 +50,8 @@
       "raw_discipline_name": "Longitud M60",
       "wind": null,
       "position": 2,
-      "internal_id": 343
+      "internal_id": 343,
+      "timing": "electronic"
     },
     {
       "athlete_name": "JOSEP MARIA MATEO SANZ",
@@ -58,7 +62,8 @@
       "raw_discipline_name": "Longitud M60",
       "wind": null,
       "position": 2,
-      "internal_id": 343
+      "internal_id": 343,
+      "timing": "electronic"
     },
     {
       "athlete_name": "JOSEP MARIA MATEO SANZ",
@@ -69,7 +74,8 @@
       "raw_discipline_name": "Longitud M60",
       "wind": null,
       "position": 2,
-      "internal_id": 343
+      "internal_id": 343,
+      "timing": "electronic"
     },
     {
       "athlete_name": "JOSEP MARIA MATEO SANZ",
@@ -80,7 +86,8 @@
       "raw_discipline_name": "Longitud M60",
       "wind": null,
       "position": 2,
-      "internal_id": 343
+      "internal_id": 343,
+      "timing": "electronic"
     },
     {
       "athlete_name": "JOSEP MARIA MATEO SANZ",
@@ -91,7 +98,8 @@
       "raw_discipline_name": "Longitud M60",
       "wind": null,
       "position": 2,
-      "internal_id": 343
+      "internal_id": 343,
+      "timing": "electronic"
     },
     {
       "athlete_name": "GEMMA SOLE BORONAT",
@@ -102,7 +110,8 @@
       "raw_discipline_name": "Longitud Pentatlón F65",
       "wind": null,
       "position": null,
-      "internal_id": 648
+      "internal_id": 648,
+      "timing": "electronic"
     },
     {
       "athlete_name": "GEMMA SOLE BORONAT",
@@ -113,7 +122,8 @@
       "raw_discipline_name": "Longitud Pentatlón F50",
       "wind": null,
       "position": null,
-      "internal_id": 648
+      "internal_id": 648,
+      "timing": "electronic"
     },
     {
       "athlete_name": "GEMMA SOLE BORONAT",
@@ -124,7 +134,8 @@
       "raw_discipline_name": "Altura Pentatlón F55",
       "wind": null,
       "position": null,
-      "internal_id": 648
+      "internal_id": 648,
+      "timing": "electronic"
     },
     {
       "athlete_name": "GEMMA SOLE BORONAT",
@@ -135,7 +146,8 @@
       "raw_discipline_name": "Peso Pentatlón F55",
       "wind": null,
       "position": null,
-      "internal_id": 648
+      "internal_id": 648,
+      "timing": "electronic"
     },
     {
       "athlete_name": "GEMMA SOLE BORONAT",
@@ -146,7 +158,8 @@
       "raw_discipline_name": "Peso Pentatlón F55",
       "wind": null,
       "position": null,
-      "internal_id": 648
+      "internal_id": 648,
+      "timing": "electronic"
     },
     {
       "athlete_name": "GEMMA SOLE BORONAT",
@@ -157,7 +170,8 @@
       "raw_discipline_name": "Peso Pentatlón F55",
       "wind": null,
       "position": null,
-      "internal_id": 648
+      "internal_id": 648,
+      "timing": "electronic"
     },
     {
       "athlete_name": "GEMMA SOLE BORONAT",
@@ -168,7 +182,8 @@
       "raw_discipline_name": "Longitud Pentatlón F55",
       "wind": null,
       "position": null,
-      "internal_id": 648
+      "internal_id": 648,
+      "timing": "electronic"
     },
     {
       "athlete_name": "GEMMA SOLE BORONAT",
@@ -179,7 +194,8 @@
       "raw_discipline_name": "Longitud Pentatlón F55",
       "wind": null,
       "position": null,
-      "internal_id": 648
+      "internal_id": 648,
+      "timing": "electronic"
     },
     {
       "athlete_name": "ANTONIA ROYO FABREGAT",
@@ -190,7 +206,9 @@
       "raw_discipline_name": "3.000 m Marcha F60",
       "wind": null,
       "position": 1,
-      "internal_id": 609
+      "internal_id": 609,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": true
 }

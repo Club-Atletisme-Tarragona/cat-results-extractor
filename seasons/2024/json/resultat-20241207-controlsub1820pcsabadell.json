@@ -13,7 +13,8 @@
       "discipline": "Perxa",
       "raw_discipline_name": "Perxa Masculí",
       "wind": null,
-      "internal_id": 518
+      "internal_id": 518,
+      "timing": "electronic"
     },
     {
       "athlete_name": "UNAI ORTIZ DE LANDAZURI ONTOSO",
@@ -23,7 +24,8 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m Masculins",
       "wind": null,
-      "internal_id": 908
+      "internal_id": 908,
+      "timing": "electronic"
     },
     {
       "athlete_name": "UNAI OLAYA MINGUEZ",
@@ -33,7 +35,8 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m Masculins",
       "wind": null,
-      "internal_id": 1014
+      "internal_id": 1014,
+      "timing": "electronic"
     },
     {
       "athlete_name": "HUGO JULES SAIZ SANTOLARIA",
@@ -43,7 +46,8 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m Masculins",
       "wind": null,
-      "internal_id": 808
+      "internal_id": 808,
+      "timing": "electronic"
     },
     {
       "athlete_name": "HUGO JULES SAIZ SANTOLARIA",
@@ -53,7 +57,8 @@
       "discipline": "200 metres llisos",
       "raw_discipline_name": "200m Masculins",
       "wind": null,
-      "internal_id": 808
+      "internal_id": 808,
+      "timing": "electronic"
     },
     {
       "athlete_name": "UNAI ORTIZ DE LANDAZURI ONTOSO",
@@ -63,7 +68,8 @@
       "discipline": "200 metres llisos",
       "raw_discipline_name": "200m Masculins",
       "wind": null,
-      "internal_id": 908
+      "internal_id": 908,
+      "timing": "electronic"
     },
     {
       "athlete_name": "UNAI OLAYA MINGUEZ",
@@ -73,7 +79,8 @@
       "discipline": "200 metres llisos",
       "raw_discipline_name": "200m Masculins",
       "wind": null,
-      "internal_id": 1014
+      "internal_id": 1014,
+      "timing": "electronic"
     },
     {
       "athlete_name": "JOAN MARTORELL ESCOBAR",
@@ -83,7 +90,8 @@
       "discipline": "400 metres llisos",
       "raw_discipline_name": "400m Masculins",
       "wind": null,
-      "internal_id": 914
+      "internal_id": 914,
+      "timing": "electronic"
     },
     {
       "athlete_name": "JUAN CARLOS HERRERA ALCAIDE",
@@ -93,7 +101,9 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada Masculins",
       "wind": null,
-      "internal_id": 518
+      "internal_id": 518,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

@@ -13,7 +13,8 @@
       "discipline": "60m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 701
+      "internal_id": 701,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Laura Mascarell Julian",
@@ -23,7 +24,8 @@
       "discipline": "300m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 646
+      "internal_id": 646,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Berta Pardines Vilalta",
@@ -33,7 +35,8 @@
       "discipline": "600m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 650
+      "internal_id": 650,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Marta Ros Borrell",
@@ -43,7 +46,8 @@
       "discipline": "1.000m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 1675
+      "internal_id": 1675,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Carla Gonzalez Carrillo",
@@ -53,7 +57,8 @@
       "discipline": "3.000m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 698
+      "internal_id": 698,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Claudian. Mir Casellas",
@@ -63,7 +68,8 @@
       "discipline": "60m tanques FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 699
+      "internal_id": 699,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Ines Delgado Pizzo",
@@ -73,7 +79,8 @@
       "discipline": "Alçada FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 667
+      "internal_id": 667,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Berta Sanchez Ruiz",
@@ -83,7 +90,8 @@
       "discipline": "Perxa FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 643
+      "internal_id": 643,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Mar Vazquez Domingo",
@@ -93,7 +101,8 @@
       "discipline": "Llargada FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 642
+      "internal_id": 642,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Mar Vazquez Domingo",
@@ -103,7 +112,8 @@
       "discipline": "Llargada FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 642
+      "internal_id": 642,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Maria Falco Cuenca",
@@ -113,7 +123,8 @@
       "discipline": "Triple Salt FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 664
+      "internal_id": 664,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Maria Falco Cuenca",
@@ -123,7 +134,8 @@
       "discipline": "Triple Salt FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 664
+      "internal_id": 664,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Maria Falco Cuenca",
@@ -133,7 +145,8 @@
       "discipline": "Triple Salt FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 664
+      "internal_id": 664,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Ariadna Alonso Del Campo",
@@ -143,7 +156,8 @@
       "discipline": "Pes (3 Kg) FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 703
+      "internal_id": 703,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Ariadna Alonso Del Campo",
@@ -153,7 +167,8 @@
       "discipline": "Pes (3 Kg) FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 703
+      "internal_id": 703,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Ariadna Alonso Del Campo",
@@ -163,7 +178,8 @@
       "discipline": "Pes (3 Kg) FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 703
+      "internal_id": 703,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Alba Carvajal Garcia",
@@ -173,7 +189,8 @@
       "discipline": "4x200m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 670
+      "internal_id": 670,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Laura Yan Sole Barba",
@@ -183,7 +200,8 @@
       "discipline": "4x200m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 701
+      "internal_id": 701,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Mar Vazquez Domingo",
@@ -193,7 +211,8 @@
       "discipline": "4x200m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 642
+      "internal_id": 642,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Claudian. Mir Casellas",
@@ -203,7 +222,8 @@
       "discipline": "4x200m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 699
+      "internal_id": 699,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Ainhoa Perez Diaz",
@@ -213,7 +233,9 @@
       "discipline": "3.000m Marxa FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 711
+      "internal_id": 711,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": true
 }

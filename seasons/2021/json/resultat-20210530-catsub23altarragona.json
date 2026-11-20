@@ -13,7 +13,8 @@
       "discipline": "100m tanques (0,84) FEM. AL",
       "wind": "+0.6",
       "position": null,
-      "internal_id": 527
+      "internal_id": 527,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Mireia Lopez Urbano",
@@ -23,7 +24,8 @@
       "discipline": "100m tanques (0,84) FEM. AL",
       "wind": "-2.1",
       "position": null,
-      "internal_id": 527
+      "internal_id": 527,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Alicia Vazquez Domingo",
@@ -33,7 +35,8 @@
       "discipline": "100m tanques (0,84) FEM. AL",
       "wind": "-0.9",
       "position": null,
-      "internal_id": 472
+      "internal_id": 472,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Alicia Vazquez Domingo",
@@ -43,7 +46,8 @@
       "discipline": "100m tanques (0,84) FEM. AL",
       "wind": "-2.1",
       "position": null,
-      "internal_id": 472
+      "internal_id": 472,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Andrea Trape Perez",
@@ -53,7 +57,8 @@
       "discipline": "400m tanques (0,762) FEM. AL",
       "wind": null,
       "position": 2,
-      "internal_id": 726
+      "internal_id": 726,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Sira Bo Calaf",
@@ -63,7 +68,8 @@
       "discipline": "3.000m Obst. FEM.",
       "wind": null,
       "position": 4,
-      "internal_id": 599
+      "internal_id": 599,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Nuria Caballero Pacheco",
@@ -73,7 +79,8 @@
       "discipline": "Alçada FEM. AL",
       "wind": null,
       "position": 1,
-      "internal_id": 753
+      "internal_id": 753,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Joana Antonia Domingo Ingles",
@@ -83,7 +90,8 @@
       "discipline": "Disc (1 Kg) FEM.",
       "wind": null,
       "position": 5,
-      "internal_id": 476
+      "internal_id": 476,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Joana Antonia Domingo Ingles",
@@ -93,7 +101,8 @@
       "discipline": "Disc (1 Kg) FEM.",
       "wind": null,
       "position": 5,
-      "internal_id": 476
+      "internal_id": 476,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Joana Antonia Domingo Ingles",
@@ -103,7 +112,8 @@
       "discipline": "Disc (1 Kg) FEM.",
       "wind": null,
       "position": 5,
-      "internal_id": 476
+      "internal_id": 476,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Joana Antonia Domingo Ingles",
@@ -113,7 +123,8 @@
       "discipline": "Disc (1 Kg) FEM.",
       "wind": null,
       "position": 5,
-      "internal_id": 476
+      "internal_id": 476,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Joana Antonia Domingo Ingles",
@@ -123,7 +134,8 @@
       "discipline": "Disc (1 Kg) FEM.",
       "wind": null,
       "position": 5,
-      "internal_id": 476
+      "internal_id": 476,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Joana Antonia Domingo Ingles",
@@ -133,7 +145,8 @@
       "discipline": "Martell (4 Kg) FEM.",
       "wind": null,
       "position": 6,
-      "internal_id": 476
+      "internal_id": 476,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Joana Antonia Domingo Ingles",
@@ -143,7 +156,8 @@
       "discipline": "Martell (4 Kg) FEM.",
       "wind": null,
       "position": 6,
-      "internal_id": 476
+      "internal_id": 476,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Joana Antonia Domingo Ingles",
@@ -153,7 +167,8 @@
       "discipline": "Martell (4 Kg) FEM.",
       "wind": null,
       "position": 6,
-      "internal_id": 476
+      "internal_id": 476,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Joana Antonia Domingo Ingles",
@@ -163,7 +178,9 @@
       "discipline": "Martell (4 Kg) FEM.",
       "wind": null,
       "position": 6,
-      "internal_id": 476
+      "internal_id": 476,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

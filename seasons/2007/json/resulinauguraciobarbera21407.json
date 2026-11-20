@@ -13,7 +13,8 @@
       "raw_discipline_name": "Prova Disc F",
       "performance": "11.62",
       "wind": "+1.2",
-      "internal_id": 277
+      "internal_id": 277,
+      "timing": "electronic"
     },
     {
       "athlete_name": "SG FAA FAROUK MELLAKHI",
@@ -23,7 +24,9 @@
       "raw_discipline_name": "Prova Disc F",
       "performance": "11.50",
       "wind": "+1.2",
-      "internal_id": 277
+      "internal_id": 277,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

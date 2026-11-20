@@ -13,7 +13,8 @@
       "raw_discipline_name": "60 METRES LLISOS MASCULINS",
       "performance": "7.86",
       "wind": null,
-      "internal_id": 193
+      "internal_id": 193,
+      "timing": "electronic"
     },
     {
       "athlete_name": "PARDINES GRAS PERE",
@@ -23,7 +24,8 @@
       "raw_discipline_name": "60 METRES LLISOS MASCULINS",
       "performance": "8.50",
       "wind": null,
-      "internal_id": 71
+      "internal_id": 71,
+      "timing": "electronic"
     },
     {
       "athlete_name": "BUNDO TEIXIDO PAU",
@@ -33,7 +35,8 @@
       "raw_discipline_name": "800 METRES LLISOS MASCULINS",
       "performance": "2:08.03",
       "wind": null,
-      "internal_id": 1041
+      "internal_id": 1041,
+      "timing": "electronic"
     },
     {
       "athlete_name": "ORTEGA RIDAO PEDRO",
@@ -43,7 +46,8 @@
       "raw_discipline_name": "3000 METRES LLISOS MASCULINS",
       "performance": "9:32.51",
       "wind": null,
-      "internal_id": 268
+      "internal_id": 268,
+      "timing": "electronic"
     },
     {
       "athlete_name": "RODRIGUEZ CANO XAVIER",
@@ -53,7 +57,8 @@
       "raw_discipline_name": "3000 METRES LLISOS MASCULINS",
       "performance": "9:41.79",
       "wind": null,
-      "internal_id": 245
+      "internal_id": 245,
+      "timing": "electronic"
     },
     {
       "athlete_name": "GARCIA NAVARRETE JOSE",
@@ -63,7 +68,8 @@
       "raw_discipline_name": "3000 METRES LLISOS MASCULINS",
       "performance": "9:44.35",
       "wind": null,
-      "internal_id": 5
+      "internal_id": 5,
+      "timing": "electronic"
     },
     {
       "athlete_name": "BARDINA TOMAS JOAN",
@@ -73,7 +79,8 @@
       "raw_discipline_name": "3000 METRES LLISOS MASCULINS",
       "performance": "10:07.63",
       "wind": null,
-      "internal_id": 7
+      "internal_id": 7,
+      "timing": "electronic"
     },
     {
       "athlete_name": "BARBERAN DE MIQUEL EMILI",
@@ -83,7 +90,8 @@
       "raw_discipline_name": "3000 METRES LLISOS MASCULINS",
       "performance": "10:20.48",
       "wind": null,
-      "internal_id": 267
+      "internal_id": 267,
+      "timing": "electronic"
     },
     {
       "athlete_name": "LOPEZ VILA ALEJANDRO",
@@ -93,7 +101,9 @@
       "raw_discipline_name": "3000 METRES LLISOS MASCULINS",
       "performance": "10:42.07",
       "wind": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": true
 }

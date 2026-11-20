@@ -13,7 +13,8 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m FEM. PC",
       "wind": null,
-      "internal_id": 474
+      "internal_id": 474,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Maria Martin Borras",
@@ -23,7 +24,8 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m FEM. PC",
       "wind": null,
-      "internal_id": 474
+      "internal_id": 474,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Alicia Vazquez Domingo",
@@ -33,7 +35,8 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada FEM. PC",
       "wind": null,
-      "internal_id": 472
+      "internal_id": 472,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Alicia Vazquez Domingo",
@@ -43,7 +46,8 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada FEM. PC",
       "wind": null,
-      "internal_id": 472
+      "internal_id": 472,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Alicia Vazquez Domingo",
@@ -53,7 +57,8 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada FEM. PC",
       "wind": null,
-      "internal_id": 472
+      "internal_id": 472,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Alicia Vazquez Domingo",
@@ -63,7 +68,9 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada FEM. PC",
       "wind": null,
-      "internal_id": 472
+      "internal_id": 472,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": true
 }

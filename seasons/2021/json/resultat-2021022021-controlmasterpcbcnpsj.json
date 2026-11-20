@@ -13,7 +13,8 @@
       "discipline": "60m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 637
+      "internal_id": 637,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Josep Maria Puig Lara",
@@ -23,7 +24,8 @@
       "discipline": "200m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 637
+      "internal_id": 637,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Pere Pardines Gras",
@@ -33,7 +35,8 @@
       "discipline": "Alçada MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 71
+      "internal_id": 71,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Ana Cabello Rioja",
@@ -43,7 +46,8 @@
       "discipline": "60m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 449
+      "internal_id": 449,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Pilar Fernandez Carranza",
@@ -53,7 +57,8 @@
       "discipline": "60m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 398
+      "internal_id": 398,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Pilar Fernandez Carranza",
@@ -63,7 +68,8 @@
       "discipline": "200m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 398
+      "internal_id": 398,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Ana Cabello Rioja",
@@ -73,7 +79,8 @@
       "discipline": "Llargada FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 449
+      "internal_id": 449,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Ana Cabello Rioja",
@@ -83,7 +90,8 @@
       "discipline": "Llargada FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 449
+      "internal_id": 449,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Ana Cabello Rioja",
@@ -93,7 +101,8 @@
       "discipline": "Llargada FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 449
+      "internal_id": 449,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Ana Cabello Rioja",
@@ -103,7 +112,8 @@
       "discipline": "Llargada FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 449
+      "internal_id": 449,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Ana Cabello Rioja",
@@ -113,7 +123,8 @@
       "discipline": "Llargada FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 449
+      "internal_id": 449,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Ana Cabello Rioja",
@@ -123,7 +134,9 @@
       "discipline": "Llargada FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 449
+      "internal_id": 449,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": true
 }

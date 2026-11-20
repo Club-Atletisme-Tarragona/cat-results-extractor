@@ -13,7 +13,8 @@
       "discipline": "60m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 510
+      "internal_id": 510,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Mireia Lopez Urbano",
@@ -23,7 +24,8 @@
       "discipline": "200m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 527
+      "internal_id": 527,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Mireia Lopez Urbano",
@@ -33,7 +35,8 @@
       "discipline": "200m FEM. PC",
       "wind": null,
       "position": 4,
-      "internal_id": 527
+      "internal_id": 527,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Jan Sans Riola",
@@ -43,7 +46,8 @@
       "discipline": "60m tanques (1,067) MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 435
+      "internal_id": 435,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Jan Sans Riola",
@@ -53,7 +57,8 @@
       "discipline": "60m tanques (1,067) MASC. PC",
       "wind": null,
       "position": 3,
-      "internal_id": 435
+      "internal_id": 435,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Alicia Vazquez Domingo",
@@ -63,7 +68,8 @@
       "discipline": "60m tanques (0,84) FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 472
+      "internal_id": 472,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Alicia Vazquez Domingo",
@@ -73,7 +79,8 @@
       "discipline": "60m tanques (0,84) FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 472
+      "internal_id": 472,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Alicia Vazquez Domingo",
@@ -83,7 +90,8 @@
       "discipline": "Llargada FEM. PC",
       "wind": null,
       "position": 8,
-      "internal_id": 472
+      "internal_id": 472,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Alicia Vazquez Domingo",
@@ -93,7 +101,8 @@
       "discipline": "Llargada FEM. PC",
       "wind": null,
       "position": 8,
-      "internal_id": 472
+      "internal_id": 472,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Alicia Vazquez Domingo",
@@ -103,7 +112,8 @@
       "discipline": "Llargada FEM. PC",
       "wind": null,
       "position": 8,
-      "internal_id": 472
+      "internal_id": 472,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Alicia Vazquez Domingo",
@@ -113,7 +123,8 @@
       "discipline": "Llargada FEM. PC",
       "wind": null,
       "position": 8,
-      "internal_id": 472
+      "internal_id": 472,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Alicia Vazquez Domingo",
@@ -123,7 +134,8 @@
       "discipline": "Llargada FEM. PC",
       "wind": null,
       "position": 8,
-      "internal_id": 472
+      "internal_id": 472,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Bernat Verdu Gomez",
@@ -133,7 +145,8 @@
       "discipline": "Triple Salt MASC. PC",
       "wind": null,
       "position": 10,
-      "internal_id": 645
+      "internal_id": 645,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Bernat Verdu Gomez",
@@ -143,7 +156,8 @@
       "discipline": "Triple Salt MASC. PC",
       "wind": null,
       "position": 10,
-      "internal_id": 645
+      "internal_id": 645,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Marina Tibau Sendra",
@@ -153,7 +167,8 @@
       "discipline": "Pes (4 Kg) FEM. PC",
       "wind": null,
       "position": 3,
-      "internal_id": 359
+      "internal_id": 359,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Marina Tibau Sendra",
@@ -163,7 +178,8 @@
       "discipline": "Pes (4 Kg) FEM. PC",
       "wind": null,
       "position": 3,
-      "internal_id": 359
+      "internal_id": 359,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Marina Tibau Sendra",
@@ -173,7 +189,8 @@
       "discipline": "Pes (4 Kg) FEM. PC",
       "wind": null,
       "position": 3,
-      "internal_id": 359
+      "internal_id": 359,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Marina Tibau Sendra",
@@ -183,7 +200,8 @@
       "discipline": "Pes (4 Kg) FEM. PC",
       "wind": null,
       "position": 3,
-      "internal_id": 359
+      "internal_id": 359,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Marina Tibau Sendra",
@@ -193,7 +211,8 @@
       "discipline": "Pes (4 Kg) FEM. PC",
       "wind": null,
       "position": 3,
-      "internal_id": 359
+      "internal_id": 359,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Marina Tibau Sendra",
@@ -203,7 +222,9 @@
       "discipline": "Pes (4 Kg) FEM. PC",
       "wind": null,
       "position": 3,
-      "internal_id": 359
+      "internal_id": 359,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": true
 }

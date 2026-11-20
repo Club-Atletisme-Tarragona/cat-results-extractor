@@ -13,7 +13,8 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m MASC. PC",
       "wind": null,
-      "internal_id": 416
+      "internal_id": 416,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Jesus Muñoz Vazquez",
@@ -23,7 +24,8 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m MASC. PC",
       "wind": null,
-      "internal_id": 444
+      "internal_id": 444,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Tomas Cordero Bel",
@@ -33,7 +35,8 @@
       "discipline": "200 metres llisos",
       "raw_discipline_name": "200m MASC. PC",
       "wind": null,
-      "internal_id": 397
+      "internal_id": 397,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Jesus Muñoz Vazquez",
@@ -43,7 +46,8 @@
       "discipline": "200 metres llisos",
       "raw_discipline_name": "200m MASC. PC",
       "wind": null,
-      "internal_id": 444
+      "internal_id": 444,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Ivan Tamarit Roman",
@@ -53,7 +57,8 @@
       "discipline": "200 metres llisos",
       "raw_discipline_name": "200m MASC. PC",
       "wind": null,
-      "internal_id": 416
+      "internal_id": 416,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Maria Martin Borras",
@@ -63,7 +68,8 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m FEM. AL",
       "wind": null,
-      "internal_id": 474
+      "internal_id": 474,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Maria Martin Borras",
@@ -73,7 +79,8 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m FEM. AL",
       "wind": null,
-      "internal_id": 474
+      "internal_id": 474,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Andrea Lopez Urbano",
@@ -83,7 +90,8 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m FEM. AL",
       "wind": null,
-      "internal_id": 437
+      "internal_id": 437,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Maria Martin Borras",
@@ -93,7 +101,8 @@
       "discipline": "200 metres llisos",
       "raw_discipline_name": "200m FEM. AL",
       "wind": null,
-      "internal_id": 474
+      "internal_id": 474,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Andrea Lopez Urbano",
@@ -103,7 +112,8 @@
       "discipline": "200 metres llisos",
       "raw_discipline_name": "200m FEM. AL",
       "wind": null,
-      "internal_id": 437
+      "internal_id": 437,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Marina Tibau Sendra",
@@ -113,7 +123,8 @@
       "discipline": "Pes (4 Kg)",
       "raw_discipline_name": "Pes FEM. AL",
       "wind": null,
-      "internal_id": 359
+      "internal_id": 359,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Marina Tibau Sendra",
@@ -123,7 +134,8 @@
       "discipline": "Pes (4 Kg)",
       "raw_discipline_name": "Pes FEM. AL",
       "wind": null,
-      "internal_id": 359
+      "internal_id": 359,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Marina Tibau Sendra",
@@ -133,7 +145,8 @@
       "discipline": "Pes (4 Kg)",
       "raw_discipline_name": "Pes FEM. AL",
       "wind": null,
-      "internal_id": 359
+      "internal_id": 359,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Marina Tibau Sendra",
@@ -143,7 +156,8 @@
       "discipline": "Pes (4 Kg)",
       "raw_discipline_name": "Pes FEM. AL",
       "wind": null,
-      "internal_id": 359
+      "internal_id": 359,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Marina Tibau Sendra",
@@ -153,7 +167,9 @@
       "discipline": "Pes (4 Kg)",
       "raw_discipline_name": "Pes FEM. AL",
       "wind": null,
-      "internal_id": 359
+      "internal_id": 359,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": true
 }

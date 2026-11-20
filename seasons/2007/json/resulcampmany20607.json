@@ -13,7 +13,8 @@
       "raw_discipline_name": "200 METRES LLISOS MASCULINS",
       "performance": "23.79",
       "wind": "-0.6",
-      "internal_id": 217
+      "internal_id": 217,
+      "timing": "electronic"
     },
     {
       "athlete_name": "BARDINA TOMAS JOAN",
@@ -23,7 +24,8 @@
       "raw_discipline_name": "800 METRES LLISOS MASCULINS",
       "performance": "2:11.18",
       "wind": null,
-      "internal_id": 7
+      "internal_id": 7,
+      "timing": "electronic"
     },
     {
       "athlete_name": "GARCIA NAVARRETE JOSE FRANCISCO",
@@ -33,7 +35,8 @@
       "raw_discipline_name": "800 METRES LLISOS MASCULINS",
       "performance": "2:19.15",
       "wind": null,
-      "internal_id": 5
+      "internal_id": 5,
+      "timing": "electronic"
     },
     {
       "athlete_name": "ORTEGA RIDAO PEDRO",
@@ -43,7 +46,8 @@
       "raw_discipline_name": "5000 METRES LLISOS MASCULINS",
       "performance": "15:57.26",
       "wind": null,
-      "internal_id": 268
+      "internal_id": 268,
+      "timing": "electronic"
     },
     {
       "athlete_name": "ARAGONES VIDAL ESTER",
@@ -53,7 +57,8 @@
       "raw_discipline_name": "800 METRES LLISOS FEMENINS",
       "performance": "2:20.11",
       "wind": null,
-      "internal_id": 134
+      "internal_id": 134,
+      "timing": "electronic"
     },
     {
       "athlete_name": "ORIOL PAISANO AGUSTI",
@@ -63,7 +68,8 @@
       "raw_discipline_name": "SALT DE LLARGADA MASCULÍ - GRUP \"B\"",
       "performance": "5.31",
       "wind": null,
-      "internal_id": 216
+      "internal_id": 216,
+      "timing": "electronic"
     },
     {
       "athlete_name": "SERRES PARDINES ADRIA",
@@ -73,7 +79,8 @@
       "raw_discipline_name": "LLANÇAMENT DE JAVELINA MASCULÍ",
       "performance": "44.93",
       "wind": null,
-      "internal_id": 133
+      "internal_id": 133,
+      "timing": "electronic"
     },
     {
       "athlete_name": "SERRES PARDINES ADRIA",
@@ -83,7 +90,8 @@
       "raw_discipline_name": "LLANÇAMENT DE JAVELINA MASCULÍ",
       "performance": "45.25",
       "wind": null,
-      "internal_id": 133
+      "internal_id": 133,
+      "timing": "electronic"
     },
     {
       "athlete_name": "SERRES PARDINES ADRIA",
@@ -93,7 +101,8 @@
       "raw_discipline_name": "LLANÇAMENT DE JAVELINA MASCULÍ",
       "performance": "43.03",
       "wind": null,
-      "internal_id": 133
+      "internal_id": 133,
+      "timing": "electronic"
     },
     {
       "athlete_name": "SERRES PARDINES ADRIA",
@@ -103,7 +112,8 @@
       "raw_discipline_name": "LLANÇAMENT DE JAVELINA MASCULÍ",
       "performance": "47.08",
       "wind": null,
-      "internal_id": 133
+      "internal_id": 133,
+      "timing": "electronic"
     },
     {
       "athlete_name": "ORIOL PAISANO AGUSTI",
@@ -113,7 +123,8 @@
       "raw_discipline_name": "LLANÇAMENT DE JAVELINA MASCULÍ",
       "performance": "34.73",
       "wind": null,
-      "internal_id": 216
+      "internal_id": 216,
+      "timing": "electronic"
     },
     {
       "athlete_name": "ORIOL PAISANO AGUSTI",
@@ -123,7 +134,8 @@
       "raw_discipline_name": "LLANÇAMENT DE JAVELINA MASCULÍ",
       "performance": "38.08",
       "wind": null,
-      "internal_id": 216
+      "internal_id": 216,
+      "timing": "electronic"
     },
     {
       "athlete_name": "ORIOL PAISANO AGUSTI",
@@ -133,7 +145,9 @@
       "raw_discipline_name": "LLANÇAMENT DE JAVELINA MASCULÍ",
       "performance": "30.11",
       "wind": null,
-      "internal_id": 216
+      "internal_id": 216,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

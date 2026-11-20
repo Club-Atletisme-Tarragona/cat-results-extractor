@@ -13,7 +13,8 @@
       "raw_discipline_name": "60 METRES LLISOS MASCULINS",
       "performance": "7.62",
       "wind": null,
-      "internal_id": 15
+      "internal_id": 15,
+      "timing": "electronic"
     },
     {
       "athlete_name": "IBORRA MARTINEZ FRANCISCO JOSE",
@@ -23,7 +24,8 @@
       "raw_discipline_name": "60 METRES LLISOS MASCULINS",
       "performance": "7.99",
       "wind": null,
-      "internal_id": 1
+      "internal_id": 1,
+      "timing": "electronic"
     },
     {
       "athlete_name": "ORTEGA RIDAO PEDRO",
@@ -33,7 +35,8 @@
       "raw_discipline_name": "1500 METRES LLISOS MASCULINS",
       "performance": "4:12.46",
       "wind": null,
-      "internal_id": 268
+      "internal_id": 268,
+      "timing": "electronic"
     },
     {
       "athlete_name": "FLORES MONTES FERNANDO",
@@ -43,7 +46,8 @@
       "raw_discipline_name": "1500 METRES LLISOS MASCULINS",
       "performance": "4:38.58",
       "wind": null,
-      "internal_id": 4
+      "internal_id": 4,
+      "timing": "electronic"
     },
     {
       "athlete_name": "GARCIA NAVARRETE JOSE FRANCISCO",
@@ -53,7 +57,8 @@
       "raw_discipline_name": "1500 METRES LLISOS MASCULINS",
       "performance": "4:56.06",
       "wind": null,
-      "internal_id": 5
+      "internal_id": 5,
+      "timing": "electronic"
     },
     {
       "athlete_name": "MARTIN ALVAREZ JOSE MIGUEL",
@@ -63,7 +68,8 @@
       "raw_discipline_name": "60 METRES TANQUES MASCULINS (1,00)",
       "performance": "9.47",
       "wind": null,
-      "internal_id": 15
+      "internal_id": 15,
+      "timing": "electronic"
     },
     {
       "athlete_name": "IBORRA MARTINEZ FRANCISCO JOSE",
@@ -73,7 +79,8 @@
       "raw_discipline_name": "60 METRES TANQUES MASCULINS (1,00)",
       "performance": "9.92",
       "wind": null,
-      "internal_id": 1
+      "internal_id": 1,
+      "timing": "electronic"
     },
     {
       "athlete_name": "PARDINES GRAS PERE",
@@ -83,7 +90,8 @@
       "raw_discipline_name": "60 METRES TANQUES MASCULINS (1,00)",
       "performance": "10.38",
       "wind": null,
-      "internal_id": 71
+      "internal_id": 71,
+      "timing": "electronic"
     },
     {
       "athlete_name": "PARDINES GRAS PERE",
@@ -93,7 +101,8 @@
       "raw_discipline_name": "SALT DE LLARGADA MASCULÍ",
       "performance": "4.80",
       "wind": null,
-      "internal_id": 71
+      "internal_id": 71,
+      "timing": "electronic"
     },
     {
       "athlete_name": "PARDINES GRAS PERE",
@@ -103,7 +112,8 @@
       "raw_discipline_name": "SALT DE LLARGADA MASCULÍ",
       "performance": "4.94",
       "wind": null,
-      "internal_id": 71
+      "internal_id": 71,
+      "timing": "electronic"
     },
     {
       "athlete_name": "TORRADEME PASCUAL NURIA",
@@ -113,7 +123,8 @@
       "raw_discipline_name": "SALT DE LLARGADA FEMENÍ",
       "performance": "4.06",
       "wind": null,
-      "internal_id": 314
+      "internal_id": 314,
+      "timing": "electronic"
     },
     {
       "athlete_name": "TORRADEME PASCUAL NURIA",
@@ -123,7 +134,8 @@
       "raw_discipline_name": "SALT DE LLARGADA FEMENÍ",
       "performance": "4.29",
       "wind": null,
-      "internal_id": 314
+      "internal_id": 314,
+      "timing": "electronic"
     },
     {
       "athlete_name": "TORRADEME PASCUAL NURIA",
@@ -133,7 +145,9 @@
       "raw_discipline_name": "SALT DE LLARGADA FEMENÍ",
       "performance": "4.17",
       "wind": null,
-      "internal_id": 314
+      "internal_id": 314,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": true
 }

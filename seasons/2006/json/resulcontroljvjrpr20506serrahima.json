@@ -13,7 +13,8 @@
       "raw_discipline_name": "400 METRES LLISOS MASCULINS",
       "performance": "0:53.39",
       "wind": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "IVAN BENITEZ LAZCANO",
@@ -23,7 +24,8 @@
       "raw_discipline_name": "110 METRES TANQUES JUVENILS MASCULINS",
       "performance": "15.03",
       "wind": "-1.6",
-      "internal_id": 257
+      "internal_id": 257,
+      "timing": "electronic"
     },
     {
       "athlete_name": "ESTHER ARAGONES VIDAL",
@@ -33,7 +35,8 @@
       "raw_discipline_name": "1500 METRES LLISOS FEMENINS",
       "performance": "4:57.74",
       "wind": null,
-      "internal_id": 134
+      "internal_id": 134,
+      "timing": "electronic"
     },
     {
       "athlete_name": "IVAN BENITEZ LAZCANO",
@@ -43,7 +46,8 @@
       "raw_discipline_name": "SALT DE LLARGADA MASCULÍ",
       "performance": "5.94",
       "wind": null,
-      "internal_id": 257
+      "internal_id": 257,
+      "timing": "electronic"
     },
     {
       "athlete_name": "IVAN BENITEZ LAZCANO",
@@ -53,7 +57,8 @@
       "raw_discipline_name": "SALT DE LLARGADA MASCULÍ",
       "performance": "6.16",
       "wind": null,
-      "internal_id": 257
+      "internal_id": 257,
+      "timing": "electronic"
     },
     {
       "athlete_name": "JOAN VELASCO FARRE",
@@ -63,7 +68,8 @@
       "raw_discipline_name": "LLANÇAMENT DE MARTELL PROMESA MASCULÍ",
       "performance": "42.30",
       "wind": null,
-      "internal_id": 1042
+      "internal_id": 1042,
+      "timing": "electronic"
     },
     {
       "athlete_name": "JOAN VELASCO FARRE",
@@ -73,7 +79,8 @@
       "raw_discipline_name": "LLANÇAMENT DE MARTELL PROMESA MASCULÍ",
       "performance": "42.59",
       "wind": null,
-      "internal_id": 1042
+      "internal_id": 1042,
+      "timing": "electronic"
     },
     {
       "athlete_name": "JOAN VELASCO FARRE",
@@ -83,7 +90,8 @@
       "raw_discipline_name": "LLANÇAMENT DE MARTELL PROMESA MASCULÍ",
       "performance": "43.62",
       "wind": null,
-      "internal_id": 1042
+      "internal_id": 1042,
+      "timing": "electronic"
     },
     {
       "athlete_name": "JOAN VELASCO FARRE",
@@ -93,7 +101,8 @@
       "raw_discipline_name": "LLANÇAMENT DE MARTELL PROMESA MASCULÍ",
       "performance": "42.70",
       "wind": null,
-      "internal_id": 1042
+      "internal_id": 1042,
+      "timing": "electronic"
     },
     {
       "athlete_name": "JOAN VELASCO FARRE",
@@ -103,7 +112,8 @@
       "raw_discipline_name": "LLANÇAMENT DE MARTELL PROMESA MASCULÍ",
       "performance": "41.86",
       "wind": null,
-      "internal_id": 1042
+      "internal_id": 1042,
+      "timing": "electronic"
     },
     {
       "athlete_name": "JOAN VELASCO FARRE",
@@ -113,7 +123,9 @@
       "raw_discipline_name": "LLANÇAMENT DE MARTELL PROMESA MASCULÍ",
       "performance": "42.68",
       "wind": null,
-      "internal_id": 1042
+      "internal_id": 1042,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

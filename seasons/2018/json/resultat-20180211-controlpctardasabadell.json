@@ -14,7 +14,8 @@
       "raw_discipline_name": "60m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 510
+      "internal_id": 510,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Albert Casado Vieco",
@@ -25,7 +26,8 @@
       "raw_discipline_name": "60m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 596
+      "internal_id": 596,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Marc Ribot Sallent",
@@ -36,7 +38,8 @@
       "raw_discipline_name": "200m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 679
+      "internal_id": 679,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Oscar Gomez Carballo",
@@ -47,7 +50,8 @@
       "raw_discipline_name": "800m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 26
+      "internal_id": 26,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Pedro Ortega Ridao",
@@ -58,7 +62,8 @@
       "raw_discipline_name": "3.000m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 268
+      "internal_id": 268,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Xavier Ros Borrell",
@@ -69,7 +74,8 @@
       "raw_discipline_name": "3.000m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 439
+      "internal_id": 439,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Marina Tibau Sendra",
@@ -80,7 +86,8 @@
       "raw_discipline_name": "Pes (4 Kg) FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 359
+      "internal_id": 359,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Marina Tibau Sendra",
@@ -91,7 +98,8 @@
       "raw_discipline_name": "Pes (4 Kg) FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 359
+      "internal_id": 359,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Marina Tibau Sendra",
@@ -102,7 +110,9 @@
       "raw_discipline_name": "Pes (4 Kg) FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 359
+      "internal_id": 359,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": true
 }

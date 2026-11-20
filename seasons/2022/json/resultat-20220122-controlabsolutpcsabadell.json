@@ -13,7 +13,8 @@
       "discipline": "1.500m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 722
+      "internal_id": 722,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Marc Jose Diaz",
@@ -23,7 +24,8 @@
       "discipline": "60m tanques (1,067) MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 294
+      "internal_id": 294,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Marc Jose Diaz",
@@ -33,7 +35,8 @@
       "discipline": "60m tanques (1,067) MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 294
+      "internal_id": 294,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Andrea Sastriques Castellanos",
@@ -43,7 +46,8 @@
       "discipline": "400m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 824
+      "internal_id": 824,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Lucia Molinero Pintor",
@@ -53,7 +57,9 @@
       "discipline": "400m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 822
+      "internal_id": 822,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": true
 }

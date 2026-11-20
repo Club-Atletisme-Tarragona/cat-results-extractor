@@ -13,7 +13,8 @@
       "discipline": "60m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 704
+      "internal_id": 704,
+      "timing": "electronic"
     },
     {
       "athlete_name": "David Bonnin Obach",
@@ -23,7 +24,8 @@
       "discipline": "60m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 710
+      "internal_id": 710,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Oriol Foix Amoros",
@@ -33,7 +35,8 @@
       "discipline": "60m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 735
+      "internal_id": 735,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Edgar Jose Diaz",
@@ -43,7 +46,8 @@
       "discipline": "60m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 653
+      "internal_id": 653,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Pol Aixala Guiu",
@@ -53,7 +57,8 @@
       "discipline": "60m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 733
+      "internal_id": 733,
+      "timing": "electronic"
     },
     {
       "athlete_name": "David Bonnin Obach",
@@ -63,7 +68,8 @@
       "discipline": "400m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 710
+      "internal_id": 710,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Pol Aixala Guiu",
@@ -73,7 +79,8 @@
       "discipline": "400m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 733
+      "internal_id": 733,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Laura Yan Sole Barba",
@@ -83,7 +90,8 @@
       "discipline": "60m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 701
+      "internal_id": 701,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Laura Yan Sole Barba",
@@ -93,7 +101,8 @@
       "discipline": "400m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 701
+      "internal_id": 701,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Ainhoa Perez Diaz",
@@ -103,7 +112,8 @@
       "discipline": "400m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 711
+      "internal_id": 711,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Leire Dominguez Izaga",
@@ -113,7 +123,8 @@
       "discipline": "400m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 743
+      "internal_id": 743,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Maria Falco Cuenca",
@@ -123,7 +134,9 @@
       "discipline": "Alçada FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 664
+      "internal_id": 664,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": true
 }

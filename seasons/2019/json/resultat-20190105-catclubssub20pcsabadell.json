@@ -13,7 +13,8 @@
       "discipline": "60m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 810
+      "internal_id": 810,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Claudia Mir Casellas",
@@ -23,7 +24,8 @@
       "discipline": "200m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 699
+      "internal_id": 699,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Ainhoa Perez Diaz",
@@ -33,7 +35,8 @@
       "discipline": "400m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 711
+      "internal_id": 711,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Nerea Lago Garbajosa",
@@ -43,7 +46,8 @@
       "discipline": "800m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 534
+      "internal_id": 534,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Maria Buscail Brianso",
@@ -53,7 +57,8 @@
       "discipline": "1.500m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 520
+      "internal_id": 520,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Carla Gonzalez Carrillo",
@@ -63,7 +68,8 @@
       "discipline": "3.000m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 698
+      "internal_id": 698,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Alba Oyonate Farrera",
@@ -73,7 +79,8 @@
       "discipline": "60m tanques (0,84) FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 582
+      "internal_id": 582,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Maria Falco Cuenca",
@@ -83,7 +90,8 @@
       "discipline": "Alçada FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 664
+      "internal_id": 664,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Berta Sanchez Ruiz",
@@ -93,7 +101,8 @@
       "discipline": "Perxa FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 643
+      "internal_id": 643,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Mar Vazquez Domingo",
@@ -103,7 +112,8 @@
       "discipline": "Llargada FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 642
+      "internal_id": 642,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Mar Vazquez Domingo",
@@ -113,7 +123,8 @@
       "discipline": "Llargada FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 642
+      "internal_id": 642,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Laurine Elisa Marimon Fernandez",
@@ -123,7 +134,8 @@
       "discipline": "Triple Salt FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 737
+      "internal_id": 737,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Laurine Elisa Marimon Fernandez",
@@ -133,7 +145,8 @@
       "discipline": "Triple Salt FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 737
+      "internal_id": 737,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Nuria Menchon Tevar",
@@ -143,7 +156,8 @@
       "discipline": "Pes (4 Kg) FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 541
+      "internal_id": 541,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Nuria Menchon Tevar",
@@ -153,7 +167,8 @@
       "discipline": "Pes (4 Kg) FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 541
+      "internal_id": 541,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Nuria Menchon Tevar",
@@ -163,7 +178,8 @@
       "discipline": "Pes (4 Kg) FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 541
+      "internal_id": 541,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Claudia Mir Casellas",
@@ -173,7 +189,8 @@
       "discipline": "4x400m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 699
+      "internal_id": 699,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Alba Oyonate Farrera",
@@ -183,7 +200,8 @@
       "discipline": "4x400m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 582
+      "internal_id": 582,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Berta Pardines Vilalta",
@@ -193,7 +211,8 @@
       "discipline": "4x400m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 650
+      "internal_id": 650,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Mar Vazquez Domingo",
@@ -203,7 +222,9 @@
       "discipline": "4x400m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 642
+      "internal_id": 642,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": true
 }

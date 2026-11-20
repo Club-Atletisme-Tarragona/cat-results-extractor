@@ -13,7 +13,8 @@
       "raw_discipline_name": "60 METRES LLISOS FEMENINS",
       "performance": "NP",
       "wind": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "LOPEZ URBANO MIREIA",
@@ -23,7 +24,8 @@
       "raw_discipline_name": "SALT DE LLARGADA FEMENÍ",
       "performance": "2.77",
       "wind": null,
-      "internal_id": 527
+      "internal_id": 527,
+      "timing": "electronic"
     },
     {
       "athlete_name": "LOPEZ URBANO MIREIA",
@@ -33,7 +35,8 @@
       "raw_discipline_name": "SALT DE LLARGADA FEMENÍ",
       "performance": "2.65",
       "wind": null,
-      "internal_id": 527
+      "internal_id": 527,
+      "timing": "electronic"
     },
     {
       "athlete_name": "LOPEZ URBANO MIREIA",
@@ -43,7 +46,8 @@
       "raw_discipline_name": "SALT DE LLARGADA FEMENÍ",
       "performance": "2.11",
       "wind": null,
-      "internal_id": 527
+      "internal_id": 527,
+      "timing": "electronic"
     },
     {
       "athlete_name": "LAGO GARBAJOSA NEREA",
@@ -53,7 +57,8 @@
       "raw_discipline_name": "SALT DE LLARGADA FEMENÍ",
       "performance": "1.76",
       "wind": null,
-      "internal_id": 534
+      "internal_id": 534,
+      "timing": "electronic"
     },
     {
       "athlete_name": "LAGO GARBAJOSA NEREA",
@@ -63,7 +68,8 @@
       "raw_discipline_name": "SALT DE LLARGADA FEMENÍ",
       "performance": "2.08",
       "wind": null,
-      "internal_id": 534
+      "internal_id": 534,
+      "timing": "electronic"
     },
     {
       "athlete_name": "LAGO GARBAJOSA NEREA",
@@ -73,7 +79,8 @@
       "raw_discipline_name": "SALT DE LLARGADA FEMENÍ",
       "performance": "2.41",
       "wind": null,
-      "internal_id": 534
+      "internal_id": 534,
+      "timing": "electronic"
     },
     {
       "athlete_name": "FLORES PIÑAS MARINA",
@@ -83,7 +90,9 @@
       "raw_discipline_name": "SALT DE LLARGADA FEMENÍ",
       "performance": "NP",
       "wind": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

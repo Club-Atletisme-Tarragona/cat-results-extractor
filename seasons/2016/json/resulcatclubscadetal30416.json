@@ -13,7 +13,8 @@
       "discipline": "Javelina (800 g)",
       "raw_discipline_name": "Javelina MASC.",
       "wind": null,
-      "internal_id": 651
+      "internal_id": 651,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Didac Safont Balaguer",
@@ -23,7 +24,8 @@
       "discipline": "Javelina (800 g)",
       "raw_discipline_name": "Javelina MASC.",
       "wind": null,
-      "internal_id": 651
+      "internal_id": 651,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Didac Safont Balaguer",
@@ -33,7 +35,8 @@
       "discipline": "Javelina (800 g)",
       "raw_discipline_name": "Javelina MASC.",
       "wind": null,
-      "internal_id": 651
+      "internal_id": 651,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Ruben Mellaerts Martin",
@@ -43,7 +46,9 @@
       "discipline": "Disc (2 Kg)",
       "raw_discipline_name": "Disc MASC.",
       "wind": null,
-      "internal_id": 654
+      "internal_id": 654,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

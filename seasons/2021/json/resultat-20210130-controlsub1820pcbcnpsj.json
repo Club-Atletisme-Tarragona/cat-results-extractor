@@ -13,7 +13,8 @@
       "discipline": "800m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 777
+      "internal_id": 777,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Aleix Lago Garbajosa",
@@ -23,7 +24,8 @@
       "discipline": "800m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 660
+      "internal_id": 660,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Oscar Leffer Guillon",
@@ -33,7 +35,8 @@
       "discipline": "3.000m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Ricard Prio Roca",
@@ -43,7 +46,8 @@
       "discipline": "3.000m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 778
+      "internal_id": 778,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Carla Gonzalez Carrillo",
@@ -53,7 +57,8 @@
       "discipline": "800m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 698
+      "internal_id": 698,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Cristina Iniesta Acera",
@@ -63,7 +68,8 @@
       "discipline": "3.000m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 742
+      "internal_id": 742,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Lucia Vega Martinez",
@@ -73,7 +79,9 @@
       "discipline": "3.000m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 805
+      "internal_id": 805,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": true
 }

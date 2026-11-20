@@ -13,7 +13,8 @@
       "discipline": "60m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 656
+      "internal_id": 656,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Gerard Parera Bodi",
@@ -23,7 +24,8 @@
       "discipline": "400m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 522
+      "internal_id": 522,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Aleix Lago Garbajosa",
@@ -33,7 +35,8 @@
       "discipline": "400m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 660
+      "internal_id": 660,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Sira Bo Calaf",
@@ -43,7 +46,8 @@
       "discipline": "400m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 599
+      "internal_id": 599,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Mar Vazquez Domingo",
@@ -53,7 +57,8 @@
       "discipline": "400m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 642
+      "internal_id": 642,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Didac Safont Balaguer",
@@ -63,7 +68,8 @@
       "discipline": "1.500m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 651
+      "internal_id": 651,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Pep Aldave Mas",
@@ -73,7 +79,8 @@
       "discipline": "1.500m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 640
+      "internal_id": 640,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Mar Vazquez Domingo",
@@ -83,7 +90,9 @@
       "discipline": "60m tanques (0,762) S18 FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 642
+      "internal_id": 642,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": true
 }

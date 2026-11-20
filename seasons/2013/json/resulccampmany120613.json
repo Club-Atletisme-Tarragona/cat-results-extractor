@@ -13,7 +13,8 @@
       "discipline": "200 metres llisos",
       "raw_discipline_name": "200m MASC. AL",
       "wind": "-0.1",
-      "internal_id": 217
+      "internal_id": 217,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Montse Guinovart Pedescoll",
@@ -23,7 +24,8 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada FEM. AL",
       "wind": "-0.3",
-      "internal_id": 313
+      "internal_id": 313,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Montse Guinovart Pedescoll",
@@ -33,7 +35,8 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada FEM. AL",
       "wind": "-1.5",
-      "internal_id": 313
+      "internal_id": 313,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Montse Guinovart Pedescoll",
@@ -43,7 +46,8 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada FEM. AL",
       "wind": "-1.8",
-      "internal_id": 313
+      "internal_id": 313,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Helena Rios Montserrat",
@@ -53,7 +57,9 @@
       "discipline": "200 metres llisos",
       "raw_discipline_name": "200m FEM. AL",
       "wind": "+1.1",
-      "internal_id": 409
+      "internal_id": 409,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

@@ -13,7 +13,8 @@
       "raw_discipline_name": "3000 METRES LLISOS MASCULINS",
       "performance": "10:05.58",
       "wind": null,
-      "internal_id": 5
+      "internal_id": 5,
+      "timing": "electronic"
     },
     {
       "athlete_name": "SOLE FERRE ANNA",
@@ -23,7 +24,8 @@
       "raw_discipline_name": "60 METRES LLISOS FEMENINS",
       "performance": "8.03",
       "wind": null,
-      "internal_id": 233
+      "internal_id": 233,
+      "timing": "electronic"
     },
     {
       "athlete_name": "SOLE FERRE ANNA",
@@ -33,7 +35,9 @@
       "raw_discipline_name": "200 METRES LLISOS FEMENINS",
       "performance": "26.62",
       "wind": null,
-      "internal_id": 233
+      "internal_id": 233,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": true
 }

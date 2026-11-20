@@ -13,7 +13,8 @@
       "discipline": "400m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 733
+      "internal_id": 733,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Claudia Mir Casellas",
@@ -23,7 +24,8 @@
       "discipline": "400m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 699
+      "internal_id": 699,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Claudia Mir Casellas",
@@ -33,7 +35,8 @@
       "discipline": "400m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 699
+      "internal_id": 699,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Claudia Mir Casellas 3 3U23",
@@ -43,7 +46,8 @@
       "discipline": "400m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 699
+      "internal_id": 699,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Mireia Lopez Urbano",
@@ -53,7 +57,8 @@
       "discipline": "60m tanques (0,84) FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 527
+      "internal_id": 527,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Mireia Lopez Urbano",
@@ -63,7 +68,8 @@
       "discipline": "60m tanques (0,84) FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 527
+      "internal_id": 527,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Maria Falco Cuenca",
@@ -73,7 +79,8 @@
       "discipline": "Alçada FEM. PC",
       "wind": null,
       "position": 4,
-      "internal_id": 664
+      "internal_id": 664,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Ruth Prats Nadal",
@@ -83,7 +90,8 @@
       "discipline": "Alçada FEM. PC",
       "wind": null,
       "position": 14,
-      "internal_id": 915
+      "internal_id": 915,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Marina Tibau Sendra",
@@ -93,7 +101,8 @@
       "discipline": "Pes (4 Kg) FEM. PC",
       "wind": null,
       "position": 4,
-      "internal_id": 359
+      "internal_id": 359,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Marina Tibau Sendra",
@@ -103,7 +112,8 @@
       "discipline": "Pes (4 Kg) FEM. PC",
       "wind": null,
       "position": 4,
-      "internal_id": 359
+      "internal_id": 359,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Marina Tibau Sendra",
@@ -113,7 +123,8 @@
       "discipline": "Pes (4 Kg) FEM. PC",
       "wind": null,
       "position": 4,
-      "internal_id": 359
+      "internal_id": 359,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Marina Tibau Sendra",
@@ -123,7 +134,8 @@
       "discipline": "Pes (4 Kg) FEM. PC",
       "wind": null,
       "position": 4,
-      "internal_id": 359
+      "internal_id": 359,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Marina Tibau Sendra",
@@ -133,7 +145,8 @@
       "discipline": "Pes (4 Kg) FEM. PC",
       "wind": null,
       "position": 4,
-      "internal_id": 359
+      "internal_id": 359,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Marina Tibau Sendra",
@@ -143,7 +156,8 @@
       "discipline": "Pes (4 Kg) FEM. PC",
       "wind": null,
       "position": 4,
-      "internal_id": 359
+      "internal_id": 359,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Ruth Prats Nadal",
@@ -153,7 +167,9 @@
       "discipline": "Alçada FEM. PC",
       "wind": null,
       "position": 4,
-      "internal_id": 915
+      "internal_id": 915,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": true
 }

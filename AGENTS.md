@@ -304,6 +304,22 @@ For Longitud and Triple Salto, wind is extracted by matching wind values to atte
 
 If wind values aren't found on the next line, look for a single wind value on its own line.
 
+## Export Contract: `is_short_track` + `timing`
+
+Migration contract with the DB loader (odd/tasks/timing-short-track.md):
+
+- `"is_short_track": true` for indoor (pista coberta) competitions, detected
+  from the header/event name (`Pista Coberta`/`Pista Cubierta`/`Short Track`),
+  the URL (`/Pcoberta/`, `/short_track/`) or the era file-name convention
+  (`pc` glued before digits: `resulcontrolpc15105`). Absent/`false` = outdoor.
+- `"timing": "electronic" | "manual"` **per row**; absent -> electronic.
+  Hand timekeeping shows as a time without centiseconds, often with a trailing
+  `-` (`7.2-`). **The row wins over the header**: a hand-timed row inside an
+  electronic meet is still manual. Marks without timing semantics (lengths,
+  heights, points, status codes) are `electronic` by contract.
+- `scripts/backfill_timing_contract.py` derives both from what is already
+  stored (idempotent, dry-run default); `extract_catt.py` emits them natively.
+
 ## Output Structure
 
 The JSON output has this structure:
@@ -314,6 +330,7 @@ The JSON output has this structure:
   "event_date": "DD/MM/YYYY",
   "event_location": "city/venue",
   "total_results": 42,
+  "is_short_track": false,
   "results": [
     {
       "athlete_name": "NAME",

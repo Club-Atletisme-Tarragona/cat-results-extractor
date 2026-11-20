@@ -13,7 +13,8 @@
       "discipline": "60 METRES LLISOS SUB10 MASCULINS",
       "wind": null,
       "position": null,
-      "internal_id": 1055
+      "internal_id": 1055,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Pau Esteve Hostalot",
@@ -23,7 +24,8 @@
       "discipline": "LLARGADA SUB10 MASCULI",
       "wind": null,
       "position": null,
-      "internal_id": 1055
+      "internal_id": 1055,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Pau Esteve Hostalot",
@@ -33,7 +35,8 @@
       "discipline": "LLARGADA SUB10 MASCULI",
       "wind": null,
       "position": null,
-      "internal_id": 1055
+      "internal_id": 1055,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Marçal Sinfreu Niubo",
@@ -43,7 +46,8 @@
       "discipline": "LLARGADA SUB10 MASCULI",
       "wind": null,
       "position": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Duina Borreda Cervello",
@@ -53,7 +57,8 @@
       "discipline": "60 METRES LLISOS SUB10 FEMENINS",
       "wind": null,
       "position": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Diana Garcia Mur",
@@ -63,7 +68,8 @@
       "discipline": "1000 METRES LLISOS SUB10 FEMENINS",
       "wind": null,
       "position": null,
-      "internal_id": 1081
+      "internal_id": 1081,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Nora Montolio Amaro",
@@ -73,7 +79,8 @@
       "discipline": "1000 METRES LLISOS SUB10 FEMENINS",
       "wind": null,
       "position": null,
-      "internal_id": 1089
+      "internal_id": 1089,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Duina Borreda Cervello",
@@ -83,7 +90,8 @@
       "discipline": "1000 METRES LLISOS SUB10 FEMENINS",
       "wind": null,
       "position": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Nora Montolio Amaro",
@@ -93,7 +101,8 @@
       "discipline": "LLARGADA SUB10 FEMENI",
       "wind": null,
       "position": null,
-      "internal_id": 1089
+      "internal_id": 1089,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Nora Montolio Amaro",
@@ -103,7 +112,8 @@
       "discipline": "LLARGADA SUB10 FEMENI",
       "wind": null,
       "position": null,
-      "internal_id": 1089
+      "internal_id": 1089,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Claudia Sanchez Fernandez",
@@ -113,7 +123,8 @@
       "discipline": "LLARGADA SUB10 FEMENI",
       "wind": null,
       "position": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Claudia Sanchez Fernandez",
@@ -123,7 +134,8 @@
       "discipline": "LLARGADA SUB10 FEMENI",
       "wind": null,
       "position": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Paula Diez Plasencia",
@@ -133,7 +145,8 @@
       "discipline": "1000 METRES MARXA SUB10 FEMENI",
       "wind": null,
       "position": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Irene De La Rosa Fortuny",
@@ -143,7 +156,8 @@
       "discipline": "1000 METRES MARXA SUB10 FEMENI",
       "wind": null,
       "position": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Maria Ferran Jimenez",
@@ -153,7 +167,8 @@
       "discipline": "1000 METRES MARXA SUB10 FEMENI",
       "wind": null,
       "position": null,
-      "internal_id": 1325
+      "internal_id": 1325,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Claudia Sanchez Fernandez",
@@ -163,7 +178,9 @@
       "discipline": "1000 METRES MARXA SUB10 FEMENI",
       "wind": null,
       "position": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

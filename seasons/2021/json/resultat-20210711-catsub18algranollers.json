@@ -13,7 +13,8 @@
       "discipline": "800m MASC. AL",
       "wind": null,
       "position": 2,
-      "internal_id": 777
+      "internal_id": 777,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Pol Aixala Guiu",
@@ -23,7 +24,8 @@
       "discipline": "400m tanques (0,84) MASC. AL",
       "wind": null,
       "position": null,
-      "internal_id": 733
+      "internal_id": 733,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Pol Aixala Guiu",
@@ -33,7 +35,8 @@
       "discipline": "400m tanques (0,84) MASC. AL",
       "wind": null,
       "position": null,
-      "internal_id": 733
+      "internal_id": 733,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Laurine Elisa Marimon Fernandez",
@@ -43,7 +46,8 @@
       "discipline": "Triple Salt FEM. AL",
       "wind": "+1.6",
       "position": 1,
-      "internal_id": 737
+      "internal_id": 737,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Laurine Elisa Marimon Fernandez",
@@ -53,7 +57,8 @@
       "discipline": "Triple Salt FEM. AL",
       "wind": "+2.2",
       "position": 1,
-      "internal_id": 737
+      "internal_id": 737,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Laurine Elisa Marimon Fernandez",
@@ -63,7 +68,8 @@
       "discipline": "Triple Salt FEM. AL",
       "wind": "+0.0",
       "position": 1,
-      "internal_id": 737
+      "internal_id": 737,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Lara Herrera Vallve",
@@ -73,7 +79,8 @@
       "discipline": "Pes (3 Kg) FEM. AL",
       "wind": null,
       "position": 8,
-      "internal_id": 813
+      "internal_id": 813,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Lara Herrera Vallve",
@@ -83,7 +90,8 @@
       "discipline": "Pes (3 Kg) FEM. AL",
       "wind": null,
       "position": 8,
-      "internal_id": 813
+      "internal_id": 813,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Lara Herrera Vallve",
@@ -93,7 +101,8 @@
       "discipline": "Pes (3 Kg) FEM. AL",
       "wind": null,
       "position": 8,
-      "internal_id": 813
+      "internal_id": 813,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Lara Herrera Vallve",
@@ -103,7 +112,8 @@
       "discipline": "Pes (3 Kg) FEM. AL",
       "wind": null,
       "position": 8,
-      "internal_id": 813
+      "internal_id": 813,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Lara Herrera Vallve",
@@ -113,7 +123,8 @@
       "discipline": "Pes (3 Kg) FEM. AL",
       "wind": null,
       "position": 8,
-      "internal_id": 813
+      "internal_id": 813,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Lara Herrera Vallve",
@@ -123,7 +134,8 @@
       "discipline": "Pes (3 Kg) FEM. AL",
       "wind": null,
       "position": 8,
-      "internal_id": 813
+      "internal_id": 813,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Lara Herrera Vallve",
@@ -133,7 +145,8 @@
       "discipline": "Disc (1 Kg) FEM.",
       "wind": null,
       "position": 10,
-      "internal_id": 813
+      "internal_id": 813,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Lara Herrera Vallve",
@@ -143,7 +156,8 @@
       "discipline": "Disc (1 Kg) FEM.",
       "wind": null,
       "position": 10,
-      "internal_id": 813
+      "internal_id": 813,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Lara Herrera Vallve",
@@ -153,7 +167,9 @@
       "discipline": "Disc (1 Kg) FEM.",
       "wind": null,
       "position": 10,
-      "internal_id": 813
+      "internal_id": 813,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

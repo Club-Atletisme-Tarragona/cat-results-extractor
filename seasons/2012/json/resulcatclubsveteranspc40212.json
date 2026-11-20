@@ -13,7 +13,8 @@
       "raw_discipline_name": "800 METRES LLISOS MASCULINS",
       "performance": "2:23.76",
       "wind": null,
-      "internal_id": 258
+      "internal_id": 258,
+      "timing": "electronic"
     },
     {
       "athlete_name": "ANTON VALENTI RAMON",
@@ -23,7 +24,8 @@
       "raw_discipline_name": "1500 METRES LLISOS MASCULINS",
       "performance": "4:46.53",
       "wind": null,
-      "internal_id": 365
+      "internal_id": 365,
+      "timing": "electronic"
     },
     {
       "athlete_name": "DE ANDRES SANCHEZ JORGE",
@@ -33,7 +35,8 @@
       "raw_discipline_name": "3000 METRES LLISOS MASCULINS",
       "performance": "9:22.98",
       "wind": null,
-      "internal_id": 351
+      "internal_id": 351,
+      "timing": "electronic"
     },
     {
       "athlete_name": "PARDINES GRAS PERE",
@@ -43,7 +46,8 @@
       "raw_discipline_name": "SALT D'ALÇADA MASCULÍ",
       "performance": "1.58",
       "wind": null,
-      "internal_id": 71
+      "internal_id": 71,
+      "timing": "electronic"
     },
     {
       "athlete_name": "PARDINES GRAS PERE",
@@ -53,7 +57,8 @@
       "raw_discipline_name": "SALT D'ALÇADA MASCULÍ",
       "performance": "2.06",
       "wind": null,
-      "internal_id": 71
+      "internal_id": 71,
+      "timing": "electronic"
     },
     {
       "athlete_name": "SAEZ PEREZ LUIS",
@@ -63,7 +68,8 @@
       "raw_discipline_name": "SALT DE LLARGADA MASCULÍ",
       "performance": "3.97",
       "wind": null,
-      "internal_id": 304
+      "internal_id": 304,
+      "timing": "electronic"
     },
     {
       "athlete_name": "SAEZ PEREZ LUIS",
@@ -73,7 +79,8 @@
       "raw_discipline_name": "SALT DE LLARGADA MASCULÍ",
       "performance": "6.02",
       "wind": null,
-      "internal_id": 304
+      "internal_id": 304,
+      "timing": "electronic"
     },
     {
       "athlete_name": "DOMINGO ROMERO JOAN",
@@ -83,7 +90,9 @@
       "raw_discipline_name": "LLANÇAMENT DE PES MASCULÍ",
       "performance": "7.35",
       "wind": null,
-      "internal_id": 6
+      "internal_id": 6,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": true
 }

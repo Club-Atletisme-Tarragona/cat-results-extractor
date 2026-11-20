@@ -13,7 +13,8 @@
       "discipline": "60m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 435
+      "internal_id": 435,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Javier Almale Lerin",
@@ -23,7 +24,8 @@
       "discipline": "60m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 510
+      "internal_id": 510,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Jan Sans Riola",
@@ -33,7 +35,8 @@
       "discipline": "60m MASC. PC",
       "wind": null,
       "position": 1,
-      "internal_id": 435
+      "internal_id": 435,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Nerea Lago Garbajosa",
@@ -43,7 +46,8 @@
       "discipline": "400m FEM. PC",
       "wind": null,
       "position": 6,
-      "internal_id": 534
+      "internal_id": 534,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Andrea Trape Perez",
@@ -53,7 +57,8 @@
       "discipline": "60m tanques (0,84) FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 726
+      "internal_id": 726,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Andrea Trape Perez",
@@ -63,7 +68,8 @@
       "discipline": "60m tanques (0,84) FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 726
+      "internal_id": 726,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Mireia Lopez Urbano",
@@ -73,7 +79,8 @@
       "discipline": "60m tanques (0,84) FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 527
+      "internal_id": 527,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Mireia Lopez Urbano",
@@ -83,7 +90,8 @@
       "discipline": "60m tanques (0,84) FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 527
+      "internal_id": 527,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Andrea Trape Perez",
@@ -93,7 +101,8 @@
       "discipline": "Llargada FEM. PC",
       "wind": null,
       "position": 2,
-      "internal_id": 726
+      "internal_id": 726,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Andrea Trape Perez",
@@ -103,7 +112,9 @@
       "discipline": "Llargada FEM. PC",
       "wind": null,
       "position": 2,
-      "internal_id": 726
+      "internal_id": 726,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": true
 }

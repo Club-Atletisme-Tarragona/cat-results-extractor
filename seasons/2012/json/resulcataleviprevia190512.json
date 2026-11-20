@@ -13,7 +13,8 @@
       "raw_discipline_name": "60 METRES LLISOS ALEVÍ MASCULÍ",
       "performance": "N.P.",
       "wind": null,
-      "internal_id": 660
+      "internal_id": 660,
+      "timing": "electronic"
     },
     {
       "athlete_name": "LAGO GARBAJOSA ALEIX",
@@ -23,7 +24,8 @@
       "raw_discipline_name": "2000 METRES LLISOS ALEVÍ MASCULÍ",
       "performance": "N.P.",
       "wind": null,
-      "internal_id": 660
+      "internal_id": 660,
+      "timing": "electronic"
     },
     {
       "athlete_name": "GONZALEZ GARCIA JUAN",
@@ -33,7 +35,8 @@
       "raw_discipline_name": "2000 METRES MARXA ALEVÍ MASCULÍ",
       "performance": "12:05.17",
       "wind": null,
-      "internal_id": 1079
+      "internal_id": 1079,
+      "timing": "electronic"
     },
     {
       "athlete_name": "BERENGUEL TORRES CARLA",
@@ -43,7 +46,8 @@
       "raw_discipline_name": "60 METRES LLISOS ALEVÍ FEMENÍ",
       "performance": "9.60",
       "wind": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "BO CALAF SIRA",
@@ -53,7 +57,8 @@
       "raw_discipline_name": "2000 METRES LLISOS ALEVÍ FEMENÍ",
       "performance": "7:50.04",
       "wind": null,
-      "internal_id": 599
+      "internal_id": 599,
+      "timing": "electronic"
     },
     {
       "athlete_name": "BERENGUEL TORRES CARLA",
@@ -63,7 +68,8 @@
       "raw_discipline_name": "60 METRES TANQUES ALEVÍ FEMENÍ",
       "performance": "RET.",
       "wind": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "MASCARELL JULIAN LAURA",
@@ -73,7 +79,8 @@
       "raw_discipline_name": "2000 METRES MARXA ALEVÍ FEMENÍ",
       "performance": "14:36.78",
       "wind": null,
-      "internal_id": 646
+      "internal_id": 646,
+      "timing": "electronic"
     },
     {
       "athlete_name": "GONZALEZ GARCIA JUAN",
@@ -83,7 +90,8 @@
       "raw_discipline_name": "LLANÇAMENT DE PILOTA ALEVÍ MASCULÍ",
       "performance": "22.50",
       "wind": null,
-      "internal_id": 1079
+      "internal_id": 1079,
+      "timing": "electronic"
     },
     {
       "athlete_name": "GONZALEZ GARCIA JUAN",
@@ -93,7 +101,8 @@
       "raw_discipline_name": "LLANÇAMENT DE PILOTA ALEVÍ MASCULÍ",
       "performance": "24.69",
       "wind": null,
-      "internal_id": 1079
+      "internal_id": 1079,
+      "timing": "electronic"
     },
     {
       "athlete_name": "GONZALEZ GARCIA JUAN",
@@ -103,7 +112,8 @@
       "raw_discipline_name": "LLANÇAMENT DE PILOTA ALEVÍ MASCULÍ",
       "performance": "24.49",
       "wind": null,
-      "internal_id": 1079
+      "internal_id": 1079,
+      "timing": "electronic"
     },
     {
       "athlete_name": "MONTAÑES ARBO MONTSERRAT",
@@ -113,7 +123,8 @@
       "raw_discipline_name": "SALT D'ALÇADA ALEVÍ FEMENÍ",
       "performance": "1.30",
       "wind": null,
-      "internal_id": 497
+      "internal_id": 497,
+      "timing": "electronic"
     },
     {
       "athlete_name": "SANCHEZ RUIZ BERTA",
@@ -123,7 +134,8 @@
       "raw_discipline_name": "SALT AMB PERXA ALEVÍ FEMENÍ",
       "performance": "1.40",
       "wind": null,
-      "internal_id": 643
+      "internal_id": 643,
+      "timing": "electronic"
     },
     {
       "athlete_name": "VAZQUEZ DOMINGO MAR",
@@ -133,7 +145,8 @@
       "raw_discipline_name": "SALT DE LLARGADA ALEVÍ FEMENÍ",
       "performance": "3.48",
       "wind": null,
-      "internal_id": 642
+      "internal_id": 642,
+      "timing": "electronic"
     },
     {
       "athlete_name": "MONTAÑES ARBO MONTSERRAT",
@@ -143,7 +156,8 @@
       "raw_discipline_name": "LLANÇAMENT DE PES ALEVÍ FEMENÍ",
       "performance": "6.73",
       "wind": null,
-      "internal_id": 497
+      "internal_id": 497,
+      "timing": "electronic"
     },
     {
       "athlete_name": "MONTAÑES ARBO MONTSERRAT",
@@ -153,7 +167,8 @@
       "raw_discipline_name": "LLANÇAMENT DE PES ALEVÍ FEMENÍ",
       "performance": "8.18",
       "wind": null,
-      "internal_id": 497
+      "internal_id": 497,
+      "timing": "electronic"
     },
     {
       "athlete_name": "MONTAÑES ARBO MONTSERRAT",
@@ -163,7 +178,8 @@
       "raw_discipline_name": "LLANÇAMENT DE PES ALEVÍ FEMENÍ",
       "performance": "8.64",
       "wind": null,
-      "internal_id": 497
+      "internal_id": 497,
+      "timing": "electronic"
     },
     {
       "athlete_name": "BO CALAF SIRA",
@@ -173,7 +189,8 @@
       "raw_discipline_name": "LLANÇAMENT DE PILOTA ALEVÍ FEMENÍ",
       "performance": "18.33",
       "wind": null,
-      "internal_id": 599
+      "internal_id": 599,
+      "timing": "electronic"
     },
     {
       "athlete_name": "BO CALAF SIRA",
@@ -183,7 +200,9 @@
       "raw_discipline_name": "LLANÇAMENT DE PILOTA ALEVÍ FEMENÍ",
       "performance": "18.88",
       "wind": null,
-      "internal_id": 599
+      "internal_id": 599,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

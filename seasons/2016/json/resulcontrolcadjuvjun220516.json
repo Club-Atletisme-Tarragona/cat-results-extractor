@@ -13,7 +13,8 @@
       "discipline": "100 metres llisos",
       "raw_discipline_name": "100m MASC. AL",
       "wind": "+1.1",
-      "internal_id": 435
+      "internal_id": 435,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Javier Almale Lerin",
@@ -23,7 +24,8 @@
       "discipline": "100 metres llisos",
       "raw_discipline_name": "100m MASC. AL",
       "wind": "-1.9",
-      "internal_id": 510
+      "internal_id": 510,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Mireia Lopez Urbano",
@@ -33,7 +35,9 @@
       "discipline": "100 metres llisos",
       "raw_discipline_name": "100m FEM. AL",
       "wind": "-4.6",
-      "internal_id": 527
+      "internal_id": 527,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

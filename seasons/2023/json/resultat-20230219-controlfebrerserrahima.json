@@ -13,7 +13,8 @@
       "discipline": "Pes (4 Kg) SUB16 MASC. AL",
       "wind": null,
       "position": null,
-      "internal_id": 1326
+      "internal_id": 1326,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Irene Jimenez Garcia",
@@ -23,7 +24,8 @@
       "discipline": "Llargada SUB14 FEM. AL",
       "wind": "+0.1",
       "position": null,
-      "internal_id": 1326
+      "internal_id": 1326,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Irene Jimenez Garcia",
@@ -33,7 +35,8 @@
       "discipline": "Llargada SUB14 FEM. AL",
       "wind": "-0.9",
       "position": null,
-      "internal_id": 1326
+      "internal_id": 1326,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Irene Jimenez Garcia",
@@ -43,7 +46,9 @@
       "discipline": "Llargada SUB14 FEM. AL",
       "wind": "+1.0",
       "position": null,
-      "internal_id": 1326
+      "internal_id": 1326,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

@@ -4,6 +4,7 @@
   "event_location": "Gavà",
   "total_results": 1,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/04/resultat-20260426-cat10000marxamastergava.pdf",
+  "is_short_track": false,
   "results": [
     {
       "athlete_name": "FERNANDO FLORES MONTES",
@@ -12,7 +13,8 @@
       "performance": "0:53:58.00",
       "discipline": "10.000m Marcha M55 Hombres",
       "wind": null,
-      "position": 3
+      "position": 3,
+      "timing": "electronic"
     }
   ]
 }

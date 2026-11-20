@@ -13,7 +13,8 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada MASC. AL",
       "wind": null,
-      "internal_id": 714
+      "internal_id": 714,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Nil Pinyol Mateu",
@@ -23,7 +24,8 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada MASC. AL",
       "wind": null,
-      "internal_id": 714
+      "internal_id": 714,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Hugo Berenguel Torres",
@@ -33,7 +35,9 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada MASC. AL",
       "wind": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

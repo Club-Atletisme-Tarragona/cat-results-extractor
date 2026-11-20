@@ -13,7 +13,8 @@
       "discipline": "Alçada SUB10 MASC. AL",
       "wind": null,
       "position": null,
-      "internal_id": 1389
+      "internal_id": 1389,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Blai Lligadas Turon",
@@ -23,7 +24,8 @@
       "discipline": "Llargada SUB10 MASC. AL",
       "wind": null,
       "position": null,
-      "internal_id": 1338
+      "internal_id": 1338,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Thiago Silva Aranda",
@@ -33,7 +35,8 @@
       "discipline": "Llargada SUB10 MASC. AL",
       "wind": null,
       "position": null,
-      "internal_id": 1350
+      "internal_id": 1350,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Jose Angel Masia Urzua",
@@ -43,7 +46,8 @@
       "discipline": "Pes (2 Kg) SUB10 MASC. AL",
       "wind": null,
       "position": null,
-      "internal_id": 1389
+      "internal_id": 1389,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Jose Angel Masia Urzua",
@@ -53,7 +57,8 @@
       "discipline": "Pes (2 Kg) SUB10 MASC. AL",
       "wind": null,
       "position": null,
-      "internal_id": 1389
+      "internal_id": 1389,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Jose Angel Masia Urzua",
@@ -63,7 +68,8 @@
       "discipline": "Pes (2 Kg) SUB10 MASC. AL",
       "wind": null,
       "position": null,
-      "internal_id": 1389
+      "internal_id": 1389,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Teo Pou Fonts",
@@ -73,7 +79,8 @@
       "discipline": "Pes (2 Kg) SUB10 MASC. AL",
       "wind": null,
       "position": null,
-      "internal_id": 1377
+      "internal_id": 1377,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Teo Pou Fonts",
@@ -83,7 +90,8 @@
       "discipline": "Pes (2 Kg) SUB10 MASC. AL",
       "wind": null,
       "position": null,
-      "internal_id": 1377
+      "internal_id": 1377,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Thiago Silva Aranda",
@@ -93,7 +101,8 @@
       "discipline": "1.000m Marxa SUB10 MASC.",
       "wind": null,
       "position": null,
-      "internal_id": 1350
+      "internal_id": 1350,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Montserrat Marques Cruz",
@@ -103,7 +112,8 @@
       "discipline": "1.000m Marxa SUB10 MASC.",
       "wind": null,
       "position": null,
-      "internal_id": 1374
+      "internal_id": 1374,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Julia Muste Santiago",
@@ -113,7 +123,8 @@
       "discipline": "1.000m Marxa SUB10 MASC.",
       "wind": null,
       "position": null,
-      "internal_id": 1382
+      "internal_id": 1382,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Sara Lopez Garcia",
@@ -123,7 +134,8 @@
       "discipline": "1.000m Marxa SUB10 MASC.",
       "wind": null,
       "position": null,
-      "internal_id": 1354
+      "internal_id": 1354,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Noa Pascual Prats",
@@ -133,7 +145,8 @@
       "discipline": "1.000m Marxa SUB10 MASC.",
       "wind": null,
       "position": null,
-      "internal_id": 1380
+      "internal_id": 1380,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Noa Pascual Prats",
@@ -143,7 +156,8 @@
       "discipline": "Pes (2 Kg) SUB10 FEM AL",
       "wind": null,
       "position": null,
-      "internal_id": 1380
+      "internal_id": 1380,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Noa Pascual Prats",
@@ -153,7 +167,8 @@
       "discipline": "Pes (2 Kg) SUB10 FEM AL",
       "wind": null,
       "position": null,
-      "internal_id": 1380
+      "internal_id": 1380,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Noa Pascual Prats",
@@ -163,7 +178,8 @@
       "discipline": "Pes (2 Kg) SUB10 FEM AL",
       "wind": null,
       "position": null,
-      "internal_id": 1380
+      "internal_id": 1380,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Montserrat Marques Cruz",
@@ -173,7 +189,8 @@
       "discipline": "1.000m Marxa SUB10 FEM.",
       "wind": null,
       "position": null,
-      "internal_id": 1374
+      "internal_id": 1374,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Ada Feliu Lorca",
@@ -183,7 +200,9 @@
       "discipline": "1.000m Marxa SUB10 FEM.",
       "wind": null,
       "position": null,
-      "internal_id": 1368
+      "internal_id": 1368,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

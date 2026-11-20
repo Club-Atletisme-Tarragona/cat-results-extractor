@@ -13,7 +13,8 @@
       "discipline": "400 metres llisos",
       "raw_discipline_name": "400m Hombres",
       "wind": null,
-      "internal_id": 1428
+      "internal_id": 1428,
+      "timing": "electronic"
     },
     {
       "athlete_name": "NIL PASCUAL PRATS",
@@ -23,7 +24,8 @@
       "discipline": "1000 metres llisos",
       "raw_discipline_name": "1.000m Hombres",
       "wind": null,
-      "internal_id": 1381
+      "internal_id": 1381,
+      "timing": "electronic"
     },
     {
       "athlete_name": "GERARD BARBER GONZALEZ",
@@ -33,7 +35,8 @@
       "discipline": "1000 metres llisos",
       "raw_discipline_name": "1.000m Hombres",
       "wind": null,
-      "internal_id": 1359
+      "internal_id": 1359,
+      "timing": "electronic"
     },
     {
       "athlete_name": "SERGI AGUZA PIQUERAS",
@@ -43,7 +46,8 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Longitud Hombres",
       "wind": null,
-      "internal_id": 1355
+      "internal_id": 1355,
+      "timing": "electronic"
     },
     {
       "athlete_name": "ANGEL FAJARDO GARCIA",
@@ -53,7 +57,8 @@
       "discipline": "1000 metres marxa",
       "raw_discipline_name": "1.000m Marcha Hombres en pista",
       "wind": null,
-      "internal_id": 1418
+      "internal_id": 1418,
+      "timing": "electronic"
     },
     {
       "athlete_name": "ADA FELIU LORCA",
@@ -63,7 +68,8 @@
       "discipline": "Alçada",
       "raw_discipline_name": "Altura Mujeres",
       "wind": null,
-      "internal_id": 1368
+      "internal_id": 1368,
+      "timing": "electronic"
     },
     {
       "athlete_name": "BERTA GARCIA DOMINGUEZ",
@@ -73,7 +79,8 @@
       "discipline": "Javelina (600 g)",
       "raw_discipline_name": "Jabalina Vortex Mujeres",
       "wind": null,
-      "internal_id": 1393
+      "internal_id": 1393,
+      "timing": "electronic"
     },
     {
       "athlete_name": "BERTA GARCIA DOMINGUEZ",
@@ -83,7 +90,8 @@
       "discipline": "Javelina (600 g)",
       "raw_discipline_name": "Jabalina Vortex Mujeres",
       "wind": null,
-      "internal_id": 1393
+      "internal_id": 1393,
+      "timing": "electronic"
     },
     {
       "athlete_name": "BERTA GARCIA DOMINGUEZ",
@@ -93,7 +101,8 @@
       "discipline": "Javelina (600 g)",
       "raw_discipline_name": "Jabalina Vortex Mujeres",
       "wind": null,
-      "internal_id": 1393
+      "internal_id": 1393,
+      "timing": "electronic"
     },
     {
       "athlete_name": "SOFIA VEGA MARTINEZ",
@@ -103,7 +112,9 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m Mujeres AL",
       "wind": null,
-      "internal_id": 1347
+      "internal_id": 1347,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

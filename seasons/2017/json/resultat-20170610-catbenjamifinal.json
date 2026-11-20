@@ -13,7 +13,8 @@
       "discipline": "ALÇADA BENJAMI MASCULI",
       "wind": null,
       "position": 2,
-      "internal_id": 958
+      "internal_id": 958,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Guillem Ferran Jimenez",
@@ -23,7 +24,8 @@
       "discipline": "LLARGADA BENJAMI MASCULI",
       "wind": null,
       "position": 4,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Guillem Ferran Jimenez",
@@ -33,7 +35,8 @@
       "discipline": "LLARGADA BENJAMI MASCULI",
       "wind": null,
       "position": 4,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Miguel Reyes Alcantara",
@@ -43,7 +46,9 @@
       "discipline": "1000 METRES MARXA BENJAMI MASCULI",
       "wind": null,
       "position": 11,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

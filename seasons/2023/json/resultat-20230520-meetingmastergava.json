@@ -13,7 +13,8 @@
       "discipline": "100m ABS MASC. AL",
       "wind": "-2.7",
       "position": null,
-      "internal_id": 808
+      "internal_id": 808,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Hugo Jules Saiz Santolaria",
@@ -23,7 +24,9 @@
       "discipline": "200m ABS MASC. AL",
       "wind": "+1.8",
       "position": null,
-      "internal_id": 808
+      "internal_id": 808,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

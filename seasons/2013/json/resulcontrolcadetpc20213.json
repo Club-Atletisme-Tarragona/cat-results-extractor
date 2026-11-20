@@ -9,22 +9,26 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60 METRES LLISOS",
       "performance": "7.71",
-      "internal_id": 434
+      "internal_id": 434,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Andrea Lopez Urbano",
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada",
       "performance": "9.07",
-      "internal_id": 437
+      "internal_id": 437,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Andrea Lopez Urbano",
       "discipline": "400 metres llisos",
       "raw_discipline_name": "400 METRES LLISOS",
       "performance": "0:51.66",
-      "internal_id": 437
+      "internal_id": 437,
+      "timing": "electronic"
     }
   ],
-  "total_results": 3
+  "total_results": 3,
+  "is_short_track": true
 }

@@ -13,7 +13,8 @@
       "raw_discipline_name": "60 METRES LLISOS MASCULINS",
       "performance": "7.62",
       "wind": null,
-      "internal_id": 168
+      "internal_id": 168,
+      "timing": "electronic"
     },
     {
       "athlete_name": "JOSE DIAZ MARC",
@@ -23,7 +24,8 @@
       "raw_discipline_name": "60 METRES LLISOS MASCULINS",
       "performance": "7.37",
       "wind": null,
-      "internal_id": 294
+      "internal_id": 294,
+      "timing": "electronic"
     },
     {
       "athlete_name": "ROCAMORA CHAPARRO BERNAT",
@@ -33,7 +35,8 @@
       "raw_discipline_name": "60 METRES LLISOS MASCULINS",
       "performance": "7.54",
       "wind": null,
-      "internal_id": 217
+      "internal_id": 217,
+      "timing": "electronic"
     },
     {
       "athlete_name": "RIOS MESEGUER DIDAC",
@@ -43,7 +46,8 @@
       "raw_discipline_name": "60 METRES LLISOS MASCULINS",
       "performance": "7.79",
       "wind": null,
-      "internal_id": 193
+      "internal_id": 193,
+      "timing": "electronic"
     },
     {
       "athlete_name": "PRADILLO FERRAN",
@@ -53,7 +57,8 @@
       "raw_discipline_name": "60 METRES LLISOS MASCULINS",
       "performance": "7.55",
       "wind": null,
-      "internal_id": 180
+      "internal_id": 180,
+      "timing": "electronic"
     },
     {
       "athlete_name": "MARTIN ALVAREZ JOSE MIGUEL",
@@ -63,7 +68,8 @@
       "raw_discipline_name": "60 METRES LLISOS MASCULINS",
       "performance": "7.63",
       "wind": null,
-      "internal_id": 15
+      "internal_id": 15,
+      "timing": "electronic"
     },
     {
       "athlete_name": "ORIOL PAISANO AGUSTI",
@@ -73,7 +79,8 @@
       "raw_discipline_name": "60 METRES LLISOS MASCULINS",
       "performance": "7.71",
       "wind": null,
-      "internal_id": 216
+      "internal_id": 216,
+      "timing": "electronic"
     },
     {
       "athlete_name": "IBORRA MARTINEZ FRANCISCO JOSE",
@@ -83,7 +90,8 @@
       "raw_discipline_name": "60 METRES LLISOS MASCULINS",
       "performance": "7.97",
       "wind": null,
-      "internal_id": 1
+      "internal_id": 1,
+      "timing": "electronic"
     },
     {
       "athlete_name": "PARDINES GRAS PERE",
@@ -93,7 +101,8 @@
       "raw_discipline_name": "60 METRES LLISOS MASCULINS",
       "performance": "8.56",
       "wind": null,
-      "internal_id": 71
+      "internal_id": 71,
+      "timing": "electronic"
     },
     {
       "athlete_name": "TORTOSA PRADILLO FERRAN",
@@ -103,7 +112,8 @@
       "raw_discipline_name": "60 METRES LLISOS MASCULINS",
       "performance": "7.55",
       "wind": null,
-      "internal_id": 180
+      "internal_id": 180,
+      "timing": "electronic"
     },
     {
       "athlete_name": "ROMANI SUAREZ ROBERT",
@@ -113,7 +123,8 @@
       "raw_discipline_name": "60 METRES TANQUES MASCULINS",
       "performance": "9.33",
       "wind": null,
-      "internal_id": 168
+      "internal_id": 168,
+      "timing": "electronic"
     },
     {
       "athlete_name": "RIOS MESEGUER DIDAC",
@@ -123,7 +134,8 @@
       "raw_discipline_name": "60 METRES TANQUES MASCULINS",
       "performance": "9.89",
       "wind": null,
-      "internal_id": 193
+      "internal_id": 193,
+      "timing": "electronic"
     },
     {
       "athlete_name": "IBORRA MARTINEZ FRANCISCO JOSE",
@@ -133,7 +145,8 @@
       "raw_discipline_name": "60 METRES TANQUES JUNIOR MASCULINS",
       "performance": "9.78",
       "wind": null,
-      "internal_id": 1
+      "internal_id": 1,
+      "timing": "electronic"
     },
     {
       "athlete_name": "PARDINES GRAS PERE",
@@ -143,7 +156,8 @@
       "raw_discipline_name": "60 METRES TANQUES JUNIOR MASCULINS",
       "performance": "10.60",
       "wind": null,
-      "internal_id": 71
+      "internal_id": 71,
+      "timing": "electronic"
     },
     {
       "athlete_name": "MELLAKHI FAROUK",
@@ -153,7 +167,8 @@
       "raw_discipline_name": "SALT DE LLARGADA MASCULÍ",
       "performance": "5.50",
       "wind": null,
-      "internal_id": 277
+      "internal_id": 277,
+      "timing": "electronic"
     },
     {
       "athlete_name": "MELLAKHI FAROUK",
@@ -163,7 +178,8 @@
       "raw_discipline_name": "SALT DE LLARGADA MASCULÍ",
       "performance": "5.67",
       "wind": null,
-      "internal_id": 277
+      "internal_id": 277,
+      "timing": "electronic"
     },
     {
       "athlete_name": "TORTOSA PRADILLO FERRAN",
@@ -173,7 +189,8 @@
       "raw_discipline_name": "SALT DE LLARGADA MASCULÍ",
       "performance": "5.49",
       "wind": null,
-      "internal_id": 180
+      "internal_id": 180,
+      "timing": "electronic"
     },
     {
       "athlete_name": "TORTOSA PRADILLO FERRAN",
@@ -183,7 +200,9 @@
       "raw_discipline_name": "SALT DE LLARGADA MASCULÍ",
       "performance": "4.08",
       "wind": null,
-      "internal_id": 180
+      "internal_id": 180,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": true
 }

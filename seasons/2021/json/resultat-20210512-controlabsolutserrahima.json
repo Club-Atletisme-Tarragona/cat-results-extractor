@@ -13,7 +13,8 @@
       "discipline": "800m MASC. AL",
       "wind": null,
       "position": null,
-      "internal_id": 660
+      "internal_id": 660,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Hugo Rodriguez Martinez",
@@ -23,7 +24,8 @@
       "discipline": "800m MASC. AL",
       "wind": null,
       "position": null,
-      "internal_id": 777
+      "internal_id": 777,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Gerard Parera Bodi",
@@ -33,7 +35,8 @@
       "discipline": "400m tanques (0,91) MASC. AL",
       "wind": null,
       "position": null,
-      "internal_id": 522
+      "internal_id": 522,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Sira Bo Calaf",
@@ -43,7 +46,9 @@
       "discipline": "3.000m Obst. FEM.",
       "wind": null,
       "position": null,
-      "internal_id": 599
+      "internal_id": 599,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

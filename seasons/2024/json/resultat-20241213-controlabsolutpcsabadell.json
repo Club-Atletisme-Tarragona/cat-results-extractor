@@ -13,7 +13,8 @@
       "discipline": "60m Masculins",
       "wind": null,
       "position": null,
-      "internal_id": 808
+      "internal_id": 808,
+      "timing": "electronic"
     },
     {
       "athlete_name": "HUGO JULES SAIZ SANTOLARIA",
@@ -23,7 +24,8 @@
       "discipline": "60m Masculins",
       "wind": null,
       "position": null,
-      "internal_id": 808
+      "internal_id": 808,
+      "timing": "electronic"
     },
     {
       "athlete_name": "VICTOR JIMENEZ GARCIA",
@@ -33,7 +35,8 @@
       "discipline": "60m Masculins",
       "wind": null,
       "position": null,
-      "internal_id": 958
+      "internal_id": 958,
+      "timing": "electronic"
     },
     {
       "athlete_name": "POL AIXALA GUIU",
@@ -43,7 +46,8 @@
       "discipline": "500m Masculins",
       "wind": null,
       "position": null,
-      "internal_id": 733
+      "internal_id": 733,
+      "timing": "electronic"
     },
     {
       "athlete_name": "VICTOR JIMENEZ GARCIA",
@@ -53,7 +57,8 @@
       "discipline": "Llargada Masculina",
       "wind": null,
       "position": null,
-      "internal_id": 958
+      "internal_id": 958,
+      "timing": "electronic"
     },
     {
       "athlete_name": "VICTOR JIMENEZ GARCIA",
@@ -63,7 +68,8 @@
       "discipline": "Llargada Masculina",
       "wind": null,
       "position": null,
-      "internal_id": 958
+      "internal_id": 958,
+      "timing": "electronic"
     },
     {
       "athlete_name": "VICTOR JIMENEZ GARCIA",
@@ -73,7 +79,9 @@
       "discipline": "Llargada Masculina",
       "wind": null,
       "position": null,
-      "internal_id": 958
+      "internal_id": 958,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

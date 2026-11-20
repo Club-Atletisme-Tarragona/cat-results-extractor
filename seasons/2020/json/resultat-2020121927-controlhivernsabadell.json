@@ -13,7 +13,8 @@
       "discipline": "60m vallas (0,84) FEM. AL",
       "wind": "+0.8",
       "position": null,
-      "internal_id": 699
+      "internal_id": 699,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Claudia Mir Casellas",
@@ -23,7 +24,8 @@
       "discipline": "60m vallas (0,84) FEM. AL",
       "wind": "+0.8",
       "position": null,
-      "internal_id": 699
+      "internal_id": 699,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Jan Sans Riola",
@@ -33,7 +35,8 @@
       "discipline": "60m MASC. AL",
       "wind": "-1.6",
       "position": null,
-      "internal_id": 435
+      "internal_id": 435,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Jan Sans Riola",
@@ -43,7 +46,8 @@
       "discipline": "60m MASC. AL",
       "wind": "+0.2",
       "position": null,
-      "internal_id": 435
+      "internal_id": 435,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Claudia Mir Casellas",
@@ -53,7 +57,9 @@
       "discipline": "400m FEM. AL",
       "wind": null,
       "position": null,
-      "internal_id": 699
+      "internal_id": 699,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

@@ -13,7 +13,8 @@
       "discipline": "60m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Silvia Vicente Navarrete",
@@ -23,7 +24,8 @@
       "discipline": "60m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 905
+      "internal_id": 905,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Joan Sinfreu Niubo",
@@ -33,7 +35,8 @@
       "discipline": "60m tanques MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Unai Ortiz De Landazuri Ontoso",
@@ -43,7 +46,8 @@
       "discipline": "60m tanques MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 908
+      "internal_id": 908,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Silvia Vicente Navarrete",
@@ -53,7 +57,8 @@
       "discipline": "60m tanques FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 905
+      "internal_id": 905,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Joan Sinfreu Niubo",
@@ -63,7 +68,8 @@
       "discipline": "Alçada MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Lluc Subiros Brasero",
@@ -73,7 +79,8 @@
       "discipline": "Llargada MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 899
+      "internal_id": 899,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Lluc Subiros Brasero",
@@ -83,7 +90,8 @@
       "discipline": "Llargada MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 899
+      "internal_id": 899,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Lluc Subiros Brasero",
@@ -93,7 +101,8 @@
       "discipline": "Llargada MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 899
+      "internal_id": 899,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Lluc Subiros Brasero",
@@ -103,7 +112,8 @@
       "discipline": "Pes (3 Kg) MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 899
+      "internal_id": 899,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Lluc Subiros Brasero",
@@ -113,7 +123,8 @@
       "discipline": "Pes (3 Kg) MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 899
+      "internal_id": 899,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Julia Suarez Piza",
@@ -123,7 +134,9 @@
       "discipline": "2.000m Marxa FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 839
+      "internal_id": 839,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": true
 }

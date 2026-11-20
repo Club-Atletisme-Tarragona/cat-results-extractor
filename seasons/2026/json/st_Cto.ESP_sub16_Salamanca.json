@@ -14,7 +14,8 @@
       "raw_discipline_name": "300 m Hombres",
       "wind": null,
       "position": null,
-      "internal_id": 1066
+      "internal_id": 1066,
+      "timing": "electronic"
     },
     {
       "athlete_name": "MARC MARTI FERNANDEZ",
@@ -25,7 +26,8 @@
       "raw_discipline_name": "300 m Hombres",
       "wind": null,
       "position": null,
-      "internal_id": 1108
+      "internal_id": 1108,
+      "timing": "electronic"
     },
     {
       "athlete_name": "IKER FUENTES PUESTA",
@@ -36,7 +38,8 @@
       "raw_discipline_name": "60 m vallas Hombres",
       "wind": null,
       "position": 5,
-      "internal_id": 1367
+      "internal_id": 1367,
+      "timing": "electronic"
     },
     {
       "athlete_name": "IKER FUENTES PUESTA",
@@ -47,7 +50,8 @@
       "raw_discipline_name": "60 m vallas Hombres",
       "wind": null,
       "position": null,
-      "internal_id": 1367
+      "internal_id": 1367,
+      "timing": "electronic"
     },
     {
       "athlete_name": "IKER FUENTES PUESTA",
@@ -58,7 +62,8 @@
       "raw_discipline_name": "60 m vallas Hombres",
       "wind": null,
       "position": null,
-      "internal_id": 1367
+      "internal_id": 1367,
+      "timing": "electronic"
     },
     {
       "athlete_name": "ENZO MATE GRAS",
@@ -69,7 +74,9 @@
       "raw_discipline_name": "Salto con Pértiga Hombres",
       "wind": null,
       "position": 3,
-      "internal_id": 1343
+      "internal_id": 1343,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": true
 }

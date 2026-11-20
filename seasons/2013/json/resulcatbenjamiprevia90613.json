@@ -13,7 +13,8 @@
       "discipline": "1000 metres marxa",
       "raw_discipline_name": "1000 METRES MARXA MASCULINS",
       "wind": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Laia Aldave Mas",
@@ -23,7 +24,8 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60 METRES LLISOS FEMENINS",
       "wind": null,
-      "internal_id": 800
+      "internal_id": 800,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Natalia Sanchez alvarez",
@@ -33,7 +35,8 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60 METRES LLISOS FEMENINS",
       "wind": null,
-      "internal_id": 796
+      "internal_id": 796,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Martina Pomes Cabello",
@@ -43,7 +46,8 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60 METRES LLISOS FEMENINS",
       "wind": null,
-      "internal_id": 810
+      "internal_id": 810,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Zaira Bueno Ubeda",
@@ -53,7 +57,8 @@
       "discipline": "1000 metres llisos",
       "raw_discipline_name": "1000 METRES LLISOS FEMENINS",
       "wind": null,
-      "internal_id": 846
+      "internal_id": 846,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Liana De Las Heras Ruiz",
@@ -63,7 +68,8 @@
       "discipline": "Alçada",
       "raw_discipline_name": "SALT D'ALÇADA FEMENÍ",
       "wind": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Emma Climent Cerda",
@@ -73,7 +79,8 @@
       "discipline": "1000 metres marxa",
       "raw_discipline_name": "1000 METRES MARXA FEMENINS",
       "wind": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Ariadna Suarez Piza",
@@ -83,7 +90,8 @@
       "discipline": "1000 metres marxa",
       "raw_discipline_name": "1000 METRES MARXA FEMENINS",
       "wind": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Lucia Mayolas martinez",
@@ -93,7 +101,9 @@
       "discipline": "1000 metres marxa",
       "raw_discipline_name": "1000 METRES MARXA FEMENINS",
       "wind": null,
-      "internal_id": 728
+      "internal_id": 728,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

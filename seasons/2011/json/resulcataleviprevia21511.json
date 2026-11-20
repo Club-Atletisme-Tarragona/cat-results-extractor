@@ -13,7 +13,8 @@
       "raw_discipline_name": "60 METRES LLISOS ALEVÍ FEMENÍ",
       "performance": "9.70",
       "wind": null,
-      "internal_id": 527
+      "internal_id": 527,
+      "timing": "electronic"
     },
     {
       "athlete_name": "MONTSERRAT MONTAÑER ARBO",
@@ -23,7 +24,8 @@
       "raw_discipline_name": "SALT D'ALÇADA ALEVÍ FEMENÍ",
       "performance": "1.15",
       "wind": null,
-      "internal_id": 497
+      "internal_id": 497,
+      "timing": "electronic"
     },
     {
       "athlete_name": "MIREIA LOPEZ URBANO",
@@ -33,7 +35,8 @@
       "raw_discipline_name": "SALT DE LLARGADA ALEVÍ FEMENÍ",
       "performance": "3.72",
       "wind": null,
-      "internal_id": 527
+      "internal_id": 527,
+      "timing": "electronic"
     },
     {
       "athlete_name": "MONTSERRAT MONTAÑER ARBO",
@@ -43,7 +46,9 @@
       "raw_discipline_name": "SALT DE LLARGADA ALEVÍ FEMENÍ",
       "performance": "2.77",
       "wind": null,
-      "internal_id": 497
+      "internal_id": 497,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

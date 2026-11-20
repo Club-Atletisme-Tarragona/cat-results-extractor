@@ -13,7 +13,8 @@
       "discipline": "800 metres llisos",
       "raw_discipline_name": "800m Hombres",
       "wind": null,
-      "internal_id": 1037
+      "internal_id": 1037,
+      "timing": "electronic"
     },
     {
       "athlete_name": "OSCAR GOMEZ CARBALLO",
@@ -23,7 +24,8 @@
       "discipline": "1500 metres llisos",
       "raw_discipline_name": "1.500m Hombres",
       "wind": null,
-      "internal_id": 26
+      "internal_id": 26,
+      "timing": "electronic"
     },
     {
       "athlete_name": "JULIO LEON CID",
@@ -33,7 +35,8 @@
       "discipline": "1500 metres llisos",
       "raw_discipline_name": "1.500m Hombres",
       "wind": null,
-      "internal_id": 992
+      "internal_id": 992,
+      "timing": "electronic"
     },
     {
       "athlete_name": "JAWAD GHADDARI",
@@ -43,7 +46,8 @@
       "discipline": "1500 metres llisos",
       "raw_discipline_name": "1.500m Hombres",
       "wind": null,
-      "internal_id": 1040
+      "internal_id": 1040,
+      "timing": "electronic"
     },
     {
       "athlete_name": "CLAUDIA MIR CASELLAS",
@@ -53,7 +57,8 @@
       "discipline": "400 metres llisos",
       "raw_discipline_name": "400m Mujeres",
       "wind": null,
-      "internal_id": 699
+      "internal_id": 699,
+      "timing": "electronic"
     },
     {
       "athlete_name": "IRIS GARRIDO GARCIA",
@@ -63,7 +68,8 @@
       "discipline": "800 metres llisos",
       "raw_discipline_name": "800m Mujeres",
       "wind": null,
-      "internal_id": 982
+      "internal_id": 982,
+      "timing": "electronic"
     },
     {
       "athlete_name": "CLARA ORTIZ DE LANDAZURI ONTOSO",
@@ -73,7 +79,8 @@
       "discipline": "800 metres llisos",
       "raw_discipline_name": "800m Mujeres",
       "wind": null,
-      "internal_id": 1022
+      "internal_id": 1022,
+      "timing": "electronic"
     },
     {
       "athlete_name": "NOEMI GONZALEZ CARRILLO",
@@ -83,7 +90,8 @@
       "discipline": "1500 metres llisos",
       "raw_discipline_name": "1.500m Mujeres",
       "wind": null,
-      "internal_id": 1030
+      "internal_id": 1030,
+      "timing": "electronic"
     },
     {
       "athlete_name": "LUCIA MAYOLAS MARTINEZ",
@@ -93,7 +101,8 @@
       "discipline": "3000 metres llisos",
       "raw_discipline_name": "3.000m Mujeres",
       "wind": null,
-      "internal_id": 728
+      "internal_id": 728,
+      "timing": "electronic"
     },
     {
       "athlete_name": "CLARA ORTIZ DE LANDAZURI ONTO…",
@@ -103,7 +112,9 @@
       "discipline": "800 metres llisos",
       "raw_discipline_name": "800m Mujeres",
       "wind": null,
-      "internal_id": 1022
+      "internal_id": 1022,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": true
 }

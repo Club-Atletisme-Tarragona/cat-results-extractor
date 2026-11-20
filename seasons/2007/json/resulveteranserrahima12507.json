@@ -13,7 +13,8 @@
       "raw_discipline_name": "ALÇADA FEMENINA",
       "performance": "2.11",
       "wind": null,
-      "internal_id": 7
+      "internal_id": 7,
+      "timing": "electronic"
     },
     {
       "athlete_name": "PEDRO ORTEGA VIDAL",
@@ -23,7 +24,8 @@
       "raw_discipline_name": "ALÇADA FEMENINA",
       "performance": "2.06",
       "wind": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "JAVIER RODRIGUEZ CANO",
@@ -33,7 +35,9 @@
       "raw_discipline_name": "ALÇADA FEMENINA",
       "performance": "2.06",
       "wind": null,
-      "internal_id": 245
+      "internal_id": 245,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

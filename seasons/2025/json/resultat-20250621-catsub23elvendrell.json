@@ -14,7 +14,8 @@
       "raw_discipline_name": "100m Masculí",
       "wind": "+4.1",
       "position": null,
-      "internal_id": 808
+      "internal_id": 808,
+      "timing": "electronic"
     },
     {
       "athlete_name": "HUGO JULES SAIZ SANTOLARIA",
@@ -25,7 +26,8 @@
       "raw_discipline_name": "200m Masculí",
       "wind": "+2.5",
       "position": null,
-      "internal_id": 808
+      "internal_id": 808,
+      "timing": "electronic"
     },
     {
       "athlete_name": "POL AIXALA GUIU",
@@ -36,7 +38,8 @@
       "raw_discipline_name": "400m Masculí",
       "wind": null,
       "position": 1,
-      "internal_id": 733
+      "internal_id": 733,
+      "timing": "electronic"
     },
     {
       "athlete_name": "CLAUDIA MIR CASELLAS",
@@ -47,7 +50,8 @@
       "raw_discipline_name": "400m tanques Femení",
       "wind": null,
       "position": 3,
-      "internal_id": 699
+      "internal_id": 699,
+      "timing": "electronic"
     },
     {
       "athlete_name": "RUTH PRATS NADAL",
@@ -58,7 +62,8 @@
       "raw_discipline_name": "Alçada Femení",
       "wind": null,
       "position": 4,
-      "internal_id": 915
+      "internal_id": 915,
+      "timing": "electronic"
     },
     {
       "athlete_name": "NATALIA SANCHEZ ALVAREZ",
@@ -69,7 +74,8 @@
       "raw_discipline_name": "Llargada Femení",
       "wind": "1.6",
       "position": 4,
-      "internal_id": 796
+      "internal_id": 796,
+      "timing": "electronic"
     },
     {
       "athlete_name": "NATALIA SANCHEZ ALVAREZ",
@@ -80,7 +86,8 @@
       "raw_discipline_name": "Llargada Femení",
       "wind": "1.7",
       "position": 4,
-      "internal_id": 796
+      "internal_id": 796,
+      "timing": "electronic"
     },
     {
       "athlete_name": "NATALIA SANCHEZ ALVAREZ",
@@ -91,7 +98,8 @@
       "raw_discipline_name": "Llargada Femení",
       "wind": "1.8",
       "position": 4,
-      "internal_id": 796
+      "internal_id": 796,
+      "timing": "electronic"
     },
     {
       "athlete_name": "POL AIXALA GUIU",
@@ -102,7 +110,9 @@
       "raw_discipline_name": "400m Masculí",
       "wind": null,
       "position": null,
-      "internal_id": 733
+      "internal_id": 733,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

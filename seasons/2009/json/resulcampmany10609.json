@@ -13,7 +13,8 @@
       "raw_discipline_name": "110 METRES TANQUES JUNIORS MASCULINS",
       "performance": "18.61",
       "wind": "+0.3",
-      "internal_id": 71
+      "internal_id": 71,
+      "timing": "electronic"
     },
     {
       "athlete_name": "RIOS MESEGUER DIDAC",
@@ -23,7 +24,8 @@
       "raw_discipline_name": "110 METRES TANQUES MASCULINS",
       "performance": "19.36",
       "wind": "+0.4",
-      "internal_id": 193
+      "internal_id": 193,
+      "timing": "electronic"
     },
     {
       "athlete_name": "MARTIN GONZALEZ MARIONA",
@@ -33,7 +35,8 @@
       "raw_discipline_name": "LLANÇAMENT DE MARTELL FEMENÍ",
       "performance": "29.69",
       "wind": null,
-      "internal_id": 319
+      "internal_id": 319,
+      "timing": "electronic"
     },
     {
       "athlete_name": "MARTIN GONZALEZ MARIONA",
@@ -43,7 +46,8 @@
       "raw_discipline_name": "LLANÇAMENT DE MARTELL FEMENÍ",
       "performance": "31.74",
       "wind": null,
-      "internal_id": 319
+      "internal_id": 319,
+      "timing": "electronic"
     },
     {
       "athlete_name": "MARTIN GONZALEZ MARIONA",
@@ -53,7 +57,8 @@
       "raw_discipline_name": "LLANÇAMENT DE MARTELL FEMENÍ",
       "performance": "32.22",
       "wind": null,
-      "internal_id": 319
+      "internal_id": 319,
+      "timing": "electronic"
     },
     {
       "athlete_name": "MARC JOSE DIAZ",
@@ -63,7 +68,8 @@
       "raw_discipline_name": "100 METRES LLISOS MASCULINS",
       "performance": "11.69",
       "wind": "+0.6",
-      "internal_id": 294
+      "internal_id": 294,
+      "timing": "electronic"
     },
     {
       "athlete_name": "IBORRA MARTINEZ FRANCISCO JOSE",
@@ -73,7 +79,9 @@
       "raw_discipline_name": "110 METRES TANQUES JUNIORS MASCULINS",
       "performance": "18.04",
       "wind": null,
-      "internal_id": 1
+      "internal_id": 1,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

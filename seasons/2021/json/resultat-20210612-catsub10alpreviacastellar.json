@@ -13,7 +13,8 @@
       "discipline": "60m MASC. AL",
       "wind": null,
       "position": null,
-      "internal_id": 1327
+      "internal_id": 1327,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Eloi Vinyes Huguet",
@@ -23,7 +24,8 @@
       "discipline": "1.000m MASC. AL",
       "wind": null,
       "position": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Kilian Borreda Ceervello",
@@ -33,7 +35,8 @@
       "discipline": "1.000m MASC. AL",
       "wind": null,
       "position": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Nil Pamies Miro",
@@ -43,7 +46,8 @@
       "discipline": "Alçada MASC. AL",
       "wind": null,
       "position": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Nil Pamies Miro",
@@ -53,7 +57,8 @@
       "discipline": "Llargada MASC. AL",
       "wind": null,
       "position": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Nil Pamies Miro",
@@ -63,7 +68,8 @@
       "discipline": "Llargada MASC. AL",
       "wind": null,
       "position": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Nil Pamies Miro",
@@ -73,7 +79,8 @@
       "discipline": "Llargada MASC. AL",
       "wind": null,
       "position": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Hernan Ferran Jimenez",
@@ -83,7 +90,8 @@
       "discipline": "Llargada MASC. AL",
       "wind": null,
       "position": null,
-      "internal_id": 1327
+      "internal_id": 1327,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Hernan Ferran Jimenez",
@@ -93,7 +101,8 @@
       "discipline": "Llargada MASC. AL",
       "wind": null,
       "position": null,
-      "internal_id": 1327
+      "internal_id": 1327,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Kilian Borreda Ceervello",
@@ -103,7 +112,8 @@
       "discipline": "Llargada MASC. AL",
       "wind": null,
       "position": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Maria Martin Cuadrado",
@@ -113,7 +123,8 @@
       "discipline": "60m FEM. AL",
       "wind": null,
       "position": null,
-      "internal_id": 1330
+      "internal_id": 1330,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Ada Nini Navas",
@@ -123,7 +134,8 @@
       "discipline": "1.000m FEM. AL",
       "wind": null,
       "position": null,
-      "internal_id": 1331
+      "internal_id": 1331,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Lucia Martinez Perales",
@@ -133,7 +145,8 @@
       "discipline": "1.000m FEM. AL",
       "wind": null,
       "position": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Maria Martin Cuadrado",
@@ -143,7 +156,8 @@
       "discipline": "Llargada FEM. AL",
       "wind": null,
       "position": null,
-      "internal_id": 1330
+      "internal_id": 1330,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Ada Nini Navas",
@@ -153,7 +167,8 @@
       "discipline": "Llargada FEM. AL",
       "wind": null,
       "position": null,
-      "internal_id": 1331
+      "internal_id": 1331,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Lucia Martinez Perales",
@@ -163,7 +178,8 @@
       "discipline": "Llargada FEM. AL",
       "wind": null,
       "position": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Lucia Martinez Perales",
@@ -173,7 +189,8 @@
       "discipline": "Llargada FEM. AL",
       "wind": null,
       "position": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Lucia Martinez Perales",
@@ -183,7 +200,9 @@
       "discipline": "Llargada FEM. AL",
       "wind": null,
       "position": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

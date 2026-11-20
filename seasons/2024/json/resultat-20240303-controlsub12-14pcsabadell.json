@@ -13,7 +13,8 @@
       "discipline": "200m MASC. PC SUB12 M",
       "wind": null,
       "position": null,
-      "internal_id": 1341
+      "internal_id": 1341,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Pol Diaz Cristino",
@@ -23,7 +24,8 @@
       "discipline": "200m MASC. PC SUB12 M",
       "wind": null,
       "position": null,
-      "internal_id": 1333
+      "internal_id": 1333,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Hugo Diaz Cristino",
@@ -33,7 +35,8 @@
       "discipline": "200m MASC. PC SUB14M",
       "wind": null,
       "position": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Pol Diaz Cristino",
@@ -43,7 +46,8 @@
       "discipline": "600m MASC. PC SUB12M",
       "wind": null,
       "position": null,
-      "internal_id": 1333
+      "internal_id": 1333,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Nil Torres Prats",
@@ -53,7 +57,8 @@
       "discipline": "600m MASC. PC SUB12M",
       "wind": null,
       "position": null,
-      "internal_id": 1341
+      "internal_id": 1341,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Hugo Diaz Cristino",
@@ -63,7 +68,8 @@
       "discipline": "600m MASC. PC SUB14M",
       "wind": null,
       "position": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Alba Esteve Hostalot",
@@ -73,7 +79,8 @@
       "discipline": "200m FEM. PC SUB12F",
       "wind": null,
       "position": null,
-      "internal_id": 1335
+      "internal_id": 1335,
+      "timing": "electronic"
     },
     {
       "athlete_name": "India Martin Cuadrado",
@@ -83,7 +90,8 @@
       "discipline": "200m FEM. PC SUB12F",
       "wind": null,
       "position": null,
-      "internal_id": 1332
+      "internal_id": 1332,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Nayah Martinez Ferre",
@@ -93,7 +101,8 @@
       "discipline": "200m FEM. PC SUB12F",
       "wind": null,
       "position": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Alba Esteve Hostalot",
@@ -103,7 +112,8 @@
       "discipline": "600m FEM. PC SUB12F",
       "wind": null,
       "position": null,
-      "internal_id": 1335
+      "internal_id": 1335,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Nayah Martinez Ferre",
@@ -113,7 +123,8 @@
       "discipline": "600m FEM. PC SUB12F",
       "wind": null,
       "position": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Berta Barber Gonzalez",
@@ -123,7 +134,8 @@
       "discipline": "2.000m FEM. PC SUB12F",
       "wind": null,
       "position": null,
-      "internal_id": 1359
+      "internal_id": 1359,
+      "timing": "electronic"
     },
     {
       "athlete_name": "India Martin Cuadrado",
@@ -133,7 +145,9 @@
       "discipline": "2.000m FEM. PC SUB12F",
       "wind": null,
       "position": null,
-      "internal_id": 1332
+      "internal_id": 1332,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": true
 }

@@ -13,7 +13,8 @@
       "discipline": "800m MASC. AL",
       "wind": null,
       "position": null,
-      "internal_id": 439
+      "internal_id": 439,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Sira Bo Calaf",
@@ -23,7 +24,9 @@
       "discipline": "1.500m FEM. AL",
       "wind": null,
       "position": null,
-      "internal_id": 599
+      "internal_id": 599,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

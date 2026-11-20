@@ -13,7 +13,8 @@
       "discipline": "60m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 294
+      "internal_id": 294,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Marc Ribot Sallent",
@@ -23,7 +24,9 @@
       "discipline": "60m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 679
+      "internal_id": 679,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": true
 }

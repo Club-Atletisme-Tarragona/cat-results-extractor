@@ -13,7 +13,8 @@
       "raw_discipline_name": "100 METRES LLISOS",
       "performance": "5.74",
       "wind": null,
-      "internal_id": 15
+      "internal_id": 15,
+      "timing": "electronic"
     },
     {
       "athlete_name": "PERE PARDINES GRAS",
@@ -23,7 +24,8 @@
       "raw_discipline_name": "100 METRES LLISOS",
       "performance": "4.95",
       "wind": null,
-      "internal_id": 71
+      "internal_id": 71,
+      "timing": "electronic"
     },
     {
       "athlete_name": "NURIA TORRADEME PASCUAL",
@@ -33,7 +35,8 @@
       "raw_discipline_name": "100 METRES TANQUES",
       "performance": "18.89",
       "wind": null,
-      "internal_id": 314
+      "internal_id": 314,
+      "timing": "electronic"
     },
     {
       "athlete_name": "MARIA ALVAREZ AUÑOS",
@@ -43,7 +46,8 @@
       "raw_discipline_name": "200 METRES LLISOS",
       "performance": "4.96",
       "wind": "0.0",
-      "internal_id": 346
+      "internal_id": 346,
+      "timing": "electronic"
     },
     {
       "athlete_name": "JOSE MIGUEL MARTIN ALVAREZ",
@@ -53,7 +57,8 @@
       "raw_discipline_name": "Pes Absolut                                 7,260 kg",
       "performance": "8.81",
       "wind": null,
-      "internal_id": 15
+      "internal_id": 15,
+      "timing": "electronic"
     },
     {
       "athlete_name": "JOSE MIGUEL MARTIN ALVAREZ",
@@ -63,7 +68,8 @@
       "raw_discipline_name": "Pes Absolut                                 7,260 kg",
       "performance": "9.03",
       "wind": null,
-      "internal_id": 15
+      "internal_id": 15,
+      "timing": "electronic"
     },
     {
       "athlete_name": "JOSE MIGUEL MARTIN ALVAREZ",
@@ -73,7 +79,8 @@
       "raw_discipline_name": "Pes Absolut                                 7,260 kg",
       "performance": "9.25",
       "wind": null,
-      "internal_id": 15
+      "internal_id": 15,
+      "timing": "electronic"
     },
     {
       "athlete_name": "PERE PARDINES GRAS",
@@ -83,7 +90,8 @@
       "raw_discipline_name": "Pes Absolut                                 7,260 kg",
       "performance": "7.20",
       "wind": null,
-      "internal_id": 71
+      "internal_id": 71,
+      "timing": "electronic"
     },
     {
       "athlete_name": "PERE PARDINES GRAS",
@@ -93,7 +101,8 @@
       "raw_discipline_name": "Pes Absolut                                 7,260 kg",
       "performance": "7.43",
       "wind": null,
-      "internal_id": 71
+      "internal_id": 71,
+      "timing": "electronic"
     },
     {
       "athlete_name": "PERE PARDINES GRAS",
@@ -103,7 +112,8 @@
       "raw_discipline_name": "Pes Absolut                                 7,260 kg",
       "performance": "7.17",
       "wind": null,
-      "internal_id": 71
+      "internal_id": 71,
+      "timing": "electronic"
     },
     {
       "athlete_name": "JOSE MIGUEL MARTIN ALVAREZ",
@@ -113,7 +123,8 @@
       "raw_discipline_name": "Pes Absolut                                 7,260 kg",
       "performance": "1.54",
       "wind": null,
-      "internal_id": 15
+      "internal_id": 15,
+      "timing": "electronic"
     },
     {
       "athlete_name": "MARIA ALVAREZ AUÑOS",
@@ -123,7 +134,8 @@
       "raw_discipline_name": "Pes Juvenil                           3 kg",
       "performance": "9.18",
       "wind": null,
-      "internal_id": 346
+      "internal_id": 346,
+      "timing": "electronic"
     },
     {
       "athlete_name": "MARIA ALVAREZ AUÑOS",
@@ -133,7 +145,8 @@
       "raw_discipline_name": "Pes Juvenil                           3 kg",
       "performance": "9.64",
       "wind": null,
-      "internal_id": 346
+      "internal_id": 346,
+      "timing": "electronic"
     },
     {
       "athlete_name": "MARIA ALVAREZ AUÑOS",
@@ -143,7 +156,8 @@
       "raw_discipline_name": "Pes Juvenil                           3 kg",
       "performance": "9.34",
       "wind": null,
-      "internal_id": 346
+      "internal_id": 346,
+      "timing": "electronic"
     },
     {
       "athlete_name": "MARIA ALVAREZ AUÑOS",
@@ -153,7 +167,8 @@
       "raw_discipline_name": "Javelina Juvenil                        500 g",
       "performance": "24.26",
       "wind": null,
-      "internal_id": 346
+      "internal_id": 346,
+      "timing": "electronic"
     },
     {
       "athlete_name": "MARIA ALVAREZ AUÑOS",
@@ -163,7 +178,9 @@
       "raw_discipline_name": "Javelina Juvenil                        500 g",
       "performance": "21.46",
       "wind": null,
-      "internal_id": 346
+      "internal_id": 346,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

@@ -13,7 +13,8 @@
       "raw_discipline_name": "PERXA Absolut Femení",
       "performance": "2.60",
       "wind": null,
-      "internal_id": 409
+      "internal_id": 409,
+      "timing": "electronic"
     },
     {
       "athlete_name": "IRIS CHERTA JORDÀ",
@@ -23,7 +24,8 @@
       "raw_discipline_name": "PERXA Absolut Femení",
       "performance": "2.50",
       "wind": null,
-      "internal_id": 479
+      "internal_id": 479,
+      "timing": "electronic"
     },
     {
       "athlete_name": "ALÍCIA GARCÍA VÁZQUEZ",
@@ -33,7 +35,8 @@
       "raw_discipline_name": "LLARGADA Absolut Femení",
       "performance": "4.55",
       "wind": "0.0",
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "ALÍCIA GARCÍA VÁZQUEZ",
@@ -43,7 +46,8 @@
       "raw_discipline_name": "LLARGADA Absolut Femení",
       "performance": "4.74",
       "wind": "0.0",
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "ALÍCIA GARCÍA VÁZQUEZ",
@@ -53,7 +57,8 @@
       "raw_discipline_name": "LLARGADA Absolut Femení",
       "performance": "3.88",
       "wind": "0.0",
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "DÍDAC ALONSO DEL CAMPO",
@@ -63,7 +68,8 @@
       "raw_discipline_name": "JAVELINA Juvenil Masculí                                   700 g",
       "performance": "35.54",
       "wind": null,
-      "internal_id": 468
+      "internal_id": 468,
+      "timing": "electronic"
     },
     {
       "athlete_name": "DÍDAC ALONSO DEL CAMPO",
@@ -73,7 +79,8 @@
       "raw_discipline_name": "JAVELINA Juvenil Masculí                                   700 g",
       "performance": "34.24",
       "wind": null,
-      "internal_id": 468
+      "internal_id": 468,
+      "timing": "electronic"
     },
     {
       "athlete_name": "DÍDAC ALONSO DEL CAMPO",
@@ -83,7 +90,9 @@
       "raw_discipline_name": "JAVELINA Juvenil Masculí                                   700 g",
       "performance": "35.88",
       "wind": null,
-      "internal_id": 468
+      "internal_id": 468,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

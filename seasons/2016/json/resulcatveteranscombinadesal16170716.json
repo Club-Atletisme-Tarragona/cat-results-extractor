@@ -13,7 +13,8 @@
       "raw_discipline_name": "100 METRES LLISOS",
       "performance": "4.67",
       "wind": null,
-      "internal_id": 502
+      "internal_id": 502,
+      "timing": "electronic"
     },
     {
       "athlete_name": "HERRERA ALCAIDE JUAN CARLOS",
@@ -23,7 +24,8 @@
       "raw_discipline_name": "100 METRES LLISOS",
       "performance": "5.43",
       "wind": null,
-      "internal_id": 518
+      "internal_id": 518,
+      "timing": "electronic"
     },
     {
       "athlete_name": "MATEO SANZ JOSEP MARIA",
@@ -33,7 +35,8 @@
       "raw_discipline_name": "100 METRES LLISOS",
       "performance": "5.58",
       "wind": null,
-      "internal_id": 343
+      "internal_id": 343,
+      "timing": "electronic"
     },
     {
       "athlete_name": "MATEO SANZ JOSEP MARIA",
@@ -43,7 +46,8 @@
       "raw_discipline_name": "400 METRES LLISOS",
       "performance": "1:00.43",
       "wind": null,
-      "internal_id": 343
+      "internal_id": 343,
+      "timing": "electronic"
     },
     {
       "athlete_name": "HERRERA ALCAIDE JUAN CARLOS",
@@ -53,7 +57,8 @@
       "raw_discipline_name": "400 METRES LLISOS",
       "performance": "0:56.48",
       "wind": null,
-      "internal_id": 518
+      "internal_id": 518,
+      "timing": "electronic"
     },
     {
       "athlete_name": "BLANCO PORTA IGNACIO JOSÉ",
@@ -63,7 +68,8 @@
       "raw_discipline_name": "400 METRES LLISOS",
       "performance": "1:02.30",
       "wind": null,
-      "internal_id": 502
+      "internal_id": 502,
+      "timing": "electronic"
     },
     {
       "athlete_name": "BLANCO PORTA IGNACIO JOSÉ",
@@ -73,7 +79,8 @@
       "raw_discipline_name": "110 METRES TANQUES (0.99)",
       "performance": "22.33",
       "wind": null,
-      "internal_id": 502
+      "internal_id": 502,
+      "timing": "electronic"
     },
     {
       "athlete_name": "HERRERA ALCAIDE JUAN CARLOS",
@@ -83,7 +90,8 @@
       "raw_discipline_name": "110 METRES TANQUES (0.99)",
       "performance": "19.67",
       "wind": null,
-      "internal_id": 518
+      "internal_id": 518,
+      "timing": "electronic"
     },
     {
       "athlete_name": "MATEO SANZ JOSEP MARIA",
@@ -93,7 +101,9 @@
       "raw_discipline_name": "100 METRES TANQUES (0.91)",
       "performance": "20.03",
       "wind": null,
-      "internal_id": 343
+      "internal_id": 343,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

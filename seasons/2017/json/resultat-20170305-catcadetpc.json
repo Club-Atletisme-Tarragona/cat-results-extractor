@@ -13,7 +13,8 @@
       "discipline": "60m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 645
+      "internal_id": 645,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Mario Sanchez Alvarez",
@@ -23,7 +24,8 @@
       "discipline": "60m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 1023
+      "internal_id": 1023,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Mario Sanchez Alvarez",
@@ -33,7 +35,8 @@
       "discipline": "60m MASC. PC",
       "wind": null,
       "position": 8,
-      "internal_id": 1023
+      "internal_id": 1023,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Laura Yan Sole Barba",
@@ -43,7 +46,8 @@
       "discipline": "60m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 701
+      "internal_id": 701,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Aleix Lago Garbajosa",
@@ -53,7 +57,8 @@
       "discipline": "600m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 660
+      "internal_id": 660,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Carla Gonzalez Carrillo",
@@ -63,7 +68,8 @@
       "discipline": "600m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 698
+      "internal_id": 698,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Mar Vazquez Domingo",
@@ -73,7 +79,8 @@
       "discipline": "60m tanques FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 642
+      "internal_id": 642,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Mario Sanchez Alvarez",
@@ -83,7 +90,8 @@
       "discipline": "60m tanques MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 1023
+      "internal_id": 1023,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Mario Sanchez Alvarez",
@@ -93,7 +101,8 @@
       "discipline": "60m tanques MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 1023
+      "internal_id": 1023,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Bernat Verdu Gomez",
@@ -103,7 +112,8 @@
       "discipline": "60m tanques MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 645
+      "internal_id": 645,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Bernat Verdu Gomez",
@@ -113,7 +123,8 @@
       "discipline": "60m tanques MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 645
+      "internal_id": 645,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Maria Falco Cuenca",
@@ -123,7 +134,8 @@
       "discipline": "Alçada FEM. PC",
       "wind": null,
       "position": 3,
-      "internal_id": 664
+      "internal_id": 664,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Berta Sanchez Ruiz",
@@ -133,7 +145,9 @@
       "discipline": "Perxa FEM. PC",
       "wind": null,
       "position": 10,
-      "internal_id": 643
+      "internal_id": 643,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": true
 }

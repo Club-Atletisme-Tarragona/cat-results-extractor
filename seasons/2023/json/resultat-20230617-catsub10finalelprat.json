@@ -13,7 +13,8 @@
       "discipline": "60m MASC. AL",
       "wind": null,
       "position": null,
-      "internal_id": 1338
+      "internal_id": 1338,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Nil Torres Prats",
@@ -23,7 +24,8 @@
       "discipline": "1.000m MASC. AL",
       "wind": null,
       "position": 7,
-      "internal_id": 1341
+      "internal_id": 1341,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Nil Torres Prats",
@@ -33,7 +35,8 @@
       "discipline": "Alçada MASC. AL",
       "wind": null,
       "position": 3,
-      "internal_id": 1341
+      "internal_id": 1341,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Antonio Balazote",
@@ -43,7 +46,8 @@
       "discipline": "Llargada MASC. AL",
       "wind": null,
       "position": 4,
-      "internal_id": 1370
+      "internal_id": 1370,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Antonio Balazote",
@@ -53,7 +57,8 @@
       "discipline": "Llargada MASC. AL",
       "wind": null,
       "position": 4,
-      "internal_id": 1370
+      "internal_id": 1370,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Pol Diaz Cristino",
@@ -63,7 +68,8 @@
       "discipline": "1.000m Marxa MASC. en pista",
       "wind": null,
       "position": 3,
-      "internal_id": 1333
+      "internal_id": 1333,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Thiago Silva Aranda",
@@ -73,7 +79,8 @@
       "discipline": "1.000m Marxa MASC. en pista",
       "wind": null,
       "position": 7,
-      "internal_id": 1350
+      "internal_id": 1350,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Montserrat Marques Cruz",
@@ -83,7 +90,9 @@
       "discipline": "1.000m Marxa FEM. en pista",
       "wind": null,
       "position": 10,
-      "internal_id": 1374
+      "internal_id": 1374,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

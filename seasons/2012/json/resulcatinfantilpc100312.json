@@ -13,7 +13,8 @@
       "discipline": "Pes (7.260 Kg)",
       "raw_discipline_name": "Pes MASC.",
       "wind": null,
-      "internal_id": 680
+      "internal_id": 680,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Mireia Lopez Urbano",
@@ -23,7 +24,8 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada FEM.",
       "wind": null,
-      "internal_id": 527
+      "internal_id": 527,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Mireia Lopez Urbano",
@@ -33,7 +35,8 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada FEM.",
       "wind": null,
-      "internal_id": 527
+      "internal_id": 527,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Mireia Lopez Urbano",
@@ -43,7 +46,9 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada FEM.",
       "wind": null,
-      "internal_id": 527
+      "internal_id": 527,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": true
 }

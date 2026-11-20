@@ -13,7 +13,8 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m MASC. PC",
       "wind": null,
-      "internal_id": 397
+      "internal_id": 397,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Tomas Cordero Bel",
@@ -23,7 +24,8 @@
       "discipline": "200 metres llisos",
       "raw_discipline_name": "200m MASC. PC",
       "wind": null,
-      "internal_id": 397
+      "internal_id": 397,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Robert Romani Suarez",
@@ -33,7 +35,8 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada MASC. PC",
       "wind": null,
-      "internal_id": 168
+      "internal_id": 168,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Robert Romani Suarez",
@@ -43,7 +46,8 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada MASC. PC",
       "wind": null,
-      "internal_id": 168
+      "internal_id": 168,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Robert Romani Suarez",
@@ -53,7 +57,8 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada MASC. PC",
       "wind": null,
-      "internal_id": 168
+      "internal_id": 168,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Robert Romani Suarez",
@@ -63,7 +68,8 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada MASC. PC",
       "wind": null,
-      "internal_id": 168
+      "internal_id": 168,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Robert Romani Suarez",
@@ -73,7 +79,8 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada MASC. PC",
       "wind": null,
-      "internal_id": 168
+      "internal_id": 168,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Anna Sole Ferre",
@@ -83,7 +90,9 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m FEM. PC",
       "wind": null,
-      "internal_id": 233
+      "internal_id": 233,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": true
 }

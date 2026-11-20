@@ -13,7 +13,8 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m Hombres",
       "wind": null,
-      "internal_id": 733
+      "internal_id": 733,
+      "timing": "electronic"
     },
     {
       "athlete_name": "MOHAMMED AISSAOUI EL AISSAOUI",
@@ -23,7 +24,8 @@
       "discipline": "800 metres llisos",
       "raw_discipline_name": "800m Hombres",
       "wind": null,
-      "internal_id": 1037
+      "internal_id": 1037,
+      "timing": "electronic"
     },
     {
       "athlete_name": "CLARA ORTIZ DE LANDAZURI ONTOSO",
@@ -33,7 +35,8 @@
       "discipline": "800 metres llisos",
       "raw_discipline_name": "800m Mujeres",
       "wind": null,
-      "internal_id": 1022
+      "internal_id": 1022,
+      "timing": "electronic"
     },
     {
       "athlete_name": "NOEMI GONZALEZ CARRILLO",
@@ -43,7 +46,8 @@
       "discipline": "800 metres llisos",
       "raw_discipline_name": "800m Mujeres",
       "wind": null,
-      "internal_id": 1030
+      "internal_id": 1030,
+      "timing": "electronic"
     },
     {
       "athlete_name": "CLARA ORTIZ DE LANDAZURI ONTO…",
@@ -53,7 +57,9 @@
       "discipline": "800 metres llisos",
       "raw_discipline_name": "800m Mujeres",
       "wind": null,
-      "internal_id": 1022
+      "internal_id": 1022,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

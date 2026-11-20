@@ -13,7 +13,8 @@
       "discipline": "60m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 958
+      "internal_id": 958,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Guillem Ferran Jimenez",
@@ -23,7 +24,8 @@
       "discipline": "60m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Victor Jimenez Garcia",
@@ -33,7 +35,8 @@
       "discipline": "300m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 958
+      "internal_id": 958,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Guillem Ferran Jimenez",
@@ -43,7 +46,8 @@
       "discipline": "300m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Matias Hernandez Sanchez",
@@ -53,7 +57,8 @@
       "discipline": "600m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 999
+      "internal_id": 999,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Matias Hernandez Sanchez",
@@ -63,7 +68,8 @@
       "discipline": "60m tanques (0,91) MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 999
+      "internal_id": 999,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Olivia Ruiz Barbera",
@@ -73,7 +79,8 @@
       "discipline": "60m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 1018
+      "internal_id": 1018,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Laia Cabrero Perez",
@@ -83,7 +90,8 @@
       "discipline": "60m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 954
+      "internal_id": 954,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Mireia Redondo Mendoza",
@@ -93,7 +101,8 @@
       "discipline": "300m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 957
+      "internal_id": 957,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Olivia Ruiz Barbera",
@@ -103,7 +112,8 @@
       "discipline": "300m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 1018
+      "internal_id": 1018,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Ainoa Rodriguez Murillo",
@@ -113,7 +123,8 @@
       "discipline": "300m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 965
+      "internal_id": 965,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Laia Cabrero Perez",
@@ -123,7 +134,8 @@
       "discipline": "300m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 954
+      "internal_id": 954,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Iris Garrido Garcia",
@@ -133,7 +145,8 @@
       "discipline": "600m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 982
+      "internal_id": 982,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Clara Ortiz De Landazuri Ontoso",
@@ -143,7 +156,8 @@
       "discipline": "1.000m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 1022
+      "internal_id": 1022,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Carla Borras Verges-tapiro",
@@ -153,7 +167,8 @@
       "discipline": "60m tanques (0,762) FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 951
+      "internal_id": 951,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Lucia Echevarria Parafita",
@@ -163,7 +178,8 @@
       "discipline": "Alçada FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 987
+      "internal_id": 987,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Ainoa Rodriguez Murillo",
@@ -173,7 +189,9 @@
       "discipline": "Alçada FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 965
+      "internal_id": 965,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": true
 }

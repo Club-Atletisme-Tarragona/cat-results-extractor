@@ -13,7 +13,8 @@
       "discipline": "600m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 1022
+      "internal_id": 1022,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Nora Montolio Amaro",
@@ -23,7 +24,9 @@
       "discipline": "600m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 1089
+      "internal_id": 1089,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": true
 }

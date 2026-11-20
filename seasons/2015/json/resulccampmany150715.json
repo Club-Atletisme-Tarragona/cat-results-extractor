@@ -13,7 +13,8 @@
       "discipline": "100 metres llisos",
       "raw_discipline_name": "100m MASC. AL",
       "wind": "+1.1",
-      "internal_id": 416
+      "internal_id": 416,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Josep Maria Mateo Sanz",
@@ -23,7 +24,8 @@
       "discipline": "100 metres llisos",
       "raw_discipline_name": "100m MASC. AL",
       "wind": null,
-      "internal_id": 343
+      "internal_id": 343,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Xavier Ros Borrell",
@@ -33,7 +35,8 @@
       "discipline": "400 metres llisos",
       "raw_discipline_name": "400m MASC. AL",
       "wind": null,
-      "internal_id": 439
+      "internal_id": 439,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Helena Rios Montserrat",
@@ -43,7 +46,9 @@
       "discipline": "Disc (1 Kg)",
       "raw_discipline_name": "Disc (1kg) FEM.",
       "wind": null,
-      "internal_id": 409
+      "internal_id": 409,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

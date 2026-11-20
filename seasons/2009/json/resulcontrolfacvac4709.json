@@ -13,7 +13,8 @@
       "raw_discipline_name": "SALT DE LLARGADA FEMENÍ",
       "performance": "4.63",
       "wind": null,
-      "internal_id": 313
+      "internal_id": 313,
+      "timing": "electronic"
     },
     {
       "athlete_name": "MONTSE GUINOVART PEDESCOLL",
@@ -23,7 +24,8 @@
       "raw_discipline_name": "SALT DE LLARGADA FEMENÍ",
       "performance": "4.91",
       "wind": null,
-      "internal_id": 313
+      "internal_id": 313,
+      "timing": "electronic"
     },
     {
       "athlete_name": "MONTSE GUINOVART PEDESCOLL",
@@ -33,7 +35,9 @@
       "raw_discipline_name": "SALT DE LLARGADA FEMENÍ",
       "performance": "5.05",
       "wind": null,
-      "internal_id": 313
+      "internal_id": 313,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

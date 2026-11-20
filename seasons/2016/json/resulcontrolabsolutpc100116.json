@@ -13,7 +13,8 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada MASC. PC",
       "wind": null,
-      "internal_id": 71
+      "internal_id": 71,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Pere Pardines Gras",
@@ -23,7 +24,8 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada MASC. PC",
       "wind": null,
-      "internal_id": 71
+      "internal_id": 71,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Pere Pardines Gras",
@@ -33,7 +35,8 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada MASC. PC",
       "wind": null,
-      "internal_id": 71
+      "internal_id": 71,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Ivan Tamarit Roman",
@@ -43,7 +46,8 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m MASC. PC",
       "wind": null,
-      "internal_id": 416
+      "internal_id": 416,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Jose Miguel Martin Alvarez",
@@ -53,7 +57,8 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m MASC. PC",
       "wind": null,
-      "internal_id": 15
+      "internal_id": 15,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Pere Pardines Gras",
@@ -63,7 +68,8 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m MASC. PC",
       "wind": null,
-      "internal_id": 71
+      "internal_id": 71,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Jonathan Romera Tejera",
@@ -73,7 +79,8 @@
       "discipline": "400 metres llisos",
       "raw_discipline_name": "400m MASC. PC",
       "wind": null,
-      "internal_id": 407
+      "internal_id": 407,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Jesus Fernando Montolio Alcon",
@@ -83,7 +90,8 @@
       "discipline": "400 metres llisos",
       "raw_discipline_name": "400m MASC. PC",
       "wind": null,
-      "internal_id": 405
+      "internal_id": 405,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Daina Martinez Falguera",
@@ -93,7 +101,8 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m FEM. PC",
       "wind": null,
-      "internal_id": 543
+      "internal_id": 543,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Blanca Tortajada Pinto",
@@ -103,7 +112,9 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m FEM. PC",
       "wind": null,
-      "internal_id": 310
+      "internal_id": 310,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": true
 }

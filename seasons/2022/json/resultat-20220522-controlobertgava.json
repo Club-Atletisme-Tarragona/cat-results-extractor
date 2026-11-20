@@ -13,7 +13,8 @@
       "discipline": "100m M",
       "wind": "+0.6",
       "position": null,
-      "internal_id": 808
+      "internal_id": 808,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Hugo Jules Saiz Santolaria",
@@ -23,7 +24,8 @@
       "discipline": "200m M",
       "wind": "+3.3",
       "position": null,
-      "internal_id": 808
+      "internal_id": 808,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Hugo Rodriguez Martinez",
@@ -33,7 +35,8 @@
       "discipline": "800m M",
       "wind": null,
       "position": null,
-      "internal_id": 777
+      "internal_id": 777,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Tecla Guim Caceres",
@@ -43,7 +46,8 @@
       "discipline": "Disc ABSOLUT F (1 Kg)",
       "wind": null,
       "position": null,
-      "internal_id": 843
+      "internal_id": 843,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Tecla Guim Caceres",
@@ -53,7 +57,9 @@
       "discipline": "Disc ABSOLUT F (1 Kg)",
       "wind": null,
       "position": null,
-      "internal_id": 843
+      "internal_id": 843,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

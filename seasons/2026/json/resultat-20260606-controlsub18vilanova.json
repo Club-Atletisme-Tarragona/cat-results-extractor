@@ -14,7 +14,8 @@
       "raw_discipline_name": "800m masculins",
       "wind": null,
       "position": null,
-      "internal_id": 1076
+      "internal_id": 1076,
+      "timing": "electronic"
     },
     {
       "athlete_name": "DAVID FERNANDEZ PINEDA",
@@ -25,7 +26,8 @@
       "raw_discipline_name": "Triple salt masculí",
       "wind": "1.9",
       "position": null,
-      "internal_id": 1078
+      "internal_id": 1078,
+      "timing": "electronic"
     },
     {
       "athlete_name": "DAVID FERNANDEZ PINEDA",
@@ -36,7 +38,8 @@
       "raw_discipline_name": "Triple salt masculí",
       "wind": "1.6",
       "position": null,
-      "internal_id": 1078
+      "internal_id": 1078,
+      "timing": "electronic"
     },
     {
       "athlete_name": "DAVID FERNANDEZ PINEDA",
@@ -47,7 +50,8 @@
       "raw_discipline_name": "Triple salt masculí",
       "wind": "1.8",
       "position": null,
-      "internal_id": 1078
+      "internal_id": 1078,
+      "timing": "electronic"
     },
     {
       "athlete_name": "DAVID FERNANDEZ PINEDA",
@@ -58,7 +62,8 @@
       "raw_discipline_name": "Triple salt masculí",
       "wind": "1.8",
       "position": null,
-      "internal_id": 1078
+      "internal_id": 1078,
+      "timing": "electronic"
     },
     {
       "athlete_name": "DAVID FERNANDEZ PINEDA",
@@ -69,7 +74,8 @@
       "raw_discipline_name": "Triple salt masculí",
       "wind": "1.4",
       "position": null,
-      "internal_id": 1078
+      "internal_id": 1078,
+      "timing": "electronic"
     },
     {
       "athlete_name": "NAYLA SENTIS TORAO",
@@ -80,7 +86,8 @@
       "raw_discipline_name": "200m femenins",
       "wind": "-0.9",
       "position": null,
-      "internal_id": 1054
+      "internal_id": 1054,
+      "timing": "electronic"
     },
     {
       "athlete_name": "ALDARA LINARES ANTELO",
@@ -91,7 +98,8 @@
       "raw_discipline_name": "200m femenins",
       "wind": "-0.9",
       "position": null,
-      "internal_id": 1068
+      "internal_id": 1068,
+      "timing": "electronic"
     },
     {
       "athlete_name": "DIANA GARCÍA MUR",
@@ -102,7 +110,8 @@
       "raw_discipline_name": "800m femenins",
       "wind": null,
       "position": null,
-      "internal_id": 1081
+      "internal_id": 1081,
+      "timing": "electronic"
     },
     {
       "athlete_name": "NORA MONTOLIO AMARO",
@@ -113,7 +122,8 @@
       "raw_discipline_name": "400m tanques femenins",
       "wind": null,
       "position": null,
-      "internal_id": 1089
+      "internal_id": 1089,
+      "timing": "electronic"
     },
     {
       "athlete_name": "NOA NIN NAVAS",
@@ -124,7 +134,8 @@
       "raw_discipline_name": "Pes femení",
       "wind": null,
       "position": null,
-      "internal_id": 1010
+      "internal_id": 1010,
+      "timing": "electronic"
     },
     {
       "athlete_name": "NOA NIN NAVAS",
@@ -135,7 +146,9 @@
       "raw_discipline_name": "Disc femení",
       "wind": null,
       "position": null,
-      "internal_id": 1010
+      "internal_id": 1010,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

@@ -13,7 +13,8 @@
       "discipline": "400m MASC. AL",
       "wind": null,
       "position": null,
-      "internal_id": 660
+      "internal_id": 660,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Aleix Lago Garbajosa",
@@ -23,7 +24,8 @@
       "discipline": "400m MASC. AL",
       "wind": null,
       "position": 5,
-      "internal_id": 660
+      "internal_id": 660,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Sira Bo Calaf",
@@ -33,7 +35,8 @@
       "discipline": "1.500m FEM. AL",
       "wind": null,
       "position": 4,
-      "internal_id": 599
+      "internal_id": 599,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Mireia Lopez Urbano",
@@ -43,7 +46,8 @@
       "discipline": "100m tanques (0,84) FEM. AL",
       "wind": "-0.3",
       "position": null,
-      "internal_id": 527
+      "internal_id": 527,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Mireia Lopez Urbano",
@@ -53,7 +57,8 @@
       "discipline": "100m tanques (0,84) FEM. AL",
       "wind": "+0.0",
       "position": null,
-      "internal_id": 527
+      "internal_id": 527,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Nuria Caballero Pacheco",
@@ -63,7 +68,9 @@
       "discipline": "Alçada FEM. AL",
       "wind": null,
       "position": 1,
-      "internal_id": 753
+      "internal_id": 753,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

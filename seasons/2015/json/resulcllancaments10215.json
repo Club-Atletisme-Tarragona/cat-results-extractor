@@ -13,7 +13,8 @@
       "discipline": "Disc (1,750)",
       "raw_discipline_name": "Disc Júnior (1,750kg) MASC.",
       "wind": null,
-      "internal_id": 319
+      "internal_id": 319,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Mariona Martin Gonzalez",
@@ -23,7 +24,9 @@
       "discipline": "Disc (1,750)",
       "raw_discipline_name": "Disc Júnior (1,750kg) MASC.",
       "wind": null,
-      "internal_id": 319
+      "internal_id": 319,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

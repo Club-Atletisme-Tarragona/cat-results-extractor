@@ -13,7 +13,8 @@
       "discipline": "Martell (4 Kg)",
       "raw_discipline_name": "Martell (4kg) FEM.",
       "wind": null,
-      "internal_id": 319
+      "internal_id": 319,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Mariona Martin Gonzalez",
@@ -23,7 +24,8 @@
       "discipline": "Martell (4 Kg)",
       "raw_discipline_name": "Martell (4kg) FEM.",
       "wind": null,
-      "internal_id": 319
+      "internal_id": 319,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Mariona Martin Gonzalez",
@@ -33,7 +35,9 @@
       "discipline": "Martell (4 Kg)",
       "raw_discipline_name": "Martell (4kg) FEM.",
       "wind": null,
-      "internal_id": 319
+      "internal_id": 319,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

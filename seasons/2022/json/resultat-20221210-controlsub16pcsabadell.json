@@ -13,7 +13,8 @@
       "discipline": "300m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 977
+      "internal_id": 977,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Jan Vives Fons",
@@ -23,7 +24,9 @@
       "discipline": "60m tanques (0,91) MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 977
+      "internal_id": 977,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": true
 }

@@ -13,7 +13,8 @@
       "raw_discipline_name": "60 METRES LLISOS MASCULINS",
       "performance": "7.97",
       "wind": null,
-      "internal_id": 1
+      "internal_id": 1,
+      "timing": "electronic"
     },
     {
       "athlete_name": "FERNANDO FLORES MONTES",
@@ -23,7 +24,8 @@
       "raw_discipline_name": "60 METRES LLISOS MASCULINS",
       "performance": "N.P.",
       "wind": null,
-      "internal_id": 4
+      "internal_id": 4,
+      "timing": "electronic"
     },
     {
       "athlete_name": "FERNANDO FLORES MONTES",
@@ -33,7 +35,8 @@
       "raw_discipline_name": "200 METRES LLISOS MASCULINS",
       "performance": "26.54",
       "wind": null,
-      "internal_id": 4
+      "internal_id": 4,
+      "timing": "electronic"
     },
     {
       "athlete_name": "FERNANDO FLORES MONTES",
@@ -43,7 +46,8 @@
       "raw_discipline_name": "400 METRES LLISOS MASCULINS",
       "performance": "0:59.45",
       "wind": null,
-      "internal_id": 4
+      "internal_id": 4,
+      "timing": "electronic"
     },
     {
       "athlete_name": "ALEJANDRO LOPEZ VILA",
@@ -53,7 +57,8 @@
       "raw_discipline_name": "400 METRES LLISOS MASCULINS",
       "performance": "1:03.69",
       "wind": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "PERE PARDINES GRAS",
@@ -63,7 +68,8 @@
       "raw_discipline_name": "800 METRES LLISOS MASCULINS",
       "performance": "2:26.67",
       "wind": null,
-      "internal_id": 71
+      "internal_id": 71,
+      "timing": "electronic"
     },
     {
       "athlete_name": "CARLOS FERRER BARBERAN",
@@ -73,7 +79,8 @@
       "raw_discipline_name": "1500 METRES LLISOS MASCULINS",
       "performance": "4:21.22",
       "wind": null,
-      "internal_id": 178
+      "internal_id": 178,
+      "timing": "electronic"
     },
     {
       "athlete_name": "JOSE F. GARCIA NAVARRETE",
@@ -83,7 +90,8 @@
       "raw_discipline_name": "1500 METRES LLISOS MASCULINS",
       "performance": "4:42.07",
       "wind": null,
-      "internal_id": 5
+      "internal_id": 5,
+      "timing": "electronic"
     },
     {
       "athlete_name": "CARLOS FERRER BARBERAN",
@@ -93,7 +101,8 @@
       "raw_discipline_name": "3000 METRES LLISOS MASCULINS",
       "performance": "9:28.35",
       "wind": null,
-      "internal_id": 178
+      "internal_id": 178,
+      "timing": "electronic"
     },
     {
       "athlete_name": "XAVIER CERVELLO PORTA",
@@ -103,7 +112,8 @@
       "raw_discipline_name": "3000 METRES LLISOS MASCULINS",
       "performance": "9:34.51",
       "wind": null,
-      "internal_id": 198
+      "internal_id": 198,
+      "timing": "electronic"
     },
     {
       "athlete_name": "JOAN BARDINA TOMAS",
@@ -113,7 +123,8 @@
       "raw_discipline_name": "3000 METRES LLISOS MASCULINS",
       "performance": "9:41.89",
       "wind": null,
-      "internal_id": 7
+      "internal_id": 7,
+      "timing": "electronic"
     },
     {
       "athlete_name": "JOSE FRANCISCO GARCIA NAVARRETE",
@@ -123,7 +134,8 @@
       "raw_discipline_name": "3000 METRES LLISOS MASCULINS",
       "performance": "9:50.54",
       "wind": null,
-      "internal_id": 5
+      "internal_id": 5,
+      "timing": "electronic"
     },
     {
       "athlete_name": "JUAN DOMINGO ROMERO",
@@ -133,7 +145,8 @@
       "raw_discipline_name": "3000 METRES LLISOS MASCULINS",
       "performance": "11:27.54",
       "wind": null,
-      "internal_id": 6
+      "internal_id": 6,
+      "timing": "electronic"
     },
     {
       "athlete_name": "ALEJANDRO LOPEZ VILA",
@@ -143,7 +156,8 @@
       "raw_discipline_name": "3000 METRES LLISOS MASCULINS",
       "performance": "10:43.30",
       "wind": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "PERE PARDINES GRAS",
@@ -153,7 +167,8 @@
       "raw_discipline_name": "SALT D'ALÇADA MASCULÍ",
       "performance": "1.61",
       "wind": null,
-      "internal_id": 71
+      "internal_id": 71,
+      "timing": "electronic"
     },
     {
       "athlete_name": "PERE PARDINES GRAS",
@@ -163,7 +178,8 @@
       "raw_discipline_name": "SALT DE LLARGADA MASCULÍ",
       "performance": "4.88",
       "wind": null,
-      "internal_id": 71
+      "internal_id": 71,
+      "timing": "electronic"
     },
     {
       "athlete_name": "PERE PARDINES GRAS",
@@ -173,7 +189,8 @@
       "raw_discipline_name": "SALT DE LLARGADA MASCULÍ",
       "performance": "4.69",
       "wind": null,
-      "internal_id": 71
+      "internal_id": 71,
+      "timing": "electronic"
     },
     {
       "athlete_name": "PERE PARDINES GRAS",
@@ -183,7 +200,8 @@
       "raw_discipline_name": "SALT DE LLARGADA MASCULÍ",
       "performance": "4.91",
       "wind": null,
-      "internal_id": 71
+      "internal_id": 71,
+      "timing": "electronic"
     },
     {
       "athlete_name": "PERE PARDINES GRAS",
@@ -193,7 +211,9 @@
       "raw_discipline_name": "SALT DE LLARGADA MASCULÍ",
       "performance": "4.87",
       "wind": null,
-      "internal_id": 71
+      "internal_id": 71,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": true
 }

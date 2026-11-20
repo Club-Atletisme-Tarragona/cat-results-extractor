@@ -13,7 +13,8 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m MASC. PC",
       "wind": null,
-      "internal_id": 444
+      "internal_id": 444,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Jesus Muñoz Vazquez",
@@ -23,7 +24,8 @@
       "discipline": "200 metres llisos",
       "raw_discipline_name": "200m MASC. PC",
       "wind": null,
-      "internal_id": 444
+      "internal_id": 444,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Jesus Muñoz Vazquez",
@@ -33,7 +35,8 @@
       "discipline": "200 metres llisos",
       "raw_discipline_name": "200m MASC. PC",
       "wind": null,
-      "internal_id": 444
+      "internal_id": 444,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Helena Rios Montserrat",
@@ -43,7 +46,8 @@
       "discipline": "200 metres llisos",
       "raw_discipline_name": "200m FEM. PC",
       "wind": null,
-      "internal_id": 409
+      "internal_id": 409,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Maria Alvarez Auños",
@@ -53,7 +57,8 @@
       "discipline": "Alçada",
       "raw_discipline_name": "Alçada FEM. PC",
       "wind": null,
-      "internal_id": 346
+      "internal_id": 346,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Helena Rios Montserrat",
@@ -63,7 +68,9 @@
       "discipline": "Perxa",
       "raw_discipline_name": "Perxa FEM. PC",
       "wind": null,
-      "internal_id": 409
+      "internal_id": 409,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": true
 }

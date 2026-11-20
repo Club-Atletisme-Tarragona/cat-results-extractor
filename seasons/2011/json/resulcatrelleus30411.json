@@ -10,7 +10,8 @@
       "raw_discipline_name": "4x60m Relleus",
       "performance": "39.76",
       "internal_id": 653,
-      "wind": null
+      "wind": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Juan Gonzalez",
@@ -18,7 +19,8 @@
       "raw_discipline_name": "4x60m Relleus",
       "performance": "39.76",
       "internal_id": 1079,
-      "wind": null
+      "wind": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Aleix Lago",
@@ -26,7 +28,8 @@
       "raw_discipline_name": "4x60m Relleus",
       "performance": "39.76",
       "internal_id": 660,
-      "wind": null
+      "wind": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Nil Pinyol",
@@ -34,7 +37,8 @@
       "raw_discipline_name": "4x60m Relleus",
       "performance": "39.76",
       "internal_id": 714,
-      "wind": null
+      "wind": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Edgar Jose",
@@ -42,7 +46,8 @@
       "raw_discipline_name": "4x60m Relleus",
       "performance": "39.90",
       "internal_id": 653,
-      "wind": null
+      "wind": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Juan Gonzalez",
@@ -50,7 +55,8 @@
       "raw_discipline_name": "4x60m Relleus",
       "performance": "39.90",
       "internal_id": 1079,
-      "wind": null
+      "wind": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Aleix Lago",
@@ -58,7 +64,8 @@
       "raw_discipline_name": "4x60m Relleus",
       "performance": "39.90",
       "internal_id": 660,
-      "wind": null
+      "wind": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Nil Pinyol",
@@ -66,7 +73,8 @@
       "raw_discipline_name": "4x60m Relleus",
       "performance": "39.90",
       "internal_id": 714,
-      "wind": null
+      "wind": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Carla Berenguel",
@@ -74,7 +82,8 @@
       "raw_discipline_name": "4x60m Relleus",
       "performance": "43.14",
       "internal_id": null,
-      "wind": null
+      "wind": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Laura Mascarell",
@@ -82,7 +91,8 @@
       "raw_discipline_name": "4x60m Relleus",
       "performance": "43.14",
       "internal_id": 646,
-      "wind": null
+      "wind": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Mar Vazquez",
@@ -90,7 +100,8 @@
       "raw_discipline_name": "4x60m Relleus",
       "performance": "43.14",
       "internal_id": 642,
-      "wind": null
+      "wind": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Berta Sanchez",
@@ -98,8 +109,10 @@
       "raw_discipline_name": "4x60m Relleus",
       "performance": "43.14",
       "internal_id": 643,
-      "wind": null
+      "wind": null,
+      "timing": "electronic"
     }
   ],
-  "total_results": 12
+  "total_results": 12,
+  "is_short_track": false
 }

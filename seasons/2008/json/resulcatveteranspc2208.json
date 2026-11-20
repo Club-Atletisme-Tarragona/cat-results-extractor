@@ -13,7 +13,8 @@
       "raw_discipline_name": "60 METRES LLISOS MASCULINS",
       "performance": "9.46",
       "wind": null,
-      "internal_id": 304
+      "internal_id": 304,
+      "timing": "electronic"
     },
     {
       "athlete_name": "FLORES MONTES FERNANDO",
@@ -23,7 +24,8 @@
       "raw_discipline_name": "400 METRES LLISOS MASCULINS",
       "performance": "0:57.76",
       "wind": null,
-      "internal_id": 4
+      "internal_id": 4,
+      "timing": "electronic"
     },
     {
       "athlete_name": "FLORES MONTES FERNANDO",
@@ -33,7 +35,8 @@
       "raw_discipline_name": "800 METRES LLISOS MASCULINS",
       "performance": "2:17.21",
       "wind": null,
-      "internal_id": 4
+      "internal_id": 4,
+      "timing": "electronic"
     },
     {
       "athlete_name": "GARCIA NAVARRETE JOSE",
@@ -43,7 +46,8 @@
       "raw_discipline_name": "3000 METRES LLISOS MASCULINS",
       "performance": "11:00.97",
       "wind": null,
-      "internal_id": 5
+      "internal_id": 5,
+      "timing": "electronic"
     },
     {
       "athlete_name": "SAEZ PEREZ LUIS",
@@ -53,7 +57,8 @@
       "raw_discipline_name": "SALT DE LLARGADA MASCULÍ",
       "performance": "4.11",
       "wind": null,
-      "internal_id": 304
+      "internal_id": 304,
+      "timing": "electronic"
     },
     {
       "athlete_name": "SAEZ PEREZ LUIS",
@@ -63,7 +68,8 @@
       "raw_discipline_name": "SALT DE LLARGADA MASCULÍ",
       "performance": "3.56",
       "wind": null,
-      "internal_id": 304
+      "internal_id": 304,
+      "timing": "electronic"
     },
     {
       "athlete_name": "SAEZ PEREZ LUIS",
@@ -73,7 +79,8 @@
       "raw_discipline_name": "SALT DE LLARGADA MASCULÍ",
       "performance": "3.15",
       "wind": null,
-      "internal_id": 304
+      "internal_id": 304,
+      "timing": "electronic"
     },
     {
       "athlete_name": "SAEZ PEREZ LUIS",
@@ -83,7 +90,8 @@
       "raw_discipline_name": "SALT DE LLARGADA MASCULÍ",
       "performance": "4.22",
       "wind": null,
-      "internal_id": 304
+      "internal_id": 304,
+      "timing": "electronic"
     },
     {
       "athlete_name": "SAEZ PEREZ LUIS",
@@ -93,7 +101,9 @@
       "raw_discipline_name": "SALT DE LLARGADA MASCULÍ",
       "performance": "3.69",
       "wind": null,
-      "internal_id": 304
+      "internal_id": 304,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": true
 }

@@ -13,7 +13,8 @@
       "discipline": "1000 metres marxa",
       "raw_discipline_name": "1.000m Marxa MASC. en pista",
       "wind": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Luana Izaga Deriu",
@@ -23,7 +24,9 @@
       "discipline": "1000 metres marxa",
       "raw_discipline_name": "1.000m Marxa FEM. en pista",
       "wind": null,
-      "internal_id": 928
+      "internal_id": 928,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

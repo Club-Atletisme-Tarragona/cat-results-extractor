@@ -13,7 +13,8 @@
       "discipline": "Longitud FEM. AL",
       "wind": null,
       "position": null,
-      "internal_id": 1326
+      "internal_id": 1326,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Irene Jimenez Garcia",
@@ -23,7 +24,9 @@
       "discipline": "Longitud FEM. AL",
       "wind": null,
       "position": null,
-      "internal_id": 1326
+      "internal_id": 1326,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

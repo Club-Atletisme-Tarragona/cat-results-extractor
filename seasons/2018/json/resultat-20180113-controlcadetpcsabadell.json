@@ -14,7 +14,8 @@
       "raw_discipline_name": "60m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 743
+      "internal_id": 743,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Pablo Angel Fernandez",
@@ -25,7 +26,8 @@
       "raw_discipline_name": "300m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 704
+      "internal_id": 704,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Pol Aixala Guiu",
@@ -36,7 +38,8 @@
       "raw_discipline_name": "300m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 733
+      "internal_id": 733,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Leire Dominguez Izaga",
@@ -47,7 +50,8 @@
       "raw_discipline_name": "300m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 743
+      "internal_id": 743,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Pol Aixala Guiu",
@@ -58,7 +62,9 @@
       "raw_discipline_name": "60m tanques (0,91) MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 733
+      "internal_id": 733,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": true
 }

@@ -13,7 +13,8 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m MASC. PC",
       "wind": null,
-      "internal_id": 645
+      "internal_id": 645,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Mario Sanchez Alvarez",
@@ -23,7 +24,8 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m MASC. PC",
       "wind": null,
-      "internal_id": 1023
+      "internal_id": 1023,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Mario Sanchez Alvarez",
@@ -33,7 +35,8 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada MASC. PC",
       "wind": null,
-      "internal_id": 1023
+      "internal_id": 1023,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Mario Sanchez Alvarez",
@@ -43,7 +46,8 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada MASC. PC",
       "wind": null,
-      "internal_id": 1023
+      "internal_id": 1023,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Mario Sanchez Alvarez",
@@ -53,7 +57,8 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada MASC. PC",
       "wind": null,
-      "internal_id": 1023
+      "internal_id": 1023,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Ines Delgado Pizzo",
@@ -63,7 +68,8 @@
       "discipline": "Alçada",
       "raw_discipline_name": "Alçada FEM. PC",
       "wind": null,
-      "internal_id": 667
+      "internal_id": 667,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Berta Sanchez Ruiz",
@@ -73,7 +79,8 @@
       "discipline": "Perxa",
       "raw_discipline_name": "Perxa FEM. PC",
       "wind": null,
-      "internal_id": 643
+      "internal_id": 643,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Mar Vazquez Domingo",
@@ -83,7 +90,8 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada FEM. PC",
       "wind": null,
-      "internal_id": 642
+      "internal_id": 642,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Mar Vazquez Domingo",
@@ -93,7 +101,9 @@
       "discipline": "Llargada",
       "raw_discipline_name": "Llargada FEM. PC",
       "wind": null,
-      "internal_id": 642
+      "internal_id": 642,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": true
 }

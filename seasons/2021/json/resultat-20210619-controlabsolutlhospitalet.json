@@ -13,7 +13,8 @@
       "discipline": "400 metres llisos Masculí",
       "wind": null,
       "position": null,
-      "internal_id": 778
+      "internal_id": 778,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Oscar Lefler Cortes",
@@ -23,7 +24,8 @@
       "discipline": "1.500 metres llisos Masculí",
       "wind": null,
       "position": null,
-      "internal_id": 758
+      "internal_id": 758,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Jan Sans Riola",
@@ -33,7 +35,9 @@
       "discipline": "400 metres tanques (0,91) Masculí",
       "wind": null,
       "position": null,
-      "internal_id": 435
+      "internal_id": 435,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

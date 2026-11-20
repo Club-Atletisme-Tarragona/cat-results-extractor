@@ -13,7 +13,8 @@
       "discipline": "100m MASC. AL SUB 16",
       "wind": "+0.0",
       "position": null,
-      "internal_id": 1014
+      "internal_id": 1014,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Illan Tomas Batet",
@@ -23,7 +24,8 @@
       "discipline": "100m MASC. AL SUB 16",
       "wind": "-2.3",
       "position": null,
-      "internal_id": 1013
+      "internal_id": 1013,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Unai Olaya Minguez",
@@ -33,7 +35,8 @@
       "discipline": "600m MASC. AL SUB 16",
       "wind": null,
       "position": null,
-      "internal_id": 1014
+      "internal_id": 1014,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Clara Ortiz De Landazuri Ontoso",
@@ -43,7 +46,9 @@
       "discipline": "600m FEM. AL SUB 16",
       "wind": null,
       "position": null,
-      "internal_id": 1022
+      "internal_id": 1022,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

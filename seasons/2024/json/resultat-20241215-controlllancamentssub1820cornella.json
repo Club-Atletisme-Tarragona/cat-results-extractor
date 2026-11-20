@@ -13,7 +13,8 @@
       "discipline": "Disc (1,5 Kg)",
       "raw_discipline_name": "Disco (1,5kg) Hombres",
       "wind": null,
-      "internal_id": 971
+      "internal_id": 971,
+      "timing": "electronic"
     },
     {
       "athlete_name": "PAU CRESPO BELTRAN",
@@ -23,7 +24,8 @@
       "discipline": "Javelina (700 g)",
       "raw_discipline_name": "Jabalina (700g) Hombres",
       "wind": null,
-      "internal_id": 971
+      "internal_id": 971,
+      "timing": "electronic"
     },
     {
       "athlete_name": "NOA NIN NAVAS",
@@ -33,7 +35,8 @@
       "discipline": "Disc (1 Kg)",
       "raw_discipline_name": "Disco Mujeres",
       "wind": null,
-      "internal_id": 1010
+      "internal_id": 1010,
+      "timing": "electronic"
     },
     {
       "athlete_name": "PAU CRESPO BELTRAN",
@@ -43,7 +46,8 @@
       "discipline": "Disc (1 Kg)",
       "raw_discipline_name": "13:00   Disco Mujeres                                                               Final",
       "wind": null,
-      "internal_id": 971
+      "internal_id": 971,
+      "timing": "electronic"
     },
     {
       "athlete_name": "PAU CRESPO BELTRAN",
@@ -53,7 +57,8 @@
       "discipline": "Disc (1 Kg)",
       "raw_discipline_name": "13:00   Disco Mujeres                                                               Final",
       "wind": null,
-      "internal_id": 971
+      "internal_id": 971,
+      "timing": "electronic"
     },
     {
       "athlete_name": "NOA NIN NAVAS",
@@ -63,7 +68,9 @@
       "discipline": "Disc (1 Kg)",
       "raw_discipline_name": "13:00   Disco Mujeres                                                               Final",
       "wind": null,
-      "internal_id": 1010
+      "internal_id": 1010,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

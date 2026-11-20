@@ -13,7 +13,8 @@
       "discipline": "400 metres tanques (0.84)",
       "raw_discipline_name": "400m vallas (0,84) Hombres AL",
       "wind": null,
-      "internal_id": 999
+      "internal_id": 999,
+      "timing": "electronic"
     },
     {
       "athlete_name": "CARLA BORRAS VERGES-TAPIRO",
@@ -23,7 +24,9 @@
       "discipline": "400 metres tanques (0.762)",
       "raw_discipline_name": "400m vallas Mujeres",
       "wind": null,
-      "internal_id": 951
+      "internal_id": 951,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

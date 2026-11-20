@@ -13,7 +13,8 @@
       "raw_discipline_name": "5000 METRES LLISOS MASCULÍ",
       "performance": "16:52.16",
       "wind": null,
-      "internal_id": 178
+      "internal_id": 178,
+      "timing": "electronic"
     },
     {
       "athlete_name": "JOSE FRANC GARCIA NAVARRETE",
@@ -23,7 +24,8 @@
       "raw_discipline_name": "5000 METRES LLISOS MASCULÍ",
       "performance": "17:22.21",
       "wind": null,
-      "internal_id": 5
+      "internal_id": 5,
+      "timing": "electronic"
     },
     {
       "athlete_name": "EMILI BARBERAN DE MIQUEL",
@@ -33,7 +35,8 @@
       "raw_discipline_name": "5000 METRES LLISOS MASCULÍ",
       "performance": "18:09.89",
       "wind": null,
-      "internal_id": 267
+      "internal_id": 267,
+      "timing": "electronic"
     },
     {
       "athlete_name": "ESTER ARAGONES VIDAL",
@@ -43,7 +46,9 @@
       "raw_discipline_name": "800 METRES LLISOS FEMENÍ",
       "performance": "2:21.28",
       "wind": null,
-      "internal_id": 134
+      "internal_id": 134,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

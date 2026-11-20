@@ -14,7 +14,8 @@
       "raw_discipline_name": "60m Hombres AL U14M",
       "wind": null,
       "position": null,
-      "internal_id": 1403
+      "internal_id": 1403,
+      "timing": "electronic"
     },
     {
       "athlete_name": "DANIEL LINARES ANTELO",
@@ -25,7 +26,8 @@
       "raw_discipline_name": "200m Hombres U14M",
       "wind": null,
       "position": null,
-      "internal_id": 1403
+      "internal_id": 1403,
+      "timing": "electronic"
     },
     {
       "athlete_name": "POL DIAZ CRISTINO",
@@ -36,7 +38,8 @@
       "raw_discipline_name": "1.000m Hombres",
       "wind": null,
       "position": null,
-      "internal_id": 1333
+      "internal_id": 1333,
+      "timing": "electronic"
     },
     {
       "athlete_name": "FERRAN SANJUAN FLORES",
@@ -47,7 +50,8 @@
       "raw_discipline_name": "2.000m Hombres AL",
       "wind": null,
       "position": null,
-      "internal_id": 1436
+      "internal_id": 1436,
+      "timing": "electronic"
     },
     {
       "athlete_name": "TEO POU FONTS",
@@ -58,7 +62,8 @@
       "raw_discipline_name": "2.000m Hombres AL",
       "wind": null,
       "position": null,
-      "internal_id": 1377
+      "internal_id": 1377,
+      "timing": "electronic"
     },
     {
       "athlete_name": "TEO POU FONTS",
@@ -69,7 +74,8 @@
       "raw_discipline_name": "Altura Hombres",
       "wind": null,
       "position": null,
-      "internal_id": 1377
+      "internal_id": 1377,
+      "timing": "electronic"
     },
     {
       "athlete_name": "PAULA BLAZQUEZ BENSENY",
@@ -80,7 +86,8 @@
       "raw_discipline_name": "200m Mujeres U12F",
       "wind": null,
       "position": null,
-      "internal_id": 1459
+      "internal_id": 1459,
+      "timing": "electronic"
     },
     {
       "athlete_name": "CARLOTA FRUTOS MATURANA",
@@ -91,7 +98,8 @@
       "raw_discipline_name": "200m Mujeres U12F",
       "wind": null,
       "position": null,
-      "internal_id": 1426
+      "internal_id": 1426,
+      "timing": "electronic"
     },
     {
       "athlete_name": "BLANCA FRUTOS MATURANA",
@@ -102,7 +110,8 @@
       "raw_discipline_name": "200m Mujeres U14F",
       "wind": null,
       "position": null,
-      "internal_id": 1425
+      "internal_id": 1425,
+      "timing": "electronic"
     },
     {
       "athlete_name": "JULIA MUSTE SANTIAGO",
@@ -113,7 +122,8 @@
       "raw_discipline_name": "2.000m Mujeres AL",
       "wind": null,
       "position": null,
-      "internal_id": 1382
+      "internal_id": 1382,
+      "timing": "electronic"
     },
     {
       "athlete_name": "ADA FELIU LORCA",
@@ -124,7 +134,9 @@
       "raw_discipline_name": "Altura Mujeres",
       "wind": null,
       "position": null,
-      "internal_id": 1368
+      "internal_id": 1368,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

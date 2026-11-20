@@ -13,7 +13,8 @@
       "discipline": "110 metres tanques Masculí (0,914) Sub18",
       "wind": "-1.1",
       "position": null,
-      "internal_id": 645
+      "internal_id": 645,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Pablo Angel Fernandez",
@@ -23,7 +24,8 @@
       "discipline": "110 metres tanques Masculí (0,914) Sub18",
       "wind": "-1.0",
       "position": null,
-      "internal_id": 704
+      "internal_id": 704,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Leire Dominguez Izaga",
@@ -33,7 +35,8 @@
       "discipline": "100 metres llisos Femení Sub16",
       "wind": "-0.1",
       "position": null,
-      "internal_id": 743
+      "internal_id": 743,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Claudia Mir Casellas",
@@ -43,7 +46,8 @@
       "discipline": "100 metres tanques Femení (0,762) Sub18",
       "wind": "+0.0",
       "position": null,
-      "internal_id": 699
+      "internal_id": 699,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Leire Dominguez Izaga",
@@ -53,7 +57,9 @@
       "discipline": "300 metres tanques Femení (0,762) Sub16",
       "wind": null,
       "position": null,
-      "internal_id": 743
+      "internal_id": 743,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

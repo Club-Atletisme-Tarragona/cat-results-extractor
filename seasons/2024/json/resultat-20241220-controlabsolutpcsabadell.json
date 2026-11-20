@@ -13,7 +13,8 @@
       "discipline": "300m Masculins",
       "wind": null,
       "position": null,
-      "internal_id": 733
+      "internal_id": 733,
+      "timing": "electronic"
     },
     {
       "athlete_name": "CARLA BORRAS VERGES-TAPIRO",
@@ -23,7 +24,8 @@
       "discipline": "60m Femenins",
       "wind": null,
       "position": null,
-      "internal_id": 951
+      "internal_id": 951,
+      "timing": "electronic"
     },
     {
       "athlete_name": "CARLA BORRAS VERGES-TAPIRO",
@@ -33,7 +35,8 @@
       "discipline": "60m Femenins",
       "wind": null,
       "position": null,
-      "internal_id": 951
+      "internal_id": 951,
+      "timing": "electronic"
     },
     {
       "athlete_name": "PAULA FERNANDEZ VIVANCO",
@@ -43,7 +46,8 @@
       "discipline": "60m Femenins",
       "wind": null,
       "position": null,
-      "internal_id": 955
+      "internal_id": 955,
+      "timing": "electronic"
     },
     {
       "athlete_name": "MARIA ANTONIETTA SALAZAR",
@@ -53,7 +57,9 @@
       "discipline": "300m Femenins",
       "wind": null,
       "position": null,
-      "internal_id": 897
+      "internal_id": 897,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

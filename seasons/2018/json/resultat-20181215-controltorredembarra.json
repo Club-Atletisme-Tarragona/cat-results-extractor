@@ -14,7 +14,8 @@
       "raw_discipline_name": "Longitud FEM. S-10 F",
       "wind": null,
       "position": null,
-      "internal_id": 1089
+      "internal_id": 1089,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Paula Diez Plasencia",
@@ -25,7 +26,8 @@
       "raw_discipline_name": "Longitud FEM. S-10 F",
       "wind": null,
       "position": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Duina Borreda Cervello",
@@ -36,7 +38,8 @@
       "raw_discipline_name": "Longitud FEM. S-10 F",
       "wind": null,
       "position": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Diana Garcia Mur",
@@ -47,7 +50,8 @@
       "raw_discipline_name": "Longitud FEM. S-10 F",
       "wind": null,
       "position": null,
-      "internal_id": 1081
+      "internal_id": 1081,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Irene De La Rosa Fortuny",
@@ -58,7 +62,8 @@
       "raw_discipline_name": "Longitud FEM. S-10 F",
       "wind": null,
       "position": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Maria Ferran Jimenez",
@@ -69,7 +74,8 @@
       "raw_discipline_name": "Longitud FEM. S-10 F",
       "wind": null,
       "position": null,
-      "internal_id": 1325
+      "internal_id": 1325,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Lara Garcia Mur",
@@ -80,7 +86,8 @@
       "raw_discipline_name": "Longitud FEM. S-10 F",
       "wind": null,
       "position": null,
-      "internal_id": 1324
+      "internal_id": 1324,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Pau Esteve Hostalot",
@@ -91,7 +98,8 @@
       "raw_discipline_name": "Longitud MASC.S-10 M",
       "wind": null,
       "position": null,
-      "internal_id": 1055
+      "internal_id": 1055,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Marc Marti Fernandez",
@@ -102,7 +110,8 @@
       "raw_discipline_name": "Longitud MASC.S-10 M",
       "wind": null,
       "position": null,
-      "internal_id": 1108
+      "internal_id": 1108,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Pau Esteve Hostalot",
@@ -113,7 +122,8 @@
       "raw_discipline_name": "Disco (800g) FEM.",
       "wind": null,
       "position": null,
-      "internal_id": 1055
+      "internal_id": 1055,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Pau Esteve Hostalot",
@@ -124,7 +134,8 @@
       "raw_discipline_name": "Disco (800g) FEM.",
       "wind": null,
       "position": null,
-      "internal_id": 1055
+      "internal_id": 1055,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Pau Esteve Hostalot",
@@ -135,7 +146,9 @@
       "raw_discipline_name": "Disco (800g) FEM.",
       "wind": null,
       "position": null,
-      "internal_id": 1055
+      "internal_id": 1055,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

@@ -13,7 +13,8 @@
       "discipline": "Llargada SUB18 MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 958
+      "internal_id": 958,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Victor Jimenez Garcia",
@@ -23,7 +24,9 @@
       "discipline": "Llargada SUB18 MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 958
+      "internal_id": 958,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": true
 }

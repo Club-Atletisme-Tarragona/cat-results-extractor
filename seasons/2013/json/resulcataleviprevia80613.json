@@ -13,7 +13,8 @@
       "discipline": "600 metres llisos",
       "raw_discipline_name": "600 METRES LLISOS MASCULINS",
       "wind": null,
-      "internal_id": 660
+      "internal_id": 660,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Carla Berenguel Torres",
@@ -23,7 +24,8 @@
       "discipline": "Pes (4 Kg)",
       "raw_discipline_name": "LLANÇAMENT DE PES FEMENÍ",
       "wind": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Carla Berenguel Torres",
@@ -33,7 +35,8 @@
       "discipline": "Pes (4 Kg)",
       "raw_discipline_name": "LLANÇAMENT DE PES FEMENÍ",
       "wind": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Hugo Berenguel Torres",
@@ -43,7 +46,8 @@
       "discipline": "Pes (7.260 Kg)",
       "raw_discipline_name": "LLANÇAMENT DE PES MASCULÍ",
       "wind": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Hugo Berenguel Torres",
@@ -53,7 +57,8 @@
       "discipline": "Pes (7.260 Kg)",
       "raw_discipline_name": "LLANÇAMENT DE PES MASCULÍ",
       "wind": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Hugo Berenguel Torres",
@@ -63,7 +68,8 @@
       "discipline": "Pes (7.260 Kg)",
       "raw_discipline_name": "LLANÇAMENT DE PES MASCULÍ",
       "wind": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Paula Garcia Jimenez",
@@ -73,7 +79,9 @@
       "discipline": "2000 metres llisos",
       "raw_discipline_name": "2000 METRES LLISOS FEMENINS",
       "wind": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

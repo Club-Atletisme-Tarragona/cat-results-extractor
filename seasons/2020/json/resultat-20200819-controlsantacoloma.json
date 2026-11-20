@@ -13,7 +13,8 @@
       "discipline": "800m FEM. AL",
       "wind": null,
       "position": null,
-      "internal_id": 698
+      "internal_id": 698,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Xavier Ros Borrell",
@@ -23,7 +24,8 @@
       "discipline": "800m MASC. AL",
       "wind": null,
       "position": null,
-      "internal_id": 439
+      "internal_id": 439,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Aleix Lago Garbajosa",
@@ -33,7 +35,8 @@
       "discipline": "800m MASC. AL",
       "wind": null,
       "position": null,
-      "internal_id": 660
+      "internal_id": 660,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Gerard Parera Bodi",
@@ -43,7 +46,9 @@
       "discipline": "800m MASC. AL",
       "wind": null,
       "position": null,
-      "internal_id": 522
+      "internal_id": 522,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

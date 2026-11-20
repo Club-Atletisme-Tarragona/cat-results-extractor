@@ -14,7 +14,8 @@
       "raw_discipline_name": "100m Hombres",
       "wind": "-2.4",
       "position": null,
-      "internal_id": 1103
+      "internal_id": 1103,
+      "timing": "electronic"
     },
     {
       "athlete_name": "NORA MONTOLIO AMARO",
@@ -25,7 +26,9 @@
       "raw_discipline_name": "400m vallas Mujeres",
       "wind": null,
       "position": null,
-      "internal_id": 1089
+      "internal_id": 1089,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

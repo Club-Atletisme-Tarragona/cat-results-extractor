@@ -13,7 +13,8 @@
       "discipline": "60m MASC. AL",
       "wind": null,
       "position": null,
-      "internal_id": 1338
+      "internal_id": 1338,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Biel Gordillo Rodriguez",
@@ -23,7 +24,8 @@
       "discipline": "1.000m MASC. AL",
       "wind": null,
       "position": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Nil Torres Prats",
@@ -33,7 +35,8 @@
       "discipline": "Alçada MASC. AL",
       "wind": null,
       "position": null,
-      "internal_id": 1341
+      "internal_id": 1341,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Antonio Balazote",
@@ -43,7 +46,8 @@
       "discipline": "Llargada MASC. AL",
       "wind": null,
       "position": null,
-      "internal_id": 1370
+      "internal_id": 1370,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Antonio Balazote",
@@ -53,7 +57,8 @@
       "discipline": "Llargada MASC. AL",
       "wind": null,
       "position": null,
-      "internal_id": 1370
+      "internal_id": 1370,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Gael Torres Fortuny",
@@ -63,7 +68,8 @@
       "discipline": "Pes (2 Kg) MASC. AL",
       "wind": null,
       "position": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Gael Torres Fortuny",
@@ -73,7 +79,8 @@
       "discipline": "Pes (2 Kg) MASC. AL",
       "wind": null,
       "position": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Pol Diaz Cristino",
@@ -83,7 +90,8 @@
       "discipline": "1.000m Marxa MASC. en pista",
       "wind": null,
       "position": null,
-      "internal_id": 1333
+      "internal_id": 1333,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Antonio Balazote",
@@ -93,7 +101,8 @@
       "discipline": "4x60m MASC. AL",
       "wind": null,
       "position": null,
-      "internal_id": 1370
+      "internal_id": 1370,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Biel Gordillo Rodriguez",
@@ -103,7 +112,8 @@
       "discipline": "4x60m MASC. AL",
       "wind": null,
       "position": null,
-      "internal_id": null
+      "internal_id": null,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Blai Lligadas Turon",
@@ -113,7 +123,8 @@
       "discipline": "4x60m MASC. AL",
       "wind": null,
       "position": null,
-      "internal_id": 1338
+      "internal_id": 1338,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Nil Torres Prats",
@@ -123,7 +134,9 @@
       "discipline": "4x60m MASC. AL",
       "wind": null,
       "position": null,
-      "internal_id": 1341
+      "internal_id": 1341,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

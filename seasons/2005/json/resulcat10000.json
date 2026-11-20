@@ -13,7 +13,8 @@
       "raw_discipline_name": "10.000 METRES LLISOS MASCULINS",
       "performance": "32:23.45",
       "wind": null,
-      "internal_id": 178
+      "internal_id": 178,
+      "timing": "electronic"
     },
     {
       "athlete_name": "JOSÉ FRANCISCO GARCÍA NAVARRETE",
@@ -23,7 +24,9 @@
       "raw_discipline_name": "10.000 METRES LLISOS MASCULINS",
       "performance": "35:56.51",
       "wind": null,
-      "internal_id": 5
+      "internal_id": 5,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

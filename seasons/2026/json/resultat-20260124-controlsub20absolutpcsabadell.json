@@ -14,7 +14,8 @@
       "raw_discipline_name": "60m Masculins",
       "wind": null,
       "position": null,
-      "internal_id": 1103
+      "internal_id": 1103,
+      "timing": "electronic"
     },
     {
       "athlete_name": "MOHAMMED AISSAOUI EL AISSAOUI",
@@ -25,7 +26,8 @@
       "raw_discipline_name": "400m Masculins",
       "wind": null,
       "position": null,
-      "internal_id": 1037
+      "internal_id": 1037,
+      "timing": "electronic"
     },
     {
       "athlete_name": "JULIO LEON CID",
@@ -36,7 +38,8 @@
       "raw_discipline_name": "1.500m Masculins",
       "wind": null,
       "position": null,
-      "internal_id": 992
+      "internal_id": 992,
+      "timing": "electronic"
     },
     {
       "athlete_name": "MOHAMED OUHSSAINE",
@@ -47,7 +50,8 @@
       "raw_discipline_name": "1.500m Masculins",
       "wind": null,
       "position": null,
-      "internal_id": 1100
+      "internal_id": 1100,
+      "timing": "electronic"
     },
     {
       "athlete_name": "SILVIA VICENTE NAVARRETE",
@@ -58,7 +62,9 @@
       "raw_discipline_name": "60m tanques femenins",
       "wind": null,
       "position": null,
-      "internal_id": 905
+      "internal_id": 905,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": true
 }

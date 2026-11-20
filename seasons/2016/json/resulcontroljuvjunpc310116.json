@@ -13,7 +13,8 @@
       "discipline": "200 metres llisos",
       "raw_discipline_name": "200m MASC. PC",
       "wind": null,
-      "internal_id": 435
+      "internal_id": 435,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Jesus Muñoz Vazquez",
@@ -23,7 +24,8 @@
       "discipline": "200 metres llisos",
       "raw_discipline_name": "200m MASC. PC",
       "wind": null,
-      "internal_id": 444
+      "internal_id": 444,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Sergio Marcos Moreno",
@@ -33,7 +35,8 @@
       "discipline": "200 metres llisos",
       "raw_discipline_name": "200m MASC. PC",
       "wind": null,
-      "internal_id": 453
+      "internal_id": 453,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Didac Alonso Del Campo",
@@ -43,7 +46,8 @@
       "discipline": "200 metres llisos",
       "raw_discipline_name": "200m MASC. PC",
       "wind": null,
-      "internal_id": 468
+      "internal_id": 468,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Mireia Lopez Urbano",
@@ -53,7 +57,8 @@
       "discipline": "200 metres llisos",
       "raw_discipline_name": "200m FEM. PC",
       "wind": null,
-      "internal_id": 527
+      "internal_id": 527,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Maria Buscail Brianso",
@@ -63,7 +68,8 @@
       "discipline": "200 metres llisos",
       "raw_discipline_name": "200m FEM. PC",
       "wind": null,
-      "internal_id": 520
+      "internal_id": 520,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Andrea Lopez Urbano",
@@ -73,7 +79,8 @@
       "discipline": "200 metres llisos",
       "raw_discipline_name": "200m FEM. PC",
       "wind": null,
-      "internal_id": 437
+      "internal_id": 437,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Nerea Lago Garbajosa",
@@ -83,7 +90,9 @@
       "discipline": "200 metres llisos",
       "raw_discipline_name": "200m FEM. PC",
       "wind": null,
-      "internal_id": 534
+      "internal_id": 534,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": true
 }

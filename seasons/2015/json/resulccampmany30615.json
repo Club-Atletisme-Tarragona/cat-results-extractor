@@ -13,7 +13,8 @@
       "discipline": "100 metres llisos",
       "raw_discipline_name": "100m MASC. AL",
       "wind": "+0.9",
-      "internal_id": 416
+      "internal_id": 416,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Mohamed Maman",
@@ -23,7 +24,8 @@
       "discipline": "100 metres llisos",
       "raw_discipline_name": "100m MASC. AL",
       "wind": "+0.0",
-      "internal_id": 496
+      "internal_id": 496,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Jesus Muñoz Vazquez",
@@ -33,7 +35,8 @@
       "discipline": "100 metres llisos",
       "raw_discipline_name": "100m MASC. AL",
       "wind": "+0.0",
-      "internal_id": 444
+      "internal_id": 444,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Javier Almale Lerin",
@@ -43,7 +46,8 @@
       "discipline": "100 metres llisos",
       "raw_discipline_name": "100m MASC. AL",
       "wind": "+0.0",
-      "internal_id": 510
+      "internal_id": 510,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Helena Rios Montserrat",
@@ -53,7 +57,8 @@
       "discipline": "Triple",
       "raw_discipline_name": "Triple Salt FEM. AL",
       "wind": null,
-      "internal_id": 409
+      "internal_id": 409,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Mireia Lopez Urbano",
@@ -63,7 +68,8 @@
       "discipline": "Triple",
       "raw_discipline_name": "Triple Salt FEM. AL",
       "wind": null,
-      "internal_id": 527
+      "internal_id": 527,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Maria Martin Borras",
@@ -73,7 +79,9 @@
       "discipline": "100 metres llisos",
       "raw_discipline_name": "100m FEM. AL",
       "wind": "+0.0",
-      "internal_id": 474
+      "internal_id": 474,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

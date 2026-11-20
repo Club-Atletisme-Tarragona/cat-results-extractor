@@ -13,7 +13,8 @@
       "raw_discipline_name": "1500 METRES LLISOS MASCULINS",
       "performance": "4:22.94",
       "wind": null,
-      "internal_id": 1041
+      "internal_id": 1041,
+      "timing": "electronic"
     },
     {
       "athlete_name": "BARDINA TOMAS JOAN",
@@ -23,7 +24,9 @@
       "raw_discipline_name": "1500 METRES LLISOS MASCULINS",
       "performance": "4:33.89",
       "wind": null,
-      "internal_id": 7
+      "internal_id": 7,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": true
 }

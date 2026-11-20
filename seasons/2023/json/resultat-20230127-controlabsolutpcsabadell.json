@@ -13,7 +13,8 @@
       "discipline": "Alçada FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 936
+      "internal_id": 936,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Ruth Prats Nadal",
@@ -23,7 +24,8 @@
       "discipline": "Alçada FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 915
+      "internal_id": 915,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Natalia Sanchez Alvarez",
@@ -33,7 +35,8 @@
       "discipline": "Llargada FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 796
+      "internal_id": 796,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Natalia Sanchez Alvarez",
@@ -43,7 +46,8 @@
       "discipline": "Llargada FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 796
+      "internal_id": 796,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Natalia Sanchez Alvarez",
@@ -53,7 +57,8 @@
       "discipline": "Llargada FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 796
+      "internal_id": 796,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Natalia Sanchez Alvarez",
@@ -63,7 +68,9 @@
       "discipline": "Llargada FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 796
+      "internal_id": 796,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": true
 }

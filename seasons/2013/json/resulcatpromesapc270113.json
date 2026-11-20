@@ -13,7 +13,8 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m MASC. PC",
       "wind": null,
-      "internal_id": 397
+      "internal_id": 397,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Tomas Cordero Bel",
@@ -23,7 +24,8 @@
       "discipline": "60 metres llisos",
       "raw_discipline_name": "60m MASC. PC",
       "wind": null,
-      "internal_id": 397
+      "internal_id": 397,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Tomas Cordero Bel",
@@ -33,7 +35,9 @@
       "discipline": "200 metres llisos",
       "raw_discipline_name": "200m MASC. PC",
       "wind": null,
-      "internal_id": 397
+      "internal_id": 397,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": true
 }

@@ -14,7 +14,8 @@
       "raw_discipline_name": "100 m Hombres",
       "wind": "+2.0",
       "position": null,
-      "internal_id": 1095
+      "internal_id": 1095,
+      "timing": "electronic"
     },
     {
       "athlete_name": "DIDAC COMERMA GUASCH",
@@ -25,7 +26,8 @@
       "raw_discipline_name": "100 m Hombres",
       "wind": "+0.2",
       "position": null,
-      "internal_id": 1103
+      "internal_id": 1103,
+      "timing": "electronic"
     },
     {
       "athlete_name": "ALFONSO PAJARES CHAVARRI",
@@ -36,7 +38,8 @@
       "raw_discipline_name": "800 m Hombres",
       "wind": null,
       "position": null,
-      "internal_id": 1086
+      "internal_id": 1086,
+      "timing": "electronic"
     },
     {
       "athlete_name": "MOHAMED OUHSSAINE",
@@ -47,7 +50,8 @@
       "raw_discipline_name": "800 m Hombres",
       "wind": null,
       "position": null,
-      "internal_id": 1100
+      "internal_id": 1100,
+      "timing": "electronic"
     },
     {
       "athlete_name": "XAVIER ROS BORRELL",
@@ -58,7 +62,8 @@
       "raw_discipline_name": "800 m Hombres",
       "wind": null,
       "position": null,
-      "internal_id": 439
+      "internal_id": 439,
+      "timing": "electronic"
     },
     {
       "athlete_name": "MOHAMMED AISSAOUI EL AISSAOUI",
@@ -69,7 +74,8 @@
       "raw_discipline_name": "800 m Hombres",
       "wind": null,
       "position": null,
-      "internal_id": 1037
+      "internal_id": 1037,
+      "timing": "electronic"
     },
     {
       "athlete_name": "LUCIA MAYOLAS MARTINEZ DE CARNERO",
@@ -80,7 +86,8 @@
       "raw_discipline_name": "800 m Mujeres",
       "wind": null,
       "position": null,
-      "internal_id": 728
+      "internal_id": 728,
+      "timing": "electronic"
     },
     {
       "athlete_name": "MIREIA LOPEZ URBANO",
@@ -91,7 +98,8 @@
       "raw_discipline_name": "100 m vallas (0,84) Mujeres",
       "wind": "+0.9",
       "position": null,
-      "internal_id": 527
+      "internal_id": 527,
+      "timing": "electronic"
     },
     {
       "athlete_name": "MIREIA LOPEZ URBANO",
@@ -102,7 +110,9 @@
       "raw_discipline_name": "100 m vallas (0,84) Mujeres",
       "wind": "+0.0",
       "position": null,
-      "internal_id": 527
+      "internal_id": 527,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

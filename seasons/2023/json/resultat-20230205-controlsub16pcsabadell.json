@@ -13,7 +13,8 @@
       "discipline": "300m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 977
+      "internal_id": 977,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Matias Hernandez Sanchez",
@@ -23,7 +24,8 @@
       "discipline": "60m tanques (0,91) MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 999
+      "internal_id": 999,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Olivia Ruiz Barbera",
@@ -33,7 +35,8 @@
       "discipline": "60m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 1018
+      "internal_id": 1018,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Laia Cabrero Perez",
@@ -43,7 +46,8 @@
       "discipline": "60m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 954
+      "internal_id": 954,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Ainoa Rodriguez Murillo",
@@ -53,7 +57,8 @@
       "discipline": "60m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 965
+      "internal_id": 965,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Iris Garrido Garcia",
@@ -63,7 +68,8 @@
       "discipline": "300m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 982
+      "internal_id": 982,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Olivia Ruiz Barbera",
@@ -73,7 +79,8 @@
       "discipline": "300m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 1018
+      "internal_id": 1018,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Laia Cabrero Perez",
@@ -83,7 +90,8 @@
       "discipline": "300m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 954
+      "internal_id": 954,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Clara Ortiz De Landazuri Ontoso",
@@ -93,7 +101,8 @@
       "discipline": "1.000m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 1022
+      "internal_id": 1022,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Natalia Lara Girbes",
@@ -103,7 +112,8 @@
       "discipline": "1.000m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 836
+      "internal_id": 836,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Ainoa Rodriguez Murillo",
@@ -113,7 +123,9 @@
       "discipline": "60m tanques (0,762) FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 965
+      "internal_id": 965,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": true
 }

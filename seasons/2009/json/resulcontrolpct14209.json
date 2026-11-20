@@ -13,7 +13,8 @@
       "raw_discipline_name": "60 METRES LLISOS MASCULINS",
       "performance": "7.89",
       "wind": null,
-      "internal_id": 1
+      "internal_id": 1,
+      "timing": "electronic"
     },
     {
       "athlete_name": "RIOS MESEGUER DIDAC",
@@ -23,7 +24,8 @@
       "raw_discipline_name": "400 METRES LLISOS MASCULINS",
       "performance": "0:53.80",
       "wind": null,
-      "internal_id": 193
+      "internal_id": 193,
+      "timing": "electronic"
     },
     {
       "athlete_name": "MARTIN ALVAREZ JOSE MIGUEL",
@@ -33,7 +35,8 @@
       "raw_discipline_name": "60 METRES TANQUES JUNIORS - VETERANS MASCULINS",
       "performance": "9.52",
       "wind": null,
-      "internal_id": 15
+      "internal_id": 15,
+      "timing": "electronic"
     },
     {
       "athlete_name": "IBORRA MARTINEZ FRANCISCO JOSE",
@@ -43,7 +46,8 @@
       "raw_discipline_name": "60 METRES TANQUES JUNIORS - VETERANS MASCULINS",
       "performance": "10.16",
       "wind": null,
-      "internal_id": 1
+      "internal_id": 1,
+      "timing": "electronic"
     },
     {
       "athlete_name": "PARDINES GRAS PERE",
@@ -53,7 +57,9 @@
       "raw_discipline_name": "60 METRES TANQUES JUNIORS - VETERANS MASCULINS",
       "performance": "10.37",
       "wind": null,
-      "internal_id": 71
+      "internal_id": 71,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": true
 }

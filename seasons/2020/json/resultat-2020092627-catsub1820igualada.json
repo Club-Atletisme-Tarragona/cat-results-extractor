@@ -13,7 +13,8 @@
       "discipline": "Alçada SUB20 FEM. AL",
       "wind": null,
       "position": null,
-      "internal_id": 753
+      "internal_id": 753,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Maria Falco Cuenca",
@@ -23,7 +24,8 @@
       "discipline": "Alçada SUB20 FEM. AL",
       "wind": null,
       "position": null,
-      "internal_id": 664
+      "internal_id": 664,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Laurine Elisa Marimon Fernandez",
@@ -33,7 +35,8 @@
       "discipline": "Llargada SUB18 FEM. AL",
       "wind": "+2.6",
       "position": null,
-      "internal_id": 737
+      "internal_id": 737,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Laurine Elisa Marimon Fernandez",
@@ -43,7 +46,8 @@
       "discipline": "Triple Salt SUB18 FEM. AL",
       "wind": "+1.3",
       "position": null,
-      "internal_id": 737
+      "internal_id": 737,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Laurine Elisa Marimon Fernandez",
@@ -53,7 +57,8 @@
       "discipline": "Triple Salt SUB18 FEM. AL",
       "wind": "+0.0",
       "position": null,
-      "internal_id": 737
+      "internal_id": 737,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Laurine Elisa Marimon Fernandez",
@@ -63,7 +68,8 @@
       "discipline": "Triple Salt SUB18 FEM. AL",
       "wind": "+0.6",
       "position": null,
-      "internal_id": 737
+      "internal_id": 737,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Laurine Elisa Marimon Fernandez",
@@ -73,7 +79,8 @@
       "discipline": "Triple Salt SUB18 FEM. AL",
       "wind": "+0.5",
       "position": null,
-      "internal_id": 737
+      "internal_id": 737,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Laurine Elisa Marimon Fernandez",
@@ -83,7 +90,8 @@
       "discipline": "Triple Salt SUB18 FEM. AL",
       "wind": "+2.4",
       "position": null,
-      "internal_id": 737
+      "internal_id": 737,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Nuria Menchon Tevar",
@@ -93,7 +101,8 @@
       "discipline": "Martell (4 Kg) SUB20 FEM.",
       "wind": null,
       "position": null,
-      "internal_id": 541
+      "internal_id": 541,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Nuria Menchon Tevar",
@@ -103,7 +112,9 @@
       "discipline": "Martell (4 Kg) SUB20 FEM.",
       "wind": null,
       "position": null,
-      "internal_id": 541
+      "internal_id": 541,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

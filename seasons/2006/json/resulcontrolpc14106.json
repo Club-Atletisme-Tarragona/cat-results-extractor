@@ -13,7 +13,8 @@
       "raw_discipline_name": "60 METRES LLISOS MASCULINS",
       "performance": "7.46",
       "wind": null,
-      "internal_id": 217
+      "internal_id": 217,
+      "timing": "electronic"
     },
     {
       "athlete_name": "BERNAT ROCAMORA CHAPARRO",
@@ -23,7 +24,8 @@
       "raw_discipline_name": "200 METRES LLISOS MASCULINS",
       "performance": "24.29",
       "wind": null,
-      "internal_id": 217
+      "internal_id": 217,
+      "timing": "electronic"
     },
     {
       "athlete_name": "CARLOS FERRER BARBERAN",
@@ -33,7 +35,8 @@
       "raw_discipline_name": "3000 METRES LLISOS MASCULINS",
       "performance": "9:32.71",
       "wind": null,
-      "internal_id": 178
+      "internal_id": 178,
+      "timing": "electronic"
     },
     {
       "athlete_name": "XAVIER RODRIGUEZ CANO",
@@ -43,7 +46,8 @@
       "raw_discipline_name": "3000 METRES LLISOS MASCULINS",
       "performance": "9:40.91",
       "wind": null,
-      "internal_id": 245
+      "internal_id": 245,
+      "timing": "electronic"
     },
     {
       "athlete_name": "JOSE FRANCISCO GARCIA NAVARRETE",
@@ -53,7 +57,8 @@
       "raw_discipline_name": "3000 METRES LLISOS MASCULINS",
       "performance": "9:51.09",
       "wind": null,
-      "internal_id": 5
+      "internal_id": 5,
+      "timing": "electronic"
     },
     {
       "athlete_name": "JOSE MANUEL VELASCO FERNANDEZ",
@@ -63,7 +68,8 @@
       "raw_discipline_name": "3000 METRES LLISOS MASCULINS",
       "performance": "10:45.73",
       "wind": null,
-      "internal_id": 246
+      "internal_id": 246,
+      "timing": "electronic"
     },
     {
       "athlete_name": "ANNA SOLE FERRE",
@@ -73,7 +79,8 @@
       "raw_discipline_name": "60 METRES LLISOS FEMENINS",
       "performance": "8.02",
       "wind": null,
-      "internal_id": 233
+      "internal_id": 233,
+      "timing": "electronic"
     },
     {
       "athlete_name": "ANNA SOLE FERRE",
@@ -83,7 +90,9 @@
       "raw_discipline_name": "200 METRES LLISOS FEMENINS",
       "performance": "26.37",
       "wind": null,
-      "internal_id": 233
+      "internal_id": 233,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": true
 }

@@ -13,7 +13,8 @@
       "discipline": "60m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 908
+      "internal_id": 908,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Unai Ortiz De Landazuri Ontoso",
@@ -23,7 +24,8 @@
       "discipline": "200m MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 908
+      "internal_id": 908,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Unai Ortiz De Landazuri Ontoso",
@@ -33,7 +35,8 @@
       "discipline": "Alçada MASC. PC",
       "wind": null,
       "position": null,
-      "internal_id": 908
+      "internal_id": 908,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Maria Antonietta Salazar",
@@ -43,7 +46,8 @@
       "discipline": "60m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 897
+      "internal_id": 897,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Maria Antonietta Salazar",
@@ -53,7 +57,8 @@
       "discipline": "200m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 897
+      "internal_id": 897,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Silvia Vicente Navarrete",
@@ -63,7 +68,8 @@
       "discipline": "200m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 905
+      "internal_id": 905,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Sofia Rubio Reunis",
@@ -73,7 +79,8 @@
       "discipline": "800m FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 935
+      "internal_id": 935,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Sofia Rubio Reunis",
@@ -83,7 +90,8 @@
       "discipline": "Pes (3 Kg) SUB18 FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 935
+      "internal_id": 935,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Sofia Rubio Reunis",
@@ -93,7 +101,8 @@
       "discipline": "Pes (3 Kg) SUB18 FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 935
+      "internal_id": 935,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Sofia Rubio Reunis",
@@ -103,7 +112,9 @@
       "discipline": "Pes (3 Kg) SUB18 FEM. PC",
       "wind": null,
       "position": null,
-      "internal_id": 935
+      "internal_id": 935,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": true
 }

@@ -13,7 +13,8 @@
       "discipline": "100m MASC. ALVM",
       "wind": "-2.0",
       "position": null,
-      "internal_id": 637
+      "internal_id": 637,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Josep Maria Puig Lara",
@@ -23,7 +24,8 @@
       "discipline": "200m MASC. ALVM",
       "wind": "-2.4",
       "position": null,
-      "internal_id": 637
+      "internal_id": 637,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Jesus Fernando Montolio Alcon",
@@ -33,7 +35,8 @@
       "discipline": "400m MASC. ALVM",
       "wind": null,
       "position": null,
-      "internal_id": 405
+      "internal_id": 405,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Josep Maria Mateo Sanz",
@@ -43,7 +46,8 @@
       "discipline": "Pértiga MASC. ALVM",
       "wind": null,
       "position": null,
-      "internal_id": 343
+      "internal_id": 343,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Nil Pinyol Mateu",
@@ -53,7 +57,8 @@
       "discipline": "Longitud MASC. AL",
       "wind": "+2.2",
       "position": null,
-      "internal_id": 714
+      "internal_id": 714,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Nil Pinyol Mateu",
@@ -63,7 +68,8 @@
       "discipline": "Longitud MASC. AL",
       "wind": "+2.8",
       "position": null,
-      "internal_id": 714
+      "internal_id": 714,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Nil Pinyol Mateu",
@@ -73,7 +79,8 @@
       "discipline": "Longitud MASC. AL",
       "wind": "+2.4",
       "position": null,
-      "internal_id": 714
+      "internal_id": 714,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Nil Pinyol Mateu",
@@ -83,7 +90,8 @@
       "discipline": "Longitud MASC. AL",
       "wind": "+2.5",
       "position": null,
-      "internal_id": 714
+      "internal_id": 714,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Josep Maria Mateo Sanz",
@@ -93,7 +101,8 @@
       "discipline": "Longitud MASC. ALVM",
       "wind": "+2.8",
       "position": null,
-      "internal_id": 343
+      "internal_id": 343,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Josep Maria Mateo Sanz",
@@ -103,7 +112,8 @@
       "discipline": "Longitud MASC. ALVM",
       "wind": "+2.0",
       "position": null,
-      "internal_id": 343
+      "internal_id": 343,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Josep Maria Mateo Sanz",
@@ -113,7 +123,8 @@
       "discipline": "Longitud MASC. ALVM",
       "wind": "+2.0",
       "position": null,
-      "internal_id": 343
+      "internal_id": 343,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Josep Maria Mateo Sanz",
@@ -123,7 +134,8 @@
       "discipline": "Longitud MASC. ALVM",
       "wind": "+2.7",
       "position": null,
-      "internal_id": 343
+      "internal_id": 343,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Nil Pinyol Mateu",
@@ -133,7 +145,8 @@
       "discipline": "Triple Salto MASC. AL",
       "wind": "+2.6",
       "position": null,
-      "internal_id": 714
+      "internal_id": 714,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Nil Pinyol Mateu",
@@ -143,7 +156,8 @@
       "discipline": "Triple Salto MASC. AL",
       "wind": "+2.4",
       "position": null,
-      "internal_id": 714
+      "internal_id": 714,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Nil Pinyol Mateu",
@@ -153,7 +167,8 @@
       "discipline": "Triple Salto MASC. AL",
       "wind": "+3.8",
       "position": null,
-      "internal_id": 714
+      "internal_id": 714,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Nil Pinyol Mateu",
@@ -163,7 +178,8 @@
       "discipline": "Triple Salto MASC. AL",
       "wind": "+3.8",
       "position": null,
-      "internal_id": 714
+      "internal_id": 714,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Ana Cabello Rioja",
@@ -173,7 +189,8 @@
       "discipline": "100m FEM. ALVF",
       "wind": "-2.9",
       "position": null,
-      "internal_id": 449
+      "internal_id": 449,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Melinda Rodriguez Tortajada",
@@ -183,7 +200,8 @@
       "discipline": "800m FEM. ALVF",
       "wind": null,
       "position": null,
-      "internal_id": 53
+      "internal_id": 53,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Ana Cabello Rioja",
@@ -193,7 +211,8 @@
       "discipline": "Longitud FEM. ALVF",
       "wind": "+1.7",
       "position": null,
-      "internal_id": 449
+      "internal_id": 449,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Ana Cabello Rioja",
@@ -203,7 +222,9 @@
       "discipline": "Longitud FEM. ALVF",
       "wind": "+1.9",
       "position": null,
-      "internal_id": 449
+      "internal_id": 449,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

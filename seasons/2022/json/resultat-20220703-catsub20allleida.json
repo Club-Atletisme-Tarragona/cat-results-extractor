@@ -13,7 +13,8 @@
       "discipline": "110m tanques (1,00) MASC. AL",
       "wind": "-0.6",
       "position": null,
-      "internal_id": 704
+      "internal_id": 704,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Pablo Angel Fernandez",
@@ -23,7 +24,8 @@
       "discipline": "110m tanques (1,00) MASC. AL",
       "wind": "+3.5",
       "position": 3,
-      "internal_id": 704
+      "internal_id": 704,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Oscar Lefler Cortes",
@@ -33,7 +35,8 @@
       "discipline": "3.000m Obst. MASC.",
       "wind": null,
       "position": 1,
-      "internal_id": 758
+      "internal_id": 758,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Nil Pinyol Mateu",
@@ -43,7 +46,8 @@
       "discipline": "Llargada MASC. AL",
       "wind": "+0.0",
       "position": 10,
-      "internal_id": 714
+      "internal_id": 714,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Nil Pinyol Mateu",
@@ -53,7 +57,8 @@
       "discipline": "Llargada MASC. AL",
       "wind": "+0.0",
       "position": 10,
-      "internal_id": 714
+      "internal_id": 714,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Nil Pinyol Mateu",
@@ -63,7 +68,8 @@
       "discipline": "Llargada MASC. AL",
       "wind": "+0.0",
       "position": 10,
-      "internal_id": 714
+      "internal_id": 714,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Nil Pinyol Mateu",
@@ -73,7 +79,8 @@
       "discipline": "Triple Salt MASC. AL",
       "wind": "+1.4",
       "position": 8,
-      "internal_id": 714
+      "internal_id": 714,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Nil Pinyol Mateu",
@@ -83,7 +90,8 @@
       "discipline": "Triple Salt MASC. AL",
       "wind": "+1.2",
       "position": 8,
-      "internal_id": 714
+      "internal_id": 714,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Nil Pinyol Mateu",
@@ -93,7 +101,8 @@
       "discipline": "Triple Salt MASC. AL",
       "wind": "+1.6",
       "position": 8,
-      "internal_id": 714
+      "internal_id": 714,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Nil Pinyol Mateu",
@@ -103,7 +112,8 @@
       "discipline": "Triple Salt MASC. AL",
       "wind": "+0.0",
       "position": 8,
-      "internal_id": 714
+      "internal_id": 714,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Claudia Mir Casellas",
@@ -113,7 +123,8 @@
       "discipline": "400m tanques (0,762) FEM. AL",
       "wind": null,
       "position": 2,
-      "internal_id": 699
+      "internal_id": 699,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Carla Gonzalez Carrillo",
@@ -123,7 +134,9 @@
       "discipline": "3.000m Obst. FEM.",
       "wind": null,
       "position": 3,
-      "internal_id": 698
+      "internal_id": 698,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

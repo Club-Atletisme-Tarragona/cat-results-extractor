@@ -13,7 +13,8 @@
       "discipline": "800m Abs MASC. AL",
       "wind": null,
       "position": null,
-      "internal_id": 660
+      "internal_id": 660,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Claudia Mir Casellas",
@@ -23,7 +24,8 @@
       "discipline": "200m Abs FEM. AL",
       "wind": "-0.1",
       "position": null,
-      "internal_id": 699
+      "internal_id": 699,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Sira Bo Calaf",
@@ -33,7 +35,8 @@
       "discipline": "800m Abs FEM. AL",
       "wind": null,
       "position": null,
-      "internal_id": 599
+      "internal_id": 599,
+      "timing": "electronic"
     },
     {
       "athlete_name": "Claudia Mir Casellas",
@@ -43,7 +46,9 @@
       "discipline": "60m vallas (0,84) S20 FEM. AL",
       "wind": "-0.7",
       "position": null,
-      "internal_id": 699
+      "internal_id": 699,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

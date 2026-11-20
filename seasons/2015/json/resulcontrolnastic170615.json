@@ -13,7 +13,8 @@
       "raw_discipline_name": "RESULTATS SALT DE LLARGADA                                   CADET FEMENÍ",
       "performance": "4.84",
       "wind": null,
-      "internal_id": 598
+      "internal_id": 598,
+      "timing": "electronic"
     },
     {
       "athlete_name": "TORTAJADA PINTO BLANCA",
@@ -23,7 +24,8 @@
       "raw_discipline_name": "RESULTATS              MARTELL FEMENÍ               ( 4 kg,)",
       "performance": "31.52",
       "wind": null,
-      "internal_id": 310
+      "internal_id": 310,
+      "timing": "electronic"
     },
     {
       "athlete_name": "MONTAÑES ARBO MONTSERRAT",
@@ -33,7 +35,9 @@
       "raw_discipline_name": "RESULTATS           MARTELL CADET - JUVENIL FEMENÍ (3 KG.)",
       "performance": "38.95",
       "wind": null,
-      "internal_id": 497
+      "internal_id": 497,
+      "timing": "electronic"
     }
-  ]
+  ],
+  "is_short_track": false
 }

@@ -3,7 +3,7 @@
   "event_date": "11/04/2015",
   "event_location": "Cambrils",
   "event_src": "http://old.fcatletisme.cat/Promocio/promocio2015/resultrobadacatmeridguipuzcoacambrils110415.pdf",
-  "total_results": 6,
+  "total_results": 8,
   "results": [
     {
       "athlete_name": "MONTSERRAT MONTAÑÉS ARBÓ",
@@ -70,6 +70,30 @@
       "wind": null,
       "internal_id": null,
       "timing": "electronic"
+    },
+    {
+      "athlete_name": "JAVIER ALMALÉ LERÍN",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "12,21",
+      "discipline": "100 m.ll. Cadet ­ Absolut Masculí",
+      "wind": null,
+      "position": null,
+      "raw_discipline_name": "100 m.ll. Cadet ­ Absolut Masculí",
+      "timing": "electronic",
+      "internal_id": 510
+    },
+    {
+      "athlete_name": "MONTSERRAT MONTAÑÉS ARBÓ",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "1,40",
+      "discipline": "ALÇADA Cadet Femení",
+      "wind": null,
+      "position": null,
+      "raw_discipline_name": "ALÇADA Cadet Femení",
+      "timing": "electronic",
+      "internal_id": 497
     }
   ],
   "is_short_track": false

@@ -3,7 +3,7 @@
   "event_date": "11/10/2015",
   "event_location": "Sabadell",
   "event_src": "http://old.fcatletisme.cat/Pairelliure/2015/resulcnatsabadell111015.pdf",
-  "total_results": 6,
+  "total_results": 7,
   "results": [
     {
       "athlete_name": "PAREDES RUBÉN",
@@ -70,6 +70,18 @@
       "wind": null,
       "internal_id": null,
       "timing": "electronic"
+    },
+    {
+      "athlete_name": "Paredes lario, Rubén",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "1,15",
+      "discipline": "Salt d'alçada homes",
+      "wind": null,
+      "position": null,
+      "raw_discipline_name": "Salt d'alçada homes",
+      "timing": "electronic",
+      "internal_id": null
     }
   ],
   "is_short_track": false

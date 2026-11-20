@@ -3,7 +3,7 @@
   "event_date": "15/12/2012",
   "event_location": "Reus",
   "event_src": "http://old.fcatletisme.cat/Pairelliure/pairelliure2013/resultrofeunadalcnrp151212.pdf",
-  "total_results": 10,
+  "total_results": 13,
   "results": [
     {
       "athlete_name": "NIL PINYOL MATEU",
@@ -114,6 +114,42 @@
       "wind": null,
       "internal_id": 389,
       "timing": "electronic"
+    },
+    {
+      "athlete_name": "NIL PINYOL MATEU",
+      "athlete_dob": "",
+      "athlete_id": "CL60151",
+      "performance": "9,91",
+      "discipline": "60 METRES LLISOS ALEVI MASCULI",
+      "wind": null,
+      "position": null,
+      "raw_discipline_name": "60 METRES LLISOS ALEVI MASCULI",
+      "timing": "electronic",
+      "internal_id": 714
+    },
+    {
+      "athlete_name": "JOSEP MARIA MATEO SANZ",
+      "athlete_dob": "",
+      "athlete_id": "CT19378",
+      "performance": "8,09",
+      "discipline": "60 METRES LLISOS CADET A ABSOLUT MASCULI",
+      "wind": null,
+      "position": null,
+      "raw_discipline_name": "60 METRES LLISOS CADET A ABSOLUT MASCULI",
+      "timing": "electronic",
+      "internal_id": 343
+    },
+    {
+      "athlete_name": "ANTONIO FORNIES CAMER",
+      "athlete_dob": "",
+      "athlete_id": "CT17561",
+      "performance": "8,20",
+      "discipline": "60 METRES LLISOS CADET A ABSOLUT MASCULI",
+      "wind": null,
+      "position": null,
+      "raw_discipline_name": "60 METRES LLISOS CADET A ABSOLUT MASCULI",
+      "timing": "electronic",
+      "internal_id": 396
     }
   ],
   "is_short_track": false

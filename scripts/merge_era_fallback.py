@@ -29,7 +29,11 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
-from extract_catt import parse_promocio_series  # noqa: E402
+from extract_catt import (  # noqa: E402
+    parse_promocio_series,
+    timing_from_mark,
+    detect_short_track,
+)
 
 SEASONS_DIR = ROOT / "seasons"
 
@@ -84,6 +88,9 @@ def main():
                 stats["nothing_new"] += 1
                 continue
             if args.apply:
+                st = detect_short_track(data.get("event_name") or "",
+                                        data.get("event_src") or "")
+                data["is_short_track"] = st
                 for r in added:
                     stored.append({
                         "athlete_name": r["atleta_nom"],
@@ -94,7 +101,11 @@ def main():
                         "wind": r.get("vent"),
                         "position": None,
                         "raw_discipline_name": r["prova"],
+                        "timing": timing_from_mark(r.get("marca_original") or r["marca"]),
                     })
+                # rows already stored also carry the contract (idempotent)
+                for r in stored:
+                    r.setdefault("timing", timing_from_mark(r.get("performance")))
                 data["results"] = stored
                 data["total_results"] = len(stored)
                 tmp = path.with_suffix(".tmp")

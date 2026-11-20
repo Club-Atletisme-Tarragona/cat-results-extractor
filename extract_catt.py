@@ -79,7 +79,7 @@ _PROMOCIO_ROW_RE = re.compile(
     r"(\d{2}|\d{4})\s+"
     r"(?:(\w{2,4})\s{2,})?"
     r"((?:CA |CT |CL |JA |GEiE |UGA |CE |CN |FC |AA |CG |UA )?[^0-9]+?)\s{2,}"
-    r"((?:\d{1,2}['\u2019]\d{2}\"\d)|(?:\d{1,2}\"\d)|(?:\d{1,2}[.,]\d{2})|(?:\d{1,2}:\d{2}[.,]\d{2})|N\.?P\.?|RET\.?|DNS|DQ)\s*$",
+    r"((?:\d{1,2}['\u2019]\d{2}\"\d)|(?:\d{1,2}\u2019\u2019\d{2})|(?:\d{1,2}''\d{2})|(?:\d{1,2}\"\d)|(?:\d{1,2}[.,]\d{2})|(?:\d{1,2}:\d{2}[.,]\d{2})|N\.?P\.?|RET\.?|DNS|DQ)\s*$",
     re.IGNORECASE,
 )
 
@@ -120,10 +120,13 @@ def parse_promocio_series(text):
             continue
         # The 2011 tabular format leaves the dorsal and license inside the
         # captured name ('52 CL 54460 BARRUBES MASIP, XAVIER') because its
-        # columns sit closer than this parser's two-space gap. This parser's
-        # sheets always have a clean name: a digit inside it means the row
-        # belongs to a layout handled by season-specific processors.
-        if re.search(r"\d", m.group(5)):
+        # columns sit closer than this parser's two-space gap. Reject a name
+        # with digits INSIDE it, but accept comma surnames ('Milla Guasch,
+        # Adolf', 'Subiros Brasero, Lluc') — this parser's sheets do use them.
+        name_part = m.group(5)
+        if re.search(r"\d", name_part.replace(",", "").strip()):
+            continue
+        if name_part.count(",") > 1:
             continue
         _serie, _lloc, _dors, licencia, nom, _naix, _catg, club, marca = m.groups()
         # _catg may be None: some sheets omit the category column.

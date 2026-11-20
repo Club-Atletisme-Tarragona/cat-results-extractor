@@ -3,7 +3,7 @@
   "event_date": "17/06/2015",
   "event_location": "Vilanova",
   "event_src": "http://old.fcatletisme.cat/Pairelliure/2015/resulcontrolnastic170615.pdf",
-  "total_results": 3,
+  "total_results": 11,
   "results": [
     {
       "athlete_name": "ROVIRA MORCILLO PAULA",
@@ -37,6 +37,102 @@
       "wind": null,
       "internal_id": 497,
       "timing": "electronic"
+    },
+    {
+      "athlete_name": "Rovira Morcillo, Paula",
+      "athlete_dob": "",
+      "athlete_id": "CL 69344",
+      "performance": "4,84",
+      "discipline": "SALT DE LLARGADA                                   CADET FEMENÍ",
+      "wind": null,
+      "position": null,
+      "raw_discipline_name": "SALT DE LLARGADA                                   CADET FEMENÍ",
+      "timing": "electronic",
+      "internal_id": 598
+    },
+    {
+      "athlete_name": "tramit Zubkova, Irina",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "4,05",
+      "discipline": "SALT DE LLARGADA                                   CADET FEMENÍ",
+      "wind": null,
+      "position": null,
+      "raw_discipline_name": "SALT DE LLARGADA                                   CADET FEMENÍ",
+      "timing": "electronic",
+      "internal_id": 1477
+    },
+    {
+      "athlete_name": "Tortajada Pinto, Blanca",
+      "athlete_dob": "",
+      "athlete_id": "CL 18127",
+      "performance": "31,52",
+      "discipline": "MARTELL FEMENÍ               ( 4 kg,)",
+      "wind": null,
+      "position": null,
+      "raw_discipline_name": "MARTELL FEMENÍ               ( 4 kg,)",
+      "timing": "electronic",
+      "internal_id": 310
+    },
+    {
+      "athlete_name": "Montañes Arbo, Montserrat",
+      "athlete_dob": "",
+      "athlete_id": "CL 71723",
+      "performance": "38,95",
+      "discipline": "MARTELL CADET - JUVENIL FEMENÍ (3 KG.)",
+      "wind": null,
+      "position": null,
+      "raw_discipline_name": "MARTELL CADET - JUVENIL FEMENÍ (3 KG.)",
+      "timing": "electronic",
+      "internal_id": 497
+    },
+    {
+      "athlete_name": "Andreu San Millan, Elena",
+      "athlete_dob": "",
+      "athlete_id": "CT 23830",
+      "performance": "36,67",
+      "discipline": "MARTELL CADET - JUVENIL FEMENÍ (3 KG.)",
+      "wind": null,
+      "position": null,
+      "raw_discipline_name": "MARTELL CADET - JUVENIL FEMENÍ (3 KG.)",
+      "timing": "electronic",
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Centella Madorran, Laura",
+      "athlete_dob": "",
+      "athlete_id": "CT 23825",
+      "performance": "28,43",
+      "discipline": "MARTELL CADET - JUVENIL FEMENÍ (3 KG.)",
+      "wind": null,
+      "position": null,
+      "raw_discipline_name": "MARTELL CADET - JUVENIL FEMENÍ (3 KG.)",
+      "timing": "electronic",
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Cardeñosa Ramos, Paula",
+      "athlete_dob": "",
+      "athlete_id": "CL-79760",
+      "performance": "24,62",
+      "discipline": "MARTELL CADET - JUVENIL FEMENÍ (3 KG.)",
+      "wind": null,
+      "position": null,
+      "raw_discipline_name": "MARTELL CADET - JUVENIL FEMENÍ (3 KG.)",
+      "timing": "electronic",
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Arjona Gallego, Irene",
+      "athlete_dob": "",
+      "athlete_id": "CL-79424",
+      "performance": "23,62",
+      "discipline": "MARTELL CADET - JUVENIL FEMENÍ (3 KG.)",
+      "wind": null,
+      "position": null,
+      "raw_discipline_name": "MARTELL CADET - JUVENIL FEMENÍ (3 KG.)",
+      "timing": "electronic",
+      "internal_id": null
     }
   ],
   "is_short_track": false

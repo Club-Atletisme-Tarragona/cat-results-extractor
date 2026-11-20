@@ -3,7 +3,7 @@
   "event_date": "23/06/2013",
   "event_location": "Cambrils",
   "event_src": "http://old.fcatletisme.cat/Pairelliure/pairelliure2013/resulcambrils230613.pdf",
-  "total_results": 19,
+  "total_results": 20,
   "results": [
     {
       "athlete_name": "ALICIA VAZQUEZ DOMINGO",
@@ -213,6 +213,18 @@
       "wind": "0.0",
       "internal_id": 437,
       "timing": "electronic"
+    },
+    {
+      "athlete_name": "ALICIA VAZQUEZ DOMINGO",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "2,10",
+      "discipline": "ALÇADA Cadet Femení",
+      "wind": null,
+      "position": null,
+      "raw_discipline_name": "ALÇADA Cadet Femení",
+      "timing": "electronic",
+      "internal_id": 472
     }
   ],
   "is_short_track": false

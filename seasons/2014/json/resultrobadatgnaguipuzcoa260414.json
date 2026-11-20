@@ -3,7 +3,7 @@
   "event_date": "26/04/2014",
   "event_location": "Cambrils",
   "event_src": "http://old.fcatletisme.cat/Promocio/promocio2014/resultrobadatgnaguipuzcoa260414.pdf",
-  "total_results": 10,
+  "total_results": 13,
   "results": [
     {
       "athlete_name": "MONTAÑES ARBO MONTSERRAT",
@@ -114,6 +114,42 @@
       "wind": null,
       "internal_id": null,
       "timing": "electronic"
+    },
+    {
+      "athlete_name": "CORDERO BEL, TOMAS",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "12.16",
+      "discipline": "100 m.ll. Cadet ­ Absolut Masculí",
+      "wind": null,
+      "position": null,
+      "raw_discipline_name": "100 m.ll. Cadet ­ Absolut Masculí",
+      "timing": "electronic",
+      "internal_id": 397
+    },
+    {
+      "athlete_name": "ARGILAGA SALVADO, JOSEP RAMON",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "12.93",
+      "discipline": "100 m.ll. Cadet ­ Absolut Masculí",
+      "wind": null,
+      "position": null,
+      "raw_discipline_name": "100 m.ll. Cadet ­ Absolut Masculí",
+      "timing": "electronic",
+      "internal_id": 421
+    },
+    {
+      "athlete_name": "MONTAÑES ARBO, MONTSERRAT",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "1,34",
+      "discipline": "ALÇADA Infantil Femení",
+      "wind": null,
+      "position": null,
+      "raw_discipline_name": "ALÇADA Infantil Femení",
+      "timing": "electronic",
+      "internal_id": 497
     }
   ],
   "is_short_track": false

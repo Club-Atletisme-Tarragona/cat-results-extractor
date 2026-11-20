@@ -3,7 +3,7 @@
   "event_date": "6/4/2013",
   "event_location": "Cambrils",
   "event_src": "http://old.fcatletisme.cat/Promocio/promocio2013/resultrobadacambrils60413.pdf",
-  "total_results": 67,
+  "total_results": 69,
   "results": [
     {
       "athlete_name": "MONTSERRAT MONTAÑES ARBO",
@@ -741,6 +741,30 @@
       "wind": null,
       "internal_id": null,
       "timing": "electronic"
+    },
+    {
+      "athlete_name": "MONTSERRAT MONTAÑES ARBO",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "1,40",
+      "discipline": "ALÇADA Infantil Femení",
+      "wind": null,
+      "position": null,
+      "raw_discipline_name": "ALÇADA Infantil Femení",
+      "timing": "electronic",
+      "internal_id": 497
+    },
+    {
+      "athlete_name": "MARTA TARGA GARCIA",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "1,28",
+      "discipline": "ALÇADA Infantil Femení",
+      "wind": null,
+      "position": null,
+      "raw_discipline_name": "ALÇADA Infantil Femení",
+      "timing": "electronic",
+      "internal_id": 680
     }
   ],
   "is_short_track": false

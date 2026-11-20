@@ -87,6 +87,12 @@ _TIME_MANUAL_RE = re.compile(
     r"^\d{1,2}(:\d{2}){1,2}[.,]\d-?$|^\d{1,2}[.,]\d-?$|^\d{1,2}$"
 )
 
+# Sprint hand time in the era sheets: seconds"tenths (11"6 = 11.6 s, one
+# decimal = manual). The long-race quote format X'YY"ZZ carries centiseconds
+# (electronic) and is matched first by parse_performance, so only the short
+# form reaches the timing decision.
+_TIME_MANUAL_QUOTE_RE = re.compile(r"^\d{1,2}\"\d-?$")
+
 
 def timing_from_mark(mark):
     """"manual" | "electronic" for a stored mark; electronic by default.
@@ -104,8 +110,10 @@ def timing_from_mark(mark):
     # a performance is a time when it looks like mm:ss.cc / ss.cc / ss,cs
     looks_like_time = bool(re.match(r"^\d{1,2}(:\d{2}){1,2}[.,]\d{1,2}-?$", text)
                            or re.fullmatch(r"\d{1,2}[.,]\d{1,2}-?", text)
-                           or re.fullmatch(r"\d{1,2}", text))
-    if looks_like_time and _TIME_MANUAL_RE.match(text):
+                           or re.fullmatch(r"\d{1,2}", text)
+                           or _TIME_MANUAL_QUOTE_RE.match(text))
+    if looks_like_time and (_TIME_MANUAL_RE.match(text)
+                            or _TIME_MANUAL_QUOTE_RE.match(text)):
         return "manual"
     return "electronic"
 

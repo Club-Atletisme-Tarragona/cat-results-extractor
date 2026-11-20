@@ -77,6 +77,15 @@ class TestTimingFromMark(unittest.TestCase):
         # a whole-second time cannot come from an electronic timer
         self.assertEqual(timing_from_mark("7"), "manual")
 
+    def test_era_quote_format_is_manual(self):
+        # '11"6' = 11 s 6 tenths: the sprint hand-time of the era sheets
+        # (resulcontrolcgt240514.pdf, promocio 2014). One decimal = manual;
+        # the long-race X'YY"ZZ form carries centiseconds and stays electronic.
+        self.assertEqual(timing_from_mark('11"6'), "manual")
+        self.assertEqual(timing_from_mark('12"5-'), "manual")
+        self.assertEqual(timing_from_mark('3\u201953"86'), "electronic")
+        self.assertEqual(timing_from_mark("3'53\"86"), "electronic")
+
     def test_field_marks_and_points_are_not_timing(self):
         # lengths, heights and points carry no timing semantics
         for mark in ("5.90", "1.95", "49.51", "3458", "13.26", "X", "DNS", "NP"):

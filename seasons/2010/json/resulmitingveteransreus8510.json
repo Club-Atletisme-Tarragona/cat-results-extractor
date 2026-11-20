@@ -3,63 +3,8 @@
   "event_date": "8/5/2010",
   "event_location": "Reus",
   "event_src": "http://old.fcatletisme.cat/Veterans/veterans2010/resulmitingveteransreus8510.pdf",
-  "total_results": 11,
+  "total_results": 10,
   "results": [
-    {
-      "athlete_name": "LLUIS SAEZ PEREZ",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "discipline": "Llargada",
-      "raw_discipline_name": "PROVA                Salt de Llargada M",
-      "performance": "4.16",
-      "wind": null,
-      "internal_id": 304,
-      "timing": "electronic"
-    },
-    {
-      "athlete_name": "LLUIS SAEZ PEREZ",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "discipline": "Llargada",
-      "raw_discipline_name": "PROVA                Salt de Llargada M",
-      "performance": "3.94",
-      "wind": null,
-      "internal_id": 304,
-      "timing": "electronic"
-    },
-    {
-      "athlete_name": "LLUIS SAEZ PEREZ",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "discipline": "Llargada",
-      "raw_discipline_name": "PROVA                Salt de Llargada M",
-      "performance": "3.29",
-      "wind": null,
-      "internal_id": 304,
-      "timing": "electronic"
-    },
-    {
-      "athlete_name": "LLUIS SAEZ PEREZ",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "discipline": "Llargada",
-      "raw_discipline_name": "PROVA                Salt de Llargada M",
-      "performance": "3.89",
-      "wind": null,
-      "internal_id": 304,
-      "timing": "electronic"
-    },
-    {
-      "athlete_name": "LLUIS SAEZ PEREZ",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "discipline": "Llargada",
-      "raw_discipline_name": "PROVA                Salt de Llargada M",
-      "performance": "67.97",
-      "wind": null,
-      "internal_id": 304,
-      "timing": "electronic"
-    },
     {
       "athlete_name": "LLUIS SAEZ PEREZ",
       "athlete_dob": "",
@@ -125,6 +70,46 @@
       "wind": null,
       "internal_id": 304,
       "timing": "electronic"
+    },
+    {
+      "athlete_name": "LLUIS SAEZ PEREZ",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "4.16",
+      "discipline": "Llargada",
+      "wind": null,
+      "position": null,
+      "internal_id": 304
+    },
+    {
+      "athlete_name": "LLUIS SAEZ PEREZ",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "3.94",
+      "discipline": "Llargada",
+      "wind": null,
+      "position": null,
+      "internal_id": 304
+    },
+    {
+      "athlete_name": "LLUIS SAEZ PEREZ",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "3.29",
+      "discipline": "Llargada",
+      "wind": null,
+      "position": null,
+      "internal_id": 304
+    },
+    {
+      "athlete_name": "LLUIS SAEZ PEREZ",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "3.89",
+      "discipline": "Llargada",
+      "wind": null,
+      "position": null,
+      "internal_id": 304
     }
   ],
   "is_short_track": false

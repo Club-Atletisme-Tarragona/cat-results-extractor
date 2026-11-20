@@ -3,7 +3,7 @@
   "event_date": "12/02/2011",
   "event_location": "Sabadell",
   "event_src": "http://old.fcatletisme.cat/Veterans/veterans2011/resulcatclubsveteranspc12211.pdf",
-  "total_results": 11,
+  "total_results": 9,
   "results": [
     {
       "athlete_name": "GARCIA NAVARRETE JOSE FRANCISCO",
@@ -72,39 +72,6 @@
       "timing": "electronic"
     },
     {
-      "athlete_name": "MATEO SANZ JOSEP MARIA",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "discipline": "Llargada",
-      "raw_discipline_name": "SALT DE LLARGADA MASCULÍ",
-      "performance": "5.20",
-      "wind": null,
-      "internal_id": 343,
-      "timing": "electronic"
-    },
-    {
-      "athlete_name": "MATEO SANZ JOSEP MARIA",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "discipline": "Llargada",
-      "raw_discipline_name": "SALT DE LLARGADA MASCULÍ",
-      "performance": "7.50",
-      "wind": null,
-      "internal_id": 343,
-      "timing": "electronic"
-    },
-    {
-      "athlete_name": "MATEO SANZ JOSEP MARIA",
-      "athlete_dob": "",
-      "athlete_id": "",
-      "discipline": "Llargada",
-      "raw_discipline_name": "SALT DE LLARGADA MASCULÍ",
-      "performance": "69.33",
-      "wind": null,
-      "internal_id": 343,
-      "timing": "electronic"
-    },
-    {
       "athlete_name": "ARIZA CASABON DANIEL",
       "athlete_dob": "",
       "athlete_id": "",
@@ -125,6 +92,16 @@
       "wind": null,
       "internal_id": 348,
       "timing": "electronic"
+    },
+    {
+      "athlete_name": "MATEO SANZ JOSEP MARIA",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "5.20",
+      "discipline": "Llargada",
+      "wind": null,
+      "position": null,
+      "internal_id": 343
     }
   ],
   "is_short_track": true

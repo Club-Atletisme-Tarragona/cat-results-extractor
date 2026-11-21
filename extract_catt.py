@@ -99,8 +99,11 @@ def parse_conersys_combinadas(text):
     name_dob = re.compile(r"^(.+?)\s{2,}(\d{1,2}/\d{1,2}/\d{4})\s*$")
     for i, line in enumerate(lines):
         if "Combinadas" in line:
+            # the section title is the nearest line above that is neither the
+            # 'Combinadas' marker itself nor a schedule time ('11:50')
             for j in (i-1, i-2, i-3):
-                if j >= 0 and lines[j].strip():
+                if j >= 0 and lines[j].strip() and not re.match(r"^\d{1,2}:\d{2}", lines[j].strip()) \
+                        and "Combinadas" not in lines[j]:
                     prova = lines[j].strip()
                     break
             continue

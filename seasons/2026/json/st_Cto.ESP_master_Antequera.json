@@ -2,7 +2,7 @@
   "event_name": "Campeonato de España de Short Track Master - Pista indoor Antequera",
   "event_date": "06/03/2026",
   "event_location": "Antequera (i)",
-  "total_results": 15,
+  "total_results": 17,
   "event_src": "https://www.rfeacontent.es/resultados/2026/short_track/st_Cto.ESP_master_Antequera.pdf",
   "results": [
     {
@@ -184,6 +184,30 @@
       "position": 1,
       "internal_id": 609,
       "timing": "electronic"
+    },
+    {
+      "athlete_name": "GEMMA SOLE BORONAT",
+      "athlete_dob": "1/11/1967",
+      "athlete_id": "CT29376",
+      "performance": "10.87",
+      "discipline": "60 metres tanques Pentatlón F55",
+      "raw_discipline_name": "60 m vallas Pentatlón F55",
+      "wind": null,
+      "position": 3,
+      "timing": "electronic",
+      "internal_id": 648
+    },
+    {
+      "athlete_name": "GEMMA SOLE BORONAT",
+      "athlete_dob": "1/11/1967",
+      "athlete_id": "CT29376",
+      "performance": "2:58.43",
+      "discipline": "800 metres llisos Pentatlón F55",
+      "raw_discipline_name": "800 m Pentatlón F55",
+      "wind": null,
+      "position": 1,
+      "timing": "electronic",
+      "internal_id": 648
     }
   ],
   "is_short_track": true

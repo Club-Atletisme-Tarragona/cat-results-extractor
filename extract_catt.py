@@ -728,6 +728,64 @@ def parse_veterans_pentatlo(text):
     return rows
 
 
+
+# Duatló de llançaments (Vic): attempt tables already stored; the PUNTUACIÓ
+# ranking holds the combined total (e.g. 3130). Issue #26 fail layouts.
+_DUATLO_PUNTUACIO_HDR_RE = re.compile(
+    r"^\s*PUNTUACI[ÓO]\b",
+    re.IGNORECASE,
+)
+_DUATLO_PUNTUACIO_ROW_RE = re.compile(
+    r"^\s*\d{1,2}\s+"
+    r"(.+?)\s+"
+    r"((?:CL|CT)\s*\d+)\s+"
+    r"(?:\d{4}|[A-Za-z]{3}-\d{2})\s+"
+    r"(C\.?\s*A\.?\s*Tarragona|CATT)\s+"
+    r"(\d{3,4})\s*$",
+    re.IGNORECASE,
+)
+
+
+def parse_duatlo_puntuacio(text):
+    """CATT combined totals from Duatló PUNTUACIÓ rankings.
+
+    Attempt tables (Martell/Pes/…) sit above; after `PUNTUACIÓ …` the sheet
+    lists ranking + license + year + club + integer total. Store that total
+    as 'Duatló' only — never the attempt decimals (issue #26 fail layouts).
+    """
+    rows = []
+    in_puntuacio = False
+    for raw in str(text or "").splitlines():
+        line = raw.rstrip()
+        if not line.strip():
+            continue
+        if _DUATLO_PUNTUACIO_HDR_RE.match(line):
+            in_puntuacio = True
+            continue
+        if not in_puntuacio:
+            continue
+        # New attempt-table / title page ends the ranking block
+        if re.search(
+            r"\b(?:MARTELL|PES|DISC|JAVEL|MARCA|NOM\b|2a\s+Duatl)",
+            line,
+            re.IGNORECASE,
+        ) and not re.search(r"PUNTUACI", line, re.IGNORECASE):
+            if "tarragona" not in line.lower():
+                in_puntuacio = False
+                continue
+        if "tarragona" not in line.lower():
+            continue
+        m = _DUATLO_PUNTUACIO_ROW_RE.match(line)
+        if not m:
+            continue
+        nom, licencia, club = m.group(1), m.group(2), m.group(3)
+        total = m.group(4)
+        if not _is_catt_club(club):
+            continue
+        _veterans_append_row(rows, licencia, nom, "Duatló", total)
+    return rows
+
+
 def parse_promocio_series(text):
     """Rows from a promocio-era sheet; CATT athletes only.
 
@@ -5052,14 +5110,16 @@ def main():
             # Promocio first; clubs-veterans when the SÈRIE path finds nothing
             # (masters MARCA/COEF/% rows are skipped by the anti-hang gate).
             results = (parse_promocio_series(text) or parse_veterans_clubs(text)
-                        or parse_veterans_pentatlo(text))
+                        or parse_veterans_pentatlo(text)
+                        or parse_duatlo_puntuacio(text))
         if results and not quiet:
             print(f"Era fallback: {len(results)} CATT rows")
     elif is_era or is_conersys_comb:
         # partial coverage on era sheets: merge the rows the main path missed
         if is_era:
             extra = (parse_promocio_series(text) or parse_veterans_clubs(text)
-                    or parse_veterans_pentatlo(text))
+                    or parse_veterans_pentatlo(text)
+                    or parse_duatlo_puntuacio(text))
         else:
             extra = parse_conersys_combinadas(text)
         # Normalize marks in the key so '1,30' and '1.30' collapse (issue #26).

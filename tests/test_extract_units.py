@@ -22,6 +22,7 @@ from extract_catt import (  # noqa: E402
     parse_promocio_series,
     parse_veterans_clubs,
     parse_veterans_pentatlo,
+    parse_duatlo_puntuacio,
     _find_catt_old_format,
     extract_name_from_line,
     is_excluded_athlete,
@@ -496,6 +497,34 @@ class TestPromocioSeriesFormat(unittest.TestCase):
         data_texts = [t.strip() for _, t in athletes[0]["data_lines"]]
         self.assertNotIn("RESULTADOS", data_texts)
         self.assertIn("11.59", data_texts)
+
+    def test_duatlo_puntuacio_stores_total(self):
+        # Duatló de llançaments sheets print attempt tables (already stored)
+        # plus a PUNTUACIÓ ranking with the combined total. Store that total
+        # as "Duatló"; never treat attempt decimals as the combined mark
+        # (issue #26 fail layouts).
+        import textwrap
+        text = textwrap.dedent("""
+        2a Duatló de llançaments
+        Vic 28 de març de 2015
+        MARTELL CADET-JUVENIL FEMENÍ (3)
+        7 MONTSERRAT MONTAÑÉS ARBO   CL 71723       2001    C.A.TARRAGONA              27,94   31,36    X      31,17   31,36
+        PUNTUACIÓ FEMENINA CATEGORIA 2
+        6    ARIADNA MENOUAR TROTA             CT 23606       1999    LLEIDA U.A.                3138
+        7    MONTSERRAT MONTAÑÉS ARBO          CL 71723       2001    C.A.TARRAGONA              3130
+        8    JUDIT PALAZUELO ADROVER           CL 69223       2001    C.A.CANALETES              2919
+        """)
+        self.assertEqual(parse_promocio_series(text), [])
+        self.assertEqual(parse_veterans_clubs(text), [])
+        self.assertEqual(parse_veterans_pentatlo(text), [])
+        rows = parse_duatlo_puntuacio(text)
+        by = {(r["atleta_nom"].upper(), r["marca"], r["prova"]) for r in rows}
+        self.assertEqual(
+            by,
+            {("MONTSERRAT MONTAÑÉS ARBO", "3130", "Duatló")},
+        )
+        # Attempt decimals from the Martell table must not become marks here
+        self.assertFalse(any(r["marca"] in ("27.94", "31.36", "31.17") for r in rows))
 
     def test_rejects_height_ghost_under_track(self):
         # Combined-event sheets leak Alçada (1.xx) into a hurdles/track

@@ -23,6 +23,7 @@ from extract_catt import (  # noqa: E402
     parse_veterans_clubs,
     parse_veterans_pentatlo,
     parse_duatlo_puntuacio,
+    parse_nastic_prova,
     _find_catt_old_format,
     extract_name_from_line,
     is_excluded_athlete,
@@ -525,6 +526,43 @@ class TestPromocioSeriesFormat(unittest.TestCase):
         )
         # Attempt decimals from the Martell table must not become marks here
         self.assertFalse(any(r["marca"] in ("27.94", "31.36", "31.17") for r in rows))
+
+    def test_nastic_prova_attempts_not_cg(self):
+        # Nàstic control sheets use "Prova: MARTELL/PES …" headers and
+        # surname-first CATT rows with attempt columns + trailing MARCA.
+        # Store every valid attempt; never CG Tarragona; flip "SUR, GIVEN"
+        # to given-surname; strip the trailing MARCA column (issue #26).
+        import textwrap
+        text = textwrap.dedent("""
+        Prova:         MARTELL                   CADET JUVENIL FEMENÍ
+          1      MONTAÑES ARBO, MONTSERRAT        CA Tarragona   01    CT 24566    38.21    X      39.12   38.83    X       X      39.12
+          3      PASCUAL RIVERA, ANDREA           CG Tarragona   02    CL 77200    28.91   34.54   31.97   26.82   29.02    X      34.54
+          9      PELICANO SANCHIS, MARINA         CA Tarragona   02    CL 78444    20.78   15.26   17.52     -       -       -     20.78
+        Prova: PES           JÚNIOR ABSOLUT MASCULÍ
+           1     FERREZ HERNANDEZ, ALVARO JOSE   CA Tarragona    98        CL 22781   9.12    X      X     9.36   9.10   9.18    9.36
+           2     GAVALDÀ, POL                    CA Tarragona    98        TRÀMIT     7.14   8.28   8.08   7.97   8.08   7.83    8.28
+        Prova: PES           ABSOLUT FEMENÍ ( 4 kg.)
+           1     TIBAU SENDRA, MARINA           CA Tarragona    95        CT 20392    10.59   10.92   10.64   10.46   10.87   10.82   10.92
+        """)
+        self.assertEqual(parse_promocio_series(text), [])
+        self.assertEqual(parse_veterans_clubs(text), [])
+        rows = parse_nastic_prova(text)
+        by = {(r["atleta_nom"].upper(), r["marca"], r["prova"]) for r in rows}
+        self.assertIn(("MONTSERRAT MONTAÑES ARBO", "38.21", "Martell (4 Kg)"), by)
+        self.assertIn(("MONTSERRAT MONTAÑES ARBO", "39.12", "Martell (4 Kg)"), by)
+        self.assertIn(("MONTSERRAT MONTAÑES ARBO", "38.83", "Martell (4 Kg)"), by)
+        # Trailing MARCA must not duplicate the best mark as an extra attempt
+        mont = [r for r in rows if r["atleta_nom"].upper() == "MONTSERRAT MONTAÑES ARBO"
+                and r["prova"].startswith("Martell")]
+        self.assertEqual(len(mont), 3)
+        # CG Tarragona never stored
+        self.assertFalse(any("PASCUAL" in r["atleta_nom"].upper() for r in rows))
+        self.assertIn(("MARINA PELICANO SANCHIS", "20.78", "Martell (4 Kg)"), by)
+        self.assertIn(("ALVARO JOSE FERREZ HERNANDEZ", "9.36", "Pes (7.260 Kg)"), by)
+        self.assertIn(("POL GAVALDÀ", "8.28", "Pes (7.260 Kg)"), by)
+        self.assertIn(("MARINA TIBAU SENDRA", "10.92", "Pes (4 Kg)"), by)
+        # Invalid attempts excluded
+        self.assertFalse(any(r["marca"] in ("X", "-", "Nuls", "NULS") for r in rows))
 
     def test_rejects_height_ghost_under_track(self):
         # Combined-event sheets leak Alçada (1.xx) into a hurdles/track

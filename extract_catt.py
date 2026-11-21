@@ -786,6 +786,100 @@ def parse_duatlo_puntuacio(text):
     return rows
 
 
+
+# Nàstic control (2015/2016): "Prova: MARTELL/PES/…" headers; CATT attempt
+# rows with surname-first names. Never CG Tarragona. Issue #26 fail layouts.
+_NASTIC_PROVA_HDR_RE = re.compile(r"^\s*Prova:\s*(.+)$", re.IGNORECASE)
+_NASTIC_ROW_RE = re.compile(
+    r"^\s*\d+\s+"
+    r"(.+?)\s+"
+    r"(CA\s*Tarragona|CATT)\s+"
+    r"(?:(\d{2}|TR[ÀA]MIT)\s+)?"
+    r"((?:CL|CT)\s*\d+|TR[ÀA]MIT)?\s+"
+    r"(.+)$",
+    re.IGNORECASE,
+)
+
+
+def _nastic_flip_name(raw):
+    """Surname-first 'COGNOMS, NOM' → given-surname athlete_name."""
+    text = re.sub(r"\s+", " ", (raw or "").replace(",", " , ")).strip()
+    if " , " in text:
+        sur, given = text.split(" , ", 1)
+        return re.sub(r"\s+", " ", f"{given} {sur}").strip()
+    return text.replace(",", " ").strip()
+
+
+def _nastic_disc_from_prova(prova):
+    """Map Nàstic Prova: title to stored discipline (with weight when known)."""
+    p = (prova or "").strip().lower()
+    if re.search(r"martell|martillo", p):
+        return "Martell (4 Kg)"
+    if re.search(r"\bpes\b|\bpeso\b", p):
+        if re.search(r"4\s*kg", p) or re.search(r"femen", p):
+            return "Pes (4 Kg)"
+        return "Pes (7.260 Kg)"
+    if re.search(r"\bdisc", p):
+        m = re.search(r"(\d+(?:[.,]\d+)?)\s*kg", p)
+        w = m.group(1).replace(",", ".") if m else "1"
+        return f"Disc ({w} Kg)"
+    if re.search(r"llargada|longitud", p):
+        return "Llargada"
+    if re.search(r"al[cç]ada|altura", p):
+        return "Alçada"
+    if re.search(r"javel|jabal", p):
+        return "Javelina"
+    return (prova or "").strip()
+
+
+def parse_nastic_prova(text):
+    """CATT attempt rows from Nàstic 'Prova:' field tables.
+
+    Layout: `Prova: MARTELL …` then ranking lines with surname-first name,
+    CA Tarragona, optional year/license, attempt columns and trailing MARCA.
+    Emits one row per valid attempt (X/-/Nuls excluded); never CG Tarragona;
+    strip the trailing MARCA so the best mark is not duplicated (issue #26).
+    """
+    rows = []
+    prova = ""
+    for raw in str(text or "").splitlines():
+        line = raw.rstrip()
+        if not line.strip():
+            continue
+        hm = _NASTIC_PROVA_HDR_RE.match(line)
+        if hm:
+            prova = hm.group(1).strip()
+            continue
+        if not prova or "tarragona" not in line.lower():
+            continue
+        # Never CG Tarragona / CGTT guests
+        if re.search(r"\bCG\s*Tarragona\b", line, re.IGNORECASE):
+            continue
+        if re.search(r"Resultats Control|CAMPCLAR", line, re.IGNORECASE):
+            continue
+        m = _NASTIC_ROW_RE.match(line)
+        if not m:
+            continue
+        nom_raw, club, _yr, lic, rest = m.groups()
+        if not _is_catt_club(club):
+            continue
+        name = _nastic_flip_name(nom_raw)
+        if not name or re.search(r"\d", name):
+            continue
+        lic_s = (lic or "").replace(" ", "").strip()
+        if re.match(r"^TR[ÀA]MIT$", lic_s, re.IGNORECASE):
+            lic_s = ""
+        toks = re.findall(r"\d+[.,]\d+|X|-|Nuls|NULS", rest, re.IGNORECASE)
+        if len(toks) >= 2 and re.match(r"\d", toks[-1]):
+            toks = toks[:-1]  # trailing MARCA column
+        disc = _nastic_disc_from_prova(prova)
+        for tok in toks:
+            if re.match(r"^(?:X|-|Nuls|NULS)$", tok, re.IGNORECASE):
+                continue
+            _veterans_append_row(rows, lic_s, name, disc, tok)
+    return rows
+
+
 def parse_promocio_series(text):
     """Rows from a promocio-era sheet; CATT athletes only.
 
@@ -5111,7 +5205,8 @@ def main():
             # (masters MARCA/COEF/% rows are skipped by the anti-hang gate).
             results = (parse_promocio_series(text) or parse_veterans_clubs(text)
                         or parse_veterans_pentatlo(text)
-                        or parse_duatlo_puntuacio(text))
+                        or parse_duatlo_puntuacio(text)
+                        or parse_nastic_prova(text))
         if results and not quiet:
             print(f"Era fallback: {len(results)} CATT rows")
     elif is_era or is_conersys_comb:
@@ -5119,7 +5214,8 @@ def main():
         if is_era:
             extra = (parse_promocio_series(text) or parse_veterans_clubs(text)
                     or parse_veterans_pentatlo(text)
-                    or parse_duatlo_puntuacio(text))
+                    or parse_duatlo_puntuacio(text)
+                    or parse_nastic_prova(text))
         else:
             extra = parse_conersys_combinadas(text)
         # Normalize marks in the key so '1,30' and '1.30' collapse (issue #26).

@@ -36,6 +36,8 @@ S6. Prefer `pdf_cache/<year>/` over network downloads.
 
 After `3fe00ec5` the branch is past the ~400 authored-line slice since `origin/main` (parser/tests/ODD ~1k insertions; JSON merges dominate the full diff). Further fail-layout families stay one family per commit; do not batch pentatló with unrelated layouts.
 
+After `35602232` (fail-layouts closed): still past ~400 authored lines vs `origin/main` (~42k with JSON merges). Next work on this branch needs a delivery strategy (PR / new slice) before another large commit.
+
 ## Log
 
 L1. push i a pel seguent

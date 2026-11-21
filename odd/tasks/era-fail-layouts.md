@@ -30,7 +30,7 @@ S6. Prefer `pdf_cache/<year>/` over network downloads.
 | T11 | S1 | Fix `skip_labels` UnboundLocalError in `_find_catt_old_format` | | done |
 | T12 | S1 | Duatló Vic PUNTUACIÓ total (`C.A.TARRAGONA`) | | done |
 | T13 | S1 | Nàstic `Prova:` field attempts (never CG) | | done |
-| T14 | S1 | Next fail46 family (accept field-only HEAD-sparse / other) | | pending |
+| T14 | S1 | Accept remaining field-only HEAD-sparse (close fail-layouts) | | done |
 
 ## Slice boundary
 
@@ -54,3 +54,4 @@ L13. Veterans pentatló summary GREEN: `parse_veterans_pentatlo` reads schema (e
 L14. Re-probe after pentatló: 29 still-open (mostly HEAD-sparse field attempts the SÈRIE path misses; merge would_add=0). Extract crash on clubs140615: `_find_catt_old_format` defined `skip_labels` only inside lookback — when lookback never assigned it, data-line collection raised UnboundLocalError. Fix: hoist `skip_labels` to function scope. Suite 111 OK; plausibility **260**. clubs140615 extract rc=0 (41→16 HEAD-sparse, expected — main path lacks clubs MARCA rows). Next family needs a decision (duatló totals / nastic `Prova:` / accept field-only sparse).
 L15. Duatló Vic PUNTUACIÓ GREEN: `parse_duatlo_puntuacio` reads ranking after `PUNTUACIÓ …` and stores the integer total as `Duatló` (never attempt decimals). Row regex accepts `C.A.TARRAGONA` (pdftotext form; `extract_text` may normalize to `CA Tarragona`). Wired into era fallback + `merge_era_fallback`. Merge duatlollancamentsvic280315 7→8 (+3130). 0 dups. Suite 112 OK; plausibility **260**. Next: nastic `Prova:` or accept remaining field-only HEAD-sparse.
 L16. Nàstic `Prova:` GREEN: `parse_nastic_prova` reads `Prova: MARTELL/PES/…` headers; surname-first CATT rows with attempt columns; flips `COGNOMS, NOM`; strips trailing MARCA; never CG Tarragona. Wired into era fallback + `merge_era_fallback`. Stored JSON already complete (42); HEAD extract 0→44 (would_add=0). Suite 113 OK; plausibility **260**. Next: accept remaining field-only HEAD-sparse or pick another stem.
+L17. User selected: accept remaining field-only HEAD-sparse. Re-probe after Nàstic still shows ~29 open stems, almost all HEAD-sparse where stored JSON already holds jump/throw attempts the SÈRIE/fallback path misses (`merge would_add=0`). No further parser for this fail46 slice. Issue #26 fail-layouts closed at `eec14bc4` (suite 113; plausibility **260**). Optional follow-ups outside this slice: PR for `feat/issue-26-2016-tabular-deep`, or a dedicated field-attempt era path later.

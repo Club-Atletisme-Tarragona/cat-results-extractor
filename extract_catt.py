@@ -58,16 +58,337 @@ def _header_year(event_date):
     return int(m.group(1)) if m else 0
 
 
+def _date_from_fcat_filename(path_or_stem):
+    """Recover meeting date from trailing FCAT filename digits.
+
+    Era Promoció/Trobada stems encode DDMMYY (6 digits) or a 5-digit form
+    that is either DDMyy or DMMYY. Headerless sheets such as
+    resultrobadacatgui20416.pdf have no competition date in the PDF text,
+    so era_year stays 0 and the empty-result fallback never runs even when
+    parse_promocio_series finds rows (issue #26 fail layouts).
+
+    When both 5-digit shapes are calendar-valid, prefer DDMyy (20416 →
+    20/04/2016, not 02/04/2016). Returns '' when no valid date is found.
+    """
+    from datetime import date as _date
+
+    stem = os.path.splitext(os.path.basename(str(path_or_stem or "")))[0]
+    m = re.search(r"(\d{5,6})$", stem)
+    if not m:
+        return ""
+    digits = m.group(1)
+    candidates = []
+    if len(digits) == 6:
+        candidates.append((int(digits[0:2]), int(digits[2:4]), 2000 + int(digits[4:6])))
+    else:
+        # Prefer DDMyy over DMMYY when both validate.
+        candidates.append((int(digits[0:2]), int(digits[2:3]), 2000 + int(digits[3:5])))
+        candidates.append((int(digits[0:1]), int(digits[1:3]), 2000 + int(digits[3:5])))
+    for day, month, year in candidates:
+        if not (2000 <= year <= 2035):
+            continue
+        try:
+            _date(year, month, day)
+        except ValueError:
+            continue
+        return f"{day:02d}/{month:02d}/{year}"
+    return ""
+
+
 def _quote_to_decimal(mark):
-    """'11"6' -> '11.60'; 2'03"1 -> '2:03.10'; already-decimal passes."""
+    """Normalize era quote / comma marks to dotted decimals.
+
+    '11"6' -> '11.60'; 2'03"1 -> '2:03.10'; '1,30' -> '1.30'.
+    Fail-layout sheets (issue #26) also print seconds as 10''06 / 10"65,
+    a single-apostrophe hand form 11'51, and an optional trailing wind
+    flag 'F' (10''00 F). Strip the flag before converting.
+    """
     text = str(mark or "").strip()
+    # Trailing wind/legal flag next to the mark (promovalls50414).
+    text = re.sub(r"\s+F\.?\s*$", "", text, flags=re.IGNORECASE)
     m = re.match(r"^(\d{1,2})'(\d{2})\"(\d)$", text)
     if m:  # minutes'seconds"tenths
         return f"{int(m.group(1))}:{m.group(2)}.{m.group(3)}0"
-    m = re.match(r"^(\d{1,2})\"(\d)$", text)
+    # Double-apostrophe seconds + centiseconds: 10''06 -> 10.06
+    m = re.match(r"^(\d{1,2})(?:''|\u2019\u2019)(\d{2})$", text)
+    if m:
+        return f"{m.group(1)}.{m.group(2)}"
+    # Single-apostrophe seconds (no closing quote): 11'51 -> 11.51
+    m = re.match(r"^(\d{1,2})'(\d{2})$", text)
+    if m:
+        return f"{m.group(1)}.{m.group(2)}"
+    # Centisecond quote: 10"65 -> 10.65 (before the one-tenth form)
+    m = re.match(r'^(\d{1,2})"(\d{2})$', text)
+    if m:
+        return f"{m.group(1)}.{m.group(2)}"
+    m = re.match(r'^(\d{1,2})"(\d)$', text)
     if m:  # seconds"tenths
-        return f"{m.group(1)}.0" if False else f"{m.group(1)}.{m.group(2)}0"
+        return f"{m.group(1)}.{m.group(2)}0"
+    # Clubs veterans MARCA: 01:01,22 / 00:53,61 (MM:SS,cc). Must run before
+    # the bare-comma decimal branch or the colon form is left raw (issue #26).
+    m = re.match(r"^(\d{1,2}):(\d{2})[.,](\d{1,2})$", text)
+    if m:
+        cs = m.group(3).ljust(2, "0")[:2]
+        return f"{int(m.group(1))}:{m.group(2)}.{cs}"
+    # Era field sheets print comma decimals ('1,30', '11,95'); merge keys
+    # must see the dotted form or the same attempt is re-added as a phantom.
+    m = re.match(r"^(\d+),(\d+)$", text)
+    if m:
+        return f"{m.group(1)}.{m.group(2)}"
     return text
+
+
+_PROMOCIO_FIELD_ROW_RE = re.compile(
+    # 2016 territorial field tables: pos? dorsal name year CA/C.A. Tarragona attempts Marca
+    r"^\s*(?:(\d{1,2})\s+)?"
+    r"(\d{1,4})\s+"
+    r"(.+?)\s+"
+    r"(\d{4})\s+"
+    r"((?:C\.?\s*A\.?\s*|CA\s+)Tarragona)\s+"
+    r"(.+?)\s*$",
+    re.IGNORECASE,
+)
+
+
+def _is_catt_club(club):
+    """True only for CA Tarragona / CATT — never CG Tarragona or other clubs.
+
+    Sheets also print 'C.A. Tarragona' / 'C.A.TARRAGONA'; normalize those to
+    the same form before comparing.
+    """
+    c = re.sub(r"\s+", " ", (club or "").strip().lower())
+    c = re.sub(r"^c\.?\s*a\.?\s*", "ca ", c)
+    return c == "catt" or c.startswith("ca tarragona")
+
+
+# Cheap gate before _PROMOCIO_ROW_RE: masters MARCA/COEF/% tails and other
+# multi-decimal columns make that regex backtrack for seconds (issue #26).
+_CATT_CLUB_IN_LINE_RE = re.compile(
+    r"(?<![a-z])(?:c\.?\s*a\.?\s*tarragona|catt)(?![a-z])",
+    re.IGNORECASE,
+)
+# Shared mark body for the worth-row gate and the row regex. Longer forms
+# first so 2'03"1 is not eaten by the single-apostrophe 11'51 alt.
+# Fail layouts (issue #26): 10''06, 10"65, 11'51, optional trailing F.
+_PROMOCIO_MARK_BODY = (
+    r"(?:\d{1,2}['\u2019]\d{2}\"\d{1,2})"
+    r"|(?:\d{1,2}\u2019\u2019\d{2})"
+    r"|(?:\d{1,2}''\d{2})"
+    r"|(?:\d{1,2}'\d{2})"
+    r"|(?:\d{1,2}\"\d{1,2})"
+    r"|(?:\d{1,2}[.,]\d{2})"
+    r"|(?:\d{1,2}:\d{2}[.,]\d{2})"
+    r"|N\.?P\.?|RET\.?|DNS|DQ"
+)
+_PROMOCIO_TRAILING_MARK_RE = re.compile(
+    r"(?:" + _PROMOCIO_MARK_BODY + r")(?:\s+F\.?)?(?:\s+\d{1,4})?\s*$",
+    re.IGNORECASE,
+)
+
+# Amposta CURSA sheets (issue #26): "CURSA 60 Llisos … 1ª sèrie" then a
+# multi-column row (NOM + COGNOMS split, club, year, TEMPS). Match headers
+# before the generic SÈRIE skip, and rows before _PROMOCIO_ROW_RE (which
+# mis-splits the name/club columns on this layout).
+_CURSA_HEADER_RE = re.compile(r"^\s*CURSA\s+(.+)$", re.IGNORECASE)
+_CURSA_SERIE_TAIL_RE = re.compile(
+    r"\s+\d+[ªa]?\s*s[eè]rie\b.*$",
+    re.IGNORECASE,
+)
+_CURSA_ROW_RE = re.compile(
+    r"^\s*(\d{1,2})\s+(\d{1,4})\s+"
+    r"(.+?)\s{2,}"
+    r"((?:C\.?\s*A\.?\s*|CA\s+)TARRAGONA)\s+"
+    r"(\d{4})\s+"
+    r"(?:((?:CL|CT|IB|LZ|CS)[\s-]?\d+)\s+)?"
+    r"((?:" + _PROMOCIO_MARK_BODY + r")(?:\s+F\.?)?)\s*$",
+    re.IGNORECASE,
+)
+
+
+def _cursa_header_prova(line):
+    """Discipline from a CURSA header line, or None when not a CURSA header."""
+    m = _CURSA_HEADER_RE.match(line)
+    if not m:
+        return None
+    return _CURSA_SERIE_TAIL_RE.sub("", m.group(1)).strip() or None
+
+
+def _parse_cursa_row(line, prova, wind):
+    """One CATT track row from an Amposta CURSA table, or None."""
+    m = _CURSA_ROW_RE.match(line)
+    if not m:
+        return None
+    _lloc, _dors, nom, club, _any, licencia, marca = m.groups()
+    if not _is_catt_club(club):
+        return None
+    name = " ".join(nom.split())
+    if not name or re.search(r"\d", name):
+        return None
+    mark = _quote_to_decimal(marca)
+    if not _promocio_mark_plausible(prova, mark):
+        return None
+    return {
+        "atleta_nom": name,
+        "atleta_naixement": "",
+        "atleta_licencia": (licencia or "").strip(),
+        "prova": prova,
+        "marca": mark,
+        "vent": wind,
+        "position": None,
+        "manual": bool(_TIME_MANUAL_QUOTE_RE.match(marca)
+                       or _TIME_MANUAL_RE.match(marca)),
+        "marca_original": marca,
+    }
+
+
+def _promocio_worth_row_regex(line):
+    """True when the line might be a single-mark promocio/track row."""
+    m = _CATT_CLUB_IN_LINE_RE.search(line)
+    if not m:
+        return False
+    # CG Tarragona shares the city token — never feed it to the heavy regex.
+    prefix = line[max(0, m.start() - 3):m.start()].lower()
+    if re.search(r"\bcg\s*$", prefix):
+        return False
+    tail = line[m.end():]
+    if re.search(r"\b[MW]-\d{2}\b", tail, re.IGNORECASE):
+        return False
+    if len(re.findall(r"\d+[.,]\d+", tail)) >= 3:
+        return False
+    return bool(_PROMOCIO_TRAILING_MARK_RE.search(line))
+
+
+
+def _promocio_mark_seconds(mark):
+    """Seconds/metres numeric from a normalized mark, or None."""
+    text = str(mark or "").strip().replace(",", ".")
+    if not text or text.upper() in ("DNS", "DQ", "DNF", "N.P.", "NP", "RET", "RET.", "NULS"):
+        return None
+    if ":" in text:
+        parts = text.split(":")
+        try:
+            if len(parts) == 2:
+                return float(parts[0]) * 60 + float(parts[1])
+            if len(parts) == 3:
+                return (float(parts[0]) * 3600
+                        + float(parts[1]) * 60 + float(parts[2]))
+        except ValueError:
+            return None
+        return None
+    try:
+        return float(text)
+    except ValueError:
+        return None
+
+
+# World-record-level floors (seconds). Ghost heights (1.xx) under track/hurdles
+# and truncated mid-distance times fall below these (issue #26 merge).
+_PROMOCIO_DIST_FLOOR = {
+    50: 5.6, 60: 6.4, 80: 7.5, 100: 9.6, 150: 13.5, 200: 19.2,
+    300: 30.5, 400: 42.0, 500: 55.0, 600: 68.0, 800: 95.0,
+    1000: 120.0, 1500: 195.0, 2000: 280.0, 3000: 440.0, 5000: 750.0,
+}
+_PROMOCIO_HURDLE_EXTRA = {
+    60: 1.5, 80: 2.0, 100: 2.5, 110: 3.0, 200: 3.0, 300: 6.0, 400: 8.0,
+}
+
+
+def _promocio_mark_plausible(prova, mark):
+    """False when mark cannot be a performance for this section title."""
+    secs = _promocio_mark_seconds(mark)
+    if secs is None:
+        return True  # status words / unparseable: leave for later filters
+    p = (prova or "").strip().lower()
+    # Throws: AGENTS.md field range 3–80 m. Heights leaked as 1.xx fail here.
+    if re.search(r"llançament|lanzamiento|\bpes\b|\bpeso\b|\bdisc|"
+                 r"martell|martillo|javelina|jabalina", p):
+        return 3.0 <= secs <= 80.0
+    # Heights: 1–7 m (Marca only; already filtered by field path).
+    # Clubs veterans titles are "SALT D'ALÇADA …" — match alçada anywhere.
+    if re.search(r"\b(?:alçada|altura)\b", p):
+        return 1.0 <= secs <= 7.0
+    # Jumps: 1.5–20 m (also "SALT DE LLARGADA …")
+    if re.search(r"\b(?:llargada|longitud|triple)\b", p):
+        return 1.5 <= secs <= 20.0
+    # Track / hurdles / marxa: distance floor from the section title.
+    dm = re.search(r"(\d{1,2}(?:\.\d{3})?|\d{3,5})\s*m", p)
+    if not dm:
+        return True
+    dist = int(dm.group(1).replace(".", ""))
+    floor = _PROMOCIO_DIST_FLOOR.get(dist)
+    if floor is None:
+        return True
+    if "tanques" in p or "vallas" in p:
+        floor += _PROMOCIO_HURDLE_EXTRA.get(dist, 0)
+    return secs >= floor
+
+
+def _promocio_field_kind(prova):
+    """'height' / 'jump' / 'throw' for era field section titles, else None."""
+    p = (prova or "").strip().lower()
+    if re.match(r"^(alçada|altura)\b", p):
+        return "height"
+    if re.match(r"^(llargada|longitud|triple)\b", p):
+        return "jump"
+    if re.match(r"^(pes|peso|disc|disco|martell|martillo|javelina|jabalina)\b", p):
+        return "throw"
+    if re.match(r"^(llançament|lanzamiento)\b", p):
+        return "throw"
+    return None
+
+
+def _promocio_field_marks(tail, kind):
+    """Valid marks from a field-row tail; unique, order preserved."""
+    tokens = re.findall(
+        r"\d+[.,]\d+|\bnuls\b|XO|XXO|XXX|X|O|-|_",
+        tail or "",
+        re.IGNORECASE,
+    )
+    decimals = []
+    for tok in tokens:
+        if tok.lower() == "nuls":
+            return []
+        if re.fullmatch(r"\d+[.,]\d+", tok):
+            decimals.append(_quote_to_decimal(tok))
+    if kind == "height":
+        return [decimals[-1]] if decimals else []
+    seen = set()
+    out = []
+    for mark in decimals:
+        if mark not in seen:
+            seen.add(mark)
+            out.append(mark)
+    return out
+
+
+def _parse_promocio_field_rows(line, prova, wind=None):
+    """One CATT field-table row → one result dict per valid attempt/Marca."""
+    kind = _promocio_field_kind(prova)
+    if not kind:
+        return []
+    m = _PROMOCIO_FIELD_ROW_RE.match(line)
+    if not m:
+        return []
+    nom = m.group(3).strip()
+    if re.search(r"\d", nom.replace(",", "").strip()) or nom.count(",") > 1:
+        return []
+    marks = _promocio_field_marks(m.group(6), kind)
+    rows = []
+    for mark in marks:
+        if not _promocio_mark_plausible(prova, mark):
+            continue
+        rows.append({
+            "atleta_nom": nom,
+            "atleta_naixement": "",
+            "atleta_licencia": "",
+            "prova": prova,
+            "marca": mark,
+            "vent": wind if kind == "jump" else None,
+            "position": None,
+            "manual": False,
+            "marca_original": mark,
+        })
+    return rows
 
 
 _PROMOCIO_ROW_RE = re.compile(
@@ -78,9 +399,11 @@ _PROMOCIO_ROW_RE = re.compile(
     r"(.+?)\s{2,}"
     r"(?:(\d{2}|\d{4})\s+)?"
     r"(?:(\w{2,4})\s{2,})?"
-    r"((?:CA |CT |CL |JA |GEiE |UGA |CE |CN |FC |AA |CG |UA )?[^0-9]+?)\s{2,}"
+    # C.A. / CA / other club prefixes; trailing mark may be followed by
+    # combined-event points (3–4 digits) or a 1–2 digit rank.
+    r"((?:C\.?\s*A\.?\s+|CA |CT |CL |JA |GEiE |UGA |CE |CN |FC |AA |CG |UA )?[^0-9]+?)\s{2,}"
     r"(?:(\w{2,4})\s{2,})?"
-    r"((?:\d{1,2}['\u2019]\d{2}\"\d)|(?:\d{1,2}\u2019\u2019\d{2})|(?:\d{1,2}''\d{2})|(?:\d{1,2}\"\d)|(?:\d{1,2}[.,]\d{2})|(?:\d{1,2}:\d{2}[.,]\d{2})|N\.?P\.?|RET\.?|DNS|DQ)(?:\s+(\d{1,2}))?\s*$",
+    r"((?:" + _PROMOCIO_MARK_BODY + r")(?:\s+F\.?)?)(?:\s+(\d{1,4}))?\s*$",
     re.IGNORECASE,
 )
 
@@ -147,6 +470,416 @@ def parse_conersys_combinadas(text):
     return rows
 
 
+# Clubs veterans (2013–2016): MARCA Ref/%/PUNTS after category M-50 / F-45.
+# parse_promocio_series skips these rows (anti-hang); this path stores MARCA only.
+_VETERANS_HEADER_RE = re.compile(
+    r"^\s*(?:RESULTATS\s+)?"
+    r"((?:\d{1,4}\s*METRES?\b"
+    r"|SALT\s+(?:D['\u2019]?AL[CÇ]ADA|DE\s+LLARGADA|LLARGADA|AL[CÇ]ADA|PERXA)"
+    r"|LLAN[CÇ]AMENT\s|PES\b|DISC\b|JAVELINA\b|MARTELL\b"
+    r"|AL[CÇ]ADA\b|LLARGADA\b|PERXA\b|TRIPLE\b).+)$",
+    re.IGNORECASE,
+)
+# 2013 clubs: "Prova: 100 Mll Masculi" / "Prova: Alçada Masculi"
+_VETERANS_PROVA_HEADER_RE = re.compile(
+    r"^\s*Prova:\s*(.+?)\s*$",
+    re.IGNORECASE,
+)
+# After M-50 / F-45 the MARCA column sits within a few spaces. A blank MARCA
+# leaves a wide gap before Seg/Ref (e.g. "M-45               1180,53"); those
+# later columns must never become the stored mark (issue #26).
+_VETERANS_ROW_RE = re.compile(
+    r"((?:CL|CT)\s*\d+)\s+"
+    r"(.+?)\s+"
+    r"(\d{1,2}/\d{1,2}/\d{4})\s+"
+    r"(CA\s*Tarragona|CATT)\s+"
+    r"(\d{1,3})\s+"
+    r"([MFW])-(\d{2})\s{1,8}"
+    r"(\d{1,2}:\d{2}[.,]\d{1,2}|\d+[.,]\d+)",
+    re.IGNORECASE,
+)
+# 2013 clubs: license + name + edat + DOB + club, then MARCA glued (≤8 spaces).
+# No M-50/F-45 between club and mark; Seg / Porcentaje / Base follow MARCA.
+_VETERANS_2013_ROW_RE = re.compile(
+    r"((?:CL|CT)\s*\d+)\s+"
+    r"(.+?)\s+"
+    r"(\d{1,3})\s+"
+    r"(\d{1,2}/\d{1,2}/\d{4})\s+"
+    r"(CA\s*Tarragona|CATT)\s{0,8}"
+    r"(\d{1,2}:\d{2}[.,]\d{1,2}|\d+[.,]\d+)",
+    re.IGNORECASE,
+)
+
+
+def _veterans_clean_name(raw):
+    """Surname-first sheet name → single spaced athlete_name (no comma)."""
+    return re.sub(r"\s+", " ", (raw or "").replace(",", " ").strip())
+
+
+def _veterans_append_row(rows, licencia, nom, prova, marca):
+    """Validate and append one CATT veterans MARCA row, or skip."""
+    name = _veterans_clean_name(nom)
+    if not name or re.search(r"\d", name):
+        return
+    mark = _quote_to_decimal(marca)
+    if not _promocio_mark_plausible(prova, mark):
+        return
+    rows.append({
+        "atleta_nom": name,
+        "atleta_naixement": "",
+        "atleta_licencia": licencia.replace(" ", "").strip(),
+        "prova": prova,
+        "marca": mark,
+        "vent": None,
+        "position": None,
+        "manual": False,
+        "marca_original": marca,
+    })
+
+
+def parse_veterans_clubs(text):
+    """CATT rows from clubs-veterans sheets; store MARCA only (never Ref/COEF/%).
+
+    Layout (2014–2016 clubs): after club comes Edat, Categ. (M-50), then MARCA,
+    then Ref / Percent / Posició / PUNTS. Taking any later column invents
+    age-graded ghosts (Alçada 2.15 from Ref). A blank MARCA leaves a wide gap
+    before Seg/Ref — those rows are skipped.
+
+    Layout (2013 clubs): "Prova: …" headers; MARCA sits immediately after the
+    club (no category between). Seg / Porcentaje / Base follow — never store
+    those. Issue #26 fail layouts.
+    """
+    rows = []
+    prova = ""
+    for raw in str(text or "").splitlines():
+        line = raw.rstrip()
+        if not line.strip():
+            continue
+        prova_h = _VETERANS_PROVA_HEADER_RE.match(line)
+        if prova_h:
+            prova = prova_h.group(1).strip()
+            continue
+        header = _VETERANS_HEADER_RE.match(line)
+        if header:
+            prova = header.group(1).strip()
+            continue
+        if re.search(r"\bMARCA\b.*\bPercent", line, re.IGNORECASE):
+            continue
+        if re.search(r"\bMarca\b.*\bPorcentaje", line, re.IGNORECASE):
+            continue
+        if not prova or "tarragona" not in line.lower():
+            continue
+        m = _VETERANS_ROW_RE.search(line)
+        if m:
+            licencia, nom, _dob, club, _edat, _g, _cat, marca = m.groups()
+            if _is_catt_club(club):
+                _veterans_append_row(rows, licencia, nom, prova, marca)
+            continue
+        m13 = _VETERANS_2013_ROW_RE.search(line)
+        if not m13:
+            continue
+        licencia, nom, _edat, _dob, club, marca = m13.groups()
+        if not _is_catt_club(club):
+            continue
+        _veterans_append_row(rows, licencia, nom, prova, marca)
+    return rows
+
+
+
+# Veterans pentatló / pentatló de llançaments multi-column summary (issue #26).
+# Schema line lists events separated by "Punts"; athlete rows alternate
+# MARCA / Punts then Total Punts. Store sub-marks + total only — never Punts.
+_PENTATLO_SCHEMA_RE = re.compile(
+    r"(?:Llargada|Tanques|Martell|Javelina|Javelot|Alçada|Pes|Disc|200\s*m|800\s*m|1\.?500\s*m).*\bPunts\b",
+    re.IGNORECASE,
+)
+_PENTATLO_ATTEMPT_SEC_RE = re.compile(
+    r"(?:SALT|LLAN[CÇ]AMENT|METRES|TANQUES|INTENTS)\b.*\(?\s*PENTATL",
+    re.IGNORECASE,
+)
+_PENTATLO_TOKEN_RE = re.compile(
+    r"\d{1,2}:\d{2}[.,]\d{1,2}"
+    r"|\d{1,2}\.\d{3}"
+    r"|\d+[.,]\d+"
+    r"|\d{2,4}"
+    r"|ABANDONA|RET\.?|NP|DNS|DNF",
+    re.IGNORECASE,
+)
+_PENTATLO_ROW_RE = re.compile(
+    r"((?:CL|CT)[\u2010\u2011\-]?\s*\d+)\s+"
+    r"([MW])[\u2010\u2011\-](\d{2})\s+"
+    r"(.+?)\s+"
+    r"(CA\s*Tarragona|CATT)\s+"
+    r"(.+)$",
+    re.IGNORECASE,
+)
+
+
+def _pentatlo_schema_labels(line):
+    """Event labels from a 'Llargada Punts Javelina Punts …' schema line."""
+    if not _PENTATLO_SCHEMA_RE.search(line):
+        return []
+    parts = re.split(r"\bPunts\b", line, flags=re.IGNORECASE)
+    labels = []
+    for part in parts:
+        label = re.sub(r"\s+", " ", part).strip(" .")
+        if label and re.search(r"[A-Za-zÀ-ÿ]", label):
+            labels.append(label)
+    return labels
+
+
+def _pentatlo_normalize_label(label):
+    """Map schema shorthand to stored discipline names."""
+    p = re.sub(r"\s+", " ", (label or "")).strip().lower()
+    p = p.replace(".", "")
+    if re.match(r"^1?\.?500\s*m", p):
+        return "1500 metres llisos"
+    if re.match(r"^800\s*m", p):
+        return "800 metres llisos"
+    if re.match(r"^200\s*m", p):
+        return "200 metres llisos"
+    if p.startswith("javel"):
+        return "Javelina"
+    if p.startswith("tanques"):
+        return "Tanques"
+    if p.startswith("alçada") or p.startswith("altura"):
+        return "Alçada"
+    if p.startswith("llargada") or p.startswith("longitud"):
+        return "Llargada"
+    if p.startswith("disc"):
+        return "Disc"
+    if p.startswith("pes") and "martell" not in p:
+        return "Pes"
+    if "martell pesat" in p or p.startswith("martell pesat"):
+        return "Martell Pesat"
+    if p.startswith("martell"):
+        return "Martell"
+    # Preserve other labels (e.g. Martell Pesat already handled)
+    return label.strip()
+
+
+def _pentatlo_normalize_total(token):
+    """'2.283' / '1.425' thousand-separated totals → '2283' / '1425'."""
+    text = str(token or "").strip()
+    m = re.match(r"^(\d{1,2})\.(\d{3})$", text)
+    if m:
+        return f"{m.group(1)}{m.group(2)}"
+    return text
+
+
+def parse_veterans_pentatlo(text):
+    """CATT rows from veterans pentatló multi-column summary tables.
+
+    Layout: schema line with event / Punts pairs; athlete line after club
+    alternates MARCA / Punts, ending in Total Punts (often printed as 2.283).
+    Emits one row per sub-mark plus the total as 'Pentatló'. Intermediate
+    Punts are never stored (issue #26 fail layouts).
+    """
+    rows = []
+    schema = []
+    for raw in str(text or "").splitlines():
+        line = raw.rstrip()
+        if not line.strip():
+            continue
+        if _PENTATLO_ATTEMPT_SEC_RE.search(line):
+            schema = []
+            continue
+        labels = _pentatlo_schema_labels(line)
+        if labels:
+            schema = labels
+            continue
+        if not schema or "tarragona" not in line.lower():
+            continue
+        # Attempt detail tables carry DOB — skip those rows.
+        if re.search(r"\d{1,2}/\d{1,2}/\d{4}", line):
+            continue
+        m = _PENTATLO_ROW_RE.search(line)
+        if not m:
+            continue
+        licencia, _g, _cat, nom, club, rest = m.groups()
+        if not _is_catt_club(club):
+            continue
+        tokens = _PENTATLO_TOKEN_RE.findall(rest)
+        if len(tokens) < 2:
+            continue
+        # Expect mark/points pairs then total: 2*N + 1 tokens for N events.
+        n = len(schema)
+        if len(tokens) < 2 * n + 1:
+            # Incomplete / abandoned rows: take what pairs we can, no total.
+            pairs = len(tokens) // 2
+            for i in range(min(pairs, n)):
+                mark_tok = tokens[2 * i]
+                if re.match(r"^(?:ABANDONA|RET\.?|NP|DNS|DNF)$", mark_tok, re.I):
+                    continue
+                prova = _pentatlo_normalize_label(schema[i])
+                _veterans_append_row(rows, licencia, nom, prova, mark_tok)
+            continue
+        for i in range(n):
+            mark_tok = tokens[2 * i]
+            if re.match(r"^(?:ABANDONA|RET\.?|NP|DNS|DNF)$", mark_tok, re.I):
+                continue
+            prova = _pentatlo_normalize_label(schema[i])
+            _veterans_append_row(rows, licencia, nom, prova, mark_tok)
+        total_tok = _pentatlo_normalize_total(tokens[2 * n])
+        if total_tok and not re.match(
+            r"^(?:ABANDONA|RET\.?|NP|DNS|DNF)$", total_tok, re.I
+        ):
+            _veterans_append_row(rows, licencia, nom, "Pentatló", total_tok)
+    return rows
+
+
+
+# Duatló de llançaments (Vic): attempt tables already stored; the PUNTUACIÓ
+# ranking holds the combined total (e.g. 3130). Issue #26 fail layouts.
+_DUATLO_PUNTUACIO_HDR_RE = re.compile(
+    r"^\s*PUNTUACI[ÓO]\b",
+    re.IGNORECASE,
+)
+_DUATLO_PUNTUACIO_ROW_RE = re.compile(
+    r"^\s*\d{1,2}\s+"
+    r"(.+?)\s+"
+    r"((?:CL|CT)\s*\d+)\s+"
+    r"(?:\d{4}|[A-Za-z]{3}-\d{2})\s+"
+    r"(C\.?\s*A\.?\s*Tarragona|CATT)\s+"
+    r"(\d{3,4})\s*$",
+    re.IGNORECASE,
+)
+
+
+def parse_duatlo_puntuacio(text):
+    """CATT combined totals from Duatló PUNTUACIÓ rankings.
+
+    Attempt tables (Martell/Pes/…) sit above; after `PUNTUACIÓ …` the sheet
+    lists ranking + license + year + club + integer total. Store that total
+    as 'Duatló' only — never the attempt decimals (issue #26 fail layouts).
+    """
+    rows = []
+    in_puntuacio = False
+    for raw in str(text or "").splitlines():
+        line = raw.rstrip()
+        if not line.strip():
+            continue
+        if _DUATLO_PUNTUACIO_HDR_RE.match(line):
+            in_puntuacio = True
+            continue
+        if not in_puntuacio:
+            continue
+        # New attempt-table / title page ends the ranking block
+        if re.search(
+            r"\b(?:MARTELL|PES|DISC|JAVEL|MARCA|NOM\b|2a\s+Duatl)",
+            line,
+            re.IGNORECASE,
+        ) and not re.search(r"PUNTUACI", line, re.IGNORECASE):
+            if "tarragona" not in line.lower():
+                in_puntuacio = False
+                continue
+        if "tarragona" not in line.lower():
+            continue
+        m = _DUATLO_PUNTUACIO_ROW_RE.match(line)
+        if not m:
+            continue
+        nom, licencia, club = m.group(1), m.group(2), m.group(3)
+        total = m.group(4)
+        if not _is_catt_club(club):
+            continue
+        _veterans_append_row(rows, licencia, nom, "Duatló", total)
+    return rows
+
+
+
+# Nàstic control (2015/2016): "Prova: MARTELL/PES/…" headers; CATT attempt
+# rows with surname-first names. Never CG Tarragona. Issue #26 fail layouts.
+_NASTIC_PROVA_HDR_RE = re.compile(r"^\s*Prova:\s*(.+)$", re.IGNORECASE)
+_NASTIC_ROW_RE = re.compile(
+    r"^\s*\d+\s+"
+    r"(.+?)\s+"
+    r"(CA\s*Tarragona|CATT)\s+"
+    r"(?:(\d{2}|TR[ÀA]MIT)\s+)?"
+    r"((?:CL|CT)\s*\d+|TR[ÀA]MIT)?\s+"
+    r"(.+)$",
+    re.IGNORECASE,
+)
+
+
+def _nastic_flip_name(raw):
+    """Surname-first 'COGNOMS, NOM' → given-surname athlete_name."""
+    text = re.sub(r"\s+", " ", (raw or "").replace(",", " , ")).strip()
+    if " , " in text:
+        sur, given = text.split(" , ", 1)
+        return re.sub(r"\s+", " ", f"{given} {sur}").strip()
+    return text.replace(",", " ").strip()
+
+
+def _nastic_disc_from_prova(prova):
+    """Map Nàstic Prova: title to stored discipline (with weight when known)."""
+    p = (prova or "").strip().lower()
+    if re.search(r"martell|martillo", p):
+        return "Martell (4 Kg)"
+    if re.search(r"\bpes\b|\bpeso\b", p):
+        if re.search(r"4\s*kg", p) or re.search(r"femen", p):
+            return "Pes (4 Kg)"
+        return "Pes (7.260 Kg)"
+    if re.search(r"\bdisc", p):
+        m = re.search(r"(\d+(?:[.,]\d+)?)\s*kg", p)
+        w = m.group(1).replace(",", ".") if m else "1"
+        return f"Disc ({w} Kg)"
+    if re.search(r"llargada|longitud", p):
+        return "Llargada"
+    if re.search(r"al[cç]ada|altura", p):
+        return "Alçada"
+    if re.search(r"javel|jabal", p):
+        return "Javelina"
+    return (prova or "").strip()
+
+
+def parse_nastic_prova(text):
+    """CATT attempt rows from Nàstic 'Prova:' field tables.
+
+    Layout: `Prova: MARTELL …` then ranking lines with surname-first name,
+    CA Tarragona, optional year/license, attempt columns and trailing MARCA.
+    Emits one row per valid attempt (X/-/Nuls excluded); never CG Tarragona;
+    strip the trailing MARCA so the best mark is not duplicated (issue #26).
+    """
+    rows = []
+    prova = ""
+    for raw in str(text or "").splitlines():
+        line = raw.rstrip()
+        if not line.strip():
+            continue
+        hm = _NASTIC_PROVA_HDR_RE.match(line)
+        if hm:
+            prova = hm.group(1).strip()
+            continue
+        if not prova or "tarragona" not in line.lower():
+            continue
+        # Never CG Tarragona / CGTT guests
+        if re.search(r"\bCG\s*Tarragona\b", line, re.IGNORECASE):
+            continue
+        if re.search(r"Resultats Control|CAMPCLAR", line, re.IGNORECASE):
+            continue
+        m = _NASTIC_ROW_RE.match(line)
+        if not m:
+            continue
+        nom_raw, club, _yr, lic, rest = m.groups()
+        if not _is_catt_club(club):
+            continue
+        name = _nastic_flip_name(nom_raw)
+        if not name or re.search(r"\d", name):
+            continue
+        lic_s = (lic or "").replace(" ", "").strip()
+        if re.match(r"^TR[ÀA]MIT$", lic_s, re.IGNORECASE):
+            lic_s = ""
+        toks = re.findall(r"\d+[.,]\d+|X|-|Nuls|NULS", rest, re.IGNORECASE)
+        if len(toks) >= 2 and re.match(r"\d", toks[-1]):
+            toks = toks[:-1]  # trailing MARCA column
+        disc = _nastic_disc_from_prova(prova)
+        for tok in toks:
+            if re.match(r"^(?:X|-|Nuls|NULS)$", tok, re.IGNORECASE):
+                continue
+            _veterans_append_row(rows, lic_s, name, disc, tok)
+    return rows
+
+
 def parse_promocio_series(text):
     """Rows from a promocio-era sheet; CATT athletes only.
 
@@ -159,6 +892,13 @@ def parse_promocio_series(text):
     for raw in str(text or "").splitlines():
         line = raw.rstrip()
         if not line.strip():
+            continue
+        # Amposta CURSA headers embed "Nª sèrie" — match before the SÈRIE skip
+        # so the discipline sticks for the multi-column rows below.
+        cursa_prova = _cursa_header_prova(line)
+        if cursa_prova:
+            prova = cursa_prova
+            wind = None
             continue
         header = re.match(r"^\s*(?:RESULTATS\s+)?"
                           r"((?:\d{1,4}\s*m(?:\.ll|\.tanques|\.obst|\.pes|\s?ll|t)?\.?\s*"
@@ -177,13 +917,30 @@ def parse_promocio_series(text):
             continue
         if "SÈRIE" in line.upper() or "Serie" in line:
             continue
+        # Column headers of field tables ('Lloc Dorsal Nom … Marca')
+        if re.search(r"\bLloc\b.*\bDorsal\b", line, re.IGNORECASE):
+            continue
         if not prova:
             continue
-        # prefilter: the heavy row regex backtracks exponentially on rows that
-        # cannot match (the 2011 tabular tables hold ~500 rows); only rows of
-        # a club we care about are worth the cost. A club line without
-        # Tarragona can never yield a CATT row.
-        if "tarragona" not in line.lower():
+        # Field tables (Llargada/Alçada/Pes/Disc): multi-attempt or O/X + Marca.
+        # Prefer this path when the section title is a field event so a trailing
+        # Marca does not hide the attempt columns.
+        if _promocio_field_kind(prova):
+            if "tarragona" not in line.lower():
+                continue
+            field_rows = _parse_promocio_field_rows(line, prova, wind)
+            if field_rows:
+                rows.extend(field_rows)
+            continue
+        # Amposta CURSA multi-column rows (NOM + COGNOMS split). Prefer this
+        # before _PROMOCIO_ROW_RE, which mis-splits name/club on that layout.
+        cursa_row = _parse_cursa_row(line, prova, wind)
+        if cursa_row:
+            rows.append(cursa_row)
+            continue
+        # Cheap gate before the heavy row regex: masters MARCA/COEF/% tails and
+        # other multi-decimal columns backtrack for seconds (issue #26 hang).
+        if not _promocio_worth_row_regex(line):
             continue
         m = _PROMOCIO_ROW_RE.match(line)
         if not m:
@@ -203,14 +960,22 @@ def parse_promocio_series(text):
         # licencia may be None: the 2016 territorial layout has none.
         # A 4-digit birth year is normalized to the 2-digit form the rest
         # of the pipeline stores (era rows keep athlete_dob empty anyway).
-        if "tarragona" not in club.lower():
+        # CG Tarragona shares the city name — never treat it as CATT.
+        if not _is_catt_club(club):
+            continue
+        name = nom.strip()
+        # Relay teams printed as dash-joined legs are not a single athlete.
+        if " - " in name or name.count("-") >= 3:
+            continue
+        mark = _quote_to_decimal(marca)
+        if not _promocio_mark_plausible(prova, mark):
             continue
         rows.append({
-            "atleta_nom": nom.strip(),
+            "atleta_nom": name,
             "atleta_naixement": "",   # the layout shows a 2-digit birth year only
             "atleta_licencia": (licencia or "").strip(),
             "prova": prova,
-            "marca": _quote_to_decimal(marca),
+            "marca": mark,
             "vent": wind,
             "position": None,
             # hand-time provenance decided at the source: the quote form 11"6
@@ -304,16 +1069,25 @@ def parse_header(text):
     # "Campionat"/"Campeonato". Also accept lines with just "Campionat"/"Campeonato"
     # (without "Jornada"). Word-boundary match: Catalan plural "Jornades" does NOT
     # substring-contain "Jornada" (e.g., "IX Jornades Atlètiques Torredembarra").
-    jornada_re = re.compile(r'Jornad(?:a|as|es)\b')
+    jornada_re = re.compile(r'Jornad(?:a|as|es)\b', re.IGNORECASE)
+    # Era sheets print "CAMPIONAT TERRITORIAL" / "CONTROL TERRITORIAL" in
+    # all caps; match case-insensitively so era_year can unlock the fallback
+    # (issue #26 fail layouts).
+    _campionat_re = re.compile(r'Campionat(?:u)?|Campeonato', re.IGNORECASE)
+    _control_re = re.compile(r'\bControl\b', re.IGNORECASE)
     for i, line in enumerate(lines[:30]):
         stripped = line.strip()
-        if jornada_re.search(stripped) and ('Campionat' in stripped or 'Campeonato' in stripped):
+        if jornada_re.search(stripped) and _campionat_re.search(stripped):
             competicio = stripped
             break
     if not competicio:
         for i, line in enumerate(lines[:30]):
             stripped = line.strip()
-            if ('Campionat' in stripped or 'Campeonato' in stripped) and 'Campionatu' not in stripped and not jornada_re.search(stripped):
+            # Reject "Campionatu…" false positives the old substring check
+            # already filtered; keep the same shape under IGNORECASE.
+            m = _campionat_re.search(stripped)
+            if m and not stripped[m.start():].lower().startswith('campionatu') \
+                    and not jornada_re.search(stripped):
                 competicio = stripped
                 break
     # Fallback: accept "Jornada"/"Jornadas"/"Jornades" alone as competition name
@@ -329,7 +1103,7 @@ def parse_header(text):
     if not competicio:
         for i, line in enumerate(lines[:30]):
             stripped = line.strip()
-            if 'Control' in stripped and 'sesión' not in stripped.lower() and 'sesion' not in stripped.lower():
+            if _control_re.search(stripped) and 'sesión' not in stripped.lower() and 'sesion' not in stripped.lower():
                 competicio = stripped
                 break
     # Fallback: RFEA "Nacionales Sub-XX" (e.g., Allianz Nacionales Sub-18 Short Track)
@@ -368,11 +1142,15 @@ def parse_header(text):
         'maig': '05', 'juny': '06', 'juliol': '07', 'agost': '08',
         'setembre': '09', 'novembre': '11', 'desembre': '12',
     }
+    # Catalan elision before the month: "5 d'abril de 2014" (also d'abril /
+    # d’abril). Plain "de " / bare month still match.
+    _de_month = r"(?:d['\u2019]|de\s+)?"
     for i, line in enumerate(lines[:30]):
         if _stamp_re.search(line):
             continue
         spanish_match = re.search(
-            r'([A-Za-zÀ-ÿ\.\s\-]+?),\s*(\d{1,2})\s+(?:de\s+)?(' + '|'.join(month_map) + r')\s+(?:de\s+)?(\d{4})',
+            r'([A-Za-zÀ-ÿ\.\s\-]+?),\s*(\d{1,2})\s+' + _de_month
+            + r'(' + '|'.join(month_map) + r')\s+(?:de\s+)?(\d{4})',
             line.strip(),
             re.IGNORECASE,
         )
@@ -385,7 +1163,15 @@ def parse_header(text):
             localitat = city
             break
 
-    # Extract localitat and date from DD/MM/YYYY in page header (skip RCAT/RCAM record lines)
+    # Extract localitat and date from DD/MM/YYYY in page header (skip RCAT/RCAM
+    # record lines). Fail-layout sheets also print spaces around the slashes
+    # ("24 / 01 / 2015"); normalize to zero-padded DD/MM/YYYY. Prefer the city
+    # on the same line ("Cambrils, 24 / 01 / 2015") over the competition title
+    # on the line above ("CONTROL TERRITORIAL").
+    _slash_date_re = re.compile(r'(\d{1,2})\s*/\s*(\d{1,2})\s*/\s*(\d{4})')
+    _same_line_city_re = re.compile(
+        r'^([A-Za-zÀ-ÿ\.\s\-]+?),\s*' + _slash_date_re.pattern
+    )
     if not data:
         for i, line in enumerate(lines[:30]):
             stripped = line.strip()
@@ -393,28 +1179,62 @@ def parse_header(text):
                 continue
             if _stamp_re.search(stripped):
                 continue
-            date_match = re.search(r'(\d{2}/\d{2}/\d{4})', stripped)
+            date_match = _slash_date_re.search(stripped)
             if date_match:
-                cand = date_match.group(1)
+                day, month, year_s = date_match.groups()
+                year = int(year_s)
                 # Reject birth/record dates: sheets that open with an athlete
                 # table (some masters meets) have no header date, and the first
                 # DD/MM/YYYY on the page is an athlete's date of birth. The
                 # dataset covers 2005+; anything outside is not a meeting date.
-                year = int(cand.split("/")[2])
                 if 2000 <= year <= 2035:
-                    data = cand
-                for j in range(i - 1, max(i - 5, -1), -1):
-                    prev = lines[j].strip()
-                    if prev and not re.search(r'\d{2}/\d{2}/\d{4}', prev):
-                        if jornada_re.search(prev) and ('Campionat' in prev or 'Campeonato' in prev):
-                            continue
-                        if any(kw in prev for kw in ['Estadi', 'Pista', 'Pabellon', 'Pabellón']):
-                            continue
-                        if re.search(r'\bRCAT\b|\bRCAM\b', prev):
-                            continue
-                        localitat = prev
-                        break
+                    data = f"{day.zfill(2)}/{month.zfill(2)}/{year_s}"
+                same = _same_line_city_re.match(stripped)
+                if same:
+                    localitat = same.group(1).strip()
+                else:
+                    for j in range(i - 1, max(i - 5, -1), -1):
+                        prev = lines[j].strip()
+                        if prev and not _slash_date_re.search(prev):
+                            if jornada_re.search(prev) and _campionat_re.search(prev):
+                                continue
+                            if _campionat_re.search(prev) or _control_re.search(prev):
+                                continue
+                            if any(kw in prev for kw in ['Estadi', 'Pista', 'Pabellon', 'Pabellón']):
+                                continue
+                            if re.search(r'\bRCAT\b|\bRCAM\b', prev):
+                                continue
+                            localitat = prev
+                            break
                 break
+
+    # Amposta CURSA titles glue a short date at the end of the competition
+    # line: "… AMPOSTA 5-3-16", "… AMPOSTA 13-02-16". Without these,
+    # era_year stays 0 and the empty-result fallback never runs (issue #26).
+    _short_date_re = re.compile(
+        r'(\d{1,2})\s*[-/]\s*(\d{1,2})\s*[-/]\s*(\d{2})(?!\d)'
+    )
+    if not data:
+        for i, line in enumerate(lines[:30]):
+            stripped = line.strip()
+            if re.search(r'\bRCAT\b|\bRCAM\b', stripped):
+                continue
+            if _stamp_re.search(stripped):
+                continue
+            date_match = _short_date_re.search(stripped)
+            if not date_match:
+                continue
+            day, month, yy = date_match.groups()
+            year = 2000 + int(yy)
+            if not (2000 <= year <= 2035):
+                continue
+            data = f"{day.zfill(2)}/{month.zfill(2)}/{year}"
+            # City is the last word before the glued date ("… - AMPOSTA 5-3-16").
+            before = stripped[:date_match.start()].rstrip(" -–\t")
+            city_m = re.search(r'([A-Za-zÀ-ÿ\.]+)\s*$', before)
+            if city_m and not localitat:
+                localitat = city_m.group(1)
+            break
 
     # Canonicalize the venue: an "Estadi Joan Serrahima" header line wins
     # over the city guess (event_name keeps the PDF text as-is).
@@ -2152,26 +2972,33 @@ def find_catt_athletes_in_section(lines, sec_start, sec_end):
 def _find_catt_old_format(lines, sec_start, sec_end, is_in_sumario=None):
     """Find CATT athletes in old format (position + CATT on same line)."""
     athletes = []
-    
+    # Defined once for lookback AND data-line collection. Previously lived only
+    # inside the lookback loop; when lookback never assigned it, collecting
+    # data lines raised UnboundLocalError (clubs140615, issue #26).
+    skip_labels = ['Puesto', 'Dorsal', 'Club', 'Calle', 'Ord', 'Serie',
+                   'Result', 'Viento', 'Leyenda', 'Hora', 'RESULT',
+                   'Nombre', 'Fecha', 'Licencia', 'RESULTADOS',
+                   'Gestion', 'Pagina', 'SUMARIO', 'Rank']
+
     # Strategy 1: Find lines with position + CATT/CA Tarragona (formats 1 & 2)
     anchor_pattern = re.compile(r'^\s*(\d+)\s+\d+\s+(?:CATT|CA\s+Tarragona)')
-    
+
     # Strategy 2 REMOVED: Previously matched ALL club names (CA Tarragona, CA Granollers,
     # CA Vic, JA Sabadell, GEiE Girona, etc.) causing cross-contamination where results for
     # athletes from those clubs were extracted into CATT athlete files.
     # Now only Strategy 1 (CATT/CA Tarragona anchor) and Strategy 3 (Conersys) are used.
     club_name_pattern = re.compile(r'^\s*(\d+)\s+\d+\s+CA\s+Tarragona')
-    
+
     # Strategy 3: Conersys format - position + CA Tarragona + CATT (no dorsal between pos and club)
     # Pattern: "5          CA Tarragona                        CATT"
     conersys_pattern = re.compile(r'^\s*(\d+)\s+CA\s+Tarragona\s+CATT')
-    
+
     all_anchors = []  # list of (idx, is_club_name_line, is_conersys)
-    
+
     for i in range(sec_start, min(sec_end, len(lines))):
         line = lines[i]
         stripped = line.strip()
-        
+
         # Check for Conersys format: position + CA Tarragona + CATT (no dorsal)
         if conersys_pattern.search(line):
             all_anchors.append((i, False, True))
@@ -2181,14 +3008,14 @@ def _find_catt_old_format(lines, sec_start, sec_end, is_in_sumario=None):
         # Check for format 3 (SUMARIO): position + club name only
         elif club_name_pattern.search(stripped):
             all_anchors.append((i, True, False))
-    
+
     for anchor_idx, is_club_name, is_conersys in all_anchors:
         anchor_line = lines[anchor_idx]
         pos_match = re.match(r'^\s*(\d+)', anchor_line)
         if not pos_match:
             continue
         pos = int(pos_match.group(1))
-        
+
         # For SUMARIO format, check if next line has CATT
         if is_club_name:
             if anchor_idx + 1 >= len(lines):
@@ -2197,29 +3024,25 @@ def _find_catt_old_format(lines, sec_start, sec_end, is_in_sumario=None):
             if 'CATT' not in next_line:
                 continue
             anchor_line = next_line
-        
+
         # Check this is actually CATT
         if 'CATT' not in anchor_line and 'CA Tarragona' not in anchor_line:
             continue
-        
+
         # Find the name line: look backwards from anchor
         name_line_idx = None
         name_line = None
-        
+
         # Conersys format: name is typically 2 lines above (name, blank, pos)
         # Old format: name is typically 1 line above
         lookback = 3 if is_conersys else 8
-        
+
         for j in range(anchor_idx - 1, max(anchor_idx - lookback, sec_start - 1), -1):
             prev = lines[j].strip()
             if not prev or len(prev) < 4:
                 continue
             if re.match(r'^\s*\d+\s+\d+\s+[A-Z]', prev) and 'CATT' not in prev and 'CA Tarragona' not in prev:
                 continue
-            skip_labels = ['Puesto', 'Dorsal', 'Club', 'Calle', 'Ord', 'Serie',
-                           'Result', 'Viento', 'Leyenda', 'Hora', 'RESULT',
-                           'Nombre', 'Fecha', 'Licencia', 'RESULTADOS',
-                           'Gestion', 'Pagina', 'SUMARIO', 'Rank']
             if any(label in prev for label in skip_labels):
                 continue
             if is_club_line(prev):
@@ -2230,12 +3053,12 @@ def _find_catt_old_format(lines, sec_start, sec_end, is_in_sumario=None):
                 name_line_idx = j
                 name_line = prev
                 break
-        
+
         # Collect data lines
         data_lines = []
         anchor_pos = all_anchors.index((anchor_idx, is_club_name, is_conersys))
         next_anchor_idx = all_anchors[anchor_pos + 1][0] if anchor_pos + 1 < len(all_anchors) else sec_end
-        
+
         for j in range(anchor_idx + 1, min(next_anchor_idx, sec_end)):
             fwd = lines[j].strip()
             if not fwd:
@@ -2248,11 +3071,11 @@ def _find_catt_old_format(lines, sec_start, sec_end, is_in_sumario=None):
             if any(label in fwd for label in skip_labels):
                 continue
             data_lines.append((j, lines[j]))
-        
+
         # Skip athletes found in SUMARIO sub-sections
         if is_in_sumario and is_in_sumario(anchor_idx):
             continue
-        
+
         athletes.append({
             'position_line_idx': anchor_idx,
             'position_line': anchor_line,
@@ -2262,7 +3085,7 @@ def _find_catt_old_format(lines, sec_start, sec_end, is_in_sumario=None):
             'data_lines': data_lines,
             'is_conersys': is_conersys,
         })
-    
+
     return athletes
 
 
@@ -4170,6 +4993,11 @@ def main():
     if not quiet:
         print("Parsing competition header...")
     competicio, ubicacio, localitat, data = parse_header(text)
+    # Headerless era sheets (e.g. resultrobadacatgui20416) carry the meeting
+    # date only in the FCAT filename; without it era_year stays 0 and the
+    # empty-result fallback never runs (issue #26 fail layouts).
+    if not data:
+        data = _date_from_fcat_filename(pdf_path)
     full_competicio = f"{competicio} - {ubicacio}" if ubicacio else competicio
     if not quiet:
         print(f"  Competicio: {competicio or '(no trobat)'}")
@@ -4356,8 +5184,9 @@ def main():
     if not quiet:
         print(f"After event-type validation: {len(results)} valid results")
 
-    # Era fallbacks (issue #26). Two era layouts exist beyond the main path:
+    # Era fallbacks (issue #26). Three era layouts exist beyond the main path:
     #  - promocio 2013-2016: SÈRIE/LLOC/DORS/... with quote marks
+    #  - clubs veterans: MARCA/Ref/%/PUNTS (store MARCA only)
     #  - Conersys combined events (e.g. st_Antequera): multi-line athletes
     # Both are merged/adopted by (name, mark) so an attempt never duplicates.
     era_year = _header_year(data)   # data is the event_date string
@@ -4369,19 +5198,33 @@ def main():
     # Older-season sheets pinned in NO_EXPORT_CASES keep their season-specific
     # processors: the fallback would duplicate their rows.
     if not results and era_year >= 2012:
-        results = (parse_conersys_combinadas(text) if is_conersys_comb
-                   else parse_promocio_series(text))
+        if is_conersys_comb:
+            results = parse_conersys_combinadas(text)
+        else:
+            # Promocio first; clubs-veterans when the SÈRIE path finds nothing
+            # (masters MARCA/COEF/% rows are skipped by the anti-hang gate).
+            results = (parse_promocio_series(text) or parse_veterans_clubs(text)
+                        or parse_veterans_pentatlo(text)
+                        or parse_duatlo_puntuacio(text)
+                        or parse_nastic_prova(text))
         if results and not quiet:
             print(f"Era fallback: {len(results)} CATT rows")
     elif is_era or is_conersys_comb:
         # partial coverage on era sheets: merge the rows the main path missed
-        extra = (parse_promocio_series(text) if is_era
-                 else parse_conersys_combinadas(text))
+        if is_era:
+            extra = (parse_promocio_series(text) or parse_veterans_clubs(text)
+                    or parse_veterans_pentatlo(text)
+                    or parse_duatlo_puntuacio(text)
+                    or parse_nastic_prova(text))
+        else:
+            extra = parse_conersys_combinadas(text)
+        # Normalize marks in the key so '1,30' and '1.30' collapse (issue #26).
         known = {(r.get("atleta_nom", "").upper().replace(",", ""),
-                  r.get("marca", "")) for r in results}
+                  _quote_to_decimal(r.get("marca", ""))) for r in results}
         added = 0
         for r in extra:
-            key = (r["atleta_nom"].upper().replace(",", ""), r["marca"])
+            key = (r["atleta_nom"].upper().replace(",", ""),
+                   _quote_to_decimal(r["marca"]))
             if key not in known:
                 results.append(r)
                 known.add(key)
@@ -4392,10 +5235,11 @@ def main():
         # same merge for Conersys combined events (2016-style tails excluded)
         extra = parse_conersys_combinadas(text)
         known = {(r.get("atleta_nom", "").upper().replace(",", ""),
-                  r.get("marca", "")) for r in results}
+                  _quote_to_decimal(r.get("marca", ""))) for r in results}
         added = 0
         for r in extra:
-            key = (r["atleta_nom"].upper().replace(",", ""), r["marca"])
+            key = (r["atleta_nom"].upper().replace(",", ""),
+                   _quote_to_decimal(r["marca"]))
             if key not in known:
                 results.append(r)
                 known.add(key)

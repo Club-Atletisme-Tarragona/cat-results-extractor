@@ -3,7 +3,7 @@
   "event_date": "23/06/2013",
   "event_location": "Cambrils",
   "event_src": "http://old.fcatletisme.cat/Pairelliure/pairelliure2013/resulcambrils230613.pdf",
-  "total_results": 20,
+  "total_results": 24,
   "results": [
     {
       "athlete_name": "ALICIA VAZQUEZ DOMINGO",
@@ -225,6 +225,50 @@
       "raw_discipline_name": "ALÇADA Cadet Femení",
       "timing": "electronic",
       "internal_id": 472
+    },
+    {
+      "athlete_name": "MIREIA LÓPEZ URBANO",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "11.48",
+      "discipline": "80 m.ll. Infantil Femení",
+      "wind": null,
+      "position": null,
+      "raw_discipline_name": "80 m.ll. Infantil Femení",
+      "timing": "electronic"
+    },
+    {
+      "athlete_name": "ANDREA LÓPEZ URBANO",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "14.58",
+      "discipline": "100 m.ll. Cadet - Absolut Femení",
+      "wind": null,
+      "position": null,
+      "raw_discipline_name": "100 m.ll. Cadet - Absolut Femení",
+      "timing": "electronic"
+    },
+    {
+      "athlete_name": "ALICIA VAZQUEZ DOMINGO",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "14.33",
+      "discipline": "100 m.ll. Cadet - Absolut Femení",
+      "wind": null,
+      "position": null,
+      "raw_discipline_name": "100 m.ll. Cadet - Absolut Femení",
+      "timing": "electronic"
+    },
+    {
+      "athlete_name": "MIREIA LÓPEZ URBANO",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "2'01\"58",
+      "discipline": "600 m.ll. Infantil Femení",
+      "wind": null,
+      "position": null,
+      "raw_discipline_name": "600 m.ll. Infantil Femení",
+      "timing": "electronic"
     }
   ],
   "is_short_track": false

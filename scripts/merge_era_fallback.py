@@ -31,11 +31,37 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 from extract_catt import (  # noqa: E402
     parse_promocio_series,
+    parse_veterans_clubs,
+    parse_veterans_pentatlo,
+    parse_duatlo_puntuacio,
+    parse_nastic_prova,
     timing_from_mark,
     detect_short_track,
+    _quote_to_decimal,
 )
 
 SEASONS_DIR = ROOT / "seasons"
+PDF_CACHE = ROOT / "pdf_cache"
+
+
+def _resolve_pdf(season, json_path, src, work):
+    """Prefer pdf_cache/<season>/<stem>.pdf; else download into work/."""
+    stem = json_path.name.replace(".json", ".pdf")
+    cached = PDF_CACHE / season / stem
+    if cached.is_file() and cached.stat().st_size > 0:
+        try:
+            if cached.read_bytes()[:4] == b"%PDF":
+                return cached, "cache"
+        except OSError:
+            pass
+    pdf = work / stem
+    dl = subprocess.run(
+        ["curl", "-fsSL", "--connect-timeout", "15", "--max-time", "90",
+         "-o", str(pdf), src],
+        capture_output=True, timeout=120)
+    if dl.returncode != 0 or not pdf.exists() or pdf.read_bytes()[:4] != b"%PDF":
+        return None, "download_fail"
+    return pdf, "download"
 
 
 def main():
@@ -56,21 +82,26 @@ def main():
             if not src.startswith(("http://", "https://")):
                 stats["no_url"] += 1
                 continue
-            pdf = work / path.name.replace(".json", ".pdf")
-            dl = subprocess.run(["curl", "-fsSL", "--connect-timeout", "15",
-                                 "--max-time", "90", "-o", str(pdf), src],
-                                capture_output=True, timeout=120)
-            if dl.returncode != 0 or not pdf.exists() or pdf.read_bytes()[:4] != b"%PDF":
+            pdf, how = _resolve_pdf(args.season, path, src, work)
+            if pdf is None:
                 stats["download_fail"] += 1
                 continue
+            stats[f"pdf_{how}"] += 1
             txt = subprocess.run(["pdftotext", "-layout", str(pdf), "-"],
                                  capture_output=True, text=True).stdout
-            extra = parse_promocio_series(txt)
+            # Promocio SÈRIE first; clubs-veterans when that path finds nothing
+            # (masters MARCA/COEF/% rows are skipped by the anti-hang gate).
+            extra = (parse_promocio_series(txt) or parse_veterans_clubs(txt)
+                     or parse_veterans_pentatlo(txt)
+                     or parse_duatlo_puntuacio(txt)
+                     or parse_nastic_prova(txt))
             if not extra:
                 stats["no_fallback_rows"] += 1
                 continue
+            # Normalize marks so '1,30' and '1.30' are the same attempt
+            # (issue #26 era comma decimals).
             known = {(r.get("athlete_name", "").upper().replace(",", "").strip(),
-                      r.get("performance", "")) for r in stored}
+                      _quote_to_decimal(r.get("performance", ""))) for r in stored}
             added = []
             for r in extra:
                 name = r["atleta_nom"].strip()
@@ -80,7 +111,8 @@ def main():
                 if not name:
                     stats["unnamed_skipped"] += 1
                     continue
-                key = (name.upper().replace(",", "").strip(), r["marca"])
+                key = (name.upper().replace(",", "").strip(),
+                       _quote_to_decimal(r["marca"]))
                 if key not in known:
                     added.append(r)
                     known.add(key)

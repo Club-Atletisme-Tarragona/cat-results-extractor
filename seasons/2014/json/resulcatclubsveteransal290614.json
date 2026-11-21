@@ -3,7 +3,7 @@
   "event_date": "29/06/2014",
   "event_location": "Tarragona",
   "event_src": "http://old.fcatletisme.cat/Veterans/veterans2014/resulcatclubsveteransal290614.pdf",
-  "total_results": 36,
+  "total_results": 44,
   "results": [
     {
       "athlete_name": "BERENGUEL NIETO FRAN",
@@ -350,17 +350,6 @@
       "athlete_name": "SAEZ PEREZ LUIS",
       "athlete_dob": "",
       "athlete_id": "",
-      "performance": "7.87",
-      "discipline": "Pes",
-      "wind": null,
-      "position": null,
-      "internal_id": 304,
-      "timing": "electronic"
-    },
-    {
-      "athlete_name": "SAEZ PEREZ LUIS",
-      "athlete_dob": "",
-      "athlete_id": "",
       "performance": "7.72",
       "discipline": "Pes",
       "wind": null,
@@ -399,6 +388,105 @@
       "wind": null,
       "position": null,
       "internal_id": 304,
+      "timing": "electronic"
+    },
+    {
+      "athlete_name": "ARGILAGA SALVADO JOSEP RAMON",
+      "athlete_dob": "",
+      "athlete_id": "CL22364",
+      "performance": "12.71",
+      "discipline": "100 METRES LLISOS MASCULÍ",
+      "wind": null,
+      "position": null,
+      "raw_discipline_name": "100 METRES LLISOS MASCULÍ",
+      "timing": "electronic"
+    },
+    {
+      "athlete_name": "MONTOLIO ALCON JESUS FERNANDO",
+      "athlete_dob": "",
+      "athlete_id": "CT16331",
+      "performance": "0:54.35",
+      "discipline": "400 METRES LLISOS MASCULÍ",
+      "wind": null,
+      "position": null,
+      "raw_discipline_name": "400 METRES LLISOS MASCULÍ",
+      "timing": "electronic"
+    },
+    {
+      "athlete_name": "BLANCO PRIETO JUAN",
+      "athlete_dob": "",
+      "athlete_id": "CL19238",
+      "performance": "2:28.19",
+      "discipline": "800 METRES LLISOS MASCULÍ",
+      "wind": null,
+      "position": null,
+      "raw_discipline_name": "800 METRES LLISOS MASCULÍ",
+      "timing": "electronic"
+    },
+    {
+      "athlete_name": "CASAS DRETS JOSEP",
+      "athlete_dob": "",
+      "athlete_id": "CL22881",
+      "performance": "5:01.37",
+      "discipline": "1500 METRES LLISOS MASCULÍ",
+      "wind": null,
+      "position": null,
+      "raw_discipline_name": "1500 METRES LLISOS MASCULÍ",
+      "timing": "electronic"
+    },
+    {
+      "athlete_name": "ORTEGA RIDAO PEDRO",
+      "athlete_dob": "",
+      "athlete_id": "CL16079",
+      "performance": "9:36.13",
+      "discipline": "3000 METRES MASCULÍ",
+      "wind": null,
+      "position": null,
+      "raw_discipline_name": "3000 METRES MASCULÍ",
+      "timing": "electronic"
+    },
+    {
+      "athlete_name": "DOMINGO FUSTER MIRIAM",
+      "athlete_dob": "",
+      "athlete_id": "CL21271",
+      "performance": "15.58",
+      "discipline": "100 METRES LLISOS FEMENÍ",
+      "wind": null,
+      "position": null,
+      "raw_discipline_name": "100 METRES LLISOS FEMENÍ",
+      "timing": "electronic"
+    },
+    {
+      "athlete_name": "CABELLO RIOJA ANA",
+      "athlete_dob": "",
+      "athlete_id": "CL23242",
+      "performance": "31.63",
+      "discipline": "200 METRES LLISOS FEMENÍ",
+      "wind": null,
+      "position": null,
+      "raw_discipline_name": "200 METRES LLISOS FEMENÍ",
+      "timing": "electronic"
+    },
+    {
+      "athlete_name": "FERNANDEZ CARRANZA PILAR",
+      "athlete_dob": "",
+      "athlete_id": "CL22384",
+      "performance": "1:14.70",
+      "discipline": "400 METRES LLISOS FEMENÍ",
+      "wind": null,
+      "position": null,
+      "raw_discipline_name": "400 METRES LLISOS FEMENÍ",
+      "timing": "electronic"
+    },
+    {
+      "athlete_name": "CALAF OROS SUSANNA",
+      "athlete_dob": "",
+      "athlete_id": "CL21207",
+      "performance": "3:51.08",
+      "discipline": "800 METRES LLISOS FEMENÍ",
+      "wind": null,
+      "position": null,
+      "raw_discipline_name": "800 METRES LLISOS FEMENÍ",
       "timing": "electronic"
     }
   ],

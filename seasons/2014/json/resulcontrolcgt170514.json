@@ -3,7 +3,7 @@
   "event_date": "17/05/2014",
   "event_location": "Tarragona",
   "event_src": "http://old.fcatletisme.cat/Promocio/promocio2014/resulcontrolcgt170514.pdf",
-  "total_results": 144,
+  "total_results": 148,
   "results": [
     {
       "athlete_name": "BO CALAF SIRA",
@@ -1691,6 +1691,50 @@
       "raw_discipline_name": "SALT DE LLARGADA BENJAMI FEMENÍ",
       "timing": "electronic",
       "internal_id": 839
+    },
+    {
+      "athlete_name": "Aldave Mas, Pep",
+      "athlete_dob": "",
+      "athlete_id": "CL 71684",
+      "performance": "11.60",
+      "discipline": "80 METRES LLISOS INFANTIL MASCULÍ",
+      "wind": null,
+      "position": null,
+      "raw_discipline_name": "80 METRES LLISOS INFANTIL MASCULÍ",
+      "timing": "manual"
+    },
+    {
+      "athlete_name": "CL         Aldave Mas, Laia",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "4:00.70",
+      "discipline": "1000 METRES LLISOS BENJAMI FEMENÍ",
+      "wind": null,
+      "position": null,
+      "raw_discipline_name": "1000 METRES LLISOS BENJAMI FEMENÍ",
+      "timing": "electronic"
+    },
+    {
+      "athlete_name": "CL         Suarez Piza, Julia",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "4:44.00",
+      "discipline": "1000 METRES LLISOS BENJAMI FEMENÍ",
+      "wind": null,
+      "position": null,
+      "raw_discipline_name": "1000 METRES LLISOS BENJAMI FEMENÍ",
+      "timing": "electronic"
+    },
+    {
+      "athlete_name": "CL         Suarez Piza, Ariadna",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "4:46.10",
+      "discipline": "1000 METRES LLISOS BENJAMI FEMENÍ",
+      "wind": null,
+      "position": null,
+      "raw_discipline_name": "1000 METRES LLISOS BENJAMI FEMENÍ",
+      "timing": "electronic"
     }
   ],
   "is_short_track": false

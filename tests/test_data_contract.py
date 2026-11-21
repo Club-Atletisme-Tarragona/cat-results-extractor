@@ -259,7 +259,12 @@ class TestAggregatorCharacterization(unittest.TestCase):
             # (Perxa 2.00 stored as 'Decathlon Sub18') was corrected first.
             # 119 -> 117: the pentatlo ghost rows (his Javelina/Disc marks
             # stored as 'Llargada') were deleted in the era rework.
-            self.assertEqual(len(data["results"]), 117)
+            # 117 -> 121: issue #26 fail-layout merge recovered +4 Aldave
+            # rows from 2014/2015/2016 promocio sheets (no new height/track
+            # ghosts — those already sat in the season JSONs at 72966f5e).
+            # 121 -> 124: 2013 trobada tardor merge recovered his 60 m.ll.
+            # 9.72, 60 m.t. 11.62 and 600 m 2'07"28 (resultrobadatardorcambrils171112).
+            self.assertEqual(len(data["results"]), 124)
             empty_dates = [r for r in data["results"] if not r.get("event_date")]
             empty_srcs = [r for r in data["results"] if not r.get("event_src")]
             self.assertEqual(empty_dates, [])

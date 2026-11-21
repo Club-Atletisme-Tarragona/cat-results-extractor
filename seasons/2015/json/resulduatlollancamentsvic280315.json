@@ -3,7 +3,7 @@
   "event_date": "28/03/2015",
   "event_location": "Barcelona",
   "event_src": "http://old.fcatletisme.cat/Pairelliure/2015/resulduatlollancamentsvic280315.pdf",
-  "total_results": 7,
+  "total_results": 8,
   "results": [
     {
       "athlete_name": "MONTSERRAT MONTAÑÉS ARBO",
@@ -80,6 +80,17 @@
       "performance": "10.59",
       "wind": null,
       "internal_id": 497,
+      "timing": "electronic"
+    },
+    {
+      "athlete_name": "MONTSERRAT MONTAÑÉS ARBO",
+      "athlete_dob": "",
+      "athlete_id": "CL71723",
+      "performance": "3130",
+      "discipline": "Duatló",
+      "wind": null,
+      "position": null,
+      "raw_discipline_name": "Duatló",
       "timing": "electronic"
     }
   ],

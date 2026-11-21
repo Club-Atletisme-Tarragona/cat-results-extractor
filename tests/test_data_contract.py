@@ -126,6 +126,31 @@ class TestSourceFileContract(unittest.TestCase):
         )
 
 
+class TestVeteransWorklistStaysHonest(unittest.TestCase):
+    """A clean masters dataset must not leave a stale worklist on disk.
+
+    The checker used to write `--csv` only when it found suspects, so a clean
+    run left the previous run's rows in place and read as if they were open.
+    """
+
+    def test_clean_run_rewrites_the_worklist_header_only(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            out = Path(tmp, "suspects.csv")
+            out.write_text(
+                "file,event_name,athlete_name,discipline,performance,why,source\n"
+                "stale,garbage,row,kept,from,a,previous run\n",
+                encoding="utf-8",
+            )
+            proc = subprocess.run(
+                [sys.executable, "scripts/check_veterans_marks.py", "--csv", str(out)],
+                cwd=REPO_ROOT, capture_output=True, text=True, timeout=300,
+            )
+            self.assertEqual(proc.returncode, 0, proc.stderr)
+            lines = out.read_text(encoding="utf-8").splitlines()
+            self.assertEqual(len(lines), 1, f"stale worklist not cleared: {lines}")
+            self.assertTrue(lines[0].startswith("file,event_name,"))
+
+
 class TestIssue20FixStaysFixed(unittest.TestCase):
     """The issue #20 fixer must be a no-op on a healthy dataset.
 

@@ -171,13 +171,19 @@ def main():
     if len(suspects) > 15:
         print(f"  ... and {len(suspects) - 15} more")
 
+    # Always rewrite the worklist: a clean run must not leave a previous
+    # run's suspects on disk, which reads as if they were still open.
+    REPORTS_DIR.mkdir(exist_ok=True)
+    fieldnames = list(suspects[0].keys()) if suspects else [
+        "file", "event_name", "athlete_name", "discipline", "performance",
+        "why", "source",
+    ]
+    with open(args.csv, "w", encoding="utf-8", newline="") as fh:
+        writer = csv.DictWriter(fh, fieldnames=fieldnames, lineterminator="\n")
+        writer.writeheader()
+        writer.writerows(suspects)
+
     if suspects:
-        REPORTS_DIR.mkdir(exist_ok=True)
-        with open(args.csv, "w", encoding="utf-8", newline="") as fh:
-            writer = csv.DictWriter(fh, fieldnames=list(suspects[0].keys()),
-                                    lineterminator="\n")
-            writer.writeheader()
-            writer.writerows(suspects)
         print(f"\nworklist: {args.csv}")
         print("Each row needs the MARCA column read from its source PDF; the "
               "age-graded value cannot be inverted without the sheet's reference.")

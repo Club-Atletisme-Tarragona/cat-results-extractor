@@ -66,3 +66,16 @@ L2. T5 run (2026-11-20): `python3 -m unittest discover -s tests` 104 → 120 tes
     this task's edit surface, so S7's "0 rows" is not reached here.
 L2. Worker T1-T5: `masters_weights.py` (table + `age_on`/`band_for_age`/`parse_sex_and_category`), 14/19 rows relabelled (Velasco 40-44 -> `Martell pesat (9.08 Kg)`; Saez M75 -> `(7.26 Kg)`; Mosquera M65 -> `(9.08 Kg)`), `reports/masters_implement_weight_mismatches.csv` (220 evidence-backed contradictions, report only), `extract_catt.py:masters_discipline_label()` + output loop. Parent verification: suite 120 OK; plausibility 259 (unchanged); differential check on 5 real PDFs (2016 promocio, 2026 control/promocio-relay/combinades/10000m) -> byte-identical JSON, no regression on non-masters families.
 L3. Leftovers accepted by the parent: 5 pentatlo rows with empty `athlete_dob` (PDF does print Cat./DOB -> needs an extractor fix, not a guess) and one 2016 veterans 400mH row storing an age-graded value as the mark (separate #27-class repair).
+L4. Parent closed the leftovers with PDF evidence from `pdf_cache/2016/`:
+`resulcatpentatlollancamentsveterans180916.pdf` prints `LLANÇAMENT DE MARTELL PESAT FEMENI`
+with category per row -> PRADILLO GUTIERREZ MARISA `W-55` (rows 5.99/6.58 -> `Martell pesat (7.26 Kg)`)
+and VELASCO MARTI ANA CRISTINA `W-40` (6.33/5.69/6.06 -> `Martell pesat (9.08 Kg)`), so the 5 rows
+the worker reported as unresolvable are now relabelled from printed evidence, not a guess.
+Also `resulcatclubsveterans190616.pdf`: FLORES MONTES FERNANDO's `25:32,97` sits under
+`5000 MARXA MASCULÍ` but was stored as `400 METRES TANQUES MASCULÍ` (section leak) -> `5000 metres marxa`;
+URBANO FLORES MARIA ANGELES printed no MARCA (only `Ref. 127,02`) -> entry dropped.
+`check_veterans_marks.py` now always rewrites `--csv` (header only when clean) so a clean run cannot
+leave a stale worklist; covered by `TestVeteransWorklistStaysHonest`.
+Verification: suite **121 OK**; plausibility **259** (unchanged); veterans checker **0** suspects.
+Remaining, tracked separately: the parser still needs to recognise `5000 MARXA` sections and to skip
+empty-MARCA rows, so re-extraction cannot regress these two repairs.

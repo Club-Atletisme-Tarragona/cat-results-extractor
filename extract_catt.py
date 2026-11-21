@@ -124,6 +124,12 @@ def _quote_to_decimal(mark):
     m = re.match(r'^(\d{1,2})"(\d)$', text)
     if m:  # seconds"tenths
         return f"{m.group(1)}.{m.group(2)}0"
+    # Clubs veterans MARCA: 01:01,22 / 00:53,61 (MM:SS,cc). Must run before
+    # the bare-comma decimal branch or the colon form is left raw (issue #26).
+    m = re.match(r"^(\d{1,2}):(\d{2})[.,](\d{1,2})$", text)
+    if m:
+        cs = m.group(3).ljust(2, "0")[:2]
+        return f"{int(m.group(1))}:{m.group(2)}.{cs}"
     # Era field sheets print comma decimals ('1,30', '11,95'); merge keys
     # must see the dotted form or the same attempt is re-added as a phantom.
     m = re.match(r"^(\d+),(\d+)$", text)
@@ -298,10 +304,11 @@ def _promocio_mark_plausible(prova, mark):
                  r"martell|martillo|javelina|jabalina", p):
         return 3.0 <= secs <= 80.0
     # Heights: 1–7 m (Marca only; already filtered by field path).
-    if re.match(r"^(alçada|altura)\b", p):
+    # Clubs veterans titles are "SALT D'ALÇADA …" — match alçada anywhere.
+    if re.search(r"\b(?:alçada|altura)\b", p):
         return 1.0 <= secs <= 7.0
-    # Jumps: 1.5–20 m
-    if re.match(r"^(llargada|longitud|triple)\b", p):
+    # Jumps: 1.5–20 m (also "SALT DE LLARGADA …")
+    if re.search(r"\b(?:llargada|longitud|triple)\b", p):
         return 1.5 <= secs <= 20.0
     # Track / hurdles / marxa: distance floor from the section title.
     dm = re.search(r"(\d{1,2}(?:\.\d{3})?|\d{3,5})\s*m", p)
@@ -460,6 +467,80 @@ def parse_conersys_combinadas(text):
                 "vent": None,
                 "marca_original": mark,
             })
+    return rows
+
+
+# Clubs veterans (2013–2016): MARCA Ref/%/PUNTS after category M-50 / F-45.
+# parse_promocio_series skips these rows (anti-hang); this path stores MARCA only.
+_VETERANS_HEADER_RE = re.compile(
+    r"^\s*(?:RESULTATS\s+)?"
+    r"((?:\d{1,4}\s*METRES?\b"
+    r"|SALT\s+(?:D['\u2019]?AL[CÇ]ADA|DE\s+LLARGADA|LLARGADA|AL[CÇ]ADA|PERXA)"
+    r"|LLAN[CÇ]AMENT\s|PES\b|DISC\b|JAVELINA\b|MARTELL\b"
+    r"|AL[CÇ]ADA\b|LLARGADA\b|PERXA\b|TRIPLE\b).+)$",
+    re.IGNORECASE,
+)
+_VETERANS_ROW_RE = re.compile(
+    r"((?:CL|CT)\s*\d+)\s+"
+    r"(.+?)\s+"
+    r"(\d{1,2}/\d{1,2}/\d{4})\s+"
+    r"(CA\s*Tarragona|CATT)\s+"
+    r"(\d{1,3})\s+"
+    r"([MFW])-(\d{2})\s+"
+    r"(\d{1,2}:\d{2}[.,]\d{1,2}|\d+[.,]\d+)",
+    re.IGNORECASE,
+)
+
+
+def _veterans_clean_name(raw):
+    """Surname-first sheet name → single spaced athlete_name (no comma)."""
+    return re.sub(r"\s+", " ", (raw or "").replace(",", " ").strip())
+
+
+def parse_veterans_clubs(text):
+    """CATT rows from clubs-veterans sheets; store MARCA only (never Ref/COEF/%).
+
+    Layout (2015/2016 Manresa/Mataró): after club comes Edat, Categ. (M-50),
+    then MARCA, then Ref / Percent / Posició / PUNTS. Taking any later column
+    invents age-graded ghosts (Alçada 2.15 from Ref). Issue #26 fail layouts.
+    """
+    rows = []
+    prova = ""
+    for raw in str(text or "").splitlines():
+        line = raw.rstrip()
+        if not line.strip():
+            continue
+        header = _VETERANS_HEADER_RE.match(line)
+        if header:
+            prova = header.group(1).strip()
+            continue
+        if re.search(r"\bMARCA\b.*\bPercent", line, re.IGNORECASE):
+            continue
+        if not prova or "tarragona" not in line.lower():
+            continue
+        m = _VETERANS_ROW_RE.search(line)
+        if not m:
+            continue
+        licencia, nom, _dob, club, _edat, _g, _cat, marca = m.groups()
+        if not _is_catt_club(club):
+            continue
+        name = _veterans_clean_name(nom)
+        if not name or re.search(r"\d", name):
+            continue
+        mark = _quote_to_decimal(marca)
+        if not _promocio_mark_plausible(prova, mark):
+            continue
+        rows.append({
+            "atleta_nom": name,
+            "atleta_naixement": "",
+            "atleta_licencia": licencia.replace(" ", "").strip(),
+            "prova": prova,
+            "marca": mark,
+            "vent": None,
+            "position": None,
+            "manual": False,
+            "marca_original": marca,
+        })
     return rows
 
 
@@ -4764,8 +4845,9 @@ def main():
     if not quiet:
         print(f"After event-type validation: {len(results)} valid results")
 
-    # Era fallbacks (issue #26). Two era layouts exist beyond the main path:
+    # Era fallbacks (issue #26). Three era layouts exist beyond the main path:
     #  - promocio 2013-2016: SÈRIE/LLOC/DORS/... with quote marks
+    #  - clubs veterans: MARCA/Ref/%/PUNTS (store MARCA only)
     #  - Conersys combined events (e.g. st_Antequera): multi-line athletes
     # Both are merged/adopted by (name, mark) so an attempt never duplicates.
     era_year = _header_year(data)   # data is the event_date string
@@ -4777,14 +4859,20 @@ def main():
     # Older-season sheets pinned in NO_EXPORT_CASES keep their season-specific
     # processors: the fallback would duplicate their rows.
     if not results and era_year >= 2012:
-        results = (parse_conersys_combinadas(text) if is_conersys_comb
-                   else parse_promocio_series(text))
+        if is_conersys_comb:
+            results = parse_conersys_combinadas(text)
+        else:
+            # Promocio first; clubs-veterans when the SÈRIE path finds nothing
+            # (masters MARCA/COEF/% rows are skipped by the anti-hang gate).
+            results = parse_promocio_series(text) or parse_veterans_clubs(text)
         if results and not quiet:
             print(f"Era fallback: {len(results)} CATT rows")
     elif is_era or is_conersys_comb:
         # partial coverage on era sheets: merge the rows the main path missed
-        extra = (parse_promocio_series(text) if is_era
-                 else parse_conersys_combinadas(text))
+        if is_era:
+            extra = parse_promocio_series(text) or parse_veterans_clubs(text)
+        else:
+            extra = parse_conersys_combinadas(text)
         # Normalize marks in the key so '1,30' and '1.30' collapse (issue #26).
         known = {(r.get("atleta_nom", "").upper().replace(",", ""),
                   _quote_to_decimal(r.get("marca", ""))) for r in results}

@@ -20,6 +20,7 @@ from extract_catt import (  # noqa: E402
     classify_event,
     _quote_to_decimal,
     parse_promocio_series,
+    parse_veterans_clubs,
     extract_name_from_line,
     is_excluded_athlete,
     split_relay_composition,
@@ -162,6 +163,9 @@ class TestPromocioSeriesFormat(unittest.TestCase):
         self.assertEqual(_quote_to_decimal("11'51"), "11.51")
         self.assertEqual(_quote_to_decimal('10"65'), "10.65")
         self.assertEqual(_quote_to_decimal('9"59'), "9.59")
+        # Clubs veterans MARCA column: 01:01,22 / 00:53,61 (MM:SS,cc).
+        self.assertEqual(_quote_to_decimal("01:01,22"), "1:01.22")
+        self.assertEqual(_quote_to_decimal("00:53,61"), "0:53.61")
 
     def test_era_quote_rows_with_flag_and_centiseconds(self):
         import textwrap
@@ -357,6 +361,35 @@ class TestPromocioSeriesFormat(unittest.TestCase):
             [(r["atleta_nom"], r["marca"]) for r in rows],
             [("JAN SANS RIOLA", "6.80")],
         )
+
+    def test_veterans_clubs_stores_marca_not_coef(self):
+        # Clubs veterans sheets (2015/2016) print MARCA Ref Percent Pos PUNTS.
+        # AGENTS.md: store MARCA only — never Ref/COEF/%. parse_promocio_series
+        # skips these rows (anti-hang), so a dedicated path recovers track that
+        # the stored JSON lost and drops height ghosts like Ref 2.15 as Alçada
+        # (issue #26 fail layouts — veterans family).
+        import textwrap
+        text = textwrap.dedent("""
+        100 METRES LLISOS MASCULÍ
+        Sèrie Carrer Dorsal Llicència Nom Data Naix. Club Edat Categ. MARCA Ref. Percent. Posició PUNTS
+         1      6      40    CL 22364   ARGILAGA SALVADO, JOSEP RAMON      23/10/1963 CA Tarragona        52     M-50   12,71   11,12   87,4902      3        9
+        SALT D'ALÇADA MASCULÍ
+         2     40    CL 12544   MARTIN ALVAREZ, JOSE MIGUEL   10/09/1972 CA Tarragona        43    M-40     1,70    2,15    79,0698      4           8
+        """)
+        self.assertEqual(parse_promocio_series(text), [])
+        rows = parse_veterans_clubs(text)
+        by_name = {(r["atleta_nom"].upper(), r["marca"], r["prova"]) for r in rows}
+        self.assertIn(
+            ("ARGILAGA SALVADO JOSEP RAMON", "12.71", "100 METRES LLISOS MASCULÍ"),
+            by_name,
+        )
+        self.assertNotIn(
+            ("ARGILAGA SALVADO JOSEP RAMON", "11.12", "100 METRES LLISOS MASCULÍ"),
+            by_name,
+        )
+        martin = [r for r in rows if "MARTIN" in r["atleta_nom"].upper()]
+        self.assertEqual([(r["marca"], r["prova"]) for r in martin],
+                         [("1.70", "SALT D'ALÇADA MASCULÍ")])
 
     def test_rejects_height_ghost_under_track(self):
         # Combined-event sheets leak Alçada (1.xx) into a hurdles/track

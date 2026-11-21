@@ -31,6 +31,7 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 from extract_catt import (  # noqa: E402
     parse_promocio_series,
+    parse_veterans_clubs,
     timing_from_mark,
     detect_short_track,
     _quote_to_decimal,
@@ -85,7 +86,9 @@ def main():
             stats[f"pdf_{how}"] += 1
             txt = subprocess.run(["pdftotext", "-layout", str(pdf), "-"],
                                  capture_output=True, text=True).stdout
-            extra = parse_promocio_series(txt)
+            # Promocio SÈRIE first; clubs-veterans when that path finds nothing
+            # (masters MARCA/COEF/% rows are skipped by the anti-hang gate).
+            extra = parse_promocio_series(txt) or parse_veterans_clubs(txt)
             if not extra:
                 stats["no_fallback_rows"] += 1
                 continue

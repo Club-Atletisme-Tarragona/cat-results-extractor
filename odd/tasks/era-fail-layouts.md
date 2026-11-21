@@ -22,7 +22,8 @@ S6. Prefer `pdf_cache/<year>/` over network downloads.
 | T4 | S5 | Suite + merge 2014/2015 + plausibility ≤260 | | done |
 | T5 | S1,S3 | Amposta CURSA: date-in-title + track rows + merge | | done |
 | T6 | S1 | Trobada: merge HEAD-more + filename date for headerless | | done |
-| T7 | S1 | Veterans MARCA-only parser (next batch) | | pending |
+| T7 | S1 | Veterans MARCA-only parser (clubs 2015/2016) | | done |
+| T8 | S1 | Veterans 2013 layout + pentatló (next) | | pending |
 
 ## Log
 
@@ -34,3 +35,4 @@ L5. Fix GREEN: 4 focused tests + suite 102 OK. `parse_promocio` on promovalls504
 L6. Merge apply 2014 (+188) / 2015 (+262); cambrils240115 203→280; promovalls50414 185→192; valls70215 129→143. Zero (name,perf,disc) dups. Plausibility held at **260**. Amposta sheets (`resulcontrolterritamposta50316`, `resulcontrolampposta130216`) are a different family: CURSA multi-column + date glued in title (`5-3-16`) → era_year=0, parse_promocio=0 — next batch.
 L7. Amposta CURSA GREEN: `parse_header` short date `5-3-16`/`13-02-16` → era_year=2016; `_cursa_header_prova` + `_parse_cursa_row` recover track (42 + 17). Merge 2016: amposta50316 80→122, ampposta130216 21→38, amposta301215 +5, promoamposta70516 11→33. 0 dups. Plausibility **260**. Aldave aggregator baseline 117→121 (+4 recovered; height/track ghosts predate merge at 72966f5e).
 L8. Trobada batch: merge 2013 HEAD-more — cambrils60413 69→101, tardor171112 126→198 (0 dups); sibling 2013 sheets also recovered via same SÈRIE path. Headerless `resultrobadacatgui20416` had era_year=0 despite parse_promocio=29 — `_date_from_fcat_filename` (`20416`→`20/04/2016`) unlocks extract (29 rows). Sparse siblings (guipuzcoa/occitania) keep stored field attempts the SÈRIE parser misses — no shrink. Aldave aggregator 121→124 (+3 from tardor track). Veterans remain a separate MARCA/COEF/% family (parse=0).
+L9. Veterans clubs MARCA-only GREEN: `parse_veterans_clubs` takes MARCA after M-50/F-45 (never Ref/COEF/%); `_quote_to_decimal` normalizes `01:01,22`→`1:01.22`. Wired into era fallback + `merge_era_fallback`. Merge: clubs190616 34→47 (+13 track), clubs140615 30→41 (+11 track). Pre-existing HEAD dups (Pinyol/Pradillo) and Alçada Ref ghosts (2.15/2.17) unchanged. 2013 clubs layout still parse=0 (different columns). Suite 106 OK; plausibility **260**.

@@ -28,9 +28,9 @@ except ImportError:  # run from another cwd: fall back to this file's directory
     sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
     from location_normalization import location_from_header
 
-# RFEA 2026 masters implement weights (issue #30). One table decides every
-# weight; the extractor only uses the heavy-hammer lookup for section headers.
-from masters_weights import heavy_hammer_label_from_header
+# RFEA 2026 masters implement weights (issue #30). Precedence (S8-S10): a
+# weight printed in the section header wins, the table is the fallback.
+from masters_weights import decide_implement_label, is_masters_section
 
 
 def extract_text(pdf_path):
@@ -1441,17 +1441,25 @@ def normalize_weight_units(name):
                   lambda m: "({} Kg)".format(m.group(1)), name)
 
 
-def masters_discipline_label(prova):
-    """Exported discipline for a section header (issue #30 / spec S4).
+def masters_discipline_label(prova, dob=None, event_date=None):
+    """Exported discipline for a section header (issue #30 / specs S4, S8-S10).
 
-    A heavy-hammer section whose header names both sex and category is stored
-    with the RFEA 2026 weight from ``masters_weights`` (e.g. "Martell Pesat
-    Homes Master M65" -> "Martell pesat (9.08 Kg)"), so re-extraction cannot
-    regress to a plain "Martell (… Kg)" label. A header without a category
-    keeps today's unweighted output.
+    Masters/veterans implement sections are stored with the weight the sheet
+    printed (e.g. "PES Màster F-50 Femení 3 kg" -> "Pes (3 Kg)"); when the
+    header prints no weight, the RFEA 2026 table decides it from the printed
+    sex and category, falling back to the row's DOB + the meet date when the
+    header names no category (e.g. "Martell Pesat Homes Master M65" ->
+    "Martell pesat (9.08 Kg)", "Pes VET. Fem. AL 50-54" -> "Pes (3 Kg)").
+
+    Anything the sheet does not print is never invented: a section without a
+    decidable weight keeps today's label verbatim, and non-masters sections
+    are untouched (the regulation only describes masters implements).
     """
     base = normalize_weight_units(prova)
-    return heavy_hammer_label_from_header(prova) or base
+    if not is_masters_section(prova):
+        return base
+    label, _authority, _weight = decide_implement_label(prova, dob, event_date)
+    return label or base
 
 
 def classify_event(event_name):
@@ -5282,9 +5290,11 @@ def main():
     }
 
     for r in results:
-        # issue #30 / S4: a masters heavy-hammer section that names sex and
-        # category is stored with the RFEA 2026 weight, not the raw header.
-        discipline = masters_discipline_label(r["prova"])
+        # issue #30 / S4, S8-S10: a masters implement section is stored with
+        # the weight the sheet printed (table only as the fallback), not with
+        # the raw header text.
+        discipline = masters_discipline_label(
+            r["prova"], r.get("atleta_naixement"), data)
         entry = {
             "athlete_name": r["atleta_nom"],
             "athlete_dob": r["atleta_naixement"],

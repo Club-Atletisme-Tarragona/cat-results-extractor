@@ -116,9 +116,9 @@ class TestNormalizeWeightUnits(unittest.TestCase):
 
 
 class TestMastersImplementWeights(unittest.TestCase):
-    """issue #30 / S4 — a heavy-hammer section whose header names sex and
-    category is emitted with the RFEA 2026 weight; a header without a
-    category keeps today's unweighted output."""
+    """issue #30 / S4, S8-S10 — a masters implement section is emitted with
+    the weight the sheet printed; the RFEA 2026 table is only the fallback for
+    headers that print no weight. Non-masters sections are untouched."""
 
     def test_heavy_hammer_with_category_gets_weight(self):
         self.assertEqual(masters_discipline_label("Martell Pesat Masculí Master M75"),
@@ -136,11 +136,41 @@ class TestMastersImplementWeights(unittest.TestCase):
             "LLANÇAMENT DE MARTELL PESAT FEMENI")
         self.assertEqual(masters_discipline_label("Martell Pesat"), "Martell Pesat")
 
-    def test_plain_hammer_is_unchanged(self):
+    def test_plain_masters_implement_gets_the_table_weight(self):
+        # table fallback (S9): no weight printed, sex + category are
         self.assertEqual(masters_discipline_label("Martell Homes Master M65"),
-                         "Martell Homes Master M65")
-        self.assertEqual(masters_discipline_label("Martell (6kg)"),
-                         "Martell (6 Kg)")
+                         "Martell (5 Kg)")
+        self.assertEqual(masters_discipline_label("Pes Dones PC Master F55"),
+                         "Pes (3 Kg)")
+        self.assertEqual(masters_discipline_label("Disco M55 Vet. MAS."),
+                         "Disc (1,5 Kg)")
+
+    def test_printed_weight_wins_over_the_table(self):
+        # S8: this sheet printed 4 kg for a F55 shot, so 4 kg is stored even
+        # though the regulation says 3 kg
+        self.assertEqual(masters_discipline_label("Peso (4kg) Mujeres PC Master F55"),
+                         "Pes (4 Kg)")
+        self.assertEqual(masters_discipline_label("JAVELINA Màster F-50 Femení 500 g"),
+                         "Javelina (500 g)")
+        self.assertEqual(masters_discipline_label("PES Màster F-50 Femení 3 kg"),
+                         "Pes (3 Kg)")
+
+    def test_dob_resolves_a_header_without_category(self):
+        # S1: category label first, then DOB + event_date
+        self.assertEqual(
+            masters_discipline_label("Jabalina Vet. Hombres.", dob="01/01/1963",
+                                     event_date="07/06/2015"),
+            "Javelina (700 g)")
+        # no printed category and no DOB: nothing to decide from -> verbatim
+        self.assertEqual(masters_discipline_label("Jabalina Vet. Hombres."),
+                         "Jabalina Vet. Hombres.")
+
+    def test_non_masters_output_is_unchanged(self):
+        self.assertEqual(masters_discipline_label("Martell (6kg)"), "Martell (6 Kg)")
+        self.assertEqual(masters_discipline_label("PES Absolut Femení  4 kg"),
+                         "PES Absolut Femení  4 kg")
+        self.assertEqual(masters_discipline_label("Llargada Dones PC Master F55"),
+                         "Llargada Dones PC Master F55")
 
 
 class TestExtractNameFromLine(unittest.TestCase):

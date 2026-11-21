@@ -28,6 +28,10 @@ except ImportError:  # run from another cwd: fall back to this file's directory
     sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
     from location_normalization import location_from_header
 
+# RFEA 2026 masters implement weights (issue #30). One table decides every
+# weight; the extractor only uses the heavy-hammer lookup for section headers.
+from masters_weights import heavy_hammer_label_from_header
+
 
 def extract_text(pdf_path):
     result = subprocess.run(
@@ -1435,6 +1439,19 @@ def normalize_weight_units(name):
     """
     return re.sub(r"\((\d+(?:[.,]\d+)?)\s*[kK][gG]\)",
                   lambda m: "({} Kg)".format(m.group(1)), name)
+
+
+def masters_discipline_label(prova):
+    """Exported discipline for a section header (issue #30 / spec S4).
+
+    A heavy-hammer section whose header names both sex and category is stored
+    with the RFEA 2026 weight from ``masters_weights`` (e.g. "Martell Pesat
+    Homes Master M65" -> "Martell pesat (9.08 Kg)"), so re-extraction cannot
+    regress to a plain "Martell (… Kg)" label. A header without a category
+    keeps today's unweighted output.
+    """
+    base = normalize_weight_units(prova)
+    return heavy_hammer_label_from_header(prova) or base
 
 
 def classify_event(event_name):
@@ -5265,13 +5282,16 @@ def main():
     }
 
     for r in results:
+        # issue #30 / S4: a masters heavy-hammer section that names sex and
+        # category is stored with the RFEA 2026 weight, not the raw header.
+        discipline = masters_discipline_label(r["prova"])
         entry = {
             "athlete_name": r["atleta_nom"],
             "athlete_dob": r["atleta_naixement"],
             "athlete_id": r["atleta_licencia"],
             "performance": r["marca"],
-            "discipline": normalize_weight_units(r["prova"]),
-            "wind": r.get("vent") if wind_applicable(normalize_weight_units(r["prova"])) else None,
+            "discipline": discipline,
+            "wind": r.get("vent") if wind_applicable(discipline) else None,
             "position": r.get("position"),
         }
         # "timing" per row: absent -> electronic. The row wins over the header

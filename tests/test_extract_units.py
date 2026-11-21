@@ -30,6 +30,7 @@ from extract_catt import (  # noqa: E402
     split_relay_composition,
     is_team_entity,
     normalize_weight_units,
+    masters_discipline_label,
     parse_header,
     wind_applicable,
 )
@@ -112,6 +113,34 @@ class TestNormalizeWeightUnits(unittest.TestCase):
     def test_grams_untouched(self):
         self.assertEqual(normalize_weight_units("Disc (800 g)"), "Disc (800 g)")
         self.assertEqual(normalize_weight_units("Jabalina (800g)"), "Jabalina (800g)")
+
+
+class TestMastersImplementWeights(unittest.TestCase):
+    """issue #30 / S4 — a heavy-hammer section whose header names sex and
+    category is emitted with the RFEA 2026 weight; a header without a
+    category keeps today's unweighted output."""
+
+    def test_heavy_hammer_with_category_gets_weight(self):
+        self.assertEqual(masters_discipline_label("Martell Pesat Masculí Master M75"),
+                         "Martell pesat (7.26 Kg)")
+        self.assertEqual(masters_discipline_label("Martell Pesat Homes Master M65"),
+                         "Martell pesat (9.08 Kg)")
+        self.assertEqual(masters_discipline_label("Martell Pesat VET. Fem. AL 40-44"),
+                         "Martell pesat (9.08 Kg)")
+        self.assertEqual(masters_discipline_label("Martell pesat (7,26 Kg) M70"),
+                         "Martell pesat (7.26 Kg)")
+
+    def test_header_without_category_is_unchanged(self):
+        self.assertEqual(
+            masters_discipline_label("LLANÇAMENT DE MARTELL PESAT FEMENI"),
+            "LLANÇAMENT DE MARTELL PESAT FEMENI")
+        self.assertEqual(masters_discipline_label("Martell Pesat"), "Martell Pesat")
+
+    def test_plain_hammer_is_unchanged(self):
+        self.assertEqual(masters_discipline_label("Martell Homes Master M65"),
+                         "Martell Homes Master M65")
+        self.assertEqual(masters_discipline_label("Martell (6kg)"),
+                         "Martell (6 Kg)")
 
 
 class TestExtractNameFromLine(unittest.TestCase):

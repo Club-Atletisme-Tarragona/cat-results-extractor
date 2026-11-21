@@ -2820,26 +2820,33 @@ def find_catt_athletes_in_section(lines, sec_start, sec_end):
 def _find_catt_old_format(lines, sec_start, sec_end, is_in_sumario=None):
     """Find CATT athletes in old format (position + CATT on same line)."""
     athletes = []
-    
+    # Defined once for lookback AND data-line collection. Previously lived only
+    # inside the lookback loop; when lookback never assigned it, collecting
+    # data lines raised UnboundLocalError (clubs140615, issue #26).
+    skip_labels = ['Puesto', 'Dorsal', 'Club', 'Calle', 'Ord', 'Serie',
+                   'Result', 'Viento', 'Leyenda', 'Hora', 'RESULT',
+                   'Nombre', 'Fecha', 'Licencia', 'RESULTADOS',
+                   'Gestion', 'Pagina', 'SUMARIO', 'Rank']
+
     # Strategy 1: Find lines with position + CATT/CA Tarragona (formats 1 & 2)
     anchor_pattern = re.compile(r'^\s*(\d+)\s+\d+\s+(?:CATT|CA\s+Tarragona)')
-    
+
     # Strategy 2 REMOVED: Previously matched ALL club names (CA Tarragona, CA Granollers,
     # CA Vic, JA Sabadell, GEiE Girona, etc.) causing cross-contamination where results for
     # athletes from those clubs were extracted into CATT athlete files.
     # Now only Strategy 1 (CATT/CA Tarragona anchor) and Strategy 3 (Conersys) are used.
     club_name_pattern = re.compile(r'^\s*(\d+)\s+\d+\s+CA\s+Tarragona')
-    
+
     # Strategy 3: Conersys format - position + CA Tarragona + CATT (no dorsal between pos and club)
     # Pattern: "5          CA Tarragona                        CATT"
     conersys_pattern = re.compile(r'^\s*(\d+)\s+CA\s+Tarragona\s+CATT')
-    
+
     all_anchors = []  # list of (idx, is_club_name_line, is_conersys)
-    
+
     for i in range(sec_start, min(sec_end, len(lines))):
         line = lines[i]
         stripped = line.strip()
-        
+
         # Check for Conersys format: position + CA Tarragona + CATT (no dorsal)
         if conersys_pattern.search(line):
             all_anchors.append((i, False, True))
@@ -2849,14 +2856,14 @@ def _find_catt_old_format(lines, sec_start, sec_end, is_in_sumario=None):
         # Check for format 3 (SUMARIO): position + club name only
         elif club_name_pattern.search(stripped):
             all_anchors.append((i, True, False))
-    
+
     for anchor_idx, is_club_name, is_conersys in all_anchors:
         anchor_line = lines[anchor_idx]
         pos_match = re.match(r'^\s*(\d+)', anchor_line)
         if not pos_match:
             continue
         pos = int(pos_match.group(1))
-        
+
         # For SUMARIO format, check if next line has CATT
         if is_club_name:
             if anchor_idx + 1 >= len(lines):
@@ -2865,29 +2872,25 @@ def _find_catt_old_format(lines, sec_start, sec_end, is_in_sumario=None):
             if 'CATT' not in next_line:
                 continue
             anchor_line = next_line
-        
+
         # Check this is actually CATT
         if 'CATT' not in anchor_line and 'CA Tarragona' not in anchor_line:
             continue
-        
+
         # Find the name line: look backwards from anchor
         name_line_idx = None
         name_line = None
-        
+
         # Conersys format: name is typically 2 lines above (name, blank, pos)
         # Old format: name is typically 1 line above
         lookback = 3 if is_conersys else 8
-        
+
         for j in range(anchor_idx - 1, max(anchor_idx - lookback, sec_start - 1), -1):
             prev = lines[j].strip()
             if not prev or len(prev) < 4:
                 continue
             if re.match(r'^\s*\d+\s+\d+\s+[A-Z]', prev) and 'CATT' not in prev and 'CA Tarragona' not in prev:
                 continue
-            skip_labels = ['Puesto', 'Dorsal', 'Club', 'Calle', 'Ord', 'Serie',
-                           'Result', 'Viento', 'Leyenda', 'Hora', 'RESULT',
-                           'Nombre', 'Fecha', 'Licencia', 'RESULTADOS',
-                           'Gestion', 'Pagina', 'SUMARIO', 'Rank']
             if any(label in prev for label in skip_labels):
                 continue
             if is_club_line(prev):
@@ -2898,12 +2901,12 @@ def _find_catt_old_format(lines, sec_start, sec_end, is_in_sumario=None):
                 name_line_idx = j
                 name_line = prev
                 break
-        
+
         # Collect data lines
         data_lines = []
         anchor_pos = all_anchors.index((anchor_idx, is_club_name, is_conersys))
         next_anchor_idx = all_anchors[anchor_pos + 1][0] if anchor_pos + 1 < len(all_anchors) else sec_end
-        
+
         for j in range(anchor_idx + 1, min(next_anchor_idx, sec_end)):
             fwd = lines[j].strip()
             if not fwd:
@@ -2916,11 +2919,11 @@ def _find_catt_old_format(lines, sec_start, sec_end, is_in_sumario=None):
             if any(label in fwd for label in skip_labels):
                 continue
             data_lines.append((j, lines[j]))
-        
+
         # Skip athletes found in SUMARIO sub-sections
         if is_in_sumario and is_in_sumario(anchor_idx):
             continue
-        
+
         athletes.append({
             'position_line_idx': anchor_idx,
             'position_line': anchor_line,
@@ -2930,7 +2933,7 @@ def _find_catt_old_format(lines, sec_start, sec_end, is_in_sumario=None):
             'data_lines': data_lines,
             'is_conersys': is_conersys,
         })
-    
+
     return athletes
 
 

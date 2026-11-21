@@ -22,6 +22,7 @@ from extract_catt import (  # noqa: E402
     parse_promocio_series,
     parse_veterans_clubs,
     parse_veterans_pentatlo,
+    _find_catt_old_format,
     extract_name_from_line,
     is_excluded_athlete,
     split_relay_composition,
@@ -478,6 +479,24 @@ class TestPromocioSeriesFormat(unittest.TestCase):
         self.assertIn(("CALATRAVA FERNANDEZ DOLORES", "1425", "Pentatló"), by)
         self.assertFalse(any(r["marca"] == "1.425" for r in rows))
 
+    def test_old_format_skip_labels_when_lookback_misses(self):
+        # When lookback never assigns skip_labels (no useful name line above
+        # the CATT anchor), collecting data lines still references it and
+        # crashed with UnboundLocalError on clubs140615 (issue #26).
+        lines = [
+            "   12  40  CA Granollers",
+            "   5  19  CA Tarragona  11.59",
+            "   RESULTADOS",
+            "   11.59",
+        ]
+        athletes = _find_catt_old_format(lines, 0, len(lines))
+        self.assertEqual(len(athletes), 1)
+        self.assertEqual(athletes[0]["position"], 5)
+        # RESULTADOS is a skip label — not collected as a data line
+        data_texts = [t.strip() for _, t in athletes[0]["data_lines"]]
+        self.assertNotIn("RESULTADOS", data_texts)
+        self.assertIn("11.59", data_texts)
+
     def test_rejects_height_ghost_under_track(self):
         # Combined-event sheets leak Alçada (1.xx) into a hurdles/track
         # section; those must not become sprint/hurdle marks (issue #26).
@@ -704,6 +723,24 @@ class TestLocationNormalization(unittest.TestCase):
     def test_ambiguous_barcelona_not_resolved(self):
         import location_normalization as ln
         self.assertEqual(ln.normalize_location("Barcelona"), "Barcelona")
+
+
+class TestCattOldFormatSkipLabels(unittest.TestCase):
+    """_find_catt_old_format must not crash when lookback never binds skip_labels."""
+
+    def test_skip_labels_bound_when_lookback_finds_no_name(self):
+        # When every lookback line is skipped before skip_labels is assigned
+        # (other-club rows / short lines), collecting data lines still needs
+        # the label list — previously UnboundLocalError (issue #26 fail46).
+        lines = [
+            "   12  40  CA Granollers",
+            "   5  19  CA Tarragona  11.59",
+            "   RESULTADOS",
+            "   11.59",
+        ]
+        athletes = _find_catt_old_format(lines, 0, len(lines))
+        self.assertEqual(len(athletes), 1)
+        self.assertEqual(athletes[0]["position"], 5)
 
 
 if __name__ == "__main__":

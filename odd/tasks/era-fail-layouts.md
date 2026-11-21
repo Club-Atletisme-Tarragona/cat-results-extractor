@@ -26,7 +26,9 @@ S6. Prefer `pdf_cache/<year>/` over network downloads.
 | T7b | S1,S4 | Reject empty-MARCA Seg/Ref ghosts + merge 2014 clubs | | done |
 | T8 | S1 | Veterans 2013 clubs Marca-after-club (`Prova:`) | | done |
 | T9 | S1 | Veterans pentatló summary: sub-marks + total (never Punts) | | done |
-| T10 | S1 | Re-probe remaining fail46 / next layout family | | pending |
+| T10 | S1 | Re-probe remaining fail46 / next layout family | | done |
+| T11 | S1 | Fix `skip_labels` UnboundLocalError in `_find_catt_old_format` | | done |
+| T12 | S1 | Next fail46 family (duatló / nastic / field-only HEAD-sparse) | | pending |
 
 ## Slice boundary
 
@@ -47,3 +49,4 @@ L10. Empty-MARCA Seg/Ref ghosts: blank MARCA leaves a wide gap before Seg/Ref (`
 L11. Veterans 2013 clubs GREEN: `_VETERANS_PROVA_HEADER_RE` (`Prova: 100 Mll …`) + `_VETERANS_2013_ROW_RE` (MARCA glued after club, ≤8 spaces; Seg/Porcentaje never stored). Merge clubs200713 23→36 (+13 track). 0 dups; no ghosts. Suite 108 OK; plausibility **260**. Pentatló tables remain a separate layout family.
 L12. Slice boundary recorded after `3fe00ec5` (past ~400 authored lines). Next family: veterans pentatló multi-column summary — stored JSON has field attempts but misses track (200/800/1500/tanques) and total points; intermediate Punts must never become marks.
 L13. Veterans pentatló summary GREEN: `parse_veterans_pentatlo` reads schema (event/Punts pairs) + CATT rows; stores sub-marks + total as `Pentatló` (`2.283`→`2283`); never intermediate Punts. Wired into era fallback + `merge_era_fallback`. Merge: pentatlo140913 8→12, pentatlollancaments140913 5→6, pentatlo200914 6→9, pentatloveterans180916 38→61, pentatlollancamentsveterans180916 23→25. 0 dups; 0 ghosts. Suite 109 OK; plausibility **260**. Next: re-probe remaining fail46.
+L14. Re-probe after pentatló: 29 still-open (mostly HEAD-sparse field attempts the SÈRIE path misses; merge would_add=0). Extract crash on clubs140615: `_find_catt_old_format` defined `skip_labels` only inside lookback — when lookback never assigned it, data-line collection raised UnboundLocalError. Fix: hoist `skip_labels` to function scope. Suite 111 OK; plausibility **260**. clubs140615 extract rc=0 (41→16 HEAD-sparse, expected — main path lacks clubs MARCA rows). Next family needs a decision (duatló totals / nastic `Prova:` / accept field-only sparse).

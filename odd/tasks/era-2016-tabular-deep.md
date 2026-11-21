@@ -24,6 +24,7 @@ S8. Golden/unit coverage with real layout text (Valls 6/02/2016 family) before r
 | T4 | S1,S3 | re-extract `resulcontrolvalls60216` spot-check Ferran Jimenez + Disc attempts | pending | done |
 | T5 | S8 | `python3 -m unittest discover -s tests` green; plausibility not increased | pending | done (97 OK; plausibility 220) |
 | T6 | S1,S8 | hang-fix prefilter + mark floors; merge_era_fallback 2016 | | done |
+| T7 | S3,S8 | Golden extraction for `resulcontrolvalls60216` (fixture + golden) | | done |
 
 ## Log
 
@@ -35,3 +36,4 @@ L5. Spot-check Valls: Ferran Jimenez 9.60 manual; Montañes Disc 6 attempts; Pin
 L6. Slice closed for representative file. Remaining issue #26 fronts: ~42 fail layouts, 220 plausibility era, 110 dups, Antequera multi-category; apply field parser across other 2016 mixed sheets via merge_era_fallback.
 L7. User: "commit i continua". Commit 8b4a8623 (Valls deep). merge_era_fallback hung on 5 veterans/combinades PDFs → `_promocio_worth_row_regex` prefilter; first apply raised plausibility 220→293 (height ghosts under track) → `_promocio_mark_plausible` floors; re-apply +149 rows across 4 files; plausibility back to 260 (HEAD baseline after Valls rewrite). Suite 99/99 OK.
 L8. Commit hang-fix + merge recovery (this unit).
+L9. Issue #26 AC gap closed: golden extraction for `resulcontrolvalls60216` — fixture `tests/fixtures/resulcontrolvalls60216.pdf`, golden `tests/golden/resulcontrolvalls60216.json` (203 rows; Ferran Jimenez `9.60` manual). Wired in `tests/test_golden_extraction.py` CASES. Suite green.

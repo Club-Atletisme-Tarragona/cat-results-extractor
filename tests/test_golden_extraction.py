@@ -9,6 +9,9 @@ Each fixture PDF covers a documented input format (AGENTS.md):
                                                    multi-attempt + wind lines
   resultat-20260418-territorialpromociovalls.pdf   relay events
   resultat-2026050203-territorialcombinadestarragona.pdf  combined events
+  resulcontrolvalls60216.pdf                       2016 era tabular (issue #26):
+                                                   SÈRIE track + field attempts
+                                                   (Ferran Jimenez 9"6 → 9.60)
   resulcataleviprevia21511.pdf                     2011 tabular format —
                                                    NOT handled by extract_catt
                                                    (pinned as no-export)
@@ -43,6 +46,8 @@ CASES = {
         "seasons/2026/json/resultat-20260418-territorialpromociovalls.json",
     "resultat-2026050203-territorialcombinadestarragona.pdf":
         "seasons/2026/json/resultat-2026050203-territorialcombinadestarragona.json",
+    "resulcontrolvalls60216.pdf":
+        "seasons/2016/json/resulcontrolvalls60216.json",
 }
 
 # PDFs that extract_catt.py must NOT export (handled by season-specific

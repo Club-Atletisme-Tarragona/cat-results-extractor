@@ -20,7 +20,8 @@ S6. Prefer `pdf_cache/<year>/` over network downloads.
 | T2 | S1 | Classify remaining by layout family; pick first ≤5 batch | | done |
 | T3 | S3,S4,S6 | Parser/golden for quote marks + Catalan/spaced dates (family 1) | | done |
 | T4 | S5 | Suite + merge 2014/2015 + plausibility ≤260 | | done |
-| T5 | S1,S3 | Amposta CURSA layout (date-in-title `5-3-16`) + veterans/trobada | | pending |
+| T5 | S1,S3 | Amposta CURSA: date-in-title + track rows + merge | | done |
+| T6 | S1 | Veterans/trobada families (next batch) | | pending |
 
 ## Log
 
@@ -30,3 +31,4 @@ L3. Push of feat/issue-26-2016-tabular-deep done (8b4a8623, 72966f5e). List foun
 L4. Probe of 46: 9 HEAD-sparse, 36 extract_fail, 1 no_pdf (`resulcatjuvenilcombinadespc13140216.json.json` double-ext). Root cause for family 1 (promocio SÈRIE): `_quote_to_decimal` / trailing gate missed `10''06`, `10"65`, `11'51`, trailing `F`; `parse_header` missed `d'abril` elision, spaced `24 / 01 / 2015`, and all-caps `CAMPIONAT`/`CONTROL`.
 L5. Fix GREEN: 4 focused tests + suite 102 OK. `parse_promocio` on promovalls50414: 29→37 rows.
 L6. Merge apply 2014 (+188) / 2015 (+262); cambrils240115 203→280; promovalls50414 185→192; valls70215 129→143. Zero (name,perf,disc) dups. Plausibility held at **260**. Amposta sheets (`resulcontrolterritamposta50316`, `resulcontrolampposta130216`) are a different family: CURSA multi-column + date glued in title (`5-3-16`) → era_year=0, parse_promocio=0 — next batch.
+L7. Amposta CURSA GREEN: `parse_header` short date `5-3-16`/`13-02-16` → era_year=2016; `_cursa_header_prova` + `_parse_cursa_row` recover track (42 + 17). Merge 2016: amposta50316 80→122, ampposta130216 21→38, amposta301215 +5, promoamposta70516 11→33. 0 dups. Plausibility **260**. Aldave aggregator baseline 117→121 (+4 recovered; height/track ghosts predate merge at 72966f5e).

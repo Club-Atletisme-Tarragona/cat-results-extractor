@@ -142,6 +142,61 @@ _PROMOCIO_TRAILING_MARK_RE = re.compile(
     re.IGNORECASE,
 )
 
+# Amposta CURSA sheets (issue #26): "CURSA 60 Llisos … 1ª sèrie" then a
+# multi-column row (NOM + COGNOMS split, club, year, TEMPS). Match headers
+# before the generic SÈRIE skip, and rows before _PROMOCIO_ROW_RE (which
+# mis-splits the name/club columns on this layout).
+_CURSA_HEADER_RE = re.compile(r"^\s*CURSA\s+(.+)$", re.IGNORECASE)
+_CURSA_SERIE_TAIL_RE = re.compile(
+    r"\s+\d+[ªa]?\s*s[eè]rie\b.*$",
+    re.IGNORECASE,
+)
+_CURSA_ROW_RE = re.compile(
+    r"^\s*(\d{1,2})\s+(\d{1,4})\s+"
+    r"(.+?)\s{2,}"
+    r"((?:C\.?\s*A\.?\s*|CA\s+)TARRAGONA)\s+"
+    r"(\d{4})\s+"
+    r"(?:((?:CL|CT|IB|LZ|CS)[\s-]?\d+)\s+)?"
+    r"((?:" + _PROMOCIO_MARK_BODY + r")(?:\s+F\.?)?)\s*$",
+    re.IGNORECASE,
+)
+
+
+def _cursa_header_prova(line):
+    """Discipline from a CURSA header line, or None when not a CURSA header."""
+    m = _CURSA_HEADER_RE.match(line)
+    if not m:
+        return None
+    return _CURSA_SERIE_TAIL_RE.sub("", m.group(1)).strip() or None
+
+
+def _parse_cursa_row(line, prova, wind):
+    """One CATT track row from an Amposta CURSA table, or None."""
+    m = _CURSA_ROW_RE.match(line)
+    if not m:
+        return None
+    _lloc, _dors, nom, club, _any, licencia, marca = m.groups()
+    if not _is_catt_club(club):
+        return None
+    name = " ".join(nom.split())
+    if not name or re.search(r"\d", name):
+        return None
+    mark = _quote_to_decimal(marca)
+    if not _promocio_mark_plausible(prova, mark):
+        return None
+    return {
+        "atleta_nom": name,
+        "atleta_naixement": "",
+        "atleta_licencia": (licencia or "").strip(),
+        "prova": prova,
+        "marca": mark,
+        "vent": wind,
+        "position": None,
+        "manual": bool(_TIME_MANUAL_QUOTE_RE.match(marca)
+                       or _TIME_MANUAL_RE.match(marca)),
+        "marca_original": marca,
+    }
+
 
 def _promocio_worth_row_regex(line):
     """True when the line might be a single-mark promocio/track row."""
@@ -384,6 +439,13 @@ def parse_promocio_series(text):
         line = raw.rstrip()
         if not line.strip():
             continue
+        # Amposta CURSA headers embed "Nª sèrie" — match before the SÈRIE skip
+        # so the discipline sticks for the multi-column rows below.
+        cursa_prova = _cursa_header_prova(line)
+        if cursa_prova:
+            prova = cursa_prova
+            wind = None
+            continue
         header = re.match(r"^\s*(?:RESULTATS\s+)?"
                           r"((?:\d{1,4}\s*m(?:\.ll|\.tanques|\.obst|\.pes|\s?ll|t)?\.?\s*"
                           r"|Salt\s+(?:Llargada|Alçada|Altura|Perxa|llargada)"
@@ -415,6 +477,12 @@ def parse_promocio_series(text):
             field_rows = _parse_promocio_field_rows(line, prova, wind)
             if field_rows:
                 rows.extend(field_rows)
+            continue
+        # Amposta CURSA multi-column rows (NOM + COGNOMS split). Prefer this
+        # before _PROMOCIO_ROW_RE, which mis-splits name/club on that layout.
+        cursa_row = _parse_cursa_row(line, prova, wind)
+        if cursa_row:
+            rows.append(cursa_row)
             continue
         # Cheap gate before the heavy row regex: masters MARCA/COEF/% tails and
         # other multi-decimal columns backtrack for seconds (issue #26 hang).
@@ -685,6 +753,34 @@ def parse_header(text):
                             localitat = prev
                             break
                 break
+
+    # Amposta CURSA titles glue a short date at the end of the competition
+    # line: "… AMPOSTA 5-3-16", "… AMPOSTA 13-02-16". Without these,
+    # era_year stays 0 and the empty-result fallback never runs (issue #26).
+    _short_date_re = re.compile(
+        r'(\d{1,2})\s*[-/]\s*(\d{1,2})\s*[-/]\s*(\d{2})(?!\d)'
+    )
+    if not data:
+        for i, line in enumerate(lines[:30]):
+            stripped = line.strip()
+            if re.search(r'\bRCAT\b|\bRCAM\b', stripped):
+                continue
+            if _stamp_re.search(stripped):
+                continue
+            date_match = _short_date_re.search(stripped)
+            if not date_match:
+                continue
+            day, month, yy = date_match.groups()
+            year = 2000 + int(yy)
+            if not (2000 <= year <= 2035):
+                continue
+            data = f"{day.zfill(2)}/{month.zfill(2)}/{year}"
+            # City is the last word before the glued date ("… - AMPOSTA 5-3-16").
+            before = stripped[:date_match.start()].rstrip(" -–\t")
+            city_m = re.search(r'([A-Za-zÀ-ÿ\.]+)\s*$', before)
+            if city_m and not localitat:
+                localitat = city_m.group(1)
+            break
 
     # Canonicalize the venue: an "Estadi Joan Serrahima" header line wins
     # over the city guess (event_name keeps the PDF text as-is).

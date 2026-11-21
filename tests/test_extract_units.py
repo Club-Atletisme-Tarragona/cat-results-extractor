@@ -180,6 +180,32 @@ class TestPromocioSeriesFormat(unittest.TestCase):
         self.assertEqual(by["EDGAR JOSE DIAZ"], "10.65")
         self.assertEqual(by["ALMALÉ LERÍN, JAVIER"], "7.20")
 
+    def test_amposta_cursa_track_rows(self):
+        # Amposta CURSA sheets: "CURSA 60 Llisos … 1ª sèrie" + multi-column
+        # rows (NOM + COGNOMS split, club, year, TEMPS). Without these the
+        # era fallback recovers 0 track rows (issue #26 Amposta family).
+        import textwrap
+        text = textwrap.dedent("""
+               CURSA                           60 Llisos Benjamí masculí                          3ª sèrie
+
+        LLOC   DORSAL              NOM I COGNOMS                                CLUB       ANY    LLICÈNCIA   TEMPS
+          1     141     GUILLEM     FERRAN JIMENEZ                         CA TARRAGONA    2008                 9"5
+          2     145     LLUC        SUBIROS BRASERO                        CA TARRAGONA    2007                 9"7
+          3      40     ARITZ       FERNANDEZ TERRÓN                        UA MONTSIÀ     2007                10"1
+
+               CURSA                          1000 m.ll. Benjamí masculí                    1a sèrie
+
+        LLOC   DORSAL              NOM I COGNOMS                                CLUB       ANY    LLICÈNCIA   TEMPS
+          1     145     LLUC       SUBIROS BRASERO                   CA TARRAGONA    2007               3'49"1
+        """)
+        rows = parse_promocio_series(text)
+        by = {(r["atleta_nom"], r["prova"]): r["marca"] for r in rows}
+        self.assertEqual(by[("GUILLEM FERRAN JIMENEZ", "60 Llisos Benjamí masculí")], "9.50")
+        self.assertEqual(by[("LLUC SUBIROS BRASERO", "60 Llisos Benjamí masculí")], "9.70")
+        self.assertEqual(by[("LLUC SUBIROS BRASERO", "1000 m.ll. Benjamí masculí")], "3:49.10")
+        # UA Montsià is not CATT
+        self.assertFalse(any("FERNANDEZ" in r["atleta_nom"] for r in rows))
+
     def test_row_extraction(self):
         import textwrap
         text = textwrap.dedent("""
@@ -491,6 +517,23 @@ class TestParseHeaderOnRealPdfs(unittest.TestCase):
         self.assertEqual(header[3], "05/04/2014")
         self.assertEqual(header[2], "Valls")
         self.assertIn("CAMPIONAT", header[0].upper())
+
+    def test_amposta_date_glued_in_title(self):
+        # Amposta CURSA sheets glue a short date into the title line
+        # ("… AMPOSTA 5-3-16", "… AMPOSTA 13-02-16"). Without these,
+        # era_year stays 0 and the empty-result fallback never runs
+        # (issue #26 fail layouts — Amposta family).
+        from extract_catt import _header_year
+        _, _, loc, data = parse_header(
+            "III CONTROL TERRITORIAL - AMPOSTA 5-3-16\n")
+        self.assertEqual(data, "05/03/2016")
+        self.assertEqual(_header_year(data), 2016)
+        self.assertEqual(loc.upper(), "AMPOSTA")
+        _, _, loc, data = parse_header(
+            "II CONTROL D'HIVERN - AMPOSTA 13-02-16\n")
+        self.assertEqual(data, "13/02/2016")
+        self.assertEqual(_header_year(data), 2016)
+        self.assertEqual(loc.upper(), "AMPOSTA")
 
 
 class TestLocationNormalization(unittest.TestCase):

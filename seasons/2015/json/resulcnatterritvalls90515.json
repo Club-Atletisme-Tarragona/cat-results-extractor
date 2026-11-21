@@ -3,7 +3,7 @@
   "event_date": "09/05/2015",
   "event_location": "Torredembarra",
   "event_src": "http://old.fcatletisme.cat/Promocio/promocio2015/resulcnatterritvalls90515.pdf",
-  "total_results": 112,
+  "total_results": 116,
   "results": [
     {
       "athlete_name": "VERDÚ GÓMEZ BERNAT",
@@ -1286,6 +1286,50 @@
       "raw_discipline_name": "Alçada Cadet Femení",
       "timing": "electronic",
       "internal_id": 497
+    },
+    {
+      "athlete_name": "Subiros Brasero, Lluc",
+      "athlete_dob": "",
+      "athlete_id": "CL77331",
+      "performance": "10.62",
+      "discipline": "60 m.ll. Benjamí Masculí",
+      "wind": null,
+      "position": null,
+      "raw_discipline_name": "60 m.ll. Benjamí Masculí",
+      "timing": "electronic"
+    },
+    {
+      "athlete_name": "De Las Heras Ruiz, Liana",
+      "athlete_dob": "",
+      "athlete_id": "CL71697",
+      "performance": "9.56",
+      "discipline": "60 m.ll. Aleví Femení",
+      "wind": null,
+      "position": null,
+      "raw_discipline_name": "60 m.ll. Aleví Femení",
+      "timing": "electronic"
+    },
+    {
+      "athlete_name": "Pomes Cabello, Martina",
+      "athlete_dob": "",
+      "athlete_id": "CL71737",
+      "performance": "9.52",
+      "discipline": "60 m.ll. Aleví Femení",
+      "wind": null,
+      "position": null,
+      "raw_discipline_name": "60 m.ll. Aleví Femení",
+      "timing": "electronic"
+    },
+    {
+      "athlete_name": "Verdú Gómez, Bernat",
+      "athlete_dob": "",
+      "athlete_id": "CL69349",
+      "performance": "21.55",
+      "discipline": "150 m.ll. Infantil Masculí",
+      "wind": null,
+      "position": null,
+      "raw_discipline_name": "150 m.ll. Infantil Masculí",
+      "timing": "electronic"
     }
   ],
   "is_short_track": false

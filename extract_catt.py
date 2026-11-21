@@ -59,14 +59,34 @@ def _header_year(event_date):
 
 
 def _quote_to_decimal(mark):
-    """'11"6' -> '11.60'; 2'03"1 -> '2:03.10'; '1,30' -> '1.30'."""
+    """Normalize era quote / comma marks to dotted decimals.
+
+    '11"6' -> '11.60'; 2'03"1 -> '2:03.10'; '1,30' -> '1.30'.
+    Fail-layout sheets (issue #26) also print seconds as 10''06 / 10"65,
+    a single-apostrophe hand form 11'51, and an optional trailing wind
+    flag 'F' (10''00 F). Strip the flag before converting.
+    """
     text = str(mark or "").strip()
+    # Trailing wind/legal flag next to the mark (promovalls50414).
+    text = re.sub(r"\s+F\.?\s*$", "", text, flags=re.IGNORECASE)
     m = re.match(r"^(\d{1,2})'(\d{2})\"(\d)$", text)
     if m:  # minutes'seconds"tenths
         return f"{int(m.group(1))}:{m.group(2)}.{m.group(3)}0"
-    m = re.match(r"^(\d{1,2})\"(\d)$", text)
+    # Double-apostrophe seconds + centiseconds: 10''06 -> 10.06
+    m = re.match(r"^(\d{1,2})(?:''|\u2019\u2019)(\d{2})$", text)
+    if m:
+        return f"{m.group(1)}.{m.group(2)}"
+    # Single-apostrophe seconds (no closing quote): 11'51 -> 11.51
+    m = re.match(r"^(\d{1,2})'(\d{2})$", text)
+    if m:
+        return f"{m.group(1)}.{m.group(2)}"
+    # Centisecond quote: 10"65 -> 10.65 (before the one-tenth form)
+    m = re.match(r'^(\d{1,2})"(\d{2})$', text)
+    if m:
+        return f"{m.group(1)}.{m.group(2)}"
+    m = re.match(r'^(\d{1,2})"(\d)$', text)
     if m:  # seconds"tenths
-        return f"{m.group(1)}.0" if False else f"{m.group(1)}.{m.group(2)}0"
+        return f"{m.group(1)}.{m.group(2)}0"
     # Era field sheets print comma decimals ('1,30', '11,95'); merge keys
     # must see the dotted form or the same attempt is re-added as a phantom.
     m = re.match(r"^(\d+),(\d+)$", text)
@@ -104,11 +124,21 @@ _CATT_CLUB_IN_LINE_RE = re.compile(
     r"(?<![a-z])(?:c\.?\s*a\.?\s*tarragona|catt)(?![a-z])",
     re.IGNORECASE,
 )
+# Shared mark body for the worth-row gate and the row regex. Longer forms
+# first so 2'03"1 is not eaten by the single-apostrophe 11'51 alt.
+# Fail layouts (issue #26): 10''06, 10"65, 11'51, optional trailing F.
+_PROMOCIO_MARK_BODY = (
+    r"(?:\d{1,2}['\u2019]\d{2}\"\d{1,2})"
+    r"|(?:\d{1,2}\u2019\u2019\d{2})"
+    r"|(?:\d{1,2}''\d{2})"
+    r"|(?:\d{1,2}'\d{2})"
+    r"|(?:\d{1,2}\"\d{1,2})"
+    r"|(?:\d{1,2}[.,]\d{2})"
+    r"|(?:\d{1,2}:\d{2}[.,]\d{2})"
+    r"|N\.?P\.?|RET\.?|DNS|DQ"
+)
 _PROMOCIO_TRAILING_MARK_RE = re.compile(
-    r"(?:(?:\d{1,2}['\u2019]\d{2}\"\d)|(?:\d{1,2}\u2019\u2019\d{2})|"
-    r"(?:\d{1,2}''\d{2})|(?:\d{1,2}\"\d)|(?:\d{1,2}[.,]\d{2})|"
-    r"(?:\d{1,2}:\d{2}[.,]\d{2})|N\.?P\.?|RET\.?|DNS|DQ)"
-    r"(?:\s+\d{1,4})?\s*$",
+    r"(?:" + _PROMOCIO_MARK_BODY + r")(?:\s+F\.?)?(?:\s+\d{1,4})?\s*$",
     re.IGNORECASE,
 )
 
@@ -274,7 +304,7 @@ _PROMOCIO_ROW_RE = re.compile(
     # combined-event points (3–4 digits) or a 1–2 digit rank.
     r"((?:C\.?\s*A\.?\s+|CA |CT |CL |JA |GEiE |UGA |CE |CN |FC |AA |CG |UA )?[^0-9]+?)\s{2,}"
     r"(?:(\w{2,4})\s{2,})?"
-    r"((?:\d{1,2}['\u2019]\d{2}\"\d)|(?:\d{1,2}\u2019\u2019\d{2})|(?:\d{1,2}''\d{2})|(?:\d{1,2}\"\d)|(?:\d{1,2}[.,]\d{2})|(?:\d{1,2}:\d{2}[.,]\d{2})|N\.?P\.?|RET\.?|DNS|DQ)(?:\s+(\d{1,4}))?\s*$",
+    r"((?:" + _PROMOCIO_MARK_BODY + r")(?:\s+F\.?)?)(?:\s+(\d{1,4}))?\s*$",
     re.IGNORECASE,
 )
 
@@ -517,16 +547,25 @@ def parse_header(text):
     # "Campionat"/"Campeonato". Also accept lines with just "Campionat"/"Campeonato"
     # (without "Jornada"). Word-boundary match: Catalan plural "Jornades" does NOT
     # substring-contain "Jornada" (e.g., "IX Jornades Atlètiques Torredembarra").
-    jornada_re = re.compile(r'Jornad(?:a|as|es)\b')
+    jornada_re = re.compile(r'Jornad(?:a|as|es)\b', re.IGNORECASE)
+    # Era sheets print "CAMPIONAT TERRITORIAL" / "CONTROL TERRITORIAL" in
+    # all caps; match case-insensitively so era_year can unlock the fallback
+    # (issue #26 fail layouts).
+    _campionat_re = re.compile(r'Campionat(?:u)?|Campeonato', re.IGNORECASE)
+    _control_re = re.compile(r'\bControl\b', re.IGNORECASE)
     for i, line in enumerate(lines[:30]):
         stripped = line.strip()
-        if jornada_re.search(stripped) and ('Campionat' in stripped or 'Campeonato' in stripped):
+        if jornada_re.search(stripped) and _campionat_re.search(stripped):
             competicio = stripped
             break
     if not competicio:
         for i, line in enumerate(lines[:30]):
             stripped = line.strip()
-            if ('Campionat' in stripped or 'Campeonato' in stripped) and 'Campionatu' not in stripped and not jornada_re.search(stripped):
+            # Reject "Campionatu…" false positives the old substring check
+            # already filtered; keep the same shape under IGNORECASE.
+            m = _campionat_re.search(stripped)
+            if m and not stripped[m.start():].lower().startswith('campionatu') \
+                    and not jornada_re.search(stripped):
                 competicio = stripped
                 break
     # Fallback: accept "Jornada"/"Jornadas"/"Jornades" alone as competition name
@@ -542,7 +581,7 @@ def parse_header(text):
     if not competicio:
         for i, line in enumerate(lines[:30]):
             stripped = line.strip()
-            if 'Control' in stripped and 'sesión' not in stripped.lower() and 'sesion' not in stripped.lower():
+            if _control_re.search(stripped) and 'sesión' not in stripped.lower() and 'sesion' not in stripped.lower():
                 competicio = stripped
                 break
     # Fallback: RFEA "Nacionales Sub-XX" (e.g., Allianz Nacionales Sub-18 Short Track)
@@ -581,11 +620,15 @@ def parse_header(text):
         'maig': '05', 'juny': '06', 'juliol': '07', 'agost': '08',
         'setembre': '09', 'novembre': '11', 'desembre': '12',
     }
+    # Catalan elision before the month: "5 d'abril de 2014" (also d'abril /
+    # d’abril). Plain "de " / bare month still match.
+    _de_month = r"(?:d['\u2019]|de\s+)?"
     for i, line in enumerate(lines[:30]):
         if _stamp_re.search(line):
             continue
         spanish_match = re.search(
-            r'([A-Za-zÀ-ÿ\.\s\-]+?),\s*(\d{1,2})\s+(?:de\s+)?(' + '|'.join(month_map) + r')\s+(?:de\s+)?(\d{4})',
+            r'([A-Za-zÀ-ÿ\.\s\-]+?),\s*(\d{1,2})\s+' + _de_month
+            + r'(' + '|'.join(month_map) + r')\s+(?:de\s+)?(\d{4})',
             line.strip(),
             re.IGNORECASE,
         )
@@ -598,7 +641,15 @@ def parse_header(text):
             localitat = city
             break
 
-    # Extract localitat and date from DD/MM/YYYY in page header (skip RCAT/RCAM record lines)
+    # Extract localitat and date from DD/MM/YYYY in page header (skip RCAT/RCAM
+    # record lines). Fail-layout sheets also print spaces around the slashes
+    # ("24 / 01 / 2015"); normalize to zero-padded DD/MM/YYYY. Prefer the city
+    # on the same line ("Cambrils, 24 / 01 / 2015") over the competition title
+    # on the line above ("CONTROL TERRITORIAL").
+    _slash_date_re = re.compile(r'(\d{1,2})\s*/\s*(\d{1,2})\s*/\s*(\d{4})')
+    _same_line_city_re = re.compile(
+        r'^([A-Za-zÀ-ÿ\.\s\-]+?),\s*' + _slash_date_re.pattern
+    )
     if not data:
         for i, line in enumerate(lines[:30]):
             stripped = line.strip()
@@ -606,27 +657,33 @@ def parse_header(text):
                 continue
             if _stamp_re.search(stripped):
                 continue
-            date_match = re.search(r'(\d{2}/\d{2}/\d{4})', stripped)
+            date_match = _slash_date_re.search(stripped)
             if date_match:
-                cand = date_match.group(1)
+                day, month, year_s = date_match.groups()
+                year = int(year_s)
                 # Reject birth/record dates: sheets that open with an athlete
                 # table (some masters meets) have no header date, and the first
                 # DD/MM/YYYY on the page is an athlete's date of birth. The
                 # dataset covers 2005+; anything outside is not a meeting date.
-                year = int(cand.split("/")[2])
                 if 2000 <= year <= 2035:
-                    data = cand
-                for j in range(i - 1, max(i - 5, -1), -1):
-                    prev = lines[j].strip()
-                    if prev and not re.search(r'\d{2}/\d{2}/\d{4}', prev):
-                        if jornada_re.search(prev) and ('Campionat' in prev or 'Campeonato' in prev):
-                            continue
-                        if any(kw in prev for kw in ['Estadi', 'Pista', 'Pabellon', 'Pabellón']):
-                            continue
-                        if re.search(r'\bRCAT\b|\bRCAM\b', prev):
-                            continue
-                        localitat = prev
-                        break
+                    data = f"{day.zfill(2)}/{month.zfill(2)}/{year_s}"
+                same = _same_line_city_re.match(stripped)
+                if same:
+                    localitat = same.group(1).strip()
+                else:
+                    for j in range(i - 1, max(i - 5, -1), -1):
+                        prev = lines[j].strip()
+                        if prev and not _slash_date_re.search(prev):
+                            if jornada_re.search(prev) and _campionat_re.search(prev):
+                                continue
+                            if _campionat_re.search(prev) or _control_re.search(prev):
+                                continue
+                            if any(kw in prev for kw in ['Estadi', 'Pista', 'Pabellon', 'Pabellón']):
+                                continue
+                            if re.search(r'\bRCAT\b|\bRCAM\b', prev):
+                                continue
+                            localitat = prev
+                            break
                 break
 
     # Canonicalize the venue: an "Estadi Joan Serrahima" header line wins

@@ -150,6 +150,36 @@ class TestPromocioSeriesFormat(unittest.TestCase):
         self.assertEqual(_quote_to_decimal('9"8'), "9.80")
         self.assertEqual(_quote_to_decimal("2'03\"1"), "2:03.10")
 
+    def test_era_double_apostrophe_and_centisecond_quotes(self):
+        # Fail-layout sheets (promovalls50414, trobada Cambrils) print
+        # seconds as 10''06 / 10"65 and often a trailing wind/flag 'F'.
+        # Without these, _promocio_worth_row_regex skips the row and the
+        # era fallback exports an empty JSON (issue #26 fail layouts).
+        self.assertEqual(_quote_to_decimal("10''06"), "10.06")
+        self.assertEqual(_quote_to_decimal("10''00"), "10.00")
+        self.assertEqual(_quote_to_decimal("10''00 F"), "10.00")
+        self.assertEqual(_quote_to_decimal("9''64 F"), "9.64")
+        self.assertEqual(_quote_to_decimal("11'51"), "11.51")
+        self.assertEqual(_quote_to_decimal('10"65'), "10.65")
+        self.assertEqual(_quote_to_decimal('9"59'), "9.59")
+
+    def test_era_quote_rows_with_flag_and_centiseconds(self):
+        import textwrap
+        text = textwrap.dedent("""
+        60 m.ll. Benjamí Masculí
+        Lloc Dorsal      Llicència Nom                             Any Club                        Marca
+            2         391   CL 71732   Paredes Lario, Ruben           2005   C. A. Tarragona          10''00 F
+            5         82    CL 71742   Rozas Bellido, Marc            2005   C. A. Tarragona          11'51
+           2        48    EDGAR JOSE DIAZ                     2002   C. A. TARRAGONA       10"65
+           1         4    ALMALÉ LERÍN, JAVIER                2000   C. A. TARRAGONA                  7"2
+        """)
+        rows = parse_promocio_series(text)
+        by = {r["atleta_nom"]: r["marca"] for r in rows}
+        self.assertEqual(by["Paredes Lario, Ruben"], "10.00")
+        self.assertEqual(by["Rozas Bellido, Marc"], "11.51")
+        self.assertEqual(by["EDGAR JOSE DIAZ"], "10.65")
+        self.assertEqual(by["ALMALÉ LERÍN, JAVIER"], "7.20")
+
     def test_row_extraction(self):
         import textwrap
         text = textwrap.dedent("""
@@ -441,10 +471,26 @@ class TestParseHeaderOnRealPdfs(unittest.TestCase):
         self.assertEqual(header, ("IX Jornades Atlètiques Torredembarra",
                                   "", "Torredembarra", "22/03/2026"))
 
-    def test_legacy_2014_header_unparsed_by_current_code(self):
+    def test_era_catalan_elision_and_spaced_slash_dates(self):
+        # Fail-layout sheets print "Valls, 5 d'abril de 2014" (Catalan
+        # elision) and "Cambrils, 24 / 01 / 2015" (spaces around /). Without
+        # these, era_year stays 0 and the empty-result fallback never runs
+        # (issue #26 fail layouts → extract_fail / empty JSON).
+        _, _, loc, data = parse_header(
+            "CAMPIONAT TERRITORIAL\nValls, 5 d'abril de 2014\n")
+        self.assertEqual(data, "05/04/2014")
+        self.assertEqual(loc, "Valls")
+        _, _, loc, data = parse_header(
+            "CONTROL TERRITORIAL\nCambrils, 24 / 01 / 2015\n")
+        self.assertEqual(data, "24/01/2015")
+        self.assertEqual(loc, "Cambrils")
+
+    def test_legacy_2014_promovalls_header_date(self):
         header = parse_header(self._text(
             "tests/fixtures/resulterritpromovalls50414.pdf"))
-        self.assertEqual(header, ("", "", "", ""))
+        self.assertEqual(header[3], "05/04/2014")
+        self.assertEqual(header[2], "Valls")
+        self.assertIn("CAMPIONAT", header[0].upper())
 
 
 class TestLocationNormalization(unittest.TestCase):

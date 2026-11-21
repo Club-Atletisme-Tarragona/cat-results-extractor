@@ -410,6 +410,39 @@ class TestPromocioSeriesFormat(unittest.TestCase):
             f"empty-MARCA Seg/Ref must not become a mark: {marks}",
         )
 
+    def test_veterans_2013_marca_after_club(self):
+        # 2013 clubs veterans: "Prova: 100 Mll Masculi" headers and MARCA
+        # glued right after the club (no Edat/Categ between). Columns after
+        # Marca are Seg / Porcentaje / Base — never store those (issue #26).
+        import textwrap
+        text = textwrap.dedent("""
+        Prova: 100 Mll Masculi
+        Pos Serie Dorsal    Licencia APELLIDO           NOMBRE             EDAT   FECHA DE NACIMIENTO       CLUB        Marca      Seg Porcentaje Base Puntos
+         9    1     13     CT 17561 FORNIES CAMER       ANTONIO             46        31/12/1966       CA Tarragona 00:13,22      13,22 80,8623% 10,69      4
+        Prova: Alçada Masculi
+         6    1    13    CT 9121 PARDINES GRAS     PERE         48 30/01/1965  CA Tarragona   1,47
+        Prova: Llargada Masculi
+         3    1     13    CT 17487       SAEZ PEREZ            LUIS       64    01/03/1949   CA Tarragona                                                        69,3493% 5,84    10
+        """)
+        self.assertEqual(parse_promocio_series(text), [])
+        rows = parse_veterans_clubs(text)
+        by_name = {(r["atleta_nom"].upper(), r["marca"], r["prova"]) for r in rows}
+        self.assertIn(
+            ("FORNIES CAMER ANTONIO", "0:13.22", "100 Mll Masculi"),
+            by_name,
+        )
+        self.assertNotIn(
+            ("FORNIES CAMER ANTONIO", "13.22", "100 Mll Masculi"),
+            by_name,
+        )
+        self.assertIn(
+            ("PARDINES GRAS PERE", "1.47", "Alçada Masculi"),
+            by_name,
+        )
+        # Blank MARCA + percentage must not become a mark
+        saez = [r for r in rows if "SAEZ" in r["atleta_nom"].upper()]
+        self.assertEqual(saez, [])
+
     def test_rejects_height_ghost_under_track(self):
         # Combined-event sheets leak Alçada (1.xx) into a hurdles/track
         # section; those must not become sprint/hurdle marks (issue #26).

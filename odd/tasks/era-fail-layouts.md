@@ -24,7 +24,8 @@ S6. Prefer `pdf_cache/<year>/` over network downloads.
 | T6 | S1 | Trobada: merge HEAD-more + filename date for headerless | | done |
 | T7 | S1 | Veterans MARCA-only parser (clubs 2015/2016) | | done |
 | T7b | S1,S4 | Reject empty-MARCA Seg/Ref ghosts + merge 2014 clubs | | done |
-| T8 | S1 | Veterans 2013 layout + pentatló (next) | | pending |
+| T8 | S1 | Veterans 2013 clubs Marca-after-club (`Prova:`) | | done |
+| T9 | S1 | Veterans pentatló tables (next) | | pending |
 
 ## Log
 
@@ -38,3 +39,4 @@ L7. Amposta CURSA GREEN: `parse_header` short date `5-3-16`/`13-02-16` → era_y
 L8. Trobada batch: merge 2013 HEAD-more — cambrils60413 69→101, tardor171112 126→198 (0 dups); sibling 2013 sheets also recovered via same SÈRIE path. Headerless `resultrobadacatgui20416` had era_year=0 despite parse_promocio=29 — `_date_from_fcat_filename` (`20416`→`20/04/2016`) unlocks extract (29 rows). Sparse siblings (guipuzcoa/occitania) keep stored field attempts the SÈRIE parser misses — no shrink. Aldave aggregator 121→124 (+3 from tardor track). Veterans remain a separate MARCA/COEF/% family (parse=0).
 L9. Veterans clubs MARCA-only GREEN: `parse_veterans_clubs` takes MARCA after M-50/F-45 (never Ref/COEF/%); `_quote_to_decimal` normalizes `01:01,22`→`1:01.22`. Wired into era fallback + `merge_era_fallback`. Merge: clubs190616 34→47 (+13 track), clubs140615 30→41 (+11 track). Pre-existing HEAD dups (Pinyol/Pradillo) and Alçada Ref ghosts (2.15/2.17) unchanged. 2013 clubs layout still parse=0 (different columns). Suite 106 OK; plausibility **260**.
 L10. Empty-MARCA Seg/Ref ghosts: blank MARCA leaves a wide gap before Seg/Ref (`M-45               1180,53`); `_VETERANS_ROW_RE` now requires `\s{1,8}` after category so those later columns never become marks. Merge 2014 clubs290614 36→45 (+9 track); promoamposta30514 also recovered via same merge pass. Suite 107 OK; plausibility **260**. Next: 2013 clubs (Marca glued after club, no Edat/Categ) + pentatló tables.
+L11. Veterans 2013 clubs GREEN: `_VETERANS_PROVA_HEADER_RE` (`Prova: 100 Mll …`) + `_VETERANS_2013_ROW_RE` (MARCA glued after club, ≤8 spaces; Seg/Porcentaje never stored). Merge clubs200713 23→36 (+13 track). 0 dups; no ghosts. Suite 108 OK; plausibility **260**. Pentatló tables remain a separate layout family.

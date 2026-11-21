@@ -480,6 +480,11 @@ _VETERANS_HEADER_RE = re.compile(
     r"|AL[CÇ]ADA\b|LLARGADA\b|PERXA\b|TRIPLE\b).+)$",
     re.IGNORECASE,
 )
+# 2013 clubs: "Prova: 100 Mll Masculi" / "Prova: Alçada Masculi"
+_VETERANS_PROVA_HEADER_RE = re.compile(
+    r"^\s*Prova:\s*(.+?)\s*$",
+    re.IGNORECASE,
+)
 # After M-50 / F-45 the MARCA column sits within a few spaces. A blank MARCA
 # leaves a wide gap before Seg/Ref (e.g. "M-45               1180,53"); those
 # later columns must never become the stored mark (issue #26).
@@ -493,11 +498,43 @@ _VETERANS_ROW_RE = re.compile(
     r"(\d{1,2}:\d{2}[.,]\d{1,2}|\d+[.,]\d+)",
     re.IGNORECASE,
 )
+# 2013 clubs: license + name + edat + DOB + club, then MARCA glued (≤8 spaces).
+# No M-50/F-45 between club and mark; Seg / Porcentaje / Base follow MARCA.
+_VETERANS_2013_ROW_RE = re.compile(
+    r"((?:CL|CT)\s*\d+)\s+"
+    r"(.+?)\s+"
+    r"(\d{1,3})\s+"
+    r"(\d{1,2}/\d{1,2}/\d{4})\s+"
+    r"(CA\s*Tarragona|CATT)\s{0,8}"
+    r"(\d{1,2}:\d{2}[.,]\d{1,2}|\d+[.,]\d+)",
+    re.IGNORECASE,
+)
 
 
 def _veterans_clean_name(raw):
     """Surname-first sheet name → single spaced athlete_name (no comma)."""
     return re.sub(r"\s+", " ", (raw or "").replace(",", " ").strip())
+
+
+def _veterans_append_row(rows, licencia, nom, prova, marca):
+    """Validate and append one CATT veterans MARCA row, or skip."""
+    name = _veterans_clean_name(nom)
+    if not name or re.search(r"\d", name):
+        return
+    mark = _quote_to_decimal(marca)
+    if not _promocio_mark_plausible(prova, mark):
+        return
+    rows.append({
+        "atleta_nom": name,
+        "atleta_naixement": "",
+        "atleta_licencia": licencia.replace(" ", "").strip(),
+        "prova": prova,
+        "marca": mark,
+        "vent": None,
+        "position": None,
+        "manual": False,
+        "marca_original": marca,
+    })
 
 
 def parse_veterans_clubs(text):
@@ -506,7 +543,11 @@ def parse_veterans_clubs(text):
     Layout (2014–2016 clubs): after club comes Edat, Categ. (M-50), then MARCA,
     then Ref / Percent / Posició / PUNTS. Taking any later column invents
     age-graded ghosts (Alçada 2.15 from Ref). A blank MARCA leaves a wide gap
-    before Seg/Ref — those rows are skipped. Issue #26 fail layouts.
+    before Seg/Ref — those rows are skipped.
+
+    Layout (2013 clubs): "Prova: …" headers; MARCA sits immediately after the
+    club (no category between). Seg / Porcentaje / Base follow — never store
+    those. Issue #26 fail layouts.
     """
     rows = []
     prova = ""
@@ -514,37 +555,33 @@ def parse_veterans_clubs(text):
         line = raw.rstrip()
         if not line.strip():
             continue
+        prova_h = _VETERANS_PROVA_HEADER_RE.match(line)
+        if prova_h:
+            prova = prova_h.group(1).strip()
+            continue
         header = _VETERANS_HEADER_RE.match(line)
         if header:
             prova = header.group(1).strip()
             continue
         if re.search(r"\bMARCA\b.*\bPercent", line, re.IGNORECASE):
             continue
+        if re.search(r"\bMarca\b.*\bPorcentaje", line, re.IGNORECASE):
+            continue
         if not prova or "tarragona" not in line.lower():
             continue
         m = _VETERANS_ROW_RE.search(line)
-        if not m:
+        if m:
+            licencia, nom, _dob, club, _edat, _g, _cat, marca = m.groups()
+            if _is_catt_club(club):
+                _veterans_append_row(rows, licencia, nom, prova, marca)
             continue
-        licencia, nom, _dob, club, _edat, _g, _cat, marca = m.groups()
+        m13 = _VETERANS_2013_ROW_RE.search(line)
+        if not m13:
+            continue
+        licencia, nom, _edat, _dob, club, marca = m13.groups()
         if not _is_catt_club(club):
             continue
-        name = _veterans_clean_name(nom)
-        if not name or re.search(r"\d", name):
-            continue
-        mark = _quote_to_decimal(marca)
-        if not _promocio_mark_plausible(prova, mark):
-            continue
-        rows.append({
-            "atleta_nom": name,
-            "atleta_naixement": "",
-            "atleta_licencia": licencia.replace(" ", "").strip(),
-            "prova": prova,
-            "marca": mark,
-            "vent": None,
-            "position": None,
-            "manual": False,
-            "marca_original": marca,
-        })
+        _veterans_append_row(rows, licencia, nom, prova, marca)
     return rows
 
 

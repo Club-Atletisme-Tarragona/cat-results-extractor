@@ -585,6 +585,149 @@ def parse_veterans_clubs(text):
     return rows
 
 
+
+# Veterans pentatló / pentatló de llançaments multi-column summary (issue #26).
+# Schema line lists events separated by "Punts"; athlete rows alternate
+# MARCA / Punts then Total Punts. Store sub-marks + total only — never Punts.
+_PENTATLO_SCHEMA_RE = re.compile(
+    r"(?:Llargada|Tanques|Martell|Javelina|Javelot|Alçada|Pes|Disc|200\s*m|800\s*m|1\.?500\s*m).*\bPunts\b",
+    re.IGNORECASE,
+)
+_PENTATLO_ATTEMPT_SEC_RE = re.compile(
+    r"(?:SALT|LLAN[CÇ]AMENT|METRES|TANQUES|INTENTS)\b.*\(?\s*PENTATL",
+    re.IGNORECASE,
+)
+_PENTATLO_TOKEN_RE = re.compile(
+    r"\d{1,2}:\d{2}[.,]\d{1,2}"
+    r"|\d{1,2}\.\d{3}"
+    r"|\d+[.,]\d+"
+    r"|\d{2,4}"
+    r"|ABANDONA|RET\.?|NP|DNS|DNF",
+    re.IGNORECASE,
+)
+_PENTATLO_ROW_RE = re.compile(
+    r"((?:CL|CT)[\u2010\u2011\-]?\s*\d+)\s+"
+    r"([MW])[\u2010\u2011\-](\d{2})\s+"
+    r"(.+?)\s+"
+    r"(CA\s*Tarragona|CATT)\s+"
+    r"(.+)$",
+    re.IGNORECASE,
+)
+
+
+def _pentatlo_schema_labels(line):
+    """Event labels from a 'Llargada Punts Javelina Punts …' schema line."""
+    if not _PENTATLO_SCHEMA_RE.search(line):
+        return []
+    parts = re.split(r"\bPunts\b", line, flags=re.IGNORECASE)
+    labels = []
+    for part in parts:
+        label = re.sub(r"\s+", " ", part).strip(" .")
+        if label and re.search(r"[A-Za-zÀ-ÿ]", label):
+            labels.append(label)
+    return labels
+
+
+def _pentatlo_normalize_label(label):
+    """Map schema shorthand to stored discipline names."""
+    p = re.sub(r"\s+", " ", (label or "")).strip().lower()
+    p = p.replace(".", "")
+    if re.match(r"^1?\.?500\s*m", p):
+        return "1500 metres llisos"
+    if re.match(r"^800\s*m", p):
+        return "800 metres llisos"
+    if re.match(r"^200\s*m", p):
+        return "200 metres llisos"
+    if p.startswith("javel"):
+        return "Javelina"
+    if p.startswith("tanques"):
+        return "Tanques"
+    if p.startswith("alçada") or p.startswith("altura"):
+        return "Alçada"
+    if p.startswith("llargada") or p.startswith("longitud"):
+        return "Llargada"
+    if p.startswith("disc"):
+        return "Disc"
+    if p.startswith("pes") and "martell" not in p:
+        return "Pes"
+    if "martell pesat" in p or p.startswith("martell pesat"):
+        return "Martell Pesat"
+    if p.startswith("martell"):
+        return "Martell"
+    # Preserve other labels (e.g. Martell Pesat already handled)
+    return label.strip()
+
+
+def _pentatlo_normalize_total(token):
+    """'2.283' / '1.425' thousand-separated totals → '2283' / '1425'."""
+    text = str(token or "").strip()
+    m = re.match(r"^(\d{1,2})\.(\d{3})$", text)
+    if m:
+        return f"{m.group(1)}{m.group(2)}"
+    return text
+
+
+def parse_veterans_pentatlo(text):
+    """CATT rows from veterans pentatló multi-column summary tables.
+
+    Layout: schema line with event / Punts pairs; athlete line after club
+    alternates MARCA / Punts, ending in Total Punts (often printed as 2.283).
+    Emits one row per sub-mark plus the total as 'Pentatló'. Intermediate
+    Punts are never stored (issue #26 fail layouts).
+    """
+    rows = []
+    schema = []
+    for raw in str(text or "").splitlines():
+        line = raw.rstrip()
+        if not line.strip():
+            continue
+        if _PENTATLO_ATTEMPT_SEC_RE.search(line):
+            schema = []
+            continue
+        labels = _pentatlo_schema_labels(line)
+        if labels:
+            schema = labels
+            continue
+        if not schema or "tarragona" not in line.lower():
+            continue
+        # Attempt detail tables carry DOB — skip those rows.
+        if re.search(r"\d{1,2}/\d{1,2}/\d{4}", line):
+            continue
+        m = _PENTATLO_ROW_RE.search(line)
+        if not m:
+            continue
+        licencia, _g, _cat, nom, club, rest = m.groups()
+        if not _is_catt_club(club):
+            continue
+        tokens = _PENTATLO_TOKEN_RE.findall(rest)
+        if len(tokens) < 2:
+            continue
+        # Expect mark/points pairs then total: 2*N + 1 tokens for N events.
+        n = len(schema)
+        if len(tokens) < 2 * n + 1:
+            # Incomplete / abandoned rows: take what pairs we can, no total.
+            pairs = len(tokens) // 2
+            for i in range(min(pairs, n)):
+                mark_tok = tokens[2 * i]
+                if re.match(r"^(?:ABANDONA|RET\.?|NP|DNS|DNF)$", mark_tok, re.I):
+                    continue
+                prova = _pentatlo_normalize_label(schema[i])
+                _veterans_append_row(rows, licencia, nom, prova, mark_tok)
+            continue
+        for i in range(n):
+            mark_tok = tokens[2 * i]
+            if re.match(r"^(?:ABANDONA|RET\.?|NP|DNS|DNF)$", mark_tok, re.I):
+                continue
+            prova = _pentatlo_normalize_label(schema[i])
+            _veterans_append_row(rows, licencia, nom, prova, mark_tok)
+        total_tok = _pentatlo_normalize_total(tokens[2 * n])
+        if total_tok and not re.match(
+            r"^(?:ABANDONA|RET\.?|NP|DNS|DNF)$", total_tok, re.I
+        ):
+            _veterans_append_row(rows, licencia, nom, "Pentatló", total_tok)
+    return rows
+
+
 def parse_promocio_series(text):
     """Rows from a promocio-era sheet; CATT athletes only.
 
@@ -4905,13 +5048,15 @@ def main():
         else:
             # Promocio first; clubs-veterans when the SÈRIE path finds nothing
             # (masters MARCA/COEF/% rows are skipped by the anti-hang gate).
-            results = parse_promocio_series(text) or parse_veterans_clubs(text)
+            results = (parse_promocio_series(text) or parse_veterans_clubs(text)
+                        or parse_veterans_pentatlo(text))
         if results and not quiet:
             print(f"Era fallback: {len(results)} CATT rows")
     elif is_era or is_conersys_comb:
         # partial coverage on era sheets: merge the rows the main path missed
         if is_era:
-            extra = parse_promocio_series(text) or parse_veterans_clubs(text)
+            extra = (parse_promocio_series(text) or parse_veterans_clubs(text)
+                    or parse_veterans_pentatlo(text))
         else:
             extra = parse_conersys_combinadas(text)
         # Normalize marks in the key so '1,30' and '1.30' collapse (issue #26).

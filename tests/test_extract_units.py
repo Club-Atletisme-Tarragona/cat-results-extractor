@@ -21,6 +21,7 @@ from extract_catt import (  # noqa: E402
     _quote_to_decimal,
     parse_promocio_series,
     parse_veterans_clubs,
+    parse_veterans_pentatlo,
     extract_name_from_line,
     is_excluded_athlete,
     split_relay_composition,
@@ -442,6 +443,40 @@ class TestPromocioSeriesFormat(unittest.TestCase):
         # Blank MARCA + percentage must not become a mark
         saez = [r for r in rows if "SAEZ" in r["atleta_nom"].upper()]
         self.assertEqual(saez, [])
+
+    def test_veterans_pentatlo_summary_marks_not_punts(self):
+        # Veterans pentatló multi-column summary: after club, each sub-event
+        # prints MARCA then Punts, then Total Punts. Store every sub-mark and
+        # the total as "Pentatló"; never intermediate Punts (issue #26).
+        import textwrap
+        text = textwrap.dedent("""
+        RESULTAT DEL CAMPIONAT DE CATALUNYA
+        DE PENTATLÓ MASCULINA
+        N.ORDEN      N.Llicencia    Cat.             Cognoms            Nom              CLUB                                   Total Punts
+                                                                                             Llargada   Punts     Javelina   Punts       200 m.       Punts      Disc      Punts    1.500 m.   Punts
+          2          CT‐19378      M‐45 MATEO SANZ             JOSEP MARIA     CA Tarragona              5,00       537     24,73       285       26,89         620       25,33       475   06:09,25      366    2.283
+        RESULTATS DEL CAMPIONAT DE CATALUNYA
+        DE PENTATLÓ FEMENINA
+                                                                                             Tanques    Punts     Alçada     Punts        Pes         Punts     Llargada   Punts    800 m.     Punts
+          1       CL‐25649      W‐35   CALATRAVA FERNANDEZ    DOLORES        CA Tarragona            23,65            87       1,18      350       6,32         306        4,19      401   03:10,54      281       1.425
+        """)
+        self.assertEqual(parse_promocio_series(text), [])
+        self.assertEqual(parse_veterans_clubs(text), [])
+        rows = parse_veterans_pentatlo(text)
+        by = {(r["atleta_nom"].upper(), r["marca"], r["prova"]) for r in rows}
+        self.assertIn(("MATEO SANZ JOSEP MARIA", "5.00", "Llargada"), by)
+        self.assertIn(("MATEO SANZ JOSEP MARIA", "24.73", "Javelina"), by)
+        self.assertIn(("MATEO SANZ JOSEP MARIA", "26.89", "200 metres llisos"), by)
+        self.assertIn(("MATEO SANZ JOSEP MARIA", "25.33", "Disc"), by)
+        self.assertIn(("MATEO SANZ JOSEP MARIA", "6:09.25", "1500 metres llisos"), by)
+        self.assertIn(("MATEO SANZ JOSEP MARIA", "2283", "Pentatló"), by)
+        # Intermediate Punts must never become marks
+        self.assertFalse(any(r["marca"] in ("537", "285", "620", "475", "366") for r in rows))
+        self.assertIn(("CALATRAVA FERNANDEZ DOLORES", "23.65", "Tanques"), by)
+        self.assertIn(("CALATRAVA FERNANDEZ DOLORES", "1.18", "Alçada"), by)
+        self.assertIn(("CALATRAVA FERNANDEZ DOLORES", "3:10.54", "800 metres llisos"), by)
+        self.assertIn(("CALATRAVA FERNANDEZ DOLORES", "1425", "Pentatló"), by)
+        self.assertFalse(any(r["marca"] == "1.425" for r in rows))
 
     def test_rejects_height_ghost_under_track(self):
         # Combined-event sheets leak Alçada (1.xx) into a hurdles/track

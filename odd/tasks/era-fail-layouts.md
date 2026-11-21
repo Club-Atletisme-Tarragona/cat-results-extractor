@@ -25,7 +25,12 @@ S6. Prefer `pdf_cache/<year>/` over network downloads.
 | T7 | S1 | Veterans MARCA-only parser (clubs 2015/2016) | | done |
 | T7b | S1,S4 | Reject empty-MARCA Seg/Ref ghosts + merge 2014 clubs | | done |
 | T8 | S1 | Veterans 2013 clubs Marca-after-club (`Prova:`) | | done |
-| T9 | S1 | Veterans pentatló tables (next) | | pending |
+| T9 | S1 | Veterans pentatló summary: sub-marks + total (never Punts) | | done |
+| T10 | S1 | Re-probe remaining fail46 / next layout family | | pending |
+
+## Slice boundary
+
+After `3fe00ec5` the branch is past the ~400 authored-line slice since `origin/main` (parser/tests/ODD ~1k insertions; JSON merges dominate the full diff). Further fail-layout families stay one family per commit; do not batch pentatló with unrelated layouts.
 
 ## Log
 
@@ -40,3 +45,5 @@ L8. Trobada batch: merge 2013 HEAD-more — cambrils60413 69→101, tardor171112
 L9. Veterans clubs MARCA-only GREEN: `parse_veterans_clubs` takes MARCA after M-50/F-45 (never Ref/COEF/%); `_quote_to_decimal` normalizes `01:01,22`→`1:01.22`. Wired into era fallback + `merge_era_fallback`. Merge: clubs190616 34→47 (+13 track), clubs140615 30→41 (+11 track). Pre-existing HEAD dups (Pinyol/Pradillo) and Alçada Ref ghosts (2.15/2.17) unchanged. 2013 clubs layout still parse=0 (different columns). Suite 106 OK; plausibility **260**.
 L10. Empty-MARCA Seg/Ref ghosts: blank MARCA leaves a wide gap before Seg/Ref (`M-45               1180,53`); `_VETERANS_ROW_RE` now requires `\s{1,8}` after category so those later columns never become marks. Merge 2014 clubs290614 36→45 (+9 track); promoamposta30514 also recovered via same merge pass. Suite 107 OK; plausibility **260**. Next: 2013 clubs (Marca glued after club, no Edat/Categ) + pentatló tables.
 L11. Veterans 2013 clubs GREEN: `_VETERANS_PROVA_HEADER_RE` (`Prova: 100 Mll …`) + `_VETERANS_2013_ROW_RE` (MARCA glued after club, ≤8 spaces; Seg/Porcentaje never stored). Merge clubs200713 23→36 (+13 track). 0 dups; no ghosts. Suite 108 OK; plausibility **260**. Pentatló tables remain a separate layout family.
+L12. Slice boundary recorded after `3fe00ec5` (past ~400 authored lines). Next family: veterans pentatló multi-column summary — stored JSON has field attempts but misses track (200/800/1500/tanques) and total points; intermediate Punts must never become marks.
+L13. Veterans pentatló summary GREEN: `parse_veterans_pentatlo` reads schema (event/Punts pairs) + CATT rows; stores sub-marks + total as `Pentatló` (`2.283`→`2283`); never intermediate Punts. Wired into era fallback + `merge_era_fallback`. Merge: pentatlo140913 8→12, pentatlollancaments140913 5→6, pentatlo200914 6→9, pentatloveterans180916 38→61, pentatlollancamentsveterans180916 23→25. 0 dups; 0 ghosts. Suite 109 OK; plausibility **260**. Next: re-probe remaining fail46.

@@ -32,6 +32,7 @@ sys.path.insert(0, str(ROOT))
 from extract_catt import (  # noqa: E402
     parse_promocio_series,
     parse_veterans_clubs,
+    parse_veterans_pentatlo,
     timing_from_mark,
     detect_short_track,
     _quote_to_decimal,
@@ -88,7 +89,8 @@ def main():
                                  capture_output=True, text=True).stdout
             # Promocio SÈRIE first; clubs-veterans when that path finds nothing
             # (masters MARCA/COEF/% rows are skipped by the anti-hang gate).
-            extra = parse_promocio_series(txt) or parse_veterans_clubs(txt)
+            extra = (parse_promocio_series(txt) or parse_veterans_clubs(txt)
+                     or parse_veterans_pentatlo(txt))
             if not extra:
                 stats["no_fallback_rows"] += 1
                 continue

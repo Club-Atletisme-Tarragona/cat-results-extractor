@@ -3,7 +3,7 @@
   "event_date": "18/09/2016",
   "event_location": "Barcelona",
   "event_src": "http://old.fcatletisme.cat/Veterans/2016/resulcatpentatlollancamentsveterans180916.pdf",
-  "total_results": 23,
+  "total_results": 25,
   "results": [
     {
       "athlete_name": "PRADILLO GUTIERREZ MARISA",
@@ -256,6 +256,28 @@
       "performance": "6.06",
       "wind": null,
       "internal_id": 528,
+      "timing": "electronic"
+    },
+    {
+      "athlete_name": "VELASCO MARTI ANA CRISTINA",
+      "athlete_dob": "",
+      "athlete_id": "CT‐25561",
+      "performance": "1734",
+      "discipline": "Pentatló",
+      "wind": null,
+      "position": null,
+      "raw_discipline_name": "Pentatló",
+      "timing": "electronic"
+    },
+    {
+      "athlete_name": "PRADILLO GUTIERREZ MARISA",
+      "athlete_dob": "",
+      "athlete_id": "CT‐21513",
+      "performance": "1647",
+      "discipline": "Pentatló",
+      "wind": null,
+      "position": null,
+      "raw_discipline_name": "Pentatló",
       "timing": "electronic"
     }
   ],

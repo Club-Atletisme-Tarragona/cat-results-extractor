@@ -59,7 +59,7 @@ def _header_year(event_date):
 
 
 def _quote_to_decimal(mark):
-    """'11"6' -> '11.60'; 2'03"1 -> '2:03.10'; already-decimal passes."""
+    """'11"6' -> '11.60'; 2'03"1 -> '2:03.10'; '1,30' -> '1.30'."""
     text = str(mark or "").strip()
     m = re.match(r"^(\d{1,2})'(\d{2})\"(\d)$", text)
     if m:  # minutes'seconds"tenths
@@ -67,7 +67,94 @@ def _quote_to_decimal(mark):
     m = re.match(r"^(\d{1,2})\"(\d)$", text)
     if m:  # seconds"tenths
         return f"{m.group(1)}.0" if False else f"{m.group(1)}.{m.group(2)}0"
+    # Era field sheets print comma decimals ('1,30', '11,95'); merge keys
+    # must see the dotted form or the same attempt is re-added as a phantom.
+    m = re.match(r"^(\d+),(\d+)$", text)
+    if m:
+        return f"{m.group(1)}.{m.group(2)}"
     return text
+
+
+_PROMOCIO_FIELD_ROW_RE = re.compile(
+    # 2016 territorial field tables: pos? dorsal name year CA Tarragona attempts Marca
+    r"^\s*(?:(\d{1,2})\s+)?"
+    r"(\d{1,4})\s+"
+    r"(.+?)\s+"
+    r"(\d{4})\s+"
+    r"(CA\s+Tarragona)\s+"
+    r"(.+?)\s*$",
+    re.IGNORECASE,
+)
+
+
+def _is_catt_club(club):
+    """True only for CA Tarragona / CATT — never CG Tarragona or other clubs."""
+    c = re.sub(r"\s+", " ", (club or "").strip().lower())
+    return c == "catt" or c.startswith("ca tarragona")
+
+
+def _promocio_field_kind(prova):
+    """'height' / 'jump' / 'throw' for era field section titles, else None."""
+    p = (prova or "").strip().lower()
+    if re.match(r"^(alçada|altura)\b", p):
+        return "height"
+    if re.match(r"^(llargada|longitud|triple)\b", p):
+        return "jump"
+    if re.match(r"^(pes|peso|disc|disco|martell|martillo|javelina|jabalina)\b", p):
+        return "throw"
+    return None
+
+
+def _promocio_field_marks(tail, kind):
+    """Valid marks from a field-row tail; unique, order preserved."""
+    tokens = re.findall(
+        r"\d+[.,]\d+|\bnuls\b|XO|XXO|XXX|X|O|-|_",
+        tail or "",
+        re.IGNORECASE,
+    )
+    decimals = []
+    for tok in tokens:
+        if tok.lower() == "nuls":
+            return []
+        if re.fullmatch(r"\d+[.,]\d+", tok):
+            decimals.append(_quote_to_decimal(tok))
+    if kind == "height":
+        return [decimals[-1]] if decimals else []
+    seen = set()
+    out = []
+    for mark in decimals:
+        if mark not in seen:
+            seen.add(mark)
+            out.append(mark)
+    return out
+
+
+def _parse_promocio_field_rows(line, prova, wind=None):
+    """One CATT field-table row → one result dict per valid attempt/Marca."""
+    kind = _promocio_field_kind(prova)
+    if not kind:
+        return []
+    m = _PROMOCIO_FIELD_ROW_RE.match(line)
+    if not m:
+        return []
+    nom = m.group(3).strip()
+    if re.search(r"\d", nom.replace(",", "").strip()) or nom.count(",") > 1:
+        return []
+    marks = _promocio_field_marks(m.group(6), kind)
+    rows = []
+    for mark in marks:
+        rows.append({
+            "atleta_nom": nom,
+            "atleta_naixement": "",
+            "atleta_licencia": "",
+            "prova": prova,
+            "marca": mark,
+            "vent": wind if kind == "jump" else None,
+            "position": None,
+            "manual": False,
+            "marca_original": mark,
+        })
+    return rows
 
 
 _PROMOCIO_ROW_RE = re.compile(
@@ -177,6 +264,9 @@ def parse_promocio_series(text):
             continue
         if "SÈRIE" in line.upper() or "Serie" in line:
             continue
+        # Column headers of field tables ('Lloc Dorsal Nom … Marca')
+        if re.search(r"\bLloc\b.*\bDorsal\b", line, re.IGNORECASE):
+            continue
         if not prova:
             continue
         # prefilter: the heavy row regex backtracks exponentially on rows that
@@ -184,6 +274,14 @@ def parse_promocio_series(text):
         # a club we care about are worth the cost. A club line without
         # Tarragona can never yield a CATT row.
         if "tarragona" not in line.lower():
+            continue
+        # Field tables (Llargada/Alçada/Pes/Disc): multi-attempt or O/X + Marca.
+        # Prefer this path when the section title is a field event so a trailing
+        # Marca does not hide the attempt columns.
+        if _promocio_field_kind(prova):
+            field_rows = _parse_promocio_field_rows(line, prova, wind)
+            if field_rows:
+                rows.extend(field_rows)
             continue
         m = _PROMOCIO_ROW_RE.match(line)
         if not m:
@@ -203,7 +301,8 @@ def parse_promocio_series(text):
         # licencia may be None: the 2016 territorial layout has none.
         # A 4-digit birth year is normalized to the 2-digit form the rest
         # of the pipeline stores (era rows keep athlete_dob empty anyway).
-        if "tarragona" not in club.lower():
+        # CG Tarragona shares the city name — never treat it as CATT.
+        if not _is_catt_club(club):
             continue
         rows.append({
             "atleta_nom": nom.strip(),
@@ -4377,11 +4476,13 @@ def main():
         # partial coverage on era sheets: merge the rows the main path missed
         extra = (parse_promocio_series(text) if is_era
                  else parse_conersys_combinadas(text))
+        # Normalize marks in the key so '1,30' and '1.30' collapse (issue #26).
         known = {(r.get("atleta_nom", "").upper().replace(",", ""),
-                  r.get("marca", "")) for r in results}
+                  _quote_to_decimal(r.get("marca", ""))) for r in results}
         added = 0
         for r in extra:
-            key = (r["atleta_nom"].upper().replace(",", ""), r["marca"])
+            key = (r["atleta_nom"].upper().replace(",", ""),
+                   _quote_to_decimal(r["marca"]))
             if key not in known:
                 results.append(r)
                 known.add(key)
@@ -4392,10 +4493,11 @@ def main():
         # same merge for Conersys combined events (2016-style tails excluded)
         extra = parse_conersys_combinadas(text)
         known = {(r.get("atleta_nom", "").upper().replace(",", ""),
-                  r.get("marca", "")) for r in results}
+                  _quote_to_decimal(r.get("marca", ""))) for r in results}
         added = 0
         for r in extra:
-            key = (r["atleta_nom"].upper().replace(",", ""), r["marca"])
+            key = (r["atleta_nom"].upper().replace(",", ""),
+                   _quote_to_decimal(r["marca"]))
             if key not in known:
                 results.append(r)
                 known.add(key)

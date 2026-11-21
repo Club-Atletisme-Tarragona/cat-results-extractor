@@ -33,6 +33,7 @@ from extract_catt import (  # noqa: E402
     parse_promocio_series,
     timing_from_mark,
     detect_short_track,
+    _quote_to_decimal,
 )
 
 SEASONS_DIR = ROOT / "seasons"
@@ -69,8 +70,10 @@ def main():
             if not extra:
                 stats["no_fallback_rows"] += 1
                 continue
+            # Normalize marks so '1,30' and '1.30' are the same attempt
+            # (issue #26 era comma decimals).
             known = {(r.get("athlete_name", "").upper().replace(",", "").strip(),
-                      r.get("performance", "")) for r in stored}
+                      _quote_to_decimal(r.get("performance", ""))) for r in stored}
             added = []
             for r in extra:
                 name = r["atleta_nom"].strip()
@@ -80,7 +83,8 @@ def main():
                 if not name:
                     stats["unnamed_skipped"] += 1
                     continue
-                key = (name.upper().replace(",", "").strip(), r["marca"])
+                key = (name.upper().replace(",", "").strip(),
+                       _quote_to_decimal(r["marca"]))
                 if key not in known:
                     added.append(r)
                     known.add(key)

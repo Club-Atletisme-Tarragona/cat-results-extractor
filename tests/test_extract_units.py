@@ -178,6 +178,23 @@ class TestPromocioSeriesFormat(unittest.TestCase):
         """)
         self.assertEqual(parse_promocio_series(text), [])
 
+    def test_cg_tarragona_is_not_catt(self):
+        # CG Tarragona shares the city name; AGENTS.md: NEVER include it.
+        import textwrap
+        text = textwrap.dedent("""
+        60 m.ll. Benjamí Masculí
+        Lloc  Dorsal Nom                              Any Club                 Temps
+            1         386   Carla Rodríguez Martínez      2008   CG Tarragona          10"3
+            2         141   Ferran Jimenez, Guillem           2008   CA Tarragona         9"6
+        Alçada Infantil Femení
+        Lloc Dorsal Nom                         Any Club                    1,05 1,10 1,15 1,20 Marca
+         4    248   Gil Nuez, Laia               2004 CG Tarragona          O     XO    XO   XXO XXX                            1,20
+        """)
+        rows = parse_promocio_series(text)
+        names = [r["atleta_nom"] for r in rows]
+        self.assertEqual(names, ["Ferran Jimenez, Guillem"])
+        self.assertNotIn("Gil Nuez, Laia", names)
+
     def test_catt_only_at_output_boundary(self):
         import textwrap
         text = textwrap.dedent("""
@@ -188,6 +205,80 @@ class TestPromocioSeriesFormat(unittest.TestCase):
         """)
         rows = parse_promocio_series(text)
         self.assertEqual([r["atleta_nom"] for r in rows], ["Lago Garbajosa, Aleix"])
+
+    def test_comma_decimal_normalized(self):
+        # Era sheets print field marks with a comma; merge keys must see dots
+        # or the fallback re-adds the same attempt as a phantom (issue #26).
+        self.assertEqual(_quote_to_decimal("1,30"), "1.30")
+        self.assertEqual(_quote_to_decimal("11,95"), "11.95")
+        self.assertEqual(_quote_to_decimal("3,99"), "3.99")
+
+    def test_alcada_marca_only_skips_nuls(self):
+        import textwrap
+        text = textwrap.dedent("""
+        Alçada Infantil Masculí
+        Lloc Dorsal Nom                         Any Club                    1,10 1,15 1,20 1,25 1,30 1,33 1,36 1,39 1,42 Marca
+          3   114   Pinyol Mateu, Nil           2003 CA Tarragona           O     O     O    XXO O       XXX                    1,30
+          5   104   Aixala Guiu, Pol            2004 CA Tarragona           O     XXX                                           1,10
+              115   Bartolome Vazquez, Oscar    2004 CA Tarragona           XXX                                                 nuls
+        """)
+        rows = parse_promocio_series(text)
+        by_name = {r["atleta_nom"]: r for r in rows}
+        self.assertEqual(by_name["Pinyol Mateu, Nil"]["marca"], "1.30")
+        self.assertEqual(by_name["Aixala Guiu, Pol"]["marca"], "1.10")
+        self.assertNotIn("Bartolome Vazquez, Oscar", by_name)
+        self.assertEqual(len(rows), 2)
+
+    def test_llargada_emits_each_valid_attempt(self):
+        import textwrap
+        text = textwrap.dedent("""
+        Llargada Aleví Masculí
+        Lloc Dorsal Nom                             Any Club                      1      2      3     4   5   6   Marca
+         3    161   Paredes Lario, Ruben            2005   CA Tarragona          3,99   3,86   3,99                3,99
+        19   122   Virgili Garrigos, Oriol         2006   CA Tarragona           X     2,92    X                  2,92
+         4    290   Pau Valdepeñas Valderrama       2005   CE Penedès            3,85   3,79   3,88                3,88
+        """)
+        rows = parse_promocio_series(text)
+        paredes = [r["marca"] for r in rows if r["atleta_nom"] == "Paredes Lario, Ruben"]
+        virgili = [r["marca"] for r in rows if r["atleta_nom"] == "Virgili Garrigos, Oriol"]
+        # unique valid attempts; trailing Marca column is not a second row when
+        # it equals an attempt already taken
+        self.assertEqual(sorted(paredes), ["3.86", "3.99"])
+        self.assertEqual(virgili, ["2.92"])
+        self.assertTrue(all(r["prova"] == "Llargada Aleví Masculí" for r in rows))
+        self.assertFalse(any("Penedès" in (r["atleta_nom"] + r.get("prova", ""))
+                             for r in rows if "Valdepeñas" in r["atleta_nom"]))
+        self.assertEqual(len([r for r in rows if "Valdepeñas" in r["atleta_nom"]]), 0)
+
+    def test_pes_and_disc_all_attempts(self):
+        import textwrap
+        text = textwrap.dedent("""
+        Pes Cadet Femení                            3 Kg
+        Lloc Dorsal Nom                              Any Club                     1       2      3      4      5      6     Marca
+          1   165   Montañes Arbo, Montserrat       2001   CA Tarragona          11,95 11,43 11,22 10,88 11,23 11,13        11,95
+        Disc Cadet Femení                           800 gr.
+        Lloc Dorsal Nom                              Any Club                  1       2       3       4       5       6      Marca
+          1   165   Montañes Arbo, Montserrat       2001   CA Tarragona       22,66   28,46    8,74   28,61   29,71   30,48   30,48
+        """)
+        rows = parse_promocio_series(text)
+        pes = [r["marca"] for r in rows if r["prova"].startswith("Pes")]
+        disc = [r["marca"] for r in rows if r["prova"].startswith("Disc")]
+        self.assertEqual(pes, ["11.95", "11.43", "11.22", "10.88", "11.23", "11.13"])
+        self.assertEqual(disc, ["22.66", "28.46", "8.74", "28.61", "29.71", "30.48"])
+
+    def test_track_ferran_jimenez_still_recovered(self):
+        import textwrap
+        text = textwrap.dedent("""
+        60 m.ll. Benjamí Masculí
+        Lloc  Dorsal Nom                              Any Club                 Temps
+            1         141   Ferran Jimenez, Guillem           2008   CA Tarragona         9"6
+            2         145   Subiros Brasero, Lluc             2007   CA Tarragona         9"8
+        """)
+        rows = parse_promocio_series(text)
+        ferran = [r for r in rows if r["atleta_nom"] == "Ferran Jimenez, Guillem"]
+        self.assertEqual(len(ferran), 1)
+        self.assertEqual(ferran[0]["marca"], "9.60")
+        self.assertTrue(ferran[0]["manual"])
 
 
 class TestRelayComposition(unittest.TestCase):

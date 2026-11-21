@@ -3,8 +3,7 @@
 
 Root cause: a handful of season source JSONs were extracted without an
 event_date (PDF header date never parsed) or without an event_src (manual
-extraction before provenance was enforced). The aggregator copies these
-fields verbatim into athletes/, so the gaps propagated downstream.
+extraction before provenance was enforced).
 
 Fix strategy (data-driven, no date guessing):
 
@@ -14,11 +13,12 @@ Fix strategy (data-driven, no date guessing):
    resulterritpromovalls50414.pdf -> 5-04-14).
 2. Source JSONs with empty event_src: fill from URLs reconstructed from
    sibling PDFs of the same series and verified with HTTP 200.
-3. athletes/ files: for every result row with an empty event_date, look up
-   the date by event_src in the (now complete) source-JSON map; for every
-   row with an empty event_src, look up the src by (event_name, event_date)
-   in the source-JSON map. Never invent a value: rows that cannot be
-   matched are reported and left untouched.
+3. Final audit: report any remaining season JSON with an empty event_date or
+   event_src. Never invent a value.
+
+The retired `athletes/` aggregates were the third consumer of these fields;
+they no longer exist (issue #20 closed as discarded), so the fixer only
+maintains `seasons/*/json/`.
 
 Idempotent: running twice is a no-op the second time.
 
@@ -89,13 +89,8 @@ def save_json(path: Path, data) -> None:
     tmp.replace(path)
 
 
-def fix_sources(dry_run: bool) -> dict:
-    """Fill event_date / event_src in the known source JSONs.
-
-    Returns maps: norm_src -> date, (event_name, event_date) -> src.
-    """
-    src_to_date: dict[str, str] = {}
-    key_to_src: dict[tuple[str, str], str] = {}
+def fix_sources(dry_run: bool) -> None:
+    """Fill event_date / event_src in the known source JSONs."""
 
     for rel, (wrong, correct) in SOURCE_DATE_OVERRIDES.items():
         path = ROOT / rel
@@ -125,7 +120,6 @@ def fix_sources(dry_run: bool) -> dict:
             if not dry_run:
                 data["event_date"] = date
                 save_json(path, data)
-        src_to_date[norm_src(src)] = date
 
     for rel, src in SOURCE_SRCS.items():
         path = ROOT / rel
@@ -139,103 +133,20 @@ def fix_sources(dry_run: bool) -> dict:
             if not dry_run:
                 data["event_src"] = src
                 save_json(path, data)
-        if name and date:
-            key_to_src[(name.upper(), date)] = src
-
-    return src_to_date, key_to_src
-
-
-def build_source_maps() -> tuple[dict[str, str], dict[tuple[str, str], str]]:
-    """Scan all source JSONs (seasons/*/json/) and build lookup maps."""
-    src_to_date: dict[str, str] = {}
-    key_to_src: dict[tuple[str, str], str] = {}
-    for pattern in ("seasons/*/json/*.json", "seasons/*/json/imported/*.json"):
-        for path in sorted(ROOT.glob(pattern)):
-            if "athletes" in path.parts or "imported" in path.parts:
-                continue
-            try:
-                data = load_json(path)
-            except (json.JSONDecodeError, OSError):
-                continue
-            src = (data.get("event_src") or "").strip()
-            date = (data.get("event_date") or "").strip()
-            name = (data.get("event_name") or "").strip()
-            if src and date:
-                src_to_date.setdefault(norm_src(src), date)
-            if name and date and src:
-                key_to_src.setdefault((name.upper(), date), src)
-    return src_to_date, key_to_src
-
-
-def fix_athletes(src_to_date, key_to_src, dry_run: bool) -> None:
-    # row-level date overrides: normalized src -> (wrong_date, correct_date)
-    row_overrides = {
-        norm_src(load_json(ROOT / rel).get("event_src", "")): (wrong, correct)
-        for rel, (wrong, correct) in SOURCE_DATE_OVERRIDES.items()
-        if load_json(ROOT / rel).get("event_src")
-    }
-    files = sorted((ROOT / "athletes").glob("*.json"))
-    fixed_date = 0
-    fixed_src = 0
-    fixed_override = 0
-    unresolved: list[tuple[str, int, str, str]] = []
-    touched: set[str] = set()
-
-    for path in files:
-        data = load_json(path)
-        changed = False
-        for i, row in enumerate(data.get("results", [])):
-            row_src = norm_src(row.get("event_src", ""))
-            if row_src in row_overrides:
-                wrong, correct = row_overrides[row_src]
-                if row.get("event_date") == wrong:
-                    row["event_date"] = correct
-                    fixed_override += 1
-                    changed = True
-            if not row.get("event_date") and row.get("event_src"):
-                date = src_to_date.get(norm_src(row["event_src"]))
-                if date:
-                    row["event_date"] = date
-                    fixed_date += 1
-                    changed = True
-                else:
-                    unresolved.append((str(path), i, "event_date", row.get("event_src", "")))
-            if not row.get("event_src") and row.get("event_date"):
-                src = key_to_src.get(
-                    ((row.get("event_name") or "").strip().upper(), row["event_date"])
-                )
-                if src:
-                    row["event_src"] = src
-                    fixed_src += 1
-                    changed = True
-                else:
-                    unresolved.append(
-                        (str(path), i, "event_src",
-                         f"{row.get('event_name', '')} @ {row.get('event_date', '')}")
-                    )
-        if changed:
-            touched.add(str(path))
-            if not dry_run:
-                save_json(path, data)
-
-    print(f"\nathletes/: filled {fixed_date} event_date, {fixed_src} event_src, "
-          f"overrode {fixed_override} wrong dates in {len(touched)} files (dry_run={dry_run})")
-    if unresolved:
-        print(f"UNRESOLVED rows left untouched: {len(unresolved)}")
-        for fp, i, field, hint in unresolved[:20]:
-            print(f"  {fp}[{i}] {field}: {hint}")
 
 
 def audit() -> None:
     empty_date = empty_src = 0
-    for path in sorted((ROOT / "athletes").glob("*.json")):
-        data = load_json(path)
-        for row in data.get("results", []):
-            if not row.get("event_date"):
+    for pattern in ("seasons/*/json/*.json",):
+        for path in sorted(ROOT.glob(pattern)):
+            if "imported" in path.parts:
+                continue
+            data = load_json(path)
+            if not (data.get("event_date") or "").strip():
                 empty_date += 1
-            if not row.get("event_src"):
+            if not (data.get("event_src") or "").strip():
                 empty_src += 1
-    print(f"AUDIT athletes/: empty event_date={empty_date}, empty event_src={empty_src}")
+    print(f"AUDIT seasons/: empty event_date={empty_date}, empty event_src={empty_src}")
 
 
 def main() -> None:
@@ -244,20 +155,9 @@ def main() -> None:
     args = ap.parse_args()
 
     print("== 1. Fix known source JSONs ==")
-    fixed_src_to_date, fixed_key_to_src = fix_sources(args.dry_run)
+    fix_sources(args.dry_run)
 
-    print("\n== 2. Scan all source JSONs for lookup maps ==")
-    src_to_date, key_to_src = build_source_maps()
-    # The just-fixed entries are authoritative even if a scan pass would skip
-    src_to_date.update(fixed_src_to_date)
-    key_to_src.update(fixed_key_to_src)
-    print(f"  src->date map: {len(src_to_date)} entries; "
-          f"(name,date)->src map: {len(key_to_src)} entries")
-
-    print("\n== 3. Propagate into athletes/ ==")
-    fix_athletes(src_to_date, key_to_src, args.dry_run)
-
-    print("\n== 4. Final audit ==")
+    print("\n== 2. Final audit ==")
     audit()
 
     return 0

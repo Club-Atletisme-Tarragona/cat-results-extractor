@@ -1,4 +1,4 @@
-"""Data contract tests: validate every JSON in seasons/, json/ and athletes/
+"""Data contract tests: validate every JSON in seasons/ (and legacy json/)
 against the documented output contract (AGENTS.md).
 
 These are regression guards over the whole dataset. They would have caught
@@ -126,97 +126,12 @@ class TestSourceFileContract(unittest.TestCase):
         )
 
 
-class TestAthleteFileContract(unittest.TestCase):
-    """Event fields live per ROW in athletes/ files (aggregated output)."""
-
-    @classmethod
-    def setUpClass(cls):
-        # Only per-athlete files: skip aggregator artifacts (index.json,
-        # _report.json, internal_id_report.json).
-        skip = {"index.json", "_report.json", "internal_id_report.json"}
-        cls.athlete_files = sorted(
-            p for p in glob.glob(str(REPO_ROOT / "athletes/*.json"))
-            if Path(p).name not in skip
-        )
-
-    def test_athletes_present(self):
-        self.assertGreater(len(self.athlete_files), 500)
-
-    def test_row_event_date_present_and_valid(self):
-        bad = []
-        for fp in self.athlete_files:
-            data = json.load(open(fp, encoding="utf-8"))
-            for i, row in enumerate(data.get("results", [])):
-                date = (row.get("event_date") or "").strip()
-                if not date or not valid_date(date):
-                    bad.append(f"{fp}[{i}] {date!r}")
-        self.assertEqual(bad, [], f"rows with missing/invalid event_date: {bad[:5]}")
-
-    def test_row_event_src_present_and_is_url(self):
-        bad = []
-        for fp in self.athlete_files:
-            data = json.load(open(fp, encoding="utf-8"))
-            for i, row in enumerate(data.get("results", [])):
-                src = (row.get("event_src") or "").strip()
-                if not src.startswith(("http://", "https://")):
-                    bad.append(f"{fp}[{i}] {src!r}")
-        self.assertEqual(bad, [], f"rows with missing/invalid event_src: {bad[:5]}")
-
-    def test_required_row_fields_non_empty(self):
-        bad = []
-        for fp in self.athlete_files:
-            data = json.load(open(fp, encoding="utf-8"))
-            for i, row in enumerate(data.get("results", [])):
-                for field in ("athlete_name", "performance", "discipline"):
-                    if not (row.get(field) or "").strip():
-                        bad.append(f"{fp}[{i}].{field}")
-        self.assertEqual(bad, [], f"rows missing required fields: {bad[:5]}")
-
-    def test_wind_format(self):
-        """wind is null or a signed decimal like +1.2 / -0.8 / 1.4."""
-        bad = []
-        for fp in self.athlete_files:
-            data = json.load(open(fp, encoding="utf-8"))
-            for i, row in enumerate(data.get("results", [])):
-                wind = row.get("wind")
-                if wind is not None and not WIND_RE.match(str(wind)):
-                    bad.append(f"{fp}[{i}] wind={wind!r}")
-        self.assertEqual(bad, [], f"rows with malformed wind: {bad[:5]}")
-
-    def test_no_wind_on_relays(self):
-        bad = []
-        for fp in self.athlete_files:
-            data = json.load(open(fp, encoding="utf-8"))
-            for i, row in enumerate(data.get("results", [])):
-                if row.get("wind") is not None and RELAY_RE.search(row.get("discipline", "")):
-                    bad.append(f"{fp}[{i}] {row.get('discipline')}")
-        self.assertEqual(bad, [], f"relay rows carrying wind: {bad[:5]}")
-
-    def test_integer_performances_only_for_combined_events(self):
-        """Pure integers <=3 digits are positions, not marks — except
-        combined-event points (AGENTS.md: Position numbers are NOT
-        performances)."""
-        bad = []
-        for fp in self.athlete_files:
-            data = json.load(open(fp, encoding="utf-8"))
-            for i, row in enumerate(data.get("results", [])):
-                perf = (row.get("performance") or "").strip()
-                disc = (row.get("discipline") or "").strip()
-                if perf.isdigit() and len(perf) <= 3 and not COMBINED_DISCIPLINE_RE.search(disc):
-                    bad.append(f"{fp}[{i}] {disc}={perf}")
-        self.assertEqual(bad, [], f"position-like performances outside combined events: {bad[:5]}")
-
-    def test_total_results_matches_list(self):
-        bad = []
-        for fp in self.athlete_files:
-            data = json.load(open(fp, encoding="utf-8"))
-            if data.get("total_results") != len(data.get("results", [])):
-                bad.append(fp)
-        self.assertEqual(bad, [], f"total_results mismatch: {bad[:5]}")
-
-
 class TestIssue20FixStaysFixed(unittest.TestCase):
-    """The issue #20 fixer must be a no-op on a healthy dataset."""
+    """The issue #20 fixer must be a no-op on a healthy dataset.
+
+    The `athletes/` aggregates were retired, so the fixer only maintains
+    season JSONs; a healthy tree reports zero empty event_date/event_src.
+    """
 
     def test_fixer_is_idempotent(self):
         proc = subprocess.run(
@@ -224,51 +139,10 @@ class TestIssue20FixStaysFixed(unittest.TestCase):
             cwd=REPO_ROOT, capture_output=True, text=True, timeout=120,
         )
         self.assertEqual(proc.returncode, 0, proc.stderr)
-        self.assertIn("filled 0 event_date, 0 event_src", proc.stdout)
-
-
-class TestAggregatorCharacterization(unittest.TestCase):
-    """Pin the current end-to-end aggregation behavior for one athlete.
-
-    If this test fails after an intentional change to merge/dedup rules,
-    update the expected numbers after reviewing the diff — they are the
-    characterization baseline (stored athletes/ files were built by older
-    pipeline versions and may legitimately differ).
-    """
-
-    ATHLETE = "PEP ALDAVE MAS"
-
-    def test_aggregation_reproducible_and_dated(self):
-        with tempfile.TemporaryDirectory() as tmp:
-            proc = subprocess.run(
-                [sys.executable, "scripts/aggregate_athletes.py",
-                 "--athlete", self.ATHLETE, "--output-dir", tmp],
-                cwd=REPO_ROOT, capture_output=True, text=True, timeout=300,
-            )
-            self.assertEqual(proc.returncode, 0, proc.stderr)
-            out = Path(tmp, "pep-aldave-mas.json")
-            self.assertTrue(out.exists(), "aggregator did not write the athlete file")
-            data = json.load(open(out, encoding="utf-8"))
-            # Baseline raised 106 -> 119 on 2026-11-19: regenerating the stale
-            # 2017-2024 season JSONs with the HEAD extractor recovered 13 more
-            # Aldave marks (2017 triple-salt attempts with winds and the 2018
-            # combined-events field series). Verified against the source PDFs:
-            # 2017 triple 10.05/9.66/10.17 with winds +3.2/+0.8/+0.2, 2018 LL
-            # 4.80/4.93/4.83, Pes 6.67/6.75/7.25, Alçada 1.37, Disc 16.23,
-            # Perxa 2.00. No duplicates; the one header-contaminated row
-            # (Perxa 2.00 stored as 'Decathlon Sub18') was corrected first.
-            # 119 -> 117: the pentatlo ghost rows (his Javelina/Disc marks
-            # stored as 'Llargada') were deleted in the era rework.
-            # 117 -> 121: issue #26 fail-layout merge recovered +4 Aldave
-            # rows from 2014/2015/2016 promocio sheets (no new height/track
-            # ghosts — those already sat in the season JSONs at 72966f5e).
-            # 121 -> 124: 2013 trobada tardor merge recovered his 60 m.ll.
-            # 9.72, 60 m.t. 11.62 and 600 m 2'07"28 (resultrobadatardorcambrils171112).
-            self.assertEqual(len(data["results"]), 124)
-            empty_dates = [r for r in data["results"] if not r.get("event_date")]
-            empty_srcs = [r for r in data["results"] if not r.get("event_src")]
-            self.assertEqual(empty_dates, [])
-            self.assertEqual(empty_srcs, [])
+        self.assertIn(
+            "AUDIT seasons/: empty event_date=0, empty event_src=0",
+            proc.stdout,
+        )
 
 
 if __name__ == "__main__":

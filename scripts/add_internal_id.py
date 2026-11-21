@@ -3,7 +3,6 @@
 
 Matching cascade (first hit wins), computed once per unique athlete name:
   1. exact normalized match (accents/punctuation stripped) vs "NOM COGNOMS" and "COGNOMS NOM"
-  2. variant resolution: PDF name -> canonical name via athletes/*/name_variants_found,
      then re-run the cascade on the canonical name
   3. unique token-subset match (all name tokens inside socis tokens)
   4. fuzzy match (difflib ratio) with abbreviation/nickname expansion and shared-token guard;
@@ -37,7 +36,6 @@ ATHLETE_ROSTER = ROOT / "socis_athletes.csv"
 # Former athletes (nom,cognoms,id,baixa): left the club but still appear in
 # historical results, so they must resolve to their socisCAT id too.
 FORMER_ATHLETES = ROOT / "socis_former_athletes.csv"
-ATHLETES_DIR = ROOT / "athletes"
 SEASONS_DIR = ROOT / "seasons"
 REPORTS_DIR = ROOT / "reports"
 
@@ -61,7 +59,7 @@ MANUAL_OVERRIDES = {
     # Bare-surname rows from resulcontrolcambrils240115 (24/01/2015); both clusters
     # could match two socis siblings, DOB/age-category evidence decides:
     #   JOSE DIAZ      -> Edgar (653, DOB 08/04/2002) fits Infantil 2015; Marc (294,
-    #                     DOB 1993) cannot be Infantil. See scripts/split_athlete_files.py
+    #                     DOB 1993) cannot be Infantil.
     #   MONTANES ARBO  -> Montserrat (497, DOB 22/02/2001) fits Cadet 2015;
     #                     Maria (354, DOB 1995) cannot be Cadet.
     "JOSE DIAZ": 653,
@@ -297,27 +295,6 @@ def parse_socis():
     return entries
 
 
-def load_athlete_variants():
-    """variant-normalized-name -> set of canonical names."""
-    variants = defaultdict(set)
-    for path in ATHLETES_DIR.glob("*.json"):
-        try:
-            d = json.loads(path.read_text(encoding="utf-8"))
-        except Exception:
-            continue
-        canon = d.get("athlete_name")
-        if not canon:
-            continue
-        for v in d.get("name_variants_found", []) or []:
-            n = normalize(v)
-            if n:
-                variants[n].add(canon)
-        n = normalize(canon)
-        if n:
-            variants[n].add(canon)
-    return variants
-
-
 # ---------------------------------------------------------------------------
 # Matcher
 # ---------------------------------------------------------------------------
@@ -512,8 +489,7 @@ def main():
     else:
         socis = socis_dump
     matcher = SocisMatcher(socis)
-    variants = load_athlete_variants()
-    print(f"socis: {len(socis)}  athlete files: {len(list(ATHLETES_DIR.glob('*.json')))}")
+    print(f"socis: {len(socis)}")
 
     decisions = {}  # normalized result name -> (id, strategy, detail)
 
@@ -531,15 +507,6 @@ def main():
             decisions[key] = (1, "manual_override_iborra", None)
             return decisions[key]
         rid, strat, detail = matcher.match(name)
-        if rid is None and strat in ("no_match", "ambiguous"):
-            # try resolving via athletes/ canonical names
-            for canon in sorted(variants.get(key, [])):
-                if normalize(canon) == key:
-                    continue
-                rid, strat, detail = matcher.match(canon)
-                if rid is not None:
-                    strat = f"variant:{strat}"
-                    break
         decisions[key] = (rid, strat, detail)
         return decisions[key]
 

@@ -1,4 +1,4 @@
-.PHONY: help venv process/all extract/remote extract athletes test
+.PHONY: help venv process/all extract/remote extract test
 
 # Prefer the repo-local venv (it carries xlrd) and fall back to the system
 # interpreter when the venv has not been created yet.
@@ -12,7 +12,6 @@ help:
 	@echo "  make process/all              Process all PDFs from federació XLS"
 	@echo "  make extract/remote URL=<>     Download and extract a remote PDF"
 	@echo "  make extract FILE=<>           Extract from a local PDF"
-	@echo "  make athletes                  Aggregate all athlete results into per-athlete JSONs"
 	@echo "  make test                      Run the test suite (unittest discover)"
 
 venv:
@@ -26,9 +25,6 @@ test:
 
 process/all:
 	$(PYTHON) process_all.py
-
-athletes:
-	python3 scripts/aggregate_athletes.py
 
 extract/remote:
 ifndef URL

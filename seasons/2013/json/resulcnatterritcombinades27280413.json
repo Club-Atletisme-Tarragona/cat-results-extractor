@@ -3,7 +3,7 @@
   "event_date": "28/04/2013",
   "event_location": "Cambrils",
   "event_src": "http://old.fcatletisme.cat/Promocio/promocio2013/resulcnatterritcombinades27280413.pdf",
-  "total_results": 16,
+  "total_results": 20,
   "results": [
     {
       "athlete_name": "JOSE MIGUEL MARTIN ALVAREZ",
@@ -179,6 +179,50 @@
       "performance": "21.46",
       "wind": null,
       "internal_id": 346,
+      "timing": "electronic"
+    },
+    {
+      "athlete_name": "JOSE MIGUEL MARTIN ALVAREZ",
+      "athlete_dob": "",
+      "athlete_id": "CT 12544",
+      "performance": "11.94",
+      "discipline": "100 METRES LLISOS",
+      "wind": null,
+      "position": null,
+      "raw_discipline_name": "100 METRES LLISOS",
+      "timing": "electronic"
+    },
+    {
+      "athlete_name": "PERE PARDINES GRAS",
+      "athlete_dob": "",
+      "athlete_id": "CT-9121",
+      "performance": "13.37",
+      "discipline": "100 METRES LLISOS",
+      "wind": null,
+      "position": null,
+      "raw_discipline_name": "100 METRES LLISOS",
+      "timing": "electronic"
+    },
+    {
+      "athlete_name": "MARIA ALVAREZ AUÑOS",
+      "athlete_dob": "",
+      "athlete_id": "CT-20448",
+      "performance": "18.75",
+      "discipline": "100 METRES TANQUES",
+      "wind": null,
+      "position": null,
+      "raw_discipline_name": "100 METRES TANQUES",
+      "timing": "electronic"
+    },
+    {
+      "athlete_name": "MARIA ALVAREZ AUÑOS",
+      "athlete_dob": "",
+      "athlete_id": "CT-20448",
+      "performance": "29.44",
+      "discipline": "200 METRES LLISOS",
+      "wind": null,
+      "position": null,
+      "raw_discipline_name": "200 METRES LLISOS",
       "timing": "electronic"
     }
   ],

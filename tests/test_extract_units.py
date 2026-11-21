@@ -535,6 +535,27 @@ class TestParseHeaderOnRealPdfs(unittest.TestCase):
         self.assertEqual(_header_year(data), 2016)
         self.assertEqual(loc.upper(), "AMPOSTA")
 
+    def test_fcat_filename_date_unlocks_headerless_trobada(self):
+        # resultrobadacatgui20416.pdf has no competition header — only
+        # result tables. parse_header returns empty date → era_year=0 and
+        # the empty-result fallback never runs even though parse_promocio
+        # finds ~29 CATT rows. Trailing FCAT digits encode the meeting
+        # date (20416 → 20/04/2016); prefer DDMyy over DMMYY when both
+        # are calendar-valid (issue #26 fail layouts — trobada/catgui).
+        from extract_catt import _date_from_fcat_filename, _header_year
+        self.assertEqual(
+            _date_from_fcat_filename("resultrobadacatgui20416.pdf"),
+            "20/04/2016")
+        self.assertEqual(
+            _header_year(_date_from_fcat_filename("resultrobadacatgui20416")),
+            2016)
+        self.assertEqual(
+            _date_from_fcat_filename("resultrobadatardorcambrils171112.pdf"),
+            "17/11/2012")
+        self.assertEqual(
+            _date_from_fcat_filename("resulcontrolterritamposta50316.pdf"),
+            "05/03/2016")
+
 
 class TestLocationNormalization(unittest.TestCase):
     """AGENTS.md — Location Normalization: Serrahima variants collapse to

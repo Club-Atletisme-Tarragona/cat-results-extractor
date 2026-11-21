@@ -58,6 +58,43 @@ def _header_year(event_date):
     return int(m.group(1)) if m else 0
 
 
+def _date_from_fcat_filename(path_or_stem):
+    """Recover meeting date from trailing FCAT filename digits.
+
+    Era Promoció/Trobada stems encode DDMMYY (6 digits) or a 5-digit form
+    that is either DDMyy or DMMYY. Headerless sheets such as
+    resultrobadacatgui20416.pdf have no competition date in the PDF text,
+    so era_year stays 0 and the empty-result fallback never runs even when
+    parse_promocio_series finds rows (issue #26 fail layouts).
+
+    When both 5-digit shapes are calendar-valid, prefer DDMyy (20416 →
+    20/04/2016, not 02/04/2016). Returns '' when no valid date is found.
+    """
+    from datetime import date as _date
+
+    stem = os.path.splitext(os.path.basename(str(path_or_stem or "")))[0]
+    m = re.search(r"(\d{5,6})$", stem)
+    if not m:
+        return ""
+    digits = m.group(1)
+    candidates = []
+    if len(digits) == 6:
+        candidates.append((int(digits[0:2]), int(digits[2:4]), 2000 + int(digits[4:6])))
+    else:
+        # Prefer DDMyy over DMMYY when both validate.
+        candidates.append((int(digits[0:2]), int(digits[2:3]), 2000 + int(digits[3:5])))
+        candidates.append((int(digits[0:1]), int(digits[1:3]), 2000 + int(digits[3:5])))
+    for day, month, year in candidates:
+        if not (2000 <= year <= 2035):
+            continue
+        try:
+            _date(year, month, day)
+        except ValueError:
+            continue
+        return f"{day:02d}/{month:02d}/{year}"
+    return ""
+
+
 def _quote_to_decimal(mark):
     """Normalize era quote / comma marks to dotted decimals.
 
@@ -4536,6 +4573,11 @@ def main():
     if not quiet:
         print("Parsing competition header...")
     competicio, ubicacio, localitat, data = parse_header(text)
+    # Headerless era sheets (e.g. resultrobadacatgui20416) carry the meeting
+    # date only in the FCAT filename; without it era_year stays 0 and the
+    # empty-result fallback never runs (issue #26 fail layouts).
+    if not data:
+        data = _date_from_fcat_filename(pdf_path)
     full_competicio = f"{competicio} - {ubicacio}" if ubicacio else competicio
     if not quiet:
         print(f"  Competicio: {competicio or '(no trobat)'}")

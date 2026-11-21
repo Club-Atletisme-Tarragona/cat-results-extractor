@@ -480,13 +480,16 @@ _VETERANS_HEADER_RE = re.compile(
     r"|AL[CÇ]ADA\b|LLARGADA\b|PERXA\b|TRIPLE\b).+)$",
     re.IGNORECASE,
 )
+# After M-50 / F-45 the MARCA column sits within a few spaces. A blank MARCA
+# leaves a wide gap before Seg/Ref (e.g. "M-45               1180,53"); those
+# later columns must never become the stored mark (issue #26).
 _VETERANS_ROW_RE = re.compile(
     r"((?:CL|CT)\s*\d+)\s+"
     r"(.+?)\s+"
     r"(\d{1,2}/\d{1,2}/\d{4})\s+"
     r"(CA\s*Tarragona|CATT)\s+"
     r"(\d{1,3})\s+"
-    r"([MFW])-(\d{2})\s+"
+    r"([MFW])-(\d{2})\s{1,8}"
     r"(\d{1,2}:\d{2}[.,]\d{1,2}|\d+[.,]\d+)",
     re.IGNORECASE,
 )
@@ -500,9 +503,10 @@ def _veterans_clean_name(raw):
 def parse_veterans_clubs(text):
     """CATT rows from clubs-veterans sheets; store MARCA only (never Ref/COEF/%).
 
-    Layout (2015/2016 Manresa/Mataró): after club comes Edat, Categ. (M-50),
-    then MARCA, then Ref / Percent / Posició / PUNTS. Taking any later column
-    invents age-graded ghosts (Alçada 2.15 from Ref). Issue #26 fail layouts.
+    Layout (2014–2016 clubs): after club comes Edat, Categ. (M-50), then MARCA,
+    then Ref / Percent / Posició / PUNTS. Taking any later column invents
+    age-graded ghosts (Alçada 2.15 from Ref). A blank MARCA leaves a wide gap
+    before Seg/Ref — those rows are skipped. Issue #26 fail layouts.
     """
     rows = []
     prova = ""

@@ -391,6 +391,25 @@ class TestPromocioSeriesFormat(unittest.TestCase):
         self.assertEqual([(r["marca"], r["prova"]) for r in martin],
                          [("1.70", "SALT D'ALÇADA MASCULÍ")])
 
+    def test_veterans_clubs_skips_empty_marca_seg_ref(self):
+        # When MARCA is blank the sheet leaves a wide gap before Seg/Ref
+        # (e.g. "M-45               1180,53"). Capturing that later column
+        # stores age-graded seconds as a 3000 m mark (issue #26).
+        import textwrap
+        text = textwrap.dedent("""
+        3000 METRES MASCULÍ
+        Sèrie Carrer Dorsal Llicència Nom Data Naix. Club Edat Categ. MARCA Ref. Percent. Posició PUNTS
+        12     10    CL 16079       ORTEGA RIDAO, PEDRO         12/10/1977 CA Tarragona        36    M-35    09:36,13   452,26   78,4996      10        3
+        12     10    CL 15201     FLORES MONTES, FERNANDO       17/06/1969 CA Tarragona        45    M-45               1180,53
+        """)
+        rows = parse_veterans_clubs(text)
+        marks = [(r["atleta_nom"].upper(), r["marca"]) for r in rows]
+        self.assertIn(("ORTEGA RIDAO PEDRO", "9:36.13"), marks)
+        self.assertFalse(
+            any(m == "1180.53" for _, m in marks),
+            f"empty-MARCA Seg/Ref must not become a mark: {marks}",
+        )
+
     def test_rejects_height_ghost_under_track(self):
         # Combined-event sheets leak Alçada (1.xx) into a hurdles/track
         # section; those must not become sprint/hurdle marks (issue #26).

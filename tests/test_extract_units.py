@@ -425,6 +425,30 @@ class TestPromocioSeriesFormat(unittest.TestCase):
             [("JAN SANS RIOLA", "6.80")],
         )
 
+    def test_veterans_clubs_marxa_header_starts_a_new_section(self):
+        # Issue #31: a "5000 MARXA" header must start a new section. When it
+        # does not, the race-walk rows inherit the previous section's
+        # discipline and a 25:32.97 walk is stored as a 400 m hurdles mark.
+        import textwrap
+        text = textwrap.dedent("""
+        400 METRES TANQUES MASCULÍ
+        Sèrie Carrer Dorsal Llicència Nom Data Naix. Club Edat Categ. MARCA Ref. Percent. Posició PUNTS
+         1      6      40    CT 9121      PARDINES GRAS, PERE       30/01/1965 CA Tarragona        51    M-50    01:08,80   58,24   84,6512      2        10
+        5000 MARXA MASCULÍ
+        Ordre Dorsal Llicència Nom Data Naix. Club Edat Categ. MARCA Ref. Percent. Posició PUNTS
+          1     40   CT 15201       FLORES MONTES, FERNANDO       17/06/1969 CA Tarragona        47    M-45    25:32,97   1199,99   78,2788      2        10
+        """)
+        rows = parse_veterans_clubs(text)
+        by_name = {r["atleta_nom"].upper(): (r["marca"], r["prova"]) for r in rows}
+        self.assertIn("PARDINES GRAS PERE", by_name)
+        self.assertIn("TANQUES", by_name["PARDINES GRAS PERE"][1].upper())
+        self.assertIn("FLORES MONTES FERNANDO", by_name)
+        marca, prova = by_name["FLORES MONTES FERNANDO"]
+        self.assertEqual(marca, "25:32.97")
+        self.assertIn("MARXA", prova.upper(),
+                      f"race-walk row kept the previous section: {prova!r}")
+        self.assertNotIn("TANQUES", prova.upper())
+
     def test_veterans_clubs_stores_marca_not_coef(self):
         # Clubs veterans sheets (2015/2016) print MARCA Ref Percent Pos PUNTS.
         # AGENTS.md: store MARCA only — never Ref/COEF/%. parse_promocio_series

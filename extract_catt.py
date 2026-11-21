@@ -479,8 +479,13 @@ def parse_conersys_combinadas(text):
 _VETERANS_HEADER_RE = re.compile(
     r"^\s*(?:RESULTATS\s+)?"
     r"((?:\d{1,4}\s*METRES?\b"
+    # Race walk: "5000 MARXA MASCULÍ" / "3000 MARCHA". Without this the
+    # header never starts a section and its rows inherit the previous one
+    # (a 25:32.97 walk was stored as a 400 m hurdles mark — issue #31).
+    r"|\d{1,4}\s*(?:MARX?A|MARCHA)\b"
     r"|SALT\s+(?:D['\u2019]?AL[CÇ]ADA|DE\s+LLARGADA|LLARGADA|AL[CÇ]ADA|PERXA)"
     r"|LLAN[CÇ]AMENT\s|PES\b|DISC\b|JAVELINA\b|MARTELL\b"
+    r"|MARX?A\b|MARCHA\b"
     r"|AL[CÇ]ADA\b|LLARGADA\b|PERXA\b|TRIPLE\b).+)$",
     re.IGNORECASE,
 )

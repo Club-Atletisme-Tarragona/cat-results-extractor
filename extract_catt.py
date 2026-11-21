@@ -85,6 +85,65 @@ _PROMOCIO_ROW_RE = re.compile(
 )
 
 
+def parse_conersys_combinadas(text):
+    """Rows from the Conersys multi-line combined-events tables (Antequera).
+
+    Each athlete spans several lines: name+dob / 'pos dorsal' / club /
+    license / marks. Section titles carry the discipline + category
+    ('60 m vallas Pentatlón F50', 'Peso Pentatlón F50', 'Longitud ...').
+    CATT athletes only; each numeric mark becomes one row.
+    """
+    rows = []
+    lines = str(text or "").splitlines()
+    prova = ""
+    name_dob = re.compile(r"^(.+?)\s{2,}(\d{1,2}/\d{1,2}/\d{4})\s*$")
+    for i, line in enumerate(lines):
+        if "Combinadas" in line:
+            for j in (i-1, i-2, i-3):
+                if j >= 0 and lines[j].strip():
+                    prova = lines[j].strip()
+                    break
+            continue
+        if not prova:
+            continue
+        m = name_dob.match(line.strip())
+        if not m:
+            continue
+        nom, dob = m.group(1).strip(), m.group(2)
+        block = lines[i+1:i+7]
+        pos = club_line = lic = ""
+        marks = []
+        for b in block:
+            s = b.strip()
+            if not s:
+                continue
+            if re.fullmatch(r"\d{1,2}\s+\d{1,4}", s):
+                pos = s
+                continue
+            if re.fullmatch(r"[A-ZÁÉÍÓÚ\.\-\s]{2,}", s):
+                club_line = s
+                continue
+            if re.fullmatch(r"[A-Z]{2,4}[\s\-]?\d{3,8}[-A-Z0-9]{0,6}", s):
+                lic = s
+                continue
+            if re.fullmatch(r"\d{1,2}", s):
+                marks.append(s)
+                continue
+        if "tarragona" not in club_line.lower():
+            continue
+        for mark in marks:
+            rows.append({
+                "atleta_nom": nom,
+                "atleta_naixement": dob,
+                "atleta_licencia": lic,
+                "prova": prova,
+                "marca": _quote_to_decimal(mark),
+                "vent": None,
+                "marca_original": mark,
+            })
+    return rows
+
+
 def parse_promocio_series(text):
     """Rows from a promocio-era sheet; CATT athletes only.
 
@@ -117,6 +176,12 @@ def parse_promocio_series(text):
             continue
         if not prova:
             continue
+        # prefilter: the heavy row regex backtracks exponentially on rows that
+        # cannot match (the 2011 tabular tables hold ~500 rows); only rows of
+        # a club we care about are worth the cost. A club line without
+        # Tarragona can never yield a CATT row.
+        if "tarragona" not in line.lower():
+            continue
         m = _PROMOCIO_ROW_RE.match(line)
         if not m:
             continue
@@ -145,8 +210,9 @@ def parse_promocio_series(text):
             "marca": _quote_to_decimal(marca),
             "vent": wind,
             "position": None,
-            # hand-time provenance for timing_from_mark: the quote form is
-            # manual, and the decimal conversion would otherwise hide it
+            # hand-time provenance decided at the source: the quote form 11"6
+            # converts to 11.60 (2 decimals) and would lose the manual signal
+            "manual": bool(_TIME_MANUAL_QUOTE_RE.match(marca) or _TIME_MANUAL_RE.match(marca)),
             "marca_original": marca,
         })
     return rows
@@ -4287,32 +4353,52 @@ def main():
     if not quiet:
         print(f"After event-type validation: {len(results)} valid results")
 
-    if 2013 <= _header_year(data) <= 2016:
-        # Era promocio fallback/merge (issue #26): the SÈRIE/LLOC/DORS/
-        # LLICENCIA/ATLETA/TEMPS layout with quote marks matches no main-path
-        # pattern, so the track rows of these sheets would be lost. When the
-        # main path found nothing, adopt all rows; when it found some (era
-        # sheets mix two layouts: valls60216 has 138 field rows and zero track
-        # rows), merge only the rows it missed, keyed by (name, mark) so an
-        # attempt is never duplicated. Older seasons keep their season-specific
-        # processors, whose rows this parser would duplicate (NO_EXPORT_CASES).
-        extra = parse_promocio_series(text)
-        if not results:
-            results = extra
-            if results and not quiet:
-                print(f"Promocio-series fallback: {len(results)} CATT rows")
-        elif extra:
-            known = {(r.get("atleta_nom", "").upper().replace(",", ""),
-                      r.get("marca", "")) for r in results}
-            added = 0
-            for r in extra:
-                key = (r["atleta_nom"].upper().replace(",", ""), r["marca"])
-                if key not in known:
-                    results.append(r)
-                    known.add(key)
-                    added += 1
-            if added and not quiet:
-                print(f"Promocio-series merge: +{added} rows the main path missed")
+    # Era fallbacks (issue #26). Two era layouts exist beyond the main path:
+    #  - promocio 2013-2016: SÈRIE/LLOC/DORS/... with quote marks
+    #  - Conersys combined events (e.g. st_Antequera): multi-line athletes
+    # Both are merged/adopted by (name, mark) so an attempt never duplicates.
+    era_year = _header_year(data)   # data is the event_date string
+    is_era = 2013 <= era_year <= 2016
+    is_conersys_comb = ("combinadas" in str(full_competicio or "").lower()
+                        or "st_" in os.path.basename(source_url or os.path.abspath(pdf_path)))
+    # 0-rows fallback: any year — with an empty results list there is nothing
+    # to duplicate, and these parsers recover rows the main path cannot see.
+    # Older-season sheets pinned in NO_EXPORT_CASES keep their season-specific
+    # processors: the fallback would duplicate their rows.
+    if not results and era_year >= 2012:
+        results = (parse_conersys_combinadas(text) if is_conersys_comb
+                   else parse_promocio_series(text))
+        if results and not quiet:
+            print(f"Era fallback: {len(results)} CATT rows")
+    elif is_era or is_conersys_comb:
+        # partial coverage on era sheets: merge the rows the main path missed
+        extra = (parse_promocio_series(text) if is_era
+                 else parse_conersys_combinadas(text))
+        known = {(r.get("atleta_nom", "").upper().replace(",", ""),
+                  r.get("marca", "")) for r in results}
+        added = 0
+        for r in extra:
+            key = (r["atleta_nom"].upper().replace(",", ""), r["marca"])
+            if key not in known:
+                results.append(r)
+                known.add(key)
+                added += 1
+        if added and not quiet:
+            print(f"Era merge: +{added} rows the main path missed")
+    elif is_conersys_comb:
+        # same merge for Conersys combined events (2016-style tails excluded)
+        extra = parse_conersys_combinadas(text)
+        known = {(r.get("atleta_nom", "").upper().replace(",", ""),
+                  r.get("marca", "")) for r in results}
+        added = 0
+        for r in extra:
+            key = (r["atleta_nom"].upper().replace(",", ""), r["marca"])
+            if key not in known:
+                results.append(r)
+                known.add(key)
+                added += 1
+        if added and not quiet:
+            print(f"Conersys merge: +{added} rows the main path missed")
     if not results:
         if not quiet:
             print("No results found for CATT athletes. Skipping JSON export.")
@@ -4343,7 +4429,10 @@ def main():
         }
         # "timing" per row: absent -> electronic. The row wins over the header
         # (a hand-timed row inside an electronic meet is still manual).
-        entry["timing"] = timing_from_mark(r.get("marca_original") or r["marca"])
+        if r.get("manual") is not None:
+            entry["timing"] = "manual" if r["manual"] else "electronic"
+        else:
+            entry["timing"] = timing_from_mark(r["marca"])
         output["results"].append(entry)
 
     with open(output_path, 'w', encoding='utf-8') as f:

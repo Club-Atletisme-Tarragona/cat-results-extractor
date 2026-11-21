@@ -849,17 +849,7 @@
     "strategy": "exact",
     "detail": null
   },
-  "ARJONA GALLEGO ANGEL": {
-    "internal_id": null,
-    "strategy": "no_match",
-    "detail": null
-  },
   "ARJONA GALLEGO IRENE": {
-    "internal_id": null,
-    "strategy": "no_match",
-    "detail": null
-  },
-  "ARJONA GALLEGO NEREA": {
     "internal_id": null,
     "strategy": "no_match",
     "detail": null
@@ -1139,11 +1129,6 @@
     "strategy": "exact",
     "detail": null
   },
-  "BLANCH MORRISSEY MARIAN": {
-    "internal_id": null,
-    "strategy": "no_match",
-    "detail": null
-  },
   "BLANCO CALATRAVA FERRAN": {
     "internal_id": null,
     "strategy": "no_match",
@@ -1254,11 +1239,6 @@
     "strategy": "no_match",
     "detail": null
   },
-  "BUENO UBEDA LEYRE": {
-    "internal_id": null,
-    "strategy": "no_match",
-    "detail": null
-  },
   "BUENO UBEDA ZAIRA": {
     "internal_id": 846,
     "strategy": "exact",
@@ -1325,11 +1305,6 @@
     "detail": null
   },
   "C T SANCHEZ ARASA MARC": {
-    "internal_id": null,
-    "strategy": "no_match",
-    "detail": null
-  },
-  "C T SANCHEZ MONTORO SOFIA": {
     "internal_id": null,
     "strategy": "no_match",
     "detail": null
@@ -1568,16 +1543,6 @@
     "internal_id": 1066,
     "strategy": "fuzzy",
     "detail": 0.982
-  },
-  "CET ALVARO BLANCO JULIA": {
-    "internal_id": null,
-    "strategy": "no_match",
-    "detail": null
-  },
-  "CET JURADO VAZQUEZ RAUL": {
-    "internal_id": null,
-    "strategy": "no_match",
-    "detail": null
   },
   "CET MARTINEZ PONS ANGELA": {
     "internal_id": null,
@@ -2539,11 +2504,6 @@
     "strategy": "exact",
     "detail": null
   },
-  "FLORES PINAS JERONI": {
-    "internal_id": 1036,
-    "strategy": "exact",
-    "detail": null
-  },
   "FLORES PINAS MARINA": {
     "internal_id": null,
     "strategy": "no_match",
@@ -2701,11 +2661,6 @@
   },
   "GARCIA SOLER JAUME": {
     "internal_id": 215,
-    "strategy": "exact",
-    "detail": null
-  },
-  "GARCIA TORNE PATRICIA": {
-    "internal_id": 1000,
     "strategy": "exact",
     "detail": null
   },
@@ -4229,11 +4184,6 @@
     "strategy": "no_match",
     "detail": null
   },
-  "LEYRE BUENO UBEDA": {
-    "internal_id": null,
-    "strategy": "no_match",
-    "detail": null
-  },
   "LEYRE ORTEGA MATEU": {
     "internal_id": null,
     "strategy": "no_match",
@@ -5557,11 +5507,6 @@
     "strategy": "fuzzy",
     "detail": 0.957
   },
-  "OLAH ZAMORA REBECA": {
-    "internal_id": null,
-    "strategy": "no_match",
-    "detail": null
-  },
   "OLAV WEISS MATIAS": {
     "internal_id": null,
     "strategy": "no_match",
@@ -5713,11 +5658,6 @@
     "detail": null
   },
   "OSCAR NAVARRO BRAVO": {
-    "internal_id": null,
-    "strategy": "no_match",
-    "detail": null
-  },
-  "OT PEGO MONTANE": {
     "internal_id": null,
     "strategy": "no_match",
     "detail": null
@@ -6062,11 +6002,6 @@
     "strategy": "exact",
     "detail": null
   },
-  "PLEGUEZUELOS GARCIA RAQUEL": {
-    "internal_id": 1038,
-    "strategy": "exact",
-    "detail": null
-  },
   "POL AIXALA GUIU": {
     "internal_id": 733,
     "strategy": "exact",
@@ -6340,11 +6275,6 @@
   "ROS BORRELL XAVIER": {
     "internal_id": 439,
     "strategy": "exact",
-    "detail": null
-  },
-  "ROS BORRELL XAVIER JVM": {
-    "internal_id": 439,
-    "strategy": "tolerant",
     "detail": null
   },
   "ROS CAMPAS NARCIS": {
@@ -6862,24 +6792,9 @@
     "strategy": "no_match",
     "detail": null
   },
-  "TRAMIT BLANCO CALATRAVA FERRAN": {
-    "internal_id": null,
-    "strategy": "no_match",
-    "detail": null
-  },
-  "TRAMIT BLANCO CALATRAVA NACHO": {
-    "internal_id": null,
-    "strategy": "no_match",
-    "detail": null
-  },
   "TRAMIT BONNIN OBACH DAVID": {
     "internal_id": 710,
     "strategy": "tolerant",
-    "detail": null
-  },
-  "TRAMIT BUENO UBEDA LEYRE": {
-    "internal_id": null,
-    "strategy": "no_match",
     "detail": null
   },
   "TRAMIT CARDENOSA RAMOS PAULA": {
@@ -6892,52 +6807,12 @@
     "strategy": "tolerant",
     "detail": null
   },
-  "TRAMIT COLOMINA FIGUEROLA CARLA": {
-    "internal_id": null,
-    "strategy": "no_match",
-    "detail": null
-  },
-  "TRAMIT COSANO FUENTES TEILA": {
-    "internal_id": null,
-    "strategy": "no_match",
-    "detail": null
-  },
-  "TRAMIT DELGADO VILAR DACIL": {
-    "internal_id": null,
-    "strategy": "no_match",
-    "detail": null
-  },
-  "TRAMIT DRITSAKIS RUBIO ALEXIA": {
-    "internal_id": null,
-    "strategy": "no_match",
-    "detail": null
-  },
-  "TRAMIT FLORES PINAS JERONI": {
-    "internal_id": 1036,
-    "strategy": "tolerant",
-    "detail": null
-  },
   "TRAMIT FONTS ANGUERA ELIA": {
     "internal_id": 729,
     "strategy": "tolerant",
     "detail": null
   },
-  "TRAMIT GARCIA MUR DIANA": {
-    "internal_id": 1081,
-    "strategy": "tolerant",
-    "detail": null
-  },
-  "TRAMIT GARCIA TORNE PATRICIA": {
-    "internal_id": 1000,
-    "strategy": "tolerant",
-    "detail": null
-  },
   "TRAMIT GEORGIEV NIKOLAY ASENOV": {
-    "internal_id": null,
-    "strategy": "no_match",
-    "detail": null
-  },
-  "TRAMIT GOMEZ ARRATE LUCIA": {
     "internal_id": null,
     "strategy": "no_match",
     "detail": null
@@ -6957,27 +6832,12 @@
     "strategy": "tolerant",
     "detail": null
   },
-  "TRAMIT IZAGA DERIU QUIMEY": {
-    "internal_id": null,
-    "strategy": "no_match",
-    "detail": null
-  },
   "TRAMIT LABRASSI SARA": {
     "internal_id": null,
     "strategy": "no_match",
     "detail": null
   },
   "TRAMIT MARTINEZ BUTRON MARIA": {
-    "internal_id": null,
-    "strategy": "no_match",
-    "detail": null
-  },
-  "TRAMIT MILA VILALTA ALBA": {
-    "internal_id": 473,
-    "strategy": "tolerant",
-    "detail": null
-  },
-  "TRAMIT MORENO RIBERA GUILLEM": {
     "internal_id": null,
     "strategy": "no_match",
     "detail": null
@@ -7002,27 +6862,12 @@
     "strategy": "no_match",
     "detail": null
   },
-  "TRAMIT PEGO MONTANE OT": {
-    "internal_id": null,
-    "strategy": "no_match",
-    "detail": null
-  },
   "TRAMIT PELICANO SANCHIS MARINA": {
     "internal_id": 641,
     "strategy": "tolerant",
     "detail": null
   },
-  "TRAMIT RODRIGUEZ ARTIGAS JUDIT": {
-    "internal_id": null,
-    "strategy": "no_match",
-    "detail": null
-  },
   "TRAMIT ROZAS BELLIDO MARC": {
-    "internal_id": null,
-    "strategy": "no_match",
-    "detail": null
-  },
-  "TRAMIT ROZAS BELLIDO PAU": {
     "internal_id": null,
     "strategy": "no_match",
     "detail": null
@@ -7042,19 +6887,9 @@
     "strategy": "tolerant",
     "detail": null
   },
-  "TRAMIT SANCHEZ ARASA MARC": {
-    "internal_id": null,
-    "strategy": "no_match",
-    "detail": null
-  },
   "TRAMIT SOLE BARBA LAURA YAN": {
     "internal_id": 701,
     "strategy": "tolerant",
-    "detail": null
-  },
-  "TRAMIT TORRES RIONE JANA": {
-    "internal_id": null,
-    "strategy": "no_match",
     "detail": null
   },
   "TRAMIT VALDES PELLISE DANIEL": {

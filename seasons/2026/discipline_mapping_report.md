@@ -5,8 +5,8 @@ Heights/weights follow the FCA *Proves autoritzades* tables (stable for the 2005
 combined events resolved per athlete from the PDF birth-year column.
 
 - files: 109
-- results: 3634
-- mapped: 3634
+- results: 3632
+- mapped: 3632
 - review (left unchanged): 0
 
 | count | raw discipline | official discipline |
@@ -711,8 +711,6 @@ combined events resolved per athlete from the PDF birth-year column.
 | 1 | `Longitud M75` | `Llargada` |
 | 1 | `Longitud Mujeres PC Master F55` | `Llargada` |
 | 1 | `Longitud Mujeres PC U14F` | `Llargada` |
-| 1 | `Longitud Pentatlón F50` | `Llargada` |
-| 1 | `Longitud Pentatlón F65` | `Llargada` |
 | 1 | `Maratón Marcha Hombres` | `Marató Marxa (Ruta)` |
 | 1 | `Maratón Marcha Hombres Master` | `Marató Marxa (Ruta)` |
 | 1 | `Maratón Marcha Hombres Master M55` | `Marató Marxa (Ruta)` |

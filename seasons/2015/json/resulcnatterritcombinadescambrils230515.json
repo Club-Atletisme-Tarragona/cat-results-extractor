@@ -3,7 +3,7 @@
   "event_date": "23/05/2015",
   "event_location": "Cambrils",
   "event_src": "http://old.fcatletisme.cat/Pairelliure/2015/resulcnatterritcombinadescambrils230515.pdf",
-  "total_results": 202,
+  "total_results": 208,
   "results": [
     {
       "athlete_name": "ROBERT ROMANÍ SUAREZ",
@@ -2226,6 +2226,78 @@
       "wind": null,
       "internal_id": null,
       "timing": "electronic"
+    },
+    {
+      "athlete_name": "PERE PARDINES GRAS",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "NP",
+      "discipline": "Disc Màster                                   1,5 kg",
+      "wind": null,
+      "position": null,
+      "raw_discipline_name": "Disc Màster                                   1,5 kg",
+      "timing": "electronic",
+      "internal_id": 71
+    },
+    {
+      "athlete_name": "NIL PINYOL MATEU",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "19,17",
+      "discipline": "80 METRES TANQUES",
+      "wind": null,
+      "position": null,
+      "raw_discipline_name": "80 METRES TANQUES",
+      "timing": "electronic",
+      "internal_id": 714
+    },
+    {
+      "athlete_name": "POL MASCARELL JULIÁN",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "10,48",
+      "discipline": "60 METRES LLISOS",
+      "wind": null,
+      "position": null,
+      "raw_discipline_name": "60 METRES LLISOS",
+      "timing": "electronic",
+      "internal_id": 646
+    },
+    {
+      "athlete_name": "ORIOL ALDAVE FORÈS",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "11,15",
+      "discipline": "60 METRES LLISOS",
+      "wind": null,
+      "position": null,
+      "raw_discipline_name": "60 METRES LLISOS",
+      "timing": "electronic",
+      "internal_id": 746
+    },
+    {
+      "athlete_name": "MARC ROZAS BELLIDO",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "11,93",
+      "discipline": "60 METRES LLISOS",
+      "wind": null,
+      "position": null,
+      "raw_discipline_name": "60 METRES LLISOS",
+      "timing": "electronic",
+      "internal_id": null
+    },
+    {
+      "athlete_name": "ORIOL ALDAVE FORÈS",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "1,03",
+      "discipline": "LLANÇAMENT DE PES",
+      "wind": null,
+      "position": null,
+      "raw_discipline_name": "LLANÇAMENT DE PES",
+      "timing": "electronic",
+      "internal_id": 746
     }
   ],
   "is_short_track": false

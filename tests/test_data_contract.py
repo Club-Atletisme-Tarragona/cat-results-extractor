@@ -257,7 +257,9 @@ class TestAggregatorCharacterization(unittest.TestCase):
             # 4.80/4.93/4.83, Pes 6.67/6.75/7.25, Alçada 1.37, Disc 16.23,
             # Perxa 2.00. No duplicates; the one header-contaminated row
             # (Perxa 2.00 stored as 'Decathlon Sub18') was corrected first.
-            self.assertEqual(len(data["results"]), 119)
+            # 119 -> 117: the pentatlo ghost rows (his Javelina/Disc marks
+            # stored as 'Llargada') were deleted in the era rework.
+            self.assertEqual(len(data["results"]), 117)
             empty_dates = [r for r in data["results"] if not r.get("event_date")]
             empty_srcs = [r for r in data["results"] if not r.get("event_src")]
             self.assertEqual(empty_dates, [])

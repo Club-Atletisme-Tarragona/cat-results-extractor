@@ -185,7 +185,7 @@
         "event_date": "24/05/2014"
       }
     ],
-    "refs_total": 20
+    "refs_total": 19
   },
   {
     "athlete_name": "ALANIS DE LAS HERAS RUIZ",
@@ -199,6 +199,44 @@
         "event_date": "28/11/2015"
       }
     ]
+  },
+  {
+    "athlete_name": "ALBA TORRES RIONE",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2016/json/resulcontrolnastic281115.json",
+        "discipline": "600 metres llisos",
+        "performance": "2:27.50",
+        "event_date": "28/11/2015"
+      },
+      {
+        "file": "seasons/2016/json/resulcontrolnastic281115.json",
+        "discipline": "Llargada",
+        "performance": "2.47",
+        "event_date": "28/11/2015"
+      },
+      {
+        "file": "seasons/2016/json/resulterritcombinadescambrils300410516.json",
+        "discipline": "Pes (2 Kg)",
+        "performance": "4.03",
+        "event_date": "30/04/2016"
+      },
+      {
+        "file": "seasons/2016/json/resulterritcombinadescambrils300410516.json",
+        "discipline": "Pes (2 Kg)",
+        "performance": "4.29",
+        "event_date": "30/04/2016"
+      },
+      {
+        "file": "seasons/2016/json/resulterritcombinadescambrils300410516.json",
+        "discipline": "Pes (2 Kg)",
+        "performance": "4.13",
+        "event_date": "30/04/2016"
+      }
+    ],
+    "refs_total": 29
   },
   {
     "athlete_name": "ALBESA COPETE",
@@ -849,44 +887,6 @@
     ]
   },
   {
-    "athlete_name": "Alba Torres Rione",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2015/json/resultrofeunastic70315.json",
-        "discipline": "1000 metres llisos",
-        "performance": "4:51.10",
-        "event_date": "7/3/2015"
-      },
-      {
-        "file": "seasons/2016/json/resulcontrolnastic281115.json",
-        "discipline": "600 metres llisos",
-        "performance": "2:27.50",
-        "event_date": "28/11/2015"
-      },
-      {
-        "file": "seasons/2016/json/resulcontrolnastic281115.json",
-        "discipline": "Llargada",
-        "performance": "2.47",
-        "event_date": "28/11/2015"
-      },
-      {
-        "file": "seasons/2016/json/resulterritcombinadescambrils300410516.json",
-        "discipline": "Pes (2 Kg)",
-        "performance": "4.03",
-        "event_date": "30/04/2016"
-      },
-      {
-        "file": "seasons/2016/json/resulterritcombinadescambrils300410516.json",
-        "discipline": "Pes (2 Kg)",
-        "performance": "4.29",
-        "event_date": "30/04/2016"
-      }
-    ],
-    "refs_total": 30
-  },
-  {
     "athlete_name": "Aleix Ferre Olive",
     "strategy": "no_match",
     "candidates": null,
@@ -1123,18 +1123,6 @@
         "discipline": "SALT DE LLARGADA                             ALEVI FEMENÍ",
         "performance": "2,57",
         "event_date": "20/12/2014"
-      },
-      {
-        "file": "seasons/2015/json/resultrofeunastic70315.json",
-        "discipline": "2000 METRES LLISOS ALEVÍ FEMENÍ",
-        "performance": "9:31.50",
-        "event_date": "7/3/2015"
-      },
-      {
-        "file": "seasons/2015/json/resultrofeunastic70315.json",
-        "discipline": "PES                ALEVI FEMENÍ",
-        "performance": "4,09",
-        "event_date": "7/3/2015"
       }
     ]
   },
@@ -1160,21 +1148,8 @@
         "discipline": "SALT DE LLARGADA                                     BENJAMI FEMENÍ",
         "performance": "2,34",
         "event_date": "20/12/2014"
-      },
-      {
-        "file": "seasons/2015/json/resultrofeunastic70315.json",
-        "discipline": "60 METRES LLISOS                            BENJAMI FEMENÍ",
-        "performance": "12.00",
-        "event_date": "7/3/2015"
-      },
-      {
-        "file": "seasons/2015/json/resultrofeunastic70315.json",
-        "discipline": "1000 METRES LLISOS                             BENJAMI FEMENÍ",
-        "performance": "5:14.90",
-        "event_date": "7/3/2015"
       }
-    ],
-    "refs_total": 6
+    ]
   },
   {
     "athlete_name": "Ana Ferré Ayuso",
@@ -1532,31 +1507,6 @@
     "refs_total": 38
   },
   {
-    "athlete_name": "Arjona Gallego, Angel",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2015/json/resultrofeunastic70315.json",
-        "discipline": "80 METRES LLISOS INFANTIL MASCULÍ",
-        "performance": "13.20",
-        "event_date": "7/3/2015"
-      },
-      {
-        "file": "seasons/2015/json/resultrofeunastic70315.json",
-        "discipline": "SALT DE LLARGADA                          INFANTIL MASCULÍ",
-        "performance": "3,06",
-        "event_date": "7/3/2015"
-      },
-      {
-        "file": "seasons/2015/json/resultrofeunastic70315.json",
-        "discipline": "DISC                            INFANTIL MASCULÍ",
-        "performance": "14,42",
-        "event_date": "7/3/2015"
-      }
-    ]
-  },
-  {
     "athlete_name": "Arjona Gallego, Irene",
     "strategy": "no_match",
     "candidates": null,
@@ -1566,25 +1516,6 @@
         "discipline": "MARTELL CADET - JUVENIL FEMENÍ (3 KG.)",
         "performance": "23,62",
         "event_date": "17/06/2015"
-      }
-    ]
-  },
-  {
-    "athlete_name": "Arjona Gallego, Nerea",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2015/json/resultrofeunastic70315.json",
-        "discipline": "60 METRES TANQUES                         ALEVI FEMENÍ",
-        "performance": "13.10",
-        "event_date": "7/3/2015"
-      },
-      {
-        "file": "seasons/2015/json/resultrofeunastic70315.json",
-        "discipline": "PES                ALEVI FEMENÍ",
-        "performance": "3,29",
-        "event_date": "7/3/2015"
       }
     ]
   },
@@ -1865,7 +1796,7 @@
         "event_date": "17/05/2014"
       }
     ],
-    "refs_total": 18
+    "refs_total": 17
   },
   {
     "athlete_name": "BERNAD JIMENEZ, ANDREA",
@@ -1965,19 +1896,6 @@
         "discipline": "60 METRES LLISOS CADET - ABSOLUT FEMENÍ",
         "performance": "9.90",
         "event_date": "28/11/2015"
-      }
-    ]
-  },
-  {
-    "athlete_name": "BUENO UBEDA LEYRE",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2015/json/resultrofeunastic70315.json",
-        "discipline": "Llargada",
-        "performance": "1.84",
-        "event_date": "7/3/2015"
       }
     ]
   },
@@ -2185,25 +2103,6 @@
     ]
   },
   {
-    "athlete_name": "Blanch Morrissey, Marian",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2014/json/resulcontrolcgt240514.json",
-        "discipline": "MARTELL FEMENÍ ( 4 kg,)",
-        "performance": "45,63",
-        "event_date": "24/05/2014"
-      },
-      {
-        "file": "seasons/2014/json/resulcontrolcgt240514.json",
-        "discipline": "DISC FEMENÍ ( 1 KG.)",
-        "performance": "34,75",
-        "event_date": "24/05/2014"
-      }
-    ]
-  },
-  {
     "athlete_name": "Blanco Calatrava, Nacho",
     "strategy": "no_match",
     "candidates": null,
@@ -2227,19 +2126,19 @@
         "event_date": "10/05/2015"
       },
       {
-        "file": "seasons/2015/json/resultrofeunastic70315.json",
-        "discipline": "Llargada",
-        "performance": "2.45",
-        "event_date": "7/3/2015"
-      },
-      {
         "file": "seasons/2016/json/resulcontrolcambrils300116.json",
         "discipline": "60 m.ll. Benjamí Masculí",
         "performance": "10.50",
         "event_date": "30/01/2016"
+      },
+      {
+        "file": "seasons/2016/json/resulcontrolcambrils300116.json",
+        "discipline": "800 m.ll. Absolut Masculí",
+        "performance": "4:06.70",
+        "event_date": "30/01/2016"
       }
     ],
-    "refs_total": 15
+    "refs_total": 14
   },
   {
     "athlete_name": "Blanco Calatrava, ferran",
@@ -2310,18 +2209,6 @@
         "event_date": "17/05/2014"
       },
       {
-        "file": "seasons/2014/json/resulcontrolcgt240514.json",
-        "discipline": "60 METRES LLISOS                          BENJAMI FEMENÍ",
-        "performance": "10.70",
-        "event_date": "24/05/2014"
-      },
-      {
-        "file": "seasons/2014/json/resulcontrolcgt240514.json",
-        "discipline": "SALT D'ALÇADA BENJAMI FEMENÍ",
-        "performance": "0,85",
-        "event_date": "24/05/2014"
-      },
-      {
         "file": "seasons/2014/json/resulterritsub13equipstgna250114.json",
         "discipline": "SALT DE LLARGADA                            BENJAMI FEMENÍ",
         "performance": "2,81",
@@ -2332,9 +2219,21 @@
         "discipline": "600 METRES LLISOS                         ALEVI FEMENÍ",
         "performance": "12,68",
         "event_date": "31/05/2015"
+      },
+      {
+        "file": "seasons/2015/json/resultrofeunastic201214.json",
+        "discipline": "SALT DE LLARGADA                             ALEVI FEMENÍ",
+        "performance": "2,79",
+        "event_date": "20/12/2014"
+      },
+      {
+        "file": "seasons/2016/json/resulcontrolnastic281115.json",
+        "discipline": "60 METRES LLISOS                           ALEVI FEMENÍ",
+        "performance": "10.60",
+        "event_date": "28/11/2015"
       }
     ],
-    "refs_total": 13
+    "refs_total": 8
   },
   {
     "athlete_name": "Blau Doblas Roque",
@@ -2367,31 +2266,31 @@
         "event_date": "17/05/2014"
       },
       {
-        "file": "seasons/2014/json/resulcontrolcgt240514.json",
-        "discipline": "60 METRES TANQUES                         ALEVI FEMENÍ",
-        "performance": "10.40",
-        "event_date": "24/05/2014"
-      },
-      {
-        "file": "seasons/2014/json/resulcontrolcgt240514.json",
-        "discipline": "600 METRES LLISOS                    ALEVI FEMENÍ",
-        "performance": "2:01.70",
-        "event_date": "24/05/2014"
-      },
-      {
-        "file": "seasons/2014/json/resulcontrolcgt240514.json",
-        "discipline": "SALT DE LLARGADA                        ALEVI FEMENÍ",
-        "performance": "3,30",
-        "event_date": "24/05/2014"
-      },
-      {
         "file": "seasons/2015/json/resulcontrolcgt100515.json",
         "discipline": "80 METRES LLISOS INFANTIL FEMENÍ",
         "performance": "12.00",
         "event_date": "10/05/2015"
+      },
+      {
+        "file": "seasons/2015/json/resulcontrolcgt100515.json",
+        "discipline": "150 METRES LLISOS                          INFANTIL FEMENÍ",
+        "performance": "22.40",
+        "event_date": "10/05/2015"
+      },
+      {
+        "file": "seasons/2015/json/resulcontrolcgt100515.json",
+        "discipline": "SALT DE LLARGADA                           INFANTIL FEMENÍ",
+        "performance": "3,97",
+        "event_date": "10/05/2015"
+      },
+      {
+        "file": "seasons/2015/json/resultrofeunastic201214.json",
+        "discipline": "60 METRES LLISOS                                INFANTIL FEMENÍ",
+        "performance": "8.20",
+        "event_date": "20/12/2014"
       }
     ],
-    "refs_total": 13
+    "refs_total": 9
   },
   {
     "athlete_name": "Boada Bergada, Jana",
@@ -2429,7 +2328,7 @@
         "event_date": "20/12/2014"
       }
     ],
-    "refs_total": 11
+    "refs_total": 9
   },
   {
     "athlete_name": "Bonnin Obach, Hector",
@@ -2690,19 +2589,6 @@
     ]
   },
   {
-    "athlete_name": "C.E.T. Sanchez Montoro, Sofia",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2014/json/resulcontrolcgt240514.json",
-        "discipline": "SALT DE LLARGADA PREBENJAMI MASCULÍ FEMENÍ",
-        "performance": "1,40",
-        "event_date": "24/05/2014"
-      }
-    ]
-  },
-  {
     "athlete_name": "C.E.T. Unai Gómez Sánchez",
     "strategy": "no_match",
     "candidates": null,
@@ -2903,44 +2789,6 @@
         "discipline": "600 METRES LLISOS                       ALEVI MASCULÍ",
         "performance": "2:19.80",
         "event_date": "28/11/2015"
-      }
-    ]
-  },
-  {
-    "athlete_name": "CET Alvaro Blanco, Julia",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2014/json/resulcontrolcgt240514.json",
-        "discipline": "60 METRES LLISOS PREBENJAMI MASCULÍ - FEMENI",
-        "performance": "11.80",
-        "event_date": "24/05/2014"
-      },
-      {
-        "file": "seasons/2014/json/resulcontrolcgt240514.json",
-        "discipline": "300 METRES LLISOS PREBENJAMI FEMENÍ - MASCULÍ",
-        "performance": "1:13.50",
-        "event_date": "24/05/2014"
-      }
-    ]
-  },
-  {
-    "athlete_name": "CET Jurado Vàzquez, Raul",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2014/json/resulcontrolcgt240514.json",
-        "discipline": "60 METRES LLISOS PREBENJAMI MASCULÍ - FEMENI",
-        "performance": "11.10",
-        "event_date": "24/05/2014"
-      },
-      {
-        "file": "seasons/2014/json/resulcontrolcgt240514.json",
-        "discipline": "300 METRES LLISOS PREBENJAMI FEMENÍ - MASCULÍ",
-        "performance": "1:05.30",
-        "event_date": "24/05/2014"
       }
     ]
   },
@@ -3191,13 +3039,13 @@
         "event_date": "31/05/2015"
       },
       {
-        "file": "seasons/2015/json/resultrofeunastic70315.json",
-        "discipline": "80 METRES LLISOS INFANTIL FEMENÍ",
-        "performance": "11.40",
-        "event_date": "7/3/2015"
+        "file": "seasons/2016/json/resulcontrolnastic281115.json",
+        "discipline": "60 METRES LLISOS CADET - ABSOLUT FEMENÍ",
+        "performance": "8.70",
+        "event_date": "28/11/2015"
       }
     ],
-    "refs_total": 10
+    "refs_total": 7
   },
   {
     "athlete_name": "Camelia Gabriela Canu",
@@ -3658,8 +3506,7 @@
         "performance": "8,79",
         "event_date": "31/05/2015"
       }
-    ],
-    "refs_total": 8
+    ]
   },
   {
     "athlete_name": "Cristina Reyes",
@@ -3735,7 +3582,7 @@
         "event_date": "23/05/2015"
       }
     ],
-    "refs_total": 17
+    "refs_total": 14
   },
   {
     "athlete_name": "DANIEL PIERA MARTINEZ",
@@ -3787,12 +3634,6 @@
         "event_date": "25/04/2015"
       },
       {
-        "file": "seasons/2015/json/resultrofeunastic70315.json",
-        "discipline": "1000 metres llisos",
-        "performance": "5:23.00",
-        "event_date": "7/3/2015"
-      },
-      {
         "file": "seasons/2016/json/resulcatbenjamiprevia210516.json",
         "discipline": "1000 METRES MARXA BENJAMI MASCULI",
         "performance": "9:12.33",
@@ -3809,9 +3650,15 @@
         "discipline": "2000 METRES MARXA ALEVI MASCULI",
         "performance": "17:49.95",
         "event_date": "13/05/2017"
+      },
+      {
+        "file": "seasons/2018/json/resultat-20180113-controlgenercambrils.json",
+        "discipline": "60 metres llisos",
+        "performance": "12.12",
+        "event_date": "13/01/2018"
       }
     ],
-    "refs_total": 18
+    "refs_total": 17
   },
   {
     "athlete_name": "DAVID BONIN BACH",
@@ -4112,24 +3959,6 @@
     "candidates": null,
     "refs": [
       {
-        "file": "seasons/2014/json/resulcontrolcgt240514.json",
-        "discipline": "60 METRES LLISOS                            ALEVI FEMENÍ",
-        "performance": "8.70",
-        "event_date": "24/05/2014"
-      },
-      {
-        "file": "seasons/2014/json/resulcontrolcgt240514.json",
-        "discipline": "600 METRES LLISOS                    ALEVI FEMENÍ",
-        "performance": "2:09.50",
-        "event_date": "24/05/2014"
-      },
-      {
-        "file": "seasons/2014/json/resulcontrolcgt240514.json",
-        "discipline": "SALT DE LLARGADA                        ALEVI FEMENÍ",
-        "performance": "3,21",
-        "event_date": "24/05/2014"
-      },
-      {
         "file": "seasons/2015/json/resulcnatterrittarragona230515.json",
         "discipline": "SALT DE LLARGADA                            INFANTIL FEMENÍ",
         "performance": "3,88",
@@ -4140,9 +3969,27 @@
         "discipline": "80 METRES LLISOS INFANTIL FEMENÍ",
         "performance": "11.00",
         "event_date": "10/05/2015"
+      },
+      {
+        "file": "seasons/2015/json/resulcontrolcgt100515.json",
+        "discipline": "150 METRES LLISOS                          INFANTIL FEMENÍ",
+        "performance": "21.70",
+        "event_date": "10/05/2015"
+      },
+      {
+        "file": "seasons/2015/json/resulcontrolcgt100515.json",
+        "discipline": "SALT DE LLARGADA                           INFANTIL FEMENÍ",
+        "performance": "3,86",
+        "event_date": "10/05/2015"
+      },
+      {
+        "file": "seasons/2015/json/resulcontrolnastic310515.json",
+        "discipline": "80 METRES LLISOS INFANTIL FEMENÍ",
+        "performance": "11.00",
+        "event_date": "31/05/2015"
       }
     ],
-    "refs_total": 19
+    "refs_total": 13
   },
   {
     "athlete_name": "Diego Cuadros Cobo",
@@ -4517,7 +4364,7 @@
         "event_date": "20/12/2014"
       }
     ],
-    "refs_total": 9
+    "refs_total": 6
   },
   {
     "athlete_name": "Elattar Zizane, Oualid",
@@ -5690,25 +5537,25 @@
         "event_date": "17/05/2014"
       },
       {
-        "file": "seasons/2014/json/resulcontrolcgt240514.json",
-        "discipline": "60 METRES LLISOS                            ALEVI FEMENÍ",
-        "performance": "9.20",
-        "event_date": "24/05/2014"
+        "file": "seasons/2015/json/resulcnatterrittarragona230515.json",
+        "discipline": "SALT D'ALÇADA                                                          ALEVI FEMENÍ",
+        "performance": "1,05",
+        "event_date": "23/05/2015"
       },
       {
-        "file": "seasons/2014/json/resulcontrolcgt240514.json",
-        "discipline": "600 METRES LLISOS                    ALEVI FEMENÍ",
-        "performance": "2:12.00",
-        "event_date": "24/05/2014"
+        "file": "seasons/2015/json/resulcontrolcgt100515.json",
+        "discipline": "60 METRES TANQUES                            ALEVI FEMENÍ",
+        "performance": "10.90",
+        "event_date": "10/05/2015"
       },
       {
-        "file": "seasons/2014/json/resulcontrolcgt240514.json",
-        "discipline": "SALT DE LLARGADA                        ALEVI FEMENÍ",
-        "performance": "3,37",
-        "event_date": "24/05/2014"
+        "file": "seasons/2015/json/resulcontrolnastic310515.json",
+        "discipline": "60 METRES LLISOS                             ALEVI FEMENÍ",
+        "performance": "9.00",
+        "event_date": "31/05/2015"
       }
     ],
-    "refs_total": 24
+    "refs_total": 18
   },
   {
     "athlete_name": "Gisela Hornet Bazan",
@@ -5767,12 +5614,6 @@
     "candidates": null,
     "refs": [
       {
-        "file": "seasons/2014/json/resulcontrolcgt240514.json",
-        "discipline": "MARTELL FEMENÍ ( 4 kg,)",
-        "performance": "35,40",
-        "event_date": "24/05/2014"
-      },
-      {
         "file": "seasons/2015/json/resultrofeunadalnastic131214.json",
         "discipline": "MARTELL ABSOLUT FEMENÍ ( 4 kg,)",
         "performance": "25,87",
@@ -5822,7 +5663,7 @@
         "event_date": "31/05/2015"
       }
     ],
-    "refs_total": 11
+    "refs_total": 8
   },
   {
     "athlete_name": "Gomez Salado, Eric",
@@ -6137,12 +5978,6 @@
         "discipline": "Llargada",
         "performance": "3.40",
         "event_date": "20/12/2014"
-      },
-      {
-        "file": "seasons/2015/json/resultrofeunastic70315.json",
-        "discipline": "Alçada",
-        "performance": "1.25",
-        "event_date": "7/3/2015"
       },
       {
         "file": "seasons/2016/json/resulcontrolnastic281115.json",
@@ -6807,14 +6642,46 @@
         "discipline": "SALT DE LLARGADA                         PREBENJAMI- MINI MASCULÍ",
         "performance": "1,51",
         "event_date": "10/05/2015"
-      },
-      {
-        "file": "seasons/2015/json/resultrofeunastic70315.json",
-        "discipline": "Llargada",
-        "performance": "1.90",
-        "event_date": "7/3/2015"
       }
     ]
+  },
+  {
+    "athlete_name": "JANA TORRES RIONE",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2016/json/resulcontrolnastic281115.json",
+        "discipline": "600 metres llisos",
+        "performance": "2:27.30",
+        "event_date": "28/11/2015"
+      },
+      {
+        "file": "seasons/2016/json/resulcontrolnastic281115.json",
+        "discipline": "Llargada",
+        "performance": "2.56",
+        "event_date": "28/11/2015"
+      },
+      {
+        "file": "seasons/2016/json/resulterritcombinadescambrils300410516.json",
+        "discipline": "Pes (2 Kg)",
+        "performance": "3.25",
+        "event_date": "30/04/2016"
+      },
+      {
+        "file": "seasons/2016/json/resulterritcombinadescambrils300410516.json",
+        "discipline": "Pes (2 Kg)",
+        "performance": "3.92",
+        "event_date": "30/04/2016"
+      },
+      {
+        "file": "seasons/2016/json/resulterritcombinadescambrils300410516.json",
+        "discipline": "Pes (2 Kg)",
+        "performance": "3.35",
+        "event_date": "30/04/2016"
+      }
+    ],
+    "refs_total": 28
   },
   {
     "athlete_name": "JIMENEZ COSANO MARCOS",
@@ -7408,44 +7275,6 @@
     ]
   },
   {
-    "athlete_name": "Jana Torres Rioné",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2015/json/resultrofeunastic70315.json",
-        "discipline": "1000 metres llisos",
-        "performance": "4:51.40",
-        "event_date": "7/3/2015"
-      },
-      {
-        "file": "seasons/2016/json/resulcontrolnastic281115.json",
-        "discipline": "600 metres llisos",
-        "performance": "2:27.30",
-        "event_date": "28/11/2015"
-      },
-      {
-        "file": "seasons/2016/json/resulcontrolnastic281115.json",
-        "discipline": "Llargada",
-        "performance": "2.56",
-        "event_date": "28/11/2015"
-      },
-      {
-        "file": "seasons/2016/json/resulterritcombinadescambrils300410516.json",
-        "discipline": "Pes (2 Kg)",
-        "performance": "3.25",
-        "event_date": "30/04/2016"
-      },
-      {
-        "file": "seasons/2016/json/resulterritcombinadescambrils300410516.json",
-        "discipline": "Pes (2 Kg)",
-        "performance": "3.92",
-        "event_date": "30/04/2016"
-      }
-    ],
-    "refs_total": 29
-  },
-  {
     "athlete_name": "Jasna Guim Postoyalkova",
     "strategy": "no_match",
     "candidates": null,
@@ -7763,16 +7592,10 @@
     ]
   },
   {
-    "athlete_name": "Judit Rodríguez Artigas",
+    "athlete_name": "Judit Rodriguez Artigas",
     "strategy": "no_match",
     "candidates": null,
     "refs": [
-      {
-        "file": "seasons/2015/json/resultrofeunastic70315.json",
-        "discipline": "300 metres llisos",
-        "performance": "1:17.00",
-        "event_date": "7/3/2015"
-      },
       {
         "file": "seasons/2016/json/resulcatbenjamiprevia210516.json",
         "discipline": "1000 METRES MARXA BENJAMI FEMENI",
@@ -8589,19 +8412,6 @@
     ]
   },
   {
-    "athlete_name": "Leyre Bueno Ubeda",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2015/json/resultrofeunastic70315.json",
-        "discipline": "300 metres llisos",
-        "performance": "1:22.40",
-        "event_date": "7/3/2015"
-      }
-    ]
-  },
-  {
     "athlete_name": "Leyre Ortega Mateu",
     "strategy": "no_match",
     "candidates": null,
@@ -8675,7 +8485,7 @@
         "event_date": "16/02/2013"
       }
     ],
-    "refs_total": 30
+    "refs_total": 29
   },
   {
     "athlete_name": "Lilla Cabeo Visegradi",
@@ -8936,7 +8746,7 @@
         "event_date": "25/04/2015"
       }
     ],
-    "refs_total": 17
+    "refs_total": 16
   },
   {
     "athlete_name": "MARTINA SALVADÓ MONTALBÁN",
@@ -9152,37 +8962,24 @@
     "candidates": null,
     "refs": [
       {
-        "file": "seasons/2014/json/resulcontrolcgt240514.json",
-        "discipline": "60 METRES LLISOS                            ALEVI FEMENÍ",
-        "performance": "9.20",
-        "event_date": "24/05/2014"
-      },
-      {
-        "file": "seasons/2014/json/resulcontrolcgt240514.json",
-        "discipline": "600 METRES LLISOS                    ALEVI FEMENÍ",
-        "performance": "2:11.70",
-        "event_date": "24/05/2014"
-      },
-      {
-        "file": "seasons/2014/json/resulcontrolcgt240514.json",
-        "discipline": "SALT DE LLARGADA                        ALEVI FEMENÍ",
-        "performance": "3,00",
-        "event_date": "24/05/2014"
-      },
-      {
         "file": "seasons/2014/json/resulterritsub13equipstgna250114.json",
         "discipline": "SALT DE LLARGADA                            ALEVI FEMENÍ",
         "performance": "2,99",
         "event_date": "25/01/2014"
       },
       {
-        "file": "seasons/2015/json/resultrofeunastic70315.json",
-        "discipline": "60 METRES TANQUES                         ALEVI FEMENÍ",
-        "performance": "10.20",
-        "event_date": "7/3/2015"
+        "file": "seasons/2016/json/resulcontrolnastic281115.json",
+        "discipline": "SALT DE LLARGADA                            INFANTIL FEMENÍ",
+        "performance": "3,88",
+        "event_date": "28/11/2015"
+      },
+      {
+        "file": "seasons/2016/json/resulcontrolvalls60216.json",
+        "discipline": "60 m.ll. Infantil Femení",
+        "performance": "8.60",
+        "event_date": "06/02/2016"
       }
-    ],
-    "refs_total": 9
+    ]
   },
   {
     "athlete_name": "Macias Alcañiz, Nina",
@@ -9795,24 +9592,6 @@
     "candidates": null,
     "refs": [
       {
-        "file": "seasons/2014/json/resulcontrolcgt240514.json",
-        "discipline": "60 METRES LLISOS                            ALEVI FEMENÍ",
-        "performance": "9.30",
-        "event_date": "24/05/2014"
-      },
-      {
-        "file": "seasons/2014/json/resulcontrolcgt240514.json",
-        "discipline": "60 METRES TANQUES                         ALEVI FEMENÍ",
-        "performance": "11.20",
-        "event_date": "24/05/2014"
-      },
-      {
-        "file": "seasons/2014/json/resulcontrolcgt240514.json",
-        "discipline": "600 METRES LLISOS                    ALEVI FEMENÍ",
-        "performance": "2:10.30",
-        "event_date": "24/05/2014"
-      },
-      {
         "file": "seasons/2015/json/resulcontrolcgt100515.json",
         "discipline": "80 METRES LLISOS INFANTIL FEMENÍ",
         "performance": "12.50",
@@ -9823,9 +9602,14 @@
         "discipline": "SALT DE LLARGADA                           INFANTIL FEMENÍ",
         "performance": "3,57",
         "event_date": "10/05/2015"
+      },
+      {
+        "file": "seasons/2015/json/resultrofeunastic201214.json",
+        "discipline": "60 METRES LLISOS                                INFANTIL FEMENÍ",
+        "performance": "9.10",
+        "event_date": "20/12/2014"
       }
-    ],
-    "refs_total": 6
+    ]
   },
   {
     "athlete_name": "Mat DE HAAS",
@@ -10003,7 +9787,7 @@
         "event_date": "5/4/2014"
       }
     ],
-    "refs_total": 19
+    "refs_total": 18
   },
   {
     "athlete_name": "Mireia Viera",
@@ -10116,15 +9900,8 @@
         "discipline": "SALT DE LLARGADA                              INFANTIL FEMENÍ",
         "performance": "3,17",
         "event_date": "20/12/2014"
-      },
-      {
-        "file": "seasons/2015/json/resultrofeunastic70315.json",
-        "discipline": "80 METRES LLISOS INFANTIL FEMENÍ",
-        "performance": "12.10",
-        "event_date": "7/3/2015"
       }
-    ],
-    "refs_total": 7
+    ]
   },
   {
     "athlete_name": "Moya Azabal, Hana",
@@ -10194,19 +9971,18 @@
         "event_date": "31/05/2015"
       },
       {
-        "file": "seasons/2015/json/resultrofeunastic70315.json",
-        "discipline": "80 METRES LLISOS INFANTIL FEMENÍ",
-        "performance": "11.00",
-        "event_date": "7/3/2015"
+        "file": "seasons/2016/json/resulcontrolnastic281115.json",
+        "discipline": "60 METRES LLISOS CADET - ABSOLUT FEMENÍ",
+        "performance": "8.40",
+        "event_date": "28/11/2015"
       },
       {
-        "file": "seasons/2015/json/resultrofeunastic70315.json",
-        "discipline": "150 METRES LLISOS                        INFANTIL FEMENÍ",
-        "performance": "21.40",
-        "event_date": "7/3/2015"
+        "file": "seasons/2016/json/resulcontrolnastic281115.json",
+        "discipline": "SALT D'ALÇADA FEMENINA",
+        "performance": "8,81",
+        "event_date": "28/11/2015"
       }
-    ],
-    "refs_total": 8
+    ]
   },
   {
     "athlete_name": "Muñoz Marcos, Ainara",
@@ -10271,12 +10047,6 @@
     "candidates": null,
     "refs": [
       {
-        "file": "seasons/2015/json/resultrofeunastic70315.json",
-        "discipline": "300 metres llisos",
-        "performance": "1:10.10",
-        "event_date": "7/3/2015"
-      },
-      {
         "file": "seasons/2017/json/resultat-20170514-catclubsbenjami.json",
         "discipline": "SALT D'ALÇADA BENJAMI MASCULI",
         "performance": "1.00",
@@ -10299,9 +10069,15 @@
         "discipline": "600 metres llisos",
         "performance": "2:16.63",
         "event_date": "13/01/2018"
+      },
+      {
+        "file": "seasons/2018/json/resultat-20180113-controlgenercambrils.json",
+        "discipline": "Llargada",
+        "performance": "3.32",
+        "event_date": "13/01/2018"
       }
     ],
-    "refs_total": 14
+    "refs_total": 13
   },
   {
     "athlete_name": "Nahim Oulad Cabeza",
@@ -10989,25 +10765,6 @@
     ]
   },
   {
-    "athlete_name": "Olah Zamora, Rebeca",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2014/json/resulcontrolcgt240514.json",
-        "discipline": "SALT DE LLARGADA FEMENINA",
-        "performance": "4,17",
-        "event_date": "24/05/2014"
-      },
-      {
-        "file": "seasons/2014/json/resulcontrolcgt240514.json",
-        "discipline": "MARTELL (3 KG.)                    CADET - JUVENIL FEMENÍ",
-        "performance": "27,91",
-        "event_date": "24/05/2014"
-      }
-    ]
-  },
-  {
     "athlete_name": "Olav Weiss Matias",
     "strategy": "no_match",
     "candidates": null,
@@ -11242,19 +10999,6 @@
         "discipline": "1.500m Abs MASC. AL",
         "performance": "4:32.21",
         "event_date": "21/02/2021"
-      }
-    ]
-  },
-  {
-    "athlete_name": "Ot Pego Montané",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2015/json/resultrofeunastic70315.json",
-        "discipline": "300 metres llisos",
-        "performance": "1:04.50",
-        "event_date": "7/3/2015"
       }
     ]
   },
@@ -11764,12 +11508,6 @@
     "candidates": null,
     "refs": [
       {
-        "file": "seasons/2015/json/resultrofeunastic70315.json",
-        "discipline": "300 metres llisos",
-        "performance": "1:15.70",
-        "event_date": "7/3/2015"
-      },
-      {
         "file": "seasons/2018/json/resultat-20180113-controlgenercambrils.json",
         "discipline": "60 metres llisos",
         "performance": "10.97",
@@ -11938,12 +11676,6 @@
         "discipline": "SALT DE LLARGADA                         PREBENJAMI- MINI MASCULÍ",
         "performance": "1,88",
         "event_date": "10/05/2015"
-      },
-      {
-        "file": "seasons/2015/json/resultrofeunastic70315.json",
-        "discipline": "Llargada",
-        "performance": "2.20",
-        "event_date": "7/3/2015"
       }
     ]
   },
@@ -11991,12 +11723,6 @@
     "candidates": null,
     "refs": [
       {
-        "file": "seasons/2014/json/resulcontrolcgt240514.json",
-        "discipline": "60 METRES LLISOS BENJAMÍ - MASCULÍ",
-        "performance": "9.70",
-        "event_date": "24/05/2014"
-      },
-      {
         "file": "seasons/2015/json/resulcnatterrittarragona230515.json",
         "discipline": "DISC (600 gr.)                 ALEVI MASCULÍ",
         "performance": "25,51",
@@ -12019,21 +11745,21 @@
         "discipline": "600 METRES LLISOS                         ALEVI FEMENÍ",
         "performance": "27,95",
         "event_date": "31/05/2015"
+      },
+      {
+        "file": "seasons/2015/json/resultrofeunastic201214.json",
+        "discipline": "60 METRES LLISOS                             ALEVI MASCULÍ",
+        "performance": "9.50",
+        "event_date": "20/12/2014"
       }
     ],
-    "refs_total": 14
+    "refs_total": 10
   },
   {
     "athlete_name": "Peralta Ruiz, Valentina",
     "strategy": "no_match",
     "candidates": null,
     "refs": [
-      {
-        "file": "seasons/2014/json/resulcontrolcgt240514.json",
-        "discipline": "SALT DE LLARGADA                        ALEVI FEMENÍ",
-        "performance": "13,39",
-        "event_date": "24/05/2014"
-      },
       {
         "file": "seasons/2015/json/resulcnatterrittarragona230515.json",
         "discipline": "MARTELL                        INFANTIL FEMENÍ",
@@ -12051,27 +11777,14 @@
         "discipline": "DISC                               INFANTIL FEMENÍ",
         "performance": "21,49",
         "event_date": "31/05/2015"
-      },
-      {
-        "file": "seasons/2015/json/resultrofeunastic70315.json",
-        "discipline": "80 METRES LLISOS INFANTIL FEMENÍ",
-        "performance": "13.00",
-        "event_date": "7/3/2015"
       }
-    ],
-    "refs_total": 7
+    ]
   },
   {
     "athlete_name": "Peralta Valenzuela, Francisco M.",
     "strategy": "no_match",
     "candidates": null,
     "refs": [
-      {
-        "file": "seasons/2014/json/resulcontrolcgt240514.json",
-        "discipline": "DISC MASCULÍ (2 KG.)",
-        "performance": "39,93",
-        "event_date": "24/05/2014"
-      },
       {
         "file": "seasons/2015/json/resultrofeunastic140215.json",
         "discipline": "MARTELL ABSOLUT MASCULÍ (7,260 Kg.)",
@@ -12367,16 +12080,10 @@
     "refs_total": 12
   },
   {
-    "athlete_name": "RODRÍGUEZ ARTIGAS JUDIT",
+    "athlete_name": "RODRIGUEZ ARTIGAS JUDIT",
     "strategy": "no_match",
     "candidates": null,
     "refs": [
-      {
-        "file": "seasons/2015/json/resultrofeunastic70315.json",
-        "discipline": "Llargada",
-        "performance": "1.77",
-        "event_date": "7/3/2015"
-      },
       {
         "file": "seasons/2016/json/resulterritpromotarragona140516.json",
         "discipline": "Alçada",
@@ -12427,26 +12134,7 @@
         "event_date": "08/02/2014"
       }
     ],
-    "refs_total": 18
-  },
-  {
-    "athlete_name": "ROZAS BELLIDO PAU",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2015/json/resultrofeunastic70315.json",
-        "discipline": "Llargada",
-        "performance": "1.48",
-        "event_date": "7/3/2015"
-      },
-      {
-        "file": "seasons/2016/json/resulterritpromovalls230416.json",
-        "discipline": "60 m.ll. Benjamí Masculí",
-        "performance": "11.75",
-        "event_date": "23/04/2016"
-      }
-    ]
+    "refs_total": 17
   },
   {
     "athlete_name": "RUBÉN PAREDES LARIO",
@@ -12586,18 +12274,6 @@
         "event_date": "17/05/2014"
       },
       {
-        "file": "seasons/2014/json/resulcontrolcgt240514.json",
-        "discipline": "60 METRES LLISOS                          BENJAMI FEMENÍ",
-        "performance": "10.40",
-        "event_date": "24/05/2014"
-      },
-      {
-        "file": "seasons/2014/json/resulcontrolcgt240514.json",
-        "discipline": "SALT D'ALÇADA BENJAMI FEMENÍ",
-        "performance": "0,80",
-        "event_date": "24/05/2014"
-      },
-      {
         "file": "seasons/2014/json/resulterritsub13equipstgna250114.json",
         "discipline": "SALT DE LLARGADA                            BENJAMI FEMENÍ (Continuació)",
         "performance": "2,22",
@@ -12608,9 +12284,21 @@
         "discipline": "1000 METRES MARXA                              BENJAMI FEMENÍ",
         "performance": "13,87",
         "event_date": "10/05/2015"
+      },
+      {
+        "file": "seasons/2015/json/resulcontrolcgt100515.json",
+        "discipline": "60 METRES LLISOS                         BENJAMÍ - PREBENJAMI – MINI FEMENÍ",
+        "performance": "10.40",
+        "event_date": "10/05/2015"
+      },
+      {
+        "file": "seasons/2015/json/resulcontrolnastic310515.json",
+        "discipline": "60 METRES LLISOS                             BENJAMI FEMENÍ",
+        "performance": "10.00",
+        "event_date": "31/05/2015"
       }
     ],
-    "refs_total": 18
+    "refs_total": 13
   },
   {
     "athlete_name": "Rihana Martos",
@@ -12762,8 +12450,20 @@
         "performance": "3,38",
         "event_date": "20/12/2014"
       }
-    ],
-    "refs_total": 6
+    ]
+  },
+  {
+    "athlete_name": "Rozas Bellido, Pau",
+    "strategy": "no_match",
+    "candidates": null,
+    "refs": [
+      {
+        "file": "seasons/2016/json/resulterritpromovalls230416.json",
+        "discipline": "60 m.ll. Benjamí Masculí",
+        "performance": "11.75",
+        "event_date": "23/04/2016"
+      }
+    ]
   },
   {
     "athlete_name": "Rozas Belliedo, Pau",
@@ -12999,24 +12699,6 @@
     "candidates": null,
     "refs": [
       {
-        "file": "seasons/2014/json/resulcontrolcgt240514.json",
-        "discipline": "60 METRES TANQUES                         ALEVI MASCULÍ",
-        "performance": "11.10",
-        "event_date": "24/05/2014"
-      },
-      {
-        "file": "seasons/2014/json/resulcontrolcgt240514.json",
-        "discipline": "600 METRES LLISOS                    ALEVI MASCULÍ",
-        "performance": "2:13.40",
-        "event_date": "24/05/2014"
-      },
-      {
-        "file": "seasons/2014/json/resulcontrolcgt240514.json",
-        "discipline": "SALT DE LLARGADA                          ALEVI MASCULÍ",
-        "performance": "2,76",
-        "event_date": "24/05/2014"
-      },
-      {
         "file": "seasons/2015/json/resulcnatterrittarragona230515.json",
         "discipline": "DISC (600 gr.)                 ALEVI MASCULÍ",
         "performance": "11,41",
@@ -13027,9 +12709,27 @@
         "discipline": "SALT D'ALÇADA                                                  ALEVI MASCULÍ",
         "performance": "1,10",
         "event_date": "23/05/2015"
+      },
+      {
+        "file": "seasons/2015/json/resulcontrolnastic310515.json",
+        "discipline": "60 METRES LLISOS                             ALEVI MASCULÍ",
+        "performance": "9.50",
+        "event_date": "31/05/2015"
+      },
+      {
+        "file": "seasons/2015/json/resulcontrolnastic310515.json",
+        "discipline": "600 METRES LLISOS                       ALEVI MASCULÍ",
+        "performance": "2:02.60",
+        "event_date": "31/05/2015"
+      },
+      {
+        "file": "seasons/2016/json/resulcontrolnastic281115.json",
+        "discipline": "60 METRES LLISOS                          INFANTIL MASCULÍ",
+        "performance": "9.60",
+        "event_date": "28/11/2015"
       }
     ],
-    "refs_total": 10
+    "refs_total": 7
   },
   {
     "athlete_name": "Sanchez Arasa, Maria",
@@ -13061,13 +12761,13 @@
         "event_date": "20/12/2014"
       },
       {
-        "file": "seasons/2015/json/resultrofeunastic70315.json",
-        "discipline": "60 METRES TANQUES                         ALEVI FEMENÍ",
-        "performance": "11.70",
-        "event_date": "7/3/2015"
+        "file": "seasons/2016/json/resulcontrolnastic281115.json",
+        "discipline": "600 METRES LLISOS                       INFANTIL FEMENÍ",
+        "performance": "2:09.80",
+        "event_date": "28/11/2015"
       }
     ],
-    "refs_total": 12
+    "refs_total": 9
   },
   {
     "athlete_name": "Sanchez Eraso, Hugo",
@@ -13087,25 +12787,25 @@
         "event_date": "17/05/2014"
       },
       {
-        "file": "seasons/2014/json/resulcontrolcgt240514.json",
-        "discipline": "60 METRES LLISOS                             ALEVI MASCULÍ",
-        "performance": "9.80",
-        "event_date": "24/05/2014"
+        "file": "seasons/2014/json/resulterritsub13equipstgna250114.json",
+        "discipline": "SALT D'ALÇADA                             INFANTIL MASCULÍ",
+        "performance": "1,21",
+        "event_date": "25/01/2014"
       },
       {
-        "file": "seasons/2014/json/resulcontrolcgt240514.json",
-        "discipline": "60 METRES TANQUES                         ALEVI MASCULÍ",
-        "performance": "11.20",
-        "event_date": "24/05/2014"
+        "file": "seasons/2015/json/resulcnatterrittarragona230515.json",
+        "discipline": "DISC (600 gr.)                 ALEVI MASCULÍ",
+        "performance": "17,16",
+        "event_date": "23/05/2015"
       },
       {
-        "file": "seasons/2014/json/resulcontrolcgt240514.json",
-        "discipline": "600 METRES LLISOS                    ALEVI MASCULÍ",
-        "performance": "2:02.10",
-        "event_date": "24/05/2014"
+        "file": "seasons/2015/json/resulcnatterrittarragona230515.json",
+        "discipline": "SALT D'ALÇADA                                                  ALEVI MASCULÍ",
+        "performance": "1,22",
+        "event_date": "23/05/2015"
       }
     ],
-    "refs_total": 21
+    "refs_total": 15
   },
   {
     "athlete_name": "Santapau Rojals, Joel",
@@ -13991,18 +13691,6 @@
         "discipline": "SALT DE LLARGADA BENJAMI FEMENÍ",
         "performance": "17,58",
         "event_date": "17/05/2014"
-      },
-      {
-        "file": "seasons/2014/json/resulcontrolcgt240514.json",
-        "discipline": "60 METRES LLISOS                          BENJAMI FEMENÍ",
-        "performance": "11.60",
-        "event_date": "24/05/2014"
-      },
-      {
-        "file": "seasons/2014/json/resulcontrolcgt240514.json",
-        "discipline": "SALT D'ALÇADA BENJAMI FEMENÍ",
-        "performance": "0,85",
-        "event_date": "24/05/2014"
       }
     ]
   },
@@ -14022,18 +13710,6 @@
         "discipline": "SALT DE LLARGADA BENJAMI FEMENÍ",
         "performance": "8,66",
         "event_date": "17/05/2014"
-      },
-      {
-        "file": "seasons/2014/json/resulcontrolcgt240514.json",
-        "discipline": "SALT D'ALÇADA BENJAMI FEMENÍ",
-        "performance": "0,75",
-        "event_date": "24/05/2014"
-      },
-      {
-        "file": "seasons/2014/json/resulcontrolcgt240514.json",
-        "discipline": "SALT DE LLARGADA PREBENJAMI MASCULÍ FEMENÍ",
-        "performance": "2,39",
-        "event_date": "24/05/2014"
       }
     ]
   },
@@ -14082,69 +13758,6 @@
     ]
   },
   {
-    "athlete_name": "tramit Blanco Calatrava, Ferrán",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2015/json/resultrofeunastic70315.json",
-        "discipline": "60 METRES LLISOS                                        PREBENJAMÍ MASCULÍ",
-        "performance": "13.00",
-        "event_date": "7/3/2015"
-      }
-    ]
-  },
-  {
-    "athlete_name": "tramit Blanco Calatrava, Nacho",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2015/json/resultrofeunastic70315.json",
-        "discipline": "60 METRES LLISOS                                        PREBENJAMÍ MASCULÍ",
-        "performance": "12.00",
-        "event_date": "7/3/2015"
-      },
-      {
-        "file": "seasons/2015/json/resultrofeunastic70315.json",
-        "discipline": "300 METRES LLISOS                           PREBENJAMÍ MASCULÍ",
-        "performance": "1:10.10",
-        "event_date": "7/3/2015"
-      },
-      {
-        "file": "seasons/2015/json/resultrofeunastic70315.json",
-        "discipline": "SALT DE LLARGADA                      PREBENJAMÍ MASCULÍ",
-        "performance": "2,45",
-        "event_date": "7/3/2015"
-      }
-    ]
-  },
-  {
-    "athlete_name": "tramit Bueno Ubeda, Leyre",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2015/json/resultrofeunastic70315.json",
-        "discipline": "60 METRES LLISOS                                PREBENJAMÍ FEMENÍ",
-        "performance": "14.20",
-        "event_date": "7/3/2015"
-      },
-      {
-        "file": "seasons/2015/json/resultrofeunastic70315.json",
-        "discipline": "300 METRES LLISOS                           PREBENJAMÍ FEMENÍ",
-        "performance": "1:22.40",
-        "event_date": "7/3/2015"
-      },
-      {
-        "file": "seasons/2015/json/resultrofeunastic70315.json",
-        "discipline": "SALT DE LLARGADA                      PREBENJAMÍ FEMENÍ",
-        "performance": "1,84",
-        "event_date": "7/3/2015"
-      }
-    ]
-  },
-  {
     "athlete_name": "tramit Cardeñosa Ramos, Paula",
     "strategy": "no_match",
     "candidates": null,
@@ -14162,106 +13775,25 @@
         "event_date": "23/05/2015"
       },
       {
+        "file": "seasons/2015/json/resulcnatterrittarragona230515.json",
+        "discipline": "DISC                            CADET JUVENIL FEMENÍ",
+        "performance": "12,88",
+        "event_date": "23/05/2015"
+      },
+      {
+        "file": "seasons/2015/json/resulcnatterrittarragona230515.json",
+        "discipline": "MARTELL CADET - JUVENIL FEMENÍ (3 KG.)",
+        "performance": "17,50",
+        "event_date": "23/05/2015"
+      },
+      {
         "file": "seasons/2015/json/resulcontrolcgt100515.json",
         "discipline": "MARTELL CADET FEMENÍ (3 KG.)",
         "performance": "15,43",
         "event_date": "10/05/2015"
-      },
-      {
-        "file": "seasons/2015/json/resulcontrolnastic310515.json",
-        "discipline": "DISC (8OO G.)                 CADET FEMENÍ",
-        "performance": "14,98",
-        "event_date": "31/05/2015"
       }
-    ]
-  },
-  {
-    "athlete_name": "tramit Colomina Figuerola, Carla",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2015/json/resultrofeunastic70315.json",
-        "discipline": "60 METRES LLISOS                                PREBENJAMÍ FEMENÍ",
-        "performance": "12.70",
-        "event_date": "7/3/2015"
-      },
-      {
-        "file": "seasons/2015/json/resultrofeunastic70315.json",
-        "discipline": "300 METRES LLISOS                           PREBENJAMÍ FEMENÍ",
-        "performance": "1:22.10",
-        "event_date": "7/3/2015"
-      }
-    ]
-  },
-  {
-    "athlete_name": "tramit Cosano Fuentes, Teila",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2015/json/resultrofeunastic70315.json",
-        "discipline": "300 METRES LLISOS                           PREBENJAMÍ FEMENÍ",
-        "performance": "1:24.20",
-        "event_date": "7/3/2015"
-      },
-      {
-        "file": "seasons/2015/json/resultrofeunastic70315.json",
-        "discipline": "SALT DE LLARGADA                      PREBENJAMÍ FEMENÍ",
-        "performance": "1,86",
-        "event_date": "7/3/2015"
-      }
-    ]
-  },
-  {
-    "athlete_name": "tramit Delgado Vilar, Dàcil",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2015/json/resultrofeunastic70315.json",
-        "discipline": "60 METRES LLISOS                                PREBENJAMÍ FEMENÍ",
-        "performance": "12.00",
-        "event_date": "7/3/2015"
-      },
-      {
-        "file": "seasons/2015/json/resultrofeunastic70315.json",
-        "discipline": "300 METRES LLISOS                           PREBENJAMÍ FEMENÍ",
-        "performance": "1:16.00",
-        "event_date": "7/3/2015"
-      },
-      {
-        "file": "seasons/2015/json/resultrofeunastic70315.json",
-        "discipline": "SALT DE LLARGADA                      PREBENJAMÍ FEMENÍ",
-        "performance": "1,44",
-        "event_date": "7/3/2015"
-      }
-    ]
-  },
-  {
-    "athlete_name": "tramit Dritsakis Rubio, Alexia",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2015/json/resultrofeunastic70315.json",
-        "discipline": "60 METRES LLISOS                                PREBENJAMÍ FEMENÍ",
-        "performance": "12.00",
-        "event_date": "7/3/2015"
-      },
-      {
-        "file": "seasons/2015/json/resultrofeunastic70315.json",
-        "discipline": "300 METRES LLISOS                           PREBENJAMÍ FEMENÍ",
-        "performance": "1:13.00",
-        "event_date": "7/3/2015"
-      },
-      {
-        "file": "seasons/2015/json/resultrofeunastic70315.json",
-        "discipline": "SALT DE LLARGADA                      PREBENJAMÍ FEMENÍ",
-        "performance": "2,14",
-        "event_date": "7/3/2015"
-      }
-    ]
+    ],
+    "refs_total": 6
   },
   {
     "athlete_name": "tramit Georgiev, Nikolay Asenov",
@@ -14271,6 +13803,12 @@
       {
         "file": "seasons/2015/json/resulcnatterrittarragona230515.json",
         "discipline": "SALT DE LLARGADA MASCULINA",
+        "performance": "5,31",
+        "event_date": "23/05/2015"
+      },
+      {
+        "file": "seasons/2015/json/resulcnatterrittarragona230515.json",
+        "discipline": "100 METRES TANQUES CADET - JUVENIL FEMENÍ",
         "performance": "5,31",
         "event_date": "23/05/2015"
       }
@@ -14302,44 +13840,6 @@
     ]
   },
   {
-    "athlete_name": "tramit Gómez Arrate, Lucia",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2015/json/resultrofeunastic70315.json",
-        "discipline": "60 METRES LLISOS                                PREBENJAMÍ FEMENÍ",
-        "performance": "13.60",
-        "event_date": "7/3/2015"
-      },
-      {
-        "file": "seasons/2015/json/resultrofeunastic70315.json",
-        "discipline": "300 METRES LLISOS                           PREBENJAMÍ FEMENÍ",
-        "performance": "1:23.40",
-        "event_date": "7/3/2015"
-      },
-      {
-        "file": "seasons/2015/json/resultrofeunastic70315.json",
-        "discipline": "SALT DE LLARGADA                      PREBENJAMÍ FEMENÍ",
-        "performance": "1,60",
-        "event_date": "7/3/2015"
-      }
-    ]
-  },
-  {
-    "athlete_name": "tramit Izaga Deriu, Quimey",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2015/json/resultrofeunastic70315.json",
-        "discipline": "SALT DE LLARGADA                      PREBENJAMÍ MASCULÍ",
-        "performance": "1,90",
-        "event_date": "7/3/2015"
-      }
-    ]
-  },
-  {
     "athlete_name": "tramit Martínez Butron, Maria",
     "strategy": "no_match",
     "candidates": null,
@@ -14349,88 +13849,6 @@
         "discipline": "JAVELINA ABSOLUT FEMENÍ (600)",
         "performance": "27,34",
         "event_date": "10/05/2015"
-      }
-    ]
-  },
-  {
-    "athlete_name": "tramit Moreno Ribera, Guillem",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2015/json/resultrofeunastic70315.json",
-        "discipline": "60 METRES LLISOS                                        PREBENJAMÍ MASCULÍ",
-        "performance": "12.20",
-        "event_date": "7/3/2015"
-      },
-      {
-        "file": "seasons/2015/json/resultrofeunastic70315.json",
-        "discipline": "SALT DE LLARGADA                      PREBENJAMÍ MASCULÍ",
-        "performance": "2,06",
-        "event_date": "7/3/2015"
-      }
-    ]
-  },
-  {
-    "athlete_name": "tramit Pego Montané, Ot",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2015/json/resultrofeunastic70315.json",
-        "discipline": "300 METRES LLISOS                           PREBENJAMÍ MASCULÍ",
-        "performance": "1:04.50",
-        "event_date": "7/3/2015"
-      },
-      {
-        "file": "seasons/2015/json/resultrofeunastic70315.json",
-        "discipline": "SALT DE LLARGADA                      PREBENJAMÍ MASCULÍ",
-        "performance": "2,20",
-        "event_date": "7/3/2015"
-      }
-    ]
-  },
-  {
-    "athlete_name": "tramit Rodríguez Artigas, Judit",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2015/json/resultrofeunastic70315.json",
-        "discipline": "300 METRES LLISOS                           PREBENJAMÍ FEMENÍ",
-        "performance": "1:17.00",
-        "event_date": "7/3/2015"
-      },
-      {
-        "file": "seasons/2015/json/resultrofeunastic70315.json",
-        "discipline": "SALT DE LLARGADA                      PREBENJAMÍ FEMENÍ",
-        "performance": "1,77",
-        "event_date": "7/3/2015"
-      }
-    ]
-  },
-  {
-    "athlete_name": "tramit Rozas Bellido, Pau",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2015/json/resultrofeunastic70315.json",
-        "discipline": "60 METRES LLISOS                                        PREBENJAMÍ MASCULÍ",
-        "performance": "12.60",
-        "event_date": "7/3/2015"
-      },
-      {
-        "file": "seasons/2015/json/resultrofeunastic70315.json",
-        "discipline": "300 METRES LLISOS                           PREBENJAMÍ MASCULÍ",
-        "performance": "1:15.70",
-        "event_date": "7/3/2015"
-      },
-      {
-        "file": "seasons/2015/json/resultrofeunastic70315.json",
-        "discipline": "SALT DE LLARGADA                      PREBENJAMÍ MASCULÍ",
-        "performance": "1,48",
-        "event_date": "7/3/2015"
       }
     ]
   },
@@ -14450,44 +13868,6 @@
         "discipline": "DISC ABSOLUT FEMENÍ ( 1 KG.)",
         "performance": "17,95",
         "event_date": "14/02/2015"
-      }
-    ]
-  },
-  {
-    "athlete_name": "tramit Sanchez Arasa, Marc",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2015/json/resultrofeunastic70315.json",
-        "discipline": "60 METRES LLISOS                                        PREBENJAMÍ MASCULÍ",
-        "performance": "12.00",
-        "event_date": "7/3/2015"
-      },
-      {
-        "file": "seasons/2015/json/resultrofeunastic70315.json",
-        "discipline": "SALT DE LLARGADA                      PREBENJAMÍ MASCULÍ",
-        "performance": "1,69",
-        "event_date": "7/3/2015"
-      }
-    ]
-  },
-  {
-    "athlete_name": "tramit Torres Rioné, Jana",
-    "strategy": "no_match",
-    "candidates": null,
-    "refs": [
-      {
-        "file": "seasons/2015/json/resultrofeunastic70315.json",
-        "discipline": "60 METRES LLISOS                            BENJAMI FEMENÍ",
-        "performance": "11.50",
-        "event_date": "7/3/2015"
-      },
-      {
-        "file": "seasons/2015/json/resultrofeunastic70315.json",
-        "discipline": "1000 METRES LLISOS                             BENJAMI FEMENÍ",
-        "performance": "4:51.40",
-        "event_date": "7/3/2015"
       }
     ]
   },

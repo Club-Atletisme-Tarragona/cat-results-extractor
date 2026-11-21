@@ -3,7 +3,7 @@
   "event_date": "23/05/2015",
   "event_location": "Tarragona",
   "event_src": "http://old.fcatletisme.cat/Promocio/promocio2015/resulcnatterrittarragona230515.pdf",
-  "total_results": 205,
+  "total_results": 210,
   "results": [
     {
       "athlete_name": "CORDERO BEL TOMAS",
@@ -2346,6 +2346,66 @@
       "raw_discipline_name": "SALT D'ALÇADA                                                 BENJAMI FEMENÍ",
       "timing": "electronic",
       "internal_id": 905
+    },
+    {
+      "athlete_name": "tramit            Georgiev, Nikolay Asenov",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "5,31",
+      "discipline": "100 METRES TANQUES CADET - JUVENIL FEMENÍ",
+      "wind": "-4.8",
+      "position": null,
+      "raw_discipline_name": "100 METRES TANQUES CADET - JUVENIL FEMENÍ",
+      "timing": "electronic",
+      "internal_id": null
+    },
+    {
+      "athlete_name": "tramit   Cardeñosa Ramos, Paula",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "12,88",
+      "discipline": "DISC                            CADET JUVENIL FEMENÍ",
+      "wind": null,
+      "position": null,
+      "raw_discipline_name": "DISC                            CADET JUVENIL FEMENÍ",
+      "timing": "electronic",
+      "internal_id": null
+    },
+    {
+      "athlete_name": "tramit   Cardeñosa Ramos, Paula",
+      "athlete_dob": "",
+      "athlete_id": "",
+      "performance": "17,50",
+      "discipline": "MARTELL CADET - JUVENIL FEMENÍ (3 KG.)",
+      "wind": null,
+      "position": null,
+      "raw_discipline_name": "MARTELL CADET - JUVENIL FEMENÍ (3 KG.)",
+      "timing": "electronic",
+      "internal_id": null
+    },
+    {
+      "athlete_name": "Sanchez Alvarez, Mario",
+      "athlete_dob": "",
+      "athlete_id": "CL 74367",
+      "performance": "4,32",
+      "discipline": "1000 METRES OBSTACLES                                      INFANTIL FEMENÍ",
+      "wind": null,
+      "position": null,
+      "raw_discipline_name": "1000 METRES OBSTACLES                                      INFANTIL FEMENÍ",
+      "timing": "electronic",
+      "internal_id": 1023
+    },
+    {
+      "athlete_name": "Ortiz De Landazuri Ontoso, Unai",
+      "athlete_dob": "",
+      "athlete_id": "CL 77328",
+      "performance": "0,95",
+      "discipline": "1000 METRES MARXA                                  BENJAMI FEMENÍ",
+      "wind": null,
+      "position": null,
+      "raw_discipline_name": "1000 METRES MARXA                                  BENJAMI FEMENÍ",
+      "timing": "electronic",
+      "internal_id": 908
     }
   ],
   "is_short_track": false

@@ -58,9 +58,11 @@ def main():
         stats["short_track" if st else "aire_lliure"] += 1
 
         for r in data.get("results", []):
-            t = timing_from_mark(r.get("performance"))
-            if r.get("timing") != t:
-                r["timing"] = t
+            # a stored timing is authoritative (it was decided at the source,
+            # e.g. parse_promocio_series saw the raw 11"6 form); only rows
+            # without a timing value are derived here
+            if r.get("timing") is None:
+                r["timing"] = timing_from_mark(r.get("performance"))
                 changed = True
             stats[f"timing_{t}"] += 1
             if t == "manual" and len(examples["manual"]) < 10:

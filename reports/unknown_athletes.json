@@ -9,6 +9,18 @@
         "discipline": "600 metres llisos",
         "performance": "2:29.10",
         "event_date": "28/11/2015"
+      },
+      {
+        "file": "seasons/2016/json/resulterritcombinadescambrils300410516.json",
+        "discipline": "Pes (2 Kg)",
+        "performance": "4.14",
+        "event_date": "30/04/2016"
+      },
+      {
+        "file": "seasons/2016/json/resulterritcombinadescambrils300410516.json",
+        "discipline": "Pes (2 Kg)",
+        "performance": "4.21",
+        "event_date": "30/04/2016"
       }
     ]
   },
@@ -872,7 +884,7 @@
         "event_date": "20/12/2015"
       }
     ],
-    "refs_total": 15
+    "refs_total": 16
   },
   {
     "athlete_name": "Carla Rodríguez Martínez",
@@ -1026,25 +1038,25 @@
         "event_date": "30/01/2016"
       },
       {
-        "file": "seasons/2016/json/resulcontrolnastic281115.json",
-        "discipline": "60 metres llisos",
-        "performance": "8.80",
-        "event_date": "28/11/2015"
-      },
-      {
-        "file": "seasons/2016/json/resulcontrolnastic281115.json",
-        "discipline": "600 metres llisos",
-        "performance": "2:13.40",
-        "event_date": "28/11/2015"
-      },
-      {
-        "file": "seasons/2016/json/resulcontrolnastic281115.json",
+        "file": "seasons/2016/json/resulcontrolcambrils300116.json",
         "discipline": "Llargada",
-        "performance": "3,99",
-        "event_date": "28/11/2015"
+        "performance": "3.70",
+        "event_date": "30/01/2016"
+      },
+      {
+        "file": "seasons/2016/json/resulcontrolcambrils300116.json",
+        "discipline": "Llargada",
+        "performance": "3.85",
+        "event_date": "30/01/2016"
+      },
+      {
+        "file": "seasons/2016/json/resulcontrolcambrils300116.json",
+        "discipline": "Pes (2 Kg)",
+        "performance": "6.22",
+        "event_date": "30/01/2016"
       }
     ],
-    "refs_total": 7
+    "refs_total": 14
   },
   {
     "athlete_name": "DIAZ MARTIN, ELENA",
@@ -1259,6 +1271,12 @@
         "event_date": "30/01/2016"
       },
       {
+        "file": "seasons/2016/json/resulcontrolnastic281115.json",
+        "discipline": "60 metres llisos",
+        "performance": "8.20",
+        "event_date": "28/11/2015"
+      },
+      {
         "file": "seasons/2016/json/resulcontrolvalls60216.json",
         "discipline": "60 metres llisos",
         "performance": "7.80",
@@ -1435,7 +1453,7 @@
         "event_date": "20/12/2015"
       }
     ],
-    "refs_total": 6
+    "refs_total": 7
   },
   {
     "athlete_name": "GIL NUEZ, LAIA",
@@ -1514,10 +1532,22 @@
     ]
   },
   {
-    "athlete_name": "GUZMAN VELASCO ISAAC",
+    "athlete_name": "GUZMAN VELASCO, ISAAC",
     "strategy": "no_match",
     "candidates": null,
     "refs": [
+      {
+        "file": "seasons/2016/json/resulcontrolnastic281115.json",
+        "discipline": "60 metres llisos",
+        "performance": "9.80",
+        "event_date": "28/11/2015"
+      },
+      {
+        "file": "seasons/2016/json/resulcontrolnastic281115.json",
+        "discipline": "600 metres llisos",
+        "performance": "2:12.50",
+        "event_date": "28/11/2015"
+      },
       {
         "file": "seasons/2016/json/resulterritpromotarragona140516.json",
         "discipline": "Alçada",
@@ -1535,14 +1565,9 @@
         "discipline": "60 m.llisos Aleví Masculí",
         "performance": "9,76",
         "event_date": "14/05/2016"
-      },
-      {
-        "file": "seasons/2016/json/resulterritpromovalls230416.json",
-        "discipline": "60 metres llisos",
-        "performance": "10.30",
-        "event_date": "23/04/2016"
       }
-    ]
+    ],
+    "refs_total": 6
   },
   {
     "athlete_name": "HERAS RUIZ ALANIS",
@@ -1853,12 +1878,31 @@
         "event_date": "02/04/2016"
       },
       {
-        "file": "seasons/2016/json/resulcontrolnastic281115.json",
-        "discipline": "600 metres llisos",
-        "performance": "2:13.40",
-        "event_date": "28/11/2015"
+        "file": "seasons/2016/json/resulcontrolcombinadescambrils19201215.json",
+        "discipline": "60 metres tanques (0.76)",
+        "performance": "11.40",
+        "event_date": "20/12/2015"
+      },
+      {
+        "file": "seasons/2016/json/resulcontrolcombinadescambrils19201215.json",
+        "discipline": "Pes (3 Kg)",
+        "performance": "5.98",
+        "event_date": "20/12/2015"
+      },
+      {
+        "file": "seasons/2016/json/resulcontrolcombinadescambrils19201215.json",
+        "discipline": "Pes (3 Kg)",
+        "performance": "5.82",
+        "event_date": "20/12/2015"
+      },
+      {
+        "file": "seasons/2016/json/resulcontrolcombinadescambrils19201215.json",
+        "discipline": "Pes (3 Kg)",
+        "performance": "3.55",
+        "event_date": "20/12/2015"
       }
-    ]
+    ],
+    "refs_total": 13
   },
   {
     "athlete_name": "Linares Gatell, Alicia",
@@ -1946,7 +1990,7 @@
         "event_date": "20/12/2015"
       }
     ],
-    "refs_total": 17
+    "refs_total": 19
   },
   {
     "athlete_name": "Lucia Cardeñosa Ramos",
@@ -2182,7 +2226,7 @@
         "event_date": "30/04/2016"
       }
     ],
-    "refs_total": 12
+    "refs_total": 13
   },
   {
     "athlete_name": "Marina Burjales Del Amo",
@@ -2274,6 +2318,12 @@
         "file": "seasons/2016/json/resulcontrolcombinadescambrils19201215.json",
         "discipline": "Pes (3 Kg)",
         "performance": "1.00",
+        "event_date": "20/12/2015"
+      },
+      {
+        "file": "seasons/2016/json/resulcontrolcombinadescambrils19201215.json",
+        "discipline": "60 metres llisos",
+        "performance": "9.60",
         "event_date": "20/12/2015"
       }
     ]
@@ -3036,6 +3086,18 @@
         "event_date": "21/02/2016"
       },
       {
+        "file": "seasons/2016/json/resulcontrolnastic281115.json",
+        "discipline": "60 metres llisos",
+        "performance": "10.80",
+        "event_date": "28/11/2015"
+      },
+      {
+        "file": "seasons/2016/json/resulcontrolnastic281115.json",
+        "discipline": "600 metres llisos",
+        "performance": "2:31.20",
+        "event_date": "28/11/2015"
+      },
+      {
         "file": "seasons/2016/json/resulcontrolvalls60216.json",
         "discipline": "60 metres llisos",
         "performance": "10.90",
@@ -3046,21 +3108,9 @@
         "discipline": "600 metres llisos",
         "performance": "2:26.50",
         "event_date": "06/02/2016"
-      },
-      {
-        "file": "seasons/2016/json/resulcontrolvalls60216.json",
-        "discipline": "Llargada",
-        "performance": "2.45",
-        "event_date": "06/02/2016"
-      },
-      {
-        "file": "seasons/2016/json/resulcontrolvalls60216.json",
-        "discipline": "Llargada",
-        "performance": "2.52",
-        "event_date": "06/02/2016"
       }
     ],
-    "refs_total": 7
+    "refs_total": 9
   },
   {
     "athlete_name": "TORRES RIONE, ALBA",
@@ -3086,19 +3136,19 @@
         "event_date": "30/01/2016"
       },
       {
-        "file": "seasons/2016/json/resulcontrolvalls60216.json",
+        "file": "seasons/2016/json/resulcontrolnastic281115.json",
         "discipline": "60 metres llisos",
-        "performance": "10.90",
-        "event_date": "06/02/2016"
+        "performance": "11.10",
+        "event_date": "28/11/2015"
       },
       {
-        "file": "seasons/2016/json/resulcontrolvalls60216.json",
+        "file": "seasons/2016/json/resulcontrolnastic281115.json",
         "discipline": "600 metres llisos",
-        "performance": "2:26.00",
-        "event_date": "06/02/2016"
+        "performance": "2:27.50",
+        "event_date": "28/11/2015"
       }
     ],
-    "refs_total": 10
+    "refs_total": 12
   },
   {
     "athlete_name": "TORRES RIONE, JANA",
@@ -3124,19 +3174,19 @@
         "event_date": "30/01/2016"
       },
       {
-        "file": "seasons/2016/json/resulcontrolvalls60216.json",
+        "file": "seasons/2016/json/resulcontrolnastic281115.json",
         "discipline": "60 metres llisos",
-        "performance": "11.10",
-        "event_date": "06/02/2016"
+        "performance": "11.00",
+        "event_date": "28/11/2015"
       },
       {
-        "file": "seasons/2016/json/resulcontrolvalls60216.json",
+        "file": "seasons/2016/json/resulcontrolnastic281115.json",
         "discipline": "600 metres llisos",
-        "performance": "2:26.20",
-        "event_date": "06/02/2016"
+        "performance": "2:27.30",
+        "event_date": "28/11/2015"
       }
     ],
-    "refs_total": 12
+    "refs_total": 14
   },
   {
     "athlete_name": "Ubieto Nogales, Raquel",
@@ -3206,6 +3256,12 @@
     "strategy": "no_match",
     "candidates": null,
     "refs": [
+      {
+        "file": "seasons/2016/json/resulcontrolnastic281115.json",
+        "discipline": "60 metres llisos",
+        "performance": "9.60",
+        "event_date": "28/11/2015"
+      },
       {
         "file": "seasons/2016/json/resulcontrolnastic281115.json",
         "discipline": "60 metres llisos",

@@ -280,6 +280,58 @@ class TestPromocioSeriesFormat(unittest.TestCase):
         self.assertEqual(ferran[0]["marca"], "9.60")
         self.assertTrue(ferran[0]["manual"])
 
+    def test_veterans_multicolumn_does_not_hang(self):
+        # Masters sheets print MARCA COEF % PUNTS after the club. Feeding those
+        # lines to _PROMOCIO_ROW_RE backtracks for seconds (issue #26 merge hang).
+        import textwrap
+        import time
+        # 60 m (not 100): 6"8 is a real hand time there; under 100 m the
+        # mark-floor filter correctly drops it as implausible.
+        text = textwrap.dedent("""
+        60 m.ll. Màster Masculí
+        LLOC CARRER DORSAL LLIC. NOM ANY CLUB MARCA COEF % PUNTS
+         1      6      40    CL 22364   ARGILAGA SALVADO, JOSEP RAMON      23/10/1963 CA Tarragona        52     M-50   12,71   11,12   87,4902
+         1     52      CL 22783    JAN SANS RIOLA                   1998   C.A. TARRAGONA          6"8       868
+        """)
+        t0 = time.perf_counter()
+        rows = parse_promocio_series(text)
+        self.assertLess(time.perf_counter() - t0, 1.0)
+        # Masters multi-decimal row is skipped; C.A. + quote time is kept
+        self.assertEqual(
+            [(r["atleta_nom"], r["marca"]) for r in rows],
+            [("JAN SANS RIOLA", "6.80")],
+        )
+
+    def test_rejects_height_ghost_under_track(self):
+        # Combined-event sheets leak Alçada (1.xx) into a hurdles/track
+        # section; those must not become sprint/hurdle marks (issue #26).
+        # Columns need 2+ spaces — the row regex requires them.
+        import textwrap
+        text = textwrap.dedent("""
+        60 metres tanques (0.76)
+        Lloc Dorsal Nom                              Any Club                 Temps
+         1         48 CL-12544 MARIA ALVAREZ AUNOS                    1972   CA Tarragona          1.46
+         2         50 CL 25467 ALBERT GENE FERNANDEZ                  1999   CA Tarragona         10"7
+        600 m.ll. Aleví Masculí
+        Lloc Dorsal Nom                              Any Club                 Temps
+         1         12   BONNIN OBACH, DAVID                           2004   CA Tarragona          3.62
+         2        141   Ferran Jimenez, Guillem                       2008   CA Tarragona       2'15"9
+        LLANÇAMENT DE PES Cadet
+        Lloc Dorsal Nom                              Any Club                   Marca
+         1         48   JOSE MIGUEL MARTIN                            1972   CA Tarragona          1.59
+         2        165   Montanes Arbo, Montserrat                     2001   CA Tarragona         11.95
+        """)
+        rows = parse_promocio_series(text)
+        by = {(r["atleta_nom"], r["marca"]) for r in rows}
+        self.assertNotIn(("MARIA ALVAREZ AUNOS", "1.46"), by)
+        self.assertNotIn(("BONNIN OBACH, DAVID", "3.62"), by)
+        self.assertNotIn(("JOSE MIGUEL MARTIN", "1.59"), by)
+        # Legitimate marks kept
+        kept = {r["marca"] for r in rows}
+        self.assertIn("10.70", kept)   # 10"7 hurdles
+        self.assertIn("2:15.90", kept)  # 600m
+        self.assertIn("11.95", kept)    # real shot
+
 
 class TestRelayComposition(unittest.TestCase):
     """A relay team printed as one dash-joined string is several athletes.

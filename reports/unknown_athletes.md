@@ -14,41 +14,47 @@ Confirmed by the owner: these are all former club athletes whose database record
   - e.g. `seasons/2016/json/resulcontrolcombinadescambrils19201215.json` (Pes (3 Kg), 5.98)
 - **PAREDES LARIO, RUBEN** — 20 rows, 2015-2016
   - e.g. `seasons/2016/json/resulcontrolnastic281115.json` (60 metres llisos, 9.40)
-- **Lucas Fariña Ariel** — 17 rows, 2015-2016
+- **Lucas Fariña Ariel** — 19 rows, 2015-2016
   - e.g. `seasons/2016/json/resulcontrolcadetpc121215.json` (60 metres llisos, 8.28)
-- **Carla Berenguel Torres** — 15 rows, 2015
+- **Carla Berenguel Torres** — 16 rows, 2015
   - e.g. `seasons/2016/json/resulcontrolcadetpc121215.json` (60 metres llisos, 8.77)
 - **DIEZ PLASENCIA, ERIKA** — 15 rows, 2015-2016
   - e.g. `seasons/2016/json/resulcontrolcambrils300116.json` (60 metres llisos, 9.70)
 - **REYES ALCANTARA, CRISTINA** — 15 rows, 2015-2016
   - e.g. `seasons/2016/json/resulcontrolcambrils300116.json` (60 metres llisos, 9.50)
+- **DE LAS HERAS RUIZ, LIANA** — 14 rows, 2016
+  - e.g. `seasons/2016/json/resulcontrolcambrils300116.json` (60 metres llisos, 9.10)
+- **TORRES RIONE, JANA** — 14 rows, 2015-2016
+  - e.g. `seasons/2016/json/resulcontrolcambrils300116.json` (60 metres llisos, 10.50)
 - **Berta Pomes Cabello** — 13 rows, 2016
   - closest club names: Martina Pomés Cabello (810, 0.85)
   - e.g. `seasons/2016/json/resulcataleviprevia210516.json` (2000 metres marxa, 9.72)
 - **CRISTINA REYES ALCANTARA** — 13 rows, 2015-2016
   - e.g. `seasons/2016/json/resulcontrolnastic281115.json` (600 metres llisos, 2:20.90)
+- **Liana De Las Heras Ruiz** — 13 rows, 2015-2016
+  - e.g. `seasons/2016/json/resulcatclubsinfantilal20416.json` (Alçada, 1.20)
+- **Maria Fons Forcadell** — 13 rows, 2015-2016
+  - e.g. `seasons/2016/json/resulcontrolcadetpc121215.json` (60 metres llisos, 9.75)
 - **ERIKA DIEZ PLASENCIA** — 12 rows, 2015-2016
   - e.g. `seasons/2016/json/resulcontrolnastic281115.json` (600 metres llisos, 2:16.10)
 - **FERRE OLIVE, ALEIX** — 12 rows, 2016
   - e.g. `seasons/2016/json/resulcontrolcambrils300116.json` (60 metres llisos, 10.30)
 - **LAS HERAS RUIZ LIANA** — 12 rows, 2016
   - e.g. `seasons/2016/json/resulcontrolcambrils300116.json` (Llargada, 3.70)
-- **Maria Fons Forcadell** — 12 rows, 2015-2016
-  - e.g. `seasons/2016/json/resulcontrolcadetpc121215.json` (60 metres llisos, 9.75)
 - **POMES CABELLO, BERTA** — 12 rows, 2015-2016
   - e.g. `seasons/2016/json/resulcontrolcambrils300116.json` (60 metres llisos, 9.80)
 - **REYES ALCANTARA, MIGUEL** — 12 rows, 2016
   - e.g. `seasons/2016/json/resulcontrolcambrils300116.json` (60 metres llisos, 10.80)
-- **TORRES RIONE, JANA** — 12 rows, 2016
-  - e.g. `seasons/2016/json/resulcontrolcambrils300116.json` (60 metres llisos, 10.50)
+- **TORRES RIONE, ALBA** — 12 rows, 2015-2016
+  - e.g. `seasons/2016/json/resulcontrolcambrils300116.json` (60 metres llisos, 10.80)
 - **BLANCO CALATRAVA, NACHO** — 11 rows, 2016
   - e.g. `seasons/2016/json/resulcontrolcambrils300116.json` (60 metres llisos, 10.50)
 - **FERRAN JIMENEZ, GUILLEM** — 11 rows, 2016
   - e.g. `seasons/2016/json/resulcontrolcambrils300116.json` (60 metres llisos, 9.50)
-- **TORRES RIONE, ALBA** — 10 rows, 2016
-  - e.g. `seasons/2016/json/resulcontrolcambrils300116.json` (60 metres llisos, 10.80)
 - **MOLINA SOLICHERO, ANDREA** — 9 rows, 2016
   - e.g. `seasons/2016/json/resulcontrolcambrils300116.json` (60 metres llisos, 10.90)
+- **SUAREZ PIZA, ARIADNA** — 9 rows, 2015-2016
+  - e.g. `seasons/2016/json/resulcatmarxapromocio210216.json` (2000 metres marxa, 16:23.00)
 - **ALBA TORRES RIONE** — 8 rows, 2015-2016
   - e.g. `seasons/2016/json/resulcontrolnastic281115.json` (600 metres llisos, 2:27.50)
 - **BARBENS PARDO CLAUDIA** — 8 rows, 2015-2016
@@ -62,30 +68,28 @@ Confirmed by the owner: these are all former club athletes whose database record
   - e.g. `seasons/2016/json/resulcontrolampposta130216.json` (Llargada, 2.76)
 - **DE LAS HERAS RUIZ, ALANIS** — 7 rows, 2015-2016
   - e.g. `seasons/2016/json/resulcontrolcambrils300116.json` (60 metres llisos, 9.50)
-- **DE LAS HERAS RUIZ, LIANA** — 7 rows, 2015-2016
-  - e.g. `seasons/2016/json/resulcontrolcambrils300116.json` (60 metres llisos, 9.10)
+- **GEMMA PARERA BODI** — 7 rows, 2015
+  - closest club names: Gerard Parera  Bodi (522, 0.86)
+  - e.g. `seasons/2016/json/resulcontrolcombinadescambrils19201215.json` (Pes (3 Kg), 3.20)
 - **ISAAC GUZMAN VELASCO** — 7 rows, 2015-2016
   - e.g. `seasons/2016/json/resulcontrolnastic281115.json` (600 metres llisos, 2:12.50)
 - **MARTINEZ GUTIERREZ, IRIS** — 7 rows, 2015-2016
   - e.g. `seasons/2016/json/resulcontrolcambrils300116.json` (60 metres llisos, 11.00)
 - **SINFREU NIUBO, JOAN** — 7 rows, 2016
   - e.g. `seasons/2016/json/resulcontrolcambrils300116.json` (800 metres llisos, 3:54.50)
-- **SUAREZ PIZA, ARIADNA** — 7 rows, 2016
-  - e.g. `seasons/2016/json/resulcatmarxapromocio210216.json` (2000 metres marxa, 16:23.00)
 - **Andrea Molina Solichero** — 6 rows, 2016
   - e.g. `seasons/2016/json/resulcatbenjamiprevia210516.json` (1000 metres marxa, 4:16.69)
 - **BERENGUEL TORRES CARLA** — 6 rows, 2016
   - e.g. `seasons/2016/json/resulcontrolcambrils300116.json` (Llargada, 4.38)
 - **CLAUDIA BARBENS PARDO** — 6 rows, 2015-2016
   - e.g. `seasons/2016/json/resulcontrolnastic281115.json` (600 metres llisos, 2:37.20)
-- **GEMMA PARERA BODI** — 6 rows, 2015
-  - closest club names: Gerard Parera  Bodi (522, 0.86)
-  - e.g. `seasons/2016/json/resulcontrolcombinadescambrils19201215.json` (Pes (3 Kg), 3.20)
 - **GIL NUEZ, LAIA** — 6 rows, 2015-2016
   - e.g. `seasons/2016/json/resulcontrolnastic281115.json` (60 metres llisos, 8.70)
+- **GUZMAN VELASCO, ISAAC** — 6 rows, 2015-2016
+  - e.g. `seasons/2016/json/resulcontrolnastic281115.json` (60 metres llisos, 9.80)
 - **OLIVIA NOLLA FERRÉ** — 6 rows, 2016
   - e.g. `seasons/2016/json/resulterritcombinadescambrils300410516.json` (Pes (2 Kg), 4.68)
-- **ALANIS DE LAS HERAS RUIZ** — 1 rows, 2015
+- **ALANIS DE LAS HERAS RUIZ** — 1 rows, 2015-2016
   - e.g. `seasons/2016/json/resulcontrolnastic281115.json` (600 metres llisos, 2:29.10)
 - **ALFONSO BUJ, ISABELLA** — 1 rows, 2015
   - e.g. `seasons/2016/json/resulcontrolnastic281115.json` (60 metres llisos, 10.10)
@@ -158,7 +162,7 @@ Confirmed by the owner: these are all former club athletes whose database record
   - e.g. `seasons/2016/json/resulterritcombinadescambrils300410516.json` (60 metres llisos, 3.25)
 - **Elena Cabello Calvo** — 1 rows, 2016
   - e.g. `seasons/2016/json/resulterritpromovalls230416.json` (150 metres llisos, 22.90)
-- **FARIÑA ARIEL LUCAS** — 1 rows, 2016
+- **FARIÑA ARIEL LUCAS** — 1 rows, 2015-2016
   - e.g. `seasons/2016/json/resulcontrolcambrils300116.json` (Alçada, 1.40)
 - **FLEIX FLORES, PAULA** — 1 rows, 2015-2016
   - e.g. `seasons/2016/json/resulcontrolnastic281115.json` (60 metres llisos, 9.40)
@@ -170,8 +174,6 @@ Confirmed by the owner: these are all former club athletes whose database record
   - e.g. `seasons/2016/json/resulcontrolnastic281115.json` (Alçada, 7,87)
 - **GUILLEM FERRAN JIMENEZ** — 1 rows, 2016
   - e.g. `seasons/2016/json/resulcontrolterritamposta50316.json` (Llargada, 2.49)
-- **GUZMAN VELASCO ISAAC** — 1 rows, 2016
-  - e.g. `seasons/2016/json/resulterritpromotarragona140516.json` (Alçada, 1.05)
 - **HERAS RUIZ ALANIS** — 1 rows, 2015
   - e.g. `seasons/2016/json/resulcontrolnastic281115.json` (Llargada, 2.90)
 - **HERAS RUIZ LIANA** — 1 rows, 2015
@@ -190,8 +192,6 @@ Confirmed by the owner: these are all former club athletes whose database record
   - e.g. `seasons/2016/json/resulcatbenjamiprevia210516.json` (1000 metres marxa, 7:16.05)
 - **Julia Casas Carpena** — 1 rows, 2015
   - e.g. `seasons/2016/json/resulcontrolcombinadesgava282911115.json` (Pes (3 Kg), 5.70)
-- **Liana De Las Heras Ruiz** — 1 rows, 2015-2016
-  - e.g. `seasons/2016/json/resulcatclubsinfantilal20416.json` (Alçada, 1.20)
 - **Linares Gatell, Alicia** — 1 rows, 2016
   - e.g. `seasons/2016/json/resulcontrolvalls60216.json` (60 metres llisos, 11.40)
 - **Linares Gatell, Sergi** — 1 rows, 2016

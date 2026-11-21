@@ -23,6 +23,7 @@ S8. Golden/unit coverage with real layout text (Valls 6/02/2016 family) before r
 | T3 | S1,S2,S4,S5 | extend `parse_promocio_series` for field multi-attempt / Alçada Marca | pending | done |
 | T4 | S1,S3 | re-extract `resulcontrolvalls60216` spot-check Ferran Jimenez + Disc attempts | pending | done |
 | T5 | S8 | `python3 -m unittest discover -s tests` green; plausibility not increased | pending | done (97 OK; plausibility 220) |
+| T6 | S1,S8 | hang-fix prefilter + mark floors; merge_era_fallback 2016 | | done |
 
 ## Log
 
@@ -32,3 +33,5 @@ L3. Explore handoff: `_PROMOCIO_ROW_RE` is single-trailing-mark → cannot read 
 L4. Implemented: `_quote_to_decimal` comma→dot; `_parse_promocio_field_rows` for Llargada/Pes/Disc/Alçada Marca; `_is_catt_club` rejects CG Tarragona; merge keys normalize marks in `extract_catt.py` + `merge_era_fallback.py`.
 L5. Spot-check Valls: Ferran Jimenez 9.60 manual; Montañes Disc 6 attempts; Pinyol Alçada 1.30 (no comma phantom). Stored JSON 226→205 (dropped CG leaks + comma dups). Suites: 10/10 promocio + 97/97 full. Plausibility 220 (unchanged).
 L6. Slice closed for representative file. Remaining issue #26 fronts: ~42 fail layouts, 220 plausibility era, 110 dups, Antequera multi-category; apply field parser across other 2016 mixed sheets via merge_era_fallback.
+L7. User: "commit i continua". Commit 8b4a8623 (Valls deep). merge_era_fallback hung on 5 veterans/combinades PDFs → `_promocio_worth_row_regex` prefilter; first apply raised plausibility 220→293 (height ghosts under track) → `_promocio_mark_plausible` floors; re-apply +149 rows across 4 files; plausibility back to 260 (HEAD baseline after Valls rewrite). Suite 99/99 OK.
+L8. Commit hang-fix + merge recovery (this unit).

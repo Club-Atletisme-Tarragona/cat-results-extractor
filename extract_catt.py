@@ -76,21 +76,122 @@ def _quote_to_decimal(mark):
 
 
 _PROMOCIO_FIELD_ROW_RE = re.compile(
-    # 2016 territorial field tables: pos? dorsal name year CA Tarragona attempts Marca
+    # 2016 territorial field tables: pos? dorsal name year CA/C.A. Tarragona attempts Marca
     r"^\s*(?:(\d{1,2})\s+)?"
     r"(\d{1,4})\s+"
     r"(.+?)\s+"
     r"(\d{4})\s+"
-    r"(CA\s+Tarragona)\s+"
+    r"((?:C\.?\s*A\.?\s*|CA\s+)Tarragona)\s+"
     r"(.+?)\s*$",
     re.IGNORECASE,
 )
 
 
 def _is_catt_club(club):
-    """True only for CA Tarragona / CATT — never CG Tarragona or other clubs."""
+    """True only for CA Tarragona / CATT — never CG Tarragona or other clubs.
+
+    Sheets also print 'C.A. Tarragona' / 'C.A.TARRAGONA'; normalize those to
+    the same form before comparing.
+    """
     c = re.sub(r"\s+", " ", (club or "").strip().lower())
+    c = re.sub(r"^c\.?\s*a\.?\s*", "ca ", c)
     return c == "catt" or c.startswith("ca tarragona")
+
+
+# Cheap gate before _PROMOCIO_ROW_RE: masters MARCA/COEF/% tails and other
+# multi-decimal columns make that regex backtrack for seconds (issue #26).
+_CATT_CLUB_IN_LINE_RE = re.compile(
+    r"(?<![a-z])(?:c\.?\s*a\.?\s*tarragona|catt)(?![a-z])",
+    re.IGNORECASE,
+)
+_PROMOCIO_TRAILING_MARK_RE = re.compile(
+    r"(?:(?:\d{1,2}['\u2019]\d{2}\"\d)|(?:\d{1,2}\u2019\u2019\d{2})|"
+    r"(?:\d{1,2}''\d{2})|(?:\d{1,2}\"\d)|(?:\d{1,2}[.,]\d{2})|"
+    r"(?:\d{1,2}:\d{2}[.,]\d{2})|N\.?P\.?|RET\.?|DNS|DQ)"
+    r"(?:\s+\d{1,4})?\s*$",
+    re.IGNORECASE,
+)
+
+
+def _promocio_worth_row_regex(line):
+    """True when the line might be a single-mark promocio/track row."""
+    m = _CATT_CLUB_IN_LINE_RE.search(line)
+    if not m:
+        return False
+    # CG Tarragona shares the city token — never feed it to the heavy regex.
+    prefix = line[max(0, m.start() - 3):m.start()].lower()
+    if re.search(r"\bcg\s*$", prefix):
+        return False
+    tail = line[m.end():]
+    if re.search(r"\b[MW]-\d{2}\b", tail, re.IGNORECASE):
+        return False
+    if len(re.findall(r"\d+[.,]\d+", tail)) >= 3:
+        return False
+    return bool(_PROMOCIO_TRAILING_MARK_RE.search(line))
+
+
+
+def _promocio_mark_seconds(mark):
+    """Seconds/metres numeric from a normalized mark, or None."""
+    text = str(mark or "").strip().replace(",", ".")
+    if not text or text.upper() in ("DNS", "DQ", "DNF", "N.P.", "NP", "RET", "RET.", "NULS"):
+        return None
+    if ":" in text:
+        parts = text.split(":")
+        try:
+            if len(parts) == 2:
+                return float(parts[0]) * 60 + float(parts[1])
+            if len(parts) == 3:
+                return (float(parts[0]) * 3600
+                        + float(parts[1]) * 60 + float(parts[2]))
+        except ValueError:
+            return None
+        return None
+    try:
+        return float(text)
+    except ValueError:
+        return None
+
+
+# World-record-level floors (seconds). Ghost heights (1.xx) under track/hurdles
+# and truncated mid-distance times fall below these (issue #26 merge).
+_PROMOCIO_DIST_FLOOR = {
+    50: 5.6, 60: 6.4, 80: 7.5, 100: 9.6, 150: 13.5, 200: 19.2,
+    300: 30.5, 400: 42.0, 500: 55.0, 600: 68.0, 800: 95.0,
+    1000: 120.0, 1500: 195.0, 2000: 280.0, 3000: 440.0, 5000: 750.0,
+}
+_PROMOCIO_HURDLE_EXTRA = {
+    60: 1.5, 80: 2.0, 100: 2.5, 110: 3.0, 200: 3.0, 300: 6.0, 400: 8.0,
+}
+
+
+def _promocio_mark_plausible(prova, mark):
+    """False when mark cannot be a performance for this section title."""
+    secs = _promocio_mark_seconds(mark)
+    if secs is None:
+        return True  # status words / unparseable: leave for later filters
+    p = (prova or "").strip().lower()
+    # Throws: AGENTS.md field range 3–80 m. Heights leaked as 1.xx fail here.
+    if re.search(r"llançament|lanzamiento|\bpes\b|\bpeso\b|\bdisc|"
+                 r"martell|martillo|javelina|jabalina", p):
+        return 3.0 <= secs <= 80.0
+    # Heights: 1–7 m (Marca only; already filtered by field path).
+    if re.match(r"^(alçada|altura)\b", p):
+        return 1.0 <= secs <= 7.0
+    # Jumps: 1.5–20 m
+    if re.match(r"^(llargada|longitud|triple)\b", p):
+        return 1.5 <= secs <= 20.0
+    # Track / hurdles / marxa: distance floor from the section title.
+    dm = re.search(r"(\d{1,2}(?:\.\d{3})?|\d{3,5})\s*m", p)
+    if not dm:
+        return True
+    dist = int(dm.group(1).replace(".", ""))
+    floor = _PROMOCIO_DIST_FLOOR.get(dist)
+    if floor is None:
+        return True
+    if "tanques" in p or "vallas" in p:
+        floor += _PROMOCIO_HURDLE_EXTRA.get(dist, 0)
+    return secs >= floor
 
 
 def _promocio_field_kind(prova):
@@ -101,6 +202,8 @@ def _promocio_field_kind(prova):
     if re.match(r"^(llargada|longitud|triple)\b", p):
         return "jump"
     if re.match(r"^(pes|peso|disc|disco|martell|martillo|javelina|jabalina)\b", p):
+        return "throw"
+    if re.match(r"^(llançament|lanzamiento)\b", p):
         return "throw"
     return None
 
@@ -143,6 +246,8 @@ def _parse_promocio_field_rows(line, prova, wind=None):
     marks = _promocio_field_marks(m.group(6), kind)
     rows = []
     for mark in marks:
+        if not _promocio_mark_plausible(prova, mark):
+            continue
         rows.append({
             "atleta_nom": nom,
             "atleta_naixement": "",
@@ -165,9 +270,11 @@ _PROMOCIO_ROW_RE = re.compile(
     r"(.+?)\s{2,}"
     r"(?:(\d{2}|\d{4})\s+)?"
     r"(?:(\w{2,4})\s{2,})?"
-    r"((?:CA |CT |CL |JA |GEiE |UGA |CE |CN |FC |AA |CG |UA )?[^0-9]+?)\s{2,}"
+    # C.A. / CA / other club prefixes; trailing mark may be followed by
+    # combined-event points (3–4 digits) or a 1–2 digit rank.
+    r"((?:C\.?\s*A\.?\s+|CA |CT |CL |JA |GEiE |UGA |CE |CN |FC |AA |CG |UA )?[^0-9]+?)\s{2,}"
     r"(?:(\w{2,4})\s{2,})?"
-    r"((?:\d{1,2}['\u2019]\d{2}\"\d)|(?:\d{1,2}\u2019\u2019\d{2})|(?:\d{1,2}''\d{2})|(?:\d{1,2}\"\d)|(?:\d{1,2}[.,]\d{2})|(?:\d{1,2}:\d{2}[.,]\d{2})|N\.?P\.?|RET\.?|DNS|DQ)(?:\s+(\d{1,2}))?\s*$",
+    r"((?:\d{1,2}['\u2019]\d{2}\"\d)|(?:\d{1,2}\u2019\u2019\d{2})|(?:\d{1,2}''\d{2})|(?:\d{1,2}\"\d)|(?:\d{1,2}[.,]\d{2})|(?:\d{1,2}:\d{2}[.,]\d{2})|N\.?P\.?|RET\.?|DNS|DQ)(?:\s+(\d{1,4}))?\s*$",
     re.IGNORECASE,
 )
 
@@ -269,19 +376,19 @@ def parse_promocio_series(text):
             continue
         if not prova:
             continue
-        # prefilter: the heavy row regex backtracks exponentially on rows that
-        # cannot match (the 2011 tabular tables hold ~500 rows); only rows of
-        # a club we care about are worth the cost. A club line without
-        # Tarragona can never yield a CATT row.
-        if "tarragona" not in line.lower():
-            continue
         # Field tables (Llargada/Alçada/Pes/Disc): multi-attempt or O/X + Marca.
         # Prefer this path when the section title is a field event so a trailing
         # Marca does not hide the attempt columns.
         if _promocio_field_kind(prova):
+            if "tarragona" not in line.lower():
+                continue
             field_rows = _parse_promocio_field_rows(line, prova, wind)
             if field_rows:
                 rows.extend(field_rows)
+            continue
+        # Cheap gate before the heavy row regex: masters MARCA/COEF/% tails and
+        # other multi-decimal columns backtrack for seconds (issue #26 hang).
+        if not _promocio_worth_row_regex(line):
             continue
         m = _PROMOCIO_ROW_RE.match(line)
         if not m:
@@ -304,12 +411,19 @@ def parse_promocio_series(text):
         # CG Tarragona shares the city name — never treat it as CATT.
         if not _is_catt_club(club):
             continue
+        name = nom.strip()
+        # Relay teams printed as dash-joined legs are not a single athlete.
+        if " - " in name or name.count("-") >= 3:
+            continue
+        mark = _quote_to_decimal(marca)
+        if not _promocio_mark_plausible(prova, mark):
+            continue
         rows.append({
-            "atleta_nom": nom.strip(),
+            "atleta_nom": name,
             "atleta_naixement": "",   # the layout shows a 2-digit birth year only
             "atleta_licencia": (licencia or "").strip(),
             "prova": prova,
-            "marca": _quote_to_decimal(marca),
+            "marca": mark,
             "vent": wind,
             "position": None,
             # hand-time provenance decided at the source: the quote form 11"6

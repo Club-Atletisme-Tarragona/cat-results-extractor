@@ -106,23 +106,41 @@ class TestKeepStoredRegistry(unittest.TestCase):
     silently swallowed by the registry.
     """
 
+    KEPT_FILE = "seasons/2010/json/resulmitingveteransreus8510.json"
+
     def test_matching_entry_counts_as_kept(self):
         decision = check_event_dates.keep_decision(
-            "seasons/2005/json/resulcatabsolut.json", "19/06/2005", "08/06/2005")
+            self.KEPT_FILE, "8/5/2010", "09/05/2010")
         self.assertIsNotNone(decision)
-        self.assertIn("Manresa", decision.evidence)
+        self.assertIn("Reus", decision.evidence)
 
     def test_changed_stored_date_resurfaces_as_open(self):
         self.assertIsNone(check_event_dates.keep_decision(
-            "seasons/2005/json/resulcatabsolut.json", "18/06/2005", "08/06/2005"))
+            self.KEPT_FILE, "7/5/2010", "09/05/2010"))
 
     def test_changed_header_date_resurfaces_as_open(self):
         self.assertIsNone(check_event_dates.keep_decision(
-            "seasons/2005/json/resulcatabsolut.json", "19/06/2005", "09/06/2005"))
+            self.KEPT_FILE, "8/5/2010", "10/05/2010"))
 
     def test_unknown_file_has_no_decision(self):
         self.assertIsNone(check_event_dates.keep_decision(
             "seasons/2016/json/nope.json", "01/01/2016", "02/01/2016"))
+
+    def test_covered_cases_are_not_kept_here(self):
+        # issue #32: parse_header now reads these headers itself, so they must
+        # not linger as decisions. A regression surfaces as an open mismatch.
+        for rel in (
+            "seasons/2005/json/resulcatabsolut.json",
+            "seasons/2005/json/resulcatjuniorpc.json",
+            "seasons/2005/json/resulcatjuvenilpc.json",
+            "seasons/2008/json/resulcatcadetpc2324208.json",
+            "seasons/2009/json/resulcatcadetpc2122209.json",
+            "seasons/2009/json/resulcatjuvenilpc2122209.json",
+            "seasons/2016/json/resullliguetasub11bcn71115.json",
+            "seasons/2026/json/resultat-20260117-gpmarxaelvendrell.json",
+        ):
+            with self.subTest(path=rel):
+                self.assertNotIn(rel, check_event_dates.KEEP_STORED)
 
     def test_every_entry_documents_its_evidence(self):
         for path, decision in check_event_dates.KEEP_STORED.items():

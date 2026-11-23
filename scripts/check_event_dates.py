@@ -150,37 +150,14 @@ def keep_decision(rel_path, stored, header):
 
 # Documented "keep the stored date" decisions (issue #28). Each one needed the
 # PDF open; the evidence string is the header text actually read from it.
+#
+# This registry is a decision record, not a dumping ground: an entry only exists
+# while `parse_header` still reads a different date for that sheet for a reason
+# the data must keep (a range the sheet only names as a range, a garbled line
+# that is not the header). When the parser learns the case, the entry goes —
+# that is why the eight `non-header-line`/`span-2-dies` cases of issue #32 are no
+# longer here (their headers are pinned by tests/test_parse_header_dates.py).
 KEEP_STORED = {
-    "seasons/2005/json/resulcatabsolut.json": KeepStored(
-        "19/06/2005", "08/06/2005", "span-2-dies",
-        "'Manresa, 18 i 19 de juny de 2005': the meeting spans 18-19 June and the "
-        "stored date is the closing day. The audit date (08/06/2005) comes from "
-        "'Millor Marca Temporada: 10,57 Jordi Mayoral, 08/06/05', not the header."),
-    "seasons/2005/json/resulcatjuniorpc.json": KeepStored(
-        "27/02/2005", "12/02/2005", "span-2-dies",
-        "'Vilafranca, 26 i 27 de febrer de 2005': spans 26-27 February, stored is "
-        "the closing day. The audit date comes from the season-best line "
-        "'Millor Marca Temporada: 7\"21 Roger Carulla12/02/05'."),
-    "seasons/2005/json/resulcatjuvenilpc.json": KeepStored(
-        "27/02/2005", "12/02/2005", "span-2-dies",
-        "'Vilafranca, 26 i 27 de febrer de 2005': spans 26-27 February, stored is "
-        "the closing day. The audit date comes from 'Millor marca temporada: 7,10 "
-        "Marc Altes, 12/02/05', not the header."),
-    "seasons/2008/json/resulcatcadetpc2324208.json": KeepStored(
-        "24/02/2008", "20/01/2008", "span-2-dies",
-        "'Vilafranca del Penedès, 23 i 24 de febrer de 2008': spans 23-24 "
-        "February, stored is the closing day. The audit date comes from 'Millor "
-        "Marca Temporada: 7,36 Nelson de la Puente, 20/01/2008'."),
-    "seasons/2009/json/resulcatcadetpc2122209.json": KeepStored(
-        "22/02/2009", "26/02/2005", "span-2-dies",
-        "'Vilafranca del Penedès, 21 i 22 de febrer de 2009': spans 21-22 "
-        "February, stored is the closing day. The audit date is a record line: "
-        "'Rècord de Catalunya: 7,17 Ramon Montejano, 26/02/05'."),
-    "seasons/2009/json/resulcatjuvenilpc2122209.json": KeepStored(
-        "22/02/2009", "08/02/2009", "span-2-dies",
-        "'Vilafranca del Penedès, 21 i 22 de febrer de 2009': spans 21-22 "
-        "February, stored is the closing day. The audit date is the season best "
-        "line 'Millor Marca Temporada: 7,12 Adria Burriel, 08/02/2009'."),
     "seasons/2010/json/resulmitingveteransreus8510.json": KeepStored(
         "8/5/2010", "09/05/2010", "non-header-line",
         "The meeting header reads '8 de maig de 2010' (3r Meeting Ciutat de "
@@ -218,6 +195,30 @@ KEEP_STORED = {
         "Section headers inside the sheet read both 'Cambrils, 16 / 05 / 2015' "
         "and 'Cambrils, 17 / 05 / 2015', and CA Tarragona has results on both "
         "days. Stored closing day kept."),
+    "seasons/2015/json/resulcombinadescambrils20121214.json": KeepStored(
+        "20/12/2014", "21/12/2014", "span-2-dies",
+        "'Cambrils, 20 i 21 de desembre de 2014': the sheet names the range only "
+        "and has no per-session dates, so both days are in it. The stored day "
+        "(20/12) is the opening day and the parser now reads the range's "
+        "closing day; both are defensible, so the stored day is kept."),
+    "seasons/2017/json/resultat-20170114-controlabsolutpc.json": KeepStored(
+        "15/01/2017", "14/01/2017", "span-2-dies",
+        "The title reads 'Sabadell (Pista Coberta de Catalunya), 14 enero 2017' "
+        "but every session line in the acta reads 'Semifinal N 15/01/2017 17:10' "
+        "(15 of them). The sheet contradicts itself; the stored day is the one "
+        "the printed sessions support, so it is kept."),
+    "seasons/2017/json/resultat-20170212-controlabsolutpcmati.json": KeepStored(
+        "10/02/2017", "12/02/2017", "span-2-dies",
+        "The title reads 'Sabadell (Pista Coberta de Catalunya), 12 febrero 2017' "
+        "while the acta prints session lines dated 10/02/2017 (15 of them) as well "
+        "as 12/02/2017: the control ran over both days and the stored day is the "
+        "first of them, so it is kept."),
+    "seasons/2018/json/resultat-20180211-controlpctardasabadell.json": KeepStored(
+        "07/02/2018", "11/02/2018", "span-2-dies",
+        "The title reads 'Sabadell (Pista Cobertade Catalunya), 11 febrero 2018' "
+        "while the acta prints session lines dated 07/02/2018 (15 of them) and "
+        "11/02/2018 (23): the jornada covers both days and the stored day is the "
+        "first of them, so it is kept."),
     "seasons/2016/json/resulcatcadetcombinadescpc20210216.json": KeepStored(
         "21/02/2016", "20/02/2016", "span-2-dies",
         "'Sabadell (Pista Coberta de Catalunya), 20-21 febrero 2016': the hexathlon "
@@ -237,16 +238,6 @@ KEEP_STORED = {
         "14/02/2016", "13/02/2016", "span-2-dies",
         "'Sabadell (Pista Coberta de Catalunya), 13-14 febrero 2016': Mireia Lopez "
         "Urbano competes on 14/02 (day 2 events); stored closing day kept."),
-    "seasons/2016/json/resullliguetasub11bcn71115.json": KeepStored(
-        "07/11/2015", "23/07/2009", "non-header-line",
-        "The meeting header reads 'Barcelona (Mar Bella), 7 de novembre de 2015', "
-        "which is the stored date. The audit date is an athlete's birth date in "
-        "the result table ('POL LOBO BERTRAN 23/07/09')."),
-    "seasons/2026/json/resultat-20260117-gpmarxaelvendrell.json": KeepStored(
-        "17/01/2026", "25/08/2007", "non-header-line",
-        "The sheet title reads 'GRAN PREMI DE MARXA DEL VENDRELL / 17.01.2026 - "
-        "RESULTADOS', matching the stored date. The audit date is a birth date "
-        "in the table ('GINA TORRES AUBERNI 25/8/2007')."),
 }
 
 

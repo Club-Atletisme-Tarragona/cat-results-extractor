@@ -1067,6 +1067,124 @@ def timing_from_mark(mark):
     return "electronic"
 
 
+# ---------------------------------------------------------------------------
+# Header date evidence (issue #32)
+#
+# `parse_header` decides the meeting date and the season is derived from it, so
+# one wrong day files a whole competition under the wrong year. The sheets print
+# other dates above the first event — record (RCAT/RCAM) lines, season bests,
+# the print stamp, athlete birth dates — and none of them is the meeting date.
+# The predicates below name each of those cases; the dated patterns below them
+# are the header shapes actually printed by the sheets.
+# ---------------------------------------------------------------------------
+
+# Spanish AND Catalan month names - 2005-era sheets are Catalan and the old
+# parsers fell back to the FILENAME, misreading '29105' (29 Jan) as October.
+_HEADER_MONTHS = {
+    'enero': '01', 'febrero': '02', 'marzo': '03', 'abril': '04',
+    'mayo': '05', 'junio': '06', 'julio': '07', 'agosto': '08',
+    'septiembre': '09', 'setiembre': '09', 'octubre': '10',
+    'noviembre': '11', 'diciembre': '12',
+    'gener': '01', 'febrer': '02', 'març': '03', 'marc': '03',
+    'maig': '05', 'juny': '06', 'juliol': '07', 'agost': '08',
+    'setembre': '09', 'novembre': '11', 'desembre': '12',
+}
+_HEADER_MONTH_ALT = '|'.join(_HEADER_MONTHS)
+
+# The city/venue before the comma is part of the header itself, parentheses and
+# hyphens included: "Barcelona (Mar Bella)", "Barcelona-SE",
+# "Sabadell (Pista Coberta de Catalunya)".
+_HEADER_CITY = r"[A-Za-zÀ-ÿ\.\s\(\)\[\]“”'‘’\-]+?"
+# Catalan elision before the month: "5 d'abril de 2014" (also d’abril). Plain
+# "de " / bare month still match.
+_HEADER_DE_MONTH = r"(?:d['\u2019]|de\s+)?"
+
+# One day: "Valls, 5 d'abril de 2014", "Barcelona-SE, 27 febrero 2021",
+# "Mataro, 29 de gener de 2005".
+_HEADER_DAY_MONTH_RE = re.compile(
+    r"(?P<city>" + _HEADER_CITY + r"),\s*(?P<day>\d{1,2})\s+"
+    + _HEADER_DE_MONTH
+    + r"(?P<month>" + _HEADER_MONTH_ALT + r")\s+(?:de\s+)?(?P<year>\d{4})",
+    re.IGNORECASE,
+)
+
+# A range: "Manresa, 18 i 19 de juny de 2005", "Cambrils, 2-3 junio 2018".
+# A range names two days, not one; see the tier order in parse_header.
+_HEADER_RANGE_RE = re.compile(
+    r"(?:(?P<city>" + _HEADER_CITY + r"),\s*)?"
+    r"(?P<first>\d{1,2})\s*(?:i|y|-|–|al)\s*(?P<last>\d{1,2})\s+"
+    + _HEADER_DE_MONTH
+    + r"(?P<month>" + _HEADER_MONTH_ALT + r")\s+(?:de\s+)?(?P<year>\d{4})",
+    re.IGNORECASE,
+)
+
+# Dotted title date: "GRAN PREMI DE MARXA DEL VENDRELL / 17.01.2026 - RESULTADOS".
+_HEADER_DOTTED_DATE_RE = re.compile(r'\b(\d{1,2})\.(\d{1,2})\.(\d{4})\b')
+
+# Conersys generation stamps carry a weekday and the PRINT date ("Gestión de
+# Resultados por Conersys Sports Solutions miércoles, 29 de abril de 2026"):
+# they sit above the meeting header and are not meeting evidence.
+_HEADER_STAMP_RE = re.compile(
+    r'conersys|sports\s+solutions|gesti[oó]n\s+de\s+resultados'
+    r'|mi[eé]rcoles|martes|jueves|viernes|s[aá]bado|domingo|lunes'
+    r'|dilluns|dimarts|dimecres|dijous|divendres|dissabte|diumenge',
+    re.IGNORECASE,
+)
+# Record lines: "Rècord de Catalunya: 7,17 Ramon Montejano, 26/02/05", the
+# "RCAT"/"RCAM" rows of the RFEA/Conersys sheets.
+_HEADER_RECORD_RE = re.compile(r'\bRCAT\b|\bRCAM\b|\bR[eéè]cord\b', re.IGNORECASE)
+# Season bests: "Millor Marca Temporada: 7,36 Nelson de la Puente, 20/01/2008",
+# "Millor marca temporada", "Mejor marca", the "MMP" marker.
+_HEADER_BEST_RE = re.compile(
+    r'\bMillor\s+marca\b|\bMejor\s+marca\b|\bMMP\b', re.IGNORECASE)
+# Birth-date column context ("Data Naix.", "Fecha de Nac", "F.Nac").
+_HEADER_DOB_RE = re.compile(
+    r'\bData\s+Naix|\bFecha\s+de\s+Nac|\bF\.?\s*de\s+Nac|\bF\.\s?Nac',
+    re.IGNORECASE,
+)
+# A roster row carries a licence and/or a hand-time mark (11''8); a header never
+# does. Used to keep the slash fallbacks off athlete rows.
+_HEADER_ROW_RE = re.compile(
+    r'\bC[LT][-\s]?\d{3,}'          # CT18283 / CL-15235 / CT 17818
+    r'|\bCAT-\d{3,}'                # CAT-3694533-A
+    r'|\bIB-?\d{3,}'                # IB-123456
+    r'|\bAR\d{3,}\b'                # AR4639
+    r"|\b\d{1,2}\s*['\u2018\u2019\u201d\"]{1,3}\s*\d",  # 11''8 hand mark
+)
+# The first result-table header ends the meeting header block: below it every
+# date belongs to a row, not to the meeting (spec S2).
+_HEADER_TABLE_RE = re.compile(
+    r'\bDorsal\b.*\b(?:LLIC|Lic[eè]ncia|NOM)\b'
+    r'|\bLLOC\b.*\bCARRER\b'
+    r'|\bSERIE\b.*\bDORSAL\b'
+    r'|\bNOM\b.*\bCLUB\b.*\bMARCA\b',
+    re.IGNORECASE,
+)
+
+
+def _header_block(lines, limit=30):
+    """Lines of the first plausible meeting header block (spec S2).
+
+    The block ends at the first result-table header. Sheets whose table header
+    these patterns cannot recognise keep the full window — that is the previous
+    behaviour, so an unfamiliar layout cannot lose its date.
+    """
+    for i, line in enumerate(lines[:limit]):
+        if _HEADER_TABLE_RE.search(line):
+            return lines[:i]
+    return lines[:limit]
+
+
+def _is_non_meeting_header_line(stripped):
+    """True when a line carries a date but is not meeting evidence (spec S1)."""
+    return bool(
+        _HEADER_STAMP_RE.search(stripped)
+        or _HEADER_RECORD_RE.search(stripped)
+        or _HEADER_BEST_RE.search(stripped)
+        or _HEADER_DOB_RE.search(stripped)
+    )
+
+
 def parse_header(text):
     competicio = ""
     ubicacio = ""
@@ -1131,62 +1249,52 @@ def parse_header(text):
             break
 
     # Date in header: "Igualada, 26 junio 2021", "Mataro, 29 de gener de 2005".
-    # Spanish AND Catalan month names - 2005-era sheets are Catalan and the old
-    # parsers fell back to the FILENAME, misreading '29105' (29 Jan) as October.
-    # Lines carrying a weekday are Conersys generation stamps ("... Conersys
-    # Sports Solutions miércoles, 29 de abril de 2026"), not header dates: they
-    # sit above the meeting header and their "city" is the stamp text.
-    _stamp_re = re.compile(
-        r'conersys|gesti[oó]n|resultados|sports|solutions'
-        r'|mi[eé]rcoles|martes|jueves|viernes|s[aá]bado|domingo|lunes'
-        r'|dilluns|dimarts|dimecres|dijous|divendres|dissabte|diumenge',
-        re.IGNORECASE,
-    )
-    month_map = {
-        'enero': '01', 'febrero': '02', 'marzo': '03', 'abril': '04',
-        'mayo': '05', 'junio': '06', 'julio': '07', 'agosto': '08',
-        'septiembre': '09', 'setiembre': '09', 'octubre': '10',
-        'noviembre': '11', 'diciembre': '12',
-        'gener': '01', 'febrer': '02', 'març': '03', 'marc': '03',
-        'maig': '05', 'juny': '06', 'juliol': '07', 'agost': '08',
-        'setembre': '09', 'novembre': '11', 'desembre': '12',
-    }
-    # Catalan elision before the month: "5 d'abril de 2014" (also d'abril /
-    # d’abril). Plain "de " / bare month still match.
-    _de_month = r"(?:d['\u2019]|de\s+)?"
-    for i, line in enumerate(lines[:30]):
-        if _stamp_re.search(line):
-            continue
-        spanish_match = re.search(
-            r'([A-Za-zÀ-ÿ\.\s\-]+?),\s*(\d{1,2})\s+' + _de_month
-            + r'(' + '|'.join(month_map) + r')\s+(?:de\s+)?(\d{4})',
-            line.strip(),
-            re.IGNORECASE,
-        )
-        if spanish_match:
-            city = spanish_match.group(1).strip()
-            day = spanish_match.group(2).zfill(2)
-            month = month_map[spanish_match.group(3).lower()]
-            year = spanish_match.group(4)
-            data = f"{day}/{month}/{year}"
-            localitat = city
-            break
+    # Only the first plausible meeting header block is considered, and lines that
+    # carry a birth date, a record, a season best or a generation stamp are not
+    # meeting evidence (issue #32; see the predicates above).
+    block = _header_block(lines)
 
-    # Extract localitat and date from DD/MM/YYYY in page header (skip RCAT/RCAM
-    # record lines). Fail-layout sheets also print spaces around the slashes
-    # ("24 / 01 / 2015"); normalize to zero-padded DD/MM/YYYY. Prefer the city
-    # on the same line ("Cambrils, 24 / 01 / 2015") over the competition title
-    # on the line above ("CONTROL TERRITORIAL").
+    # Tier 1 - one day, month name: the clearest header evidence there is.
+    for line in block:
+        stripped = line.strip()
+        if _is_non_meeting_header_line(stripped):
+            continue
+        day_month = _HEADER_DAY_MONTH_RE.search(stripped)
+        if day_month:
+            day, month, year = (day_month.group(k) for k in ('day', 'month', 'year'))
+            if 1 <= int(day) <= 31:
+                data = f"{int(day):02d}/{_HEADER_MONTHS[month.lower()]}/{year}"
+                localitat = day_month.group('city').strip()
+                break
+
+    # Tier 2 - dotted title date ("17.01.2026 - RESULTADOS"). It is printed once,
+    # in the title, so it outranks any later date on the page (spec S3).
+    if not data:
+        for line in block:
+            stripped = line.strip()
+            if _is_non_meeting_header_line(stripped) or _HEADER_ROW_RE.search(stripped):
+                continue
+            dotted = _HEADER_DOTTED_DATE_RE.search(stripped)
+            if not dotted:
+                continue
+            day, month, year = (int(part) for part in dotted.groups())
+            if 1 <= day <= 31 and 1 <= month <= 12 and 2000 <= year <= 2035:
+                data = f"{day:02d}/{month:02d}/{year}"
+                break
+
+    # Tier 3 - localitat and date from DD/MM/YYYY in the page header. Fail-layout
+    # sheets also print spaces around the slashes ("24 / 01 / 2015"); normalize
+    # to zero-padded DD/MM/YYYY. Prefer the city on the same line ("Cambrils,
+    # 24 / 01 / 2015") over the competition title on the line above
+    # ("CONTROL TERRITORIAL").
     _slash_date_re = re.compile(r'(\d{1,2})\s*/\s*(\d{1,2})\s*/\s*(\d{4})')
     _same_line_city_re = re.compile(
-        r'^([A-Za-zÀ-ÿ\.\s\-]+?),\s*' + _slash_date_re.pattern
+        r'^(' + _HEADER_CITY + r'),\s*' + _slash_date_re.pattern
     )
     if not data:
-        for i, line in enumerate(lines[:30]):
+        for i, line in enumerate(block):
             stripped = line.strip()
-            if re.search(r'\bRCAT\b|\bRCAM\b', stripped):
-                continue
-            if _stamp_re.search(stripped):
+            if _is_non_meeting_header_line(stripped) or _HEADER_ROW_RE.search(stripped):
                 continue
             date_match = _slash_date_re.search(stripped)
             if date_match:
@@ -1211,24 +1319,22 @@ def parse_header(text):
                                 continue
                             if any(kw in prev for kw in ['Estadi', 'Pista', 'Pabellon', 'Pabellón']):
                                 continue
-                            if re.search(r'\bRCAT\b|\bRCAM\b', prev):
+                            if _is_non_meeting_header_line(prev):
                                 continue
                             localitat = prev
                             break
                 break
 
-    # Amposta CURSA titles glue a short date at the end of the competition
-    # line: "… AMPOSTA 5-3-16", "… AMPOSTA 13-02-16". Without these,
+    # Tier 4 - Amposta CURSA titles glue a short date at the end of the
+    # competition line: "… AMPOSTA 5-3-16", "… AMPOSTA 13-02-16". Without these,
     # era_year stays 0 and the empty-result fallback never runs (issue #26).
     _short_date_re = re.compile(
         r'(\d{1,2})\s*[-/]\s*(\d{1,2})\s*[-/]\s*(\d{2})(?!\d)'
     )
     if not data:
-        for i, line in enumerate(lines[:30]):
+        for line in block:
             stripped = line.strip()
-            if re.search(r'\bRCAT\b|\bRCAM\b', stripped):
-                continue
-            if _stamp_re.search(stripped):
+            if _is_non_meeting_header_line(stripped) or _HEADER_ROW_RE.search(stripped):
                 continue
             date_match = _short_date_re.search(stripped)
             if not date_match:
@@ -1244,6 +1350,28 @@ def parse_header(text):
             if city_m and not localitat:
                 localitat = city_m.group(1)
             break
+
+    # Tier 5 - a month-name RANGE ("Manresa, 18 i 19 de juny de 2005"). A range
+    # names two days, so it is only used when nothing more precise exists: multi-
+    # day sheets that print per-session dates are filed under their first session
+    # (that is the stored convention, tier 3/4 already picked it), while the era
+    # sheets print nothing but the range and the stored convention there is the
+    # closing day (verified against the PDFs during #28).
+    if not data:
+        for line in block:
+            stripped = line.strip()
+            if _is_non_meeting_header_line(stripped) or _HEADER_ROW_RE.search(stripped):
+                continue
+            span = _HEADER_RANGE_RE.search(stripped)
+            if not span:
+                continue
+            # The closing day: the range only names the span's two ends.
+            day, month, year = (span.group(k) for k in ('last', 'month', 'year'))
+            if 1 <= int(day) <= 31:
+                data = f"{int(day):02d}/{_HEADER_MONTHS[month.lower()]}/{year}"
+                if span.group('city'):
+                    localitat = span.group('city').strip()
+                break
 
     # Canonicalize the venue: an "Estadi Joan Serrahima" header line wins
     # over the city guess (event_name keeps the PDF text as-is).

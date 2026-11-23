@@ -1185,12 +1185,146 @@ def _is_non_meeting_header_line(stripped):
     )
 
 
+# --- competition name (issue #23) -------------------------------------------
+#
+# `event_name` is the sheet's own competition title, stored verbatim. The lines
+# below are the ones that LOOK like a title but are not (spec S3): section
+# labels of the RFEA/Conersys sheets, page markers, session/round headers,
+# venue lines, club lines, date lines, category labels and single discipline
+# headers.
+
+# Section labels and table furniture: "ACTA DEL CAMPEONATO", "ACTA POR DÍA",
+# "RESULTADOS", "SUMARIO", "CLASIFICACIÓN", "HORARIO", "Organitza: FCA".
+_HEADER_LABEL_RE = re.compile(
+    r'^\s*(?:ACTA\b'
+    r'|RESULTADOS?\b'
+    r'|RESULTATS?\b'
+    r'|SUMARI\b|SUMARIO\b'
+    r'|CLASIF\w*\b|CLASSIFICAC\w*\b'
+    r'|HORARIO\b|HORARI\b'
+    r'|Hora\b'
+    r'|P[aá]gina\b|PAG\b'
+    r'|Organitza\b|ORGANIZA\b'
+    r'|Leyenda\b|LLEGENDA\b)',
+    re.IGNORECASE,
+)
+# PDF layout markers printed above the header: "GENERAL!A1", "NERAL!A1".
+_HEADER_PAGE_RE = re.compile(r'^[A-Z]{0,7}!\S*$')
+# One discipline on its own line ("100 METRES LLISOS MASCULINS", "Llargada Femeni").
+_HEADER_DISCIPLINE_RE = re.compile(
+    r'^\s*(?:\d{1,3}(?:[.,]\d{3})?\s*(?:m\b|mt\b|metres?\b)'
+    r'|4\s*x\s*\d+'
+    r'|(?:Altura|Al[çc]ada|P[ée]rtiga|Pertiga|Perxa|Longitud|Llargada'
+    r'|Triple\s+(?:Salt|salto)|Disco|Disc|Martell|Martillo|Pes|Peso'
+    r'|Jabalina|Javelina|Dard|Marcha|Marxa|Pentatl\w*|Heptatl\w*'
+    r'|Tetratl\w*|Hexatl\w*)\b)',
+    re.IGNORECASE,
+)
+# Venue lines: "Estadi Joan Serrahima de Barcelona", "Camp de Atletisme …".
+_HEADER_VENUE_RE = re.compile(
+    r'^\s*(?:Estadi\w*|Estadio\w*|Pista\w*|Pistes\b|Pabell\w*|Pavell\w*'
+    r'|Camp\s+(?:de|Municipal)\b|Complex\w*|Instal\w*|ZEM\b'
+    r'|Zona\s+Esportiva\b)',
+    re.IGNORECASE,
+)
+# Club lines: an organising club, or a line ending in a club abbreviation.
+_HEADER_CLUB_RE = re.compile(
+    r'^\s*(?:CLUB\b|Club\s+Atletisme\b|CA\s+Tarragona\b)'
+    r'|\b(?:U\.A\.|C\.A\.|A\.A\.|C\.E\.|F\.C\.|C\.N\.|U\.E\.|U\.T\.|A\.E\.)$',
+    re.IGNORECASE,
+)
+# Session and round headers: "1a. Sèrie", "1 SERIE", "1a. Semifinal".
+_HEADER_SESSION_RE = re.compile(
+    r'^\s*(?:\d+\s*[ªaè]?\.?\s*)?'
+    r'(?:S[èe]rie|Serie|Semifinal\w*|Sessi[oó]\w*)\b',
+    re.IGNORECASE,
+)
+# A round marker is a label when it is short ("Final 1/2", "Final 07/04/2018
+# 11:45"); a competition title may legitimately start with the word
+# ("Final Cnat Catalunya Clubs. Grup "B"").
+_HEADER_FINAL_RE = re.compile(
+    r'^\s*(?:\d+\s*[ªaè]?\.?\s*)?Final\b', re.IGNORECASE)
+# Clock-of-day markers: "10,05 H", "10,00 HORES".
+_HEADER_CLOCK_RE = re.compile(
+    r'^\d{1,2}[.,]\d{2}\s*(?:H\b|HORES\b|HORAS\b)', re.IGNORECASE)
+# Category labels: "CATEGORIA : MASCULINA".
+_HEADER_CATEGORY_RE = re.compile(
+    r'^\s*(?:CATEGORIA|Categor[íi]a|SEXE|SEXO)\b', re.IGNORECASE)
+# A round number on its own: "4a. Jornada", printed above the title.
+_HEADER_ORDINAL_JORNADA_RE = re.compile(
+    r'^\s*\d+\s*[ªaè]?\.?\s*Jornada\s*$', re.IGNORECASE)
+# Two header cells merged into one extracted line (title + venue side by side).
+_HEADER_TWO_COLUMN_RE = re.compile(r'\S\s{6,}\S')
+# A full date in a title line means the line is the venue/date line
+# ("Cambrils, 09/02/08"), not the competition title. Glued short dates stay:
+# "TERRITORIAL AMPOSTA 25-4-15" is the title the sheet prints.
+_NAME_DATE_RE = re.compile(
+    r'\d{1,2}\s*/\s*\d{1,2}\s*/\s*\d{2,4}'
+    r'|\b\d{1,2}\.\d{1,2}\.\d{4}\b'
+    r'|\b\d{1,2}\s+(?:de\s+|d[\'\u2019]\s*)?(?:' + _HEADER_MONTH_ALT + r')\b'
+    r'|\b\d{1,2}-\d{1,2}-\d{4}\b',
+    re.IGNORECASE,
+)
+
+
+def _is_title_candidate(line):
+    """True when a header line can be the sheet's competition title (spec S3)."""
+    s = line.strip()
+    if not s or not re.search(r'[A-Za-z\u00c0-\u00ff]{2}', s):
+        return False
+    if _is_non_meeting_header_line(s):
+        return False
+    if _HEADER_LABEL_RE.match(s) or _HEADER_PAGE_RE.match(s):
+        return False
+    if _HEADER_TABLE_RE.search(s) or _HEADER_ROW_RE.search(s):
+        return False
+    if _HEADER_VENUE_RE.match(s) or _HEADER_CLUB_RE.search(s):
+        return False
+    if _HEADER_DISCIPLINE_RE.match(s):
+        return False
+    if _HEADER_SESSION_RE.match(s) or _HEADER_CATEGORY_RE.match(s):
+        return False
+    if _HEADER_CLOCK_RE.match(s) or _HEADER_ORDINAL_JORNADA_RE.match(s):
+        return False
+    if _HEADER_FINAL_RE.match(s) and len(s) < 25:
+        return False
+    if re.match(r'^\(.*\)$', s):
+        return False
+    # A merged two-column line carries the venue with the title, and a bare
+    # date/city line is the header's place line, not its title.
+    if _HEADER_TWO_COLUMN_RE.search(s):
+        return False
+    date = _NAME_DATE_RE.search(s)
+    if date:
+        before = s[:date.start()].rstrip()
+        outside = re.sub(r'[^0-9A-Za-z\u00c0-\u00ff]', '',
+                         s[:date.start()] + s[date.end():])
+        if before.endswith(',') or len(outside) < 20:
+            return False
+    if not re.search(r'\s', s) and len(s) < 20:
+        return False  # a bare city ("Sabadell", "Reus") is not a title
+    return True
+
+
+def _header_title(lines):
+    """The competition title of the header block, verbatim (specs S1-S3).
+
+    Empty when the sheet prints no line that can be its competition title: a
+    name is never invented from the venue, a discipline or the file name.
+    """
+    for line in _header_block(lines):
+        if _is_title_candidate(line):
+            return line.strip()
+    return ""
+
+
 def parse_header(text):
     competicio = ""
     ubicacio = ""
     localitat = ""
     data = ""
     lines = text.split('\n')
+    block = _header_block(lines)
 
     # Generic competition name: any line containing "Jornada"/"Jornadas"/"Jornades" and
     # "Campionat"/"Campeonato". Also accept lines with just "Campionat"/"Campeonato"
@@ -1202,44 +1336,38 @@ def parse_header(text):
     # (issue #26 fail layouts).
     _campionat_re = re.compile(r'Campionat(?:u)?|Campeonato', re.IGNORECASE)
     _control_re = re.compile(r'\bControl\b', re.IGNORECASE)
-    for i, line in enumerate(lines[:30]):
-        stripped = line.strip()
-        if jornada_re.search(stripped) and _campionat_re.search(stripped):
-            competicio = stripped
+
+    def _campionat_tier(s):
+        # Reject "Campionatu…" false positives the old substring check already
+        # filtered; keep the same shape under IGNORECASE.
+        m = _campionat_re.search(s)
+        return bool(m and not s[m.start():].lower().startswith('campionatu')
+                    and not jornada_re.search(s))
+
+    # The title is a header line, so every tier reads only the header block and
+    # only lines that can be a title at all (issue #23). The keyword tiers come
+    # first because they disambiguate sheets that print a round label above the
+    # title ("JORNADA PRÈVIA" / "CAMPIONAT DE CATALUNYA …"); the last tier is
+    # the plain title line, which is what most families print.
+    _title_tiers = (
+        lambda s: jornada_re.search(s) and _campionat_re.search(s),
+        _campionat_tier,
+        lambda s: jornada_re.search(s)
+        and 'sesión' not in s.lower() and 'sesion' not in s.lower(),
+        lambda s: _control_re.search(s)
+        and 'sesión' not in s.lower() and 'sesion' not in s.lower(),
+        lambda s: re.search(r'Nacionales\s+Sub[-\s]\d+', s, re.IGNORECASE),
+    )
+    for tier in _title_tiers:
+        for line in block:
+            stripped = line.strip()
+            if tier(stripped) and _is_title_candidate(stripped):
+                competicio = stripped
+                break
+        if competicio:
             break
     if not competicio:
-        for i, line in enumerate(lines[:30]):
-            stripped = line.strip()
-            # Reject "Campionatu…" false positives the old substring check
-            # already filtered; keep the same shape under IGNORECASE.
-            m = _campionat_re.search(stripped)
-            if m and not stripped[m.start():].lower().startswith('campionatu') \
-                    and not jornada_re.search(stripped):
-                competicio = stripped
-                break
-    # Fallback: accept "Jornada"/"Jornadas"/"Jornades" alone as competition name
-    # (e.g., "3ª Jornada Llançaments Llargs d'Hivern Sub14-16",
-    #  "IX Jornades Atlètiques Torredembarra")
-    if not competicio:
-        for i, line in enumerate(lines[:30]):
-            stripped = line.strip()
-            if jornada_re.search(stripped) and 'sesión' not in stripped.lower() and 'sesion' not in stripped.lower():
-                competicio = stripped
-                break
-    # Fallback: accept "Control" as competition name (e.g., "6è Control de Promoció Sub16-18")
-    if not competicio:
-        for i, line in enumerate(lines[:30]):
-            stripped = line.strip()
-            if _control_re.search(stripped) and 'sesión' not in stripped.lower() and 'sesion' not in stripped.lower():
-                competicio = stripped
-                break
-    # Fallback: RFEA "Nacionales Sub-XX" (e.g., Allianz Nacionales Sub-18 Short Track)
-    if not competicio:
-        for i, line in enumerate(lines[:30]):
-            stripped = line.strip()
-            if re.search(r'Nacionales\s+Sub[-\s]\d+', stripped, re.IGNORECASE):
-                competicio = stripped
-                break
+        competicio = _header_title(lines)
 
     # Generic venue: any line containing "Estadi", "Pista", "Pabellon", "Pabellón"
     for i, line in enumerate(lines[:20]):
@@ -1252,7 +1380,6 @@ def parse_header(text):
     # Only the first plausible meeting header block is considered, and lines that
     # carry a birth date, a record, a season best or a generation stamp are not
     # meeting evidence (issue #32; see the predicates above).
-    block = _header_block(lines)
 
     # Tier 1 - one day, month name: the clearest header evidence there is.
     for line in block:

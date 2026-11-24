@@ -52,6 +52,9 @@ S5. Verification: `python3 -m unittest discover -s tests` green;
 | T2 | S2 | Classify every null wind-applicable row; emit the CSV + summary | | done |
 | T3 | S4 | `is_short_track` contract report | | done |
 | T4 | S5 | Verification + report the real defect size by family | | done |
+| T5 | S4 | Fix `is_short_track` for the 21 `flag-false-but-indoor` files | | done |
+| T6 | S2→S5 | Re-run the audit on the fixed flags; decide the contradiction set | | done, 125 rows need a decision |
+| T7 | S1 | Repair the `pdf-has-wind` rows from the sheet, per row | | done, 332 rows |
 
 ## Log
 
@@ -63,6 +66,15 @@ L3. Built `scripts/check_wind.py` + `tests/test_check_wind.py` (38 unit tests on
     PDFs: **2m45s**, idempotent (byte-identical CSV on a repeated run), no write
     outside `reports/` (and `pdf_cache/`, where 76 PDFs that were missing got
     downloaded; the rest of the sources were already cached).
+
+L4. Repair slice, in the dictated order. `is_short_track` fixed for the 21
+    `flag-false-but-indoor` files (that field only), audit re-run: same
+    measurement, contract report cleared.
+L5. Step 2 found the contradiction the order was meant to expose: 125
+    wind-bearing rows in 5 now-indoor Cambrils combined-event files. Declined
+    pending an owner decision, never guessed.
+L6. Repaired the remaining `pdf-has-wind` rows: 332 written, 15 skipped on a
+    status mark, 1 declined as a stored-data defect, 27 `unmatched` untouched.
 
 ## Results (T1-T4)
 
@@ -189,3 +201,138 @@ local rather than bending an extractor helper into a measuring tool.
 - 60 m flat is a legitimately wind-applicable outdoor distance (youth meets run it
   outdoors with no wind header); those rows land in `pdf-no-wind`, which is why
   the 60 m share of the naive count is not all defect.
+
+## Repair slice (T5-T7)
+
+Order was the point: the `is_short_track` contract first, so that a wind is never
+written into a row whose own file says pista coberta.
+
+### T5 — `is_short_track` for the 21 contract files (flag only)
+
+All 21 `flag-false-but-indoor` files in `reports/short_track_contract.csv` now
+carry `"is_short_track": true`. 12 are proven by the PDF header
+(`DE PISTA COBERTA` combined championships 2006-2016, plus
+`resulcatclubsveteranspcp250114`), 9 by the disciplines (2025 Sabadell `...pc...`
+meets: every section marked `PC`, none marked `AL`). The 22nd row of the report
+(`2026/resultat-20260621-catsub1823girona`, URL 404s) is left alone - unverified.
+
+`git diff -U0 -- seasons/` at that point: 21 removed `"is_short_track": false`,
+21 added `"is_short_track": true`. Nothing else.
+
+### T6 — re-audit after the flag fix, and the contradiction it exposes
+
+`reports/short_track_contract.csv` clears to the single `unverified-no-pdf` row:
+every file now agrees with its own evidence. `reports/wind_audit.csv` is
+**byte-identical** to the pre-fix run (473 `pdf-has-wind`), because the audit
+classifies from the sheet and the sheet does print those winds - there is even a
+test pinning that order (`test_printed_wind_beats_indoor`: a value printed by an
+indoor sheet is still a printed value).
+
+So the 125 rows do not reclassify; they are the contradiction to decide:
+
+| rows | file | the sheet prints |
+|------|------|------------------|
+| 38 | `2016/resulcontrolcombinadescambrils19201215` | `VENT : -0,9` per series |
+| 24 | `2008/resulcombicambrils231207` | per-series `VENT` + jump wind lines |
+| 22 | `2014/resulcombinadeshiverncambrils21221213` | per-series `VENT` |
+| 21 | `2013/resulcnatterritcombinadeshiverntgna22231212` | per-series `VENT` |
+| 20 | `2015/resulcombinadescambrils20121214` | per-series `VENT` |
+
+All five are the December Cambrils combined championships headed
+`CAMPIONAT TERRITORIAL DE PROVES COMBINADES / DE PISTA COBERTA`, and all five
+print a wind for the sprint/hurdle series (values like `+1.7`, `-0.9`, `+0.1`;
+48 of the 125 are a literal `0.0`). Two readings fit and the sheet alone does not
+choose: either the meet ran outdoors despite the title, or the timing software
+prints its wind field indoors too. **These 125 rows are not repaired.** Storing
+an indoor wind contradicts the `is_short_track` contract that was just asserted;
+discarding a printed measurement without evidence would also be a guess. Owner
+decision needed: (a) keep them indoor and null, and treat the printed wind as
+template noise; or (b) if the meet was outdoor, revert the flag for that file and
+re-run the repair for its rows.
+
+### T7 — the repair (332 rows, 92 files)
+
+Only the remaining `pdf-has-wind` rows were written, each with the value
+`reports/wind_audit.csv` already recorded for it (`wind_on_sheet`, located by the
+audit's own tested evidence: series header, attempt wind line, row column).
+
+- **repaired: 332** rows in 92 files - long jump 196, sprint 68, hurdles 59,
+  triple 9. 43 of them are a zero wind.
+- **skipped, status mark: 15** - the mark is `NP`/`Ret.`/`RET.`, so there is no
+  mark to attach a wind to: `2006 BERNAT ROCAMORA CHAPARRO` 200 m `RET.`;
+  `2014 DÍDAC ALONSO DEL CAMPO` 100m TQ `Ret.`; `2016 JOSEP MARIA MATEO SANZ`
+  100m TQ `Ret`; `2018 Aina Tomas Virgili` / `Cristina Reyes Alcantara` 60m TQ
+  `NP`; `2019 Ruth Martinez Rosillo` 220m valles `NP`; `2023 Carla Borras
+  Verges` + `tapiro CF 4` 60m/80m valles/100m `NP` (4); `2023 Enzo Mate Gras`
+  150m `NP`; `2024 Ferran` + `Marius Badia Riera` 220m valles `NP`.
+- **declined, 1**: `2016 PRADILLO GUTIERREZ MARISA Llargada 2.30` - the stored
+  mark is not a mark (her sheet MARCA is 3,14 and her attempts are 3,05-3,14);
+  the audit aligned it to the `VENTS` table where `2,30` is her 6th wind. A
+  stored-data defect, not a wind one.
+- **declined, 125**: the contradiction set above.
+- **unmatched: 27 rows, unchanged** - listed in `reports/wind_audit.csv`, still
+  never guessed.
+
+Conventions, checked against what the dataset already did rather than invented:
+
+- spelling is `sign + one decimal`; zero is stored as `+0.0`, the spelling 994
+  existing rows already use, so `-0.0` and `+0,00` land there too (a signed zero
+  is the same measurement). 5 rows were printing `-0.0`, 4 were `+0.00`.
+- the two decisions this slice added are pinned by tests in
+  `tests/test_check_wind.py` (`TestWindSpelling`): zero-wind spelling and the
+  status-mark skip. `format_wind()` lives in `check_wind.py` and only
+  normalises spelling - it never invents a value and refuses anything out of the
+  measuring range. The audit itself stays read-only.
+
+### Verification
+
+- `python3 -m unittest discover -s tests` → **252 tests OK** (246 before, +6).
+- `scripts/check_plausibility.py` → **259**, unchanged (the ceiling).
+- `scripts/check_wind.py`, class counts after T6 and after T7:
+
+  | class | before | after T6 | after T7 |
+  |-------|--------|----------|----------|
+  | `pdf-has-wind` | 473 | 473 | **141** |
+  | `pdf-no-wind` | 5,586 | 5,586 | 5,586 |
+  | `indoor` | 3,657 | 3,657 | 3,657 |
+  | `combined-event` | 763 | 763 | 763 |
+  | `unmatched` | 27 | 27 | 27 |
+  | rows audited | 10,506 | 10,506 | 10,174 |
+
+  The 141 left are exactly the accounted remainder: 125 contradiction + 15 status
+  + 1 declined. Nothing else moved class.
+- `git diff -U0 -- seasons/`: 332 `"wind": null` → value, 21 `"is_short_track"`
+  false → true, and nothing else. Every written value matches `[+-]d.d`.
+- Per file, the JSON is byte-identical apart from the changed `wind` values
+  (structurally asserted: same keys, same row count, no other field touched;
+  written through a sibling temp file + `os.replace()`).
+- `#21`'s invariant holds after the repair: **0** rows carry a wind on a
+  discipline `wind_applicable()` rejects; rows with a wind went 6,578 → 6,910.
+- `reports/wind_audit.csv` now lists the 10,174 rows still null; the pre-repair
+  measurement (10,506 rows, 473 `pdf-has-wind`) is the committed version at
+  `657c4d29`.
+
+### Risks found in this slice (not fixed)
+
+- **Team-shaped athlete names under individual disciplines**: `tapiro CF 4` and
+  `tapiro SF 4` are stored as athletes in `2023/resultat-20230415-...cambrils`
+  under `60m`/`80m valles`/`100m`. They only surfaced because their marks are
+  `NP`, so they were skipped, but the rows exist.
+- **2-decimal and unsigned wind values already in the dataset** (`1.61`, `1.48`,
+  `0.0`, `1.6`, …): ~500 pre-existing values do not follow the `sign + one
+  decimal` contract. They were not written by this slice and were left alone;
+  normalising them is a separate, mechanical slice if the loader cares.
+- **The VENTS-table layout** (a second table below the marks table, one line per
+  athlete) is what defeated the audit for the `PRADILLO` row; a future audit
+  revision could look the wind up in that table by athlete instead of by column.
+L7. Parent decision on the 125 rows the repair slice stopped at (the December Cambrils
+combined championships). Evidence read from all five PDFs: every one contains **only
+`60 METRES LLISOS` and `60 METRES TANQUES`** — no 100 m anywhere — and each is titled
+`… PROVES COMBINADES / DE PISTA COBERTA`. So they are indoor pentathlons, `is_short_track:
+true` is right, and the per-series `VENT : -0,9` is the timing template printing a field
+that does not apply indoors (48 of the 125 are a literal `0.0`, which fits a placeholder).
+**Rule adopted: indoor beats a printed wind.** `check_wind.decide()` now classifies a row
+as `indoor` when the file is indoor or the row's own section says `PC`, and notes
+`printed-wind-not-applicable` instead of promoting it to a defect. `test_printed_wind_beats_indoor`
+was replaced by `test_indoor_beats_printed_wind` for the same reason. The 125 rows keep
+`wind: null`; their sheets' VENT column is not a measurement.

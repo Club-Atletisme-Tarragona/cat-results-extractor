@@ -18,7 +18,9 @@ from check_wind import (  # noqa: E402
     Sheet,
     classify_family,
     decide,
+    format_wind,
     is_event_title,
+    is_status_mark,
     parse_wind_header,
     wind_tokens,
 )
@@ -331,12 +333,18 @@ class TestClassPrecedence(unittest.TestCase):
                    indoor=True)
         self.assertEqual(d.cls, "indoor")
 
-    def test_printed_wind_beats_indoor(self):
-        # a wind printed by an indoor sheet is still a printed wind
+    def test_indoor_beats_printed_wind(self):
+        # A pista coberta meet does not measure wind, so a VENT column there is
+        # the timing template printing its field, not a measurement. Decision
+        # taken on the five December Cambrils combined championships: titled
+        # DE PISTA COBERTA, every section 60 m / 60 m hurdles, no 100 m, yet
+        # each series prints `VENT : -0,9`. Storing it would contradict the
+        # indoor contract the same file declares.
         sheet = Sheet(INDOOR_HEADER + "\n" + SERIES_SHEET)
         d = decide(sheet, row("PROS GUASCH, RUBEN", "60 metres llisos", "10.57"),
                    indoor=True)
-        self.assertEqual(d.cls, "pdf-has-wind")
+        self.assertEqual(d.cls, "indoor")
+        self.assertIn("printed-wind-not-applicable", d.note)
 
     def test_combined_event(self):
         sheet = Sheet(COMBINED_SHEET)
@@ -366,6 +374,50 @@ class TestPerfLookup(unittest.TestCase):
         self.assertTrue(is_status_mark('NP'))
         self.assertTrue(is_status_mark('DQ'))
         self.assertFalse(is_status_mark('7.00'))
+
+
+class TestWindSpelling(unittest.TestCase):
+    """The spelling a repair writes: the dataset's, not the sheet's.
+
+    The value always comes from the sheet; only its spelling is normalised, so
+    the tests pin the spelling conventions that already exist in
+    ``seasons/*/json/`` instead of inventing new ones.
+    """
+
+    def test_keeps_a_signed_value(self):
+        self.assertEqual(format_wind("+1.2"), "+1.2")
+        self.assertEqual(format_wind("-0.8"), "-0.8")
+
+    def test_adds_the_missing_sign(self):
+        self.assertEqual(format_wind("1.2"), "+1.2")
+        self.assertEqual(format_wind("1,2"), "+1.2")
+
+    def test_zero_follows_the_existing_convention(self):
+        # 994 rows already store a zero wind as '+0.0'; a signed zero is the
+        # same measurement (0 m/s), so it gets the same spelling.
+        self.assertEqual(format_wind("0.0"), "+0.0")
+        self.assertEqual(format_wind("+0.0"), "+0.0")
+        self.assertEqual(format_wind("-0.0"), "+0.0")
+        self.assertEqual(format_wind("- 0,0"), "+0.0")
+
+    def test_one_decimal(self):
+        self.assertEqual(format_wind("+0.00"), "+0.0")
+        self.assertEqual(format_wind("-1.46"), "-1.5")
+        self.assertEqual(format_wind("+2,55"), "+2.6")
+
+    def test_refuses_a_mark_and_a_blank(self):
+        # a wind above the measuring range is an attempt, not a wind
+        self.assertIsNone(format_wind("12.30"))
+        self.assertIsNone(format_wind("+64.96"))
+        self.assertIsNone(format_wind(""))
+        self.assertIsNone(format_wind(None))
+        self.assertIsNone(format_wind("nul"))
+
+    def test_status_mark_has_no_wind_to_attach(self):
+        for mark in ("NP", "N.P.", "Ret.", "DQ", "DNS", "DNF", "-"):
+            self.assertTrue(is_status_mark(mark), mark)
+        for mark in ("7.00", "4,63", "-0.0"):
+            self.assertFalse(is_status_mark(mark), mark)
 
 
 class TestIndoorSignals(unittest.TestCase):

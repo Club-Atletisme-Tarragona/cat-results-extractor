@@ -39,6 +39,7 @@ import re
 import sys
 import unicodedata
 from collections import Counter, OrderedDict, namedtuple
+from decimal import Decimal, InvalidOperation, ROUND_HALF_UP
 from functools import lru_cache
 from pathlib import Path
 from urllib.request import Request, urlopen
@@ -358,6 +359,39 @@ def is_status_mark(performance):
     return str(performance or "").strip().upper().rstrip(".") in STATUS_MARKS
 
 
+MAX_WIND = 9.9
+
+
+def format_wind(value):
+    """The dataset's spelling of a wind: sign always present, one decimal.
+
+    The value always comes from the sheet (``wind_on_sheet`` in the audit
+    CSV); this normalises only its spelling, it never invents a measurement.
+    A zero wind is stored as ``+0.0``, the spelling 994 existing rows use, so
+    ``-0.0`` and ``+0,00`` land there too: a signed zero is the same
+    measurement as zero. Returns None for anything that is not a wind in the
+    measuring range (a mark, a blank, a status word).
+    """
+    text = str(value or "").strip().replace(",", ".").replace(" ", "")
+    if not text:
+        return None
+    sign = ""
+    if text[0] in "+-":
+        sign, text = text[0], text[1:]
+    try:
+        number = Decimal(text)
+    except (InvalidOperation, ValueError):
+        return None
+    if not number.is_finite():
+        return None
+    if abs(number) > Decimal(str(MAX_WIND)):
+        return None
+    number = abs(number).quantize(Decimal("0.1"), rounding=ROUND_HALF_UP)
+    if not number:
+        return "+0.0"
+    return ("-" if sign == "-" else "+") + f"{number:.1f}"
+
+
 def _locate_perf(sheet, index, perf):
     """Distance from a name line to the line of its block carrying the mark.
 
@@ -517,10 +551,18 @@ def decide(sheet, row, indoor=False):
     note = why + ((";" + note) if note else "")
     if is_status_mark(perf):
         note += ";status-mark"
+    # Indoor wins over a printed wind: a pista coberta meet does not measure
+    # wind, so a `VENT` column there is the timing template printing its field,
+    # not a measurement. The five December Cambrils combined championships are
+    # the case in point: titled `DE PISTA COBERTA` and every section is 60 m /
+    # 60 m hurdles (no 100 m anywhere), yet each series prints `VENT : -0,9`.
+    # The same applies row-wise: a `PC` section inside a mixed meet.
+    if indoor or row_says_indoor(row):
+        if value:
+            note += ";printed-wind-not-applicable"
+        return Decision("indoor", None, evidence or "", note, family)
     if value:
         return Decision("pdf-has-wind", value, evidence or "", note, family)
-    if indoor:
-        return Decision("indoor", None, evidence or "", note, family)
     if sheet.combined_at(chosen):
         return Decision("combined-event", None, evidence or "", note, family)
     if why in ("no-attempts", "attempt-not-found", "wind-line-misaligned"):

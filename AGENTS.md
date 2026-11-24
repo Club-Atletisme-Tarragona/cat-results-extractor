@@ -308,10 +308,24 @@ If wind values aren't found on the next line, look for a single wind value on it
 
 Migration contract with the DB loader (odd/tasks/timing-short-track.md):
 
-- `"is_short_track": true` for indoor (pista coberta) competitions, detected
-  from the header/event name (`Pista Coberta`/`Pista Cubierta`/`Short Track`),
-  the URL (`/Pcoberta/`, `/short_track/`) or the era file-name convention
-  (`pc` glued before digits: `resulcontrolpc15105`). Absent/`false` = outdoor.
+- `"is_short_track"` goes on **every result row and never in the header.**
+  The consumer's contract validator treats a header-level key as a **hard
+  error**, and the owner decided the flag is a property of the *mark*, not of
+  the file. A header-level key blocked the entire night-time auto-import
+  (incident 2026-11-24, web-issues#161) and burned one quarantine attempt per
+  file per weekly run.
+
+  The row value comes from, in order: the row's own section marker (`PC` ->
+  `true`, `AL`/`Aire Lliure` -> `false`; a mixed meet prints both), then the
+  competition-level detection (header/event name `Pista Coberta`/`Pista
+  Cubierta`/`Short Track`, the URL `/Pcoberta/`, `/short_track/`, or the era
+  file-name convention `pc` glued before digits: `resulcontrolpc15105`).
+  `extract_catt.row_short_track()` implements that order; the header key must
+  not be re-emitted.
+- `scripts/migrate_short_track_to_rows.py` moves the flag from a header to the
+  rows for existing files (idempotent, dry-run default) and
+  `tests/test_data_contract.py::test_is_short_track_lives_on_rows_never_in_the_header`
+  keeps both halves of the rule.
 - `"timing": "electronic" | "manual"` **per row**; absent -> electronic.
   Hand timekeeping shows as a time without centiseconds, often with a trailing
   `-` (`7.2-`). **The row wins over the header**: a hand-timed row inside an
@@ -330,7 +344,6 @@ The JSON output has this structure:
   "event_date": "DD/MM/YYYY",
   "event_location": "city/venue",
   "total_results": 42,
-  "is_short_track": false,
   "results": [
     {
       "athlete_name": "NAME",
@@ -338,6 +351,7 @@ The JSON output has this structure:
       "athlete_id": "license",
       "performance": "time/distance/points",
       "discipline": "event name",
+      "is_short_track": false,
       "wind": "+1.2 or null"
     }
   ]

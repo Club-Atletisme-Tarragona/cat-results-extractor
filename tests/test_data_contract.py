@@ -80,6 +80,34 @@ class TestSourceFileContract(unittest.TestCase):
         # Sanity: the scan must actually find the dataset.
         self.assertGreater(len(self.files), 1000)
 
+    def test_is_short_track_lives_on_rows_never_in_the_header(self):
+        """Consumer contract (web-issues#161, incident 2026-11-24).
+
+        The web app's `ImportPayloadContractValidator` treats the presence of
+        `is_short_track` in the header as a HARD ERROR, and the owner decided
+        the flag belongs to the mark. A header-level key blocked the whole
+        night-time auto-import and burned one quarantine attempt per file per
+        weekly run.
+        """
+        bad_header = []
+        bad_rows = []
+        for fp in self.files:
+            data = json.load(open(fp, encoding="utf-8"))
+            if "is_short_track" in data:
+                bad_header.append(fp)
+            for i, row in enumerate(data.get("results") or []):
+                value = row.get("is_short_track", "missing")
+                if value is not True and value is not False:
+                    bad_rows.append(f"{fp}[{i}]={value!r}")
+        self.assertEqual(
+            bad_header, [],
+            f"is_short_track must not appear at header level: {bad_header[:5]}",
+        )
+        self.assertEqual(
+            bad_rows, [],
+            f"every result row needs a boolean is_short_track: {bad_rows[:5]}",
+        )
+
     def test_event_date_present_and_valid(self):
         bad = []
         for fp in self.files:

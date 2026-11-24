@@ -1,8 +1,8 @@
 """Unit tests for the export contract fields (odd/tasks/timing-short-track.md).
 
-Contract: "is_short_track": true for indoor (pista coberta) competitions and
-"timing": "electronic" | "manual" per row, absent -> electronic. The row wins
-over the header.
+Contract: `is_short_track` on every ROW (a property of the mark; the consumer
+rejects it at header level) and "timing": "electronic" | "manual" per row,
+absent -> electronic. The row wins over the header.
 """
 
 import sys
@@ -14,6 +14,7 @@ sys.path.insert(0, str(REPO_ROOT))
 
 from extract_catt import (  # noqa: E402
     detect_short_track,
+    row_short_track,
     timing_from_mark,
 )
 
@@ -100,3 +101,28 @@ class TestTimingFromMark(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+class TestRowShortTrack(unittest.TestCase):
+    """The flag belongs to the mark, so a mixed meet can carry both values.
+
+    A sheet that prints `60m S14 Hombres AL` beside `60m S12 Hombres PC` is not
+    indoor: the file-level flag cannot describe both, which is why the export
+    contract puts the value on each row.
+    """
+
+    def test_section_pc_is_indoor_even_in_an_outdoor_file(self):
+        self.assertIs(row_short_track("60m S12 Hombres PC", False), True)
+
+    def test_section_al_is_outdoor_even_in_an_indoor_file(self):
+        self.assertIs(row_short_track("60m S14 Hombres AL", True), False)
+
+    def test_aire_lliure_spelled_out(self):
+        self.assertIs(row_short_track("Llargada Aire Lliure", True), False)
+
+    def test_no_section_marker_falls_back_to_the_file(self):
+        self.assertIs(row_short_track("100 metres llisos", True), True)
+        self.assertIs(row_short_track("100 metres llisos", False), False)
+
+    def test_no_substring_false_positive(self):
+        # 'AL' inside a word is not the outdoor marker
+        self.assertIs(row_short_track("Llançament de javelina", True), True)

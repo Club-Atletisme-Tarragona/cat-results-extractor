@@ -4,7 +4,6 @@
   "event_location": "Tarragona",
   "total_results": 15,
   "event_src": "https://fcatletisme.cat/wp-content/uploads/2026/05/resultat-20260502-controlvelocitatmaigtarragona.pdf",
-  "is_short_track": false,
   "results": [
     {
       "athlete_name": "UNAI OLAYA MINGUEZ",
@@ -14,6 +13,7 @@
       "discipline": "100 m Hombres",
       "wind": "+1.8",
       "position": null,
+      "is_short_track": false,
       "timing": "electronic"
     },
     {
@@ -24,6 +24,7 @@
       "discipline": "100 m Hombres",
       "wind": "+1.8",
       "position": null,
+      "is_short_track": false,
       "timing": "electronic"
     },
     {
@@ -34,6 +35,7 @@
       "discipline": "100 m Hombres",
       "wind": "+1.2",
       "position": null,
+      "is_short_track": false,
       "timing": "electronic"
     },
     {
@@ -44,6 +46,7 @@
       "discipline": "100 m Hombres",
       "wind": "+2.3",
       "position": null,
+      "is_short_track": false,
       "timing": "electronic"
     },
     {
@@ -54,6 +57,7 @@
       "discipline": "200 m Hombres",
       "wind": "+0.0",
       "position": null,
+      "is_short_track": false,
       "timing": "electronic"
     },
     {
@@ -64,6 +68,7 @@
       "discipline": "200 m Hombres",
       "wind": "+0.0",
       "position": null,
+      "is_short_track": false,
       "timing": "electronic"
     },
     {
@@ -74,6 +79,7 @@
       "discipline": "200 m Hombres",
       "wind": "+0.0",
       "position": null,
+      "is_short_track": false,
       "timing": "electronic"
     },
     {
@@ -84,6 +90,7 @@
       "discipline": "300 m Hombres",
       "wind": null,
       "position": null,
+      "is_short_track": false,
       "timing": "electronic"
     },
     {
@@ -94,6 +101,7 @@
       "discipline": "300 m Hombres",
       "wind": null,
       "position": null,
+      "is_short_track": false,
       "timing": "electronic"
     },
     {
@@ -104,6 +112,7 @@
       "discipline": "100 m Mujeres",
       "wind": "+1.8",
       "position": null,
+      "is_short_track": false,
       "timing": "electronic"
     },
     {
@@ -114,6 +123,7 @@
       "discipline": "100 m Mujeres",
       "wind": "-0.3",
       "position": null,
+      "is_short_track": false,
       "timing": "electronic"
     },
     {
@@ -124,6 +134,7 @@
       "discipline": "200 m Mujeres",
       "wind": "+1.7",
       "position": null,
+      "is_short_track": false,
       "timing": "electronic"
     },
     {
@@ -134,6 +145,7 @@
       "discipline": "200 m Mujeres",
       "wind": "+0.5",
       "position": null,
+      "is_short_track": false,
       "timing": "electronic"
     },
     {
@@ -144,6 +156,7 @@
       "discipline": "200 m Mujeres",
       "wind": "+0.5",
       "position": null,
+      "is_short_track": false,
       "timing": "electronic"
     },
     {
@@ -154,6 +167,7 @@
       "discipline": "300 m Mujeres",
       "wind": null,
       "position": null,
+      "is_short_track": false,
       "timing": "electronic"
     }
   ]

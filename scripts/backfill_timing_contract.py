@@ -2,7 +2,8 @@
 """Backfill the export-contract fields into the stored season JSONs.
 
 Contract (odd/tasks/timing-short-track.md): every stored JSON gains
-"is_short_track": bool at file level and "timing": "electronic"|"manual"
+"is_short_track": bool on every ROW (never in the header, which the consumer's
+contract validator rejects) and "timing": "electronic"|"manual"
 per row, absent -> electronic. This script does NOT re-extract: it derives
 both fields from what is already stored (the event name, the URL, the row
 marks), so era-parser files get the same contract without touching their
@@ -25,7 +26,11 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
-from extract_catt import detect_short_track, timing_from_mark  # noqa: E402
+from extract_catt import (  # noqa: E402
+    detect_short_track,
+    row_short_track,
+    timing_from_mark,
+)
 
 SEASONS_DIR = ROOT / "seasons"
 
@@ -52,8 +57,10 @@ def main():
 
         st = detect_short_track(data.get("event_name") or "",
                                 data.get("event_src") or "")
-        if data.get("is_short_track") != st:
-            data["is_short_track"] = st
+        # The flag belongs to the mark: it is written on every row and never in
+        # the header (the consumer treats a header-level key as a hard error).
+        if "is_short_track" in data:
+            del data["is_short_track"]
             changed = True
         stats["short_track" if st else "aire_lliure"] += 1
 
@@ -64,6 +71,12 @@ def main():
             if r.get("timing") is None:
                 r["timing"] = timing_from_mark(r.get("performance"))
                 changed = True
+            want = row_short_track(
+                r.get("raw_discipline_name") or r.get("discipline") or "", st)
+            if r.get("is_short_track") is not want:
+                r["is_short_track"] = want
+                changed = True
+            t = r.get("timing") or "electronic"
             stats[f"timing_{t}"] += 1
             if t == "manual" and len(examples["manual"]) < 10:
                 examples["manual"].append(

@@ -1032,6 +1032,30 @@ def detect_short_track(text, url=None):
     return False
 
 
+# Section markers that decide the flag row by row. A mixed meet prints
+# `60m S14 Hombres AL` beside `60m S12 Hombres PC`; the row's own section is
+# better evidence than the file, which cannot be both.
+_ROW_INDOOR_RE = re.compile(r"\bPC\b|pista coberta|pista cubierta", re.IGNORECASE)
+_ROW_OUTDOOR_RE = re.compile(r"\bAL\b|aire lliure", re.IGNORECASE)
+
+
+def row_short_track(raw_discipline, file_flag):
+    """`is_short_track` for one result row.
+
+    The export contract puts the flag on every row (never in the header) because
+    the consumer's validator treats a header-level key as a hard error and the
+    flag is a property of the mark. A row whose own section says `PC` is indoor
+    even when the file is not; one that says `AL` is outdoor even when the file
+    is indoor; otherwise the file wins.
+    """
+    text = str(raw_discipline or "")
+    if _ROW_INDOOR_RE.search(text):
+        return True
+    if _ROW_OUTDOOR_RE.search(text):
+        return False
+    return bool(file_flag)
+
+
 _TIME_MANUAL_RE = re.compile(
     r"^\d{1,2}(:\d{2}){1,2}[.,]\d-?$|^\d{1,2}[.,]\d-?$|^\d{1,2}$"
 )
@@ -5542,12 +5566,17 @@ def main():
         "event_location": localitat,
         "total_results": len(results),
         "event_src": source_url if source_url else os.path.abspath(pdf_path),
-        # export contract (odd/tasks/timing-short-track.md)
-        "is_short_track": detect_short_track(
-            f"{full_competicio} {localitat} {ubicacio}",
-            source_url or os.path.abspath(pdf_path)),
         "results": []
     }
+
+    # Export contract (odd/tasks/timing-short-track.md): `is_short_track` is a
+    # property of the MARK, so it travels on every row and never in the header
+    # — the consumer's contract validator rejects it at header level (incident
+    # 2026-11-24, web-issues#161). A row's own section wins: a mixed meet can
+    # print `60m S14 Hombres AL` beside `60m S12 Hombres PC`.
+    file_short_track = detect_short_track(
+        f"{full_competicio} {localitat} {ubicacio}",
+        source_url or os.path.abspath(pdf_path))
 
     for r in results:
         # issue #30 / S4, S8-S10: a masters implement section is stored with
@@ -5563,6 +5592,7 @@ def main():
             "discipline": discipline,
             "wind": r.get("vent") if wind_applicable(discipline) else None,
             "position": r.get("position"),
+            "is_short_track": row_short_track(r.get("prova"), file_short_track),
         }
         # "timing" per row: absent -> electronic. The row wins over the header
         # (a hand-timed row inside an electronic meet is still manual).

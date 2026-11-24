@@ -14,7 +14,8 @@
       "performance": "7.34",
       "wind": null,
       "internal_id": 277,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "RIOS MESEGUER DIDAC",
@@ -25,8 +26,8 @@
       "performance": "7.59",
       "wind": null,
       "internal_id": 193,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     }
-  ],
-  "is_short_track": true
+  ]
 }

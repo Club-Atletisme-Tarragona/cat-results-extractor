@@ -14,7 +14,8 @@
       "performance": "1:10.22",
       "wind": null,
       "internal_id": 242,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "BEATRIU MALLA FERRER",
@@ -25,7 +26,8 @@
       "performance": "10.83",
       "wind": null,
       "internal_id": 242,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "IVAN BENITEZ LAZCANO",
@@ -36,7 +38,8 @@
       "performance": "8.88",
       "wind": null,
       "internal_id": 257,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "IVAN BENITEZ LAZCANO",
@@ -47,8 +50,8 @@
       "performance": "3.15",
       "wind": null,
       "internal_id": 257,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     }
-  ],
-  "is_short_track": true
+  ]
 }

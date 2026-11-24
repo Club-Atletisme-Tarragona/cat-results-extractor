@@ -14,7 +14,8 @@
       "performance": "6.24",
       "wind": null,
       "internal_id": 168,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "ROMANI SUAREZ ROBERT",
@@ -25,7 +26,8 @@
       "performance": "6.15",
       "wind": null,
       "internal_id": 168,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "ROMANI SUAREZ ROBERT",
@@ -36,8 +38,8 @@
       "performance": "6.36",
       "wind": null,
       "internal_id": 168,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     }
-  ],
-  "is_short_track": true
+  ]
 }

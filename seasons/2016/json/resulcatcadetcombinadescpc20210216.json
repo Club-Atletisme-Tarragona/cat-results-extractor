@@ -14,7 +14,8 @@
       "raw_discipline_name": "60m MASC. PC",
       "wind": null,
       "internal_id": 645,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Bernat Verdu Gomez",
@@ -25,7 +26,8 @@
       "raw_discipline_name": "Llargada MASC. PC",
       "wind": null,
       "internal_id": 645,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Bernat Verdu Gomez",
@@ -36,7 +38,8 @@
       "raw_discipline_name": "Llargada MASC. PC",
       "wind": null,
       "internal_id": 645,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Bernat Verdu Gomez",
@@ -47,7 +50,8 @@
       "raw_discipline_name": "Pes MASC. PC",
       "wind": null,
       "internal_id": 645,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Bernat Verdu Gomez",
@@ -58,7 +62,8 @@
       "raw_discipline_name": "Pes MASC. PC",
       "wind": null,
       "internal_id": 645,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Bernat Verdu Gomez",
@@ -69,7 +74,8 @@
       "raw_discipline_name": "Alçada MASC. PC",
       "wind": null,
       "internal_id": 645,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Sira Bo Calaf",
@@ -80,7 +86,8 @@
       "raw_discipline_name": "Alçada FEM. PC",
       "wind": null,
       "internal_id": 599,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Sira Bo Calaf",
@@ -91,7 +98,8 @@
       "raw_discipline_name": "Pes FEM. PC",
       "wind": null,
       "internal_id": 599,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Sira Bo Calaf",
@@ -102,8 +110,8 @@
       "raw_discipline_name": "Pes FEM. PC",
       "wind": null,
       "internal_id": 599,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     }
-  ],
-  "is_short_track": true
+  ]
 }

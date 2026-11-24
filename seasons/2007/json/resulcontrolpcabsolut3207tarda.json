@@ -14,7 +14,8 @@
       "performance": "4:22.94",
       "wind": null,
       "internal_id": 1041,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "BARDINA TOMAS JOAN",
@@ -25,8 +26,8 @@
       "performance": "4:33.89",
       "wind": null,
       "internal_id": 7,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     }
-  ],
-  "is_short_track": true
+  ]
 }

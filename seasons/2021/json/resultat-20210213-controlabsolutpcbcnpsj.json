@@ -14,7 +14,8 @@
       "wind": null,
       "position": null,
       "internal_id": 435,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Pablo Angel Fernandez",
@@ -25,7 +26,8 @@
       "wind": null,
       "position": null,
       "internal_id": 704,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Laura Yan Sole Barba",
@@ -36,7 +38,8 @@
       "wind": null,
       "position": null,
       "internal_id": 701,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Laura Yan Sole Barba",
@@ -47,7 +50,8 @@
       "wind": null,
       "position": null,
       "internal_id": 701,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Claudia Mir Casellas",
@@ -58,8 +62,8 @@
       "wind": null,
       "position": null,
       "internal_id": 699,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     }
-  ],
-  "is_short_track": true
+  ]
 }

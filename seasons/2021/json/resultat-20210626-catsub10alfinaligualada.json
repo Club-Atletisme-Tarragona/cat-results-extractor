@@ -14,7 +14,8 @@
       "wind": null,
       "position": 12,
       "internal_id": null,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Eloi Vinyes Huguet",
@@ -25,7 +26,8 @@
       "wind": null,
       "position": 33,
       "internal_id": null,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Nil Pamies Miro",
@@ -36,7 +38,8 @@
       "wind": null,
       "position": 5,
       "internal_id": null,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Nil Pamies Miro",
@@ -47,7 +50,8 @@
       "wind": null,
       "position": 5,
       "internal_id": null,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Nil Pamies Miro",
@@ -58,7 +62,8 @@
       "wind": null,
       "position": 5,
       "internal_id": null,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Nil Pamies Miro",
@@ -69,7 +74,8 @@
       "wind": null,
       "position": 5,
       "internal_id": null,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Maria Martin Cuadrado",
@@ -80,7 +86,8 @@
       "wind": null,
       "position": null,
       "internal_id": 1330,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Ada Nini Navas",
@@ -91,8 +98,8 @@
       "wind": null,
       "position": 4,
       "internal_id": 1331,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     }
-  ],
-  "is_short_track": false
+  ]
 }

@@ -14,7 +14,8 @@
       "performance": "32:23.45",
       "wind": null,
       "internal_id": 178,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "JOSÉ FRANCISCO GARCÍA NAVARRETE",
@@ -25,8 +26,8 @@
       "performance": "35:56.51",
       "wind": null,
       "internal_id": 5,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     }
-  ],
-  "is_short_track": false
+  ]
 }

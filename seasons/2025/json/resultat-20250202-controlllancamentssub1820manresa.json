@@ -15,7 +15,8 @@
       "wind": null,
       "position": null,
       "internal_id": 1007,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "CLAUDIA GUIM CACERES",
@@ -27,7 +28,8 @@
       "wind": null,
       "position": null,
       "internal_id": 1007,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "CLAUDIA GUIM CACERES",
@@ -39,8 +41,8 @@
       "wind": null,
       "position": null,
       "internal_id": 1007,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     }
-  ],
-  "is_short_track": false
+  ]
 }

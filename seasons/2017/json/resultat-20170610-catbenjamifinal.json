@@ -14,7 +14,8 @@
       "wind": null,
       "position": 2,
       "internal_id": 958,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Guillem Ferran Jimenez",
@@ -25,7 +26,8 @@
       "wind": null,
       "position": 4,
       "internal_id": null,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Guillem Ferran Jimenez",
@@ -36,7 +38,8 @@
       "wind": null,
       "position": 4,
       "internal_id": null,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Miguel Reyes Alcantara",
@@ -47,8 +50,8 @@
       "wind": null,
       "position": 11,
       "internal_id": null,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     }
-  ],
-  "is_short_track": false
+  ]
 }

@@ -14,7 +14,8 @@
       "performance": "2.11",
       "wind": null,
       "internal_id": 7,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "PEDRO ORTEGA VIDAL",
@@ -25,7 +26,8 @@
       "performance": "2.06",
       "wind": null,
       "internal_id": null,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "JAVIER RODRIGUEZ CANO",
@@ -36,8 +38,8 @@
       "performance": "2.06",
       "wind": null,
       "internal_id": 245,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     }
-  ],
-  "is_short_track": false
+  ]
 }

@@ -4,7 +4,6 @@
   "event_location": "Castellar del Vallès",
   "total_results": 10,
   "event_src": "https://old.fcatletisme.cat/Promocio/2016/resulcatinfantil110616.pdf",
-  "is_short_track": false,
   "results": [
     {
       "athlete_name": "Claudian. Mir Casellas",
@@ -16,7 +15,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 699
+      "internal_id": 699,
+      "is_short_track": false
     },
     {
       "athlete_name": "Claudian. Mir Casellas",
@@ -28,7 +28,8 @@
       "wind": null,
       "position": 8,
       "timing": "electronic",
-      "internal_id": 699
+      "internal_id": 699,
+      "is_short_track": false
     },
     {
       "athlete_name": "Laurineelisa Marimon Fernandez",
@@ -40,7 +41,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 737
+      "internal_id": 737,
+      "is_short_track": false
     },
     {
       "athlete_name": "Laurineelisa Marimon Fernandez",
@@ -52,7 +54,8 @@
       "wind": null,
       "position": 8,
       "timing": "electronic",
-      "internal_id": 737
+      "internal_id": 737,
+      "is_short_track": false
     },
     {
       "athlete_name": "Laurineelisa Marimon Fernandez",
@@ -64,7 +67,8 @@
       "wind": null,
       "position": 3,
       "timing": "electronic",
-      "internal_id": 737
+      "internal_id": 737,
+      "is_short_track": false
     },
     {
       "athlete_name": "Laurineelisa Marimon Fernandez",
@@ -76,7 +80,8 @@
       "wind": null,
       "position": 3,
       "timing": "electronic",
-      "internal_id": 737
+      "internal_id": 737,
+      "is_short_track": false
     },
     {
       "athlete_name": "Laurineelisa Marimon Fernandez",
@@ -88,7 +93,8 @@
       "wind": null,
       "position": 3,
       "timing": "electronic",
-      "internal_id": 737
+      "internal_id": 737,
+      "is_short_track": false
     },
     {
       "athlete_name": "Laurineelisa Marimon Fernandez",
@@ -100,7 +106,8 @@
       "wind": null,
       "position": 3,
       "timing": "electronic",
-      "internal_id": 737
+      "internal_id": 737,
+      "is_short_track": false
     },
     {
       "athlete_name": "Laurineelisa Marimon Fernandez",
@@ -112,7 +119,8 @@
       "wind": null,
       "position": 3,
       "timing": "electronic",
-      "internal_id": 737
+      "internal_id": 737,
+      "is_short_track": false
     },
     {
       "athlete_name": "Laurineelisa Marimon Fernandez",
@@ -124,7 +132,8 @@
       "wind": null,
       "position": 3,
       "timing": "electronic",
-      "internal_id": 737
+      "internal_id": 737,
+      "is_short_track": false
     }
   ]
 }

@@ -14,7 +14,8 @@
       "performance": "12.83",
       "wind": "-1.5",
       "internal_id": 233,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "ANNA SOLE FERRE",
@@ -25,8 +26,8 @@
       "performance": "26.30",
       "wind": "-1.5",
       "internal_id": 233,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     }
-  ],
-  "is_short_track": false
+  ]
 }

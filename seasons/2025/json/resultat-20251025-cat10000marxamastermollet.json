@@ -14,7 +14,8 @@
       "raw_discipline_name": "10.000m Marcha Mujeres",
       "wind": null,
       "internal_id": 938,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "DANIEL LINARES ANTELO",
@@ -25,8 +26,8 @@
       "raw_discipline_name": "2.000m Marcha Hombres en pista",
       "wind": null,
       "internal_id": 1403,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     }
-  ],
-  "is_short_track": false
+  ]
 }

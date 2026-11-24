@@ -14,7 +14,8 @@
       "raw_discipline_name": "100m vallas Mujeres",
       "wind": "-0.4",
       "internal_id": 527,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "VICTOR JIMENEZ GARCIA",
@@ -25,7 +26,8 @@
       "raw_discipline_name": "Longitud Hombres",
       "wind": "1.7",
       "internal_id": 958,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "VICTOR JIMENEZ GARCIA",
@@ -36,7 +38,8 @@
       "raw_discipline_name": "Longitud Hombres",
       "wind": "2.2",
       "internal_id": 958,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "VICTOR JIMENEZ GARCIA",
@@ -47,7 +50,8 @@
       "raw_discipline_name": "Longitud Hombres",
       "wind": "2.1",
       "internal_id": 958,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "CARLA BORRAS VERGES-TAPIRO",
@@ -58,7 +62,8 @@
       "raw_discipline_name": "400m Mujeres",
       "wind": null,
       "internal_id": 951,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "IRIS GARRIDO GARCIA",
@@ -69,7 +74,8 @@
       "raw_discipline_name": "400m vallas Mujeres",
       "wind": null,
       "internal_id": 982,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "AINOA RODRIGUEZ MURILLO",
@@ -80,7 +86,8 @@
       "raw_discipline_name": "400m vallas Mujeres",
       "wind": null,
       "internal_id": 965,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "LAURINE ELISA MARIMON FERNANDEZ",
@@ -91,7 +98,8 @@
       "raw_discipline_name": "Triple Salto Mujeres",
       "wind": "2.5",
       "internal_id": 737,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "LAURINE ELISA MARIMON FERNANDEZ",
@@ -102,7 +110,8 @@
       "raw_discipline_name": "Triple Salto Mujeres",
       "wind": "0.6",
       "internal_id": 737,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "LAURINE ELISA MARIMON FERNAN…",
@@ -113,8 +122,8 @@
       "raw_discipline_name": "Triple Salto Mujeres",
       "wind": null,
       "internal_id": 737,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     }
-  ],
-  "is_short_track": false
+  ]
 }

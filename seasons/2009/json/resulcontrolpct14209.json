@@ -14,7 +14,8 @@
       "performance": "7.89",
       "wind": null,
       "internal_id": 1,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "RIOS MESEGUER DIDAC",
@@ -25,7 +26,8 @@
       "performance": "0:53.80",
       "wind": null,
       "internal_id": 193,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "MARTIN ALVAREZ JOSE MIGUEL",
@@ -36,7 +38,8 @@
       "performance": "9.52",
       "wind": null,
       "internal_id": 15,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "IBORRA MARTINEZ FRANCISCO JOSE",
@@ -47,7 +50,8 @@
       "performance": "10.16",
       "wind": null,
       "internal_id": 1,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "PARDINES GRAS PERE",
@@ -58,8 +62,8 @@
       "performance": "10.37",
       "wind": null,
       "internal_id": 71,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     }
-  ],
-  "is_short_track": true
+  ]
 }

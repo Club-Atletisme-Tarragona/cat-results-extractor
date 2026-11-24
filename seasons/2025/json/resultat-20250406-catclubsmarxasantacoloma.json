@@ -14,7 +14,8 @@
       "raw_discipline_name": "5.000m Marcha Hombres en pista",
       "wind": null,
       "internal_id": 962,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "FERNANDO FLORES MONTES",
@@ -25,7 +26,8 @@
       "raw_discipline_name": "5.000m Marcha Hombres en pista",
       "wind": null,
       "internal_id": 4,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "ANTONIA ROYO FABREGAT",
@@ -36,7 +38,8 @@
       "raw_discipline_name": "5.000m Marcha Mujeres en pista",
       "wind": null,
       "internal_id": 609,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "REGINA GRAS CARDENAS",
@@ -47,7 +50,8 @@
       "raw_discipline_name": "5.000m Marcha Mujeres en pista",
       "wind": null,
       "internal_id": 938,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "MARIA TERESA GARGALLO GRACIA",
@@ -58,8 +62,8 @@
       "raw_discipline_name": "5.000m Marcha Mujeres en pista",
       "wind": null,
       "internal_id": 933,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     }
-  ],
-  "is_short_track": false
+  ]
 }

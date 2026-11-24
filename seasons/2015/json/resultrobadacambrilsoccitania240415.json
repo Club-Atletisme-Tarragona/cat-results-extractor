@@ -14,7 +14,8 @@
       "performance": "2.60",
       "wind": null,
       "internal_id": 409,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "IRIS CHERTA JORDÀ",
@@ -25,7 +26,8 @@
       "performance": "2.50",
       "wind": null,
       "internal_id": 479,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "ALÍCIA GARCÍA VÁZQUEZ",
@@ -36,7 +38,8 @@
       "performance": "4.55",
       "wind": "0.0",
       "internal_id": null,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "ALÍCIA GARCÍA VÁZQUEZ",
@@ -47,7 +50,8 @@
       "performance": "4.74",
       "wind": "0.0",
       "internal_id": null,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "ALÍCIA GARCÍA VÁZQUEZ",
@@ -58,7 +62,8 @@
       "performance": "3.88",
       "wind": "0.0",
       "internal_id": null,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "DÍDAC ALONSO DEL CAMPO",
@@ -69,7 +74,8 @@
       "performance": "35.54",
       "wind": null,
       "internal_id": 468,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "DÍDAC ALONSO DEL CAMPO",
@@ -80,7 +86,8 @@
       "performance": "34.24",
       "wind": null,
       "internal_id": 468,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "DÍDAC ALONSO DEL CAMPO",
@@ -91,7 +98,8 @@
       "performance": "35.88",
       "wind": null,
       "internal_id": 468,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "HELENA RIOS MONTSERRAT",
@@ -103,7 +111,8 @@
       "position": null,
       "raw_discipline_name": "ALÇADA Absolut Masculí",
       "timing": "electronic",
-      "internal_id": 409
+      "internal_id": 409,
+      "is_short_track": false
     },
     {
       "athlete_name": "IRIS CHERTA JORDÀ",
@@ -115,8 +124,8 @@
       "position": null,
       "raw_discipline_name": "ALÇADA Absolut Masculí",
       "timing": "electronic",
-      "internal_id": 479
+      "internal_id": 479,
+      "is_short_track": false
     }
-  ],
-  "is_short_track": false
+  ]
 }

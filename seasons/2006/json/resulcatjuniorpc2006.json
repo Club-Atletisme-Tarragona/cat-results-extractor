@@ -14,7 +14,8 @@
       "performance": "8.03",
       "wind": null,
       "internal_id": 233,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "ANNA SOLE FERRE",
@@ -25,7 +26,8 @@
       "performance": "26.29",
       "wind": null,
       "internal_id": 233,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "ESTER ARAGONES VIDAL",
@@ -36,7 +38,8 @@
       "performance": "10:21.74",
       "wind": null,
       "internal_id": 134,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "ANNA SOLE FERRE",
@@ -47,8 +50,8 @@
       "performance": "1.54",
       "wind": null,
       "internal_id": 233,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     }
-  ],
-  "is_short_track": true
+  ]
 }

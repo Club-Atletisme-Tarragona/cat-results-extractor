@@ -4,7 +4,6 @@
   "event_location": "Tarragona",
   "total_results": 75,
   "event_src": "http://old.fcatletisme.cat/Promocio/promocio2014/resulcontrolcgt240514.pdf",
-  "is_short_track": false,
   "results": [
     {
       "athlete_name": "Milla Guasch, Adolf",
@@ -15,7 +14,8 @@
       "wind": "-0.6",
       "position": null,
       "timing": "manual",
-      "internal_id": 434
+      "internal_id": 434,
+      "is_short_track": false
     },
     {
       "athlete_name": "Muñoz Vazquez, Jesus",
@@ -26,7 +26,8 @@
       "wind": "-0.6",
       "position": null,
       "timing": "manual",
-      "internal_id": 444
+      "internal_id": 444,
+      "is_short_track": false
     },
     {
       "athlete_name": "Marcos Moreno, Sergio",
@@ -37,7 +38,8 @@
       "wind": "-0.6",
       "position": null,
       "timing": "manual",
-      "internal_id": 453
+      "internal_id": 453,
+      "is_short_track": false
     },
     {
       "athlete_name": "Alonso Delcampo, Didac",
@@ -48,7 +50,8 @@
       "wind": "-0.6",
       "position": null,
       "timing": "manual",
-      "internal_id": 468
+      "internal_id": 468,
+      "is_short_track": false
     },
     {
       "athlete_name": "Martinez Gutierrez, Alfonso",
@@ -59,7 +62,8 @@
       "wind": "-0.6",
       "position": null,
       "timing": "manual",
-      "internal_id": null
+      "internal_id": null,
+      "is_short_track": false
     },
     {
       "athlete_name": "Almale Lerin, Javier",
@@ -70,7 +74,8 @@
       "wind": "-0.7",
       "position": null,
       "timing": "manual",
-      "internal_id": 510
+      "internal_id": 510,
+      "is_short_track": false
     },
     {
       "athlete_name": "Milla Guasch, Josep",
@@ -81,7 +86,8 @@
       "wind": "-0.7",
       "position": null,
       "timing": "manual",
-      "internal_id": null
+      "internal_id": null,
+      "is_short_track": false
     },
     {
       "athlete_name": "Parera Bodi, Gerard",
@@ -92,7 +98,8 @@
       "wind": "-0.7",
       "position": null,
       "timing": "manual",
-      "internal_id": 522
+      "internal_id": 522,
+      "is_short_track": false
     },
     {
       "athlete_name": "Alonso Delcampo, Didac",
@@ -103,7 +110,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 468
+      "internal_id": 468,
+      "is_short_track": false
     },
     {
       "athlete_name": "Parera Bodi, Gerard",
@@ -114,7 +122,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 522
+      "internal_id": 522,
+      "is_short_track": false
     },
     {
       "athlete_name": "Pinyol Mateu, Nil",
@@ -125,7 +134,8 @@
       "wind": null,
       "position": null,
       "timing": "manual",
-      "internal_id": 714
+      "internal_id": 714,
+      "is_short_track": false
     },
     {
       "athlete_name": "Berenguel Torres, Hugo",
@@ -136,7 +146,8 @@
       "wind": null,
       "position": null,
       "timing": "manual",
-      "internal_id": null
+      "internal_id": null,
+      "is_short_track": false
     },
     {
       "athlete_name": "Aixala Soto, Nil",
@@ -147,7 +158,8 @@
       "wind": null,
       "position": null,
       "timing": "manual",
-      "internal_id": null
+      "internal_id": null,
+      "is_short_track": false
     },
     {
       "athlete_name": "Burjales Del Amo, Marina",
@@ -158,7 +170,8 @@
       "wind": null,
       "position": null,
       "timing": "manual",
-      "internal_id": null
+      "internal_id": null,
+      "is_short_track": false
     },
     {
       "athlete_name": "Mayolas Martinez, Lucia",
@@ -169,7 +182,8 @@
       "wind": null,
       "position": null,
       "timing": "manual",
-      "internal_id": 728
+      "internal_id": 728,
+      "is_short_track": false
     },
     {
       "athlete_name": "Rondelaer , Emma",
@@ -180,7 +194,8 @@
       "wind": null,
       "position": null,
       "timing": "manual",
-      "internal_id": 759
+      "internal_id": 759,
+      "is_short_track": false
     },
     {
       "athlete_name": "De Las Heras Ruiz, Liana",
@@ -191,7 +206,8 @@
       "wind": null,
       "position": null,
       "timing": "manual",
-      "internal_id": null
+      "internal_id": null,
+      "is_short_track": false
     },
     {
       "athlete_name": "Marimon Fernandez, Laurineelisa",
@@ -202,7 +218,8 @@
       "wind": null,
       "position": null,
       "timing": "manual",
-      "internal_id": 737
+      "internal_id": 737,
+      "is_short_track": false
     },
     {
       "athlete_name": "Sole Barba, Laura Yan",
@@ -213,7 +230,8 @@
       "wind": null,
       "position": null,
       "timing": "manual",
-      "internal_id": 701
+      "internal_id": 701,
+      "is_short_track": false
     },
     {
       "athlete_name": "Mir Casellas, Claudian.",
@@ -224,7 +242,8 @@
       "wind": null,
       "position": null,
       "timing": "manual",
-      "internal_id": 699
+      "internal_id": 699,
+      "is_short_track": false
     },
     {
       "athlete_name": "Aixala Soto, Nil",
@@ -235,7 +254,8 @@
       "wind": null,
       "position": null,
       "timing": "manual",
-      "internal_id": null
+      "internal_id": null,
+      "is_short_track": false
     },
     {
       "athlete_name": "Berenguel Torres, Hugo",
@@ -246,7 +266,8 @@
       "wind": null,
       "position": null,
       "timing": "manual",
-      "internal_id": null
+      "internal_id": null,
+      "is_short_track": false
     },
     {
       "athlete_name": "De Las Heras Ruiz, Liana",
@@ -257,7 +278,8 @@
       "wind": null,
       "position": null,
       "timing": "manual",
-      "internal_id": null
+      "internal_id": null,
+      "is_short_track": false
     },
     {
       "athlete_name": "Marimon Fernandez, Laurineelisa",
@@ -268,7 +290,8 @@
       "wind": null,
       "position": null,
       "timing": "manual",
-      "internal_id": 737
+      "internal_id": 737,
+      "is_short_track": false
     },
     {
       "athlete_name": "Burjales Del Amo, Marina",
@@ -279,7 +302,8 @@
       "wind": null,
       "position": null,
       "timing": "manual",
-      "internal_id": null
+      "internal_id": null,
+      "is_short_track": false
     },
     {
       "athlete_name": "Mayolas Martinez, Lucia",
@@ -290,7 +314,8 @@
       "wind": null,
       "position": null,
       "timing": "manual",
-      "internal_id": 728
+      "internal_id": 728,
+      "is_short_track": false
     },
     {
       "athlete_name": "Mir Casellas, Claudian.",
@@ -301,7 +326,8 @@
       "wind": null,
       "position": null,
       "timing": "manual",
-      "internal_id": 699
+      "internal_id": 699,
+      "is_short_track": false
     },
     {
       "athlete_name": "Rondelaer , Emma",
@@ -312,7 +338,8 @@
       "wind": null,
       "position": null,
       "timing": "manual",
-      "internal_id": 759
+      "internal_id": 759,
+      "is_short_track": false
     },
     {
       "athlete_name": "Berenguel Torres, Hugo",
@@ -323,7 +350,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": null
+      "internal_id": null,
+      "is_short_track": false
     },
     {
       "athlete_name": "Aixala Soto, Nil",
@@ -334,7 +362,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": null
+      "internal_id": null,
+      "is_short_track": false
     },
     {
       "athlete_name": "Sole Barba, Laura Yan",
@@ -345,7 +374,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 701
+      "internal_id": 701,
+      "is_short_track": false
     },
     {
       "athlete_name": "De Las Heras Ruiz, Liana",
@@ -356,7 +386,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": null
+      "internal_id": null,
+      "is_short_track": false
     },
     {
       "athlete_name": "Rondelaer , Emma",
@@ -367,7 +398,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 759
+      "internal_id": 759,
+      "is_short_track": false
     },
     {
       "athlete_name": "Mayolas Martinez, Lucia",
@@ -378,7 +410,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 728
+      "internal_id": 728,
+      "is_short_track": false
     },
     {
       "athlete_name": "De Las Heras Ruiz, Liana",
@@ -389,7 +422,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": null
+      "internal_id": null,
+      "is_short_track": false
     },
     {
       "athlete_name": "Sole Barba, Laura Yan",
@@ -400,7 +434,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 701
+      "internal_id": 701,
+      "is_short_track": false
     },
     {
       "athlete_name": "Mir Casellas, Claudian.",
@@ -411,7 +446,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 699
+      "internal_id": 699,
+      "is_short_track": false
     },
     {
       "athlete_name": "Burjales Del Amo, Marina",
@@ -422,7 +458,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": null
+      "internal_id": null,
+      "is_short_track": false
     },
     {
       "athlete_name": "Mayolas Martinez, Lucia",
@@ -433,7 +470,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 728
+      "internal_id": 728,
+      "is_short_track": false
     },
     {
       "athlete_name": "Rondelaer , Emma",
@@ -444,7 +482,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 759
+      "internal_id": 759,
+      "is_short_track": false
     },
     {
       "athlete_name": "Berenguel Torres, Hugo",
@@ -455,7 +494,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": null
+      "internal_id": null,
+      "is_short_track": false
     },
     {
       "athlete_name": "Bartolome Vazquez, Oscar",
@@ -466,7 +506,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 738
+      "internal_id": 738,
+      "is_short_track": false
     },
     {
       "athlete_name": "Aixala Soto, Nil",
@@ -477,7 +518,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": null
+      "internal_id": null,
+      "is_short_track": false
     },
     {
       "athlete_name": "De Las Heras Ruiz, Liana",
@@ -488,7 +530,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": null
+      "internal_id": null,
+      "is_short_track": false
     },
     {
       "athlete_name": "Marimon Fernandez, Laurineelisa",
@@ -499,7 +542,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 737
+      "internal_id": 737,
+      "is_short_track": false
     },
     {
       "athlete_name": "Sole Barba, Laura Yan",
@@ -510,7 +554,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 701
+      "internal_id": 701,
+      "is_short_track": false
     },
     {
       "athlete_name": "Mayolas Martinez, Lucia",
@@ -521,7 +566,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 728
+      "internal_id": 728,
+      "is_short_track": false
     },
     {
       "athlete_name": "Mir Casellas, Claudian.",
@@ -532,7 +578,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 699
+      "internal_id": 699,
+      "is_short_track": false
     },
     {
       "athlete_name": "Burjales Del Amo, Marina",
@@ -543,7 +590,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": null
+      "internal_id": null,
+      "is_short_track": false
     },
     {
       "athlete_name": "Rondelaer , Emma",
@@ -554,7 +602,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 759
+      "internal_id": 759,
+      "is_short_track": false
     },
     {
       "athlete_name": "Mascarell Julian, Pol",
@@ -565,7 +614,8 @@
       "wind": null,
       "position": null,
       "timing": "manual",
-      "internal_id": 646
+      "internal_id": 646,
+      "is_short_track": false
     },
     {
       "athlete_name": "Saiz Santaolaria, Hugo Jules",
@@ -576,7 +626,8 @@
       "wind": null,
       "position": null,
       "timing": "manual",
-      "internal_id": 808
+      "internal_id": 808,
+      "is_short_track": false
     },
     {
       "athlete_name": "Ferrandiz Giner, Gerard",
@@ -587,7 +638,8 @@
       "wind": null,
       "position": null,
       "timing": "manual",
-      "internal_id": 840
+      "internal_id": 840,
+      "is_short_track": false
     },
     {
       "athlete_name": "Virgili Garrigos, Oriol",
@@ -598,7 +650,8 @@
       "wind": null,
       "position": null,
       "timing": "manual",
-      "internal_id": 852
+      "internal_id": 852,
+      "is_short_track": false
     },
     {
       "athlete_name": "Torres Rione, Jana",
@@ -609,7 +662,8 @@
       "wind": null,
       "position": null,
       "timing": "manual",
-      "internal_id": null
+      "internal_id": null,
+      "is_short_track": false
     },
     {
       "athlete_name": "Torres Rione, Alba",
@@ -620,7 +674,8 @@
       "wind": null,
       "position": null,
       "timing": "manual",
-      "internal_id": null
+      "internal_id": null,
+      "is_short_track": false
     },
     {
       "athlete_name": "De Las Heras Ruiz, Alanis",
@@ -631,7 +686,8 @@
       "wind": null,
       "position": null,
       "timing": "manual",
-      "internal_id": null
+      "internal_id": null,
+      "is_short_track": false
     },
     {
       "athlete_name": "Aldave Mas, Laia",
@@ -642,7 +698,8 @@
       "wind": null,
       "position": null,
       "timing": "manual",
-      "internal_id": 800
+      "internal_id": 800,
+      "is_short_track": false
     },
     {
       "athlete_name": "Mir Casellas, Marina",
@@ -653,7 +710,8 @@
       "wind": null,
       "position": null,
       "timing": "manual",
-      "internal_id": null
+      "internal_id": null,
+      "is_short_track": false
     },
     {
       "athlete_name": "Bueno Ubeda, Zaira",
@@ -664,7 +722,8 @@
       "wind": null,
       "position": null,
       "timing": "manual",
-      "internal_id": 846
+      "internal_id": 846,
+      "is_short_track": false
     },
     {
       "athlete_name": "Suarez Piza, Ariadna",
@@ -675,7 +734,8 @@
       "wind": null,
       "position": null,
       "timing": "manual",
-      "internal_id": null
+      "internal_id": null,
+      "is_short_track": false
     },
     {
       "athlete_name": "Valdivia Callao, Aroa",
@@ -686,7 +746,8 @@
       "wind": null,
       "position": null,
       "timing": "manual",
-      "internal_id": null
+      "internal_id": null,
+      "is_short_track": false
     },
     {
       "athlete_name": "Santos Martinez, Laura",
@@ -697,7 +758,8 @@
       "wind": null,
       "position": null,
       "timing": "manual",
-      "internal_id": 807
+      "internal_id": 807,
+      "is_short_track": false
     },
     {
       "athlete_name": "Saiz Santaolaria, Hugo Jules",
@@ -708,7 +770,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 808
+      "internal_id": 808,
+      "is_short_track": false
     },
     {
       "athlete_name": "Mascarell Julian, Pol",
@@ -719,7 +782,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 646
+      "internal_id": 646,
+      "is_short_track": false
     },
     {
       "athlete_name": "Rozas Bellido, Marc",
@@ -730,7 +794,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": null
+      "internal_id": null,
+      "is_short_track": false
     },
     {
       "athlete_name": "Aldave Mas, Laia",
@@ -741,7 +806,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 800
+      "internal_id": 800,
+      "is_short_track": false
     },
     {
       "athlete_name": "Santos Martinez, Laura",
@@ -752,7 +818,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 807
+      "internal_id": 807,
+      "is_short_track": false
     },
     {
       "athlete_name": "Bueno Ubeda, Zaira",
@@ -763,7 +830,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 846
+      "internal_id": 846,
+      "is_short_track": false
     },
     {
       "athlete_name": "De Las Heras Ruiz, Alanis",
@@ -774,7 +842,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": null
+      "internal_id": null,
+      "is_short_track": false
     },
     {
       "athlete_name": "Mir Casellas, Marina",
@@ -785,7 +854,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": null
+      "internal_id": null,
+      "is_short_track": false
     },
     {
       "athlete_name": "Torres Rione, Jana",
@@ -796,7 +866,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": null
+      "internal_id": null,
+      "is_short_track": false
     },
     {
       "athlete_name": "Suarez Piza, Ariadna",
@@ -807,7 +878,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": null
+      "internal_id": null,
+      "is_short_track": false
     },
     {
       "athlete_name": "Torres Rione, Alba",
@@ -818,7 +890,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": null
+      "internal_id": null,
+      "is_short_track": false
     },
     {
       "athlete_name": "tramit     Milà Vilalta, Alba",
@@ -829,7 +902,8 @@
       "wind": "-1.2",
       "position": null,
       "raw_discipline_name": "100 METRES LLISOS CADET - ABSOLUT FEMENÍ",
-      "timing": "manual"
+      "timing": "manual",
+      "is_short_track": false
     }
   ]
 }

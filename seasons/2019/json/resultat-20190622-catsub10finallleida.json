@@ -14,7 +14,8 @@
       "wind": null,
       "position": 3,
       "internal_id": 1055,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Diana Garcia Mur",
@@ -25,7 +26,8 @@
       "wind": null,
       "position": 7,
       "internal_id": 1081,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Nora Montolio Amaro",
@@ -36,7 +38,8 @@
       "wind": null,
       "position": 10,
       "internal_id": 1089,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Nora Montolio Amaro",
@@ -47,7 +50,8 @@
       "wind": null,
       "position": 9,
       "internal_id": 1089,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Paula Diez Plasencia",
@@ -58,7 +62,8 @@
       "wind": null,
       "position": 4,
       "internal_id": null,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Irene De La Rosa Fortuny",
@@ -69,8 +74,8 @@
       "wind": null,
       "position": 10,
       "internal_id": null,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     }
-  ],
-  "is_short_track": false
+  ]
 }

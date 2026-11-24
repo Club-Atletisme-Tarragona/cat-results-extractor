@@ -14,7 +14,8 @@
       "performance": "2:13.86",
       "wind": null,
       "internal_id": 4,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "ALEJANDRO LOPEZ VILA",
@@ -25,8 +26,8 @@
       "performance": "2:22.36",
       "wind": null,
       "internal_id": null,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     }
-  ],
-  "is_short_track": true
+  ]
 }

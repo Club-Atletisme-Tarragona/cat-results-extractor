@@ -13,7 +13,8 @@
       "wind": null,
       "raw_discipline_name": "Prova: 2KM Categoria: Aleví Femení",
       "internal_id": 839,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "SANTOS MARTINEZ, LAURA",
@@ -24,7 +25,8 @@
       "wind": null,
       "raw_discipline_name": "Prova: 2KM Categoria: Aleví Femení",
       "internal_id": 807,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "SUAREZ PIZA, ARIADNA",
@@ -35,9 +37,9 @@
       "wind": null,
       "raw_discipline_name": "Prova: 2KM Categoria: Aleví Femení",
       "internal_id": null,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     }
   ],
-  "total_results": 3,
-  "is_short_track": false
+  "total_results": 3
 }

@@ -4,7 +4,6 @@
   "event_location": "Castellar del Vallès",
   "total_results": 16,
   "event_src": "https://old.fcatletisme.cat/Promocio/2016/resulcatinfantilprevia210516.pdf",
-  "is_short_track": false,
   "results": [
     {
       "athlete_name": "Nil Pinyol Mateu",
@@ -16,7 +15,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 714
+      "internal_id": 714,
+      "is_short_track": false
     },
     {
       "athlete_name": "Nil Pinyol Mateu",
@@ -28,7 +28,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 714
+      "internal_id": 714,
+      "is_short_track": false
     },
     {
       "athlete_name": "Oriol Aldave Fores",
@@ -40,7 +41,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 746
+      "internal_id": 746,
+      "is_short_track": false
     },
     {
       "athlete_name": "Oriol Aldave Fores",
@@ -52,7 +54,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 746
+      "internal_id": 746,
+      "is_short_track": false
     },
     {
       "athlete_name": "David Bonnin Obach",
@@ -64,7 +67,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 710
+      "internal_id": 710,
+      "is_short_track": false
     },
     {
       "athlete_name": "David Bonnin Obach",
@@ -76,7 +80,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 710
+      "internal_id": 710,
+      "is_short_track": false
     },
     {
       "athlete_name": "Oscar Bartolome Vazquez",
@@ -88,7 +93,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 738
+      "internal_id": 738,
+      "is_short_track": false
     },
     {
       "athlete_name": "Laura Yan Sole Barba",
@@ -100,7 +106,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 701
+      "internal_id": 701,
+      "is_short_track": false
     },
     {
       "athlete_name": "Laura Yan Sole Barba",
@@ -112,7 +119,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 701
+      "internal_id": 701,
+      "is_short_track": false
     },
     {
       "athlete_name": "Carla Gonzalez Carrillo",
@@ -124,7 +132,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 698
+      "internal_id": 698,
+      "is_short_track": false
     },
     {
       "athlete_name": "Claudian. Mir Casellas",
@@ -136,7 +145,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 699
+      "internal_id": 699,
+      "is_short_track": false
     },
     {
       "athlete_name": "Laurineelisa Marimon Fernandez",
@@ -148,7 +158,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 737
+      "internal_id": 737,
+      "is_short_track": false
     },
     {
       "athlete_name": "Ariadna Alonso Del Campo",
@@ -160,7 +171,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 703
+      "internal_id": 703,
+      "is_short_track": false
     },
     {
       "athlete_name": "Laurineelisa Marimon Fernandez",
@@ -172,7 +184,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 737
+      "internal_id": 737,
+      "is_short_track": false
     },
     {
       "athlete_name": "Laurineelisa Marimon Fernandez",
@@ -184,7 +197,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 737
+      "internal_id": 737,
+      "is_short_track": false
     },
     {
       "athlete_name": "Laurineelisa Marimon Fernandez",
@@ -196,7 +210,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 737
+      "internal_id": 737,
+      "is_short_track": false
     }
   ]
 }

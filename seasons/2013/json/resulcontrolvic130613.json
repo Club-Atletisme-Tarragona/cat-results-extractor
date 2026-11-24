@@ -14,7 +14,8 @@
       "performance": "34.67",
       "wind": null,
       "internal_id": 354,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "MARIA MONTAÑES ARBÓ",
@@ -25,7 +26,8 @@
       "performance": "32.25",
       "wind": null,
       "internal_id": 354,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "MARIA MONTAÑES ARBÓ",
@@ -36,8 +38,8 @@
       "performance": "33.85",
       "wind": null,
       "internal_id": 354,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     }
-  ],
-  "is_short_track": false
+  ]
 }

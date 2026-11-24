@@ -14,7 +14,8 @@
       "performance": "40.79",
       "wind": null,
       "internal_id": null,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "JUAN VELASCO FARRE",
@@ -25,8 +26,8 @@
       "performance": "40.81",
       "wind": null,
       "internal_id": null,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     }
-  ],
-  "is_short_track": false
+  ]
 }

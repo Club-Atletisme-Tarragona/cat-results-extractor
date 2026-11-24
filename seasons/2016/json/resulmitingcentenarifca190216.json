@@ -14,7 +14,8 @@
       "raw_discipline_name": "60m MASCULINS/MEN",
       "wind": null,
       "internal_id": 416,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Mohamed Maman",
@@ -25,8 +26,8 @@
       "raw_discipline_name": "400m MASCULINS/MEN",
       "wind": null,
       "internal_id": 496,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     }
-  ],
-  "is_short_track": true
+  ]
 }

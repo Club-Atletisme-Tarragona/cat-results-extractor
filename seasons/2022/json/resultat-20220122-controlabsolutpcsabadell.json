@@ -14,7 +14,8 @@
       "wind": null,
       "position": null,
       "internal_id": 722,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Marc Jose Diaz",
@@ -25,7 +26,8 @@
       "wind": null,
       "position": null,
       "internal_id": 294,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Marc Jose Diaz",
@@ -36,7 +38,8 @@
       "wind": null,
       "position": null,
       "internal_id": 294,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Andrea Sastriques Castellanos",
@@ -47,7 +50,8 @@
       "wind": null,
       "position": null,
       "internal_id": 824,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Lucia Molinero Pintor",
@@ -58,8 +62,8 @@
       "wind": null,
       "position": null,
       "internal_id": 822,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     }
-  ],
-  "is_short_track": true
+  ]
 }

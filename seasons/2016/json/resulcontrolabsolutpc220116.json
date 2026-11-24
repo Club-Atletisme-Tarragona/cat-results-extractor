@@ -14,7 +14,8 @@
       "raw_discipline_name": "60m MASC. PC",
       "wind": null,
       "internal_id": 416,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Ivan Tamarit Roman",
@@ -25,7 +26,8 @@
       "raw_discipline_name": "60m MASC. PC",
       "wind": null,
       "internal_id": 416,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Jesus Fernando Montolio Alcon",
@@ -36,7 +38,8 @@
       "raw_discipline_name": "400m MASC. PC",
       "wind": null,
       "internal_id": 405,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Cesar Casimiro Yepes",
@@ -47,7 +50,8 @@
       "raw_discipline_name": "400m MASC. PC",
       "wind": null,
       "internal_id": 457,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Helena Rios Montserrat",
@@ -58,7 +62,8 @@
       "raw_discipline_name": "Llargada FEM. PC",
       "wind": null,
       "internal_id": 409,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Helena Rios Montserrat",
@@ -69,7 +74,8 @@
       "raw_discipline_name": "Llargada FEM. PC",
       "wind": null,
       "internal_id": 409,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Helena Rios Montserrat",
@@ -80,8 +86,8 @@
       "raw_discipline_name": "Llargada FEM. PC",
       "wind": null,
       "internal_id": 409,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     }
-  ],
-  "is_short_track": true
+  ]
 }

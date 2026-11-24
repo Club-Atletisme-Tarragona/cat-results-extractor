@@ -14,7 +14,8 @@
       "performance": "12.00",
       "wind": null,
       "internal_id": 180,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "FERRAN TORTOSA PRADILLO",
@@ -25,7 +26,8 @@
       "performance": "12.32",
       "wind": null,
       "internal_id": 180,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "FERRAN TORTOSA PRADILLO",
@@ -36,7 +38,8 @@
       "performance": "11.97",
       "wind": null,
       "internal_id": 180,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "FERRAN TORTOSA PRADILLO",
@@ -47,7 +50,8 @@
       "performance": "12.34",
       "wind": null,
       "internal_id": 180,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "FERRAN TORTOSA PRADILLO",
@@ -58,8 +62,8 @@
       "performance": "12.09",
       "wind": null,
       "internal_id": 180,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     }
-  ],
-  "is_short_track": true
+  ]
 }

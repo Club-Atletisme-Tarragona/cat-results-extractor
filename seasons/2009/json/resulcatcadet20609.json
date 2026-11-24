@@ -14,7 +14,8 @@
       "wind": "-0.4",
       "raw_discipline_name": "SALT DE LLARGADA",
       "internal_id": 313,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "GUINOVART PEDESCOLL, MONTSERRAT",
@@ -25,7 +26,8 @@
       "wind": "-2.1",
       "raw_discipline_name": "SALT DE LLARGADA",
       "internal_id": 313,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "GUINOVART PEDESCOLL, MONTSERRAT",
@@ -36,8 +38,8 @@
       "wind": "-0.6",
       "raw_discipline_name": "SALT DE LLARGADA",
       "internal_id": 313,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     }
-  ],
-  "is_short_track": false
+  ]
 }

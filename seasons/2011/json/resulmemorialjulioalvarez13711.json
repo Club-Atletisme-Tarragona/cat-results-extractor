@@ -14,7 +14,8 @@
       "performance": "40.53",
       "wind": null,
       "internal_id": 319,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "MARIONA MARTIN GONZALEZ",
@@ -25,7 +26,8 @@
       "performance": "40.10",
       "wind": null,
       "internal_id": 319,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "MARIONA MARTIN GONZALEZ",
@@ -36,8 +38,8 @@
       "performance": "38.85",
       "wind": null,
       "internal_id": 319,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     }
-  ],
-  "is_short_track": false
+  ]
 }

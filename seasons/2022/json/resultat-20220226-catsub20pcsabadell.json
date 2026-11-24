@@ -14,7 +14,8 @@
       "wind": null,
       "position": 9,
       "internal_id": 777,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Oscar Lefler Cortes",
@@ -25,7 +26,8 @@
       "wind": null,
       "position": 6,
       "internal_id": 758,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Pablo Angel Fernandez",
@@ -36,7 +38,8 @@
       "wind": null,
       "position": null,
       "internal_id": 704,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Pablo Angel Fernandez",
@@ -47,7 +50,8 @@
       "wind": null,
       "position": null,
       "internal_id": 704,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Claudia Mir Casellas",
@@ -58,7 +62,8 @@
       "wind": null,
       "position": null,
       "internal_id": 699,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Claudia Mir Casellas",
@@ -69,8 +74,8 @@
       "wind": null,
       "position": 1,
       "internal_id": 699,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     }
-  ],
-  "is_short_track": true
+  ]
 }

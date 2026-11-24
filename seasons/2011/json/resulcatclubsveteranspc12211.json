@@ -14,7 +14,8 @@
       "performance": "69.74",
       "wind": null,
       "internal_id": 5,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "LAGO CAMPS DAVID",
@@ -25,7 +26,8 @@
       "performance": "2:07.37",
       "wind": null,
       "internal_id": 266,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "FLORES MONTES FERNANDO",
@@ -36,7 +38,8 @@
       "performance": "4:30.09",
       "wind": null,
       "internal_id": 4,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "DE ANDRES SANCHEZ JORGE",
@@ -47,7 +50,8 @@
       "performance": "9:34.72",
       "wind": null,
       "internal_id": 351,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "PARDINES GRAS PERE",
@@ -58,7 +62,8 @@
       "performance": "1.60",
       "wind": null,
       "internal_id": 71,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "PARDINES GRAS PERE",
@@ -69,7 +74,8 @@
       "performance": "2.09",
       "wind": null,
       "internal_id": 71,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "ARIZA CASABON DANIEL",
@@ -80,7 +86,8 @@
       "performance": "10.59",
       "wind": null,
       "internal_id": 348,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "ARIZA CASABON DANIEL",
@@ -91,7 +98,8 @@
       "performance": "22.88",
       "wind": null,
       "internal_id": 348,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "MATEO SANZ JOSEP MARIA",
@@ -102,8 +110,8 @@
       "wind": null,
       "position": null,
       "internal_id": 343,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     }
-  ],
-  "is_short_track": true
+  ]
 }

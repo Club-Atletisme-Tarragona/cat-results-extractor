@@ -15,7 +15,8 @@
       "wind": null,
       "position": null,
       "internal_id": 1066,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "SARAH BUCHHOLZ CHAMORRO",
@@ -27,7 +28,8 @@
       "wind": "-1.6",
       "position": null,
       "internal_id": 1099,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "MARIA FERRAN JIMENEZ",
@@ -39,8 +41,8 @@
       "wind": null,
       "position": null,
       "internal_id": 1325,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     }
-  ],
-  "is_short_track": false
+  ]
 }

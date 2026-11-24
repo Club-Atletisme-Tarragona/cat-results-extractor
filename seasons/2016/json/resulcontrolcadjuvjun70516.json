@@ -4,7 +4,6 @@
   "event_location": "Cornellà de Llobregat",
   "total_results": 10,
   "event_src": "https://old.fcatletisme.cat/Pairelliure/2016/resulcontrolcadjuvjun70516.pdf",
-  "is_short_track": false,
   "results": [
     {
       "athlete_name": "Nerea Lago Garbajosa",
@@ -16,7 +15,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 534
+      "internal_id": 534,
+      "is_short_track": false
     },
     {
       "athlete_name": "Mar Vazquez Domingo",
@@ -28,7 +28,8 @@
       "wind": "+0.5",
       "position": null,
       "timing": "electronic",
-      "internal_id": 642
+      "internal_id": 642,
+      "is_short_track": false
     },
     {
       "athlete_name": "Mar Vazquez Domingo",
@@ -40,7 +41,8 @@
       "wind": "+0.2",
       "position": null,
       "timing": "electronic",
-      "internal_id": 642
+      "internal_id": 642,
+      "is_short_track": false
     },
     {
       "athlete_name": "Mar Vazquez Domingo",
@@ -52,7 +54,8 @@
       "wind": "+0.3",
       "position": null,
       "timing": "electronic",
-      "internal_id": 642
+      "internal_id": 642,
+      "is_short_track": false
     },
     {
       "athlete_name": "Mar Vazquez Domingo",
@@ -64,7 +67,8 @@
       "wind": "+1.4",
       "position": null,
       "timing": "electronic",
-      "internal_id": 642
+      "internal_id": 642,
+      "is_short_track": false
     },
     {
       "athlete_name": "Mireia Lopez Urbano",
@@ -76,7 +80,8 @@
       "wind": "+0.0",
       "position": null,
       "timing": "electronic",
-      "internal_id": 527
+      "internal_id": 527,
+      "is_short_track": false
     },
     {
       "athlete_name": "Mireia Lopez Urbano",
@@ -88,7 +93,8 @@
       "wind": "+0.0",
       "position": null,
       "timing": "electronic",
-      "internal_id": 527
+      "internal_id": 527,
+      "is_short_track": false
     },
     {
       "athlete_name": "Montserrat Montañes Arbo",
@@ -100,7 +106,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 497
+      "internal_id": 497,
+      "is_short_track": false
     },
     {
       "athlete_name": "Montserrat Montañes Arbo",
@@ -112,7 +119,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 497
+      "internal_id": 497,
+      "is_short_track": false
     },
     {
       "athlete_name": "Montserrat Montañes Arbo",
@@ -124,7 +132,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 497
+      "internal_id": 497,
+      "is_short_track": false
     }
   ]
 }

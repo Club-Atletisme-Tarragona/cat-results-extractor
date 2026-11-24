@@ -14,7 +14,8 @@
       "performance": "9.70",
       "wind": null,
       "internal_id": 527,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "MONTSERRAT MONTAÑER ARBO",
@@ -25,7 +26,8 @@
       "performance": "1.15",
       "wind": null,
       "internal_id": 497,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "MIREIA LOPEZ URBANO",
@@ -36,7 +38,8 @@
       "performance": "3.72",
       "wind": null,
       "internal_id": 527,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "MONTSERRAT MONTAÑER ARBO",
@@ -47,8 +50,8 @@
       "performance": "2.77",
       "wind": null,
       "internal_id": 497,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     }
-  ],
-  "is_short_track": false
+  ]
 }

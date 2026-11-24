@@ -14,7 +14,8 @@
       "performance": "8.10",
       "wind": null,
       "internal_id": 294,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "TORREDAME PASCUAL NURIA",
@@ -25,7 +26,8 @@
       "performance": "8.48",
       "wind": null,
       "internal_id": 314,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "TORREDAME PASCUAL NURIA",
@@ -36,8 +38,8 @@
       "performance": "10.18",
       "wind": null,
       "internal_id": 314,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     }
-  ],
-  "is_short_track": true
+  ]
 }

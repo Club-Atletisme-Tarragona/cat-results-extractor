@@ -14,7 +14,8 @@
       "raw_discipline_name": "200m MASC. AL",
       "wind": null,
       "internal_id": 444,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Ivan Tamarit Roman",
@@ -25,8 +26,8 @@
       "raw_discipline_name": "200m MASC. AL",
       "wind": "+0.2",
       "internal_id": 416,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     }
-  ],
-  "is_short_track": false
+  ]
 }

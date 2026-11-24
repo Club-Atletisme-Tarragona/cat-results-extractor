@@ -4,7 +4,6 @@
   "event_location": "Club                                                 Lic",
   "total_results": 8,
   "event_src": "http://old.fcatletisme.cat/Pairelliure/pairelliure2013/resulcatllancaments170213.pdf",
-  "is_short_track": false,
   "results": [
     {
       "athlete_name": "Barbara Pintado Duch",
@@ -15,7 +14,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 159
+      "internal_id": 159,
+      "is_short_track": false
     },
     {
       "athlete_name": "Barbara Pintado Duch",
@@ -26,7 +26,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 159
+      "internal_id": 159,
+      "is_short_track": false
     },
     {
       "athlete_name": "Barbara Pintado Duch",
@@ -37,7 +38,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 159
+      "internal_id": 159,
+      "is_short_track": false
     },
     {
       "athlete_name": "Barbara Pintado Duch",
@@ -48,7 +50,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 159
+      "internal_id": 159,
+      "is_short_track": false
     },
     {
       "athlete_name": "Maria Montañes Arbo",
@@ -59,7 +62,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 354
+      "internal_id": 354,
+      "is_short_track": false
     },
     {
       "athlete_name": "Maria Montañes Arbo",
@@ -70,7 +74,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 354
+      "internal_id": 354,
+      "is_short_track": false
     },
     {
       "athlete_name": "Maria Montañes Arbo",
@@ -81,7 +86,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 354
+      "internal_id": 354,
+      "is_short_track": false
     },
     {
       "athlete_name": "Maria Montañes Arbo",
@@ -92,7 +98,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 354
+      "internal_id": 354,
+      "is_short_track": false
     }
   ]
 }

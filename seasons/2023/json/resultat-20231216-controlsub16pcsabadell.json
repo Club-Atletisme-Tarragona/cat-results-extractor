@@ -14,7 +14,8 @@
       "wind": null,
       "position": null,
       "internal_id": 1022,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Nora Montolio Amaro",
@@ -25,8 +26,8 @@
       "wind": null,
       "position": null,
       "internal_id": 1089,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     }
-  ],
-  "is_short_track": true
+  ]
 }

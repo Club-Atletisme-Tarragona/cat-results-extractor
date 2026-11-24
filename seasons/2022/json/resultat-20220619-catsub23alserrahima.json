@@ -14,7 +14,8 @@
       "wind": null,
       "position": null,
       "internal_id": 660,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Aleix Lago Garbajosa",
@@ -25,7 +26,8 @@
       "wind": null,
       "position": 5,
       "internal_id": 660,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Sira Bo Calaf",
@@ -36,7 +38,8 @@
       "wind": null,
       "position": 4,
       "internal_id": 599,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Mireia Lopez Urbano",
@@ -47,7 +50,8 @@
       "wind": "-0.3",
       "position": null,
       "internal_id": 527,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Mireia Lopez Urbano",
@@ -58,7 +62,8 @@
       "wind": "+0.0",
       "position": null,
       "internal_id": 527,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Nuria Caballero Pacheco",
@@ -69,8 +74,8 @@
       "wind": null,
       "position": 1,
       "internal_id": 753,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     }
-  ],
-  "is_short_track": false
+  ]
 }

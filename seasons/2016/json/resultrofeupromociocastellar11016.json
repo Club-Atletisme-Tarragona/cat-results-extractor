@@ -4,7 +4,6 @@
   "event_location": "Club                                              Lic",
   "total_results": 6,
   "event_src": "https://old.fcatletisme.cat/Promocio/2016/resultrofeupromociocastellar11016.pdf",
-  "is_short_track": false,
   "results": [
     {
       "athlete_name": "Montserrat Montañes Arbo",
@@ -16,7 +15,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 497
+      "internal_id": 497,
+      "is_short_track": false
     },
     {
       "athlete_name": "Montserrat Montañes Arbo",
@@ -28,7 +28,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 497
+      "internal_id": 497,
+      "is_short_track": false
     },
     {
       "athlete_name": "Montserrat Montañes Arbo",
@@ -40,7 +41,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 497
+      "internal_id": 497,
+      "is_short_track": false
     },
     {
       "athlete_name": "Montserrat Montañes Arbo",
@@ -52,7 +54,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 497
+      "internal_id": 497,
+      "is_short_track": false
     },
     {
       "athlete_name": "Montserrat Montañes Arbo",
@@ -64,7 +67,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 497
+      "internal_id": 497,
+      "is_short_track": false
     },
     {
       "athlete_name": "Montserrat Montañes Arbo",
@@ -76,7 +80,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 497
+      "internal_id": 497,
+      "is_short_track": false
     }
   ]
 }

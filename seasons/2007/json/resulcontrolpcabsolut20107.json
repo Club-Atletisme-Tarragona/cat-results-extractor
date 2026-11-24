@@ -14,7 +14,8 @@
       "performance": "4:22.85",
       "wind": null,
       "internal_id": 268,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "RODRIGUEZ CANO XAVIER",
@@ -25,7 +26,8 @@
       "performance": "4:29.68",
       "wind": null,
       "internal_id": 245,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "GARCIA NAVARRETE JOSE FRANCISCO",
@@ -36,7 +38,8 @@
       "performance": "4:40.44",
       "wind": null,
       "internal_id": 5,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "BARDINA TOMAS JOAN",
@@ -47,8 +50,8 @@
       "performance": "4:40.53",
       "wind": null,
       "internal_id": 7,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     }
-  ],
-  "is_short_track": true
+  ]
 }

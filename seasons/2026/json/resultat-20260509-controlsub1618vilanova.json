@@ -15,7 +15,8 @@
       "wind": null,
       "position": null,
       "internal_id": 1339,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "SARAH BUCHHOLZ CHAMORRO",
@@ -27,7 +28,8 @@
       "wind": "-0.7",
       "position": null,
       "internal_id": 1099,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "LARA GARCIA MUR",
@@ -39,7 +41,8 @@
       "wind": null,
       "position": null,
       "internal_id": 1324,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "DIANA GARCÍA MUR",
@@ -51,7 +54,8 @@
       "wind": null,
       "position": null,
       "internal_id": 1081,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "MARTINA GRACIA MOLINA",
@@ -63,7 +67,8 @@
       "wind": null,
       "position": null,
       "internal_id": 1085,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "STELLA PEREIRA CONTRERAS",
@@ -75,8 +80,8 @@
       "wind": null,
       "position": null,
       "internal_id": 1356,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     }
-  ],
-  "is_short_track": false
+  ]
 }

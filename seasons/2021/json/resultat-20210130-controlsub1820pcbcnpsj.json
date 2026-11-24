@@ -14,7 +14,8 @@
       "wind": null,
       "position": null,
       "internal_id": 777,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Aleix Lago Garbajosa",
@@ -25,7 +26,8 @@
       "wind": null,
       "position": null,
       "internal_id": 660,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Oscar Leffer Guillon",
@@ -36,7 +38,8 @@
       "wind": null,
       "position": null,
       "internal_id": null,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Ricard Prio Roca",
@@ -47,7 +50,8 @@
       "wind": null,
       "position": null,
       "internal_id": 778,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Carla Gonzalez Carrillo",
@@ -58,7 +62,8 @@
       "wind": null,
       "position": null,
       "internal_id": 698,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Cristina Iniesta Acera",
@@ -69,7 +74,8 @@
       "wind": null,
       "position": null,
       "internal_id": 742,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Lucia Vega Martinez",
@@ -80,8 +86,8 @@
       "wind": null,
       "position": null,
       "internal_id": 805,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     }
-  ],
-  "is_short_track": true
+  ]
 }

@@ -15,7 +15,8 @@
       "wind": null,
       "position": null,
       "internal_id": 510,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Albert Casado Vieco",
@@ -27,7 +28,8 @@
       "wind": null,
       "position": null,
       "internal_id": 596,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Marc Ribot Sallent",
@@ -39,7 +41,8 @@
       "wind": null,
       "position": null,
       "internal_id": 679,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Oscar Gomez Carballo",
@@ -51,7 +54,8 @@
       "wind": null,
       "position": null,
       "internal_id": 26,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Pedro Ortega Ridao",
@@ -63,7 +67,8 @@
       "wind": null,
       "position": null,
       "internal_id": 268,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Xavier Ros Borrell",
@@ -75,7 +80,8 @@
       "wind": null,
       "position": null,
       "internal_id": 439,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Marina Tibau Sendra",
@@ -87,7 +93,8 @@
       "wind": null,
       "position": null,
       "internal_id": 359,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Marina Tibau Sendra",
@@ -99,7 +106,8 @@
       "wind": null,
       "position": null,
       "internal_id": 359,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Marina Tibau Sendra",
@@ -111,8 +119,8 @@
       "wind": null,
       "position": null,
       "internal_id": 359,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     }
-  ],
-  "is_short_track": true
+  ]
 }

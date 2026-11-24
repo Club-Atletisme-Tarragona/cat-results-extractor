@@ -15,7 +15,8 @@
       "wind": null,
       "position": 8,
       "internal_id": 1037,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "MOHAMED OUHSSAINE",
@@ -27,7 +28,8 @@
       "wind": null,
       "position": 9,
       "internal_id": 1100,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "SILVIA VICENTE NAVARRETE",
@@ -39,7 +41,8 @@
       "wind": "-1.6",
       "position": 4,
       "internal_id": 905,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "SILVIA VICENTE NAVARRETE",
@@ -51,7 +54,8 @@
       "wind": "-0.8",
       "position": null,
       "internal_id": 905,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "IRIS GARRIDO GARCIA",
@@ -63,7 +67,8 @@
       "wind": null,
       "position": 8,
       "internal_id": 982,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "AINOA RODRIGUEZ MURILLO",
@@ -75,7 +80,8 @@
       "wind": null,
       "position": 4,
       "internal_id": 965,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "AINOA RODRIGUEZ MURILLO",
@@ -87,8 +93,8 @@
       "wind": "0.0",
       "position": 9,
       "internal_id": 965,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     }
-  ],
-  "is_short_track": false
+  ]
 }

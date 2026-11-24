@@ -14,7 +14,8 @@
       "performance": "8.64",
       "wind": null,
       "internal_id": 344,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "ESPARZA OLIVAR ANNA",
@@ -25,7 +26,8 @@
       "performance": "0:49.56",
       "wind": null,
       "internal_id": 344,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "MOLNE RIONE MIREIA",
@@ -36,7 +38,8 @@
       "performance": "1:59.08",
       "wind": null,
       "internal_id": 357,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "ALVAREZ AUNOS MARIA",
@@ -47,8 +50,8 @@
       "performance": "1.37",
       "wind": null,
       "internal_id": 346,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     }
-  ],
-  "is_short_track": true
+  ]
 }

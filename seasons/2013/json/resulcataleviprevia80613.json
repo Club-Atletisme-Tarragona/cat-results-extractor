@@ -4,7 +4,6 @@
   "event_location": "Castellar del Vallés",
   "total_results": 7,
   "event_src": "http://old.fcatletisme.cat/Promocio/promocio2013/resulcataleviprevia80613.pdf",
-  "is_short_track": false,
   "results": [
     {
       "athlete_name": "Aleix Lago Garbajosa",
@@ -15,7 +14,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 660
+      "internal_id": 660,
+      "is_short_track": false
     },
     {
       "athlete_name": "Carla Berenguel Torres",
@@ -26,7 +26,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": null
+      "internal_id": null,
+      "is_short_track": false
     },
     {
       "athlete_name": "Carla Berenguel Torres",
@@ -37,7 +38,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": null
+      "internal_id": null,
+      "is_short_track": false
     },
     {
       "athlete_name": "Hugo Berenguel Torres",
@@ -48,7 +50,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": null
+      "internal_id": null,
+      "is_short_track": false
     },
     {
       "athlete_name": "Hugo Berenguel Torres",
@@ -59,7 +62,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": null
+      "internal_id": null,
+      "is_short_track": false
     },
     {
       "athlete_name": "Hugo Berenguel Torres",
@@ -70,7 +74,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": null
+      "internal_id": null,
+      "is_short_track": false
     },
     {
       "athlete_name": "Paula Garcia Jimenez",
@@ -81,7 +86,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": null
+      "internal_id": null,
+      "is_short_track": false
     }
   ]
 }

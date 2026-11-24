@@ -14,7 +14,8 @@
       "performance": "18.61",
       "wind": "+0.3",
       "internal_id": 71,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "RIOS MESEGUER DIDAC",
@@ -25,7 +26,8 @@
       "performance": "19.36",
       "wind": "+0.4",
       "internal_id": 193,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "MARTIN GONZALEZ MARIONA",
@@ -36,7 +38,8 @@
       "performance": "29.69",
       "wind": null,
       "internal_id": 319,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "MARTIN GONZALEZ MARIONA",
@@ -47,7 +50,8 @@
       "performance": "31.74",
       "wind": null,
       "internal_id": 319,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "MARTIN GONZALEZ MARIONA",
@@ -58,7 +62,8 @@
       "performance": "32.22",
       "wind": null,
       "internal_id": 319,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "MARC JOSE DIAZ",
@@ -69,7 +74,8 @@
       "performance": "11.69",
       "wind": "+0.6",
       "internal_id": 294,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "IBORRA MARTINEZ FRANCISCO JOSE",
@@ -80,8 +86,8 @@
       "performance": "18.04",
       "wind": "+0.3",
       "internal_id": 1,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     }
-  ],
-  "is_short_track": false
+  ]
 }

@@ -14,7 +14,8 @@
       "wind": null,
       "position": null,
       "internal_id": 660,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Xavier Ros Borrell",
@@ -25,7 +26,8 @@
       "wind": null,
       "position": null,
       "internal_id": 439,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Oscar Lefler Cortes",
@@ -36,7 +38,8 @@
       "wind": null,
       "position": null,
       "internal_id": 758,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Patricia Amador Peris",
@@ -47,7 +50,8 @@
       "wind": null,
       "position": null,
       "internal_id": 644,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Anna Artero Fernandez",
@@ -58,7 +62,8 @@
       "wind": null,
       "position": null,
       "internal_id": 847,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Sira Bo Calaf",
@@ -69,7 +74,8 @@
       "wind": null,
       "position": null,
       "internal_id": 599,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Carla Gonzalez Carrillo",
@@ -80,8 +86,8 @@
       "wind": null,
       "position": null,
       "internal_id": 698,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     }
-  ],
-  "is_short_track": true
+  ]
 }

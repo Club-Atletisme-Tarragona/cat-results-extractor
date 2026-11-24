@@ -14,7 +14,8 @@
       "raw_discipline_name": "1000 METRES LLISOS MASCULINS",
       "wind": null,
       "internal_id": 522,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Alfonso Martinez Gutierrez",
@@ -25,7 +26,8 @@
       "raw_discipline_name": "LLANÇAMENT DE PES MASCULÍ",
       "wind": null,
       "internal_id": null,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Alfonso Martinez Gutierrez",
@@ -36,7 +38,8 @@
       "raw_discipline_name": "LLANÇAMENT DE PES MASCULÍ",
       "wind": null,
       "internal_id": null,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Alfonso Martinez Gutierrez",
@@ -47,7 +50,8 @@
       "raw_discipline_name": "LLANÇAMENT DE PES MASCULÍ",
       "wind": null,
       "internal_id": null,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Marta Targa garcia",
@@ -58,7 +62,8 @@
       "raw_discipline_name": "1000 METRES LLISOS FEMENINS",
       "wind": null,
       "internal_id": 680,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Sira Bo Calaf",
@@ -69,7 +74,8 @@
       "raw_discipline_name": "1000 METRES LLISOS FEMENINS",
       "wind": null,
       "internal_id": 599,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Mireia Lopez Urbano",
@@ -80,7 +86,8 @@
       "raw_discipline_name": "60 METRES TANQUES FEMENINS",
       "wind": null,
       "internal_id": 527,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Marta Targa garcia",
@@ -91,7 +98,8 @@
       "raw_discipline_name": "60 METRES TANQUES FEMENINS",
       "wind": null,
       "internal_id": 680,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Montserrat Montañes Arbo",
@@ -102,7 +110,8 @@
       "raw_discipline_name": "SALT D'ALÇADA FEMENÍ",
       "wind": null,
       "internal_id": 497,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Mireia Lopez Urbano",
@@ -113,7 +122,8 @@
       "raw_discipline_name": "SALT DE LLARGADA FEMENÍ",
       "wind": null,
       "internal_id": 527,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Mireia Lopez Urbano",
@@ -124,7 +134,8 @@
       "raw_discipline_name": "SALT DE LLARGADA FEMENÍ",
       "wind": null,
       "internal_id": 527,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Montserrat Montañes Arbo",
@@ -135,7 +146,8 @@
       "raw_discipline_name": "LLANÇAMENT DE PES FEMENÍ",
       "wind": null,
       "internal_id": 497,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Montserrat Montañes Arbo",
@@ -146,8 +158,8 @@
       "raw_discipline_name": "LLANÇAMENT DE PES FEMENÍ",
       "wind": null,
       "internal_id": 497,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     }
-  ],
-  "is_short_track": true
+  ]
 }

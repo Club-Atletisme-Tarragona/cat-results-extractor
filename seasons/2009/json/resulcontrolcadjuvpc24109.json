@@ -14,7 +14,8 @@
       "performance": "4.16",
       "wind": null,
       "internal_id": 313,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "GUINOVART PEDESCOLL MONTSERRAT",
@@ -25,8 +26,8 @@
       "performance": "4.30",
       "wind": null,
       "internal_id": 313,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     }
-  ],
-  "is_short_track": true
+  ]
 }

@@ -14,7 +14,8 @@
       "performance": "4:22.61",
       "wind": null,
       "internal_id": 268,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "JAVIER RODRIGUEZ CANO",
@@ -25,7 +26,8 @@
       "performance": "4:24.22",
       "wind": null,
       "internal_id": 245,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "JOAN BARDINA TOMAS",
@@ -36,7 +38,8 @@
       "performance": "4:32.61",
       "wind": null,
       "internal_id": 7,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "CARLOS FERRER BARBERA",
@@ -47,7 +50,8 @@
       "performance": "4:29.88",
       "wind": null,
       "internal_id": 178,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "JOSE FCO GARCIA NAVARRETE",
@@ -58,7 +62,8 @@
       "performance": "4:42.13",
       "wind": null,
       "internal_id": 5,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "EMILI BARBERAN DE MIQUEL",
@@ -69,7 +74,8 @@
       "performance": "4:49.67",
       "wind": null,
       "internal_id": 267,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "JUAN VELASCO FARRE",
@@ -80,7 +86,8 @@
       "performance": "43.76",
       "wind": null,
       "internal_id": null,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "JUAN VELASCO FARRE",
@@ -91,8 +98,8 @@
       "performance": "43.94",
       "wind": null,
       "internal_id": null,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     }
-  ],
-  "is_short_track": false
+  ]
 }

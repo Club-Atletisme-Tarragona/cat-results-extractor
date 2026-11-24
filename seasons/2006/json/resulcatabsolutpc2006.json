@@ -14,7 +14,8 @@
       "performance": "7.39",
       "wind": null,
       "internal_id": 187,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "ESTER ARAGONES VIDAL",
@@ -25,8 +26,8 @@
       "performance": "4:50.11",
       "wind": null,
       "internal_id": 134,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     }
-  ],
-  "is_short_track": true
+  ]
 }

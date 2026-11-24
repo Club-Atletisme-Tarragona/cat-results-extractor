@@ -4,7 +4,6 @@
   "event_location": "Club                                             Lic",
   "total_results": 13,
   "event_src": "http://old.fcatletisme.cat/Pairelliure/2015/resulcatjunior20210615.pdf",
-  "is_short_track": false,
   "results": [
     {
       "athlete_name": "Helena Rios Montserrat",
@@ -15,7 +14,8 @@
       "wind": null,
       "position": 4,
       "timing": "electronic",
-      "internal_id": 409
+      "internal_id": 409,
+      "is_short_track": false
     },
     {
       "athlete_name": "Maria Alvarez Auños",
@@ -26,7 +26,8 @@
       "wind": null,
       "position": 1,
       "timing": "electronic",
-      "internal_id": 346
+      "internal_id": 346,
+      "is_short_track": false
     },
     {
       "athlete_name": "Helena Rios Montserrat",
@@ -37,7 +38,8 @@
       "wind": null,
       "position": 5,
       "timing": "electronic",
-      "internal_id": 409
+      "internal_id": 409,
+      "is_short_track": false
     },
     {
       "athlete_name": "Helena Rios Montserrat",
@@ -48,7 +50,8 @@
       "wind": "+0.2",
       "position": 6,
       "timing": "electronic",
-      "internal_id": 409
+      "internal_id": 409,
+      "is_short_track": false
     },
     {
       "athlete_name": "Helena Rios Montserrat",
@@ -59,7 +62,8 @@
       "wind": "+1.1",
       "position": 6,
       "timing": "electronic",
-      "internal_id": 409
+      "internal_id": 409,
+      "is_short_track": false
     },
     {
       "athlete_name": "Helena Rios Montserrat",
@@ -70,7 +74,8 @@
       "wind": "+1.6",
       "position": 6,
       "timing": "electronic",
-      "internal_id": 409
+      "internal_id": 409,
+      "is_short_track": false
     },
     {
       "athlete_name": "Helena Rios Montserrat",
@@ -81,7 +86,8 @@
       "wind": "+1.5",
       "position": 6,
       "timing": "electronic",
-      "internal_id": 409
+      "internal_id": 409,
+      "is_short_track": false
     },
     {
       "athlete_name": "Gemma Ruiz Sabate",
@@ -92,7 +98,8 @@
       "wind": null,
       "position": 5,
       "timing": "electronic",
-      "internal_id": 464
+      "internal_id": 464,
+      "is_short_track": false
     },
     {
       "athlete_name": "Gemma Ruiz Sabate",
@@ -103,7 +110,8 @@
       "wind": null,
       "position": 5,
       "timing": "electronic",
-      "internal_id": 464
+      "internal_id": 464,
+      "is_short_track": false
     },
     {
       "athlete_name": "Gemma Ruiz Sabate",
@@ -114,7 +122,8 @@
       "wind": null,
       "position": 5,
       "timing": "electronic",
-      "internal_id": 464
+      "internal_id": 464,
+      "is_short_track": false
     },
     {
       "athlete_name": "Gemma Ruiz Sabate",
@@ -125,7 +134,8 @@
       "wind": null,
       "position": 5,
       "timing": "electronic",
-      "internal_id": 464
+      "internal_id": 464,
+      "is_short_track": false
     },
     {
       "athlete_name": "Gemma Ruiz Sabate",
@@ -136,7 +146,8 @@
       "wind": null,
       "position": 5,
       "timing": "electronic",
-      "internal_id": 464
+      "internal_id": 464,
+      "is_short_track": false
     },
     {
       "athlete_name": "Gemma Ruiz Sabate",
@@ -147,7 +158,8 @@
       "wind": null,
       "position": 5,
       "timing": "electronic",
-      "internal_id": 464
+      "internal_id": 464,
+      "is_short_track": false
     }
   ]
 }

@@ -14,7 +14,8 @@
       "wind": null,
       "position": null,
       "internal_id": 660,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Claudia Mir Casellas",
@@ -25,7 +26,8 @@
       "wind": "-0.1",
       "position": null,
       "internal_id": 699,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Sira Bo Calaf",
@@ -36,7 +38,8 @@
       "wind": null,
       "position": null,
       "internal_id": 599,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Claudia Mir Casellas",
@@ -47,8 +50,8 @@
       "wind": "-0.7",
       "position": null,
       "internal_id": 699,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     }
-  ],
-  "is_short_track": false
+  ]
 }

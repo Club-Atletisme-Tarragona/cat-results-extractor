@@ -15,7 +15,8 @@
       "wind": "+2.2",
       "position": null,
       "internal_id": 1011,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "JOSEP RAMON ARGILAGA SALVADO",
@@ -27,7 +28,8 @@
       "wind": "+2.2",
       "position": null,
       "internal_id": 421,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "STELLA PEREIRA CONTRERAS",
@@ -39,8 +41,8 @@
       "wind": null,
       "position": null,
       "internal_id": 1356,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     }
-  ],
-  "is_short_track": false
+  ]
 }

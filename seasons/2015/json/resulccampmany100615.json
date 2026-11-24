@@ -4,7 +4,6 @@
   "event_location": "Barcelona-SE",
   "total_results": 20,
   "event_src": "http://old.fcatletisme.cat/Pairelliure/2015/resulccampmany100615.pdf",
-  "is_short_track": false,
   "results": [
     {
       "athlete_name": "Tomas Cordero Bel",
@@ -15,7 +14,8 @@
       "wind": "+0.2",
       "position": null,
       "timing": "electronic",
-      "internal_id": 397
+      "internal_id": 397,
+      "is_short_track": false
     },
     {
       "athlete_name": "Jesus Muñoz Vazquez",
@@ -26,7 +26,8 @@
       "wind": "+0.5",
       "position": null,
       "timing": "electronic",
-      "internal_id": 444
+      "internal_id": 444,
+      "is_short_track": false
     },
     {
       "athlete_name": "Mohamed Maman",
@@ -37,7 +38,8 @@
       "wind": "+0.4",
       "position": null,
       "timing": "electronic",
-      "internal_id": 496
+      "internal_id": 496,
+      "is_short_track": false
     },
     {
       "athlete_name": "Sergio Marcos Moreno",
@@ -48,7 +50,8 @@
       "wind": "+0.4",
       "position": null,
       "timing": "electronic",
-      "internal_id": 453
+      "internal_id": 453,
+      "is_short_track": false
     },
     {
       "athlete_name": "Xavier Ros Borrell",
@@ -59,7 +62,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 439
+      "internal_id": 439,
+      "is_short_track": false
     },
     {
       "athlete_name": "Didac Alonso Del Campo",
@@ -70,7 +74,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 468
+      "internal_id": 468,
+      "is_short_track": false
     },
     {
       "athlete_name": "Didac Alonso Del Campo",
@@ -81,7 +86,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 468
+      "internal_id": 468,
+      "is_short_track": false
     },
     {
       "athlete_name": "Didac Alonso Del Campo",
@@ -92,7 +98,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 468
+      "internal_id": 468,
+      "is_short_track": false
     },
     {
       "athlete_name": "Didac Alonso Del Campo",
@@ -103,7 +110,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 468
+      "internal_id": 468,
+      "is_short_track": false
     },
     {
       "athlete_name": "Didac Alonso Del Campo",
@@ -114,7 +122,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 468
+      "internal_id": 468,
+      "is_short_track": false
     },
     {
       "athlete_name": "Didac Alonso Del Campo",
@@ -125,7 +134,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 468
+      "internal_id": 468,
+      "is_short_track": false
     },
     {
       "athlete_name": "Marta Font Palomar",
@@ -136,7 +146,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 285
+      "internal_id": 285,
+      "is_short_track": false
     },
     {
       "athlete_name": "Helena Rios Montserrat",
@@ -147,7 +158,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 409
+      "internal_id": 409,
+      "is_short_track": false
     },
     {
       "athlete_name": "Maria Alvarez Auños",
@@ -158,7 +170,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 346
+      "internal_id": 346,
+      "is_short_track": false
     },
     {
       "athlete_name": "Blanca Tortajada Pinto",
@@ -169,7 +182,8 @@
       "wind": "-1.5",
       "position": null,
       "timing": "electronic",
-      "internal_id": 310
+      "internal_id": 310,
+      "is_short_track": false
     },
     {
       "athlete_name": "Blanca Tortajada Pinto",
@@ -180,7 +194,8 @@
       "wind": "-2.5",
       "position": null,
       "timing": "electronic",
-      "internal_id": 310
+      "internal_id": 310,
+      "is_short_track": false
     },
     {
       "athlete_name": "Marina Tibau Sendra",
@@ -191,7 +206,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 359
+      "internal_id": 359,
+      "is_short_track": false
     },
     {
       "athlete_name": "Marina Tibau Sendra",
@@ -202,7 +218,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 359
+      "internal_id": 359,
+      "is_short_track": false
     },
     {
       "athlete_name": "Marina Tibau Sendra",
@@ -213,7 +230,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 359
+      "internal_id": 359,
+      "is_short_track": false
     },
     {
       "athlete_name": "Marina Tibau Sendra",
@@ -224,7 +242,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 359
+      "internal_id": 359,
+      "is_short_track": false
     }
   ]
 }

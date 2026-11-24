@@ -14,7 +14,8 @@
       "performance": "11.57",
       "wind": "-0.8",
       "internal_id": 294,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "JOSE DIAZ MARC",
@@ -25,8 +26,8 @@
       "performance": "RET.",
       "wind": "+2.1",
       "internal_id": 294,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     }
-  ],
-  "is_short_track": false
+  ]
 }

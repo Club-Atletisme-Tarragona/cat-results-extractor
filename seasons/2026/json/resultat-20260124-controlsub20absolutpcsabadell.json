@@ -15,7 +15,8 @@
       "wind": null,
       "position": null,
       "internal_id": 1103,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "MOHAMMED AISSAOUI EL AISSAOUI",
@@ -27,7 +28,8 @@
       "wind": null,
       "position": null,
       "internal_id": 1037,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "JULIO LEON CID",
@@ -39,7 +41,8 @@
       "wind": null,
       "position": null,
       "internal_id": 992,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "MOHAMED OUHSSAINE",
@@ -51,7 +54,8 @@
       "wind": null,
       "position": null,
       "internal_id": 1100,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "SILVIA VICENTE NAVARRETE",
@@ -63,8 +67,8 @@
       "wind": null,
       "position": null,
       "internal_id": 905,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     }
-  ],
-  "is_short_track": true
+  ]
 }

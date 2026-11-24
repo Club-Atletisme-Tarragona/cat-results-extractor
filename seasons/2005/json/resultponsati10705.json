@@ -14,7 +14,8 @@
       "performance": "22.64",
       "wind": "+0.2",
       "internal_id": 187,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "BERNAT ROCAMORA CHAPARRO",
@@ -25,7 +26,8 @@
       "performance": "23.83",
       "wind": null,
       "internal_id": 217,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "IVAN BENITEZ LAZCANO",
@@ -36,7 +38,8 @@
       "performance": "6.01",
       "wind": "-1.2",
       "internal_id": 257,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "IVAN BENITEZ LAZCANO",
@@ -47,7 +50,8 @@
       "performance": "6.10",
       "wind": "-1.2",
       "internal_id": 257,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "IVAN BENITEZ LAZCANO",
@@ -58,7 +62,8 @@
       "performance": "5.89",
       "wind": "-1.2",
       "internal_id": 257,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "IVAN BENITEZ LAZCANO",
@@ -69,7 +74,8 @@
       "performance": "5.98",
       "wind": "-1.2",
       "internal_id": 257,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "IVAN BENITEZ LAZCANO",
@@ -80,7 +86,8 @@
       "performance": "5.96",
       "wind": "-1.2",
       "internal_id": 257,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "IVAN BENITEZ LAZCANO",
@@ -91,8 +98,8 @@
       "performance": "5.94",
       "wind": "-1.2",
       "internal_id": 257,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     }
-  ],
-  "is_short_track": false
+  ]
 }

@@ -14,7 +14,8 @@
       "wind": null,
       "position": null,
       "internal_id": null,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Aleix Gomez Miro",
@@ -25,7 +26,8 @@
       "wind": null,
       "position": null,
       "internal_id": null,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Kilian Borreda Cervello",
@@ -36,7 +38,8 @@
       "wind": null,
       "position": null,
       "internal_id": null,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Kilian Borreda Cervello",
@@ -47,7 +50,8 @@
       "wind": null,
       "position": null,
       "internal_id": null,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "India Martin Cuadrado",
@@ -58,7 +62,8 @@
       "wind": null,
       "position": null,
       "internal_id": 1332,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Berta Barber Gonzalez",
@@ -69,7 +74,8 @@
       "wind": null,
       "position": null,
       "internal_id": 1359,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "India Martin Cuadrado",
@@ -80,7 +86,8 @@
       "wind": null,
       "position": null,
       "internal_id": 1332,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Berta Barber Gonzalez",
@@ -91,8 +98,8 @@
       "wind": null,
       "position": null,
       "internal_id": 1359,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     }
-  ],
-  "is_short_track": false
+  ]
 }

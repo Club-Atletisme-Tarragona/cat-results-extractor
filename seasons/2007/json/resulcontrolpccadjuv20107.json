@@ -14,7 +14,8 @@
       "performance": "8.92",
       "wind": null,
       "internal_id": 242,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "MALLA FERRER BEATRIU",
@@ -25,8 +26,8 @@
       "performance": "10.86",
       "wind": null,
       "internal_id": 242,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     }
-  ],
-  "is_short_track": true
+  ]
 }

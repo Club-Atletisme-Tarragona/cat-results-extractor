@@ -14,7 +14,8 @@
       "wind": null,
       "position": 6,
       "internal_id": 439,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Jan Sans Riola",
@@ -25,7 +26,8 @@
       "wind": "-2.1",
       "position": null,
       "internal_id": 435,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Jan Sans Riola",
@@ -36,7 +38,8 @@
       "wind": "-1.5",
       "position": null,
       "internal_id": 435,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Alicia Vazquez Domingo",
@@ -47,7 +50,8 @@
       "wind": "-1.1",
       "position": null,
       "internal_id": 472,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Alicia Vazquez Domingo",
@@ -58,7 +62,8 @@
       "wind": "-2.0",
       "position": null,
       "internal_id": 472,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Alicia Vazquez Domingo",
@@ -69,7 +74,8 @@
       "wind": "+1.2",
       "position": 4,
       "internal_id": 472,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Alicia Vazquez Domingo",
@@ -80,7 +86,8 @@
       "wind": "-0.2",
       "position": 4,
       "internal_id": 472,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Alicia Vazquez Domingo",
@@ -91,7 +98,8 @@
       "wind": "+1.1",
       "position": 4,
       "internal_id": 472,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Alicia Vazquez Domingo",
@@ -102,7 +110,8 @@
       "wind": "+0.2",
       "position": 4,
       "internal_id": 472,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Joana Domingo Ingles",
@@ -113,7 +122,8 @@
       "wind": null,
       "position": 7,
       "internal_id": 476,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Joana Domingo Ingles",
@@ -124,7 +134,8 @@
       "wind": null,
       "position": 7,
       "internal_id": 476,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Joana Domingo Ingles",
@@ -135,8 +146,8 @@
       "wind": null,
       "position": 7,
       "internal_id": 476,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     }
-  ],
-  "is_short_track": false
+  ]
 }

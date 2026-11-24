@@ -14,7 +14,8 @@
       "raw_discipline_name": "60m FEM. PC",
       "wind": null,
       "internal_id": 437,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Andrea Lopez Urbano",
@@ -25,8 +26,8 @@
       "raw_discipline_name": "300m FEM. PC",
       "wind": null,
       "internal_id": 437,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     }
-  ],
-  "is_short_track": true
+  ]
 }

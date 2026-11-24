@@ -14,7 +14,8 @@
       "raw_discipline_name": "60m MASC. PC",
       "wind": null,
       "internal_id": 645,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Nil Pinyol Mateu",
@@ -25,7 +26,8 @@
       "raw_discipline_name": "Perxa MASC. PC",
       "wind": null,
       "internal_id": 714,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Mario Sanchez Alvarez",
@@ -36,7 +38,8 @@
       "raw_discipline_name": "Llargada MASC. PC",
       "wind": null,
       "internal_id": 1023,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Mario Sanchez Alvarez",
@@ -47,7 +50,8 @@
       "raw_discipline_name": "Llargada MASC. PC",
       "wind": null,
       "internal_id": 1023,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Mario Sanchez Alvarez",
@@ -58,7 +62,8 @@
       "raw_discipline_name": "Llargada MASC. PC",
       "wind": null,
       "internal_id": 1023,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Edgar Jose Diaz",
@@ -69,7 +74,8 @@
       "raw_discipline_name": "Triple Salt MASC. PC",
       "wind": null,
       "internal_id": 653,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Edgar Jose Diaz",
@@ -80,7 +86,8 @@
       "raw_discipline_name": "Triple Salt MASC. PC",
       "wind": null,
       "internal_id": 653,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Edgar Jose Diaz",
@@ -91,7 +98,8 @@
       "raw_discipline_name": "Triple Salt MASC. PC",
       "wind": null,
       "internal_id": 653,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Hugo Berenguel Torres",
@@ -102,7 +110,8 @@
       "raw_discipline_name": "Pes MASC. PC",
       "wind": null,
       "internal_id": null,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Hugo Berenguel Torres",
@@ -113,8 +122,8 @@
       "raw_discipline_name": "Pes MASC. PC",
       "wind": null,
       "internal_id": null,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     }
-  ],
-  "is_short_track": true
+  ]
 }

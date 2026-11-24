@@ -14,7 +14,8 @@
       "wind": null,
       "position": null,
       "internal_id": 733,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Guifre De Los Rios Blanch",
@@ -25,8 +26,8 @@
       "wind": null,
       "position": null,
       "internal_id": 697,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     }
-  ],
-  "is_short_track": true
+  ]
 }

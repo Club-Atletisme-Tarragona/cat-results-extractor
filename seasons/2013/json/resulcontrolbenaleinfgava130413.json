@@ -4,7 +4,6 @@
   "event_location": "Gavà",
   "total_results": 8,
   "event_src": "http://old.fcatletisme.cat/Promocio/promocio2013/resulcontrolbenaleinfgava130413.pdf",
-  "is_short_track": false,
   "results": [
     {
       "athlete_name": "Nerea Lago Garbajosa",
@@ -15,7 +14,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 534
+      "internal_id": 534,
+      "is_short_track": false
     },
     {
       "athlete_name": "Aleix Lago Garbajosa",
@@ -26,7 +26,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 660
+      "internal_id": 660,
+      "is_short_track": false
     },
     {
       "athlete_name": "Aleix Lago Garbajosa",
@@ -37,7 +38,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 660
+      "internal_id": 660,
+      "is_short_track": false
     },
     {
       "athlete_name": "Gerard Parera bodi",
@@ -48,7 +50,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 522
+      "internal_id": 522,
+      "is_short_track": false
     },
     {
       "athlete_name": "Gerard Parera bodi",
@@ -59,7 +62,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 522
+      "internal_id": 522,
+      "is_short_track": false
     },
     {
       "athlete_name": "Gerard Parera bodi",
@@ -70,7 +74,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 522
+      "internal_id": 522,
+      "is_short_track": false
     },
     {
       "athlete_name": "Gerard Parera bodi",
@@ -81,7 +86,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 522
+      "internal_id": 522,
+      "is_short_track": false
     },
     {
       "athlete_name": "Gerard Parera bodi",
@@ -92,7 +98,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 522
+      "internal_id": 522,
+      "is_short_track": false
     }
   ]
 }

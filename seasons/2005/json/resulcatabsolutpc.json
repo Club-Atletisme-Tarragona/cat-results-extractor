@@ -14,7 +14,8 @@
       "performance": "7.50",
       "wind": null,
       "internal_id": 180,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "ERNESTO NUÑEZ LOPEZ",
@@ -25,7 +26,8 @@
       "performance": "2:06.34",
       "wind": null,
       "internal_id": 248,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "ADRIA SERRES PARDINES",
@@ -36,8 +38,8 @@
       "performance": "9.60",
       "wind": null,
       "internal_id": 133,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     }
-  ],
-  "is_short_track": true
+  ]
 }

@@ -4,7 +4,6 @@
   "event_location": "Castellar del Vallès",
   "total_results": 7,
   "event_src": "https://old.fcatletisme.cat/Promocio/2016/resulcatbenjami110616.pdf",
-  "is_short_track": false,
   "results": [
     {
       "athlete_name": "Joan Sinfreu Niubo",
@@ -16,7 +15,8 @@
       "wind": null,
       "position": 1,
       "timing": "electronic",
-      "internal_id": null
+      "internal_id": null,
+      "is_short_track": false
     },
     {
       "athlete_name": "Unai Ortiz De Landazuri Ontoso",
@@ -28,7 +28,8 @@
       "wind": null,
       "position": 3,
       "timing": "electronic",
-      "internal_id": 908
+      "internal_id": 908,
+      "is_short_track": false
     },
     {
       "athlete_name": "Silvia Vicente Navarrete",
@@ -40,7 +41,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 905
+      "internal_id": 905,
+      "is_short_track": false
     },
     {
       "athlete_name": "Silvia Vicente Navarrete",
@@ -52,7 +54,8 @@
       "wind": null,
       "position": 4,
       "timing": "electronic",
-      "internal_id": 905
+      "internal_id": 905,
+      "is_short_track": false
     },
     {
       "athlete_name": "Silvia Vicente Navarrete",
@@ -64,7 +67,8 @@
       "wind": null,
       "position": 11,
       "timing": "electronic",
-      "internal_id": 905
+      "internal_id": 905,
+      "is_short_track": false
     },
     {
       "athlete_name": "Silvia Vicente Navarrete",
@@ -76,7 +80,8 @@
       "wind": null,
       "position": 11,
       "timing": "electronic",
-      "internal_id": 905
+      "internal_id": 905,
+      "is_short_track": false
     },
     {
       "athlete_name": "Luana Izaga Deriu",
@@ -88,7 +93,8 @@
       "wind": null,
       "position": 14,
       "timing": "electronic",
-      "internal_id": 928
+      "internal_id": 928,
+      "is_short_track": false
     }
   ]
 }

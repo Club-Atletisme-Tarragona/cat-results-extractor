@@ -14,7 +14,8 @@
       "performance": "22.90",
       "wind": "-5.6",
       "internal_id": 187,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "ERNESTO NUÑEZ LOPEZ",
@@ -25,7 +26,8 @@
       "performance": "2:04.07",
       "wind": null,
       "internal_id": 248,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "ESTER ARAGONES VIDAL",
@@ -36,7 +38,8 @@
       "performance": "4:46.96",
       "wind": null,
       "internal_id": 134,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "JUAN VELASCO FARRE",
@@ -47,7 +50,8 @@
       "performance": "42.46",
       "wind": null,
       "internal_id": null,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "JUAN VELASCO FARRE",
@@ -58,7 +62,8 @@
       "performance": "43.40",
       "wind": null,
       "internal_id": null,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "JUAN VELASCO FARRE",
@@ -69,7 +74,8 @@
       "performance": "45.20",
       "wind": null,
       "internal_id": null,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "JUAN VELASCO FARRE",
@@ -80,7 +86,8 @@
       "performance": "43.07",
       "wind": null,
       "internal_id": null,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "MARIA BERTRAN SASTRE",
@@ -91,7 +98,8 @@
       "performance": "35.28",
       "wind": null,
       "internal_id": 184,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "MARIA BERTRAN SASTRE",
@@ -102,8 +110,8 @@
       "performance": "29.87",
       "wind": null,
       "internal_id": 184,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     }
-  ],
-  "is_short_track": false
+  ]
 }

@@ -14,7 +14,8 @@
       "performance": "3.67",
       "wind": "-4.2",
       "internal_id": 304,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "LLUIS SAEZ",
@@ -25,7 +26,8 @@
       "performance": "3.89",
       "wind": "+1.4",
       "internal_id": 304,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "LLUIS SAEZ",
@@ -36,7 +38,8 @@
       "performance": "3.46",
       "wind": "+2.5",
       "internal_id": 304,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "LLUIS SAEZ",
@@ -47,7 +50,8 @@
       "performance": "3.87",
       "wind": "+2.5",
       "internal_id": 304,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "LLUIS SAEZ",
@@ -58,8 +62,8 @@
       "performance": "3.81",
       "wind": "+2.5",
       "internal_id": 304,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     }
-  ],
-  "is_short_track": false
+  ]
 }

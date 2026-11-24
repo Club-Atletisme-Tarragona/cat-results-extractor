@@ -14,7 +14,8 @@
       "wind": "-0.7",
       "position": null,
       "internal_id": 808,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Hugo Jules Saiz Santolaria",
@@ -25,7 +26,8 @@
       "wind": "+2.5",
       "position": null,
       "internal_id": 808,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Ricard Prio Roca",
@@ -36,7 +38,8 @@
       "wind": null,
       "position": null,
       "internal_id": 778,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Pol Aixala Guiu",
@@ -47,7 +50,8 @@
       "wind": null,
       "position": 4,
       "internal_id": 733,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Ruth Prats Nadal",
@@ -58,7 +62,8 @@
       "wind": null,
       "position": 4,
       "internal_id": 915,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Laurine Elisa Marimon Fernandez",
@@ -69,7 +74,8 @@
       "wind": "+2.7",
       "position": 1,
       "internal_id": 737,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Laurine Elisa Marimon Fernandez",
@@ -80,7 +86,8 @@
       "wind": "+2.8",
       "position": 1,
       "internal_id": 737,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Laurine Elisa Marimon Fernandez",
@@ -91,8 +98,8 @@
       "wind": "+2.4",
       "position": 1,
       "internal_id": 737,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     }
-  ],
-  "is_short_track": false
+  ]
 }

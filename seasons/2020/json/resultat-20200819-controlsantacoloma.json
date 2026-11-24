@@ -14,7 +14,8 @@
       "wind": null,
       "position": null,
       "internal_id": 698,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Xavier Ros Borrell",
@@ -25,7 +26,8 @@
       "wind": null,
       "position": null,
       "internal_id": 439,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Aleix Lago Garbajosa",
@@ -36,7 +38,8 @@
       "wind": null,
       "position": null,
       "internal_id": 660,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Gerard Parera Bodi",
@@ -47,8 +50,8 @@
       "wind": null,
       "position": null,
       "internal_id": 522,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     }
-  ],
-  "is_short_track": false
+  ]
 }

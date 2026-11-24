@@ -13,7 +13,8 @@
       "wind": null,
       "raw_discipline_name": "030mll",
       "internal_id": 385,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Albert Bo Garriga",
@@ -24,7 +25,8 @@
       "wind": null,
       "raw_discipline_name": "030mll",
       "internal_id": 385,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Iván Tamarit Román",
@@ -35,9 +37,9 @@
       "wind": "+0.2",
       "raw_discipline_name": "176mll",
       "internal_id": 416,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     }
   ],
-  "total_results": 3,
-  "is_short_track": false
+  "total_results": 3
 }

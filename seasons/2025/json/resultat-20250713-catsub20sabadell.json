@@ -14,7 +14,8 @@
       "raw_discipline_name": "Pértiga Hombres",
       "wind": null,
       "internal_id": 899,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "SILVIA VICENTE NAVARRETE",
@@ -25,7 +26,8 @@
       "raw_discipline_name": "100m Mujeres",
       "wind": "-3.3",
       "internal_id": 905,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "SILVIA VICENTE NAVARRETE",
@@ -36,7 +38,8 @@
       "raw_discipline_name": "100m Mujeres",
       "wind": "-0.3",
       "internal_id": 905,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "JOAN MARTORELL ESCOBAR",
@@ -47,7 +50,8 @@
       "raw_discipline_name": "400m Hombres",
       "wind": null,
       "internal_id": 914,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "SILVIA VICENTE NAVARRETE",
@@ -58,8 +62,8 @@
       "raw_discipline_name": "100m vallas Mujeres",
       "wind": "-2.7",
       "internal_id": 905,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     }
-  ],
-  "is_short_track": false
+  ]
 }

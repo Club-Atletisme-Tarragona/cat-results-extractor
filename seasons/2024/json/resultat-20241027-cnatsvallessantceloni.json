@@ -14,7 +14,8 @@
       "wind": "-0.4",
       "position": null,
       "internal_id": 518,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "JUAN CARLOS HERRERA ALCAIDE",
@@ -25,7 +26,8 @@
       "wind": null,
       "position": null,
       "internal_id": 518,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "JUAN CARLOS HERRERA ALCAIDE",
@@ -36,8 +38,8 @@
       "wind": null,
       "position": null,
       "internal_id": 518,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     }
-  ],
-  "is_short_track": false
+  ]
 }

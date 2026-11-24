@@ -14,7 +14,8 @@
       "raw_discipline_name": "60m MASC. PC",
       "wind": null,
       "internal_id": 416,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Jan Sans Riola",
@@ -25,7 +26,8 @@
       "raw_discipline_name": "60m MASC. PC",
       "wind": null,
       "internal_id": 435,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Jesus Muñoz Vazquez",
@@ -36,7 +38,8 @@
       "raw_discipline_name": "60m MASC. PC",
       "wind": null,
       "internal_id": 444,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Jesus Fernando Montolio Alcon",
@@ -47,7 +50,8 @@
       "raw_discipline_name": "400m MASC. PC",
       "wind": null,
       "internal_id": 405,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Jesus Muñoz Vazquez",
@@ -58,7 +62,8 @@
       "raw_discipline_name": "400m MASC. PC",
       "wind": null,
       "internal_id": 444,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Josep Maria Mateo Sanz",
@@ -69,7 +74,8 @@
       "raw_discipline_name": "Llargada MASC. PC",
       "wind": null,
       "internal_id": 343,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Josep Maria Mateo Sanz",
@@ -80,7 +86,8 @@
       "raw_discipline_name": "Llargada MASC. PC",
       "wind": null,
       "internal_id": 343,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Maria Martin Borras",
@@ -91,7 +98,8 @@
       "raw_discipline_name": "60m FEM. PC",
       "wind": null,
       "internal_id": 474,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Andrea Lopez Urbano",
@@ -102,7 +110,8 @@
       "raw_discipline_name": "60m FEM. PC",
       "wind": null,
       "internal_id": 437,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Maria Martin Borras",
@@ -113,7 +122,8 @@
       "raw_discipline_name": "60m FEM. PC",
       "wind": null,
       "internal_id": 474,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Alicia Vazquez Domingo",
@@ -124,7 +134,8 @@
       "raw_discipline_name": "Llargada FEM. PC",
       "wind": null,
       "internal_id": 472,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Blanca Tortajada Pinto",
@@ -135,7 +146,8 @@
       "raw_discipline_name": "Llargada FEM. PC",
       "wind": null,
       "internal_id": 310,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Blanca Tortajada Pinto",
@@ -146,8 +158,8 @@
       "raw_discipline_name": "Llargada FEM. PC",
       "wind": null,
       "internal_id": 310,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     }
-  ],
-  "is_short_track": true
+  ]
 }

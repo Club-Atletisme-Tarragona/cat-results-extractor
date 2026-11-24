@@ -14,7 +14,8 @@
       "wind": null,
       "position": 3,
       "internal_id": 660,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Edgar Jose Diaz",
@@ -25,7 +26,8 @@
       "wind": null,
       "position": null,
       "internal_id": 653,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Edgar Jose Diaz",
@@ -36,7 +38,8 @@
       "wind": "+1.2",
       "position": 7,
       "internal_id": 653,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Edgar Jose Diaz",
@@ -47,7 +50,8 @@
       "wind": "+2.6",
       "position": 7,
       "internal_id": 653,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Edgar Jose Diaz",
@@ -58,7 +62,8 @@
       "wind": "+0.2",
       "position": 7,
       "internal_id": 653,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Edgar Jose Diaz",
@@ -69,7 +74,8 @@
       "wind": "+3.3",
       "position": 7,
       "internal_id": 653,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Edgar Jose Diaz",
@@ -80,7 +86,8 @@
       "wind": "+0.3",
       "position": 7,
       "internal_id": 653,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Laura Yan Sole Barba",
@@ -91,7 +98,8 @@
       "wind": "-2.5",
       "position": null,
       "internal_id": 701,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Laura Yan Sole Barba",
@@ -102,7 +110,8 @@
       "wind": "-1.8",
       "position": 4,
       "internal_id": 701,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Carla Gonzalez Carrillo",
@@ -113,7 +122,8 @@
       "wind": null,
       "position": 5,
       "internal_id": 698,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Claudia Mir Casellas",
@@ -124,7 +134,8 @@
       "wind": null,
       "position": 3,
       "internal_id": 699,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Maria Falco Cuenca",
@@ -135,8 +146,8 @@
       "wind": null,
       "position": 3,
       "internal_id": 664,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     }
-  ],
-  "is_short_track": false
+  ]
 }

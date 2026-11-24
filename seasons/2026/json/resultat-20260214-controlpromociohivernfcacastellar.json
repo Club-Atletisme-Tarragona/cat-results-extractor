@@ -15,7 +15,8 @@
       "wind": "+3.5",
       "position": null,
       "internal_id": 1369,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "MARIA MARTIN CUADRADO",
@@ -27,7 +28,8 @@
       "wind": "+3.5",
       "position": null,
       "internal_id": 1330,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "MARTINA GÓMEZ ROJALS",
@@ -39,7 +41,8 @@
       "wind": "+2.3",
       "position": null,
       "internal_id": 1443,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "JULIA DIEZ BERTRAN",
@@ -51,7 +54,8 @@
       "wind": "+2.1",
       "position": null,
       "internal_id": 1430,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "MARIA FERRAN JIMENEZ",
@@ -63,7 +67,8 @@
       "wind": null,
       "position": null,
       "internal_id": 1325,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "CLAUDIA BOTANCH RIUS",
@@ -75,8 +80,8 @@
       "wind": null,
       "position": null,
       "internal_id": 1358,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     }
-  ],
-  "is_short_track": false
+  ]
 }

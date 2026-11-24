@@ -15,7 +15,8 @@
       "wind": "+0.0",
       "position": null,
       "internal_id": 1078,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "SAMUEL MARCOS PEREZ",
@@ -27,7 +28,8 @@
       "wind": null,
       "position": null,
       "internal_id": 1071,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "IVAN FERRER VILLA",
@@ -39,7 +41,8 @@
       "wind": null,
       "position": null,
       "internal_id": 1009,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "PAU ESTEVE HOSTALOT",
@@ -51,7 +54,8 @@
       "wind": "-0.3",
       "position": null,
       "internal_id": 1055,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "SAMUEL MARCOS PEREZ",
@@ -63,7 +67,8 @@
       "wind": "-0.3",
       "position": null,
       "internal_id": 1071,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "DAVID FERNANDEZ PINEDA",
@@ -75,8 +80,8 @@
       "wind": null,
       "position": null,
       "internal_id": 1078,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     }
-  ],
-  "is_short_track": false
+  ]
 }

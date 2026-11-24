@@ -14,7 +14,8 @@
       "raw_discipline_name": "Triple Salto MASC. AL",
       "wind": "+0.0",
       "internal_id": 343,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Josep Maria Mateo Sanz",
@@ -25,7 +26,8 @@
       "raw_discipline_name": "Triple Salto MASC. AL",
       "wind": "-1.0",
       "internal_id": 343,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Josep Maria Mateo Sanz",
@@ -36,7 +38,8 @@
       "raw_discipline_name": "Triple Salto MASC. AL",
       "wind": "-0.1",
       "internal_id": 343,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Josep Maria Mateo Sanz",
@@ -47,8 +50,8 @@
       "raw_discipline_name": "Triple Salto MASC. AL",
       "wind": "+0.0",
       "internal_id": 343,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     }
-  ],
-  "is_short_track": false
+  ]
 }

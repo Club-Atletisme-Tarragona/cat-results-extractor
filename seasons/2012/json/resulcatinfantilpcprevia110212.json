@@ -14,7 +14,8 @@
       "raw_discipline_name": "Llargada FEM. PC",
       "wind": null,
       "internal_id": 527,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Mireia Lopez Urbano",
@@ -25,7 +26,8 @@
       "raw_discipline_name": "Llargada FEM. PC",
       "wind": null,
       "internal_id": 527,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Alicia Vazquez Domingo",
@@ -36,7 +38,8 @@
       "raw_discipline_name": "Triple Salt FEM. PC",
       "wind": null,
       "internal_id": 472,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Alicia Vazquez Domingo",
@@ -47,8 +50,8 @@
       "raw_discipline_name": "Triple Salt FEM. PC",
       "wind": null,
       "internal_id": 472,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     }
-  ],
-  "is_short_track": true
+  ]
 }

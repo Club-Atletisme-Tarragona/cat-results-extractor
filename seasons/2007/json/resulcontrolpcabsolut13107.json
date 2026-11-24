@@ -14,7 +14,8 @@
       "performance": "7.50",
       "wind": null,
       "internal_id": 15,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "BERNAT ROCAMORA CHAPARRO",
@@ -25,7 +26,8 @@
       "performance": "7.49",
       "wind": null,
       "internal_id": 217,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "AGUSTI ORIOL PAISANO",
@@ -36,7 +38,8 @@
       "performance": "7.85",
       "wind": null,
       "internal_id": 216,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "JOSE MIGUEL MARTIN ALVAREZ",
@@ -47,7 +50,8 @@
       "performance": "24.39",
       "wind": null,
       "internal_id": 15,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "AGUSTI ORIOL PAISANO",
@@ -58,7 +62,8 @@
       "performance": "24.88",
       "wind": null,
       "internal_id": 216,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "PEDRO ORTEGA RIDAO",
@@ -69,7 +74,8 @@
       "performance": "2:07.13",
       "wind": null,
       "internal_id": 268,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "XAVIER RODRIGUEZ CANO",
@@ -80,7 +86,8 @@
       "performance": "2:08.84",
       "wind": null,
       "internal_id": 245,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "CARLOS FERRER BARBERAN",
@@ -91,7 +98,8 @@
       "performance": "2:11.89",
       "wind": null,
       "internal_id": 178,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "JOSE FRANCISCO GARCIA NAVARRETE",
@@ -102,7 +110,8 @@
       "performance": "2:17.30",
       "wind": null,
       "internal_id": 5,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "EMILI BARBERAN DE MIQUEL",
@@ -113,8 +122,8 @@
       "performance": "2:20.05",
       "wind": null,
       "internal_id": 267,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     }
-  ],
-  "is_short_track": true
+  ]
 }

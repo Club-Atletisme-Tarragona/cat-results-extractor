@@ -14,7 +14,8 @@
       "raw_discipline_name": "100 METRES LLISOS MASCULINS",
       "wind": "+1.4",
       "internal_id": 434,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Adolf Milla Guasch",
@@ -25,7 +26,8 @@
       "raw_discipline_name": "300 METRES LLISOS MASCULINS",
       "wind": null,
       "internal_id": 434,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Jan Schmitz Marco",
@@ -36,7 +38,8 @@
       "raw_discipline_name": "600 METRES LLISOS MASCULINS",
       "wind": null,
       "internal_id": 411,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Xavier Ros Borrell",
@@ -47,7 +50,8 @@
       "raw_discipline_name": "1000 METRES LLISOS MASCULINS",
       "wind": null,
       "internal_id": 439,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Alicia Vazquez Domingo",
@@ -58,7 +62,8 @@
       "raw_discipline_name": "100 METRES TANQUES FEMENINS",
       "wind": "-0.6",
       "internal_id": 472,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Andrea Lopez Urbano",
@@ -69,7 +74,8 @@
       "raw_discipline_name": "100 METRES TANQUES FEMENINS",
       "wind": "-0.6",
       "internal_id": 437,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Alicia Vazquez Domingo",
@@ -80,7 +86,8 @@
       "raw_discipline_name": "SALT DE LLARGADA FEMENÍ",
       "wind": "-0.4",
       "internal_id": 472,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Alicia Vazquez Domingo",
@@ -91,7 +98,8 @@
       "raw_discipline_name": "SALT DE LLARGADA FEMENÍ",
       "wind": "-3.4",
       "internal_id": 472,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Alicia Vazquez Domingo",
@@ -102,7 +110,8 @@
       "raw_discipline_name": "SALT DE LLARGADA FEMENÍ",
       "wind": "-1.2",
       "internal_id": 472,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Andrea Lopez Urbano",
@@ -113,7 +122,8 @@
       "raw_discipline_name": "LLANÇAMENT DE JAVELINA FEMENÍ",
       "wind": null,
       "internal_id": 437,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Andrea Lopez Urbano",
@@ -124,7 +134,8 @@
       "raw_discipline_name": "LLANÇAMENT DE JAVELINA FEMENÍ",
       "wind": null,
       "internal_id": 437,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Andrea Lopez Urbano",
@@ -135,7 +146,8 @@
       "raw_discipline_name": "LLANÇAMENT DE JAVELINA FEMENÍ",
       "wind": null,
       "internal_id": 437,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Andrea Lopez Urbano",
@@ -146,8 +158,8 @@
       "raw_discipline_name": "LLANÇAMENT DE JAVELINA FEMENÍ",
       "wind": null,
       "internal_id": 437,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     }
-  ],
-  "is_short_track": false
+  ]
 }

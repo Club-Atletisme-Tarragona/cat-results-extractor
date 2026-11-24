@@ -4,7 +4,6 @@
   "event_location": "Club                                             Lic",
   "total_results": 8,
   "event_src": "http://old.fcatletisme.cat/Pairelliure/2015/resulcatjuvenil20210615.pdf",
-  "is_short_track": false,
   "results": [
     {
       "athlete_name": "Didac Alonso Del Campo",
@@ -15,7 +14,8 @@
       "wind": null,
       "position": 8,
       "timing": "electronic",
-      "internal_id": 468
+      "internal_id": 468,
+      "is_short_track": false
     },
     {
       "athlete_name": "Didac Alonso Del Campo",
@@ -26,7 +26,8 @@
       "wind": null,
       "position": 8,
       "timing": "electronic",
-      "internal_id": 468
+      "internal_id": 468,
+      "is_short_track": false
     },
     {
       "athlete_name": "Didac Alonso Del Campo",
@@ -37,7 +38,8 @@
       "wind": null,
       "position": 8,
       "timing": "electronic",
-      "internal_id": 468
+      "internal_id": 468,
+      "is_short_track": false
     },
     {
       "athlete_name": "Didac Alonso Del Campo",
@@ -48,7 +50,8 @@
       "wind": null,
       "position": 8,
       "timing": "electronic",
-      "internal_id": 468
+      "internal_id": 468,
+      "is_short_track": false
     },
     {
       "athlete_name": "Didac Alonso Del Campo",
@@ -59,7 +62,8 @@
       "wind": null,
       "position": 8,
       "timing": "electronic",
-      "internal_id": 468
+      "internal_id": 468,
+      "is_short_track": false
     },
     {
       "athlete_name": "Alvaro Jose Ferrez Hernandez",
@@ -70,7 +74,8 @@
       "wind": null,
       "position": 11,
       "timing": "electronic",
-      "internal_id": 432
+      "internal_id": 432,
+      "is_short_track": false
     },
     {
       "athlete_name": "Alvaro Jose Ferrez Hernandez",
@@ -81,7 +86,8 @@
       "wind": null,
       "position": 11,
       "timing": "electronic",
-      "internal_id": 432
+      "internal_id": 432,
+      "is_short_track": false
     },
     {
       "athlete_name": "Xavier Ros Borrell",
@@ -92,7 +98,8 @@
       "wind": null,
       "position": 5,
       "timing": "electronic",
-      "internal_id": 439
+      "internal_id": 439,
+      "is_short_track": false
     }
   ]
 }

@@ -15,7 +15,8 @@
       "wind": "+4.1",
       "position": null,
       "internal_id": 808,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "HUGO JULES SAIZ SANTOLARIA",
@@ -27,7 +28,8 @@
       "wind": "+2.5",
       "position": null,
       "internal_id": 808,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "POL AIXALA GUIU",
@@ -39,7 +41,8 @@
       "wind": null,
       "position": 1,
       "internal_id": 733,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "CLAUDIA MIR CASELLAS",
@@ -51,7 +54,8 @@
       "wind": null,
       "position": 3,
       "internal_id": 699,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "RUTH PRATS NADAL",
@@ -63,7 +67,8 @@
       "wind": null,
       "position": 4,
       "internal_id": 915,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "NATALIA SANCHEZ ALVAREZ",
@@ -75,7 +80,8 @@
       "wind": "1.6",
       "position": 4,
       "internal_id": 796,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "NATALIA SANCHEZ ALVAREZ",
@@ -87,7 +93,8 @@
       "wind": "1.7",
       "position": 4,
       "internal_id": 796,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "NATALIA SANCHEZ ALVAREZ",
@@ -99,7 +106,8 @@
       "wind": "1.8",
       "position": 4,
       "internal_id": 796,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "POL AIXALA GUIU",
@@ -111,8 +119,8 @@
       "wind": null,
       "position": null,
       "internal_id": 733,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     }
-  ],
-  "is_short_track": false
+  ]
 }

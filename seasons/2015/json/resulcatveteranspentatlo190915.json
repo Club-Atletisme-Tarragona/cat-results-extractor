@@ -4,7 +4,6 @@
   "event_location": "Palafrugell",
   "total_results": 10,
   "event_src": "http://old.fcatletisme.cat/Veterans/2015/resulcatveteranspentatlo190915.pdf",
-  "is_short_track": false,
   "results": [
     {
       "athlete_name": "Josep Maria Mateo Sanz",
@@ -15,7 +14,8 @@
       "wind": "+2.7",
       "position": null,
       "timing": "electronic",
-      "internal_id": 343
+      "internal_id": 343,
+      "is_short_track": false
     },
     {
       "athlete_name": "Josep Maria Mateo Sanz",
@@ -26,7 +26,8 @@
       "wind": "+3.1",
       "position": null,
       "timing": "electronic",
-      "internal_id": 343
+      "internal_id": 343,
+      "is_short_track": false
     },
     {
       "athlete_name": "Josep Maria Mateo Sanz",
@@ -37,7 +38,8 @@
       "wind": "+1.5",
       "position": null,
       "timing": "electronic",
-      "internal_id": 343
+      "internal_id": 343,
+      "is_short_track": false
     },
     {
       "athlete_name": "Josep Maria Mateo Sanz",
@@ -48,7 +50,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 343
+      "internal_id": 343,
+      "is_short_track": false
     },
     {
       "athlete_name": "Josep Maria Mateo Sanz",
@@ -59,7 +62,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 343
+      "internal_id": 343,
+      "is_short_track": false
     },
     {
       "athlete_name": "Josep Maria Mateo Sanz",
@@ -70,7 +74,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 343
+      "internal_id": 343,
+      "is_short_track": false
     },
     {
       "athlete_name": "Josep Maria Mateo Sanz",
@@ -81,7 +86,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 343
+      "internal_id": 343,
+      "is_short_track": false
     },
     {
       "athlete_name": "Josep Maria Mateo Sanz",
@@ -92,7 +98,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 343
+      "internal_id": 343,
+      "is_short_track": false
     },
     {
       "athlete_name": "Josep Maria Mateo Sanz",
@@ -103,7 +110,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 343
+      "internal_id": 343,
+      "is_short_track": false
     },
     {
       "athlete_name": "Josep Maria Mateo Sanz",
@@ -114,7 +122,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 343
+      "internal_id": 343,
+      "is_short_track": false
     }
   ]
 }

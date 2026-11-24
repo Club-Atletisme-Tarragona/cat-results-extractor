@@ -4,7 +4,6 @@
   "event_location": "Club                                              Lic",
   "total_results": 10,
   "event_src": "https://old.fcatletisme.cat/Pcoberta/2016/resulcontroljuvjunpc310116.pdf",
-  "is_short_track": true,
   "results": [
     {
       "athlete_name": "Jan Sans Riola",
@@ -16,7 +15,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 435
+      "internal_id": 435,
+      "is_short_track": true
     },
     {
       "athlete_name": "Jesus Muñoz Vazquez",
@@ -28,7 +28,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 444
+      "internal_id": 444,
+      "is_short_track": true
     },
     {
       "athlete_name": "Sergio Marcos Moreno",
@@ -40,7 +41,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 453
+      "internal_id": 453,
+      "is_short_track": true
     },
     {
       "athlete_name": "Didac Alonso Del Campo",
@@ -52,7 +54,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 468
+      "internal_id": 468,
+      "is_short_track": true
     },
     {
       "athlete_name": "Abdelhakim Hamid",
@@ -64,7 +67,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 538
+      "internal_id": 538,
+      "is_short_track": true
     },
     {
       "athlete_name": "Jan Sans Riola",
@@ -76,7 +80,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 435
+      "internal_id": 435,
+      "is_short_track": true
     },
     {
       "athlete_name": "Mireia Lopez Urbano",
@@ -88,7 +93,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 527
+      "internal_id": 527,
+      "is_short_track": true
     },
     {
       "athlete_name": "Maria Buscail Brianso",
@@ -100,7 +106,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 520
+      "internal_id": 520,
+      "is_short_track": true
     },
     {
       "athlete_name": "Andrea Lopez Urbano",
@@ -112,7 +119,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 437
+      "internal_id": 437,
+      "is_short_track": true
     },
     {
       "athlete_name": "Nerea Lago Garbajosa",
@@ -124,7 +132,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 534
+      "internal_id": 534,
+      "is_short_track": true
     }
   ]
 }

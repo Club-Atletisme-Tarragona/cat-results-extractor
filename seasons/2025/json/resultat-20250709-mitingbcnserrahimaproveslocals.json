@@ -14,7 +14,8 @@
       "raw_discipline_name": "400m Masculins",
       "wind": null,
       "internal_id": 733,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "ALEIX LAGO GARBAJOSA",
@@ -25,7 +26,8 @@
       "raw_discipline_name": "800m Masculins",
       "wind": null,
       "internal_id": 660,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Mat DE HAAS",
@@ -36,8 +38,8 @@
       "raw_discipline_name": "800m Masculins",
       "wind": null,
       "internal_id": null,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     }
-  ],
-  "is_short_track": false
+  ]
 }

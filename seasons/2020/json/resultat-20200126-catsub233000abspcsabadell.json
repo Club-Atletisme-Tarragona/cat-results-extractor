@@ -14,7 +14,8 @@
       "wind": null,
       "position": null,
       "internal_id": 435,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Javier Almale Lerin",
@@ -25,7 +26,8 @@
       "wind": null,
       "position": null,
       "internal_id": 510,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Jan Sans Riola",
@@ -36,7 +38,8 @@
       "wind": null,
       "position": 1,
       "internal_id": 435,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Nerea Lago Garbajosa",
@@ -47,7 +50,8 @@
       "wind": null,
       "position": 6,
       "internal_id": 534,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Andrea Trape Perez",
@@ -58,7 +62,8 @@
       "wind": null,
       "position": null,
       "internal_id": 726,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Andrea Trape Perez",
@@ -69,7 +74,8 @@
       "wind": null,
       "position": null,
       "internal_id": 726,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Mireia Lopez Urbano",
@@ -80,7 +86,8 @@
       "wind": null,
       "position": null,
       "internal_id": 527,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Mireia Lopez Urbano",
@@ -91,7 +98,8 @@
       "wind": null,
       "position": null,
       "internal_id": 527,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Andrea Trape Perez",
@@ -102,7 +110,8 @@
       "wind": null,
       "position": 2,
       "internal_id": 726,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Andrea Trape Perez",
@@ -113,8 +122,8 @@
       "wind": null,
       "position": 2,
       "internal_id": 726,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     }
-  ],
-  "is_short_track": true
+  ]
 }

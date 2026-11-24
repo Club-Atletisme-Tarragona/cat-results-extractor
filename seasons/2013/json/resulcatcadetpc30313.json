@@ -14,7 +14,8 @@
       "raw_discipline_name": "60 METRES LLISOS MASCULINS",
       "wind": null,
       "internal_id": 434,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Adolf Milla Guasch",
@@ -25,7 +26,8 @@
       "raw_discipline_name": "60 METRES LLISOS MASCULINS",
       "wind": null,
       "internal_id": 434,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Adolf Milla Guasch",
@@ -36,8 +38,8 @@
       "raw_discipline_name": "300 METRES LLISOS MASCULINS",
       "wind": null,
       "internal_id": 434,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     }
-  ],
-  "is_short_track": true
+  ]
 }

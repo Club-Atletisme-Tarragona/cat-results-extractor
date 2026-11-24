@@ -4,7 +4,6 @@
   "event_location": "Club                                              Lic",
   "total_results": 13,
   "event_src": "https://old.fcatletisme.cat/Pcoberta/2016/resulcontroljuvjunpc160116.pdf",
-  "is_short_track": true,
   "results": [
     {
       "athlete_name": "Gerard Parera Bodi",
@@ -16,7 +15,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 522
+      "internal_id": 522,
+      "is_short_track": true
     },
     {
       "athlete_name": "Didac Alonso Del Campo",
@@ -28,7 +28,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 468
+      "internal_id": 468,
+      "is_short_track": true
     },
     {
       "athlete_name": "Yonas Aguilera Aguilera",
@@ -40,7 +41,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 524
+      "internal_id": 524,
+      "is_short_track": true
     },
     {
       "athlete_name": "Oriol Camacho Carrillo",
@@ -52,7 +54,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 531
+      "internal_id": 531,
+      "is_short_track": true
     },
     {
       "athlete_name": "Gerard Parera Bodi",
@@ -64,7 +67,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 522
+      "internal_id": 522,
+      "is_short_track": true
     },
     {
       "athlete_name": "Maria Martin Borras",
@@ -76,7 +80,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 474
+      "internal_id": 474,
+      "is_short_track": true
     },
     {
       "athlete_name": "Andrea Lopez Urbano",
@@ -88,7 +93,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 437
+      "internal_id": 437,
+      "is_short_track": true
     },
     {
       "athlete_name": "Mireia Lopez Urbano",
@@ -100,7 +106,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 527
+      "internal_id": 527,
+      "is_short_track": true
     },
     {
       "athlete_name": "Mireia Lopez Urbano",
@@ -112,7 +119,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 527
+      "internal_id": 527,
+      "is_short_track": true
     },
     {
       "athlete_name": "Maria Buscail Brianso",
@@ -124,7 +132,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 520
+      "internal_id": 520,
+      "is_short_track": true
     },
     {
       "athlete_name": "Maria Buscail Brianso",
@@ -136,7 +145,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 520
+      "internal_id": 520,
+      "is_short_track": true
     },
     {
       "athlete_name": "Nerea Lago Garbajosa",
@@ -148,7 +158,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 534
+      "internal_id": 534,
+      "is_short_track": true
     },
     {
       "athlete_name": "Nerea Lago Garbajosa",
@@ -160,7 +171,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 534
+      "internal_id": 534,
+      "is_short_track": true
     }
   ]
 }

@@ -15,7 +15,8 @@
       "wind": null,
       "position": null,
       "internal_id": 733,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "ALDARA LINARES ANTELO",
@@ -27,7 +28,8 @@
       "wind": "+2.4",
       "position": null,
       "internal_id": 1068,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "NAYLA SENTIS TORAO",
@@ -39,7 +41,8 @@
       "wind": "+3.1",
       "position": null,
       "internal_id": 1054,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "ALDARA LINARES ANTELO",
@@ -51,8 +54,8 @@
       "wind": "-1.7",
       "position": null,
       "internal_id": 1068,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     }
-  ],
-  "is_short_track": false
+  ]
 }

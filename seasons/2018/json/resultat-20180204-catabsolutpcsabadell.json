@@ -15,7 +15,8 @@
       "wind": null,
       "position": null,
       "internal_id": 510,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Mireia Lopez Urbano",
@@ -27,7 +28,8 @@
       "wind": null,
       "position": null,
       "internal_id": 527,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Mireia Lopez Urbano",
@@ -39,7 +41,8 @@
       "wind": null,
       "position": null,
       "internal_id": 527,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Marina Tibau Sendra",
@@ -51,7 +54,8 @@
       "wind": null,
       "position": 3,
       "internal_id": 359,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Marina Tibau Sendra",
@@ -63,7 +67,8 @@
       "wind": null,
       "position": 3,
       "internal_id": 359,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Marina Tibau Sendra",
@@ -75,7 +80,8 @@
       "wind": null,
       "position": 3,
       "internal_id": 359,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Marina Tibau Sendra",
@@ -87,8 +93,8 @@
       "wind": null,
       "position": 3,
       "internal_id": 359,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     }
-  ],
-  "is_short_track": true
+  ]
 }

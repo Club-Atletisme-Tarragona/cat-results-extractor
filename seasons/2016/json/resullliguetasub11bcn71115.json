@@ -14,7 +14,8 @@
       "performance": "1.25",
       "wind": null,
       "internal_id": null,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "RUBÉN PAREDES LARIO",
@@ -25,7 +26,8 @@
       "performance": "20.73",
       "wind": null,
       "internal_id": null,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "RUBÉN PAREDES LARIO",
@@ -36,7 +38,8 @@
       "performance": "22.65",
       "wind": null,
       "internal_id": null,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "RUBÉN PAREDES LARIO",
@@ -47,8 +50,8 @@
       "performance": "20.92",
       "wind": null,
       "internal_id": null,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     }
-  ],
-  "is_short_track": false
+  ]
 }

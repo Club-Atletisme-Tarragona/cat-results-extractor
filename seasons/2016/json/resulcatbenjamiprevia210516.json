@@ -4,7 +4,6 @@
   "event_location": "Castellar del Vallès",
   "total_results": 16,
   "event_src": "https://old.fcatletisme.cat/Promocio/2016/resulcatbenjamiprevia210516.pdf",
-  "is_short_track": false,
   "results": [
     {
       "athlete_name": "Unai Ortiz De Landazuri Ontoso",
@@ -16,7 +15,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 908
+      "internal_id": 908,
+      "is_short_track": false
     },
     {
       "athlete_name": "Joan Sinfreu Niubo",
@@ -28,7 +28,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": null
+      "internal_id": null,
+      "is_short_track": false
     },
     {
       "athlete_name": "Joan Martorell Escobar",
@@ -40,7 +41,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 914
+      "internal_id": 914,
+      "is_short_track": false
     },
     {
       "athlete_name": "Joan Sinfreu Niubo",
@@ -52,7 +54,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": null
+      "internal_id": null,
+      "is_short_track": false
     },
     {
       "athlete_name": "Joan Sinfreu Niubo",
@@ -64,7 +67,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": null
+      "internal_id": null,
+      "is_short_track": false
     },
     {
       "athlete_name": "Miguel Reyes Alcantara",
@@ -76,7 +80,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": null
+      "internal_id": null,
+      "is_short_track": false
     },
     {
       "athlete_name": "David Bartolome Vazquez",
@@ -88,7 +93,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": null
+      "internal_id": null,
+      "is_short_track": false
     },
     {
       "athlete_name": "Silvia Vicente Navarrete",
@@ -100,7 +106,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 905
+      "internal_id": 905,
+      "is_short_track": false
     },
     {
       "athlete_name": "Luana Izaga Deriu",
@@ -112,7 +119,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 928
+      "internal_id": 928,
+      "is_short_track": false
     },
     {
       "athlete_name": "Andrea Molina Solichero",
@@ -124,7 +132,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": null
+      "internal_id": null,
+      "is_short_track": false
     },
     {
       "athlete_name": "Silvia Vicente Navarrete",
@@ -136,7 +145,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 905
+      "internal_id": 905,
+      "is_short_track": false
     },
     {
       "athlete_name": "Silvia Vicente Navarrete",
@@ -148,7 +158,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 905
+      "internal_id": 905,
+      "is_short_track": false
     },
     {
       "athlete_name": "Andrea Molina Solichero",
@@ -160,7 +171,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": null
+      "internal_id": null,
+      "is_short_track": false
     },
     {
       "athlete_name": "Andrea Molina Solichero",
@@ -172,7 +184,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": null
+      "internal_id": null,
+      "is_short_track": false
     },
     {
       "athlete_name": "Luana Izaga Deriu",
@@ -184,7 +197,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 928
+      "internal_id": 928,
+      "is_short_track": false
     },
     {
       "athlete_name": "Judit Rodriguez Artigas",
@@ -196,7 +210,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": null
+      "internal_id": null,
+      "is_short_track": false
     }
   ]
 }

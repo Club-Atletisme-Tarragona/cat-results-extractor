@@ -14,7 +14,8 @@
       "performance": "4:12.98",
       "wind": null,
       "internal_id": 268,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "FERRER BARBERAN CARLOS",
@@ -25,7 +26,8 @@
       "performance": "5:06.32",
       "wind": null,
       "internal_id": 178,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "BARBERAN DE MIQUEL EMILI",
@@ -36,8 +38,8 @@
       "performance": "5:11.40",
       "wind": null,
       "internal_id": 267,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     }
-  ],
-  "is_short_track": false
+  ]
 }

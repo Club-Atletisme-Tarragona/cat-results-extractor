@@ -14,7 +14,8 @@
       "raw_discipline_name": "800m Masculí Absolut - VETERÀ",
       "wind": null,
       "internal_id": 539,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Joan Bardina Tomas",
@@ -25,8 +26,8 @@
       "raw_discipline_name": "1.500m Masculí Absolut-VETERÀ",
       "wind": null,
       "internal_id": 7,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     }
-  ],
-  "is_short_track": false
+  ]
 }

@@ -4,7 +4,6 @@
   "event_location": "El Prat de Llobregat",
   "total_results": 11,
   "event_src": "https://old.fcatletisme.cat/Promocio/2016/resulcatcadet260616.pdf",
-  "is_short_track": false,
   "results": [
     {
       "athlete_name": "Sira Bo Calaf",
@@ -16,7 +15,8 @@
       "wind": null,
       "position": 10,
       "timing": "electronic",
-      "internal_id": 599
+      "internal_id": 599,
+      "is_short_track": false
     },
     {
       "athlete_name": "Marta Ros Borrell",
@@ -28,7 +28,8 @@
       "wind": null,
       "position": 11,
       "timing": "electronic",
-      "internal_id": 1675
+      "internal_id": 1675,
+      "is_short_track": false
     },
     {
       "athlete_name": "Berta Sanchez Ruiz",
@@ -40,7 +41,8 @@
       "wind": null,
       "position": 12,
       "timing": "electronic",
-      "internal_id": 643
+      "internal_id": 643,
+      "is_short_track": false
     },
     {
       "athlete_name": "Montserrat Montañes Arbo",
@@ -52,7 +54,8 @@
       "wind": null,
       "position": 1,
       "timing": "electronic",
-      "internal_id": 497
+      "internal_id": 497,
+      "is_short_track": false
     },
     {
       "athlete_name": "Montserrat Montañes Arbo",
@@ -64,7 +67,8 @@
       "wind": null,
       "position": 1,
       "timing": "electronic",
-      "internal_id": 497
+      "internal_id": 497,
+      "is_short_track": false
     },
     {
       "athlete_name": "Montserrat Montañes Arbo",
@@ -76,7 +80,8 @@
       "wind": null,
       "position": 1,
       "timing": "electronic",
-      "internal_id": 497
+      "internal_id": 497,
+      "is_short_track": false
     },
     {
       "athlete_name": "Montserrat Montañes Arbo",
@@ -88,7 +93,8 @@
       "wind": null,
       "position": 1,
       "timing": "electronic",
-      "internal_id": 497
+      "internal_id": 497,
+      "is_short_track": false
     },
     {
       "athlete_name": "Montserrat Montañes Arbo",
@@ -100,7 +106,8 @@
       "wind": null,
       "position": 1,
       "timing": "electronic",
-      "internal_id": 497
+      "internal_id": 497,
+      "is_short_track": false
     },
     {
       "athlete_name": "Montserrat Montañes Arbo",
@@ -112,7 +119,8 @@
       "wind": null,
       "position": 1,
       "timing": "electronic",
-      "internal_id": 497
+      "internal_id": 497,
+      "is_short_track": false
     },
     {
       "athlete_name": "Montserrat Montañes Arbo",
@@ -124,7 +132,8 @@
       "wind": null,
       "position": 2,
       "timing": "electronic",
-      "internal_id": 497
+      "internal_id": 497,
+      "is_short_track": false
     },
     {
       "athlete_name": "Montserrat Montañes Arbo",
@@ -136,7 +145,8 @@
       "wind": null,
       "position": 2,
       "timing": "electronic",
-      "internal_id": 497
+      "internal_id": 497,
+      "is_short_track": false
     }
   ]
 }

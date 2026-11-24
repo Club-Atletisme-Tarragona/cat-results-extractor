@@ -14,7 +14,8 @@
       "performance": "6:05.02",
       "wind": null,
       "internal_id": 1079,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "MASCARELL JULIAN LAURA",
@@ -25,7 +26,8 @@
       "performance": "6:03.81",
       "wind": null,
       "internal_id": 646,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "VAZQUEZ DOMINGO MAR",
@@ -36,7 +38,8 @@
       "performance": "6:11.56",
       "wind": null,
       "internal_id": 642,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "MONTAÑES ARBO MONTSE",
@@ -47,7 +50,8 @@
       "performance": "1.03",
       "wind": null,
       "internal_id": 497,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "CASAS CARPENA JULIA",
@@ -58,7 +62,8 @@
       "performance": "12.72",
       "wind": null,
       "internal_id": null,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "CASAS CARPENA JULIA",
@@ -69,7 +74,8 @@
       "performance": "13.60",
       "wind": null,
       "internal_id": null,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "CASAS CARPENA JULIA",
@@ -80,8 +86,8 @@
       "performance": "13.03",
       "wind": null,
       "internal_id": null,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     }
-  ],
-  "is_short_track": false
+  ]
 }

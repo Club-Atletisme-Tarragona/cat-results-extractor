@@ -14,7 +14,8 @@
       "performance": "23.06",
       "wind": "+0.0",
       "internal_id": 217,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "JOSE DIAZ MARC",
@@ -25,7 +26,8 @@
       "performance": "14.56",
       "wind": "+0.8",
       "internal_id": 294,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "RIOS MESEGUER DIDAC",
@@ -36,8 +38,8 @@
       "performance": "1.69",
       "wind": null,
       "internal_id": 193,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     }
-  ],
-  "is_short_track": false
+  ]
 }

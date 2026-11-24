@@ -14,7 +14,8 @@
       "performance": "1.20",
       "wind": null,
       "internal_id": null,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "PAREDES LARIO RUBEN",
@@ -25,8 +26,8 @@
       "performance": "24.50",
       "wind": null,
       "internal_id": null,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     }
-  ],
-  "is_short_track": false
+  ]
 }

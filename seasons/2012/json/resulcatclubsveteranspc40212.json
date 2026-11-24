@@ -14,7 +14,8 @@
       "performance": "2:23.76",
       "wind": null,
       "internal_id": 258,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "ANTON VALENTI RAMON",
@@ -25,7 +26,8 @@
       "performance": "4:46.53",
       "wind": null,
       "internal_id": 365,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "DE ANDRES SANCHEZ JORGE",
@@ -36,7 +38,8 @@
       "performance": "9:22.98",
       "wind": null,
       "internal_id": 351,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "PARDINES GRAS PERE",
@@ -47,7 +50,8 @@
       "performance": "1.58",
       "wind": null,
       "internal_id": 71,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "PARDINES GRAS PERE",
@@ -58,7 +62,8 @@
       "performance": "2.06",
       "wind": null,
       "internal_id": 71,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "SAEZ PEREZ LUIS",
@@ -69,7 +74,8 @@
       "performance": "3.97",
       "wind": null,
       "internal_id": 304,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "SAEZ PEREZ LUIS",
@@ -80,7 +86,8 @@
       "performance": "6.02",
       "wind": null,
       "internal_id": 304,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "DOMINGO ROMERO JOAN",
@@ -91,8 +98,8 @@
       "performance": "7.35",
       "wind": null,
       "internal_id": 6,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     }
-  ],
-  "is_short_track": true
+  ]
 }

@@ -14,7 +14,8 @@
       "performance": "9.82",
       "wind": null,
       "internal_id": 714,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "ANNA YELAMOS FRANCESCH",
@@ -25,7 +26,8 @@
       "performance": "8.44",
       "wind": "-0.2",
       "internal_id": 415,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "IVÁN TAMARIT ROMAN",
@@ -36,7 +38,8 @@
       "performance": "7.46",
       "wind": null,
       "internal_id": 416,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "JOSEP RAMON ARGILAGA SALVADÓ",
@@ -47,7 +50,8 @@
       "performance": "8.05",
       "wind": null,
       "internal_id": 421,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "JOSEP MARIA MATEO SANZ",
@@ -58,7 +62,8 @@
       "performance": "8.06",
       "wind": null,
       "internal_id": 343,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "ANTONIO RAMOS ALFONSO",
@@ -69,7 +74,8 @@
       "performance": "4:50.48",
       "wind": null,
       "internal_id": 414,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "ANNA YELAMOS FRANCESCH",
@@ -80,7 +86,8 @@
       "performance": "0:44.03",
       "wind": null,
       "internal_id": 415,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "IVÁN TAMARIT ROMAN",
@@ -91,7 +98,8 @@
       "performance": "0:39.77",
       "wind": null,
       "internal_id": 416,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "XAVIER ROS BORRELL",
@@ -102,8 +110,8 @@
       "performance": "0:41.84",
       "wind": null,
       "internal_id": 439,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     }
-  ],
-  "is_short_track": false
+  ]
 }

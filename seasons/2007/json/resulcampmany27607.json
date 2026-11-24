@@ -14,7 +14,8 @@
       "performance": "11.62",
       "wind": "+2.1",
       "internal_id": 217,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "ORTEGA RIDAO PEDRO",
@@ -25,7 +26,8 @@
       "performance": "4:19.19",
       "wind": null,
       "internal_id": 268,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "ORIOL PAISANO AGUSTI",
@@ -36,7 +38,8 @@
       "performance": "RET.",
       "wind": "+0.9",
       "internal_id": 216,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "ARAGONES VIDAL ESTER",
@@ -47,7 +50,8 @@
       "performance": "4:50.22",
       "wind": null,
       "internal_id": 134,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "VELASCO FARRE JUAN",
@@ -58,7 +62,8 @@
       "performance": "42.66",
       "wind": null,
       "internal_id": null,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "VELASCO FARRE JUAN",
@@ -69,7 +74,8 @@
       "performance": "42.30",
       "wind": null,
       "internal_id": null,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "VELASCO FARRE JUAN",
@@ -80,7 +86,8 @@
       "performance": "42.90",
       "wind": null,
       "internal_id": null,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "VELASCO FARRE JUAN",
@@ -91,8 +98,8 @@
       "performance": "42.10",
       "wind": null,
       "internal_id": null,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     }
-  ],
-  "is_short_track": false
+  ]
 }

@@ -14,7 +14,8 @@
       "performance": "11.62",
       "wind": "+1.2",
       "internal_id": 277,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "SG FAA FAROUK MELLAKHI",
@@ -25,8 +26,8 @@
       "performance": "11.50",
       "wind": "+1.2",
       "internal_id": 277,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     }
-  ],
-  "is_short_track": false
+  ]
 }

@@ -14,7 +14,8 @@
       "wind": null,
       "position": null,
       "internal_id": 660,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Gerard Parera Bodi",
@@ -25,7 +26,8 @@
       "wind": null,
       "position": null,
       "internal_id": 522,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Carla Gonzalez Carrillo",
@@ -36,8 +38,8 @@
       "wind": null,
       "position": null,
       "internal_id": 698,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     }
-  ],
-  "is_short_track": true
+  ]
 }

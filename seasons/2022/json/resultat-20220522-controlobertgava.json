@@ -14,7 +14,8 @@
       "wind": "+0.6",
       "position": null,
       "internal_id": 808,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Hugo Jules Saiz Santolaria",
@@ -25,7 +26,8 @@
       "wind": "+3.3",
       "position": null,
       "internal_id": 808,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Hugo Rodriguez Martinez",
@@ -36,7 +38,8 @@
       "wind": null,
       "position": null,
       "internal_id": 777,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Tecla Guim Caceres",
@@ -47,7 +50,8 @@
       "wind": null,
       "position": null,
       "internal_id": 843,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Tecla Guim Caceres",
@@ -58,8 +62,8 @@
       "wind": null,
       "position": null,
       "internal_id": 843,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     }
-  ],
-  "is_short_track": false
+  ]
 }

@@ -14,7 +14,8 @@
       "performance": "11.51",
       "wind": "-0.5",
       "internal_id": 416,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "IVÁN TAMARIT ROMÁN",
@@ -25,8 +26,8 @@
       "performance": "23.77",
       "wind": "-0.3",
       "internal_id": 416,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     }
-  ],
-  "is_short_track": false
+  ]
 }

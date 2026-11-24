@@ -14,7 +14,8 @@
       "wind": "-1.1",
       "position": null,
       "internal_id": 808,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Hugo Jules Saiz Santolaria",
@@ -25,8 +26,8 @@
       "wind": "+0.8",
       "position": null,
       "internal_id": 808,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     }
-  ],
-  "is_short_track": false
+  ]
 }

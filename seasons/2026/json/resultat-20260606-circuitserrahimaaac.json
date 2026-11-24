@@ -15,7 +15,8 @@
       "wind": "+0.3",
       "position": null,
       "internal_id": 1099,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "CLÀUDIA PI BUIRA",
@@ -27,7 +28,8 @@
       "wind": "+0.3",
       "position": null,
       "internal_id": 1098,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "CLÀUDIA PI BUIRA",
@@ -39,7 +41,8 @@
       "wind": "+0.2",
       "position": null,
       "internal_id": 1098,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "IRIS GARRIDO GARCIA",
@@ -51,8 +54,8 @@
       "wind": null,
       "position": null,
       "internal_id": 982,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     }
-  ],
-  "is_short_track": false
+  ]
 }

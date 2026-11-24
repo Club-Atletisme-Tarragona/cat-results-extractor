@@ -4,7 +4,6 @@
   "event_location": "Castellar del Vallès",
   "total_results": 17,
   "event_src": "https://old.fcatletisme.cat/Promocio/2016/resulcataleviprevia210516.pdf",
-  "is_short_track": false,
   "results": [
     {
       "athlete_name": "Pol Mascarell Julian",
@@ -16,7 +15,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 646
+      "internal_id": 646,
+      "is_short_track": false
     },
     {
       "athlete_name": "Ruben Paredes Lario",
@@ -28,7 +28,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": null
+      "internal_id": null,
+      "is_short_track": false
     },
     {
       "athlete_name": "Ruben Paredes Lario",
@@ -40,7 +41,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": null
+      "internal_id": null,
+      "is_short_track": false
     },
     {
       "athlete_name": "Martina Pomes Cabello",
@@ -52,7 +54,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 810
+      "internal_id": 810,
+      "is_short_track": false
     },
     {
       "athlete_name": "Berta Pomes Cabello",
@@ -64,7 +67,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": null
+      "internal_id": null,
+      "is_short_track": false
     },
     {
       "athlete_name": "Natalia Sanchez Alvarez",
@@ -76,7 +80,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 796
+      "internal_id": 796,
+      "is_short_track": false
     },
     {
       "athlete_name": "Aina Tomas Virgili",
@@ -88,7 +93,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 815
+      "internal_id": 815,
+      "is_short_track": false
     },
     {
       "athlete_name": "Martina Pomes Cabello",
@@ -100,7 +106,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 810
+      "internal_id": 810,
+      "is_short_track": false
     },
     {
       "athlete_name": "Natalia Sanchez Alvarez",
@@ -112,7 +119,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 796
+      "internal_id": 796,
+      "is_short_track": false
     },
     {
       "athlete_name": "Laia Aldave Mas",
@@ -124,7 +132,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 800
+      "internal_id": 800,
+      "is_short_track": false
     },
     {
       "athlete_name": "Laia Aldave Mas",
@@ -136,7 +145,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 800
+      "internal_id": 800,
+      "is_short_track": false
     },
     {
       "athlete_name": "Laia Aldave Mas",
@@ -148,7 +158,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 800
+      "internal_id": 800,
+      "is_short_track": false
     },
     {
       "athlete_name": "Berta Pelicano Sanchis",
@@ -160,7 +171,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": null
+      "internal_id": null,
+      "is_short_track": false
     },
     {
       "athlete_name": "Laia Aldave Mas",
@@ -172,7 +184,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 800
+      "internal_id": 800,
+      "is_short_track": false
     },
     {
       "athlete_name": "Laia Aldave Mas",
@@ -184,7 +197,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 800
+      "internal_id": 800,
+      "is_short_track": false
     },
     {
       "athlete_name": "Lara Herrera Vallve",
@@ -196,7 +210,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 813
+      "internal_id": 813,
+      "is_short_track": false
     },
     {
       "athlete_name": "Julia Suarez Piza",
@@ -208,7 +223,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 839
+      "internal_id": 839,
+      "is_short_track": false
     }
   ]
 }

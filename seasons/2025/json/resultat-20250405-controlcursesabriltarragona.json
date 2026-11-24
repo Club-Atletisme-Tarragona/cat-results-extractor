@@ -14,7 +14,8 @@
       "raw_discipline_name": "200m Hombres",
       "wind": "-2.4",
       "internal_id": 435,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "AINOA RODRIGUEZ MURILLO",
@@ -25,8 +26,8 @@
       "raw_discipline_name": "200m Mujeres",
       "wind": "-2.5",
       "internal_id": 965,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     }
-  ],
-  "is_short_track": false
+  ]
 }

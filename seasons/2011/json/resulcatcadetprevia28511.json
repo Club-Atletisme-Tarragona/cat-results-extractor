@@ -14,7 +14,8 @@
       "performance": "12:55.22",
       "wind": null,
       "internal_id": 357,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "MARIA ALVAREZ AUÑOS",
@@ -25,7 +26,8 @@
       "performance": "1.48",
       "wind": null,
       "internal_id": 346,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "MARIA ALVAREZ AUÑOS",
@@ -36,8 +38,8 @@
       "performance": "2.30",
       "wind": null,
       "internal_id": 346,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     }
-  ],
-  "is_short_track": false
+  ]
 }

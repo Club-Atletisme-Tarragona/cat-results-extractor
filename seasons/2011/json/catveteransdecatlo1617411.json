@@ -14,7 +14,8 @@
       "performance": "4.98",
       "wind": null,
       "internal_id": 71,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "PARDINES GRAS PERE",
@@ -25,7 +26,8 @@
       "performance": "7.21",
       "wind": null,
       "internal_id": 71,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "PARDINES GRAS PERE",
@@ -36,7 +38,8 @@
       "performance": "6.97",
       "wind": null,
       "internal_id": 71,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "PARDINES GRAS PERE",
@@ -47,8 +50,8 @@
       "performance": "1.54",
       "wind": null,
       "internal_id": 71,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     }
-  ],
-  "is_short_track": false
+  ]
 }

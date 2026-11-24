@@ -4,7 +4,6 @@
   "event_location": "Club                                             Lic",
   "total_results": 6,
   "event_src": "https://old.fcatletisme.cat/Pcoberta/2016/resulcatinfantilpc120316.pdf",
-  "is_short_track": true,
   "results": [
     {
       "athlete_name": "Laurineelisa Marimon Fernandez",
@@ -16,7 +15,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 737
+      "internal_id": 737,
+      "is_short_track": true
     },
     {
       "athlete_name": "Laurineelisa Marimon Fernandez",
@@ -28,7 +28,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 737
+      "internal_id": 737,
+      "is_short_track": true
     },
     {
       "athlete_name": "Laurineelisa Marimon Fernandez",
@@ -40,7 +41,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 737
+      "internal_id": 737,
+      "is_short_track": true
     },
     {
       "athlete_name": "Laurineelisa Marimon Fernandez",
@@ -52,7 +54,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 737
+      "internal_id": 737,
+      "is_short_track": true
     },
     {
       "athlete_name": "Laurineelisa Marimon Fernandez",
@@ -64,7 +67,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 737
+      "internal_id": 737,
+      "is_short_track": true
     },
     {
       "athlete_name": "Laurineelisa Marimon Fernandez",
@@ -76,7 +80,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 737
+      "internal_id": 737,
+      "is_short_track": true
     }
   ]
 }

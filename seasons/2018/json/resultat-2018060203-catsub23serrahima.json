@@ -15,7 +15,8 @@
       "wind": null,
       "position": 6,
       "internal_id": 439,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Jan Sans Riola",
@@ -27,7 +28,8 @@
       "wind": "+0.0",
       "position": 3,
       "internal_id": 435,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Andrea Lopez Urbano",
@@ -39,7 +41,8 @@
       "wind": null,
       "position": 9,
       "internal_id": 437,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Andrea Lopez Urbano",
@@ -51,7 +54,8 @@
       "wind": null,
       "position": 9,
       "internal_id": 437,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Andrea Lopez Urbano",
@@ -63,8 +67,8 @@
       "wind": null,
       "position": 9,
       "internal_id": 437,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     }
-  ],
-  "is_short_track": false
+  ]
 }

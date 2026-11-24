@@ -15,7 +15,8 @@
       "wind": "-0.5",
       "position": null,
       "internal_id": 527,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "LAURINE ELISA MARIMON FERNANDEZ",
@@ -27,7 +28,8 @@
       "wind": "1.5",
       "position": 8,
       "internal_id": 737,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "LAURINE ELISA MARIMON FERNANDEZ",
@@ -39,7 +41,8 @@
       "wind": "1.0",
       "position": 8,
       "internal_id": 737,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "LAURINE ELISA MARIMON FERNANDEZ",
@@ -51,8 +54,8 @@
       "wind": "2.1",
       "position": 8,
       "internal_id": 737,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     }
-  ],
-  "is_short_track": false
+  ]
 }

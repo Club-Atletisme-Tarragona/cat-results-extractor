@@ -14,7 +14,8 @@
       "performance": "7.23",
       "wind": null,
       "internal_id": 187,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "CARLOS FERRER BARBERAN",
@@ -25,7 +26,8 @@
       "performance": "9:02.13",
       "wind": null,
       "internal_id": 178,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "XAVIER CERVELLO PORTA",
@@ -36,7 +38,8 @@
       "performance": "9:39.54",
       "wind": null,
       "internal_id": 198,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "JOSE FRANCISCO GARCIA NAVARRETE",
@@ -47,7 +50,8 @@
       "performance": "9:40.98",
       "wind": null,
       "internal_id": 5,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "JOAN BARDINA TOMAS",
@@ -58,7 +62,8 @@
       "performance": "9:41.28",
       "wind": null,
       "internal_id": 7,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "ALEJANDRO LOPEZ VILA",
@@ -69,7 +74,8 @@
       "performance": "10:54.40",
       "wind": null,
       "internal_id": null,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "EULALIA VIDAL CASADO",
@@ -80,7 +86,8 @@
       "performance": "RET.",
       "wind": null,
       "internal_id": 225,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "ESTER ARAGONES VIDAL",
@@ -91,8 +98,8 @@
       "performance": "11:03.53",
       "wind": null,
       "internal_id": 134,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     }
-  ],
-  "is_short_track": true
+  ]
 }

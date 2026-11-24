@@ -14,7 +14,8 @@
       "performance": "1.60",
       "wind": null,
       "internal_id": 216,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "ALVARO MARCO CAZCARRA",
@@ -25,7 +26,8 @@
       "performance": "1.54",
       "wind": null,
       "internal_id": 220,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "ALVARO MARCO CAZCARRA",
@@ -36,8 +38,8 @@
       "performance": "2.90",
       "wind": null,
       "internal_id": 220,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     }
-  ],
-  "is_short_track": false
+  ]
 }

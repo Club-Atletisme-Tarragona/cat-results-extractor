@@ -14,7 +14,8 @@
       "wind": "-1.1",
       "position": null,
       "internal_id": 645,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Pablo Angel Fernandez",
@@ -25,7 +26,8 @@
       "wind": "-1.0",
       "position": null,
       "internal_id": 704,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Leire Dominguez Izaga",
@@ -36,7 +38,8 @@
       "wind": "-0.1",
       "position": null,
       "internal_id": 743,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Claudia Mir Casellas",
@@ -47,7 +50,8 @@
       "wind": "+0.0",
       "position": null,
       "internal_id": 699,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Leire Dominguez Izaga",
@@ -58,8 +62,8 @@
       "wind": null,
       "position": null,
       "internal_id": 743,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     }
-  ],
-  "is_short_track": false
+  ]
 }

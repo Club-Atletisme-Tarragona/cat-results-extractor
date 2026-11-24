@@ -14,7 +14,8 @@
       "raw_discipline_name": "60m MASC. AL",
       "wind": null,
       "internal_id": null,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "David Bonnin",
@@ -25,7 +26,8 @@
       "raw_discipline_name": "Llargada MASC. AL",
       "wind": null,
       "internal_id": 710,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Nil Pinyol",
@@ -36,7 +38,8 @@
       "raw_discipline_name": "Llargada MASC. AL",
       "wind": null,
       "internal_id": 714,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Nil Pinyol",
@@ -47,7 +50,8 @@
       "raw_discipline_name": "Llargada MASC. AL",
       "wind": null,
       "internal_id": 714,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Nil Pinyol",
@@ -58,7 +62,8 @@
       "raw_discipline_name": "Llargada MASC. AL",
       "wind": null,
       "internal_id": 714,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Juan Gonzalez",
@@ -69,7 +74,8 @@
       "raw_discipline_name": "1.000m Marxa MASC. en pista",
       "wind": null,
       "internal_id": 1079,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Carla Berenguel",
@@ -80,7 +86,8 @@
       "raw_discipline_name": "60m FEM. AL",
       "wind": null,
       "internal_id": null,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Marta Ros",
@@ -91,7 +98,8 @@
       "raw_discipline_name": "LlargadaFEM. AL",
       "wind": null,
       "internal_id": 1675,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Laura Mascarell",
@@ -102,8 +110,8 @@
       "raw_discipline_name": "1.000m Marxa FEM. en pista",
       "wind": null,
       "internal_id": 646,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     }
-  ],
-  "is_short_track": false
+  ]
 }

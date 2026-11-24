@@ -14,7 +14,8 @@
       "performance": "10.21",
       "wind": null,
       "internal_id": 527,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "LOPEZ URBANO MIREIA",
@@ -25,7 +26,8 @@
       "performance": "3.47",
       "wind": null,
       "internal_id": 527,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "LOPEZ URBANO MIREIA",
@@ -36,8 +38,8 @@
       "performance": "3.01",
       "wind": null,
       "internal_id": 527,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     }
-  ],
-  "is_short_track": false
+  ]
 }

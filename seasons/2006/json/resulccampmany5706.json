@@ -14,7 +14,8 @@
       "performance": "16:52.16",
       "wind": null,
       "internal_id": 178,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "JOSE FRANC GARCIA NAVARRETE",
@@ -25,7 +26,8 @@
       "performance": "17:22.21",
       "wind": null,
       "internal_id": 5,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "EMILI BARBERAN DE MIQUEL",
@@ -36,7 +38,8 @@
       "performance": "18:09.89",
       "wind": null,
       "internal_id": 267,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "ESTER ARAGONES VIDAL",
@@ -47,8 +50,8 @@
       "performance": "2:21.28",
       "wind": null,
       "internal_id": 134,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     }
-  ],
-  "is_short_track": false
+  ]
 }

@@ -14,7 +14,8 @@
       "raw_discipline_name": "2.000m Obst. Mujeres",
       "wind": null,
       "internal_id": 1030,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "NOEMI GONZALEZ CARRILLO",
@@ -25,8 +26,8 @@
       "raw_discipline_name": "13:15   2.000m Obst. Mujeres                                                       Final",
       "wind": null,
       "internal_id": 1030,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     }
-  ],
-  "is_short_track": false
+  ]
 }

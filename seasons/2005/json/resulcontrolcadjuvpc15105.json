@@ -14,7 +14,8 @@
       "performance": "7.97",
       "wind": null,
       "internal_id": 257,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "IVAN BENITEZ LAZCANO",
@@ -25,7 +26,8 @@
       "performance": "9.20",
       "wind": null,
       "internal_id": 257,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "ANNA SOLE FERRE",
@@ -36,7 +38,8 @@
       "performance": "8.04",
       "wind": null,
       "internal_id": 233,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "ANNA SOLE FERRE",
@@ -47,8 +50,8 @@
       "performance": "9.67",
       "wind": null,
       "internal_id": 233,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     }
-  ],
-  "is_short_track": true
+  ]
 }

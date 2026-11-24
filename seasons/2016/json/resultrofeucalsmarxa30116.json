@@ -14,7 +14,8 @@
       "raw_discipline_name": "60m MASC. AL",
       "wind": "-0.5",
       "internal_id": 435,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Jesus Muñoz Vazquez",
@@ -25,7 +26,8 @@
       "raw_discipline_name": "60m MASC. AL",
       "wind": "-0.5",
       "internal_id": 444,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Josep Ramon Argilaga Salvado",
@@ -36,7 +38,8 @@
       "raw_discipline_name": "60m MASC. AL",
       "wind": "-0.4",
       "internal_id": 421,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Mohamed Maman",
@@ -47,7 +50,8 @@
       "raw_discipline_name": "400m MASC. AL",
       "wind": null,
       "internal_id": 496,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Sergio Marcos Moreno",
@@ -58,7 +62,8 @@
       "raw_discipline_name": "400m MASC. AL",
       "wind": null,
       "internal_id": 453,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Jan Sans Riola",
@@ -69,7 +74,8 @@
       "raw_discipline_name": "Longitud MASC. AL",
       "wind": "-0.5",
       "internal_id": 435,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Jan Sans Riola",
@@ -80,7 +86,8 @@
       "raw_discipline_name": "Longitud MASC. AL",
       "wind": "-0.1",
       "internal_id": 435,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Jan Sans Riola",
@@ -91,7 +98,8 @@
       "raw_discipline_name": "Longitud MASC. AL",
       "wind": "-0.2",
       "internal_id": 435,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Jan Sans Riola",
@@ -102,7 +110,8 @@
       "raw_discipline_name": "Longitud MASC. AL",
       "wind": "-0.6",
       "internal_id": 435,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Jan Sans Riola",
@@ -113,7 +122,8 @@
       "raw_discipline_name": "Longitud MASC. AL",
       "wind": "+0.8",
       "internal_id": 435,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Mireia Lopez Urbano",
@@ -124,7 +134,8 @@
       "raw_discipline_name": "60m FEM. AL",
       "wind": "-0.2",
       "internal_id": 527,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Nerea Lago Garbajosa",
@@ -135,7 +146,8 @@
       "raw_discipline_name": "60m FEM. AL",
       "wind": "-0.1",
       "internal_id": 534,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Mireia Lopez Urbano",
@@ -146,7 +158,8 @@
       "raw_discipline_name": "Longitud FEM. AL",
       "wind": "-0.5",
       "internal_id": 527,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Mireia Lopez Urbano",
@@ -157,7 +170,8 @@
       "raw_discipline_name": "Longitud FEM. AL",
       "wind": "-0.1",
       "internal_id": 527,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Mireia Lopez Urbano",
@@ -168,7 +182,8 @@
       "raw_discipline_name": "Longitud FEM. AL",
       "wind": "-0.6",
       "internal_id": 527,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Laura Mascarell Julian",
@@ -179,8 +194,8 @@
       "raw_discipline_name": "3.000m Marcha FEM. en pista",
       "wind": null,
       "internal_id": 646,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     }
-  ],
-  "is_short_track": false
+  ]
 }

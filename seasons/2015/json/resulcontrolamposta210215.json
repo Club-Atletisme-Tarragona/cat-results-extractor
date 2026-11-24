@@ -14,7 +14,8 @@
       "performance": "2.30",
       "wind": null,
       "internal_id": 643,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "HELENA RIOS MONTSERRAT",
@@ -25,7 +26,8 @@
       "performance": "2.10",
       "wind": null,
       "internal_id": 409,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "NIL PINYOL MATEU",
@@ -36,7 +38,8 @@
       "performance": "1.70",
       "wind": null,
       "internal_id": 714,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "NIL PINYOL MATEU",
@@ -47,7 +50,8 @@
       "performance": "3.34",
       "wind": null,
       "internal_id": 714,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "NIL PINYOL MATEU",
@@ -58,7 +62,8 @@
       "performance": "3.46",
       "wind": null,
       "internal_id": 714,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "NIL PINYOL MATEU",
@@ -69,7 +74,8 @@
       "performance": "3.64",
       "wind": null,
       "internal_id": 714,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "NIL PINYOL MATEU",
@@ -80,7 +86,8 @@
       "performance": "3.39",
       "wind": null,
       "internal_id": 714,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "NIL PINYOL MATEU",
@@ -91,7 +98,8 @@
       "performance": "3.77",
       "wind": null,
       "internal_id": 714,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "NIL PINYOL MATEU",
@@ -102,7 +110,8 @@
       "performance": "3.66",
       "wind": null,
       "internal_id": 714,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Nil Pinyol Mateu",
@@ -113,8 +122,8 @@
       "wind": null,
       "position": null,
       "raw_discipline_name": "60 m.llisos Infantil Masculí",
-      "timing": "manual"
+      "timing": "manual",
+      "is_short_track": false
     }
-  ],
-  "is_short_track": false
+  ]
 }

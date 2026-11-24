@@ -15,7 +15,8 @@
       "wind": null,
       "position": null,
       "internal_id": 510,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Jordi Puig Argudo",
@@ -27,7 +28,8 @@
       "wind": null,
       "position": null,
       "internal_id": 585,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "Bernat Verdu Gomez",
@@ -39,8 +41,8 @@
       "wind": null,
       "position": null,
       "internal_id": 645,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     }
-  ],
-  "is_short_track": true
+  ]
 }

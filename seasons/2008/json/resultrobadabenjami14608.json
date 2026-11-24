@@ -14,7 +14,8 @@
       "performance": "NP",
       "wind": null,
       "internal_id": null,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "LOPEZ URBANO MIREIA",
@@ -25,7 +26,8 @@
       "performance": "2.77",
       "wind": null,
       "internal_id": 527,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "LOPEZ URBANO MIREIA",
@@ -36,7 +38,8 @@
       "performance": "2.65",
       "wind": null,
       "internal_id": 527,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "LOPEZ URBANO MIREIA",
@@ -47,7 +50,8 @@
       "performance": "2.11",
       "wind": null,
       "internal_id": 527,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "LAGO GARBAJOSA NEREA",
@@ -58,7 +62,8 @@
       "performance": "1.76",
       "wind": null,
       "internal_id": 534,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "LAGO GARBAJOSA NEREA",
@@ -69,7 +74,8 @@
       "performance": "2.08",
       "wind": null,
       "internal_id": 534,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "LAGO GARBAJOSA NEREA",
@@ -80,7 +86,8 @@
       "performance": "2.41",
       "wind": null,
       "internal_id": 534,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "FLORES PIÑAS MARINA",
@@ -91,8 +98,8 @@
       "performance": "NP",
       "wind": null,
       "internal_id": null,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     }
-  ],
-  "is_short_track": false
+  ]
 }

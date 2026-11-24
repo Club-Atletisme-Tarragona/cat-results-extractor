@@ -14,7 +14,8 @@
       "performance": "4.84",
       "wind": null,
       "internal_id": 598,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "TORTAJADA PINTO BLANCA",
@@ -25,7 +26,8 @@
       "performance": "31.52",
       "wind": null,
       "internal_id": 310,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "MONTAÑES ARBO MONTSERRAT",
@@ -36,7 +38,8 @@
       "performance": "38.95",
       "wind": null,
       "internal_id": 497,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Rovira Morcillo, Paula",
@@ -48,7 +51,8 @@
       "position": null,
       "raw_discipline_name": "SALT DE LLARGADA                                   CADET FEMENÍ",
       "timing": "electronic",
-      "internal_id": 598
+      "internal_id": 598,
+      "is_short_track": false
     },
     {
       "athlete_name": "tramit Zubkova, Irina",
@@ -60,7 +64,8 @@
       "position": null,
       "raw_discipline_name": "SALT DE LLARGADA                                   CADET FEMENÍ",
       "timing": "electronic",
-      "internal_id": 1477
+      "internal_id": 1477,
+      "is_short_track": false
     },
     {
       "athlete_name": "Tortajada Pinto, Blanca",
@@ -72,7 +77,8 @@
       "position": null,
       "raw_discipline_name": "MARTELL FEMENÍ               ( 4 kg,)",
       "timing": "electronic",
-      "internal_id": 310
+      "internal_id": 310,
+      "is_short_track": false
     },
     {
       "athlete_name": "Montañes Arbo, Montserrat",
@@ -84,7 +90,8 @@
       "position": null,
       "raw_discipline_name": "MARTELL CADET - JUVENIL FEMENÍ (3 KG.)",
       "timing": "electronic",
-      "internal_id": 497
+      "internal_id": 497,
+      "is_short_track": false
     },
     {
       "athlete_name": "Andreu San Millan, Elena",
@@ -96,7 +103,8 @@
       "position": null,
       "raw_discipline_name": "MARTELL CADET - JUVENIL FEMENÍ (3 KG.)",
       "timing": "electronic",
-      "internal_id": null
+      "internal_id": null,
+      "is_short_track": false
     },
     {
       "athlete_name": "Centella Madorran, Laura",
@@ -108,7 +116,8 @@
       "position": null,
       "raw_discipline_name": "MARTELL CADET - JUVENIL FEMENÍ (3 KG.)",
       "timing": "electronic",
-      "internal_id": null
+      "internal_id": null,
+      "is_short_track": false
     },
     {
       "athlete_name": "Cardeñosa Ramos, Paula",
@@ -120,7 +129,8 @@
       "position": null,
       "raw_discipline_name": "MARTELL CADET - JUVENIL FEMENÍ (3 KG.)",
       "timing": "electronic",
-      "internal_id": null
+      "internal_id": null,
+      "is_short_track": false
     },
     {
       "athlete_name": "Arjona Gallego, Irene",
@@ -132,8 +142,8 @@
       "position": null,
       "raw_discipline_name": "MARTELL CADET - JUVENIL FEMENÍ (3 KG.)",
       "timing": "electronic",
-      "internal_id": null
+      "internal_id": null,
+      "is_short_track": false
     }
-  ],
-  "is_short_track": false
+  ]
 }

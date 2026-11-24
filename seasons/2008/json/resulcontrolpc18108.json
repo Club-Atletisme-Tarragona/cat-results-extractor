@@ -14,7 +14,8 @@
       "performance": "9.28",
       "wind": null,
       "internal_id": 15,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "PERE PARDINES GRAS",
@@ -25,7 +26,8 @@
       "performance": "10.30",
       "wind": null,
       "internal_id": 71,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "FRANCISCO JOSE IBORRA MARTINEZ",
@@ -36,8 +38,8 @@
       "performance": "10.38",
       "wind": null,
       "internal_id": 1,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     }
-  ],
-  "is_short_track": true
+  ]
 }

@@ -14,7 +14,8 @@
       "performance": "7.46",
       "wind": null,
       "internal_id": 217,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "BERNAT ROCAMORA CHAPARRO",
@@ -25,7 +26,8 @@
       "performance": "24.29",
       "wind": null,
       "internal_id": 217,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "CARLOS FERRER BARBERAN",
@@ -36,7 +38,8 @@
       "performance": "9:32.71",
       "wind": null,
       "internal_id": 178,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "XAVIER RODRIGUEZ CANO",
@@ -47,7 +50,8 @@
       "performance": "9:40.91",
       "wind": null,
       "internal_id": 245,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "JOSE FRANCISCO GARCIA NAVARRETE",
@@ -58,7 +62,8 @@
       "performance": "9:51.09",
       "wind": null,
       "internal_id": 5,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "JOSE MANUEL VELASCO FERNANDEZ",
@@ -69,7 +74,8 @@
       "performance": "10:45.73",
       "wind": null,
       "internal_id": 246,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "ANNA SOLE FERRE",
@@ -80,7 +86,8 @@
       "performance": "8.02",
       "wind": null,
       "internal_id": 233,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     },
     {
       "athlete_name": "ANNA SOLE FERRE",
@@ -91,8 +98,8 @@
       "performance": "26.37",
       "wind": null,
       "internal_id": 233,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": true
     }
-  ],
-  "is_short_track": true
+  ]
 }

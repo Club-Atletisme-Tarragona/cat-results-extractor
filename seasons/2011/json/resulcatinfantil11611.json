@@ -14,7 +14,8 @@
       "raw_discipline_name": "80m MASC. AL",
       "wind": null,
       "internal_id": 434,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Adolf Milla",
@@ -25,7 +26,8 @@
       "raw_discipline_name": "80m MASC. AL",
       "wind": null,
       "internal_id": 434,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Adolf Milla",
@@ -36,7 +38,8 @@
       "raw_discipline_name": "150m MASC. AL",
       "wind": null,
       "internal_id": 434,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Adolf Milla",
@@ -47,8 +50,8 @@
       "raw_discipline_name": "150m MASC. AL",
       "wind": null,
       "internal_id": 434,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     }
-  ],
-  "is_short_track": false
+  ]
 }

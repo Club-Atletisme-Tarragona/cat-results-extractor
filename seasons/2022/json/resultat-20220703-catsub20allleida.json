@@ -14,7 +14,8 @@
       "wind": "-0.6",
       "position": null,
       "internal_id": 704,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Pablo Angel Fernandez",
@@ -25,7 +26,8 @@
       "wind": "+3.5",
       "position": 3,
       "internal_id": 704,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Oscar Lefler Cortes",
@@ -36,7 +38,8 @@
       "wind": null,
       "position": 1,
       "internal_id": 758,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Nil Pinyol Mateu",
@@ -47,7 +50,8 @@
       "wind": "+0.0",
       "position": 10,
       "internal_id": 714,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Nil Pinyol Mateu",
@@ -58,7 +62,8 @@
       "wind": "+0.0",
       "position": 10,
       "internal_id": 714,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Nil Pinyol Mateu",
@@ -69,7 +74,8 @@
       "wind": "+0.0",
       "position": 10,
       "internal_id": 714,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Nil Pinyol Mateu",
@@ -80,7 +86,8 @@
       "wind": "+1.4",
       "position": 8,
       "internal_id": 714,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Nil Pinyol Mateu",
@@ -91,7 +98,8 @@
       "wind": "+1.2",
       "position": 8,
       "internal_id": 714,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Nil Pinyol Mateu",
@@ -102,7 +110,8 @@
       "wind": "+1.6",
       "position": 8,
       "internal_id": 714,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Nil Pinyol Mateu",
@@ -113,7 +122,8 @@
       "wind": "+0.0",
       "position": 8,
       "internal_id": 714,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Claudia Mir Casellas",
@@ -124,7 +134,8 @@
       "wind": null,
       "position": 2,
       "internal_id": 699,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     },
     {
       "athlete_name": "Carla Gonzalez Carrillo",
@@ -135,8 +146,8 @@
       "wind": null,
       "position": 3,
       "internal_id": 698,
-      "timing": "electronic"
+      "timing": "electronic",
+      "is_short_track": false
     }
-  ],
-  "is_short_track": false
+  ]
 }

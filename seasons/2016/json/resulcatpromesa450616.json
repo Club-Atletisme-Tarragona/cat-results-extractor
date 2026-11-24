@@ -4,7 +4,6 @@
   "event_location": "Club                                             Lic",
   "total_results": 12,
   "event_src": "https://old.fcatletisme.cat/Pairelliure/2016/resulcatpromesa450616.pdf",
-  "is_short_track": false,
   "results": [
     {
       "athlete_name": "Daina Martinez Falguera",
@@ -16,7 +15,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 543
+      "internal_id": 543,
+      "is_short_track": false
     },
     {
       "athlete_name": "Daina Martinez Falguera",
@@ -28,7 +28,8 @@
       "wind": null,
       "position": 6,
       "timing": "electronic",
-      "internal_id": 543
+      "internal_id": 543,
+      "is_short_track": false
     },
     {
       "athlete_name": "Daina Martinez Falguera",
@@ -40,7 +41,8 @@
       "wind": null,
       "position": null,
       "timing": "electronic",
-      "internal_id": 543
+      "internal_id": 543,
+      "is_short_track": false
     },
     {
       "athlete_name": "Daina Martinez Falguera",
@@ -52,7 +54,8 @@
       "wind": null,
       "position": 6,
       "timing": "electronic",
-      "internal_id": 543
+      "internal_id": 543,
+      "is_short_track": false
     },
     {
       "athlete_name": "Maria Alvarez Auños",
@@ -64,7 +67,8 @@
       "wind": null,
       "position": 2,
       "timing": "electronic",
-      "internal_id": 346
+      "internal_id": 346,
+      "is_short_track": false
     },
     {
       "athlete_name": "Maria Alvarez Auños",
@@ -76,7 +80,8 @@
       "wind": "+1.5",
       "position": 3,
       "timing": "electronic",
-      "internal_id": 346
+      "internal_id": 346,
+      "is_short_track": false
     },
     {
       "athlete_name": "Maria Alvarez Auños",
@@ -88,7 +93,8 @@
       "wind": "+1.9",
       "position": 3,
       "timing": "electronic",
-      "internal_id": 346
+      "internal_id": 346,
+      "is_short_track": false
     },
     {
       "athlete_name": "Maria Alvarez Auños",
@@ -100,7 +106,8 @@
       "wind": "+1.5",
       "position": 3,
       "timing": "electronic",
-      "internal_id": 346
+      "internal_id": 346,
+      "is_short_track": false
     },
     {
       "athlete_name": "Maria Alvarez Auños",
@@ -112,7 +119,8 @@
       "wind": "+0.5",
       "position": 3,
       "timing": "electronic",
-      "internal_id": 346
+      "internal_id": 346,
+      "is_short_track": false
     },
     {
       "athlete_name": "Maria Alvarez Auños",
@@ -124,7 +132,8 @@
       "wind": "+1.5",
       "position": 3,
       "timing": "electronic",
-      "internal_id": 346
+      "internal_id": 346,
+      "is_short_track": false
     },
     {
       "athlete_name": "Gemma Ruiz Sabate",
@@ -136,7 +145,8 @@
       "wind": null,
       "position": 3,
       "timing": "electronic",
-      "internal_id": 464
+      "internal_id": 464,
+      "is_short_track": false
     },
     {
       "athlete_name": "Gemma Ruiz Sabate",
@@ -148,7 +158,8 @@
       "wind": null,
       "position": 3,
       "timing": "electronic",
-      "internal_id": 464
+      "internal_id": 464,
+      "is_short_track": false
     }
   ]
 }
